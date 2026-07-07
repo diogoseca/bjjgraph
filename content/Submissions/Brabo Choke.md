@@ -91,7 +91,7 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Brabo Choke/from Front Headlock|Front Headlock]] | Top | 58% | [[Submissions/Brabo Choke/from Front Headlock/Attacker|Attack →]] | [[Submissions/Brabo Choke/from Front Headlock/Defender|Defend →]] |
+| [[Submissions/Brabo Choke/from Front Headlock|Front Headlock]] | Top | 52% | [[Submissions/Brabo Choke/from Front Headlock/Attacker|Attack →]] | [[Submissions/Brabo Choke/from Front Headlock/Defender|Defend →]] |
 
 
 </div>

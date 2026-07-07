@@ -137,17 +137,15 @@ From top perspective, Old School demands sophisticated pressure management and p
 ### Available Transitions
 
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (46% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (48% of attempts)
 
-- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (14% of attempts)
+- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (15% of attempts)
 
-- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (12% of attempts)
+- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (13% of attempts)
 
 - **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (12% of attempts)
 
 - **[[Positions/Dogfight Position/Attacker|Dogfight Position]]** (9% of attempts)
-
-- **[[Transitions/Old School Sweep from Bottom/Attacker|Old School Sweep from Bottom]]** (4% of attempts)
 
 - **[[Transitions/Old School to Half Guard/Attacker|Old School to Half Guard]]** (2% of attempts)
 

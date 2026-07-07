@@ -66,7 +66,7 @@ The strategic value of this escape lies in its reliability when the opponent has
 Timing is critical for this technique - the roll must be explosive enough to create separation but controlled enough to immediately establish the tight defensive turtle structure with elbows to knees and chin tucked. Executing this escape too slowly allows the opponent to follow and establish back control with hooks, negating the escape entirely.
 
 **From Position**: [[Positions/Side Control]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 36%
 
 </section>
 

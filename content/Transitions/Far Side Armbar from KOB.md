@@ -66,7 +66,7 @@ What makes the far side armbar particularly effective is the element of misdirec
 The technique fits within a broader knee on belly attack system where each submission threat creates openings for others. When the opponent defends the baseball bat choke by tucking their chin, their arms naturally extend. When they frame against the knee, the far arm becomes available. This interconnected threat matrix transforms knee on belly from a simple pressure position into a sophisticated submission platform where the far side armbar serves as a key weapon that punishes the arm most defenders consider safe.
 
 **From Position**: [[Positions/Knee on Belly]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 29%
 
 </section>
 

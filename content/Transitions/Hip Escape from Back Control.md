@@ -66,7 +66,7 @@ Unlike explosive escape attempts that waste energy and often expose the neck to 
 The hip escape integrates into the broader back escape system as a medium-risk, medium-reward option that works reliably across all skill levels and body types. It complements other escape methods like the back door escape and turtle transitions, and can be chained with guard recovery techniques when the initial escape creates sufficient separation from the opponent's control. The technique is particularly effective against opponents who prioritize hook control over submission attacks, as the sequential hip scooting motion directly addresses the hook placement that anchors the back control position.
 
 **From Position**: [[Positions/Back Control]] (Bottom)
-**Success Rate**: 40%
+**Success Rate**: 34%
 
 </section>
 

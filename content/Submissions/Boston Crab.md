@@ -91,7 +91,7 @@ The Boston Crab is a compression submission that targets the opponent's lumbar s
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Boston Crab/from Turtle|Turtle]] | Top | 42% | [[Submissions/Boston Crab/from Turtle/Attacker|Attack →]] | [[Submissions/Boston Crab/from Turtle/Defender|Defend →]] |
+| [[Submissions/Boston Crab/from Turtle|Turtle]] | Top | 62% | [[Submissions/Boston Crab/from Turtle/Attacker|Attack →]] | [[Submissions/Boston Crab/from Turtle/Defender|Defend →]] |
 
 
 </div>

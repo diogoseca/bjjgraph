@@ -259,7 +259,6 @@ The technique requires excellent timing, spatial awareness, and flexibility, as 
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Triangle Choke]]
 - [[Positions/Buggy Choke]]
-- [[Submissions/Gift Wrap Armbar]]
 - [[Submissions/Kimura]]
 - [[Positions/Omoplata Control]] - Control position achieved before finishing the rolling omoplata submission
 - [[Positions/Triangle Control]] - Alternative control position when omoplata is defended by grabbing belt or turning in

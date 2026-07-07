@@ -54,7 +54,7 @@ description: "Master the Rear Naked Choke from Crucifix position in BJJ. High-pe
 <span class="meta-chip">Choke</span>
 <span class="meta-chip">Blood Choke</span>
 <span class="meta-chip">Targets Carotid arteries and jugular veins</span>
-<span class="meta-chip">65% success</span>
+<span class="meta-chip">63% success</span>
 </div>
 
 > [!danger] Safety

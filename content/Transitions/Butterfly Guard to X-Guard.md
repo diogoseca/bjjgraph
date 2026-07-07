@@ -66,7 +66,7 @@ This transition is particularly effective against pressure passers who commit th
 From a systems perspective, the butterfly to X-Guard pathway is the most natural and high-percentage method of entering X-Guard in both gi and no-gi competition. It creates a seamless chain where failed butterfly sweeps flow directly into X-Guard entries, maintaining constant offensive pressure and preventing the top player from ever settling into a stable passing position. Mastery of this transition transforms butterfly guard from a single-threat position into a multi-layered attack platform with sweeps, transitions, and leg entanglement entries all available from the same starting configuration.
 
 **From Position**: [[Positions/Butterfly Guard]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 47%
 
 </section>
 

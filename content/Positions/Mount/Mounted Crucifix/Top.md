@@ -26,8 +26,8 @@ description: "Dominate with mounted crucifix top position in BJJ. Complete guide
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Straight Armbar",
-      "text": "From this position, attempt Straight Armbar. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Armbar from Crucifix",
+      "text": "From this position, attempt Armbar from Crucifix. This technique is attempted in 8% of exchanges from this position.",
       "position": 2
     },
     {
@@ -226,7 +226,7 @@ From a teaching perspective, the mounted crucifix demonstrates critical concepts
 
 **If opponent's neck is exposed and both arms are trapped:**
 - Execute **[[Submissions/Rear Naked Choke/Attacker|Rear Naked Choke]]** → [[game-over]] (Probability: 75%)
-- Execute **[[Submissions/Neck Crank/Attacker|Neck Crank]]** → [[game-over]] (Probability: 65%)
+- Execute **[[Neck Crank/Attacker|Neck Crank]]** → [[game-over]] (Probability: 65%)
 
 
 **If opponent extends trapped arm attempting extraction:**

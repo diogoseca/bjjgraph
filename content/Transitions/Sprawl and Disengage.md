@@ -66,7 +66,7 @@ This technique prioritizes safety and position reset over direct passing. Rather
 From a systematic perspective, the Sprawl and Disengage represents intelligent risk management. When facing a skilled grasshopper guard player, attempting to pass through their legs often results in rolling kneebars, ankle locks, or 50-50 entanglements. By disengaging cleanly, you deny them the leg contact they need while maintaining top position and the ability to re-engage on your terms. The technique is particularly valuable in competition where conceding points for a sweep is far worse than resetting to neutral standing.
 
 **From Position**: [[Positions/Grasshopper Guard]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 42%
 
 </section>
 

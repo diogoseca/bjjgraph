@@ -62,7 +62,7 @@ description: "Master the Single Leg Takedown in BJJ. Complete guide covering ent
 The Single Leg Takedown is one of the most fundamental and high-percentage takedowns in Brazilian Jiu-Jitsu and grappling arts, borrowed from wrestling. This technique involves attacking one of the opponent's legs while maintaining control of their upper body, creating an imbalance that forces them to the mat. The single leg is particularly effective in no-gi competition and MMA contexts, where traditional judo-style throws may be more difficult to execute. Unlike double leg takedowns that require deeper penetration and expose the practitioner to guillotine chokes, the single leg offers a more upright finishing position with multiple mechanical advantages. The technique's versatility lies in its numerous finishing variations - from the classic run-the-pipe to trips, dumps, and elevation finishes - allowing practitioners to adapt based on opponent reactions and defensive responses. Mastery of the single leg takedown provides a reliable method for taking the fight to the ground while maintaining dominant positioning, making it an essential skill for competitors at all levels who seek to control where and how the match is contested.
 
 **From Position**: [[Positions/Clinch]] (Top)
-**Success Rate**: 60%
+**Success Rate**: 44%
 
 </section>
 

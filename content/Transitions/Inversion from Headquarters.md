@@ -66,7 +66,7 @@ This movement represents a critical skill for modern guard players facing system
 Timing is paramount for successful execution. The inversion must be initiated during a transitional moment, typically when the passer shifts weight to begin a passing sequence like a knee cut or toreando. Attempting the inversion against a settled, heavy headquarters position dramatically reduces success rates and increases the risk of being caught mid-roll in an exposed position. Advanced practitioners learn to bait specific passing reactions that create the weight-shift windows necessary for clean inversions, transforming the passer's aggression into their own escape opportunity.
 
 **From Position**: [[Positions/Headquarters Position]] (Bottom)
-**Success Rate**: 50%
+**Success Rate**: 34%
 
 </section>
 

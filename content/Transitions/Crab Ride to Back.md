@@ -66,7 +66,7 @@ Historically developed and refined through wrestling's emphasis on top control, 
 What makes this transition particularly effective is the combination of mechanical advantage and limited defensive options available to the bottom player. From the Crab Ride, the top player controls crucial aspects of their opponent's base and posture, making it extremely difficult to resist the back take. Understanding proper weight distribution, hook placement, and timing of the roll or slide to back control separates successful execution from defensive stalemates. This technique exemplifies the principle of positional dominance leading to back control, one of the most advantageous positions in all of grappling.
 
 **From Position**: [[Positions/Crab Ride]] (Top)
-**Success Rate**: 72%
+**Success Rate**: 52%
 
 </section>
 

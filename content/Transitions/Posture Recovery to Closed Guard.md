@@ -66,7 +66,7 @@ The transition requires precise timing and mechanical understanding of how to cr
 Strategically, this transition is essential because it transforms a position where you face constant back attack threats into one where you control distance and have access to sweeps, submissions, and positional improvements. The key insight is that posture recovery precedes guard recovery - attempting to close guard without first establishing proper spinal alignment and hip positioning leads to failed attempts and often accelerates back exposure.
 
 **From Position**: [[Positions/Crackhead Control]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 26%
 
 </section>
 

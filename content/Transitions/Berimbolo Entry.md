@@ -64,7 +64,7 @@ The Berimbolo Entry is a revolutionary back-taking technique that emerged from t
 The berimbolo represents a paradigm shift in guard play, prioritizing movement and angles over traditional sweeping mechanics. By inverting underneath the opponent, the practitioner creates a unique angle of attack that bypasses conventional passing defenses. The technique requires excellent hip mobility, timing, and spatial awareness, but when executed properly, it offers one of the highest percentage paths to back control in modern jiu-jitsu. The entry phase is crucial - proper De La Riva hook placement and grip control determine whether the inversion will be successful or if the opponent can counter-rotate to prevent the back take.
 
 **From Position**: [[Positions/De La Riva Guard]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 19%
 
 </section>
 

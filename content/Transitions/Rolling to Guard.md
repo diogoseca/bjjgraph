@@ -66,7 +66,7 @@ Strategically, Rolling to Guard occupies a critical niche in the defensive hiera
 Mastery requires understanding the interplay between framing, momentum generation, and directional control. Rolling straight backward exposes the back; rolling at a 45-degree angle across the shoulder creates separation from the opponent's centerline and ensures you emerge facing them. The transition from rolling motion to guard establishment must be seamless - any pause between completing the roll and securing grips or hooks creates a passing window the top player will exploit. Practitioners who chain this technique with immediate guard attacks or sweeps convert defensive recovery into offensive initiative.
 
 **From Position**: [[Positions/Turtle]] (Bottom)
-**Success Rate**: 75%
+**Success Rate**: 44%
 
 </section>
 

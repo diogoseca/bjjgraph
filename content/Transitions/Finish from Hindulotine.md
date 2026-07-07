@@ -253,7 +253,7 @@ The Finish from Hindulotine serves as the terminal submission pathway within the
 
 - [[Submissions/Arm in Guillotine]] - Related submission variation with arm trapped in choking configuration
 
-- [[Submissions/Chin Strap Guillotine]] - Alternative grip variation applicable to Hindulotine finishing mechanics
+- [[Chin Strap Guillotine]] - Alternative grip variation applicable to Hindulotine finishing mechanics
 
 
 </section>

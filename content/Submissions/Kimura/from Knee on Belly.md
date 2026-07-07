@@ -54,7 +54,7 @@ description: "Master the Kimura from Knee on Belly in BJJ. Learn how KOB pressur
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Shoulder Lock</span>
 <span class="meta-chip">Targets Shoulder joint, rotator cuff, and shoulder capsule</span>
-<span class="meta-chip">62% success</span>
+<span class="meta-chip">23% success</span>
 </div>
 
 > [!danger] Safety

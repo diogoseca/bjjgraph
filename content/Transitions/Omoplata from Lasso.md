@@ -66,7 +66,7 @@ This transition is particularly effective because it capitalizes on the opponent
 Strategically, the omoplata threat from lasso creates a powerful branching attack system. If the opponent defends the omoplata entry by posturing up, they become vulnerable to lasso sweeps. If they drive forward to prevent the hip rotation, they open themselves to triangle entries. This makes the mere threat of the omoplata as valuable as the technique itself, forcing the top player into a defensive dilemma where every reaction opens a different attacking pathway for the guard player.
 
 **From Position**: [[Positions/Lasso Guard]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 13%
 
 </section>
 

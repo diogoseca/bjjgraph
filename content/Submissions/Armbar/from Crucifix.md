@@ -54,7 +54,7 @@ description: "Master Armbar from Crucifix in BJJ. Complete guide with safety pro
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Arm Lock</span>
 <span class="meta-chip">Targets Elbow joint</span>
-<span class="meta-chip">62% success</span>
+<span class="meta-chip">40% success</span>
 </div>
 
 > [!danger] Safety

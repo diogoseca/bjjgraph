@@ -66,7 +66,7 @@ The shin shield works by using your inside leg to create a barrier across the op
 Mastering shin shield recovery is critical for developing a robust half guard game. It serves as the foundation for numerous sweeps, back takes, and submissions while simultaneously providing a reliable defensive structure. The technique requires precise hip positioning, proper angle creation, and understanding of weight distribution to maximize effectiveness against various passing attempts.
 
 **From Position**: [[Positions/Leg Hook]] (Bottom)
-**Success Rate**: 72%
+**Success Rate**: 48%
 
 </section>
 

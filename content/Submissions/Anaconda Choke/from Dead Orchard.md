@@ -54,7 +54,7 @@ description: "Master the Anaconda Choke from Dead Orchard in BJJ. Complete guide
 <span class="meta-chip">Choke</span>
 <span class="meta-chip">Blood Choke</span>
 <span class="meta-chip">Targets Neck</span>
-<span class="meta-chip">50% success</span>
+<span class="meta-chip">37% success</span>
 </div>
 
 > [!danger] Safety
@@ -248,7 +248,6 @@ Strategically, this finish thrives on the dilemma it creates within the broader 
 - [[Submissions/Brabo Choke]]
 - [[Submissions/Arm Triangle]]
 - [[Submissions/Arm in Guillotine]]
-- [[Submissions/Chin Strap Guillotine]]
 - [[Positions/Dead Orchard Control]] - Source position—the established control state from which this finish is executed
 - [[Positions/Anaconda Control]] - Parent control position—standard anaconda configuration that precedes Dead Orchard establishment
 - [[Positions/Front Headlock]] - Entry position—common setup state where the anaconda grip is initially established

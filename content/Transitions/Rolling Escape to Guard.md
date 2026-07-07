@@ -66,7 +66,7 @@ Strategically, this escape should be initiated when you recognize the Aoki Lock 
 The Rolling Escape represents the primary high-percentage escape from Aoki Lock, particularly effective when the opponent commits heavily to the shoulder pressure. Success depends on coordinating the roll direction, maintaining internal shoulder rotation throughout, and immediately establishing guard frames upon completing the escape. This technique appears regularly in no-gi competition where shoulder locks from leg entanglements are common finishing positions.
 
 **From Position**: [[Positions/Aoki Lock Control]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 28%
 
 </section>
 

@@ -66,7 +66,7 @@ The strategic value of this pass lies in its direct problem-solving approach. La
 This technique rewards patience and technical precision over athleticism. The clearing sequence requires understanding how the lapel is wrapped and systematically unwinding it rather than ripping against the fabric. The subsequent toreando must be immediate and committed, as any hesitation allows the opponent to recover guard or re-establish lapel grips. The combination of methodical clearing and explosive passing creates an effective solution to one of modern gi grappling's most challenging guard systems.
 
 **From Position**: [[Positions/Lapel Guard]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 41%
 
 </section>
 

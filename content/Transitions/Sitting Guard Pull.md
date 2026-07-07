@@ -64,7 +64,7 @@ The Sitting Guard Pull is one of the most fundamental and reliable methods for e
 The sitting guard pull's high success rate across all skill levels makes it an essential technique for competitors who prefer playing guard, as it reliably achieves the desired position while minimizing risk of injury or positional disadvantage. The critical window of vulnerability occurs during the descent phase, where grip tension and controlled movement determine whether you land in a strong guard or give your opponent a free passing opportunity. Mastery of this technique provides a solid platform for developing a comprehensive guard game, and the mechanical principles transfer directly to guard recovery situations throughout a match.
 
 **From Position**: [[Positions/Standing Position]] (Top)
-**Success Rate**: 75%
+**Success Rate**: 48%
 
 </section>
 

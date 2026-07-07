@@ -258,7 +258,7 @@ The Standing Switch from Rear Clinch occupies a critical node in the standing es
 
 - [[Positions/Body Lock]] - Related grip configuration that the switch must clear during execution
 
-- [[Transitions/Arm Drag from Standing]] - Similar reversal concept using arm drag mechanics from neutral standing position
+- [[Arm Drag from Standing]] - Similar reversal concept using arm drag mechanics from neutral standing position
 
 
 </section>

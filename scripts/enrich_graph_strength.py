@@ -186,8 +186,11 @@ def enrich_graph_json(pos_by_slug: dict) -> dict:
         entry["strength"] = {"attacker": att, "defender": dfn}
         layout_strength["submissions"][slug] = [att, dfn]
 
+    # Pretty-print graph.json (indent=2) to match regenerate_graph.py's writer, so the canonical
+    # `regenerate:graph` umbrella produces ONE consistent format regardless of which step wrote last
+    # (previously base wrote pretty, strength overwrote minified → spurious whole-file diffs).
     with open(GRAPH_JSON, "w", encoding="utf-8") as fh:
-        json.dump(g, fh, separators=(",", ":"))
+        json.dump(g, fh, indent=2, ensure_ascii=False)
     return layout_strength
 
 

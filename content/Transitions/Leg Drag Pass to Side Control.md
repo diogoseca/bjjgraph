@@ -66,7 +66,7 @@ The mechanical principle underlying this consolidation is the progressive transf
 Strategically, this pass should be executed when the opponent flattens out rather than turning away or attempting to sit up. If they turn away, the back take becomes the higher-percentage option. If they turn toward you aggressively, north-south or crucifix transitions may be more appropriate. The side control consolidation is optimal against opponents who accept the bottom position and focus on frame-based defense rather than dynamic escape attempts.
 
 **From Position**: [[Positions/Leg Drag Control]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 63%
 
 </section>
 

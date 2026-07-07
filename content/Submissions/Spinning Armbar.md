@@ -95,7 +95,7 @@ From a biomechanical standpoint, the spinning armbar exploits the principle that
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Spinning Armbar/from Closed Guard|Closed Guard]] | Bottom | 60% | [[Submissions/Spinning Armbar/from Closed Guard/Attacker|Attack →]] | [[Submissions/Spinning Armbar/from Closed Guard/Defender|Defend →]] |
+| [[Submissions/Spinning Armbar/from Closed Guard|Closed Guard]] | Bottom | 65% | [[Submissions/Spinning Armbar/from Closed Guard/Attacker|Attack →]] | [[Submissions/Spinning Armbar/from Closed Guard/Defender|Defend →]] |
 
 
 </div>
@@ -123,7 +123,6 @@ From a biomechanical standpoint, the spinning armbar exploits the principle that
 - [[Transitions/Armbar from Crucifix]] - Arm isolation submission sharing similar extension and control principles
 - [[Submissions/Americana]] - Alternative shoulder lock when spinning armbar rotation is blocked
 - [[Submissions/Arm Triangle]] - Complementary upper body submission chaining from failed spinning armbar scrambles
-- [[Submissions/Flying Armbar]] - Another explosive armbar variation requiring timing and commitment
 - [[Submissions/Far Side Armbar]] - Alternative armbar finishing position when spinning past the opponent's centerline
 - [[Submissions/Triangle Choke]] - Creates arm isolation that can lead to spinning armbar entry
 - [[Submissions/Omoplata]] - Alternative dynamic attack from similar positions

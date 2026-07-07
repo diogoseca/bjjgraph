@@ -66,7 +66,7 @@ This pass represents a critical skill for anyone competing in gi BJJ where moder
 Strategically, this technique should be deployed when you recognize squid guard early and before the bottom player establishes secondary grips or leg entanglements that would compound the problem. The pressure pass works best against opponents who rely primarily on the lapel configuration without developing complementary guard retention skills. Against experienced lapel players who chain multiple configurations together, combining pressure with technical lapel clearing produces superior results.
 
 **From Position**: [[Positions/Lapel Guard]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 39%
 
 </section>
 

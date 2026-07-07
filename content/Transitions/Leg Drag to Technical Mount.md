@@ -66,7 +66,7 @@ This transition capitalizes on the leg drag's inherent mechanics: when you contr
 The strategic value lies in maintaining offensive pressure throughout the transition. Many practitioners lose submissions attempting to consolidate full mount from leg drag, giving opponents time to recover guard. Technical mount eliminates this gap—you arrive with arm triangles, mounted triangles, and armbars immediately available. The position also prevents common mount escapes like the upa because the opponent cannot generate leverage from their side.
 
 **From Position**: [[Positions/Leg Drag Control]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 50%
 
 </section>
 

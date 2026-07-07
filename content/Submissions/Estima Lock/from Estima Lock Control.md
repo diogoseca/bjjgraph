@@ -54,7 +54,7 @@ description: "Master the Estima Lock finish from Estima Lock control. Complete g
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Leg Lock</span>
 <span class="meta-chip">Targets Foot and ankle joints (dorsiflexion of foot)</span>
-<span class="meta-chip">55% success</span>
+<span class="meta-chip">27% success</span>
 </div>
 
 > [!danger] Safety

@@ -66,7 +66,7 @@ From a biomechanical perspective, the Defensive Roll works by accepting and then
 Strategically, this escape must be initiated at the correct moment in the Twister Control sequence. Attempting the roll too early, before the opponent has committed to their controls, allows them to easily readjust. Waiting too long means the spinal rotation is too severe and the escape window has closed. The ideal timing is when the opponent is transitioning their grip to hunt for the Twister finish, as this creates a brief window where their leg control may momentarily weaken. Success requires commitment to the rolling direction and immediate follow-through to a defensive position such as Turtle or Half Guard retention.
 
 **From Position**: [[Positions/Twister Control]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 30%
 
 </section>
 

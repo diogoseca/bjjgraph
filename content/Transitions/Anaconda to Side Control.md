@@ -66,7 +66,7 @@ Strategically, this transition serves a dual purpose within the anaconda system.
 The critical challenge lies in maintaining grip integrity throughout the rotation while preventing the opponent from basing out, posting a hand, or scrambling during the momentum shift. The roll demands full commitment — hesitation allows the defender to establish defensive frames and potentially reverse the position entirely. Understanding the biomechanics of the roll, proper hip positioning before initiation, and the decision point between maintaining the anaconda grip or transitioning to standard side control grips upon arrival is what separates effective execution from positional loss.
 
 **From Position**: [[Positions/Anaconda Control]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 58%
 
 </section>
 

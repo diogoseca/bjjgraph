@@ -54,7 +54,7 @@ description: "Master the High Elbow Guillotine from Guillotine Control. Complete
 <span class="meta-chip">Choke</span>
 <span class="meta-chip">Blood Choke</span>
 <span class="meta-chip">Targets Carotid arteries and trachea</span>
-<span class="meta-chip">58% success</span>
+<span class="meta-chip">45% success</span>
 </div>
 
 > [!danger] Safety
@@ -245,10 +245,8 @@ Strategically, the high elbow variation is the primary answer to the chin tuck d
 - [[Submissions/Guillotine Choke]]
 - [[Submissions/Arm in Guillotine]]
 - [[Submissions/Ten Finger Guillotine]]
-- [[Submissions/Chin Strap Guillotine]]
 - [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
-- [[Submissions/Von Flue Choke]]
 - [[Positions/Guillotine Control]] - Starting position providing established head control and broken posture
 - [[Positions/Front Headlock]] - Precursor control position before securing guillotine grip
 - [[Positions/Closed Guard]] - Common guard position used to maintain control while finishing

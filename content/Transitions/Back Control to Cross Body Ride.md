@@ -66,7 +66,7 @@ The strategic value of this transition lies in its ability to maintain offensive
 Execution requires precise timing and weight distribution awareness. The top player must commit to the lateral shift at the exact moment the opponent's defensive movement creates the angle, maintaining harness or seatbelt grip throughout the transition to prevent any separation. The chest must stay glued to the opponent's back as the hips rotate from behind to beside, with the near-side knee driving into the opponent's hip to prevent guard recovery. This transition exemplifies the principle that positional control is maintained through continuous adaptation rather than static holding.
 
 **From Position**: [[Positions/Back Control]] (Top)
-**Success Rate**: 65%
+**Success Rate**: 49%
 
 </section>
 

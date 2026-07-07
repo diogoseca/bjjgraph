@@ -66,7 +66,7 @@ Strategically, the inverted triangle serves as a critical tool in the triangle a
 The biomechanics of the inverted triangle differ significantly from the standard variation. The choking pressure comes from the opposite angle, with your legs positioned to compress the carotid arteries from behind rather than in front. This requires adjusting your hip angle, leg positioning, and grip placement to accommodate the reversed geometry. The inverted triangle also opens up different transition options, including back takes and armbar variations that aren't available from the standard triangle position.
 
 **From Position**: [[Positions/Triangle Escape Position]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 60%
 
 </section>
 

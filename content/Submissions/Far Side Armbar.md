@@ -95,7 +95,7 @@ This submission appears frequently in both gi and no-gi competition at all level
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Far Side Armbar/from Side Control|Side Control]] | Top | 58% | [[Submissions/Far Side Armbar/from Side Control/Attacker|Attack →]] | [[Submissions/Far Side Armbar/from Side Control/Defender|Defend →]] |
+| [[Submissions/Far Side Armbar/from Side Control|Side Control]] | Top | 50% | [[Submissions/Far Side Armbar/from Side Control/Attacker|Attack →]] | [[Submissions/Far Side Armbar/from Side Control/Defender|Defend →]] |
 
 
 </div>

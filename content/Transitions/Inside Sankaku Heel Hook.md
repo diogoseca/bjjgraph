@@ -66,7 +66,7 @@ Execution requires systematic progression through several control checkpoints be
 The heel hook attacks the knee's ligaments through rotational force transmitted via the heel and ankle, making it one of the most dangerous techniques in grappling. The Inside Sankaku configuration provides superior breaking mechanics because the figure-four entanglement prevents the opponent from rotating with the applied force, amplifying effectiveness while limiting defensive options. This positional advantage is why Inside Sankaku remains the preferred finishing position for elite leg lock specialists in high-level competition.
 
 **From Position**: [[Positions/Inside Sankaku]] (Top)
-**Success Rate**: 50%
+**Success Rate**: 60%
 
 </section>
 

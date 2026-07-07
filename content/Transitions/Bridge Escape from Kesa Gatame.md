@@ -244,7 +244,7 @@ The Bridge Escape from Kesa Gatame occupies a critical role within the Kesa Gata
 
 - [[Transitions/Back Take from Kesa Gatame]] - Alternative escape that exploits opponent's exposed back through turning away
 
-- [[Transitions/Ghost Escape]] - Complementary escape creating two-directional threat with bridge escape
+- [[Ghost Escape]] - Complementary escape creating two-directional threat with bridge escape
 
 - [[Transitions/Bridge and Turn to Turtle]] - Related escape technique using bridge to reach turtle instead of half guard
 

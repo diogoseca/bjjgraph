@@ -66,7 +66,7 @@ The strategic value lies in punishing overcommitment. When an opponent dedicates
 This technique has become increasingly important in modern no-gi grappling where leg lock exchanges dominate. Practitioners who can sweep from entanglements create a powerful deterrent against reckless leg attack entries, forcing opponents to maintain better positional discipline during their leg lock sequences. The ability to reverse from bottom leg entanglement to side control represents one of the highest-value positional swings in the sport, converting a defensive crisis into three points and dominant top position.
 
 **From Position**: [[Positions/Leg Entanglement]] (Bottom)
-**Success Rate**: 35%
+**Success Rate**: 26%
 
 </section>
 

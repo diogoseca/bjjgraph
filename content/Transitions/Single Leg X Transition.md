@@ -68,7 +68,7 @@ Strategically, the Single Leg X Transition serves as a crucial link in the leg e
 The timing window for this transition typically opens when the opponent shifts their weight toward your trapped leg or attempts to step over your guard. Their forward pressure actually assists the entry by loading weight onto the leg you're attacking. Advanced practitioners learn to bait this pressure through feinting other attacks, then capitalizing on the reaction to secure the transition.
 
 **From Position**: [[Positions/Grasshopper Guard]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 53%
 
 </section>
 

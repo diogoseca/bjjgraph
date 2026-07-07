@@ -53,7 +53,7 @@ description: "Master the Belly Down Armbar in BJJ. Complete guide with safety pr
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Belly Down Armbar?", "acceptedAnswer": { "@type": "Answer", "text": "The Belly Down Armbar is a face-down (prone) armbar that isolates and hyperextends an exposed arm against the mat, finishing turtled or scrambling opponents when traditional leg-controlled armbars from guard or mount are unavailable." } },
-    { "@type": "Question", "name": "What positions can you finish the Belly Down Armbar from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Belly Down Armbar from Turtle, Armbar Control, Kesa Gatame, Knee on Belly, Kuzure Kesa-Gatame, Lasso Guard, Mission Control, Modified Scarf Hold, Mounted Crucifix, Mounted Triangle, New York, Open Guard, Scarf Hold Position, Side Control, Spider Guard, Williams Guard." } },
+    { "@type": "Question", "name": "What positions can you finish the Belly Down Armbar from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Belly Down Armbar from Spider Guard, Turtle, Knee on Belly, Williams Guard, Armbar Control, Kesa Gatame, Kuzure Kesa-Gatame, Lasso Guard, Mission Control, Modified Scarf Hold, Mounted Crucifix, Mounted Triangle, New York, Scarf Hold Position, Side Control, Open Guard." } },
     { "@type": "Question", "name": "Is the Belly Down Armbar dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Belly Down Armbar targets the Elbow joint and shoulder girdle. Primary risk: Elbow hyperextension and ligament damage (MCL/LCL/joint capsule tears). Tap early and release immediately on the tap." } }
   ]
 }
@@ -93,10 +93,12 @@ The key to success lies in rapid arm isolation, maintaining connection to the op
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Belly Down Armbar/from Turtle|Turtle]] | Top | 60% | [[Submissions/Belly Down Armbar/from Turtle/Attacker|Attack →]] | [[Submissions/Belly Down Armbar/from Turtle/Defender|Defend →]] |
+| [[Submissions/Belly Down Armbar/from Spider Guard|Spider Guard]] | Bottom | 62% | [[Submissions/Belly Down Armbar/from Spider Guard/Attacker|Attack →]] | [[Submissions/Belly Down Armbar/from Spider Guard/Defender|Defend →]] |
+| [[Submissions/Belly Down Armbar/from Turtle|Turtle]] | Top | 62% | [[Submissions/Belly Down Armbar/from Turtle/Attacker|Attack →]] | [[Submissions/Belly Down Armbar/from Turtle/Defender|Defend →]] |
+| [[Submissions/Belly Down Armbar/from Knee on Belly|Knee on Belly]] | Top | 58% | [[Submissions/Belly Down Armbar/from Knee on Belly/Attacker|Attack →]] | [[Submissions/Belly Down Armbar/from Knee on Belly/Defender|Defend →]] |
+| [[Submissions/Belly Down Armbar/from Williams Guard|Williams Guard]] | Bottom | 52% | [[Submissions/Belly Down Armbar/from Williams Guard/Attacker|Attack →]] | [[Submissions/Belly Down Armbar/from Williams Guard/Defender|Defend →]] |
 | [[Submissions/Belly Down Armbar/from Armbar Control|Armbar Control]] | Top | 50% | [[Submissions/Belly Down Armbar/from Armbar Control/Attacker|Attack →]] | [[Submissions/Belly Down Armbar/from Armbar Control/Defender|Defend →]] |
 | [[Submissions/Belly Down Armbar/from Kesa Gatame|Kesa Gatame]] | Top | 50% | [[Submissions/Belly Down Armbar/from Kesa Gatame/Attacker|Attack →]] | [[Submissions/Belly Down Armbar/from Kesa Gatame/Defender|Defend →]] |
-| [[Submissions/Belly Down Armbar/from Knee on Belly|Knee on Belly]] | Top | 50% | [[Submissions/Belly Down Armbar/from Knee on Belly/Attacker|Attack →]] | [[Submissions/Belly Down Armbar/from Knee on Belly/Defender|Defend →]] |
 | [[Submissions/Belly Down Armbar/from Kuzure Kesa-Gatame|Kuzure Kesa-Gatame]] | Top | 50% | [[Submissions/Belly Down Armbar/from Kuzure Kesa-Gatame/Attacker|Attack →]] | [[Submissions/Belly Down Armbar/from Kuzure Kesa-Gatame/Defender|Defend →]] |
 | [[Submissions/Belly Down Armbar/from Lasso Guard|Lasso Guard]] | Bottom | 50% | [[Submissions/Belly Down Armbar/from Lasso Guard/Attacker|Attack →]] | [[Submissions/Belly Down Armbar/from Lasso Guard/Defender|Defend →]] |
 | [[Submissions/Belly Down Armbar/from Mission Control|Mission Control]] | Bottom | 50% | [[Submissions/Belly Down Armbar/from Mission Control/Attacker|Attack →]] | [[Submissions/Belly Down Armbar/from Mission Control/Defender|Defend →]] |
@@ -104,11 +106,9 @@ The key to success lies in rapid arm isolation, maintaining connection to the op
 | [[Submissions/Belly Down Armbar/from Mounted Crucifix|Mounted Crucifix]] | Top | 50% | [[Submissions/Belly Down Armbar/from Mounted Crucifix/Attacker|Attack →]] | [[Submissions/Belly Down Armbar/from Mounted Crucifix/Defender|Defend →]] |
 | [[Submissions/Belly Down Armbar/from Mounted Triangle|Mounted Triangle]] | Top | 50% | [[Submissions/Belly Down Armbar/from Mounted Triangle/Attacker|Attack →]] | [[Submissions/Belly Down Armbar/from Mounted Triangle/Defender|Defend →]] |
 | [[Submissions/Belly Down Armbar/from New York|New York]] | Bottom | 50% | [[Submissions/Belly Down Armbar/from New York/Attacker|Attack →]] | [[Submissions/Belly Down Armbar/from New York/Defender|Defend →]] |
-| [[Submissions/Belly Down Armbar/from Open Guard|Open Guard]] | Bottom | 50% | [[Submissions/Belly Down Armbar/from Open Guard/Attacker|Attack →]] | [[Submissions/Belly Down Armbar/from Open Guard/Defender|Defend →]] |
 | [[Submissions/Belly Down Armbar/from Scarf Hold Position|Scarf Hold Position]] | Top | 50% | [[Submissions/Belly Down Armbar/from Scarf Hold Position/Attacker|Attack →]] | [[Submissions/Belly Down Armbar/from Scarf Hold Position/Defender|Defend →]] |
 | [[Submissions/Belly Down Armbar/from Side Control|Side Control]] | Top | 50% | [[Submissions/Belly Down Armbar/from Side Control/Attacker|Attack →]] | [[Submissions/Belly Down Armbar/from Side Control/Defender|Defend →]] |
-| [[Submissions/Belly Down Armbar/from Spider Guard|Spider Guard]] | Bottom | 50% | [[Submissions/Belly Down Armbar/from Spider Guard/Attacker|Attack →]] | [[Submissions/Belly Down Armbar/from Spider Guard/Defender|Defend →]] |
-| [[Submissions/Belly Down Armbar/from Williams Guard|Williams Guard]] | Bottom | 50% | [[Submissions/Belly Down Armbar/from Williams Guard/Attacker|Attack →]] | [[Submissions/Belly Down Armbar/from Williams Guard/Defender|Defend →]] |
+| [[Submissions/Belly Down Armbar/from Open Guard|Open Guard]] | Bottom | 40% | [[Submissions/Belly Down Armbar/from Open Guard/Attacker|Attack →]] | [[Submissions/Belly Down Armbar/from Open Guard/Defender|Defend →]] |
 
 
 </div>
@@ -132,7 +132,6 @@ The key to success lies in rapid arm isolation, maintaining connection to the op
 
 ## Related
 - [[Submissions/Americana]] - Alternative shoulder lock from similar top control positions
-- [[Submissions/Flying Armbar]] - Dynamic armbar variation that can transition to belly down when defended
 - [[Submissions/Bicep Slicer]] - Compression lock that chains when opponent bends arm to defend armbar
 - [[Submissions/Far Side Armbar]] - Related armbar variation accessible from similar control positions
 - [[Submissions/Kimura]] - Alternative arm lock from same position creating submission combinations

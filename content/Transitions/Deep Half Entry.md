@@ -66,7 +66,7 @@ The position works by getting underneath your opponent's center of gravity, usin
 When executed correctly, the deep half entry transforms a potentially defensive situation into an offensive opportunity, allowing the practitioner to attack with various sweep options including the waiter sweep, Homer Simpson sweep, and electric chair variations. The entry is particularly effective against pressure-based top players who commit their weight forward, as their own momentum and weight distribution become the primary tools used against them.
 
 **From Position**: [[Positions/Half Guard]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 40%
 
 </section>
 

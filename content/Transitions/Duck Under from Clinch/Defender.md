@@ -93,6 +93,14 @@ description: "Learn to defend the Duck Under from Clinch in BJJ. Recognition cue
         "@type": "Answer",
         "text": "High extended arms such as collar ties with elbows flared or overhooks with loose elbow angles create large gaps beneath your arms that the opponent can duck through with minimal clearance effort. Compact positioning with elbows closer to your ribs reduces these gaps dramatically and forces the opponent to work much harder to clear your arm during the duck. The trade-off is that compact arms offer less reach for offensive clinch control, but against a confirmed duck under threat the defensive benefit outweighs the lost offensive range."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the earliest recognition cue that a Duck Under is being set up?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The earliest cue is opponent increasing collar tie pressure while their opposite hand moves to control your elbow or tricep. This arm manipulation sequence is the prerequisite for elevating your arm to create the ducking lane. Recognizing this grip configuration allows you to deny the setup by swimming your elbow back down before they can initiate the level change."
+      }
     }
   ]
 }

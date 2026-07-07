@@ -54,7 +54,7 @@ description: "Master the kneebar from Inside Sankaku in BJJ. Complete finishing 
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Leg Lock</span>
 <span class="meta-chip">Targets Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule)</span>
-<span class="meta-chip">60% success</span>
+<span class="meta-chip">26% success</span>
 </div>
 
 > [!danger] Safety

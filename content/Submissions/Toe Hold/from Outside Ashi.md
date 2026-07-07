@@ -54,7 +54,7 @@ description: "Master the toe hold from Outside Ashi-Garami in BJJ. Complete guid
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Foot Lock</span>
 <span class="meta-chip">Targets Foot and ankle joint complex</span>
-<span class="meta-chip">40% success</span>
+<span class="meta-chip">26% success</span>
 </div>
 
 > [!danger] Safety

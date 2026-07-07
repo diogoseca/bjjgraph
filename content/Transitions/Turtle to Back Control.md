@@ -66,7 +66,7 @@ The key to successful execution lies in a strict top-down control progression. U
 This technique forms the cornerstone of effective top turtle work and is essential for competitors at all levels. The turtle position occurs constantly in competition arising from failed takedowns, guard passes, and scrambles. Practitioners who can reliably convert turtle top into back control gain access to the highest-percentage submission position in grappling, including rear naked choke, bow and arrow choke, and armbar transitions. The transition also integrates with alternative turtle attacks like crucifix entries and truck position, creating a web of threats that forces defensive errors.
 
 **From Position**: [[Positions/Turtle]] (Top)
-**Success Rate**: 60%
+**Success Rate**: 53%
 
 </section>
 

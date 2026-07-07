@@ -54,7 +54,7 @@ description: "Master the Ezekiel Choke in BJJ. Complete guide to sleeve-based bl
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Ezekiel Choke?", "acceptedAnswer": { "@type": "Answer", "text": "The Ezekiel Choke is a gi blood choke that uses your own sleeve as a fulcrum to compress both carotid arteries, finishable from mount, side control, and other dominant top positions even when the opponent\u0027s hands are free." } },
-    { "@type": "Question", "name": "What positions can you finish the Ezekiel Choke from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Ezekiel Choke from Mount, Side Control, Closed Guard." } },
+    { "@type": "Question", "name": "What positions can you finish the Ezekiel Choke from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Ezekiel Choke from Closed Guard, Side Control, Mount." } },
     { "@type": "Question", "name": "Is the Ezekiel Choke dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Ezekiel Choke targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early and release immediately on the tap." } }
   ]
 }
@@ -99,9 +99,9 @@ Strategically, the Ezekiel serves multiple purposes beyond just finishing the su
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Ezekiel Choke/from Mount|Mount]] | Top | 58% | [[Submissions/Ezekiel Choke/from Mount/Attacker|Attack →]] | [[Submissions/Ezekiel Choke/from Mount/Defender|Defend →]] |
-| [[Submissions/Ezekiel Choke/from Side Control|Side Control]] | Top | 58% | [[Submissions/Ezekiel Choke/from Side Control/Attacker|Attack →]] | [[Submissions/Ezekiel Choke/from Side Control/Defender|Defend →]] |
-| [[Submissions/Ezekiel Choke/from Closed Guard|Closed Guard]] | Top | 40% | [[Submissions/Ezekiel Choke/from Closed Guard/Attacker|Attack →]] | [[Submissions/Ezekiel Choke/from Closed Guard/Defender|Defend →]] |
+| [[Submissions/Ezekiel Choke/from Closed Guard|Closed Guard]] | Top | 65% | [[Submissions/Ezekiel Choke/from Closed Guard/Attacker|Attack →]] | [[Submissions/Ezekiel Choke/from Closed Guard/Defender|Defend →]] |
+| [[Submissions/Ezekiel Choke/from Side Control|Side Control]] | Top | 50% | [[Submissions/Ezekiel Choke/from Side Control/Attacker|Attack →]] | [[Submissions/Ezekiel Choke/from Side Control/Defender|Defend →]] |
+| [[Submissions/Ezekiel Choke/from Mount|Mount]] | Top | 48% | [[Submissions/Ezekiel Choke/from Mount/Attacker|Attack →]] | [[Submissions/Ezekiel Choke/from Mount/Defender|Defend →]] |
 
 
 </div>

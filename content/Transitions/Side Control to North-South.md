@@ -66,7 +66,7 @@ Unlike Side Control where opponents can create frames with their near-side arm, 
 Understanding when to transition versus when to maintain Side Control is critical for strategic positional flow. The decision should be reactive, not pre-planned. When the opponent gives you cues through their defensive movements, you capitalize by flowing to North-South. This reactive approach means you are always one step ahead, using their energy against them while maintaining constant pressure throughout the entire rotational path.
 
 **From Position**: [[Positions/Side Control]] (Top)
-**Success Rate**: 78%
+**Success Rate**: 54%
 
 </section>
 

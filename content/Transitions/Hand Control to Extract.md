@@ -66,7 +66,7 @@ The technique operates on the principle that the gogoplata is a self-contained s
 Strategically, this escape works best when the gogoplata is not fully locked. The window for this technique opens when the opponent is still working to secure their foot behind your head or when their grip on their own foot is loose. Practitioners must develop sensitivity to recognize when hand fighting is viable versus when emergency escapes are necessary. The technique demands precise timing and methodical execution rather than explosive movement, making it particularly effective for technically proficient defenders who remain calm under submission pressure.
 
 **From Position**: [[Positions/Gogoplata Control]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 52%
 
 </section>
 

@@ -226,7 +226,6 @@ Strategically, the neck crank serves dual purpose from this position. As a prima
 - [[Submissions/Arm Triangle]]
 - [[Positions/Mount/Mounted Crucifix]] - Starting position providing arm-trapped control for this neck crank variant
 - [[Positions/Crucifix]] - Related control position sharing arm isolation mechanics
-- [[Submissions/Neck Crank]] - Parent submission family—this is the mounted crucifix variant
 - [[Positions/Mount/High Mount]] - Common entry position leading to mounted crucifix arm isolation
 
 </section>

@@ -66,7 +66,7 @@ Unlike traditional sweeps that rely primarily on hip movement or timing, the Sin
 The Single Leg X Sweep is a cornerstone technique in modern leg entanglement systems and connects seamlessly to various offensive sequences including back takes, other leg attacks, and transitional positions. Its high success rate across skill levels makes it an essential technique for any guard player, particularly those who favor open guard systems and leg-based guards. The sweep's effectiveness comes from its ability to work against standing or kneeling opponents and its natural progression into dominant positions or submission opportunities.
 
 **From Position**: [[Positions/X-Guard/Single Leg X-Guard]] (Bottom)
-**Success Rate**: 78%
+**Success Rate**: 46%
 
 </section>
 

@@ -95,7 +95,7 @@ Strategically, the Hindulotine serves as both a primary finishing technique and 
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Hindulotine/from Hindulotine|Hindulotine]] | Top | 40% | [[Submissions/Hindulotine/from Hindulotine/Attacker|Attack →]] | [[Submissions/Hindulotine/from Hindulotine/Defender|Defend →]] |
+| [[Submissions/Hindulotine/from Hindulotine|Hindulotine]] | Top | 62% | [[Submissions/Hindulotine/from Hindulotine/Attacker|Attack →]] | [[Submissions/Hindulotine/from Hindulotine/Defender|Defend →]] |
 
 
 </div>
@@ -120,7 +120,6 @@ Strategically, the Hindulotine serves as both a primary finishing technique and 
 ## Related
 - [[Submissions/High Elbow Guillotine]] - Similar guillotine variation with different grip mechanics for comparison and cross-training
 - [[Submissions/Arm in Guillotine]] - Alternative guillotine finish when opponent's arm becomes trapped inside the choke
-- [[Submissions/Chin Strap Guillotine]] - Related chin strap grip technique with similar finishing mechanics
 - [[Transitions/Anaconda Choke]] - Chain submission when opponent tucks chin and turns to defend the Hindulotine
 - [[Submissions/Darce Choke]] - Chain submission when opponent exposes far arm while defending
 - [[Submissions/Brabo Choke]] - Related front headlock choke with gi-specific grip variation

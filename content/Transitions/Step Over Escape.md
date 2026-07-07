@@ -66,7 +66,7 @@ This escape is particularly effective when the opponent has committed to flatten
 Strategically, the Step Over Escape pairs with the Back Door Escape and Counter Roll as the three primary escapes from Darce Control Bottom. Where the Back Door Escape retreats behind the opponent and the Counter Roll inverts through them, the Step Over goes over the top, making it the preferred option when the opponent's weight is shifted low and their head is accessible for the leg to clear. Advanced practitioners chain all three escapes together, forcing the attacker to defend multiple escape vectors simultaneously.
 
 **From Position**: [[Positions/Darce Control]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 38%
 
 </section>
 

@@ -66,7 +66,7 @@ This transition serves as a critical gateway technique in modern grappling, brid
 The snap down's effectiveness lies in its ability to bypass traditional takedown defenses by attacking the opponent's posture rather than their legs or hips. Against skilled defensive grapplers who excel at sprawling or defending leg attacks, the snap down provides an alternative pathway to top position that requires different defensive skills. Understanding proper timing, grip configuration, and follow-up options transforms this technique from a simple movement into a comprehensive control system.
 
 **From Position**: [[Positions/Clinch]] (Top)
-**Success Rate**: 60%
+**Success Rate**: 51%
 
 </section>
 

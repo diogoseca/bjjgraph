@@ -95,6 +95,14 @@ description: "How to defend against Toe Hold from 50-50 in BJJ. Recognition, esc
         "@type": "Answer",
         "text": "You should tap at the first sensation of uncomfortable pressure on your ankle joint—well before you feel sharp pain or hear any popping sounds. In training, there is no benefit to enduring ankle pressure because ankle ligaments do not strengthen from being stretched near their failure point; they only accumulate micro-damage that weakens them over time. Unlike muscle soreness that builds strength, repeated ligament stress leads to chronic laxity, instability, and eventual catastrophic failure. Tapping early preserves your ankle health for decades of training. The correct training approach is to work on preventing the position and escaping early, then resetting—not toughening through the finish."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you recognize that a toe hold is being set up from 50-50 rather than a heel hook?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The key recognition cue is the attacker's hand targeting your toes and ball of the foot with a cupping motion rather than reaching for the heel. Additionally, you will feel the attacker's opposite arm threading behind your ankle to establish the figure-four configuration. If you have been hiding your heel from a heel hook threat, the transition to toe hold often occurs immediately after the attacker redirects from the heel to the exposed foot."
+      }
     }
   ]
 }

@@ -95,6 +95,14 @@ description: "How to defend against Chin Strap Guillotine in BJJ. Recognition, e
         "@type": "Answer",
         "text": "When the chin strap is fully locked with figure-four grip and leg control established, your last-resort option is to roll through toward the choking arm side. This roll disrupts the choking angle by inverting the spatial relationship between your neck and the attacker's arms. As you roll, the shoulder drive loses its compression angle, creating a brief window where the choke loosens. Use this moment to fight the grip with both hands and extract your chin. This is high-risk because the attacker may follow the roll and finish from mount, but it is preferable to remaining in a fully locked choke where the finish is inevitable. You must also tap immediately if the choke tightens during the roll attempt rather than continuing to fight a lost position."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the first thing you must do when you feel a chin strap being set?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bury your chin and turn it toward the choking arm to deny the strap, then begin hand-fighting the choking wrist; protecting the neck must come before any escape attempt or you will be choked during the escape."
+      }
     }
   ]
 }

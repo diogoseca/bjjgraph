@@ -223,7 +223,6 @@ Once the initial armbar position is secured, the attacker rotates to belly-down 
 ## Related
 - [[Submissions/Belly Down Armbar]]
 - [[Submissions/Far Side Armbar]]
-- [[Submissions/Flying Armbar]]
 - [[Submissions/Bicep Slicer]]
 - [[Positions/Spider Guard]] - Starting position providing the sleeve control and bicep hooks for this submission entry
 - [[Positions/Armbar Control]] - Control position securing the arm before transitioning to belly-down finish

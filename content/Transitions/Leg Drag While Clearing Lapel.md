@@ -66,7 +66,7 @@ The fundamental insight is that the leg drag motion naturally creates the angle 
 Strategically, this technique excels against opponents who rely heavily on lapel guard systems. Rather than engaging in extended grip battles that favor the bottom player's energy efficiency, you convert directly to a passing position. The leg drag position achieved offers immediate submission threats including leg attacks and back exposure, making this a high-value transition that changes the entire complexion of the exchange.
 
 **From Position**: [[Positions/Lapel Guard]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 46%
 
 </section>
 

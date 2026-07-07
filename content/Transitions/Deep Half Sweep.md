@@ -251,7 +251,7 @@ The Deep Half Sweep occupies a central role in the deep half guard system as the
 
 - [[Transitions/Backstep from Deep Half]] - Common defensive counter by top player against sweep attempts
 
-- [[Transitions/Deep Half Entry from Half Guard]] - Primary entry pathway to reach deep half sweep position
+- [[Deep Half Entry from Half Guard]] - Primary entry pathway to reach deep half sweep position
 
 - [[Positions/Half Guard/Electric Chair]] - Alternative submission option from similar deep half positioning
 

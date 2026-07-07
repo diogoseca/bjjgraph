@@ -66,7 +66,7 @@ The critical challenge is that every intuitive extraction method plays into the 
 Timing is equally important as technique. The longer the arm remains trapped, the deeper the bottom player consolidates control and sets up attacks. Early extraction attempts when the clamp is still shallow succeed at significantly higher rates than attempts against an established deep clamp with supplementary wrist control and optimal hip angle. Recognizing the clamp entry and responding within the first two to three seconds before the bottom player establishes wrist control is the highest-percentage window for successful extraction.
 
 **From Position**: [[Positions/Clamp Guard]] (Top)
-**Success Rate**: 50%
+**Success Rate**: 48%
 
 </section>
 

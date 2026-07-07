@@ -93,6 +93,14 @@ description: "How to counter the sprawl in BJJ. Strategies for completing takedo
         "@type": "Answer",
         "text": "When an opponent sprawls aggressively, they commit significant weight forward and downward. This commitment can be exploited by suddenly changing direction - for example, if they sprawl and drive their weight onto your back, you can sit through and pull them forward over you into a guard position. Alternatively, a sharp lateral angle change while they are committed forward can unbalance them and create a window to circle behind them. The key insight is that a heavy sprawl sacrifices the opponent's mobility and balance in exchange for pressure, and any sudden directional change exploits that trade-off."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the earliest recognition cues that your opponent is about to sprawl on your takedown attempt?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The earliest cues are a sudden backward shift of their hips, their hands moving toward your head and shoulders, and their weight transferring from the balls of their feet toward their toes as they prepare to drive hips back. If you feel their hands make contact with the back of your head before you have secured deep grips on their legs, the sprawl is imminent and you should either accelerate your penetration dramatically or abort the shot and recover standing position before the weight settles."
+      }
     }
   ]
 }

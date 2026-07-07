@@ -66,7 +66,7 @@ Strategically, the Clock Choke serves as a primary threat against turtle positio
 The rotational finishing mechanic distinguishes the Clock Choke from static collar chokes. Rather than simply pulling on the collar, the attacker creates pressure by walking their body perpendicular to the opponent while sprawling their hips down, using body weight and leverage rather than arm strength alone. This makes the technique sustainable and difficult to defend once properly established, as the defender must address both the grip and the positional pressure simultaneously.
 
 **From Position**: [[Positions/Turtle]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 58%
 
 </section>
 

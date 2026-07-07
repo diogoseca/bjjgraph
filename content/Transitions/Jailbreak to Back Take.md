@@ -66,7 +66,7 @@ The mechanics rely on maintaining your underhook throughout the entire rolling s
 This transition exemplifies the principle of using opponent reactions to your advantage. The standard jailbreak already threatens turtle escape. When opponents learn to follow the roll to prevent this, they expose themselves to the back take. Training both options creates a true dilemma for the top player: disengage and allow the turtle escape, or follow and risk giving up their back.
 
 **From Position**: [[Positions/Jailbreak]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 20%
 
 </section>
 

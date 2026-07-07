@@ -66,7 +66,7 @@ Strategically, the Mat Return addresses the key limitation of standing back cont
 The mat return requires precise timing and coordinated movement between upper and lower body. The harness or seat belt grip must remain locked throughout the descent, while the legs work to break the opponent's base and guide them to the mat. Successful execution depends on maintaining chest-to-back connection, choosing the correct direction for the takedown based on opponent's stance and balance, and immediately establishing hooks upon landing to prevent scrambles.
 
 **From Position**: [[Positions/Back Control/Standing Back Control]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 48%
 
 </section>
 

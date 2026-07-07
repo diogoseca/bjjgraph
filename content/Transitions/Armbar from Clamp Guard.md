@@ -66,7 +66,7 @@ The entry works by converting the bilateral leg clamp into a unilateral armbar c
 Strategically, the armbar from clamp guard functions as the primary submission threat within the clamp system. The mere possibility of this attack forces the top player into desperate extraction attempts, which create openings for triangle and omoplata entries. The opponent cannot defend all three submissions simultaneously, and each defensive reaction feeds directly into an alternative attack path. When the opponent pulls their arm straight back, the armbar becomes highest percentage. When they circle outward, the triangle opens. When they drive forward, sweeps become available. This trilemma is what makes the clamp guard armbar the centerpiece of the system.
 
 **From Position**: [[Positions/Clamp Guard]] (Bottom)
-**Success Rate**: 50%
+**Success Rate**: 30%
 
 </section>
 

@@ -66,7 +66,7 @@ The mechanics require precise coordination between grip establishment, weight di
 Strategic context plays a significant role in the decision to pull guard. Practitioners with superior guard games frequently prefer this pathway over extended wrestling exchanges, particularly when facing opponents with strong takedown credentials. The guard pull creates a tactical shortcut to a preferred engagement range, but carries inherent risk if executed without proper grip security or against an opponent prepared to initiate immediate guard passing sequences upon landing.
 
 **From Position**: [[Positions/Clinch]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 64%
 
 </section>
 

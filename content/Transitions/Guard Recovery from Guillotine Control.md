@@ -66,7 +66,7 @@ The transition is fundamentally a race condition: the bottom player must convert
 Strategically, this recovery represents a critical decision point in bottom-game flow. Holding a failing guillotine bleeds grip endurance and telegraphs desperation, while releasing too late allows the opponent to plan their passing sequence during the choke attempt. The highest-level practitioners treat the guillotine-to-guard transition as a planned contingency rather than a panic response, pre-positioning legs and mentally committing to the switch before the choke fully deteriorates.
 
 **From Position**: [[Positions/Guillotine Control]] (Bottom)
-**Success Rate**: 45%
+**Success Rate**: 47%
 
 </section>
 

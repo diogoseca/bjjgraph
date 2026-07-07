@@ -204,23 +204,21 @@ The Standing Rear Clinch holds particular importance in no-gi grappling and MMA 
 ### Available Transitions
 
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (16% of attempts)
+- **[[Transitions/Back Take/Attacker|Back Take]]** (17% of attempts)
 
-- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (12% of attempts)
+- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (13% of attempts)
 
-- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (10% of attempts)
+- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (11% of attempts)
 
-- **[[Transitions/Mat Return to Back Mount/Attacker|Mat Return to Back Mount]]** (10% of attempts)
+- **[[Transitions/Mat Return to Back Mount/Attacker|Mat Return to Back Mount]]** (11% of attempts)
 
-- **[[Transitions/Double Leg Finish/Attacker|Double Leg Finish]]** (8% of attempts)
+- **[[Transitions/Double Leg Finish/Attacker|Double Leg Finish]]** (9% of attempts)
 
-- **[[Transitions/Mat Return from Rear Clinch/Attacker|Mat Return from Rear Clinch]]** (8% of attempts)
+- **[[Transitions/Mat Return from Standing Rear Clinch/Attacker|Mat Return from Standing Rear Clinch]]** (9% of attempts)
 
-- **[[Transitions/Mat Return from Standing Rear Clinch/Attacker|Mat Return from Standing Rear Clinch]]** (8% of attempts)
+- **[[Transitions/Rear Clinch to Body Lock/Attacker|Rear Clinch to Body Lock]]** (9% of attempts)
 
-- **[[Transitions/Rear Clinch to Body Lock/Attacker|Rear Clinch to Body Lock]]** (8% of attempts)
-
-- **[[Transitions/Suplex from Rear Clinch/Attacker|Suplex from Rear Clinch]]** (7% of attempts)
+- **[[Transitions/Suplex from Rear Clinch/Attacker|Suplex from Rear Clinch]]** (8% of attempts)
 
 - **[[Transitions/Standing Switch Defense/Attacker|Standing Switch Defense]]** (6% of attempts)
 
@@ -279,7 +277,7 @@ The Standing Rear Clinch holds particular importance in no-gi grappling and MMA 
 
 - **[[Positions/Side Control]]** - Common destination via bodylock pass when opponent sits to guard
 
-- **[[Transitions/Mat Return from Rear Clinch]]** - Primary takedown transition for converting rear clinch to ground back control
+- **[[Mat Return from Rear Clinch]]** - Primary takedown transition for converting rear clinch to ground back control
 
 - **[[Transitions/Rear Clinch to Body Lock]]** - Grip transition technique for converting seatbelt to bodylock control
 

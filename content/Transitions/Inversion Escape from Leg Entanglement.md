@@ -66,7 +66,7 @@ The technique requires significant flexibility, spatial awareness, and precise t
 Modern leg lock defense integrates the inversion escape as one option within a comprehensive escape hierarchy rather than a primary response. The technique pairs naturally with boot scooting, grip fighting, and guard recovery methods, giving the defender multiple tools to address different entanglement configurations. Against systematic leg lockers who anticipate inversions and adjust their control accordingly, the escape becomes most effective when chained with other defensive movements, using the initial inversion attempt to create scramble opportunities even if the full escape is not achieved.
 
 **From Position**: [[Positions/Leg Entanglement]] (Bottom)
-**Success Rate**: 35%
+**Success Rate**: 38%
 
 </section>
 

@@ -66,7 +66,7 @@ This transition most commonly occurs when the opponent's defensive reactions to 
 The primary technical challenge lies in maintaining heel exposure and continuous leg control throughout the reconfiguration phase. Any momentary lapse during the transition creates escape windows that skilled defenders will exploit immediately. Mastery requires understanding the precise mechanical relationship between Inside Sankaku and Saddle, specifically how hip angle changes, leg repositioning, and weight transfer work together to achieve deeper entanglement without sacrificing existing control. Elite practitioners make this transition feel seamless because they time it to the opponent's defensive movement rather than forcing it against static resistance.
 
 **From Position**: [[Positions/Inside Sankaku]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 58%
 
 </section>
 

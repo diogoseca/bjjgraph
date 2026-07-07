@@ -66,7 +66,7 @@ Strategically, this transition functions as the primary alternative when the Aok
 This technique is particularly effective in no-gi competition where the absence of collar grips makes the Aoki Lock harder to finish but the slippery surface facilitates smooth transitions to the back. It represents the core principle of positional advancement over submission hunting: when your opponent gives you their back to escape a joint lock, taking the superior position often yields better finishing opportunities than the original attack.
 
 **From Position**: [[Positions/Aoki Lock Control]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 52%
 
 </section>
 

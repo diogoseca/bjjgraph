@@ -54,7 +54,7 @@ description: "Learn the heel hook from kneebar control in BJJ. Complete guide co
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Leg Lock</span>
 <span class="meta-chip">Targets Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity</span>
-<span class="meta-chip">45% success</span>
+<span class="meta-chip">41% success</span>
 </div>
 
 > [!danger] Safety

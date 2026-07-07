@@ -66,7 +66,7 @@ Mastering posture recovery is crucial because it represents the difference betwe
 When executed properly, posture recovery neutralizes the guard player's attacks while preserving your energy and positioning for continued passing attempts. The technique chains directly into combat base establishment and guard opening sequences, making it the essential first link in any guard passing chain. Advanced practitioners develop the ability to recover posture while simultaneously addressing submission threats and transitioning immediately into passing attacks, turning a defensive moment into an offensive opportunity.
 
 **From Position**: [[Positions/Closed Guard]] (Top)
-**Success Rate**: 75%
+**Success Rate**: 62%
 
 </section>
 

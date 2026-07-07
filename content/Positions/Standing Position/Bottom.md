@@ -38,8 +38,8 @@ description: "Master standing position in BJJ. Complete guide covering grips, ta
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Drag from Standing",
-      "text": "From this position, attempt Arm Drag from Standing. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Arm Drag",
+      "text": "From this position, attempt Arm Drag. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {

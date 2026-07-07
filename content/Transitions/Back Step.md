@@ -62,7 +62,7 @@ description: "Master the Back Step pass in BJJ. Essential leg entanglement count
 Within modern no-gi and submission grappling, the back step has emerged as one of the most reliable answers to leg entanglement attacks, particularly when an opponent secures or enters outside ashi-garami or other leg entanglement positions. By stepping the trapped leg backward and over the opponent's body while maintaining heavy chest pressure, you simultaneously break their leg entanglement structure and establish dominant top position. This technique is essential in modern BJJ, particularly in no-gi competition where leg locks are prevalent. The back step exemplifies the principle of using aggressive forward movement to counter defensive guard retention, turning a potentially dangerous leg entanglement situation into a dominant passing position. When executed properly, the back step not only neutralizes the leg attack but also creates a direct path to side control or knee on belly, often catching opponents off-guard as they transition from offensive to defensive positioning.
 
 **From Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 45%
 
 </section>
 

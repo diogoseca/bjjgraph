@@ -66,7 +66,7 @@ This transition exploits a fundamental defensive dilemma: the actions the defend
 The technical execution requires precise hip placement perpendicular to the opponent's thigh, maintaining continuous leg isolation throughout the transition, and understanding the biomechanical relationship between ankle defense and knee vulnerability. This technique exemplifies the dilemma-based approach to submission grappling where each defensive action opens a new offensive pathway, forcing the defender to address multiple threats simultaneously rather than solving a single problem. Proficiency in this transition transforms the Estima Lock from a single-threat position into a multi-layered attack system.
 
 **From Position**: [[Positions/Estima Lock Control]] (Top)
-**Success Rate**: 50%
+**Success Rate**: 36%
 
 </section>
 

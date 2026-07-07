@@ -53,7 +53,7 @@ description: "Master Inside Heel Hook in BJJ. Complete guide with safety protoco
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Inside Heel Hook?", "acceptedAnswer": { "@type": "Answer", "text": "The Inside Heel Hook is a rotational leg lock applied from inside leg entanglements like Inside Ashi-Garami and the Saddle, twisting the heel inward to torque the knee\u0027s ligaments (ACL, MCL, LCL) for a fast, low-warning finish." } },
-    { "@type": "Question", "name": "What positions can you finish the Inside Heel Hook from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Inside Heel Hook from Ushiro Ashi-Garami, Honey Hole, Inside Ashi-Garami, Inside Sankaku." } },
+    { "@type": "Question", "name": "What positions can you finish the Inside Heel Hook from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Inside Heel Hook from Honey Hole, Inside Sankaku, Ushiro Ashi-Garami." } },
     { "@type": "Question", "name": "Is the Inside Heel Hook dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Inside Heel Hook targets the Ankle, knee ligaments, and surrounding connective tissue. Primary risk: ACL, MCL, or LCL tear or rupture. Tap early and release immediately on the tap." } }
   ]
 }
@@ -94,10 +94,9 @@ The Inside Heel Hook is one of the most powerful and dangerous leg locks in Braz
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Inside Heel Hook/from Ushiro Ashi-Garami|Ushiro Ashi-Garami]] | Top | 52% | [[Submissions/Inside Heel Hook/from Ushiro Ashi-Garami/Attacker|Attack →]] | [[Submissions/Inside Heel Hook/from Ushiro Ashi-Garami/Defender|Defend →]] |
-| [[Submissions/Inside Heel Hook/from Honey Hole|Honey Hole]] | Top | 50% | [[Submissions/Inside Heel Hook/from Honey Hole/Attacker|Attack →]] | [[Submissions/Inside Heel Hook/from Honey Hole/Defender|Defend →]] |
-| [[Submissions/Inside Heel Hook/from Inside Ashi-Garami|Inside Ashi-Garami]] | Bottom | 50% | [[Submissions/Inside Heel Hook/from Inside Ashi-Garami/Attacker|Attack →]] | [[Submissions/Inside Heel Hook/from Inside Ashi-Garami/Defender|Defend →]] |
-| [[Submissions/Inside Heel Hook/from Inside Sankaku|Inside Sankaku]] | Top | 50% | [[Submissions/Inside Heel Hook/from Inside Sankaku/Attacker|Attack →]] | [[Submissions/Inside Heel Hook/from Inside Sankaku/Defender|Defend →]] |
+| [[Submissions/Inside Heel Hook/from Honey Hole|Honey Hole]] | Top | 60% | [[Submissions/Inside Heel Hook/from Honey Hole/Attacker|Attack →]] | [[Submissions/Inside Heel Hook/from Honey Hole/Defender|Defend →]] |
+| [[Submissions/Inside Heel Hook/from Inside Sankaku|Inside Sankaku]] | Top | 60% | [[Submissions/Inside Heel Hook/from Inside Sankaku/Attacker|Attack →]] | [[Submissions/Inside Heel Hook/from Inside Sankaku/Defender|Defend →]] |
+| [[Submissions/Inside Heel Hook/from Ushiro Ashi-Garami|Ushiro Ashi-Garami]] | Top | 45% | [[Submissions/Inside Heel Hook/from Ushiro Ashi-Garami/Attacker|Attack →]] | [[Submissions/Inside Heel Hook/from Ushiro Ashi-Garami/Defender|Defend →]] |
 
 
 </div>

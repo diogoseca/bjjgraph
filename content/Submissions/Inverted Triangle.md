@@ -116,7 +116,6 @@ As a chaining attack born from scrambles and failed-finish situations, the Inver
 
 ## Related
 - [[Submissions/Triangle Choke]] - Parent submission - standard triangle mechanics that the inverted version modifies
-- [[Submissions/Flying Armbar]] - Dynamic submission sharing scramble-based entry mechanics
 - [[Submissions/Omoplata]] - Alternative shoulder lock from similar arm control positions
 - [[Transitions/Gogoplata]] - Advanced choke sharing inverted leg positioning principles
 - [[Submissions/Baratoplata]] - Shoulder lock chain option when inverted triangle is defended

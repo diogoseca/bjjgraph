@@ -66,7 +66,7 @@ The technique exploits the inherent vulnerability in leg entanglement exchangesâ
 Strategically, Counter Ashi Entry represents the counter-attacking philosophy within the leg lock game. Rather than purely defensive extraction, it embraces the bilateral nature of leg entanglements and seeks to gain superior position within the exchange. Success requires understanding positional hierarchy, recognizing optimal entry timing, and maintaining awareness of both offensive opportunities and defensive vulnerabilities throughout the transition.
 
 **From Position**: [[Positions/Ashi Garami]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 44%
 
 </section>
 

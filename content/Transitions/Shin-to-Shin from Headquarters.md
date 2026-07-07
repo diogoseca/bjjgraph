@@ -66,7 +66,7 @@ This transition represents a paradigm shift from passive guard retention to acti
 The timing window for this transition is narrow but identifiable. The optimal moment occurs when the top player shifts weight or adjusts grips to initiate a specific passing direction, momentarily lightening pressure on the controlled leg or creating space with their posting leg. Recognizing and exploiting these micro-windows separates effective guard players from those who remain trapped in the headquarters cycle of pass-defend-repass.
 
 **From Position**: [[Positions/Headquarters Position]] (Bottom)
-**Success Rate**: 50%
+**Success Rate**: 39%
 
 </section>
 

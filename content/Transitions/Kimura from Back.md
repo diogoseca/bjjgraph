@@ -66,7 +66,7 @@ From a strategic perspective, the Kimura from Back serves dual purposes as both 
 The technique exemplifies the principle of systematic attack chains from back control. Rather than abandoning position when the choke is defended, the practitioner transitions smoothly to the kimura while maintaining all back control elements. This cycling between attacks—triangle choke to kimura to armbar—overwhelms the opponent's defensive capacity and eventually creates finishing opportunities through accumulated defensive fatigue.
 
 **From Position**: [[Positions/Triangle Control/Rear Triangle]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 34%
 
 </section>
 

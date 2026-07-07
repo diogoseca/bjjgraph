@@ -66,7 +66,7 @@ Understanding proper opening mechanics prevents common injuries, maintains posit
 At the competitive level, guard opening efficiency separates effective passers from those who stall in closed guard. The sequence demands patience and methodical progression: establish posture, win the grip battle, create distance through standing or combat base, apply opening pressure, and immediately transition to passing. Rushing any step invites counters, while executing each phase with precision creates a cascading chain that forces the guard open and flows directly into high-percentage passing positions.
 
 **From Position**: [[Positions/Closed Guard]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 56%
 
 </section>
 

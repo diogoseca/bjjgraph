@@ -66,7 +66,7 @@ Strategically, the arm drag functions as both a primary attack and a setup withi
 The arm drag rewards timing over athleticism. The optimal window opens when your opponent extends an arm for a grip, pushes forward, or commits weight to one side. Reading these moments and executing with precise hip rotation rather than arm strength separates functional arm drags from telegraphed attempts that experienced grapplers easily counter.
 
 **From Position**: [[Positions/Clinch]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 34%
 
 </section>
 
@@ -243,9 +243,9 @@ The arm drag from clinch occupies a critical junction in the standing grappling 
 
 - [[Positions/Front Headlock]] - Counter position the opponent may achieve if the drag is defended with a snap down
 
-- [[Transitions/Arm Drag from Standing]] - Similar arm drag technique executed from open standing range without clinch engagement
+- [[Arm Drag from Standing]] - Similar arm drag technique executed from open standing range without clinch engagement
 
-- [[Transitions/Duck Under]] - Complementary back take from clinch that chains with arm drag feints
+- [[Duck Under]] - Complementary back take from clinch that chains with arm drag feints
 
 - [[Transitions/Single Leg Takedown]] - Chain attack option when arm drag partially succeeds and opponent is off-balance
 

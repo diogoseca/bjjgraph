@@ -26,8 +26,8 @@ description: "Master standing position in BJJ. Complete guide covering grips, ta
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Sprawl Defense from Standing",
-      "text": "From this position, attempt Sprawl Defense from Standing. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Sprawl Defense",
+      "text": "From this position, attempt Sprawl Defense. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {

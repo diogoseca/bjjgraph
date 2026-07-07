@@ -66,7 +66,7 @@ The mechanical foundation of this technique relies on hip switching combined wit
 This technique has gained prominence in modern competition as practitioners recognize that not every leg entanglement needs to result in a leg lock exchange. Against opponents with strong heel hook defense or when the entanglement is neutral rather than advantageous, choosing to disengage and pass yields three points in IBJJF rulesets while eliminating the risk of being caught in a counter leg lock. The backstep from leg knot bridges the gap between modern leg lock systems and classical top-game passing, making it essential for well-rounded competitive grapplers.
 
 **From Position**: [[Positions/Leg Knot]] (Top)
-**Success Rate**: 50%
+**Success Rate**: 42%
 
 </section>
 

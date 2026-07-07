@@ -66,7 +66,7 @@ The primary sweep mechanics leverage the asymmetric weight distribution of headq
 This technique functions as both a direct positional reversal and a strategic deterrent within the guard passing exchange. When the top player recognizes the sweep threat, they must widen their base or reduce trapped-leg pressure, both of which create opportunities for guard recovery or reguarding. Even failed sweep attempts that disrupt the passer's rhythm serve a strategic purpose by preventing the systematic decision-making that makes headquarters passing so effective, forcing the top player to address the sweep threat before continuing their pass.
 
 **From Position**: [[Positions/Headquarters Position]] (Bottom)
-**Success Rate**: 40%
+**Success Rate**: 24%
 
 </section>
 

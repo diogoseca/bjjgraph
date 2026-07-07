@@ -66,7 +66,7 @@ Success depends on understanding the hierarchical nature of leg entanglements an
 The technique emphasizes hip positioning, frame management, and timing to create space for leg removal while maintaining constant defensive awareness of submission threats. Heel protection through proper foot positioning must be maintained throughout the entire escape sequence. This technique is essential for anyone training in modern submission grappling, as leg entanglements have become the primary offensive system in contemporary no-gi competition and training.
 
 **From Position**: [[Positions/Ashi Garami]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 27%
 
 </section>
 

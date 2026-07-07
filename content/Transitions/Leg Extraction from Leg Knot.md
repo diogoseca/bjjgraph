@@ -66,7 +66,7 @@ The technique relies on a combination of hip pressure, systematic peel mechanics
 Strategically, the leg extraction occupies an important role in the leg knot subsystem as the safe exit option. When heel hook and toe hold attacks are being effectively defended, when energy is depleting from sustained entanglement warfare, or when the bottom player is threatening counter-entanglements, the leg extraction to Half Guard Top provides a reliable reset into a well-understood passing position. From Half Guard Top, the top player retains positional advantage with multiple passing options while eliminating the mutual submission danger inherent in leg entanglement exchanges.
 
 **From Position**: [[Positions/Leg Knot]] (Top)
-**Success Rate**: 50%
+**Success Rate**: 44%
 
 </section>
 

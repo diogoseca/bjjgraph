@@ -66,7 +66,7 @@ The arm drag represents a fundamental principle in grappling: using the opponent
 From the butterfly guard specifically, the arm drag pairs naturally with the hook elevation system. The butterfly hooks provide the platform to momentarily unweight the opponent as you pull their arm across, making the rotational movement behind them far more efficient. This synergy between upper body drag mechanics and lower body elevation is what makes the butterfly guard one of the highest-percentage launching points for the arm drag to back take.
 
 **From Position**: [[Positions/Butterfly Guard]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 33%
 
 </section>
 

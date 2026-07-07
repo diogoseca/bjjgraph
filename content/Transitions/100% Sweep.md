@@ -66,7 +66,7 @@ The 100% Sweep is particularly effective against opponents who posture aggressiv
 This sweep is essential for advanced practitioners developing a sophisticated closed guard game and understanding the mechanics of limb isolation sweeps. In competition, it scores 2 sweep points and typically lands directly in mount for an additional 4 points, making it one of the highest-scoring single sequences available from closed guard.
 
 **From Position**: [[Positions/Closed Guard]] (Bottom)
-**Success Rate**: 50%
+**Success Rate**: 34%
 
 </section>
 

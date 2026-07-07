@@ -66,7 +66,7 @@ Strategically, this escape prioritizes extracting yourself from immediate submis
 The technique requires precise timing and total commitment - half-hearted attempts fail and waste energy. Ideally executed when the opponent shifts weight to set up submissions, the explosive bridge catches them off-balance and creates the rotational momentum needed to free trapped arms and complete the turn to turtle. Understanding this escape's place in the defensive hierarchy is crucial: it represents a calculated retreat to a recoverable position rather than a reversal attempt.
 
 **From Position**: [[Positions/Mount/Mounted Crucifix]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 32%
 
 </section>
 

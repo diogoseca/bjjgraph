@@ -54,7 +54,7 @@ description: "Master the Toe Hold leg lock in BJJ. Complete guide with safety pr
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Toe Hold?", "acceptedAnswer": { "@type": "Answer", "text": "The Toe Hold is a rotational ankle lock in which you grip the opponent\u0027s toes and forefoot while bracing their heel, twisting the foot inward to torque the ankle and midfoot joints into a fast, low-warning tap." } },
-    { "@type": "Question", "name": "What positions can you finish the Toe Hold from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Toe Hold from 50-50 Guard, Ashi Garami, Backside 50-50, Cross Ashi-Garami, Estima Lock Control, Honey Hole, Inside Ashi-Garami, Inside Sankaku, Kneebar Control, Leg Entanglement, Saddle, Toe Hold Control, Ushiro Ashi-Garami, Outside Ashi-Garami." } },
+    { "@type": "Question", "name": "What positions can you finish the Toe Hold from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Toe Hold from 50-50 Guard, Ashi Garami, Honey Hole, Inside Ashi-Garami, Inside Sankaku, Kneebar Control, Toe Hold Control, Estima Lock Control, Backside 50-50, Cross Ashi-Garami, Leg Entanglement, Saddle, Ushiro Ashi-Garami, Outside Ashi-Garami." } },
     { "@type": "Question", "name": "Is the Toe Hold dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Toe Hold targets the Ankle, toes, and foot ligaments. Primary risk: Ankle ligament tears (lateral and medial collateral ligaments). Tap early and release immediately on the tap." } }
   ]
 }
@@ -100,21 +100,19 @@ What makes the Toe Hold particularly dangerous and effective is the speed at whi
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Toe Hold/from 50-50 Guard|50-50 Guard]] | Top | 60% | [[Submissions/Toe Hold/from 50-50 Guard/Attacker|Attack →]] | [[Submissions/Toe Hold/from 50-50 Guard/Defender|Defend →]] |
 | [[Submissions/Toe Hold/from 50-50|50-50 Guard]] | Bottom | 60% | [[Submissions/Toe Hold/from 50-50/Attacker|Attack →]] | [[Submissions/Toe Hold/from 50-50/Defender|Defend →]] |
 | [[Submissions/Toe Hold/from Ashi Garami|Ashi Garami]] | Top | 60% | [[Submissions/Toe Hold/from Ashi Garami/Attacker|Attack →]] | [[Submissions/Toe Hold/from Ashi Garami/Defender|Defend →]] |
-| [[Submissions/Toe Hold/from Backside 50-50|Backside 50-50]] | Top | 60% | [[Submissions/Toe Hold/from Backside 50-50/Attacker|Attack →]] | [[Submissions/Toe Hold/from Backside 50-50/Defender|Defend →]] |
-| [[Submissions/Toe Hold/from Cross Ashi-Garami|Cross Ashi-Garami]] | Top | 60% | [[Submissions/Toe Hold/from Cross Ashi-Garami/Attacker|Attack →]] | [[Submissions/Toe Hold/from Cross Ashi-Garami/Defender|Defend →]] |
-| [[Submissions/Toe Hold/from Estima Lock|Estima Lock Control]] | Top | 60% | [[Submissions/Toe Hold/from Estima Lock/Attacker|Attack →]] | [[Submissions/Toe Hold/from Estima Lock/Defender|Defend →]] |
 | [[Submissions/Toe Hold/from Honey Hole|Honey Hole]] | Top | 60% | [[Submissions/Toe Hold/from Honey Hole/Attacker|Attack →]] | [[Submissions/Toe Hold/from Honey Hole/Defender|Defend →]] |
 | [[Submissions/Toe Hold/from Inside Ashi-Garami|Inside Ashi-Garami]] | Top | 60% | [[Submissions/Toe Hold/from Inside Ashi-Garami/Attacker|Attack →]] | [[Submissions/Toe Hold/from Inside Ashi-Garami/Defender|Defend →]] |
 | [[Submissions/Toe Hold/from Inside Sankaku|Inside Sankaku]] | Top | 60% | [[Submissions/Toe Hold/from Inside Sankaku/Attacker|Attack →]] | [[Submissions/Toe Hold/from Inside Sankaku/Defender|Defend →]] |
 | [[Submissions/Toe Hold/from Kneebar Control|Kneebar Control]] | Top | 60% | [[Submissions/Toe Hold/from Kneebar Control/Attacker|Attack →]] | [[Submissions/Toe Hold/from Kneebar Control/Defender|Defend →]] |
-| [[Submissions/Toe Hold/from Leg Entanglement|Leg Entanglement]] | Top | 60% | [[Submissions/Toe Hold/from Leg Entanglement/Attacker|Attack →]] | [[Submissions/Toe Hold/from Leg Entanglement/Defender|Defend →]] |
-| [[Submissions/Toe Hold/from Saddle|Saddle]] | Top | 60% | [[Submissions/Toe Hold/from Saddle/Attacker|Attack →]] | [[Submissions/Toe Hold/from Saddle/Defender|Defend →]] |
 | [[Submissions/Toe Hold/from Toe Hold Control|Toe Hold Control]] | Top | 60% | [[Submissions/Toe Hold/from Toe Hold Control/Attacker|Attack →]] | [[Submissions/Toe Hold/from Toe Hold Control/Defender|Defend →]] |
-| [[Submissions/Toe Hold/from Top|Inside Ashi-Garami]] | Bottom | 58% | [[Submissions/Toe Hold/from Top/Attacker|Attack →]] | [[Submissions/Toe Hold/from Top/Defender|Defend →]] |
-| [[Submissions/Toe Hold/from Ushiro Ashi-Garami|Ushiro Ashi-Garami]] | Top | 50% | [[Submissions/Toe Hold/from Ushiro Ashi-Garami/Attacker|Attack →]] | [[Submissions/Toe Hold/from Ushiro Ashi-Garami/Defender|Defend →]] |
+| [[Submissions/Toe Hold/from Estima Lock|Estima Lock Control]] | Top | 55% | [[Submissions/Toe Hold/from Estima Lock/Attacker|Attack →]] | [[Submissions/Toe Hold/from Estima Lock/Defender|Defend →]] |
+| [[Submissions/Toe Hold/from Backside 50-50|Backside 50-50]] | Top | 45% | [[Submissions/Toe Hold/from Backside 50-50/Attacker|Attack →]] | [[Submissions/Toe Hold/from Backside 50-50/Defender|Defend →]] |
+| [[Submissions/Toe Hold/from Cross Ashi-Garami|Cross Ashi-Garami]] | Top | 45% | [[Submissions/Toe Hold/from Cross Ashi-Garami/Attacker|Attack →]] | [[Submissions/Toe Hold/from Cross Ashi-Garami/Defender|Defend →]] |
+| [[Submissions/Toe Hold/from Leg Entanglement|Leg Entanglement]] | Top | 45% | [[Submissions/Toe Hold/from Leg Entanglement/Attacker|Attack →]] | [[Submissions/Toe Hold/from Leg Entanglement/Defender|Defend →]] |
+| [[Submissions/Toe Hold/from Saddle|Saddle]] | Top | 45% | [[Submissions/Toe Hold/from Saddle/Attacker|Attack →]] | [[Submissions/Toe Hold/from Saddle/Defender|Defend →]] |
+| [[Submissions/Toe Hold/from Ushiro Ashi-Garami|Ushiro Ashi-Garami]] | Top | 45% | [[Submissions/Toe Hold/from Ushiro Ashi-Garami/Attacker|Attack →]] | [[Submissions/Toe Hold/from Ushiro Ashi-Garami/Defender|Defend →]] |
 | [[Submissions/Toe Hold/from Outside Ashi|Outside Ashi-Garami]] | Top | 40% | [[Submissions/Toe Hold/from Outside Ashi/Attacker|Attack →]] | [[Submissions/Toe Hold/from Outside Ashi/Defender|Defend →]] |
 
 

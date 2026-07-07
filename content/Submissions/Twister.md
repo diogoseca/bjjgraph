@@ -53,7 +53,7 @@ description: "Master the Twister spinal lock in BJJ. Complete guide covering Tru
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Twister?", "acceptedAnswer": { "@type": "Answer", "text": "The Twister is a 10th Planet spinal-lock submission that corkscrews the opponent\u0027s spine by driving their upper body one direction while a trapped leg pins their lower body the other, finished from the Truck position." } },
-    { "@type": "Question", "name": "What positions can you finish the Twister from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Twister from Cross Body Ride, Russian Cowboy, Twister Control, Twister Side Control." } },
+    { "@type": "Question", "name": "What positions can you finish the Twister from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Twister from Twister Control, Cross Body Ride, Russian Cowboy, Twister Side Control." } },
     { "@type": "Question", "name": "Is the Twister dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Twister targets the Cervical and thoracic spine, shoulder girdle. Primary risk: Cervical spine damage (neck injury). Tap early and release immediately on the tap." } }
   ]
 }
@@ -93,9 +93,9 @@ Due to the complex mechanics and significant injury potential, the Twister is co
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
+| [[Submissions/Twister/from Twister Control|Twister Control]] | Top | 62% | [[Submissions/Twister/from Twister Control/Attacker|Attack →]] | [[Submissions/Twister/from Twister Control/Defender|Defend →]] |
 | [[Submissions/Twister/from Cross Body Ride|Cross Body Ride]] | Top | 40% | [[Submissions/Twister/from Cross Body Ride/Attacker|Attack →]] | [[Submissions/Twister/from Cross Body Ride/Defender|Defend →]] |
 | [[Submissions/Twister/from Russian Cowboy|Russian Cowboy]] | Top | 40% | [[Submissions/Twister/from Russian Cowboy/Attacker|Attack →]] | [[Submissions/Twister/from Russian Cowboy/Defender|Defend →]] |
-| [[Submissions/Twister/from Twister Control|Twister Control]] | Top | 40% | [[Submissions/Twister/from Twister Control/Attacker|Attack →]] | [[Submissions/Twister/from Twister Control/Defender|Defend →]] |
 | [[Submissions/Twister/from Twister Side Control|Twister Side Control]] | Top | 40% | [[Submissions/Twister/from Twister Side Control/Attacker|Attack →]] | [[Submissions/Twister/from Twister Side Control/Defender|Defend →]] |
 
 

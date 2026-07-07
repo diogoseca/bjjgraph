@@ -66,7 +66,7 @@ This technique transforms a failed or stalled submission attempt into a dominant
 The back take from bottom Hindulotine is particularly effective because the opponent often commits fully to the turn, believing they are escaping danger. This commitment makes the back exposure more complete and the subsequent control establishment more secure. The position integrates seamlessly into front headlock and guillotine attack systems, providing a reliable secondary option when the primary choke stalls.
 
 **From Position**: [[Positions/Hindulotine]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 30%
 
 </section>
 

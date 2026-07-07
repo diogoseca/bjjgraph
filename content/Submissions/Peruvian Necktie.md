@@ -123,7 +123,6 @@ The Peruvian Necktie is a sophisticated blood choke that attacks the carotid art
 - [[Submissions/Brabo Choke]] - Related front headlock choke variation
 - [[Submissions/Arm in Guillotine]] - Guillotine variation incorporating trapped arm
 - [[Submissions/Japanese Necktie]] - Closely related front headlock choke with similar leg threading mechanics
-- [[Submissions/Chin Strap Guillotine]] - Alternative guillotine grip available from front headlock
 - [[Positions/Front Headlock]] - Primary control position for entries and setup variations
 - [[Positions/Turtle]] - Primary attacking position where Peruvian Necktie opportunities arise
 - [[Positions/Back Control]] - Alternative attack option when Peruvian Necktie is defended

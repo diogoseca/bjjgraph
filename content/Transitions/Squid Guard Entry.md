@@ -66,7 +66,7 @@ The strategic value of squid guard lies in its ability to shut down pressure pas
 From a systems perspective, squid guard serves as both an offensive platform and a defensive refuge. When worm guard configurations are being cleared, transitioning to squid guard maintains lapel control while changing the control point. The arm wrap also opens unique submission pathways including omoplata entries and triangle setups that exploit the opponent's compromised posture. Mastery of squid guard entry dramatically expands your lapel guard game by adding a complementary configuration that addresses worm guard's weaknesses.
 
 **From Position**: [[Positions/Lapel Guard]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 10%
 
 </section>
 

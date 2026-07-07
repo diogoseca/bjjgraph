@@ -66,7 +66,7 @@ Unlike passive defensive positions, knee shield retention is an active managemen
 This technique serves as the foundation for modern half guard systems, providing a platform for sweeps, back takes, and submissions while simultaneously defending against the most common passing sequences. The bottom player who masters knee shield retention transforms half guard from a survival position into a launching point for offensive chains.
 
 **From Position**: [[Positions/Half Guard/Knee Shield Half Guard]] (Bottom)
-**Success Rate**: 65%
+**Success Rate**: 42%
 
 </section>
 

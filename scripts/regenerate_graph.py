@@ -24,6 +24,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from _slug import slugify  # shared single-source slugify (node keys + alias map)
 from _atomic_io import atomic_write_json
 from _ruleset import reduce_to_scalar  # collapse mirror {gi,nogi} maps at load (calibration-v2)
+import _votes  # forked {community, prior} votes schema — prior-blended per-ruleset rates (Phase 2.3b)
 
 
 # Neutral positions don't have top/bottom roles
@@ -1065,8 +1066,9 @@ def validate_graph(graph: dict, *, verbose: bool = False) -> dict:
 # Main
 # ---------------------------------------------------------------------------
 
-def load_votes(project_root: Path) -> dict[str, float]:
-    """Load community vote rates from templates/votes.json if it exists."""
+def load_votes(project_root: Path) -> dict[str, dict]:
+    """Load per-ruleset published rates from templates/votes.json — one prior-blended {gi,nogi} map
+    per technique name (community votes folded with the calibrated prior). Missing file -> {}."""
     votes_file = project_root / 'templates' / 'votes.json'
     if not votes_file.exists():
         return {}
@@ -1074,9 +1076,9 @@ def load_votes(project_root: Path) -> dict[str, float]:
         with open(votes_file, 'r', encoding='utf-8') as f:
             data = json.load(f)
         return {
-            name: entry['success_rate']
+            name: _votes.folded_rates(_votes.migrate_entry(entry))
             for name, entry in data.get('votes', {}).items()
-            if 'success_rate' in entry
+            if 'community' in entry or 'success_rate' in entry
         }
     except (json.JSONDecodeError, IOError) as e:
         print(f"Warning: Could not load votes.json: {e}")
@@ -1117,11 +1119,13 @@ def generate_state_graph(project_root: Path) -> dict:
         if len(_SYSTEM_UNRESOLVED) > 25:
             print(f"    ... and {len(_SYSTEM_UNRESOLVED) - 25} more")
 
-    # Override success rates with community votes
+    # Override success rates with community votes (prior-blended, per {gi,nogi} frame).
     if vote_rates:
         vote_overrides = 0
         # Role-aware: the attacker node carries the voted success rate; the defender node carries its
         # complement (defender success = attacker failure); the edgeless hub has no successRate.
+        # graph.json keeps `successRate` SCALAR (no consumer churn this phase) by reducing to the
+        # default no-gi frame; the full {gi,nogi} pair is preserved in `successRateByRuleset`.
         for coll in (transitions, submissions):
             for data in coll.values():
                 role = data.get('role')
@@ -1129,8 +1133,27 @@ def generate_state_graph(project_root: Path) -> dict:
                     continue
                 name = data.get('name', '')
                 if name in vote_rates:
-                    rate = round(vote_rates[name], 1)
-                    data['successRate'] = rate if role == 'attacker' else max(0, round(100 - rate, 1))
+                    rate = vote_rates[name]  # {gi, nogi}
+                    att = round(rate['nogi'], 1)  # default headline frame = no-gi
+                    if role == 'attacker':
+                        data['successRate'] = att
+                        data['successRateByRuleset'] = {
+                            "gi": round(rate['gi'], 1),
+                            "nogi": round(rate['nogi'], 1),
+                        }
+                    else:  # defender carries the complement of the attacker's rate, per frame
+                        data['successRate'] = max(0, round(100 - att, 1))
+                        data['successRateByRuleset'] = {
+                            "gi": max(0, round(100 - rate['gi'], 1)),
+                            "nogi": max(0, round(100 - rate['nogi'], 1)),
+                        }
+                    # Headline <-> breakdown coherence: rescale the outcome distribution so the
+                    # success-result cells sum to the node's scalar successRate.
+                    outcomes = data.get('outcomes')
+                    if outcomes and any(o.get('result') == 'success' for o in outcomes):
+                        data['outcomes'] = _votes.rescale_dist_to_success(
+                            outcomes, int(round(data['successRate']))
+                        )
                     vote_overrides += 1
         if vote_overrides:
             print(f"  Applied {vote_overrides} community vote rate override(s)")

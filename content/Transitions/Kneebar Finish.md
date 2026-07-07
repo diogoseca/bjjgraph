@@ -66,7 +66,7 @@ From the Carni position, the kneebar becomes available when the opponent extends
 What makes this finish particularly effective from Carni is the element of surprise. Most opponents in Carni are primarily defending the heel hook, keeping their knee bent and heel protected. When they momentarily straighten the leg, they expose themselves to a completely different submission angle that many practitioners fail to defend. This creates the classic dilemma system where defending one attack opens vulnerability to another.
 
 **From Position**: [[Positions/Rubber Guard/Carni]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 32%
 
 </section>
 

@@ -66,7 +66,7 @@ This pass requires precise timing, as attempting to stack against a fully establ
 Strategically, the stack pass represents a commitment - once you drive forward, you cannot easily disengage without giving up position. This makes it critical to secure adequate leg control before initiating the stack. The technique works best as part of a pressure passing system where you've already forced the opponent to work hard maintaining their inversion, creating the fatigue that opens the stacking opportunity.
 
 **From Position**: [[Positions/Grasshopper Guard]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 40%
 
 </section>
 

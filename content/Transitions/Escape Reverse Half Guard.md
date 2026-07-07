@@ -256,7 +256,7 @@ Escape Reverse Half Guard connects the reverse half guard system to the standard
 
 - [[Positions/Turtle]] - Alternative escape destination when rotation is blocked and turtle recovery is preferred
 
-- [[Transitions/Deep Half Entry from Half Guard]] - Related transition for converting escape momentum into deep half guard offense
+- [[Deep Half Entry from Half Guard]] - Related transition for converting escape momentum into deep half guard offense
 
 - [[Positions/Half Guard/Lockdown]] - Alternative leg control variation that may assist in maintaining control during rotation
 

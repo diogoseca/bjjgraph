@@ -264,9 +264,7 @@ From a biomechanical standpoint, the spinning armbar exploits the principle that
 - [[Submissions/Triangle Choke]]
 - [[Submissions/Omoplata]]
 - [[Submissions/Kimura]]
-- [[Submissions/Flying Armbar]]
 - [[Submissions/Belly Down Armbar]]
-- [[Submissions/Gift Wrap Armbar]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Baratoplata]]
 - [[Submissions/Armbar/Reverse Armbar from Mount]] - Complementary armbar variation sharing arm isolation and rotational control principles

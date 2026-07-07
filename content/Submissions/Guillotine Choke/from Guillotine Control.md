@@ -54,7 +54,7 @@ description: "Master the guillotine choke finish from guillotine control. Comple
 <span class="meta-chip">Choke</span>
 <span class="meta-chip">Blood Choke</span>
 <span class="meta-chip">Targets Carotid arteries and windpipe</span>
-<span class="meta-chip">62% success</span>
+<span class="meta-chip">35% success</span>
 </div>
 
 > [!danger] Safety
@@ -255,10 +255,8 @@ Strategically, the guillotine finish from control forces a binary defensive dile
 ## Related
 - [[Submissions/High Elbow Guillotine]]
 - [[Submissions/Arm in Guillotine]]
-- [[Submissions/Chin Strap Guillotine]]
 - [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
-- [[Submissions/Von Flue Choke]]
 - [[Submissions/Japanese Necktie]]
 - [[Transitions/Gogoplata]]
 - [[Positions/Guillotine Control]] - Primary starting position where choke grip is already established

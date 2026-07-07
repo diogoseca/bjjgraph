@@ -66,7 +66,7 @@ Strategically, this transition converts a dominant but static pinning position i
 The technique rewards patience and systematic grip progression. Rushing the arm thread before properly trapping the opponent's arm results in the bottom player framing out and recovering guard. Advanced practitioners use the arm triangle threat as part of a broader submission chain from North-South, combining it with kimura, North-South choke, and armbar attacks to create a web of threats where defending one opens another.
 
 **From Position**: [[Positions/North-South]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 41%
 
 </section>
 

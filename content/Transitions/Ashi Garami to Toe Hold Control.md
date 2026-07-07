@@ -70,7 +70,7 @@ This transition matters because the toe hold attacks a different vector than the
 Because the entanglement itself is preserved through the grip switch, this is a low-risk, high-frequency entry rather than a positional gamble. The attacker's legs maintain knee-line control throughout, so a defended toe hold does not collapse the position; it simply returns the attacker to ashi garami to re-attack. The primary danger is grip-fighting losing the foot or the opponent rolling to dislodge the entanglement, both of which return the action to a neutral guard exchange rather than a reversal.
 
 **From Position**: [[Positions/Ashi Garami]] (Bottom)
-**Success Rate**: 60%
+**Success Rate**: 42%
 
 </section>
 

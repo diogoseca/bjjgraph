@@ -95,7 +95,7 @@ Among the most overlooked finishes in grappling, the Bicep Slicer earns its keep
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Bicep Slicer/from Crucifix|Crucifix]] | Top | 52% | [[Submissions/Bicep Slicer/from Crucifix/Attacker|Attack →]] | [[Submissions/Bicep Slicer/from Crucifix/Defender|Defend →]] |
+| [[Submissions/Bicep Slicer/from Crucifix|Crucifix]] | Top | 65% | [[Submissions/Bicep Slicer/from Crucifix/Attacker|Attack →]] | [[Submissions/Bicep Slicer/from Crucifix/Defender|Defend →]] |
 
 
 </div>

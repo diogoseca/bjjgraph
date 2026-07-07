@@ -66,7 +66,7 @@ This transition exploits the fundamental defensive dilemma created by buggy chok
 Strategically, this transition transforms failed submission attempts into continued offensive pressure. Rather than viewing defensive success as a reset, skilled practitioners chain the buggy choke to front headlock as part of a systematic turtle attack flowchart where every defensive response opens different offensive opportunities. This reflects advanced positional thinking where submissions are entry points to position, and positions are entry points to submissions.
 
 **From Position**: [[Positions/Buggy Choke]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 41%
 
 </section>
 

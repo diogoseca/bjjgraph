@@ -64,7 +64,7 @@ The Darce Setup is a crucial transitional technique that transforms front headlo
 The Darce setup requires precise timing and technical execution rather than pure strength, making it accessible to practitioners of all sizes when properly understood. This technique serves as a gateway to multiple submission opportunities including the Darce choke, Anaconda choke, and various transitions to back control or mount positions. The setup phase is where most attempts succeed or fail — a shallow threading arm or incorrect angle dooms the finish before it begins. Mastering the mechanical details of the setup converts front headlock from a holding position into a genuine submission threat that forces opponents into increasingly desperate defensive reactions.
 
 **From Position**: [[Positions/Front Headlock]] (Top)
-**Success Rate**: 52%
+**Success Rate**: 39%
 
 </section>
 

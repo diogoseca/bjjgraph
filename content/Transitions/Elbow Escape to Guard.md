@@ -66,7 +66,7 @@ The escape works by using your near-side elbow as a wedge against the opponent's
 This technique is particularly valuable because it maintains a defensive posture throughout the escape sequence, minimizing risk of transitioning to worse positions like back control or crucifix. The escape naturally flows into open guard rather than requiring you to fight through multiple transitional positions. For practitioners facing skilled buggy choke attacks, developing proficiency in this escape is essential for building a complete turtle defense system that doesn't rely solely on preventing the initial grip establishment.
 
 **From Position**: [[Positions/Buggy Choke]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 43%
 
 </section>
 

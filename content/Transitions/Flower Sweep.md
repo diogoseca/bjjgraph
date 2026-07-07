@@ -62,7 +62,7 @@ description: "Learn the Flower Sweep in BJJ. Master this fundamental closed guar
 Named for the circular, flower-blooming motion of the legs as the sweep unfolds, this is one of the highest-percentage reversals available from closed guard and one of the first sweeps most practitioners ever learn. It exploits the opponent's forward pressure and hand-posting reactions, generating a pendulum-like momentum that turns their own weight against them. What makes the Flower Sweep particularly effective is its ability to chain seamlessly with other attacks - if the opponent defends the sweep, you are already positioned for triangles, armbars, or omoplatas. The technique demands excellent hip mobility and precise timing, but once mastered it becomes an instinctive response to the opponent's posture. Despite its mechanical simplicity, it remains effective at the highest levels of competition when executed with proper setup, and it forms one corner of the fundamental closed-guard attack triangle alongside submissions and posture-breaking transitions.
 
 **From Position**: [[Positions/Closed Guard]] (Bottom)
-**Success Rate**: 62%
+**Success Rate**: 25%
 
 </section>
 

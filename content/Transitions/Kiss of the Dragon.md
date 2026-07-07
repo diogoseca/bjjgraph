@@ -66,7 +66,7 @@ The technique exploits the moment when an opponent commits weight forward into t
 The technique requires excellent spatial awareness, timing, and the ability to maintain connection throughout the inversion. The hip grip serves as the anchor that keeps the rolling practitioner's body tracing a tight arc around the opponent rather than rolling into empty space. When executed properly, the Kiss of the Dragon provides one of the most direct paths from turtle top to full back control with hooks. The technique has gained prominence in modern competition grappling as a complement to traditional turtle attacks, creating a three-dimensional threat system that is extremely difficult to defend comprehensively.
 
 **From Position**: [[Positions/Turtle]] (Top)
-**Success Rate**: 50%
+**Success Rate**: 29%
 
 </section>
 

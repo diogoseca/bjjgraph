@@ -55,7 +55,7 @@ description: "Master the Rear Naked Choke in BJJ. Complete safety guide with pro
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Rear Naked Choke?", "acceptedAnswer": { "@type": "Answer", "text": "The Rear Naked Choke is a blood choke applied from behind that wraps a forearm across the throat to compress both carotid arteries, cutting blood flow to the brain and forcing a tap or unconsciousness within seconds." } },
-    { "@type": "Question", "name": "What positions can you finish the Rear Naked Choke from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Rear Naked Choke from Back Control, Body Triangle, Crucifix, Gift Wrap, Harness, Invisible Collar, Mounted Crucifix, Rear Triangle, Russian Cowboy, Seat Belt Control Back, Standing Back Control, Rodeo Ride, Standing Rear Clinch." } },
+    { "@type": "Question", "name": "What positions can you finish the Rear Naked Choke from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Rear Naked Choke from Back Control, Body Triangle, Crucifix, Gift Wrap, Harness, Rear Triangle, Seat Belt Control Back, Standing Back Control, Invisible Collar, Mounted Crucifix, Rodeo Ride, Russian Cowboy, Standing Rear Clinch." } },
     { "@type": "Question", "name": "Is the Rear Naked Choke dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Rear Naked Choke targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from blood choke. Tap early and release immediately on the tap." } }
   ]
 }
@@ -101,13 +101,13 @@ The Rear Naked Choke (RNC) is widely considered the highest-percentage submissio
 | [[Submissions/Rear Naked Choke/from Crucifix|Crucifix]] | Top | 65% | [[Submissions/Rear Naked Choke/from Crucifix/Attacker|Attack →]] | [[Submissions/Rear Naked Choke/from Crucifix/Defender|Defend →]] |
 | [[Submissions/Rear Naked Choke/from Gift Wrap|Gift Wrap]] | Top | 65% | [[Submissions/Rear Naked Choke/from Gift Wrap/Attacker|Attack →]] | [[Submissions/Rear Naked Choke/from Gift Wrap/Defender|Defend →]] |
 | [[Submissions/Rear Naked Choke/from Harness|Harness]] | Top | 65% | [[Submissions/Rear Naked Choke/from Harness/Attacker|Attack →]] | [[Submissions/Rear Naked Choke/from Harness/Defender|Defend →]] |
-| [[Submissions/Rear Naked Choke/from Invisible Collar|Invisible Collar]] | Top | 65% | [[Submissions/Rear Naked Choke/from Invisible Collar/Attacker|Attack →]] | [[Submissions/Rear Naked Choke/from Invisible Collar/Defender|Defend →]] |
-| [[Submissions/Rear Naked Choke/from Mounted Crucifix|Mounted Crucifix]] | Top | 65% | [[Submissions/Rear Naked Choke/from Mounted Crucifix/Attacker|Attack →]] | [[Submissions/Rear Naked Choke/from Mounted Crucifix/Defender|Defend →]] |
 | [[Submissions/Rear Naked Choke/from Rear Triangle|Rear Triangle]] | Top | 65% | [[Submissions/Rear Naked Choke/from Rear Triangle/Attacker|Attack →]] | [[Submissions/Rear Naked Choke/from Rear Triangle/Defender|Defend →]] |
-| [[Submissions/Rear Naked Choke/from Russian Cowboy|Russian Cowboy]] | Top | 65% | [[Submissions/Rear Naked Choke/from Russian Cowboy/Attacker|Attack →]] | [[Submissions/Rear Naked Choke/from Russian Cowboy/Defender|Defend →]] |
 | [[Submissions/Rear Naked Choke/from Seat Belt Control Back|Seat Belt Control Back]] | Top | 65% | [[Submissions/Rear Naked Choke/from Seat Belt Control Back/Attacker|Attack →]] | [[Submissions/Rear Naked Choke/from Seat Belt Control Back/Defender|Defend →]] |
 | [[Submissions/Rear Naked Choke/from Standing Back Control|Standing Back Control]] | Top | 65% | [[Submissions/Rear Naked Choke/from Standing Back Control/Attacker|Attack →]] | [[Submissions/Rear Naked Choke/from Standing Back Control/Defender|Defend →]] |
+| [[Submissions/Rear Naked Choke/from Invisible Collar|Invisible Collar]] | Top | 58% | [[Submissions/Rear Naked Choke/from Invisible Collar/Attacker|Attack →]] | [[Submissions/Rear Naked Choke/from Invisible Collar/Defender|Defend →]] |
+| [[Submissions/Rear Naked Choke/from Mounted Crucifix|Mounted Crucifix]] | Top | 50% | [[Submissions/Rear Naked Choke/from Mounted Crucifix/Attacker|Attack →]] | [[Submissions/Rear Naked Choke/from Mounted Crucifix/Defender|Defend →]] |
 | [[Submissions/Rear Naked Choke/from Rodeo|Rodeo Ride]] | Top | 50% | [[Submissions/Rear Naked Choke/from Rodeo/Attacker|Attack →]] | [[Submissions/Rear Naked Choke/from Rodeo/Defender|Defend →]] |
+| [[Submissions/Rear Naked Choke/from Russian Cowboy|Russian Cowboy]] | Top | 40% | [[Submissions/Rear Naked Choke/from Russian Cowboy/Attacker|Attack →]] | [[Submissions/Rear Naked Choke/from Russian Cowboy/Defender|Defend →]] |
 | [[Submissions/Rear Naked Choke/from Standing Rear Clinch|Standing Rear Clinch]] | Top | 35% | [[Submissions/Rear Naked Choke/from Standing Rear Clinch/Attacker|Attack →]] | [[Submissions/Rear Naked Choke/from Standing Rear Clinch/Defender|Defend →]] |
 
 

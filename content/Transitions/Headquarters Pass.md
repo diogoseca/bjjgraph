@@ -62,7 +62,7 @@ description: "Learn Headquarters Pass in BJJ. Step-by-step execution from headqu
 Drawn from modern systematic guard passing, the Headquarters Pass converts the headquarters control platform into a finishing route to side control against a half guard player. Popularized by modern no-gi grapplers, it creates a stable platform where the passer controls the opponent's legs while maintaining strong shoulder pressure and crossface control. The headquarters position neutralizes most half guard retention strategies by controlling the opponent's bottom leg and preventing them from creating frames or recovering full guard. From this controlling position, the passer can systematically break down the opponent's defenses and transition to side control with minimal risk of being swept or re-guarded. The headquarters pass is particularly effective because it allows the passer to pause, assess the opponent's defensive reactions, and choose from multiple finishing options based on how the opponent responds.
 
 **From Position**: [[Positions/Headquarters Position]] (Top)
-**Success Rate**: 72%
+**Success Rate**: 40%
 
 </section>
 

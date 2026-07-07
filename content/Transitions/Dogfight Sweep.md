@@ -66,7 +66,7 @@ Strategically, the Dogfight Sweep is the anchor technique of the Dogfight attack
 The sweep scales effectively across skill levels. Beginners can succeed with raw forward pressure and grip strength. Advanced practitioners refine the timing to execute during weight transitions, reading when the opponent shifts their base and attacking the precise moment their far leg becomes load-bearing. The mechanical simplicity combined with strategic depth makes this sweep essential for any competitive half guard practitioner.
 
 **From Position**: [[Positions/Dogfight Position]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 40%
 
 </section>
 

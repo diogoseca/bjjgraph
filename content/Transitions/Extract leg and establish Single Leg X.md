@@ -66,7 +66,7 @@ The strategic value of this transition lies in its ability to reverse the positi
 Success in this transition requires precise timing, understanding of when opponent's leg control is weakest, and the mechanical skill to smoothly transition from extraction directly into Single Leg X-Guard configuration without allowing space for opponent's recovery. The technique exemplifies modern leg lock defense philosophy where escape and counter-attack are integrated into a single fluid movement rather than separate sequential actions.
 
 **From Position**: [[Positions/Leg Knot]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 34%
 
 </section>
 

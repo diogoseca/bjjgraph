@@ -66,7 +66,7 @@ This transition exemplifies the principle of using opponent reactions against th
 Strategically, the Roll to Truck should be viewed as an opportunistic transition rather than a forced entry. Attempting to roll an opponent who is defending statically typically fails. The technique works best when timed with the opponent's own escape momentum, requiring sensitivity to their movement intentions and commitment to following their direction while establishing boot control as the primary mechanism for truck position consolidation.
 
 **From Position**: [[Positions/Buggy Choke]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 40%
 
 </section>
 

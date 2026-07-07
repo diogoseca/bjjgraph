@@ -66,7 +66,7 @@ The finishing mechanics distinguish this technique from the positional control p
 Strategically, committing to the finish requires reading opponent defensive reactions. Static opponents who focus purely on grip fighting without movement create ideal finishing opportunities. However, opponents who move aggressively toward back escapes or sitting to guard may offer better positional advancement opportunities than forcing a contested choke. The finish should be executed with progressive pressure rather than explosive yanking, maximizing technical efficiency while minimizing energy expenditure and reducing injury risk to training partners.
 
 **From Position**: [[Positions/Buggy Choke]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 20%
 
 </section>
 
@@ -76,7 +76,7 @@ Strategically, committing to the finish requires reading opponent defensive reac
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Buggy Choke from Buggy Choke]] | 58% |
+| Success | [[Buggy Choke from Half Guard]] | 58% |
 | Failure | [[Positions/Buggy Choke]] | 30% |
 | Counter | [[Positions/Half Guard]] | 12% |
 

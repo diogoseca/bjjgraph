@@ -66,7 +66,7 @@ This transition capitalizes on the opponent's compromised defensive position dur
 Strategically, the Ankle Lock Finish serves as a high-percentage option when heel hook access is compromised by the opponent's defensive hand fighting or when ruleset restrictions limit heel hook application. The straight ankle lock provides a legal submission across all major competition formats while maintaining offensive pressure that prevents the opponent from completing their escape sequence. Success requires precise timing, proper grip establishment, and coordinated breaking mechanics that account for the reversed entanglement geometry.
 
 **From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 38%
 
 </section>
 

@@ -249,7 +249,7 @@ The whizzer from deep half guard occupies a critical role in the top player's ha
 
 - [[Transitions/Kimura from Half Guard]] - Submission chain available by converting whizzer grip to kimura
 
-- [[Transitions/Deep Half Entry from Half Guard]] - Entry technique that creates the position requiring the whizzer counter
+- [[Deep Half Entry from Half Guard]] - Entry technique that creates the position requiring the whizzer counter
 
 - [[Positions/Half Guard/Lockdown]] - Leg control the bottom player may use to prevent sprawling during whizzer
 

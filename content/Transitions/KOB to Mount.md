@@ -66,7 +66,7 @@ Strategic timing is essential. The ideal moment to transition occurs when the bo
 The transition requires coordinated grip management, hip control, and base awareness. Maintaining downward pressure throughout the movement prevents the bottom player from exploiting the momentary instability inherent in any positional shift. Understanding when to commit to the mount entry versus maintaining KOB pressure or attacking submissions is a key decision point that separates methodical top players from those who lose position by rushing transitions.
 
 **From Position**: [[Positions/Knee on Belly]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 54%
 
 </section>
 

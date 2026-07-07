@@ -66,7 +66,7 @@ Developed and popularized through modern competition grappling, the Single Leg X
 The Single Leg X position reached through this entry offers multiple offensive pathways including sweeps to top position, transitions to more complex leg entanglements like Ashi Garami or X-Guard, and direct submission attacks. Understanding this entry is crucial for developing a comprehensive modern guard game and building systematic attacking sequences from the bottom position.
 
 **From Position**: [[Positions/Seated Guard]] (Bottom)
-**Success Rate**: 60%
+**Success Rate**: 48%
 
 </section>
 

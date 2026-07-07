@@ -66,7 +66,7 @@ This escape requires a two-phase approach: first neutralizing the immediate coll
 Strategically, the Standing Escape is most effective when combined with other escape threats from Invisible Collar bottom. If the attacker is focused on defending your hip escape or rolling escape attempts, the sudden posture change to standing catches them out of position. The escape integrates into a layered defensive system where each escape attempt creates openings for others, making the defender unpredictable and forcing the attacker to address multiple threats simultaneously.
 
 **From Position**: [[Positions/Rubber Guard/Invisible Collar]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 36%
 
 </section>
 

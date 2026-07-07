@@ -66,7 +66,7 @@ The rolling motion is what makes the technique punch above its weight. Rotationa
 The technique works in both gi and no-gi, though the connection differs. In the gi, cloth grips on the sleeve or lapel supplement the figure-four and slow the opponent's escape; in no-gi the lock relies on tight wrist-and-elbow control and a closer body connection because the reduced friction lets a sweaty arm slip. Either way, the roll itself, not the squeeze, is the engine, which is why the Rolling Kimura remains a cornerstone of the modern half guard and Kimura Trap attacking system.
 
 **From Position**: [[Positions/Kimura Trap]] (Bottom)
-**Success Rate**: 60%
+**Success Rate**: 38%
 
 </section>
 

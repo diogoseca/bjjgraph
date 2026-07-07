@@ -253,7 +253,7 @@ The Technical Stand Up from Open Guard serves as a critical bridge between the g
 
 - [[Transitions/Guard Pull from Clinch]] - Option if opponent clinches during your stand-up attempt
 
-- [[Transitions/Sprawl Defense from Standing]] - Defensive skill needed if opponent shoots during stand-up completion
+- [[Sprawl Defense from Standing]] - Defensive skill needed if opponent shoots during stand-up completion
 
 
 </section>

@@ -54,7 +54,7 @@ description: "Master the Americana shoulder lock from Modified Mount. Learn grip
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Shoulder Lock</span>
 <span class="meta-chip">Targets Shoulder joint (specifically glenohumeral joint and rotator cuff)</span>
-<span class="meta-chip">68% success</span>
+<span class="meta-chip">55% success</span>
 </div>
 
 > [!danger] Safety

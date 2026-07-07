@@ -66,7 +66,7 @@ Strategically, this transition serves as a critical component of the back attack
 The key to success lies in recognizing the correct timing window: when the opponent commits both hands to neck defense, their arm structure becomes vulnerable. You must transition decisively, maintaining control throughout the movement from back to armbar position. Hesitation allows the opponent to retract their arms, recover posture, or exploit the positional instability inherent in standing transitions. Advanced practitioners chain this attack with choke attempts, creating a dilemma where defending one threat opens vulnerability to the other.
 
 **From Position**: [[Positions/Back Control/Standing Back Control]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 30%
 
 </section>
 
@@ -253,7 +253,7 @@ The Armbar from Back Transition integrates into the back attack system as a seco
 
 - [[Submissions/Belly Down Armbar]] - Variant finish when opponent stacks during transition
 
-- [[Transitions/Hitchhiker Escape]] - Primary escape the defender uses once armbar control is established
+- [[Hitchhiker Escape]] - Primary escape the defender uses once armbar control is established
 
 
 </section>

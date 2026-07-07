@@ -70,7 +70,7 @@ The entry works best when the opponent reaches in to control your collar, posts 
 Because Williams Guard relies on a shoulder lock rather than collar-and-sleeve grips, the butterfly entry is especially valuable in no-gi where grip-based guards lose retention. The seated butterfly posture provides the elevation and hip mobility needed to angle off, while the overhook supplies the pre-frame that becomes the figure-four. Practitioners who master this entry gain a reliable on-ramp into one of the most dynamic submission-driven guards in contemporary grappling.
 
 **From Position**: [[Positions/Butterfly Guard]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 33%
 
 </section>
 

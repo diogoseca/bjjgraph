@@ -54,7 +54,7 @@ description: "Master the Calf Slicer in BJJ. Complete guide with safety protocol
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Calf Slicer?", "acceptedAnswer": { "@type": "Answer", "text": "The Calf Slicer is a leg-compression submission that traps the attacker\u0027s shin behind the opponent\u0027s knee and folds the lower leg over it, crushing the calf and Achilles against the bony wedge until they tap." } },
-    { "@type": "Question", "name": "What positions can you finish the Calf Slicer from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Calf Slicer from Truck, 50-50 Guard, Backside 50-50, Carni, Honey Hole, Inside Sankaku, Russian Cowboy, Saddle, Twister Control, Twister Side Control, Rodeo Ride." } },
+    { "@type": "Question", "name": "What positions can you finish the Calf Slicer from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Calf Slicer from Twister Control, Carni, Honey Hole, Inside Sankaku, Rodeo Ride, Truck, 50-50 Guard, Backside 50-50, Saddle, Russian Cowboy, Twister Side Control." } },
     { "@type": "Question", "name": "Is the Calf Slicer dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Calf Slicer targets the Calf muscle and Achilles tendon. Primary risk: Calf muscle tear or rupture. Tap early and release immediately on the tap." } }
   ]
 }
@@ -97,17 +97,17 @@ The submission is particularly dangerous because the pain can be delayed, meanin
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Calf Slicer/from Truck|Truck]] | Top | 60% | [[Submissions/Calf Slicer/from Truck/Attacker|Attack →]] | [[Submissions/Calf Slicer/from Truck/Defender|Defend →]] |
-| [[Submissions/Calf Slicer/from 50-50 Guard|50-50 Guard]] | Top | 50% | [[Submissions/Calf Slicer/from 50-50 Guard/Attacker|Attack →]] | [[Submissions/Calf Slicer/from 50-50 Guard/Defender|Defend →]] |
-| [[Submissions/Calf Slicer/from Backside 50-50|Backside 50-50]] | Top | 50% | [[Submissions/Calf Slicer/from Backside 50-50/Attacker|Attack →]] | [[Submissions/Calf Slicer/from Backside 50-50/Defender|Defend →]] |
-| [[Submissions/Calf Slicer/from Carni|Carni]] | Bottom | 50% | [[Submissions/Calf Slicer/from Carni/Attacker|Attack →]] | [[Submissions/Calf Slicer/from Carni/Defender|Defend →]] |
-| [[Submissions/Calf Slicer/from Honey Hole|Honey Hole]] | Top | 50% | [[Submissions/Calf Slicer/from Honey Hole/Attacker|Attack →]] | [[Submissions/Calf Slicer/from Honey Hole/Defender|Defend →]] |
-| [[Submissions/Calf Slicer/from Inside Sankaku|Inside Sankaku]] | Top | 50% | [[Submissions/Calf Slicer/from Inside Sankaku/Attacker|Attack →]] | [[Submissions/Calf Slicer/from Inside Sankaku/Defender|Defend →]] |
-| [[Submissions/Calf Slicer/from Russian Cowboy|Russian Cowboy]] | Top | 50% | [[Submissions/Calf Slicer/from Russian Cowboy/Attacker|Attack →]] | [[Submissions/Calf Slicer/from Russian Cowboy/Defender|Defend →]] |
-| [[Submissions/Calf Slicer/from Saddle|Saddle]] | Top | 50% | [[Submissions/Calf Slicer/from Saddle/Attacker|Attack →]] | [[Submissions/Calf Slicer/from Saddle/Defender|Defend →]] |
-| [[Submissions/Calf Slicer/from Twister Control|Twister Control]] | Top | 50% | [[Submissions/Calf Slicer/from Twister Control/Attacker|Attack →]] | [[Submissions/Calf Slicer/from Twister Control/Defender|Defend →]] |
-| [[Submissions/Calf Slicer/from Twister Side Control|Twister Side Control]] | Top | 50% | [[Submissions/Calf Slicer/from Twister Side Control/Attacker|Attack →]] | [[Submissions/Calf Slicer/from Twister Side Control/Defender|Defend →]] |
-| [[Submissions/Calf Slicer/from Rodeo Ride|Rodeo Ride]] | Top | 40% | [[Submissions/Calf Slicer/from Rodeo Ride/Attacker|Attack →]] | [[Submissions/Calf Slicer/from Rodeo Ride/Defender|Defend →]] |
+| [[Submissions/Calf Slicer/from Twister Control|Twister Control]] | Top | 62% | [[Submissions/Calf Slicer/from Twister Control/Attacker|Attack →]] | [[Submissions/Calf Slicer/from Twister Control/Defender|Defend →]] |
+| [[Submissions/Calf Slicer/from Carni|Carni]] | Bottom | 60% | [[Submissions/Calf Slicer/from Carni/Attacker|Attack →]] | [[Submissions/Calf Slicer/from Carni/Defender|Defend →]] |
+| [[Submissions/Calf Slicer/from Honey Hole|Honey Hole]] | Top | 60% | [[Submissions/Calf Slicer/from Honey Hole/Attacker|Attack →]] | [[Submissions/Calf Slicer/from Honey Hole/Defender|Defend →]] |
+| [[Submissions/Calf Slicer/from Inside Sankaku|Inside Sankaku]] | Top | 60% | [[Submissions/Calf Slicer/from Inside Sankaku/Attacker|Attack →]] | [[Submissions/Calf Slicer/from Inside Sankaku/Defender|Defend →]] |
+| [[Submissions/Calf Slicer/from Rodeo Ride|Rodeo Ride]] | Top | 58% | [[Submissions/Calf Slicer/from Rodeo Ride/Attacker|Attack →]] | [[Submissions/Calf Slicer/from Rodeo Ride/Defender|Defend →]] |
+| [[Submissions/Calf Slicer/from Truck|Truck]] | Top | 58% | [[Submissions/Calf Slicer/from Truck/Attacker|Attack →]] | [[Submissions/Calf Slicer/from Truck/Defender|Defend →]] |
+| [[Submissions/Calf Slicer/from 50-50 Guard|50-50 Guard]] | Top | 45% | [[Submissions/Calf Slicer/from 50-50 Guard/Attacker|Attack →]] | [[Submissions/Calf Slicer/from 50-50 Guard/Defender|Defend →]] |
+| [[Submissions/Calf Slicer/from Backside 50-50|Backside 50-50]] | Top | 45% | [[Submissions/Calf Slicer/from Backside 50-50/Attacker|Attack →]] | [[Submissions/Calf Slicer/from Backside 50-50/Defender|Defend →]] |
+| [[Submissions/Calf Slicer/from Saddle|Saddle]] | Top | 45% | [[Submissions/Calf Slicer/from Saddle/Attacker|Attack →]] | [[Submissions/Calf Slicer/from Saddle/Defender|Defend →]] |
+| [[Submissions/Calf Slicer/from Russian Cowboy|Russian Cowboy]] | Top | 40% | [[Submissions/Calf Slicer/from Russian Cowboy/Attacker|Attack →]] | [[Submissions/Calf Slicer/from Russian Cowboy/Defender|Defend →]] |
+| [[Submissions/Calf Slicer/from Twister Side Control|Twister Side Control]] | Top | 40% | [[Submissions/Calf Slicer/from Twister Side Control/Attacker|Attack →]] | [[Submissions/Calf Slicer/from Twister Side Control/Defender|Defend →]] |
 
 
 </div>

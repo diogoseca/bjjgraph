@@ -93,6 +93,14 @@ description: "Defend against the mat return from standing rear clinch. Recogniti
         "@type": "Answer",
         "text": "Proactive two-on-one grip fighting on the opponent's clasped hands forces them to constantly re-establish their hold rather than settling into the preparation phase for the mat return. By preventing the opponent from achieving a locked grip configuration, you deny them the secure connection needed to execute a controlled descent. Even partial grip breaks create windows for turning to face the opponent or generating enough separation to establish a new defensive position, effectively resetting the standing engagement before the mat return can be attempted."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the earliest recognition cues that your opponent is setting up a mat return from rear clinch?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The earliest cues are the attacker shifting their hips from directly behind you to approximately 45 degrees to one side, combined with a noticeable tightening of their grip and increased forward pressure breaking your posture. You may also feel their knees begin to bend as they prepare for the sitting motion, and their outside leg positioning behind your near leg. Recognizing these cues before the descent begins gives you maximum time to execute defensive options such as grip stripping, base widening, or pre-emptive turning."
+      }
     }
   ]
 }

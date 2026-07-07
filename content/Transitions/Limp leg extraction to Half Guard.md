@@ -66,7 +66,7 @@ The strategic importance of this escape lies in its energy efficiency and reliab
 Advanced practitioners recognize this escape as part of a larger defensive system within leg entanglement warfare. The transition to Half Guard provides immediate safety from leg lock submissions while establishing a stable platform for guard recovery or offensive sweeps. The position choice is deliberate: Half Guard offers superior hip mobility and framing options compared to other escape destinations, while keeping one leg engaged to prevent immediate passing attempts.
 
 **From Position**: [[Positions/Leg Knot]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 41%
 
 </section>
 

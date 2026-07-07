@@ -66,7 +66,7 @@ The switch to triangle exemplifies the principle of offensive combinations and s
 Mastering this transition is essential for developing a dangerous closed guard game and represents a critical milestone in understanding how submissions work together as a system rather than as isolated techniques. At the highest levels, the initial attack is often thrown specifically to bait a defensive reaction that opens the triangle, transforming what appears to be a failed technique into a deliberate setup for the real finishing submission.
 
 **From Position**: [[Positions/Closed Guard]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 34%
 
 </section>
 

@@ -236,7 +236,7 @@ Kimura defense represents a universal defensive skill that applies across virtua
 
 - [[Submissions/Kimura]] - Primary submission threat requiring this defense
 
-- [[Transitions/Hitchhiker Escape]] - Alternative escape variation when rolling is blocked
+- [[Hitchhiker Escape]] - Alternative escape variation when rolling is blocked
 
 - [[Positions/Side Control]] - Common position where kimura attacks originate, requiring positional awareness for early defense
 

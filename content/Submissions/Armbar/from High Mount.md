@@ -248,11 +248,9 @@ Strategically, the Armbar from High Mount functions as the centerpiece of mount 
 ## Related
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Belly Down Armbar]]
-- [[Submissions/Gift Wrap Armbar]]
 - [[Submissions/Americana]]
 - [[Submissions/Arm Triangle]]
 - [[Submissions/Cross Collar Choke]]
-- [[Submissions/Flying Armbar]]
 - [[Submissions/Kimura]]
 - [[Positions/Mount/High Mount]] - Starting position providing elevated platform for arm isolation and submission entry
 - [[Positions/Armbar Control]] - Control position reached after successful armbar entry before finishing the submission

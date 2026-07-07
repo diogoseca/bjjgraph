@@ -62,7 +62,7 @@ description: "Master the Half Guard to Back Take in BJJ. Complete guide to under
 Half Guard to Back Take represents an advanced positional transition that transforms a defensive half guard position into the highly dominant back control. This transition is fundamental to modern half guard systems and represents one of the highest-percentage paths to dominance from bottom position. The technique relies on establishing an underhook, creating a perpendicular angle to the opponent, and systematically climbing to their back while they attempt to maintain top pressure. This transition is particularly effective because it exploits the opponent's forward pressure against them, using their own weight commitment to facilitate the back take. Mastery of this transition is essential for any serious half guard player and represents a key component of offensive half guard systems developed by experts like Bernardo Faria and Craig Jones.
 
 **From Position**: [[Positions/Half Guard]] (Bottom)
-**Success Rate**: 78%
+**Success Rate**: 43%
 
 </section>
 

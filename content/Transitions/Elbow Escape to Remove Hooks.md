@@ -66,7 +66,7 @@ The fundamental concept involves using your elbows as wedges against your oppone
 This escape is particularly effective against the invisible collar because it doesn't require you to remove your hands from neck defense to fight hooks. The elbow mechanics allow you to address both threats simultaneously—protecting your neck while dismantling their lower body control. Successful execution requires patience, proper sequencing, and the discipline to complete each phase fully before moving to the next. Rushing any step typically results in the opponent simply re-establishing the cleared hook.
 
 **From Position**: [[Positions/Rubber Guard/Invisible Collar]] (Bottom)
-**Success Rate**: 48%
+**Success Rate**: 23%
 
 </section>
 

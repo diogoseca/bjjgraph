@@ -66,7 +66,7 @@ The technical foundation relies on timing the leg hook insertion precisely as th
 Strategically, this technique represents the positional advancement pathway within the buggy choke attack system. When opponents recognize the immediate choking threat and prioritize escaping to guard over remaining static, the Hook Leg and Take Back punishes this defensive choice with an even more dominant position. Understanding this transition elevates the buggy choke from a single-path attack to a branching system where the opponent's defensive selection determines which dominant outcome you achieve.
 
 **From Position**: [[Positions/Buggy Choke]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 39%
 
 </section>
 

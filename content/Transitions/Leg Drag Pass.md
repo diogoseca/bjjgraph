@@ -62,7 +62,7 @@ description: "Master the Leg Drag Pass in BJJ. Dominant guard passing technique 
 The Leg Drag Pass is one of the most fundamental and high-percentage guard passing techniques in modern Brazilian Jiu-Jitsu. This pass works by controlling the opponent's legs and dragging them across their body, creating an angle that eliminates their guard retention capabilities while establishing dominant control. The technique is particularly effective against seated guards, butterfly guard, and various open guard positions where the opponent's legs are extended or not locked together. What makes the leg drag so powerful is its ability to simultaneously shut down the opponent's offensive options while creating a clear path to side control or back control. The pass requires precise timing, proper weight distribution, and the ability to anticipate and counter common guard retention tactics. When executed correctly, the leg drag creates a positional hierarchy shift where the passer moves from a neutral or slightly disadvantaged position directly into a dominant control position. This makes it a cornerstone technique for competitive grapplers at all levels.
 
 **From Position**: [[Positions/Open Guard]] (Top)
-**Success Rate**: 68%
+**Success Rate**: 51%
 
 </section>
 

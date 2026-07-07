@@ -64,7 +64,7 @@ Turtle Flatten to Side Control is a fundamental top-game transition that convert
 Strategically, the flatten is a high-percentage option when the opponent has excellent turtle defense or when you recognize that forcing the back take will result in scrambles that favor the bottom player. The flatten works by exploiting the structural weakness of turtle position: the base collapses when lateral pressure is applied at the hip line while controlling the upper body. By breaking the four-point base down to a flat position, you eliminate the opponent's ability to execute granby rolls, sit-throughs, or stand-ups, converting a volatile scramble-prone position into a controlled passing scenario. Competition-proven athletes frequently use this transition as a reliable pathway when back take attempts stall, particularly against opponents with strong turtle defense built around constant motion and grip fighting.
 
 **From Position**: [[Positions/Turtle]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 50%
 
 </section>
 

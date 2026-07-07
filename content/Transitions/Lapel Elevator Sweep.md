@@ -66,7 +66,7 @@ The sweep works by combining a butterfly hook elevation with the pulling tension
 Strategically, the Lapel Elevator Sweep fits into the broader lapel guard attack system as a primary sweeping threat that creates dilemmas. Opponents who defend the sweep by keeping heavy base expose themselves to back takes and omoplata entries. Those who try to clear the lapel configuration first open windows for the sweep execution. This technique rewards patience and positional awareness over explosive athleticism.
 
 **From Position**: [[Positions/Lapel Guard]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 12%
 
 </section>
 

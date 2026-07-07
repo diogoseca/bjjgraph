@@ -66,7 +66,7 @@ The recovery demands precise sequencing and prioritization. Whether facing insid
 Strategic mastery of guard recovery from leg entanglements connects directly to the broader offensive game. Practitioners who develop reliable recovery methods can attack with leg locks knowing they have defensive pathways when positions become compromised, creating a complete game where offensive entries are balanced by extraction capabilities. This bidirectional competence defines the modern leg lock practitioner.
 
 **From Position**: [[Positions/Leg Entanglement]] (Bottom)
-**Success Rate**: 40%
+**Success Rate**: 41%
 
 </section>
 

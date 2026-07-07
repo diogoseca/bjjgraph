@@ -66,7 +66,7 @@ The technique operates on the principle that the arm trap relies on specific ang
 Strategically, Gift Wrap Arm Recovery represents the critical first step in any escape sequence from this position. Without recovering the arm, all other escape attempts become significantly more difficult. The technique must be executed while maintaining neck defense with the free hand, as opponents often attack the rear naked choke when they sense the arm recovery attempt. Timing the recovery when the opponent shifts weight for a submission attempt creates the optimal window for success.
 
 **From Position**: [[Positions/Gift Wrap]] (Bottom)
-**Success Rate**: 48%
+**Success Rate**: 36%
 
 </section>
 

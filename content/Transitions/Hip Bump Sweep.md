@@ -70,7 +70,7 @@ The beauty of the Hip Bump Sweep lies in its versatility and chain attack potent
 The Hip Bump Sweep is also an excellent technique for developing timing, hip mobility, and the ability to off-balance opponents. It teaches practitioners to feel weight distribution and exploit moments of vulnerability. While beginners often struggle with the explosive hip movement and timing required, intermediate and advanced practitioners can execute this sweep with remarkable consistency, especially when integrated into a comprehensive guard attack system.
 
 **From Position**: [[Positions/Closed Guard]] (Bottom)
-**Success Rate**: 60%
+**Success Rate**: 32%
 
 </section>
 

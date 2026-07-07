@@ -255,7 +255,7 @@ The guard pull from standing serves as the primary gateway between the standing 
 
 - [[Positions/De La Riva Guard]] - Alternative guard system accessible from sitting guard pull variations
 
-- [[Transitions/Arm Drag from Standing]] - Alternative standing entry to a dominant position when the opponent defends the guard pull
+- [[Arm Drag from Standing]] - Alternative standing entry to a dominant position when the opponent defends the guard pull
 
 - [[Transitions/50-50 Entry from Standing]] - Related standing-to-ground transition entering a leg entanglement instead of guard
 

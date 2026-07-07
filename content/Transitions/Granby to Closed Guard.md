@@ -66,7 +66,7 @@ The technique is particularly valuable because it works against forward pressure
 Mastery of the Granby to Closed Guard provides practitioners with a reliable escape route from dangerous positions, reducing the effectiveness of common pinning attacks and creating opportunities to return to offensive guard play. The technique requires good body awareness, hip mobility, and timing, but once developed becomes an instinctive defensive reaction that can save matches.
 
 **From Position**: [[Positions/Turtle]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 40%
 
 </section>
 

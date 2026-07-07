@@ -91,7 +91,7 @@ The Paper Cutter Choke is a highly effective blood choke executed primarily from
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Paper Cutter Choke/from Kuzure Kesa-Gatame|Kuzure Kesa-Gatame]] | Top | 62% | [[Submissions/Paper Cutter Choke/from Kuzure Kesa-Gatame/Attacker|Attack →]] | [[Submissions/Paper Cutter Choke/from Kuzure Kesa-Gatame/Defender|Defend →]] |
+| [[Submissions/Paper Cutter Choke/from Kuzure Kesa-Gatame|Kuzure Kesa-Gatame]] | Top | 50% | [[Submissions/Paper Cutter Choke/from Kuzure Kesa-Gatame/Attacker|Attack →]] | [[Submissions/Paper Cutter Choke/from Kuzure Kesa-Gatame/Defender|Defend →]] |
 
 
 </div>

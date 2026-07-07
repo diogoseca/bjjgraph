@@ -255,7 +255,6 @@ The Reverse Armbar is an advanced elbow hyperextension technique distinguished b
 - [[Submissions/Omoplata]]
 - [[Submissions/Kimura]]
 - [[Submissions/Spinning Armbar]]
-- [[Submissions/Flying Armbar]]
 - [[Submissions/Armbar]]
 - [[Submissions/Belly Down Armbar]]
 - [[Transitions/Inverted Triangle]]

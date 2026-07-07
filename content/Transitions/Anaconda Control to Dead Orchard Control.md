@@ -66,7 +66,7 @@ Strategically, this transition represents a conscious decision to trade immediat
 The transition is particularly valuable against opponents with strong neck defense or experienced anaconda escape sequences. By shifting from an immediate-finish mentality to a patient-control framework, the attacker removes the defender's primary survival strategy of weathering the initial squeeze. The dead orchard configuration instead creates cumulative pressure that compounds over time, eventually breaking defensive grips and breathing patterns that would otherwise survive a conventional anaconda attempt.
 
 **From Position**: [[Positions/Anaconda Control]] (Top)
-**Success Rate**: 60%
+**Success Rate**: 42%
 
 </section>
 

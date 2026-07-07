@@ -66,7 +66,7 @@ The defense centers on disrupting the rolling mechanics through posting, base wi
 Strategic awareness is essential because this defense exists within a narrow timing window. Execute too early and the attacker adjusts their angle or switches to a stationary finish. Execute too late and the roll has already generated enough momentum to be unstoppable. Reading the attacker's weight shift and hip repositioning that signals roll initiation is the critical skill that separates successful defense from getting caught in the finishing sequence.
 
 **From Position**: [[Positions/Anaconda Control]] (Bottom)
-**Success Rate**: 40%
+**Success Rate**: 33%
 
 </section>
 

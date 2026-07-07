@@ -143,7 +143,7 @@ Scarf Hold Position represents a transitional control platform rather than purel
 
 - **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (11% of attempts)
 
-- **[[Transitions/Ghost Escape/Attacker|Ghost Escape]]** (12% of attempts)
+- **[[Transitions/Ghost Escape from Side Control/Attacker|Ghost Escape from Side Control]]** (12% of attempts)
 
 - **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (12% of attempts)
 

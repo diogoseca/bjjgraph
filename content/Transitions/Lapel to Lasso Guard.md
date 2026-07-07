@@ -66,7 +66,7 @@ Strategically, this transition exploits the opponent's moment of success—when 
 The transition also serves as intelligent position management within gi-based guard systems. Both lapel guard and lasso guard share sleeve control as a foundation, making the transition mechanically intuitive once drilled. Advanced practitioners treat these positions as interconnected systems rather than isolated guards, flowing between them based on opponent reactions. Mastering this transition transforms potential guard recovery situations into offensive opportunities, maintaining constant pressure even when your primary guard is threatened.
 
 **From Position**: [[Positions/Lapel Guard]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 10%
 
 </section>
 

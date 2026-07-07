@@ -66,7 +66,7 @@ This technique represents a fundamental shift in strategic approach during the d
 From a positional systems perspective, the snap down connects the half guard passing game to the front headlock submission system, unlocking pathways to guillotines, anacondas, darces, and back takes that are unavailable from the dogfight itself. This makes it a high-value transitional technique that converts a neutral scramble into dominant offensive control, particularly effective in no-gi grappling where collar tie and head control mechanics are essential foundational skills.
 
 **From Position**: [[Positions/Dogfight Position]] (Top)
-**Success Rate**: 45%
+**Success Rate**: 40%
 
 </section>
 

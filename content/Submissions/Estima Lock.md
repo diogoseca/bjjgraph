@@ -53,7 +53,7 @@ description: "Master Estima Lock foot submission with safety protocols, setup fr
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Estima Lock?", "acceptedAnswer": { "@type": "Answer", "text": "The Estima Lock is a foot-lock submission that dorsiflexes an opponent\u0027s trapped foot against a knee-line fulcrum, rather than rotating it like a toe hold, compressing the ankle and foot from 50-50 guard and related leg entanglements." } },
-    { "@type": "Question", "name": "What positions can you finish the Estima Lock from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Estima Lock from Estima Lock Control, Honey Hole, Saddle." } },
+    { "@type": "Question", "name": "What positions can you finish the Estima Lock from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Estima Lock from Honey Hole, Estima Lock Control, Saddle." } },
     { "@type": "Question", "name": "Is the Estima Lock dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Estima Lock targets the Foot and ankle joints (dorsiflexion of foot). Primary risk: Ankle ligament sprain or tear (deltoid ligament, talofibular ligaments). Tap early and release immediately on the tap." } }
   ]
 }
@@ -95,9 +95,9 @@ The technique requires precise control and understanding of leg entanglement mec
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
+| [[Submissions/Estima Lock/from Honey Hole|Honey Hole]] | Top | 60% | [[Submissions/Estima Lock/from Honey Hole/Attacker|Attack →]] | [[Submissions/Estima Lock/from Honey Hole/Defender|Defend →]] |
 | [[Submissions/Estima Lock/from Estima Lock Control|Estima Lock Control]] | Top | 55% | [[Submissions/Estima Lock/from Estima Lock Control/Attacker|Attack →]] | [[Submissions/Estima Lock/from Estima Lock Control/Defender|Defend →]] |
-| [[Submissions/Estima Lock/from Honey Hole|Honey Hole]] | Top | 55% | [[Submissions/Estima Lock/from Honey Hole/Attacker|Attack →]] | [[Submissions/Estima Lock/from Honey Hole/Defender|Defend →]] |
-| [[Submissions/Estima Lock/from Saddle|Saddle]] | Top | 55% | [[Submissions/Estima Lock/from Saddle/Attacker|Attack →]] | [[Submissions/Estima Lock/from Saddle/Defender|Defend →]] |
+| [[Submissions/Estima Lock/from Saddle|Saddle]] | Top | 45% | [[Submissions/Estima Lock/from Saddle/Attacker|Attack →]] | [[Submissions/Estima Lock/from Saddle/Defender|Defend →]] |
 
 
 </div>

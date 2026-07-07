@@ -66,7 +66,7 @@ The technique's effectiveness from headquarters stems from the existing leg cont
 Strategically, the leg drag from headquarters represents a critical decision point in the systematic passing framework. When the opponent defends the knee cut by turning toward the trapped leg or straightening their leg to create distance, the passer shifts to the leg drag as a complementary attack that punishes the defensive adjustment. This creates the passing dilemma that makes headquarters-based systems so effective at the highest levels: defending one pass opens vulnerability to another, forcing the bottom player into increasingly compromised defensive positions until the pass succeeds.
 
 **From Position**: [[Positions/Headquarters Position]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 48%
 
 </section>
 

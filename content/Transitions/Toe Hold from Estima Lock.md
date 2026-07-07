@@ -66,7 +66,7 @@ Strategically, this transition embodies the dilemma-based attacking philosophy c
 The mechanical execution requires maintaining hip pressure against the opponent's calf throughout the grip change, ensuring the leg remains isolated while the hands transition from the Estima Lock configuration to the toe hold wrap. The finish applies inward rotational force to the foot, stressing the ankle joint, surrounding ligaments, and potentially the knee through the connected kinetic chain. Understanding this complementary relationship between the Estima Lock and toe hold transforms a single-threat position into a dynamic submission system.
 
 **From Position**: [[Positions/Estima Lock Control]] (Top)
-**Success Rate**: 45%
+**Success Rate**: 26%
 
 </section>
 

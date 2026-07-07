@@ -54,7 +54,7 @@ description: "Master the Kimura from Kimura Trap in BJJ. Complete guide to finis
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Shoulder Lock</span>
 <span class="meta-chip">Targets Shoulder joint (glenohumeral) and elbow</span>
-<span class="meta-chip">50% success</span>
+<span class="meta-chip">38% success</span>
 </div>
 
 > [!danger] Safety

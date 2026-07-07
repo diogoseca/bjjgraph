@@ -54,7 +54,7 @@ description: "Master the Kneebar in BJJ. Complete guide covering safety protocol
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Kneebar?", "acceptedAnswer": { "@type": "Answer", "text": "The Kneebar is a leg-lock submission that hyperextends the opponent\u0027s knee by trapping their leg against your torso and driving your hips forward, attacked from ashi garami and other leg entanglements as the linear-force complement to the heel hook." } },
-    { "@type": "Question", "name": "What positions can you finish the Kneebar from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Kneebar from 50-50 Guard, Carni, Half Guard, Honey Hole, Inside Ashi-Garami, Inside Sankaku, Kneebar Control, Straight Ankle Lock Control, Toe Hold Control, Side Control, Backside 50-50, Closed Guard, Leg Entanglement, Saddle, Single Leg X-Guard." } },
+    { "@type": "Question", "name": "What positions can you finish the Kneebar from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Kneebar from 50-50 Guard, Carni, Half Guard, Honey Hole, Inside Ashi-Garami, Inside Sankaku, Kneebar Control, Straight Ankle Lock Control, Toe Hold Control, Side Control, Closed Guard, Single Leg X-Guard, Backside 50-50, Leg Entanglement, Saddle." } },
     { "@type": "Question", "name": "Is the Kneebar dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Kneebar targets the Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule). Primary risk: Posterior cruciate ligament (PCL) tear. Tap early and release immediately on the tap." } }
   ]
 }
@@ -107,11 +107,11 @@ The technique has evolved significantly with modern leg lock systems, particular
 | [[Submissions/Kneebar/from Straight Ankle Lock Control|Straight Ankle Lock Control]] | Bottom | 60% | [[Submissions/Kneebar/from Straight Ankle Lock Control/Attacker|Attack →]] | [[Submissions/Kneebar/from Straight Ankle Lock Control/Defender|Defend →]] |
 | [[Submissions/Kneebar/from Toe Hold Control|Toe Hold Control]] | Top | 60% | [[Submissions/Kneebar/from Toe Hold Control/Attacker|Attack →]] | [[Submissions/Kneebar/from Toe Hold Control/Defender|Defend →]] |
 | [[Submissions/Kneebar/from Top|Side Control]] | Top | 55% | [[Submissions/Kneebar/from Top/Attacker|Attack →]] | [[Submissions/Kneebar/from Top/Defender|Defend →]] |
-| [[Submissions/Kneebar/from Backside 50-50|Backside 50-50]] | Top | 52% | [[Submissions/Kneebar/from Backside 50-50/Attacker|Attack →]] | [[Submissions/Kneebar/from Backside 50-50/Defender|Defend →]] |
 | [[Submissions/Kneebar/from Guard|Closed Guard]] | Bottom | 52% | [[Submissions/Kneebar/from Guard/Attacker|Attack →]] | [[Submissions/Kneebar/from Guard/Defender|Defend →]] |
-| [[Submissions/Kneebar/from Leg Entanglement|Leg Entanglement]] | Top | 52% | [[Submissions/Kneebar/from Leg Entanglement/Attacker|Attack →]] | [[Submissions/Kneebar/from Leg Entanglement/Defender|Defend →]] |
-| [[Submissions/Kneebar/from Saddle|Saddle]] | Top | 52% | [[Submissions/Kneebar/from Saddle/Attacker|Attack →]] | [[Submissions/Kneebar/from Saddle/Defender|Defend →]] |
 | [[Submissions/Kneebar/from Single Leg X-Guard|Single Leg X-Guard]] | Top | 52% | [[Submissions/Kneebar/from Single Leg X-Guard/Attacker|Attack →]] | [[Submissions/Kneebar/from Single Leg X-Guard/Defender|Defend →]] |
+| [[Submissions/Kneebar/from Backside 50-50|Backside 50-50]] | Top | 45% | [[Submissions/Kneebar/from Backside 50-50/Attacker|Attack →]] | [[Submissions/Kneebar/from Backside 50-50/Defender|Defend →]] |
+| [[Submissions/Kneebar/from Leg Entanglement|Leg Entanglement]] | Top | 45% | [[Submissions/Kneebar/from Leg Entanglement/Attacker|Attack →]] | [[Submissions/Kneebar/from Leg Entanglement/Defender|Defend →]] |
+| [[Submissions/Kneebar/from Saddle|Saddle]] | Top | 45% | [[Submissions/Kneebar/from Saddle/Attacker|Attack →]] | [[Submissions/Kneebar/from Saddle/Defender|Defend →]] |
 
 
 </div>

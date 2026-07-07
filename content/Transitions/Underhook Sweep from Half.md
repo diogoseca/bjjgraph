@@ -62,7 +62,7 @@ description: "Master the Underhook Sweep from Half Guard in BJJ. Step-by-step ex
 Among the highest-percentage attacks available from bottom half guard, this sweep combines proper angle creation, hip movement, and precise timing to reverse position against a passing opponent. The technique capitalizes on the underhook's ability to control the opponent's posture and weight distribution, creating the mechanical advantage necessary to complete the reversal. By establishing the underhook on the trapped leg side, you create a powerful lever that disrupts your opponent's base while simultaneously generating the momentum needed for the sweep. This technique serves as a cornerstone of modern half guard systems, offering a reliable pathway from defensive bottom position to dominant top control. Its real power lies in the dilemmas it forces: every defense the top player offers — whizzer, far-leg post, or flattening pressure — opens a different attack, making the underhook sweep the central hub of an interconnected bottom-game system.
 
 **From Position**: [[Positions/Half Guard]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 34%
 
 </section>
 

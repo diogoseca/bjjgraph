@@ -91,7 +91,7 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Can Opener/from Closed Guard|Closed Guard]] | Top | 30% | [[Submissions/Can Opener/from Closed Guard/Attacker|Attack →]] | [[Submissions/Can Opener/from Closed Guard/Defender|Defend →]] |
+| [[Submissions/Can Opener/from Closed Guard|Closed Guard]] | Top | 65% | [[Submissions/Can Opener/from Closed Guard/Attacker|Attack →]] | [[Submissions/Can Opener/from Closed Guard/Defender|Defend →]] |
 
 
 </div>

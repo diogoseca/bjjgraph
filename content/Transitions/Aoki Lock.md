@@ -66,7 +66,7 @@ From a strategic perspective, the Aoki Lock serves as the terminal option when y
 The finishing mechanics involve driving your hips forward and down into the opponent's shoulder while keeping their arm extended and isolated between your legs. Unlike traditional shoulder locks that rely primarily on arm manipulation, the Aoki Lock uses your entire lower body as a unified control mechanism, making it extremely difficult to escape once properly secured. The position carries significant injury risk, requiring strict adherence to safety protocols including progressive pressure application and immediate release upon tap signals.
 
 **From Position**: [[Positions/Aoki Lock Control]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 50%
 
 </section>
 

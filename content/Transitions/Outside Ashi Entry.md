@@ -66,7 +66,7 @@ What makes the Outside Ashi Entry distinctive is its versatility - it can be exe
 This technique has become increasingly prevalent in modern competition due to its effectiveness in both gi and no-gi environments. The systematic approach to entering outside ashi creates a clear pathway to leg lock submissions while maintaining defensive integrity throughout the transition. Understanding this entry is essential for any practitioner looking to develop a comprehensive leg lock game, as it serves as a gateway to multiple finishing positions and creates dilemmas that force opponents into defensive reactions.
 
 **From Position**: [[Positions/Standing Position]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 54%
 
 </section>
 

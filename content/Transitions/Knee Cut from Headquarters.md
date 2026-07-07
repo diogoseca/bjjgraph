@@ -66,7 +66,7 @@ From headquarters specifically, the knee cut benefits from pre-established leg c
 The technique's effectiveness at all levels stems from its direct biomechanical advantage: the passer's entire body weight channels through the cutting knee, creating a wedge that separates the opponent's legs regardless of defensive framing. When combined with proper crossface control and hip pressure, the knee cut creates a passing sequence that is mechanically difficult to defend without conceding position elsewhere, forcing the bottom player into reactive choices that open alternative passing lanes if the knee cut itself is blocked.
 
 **From Position**: [[Positions/Headquarters Position]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 54%
 
 </section>
 

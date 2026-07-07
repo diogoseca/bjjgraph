@@ -66,7 +66,7 @@ The technique works by recognizing that the Darce choke requires the attacker to
 Strategically, the Back Door Escape represents a last-resort option when arm extraction and other primary escapes have failed. Its success depends heavily on timing—attempting this escape too early wastes energy on a complex movement when simpler options remain, while attempting it too late puts you in an even worse position as the choke tightens. Advanced practitioners develop sensitivity to the precise moment when the back door becomes the highest-percentage option based on the attacker's grip depth and hip position.
 
 **From Position**: [[Positions/Darce Control]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 20%
 
 </section>
 

@@ -66,7 +66,7 @@ This transition teaches fundamental principles of angle creation, hip movement, 
 Mastery of this sequence provides a reliable pathway to finish matches while simultaneously opening opportunities for sweeps and back takes when opponents defend the primary threat. The triangle from closed guard forms the centerpiece of the guard attack system, connecting directly to armbars, omoplatas, and sweep combinations that create compounding dilemmas for the defender.
 
 **From Position**: [[Positions/Closed Guard]] (Bottom)
-**Success Rate**: 50%
+**Success Rate**: 32%
 
 </section>
 

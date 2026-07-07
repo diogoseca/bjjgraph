@@ -66,7 +66,7 @@ The technique operates on a fundamental biomechanical principle: when you pull y
 In competitive BJJ and submission grappling, the arm drag from clinch serves as a critical escape mechanism from inferior standing positions. Athletes like Marcelo Garcia popularized this entry as a primary back take system, demonstrating that you do not need superior wrestling to reach back control. The technique chains naturally with other clinch attacks including duck unders, snap downs, and single leg entries, creating a multi-threat standing game that keeps opponents guessing about your true intention.
 
 **From Position**: [[Positions/Clinch]] (Bottom)
-**Success Rate**: 45%
+**Success Rate**: 30%
 
 </section>
 
@@ -245,7 +245,7 @@ The arm drag from clinch bottom integrates into the broader BJJ standing game as
 
 - [[Transitions/Arm Drag from Clinch]] - Parent technique covering arm drag from general clinch engagement
 
-- [[Transitions/Duck Under]] - Alternative back take entry from clinch that chains with arm drag attempts
+- [[Duck Under]] - Alternative back take entry from clinch that chains with arm drag attempts
 
 - [[Transitions/Single Leg Takedown]] - Fallback takedown option when arm drag fails but opponent's weight shifts forward
 

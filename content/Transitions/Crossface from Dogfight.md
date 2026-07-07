@@ -66,7 +66,7 @@ Strategically, the crossface represents the top player's most direct answer to t
 The technique is particularly effective because it rewards proper angle, timing, and weight distribution rather than raw strength. Advanced practitioners time the crossface to coincide with the opponent's forward drive, redirecting their momentum downward. The crossface can be applied with varying intensity—from a controlling pressure that gradually erodes posture to an aggressive flattening tool that forces immediate positional regression. This adaptability makes it effective across body types and competitive contexts, forming a cornerstone of half guard top strategy.
 
 **From Position**: [[Positions/Dogfight Position]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 41%
 
 </section>
 

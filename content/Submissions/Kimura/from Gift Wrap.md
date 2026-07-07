@@ -54,7 +54,7 @@ description: "Master the Kimura from Gift Wrap in BJJ. Complete guide to transit
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Shoulder Lock</span>
 <span class="meta-chip">Targets Shoulder joint, rotator cuff, and shoulder capsule</span>
-<span class="meta-chip">62% success</span>
+<span class="meta-chip">37% success</span>
 </div>
 
 > [!danger] Safety
@@ -223,7 +223,6 @@ Strategically, this submission fits within a larger Gift Wrap attack system wher
 
 ## Related
 - [[Submissions/Kimura]]
-- [[Submissions/Gift Wrap Armbar]]
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Americana]]
 - [[Submissions/Reverse Kimura]]

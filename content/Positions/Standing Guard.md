@@ -137,9 +137,9 @@ Modern BJJ competition has elevated the importance of Standing Guard mastery, as
 ### Available Transitions
 
 
-- **[[Transitions/Pull guard/Attacker|Pull guard]]** (37% of attempts)
+- **[[Transitions/Pull Guard from Ground/Attacker|Pull Guard from Ground]]** (38% of attempts)
 
-- **[[Transitions/Sitting Guard Pull/Attacker|Sitting Guard Pull]]** (10% of attempts)
+- **[[Transitions/Sitting Guard Pull/Attacker|Sitting Guard Pull]]** (11% of attempts)
 
 - **[[Transitions/Shin to Shin Pull/Attacker|Shin to Shin Pull]]** (8% of attempts)
 
@@ -156,8 +156,6 @@ Modern BJJ competition has elevated the importance of Standing Guard mastery, as
 - **[[Transitions/Single Leg Entry/Attacker|Single Leg Entry]]** (6% of attempts)
 
 - **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (5% of attempts)
-
-- **[[Transitions/Pull Guard from Ground/Attacker|Pull Guard from Ground]]** (2% of attempts)
 
 - **[[Transitions/Sweep from Standing Guard/Attacker|Sweep from Standing Guard]]** (1% of attempts)
 

@@ -66,7 +66,7 @@ What makes this pass particularly effective is its ability to shut down the bott
 This pass represents a cornerstone of modern guard passing systems because it works equally well in gi and no-gi, against all body types, and connects seamlessly to other passing options. When executed with proper timing and pressure, the knee slice becomes nearly unstoppable, forcing the opponent into increasingly desperate defensive reactions that open them up to back takes, mount transitions, or submission attacks.
 
 **From Position**: [[Positions/Half Guard]] (Top)
-**Success Rate**: 68%
+**Success Rate**: 52%
 
 </section>
 

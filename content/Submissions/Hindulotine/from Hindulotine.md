@@ -228,7 +228,6 @@ Strategically, this finish serves as the terminal threat within the Hindulotine 
 - [[Positions/Hindulotine]]
 - [[Submissions/Guillotine Choke]]
 - [[Submissions/High Elbow Guillotine]]
-- [[Submissions/Chin Strap Guillotine]]
 - [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
 - [[Positions/Guillotine Control]] - Parent position with standard guillotine mechanics

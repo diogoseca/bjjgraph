@@ -70,7 +70,7 @@ What makes this throw particularly valuable in BJJ is its seamless transition po
 Strategically, Tani Otoshi fits into a broader standing game as a counter-offensive weapon. It punishes opponents who drive forward aggressively, circle into your preferred angle, or overcommit to grip fighting. The technique chains naturally with other judo-derived throws: if your opponent defends by stepping back, Osoto Gari becomes available; if they circle away, Tai Otoshi opens up. This makes Tani Otoshi not just a standalone technique but a central node in a standing attack system.
 
 **From Position**: [[Positions/Standing Position]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 36%
 
 </section>
 

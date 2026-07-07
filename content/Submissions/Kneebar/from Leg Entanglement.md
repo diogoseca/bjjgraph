@@ -54,7 +54,7 @@ description: "Master the kneebar from leg entanglement in BJJ. Learn setup from 
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Leg Lock</span>
 <span class="meta-chip">Targets Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament)</span>
-<span class="meta-chip">52% success</span>
+<span class="meta-chip">27% success</span>
 </div>
 
 > [!danger] Safety

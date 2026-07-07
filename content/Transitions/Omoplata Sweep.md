@@ -66,7 +66,7 @@ The sweep initiates from the standard omoplata entry where your leg crosses the 
 This technique is particularly valuable in competition because it transitions seamlessly into mount, the highest-scoring dominant position. The sweep works in both gi and no-gi, though gi sleeve grips simplify arm control. For purple and brown belts, the omoplata sweep should be trained as part of a systematic closed guard attack chain where it flows naturally from triangle and armbar attempts, creating a branching attack tree that becomes progressively harder to defend as the opponent's energy depletes.
 
 **From Position**: [[Positions/Closed Guard]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 23%
 
 </section>
 

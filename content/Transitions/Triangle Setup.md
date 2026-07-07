@@ -66,7 +66,7 @@ The triangle setup demonstrates the principle of using the opponent's defensive 
 This technique serves as a gateway to multiple attacking options including the triangle choke itself, omoplata transitions, armbar variations, and back take opportunities. The setup creates a branching attack tree where every defensive reaction from the opponent opens a different offensive pathway. Mastering the setup phase dramatically increases submission success rates across all skill levels and forms the foundation of a dangerous guard game that forces constant defensive dilemmas.
 
 **From Position**: [[Positions/Closed Guard]] (Bottom)
-**Success Rate**: 60%
+**Success Rate**: 28%
 
 </section>
 

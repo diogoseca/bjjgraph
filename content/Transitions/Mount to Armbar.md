@@ -255,7 +255,7 @@ The Mount to Armbar serves as the cornerstone of the mount attack system, functi
 
 - [[Transitions/Triangle Setup]] - Follow-up option when opponent defends armbar by stacking
 
-- [[Transitions/Hitchhiker Escape]] - Primary escape the attacker must anticipate and prevent
+- [[Hitchhiker Escape]] - Primary escape the attacker must anticipate and prevent
 
 - [[Transitions/High Mount Transition]] - Positional advancement that improves armbar entry angle
 

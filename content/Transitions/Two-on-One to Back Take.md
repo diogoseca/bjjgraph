@@ -247,7 +247,7 @@ The two-on-one to back take serves as a critical bridge position in the standing
 
 - [[Positions/Front Headlock]] - Alternative transition target if back take is denied
 
-- [[Transitions/Duck Under]] - Related pathway technique for accessing opponent's back from clinch
+- [[Duck Under]] - Related pathway technique for accessing opponent's back from clinch
 
 - [[Positions/Overhook Control]] - Complementary clinch control position that can set up two-on-one
 

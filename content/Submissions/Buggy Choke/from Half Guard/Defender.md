@@ -95,6 +95,14 @@ description: "How to defend against Buggy Choke in BJJ. Recognition, escape path
         "@type": "Answer",
         "text": "Pulling straight backward against a Buggy Choke is dangerous because it loads your body weight into the compression angle, actually tightening the choke rather than relieving it. Your trapped arm extends further across your neck as you pull away, and the attacker's shoulder drives deeper into your carotid. Additionally, backward movement may cause your half guard leg to extend, giving the attacker more leverage with their leg control. The correct movement is either vertical posture extension or forward pass completion."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you recognize that the bottom player is transitioning from control to an active Buggy Choke finish?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The transition is signaled by the bottom player chambering their knee up toward their own head, your crossface arm suddenly feeling pinned and unable to straighten, their hand reaching toward their own shin to close a loop around your head, and compression building on the sides of your neck. These combined changes mean they are sealing the choke rather than just holding half guard."
+      }
     }
   ]
 }

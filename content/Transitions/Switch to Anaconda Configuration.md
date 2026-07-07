@@ -66,7 +66,7 @@ This transition exemplifies the principle that sophisticated turtle attack syste
 The anaconda configuration offers a distinct advantage over maintaining the buggy choke because the grip structure is inherently more stable and allows the gator roll finishing mechanic. Once the anaconda grip locks, the top player can roll the opponent to their back, eliminating the turtle base entirely and consolidating a finishing position that is extremely difficult to escape. This makes the transition particularly valuable in competition where opponents are adept at surviving turtle attacks but less prepared for the dynamic grip change to anaconda control.
 
 **From Position**: [[Positions/Buggy Choke]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 46%
 
 </section>
 

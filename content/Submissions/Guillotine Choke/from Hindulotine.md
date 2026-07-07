@@ -54,7 +54,7 @@ description: "Master the guillotine choke finish from Hindulotine position. Lear
 <span class="meta-chip">Choke</span>
 <span class="meta-chip">Blood Choke</span>
 <span class="meta-chip">Targets Carotid arteries and windpipe</span>
-<span class="meta-chip">62% success</span>
+<span class="meta-chip">34% success</span>
 </div>
 
 > [!danger] Safety
@@ -246,7 +246,6 @@ In competition, the Hindulotine guillotine finish is particularly effective in n
 - [[Submissions/Arm in Guillotine]]
 - [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
-- [[Submissions/Chin Strap Guillotine]]
 - [[Submissions/Japanese Necktie]]
 - [[Positions/Hindulotine]] - Primary control position from which this finish is executed
 - [[Positions/Guillotine Control]] - Parent control position with standard guillotine mechanics

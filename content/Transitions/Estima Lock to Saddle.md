@@ -66,7 +66,7 @@ The mechanical foundation of this transition relies on the backstep—a rotation
 Timing is critical for this transition. Executing too early abandons a potentially viable Estima Lock finish, while executing too late allows the opponent to extract their leg entirely or establish strong defensive frames. The optimal window occurs when you recognize the opponent's defense is working—their ankle rotation reduces your footlock pressure, their free leg threatens your balance, or their hip escape begins creating dangerous space. Reading these signals and immediately initiating the backstep preserves offensive momentum rather than losing the position entirely.
 
 **From Position**: [[Positions/Estima Lock Control]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 45%
 
 </section>
 

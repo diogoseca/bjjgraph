@@ -66,7 +66,7 @@ Strategically, this technique exemplifies the dilemma-based approach that makes 
 The technique requires timing recognition and commitment to the back take pathway. Many practitioners successfully initiate the sweep but hesitate when the opponent begins rotating, losing the back take opportunity. Understanding that the opponent's rotation IS the technique working—not a failed sweep—is critical for successful execution.
 
 **From Position**: [[Positions/Lapel Guard]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 10%
 
 </section>
 

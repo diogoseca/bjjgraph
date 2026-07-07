@@ -237,7 +237,7 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 
 - **[[Americana from Side Control/Attacker|Americana from Side Control]]** (10% of attempts)
 
-- **[[Transitions/Straight Armbar/Attacker|Straight Armbar]]** (1% of attempts)
+- **[[Armbar from Side Control/Attacker|Armbar from Side Control]]** (1% of attempts)
 
 - **[[Far Side Armbar from Side Control/Attacker|Far Side Armbar from Side Control]]** (1% of attempts)
 

@@ -55,7 +55,7 @@ description: "Master the Triangle Choke in BJJ. Complete safety guide with setup
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Triangle Choke?", "acceptedAnswer": { "@type": "Answer", "text": "The Triangle Choke is a blood choke in which the attacker traps the opponent\u0027s head and one arm inside a figure-four leg configuration, driving their own shin across the neck so the opponent\u0027s trapped shoulder becomes the fulcrum that compresses both carotid arteries." } },
-    { "@type": "Question", "name": "What positions can you finish the Triangle Choke from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Triangle Choke from Closed Guard, Crackhead Control, Mounted Triangle, Triangle Control, Spider Guard, De La Riva Guard, Open Guard." } },
+    { "@type": "Question", "name": "What positions can you finish the Triangle Choke from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Triangle Choke from Closed Guard, Spider Guard, Triangle Control, Crackhead Control, De La Riva Guard, Mounted Triangle, Open Guard." } },
     { "@type": "Question", "name": "Is the Triangle Choke dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Triangle Choke targets the Carotid arteries and brachial plexus. Primary risk: Loss of consciousness from blood choke. Tap early and release immediately on the tap." } }
   ]
 }
@@ -101,11 +101,11 @@ The triangle choke's strategic value extends beyond its finishing potential—it
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
 | [[Submissions/Triangle Choke/from Closed Guard|Closed Guard]] | Bottom | 65% | [[Submissions/Triangle Choke/from Closed Guard/Attacker|Attack →]] | [[Submissions/Triangle Choke/from Closed Guard/Defender|Defend →]] |
-| [[Submissions/Triangle Choke/from Crackhead Control|Crackhead Control]] | Bottom | 65% | [[Submissions/Triangle Choke/from Crackhead Control/Attacker|Attack →]] | [[Submissions/Triangle Choke/from Crackhead Control/Defender|Defend →]] |
-| [[Submissions/Triangle Choke/from Mounted Triangle|Mounted Triangle]] | Top | 65% | [[Submissions/Triangle Choke/from Mounted Triangle/Attacker|Attack →]] | [[Submissions/Triangle Choke/from Mounted Triangle/Defender|Defend →]] |
-| [[Submissions/Triangle Choke/from Triangle Control|Triangle Control]] | Top | 65% | [[Submissions/Triangle Choke/from Triangle Control/Attacker|Attack →]] | [[Submissions/Triangle Choke/from Triangle Control/Defender|Defend →]] |
 | [[Submissions/Triangle Choke/from Spider Guard|Spider Guard]] | Bottom | 62% | [[Submissions/Triangle Choke/from Spider Guard/Attacker|Attack →]] | [[Submissions/Triangle Choke/from Spider Guard/Defender|Defend →]] |
+| [[Submissions/Triangle Choke/from Triangle Control|Triangle Control]] | Top | 60% | [[Submissions/Triangle Choke/from Triangle Control/Attacker|Attack →]] | [[Submissions/Triangle Choke/from Triangle Control/Defender|Defend →]] |
+| [[Submissions/Triangle Choke/from Crackhead Control|Crackhead Control]] | Bottom | 52% | [[Submissions/Triangle Choke/from Crackhead Control/Attacker|Attack →]] | [[Submissions/Triangle Choke/from Crackhead Control/Defender|Defend →]] |
 | [[Submissions/Triangle Choke/from De La Riva|De La Riva Guard]] | Bottom | 52% | [[Submissions/Triangle Choke/from De La Riva/Attacker|Attack →]] | [[Submissions/Triangle Choke/from De La Riva/Defender|Defend →]] |
+| [[Submissions/Triangle Choke/from Mounted Triangle|Mounted Triangle]] | Top | 50% | [[Submissions/Triangle Choke/from Mounted Triangle/Attacker|Attack →]] | [[Submissions/Triangle Choke/from Mounted Triangle/Defender|Defend →]] |
 | [[Submissions/Triangle Choke/from Open Guard|Open Guard]] | Bottom | 40% | [[Submissions/Triangle Choke/from Open Guard/Attacker|Attack →]] | [[Submissions/Triangle Choke/from Open Guard/Defender|Defend →]] |
 
 

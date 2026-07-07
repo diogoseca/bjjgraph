@@ -66,7 +66,7 @@ The technique relies on precise hand fighting at the opponent's grip junction co
 Successfully breaking the anaconda grip deposits you in front headlock bottom position. While still disadvantageous, front headlock bottom offers significantly more defensive options and lower immediate submission danger compared to anaconda control. From front headlock, you can work standing escapes, guard recovery, or granby rolls—none of which are available while the anaconda grip remains intact. The grip break is therefore not the final escape but rather the essential first step in a defensive chain that leads to positional safety.
 
 **From Position**: [[Positions/Anaconda Control]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 39%
 
 </section>
 

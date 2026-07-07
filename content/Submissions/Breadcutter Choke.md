@@ -95,8 +95,8 @@ The Breadcutter belongs to a family of collar chokes that includes the Clock Cho
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Breadcutter Choke/from Kuzure Kesa-Gatame|Kuzure Kesa-Gatame]] | Top | 58% | [[Submissions/Breadcutter Choke/from Kuzure Kesa-Gatame/Attacker|Attack →]] | [[Submissions/Breadcutter Choke/from Kuzure Kesa-Gatame/Defender|Defend →]] |
-| [[Submissions/Breadcutter Choke/from Side Control|Side Control]] | Top | 58% | [[Submissions/Breadcutter Choke/from Side Control/Attacker|Attack →]] | [[Submissions/Breadcutter Choke/from Side Control/Defender|Defend →]] |
+| [[Submissions/Breadcutter Choke/from Kuzure Kesa-Gatame|Kuzure Kesa-Gatame]] | Top | 50% | [[Submissions/Breadcutter Choke/from Kuzure Kesa-Gatame/Attacker|Attack →]] | [[Submissions/Breadcutter Choke/from Kuzure Kesa-Gatame/Defender|Defend →]] |
+| [[Submissions/Breadcutter Choke/from Side Control|Side Control]] | Top | 50% | [[Submissions/Breadcutter Choke/from Side Control/Attacker|Attack →]] | [[Submissions/Breadcutter Choke/from Side Control/Defender|Defend →]] |
 
 
 </div>

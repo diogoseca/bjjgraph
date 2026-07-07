@@ -66,7 +66,7 @@ The technique thrives on the dilemma-based nature of crackhead control - your op
 From a strategic standpoint, the back take from crackhead control serves as the primary advancement pathway in the 10th Planet turtle attack system. It connects directly to the highest-scoring and highest-submission-percentage position in grappling, making it an essential technique for competitive practitioners. The transition exemplifies the modern approach to positional grappling where control positions exist primarily as launching platforms for further advancement rather than static holding positions.
 
 **From Position**: [[Positions/Crackhead Control]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 36%
 
 </section>
 

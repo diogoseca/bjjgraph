@@ -66,7 +66,7 @@ The technique exploits the transitional nature of leg drag control. While the pa
 Strategically, this counter represents the middle path between complete guard recovery and accepting an inferior position. Rather than fighting for closed guard (often impossible from leg drag bottom) or conceding to turtle (giving up initiative), recovering half guard maintains your offensive potential while immediately neutralizing the back take threat. From half guard, you have sweeps, back takes, and leg lock entries available—making this counter a crucial bridge technique in any comprehensive guard retention system.
 
 **From Position**: [[Positions/Leg Drag Control]] (Bottom)
-**Success Rate**: 48%
+**Success Rate**: 34%
 
 </section>
 

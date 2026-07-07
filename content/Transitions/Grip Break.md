@@ -66,7 +66,7 @@ The effectiveness of grip breaking lies in understanding leverage principles and
 Mastery of grip breaking transcends the physical technique itself and becomes a chess match of grip fighting sequences. Advanced practitioners anticipate their opponent's re-gripping attempts and chain multiple grip breaks together, creating sustained periods of grip dominance that translate directly to positional and tactical advantages throughout the match.
 
 **From Position**: [[Positions/Open Guard]] (Bottom)
-**Success Rate**: 82%
+**Success Rate**: 56%
 
 </section>
 

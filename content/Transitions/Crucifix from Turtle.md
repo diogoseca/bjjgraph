@@ -66,7 +66,7 @@ From a strategic standpoint, the crucifix from turtle punishes opponents who rel
 The transition demands precise sequencing: arm control must precede the leg thread, chest pressure must remain constant throughout, and the final perpendicular angle must be established before any submission attempts. Rushing any phase collapses the attack chain and allows recovery. When executed correctly, the resulting crucifix position offers rear naked chokes, armbars, and wrist locks while being extraordinarily difficult to escape.
 
 **From Position**: [[Positions/Turtle]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 37%
 
 </section>
 

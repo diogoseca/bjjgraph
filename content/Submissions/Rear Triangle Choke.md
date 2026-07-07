@@ -53,7 +53,7 @@ description: "Master the Rear Triangle Choke in BJJ. Complete guide to finishing
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Rear Triangle Choke?", "acceptedAnswer": { "@type": "Answer", "text": "The Rear Triangle Choke is a back-attack blood choke in which the attacker figure-fours their legs around the opponent\u0027s neck and one trapped arm from behind, sealing both carotid arteries at a posterior angle that defeats standard chin defense." } },
-    { "@type": "Question", "name": "What positions can you finish the Rear Triangle Choke from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Rear Triangle Choke from Back Control, Rear Triangle." } },
+    { "@type": "Question", "name": "What positions can you finish the Rear Triangle Choke from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Rear Triangle Choke from Rear Triangle, Back Control." } },
     { "@type": "Question", "name": "Is the Rear Triangle Choke dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Rear Triangle Choke targets the Neck. Primary risk: Loss of consciousness from bilateral carotid compression. Tap early and release immediately on the tap." } }
   ]
 }
@@ -95,8 +95,8 @@ Strategically, the rear triangle choke creates a layered submission dilemma. Def
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Rear Triangle Choke/from Back Control|Back Control]] | Top | 58% | [[Submissions/Rear Triangle Choke/from Back Control/Attacker|Attack →]] | [[Submissions/Rear Triangle Choke/from Back Control/Defender|Defend →]] |
-| [[Submissions/Rear Triangle Choke/from Rear Triangle|Rear Triangle]] | Top | 50% | [[Submissions/Rear Triangle Choke/from Rear Triangle/Attacker|Attack →]] | [[Submissions/Rear Triangle Choke/from Rear Triangle/Defender|Defend →]] |
+| [[Submissions/Rear Triangle Choke/from Rear Triangle|Rear Triangle]] | Top | 65% | [[Submissions/Rear Triangle Choke/from Rear Triangle/Attacker|Attack →]] | [[Submissions/Rear Triangle Choke/from Rear Triangle/Defender|Defend →]] |
+| [[Submissions/Rear Triangle Choke/from Back Control|Back Control]] | Top | 65% | [[Submissions/Rear Triangle Choke/from Back Control/Attacker|Attack →]] | [[Submissions/Rear Triangle Choke/from Back Control/Defender|Defend →]] |
 
 
 </div>

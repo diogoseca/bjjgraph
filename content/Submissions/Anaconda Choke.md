@@ -69,7 +69,7 @@ description: "Master the Anaconda Choke in BJJ. Complete guide covering setup fr
 <span class="meta-chip">Choke</span>
 <span class="meta-chip">Blood Choke</span>
 <span class="meta-chip">Targets Carotid arteries and trachea</span>
-<span class="meta-chip">~65% avg</span>
+<span class="meta-chip">~41% avg</span>
 </div>
 
 > [!danger] Safety

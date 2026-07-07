@@ -66,7 +66,7 @@ The reversal mechanics rely on exploiting the transitional nature of Leg Knot po
 Strategic timing is paramount for this technique. The optimal window occurs when the opponent commits weight forward for a submission attempt or during their transition between leg lock setups. Attempting the reversal while the opponent maintains neutral balance significantly reduces success probability. Advanced practitioners recognize micro-transitions in the opponent's weight distribution and capitalize on these brief windows to execute the reversal with maximum efficiency.
 
 **From Position**: [[Positions/Leg Knot]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 26%
 
 </section>
 

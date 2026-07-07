@@ -93,7 +93,7 @@ The technique exemplifies the innovation within modern no-gi grappling, offering
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Baratoplata/from Crackhead Control|Crackhead Control]] | Bottom | 42% | [[Submissions/Baratoplata/from Crackhead Control/Attacker|Attack →]] | [[Submissions/Baratoplata/from Crackhead Control/Defender|Defend →]] |
+| [[Submissions/Baratoplata/from Crackhead Control|Crackhead Control]] | Bottom | 52% | [[Submissions/Baratoplata/from Crackhead Control/Attacker|Attack →]] | [[Submissions/Baratoplata/from Crackhead Control/Defender|Defend →]] |
 
 
 </div>

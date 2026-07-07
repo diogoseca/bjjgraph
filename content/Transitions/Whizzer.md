@@ -66,7 +66,7 @@ Understanding when to establish, maintain, and abandon the Whizzer separates com
 The Whizzer is inherently transitional. Holding it statically wastes energy and gives your opponent time to adapt. The highest-percentage application involves establishing the Whizzer, immediately breaking the opponent's posture with shoulder pressure and head control, reading their defensive reaction, and transitioning within three to five seconds to back control, kimura, or a reversal sweep based on their weight distribution and movement direction.
 
 **From Position**: [[Positions/Overhook Control]] (Top)
-**Success Rate**: 68%
+**Success Rate**: 27%
 
 </section>
 

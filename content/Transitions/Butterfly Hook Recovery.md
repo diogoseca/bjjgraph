@@ -66,7 +66,7 @@ The strategic importance of this technique cannot be overstated for bottom playe
 Timing is the critical factor that separates successful butterfly hook recoveries from failed attempts that result in immediate pass completion. The window for insertion exists when the passer's weight shifts forward, backward, or laterally - any moment when their pressure is not driving directly into your hips. Advanced practitioners develop the sensitivity to feel these micro-adjustments and insert hooks almost reflexively, while beginners must consciously look for larger, more obvious opportunities.
 
 **From Position**: [[Positions/Double Unders]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 34%
 
 </section>
 

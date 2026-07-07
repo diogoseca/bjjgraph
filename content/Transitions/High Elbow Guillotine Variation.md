@@ -66,7 +66,7 @@ Unlike the traditional guillotine where the elbow remains relatively low and pre
 The strategic timing for this variation is critical. The high elbow configuration is most effective when your opponent's posture is broken and their defensive frames are neutralized. Attempting the high elbow position against a postured opponent allows them to stack and potentially pass. However, when properly timed against a broken-down opponent, the finish comes rapidly, often within seconds of achieving the correct elbow angle. This makes it an ideal finishing sequence when you've established solid Hindulotine control and your opponent is committed to defending at close range.
 
 **From Position**: [[Positions/Hindulotine]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 46%
 
 </section>
 

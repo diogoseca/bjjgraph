@@ -54,7 +54,7 @@ description: "Master the heel hook from Ashi Garami with systematic grip mechani
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Leg Lock</span>
 <span class="meta-chip">Targets Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity</span>
-<span class="meta-chip">45% success</span>
+<span class="meta-chip">37% success</span>
 </div>
 
 > [!danger] Safety

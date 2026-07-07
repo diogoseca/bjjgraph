@@ -53,7 +53,7 @@ description: "Master the Loop Choke in BJJ - deceptive collar choke from guard, 
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Loop Choke?", "acceptedAnswer": { "@type": "Answer", "text": "The Loop Choke is a deceptive gi strangle that loops the lapel and your forearm around the opponent\u0027s neck like a noose, disguised as a harmless collar tie until you snap their head down to finish." } },
-    { "@type": "Question", "name": "What positions can you finish the Loop Choke from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Loop Choke from Mount, Turtle, Closed Guard, Side Control, Half Guard." } },
+    { "@type": "Question", "name": "What positions can you finish the Loop Choke from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Loop Choke from Closed Guard, Turtle, Half Guard, Side Control, Mount." } },
     { "@type": "Question", "name": "Is the Loop Choke dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Loop Choke targets the Carotid arteries via deep collar grip and body positioning. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early and release immediately on the tap." } }
   ]
 }
@@ -98,11 +98,11 @@ Advanced practitioners excel at chaining the Loop Choke with other collar attack
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Loop Choke/from Mount|Mount]] | Top | 58% | [[Submissions/Loop Choke/from Mount/Attacker|Attack →]] | [[Submissions/Loop Choke/from Mount/Defender|Defend →]] |
-| [[Submissions/Loop Choke/from Turtle|Turtle]] | Top | 58% | [[Submissions/Loop Choke/from Turtle/Attacker|Attack →]] | [[Submissions/Loop Choke/from Turtle/Defender|Defend →]] |
-| [[Submissions/Loop Choke/from Closed Guard|Closed Guard]] | Bottom | 55% | [[Submissions/Loop Choke/from Closed Guard/Attacker|Attack →]] | [[Submissions/Loop Choke/from Closed Guard/Defender|Defend →]] |
-| [[Submissions/Loop Choke/from Side Control|Side Control]] | Top | 55% | [[Submissions/Loop Choke/from Side Control/Attacker|Attack →]] | [[Submissions/Loop Choke/from Side Control/Defender|Defend →]] |
-| [[Submissions/Loop Choke/from Half Guard|Half Guard]] | Top | 40% | [[Submissions/Loop Choke/from Half Guard/Attacker|Attack →]] | [[Submissions/Loop Choke/from Half Guard/Defender|Defend →]] |
+| [[Submissions/Loop Choke/from Closed Guard|Closed Guard]] | Bottom | 65% | [[Submissions/Loop Choke/from Closed Guard/Attacker|Attack →]] | [[Submissions/Loop Choke/from Closed Guard/Defender|Defend →]] |
+| [[Submissions/Loop Choke/from Turtle|Turtle]] | Top | 62% | [[Submissions/Loop Choke/from Turtle/Attacker|Attack →]] | [[Submissions/Loop Choke/from Turtle/Defender|Defend →]] |
+| [[Submissions/Loop Choke/from Half Guard|Half Guard]] | Top | 60% | [[Submissions/Loop Choke/from Half Guard/Attacker|Attack →]] | [[Submissions/Loop Choke/from Half Guard/Defender|Defend →]] |
+| [[Submissions/Loop Choke/from Side Control|Side Control]] | Top | 50% | [[Submissions/Loop Choke/from Side Control/Attacker|Attack →]] | [[Submissions/Loop Choke/from Side Control/Defender|Defend →]] |
+| [[Submissions/Loop Choke/from Mount|Mount]] | Top | 48% | [[Submissions/Loop Choke/from Mount/Attacker|Attack →]] | [[Submissions/Loop Choke/from Mount/Defender|Defend →]] |
 
 
 </div>

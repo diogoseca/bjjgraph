@@ -54,7 +54,7 @@ description: "Master the kneebar finish from kneebar control in BJJ. Step-by-ste
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Leg Lock</span>
 <span class="meta-chip">Targets Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule)</span>
-<span class="meta-chip">60% success</span>
+<span class="meta-chip">45% success</span>
 </div>
 
 > [!danger] Safety

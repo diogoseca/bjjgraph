@@ -154,7 +154,7 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 
 - **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (4% of attempts)
 
-- **[[Transitions/Deep Half Entry from Half Guard/Attacker|Deep Half Entry from Half Guard]]** (14% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (14% of attempts)
 
 - **[[Transitions/Knee Torque Sweep/Attacker|Knee Torque Sweep]]** (4% of attempts)
 

@@ -66,7 +66,7 @@ This technique operates on a fundamental principle: when your leg becomes endang
 The back step is particularly valuable against modern leg lock systems where practitioners use inversions to access heel hooks and kneebars. Against a skilled grasshopper guard player, the window for executing this pass is narrow—you must recognize the entanglement attempt early and initiate the back step before they can fully establish control. Timing the back step to coincide with their inversion transition maximizes success probability, as their legs are temporarily in flux between configurations.
 
 **From Position**: [[Positions/Grasshopper Guard]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 34%
 
 </section>
 

@@ -66,7 +66,7 @@ The technique operates on the principle that lapel configurations create directi
 Strategically, this pass is most effective when combined with systematic lapel clearing sequences. Rather than fighting directly against the lapel barrier, you partially clear the obstruction, initiate the knee slice during the transition window, and complete the pass before the opponent can re-establish their configuration. The timing window is narrow, making this a technically demanding but highly effective solution for gi competition where lapel guards are prevalent.
 
 **From Position**: [[Positions/Lapel Guard]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 52%
 
 </section>
 

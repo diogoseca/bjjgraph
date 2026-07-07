@@ -66,7 +66,7 @@ The technique requires precise arm positioning, sustained chest-to-back pressure
 This submission setup has become a staple in the arsenals of high-level competitors due to its effectiveness against various turtle defensive strategies and its ability to chain seamlessly with anaconda choke, guillotine, and back take options from the same initial front headlock control. The shared entry point creates genuine submission dilemmas for the defender, who must choose which attack to prioritize defending while the attacker reads their reactions and flows between threats.
 
 **From Position**: [[Positions/Turtle]] (Top)
-**Success Rate**: 60%
+**Success Rate**: 40%
 
 </section>
 

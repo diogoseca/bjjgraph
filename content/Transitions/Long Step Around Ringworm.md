@@ -66,7 +66,7 @@ This technique employs an exaggerated long step to change the passing angle dram
 Strategically, this pass is most effective when you recognize that direct clearing of the ringworm configuration would require excessive energy expenditure. Rather than engaging in a prolonged grip-fighting battle to remove multiple lapel wraps, the long step accepts the configuration's existence and navigates around it. This approach preserves energy and catches opponents who have invested heavily in establishing complex lapel systems, as they often don't anticipate passes that simply bypass their control structure.
 
 **From Position**: [[Positions/Lapel Guard]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 40%
 
 </section>
 

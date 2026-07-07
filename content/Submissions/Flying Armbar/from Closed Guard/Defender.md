@@ -95,6 +95,14 @@ description: "How to defend against Flying Armbar in BJJ. Recognition, escape pa
         "@type": "Answer",
         "text": "Maintain a strong upright posture with your hips back and shoulders over your hips rather than leaning forward. Keep your elbows pinned to your ribs with your hands controlling your opponent's hips, knees, or pants rather than reaching forward for collar or sleeve grips. Never extend both arms simultaneously, and avoid posting on the mat with your hands inside their guard range. Your stance should be wide with slightly bent knees for stability and quick directional movement. This defensive posture eliminates the arm extension and forward weight commitment that flying armbar entries require."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "When is the flying armbar most defensible - during the entry or after the attacker lands?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It is most defensible during the entry, before both legs clamp. Once the attacker's legs land across your head and back and their knees pinch, the arm is largely lost. The entire effective defense lives in the first fraction of a second as they leave the ground, which is why prevention and early reaction matter far more than late escapes."
+      }
     }
   ]
 }

@@ -255,7 +255,6 @@ The Armbar from Back with Legs is an advanced finishing technique that leverages
 - [[Submissions/Rear Naked Choke]]
 - [[Transitions/Armbar from Crucifix]]
 - [[Submissions/Choke from Crucifix]]
-- [[Submissions/Flying Armbar]]
 - [[Submissions/Belly Down Armbar]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Bow and Arrow Choke]]

@@ -54,7 +54,7 @@ description: "Complete guide to finishing the Aoki Lock leg compression from Aok
 <span class="meta-chip">Compression</span>
 <span class="meta-chip">Leg Compression</span>
 <span class="meta-chip">Targets Shin and ankle compression (forced plantar flexion crushing the shin, calf, and Achilles)</span>
-<span class="meta-chip">50% success</span>
+<span class="meta-chip">31% success</span>
 </div>
 
 > [!danger] Safety

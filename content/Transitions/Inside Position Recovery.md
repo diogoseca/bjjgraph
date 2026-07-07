@@ -66,7 +66,7 @@ The technical foundation of this escape relies on understanding the mechanical d
 Strategically, Inside Position Recovery represents the preferred escape pathway when you cannot prevent the leg drag but have maintained enough hip mobility to create space. Unlike rolling to turtle (which concedes position) or fighting for half guard (which may still leave you in a compromised state), successful Inside Position Recovery puts you in butterfly guard with active hooks and offensive options. This makes it particularly valuable in competition where guard retention and immediate counter-attacks are essential for scoring and momentum.
 
 **From Position**: [[Positions/Leg Drag Control]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 32%
 
 </section>
 

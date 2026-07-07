@@ -66,7 +66,7 @@ The effectiveness of this transition lies in its ability to capitalize on the op
 This technique serves as a cornerstone of modern no-gi grappling and has proven equally effective in gi competition. Its prevalence in high-level competition stems from its reliability and the difficulty opponents face in defending it once proper front headlock control is established. The transition connects seamlessly with submission attacks including the rear naked choke, making it both a positional advancement and a direct path to fight-ending submissions.
 
 **From Position**: [[Positions/Front Headlock]] (Top)
-**Success Rate**: 68%
+**Success Rate**: 42%
 
 </section>
 

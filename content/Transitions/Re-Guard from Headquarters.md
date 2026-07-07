@@ -66,7 +66,7 @@ The essence of re-guarding from Headquarters lies in creating distance and frame
 Successful re-guarding from this position is fundamental to maintaining a strong defensive game. The ability to recover guard when a pass is nearly complete separates intermediate practitioners from advanced competitors. This technique builds upon fundamental concepts of guard retention, framing mechanics, and hip escape principles while requiring precise timing and spatial awareness to execute against resisting opponents.
 
 **From Position**: [[Positions/Headquarters Position]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 42%
 
 </section>
 

@@ -66,7 +66,7 @@ The entry requires precise timing and lapel management. The bottom player must m
 Strategically, completing the Worm Guard Entry represents a significant positional upgrade. While basic Lapel Guard offers control, the Worm Guard configuration locks the opponent's lead leg in place, severely limiting their passing options and loading powerful sweep mechanics. The position creates true dilemmas where defending the sweep exposes the back, and defending the back take opens sweep opportunities. For gi competitors, this entry is a gateway to an entire attacking subsystem that rewards technical precision over athleticism.
 
 **From Position**: [[Positions/Lapel Guard]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 10%
 
 </section>
 

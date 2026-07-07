@@ -264,7 +264,6 @@ The position operates on the principle that the figure-four grip isolates the sh
 - [[Transitions/Gogoplata]]
 - [[Submissions/High Elbow Guillotine]]
 - [[Submissions/Triangle Choke]]
-- [[Submissions/Flying Armbar]]
 - [[Submissions/Omoplata]]
 - [[Submissions/Americana]]
 - [[Submissions/Baratoplata]]

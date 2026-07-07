@@ -66,7 +66,7 @@ The fundamental concept driving back control maintenance is the understanding th
 Advanced back control maintenance integrates threat cycling—the continuous rotation between rear naked choke setups, collar chokes, armbars, and crucifix transitions—that keeps the defender perpetually reactive. By threatening submissions without fully committing, the attacking practitioner forces defensive movements that can be exploited to tighten positional control. This creates a feedback loop where defensive effort leads to tighter control, which creates more submission threats, requiring more defensive effort. Understanding and executing this cycle separates practitioners who occasionally get the back from those who systematically finish from back control.
 
 **From Position**: [[Positions/Back Control]] (Top)
-**Success Rate**: 70%
+**Success Rate**: 59%
 
 </section>
 

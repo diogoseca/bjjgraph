@@ -54,7 +54,7 @@ description: "Master the cross collar choke from closed guard with detailed grip
 <span class="meta-chip">Choke</span>
 <span class="meta-chip">Blood Choke</span>
 <span class="meta-chip">Targets Carotid arteries</span>
-<span class="meta-chip">58% success</span>
+<span class="meta-chip">10% success</span>
 </div>
 
 > [!danger] Safety

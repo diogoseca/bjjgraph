@@ -66,7 +66,7 @@ The key mechanical insight is that the leg triangle creates a directional lock�
 Success requires calm, methodical execution under extreme positional pressure. The crucifix's inherent danger—particularly immediate choke threats—creates psychological urgency that often drives practitioners toward explosive but ineffective escape attempts. The systematic approach of securing neck defense first, then working progressive angle changes for arm extraction, and finally recovering guard position distinguishes successful escapes from energy-wasting struggles that only tighten the opponent's control.
 
 **From Position**: [[Positions/Crucifix]] (Bottom)
-**Success Rate**: 40%
+**Success Rate**: 36%
 
 </section>
 

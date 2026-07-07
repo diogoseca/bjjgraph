@@ -66,7 +66,7 @@ The technical foundation rests on a critical insight about weight distribution. 
 This reversal holds strategic significance beyond its direct application. The credible threat of reversal forces top players to maintain conservative base positioning in the leg knot, which limits their submission finishing ability and creates a fundamental tactical dilemma. Practitioners who develop proficiency with this technique transform Leg Knot Bottom from a purely defensive survival position into a dynamic counter-attacking platform that demands respect from even the most aggressive leg lock specialists.
 
 **From Position**: [[Positions/Leg Knot]] (Bottom)
-**Success Rate**: 35%
+**Success Rate**: 18%
 
 </section>
 

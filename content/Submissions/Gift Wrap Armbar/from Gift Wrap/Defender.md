@@ -95,6 +95,14 @@ description: "Learn to defend the Gift Wrap Armbar in BJJ. Recognition cues, esc
         "@type": "Answer",
         "text": "If the armbar fails and you return to gift wrap control, immediately address the two persistent problems in priority order. First, protect your neck with the free hand since the attacker will likely switch back to choke attacks. Second, begin working the trapped arm recovery using hip and shoulder rotation rather than arm strength. Use the attacker's positional readjustment after the failed armbar as a window for escape attempts, as their base may be temporarily compromised from the transition back to standard gift wrap control."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is the free arm the most dangerous limb to misuse when defending the Gift Wrap Armbar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Because it is the attacker's target; extending it to push or frame hands them the straight-arm lever for the armbar, so it must stay bent and tight to your ribs while still protecting your neck."
+      }
     }
   ]
 }

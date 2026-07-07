@@ -247,7 +247,6 @@ Strategically, the Americana from high mount functions as both a primary finishe
 - [[Submissions/Arm Triangle]]
 - [[Submissions/Cross Collar Choke]]
 - [[Submissions/Ezekiel Choke]]
-- [[Submissions/Gift Wrap Armbar]]
 - [[Positions/Mount/High Mount]] - Starting position providing the elevated platform and weight advantage for this shoulder lock variant
 - [[Positions/Mount]] - Parent position from which High Mount is established through progressive knee walking
 - [[Positions/Kimura Trap]] - Sister shoulder lock control position accessible when opponent defends with bent arms

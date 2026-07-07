@@ -263,8 +263,6 @@ The Americana from Mount serves as a cornerstone technique in any top game arsen
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Arm Triangle]]
 - [[Submissions/Cross Collar Choke]]
-- [[Submissions/Flying Armbar]]
-- [[Submissions/Gift Wrap Armbar]]
 - [[Positions/Mount]] - Primary starting position for this submission
 - [[Positions/Mount/High Mount]] - Advanced positional variation that increases americana effectiveness
 - [[Positions/Mount/S Mount]] - Alternative mount position providing greater leverage for americana

@@ -66,7 +66,7 @@ The technique involves reconfiguring your leg position while maintaining continu
 Strategically, this transition serves as an essential tool when Ushiro Ashi-Garami attacks stall or when the opponent's defensive positioning creates better finishing angles from Cross Ashi. Advanced practitioners use this transition fluidly within leg lock scrambles, recognizing that different entanglement configurations offer different submission opportunities based on the opponent's hip orientation and defensive reactions.
 
 **From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 45%
 
 </section>
 

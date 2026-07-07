@@ -66,7 +66,7 @@ Strategically, the duck under serves as a high-percentage answer to opponents wh
 The duck under carries significant tactical value in competition, where establishing the Standing Rear Clinch creates immediate scoring opportunities through takedowns and back exposure. In no-gi grappling and MMA, the duck under remains one of the most reliable methods for transitioning from a neutral clinch to a dominant position, making it an essential tool for any serious practitioner's standing game.
 
 **From Position**: [[Positions/Clinch]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 36%
 
 </section>
 

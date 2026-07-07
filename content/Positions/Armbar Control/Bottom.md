@@ -21,13 +21,13 @@ description: "Master defensive armbar control from bottom position in BJJ. Learn
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Defense",
-      "text": "From this position, attempt Stack Defense. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Stack Defense. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
@@ -38,14 +38,14 @@ description: "Master defensive armbar control from bottom position in BJJ. Learn
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hitchhiker Escape",
-      "text": "From this position, attempt Hitchhiker Escape. This technique is attempted in 23% of exchanges from this position.",
+      "name": "Execute Hitchhiker Escape from Armbar",
+      "text": "From this position, attempt Hitchhiker Escape from Armbar. This technique is attempted in 24% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
@@ -219,7 +219,7 @@ Mastery of armbar defense is essential for all practitioners, as the armbar is o
 <p class="section-subtitle">What should you do from Armbar Control (Bottom)?</p>
 
 **If opponent has not fully extended the arm and legs are not tight across face:**
-- Execute **[[Transitions/Hitchhiker Escape/Attacker|Hitchhiker Escape]]** → [[Positions/Half Guard]] (Probability: 60%)
+- Execute **[[Hitchhiker Escape/Attacker|Hitchhiker Escape]]** → [[Positions/Half Guard]] (Probability: 60%)
 - Execute **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** → [[Positions/Closed Guard]] (Probability: 50%)
 
 
@@ -347,7 +347,7 @@ Partner attempts armbar from guard. As they extend for finish, defender stacks t
 - **[[Transitions/Hip Escape to Guard]]** - Primary escape technique - most reliable armbar defense method
 - **[[Positions/Closed Guard]]** - Common escape target - safe position after successful defense
 - **[[Positions/Mount]]** - Common origin - position often attacked from mount
-- **[[Transitions/Hitchhiker Escape]]** - Key escape technique used from this position
+- **[[Hitchhiker Escape]]** - Key escape technique used from this position
 - **[[Transitions/Stack Defense]]** - Primary defensive response to compromise opponent's finishing angle
 - **[[Positions/Half Guard]]** - Common recovery position after successful escape
 

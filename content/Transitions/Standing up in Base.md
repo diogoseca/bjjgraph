@@ -66,7 +66,7 @@ The standup sequence involves establishing a stable posting base, creating dista
 This technique serves as a gateway movement that connects various bottom positions to standing engagements, making it indispensable for complete positional fluency in Brazilian Jiu-Jitsu. It integrates with turtle defense, guard recovery, and standing guard strategies, giving practitioners the ability to dictate whether engagement continues on the ground or resets to neutral standing.
 
 **From Position**: [[Positions/Turtle]] (Bottom)
-**Success Rate**: 70%
+**Success Rate**: 35%
 
 </section>
 

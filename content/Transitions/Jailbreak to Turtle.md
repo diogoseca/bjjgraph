@@ -66,7 +66,7 @@ The biomechanical foundation of this escape relies on maintaining underhook conn
 From a game theory perspective, Jailbreak to Turtle creates a strategic dilemma for the top player. Driving forward pressure to complete the pass opens vulnerability to the rolling escape, while backing off to prevent the roll allows the bottom player to recover guard frames. This technique chains naturally into turtle attacks and back takes, making it both a defensive escape and an offensive transition when the opponent follows the roll.
 
 **From Position**: [[Positions/Jailbreak]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 39%
 
 </section>
 

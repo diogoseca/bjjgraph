@@ -53,7 +53,7 @@ description: "Master Outside Heel Hook in BJJ. Safety guide covering proper appl
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Outside Heel Hook?", "acceptedAnswer": { "@type": "Answer", "text": "The Outside Heel Hook is a rotational leg-lock that twists the heel laterally to torque the knee, attacked from outside leg entanglements like outside ashi-garami, saddle, and 50-50 and threatening the ACL, MCL, and meniscus within seconds." } },
-    { "@type": "Question", "name": "What positions can you finish the Outside Heel Hook from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Outside Heel Hook from 50-50 Guard, Backside 50-50, Cross Ashi-Garami, Honey Hole, Leg Entanglement, Outside Ashi-Garami, Saddle, Ushiro Ashi-Garami." } },
+    { "@type": "Question", "name": "What positions can you finish the Outside Heel Hook from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Outside Heel Hook from Honey Hole, 50-50 Guard, Backside 50-50, Cross Ashi-Garami, Leg Entanglement, Outside Ashi-Garami, Saddle, Ushiro Ashi-Garami." } },
     { "@type": "Question", "name": "Is the Outside Heel Hook dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Outside Heel Hook targets the Knee joint, ankle joint, and surrounding ligaments. Primary risk: ACL tear (anterior cruciate ligament rupture). Tap early and release immediately on the tap." } }
   ]
 }
@@ -98,10 +98,10 @@ The position demands systematic control before any finishing attempt: hip contro
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
+| [[Submissions/Outside Heel Hook/from Honey Hole|Honey Hole]] | Top | 60% | [[Submissions/Outside Heel Hook/from Honey Hole/Attacker|Attack →]] | [[Submissions/Outside Heel Hook/from Honey Hole/Defender|Defend →]] |
 | [[Submissions/Outside Heel Hook/from 50-50 Guard|50-50 Guard]] | Top | 45% | [[Submissions/Outside Heel Hook/from 50-50 Guard/Attacker|Attack →]] | [[Submissions/Outside Heel Hook/from 50-50 Guard/Defender|Defend →]] |
 | [[Submissions/Outside Heel Hook/from Backside 50-50|Backside 50-50]] | Top | 45% | [[Submissions/Outside Heel Hook/from Backside 50-50/Attacker|Attack →]] | [[Submissions/Outside Heel Hook/from Backside 50-50/Defender|Defend →]] |
 | [[Submissions/Outside Heel Hook/from Cross Ashi-Garami|Cross Ashi-Garami]] | Top | 45% | [[Submissions/Outside Heel Hook/from Cross Ashi-Garami/Attacker|Attack →]] | [[Submissions/Outside Heel Hook/from Cross Ashi-Garami/Defender|Defend →]] |
-| [[Submissions/Outside Heel Hook/from Honey Hole|Honey Hole]] | Top | 45% | [[Submissions/Outside Heel Hook/from Honey Hole/Attacker|Attack →]] | [[Submissions/Outside Heel Hook/from Honey Hole/Defender|Defend →]] |
 | [[Submissions/Outside Heel Hook/from Leg Entanglement|Leg Entanglement]] | Top | 45% | [[Submissions/Outside Heel Hook/from Leg Entanglement/Attacker|Attack →]] | [[Submissions/Outside Heel Hook/from Leg Entanglement/Defender|Defend →]] |
 | [[Submissions/Outside Heel Hook/from Outside Ashi-Garami|Outside Ashi-Garami]] | Bottom | 45% | [[Submissions/Outside Heel Hook/from Outside Ashi-Garami/Attacker|Attack →]] | [[Submissions/Outside Heel Hook/from Outside Ashi-Garami/Defender|Defend →]] |
 | [[Submissions/Outside Heel Hook/from Saddle|Saddle]] | Top | 45% | [[Submissions/Outside Heel Hook/from Saddle/Attacker|Attack →]] | [[Submissions/Outside Heel Hook/from Saddle/Defender|Defend →]] |

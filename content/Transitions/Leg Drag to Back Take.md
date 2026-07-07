@@ -66,7 +66,7 @@ The strategic value of this technique lies in its reliability and the dominant p
 Execution requires maintaining constant pressure and connection throughout the transition. The moment you feel your opponent begin to rotate away, you must immediately abandon your leg drag grip priorities and shift to back control grips. Your underhook on the near side becomes your seatbelt grip, while your other arm reaches over their back for the far hip or establishes harness control. The bottom hook inserts first as their hip turns, followed by the top hook once you have secured upper body control. Timing is critical—hesitation allows them to complete their escape to turtle, while premature movement telegraphs your intention.
 
 **From Position**: [[Positions/Leg Drag Control]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 57%
 
 </section>
 

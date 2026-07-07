@@ -93,6 +93,14 @@ description: "Defend the Armbar from Crucifix in BJJ. Complete defensive guide c
         "@type": "Answer",
         "text": "Your immediate priority is preventing full arm extension by bending the elbow against the attacker's grip. Use your shoulder and bicep to curl the arm in while simultaneously grip fighting on the wrist to strip or rotate the attacker's hold. Combine this with hip movement to change the angle. If you cannot prevent extension, clasp your own hands together for additional resistance. If the arm becomes fully extended with the attacker's legs clamped, the position is nearly finished—prioritize disrupting the position through bridging before the hip drive completes the hyperextension."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the earliest recognition cue that your opponent is transitioning from choke threat to armbar from mounted crucifix?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The earliest cue is feeling the attacker's hands shift from your neck or collar area toward your wrist or forearm. This grip change indicates they are abandoning the choke and targeting the arm instead. You may also feel their weight begin shifting laterally toward the arm they intend to attack. Recognizing this transition at the grip-change stage gives you the maximum time window for defensive response — waiting until you feel hip pressure on your elbow means the armbar is already partially secured and escape probability has dropped significantly."
+      }
     }
   ]
 }

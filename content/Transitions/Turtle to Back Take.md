@@ -66,7 +66,7 @@ Mastery of this transition is essential for any grappler, as the turtle position
 The positional hierarchy in BJJ places back control as the highest-value position, scoring 4 points in IBJJF competition and offering the best submission percentages of any position. Converting turtle attacks into back control therefore represents one of the most valuable skill chains a practitioner can develop. The transition requires patience, systematic grip establishment, and the discipline to secure control layers in the correct sequence rather than rushing for hooks before upper body control is locked in.
 
 **From Position**: [[Positions/Turtle]] (Top)
-**Success Rate**: 68%
+**Success Rate**: 46%
 
 </section>
 

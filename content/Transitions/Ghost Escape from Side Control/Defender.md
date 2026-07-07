@@ -93,6 +93,14 @@ description: "Defend the Ghost Escape to guard from side control top. Recognitio
         "@type": "Answer",
         "text": "The standard ghost escape simply requires stopping the rotation to prevent turtle. This variant adds the knee threading phase, meaning you have a secondary line of defense: even if you cannot stop the turn, you can still prevent the guard recovery by following closely enough to deny the knee insertion. This means following the turn to turtle top is a viable and favorable defensive outcome, whereas against the standard ghost escape, following to turtle is the expected result."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the earliest physical cue that indicates a Ghost Escape attempt is beginning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The earliest cue is feeling the bottom player's hips begin to rotate away from you in a circular motion toward their stomach, as opposed to the linear lateral shrimping movement of a standard hip escape. This rotational hip movement, often preceded by a short bridge, is the signature initiation of the Ghost Escape and your response window is extremely short once it begins."
+      }
     }
   ]
 }

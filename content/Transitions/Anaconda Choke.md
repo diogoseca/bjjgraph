@@ -66,7 +66,7 @@ The technique typically emerges from front headlock positions, turtle attacks, o
 Strategically, the anaconda excels when opponents shoot takedowns or turn into you from turtle. The arm-in configuration makes the choke extremely difficult to defend once locked because the trapped arm actually reinforces the choking mechanism rather than creating space for escape. Understanding when to commit to the finish versus maintaining control position is crucial for high-percentage success.
 
 **From Position**: [[Positions/Front Headlock]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 41%
 
 </section>
 

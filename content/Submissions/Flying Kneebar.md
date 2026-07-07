@@ -117,7 +117,6 @@ As a variant family, the Flying Kneebar collects the dynamic aerial entries to t
 
 ## Related
 - [[Submissions/Inside Heel Hook]] - Common transition when opponent rotates knee inward during kneebar defense
-- [[Submissions/Flying Armbar]] - Similar dynamic aerial submission with comparable risk-reward profile
 - [[Submissions/Straight Ankle Lock]] - Foundational leg lock from similar Ashi Garami finishing positions
 - [[Submissions/Outside Heel Hook]] - Alternative rotational leg lock from shared entanglement positions
 - [[Submissions/Heel Hook]] - Primary heel hook family sharing leg control positions with kneebar

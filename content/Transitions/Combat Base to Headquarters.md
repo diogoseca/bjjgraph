@@ -66,7 +66,7 @@ The transition demands precise coordination of grip fighting, weight transfer, a
 This positional improvement serves as the gateway to systematic guard passing. Once headquarters is established, the top player can methodically select passing routes based on the bottom player's defensive reactions, returning to headquarters between attempts rather than overcommitting to single directions. Understanding the Combat Base to Headquarters transition is essential for developing a pressure-based, systematic passing game that controls the opponent's options through measured positional advancement.
 
 **From Position**: [[Positions/Combat Base]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 54%
 
 </section>
 

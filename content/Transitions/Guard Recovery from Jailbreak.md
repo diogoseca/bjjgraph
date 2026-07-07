@@ -64,7 +64,7 @@ This recovery transition handles the failure branch of the Jailbreak escape syst
 The biomechanical challenge of this recovery lies in the non-standard body alignment that results from a failed inversion. Unlike standard guard recovery from side control where the defender starts flat on their back with a predictable orientation, the post-Jailbreak position may leave the bottom player twisted, partially inverted, or angled away from the opponent. This requires an additional orientation step before the standard frame-escape-recompose sequence can begin. The recovery window is narrow: the bottom player typically has three to five seconds before the top player capitalizes on the disorganized body position to establish dominant control. Practitioners who develop automatic post-inversion orientation and framing responses dramatically increase their guard recovery success rate, transforming what would otherwise be a catastrophic positional failure into a manageable defensive transition.
 
 **From Position**: [[Positions/Jailbreak]] (Bottom)
-**Success Rate**: 45%
+**Success Rate**: 42%
 
 </section>
 

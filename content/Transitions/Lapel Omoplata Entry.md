@@ -66,7 +66,7 @@ From lapel guard bottom, the practitioner uses the existing lapel configuration 
 Strategically, this entry creates a true dilemma for the top player. When threatened with lapel sweeps, posting the hand becomes a natural defensive reaction. However, this posting arm becomes the target for omoplata entry. The technical challenge lies in maintaining lapel control while executing the hip rotation necessary to thread the leg over the opponent's shoulder. Success requires precise timing—attacking the posting arm at the moment of maximum commitment when the opponent cannot easily retract.
 
 **From Position**: [[Positions/Lapel Guard]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 11%
 
 </section>
 

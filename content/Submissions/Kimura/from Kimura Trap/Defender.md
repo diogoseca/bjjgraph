@@ -89,6 +89,14 @@ description: "Learn to defend and escape the Kimura from Kimura Trap. Recognitio
         "@type": "Answer",
         "text": "Begin with slow cooperative drilling where the attacker applies the finish at thirty percent speed and the defender practices recognition cues and grip defense. Progress to positional sparring where the attacker starts in Kimura Trap and works the finish at gradually increasing intensity. Always establish clear tap protocols with your partner before drilling. The defender should practice tapping early and often to build good habits rather than testing their structural limits, as shoulder injuries are cumulative and degenerative over time."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "Why should you roll toward the attacker rather than away when the Kimura figure-four is locked from north-south?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rolling toward the attacker (into the Kimura) follows the direction of rotational force, which reduces the angle of stress on your shoulder joint. Rolling away from the attacker moves your body in the same direction they are applying rotational pressure, which compounds the torque and accelerates the submission. By rolling into them, you effectively take away their leverage angle and may force them to release the grip to maintain position. Additionally, rolling toward the attacker can expose their back, creating a reversal opportunity. This is counterintuitive for many practitioners who instinctively try to move away from danger, but the biomechanics of the Kimura make rolling toward the attacker the safer and more effective defensive option."
+      }
     }
   ]
 }

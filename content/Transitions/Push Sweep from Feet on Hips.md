@@ -66,7 +66,7 @@ The technique occupies a central role in the feet-on-hips guard system because i
 Execution demands precise timing and grip coordination rather than raw strength. The push must coincide with the opponent's weight shift forward, and the upper body grips must complement the leg extension direction to prevent the opponent from posting or recovering balance. Follow-up is equally critical: the bottom player must immediately come to their feet or establish a controlling top position rather than remaining on the ground after the sweep.
 
 **From Position**: [[Positions/Feet on Hips Guard]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 25%
 
 </section>
 

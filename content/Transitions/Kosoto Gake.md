@@ -68,7 +68,7 @@ Rooted in judo's classical throwing syllabus, Kosoto Gake has become a staple of
 The throw creates a seamless transition from standing to dominant groundwork, with the thrower maintaining control throughout the entire movement and landing directly in a scoring position. This makes it particularly valuable in both gi and no-gi competition contexts where takedown points and top position are strategically critical. The biomechanical principle underlying Kosoto Gake is the creation of a force couple: the upper body pull generates rotational momentum backward while the leg reap removes the structural support beneath the opponent's center of gravity. This dual-action mechanism means neither component works effectively in isolation, but together they produce reliable off-balancing with minimal athletic demand.
 
 **From Position**: [[Positions/Standing Position]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 38%
 
 </section>
 

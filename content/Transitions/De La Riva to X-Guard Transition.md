@@ -66,7 +66,7 @@ The ability to flow between these positions transforms static guard retention in
 Understanding this transition requires mastery of hook mechanics, grip control transitions, and the ability to read opponent weight distribution in real-time. The DLR hook creates horizontal off-balancing forces while X-Guard hooks create vertical elevation forces. The transition bridges these two force systems seamlessly, maintaining continuous control throughout the reconfiguration of legs and grips.
 
 **From Position**: [[Positions/De La Riva Guard]] (Bottom)
-**Success Rate**: 65%
+**Success Rate**: 49%
 
 </section>
 

@@ -68,7 +68,7 @@ Strategically, this recovery transforms the rubber guard system from a single-at
 The execution requires precise timing and understanding of weight distribution. The bottom player must recognize when the gogoplata is failing before fully committing, withdraw the shin from the throat while maintaining hip control, and immediately secure the overhook that defines Mission Control. This sequence must happen faster than the opponent can exploit the transition.
 
 **From Position**: [[Positions/Gogoplata Control]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 51%
 
 </section>
 

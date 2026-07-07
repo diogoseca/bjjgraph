@@ -54,7 +54,7 @@ description: "Master the toe hold from Inside Sankaku. Learn grip mechanics, rot
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Leg Lock</span>
 <span class="meta-chip">Targets Ankle, toes, and foot ligaments</span>
-<span class="meta-chip">60% success</span>
+<span class="meta-chip">30% success</span>
 </div>
 
 > [!danger] Safety

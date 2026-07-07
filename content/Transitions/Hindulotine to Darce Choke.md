@@ -66,7 +66,7 @@ From the bottom Hindulotine position, the attacker recognizes the defensive fram
 Strategically, this transition exemplifies the modern submission hunting approach where attackers flow between related chokes based on defensive reactions. The Hindulotine and Darce share similar positional requirements and head control mechanics, making the transition natural once the pattern recognition develops. Advanced practitioners often set up this transition deliberately by applying guillotine pressure that they know will generate the defensive frame they need for the Darce entry.
 
 **From Position**: [[Positions/Hindulotine]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 32%
 
 </section>
 

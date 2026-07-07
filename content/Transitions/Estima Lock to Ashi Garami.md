@@ -66,7 +66,7 @@ This technique capitalizes on the leg control already established in the Estima 
 Strategically, this transition embodies the chain-attack philosophy central to effective leg lock systems. The Estima Lock threatens the ankle joint; when that fails, the ashi garami threatens the heel and knee. Opponents cannot defend both simultaneously, creating the positional dilemmas that lead to submission opportunities. Understanding when to abandon the Estima Lock finish in favor of transitional advancement separates effective leg lockers from those who stall in compromised positions.
 
 **From Position**: [[Positions/Estima Lock Control]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 46%
 
 </section>
 

@@ -66,7 +66,7 @@ The critical challenge lies in maintaining constant pressure throughout the tran
 Strategically, this transition fits within a larger pressure cycling system. The top player who can flow between KOB, side control, mount, and north-south creates constant positional dilemmas that exhaust the bottom player's defensive resources. Returning to side control is not a retreat but a deliberate positional reset that enables fresh attacking angles, different submission entries, and renewed pressure from a mechanically advantageous platform.
 
 **From Position**: [[Positions/Knee on Belly]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 64%
 
 </section>
 

@@ -66,7 +66,7 @@ Strategically, this sweep functions as a core weapon in the dogfight arsenal alo
 At higher levels, the Underhook Sweep chains seamlessly with other dogfight options. When the opponent defends this sweep by posting their far hand wide, the back take becomes available as they expose their far side. When they overcommit to whizzer defense anticipating this sweep, the forward drive sweep opens as their weight shifts rearward. This creates a three-way dilemma from dogfight where the underhook sweep serves as the primary threat that sets up secondary attacks, making it an essential technique for anyone developing a serious half guard bottom game.
 
 **From Position**: [[Positions/Dogfight Position]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 46%
 
 </section>
 

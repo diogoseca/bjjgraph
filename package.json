@@ -1,6 +1,6 @@
 {
   "name": "bjjgraph",
-  "version": "1.50.5",
+  "version": "1.51.0",
   "description": "BJJ knowledge graph and state machine",
   "scripts": {
     "postinstall": "cd source && npm install",
@@ -27,7 +27,7 @@
     "proofread": "python3 scripts/proofread_all_transitions.py",
     "calibrate:cases": "python3 scripts/calibrate_probabilities.py --build-cases --max-cases 100",
     "calibrate": "python3 scripts/calibrate_probabilities.py",
-    "calibrate:apply": "python3 scripts/calibrate_probabilities.py --apply-votes",
+    "calibrate:apply": "python3 scripts/apply_calibration.py",
     "build": "cd source && npx quartz build --concurrency 4 -d ../content && python3 ../scripts/regenerate_redirects.py && python3 ../scripts/regenerate_headers.py && python3 ../scripts/regenerate_llms_txt.py",
     "regenerate:redirects": "python3 scripts/regenerate_redirects.py",
     "regenerate:headers": "python3 scripts/regenerate_headers.py",

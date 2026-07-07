@@ -66,7 +66,7 @@ The effectiveness of the half guard pass lies in understanding the bottom player
 Successful half guard passing requires a combination of technical precision, pressure application, and strategic decision-making. The passer must recognize which variation of half guard they're facing (traditional half guard, lockdown, knee shield, deep half, etc.) and adapt their passing strategy accordingly. This technique forms the foundation for more advanced passing systems and represents a critical skill progression from beginner to advanced levels, with success rates improving dramatically as practitioners develop better pressure, timing, and recognition of defensive reactions.
 
 **From Position**: [[Positions/Half Guard]] (Top)
-**Success Rate**: 70%
+**Success Rate**: 39%
 
 </section>
 

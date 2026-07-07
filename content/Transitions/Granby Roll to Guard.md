@@ -66,7 +66,7 @@ Strategically, the Granby Roll represents an aggressive defensive philosophy whe
 The technical demands of the Granby Roll require significant hip mobility, proprioceptive awareness, and precise timing. Executing the roll too early allows the opponent to follow and maintain control; executing too late means the position has already consolidated beyond the escape window. Mastery of this technique provides a reliable emergency exit from dangerous turtle scenarios while building the movement vocabulary necessary for advanced guard retention and recovery systems.
 
 **From Position**: [[Positions/Buggy Choke]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 46%
 
 </section>
 

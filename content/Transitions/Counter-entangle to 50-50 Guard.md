@@ -66,7 +66,7 @@ The strategic value of this counter lies in its risk mitigation properties. When
 This technique requires precise timing and technical execution. Attempting the counter-entangle too early when the opponent has strong control results in accelerated positional deterioration. Waiting too long allows the opponent to consolidate into Saddle or Inside Ashi where counter-entanglement becomes impossible. The window of opportunity exists during transitional moments when the opponent is adjusting grips or attempting to advance their position.
 
 **From Position**: [[Positions/Leg Knot]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 34%
 
 </section>
 

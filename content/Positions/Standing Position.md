@@ -139,7 +139,7 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 
 - **[[Transitions/Butterfly Guard Pull/Attacker|Butterfly Guard Pull]]** (18% of attempts)
 
-- **[[Transitions/Arm Drag from Standing/Attacker|Arm Drag from Standing]]** (13% of attempts)
+- **[[Transitions/Arm Drag/Attacker|Arm Drag]]** (13% of attempts)
 
 - **[[Transitions/Level Change Takedown/Attacker|Level Change Takedown]]** (8% of attempts)
 
@@ -212,7 +212,7 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 
 - **[[Transitions/Guard Pull/Attacker|Guard Pull]]** (33% of attempts)
 
-- **[[Transitions/Sprawl Defense from Standing/Attacker|Sprawl Defense from Standing]]** (10% of attempts)
+- **[[Transitions/Sprawl Defense/Attacker|Sprawl Defense]]** (10% of attempts)
 
 - **[[Transitions/Single Leg Entry/Attacker|Single Leg Entry]]** (7% of attempts)
 

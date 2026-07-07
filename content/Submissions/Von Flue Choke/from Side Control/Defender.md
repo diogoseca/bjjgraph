@@ -89,6 +89,14 @@ description: "How to defend against Von Flue Choke in BJJ. Recognition, escape p
         "@type": "Answer",
         "text": "This is an emergency requiring immediate action in this order: 1) Release the guillotine grip completely and without hesitation—every fraction of a second you hold it deepens the choke. 2) Use the freed arm closest to their hips to push against their hip or thigh to create distance. 3) Bridge explosively toward them to disrupt their shoulder pressure and create space. 4) Insert your knee between your bodies to establish half guard. 5) If you cannot insert the knee, continue bridging and framing until you create enough space to turn toward them and recover guard. The critical first step is always releasing the guillotine—nothing else works while you are holding the grip that creates half the choke against yourself. In training, if you feel lightheaded at any point during this sequence, tap immediately."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "What sensation warns you that your guillotine is exposing you to a Von Flue Choke?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You feel the passing opponent drive their shoulder and jaw into the side of your neck where your own arm wraps, with rising pressure on that carotid and sudden light-headedness — a sign your guillotine has become the seal on your own choke."
+      }
     }
   ]
 }

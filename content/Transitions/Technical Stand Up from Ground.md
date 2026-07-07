@@ -249,7 +249,7 @@ The Technical Stand Up from Ground serves as a critical bridge between the groun
 
 - [[Transitions/Ankle Pick]] - Complementary standing technique available after successful stand up
 
-- [[Transitions/Arm Drag from Standing]] - Follow-up offensive option after reaching standing position
+- [[Arm Drag from Standing]] - Follow-up offensive option after reaching standing position
 
 - [[Transitions/Single Leg Entry]] - Common opponent counter-attack during stand up transition
 

@@ -66,7 +66,7 @@ Strategically, this transition serves as the entry point into a comprehensive at
 The Kimura from Half Guard represents a paradigm shift in bottom-side grappling philosophy. Rather than purely defensive guard retention or single-threat sweeping, this technique establishes a grip-based control system that inverts the positional hierarchy. The bottom player with a secured Kimura grip often has more offensive options than the top player, making this transition one of the most important connective techniques between half guard and the modern Kimura Trap system.
 
 **From Position**: [[Positions/Half Guard]] (Bottom)
-**Success Rate**: 40%
+**Success Rate**: 22%
 
 </section>
 

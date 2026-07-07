@@ -54,7 +54,7 @@ description: "Master the Cross Collar Choke in BJJ. Complete guide covering gi g
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Cross Collar Choke?", "acceptedAnswer": { "@type": "Answer", "text": "The Cross Collar Choke is a fundamental gi blood choke that crosses both lapel grips and rotates the forearms to compress the carotid arteries, finishing from positions such as closed guard, mount, side control, and back control." } },
-    { "@type": "Question", "name": "What positions can you finish the Cross Collar Choke from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Cross Collar Choke from 3-4 Mount, Body Triangle, Closed Guard, Invisible Collar, Knee on Belly, Modified Mount, Mount, High Mount." } },
+    { "@type": "Question", "name": "What positions can you finish the Cross Collar Choke from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Cross Collar Choke from High Mount, Modified Mount, Body Triangle, Closed Guard, Invisible Collar, Knee on Belly, Mount, 3-4 Mount." } },
     { "@type": "Question", "name": "Is the Cross Collar Choke dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Cross Collar Choke targets the Carotid arteries. Primary risk: Carotid artery compression leading to temporary loss of consciousness. Tap early and release immediately on the tap." } }
   ]
 }
@@ -95,14 +95,14 @@ The Cross Collar Choke represents one of the most fundamental and effective gi s
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Cross Collar Choke/from 3-4 Mount|3-4 Mount]] | Top | 58% | [[Submissions/Cross Collar Choke/from 3-4 Mount/Attacker|Attack →]] | [[Submissions/Cross Collar Choke/from 3-4 Mount/Defender|Defend →]] |
-| [[Submissions/Cross Collar Choke/from Body Triangle|Body Triangle]] | Top | 58% | [[Submissions/Cross Collar Choke/from Body Triangle/Attacker|Attack →]] | [[Submissions/Cross Collar Choke/from Body Triangle/Defender|Defend →]] |
-| [[Submissions/Cross Collar Choke/from Closed Guard|Closed Guard]] | Bottom | 58% | [[Submissions/Cross Collar Choke/from Closed Guard/Attacker|Attack →]] | [[Submissions/Cross Collar Choke/from Closed Guard/Defender|Defend →]] |
+| [[Submissions/Cross Collar Choke/from High Mount|High Mount]] | Top | 68% | [[Submissions/Cross Collar Choke/from High Mount/Attacker|Attack →]] | [[Submissions/Cross Collar Choke/from High Mount/Defender|Defend →]] |
+| [[Submissions/Cross Collar Choke/from Modified Mount|Modified Mount]] | Top | 68% | [[Submissions/Cross Collar Choke/from Modified Mount/Attacker|Attack →]] | [[Submissions/Cross Collar Choke/from Modified Mount/Defender|Defend →]] |
+| [[Submissions/Cross Collar Choke/from Body Triangle|Body Triangle]] | Top | 65% | [[Submissions/Cross Collar Choke/from Body Triangle/Attacker|Attack →]] | [[Submissions/Cross Collar Choke/from Body Triangle/Defender|Defend →]] |
+| [[Submissions/Cross Collar Choke/from Closed Guard|Closed Guard]] | Bottom | 65% | [[Submissions/Cross Collar Choke/from Closed Guard/Attacker|Attack →]] | [[Submissions/Cross Collar Choke/from Closed Guard/Defender|Defend →]] |
 | [[Submissions/Cross Collar Choke/from Invisible Collar|Invisible Collar]] | Top | 58% | [[Submissions/Cross Collar Choke/from Invisible Collar/Attacker|Attack →]] | [[Submissions/Cross Collar Choke/from Invisible Collar/Defender|Defend →]] |
 | [[Submissions/Cross Collar Choke/from Knee on Belly|Knee on Belly]] | Top | 58% | [[Submissions/Cross Collar Choke/from Knee on Belly/Attacker|Attack →]] | [[Submissions/Cross Collar Choke/from Knee on Belly/Defender|Defend →]] |
-| [[Submissions/Cross Collar Choke/from Modified Mount|Modified Mount]] | Top | 58% | [[Submissions/Cross Collar Choke/from Modified Mount/Attacker|Attack →]] | [[Submissions/Cross Collar Choke/from Modified Mount/Defender|Defend →]] |
-| [[Submissions/Cross Collar Choke/from Mount|Mount]] | Top | 58% | [[Submissions/Cross Collar Choke/from Mount/Attacker|Attack →]] | [[Submissions/Cross Collar Choke/from Mount/Defender|Defend →]] |
-| [[Submissions/Cross Collar Choke/from High Mount|High Mount]] | Top | 50% | [[Submissions/Cross Collar Choke/from High Mount/Attacker|Attack →]] | [[Submissions/Cross Collar Choke/from High Mount/Defender|Defend →]] |
+| [[Submissions/Cross Collar Choke/from Mount|Mount]] | Top | 48% | [[Submissions/Cross Collar Choke/from Mount/Attacker|Attack →]] | [[Submissions/Cross Collar Choke/from Mount/Defender|Defend →]] |
+| [[Submissions/Cross Collar Choke/from 3-4 Mount|3-4 Mount]] | Top | 45% | [[Submissions/Cross Collar Choke/from 3-4 Mount/Attacker|Attack →]] | [[Submissions/Cross Collar Choke/from 3-4 Mount/Defender|Defend →]] |
 
 
 </div>

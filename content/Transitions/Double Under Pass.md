@@ -66,7 +66,7 @@ Historically favored by top-position specialists and pressure passers, the Doubl
 The Double Under Pass is particularly effective in gi grappling where grips can be used to enhance control, though it remains highly viable in no-gi competition. Advanced practitioners use this pass as part of a comprehensive passing system, often combining it with headquarters position, knee slice variations, and other pressure-based attacks to create multiple layers of offensive threat. The technique's reliability stems from its fundamental soundness—when executed correctly, the opponent must defend against immense pressure while having limited mechanical advantages to create distance or recover guard.
 
 **From Position**: [[Positions/Open Guard]] (Top)
-**Success Rate**: 68%
+**Success Rate**: 52%
 
 </section>
 

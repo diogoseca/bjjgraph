@@ -66,7 +66,7 @@ Strategically, the Stand and Circle Away occupies a unique niche among front hea
 The mechanical foundation relies on posting, driving upward through the legs while maintaining chin protection, and then immediately circling away from the opponent's choking arm side. The circling component is critical because simply standing straight up into the front headlock plays directly into guillotine mechanics. By combining vertical drive with lateral movement, you create a vector that is perpendicular to the opponent's control axis, making their grip progressively weaker with each step around.
 
 **From Position**: [[Positions/Front Headlock]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 40%
 
 </section>
 

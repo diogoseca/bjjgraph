@@ -66,7 +66,7 @@ The underhook provides both offensive control and defensive protection, preventi
 The Underhook Pass integrates naturally with other pressure passing sequences, creating a branching decision tree where the opponent's defensive reactions determine whether you complete the pass directly, transition to a knee cut, or follow their movement to a back take. This adaptability makes it a cornerstone technique for any practitioner developing a systematic half guard passing game.
 
 **From Position**: [[Positions/Half Guard]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 40%
 
 </section>
 

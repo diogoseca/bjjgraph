@@ -155,7 +155,7 @@ Competition applicability is high, particularly in gi competitions where the pos
 
 - **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** (16% of attempts)
 
-- **[[Transitions/Ghost Escape/Attacker|Ghost Escape]]** (5% of attempts)
+- **[[Transitions/Ghost Escape from Side Control/Attacker|Ghost Escape from Side Control]]** (5% of attempts)
 
 - **[[Transitions/Bridge Escape from Modified Scarf Hold/Attacker|Bridge Escape from Modified Scarf Hold]]** (4% of attempts)
 

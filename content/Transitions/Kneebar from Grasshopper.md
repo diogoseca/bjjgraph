@@ -68,7 +68,7 @@ From a systematic perspective, the Kneebar from Grasshopper functions as both a 
 The inverted nature of this entry makes it particularly effective in no-gi competition where the absence of gi grips means the top player cannot easily control your inverting motion. The technique gained prominence through modern leg lock systems that emphasize attacking from bottom positions against standing opponents, reversing traditional assumptions about who holds positional advantage.
 
 **From Position**: [[Positions/Grasshopper Guard]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 33%
 
 </section>
 

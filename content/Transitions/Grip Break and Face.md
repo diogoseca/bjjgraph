@@ -245,7 +245,7 @@ Grip Break and Face is a cornerstone escape from standing back control that fits
 
 - [[Transitions/Hip Escape to Turtle]] - Alternative escape pathway - different strategic choice from same starting position
 
-- [[Transitions/Duck Under]] - Variant technique - similar rotation mechanics with different arm relationship
+- [[Duck Under]] - Variant technique - similar rotation mechanics with different arm relationship
 
 - [[Positions/Harness]] - Control configuration - the grip you must defeat to execute this escape
 

@@ -70,7 +70,7 @@ The entry is fundamentally a baiting and timing exchange. A skilled passer wants
 Because it trades the relative safety of a framed half guard for a committed, dynamic position, the entry carries real risk: if the underhook is lost or the timing is early, the passer can flatten the bottom player completely and finish the pass to side control. Executed against forward pressure with a tight underhook and tucked chin, however, it is one of the most reliable ways for a modern no-gi guard player to turn a losing flattened half guard into an active offensive scramble.
 
 **From Position**: [[Positions/Half Guard]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 32%
 
 </section>
 

@@ -54,7 +54,7 @@ description: "Master the heel hook from saddle position in BJJ. Complete guide t
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Leg Lock</span>
 <span class="meta-chip">Targets Knee and ankle joint</span>
-<span class="meta-chip">50% success</span>
+<span class="meta-chip">45% success</span>
 </div>
 
 > [!danger] Safety

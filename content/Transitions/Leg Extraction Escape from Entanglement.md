@@ -66,7 +66,7 @@ The technique operates on a simple biomechanical principle: leg entanglements re
 Strategically, leg extraction escape represents the most energy-efficient defensive option from leg entanglements when the opponent has not yet advanced deep into the positional hierarchy. Compared to inversions, which require significant athletic ability and carry rotational injury risk, or boot scoot escapes that demand sustained hip movement, leg extraction relies primarily on precise hand fighting and mechanical clearing that any body type can execute. The key timing window occurs before the opponent consolidates tight hip-to-hip pressure and secures a finishing grip on the heel. Once those two conditions are met, alternative escape methods become necessary, making early recognition and immediate action critical to this escape's success.
 
 **From Position**: [[Positions/Leg Entanglement]] (Bottom)
-**Success Rate**: 45%
+**Success Rate**: 44%
 
 </section>
 

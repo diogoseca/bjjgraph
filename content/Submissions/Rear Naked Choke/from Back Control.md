@@ -54,7 +54,7 @@ description: "Master the rear naked choke from back control. Complete guide to h
 <span class="meta-chip">Choke</span>
 <span class="meta-chip">Blood Choke</span>
 <span class="meta-chip">Targets Carotid arteries and jugular veins</span>
-<span class="meta-chip">65% success</span>
+<span class="meta-chip">74% success</span>
 </div>
 
 > [!danger] Safety

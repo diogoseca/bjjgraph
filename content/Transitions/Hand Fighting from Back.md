@@ -66,7 +66,7 @@ The strategic importance of hand fighting cannot be overstated - it transforms b
 Advanced practitioners use hand fighting not merely as passive defense but as an active system that creates dilemmas for the attacking opponent. When executed with proper timing and pressure, hand fighting forces the attacker to choose between maintaining back control and pursuing submissions - a choice that creates windows for escape. This technique serves as the gateway to all other back escapes, making it essential foundational knowledge for any serious practitioner.
 
 **From Position**: [[Positions/Back Control]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 37%
 
 </section>
 

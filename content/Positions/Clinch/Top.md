@@ -38,8 +38,8 @@ description: "Master the clinch position in BJJ with comprehensive grip fighting
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Duck Under",
-      "text": "From this position, attempt Duck Under. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Duck Under from Clinch",
+      "text": "From this position, attempt Duck Under from Clinch. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {

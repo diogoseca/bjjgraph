@@ -54,7 +54,7 @@ description: "Master the toe hold from Ashi Garami leg entanglement. Complete gu
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Leg Lock</span>
 <span class="meta-chip">Targets Ankle, toes, and foot ligaments</span>
-<span class="meta-chip">60% success</span>
+<span class="meta-chip">25% success</span>
 </div>
 
 > [!danger] Safety

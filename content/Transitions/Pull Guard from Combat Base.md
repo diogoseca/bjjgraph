@@ -66,7 +66,7 @@ This transition represents a critical decision point for the bottom player. Comb
 Success requires a systematic approach: establishing controlling grips to compromise posture, using hip escapes to close distance, timing the guard closure during weight shifts or grip transitions, and immediately consolidating the closed guard position once legs are wrapped. The technique rewards patient grip fighting and precise timing over explosive athleticism, making it accessible across body types while remaining effective at the highest levels of competition.
 
 **From Position**: [[Positions/Combat Base]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 46%
 
 </section>
 

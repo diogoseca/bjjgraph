@@ -53,7 +53,7 @@ description: "Master the Ten Finger Guillotine in BJJ. Comprehensive guide cover
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Ten Finger Guillotine?", "acceptedAnswer": { "@type": "Answer", "text": "The Ten Finger Guillotine is a no-gi front-headlock choke in which both hands clasp with all ten fingers interlaced behind the opponent\u0027s neck, driving maximal carotid and tracheal compression through shoulder and lat engagement rather than arm strength." } },
-    { "@type": "Question", "name": "What positions can you finish the Ten Finger Guillotine from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Ten Finger Guillotine from Front Headlock, Guillotine Control." } },
+    { "@type": "Question", "name": "What positions can you finish the Ten Finger Guillotine from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Ten Finger Guillotine from Guillotine Control, Front Headlock." } },
     { "@type": "Question", "name": "Is the Ten Finger Guillotine dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Ten Finger Guillotine targets the Carotid arteries and trachea. Primary risk: Trachea damage from excessive crushing pressure. Tap early and release immediately on the tap." } }
   ]
 }
@@ -93,8 +93,8 @@ The submission works through a combination of blood restriction and airway compr
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Ten Finger Guillotine/from Front Headlock|Front Headlock]] | Top | 62% | [[Submissions/Ten Finger Guillotine/from Front Headlock/Attacker|Attack →]] | [[Submissions/Ten Finger Guillotine/from Front Headlock/Defender|Defend →]] |
 | [[Submissions/Ten Finger Guillotine/from Guillotine Control|Guillotine Control]] | Top | 62% | [[Submissions/Ten Finger Guillotine/from Guillotine Control/Attacker|Attack →]] | [[Submissions/Ten Finger Guillotine/from Guillotine Control/Defender|Defend →]] |
+| [[Submissions/Ten Finger Guillotine/from Front Headlock|Front Headlock]] | Top | 52% | [[Submissions/Ten Finger Guillotine/from Front Headlock/Attacker|Attack →]] | [[Submissions/Ten Finger Guillotine/from Front Headlock/Defender|Defend →]] |
 
 
 </div>
@@ -123,7 +123,6 @@ The submission works through a combination of blood restriction and airway compr
 - [[Submissions/Arm in Guillotine]] - Arm-trapped variation trading choking efficiency for control
 - [[Transitions/Anaconda Choke]] - Transition option when opponent turns into the choke
 - [[Submissions/Darce Choke]] - Transition option when opponent turns away from pressure
-- [[Submissions/Chin Strap Guillotine]] - Alternative chin-based grip guillotine finish
 - [[Submissions/Arm Triangle]] - Related head-and-arm choke from front headlock transitions
 - [[Submissions/Brabo Choke]] - Gi-based head-and-arm choke alternative from similar positions
 - [[Positions/Hindulotine]] - Advanced guillotine variation from guard position

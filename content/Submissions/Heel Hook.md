@@ -53,7 +53,7 @@ description: "Master the Heel Hook in BJJ. Complete safety-first guide covering 
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Heel Hook?", "acceptedAnswer": { "@type": "Answer", "text": "The Heel Hook is a rotational leg-lock submission that twists the heel to torque the knee and ankle ligaments simultaneously, attacked from Ashi Garami entanglements such as the saddle and 50-50, and existing in inside and outside variants." } },
-    { "@type": "Question", "name": "What positions can you finish the Heel Hook from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Heel Hook from Saddle, 50-50 Guard, Ashi Garami, Backside 50-50, Carni, Cross Ashi-Garami, Grasshopper Guard, Honey Hole, Inside Ashi-Garami, Inside Sankaku, Kneebar Control, Ushiro Ashi-Garami." } },
+    { "@type": "Question", "name": "What positions can you finish the Heel Hook from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Heel Hook from Ashi Garami, Carni, Honey Hole, Inside Ashi-Garami, Inside Sankaku, Kneebar Control, 50-50 Guard, Backside 50-50, Cross Ashi-Garami, Grasshopper Guard, Saddle, Ushiro Ashi-Garami." } },
     { "@type": "Question", "name": "Is the Heel Hook dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Heel Hook targets the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. Primary risk: ACL tear (anterior cruciate ligament rupture). Tap early and release immediately on the tap." } }
   ]
 }
@@ -98,17 +98,17 @@ Successful heel hook application demands mastery of positional control, understa
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Heel Hook/from Saddle|Saddle]] | Top | 50% | [[Submissions/Heel Hook/from Saddle/Attacker|Attack →]] | [[Submissions/Heel Hook/from Saddle/Defender|Defend →]] |
+| [[Submissions/Heel Hook/from Ashi Garami|Ashi Garami]] | Bottom | 60% | [[Submissions/Heel Hook/from Ashi Garami/Attacker|Attack →]] | [[Submissions/Heel Hook/from Ashi Garami/Defender|Defend →]] |
+| [[Submissions/Heel Hook/from Carni|Carni]] | Bottom | 60% | [[Submissions/Heel Hook/from Carni/Attacker|Attack →]] | [[Submissions/Heel Hook/from Carni/Defender|Defend →]] |
+| [[Submissions/Heel Hook/from Honey Hole|Honey Hole]] | Top | 60% | [[Submissions/Heel Hook/from Honey Hole/Attacker|Attack →]] | [[Submissions/Heel Hook/from Honey Hole/Defender|Defend →]] |
+| [[Submissions/Heel Hook/from Inside Ashi-Garami|Inside Ashi-Garami]] | Top | 60% | [[Submissions/Heel Hook/from Inside Ashi-Garami/Attacker|Attack →]] | [[Submissions/Heel Hook/from Inside Ashi-Garami/Defender|Defend →]] |
+| [[Submissions/Heel Hook/from Inside Sankaku|Inside Sankaku]] | Top | 60% | [[Submissions/Heel Hook/from Inside Sankaku/Attacker|Attack →]] | [[Submissions/Heel Hook/from Inside Sankaku/Defender|Defend →]] |
+| [[Submissions/Heel Hook/from Kneebar Control|Kneebar Control]] | Bottom | 60% | [[Submissions/Heel Hook/from Kneebar Control/Attacker|Attack →]] | [[Submissions/Heel Hook/from Kneebar Control/Defender|Defend →]] |
 | [[Submissions/Heel Hook/from 50-50 Guard|50-50 Guard]] | Top | 45% | [[Submissions/Heel Hook/from 50-50 Guard/Attacker|Attack →]] | [[Submissions/Heel Hook/from 50-50 Guard/Defender|Defend →]] |
-| [[Submissions/Heel Hook/from Ashi Garami|Ashi Garami]] | Bottom | 45% | [[Submissions/Heel Hook/from Ashi Garami/Attacker|Attack →]] | [[Submissions/Heel Hook/from Ashi Garami/Defender|Defend →]] |
 | [[Submissions/Heel Hook/from Backside 50-50|Backside 50-50]] | Bottom | 45% | [[Submissions/Heel Hook/from Backside 50-50/Attacker|Attack →]] | [[Submissions/Heel Hook/from Backside 50-50/Defender|Defend →]] |
-| [[Submissions/Heel Hook/from Carni|Carni]] | Bottom | 45% | [[Submissions/Heel Hook/from Carni/Attacker|Attack →]] | [[Submissions/Heel Hook/from Carni/Defender|Defend →]] |
 | [[Submissions/Heel Hook/from Cross Ashi-Garami|Cross Ashi-Garami]] | Top | 45% | [[Submissions/Heel Hook/from Cross Ashi-Garami/Attacker|Attack →]] | [[Submissions/Heel Hook/from Cross Ashi-Garami/Defender|Defend →]] |
 | [[Submissions/Heel Hook/from Grasshopper Guard|Grasshopper Guard]] | Bottom | 45% | [[Submissions/Heel Hook/from Grasshopper Guard/Attacker|Attack →]] | [[Submissions/Heel Hook/from Grasshopper Guard/Defender|Defend →]] |
-| [[Submissions/Heel Hook/from Honey Hole|Honey Hole]] | Top | 45% | [[Submissions/Heel Hook/from Honey Hole/Attacker|Attack →]] | [[Submissions/Heel Hook/from Honey Hole/Defender|Defend →]] |
-| [[Submissions/Heel Hook/from Inside Ashi-Garami|Inside Ashi-Garami]] | Top | 45% | [[Submissions/Heel Hook/from Inside Ashi-Garami/Attacker|Attack →]] | [[Submissions/Heel Hook/from Inside Ashi-Garami/Defender|Defend →]] |
-| [[Submissions/Heel Hook/from Inside Sankaku|Inside Sankaku]] | Top | 45% | [[Submissions/Heel Hook/from Inside Sankaku/Attacker|Attack →]] | [[Submissions/Heel Hook/from Inside Sankaku/Defender|Defend →]] |
-| [[Submissions/Heel Hook/from Kneebar Control|Kneebar Control]] | Bottom | 45% | [[Submissions/Heel Hook/from Kneebar Control/Attacker|Attack →]] | [[Submissions/Heel Hook/from Kneebar Control/Defender|Defend →]] |
+| [[Submissions/Heel Hook/from Saddle|Saddle]] | Top | 45% | [[Submissions/Heel Hook/from Saddle/Attacker|Attack →]] | [[Submissions/Heel Hook/from Saddle/Defender|Defend →]] |
 | [[Submissions/Heel Hook/from Ushiro Ashi|Ushiro Ashi-Garami]] | Top | 45% | [[Submissions/Heel Hook/from Ushiro Ashi/Attacker|Attack →]] | [[Submissions/Heel Hook/from Ushiro Ashi/Defender|Defend →]] |
 
 

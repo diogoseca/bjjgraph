@@ -66,7 +66,7 @@ Strategically, this transition is most valuable when the top player bases wide t
 The biomechanical foundation of this entry relies on using your existing underhook as a steering mechanism while your hips drop and rotate to slide beneath the opponent's hips. Your trapped leg becomes an asset rather than a liability, as it provides the initial connection point that you convert into deep half control. Mastery of this transition significantly expands your half guard escape options, making you unpredictable and difficult to pin.
 
 **From Position**: [[Positions/Jailbreak]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 33%
 
 </section>
 

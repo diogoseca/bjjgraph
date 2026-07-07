@@ -54,7 +54,7 @@ description: "Master the Bow and Arrow Choke from Harness position in BJJ. Learn
 <span class="meta-chip">Choke</span>
 <span class="meta-chip">Blood Choke</span>
 <span class="meta-chip">Targets Carotid arteries</span>
-<span class="meta-chip">62% success</span>
+<span class="meta-chip">10% success</span>
 </div>
 
 > [!danger] Safety

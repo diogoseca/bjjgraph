@@ -62,7 +62,7 @@ description: "Master the Turtle to Truck transition in BJJ. Step-by-step executi
 The transition to Truck is a fundamental movement within the 10th Planet Jiu-Jitsu system and modern no-gi grappling. When an opponent assumes the turtle position, the Truck offers a devastating alternative to traditional back takes, providing access to the Twister submission, various calf slicers, and back control options. The Truck position involves controlling the opponent's leg while maintaining a specific body configuration that creates the signature "truck" shape - hence the name. This transition is particularly effective because it exploits the turtle position's inherent vulnerability to leg attacks while the opponent focuses on defending their neck and preventing traditional back takes. The Truck serves as a gateway position within the larger Twister system, allowing the attacker to create multiple submission threats simultaneously. What makes this transition especially valuable is its ability to bypass traditional back defense protocols, as most practitioners are conditioned to defend against seat belt control rather than leg-based attacks from turtle. The success of this transition relies on timing, understanding weight distribution, and the ability to coordinate upper and lower body control simultaneously.
 
 **From Position**: [[Positions/Turtle]] (Top)
-**Success Rate**: 60%
+**Success Rate**: 46%
 
 </section>
 

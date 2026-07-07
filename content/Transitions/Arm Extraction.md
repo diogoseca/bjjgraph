@@ -66,7 +66,7 @@ The Arm Extraction serves as a critical gateway technique connecting bottom side
 This escape is particularly effective against pressure-based top players who prioritize chest pressure over weight distribution. The technique's success depends on proper frame placement, shoulder rotation mechanics, and the ability to maintain defensive posture throughout the extraction sequence. Mastery of arm extraction fundamentally improves survival rates under side control and provides essential defensive foundations for all skill levels.
 
 **From Position**: [[Positions/Side Control]] (Bottom)
-**Success Rate**: 68%
+**Success Rate**: 40%
 
 </section>
 
@@ -245,7 +245,7 @@ Arm extraction serves as a critical defensive connector in the BJJ positional hi
 
 - [[Transitions/Bridge and Roll]] - Alternative escape option particularly effective when arm extraction is countered by increased pressure
 
-- [[Transitions/Ghost Escape]] - Advanced alternative escape pathway from side control using different mechanics
+- [[Ghost Escape]] - Advanced alternative escape pathway from side control using different mechanics
 
 - [[Positions/Half Guard/Knee Shield Half Guard]] - Common follow-up guard position after successful arm extraction
 

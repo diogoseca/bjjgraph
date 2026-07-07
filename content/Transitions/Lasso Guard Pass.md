@@ -66,7 +66,7 @@ The pass requires a combination of precise grip control, posture management, and
 This technique integrates principles of base maintenance, pressure passing, and tactical grip fighting to achieve dominant top position. The key insight is that the lasso creates a lever system through the trapped arm, and the passer must change the angle of that lever rather than fighting it directly. By stepping outside the lasso leg and rotating the shoulder, the passer converts a strong control into a weak one before completing the pass to side control.
 
 **From Position**: [[Positions/Lasso Guard]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 46%
 
 </section>
 

@@ -66,7 +66,7 @@ The strategic value of this transition embodies the fundamental BJJ principle of
 The transition demands precise timing during the grip exchange window—the brief moment where the attacker releases the anaconda configuration and must immediately establish seatbelt control before the defender can turn to face them. This window typically lasts less than two seconds, and mastery of this timing separates practitioners who systematically advance from front headlock positions from those who become stuck chasing a single submission against competent defenders.
 
 **From Position**: [[Positions/Anaconda Control]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 46%
 
 </section>
 

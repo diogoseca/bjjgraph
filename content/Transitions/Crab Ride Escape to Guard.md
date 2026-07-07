@@ -66,7 +66,7 @@ Strategically, this escape occupies a critical junction in the turtle defense de
 The technique is particularly valuable against opponents who employ patient crab ride control rather than rushing for the back take. When the top player focuses on maintaining hooks and pressure rather than immediately completing the back take, the bottom player has windows to address each control point individually. Understanding when to initiate each phase - particularly recognizing weight shifts and grip changes from the top player - transforms this from a brute-force escape into a technical, high-percentage guard recovery that can be executed even against larger, stronger opponents.
 
 **From Position**: [[Positions/Crab Ride]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 40%
 
 </section>
 

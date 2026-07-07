@@ -91,7 +91,7 @@ The Monoplata is an advanced shoulder lock submission that combines elements of 
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Monoplata/from Guard|Closed Guard]] | Bottom | 48% | [[Submissions/Monoplata/from Guard/Attacker|Attack →]] | [[Submissions/Monoplata/from Guard/Defender|Defend →]] |
+| [[Submissions/Monoplata/from Guard|Closed Guard]] | Bottom | 52% | [[Submissions/Monoplata/from Guard/Attacker|Attack →]] | [[Submissions/Monoplata/from Guard/Defender|Defend →]] |
 | [[Submissions/Monoplata/from Mount|Mount]] | Top | 48% | [[Submissions/Monoplata/from Mount/Attacker|Attack →]] | [[Submissions/Monoplata/from Mount/Defender|Defend →]] |
 
 

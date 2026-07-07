@@ -66,7 +66,7 @@ The biomechanical foundation of this escape relies on timing the roll precisely 
 Direction matters as much as timing: the roll is driven diagonally toward the underhook side at roughly 45 degrees so the attacker cannot simply track the rotation and re-take the back. Throughout the movement the defender maintains a death grip on the controlled arm, which doubles as both choke insurance and the anchor that pulls the opponent into the recovered guard. Upon completion the defender enters the closed guard or an open-guard frame, where the offensive sweep-and-submission game becomes available.
 
 **From Position**: [[Positions/Harness]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 29%
 
 </section>
 

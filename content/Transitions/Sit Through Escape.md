@@ -66,7 +66,7 @@ The escape works by combining a strategic weight shift with explosive hip rotati
 Strategically, the Sit Through Escape represents a high-percentage option when the opponent has established only the initial hook and has not yet secured deep upper body control. It is particularly effective against opponents who over-commit to the hooking leg or who extend too far forward in pursuit of back control. The escape transitions naturally into various open guard variations and can be chained with technical stand-ups when the opponent's reaction creates additional space.
 
 **From Position**: [[Positions/Crab Ride]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 36%
 
 </section>
 

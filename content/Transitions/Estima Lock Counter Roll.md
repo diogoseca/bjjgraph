@@ -66,7 +66,7 @@ The counter roll functions by aligning body rotation with the lock's pressure ve
 Success with the Estima Lock Counter Roll depends on three factors: early recognition of the lock before it tightens beyond the escape window, proper directional commitment in the roll to avoid increasing ankle torque, and immediate positional control upon completing the rotation. When executed correctly, the roll sweeps past the attacker's base and lands the practitioner in half guard top, completely reversing the positional dynamic. Failed attempts typically result from late timing, incorrect roll direction, or insufficient hip engagement, leaving the practitioner in the same or worse leg entanglement. The technique carries inherent risk—rolling while caught in an active submission demands trust in mechanical understanding and split-second decision-making.
 
 **From Position**: [[Positions/Estima Lock Control]] (Bottom)
-**Success Rate**: 50%
+**Success Rate**: 32%
 
 </section>
 

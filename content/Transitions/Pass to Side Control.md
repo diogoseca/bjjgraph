@@ -66,7 +66,7 @@ The fundamental challenge of this pass is extracting your legs from the symmetri
 This transition exemplifies the principle that positional dominance sometimes outweighs submission hunting. Against defensive opponents who excel at heel protection, repeatedly attacking leg locks may waste energy with diminishing returns. Recognizing when to abandon the entanglement and advance position separates intermediate practitioners from advanced ones. The 3 points earned for the pass often proves more valuable than continued position-neutral leg lock exchanges.
 
 **From Position**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 49%
 
 </section>
 

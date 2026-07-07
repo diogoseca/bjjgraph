@@ -54,7 +54,7 @@ description: "Master the Americana shoulder lock from mount and side control. Co
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Americana?", "acceptedAnswer": { "@type": "Answer", "text": "The Americana is a figure-four shoulder lock \u2014 also called the keylock or ude garami \u2014 that pins the opponent\u0027s bent arm at 90 degrees and externally rotates the shoulder past its range, most often finished from mount or side control." } },
-    { "@type": "Question", "name": "What positions can you finish the Americana from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Americana from High Mount, Kimura Trap, Kuzure Kesa-Gatame, Modified Mount, Modified Scarf Hold, Mount, North-South, Reverse Kesa-Gatame, Reverse Scarf Hold, S Mount, Scarf Hold Position, Shoulder of Justice, Side Control, Kesa Gatame, 3-4 Mount, Technical Mount." } },
+    { "@type": "Question", "name": "What positions can you finish the Americana from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Americana from High Mount, Kimura Trap, Modified Mount, North-South, Reverse Kesa-Gatame, Reverse Scarf Hold, S Mount, Shoulder of Justice, Kesa Gatame, Kuzure Kesa-Gatame, Modified Scarf Hold, Scarf Hold Position, Side Control, Mount, 3-4 Mount, Technical Mount." } },
     { "@type": "Question", "name": "Is the Americana dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Americana targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Tap early and release immediately on the tap." } }
   ]
 }
@@ -102,18 +102,18 @@ From a strategic perspective, the Americana exemplifies positional control befor
 |---|---|---|---|---|
 | [[Submissions/Americana/from High Mount|High Mount]] | Top | 68% | [[Submissions/Americana/from High Mount/Attacker|Attack →]] | [[Submissions/Americana/from High Mount/Defender|Defend →]] |
 | [[Submissions/Americana/from Kimura Trap|Kimura Trap]] | Top | 68% | [[Submissions/Americana/from Kimura Trap/Attacker|Attack →]] | [[Submissions/Americana/from Kimura Trap/Defender|Defend →]] |
-| [[Submissions/Americana/from Kuzure Kesa-Gatame|Kuzure Kesa-Gatame]] | Top | 68% | [[Submissions/Americana/from Kuzure Kesa-Gatame/Attacker|Attack →]] | [[Submissions/Americana/from Kuzure Kesa-Gatame/Defender|Defend →]] |
 | [[Submissions/Americana/from Modified Mount|Modified Mount]] | Top | 68% | [[Submissions/Americana/from Modified Mount/Attacker|Attack →]] | [[Submissions/Americana/from Modified Mount/Defender|Defend →]] |
-| [[Submissions/Americana/from Modified Scarf Hold|Modified Scarf Hold]] | Top | 68% | [[Submissions/Americana/from Modified Scarf Hold/Attacker|Attack →]] | [[Submissions/Americana/from Modified Scarf Hold/Defender|Defend →]] |
-| [[Submissions/Americana/from Mount|Mount]] | Top | 68% | [[Submissions/Americana/from Mount/Attacker|Attack →]] | [[Submissions/Americana/from Mount/Defender|Defend →]] |
 | [[Submissions/Americana/from North-South|North-South]] | Top | 68% | [[Submissions/Americana/from North-South/Attacker|Attack →]] | [[Submissions/Americana/from North-South/Defender|Defend →]] |
 | [[Submissions/Americana/from Reverse Kesa-Gatame|Reverse Kesa-Gatame]] | Top | 68% | [[Submissions/Americana/from Reverse Kesa-Gatame/Attacker|Attack →]] | [[Submissions/Americana/from Reverse Kesa-Gatame/Defender|Defend →]] |
 | [[Submissions/Americana/from Reverse Scarf Hold|Reverse Scarf Hold]] | Top | 68% | [[Submissions/Americana/from Reverse Scarf Hold/Attacker|Attack →]] | [[Submissions/Americana/from Reverse Scarf Hold/Defender|Defend →]] |
 | [[Submissions/Americana/from S Mount|S Mount]] | Top | 68% | [[Submissions/Americana/from S Mount/Attacker|Attack →]] | [[Submissions/Americana/from S Mount/Defender|Defend →]] |
-| [[Submissions/Americana/from Scarf Hold Position|Scarf Hold Position]] | Top | 68% | [[Submissions/Americana/from Scarf Hold Position/Attacker|Attack →]] | [[Submissions/Americana/from Scarf Hold Position/Defender|Defend →]] |
 | [[Submissions/Americana/from Shoulder of Justice|Shoulder of Justice]] | Top | 68% | [[Submissions/Americana/from Shoulder of Justice/Attacker|Attack →]] | [[Submissions/Americana/from Shoulder of Justice/Defender|Defend →]] |
-| [[Submissions/Americana/from Side Control|Side Control]] | Top | 68% | [[Submissions/Americana/from Side Control/Attacker|Attack →]] | [[Submissions/Americana/from Side Control/Defender|Defend →]] |
 | [[Submissions/Americana/from Kesa Gatame|Kesa Gatame]] | Top | 50% | [[Submissions/Americana/from Kesa Gatame/Attacker|Attack →]] | [[Submissions/Americana/from Kesa Gatame/Defender|Defend →]] |
+| [[Submissions/Americana/from Kuzure Kesa-Gatame|Kuzure Kesa-Gatame]] | Top | 50% | [[Submissions/Americana/from Kuzure Kesa-Gatame/Attacker|Attack →]] | [[Submissions/Americana/from Kuzure Kesa-Gatame/Defender|Defend →]] |
+| [[Submissions/Americana/from Modified Scarf Hold|Modified Scarf Hold]] | Top | 50% | [[Submissions/Americana/from Modified Scarf Hold/Attacker|Attack →]] | [[Submissions/Americana/from Modified Scarf Hold/Defender|Defend →]] |
+| [[Submissions/Americana/from Scarf Hold Position|Scarf Hold Position]] | Top | 50% | [[Submissions/Americana/from Scarf Hold Position/Attacker|Attack →]] | [[Submissions/Americana/from Scarf Hold Position/Defender|Defend →]] |
+| [[Submissions/Americana/from Side Control|Side Control]] | Top | 50% | [[Submissions/Americana/from Side Control/Attacker|Attack →]] | [[Submissions/Americana/from Side Control/Defender|Defend →]] |
+| [[Submissions/Americana/from Mount|Mount]] | Top | 48% | [[Submissions/Americana/from Mount/Attacker|Attack →]] | [[Submissions/Americana/from Mount/Defender|Defend →]] |
 | [[Submissions/Americana/from 3-4 Mount|3-4 Mount]] | Top | 45% | [[Submissions/Americana/from 3-4 Mount/Attacker|Attack →]] | [[Submissions/Americana/from 3-4 Mount/Defender|Defend →]] |
 | [[Submissions/Americana/from Technical Mount|Technical Mount]] | Top | 45% | [[Submissions/Americana/from Technical Mount/Attacker|Attack →]] | [[Submissions/Americana/from Technical Mount/Defender|Defend →]] |
 
@@ -150,7 +150,6 @@ From a strategic perspective, the Americana exemplifies positional control befor
 - [[Submissions/Far Side Armbar]] - Alternative arm attack; transition target when opponent straightens arm to defend Americana rotation
 - [[Submissions/Cross Collar Choke]] - Complementary gi attack from mount that forces hands to neck defense, exposing arms for Americana
 - [[Submissions/Bicep Slicer]] - Advanced compression lock targeting same limb when opponent defends traditional shoulder lock
-- [[Submissions/Gift Wrap Armbar]] - Arm isolation technique creating Americana setup opportunities from gift wrap control position
 - [[Submissions/Arm Crush]] - Alternative joint attack from side control targeting similar near-arm positioning
 - [[Submissions/Baseball Bat Choke]] - Complementary gi choke from knee on belly that chains with Americana threats in attack sequences
 - [[Positions/Mount]] - Primary attacking position - provides excellent base and control for Americana execution with chest pressure and weight distribution advantages

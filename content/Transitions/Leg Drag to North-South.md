@@ -66,7 +66,7 @@ This transition exploits a fundamental positional reality: when opponents focus 
 From a systematic perspective, the leg drag to north-south fills an essential gap in the leg drag passing system. Without this option, determined defenders can effectively stall the leg drag position by maintaining strong shoulder frames and preventing the standard consolidation pathways. Adding north-south as a tertiary option creates a complete dilemma system: defend the back take, defend the mount, or defend north-south—but defending all three simultaneously becomes mechanically impossible. This transition is particularly effective against opponents who have strong frames but less mobile hips, as it punishes static defensive structures.
 
 **From Position**: [[Positions/Leg Drag Control]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 53%
 
 </section>
 

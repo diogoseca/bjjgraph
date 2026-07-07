@@ -87,6 +87,14 @@ description: "Prevent the Hitchhiker Escape from your armbar in BJJ. Learn to re
         "@type": "Answer",
         "text": "Pinch your knees tightly together with the leg across their face driving downward into their cheek, creating friction against the arm rotation and limiting the space available for the thumb to rotate toward their head. Additionally, hooking your top foot under their far shoulder adds a control point that resists the entire rotational movement, not just the arm portion of the escape."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the earliest recognition cue that your opponent is attempting a Hitchhiker Escape?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The earliest cue is the thumb rotating outward away from their body. Before any significant body rotation occurs, the opponent must initiate the hitchhiker thumb motion to change the joint angle. Recognizing this subtle forearm rotation before the full body turn develops gives you the maximum window to counter by securing shoulder control and extending hips decisively."
+      }
     }
   ]
 }

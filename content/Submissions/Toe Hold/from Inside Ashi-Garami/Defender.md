@@ -95,6 +95,14 @@ description: "Defend against the toe hold from Inside Ashi-Garami with recogniti
         "@type": "Answer",
         "text": "After stripping or preventing the toe hold grip, immediately address the underlying Inside Ashi-Garami leg entanglement. The attacker still controls your leg and can immediately re-attack with a straight ankle lock, heel hook, or kneebar. Use the window created by the failed toe hold to extract your leg by kicking through with the free leg, pushing the attacker's hips away, or rotating your hips to create space for leg extraction. Simply defending the submission grip without addressing the position means you will face another attack within seconds."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is the toe hold particularly dangerous in terms of the gap between discomfort and structural damage, and how does this affect your tapping threshold?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The toe hold's rotational mechanism attacks the MCL and ankle ligaments through torsion rather than linear hyperextension. Rotational ligament damage can occur with minimal pain warning because the spiraling force loads multiple structures simultaneously, and ligaments under rotational stress can fail catastrophically without the gradual pain progression seen in straight joint locks. This means defenders must tap at the first sign of significant rotational pressure rather than waiting for sharp pain, because by the time sharp pain arrives, structural damage may already be occurring. Training partners should establish a conservative tapping threshold well below their actual structural limits."
+      }
     }
   ]
 }

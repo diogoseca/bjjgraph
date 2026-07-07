@@ -62,7 +62,7 @@ description: "Master the Butterfly Pass in BJJ. Complete guide to neutralizing b
 Within a pressure-passing game, the Butterfly Pass is the disciplined answer to one of BJJ's most dynamic offensive guards, where the bottom player's hooks threaten explosive sweeps, back takes, and leg-entanglement entries at every moment. Rather than trying to out-athlete the elevation, the passer wins by geometry and weight: a base wide enough that the hooks cannot find a sweeping angle, constant forward chest pressure that denies the seated posture sweeps require, and a methodical, one-hook-at-a-time clearing sequence. Success depends on recognizing when butterfly hooks are vulnerable, maintaining base through strategic weight shifting, and exploiting the opponent's defensive reactions to secure crossface and underhook control on the way to side control. This systematic approach is what makes the pass repeatable against resisting opponents rather than dependent on a single explosive movement, and it serves as the foundation for the broader family of butterfly guard passing strategies.
 
 **From Position**: [[Positions/Butterfly Guard]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 36%
 
 </section>
 

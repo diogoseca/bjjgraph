@@ -50,8 +50,8 @@ description: "Defensive guide for Modified Scarf Hold bottom position. Learn sys
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Ghost Escape",
-      "text": "From this position, attempt Ghost Escape. This technique is attempted in 5% of exchanges from this position.",
+      "name": "Execute Ghost Escape from Side Control",
+      "text": "From this position, attempt Ghost Escape from Side Control. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -233,7 +233,7 @@ The psychological component cannot be overlooked. Modified Scarf Hold creates in
 
 **If pressure becomes unbearable and breathing is severely restricted:**
 - Execute **[[Transitions/Roll to Turtle/Attacker|Roll to Turtle]]** → [[Positions/Turtle]] (Probability: 60%)
-- Execute **[[Transitions/Ghost Escape/Attacker|Ghost Escape]]** → [[Positions/Standing Position]] (Probability: 25%)
+- Execute **[[Ghost Escape/Attacker|Ghost Escape]]** → [[Positions/Standing Position]] (Probability: 25%)
 
 
 

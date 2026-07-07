@@ -54,7 +54,7 @@ description: "Master the Kimura from Half Guard in BJJ. Complete guide with safe
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Shoulder Lock</span>
 <span class="meta-chip">Targets Shoulder joint and rotator cuff</span>
-<span class="meta-chip">62% success</span>
+<span class="meta-chip">22% success</span>
 </div>
 
 > [!danger] Safety

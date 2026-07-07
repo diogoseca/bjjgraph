@@ -20,14 +20,14 @@ description: "Master Standing Guard Bottom in BJJ. Defensive position with dista
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Pull guard",
-      "text": "From this position, attempt Pull guard. This technique is attempted in 37% of exchanges from this position.",
+      "name": "Execute Pull Guard from Ground",
+      "text": "From this position, attempt Pull Guard from Ground. This technique is attempted in 38% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Sitting Guard Pull",
-      "text": "From this position, attempt Sitting Guard Pull. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Sitting Guard Pull. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
@@ -219,7 +219,7 @@ Modern guard players use Standing Guard Bottom as a tactical platform for enteri
 <p class="section-subtitle">What should you do from Standing Guard (Bottom)?</p>
 
 **If opponent drives forward aggressively trying to close distance:**
-- Execute **[[Transitions/Pull guard/Attacker|Pull guard]]** → [[Positions/Closed Guard]] (Probability: 65%)
+- Execute **[[Pull guard/Attacker|Pull guard]]** → [[Positions/Closed Guard]] (Probability: 65%)
 - Execute **[[Transitions/Sitting Guard Pull/Attacker|Sitting Guard Pull]]** → [[Positions/Seated Guard]] (Probability: 55%)
 - Execute **[[Circular footwork retreat/Attacker|Circular footwork retreat]]** → [[Positions/Standing Guard]] (Probability: 70%)
 
@@ -227,7 +227,7 @@ Modern guard players use Standing Guard Bottom as a tactical platform for enteri
 **If opponent establishes collar and sleeve grips in gi:**
 - Execute **[[Transitions/Grip Break/Attacker|Grip Break]]** → [[Positions/Standing Guard]] (Probability: 60%)
 - Execute **[[Transitions/Collar Drag/Attacker|Collar Drag]]** → [[Positions/Back Control]] (Probability: 45%)
-- Execute **[[Transitions/Pull guard/Attacker|Pull guard]]** → [[Positions/Closed Guard]] (Probability: 70%)
+- Execute **[[Pull guard/Attacker|Pull guard]]** → [[Positions/Closed Guard]] (Probability: 70%)
 
 
 **If opponent shoots for single or double leg takedown:**
@@ -239,7 +239,7 @@ Modern guard players use Standing Guard Bottom as a tactical platform for enteri
 **If opponent attempts snap-down or front headlock control:**
 - Execute **[[Posture Up/Attacker|Posture Up]]** → [[Positions/Standing Guard]] (Probability: 65%)
 - Execute **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 45%)
-- Execute **[[Transitions/Pull guard/Attacker|Pull guard]]** → [[Positions/Closed Guard]] (Probability: 60%)
+- Execute **[[Pull guard/Attacker|Pull guard]]** → [[Positions/Closed Guard]] (Probability: 60%)
 
 
 **If opponent is passive or maintaining distance defensively:**
@@ -369,7 +369,7 @@ Start standing with grips engaged. Bottom player must successfully pull guard to
 - **[[Positions/Combat Base]]** - Related standing defensive posture concept
 - **[[Positions/Butterfly Guard]]** - Common guard type accessed from sitting pull
 - **[[Positions/De La Riva Guard]]** - Advanced guard entry from standing
-- **[[Transitions/Pull guard]]** - Primary transition technique from this position
+- **[[Pull guard]]** - Primary transition technique from this position
 - **[[Transitions/Sitting Guard Pull]]** - Essential transition to seated guard positions
 - **[[Positions/Front Headlock]]** - Position to achieve after successful snap-down
 

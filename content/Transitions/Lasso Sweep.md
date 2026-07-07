@@ -66,7 +66,7 @@ The technique exploits a core vulnerability inherent to lasso guard: the trapped
 Strategically, the Lasso Sweep serves as a constant background threat that shapes the entire lasso guard interaction. The top player must always respect the sweep possibility, which restricts their movement options and creates openings for complementary attacks. When the opponent adjusts their base to defend the sweep, they often expose themselves to triangle entries, omoplata setups, or other sweep variations. This makes the Lasso Sweep not just a standalone technique but a central piece in the lasso guard attacking system.
 
 **From Position**: [[Positions/Lasso Guard]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 12%
 
 </section>
 

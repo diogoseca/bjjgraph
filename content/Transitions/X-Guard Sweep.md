@@ -66,7 +66,7 @@ The X-Guard Sweep serves as a cornerstone technique within the broader X-Guard a
 Strategically, the X-Guard Sweep creates a powerful dilemma for the standing opponent. If they maintain an upright posture, the elevation sweep is available. If they lower their base to defend, transitions to Single Leg X or leg entanglements open up. If they attempt to step back, the sweeper can follow with inversions or deep half entries. This branching threat tree makes X-Guard one of the most tactically rich sweeping positions in modern grappling.
 
 **From Position**: [[Positions/X-Guard]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 44%
 
 </section>
 

@@ -95,7 +95,7 @@ The technique is especially valuable in no-gi contexts where maintaining traditi
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Kesa Gatame Arm Crush/from Kesa Gatame|Kesa Gatame]] | Top | 45% | [[Submissions/Kesa Gatame Arm Crush/from Kesa Gatame/Attacker|Attack →]] | [[Submissions/Kesa Gatame Arm Crush/from Kesa Gatame/Defender|Defend →]] |
+| [[Submissions/Kesa Gatame Arm Crush/from Kesa Gatame|Kesa Gatame]] | Top | 50% | [[Submissions/Kesa Gatame Arm Crush/from Kesa Gatame/Attacker|Attack →]] | [[Submissions/Kesa Gatame Arm Crush/from Kesa Gatame/Defender|Defend →]] |
 
 
 </div>

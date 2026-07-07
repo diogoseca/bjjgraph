@@ -66,7 +66,7 @@ The key mechanical distinction is the shift from bilateral to unilateral pressur
 This transition is particularly valuable because it converts a position with limited direct submission threat (standard turtle top) into one with immediate access to clock chokes, crucifix entries, crab ride transitions, and systematic back takes. The transition requires sensitivity to opponent weight distribution and timing—entering too early before establishing initial control risks the opponent creating a scramble, while waiting too long allows them to solidify their defensive turtle and begin their own escape sequences.
 
 **From Position**: [[Positions/Turtle]] (Top)
-**Success Rate**: 60%
+**Success Rate**: 46%
 
 </section>
 

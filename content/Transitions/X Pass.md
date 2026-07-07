@@ -64,7 +64,7 @@ Within modern pressure-passing systems, the X Pass earned its place as the dedic
 The X Pass exemplifies modern pressure passing principles by combining forward pressure with lateral movement, creating a dilemma where the opponent must choose between maintaining their guard structure or preventing the pass. The angular drive across the opponent's body is what separates this pass from linear pressure passes: rather than pushing straight through the guard, the passer drives diagonally from the opponent's near shoulder toward their far hip, collapsing defensive frames from an angle they were not designed to resist. When executed with proper timing and pressure application, the X Pass becomes a cornerstone technique for any guard passing system, seamlessly transitioning into dominant side control.
 
 **From Position**: [[Positions/Half Guard]] (Top)
-**Success Rate**: 65%
+**Success Rate**: 42%
 
 </section>
 

@@ -21,37 +21,37 @@ description: "Master Standing Rear Clinch in BJJ. Dominant back control from sta
     {
       "@type": "HowToStep",
       "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Back Take. This technique is attempted in 17% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Body Lock Pass",
-      "text": "From this position, attempt Body Lock Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Body Lock Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Mat Return to Back Mount",
-      "text": "From this position, attempt Mat Return to Back Mount. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Mat Return to Back Mount. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Double Leg Finish",
-      "text": "From this position, attempt Double Leg Finish. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Double Leg Finish. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Mat Return from Rear Clinch",
-      "text": "From this position, attempt Mat Return from Rear Clinch. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Mat Return from Standing Rear Clinch",
+      "text": "From this position, attempt Mat Return from Standing Rear Clinch. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -351,7 +351,7 @@ Bottom person moves aggressively in all directions (forward, backward, spinning,
 - **[[Positions/Back Control/Seat Belt Control Back]]** - Ground-based version of similar control structure with comparable grip hierarchy
 - **[[Positions/Front Headlock]]** - Alternative standing control if opponent drops level or you execute snap down
 - **[[Positions/Side Control]]** - Common destination via bodylock pass when opponent sits to guard
-- **[[Transitions/Mat Return from Rear Clinch]]** - Primary takedown transition for converting rear clinch to ground back control
+- **[[Mat Return from Rear Clinch]]** - Primary takedown transition for converting rear clinch to ground back control
 - **[[Transitions/Rear Clinch to Body Lock]]** - Grip transition technique for converting seatbelt to bodylock control
 - **[[Transitions/Standing Switch from Rear Clinch]]** - Primary escape reversal that must be anticipated and countered from this position
 

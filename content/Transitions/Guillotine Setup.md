@@ -64,7 +64,7 @@ The Guillotine Setup represents one of the most fundamental and highest-percenta
 What makes this setup particularly valuable is its versatility across multiple contexts—it can be executed from standing exchanges, scrambles, failed takedown attempts, or ground transitions, making it an essential tool for practitioners at all levels. The guillotine setup embodies the principle of capitalizing on opponent mistakes, as it most commonly presents itself when an opponent shoots for a takedown, turtles defensively, or attempts to pass guard with poor posture. Understanding the nuances of grip configuration, head positioning, and hip placement during the setup phase dramatically increases the success rate of the subsequent choke, as a properly established guillotine is extraordinarily difficult to defend once locked in place.
 
 **From Position**: [[Positions/Front Headlock]] (Top)
-**Success Rate**: 60%
+**Success Rate**: 37%
 
 </section>
 
@@ -262,7 +262,7 @@ The guillotine setup occupies a critical junction point in the BJJ positional hi
 
 - [[Transitions/Front Headlock to Back]] - Alternative positional advancement from same control
 
-- [[Submissions/Chin Strap Guillotine]] - Submission variation with chin strap grip
+- [[Chin Strap Guillotine]] - Submission variation with chin strap grip
 
 
 </section>

@@ -54,7 +54,7 @@ description: "Master the Armbar from Back Control in BJJ. Complete safety guide 
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Arm Lock</span>
 <span class="meta-chip">Targets Elbow joint</span>
-<span class="meta-chip">60% success</span>
+<span class="meta-chip">29% success</span>
 </div>
 
 > [!danger] Safety
@@ -256,7 +256,6 @@ The Armbar from Back Control represents one of the most devastating finishing se
 - [[Submissions/Belly Down Armbar]]
 - [[Submissions/Rear Triangle Choke]]
 - [[Submissions/Bow and Arrow Choke]]
-- [[Submissions/Gift Wrap Armbar]]
 - [[Transitions/Armbar from Crucifix]]
 - [[Submissions/Kimura]]
 - [[Submissions/Choke from Crucifix]]

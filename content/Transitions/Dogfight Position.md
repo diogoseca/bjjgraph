@@ -66,7 +66,7 @@ The technique represents a fundamental bridge between defensive guard recovery a
 Strategically, the dogfight is particularly valuable against heavy passers who rely on grinding pressure. By coming up rather than staying flat, you deny their preferred passing mechanics and force them into a scramble they may be less comfortable with. Success requires excellent timing, strong underhook fighting skills, and the ability to chain multiple wrestling-based attacks from the kneeling position.
 
 **From Position**: [[Positions/Leg Weave]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 37%
 
 </section>
 

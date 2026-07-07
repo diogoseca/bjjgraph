@@ -66,7 +66,7 @@ This escape capitalizes on the geometric reality that the gogoplata's effectiven
 Strategically, the Angle Change Escape serves as a medium-resistance pathway between emergency explosive escapes and systematic technical extraction. It provides a reliable option when the defender has time to work methodically but faces a competent bottom player who maintains hip elevation and foot-behind-head control. The escape naturally transitions to half guard when successful, providing the defender an opportunity to recover and reset rather than remaining in immediate submission danger.
 
 **From Position**: [[Positions/Gogoplata Control]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 48%
 
 </section>
 

@@ -66,7 +66,7 @@ The technique demands precise timing and full commitment. Initiating the escape 
 Strategically, the hitchhiker escape integrates into a layered armbar defense system. It works best when combined with initial hand-clasping defense and stacking attempts that force the opponent to readjust. When those primary defenses are exhausted, the hitchhiker provides a secondary escape route that can catch even experienced armbar attackers off guard. The escape typically recovers to open guard or turtle position, requiring immediate follow-up guard recovery to prevent the opponent from re-establishing dominant position.
 
 **From Position**: [[Positions/Armbar Control]] (Bottom)
-**Success Rate**: 40%
+**Success Rate**: 34%
 
 </section>
 

@@ -54,7 +54,7 @@ description: "Master the toe hold from kneebar control in BJJ. Learn grip transi
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Leg Lock</span>
 <span class="meta-chip">Targets Ankle, toes, and foot ligaments</span>
-<span class="meta-chip">60% success</span>
+<span class="meta-chip">31% success</span>
 </div>
 
 > [!danger] Safety

@@ -66,7 +66,7 @@ Strategically, the Kimura Sweep creates a dilemma for the opponent: defend the K
 At higher levels, the Kimura Sweep integrates into broader attacking systems where the initial grip threat forces reactions that open pathways to back takes, hip bumps, or direct submission finishes. Understanding when to commit to the sweep versus when to maintain grip pressure for other attacks distinguishes intermediate from advanced practitioners.
 
 **From Position**: [[Positions/Closed Guard]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 39%
 
 </section>
 

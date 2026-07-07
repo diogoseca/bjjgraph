@@ -66,7 +66,7 @@ This transition exploits the defender's compromised hip mobility when one arm is
 Strategically, this transition is particularly valuable when rear naked choke attempts have been defended or when the opponent demonstrates excellent hand fighting ability. By advancing to technical mount with the Gift Wrap intact, the attacker gains access to mounted submission chains including the mounted triangle, armbar transitions, and collar attacks in gi competition. The technical mount position also eliminates the footlock danger present in standard back control, making it a safer advancement path against leg attack specialists.
 
 **From Position**: [[Positions/Gift Wrap]] (Top)
-**Success Rate**: 62%
+**Success Rate**: 58%
 
 </section>
 

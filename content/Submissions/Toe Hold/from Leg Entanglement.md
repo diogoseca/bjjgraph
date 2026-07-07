@@ -54,7 +54,7 @@ description: "Master the toe hold from leg entanglement positions in BJJ. Expert
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Leg Lock</span>
 <span class="meta-chip">Targets Ankle, toes, and foot ligaments</span>
-<span class="meta-chip">60% success</span>
+<span class="meta-chip">29% success</span>
 </div>
 
 > [!danger] Safety

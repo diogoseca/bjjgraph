@@ -66,7 +66,7 @@ The effectiveness of this transition lies in its seamless flow from control to s
 This transition is fundamental to modern no-gi grappling and represents a cornerstone of systematic front headlock attack systems. It combines well with other front headlock finishes, creating a web of attacks that force opponents into submission dilemmas. The Darce entry from front headlock is a Type B submission setup: it leads to Darce Control, a distinct control position where the choke is then finished as a separate sequence. Mastery of this technique provides both a high-percentage path to a finishing position and a powerful platform from which to chain multiple submission attempts.
 
 **From Position**: [[Positions/Front Headlock]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 44%
 
 </section>
 

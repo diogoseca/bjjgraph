@@ -66,7 +66,7 @@ From the Hindulotine bottom position, the practitioner establishes butterfly hoo
 The strategic brilliance of this combination lies in its offensive layering. The opponent faces a no-win scenario: defending the sweep by posting wide opens the guillotine finish, while driving forward to escape the choke enables the sweep. This dilemma-based approach represents modern submission grappling at its highest level, where every defensive action opens a new offensive opportunity.
 
 **From Position**: [[Positions/Hindulotine]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 44%
 
 </section>
 

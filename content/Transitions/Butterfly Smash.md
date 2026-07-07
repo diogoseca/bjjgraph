@@ -66,7 +66,7 @@ The technique emphasizes pressure over speed, making it highly effective against
 Understanding the mechanics of hip pressure, shoulder positioning, and incremental advances makes this pass a cornerstone of any pressure-based passing system. It chains naturally with knee slice passes, body lock passes, and long step passes, providing a complete toolkit against butterfly guard. When the bottom player defends by transitioning to half guard, the passer is already in an advantageous position to continue passing with appropriate follow-up techniques.
 
 **From Position**: [[Positions/Butterfly Guard]] (Top)
-**Success Rate**: 68%
+**Success Rate**: 39%
 
 </section>
 

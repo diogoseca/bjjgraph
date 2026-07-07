@@ -91,7 +91,7 @@ Named after its innovator Tarik Hopstock, who showcased it across modern no-gi c
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Tarikoplata/from Closed Guard|Closed Guard]] | Bottom | 45% | [[Submissions/Tarikoplata/from Closed Guard/Attacker|Attack →]] | [[Submissions/Tarikoplata/from Closed Guard/Defender|Defend →]] |
+| [[Submissions/Tarikoplata/from Closed Guard|Closed Guard]] | Bottom | 65% | [[Submissions/Tarikoplata/from Closed Guard/Attacker|Attack →]] | [[Submissions/Tarikoplata/from Closed Guard/Defender|Defend →]] |
 
 
 </div>

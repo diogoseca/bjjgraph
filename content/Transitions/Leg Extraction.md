@@ -66,7 +66,7 @@ The escape mechanics center on three interconnected elements: counter-rotating t
 Strategically, Leg Extraction serves as the primary bailout when caught in Estima Lock scenarios during guard passing or leg entanglement exchanges. The technique integrates into broader defensive leg lock systems, connecting to guard recovery sequences and providing a foundation for understanding other leg entanglement escapes. Mastery of this escape significantly reduces the danger of engaging in modern leg lock exchanges where Estima Lock threats are common.
 
 **From Position**: [[Positions/Estima Lock Control]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 46%
 
 </section>
 

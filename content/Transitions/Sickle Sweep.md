@@ -66,7 +66,7 @@ This sweep is particularly effective against opponents who are standing or have 
 The Sickle Sweep serves as a cornerstone technique in modern De La Riva Guard systems and chains naturally with other attacks including back takes, leg entanglements, and submission attempts. Understanding this sweep provides essential insight into how the De La Riva hook functions as an offensive weapon rather than just a defensive control mechanism.
 
 **From Position**: [[Positions/De La Riva Guard]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 28%
 
 </section>
 

@@ -66,7 +66,7 @@ What makes the Scissor Sweep particularly effective is its reliance on timing an
 The Scissor Sweep integrates seamlessly into the closed guard attack system, working in combination with other sweeps like the Hip Bump and Pendulum Sweep. When opponents defend one sweep, they often create the opening for another, establishing a systematic approach to attacking from guard. Mastering this technique provides practitioners with a cornerstone skill that remains effective throughout their BJJ journey.
 
 **From Position**: [[Positions/Closed Guard]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 23%
 
 </section>
 

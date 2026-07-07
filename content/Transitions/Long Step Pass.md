@@ -66,7 +66,7 @@ The Long Step Pass exemplifies the principle of pressure over speed, using super
 What makes the Long Step Pass particularly effective at the purple and brown belt level is its ability to shut down sophisticated guard retention sequences. The combination of grip control, strategic stepping, and pressure application forces the bottom player into increasingly defensive positions until the pass is complete. The pass also creates a natural chain with other techniques - if the initial long step is defended, the passer can immediately transition to knee slice, leg drag, or smash pass variations without losing positional pressure.
 
 **From Position**: [[Positions/Open Guard]] (Top)
-**Success Rate**: 68%
+**Success Rate**: 46%
 
 </section>
 

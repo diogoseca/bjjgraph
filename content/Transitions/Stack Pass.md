@@ -66,7 +66,7 @@ This pass is particularly effective against opponents who rely on active hip mov
 When executed properly, the Stack Pass transitions seamlessly into dominant side control or mount positions. It serves as both a standalone technique and a pressure tool within larger passing systems, forcing defensive reactions that open complementary passes like knee slice, toreando, and leg drag. The stack pass remains one of the highest-percentage pressure passes at all competitive levels due to the overwhelming mechanical advantage it creates.
 
 **From Position**: [[Positions/Closed Guard]] (Top)
-**Success Rate**: 62%
+**Success Rate**: 51%
 
 </section>
 

@@ -93,6 +93,14 @@ description: "How to defend against Deep Half Entry in BJJ. Recognition cues, de
         "@type": "Answer",
         "text": "Against a known deep half player, maintain a wider base from the start in half guard top. Keep your free leg posted further from your body than normal, lowering your center of gravity. Apply constant crossface pressure to limit their ability to create space. Keep your hips heavy and avoid being drawn into forward-pressure passing that feeds their entry. Consider using a backstep passing approach that takes your near leg further from their reach rather than driving it forward into their underhook range."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the earliest recognition cue that a Deep Half Entry is being attempted?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The earliest cue is the bottom player executing a sharp hip escape that creates a diagonal angle rather than remaining square underneath you. This hip escape creates the entry pathway and is the foundational movement of the entire entry sequence. Recognizing this angle creation before the head threading begins gives you maximum time to apply defensive measures and shut down the entry."
+      }
     }
   ]
 }

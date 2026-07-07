@@ -66,7 +66,7 @@ The technique operates on a powerful biomechanical principle: when executed with
 Proper execution demands a precise sequence of hand placement, weight distribution, and postural maintenance that preserves defensive integrity throughout the vulnerable transition from kneeling to standing. The most critical moment occurs during the initial weight shift when one knee lifts off the mat—this is when the guard player has the greatest opportunity to disrupt balance or launch attacks. Once fully standing with staggered feet, controlled hips, and upright posture, the position becomes inherently advantageous, enabling gravity-assisted guard breaks and immediate transitions into high-percentage passing sequences like toreando, leg drag, and knee slice variations.
 
 **From Position**: [[Positions/Closed Guard]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 56%
 
 </section>
 

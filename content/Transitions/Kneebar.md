@@ -66,7 +66,7 @@ This submission capitalizes on the inherent vulnerability of the knee joint when
 The kneebar from Backside 50-50 integrates seamlessly into modern leg lock systems as a complementary attack to heel hooks and toe holds. When opponents defend heel hooks effectively by hiding their heel or rotating their knee outward, they often inadvertently straighten their leg, creating the exact configuration needed for kneebar entry. This makes the kneebar an essential tool for creating dilemmas within leg entanglement exchanges, forcing opponents to choose between exposing their heel or extending their leg.
 
 **From Position**: [[Positions/Ashi Garami/Backside 50-50]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 60%
 
 </section>
 

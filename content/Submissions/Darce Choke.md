@@ -53,7 +53,7 @@ description: "Master the Darce Choke in BJJ. Complete guide covering setup requi
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Darce Choke?", "acceptedAnswer": { "@type": "Answer", "text": "The Darce is a no-gi arm-triangle blood choke that threads one arm under the opponent\u0027s near armpit and across their neck, then closes a figure-four to compress both carotids using their own trapped shoulder." } },
-    { "@type": "Question", "name": "What positions can you finish the Darce Choke from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Darce Choke from Darce Control, Overhook Control, Twister Side Control, Leg Drag Control." } },
+    { "@type": "Question", "name": "What positions can you finish the Darce Choke from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Darce Choke from Darce Control, Overhook Control, Leg Drag Control, Twister Side Control." } },
     { "@type": "Question", "name": "Is the Darce Choke dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Darce Choke targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to unconsciousness. Tap early and release immediately on the tap." } }
   ]
 }
@@ -98,8 +98,8 @@ The Darce's effectiveness stems from its applicability across multiple positions
 |---|---|---|---|---|
 | [[Submissions/Darce Choke/from Darce Control|Darce Control]] | Top | 62% | [[Submissions/Darce Choke/from Darce Control/Attacker|Attack →]] | [[Submissions/Darce Choke/from Darce Control/Defender|Defend →]] |
 | [[Submissions/Darce Choke/from Overhook Control|Overhook Control]] | Top | 62% | [[Submissions/Darce Choke/from Overhook Control/Attacker|Attack →]] | [[Submissions/Darce Choke/from Overhook Control/Defender|Defend →]] |
-| [[Submissions/Darce Choke/from Twister Side Control|Twister Side Control]] | Top | 62% | [[Submissions/Darce Choke/from Twister Side Control/Attacker|Attack →]] | [[Submissions/Darce Choke/from Twister Side Control/Defender|Defend →]] |
 | [[Submissions/Darce Choke/from Leg Drag|Leg Drag Control]] | Top | 45% | [[Submissions/Darce Choke/from Leg Drag/Attacker|Attack →]] | [[Submissions/Darce Choke/from Leg Drag/Defender|Defend →]] |
+| [[Submissions/Darce Choke/from Twister Side Control|Twister Side Control]] | Top | 40% | [[Submissions/Darce Choke/from Twister Side Control/Attacker|Attack →]] | [[Submissions/Darce Choke/from Twister Side Control/Defender|Defend →]] |
 
 
 </div>

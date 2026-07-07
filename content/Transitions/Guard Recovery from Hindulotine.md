@@ -64,7 +64,7 @@ When the rotational choking pressure of a Hindulotine fails to produce a submiss
 The Hindulotine's unique rotational mechanics create a recovery challenge that does not exist with standard guillotine control. Because the bottom player's hips are angled and partially turned away from the opponent, there is a structural vulnerability on the exposed back side that must be addressed before any guard recomposition can succeed. The recovery follows a specific sequence: protect the exposed flank with a knee shield, convert the choking grip to a transitional control, rotate the hips to face the opponent, and then build the open guard structure with coordinated leg and grip placement. Skipping any step in this sequence dramatically increases the probability of the opponent advancing to side control or taking the back.
 
 **From Position**: [[Positions/Hindulotine]] (Bottom)
-**Success Rate**: 40%
+**Success Rate**: 50%
 
 </section>
 

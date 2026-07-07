@@ -66,7 +66,7 @@ This technique serves as a cornerstone of modern half guard systems, providing a
 This sweep integrates seamlessly with other half guard attacks, forming part of a comprehensive sweeping system that keeps opponents defensive and hesitant to engage. When the opponent defends the lumberjack sweep, they expose themselves to deep half entries, kimura attacks on posted arms, and back takes through the dogfight position, making the sweep threat valuable even when not completed.
 
 **From Position**: [[Positions/Half Guard]] (Bottom)
-**Success Rate**: 60%
+**Success Rate**: 29%
 
 </section>
 
@@ -256,7 +256,7 @@ The lumberjack sweep is a cornerstone technique of modern half guard bottom syst
 
 - [[Positions/Butterfly Guard]] - Recovery option if opponent extracts leg during sweep attempt
 
-- [[Transitions/Deep Half Entry from Half Guard]] - Chain transition when crossface prevents sweep completion
+- [[Deep Half Entry from Half Guard]] - Chain transition when crossface prevents sweep completion
 
 
 </section>

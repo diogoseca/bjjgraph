@@ -66,7 +66,7 @@ The transition is particularly effective because it capitalizes on the opponent'
 This transition has become a staple in modern no-gi grappling and MMA, where the absence of gi grips makes the front headlock position even more dominant. The anaconda's versatility allows it to be applied from various front headlock configurations, including standing snapdowns, failed takedown attempts, and turtle attacks. Mastering this transition provides practitioners with a reliable path from control to submission that works across all levels of competition.
 
 **From Position**: [[Positions/Front Headlock]] (Top)
-**Success Rate**: 59%
+**Success Rate**: 42%
 
 </section>
 

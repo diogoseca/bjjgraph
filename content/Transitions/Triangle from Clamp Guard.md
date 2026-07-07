@@ -66,7 +66,7 @@ This technique is classified as a submission setup rather than a direct finish b
 Strategically, the Triangle from Clamp Guard creates a powerful dilemma within the clamp guard attack system. If the opponent keeps their arm still to prevent the triangle, the armbar from clamp guard becomes increasingly available as the clamp deepens. If they move their arm to escape the clamp, the triangle window opens. This offensive fork forces the opponent to choose between two deteriorating options, which is the hallmark of effective guard play at the purple belt level and above. Advanced practitioners never telegraph the triangle — they maintain clamp pressure and react to the opponent's extraction direction, allowing the defense to select the attack.
 
 **From Position**: [[Positions/Clamp Guard]] (Bottom)
-**Success Rate**: 45%
+**Success Rate**: 32%
 
 </section>
 

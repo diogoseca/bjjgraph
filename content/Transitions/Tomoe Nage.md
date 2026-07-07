@@ -68,7 +68,7 @@ Tomoe Nage, known as the circle throw or stomach throw, is a dynamic sacrifice t
 Modern BJJ has adapted this classical judo throw into a versatile entry system that can lead to sweeps, guard pulls, and submission setups. The technique's effectiveness lies in its ability to use the opponent's forward momentum and weight against them, requiring more timing and technical precision than raw strength. When executed with full follow-through, the thrower can achieve mount; when used as a controlled sacrifice, it establishes closed guard with broken posture. This dual-outcome nature makes it strategically valuable across multiple competition rulesets.
 
 **From Position**: [[Positions/Standing Position]] (Top)
-**Success Rate**: 60%
+**Success Rate**: 23%
 
 </section>
 

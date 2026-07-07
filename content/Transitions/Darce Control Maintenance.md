@@ -66,7 +66,7 @@ The maintenance phase is critical because small errors compound rapidly in darce
 From a strategic perspective, Darce Control Maintenance functions as the bridge between entry and finish. Many practitioners rush from entry to submission attempt, but skilled grapplers understand that investing time in the maintenance phase allows them to optimize grip depth, establish the ideal finishing angle, and exhaust the opponent's initial burst of defensive energy before committing to the choke or transitioning to mount, back control, or north-south.
 
 **From Position**: [[Positions/Darce Control]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 66%
 
 </section>
 

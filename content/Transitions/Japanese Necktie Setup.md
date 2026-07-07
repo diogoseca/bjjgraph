@@ -66,7 +66,7 @@ When executed correctly, this transition catches opponents off-guard because it 
 Strategically, the Japanese Necktie functions as a high-value option within the front headlock attack tree. When opponents defend the Darce and Anaconda by keeping their elbows tight, the Japanese Necktie exploits the space created on the far side of their neck. The technique chains naturally with other front headlock submissions, creating a layered attack system where each defensive response opens a new offensive pathway.
 
 **From Position**: [[Positions/Front Headlock]] (Top)
-**Success Rate**: 50%
+**Success Rate**: 30%
 
 </section>
 

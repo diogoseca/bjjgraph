@@ -62,7 +62,7 @@ description: "Master the sprawl defense in BJJ. Essential takedown defense techn
 Rooted in folkstyle and freestyle wrestling, the sprawl has become the cornerstone of standing takedown defense in Brazilian Jiu-Jitsu, particularly in no-gi and competition contexts where leg attacks are frequent. It involves explosively driving the hips back and down while simultaneously shooting the legs back to prevent an opponent from completing a double leg or single leg takedown. This critical defensive technique transforms a potentially vulnerable position into an offensive opportunity, often transitioning to front headlock control or guillotine attacks. The sprawl's effectiveness lies in its ability to redirect an opponent's forward momentum while creating downward pressure that flattens them to the mat. When executed properly, the sprawl not only defends the takedown but establishes dominant top position, forcing the attacker to carry your weight while you control their head and arm. Mastering the sprawl is essential for maintaining standing position in BJJ, preventing takedowns in competition, and creating offensive opportunities from defensive situations.
 
 **From Position**: [[Positions/Standing Position]] (Top)
-**Success Rate**: 75%
+**Success Rate**: 65%
 
 </section>
 

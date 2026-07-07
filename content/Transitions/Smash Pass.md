@@ -66,7 +66,7 @@ Unlike dynamic passing approaches, the smash pass relies on patient pressure app
 The smash pass creates a cascading series of problems for the bottom player: the crossface turns their head away, shoulder pressure compromises their breathing and posture, flattening eliminates their hip mobility, and inside leg control removes their re-guarding options. Each stage compounds the next, making the pass feel inevitable when executed correctly. This technique is equally effective in gi and no-gi contexts, making it a staple of modern BJJ competition strategies at all levels.
 
 **From Position**: [[Positions/Half Guard]] (Top)
-**Success Rate**: 60%
+**Success Rate**: 53%
 
 </section>
 

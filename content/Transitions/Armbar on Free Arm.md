@@ -66,7 +66,7 @@ This technique represents the convergence of positional dominance and limb isola
 From a strategic perspective, the Armbar on Free Arm creates a powerful dilemma for the defender. If they protect their neck with the free arm, they make it available for armbar attack. If they use the arm to frame or create escape angles, they expose their neck to choke threats. This forcing function makes the Gift Wrap to Armbar combination one of the most reliable submission chains from back control positions.
 
 **From Position**: [[Positions/Gift Wrap]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 34%
 
 </section>
 
@@ -253,7 +253,7 @@ The Armbar on Free Arm fits within the Gift Wrap attack system as a primary limb
 
 - [[Positions/Back Control/Body Triangle]] - Leg control that combines with Gift Wrap for armbar setup
 
-- [[Submissions/Gift Wrap Armbar]] - Related submission - armbar finish from Gift Wrap position
+- [[Gift Wrap Armbar]] - Related submission - armbar finish from Gift Wrap position
 
 - [[Submissions/Belly Down Armbar]] - Variant finish when opponent rotates during armbar attempt
 

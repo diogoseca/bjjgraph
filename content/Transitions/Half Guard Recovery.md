@@ -66,7 +66,7 @@ The fundamental challenge of this recovery lies in the mechanical disadvantage c
 Strategically, half guard recovery is preferred over other escape options when your opponent begins a knee slice or pressure pass, as their forward movement creates the exact space you need to insert your knee. The position you recover to - ideally knee shield half guard - gives you immediate offensive threats including underhook battles, sweeps, and leg lock entries. This makes the recovery not just a defensive technique but a positional reset that can shift momentum in your favor.
 
 **From Position**: [[Positions/Leg Drag Control]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 52%
 
 </section>
 

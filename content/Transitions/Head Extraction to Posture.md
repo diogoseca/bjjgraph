@@ -66,7 +66,7 @@ The technique prioritizes systematic extraction over explosive movement. Rather 
 Strategically, Head Extraction to Posture represents more than simple survival. Successfully completing this escape returns you to closed guard with posture, meaning you can immediately begin your passing sequences. The technique also teaches broader principles about defending unorthodox submissions by understanding their mechanical requirements and systematically dismantling them rather than fighting the symptoms.
 
 **From Position**: [[Positions/Gogoplata Control]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 48%
 
 </section>
 

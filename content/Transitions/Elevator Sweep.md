@@ -66,7 +66,7 @@ The elevator sweep is particularly effective against opponents who are sitting h
 Strategically, the elevator sweep serves as a cornerstone technique in the butterfly guard system, working in combination with other butterfly attacks like the basic butterfly sweep, arm drag to back takes, and guillotine attacks. The threat of the elevator sweep forces opponents to adjust their base and posture, creating opportunities for these complementary techniques. Mastering this sweep is essential for anyone looking to develop a dangerous butterfly guard game.
 
 **From Position**: [[Positions/Butterfly Guard]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 32%
 
 </section>
 

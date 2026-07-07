@@ -66,7 +66,7 @@ The finish relies on three synchronized control points working in concert: the l
 As a direct submission, the Electric Chair represents the ultimate threat that makes the entire lockdown sweeping game viable. Its primary strategic value lies in the dilemma it creates alongside the Old School sweep: opponents who base out to prevent being swept expose themselves to increased splitting pressure, while those who address the submission by pulling their leg back become light and vulnerable to positional reversals. This dual-threat dynamic forces opponents into a lose-lose situation that defines the tactical richness of the Electric Chair position.
 
 **From Position**: [[Positions/Half Guard/Electric Chair]] (Bottom)
-**Success Rate**: 45%
+**Success Rate**: 42%
 
 </section>
 

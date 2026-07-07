@@ -111,7 +111,6 @@ Mechanically, the armbar requires the attacker to pivot their hips toward the ta
 - [[Submissions/Far Side Armbar]] - Alternative armbar variation sharing cross-body arm isolation mechanics
 - [[Submissions/Armbar]] - Dynamic armbar entry using rotational momentum from top positions
 - [[Submissions/Spinning Armbar]] - Rotational armbar setup sharing arm isolation finishing principles
-- [[Submissions/Gift Wrap Armbar]] - Related arm control submission from similar trapping control position
 - [[Submissions/Triangle Choke]] - Alternative mount-based submission sharing dominant positional control
 - [[Submissions/Bicep Slicer]] - Compression submission that chains naturally from failed armbar extension
 - [[Submissions/Belly Down Armbar]] - Armbar finishing variation when opponent rolls prone to escape extension

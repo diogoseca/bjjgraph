@@ -70,7 +70,7 @@ The entry hinges on three sequential victories: securing a deep underhook on the
 This entry is a centerpiece of modern half guard passing systems taught by passers like Bernardo Faria and Lachlan Giles, prized because it converts the most common stalling position in jiu-jitsu into a high-percentage pass. The primary risk is over-committing the knee before the underhook and cross-face are locked, which feeds the bottom player a deep half guard entry as they dive under the advancing leg. Timing, the underhook battle, and head position determine whether the weave staples the opponent flat or hands them a sweep.
 
 **From Position**: [[Positions/Half Guard]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 41%
 
 </section>
 

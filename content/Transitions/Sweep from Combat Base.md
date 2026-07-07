@@ -66,7 +66,7 @@ The sweep operates on a fundamental principle: combat base sacrifices lateral st
 This sweep family is essential for any guard player facing a disciplined passer who establishes combat base as their primary platform. Without reliable sweeps from this position, the guard player is forced to play reactively against passing attempts rather than creating offensive threats. The sweep also functions as a critical component of the guard retention chain: threatening the sweep forces the top player to defend, disrupting their passing rhythm and creating windows for guard re-establishment, leg entanglement entries, or back takes when they overreact to the sweep threat.
 
 **From Position**: [[Positions/Combat Base]] (Bottom)
-**Success Rate**: 42%
+**Success Rate**: 24%
 
 </section>
 

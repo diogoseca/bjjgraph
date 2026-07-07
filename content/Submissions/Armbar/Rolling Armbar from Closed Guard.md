@@ -253,7 +253,6 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 - [[Submissions/Triangle Choke]]
 - [[Submissions/Omoplata]]
 - [[Submissions/Spinning Armbar]]
-- [[Submissions/Flying Armbar]]
 - [[Submissions/Triangle Choke Side]]
 - [[Submissions/Reverse Kimura]]
 - [[Submissions/Belly Down Armbar]]

@@ -91,7 +91,7 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Japanese Necktie/from Front Headlock|Front Headlock]] | Top | 58% | [[Submissions/Japanese Necktie/from Front Headlock/Attacker|Attack →]] | [[Submissions/Japanese Necktie/from Front Headlock/Defender|Defend →]] |
+| [[Submissions/Japanese Necktie/from Front Headlock|Front Headlock]] | Top | 52% | [[Submissions/Japanese Necktie/from Front Headlock/Attacker|Attack →]] | [[Submissions/Japanese Necktie/from Front Headlock/Defender|Defend →]] |
 
 
 </div>

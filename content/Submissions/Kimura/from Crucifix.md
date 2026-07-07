@@ -54,7 +54,7 @@ description: "Master the Kimura from Crucifix in BJJ. Learn how bilateral arm is
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Shoulder Lock</span>
 <span class="meta-chip">Targets Shoulder joint, rotator cuff, and shoulder capsule</span>
-<span class="meta-chip">62% success</span>
+<span class="meta-chip">39% success</span>
 </div>
 
 > [!danger] Safety

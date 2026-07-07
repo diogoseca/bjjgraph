@@ -66,7 +66,7 @@ The strategic value of the Toreando from Headquarters lies in its complementary 
 Execution requires precise coordination between grip acquisition on both legs and the explosive lateral step. The pass fails most commonly when the passer pushes the legs without simultaneously stepping laterally, giving the opponent time to recover hip position and re-establish guard. The leg push and lateral step must function as a single coordinated movement rather than sequential actions. The speed differential between redirecting the legs and clearing the hips determines whether the passer reaches side control or the bottom player recovers guard structure.
 
 **From Position**: [[Positions/Headquarters Position]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 42%
 
 </section>
 

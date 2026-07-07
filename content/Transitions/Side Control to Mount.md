@@ -62,7 +62,7 @@ description: "Master the fundamental transition from side control to mount in BJ
 The transition to mount from side control represents one of the most fundamental and high-percentage positional advancements in Brazilian Jiu-Jitsu. This transition is the natural progression when an opponent's defensive frames are compromised or when they turn into you attempting to recover guard. The movement capitalizes on controlling the near side of the opponent's body while stepping over to establish the dominant mount position. Understanding this transition is critical for developing a systematic top game, as mount offers superior control and submission opportunities compared to side control. The technique relies on precise weight distribution, maintaining connection throughout the movement, and timing the transition when defensive frames collapse or opponent movement creates openings. This is a bread-and-butter technique that every practitioner from white belt to black belt uses regularly in training and competition. The transition can be executed with various grips and entry methods, but the fundamental mechanics remain consistent: control the near side, step the leg over, and establish mount with proper weight distribution.
 
 **From Position**: [[Positions/Side Control]] (Top)
-**Success Rate**: 68%
+**Success Rate**: 47%
 
 </section>
 

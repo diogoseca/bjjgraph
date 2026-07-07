@@ -66,7 +66,7 @@ The strategic value of this transition lies in its simplicity and directional ef
 From a competitive standpoint, the leg drag to mount sequence scores points immediately upon achieving the mount position (typically 4 points) while simultaneously opening a wide array of submission opportunities. Advanced practitioners use this transition as part of a systematic approach where the threat of the mount forces defensive reactions that expose the back, creating the dilemma-based passing system that characterizes elite-level guard passing.
 
 **From Position**: [[Positions/Leg Drag Control]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 46%
 
 </section>
 

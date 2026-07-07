@@ -66,7 +66,7 @@ The technique is particularly valuable in self-defense scenarios, scrambles, and
 Mastery of the technical stand-up provides a reliable escape option from compromised bottom positions and forms the foundation for advanced guard retention systems. At the highest levels, practitioners chain this movement with single leg entries, creating a seamless defensive-to-offensive pipeline that punishes opponents who attempt to follow the stand-up.
 
 **From Position**: [[Positions/Seated Guard]] (Bottom)
-**Success Rate**: 85%
+**Success Rate**: 41%
 
 </section>
 

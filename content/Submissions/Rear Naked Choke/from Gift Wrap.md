@@ -54,7 +54,7 @@ description: "Master the Rear Naked Choke from Gift Wrap in BJJ. Learn how the a
 <span class="meta-chip">Choke</span>
 <span class="meta-chip">Blood Choke</span>
 <span class="meta-chip">Targets Carotid arteries and jugular veins</span>
-<span class="meta-chip">65% success</span>
+<span class="meta-chip">69% success</span>
 </div>
 
 > [!danger] Safety
@@ -226,7 +226,6 @@ From a systems perspective, the Gift Wrap RNC sits at the apex of the back attac
 
 ## Related
 - [[Submissions/Rear Naked Choke]]
-- [[Submissions/Gift Wrap Armbar]]
 - [[Submissions/Arm Triangle]]
 - [[Submissions/Bow and Arrow Choke]]
 - [[Submissions/Short Choke]]

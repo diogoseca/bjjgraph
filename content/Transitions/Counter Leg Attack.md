@@ -66,7 +66,7 @@ The technique requires precise timing and understanding of when the opponent's f
 Strategically, the Counter Leg Attack should be viewed as a last-resort option when standard escapes have failed or when you possess superior leg lock finishing ability compared to your opponent. The transition to 50-50 Guard equalizes the position, while successful entry to your own Ashi Garami can actually reverse the positional hierarchy. Understanding the timing windows, proper leg threading mechanics, and heel protection throughout the counter-attack sequence is essential for success.
 
 **From Position**: [[Positions/Inside Sankaku]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 35%
 
 </section>
 

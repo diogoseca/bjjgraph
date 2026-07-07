@@ -93,6 +93,14 @@ description: "Learn to defend and counter ground guard pulls in BJJ. Recognition
         "@type": "Answer",
         "text": "Against a ground guard pull, your hands should prioritize hip-level frames rather than the chest-level posture control used against standing pulls. Place both hands on opponent's hips or inner thighs to create a structural barrier at the exact level where their legs will attempt to wrap. This frame placement intercepts the leg wrap at its origin point rather than fighting it after legs are already around your body. Against standing pulls, hands typically control posture at collar and elbow level since the threat comes from being pulled downward. The different threat vectors require different frame heights and angles."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the most critical timing window for defending against a guard pull?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The most critical window is the two-second gap between when the opponent begins their descent and when their guard structure solidifies with locked ankles or established hooks. During this window, the puller's legs are transitioning and not yet in a defensive configuration. Driving forward with immediate passing pressure during this moment bypasses their intended guard entirely. The secondary window is before the pull starts — during grip establishment — when stripping grips prevents the pull from initiating at all. Missing both windows means accepting the guard and working a systematic guard opening, which is significantly harder."
+      }
     }
   ]
 }

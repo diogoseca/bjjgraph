@@ -66,7 +66,7 @@ The technique relies on creating space through precise hip movement rather than 
 Strategically, this escape represents your primary pathway out of a position that otherwise leads to submissions or advancement to mounted Gift Wrap. The ability to recover guard from Gift Wrap Bottom is essential for any practitioner because the position commonly results from failed back escapes. Success requires patience, proper timing, and the discipline to maintain neck defense throughout the escape sequence rather than abandoning it to fight the arm trap.
 
 **From Position**: [[Positions/Gift Wrap]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 41%
 
 </section>
 

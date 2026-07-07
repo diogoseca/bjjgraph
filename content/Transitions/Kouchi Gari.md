@@ -70,7 +70,7 @@ Kouchi Gari works exceptionally well as part of combination attacks, often setti
 From a biomechanical perspective, the technique succeeds because the upper body controls generate approximately 70% of the throwing force through push-pull kuzushi, while the reaping leg simply removes the final support from an already compromised base. Practitioners who understand this principle achieve dramatically higher success rates than those who focus primarily on the leg action.
 
 **From Position**: [[Positions/Clinch]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 32%
 
 </section>
 

@@ -66,7 +66,7 @@ The mechanical foundation of the Old School Sweep lies in the coordination of th
 Strategically, the Old School Sweep creates a genuine dilemma for the top player. Defending the sweep by driving crossface pressure feeds into the lockdown's control mechanism, while posting high to resist creates vulnerability to the Electric Chair transition. This binary forces the top player into a lose-lose situation where their defensive choices open alternative offensive pathways, embodying the principle of dilemma creation that defines high-level positional grappling from half guard bottom.
 
 **From Position**: [[Positions/Half Guard/Old School]] (Bottom)
-**Success Rate**: 46%
+**Success Rate**: 30%
 
 </section>
 

@@ -54,7 +54,7 @@ description: "Master the Guillotine Choke from Butterfly Guard. Learn hook eleva
 <span class="meta-chip">Choke</span>
 <span class="meta-chip">Blood Choke</span>
 <span class="meta-chip">Targets Carotid arteries and windpipe</span>
-<span class="meta-chip">62% success</span>
+<span class="meta-chip">23% success</span>
 </div>
 
 > [!danger] Safety
@@ -246,7 +246,6 @@ Strategically, the butterfly guillotine serves as a critical deterrent against a
 - [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Japanese Necktie]]
-- [[Submissions/Von Flue Choke]]
 - [[Transitions/Gogoplata]]
 - [[Positions/Butterfly Guard]] - Primary starting position providing hook elevation for setup and finish
 - [[Positions/Guillotine Control]] - Control position established when guillotine grip is secured before finishing

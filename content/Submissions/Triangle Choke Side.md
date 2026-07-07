@@ -95,7 +95,7 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Triangle Choke Side/from Side Control|Side Control]] | Top | 59% | [[Submissions/Triangle Choke Side/from Side Control/Attacker|Attack →]] | [[Submissions/Triangle Choke Side/from Side Control/Defender|Defend →]] |
+| [[Submissions/Triangle Choke Side/from Side Control|Side Control]] | Top | 50% | [[Submissions/Triangle Choke Side/from Side Control/Attacker|Attack →]] | [[Submissions/Triangle Choke Side/from Side Control/Defender|Defend →]] |
 
 
 </div>

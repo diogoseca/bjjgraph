@@ -66,7 +66,7 @@ The technique operates on a fundamental biomechanical principle: when the oppone
 This technique fits within the broader pressure passing system as a direct finishing mechanic from established double unders control. It chains naturally with the standard double under pass and toss pass as alternative pathways when the opponent's defensive reactions create different passing angles. Successful execution requires patience in building progressive pressure rather than explosive movements, making it energy-efficient and high-percentage at all levels of competition.
 
 **From Position**: [[Positions/Double Unders]] (Top)
-**Success Rate**: 50%
+**Success Rate**: 48%
 
 </section>
 

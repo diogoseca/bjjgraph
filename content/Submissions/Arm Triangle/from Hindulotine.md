@@ -54,7 +54,7 @@ description: "Master the Arm Triangle from Hindulotine in BJJ. Learn how guillot
 <span class="meta-chip">Choke</span>
 <span class="meta-chip">Blood Choke</span>
 <span class="meta-chip">Targets Carotid arteries (compressed by opponent's own shoulder and your arm)</span>
-<span class="meta-chip">62% success</span>
+<span class="meta-chip">32% success</span>
 </div>
 
 > [!danger] Safety

@@ -54,7 +54,7 @@ description: "Learn the Short Choke from Harness in BJJ. Master gi lapel choke m
 <span class="meta-chip">Choke</span>
 <span class="meta-chip">Blood Choke</span>
 <span class="meta-chip">Targets Carotid arteries</span>
-<span class="meta-chip">58% success</span>
+<span class="meta-chip">54% success</span>
 </div>
 
 > [!danger] Safety

@@ -97,7 +97,7 @@ The effectiveness of the Spine Lock comes from the combination of hip pressure d
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Spine Lock/from Truck|Truck]] | Top | 40% | [[Submissions/Spine Lock/from Truck/Attacker|Attack →]] | [[Submissions/Spine Lock/from Truck/Defender|Defend →]] |
+| [[Submissions/Spine Lock/from Truck|Truck]] | Top | 58% | [[Submissions/Spine Lock/from Truck/Attacker|Attack →]] | [[Submissions/Spine Lock/from Truck/Defender|Defend →]] |
 
 
 </div>
@@ -130,7 +130,6 @@ The effectiveness of the Spine Lock comes from the combination of hip pressure d
 - [[Submissions/Bow and Arrow Choke]] - Back control choke that chains with truck entries and spine lock setups
 - [[Submissions/Far Side Armbar]] - Arm attack accessible during spine lock position transitions
 - [[Submissions/Kimura]] - Shoulder lock available during truck and back control sequences
-- [[Submissions/Neck Crank]] - Related cervical spine submission with similar safety considerations
 - [[Positions/Half Guard/Electric Chair]] - 10th Planet submission from half guard connecting to truck and spine lock entries
 - [[Positions/Twister Control/Truck]] - Primary attacking position for spine lock setup and control
 - [[Positions/Twister Control]] - Alternative finishing position that combines with spine compression

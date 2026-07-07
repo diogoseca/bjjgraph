@@ -91,7 +91,7 @@ The Aoki Lock, named after Japanese MMA fighter Shinya Aoki, is a sophisticated 
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Aoki Lock/from Ashi Garami|Ashi Garami]] | Bottom | 50% | [[Submissions/Aoki Lock/from Ashi Garami/Attacker|Attack →]] | [[Submissions/Aoki Lock/from Ashi Garami/Defender|Defend →]] |
+| [[Submissions/Aoki Lock/from Ashi Garami|Ashi Garami]] | Bottom | 60% | [[Submissions/Aoki Lock/from Ashi Garami/Attacker|Attack →]] | [[Submissions/Aoki Lock/from Ashi Garami/Defender|Defend →]] |
 | [[Submissions/Aoki Lock/from Aoki Lock Control|Aoki Lock Control]] | Top | 50% | [[Submissions/Aoki Lock/from Aoki Lock Control/Attacker|Attack →]] | [[Submissions/Aoki Lock/from Aoki Lock Control/Defender|Defend →]] |
 
 

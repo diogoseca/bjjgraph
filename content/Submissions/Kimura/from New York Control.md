@@ -54,7 +54,7 @@ description: "Master the Kimura shoulder lock from New York Control rubber guard
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Shoulder Lock</span>
 <span class="meta-chip">Targets Shoulder joint, rotator cuff, and shoulder capsule</span>
-<span class="meta-chip">42% success</span>
+<span class="meta-chip">62% success</span>
 </div>
 
 > [!danger] Safety

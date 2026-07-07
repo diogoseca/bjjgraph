@@ -66,7 +66,7 @@ The technique operates on a powerful mechanical principle: the very action an op
 This transition is particularly effective at the purple belt level and above, where opponents develop reliable armbar defenses that make finishing from standard armbar control increasingly difficult. By integrating the back take into the armbar attack system, the practitioner creates a dilemma where defending the armbar exposes the back, and defending the back take requires extending the arm. This offensive fork forces the opponent into increasingly compromised defensive positions regardless of their chosen response, embodying the concept of cascading positional threats that define high-level grappling.
 
 **From Position**: [[Positions/Armbar Control]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 47%
 
 </section>
 

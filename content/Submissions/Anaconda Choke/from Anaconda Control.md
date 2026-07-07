@@ -54,7 +54,7 @@ description: "Master the Anaconda Choke in BJJ. Complete guide covering setup fr
 <span class="meta-chip">Choke</span>
 <span class="meta-chip">Blood Choke</span>
 <span class="meta-chip">Targets Carotid arteries and trachea</span>
-<span class="meta-chip">65% success</span>
+<span class="meta-chip">40% success</span>
 </div>
 
 > [!danger] Safety
@@ -278,7 +278,6 @@ The technique has become a staple in modern BJJ competition, with the Anaconda-t
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Brabo Choke]]
 - [[Submissions/Arm in Guillotine]]
-- [[Submissions/Chin Strap Guillotine]]
 - [[Transitions/Front Headlock to Anaconda]] - Primary setup transition from front headlock control
 - [[Transitions/Anaconda from Turtle]] - Common entry transition from opponent's turtle position
 - [[Transitions/Anaconda Setup]] - General setup technique for establishing Anaconda control

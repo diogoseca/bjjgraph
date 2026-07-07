@@ -66,7 +66,7 @@ The core challenge of kneebar control maintenance lies in balancing submission t
 From a systems perspective, kneebar control maintenance serves as the stabilization hub connecting your initial entry to either a successful finish or an intelligent transition to alternative attacks. When maintenance succeeds, you preserve the positional advantage needed for high-percentage finishing sequences. When the opponent begins breaking free, recognizing the maintenance failure early allows smooth transitions to half guard top control, alternative leg attacks, or guard passing rather than scrambling from a lost position.
 
 **From Position**: [[Positions/Kneebar Control]] (Top)
-**Success Rate**: 70%
+**Success Rate**: 62%
 
 </section>
 

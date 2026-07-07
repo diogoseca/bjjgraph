@@ -66,7 +66,7 @@ This transition occupies a critical role in modern half guard systems as a press
 Strategically, the re-pull serves a dual purpose: it preserves energy for future offensive cycles and resets the positional exchange to a configuration where the bottom player has multiple guard variation options available. A well-executed re-pull into knee shield half guard, for instance, provides immediate distance management and creates a platform to re-enter dogfight, transition to deep half, or pursue alternative sweeping pathways. The willingness to retreat intelligently—rather than stubbornly fighting a lost exchange—separates experienced half guard players from those who exhaust themselves in unwinnable dogfights.
 
 **From Position**: [[Positions/Dogfight Position]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 46%
 
 </section>
 

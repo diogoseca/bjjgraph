@@ -95,6 +95,14 @@ description: "How to defend against Suloev Stretch in BJJ. Recognition, escape p
         "@type": "Answer",
         "text": "The most effective training approach focuses on recognition and early-stage prevention rather than late-stage escape drilling. Begin by having a partner slowly demonstrate the entry sequence so you can identify each recognition cue - the ankle control, the step-over, the figure-four establishment. Then drill immediate responses at each stage: leg straightening against ankle control, framing and leg extraction against the step-over, and rotation against partial figure-four. Progressively increase the speed and resistance of your partner's entries. Critically, always tap immediately once the lock is fully established in training - do not practice 'escaping' from a fully locked Suloev Stretch, as this builds dangerous habits that can lead to injury."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the earliest and most important warning sign that you are being attacked with a Suloev Stretch?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The fold of your lower leg with your heel being driven toward your own buttock; recognizing this before the figure-four locks is your best chance to straighten the leg and escape safely."
+      }
     }
   ]
 }

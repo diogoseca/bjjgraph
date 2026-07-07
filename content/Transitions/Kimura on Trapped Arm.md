@@ -66,7 +66,7 @@ From a biomechanical perspective, the trapped arm position places the shoulder i
 The Kimura on Trapped Arm serves as both a direct submission threat and a control consolidation tool. Even when the submission doesn't finish, the Kimura grip provides exceptional control that can be used to transition to mounted positions, advance to the crucifix, or set up alternative attacks. Understanding this dual purpose transforms the technique from a one-dimensional submission attempt into a systematic control weapon.
 
 **From Position**: [[Positions/Gift Wrap]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 46%
 
 </section>
 

@@ -66,7 +66,7 @@ The mechanics of the crucifix armbar differ from standard armbar positions becau
 Within the crucifix attack system, the armbar serves as the secondary threat that complements the primary choke. This creates a powerful submission chain: threaten the choke to draw the arm into defensive position, then attack the exposed arm with the armbar. If the opponent retracts the arm to defend the armbar, the neck reopens for choke attacks. Advanced practitioners flow between these attacks seamlessly, creating an offensive loop that becomes increasingly difficult to survive.
 
 **From Position**: [[Positions/Crucifix]] (Top)
-**Success Rate**: 65%
+**Success Rate**: 40%
 
 </section>
 

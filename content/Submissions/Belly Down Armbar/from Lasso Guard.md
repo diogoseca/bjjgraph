@@ -242,7 +242,6 @@ From a strategic perspective, this submission works best when the opponent is fo
 ## Related
 - [[Submissions/Belly Down Armbar]]
 - [[Submissions/Far Side Armbar]]
-- [[Submissions/Flying Armbar]]
 - [[Submissions/Armbar]]
 - [[Submissions/Arm Crush]]
 - [[Submissions/Bicep Slicer]]

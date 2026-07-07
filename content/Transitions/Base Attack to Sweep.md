@@ -66,7 +66,7 @@ This technique operates on the principle that the Aoki Lock top player cannot si
 The base attack is particularly effective because it addresses both survival and advancement simultaneously. Rather than simply escaping the shoulder lock, you create a dilemma where the opponent must choose between maintaining the submission or protecting their position. Advanced practitioners chain this with arm extraction attempts, using the threat of one to create openings for the other. This technique requires precise timing, hip mobility, and the ability to read when opponents are committed to finishing rather than maintaining position.
 
 **From Position**: [[Positions/Aoki Lock Control]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 17%
 
 </section>
 

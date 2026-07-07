@@ -66,7 +66,7 @@ From a strategic perspective, this transition follows the principle of using sub
 The crucifix destination represents a significant positional upgrade from Aoki Lock. While Aoki Lock offers a single submission threat with moderate escape routes, the crucifix eliminates virtually all defensive options and opens multiple high-percentage finishing paths including rear naked choke, arm-in chokes, and armbars. Practitioners who master this transition develop the ability to convert stalled submission attempts into dominant control positions, embodying the position-before-submission principle at an advanced level.
 
 **From Position**: [[Positions/Aoki Lock Control]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 42%
 
 </section>
 

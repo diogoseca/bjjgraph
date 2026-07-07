@@ -54,7 +54,7 @@ description: "Master the omoplata from armbar control in BJJ. Complete guide cov
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Shoulder Lock</span>
 <span class="meta-chip">Targets Shoulder joint (rotator cuff, capsule, AC joint)</span>
-<span class="meta-chip">52% success</span>
+<span class="meta-chip">25% success</span>
 </div>
 
 > [!danger] Safety

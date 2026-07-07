@@ -89,6 +89,14 @@ description: "Defend the straight ankle lock from ankle lock control. Boot defen
         "@type": "Answer",
         "text": "The optimal escape window is 5-12 seconds from when the attacker establishes ankle control. Within this window, grips are still being consolidated, leg control is incomplete, and defensive actions have the highest success probability. Beyond 12 seconds, the attacker has typically completed the figure-four grip, established full leg wrap control, and begun calibrating their breaking mechanics. Escape probability drops sharply after this point, and the attacker may begin transitioning to more dominant positions like inside ashi garami if the direct finish is unavailable."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the single most important early recognition cue that an Achilles Lock is being set up?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The most important early cue is feeling the attacker shift their grip to specifically cup and trap your heel deep into their armpit. This grip change precedes all other finishing mechanics - once the heel is secured, the attacker only needs to position the fulcrum and extend their hips. Recognizing this grip change gives you the maximum defensive window before the submission develops."
+      }
     }
   ]
 }

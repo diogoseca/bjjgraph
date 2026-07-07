@@ -66,7 +66,7 @@ The mechanical beauty of this transition lies in using the opponent's own escape
 Strategically, the back take option makes your Hindulotine attacks significantly more dangerous. Opponents who know you will take their back if they turn become hesitant to execute the primary escape, allowing more finishing opportunities on the guillotine itself. The mere threat of this transition improves your overall submission percentage from the position.
 
 **From Position**: [[Positions/Hindulotine]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 44%
 
 </section>
 

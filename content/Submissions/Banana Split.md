@@ -95,7 +95,7 @@ The Banana Split often works in combination with other attacks from half guard a
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Banana Split/from Truck|Truck]] | Top | 48% | [[Submissions/Banana Split/from Truck/Attacker|Attack →]] | [[Submissions/Banana Split/from Truck/Defender|Defend →]] |
+| [[Submissions/Banana Split/from Truck|Truck]] | Top | 58% | [[Submissions/Banana Split/from Truck/Attacker|Attack →]] | [[Submissions/Banana Split/from Truck/Defender|Defend →]] |
 
 
 </div>

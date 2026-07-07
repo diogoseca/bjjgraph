@@ -216,7 +216,7 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 
 - **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (9% of attempts)
 
-- **[[Transitions/Duck Under/Attacker|Duck Under]]** (9% of attempts)
+- **[[Transitions/Duck Under from Clinch/Attacker|Duck Under from Clinch]]** (9% of attempts)
 
 - **[[Transitions/Fireman's Carry/Attacker|Fireman's Carry]]** (9% of attempts)
 

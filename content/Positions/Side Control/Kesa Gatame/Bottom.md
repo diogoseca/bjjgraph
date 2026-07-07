@@ -50,8 +50,8 @@ description: "Master Kesa Gatame Bottom escapes in BJJ. Complete guide covering 
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Ghost Escape",
-      "text": "From this position, attempt Ghost Escape. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Ghost Escape from Side Control",
+      "text": "From this position, attempt Ghost Escape from Side Control. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -226,7 +226,7 @@ From a strategic perspective, the bottom player in Kesa Gatame must internalize 
 
 **If opponent shifts weight forward toward your head or attempts to transition to mount:**
 - Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Turtle]] (Probability: 50%)
-- Execute **[[Transitions/Ghost Escape/Attacker|Ghost Escape]]** → [[Positions/Turtle]] (Probability: 45%)
+- Execute **[[Ghost Escape/Attacker|Ghost Escape]]** → [[Positions/Turtle]] (Probability: 45%)
 - Execute **[[Transitions/Back Take from Kesa Gatame/Attacker|Back Take from Kesa Gatame]]** → [[Positions/Back Control]] (Probability: 35%)
 
 
@@ -358,7 +358,7 @@ Bottom player cycles through multiple escape attempts in sequence: attempt elbow
 - **[[Positions/Half Guard]]** - Primary guard recovery target
 - **[[Transitions/Bridge and Roll]]** - Primary escape technique from this position
 - **[[Transitions/Elbow Escape to Guard]]** - Fundamental escape movement pattern
-- **[[Transitions/Ghost Escape]]** - High-percentage escape exploiting back exposure
+- **[[Ghost Escape]]** - High-percentage escape exploiting back exposure
 
 
 </section>

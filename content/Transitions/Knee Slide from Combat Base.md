@@ -66,7 +66,7 @@ The strategic value of this pass lies in its versatility and reliability across 
 The knee slide integrates seamlessly into broader passing systems. When opponents defend the initial knee cut, natural chain reactions open pathways to long step passes, leg drags, or headquarters transitions. This creates a dilemma-based passing game where defending one threat exposes vulnerability to another. Mastery of the knee slide from combat base is considered a foundational skill for developing an effective top game and serves as the entry point for understanding pressure-passing mechanics that apply across all guard passing scenarios.
 
 **From Position**: [[Positions/Combat Base]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 53%
 
 </section>
 

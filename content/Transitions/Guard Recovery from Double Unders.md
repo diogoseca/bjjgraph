@@ -66,7 +66,7 @@ The technique centers on frame creation and hip escape mechanics working in conc
 Strategic timing is paramount in this recovery. Attempting guard recovery too early when the top player's pressure is maximal wastes energy against their strongest control. Waiting too long allows the pass to complete. The optimal window occurs during the top player's grip adjustment, weight shift, or transition between passing angles. Successful practitioners develop sensitivity to these micro-moments and execute explosive guard recovery sequences precisely when the top player's control momentarily weakens.
 
 **From Position**: [[Positions/Double Unders]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 39%
 
 </section>
 

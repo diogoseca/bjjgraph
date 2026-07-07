@@ -66,7 +66,7 @@ The technique operates on the principle that even when your leg is trapped acros
 From a strategic perspective, Frame and Shrimp to Guard serves as your first line of defense when caught in leg drag control before the position is fully consolidated. It should be attempted early and explosively, as hesitation allows the passer to settle their weight and eliminate the space needed for the escape. When executed properly, this technique resets the passing exchange to neutral, forcing your opponent to restart their passing sequence while you re-establish your preferred guard configuration.
 
 **From Position**: [[Positions/Leg Drag Control]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 38%
 
 </section>
 

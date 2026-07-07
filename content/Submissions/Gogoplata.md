@@ -69,7 +69,7 @@ description: "Master the Gogoplata shin choke in BJJ. Complete guide with safety
 <span class="meta-chip">Choke</span>
 <span class="meta-chip">Shin Choke</span>
 <span class="meta-chip">Targets Trachea and carotid arteries</span>
-<span class="meta-chip">~40% avg</span>
+<span class="meta-chip">~26% avg</span>
 </div>
 
 > [!danger] Safety

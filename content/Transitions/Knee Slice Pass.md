@@ -70,7 +70,7 @@ The pass works across all levels of competition and remains a staple in modern B
 Understanding the knee slice is essential for developing a complete passing game, as it serves as a gateway to numerous other passing sequences and submissions. When the bottom player defends the slice in one direction, they invariably expose themselves to complementary attacks from the opposite angle, creating a passing system rather than an isolated technique. The knee slice chains naturally with the long step pass, leg drag, backstep pass, and various submission entries, making it the central hub of most high-level passing systems.
 
 **From Position**: [[Positions/Half Guard]] (Top)
-**Success Rate**: 68%
+**Success Rate**: 54%
 
 </section>
 

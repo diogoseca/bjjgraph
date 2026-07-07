@@ -246,7 +246,6 @@ In competition, the standing guillotine creates a compelling strategic dilemma. 
 ## Related
 - [[Submissions/Guillotine Choke]]
 - [[Submissions/Arm in Guillotine]]
-- [[Submissions/Chin Strap Guillotine]]
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Arm Triangle]]
 - [[Submissions/Brabo Choke]]

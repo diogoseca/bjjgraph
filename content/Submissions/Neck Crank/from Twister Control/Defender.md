@@ -89,6 +89,14 @@ description: "Learn to defend and escape the neck crank from Twister Control. Re
         "@type": "Answer",
         "text": "When the grip is partial, you have a narrow window to strip or loosen it with aggressive hand fighting while simultaneously working to extract your trapped leg. Use both hands to attack the attacker's grip—pushing the wrist away from your chin or peeling fingers from behind your head. If you can loosen the grip enough to create a gap, immediately turn into the opponent to reduce spinal rotation and begin working toward guard recovery. Speed and decisiveness matter here because the attacker will be working to deepen the grip while you attempt to remove it."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "What is your first priority the moment you feel a neck crank developing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Protect your neck first by tucking your chin hard to your chest and hand-fighting the cranking arm with a two-on-one grip; neck safety comes before any escape attempt."
+      }
     }
   ]
 }

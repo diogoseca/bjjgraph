@@ -54,7 +54,7 @@ description: "Master the outside heel hook from leg entanglement positions. Expe
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Leg Lock</span>
 <span class="meta-chip">Targets Knee joint, ankle joint, and surrounding ligaments</span>
-<span class="meta-chip">45% success</span>
+<span class="meta-chip">41% success</span>
 </div>
 
 > [!danger] Safety

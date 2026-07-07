@@ -95,7 +95,7 @@ The choke works on a fundamental principle: using the lapel as a ligature around
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Marce Choke/from Side Control|Side Control]] | Top | 58% | [[Submissions/Marce Choke/from Side Control/Attacker|Attack →]] | [[Submissions/Marce Choke/from Side Control/Defender|Defend →]] |
+| [[Submissions/Marce Choke/from Side Control|Side Control]] | Top | 50% | [[Submissions/Marce Choke/from Side Control/Attacker|Attack →]] | [[Submissions/Marce Choke/from Side Control/Defender|Defend →]] |
 
 
 </div>

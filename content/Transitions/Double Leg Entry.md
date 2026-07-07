@@ -66,7 +66,7 @@ The double leg entry requires precise timing, explosive movement, and tactical d
 Mastery of the double leg entry provides a reliable method for taking the fight to the ground on your terms, establishing top position, and controlling the pace of engagement from the opening exchange. The technique chains naturally with front headlock control when the opponent sprawls, single leg conversions when only one leg is captured, and various guard passing sequences when the opponent pulls guard during the entry.
 
 **From Position**: [[Positions/Standing Position]] (Top)
-**Success Rate**: 60%
+**Success Rate**: 46%
 
 </section>
 

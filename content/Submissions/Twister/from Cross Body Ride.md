@@ -54,7 +54,7 @@ description: "Master the Twister spinal lock from Cross Body Ride. Complete guid
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Spinal Lock</span>
 <span class="meta-chip">Targets Cervical and thoracic spine, shoulder girdle</span>
-<span class="meta-chip">40% success</span>
+<span class="meta-chip">17% success</span>
 </div>
 
 > [!danger] Safety

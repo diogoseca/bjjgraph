@@ -64,7 +64,7 @@ The Truck Entry is a fundamental transition in modern no-gi grappling that trans
 The Truck Entry capitalizes on the turtle position's inherent vulnerability: while turtle protects against many traditional attacks, it exposes the legs and hips to creative entries. Modern competitors have elevated this transition into a high-percentage system, particularly in no-gi competition where the absence of gi grips makes traditional back-taking methods less reliable. The entry requires precise timing and spatial awareness to thread your leg hook while maintaining control of the opponent's upper body, creating a locked structure that prevents escape while opening submission opportunities including the Twister, Calf Slicer, Banana Split, and transitions to traditional back control.
 
 **From Position**: [[Positions/Turtle]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 48%
 
 </section>
 

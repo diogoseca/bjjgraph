@@ -66,7 +66,7 @@ This entry capitalizes on the opponent's standing posture above your inverted gu
 Strategically, the Straight Ankle Lock Entry serves as the primary submission-oriented exit from grasshopper guard when sweep opportunities stall. It pairs naturally with kneebar attacks from the same position, forcing the opponent to defend both the knee and ankle simultaneously. Against opponents who stand tall and wide to neutralize your sweeping game, the ankle lock entry punishes their conservative posture by attacking the most exposed target - the lead foot planted closest to your inverted body.
 
 **From Position**: [[Positions/Grasshopper Guard]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 54%
 
 </section>
 

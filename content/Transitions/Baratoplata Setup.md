@@ -66,7 +66,7 @@ Strategically, the Baratoplata Setup exploits the fundamental weakness of Meatho
 The technique requires precise timing and mechanical understanding. Unlike straight armlocks that attack the elbow through hyperextension, the Baratoplata attacks the shoulder through internal rotation combined with extension. This creates a submission that is difficult to defend through strength alone, as the rotational component bypasses the larger muscle groups that typically protect against arm attacks. For purple and brown belt practitioners, the Baratoplata represents an evolution beyond basic Rubber Guard attacks into the system's deeper submission chains.
 
 **From Position**: [[Positions/Rubber Guard/Meathook]] (Bottom)
-**Success Rate**: 50%
+**Success Rate**: 55%
 
 </section>
 

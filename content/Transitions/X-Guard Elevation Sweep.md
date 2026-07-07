@@ -66,7 +66,7 @@ Strategically, this sweep represents the highest-reward option from grasshopper 
 The sweep integrates into the broader grasshopper guard offensive system as the primary direct sweep threat. When the opponent recognizes the elevation setup and widens their base or drops their hips, this reaction opens pathways to leg entanglements via Ashi Garami entries, Single Leg X-Guard transitions, or rolling kneebar attacks. The threat of being swept to mount forces defensive postures that compromise the opponent's ability to pass, creating the dilemma structure that makes grasshopper guard viable despite its high energy cost.
 
 **From Position**: [[Positions/Grasshopper Guard]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 32%
 
 </section>
 

@@ -66,7 +66,7 @@ The entry works by converting the push-pull dynamic of spider guard into a trian
 Strategically, this transition creates a powerful forcing mechanism within the spider guard attack system. The opponent must respect the triangle threat, which opens other attacks like omoplatas, sweeps, and armbars. When the opponent focuses on defending one threat, others become available. This technique connects directly to the broader spider guard offensive framework and serves as a centerpiece attack that makes all other spider guard techniques more dangerous by creating the constant threat of triangle entry.
 
 **From Position**: [[Positions/Spider Guard]] (Bottom)
-**Success Rate**: 50%
+**Success Rate**: 62%
 
 </section>
 

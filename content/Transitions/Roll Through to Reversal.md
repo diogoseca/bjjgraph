@@ -66,7 +66,7 @@ This reversal exploits a fundamental vulnerability in front headlock control: wh
 The roll through represents a calculated risk within the front headlock escape system. While other escapes like technical standups or circling away are generally safer, the roll through offers a higher reward by achieving complete positional reversal rather than merely escaping to neutral. This makes it particularly valuable when you need to shift match momentum, when points matter in competition, or when other escape routes are blocked. Advanced practitioners integrate this technique as part of their reactive defense, reading opponent's weight distribution to determine whether to stand, circle, or roll through.
 
 **From Position**: [[Positions/Front Headlock]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 28%
 
 </section>
 

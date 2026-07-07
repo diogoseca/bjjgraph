@@ -66,7 +66,7 @@ Strategically, the 50-50 Entry serves as both an offensive pathway to heel hook 
 From a systematic perspective, the 50-50 Entry functions as a gateway to the entire leg entanglement system. Once established, you gain access to heel hooks, toe holds, and various sweeping mechanics. The position also creates what practitioners call a "neutral leg lock position" where both players have equivalent attacking opportunities, making it crucial to understand both offensive and defensive applications from the moment of entry.
 
 **From Position**: [[Positions/Inverted Guard]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 33%
 
 </section>
 

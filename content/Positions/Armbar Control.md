@@ -141,23 +141,21 @@ From the bottom, survival depends on understanding the same five-point control s
 ### Available Transitions
 
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (13% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (14% of attempts)
 
-- **[[Transitions/Stack Defense/Attacker|Stack Defense]]** (13% of attempts)
+- **[[Transitions/Stack Defense/Attacker|Stack Defense]]** (14% of attempts)
 
 - **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** (11% of attempts)
 
-- **[[Transitions/Hitchhiker Escape/Attacker|Hitchhiker Escape]]** (23% of attempts)
+- **[[Transitions/Hitchhiker Escape from Armbar/Attacker|Hitchhiker Escape from Armbar]]** (24% of attempts)
 
-- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (12% of attempts)
+- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (13% of attempts)
 
 - **[[Transitions/Rolling Escape to Guard/Attacker|Rolling Escape to Guard]]** (9% of attempts)
 
 - **[[Transitions/Hip Escape to Turtle/Attacker|Hip Escape to Turtle]]** (8% of attempts)
 
 - **[[Transitions/Armbar Defense/Attacker|Armbar Defense]]** (7% of attempts)
-
-- **[[Transitions/Hitchhiker Escape from Armbar/Attacker|Hitchhiker Escape from Armbar]]** (4% of attempts)
 
 
 ### Common Mistakes

@@ -66,7 +66,7 @@ The execution demands precise sequencing: thread the choking arm deep with palm-
 This technique has become a staple of modern no-gi grappling, particularly effective because the dynamic roll is unexpected and frequently secures the finish before opponents can mount a proper defense. It represents sophisticated understanding of front headlock mechanics combined with dynamic movement principles. The anaconda integrates naturally with other turtle top attacks, creating a branching decision tree where defending one threat exposes another.
 
 **From Position**: [[Positions/Turtle]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 36%
 
 </section>
 

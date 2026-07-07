@@ -91,7 +91,7 @@ The Arm Crush is a powerful shoulder lock submission that combines crushing pres
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Arm Crush/from Side Control|Side Control]] | Top | 52% | [[Submissions/Arm Crush/from Side Control/Attacker|Attack →]] | [[Submissions/Arm Crush/from Side Control/Defender|Defend →]] |
+| [[Submissions/Arm Crush/from Side Control|Side Control]] | Top | 50% | [[Submissions/Arm Crush/from Side Control/Attacker|Attack →]] | [[Submissions/Arm Crush/from Side Control/Defender|Defend →]] |
 
 
 </div>

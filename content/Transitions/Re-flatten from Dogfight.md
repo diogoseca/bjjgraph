@@ -66,7 +66,7 @@ The technique operates on a fundamental biomechanical principle: the dogfight bo
 Strategically, the re-flatten occupies an important position in the top player's dogfight decision tree. While more aggressive options like the crossface pass or back step exist, the re-flatten provides the highest-percentage method for stabilizing the position and resetting to a controlled passing scenario. Advanced practitioners layer the re-flatten threat with other attacks, using the bottom player's defensive reactions to re-flattening pressure as entries for passes and submissions. The technique is particularly valuable against skilled half guard players who consistently achieve dogfight, as it allows the top player to deny the offensive position rather than repeatedly defending sweeps and back takes.
 
 **From Position**: [[Positions/Dogfight Position]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 49%
 
 </section>
 

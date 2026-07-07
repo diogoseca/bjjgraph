@@ -66,7 +66,7 @@ Unlike pure lifting sweeps that rely heavily on strength, the Waiter Sweep uses 
 Its high success rate across skill levels stems from its fundamental reliance on destroying base and creating directional momentum rather than explosive power. The angular sweeping motion—lifting diagonally rather than straight up—makes it significantly harder to counter than linear sweeps, as the opponent must resist forces in multiple planes simultaneously. When integrated into a complete butterfly guard system, the Waiter Sweep creates offensive dilemmas where defensive reactions open back takes, guillotine entries, and guard transitions.
 
 **From Position**: [[Positions/Butterfly Guard]] (Bottom)
-**Success Rate**: 68%
+**Success Rate**: 32%
 
 </section>
 

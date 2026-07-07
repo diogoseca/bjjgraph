@@ -66,7 +66,7 @@ The technique centers on a sequential process of framing, hip escaping, and leg 
 Guard recovery from combat base integrates directly into the broader guard retention system, connecting the open guard defensive network with closed guard's offensive platform. When full closed guard recovery is not achievable, the same mechanical principles drive transitions into half guard retention, butterfly guard recomposition, or open guard distance management. Mastery of this recovery makes your entire bottom game more resilient by ensuring that a momentary guard opening does not cascade into a complete positional loss.
 
 **From Position**: [[Positions/Combat Base]] (Bottom)
-**Success Rate**: 50%
+**Success Rate**: 52%
 
 </section>
 

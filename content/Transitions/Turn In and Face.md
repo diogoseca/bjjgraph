@@ -66,7 +66,7 @@ The escape works because the buggy choke's power comes from the threading arm wr
 Strategically, Turn In and Face is the preferred escape when the defender still has sufficient posture and mobility to execute a rotation. It creates direct pathways to open guard, closed guard, or half guard depending on how the attacker reacts. Compared to alternatives like granby rolls or sitting to half guard, this escape keeps the defender facing the opponent from the outset, reducing the risk of exposing the back during the escape sequence. For practitioners who play guard-centric games, this transition provides the most direct route back to their preferred positions.
 
 **From Position**: [[Positions/Buggy Choke]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 40%
 
 </section>
 

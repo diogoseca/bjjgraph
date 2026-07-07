@@ -66,7 +66,7 @@ Unlike sitting to half guard or granby rolling to closed guard, the deep half en
 This transition is particularly valuable when the buggy choke grips are established but body pressure hasn't fully consolidated. The attacker's commitment to finishing the choke creates windows for explosive rotational escapes that would not exist against a more positionally-focused opponent. Mastering this technique adds a counterattacking dimension to buggy choke defense, punishing overly aggressive finishing attempts.
 
 **From Position**: [[Positions/Buggy Choke]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 34%
 
 </section>
 

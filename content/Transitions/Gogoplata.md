@@ -68,7 +68,7 @@ From Mission Control, the Gogoplata setup requires bringing your attacking foot 
 Competition footage shows the Gogoplata succeeding primarily when opponents are unfamiliar with the position's danger or when they're already compromised in their posture from preceding Rubber Guard attacks. The submission's unconventional appearance often causes defenders to misjudge the threat level, creating windows for finish that more traditional attacks might not generate. However, the flexibility requirements mean this technique suits certain body types better than others, and practitioners should honestly assess their physical attributes before investing heavily in Gogoplata development.
 
 **From Position**: [[Positions/Rubber Guard/Mission Control]] (Bottom)
-**Success Rate**: 50%
+**Success Rate**: 26%
 
 </section>
 

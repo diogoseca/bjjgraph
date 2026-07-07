@@ -66,7 +66,7 @@ The escape centers on a frame-first approach where the bottom player establishes
 Strategically, this escape represents the critical survival skill for anyone training with partners who use front headlock choke systems. The technique teaches fundamental principles applicable across all compressed defensive positions: calm breathing under restriction, frame-based space creation, and incremental positional improvement over explosive movement. Success requires reading the opponent's weight distribution to identify momentary windows where escape movements can succeed against reduced resistance.
 
 **From Position**: [[Positions/Dead Orchard Control]] (Bottom)
-**Success Rate**: 40%
+**Success Rate**: 34%
 
 </section>
 

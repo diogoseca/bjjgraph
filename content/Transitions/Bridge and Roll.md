@@ -66,7 +66,7 @@ The Bridge and Roll is typically the first mount escape taught to beginners due 
 The technique demonstrates fundamental BJJ principles including the use of frames, hip movement, angle creation, and explosive power generation from inferior positions. Its relationship with the elbow escape creates a binary escape system where defending one escape opens the other, making the combination far more effective than either technique in isolation. At advanced levels, the bridge and roll becomes less about raw power and more about reading micro-adjustments in the opponent's weight distribution and exploiting momentary base compromises with precise timing.
 
 **From Position**: [[Positions/Mount]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 31%
 
 </section>
 

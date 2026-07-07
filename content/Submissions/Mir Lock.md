@@ -91,7 +91,7 @@ The Mir Lock is a powerful shoulder lock submission that targets the glenohumera
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Mir Lock/from Side Control|Side Control]] | Top | 58% | [[Submissions/Mir Lock/from Side Control/Attacker|Attack →]] | [[Submissions/Mir Lock/from Side Control/Defender|Defend →]] |
+| [[Submissions/Mir Lock/from Side Control|Side Control]] | Top | 50% | [[Submissions/Mir Lock/from Side Control/Attacker|Attack →]] | [[Submissions/Mir Lock/from Side Control/Defender|Defend →]] |
 
 
 </div>

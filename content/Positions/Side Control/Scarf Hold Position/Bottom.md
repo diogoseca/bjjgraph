@@ -38,8 +38,8 @@ description: "Escape Scarf Hold Bottom (Kesa Gatame) in BJJ. Defensive position 
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Ghost Escape",
-      "text": "From this position, attempt Ghost Escape. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Ghost Escape from Side Control",
+      "text": "From this position, attempt Ghost Escape from Side Control. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
@@ -226,7 +226,7 @@ Scarf Hold Bottom presents both immediate submission dangers through arm locks (
 
 **If opponent shifts weight forward attempting to transition to mount or north-south:**
 - Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Turtle]] (Probability: 55%)
-- Execute **[[Transitions/Ghost Escape/Attacker|Ghost Escape]]** → [[Positions/Turtle]] (Probability: 50%)
+- Execute **[[Ghost Escape/Attacker|Ghost Escape]]** → [[Positions/Turtle]] (Probability: 50%)
 - Execute **[[Transitions/Arm Extraction to Turtle/Attacker|Arm Extraction to Turtle]]** → [[Positions/Turtle]] (Probability: 40%)
 
 
@@ -243,7 +243,7 @@ Scarf Hold Bottom presents both immediate submission dangers through arm locks (
 
 **If opponent sits back heavily on their hip creating space between their chest and your hips:**
 - Execute **[[Transitions/Arm Extraction to Turtle/Attacker|Arm Extraction to Turtle]]** → [[Positions/Turtle]] (Probability: 60%)
-- Execute **[[Transitions/Ghost Escape/Attacker|Ghost Escape]]** → [[Positions/Turtle]] (Probability: 55%)
+- Execute **[[Ghost Escape/Attacker|Ghost Escape]]** → [[Positions/Turtle]] (Probability: 55%)
 
 
 

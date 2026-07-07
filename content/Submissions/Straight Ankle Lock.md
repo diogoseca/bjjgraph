@@ -94,7 +94,7 @@ The Straight Ankle Lock (also called Straight Footlock) is the most fundamental 
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Straight Ankle Lock/from Straight Ankle Lock Control|Straight Ankle Lock Control]] | Top | 58% | [[Submissions/Straight Ankle Lock/from Straight Ankle Lock Control/Attacker|Attack →]] | [[Submissions/Straight Ankle Lock/from Straight Ankle Lock Control/Defender|Defend →]] |
+| [[Submissions/Straight Ankle Lock/from Straight Ankle Lock Control|Straight Ankle Lock Control]] | Top | 60% | [[Submissions/Straight Ankle Lock/from Straight Ankle Lock Control/Attacker|Attack →]] | [[Submissions/Straight Ankle Lock/from Straight Ankle Lock Control/Defender|Defend →]] |
 
 
 </div>

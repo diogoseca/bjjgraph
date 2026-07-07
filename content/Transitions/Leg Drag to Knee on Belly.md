@@ -66,7 +66,7 @@ Strategically, this transition serves multiple purposes in your passing game. Kn
 The biomechanical advantage of this transition lies in the leg drag's control over the opponent's hips. With their leg dragged across their body, the opponent cannot effectively bridge or create the hip movement necessary to prevent your knee placement. Your existing shoulder control from the leg drag position provides the upper body dominance needed to safely release the leg and transition your knee to their midsection. Understanding this connection between leg drag mechanics and knee on belly establishment is essential for high-percentage execution.
 
 **From Position**: [[Positions/Leg Drag Control]] (Top)
-**Success Rate**: 78%
+**Success Rate**: 57%
 
 </section>
 

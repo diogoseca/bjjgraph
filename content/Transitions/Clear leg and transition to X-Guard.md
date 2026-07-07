@@ -66,7 +66,7 @@ The biomechanical foundation of this transition relies on understanding the rela
 Strategically, this transition exemplifies modern leg lock defense philosophy: never simply escape, but escape to a position of advantage. By establishing X-Guard rather than returning to neutral, practitioners maintain lower body control over their opponent while eliminating the immediate leg lock threats. The resulting X-Guard position offers immediate sweep opportunities and leg attack pathways of your own, effectively punishing the opponent for their failed leg entanglement attempt.
 
 **From Position**: [[Positions/Leg Knot]] (Bottom)
-**Success Rate**: 50%
+**Success Rate**: 34%
 
 </section>
 

@@ -66,7 +66,7 @@ The technique exploits a fundamental vulnerability in front headlock control: th
 Strategically, the arm drag escape is most effective when your opponent commits their weight forward into head control rather than sprawling back. This forward commitment gives you the leverage needed to redirect their arm. The technique pairs naturally with other front headlock escapes—if you threaten the arm drag, your opponent must adjust their arm position, which can open pathways for technical standup or granby roll escapes. This makes it an essential component of a complete front headlock defense system.
 
 **From Position**: [[Positions/Front Headlock]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 40%
 
 </section>
 

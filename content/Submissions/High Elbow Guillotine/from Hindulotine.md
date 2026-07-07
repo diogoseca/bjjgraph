@@ -232,9 +232,7 @@ Strategically, this submission thrives when the opponent attempts to defend the 
 - [[Submissions/Arm in Guillotine]]
 - [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
-- [[Submissions/Chin Strap Guillotine]]
 - [[Submissions/Japanese Necktie]]
-- [[Submissions/Von Flue Choke]]
 - [[Positions/Hindulotine]] - Starting position providing rotational hip mechanics for this finish
 - [[Positions/Guillotine Control]] - Parent control position with standard guillotine mechanics
 - [[Positions/Closed Guard]] - Common guard recovery position after failed defense

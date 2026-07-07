@@ -66,7 +66,7 @@ This pass is particularly effective against opponents who rely on the underhook 
 When executed correctly, the crossface pass is one of the highest percentage methods for passing half guard, especially in no-gi situations where lapel grips are unavailable. It chains naturally with knee slice and smash pass variations, allowing the passer to create passing dilemmas based on the defender's reactions. The position also opens direct submission threats including the Kimura, Darce Choke, and Arm Triangle, transforming what begins as a passing sequence into a multi-layered offensive platform.
 
 **From Position**: [[Positions/Half Guard]] (Top)
-**Success Rate**: 65%
+**Success Rate**: 48%
 
 </section>
 

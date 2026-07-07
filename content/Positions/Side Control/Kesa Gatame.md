@@ -149,7 +149,7 @@ Kesa Gatame functions as a positional hub within the side control family, offeri
 
 - **[[Transitions/Bridge and Turn to Turtle/Attacker|Bridge and Turn to Turtle]]** (28% of attempts)
 
-- **[[Transitions/Ghost Escape/Attacker|Ghost Escape]]** (12% of attempts)
+- **[[Transitions/Ghost Escape from Side Control/Attacker|Ghost Escape from Side Control]]** (12% of attempts)
 
 - **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (10% of attempts)
 

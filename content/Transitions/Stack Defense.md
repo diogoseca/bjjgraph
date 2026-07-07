@@ -66,7 +66,7 @@ Effective stack defense requires recognizing the pass early, establishing strong
 This technique is critical for guard players at all levels, as the stack pass represents a high-percentage attack that can lead to side control, mount, or submission opportunities if not properly defended. Advanced practitioners chain stack defense directly into offensive transitions, using the opponent's failed pass as an opportunity to sweep, submit, or transition to more dynamic guard positions. The defensive-to-offensive flow that characterizes high-level guard play begins with mastering this fundamental defensive sequence.
 
 **From Position**: [[Positions/Closed Guard]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 44%
 
 </section>
 

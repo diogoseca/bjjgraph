@@ -66,7 +66,7 @@ The darce configuration is mechanically distinct from the anaconda because the c
 This transition is a critical branch in the buggy choke attack tree. Opponents who turn in to defend the collar grip inadvertently create the head-and-arm angle required for both darce and anaconda attacks. Choosing the darce over the anaconda depends on arm positioning and the specific angle of the opponent's rotation. The darce configuration offers a powerful finishing position because the choking arm's blade sits directly across the carotid with the opponent's own trapped shoulder acting as the secondary compression point. Once the figure-four locks, the top player sprawls and walks hips toward the head to generate finishing pressure through body mechanics rather than arm strength.
 
 **From Position**: [[Positions/Buggy Choke]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 39%
 
 </section>
 

@@ -66,7 +66,7 @@ The strategic importance of pummeling cannot be overstated in modern grappling. 
 At the highest levels, pummeling transcends simple arm swimming and becomes an integrated system combining level changes, pressure shifts, and feints to create windows for underhook establishment. Elite clinch fighters create the conditions that make pummeling succeed by manipulating the opponent's posture, weight distribution, and attention before executing the swim motion. This systematic approach transforms pummeling from a single technique into a complete positional control methodology.
 
 **From Position**: [[Positions/Clinch]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 46%
 
 </section>
 

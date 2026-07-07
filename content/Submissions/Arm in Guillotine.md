@@ -53,7 +53,7 @@ description: "Master Arm in Guillotine in BJJ. High-percentage front headlock ch
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Arm in Guillotine?", "acceptedAnswer": { "@type": "Answer", "text": "The Arm in Guillotine is a front-headlock blood choke that wraps the opponent\u0027s neck while trapping one of their arms inside the lock, removing their defensive hand-fighting and tightening carotid compression for a higher-percentage finish." } },
-    { "@type": "Question", "name": "What positions can you finish the Arm in Guillotine from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Arm in Guillotine from Front Headlock, Guillotine Control." } },
+    { "@type": "Question", "name": "What positions can you finish the Arm in Guillotine from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Arm in Guillotine from Guillotine Control, Front Headlock." } },
     { "@type": "Question", "name": "Is the Arm in Guillotine dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Arm in Guillotine targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early and release immediately on the tap." } }
   ]
 }
@@ -91,8 +91,8 @@ The Arm in Guillotine represents a powerful variation of the standard guillotine
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Arm in Guillotine/from Front Headlock|Front Headlock]] | Top | 58% | [[Submissions/Arm in Guillotine/from Front Headlock/Attacker|Attack →]] | [[Submissions/Arm in Guillotine/from Front Headlock/Defender|Defend →]] |
-| [[Submissions/Arm in Guillotine/from Guillotine Control|Guillotine Control]] | Top | 58% | [[Submissions/Arm in Guillotine/from Guillotine Control/Attacker|Attack →]] | [[Submissions/Arm in Guillotine/from Guillotine Control/Defender|Defend →]] |
+| [[Submissions/Arm in Guillotine/from Guillotine Control|Guillotine Control]] | Top | 62% | [[Submissions/Arm in Guillotine/from Guillotine Control/Attacker|Attack →]] | [[Submissions/Arm in Guillotine/from Guillotine Control/Defender|Defend →]] |
+| [[Submissions/Arm in Guillotine/from Front Headlock|Front Headlock]] | Top | 52% | [[Submissions/Arm in Guillotine/from Front Headlock/Attacker|Attack →]] | [[Submissions/Arm in Guillotine/from Front Headlock/Defender|Defend →]] |
 
 
 </div>
@@ -118,7 +118,6 @@ The Arm in Guillotine represents a powerful variation of the standard guillotine
 ## Related
 - [[Submissions/Guillotine Choke]] - Standard guillotine variant without arm trapped, primary comparison technique
 - [[Submissions/High Elbow Guillotine]] - Guillotine variant emphasizing carotid pressure through elevated elbow positioning
-- [[Submissions/Chin Strap Guillotine]] - Guillotine variant using chin strap grip for enhanced head control
 - [[Transitions/Anaconda Choke]] - Arm-in front headlock choke attacking from opposite threading angle
 - [[Submissions/Darce Choke]] - Arm-in choke accessible from similar front headlock setups with reversed arm path
 - [[Submissions/Arm Triangle]] - Related head-and-arm choke family with similar trapped arm principles

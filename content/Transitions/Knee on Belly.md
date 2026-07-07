@@ -66,7 +66,7 @@ The position's effectiveness stems from the concentrated pressure of your entire
 From a strategic perspective, Knee on Belly functions as a pressure multiplier that accelerates the pace of the match. The discomfort forces the bottom player to react rather than methodically defend, creating predictable movement patterns you can exploit. Common defensive reactions - pushing the knee, turning away, bridging - each open specific submission or positional advancement opportunities. Understanding this action-reaction dynamic transforms Knee on Belly from a static scoring position into an active hunting ground for finishing the match.
 
 **From Position**: [[Positions/Side Control]] (Top)
-**Success Rate**: 68%
+**Success Rate**: 48%
 
 </section>
 

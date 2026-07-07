@@ -66,7 +66,7 @@ The mechanics of this pass rely on the fundamental principle that upper body con
 This transition is particularly valuable in competition scenarios where time pressure demands positional scoring over submission hunting, and against opponents with exceptional leg lock defense who are difficult to finish from entangled positions. The pressure pass from Leg Knot integrates seamlessly into a broader top game strategy, allowing practitioners to flow between leg lock attacks and pressure passing based on the opponent's defensive reactions and the evolving tactical situation.
 
 **From Position**: [[Positions/Leg Knot]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 45%
 
 </section>
 

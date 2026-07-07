@@ -66,7 +66,7 @@ The technique addresses a common challenge in ashi garami systems: opponents who
 In competition settings, this transition has become increasingly important as leg lock defense has improved across all skill levels. Practitioners who can fluidly transition between ashi variations, including the backside 50-50, create layered offensive pressure that forces defenders to address multiple threats simultaneously. The entry rewards precise timing and controlled rotation over explosive movement, making it accessible to practitioners of all body types who invest in understanding the underlying mechanics.
 
 **From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 46%
 
 </section>
 

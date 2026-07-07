@@ -66,7 +66,7 @@ The transition typically occurs when the bottom player attempts to defend the re
 Understanding this positional flow is essential for any serious back attack specialist. It represents the logical evolution from basic back control to a more sophisticated control position that dramatically increases submission percentages while minimizing escape opportunities. Competition data consistently shows that practitioners who actively hunt for crucifix from back control have significantly higher finishing rates than those who rely solely on rear naked choke variations.
 
 **From Position**: [[Positions/Back Control]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 44%
 
 </section>
 

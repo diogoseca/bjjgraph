@@ -99,6 +99,14 @@ description: "Complete guide to defending the Old School Sweep from half guard t
         "@type": "Answer",
         "text": "Successfully defending the sweep often creates passing opportunities because the bottom player has committed energy and position to an attack that failed. Their lockdown may loosen as they fatigue, their underhook may become shallow, or they may transition to deep half guard which creates different passing angles. The most direct opportunity is advancing to side control through a knee slice or smash pass while the bottom player recovers from the failed sweep attempt and resets their controls."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the first three warning signs that indicate your opponent is setting up the Old School Sweep from bottom?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "First, you feel the lockdown tighten on your trapped leg with active extension tension. Second, the opponent begins fighting aggressively for an underhook on one side while turning onto their side. Third, their free arm reaches for your head, attempting to wrap around and pull your posture down. Recognizing this sequence early allows you to intervene at the underhook stage before all three controls are established, which is far easier than defending a fully loaded sweep."
+      }
     }
   ]
 }

@@ -54,7 +54,7 @@ description: "Master the Ezekiel Choke from inside closed guard top. Gi sleeve g
 <span class="meta-chip">Choke</span>
 <span class="meta-chip">Blood Choke</span>
 <span class="meta-chip">Targets Carotid arteries and trachea</span>
-<span class="meta-chip">40% success</span>
+<span class="meta-chip">58% success</span>
 </div>
 
 > [!danger] Safety

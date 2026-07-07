@@ -261,7 +261,6 @@ The armbar from mount serves as a gateway submission that opens pathways to mult
 - [[Submissions/Kimura]]
 - [[Submissions/Armbar]]
 - [[Submissions/Arm Triangle]]
-- [[Submissions/Flying Armbar]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Belly Down Armbar]]
 - [[Positions/Mount]] - Primary starting position for this submission

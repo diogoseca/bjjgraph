@@ -70,7 +70,7 @@ This counter is a cornerstone of high-level half guard passing because it does n
 The Half Guard Whizzer Counter rewards timing and structure over strength. Beginners often try to muscle the underhook out and end up trading grips repeatedly; advanced players read the underhook attempt early, overhook before it is fully established, and immediately convert the elevation and armpit seal into a flattening, passing, or back-taking sequence. Mastering this counter is what allows a passer to feel safe initiating pressure passing against a strong half guard, because the most threatening bottom-side grip becomes the entry to a controlling position.
 
 **From Position**: [[Positions/Half Guard]] (Top)
-**Success Rate**: 60%
+**Success Rate**: 36%
 
 </section>
 

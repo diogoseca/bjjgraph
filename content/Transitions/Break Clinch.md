@@ -66,7 +66,7 @@ The clinch break demands precise timing and mechanical efficiency. Simply pushin
 Strategic integration of the clinch break into your overall standing game requires recognizing when disengagement is preferable to counter-wrestling. Against opponents with superior clinch work, wrestling pedigrees, or significant size advantages, breaking the clinch to reset at distance can be a higher-percentage strategy than engaging in a prolonged grip battle you are likely to lose. The best clinch breakers treat separation as an active technique with specific mechanics rather than a reactive retreat, maintaining offensive threat throughout the disengagement process.
 
 **From Position**: [[Positions/Clinch]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 48%
 
 </section>
 

@@ -133,25 +133,23 @@ The position's reputation is divided: traditionalists view it as a stalling posi
 ### Available Transitions
 
 
-- **[[Transitions/Position reversal sweep to top/Attacker|Position reversal sweep to top]]** (21% of attempts)
+- **[[Transitions/Position reversal sweep to top/Attacker|Position reversal sweep to top]]** (23% of attempts)
 
-- **[[Transitions/Counter heel hook/Attacker|Counter heel hook]]** (11% of attempts)
+- **[[Transitions/Counter heel hook/Attacker|Counter heel hook]]** (12% of attempts)
 
-- **[[Transitions/50-50 Guard to Single Leg X-Guard/Attacker|50-50 Guard to Single Leg X-Guard]]** (20% of attempts)
+- **[[Transitions/50-50 Guard to Single Leg X-Guard/Attacker|50-50 Guard to Single Leg X-Guard]]** (21% of attempts)
 
-- **[[Transitions/Extract legs and stand up/Attacker|Extract legs and stand up]]** (20% of attempts)
+- **[[Transitions/Extract legs and stand up/Attacker|Extract legs and stand up]]** (21% of attempts)
 
 - **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (4% of attempts)
 
 - **[[Transitions/Kneebar entry/Attacker|Kneebar entry]]** (5% of attempts)
 
-- **[[Toe Hold from 50-50 Guard/Attacker|Toe Hold from 50-50 Guard]]** (6% of attempts)
+- **[[Toe Hold from 50-50/Attacker|Toe Hold from 50-50]]** (7% of attempts)
 
 - **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** (5% of attempts)
 
 - **[[Transitions/Aoki Lock/Attacker|Aoki Lock]]** (2% of attempts)
-
-- **[[Toe Hold from 50-50/Attacker|Toe Hold from 50-50]]** (6% of attempts)
 
 
 ### Common Mistakes
@@ -224,7 +222,7 @@ The position's reputation is divided: traditionalists view it as a stalling posi
 
 - **[[Transitions/50-50 Pass/Attacker|50-50 Pass]]** (7% of attempts)
 
-- **[[Toe Hold from 50-50 Guard/Attacker|Toe Hold from 50-50 Guard]]** (3% of attempts)
+- **[[Toe Hold from 50-50/Attacker|Toe Hold from 50-50]]** (3% of attempts)
 
 - **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (8% of attempts)
 

@@ -54,7 +54,7 @@ description: "Master the toe hold from Estima Lock in BJJ. Expert guide covering
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Leg Lock</span>
 <span class="meta-chip">Targets Ankle, toes, and foot ligaments</span>
-<span class="meta-chip">60% success</span>
+<span class="meta-chip">26% success</span>
 </div>
 
 > [!danger] Safety

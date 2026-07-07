@@ -66,7 +66,7 @@ Success depends on timing, hip mobility, and understanding weight distribution p
 This transition represents a key defensive skill that prevents opponents from consolidating dominant positions while allowing the defender to return to offensive guard positions where they can threaten sweeps and submissions. At the highest levels, the guard recovery is pre-loaded and executed in a fraction of a second when the opponent's weight shifts, making the timing window the primary variable that separates successful from failed attempts.
 
 **From Position**: [[Positions/Turtle]] (Bottom)
-**Success Rate**: 60%
+**Success Rate**: 44%
 
 </section>
 

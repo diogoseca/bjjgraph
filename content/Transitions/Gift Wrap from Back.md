@@ -66,7 +66,7 @@ This transition represents a critical intermediate step in the back attack syste
 The Gift Wrap from Back fits into a broader positional hierarchy where control refinement precedes submission attempts. By transitioning from standard back control to the Gift Wrap, the attacker upgrades their positional dominance without meaningful risk of position loss. The reduced defensive capability of the trapped opponent makes subsequent attacks—rear naked choke, armbar on the free arm, bow and arrow choke, and transitions to mount or crucifix—significantly higher percentage than attempting them from standard back control with full hand fighting resistance.
 
 **From Position**: [[Positions/Back Control]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 53%
 
 </section>
 
@@ -245,7 +245,7 @@ The Gift Wrap from Back occupies a pivotal role in the back attack system as the
 
 - [[Rear Naked Choke from Gift Wrap]] - Primary submission available after establishing gift wrap control from back
 
-- [[Submissions/Gift Wrap Armbar]] - Secondary submission targeting the free arm from gift wrap position
+- [[Gift Wrap Armbar]] - Secondary submission targeting the free arm from gift wrap position
 
 - [[Transitions/Back Control Maintenance]] - Alternative if gift wrap attempt fails and attacker retains back control
 

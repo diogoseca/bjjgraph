@@ -66,7 +66,7 @@ The strategic importance of this escape cannot be overstated - Inside Sankaku re
 The transition to Half Guard specifically is chosen because it allows you to immediately establish a knee shield and begin rebuilding your guard structure, rather than scrambling to an undefined open guard position. From Half Guard, you have clear pathways to guard recovery, sweeps, or standing back up - all superior to remaining in leg entanglement danger.
 
 **From Position**: [[Positions/Inside Sankaku]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 29%
 
 </section>
 

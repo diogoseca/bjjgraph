@@ -261,7 +261,7 @@ In the broader BJJ system, the Ankle Pick functions as both a primary attack and
 
 - [[Transitions/Double Leg Entry]] - Alternative takedown chain when opponent lifts ankle to defend
 
-- [[Transitions/Arm Drag from Standing]] - Alternative attack using collar tie grip to off-balance opponent and create angle
+- [[Arm Drag from Standing]] - Alternative attack using collar tie grip to off-balance opponent and create angle
 
 - [[Positions/Clinch]] - Position reached when ankle pick attempt is stuffed at close range
 

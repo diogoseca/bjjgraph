@@ -54,7 +54,7 @@ description: "Master the Choke from Crucifix in BJJ. Complete guide covering blo
 <span class="meta-chip">Choke</span>
 <span class="meta-chip">Blood Choke</span>
 <span class="meta-chip">Targets Carotid arteries and trachea</span>
-<span class="meta-chip">62% success</span>
+<span class="meta-chip">63% success</span>
 </div>
 
 > [!danger] Safety

@@ -54,7 +54,7 @@ description: "Master the belly down armbar finish from armbar control in BJJ. Le
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Arm Lock</span>
 <span class="meta-chip">Targets Elbow joint hyperextension and ulnar collateral ligament</span>
-<span class="meta-chip">50% success</span>
+<span class="meta-chip">56% success</span>
 </div>
 
 > [!danger] Safety

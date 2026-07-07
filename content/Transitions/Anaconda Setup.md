@@ -66,7 +66,7 @@ Unlike the traditional guillotine or Darce choke setups, the anaconda requires p
 This technique exemplifies the modern front headlock system's emphasis on control, patience, and positional dominance before attempting the finish. Rushing the setup often results in the opponent escaping to guard or achieving a single leg position, making methodical execution essential for success at all levels of competition.
 
 **From Position**: [[Positions/Front Headlock]] (Top)
-**Success Rate**: 65%
+**Success Rate**: 39%
 
 </section>
 

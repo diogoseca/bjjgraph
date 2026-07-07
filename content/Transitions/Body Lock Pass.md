@@ -66,7 +66,7 @@ The pass works by creating a connection that removes the bottom player's ability
 This pass is especially valuable against opponents with strong half guard retention, as the body lock neutralizes many common defensive reactions including knee shield, lockdown, and underhook battles. It forms a cornerstone of systematic pressure passing approaches and chains seamlessly with knee slice, leg drag, and back take options when the primary path is defended.
 
 **From Position**: [[Positions/Half Guard]] (Top)
-**Success Rate**: 68%
+**Success Rate**: 44%
 
 </section>
 

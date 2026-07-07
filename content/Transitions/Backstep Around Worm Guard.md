@@ -66,7 +66,7 @@ The backstep works by changing the vector of your passing approach entirely. Rat
 Strategically, this pass is most effective when opponent has committed heavily to the worm guard configuration but hasn't yet loaded offensive attacks. The timing window opens when they're focused on maintaining the wrap rather than attacking. The backstep creates a race condition: you're attempting to navigate around their guard faster than they can adjust the lapel configuration to follow your movement. Understanding this dynamic is essential for both execution timing and recognizing when opponents are setting traps by appearing committed to static worm guard while actually waiting to take your back.
 
 **From Position**: [[Positions/Lapel Guard]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 38%
 
 </section>
 

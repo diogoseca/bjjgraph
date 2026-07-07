@@ -66,7 +66,7 @@ The transition requires precise timing and grip sequencing. The attacker must ma
 Once the Kimura Trap is established from North-South, the position offers branching attack pathways: finish the Kimura submission directly, use the grip to roll the opponent and take the back, advance to mount while maintaining arm control, or switch to armbar attacks when the opponent straightens their arm defensively. This versatility makes the North-South to Kimura transition a cornerstone of systematic top-game offense, creating cascading dilemmas where every defensive reaction opens a different submission or positional threat.
 
 **From Position**: [[Positions/North-South]] (Top)
-**Success Rate**: 60%
+**Success Rate**: 48%
 
 </section>
 

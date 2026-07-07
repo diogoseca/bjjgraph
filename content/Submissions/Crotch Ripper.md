@@ -93,7 +93,7 @@ The Crotch Ripper represents the offensive potential of the lockdown system, tra
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Crotch Ripper/from Lockdown|Lockdown]] | Bottom | 42% | [[Submissions/Crotch Ripper/from Lockdown/Attacker|Attack →]] | [[Submissions/Crotch Ripper/from Lockdown/Defender|Defend →]] |
+| [[Submissions/Crotch Ripper/from Lockdown|Lockdown]] | Bottom | 62% | [[Submissions/Crotch Ripper/from Lockdown/Attacker|Attack →]] | [[Submissions/Crotch Ripper/from Lockdown/Defender|Defend →]] |
 
 
 </div>
