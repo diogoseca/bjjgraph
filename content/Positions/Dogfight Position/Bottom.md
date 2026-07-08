@@ -26,8 +26,8 @@ description: "Master the Dogfight position in BJJ half guard. Dynamic kneeling p
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 25% of exchanges from this position.",
+      "name": "Execute Half Guard to Back Take",
+      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 25% of exchanges from this position.",
       "position": 2
     },
     {

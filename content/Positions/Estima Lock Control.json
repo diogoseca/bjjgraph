@@ -558,36 +558,29 @@
       {
         "transition": "Ashi Garami Escape",
         "attempt_probability": {
-          "gi": 23,
-          "nogi": 23
+          "gi": 27,
+          "nogi": 27
         }
       },
       {
         "transition": "Leg Extraction",
         "attempt_probability": {
-          "gi": 41,
-          "nogi": 41
-        }
-      },
-      {
-        "transition": "Angle Change Escape",
-        "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 47,
+          "nogi": 47
         }
       },
       {
         "transition": "Standing Escape",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 15,
+          "nogi": 15
         }
       },
       {
         "transition": "50-50 Entry",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 9
         }
       },
       {

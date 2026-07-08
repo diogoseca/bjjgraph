@@ -26,8 +26,8 @@ description: "Master Piranha Guard Bottom in BJJ. Aggressive lapel-based guard w
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Collar Drag",
-      "text": "From this position, attempt Collar Drag. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Collar Drag from Open Guard",
+      "text": "From this position, attempt Collar Drag from Open Guard. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {

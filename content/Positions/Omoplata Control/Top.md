@@ -21,13 +21,13 @@ description: "Master Omoplata Control Top in BJJ. Dominant shoulder lock control
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata from Omoplata Control",
-      "text": "From this position, attempt Omoplata from Omoplata Control. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata from Omoplata Control. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata to Back",
-      "text": "From this position, attempt Omoplata to Back. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata to Back. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
@@ -45,7 +45,7 @@ description: "Master Omoplata Control Top in BJJ. Dominant shoulder lock control
     {
       "@type": "HowToStep",
       "name": "Execute Armbar on Free Arm",
-      "text": "From this position, attempt Armbar on Free Arm. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Armbar on Free Arm. This technique is attempted in 16% of exchanges from this position.",
       "position": 5
     },
     {

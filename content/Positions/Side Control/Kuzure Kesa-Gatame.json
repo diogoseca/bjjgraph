@@ -294,78 +294,71 @@
       {
         "transition": "Americana from Kuzure Kesa-Gatame",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
-        }
-      },
-      {
-        "transition": "Far Side Armbar",
-        "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 11,
+          "nogi": 11
         }
       },
       {
         "transition": "Kimura from Kuzure Kesa-Gatame",
-        "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
-        }
-      },
-      {
-        "transition": "Side Control to Mount",
-        "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
-        }
-      },
-      {
-        "transition": "Side Control to North-South",
         "attempt_probability": {
           "gi": 11,
           "nogi": 11
         }
       },
       {
-        "transition": "Paper Cutter Choke from Kuzure Kesa-Gatame",
+        "transition": "Side Control to Mount",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 11,
+          "nogi": 11
         }
       },
       {
-        "transition": "Arm Triangle from Kuzure Kesa-Gatame",
+        "transition": "Side Control to North-South",
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 12
+        }
+      },
+      {
+        "transition": "Paper Cutter Choke from Kuzure Kesa-Gatame",
         "attempt_probability": {
           "gi": 10,
           "nogi": 10
         }
       },
       {
+        "transition": "Arm Triangle from Kuzure Kesa-Gatame",
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
+        }
+      },
+      {
         "transition": "Breadcutter Choke from Kuzure Kesa-Gatame",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Armbar on Free Arm",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Gift Wrap Control",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Belly Down Armbar from Kuzure Kesa-Gatame",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 5,
+          "nogi": 5
         }
       }
     ]

@@ -134,9 +134,9 @@ Understanding Lasso Guard requires appreciation for both its strengths and limit
 ### Available Transitions
 
 
-- **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** (24% of attempts)
+- **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** (25% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (15% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (16% of attempts)
 
 - **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (13% of attempts)
 
@@ -153,8 +153,6 @@ Understanding Lasso Guard requires appreciation for both its strengths and limit
 - **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (3% of attempts)
 
 - **[[Transitions/Lasso Guard to Inverted Lasso Guard/Attacker|Lasso Guard to Inverted Lasso Guard]]** (3% of attempts)
-
-- **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (2% of attempts)
 
 - **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (2% of attempts)
 

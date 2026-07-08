@@ -298,43 +298,36 @@
       {
         "transition": "Armbar from Crucifix",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
-        }
-      },
-      {
-        "transition": "Armbar from Crucifix",
-        "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 12,
+          "nogi": 12
         }
       },
       {
         "transition": "Rear Naked Choke from Mounted Crucifix",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Back Control to Crucifix",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Armbar on Free Arm",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Gift Wrap to Technical Mount",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
@@ -354,22 +347,22 @@
       {
         "transition": "Mounted Crucifix to S Mount",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Gift Wrap Transition",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Back Take from Top",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 10,
+          "nogi": 10
         }
       },
       {

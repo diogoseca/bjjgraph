@@ -216,19 +216,17 @@ Overhook Guard represents a fundamental control concept that appears throughout 
 ### Available Transitions
 
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (24% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (27% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (15% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (17% of attempts)
 
-- **[[Transitions/Over-Under Pass/Attacker|Over-Under Pass]]** (14% of attempts)
+- **[[Transitions/Over-Under Pass/Attacker|Over-Under Pass]]** (16% of attempts)
 
-- **[[Transitions/Overhook Pass to Side Control/Attacker|Overhook Pass to Side Control]]** (14% of attempts)
+- **[[Transitions/Overhook Pass to Side Control/Attacker|Overhook Pass to Side Control]]** (16% of attempts)
 
-- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (12% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (14% of attempts)
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (12% of attempts)
-
-- **[[Transitions/Break Overhook Guard/Attacker|Break Overhook Guard]]** (6% of attempts)
+- **[[Transitions/Break Overhook Guard/Attacker|Break Overhook Guard]]** (7% of attempts)
 
 - **[[Transitions/Pass Overhook Guard/Attacker|Pass Overhook Guard]]** (3% of attempts)
 

@@ -208,25 +208,21 @@ Scarf Hold Position represents a transitional control platform rather than purel
 ### Available Transitions
 
 
-- **[[Americana from Scarf Hold Position/Attacker|Americana from Scarf Hold Position]]** (13% of attempts)
+- **[[Americana from Scarf Hold Position/Attacker|Americana from Scarf Hold Position]]** (15% of attempts)
 
-- **[[Kimura from Scarf Hold Position/Attacker|Kimura from Scarf Hold Position]]** (12% of attempts)
+- **[[Kimura from Scarf Hold Position/Attacker|Kimura from Scarf Hold Position]]** (14% of attempts)
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (14% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (16% of attempts)
 
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (23% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (26% of attempts)
 
-- **[[Submissions/Far Side Armbar/Attacker|Far Side Armbar]]** (11% of attempts)
+- **[[Arm Triangle from Scarf Hold Position/Attacker|Arm Triangle from Scarf Hold Position]]** (15% of attempts)
 
-- **[[Arm Triangle from Scarf Hold Position/Attacker|Arm Triangle from Scarf Hold Position]]** (13% of attempts)
-
-- **[[Transitions/Scarf Hold to Mount/Attacker|Scarf Hold to Mount]]** (5% of attempts)
+- **[[Transitions/Scarf Hold to Mount/Attacker|Scarf Hold to Mount]]** (6% of attempts)
 
 - **[[Transitions/Scarf Hold to Side Control/Attacker|Scarf Hold to Side Control]]** (3% of attempts)
 
-- **[[Transitions/Back Take from Kesa Gatame/Attacker|Back Take from Kesa Gatame]]** (2% of attempts)
-
-- **[[Belly Down Armbar from Scarf Hold Position/Attacker|Belly Down Armbar from Scarf Hold Position]]** (4% of attempts)
+- **[[Belly Down Armbar from Scarf Hold Position/Attacker|Belly Down Armbar from Scarf Hold Position]]** (5% of attempts)
 
 
 ### Common Mistakes

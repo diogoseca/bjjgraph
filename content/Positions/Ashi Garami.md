@@ -221,21 +221,19 @@ Understanding Ashi Garami requires recognizing the position as a complete system
 ### Available Transitions
 
 
-- **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** (38% of attempts)
+- **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** (44% of attempts)
 
-- **[[Transitions/Counter Ashi Entry/Attacker|Counter Ashi Entry]]** (15% of attempts)
+- **[[Transitions/Counter Ashi Entry/Attacker|Counter Ashi Entry]]** (17% of attempts)
 
-- **[[Transitions/Pass to Side Control/Attacker|Pass to Side Control]]** (8% of attempts)
+- **[[Transitions/Pass to Side Control/Attacker|Pass to Side Control]]** (9% of attempts)
 
-- **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** (4% of attempts)
+- **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** (5% of attempts)
 
-- **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (13% of attempts)
+- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (11% of attempts)
 
-- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (10% of attempts)
+- **[[Toe Hold from Ashi Garami/Attacker|Toe Hold from Ashi Garami]]** (7% of attempts)
 
-- **[[Toe Hold from Ashi Garami/Attacker|Toe Hold from Ashi Garami]]** (6% of attempts)
-
-- **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** (4% of attempts)
+- **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** (5% of attempts)
 
 - **[[Transitions/Ashi Garami to Leg Entanglement/Attacker|Ashi Garami to Leg Entanglement]]** (2% of attempts)
 

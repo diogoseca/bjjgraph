@@ -293,50 +293,43 @@
       {
         "transition": "Americana from Scarf Hold Position",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 15,
+          "nogi": 15
         }
       },
       {
         "transition": "Kimura from Scarf Hold Position",
-        "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
-        }
-      },
-      {
-        "transition": "Side Control to Mount",
         "attempt_probability": {
           "gi": 14,
           "nogi": 14
         }
       },
       {
-        "transition": "Side Control to North-South",
+        "transition": "Side Control to Mount",
         "attempt_probability": {
-          "gi": 23,
-          "nogi": 23
+          "gi": 16,
+          "nogi": 16
         }
       },
       {
-        "transition": "Far Side Armbar",
+        "transition": "Side Control to North-South",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 26,
+          "nogi": 26
         }
       },
       {
         "transition": "Arm Triangle from Scarf Hold Position",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 15,
+          "nogi": 15
         }
       },
       {
         "transition": "Scarf Hold to Mount",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 6,
+          "nogi": 6
         }
       },
       {
@@ -347,17 +340,10 @@
         }
       },
       {
-        "transition": "Back Take from Kesa Gatame",
-        "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
-        }
-      },
-      {
         "transition": "Belly Down Armbar from Scarf Hold Position",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 5,
+          "nogi": 5
         }
       }
     ]

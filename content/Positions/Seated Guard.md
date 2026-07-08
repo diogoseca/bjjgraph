@@ -143,7 +143,7 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 
 - **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (11% of attempts)
 
-- **[[Transitions/Ankle Pick/Attacker|Ankle Pick]]** (10% of attempts)
+- **[[Transitions/Ankle Pick Sweep/Attacker|Ankle Pick Sweep]]** (10% of attempts)
 
 - **[[Transitions/Tripod Sweep/Attacker|Tripod Sweep]]** (11% of attempts)
 

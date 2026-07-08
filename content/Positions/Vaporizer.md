@@ -135,19 +135,17 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 ### Available Transitions
 
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (26% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (31% of attempts)
 
-- **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** (16% of attempts)
+- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (21% of attempts)
 
-- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (18% of attempts)
+- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (10% of attempts)
 
-- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (8% of attempts)
+- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (16% of attempts)
 
-- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (13% of attempts)
+- **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (15% of attempts)
 
-- **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (13% of attempts)
-
-- **[[Transitions/Escape Vaporizer/Attacker|Escape Vaporizer]]** (4% of attempts)
+- **[[Transitions/Escape Vaporizer/Attacker|Escape Vaporizer]]** (5% of attempts)
 
 - **[[Transitions/Roll from Vaporizer/Attacker|Roll from Vaporizer]]** (2% of attempts)
 

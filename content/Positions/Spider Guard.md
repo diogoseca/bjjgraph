@@ -228,21 +228,19 @@ The effectiveness of Spider Guard relies heavily on grip strength, hip mobility,
 ### Available Transitions
 
 
-- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (22% of attempts)
+- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (25% of attempts)
 
-- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (13% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (15% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (13% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (14% of attempts)
 
-- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (12% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (13% of attempts)
 
-- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (11% of attempts)
+- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (12% of attempts)
 
-- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (11% of attempts)
+- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (12% of attempts)
 
-- **[[Transitions/Grip Break/Attacker|Grip Break]]** (10% of attempts)
-
-- **[[Transitions/Spider Guard Pass/Attacker|Spider Guard Pass]]** (5% of attempts)
+- **[[Transitions/Spider Guard Pass/Attacker|Spider Guard Pass]]** (6% of attempts)
 
 - **[[Transitions/Stack Pass from Spider/Attacker|Stack Pass from Spider]]** (3% of attempts)
 

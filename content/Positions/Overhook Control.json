@@ -319,71 +319,64 @@
       {
         "transition": "Kimura from Overhook Control",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 16
+          "gi": 18,
+          "nogi": 18
         }
       },
       {
         "transition": "Darce Choke from Overhook Control",
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
+        }
+      },
+      {
+        "transition": "Anaconda Choke",
         "attempt_probability": {
           "gi": 10,
           "nogi": 10
         }
       },
       {
-        "transition": "Anaconda Choke",
+        "transition": "Two-on-One to Back Take",
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
+        }
+      },
+      {
+        "transition": "Snap Down to Front Headlock",
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 13
+        }
+      },
+      {
+        "transition": "Crab Ride to Back",
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
+        }
+      },
+      {
+        "transition": "Crucifix from Turtle",
         "attempt_probability": {
           "gi": 9,
           "nogi": 9
         }
       },
       {
-        "transition": "Arm Drag to Back",
-        "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
-        }
-      },
-      {
-        "transition": "Two-on-One to Back Take",
-        "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
-        }
-      },
-      {
-        "transition": "Snap Down to Front Headlock",
-        "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
-        }
-      },
-      {
-        "transition": "Crab Ride to Back",
-        "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
-        }
-      },
-      {
-        "transition": "Crucifix from Turtle",
-        "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
-        }
-      },
-      {
         "transition": "Side Control to Mount",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 12,
+          "nogi": 12
         }
       },
       {
         "transition": "Overhook Pass to Side Control",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 5,
+          "nogi": 5
         }
       }
     ]
@@ -627,40 +620,33 @@
       {
         "transition": "Arm Drag to Back",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 12,
+          "nogi": 12
         }
       },
       {
         "transition": "Overhook Sweep",
         "attempt_probability": {
-          "gi": 22,
-          "nogi": 22
+          "gi": 25,
+          "nogi": 25
         }
       },
       {
         "transition": "Butterfly Sweep",
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 12
+        }
+      },
+      {
+        "transition": "Triangle Setup",
         "attempt_probability": {
           "gi": 11,
           "nogi": 11
         }
       },
       {
-        "transition": "Triangle Setup",
-        "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
-        }
-      },
-      {
         "transition": "Closed Guard to Omoplata",
-        "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
-        }
-      },
-      {
-        "transition": "Guillotine Setup",
         "attempt_probability": {
           "gi": 10,
           "nogi": 10
@@ -669,22 +655,22 @@
       {
         "transition": "Elevator Sweep",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 12,
+          "nogi": 12
         }
       },
       {
         "transition": "Old School Sweep",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 11,
+          "nogi": 11
         }
       },
       {
         "transition": "Overhook Control Sweep",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 5,
+          "nogi": 5
         }
       },
       {

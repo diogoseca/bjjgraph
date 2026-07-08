@@ -208,21 +208,17 @@ Technical Mount is most commonly entered from regular mount during armbar attemp
 ### Available Transitions
 
 
-- **[[Armbar from Technical Mount/Attacker|Armbar from Technical Mount]]** (42% of attempts)
+- **[[Armbar from Technical Mount/Attacker|Armbar from Technical Mount]]** (48% of attempts)
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (18% of attempts)
+- **[[Transitions/Back Take/Attacker|Back Take]]** (20% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (8% of attempts)
+- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (7% of attempts)
 
-- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (6% of attempts)
+- **[[Transitions/Gift Wrap Control/Attacker|Gift Wrap Control]]** (7% of attempts)
 
-- **[[Transitions/Gift Wrap Control/Attacker|Gift Wrap Control]]** (6% of attempts)
+- **[[Transitions/Technical Mount to Back Control/Attacker|Technical Mount to Back Control]]** (5% of attempts)
 
-- **[[Transitions/High Mount Transition/Attacker|High Mount Transition]]** (4% of attempts)
-
-- **[[Transitions/Technical Mount to Back Control/Attacker|Technical Mount to Back Control]]** (4% of attempts)
-
-- **[[Transitions/Technical Mount to Mount/Attacker|Technical Mount to Mount]]** (4% of attempts)
+- **[[Transitions/Technical Mount to Mount/Attacker|Technical Mount to Mount]]** (5% of attempts)
 
 - **[[Transitions/Technical Mount to S Mount/Attacker|Technical Mount to S Mount]]** (4% of attempts)
 

@@ -82,8 +82,8 @@
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 12,
+          "nogi": 12
         }
       },
       {
@@ -124,8 +124,8 @@
       {
         "transition": "Butterfly Smash",
         "attempt_probability": {
-          "gi": 47,
-          "nogi": 47
+          "gi": 49,
+          "nogi": 49
         }
       },
       {
@@ -140,13 +140,6 @@
         "attempt_probability": {
           "gi": 7,
           "nogi": 7
-        }
-      },
-      {
-        "transition": "Standing up in Base",
-        "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
         }
       },
       {
@@ -394,8 +387,8 @@
       {
         "transition": "Butterfly Sweep",
         "attempt_probability": {
-          "gi": 36,
-          "nogi": 36
+          "gi": 37,
+          "nogi": 37
         }
       },
       {
@@ -487,13 +480,6 @@
         "attempt_probability": {
           "gi": 2,
           "nogi": 2
-        }
-      },
-      {
-        "transition": "Aoki Lock",
-        "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
         }
       },
       {

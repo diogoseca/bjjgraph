@@ -218,27 +218,25 @@ Leg Entanglement represents a comprehensive positional system in modern Brazilia
 ### Available Transitions
 
 
-- **[[Kneebar from Leg Entanglement/Attacker|Kneebar from Leg Entanglement]]** (13% of attempts)
+- **[[Kneebar from Leg Entanglement/Attacker|Kneebar from Leg Entanglement]]** (14% of attempts)
 
-- **[[Outside Heel Hook from Leg Entanglement/Attacker|Outside Heel Hook from Leg Entanglement]]** (12% of attempts)
+- **[[Outside Heel Hook from Leg Entanglement/Attacker|Outside Heel Hook from Leg Entanglement]]** (13% of attempts)
 
-- **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** (12% of attempts)
+- **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** (13% of attempts)
 
-- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (10% of attempts)
+- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (11% of attempts)
 
-- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (10% of attempts)
+- **[[Toe Hold from Leg Entanglement/Attacker|Toe Hold from Leg Entanglement]]** (9% of attempts)
 
-- **[[Toe Hold from Leg Entanglement/Attacker|Toe Hold from Leg Entanglement]]** (8% of attempts)
+- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (8% of attempts)
 
-- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (7% of attempts)
+- **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** (8% of attempts)
 
-- **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** (7% of attempts)
+- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (7% of attempts)
 
-- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (6% of attempts)
+- **[[Transitions/Ashi Entry from Leg Entanglement/Attacker|Ashi Entry from Leg Entanglement]]** (6% of attempts)
 
-- **[[Transitions/Ashi Entry from Leg Entanglement/Attacker|Ashi Entry from Leg Entanglement]]** (5% of attempts)
-
-- **[[Transitions/Leg Extraction Pass/Attacker|Leg Extraction Pass]]** (5% of attempts)
+- **[[Transitions/Leg Extraction Pass/Attacker|Leg Extraction Pass]]** (6% of attempts)
 
 - **[[Transitions/Guard Pass from Leg Entanglement/Attacker|Guard Pass from Leg Entanglement]]** (5% of attempts)
 

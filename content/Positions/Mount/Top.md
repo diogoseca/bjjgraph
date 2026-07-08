@@ -21,7 +21,7 @@ description: "Master offensive strategies from top Mount in BJJ. Learn control m
     {
       "@type": "HowToStep",
       "name": "Execute Mount to Armbar",
-      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 6% of exchanges from this position.",
       "position": 1
     },
     {
@@ -44,14 +44,14 @@ description: "Master offensive strategies from top Mount in BJJ. Learn control m
     },
     {
       "@type": "HowToStep",
-      "name": "Execute High Mount Transition",
-      "text": "From this position, attempt High Mount Transition. This technique is attempted in 5% of exchanges from this position.",
+      "name": "Execute Mounted Triangle",
+      "text": "From this position, attempt Mounted Triangle. This technique is attempted in 3% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Mounted Triangle",
-      "text": "From this position, attempt Mounted Triangle. This technique is attempted in 3% of exchanges from this position.",
+      "name": "Execute Consolidate Mount",
+      "text": "From this position, attempt Consolidate Mount. This technique is attempted in 37% of exchanges from this position.",
       "position": 6
     }
   ],

@@ -141,23 +141,21 @@ Strategically, the Kimura Trap excels at creating dilemmas where opponents must 
 ### Available Transitions
 
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (29% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (31% of attempts)
 
-- **[[Transitions/Kimura to Back Take/Attacker|Kimura to Back Take]]** (14% of attempts)
+- **[[Transitions/Kimura to Back Take/Attacker|Kimura to Back Take]]** (15% of attempts)
 
-- **[[Transitions/Rolling Kimura/Attacker|Rolling Kimura]]** (10% of attempts)
+- **[[Transitions/Rolling Kimura/Attacker|Rolling Kimura]]** (11% of attempts)
 
-- **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (9% of attempts)
+- **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (10% of attempts)
 
-- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (6% of attempts)
+- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (7% of attempts)
 
 - **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (6% of attempts)
 
 - **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (6% of attempts)
 
 - **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (6% of attempts)
-
-- **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** (6% of attempts)
 
 - **[[Transitions/Kimura Defense/Attacker|Kimura Defense]]** (3% of attempts)
 

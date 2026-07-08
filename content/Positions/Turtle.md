@@ -210,7 +210,7 @@ Turtle position is a transitional defensive posture in Brazilian Jiu-Jitsu where
 ### Available Transitions
 
 
-- **[[Transitions/Turtle to Back Control/Attacker|Turtle to Back Control]]** (56% of attempts)
+- **[[Transitions/Turtle to Back Control/Attacker|Turtle to Back Control]]** (54% of attempts)
 
 - **[[Transitions/Chair Sit to Back/Attacker|Chair Sit to Back]]** (3% of attempts)
 
@@ -244,7 +244,9 @@ Turtle position is a transitional defensive posture in Brazilian Jiu-Jitsu where
 
 - **[[Transitions/Turtle to Aoki Lock/Attacker|Turtle to Aoki Lock]]** (7% of attempts)
 
-- **[[Transitions/Turtle to Russian Cowboy/Attacker|Turtle to Russian Cowboy]]** (10% of attempts)
+- **[[Transitions/Turtle to Russian Cowboy/Attacker|Turtle to Russian Cowboy]]** (9% of attempts)
+
+- **[[Transitions/Kiss of the Dragon/Attacker|Kiss of the Dragon]]** (3% of attempts)
 
 
 ### Common Mistakes

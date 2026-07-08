@@ -287,36 +287,29 @@
       {
         "transition": "Triangle Choke from Mounted Triangle",
         "attempt_probability": {
-          "gi": 23,
-          "nogi": 23
+          "gi": 25,
+          "nogi": 25
         }
       },
       {
         "transition": "Armbar on Free Arm",
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
+      },
+      {
+        "transition": "Back Take",
         "attempt_probability": {
           "gi": 9,
           "nogi": 9
         }
       },
       {
-        "transition": "Switch to Triangle",
-        "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
-        }
-      },
-      {
-        "transition": "Back Take",
-        "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
-        }
-      },
-      {
         "transition": "Consolidate Mount",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
@@ -336,22 +329,22 @@
       {
         "transition": "S-Mount Transition",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Triangle to Armbar",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Triangle to Back",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 8,
+          "nogi": 8
         }
       },
       {

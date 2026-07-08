@@ -145,27 +145,23 @@ The position also serves an important pedagogical function in teaching fundament
 ### Available Transitions
 
 
-- **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** (29% of attempts)
+- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (20% of attempts)
 
-- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (12% of attempts)
+- **[[Transitions/X-Guard to Ashi Garami/Attacker|X-Guard to Ashi Garami]]** (10% of attempts)
 
-- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (10% of attempts)
+- **[[Transitions/50-50 Entry from Standing/Attacker|50-50 Entry from Standing]]** (13% of attempts)
 
-- **[[Transitions/X-Guard to Ashi Garami/Attacker|X-Guard to Ashi Garami]]** (6% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (15% of attempts)
 
-- **[[Transitions/50-50 Entry from Standing/Attacker|50-50 Entry from Standing]]** (8% of attempts)
+- **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (13% of attempts)
 
-- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (9% of attempts)
+- **[[Transitions/Ankle Pick Sweep/Attacker|Ankle Pick Sweep]]** (11% of attempts)
 
-- **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (8% of attempts)
+- **[[Transitions/Straight Footlock/Attacker|Straight Footlock]]** (5% of attempts)
 
-- **[[Transitions/Ankle Pick Sweep/Attacker|Ankle Pick Sweep]]** (7% of attempts)
+- **[[Transitions/Ankle Lock Escape to Standing/Attacker|Ankle Lock Escape to Standing]]** (3% of attempts)
 
-- **[[Transitions/Straight Footlock/Attacker|Straight Footlock]]** (3% of attempts)
-
-- **[[Transitions/Ankle Lock Escape to Standing/Attacker|Ankle Lock Escape to Standing]]** (2% of attempts)
-
-- **[[Kneebar from Straight Ankle Lock Control/Attacker|Kneebar from Straight Ankle Lock Control]]** (6% of attempts)
+- **[[Kneebar from Straight Ankle Lock Control/Attacker|Kneebar from Straight Ankle Lock Control]]** (10% of attempts)
 
 
 ### Common Mistakes

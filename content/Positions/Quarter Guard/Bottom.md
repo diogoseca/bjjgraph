@@ -21,37 +21,37 @@ description: "Master Quarter Guard Bottom in BJJ. Learn sweeps, back takes, and 
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard to Back Take",
-      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 17% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 16% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Electric Chair Transition",
+      "text": "From this position, attempt Electric Chair Transition. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Electric Chair Transition",
-      "text": "From this position, attempt Electric Chair Transition. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Knee Shield Retention",
+      "text": "From this position, attempt Knee Shield Retention. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],

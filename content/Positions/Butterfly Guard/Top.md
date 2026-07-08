@@ -21,7 +21,7 @@ description: "Navigate Butterfly Guard Top in BJJ. Passing strategies against ho
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {

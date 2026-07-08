@@ -137,13 +137,11 @@ The Standing Rear Clinch holds particular importance in no-gi grappling and MMA 
 ### Available Transitions
 
 
-- **[[Transitions/Defense from Standing Rear Clinch/Attacker|Defense from Standing Rear Clinch]]** (30% of attempts)
+- **[[Transitions/Defense from Standing Rear Clinch/Attacker|Defense from Standing Rear Clinch]]** (40% of attempts)
 
-- **[[Transitions/Standing Switch from Rear Clinch/Attacker|Standing Switch from Rear Clinch]]** (25% of attempts)
+- **[[Transitions/Standing Switch from Rear Clinch/Attacker|Standing Switch from Rear Clinch]]** (33% of attempts)
 
-- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (25% of attempts)
-
-- **[[Transitions/Counter Throw from Standing Rear Clinch/Attacker|Counter Throw from Standing Rear Clinch]]** (20% of attempts)
+- **[[Transitions/Counter Throw from Standing Rear Clinch/Attacker|Counter Throw from Standing Rear Clinch]]** (27% of attempts)
 
 
 ### Common Mistakes

@@ -328,36 +328,29 @@
       {
         "transition": "Guillotine Choke from Guillotine Control",
         "attempt_probability": {
-          "gi": 44,
-          "nogi": 44
-        }
-      },
-      {
-        "transition": "High Elbow Guillotine Variation",
-        "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 50,
+          "nogi": 50
         }
       },
       {
         "transition": "Front Headlock to Anaconda",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 6,
+          "nogi": 6
         }
       },
       {
         "transition": "Front Headlock to Darce",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 6,
+          "nogi": 6
         }
       },
       {
         "transition": "Side Control to Mount",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 6,
+          "nogi": 6
         }
       },
       {
@@ -370,8 +363,8 @@
       {
         "transition": "Pass to Side Control",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 8,
+          "nogi": 8
         }
       },
       {
@@ -405,8 +398,8 @@
       {
         "transition": "High Elbow Guillotine from Guillotine Control",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 14,
+          "nogi": 14
         }
       },
       {
@@ -694,15 +687,15 @@
       {
         "transition": "Guillotine Choke from Guillotine Control",
         "attempt_probability": {
-          "gi": 50,
-          "nogi": 50
+          "gi": 52,
+          "nogi": 52
         }
       },
       {
         "transition": "High Elbow Guillotine Variation",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 14,
+          "nogi": 14
         }
       },
       {
@@ -738,13 +731,6 @@
         "attempt_probability": {
           "gi": 6,
           "nogi": 6
-        }
-      },
-      {
-        "transition": "Guillotine Setup",
-        "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
         }
       },
       {

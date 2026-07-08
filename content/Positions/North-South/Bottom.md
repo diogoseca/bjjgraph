@@ -21,7 +21,7 @@ description: "Escape North-South bottom position in BJJ. Comprehensive guide to 
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Guard",
-      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
@@ -33,13 +33,13 @@ description: "Escape North-South bottom position in BJJ. Comprehensive guide to 
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Turn to Turtle",
-      "text": "From this position, attempt Bridge and Turn to Turtle. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Turn to Turtle. This technique is attempted in 16% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {

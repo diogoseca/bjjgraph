@@ -300,15 +300,15 @@
       {
         "transition": "Head Extraction to Posture",
         "attempt_probability": {
-          "gi": 29,
-          "nogi": 29
+          "gi": 33,
+          "nogi": 33
         }
       },
       {
         "transition": "Shin Removal to Pass",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 4,
+          "nogi": 4
         }
       },
       {
@@ -319,45 +319,31 @@
         }
       },
       {
-        "transition": "Stack Defense",
-        "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
-        }
-      },
-      {
         "transition": "Angle Change Escape",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 14,
+          "nogi": 14
         }
       },
       {
         "transition": "Hand Control to Extract",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Roll to Turtle",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
-        }
-      },
-      {
-        "transition": "Explosive Bridge to Guard Recovery",
-        "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 14,
+          "nogi": 14
         }
       },
       {
         "transition": "Posture Recovery",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
@@ -377,8 +363,8 @@
       {
         "transition": "Gogoplata from Gogoplata Control",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 8,
+          "nogi": 8
         }
       }
     ]
@@ -625,38 +611,31 @@
     },
     "transitions": [
       {
-        "transition": "Gogoplata",
+        "transition": "Gogoplata from Gogoplata Control",
         "attempt_probability": {
-          "gi": 35,
-          "nogi": 35
-        }
-      },
-      {
-        "transition": "Switch to Triangle",
-        "attempt_probability": {
-          "gi": 22,
-          "nogi": 22
-        }
-      },
-      {
-        "transition": "Back Take",
-        "attempt_probability": {
-          "gi": 18,
-          "nogi": 18
+          "gi": 55,
+          "nogi": 55
         }
       },
       {
         "transition": "Closed Guard to Omoplata",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 17
+          "gi": 28,
+          "nogi": 28
         }
       },
       {
         "transition": "Mission Control Recovery",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 14,
+          "nogi": 14
+        }
+      },
+      {
+        "transition": "High Mount Transition",
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
         }
       }
     ]

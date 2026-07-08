@@ -225,57 +225,43 @@
       {
         "transition": "Overhook Escape",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 21,
+          "nogi": 21
         }
       },
       {
         "transition": "Posture Recovery",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 20,
+          "nogi": 20
         }
       },
       {
         "transition": "Crossface to Combat Base",
         "attempt_probability": {
-          "gi": 24,
-          "nogi": 24
+          "gi": 33,
+          "nogi": 33
         }
       },
       {
         "transition": "Stack Pass",
-        "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
-        }
-      },
-      {
-        "transition": "Leg Extraction",
         "attempt_probability": {
           "gi": 15,
           "nogi": 15
         }
       },
       {
-        "transition": "Standing Escape",
-        "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
-        }
-      },
-      {
         "transition": "New York Control Escape",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 7,
+          "nogi": 7
         }
       },
       {
         "transition": "Guard Pass from New York Control",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 4,
+          "nogi": 4
         }
       }
     ],
@@ -596,7 +582,7 @@
         }
       },
       {
-        "transition": "Armbar on Free Arm",
+        "transition": "Armbar from New York",
         "attempt_probability": {
           "gi": 6,
           "nogi": 6

@@ -336,80 +336,66 @@
     },
     "transitions": [
       {
-        "transition": "Heel Hook from Backside 50-50",
-        "attempt_probability": {
-          "gi": 38,
-          "nogi": 38
-        }
-      },
-      {
         "transition": "Toe Hold from Backside 50-50",
-        "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
-        }
-      },
-      {
-        "transition": "Straight Ankle Lock Entry",
-        "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
-        }
-      },
-      {
-        "transition": "Saddle Entry from Top",
-        "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
-        }
-      },
-      {
-        "transition": "Kneebar",
-        "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
-        }
-      },
-      {
-        "transition": "50-50 Pass",
-        "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
-        }
-      },
-      {
-        "transition": "Back Take from 50-50",
         "attempt_probability": {
           "gi": 14,
           "nogi": 14
         }
       },
       {
+        "transition": "Saddle Entry from Top",
+        "attempt_probability": {
+          "gi": 17,
+          "nogi": 17
+        }
+      },
+      {
+        "transition": "Kneebar",
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 8
+        }
+      },
+      {
+        "transition": "50-50 Pass",
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 7
+        }
+      },
+      {
+        "transition": "Back Take from 50-50",
+        "attempt_probability": {
+          "gi": 24,
+          "nogi": 24
+        }
+      },
+      {
         "transition": "Calf Slicer from Backside 50-50",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 3,
+          "nogi": 3
         }
       },
       {
         "transition": "Inside Ashi-Garami to Honey Hole",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 7,
+          "nogi": 7
         }
       },
       {
         "transition": "Counter heel hook",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 3,
+          "nogi": 3
         }
       },
       {
         "transition": "Outside Heel Hook from Backside 50-50",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 17,
+          "nogi": 17
         }
       }
     ]
@@ -697,15 +683,15 @@
       {
         "transition": "Ashi Garami Escape",
         "attempt_probability": {
-          "gi": 44,
-          "nogi": 44
+          "gi": 46,
+          "nogi": 46
         }
       },
       {
         "transition": "Counter-entangle to 50-50 Guard",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 12,
+          "nogi": 12
         }
       },
       {
@@ -716,7 +702,7 @@
         }
       },
       {
-        "transition": "Rolling Back Take",
+        "transition": "Back Take from 50-50",
         "attempt_probability": {
           "gi": 7,
           "nogi": 7
@@ -730,17 +716,10 @@
         }
       },
       {
-        "transition": "Angle Change Escape",
-        "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
-        }
-      },
-      {
         "transition": "Heel Hook from Backside 50-50",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 9
         }
       }
     ]

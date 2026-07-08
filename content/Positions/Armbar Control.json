@@ -286,36 +286,29 @@
       {
         "transition": "Armbar from Armbar Control",
         "attempt_probability": {
-          "gi": 55,
-          "nogi": 55
-        }
-      },
-      {
-        "transition": "Triangle Setup",
-        "attempt_probability": {
-          "gi": 23,
-          "nogi": 23
+          "gi": 72,
+          "nogi": 72
         }
       },
       {
         "transition": "Omoplata from Armbar Control",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Kimura from Armbar Control",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Back Take from Armbar",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 4,
+          "nogi": 4
         }
       },
       {
@@ -335,8 +328,8 @@
       {
         "transition": "Belly Down Armbar from Armbar Control",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 3,
+          "nogi": 3
         }
       }
     ],

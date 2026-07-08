@@ -137,13 +137,13 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 ### Available Transitions
 
 
-- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (16% of attempts)
+- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (15% of attempts)
 
 - **[[Submissions/Wrist Lock/Attacker|Wrist Lock]]** (3% of attempts)
 
-- **[[Transitions/Scissor Sweep/Attacker|Scissor Sweep]]** (7% of attempts)
+- **[[Transitions/Scissor Sweep/Attacker|Scissor Sweep]]** (6% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (6% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (5% of attempts)
 
 - **[[Cross Collar Choke from Closed Guard/Attacker|Cross Collar Choke from Closed Guard]]** (5% of attempts)
 
@@ -200,6 +200,8 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 - **[[Triangle Choke from Closed Guard/Attacker|Triangle Choke from Closed Guard]]** (2% of attempts)
 
 - **[[Transitions/Closed Guard to Hindulotine/Attacker|Closed Guard to Hindulotine]]** (5% of attempts)
+
+- **[[Transitions/Switch to Triangle/Attacker|Switch to Triangle]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -258,21 +260,19 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 ### Available Transitions
 
 
-- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (31% of attempts)
+- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (40% of attempts)
 
-- **[[Transitions/Guard Opening Sequence/Attacker|Guard Opening Sequence]]** (26% of attempts)
+- **[[Transitions/Guard Opening Sequence/Attacker|Guard Opening Sequence]]** (33% of attempts)
 
-- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (22% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (13% of attempts)
 
-- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (10% of attempts)
+- **[[Transitions/Stand Up in Closed Guard/Attacker|Stand Up in Closed Guard]]** (4% of attempts)
 
-- **[[Transitions/Stand Up in Closed Guard/Attacker|Stand Up in Closed Guard]]** (3% of attempts)
-
-- **[[Ezekiel Choke from Closed Guard/Attacker|Ezekiel Choke from Closed Guard]]** (2% of attempts)
+- **[[Ezekiel Choke from Closed Guard/Attacker|Ezekiel Choke from Closed Guard]]** (3% of attempts)
 
 - **[[Transitions/Knee Slice from Closed Guard/Attacker|Knee Slice from Closed Guard]]** (2% of attempts)
 
-- **[[Can Opener from Closed Guard/Attacker|Can Opener from Closed Guard]]** (4% of attempts)
+- **[[Can Opener from Closed Guard/Attacker|Can Opener from Closed Guard]]** (5% of attempts)
 
 
 ### Common Mistakes

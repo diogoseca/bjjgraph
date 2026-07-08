@@ -21,37 +21,37 @@ description: "Offensive guide for controlling and attacking from modified scarf 
     {
       "@type": "HowToStep",
       "name": "Execute Americana from Kuzure Kesa-Gatame",
-      "text": "From this position, attempt Americana from Kuzure Kesa-Gatame. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Americana from Kuzure Kesa-Gatame. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Far Side Armbar",
-      "text": "From this position, attempt Far Side Armbar. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Kimura from Kuzure Kesa-Gatame",
+      "text": "From this position, attempt Kimura from Kuzure Kesa-Gatame. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura from Kuzure Kesa-Gatame",
-      "text": "From this position, attempt Kimura from Kuzure Kesa-Gatame. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Side Control to Mount",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Side Control to North-South",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Paper Cutter Choke from Kuzure Kesa-Gatame",
+      "text": "From this position, attempt Paper Cutter Choke from Kuzure Kesa-Gatame. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Paper Cutter Choke from Kuzure Kesa-Gatame",
-      "text": "From this position, attempt Paper Cutter Choke from Kuzure Kesa-Gatame. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Arm Triangle from Kuzure Kesa-Gatame",
+      "text": "From this position, attempt Arm Triangle from Kuzure Kesa-Gatame. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],

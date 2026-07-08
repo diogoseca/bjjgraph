@@ -139,7 +139,7 @@ While technically demanding and primarily applicable in gi competition, Piranha 
 
 - **[[Transitions/Pendulum Sweep/Attacker|Pendulum Sweep]]** (21% of attempts)
 
-- **[[Transitions/Collar Drag/Attacker|Collar Drag]]** (10% of attempts)
+- **[[Transitions/Collar Drag from Open Guard/Attacker|Collar Drag from Open Guard]]** (10% of attempts)
 
 - **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (10% of attempts)
 
@@ -151,7 +151,7 @@ While technically demanding and primarily applicable in gi competition, Piranha 
 
 - **[[Transitions/Flower Sweep/Attacker|Flower Sweep]]** (11% of attempts)
 
-- **[[Transitions/Arm Drag/Attacker|Arm Drag]]** (10% of attempts)
+- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (10% of attempts)
 
 - **[[Transitions/Piranha Guard Sweep/Attacker|Piranha Guard Sweep]]** (5% of attempts)
 

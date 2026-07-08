@@ -271,71 +271,64 @@
       {
         "transition": "Headquarters Pass",
         "attempt_probability": {
-          "gi": 30,
-          "nogi": 30
-        }
-      },
-      {
-        "transition": "Grip Break",
-        "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 34,
+          "nogi": 34
         }
       },
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 11,
+          "nogi": 11
         }
       },
       {
         "transition": "Toreando Pass",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Stack Pass",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Leg Drag Pass",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "X Pass",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Pressure Pass",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 8,
+          "nogi": 8
         }
       },
       {
         "transition": "Long Step Pass",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 5,
+          "nogi": 5
         }
       },
       {
         "transition": "Double Under Pass",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 4,
+          "nogi": 4
         }
       },
       {
@@ -652,7 +645,7 @@
         }
       },
       {
-        "transition": "Collar Drag",
+        "transition": "Collar Drag from Open Guard",
         "attempt_probability": {
           "gi": 6,
           "nogi": 6

@@ -278,50 +278,43 @@
       {
         "transition": "Crossface Pass",
         "attempt_probability": {
-          "gi": 33,
-          "nogi": 33
+          "gi": 36,
+          "nogi": 36
         }
       },
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Smash Pass",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 16,
+          "nogi": 16
         }
       },
       {
         "transition": "Half Guard Pass",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 13,
+          "nogi": 13
         }
       },
       {
         "transition": "Underhook Pass",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
-        }
-      },
-      {
-        "transition": "Kimura from Half Guard",
-        "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Back Step Pass",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
@@ -593,7 +586,7 @@
         }
       },
       {
-        "transition": "Rolling Back Take",
+        "transition": "Half Guard to Back Take",
         "attempt_probability": {
           "gi": 9,
           "nogi": 9

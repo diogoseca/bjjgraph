@@ -268,57 +268,50 @@
       {
         "transition": "Headquarters Pass",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 19,
+          "nogi": 19
         }
       },
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 18,
+          "nogi": 18
         }
       },
       {
         "transition": "Leg Weave Pass",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
-        }
-      },
-      {
-        "transition": "Standing up in Base",
-        "attempt_probability": {
-          "gi": 27,
-          "nogi": 27
+          "gi": 16,
+          "nogi": 16
         }
       },
       {
         "transition": "Smash Pass",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 14,
+          "nogi": 14
         }
       },
       {
         "transition": "Kneebar from Single Leg X-Guard",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 14,
+          "nogi": 14
         }
       },
       {
         "transition": "Backstep from Single Leg X",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 11,
+          "nogi": 11
         }
       },
       {
         "transition": "Standing Escape from SLX",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 8,
+          "nogi": 8
         }
       }
     ],
@@ -607,15 +600,8 @@
       {
         "transition": "Single Leg X Sweep",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 18
-        }
-      },
-      {
-        "transition": "Ashi Entry from Leg Entanglement",
-        "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 21,
+          "nogi": 21
         }
       },
       {
@@ -628,15 +614,15 @@
       {
         "transition": "Technical Stand Up to Single Leg",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Butterfly Guard to X-Guard",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 5,
+          "nogi": 5
         }
       },
       {
@@ -649,57 +635,50 @@
       {
         "transition": "Ankle Pick Sweep",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Inside Ashi Entry",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
-        }
-      },
-      {
-        "transition": "Standing to Single Leg X",
-        "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 8,
+          "nogi": 8
         }
       },
       {
         "transition": "Heel Grab Sweep",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "SLX to Ashi Garami",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "SLX to X-Guard",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 5,
+          "nogi": 5
         }
       },
       {
         "transition": "Single Leg X-Guard to Inside Sankaku",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Single Leg X to Estima Lock",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 9
         }
       }
     ],

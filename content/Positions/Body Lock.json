@@ -576,43 +576,36 @@
       {
         "transition": "Grip Break",
         "attempt_probability": {
-          "gi": 39,
-          "nogi": 39
+          "gi": 42,
+          "nogi": 42
         }
       },
       {
         "transition": "Sitting Guard Pull",
         "attempt_probability": {
-          "gi": 19,
-          "nogi": 19
+          "gi": 20,
+          "nogi": 20
         }
       },
       {
         "transition": "Rolling to Guard",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 13,
+          "nogi": 13
         }
       },
       {
         "transition": "Whizzer",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
-        }
-      },
-      {
-        "transition": "Sprawl Defense",
-        "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 8,
+          "nogi": 8
         }
       },
       {
         "transition": "Turn In and Face",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 8,
+          "nogi": 8
         }
       },
       {

@@ -480,29 +480,22 @@
       {
         "transition": "Defense from Standing Rear Clinch",
         "attempt_probability": {
-          "gi": 30,
-          "nogi": 30
+          "gi": 40,
+          "nogi": 40
         }
       },
       {
         "transition": "Standing Switch from Rear Clinch",
         "attempt_probability": {
-          "gi": 25,
-          "nogi": 25
-        }
-      },
-      {
-        "transition": "Snap Down to Front Headlock",
-        "attempt_probability": {
-          "gi": 25,
-          "nogi": 25
+          "gi": 33,
+          "nogi": 33
         }
       },
       {
         "transition": "Counter Throw from Standing Rear Clinch",
         "attempt_probability": {
-          "gi": 20,
-          "nogi": 20
+          "gi": 27,
+          "nogi": 27
         }
       }
     ],

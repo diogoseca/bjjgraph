@@ -577,36 +577,36 @@
       {
         "transition": "Basic Butterfly Sweep",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 16,
+          "nogi": 16
         }
       },
       {
         "transition": "Old School Sweep",
         "attempt_probability": {
-          "gi": 22,
-          "nogi": 22
+          "gi": 23,
+          "nogi": 23
         }
       },
       {
         "transition": "Hook Sweep",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 11,
+          "nogi": 11
         }
       },
       {
         "transition": "Underhook Sweep from Half",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 13,
+          "nogi": 13
         }
       },
       {
         "transition": "Deep Half Entry",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 13,
+          "nogi": 13
         }
       },
       {
@@ -621,13 +621,6 @@
         "attempt_probability": {
           "gi": 4,
           "nogi": 4
-        }
-      },
-      {
-        "transition": "Kimura from Half Guard",
-        "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
         }
       },
       {

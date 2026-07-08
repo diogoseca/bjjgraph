@@ -21,37 +21,37 @@ description: "Master Honey Hole defense in BJJ. Escape techniques, heel hook def
     {
       "@type": "HowToStep",
       "name": "Execute Inversion Escape",
-      "text": "From this position, attempt Inversion Escape. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Inversion Escape. This technique is attempted in 17% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 8% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Angle Change Escape",
-      "text": "From this position, attempt Angle Change Escape. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Counter-entangle to 50-50 Guard",
+      "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 43% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Ashi Garami Escape",
-      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Counter heel hook",
+      "text": "From this position, attempt Counter heel hook. This technique is attempted in 4% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Counter-entangle to 50-50 Guard",
-      "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 36% of exchanges from this position.",
+      "name": "Execute Reverse the entanglement to Outside Ashi",
+      "text": "From this position, attempt Reverse the entanglement to Outside Ashi. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Counter heel hook",
-      "text": "From this position, attempt Counter heel hook. This technique is attempted in 3% of exchanges from this position.",
+      "name": "Execute Grip Break",
+      "text": "From this position, attempt Grip Break. This technique is attempted in 16% of exchanges from this position.",
       "position": 6
     }
   ],

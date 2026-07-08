@@ -21,31 +21,31 @@ description: "Master standing position in BJJ. Complete guide covering grips, ta
     {
       "@type": "HowToStep",
       "name": "Execute Guard Pull",
-      "text": "From this position, attempt Guard Pull. This technique is attempted in 33% of exchanges from this position.",
+      "text": "From this position, attempt Guard Pull. This technique is attempted in 31% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Sprawl Defense",
-      "text": "From this position, attempt Sprawl Defense. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Sprawl Defense. This technique is attempted in 7% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg Entry",
-      "text": "From this position, attempt Single Leg Entry. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Single Leg Entry. This technique is attempted in 6% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Double Leg Setup",
-      "text": "From this position, attempt Double Leg Setup. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Double Leg Setup. This technique is attempted in 5% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Sprawl",
-      "text": "From this position, attempt Sprawl. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Sprawl. This technique is attempted in 5% of exchanges from this position.",
       "position": 5
     },
     {

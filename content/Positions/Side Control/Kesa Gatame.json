@@ -266,43 +266,36 @@
       {
         "transition": "Kimura from Kesa Gatame",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 15,
+          "nogi": 15
         }
       },
       {
-        "transition": "Far Side Armbar",
+        "transition": "North-South Choke from Kesa Gatame",
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 9
+        }
+      },
+      {
+        "transition": "Side Control to Mount",
+        "attempt_probability": {
+          "gi": 19,
+          "nogi": 19
+        }
+      },
+      {
+        "transition": "Side Control to North-South",
         "attempt_probability": {
           "gi": 11,
           "nogi": 11
         }
       },
       {
-        "transition": "North-South Choke from Kesa Gatame",
-        "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
-        }
-      },
-      {
-        "transition": "Side Control to Mount",
-        "attempt_probability": {
-          "gi": 17,
-          "nogi": 17
-        }
-      },
-      {
-        "transition": "Side Control to North-South",
+        "transition": "Arm Triangle from Kesa Gatame",
         "attempt_probability": {
           "gi": 10,
           "nogi": 10
-        }
-      },
-      {
-        "transition": "Arm Triangle from Kesa Gatame",
-        "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
         }
       },
       {
@@ -322,22 +315,22 @@
       {
         "transition": "Americana from Kesa Gatame",
         "attempt_probability": {
-          "gi": 20,
-          "nogi": 20
+          "gi": 22,
+          "nogi": 22
         }
       },
       {
-        "transition": "Kesa Gatame Arm Crush",
+        "transition": "Kesa Gatame Arm Crush from Kesa Gatame",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 5,
+          "nogi": 5
         }
       },
       {
         "transition": "Belly Down Armbar from Kesa Gatame",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 5,
+          "nogi": 5
         }
       }
     ],

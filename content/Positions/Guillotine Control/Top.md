@@ -21,37 +21,37 @@ description: "Master Guillotine Control Top position in BJJ. Dominant control wi
     {
       "@type": "HowToStep",
       "name": "Execute Guillotine Choke from Guillotine Control",
-      "text": "From this position, attempt Guillotine Choke from Guillotine Control. This technique is attempted in 44% of exchanges from this position.",
+      "text": "From this position, attempt Guillotine Choke from Guillotine Control. This technique is attempted in 50% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute High Elbow Guillotine Variation",
-      "text": "From this position, attempt High Elbow Guillotine Variation. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Front Headlock to Anaconda",
+      "text": "From this position, attempt Front Headlock to Anaconda. This technique is attempted in 6% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Front Headlock to Anaconda",
-      "text": "From this position, attempt Front Headlock to Anaconda. This technique is attempted in 5% of exchanges from this position.",
+      "name": "Execute Front Headlock to Darce",
+      "text": "From this position, attempt Front Headlock to Darce. This technique is attempted in 6% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Front Headlock to Darce",
-      "text": "From this position, attempt Front Headlock to Darce. This technique is attempted in 5% of exchanges from this position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 5% of exchanges from this position.",
-      "position": 5
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 6% of exchanges from this position.",
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
       "text": "From this position, attempt Side Control to North-South. This technique is attempted in 3% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Pass to Side Control",
+      "text": "From this position, attempt Pass to Side Control. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],

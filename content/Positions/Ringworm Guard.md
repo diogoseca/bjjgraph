@@ -139,7 +139,7 @@ The guard creates mechanical advantages through the lapel wrap, restricting the 
 
 - **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (13% of attempts)
 
-- **[[Transitions/Omoplata to Sweep/Attacker|Omoplata to Sweep]]** (13% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (13% of attempts)
 
 - **[[Transitions/Lapel Sweep to Back/Attacker|Lapel Sweep to Back]]** (16% of attempts)
 

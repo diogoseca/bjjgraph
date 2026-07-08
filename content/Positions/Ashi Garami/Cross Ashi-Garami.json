@@ -323,57 +323,43 @@
       {
         "transition": "Outside Heel Hook from Cross Ashi-Garami",
         "attempt_probability": {
-          "gi": 40,
-          "nogi": 40
-        }
-      },
-      {
-        "transition": "Straight Ankle Lock Entry",
-        "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 45,
+          "nogi": 45
         }
       },
       {
         "transition": "Toe Hold from Cross Ashi-Garami",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Saddle Entry from Top",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 18
-        }
-      },
-      {
-        "transition": "Inside Ashi Entry",
-        "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 20,
+          "nogi": 20
         }
       },
       {
         "transition": "Kneebar entry",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Backside 50-50 Entry from Ashi",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 4,
+          "nogi": 4
         }
       },
       {
         "transition": "Heel Hook from Cross Ashi-Garami",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
@@ -636,15 +622,15 @@
       {
         "transition": "Ashi Garami Escape",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 8,
+          "nogi": 8
         }
       },
       {
         "transition": "Inside Ashi Entry",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 8,
+          "nogi": 8
         }
       },
       {
@@ -657,15 +643,8 @@
       {
         "transition": "Heel Hook Defense Escape",
         "attempt_probability": {
-          "gi": 43,
-          "nogi": 43
-        }
-      },
-      {
-        "transition": "Outside Ashi Entry",
-        "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 47,
+          "nogi": 47
         }
       },
       {
@@ -685,8 +664,8 @@
       {
         "transition": "Backside 50-50 Entry from Ashi",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 8,
+          "nogi": 8
         }
       },
       {
@@ -699,8 +678,8 @@
       {
         "transition": "Leg Extraction",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 8,
+          "nogi": 8
         }
       },
       {
@@ -719,13 +698,6 @@
       },
       {
         "transition": "Sweep from Cross Ashi-Garami",
-        "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
-        }
-      },
-      {
-        "transition": "Aoki Lock",
         "attempt_probability": {
           "gi": 1,
           "nogi": 1

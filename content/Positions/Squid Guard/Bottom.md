@@ -20,38 +20,38 @@ description: "Master Squid Guard Bottom in BJJ. Advanced asymmetrical guard with
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Kiss of the Dragon",
-      "text": "From this position, attempt Kiss of the Dragon. This technique is attempted in 22% of exchanges from this position.",
+      "name": "Execute X-Guard Sweep",
+      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute X-Guard Sweep",
-      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Single Leg X Sweep",
+      "text": "From this position, attempt Single Leg X Sweep. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Single Leg X Sweep",
-      "text": "From this position, attempt Single Leg X Sweep. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Berimbolo Entry",
+      "text": "From this position, attempt Berimbolo Entry. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Berimbolo Entry",
-      "text": "From this position, attempt Berimbolo Entry. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute De La Riva Sweep",
+      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute De La Riva Sweep",
-      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Guard Recovery from Squid Guard",
+      "text": "From this position, attempt Guard Recovery from Squid Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guard Recovery from Squid Guard",
-      "text": "From this position, attempt Guard Recovery from Squid Guard. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Omoplata Sweep",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],

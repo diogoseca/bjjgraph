@@ -289,8 +289,8 @@
       {
         "transition": "Turtle to Back Control",
         "attempt_probability": {
-          "gi": 56,
-          "nogi": 56
+          "gi": 54,
+          "nogi": 54
         }
       },
       {
@@ -408,8 +408,15 @@
       {
         "transition": "Turtle to Russian Cowboy",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 9,
+          "nogi": 9
+        }
+      },
+      {
+        "transition": "Kiss of the Dragon",
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
         }
       }
     ],

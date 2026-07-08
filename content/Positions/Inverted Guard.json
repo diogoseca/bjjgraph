@@ -696,43 +696,36 @@
       {
         "transition": "Berimbolo Entry",
         "attempt_probability": {
-          "gi": 24,
-          "nogi": 24
+          "gi": 26,
+          "nogi": 26
         }
       },
       {
         "transition": "Rolling Back Take",
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
+        }
+      },
+      {
+        "transition": "Single Leg X Entry",
         "attempt_probability": {
           "gi": 10,
           "nogi": 10
         }
       },
       {
-        "transition": "Kiss of the Dragon",
-        "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
-        }
-      },
-      {
-        "transition": "Single Leg X Entry",
-        "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
-        }
-      },
-      {
         "transition": "X-Guard Sweep",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 8,
+          "nogi": 8
         }
       },
       {
         "transition": "Granby Roll to Guard",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
@@ -766,8 +759,8 @@
       {
         "transition": "Bolo Sweep",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 8,
+          "nogi": 8
         }
       },
       {

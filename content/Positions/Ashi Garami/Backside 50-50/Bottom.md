@@ -39,13 +39,13 @@ description: "Master Backside 50-50 Bottom in BJJ. Complete guide covering defen
     {
       "@type": "HowToStep",
       "name": "Execute Ashi Garami Escape",
-      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 44% of exchanges from this position.",
+      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 46% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter-entangle to 50-50 Guard",
-      "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {

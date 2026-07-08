@@ -387,57 +387,43 @@
       {
         "transition": "De La Riva Sweep",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "De La Riva to X-Guard Transition",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 17
+          "gi": 19,
+          "nogi": 19
         }
       },
       {
         "transition": "Berimbolo Entry",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
-        }
-      },
-      {
-        "transition": "Kiss of the Dragon",
-        "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Single Leg X Entry",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Waiter Sweep",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 6,
+          "nogi": 6
         }
       },
       {
         "transition": "Balloon Sweep",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
-        }
-      },
-      {
-        "transition": "Outside Ashi Entry",
-        "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 5,
+          "nogi": 5
         }
       },
       {
@@ -450,8 +436,8 @@
       {
         "transition": "Tripod Sweep",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 7,
+          "nogi": 7
         }
       },
       {
@@ -478,22 +464,22 @@
       {
         "transition": "De La Riva to Inverted Guard",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 6,
+          "nogi": 6
         }
       },
       {
         "transition": "De La Riva to Grasshopper Guard",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 7,
+          "nogi": 7
         }
       },
       {
         "transition": "De La Riva to Lapel Guard",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 7,
+          "nogi": 7
         }
       }
     ],

@@ -222,19 +222,17 @@ Strategically, K-Guard represents a transitional hub position where the bottom p
 ### Available Transitions
 
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (25% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (28% of attempts)
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (14% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (16% of attempts)
 
-- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (12% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (13% of attempts)
 
-- **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** (16% of attempts)
+- **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** (18% of attempts)
 
-- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (12% of attempts)
+- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (13% of attempts)
 
-- **[[Transitions/Kimura from Half Guard/Attacker|Kimura from Half Guard]]** (10% of attempts)
-
-- **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** (6% of attempts)
+- **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** (7% of attempts)
 
 - **[[Transitions/Backstep from K-Guard/Attacker|Backstep from K-Guard]]** (3% of attempts)
 

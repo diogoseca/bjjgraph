@@ -135,17 +135,15 @@ Inside Ashi-Garami has become essential in modern competition grappling, particu
 ### Available Transitions
 
 
-- **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** (45% of attempts)
+- **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** (47% of attempts)
 
-- **[[Transitions/Guard Recovery from Inside Ashi-Garami/Attacker|Guard Recovery from Inside Ashi-Garami]]** (18% of attempts)
+- **[[Transitions/Guard Recovery from Inside Ashi-Garami/Attacker|Guard Recovery from Inside Ashi-Garami]]** (19% of attempts)
 
-- **[[Transitions/Standing Up from Inside Ashi/Attacker|Standing Up from Inside Ashi]]** (12% of attempts)
+- **[[Transitions/Standing Up from Inside Ashi/Attacker|Standing Up from Inside Ashi]]** (13% of attempts)
 
 - **[[Transitions/Leg Extraction from Inside Ashi/Attacker|Leg Extraction from Inside Ashi]]** (10% of attempts)
 
 - **[[Transitions/Counter Entangle to 50-50 from Ashi/Attacker|Counter Entangle to 50-50 from Ashi]]** (8% of attempts)
-
-- **[[Transitions/Back Step/Attacker|Back Step]]** (4% of attempts)
 
 - **[[Transitions/Counter heel hook/Attacker|Counter heel hook]]** (3% of attempts)
 
@@ -206,33 +204,27 @@ Inside Ashi-Garami has become essential in modern competition grappling, particu
 ### Available Transitions
 
 
-- **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (28% of attempts)
+- **[[Heel Hook from Inside Ashi-Garami/Attacker|Heel Hook from Inside Ashi-Garami]]** (28% of attempts)
 
-- **[[Heel Hook from Inside Ashi-Garami/Attacker|Heel Hook from Inside Ashi-Garami]]** (18% of attempts)
+- **[[Toe Hold from Inside Ashi-Garami/Attacker|Toe Hold from Inside Ashi-Garami]]** (13% of attempts)
 
-- **[[Toe Hold from Inside Ashi-Garami/Attacker|Toe Hold from Inside Ashi-Garami]]** (8% of attempts)
+- **[[Transitions/Inside Ashi-Garami to Honey Hole/Attacker|Inside Ashi-Garami to Honey Hole]]** (12% of attempts)
 
-- **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (4% of attempts)
+- **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** (2% of attempts)
 
-- **[[Transitions/Inside Ashi-Garami to Honey Hole/Attacker|Inside Ashi-Garami to Honey Hole]]** (8% of attempts)
+- **[[Transitions/Inside Ashi-Garami to Cross Ashi/Attacker|Inside Ashi-Garami to Cross Ashi]]** (6% of attempts)
 
-- **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** (1% of attempts)
+- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (12% of attempts)
 
-- **[[Transitions/Inside Ashi-Garami to Cross Ashi/Attacker|Inside Ashi-Garami to Cross Ashi]]** (4% of attempts)
+- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (12% of attempts)
 
-- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (8% of attempts)
+- **[[Transitions/Backside 50-50 Entry from Ashi/Attacker|Backside 50-50 Entry from Ashi]]** (3% of attempts)
 
-- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (8% of attempts)
+- **[[Transitions/Inside Ashi to Outside Ashi/Attacker|Inside Ashi to Outside Ashi]]** (3% of attempts)
 
-- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (3% of attempts)
+- **[[Transitions/Inside Ashi-Garami to Ushiro Ashi/Attacker|Inside Ashi-Garami to Ushiro Ashi]]** (3% of attempts)
 
-- **[[Transitions/Backside 50-50 Entry from Ashi/Attacker|Backside 50-50 Entry from Ashi]]** (2% of attempts)
-
-- **[[Transitions/Inside Ashi to Outside Ashi/Attacker|Inside Ashi to Outside Ashi]]** (2% of attempts)
-
-- **[[Transitions/Inside Ashi-Garami to Ushiro Ashi/Attacker|Inside Ashi-Garami to Ushiro Ashi]]** (2% of attempts)
-
-- **[[Kneebar from Inside Ashi-Garami/Attacker|Kneebar from Inside Ashi-Garami]]** (4% of attempts)
+- **[[Kneebar from Inside Ashi-Garami/Attacker|Kneebar from Inside Ashi-Garami]]** (6% of attempts)
 
 
 ### Common Mistakes

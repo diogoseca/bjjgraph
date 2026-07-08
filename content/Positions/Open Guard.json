@@ -713,7 +713,7 @@
         }
       },
       {
-        "transition": "Arm Drag",
+        "transition": "Arm Drag to Back",
         "attempt_probability": {
           "gi": 2,
           "nogi": 2

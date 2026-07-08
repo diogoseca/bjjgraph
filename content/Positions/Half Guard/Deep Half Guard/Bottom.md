@@ -32,8 +32,8 @@ description: "Master Deep Half Guard Bottom with powerful sweeps, back takes, an
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Half Guard to Back Take",
+      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {

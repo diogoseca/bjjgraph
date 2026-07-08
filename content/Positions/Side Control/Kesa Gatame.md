@@ -220,27 +220,25 @@ Kesa Gatame functions as a positional hub within the side control family, offeri
 ### Available Transitions
 
 
-- **[[Kimura from Kesa Gatame/Attacker|Kimura from Kesa Gatame]]** (13% of attempts)
+- **[[Kimura from Kesa Gatame/Attacker|Kimura from Kesa Gatame]]** (15% of attempts)
 
-- **[[Submissions/Far Side Armbar/Attacker|Far Side Armbar]]** (11% of attempts)
+- **[[North-South Choke from Kesa Gatame/Attacker|North-South Choke from Kesa Gatame]]** (9% of attempts)
 
-- **[[North-South Choke from Kesa Gatame/Attacker|North-South Choke from Kesa Gatame]]** (8% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (19% of attempts)
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (17% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (11% of attempts)
 
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (10% of attempts)
-
-- **[[Arm Triangle from Kesa Gatame/Attacker|Arm Triangle from Kesa Gatame]]** (9% of attempts)
+- **[[Arm Triangle from Kesa Gatame/Attacker|Arm Triangle from Kesa Gatame]]** (10% of attempts)
 
 - **[[Transitions/Kesa Gatame to Modified Scarf Hold/Attacker|Kesa Gatame to Modified Scarf Hold]]** (2% of attempts)
 
 - **[[Transitions/Kesa Gatame to Reverse Kesa-Gatame/Attacker|Kesa Gatame to Reverse Kesa-Gatame]]** (2% of attempts)
 
-- **[[Americana from Kesa Gatame/Attacker|Americana from Kesa Gatame]]** (20% of attempts)
+- **[[Americana from Kesa Gatame/Attacker|Americana from Kesa Gatame]]** (22% of attempts)
 
-- **[[Submissions/Kesa Gatame Arm Crush/Attacker|Kesa Gatame Arm Crush]]** (4% of attempts)
+- **[[Kesa Gatame Arm Crush from Kesa Gatame/Attacker|Kesa Gatame Arm Crush from Kesa Gatame]]** (5% of attempts)
 
-- **[[Belly Down Armbar from Kesa Gatame/Attacker|Belly Down Armbar from Kesa Gatame]]** (4% of attempts)
+- **[[Belly Down Armbar from Kesa Gatame/Attacker|Belly Down Armbar from Kesa Gatame]]** (5% of attempts)
 
 
 ### Common Mistakes

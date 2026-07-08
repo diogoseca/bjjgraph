@@ -110,36 +110,36 @@
       {
         "transition": "Double Leg Entry",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 11,
+          "nogi": 11
         }
       },
       {
         "transition": "Single Leg Takedown",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Snap Down to Front Headlock",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Duck Under from Clinch",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Fireman's Carry",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
@@ -157,7 +157,7 @@
         }
       },
       {
-        "transition": "Arm Drag to Back",
+        "transition": "Arm Drag from Clinch",
         "attempt_probability": {
           "gi": 7,
           "nogi": 7
@@ -172,13 +172,6 @@
       },
       {
         "transition": "High Crotch",
-        "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
-        }
-      },
-      {
-        "transition": "Collar Drag",
         "attempt_probability": {
           "gi": 5,
           "nogi": 5

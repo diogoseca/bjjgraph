@@ -21,37 +21,37 @@ description: "Master Deep Half Guard Top with defensive counters, pressure maint
     {
       "@type": "HowToStep",
       "name": "Execute Crossface Pass",
-      "text": "From this position, attempt Crossface Pass. This technique is attempted in 33% of exchanges from this position.",
+      "text": "From this position, attempt Crossface Pass. This technique is attempted in 36% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 16% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard Pass",
-      "text": "From this position, attempt Half Guard Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Half Guard Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Pass",
-      "text": "From this position, attempt Underhook Pass. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura from Half Guard",
-      "text": "From this position, attempt Kimura from Half Guard. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Back Step Pass",
+      "text": "From this position, attempt Back Step Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],

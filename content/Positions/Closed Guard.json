@@ -115,43 +115,36 @@
       {
         "transition": "Posture Recovery",
         "attempt_probability": {
-          "gi": 31,
-          "nogi": 31
+          "gi": 40,
+          "nogi": 40
         }
       },
       {
         "transition": "Guard Opening Sequence",
         "attempt_probability": {
-          "gi": 26,
-          "nogi": 26
-        }
-      },
-      {
-        "transition": "Standing up in Base",
-        "attempt_probability": {
-          "gi": 22,
-          "nogi": 22
+          "gi": 33,
+          "nogi": 33
         }
       },
       {
         "transition": "Stack Pass",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 13,
+          "nogi": 13
         }
       },
       {
         "transition": "Stand Up in Closed Guard",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 4,
+          "nogi": 4
         }
       },
       {
         "transition": "Ezekiel Choke from Closed Guard",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 3,
+          "nogi": 3
         }
       },
       {
@@ -164,8 +157,8 @@
       {
         "transition": "Can Opener from Closed Guard",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 5,
+          "nogi": 5
         }
       }
     ],
@@ -437,8 +430,8 @@
       {
         "transition": "Hip Bump Sweep",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 16
+          "gi": 15,
+          "nogi": 15
         }
       },
       {
@@ -451,15 +444,15 @@
       {
         "transition": "Scissor Sweep",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 6,
+          "nogi": 6
         }
       },
       {
         "transition": "Triangle Setup",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 5,
+          "nogi": 5
         }
       },
       {
@@ -656,6 +649,13 @@
         "attempt_probability": {
           "gi": 5,
           "nogi": 5
+        }
+      },
+      {
+        "transition": "Switch to Triangle",
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
         }
       }
     ],

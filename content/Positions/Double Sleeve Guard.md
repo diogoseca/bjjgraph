@@ -222,25 +222,23 @@ Double Sleeve Guard is characterized by its emphasis on grip fighting dominance 
 ### Available Transitions
 
 
-- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (10% of attempts)
+- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (16% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (10% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (16% of attempts)
 
-- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (10% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (15% of attempts)
 
-- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (8% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (12% of attempts)
 
-- **[[Transitions/X Pass/Attacker|X Pass]]** (8% of attempts)
+- **[[Transitions/X Pass/Attacker|X Pass]]** (12% of attempts)
 
-- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (6% of attempts)
+- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (9% of attempts)
 
-- **[[Transitions/Grip Break/Attacker|Grip Break]]** (35% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (12% of attempts)
 
-- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (8% of attempts)
+- **[[Transitions/Pass Double Sleeve Guard/Attacker|Pass Double Sleeve Guard]]** (5% of attempts)
 
-- **[[Transitions/Pass Double Sleeve Guard/Attacker|Pass Double Sleeve Guard]]** (3% of attempts)
-
-- **[[Transitions/Toreando from Double Sleeve/Attacker|Toreando from Double Sleeve]]** (2% of attempts)
+- **[[Transitions/Toreando from Double Sleeve/Attacker|Toreando from Double Sleeve]]** (3% of attempts)
 
 
 ### Common Mistakes

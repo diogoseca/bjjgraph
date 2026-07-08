@@ -21,13 +21,13 @@ description: "Master defending and escaping gogoplata control from top position 
     {
       "@type": "HowToStep",
       "name": "Execute Head Extraction to Posture",
-      "text": "From this position, attempt Head Extraction to Posture. This technique is attempted in 29% of exchanges from this position.",
+      "text": "From this position, attempt Head Extraction to Posture. This technique is attempted in 33% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Shin Removal to Pass",
-      "text": "From this position, attempt Shin Removal to Pass. This technique is attempted in 3% of exchanges from this position.",
+      "text": "From this position, attempt Shin Removal to Pass. This technique is attempted in 4% of exchanges from this position.",
       "position": 2
     },
     {
@@ -38,20 +38,20 @@ description: "Master defending and escaping gogoplata control from top position 
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Stack Defense",
-      "text": "From this position, attempt Stack Defense. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Angle Change Escape",
+      "text": "From this position, attempt Angle Change Escape. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Angle Change Escape",
-      "text": "From this position, attempt Angle Change Escape. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Hand Control to Extract",
+      "text": "From this position, attempt Hand Control to Extract. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hand Control to Extract",
-      "text": "From this position, attempt Hand Control to Extract. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Roll to Turtle",
+      "text": "From this position, attempt Roll to Turtle. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],

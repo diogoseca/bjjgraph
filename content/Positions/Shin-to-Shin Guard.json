@@ -619,78 +619,64 @@
       {
         "transition": "Single Leg X Entry",
         "attempt_probability": {
-          "gi": 24,
-          "nogi": 24
+          "gi": 29,
+          "nogi": 29
         }
       },
       {
         "transition": "X-Guard Sweep",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Butterfly Sweep",
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
+        }
+      },
+      {
+        "transition": "De La Riva Sweep",
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
+      },
+      {
+        "transition": "Technical Stand Up to Single Leg",
         "attempt_probability": {
           "gi": 9,
           "nogi": 9
         }
       },
       {
-        "transition": "Outside Ashi Entry",
-        "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
-        }
-      },
-      {
-        "transition": "De La Riva Sweep",
-        "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
-        }
-      },
-      {
-        "transition": "Technical Stand Up to Single Leg",
-        "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
-        }
-      },
-      {
         "transition": "Omoplata Sweep",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
-        }
-      },
-      {
-        "transition": "Shin to Shin Pull",
-        "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 7,
+          "nogi": 7
         }
       },
       {
         "transition": "Hook Sweep",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Tripod Sweep",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Shin-to-Shin Sweep",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 4,
+          "nogi": 4
         }
       },
       {

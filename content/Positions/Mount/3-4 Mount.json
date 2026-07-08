@@ -328,50 +328,43 @@
       {
         "transition": "Mount to Armbar",
         "attempt_probability": {
-          "gi": 37,
-          "nogi": 37
+          "gi": 40,
+          "nogi": 40
         }
       },
       {
         "transition": "Mounted Triangle",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "S-Mount Transition",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Back Take",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 11,
+          "nogi": 11
         }
       },
       {
         "transition": "Consolidate Mount",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 16
-        }
-      },
-      {
-        "transition": "High Mount Transition",
-        "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 17,
+          "nogi": 17
         }
       },
       {
         "transition": "Cross Collar Choke from 3-4 Mount",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 7,
+          "nogi": 7
         }
       },
       {

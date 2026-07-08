@@ -21,37 +21,37 @@ description: "Master Single Leg X-Guard Top in BJJ. Control, pass, and attack fr
     {
       "@type": "HowToStep",
       "name": "Execute Headquarters Pass",
-      "text": "From this position, attempt Headquarters Pass. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Headquarters Pass. This technique is attempted in 19% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Weave Pass",
-      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 16% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Standing up in Base",
-      "text": "From this position, attempt Standing up in Base. This technique is attempted in 27% of exchanges from this position.",
+      "name": "Execute Smash Pass",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Kneebar from Single Leg X-Guard",
+      "text": "From this position, attempt Kneebar from Single Leg X-Guard. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kneebar from Single Leg X-Guard",
-      "text": "From this position, attempt Kneebar from Single Leg X-Guard. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Backstep from Single Leg X",
+      "text": "From this position, attempt Backstep from Single Leg X. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],

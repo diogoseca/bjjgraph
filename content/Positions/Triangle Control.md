@@ -131,7 +131,7 @@ The triangle choke has evolved significantly since its popularization in competi
 ### Available Transitions
 
 
-- **[[Submissions/Triangle Choke/Attacker|Triangle Choke]]** (32% of attempts)
+- **[[Triangle Choke from Triangle Control/Attacker|Triangle Choke from Triangle Control]]** (32% of attempts)
 
 - **[[Transitions/Triangle to Armbar/Attacker|Triangle to Armbar]]** (21% of attempts)
 
@@ -202,17 +202,15 @@ The triangle choke has evolved significantly since its popularization in competi
 ### Available Transitions
 
 
-- **[[Transitions/Triangle Escape/Attacker|Triangle Escape]]** (35% of attempts)
+- **[[Transitions/Triangle Escape/Attacker|Triangle Escape]]** (44% of attempts)
 
-- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (26% of attempts)
+- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (32% of attempts)
 
-- **[[Transitions/Stack Defense/Attacker|Stack Defense]]** (20% of attempts)
+- **[[Transitions/Guard Recovery from Triangle Control/Attacker|Guard Recovery from Triangle Control]]** (9% of attempts)
 
-- **[[Transitions/Guard Recovery from Triangle Control/Attacker|Guard Recovery from Triangle Control]]** (7% of attempts)
+- **[[Transitions/Triangle Clear to Side/Attacker|Triangle Clear to Side]]** (9% of attempts)
 
-- **[[Transitions/Triangle Clear to Side/Attacker|Triangle Clear to Side]]** (7% of attempts)
-
-- **[[Transitions/Posture Up from Triangle/Attacker|Posture Up from Triangle]]** (3% of attempts)
+- **[[Transitions/Posture Up from Triangle/Attacker|Posture Up from Triangle]]** (4% of attempts)
 
 - **[[Transitions/Stack Escape from Triangle/Attacker|Stack Escape from Triangle]]** (2% of attempts)
 

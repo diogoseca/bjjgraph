@@ -216,17 +216,15 @@ Emerging from Eddie Bravo's 10th Planet Jiu-Jitsu, the Rubber Guard reimagined w
 ### Available Transitions
 
 
-- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (30% of attempts)
+- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (37% of attempts)
 
-- **[[Transitions/Rubber Guard Clear to Pass/Attacker|Rubber Guard Clear to Pass]]** (23% of attempts)
+- **[[Transitions/Rubber Guard Clear to Pass/Attacker|Rubber Guard Clear to Pass]]** (29% of attempts)
 
-- **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** (19% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (17% of attempts)
 
-- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (14% of attempts)
+- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (11% of attempts)
 
-- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (9% of attempts)
-
-- **[[Transitions/Rubber Guard Top Posture Escape/Attacker|Rubber Guard Top Posture Escape]]** (5% of attempts)
+- **[[Transitions/Rubber Guard Top Posture Escape/Attacker|Rubber Guard Top Posture Escape]]** (6% of attempts)
 
 
 ### Common Mistakes

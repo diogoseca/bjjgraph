@@ -21,7 +21,7 @@ description: "Master Side Control Top in BJJ. Complete guide to submissions, tra
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 31% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 32% of exchanges from this position.",
       "position": 1
     },
     {

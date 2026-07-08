@@ -21,37 +21,37 @@ description: "Master armbar control from top position in BJJ. Learn arm isolatio
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Armbar Control",
-      "text": "From this position, attempt Armbar from Armbar Control. This technique is attempted in 55% of exchanges from this position.",
+      "text": "From this position, attempt Armbar from Armbar Control. This technique is attempted in 72% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 23% of exchanges from this position.",
+      "name": "Execute Omoplata from Armbar Control",
+      "text": "From this position, attempt Omoplata from Armbar Control. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Omoplata from Armbar Control",
-      "text": "From this position, attempt Omoplata from Armbar Control. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Kimura from Armbar Control",
+      "text": "From this position, attempt Kimura from Armbar Control. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura from Armbar Control",
-      "text": "From this position, attempt Kimura from Armbar Control. This technique is attempted in 8% of exchanges from this position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Back Take from Armbar",
-      "text": "From this position, attempt Back Take from Armbar. This technique is attempted in 3% of exchanges from this position.",
-      "position": 5
+      "text": "From this position, attempt Back Take from Armbar. This technique is attempted in 4% of exchanges from this position.",
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Belly Down Armbar Transition",
       "text": "From this position, attempt Belly Down Armbar Transition. This technique is attempted in 1% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Triangle from Armbar",
+      "text": "From this position, attempt Triangle from Armbar. This technique is attempted in 1% of exchanges from this position.",
       "position": 6
     }
   ],

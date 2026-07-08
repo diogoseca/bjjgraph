@@ -21,37 +21,37 @@ description: "Master Spider Guard Top in BJJ. Learn grip breaking, passing strat
     {
       "@type": "HowToStep",
       "name": "Execute Toreando Pass",
-      "text": "From this position, attempt Toreando Pass. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Toreando Pass. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, attempt Long Step Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Double Under Pass",
-      "text": "From this position, attempt Double Under Pass. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Double Under Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Weave Pass",
-      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],

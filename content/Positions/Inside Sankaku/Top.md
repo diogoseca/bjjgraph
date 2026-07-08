@@ -21,7 +21,7 @@ description: "Master Inside Sankaku top perspective. Complete control mechanics,
     {
       "@type": "HowToStep",
       "name": "Execute Inside Sankaku Heel Hook",
-      "text": "From this position, attempt Inside Sankaku Heel Hook. This technique is attempted in 40% of exchanges from this position.",
+      "text": "From this position, attempt Inside Sankaku Heel Hook. This technique is attempted in 41% of exchanges from this position.",
       "position": 1
     },
     {
@@ -33,13 +33,13 @@ description: "Master Inside Sankaku top perspective. Complete control mechanics,
     {
       "@type": "HowToStep",
       "name": "Execute Inside Sankaku to Saddle",
-      "text": "From this position, attempt Inside Sankaku to Saddle. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Inside Sankaku to Saddle. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Toe Hold from Inside Sankaku",
-      "text": "From this position, attempt Toe Hold from Inside Sankaku. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Toe Hold from Inside Sankaku. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {

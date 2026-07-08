@@ -20,39 +20,27 @@ description: "Master defending and escaping Carni position in BJJ. Essential def
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Stack Defense",
-      "text": "From this position, attempt Stack Defense. This technique is attempted in 29% of exchanges from this position.",
+      "name": "Execute Leg Drag Pass",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 42% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Stand-up",
-      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Knee Slice Pass",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 36% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Posture Recovery from Carni",
+      "text": "From this position, attempt Posture Recovery from Carni. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Leg Drag Pass",
-      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Stack Pass from Carni",
+      "text": "From this position, attempt Stack Pass from Carni. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 13% of exchanges from this position.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Posture Recovery from Carni",
-      "text": "From this position, attempt Posture Recovery from Carni. This technique is attempted in 5% of exchanges from this position.",
-      "position": 6
     }
   ],
   "totalTime": "PT2M"

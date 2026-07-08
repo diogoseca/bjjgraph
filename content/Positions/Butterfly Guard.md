@@ -134,7 +134,7 @@ Modern butterfly guard has evolved significantly, particularly in no-gi grapplin
 ### Available Transitions
 
 
-- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (36% of attempts)
+- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (37% of attempts)
 
 - **[[Transitions/Elevator Sweep/Attacker|Elevator Sweep]]** (6% of attempts)
 
@@ -161,8 +161,6 @@ Modern butterfly guard has evolved significantly, particularly in no-gi grapplin
 - **[[Omoplata from Butterfly Guard/Attacker|Omoplata from Butterfly Guard]]** (1% of attempts)
 
 - **[[Transitions/Hook Sweep/Attacker|Hook Sweep]]** (2% of attempts)
-
-- **[[Transitions/Aoki Lock/Attacker|Aoki Lock]]** (1% of attempts)
 
 - **[[Transitions/Butterfly Guard to Williams Guard/Attacker|Butterfly Guard to Williams Guard]]** (7% of attempts)
 
@@ -229,7 +227,7 @@ Modern butterfly guard has evolved significantly, particularly in no-gi grapplin
 ### Available Transitions
 
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (11% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (12% of attempts)
 
 - **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (2% of attempts)
 
@@ -241,13 +239,11 @@ Modern butterfly guard has evolved significantly, particularly in no-gi grapplin
 
 - **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (1% of attempts)
 
-- **[[Transitions/Butterfly Smash/Attacker|Butterfly Smash]]** (47% of attempts)
+- **[[Transitions/Butterfly Smash/Attacker|Butterfly Smash]]** (49% of attempts)
 
 - **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (9% of attempts)
 
 - **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (7% of attempts)
-
-- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (3% of attempts)
 
 - **[[Transitions/X Pass/Attacker|X Pass]]** (5% of attempts)
 

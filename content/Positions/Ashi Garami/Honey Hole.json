@@ -344,36 +344,29 @@
       {
         "transition": "Outside Heel Hook from Honey Hole",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 12,
+          "nogi": 12
         }
       },
       {
         "transition": "Heel Hook from Honey Hole",
         "attempt_probability": {
-          "gi": 37,
-          "nogi": 37
-        }
-      },
-      {
-        "transition": "Kneebar Finish",
-        "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 42,
+          "nogi": 42
         }
       },
       {
         "transition": "Toe Hold from Honey Hole",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 8,
+          "nogi": 8
         }
       },
       {
         "transition": "Back Take from Ashi",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 14,
+          "nogi": 14
         }
       },
       {
@@ -414,8 +407,8 @@
       {
         "transition": "Kneebar from Honey Hole",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 14,
+          "nogi": 14
         }
       }
     ]
@@ -703,57 +696,43 @@
       {
         "transition": "Inversion Escape",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 17,
+          "nogi": 17
         }
       },
       {
         "transition": "Hip Escape to Guard",
-        "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
-        }
-      },
-      {
-        "transition": "Angle Change Escape",
-        "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
-        }
-      },
-      {
-        "transition": "Ashi Garami Escape",
-        "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
-        }
-      },
-      {
-        "transition": "Counter-entangle to 50-50 Guard",
-        "attempt_probability": {
-          "gi": 36,
-          "nogi": 36
-        }
-      },
-      {
-        "transition": "Counter heel hook",
-        "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
-        }
-      },
-      {
-        "transition": "Reverse the entanglement to Outside Ashi",
         "attempt_probability": {
           "gi": 8,
           "nogi": 8
         }
       },
       {
+        "transition": "Counter-entangle to 50-50 Guard",
+        "attempt_probability": {
+          "gi": 43,
+          "nogi": 43
+        }
+      },
+      {
+        "transition": "Counter heel hook",
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
+      },
+      {
+        "transition": "Reverse the entanglement to Outside Ashi",
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
+      },
+      {
         "transition": "Grip Break",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 16,
+          "nogi": 16
         }
       },
       {
@@ -765,13 +744,6 @@
       },
       {
         "transition": "Sweep from Honey Hole",
-        "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
-        }
-      },
-      {
-        "transition": "Aoki Lock",
         "attempt_probability": {
           "gi": 1,
           "nogi": 1

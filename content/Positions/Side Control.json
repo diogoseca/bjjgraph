@@ -121,8 +121,8 @@
       {
         "transition": "Side Control to Mount",
         "attempt_probability": {
-          "gi": 31,
-          "nogi": 31
+          "gi": 32,
+          "nogi": 32
         }
       },
       {
@@ -198,8 +198,8 @@
       {
         "transition": "Americana from Side Control",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 11,
+          "nogi": 11
         }
       },
       {
@@ -224,13 +224,6 @@
         }
       },
       {
-        "transition": "Kneebar Finish",
-        "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
-        }
-      },
-      {
         "transition": "Side Control to Knee on Belly",
         "attempt_probability": {
           "gi": 1,
@@ -242,13 +235,6 @@
         "attempt_probability": {
           "gi": 2,
           "nogi": 2
-        }
-      },
-      {
-        "transition": "Armbar from Side Control",
-        "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
         }
       },
       {

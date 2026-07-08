@@ -21,37 +21,37 @@ description: "Master the Estima Lock Bottom Position in BJJ. Defensive leg entan
     {
       "@type": "HowToStep",
       "name": "Execute Ashi Garami Escape",
-      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 23% of exchanges from this position.",
+      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 27% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Extraction",
-      "text": "From this position, attempt Leg Extraction. This technique is attempted in 41% of exchanges from this position.",
+      "text": "From this position, attempt Leg Extraction. This technique is attempted in 47% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Angle Change Escape",
-      "text": "From this position, attempt Angle Change Escape. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Standing Escape",
+      "text": "From this position, attempt Standing Escape. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Standing Escape",
-      "text": "From this position, attempt Standing Escape. This technique is attempted in 13% of exchanges from this position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute 50-50 Entry",
-      "text": "From this position, attempt 50-50 Entry. This technique is attempted in 8% of exchanges from this position.",
-      "position": 5
+      "text": "From this position, attempt 50-50 Entry. This technique is attempted in 9% of exchanges from this position.",
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Estima Lock Counter Roll",
       "text": "From this position, attempt Estima Lock Counter Roll. This technique is attempted in 1% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Counter from Estima Lock",
+      "text": "From this position, attempt Counter from Estima Lock. This technique is attempted in 1% of exchanges from this position.",
       "position": 6
     }
   ],

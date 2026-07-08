@@ -141,7 +141,7 @@ From the top perspective, deep half guard presents a deceptive challenge - while
 
 - **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (39% of attempts)
 
-- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (9% of attempts)
+- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (9% of attempts)
 
 - **[[Electric Chair from Deep Half Guard/Attacker|Electric Chair from Deep Half Guard]]** (9% of attempts)
 
@@ -214,19 +214,17 @@ From the top perspective, deep half guard presents a deceptive challenge - while
 ### Available Transitions
 
 
-- **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** (33% of attempts)
+- **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** (36% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (9% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (10% of attempts)
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (15% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (16% of attempts)
 
-- **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** (12% of attempts)
+- **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** (13% of attempts)
 
-- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (9% of attempts)
+- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (10% of attempts)
 
-- **[[Transitions/Kimura from Half Guard/Attacker|Kimura from Half Guard]]** (8% of attempts)
-
-- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (9% of attempts)
+- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (10% of attempts)
 
 - **[[Transitions/Backstep from Deep Half/Attacker|Backstep from Deep Half]]** (3% of attempts)
 

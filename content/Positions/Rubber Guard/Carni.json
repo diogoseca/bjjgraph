@@ -274,52 +274,31 @@
     },
     "transitions": [
       {
-        "transition": "Stack Defense",
-        "attempt_probability": {
-          "gi": 29,
-          "nogi": 29
-        }
-      },
-      {
-        "transition": "Technical Stand-up",
-        "attempt_probability": {
-          "gi": 18,
-          "nogi": 18
-        }
-      },
-      {
-        "transition": "Granby Roll to Guard",
-        "attempt_probability": {
-          "gi": 17,
-          "nogi": 17
-        }
-      },
-      {
         "transition": "Leg Drag Pass",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 42,
+          "nogi": 42
         }
       },
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 36,
+          "nogi": 36
         }
       },
       {
         "transition": "Posture Recovery from Carni",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 14,
+          "nogi": 14
         }
       },
       {
         "transition": "Stack Pass from Carni",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 8,
+          "nogi": 8
         }
       }
     ],
@@ -611,57 +590,29 @@
       {
         "transition": "Heel Hook from Carni",
         "attempt_probability": {
-          "gi": 25,
-          "nogi": 25
-        }
-      },
-      {
-        "transition": "Saddle Entry from Top",
-        "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
-        }
-      },
-      {
-        "transition": "Roll to Truck",
-        "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 49,
+          "nogi": 49
         }
       },
       {
         "transition": "Kneebar Finish",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
-        }
-      },
-      {
-        "transition": "Rolling Back Take",
-        "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
-        }
-      },
-      {
-        "transition": "Outside Ashi Entry",
-        "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 23,
+          "nogi": 23
         }
       },
       {
         "transition": "Calf Slicer from Carni",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 20,
+          "nogi": 20
         }
       },
       {
         "transition": "Carni to Gogoplata Setup",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 8,
+          "nogi": 8
         }
       }
     ],

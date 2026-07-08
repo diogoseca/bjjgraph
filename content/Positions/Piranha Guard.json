@@ -637,7 +637,7 @@
         }
       },
       {
-        "transition": "Collar Drag",
+        "transition": "Collar Drag from Open Guard",
         "attempt_probability": {
           "gi": 10,
           "nogi": 10
@@ -679,7 +679,7 @@
         }
       },
       {
-        "transition": "Arm Drag",
+        "transition": "Arm Drag to Back",
         "attempt_probability": {
           "gi": 10,
           "nogi": 10

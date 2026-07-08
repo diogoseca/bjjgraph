@@ -306,64 +306,50 @@
       {
         "transition": "Toe Hold from Toe Hold Control",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 17,
+          "nogi": 17
         }
       },
       {
         "transition": "Outside Ashi Entry",
         "attempt_probability": {
-          "gi": 21,
-          "nogi": 21
-        }
-      },
-      {
-        "transition": "Inside Ashi Entry",
-        "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 27,
+          "nogi": 27
         }
       },
       {
         "transition": "Saddle Entry from Top",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 16,
+          "nogi": 16
         }
       },
       {
         "transition": "Ankle Lock Finish",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
-        }
-      },
-      {
-        "transition": "Kneebar Finish",
-        "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 16,
+          "nogi": 16
         }
       },
       {
         "transition": "Toe Hold to Ashi Garami",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 6,
+          "nogi": 6
         }
       },
       {
         "transition": "Toe Hold to Straight Ankle Lock",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 4,
+          "nogi": 4
         }
       },
       {
         "transition": "Kneebar from Toe Hold Control",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 14,
+          "nogi": 14
         }
       }
     ]
@@ -632,14 +618,14 @@
     ],
     "transitions": [
       {
-        "transition": "Angle Change Escape",
+        "transition": "Leg Extraction Escape from Entanglement",
         "attempt_probability": {
           "gi": 25,
           "nogi": 25
         }
       },
       {
-        "transition": "Ashi Garami Escape",
+        "transition": "Inversion Escape from Leg Entanglement",
         "attempt_probability": {
           "gi": 15,
           "nogi": 15

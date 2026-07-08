@@ -21,7 +21,7 @@ description: "Master Outside Ashi-Garami Bottom in BJJ. Complete guide covering 
     {
       "@type": "HowToStep",
       "name": "Execute Outside Heel Hook from Outside Ashi-Garami",
-      "text": "From this position, attempt Outside Heel Hook from Outside Ashi-Garami. This technique is attempted in 31% of exchanges from this position.",
+      "text": "From this position, attempt Outside Heel Hook from Outside Ashi-Garami. This technique is attempted in 32% of exchanges from this position.",
       "position": 1
     },
     {
@@ -38,8 +38,8 @@ description: "Master Outside Ashi-Garami Bottom in BJJ. Complete guide covering 
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Saddle Entry from Top",
-      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Saddle Entry from Outside Ashi",
+      "text": "From this position, attempt Saddle Entry from Outside Ashi. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {

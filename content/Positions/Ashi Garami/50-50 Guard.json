@@ -277,8 +277,8 @@
       {
         "transition": "Heel Hook from 50-50 Guard",
         "attempt_probability": {
-          "gi": 28,
-          "nogi": 28
+          "gi": 29,
+          "nogi": 29
         }
       },
       {
@@ -286,13 +286,6 @@
         "attempt_probability": {
           "gi": 8,
           "nogi": 8
-        }
-      },
-      {
-        "transition": "Straight Ankle Lock Entry",
-        "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
         }
       },
       {
@@ -305,8 +298,8 @@
       {
         "transition": "Back Take from 50-50",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 12,
+          "nogi": 12
         }
       },
       {
@@ -580,8 +573,8 @@
       {
         "transition": "Position reversal sweep to top",
         "attempt_probability": {
-          "gi": 23,
-          "nogi": 23
+          "gi": 24,
+          "nogi": 24
         }
       },
       {
@@ -594,8 +587,8 @@
       {
         "transition": "50-50 Guard to Single Leg X-Guard",
         "attempt_probability": {
-          "gi": 21,
-          "nogi": 21
+          "gi": 22,
+          "nogi": 22
         }
       },
       {
@@ -631,13 +624,6 @@
         "attempt_probability": {
           "gi": 5,
           "nogi": 5
-        }
-      },
-      {
-        "transition": "Aoki Lock",
-        "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
         }
       }
     ]

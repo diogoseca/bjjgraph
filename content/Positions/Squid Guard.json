@@ -569,80 +569,73 @@
     },
     "transitions": [
       {
-        "transition": "Kiss of the Dragon",
-        "attempt_probability": {
-          "gi": 22,
-          "nogi": 22
-        }
-      },
-      {
         "transition": "X-Guard Sweep",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 13,
+          "nogi": 13
         }
       },
       {
         "transition": "Single Leg X Sweep",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 12,
+          "nogi": 12
         }
       },
       {
         "transition": "Berimbolo Entry",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 12,
+          "nogi": 12
         }
       },
       {
         "transition": "De La Riva Sweep",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 11,
+          "nogi": 11
         }
       },
       {
         "transition": "Guard Recovery from Squid Guard",
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 13
+        }
+      },
+      {
+        "transition": "Omoplata Sweep",
         "attempt_probability": {
           "gi": 10,
           "nogi": 10
         }
       },
       {
-        "transition": "Omoplata Sweep",
-        "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
-        }
-      },
-      {
         "transition": "Triangle Setup",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Omoplata to Back",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 11,
+          "nogi": 11
         }
       },
       {
         "transition": "Squid Guard Sweep",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 5,
+          "nogi": 5
         }
       },
       {
         "transition": "Squid to Ringworm Guard",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 3,
+          "nogi": 3
         }
       }
     ],

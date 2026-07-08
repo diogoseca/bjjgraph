@@ -137,21 +137,17 @@ The strategic significance of the rear triangle lies in its ability to create su
 ### Available Transitions
 
 
-- **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** (25% of attempts)
+- **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** (34% of attempts)
 
-- **[[Transitions/Triangle Escape/Attacker|Triangle Escape]]** (14% of attempts)
+- **[[Transitions/Rolling Escape to Guard/Attacker|Rolling Escape to Guard]]** (16% of attempts)
 
-- **[[Transitions/Rolling Escape to Guard/Attacker|Rolling Escape to Guard]]** (12% of attempts)
+- **[[Transitions/Stack Defense/Attacker|Stack Defense]]** (18% of attempts)
 
-- **[[Transitions/Stack Defense/Attacker|Stack Defense]]** (13% of attempts)
+- **[[Transitions/Hand Fighting from Back/Attacker|Hand Fighting from Back]]** (20% of attempts)
 
-- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (12% of attempts)
+- **[[Transitions/Grip Fight Escape from Rear Triangle/Attacker|Grip Fight Escape from Rear Triangle]]** (8% of attempts)
 
-- **[[Transitions/Hand Fighting from Back/Attacker|Hand Fighting from Back]]** (15% of attempts)
-
-- **[[Transitions/Grip Fight Escape from Rear Triangle/Attacker|Grip Fight Escape from Rear Triangle]]** (6% of attempts)
-
-- **[[Transitions/Posture Defense from Rear Triangle/Attacker|Posture Defense from Rear Triangle]]** (3% of attempts)
+- **[[Transitions/Posture Defense from Rear Triangle/Attacker|Posture Defense from Rear Triangle]]** (4% of attempts)
 
 
 ### Common Mistakes

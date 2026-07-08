@@ -295,57 +295,50 @@
       {
         "transition": "Toreando Pass",
         "attempt_probability": {
-          "gi": 22,
-          "nogi": 22
+          "gi": 25,
+          "nogi": 25
         }
       },
       {
         "transition": "Leg Drag Pass",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 15,
+          "nogi": 15
         }
       },
       {
         "transition": "Knee Slice Pass",
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 14
+        }
+      },
+      {
+        "transition": "Long Step Pass",
         "attempt_probability": {
           "gi": 13,
           "nogi": 13
         }
       },
       {
-        "transition": "Long Step Pass",
+        "transition": "Double Under Pass",
         "attempt_probability": {
           "gi": 12,
           "nogi": 12
         }
       },
       {
-        "transition": "Double Under Pass",
-        "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
-        }
-      },
-      {
         "transition": "Leg Weave Pass",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
-        }
-      },
-      {
-        "transition": "Grip Break",
-        "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 12,
+          "nogi": 12
         }
       },
       {
         "transition": "Spider Guard Pass",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 6,
+          "nogi": 6
         }
       },
       {

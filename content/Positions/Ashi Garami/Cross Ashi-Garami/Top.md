@@ -21,37 +21,37 @@ description: "Master Cross Ashi-Garami from top position. Outside leg entangleme
     {
       "@type": "HowToStep",
       "name": "Execute Outside Heel Hook from Cross Ashi-Garami",
-      "text": "From this position, attempt Outside Heel Hook from Cross Ashi-Garami. This technique is attempted in 40% of exchanges from this position.",
+      "text": "From this position, attempt Outside Heel Hook from Cross Ashi-Garami. This technique is attempted in 45% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Straight Ankle Lock Entry",
-      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 3% of exchanges from this position.",
+      "name": "Execute Toe Hold from Cross Ashi-Garami",
+      "text": "From this position, attempt Toe Hold from Cross Ashi-Garami. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Toe Hold from Cross Ashi-Garami",
-      "text": "From this position, attempt Toe Hold from Cross Ashi-Garami. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Saddle Entry from Top",
+      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 20% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Saddle Entry from Top",
-      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Kneebar entry",
+      "text": "From this position, attempt Kneebar entry. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Inside Ashi Entry",
-      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Backside 50-50 Entry from Ashi",
+      "text": "From this position, attempt Backside 50-50 Entry from Ashi. This technique is attempted in 4% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kneebar entry",
-      "text": "From this position, attempt Kneebar entry. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Heel Hook from Cross Ashi-Garami",
+      "text": "From this position, attempt Heel Hook from Cross Ashi-Garami. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],

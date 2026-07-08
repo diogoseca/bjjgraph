@@ -21,19 +21,19 @@ description: "Master Crab Ride Bottom defense in BJJ. Complete guide covering ho
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 39% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 40% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 21% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 22% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Standing",
-      "text": "From this position, attempt Turtle to Standing. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Standing. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
@@ -50,8 +50,8 @@ description: "Master Crab Ride Bottom defense in BJJ. Complete guide covering ho
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 3% of exchanges from this position.",
+      "name": "Execute Crab Ride Escape to Guard",
+      "text": "From this position, attempt Crab Ride Escape to Guard. This technique is attempted in 4% of exchanges from this position.",
       "position": 6
     }
   ],

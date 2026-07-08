@@ -142,9 +142,9 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 ### Available Transitions
 
 
-- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (16% of attempts)
+- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (15% of attempts)
 
-- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (10% of attempts)
+- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (9% of attempts)
 
 - **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (6% of attempts)
 
@@ -154,7 +154,7 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 
 - **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (4% of attempts)
 
-- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (14% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (13% of attempts)
 
 - **[[Transitions/Knee Torque Sweep/Attacker|Knee Torque Sweep]]** (4% of attempts)
 
@@ -177,6 +177,8 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 - **[[Kneebar from Half Guard/Attacker|Kneebar from Half Guard]]** (3% of attempts)
 
 - **[[Transitions/Half Guard to Jailbreak/Attacker|Half Guard to Jailbreak]]** (7% of attempts)
+
+- **[[Transitions/Kimura from Half Guard/Attacker|Kimura from Half Guard]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -237,9 +239,9 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 ### Available Transitions
 
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (22% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (23% of attempts)
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (11% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (12% of attempts)
 
 - **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (9% of attempts)
 
@@ -250,8 +252,6 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 - **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (4% of attempts)
 
 - **[[Transitions/Over-Under Pass/Attacker|Over-Under Pass]]** (3% of attempts)
-
-- **[[Transitions/Kimura from Half Guard/Attacker|Kimura from Half Guard]]** (2% of attempts)
 
 - **[[Transitions/Half Guard to Double Jump/Attacker|Half Guard to Double Jump]]** (2% of attempts)
 

@@ -112,43 +112,36 @@
       {
         "transition": "Posture Recovery",
         "attempt_probability": {
-          "gi": 30,
-          "nogi": 30
+          "gi": 37,
+          "nogi": 37
         }
       },
       {
         "transition": "Rubber Guard Clear to Pass",
         "attempt_probability": {
-          "gi": 23,
-          "nogi": 23
-        }
-      },
-      {
-        "transition": "Arm Extraction",
-        "attempt_probability": {
-          "gi": 19,
-          "nogi": 19
+          "gi": 29,
+          "nogi": 29
         }
       },
       {
         "transition": "Stack Pass",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 17,
+          "nogi": 17
         }
       },
       {
         "transition": "Pressure Pass",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 11,
+          "nogi": 11
         }
       },
       {
         "transition": "Rubber Guard Top Posture Escape",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 6,
+          "nogi": 6
         }
       }
     ],

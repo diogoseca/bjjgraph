@@ -21,13 +21,13 @@ description: "Master Guillotine Control Bottom in BJJ. Complete guide covering s
     {
       "@type": "HowToStep",
       "name": "Execute Guillotine Choke from Guillotine Control",
-      "text": "From this position, attempt Guillotine Choke from Guillotine Control. This technique is attempted in 50% of exchanges from this position.",
+      "text": "From this position, attempt Guillotine Choke from Guillotine Control. This technique is attempted in 52% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute High Elbow Guillotine Variation",
-      "text": "From this position, attempt High Elbow Guillotine Variation. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt High Elbow Guillotine Variation. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {

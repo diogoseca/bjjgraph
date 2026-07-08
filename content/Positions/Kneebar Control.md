@@ -143,21 +143,17 @@ Historically, the kneebar has existed in grappling arts for centuries, appearing
 ### Available Transitions
 
 
-- **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (41% of attempts)
+- **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (45% of attempts)
 
-- **[[Heel Hook from Kneebar Control/Attacker|Heel Hook from Kneebar Control]]** (11% of attempts)
+- **[[Heel Hook from Kneebar Control/Attacker|Heel Hook from Kneebar Control]]** (12% of attempts)
 
-- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (7% of attempts)
+- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (8% of attempts)
 
-- **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** (7% of attempts)
+- **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** (8% of attempts)
 
-- **[[Toe Hold from Kneebar Control/Attacker|Toe Hold from Kneebar Control]]** (6% of attempts)
+- **[[Toe Hold from Kneebar Control/Attacker|Toe Hold from Kneebar Control]]** (7% of attempts)
 
-- **[[Transitions/Backside 50-50 Entry from Ashi/Attacker|Backside 50-50 Entry from Ashi]]** (6% of attempts)
-
-- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (5% of attempts)
-
-- **[[Transitions/50-50 Entry from Standing/Attacker|50-50 Entry from Standing]]** (4% of attempts)
+- **[[Transitions/Backside 50-50 Entry from Ashi/Attacker|Backside 50-50 Entry from Ashi]]** (7% of attempts)
 
 - **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (4% of attempts)
 
@@ -234,21 +230,19 @@ Historically, the kneebar has existed in grappling arts for centuries, appearing
 ### Available Transitions
 
 
-- **[[Kneebar from Kneebar Control/Attacker|Kneebar from Kneebar Control]]** (25% of attempts)
+- **[[Kneebar from Kneebar Control/Attacker|Kneebar from Kneebar Control]]** (33% of attempts)
 
-- **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (25% of attempts)
+- **[[Transitions/Kneebar Control Maintenance/Attacker|Kneebar Control Maintenance]]** (16% of attempts)
 
-- **[[Transitions/Kneebar Control Maintenance/Attacker|Kneebar Control Maintenance]]** (12% of attempts)
+- **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** (14% of attempts)
 
-- **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** (10% of attempts)
+- **[[Toe Hold from Kneebar Control/Attacker|Toe Hold from Kneebar Control]]** (14% of attempts)
 
-- **[[Toe Hold from Kneebar Control/Attacker|Toe Hold from Kneebar Control]]** (10% of attempts)
+- **[[Positions/Knee on Belly/Attacker|Knee on Belly]]** (13% of attempts)
 
-- **[[Positions/Knee on Belly/Attacker|Knee on Belly]]** (10% of attempts)
+- **[[Transitions/Kneebar to 50-50 Transition/Attacker|Kneebar to 50-50 Transition]]** (5% of attempts)
 
-- **[[Transitions/Kneebar to 50-50 Transition/Attacker|Kneebar to 50-50 Transition]]** (4% of attempts)
-
-- **[[Transitions/Kneebar to Ashi Garami/Attacker|Kneebar to Ashi Garami]]** (4% of attempts)
+- **[[Transitions/Kneebar to Ashi Garami/Attacker|Kneebar to Ashi Garami]]** (5% of attempts)
 
 
 ### Common Mistakes

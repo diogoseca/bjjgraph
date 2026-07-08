@@ -143,23 +143,19 @@ Inverted lasso guard fits into broader guard systems as a transitional position 
 ### Available Transitions
 
 
-- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (37% of attempts)
+- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (44% of attempts)
 
-- **[[Transitions/Kiss of the Dragon/Attacker|Kiss of the Dragon]]** (11% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (7% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (6% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (10% of attempts)
 
-- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (8% of attempts)
+- **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** (5% of attempts)
 
-- **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** (4% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (10% of attempts)
 
-- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (8% of attempts)
+- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (7% of attempts)
 
-- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (6% of attempts)
-
-- **[[Transitions/Balloon Sweep/Attacker|Balloon Sweep]]** (12% of attempts)
-
-- **[[Transitions/Tomoe Nage/Attacker|Tomoe Nage]]** (5% of attempts)
+- **[[Transitions/Balloon Sweep/Attacker|Balloon Sweep]]** (14% of attempts)
 
 - **[[Transitions/Inverted Lasso Sweep/Attacker|Inverted Lasso Sweep]]** (2% of attempts)
 
@@ -232,7 +228,7 @@ Inverted lasso guard fits into broader guard systems as a transitional position 
 
 - **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (11% of attempts)
 
-- **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** (22% of attempts)
+- **[[Transitions/Arm Extraction and Pass/Attacker|Arm Extraction and Pass]]** (22% of attempts)
 
 - **[[Transitions/Cartwheel Pass/Attacker|Cartwheel Pass]]** (11% of attempts)
 

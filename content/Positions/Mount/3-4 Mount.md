@@ -214,19 +214,17 @@ The position scores 4 points in IBJJF competition when held from top, placing it
 ### Available Transitions
 
 
-- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (37% of attempts)
+- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (40% of attempts)
 
-- **[[Positions/Mount/Mounted Triangle/Attacker|Mounted Triangle]]** (8% of attempts)
+- **[[Positions/Mount/Mounted Triangle/Attacker|Mounted Triangle]]** (9% of attempts)
 
-- **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** (8% of attempts)
+- **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** (9% of attempts)
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (10% of attempts)
+- **[[Transitions/Back Take/Attacker|Back Take]]** (11% of attempts)
 
-- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (16% of attempts)
+- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (17% of attempts)
 
-- **[[Transitions/High Mount Transition/Attacker|High Mount Transition]]** (8% of attempts)
-
-- **[[Cross Collar Choke from 3-4 Mount/Attacker|Cross Collar Choke from 3-4 Mount]]** (6% of attempts)
+- **[[Cross Collar Choke from 3-4 Mount/Attacker|Cross Collar Choke from 3-4 Mount]]** (7% of attempts)
 
 - **[[Transitions/3-4 Mount to S Mount/Attacker|3-4 Mount to S Mount]]** (3% of attempts)
 

@@ -216,7 +216,7 @@ Modified Mount represents a strategic adaptation of the traditional mount positi
 
 - **[[Positions/Mount/Mounted Triangle/Attacker|Mounted Triangle]]** (9% of attempts)
 
-- **[[Transitions/High Mount Transition/Attacker|High Mount Transition]]** (12% of attempts)
+- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (12% of attempts)
 
 - **[[Cross Collar Choke from Modified Mount/Attacker|Cross Collar Choke from Modified Mount]]** (9% of attempts)
 

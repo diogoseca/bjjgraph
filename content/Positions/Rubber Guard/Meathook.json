@@ -299,45 +299,31 @@
     },
     "transitions": [
       {
-        "transition": "Arm Extraction",
-        "attempt_probability": {
-          "gi": 28,
-          "nogi": 28
-        }
-      },
-      {
-        "transition": "Stack Defense",
-        "attempt_probability": {
-          "gi": 17,
-          "nogi": 17
-        }
-      },
-      {
         "transition": "Sprawl",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 22,
+          "nogi": 22
         }
       },
       {
         "transition": "Guard Opening Sequence",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 17
+          "gi": 31,
+          "nogi": 31
         }
       },
       {
         "transition": "Posture Recovery from Meathook",
         "attempt_probability": {
-          "gi": 23,
-          "nogi": 23
+          "gi": 42,
+          "nogi": 42
         }
       },
       {
         "transition": "Stack Pass from Meathook",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 5,
+          "nogi": 5
         }
       }
     ]
@@ -640,7 +626,7 @@
         }
       },
       {
-        "transition": "Armbar on Free Arm",
+        "transition": "Armbar from New York",
         "attempt_probability": {
           "gi": 8,
           "nogi": 8

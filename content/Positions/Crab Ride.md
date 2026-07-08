@@ -137,17 +137,15 @@ From the defensive perspective, Crab Ride Bottom is a high-pressure situation th
 ### Available Transitions
 
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (39% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (40% of attempts)
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (21% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (22% of attempts)
 
-- **[[Transitions/Turtle to Standing/Attacker|Turtle to Standing]]** (13% of attempts)
+- **[[Transitions/Turtle to Standing/Attacker|Turtle to Standing]]** (14% of attempts)
 
 - **[[Transitions/Peterson Roll/Attacker|Peterson Roll]]** (8% of attempts)
 
 - **[[Transitions/Sit Through Escape/Attacker|Sit Through Escape]]** (10% of attempts)
-
-- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (3% of attempts)
 
 - **[[Transitions/Crab Ride Escape to Guard/Attacker|Crab Ride Escape to Guard]]** (4% of attempts)
 

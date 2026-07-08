@@ -612,29 +612,22 @@
       {
         "transition": "Matrix Back Take",
         "attempt_probability": {
-          "gi": 50,
-          "nogi": 50
-        }
-      },
-      {
-        "transition": "Rolling Back Take",
-        "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 54,
+          "nogi": 54
         }
       },
       {
         "transition": "Arm Drag to Back",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 11,
+          "nogi": 11
         }
       },
       {
         "transition": "Granby Roll to Guard",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 14,
+          "nogi": 14
         }
       },
       {
@@ -654,8 +647,8 @@
       {
         "transition": "Turtle to Guard",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 10,
+          "nogi": 10
         }
       },
       {

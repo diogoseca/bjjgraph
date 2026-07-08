@@ -133,27 +133,23 @@ Shin-to-Shin Guard represents a sophisticated intersection between traditional o
 ### Available Transitions
 
 
-- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (24% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (29% of attempts)
 
-- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (8% of attempts)
+- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (10% of attempts)
 
-- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (9% of attempts)
+- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (11% of attempts)
 
-- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (8% of attempts)
+- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (10% of attempts)
 
-- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (8% of attempts)
+- **[[Transitions/Technical Stand Up to Single Leg/Attacker|Technical Stand Up to Single Leg]]** (9% of attempts)
 
-- **[[Transitions/Technical Stand Up to Single Leg/Attacker|Technical Stand Up to Single Leg]]** (8% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (7% of attempts)
 
-- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (6% of attempts)
+- **[[Transitions/Hook Sweep/Attacker|Hook Sweep]]** (9% of attempts)
 
-- **[[Transitions/Shin to Shin Pull/Attacker|Shin to Shin Pull]]** (8% of attempts)
+- **[[Transitions/Tripod Sweep/Attacker|Tripod Sweep]]** (9% of attempts)
 
-- **[[Transitions/Hook Sweep/Attacker|Hook Sweep]]** (8% of attempts)
-
-- **[[Transitions/Tripod Sweep/Attacker|Tripod Sweep]]** (8% of attempts)
-
-- **[[Transitions/Shin-to-Shin Sweep/Attacker|Shin-to-Shin Sweep]]** (3% of attempts)
+- **[[Transitions/Shin-to-Shin Sweep/Attacker|Shin-to-Shin Sweep]]** (4% of attempts)
 
 - **[[Transitions/Shin-to-Shin to Single Leg X/Attacker|Shin-to-Shin to Single Leg X]]** (2% of attempts)
 

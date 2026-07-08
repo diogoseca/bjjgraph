@@ -161,7 +161,7 @@ Competition application demonstrates New York Control's effectiveness in both gi
 
 - **[[Transitions/New York Control to Zombie/Attacker|New York Control to Zombie]]** (8% of attempts)
 
-- **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (6% of attempts)
+- **[[Transitions/Armbar from New York/Attacker|Armbar from New York]]** (6% of attempts)
 
 - **[[Kimura from New York Control/Attacker|Kimura from New York Control]]** (6% of attempts)
 
@@ -228,21 +228,17 @@ Competition application demonstrates New York Control's effectiveness in both gi
 ### Available Transitions
 
 
-- **[[Transitions/Overhook Escape/Attacker|Overhook Escape]]** (15% of attempts)
+- **[[Transitions/Overhook Escape/Attacker|Overhook Escape]]** (21% of attempts)
 
-- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (14% of attempts)
+- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (20% of attempts)
 
-- **[[Transitions/Crossface to Combat Base/Attacker|Crossface to Combat Base]]** (24% of attempts)
+- **[[Transitions/Crossface to Combat Base/Attacker|Crossface to Combat Base]]** (33% of attempts)
 
-- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (11% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (15% of attempts)
 
-- **[[Transitions/Leg Extraction/Attacker|Leg Extraction]]** (15% of attempts)
+- **[[Transitions/New York Control Escape/Attacker|New York Control Escape]]** (7% of attempts)
 
-- **[[Transitions/Standing Escape/Attacker|Standing Escape]]** (13% of attempts)
-
-- **[[Transitions/New York Control Escape/Attacker|New York Control Escape]]** (5% of attempts)
-
-- **[[Transitions/Guard Pass from New York Control/Attacker|Guard Pass from New York Control]]** (3% of attempts)
+- **[[Transitions/Guard Pass from New York Control/Attacker|Guard Pass from New York Control]]** (4% of attempts)
 
 
 ### Common Mistakes

@@ -618,36 +618,36 @@
       {
         "transition": "Old School Sweep",
         "attempt_probability": {
-          "gi": 29,
-          "nogi": 29
+          "gi": 31,
+          "nogi": 31
         }
       },
       {
         "transition": "Kimura to Back Take",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 15,
+          "nogi": 15
         }
       },
       {
         "transition": "Rolling Kimura",
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
+        }
+      },
+      {
+        "transition": "Kimura Sweep",
         "attempt_probability": {
           "gi": 10,
           "nogi": 10
         }
       },
       {
-        "transition": "Kimura Sweep",
-        "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
-        }
-      },
-      {
         "transition": "Underhook Sweep from Half",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 7,
+          "nogi": 7
         }
       },
       {
@@ -666,13 +666,6 @@
       },
       {
         "transition": "Electric Chair Transition",
-        "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
-        }
-      },
-      {
-        "transition": "Half Guard Pass",
         "attempt_probability": {
           "gi": 6,
           "nogi": 6

@@ -21,37 +21,37 @@ description: "Defensive strategies and escape techniques when opponent has estab
     {
       "@type": "HowToStep",
       "name": "Execute Grip Break",
-      "text": "From this position, attempt Grip Break. This technique is attempted in 39% of exchanges from this position.",
+      "text": "From this position, attempt Grip Break. This technique is attempted in 42% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Sitting Guard Pull",
-      "text": "From this position, attempt Sitting Guard Pull. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Sitting Guard Pull. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling to Guard",
-      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Whizzer",
-      "text": "From this position, attempt Whizzer. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Whizzer. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Sprawl Defense",
-      "text": "From this position, attempt Sprawl Defense. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Turn In and Face",
+      "text": "From this position, attempt Turn In and Face. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Turn In and Face",
-      "text": "From this position, attempt Turn In and Face. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Standing up in Base",
+      "text": "From this position, attempt Standing up in Base. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],

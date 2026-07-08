@@ -50,8 +50,8 @@ description: "Master Butterfly Hook Control Bottom in BJJ. Complete guide coveri
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guillotine Setup",
-      "text": "From this position, attempt Guillotine Setup. This technique is attempted in 5% of exchanges from this position.",
+      "name": "Execute Guillotine Choke from Butterfly Guard",
+      "text": "From this position, attempt Guillotine Choke from Butterfly Guard. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],

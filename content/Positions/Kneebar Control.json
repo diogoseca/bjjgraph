@@ -291,57 +291,50 @@
       {
         "transition": "Kneebar from Kneebar Control",
         "attempt_probability": {
-          "gi": 25,
-          "nogi": 25
-        }
-      },
-      {
-        "transition": "Kneebar Finish",
-        "attempt_probability": {
-          "gi": 25,
-          "nogi": 25
+          "gi": 33,
+          "nogi": 33
         }
       },
       {
         "transition": "Kneebar Control Maintenance",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 16,
+          "nogi": 16
         }
       },
       {
         "transition": "Ankle Lock Finish",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 14,
+          "nogi": 14
         }
       },
       {
         "transition": "Toe Hold from Kneebar Control",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 14,
+          "nogi": 14
         }
       },
       {
         "transition": "Knee on Belly",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 13,
+          "nogi": 13
         }
       },
       {
         "transition": "Kneebar to 50-50 Transition",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 5,
+          "nogi": 5
         }
       },
       {
         "transition": "Kneebar to Ashi Garami",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 5,
+          "nogi": 5
         }
       }
     ],
@@ -615,57 +608,43 @@
       {
         "transition": "Kneebar Finish",
         "attempt_probability": {
-          "gi": 41,
-          "nogi": 41
+          "gi": 45,
+          "nogi": 45
         }
       },
       {
         "transition": "Heel Hook from Kneebar Control",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 12,
+          "nogi": 12
         }
       },
       {
         "transition": "Inside Ashi Entry",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 8,
+          "nogi": 8
         }
       },
       {
         "transition": "Ankle Lock Finish",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 8,
+          "nogi": 8
         }
       },
       {
         "transition": "Toe Hold from Kneebar Control",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 7,
+          "nogi": 7
         }
       },
       {
         "transition": "Backside 50-50 Entry from Ashi",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
-        }
-      },
-      {
-        "transition": "Outside Ashi Entry",
-        "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
-        }
-      },
-      {
-        "transition": "50-50 Entry from Standing",
-        "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 7,
+          "nogi": 7
         }
       },
       {

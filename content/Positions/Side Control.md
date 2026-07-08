@@ -213,7 +213,7 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 ### Available Transitions
 
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (31% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (32% of attempts)
 
 - **[[Positions/Knee on Belly/Attacker|Knee on Belly]]** (6% of attempts)
 
@@ -235,7 +235,7 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 
 - **[[Transitions/Side Control to Scarf Hold Position/Attacker|Side Control to Scarf Hold Position]]** (2% of attempts)
 
-- **[[Americana from Side Control/Attacker|Americana from Side Control]]** (10% of attempts)
+- **[[Americana from Side Control/Attacker|Americana from Side Control]]** (11% of attempts)
 
 - **[[Armbar from Side Control/Attacker|Armbar from Side Control]]** (1% of attempts)
 
@@ -243,13 +243,9 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 
 - **[[Kimura from Side Control/Attacker|Kimura from Side Control]]** (9% of attempts)
 
-- **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (1% of attempts)
-
 - **[[Transitions/Side Control to Knee on Belly/Attacker|Side Control to Knee on Belly]]** (1% of attempts)
 
 - **[[Arm Crush from Side Control/Attacker|Arm Crush from Side Control]]** (2% of attempts)
-
-- **[[Armbar from Side Control/Attacker|Armbar from Side Control]]** (1% of attempts)
 
 - **[[Belly Down Armbar from Side Control/Attacker|Belly Down Armbar from Side Control]]** (1% of attempts)
 

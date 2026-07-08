@@ -163,8 +163,6 @@ The position excels against standing and combat base opponents, using leg extens
 
 - **[[Transitions/Feet on Hips to De La Riva/Attacker|Feet on Hips to De La Riva]]** (0% of attempts)
 
-- **[[Transitions/Guard Pull/Attacker|Guard Pull]]** (0% of attempts)
-
 - **[[Transitions/Feet on Hips Sickle Sweep/Attacker|Feet on Hips Sickle Sweep]]** (0% of attempts)
 
 - **[[Transitions/Feet on Hips Tripod Sweep/Attacker|Feet on Hips Tripod Sweep]]** (1% of attempts)

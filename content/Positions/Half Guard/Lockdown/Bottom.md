@@ -21,19 +21,19 @@ description: "Master Lockdown Bottom in BJJ. 10th Planet's signature half guard 
     {
       "@type": "HowToStep",
       "name": "Execute Whip-up Sweep",
-      "text": "From this position, attempt Whip-up Sweep. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Whip-up Sweep. This technique is attempted in 26% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Electric Chair Transition",
-      "text": "From this position, attempt Electric Chair Transition. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Electric Chair Transition. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
@@ -44,14 +44,14 @@ description: "Master Lockdown Bottom in BJJ. 10th Planet's signature half guard 
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Half Guard to Back Take",
+      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 7% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Roll to Truck",
-      "text": "From this position, attempt Roll to Truck. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Roll to Truck. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],

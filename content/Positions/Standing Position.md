@@ -210,15 +210,15 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 ### Available Transitions
 
 
-- **[[Transitions/Guard Pull/Attacker|Guard Pull]]** (33% of attempts)
+- **[[Transitions/Guard Pull/Attacker|Guard Pull]]** (31% of attempts)
 
-- **[[Transitions/Sprawl Defense/Attacker|Sprawl Defense]]** (10% of attempts)
+- **[[Transitions/Sprawl Defense/Attacker|Sprawl Defense]]** (7% of attempts)
 
-- **[[Transitions/Single Leg Entry/Attacker|Single Leg Entry]]** (7% of attempts)
+- **[[Transitions/Single Leg Entry/Attacker|Single Leg Entry]]** (6% of attempts)
 
-- **[[Transitions/Double Leg Setup/Attacker|Double Leg Setup]]** (6% of attempts)
+- **[[Transitions/Double Leg Setup/Attacker|Double Leg Setup]]** (5% of attempts)
 
-- **[[Transitions/Sprawl/Attacker|Sprawl]]** (6% of attempts)
+- **[[Transitions/Sprawl/Attacker|Sprawl]]** (5% of attempts)
 
 - **[[Transitions/Knee Tap/Attacker|Knee Tap]]** (3% of attempts)
 
@@ -229,8 +229,6 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 - **[[Transitions/Arm Drag/Attacker|Arm Drag]]** (3% of attempts)
 
 - **[[Transitions/Ankle Pick/Attacker|Ankle Pick]]** (1% of attempts)
-
-- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (1% of attempts)
 
 - **[[Transitions/Body Lock Takedown/Attacker|Body Lock Takedown]]** (1% of attempts)
 
@@ -275,6 +273,12 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 - **[[Kimura from Standing/Attacker|Kimura from Standing]]** (1% of attempts)
 
 - **[[Reverse Kimura from Standing Position/Attacker|Reverse Kimura from Standing Position]]** (2% of attempts)
+
+- **[[Transitions/Collar Drag/Attacker|Collar Drag]]** (3% of attempts)
+
+- **[[Transitions/Shin to Shin Pull/Attacker|Shin to Shin Pull]]** (3% of attempts)
+
+- **[[Transitions/Standing to Single Leg X/Attacker|Standing to Single Leg X]]** (3% of attempts)
 
 
 ### Common Mistakes

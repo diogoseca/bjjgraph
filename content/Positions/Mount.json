@@ -129,8 +129,8 @@
       {
         "transition": "Mount to Armbar",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 6,
+          "nogi": 6
         }
       },
       {
@@ -155,13 +155,6 @@
         }
       },
       {
-        "transition": "High Mount Transition",
-        "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
-        }
-      },
-      {
         "transition": "Mounted Triangle",
         "attempt_probability": {
           "gi": 3,
@@ -171,8 +164,8 @@
       {
         "transition": "Consolidate Mount",
         "attempt_probability": {
-          "gi": 35,
-          "nogi": 35
+          "gi": 37,
+          "nogi": 37
         }
       },
       {
@@ -206,8 +199,8 @@
       {
         "transition": "Americana from Mount",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 6,
+          "nogi": 6
         }
       },
       {
@@ -248,8 +241,8 @@
       {
         "transition": "Armbar from Mount",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 6,
+          "nogi": 6
         }
       },
       {
@@ -503,50 +496,43 @@
       {
         "transition": "Elbow Escape from Mount",
         "attempt_probability": {
-          "gi": 35,
-          "nogi": 35
+          "gi": 41,
+          "nogi": 41
         }
       },
       {
         "transition": "Upa Escape",
         "attempt_probability": {
-          "gi": 22,
-          "nogi": 22
-        }
-      },
-      {
-        "transition": "Explosive Bridge to Guard Recovery",
-        "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 26,
+          "nogi": 26
         }
       },
       {
         "transition": "Trap and Roll from Mount",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 12,
+          "nogi": 12
         }
       },
       {
         "transition": "Heel Drag Escape",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 8,
+          "nogi": 8
         }
       },
       {
         "transition": "Explosive Bridge to Turtle",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 6,
+          "nogi": 6
         }
       },
       {
         "transition": "Bridge and Roll",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 5,
+          "nogi": 5
         }
       },
       {

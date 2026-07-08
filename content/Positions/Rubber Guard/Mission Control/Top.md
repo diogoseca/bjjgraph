@@ -21,38 +21,32 @@ description: "Learn defensive strategies and escape mechanics from the top of Mi
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction and Pass",
-      "text": "From this position, attempt Arm Extraction and Pass. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Arm Extraction and Pass. This technique is attempted in 29% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Stack Defense",
-      "text": "From this position, attempt Stack Defense. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Guard Opening Sequence",
+      "text": "From this position, attempt Guard Opening Sequence. This technique is attempted in 22% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Standing up in Base",
-      "text": "From this position, attempt Standing up in Base. This technique is attempted in 30% of exchanges from this position.",
+      "name": "Execute Posture Break from Mission Control",
+      "text": "From this position, attempt Posture Break from Mission Control. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Extraction",
-      "text": "From this position, attempt Arm Extraction. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Stack Pass from Mission Control",
+      "text": "From this position, attempt Stack Pass from Mission Control. This technique is attempted in 4% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guard Opening Sequence",
-      "text": "From this position, attempt Guard Opening Sequence. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Posture Recovery from Mission Control",
+      "text": "From this position, attempt Posture Recovery from Mission Control. This technique is attempted in 36% of exchanges from this position.",
       "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Posture Break from Mission Control",
-      "text": "From this position, attempt Posture Break from Mission Control. This technique is attempted in 4% of exchanges from this position.",
-      "position": 6
     }
   ],
   "totalTime": "PT2M"

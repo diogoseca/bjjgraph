@@ -135,15 +135,15 @@
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 22,
-          "nogi": 22
+          "gi": 23,
+          "nogi": 23
         }
       },
       {
         "transition": "Smash Pass",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 12,
+          "nogi": 12
         }
       },
       {
@@ -179,13 +179,6 @@
         "attempt_probability": {
           "gi": 3,
           "nogi": 3
-        }
-      },
-      {
-        "transition": "Kimura from Half Guard",
-        "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
         }
       },
       {
@@ -509,15 +502,15 @@
       {
         "transition": "Underhook Sweep from Half",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 16
+          "gi": 15,
+          "nogi": 15
         }
       },
       {
         "transition": "Half Guard to Back Take",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
@@ -551,8 +544,8 @@
       {
         "transition": "Deep Half Entry",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 13,
+          "nogi": 13
         }
       },
       {
@@ -630,6 +623,13 @@
         "attempt_probability": {
           "gi": 7,
           "nogi": 7
+        }
+      },
+      {
+        "transition": "Kimura from Half Guard",
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
         }
       }
     ],

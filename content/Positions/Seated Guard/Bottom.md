@@ -50,8 +50,8 @@ description: "Master Seated Guard Bottom in BJJ. Upright open guard with posted 
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Ankle Pick",
-      "text": "From this position, attempt Ankle Pick. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Ankle Pick Sweep",
+      "text": "From this position, attempt Ankle Pick Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],

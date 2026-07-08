@@ -137,17 +137,15 @@ The position is inherently transitional and requires immediate attack execution.
 ### Available Transitions
 
 
-- **[[Transitions/Grip Break/Attacker|Grip Break]]** (39% of attempts)
+- **[[Transitions/Grip Break/Attacker|Grip Break]]** (42% of attempts)
 
-- **[[Transitions/Sitting Guard Pull/Attacker|Sitting Guard Pull]]** (19% of attempts)
+- **[[Transitions/Sitting Guard Pull/Attacker|Sitting Guard Pull]]** (20% of attempts)
 
-- **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** (12% of attempts)
+- **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** (13% of attempts)
 
-- **[[Transitions/Whizzer/Attacker|Whizzer]]** (7% of attempts)
+- **[[Transitions/Whizzer/Attacker|Whizzer]]** (8% of attempts)
 
-- **[[Transitions/Sprawl Defense/Attacker|Sprawl Defense]]** (7% of attempts)
-
-- **[[Transitions/Turn In and Face/Attacker|Turn In and Face]]** (7% of attempts)
+- **[[Transitions/Turn In and Face/Attacker|Turn In and Face]]** (8% of attempts)
 
 - **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (5% of attempts)
 

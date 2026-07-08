@@ -21,37 +21,37 @@ description: "Defensive guide to escaping Russian Cowboy position. Learn surviva
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand-up",
-      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 16% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Arm Extraction to Turtle",
+      "text": "From this position, attempt Arm Extraction to Turtle. This technique is attempted in 36% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Extraction to Turtle",
-      "text": "From this position, attempt Arm Extraction to Turtle. This technique is attempted in 32% of exchanges from this position.",
+      "name": "Execute Arm Recovery to Guard",
+      "text": "From this position, attempt Arm Recovery to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Recovery to Guard",
-      "text": "From this position, attempt Arm Recovery to Guard. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Hip Escape from Russian Cowboy",
+      "text": "From this position, attempt Hip Escape from Russian Cowboy. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],

@@ -21,38 +21,32 @@ description: "Defend Rubber Guard from top with systematic escape protocols. Lea
     {
       "@type": "HowToStep",
       "name": "Execute Posture Recovery",
-      "text": "From this position, attempt Posture Recovery. This technique is attempted in 30% of exchanges from this position.",
+      "text": "From this position, attempt Posture Recovery. This technique is attempted in 37% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rubber Guard Clear to Pass",
-      "text": "From this position, attempt Rubber Guard Clear to Pass. This technique is attempted in 23% of exchanges from this position.",
+      "text": "From this position, attempt Rubber Guard Clear to Pass. This technique is attempted in 29% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Extraction",
-      "text": "From this position, attempt Arm Extraction. This technique is attempted in 19% of exchanges from this position.",
+      "name": "Execute Stack Pass",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 17% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Stack Pass",
-      "text": "From this position, attempt Stack Pass. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Pressure Pass",
+      "text": "From this position, attempt Pressure Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Pressure Pass",
-      "text": "From this position, attempt Pressure Pass. This technique is attempted in 9% of exchanges from this position.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Rubber Guard Top Posture Escape",
-      "text": "From this position, attempt Rubber Guard Top Posture Escape. This technique is attempted in 5% of exchanges from this position.",
-      "position": 6
+      "text": "From this position, attempt Rubber Guard Top Posture Escape. This technique is attempted in 6% of exchanges from this position.",
+      "position": 5
     }
   ],
   "totalTime": "PT2M"

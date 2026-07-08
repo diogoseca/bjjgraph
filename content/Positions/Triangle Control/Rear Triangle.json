@@ -624,57 +624,43 @@
       {
         "transition": "Arm Extraction",
         "attempt_probability": {
-          "gi": 25,
-          "nogi": 25
-        }
-      },
-      {
-        "transition": "Triangle Escape",
-        "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 34,
+          "nogi": 34
         }
       },
       {
         "transition": "Rolling Escape to Guard",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 16,
+          "nogi": 16
         }
       },
       {
         "transition": "Stack Defense",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
-        }
-      },
-      {
-        "transition": "Posture Recovery",
-        "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 18,
+          "nogi": 18
         }
       },
       {
         "transition": "Hand Fighting from Back",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 20,
+          "nogi": 20
         }
       },
       {
         "transition": "Grip Fight Escape from Rear Triangle",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 8,
+          "nogi": 8
         }
       },
       {
         "transition": "Posture Defense from Rear Triangle",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 4,
+          "nogi": 4
         }
       }
     ],

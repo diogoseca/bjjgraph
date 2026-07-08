@@ -353,8 +353,8 @@
       {
         "transition": "Inside Sankaku Heel Hook",
         "attempt_probability": {
-          "gi": 40,
-          "nogi": 40
+          "gi": 41,
+          "nogi": 41
         }
       },
       {
@@ -367,15 +367,15 @@
       {
         "transition": "Inside Sankaku to Saddle",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Toe Hold from Inside Sankaku",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
@@ -390,13 +390,6 @@
         "attempt_probability": {
           "gi": 5,
           "nogi": 5
-        }
-      },
-      {
-        "transition": "50-50 Entry",
-        "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
         }
       },
       {
@@ -688,57 +681,43 @@
       {
         "transition": "Hip Escape to Guard",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 16,
+          "nogi": 16
         }
       },
       {
         "transition": "Granby Roll to Guard",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 15,
+          "nogi": 15
         }
       },
       {
         "transition": "Technical Stand-up",
-        "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
-        }
-      },
-      {
-        "transition": "Counter Leg Attack",
-        "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
-        }
-      },
-      {
-        "transition": "Frame and Extract to Half Guard",
-        "attempt_probability": {
-          "gi": 26,
-          "nogi": 26
-        }
-      },
-      {
-        "transition": "Counter-entangle to 50-50 Guard",
-        "attempt_probability": {
-          "gi": 17,
-          "nogi": 17
-        }
-      },
-      {
-        "transition": "Angle Change Escape",
         "attempt_probability": {
           "gi": 6,
           "nogi": 6
         }
       },
       {
-        "transition": "Ashi Garami Escape",
+        "transition": "Counter Leg Attack",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 10,
+          "nogi": 10
+        }
+      },
+      {
+        "transition": "Frame and Extract to Half Guard",
+        "attempt_probability": {
+          "gi": 30,
+          "nogi": 30
+        }
+      },
+      {
+        "transition": "Counter-entangle to 50-50 Guard",
+        "attempt_probability": {
+          "gi": 20,
+          "nogi": 20
         }
       },
       {

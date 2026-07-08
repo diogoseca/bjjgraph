@@ -21,7 +21,7 @@ description: "Master Turtle Top position in BJJ. Offensive position with multipl
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Back Control",
-      "text": "From this position, attempt Turtle to Back Control. This technique is attempted in 56% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Back Control. This technique is attempted in 54% of exchanges from this position.",
       "position": 1
     },
     {

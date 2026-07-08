@@ -80,43 +80,36 @@
       {
         "transition": "Triangle Escape",
         "attempt_probability": {
-          "gi": 35,
-          "nogi": 35
+          "gi": 44,
+          "nogi": 44
         }
       },
       {
         "transition": "Posture Recovery",
         "attempt_probability": {
-          "gi": 26,
-          "nogi": 26
-        }
-      },
-      {
-        "transition": "Stack Defense",
-        "attempt_probability": {
-          "gi": 20,
-          "nogi": 20
+          "gi": 32,
+          "nogi": 32
         }
       },
       {
         "transition": "Guard Recovery from Triangle Control",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Triangle Clear to Side",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Posture Up from Triangle",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 4,
+          "nogi": 4
         }
       },
       {
@@ -369,7 +362,7 @@
     ],
     "transitions": [
       {
-        "transition": "Triangle Choke",
+        "transition": "Triangle Choke from Triangle Control",
         "attempt_probability": {
           "gi": 32,
           "nogi": 32

@@ -265,15 +265,15 @@
       {
         "transition": "Omoplata from Omoplata Control",
         "attempt_probability": {
-          "gi": 19,
-          "nogi": 19
+          "gi": 18,
+          "nogi": 18
         }
       },
       {
         "transition": "Omoplata to Back",
         "attempt_probability": {
-          "gi": 19,
-          "nogi": 19
+          "gi": 18,
+          "nogi": 18
         }
       },
       {
@@ -293,8 +293,8 @@
       {
         "transition": "Armbar on Free Arm",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 17
+          "gi": 16,
+          "nogi": 16
         }
       },
       {
@@ -302,6 +302,13 @@
         "attempt_probability": {
           "gi": 14,
           "nogi": 14
+        }
+      },
+      {
+        "transition": "Omoplata to Sweep",
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
         }
       }
     ],
@@ -522,52 +529,45 @@
     ],
     "transitions": [
       {
-        "transition": "Omoplata from Omoplata Control",
-        "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
-        }
-      },
-      {
         "transition": "Omoplata Sweep",
         "attempt_probability": {
-          "gi": 30,
-          "nogi": 30
+          "gi": 34,
+          "nogi": 34
         }
       },
       {
         "transition": "Omoplata to Back",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 13,
+          "nogi": 13
         }
       },
       {
         "transition": "Triangle Setup",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 16,
+          "nogi": 16
         }
       },
       {
         "transition": "Closed Guard to Omoplata",
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 15
+        }
+      },
+      {
+        "transition": "Rolling Omoplata from Omoplata Control",
         "attempt_probability": {
           "gi": 13,
           "nogi": 13
         }
       },
       {
-        "transition": "Rolling Omoplata from Omoplata Control",
-        "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
-        }
-      },
-      {
         "transition": "Cartwheel Escape from Omoplata",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 6,
+          "nogi": 6
         }
       },
       {

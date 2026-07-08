@@ -133,17 +133,17 @@ Lockdown is 10th Planet's revolutionary half guard variation that transforms tra
 ### Available Transitions
 
 
-- **[[Transitions/Whip-up Sweep/Attacker|Whip-up Sweep]]** (25% of attempts)
+- **[[Transitions/Whip-up Sweep/Attacker|Whip-up Sweep]]** (26% of attempts)
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (9% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (10% of attempts)
 
-- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (10% of attempts)
+- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (11% of attempts)
 
 - **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (7% of attempts)
 
-- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (7% of attempts)
+- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (7% of attempts)
 
-- **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (8% of attempts)
+- **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (9% of attempts)
 
 - **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (8% of attempts)
 
@@ -154,8 +154,6 @@ Lockdown is 10th Planet's revolutionary half guard variation that transforms tra
 - **[[Transitions/Lockdown to Vaporizer/Attacker|Lockdown to Vaporizer]]** (3% of attempts)
 
 - **[[Transitions/Half Guard to Old School/Attacker|Half Guard to Old School]]** (6% of attempts)
-
-- **[[Transitions/Back Take from Lockdown Defense/Attacker|Back Take from Lockdown Defense]]** (4% of attempts)
 
 - **[[Crotch Ripper from Lockdown/Attacker|Crotch Ripper from Lockdown]]** (5% of attempts)
 

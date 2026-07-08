@@ -20,38 +20,38 @@ description: "Master Williams Guard Top defense and passing strategies. Learn to
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Extraction",
-      "text": "From this position, attempt Arm Extraction. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Stack Pass",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Stack Pass",
-      "text": "From this position, attempt Stack Pass. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Pressure Pass",
+      "text": "From this position, attempt Pressure Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Pressure Pass",
-      "text": "From this position, attempt Pressure Pass. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Posture Recovery",
+      "text": "From this position, attempt Posture Recovery. This technique is attempted in 35% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Posture Recovery",
-      "text": "From this position, attempt Posture Recovery. This technique is attempted in 30% of exchanges from this position.",
+      "name": "Execute Knee Slice Pass",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 29% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 25% of exchanges from this position.",
+      "name": "Execute Posture from Williams Guard",
+      "text": "From this position, attempt Posture from Williams Guard. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Posture from Williams Guard",
-      "text": "From this position, attempt Posture from Williams Guard. This technique is attempted in 5% of exchanges from this position.",
+      "name": "Execute Stack from Williams Guard",
+      "text": "From this position, attempt Stack from Williams Guard. This technique is attempted in 2% of exchanges from this position.",
       "position": 6
     }
   ],

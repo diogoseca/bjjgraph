@@ -310,71 +310,64 @@
       {
         "transition": "Toreando Pass",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 16,
+          "nogi": 16
         }
       },
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 16,
+          "nogi": 16
         }
       },
       {
         "transition": "Leg Drag Pass",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 15,
+          "nogi": 15
         }
       },
       {
         "transition": "Long Step Pass",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 12,
+          "nogi": 12
         }
       },
       {
         "transition": "X Pass",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 12,
+          "nogi": 12
         }
       },
       {
         "transition": "Double Under Pass",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
-        }
-      },
-      {
-        "transition": "Grip Break",
-        "attempt_probability": {
-          "gi": 35,
-          "nogi": 35
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Stack Pass",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 12,
+          "nogi": 12
         }
       },
       {
         "transition": "Pass Double Sleeve Guard",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 5,
+          "nogi": 5
         }
       },
       {
         "transition": "Toreando from Double Sleeve",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 3,
+          "nogi": 3
         }
       }
     ]

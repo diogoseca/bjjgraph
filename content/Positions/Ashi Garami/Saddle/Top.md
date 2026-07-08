@@ -21,37 +21,37 @@ description: "Master saddle position mechanics with systematic entries, control 
     {
       "@type": "HowToStep",
       "name": "Execute Outside Heel Hook from Saddle",
-      "text": "From this position, attempt Outside Heel Hook from Saddle. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Outside Heel Hook from Saddle. This technique is attempted in 6% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Straight Ankle Lock Entry",
-      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 10% of exchanges from this position.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Toe Hold from Saddle",
-      "text": "From this position, attempt Toe Hold from Saddle. This technique is attempted in 9% of exchanges from this position.",
-      "position": 3
+      "text": "From this position, attempt Toe Hold from Saddle. This technique is attempted in 10% of exchanges from this position.",
+      "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar from Saddle",
       "text": "From this position, attempt Kneebar from Saddle. This technique is attempted in 2% of exchanges from this position.",
-      "position": 4
+      "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take from Ashi",
-      "text": "From this position, attempt Back Take from Ashi. This technique is attempted in 10% of exchanges from this position.",
-      "position": 5
+      "text": "From this position, attempt Back Take from Ashi. This technique is attempted in 11% of exchanges from this position.",
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Cross Ashi Transition",
-      "text": "From this position, attempt Cross Ashi Transition. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Cross Ashi Transition. This technique is attempted in 7% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Backside 50-50 Entry from Ashi",
+      "text": "From this position, attempt Backside 50-50 Entry from Ashi. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],

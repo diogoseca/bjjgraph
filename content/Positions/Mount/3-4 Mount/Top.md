@@ -21,37 +21,37 @@ description: "Master offensive control from 3-4 Mount Top. Complete guide with t
     {
       "@type": "HowToStep",
       "name": "Execute Mount to Armbar",
-      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 37% of exchanges from this position.",
+      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 40% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Mounted Triangle",
-      "text": "From this position, attempt Mounted Triangle. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Mounted Triangle. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute S-Mount Transition",
-      "text": "From this position, attempt S-Mount Transition. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt S-Mount Transition. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Back Take. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Consolidate Mount",
-      "text": "From this position, attempt Consolidate Mount. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Consolidate Mount. This technique is attempted in 17% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute High Mount Transition",
-      "text": "From this position, attempt High Mount Transition. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Cross Collar Choke from 3-4 Mount",
+      "text": "From this position, attempt Cross Collar Choke from 3-4 Mount. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],

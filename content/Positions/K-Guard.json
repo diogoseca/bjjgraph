@@ -295,50 +295,43 @@
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 25,
-          "nogi": 25
+          "gi": 28,
+          "nogi": 28
         }
       },
       {
         "transition": "Smash Pass",
-        "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
-        }
-      },
-      {
-        "transition": "Leg Drag Pass",
-        "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
-        }
-      },
-      {
-        "transition": "Half Guard Pass",
         "attempt_probability": {
           "gi": 16,
           "nogi": 16
         }
       },
       {
-        "transition": "Underhook Pass",
+        "transition": "Leg Drag Pass",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 13,
+          "nogi": 13
         }
       },
       {
-        "transition": "Kimura from Half Guard",
+        "transition": "Half Guard Pass",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 18,
+          "nogi": 18
+        }
+      },
+      {
+        "transition": "Underhook Pass",
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 13
         }
       },
       {
         "transition": "Guillotine Setup",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 7,
+          "nogi": 7
         }
       },
       {

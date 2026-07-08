@@ -621,43 +621,36 @@
       {
         "transition": "Old School Sweep",
         "attempt_probability": {
-          "gi": 35,
-          "nogi": 35
+          "gi": 38,
+          "nogi": 38
         }
       },
       {
         "transition": "Electric Chair Transition",
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 12
+        }
+      },
+      {
+        "transition": "Lockdown Recovery",
         "attempt_probability": {
           "gi": 11,
           "nogi": 11
         }
       },
       {
-        "transition": "Lockdown Recovery",
-        "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
-        }
-      },
-      {
         "transition": "Guard Recovery from Zombie",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 14,
+          "nogi": 14
         }
       },
       {
         "transition": "Granby Roll to Guard",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
-        }
-      },
-      {
-        "transition": "Rolling Back Take",
-        "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 10,
+          "nogi": 10
         }
       },
       {

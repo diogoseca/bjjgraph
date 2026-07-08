@@ -433,7 +433,7 @@
         }
       },
       {
-        "transition": "Back Take",
+        "transition": "Half Guard to Back Take",
         "attempt_probability": {
           "gi": 25,
           "nogi": 25

@@ -21,19 +21,19 @@ description: "Defensive trapped-leg position where the opponent controls your le
     {
       "@type": "HowToStep",
       "name": "Execute Ashi Garami Escape",
-      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 45% of exchanges from this position.",
+      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 47% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guard Recovery from Inside Ashi-Garami",
-      "text": "From this position, attempt Guard Recovery from Inside Ashi-Garami. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Guard Recovery from Inside Ashi-Garami. This technique is attempted in 19% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing Up from Inside Ashi",
-      "text": "From this position, attempt Standing Up from Inside Ashi. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Standing Up from Inside Ashi. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
@@ -50,8 +50,8 @@ description: "Defensive trapped-leg position where the opponent controls your le
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Step",
-      "text": "From this position, attempt Back Step. This technique is attempted in 4% of exchanges from this position.",
+      "name": "Execute Counter heel hook",
+      "text": "From this position, attempt Counter heel hook. This technique is attempted in 3% of exchanges from this position.",
       "position": 6
     }
   ],

@@ -32,8 +32,8 @@ description: "Master Ringworm Guard Bottom in BJJ. Advanced lapel guard with pow
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Omoplata to Sweep",
-      "text": "From this position, attempt Omoplata to Sweep. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Omoplata Sweep",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {

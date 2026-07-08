@@ -44,8 +44,8 @@ description: "Master Meathook from bottom. Complete control guide covering arm i
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar on Free Arm",
-      "text": "From this position, attempt Armbar on Free Arm. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Armbar from New York",
+      "text": "From this position, attempt Armbar from New York. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {

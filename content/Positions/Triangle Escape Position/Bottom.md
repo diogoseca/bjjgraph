@@ -20,8 +20,8 @@ description: "Master finishing the triangle from the attacking guard position in
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle Choke",
-      "text": "From this position, attempt Triangle Choke. This technique is attempted in 40% of exchanges from this position.",
+      "name": "Execute Triangle Choke from Triangle Control",
+      "text": "From this position, attempt Triangle Choke from Triangle Control. This technique is attempted in 40% of exchanges from this position.",
       "position": 1
     },
     {

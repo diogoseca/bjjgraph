@@ -21,31 +21,31 @@ description: "Master Half Butterfly Bottom position in BJJ. Hybrid guard combini
     {
       "@type": "HowToStep",
       "name": "Execute Basic Butterfly Sweep",
-      "text": "From this position, attempt Basic Butterfly Sweep. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Basic Butterfly Sweep. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 23% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hook Sweep",
-      "text": "From this position, attempt Hook Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Hook Sweep. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {

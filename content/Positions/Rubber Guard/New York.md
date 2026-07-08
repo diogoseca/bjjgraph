@@ -240,7 +240,7 @@ The learning curve for New York is steep, typically requiring 6-12 months of ded
 
 - **[[Transitions/Guard Opening Sequence/Attacker|Guard Opening Sequence]]** (14% of attempts)
 
-- **[[Transitions/Stack Defense/Attacker|Stack Defense]]** (25% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (25% of attempts)
 
 - **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (9% of attempts)
 

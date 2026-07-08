@@ -289,50 +289,36 @@
       {
         "transition": "Stack Pass",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 17
+          "gi": 22,
+          "nogi": 22
         }
       },
       {
         "transition": "Posture Recovery",
         "attempt_probability": {
-          "gi": 33,
-          "nogi": 33
+          "gi": 44,
+          "nogi": 44
         }
       },
       {
         "transition": "Triangle Escape",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 17
-        }
-      },
-      {
-        "transition": "Arm Extraction",
-        "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 22,
+          "nogi": 22
         }
       },
       {
         "transition": "Pass to Side Control",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
-        }
-      },
-      {
-        "transition": "Standing up in Base",
-        "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 7,
+          "nogi": 7
         }
       },
       {
         "transition": "Complete Triangle Escape",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 3,
+          "nogi": 3
         }
       },
       {
@@ -596,7 +582,7 @@
     ],
     "transitions": [
       {
-        "transition": "Triangle Choke",
+        "transition": "Triangle Choke from Triangle Control",
         "attempt_probability": {
           "gi": 40,
           "nogi": 40

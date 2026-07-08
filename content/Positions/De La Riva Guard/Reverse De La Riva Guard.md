@@ -139,21 +139,19 @@ Strategically, RDLR has become increasingly prominent in both gi and no-gi compe
 ### Available Transitions
 
 
-- **[[Transitions/Waiter Sweep/Attacker|Waiter Sweep]]** (22% of attempts)
+- **[[Transitions/Waiter Sweep/Attacker|Waiter Sweep]]** (26% of attempts)
 
-- **[[Transitions/Kiss of the Dragon/Attacker|Kiss of the Dragon]]** (14% of attempts)
+- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (15% of attempts)
 
-- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (13% of attempts)
+- **[[Transitions/De La Riva to X-Guard Transition/Attacker|De La Riva to X-Guard Transition]]** (14% of attempts)
 
-- **[[Transitions/De La Riva to X-Guard Transition/Attacker|De La Riva to X-Guard Transition]]** (12% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (16% of attempts)
 
-- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (14% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (5% of attempts)
 
-- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (4% of attempts)
+- **[[Transitions/Reverse De La Riva Recovery/Attacker|Reverse De La Riva Recovery]]** (14% of attempts)
 
-- **[[Transitions/Reverse De La Riva Recovery/Attacker|Reverse De La Riva Recovery]]** (12% of attempts)
-
-- **[[Transitions/Tripod Sweep/Attacker|Tripod Sweep]]** (6% of attempts)
+- **[[Transitions/Tripod Sweep/Attacker|Tripod Sweep]]** (7% of attempts)
 
 - **[[Transitions/Kiss of the Dragon from RDLR/Attacker|Kiss of the Dragon from RDLR]]** (2% of attempts)
 

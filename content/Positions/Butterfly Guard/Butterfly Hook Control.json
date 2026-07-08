@@ -272,50 +272,43 @@
       {
         "transition": "Butterfly Pass",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 11,
+          "nogi": 11
         }
       },
       {
         "transition": "Butterfly Smash",
         "attempt_probability": {
-          "gi": 34,
-          "nogi": 34
+          "gi": 39,
+          "nogi": 39
         }
       },
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
-        }
-      },
-      {
-        "transition": "Standing up in Base",
-        "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 11,
+          "nogi": 11
         }
       },
       {
         "transition": "Pressure Pass",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Double Under Pass",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 5,
+          "nogi": 5
         }
       },
       {
         "transition": "Leg Weave Pass",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 5,
+          "nogi": 5
         }
       },
       {
@@ -328,15 +321,15 @@
       {
         "transition": "Back Step Pass",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 5,
+          "nogi": 5
         }
       },
       {
         "transition": "Body Lock Pass",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 5,
+          "nogi": 5
         }
       },
       {
@@ -661,7 +654,7 @@
         }
       },
       {
-        "transition": "Guillotine Setup",
+        "transition": "Guillotine Choke from Butterfly Guard",
         "attempt_probability": {
           "gi": 5,
           "nogi": 5
@@ -703,7 +696,7 @@
         }
       },
       {
-        "transition": "Collar Drag",
+        "transition": "Collar Drag from Open Guard",
         "attempt_probability": {
           "gi": 1,
           "nogi": 1

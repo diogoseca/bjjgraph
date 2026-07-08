@@ -20,38 +20,38 @@ description: "Foundational leg entanglement for ankle locks and heel hooks. Entr
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Straight Ankle Lock Entry",
-      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 28% of exchanges from this position.",
+      "name": "Execute Heel Hook from Inside Ashi-Garami",
+      "text": "From this position, attempt Heel Hook from Inside Ashi-Garami. This technique is attempted in 28% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Heel Hook from Inside Ashi-Garami",
-      "text": "From this position, attempt Heel Hook from Inside Ashi-Garami. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Toe Hold from Inside Ashi-Garami",
+      "text": "From this position, attempt Toe Hold from Inside Ashi-Garami. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Toe Hold from Inside Ashi-Garami",
-      "text": "From this position, attempt Toe Hold from Inside Ashi-Garami. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Inside Ashi-Garami to Honey Hole",
+      "text": "From this position, attempt Inside Ashi-Garami to Honey Hole. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kneebar Finish",
-      "text": "From this position, attempt Kneebar Finish. This technique is attempted in 4% of exchanges from this position.",
+      "name": "Execute Back Take from Ashi",
+      "text": "From this position, attempt Back Take from Ashi. This technique is attempted in 2% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Inside Ashi-Garami to Honey Hole",
-      "text": "From this position, attempt Inside Ashi-Garami to Honey Hole. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Inside Ashi-Garami to Cross Ashi",
+      "text": "From this position, attempt Inside Ashi-Garami to Cross Ashi. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take from Ashi",
-      "text": "From this position, attempt Back Take from Ashi. This technique is attempted in 1% of exchanges from this position.",
+      "name": "Execute Outside Ashi Entry",
+      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],

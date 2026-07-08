@@ -155,7 +155,7 @@ The position demands active hip movement and constant angle adjustment to remain
 
 - **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (7% of attempts)
 
-- **[[Transitions/Collar Drag/Attacker|Collar Drag]]** (6% of attempts)
+- **[[Transitions/Collar Drag from Open Guard/Attacker|Collar Drag from Open Guard]]** (6% of attempts)
 
 - **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (5% of attempts)
 
@@ -230,25 +230,23 @@ The position demands active hip movement and constant angle adjustment to remain
 ### Available Transitions
 
 
-- **[[Transitions/Headquarters Pass/Attacker|Headquarters Pass]]** (30% of attempts)
+- **[[Transitions/Headquarters Pass/Attacker|Headquarters Pass]]** (34% of attempts)
 
-- **[[Transitions/Grip Break/Attacker|Grip Break]]** (12% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (11% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (10% of attempts)
+- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (9% of attempts)
 
-- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (8% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (9% of attempts)
 
-- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (8% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (9% of attempts)
 
-- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (8% of attempts)
+- **[[Transitions/X Pass/Attacker|X Pass]]** (9% of attempts)
 
-- **[[Transitions/X Pass/Attacker|X Pass]]** (8% of attempts)
+- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (8% of attempts)
 
-- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (7% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (5% of attempts)
 
-- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (4% of attempts)
-
-- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (3% of attempts)
+- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (4% of attempts)
 
 - **[[Transitions/Bull Pass from Collar Sleeve/Attacker|Bull Pass from Collar Sleeve]]** (1% of attempts)
 

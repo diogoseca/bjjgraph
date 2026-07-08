@@ -32,8 +32,8 @@ description: "Master top inverted lasso guard defense. Complete guide to prevent
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Extraction",
-      "text": "From this position, attempt Arm Extraction. This technique is attempted in 22% of exchanges from this position.",
+      "name": "Execute Arm Extraction and Pass",
+      "text": "From this position, attempt Arm Extraction and Pass. This technique is attempted in 22% of exchanges from this position.",
       "position": 3
     },
     {

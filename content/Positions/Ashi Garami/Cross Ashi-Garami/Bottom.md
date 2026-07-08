@@ -21,13 +21,13 @@ description: "Master defensive Cross Ashi-Garami from bottom position. Learn hee
     {
       "@type": "HowToStep",
       "name": "Execute Ashi Garami Escape",
-      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 8% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Inside Ashi Entry",
-      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 8% of exchanges from this position.",
       "position": 2
     },
     {
@@ -39,19 +39,19 @@ description: "Master defensive Cross Ashi-Garami from bottom position. Learn hee
     {
       "@type": "HowToStep",
       "name": "Execute Heel Hook Defense Escape",
-      "text": "From this position, attempt Heel Hook Defense Escape. This technique is attempted in 43% of exchanges from this position.",
+      "text": "From this position, attempt Heel Hook Defense Escape. This technique is attempted in 47% of exchanges from this position.",
       "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Outside Ashi Entry",
-      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 7% of exchanges from this position.",
-      "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing Escape",
       "text": "From this position, attempt Standing Escape. This technique is attempted in 2% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Counter-entangle to 50-50 Guard",
+      "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],

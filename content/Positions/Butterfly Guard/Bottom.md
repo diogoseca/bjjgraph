@@ -21,7 +21,7 @@ description: "Master Butterfly Guard Bottom in BJJ. Dynamic open guard with expl
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Sweep",
-      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 36% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 37% of exchanges from this position.",
       "position": 1
     },
     {

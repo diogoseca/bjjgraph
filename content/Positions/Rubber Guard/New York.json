@@ -314,7 +314,7 @@
         }
       },
       {
-        "transition": "Stack Defense",
+        "transition": "Stack Pass",
         "attempt_probability": {
           "gi": 25,
           "nogi": 25

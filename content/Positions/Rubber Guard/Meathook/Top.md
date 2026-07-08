@@ -20,39 +20,27 @@ description: "Defend and escape Meathook from top. Complete defensive guide cove
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Extraction",
-      "text": "From this position, attempt Arm Extraction. This technique is attempted in 28% of exchanges from this position.",
+      "name": "Execute Sprawl",
+      "text": "From this position, attempt Sprawl. This technique is attempted in 22% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Stack Defense",
-      "text": "From this position, attempt Stack Defense. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Guard Opening Sequence",
+      "text": "From this position, attempt Guard Opening Sequence. This technique is attempted in 31% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Sprawl",
-      "text": "From this position, attempt Sprawl. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Posture Recovery from Meathook",
+      "text": "From this position, attempt Posture Recovery from Meathook. This technique is attempted in 42% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guard Opening Sequence",
-      "text": "From this position, attempt Guard Opening Sequence. This technique is attempted in 17% of exchanges from this position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Posture Recovery from Meathook",
-      "text": "From this position, attempt Posture Recovery from Meathook. This technique is attempted in 23% of exchanges from this position.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Stack Pass from Meathook",
-      "text": "From this position, attempt Stack Pass from Meathook. This technique is attempted in 3% of exchanges from this position.",
-      "position": 6
+      "text": "From this position, attempt Stack Pass from Meathook. This technique is attempted in 5% of exchanges from this position.",
+      "position": 4
     }
   ],
   "totalTime": "PT2M"

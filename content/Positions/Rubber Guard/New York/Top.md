@@ -38,8 +38,8 @@ description: "Defend and escape New York control from top position. Master postu
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Stack Defense",
-      "text": "From this position, attempt Stack Defense. This technique is attempted in 25% of exchanges from this position.",
+      "name": "Execute Stack Pass",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 25% of exchanges from this position.",
       "position": 4
     },
     {

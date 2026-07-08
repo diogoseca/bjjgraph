@@ -353,15 +353,15 @@
       {
         "transition": "Rear Naked Choke from Harness",
         "attempt_probability": {
-          "gi": 41,
-          "nogi": 41
+          "gi": 42,
+          "nogi": 42
         }
       },
       {
         "transition": "Armbar from Back Transition",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 14,
+          "nogi": 14
         }
       },
       {
@@ -381,8 +381,8 @@
       {
         "transition": "Bow and Arrow Choke from Harness",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 11,
+          "nogi": 11
         }
       },
       {
@@ -418,13 +418,6 @@
         "attempt_probability": {
           "gi": 4,
           "nogi": 4
-        }
-      },
-      {
-        "transition": "Hand Fighting from Back",
-        "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
         }
       },
       {

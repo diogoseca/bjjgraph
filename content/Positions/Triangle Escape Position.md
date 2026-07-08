@@ -139,7 +139,7 @@ Triangle escape training serves broader pedagogical purposes beyond the specific
 ### Available Transitions
 
 
-- **[[Submissions/Triangle Choke/Attacker|Triangle Choke]]** (40% of attempts)
+- **[[Triangle Choke from Triangle Control/Attacker|Triangle Choke from Triangle Control]]** (40% of attempts)
 
 - **[[Transitions/Triangle to Armbar/Attacker|Triangle to Armbar]]** (25% of attempts)
 
@@ -208,19 +208,15 @@ Triangle escape training serves broader pedagogical purposes beyond the specific
 ### Available Transitions
 
 
-- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (17% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (22% of attempts)
 
-- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (33% of attempts)
+- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (44% of attempts)
 
-- **[[Transitions/Triangle Escape/Attacker|Triangle Escape]]** (17% of attempts)
+- **[[Transitions/Triangle Escape/Attacker|Triangle Escape]]** (22% of attempts)
 
-- **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** (12% of attempts)
+- **[[Transitions/Pass to Side Control/Attacker|Pass to Side Control]]** (7% of attempts)
 
-- **[[Transitions/Pass to Side Control/Attacker|Pass to Side Control]]** (5% of attempts)
-
-- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (12% of attempts)
-
-- **[[Transitions/Complete Triangle Escape/Attacker|Complete Triangle Escape]]** (2% of attempts)
+- **[[Transitions/Complete Triangle Escape/Attacker|Complete Triangle Escape]]** (3% of attempts)
 
 - **[[Transitions/Posture in Triangle Escape/Attacker|Posture in Triangle Escape]]** (1% of attempts)
 

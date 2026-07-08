@@ -145,31 +145,29 @@ Defensively, grasshopper guard can serve as an emergency response when tradition
 ### Available Transitions
 
 
-- **[[Transitions/Kneebar from Grasshopper/Attacker|Kneebar from Grasshopper]]** (9% of attempts)
+- **[[Transitions/Kneebar from Grasshopper/Attacker|Kneebar from Grasshopper]]** (10% of attempts)
 
-- **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (7% of attempts)
+- **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (8% of attempts)
 
-- **[[Transitions/Single Leg X Transition/Attacker|Single Leg X Transition]]** (8% of attempts)
+- **[[Transitions/Single Leg X Transition/Attacker|Single Leg X Transition]]** (9% of attempts)
 
-- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (9% of attempts)
+- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (10% of attempts)
 
 - **[[Transitions/Rolling Kneebar/Attacker|Rolling Kneebar]]** (5% of attempts)
 
-- **[[Transitions/Grasshopper Sweep/Attacker|Grasshopper Sweep]]** (7% of attempts)
+- **[[Transitions/Grasshopper Sweep/Attacker|Grasshopper Sweep]]** (8% of attempts)
 
-- **[[Transitions/Granby to Closed Guard/Attacker|Granby to Closed Guard]]** (13% of attempts)
+- **[[Transitions/Granby to Closed Guard/Attacker|Granby to Closed Guard]]** (14% of attempts)
 
 - **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (3% of attempts)
 
-- **[[Transitions/Reverse De La Riva Recovery/Attacker|Reverse De La Riva Recovery]]** (6% of attempts)
+- **[[Transitions/Reverse De La Riva Recovery/Attacker|Reverse De La Riva Recovery]]** (7% of attempts)
 
 - **[[Transitions/Technical Standup from Inversion/Attacker|Technical Standup from Inversion]]** (5% of attempts)
 
-- **[[Transitions/X-Guard Elevation Sweep/Attacker|X-Guard Elevation Sweep]]** (10% of attempts)
+- **[[Transitions/X-Guard Elevation Sweep/Attacker|X-Guard Elevation Sweep]]** (11% of attempts)
 
-- **[[Heel Hook from Grasshopper Guard/Attacker|Heel Hook from Grasshopper Guard]]** (6% of attempts)
-
-- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (9% of attempts)
+- **[[Heel Hook from Grasshopper Guard/Attacker|Heel Hook from Grasshopper Guard]]** (7% of attempts)
 
 - **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (3% of attempts)
 

@@ -137,27 +137,25 @@ While Squid Guard is primarily used in gi grappling due to its reliance on lapel
 ### Available Transitions
 
 
-- **[[Transitions/Kiss of the Dragon/Attacker|Kiss of the Dragon]]** (22% of attempts)
+- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (13% of attempts)
 
-- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (10% of attempts)
+- **[[Transitions/Single Leg X Sweep/Attacker|Single Leg X Sweep]]** (12% of attempts)
 
-- **[[Transitions/Single Leg X Sweep/Attacker|Single Leg X Sweep]]** (9% of attempts)
+- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (12% of attempts)
 
-- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (9% of attempts)
+- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (11% of attempts)
 
-- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (9% of attempts)
+- **[[Transitions/Guard Recovery from Squid Guard/Attacker|Guard Recovery from Squid Guard]]** (13% of attempts)
 
-- **[[Transitions/Guard Recovery from Squid Guard/Attacker|Guard Recovery from Squid Guard]]** (10% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (10% of attempts)
 
-- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (8% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (10% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (8% of attempts)
+- **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** (11% of attempts)
 
-- **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** (9% of attempts)
+- **[[Transitions/Squid Guard Sweep/Attacker|Squid Guard Sweep]]** (5% of attempts)
 
-- **[[Transitions/Squid Guard Sweep/Attacker|Squid Guard Sweep]]** (4% of attempts)
-
-- **[[Transitions/Squid to Ringworm Guard/Attacker|Squid to Ringworm Guard]]** (2% of attempts)
+- **[[Transitions/Squid to Ringworm Guard/Attacker|Squid to Ringworm Guard]]** (3% of attempts)
 
 
 ### Common Mistakes

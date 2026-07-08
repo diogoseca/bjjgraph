@@ -21,25 +21,25 @@ description: "Master grasshopper guard from bottom. Complete guide to inversion 
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar from Grasshopper",
-      "text": "From this position, attempt Kneebar from Grasshopper. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Kneebar from Grasshopper. This technique is attempted in 10% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Straight Ankle Lock Entry",
-      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 8% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Transition",
-      "text": "From this position, attempt Single Leg X Transition. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Single Leg X Transition. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Inside Ashi Entry",
-      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
@@ -51,7 +51,7 @@ description: "Master grasshopper guard from bottom. Complete guide to inversion 
     {
       "@type": "HowToStep",
       "name": "Execute Grasshopper Sweep",
-      "text": "From this position, attempt Grasshopper Sweep. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Grasshopper Sweep. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],

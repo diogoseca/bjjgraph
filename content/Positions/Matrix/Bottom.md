@@ -21,37 +21,37 @@ description: "Execute the Matrix back take from bottom position. Technical guide
     {
       "@type": "HowToStep",
       "name": "Execute Matrix Back Take",
-      "text": "From this position, attempt Matrix Back Take. This technique is attempted in 50% of exchanges from this position.",
+      "text": "From this position, attempt Matrix Back Take. This technique is attempted in 54% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Arm Drag to Back",
+      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Drag to Back",
-      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 10% of exchanges from this position.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 13% of exchanges from this position.",
-      "position": 4
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 14% of exchanges from this position.",
+      "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling to Guard",
       "text": "From this position, attempt Rolling to Guard. This technique is attempted in 7% of exchanges from this position.",
-      "position": 5
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Berimbolo Entry",
       "text": "From this position, attempt Berimbolo Entry. This technique is attempted in 1% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Turtle to Guard",
+      "text": "From this position, attempt Turtle to Guard. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],

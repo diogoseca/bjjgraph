@@ -277,43 +277,36 @@
       {
         "transition": "Turtle to Back Control",
         "attempt_probability": {
-          "gi": 38,
-          "nogi": 38
+          "gi": 41,
+          "nogi": 41
         }
       },
       {
         "transition": "Crab Ride to Back",
         "attempt_probability": {
-          "gi": 20,
-          "nogi": 20
+          "gi": 22,
+          "nogi": 22
         }
       },
       {
         "transition": "Turtle to Truck",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 14,
+          "nogi": 14
         }
       },
       {
         "transition": "Rolling Back Take",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 11,
+          "nogi": 11
         }
       },
       {
         "transition": "Turtle to Rodeo Ride",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
-        }
-      },
-      {
-        "transition": "Sit to Half Guard",
-        "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 7,
+          "nogi": 7
         }
       },
       {

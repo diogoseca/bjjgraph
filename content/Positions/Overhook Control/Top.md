@@ -21,37 +21,37 @@ description: "Master overhook control from top positions. Wrestling-based whizze
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Overhook Control",
-      "text": "From this position, attempt Kimura from Overhook Control. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Kimura from Overhook Control. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Darce Choke from Overhook Control",
-      "text": "From this position, attempt Darce Choke from Overhook Control. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Darce Choke from Overhook Control. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Anaconda Choke",
-      "text": "From this position, attempt Anaconda Choke. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Anaconda Choke. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Drag to Back",
-      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Two-on-One to Back Take",
+      "text": "From this position, attempt Two-on-One to Back Take. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Two-on-One to Back Take",
-      "text": "From this position, attempt Two-on-One to Back Take. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Snap Down to Front Headlock",
+      "text": "From this position, attempt Snap Down to Front Headlock. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Snap Down to Front Headlock",
-      "text": "From this position, attempt Snap Down to Front Headlock. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Crab Ride to Back",
+      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],

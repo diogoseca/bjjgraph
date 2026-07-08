@@ -268,50 +268,43 @@
       {
         "transition": "Smash Pass",
         "attempt_probability": {
-          "gi": 24,
-          "nogi": 24
+          "gi": 27,
+          "nogi": 27
         }
       },
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 17,
+          "nogi": 17
         }
       },
       {
         "transition": "Over-Under Pass",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 16,
+          "nogi": 16
         }
       },
       {
         "transition": "Overhook Pass to Side Control",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
-        }
-      },
-      {
-        "transition": "Arm Drag to Back",
-        "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 16,
+          "nogi": 16
         }
       },
       {
         "transition": "Side Control to Mount",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 14,
+          "nogi": 14
         }
       },
       {
         "transition": "Break Overhook Guard",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 7,
+          "nogi": 7
         }
       },
       {

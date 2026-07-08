@@ -21,37 +21,37 @@ description: "Master Standing Guard Bottom in BJJ. Defensive position with dista
     {
       "@type": "HowToStep",
       "name": "Execute Pull Guard from Ground",
-      "text": "From this position, attempt Pull Guard from Ground. This technique is attempted in 38% of exchanges from this position.",
+      "text": "From this position, attempt Pull Guard from Ground. This technique is attempted in 45% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Sitting Guard Pull",
-      "text": "From this position, attempt Sitting Guard Pull. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Sitting Guard Pull. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Shin to Shin Pull",
-      "text": "From this position, attempt Shin to Shin Pull. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Ankle Pick",
+      "text": "From this position, attempt Ankle Pick. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Standing to Single Leg X",
-      "text": "From this position, attempt Standing to Single Leg X. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Arm Drag to Back",
+      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Ankle Pick",
-      "text": "From this position, attempt Ankle Pick. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Rolling Guard Pull",
+      "text": "From this position, attempt Rolling Guard Pull. This technique is attempted in 5% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Drag to Back",
-      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 6% of exchanges from this position.",
+      "name": "Execute Double Leg Entry",
+      "text": "From this position, attempt Double Leg Entry. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],

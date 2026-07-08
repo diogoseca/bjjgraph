@@ -106,57 +106,50 @@
       {
         "transition": "Ashi Garami Escape",
         "attempt_probability": {
-          "gi": 38,
-          "nogi": 38
+          "gi": 44,
+          "nogi": 44
         }
       },
       {
         "transition": "Counter Ashi Entry",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 17,
+          "nogi": 17
         }
       },
       {
         "transition": "Pass to Side Control",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Guillotine Setup",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
-        }
-      },
-      {
-        "transition": "Straight Ankle Lock Entry",
-        "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 5,
+          "nogi": 5
         }
       },
       {
         "transition": "Back Step Pass",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 11,
+          "nogi": 11
         }
       },
       {
         "transition": "Toe Hold from Ashi Garami",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 7,
+          "nogi": 7
         }
       },
       {
         "transition": "Back Take from Ashi",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 5,
+          "nogi": 5
         }
       },
       {

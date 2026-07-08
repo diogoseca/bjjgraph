@@ -554,7 +554,7 @@
         }
       },
       {
-        "transition": "Omoplata to Sweep",
+        "transition": "Omoplata Sweep",
         "attempt_probability": {
           "gi": 13,
           "nogi": 13

@@ -21,37 +21,37 @@ description: "Master overhook control from bottom positions. Guard-based whizzer
     {
       "@type": "HowToStep",
       "name": "Execute Arm Drag to Back",
-      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Overhook Sweep",
-      "text": "From this position, attempt Overhook Sweep. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Overhook Sweep. This technique is attempted in 25% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Sweep",
-      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Closed Guard to Omoplata",
-      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guillotine Setup",
-      "text": "From this position, attempt Guillotine Setup. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Elevator Sweep",
+      "text": "From this position, attempt Elevator Sweep. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],

@@ -599,50 +599,43 @@
       {
         "transition": "Old School Sweep",
         "attempt_probability": {
-          "gi": 26,
-          "nogi": 26
+          "gi": 31,
+          "nogi": 31
         }
       },
       {
-        "transition": "Turtle to Truck",
+        "transition": "Electric Chair Transition",
+        "attempt_probability": {
+          "gi": 21,
+          "nogi": 21
+        }
+      },
+      {
+        "transition": "Closed Guard to Omoplata",
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
+      },
+      {
+        "transition": "Half Guard to Back Take",
         "attempt_probability": {
           "gi": 16,
           "nogi": 16
         }
       },
       {
-        "transition": "Electric Chair Transition",
-        "attempt_probability": {
-          "gi": 18,
-          "nogi": 18
-        }
-      },
-      {
-        "transition": "Closed Guard to Omoplata",
-        "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
-        }
-      },
-      {
-        "transition": "Half Guard to Back Take",
-        "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
-        }
-      },
-      {
         "transition": "Lockdown Recovery",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 15,
+          "nogi": 15
         }
       },
       {
         "transition": "Escape Vaporizer",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 5,
+          "nogi": 5
         }
       },
       {

@@ -271,15 +271,15 @@
       {
         "transition": "Ashi Garami Escape",
         "attempt_probability": {
-          "gi": 53,
-          "nogi": 53
+          "gi": 55,
+          "nogi": 55
         }
       },
       {
         "transition": "Back Step",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 16
+          "gi": 17,
+          "nogi": 17
         }
       },
       {
@@ -298,13 +298,6 @@
       },
       {
         "transition": "Kneebar Setup",
-        "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
-        }
-      },
-      {
-        "transition": "Standing Escape",
         "attempt_probability": {
           "gi": 3,
           "nogi": 3
@@ -598,8 +591,8 @@
       {
         "transition": "Outside Heel Hook from Outside Ashi-Garami",
         "attempt_probability": {
-          "gi": 31,
-          "nogi": 31
+          "gi": 32,
+          "nogi": 32
         }
       },
       {
@@ -617,7 +610,7 @@
         }
       },
       {
-        "transition": "Saddle Entry from Top",
+        "transition": "Saddle Entry from Outside Ashi",
         "attempt_probability": {
           "gi": 9,
           "nogi": 9
@@ -642,13 +635,6 @@
         "attempt_probability": {
           "gi": 4,
           "nogi": 4
-        }
-      },
-      {
-        "transition": "Aoki Lock",
-        "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
         }
       }
     ],

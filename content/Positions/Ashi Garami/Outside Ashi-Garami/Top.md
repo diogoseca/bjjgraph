@@ -21,13 +21,13 @@ description: "Master Outside Ashi-Garami Top defense in BJJ. Complete guide cove
     {
       "@type": "HowToStep",
       "name": "Execute Ashi Garami Escape",
-      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 53% of exchanges from this position.",
+      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 55% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Step",
-      "text": "From this position, attempt Back Step. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Back Step. This technique is attempted in 17% of exchanges from this position.",
       "position": 2
     },
     {
@@ -50,8 +50,8 @@ description: "Master Outside Ashi-Garami Top defense in BJJ. Complete guide cove
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Standing Escape",
-      "text": "From this position, attempt Standing Escape. This technique is attempted in 3% of exchanges from this position.",
+      "name": "Execute Outside Ashi to Inside Ashi",
+      "text": "From this position, attempt Outside Ashi to Inside Ashi. This technique is attempted in 0% of exchanges from this position.",
       "position": 6
     }
   ],

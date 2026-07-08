@@ -21,7 +21,7 @@ description: "Master 50-50 Guard Bottom defensive strategies. Learn heel protect
     {
       "@type": "HowToStep",
       "name": "Execute Position reversal sweep to top",
-      "text": "From this position, attempt Position reversal sweep to top. This technique is attempted in 23% of exchanges from this position.",
+      "text": "From this position, attempt Position reversal sweep to top. This technique is attempted in 24% of exchanges from this position.",
       "position": 1
     },
     {
@@ -33,7 +33,7 @@ description: "Master 50-50 Guard Bottom defensive strategies. Learn heel protect
     {
       "@type": "HowToStep",
       "name": "Execute 50-50 Guard to Single Leg X-Guard",
-      "text": "From this position, attempt 50-50 Guard to Single Leg X-Guard. This technique is attempted in 21% of exchanges from this position.",
+      "text": "From this position, attempt 50-50 Guard to Single Leg X-Guard. This technique is attempted in 22% of exchanges from this position.",
       "position": 3
     },
     {

@@ -21,7 +21,7 @@ description: "Master closed guard bottom with offensive sweeps, submissions, and
     {
       "@type": "HowToStep",
       "name": "Execute Hip Bump Sweep",
-      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
@@ -33,13 +33,13 @@ description: "Master closed guard bottom with offensive sweeps, submissions, and
     {
       "@type": "HowToStep",
       "name": "Execute Scissor Sweep",
-      "text": "From this position, attempt Scissor Sweep. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Scissor Sweep. This technique is attempted in 6% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 5% of exchanges from this position.",
       "position": 4
     },
     {

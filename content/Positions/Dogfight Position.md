@@ -139,7 +139,7 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 
 - **[[Transitions/Dogfight Sweep/Attacker|Dogfight Sweep]]** (25% of attempts)
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (25% of attempts)
+- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (25% of attempts)
 
 - **[[Transitions/Forward Drive Sweep from Dogfight/Attacker|Forward Drive Sweep from Dogfight]]** (20% of attempts)
 

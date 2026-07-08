@@ -607,8 +607,8 @@
       {
         "transition": "Elbow Escape to Guard",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 13,
+          "nogi": 13
         }
       },
       {
@@ -621,15 +621,15 @@
       {
         "transition": "Bridge and Turn to Turtle",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 17
+          "gi": 16,
+          "nogi": 16
         }
       },
       {
         "transition": "Hip Escape to Guard",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 13,
+          "nogi": 13
         }
       },
       {
@@ -658,6 +658,13 @@
         "attempt_probability": {
           "gi": 7,
           "nogi": 7
+        }
+      },
+      {
+        "transition": "Explosive Bridge to Guard Recovery",
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
         }
       }
     ],

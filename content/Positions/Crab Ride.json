@@ -629,22 +629,22 @@
       {
         "transition": "Hip Escape to Guard",
         "attempt_probability": {
-          "gi": 39,
-          "nogi": 39
+          "gi": 40,
+          "nogi": 40
         }
       },
       {
         "transition": "Granby Roll to Guard",
         "attempt_probability": {
-          "gi": 21,
-          "nogi": 21
+          "gi": 22,
+          "nogi": 22
         }
       },
       {
         "transition": "Turtle to Standing",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 14,
+          "nogi": 14
         }
       },
       {
@@ -659,13 +659,6 @@
         "attempt_probability": {
           "gi": 10,
           "nogi": 10
-        }
-      },
-      {
-        "transition": "Rolling Back Take",
-        "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
         }
       },
       {

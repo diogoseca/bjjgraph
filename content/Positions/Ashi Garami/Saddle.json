@@ -304,22 +304,15 @@
       {
         "transition": "Outside Heel Hook from Saddle",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
-        }
-      },
-      {
-        "transition": "Straight Ankle Lock Entry",
-        "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 6,
+          "nogi": 6
         }
       },
       {
         "transition": "Toe Hold from Saddle",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
@@ -332,22 +325,22 @@
       {
         "transition": "Back Take from Ashi",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 11,
+          "nogi": 11
         }
       },
       {
         "transition": "Cross Ashi Transition",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 7,
+          "nogi": 7
         }
       },
       {
         "transition": "Backside 50-50 Entry from Ashi",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 6,
+          "nogi": 6
         }
       },
       {
@@ -374,8 +367,8 @@
       {
         "transition": "Heel Hook from Saddle",
         "attempt_probability": {
-          "gi": 44,
-          "nogi": 44
+          "gi": 49,
+          "nogi": 49
         }
       },
       {
@@ -622,94 +615,80 @@
     },
     "transitions": [
       {
-        "transition": "Ashi Garami Escape",
-        "attempt_probability": {
-          "gi": 28,
-          "nogi": 28
-        }
-      },
-      {
         "transition": "Standing up in Base",
-        "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
-        }
-      },
-      {
-        "transition": "Guard Recovery from Leg Entanglement",
-        "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
-        }
-      },
-      {
-        "transition": "Frame and Shrimp to Guard",
-        "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
-        }
-      },
-      {
-        "transition": "Counter-entangle to 50-50 Guard",
-        "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
-        }
-      },
-      {
-        "transition": "Inversion Escape",
-        "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
-        }
-      },
-      {
-        "transition": "Leg Extraction to Guard",
-        "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
-        }
-      },
-      {
-        "transition": "Boot Scoot Escape from Saddle",
-        "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
-        }
-      },
-      {
-        "transition": "Fight to Inside Ashi from Saddle",
-        "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
-        }
-      },
-      {
-        "transition": "Forward Roll from Saddle",
-        "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
-        }
-      },
-      {
-        "transition": "Leg Pummeling from Saddle",
         "attempt_probability": {
           "gi": 3,
           "nogi": 3
         }
       },
       {
-        "transition": "Sweep from Saddle",
+        "transition": "Guard Recovery from Leg Entanglement",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
-        "transition": "Aoki Lock",
+        "transition": "Frame and Shrimp to Guard",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 11,
+          "nogi": 11
+        }
+      },
+      {
+        "transition": "Counter-entangle to 50-50 Guard",
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 14
+        }
+      },
+      {
+        "transition": "Inversion Escape",
+        "attempt_probability": {
+          "gi": 17,
+          "nogi": 17
+        }
+      },
+      {
+        "transition": "Leg Extraction to Guard",
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 8
+        }
+      },
+      {
+        "transition": "Boot Scoot Escape from Saddle",
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 7
+        }
+      },
+      {
+        "transition": "Fight to Inside Ashi from Saddle",
+        "attempt_probability": {
+          "gi": 17,
+          "nogi": 17
+        }
+      },
+      {
+        "transition": "Forward Roll from Saddle",
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 6
+        }
+      },
+      {
+        "transition": "Leg Pummeling from Saddle",
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
+      },
+      {
+        "transition": "Sweep from Saddle",
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
         }
       }
     ]

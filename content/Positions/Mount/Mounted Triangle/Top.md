@@ -21,37 +21,37 @@ description: "Master mounted triangle attacks from top position. High-percentage
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Choke from Mounted Triangle",
-      "text": "From this position, attempt Triangle Choke from Mounted Triangle. This technique is attempted in 23% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Choke from Mounted Triangle. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar on Free Arm",
-      "text": "From this position, attempt Armbar on Free Arm. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Armbar on Free Arm. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Switch to Triangle",
-      "text": "From this position, attempt Switch to Triangle. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Back Take",
+      "text": "From this position, attempt Back Take. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 8% of exchanges from this position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Consolidate Mount",
-      "text": "From this position, attempt Consolidate Mount. This technique is attempted in 8% of exchanges from this position.",
-      "position": 5
+      "text": "From this position, attempt Consolidate Mount. This technique is attempted in 9% of exchanges from this position.",
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Gift Wrap",
       "text": "From this position, attempt Gift Wrap. This technique is attempted in 6% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Kimura to Back Take",
+      "text": "From this position, attempt Kimura to Back Take. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],

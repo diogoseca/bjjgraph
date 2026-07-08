@@ -147,13 +147,13 @@ The position demands different strategic approaches based on whether you're esta
 ### Available Transitions
 
 
-- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (14% of attempts)
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (13% of attempts)
 
 - **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (12% of attempts)
 
-- **[[Transitions/Bridge and Turn to Turtle/Attacker|Bridge and Turn to Turtle]]** (17% of attempts)
+- **[[Transitions/Bridge and Turn to Turtle/Attacker|Bridge and Turn to Turtle]]** (16% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (14% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (13% of attempts)
 
 - **[[Transitions/North-South Escape/Attacker|North-South Escape]]** (13% of attempts)
 
@@ -162,6 +162,8 @@ The position demands different strategic approaches based on whether you're esta
 - **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (11% of attempts)
 
 - **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (7% of attempts)
+
+- **[[Transitions/Explosive Bridge to Guard Recovery/Attacker|Explosive Bridge to Guard Recovery]]** (3% of attempts)
 
 
 ### Common Mistakes

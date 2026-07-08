@@ -296,15 +296,15 @@
       {
         "transition": "Aoki Lock from Aoki Lock Control",
         "attempt_probability": {
-          "gi": 43,
-          "nogi": 43
+          "gi": 42,
+          "nogi": 42
         }
       },
       {
         "transition": "Aoki Lock to Back Control",
         "attempt_probability": {
-          "gi": 20,
-          "nogi": 20
+          "gi": 19,
+          "nogi": 19
         }
       },
       {
@@ -324,8 +324,15 @@
       {
         "transition": "Truck Entry",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 13,
+          "nogi": 13
+        }
+      },
+      {
+        "transition": "Aoki Lock",
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
         }
       }
     ]

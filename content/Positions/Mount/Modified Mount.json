@@ -286,7 +286,7 @@
         }
       },
       {
-        "transition": "High Mount Transition",
+        "transition": "Consolidate Mount",
         "attempt_probability": {
           "gi": 12,
           "nogi": 12

@@ -153,7 +153,7 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 
 - **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (2% of attempts)
 
-- **[[Transitions/Arm Drag/Attacker|Arm Drag]]** (2% of attempts)
+- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (2% of attempts)
 
 - **[[Transitions/Scissor Sweep from Open Guard/Attacker|Scissor Sweep from Open Guard]]** (4% of attempts)
 

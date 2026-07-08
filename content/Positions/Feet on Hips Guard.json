@@ -736,13 +736,6 @@
         }
       },
       {
-        "transition": "Guard Pull",
-        "attempt_probability": {
-          "gi": 0,
-          "nogi": 0
-        }
-      },
-      {
         "transition": "Feet on Hips Sickle Sweep",
         "attempt_probability": {
           "gi": 0,

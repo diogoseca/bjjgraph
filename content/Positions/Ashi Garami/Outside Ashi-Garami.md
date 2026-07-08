@@ -137,21 +137,19 @@ Outside Ashi-Garami exists as both an offensive attacking position (bottom persp
 ### Available Transitions
 
 
-- **[[Outside Heel Hook from Outside Ashi-Garami/Attacker|Outside Heel Hook from Outside Ashi-Garami]]** (31% of attempts)
+- **[[Outside Heel Hook from Outside Ashi-Garami/Attacker|Outside Heel Hook from Outside Ashi-Garami]]** (32% of attempts)
 
 - **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (25% of attempts)
 
 - **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (14% of attempts)
 
-- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (9% of attempts)
+- **[[Transitions/Saddle Entry from Outside Ashi/Attacker|Saddle Entry from Outside Ashi]]** (9% of attempts)
 
 - **[[Transitions/Kneebar Setup/Attacker|Kneebar Setup]]** (9% of attempts)
 
 - **[[Transitions/Cross Ashi Transition/Attacker|Cross Ashi Transition]]** (7% of attempts)
 
 - **[[Transitions/Counter Sweep from Outside Ashi/Attacker|Counter Sweep from Outside Ashi]]** (4% of attempts)
-
-- **[[Transitions/Aoki Lock/Attacker|Aoki Lock]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -212,17 +210,15 @@ Outside Ashi-Garami exists as both an offensive attacking position (bottom persp
 ### Available Transitions
 
 
-- **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** (53% of attempts)
+- **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** (55% of attempts)
 
-- **[[Transitions/Back Step/Attacker|Back Step]]** (16% of attempts)
+- **[[Transitions/Back Step/Attacker|Back Step]]** (17% of attempts)
 
 - **[[Transitions/Counter heel hook/Attacker|Counter heel hook]]** (10% of attempts)
 
 - **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (3% of attempts)
 
 - **[[Transitions/Kneebar Setup/Attacker|Kneebar Setup]]** (3% of attempts)
-
-- **[[Transitions/Standing Escape/Attacker|Standing Escape]]** (3% of attempts)
 
 - **[[Transitions/Outside Ashi to Inside Ashi/Attacker|Outside Ashi to Inside Ashi]]** (0% of attempts)
 

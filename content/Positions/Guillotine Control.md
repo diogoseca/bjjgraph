@@ -137,9 +137,9 @@ Strategically, Guillotine Control exemplifies the principle of creating binary d
 ### Available Transitions
 
 
-- **[[Guillotine Choke from Guillotine Control/Attacker|Guillotine Choke from Guillotine Control]]** (50% of attempts)
+- **[[Guillotine Choke from Guillotine Control/Attacker|Guillotine Choke from Guillotine Control]]** (52% of attempts)
 
-- **[[Transitions/High Elbow Guillotine Variation/Attacker|High Elbow Guillotine Variation]]** (13% of attempts)
+- **[[Transitions/High Elbow Guillotine Variation/Attacker|High Elbow Guillotine Variation]]** (14% of attempts)
 
 - **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (10% of attempts)
 
@@ -150,8 +150,6 @@ Strategically, Guillotine Control exemplifies the principle of creating binary d
 - **[[Transitions/Guard Recovery from Guillotine Control/Attacker|Guard Recovery from Guillotine Control]]** (6% of attempts)
 
 - **[[Transitions/Butterfly Sweep with Guillotine/Attacker|Butterfly Sweep with Guillotine]]** (6% of attempts)
-
-- **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** (3% of attempts)
 
 - **[[Transitions/Guillotine Escape to Von Flue/Attacker|Guillotine Escape to Von Flue]]** (1% of attempts)
 
@@ -220,19 +218,17 @@ Strategically, Guillotine Control exemplifies the principle of creating binary d
 ### Available Transitions
 
 
-- **[[Guillotine Choke from Guillotine Control/Attacker|Guillotine Choke from Guillotine Control]]** (44% of attempts)
+- **[[Guillotine Choke from Guillotine Control/Attacker|Guillotine Choke from Guillotine Control]]** (50% of attempts)
 
-- **[[Transitions/High Elbow Guillotine Variation/Attacker|High Elbow Guillotine Variation]]** (12% of attempts)
+- **[[Transitions/Front Headlock to Anaconda/Attacker|Front Headlock to Anaconda]]** (6% of attempts)
 
-- **[[Transitions/Front Headlock to Anaconda/Attacker|Front Headlock to Anaconda]]** (5% of attempts)
+- **[[Transitions/Front Headlock to Darce/Attacker|Front Headlock to Darce]]** (6% of attempts)
 
-- **[[Transitions/Front Headlock to Darce/Attacker|Front Headlock to Darce]]** (5% of attempts)
-
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (5% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (6% of attempts)
 
 - **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (3% of attempts)
 
-- **[[Transitions/Pass to Side Control/Attacker|Pass to Side Control]]** (7% of attempts)
+- **[[Transitions/Pass to Side Control/Attacker|Pass to Side Control]]** (8% of attempts)
 
 - **[[Transitions/Arm in Guillotine Variation/Attacker|Arm in Guillotine Variation]]** (2% of attempts)
 
@@ -242,7 +238,7 @@ Strategically, Guillotine Control exemplifies the principle of creating binary d
 
 - **[[Arm in Guillotine from Guillotine Control/Attacker|Arm in Guillotine from Guillotine Control]]** (1% of attempts)
 
-- **[[High Elbow Guillotine from Guillotine Control/Attacker|High Elbow Guillotine from Guillotine Control]]** (12% of attempts)
+- **[[High Elbow Guillotine from Guillotine Control/Attacker|High Elbow Guillotine from Guillotine Control]]** (14% of attempts)
 
 - **[[Ten Finger Guillotine from Guillotine Control/Attacker|Ten Finger Guillotine from Guillotine Control]]** (1% of attempts)
 

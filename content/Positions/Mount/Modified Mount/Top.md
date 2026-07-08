@@ -38,8 +38,8 @@ description: "Master offensive strategies from Modified Mount. Learn stability m
     },
     {
       "@type": "HowToStep",
-      "name": "Execute High Mount Transition",
-      "text": "From this position, attempt High Mount Transition. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Consolidate Mount",
+      "text": "From this position, attempt Consolidate Mount. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {

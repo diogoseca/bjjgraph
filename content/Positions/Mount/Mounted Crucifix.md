@@ -222,27 +222,25 @@ The mounted crucifix also serves as an excellent teaching position for understan
 ### Available Transitions
 
 
-- **[[Transitions/Armbar from Crucifix/Attacker|Armbar from Crucifix]]** (11% of attempts)
+- **[[Transitions/Armbar from Crucifix/Attacker|Armbar from Crucifix]]** (12% of attempts)
 
-- **[[Transitions/Armbar from Crucifix/Attacker|Armbar from Crucifix]]** (8% of attempts)
+- **[[Rear Naked Choke from Mounted Crucifix/Attacker|Rear Naked Choke from Mounted Crucifix]]** (10% of attempts)
 
-- **[[Rear Naked Choke from Mounted Crucifix/Attacker|Rear Naked Choke from Mounted Crucifix]]** (9% of attempts)
+- **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (10% of attempts)
 
-- **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (9% of attempts)
+- **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (9% of attempts)
 
-- **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (8% of attempts)
-
-- **[[Transitions/Gift Wrap to Technical Mount/Attacker|Gift Wrap to Technical Mount]]** (9% of attempts)
+- **[[Transitions/Gift Wrap to Technical Mount/Attacker|Gift Wrap to Technical Mount]]** (10% of attempts)
 
 - **[[Neck Crank from Mounted Crucifix/Attacker|Neck Crank from Mounted Crucifix]]** (5% of attempts)
 
 - **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (4% of attempts)
 
-- **[[Transitions/Mounted Crucifix to S Mount/Attacker|Mounted Crucifix to S Mount]]** (8% of attempts)
+- **[[Transitions/Mounted Crucifix to S Mount/Attacker|Mounted Crucifix to S Mount]]** (9% of attempts)
 
-- **[[Transitions/Gift Wrap Transition/Attacker|Gift Wrap Transition]]** (8% of attempts)
+- **[[Transitions/Gift Wrap Transition/Attacker|Gift Wrap Transition]]** (9% of attempts)
 
-- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (9% of attempts)
+- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (10% of attempts)
 
 - **[[Positions/Back Control/Seat Belt Control Back/Attacker|Seat Belt Control Back]]** (3% of attempts)
 

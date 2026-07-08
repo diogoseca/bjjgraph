@@ -20,14 +20,14 @@ description: "Master Toe Hold Control Bottom defense in BJJ. Systematic guide co
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Angle Change Escape",
-      "text": "From this position, attempt Angle Change Escape. This technique is attempted in 25% of exchanges from this position.",
+      "name": "Execute Leg Extraction Escape from Entanglement",
+      "text": "From this position, attempt Leg Extraction Escape from Entanglement. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Ashi Garami Escape",
-      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Inversion Escape from Leg Entanglement",
+      "text": "From this position, attempt Inversion Escape from Leg Entanglement. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
