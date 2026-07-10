@@ -124,7 +124,7 @@ def _load_dir(category: str) -> list[tuple[str, dict]]:
     for path in sorted(glob.glob(pat)):
         try:
             with open(path, encoding="utf-8") as fh:
-                out.append((os.path.basename(path)[:-5], reduce_to_scalar(json.load(fh))))
+                out.append((os.path.basename(path)[:-5], reduce_to_scalar(json.load(fh), frame="nogi")))
         except (json.JSONDecodeError, OSError) as exc:  # pragma: no cover
             print(f"  WARN: skipped {path}: {exc}", file=sys.stderr)
     return out

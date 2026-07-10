@@ -24,13 +24,15 @@ from pathlib import Path
 AUDIT_PATH = Path("tests/artifacts/from_position_audit.json")
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from _ruleset import reduce_to_scalar  # collapse mirror {gi,nogi} maps at load (calibration-v2)
+from _ruleset import as_map, sum_cells, RULESETS  # {gi,nogi} contract (calibration-v2)
 
 
 def load_json(path):
+    # RAW load (no ruleset reduce): this script saves what it loads — a reduced
+    # load would flatten divergent {gi,nogi} attempt maps and destroy the gi frame.
     try:
         with open(path, "r", encoding="utf-8") as f:
-            return reduce_to_scalar(json.load(f))
+            return json.load(f)
     except Exception as e:
         print(f"  WARNING: Could not load {path}: {e}", file=sys.stderr)
         return None
@@ -50,8 +52,9 @@ def validate_probability_sum(data, role_name):
     transitions = role_data.get("transitions", [])
     if not transitions:
         return True
-    total = sum(t.get("attempt_probability", 0) for t in transitions)
-    return total == 100
+    return all(
+        sum_cells(transitions, "attempt_probability", rs) == 100 for rs in RULESETS
+    )
 
 
 def fix_case_d(issues, dry_run):
@@ -189,9 +192,12 @@ def fix_case_b(issues, dual_refs, dry_run):
 
             if is_dual and variant_idx is not None:
                 # Merge: add generic probability to variant, remove generic
-                generic_prob = transitions[generic_idx].get("attempt_probability", 0)
-                variant_prob = transitions[variant_idx].get("attempt_probability", 0)
-                new_prob = generic_prob + variant_prob
+                generic_prob = as_map(transitions[generic_idx].get("attempt_probability", 0))
+                variant_prob = as_map(transitions[variant_idx].get("attempt_probability", 0))
+                new_prob = {
+                    rs: (generic_prob.get(rs) or 0) + (variant_prob.get(rs) or 0)
+                    for rs in RULESETS
+                }
 
                 action["type"] = "merge"
                 action["generic_prob"] = generic_prob

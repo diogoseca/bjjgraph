@@ -640,7 +640,7 @@ def process_file(file_path: Path, refs: Dict[str, List[str]], dry_run: bool = Fa
     # Load file
     try:
         with open(file_path, "r", encoding="utf-8") as f:
-            data = reduce_to_scalar(json.load(f))
+            data = reduce_to_scalar(json.load(f), frame="nogi")  # read-only audit: no-gi headline frame
     except Exception as e:
         print(f"  ERROR: Could not load {file_path}: {e}")
         return result_info

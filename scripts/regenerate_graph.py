@@ -23,7 +23,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from _slug import slugify  # shared single-source slugify (node keys + alias map)
 from _atomic_io import atomic_write_json
-from _ruleset import reduce_to_scalar  # collapse mirror {gi,nogi} maps at load (calibration-v2)
+from _ruleset import reduce_to_scalar, as_map, cell  # {gi,nogi} contract (calibration-v2); positions load raw since Q3
 import _votes  # forked {community, prior} votes schema — prior-blended per-ruleset rates (Phase 2.3b)
 
 
@@ -165,8 +165,13 @@ def rewrite_aliases(graph: dict, pos_map: dict, tech_map: dict) -> int:
     return count
 
 
-def load_json_files(directory: Path) -> list[dict]:
-    """Load all JSON files from a directory recursively."""
+def load_json_files(directory: Path, reduce: bool = True) -> list[dict]:
+    """Load all JSON files from a directory recursively.
+
+    reduce=False keeps {gi,nogi} ruleset maps intact (Q3+: positions carry REAL
+    attempt divergence; reduce_to_scalar would raise on it). Callers that pass
+    reduce=False handle maps at each probability read site via as_map/cell.
+    """
     files = []
     if not directory.exists():
         return files
@@ -174,7 +179,9 @@ def load_json_files(directory: Path) -> list[dict]:
     for json_file in directory.rglob('*.json'):
         try:
             with open(json_file, 'r', encoding='utf-8') as f:
-                data = reduce_to_scalar(json.load(f))
+                data = json.load(f)
+                if reduce:
+                    data = reduce_to_scalar(data)
                 if not isinstance(data, dict):
                     continue
                 if '$schema' in data and 'title' in data and 'properties' in data:
@@ -305,7 +312,8 @@ def process_position_role(position_data: dict, role: str, hub_slug: str, hub_pat
     transitions = []
     for t in role_data.get('transitions', []):
         technique_name = t.get('transition', 'Unknown Technique')
-        attempt_prob = t.get('attempt_probability', 0)
+        ap_map = as_map(t.get('attempt_probability', 0))
+        headline = cell(ap_map, 'nogi')  # no-gi default frame, same as successRate
         technique_slug = slugify(technique_name)
 
         transitions.append({
@@ -313,7 +321,8 @@ def process_position_role(position_data: dict, role: str, hub_slug: str, hub_pat
             'target': technique_slug,
             'targetPath': quartz_slug(technique_name),
             'isSubmission': False,
-            'attemptProbability': attempt_prob
+            'attemptProbability': 0 if headline is None else headline,
+            'attemptProbabilityByRuleset': ap_map
         })
 
     state_props = role_data.get('state_properties', {})
@@ -339,7 +348,8 @@ def process_position_role(position_data: dict, role: str, hub_slug: str, hub_pat
 
 def process_positions(content_dir: Path) -> dict:
     positions_dir = content_dir / 'Positions'
-    position_files = load_json_files(positions_dir)
+    # raw load: attempt_probability may be a divergent {gi,nogi} map (Q3 occurrence calibration)
+    position_files = load_json_files(positions_dir, reduce=False)
     path_index = build_position_path_index(positions_dir)
     positions = {}
 
@@ -398,7 +408,8 @@ def process_positions(content_dir: Path) -> dict:
             transitions = []
             for t in pos_data.get('transitions', []):
                 technique_name = t.get('transition', 'Unknown')
-                attempt_prob = t.get('attempt_probability', 0)
+                ap_map = as_map(t.get('attempt_probability', 0))
+                headline = cell(ap_map, 'nogi')
                 technique_slug = slugify(technique_name)
 
                 transitions.append({
@@ -406,7 +417,8 @@ def process_positions(content_dir: Path) -> dict:
                     'target': technique_slug,
                     'targetPath': quartz_slug(technique_name),
                     'isSubmission': False,
-                    'attemptProbability': attempt_prob
+                    'attemptProbability': 0 if headline is None else headline,
+                    'attemptProbabilityByRuleset': ap_map
                 })
 
             if transitions:

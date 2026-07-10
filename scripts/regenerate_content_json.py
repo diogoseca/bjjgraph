@@ -43,7 +43,7 @@ from scripts.claude_infer import call_claude as _infer_call_claude
 from scripts.peak_throttle import is_peak as _is_peak, PACIFIC as _PEAK_PACIFIC
 from scripts._atomic_io import atomic_write_json
 from scripts._prob_norm import largest_remainder_round as _largest_remainder_round
-from scripts._ruleset import reduce_to_scalar  # collapse mirror {gi,nogi} maps at load (calibration-v2)
+from scripts._ruleset import as_map, cell, any_ruleset_map, RULESETS  # {gi,nogi} contract; loads are RAW since Q3 (real divergence)
 
 
 def _is_peak_now() -> bool:
@@ -166,7 +166,7 @@ def build_reference_lists() -> Dict[str, List[str]]:
                 continue
             try:
                 with open(f, 'r', encoding='utf-8') as fh:
-                    data = reduce_to_scalar(json.load(fh))
+                    data = json.load(fh)
                 if 'name' in data:
                     names.append(data['name'])
                     continue
@@ -1316,7 +1316,7 @@ def transition_exists(name: str, from_position: str, refs: Dict[str, List[str]])
         if trans_path:
             try:
                 with open(trans_path, 'r') as f:
-                    existing_data = reduce_to_scalar(json.load(f))
+                    existing_data = json.load(f)
                 existing_from = existing_data.get("from_position", "")
                 # Same name AND same from_position = duplicate
                 if existing_from == from_position:
@@ -1441,10 +1441,11 @@ def save_transition_stub(stub: dict) -> bool:
 # =============================================================================
 
 def load_json(path: Path) -> Optional[dict]:
-    """Load JSON file."""
+    """Load JSON file RAW (no ruleset reduce): process_file saves what it loads, and a
+    reduced load would flatten divergent {gi,nogi} maps, destroying the gi frame (Q3+)."""
     try:
         with open(path, 'r', encoding='utf-8') as f:
-            return reduce_to_scalar(json.load(f))
+            return json.load(f)
     except Exception as e:
         stats_append_error(f"Failed to load {path}: {e}")
         return None
@@ -1516,6 +1517,41 @@ def check_structural_preservation(original: dict, fixed: dict, category: str) ->
 # rescales proportionally to sum 100, even-distributes the all-zero case).
 
 
+def restore_attempt_probabilities(original: dict, fixed: dict) -> int:
+    """Q3 curation-safety: `attempt_probability` is panel-calibrated occurrence data
+    (real {gi,nogi} divergence). Re-merge the ORIGINAL values by (role, transition name)
+    so an LLM refresh can never flatten or re-invent them. Transitions Claude newly adds
+    keep their value (normalize_probabilities then re-fixes each frame's sum). Returns
+    the number of values restored."""
+
+    def containers(d):
+        if not isinstance(d, dict):
+            return
+        for role in ("top", "bottom"):
+            rd = d.get(role)
+            if isinstance(rd, dict):
+                yield role, rd.get("transitions")
+        yield None, d.get("transitions")  # SINGLE/neutral root
+
+    orig_idx = {}
+    for role, trans in containers(original):
+        if isinstance(trans, list):
+            for t in trans:
+                if isinstance(t, dict) and t.get("transition") and "attempt_probability" in t:
+                    orig_idx[(role, t["transition"])] = t["attempt_probability"]
+
+    restored = 0
+    for role, trans in containers(fixed):
+        if isinstance(trans, list):
+            for t in trans:
+                if isinstance(t, dict) and (role, t.get("transition")) in orig_idx:
+                    ov = orig_idx[(role, t.get("transition"))]
+                    if t.get("attempt_probability") != ov:
+                        t["attempt_probability"] = ov
+                        restored += 1
+    return restored
+
+
 def normalize_probabilities(data: dict, category: str) -> bool:
     """2D: rescale probabilities to sum EXACTLY 100 per group, preserving Claude's
     relative weighting — fixes only the sum so a near-miss never forces a retry.
@@ -1530,6 +1566,26 @@ def normalize_probabilities(data: dict, category: str) -> bool:
     def fix_group(items, key):
         nonlocal changed
         if not isinstance(items, list) or not items:
+            return
+        # {gi,nogi} maps (Q3+: real divergence): normalize each frame independently.
+        if any_ruleset_map(it.get(key) for it in items if isinstance(it, dict)):
+            for rs in RULESETS:
+                vals = []
+                for it in items:
+                    c = cell(it.get(key, 0), rs) if isinstance(it, dict) else None
+                    try:
+                        vals.append(max(0.0, float(c if c is not None else 0)))
+                    except (TypeError, ValueError):
+                        vals.append(0.0)
+                if round(sum(vals)) == 100:
+                    continue
+                for it, nv in zip(items, _largest_remainder_round(vals, 100)):
+                    if isinstance(it, dict):
+                        m = as_map(it.get(key, 0))
+                        if m.get(rs) != nv:
+                            m[rs] = nv
+                            changed = True
+                        it[key] = m
             return
         vals = []
         for it in items:
@@ -1708,6 +1764,13 @@ def process_file(file_path: Path, refs: Dict[str, List[str]], dry_run: bool = Fa
                 fixed_content["products"] = orig_products
             else:
                 fixed_content.pop("products", None)
+
+        # Curation-safety (Q3): attempt_probability is panel-calibrated occurrence data —
+        # restore the original (possibly gi/no-gi divergent) values by transition name.
+        if category == "Positions" and isinstance(original_data, dict):
+            n_restored = restore_attempt_probabilities(original_data, fixed_content)
+            if n_restored:
+                tprint(f"{tag}Restored {n_restored} calibrated attempt_probability value(s)")
 
         # Curation-safety (2D): auto-normalize probabilities to sum exactly 100 instead
         # of failing/retrying on a near-miss. Preserves Claude's relative weighting and

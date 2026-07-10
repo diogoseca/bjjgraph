@@ -287,7 +287,8 @@ def load_json_file(json_path):
     """
     try:
         with open(json_path, 'r', encoding='utf-8') as f:
-            return reduce_to_scalar(json.load(f))
+            # no-gi default frame: divergent attempt maps render the same value the graph/game use
+            return reduce_to_scalar(json.load(f), frame='nogi')
     except FileNotFoundError:
         raise FileNotFoundError(f"File not found: {json_path}")
     except json.JSONDecodeError as e:

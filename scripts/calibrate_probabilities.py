@@ -294,7 +294,7 @@ def load_principles() -> list:
     for path in sorted(glob.glob(os.path.join(PRINCIPLES_DIR, "*.json"))):
         try:
             with open(path, encoding="utf-8") as fh:
-                d = reduce_to_scalar(json.load(fh))
+                d = reduce_to_scalar(json.load(fh), frame="nogi")  # read-only case building: no-gi headline frame
             n = d.get("name") or os.path.basename(path)[:-5]
             names.append(n)
         except (json.JSONDecodeError, OSError):
@@ -312,7 +312,7 @@ def build_technique_index() -> dict:
                 continue
             try:
                 with open(path, encoding="utf-8") as fh:
-                    d = reduce_to_scalar(json.load(fh))
+                    d = reduce_to_scalar(json.load(fh), frame="nogi")  # read-only case building: no-gi headline frame
             except (json.JSONDecodeError, OSError):
                 continue
             if not isinstance(d, dict) or "name" not in d or d.get("is_family"):
@@ -346,7 +346,7 @@ def build_cases_from_content(max_cases: int, max_candidates: int) -> dict:
     for path in pos_paths:
         try:
             with open(path, encoding="utf-8") as fh:
-                d = reduce_to_scalar(json.load(fh))
+                d = reduce_to_scalar(json.load(fh), frame="nogi")  # read-only case building: no-gi headline frame
         except (json.JSONDecodeError, OSError):
             continue
         pos_name = d.get("name") or os.path.basename(path)[:-5]
