@@ -116,6 +116,7 @@ description: "Master Crackhead Control Top in BJJ. Dominant turtle attack with c
   "@type": "WebPage",
   "name": "Crackhead Control Top",
   "description": "Master Crackhead Control Top in BJJ. Dominant turtle attack with chair-sit mechanics isolating opponent's hips. Advanced practitioners achieve 85% retention and 75% advancement rates.",
+  "disambiguatingDescription": "Often confused with Crab Ride \u2014 differs because crab ride rides the back with both hooks threaded from underneath for berimbolo-style back takes, while Crackhead Control chair-sits on a turtled opponent\u0027s hips with weight loaded on the lower back.. Often confused with Truck \u2014 differs because the truck isolates and inverts one of the opponent\u0027s legs for twister and back attacks, whereas Crackhead Control controls the hips from a seated chair-sit before any leg is trapped..",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +156,10 @@ description: "Master Crackhead Control Top in BJJ. Dominant turtle attack with c
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Crab Ride|Crab Ride]]</strong> — differs because crab ride rides the back with both hooks threaded from underneath for berimbolo-style back takes, while Crackhead Control chair-sits on a turtled opponent&#39;s hips with weight loaded on the lower back.</p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Twister Control/Truck|Truck]]</strong> — differs because the truck isolates and inverts one of the opponent&#39;s legs for twister and back attacks, whereas Crackhead Control controls the hips from a seated chair-sit before any leg is trapped.</p>
+</aside>
 <section id="overview" class="content-section">
 
 Crackhead Control Top is an advanced turtle control position characterized by the top practitioner sitting on the opponent's hips in a chair-like position while controlling the upper body. Named for its unusual appearance and the awkward positioning it creates for the bottom player, this position combines elements of traditional turtle control with modern leg riding mechanics. The controlling practitioner sits with their hips loaded on the opponent's lower back/hip area, one leg typically hooked inside while maintaining upper body control through various grips - commonly an overhook or seatbelt configuration.

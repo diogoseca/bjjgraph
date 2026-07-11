@@ -17,6 +17,8 @@ description: "Master Russian Leg Lasso position in BJJ. Strategic guide covering
   "@type": "WebPage",
   "name": "Russian Leg Lasso",
   "description": "Master Russian Leg Lasso position in BJJ. Strategic guide covering both bottom guard retention and top passing strategies with systematic technical analysis.",
+  "alternateName": ["Russian Lasso", "Russian Lasso Guard"],
+  "disambiguatingDescription": "Often confused with Lasso Guard \u2014 differs because standard lasso guard uses a single leg lasso, while Russian Leg Lasso reinforces it with layered collar and sleeve grips to form a rotational pulley system.. Often confused with Inverted Lasso Guard \u2014 differs because the inverted variation threads the lasso from an upside-down base for berimbolo-style attacks, whereas Russian Leg Lasso stays upright and grip-heavy for sweeps..",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -48,6 +50,11 @@ description: "Master Russian Leg Lasso position in BJJ. Strategic guide covering
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Russian Lasso</strong>, <strong>Russian Lasso Guard</strong></p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Lasso Guard|Lasso Guard]]</strong> — differs because standard lasso guard uses a single leg lasso, while Russian Leg Lasso reinforces it with layered collar and sleeve grips to form a rotational pulley system.</p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Lasso Guard/Inverted Lasso Guard|Inverted Lasso Guard]]</strong> — differs because the inverted variation threads the lasso from an upside-down base for berimbolo-style attacks, whereas Russian Leg Lasso stays upright and grip-heavy for sweeps.</p>
+</aside>
 <div class="role-links">
 
 [[Russian Leg Lasso/Bottom|Play as Bottom]]
@@ -143,7 +150,7 @@ Emerging from the competitive evolution of the traditional lasso guard, the Russ
 
 - **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (8% of attempts)
 
-- **[[Omoplata from Russian Leg Lasso/Attacker|Omoplata from Russian Leg Lasso]]** (10% of attempts)
+- **[[Transitions/Omoplata from Lasso/Attacker|Omoplata from Lasso]]** (10% of attempts)
 
 - **[[Transitions/Russian Lasso Sweep/Attacker|Russian Lasso Sweep]]** (3% of attempts)
 

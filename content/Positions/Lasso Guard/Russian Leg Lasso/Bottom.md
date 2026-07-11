@@ -116,6 +116,8 @@ description: "Master Russian Leg Lasso Bottom guard. Complete technical guide co
   "@type": "WebPage",
   "name": "Russian Leg Lasso Bottom",
   "description": "Master Russian Leg Lasso Bottom guard. Complete technical guide covering grip strategies, sweep mechanics, and submission entries with expert analysis.",
+  "alternateName": ["Russian Lasso", "Russian Lasso Guard"],
+  "disambiguatingDescription": "Often confused with Lasso Guard \u2014 differs because standard lasso guard uses a single leg lasso, while Russian Leg Lasso reinforces it with layered collar and sleeve grips to form a rotational pulley system.. Often confused with Inverted Lasso Guard \u2014 differs because the inverted variation threads the lasso from an upside-down base for berimbolo-style attacks, whereas Russian Leg Lasso stays upright and grip-heavy for sweeps..",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +157,11 @@ description: "Master Russian Leg Lasso Bottom guard. Complete technical guide co
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Russian Lasso</strong>, <strong>Russian Lasso Guard</strong> <span class="role-hint">(bottom)</span></p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Lasso Guard|Lasso Guard]]</strong> — differs because standard lasso guard uses a single leg lasso, while Russian Leg Lasso reinforces it with layered collar and sleeve grips to form a rotational pulley system.</p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Lasso Guard/Inverted Lasso Guard|Inverted Lasso Guard]]</strong> — differs because the inverted variation threads the lasso from an upside-down base for berimbolo-style attacks, whereas Russian Leg Lasso stays upright and grip-heavy for sweeps.</p>
+</aside>
 <section id="overview" class="content-section">
 
 Russian Leg Lasso Bottom represents one of the most technically sophisticated open guard positions in modern Brazilian Jiu-Jitsu, offering the guard player exceptional control and offensive potential through a complex system of grips, leg positioning, and mechanical advantages. From the bottom position, the practitioner establishes a deep lasso configuration by threading their leg through the opponent's arm, creating a binding effect that serves as the foundation for all subsequent offensive and defensive actions. What distinguishes the Russian variation from standard lasso guard is the incorporation of additional control points - typically involving strategic collar grips, precise sleeve control, and supplementary leg positioning that creates a web of controls difficult for opponents to escape. The mechanical principle underlying this position is elegant yet powerful: the lasso creates a fulcrum point around which the guard player can generate rotational force, while the collar and sleeve grips provide the means to control the opponent's posture and break their base. Success in this position requires coordinating multiple elements simultaneously - maintaining proper distance to prevent the opponent from establishing pressure, managing grip configurations to maximize control while preserving energy, and recognizing opportunities to transition between sweeps and submissions based on the opponent's defensive reactions. The position offers multiple offensive pathways including powerful rotational sweeps, overhead sweep variations, and submission entries into triangles, omoplatas, and armbars. However, this offensive potential comes with energy cost considerations - maintaining the Russian Leg Lasso requires active engagement and can be fatiguing if held too long without transitioning to attacks. Elite practitioners understand that this guard works best as part of a dynamic open guard system, transitioning fluidly between Russian Leg Lasso and complementary positions like De La Riva Guard, Spider Guard, or Collar Sleeve combinations based on opponent reactions. The technical sophistication required makes this an advanced position, but for practitioners who master its mechanics, it becomes a powerful tool for controlling opponents who have developed defenses against simpler guard systems.
@@ -230,7 +237,7 @@ Russian Leg Lasso Bottom represents one of the most technically sophisticated op
 
 
 **If opponent establishes strong base and begins systematic grip breaking:**
-- Execute **[[Omoplata from Russian Leg Lasso/Attacker|Omoplata from Russian Leg Lasso]]** → [[Positions/Omoplata Control]] (Probability: 55%)
+- Execute **[[Transitions/Omoplata from Lasso/Attacker|Omoplata from Lasso]]** → [[Positions/Omoplata Control]] (Probability: 55%)
 - Execute **[[Transitions/Back Take from Bottom/Attacker|Back Take from Bottom]]** → [[Positions/Back Control]] (Probability: 45%)
 
 
