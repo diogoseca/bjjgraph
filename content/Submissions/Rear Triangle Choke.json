@@ -130,5 +130,6 @@
       "name": "Bow and Arrow Choke",
       "relationship": "Alternative gi-based choke from back control sharing similar positional prerequisites"
     }
-  ]
+  ],
+  "from_position": "Back Control/Top"
 }

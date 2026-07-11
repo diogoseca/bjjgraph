@@ -335,16 +335,12 @@
         "attempt_probability": 1
       },
       {
-        "transition": "Boston Crab",
-        "attempt_probability": 1
-      },
-      {
         "transition": "Clock Choke",
         "attempt_probability": 1
       },
       {
         "transition": "Boston Crab from Turtle",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Kimura from Turtle",
