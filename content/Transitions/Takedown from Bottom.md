@@ -254,11 +254,11 @@ The Takedown from Bottom serves as the primary offensive weapon for practitioner
 
 - [[Transitions/Level Change Takedown]] - Closely related transition sharing the same fundamental level change mechanics
 
-- [[Arm Drag from Standing]] - Setup technique that clears defensive frames to create lanes for the takedown entry
+- [[Transitions/Arm Drag]] - Setup technique that clears defensive frames to create lanes for the takedown entry
 
 - [[Transitions/Snap Down from Standing]] - Complementary setup and chain technique that disrupts opponent posture before the shot
 
-- [[Sprawl Defense from Standing]] - Primary defensive counter that the attacker must overcome to complete the takedown
+- [[Transitions/Sprawl Defense]] - Primary defensive counter that the attacker must overcome to complete the takedown
 
 
 </section>

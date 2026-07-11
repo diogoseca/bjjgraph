@@ -247,7 +247,7 @@ The Old School to Half Guard transition serves as a critical reset mechanism wit
 
 - [[Transitions/Old School Sweep]] - Primary attack that may have been defended, prompting this reset
 
-- [[Deep Half Entry from Half Guard]] - Follow-up offensive option available from recovered half guard
+- [[Transitions/Deep Half Entry]] - Follow-up offensive option available from recovered half guard
 
 - [[Transitions/Half Guard to X-Guard]] - Alternative follow-up transition available from standard half guard
 

@@ -239,7 +239,7 @@ The Ghost Escape from Side Control occupies the advanced tier of the side contro
 
 - [[Positions/Turtle]] - Counter outcome position when opponent follows the turn and knee insertion fails
 
-- [[Ghost Escape]] - Standard ghost escape variant that targets turtle rather than direct guard recovery
+- [[Transitions/Ghost Escape from Side Control]] - Standard ghost escape variant that targets turtle rather than direct guard recovery
 
 - [[Positions/Back Control]] - Risk position if opponent follows the turn and establishes hooks from turtle
 

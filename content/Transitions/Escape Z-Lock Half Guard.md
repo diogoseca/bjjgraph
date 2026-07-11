@@ -247,7 +247,7 @@ The Escape Z-Lock Half Guard serves as a critical pressure valve within the broa
 
 - [[Positions/Half Guard/Deep Half Guard]] - Alternative escape destination when forward pressure makes standard recovery dangerous
 
-- [[Deep Half Entry from Half Guard]] - Follow-up transition available once standard half guard is recovered
+- [[Transitions/Deep Half Entry]] - Follow-up transition available once standard half guard is recovered
 
 - [[Transitions/Underhook Sweep from Half]] - Primary offensive option available from recovered standard half guard position
 

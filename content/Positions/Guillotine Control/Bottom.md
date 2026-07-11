@@ -363,7 +363,7 @@ Start each round with bottom player establishing guillotine control in guard. Bo
 - **[[Positions/Half Guard]]** - Common transition - alternative guard retention option
 - **[[Submissions/Guillotine Choke]]** - Primary submission - main finishing technique
 - **[[Submissions/Arm in Guillotine]]** - Variation technique - arm-trapped finishing method
-- **[[Chin Strap Guillotine]]** - Variation technique - alternative finishing mechanics with chin control
+- **[[Chin Strap Guillotine from Front Headlock]]** - Variation technique - alternative finishing mechanics with chin control
 - **[[Transitions/Anaconda Choke]]** - Alternative submission - counter when opponent turns
 - **[[Positions/Mount/Mounted Triangle]]** - Chain submission - transition when arm crosses during defense
 - **[[Positions/Omoplata Control]]** - Chain submission - transition when opponent posts hand

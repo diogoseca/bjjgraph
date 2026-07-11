@@ -69,7 +69,7 @@
       "relationship": "Alternative escape from side control using opposite mechanical principle"
     },
     {
-      "name": "Ghost Escape",
+      "name": "Ghost Escape from Side Control",
       "relationship": "Advanced variation using shrimp mechanics with direction reversal"
     },
     {
@@ -424,7 +424,7 @@
   },
   "variants_and_adaptations": [
     {
-      "variant_name": "Ghost Escape",
+      "variant_name": "Ghost Escape from Side Control",
       "description": "When opponent has secured deep cross-face or underhook controls, the ghost escape involves turning away from opponent (facing down) while shrimping, using the rotation to slip out from under their grips. The bottom player turns their back momentarily, uses the shrimp motion to slide out, then immediately recovers to turtle or guard.",
       "when_to_use": "When opponent has dominant head and arm control making traditional frames impossible"
     },

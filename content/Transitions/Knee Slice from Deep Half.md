@@ -253,7 +253,7 @@ The knee slice from deep half guard serves as a critical escape-to-offense tool 
 
 - [[Positions/Headquarters Position]] - Intermediate position the leg may transition through during extraction
 
-- [[Deep Half Entry from Half Guard]] - Transition the bottom player uses to re-enter deep half if pass stalls
+- [[Transitions/Deep Half Entry]] - Transition the bottom player uses to re-enter deep half if pass stalls
 
 - [[Positions/Half Guard/Knee Shield Half Guard]] - Defensive structure the bottom player may use to halt the knee slice
 

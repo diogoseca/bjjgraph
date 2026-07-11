@@ -431,7 +431,7 @@
             "probability": 50
           },
           {
-            "technique": "Ghost Escape",
+            "technique": "Ghost Escape from Side Control",
             "target": "Turtle",
             "probability": 45
           },
@@ -575,7 +575,7 @@
         "relationship": "Fundamental escape movement pattern"
       },
       {
-        "name": "Ghost Escape",
+        "name": "Ghost Escape from Side Control",
         "relationship": "High-percentage escape exploiting back exposure"
       }
     ],

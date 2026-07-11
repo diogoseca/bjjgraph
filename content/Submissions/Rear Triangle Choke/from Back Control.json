@@ -109,7 +109,7 @@
     "Gogoplata",
     "Inverted Triangle",
     "Choke from Crucifix",
-    "Gift Wrap Armbar",
+    "Gift Wrap Armbar from Gift Wrap",
     "Bow and Arrow Choke",
     "Triangle Choke Side"
   ],
@@ -151,7 +151,7 @@
       "relationship": "Alternative back control position for arm isolation and finishing attacks"
     },
     {
-      "name": "Gift Wrap Armbar",
+      "name": "Gift Wrap Armbar from Gift Wrap",
       "relationship": "Chain submission from gift wrap back control when triangle setup creates arm isolation opportunity"
     }
   ],

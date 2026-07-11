@@ -252,7 +252,7 @@ The Guillotine Counter is a critical component of front headlock defense and scr
 
 - [[Positions/Front Headlock]] - Starting control position from which many guillotines are initiated
 
-- [[Von Flue Choke]] - Counter-submission available when opponent maintains guillotine grip during pass to side control
+- [[Von Flue Choke from Side Control]] - Counter-submission available when opponent maintains guillotine grip during pass to side control
 
 - [[Transitions/Posture Recovery]] - Fundamental defensive skill required for effective guillotine counter initiation
 

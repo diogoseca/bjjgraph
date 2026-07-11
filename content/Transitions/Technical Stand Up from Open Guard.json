@@ -106,7 +106,7 @@
       "relationship": "Option if opponent clinches during your stand-up attempt"
     },
     {
-      "name": "Sprawl Defense from Standing",
+      "name": "Sprawl Defense",
       "relationship": "Defensive skill needed if opponent shoots during stand-up completion"
     }
   ],

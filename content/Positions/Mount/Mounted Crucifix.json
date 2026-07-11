@@ -102,7 +102,7 @@
             "probability": 75
           },
           {
-            "technique": "Neck Crank",
+            "technique": "Neck Crank from Twister Control",
             "target": "game-over",
             "probability": 65
           }

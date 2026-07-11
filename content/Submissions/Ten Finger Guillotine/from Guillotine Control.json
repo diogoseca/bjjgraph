@@ -96,7 +96,7 @@
     "High Elbow Guillotine",
     "Arm in Guillotine",
     "Guillotine Choke",
-    "Chin Strap Guillotine"
+    "Chin Strap Guillotine from Front Headlock"
   ],
   "related_content": [
     {
@@ -120,7 +120,7 @@
       "relationship": "Alternative submission path when opponent turns into guillotine"
     },
     {
-      "name": "Von Flue Choke",
+      "name": "Von Flue Choke from Side Control",
       "relationship": "Counter-submission opponent may attempt if attacker holds guillotine too long from bottom"
     }
   ],

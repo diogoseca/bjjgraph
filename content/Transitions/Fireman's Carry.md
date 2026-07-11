@@ -265,7 +265,7 @@ The Fireman's Carry occupies a unique position in the BJJ technical ecosystem as
 
 - [[Transitions/Guard Pull]] - Alternative transition from clinch when Fireman's Carry is not viable
 
-- [[Duck Under]] - Chain wrestling option when Fireman's Carry is defended with whizzer
+- [[Transitions/Duck Under from Clinch]] - Chain wrestling option when Fireman's Carry is defended with whizzer
 
 
 </section>

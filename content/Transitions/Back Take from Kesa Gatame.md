@@ -241,7 +241,7 @@ The Back Take from Kesa Gatame occupies a critical role in the bottom player's e
 
 - [[Positions/Back Control]] - Target position achieved upon successful back take execution
 
-- [[Ghost Escape]] - Alternative Kesa Gatame escape exploiting similar back exposure vulnerability
+- [[Transitions/Ghost Escape from Side Control]] - Alternative Kesa Gatame escape exploiting similar back exposure vulnerability
 
 - [[Transitions/Bridge and Turn to Turtle]] - Complementary escape from Kesa Gatame that can transition into back take opportunities
 

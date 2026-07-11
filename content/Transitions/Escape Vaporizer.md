@@ -253,7 +253,7 @@ The Escape Vaporizer connects the 10th Planet lockdown system to the broader ope
 
 - [[Transitions/Back Door Escape from Half Guard]] - Related escape concept demonstrating tactical retreat from half guard positions
 
-- [[Deep Half Entry from Half Guard]] - Alternative transition path available from the half guard family
+- [[Transitions/Deep Half Entry]] - Alternative transition path available from the half guard family
 
 - [[Positions/Butterfly Guard]] - Specific open guard variation accessible through the quick-release butterfly variant
 

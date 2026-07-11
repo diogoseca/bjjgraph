@@ -245,7 +245,7 @@ The arm drag from clinch bottom integrates into the broader BJJ standing game as
 
 - [[Transitions/Arm Drag from Clinch]] - Parent technique covering arm drag from general clinch engagement
 
-- [[Duck Under]] - Alternative back take entry from clinch that chains with arm drag attempts
+- [[Transitions/Duck Under from Clinch]] - Alternative back take entry from clinch that chains with arm drag attempts
 
 - [[Transitions/Single Leg Takedown]] - Fallback takedown option when arm drag fails but opponent's weight shifts forward
 

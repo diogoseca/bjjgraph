@@ -257,7 +257,7 @@ The sit out from turtle serves as a critical link between defensive turtle posit
 
 - [[Transitions/Hip Escape from Front Headlock]] - Related escape technique using similar hip rotation and facing mechanics
 
-- [[Deep Half Entry from Half Guard]] - Alternative deep entry option from turtle using similar threading mechanics
+- [[Transitions/Deep Half Entry]] - Alternative deep entry option from turtle using similar threading mechanics
 
 
 </section>

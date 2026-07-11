@@ -53,7 +53,7 @@
       "relationship": "Primary submission threat requiring this defense"
     },
     {
-      "name": "Hitchhiker Escape",
+      "name": "Hitchhiker Escape from Armbar",
       "relationship": "Alternative escape variation when rolling is blocked"
     },
     {
@@ -390,7 +390,7 @@
       "when_to_use": "When opponent is upright or leaning forward, space available for roll, and opponent's base can be disrupted"
     },
     {
-      "variant_name": "Hitchhiker Escape",
+      "variant_name": "Hitchhiker Escape from Armbar",
       "description": "Thumb-up rotation with arm extending overhead like hitchhiking gesture, creating shoulder external rotation that counters kimura mechanics. Requires significant flexibility.",
       "when_to_use": "When rolling is blocked or space is limited, particularly from bottom side control or mount positions"
     },

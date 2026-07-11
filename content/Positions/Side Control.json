@@ -621,7 +621,7 @@
             "probability": 60
           },
           {
-            "technique": "Ghost Escape",
+            "technique": "Ghost Escape from Side Control",
             "target": "Turtle",
             "probability": 35
           }
@@ -676,7 +676,7 @@
         "condition": "If opponent drives aggressive crossface creating turning momentum",
         "actions": [
           {
-            "technique": "Ghost Escape",
+            "technique": "Ghost Escape from Side Control",
             "target": "Turtle",
             "probability": 50
           },

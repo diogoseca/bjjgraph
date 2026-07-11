@@ -44,7 +44,7 @@
       "relationship": "Common destination via bodylock pass when opponent sits to guard"
     },
     {
-      "name": "Mat Return from Rear Clinch",
+      "name": "Mat Return from Standing Rear Clinch",
       "relationship": "Primary takedown transition for converting rear clinch to ground back control"
     },
     {
@@ -338,7 +338,7 @@
         "relationship": "Common destination via bodylock pass when opponent sits to guard"
       },
       {
-        "name": "Mat Return from Rear Clinch",
+        "name": "Mat Return from Standing Rear Clinch",
         "relationship": "Primary takedown transition for converting rear clinch to ground back control"
       },
       {

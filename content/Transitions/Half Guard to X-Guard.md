@@ -251,7 +251,7 @@ The Half Guard to X-Guard transition occupies a critical junction in the bottom 
 
 - [[Positions/Open Guard]] - Counter outcome position when top player successfully disengages the half guard trap
 
-- [[Deep Half Entry from Half Guard]] - Related transition using similar hip escape mechanics to get underneath opponent
+- [[Transitions/Deep Half Entry]] - Related transition using similar hip escape mechanics to get underneath opponent
 
 - [[Positions/Dogfight Position]] - Alternative outcome when underhook battle leads to mutual standing rather than X-Guard entry
 

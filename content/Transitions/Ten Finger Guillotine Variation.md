@@ -239,7 +239,7 @@ The Ten Finger Guillotine Variation occupies a specialized niche within the fron
 
 - [[Transitions/Arm in Guillotine Variation]] - Related variation - alternative grip when opponent's arm is trapped inside
 
-- [[Chin Strap Guillotine]] - Alternative submission - different finishing grip targeting chin and jaw line
+- [[Chin Strap Guillotine from Front Headlock]] - Alternative submission - different finishing grip targeting chin and jaw line
 
 - [[Positions/Front Headlock]] - Parent control category - broader head control system this variation belongs to
 

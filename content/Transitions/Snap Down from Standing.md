@@ -246,7 +246,7 @@ The snap down from standing functions as the primary bridge between the standing
 
 - [[Transitions/Snap Down to Front Headlock]] - Closely related transition covering the same standing-to-front-headlock pathway
 
-- [[Arm Drag from Standing]] - Alternative standing offensive technique that chains well when snap down is defended
+- [[Transitions/Arm Drag]] - Alternative standing offensive technique that chains well when snap down is defended
 
 - [[Transitions/Ankle Pick]] - Complementary low-line attack that creates a high-low dilemma with the snap down
 

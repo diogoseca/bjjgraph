@@ -256,7 +256,7 @@ The lumberjack sweep is a cornerstone technique of modern half guard bottom syst
 
 - [[Positions/Butterfly Guard]] - Recovery option if opponent extracts leg during sweep attempt
 
-- [[Deep Half Entry from Half Guard]] - Chain transition when crossface prevents sweep completion
+- [[Transitions/Deep Half Entry]] - Chain transition when crossface prevents sweep completion
 
 
 </section>

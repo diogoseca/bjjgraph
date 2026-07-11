@@ -253,7 +253,7 @@ The Armbar from Back Transition integrates into the back attack system as a seco
 
 - [[Submissions/Belly Down Armbar]] - Variant finish when opponent stacks during transition
 
-- [[Hitchhiker Escape]] - Primary escape the defender uses once armbar control is established
+- [[Transitions/Hitchhiker Escape from Armbar]] - Primary escape the defender uses once armbar control is established
 
 
 </section>

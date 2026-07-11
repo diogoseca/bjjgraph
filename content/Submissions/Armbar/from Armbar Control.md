@@ -261,6 +261,7 @@ The finish itself requires coordinated opposing vectors: hips drive toward the c
 - [[Transitions/Armbar from Crucifix]] - Entry path from crucifix control establishing armbar control for the finish
 - [[Transitions/Armbar from Clamp Guard]] - Entry path from clamp guard establishing armbar control for the finish
 - [[Transitions/Armbar from North-South]] - Entry path from north-south establishing armbar control for the finish
+- [[Transitions/Hitchhiker Escape from Armbar]] - Primary defensive counter the opponent uses against this finish
 - [[Transitions/Armbar from Back Transition]] - Entry path from back control establishing armbar control for the finish
 
 </section>

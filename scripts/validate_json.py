@@ -1212,26 +1212,36 @@ def validate_category(category, strict=False):
         # Show relative path for nested files
         relative_path = json_file.relative_to(category_path)
 
-        if errors or (warnings and strict):
+        # Severity gate (matches ci-validate.yml charter: the HARD gate fails on
+        # SCHEMA BREAKS only). BLOCKING = schema failures / attempt-sum errors /
+        # invalid-category refs → hard fail. NON_BLOCKING (broken related_content
+        # links, name mismatches, disambiguation/product warnings) + plain warnings
+        # are surfaced but do NOT fail the gate. `--strict` escalates everything.
+        blocking = cats["blocking"]
+        non_blocking = cats["non_blocking"]
+        cat_all = set(blocking) | set(non_blocking)
+        extra_warnings = [w for w in warnings if w not in cat_all]
+        soft = non_blocking + extra_warnings  # non-failing signals
+
+        if blocking or (strict and soft):
             print(f"\n✗ {relative_path}:")
-            for error in cats["blocking"]:
+            for error in blocking:
                 print(f"  - BLOCKING: {error}")
-            for error in cats["non_blocking"]:
+            for error in non_blocking:
                 print(f"  - NON_BLOCKING: {error}")
-            # Print any warnings not already in categories
-            cat_all = set(cats["blocking"]) | set(cats["non_blocking"])
-            for warning in warnings:
-                if warning not in cat_all:
-                    print(f"  - WARNING: {warning}")
-            total_errors += len(errors)
-            if strict:
-                total_errors += len(warnings)
-            failed_files.append(str(relative_path))
-        elif warnings:
-            print(f"⚠ {relative_path}:")
-            for warning in warnings:
+            for warning in extra_warnings:
                 print(f"  - WARNING: {warning}")
-            total_warnings += len(warnings)
+            total_errors += len(blocking)
+            if strict:
+                total_errors += len(soft)
+            failed_files.append(str(relative_path))
+        elif soft:
+            print(f"⚠ {relative_path}:")
+            for warning in non_blocking:
+                print(f"  - NON_BLOCKING: {warning}")
+            for warning in extra_warnings:
+                print(f"  - WARNING: {warning}")
+            total_warnings += len(soft)
         else:
             print(f"✓ {relative_path}")
 

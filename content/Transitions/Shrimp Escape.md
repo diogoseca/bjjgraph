@@ -204,7 +204,7 @@ The Shrimp Escape, also known as the hip escape, is one of the most fundamental 
 ## Variations
 
 
-**Ghost Escape**: When opponent has secured deep cross-face or underhook controls, the ghost escape involves turning away from opponent (facing down) while shrimping, using the rotation to slip out from under their grips. The bottom player turns their back momentarily, uses the shrimp motion to slide out, then immediately recovers to turtle or guard. (When to use: When opponent has dominant head and arm control making traditional frames impossible)
+**Ghost Escape from Side Control**: When opponent has secured deep cross-face or underhook controls, the ghost escape involves turning away from opponent (facing down) while shrimping, using the rotation to slip out from under their grips. The bottom player turns their back momentarily, uses the shrimp motion to slide out, then immediately recovers to turtle or guard. (When to use: When opponent has dominant head and arm control making traditional frames impossible)
 
 
 **Running Man Escape**: A more dynamic variation involving alternating leg movements similar to running in place while on your side. Each leg pumps in sequence, creating continuous micro-adjustments that prevent opponent from settling their weight. This is combined with standard shrimp mechanics but adds rhythmic leg movement. (When to use: Against opponents who are skilled at following shrimp movements and maintaining pressure)
@@ -243,7 +243,7 @@ The shrimp escape is the foundational defensive technique that connects multiple
 
 - [[Transitions/Bridge and Roll]] - Alternative escape from side control using opposite mechanical principle
 
-- [[Ghost Escape]] - Advanced variation using shrimp mechanics with direction reversal
+- [[Transitions/Ghost Escape from Side Control]] - Advanced variation using shrimp mechanics with direction reversal
 
 - [[Positions/Open Guard]] - Intermediate guard recovery position when closed guard cannot be immediately established
 

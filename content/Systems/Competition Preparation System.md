@@ -425,7 +425,7 @@ Competition preparation training follows progressive periodization with distinct
 - [[Energy Conservation]] (Principle) - Energy expenditure regulation across tournament duration
 - [[Control Point Hierarchy]] (Principle) - Position selection priorities integrated into game planning
 - [[Guard Pull]] (Transition) - Common competition opening strategy requiring specific preparation
-- [[Arm Drag from Standing]] (Transition) - Standing phase technique for offensive and defensive transitions in competition
+- [[Arm Drag]] (Transition) - Standing phase technique for offensive and defensive transitions in competition
 - [[Double Leg Entry]] (Transition) - High-percentage takedown for offensive standing game plans
 - [[Single Leg Entry]] (Transition) - Alternative takedown system for competition offensive strategies
 - [[Closed Guard]] (Position) - Fundamental competition position requiring strategic drilling

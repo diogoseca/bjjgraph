@@ -245,7 +245,7 @@ Arm extraction serves as a critical defensive connector in the BJJ positional hi
 
 - [[Transitions/Bridge and Roll]] - Alternative escape option particularly effective when arm extraction is countered by increased pressure
 
-- [[Ghost Escape]] - Advanced alternative escape pathway from side control using different mechanics
+- [[Transitions/Ghost Escape from Side Control]] - Advanced alternative escape pathway from side control using different mechanics
 
 - [[Positions/Half Guard/Knee Shield Half Guard]] - Common follow-up guard position after successful arm extraction
 

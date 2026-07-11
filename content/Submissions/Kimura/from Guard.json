@@ -111,7 +111,7 @@
     "Gogoplata",
     "High Elbow Guillotine",
     "Triangle Choke",
-    "Flying Armbar",
+    "Flying Armbar from Closed Guard",
     "Omoplata",
     "Americana",
     "Baratoplata",
@@ -143,7 +143,7 @@
       "relationship": "Primary starting position for this submission variation"
     },
     {
-      "name": "Flying Armbar",
+      "name": "Flying Armbar from Closed Guard",
       "relationship": "Alternative armbar finish when opponent straightens arm defending Kimura"
     },
     {

@@ -219,7 +219,7 @@ Mastery of armbar defense is essential for all practitioners, as the armbar is o
 <p class="section-subtitle">What should you do from Armbar Control (Bottom)?</p>
 
 **If opponent has not fully extended the arm and legs are not tight across face:**
-- Execute **[[Hitchhiker Escape/Attacker|Hitchhiker Escape]]** → [[Positions/Half Guard]] (Probability: 60%)
+- Execute **[[Transitions/Hitchhiker Escape from Armbar/Attacker|Hitchhiker Escape from Armbar]]** → [[Positions/Half Guard]] (Probability: 60%)
 - Execute **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** → [[Positions/Closed Guard]] (Probability: 50%)
 
 
@@ -347,7 +347,7 @@ Partner attempts armbar from guard. As they extend for finish, defender stacks t
 - **[[Transitions/Hip Escape to Guard]]** - Primary escape technique - most reliable armbar defense method
 - **[[Positions/Closed Guard]]** - Common escape target - safe position after successful defense
 - **[[Positions/Mount]]** - Common origin - position often attacked from mount
-- **[[Hitchhiker Escape]]** - Key escape technique used from this position
+- **[[Transitions/Hitchhiker Escape from Armbar]]** - Key escape technique used from this position
 - **[[Transitions/Stack Defense]]** - Primary defensive response to compromise opponent's finishing angle
 - **[[Positions/Half Guard]]** - Common recovery position after successful escape
 

@@ -252,7 +252,7 @@ The counter throw from standing rear clinch sits at the intersection of defensiv
 
 - [[Transitions/Body Lock Takedown from Clinch]] - Related standing takedown technique sharing hip loading and level change mechanics
 
-- [[Mat Return from Rear Clinch]] - Opponent's primary offensive transition that the counter throw aims to preempt
+- [[Transitions/Mat Return from Standing Rear Clinch]] - Opponent's primary offensive transition that the counter throw aims to preempt
 
 - [[Positions/Clinch]] - Neutral standing position that may result from partially successful counter throw attempts
 

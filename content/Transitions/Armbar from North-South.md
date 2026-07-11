@@ -253,7 +253,7 @@ The Armbar from North-South is a cornerstone attack within the North-South contr
 
 - [[Submissions/Belly Down Armbar]] - Variant finish against hitchhiker defense
 
-- [[Hitchhiker Escape]] - Primary defensive escape the attacker must counter
+- [[Transitions/Hitchhiker Escape from Armbar]] - Primary defensive escape the attacker must counter
 
 
 </section>

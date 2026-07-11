@@ -247,7 +247,7 @@ The Heel Drag Escape occupies a foundational role in the mount escape hierarchy,
 
 - [[Positions/Mount/High Mount]] - Threatened advancement position if heel drag escape timing is delayed
 
-- [[Deep Half Entry from Half Guard]] - Follow-up transition chain available after recovering half guard through heel drag
+- [[Transitions/Deep Half Entry]] - Follow-up transition chain available after recovering half guard through heel drag
 
 - [[Transitions/Back Door Escape from Half Guard]] - Alternative escape continuation if recovered half guard proves insufficient
 

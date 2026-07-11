@@ -243,7 +243,7 @@ Side control escape represents a fundamental component of the defensive hierarch
 
 - [[Transitions/Frame and Shrimp to Guard]] - Fundamental drill developing the core escape mechanics
 
-- [[Ghost Escape]] - Variation used when traditional escape toward opponent is blocked
+- [[Transitions/Ghost Escape from Side Control]] - Variation used when traditional escape toward opponent is blocked
 
 - [[Transitions/Hip Escape to Guard]] - Essential component movement driving space creation
 

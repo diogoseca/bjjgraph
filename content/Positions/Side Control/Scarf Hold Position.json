@@ -456,7 +456,7 @@
             "probability": 55
           },
           {
-            "technique": "Ghost Escape",
+            "technique": "Ghost Escape from Side Control",
             "target": "Turtle",
             "probability": 50
           },
@@ -511,7 +511,7 @@
             "probability": 60
           },
           {
-            "technique": "Ghost Escape",
+            "technique": "Ghost Escape from Side Control",
             "target": "Turtle",
             "probability": 55
           }

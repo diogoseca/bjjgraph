@@ -416,7 +416,7 @@
         "condition": "If opponent has not fully extended the arm and legs are not tight across face",
         "actions": [
           {
-            "technique": "Hitchhiker Escape",
+            "technique": "Hitchhiker Escape from Armbar",
             "target": "Half Guard",
             "probability": 60
           },
@@ -553,7 +553,7 @@
         "relationship": "Common origin - position often attacked from mount"
       },
       {
-        "name": "Hitchhiker Escape",
+        "name": "Hitchhiker Escape from Armbar",
         "relationship": "Key escape technique used from this position"
       },
       {

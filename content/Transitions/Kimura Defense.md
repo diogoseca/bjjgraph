@@ -204,7 +204,7 @@ Unlike many submission defenses that focus purely on escape, kimura defense inte
 **Rolling Kimura Escape**: Forward roll over trapped shoulder following lock direction, using momentum to spiral free. Most fundamental and high-percentage escape when space is available. (When to use: When opponent is upright or leaning forward, space available for roll, and opponent's base can be disrupted)
 
 
-**Hitchhiker Escape**: Thumb-up rotation with arm extending overhead like hitchhiking gesture, creating shoulder external rotation that counters kimura mechanics. Requires significant flexibility. (When to use: When rolling is blocked or space is limited, particularly from bottom side control or mount positions)
+**Hitchhiker Escape from Armbar**: Thumb-up rotation with arm extending overhead like hitchhiking gesture, creating shoulder external rotation that counters kimura mechanics. Requires significant flexibility. (When to use: When rolling is blocked or space is limited, particularly from bottom side control or mount positions)
 
 
 **Technical Standup Defense**: Use technical standup mechanics to create distance while maintaining arm defense, transitioning from grounded to standing position to eliminate opponent's control angles. (When to use: From open guard or scramble positions where standing option is available and opponent lacks strong positional control)
@@ -236,7 +236,7 @@ Kimura defense represents a universal defensive skill that applies across virtua
 
 - [[Submissions/Kimura]] - Primary submission threat requiring this defense
 
-- [[Hitchhiker Escape]] - Alternative escape variation when rolling is blocked
+- [[Transitions/Hitchhiker Escape from Armbar]] - Alternative escape variation when rolling is blocked
 
 - [[Positions/Side Control]] - Common position where kimura attacks originate, requiring positional awareness for early defense
 

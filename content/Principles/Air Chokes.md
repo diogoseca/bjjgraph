@@ -364,7 +364,7 @@ Practice applying air choke pressure as a positional control tool rather than a 
 - [[Back Control]] (Position) - Rear naked choke attempts that slip to the front of the throat become air chokes requiring mechanical adjustment
 - [[Head Position]] (Principle) - Head control determines tracheal exposure and affects whether choking pressure lands on the windpipe or the carotid arteries
 - [[Control Maintenance]] (Principle) - Air chokes require sustained positional control because they take longer to finish than blood chokes
-- [[Von Flue Choke]] (Submission) - A shoulder-pressure-based choke from side control that can produce air choke effects through throat compression
+- [[Von Flue Choke from Side Control]] (Submission) - A shoulder-pressure-based choke from side control that can produce air choke effects through throat compression
 
 
 </section>

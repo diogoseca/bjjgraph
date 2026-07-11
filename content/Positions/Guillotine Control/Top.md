@@ -362,7 +362,7 @@ Start in guillotine control with partner attempting to close guard, you must mai
 - **[[Positions/Mount]]** - Transition target - position advancement using guillotine threat
 - **[[Positions/North-South]]** - Transition target - alternative advancement path
 - **[[Submissions/Guillotine Choke]]** - Primary submission - main finishing technique from this position
-- **[[Chin Strap Guillotine]]** - Submission variation - alternative finishing mechanics with chin control
+- **[[Chin Strap Guillotine from Front Headlock]]** - Submission variation - alternative finishing mechanics with chin control
 - **[[Submissions/Arm in Guillotine]]** - Submission variation - opportunistic variation when arm is trapped
 - **[[Positions/Side Control]]** - Positional advancement - common transition when choke is defended
 

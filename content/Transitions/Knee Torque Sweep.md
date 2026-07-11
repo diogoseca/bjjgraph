@@ -249,7 +249,7 @@ The Knee Torque Sweep integrates into the half guard bottom system as a mid-rang
 
 - [[Positions/Dogfight Position]] - Alternative transition when opponent defends sweep by sprawling back and creating space
 
-- [[Deep Half Entry from Half Guard]] - Chain attack transition when knee torque sweep is defended through hip retreat
+- [[Transitions/Deep Half Entry]] - Chain attack transition when knee torque sweep is defended through hip retreat
 
 - [[Transitions/Half Guard to X-Guard]] - Alternative sweep pathway from half guard when knee torque mechanics are unavailable
 

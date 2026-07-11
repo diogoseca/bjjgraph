@@ -233,7 +233,7 @@ The psychological component cannot be overlooked. Modified Scarf Hold creates in
 
 **If pressure becomes unbearable and breathing is severely restricted:**
 - Execute **[[Transitions/Roll to Turtle/Attacker|Roll to Turtle]]** → [[Positions/Turtle]] (Probability: 60%)
-- Execute **[[Ghost Escape/Attacker|Ghost Escape]]** → [[Positions/Standing Position]] (Probability: 25%)
+- Execute **[[Transitions/Ghost Escape from Side Control/Attacker|Ghost Escape from Side Control]]** → [[Positions/Standing Position]] (Probability: 25%)
 
 
 

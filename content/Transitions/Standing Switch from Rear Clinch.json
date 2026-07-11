@@ -119,7 +119,7 @@
       "relationship": "Related grip configuration that the switch must clear during execution"
     },
     {
-      "name": "Arm Drag from Standing",
+      "name": "Arm Drag",
       "relationship": "Similar reversal concept using arm drag mechanics from neutral standing position"
     }
   ],

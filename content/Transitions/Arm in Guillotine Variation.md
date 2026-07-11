@@ -241,7 +241,7 @@ The arm-in guillotine variation integrates into the guillotine control system as
 
 - [[Positions/Front Headlock]] - Parent control position providing initial head and neck control before guillotine grip
 
-- [[Chin Strap Guillotine]] - Alternative guillotine grip variation accessible from same control position
+- [[Chin Strap Guillotine from Front Headlock]] - Alternative guillotine grip variation accessible from same control position
 
 - [[Transitions/Anaconda Choke]] - Alternative head-and-arm attack when opponent turns during arm-in guillotine defense
 

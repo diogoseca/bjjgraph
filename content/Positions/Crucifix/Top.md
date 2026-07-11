@@ -220,7 +220,7 @@ Mastery of Crucifix Top requires understanding precise weight distribution to pr
 
 **If opponent is flat on back with both arms fully controlled and neck exposed:**
 - Execute **[[Submissions/Rear Naked Choke/Attacker|Rear Naked Choke]]** → [[game-over]] (Probability: 85%)
-- Execute **[[Neck Crank/Attacker|Neck Crank]]** → [[game-over]] (Probability: 80%)
+- Execute **[[Neck Crank from Twister Control/Attacker|Neck Crank from Twister Control]]** → [[game-over]] (Probability: 80%)
 
 
 **If opponent tucks chin and defends neck aggressively:**

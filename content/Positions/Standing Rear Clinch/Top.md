@@ -351,7 +351,7 @@ Bottom person moves aggressively in all directions (forward, backward, spinning,
 - **[[Positions/Back Control/Seat Belt Control Back]]** - Ground-based version of similar control structure with comparable grip hierarchy
 - **[[Positions/Front Headlock]]** - Alternative standing control if opponent drops level or you execute snap down
 - **[[Positions/Side Control]]** - Common destination via bodylock pass when opponent sits to guard
-- **[[Mat Return from Rear Clinch]]** - Primary takedown transition for converting rear clinch to ground back control
+- **[[Transitions/Mat Return from Standing Rear Clinch]]** - Primary takedown transition for converting rear clinch to ground back control
 - **[[Transitions/Rear Clinch to Body Lock]]** - Grip transition technique for converting seatbelt to bodylock control
 - **[[Transitions/Standing Switch from Rear Clinch]]** - Primary escape reversal that must be anticipated and countered from this position
 

@@ -245,7 +245,7 @@ Gift Wrap Maintenance functions as the retention mechanism within the broader Gi
 
 - [[Rear Naked Choke from Gift Wrap]] - Primary submission enabled by reliable Gift Wrap maintenance
 
-- [[Gift Wrap Armbar]] - Secondary submission targeting the free arm from maintained Gift Wrap
+- [[Gift Wrap Armbar from Gift Wrap]] - Secondary submission targeting the free arm from maintained Gift Wrap
 
 - [[Positions/Crucifix]] - Positional advancement accessible from well-maintained Gift Wrap control
 

@@ -243,9 +243,9 @@ The arm drag from clinch occupies a critical junction in the standing grappling 
 
 - [[Positions/Front Headlock]] - Counter position the opponent may achieve if the drag is defended with a snap down
 
-- [[Arm Drag from Standing]] - Similar arm drag technique executed from open standing range without clinch engagement
+- [[Transitions/Arm Drag]] - Similar arm drag technique executed from open standing range without clinch engagement
 
-- [[Duck Under]] - Complementary back take from clinch that chains with arm drag feints
+- [[Transitions/Duck Under from Clinch]] - Complementary back take from clinch that chains with arm drag feints
 
 - [[Transitions/Single Leg Takedown]] - Chain attack option when arm drag partially succeeds and opponent is off-balance
 

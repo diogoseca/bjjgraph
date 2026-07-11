@@ -221,7 +221,7 @@ Side Control Bottom is one of the most challenging defensive positions in Brazil
 
 **If opponent settles heavy chest pressure with tight crossface and hip control:**
 - Execute **[[Principles/Frames/Attacker|Frames]]** → [[Defensive frames established]] (Probability: 60%)
-- Execute **[[Ghost Escape/Attacker|Ghost Escape]]** → [[Positions/Turtle]] (Probability: 35%)
+- Execute **[[Transitions/Ghost Escape from Side Control/Attacker|Ghost Escape from Side Control]]** → [[Positions/Turtle]] (Probability: 35%)
 
 
 **If opponent transitions toward mount raising hips:**
@@ -240,7 +240,7 @@ Side Control Bottom is one of the most challenging defensive positions in Brazil
 
 
 **If opponent drives aggressive crossface creating turning momentum:**
-- Execute **[[Ghost Escape/Attacker|Ghost Escape]]** → [[Positions/Turtle]] (Probability: 50%)
+- Execute **[[Transitions/Ghost Escape from Side Control/Attacker|Ghost Escape from Side Control]]** → [[Positions/Turtle]] (Probability: 50%)
 - Execute **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** → [[Positions/Closed Guard]] (Probability: 25%)
 
 
