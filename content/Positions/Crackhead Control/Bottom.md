@@ -110,6 +110,7 @@ description: "Master Crackhead Control Bottom in BJJ. 10th Planet's innovative t
   "@type": "WebPage",
   "name": "Crackhead Control Bottom",
   "description": "Master Crackhead Control Bottom in BJJ. 10th Planet's innovative turtle defense system with dynamic movement, aggressive grip fighting, and 65% advanced escape rate.",
+  "disambiguatingDescription": "Often confused with Crab Ride \u2014 differs because crab ride rides the back with both hooks threaded from underneath for berimbolo-style back takes, while Crackhead Control chair-sits on a turtled opponent\u0027s hips with weight loaded on the lower back.. Often confused with Truck \u2014 differs because the truck isolates and inverts one of the opponent\u0027s legs for twister and back attacks, whereas Crackhead Control controls the hips from a seated chair-sit before any leg is trapped..",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -149,6 +150,10 @@ description: "Master Crackhead Control Bottom in BJJ. 10th Planet's innovative t
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Crab Ride|Crab Ride]]</strong> — differs because crab ride rides the back with both hooks threaded from underneath for berimbolo-style back takes, while Crackhead Control chair-sits on a turtled opponent&#39;s hips with weight loaded on the lower back.</p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Twister Control/Truck|Truck]]</strong> — differs because the truck isolates and inverts one of the opponent&#39;s legs for twister and back attacks, whereas Crackhead Control controls the hips from a seated chair-sit before any leg is trapped.</p>
+</aside>
 <section id="overview" class="content-section">
 
 Crackhead Control Bottom is an innovative defensive turtle position developed as part of the 10th Planet Jiu-Jitsu system. This position represents a modern evolution of traditional turtle defense, characterized by extreme hip mobility, aggressive hand fighting, and constant motion to prevent back takes and maintain defensive integrity. Unlike static turtle positions, Crackhead Control emphasizes dynamic movement, making it exceptionally difficult for opponents to establish dominant grips or secure controlling positions.

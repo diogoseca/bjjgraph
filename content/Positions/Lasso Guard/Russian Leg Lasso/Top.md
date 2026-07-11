@@ -116,6 +116,8 @@ description: "Master Russian Leg Lasso Top position. Complete guide for passing 
   "@type": "WebPage",
   "name": "Russian Leg Lasso Top",
   "description": "Master Russian Leg Lasso Top position. Complete guide for passing this complex guard variation with systematic pressure and leg control techniques.",
+  "alternateName": ["Russian Lasso", "Russian Lasso Guard"],
+  "disambiguatingDescription": "Often confused with Lasso Guard \u2014 differs because standard lasso guard uses a single leg lasso, while Russian Leg Lasso reinforces it with layered collar and sleeve grips to form a rotational pulley system.. Often confused with Inverted Lasso Guard \u2014 differs because the inverted variation threads the lasso from an upside-down base for berimbolo-style attacks, whereas Russian Leg Lasso stays upright and grip-heavy for sweeps..",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +157,11 @@ description: "Master Russian Leg Lasso Top position. Complete guide for passing 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Russian Lasso</strong>, <strong>Russian Lasso Guard</strong> <span class="role-hint">(top)</span></p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Lasso Guard|Lasso Guard]]</strong> — differs because standard lasso guard uses a single leg lasso, while Russian Leg Lasso reinforces it with layered collar and sleeve grips to form a rotational pulley system.</p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Lasso Guard/Inverted Lasso Guard|Inverted Lasso Guard]]</strong> — differs because the inverted variation threads the lasso from an upside-down base for berimbolo-style attacks, whereas Russian Leg Lasso stays upright and grip-heavy for sweeps.</p>
+</aside>
 <section id="overview" class="content-section">
 
 Russian Leg Lasso Top is the passing position against one of the most complex lasso guard variations in modern BJJ. From top, the practitioner faces an opponent who has established a deep lasso configuration with their leg threaded through the passer's arm, creating significant control and off-balancing potential. Unlike standard lasso guard, the Russian variation incorporates additional control points including collar grips, sleeve grips, and foot positioning that create a web of controls. The top player's primary objective is to systematically dismantle these control points while maintaining base and preventing sweeps. Success requires understanding the mechanical principles of how the lasso works - the opponent uses their leg as a pulley system combined with gi grips to create rotational force. The position demands patience, precise grip fighting, and the ability to create angles that neutralize the lasso's effectiveness. Elite competitors recognize this as a highly technical passing situation where rushing leads to being swept or submitted, while methodical pressure and position adjustment leads to successful guard passage. The sophisticated nature of Russian Leg Lasso means that top players must develop systematic approaches that address multiple defensive layers simultaneously - breaking or controlling key grips, managing the non-lasso leg to prevent combination attacks, maintaining proper distance and posture to negate sweep mechanics, and creating angles that make the lasso configuration untenable for the bottom player. Understanding the biomechanics of how the lasso generates force allows intelligent passers to position themselves in ways that neutralize these mechanics rather than fighting strength against leverage. Modern passing strategies incorporate a range of approaches from dynamic toreando-style passes that work around the lasso, to pressure-based methodical dismantling of controls, to strategic grip fighting that prevents the Russian Leg Lasso from reaching full effectiveness in the first place.
