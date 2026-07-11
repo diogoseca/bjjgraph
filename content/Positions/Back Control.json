@@ -172,10 +172,6 @@
         "attempt_probability": 1
       },
       {
-        "transition": "Rear Triangle Choke",
-        "attempt_probability": 1
-      },
-      {
         "transition": "Armbar from Back",
         "attempt_probability": 6
       },
@@ -185,7 +181,7 @@
       },
       {
         "transition": "Rear Triangle Choke from Back Control",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Short Choke from Back Control",

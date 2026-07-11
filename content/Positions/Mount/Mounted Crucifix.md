@@ -246,11 +246,9 @@ The mounted crucifix also serves as an excellent teaching position for understan
 
 - **[[Positions/Back Control/Seat Belt Control Back/Attacker|Seat Belt Control Back]]** (3% of attempts)
 
-- **[[Submissions/Mounted Crucifix Armbar/Attacker|Mounted Crucifix Armbar]]** (2% of attempts)
-
 - **[[Belly Down Armbar from Mounted Crucifix/Attacker|Belly Down Armbar from Mounted Crucifix]]** (3% of attempts)
 
-- **[[Mounted Crucifix Armbar from Mounted Crucifix/Attacker|Mounted Crucifix Armbar from Mounted Crucifix]]** (4% of attempts)
+- **[[Mounted Crucifix Armbar from Mounted Crucifix/Attacker|Mounted Crucifix Armbar from Mounted Crucifix]]** (6% of attempts)
 
 
 ### Common Mistakes

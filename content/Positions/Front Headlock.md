@@ -246,25 +246,19 @@ Understanding the front headlock requires recognizing its role as a transitional
 
 - **[[Kimura from Front Headlock/Attacker|Kimura from Front Headlock]]** (4% of attempts)
 
-- **[[Submissions/Brabo Choke/Attacker|Brabo Choke]]** (2% of attempts)
-
-- **[[Submissions/Chin Strap Guillotine/Attacker|Chin Strap Guillotine]]** (2% of attempts)
-
 - **[[Peruvian Necktie from Front Headlock/Attacker|Peruvian Necktie from Front Headlock]]** (2% of attempts)
 
 - **[[Arm in Guillotine from Front Headlock/Attacker|Arm in Guillotine from Front Headlock]]** (2% of attempts)
 
 - **[[High Elbow Guillotine from Front Headlock/Attacker|High Elbow Guillotine from Front Headlock]]** (2% of attempts)
 
-- **[[Submissions/Japanese Necktie/Attacker|Japanese Necktie]]** (2% of attempts)
-
 - **[[Ten Finger Guillotine from Front Headlock/Attacker|Ten Finger Guillotine from Front Headlock]]** (2% of attempts)
 
-- **[[Brabo Choke from Front Headlock/Attacker|Brabo Choke from Front Headlock]]** (2% of attempts)
+- **[[Brabo Choke from Front Headlock/Attacker|Brabo Choke from Front Headlock]]** (4% of attempts)
 
-- **[[Chin Strap Guillotine from Front Headlock/Attacker|Chin Strap Guillotine from Front Headlock]]** (2% of attempts)
+- **[[Chin Strap Guillotine from Front Headlock/Attacker|Chin Strap Guillotine from Front Headlock]]** (4% of attempts)
 
-- **[[Japanese Necktie from Front Headlock/Attacker|Japanese Necktie from Front Headlock]]** (2% of attempts)
+- **[[Japanese Necktie from Front Headlock/Attacker|Japanese Necktie from Front Headlock]]** (4% of attempts)
 
 
 ### Common Mistakes

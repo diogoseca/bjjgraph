@@ -232,7 +232,7 @@
     "transitions": [
       {
         "transition": "Darce Choke from Darce Control",
-        "attempt_probability": 53
+        "attempt_probability": 54
       },
       {
         "transition": "Turtle to Back Take",
@@ -256,10 +256,6 @@
       },
       {
         "transition": "Darce to Anaconda Switch",
-        "attempt_probability": 1
-      },
-      {
-        "transition": "Darce Choke",
         "attempt_probability": 1
       }
     ],

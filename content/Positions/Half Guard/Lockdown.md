@@ -157,9 +157,7 @@ Lockdown is 10th Planet's revolutionary half guard variation that transforms tra
 
 - **[[Transitions/Back Take from Lockdown Defense/Attacker|Back Take from Lockdown Defense]]** (4% of attempts)
 
-- **[[Submissions/Crotch Ripper/Attacker|Crotch Ripper]]** (2% of attempts)
-
-- **[[Crotch Ripper from Lockdown/Attacker|Crotch Ripper from Lockdown]]** (3% of attempts)
+- **[[Crotch Ripper from Lockdown/Attacker|Crotch Ripper from Lockdown]]** (5% of attempts)
 
 
 ### Common Mistakes
