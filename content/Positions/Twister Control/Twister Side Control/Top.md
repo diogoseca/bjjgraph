@@ -21,31 +21,31 @@ description: "Control twister side control from top position with systematic sub
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Shoulder of Justice",
-      "text": "From this position, attempt Side Control to Shoulder of Justice. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Shoulder of Justice. This technique is attempted in 8% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Back Take. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Darce Choke from Twister Side Control",
-      "text": "From this position, attempt Darce Choke from Twister Side Control. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Darce Choke from Twister Side Control. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Twister Side Control",
-      "text": "From this position, attempt Kimura from Twister Side Control. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Kimura from Twister Side Control. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
     },
     {

@@ -323,57 +323,57 @@
       {
         "transition": "Outside Heel Hook from Cross Ashi-Garami",
         "attempt_probability": {
-          "gi": 45,
-          "nogi": 45
+          "gi": 0,
+          "nogi": 19
         }
       },
       {
         "transition": "Toe Hold from Cross Ashi-Garami",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 25,
+          "nogi": 10
         }
       },
       {
         "transition": "Saddle Entry from Top",
         "attempt_probability": {
-          "gi": 20,
-          "nogi": 20
+          "gi": 13,
+          "nogi": 17
         }
       },
       {
         "transition": "Kneebar entry",
         "attempt_probability": {
-          "gi": 9,
+          "gi": 21,
           "nogi": 9
         }
       },
       {
         "transition": "Backside 50-50 Entry from Ashi",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 8,
+          "nogi": 9
         }
       },
       {
         "transition": "Heel Hook from Cross Ashi-Garami",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 0,
+          "nogi": 18
         }
       },
       {
         "transition": "Cross Ashi Transition",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 17,
+          "nogi": 10
         }
       },
       {
         "transition": "Cross Ashi to 50-50",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 16,
+          "nogi": 8
         }
       }
     ]
@@ -622,85 +622,85 @@
       {
         "transition": "Ashi Garami Escape",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 18,
+          "nogi": 13
         }
       },
       {
         "transition": "Inside Ashi Entry",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 5,
+          "nogi": 7
         }
       },
       {
         "transition": "X-Guard to Ashi Garami",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 2,
+          "nogi": 2
         }
       },
       {
         "transition": "Heel Hook Defense Escape",
         "attempt_probability": {
-          "gi": 47,
-          "nogi": 47
+          "gi": 5,
+          "nogi": 16
         }
       },
       {
         "transition": "Standing Escape",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 15,
+          "nogi": 11
         }
       },
       {
         "transition": "Counter-entangle to 50-50 Guard",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Backside 50-50 Entry from Ashi",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 2,
+          "nogi": 3
         }
       },
       {
         "transition": "Counter heel hook",
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 8
+        }
+      },
+      {
+        "transition": "Leg Extraction",
+        "attempt_probability": {
+          "gi": 17,
+          "nogi": 12
+        }
+      },
+      {
+        "transition": "Counter Entangle from Cross Ashi",
         "attempt_probability": {
           "gi": 5,
           "nogi": 5
         }
       },
       {
-        "transition": "Leg Extraction",
-        "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
-        }
-      },
-      {
-        "transition": "Counter Entangle from Cross Ashi",
-        "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
-        }
-      },
-      {
         "transition": "Leg Extraction from Cross Ashi",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 14,
+          "nogi": 9
         }
       },
       {
         "transition": "Sweep from Cross Ashi-Garami",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 7,
+          "nogi": 5
         }
       }
     ]

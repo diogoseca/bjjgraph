@@ -137,27 +137,27 @@ From the top perspective, Half Butterfly Top represents a critical transitional 
 ### Available Transitions
 
 
-- **[[Transitions/Basic Butterfly Sweep/Attacker|Basic Butterfly Sweep]]** (16% of attempts)
+- **[[Transitions/Basic Butterfly Sweep/Attacker|Basic Butterfly Sweep]]** (12% of attempts)
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (23% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (6% of attempts)
 
-- **[[Transitions/Hook Sweep/Attacker|Hook Sweep]]** (11% of attempts)
+- **[[Transitions/Hook Sweep/Attacker|Hook Sweep]]** (12% of attempts)
 
-- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (13% of attempts)
+- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (10% of attempts)
 
-- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (13% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (6% of attempts)
 
-- **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** (6% of attempts)
+- **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** (8% of attempts)
 
-- **[[Transitions/Elevator Sweep/Attacker|Elevator Sweep]]** (4% of attempts)
+- **[[Transitions/Elevator Sweep/Attacker|Elevator Sweep]]** (5% of attempts)
 
-- **[[Transitions/Half Butterfly Sweep/Attacker|Half Butterfly Sweep]]** (4% of attempts)
+- **[[Transitions/Half Butterfly Sweep/Attacker|Half Butterfly Sweep]]** (14% of attempts)
 
-- **[[Transitions/Half Butterfly to Dogfight/Attacker|Half Butterfly to Dogfight]]** (5% of attempts)
+- **[[Transitions/Half Butterfly to Dogfight/Attacker|Half Butterfly to Dogfight]]** (12% of attempts)
 
-- **[[Transitions/Reguard from Half Butterfly/Attacker|Reguard from Half Butterfly]]** (3% of attempts)
+- **[[Transitions/Reguard from Half Butterfly/Attacker|Reguard from Half Butterfly]]** (10% of attempts)
 
-- **[[Transitions/Rolling Back Take from Half Butterfly/Attacker|Rolling Back Take from Half Butterfly]]** (2% of attempts)
+- **[[Transitions/Rolling Back Take from Half Butterfly/Attacker|Rolling Back Take from Half Butterfly]]** (5% of attempts)
 
 
 ### Common Mistakes
@@ -218,23 +218,23 @@ From the top perspective, Half Butterfly Top represents a critical transitional 
 ### Available Transitions
 
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (35% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (13% of attempts)
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (18% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (9% of attempts)
 
-- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (10% of attempts)
+- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (8% of attempts)
 
-- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (8% of attempts)
+- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (15% of attempts)
 
-- **[[Transitions/Half Guard to Flattened Half Guard/Attacker|Half Guard to Flattened Half Guard]]** (10% of attempts)
+- **[[Transitions/Half Guard to Flattened Half Guard/Attacker|Half Guard to Flattened Half Guard]]** (13% of attempts)
 
-- **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** (5% of attempts)
+- **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** (6% of attempts)
 
-- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (10% of attempts)
+- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (11% of attempts)
 
-- **[[Transitions/Pass Half Butterfly/Attacker|Pass Half Butterfly]]** (2% of attempts)
+- **[[Transitions/Pass Half Butterfly/Attacker|Pass Half Butterfly]]** (10% of attempts)
 
-- **[[Transitions/Smash Half Butterfly/Attacker|Smash Half Butterfly]]** (2% of attempts)
+- **[[Transitions/Smash Half Butterfly/Attacker|Smash Half Butterfly]]** (15% of attempts)
 
 
 ### Common Mistakes

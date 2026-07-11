@@ -21,37 +21,37 @@ description: "Master escaping the triangle from top position. Complete guide cov
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass",
-      "text": "From this position, attempt Stack Pass. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Posture Recovery",
-      "text": "From this position, attempt Posture Recovery. This technique is attempted in 44% of exchanges from this position.",
+      "text": "From this position, attempt Posture Recovery. This technique is attempted in 22% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Escape",
-      "text": "From this position, attempt Triangle Escape. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Escape. This technique is attempted in 17% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Pass to Side Control",
-      "text": "From this position, attempt Pass to Side Control. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Pass to Side Control. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Complete Triangle Escape",
-      "text": "From this position, attempt Complete Triangle Escape. This technique is attempted in 3% of exchanges from this position.",
+      "text": "From this position, attempt Complete Triangle Escape. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Posture in Triangle Escape",
-      "text": "From this position, attempt Posture in Triangle Escape. This technique is attempted in 1% of exchanges from this position.",
+      "text": "From this position, attempt Posture in Triangle Escape. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],

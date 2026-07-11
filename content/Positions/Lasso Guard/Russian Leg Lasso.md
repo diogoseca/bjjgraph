@@ -131,23 +131,23 @@ Emerging from the competitive evolution of the traditional lasso guard, the Russ
 ### Available Transitions
 
 
-- **[[Transitions/Overhook Sweep/Attacker|Overhook Sweep]]** (35% of attempts)
+- **[[Transitions/Overhook Sweep/Attacker|Overhook Sweep]]** (25% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (11% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (17% of attempts)
 
-- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (12% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (14% of attempts)
 
-- **[[Transitions/Back Take from Bottom/Attacker|Back Take from Bottom]]** (6% of attempts)
+- **[[Transitions/Back Take from Bottom/Attacker|Back Take from Bottom]]** (13% of attempts)
 
-- **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** (13% of attempts)
+- **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** (9% of attempts)
 
-- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (8% of attempts)
+- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (3% of attempts)
 
-- **[[Omoplata from Russian Leg Lasso/Attacker|Omoplata from Russian Leg Lasso]]** (10% of attempts)
+- **[[Omoplata from Russian Leg Lasso/Attacker|Omoplata from Russian Leg Lasso]]** (7% of attempts)
 
-- **[[Transitions/Russian Lasso Sweep/Attacker|Russian Lasso Sweep]]** (3% of attempts)
+- **[[Transitions/Russian Lasso Sweep/Attacker|Russian Lasso Sweep]]** (4% of attempts)
 
-- **[[Transitions/Russian Lasso to De La Riva/Attacker|Russian Lasso to De La Riva]]** (2% of attempts)
+- **[[Transitions/Russian Lasso to De La Riva/Attacker|Russian Lasso to De La Riva]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -208,23 +208,23 @@ Emerging from the competitive evolution of the traditional lasso guard, the Russ
 ### Available Transitions
 
 
-- **[[Transitions/Lasso Guard Pass/Attacker|Lasso Guard Pass]]** (24% of attempts)
+- **[[Transitions/Lasso Guard Pass/Attacker|Lasso Guard Pass]]** (8% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (12% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (15% of attempts)
 
-- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (12% of attempts)
+- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (11% of attempts)
 
-- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (12% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (11% of attempts)
 
 - **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (12% of attempts)
 
-- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (10% of attempts)
+- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (12% of attempts)
 
-- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (10% of attempts)
+- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (9% of attempts)
 
-- **[[Transitions/Pass Russian Leg Lasso/Attacker|Pass Russian Leg Lasso]]** (5% of attempts)
+- **[[Transitions/Pass Russian Leg Lasso/Attacker|Pass Russian Leg Lasso]]** (8% of attempts)
 
-- **[[Transitions/Strip Russian Leg Lasso/Attacker|Strip Russian Leg Lasso]]** (3% of attempts)
+- **[[Transitions/Strip Russian Leg Lasso/Attacker|Strip Russian Leg Lasso]]** (14% of attempts)
 
 
 ### Common Mistakes

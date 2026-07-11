@@ -133,23 +133,23 @@ Turtle position is a transitional defensive posture in Brazilian Jiu-Jitsu where
 ### Available Transitions
 
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (15% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (13% of attempts)
 
-- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (9% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (15% of attempts)
 
-- **[[Transitions/Turtle to Standing/Attacker|Turtle to Standing]]** (7% of attempts)
+- **[[Transitions/Turtle to Standing/Attacker|Turtle to Standing]]** (14% of attempts)
 
-- **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** (13% of attempts)
+- **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** (11% of attempts)
 
-- **[[Transitions/Forward Roll/Attacker|Forward Roll]]** (8% of attempts)
+- **[[Transitions/Forward Roll/Attacker|Forward Roll]]** (7% of attempts)
 
-- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (14% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (4% of attempts)
 
-- **[[Transitions/Sit Through to Guard/Attacker|Sit Through to Guard]]** (16% of attempts)
+- **[[Transitions/Sit Through to Guard/Attacker|Sit Through to Guard]]** (13% of attempts)
 
-- **[[Transitions/Peterson Roll/Attacker|Peterson Roll]]** (12% of attempts)
+- **[[Transitions/Peterson Roll/Attacker|Peterson Roll]]** (8% of attempts)
 
-- **[[Transitions/Sit Out from Turtle/Attacker|Sit Out from Turtle]]** (6% of attempts)
+- **[[Transitions/Sit Out from Turtle/Attacker|Sit Out from Turtle]]** (15% of attempts)
 
 
 ### Common Mistakes
@@ -210,43 +210,43 @@ Turtle position is a transitional defensive posture in Brazilian Jiu-Jitsu where
 ### Available Transitions
 
 
-- **[[Transitions/Turtle to Back Control/Attacker|Turtle to Back Control]]** (54% of attempts)
+- **[[Transitions/Turtle to Back Control/Attacker|Turtle to Back Control]]** (22% of attempts)
 
-- **[[Transitions/Chair Sit to Back/Attacker|Chair Sit to Back]]** (3% of attempts)
+- **[[Transitions/Chair Sit to Back/Attacker|Chair Sit to Back]]** (11% of attempts)
 
-- **[[Transitions/Front Headlock to Anaconda/Attacker|Front Headlock to Anaconda]]** (2% of attempts)
+- **[[Transitions/Front Headlock to Anaconda/Attacker|Front Headlock to Anaconda]]** (8% of attempts)
 
-- **[[Transitions/Front Headlock to Darce/Attacker|Front Headlock to Darce]]** (2% of attempts)
+- **[[Transitions/Front Headlock to Darce/Attacker|Front Headlock to Darce]]** (10% of attempts)
 
-- **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (2% of attempts)
+- **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (5% of attempts)
 
-- **[[Transitions/Turtle Flatten to Side Control/Attacker|Turtle Flatten to Side Control]]** (5% of attempts)
+- **[[Transitions/Turtle Flatten to Side Control/Attacker|Turtle Flatten to Side Control]]** (13% of attempts)
 
-- **[[Transitions/Turtle to Truck Entry/Attacker|Turtle to Truck Entry]]** (2% of attempts)
+- **[[Transitions/Turtle to Truck Entry/Attacker|Turtle to Truck Entry]]** (4% of attempts)
 
-- **[[Transitions/Arm Triangle from Turtle/Attacker|Arm Triangle from Turtle]]** (2% of attempts)
+- **[[Transitions/Arm Triangle from Turtle/Attacker|Arm Triangle from Turtle]]** (1% of attempts)
 
-- **[[Transitions/Turtle Attack Sequence/Attacker|Turtle Attack Sequence]]** (1% of attempts)
+- **[[Transitions/Turtle Attack Sequence/Attacker|Turtle Attack Sequence]]** (6% of attempts)
 
-- **[[Transitions/Turtle to Matrix/Attacker|Turtle to Matrix]]** (1% of attempts)
+- **[[Transitions/Turtle to Matrix/Attacker|Turtle to Matrix]]** (3% of attempts)
 
-- **[[Transitions/Turtle to Rodeo Ride/Attacker|Turtle to Rodeo Ride]]** (1% of attempts)
+- **[[Transitions/Turtle to Rodeo Ride/Attacker|Turtle to Rodeo Ride]]** (6% of attempts)
 
 - **[[Belly Down Armbar from Turtle/Attacker|Belly Down Armbar from Turtle]]** (1% of attempts)
 
-- **[[Transitions/Clock Choke/Attacker|Clock Choke]]** (1% of attempts)
+- **[[Transitions/Clock Choke/Attacker|Clock Choke]]** (0% of attempts)
 
-- **[[Boston Crab from Turtle/Attacker|Boston Crab from Turtle]]** (2% of attempts)
+- **[[Boston Crab from Turtle/Attacker|Boston Crab from Turtle]]** (1% of attempts)
 
-- **[[Kimura from Turtle/Attacker|Kimura from Turtle]]** (1% of attempts)
+- **[[Kimura from Turtle/Attacker|Kimura from Turtle]]** (4% of attempts)
 
-- **[[Loop Choke from Turtle/Attacker|Loop Choke from Turtle]]** (1% of attempts)
+- **[[Loop Choke from Turtle/Attacker|Loop Choke from Turtle]]** (0% of attempts)
 
-- **[[Transitions/Turtle to Aoki Lock/Attacker|Turtle to Aoki Lock]]** (7% of attempts)
+- **[[Transitions/Turtle to Aoki Lock/Attacker|Turtle to Aoki Lock]]** (2% of attempts)
 
-- **[[Transitions/Turtle to Russian Cowboy/Attacker|Turtle to Russian Cowboy]]** (9% of attempts)
+- **[[Transitions/Turtle to Russian Cowboy/Attacker|Turtle to Russian Cowboy]]** (2% of attempts)
 
-- **[[Transitions/Kiss of the Dragon/Attacker|Kiss of the Dragon]]** (3% of attempts)
+- **[[Transitions/Kiss of the Dragon/Attacker|Kiss of the Dragon]]** (1% of attempts)
 
 
 ### Common Mistakes

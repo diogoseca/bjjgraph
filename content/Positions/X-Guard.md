@@ -134,25 +134,25 @@ Few bottom positions reshape a standing exchange as decisively as X-Guard, which
 ### Available Transitions
 
 
-- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (35% of attempts)
+- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (19% of attempts)
 
-- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (15% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (14% of attempts)
 
-- **[[Transitions/X-Guard to Ashi Garami/Attacker|X-Guard to Ashi Garami]]** (13% of attempts)
+- **[[Transitions/X-Guard to Ashi Garami/Attacker|X-Guard to Ashi Garami]]** (11% of attempts)
 
-- **[[Transitions/Technical Stand Up to Single Leg/Attacker|Technical Stand Up to Single Leg]]** (7% of attempts)
+- **[[Transitions/Technical Stand Up to Single Leg/Attacker|Technical Stand Up to Single Leg]]** (13% of attempts)
 
-- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (6% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (4% of attempts)
 
-- **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** (6% of attempts)
+- **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** (4% of attempts)
 
-- **[[Transitions/Tomahawk Sweep/Attacker|Tomahawk Sweep]]** (10% of attempts)
+- **[[Transitions/Tomahawk Sweep/Attacker|Tomahawk Sweep]]** (6% of attempts)
 
-- **[[Transitions/X-Guard Technical Stand Up/Attacker|X-Guard Technical Stand Up]]** (2% of attempts)
+- **[[Transitions/X-Guard Technical Stand Up/Attacker|X-Guard Technical Stand Up]]** (10% of attempts)
 
-- **[[Transitions/X-Guard to Single Leg X/Attacker|X-Guard to Single Leg X]]** (2% of attempts)
+- **[[Transitions/X-Guard to Single Leg X/Attacker|X-Guard to Single Leg X]]** (12% of attempts)
 
-- **[[Ankle Lock from X-Guard/Attacker|Ankle Lock from X-Guard]]** (4% of attempts)
+- **[[Ankle Lock from X-Guard/Attacker|Ankle Lock from X-Guard]]** (7% of attempts)
 
 
 ### Common Mistakes
@@ -213,27 +213,27 @@ Few bottom positions reshape a standing exchange as decisively as X-Guard, which
 ### Available Transitions
 
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (16% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (9% of attempts)
 
-- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (9% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (6% of attempts)
 
-- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (7% of attempts)
+- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (10% of attempts)
 
-- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (5% of attempts)
+- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (9% of attempts)
 
-- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (9% of attempts)
+- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (4% of attempts)
 
-- **[[Transitions/Back Step/Attacker|Back Step]]** (5% of attempts)
+- **[[Transitions/Back Step/Attacker|Back Step]]** (15% of attempts)
 
-- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (8% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (4% of attempts)
 
-- **[[Transitions/Knee Pin from X-Guard/Attacker|Knee Pin from X-Guard]]** (7% of attempts)
+- **[[Transitions/Knee Pin from X-Guard/Attacker|Knee Pin from X-Guard]]** (14% of attempts)
 
-- **[[Transitions/Step Over from X-Guard/Attacker|Step Over from X-Guard]]** (6% of attempts)
+- **[[Transitions/Step Over from X-Guard/Attacker|Step Over from X-Guard]]** (9% of attempts)
 
-- **[[Transitions/Smash Pass from X-Guard/Attacker|Smash Pass from X-Guard]]** (18% of attempts)
+- **[[Transitions/Smash Pass from X-Guard/Attacker|Smash Pass from X-Guard]]** (6% of attempts)
 
-- **[[Transitions/Standing Escape from X-Guard/Attacker|Standing Escape from X-Guard]]** (10% of attempts)
+- **[[Transitions/Standing Escape from X-Guard/Attacker|Standing Escape from X-Guard]]** (14% of attempts)
 
 
 ### Common Mistakes

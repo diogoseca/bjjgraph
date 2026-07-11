@@ -135,17 +135,17 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 ### Available Transitions
 
 
-- **[[Transitions/Guard Pull from Clinch/Attacker|Guard Pull from Clinch]]** (40% of attempts)
+- **[[Transitions/Guard Pull from Clinch/Attacker|Guard Pull from Clinch]]** (17% of attempts)
 
-- **[[Transitions/Underhook Pummeling from Clinch/Attacker|Underhook Pummeling from Clinch]]** (15% of attempts)
+- **[[Transitions/Underhook Pummeling from Clinch/Attacker|Underhook Pummeling from Clinch]]** (25% of attempts)
 
-- **[[Transitions/Break Clinch/Attacker|Break Clinch]]** (15% of attempts)
+- **[[Transitions/Break Clinch/Attacker|Break Clinch]]** (16% of attempts)
 
-- **[[Transitions/Arm Drag from Clinch/Attacker|Arm Drag from Clinch]]** (10% of attempts)
+- **[[Transitions/Arm Drag from Clinch/Attacker|Arm Drag from Clinch]]** (14% of attempts)
 
-- **[[Transitions/Duck Under from Clinch/Attacker|Duck Under from Clinch]]** (10% of attempts)
+- **[[Transitions/Duck Under from Clinch/Attacker|Duck Under from Clinch]]** (15% of attempts)
 
-- **[[Transitions/Arm Drag from Clinch Bottom/Attacker|Arm Drag from Clinch Bottom]]** (10% of attempts)
+- **[[Transitions/Arm Drag from Clinch Bottom/Attacker|Arm Drag from Clinch Bottom]]** (13% of attempts)
 
 
 ### Common Mistakes
@@ -210,33 +210,33 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 ### Available Transitions
 
 
-- **[[Transitions/Double Leg Entry/Attacker|Double Leg Entry]]** (11% of attempts)
+- **[[Transitions/Double Leg Entry/Attacker|Double Leg Entry]]** (15% of attempts)
 
-- **[[Transitions/Single Leg Takedown/Attacker|Single Leg Takedown]]** (10% of attempts)
+- **[[Transitions/Single Leg Takedown/Attacker|Single Leg Takedown]]** (14% of attempts)
 
-- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (10% of attempts)
+- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (12% of attempts)
 
-- **[[Transitions/Duck Under from Clinch/Attacker|Duck Under from Clinch]]** (10% of attempts)
+- **[[Transitions/Duck Under from Clinch/Attacker|Duck Under from Clinch]]** (8% of attempts)
 
-- **[[Transitions/Fireman's Carry/Attacker|Fireman's Carry]]** (10% of attempts)
+- **[[Transitions/Fireman's Carry/Attacker|Fireman's Carry]]** (5% of attempts)
 
-- **[[Transitions/Kouchi Gari/Attacker|Kouchi Gari]]** (9% of attempts)
+- **[[Transitions/Kouchi Gari/Attacker|Kouchi Gari]]** (4% of attempts)
 
-- **[[Transitions/Uchi Mata/Attacker|Uchi Mata]]** (9% of attempts)
+- **[[Transitions/Uchi Mata/Attacker|Uchi Mata]]** (3% of attempts)
 
-- **[[Transitions/Arm Drag from Clinch/Attacker|Arm Drag from Clinch]]** (7% of attempts)
+- **[[Transitions/Arm Drag from Clinch/Attacker|Arm Drag from Clinch]]** (6% of attempts)
 
-- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (7% of attempts)
+- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (3% of attempts)
 
-- **[[Transitions/High Crotch/Attacker|High Crotch]]** (5% of attempts)
+- **[[Transitions/High Crotch/Attacker|High Crotch]]** (6% of attempts)
 
-- **[[Transitions/Ankle Pick/Attacker|Ankle Pick]]** (4% of attempts)
+- **[[Transitions/Ankle Pick/Attacker|Ankle Pick]]** (5% of attempts)
 
-- **[[Transitions/Body Lock Takedown from Clinch/Attacker|Body Lock Takedown from Clinch]]** (2% of attempts)
+- **[[Transitions/Body Lock Takedown from Clinch/Attacker|Body Lock Takedown from Clinch]]** (8% of attempts)
 
-- **[[Transitions/Two-on-One to Back Take/Attacker|Two-on-One to Back Take]]** (2% of attempts)
+- **[[Transitions/Two-on-One to Back Take/Attacker|Two-on-One to Back Take]]** (5% of attempts)
 
-- **[[Guillotine Choke from Clinch/Attacker|Guillotine Choke from Clinch]]** (4% of attempts)
+- **[[Guillotine Choke from Clinch/Attacker|Guillotine Choke from Clinch]]** (6% of attempts)
 
 
 ### Common Mistakes

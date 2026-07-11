@@ -21,37 +21,37 @@ description: "Master top kneebar control in BJJ. Complete technical guide coveri
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar from Kneebar Control",
-      "text": "From this position, attempt Kneebar from Kneebar Control. This technique is attempted in 33% of exchanges from this position.",
+      "text": "From this position, attempt Kneebar from Kneebar Control. This technique is attempted in 34% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar Control Maintenance",
-      "text": "From this position, attempt Kneebar Control Maintenance. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Kneebar Control Maintenance. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Ankle Lock Finish",
-      "text": "From this position, attempt Ankle Lock Finish. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Ankle Lock Finish. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Toe Hold from Kneebar Control",
-      "text": "From this position, attempt Toe Hold from Kneebar Control. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Toe Hold from Kneebar Control. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee on Belly",
-      "text": "From this position, attempt Knee on Belly. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Knee on Belly. This technique is attempted in 7% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar to 50-50 Transition",
-      "text": "From this position, attempt Kneebar to 50-50 Transition. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Kneebar to 50-50 Transition. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],

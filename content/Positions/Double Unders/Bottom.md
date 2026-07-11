@@ -21,7 +21,7 @@ description: "Master Double Unders Bottom defensive position in BJJ. Complete su
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 43% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
@@ -39,19 +39,19 @@ description: "Master Double Unders Bottom defensive position in BJJ. Complete su
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 16% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Roll to Turtle",
-      "text": "From this position, attempt Roll to Turtle. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Roll to Turtle. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guard Recovery from Double Unders",
-      "text": "From this position, attempt Guard Recovery from Double Unders. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Guard Recovery from Double Unders. This technique is attempted in 21% of exchanges from this position.",
       "position": 6
     }
   ],

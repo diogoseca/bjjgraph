@@ -311,64 +311,64 @@
       {
         "transition": "Truck Entry",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 12,
+          "nogi": 16
         }
       },
       {
         "transition": "Twister from Russian Cowboy",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 3,
+          "nogi": 11
         }
       },
       {
         "transition": "Back Control to Crucifix",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Rear Naked Choke from Russian Cowboy",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 16,
+          "nogi": 18
         }
       },
       {
         "transition": "Calf Slicer from Russian Cowboy",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 5,
+          "nogi": 8
         }
       },
       {
         "transition": "Bow and Arrow Choke from Russian Cowboy",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 15,
+          "nogi": 0
         }
       },
       {
         "transition": "Turtle to Back Take",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 16
+          "gi": 13,
+          "nogi": 12
         }
       },
       {
         "transition": "Armbar from Back Transition",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 6,
+          "nogi": 6
         }
       },
       {
         "transition": "Russian Cowboy to Back Control",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 21,
+          "nogi": 20
         }
       }
     ]
@@ -595,57 +595,57 @@
       {
         "transition": "Granby Roll to Guard",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 14,
+          "nogi": 16
         }
       },
       {
         "transition": "Technical Stand-up",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 10,
+          "nogi": 11
         }
       },
       {
         "transition": "Hip Escape to Guard",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 16
+          "gi": 15,
+          "nogi": 14
         }
       },
       {
         "transition": "Arm Extraction to Turtle",
-        "attempt_probability": {
-          "gi": 36,
-          "nogi": 36
-        }
-      },
-      {
-        "transition": "Arm Recovery to Guard",
         "attempt_probability": {
           "gi": 12,
           "nogi": 12
         }
       },
       {
+        "transition": "Arm Recovery to Guard",
+        "attempt_probability": {
+          "gi": 17,
+          "nogi": 16
+        }
+      },
+      {
         "transition": "Hip Escape from Russian Cowboy",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 13,
+          "nogi": 13
         }
       },
       {
         "transition": "Roll Escape from Russian Cowboy",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Escape from Russian Cowboy",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 9,
+          "nogi": 8
         }
       }
     ]

@@ -21,37 +21,37 @@ description: "Master Half Butterfly Top position in BJJ. Top player control agai
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 35% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Pass",
-      "text": "From this position, attempt Underhook Pass. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Pass. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Body Lock Pass",
-      "text": "From this position, attempt Body Lock Pass. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Body Lock Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard to Flattened Half Guard",
-      "text": "From this position, attempt Half Guard to Flattened Half Guard. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Half Guard to Flattened Half Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard Pass",
-      "text": "From this position, attempt Half Guard Pass. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Half Guard Pass. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],

@@ -296,43 +296,43 @@
       {
         "transition": "Aoki Lock from Aoki Lock Control",
         "attempt_probability": {
-          "gi": 42,
-          "nogi": 42
+          "gi": 26,
+          "nogi": 26
         }
       },
       {
         "transition": "Aoki Lock to Back Control",
         "attempt_probability": {
-          "gi": 19,
-          "nogi": 19
+          "gi": 22,
+          "nogi": 25
         }
       },
       {
         "transition": "Aoki Lock to Crucifix",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 16,
+          "nogi": 15
         }
       },
       {
         "transition": "Kimura Switch",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 15,
+          "nogi": 14
         }
       },
       {
         "transition": "Truck Entry",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 14,
+          "nogi": 15
         }
       },
       {
         "transition": "Aoki Lock",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 7,
+          "nogi": 5
         }
       }
     ]
@@ -563,43 +563,43 @@
       {
         "transition": "Rolling Escape to Guard",
         "attempt_probability": {
-          "gi": 21,
-          "nogi": 21
+          "gi": 19,
+          "nogi": 20
         }
       },
       {
         "transition": "Arm Extraction to Turtle",
         "attempt_probability": {
-          "gi": 38,
-          "nogi": 38
+          "gi": 21,
+          "nogi": 21
         }
       },
       {
         "transition": "Hip Escape to Guard",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 17
+          "gi": 22,
+          "nogi": 21
         }
       },
       {
         "transition": "Counter Roll to Top",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 12,
+          "nogi": 12
         }
       },
       {
         "transition": "Granby Roll to Guard",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 18
+          "gi": 15,
+          "nogi": 15
         }
       },
       {
         "transition": "Base Attack to Sweep",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 11,
+          "nogi": 11
         }
       }
     ]

@@ -21,7 +21,7 @@ description: "Master Shin-to-Shin Guard from bottom perspective. Learn shin conn
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Entry",
-      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 29% of exchanges from this position.",
+      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 24% of exchanges from this position.",
       "position": 1
     },
     {
@@ -33,25 +33,25 @@ description: "Master Shin-to-Shin Guard from bottom perspective. Learn shin conn
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Sweep",
-      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 6% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute De La Riva Sweep",
-      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 2% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand Up to Single Leg",
-      "text": "From this position, attempt Technical Stand Up to Single Leg. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand Up to Single Leg. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
-      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 1% of exchanges from this position.",
       "position": 6
     }
   ],

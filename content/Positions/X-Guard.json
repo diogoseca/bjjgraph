@@ -94,78 +94,78 @@
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 16
+          "gi": 11,
+          "nogi": 9
         }
       },
       {
         "transition": "Long Step Pass",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 7,
+          "nogi": 6
         }
       },
       {
         "transition": "Saddle Entry from Top",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 2,
+          "nogi": 10
         }
       },
       {
         "transition": "Outside Ashi Entry",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 3,
+          "nogi": 9
         }
       },
       {
         "transition": "Leg Weave Pass",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 6,
+          "nogi": 4
         }
       },
       {
         "transition": "Back Step",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 15,
+          "nogi": 15
         }
       },
       {
         "transition": "Stack Pass",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 5,
+          "nogi": 4
         }
       },
       {
         "transition": "Knee Pin from X-Guard",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 16,
+          "nogi": 14
         }
       },
       {
         "transition": "Step Over from X-Guard",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 10,
+          "nogi": 9
         }
       },
       {
         "transition": "Smash Pass from X-Guard",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 18
+          "gi": 8,
+          "nogi": 6
         }
       },
       {
         "transition": "Standing Escape from X-Guard",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 17,
+          "nogi": 14
         }
       }
     ],
@@ -382,71 +382,71 @@
       {
         "transition": "X-Guard Sweep",
         "attempt_probability": {
-          "gi": 35,
-          "nogi": 35
+          "gi": 24,
+          "nogi": 19
         }
       },
       {
         "transition": "Single Leg X Entry",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 12,
+          "nogi": 14
         }
       },
       {
         "transition": "X-Guard to Ashi Garami",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 5,
+          "nogi": 11
         }
       },
       {
         "transition": "Technical Stand Up to Single Leg",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 14,
+          "nogi": 13
         }
       },
       {
         "transition": "Deep Half Entry",
         "attempt_probability": {
           "gi": 6,
-          "nogi": 6
+          "nogi": 4
         }
       },
       {
         "transition": "Butterfly Guard to X-Guard",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 4,
+          "nogi": 4
         }
       },
       {
         "transition": "Tomahawk Sweep",
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 6
+        }
+      },
+      {
+        "transition": "X-Guard Technical Stand Up",
         "attempt_probability": {
           "gi": 10,
           "nogi": 10
         }
       },
       {
-        "transition": "X-Guard Technical Stand Up",
-        "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
-        }
-      },
-      {
         "transition": "X-Guard to Single Leg X",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 11,
+          "nogi": 12
         }
       },
       {
         "transition": "Ankle Lock from X-Guard",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 6,
+          "nogi": 7
         }
       }
     ],

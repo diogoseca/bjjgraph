@@ -106,22 +106,22 @@
       {
         "transition": "Crossface from Dogfight",
         "attempt_probability": {
-          "gi": 35,
-          "nogi": 35
+          "gi": 32,
+          "nogi": 34
         }
       },
       {
         "transition": "Re-flatten from Dogfight",
         "attempt_probability": {
-          "gi": 35,
-          "nogi": 35
+          "gi": 38,
+          "nogi": 40
         }
       },
       {
         "transition": "Snap Down from Dogfight",
         "attempt_probability": {
           "gi": 30,
-          "nogi": 30
+          "nogi": 26
         }
       }
     ],
@@ -428,35 +428,35 @@
       {
         "transition": "Dogfight Sweep",
         "attempt_probability": {
-          "gi": 25,
-          "nogi": 25
+          "gi": 28,
+          "nogi": 27
         }
       },
       {
         "transition": "Half Guard to Back Take",
         "attempt_probability": {
-          "gi": 25,
-          "nogi": 25
+          "gi": 18,
+          "nogi": 17
         }
       },
       {
         "transition": "Forward Drive Sweep from Dogfight",
         "attempt_probability": {
-          "gi": 20,
-          "nogi": 20
+          "gi": 13,
+          "nogi": 15
         }
       },
       {
         "transition": "Underhook Sweep from Dogfight",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 25,
+          "nogi": 26
         }
       },
       {
         "transition": "Re-pull Half Guard from Dogfight",
         "attempt_probability": {
-          "gi": 15,
+          "gi": 16,
           "nogi": 15
         }
       }

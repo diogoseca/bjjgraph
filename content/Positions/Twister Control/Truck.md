@@ -139,25 +139,25 @@ Historically, the truck evolved from wrestling's turk ride, adapted into the 10t
 ### Available Transitions
 
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (42% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (7% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (13% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (9% of attempts)
 
-- **[[Transitions/Leg Extraction to Guard/Attacker|Leg Extraction to Guard]]** (12% of attempts)
+- **[[Transitions/Leg Extraction to Guard/Attacker|Leg Extraction to Guard]]** (15% of attempts)
 
-- **[[Transitions/Rolling Back Take Reversal/Attacker|Rolling Back Take Reversal]]** (4% of attempts)
+- **[[Transitions/Rolling Back Take Reversal/Attacker|Rolling Back Take Reversal]]** (5% of attempts)
 
-- **[[Transitions/Back Door Escape/Attacker|Back Door Escape]]** (4% of attempts)
+- **[[Transitions/Back Door Escape/Attacker|Back Door Escape]]** (11% of attempts)
 
-- **[[Transitions/Defensive Roll/Attacker|Defensive Roll]]** (7% of attempts)
+- **[[Transitions/Defensive Roll/Attacker|Defensive Roll]]** (8% of attempts)
 
-- **[[Transitions/Escape from Truck/Attacker|Escape from Truck]]** (4% of attempts)
+- **[[Transitions/Escape from Truck/Attacker|Escape from Truck]]** (10% of attempts)
 
-- **[[Transitions/Hip Escape from Truck/Attacker|Hip Escape from Truck]]** (3% of attempts)
+- **[[Transitions/Hip Escape from Truck/Attacker|Hip Escape from Truck]]** (11% of attempts)
 
-- **[[Transitions/Leg Extraction from Truck/Attacker|Leg Extraction from Truck]]** (3% of attempts)
+- **[[Transitions/Leg Extraction from Truck/Attacker|Leg Extraction from Truck]]** (15% of attempts)
 
-- **[[Transitions/Roll to Guard from Truck/Attacker|Roll to Guard from Truck]]** (8% of attempts)
+- **[[Transitions/Roll to Guard from Truck/Attacker|Roll to Guard from Truck]]** (9% of attempts)
 
 
 ### Common Mistakes
@@ -218,31 +218,31 @@ Historically, the truck evolved from wrestling's turk ride, adapted into the 10t
 ### Available Transitions
 
 
-- **[[Transitions/Twister Entry/Attacker|Twister Entry]]** (13% of attempts)
+- **[[Transitions/Twister Entry/Attacker|Twister Entry]]** (14% of attempts)
 
-- **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (5% of attempts)
+- **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (4% of attempts)
 
-- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (20% of attempts)
+- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (4% of attempts)
 
-- **[[Bow and Arrow Choke from Truck/Attacker|Bow and Arrow Choke from Truck]]** (7% of attempts)
+- **[[Bow and Arrow Choke from Truck/Attacker|Bow and Arrow Choke from Truck]]** (0% of attempts)
 
-- **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (7% of attempts)
+- **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (6% of attempts)
 
-- **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (7% of attempts)
+- **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (2% of attempts)
 
-- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (11% of attempts)
+- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (6% of attempts)
 
-- **[[Transitions/Truck Maintenance/Attacker|Truck Maintenance]]** (3% of attempts)
+- **[[Transitions/Truck Maintenance/Attacker|Truck Maintenance]]** (19% of attempts)
 
-- **[[Transitions/Truck to Back Control/Attacker|Truck to Back Control]]** (2% of attempts)
+- **[[Transitions/Truck to Back Control/Attacker|Truck to Back Control]]** (14% of attempts)
 
-- **[[Transitions/Truck to Twister Side Control/Attacker|Truck to Twister Side Control]]** (3% of attempts)
+- **[[Transitions/Truck to Twister Side Control/Attacker|Truck to Twister Side Control]]** (5% of attempts)
 
-- **[[Calf Slicer from Truck/Attacker|Calf Slicer from Truck]]** (13% of attempts)
+- **[[Calf Slicer from Truck/Attacker|Calf Slicer from Truck]]** (14% of attempts)
 
-- **[[Banana Split from Truck/Attacker|Banana Split from Truck]]** (5% of attempts)
+- **[[Banana Split from Truck/Attacker|Banana Split from Truck]]** (9% of attempts)
 
-- **[[Spine Lock from Truck/Attacker|Spine Lock from Truck]]** (4% of attempts)
+- **[[Spine Lock from Truck/Attacker|Spine Lock from Truck]]** (3% of attempts)
 
 
 ### Common Mistakes

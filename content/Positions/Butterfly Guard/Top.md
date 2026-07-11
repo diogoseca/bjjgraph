@@ -21,37 +21,37 @@ description: "Navigate Butterfly Guard Top in BJJ. Passing strategies against ho
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Double Under Pass",
-      "text": "From this position, attempt Double Under Pass. This technique is attempted in 2% of exchanges from this position.",
+      "text": "From this position, attempt Double Under Pass. This technique is attempted in 4% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Pass",
-      "text": "From this position, attempt Butterfly Pass. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Pass. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, attempt Long Step Pass. This technique is attempted in 2% of exchanges from this position.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Over-Under Pass",
-      "text": "From this position, attempt Over-Under Pass. This technique is attempted in 2% of exchanges from this position.",
+      "text": "From this position, attempt Over-Under Pass. This technique is attempted in 5% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Toreando Pass",
-      "text": "From this position, attempt Toreando Pass. This technique is attempted in 1% of exchanges from this position.",
+      "text": "From this position, attempt Toreando Pass. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],

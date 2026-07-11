@@ -307,64 +307,64 @@
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 45,
-          "nogi": 45
+          "gi": 14,
+          "nogi": 12
         }
       },
       {
         "transition": "Smash Pass",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 11,
+          "nogi": 10
         }
       },
       {
         "transition": "Underhook Pass",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 8,
+          "nogi": 7
         }
       },
       {
         "transition": "Back Step Pass",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 9,
+          "nogi": 10
         }
       },
       {
         "transition": "Darce Setup",
         "attempt_probability": {
           "gi": 7,
-          "nogi": 7
+          "nogi": 16
         }
       },
       {
         "transition": "Half Guard to Flattened Half Guard",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 16,
+          "nogi": 13
         }
       },
       {
         "transition": "Pass Pocket Half",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 12,
+          "nogi": 11
         }
       },
       {
         "transition": "Smash Pocket Half",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 13,
+          "nogi": 12
         }
       },
       {
         "transition": "Pocket Half Pass",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 10,
+          "nogi": 9
         }
       }
     ]
@@ -621,64 +621,64 @@
       {
         "transition": "Old School Sweep",
         "attempt_probability": {
-          "gi": 43,
-          "nogi": 43
+          "gi": 13,
+          "nogi": 12
         }
       },
       {
         "transition": "Deep Half Entry",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 17
+          "gi": 9,
+          "nogi": 6
         }
       },
       {
         "transition": "Half Guard to Back Take",
         "attempt_probability": {
           "gi": 15,
-          "nogi": 15
+          "nogi": 17
         }
       },
       {
         "transition": "Underhook Sweep from Half",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 13,
+          "nogi": 13
         }
       },
       {
         "transition": "Electric Chair Transition",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 3,
+          "nogi": 6
         }
       },
       {
         "transition": "Roll to Truck",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 3,
+          "nogi": 5
         }
       },
       {
         "transition": "Reguard from Pocket Half Guard",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 11,
+          "nogi": 10
         }
       },
       {
         "transition": "Sweep from Pocket Half Guard",
         "attempt_probability": {
-          "gi": 0,
-          "nogi": 0
+          "gi": 14,
+          "nogi": 13
         }
       },
       {
         "transition": "Underhook Sweep from Pocket Half",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 19,
+          "nogi": 18
         }
       }
     ]

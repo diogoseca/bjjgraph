@@ -130,126 +130,126 @@
         "transition": "Mount to Armbar",
         "attempt_probability": {
           "gi": 6,
-          "nogi": 6
+          "nogi": 7
         }
       },
       {
         "transition": "Cross Collar Choke from Mount",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 11,
+          "nogi": 0
         }
       },
       {
         "transition": "Gift Wrap to Technical Mount",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 5,
+          "nogi": 9
         }
       },
       {
         "transition": "S-Mount Transition",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 5,
+          "nogi": 6
         }
       },
       {
         "transition": "Mounted Triangle",
         "attempt_probability": {
           "gi": 3,
-          "nogi": 3
+          "nogi": 4
         }
       },
       {
         "transition": "Consolidate Mount",
         "attempt_probability": {
-          "gi": 37,
-          "nogi": 37
+          "gi": 10,
+          "nogi": 11
         }
       },
       {
         "transition": "Mount Control",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 19,
+          "nogi": 21
         }
       },
       {
         "transition": "Mount to 3-4 Mount",
         "attempt_probability": {
           "gi": 3,
-          "nogi": 3
+          "nogi": 4
         }
       },
       {
         "transition": "Mount to Knee on Belly",
         "attempt_probability": {
           "gi": 3,
-          "nogi": 3
+          "nogi": 2
         }
       },
       {
         "transition": "Mount to Technical Mount",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 8,
+          "nogi": 10
         }
       },
       {
         "transition": "Americana from Mount",
         "attempt_probability": {
           "gi": 6,
-          "nogi": 6
+          "nogi": 8
         }
       },
       {
         "transition": "Ezekiel Choke from Mount",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 5,
+          "nogi": 2
         }
       },
       {
         "transition": "Kimura from Mount",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 3,
+          "nogi": 3
         }
       },
       {
         "transition": "Loop Choke from Mount",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 1,
+          "nogi": 0
         }
       },
       {
         "transition": "Monoplata from Mount",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 1,
+          "nogi": 1
         }
       },
       {
         "transition": "Reverse Armbar from Mount",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 1,
+          "nogi": 1
         }
       },
       {
         "transition": "Armbar from Mount",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 7,
+          "nogi": 8
         }
       },
       {
         "transition": "Mount to Modified Mount",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 3,
+          "nogi": 3
         }
       }
     ],
@@ -496,50 +496,50 @@
       {
         "transition": "Elbow Escape from Mount",
         "attempt_probability": {
-          "gi": 41,
-          "nogi": 41
-        }
-      },
-      {
-        "transition": "Upa Escape",
-        "attempt_probability": {
           "gi": 26,
           "nogi": 26
         }
       },
       {
+        "transition": "Upa Escape",
+        "attempt_probability": {
+          "gi": 21,
+          "nogi": 20
+        }
+      },
+      {
         "transition": "Trap and Roll from Mount",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 14,
+          "nogi": 14
         }
       },
       {
         "transition": "Heel Drag Escape",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 13,
+          "nogi": 14
         }
       },
       {
         "transition": "Explosive Bridge to Turtle",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 8,
+          "nogi": 9
         }
       },
       {
         "transition": "Bridge and Roll",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 11,
+          "nogi": 10
         }
       },
       {
         "transition": "Mount Escape to Half Guard Back Take",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 7,
+          "nogi": 7
         }
       }
     ],

@@ -295,57 +295,57 @@
       {
         "transition": "Toreando Pass",
         "attempt_probability": {
-          "gi": 25,
-          "nogi": 25
+          "gi": 15,
+          "nogi": 27
         }
       },
       {
         "transition": "Leg Drag Pass",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 11,
+          "nogi": 17
         }
       },
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
           "gi": 14,
-          "nogi": 14
+          "nogi": 16
         }
       },
       {
         "transition": "Long Step Pass",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Double Under Pass",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 5,
+          "nogi": 5
         }
       },
       {
         "transition": "Leg Weave Pass",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 15,
+          "nogi": 8
         }
       },
       {
         "transition": "Spider Guard Pass",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 22,
+          "nogi": 10
         }
       },
       {
         "transition": "Stack Pass from Spider",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 8,
+          "nogi": 7
         }
       }
     ],
@@ -603,92 +603,92 @@
       {
         "transition": "Triangle Setup",
         "attempt_probability": {
-          "gi": 27,
-          "nogi": 27
+          "gi": 10,
+          "nogi": 17
         }
       },
       {
         "transition": "Spider Guard to Omoplata",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 8,
+          "nogi": 6
         }
       },
       {
         "transition": "Omoplata Sweep",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 5,
+          "nogi": 4
         }
       },
       {
         "transition": "Balloon Sweep",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 3,
+          "nogi": 3
         }
       },
       {
         "transition": "Scissor Sweep",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 4,
+          "nogi": 3
         }
       },
       {
         "transition": "De La Riva Sweep",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 5,
+          "nogi": 5
         }
       },
       {
         "transition": "Pendulum Sweep",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 3,
+          "nogi": 2
         }
       },
       {
         "transition": "Armbar Setup from Double Sleeve",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 4,
+          "nogi": 3
         }
       },
       {
         "transition": "Guard Recovery from Spider Guard",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 12,
+          "nogi": 25
         }
       },
       {
         "transition": "Triangle from Spider Guard",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 8,
+          "nogi": 12
         }
       },
       {
         "transition": "Spider Sweep",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 14,
+          "nogi": 6
         }
       },
       {
         "transition": "Spider to Lasso Guard",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 12,
+          "nogi": 0
         }
       },
       {
         "transition": "Belly Down Armbar from Spider Guard",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 2,
+          "nogi": 2
         }
       },
       {
@@ -701,8 +701,8 @@
       {
         "transition": "Triangle Choke from Spider Guard",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 6,
+          "nogi": 8
         }
       }
     ],

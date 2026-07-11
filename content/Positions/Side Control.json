@@ -121,71 +121,71 @@
       {
         "transition": "Side Control to Mount",
         "attempt_probability": {
-          "gi": 32,
-          "nogi": 32
+          "gi": 23,
+          "nogi": 23
         }
       },
       {
         "transition": "Knee on Belly",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 7,
+          "nogi": 8
         }
       },
       {
         "transition": "Side Control to North-South",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 6,
+          "nogi": 7
         }
       },
       {
         "transition": "Arm Triangle from Side Control",
         "attempt_probability": {
           "gi": 5,
-          "nogi": 5
+          "nogi": 8
         }
       },
       {
         "transition": "Arm Triangle from Top",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 2,
+          "nogi": 2
         }
       },
       {
         "transition": "Ezekiel Choke from Side Control",
         "attempt_probability": {
-          "gi": 1,
+          "gi": 4,
           "nogi": 1
         }
       },
       {
         "transition": "Side Control to Kesa Gatame",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 3,
+          "nogi": 2
         }
       },
       {
         "transition": "Side Control to Shoulder of Justice",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 3,
+          "nogi": 3
         }
       },
       {
         "transition": "North-South Choke from Side Control",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 3,
+          "nogi": 5
         }
       },
       {
         "transition": "Breadcutter Choke from Side Control",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 3,
+          "nogi": 1
         }
       },
       {
@@ -198,78 +198,78 @@
       {
         "transition": "Americana from Side Control",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 6,
+          "nogi": 5
         }
       },
       {
         "transition": "Armbar from Side Control",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 5,
+          "nogi": 5
         }
       },
       {
         "transition": "Far Side Armbar from Side Control",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 3,
+          "nogi": 3
         }
       },
       {
         "transition": "Kimura from Side Control",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 8,
+          "nogi": 8
         }
       },
       {
         "transition": "Side Control to Knee on Belly",
-        "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
-        }
-      },
-      {
-        "transition": "Arm Crush from Side Control",
         "attempt_probability": {
           "gi": 2,
           "nogi": 2
         }
       },
       {
-        "transition": "Belly Down Armbar from Side Control",
+        "transition": "Arm Crush from Side Control",
         "attempt_probability": {
           "gi": 1,
           "nogi": 1
+        }
+      },
+      {
+        "transition": "Belly Down Armbar from Side Control",
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 2
         }
       },
       {
         "transition": "Kneebar from Top",
         "attempt_probability": {
           "gi": 1,
-          "nogi": 1
+          "nogi": 2
         }
       },
       {
         "transition": "Loop Choke from Side Control",
         "attempt_probability": {
-          "gi": 1,
+          "gi": 3,
           "nogi": 1
         }
       },
       {
         "transition": "Marce Choke from Side Control",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 1,
+          "nogi": 1
         }
       },
       {
         "transition": "Mir Lock from Side Control",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 1,
+          "nogi": 1
         }
       },
       {
@@ -283,7 +283,7 @@
         "transition": "Von Flue Choke from Side Control",
         "attempt_probability": {
           "gi": 2,
-          "nogi": 2
+          "nogi": 3
         }
       },
       {
@@ -536,78 +536,78 @@
       {
         "transition": "Elbow Escape to Guard",
         "attempt_probability": {
-          "gi": 38,
-          "nogi": 38
+          "gi": 13,
+          "nogi": 13
         }
       },
       {
         "transition": "Frame and Shrimp to Guard",
         "attempt_probability": {
-          "gi": 19,
-          "nogi": 19
+          "gi": 13,
+          "nogi": 12
         }
       },
       {
         "transition": "Hip Escape to Guard",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 13,
+          "nogi": 12
         }
       },
       {
         "transition": "Bridge and Roll",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 8,
+          "nogi": 8
         }
       },
       {
         "transition": "Side Control Escape",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 9,
+          "nogi": 8
         }
       },
       {
         "transition": "Ghost Escape from Side Control",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 6,
+          "nogi": 7
         }
       },
       {
         "transition": "Sit Out from Side Control",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 5,
+          "nogi": 6
         }
       },
       {
         "transition": "Turtle from Side Control Bottom",
         "attempt_probability": {
-          "gi": 0,
-          "nogi": 0
+          "gi": 6,
+          "nogi": 7
         }
       },
       {
         "transition": "Frame from Side Control",
         "attempt_probability": {
-          "gi": 0,
-          "nogi": 0
+          "gi": 14,
+          "nogi": 13
         }
       },
       {
         "transition": "Hip Escape from Side Control",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Buggy Choke from Bottom Side Control",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 3,
+          "nogi": 4
         }
       }
     ],

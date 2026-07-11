@@ -21,13 +21,13 @@ description: "Master Reverse X-Guard Bottom in BJJ. Advanced guard position with
     {
       "@type": "HowToStep",
       "name": "Execute Reverse X-Guard Sweep",
-      "text": "From this position, attempt Reverse X-Guard Sweep. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Reverse X-Guard Sweep. This technique is attempted in 22% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Elevation Sweep to Mount",
-      "text": "From this position, attempt Elevation Sweep to Mount. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Elevation Sweep to Mount. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
@@ -39,19 +39,19 @@ description: "Master Reverse X-Guard Bottom in BJJ. Advanced guard position with
     {
       "@type": "HowToStep",
       "name": "Execute Reverse X-Guard to Standard X-Guard",
-      "text": "From this position, attempt Reverse X-Guard to Standard X-Guard. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Reverse X-Guard to Standard X-Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Reverse X to Single Leg X Entry",
-      "text": "From this position, attempt Reverse X to Single Leg X Entry. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Reverse X to Single Leg X Entry. This technique is attempted in 17% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Reverse X to Ashi Garami Entry",
-      "text": "From this position, attempt Reverse X to Ashi Garami Entry. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Reverse X to Ashi Garami Entry. This technique is attempted in 18% of exchanges from this position.",
       "position": 6
     }
   ],

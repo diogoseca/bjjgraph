@@ -277,64 +277,64 @@
       {
         "transition": "Leg Drag Pass",
         "attempt_probability": {
-          "gi": 24,
-          "nogi": 24
+          "gi": 12,
+          "nogi": 11
         }
       },
       {
         "transition": "Knee Slice from Half",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 11,
+          "nogi": 10
         }
       },
       {
         "transition": "Crossface Pass",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 6,
+          "nogi": 5
         }
       },
       {
         "transition": "Smash Pass",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 10,
+          "nogi": 9
         }
       },
       {
         "transition": "Crab Ride to Back",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 6,
+          "nogi": 10
         }
       },
       {
         "transition": "Back Step Pass",
-        "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
-        }
-      },
-      {
-        "transition": "Back Take from Top",
         "attempt_probability": {
           "gi": 10,
           "nogi": 10
         }
       },
       {
+        "transition": "Back Take from Top",
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 13
+        }
+      },
+      {
         "transition": "Backstep from Reverse Half",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 17,
+          "nogi": 17
         }
       },
       {
         "transition": "Pass Reverse Half",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 17,
+          "nogi": 15
         }
       }
     ]
@@ -585,71 +585,71 @@
       {
         "transition": "Old School Sweep",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 6,
+          "nogi": 6
         }
       },
       {
         "transition": "Half Guard to Back Take",
         "attempt_probability": {
-          "gi": 28,
-          "nogi": 28
+          "gi": 13,
+          "nogi": 14
         }
       },
       {
         "transition": "Underhook Sweep from Half",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 7,
+          "nogi": 7
         }
       },
       {
         "transition": "Deep Half Entry",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 6,
+          "nogi": 5
         }
       },
       {
         "transition": "Half Guard Recovery",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 15,
+          "nogi": 16
         }
       },
       {
         "transition": "Kimura Sweep",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 4,
+          "nogi": 5
         }
       },
       {
         "transition": "Guard Recovery from Reverse Half Guard",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 17,
+          "nogi": 16
         }
       },
       {
         "transition": "Escape Reverse Half Guard",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 17,
+          "nogi": 16
         }
       },
       {
         "transition": "Invert from Reverse Half Guard",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 5,
+          "nogi": 5
         }
       },
       {
         "transition": "Sweep from Reverse Half Guard",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 10,
+          "nogi": 10
         }
       }
     ]

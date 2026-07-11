@@ -21,19 +21,19 @@ description: "Escape the Standing Rear Clinch in BJJ. Defensive guide to survivi
     {
       "@type": "HowToStep",
       "name": "Execute Defense from Standing Rear Clinch",
-      "text": "From this position, attempt Defense from Standing Rear Clinch. This technique is attempted in 40% of exchanges from this position.",
+      "text": "From this position, attempt Defense from Standing Rear Clinch. This technique is attempted in 53% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing Switch from Rear Clinch",
-      "text": "From this position, attempt Standing Switch from Rear Clinch. This technique is attempted in 33% of exchanges from this position.",
+      "text": "From this position, attempt Standing Switch from Rear Clinch. This technique is attempted in 34% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter Throw from Standing Rear Clinch",
-      "text": "From this position, attempt Counter Throw from Standing Rear Clinch. This technique is attempted in 27% of exchanges from this position.",
+      "text": "From this position, attempt Counter Throw from Standing Rear Clinch. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     }
   ],

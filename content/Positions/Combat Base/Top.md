@@ -21,31 +21,31 @@ description: "Master Combat Base in BJJ. Essential guard passing platform with 7
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slide from Combat Base",
-      "text": "From this position, attempt Knee Slide from Combat Base. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slide from Combat Base. This technique is attempted in 21% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Toreando Pass",
-      "text": "From this position, attempt Toreando Pass. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Toreando Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Combat Base to Headquarters",
-      "text": "From this position, attempt Combat Base to Headquarters. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Combat Base to Headquarters. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, attempt Long Step Pass. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {

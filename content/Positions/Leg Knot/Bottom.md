@@ -21,13 +21,13 @@ description: "Master Leg Knot Bottom in BJJ. Defensive leg entanglement with sys
     {
       "@type": "HowToStep",
       "name": "Execute Reverse the entanglement to Outside Ashi",
-      "text": "From this position, attempt Reverse the entanglement to Outside Ashi. This technique is attempted in 26% of exchanges from this position.",
+      "text": "From this position, attempt Reverse the entanglement to Outside Ashi. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter-entangle to 50-50 Guard",
-      "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 19% of exchanges from this position.",
       "position": 2
     },
     {
@@ -39,19 +39,19 @@ description: "Master Leg Knot Bottom in BJJ. Defensive leg entanglement with sys
     {
       "@type": "HowToStep",
       "name": "Execute Limp leg extraction to Half Guard",
-      "text": "From this position, attempt Limp leg extraction to Half Guard. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Limp leg extraction to Half Guard. This technique is attempted in 23% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Clear leg and transition to X-Guard",
-      "text": "From this position, attempt Clear leg and transition to X-Guard. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Clear leg and transition to X-Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Reversal from Leg Knot",
-      "text": "From this position, attempt Reversal from Leg Knot. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Reversal from Leg Knot. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],

@@ -21,37 +21,37 @@ description: "Master Russian Leg Lasso Bottom guard. Complete technical guide co
     {
       "@type": "HowToStep",
       "name": "Execute Overhook Sweep",
-      "text": "From this position, attempt Overhook Sweep. This technique is attempted in 35% of exchanges from this position.",
+      "text": "From this position, attempt Overhook Sweep. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 17% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
-      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take from Bottom",
-      "text": "From this position, attempt Back Take from Bottom. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Back Take from Bottom. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Sickle Sweep",
-      "text": "From this position, attempt Sickle Sweep. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Sickle Sweep. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Berimbolo Entry",
-      "text": "From this position, attempt Berimbolo Entry. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Berimbolo Entry. This technique is attempted in 3% of exchanges from this position.",
       "position": 6
     }
   ],

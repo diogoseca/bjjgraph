@@ -269,71 +269,71 @@
       {
         "transition": "Back Take",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 17,
+          "nogi": 18
         }
       },
       {
         "transition": "Snap Down to Front Headlock",
         "attempt_probability": {
-          "gi": 8,
+          "gi": 7,
           "nogi": 8
         }
       },
       {
         "transition": "Tani Otoshi",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 8,
+          "nogi": 9
         }
       },
       {
         "transition": "Kosoto Gake",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 11
         }
       },
       {
         "transition": "Mat Return to Back Mount",
         "attempt_probability": {
-          "gi": 40,
-          "nogi": 40
+          "gi": 12,
+          "nogi": 12
         }
       },
       {
         "transition": "Harai Goshi",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 6,
+          "nogi": 3
         }
       },
       {
         "transition": "Body Lock Pass",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 17,
+          "nogi": 14
         }
       },
       {
         "transition": "Double Leg Finish",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 4,
+          "nogi": 5
         }
       },
       {
         "transition": "Body Lock Takedown",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 13,
+          "nogi": 14
         }
       },
       {
         "transition": "Body Lock to Standing",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 7,
+          "nogi": 6
         }
       }
     ],
@@ -576,64 +576,64 @@
       {
         "transition": "Grip Break",
         "attempt_probability": {
-          "gi": 42,
-          "nogi": 42
+          "gi": 19,
+          "nogi": 17
         }
       },
       {
         "transition": "Sitting Guard Pull",
         "attempt_probability": {
-          "gi": 20,
-          "nogi": 20
+          "gi": 15,
+          "nogi": 15
         }
       },
       {
         "transition": "Rolling to Guard",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 10,
+          "nogi": 9
         }
       },
       {
         "transition": "Whizzer",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Turn In and Face",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 14,
+          "nogi": 14
         }
       },
       {
         "transition": "Standing up in Base",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 7,
+          "nogi": 8
         }
       },
       {
         "transition": "Escape Body Lock",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Pummeling Escape from Body Lock",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 10,
+          "nogi": 12
         }
       },
       {
         "transition": "Reversal from Body Lock",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 6,
+          "nogi": 6
         }
       }
     ],

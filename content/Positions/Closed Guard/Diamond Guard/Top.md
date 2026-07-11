@@ -21,25 +21,25 @@ description: "Master Diamond Guard in BJJ. Closed guard variation using overhook
     {
       "@type": "HowToStep",
       "name": "Execute Guard Pass from Diamond Guard",
-      "text": "From this position, attempt Guard Pass from Diamond Guard. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Guard Pass from Diamond Guard. This technique is attempted in 17% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Posture Recovery from Diamond Guard",
-      "text": "From this position, attempt Posture Recovery from Diamond Guard. This technique is attempted in 42% of exchanges from this position.",
+      "text": "From this position, attempt Posture Recovery from Diamond Guard. This technique is attempted in 30% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guard Opening Sequence",
-      "text": "From this position, attempt Guard Opening Sequence. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Guard Opening Sequence. This technique is attempted in 20% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Overhook Strip from Diamond Guard",
-      "text": "From this position, attempt Overhook Strip from Diamond Guard. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Overhook Strip from Diamond Guard. This technique is attempted in 33% of exchanges from this position.",
       "position": 4
     }
   ],

@@ -21,19 +21,19 @@ description: "Master offensive strategies from Twister Control Top. Complete gui
     {
       "@type": "HowToStep",
       "name": "Execute Twister from Twister Control",
-      "text": "From this position, attempt Twister from Twister Control. This technique is attempted in 35% of exchanges from this position.",
+      "text": "From this position, attempt Twister from Twister Control. This technique is attempted in 33% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Back Take. This technique is attempted in 22% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guillotine Choke from Twister Control",
-      "text": "From this position, attempt Guillotine Choke from Twister Control. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Guillotine Choke from Twister Control. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
@@ -45,7 +45,7 @@ description: "Master offensive strategies from Twister Control Top. Complete gui
     {
       "@type": "HowToStep",
       "name": "Execute Calf Slicer from Twister Control",
-      "text": "From this position, attempt Calf Slicer from Twister Control. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Calf Slicer from Twister Control. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     }
   ],

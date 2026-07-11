@@ -21,37 +21,37 @@ description: "Master Seated Guard Bottom in BJJ. Upright open guard with posted 
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand-up",
-      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand Up from Ground",
-      "text": "From this position, attempt Technical Stand Up from Ground. This technique is attempted in 3% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand Up from Ground. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Sweep",
-      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 20% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Scissor Sweep",
-      "text": "From this position, attempt Scissor Sweep. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Scissor Sweep. This technique is attempted in 2% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Entry",
-      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 18% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Ankle Pick Sweep",
-      "text": "From this position, attempt Ankle Pick Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Ankle Pick Sweep. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],

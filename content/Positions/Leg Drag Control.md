@@ -141,23 +141,23 @@ Modern competitive grappling has elevated leg drag control from a transitional m
 ### Available Transitions
 
 
-- **[[Transitions/Leg Drag Escape to Closed Guard/Attacker|Leg Drag Escape to Closed Guard]]** (4% of attempts)
+- **[[Transitions/Leg Drag Escape to Closed Guard/Attacker|Leg Drag Escape to Closed Guard]]** (7% of attempts)
 
-- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (9% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (8% of attempts)
 
-- **[[Transitions/Leg Drag Counter to Half Guard/Attacker|Leg Drag Counter to Half Guard]]** (18% of attempts)
+- **[[Transitions/Leg Drag Counter to Half Guard/Attacker|Leg Drag Counter to Half Guard]]** (13% of attempts)
 
-- **[[Transitions/Roll to Turtle/Attacker|Roll to Turtle]]** (18% of attempts)
+- **[[Transitions/Roll to Turtle/Attacker|Roll to Turtle]]** (12% of attempts)
 
-- **[[Transitions/Inside Position Recovery/Attacker|Inside Position Recovery]]** (10% of attempts)
+- **[[Transitions/Inside Position Recovery/Attacker|Inside Position Recovery]]** (14% of attempts)
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (6% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (7% of attempts)
 
-- **[[Transitions/Leg Recovery to De La Riva/Attacker|Leg Recovery to De La Riva]]** (9% of attempts)
+- **[[Transitions/Leg Recovery to De La Riva/Attacker|Leg Recovery to De La Riva]]** (8% of attempts)
 
-- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (12% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (15% of attempts)
 
-- **[[Transitions/Half Guard Recovery/Attacker|Half Guard Recovery]]** (14% of attempts)
+- **[[Transitions/Half Guard Recovery/Attacker|Half Guard Recovery]]** (16% of attempts)
 
 
 ### Common Mistakes
@@ -220,23 +220,23 @@ Modern competitive grappling has elevated leg drag control from a transitional m
 
 - **[[Transitions/Leg Drag Pass to Side Control/Attacker|Leg Drag Pass to Side Control]]** (22% of attempts)
 
-- **[[Transitions/Leg Drag to Back Take/Attacker|Leg Drag to Back Take]]** (20% of attempts)
+- **[[Transitions/Leg Drag to Back Take/Attacker|Leg Drag to Back Take]]** (22% of attempts)
 
-- **[[Transitions/Leg Drag to Mount/Attacker|Leg Drag to Mount]]** (12% of attempts)
+- **[[Transitions/Leg Drag to Mount/Attacker|Leg Drag to Mount]]** (8% of attempts)
 
 - **[[Transitions/Leg Drag to Knee on Belly/Attacker|Leg Drag to Knee on Belly]]** (11% of attempts)
 
-- **[[Transitions/Leg Drag to North-South/Attacker|Leg Drag to North-South]]** (7% of attempts)
+- **[[Transitions/Leg Drag to North-South/Attacker|Leg Drag to North-South]]** (8% of attempts)
 
 - **[[Transitions/Leg Drag to Crucifix/Attacker|Leg Drag to Crucifix]]** (4% of attempts)
 
-- **[[Transitions/Leg Drag to Inside Ashi/Attacker|Leg Drag to Inside Ashi]]** (6% of attempts)
+- **[[Transitions/Leg Drag to Inside Ashi/Attacker|Leg Drag to Inside Ashi]]** (8% of attempts)
 
 - **[[Transitions/Leg Drag to Technical Mount/Attacker|Leg Drag to Technical Mount]]** (8% of attempts)
 
-- **[[Transitions/Leg Drag to Darce Setup/Attacker|Leg Drag to Darce Setup]]** (7% of attempts)
+- **[[Transitions/Leg Drag to Darce Setup/Attacker|Leg Drag to Darce Setup]]** (5% of attempts)
 
-- **[[Darce Choke from Leg Drag/Attacker|Darce Choke from Leg Drag]]** (3% of attempts)
+- **[[Darce Choke from Leg Drag/Attacker|Darce Choke from Leg Drag]]** (4% of attempts)
 
 
 ### Common Mistakes

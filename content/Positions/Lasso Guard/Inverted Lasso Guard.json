@@ -302,70 +302,70 @@
         "transition": "Lasso Guard Pass",
         "attempt_probability": {
           "gi": 11,
-          "nogi": 11
+          "nogi": 4
         }
       },
       {
         "transition": "Stack Pass",
-        "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
-        }
-      },
-      {
-        "transition": "Arm Extraction and Pass",
-        "attempt_probability": {
-          "gi": 22,
-          "nogi": 22
-        }
-      },
-      {
-        "transition": "Cartwheel Pass",
-        "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
-        }
-      },
-      {
-        "transition": "Pressure Pass",
-        "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
-        }
-      },
-      {
-        "transition": "Knee Slice Pass",
-        "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
-        }
-      },
-      {
-        "transition": "Smash Pass",
-        "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
-        }
-      },
-      {
-        "transition": "Back Step Pass",
         "attempt_probability": {
           "gi": 12,
           "nogi": 12
         }
       },
       {
+        "transition": "Arm Extraction and Pass",
+        "attempt_probability": {
+          "gi": 17,
+          "nogi": 23
+        }
+      },
+      {
+        "transition": "Cartwheel Pass",
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 2
+        }
+      },
+      {
+        "transition": "Pressure Pass",
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 13
+        }
+      },
+      {
+        "transition": "Knee Slice Pass",
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 14
+        }
+      },
+      {
+        "transition": "Smash Pass",
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 12
+        }
+      },
+      {
+        "transition": "Back Step Pass",
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 9
+        }
+      },
+      {
         "transition": "Pass Inverted Lasso Guard",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 9,
+          "nogi": 6
         }
       },
       {
         "transition": "Stack from Inverted Lasso",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 7,
+          "nogi": 5
         }
       }
     ]
@@ -625,64 +625,64 @@
       {
         "transition": "Berimbolo Entry",
         "attempt_probability": {
-          "gi": 44,
-          "nogi": 44
+          "gi": 7,
+          "nogi": 5
         }
       },
       {
         "transition": "Triangle Setup",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 10,
+          "nogi": 18
         }
       },
       {
         "transition": "Omoplata Sweep",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 15,
+          "nogi": 17
         }
       },
       {
         "transition": "Sickle Sweep",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 7,
+          "nogi": 12
         }
       },
       {
         "transition": "Single Leg X Entry",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 7,
+          "nogi": 27
         }
       },
       {
         "transition": "De La Riva Sweep",
         "attempt_probability": {
           "gi": 7,
-          "nogi": 7
+          "nogi": 15
         }
       },
       {
         "transition": "Balloon Sweep",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 7,
+          "nogi": 6
         }
       },
       {
         "transition": "Inverted Lasso Sweep",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 22,
+          "nogi": 0
         }
       },
       {
         "transition": "Inverted Lasso to Lasso Guard",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 18,
+          "nogi": 0
         }
       }
     ]

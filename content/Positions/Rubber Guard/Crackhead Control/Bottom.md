@@ -27,31 +27,31 @@ description: "Master the bottom perspective of 10th Planet's Crackhead Control -
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata from Crackhead Control",
-      "text": "From this position, attempt Omoplata from Crackhead Control. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata from Crackhead Control. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Choke from Crackhead Control",
-      "text": "From this position, attempt Triangle Choke from Crackhead Control. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Choke from Crackhead Control. This technique is attempted in 17% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crackhead Control to Carni",
-      "text": "From this position, attempt Crackhead Control to Carni. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Crackhead Control to Carni. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hook Sweep",
-      "text": "From this position, attempt Hook Sweep. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Hook Sweep. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Baratoplata from Crackhead Control",
-      "text": "From this position, attempt Baratoplata from Crackhead Control. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Baratoplata from Crackhead Control. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],

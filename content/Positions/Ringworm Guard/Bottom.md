@@ -21,37 +21,37 @@ description: "Master Ringworm Guard Bottom in BJJ. Advanced lapel guard with pow
     {
       "@type": "HowToStep",
       "name": "Execute Ringworm Sweep to Back Control",
-      "text": "From this position, attempt Ringworm Sweep to Back Control. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Ringworm Sweep to Back Control. This technique is attempted in 0% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 34% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
-      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 28% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Lapel Sweep to Back",
-      "text": "From this position, attempt Lapel Sweep to Back. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Lapel Sweep to Back. This technique is attempted in 0% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Berimbolo Entry",
-      "text": "From this position, attempt Berimbolo Entry. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Berimbolo Entry. This technique is attempted in 36% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Ringworm Guard to Worm Guard",
-      "text": "From this position, attempt Ringworm Guard to Worm Guard. This technique is attempted in 23% of exchanges from this position.",
+      "text": "From this position, attempt Ringworm Guard to Worm Guard. This technique is attempted in 0% of exchanges from this position.",
       "position": 6
     }
   ],

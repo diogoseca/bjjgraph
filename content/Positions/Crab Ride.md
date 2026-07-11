@@ -137,19 +137,19 @@ From the defensive perspective, Crab Ride Bottom is a high-pressure situation th
 ### Available Transitions
 
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (40% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (15% of attempts)
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (22% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (13% of attempts)
 
-- **[[Transitions/Turtle to Standing/Attacker|Turtle to Standing]]** (14% of attempts)
+- **[[Transitions/Turtle to Standing/Attacker|Turtle to Standing]]** (16% of attempts)
 
-- **[[Transitions/Peterson Roll/Attacker|Peterson Roll]]** (8% of attempts)
+- **[[Transitions/Peterson Roll/Attacker|Peterson Roll]]** (9% of attempts)
 
-- **[[Transitions/Sit Through Escape/Attacker|Sit Through Escape]]** (10% of attempts)
+- **[[Transitions/Sit Through Escape/Attacker|Sit Through Escape]]** (14% of attempts)
 
-- **[[Transitions/Crab Ride Escape to Guard/Attacker|Crab Ride Escape to Guard]]** (4% of attempts)
+- **[[Transitions/Crab Ride Escape to Guard/Attacker|Crab Ride Escape to Guard]]** (20% of attempts)
 
-- **[[Transitions/Escape from Crab Ride/Attacker|Escape from Crab Ride]]** (2% of attempts)
+- **[[Transitions/Escape from Crab Ride/Attacker|Escape from Crab Ride]]** (13% of attempts)
 
 
 ### Common Mistakes
@@ -210,25 +210,25 @@ From the defensive perspective, Crab Ride Bottom is a high-pressure situation th
 ### Available Transitions
 
 
-- **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (40% of attempts)
+- **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (27% of attempts)
 
-- **[[Transitions/Darce from Turtle/Attacker|Darce from Turtle]]** (7% of attempts)
+- **[[Transitions/Darce from Turtle/Attacker|Darce from Turtle]]** (8% of attempts)
 
-- **[[Transitions/Anaconda from Turtle/Attacker|Anaconda from Turtle]]** (6% of attempts)
+- **[[Transitions/Anaconda from Turtle/Attacker|Anaconda from Turtle]]** (4% of attempts)
 
-- **[[Transitions/Guillotine from Turtle/Attacker|Guillotine from Turtle]]** (3% of attempts)
+- **[[Transitions/Guillotine from Turtle/Attacker|Guillotine from Turtle]]** (5% of attempts)
 
-- **[[Transitions/Truck Entry/Attacker|Truck Entry]]** (12% of attempts)
+- **[[Transitions/Truck Entry/Attacker|Truck Entry]]** (16% of attempts)
 
-- **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (11% of attempts)
+- **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (9% of attempts)
 
-- **[[Transitions/Back Control to Cross Body Ride/Attacker|Back Control to Cross Body Ride]]** (7% of attempts)
+- **[[Transitions/Back Control to Cross Body Ride/Attacker|Back Control to Cross Body Ride]]** (11% of attempts)
 
-- **[[Transitions/Turtle to Rodeo Ride/Attacker|Turtle to Rodeo Ride]]** (8% of attempts)
+- **[[Transitions/Turtle to Rodeo Ride/Attacker|Turtle to Rodeo Ride]]** (10% of attempts)
 
-- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (4% of attempts)
+- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (5% of attempts)
 
-- **[[Transitions/Kimura from Crab Ride/Attacker|Kimura from Crab Ride]]** (2% of attempts)
+- **[[Transitions/Kimura from Crab Ride/Attacker|Kimura from Crab Ride]]** (5% of attempts)
 
 
 ### Common Mistakes

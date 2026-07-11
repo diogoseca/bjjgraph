@@ -21,37 +21,37 @@ description: "Master Invisible Collar from top position with grip concealment ta
     {
       "@type": "HowToStep",
       "name": "Execute Cross Collar Choke from Invisible Collar",
-      "text": "From this position, attempt Cross Collar Choke from Invisible Collar. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Cross Collar Choke from Invisible Collar. This technique is attempted in 4% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke from Invisible Collar",
-      "text": "From this position, attempt Rear Naked Choke from Invisible Collar. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Rear Naked Choke from Invisible Collar. This technique is attempted in 37% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Back Transition",
-      "text": "From this position, attempt Armbar from Back Transition. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Armbar from Back Transition. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Aoki Lock to Crucifix",
-      "text": "From this position, attempt Aoki Lock to Crucifix. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Aoki Lock to Crucifix. This technique is attempted in 3% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bow and Arrow Choke from Invisible Collar",
-      "text": "From this position, attempt Bow and Arrow Choke from Invisible Collar. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Bow and Arrow Choke from Invisible Collar. This technique is attempted in 0% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Clock Choke from Invisible Collar",
-      "text": "From this position, attempt Clock Choke from Invisible Collar. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Clock Choke from Invisible Collar. This technique is attempted in 0% of exchanges from this position.",
       "position": 6
     }
   ],

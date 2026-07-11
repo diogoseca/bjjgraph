@@ -106,57 +106,57 @@
       {
         "transition": "Ashi Garami Escape",
         "attempt_probability": {
-          "gi": 44,
-          "nogi": 44
+          "gi": 23,
+          "nogi": 13
         }
       },
       {
         "transition": "Counter Ashi Entry",
         "attempt_probability": {
-          "gi": 17,
+          "gi": 12,
           "nogi": 17
         }
       },
       {
         "transition": "Pass to Side Control",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 20,
+          "nogi": 14
         }
       },
       {
         "transition": "Guillotine Setup",
         "attempt_probability": {
           "gi": 5,
-          "nogi": 5
+          "nogi": 8
         }
       },
       {
         "transition": "Back Step Pass",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 15,
+          "nogi": 13
         }
       },
       {
         "transition": "Toe Hold from Ashi Garami",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 9,
+          "nogi": 14
         }
       },
       {
         "transition": "Back Take from Ashi",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 7,
+          "nogi": 8
         }
       },
       {
         "transition": "Ashi Garami to Leg Entanglement",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 9,
+          "nogi": 13
         }
       }
     ],
@@ -395,106 +395,106 @@
       {
         "transition": "Inside Ashi Entry",
         "attempt_probability": {
-          "gi": 58,
-          "nogi": 58
+          "gi": 12,
+          "nogi": 15
         }
       },
       {
         "transition": "Cross Ashi Transition",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 7,
+          "nogi": 8
         }
       },
       {
         "transition": "Heel Hook from Ashi Garami",
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 15
+        }
+      },
+      {
+        "transition": "Straight Ankle Lock Entry",
+        "attempt_probability": {
+          "gi": 18,
+          "nogi": 11
+        }
+      },
+      {
+        "transition": "50-50 Entry",
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 7
+        }
+      },
+      {
+        "transition": "Toe Hold from Ashi Garami",
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 4
+        }
+      },
+      {
+        "transition": "Kneebar Setup",
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 4
+        }
+      },
+      {
+        "transition": "Single Leg X Transition",
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 7
+        }
+      },
+      {
+        "transition": "Backside 50-50 Entry from Ashi",
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 5
+        }
+      },
+      {
+        "transition": "Back Take from Ashi",
         "attempt_probability": {
           "gi": 3,
           "nogi": 3
         }
       },
       {
-        "transition": "Straight Ankle Lock Entry",
-        "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
-        }
-      },
-      {
-        "transition": "50-50 Entry",
-        "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
-        }
-      },
-      {
-        "transition": "Toe Hold from Ashi Garami",
-        "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
-        }
-      },
-      {
-        "transition": "Kneebar Setup",
-        "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
-        }
-      },
-      {
-        "transition": "Single Leg X Transition",
-        "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
-        }
-      },
-      {
-        "transition": "Backside 50-50 Entry from Ashi",
-        "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
-        }
-      },
-      {
-        "transition": "Back Take from Ashi",
-        "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
-        }
-      },
-      {
         "transition": "Ashi Garami Maintenance",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 12,
+          "nogi": 10
         }
       },
       {
         "transition": "Heel Strip from Ashi Garami",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 3,
+          "nogi": 2
         }
       },
       {
         "transition": "Standing Up from Ashi Garami",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 4,
+          "nogi": 3
         }
       },
       {
         "transition": "Aoki Lock from Ashi Garami",
         "attempt_probability": {
           "gi": 1,
-          "nogi": 1
+          "nogi": 2
         }
       },
       {
         "transition": "Ashi Garami to Toe Hold Control",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 5,
+          "nogi": 4
         }
       }
     ],

@@ -139,19 +139,19 @@ The strategic importance of Kuzure Kesa-Gatame in modern BJJ cannot be overstate
 ### Available Transitions
 
 
-- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (22% of attempts)
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (21% of attempts)
 
-- **[[Transitions/Arm Recovery to Guard/Attacker|Arm Recovery to Guard]]** (16% of attempts)
+- **[[Transitions/Arm Recovery to Guard/Attacker|Arm Recovery to Guard]]** (20% of attempts)
 
-- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (13% of attempts)
+- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (12% of attempts)
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (17% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (12% of attempts)
 
-- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (11% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (9% of attempts)
 
-- **[[Transitions/Re-Guard from Headquarters/Attacker|Re-Guard from Headquarters]]** (15% of attempts)
+- **[[Transitions/Re-Guard from Headquarters/Attacker|Re-Guard from Headquarters]]** (13% of attempts)
 
-- **[[Transitions/Frame Escape from Kuzure Kesa/Attacker|Frame Escape from Kuzure Kesa]]** (6% of attempts)
+- **[[Transitions/Frame Escape from Kuzure Kesa/Attacker|Frame Escape from Kuzure Kesa]]** (13% of attempts)
 
 
 ### Common Mistakes
@@ -212,25 +212,25 @@ The strategic importance of Kuzure Kesa-Gatame in modern BJJ cannot be overstate
 ### Available Transitions
 
 
-- **[[Americana from Kuzure Kesa-Gatame/Attacker|Americana from Kuzure Kesa-Gatame]]** (11% of attempts)
+- **[[Americana from Kuzure Kesa-Gatame/Attacker|Americana from Kuzure Kesa-Gatame]]** (18% of attempts)
 
-- **[[Kimura from Kuzure Kesa-Gatame/Attacker|Kimura from Kuzure Kesa-Gatame]]** (11% of attempts)
+- **[[Kimura from Kuzure Kesa-Gatame/Attacker|Kimura from Kuzure Kesa-Gatame]]** (16% of attempts)
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (11% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (14% of attempts)
 
 - **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (12% of attempts)
 
-- **[[Paper Cutter Choke from Kuzure Kesa-Gatame/Attacker|Paper Cutter Choke from Kuzure Kesa-Gatame]]** (10% of attempts)
+- **[[Paper Cutter Choke from Kuzure Kesa-Gatame/Attacker|Paper Cutter Choke from Kuzure Kesa-Gatame]]** (0% of attempts)
 
-- **[[Arm Triangle from Kuzure Kesa-Gatame/Attacker|Arm Triangle from Kuzure Kesa-Gatame]]** (11% of attempts)
+- **[[Arm Triangle from Kuzure Kesa-Gatame/Attacker|Arm Triangle from Kuzure Kesa-Gatame]]** (13% of attempts)
 
-- **[[Breadcutter Choke from Kuzure Kesa-Gatame/Attacker|Breadcutter Choke from Kuzure Kesa-Gatame]]** (9% of attempts)
+- **[[Breadcutter Choke from Kuzure Kesa-Gatame/Attacker|Breadcutter Choke from Kuzure Kesa-Gatame]]** (0% of attempts)
 
 - **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (10% of attempts)
 
 - **[[Transitions/Gift Wrap Control/Attacker|Gift Wrap Control]]** (10% of attempts)
 
-- **[[Belly Down Armbar from Kuzure Kesa-Gatame/Attacker|Belly Down Armbar from Kuzure Kesa-Gatame]]** (5% of attempts)
+- **[[Belly Down Armbar from Kuzure Kesa-Gatame/Attacker|Belly Down Armbar from Kuzure Kesa-Gatame]]** (7% of attempts)
 
 
 ### Common Mistakes

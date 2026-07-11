@@ -21,37 +21,37 @@ description: "Master Worm Guard Bottom in BJJ. Advanced lapel guard system with 
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
-      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 33% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 19% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 17% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata to Back",
-      "text": "From this position, attempt Omoplata to Back. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata to Back. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Lapel Elevator Sweep",
-      "text": "From this position, attempt Lapel Elevator Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Lapel Elevator Sweep. This technique is attempted in 0% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard Sweep",
-      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 29% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute De La Riva Sweep",
-      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 18% of exchanges from this position.",
       "position": 6
     }
   ],

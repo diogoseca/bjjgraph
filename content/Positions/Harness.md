@@ -141,23 +141,23 @@ Strategically, the harness position serves as a transitional control point and a
 ### Available Transitions
 
 
-- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (21% of attempts)
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (12% of attempts)
 
-- **[[Transitions/Hip Escape to Turtle/Attacker|Hip Escape to Turtle]]** (17% of attempts)
+- **[[Transitions/Hip Escape to Turtle/Attacker|Hip Escape to Turtle]]** (11% of attempts)
 
-- **[[Transitions/Technical Stand Up to Single Leg/Attacker|Technical Stand Up to Single Leg]]** (8% of attempts)
+- **[[Transitions/Technical Stand Up to Single Leg/Attacker|Technical Stand Up to Single Leg]]** (7% of attempts)
 
-- **[[Transitions/Roll to Guard/Attacker|Roll to Guard]]** (12% of attempts)
+- **[[Transitions/Roll to Guard/Attacker|Roll to Guard]]** (9% of attempts)
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (11% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (7% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (11% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (12% of attempts)
 
-- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (9% of attempts)
+- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (14% of attempts)
 
-- **[[Transitions/Hand Fighting from Back/Attacker|Hand Fighting from Back]]** (7% of attempts)
+- **[[Transitions/Hand Fighting from Back/Attacker|Hand Fighting from Back]]** (20% of attempts)
 
-- **[[Transitions/Harness Escape to Half Guard/Attacker|Harness Escape to Half Guard]]** (4% of attempts)
+- **[[Transitions/Harness Escape to Half Guard/Attacker|Harness Escape to Half Guard]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -218,27 +218,27 @@ Strategically, the harness position serves as a transitional control point and a
 ### Available Transitions
 
 
-- **[[Rear Naked Choke from Harness/Attacker|Rear Naked Choke from Harness]]** (42% of attempts)
+- **[[Rear Naked Choke from Harness/Attacker|Rear Naked Choke from Harness]]** (32% of attempts)
 
-- **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (14% of attempts)
+- **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (6% of attempts)
 
-- **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (8% of attempts)
+- **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (7% of attempts)
 
-- **[[Transitions/Triangle from Back/Attacker|Triangle from Back]]** (4% of attempts)
+- **[[Transitions/Triangle from Back/Attacker|Triangle from Back]]** (6% of attempts)
 
-- **[[Bow and Arrow Choke from Harness/Attacker|Bow and Arrow Choke from Harness]]** (11% of attempts)
+- **[[Bow and Arrow Choke from Harness/Attacker|Bow and Arrow Choke from Harness]]** (0% of attempts)
 
-- **[[Short Choke from Harness/Attacker|Short Choke from Harness]]** (5% of attempts)
+- **[[Short Choke from Harness/Attacker|Short Choke from Harness]]** (10% of attempts)
 
-- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (3% of attempts)
+- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (2% of attempts)
 
-- **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (2% of attempts)
+- **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (20% of attempts)
 
 - **[[Transitions/Kimura from Back/Attacker|Kimura from Back]]** (6% of attempts)
 
-- **[[Transitions/Gift Wrap Transition/Attacker|Gift Wrap Transition]]** (4% of attempts)
+- **[[Transitions/Gift Wrap Transition/Attacker|Gift Wrap Transition]]** (5% of attempts)
 
-- **[[Transitions/Harness to Body Lock/Attacker|Harness to Body Lock]]** (1% of attempts)
+- **[[Transitions/Harness to Body Lock/Attacker|Harness to Body Lock]]** (6% of attempts)
 
 
 ### Common Mistakes

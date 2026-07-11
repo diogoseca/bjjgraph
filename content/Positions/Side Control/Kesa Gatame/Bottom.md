@@ -21,7 +21,7 @@ description: "Master Kesa Gatame Bottom escapes in BJJ. Complete guide covering 
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 10% of exchanges from this position.",
       "position": 1
     },
     {
@@ -33,19 +33,19 @@ description: "Master Kesa Gatame Bottom escapes in BJJ. Complete guide covering 
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take from Kesa Gatame",
-      "text": "From this position, attempt Back Take from Kesa Gatame. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Back Take from Kesa Gatame. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Turn to Turtle",
-      "text": "From this position, attempt Bridge and Turn to Turtle. This technique is attempted in 28% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Turn to Turtle. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {

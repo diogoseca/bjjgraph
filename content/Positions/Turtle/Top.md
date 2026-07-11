@@ -21,37 +21,37 @@ description: "Master Turtle Top position in BJJ. Offensive position with multipl
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Back Control",
-      "text": "From this position, attempt Turtle to Back Control. This technique is attempted in 54% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Back Control. This technique is attempted in 22% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Chair Sit to Back",
-      "text": "From this position, attempt Chair Sit to Back. This technique is attempted in 3% of exchanges from this position.",
+      "text": "From this position, attempt Chair Sit to Back. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Front Headlock to Anaconda",
-      "text": "From this position, attempt Front Headlock to Anaconda. This technique is attempted in 2% of exchanges from this position.",
+      "text": "From this position, attempt Front Headlock to Anaconda. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Front Headlock to Darce",
-      "text": "From this position, attempt Front Headlock to Darce. This technique is attempted in 2% of exchanges from this position.",
+      "text": "From this position, attempt Front Headlock to Darce. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crucifix from Turtle",
-      "text": "From this position, attempt Crucifix from Turtle. This technique is attempted in 2% of exchanges from this position.",
+      "text": "From this position, attempt Crucifix from Turtle. This technique is attempted in 5% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle Flatten to Side Control",
-      "text": "From this position, attempt Turtle Flatten to Side Control. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Turtle Flatten to Side Control. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],

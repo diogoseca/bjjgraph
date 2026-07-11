@@ -27,31 +27,31 @@ description: "Master Jailbreak Top Position in BJJ. Advanced half guard passing 
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 33% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice from Half",
-      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 16% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Pass",
-      "text": "From this position, attempt Underhook Pass. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Darce Setup",
-      "text": "From this position, attempt Darce Setup. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Darce Setup. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Front Headlock to Back",
-      "text": "From this position, attempt Front Headlock to Back. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Front Headlock to Back. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],

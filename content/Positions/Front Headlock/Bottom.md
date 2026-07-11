@@ -21,37 +21,37 @@ description: "Escape front headlock control in BJJ. Defensive strategies for avo
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand-up",
-      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Guard",
-      "text": "From this position, attempt Turtle to Guard. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Guard. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stand and Circle Away",
-      "text": "From this position, attempt Stand and Circle Away. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Stand and Circle Away. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Roll Through to Reversal",
-      "text": "From this position, attempt Roll Through to Reversal. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Roll Through to Reversal. This technique is attempted in 7% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Drag Escape",
-      "text": "From this position, attempt Arm Drag Escape. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Arm Drag Escape. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],

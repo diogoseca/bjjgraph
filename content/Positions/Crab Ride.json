@@ -319,71 +319,71 @@
       {
         "transition": "Crab Ride to Back",
         "attempt_probability": {
-          "gi": 40,
-          "nogi": 40
+          "gi": 30,
+          "nogi": 27
         }
       },
       {
         "transition": "Darce from Turtle",
-        "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
-        }
-      },
-      {
-        "transition": "Anaconda from Turtle",
-        "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
-        }
-      },
-      {
-        "transition": "Guillotine from Turtle",
-        "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
-        }
-      },
-      {
-        "transition": "Truck Entry",
-        "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
-        }
-      },
-      {
-        "transition": "Crucifix from Turtle",
-        "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
-        }
-      },
-      {
-        "transition": "Back Control to Cross Body Ride",
-        "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
-        }
-      },
-      {
-        "transition": "Turtle to Rodeo Ride",
         "attempt_probability": {
           "gi": 8,
           "nogi": 8
         }
       },
       {
-        "transition": "Rolling Back Take",
+        "transition": "Anaconda from Turtle",
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 4
+        }
+      },
+      {
+        "transition": "Guillotine from Turtle",
         "attempt_probability": {
           "gi": 4,
-          "nogi": 4
+          "nogi": 5
+        }
+      },
+      {
+        "transition": "Truck Entry",
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 16
+        }
+      },
+      {
+        "transition": "Crucifix from Turtle",
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 9
+        }
+      },
+      {
+        "transition": "Back Control to Cross Body Ride",
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
+        }
+      },
+      {
+        "transition": "Turtle to Rodeo Ride",
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 10
+        }
+      },
+      {
+        "transition": "Rolling Back Take",
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 5
         }
       },
       {
         "transition": "Kimura from Crab Ride",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 5,
+          "nogi": 5
         }
       }
     ]
@@ -629,50 +629,50 @@
       {
         "transition": "Hip Escape to Guard",
         "attempt_probability": {
-          "gi": 40,
-          "nogi": 40
+          "gi": 16,
+          "nogi": 15
         }
       },
       {
         "transition": "Granby Roll to Guard",
         "attempt_probability": {
-          "gi": 22,
-          "nogi": 22
+          "gi": 12,
+          "nogi": 13
         }
       },
       {
         "transition": "Turtle to Standing",
         "attempt_probability": {
           "gi": 14,
-          "nogi": 14
+          "nogi": 16
         }
       },
       {
         "transition": "Peterson Roll",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 10,
+          "nogi": 9
         }
       },
       {
         "transition": "Sit Through Escape",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 14,
+          "nogi": 14
         }
       },
       {
         "transition": "Crab Ride Escape to Guard",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 20,
+          "nogi": 20
         }
       },
       {
         "transition": "Escape from Crab Ride",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 14,
+          "nogi": 13
         }
       }
     ]

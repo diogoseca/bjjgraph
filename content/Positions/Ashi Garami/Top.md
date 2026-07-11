@@ -21,7 +21,7 @@ description: "Master defensive strategies against Ashi Garami leg entanglements 
     {
       "@type": "HowToStep",
       "name": "Execute Ashi Garami Escape",
-      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 44% of exchanges from this position.",
+      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
@@ -33,25 +33,25 @@ description: "Master defensive strategies against Ashi Garami leg entanglements 
     {
       "@type": "HowToStep",
       "name": "Execute Pass to Side Control",
-      "text": "From this position, attempt Pass to Side Control. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Pass to Side Control. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guillotine Setup",
-      "text": "From this position, attempt Guillotine Setup. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Guillotine Setup. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Step Pass",
-      "text": "From this position, attempt Back Step Pass. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Back Step Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Toe Hold from Ashi Garami",
-      "text": "From this position, attempt Toe Hold from Ashi Garami. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Toe Hold from Ashi Garami. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],

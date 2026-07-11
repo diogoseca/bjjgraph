@@ -135,33 +135,33 @@ Double Sleeve Guard is characterized by its emphasis on grip fighting dominance 
 ### Available Transitions
 
 
-- **[[Transitions/Tripod Sweep/Attacker|Tripod Sweep]]** (20% of attempts)
+- **[[Transitions/Tripod Sweep/Attacker|Tripod Sweep]]** (12% of attempts)
 
-- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (8% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (7% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (10% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (13% of attempts)
 
-- **[[Omoplata from Double Sleeve Guard/Attacker|Omoplata from Double Sleeve Guard]]** (6% of attempts)
+- **[[Omoplata from Double Sleeve Guard/Attacker|Omoplata from Double Sleeve Guard]]** (3% of attempts)
 
-- **[[Transitions/Guard Recovery from Double Sleeve Guard/Attacker|Guard Recovery from Double Sleeve Guard]]** (4% of attempts)
+- **[[Transitions/Guard Recovery from Double Sleeve Guard/Attacker|Guard Recovery from Double Sleeve Guard]]** (18% of attempts)
 
-- **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** (12% of attempts)
+- **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** (10% of attempts)
 
-- **[[Transitions/Flower Sweep/Attacker|Flower Sweep]]** (8% of attempts)
+- **[[Transitions/Flower Sweep/Attacker|Flower Sweep]]** (9% of attempts)
 
 - **[[Transitions/Pendulum Sweep/Attacker|Pendulum Sweep]]** (8% of attempts)
 
-- **[[Transitions/Armbar Setup from Double Sleeve/Attacker|Armbar Setup from Double Sleeve]]** (3% of attempts)
+- **[[Transitions/Armbar Setup from Double Sleeve/Attacker|Armbar Setup from Double Sleeve]]** (5% of attempts)
 
-- **[[Transitions/Double Sleeve Sweep/Attacker|Double Sleeve Sweep]]** (3% of attempts)
+- **[[Transitions/Double Sleeve Sweep/Attacker|Double Sleeve Sweep]]** (5% of attempts)
 
-- **[[Transitions/Double Sleeve to De La Riva/Attacker|Double Sleeve to De La Riva]]** (4% of attempts)
+- **[[Transitions/Double Sleeve to De La Riva/Attacker|Double Sleeve to De La Riva]]** (8% of attempts)
 
-- **[[Transitions/Double Sleeve to Lasso/Attacker|Double Sleeve to Lasso]]** (4% of attempts)
+- **[[Transitions/Double Sleeve to Lasso/Attacker|Double Sleeve to Lasso]]** (0% of attempts)
 
-- **[[Transitions/Double Sleeve to Spider/Attacker|Double Sleeve to Spider]]** (4% of attempts)
+- **[[Transitions/Double Sleeve to Spider/Attacker|Double Sleeve to Spider]]** (1% of attempts)
 
-- **[[Transitions/Double Sleeve to Spider Guard/Attacker|Double Sleeve to Spider Guard]]** (6% of attempts)
+- **[[Transitions/Double Sleeve to Spider Guard/Attacker|Double Sleeve to Spider Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -224,21 +224,21 @@ Double Sleeve Guard is characterized by its emphasis on grip fighting dominance 
 
 - **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (16% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (16% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (15% of attempts)
 
-- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (15% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (13% of attempts)
 
-- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (12% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (9% of attempts)
 
-- **[[Transitions/X Pass/Attacker|X Pass]]** (12% of attempts)
+- **[[Transitions/X Pass/Attacker|X Pass]]** (10% of attempts)
 
-- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (9% of attempts)
+- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (7% of attempts)
 
-- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (12% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (9% of attempts)
 
-- **[[Transitions/Pass Double Sleeve Guard/Attacker|Pass Double Sleeve Guard]]** (5% of attempts)
+- **[[Transitions/Pass Double Sleeve Guard/Attacker|Pass Double Sleeve Guard]]** (11% of attempts)
 
-- **[[Transitions/Toreando from Double Sleeve/Attacker|Toreando from Double Sleeve]]** (3% of attempts)
+- **[[Transitions/Toreando from Double Sleeve/Attacker|Toreando from Double Sleeve]]** (10% of attempts)
 
 
 ### Common Mistakes

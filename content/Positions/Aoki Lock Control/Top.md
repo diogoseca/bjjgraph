@@ -21,37 +21,37 @@ description: "Master Aoki Lock top position in BJJ. Advanced submission control 
     {
       "@type": "HowToStep",
       "name": "Execute Aoki Lock from Aoki Lock Control",
-      "text": "From this position, attempt Aoki Lock from Aoki Lock Control. This technique is attempted in 42% of exchanges from this position.",
+      "text": "From this position, attempt Aoki Lock from Aoki Lock Control. This technique is attempted in 26% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Aoki Lock to Back Control",
-      "text": "From this position, attempt Aoki Lock to Back Control. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Aoki Lock to Back Control. This technique is attempted in 25% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Aoki Lock to Crucifix",
-      "text": "From this position, attempt Aoki Lock to Crucifix. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Aoki Lock to Crucifix. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura Switch",
-      "text": "From this position, attempt Kimura Switch. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Kimura Switch. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Truck Entry",
-      "text": "From this position, attempt Truck Entry. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Truck Entry. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Aoki Lock",
-      "text": "From this position, attempt Aoki Lock. This technique is attempted in 3% of exchanges from this position.",
+      "text": "From this position, attempt Aoki Lock. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],

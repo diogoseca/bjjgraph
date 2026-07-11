@@ -21,19 +21,19 @@ description: "Master Reverse Mount position in BJJ. Learn transitional control m
     {
       "@type": "HowToStep",
       "name": "Execute Reverse Mount to Mount",
-      "text": "From this position, attempt Reverse Mount to Mount. This technique is attempted in 48% of exchanges from this position.",
+      "text": "From this position, attempt Reverse Mount to Mount. This technique is attempted in 40% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Reverse Mount to Side Control",
-      "text": "From this position, attempt Reverse Mount to Side Control. This technique is attempted in 27% of exchanges from this position.",
+      "text": "From this position, attempt Reverse Mount to Side Control. This technique is attempted in 33% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Reverse Mount",
-      "text": "From this position, attempt Armbar from Reverse Mount. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Armbar from Reverse Mount. This technique is attempted in 27% of exchanges from this position.",
       "position": 3
     }
   ],

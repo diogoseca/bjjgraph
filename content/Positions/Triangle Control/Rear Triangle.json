@@ -278,64 +278,64 @@
       {
         "transition": "Rear Triangle Choke Finish",
         "attempt_probability": {
-          "gi": 22,
-          "nogi": 22
+          "gi": 21,
+          "nogi": 20
         }
       },
       {
         "transition": "Armbar from Back Transition",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 8,
+          "nogi": 8
         }
       },
       {
         "transition": "Rear Naked Choke from Rear Triangle",
         "attempt_probability": {
           "gi": 16,
-          "nogi": 16
+          "nogi": 20
         }
       },
       {
         "transition": "Aoki Lock to Crucifix",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 3,
+          "nogi": 4
         }
       },
       {
         "transition": "Bow and Arrow Choke from Rear Triangle",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 11,
+          "nogi": 0
         }
       },
       {
         "transition": "Kimura from Back",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 8,
+          "nogi": 11
         }
       },
       {
         "transition": "Rear Triangle to Armbar",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 14,
+          "nogi": 15
         }
       },
       {
         "transition": "Back Control to Crucifix",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 5,
+          "nogi": 6
         }
       },
       {
         "transition": "Rear Triangle Choke from Rear Triangle",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 14,
+          "nogi": 16
         }
       }
     ],
@@ -624,43 +624,43 @@
       {
         "transition": "Arm Extraction",
         "attempt_probability": {
-          "gi": 34,
-          "nogi": 34
-        }
-      },
-      {
-        "transition": "Rolling Escape to Guard",
-        "attempt_probability": {
-          "gi": 16,
-          "nogi": 16
-        }
-      },
-      {
-        "transition": "Stack Defense",
-        "attempt_probability": {
           "gi": 18,
           "nogi": 18
         }
       },
       {
+        "transition": "Rolling Escape to Guard",
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 10
+        }
+      },
+      {
+        "transition": "Stack Defense",
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
+      },
+      {
         "transition": "Hand Fighting from Back",
         "attempt_probability": {
-          "gi": 20,
-          "nogi": 20
+          "gi": 28,
+          "nogi": 28
         }
       },
       {
         "transition": "Grip Fight Escape from Rear Triangle",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 15,
+          "nogi": 14
         }
       },
       {
         "transition": "Posture Defense from Rear Triangle",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 20,
+          "nogi": 20
         }
       }
     ],

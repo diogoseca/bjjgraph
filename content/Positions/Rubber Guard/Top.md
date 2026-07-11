@@ -21,31 +21,31 @@ description: "Defend Rubber Guard from top with systematic escape protocols. Lea
     {
       "@type": "HowToStep",
       "name": "Execute Posture Recovery",
-      "text": "From this position, attempt Posture Recovery. This technique is attempted in 37% of exchanges from this position.",
+      "text": "From this position, attempt Posture Recovery. This technique is attempted in 27% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rubber Guard Clear to Pass",
-      "text": "From this position, attempt Rubber Guard Clear to Pass. This technique is attempted in 29% of exchanges from this position.",
+      "text": "From this position, attempt Rubber Guard Clear to Pass. This technique is attempted in 28% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass",
-      "text": "From this position, attempt Stack Pass. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Pressure Pass",
-      "text": "From this position, attempt Pressure Pass. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Pressure Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rubber Guard Top Posture Escape",
-      "text": "From this position, attempt Rubber Guard Top Posture Escape. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Rubber Guard Top Posture Escape. This technique is attempted in 20% of exchanges from this position.",
       "position": 5
     }
   ],

@@ -21,37 +21,37 @@ description: "Offensive guide to mastering Russian Cowboy position. Learn contro
     {
       "@type": "HowToStep",
       "name": "Execute Truck Entry",
-      "text": "From this position, attempt Truck Entry. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Truck Entry. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Twister from Russian Cowboy",
-      "text": "From this position, attempt Twister from Russian Cowboy. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Twister from Russian Cowboy. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Control to Crucifix",
-      "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke from Russian Cowboy",
-      "text": "From this position, attempt Rear Naked Choke from Russian Cowboy. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Rear Naked Choke from Russian Cowboy. This technique is attempted in 18% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Calf Slicer from Russian Cowboy",
-      "text": "From this position, attempt Calf Slicer from Russian Cowboy. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Calf Slicer from Russian Cowboy. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bow and Arrow Choke from Russian Cowboy",
-      "text": "From this position, attempt Bow and Arrow Choke from Russian Cowboy. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Bow and Arrow Choke from Russian Cowboy. This technique is attempted in 0% of exchanges from this position.",
       "position": 6
     }
   ],

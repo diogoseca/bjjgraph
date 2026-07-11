@@ -133,29 +133,29 @@ Lockdown is 10th Planet's revolutionary half guard variation that transforms tra
 ### Available Transitions
 
 
-- **[[Transitions/Whip-up Sweep/Attacker|Whip-up Sweep]]** (26% of attempts)
+- **[[Transitions/Whip-up Sweep/Attacker|Whip-up Sweep]]** (20% of attempts)
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (10% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (12% of attempts)
 
-- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (11% of attempts)
+- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (12% of attempts)
 
-- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (7% of attempts)
+- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (8% of attempts)
 
-- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (7% of attempts)
+- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (8% of attempts)
 
-- **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (9% of attempts)
+- **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (5% of attempts)
 
-- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (8% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (5% of attempts)
 
-- **[[Kimura from Lockdown/Attacker|Kimura from Lockdown]]** (4% of attempts)
+- **[[Kimura from Lockdown/Attacker|Kimura from Lockdown]]** (6% of attempts)
 
-- **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (4% of attempts)
+- **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (11% of attempts)
 
 - **[[Transitions/Lockdown to Vaporizer/Attacker|Lockdown to Vaporizer]]** (3% of attempts)
 
-- **[[Transitions/Half Guard to Old School/Attacker|Half Guard to Old School]]** (6% of attempts)
+- **[[Transitions/Half Guard to Old School/Attacker|Half Guard to Old School]]** (7% of attempts)
 
-- **[[Crotch Ripper from Lockdown/Attacker|Crotch Ripper from Lockdown]]** (5% of attempts)
+- **[[Crotch Ripper from Lockdown/Attacker|Crotch Ripper from Lockdown]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -216,27 +216,27 @@ Lockdown is 10th Planet's revolutionary half guard variation that transforms tra
 ### Available Transitions
 
 
-- **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** (6% of attempts)
+- **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** (8% of attempts)
 
-- **[[Transitions/Knee Slice from Half/Attacker|Knee Slice from Half]]** (9% of attempts)
+- **[[Transitions/Knee Slice from Half/Attacker|Knee Slice from Half]]** (7% of attempts)
 
 - **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (8% of attempts)
 
-- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (8% of attempts)
+- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (7% of attempts)
 
 - **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** (9% of attempts)
 
-- **[[Transitions/Leg Extraction to Combat Base/Attacker|Leg Extraction to Combat Base]]** (27% of attempts)
+- **[[Transitions/Leg Extraction to Combat Base/Attacker|Leg Extraction to Combat Base]]** (14% of attempts)
 
-- **[[Transitions/Lockdown Escape to Half Guard Pass/Attacker|Lockdown Escape to Half Guard Pass]]** (10% of attempts)
+- **[[Transitions/Lockdown Escape to Half Guard Pass/Attacker|Lockdown Escape to Half Guard Pass]]** (12% of attempts)
 
-- **[[Transitions/Lockdown to Z-Lock Half Guard/Attacker|Lockdown to Z-Lock Half Guard]]** (9% of attempts)
+- **[[Transitions/Lockdown to Z-Lock Half Guard/Attacker|Lockdown to Z-Lock Half Guard]]** (3% of attempts)
 
-- **[[Transitions/Lockdown Break and Pass/Attacker|Lockdown Break and Pass]]** (10% of attempts)
+- **[[Transitions/Lockdown Break and Pass/Attacker|Lockdown Break and Pass]]** (15% of attempts)
 
-- **[[Transitions/Darce from Lockdown Counter/Attacker|Darce from Lockdown Counter]]** (3% of attempts)
+- **[[Transitions/Darce from Lockdown Counter/Attacker|Darce from Lockdown Counter]]** (9% of attempts)
 
-- **[[Transitions/Lockdown Whizzer Pass/Attacker|Lockdown Whizzer Pass]]** (1% of attempts)
+- **[[Transitions/Lockdown Whizzer Pass/Attacker|Lockdown Whizzer Pass]]** (8% of attempts)
 
 
 ### Common Mistakes

@@ -21,13 +21,13 @@ description: "Master Lockdown Top defense in BJJ. Strategic guide to countering 
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard Pass",
-      "text": "From this position, attempt Half Guard Pass. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Half Guard Pass. This technique is attempted in 8% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice from Half",
-      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 7% of exchanges from this position.",
       "position": 2
     },
     {
@@ -39,7 +39,7 @@ description: "Master Lockdown Top defense in BJJ. Strategic guide to countering 
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Pass",
-      "text": "From this position, attempt Underhook Pass. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Pass. This technique is attempted in 7% of exchanges from this position.",
       "position": 4
     },
     {
@@ -51,7 +51,7 @@ description: "Master Lockdown Top defense in BJJ. Strategic guide to countering 
     {
       "@type": "HowToStep",
       "name": "Execute Leg Extraction to Combat Base",
-      "text": "From this position, attempt Leg Extraction to Combat Base. This technique is attempted in 27% of exchanges from this position.",
+      "text": "From this position, attempt Leg Extraction to Combat Base. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],

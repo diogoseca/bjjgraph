@@ -279,36 +279,36 @@
       {
         "transition": "Anaconda Choke from Anaconda Control",
         "attempt_probability": {
-          "gi": 50,
-          "nogi": 50
+          "gi": 37,
+          "nogi": 41
         }
       },
       {
         "transition": "Switch to Darce Configuration",
         "attempt_probability": {
-          "gi": 25,
-          "nogi": 25
+          "gi": 15,
+          "nogi": 13
         }
       },
       {
         "transition": "Anaconda to Side Control",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 23,
+          "nogi": 20
         }
       },
       {
         "transition": "Anaconda Control to Dead Orchard Control",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 9,
+          "nogi": 10
         }
       },
       {
         "transition": "Back Take from Anaconda",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 16,
+          "nogi": 16
         }
       }
     ]
@@ -578,50 +578,50 @@
       {
         "transition": "Defensive Roll",
         "attempt_probability": {
-          "gi": 40,
-          "nogi": 40
+          "gi": 12,
+          "nogi": 12
         }
       },
       {
         "transition": "Hip Escape to Guard",
         "attempt_probability": {
-          "gi": 20,
-          "nogi": 20
+          "gi": 14,
+          "nogi": 12
         }
       },
       {
         "transition": "Arm Extraction",
         "attempt_probability": {
-          "gi": 20,
-          "nogi": 20
+          "gi": 18,
+          "nogi": 19
         }
       },
       {
         "transition": "Anaconda Grip Break to Front Headlock",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 16,
+          "nogi": 16
         }
       },
       {
         "transition": "Frame and Posture from Anaconda",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 20,
+          "nogi": 21
         }
       },
       {
         "transition": "Roll Defense from Anaconda",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 12,
+          "nogi": 12
         }
       },
       {
         "transition": "Rolling Escape from Anaconda",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 8,
+          "nogi": 8
         }
       }
     ]

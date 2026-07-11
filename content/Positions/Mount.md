@@ -149,19 +149,19 @@ Understanding Mount from both perspectives is essential for complete grappling d
 ### Available Transitions
 
 
-- **[[Transitions/Elbow Escape from Mount/Attacker|Elbow Escape from Mount]]** (41% of attempts)
+- **[[Transitions/Elbow Escape from Mount/Attacker|Elbow Escape from Mount]]** (26% of attempts)
 
-- **[[Transitions/Upa Escape/Attacker|Upa Escape]]** (26% of attempts)
+- **[[Transitions/Upa Escape/Attacker|Upa Escape]]** (20% of attempts)
 
-- **[[Transitions/Trap and Roll from Mount/Attacker|Trap and Roll from Mount]]** (12% of attempts)
+- **[[Transitions/Trap and Roll from Mount/Attacker|Trap and Roll from Mount]]** (14% of attempts)
 
-- **[[Transitions/Heel Drag Escape/Attacker|Heel Drag Escape]]** (8% of attempts)
+- **[[Transitions/Heel Drag Escape/Attacker|Heel Drag Escape]]** (14% of attempts)
 
-- **[[Transitions/Explosive Bridge to Turtle/Attacker|Explosive Bridge to Turtle]]** (6% of attempts)
+- **[[Transitions/Explosive Bridge to Turtle/Attacker|Explosive Bridge to Turtle]]** (9% of attempts)
 
-- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (5% of attempts)
+- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (10% of attempts)
 
-- **[[Transitions/Mount Escape to Half Guard Back Take/Attacker|Mount Escape to Half Guard Back Take]]** (2% of attempts)
+- **[[Transitions/Mount Escape to Half Guard Back Take/Attacker|Mount Escape to Half Guard Back Take]]** (7% of attempts)
 
 
 ### Common Mistakes
@@ -226,41 +226,41 @@ Understanding Mount from both perspectives is essential for complete grappling d
 ### Available Transitions
 
 
-- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (6% of attempts)
+- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (7% of attempts)
 
-- **[[Cross Collar Choke from Mount/Attacker|Cross Collar Choke from Mount]]** (4% of attempts)
+- **[[Cross Collar Choke from Mount/Attacker|Cross Collar Choke from Mount]]** (0% of attempts)
 
-- **[[Transitions/Gift Wrap to Technical Mount/Attacker|Gift Wrap to Technical Mount]]** (4% of attempts)
+- **[[Transitions/Gift Wrap to Technical Mount/Attacker|Gift Wrap to Technical Mount]]** (9% of attempts)
 
-- **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** (3% of attempts)
+- **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** (6% of attempts)
 
-- **[[Positions/Mount/Mounted Triangle/Attacker|Mounted Triangle]]** (3% of attempts)
+- **[[Positions/Mount/Mounted Triangle/Attacker|Mounted Triangle]]** (4% of attempts)
 
-- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (37% of attempts)
+- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (11% of attempts)
 
-- **[[Transitions/Mount Control/Attacker|Mount Control]]** (3% of attempts)
+- **[[Transitions/Mount Control/Attacker|Mount Control]]** (21% of attempts)
 
-- **[[Transitions/Mount to 3-4 Mount/Attacker|Mount to 3-4 Mount]]** (3% of attempts)
+- **[[Transitions/Mount to 3-4 Mount/Attacker|Mount to 3-4 Mount]]** (4% of attempts)
 
-- **[[Transitions/Mount to Knee on Belly/Attacker|Mount to Knee on Belly]]** (3% of attempts)
+- **[[Transitions/Mount to Knee on Belly/Attacker|Mount to Knee on Belly]]** (2% of attempts)
 
-- **[[Transitions/Mount to Technical Mount/Attacker|Mount to Technical Mount]]** (3% of attempts)
+- **[[Transitions/Mount to Technical Mount/Attacker|Mount to Technical Mount]]** (10% of attempts)
 
-- **[[Americana from Mount/Attacker|Americana from Mount]]** (6% of attempts)
+- **[[Americana from Mount/Attacker|Americana from Mount]]** (8% of attempts)
 
-- **[[Ezekiel Choke from Mount/Attacker|Ezekiel Choke from Mount]]** (4% of attempts)
+- **[[Ezekiel Choke from Mount/Attacker|Ezekiel Choke from Mount]]** (2% of attempts)
 
-- **[[Kimura from Mount/Attacker|Kimura from Mount]]** (2% of attempts)
+- **[[Kimura from Mount/Attacker|Kimura from Mount]]** (3% of attempts)
 
-- **[[Loop Choke from Mount/Attacker|Loop Choke from Mount]]** (4% of attempts)
+- **[[Loop Choke from Mount/Attacker|Loop Choke from Mount]]** (0% of attempts)
 
-- **[[Monoplata from Mount/Attacker|Monoplata from Mount]]** (2% of attempts)
+- **[[Monoplata from Mount/Attacker|Monoplata from Mount]]** (1% of attempts)
 
-- **[[Submissions/Armbar/Reverse Armbar from Mount/Attacker|Reverse Armbar from Mount]]** (2% of attempts)
+- **[[Submissions/Armbar/Reverse Armbar from Mount/Attacker|Reverse Armbar from Mount]]** (1% of attempts)
 
-- **[[Armbar from Mount/Attacker|Armbar from Mount]]** (6% of attempts)
+- **[[Armbar from Mount/Attacker|Armbar from Mount]]** (8% of attempts)
 
-- **[[Transitions/Mount to Modified Mount/Attacker|Mount to Modified Mount]]** (5% of attempts)
+- **[[Transitions/Mount to Modified Mount/Attacker|Mount to Modified Mount]]** (3% of attempts)
 
 
 ### Common Mistakes

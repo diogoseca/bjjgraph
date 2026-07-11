@@ -141,13 +141,13 @@ This position represents a fundamental evolution in guard passing theory, moving
 ### Available Transitions
 
 
-- **[[Transitions/Re-Guard from Headquarters/Attacker|Re-Guard from Headquarters]]** (30% of attempts)
+- **[[Transitions/Re-Guard from Headquarters/Attacker|Re-Guard from Headquarters]]** (39% of attempts)
 
-- **[[Transitions/Sweep from Headquarters/Attacker|Sweep from Headquarters]]** (25% of attempts)
+- **[[Transitions/Sweep from Headquarters/Attacker|Sweep from Headquarters]]** (18% of attempts)
 
-- **[[Transitions/Inversion from Headquarters/Attacker|Inversion from Headquarters]]** (25% of attempts)
+- **[[Transitions/Inversion from Headquarters/Attacker|Inversion from Headquarters]]** (19% of attempts)
 
-- **[[Transitions/Shin-to-Shin from Headquarters/Attacker|Shin-to-Shin from Headquarters]]** (20% of attempts)
+- **[[Transitions/Shin-to-Shin from Headquarters/Attacker|Shin-to-Shin from Headquarters]]** (24% of attempts)
 
 
 ### Common Mistakes
@@ -208,19 +208,19 @@ This position represents a fundamental evolution in guard passing theory, moving
 ### Available Transitions
 
 
-- **[[Transitions/Knee Cut from Headquarters/Attacker|Knee Cut from Headquarters]]** (28% of attempts)
+- **[[Transitions/Knee Cut from Headquarters/Attacker|Knee Cut from Headquarters]]** (22% of attempts)
 
-- **[[Transitions/Toreando from Headquarters/Attacker|Toreando from Headquarters]]** (18% of attempts)
+- **[[Transitions/Toreando from Headquarters/Attacker|Toreando from Headquarters]]** (14% of attempts)
 
-- **[[Transitions/Leg Drag from Headquarters/Attacker|Leg Drag from Headquarters]]** (17% of attempts)
+- **[[Transitions/Leg Drag from Headquarters/Attacker|Leg Drag from Headquarters]]** (18% of attempts)
 
-- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (12% of attempts)
+- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (9% of attempts)
 
-- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (10% of attempts)
+- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (12% of attempts)
 
-- **[[Transitions/Headquarters Pass/Attacker|Headquarters Pass]]** (10% of attempts)
+- **[[Transitions/Headquarters Pass/Attacker|Headquarters Pass]]** (12% of attempts)
 
-- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (5% of attempts)
+- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (13% of attempts)
 
 
 ### Common Mistakes

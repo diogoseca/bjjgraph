@@ -145,23 +145,23 @@ Competition applicability is high, particularly in gi competitions where the pos
 ### Available Transitions
 
 
-- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (18% of attempts)
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (15% of attempts)
 
-- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (8% of attempts)
+- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (9% of attempts)
 
-- **[[Transitions/Roll to Turtle/Attacker|Roll to Turtle]]** (20% of attempts)
+- **[[Transitions/Roll to Turtle/Attacker|Roll to Turtle]]** (12% of attempts)
 
-- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (22% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (14% of attempts)
 
-- **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** (16% of attempts)
+- **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** (12% of attempts)
 
-- **[[Transitions/Ghost Escape from Side Control/Attacker|Ghost Escape from Side Control]]** (5% of attempts)
+- **[[Transitions/Ghost Escape from Side Control/Attacker|Ghost Escape from Side Control]]** (12% of attempts)
 
-- **[[Transitions/Bridge Escape from Modified Scarf Hold/Attacker|Bridge Escape from Modified Scarf Hold]]** (4% of attempts)
+- **[[Transitions/Bridge Escape from Modified Scarf Hold/Attacker|Bridge Escape from Modified Scarf Hold]]** (9% of attempts)
 
-- **[[Transitions/Bridge from Modified Scarf Hold/Attacker|Bridge from Modified Scarf Hold]]** (3% of attempts)
+- **[[Transitions/Bridge from Modified Scarf Hold/Attacker|Bridge from Modified Scarf Hold]]** (6% of attempts)
 
-- **[[Transitions/Escape Modified Scarf Hold/Attacker|Escape Modified Scarf Hold]]** (4% of attempts)
+- **[[Transitions/Escape Modified Scarf Hold/Attacker|Escape Modified Scarf Hold]]** (11% of attempts)
 
 
 ### Common Mistakes
@@ -220,23 +220,23 @@ Competition applicability is high, particularly in gi competitions where the pos
 
 - **[[Americana from Modified Scarf Hold/Attacker|Americana from Modified Scarf Hold]]** (13% of attempts)
 
-- **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (13% of attempts)
+- **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (8% of attempts)
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (20% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (12% of attempts)
 
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (12% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (10% of attempts)
 
-- **[[North-South Choke from Modified Scarf Hold/Attacker|North-South Choke from Modified Scarf Hold]]** (9% of attempts)
+- **[[North-South Choke from Modified Scarf Hold/Attacker|North-South Choke from Modified Scarf Hold]]** (8% of attempts)
 
-- **[[Arm Triangle from Modified Scarf Hold/Attacker|Arm Triangle from Modified Scarf Hold]]** (9% of attempts)
+- **[[Arm Triangle from Modified Scarf Hold/Attacker|Arm Triangle from Modified Scarf Hold]]** (11% of attempts)
 
-- **[[Transitions/Modified Scarf to Kesa Gatame/Attacker|Modified Scarf to Kesa Gatame]]** (4% of attempts)
+- **[[Transitions/Modified Scarf to Kesa Gatame/Attacker|Modified Scarf to Kesa Gatame]]** (8% of attempts)
 
-- **[[Transitions/Modified Scarf to Mount/Attacker|Modified Scarf to Mount]]** (2% of attempts)
+- **[[Transitions/Modified Scarf to Mount/Attacker|Modified Scarf to Mount]]** (10% of attempts)
 
-- **[[Kimura from Modified Scarf Hold/Attacker|Kimura from Modified Scarf Hold]]** (14% of attempts)
+- **[[Kimura from Modified Scarf Hold/Attacker|Kimura from Modified Scarf Hold]]** (15% of attempts)
 
-- **[[Belly Down Armbar from Modified Scarf Hold/Attacker|Belly Down Armbar from Modified Scarf Hold]]** (4% of attempts)
+- **[[Belly Down Armbar from Modified Scarf Hold/Attacker|Belly Down Armbar from Modified Scarf Hold]]** (5% of attempts)
 
 
 ### Common Mistakes

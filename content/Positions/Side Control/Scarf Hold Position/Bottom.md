@@ -21,7 +21,7 @@ description: "Escape Scarf Hold Bottom (Kesa Gatame) in BJJ. Defensive position 
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
@@ -33,7 +33,7 @@ description: "Escape Scarf Hold Bottom (Kesa Gatame) in BJJ. Defensive position 
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
@@ -51,7 +51,7 @@ description: "Escape Scarf Hold Bottom (Kesa Gatame) in BJJ. Defensive position 
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction to Turtle",
-      "text": "From this position, attempt Arm Extraction to Turtle. This technique is attempted in 31% of exchanges from this position.",
+      "text": "From this position, attempt Arm Extraction to Turtle. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],

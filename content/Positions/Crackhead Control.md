@@ -139,13 +139,13 @@ The name itself reflects the frenetic, unpredictable energy characteristic of th
 ### Available Transitions
 
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (22% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (24% of attempts)
 
-- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (16% of attempts)
+- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (23% of attempts)
 
-- **[[Transitions/Sit Through Escape/Attacker|Sit Through Escape]]** (30% of attempts)
+- **[[Transitions/Sit Through Escape/Attacker|Sit Through Escape]]** (22% of attempts)
 
-- **[[Transitions/Peterson Roll/Attacker|Peterson Roll]]** (16% of attempts)
+- **[[Transitions/Peterson Roll/Attacker|Peterson Roll]]** (15% of attempts)
 
 - **[[Transitions/Posture Recovery to Closed Guard/Attacker|Posture Recovery to Closed Guard]]** (16% of attempts)
 
@@ -208,25 +208,25 @@ The name itself reflects the frenetic, unpredictable energy characteristic of th
 ### Available Transitions
 
 
-- **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** (12% of attempts)
+- **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** (13% of attempts)
 
 - **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (10% of attempts)
 
-- **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (10% of attempts)
+- **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (14% of attempts)
 
-- **[[Transitions/Anaconda from Turtle/Attacker|Anaconda from Turtle]]** (8% of attempts)
+- **[[Transitions/Anaconda from Turtle/Attacker|Anaconda from Turtle]]** (9% of attempts)
 
 - **[[Transitions/Darce from Turtle/Attacker|Darce from Turtle]]** (8% of attempts)
 
-- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (10% of attempts)
+- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (11% of attempts)
 
-- **[[Transitions/Guillotine from Turtle/Attacker|Guillotine from Turtle]]** (6% of attempts)
+- **[[Transitions/Guillotine from Turtle/Attacker|Guillotine from Turtle]]** (7% of attempts)
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (22% of attempts)
+- **[[Transitions/Back Take/Attacker|Back Take]]** (19% of attempts)
 
-- **[[Transitions/Arm Extraction and Pass/Attacker|Arm Extraction and Pass]]** (8% of attempts)
+- **[[Transitions/Arm Extraction and Pass/Attacker|Arm Extraction and Pass]]** (5% of attempts)
 
-- **[[Transitions/Double Underhook Pass/Attacker|Double Underhook Pass]]** (6% of attempts)
+- **[[Transitions/Double Underhook Pass/Attacker|Double Underhook Pass]]** (4% of attempts)
 
 
 ### Common Mistakes

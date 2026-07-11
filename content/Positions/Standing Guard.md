@@ -137,23 +137,23 @@ Modern BJJ competition has elevated the importance of Standing Guard mastery, as
 ### Available Transitions
 
 
-- **[[Transitions/Pull Guard from Ground/Attacker|Pull Guard from Ground]]** (45% of attempts)
+- **[[Transitions/Pull Guard from Ground/Attacker|Pull Guard from Ground]]** (12% of attempts)
 
-- **[[Transitions/Sitting Guard Pull/Attacker|Sitting Guard Pull]]** (13% of attempts)
+- **[[Transitions/Sitting Guard Pull/Attacker|Sitting Guard Pull]]** (12% of attempts)
 
-- **[[Transitions/Ankle Pick/Attacker|Ankle Pick]]** (9% of attempts)
+- **[[Transitions/Ankle Pick/Attacker|Ankle Pick]]** (12% of attempts)
 
-- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (8% of attempts)
+- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (12% of attempts)
 
 - **[[Transitions/Rolling Guard Pull/Attacker|Rolling Guard Pull]]** (5% of attempts)
 
-- **[[Transitions/Double Leg Entry/Attacker|Double Leg Entry]]** (8% of attempts)
+- **[[Transitions/Double Leg Entry/Attacker|Double Leg Entry]]** (12% of attempts)
 
-- **[[Transitions/Single Leg Entry/Attacker|Single Leg Entry]]** (6% of attempts)
+- **[[Transitions/Single Leg Entry/Attacker|Single Leg Entry]]** (13% of attempts)
 
-- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (5% of attempts)
+- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (11% of attempts)
 
-- **[[Transitions/Sweep from Standing Guard/Attacker|Sweep from Standing Guard]]** (1% of attempts)
+- **[[Transitions/Sweep from Standing Guard/Attacker|Sweep from Standing Guard]]** (11% of attempts)
 
 
 ### Common Mistakes
@@ -218,25 +218,25 @@ Modern BJJ competition has elevated the importance of Standing Guard mastery, as
 ### Available Transitions
 
 
-- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (22% of attempts)
+- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (17% of attempts)
 
-- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (11% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (15% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (11% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (14% of attempts)
 
-- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (10% of attempts)
+- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (9% of attempts)
 
-- **[[Transitions/X Pass/Attacker|X Pass]]** (11% of attempts)
+- **[[Transitions/X Pass/Attacker|X Pass]]** (9% of attempts)
 
-- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (12% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (7% of attempts)
 
 - **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (9% of attempts)
 
-- **[[Transitions/Back Step/Attacker|Back Step]]** (8% of attempts)
+- **[[Transitions/Back Step/Attacker|Back Step]]** (6% of attempts)
 
-- **[[Transitions/Guard Pass from Standing Guard/Attacker|Guard Pass from Standing Guard]]** (4% of attempts)
+- **[[Transitions/Guard Pass from Standing Guard/Attacker|Guard Pass from Standing Guard]]** (8% of attempts)
 
-- **[[Transitions/Takedown from Standing Guard/Attacker|Takedown from Standing Guard]]** (2% of attempts)
+- **[[Transitions/Takedown from Standing Guard/Attacker|Takedown from Standing Guard]]** (6% of attempts)
 
 
 ### Common Mistakes

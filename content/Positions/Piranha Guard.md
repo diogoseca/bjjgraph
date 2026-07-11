@@ -137,25 +137,25 @@ While technically demanding and primarily applicable in gi competition, Piranha 
 ### Available Transitions
 
 
-- **[[Transitions/Pendulum Sweep/Attacker|Pendulum Sweep]]** (21% of attempts)
+- **[[Transitions/Pendulum Sweep/Attacker|Pendulum Sweep]]** (11% of attempts)
 
-- **[[Transitions/Collar Drag from Open Guard/Attacker|Collar Drag from Open Guard]]** (10% of attempts)
+- **[[Transitions/Collar Drag from Open Guard/Attacker|Collar Drag from Open Guard]]** (0% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (10% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (23% of attempts)
 
-- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (10% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (13% of attempts)
 
-- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (10% of attempts)
+- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (12% of attempts)
 
-- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (10% of attempts)
+- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (5% of attempts)
 
-- **[[Transitions/Flower Sweep/Attacker|Flower Sweep]]** (11% of attempts)
+- **[[Transitions/Flower Sweep/Attacker|Flower Sweep]]** (7% of attempts)
 
-- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (10% of attempts)
+- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (29% of attempts)
 
-- **[[Transitions/Piranha Guard Sweep/Attacker|Piranha Guard Sweep]]** (5% of attempts)
+- **[[Transitions/Piranha Guard Sweep/Attacker|Piranha Guard Sweep]]** (0% of attempts)
 
-- **[[Transitions/Piranha to Worm Guard/Attacker|Piranha to Worm Guard]]** (3% of attempts)
+- **[[Transitions/Piranha to Worm Guard/Attacker|Piranha to Worm Guard]]** (0% of attempts)
 
 
 ### Common Mistakes
@@ -220,23 +220,23 @@ While technically demanding and primarily applicable in gi competition, Piranha 
 ### Available Transitions
 
 
-- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (20% of attempts)
+- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (16% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (13% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (17% of attempts)
 
 - **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (11% of attempts)
 
-- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (10% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (7% of attempts)
 
-- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (13% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (15% of attempts)
 
-- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (14% of attempts)
+- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (11% of attempts)
 
-- **[[Transitions/X Pass/Attacker|X Pass]]** (11% of attempts)
+- **[[Transitions/X Pass/Attacker|X Pass]]** (9% of attempts)
 
-- **[[Transitions/Pass Piranha Guard/Attacker|Pass Piranha Guard]]** (5% of attempts)
+- **[[Transitions/Pass Piranha Guard/Attacker|Pass Piranha Guard]]** (14% of attempts)
 
-- **[[Transitions/Strip Lapel from Piranha/Attacker|Strip Lapel from Piranha]]** (3% of attempts)
+- **[[Transitions/Strip Lapel from Piranha/Attacker|Strip Lapel from Piranha]]** (0% of attempts)
 
 
 ### Common Mistakes

@@ -264,50 +264,50 @@
       {
         "transition": "Guillotine Choke from Hindulotine",
         "attempt_probability": {
-          "gi": 42,
-          "nogi": 42
+          "gi": 18,
+          "nogi": 25
         }
       },
       {
         "transition": "Back Take from Top",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 17
+          "gi": 15,
+          "nogi": 14
         }
       },
       {
         "transition": "Front Headlock to Back",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 14,
+          "nogi": 14
         }
       },
       {
         "transition": "Snap Down to Front Headlock",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 11,
+          "nogi": 10
         }
       },
       {
         "transition": "Hindulotine from Hindulotine",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 21,
+          "nogi": 17
         }
       },
       {
         "transition": "Finish from Hindulotine",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 12,
+          "nogi": 11
         }
       },
       {
         "transition": "Arm Triangle from Hindulotine",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 9
         }
       }
     ],
@@ -548,71 +548,71 @@
       {
         "transition": "Guillotine Choke from Hindulotine",
         "attempt_probability": {
-          "gi": 30,
-          "nogi": 30
+          "gi": 21,
+          "nogi": 24
         }
       },
       {
         "transition": "Hindulotine to Darce Choke",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Hindulotine to Anaconda Choke",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 4,
+          "nogi": 5
         }
       },
       {
         "transition": "Back Take from Bottom",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 8,
+          "nogi": 7
         }
       },
       {
         "transition": "High Elbow Guillotine Variation",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 14,
+          "nogi": 13
         }
       },
       {
         "transition": "Butterfly Sweep with Guillotine",
         "attempt_probability": {
-          "gi": 19,
-          "nogi": 19
+          "gi": 14,
+          "nogi": 14
         }
       },
       {
         "transition": "Guard Recovery from Hindulotine",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 11,
+          "nogi": 9
         }
       },
       {
         "transition": "Arm Triangle Transition",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 4,
+          "nogi": 4
         }
       },
       {
         "transition": "Sweep to Mount",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 7,
+          "nogi": 6
         }
       },
       {
         "transition": "High Elbow Guillotine from Hindulotine",
         "attempt_probability": {
           "gi": 7,
-          "nogi": 7
+          "nogi": 8
         }
       }
     ],

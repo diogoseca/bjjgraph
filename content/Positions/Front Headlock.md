@@ -143,23 +143,23 @@ Understanding the front headlock requires recognizing its role as a transitional
 ### Available Transitions
 
 
-- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (19% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (16% of attempts)
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (11% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (9% of attempts)
 
-- **[[Transitions/Turtle to Guard/Attacker|Turtle to Guard]]** (13% of attempts)
+- **[[Transitions/Turtle to Guard/Attacker|Turtle to Guard]]** (11% of attempts)
 
-- **[[Transitions/Stand and Circle Away/Attacker|Stand and Circle Away]]** (15% of attempts)
+- **[[Transitions/Stand and Circle Away/Attacker|Stand and Circle Away]]** (11% of attempts)
 
-- **[[Transitions/Roll Through to Reversal/Attacker|Roll Through to Reversal]]** (13% of attempts)
+- **[[Transitions/Roll Through to Reversal/Attacker|Roll Through to Reversal]]** (7% of attempts)
 
-- **[[Transitions/Arm Drag Escape/Attacker|Arm Drag Escape]]** (9% of attempts)
+- **[[Transitions/Arm Drag Escape/Attacker|Arm Drag Escape]]** (13% of attempts)
 
-- **[[Transitions/Guillotine Defense/Attacker|Guillotine Defense]]** (9% of attempts)
+- **[[Transitions/Guillotine Defense/Attacker|Guillotine Defense]]** (17% of attempts)
 
-- **[[Transitions/Sit Through to Guard/Attacker|Sit Through to Guard]]** (7% of attempts)
+- **[[Transitions/Sit Through to Guard/Attacker|Sit Through to Guard]]** (10% of attempts)
 
-- **[[Transitions/Hip Escape from Front Headlock/Attacker|Hip Escape from Front Headlock]]** (4% of attempts)
+- **[[Transitions/Hip Escape from Front Headlock/Attacker|Hip Escape from Front Headlock]]** (6% of attempts)
 
 
 ### Common Mistakes
@@ -220,45 +220,45 @@ Understanding the front headlock requires recognizing its role as a transitional
 ### Available Transitions
 
 
-- **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** (5% of attempts)
+- **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** (9% of attempts)
 
-- **[[Transitions/Front Headlock to Guillotine/Attacker|Front Headlock to Guillotine]]** (6% of attempts)
+- **[[Transitions/Front Headlock to Guillotine/Attacker|Front Headlock to Guillotine]]** (12% of attempts)
 
-- **[[Transitions/Anaconda Setup/Attacker|Anaconda Setup]]** (10% of attempts)
+- **[[Transitions/Anaconda Setup/Attacker|Anaconda Setup]]** (9% of attempts)
 
 - **[[Transitions/Darce Setup/Attacker|Darce Setup]]** (10% of attempts)
 
-- **[[Transitions/Front Headlock to Back/Attacker|Front Headlock to Back]]** (10% of attempts)
+- **[[Transitions/Front Headlock to Back/Attacker|Front Headlock to Back]]** (14% of attempts)
 
-- **[[Transitions/Arm Triangle from Front Headlock/Attacker|Arm Triangle from Front Headlock]]** (5% of attempts)
+- **[[Transitions/Arm Triangle from Front Headlock/Attacker|Arm Triangle from Front Headlock]]** (2% of attempts)
 
-- **[[Transitions/Japanese Necktie Setup/Attacker|Japanese Necktie Setup]]** (6% of attempts)
+- **[[Transitions/Japanese Necktie Setup/Attacker|Japanese Necktie Setup]]** (3% of attempts)
 
-- **[[Transitions/Peruvian Necktie Setup/Attacker|Peruvian Necktie Setup]]** (6% of attempts)
+- **[[Transitions/Peruvian Necktie Setup/Attacker|Peruvian Necktie Setup]]** (4% of attempts)
 
-- **[[Transitions/Step Over to Mount/Attacker|Step Over to Mount]]** (4% of attempts)
+- **[[Transitions/Step Over to Mount/Attacker|Step Over to Mount]]** (2% of attempts)
 
-- **[[Transitions/Turtle Flatten to Side Control/Attacker|Turtle Flatten to Side Control]]** (6% of attempts)
+- **[[Transitions/Turtle Flatten to Side Control/Attacker|Turtle Flatten to Side Control]]** (5% of attempts)
 
-- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (4% of attempts)
+- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (7% of attempts)
 
-- **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (4% of attempts)
+- **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (2% of attempts)
 
-- **[[Kimura from Front Headlock/Attacker|Kimura from Front Headlock]]** (4% of attempts)
+- **[[Kimura from Front Headlock/Attacker|Kimura from Front Headlock]]** (2% of attempts)
 
 - **[[Peruvian Necktie from Front Headlock/Attacker|Peruvian Necktie from Front Headlock]]** (2% of attempts)
 
-- **[[Arm in Guillotine from Front Headlock/Attacker|Arm in Guillotine from Front Headlock]]** (2% of attempts)
+- **[[Arm in Guillotine from Front Headlock/Attacker|Arm in Guillotine from Front Headlock]]** (5% of attempts)
 
-- **[[High Elbow Guillotine from Front Headlock/Attacker|High Elbow Guillotine from Front Headlock]]** (2% of attempts)
+- **[[High Elbow Guillotine from Front Headlock/Attacker|High Elbow Guillotine from Front Headlock]]** (5% of attempts)
 
 - **[[Ten Finger Guillotine from Front Headlock/Attacker|Ten Finger Guillotine from Front Headlock]]** (2% of attempts)
 
-- **[[Brabo Choke from Front Headlock/Attacker|Brabo Choke from Front Headlock]]** (4% of attempts)
+- **[[Brabo Choke from Front Headlock/Attacker|Brabo Choke from Front Headlock]]** (1% of attempts)
 
-- **[[Chin Strap Guillotine from Front Headlock/Attacker|Chin Strap Guillotine from Front Headlock]]** (4% of attempts)
+- **[[Chin Strap Guillotine from Front Headlock/Attacker|Chin Strap Guillotine from Front Headlock]]** (2% of attempts)
 
-- **[[Japanese Necktie from Front Headlock/Attacker|Japanese Necktie from Front Headlock]]** (4% of attempts)
+- **[[Japanese Necktie from Front Headlock/Attacker|Japanese Necktie from Front Headlock]]** (2% of attempts)
 
 
 ### Common Mistakes

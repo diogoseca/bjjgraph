@@ -21,37 +21,37 @@ description: "Master Crab Ride Top attacks in BJJ. Complete guide covering back 
     {
       "@type": "HowToStep",
       "name": "Execute Crab Ride to Back",
-      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 40% of exchanges from this position.",
+      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 27% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Darce from Turtle",
-      "text": "From this position, attempt Darce from Turtle. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Darce from Turtle. This technique is attempted in 8% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Anaconda from Turtle",
-      "text": "From this position, attempt Anaconda from Turtle. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Anaconda from Turtle. This technique is attempted in 4% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guillotine from Turtle",
-      "text": "From this position, attempt Guillotine from Turtle. This technique is attempted in 3% of exchanges from this position.",
+      "text": "From this position, attempt Guillotine from Turtle. This technique is attempted in 5% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Truck Entry",
-      "text": "From this position, attempt Truck Entry. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Truck Entry. This technique is attempted in 16% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crucifix from Turtle",
-      "text": "From this position, attempt Crucifix from Turtle. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Crucifix from Turtle. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],

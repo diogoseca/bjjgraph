@@ -295,71 +295,71 @@
       {
         "transition": "Mount to Armbar",
         "attempt_probability": {
-          "gi": 32,
-          "nogi": 32
+          "gi": 15,
+          "nogi": 14
         }
       },
       {
         "transition": "Triangle from Mount",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 7,
+          "nogi": 7
         }
       },
       {
         "transition": "Americana from S Mount",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 4,
+          "nogi": 3
         }
       },
       {
         "transition": "Kimura from S Mount",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 5,
+          "nogi": 5
         }
       },
       {
         "transition": "Back Take",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 7,
+          "nogi": 8
         }
       },
       {
         "transition": "Mounted Crucifix Entry",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 4,
+          "nogi": 5
         }
       },
       {
         "transition": "Gift Wrap to Back",
         "attempt_probability": {
-          "gi": 11,
+          "gi": 10,
           "nogi": 11
         }
       },
       {
         "transition": "S Mount Armbar Setup",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 20,
+          "nogi": 19
         }
       },
       {
         "transition": "S Mount to Mounted Triangle",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 9,
+          "nogi": 10
         }
       },
       {
         "transition": "Armbar from S Mount",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 19,
+          "nogi": 18
         }
       }
     ],
@@ -622,29 +622,29 @@
       {
         "transition": "Trap and Roll from S Mount",
         "attempt_probability": {
-          "gi": 30,
-          "nogi": 30
+          "gi": 23,
+          "nogi": 24
         }
       },
       {
         "transition": "Frame and Shrimp from S Mount",
         "attempt_probability": {
-          "gi": 28,
-          "nogi": 28
+          "gi": 33,
+          "nogi": 32
         }
       },
       {
         "transition": "Bridge Escape from S Mount",
         "attempt_probability": {
-          "gi": 25,
-          "nogi": 25
+          "gi": 22,
+          "nogi": 22
         }
       },
       {
         "transition": "Bridge and Roll",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 17
+          "gi": 22,
+          "nogi": 22
         }
       }
     ],

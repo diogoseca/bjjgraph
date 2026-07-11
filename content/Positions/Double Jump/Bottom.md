@@ -21,7 +21,7 @@ description: "Master Double Jump Bottom position in BJJ. Dynamic entry to deep h
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 48% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
@@ -39,19 +39,19 @@ description: "Master Double Jump Bottom position in BJJ. Dynamic entry to deep h
     {
       "@type": "HowToStep",
       "name": "Execute 100% Sweep",
-      "text": "From this position, attempt 100% Sweep. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt 100% Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard to Back Take",
-      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Electric Chair Transition",
-      "text": "From this position, attempt Electric Chair Transition. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Electric Chair Transition. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],

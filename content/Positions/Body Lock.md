@@ -137,23 +137,23 @@ The position is inherently transitional and requires immediate attack execution.
 ### Available Transitions
 
 
-- **[[Transitions/Grip Break/Attacker|Grip Break]]** (42% of attempts)
+- **[[Transitions/Grip Break/Attacker|Grip Break]]** (17% of attempts)
 
-- **[[Transitions/Sitting Guard Pull/Attacker|Sitting Guard Pull]]** (20% of attempts)
+- **[[Transitions/Sitting Guard Pull/Attacker|Sitting Guard Pull]]** (15% of attempts)
 
-- **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** (13% of attempts)
+- **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** (9% of attempts)
 
-- **[[Transitions/Whizzer/Attacker|Whizzer]]** (8% of attempts)
+- **[[Transitions/Whizzer/Attacker|Whizzer]]** (9% of attempts)
 
-- **[[Transitions/Turn In and Face/Attacker|Turn In and Face]]** (8% of attempts)
+- **[[Transitions/Turn In and Face/Attacker|Turn In and Face]]** (14% of attempts)
 
-- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (5% of attempts)
+- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (8% of attempts)
 
-- **[[Transitions/Escape Body Lock/Attacker|Escape Body Lock]]** (2% of attempts)
+- **[[Transitions/Escape Body Lock/Attacker|Escape Body Lock]]** (10% of attempts)
 
-- **[[Transitions/Pummeling Escape from Body Lock/Attacker|Pummeling Escape from Body Lock]]** (1% of attempts)
+- **[[Transitions/Pummeling Escape from Body Lock/Attacker|Pummeling Escape from Body Lock]]** (12% of attempts)
 
-- **[[Transitions/Reversal from Body Lock/Attacker|Reversal from Body Lock]]** (1% of attempts)
+- **[[Transitions/Reversal from Body Lock/Attacker|Reversal from Body Lock]]** (6% of attempts)
 
 
 ### Common Mistakes
@@ -210,25 +210,25 @@ The position is inherently transitional and requires immediate attack execution.
 ### Available Transitions
 
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (14% of attempts)
+- **[[Transitions/Back Take/Attacker|Back Take]]** (18% of attempts)
 
 - **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (8% of attempts)
 
-- **[[Transitions/Tani Otoshi/Attacker|Tani Otoshi]]** (10% of attempts)
+- **[[Transitions/Tani Otoshi/Attacker|Tani Otoshi]]** (9% of attempts)
 
-- **[[Transitions/Kosoto Gake/Attacker|Kosoto Gake]]** (8% of attempts)
+- **[[Transitions/Kosoto Gake/Attacker|Kosoto Gake]]** (11% of attempts)
 
-- **[[Transitions/Mat Return to Back Mount/Attacker|Mat Return to Back Mount]]** (40% of attempts)
+- **[[Transitions/Mat Return to Back Mount/Attacker|Mat Return to Back Mount]]** (12% of attempts)
 
-- **[[Transitions/Harai Goshi/Attacker|Harai Goshi]]** (5% of attempts)
+- **[[Transitions/Harai Goshi/Attacker|Harai Goshi]]** (3% of attempts)
 
-- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (10% of attempts)
+- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (14% of attempts)
 
-- **[[Transitions/Double Leg Finish/Attacker|Double Leg Finish]]** (3% of attempts)
+- **[[Transitions/Double Leg Finish/Attacker|Double Leg Finish]]** (5% of attempts)
 
-- **[[Transitions/Body Lock Takedown/Attacker|Body Lock Takedown]]** (1% of attempts)
+- **[[Transitions/Body Lock Takedown/Attacker|Body Lock Takedown]]** (14% of attempts)
 
-- **[[Transitions/Body Lock to Standing/Attacker|Body Lock to Standing]]** (1% of attempts)
+- **[[Transitions/Body Lock to Standing/Attacker|Body Lock to Standing]]** (6% of attempts)
 
 
 ### Common Mistakes

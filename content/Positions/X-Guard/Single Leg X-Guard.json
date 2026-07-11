@@ -268,50 +268,50 @@
       {
         "transition": "Headquarters Pass",
         "attempt_probability": {
-          "gi": 19,
-          "nogi": 19
+          "gi": 12,
+          "nogi": 11
         }
       },
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 18
+          "gi": 14,
+          "nogi": 12
         }
       },
       {
         "transition": "Leg Weave Pass",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 16
+          "gi": 10,
+          "nogi": 7
         }
       },
       {
         "transition": "Smash Pass",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 10,
+          "nogi": 8
         }
       },
       {
         "transition": "Kneebar from Single Leg X-Guard",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 4,
+          "nogi": 7
         }
       },
       {
         "transition": "Backstep from Single Leg X",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 21,
+          "nogi": 24
         }
       },
       {
         "transition": "Standing Escape from SLX",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 29,
+          "nogi": 31
         }
       }
     ],
@@ -600,85 +600,85 @@
       {
         "transition": "Single Leg X Sweep",
         "attempt_probability": {
-          "gi": 21,
-          "nogi": 21
+          "gi": 26,
+          "nogi": 20
         }
       },
       {
         "transition": "Single Leg X Entry",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 11,
+          "nogi": 9
         }
       },
       {
         "transition": "Technical Stand Up to Single Leg",
         "attempt_probability": {
           "gi": 10,
-          "nogi": 10
+          "nogi": 12
         }
       },
       {
         "transition": "Butterfly Guard to X-Guard",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 3,
+          "nogi": 2
         }
       },
       {
         "transition": "De La Riva to X-Guard Transition",
         "attempt_probability": {
           "gi": 3,
-          "nogi": 3
+          "nogi": 1
         }
       },
       {
         "transition": "Ankle Pick Sweep",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 8,
+          "nogi": 6
         }
       },
       {
         "transition": "Inside Ashi Entry",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 5,
+          "nogi": 12
         }
       },
       {
         "transition": "Heel Grab Sweep",
         "attempt_probability": {
           "gi": 9,
-          "nogi": 9
+          "nogi": 8
         }
       },
       {
         "transition": "SLX to Ashi Garami",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 7,
+          "nogi": 11
         }
       },
       {
         "transition": "SLX to X-Guard",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 12,
+          "nogi": 8
         }
       },
       {
         "transition": "Single Leg X-Guard to Inside Sankaku",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 2,
+          "nogi": 8
         }
       },
       {
         "transition": "Single Leg X to Estima Lock",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 4,
+          "nogi": 3
         }
       }
     ],

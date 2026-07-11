@@ -27,25 +27,25 @@ description: "Master finishing the triangle from the attacking guard position in
     {
       "@type": "HowToStep",
       "name": "Execute Triangle to Armbar",
-      "text": "From this position, attempt Triangle to Armbar. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Triangle to Armbar. This technique is attempted in 22% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle to Omoplata",
-      "text": "From this position, attempt Triangle to Omoplata. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Triangle to Omoplata. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle to Back",
-      "text": "From this position, attempt Triangle to Back. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Triangle to Back. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Inverted Triangle",
-      "text": "From this position, attempt Inverted Triangle. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Inverted Triangle. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     }
   ],

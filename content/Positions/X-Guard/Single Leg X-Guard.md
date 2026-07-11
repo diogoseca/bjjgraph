@@ -133,29 +133,29 @@ Within the modern leg-entanglement game, Single Leg X-Guard (SLX) has become a c
 ### Available Transitions
 
 
-- **[[Transitions/Single Leg X Sweep/Attacker|Single Leg X Sweep]]** (21% of attempts)
+- **[[Transitions/Single Leg X Sweep/Attacker|Single Leg X Sweep]]** (20% of attempts)
 
-- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (3% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (9% of attempts)
 
-- **[[Transitions/Technical Stand Up to Single Leg/Attacker|Technical Stand Up to Single Leg]]** (10% of attempts)
+- **[[Transitions/Technical Stand Up to Single Leg/Attacker|Technical Stand Up to Single Leg]]** (12% of attempts)
 
-- **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** (5% of attempts)
+- **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** (2% of attempts)
 
-- **[[Transitions/De La Riva to X-Guard Transition/Attacker|De La Riva to X-Guard Transition]]** (3% of attempts)
+- **[[Transitions/De La Riva to X-Guard Transition/Attacker|De La Riva to X-Guard Transition]]** (1% of attempts)
 
-- **[[Transitions/Ankle Pick Sweep/Attacker|Ankle Pick Sweep]]** (9% of attempts)
+- **[[Transitions/Ankle Pick Sweep/Attacker|Ankle Pick Sweep]]** (6% of attempts)
 
-- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (8% of attempts)
+- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (12% of attempts)
 
-- **[[Transitions/Heel Grab Sweep/Attacker|Heel Grab Sweep]]** (9% of attempts)
+- **[[Transitions/Heel Grab Sweep/Attacker|Heel Grab Sweep]]** (8% of attempts)
 
-- **[[Transitions/SLX to Ashi Garami/Attacker|SLX to Ashi Garami]]** (9% of attempts)
+- **[[Transitions/SLX to Ashi Garami/Attacker|SLX to Ashi Garami]]** (11% of attempts)
 
-- **[[Transitions/SLX to X-Guard/Attacker|SLX to X-Guard]]** (5% of attempts)
+- **[[Transitions/SLX to X-Guard/Attacker|SLX to X-Guard]]** (8% of attempts)
 
-- **[[Transitions/Single Leg X-Guard to Inside Sankaku/Attacker|Single Leg X-Guard to Inside Sankaku]]** (9% of attempts)
+- **[[Transitions/Single Leg X-Guard to Inside Sankaku/Attacker|Single Leg X-Guard to Inside Sankaku]]** (8% of attempts)
 
-- **[[Transitions/Single Leg X to Estima Lock/Attacker|Single Leg X to Estima Lock]]** (9% of attempts)
+- **[[Transitions/Single Leg X to Estima Lock/Attacker|Single Leg X to Estima Lock]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -220,19 +220,19 @@ Within the modern leg-entanglement game, Single Leg X-Guard (SLX) has become a c
 ### Available Transitions
 
 
-- **[[Transitions/Headquarters Pass/Attacker|Headquarters Pass]]** (19% of attempts)
+- **[[Transitions/Headquarters Pass/Attacker|Headquarters Pass]]** (11% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (18% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (12% of attempts)
 
-- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (16% of attempts)
+- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (7% of attempts)
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (14% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (8% of attempts)
 
-- **[[Kneebar from Single Leg X-Guard/Attacker|Kneebar from Single Leg X-Guard]]** (14% of attempts)
+- **[[Kneebar from Single Leg X-Guard/Attacker|Kneebar from Single Leg X-Guard]]** (7% of attempts)
 
-- **[[Transitions/Backstep from Single Leg X/Attacker|Backstep from Single Leg X]]** (11% of attempts)
+- **[[Transitions/Backstep from Single Leg X/Attacker|Backstep from Single Leg X]]** (24% of attempts)
 
-- **[[Transitions/Standing Escape from SLX/Attacker|Standing Escape from SLX]]** (8% of attempts)
+- **[[Transitions/Standing Escape from SLX/Attacker|Standing Escape from SLX]]** (31% of attempts)
 
 
 ### Common Mistakes

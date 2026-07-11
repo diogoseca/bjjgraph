@@ -21,19 +21,19 @@ description: "Control opponent with cross-collar and sleeve grips. Learn sweep m
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 31% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Pendulum Sweep",
-      "text": "From this position, attempt Pendulum Sweep. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Pendulum Sweep. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Scissor Sweep",
-      "text": "From this position, attempt Scissor Sweep. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Scissor Sweep. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {

@@ -293,71 +293,71 @@
       {
         "transition": "Rear Naked Choke from Body Triangle",
         "attempt_probability": {
-          "gi": 41,
-          "nogi": 41
+          "gi": 28,
+          "nogi": 38
         }
       },
       {
         "transition": "Armbar from Back Transition",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 4,
+          "nogi": 4
         }
       },
       {
         "transition": "Bow and Arrow Choke from Body Triangle",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 12,
+          "nogi": 0
         }
       },
       {
         "transition": "Short Choke from Body Triangle",
         "attempt_probability": {
           "gi": 8,
-          "nogi": 8
+          "nogi": 12
         }
       },
       {
         "transition": "Back Control to Crucifix",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 2,
+          "nogi": 2
         }
       },
       {
         "transition": "Back Control Maintenance",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 20,
+          "nogi": 21
         }
       },
       {
         "transition": "Kimura from Back",
         "attempt_probability": {
           "gi": 4,
-          "nogi": 4
+          "nogi": 5
         }
       },
       {
         "transition": "Roll to Truck",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 2,
+          "nogi": 5
         }
       },
       {
         "transition": "Cross Collar Choke from Body Triangle",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 13,
+          "nogi": 0
         }
       },
       {
         "transition": "Body Triangle Squeeze",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 7,
+          "nogi": 13
         }
       }
     ]
@@ -610,15 +610,15 @@
       {
         "transition": "Triangle Clear to Side",
         "attempt_probability": {
-          "gi": 28,
+          "gi": 27,
           "nogi": 28
         }
       },
       {
         "transition": "Hip Escape to Turtle",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 8,
+          "nogi": 8
         }
       },
       {
@@ -631,28 +631,28 @@
       {
         "transition": "Body Triangle Escape to Half Guard",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 13,
+          "nogi": 12
         }
       },
       {
         "transition": "Frame and Shrimp to Guard",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 13,
+          "nogi": 12
         }
       },
       {
         "transition": "Elbow Escape to Remove Hooks",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 11,
+          "nogi": 10
         }
       },
       {
         "transition": "Back Door Escape",
         "attempt_probability": {
-          "gi": 8,
+          "gi": 6,
           "nogi": 8
         }
       },
@@ -666,8 +666,8 @@
       {
         "transition": "Rolling Back Take Reversal",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 4,
+          "nogi": 4
         }
       }
     ]

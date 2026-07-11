@@ -21,37 +21,37 @@ description: "Master body triangle from bottom perspective. Powerful leg control
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke from Body Triangle",
-      "text": "From this position, attempt Rear Naked Choke from Body Triangle. This technique is attempted in 41% of exchanges from this position.",
+      "text": "From this position, attempt Rear Naked Choke from Body Triangle. This technique is attempted in 38% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Back Transition",
-      "text": "From this position, attempt Armbar from Back Transition. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Armbar from Back Transition. This technique is attempted in 4% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bow and Arrow Choke from Body Triangle",
-      "text": "From this position, attempt Bow and Arrow Choke from Body Triangle. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Bow and Arrow Choke from Body Triangle. This technique is attempted in 0% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Short Choke from Body Triangle",
-      "text": "From this position, attempt Short Choke from Body Triangle. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Short Choke from Body Triangle. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Control to Crucifix",
-      "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 2% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Control Maintenance",
-      "text": "From this position, attempt Back Control Maintenance. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Back Control Maintenance. This technique is attempted in 21% of exchanges from this position.",
       "position": 6
     }
   ],

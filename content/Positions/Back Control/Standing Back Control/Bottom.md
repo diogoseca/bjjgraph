@@ -21,7 +21,7 @@ description: "Master defensive strategies for standing back control bottom posit
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Turtle",
-      "text": "From this position, attempt Hip Escape to Turtle. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Turtle. This technique is attempted in 6% of exchanges from this position.",
       "position": 1
     },
     {
@@ -33,25 +33,25 @@ description: "Master defensive strategies for standing back control bottom posit
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 4% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Grip Break and Face",
-      "text": "From this position, attempt Grip Break and Face. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Grip Break and Face. This technique is attempted in 29% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Controlled Descent",
-      "text": "From this position, attempt Controlled Descent. This technique is attempted in 30% of exchanges from this position.",
+      "text": "From this position, attempt Controlled Descent. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Explosive Forward Roll",
-      "text": "From this position, attempt Explosive Forward Roll. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Explosive Forward Roll. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],

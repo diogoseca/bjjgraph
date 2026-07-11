@@ -143,31 +143,31 @@ Competition application demonstrates New York Control's effectiveness in both gi
 ### Available Transitions
 
 
-- **[[Transitions/Gogoplata/Attacker|Gogoplata]]** (6% of attempts)
+- **[[Transitions/Gogoplata/Attacker|Gogoplata]]** (7% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (18% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (13% of attempts)
 
 - **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (8% of attempts)
 
-- **[[Transitions/Triangle to Omoplata/Attacker|Triangle to Omoplata]]** (7% of attempts)
+- **[[Transitions/Triangle to Omoplata/Attacker|Triangle to Omoplata]]** (9% of attempts)
 
-- **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** (6% of attempts)
+- **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** (9% of attempts)
 
-- **[[Transitions/Triangle to Back/Attacker|Triangle to Back]]** (7% of attempts)
+- **[[Transitions/Triangle to Back/Attacker|Triangle to Back]]** (8% of attempts)
 
 - **[[Transitions/Crackhead Control to Mission Control/Attacker|Crackhead Control to Mission Control]]** (9% of attempts)
 
-- **[[Transitions/New York to Invisible Collar/Attacker|New York to Invisible Collar]]** (9% of attempts)
+- **[[Transitions/New York to Invisible Collar/Attacker|New York to Invisible Collar]]** (7% of attempts)
 
-- **[[Transitions/New York Control to Zombie/Attacker|New York Control to Zombie]]** (8% of attempts)
+- **[[Transitions/New York Control to Zombie/Attacker|New York Control to Zombie]]** (7% of attempts)
 
 - **[[Transitions/Armbar from New York/Attacker|Armbar from New York]]** (6% of attempts)
 
-- **[[Kimura from New York Control/Attacker|Kimura from New York Control]]** (6% of attempts)
+- **[[Kimura from New York Control/Attacker|Kimura from New York Control]]** (7% of attempts)
 
-- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (7% of attempts)
+- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (5% of attempts)
 
-- **[[Transitions/New York Control to Invisible Collar/Attacker|New York Control to Invisible Collar]]** (3% of attempts)
+- **[[Transitions/New York Control to Invisible Collar/Attacker|New York Control to Invisible Collar]]** (5% of attempts)
 
 
 ### Common Mistakes
@@ -228,17 +228,17 @@ Competition application demonstrates New York Control's effectiveness in both gi
 ### Available Transitions
 
 
-- **[[Transitions/Overhook Escape/Attacker|Overhook Escape]]** (21% of attempts)
+- **[[Transitions/Overhook Escape/Attacker|Overhook Escape]]** (18% of attempts)
 
-- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (20% of attempts)
+- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (23% of attempts)
 
-- **[[Transitions/Crossface to Combat Base/Attacker|Crossface to Combat Base]]** (33% of attempts)
+- **[[Transitions/Crossface to Combat Base/Attacker|Crossface to Combat Base]]** (16% of attempts)
 
-- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (15% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (16% of attempts)
 
-- **[[Transitions/New York Control Escape/Attacker|New York Control Escape]]** (7% of attempts)
+- **[[Transitions/New York Control Escape/Attacker|New York Control Escape]]** (13% of attempts)
 
-- **[[Transitions/Guard Pass from New York Control/Attacker|Guard Pass from New York Control]]** (4% of attempts)
+- **[[Transitions/Guard Pass from New York Control/Attacker|Guard Pass from New York Control]]** (14% of attempts)
 
 
 ### Common Mistakes

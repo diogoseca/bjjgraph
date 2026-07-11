@@ -27,31 +27,31 @@ description: "Offensive guide for Modified Scarf Hold top position. Master press
     {
       "@type": "HowToStep",
       "name": "Execute Armbar on Free Arm",
-      "text": "From this position, attempt Armbar on Free Arm. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Armbar on Free Arm. This technique is attempted in 8% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute North-South Choke from Modified Scarf Hold",
-      "text": "From this position, attempt North-South Choke from Modified Scarf Hold. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt North-South Choke from Modified Scarf Hold. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Triangle from Modified Scarf Hold",
-      "text": "From this position, attempt Arm Triangle from Modified Scarf Hold. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Arm Triangle from Modified Scarf Hold. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],

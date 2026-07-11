@@ -294,78 +294,78 @@
       {
         "transition": "Half Guard Pass",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 9,
+          "nogi": 8
         }
       },
       {
         "transition": "Knee Slice from Half",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 7,
+          "nogi": 7
         }
       },
       {
         "transition": "Smash Pass",
         "attempt_probability": {
-          "gi": 8,
+          "gi": 9,
           "nogi": 8
         }
       },
       {
         "transition": "Underhook Pass",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 7,
+          "nogi": 7
         }
       },
       {
         "transition": "Crossface Pass",
         "attempt_probability": {
-          "gi": 9,
+          "gi": 10,
           "nogi": 9
         }
       },
       {
         "transition": "Leg Extraction to Combat Base",
         "attempt_probability": {
-          "gi": 27,
-          "nogi": 27
+          "gi": 14,
+          "nogi": 14
         }
       },
       {
         "transition": "Lockdown Escape to Half Guard Pass",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 12,
+          "nogi": 12
         }
       },
       {
         "transition": "Lockdown to Z-Lock Half Guard",
-        "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
-        }
-      },
-      {
-        "transition": "Lockdown Break and Pass",
-        "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
-        }
-      },
-      {
-        "transition": "Darce from Lockdown Counter",
         "attempt_probability": {
           "gi": 3,
           "nogi": 3
         }
       },
       {
+        "transition": "Lockdown Break and Pass",
+        "attempt_probability": {
+          "gi": 16,
+          "nogi": 15
+        }
+      },
+      {
+        "transition": "Darce from Lockdown Counter",
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 9
+        }
+      },
+      {
         "transition": "Lockdown Whizzer Pass",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 8,
+          "nogi": 8
         }
       }
     ]
@@ -621,85 +621,85 @@
       {
         "transition": "Whip-up Sweep",
         "attempt_probability": {
-          "gi": 26,
-          "nogi": 26
+          "gi": 20,
+          "nogi": 20
         }
       },
       {
         "transition": "Old School Sweep",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 13,
+          "nogi": 12
         }
       },
       {
         "transition": "Electric Chair Transition",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 10,
+          "nogi": 12
         }
       },
       {
         "transition": "Underhook Sweep from Half",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 9,
+          "nogi": 8
         }
       },
       {
         "transition": "Half Guard to Back Take",
-        "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
-        }
-      },
-      {
-        "transition": "Roll to Truck",
-        "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
-        }
-      },
-      {
-        "transition": "Deep Half Entry",
         "attempt_probability": {
           "gi": 8,
           "nogi": 8
         }
       },
       {
+        "transition": "Roll to Truck",
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 5
+        }
+      },
+      {
+        "transition": "Deep Half Entry",
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 5
+        }
+      },
+      {
         "transition": "Kimura from Lockdown",
-        "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
-        }
-      },
-      {
-        "transition": "Lockdown Recovery",
-        "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
-        }
-      },
-      {
-        "transition": "Lockdown to Vaporizer",
-        "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
-        }
-      },
-      {
-        "transition": "Half Guard to Old School",
         "attempt_probability": {
           "gi": 6,
           "nogi": 6
         }
       },
       {
+        "transition": "Lockdown Recovery",
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 11
+        }
+      },
+      {
+        "transition": "Lockdown to Vaporizer",
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 3
+        }
+      },
+      {
+        "transition": "Half Guard to Old School",
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 7
+        }
+      },
+      {
         "transition": "Crotch Ripper from Lockdown",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 2,
+          "nogi": 3
         }
       }
     ]

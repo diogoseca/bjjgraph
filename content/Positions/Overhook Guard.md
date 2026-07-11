@@ -137,25 +137,25 @@ Overhook Guard represents a fundamental control concept that appears throughout 
 ### Available Transitions
 
 
-- **[[Transitions/Overhook Sweep/Attacker|Overhook Sweep]]** (12% of attempts)
+- **[[Transitions/Overhook Sweep/Attacker|Overhook Sweep]]** (14% of attempts)
 
-- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (20% of attempts)
+- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (10% of attempts)
 
 - **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (10% of attempts)
 
-- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (10% of attempts)
+- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (8% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (12% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (17% of attempts)
 
-- **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (10% of attempts)
+- **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (6% of attempts)
 
-- **[[Transitions/Flower Sweep/Attacker|Flower Sweep]]** (12% of attempts)
+- **[[Transitions/Flower Sweep/Attacker|Flower Sweep]]** (4% of attempts)
 
-- **[[Transitions/Overhook Guard Sweep/Attacker|Overhook Guard Sweep]]** (5% of attempts)
+- **[[Transitions/Overhook Guard Sweep/Attacker|Overhook Guard Sweep]]** (11% of attempts)
 
-- **[[Transitions/Overhook to Closed Guard/Attacker|Overhook to Closed Guard]]** (3% of attempts)
+- **[[Transitions/Overhook to Closed Guard/Attacker|Overhook to Closed Guard]]** (12% of attempts)
 
-- **[[Omoplata from Guard/Attacker|Omoplata from Guard]]** (6% of attempts)
+- **[[Omoplata from Guard/Attacker|Omoplata from Guard]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -216,19 +216,19 @@ Overhook Guard represents a fundamental control concept that appears throughout 
 ### Available Transitions
 
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (27% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (11% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (17% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (13% of attempts)
 
-- **[[Transitions/Over-Under Pass/Attacker|Over-Under Pass]]** (16% of attempts)
+- **[[Transitions/Over-Under Pass/Attacker|Over-Under Pass]]** (13% of attempts)
 
-- **[[Transitions/Overhook Pass to Side Control/Attacker|Overhook Pass to Side Control]]** (16% of attempts)
+- **[[Transitions/Overhook Pass to Side Control/Attacker|Overhook Pass to Side Control]]** (15% of attempts)
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (14% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (1% of attempts)
 
-- **[[Transitions/Break Overhook Guard/Attacker|Break Overhook Guard]]** (7% of attempts)
+- **[[Transitions/Break Overhook Guard/Attacker|Break Overhook Guard]]** (30% of attempts)
 
-- **[[Transitions/Pass Overhook Guard/Attacker|Pass Overhook Guard]]** (3% of attempts)
+- **[[Transitions/Pass Overhook Guard/Attacker|Pass Overhook Guard]]** (17% of attempts)
 
 
 ### Common Mistakes

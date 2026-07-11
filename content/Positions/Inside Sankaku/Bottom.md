@@ -21,37 +21,37 @@ description: "Master Inside Sankaku bottom perspective. Defensive strategies, es
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 17% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand-up",
-      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter Leg Attack",
-      "text": "From this position, attempt Counter Leg Attack. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Counter Leg Attack. This technique is attempted in 17% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Extract to Half Guard",
-      "text": "From this position, attempt Frame and Extract to Half Guard. This technique is attempted in 30% of exchanges from this position.",
+      "text": "From this position, attempt Frame and Extract to Half Guard. This technique is attempted in 17% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter-entangle to 50-50 Guard",
-      "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 16% of exchanges from this position.",
       "position": 6
     }
   ],

@@ -21,37 +21,37 @@ description: "Master defensive strategies from bottom Mount in BJJ. Learn system
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape from Mount",
-      "text": "From this position, attempt Elbow Escape from Mount. This technique is attempted in 41% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape from Mount. This technique is attempted in 26% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Upa Escape",
-      "text": "From this position, attempt Upa Escape. This technique is attempted in 26% of exchanges from this position.",
+      "text": "From this position, attempt Upa Escape. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Trap and Roll from Mount",
-      "text": "From this position, attempt Trap and Roll from Mount. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Trap and Roll from Mount. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Heel Drag Escape",
-      "text": "From this position, attempt Heel Drag Escape. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Heel Drag Escape. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Explosive Bridge to Turtle",
-      "text": "From this position, attempt Explosive Bridge to Turtle. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Explosive Bridge to Turtle. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],

@@ -141,31 +141,31 @@ Back control variations include the standard hooks configuration, body triangle 
 
 - **[[Transitions/Hand Fighting from Back/Attacker|Hand Fighting from Back]]** (22% of attempts)
 
-- **[[Transitions/Back Door Escape/Attacker|Back Door Escape]]** (20% of attempts)
+- **[[Transitions/Back Door Escape/Attacker|Back Door Escape]]** (7% of attempts)
 
-- **[[Transitions/Hip Escape to Turtle/Attacker|Hip Escape to Turtle]]** (13% of attempts)
+- **[[Transitions/Hip Escape to Turtle/Attacker|Hip Escape to Turtle]]** (10% of attempts)
 
-- **[[Transitions/Elbow Escape to Remove Hooks/Attacker|Elbow Escape to Remove Hooks]]** (12% of attempts)
+- **[[Transitions/Elbow Escape to Remove Hooks/Attacker|Elbow Escape to Remove Hooks]]** (10% of attempts)
 
-- **[[Transitions/Turn In and Face/Attacker|Turn In and Face]]** (8% of attempts)
+- **[[Transitions/Turn In and Face/Attacker|Turn In and Face]]** (10% of attempts)
 
-- **[[Transitions/Hip Escape from Back Control/Attacker|Hip Escape from Back Control]]** (5% of attempts)
+- **[[Transitions/Hip Escape from Back Control/Attacker|Hip Escape from Back Control]]** (13% of attempts)
 
-- **[[Transitions/Turtle from Back Control/Attacker|Turtle from Back Control]]** (5% of attempts)
+- **[[Transitions/Turtle from Back Control/Attacker|Turtle from Back Control]]** (4% of attempts)
 
-- **[[Transitions/Shoulder Walk Escape from Back/Attacker|Shoulder Walk Escape from Back]]** (5% of attempts)
+- **[[Transitions/Shoulder Walk Escape from Back/Attacker|Shoulder Walk Escape from Back]]** (6% of attempts)
 
 - **[[Transitions/Scoot Hips to Guard from Back/Attacker|Scoot Hips to Guard from Back]]** (4% of attempts)
 
-- **[[Transitions/Turn into Opponent from Back/Attacker|Turn into Opponent from Back]]** (3% of attempts)
+- **[[Transitions/Turn into Opponent from Back/Attacker|Turn into Opponent from Back]]** (5% of attempts)
 
-- **[[Transitions/Elbow Escape from Back/Attacker|Elbow Escape from Back]]** (2% of attempts)
+- **[[Transitions/Elbow Escape from Back/Attacker|Elbow Escape from Back]]** (4% of attempts)
 
-- **[[Transitions/Hand Fight to Turtle from Back/Attacker|Hand Fight to Turtle from Back]]** (1% of attempts)
+- **[[Transitions/Hand Fight to Turtle from Back/Attacker|Hand Fight to Turtle from Back]]** (3% of attempts)
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (0% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (1% of attempts)
 
-- **[[Transitions/Rolling Escape to Guard/Attacker|Rolling Escape to Guard]]** (0% of attempts)
+- **[[Transitions/Rolling Escape to Guard/Attacker|Rolling Escape to Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -226,51 +226,51 @@ Back control variations include the standard hooks configuration, body triangle 
 ### Available Transitions
 
 
-- **[[Rear Naked Choke from Back Control/Attacker|Rear Naked Choke from Back Control]]** (43% of attempts)
+- **[[Rear Naked Choke from Back Control/Attacker|Rear Naked Choke from Back Control]]** (27% of attempts)
 
-- **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (14% of attempts)
+- **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (16% of attempts)
 
-- **[[Bow and Arrow Choke from Back Control/Attacker|Bow and Arrow Choke from Back Control]]** (5% of attempts)
+- **[[Bow and Arrow Choke from Back Control/Attacker|Bow and Arrow Choke from Back Control]]** (0% of attempts)
 
-- **[[Transitions/Gift Wrap from Back/Attacker|Gift Wrap from Back]]** (3% of attempts)
+- **[[Transitions/Gift Wrap from Back/Attacker|Gift Wrap from Back]]** (6% of attempts)
 
-- **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (6% of attempts)
+- **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (4% of attempts)
 
-- **[[Transitions/Body Triangle Lock/Attacker|Body Triangle Lock]]** (1% of attempts)
+- **[[Transitions/Body Triangle Lock/Attacker|Body Triangle Lock]]** (8% of attempts)
 
-- **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (1% of attempts)
+- **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (2% of attempts)
 
 - **[[Transitions/Short Choke Attack/Attacker|Short Choke Attack]]** (2% of attempts)
 
 - **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (2% of attempts)
 
-- **[[Transitions/Rear Naked Choke Setup/Attacker|Rear Naked Choke Setup]]** (2% of attempts)
+- **[[Transitions/Rear Naked Choke Setup/Attacker|Rear Naked Choke Setup]]** (7% of attempts)
 
-- **[[Transitions/Kimura from Back/Attacker|Kimura from Back]]** (2% of attempts)
+- **[[Transitions/Kimura from Back/Attacker|Kimura from Back]]** (1% of attempts)
 
-- **[[Transitions/Triangle from Back/Attacker|Triangle from Back]]** (1% of attempts)
+- **[[Transitions/Triangle from Back/Attacker|Triangle from Back]]** (2% of attempts)
 
 - **[[Transitions/Standing Back Control Entry/Attacker|Standing Back Control Entry]]** (1% of attempts)
 
-- **[[Transitions/Mat Return to Back Mount/Attacker|Mat Return to Back Mount]]** (1% of attempts)
+- **[[Transitions/Mat Return to Back Mount/Attacker|Mat Return to Back Mount]]** (2% of attempts)
 
-- **[[Transitions/Back Control to Seat Belt Control Back/Attacker|Back Control to Seat Belt Control Back]]** (1% of attempts)
+- **[[Transitions/Back Control to Seat Belt Control Back/Attacker|Back Control to Seat Belt Control Back]]** (4% of attempts)
 
-- **[[Transitions/Gift Wrap Control/Attacker|Gift Wrap Control]]** (1% of attempts)
+- **[[Transitions/Gift Wrap Control/Attacker|Gift Wrap Control]]** (2% of attempts)
 
 - **[[Transitions/Back Control to Cross Body Ride/Attacker|Back Control to Cross Body Ride]]** (1% of attempts)
 
 - **[[Transitions/Back Control to Reverse Half Guard/Attacker|Back Control to Reverse Half Guard]]** (1% of attempts)
 
-- **[[Transitions/Restore Back Control/Attacker|Restore Back Control]]** (1% of attempts)
+- **[[Transitions/Restore Back Control/Attacker|Restore Back Control]]** (4% of attempts)
 
-- **[[Armbar from Back/Attacker|Armbar from Back]]** (6% of attempts)
+- **[[Armbar from Back/Attacker|Armbar from Back]]** (3% of attempts)
 
-- **[[Armbar from Back with Legs/Attacker|Armbar from Back with Legs]]** (2% of attempts)
+- **[[Armbar from Back with Legs/Attacker|Armbar from Back with Legs]]** (1% of attempts)
 
 - **[[Rear Triangle Choke from Back Control/Attacker|Rear Triangle Choke from Back Control]]** (2% of attempts)
 
-- **[[Short Choke from Back Control/Attacker|Short Choke from Back Control]]** (1% of attempts)
+- **[[Short Choke from Back Control/Attacker|Short Choke from Back Control]]** (2% of attempts)
 
 
 ### Common Mistakes

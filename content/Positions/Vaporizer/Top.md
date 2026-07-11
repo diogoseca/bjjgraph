@@ -21,37 +21,37 @@ description: "Master Vaporizer top defense in BJJ. Complete guide to escaping lo
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard Pass",
-      "text": "From this position, attempt Half Guard Pass. This technique is attempted in 33% of exchanges from this position.",
+      "text": "From this position, attempt Half Guard Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Pressure Pass",
-      "text": "From this position, attempt Pressure Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Pressure Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Whizzer",
-      "text": "From this position, attempt Whizzer. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Whizzer. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Defend Vaporizer Sweep",
-      "text": "From this position, attempt Defend Vaporizer Sweep. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Defend Vaporizer Sweep. This technique is attempted in 15% of exchanges from this position.",
       "position": 6
     }
   ],

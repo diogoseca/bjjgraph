@@ -21,7 +21,7 @@ description: "Learn systematic saddle escapes prioritizing heel protection, hip 
     {
       "@type": "HowToStep",
       "name": "Execute Standing up in Base",
-      "text": "From this position, attempt Standing up in Base. This technique is attempted in 3% of exchanges from this position.",
+      "text": "From this position, attempt Standing up in Base. This technique is attempted in 10% of exchanges from this position.",
       "position": 1
     },
     {
@@ -33,25 +33,25 @@ description: "Learn systematic saddle escapes prioritizing heel protection, hip 
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Shrimp to Guard",
-      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 6% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter-entangle to 50-50 Guard",
-      "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Inversion Escape",
-      "text": "From this position, attempt Inversion Escape. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Inversion Escape. This technique is attempted in 5% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Extraction to Guard",
-      "text": "From this position, attempt Leg Extraction to Guard. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Leg Extraction to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],

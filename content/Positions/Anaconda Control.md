@@ -135,19 +135,19 @@ The effectiveness of Anaconda Control stems from its multi-layered control mecha
 ### Available Transitions
 
 
-- **[[Transitions/Defensive Roll/Attacker|Defensive Roll]]** (40% of attempts)
+- **[[Transitions/Defensive Roll/Attacker|Defensive Roll]]** (12% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (20% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (12% of attempts)
 
-- **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** (20% of attempts)
+- **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** (19% of attempts)
 
-- **[[Transitions/Anaconda Grip Break to Front Headlock/Attacker|Anaconda Grip Break to Front Headlock]]** (10% of attempts)
+- **[[Transitions/Anaconda Grip Break to Front Headlock/Attacker|Anaconda Grip Break to Front Headlock]]** (16% of attempts)
 
-- **[[Transitions/Frame and Posture from Anaconda/Attacker|Frame and Posture from Anaconda]]** (5% of attempts)
+- **[[Transitions/Frame and Posture from Anaconda/Attacker|Frame and Posture from Anaconda]]** (21% of attempts)
 
-- **[[Transitions/Roll Defense from Anaconda/Attacker|Roll Defense from Anaconda]]** (3% of attempts)
+- **[[Transitions/Roll Defense from Anaconda/Attacker|Roll Defense from Anaconda]]** (12% of attempts)
 
-- **[[Transitions/Rolling Escape from Anaconda/Attacker|Rolling Escape from Anaconda]]** (2% of attempts)
+- **[[Transitions/Rolling Escape from Anaconda/Attacker|Rolling Escape from Anaconda]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -208,15 +208,15 @@ The effectiveness of Anaconda Control stems from its multi-layered control mecha
 ### Available Transitions
 
 
-- **[[Anaconda Choke from Anaconda Control/Attacker|Anaconda Choke from Anaconda Control]]** (50% of attempts)
+- **[[Anaconda Choke from Anaconda Control/Attacker|Anaconda Choke from Anaconda Control]]** (41% of attempts)
 
-- **[[Transitions/Switch to Darce Configuration/Attacker|Switch to Darce Configuration]]** (25% of attempts)
+- **[[Transitions/Switch to Darce Configuration/Attacker|Switch to Darce Configuration]]** (13% of attempts)
 
-- **[[Transitions/Anaconda to Side Control/Attacker|Anaconda to Side Control]]** (15% of attempts)
+- **[[Transitions/Anaconda to Side Control/Attacker|Anaconda to Side Control]]** (20% of attempts)
 
-- **[[Transitions/Anaconda Control to Dead Orchard Control/Attacker|Anaconda Control to Dead Orchard Control]]** (5% of attempts)
+- **[[Transitions/Anaconda Control to Dead Orchard Control/Attacker|Anaconda Control to Dead Orchard Control]]** (10% of attempts)
 
-- **[[Transitions/Back Take from Anaconda/Attacker|Back Take from Anaconda]]** (5% of attempts)
+- **[[Transitions/Back Take from Anaconda/Attacker|Back Take from Anaconda]]** (16% of attempts)
 
 
 ### Common Mistakes

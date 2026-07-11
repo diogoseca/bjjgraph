@@ -145,31 +145,31 @@ Defensively, grasshopper guard can serve as an emergency response when tradition
 ### Available Transitions
 
 
-- **[[Transitions/Kneebar from Grasshopper/Attacker|Kneebar from Grasshopper]]** (10% of attempts)
+- **[[Transitions/Kneebar from Grasshopper/Attacker|Kneebar from Grasshopper]]** (9% of attempts)
 
 - **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (8% of attempts)
 
-- **[[Transitions/Single Leg X Transition/Attacker|Single Leg X Transition]]** (9% of attempts)
+- **[[Transitions/Single Leg X Transition/Attacker|Single Leg X Transition]]** (13% of attempts)
 
-- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (10% of attempts)
+- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (13% of attempts)
 
-- **[[Transitions/Rolling Kneebar/Attacker|Rolling Kneebar]]** (5% of attempts)
+- **[[Transitions/Rolling Kneebar/Attacker|Rolling Kneebar]]** (4% of attempts)
 
-- **[[Transitions/Grasshopper Sweep/Attacker|Grasshopper Sweep]]** (8% of attempts)
+- **[[Transitions/Grasshopper Sweep/Attacker|Grasshopper Sweep]]** (10% of attempts)
 
-- **[[Transitions/Granby to Closed Guard/Attacker|Granby to Closed Guard]]** (14% of attempts)
+- **[[Transitions/Granby to Closed Guard/Attacker|Granby to Closed Guard]]** (7% of attempts)
 
-- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (3% of attempts)
+- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (6% of attempts)
 
-- **[[Transitions/Reverse De La Riva Recovery/Attacker|Reverse De La Riva Recovery]]** (7% of attempts)
+- **[[Transitions/Reverse De La Riva Recovery/Attacker|Reverse De La Riva Recovery]]** (6% of attempts)
 
-- **[[Transitions/Technical Standup from Inversion/Attacker|Technical Standup from Inversion]]** (5% of attempts)
+- **[[Transitions/Technical Standup from Inversion/Attacker|Technical Standup from Inversion]]** (7% of attempts)
 
-- **[[Transitions/X-Guard Elevation Sweep/Attacker|X-Guard Elevation Sweep]]** (11% of attempts)
+- **[[Transitions/X-Guard Elevation Sweep/Attacker|X-Guard Elevation Sweep]]** (8% of attempts)
 
 - **[[Heel Hook from Grasshopper Guard/Attacker|Heel Hook from Grasshopper Guard]]** (7% of attempts)
 
-- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (3% of attempts)
+- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -230,27 +230,27 @@ Defensively, grasshopper guard can serve as an emergency response when tradition
 ### Available Transitions
 
 
-- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (15% of attempts)
+- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (10% of attempts)
 
-- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (12% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (16% of attempts)
 
 - **[[Transitions/Stack Pass from Inversion/Attacker|Stack Pass from Inversion]]** (10% of attempts)
 
 - **[[Transitions/Step Over to Mount/Attacker|Step Over to Mount]]** (5% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (8% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (15% of attempts)
 
-- **[[Transitions/Sprawl and Disengage/Attacker|Sprawl and Disengage]]** (14% of attempts)
+- **[[Transitions/Sprawl and Disengage/Attacker|Sprawl and Disengage]]** (8% of attempts)
 
-- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (12% of attempts)
+- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (13% of attempts)
 
 - **[[Transitions/Cartwheel Pass/Attacker|Cartwheel Pass]]** (3% of attempts)
 
-- **[[Transitions/Pressure Pass through Center/Attacker|Pressure Pass through Center]]** (5% of attempts)
+- **[[Transitions/Pressure Pass through Center/Attacker|Pressure Pass through Center]]** (7% of attempts)
 
 - **[[Transitions/Counter Ashi Entry/Attacker|Counter Ashi Entry]]** (8% of attempts)
 
-- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (8% of attempts)
+- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (5% of attempts)
 
 
 ### Common Mistakes

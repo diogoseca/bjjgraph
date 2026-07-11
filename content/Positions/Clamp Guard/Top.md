@@ -21,13 +21,13 @@ description: "Escape Clamp Guard in BJJ. Complete guide for the trapped passer t
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction from Clamp Guard",
-      "text": "From this position, attempt Arm Extraction from Clamp Guard. This technique is attempted in 55% of exchanges from this position.",
+      "text": "From this position, attempt Arm Extraction from Clamp Guard. This technique is attempted in 52% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass from Clamp Guard",
-      "text": "From this position, attempt Stack Pass from Clamp Guard. This technique is attempted in 45% of exchanges from this position.",
+      "text": "From this position, attempt Stack Pass from Clamp Guard. This technique is attempted in 48% of exchanges from this position.",
       "position": 2
     }
   ],

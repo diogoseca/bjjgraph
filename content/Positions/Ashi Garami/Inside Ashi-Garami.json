@@ -310,77 +310,77 @@
       {
         "transition": "Heel Hook from Inside Ashi-Garami",
         "attempt_probability": {
-          "gi": 28,
-          "nogi": 28
+          "gi": 0,
+          "nogi": 25
         }
       },
       {
         "transition": "Toe Hold from Inside Ashi-Garami",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 21,
+          "nogi": 7
         }
       },
       {
         "transition": "Inside Ashi-Garami to Honey Hole",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 4,
+          "nogi": 16
         }
       },
       {
         "transition": "Back Take from Ashi",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 8,
+          "nogi": 6
         }
       },
       {
         "transition": "Inside Ashi-Garami to Cross Ashi",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 8,
+          "nogi": 7
         }
       },
       {
         "transition": "Outside Ashi Entry",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 16,
+          "nogi": 8
         }
       },
       {
         "transition": "Saddle Entry from Top",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 3,
+          "nogi": 8
         }
       },
       {
         "transition": "Backside 50-50 Entry from Ashi",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 5,
+          "nogi": 6
         }
       },
       {
         "transition": "Inside Ashi to Outside Ashi",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 14,
+          "nogi": 7
         }
       },
       {
         "transition": "Inside Ashi-Garami to Ushiro Ashi",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 4,
+          "nogi": 4
         }
       },
       {
         "transition": "Kneebar from Inside Ashi-Garami",
         "attempt_probability": {
-          "gi": 6,
+          "gi": 17,
           "nogi": 6
         }
       }
@@ -654,43 +654,43 @@
       {
         "transition": "Ashi Garami Escape",
         "attempt_probability": {
-          "gi": 47,
-          "nogi": 47
+          "gi": 25,
+          "nogi": 18
         }
       },
       {
         "transition": "Guard Recovery from Inside Ashi-Garami",
         "attempt_probability": {
-          "gi": 19,
-          "nogi": 19
+          "gi": 21,
+          "nogi": 17
         }
       },
       {
         "transition": "Standing Up from Inside Ashi",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 18,
+          "nogi": 16
         }
       },
       {
         "transition": "Leg Extraction from Inside Ashi",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 21,
+          "nogi": 18
         }
       },
       {
         "transition": "Counter Entangle to 50-50 from Ashi",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 12,
+          "nogi": 16
         }
       },
       {
         "transition": "Counter heel hook",
         "attempt_probability": {
           "gi": 3,
-          "nogi": 3
+          "nogi": 15
         }
       }
     ]

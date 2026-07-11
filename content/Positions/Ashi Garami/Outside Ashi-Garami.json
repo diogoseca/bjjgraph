@@ -271,71 +271,71 @@
       {
         "transition": "Ashi Garami Escape",
         "attempt_probability": {
-          "gi": 55,
-          "nogi": 55
+          "gi": 21,
+          "nogi": 14
         }
       },
       {
         "transition": "Back Step",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 17
+          "gi": 15,
+          "nogi": 10
         }
       },
       {
         "transition": "Counter heel hook",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 2,
+          "nogi": 11
         }
       },
       {
         "transition": "Saddle Entry from Top",
         "attempt_probability": {
           "gi": 3,
-          "nogi": 3
+          "nogi": 11
         }
       },
       {
         "transition": "Kneebar Setup",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 15,
+          "nogi": 9
         }
       },
       {
         "transition": "Outside Ashi to Inside Ashi",
         "attempt_probability": {
-          "gi": 0,
-          "nogi": 0
+          "gi": 14,
+          "nogi": 12
         }
       },
       {
         "transition": "Outside to Ushiro Ashi",
         "attempt_probability": {
-          "gi": 0,
-          "nogi": 0
+          "gi": 6,
+          "nogi": 6
         }
       },
       {
         "transition": "Saddle Entry from Outside Ashi",
         "attempt_probability": {
-          "gi": 0,
-          "nogi": 0
+          "gi": 4,
+          "nogi": 11
         }
       },
       {
         "transition": "Toe Hold from Outside Ashi",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 16,
+          "nogi": 9
         }
       },
       {
         "transition": "Outside Ashi to Leg Knot",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 4,
+          "nogi": 7
         }
       }
     ],
@@ -591,50 +591,50 @@
       {
         "transition": "Outside Heel Hook from Outside Ashi-Garami",
         "attempt_probability": {
-          "gi": 32,
-          "nogi": 32
+          "gi": 0,
+          "nogi": 27
         }
       },
       {
         "transition": "Inside Ashi Entry",
         "attempt_probability": {
-          "gi": 25,
-          "nogi": 25
+          "gi": 14,
+          "nogi": 13
         }
       },
       {
         "transition": "Straight Ankle Lock Entry",
         "attempt_probability": {
-          "gi": 14,
+          "gi": 32,
           "nogi": 14
         }
       },
       {
         "transition": "Saddle Entry from Outside Ashi",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 12,
+          "nogi": 18
         }
       },
       {
         "transition": "Kneebar Setup",
         "attempt_probability": {
-          "gi": 9,
+          "gi": 16,
           "nogi": 9
         }
       },
       {
         "transition": "Cross Ashi Transition",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 11,
+          "nogi": 10
         }
       },
       {
         "transition": "Counter Sweep from Outside Ashi",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 15,
+          "nogi": 9
         }
       }
     ],

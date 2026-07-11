@@ -21,37 +21,37 @@ description: "Master defensive strategies from leg weave bottom. High-pressure h
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Shrimp to Guard",
-      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 21% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 7% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Dogfight Position",
-      "text": "From this position, attempt Dogfight Position. This technique is attempted in 27% of exchanges from this position.",
+      "text": "From this position, attempt Dogfight Position. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Lockdown Recovery",
-      "text": "From this position, attempt Lockdown Recovery. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Lockdown Recovery. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],

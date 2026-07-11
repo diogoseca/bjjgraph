@@ -27,31 +27,31 @@ description: "Master escaping back control in BJJ. Learn defensive frames, hand 
     {
       "@type": "HowToStep",
       "name": "Execute Back Door Escape",
-      "text": "From this position, attempt Back Door Escape. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Back Door Escape. This technique is attempted in 7% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Turtle",
-      "text": "From this position, attempt Hip Escape to Turtle. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Turtle. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Remove Hooks",
-      "text": "From this position, attempt Elbow Escape to Remove Hooks. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Remove Hooks. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turn In and Face",
-      "text": "From this position, attempt Turn In and Face. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Turn In and Face. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape from Back Control",
-      "text": "From this position, attempt Hip Escape from Back Control. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape from Back Control. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],

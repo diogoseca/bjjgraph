@@ -21,13 +21,13 @@ description: "Master Darce Control Top in BJJ. Dominant front headlock variation
     {
       "@type": "HowToStep",
       "name": "Execute Darce Choke from Darce Control",
-      "text": "From this position, attempt Darce Choke from Darce Control. This technique is attempted in 54% of exchanges from this position.",
+      "text": "From this position, attempt Darce Choke from Darce Control. This technique is attempted in 34% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Back Take",
-      "text": "From this position, attempt Turtle to Back Take. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Back Take. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
@@ -39,19 +39,19 @@ description: "Master Darce Control Top in BJJ. Dominant front headlock variation
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Darce Control Maintenance",
-      "text": "From this position, attempt Darce Control Maintenance. This technique is attempted in 2% of exchanges from this position.",
+      "text": "From this position, attempt Darce Control Maintenance. This technique is attempted in 19% of exchanges from this position.",
       "position": 6
     }
   ],

@@ -137,23 +137,23 @@ Scarf Hold Position represents a transitional control platform rather than purel
 ### Available Transitions
 
 
-- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (12% of attempts)
+- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (11% of attempts)
 
 - **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (14% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (11% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (15% of attempts)
 
 - **[[Transitions/Ghost Escape from Side Control/Attacker|Ghost Escape from Side Control]]** (12% of attempts)
 
 - **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (12% of attempts)
 
-- **[[Transitions/Arm Extraction to Turtle/Attacker|Arm Extraction to Turtle]]** (31% of attempts)
+- **[[Transitions/Arm Extraction to Turtle/Attacker|Arm Extraction to Turtle]]** (10% of attempts)
 
-- **[[Transitions/Bridge from Scarf Hold Position/Attacker|Bridge from Scarf Hold Position]]** (5% of attempts)
+- **[[Transitions/Bridge from Scarf Hold Position/Attacker|Bridge from Scarf Hold Position]]** (8% of attempts)
 
-- **[[Transitions/Escape Scarf Hold Position/Attacker|Escape Scarf Hold Position]]** (2% of attempts)
+- **[[Transitions/Escape Scarf Hold Position/Attacker|Escape Scarf Hold Position]]** (10% of attempts)
 
-- **[[Transitions/Bridge Escape from Scarf Hold/Attacker|Bridge Escape from Scarf Hold]]** (1% of attempts)
+- **[[Transitions/Bridge Escape from Scarf Hold/Attacker|Bridge Escape from Scarf Hold]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -208,21 +208,21 @@ Scarf Hold Position represents a transitional control platform rather than purel
 ### Available Transitions
 
 
-- **[[Americana from Scarf Hold Position/Attacker|Americana from Scarf Hold Position]]** (15% of attempts)
+- **[[Americana from Scarf Hold Position/Attacker|Americana from Scarf Hold Position]]** (12% of attempts)
 
-- **[[Kimura from Scarf Hold Position/Attacker|Kimura from Scarf Hold Position]]** (14% of attempts)
+- **[[Kimura from Scarf Hold Position/Attacker|Kimura from Scarf Hold Position]]** (15% of attempts)
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (16% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (11% of attempts)
 
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (26% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (9% of attempts)
 
-- **[[Arm Triangle from Scarf Hold Position/Attacker|Arm Triangle from Scarf Hold Position]]** (15% of attempts)
+- **[[Arm Triangle from Scarf Hold Position/Attacker|Arm Triangle from Scarf Hold Position]]** (11% of attempts)
 
-- **[[Transitions/Scarf Hold to Mount/Attacker|Scarf Hold to Mount]]** (6% of attempts)
+- **[[Transitions/Scarf Hold to Mount/Attacker|Scarf Hold to Mount]]** (12% of attempts)
 
-- **[[Transitions/Scarf Hold to Side Control/Attacker|Scarf Hold to Side Control]]** (3% of attempts)
+- **[[Transitions/Scarf Hold to Side Control/Attacker|Scarf Hold to Side Control]]** (15% of attempts)
 
-- **[[Belly Down Armbar from Scarf Hold Position/Attacker|Belly Down Armbar from Scarf Hold Position]]** (5% of attempts)
+- **[[Belly Down Armbar from Scarf Hold Position/Attacker|Belly Down Armbar from Scarf Hold Position]]** (15% of attempts)
 
 
 ### Common Mistakes

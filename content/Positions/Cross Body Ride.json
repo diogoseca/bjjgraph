@@ -325,78 +325,78 @@
       {
         "transition": "Turtle to Back Control",
         "attempt_probability": {
-          "gi": 50,
-          "nogi": 50
+          "gi": 23,
+          "nogi": 19
         }
       },
       {
         "transition": "Crucifix from Turtle",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 17
+          "gi": 11,
+          "nogi": 10
         }
       },
       {
         "transition": "Twister from Cross Body Ride",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 5,
+          "nogi": 8
         }
       },
       {
         "transition": "Turtle Flatten to Side Control",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 14,
+          "nogi": 10
         }
       },
       {
         "transition": "Turtle to Truck",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 9,
+          "nogi": 13
         }
       },
       {
         "transition": "Crab Ride to Back",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Darce from Turtle",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 5,
+          "nogi": 8
         }
       },
       {
         "transition": "Cross Body to Back Control",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 10,
+          "nogi": 8
         }
       },
       {
         "transition": "Cross Body to Side Control",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 7,
+          "nogi": 6
         }
       },
       {
         "transition": "Twister Entry",
         "attempt_probability": {
           "gi": 2,
-          "nogi": 2
+          "nogi": 4
         }
       },
       {
         "transition": "Short Choke from Cross Body",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 4,
+          "nogi": 4
         }
       }
     ]
@@ -649,21 +649,21 @@
       {
         "transition": "Rolling to Guard",
         "attempt_probability": {
-          "gi": 15,
+          "gi": 13,
           "nogi": 15
         }
       },
       {
         "transition": "Turtle to Guard",
         "attempt_probability": {
-          "gi": 38,
-          "nogi": 38
+          "gi": 15,
+          "nogi": 15
         }
       },
       {
         "transition": "Turtle to Standing",
         "attempt_probability": {
-          "gi": 15,
+          "gi": 12,
           "nogi": 15
         }
       },
@@ -671,42 +671,42 @@
         "transition": "Sit Through to Guard",
         "attempt_probability": {
           "gi": 13,
-          "nogi": 13
+          "nogi": 15
         }
       },
       {
         "transition": "Peterson Roll",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Hip Escape to Guard",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 14,
+          "nogi": 12
         }
       },
       {
         "transition": "Hip Escape from Cross Body Ride",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 10,
+          "nogi": 8
         }
       },
       {
         "transition": "Roll Escape from Cross Body Ride",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 8,
+          "nogi": 6
         }
       },
       {
         "transition": "Escape from Cross Body Ride",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 6,
+          "nogi": 5
         }
       }
     ]

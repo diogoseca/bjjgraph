@@ -264,43 +264,43 @@
       {
         "transition": "Lapel Grip Break and Posture Recovery",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 17
+          "gi": 28,
+          "nogi": 0
         }
       },
       {
         "transition": "Leg Extraction from Lapel Wrap",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 18
+          "gi": 21,
+          "nogi": 0
         }
       },
       {
         "transition": "Stack Pass with Lapel Control Negation",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 13,
+          "nogi": 0
         }
       },
       {
         "transition": "Standing Guard Pass with Distance Creation",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 15,
+          "nogi": 41
         }
       },
       {
         "transition": "Smash Pass Counter",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 17
+          "gi": 11,
+          "nogi": 28
         }
       },
       {
         "transition": "Standing Reset to Open Guard",
         "attempt_probability": {
-          "gi": 19,
-          "nogi": 19
+          "gi": 12,
+          "nogi": 31
         }
       }
     ]
@@ -542,50 +542,50 @@
       {
         "transition": "Ringworm Sweep to Back Control",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 30,
+          "nogi": 0
         }
       },
       {
         "transition": "Triangle Setup",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 7,
+          "nogi": 34
         }
       },
       {
         "transition": "Omoplata Sweep",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 8,
+          "nogi": 28
         }
       },
       {
         "transition": "Lapel Sweep to Back",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 16
+          "gi": 17,
+          "nogi": 0
         }
       },
       {
         "transition": "Berimbolo Entry",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 11,
+          "nogi": 36
         }
       },
       {
         "transition": "Ringworm Guard to Worm Guard",
         "attempt_probability": {
-          "gi": 23,
-          "nogi": 23
+          "gi": 16,
+          "nogi": 0
         }
       },
       {
         "transition": "Ringworm to Spider Guard",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 11,
+          "nogi": 2
         }
       }
     ]

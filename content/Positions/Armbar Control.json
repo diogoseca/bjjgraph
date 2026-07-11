@@ -286,50 +286,50 @@
       {
         "transition": "Armbar from Armbar Control",
         "attempt_probability": {
-          "gi": 72,
-          "nogi": 72
+          "gi": 33,
+          "nogi": 32
         }
       },
       {
         "transition": "Omoplata from Armbar Control",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 6,
+          "nogi": 6
         }
       },
       {
         "transition": "Kimura from Armbar Control",
         "attempt_probability": {
           "gi": 10,
-          "nogi": 10
+          "nogi": 9
         }
       },
       {
         "transition": "Back Take from Armbar",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 13,
+          "nogi": 12
         }
       },
       {
         "transition": "Belly Down Armbar Transition",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 11,
+          "nogi": 11
         }
       },
       {
         "transition": "Triangle from Armbar",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Belly Down Armbar from Armbar Control",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 18,
+          "nogi": 21
         }
       }
     ],
@@ -585,56 +585,56 @@
         "transition": "Hip Escape to Guard",
         "attempt_probability": {
           "gi": 14,
-          "nogi": 14
+          "nogi": 13
         }
       },
       {
         "transition": "Stack Defense",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 19,
+          "nogi": 20
         }
       },
       {
         "transition": "Arm Extraction",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 15,
+          "nogi": 17
         }
       },
       {
         "transition": "Hitchhiker Escape from Armbar",
         "attempt_probability": {
-          "gi": 24,
-          "nogi": 24
+          "gi": 12,
+          "nogi": 13
         }
       },
       {
         "transition": "Bridge and Roll",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
-        }
-      },
-      {
-        "transition": "Rolling Escape to Guard",
-        "attempt_probability": {
-          "gi": 9,
+          "gi": 10,
           "nogi": 9
         }
       },
       {
-        "transition": "Hip Escape to Turtle",
+        "transition": "Rolling Escape to Guard",
         "attempt_probability": {
           "gi": 8,
           "nogi": 8
         }
       },
       {
-        "transition": "Armbar Defense",
+        "transition": "Hip Escape to Turtle",
         "attempt_probability": {
           "gi": 7,
           "nogi": 7
+        }
+      },
+      {
+        "transition": "Armbar Defense",
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 13
         }
       }
     ],

@@ -21,37 +21,37 @@ description: "Master offensive strategies for standing back control top position
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke from Standing Back Control",
-      "text": "From this position, attempt Rear Naked Choke from Standing Back Control. This technique is attempted in 30% of exchanges from this position.",
+      "text": "From this position, attempt Rear Naked Choke from Standing Back Control. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Takedown to Grounded Back Control",
-      "text": "From this position, attempt Takedown to Grounded Back Control. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Takedown to Grounded Back Control. This technique is attempted in 21% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Body Triangle Lock",
-      "text": "From this position, attempt Body Triangle Lock. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Body Triangle Lock. This technique is attempted in 6% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Back Transition",
-      "text": "From this position, attempt Armbar from Back Transition. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Armbar from Back Transition. This technique is attempted in 1% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crucifix Transition",
-      "text": "From this position, attempt Crucifix Transition. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Crucifix Transition. This technique is attempted in 1% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Truck Position Entry",
-      "text": "From this position, attempt Truck Position Entry. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Truck Position Entry. This technique is attempted in 3% of exchanges from this position.",
       "position": 6
     }
   ],

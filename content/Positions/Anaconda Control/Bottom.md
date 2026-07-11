@@ -21,37 +21,37 @@ description: "Master defensive strategies for surviving Anaconda Control from bo
     {
       "@type": "HowToStep",
       "name": "Execute Defensive Roll",
-      "text": "From this position, attempt Defensive Roll. This technique is attempted in 40% of exchanges from this position.",
+      "text": "From this position, attempt Defensive Roll. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction",
-      "text": "From this position, attempt Arm Extraction. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Arm Extraction. This technique is attempted in 19% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Anaconda Grip Break to Front Headlock",
-      "text": "From this position, attempt Anaconda Grip Break to Front Headlock. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Anaconda Grip Break to Front Headlock. This technique is attempted in 16% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Posture from Anaconda",
-      "text": "From this position, attempt Frame and Posture from Anaconda. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Frame and Posture from Anaconda. This technique is attempted in 21% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Roll Defense from Anaconda",
-      "text": "From this position, attempt Roll Defense from Anaconda. This technique is attempted in 3% of exchanges from this position.",
+      "text": "From this position, attempt Roll Defense from Anaconda. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],

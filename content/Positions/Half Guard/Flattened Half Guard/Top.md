@@ -21,25 +21,25 @@ description: "Learn pressure passing from flattened half guard top. Complete you
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice from Half",
-      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 38% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 17% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crossface Pass",
-      "text": "From this position, attempt Crossface Pass. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Crossface Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Pass",
-      "text": "From this position, attempt Underhook Pass. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Pass. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Back Take. This technique is attempted in 4% of exchanges from this position.",
       "position": 4
     },
     {

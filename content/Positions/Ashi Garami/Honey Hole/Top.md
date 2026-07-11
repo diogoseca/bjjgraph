@@ -21,13 +21,13 @@ description: "Master Honey Hole Top in BJJ. Advanced leg entanglement control wi
     {
       "@type": "HowToStep",
       "name": "Execute Outside Heel Hook from Honey Hole",
-      "text": "From this position, attempt Outside Heel Hook from Honey Hole. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Outside Heel Hook from Honey Hole. This technique is attempted in 7% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Heel Hook from Honey Hole",
-      "text": "From this position, attempt Heel Hook from Honey Hole. This technique is attempted in 42% of exchanges from this position.",
+      "text": "From this position, attempt Heel Hook from Honey Hole. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
@@ -39,7 +39,7 @@ description: "Master Honey Hole Top in BJJ. Advanced leg entanglement control wi
     {
       "@type": "HowToStep",
       "name": "Execute Back Take from Ashi",
-      "text": "From this position, attempt Back Take from Ashi. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Back Take from Ashi. This technique is attempted in 6% of exchanges from this position.",
       "position": 4
     },
     {
@@ -51,7 +51,7 @@ description: "Master Honey Hole Top in BJJ. Advanced leg entanglement control wi
     {
       "@type": "HowToStep",
       "name": "Execute Backside 50-50 Entry from Ashi",
-      "text": "From this position, attempt Backside 50-50 Entry from Ashi. This technique is attempted in 2% of exchanges from this position.",
+      "text": "From this position, attempt Backside 50-50 Entry from Ashi. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],

@@ -293,71 +293,71 @@
       {
         "transition": "Turtle to Back Control",
         "attempt_probability": {
-          "gi": 31,
-          "nogi": 31
+          "gi": 21,
+          "nogi": 18
         }
       },
       {
         "transition": "Crucifix from Turtle",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 7,
+          "nogi": 7
         }
       },
       {
         "transition": "Darce Setup",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 7,
+          "nogi": 12
         }
       },
       {
         "transition": "Anaconda Setup",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 5,
+          "nogi": 7
         }
       },
       {
         "transition": "Front Headlock to Back",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 11,
+          "nogi": 11
         }
       },
       {
         "transition": "Truck Entry",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 4,
+          "nogi": 7
         }
       },
       {
         "transition": "Guillotine Setup",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 5,
+          "nogi": 8
         }
       },
       {
         "transition": "Posture from Chill Dog",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 13,
+          "nogi": 10
         }
       },
       {
         "transition": "Stack from Chill Dog",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 10,
+          "nogi": 8
         }
       },
       {
         "transition": "Guard Pass from Chill Dog",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 17,
+          "nogi": 12
         }
       }
     ],
@@ -647,64 +647,64 @@
       {
         "transition": "Granby Roll to Guard",
         "attempt_probability": {
-          "gi": 14,
+          "gi": 12,
           "nogi": 14
         }
       },
       {
         "transition": "Granby to Closed Guard",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 10,
+          "nogi": 9
         }
       },
       {
         "transition": "Technical Stand-up",
         "attempt_probability": {
-          "gi": 32,
-          "nogi": 32
+          "gi": 9,
+          "nogi": 10
         }
       },
       {
         "transition": "Rolling to Guard",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 12,
+          "nogi": 12
         }
       },
       {
         "transition": "Turtle to Guard",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 15,
+          "nogi": 14
         }
       },
       {
         "transition": "Hip Escape to Guard",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Escape Chill Dog",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 15,
+          "nogi": 15
         }
       },
       {
         "transition": "Roll from Chill Dog",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Sweep from Chill Dog",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 8,
+          "nogi": 7
         }
       }
     ],

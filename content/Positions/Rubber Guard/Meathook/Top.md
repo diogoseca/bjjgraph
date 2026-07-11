@@ -21,25 +21,25 @@ description: "Defend and escape Meathook from top. Complete defensive guide cove
     {
       "@type": "HowToStep",
       "name": "Execute Sprawl",
-      "text": "From this position, attempt Sprawl. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Sprawl. This technique is attempted in 30% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guard Opening Sequence",
-      "text": "From this position, attempt Guard Opening Sequence. This technique is attempted in 31% of exchanges from this position.",
+      "text": "From this position, attempt Guard Opening Sequence. This technique is attempted in 23% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Posture Recovery from Meathook",
-      "text": "From this position, attempt Posture Recovery from Meathook. This technique is attempted in 42% of exchanges from this position.",
+      "text": "From this position, attempt Posture Recovery from Meathook. This technique is attempted in 26% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass from Meathook",
-      "text": "From this position, attempt Stack Pass from Meathook. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Stack Pass from Meathook. This technique is attempted in 21% of exchanges from this position.",
       "position": 4
     }
   ],

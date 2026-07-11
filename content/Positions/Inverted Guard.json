@@ -329,49 +329,49 @@
       {
         "transition": "Stack Pass",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 16
+          "gi": 14,
+          "nogi": 12
         }
       },
       {
         "transition": "Headquarters Pass",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 9,
+          "nogi": 10
         }
       },
       {
         "transition": "Smash Pass",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 10,
+          "nogi": 9
         }
       },
       {
         "transition": "Toreando Pass",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 12,
+          "nogi": 14
         }
       },
       {
         "transition": "Leg Drag Pass",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 15,
+          "nogi": 17
         }
       },
       {
         "transition": "Pressure Pass",
         "attempt_probability": {
           "gi": 9,
-          "nogi": 9
+          "nogi": 8
         }
       },
       {
         "transition": "Back Step Pass",
         "attempt_probability": {
-          "gi": 8,
+          "gi": 7,
           "nogi": 8
         }
       },
@@ -379,35 +379,35 @@
         "transition": "Stack Pass from Inversion",
         "attempt_probability": {
           "gi": 6,
-          "nogi": 6
+          "nogi": 5
         }
       },
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 6,
+          "nogi": 6
         }
       },
       {
         "transition": "Leg Weave Pass",
         "attempt_probability": {
           "gi": 4,
-          "nogi": 4
+          "nogi": 3
         }
       },
       {
         "transition": "Stack from Inverted",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 4,
+          "nogi": 4
         }
       },
       {
         "transition": "Toreando from Inverted",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 4,
+          "nogi": 4
         }
       }
     ]
@@ -696,85 +696,85 @@
       {
         "transition": "Berimbolo Entry",
         "attempt_probability": {
-          "gi": 26,
-          "nogi": 26
+          "gi": 18,
+          "nogi": 11
         }
       },
       {
         "transition": "Rolling Back Take",
         "attempt_probability": {
           "gi": 11,
-          "nogi": 11
+          "nogi": 14
         }
       },
       {
         "transition": "Single Leg X Entry",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 12,
+          "nogi": 15
         }
       },
       {
         "transition": "X-Guard Sweep",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 10
         }
       },
       {
         "transition": "Granby Roll to Guard",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 11,
+          "nogi": 14
         }
       },
       {
         "transition": "Omoplata from Inverted Guard",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 5,
+          "nogi": 3
         }
       },
       {
         "transition": "Roll to Truck",
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 4
+        }
+      },
+      {
+        "transition": "Reverse X-Guard Entry",
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 7
+        }
+      },
+      {
+        "transition": "Technical Stand-up",
         "attempt_probability": {
           "gi": 5,
           "nogi": 5
         }
       },
       {
-        "transition": "Reverse X-Guard Entry",
-        "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
-        }
-      },
-      {
-        "transition": "Technical Stand-up",
-        "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
-        }
-      },
-      {
         "transition": "Bolo Sweep",
         "attempt_probability": {
           "gi": 8,
-          "nogi": 8
+          "nogi": 4
         }
       },
       {
         "transition": "Reverse De La Riva Recovery",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 10,
+          "nogi": 9
         }
       },
       {
         "transition": "Sweep from Inverted Guard",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 4,
+          "nogi": 4
         }
       }
     ]

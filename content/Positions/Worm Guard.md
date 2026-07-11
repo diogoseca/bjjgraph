@@ -137,25 +137,25 @@ At its core, Worm Guard is about creating a web of control using the gi that res
 ### Available Transitions
 
 
-- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (33% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (19% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (11% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (17% of attempts)
 
-- **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** (10% of attempts)
+- **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** (11% of attempts)
 
-- **[[Transitions/Lapel Elevator Sweep/Attacker|Lapel Elevator Sweep]]** (10% of attempts)
+- **[[Transitions/Lapel Elevator Sweep/Attacker|Lapel Elevator Sweep]]** (0% of attempts)
 
-- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (13% of attempts)
+- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (29% of attempts)
 
-- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (10% of attempts)
+- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (18% of attempts)
 
-- **[[Transitions/Bolo Sweep/Attacker|Bolo Sweep]]** (8% of attempts)
+- **[[Transitions/Bolo Sweep/Attacker|Bolo Sweep]]** (6% of attempts)
 
-- **[[Transitions/Collar Drag from Worm Guard/Attacker|Collar Drag from Worm Guard]]** (3% of attempts)
+- **[[Transitions/Collar Drag from Worm Guard/Attacker|Collar Drag from Worm Guard]]** (0% of attempts)
 
-- **[[Transitions/Worm Guard Sweep/Attacker|Worm Guard Sweep]]** (1% of attempts)
+- **[[Transitions/Worm Guard Sweep/Attacker|Worm Guard Sweep]]** (0% of attempts)
 
-- **[[Transitions/Worm to Squid Guard/Attacker|Worm to Squid Guard]]** (1% of attempts)
+- **[[Transitions/Worm to Squid Guard/Attacker|Worm to Squid Guard]]** (0% of attempts)
 
 
 ### Common Mistakes
@@ -216,21 +216,21 @@ At its core, Worm Guard is about creating a web of control using the gi that res
 ### Available Transitions
 
 
-- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (24% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (16% of attempts)
 
-- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (15% of attempts)
+- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (20% of attempts)
 
 - **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (13% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (14% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (20% of attempts)
 
-- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (13% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (11% of attempts)
 
-- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (12% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (8% of attempts)
 
-- **[[Transitions/Backstep from Worm Guard/Attacker|Backstep from Worm Guard]]** (6% of attempts)
+- **[[Transitions/Backstep from Worm Guard/Attacker|Backstep from Worm Guard]]** (12% of attempts)
 
-- **[[Transitions/Lapel Strip from Worm Guard/Attacker|Lapel Strip from Worm Guard]]** (3% of attempts)
+- **[[Transitions/Lapel Strip from Worm Guard/Attacker|Lapel Strip from Worm Guard]]** (0% of attempts)
 
 
 ### Common Mistakes

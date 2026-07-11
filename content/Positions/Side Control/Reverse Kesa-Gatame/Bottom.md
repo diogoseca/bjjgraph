@@ -21,25 +21,25 @@ description: "Master Reverse Kesa-Gatame Bottom escape techniques. Complete defe
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Guard",
-      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 33% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Shrimp Escape",
-      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
@@ -51,7 +51,7 @@ description: "Master Reverse Kesa-Gatame Bottom escape techniques. Complete defe
     {
       "@type": "HowToStep",
       "name": "Execute Bridge from Reverse Kesa-Gatame",
-      "text": "From this position, attempt Bridge from Reverse Kesa-Gatame. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Bridge from Reverse Kesa-Gatame. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],

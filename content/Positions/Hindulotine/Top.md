@@ -21,37 +21,37 @@ description: "Offensive guillotine variation from top position using body weight
     {
       "@type": "HowToStep",
       "name": "Execute Guillotine Choke from Hindulotine",
-      "text": "From this position, attempt Guillotine Choke from Hindulotine. This technique is attempted in 42% of exchanges from this position.",
+      "text": "From this position, attempt Guillotine Choke from Hindulotine. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take from Top",
-      "text": "From this position, attempt Back Take from Top. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Back Take from Top. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Front Headlock to Back",
-      "text": "From this position, attempt Front Headlock to Back. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Front Headlock to Back. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Snap Down to Front Headlock",
-      "text": "From this position, attempt Snap Down to Front Headlock. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Snap Down to Front Headlock. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hindulotine from Hindulotine",
-      "text": "From this position, attempt Hindulotine from Hindulotine. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Hindulotine from Hindulotine. This technique is attempted in 17% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Finish from Hindulotine",
-      "text": "From this position, attempt Finish from Hindulotine. This technique is attempted in 2% of exchanges from this position.",
+      "text": "From this position, attempt Finish from Hindulotine. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],

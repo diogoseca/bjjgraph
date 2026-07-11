@@ -113,78 +113,78 @@
       {
         "transition": "Kneebar from Leg Entanglement",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 8,
+          "nogi": 7
         }
       },
       {
         "transition": "Outside Heel Hook from Leg Entanglement",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 1,
+          "nogi": 18
         }
       },
       {
         "transition": "Ankle Lock Finish",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 17,
+          "nogi": 10
         }
       },
       {
         "transition": "Outside Ashi Entry",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 13,
+          "nogi": 12
         }
       },
       {
         "transition": "Toe Hold from Leg Entanglement",
         "attempt_probability": {
           "gi": 9,
-          "nogi": 9
+          "nogi": 8
         }
       },
       {
         "transition": "Saddle Entry from Top",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 4,
+          "nogi": 13
         }
       },
       {
         "transition": "Back Take from Ashi",
-        "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
-        }
-      },
-      {
-        "transition": "50-50 Entry",
-        "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
-        }
-      },
-      {
-        "transition": "Ashi Entry from Leg Entanglement",
         "attempt_probability": {
           "gi": 6,
           "nogi": 6
         }
       },
       {
+        "transition": "50-50 Entry",
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 6
+        }
+      },
+      {
+        "transition": "Ashi Entry from Leg Entanglement",
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 10
+        }
+      },
+      {
         "transition": "Leg Extraction Pass",
         "attempt_probability": {
-          "gi": 6,
+          "gi": 11,
           "nogi": 6
         }
       },
       {
         "transition": "Guard Pass from Leg Entanglement",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 9,
+          "nogi": 4
         }
       }
     ],
@@ -498,64 +498,64 @@
       {
         "transition": "Leg Extraction Escape from Entanglement",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 18
+          "gi": 24,
+          "nogi": 20
         }
       },
       {
         "transition": "Guard Recovery from Leg Entanglement",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 16
+          "gi": 20,
+          "nogi": 17
         }
       },
       {
         "transition": "Counter Sweep from Leg Entanglement",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 9,
+          "nogi": 8
         }
       },
       {
         "transition": "Inversion Escape from Leg Entanglement",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 10,
+          "nogi": 11
         }
       },
       {
         "transition": "Counter Leg Attack",
         "attempt_probability": {
-          "gi": 12,
+          "gi": 9,
           "nogi": 12
         }
       },
       {
         "transition": "Counter-entangle to 50-50 Guard",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 14,
+          "nogi": 13
         }
       },
       {
         "transition": "Inside Heel Hook from Ushiro",
         "attempt_probability": {
-          "gi": 8,
+          "gi": 1,
           "nogi": 8
         }
       },
       {
         "transition": "Kneebar from Ushiro",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 5,
+          "nogi": 4
         }
       },
       {
         "transition": "Ankle Lock Finish",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 8,
+          "nogi": 7
         }
       }
     ],

@@ -21,37 +21,37 @@ description: "Master Reverse Kesa-Gatame Top in BJJ. Complete guide covering con
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 24% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Reverse Kesa-Gatame",
-      "text": "From this position, attempt Kimura from Reverse Kesa-Gatame. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Kimura from Reverse Kesa-Gatame. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Americana from Reverse Kesa-Gatame",
-      "text": "From this position, attempt Americana from Reverse Kesa-Gatame. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Americana from Reverse Kesa-Gatame. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Triangle from Reverse Kesa-Gatame",
-      "text": "From this position, attempt Arm Triangle from Reverse Kesa-Gatame. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Arm Triangle from Reverse Kesa-Gatame. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Back Take. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],

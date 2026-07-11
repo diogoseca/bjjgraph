@@ -306,71 +306,71 @@
       {
         "transition": "Toreando Pass",
         "attempt_probability": {
-          "gi": 22,
-          "nogi": 22
+          "gi": 16,
+          "nogi": 17
         }
       },
       {
         "transition": "Leg Drag Pass",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 14,
+          "nogi": 15
         }
       },
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 15,
+          "nogi": 14
         }
       },
       {
         "transition": "Double Under Pass",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 12,
+          "nogi": 9
         }
       },
       {
         "transition": "X Pass",
-        "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
-        }
-      },
-      {
-        "transition": "Long Step Pass",
-        "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
-        }
-      },
-      {
-        "transition": "Stack Pass",
         "attempt_probability": {
           "gi": 9,
           "nogi": 9
         }
       },
       {
+        "transition": "Long Step Pass",
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 7
+        }
+      },
+      {
+        "transition": "Stack Pass",
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 9
+        }
+      },
+      {
         "transition": "Back Step",
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 6
+        }
+      },
+      {
+        "transition": "Guard Pass from Standing Guard",
         "attempt_probability": {
           "gi": 8,
           "nogi": 8
         }
       },
       {
-        "transition": "Guard Pass from Standing Guard",
-        "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
-        }
-      },
-      {
         "transition": "Takedown from Standing Guard",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 6,
+          "nogi": 6
         }
       }
     ],
@@ -672,35 +672,35 @@
       {
         "transition": "Pull Guard from Ground",
         "attempt_probability": {
-          "gi": 45,
-          "nogi": 45
+          "gi": 21,
+          "nogi": 12
         }
       },
       {
         "transition": "Sitting Guard Pull",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 16,
+          "nogi": 12
         }
       },
       {
         "transition": "Ankle Pick",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 11,
+          "nogi": 12
         }
       },
       {
         "transition": "Arm Drag to Back",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 12
         }
       },
       {
         "transition": "Rolling Guard Pull",
         "attempt_probability": {
-          "gi": 5,
+          "gi": 7,
           "nogi": 5
         }
       },
@@ -708,28 +708,28 @@
         "transition": "Double Leg Entry",
         "attempt_probability": {
           "gi": 8,
-          "nogi": 8
+          "nogi": 12
         }
       },
       {
         "transition": "Single Leg Entry",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 10,
+          "nogi": 13
         }
       },
       {
         "transition": "Snap Down to Front Headlock",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 7,
+          "nogi": 11
         }
       },
       {
         "transition": "Sweep from Standing Guard",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 11,
+          "nogi": 11
         }
       }
     ],

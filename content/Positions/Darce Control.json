@@ -233,21 +233,21 @@
       {
         "transition": "Darce Choke from Darce Control",
         "attempt_probability": {
-          "gi": 54,
-          "nogi": 54
+          "gi": 34,
+          "nogi": 34
         }
       },
       {
         "transition": "Turtle to Back Take",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 17
+          "gi": 12,
+          "nogi": 12
         }
       },
       {
         "transition": "Switch to Anaconda Configuration",
         "attempt_probability": {
-          "gi": 12,
+          "gi": 11,
           "nogi": 12
         }
       },
@@ -255,28 +255,28 @@
         "transition": "Side Control to Mount",
         "attempt_probability": {
           "gi": 9,
-          "nogi": 9
+          "nogi": 8
         }
       },
       {
         "transition": "Side Control to North-South",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 8,
+          "nogi": 8
         }
       },
       {
         "transition": "Darce Control Maintenance",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 19,
+          "nogi": 19
         }
       },
       {
         "transition": "Darce to Anaconda Switch",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 7,
+          "nogi": 7
         }
       }
     ],
@@ -516,36 +516,36 @@
       {
         "transition": "Arm Extraction",
         "attempt_probability": {
-          "gi": 27,
-          "nogi": 27
+          "gi": 21,
+          "nogi": 20
         }
       },
       {
         "transition": "Granby Roll to Guard",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 10,
+          "nogi": 9
         }
       },
       {
         "transition": "Back Door Escape",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 15,
+          "nogi": 13
         }
       },
       {
         "transition": "Counter Roll to Top",
         "attempt_probability": {
-          "gi": 7,
+          "gi": 5,
           "nogi": 7
         }
       },
       {
         "transition": "Step Over Escape",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 11,
+          "nogi": 12
         }
       },
       {
@@ -558,15 +558,15 @@
       {
         "transition": "Rolling to Guard",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 11,
+          "nogi": 10
         }
       },
       {
         "transition": "Frame Escape from Darce",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 13,
+          "nogi": 15
         }
       }
     ],

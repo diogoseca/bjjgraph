@@ -21,37 +21,37 @@ description: "Master De La Riva Guard Bottom in BJJ. Hook-based offensive guard 
     {
       "@type": "HowToStep",
       "name": "Execute De La Riva Sweep",
-      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute De La Riva to X-Guard Transition",
-      "text": "From this position, attempt De La Riva to X-Guard Transition. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt De La Riva to X-Guard Transition. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Berimbolo Entry",
-      "text": "From this position, attempt Berimbolo Entry. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Berimbolo Entry. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Entry",
-      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 22% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Waiter Sweep",
-      "text": "From this position, attempt Waiter Sweep. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Waiter Sweep. This technique is attempted in 3% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Balloon Sweep",
-      "text": "From this position, attempt Balloon Sweep. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Balloon Sweep. This technique is attempted in 2% of exchanges from this position.",
       "position": 6
     }
   ],

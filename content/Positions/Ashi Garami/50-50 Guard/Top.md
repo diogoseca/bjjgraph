@@ -21,37 +21,37 @@ description: "Master 50-50 Guard Top position in BJJ. Complete guide covering le
     {
       "@type": "HowToStep",
       "name": "Execute Heel Hook from 50-50 Guard",
-      "text": "From this position, attempt Heel Hook from 50-50 Guard. This technique is attempted in 29% of exchanges from this position.",
+      "text": "From this position, attempt Heel Hook from 50-50 Guard. This technique is attempted in 22% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar entry",
-      "text": "From this position, attempt Kneebar entry. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Kneebar entry. This technique is attempted in 6% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Calf Slicer from 50-50 Guard",
-      "text": "From this position, attempt Calf Slicer from 50-50 Guard. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Calf Slicer from 50-50 Guard. This technique is attempted in 2% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take from 50-50",
-      "text": "From this position, attempt Back Take from 50-50. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Back Take from 50-50. This technique is attempted in 7% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute 50-50 Guard to Outside Ashi",
-      "text": "From this position, attempt 50-50 Guard to Outside Ashi. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt 50-50 Guard to Outside Ashi. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute 50-50 Guard to Inside Ashi",
-      "text": "From this position, attempt 50-50 Guard to Inside Ashi. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt 50-50 Guard to Inside Ashi. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],

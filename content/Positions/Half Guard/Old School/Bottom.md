@@ -21,19 +21,19 @@ description: "Master Old School Bottom position in BJJ half guard. Classic 10th 
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 48% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 21% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Electric Chair Transition",
-      "text": "From this position, attempt Electric Chair Transition. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Electric Chair Transition. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard to Back Take",
-      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
@@ -45,13 +45,13 @@ description: "Master Old School Bottom position in BJJ half guard. Classic 10th 
     {
       "@type": "HowToStep",
       "name": "Execute Dogfight Position",
-      "text": "From this position, attempt Dogfight Position. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Dogfight Position. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Old School to Half Guard",
-      "text": "From this position, attempt Old School to Half Guard. This technique is attempted in 2% of exchanges from this position.",
+      "text": "From this position, attempt Old School to Half Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],

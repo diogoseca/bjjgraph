@@ -258,64 +258,64 @@
       {
         "transition": "Smash Pass",
         "attempt_probability": {
-          "gi": 30,
-          "nogi": 30
+          "gi": 10,
+          "nogi": 9
         }
       },
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 11,
+          "nogi": 10
         }
       },
       {
         "transition": "Long Step Pass",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 7,
+          "nogi": 7
         }
       },
       {
         "transition": "Leg Drag Pass",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Butterfly Pass",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 3,
+          "nogi": 3
         }
       },
       {
         "transition": "Back Step",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 15,
+          "nogi": 16
         }
       },
       {
         "transition": "Backstep Pass from Reverse X-Guard",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 17,
+          "nogi": 18
         }
       },
       {
         "transition": "Knee Slice from Reverse X-Guard",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 11,
+          "nogi": 10
         }
       },
       {
         "transition": "Standing Escape from Reverse X-Guard",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 17,
+          "nogi": 18
         }
       }
     ],
@@ -571,50 +571,50 @@
       {
         "transition": "Reverse X-Guard Sweep",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 28,
+          "nogi": 22
         }
       },
       {
         "transition": "Elevation Sweep to Mount",
         "attempt_probability": {
           "gi": 14,
-          "nogi": 14
+          "nogi": 11
         }
       },
       {
         "transition": "Reverse X to Back Take",
         "attempt_probability": {
-          "gi": 12,
+          "gi": 11,
           "nogi": 12
         }
       },
       {
         "transition": "Reverse X-Guard to Standard X-Guard",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 18
+          "gi": 17,
+          "nogi": 13
         }
       },
       {
         "transition": "Reverse X to Single Leg X Entry",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 14,
+          "nogi": 17
         }
       },
       {
         "transition": "Reverse X to Ashi Garami Entry",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 8,
+          "nogi": 18
         }
       },
       {
         "transition": "Technical Stand-up",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 8,
+          "nogi": 7
         }
       }
     ],

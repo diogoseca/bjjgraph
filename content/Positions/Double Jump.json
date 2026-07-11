@@ -277,50 +277,50 @@
       {
         "transition": "Turtle to Back Control",
         "attempt_probability": {
-          "gi": 41,
-          "nogi": 41
+          "gi": 22,
+          "nogi": 23
         }
       },
       {
         "transition": "Crab Ride to Back",
         "attempt_probability": {
-          "gi": 22,
-          "nogi": 22
+          "gi": 13,
+          "nogi": 14
         }
       },
       {
         "transition": "Turtle to Truck",
         "attempt_probability": {
-          "gi": 14,
+          "gi": 13,
           "nogi": 14
         }
       },
       {
         "transition": "Rolling Back Take",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 15,
+          "nogi": 15
         }
       },
       {
         "transition": "Turtle to Rodeo Ride",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 10,
+          "nogi": 11
         }
       },
       {
         "transition": "Double Jump to Mount",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 14,
+          "nogi": 12
         }
       },
       {
         "transition": "Double Jump to Side Control",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 13,
+          "nogi": 11
         }
       }
     ],
@@ -604,8 +604,8 @@
       {
         "transition": "Deep Half Entry",
         "attempt_probability": {
-          "gi": 48,
-          "nogi": 48
+          "gi": 12,
+          "nogi": 12
         }
       },
       {
@@ -618,71 +618,71 @@
       {
         "transition": "Waiter Sweep",
         "attempt_probability": {
-          "gi": 8,
+          "gi": 9,
           "nogi": 8
         }
       },
       {
         "transition": "100% Sweep",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Half Guard to Back Take",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 11,
+          "nogi": 10
         }
       },
       {
         "transition": "Electric Chair Transition",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 3,
+          "nogi": 6
         }
       },
       {
         "transition": "Lockdown Recovery",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 8,
+          "nogi": 10
         }
       },
       {
         "transition": "X-Guard Sweep",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 6,
+          "nogi": 5
         }
       },
       {
         "transition": "Single Leg X Entry",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 5,
+          "nogi": 8
         }
       },
       {
         "transition": "Escape Double Jump",
         "attempt_probability": {
-          "gi": 0,
-          "nogi": 0
+          "gi": 10,
+          "nogi": 8
         }
       },
       {
         "transition": "Reguard from Double Jump",
         "attempt_probability": {
-          "gi": 0,
-          "nogi": 0
+          "gi": 8,
+          "nogi": 6
         }
       },
       {
         "transition": "Sweep from Double Jump",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 6,
+          "nogi": 5
         }
       }
     ],

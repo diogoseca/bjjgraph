@@ -21,7 +21,7 @@ description: "Master Open Guard Bottom in BJJ. Complete guide covering setup, co
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Sweep",
-      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 23% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
@@ -33,25 +33,25 @@ description: "Master Open Guard Bottom in BJJ. Complete guide covering setup, co
     {
       "@type": "HowToStep",
       "name": "Execute Sickle Sweep",
-      "text": "From this position, attempt Sickle Sweep. This technique is attempted in 3% of exchanges from this position.",
+      "text": "From this position, attempt Sickle Sweep. This technique is attempted in 4% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Tripod Sweep",
-      "text": "From this position, attempt Tripod Sweep. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Tripod Sweep. This technique is attempted in 6% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Elevator Sweep",
-      "text": "From this position, attempt Elevator Sweep. This technique is attempted in 2% of exchanges from this position.",
+      "text": "From this position, attempt Elevator Sweep. This technique is attempted in 3% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
-      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 2% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 1% of exchanges from this position.",
       "position": 6
     }
   ],

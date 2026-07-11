@@ -21,31 +21,31 @@ description: "Master Double Unders top position in BJJ. Dominant pressure passin
     {
       "@type": "HowToStep",
       "name": "Execute Double Under Pass",
-      "text": "From this position, attempt Double Under Pass. This technique is attempted in 33% of exchanges from this position.",
+      "text": "From this position, attempt Double Under Pass. This technique is attempted in 26% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Weave Pass",
-      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Back Take. This technique is attempted in 7% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Over-Under Pass",
-      "text": "From this position, attempt Over-Under Pass. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Over-Under Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Body Lock Pass",
-      "text": "From this position, attempt Body Lock Pass. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Body Lock Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {

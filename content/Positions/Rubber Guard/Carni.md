@@ -139,13 +139,13 @@ From the attacking perspective (bottom), the Carni offers exceptional offensive 
 ### Available Transitions
 
 
-- **[[Heel Hook from Carni/Attacker|Heel Hook from Carni]]** (49% of attempts)
+- **[[Heel Hook from Carni/Attacker|Heel Hook from Carni]]** (45% of attempts)
 
-- **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (23% of attempts)
+- **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (21% of attempts)
 
-- **[[Calf Slicer from Carni/Attacker|Calf Slicer from Carni]]** (20% of attempts)
+- **[[Calf Slicer from Carni/Attacker|Calf Slicer from Carni]]** (18% of attempts)
 
-- **[[Transitions/Carni to Gogoplata Setup/Attacker|Carni to Gogoplata Setup]]** (8% of attempts)
+- **[[Transitions/Carni to Gogoplata Setup/Attacker|Carni to Gogoplata Setup]]** (16% of attempts)
 
 
 ### Common Mistakes
@@ -210,13 +210,13 @@ From the attacking perspective (bottom), the Carni offers exceptional offensive 
 ### Available Transitions
 
 
-- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (42% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (29% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (36% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (28% of attempts)
 
-- **[[Transitions/Posture Recovery from Carni/Attacker|Posture Recovery from Carni]]** (14% of attempts)
+- **[[Transitions/Posture Recovery from Carni/Attacker|Posture Recovery from Carni]]** (23% of attempts)
 
-- **[[Transitions/Stack Pass from Carni/Attacker|Stack Pass from Carni]]** (8% of attempts)
+- **[[Transitions/Stack Pass from Carni/Attacker|Stack Pass from Carni]]** (20% of attempts)
 
 
 ### Common Mistakes

@@ -21,37 +21,37 @@ description: "Master Clamp Guard in BJJ. Complete guide to trapping opponent's a
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Clamp Guard",
-      "text": "From this position, attempt Armbar from Clamp Guard. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Armbar from Clamp Guard. This technique is attempted in 17% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle from Clamp Guard",
-      "text": "From this position, attempt Triangle from Clamp Guard. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Triangle from Clamp Guard. This technique is attempted in 20% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Closed Guard to Omoplata",
-      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Scissor Sweep",
-      "text": "From this position, attempt Scissor Sweep. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Scissor Sweep. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Bump Sweep",
-      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],

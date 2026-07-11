@@ -306,64 +306,64 @@
       {
         "transition": "North-South to Kimura",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 11,
+          "nogi": 11
         }
       },
       {
         "transition": "Side Control to Mount",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
-        }
-      },
-      {
-        "transition": "Kimura to Back Take",
-        "attempt_probability": {
           "gi": 13,
           "nogi": 13
         }
       },
       {
+        "transition": "Kimura to Back Take",
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 20
+        }
+      },
+      {
         "transition": "Knee on Belly",
         "attempt_probability": {
-          "gi": 8,
+          "gi": 10,
           "nogi": 8
         }
       },
       {
         "transition": "Arm Triangle Setup",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Americana from Kimura Trap",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 7,
+          "nogi": 7
         }
       },
       {
         "transition": "Kimura Defense Arm Extraction",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 7,
+          "nogi": 7
         }
       },
       {
         "transition": "Kimura Trap to Reverse Scarf Hold",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 7,
+          "nogi": 6
         }
       },
       {
         "transition": "Kimura from Kimura Trap",
         "attempt_probability": {
-          "gi": 33,
-          "nogi": 33
+          "gi": 21,
+          "nogi": 19
         }
       }
     ]
@@ -618,78 +618,78 @@
       {
         "transition": "Old School Sweep",
         "attempt_probability": {
-          "gi": 31,
-          "nogi": 31
+          "gi": 15,
+          "nogi": 11
         }
       },
       {
         "transition": "Kimura to Back Take",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 16,
+          "nogi": 16
         }
       },
       {
         "transition": "Rolling Kimura",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 10,
+          "nogi": 13
         }
       },
       {
         "transition": "Kimura Sweep",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 15,
+          "nogi": 14
         }
       },
       {
         "transition": "Underhook Sweep from Half",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 12,
+          "nogi": 11
         }
       },
       {
         "transition": "Half Guard to Back Take",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 10,
+          "nogi": 11
         }
       },
       {
         "transition": "Lockdown Recovery",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 4,
+          "nogi": 7
         }
       },
       {
         "transition": "Electric Chair Transition",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 3,
+          "nogi": 5
         }
       },
       {
         "transition": "Kimura Defense",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 6,
+          "nogi": 5
         }
       },
       {
         "transition": "Kimura Counter via Roll",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 5,
+          "nogi": 4
         }
       },
       {
         "transition": "Rolling Kimura Escape",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 4,
+          "nogi": 3
         }
       }
     ]

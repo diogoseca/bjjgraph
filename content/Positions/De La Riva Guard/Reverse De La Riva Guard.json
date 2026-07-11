@@ -299,71 +299,71 @@
       {
         "transition": "RDLR Pass",
         "attempt_probability": {
-          "gi": 20,
-          "nogi": 20
+          "gi": 10,
+          "nogi": 8
         }
       },
       {
         "transition": "Leg Drag Pass",
         "attempt_probability": {
           "gi": 13,
-          "nogi": 13
+          "nogi": 12
         }
       },
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 19,
+          "nogi": 16
         }
       },
       {
         "transition": "Smash Pass",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 10,
+          "nogi": 8
         }
       },
       {
         "transition": "Toreando Pass",
         "attempt_probability": {
           "gi": 6,
-          "nogi": 6
+          "nogi": 8
         }
       },
       {
         "transition": "Long Step Pass",
         "attempt_probability": {
           "gi": 9,
-          "nogi": 9
+          "nogi": 8
         }
       },
       {
         "transition": "Body Lock Pass",
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 14
+        }
+      },
+      {
+        "transition": "Headquarters Pass",
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 8
+        }
+      },
+      {
+        "transition": "Back Step Pass",
         "attempt_probability": {
           "gi": 8,
           "nogi": 8
         }
       },
       {
-        "transition": "Headquarters Pass",
-        "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
-        }
-      },
-      {
-        "transition": "Back Step Pass",
-        "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
-        }
-      },
-      {
         "transition": "RDLR Backstep Counter",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 10,
+          "nogi": 10
         }
       }
     ],
@@ -634,64 +634,64 @@
       {
         "transition": "Waiter Sweep",
         "attempt_probability": {
-          "gi": 26,
-          "nogi": 26
+          "gi": 10,
+          "nogi": 9
         }
       },
       {
         "transition": "Berimbolo Entry",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 13,
+          "nogi": 5
         }
       },
       {
         "transition": "De La Riva to X-Guard Transition",
         "attempt_probability": {
-          "gi": 14,
+          "gi": 12,
           "nogi": 14
         }
       },
       {
         "transition": "Single Leg X Entry",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 16
+          "gi": 14,
+          "nogi": 23
         }
       },
       {
         "transition": "Omoplata Sweep",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 4,
+          "nogi": 4
         }
       },
       {
         "transition": "Reverse De La Riva Recovery",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 17,
+          "nogi": 18
         }
       },
       {
         "transition": "Tripod Sweep",
         "attempt_probability": {
           "gi": 7,
-          "nogi": 7
+          "nogi": 6
         }
       },
       {
         "transition": "Kiss of the Dragon from RDLR",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 14,
+          "nogi": 12
         }
       },
       {
         "transition": "RDLR to Crab Ride",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 9,
+          "nogi": 9
         }
       }
     ],

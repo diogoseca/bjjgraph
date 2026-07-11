@@ -293,43 +293,43 @@
       {
         "transition": "Toreando Pass",
         "attempt_probability": {
-          "gi": 37,
-          "nogi": 37
+          "gi": 20,
+          "nogi": 17
         }
       },
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 14,
+          "nogi": 12
         }
       },
       {
         "transition": "Leg Drag Pass",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 13,
+          "nogi": 14
         }
       },
       {
         "transition": "Double Under Pass",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 5,
+          "nogi": 4
         }
       },
       {
         "transition": "Long Step Pass",
         "attempt_probability": {
           "gi": 8,
-          "nogi": 8
+          "nogi": 9
         }
       },
       {
         "transition": "X Pass",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
@@ -342,36 +342,36 @@
       {
         "transition": "Body Lock Pass",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 6,
+          "nogi": 10
         }
       },
       {
         "transition": "Smash Pass",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 7,
+          "nogi": 7
         }
       },
       {
         "transition": "Leg Weave Pass",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 4,
+          "nogi": 4
         }
       },
       {
         "transition": "Knee Cut from Feet on Hips",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 4,
+          "nogi": 5
         }
       },
       {
         "transition": "Pass Feet on Hips Guard",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 4,
+          "nogi": 3
         }
       }
     ],
@@ -654,57 +654,57 @@
       {
         "transition": "Tripod Sweep",
         "attempt_probability": {
-          "gi": 53,
-          "nogi": 53
+          "gi": 18,
+          "nogi": 17
         }
       },
       {
         "transition": "Sickle Sweep",
         "attempt_probability": {
           "gi": 14,
-          "nogi": 14
+          "nogi": 13
         }
       },
       {
         "transition": "Tomoe Nage",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 7,
+          "nogi": 5
         }
       },
       {
         "transition": "Lumberjack Sweep",
         "attempt_probability": {
           "gi": 6,
-          "nogi": 6
+          "nogi": 7
         }
       },
       {
         "transition": "Push Sweep from Feet on Hips",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 8,
+          "nogi": 10
         }
       },
       {
         "transition": "Single Leg X Sweep",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 9,
+          "nogi": 12
         }
       },
       {
         "transition": "De La Riva Sweep",
         "attempt_probability": {
-          "gi": 3,
+          "gi": 6,
           "nogi": 3
         }
       },
       {
         "transition": "Arm Drag Sweep",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 4,
+          "nogi": 7
         }
       },
       {
@@ -717,36 +717,36 @@
       {
         "transition": "Elevator Sweep",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 3,
+          "nogi": 3
         }
       },
       {
         "transition": "X-Guard Sweep",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 5,
+          "nogi": 7
         }
       },
       {
         "transition": "Feet on Hips to De La Riva",
         "attempt_probability": {
-          "gi": 0,
-          "nogi": 0
+          "gi": 10,
+          "nogi": 5
         }
       },
       {
         "transition": "Feet on Hips Sickle Sweep",
         "attempt_probability": {
-          "gi": 0,
-          "nogi": 0
+          "gi": 4,
+          "nogi": 4
         }
       },
       {
         "transition": "Feet on Hips Tripod Sweep",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 4,
+          "nogi": 5
         }
       }
     ],

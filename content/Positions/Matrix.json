@@ -292,78 +292,78 @@
       {
         "transition": "Sprawl Defense",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Crossface Pass",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 13,
+          "nogi": 11
         }
       },
       {
         "transition": "Back Step",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 11,
+          "nogi": 10
         }
       },
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 16,
+          "nogi": 12
         }
       },
       {
         "transition": "Back Take from Top",
         "attempt_probability": {
-          "gi": 26,
-          "nogi": 26
+          "gi": 13,
+          "nogi": 13
         }
       },
       {
         "transition": "Darce from Turtle",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 3,
+          "nogi": 7
         }
       },
       {
         "transition": "Guillotine from Turtle",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 5,
+          "nogi": 7
         }
       },
       {
         "transition": "Anaconda from Turtle",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 2,
+          "nogi": 4
         }
       },
       {
         "transition": "Turtle Flatten to Side Control",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 12,
+          "nogi": 12
         }
       },
       {
         "transition": "Matrix to Back Control",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Matrix to Side Control",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 7,
+          "nogi": 6
         }
       }
     ]
@@ -612,64 +612,64 @@
       {
         "transition": "Matrix Back Take",
         "attempt_probability": {
-          "gi": 54,
-          "nogi": 54
+          "gi": 20,
+          "nogi": 16
         }
       },
       {
         "transition": "Arm Drag to Back",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 10,
+          "nogi": 12
         }
       },
       {
         "transition": "Granby Roll to Guard",
         "attempt_probability": {
-          "gi": 14,
+          "gi": 10,
           "nogi": 14
         }
       },
       {
         "transition": "Rolling to Guard",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 13,
+          "nogi": 14
         }
       },
       {
         "transition": "Berimbolo Entry",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 9,
+          "nogi": 3
         }
       },
       {
         "transition": "Turtle to Guard",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 11,
+          "nogi": 13
         }
       },
       {
         "transition": "Counter Roll from Matrix",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 8,
+          "nogi": 9
         }
       },
       {
         "transition": "Escape Matrix Position",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 11,
+          "nogi": 11
         }
       },
       {
         "transition": "Sweep from Matrix",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 8,
+          "nogi": 8
         }
       }
     ]

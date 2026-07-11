@@ -27,13 +27,13 @@ description: "Master leg drag control from top position. Complete strategic guid
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag to Back Take",
-      "text": "From this position, attempt Leg Drag to Back Take. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag to Back Take. This technique is attempted in 22% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag to Mount",
-      "text": "From this position, attempt Leg Drag to Mount. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag to Mount. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
@@ -45,7 +45,7 @@ description: "Master leg drag control from top position. Complete strategic guid
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag to North-South",
-      "text": "From this position, attempt Leg Drag to North-South. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag to North-South. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {

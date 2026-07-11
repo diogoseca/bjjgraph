@@ -137,17 +137,17 @@ Modern leg lock systems have elevated Leg Knot Position from a scramble scenario
 ### Available Transitions
 
 
-- **[[Transitions/Reverse the entanglement to Outside Ashi/Attacker|Reverse the entanglement to Outside Ashi]]** (26% of attempts)
+- **[[Transitions/Reverse the entanglement to Outside Ashi/Attacker|Reverse the entanglement to Outside Ashi]]** (15% of attempts)
 
-- **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** (18% of attempts)
+- **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** (19% of attempts)
 
 - **[[Transitions/Extract leg and establish Single Leg X/Attacker|Extract leg and establish Single Leg X]]** (18% of attempts)
 
-- **[[Transitions/Limp leg extraction to Half Guard/Attacker|Limp leg extraction to Half Guard]]** (18% of attempts)
+- **[[Transitions/Limp leg extraction to Half Guard/Attacker|Limp leg extraction to Half Guard]]** (23% of attempts)
 
-- **[[Transitions/Clear leg and transition to X-Guard/Attacker|Clear leg and transition to X-Guard]]** (13% of attempts)
+- **[[Transitions/Clear leg and transition to X-Guard/Attacker|Clear leg and transition to X-Guard]]** (15% of attempts)
 
-- **[[Transitions/Reversal from Leg Knot/Attacker|Reversal from Leg Knot]]** (7% of attempts)
+- **[[Transitions/Reversal from Leg Knot/Attacker|Reversal from Leg Knot]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -212,15 +212,15 @@ Modern leg lock systems have elevated Leg Knot Position from a scramble scenario
 ### Available Transitions
 
 
-- **[[Heel Hook from Saddle/Attacker|Heel Hook from Saddle]]** (35% of attempts)
+- **[[Heel Hook from Saddle/Attacker|Heel Hook from Saddle]]** (30% of attempts)
 
 - **[[Transitions/Backstep from Leg Knot/Attacker|Backstep from Leg Knot]]** (20% of attempts)
 
-- **[[Toe Hold from Outside Ashi/Attacker|Toe Hold from Outside Ashi]]** (20% of attempts)
+- **[[Toe Hold from Outside Ashi/Attacker|Toe Hold from Outside Ashi]]** (14% of attempts)
 
-- **[[Transitions/Pressure Pass from Leg Knot/Attacker|Pressure Pass from Leg Knot]]** (15% of attempts)
+- **[[Transitions/Pressure Pass from Leg Knot/Attacker|Pressure Pass from Leg Knot]]** (18% of attempts)
 
-- **[[Transitions/Leg Extraction from Leg Knot/Attacker|Leg Extraction from Leg Knot]]** (10% of attempts)
+- **[[Transitions/Leg Extraction from Leg Knot/Attacker|Leg Extraction from Leg Knot]]** (18% of attempts)
 
 
 ### Common Mistakes

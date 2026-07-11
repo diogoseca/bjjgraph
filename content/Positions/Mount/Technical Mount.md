@@ -137,21 +137,21 @@ Technical Mount is most commonly entered from regular mount during armbar attemp
 ### Available Transitions
 
 
-- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (40% of attempts)
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (18% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (13% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (16% of attempts)
 
-- **[[Transitions/Upa Escape/Attacker|Upa Escape]]** (10% of attempts)
+- **[[Transitions/Upa Escape/Attacker|Upa Escape]]** (11% of attempts)
 
-- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (10% of attempts)
+- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (13% of attempts)
 
-- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (5% of attempts)
+- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (10% of attempts)
 
-- **[[Transitions/Back Turn from Technical Mount/Attacker|Back Turn from Technical Mount]]** (3% of attempts)
+- **[[Transitions/Back Turn from Technical Mount/Attacker|Back Turn from Technical Mount]]** (8% of attempts)
 
-- **[[Transitions/Escape Technical Mount to Half Guard/Attacker|Escape Technical Mount to Half Guard]]** (15% of attempts)
+- **[[Transitions/Escape Technical Mount to Half Guard/Attacker|Escape Technical Mount to Half Guard]]** (14% of attempts)
 
-- **[[Transitions/Bridge from Technical Mount/Attacker|Bridge from Technical Mount]]** (4% of attempts)
+- **[[Transitions/Bridge from Technical Mount/Attacker|Bridge from Technical Mount]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -208,21 +208,21 @@ Technical Mount is most commonly entered from regular mount during armbar attemp
 ### Available Transitions
 
 
-- **[[Armbar from Technical Mount/Attacker|Armbar from Technical Mount]]** (48% of attempts)
+- **[[Armbar from Technical Mount/Attacker|Armbar from Technical Mount]]** (14% of attempts)
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (20% of attempts)
+- **[[Transitions/Back Take/Attacker|Back Take]]** (19% of attempts)
 
-- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (7% of attempts)
+- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (13% of attempts)
 
-- **[[Transitions/Gift Wrap Control/Attacker|Gift Wrap Control]]** (7% of attempts)
+- **[[Transitions/Gift Wrap Control/Attacker|Gift Wrap Control]]** (11% of attempts)
 
-- **[[Transitions/Technical Mount to Back Control/Attacker|Technical Mount to Back Control]]** (5% of attempts)
+- **[[Transitions/Technical Mount to Back Control/Attacker|Technical Mount to Back Control]]** (17% of attempts)
 
-- **[[Transitions/Technical Mount to Mount/Attacker|Technical Mount to Mount]]** (5% of attempts)
+- **[[Transitions/Technical Mount to Mount/Attacker|Technical Mount to Mount]]** (11% of attempts)
 
-- **[[Transitions/Technical Mount to S Mount/Attacker|Technical Mount to S Mount]]** (4% of attempts)
+- **[[Transitions/Technical Mount to S Mount/Attacker|Technical Mount to S Mount]]** (9% of attempts)
 
-- **[[Americana from Technical Mount/Attacker|Americana from Technical Mount]]** (4% of attempts)
+- **[[Americana from Technical Mount/Attacker|Americana from Technical Mount]]** (6% of attempts)
 
 
 ### Common Mistakes

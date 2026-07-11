@@ -147,23 +147,23 @@ The position demands different strategic approaches based on whether you're esta
 ### Available Transitions
 
 
-- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (13% of attempts)
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (10% of attempts)
 
-- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (12% of attempts)
+- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (6% of attempts)
 
-- **[[Transitions/Bridge and Turn to Turtle/Attacker|Bridge and Turn to Turtle]]** (16% of attempts)
+- **[[Transitions/Bridge and Turn to Turtle/Attacker|Bridge and Turn to Turtle]]** (18% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (13% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (12% of attempts)
 
-- **[[Transitions/North-South Escape/Attacker|North-South Escape]]** (13% of attempts)
+- **[[Transitions/North-South Escape/Attacker|North-South Escape]]** (19% of attempts)
 
-- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (12% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (11% of attempts)
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (11% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (9% of attempts)
 
-- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (7% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (6% of attempts)
 
-- **[[Transitions/Explosive Bridge to Guard Recovery/Attacker|Explosive Bridge to Guard Recovery]]** (3% of attempts)
+- **[[Transitions/Explosive Bridge to Guard Recovery/Attacker|Explosive Bridge to Guard Recovery]]** (9% of attempts)
 
 
 ### Common Mistakes
@@ -228,17 +228,17 @@ The position demands different strategic approaches based on whether you're esta
 ### Available Transitions
 
 
-- **[[North-South Choke from North-South/Attacker|North-South Choke from North-South]]** (21% of attempts)
+- **[[North-South Choke from North-South/Attacker|North-South Choke from North-South]]** (18% of attempts)
 
 - **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (12% of attempts)
 
-- **[[Transitions/North-South to Kimura/Attacker|North-South to Kimura]]** (17% of attempts)
+- **[[Transitions/North-South to Kimura/Attacker|North-South to Kimura]]** (19% of attempts)
 
-- **[[Transitions/Armbar from North-South/Attacker|Armbar from North-South]]** (11% of attempts)
+- **[[Transitions/Armbar from North-South/Attacker|Armbar from North-South]]** (6% of attempts)
 
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (6% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (10% of attempts)
 
-- **[[Americana from North-South/Attacker|Americana from North-South]]** (7% of attempts)
+- **[[Americana from North-South/Attacker|Americana from North-South]]** (4% of attempts)
 
 - **[[Positions/Knee on Belly/Attacker|Knee on Belly]]** (8% of attempts)
 
@@ -246,7 +246,7 @@ The position demands different strategic approaches based on whether you're esta
 
 - **[[Transitions/Reverse Mount Transition/Attacker|Reverse Mount Transition]]** (5% of attempts)
 
-- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (5% of attempts)
+- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (10% of attempts)
 
 
 ### Common Mistakes

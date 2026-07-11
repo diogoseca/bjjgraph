@@ -21,37 +21,37 @@ description: "Master Leg Entanglement positions in BJJ. Complete guide to ashi g
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar from Leg Entanglement",
-      "text": "From this position, attempt Kneebar from Leg Entanglement. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Kneebar from Leg Entanglement. This technique is attempted in 7% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Outside Heel Hook from Leg Entanglement",
-      "text": "From this position, attempt Outside Heel Hook from Leg Entanglement. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Outside Heel Hook from Leg Entanglement. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Ankle Lock Finish",
-      "text": "From this position, attempt Ankle Lock Finish. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Ankle Lock Finish. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Outside Ashi Entry",
-      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Toe Hold from Leg Entanglement",
-      "text": "From this position, attempt Toe Hold from Leg Entanglement. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Toe Hold from Leg Entanglement. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Saddle Entry from Top",
-      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],

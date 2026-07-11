@@ -21,37 +21,37 @@ description: "Defend against Matrix back take attempts from top position. Strate
     {
       "@type": "HowToStep",
       "name": "Execute Sprawl Defense",
-      "text": "From this position, attempt Sprawl Defense. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Sprawl Defense. This technique is attempted in 9% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crossface Pass",
-      "text": "From this position, attempt Crossface Pass. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Crossface Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Step",
-      "text": "From this position, attempt Back Step. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Back Step. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take from Top",
-      "text": "From this position, attempt Back Take from Top. This technique is attempted in 26% of exchanges from this position.",
+      "text": "From this position, attempt Back Take from Top. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Darce from Turtle",
-      "text": "From this position, attempt Darce from Turtle. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Darce from Turtle. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],

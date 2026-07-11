@@ -104,36 +104,36 @@
       {
         "transition": "Heel Hook from Saddle",
         "attempt_probability": {
-          "gi": 35,
-          "nogi": 35
+          "gi": 4,
+          "nogi": 30
         }
       },
       {
         "transition": "Backstep from Leg Knot",
         "attempt_probability": {
-          "gi": 20,
+          "gi": 23,
           "nogi": 20
         }
       },
       {
         "transition": "Toe Hold from Outside Ashi",
         "attempt_probability": {
-          "gi": 20,
-          "nogi": 20
+          "gi": 15,
+          "nogi": 14
         }
       },
       {
         "transition": "Pressure Pass from Leg Knot",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 29,
+          "nogi": 18
         }
       },
       {
         "transition": "Leg Extraction from Leg Knot",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 29,
+          "nogi": 18
         }
       }
     ],
@@ -390,15 +390,15 @@
       {
         "transition": "Reverse the entanglement to Outside Ashi",
         "attempt_probability": {
-          "gi": 26,
-          "nogi": 26
+          "gi": 13,
+          "nogi": 15
         }
       },
       {
         "transition": "Counter-entangle to 50-50 Guard",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 18
+          "gi": 15,
+          "nogi": 19
         }
       },
       {
@@ -411,22 +411,22 @@
       {
         "transition": "Limp leg extraction to Half Guard",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 18
+          "gi": 27,
+          "nogi": 23
         }
       },
       {
         "transition": "Clear leg and transition to X-Guard",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 18,
+          "nogi": 15
         }
       },
       {
         "transition": "Reversal from Leg Knot",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 9,
+          "nogi": 10
         }
       }
     ],

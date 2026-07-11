@@ -143,23 +143,23 @@ Inverted lasso guard fits into broader guard systems as a transitional position 
 ### Available Transitions
 
 
-- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (44% of attempts)
+- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (5% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (7% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (18% of attempts)
 
-- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (10% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (17% of attempts)
 
-- **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** (5% of attempts)
+- **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** (12% of attempts)
 
-- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (10% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (27% of attempts)
 
-- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (7% of attempts)
+- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (15% of attempts)
 
-- **[[Transitions/Balloon Sweep/Attacker|Balloon Sweep]]** (14% of attempts)
+- **[[Transitions/Balloon Sweep/Attacker|Balloon Sweep]]** (6% of attempts)
 
-- **[[Transitions/Inverted Lasso Sweep/Attacker|Inverted Lasso Sweep]]** (2% of attempts)
+- **[[Transitions/Inverted Lasso Sweep/Attacker|Inverted Lasso Sweep]]** (0% of attempts)
 
-- **[[Transitions/Inverted Lasso to Lasso Guard/Attacker|Inverted Lasso to Lasso Guard]]** (1% of attempts)
+- **[[Transitions/Inverted Lasso to Lasso Guard/Attacker|Inverted Lasso to Lasso Guard]]** (0% of attempts)
 
 
 ### Common Mistakes
@@ -224,25 +224,25 @@ Inverted lasso guard fits into broader guard systems as a transitional position 
 ### Available Transitions
 
 
-- **[[Transitions/Lasso Guard Pass/Attacker|Lasso Guard Pass]]** (11% of attempts)
+- **[[Transitions/Lasso Guard Pass/Attacker|Lasso Guard Pass]]** (4% of attempts)
 
-- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (11% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (12% of attempts)
 
-- **[[Transitions/Arm Extraction and Pass/Attacker|Arm Extraction and Pass]]** (22% of attempts)
+- **[[Transitions/Arm Extraction and Pass/Attacker|Arm Extraction and Pass]]** (23% of attempts)
 
-- **[[Transitions/Cartwheel Pass/Attacker|Cartwheel Pass]]** (11% of attempts)
+- **[[Transitions/Cartwheel Pass/Attacker|Cartwheel Pass]]** (2% of attempts)
 
-- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (10% of attempts)
+- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (13% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (8% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (14% of attempts)
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (9% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (12% of attempts)
 
-- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (12% of attempts)
+- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (9% of attempts)
 
-- **[[Transitions/Pass Inverted Lasso Guard/Attacker|Pass Inverted Lasso Guard]]** (4% of attempts)
+- **[[Transitions/Pass Inverted Lasso Guard/Attacker|Pass Inverted Lasso Guard]]** (6% of attempts)
 
-- **[[Transitions/Stack from Inverted Lasso/Attacker|Stack from Inverted Lasso]]** (2% of attempts)
+- **[[Transitions/Stack from Inverted Lasso/Attacker|Stack from Inverted Lasso]]** (5% of attempts)
 
 
 ### Common Mistakes

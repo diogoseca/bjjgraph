@@ -21,13 +21,13 @@ description: "Defend and escape New York control from top position. Master postu
     {
       "@type": "HowToStep",
       "name": "Execute Posture Recovery",
-      "text": "From this position, attempt Posture Recovery. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Posture Recovery. This technique is attempted in 26% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Overhook Extraction",
-      "text": "From this position, attempt Overhook Extraction. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Overhook Extraction. This technique is attempted in 17% of exchanges from this position.",
       "position": 2
     },
     {
@@ -39,19 +39,19 @@ description: "Defend and escape New York control from top position. Master postu
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass",
-      "text": "From this position, attempt Stack Pass. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Pressure Pass",
-      "text": "From this position, attempt Pressure Pass. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Pressure Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Posture Recovery to Closed Guard",
-      "text": "From this position, attempt Posture Recovery to Closed Guard. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Posture Recovery to Closed Guard. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],

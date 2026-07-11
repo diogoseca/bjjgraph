@@ -21,19 +21,19 @@ description: "Master bottom kneebar control in BJJ. Complete technical guide cov
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar Finish",
-      "text": "From this position, attempt Kneebar Finish. This technique is attempted in 45% of exchanges from this position.",
+      "text": "From this position, attempt Kneebar Finish. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Heel Hook from Kneebar Control",
-      "text": "From this position, attempt Heel Hook from Kneebar Control. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Heel Hook from Kneebar Control. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Inside Ashi Entry",
-      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
@@ -45,13 +45,13 @@ description: "Master bottom kneebar control in BJJ. Complete technical guide cov
     {
       "@type": "HowToStep",
       "name": "Execute Toe Hold from Kneebar Control",
-      "text": "From this position, attempt Toe Hold from Kneebar Control. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Toe Hold from Kneebar Control. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Backside 50-50 Entry from Ashi",
-      "text": "From this position, attempt Backside 50-50 Entry from Ashi. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Backside 50-50 Entry from Ashi. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],

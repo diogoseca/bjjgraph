@@ -139,9 +139,9 @@ Mastering Combat Base from both sides means understanding this central tension: 
 ### Available Transitions
 
 
-- **[[Transitions/Guard Recovery from Combat Base/Attacker|Guard Recovery from Combat Base]]** (35% of attempts)
+- **[[Transitions/Guard Recovery from Combat Base/Attacker|Guard Recovery from Combat Base]]** (45% of attempts)
 
-- **[[Transitions/Sweep from Combat Base/Attacker|Sweep from Combat Base]]** (35% of attempts)
+- **[[Transitions/Sweep from Combat Base/Attacker|Sweep from Combat Base]]** (25% of attempts)
 
 - **[[Transitions/Pull Guard from Combat Base/Attacker|Pull Guard from Combat Base]]** (30% of attempts)
 
@@ -204,23 +204,23 @@ Mastering Combat Base from both sides means understanding this central tension: 
 ### Available Transitions
 
 
-- **[[Transitions/Knee Slide from Combat Base/Attacker|Knee Slide from Combat Base]]** (22% of attempts)
+- **[[Transitions/Knee Slide from Combat Base/Attacker|Knee Slide from Combat Base]]** (21% of attempts)
 
-- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (18% of attempts)
+- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (14% of attempts)
 
-- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (15% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (13% of attempts)
 
-- **[[Transitions/Combat Base to Headquarters/Attacker|Combat Base to Headquarters]]** (13% of attempts)
+- **[[Transitions/Combat Base to Headquarters/Attacker|Combat Base to Headquarters]]** (14% of attempts)
 
-- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (10% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (9% of attempts)
 
 - **[[Transitions/Standing Up from Combat Base/Attacker|Standing Up from Combat Base]]** (5% of attempts)
 
-- **[[Transitions/Stand Up from Combat Base/Attacker|Stand Up from Combat Base]]** (3% of attempts)
+- **[[Transitions/Stand Up from Combat Base/Attacker|Stand Up from Combat Base]]** (4% of attempts)
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (7% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (10% of attempts)
 
-- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (7% of attempts)
+- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (10% of attempts)
 
 
 ### Common Mistakes

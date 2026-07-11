@@ -137,23 +137,23 @@ From the top perspective, Pocket Half Guard Top represents a dominant pressure-p
 ### Available Transitions
 
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (43% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (12% of attempts)
 
-- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (17% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (6% of attempts)
 
-- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (15% of attempts)
+- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (17% of attempts)
 
-- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (12% of attempts)
+- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (13% of attempts)
 
-- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (7% of attempts)
+- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (6% of attempts)
 
-- **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (4% of attempts)
+- **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (5% of attempts)
 
-- **[[Transitions/Reguard from Pocket Half Guard/Attacker|Reguard from Pocket Half Guard]]** (1% of attempts)
+- **[[Transitions/Reguard from Pocket Half Guard/Attacker|Reguard from Pocket Half Guard]]** (10% of attempts)
 
-- **[[Transitions/Sweep from Pocket Half Guard/Attacker|Sweep from Pocket Half Guard]]** (0% of attempts)
+- **[[Transitions/Sweep from Pocket Half Guard/Attacker|Sweep from Pocket Half Guard]]** (13% of attempts)
 
-- **[[Transitions/Underhook Sweep from Pocket Half/Attacker|Underhook Sweep from Pocket Half]]** (1% of attempts)
+- **[[Transitions/Underhook Sweep from Pocket Half/Attacker|Underhook Sweep from Pocket Half]]** (18% of attempts)
 
 
 ### Common Mistakes
@@ -212,23 +212,23 @@ From the top perspective, Pocket Half Guard Top represents a dominant pressure-p
 ### Available Transitions
 
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (45% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (12% of attempts)
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (12% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (10% of attempts)
 
-- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (12% of attempts)
+- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (7% of attempts)
 
-- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (12% of attempts)
+- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (10% of attempts)
 
-- **[[Transitions/Darce Setup/Attacker|Darce Setup]]** (7% of attempts)
+- **[[Transitions/Darce Setup/Attacker|Darce Setup]]** (16% of attempts)
 
-- **[[Transitions/Half Guard to Flattened Half Guard/Attacker|Half Guard to Flattened Half Guard]]** (7% of attempts)
+- **[[Transitions/Half Guard to Flattened Half Guard/Attacker|Half Guard to Flattened Half Guard]]** (13% of attempts)
 
-- **[[Transitions/Pass Pocket Half/Attacker|Pass Pocket Half]]** (3% of attempts)
+- **[[Transitions/Pass Pocket Half/Attacker|Pass Pocket Half]]** (11% of attempts)
 
-- **[[Transitions/Smash Pocket Half/Attacker|Smash Pocket Half]]** (1% of attempts)
+- **[[Transitions/Smash Pocket Half/Attacker|Smash Pocket Half]]** (12% of attempts)
 
-- **[[Transitions/Pocket Half Pass/Attacker|Pocket Half Pass]]** (1% of attempts)
+- **[[Transitions/Pocket Half Pass/Attacker|Pocket Half Pass]]** (9% of attempts)
 
 
 ### Common Mistakes

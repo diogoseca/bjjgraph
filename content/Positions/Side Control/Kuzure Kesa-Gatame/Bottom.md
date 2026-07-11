@@ -21,37 +21,37 @@ description: "Defensive guide for escaping modified scarf hold. Learn arm recove
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Guard",
-      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 21% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Recovery to Guard",
-      "text": "From this position, attempt Arm Recovery to Guard. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Arm Recovery to Guard. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand-up",
-      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Re-Guard from Headquarters",
-      "text": "From this position, attempt Re-Guard from Headquarters. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Re-Guard from Headquarters. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],

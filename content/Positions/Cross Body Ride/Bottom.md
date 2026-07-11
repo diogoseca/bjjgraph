@@ -27,7 +27,7 @@ description: "Master defensive strategies from Cross Body Ride Bottom in BJJ. Co
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Guard",
-      "text": "From this position, attempt Turtle to Guard. This technique is attempted in 38% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
@@ -39,19 +39,19 @@ description: "Master defensive strategies from Cross Body Ride Bottom in BJJ. Co
     {
       "@type": "HowToStep",
       "name": "Execute Sit Through to Guard",
-      "text": "From this position, attempt Sit Through to Guard. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Sit Through to Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Peterson Roll",
-      "text": "From this position, attempt Peterson Roll. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Peterson Roll. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],

@@ -21,19 +21,19 @@ description: "Master Darce Control from bottom position in BJJ. Learn defensive 
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction",
-      "text": "From this position, attempt Arm Extraction. This technique is attempted in 27% of exchanges from this position.",
+      "text": "From this position, attempt Arm Extraction. This technique is attempted in 20% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Door Escape",
-      "text": "From this position, attempt Back Door Escape. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Back Door Escape. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
@@ -45,7 +45,7 @@ description: "Master Darce Control from bottom position in BJJ. Learn defensive 
     {
       "@type": "HowToStep",
       "name": "Execute Step Over Escape",
-      "text": "From this position, attempt Step Over Escape. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Step Over Escape. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {

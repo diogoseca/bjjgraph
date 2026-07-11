@@ -21,37 +21,37 @@ description: "Attack from the Buggy Choke position. Complete offensive guide cov
     {
       "@type": "HowToStep",
       "name": "Execute Finish Buggy Choke",
-      "text": "From this position, attempt Finish Buggy Choke. This technique is attempted in 41% of exchanges from this position.",
+      "text": "From this position, attempt Finish Buggy Choke. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hook Leg and Take Back",
-      "text": "From this position, attempt Hook Leg and Take Back. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Hook Leg and Take Back. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Roll to Truck",
-      "text": "From this position, attempt Roll to Truck. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Roll to Truck. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Switch to Darce Configuration",
-      "text": "From this position, attempt Switch to Darce Configuration. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Switch to Darce Configuration. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Switch to Anaconda Configuration",
-      "text": "From this position, attempt Switch to Anaconda Configuration. This technique is attempted in 2% of exchanges from this position.",
+      "text": "From this position, attempt Switch to Anaconda Configuration. This technique is attempted in 5% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Buggy Choke to Front Headlock",
-      "text": "From this position, attempt Buggy Choke to Front Headlock. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Buggy Choke to Front Headlock. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],

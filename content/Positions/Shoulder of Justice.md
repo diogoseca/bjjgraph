@@ -139,23 +139,23 @@ This position is particularly effective in both gi and no-gi contexts, as it com
 ### Available Transitions
 
 
-- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (36% of attempts)
+- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (10% of attempts)
 
-- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (18% of attempts)
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (12% of attempts)
 
-- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (15% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (14% of attempts)
 
-- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (10% of attempts)
+- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (7% of attempts)
 
-- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (9% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (6% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (7% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (12% of attempts)
 
-- **[[Transitions/Escape Shoulder of Justice/Attacker|Escape Shoulder of Justice]]** (3% of attempts)
+- **[[Transitions/Escape Shoulder of Justice/Attacker|Escape Shoulder of Justice]]** (12% of attempts)
 
-- **[[Transitions/Frame from Shoulder of Justice/Attacker|Frame from Shoulder of Justice]]** (1% of attempts)
+- **[[Transitions/Frame from Shoulder of Justice/Attacker|Frame from Shoulder of Justice]]** (15% of attempts)
 
-- **[[Transitions/Frame Escape from Shoulder of Justice/Attacker|Frame Escape from Shoulder of Justice]]** (1% of attempts)
+- **[[Transitions/Frame Escape from Shoulder of Justice/Attacker|Frame Escape from Shoulder of Justice]]** (12% of attempts)
 
 
 ### Common Mistakes
@@ -220,23 +220,23 @@ This position is particularly effective in both gi and no-gi contexts, as it com
 ### Available Transitions
 
 
-- **[[Americana from Shoulder of Justice/Attacker|Americana from Shoulder of Justice]]** (12% of attempts)
+- **[[Americana from Shoulder of Justice/Attacker|Americana from Shoulder of Justice]]** (11% of attempts)
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (13% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (19% of attempts)
 
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (13% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (10% of attempts)
 
-- **[[Arm Triangle from Shoulder of Justice/Attacker|Arm Triangle from Shoulder of Justice]]** (11% of attempts)
+- **[[Arm Triangle from Shoulder of Justice/Attacker|Arm Triangle from Shoulder of Justice]]** (13% of attempts)
 
-- **[[North-South Choke from Shoulder of Justice/Attacker|North-South Choke from Shoulder of Justice]]** (10% of attempts)
+- **[[North-South Choke from Shoulder of Justice/Attacker|North-South Choke from Shoulder of Justice]]** (9% of attempts)
 
-- **[[Positions/Knee on Belly/Attacker|Knee on Belly]]** (13% of attempts)
+- **[[Positions/Knee on Belly/Attacker|Knee on Belly]]** (9% of attempts)
 
-- **[[Transitions/Shoulder of Justice Kimura Setup/Attacker|Shoulder of Justice Kimura Setup]]** (5% of attempts)
+- **[[Transitions/Shoulder of Justice Kimura Setup/Attacker|Shoulder of Justice Kimura Setup]]** (10% of attempts)
 
-- **[[Transitions/Shoulder of Justice to Mount/Attacker|Shoulder of Justice to Mount]]** (3% of attempts)
+- **[[Transitions/Shoulder of Justice to Mount/Attacker|Shoulder of Justice to Mount]]** (9% of attempts)
 
-- **[[Kimura from Shoulder of Justice/Attacker|Kimura from Shoulder of Justice]]** (20% of attempts)
+- **[[Kimura from Shoulder of Justice/Attacker|Kimura from Shoulder of Justice]]** (10% of attempts)
 
 
 ### Common Mistakes

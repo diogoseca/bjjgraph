@@ -21,13 +21,13 @@ description: "Master Combat Base bottom in BJJ. Guard player's guide to retainin
     {
       "@type": "HowToStep",
       "name": "Execute Guard Recovery from Combat Base",
-      "text": "From this position, attempt Guard Recovery from Combat Base. This technique is attempted in 35% of exchanges from this position.",
+      "text": "From this position, attempt Guard Recovery from Combat Base. This technique is attempted in 45% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Sweep from Combat Base",
-      "text": "From this position, attempt Sweep from Combat Base. This technique is attempted in 35% of exchanges from this position.",
+      "text": "From this position, attempt Sweep from Combat Base. This technique is attempted in 25% of exchanges from this position.",
       "position": 2
     },
     {

@@ -21,37 +21,37 @@ description: "Master Technical Mount Top in BJJ. Complete offensive guide coveri
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Technical Mount",
-      "text": "From this position, attempt Armbar from Technical Mount. This technique is attempted in 48% of exchanges from this position.",
+      "text": "From this position, attempt Armbar from Technical Mount. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Back Take. This technique is attempted in 19% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Consolidate Mount",
-      "text": "From this position, attempt Consolidate Mount. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Consolidate Mount. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Gift Wrap Control",
-      "text": "From this position, attempt Gift Wrap Control. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Gift Wrap Control. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Mount to Back Control",
-      "text": "From this position, attempt Technical Mount to Back Control. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Technical Mount to Back Control. This technique is attempted in 17% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Mount to Mount",
-      "text": "From this position, attempt Technical Mount to Mount. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Technical Mount to Mount. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],

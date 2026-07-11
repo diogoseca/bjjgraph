@@ -261,35 +261,35 @@
       {
         "transition": "Lasso Guard Pass",
         "attempt_probability": {
-          "gi": 24,
-          "nogi": 24
+          "gi": 11,
+          "nogi": 8
         }
       },
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 14,
+          "nogi": 15
         }
       },
       {
         "transition": "Toreando Pass",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 7,
+          "nogi": 11
         }
       },
       {
         "transition": "Long Step Pass",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 11,
+          "nogi": 11
         }
       },
       {
         "transition": "Leg Drag Pass",
         "attempt_probability": {
-          "gi": 12,
+          "gi": 10,
           "nogi": 12
         }
       },
@@ -297,28 +297,28 @@
         "transition": "Pressure Pass",
         "attempt_probability": {
           "gi": 10,
-          "nogi": 10
+          "nogi": 12
         }
       },
       {
         "transition": "Back Step Pass",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 8,
+          "nogi": 9
         }
       },
       {
         "transition": "Pass Russian Leg Lasso",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 11,
+          "nogi": 8
         }
       },
       {
         "transition": "Strip Russian Leg Lasso",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 18,
+          "nogi": 14
         }
       }
     ],
@@ -571,64 +571,64 @@
       {
         "transition": "Overhook Sweep",
         "attempt_probability": {
-          "gi": 35,
-          "nogi": 35
+          "gi": 13,
+          "nogi": 25
         }
       },
       {
         "transition": "Triangle Setup",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 10,
+          "nogi": 17
         }
       },
       {
         "transition": "Omoplata Sweep",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 11,
+          "nogi": 14
         }
       },
       {
         "transition": "Back Take from Bottom",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 9,
+          "nogi": 13
         }
       },
       {
         "transition": "Sickle Sweep",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 7,
+          "nogi": 9
         }
       },
       {
         "transition": "Berimbolo Entry",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 5,
+          "nogi": 3
         }
       },
       {
         "transition": "Omoplata from Russian Leg Lasso",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 13,
+          "nogi": 7
         }
       },
       {
         "transition": "Russian Lasso Sweep",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 21,
+          "nogi": 4
         }
       },
       {
         "transition": "Russian Lasso to De La Riva",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 11,
+          "nogi": 8
         }
       }
     ],

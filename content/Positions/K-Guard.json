@@ -295,57 +295,57 @@
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 28,
-          "nogi": 28
+          "gi": 17,
+          "nogi": 15
         }
       },
       {
         "transition": "Smash Pass",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 16
+          "gi": 14,
+          "nogi": 12
         }
       },
       {
         "transition": "Leg Drag Pass",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 15,
+          "nogi": 14
         }
       },
       {
         "transition": "Half Guard Pass",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 18
+          "gi": 11,
+          "nogi": 10
         }
       },
       {
         "transition": "Underhook Pass",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 11,
+          "nogi": 10
         }
       },
       {
         "transition": "Guillotine Setup",
         "attempt_probability": {
-          "gi": 7,
+          "gi": 4,
           "nogi": 7
         }
       },
       {
         "transition": "Backstep from K-Guard",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 16,
+          "nogi": 21
         }
       },
       {
         "transition": "Pass K-Guard",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 12,
+          "nogi": 11
         }
       }
     ],
@@ -603,78 +603,78 @@
       {
         "transition": "X-Guard Sweep",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 13,
+          "nogi": 11
         }
       },
       {
         "transition": "Single Leg X Sweep",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 15,
+          "nogi": 15
         }
       },
       {
         "transition": "Deep Half Entry",
         "attempt_probability": {
-          "gi": 29,
-          "nogi": 29
-        }
-      },
-      {
-        "transition": "Old School Sweep",
-        "attempt_probability": {
-          "gi": 8,
+          "gi": 10,
           "nogi": 8
         }
       },
       {
-        "transition": "Waiter Sweep",
-        "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
-        }
-      },
-      {
-        "transition": "Half Guard to Back Take",
-        "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
-        }
-      },
-      {
-        "transition": "Butterfly Sweep",
-        "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
-        }
-      },
-      {
-        "transition": "50-50 Entry",
+        "transition": "Old School Sweep",
         "attempt_probability": {
           "gi": 6,
           "nogi": 6
         }
       },
       {
+        "transition": "Waiter Sweep",
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 3
+        }
+      },
+      {
+        "transition": "Half Guard to Back Take",
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 9
+        }
+      },
+      {
+        "transition": "Butterfly Sweep",
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 6
+        }
+      },
+      {
+        "transition": "50-50 Entry",
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 14
+        }
+      },
+      {
         "transition": "Butterfly Hook Recovery",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 7,
+          "nogi": 6
         }
       },
       {
         "transition": "K-Guard Sweep",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 12,
+          "nogi": 9
         }
       },
       {
         "transition": "K-Guard to Single Leg X",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 10,
+          "nogi": 13
         }
       }
     ],

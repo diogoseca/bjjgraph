@@ -21,25 +21,25 @@ description: "Defend Headquarters Position from the bottom in BJJ. Guard recover
     {
       "@type": "HowToStep",
       "name": "Execute Re-Guard from Headquarters",
-      "text": "From this position, attempt Re-Guard from Headquarters. This technique is attempted in 30% of exchanges from this position.",
+      "text": "From this position, attempt Re-Guard from Headquarters. This technique is attempted in 39% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Sweep from Headquarters",
-      "text": "From this position, attempt Sweep from Headquarters. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Sweep from Headquarters. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Inversion from Headquarters",
-      "text": "From this position, attempt Inversion from Headquarters. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Inversion from Headquarters. This technique is attempted in 19% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Shin-to-Shin from Headquarters",
-      "text": "From this position, attempt Shin-to-Shin from Headquarters. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Shin-to-Shin from Headquarters. This technique is attempted in 24% of exchanges from this position.",
       "position": 4
     }
   ],

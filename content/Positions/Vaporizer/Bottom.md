@@ -21,7 +21,7 @@ description: "Master Vaporizer bottom position in BJJ. 10th Planet innovation fo
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 31% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
@@ -33,7 +33,7 @@ description: "Master Vaporizer bottom position in BJJ. 10th Planet innovation fo
     {
       "@type": "HowToStep",
       "name": "Execute Closed Guard to Omoplata",
-      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
@@ -45,13 +45,13 @@ description: "Master Vaporizer bottom position in BJJ. 10th Planet innovation fo
     {
       "@type": "HowToStep",
       "name": "Execute Lockdown Recovery",
-      "text": "From this position, attempt Lockdown Recovery. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Lockdown Recovery. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Escape Vaporizer",
-      "text": "From this position, attempt Escape Vaporizer. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Escape Vaporizer. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],

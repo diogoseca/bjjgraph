@@ -21,37 +21,37 @@ description: "Master X-Guard Bottom in BJJ. Complete guide covering sweeps, entr
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard Sweep",
-      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 35% of exchanges from this position.",
+      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 19% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Entry",
-      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard to Ashi Garami",
-      "text": "From this position, attempt X-Guard to Ashi Garami. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt X-Guard to Ashi Garami. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand Up to Single Leg",
-      "text": "From this position, attempt Technical Stand Up to Single Leg. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand Up to Single Leg. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 4% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Guard to X-Guard",
-      "text": "From this position, attempt Butterfly Guard to X-Guard. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Guard to X-Guard. This technique is attempted in 4% of exchanges from this position.",
       "position": 6
     }
   ],

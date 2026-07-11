@@ -140,23 +140,23 @@ The position's effectiveness scales with skill level and understanding. Beginner
 ### Available Transitions
 
 
-- **[[Transitions/Roll Through Escape/Attacker|Roll Through Escape]]** (15% of attempts)
+- **[[Transitions/Roll Through Escape/Attacker|Roll Through Escape]]** (17% of attempts)
 
 - **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (14% of attempts)
 
-- **[[Transitions/Bridge and Turn to Turtle/Attacker|Bridge and Turn to Turtle]]** (14% of attempts)
+- **[[Transitions/Bridge and Turn to Turtle/Attacker|Bridge and Turn to Turtle]]** (11% of attempts)
 
-- **[[Transitions/Leg Extraction/Attacker|Leg Extraction]]** (12% of attempts)
+- **[[Transitions/Leg Extraction/Attacker|Leg Extraction]]** (15% of attempts)
 
-- **[[Transitions/Defensive Roll/Attacker|Defensive Roll]]** (11% of attempts)
+- **[[Transitions/Defensive Roll/Attacker|Defensive Roll]]** (6% of attempts)
 
-- **[[Transitions/Frame and Turn/Attacker|Frame and Turn]]** (10% of attempts)
+- **[[Transitions/Frame and Turn/Attacker|Frame and Turn]]** (11% of attempts)
 
-- **[[Transitions/Scramble to Guard/Attacker|Scramble to Guard]]** (10% of attempts)
+- **[[Transitions/Scramble to Guard/Attacker|Scramble to Guard]]** (13% of attempts)
 
-- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (8% of attempts)
+- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (6% of attempts)
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (6% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (7% of attempts)
 
 
 ### Common Mistakes
@@ -213,15 +213,15 @@ The position's effectiveness scales with skill level and understanding. Beginner
 ### Available Transitions
 
 
-- **[[Twister from Twister Control/Attacker|Twister from Twister Control]]** (35% of attempts)
+- **[[Twister from Twister Control/Attacker|Twister from Twister Control]]** (33% of attempts)
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (25% of attempts)
+- **[[Transitions/Back Take/Attacker|Back Take]]** (22% of attempts)
 
-- **[[Guillotine Choke from Twister Control/Attacker|Guillotine Choke from Twister Control]]** (15% of attempts)
+- **[[Guillotine Choke from Twister Control/Attacker|Guillotine Choke from Twister Control]]** (18% of attempts)
 
 - **[[Neck Crank from Twister Control/Attacker|Neck Crank from Twister Control]]** (13% of attempts)
 
-- **[[Calf Slicer from Twister Control/Attacker|Calf Slicer from Twister Control]]** (12% of attempts)
+- **[[Calf Slicer from Twister Control/Attacker|Calf Slicer from Twister Control]]** (14% of attempts)
 
 
 ### Common Mistakes

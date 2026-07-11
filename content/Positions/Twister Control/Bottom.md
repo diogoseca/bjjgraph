@@ -21,7 +21,7 @@ description: "Master defensive strategies from Twister Control Bottom. Learn esc
     {
       "@type": "HowToStep",
       "name": "Execute Roll Through Escape",
-      "text": "From this position, attempt Roll Through Escape. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Roll Through Escape. This technique is attempted in 17% of exchanges from this position.",
       "position": 1
     },
     {
@@ -33,25 +33,25 @@ description: "Master defensive strategies from Twister Control Bottom. Learn esc
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Turn to Turtle",
-      "text": "From this position, attempt Bridge and Turn to Turtle. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Turn to Turtle. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Extraction",
-      "text": "From this position, attempt Leg Extraction. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Leg Extraction. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Defensive Roll",
-      "text": "From this position, attempt Defensive Roll. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Defensive Roll. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Turn",
-      "text": "From this position, attempt Frame and Turn. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Frame and Turn. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],

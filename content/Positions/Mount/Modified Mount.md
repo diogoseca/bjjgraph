@@ -133,9 +133,9 @@ Modified Mount represents a strategic adaptation of the traditional mount positi
 ### Available Transitions
 
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (22% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (15% of attempts)
 
-- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (15% of attempts)
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (18% of attempts)
 
 - **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (13% of attempts)
 
@@ -145,11 +145,11 @@ Modified Mount represents a strategic adaptation of the traditional mount positi
 
 - **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (9% of attempts)
 
-- **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (9% of attempts)
+- **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (8% of attempts)
 
-- **[[Transitions/Arm Extraction to Turtle/Attacker|Arm Extraction to Turtle]]** (9% of attempts)
+- **[[Transitions/Arm Extraction to Turtle/Attacker|Arm Extraction to Turtle]]** (7% of attempts)
 
-- **[[Transitions/Bridge Escape from Modified Mount/Attacker|Bridge Escape from Modified Mount]]** (5% of attempts)
+- **[[Transitions/Bridge Escape from Modified Mount/Attacker|Bridge Escape from Modified Mount]]** (12% of attempts)
 
 
 ### Common Mistakes
@@ -210,23 +210,23 @@ Modified Mount represents a strategic adaptation of the traditional mount positi
 ### Available Transitions
 
 
-- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (19% of attempts)
+- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (14% of attempts)
 
-- **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** (11% of attempts)
+- **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** (10% of attempts)
 
-- **[[Positions/Mount/Mounted Triangle/Attacker|Mounted Triangle]]** (9% of attempts)
+- **[[Positions/Mount/Mounted Triangle/Attacker|Mounted Triangle]]** (7% of attempts)
 
-- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (12% of attempts)
+- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (20% of attempts)
 
-- **[[Cross Collar Choke from Modified Mount/Attacker|Cross Collar Choke from Modified Mount]]** (9% of attempts)
+- **[[Cross Collar Choke from Modified Mount/Attacker|Cross Collar Choke from Modified Mount]]** (0% of attempts)
 
-- **[[Kimura from Modified Mount/Attacker|Kimura from Modified Mount]]** (7% of attempts)
+- **[[Kimura from Modified Mount/Attacker|Kimura from Modified Mount]]** (11% of attempts)
 
-- **[[Transitions/Gift Wrap Transition/Attacker|Gift Wrap Transition]]** (11% of attempts)
+- **[[Transitions/Gift Wrap Transition/Attacker|Gift Wrap Transition]]** (14% of attempts)
 
-- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (9% of attempts)
+- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (15% of attempts)
 
-- **[[Americana from Modified Mount/Attacker|Americana from Modified Mount]]** (13% of attempts)
+- **[[Americana from Modified Mount/Attacker|Americana from Modified Mount]]** (9% of attempts)
 
 
 ### Common Mistakes

@@ -139,35 +139,35 @@ The effectiveness of Spider Guard relies heavily on grip strength, hip mobility,
 ### Available Transitions
 
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (27% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (17% of attempts)
 
-- **[[Transitions/Spider Guard to Omoplata/Attacker|Spider Guard to Omoplata]]** (10% of attempts)
+- **[[Transitions/Spider Guard to Omoplata/Attacker|Spider Guard to Omoplata]]** (6% of attempts)
 
-- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (8% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (4% of attempts)
 
-- **[[Transitions/Balloon Sweep/Attacker|Balloon Sweep]]** (8% of attempts)
+- **[[Transitions/Balloon Sweep/Attacker|Balloon Sweep]]** (3% of attempts)
 
-- **[[Transitions/Scissor Sweep/Attacker|Scissor Sweep]]** (7% of attempts)
+- **[[Transitions/Scissor Sweep/Attacker|Scissor Sweep]]** (3% of attempts)
 
-- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (7% of attempts)
+- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (5% of attempts)
 
-- **[[Transitions/Pendulum Sweep/Attacker|Pendulum Sweep]]** (6% of attempts)
+- **[[Transitions/Pendulum Sweep/Attacker|Pendulum Sweep]]** (2% of attempts)
 
-- **[[Transitions/Armbar Setup from Double Sleeve/Attacker|Armbar Setup from Double Sleeve]]** (5% of attempts)
+- **[[Transitions/Armbar Setup from Double Sleeve/Attacker|Armbar Setup from Double Sleeve]]** (3% of attempts)
 
-- **[[Transitions/Guard Recovery from Spider Guard/Attacker|Guard Recovery from Spider Guard]]** (5% of attempts)
+- **[[Transitions/Guard Recovery from Spider Guard/Attacker|Guard Recovery from Spider Guard]]** (25% of attempts)
 
-- **[[Transitions/Triangle from Spider Guard/Attacker|Triangle from Spider Guard]]** (3% of attempts)
+- **[[Transitions/Triangle from Spider Guard/Attacker|Triangle from Spider Guard]]** (12% of attempts)
 
-- **[[Transitions/Spider Sweep/Attacker|Spider Sweep]]** (2% of attempts)
+- **[[Transitions/Spider Sweep/Attacker|Spider Sweep]]** (6% of attempts)
 
-- **[[Transitions/Spider to Lasso Guard/Attacker|Spider to Lasso Guard]]** (2% of attempts)
+- **[[Transitions/Spider to Lasso Guard/Attacker|Spider to Lasso Guard]]** (0% of attempts)
 
-- **[[Belly Down Armbar from Spider Guard/Attacker|Belly Down Armbar from Spider Guard]]** (3% of attempts)
+- **[[Belly Down Armbar from Spider Guard/Attacker|Belly Down Armbar from Spider Guard]]** (2% of attempts)
 
 - **[[Omoplata from Spider Guard/Attacker|Omoplata from Spider Guard]]** (4% of attempts)
 
-- **[[Triangle Choke from Spider Guard/Attacker|Triangle Choke from Spider Guard]]** (3% of attempts)
+- **[[Triangle Choke from Spider Guard/Attacker|Triangle Choke from Spider Guard]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -228,21 +228,21 @@ The effectiveness of Spider Guard relies heavily on grip strength, hip mobility,
 ### Available Transitions
 
 
-- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (25% of attempts)
+- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (27% of attempts)
 
-- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (15% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (17% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (14% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (16% of attempts)
 
-- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (13% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (10% of attempts)
 
-- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (12% of attempts)
+- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (5% of attempts)
 
-- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (12% of attempts)
+- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (8% of attempts)
 
-- **[[Transitions/Spider Guard Pass/Attacker|Spider Guard Pass]]** (6% of attempts)
+- **[[Transitions/Spider Guard Pass/Attacker|Spider Guard Pass]]** (10% of attempts)
 
-- **[[Transitions/Stack Pass from Spider/Attacker|Stack Pass from Spider]]** (3% of attempts)
+- **[[Transitions/Stack Pass from Spider/Attacker|Stack Pass from Spider]]** (7% of attempts)
 
 
 ### Common Mistakes

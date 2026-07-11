@@ -133,25 +133,25 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 ### Available Transitions
 
 
-- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (9% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (13% of attempts)
 
-- **[[Transitions/Technical Stand Up from Ground/Attacker|Technical Stand Up from Ground]]** (3% of attempts)
+- **[[Transitions/Technical Stand Up from Ground/Attacker|Technical Stand Up from Ground]]** (9% of attempts)
 
-- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (11% of attempts)
+- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (20% of attempts)
 
-- **[[Transitions/Scissor Sweep/Attacker|Scissor Sweep]]** (12% of attempts)
+- **[[Transitions/Scissor Sweep/Attacker|Scissor Sweep]]** (2% of attempts)
 
-- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (11% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (18% of attempts)
 
-- **[[Transitions/Ankle Pick Sweep/Attacker|Ankle Pick Sweep]]** (10% of attempts)
+- **[[Transitions/Ankle Pick Sweep/Attacker|Ankle Pick Sweep]]** (9% of attempts)
 
-- **[[Transitions/Tripod Sweep/Attacker|Tripod Sweep]]** (11% of attempts)
+- **[[Transitions/Tripod Sweep/Attacker|Tripod Sweep]]** (7% of attempts)
 
-- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (11% of attempts)
+- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (9% of attempts)
 
-- **[[Transitions/Lumberjack Sweep/Attacker|Lumberjack Sweep]]** (11% of attempts)
+- **[[Transitions/Lumberjack Sweep/Attacker|Lumberjack Sweep]]** (4% of attempts)
 
-- **[[Transitions/Foot Grab Sweep/Attacker|Foot Grab Sweep]]** (11% of attempts)
+- **[[Transitions/Foot Grab Sweep/Attacker|Foot Grab Sweep]]** (9% of attempts)
 
 
 ### Common Mistakes
@@ -214,23 +214,23 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 ### Available Transitions
 
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (10% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (12% of attempts)
 
-- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (10% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (9% of attempts)
 
 - **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (11% of attempts)
 
-- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (10% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (4% of attempts)
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (9% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (6% of attempts)
 
-- **[[Transitions/Bodylock Pass from Seated/Attacker|Bodylock Pass from Seated]]** (4% of attempts)
+- **[[Transitions/Bodylock Pass from Seated/Attacker|Bodylock Pass from Seated]]** (21% of attempts)
 
-- **[[Transitions/Bull Pass from Seated/Attacker|Bull Pass from Seated]]** (3% of attempts)
+- **[[Transitions/Bull Pass from Seated/Attacker|Bull Pass from Seated]]** (9% of attempts)
 
-- **[[Transitions/Knee Slice from Seated Guard/Attacker|Knee Slice from Seated Guard]]** (4% of attempts)
+- **[[Transitions/Knee Slice from Seated Guard/Attacker|Knee Slice from Seated Guard]]** (11% of attempts)
 
-- **[[Transitions/Toreando Pass from Seated Guard/Attacker|Toreando Pass from Seated Guard]]** (39% of attempts)
+- **[[Transitions/Toreando Pass from Seated Guard/Attacker|Toreando Pass from Seated Guard]]** (17% of attempts)
 
 
 ### Common Mistakes

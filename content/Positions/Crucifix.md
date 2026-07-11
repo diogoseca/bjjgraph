@@ -139,21 +139,21 @@ Mastery of the Crucifix from both perspectives—understanding how to establish 
 ### Available Transitions
 
 
-- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (12% of attempts)
+- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (16% of attempts)
 
-- **[[Transitions/Defensive Roll/Attacker|Defensive Roll]]** (12% of attempts)
+- **[[Transitions/Defensive Roll/Attacker|Defensive Roll]]** (13% of attempts)
 
-- **[[Transitions/Explosive Bridge to Turtle/Attacker|Explosive Bridge to Turtle]]** (15% of attempts)
+- **[[Transitions/Explosive Bridge to Turtle/Attacker|Explosive Bridge to Turtle]]** (14% of attempts)
 
-- **[[Transitions/Roll to Guard/Attacker|Roll to Guard]]** (9% of attempts)
+- **[[Transitions/Roll to Guard/Attacker|Roll to Guard]]** (11% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (7% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (11% of attempts)
 
-- **[[Transitions/Arm Recovery from Crucifix/Attacker|Arm Recovery from Crucifix]]** (43% of attempts)
+- **[[Transitions/Arm Recovery from Crucifix/Attacker|Arm Recovery from Crucifix]]** (16% of attempts)
 
-- **[[Transitions/Crucifix Choke Defense/Attacker|Crucifix Choke Defense]]** (1% of attempts)
+- **[[Transitions/Crucifix Choke Defense/Attacker|Crucifix Choke Defense]]** (11% of attempts)
 
-- **[[Transitions/Hip Escape from Crucifix/Attacker|Hip Escape from Crucifix]]** (1% of attempts)
+- **[[Transitions/Hip Escape from Crucifix/Attacker|Hip Escape from Crucifix]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -214,21 +214,21 @@ Mastery of the Crucifix from both perspectives—understanding how to establish 
 ### Available Transitions
 
 
-- **[[Rear Naked Choke from Crucifix/Attacker|Rear Naked Choke from Crucifix]]** (8% of attempts)
+- **[[Rear Naked Choke from Crucifix/Attacker|Rear Naked Choke from Crucifix]]** (19% of attempts)
 
-- **[[Kimura from Crucifix/Attacker|Kimura from Crucifix]]** (6% of attempts)
+- **[[Kimura from Crucifix/Attacker|Kimura from Crucifix]]** (10% of attempts)
 
-- **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (18% of attempts)
+- **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (10% of attempts)
 
-- **[[Submissions/Choke from Crucifix/Attacker|Choke from Crucifix]]** (38% of attempts)
+- **[[Submissions/Choke from Crucifix/Attacker|Choke from Crucifix]]** (18% of attempts)
 
-- **[[Transitions/Armbar from Crucifix/Attacker|Armbar from Crucifix]]** (15% of attempts)
+- **[[Transitions/Armbar from Crucifix/Attacker|Armbar from Crucifix]]** (12% of attempts)
 
 - **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (6% of attempts)
 
-- **[[Transitions/Crucifix Maintenance/Attacker|Crucifix Maintenance]]** (3% of attempts)
+- **[[Transitions/Crucifix Maintenance/Attacker|Crucifix Maintenance]]** (15% of attempts)
 
-- **[[Transitions/Crucifix to Mount/Attacker|Crucifix to Mount]]** (2% of attempts)
+- **[[Transitions/Crucifix to Mount/Attacker|Crucifix to Mount]]** (6% of attempts)
 
 - **[[Bicep Slicer from Crucifix/Attacker|Bicep Slicer from Crucifix]]** (4% of attempts)
 

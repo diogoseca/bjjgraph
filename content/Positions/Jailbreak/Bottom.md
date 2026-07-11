@@ -21,13 +21,13 @@ description: "Master the Jailbreak escape from bottom half guard. Advanced 10th 
     {
       "@type": "HowToStep",
       "name": "Execute Jailbreak to Turtle",
-      "text": "From this position, attempt Jailbreak to Turtle. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Jailbreak to Turtle. This technique is attempted in 17% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Jailbreak to Back Take",
-      "text": "From this position, attempt Jailbreak to Back Take. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Jailbreak to Back Take. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
@@ -39,19 +39,19 @@ description: "Master the Jailbreak escape from bottom half guard. Advanced 10th 
     {
       "@type": "HowToStep",
       "name": "Execute Guard Recovery from Jailbreak",
-      "text": "From this position, attempt Guard Recovery from Jailbreak. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Guard Recovery from Jailbreak. This technique is attempted in 20% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Lockdown Recovery",
-      "text": "From this position, attempt Lockdown Recovery. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Lockdown Recovery. This technique is attempted in 16% of exchanges from this position.",
       "position": 6
     }
   ],

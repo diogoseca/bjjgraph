@@ -137,19 +137,19 @@ Clamp Guard operates on the principle of limb isolation. By removing one arm fro
 ### Available Transitions
 
 
-- **[[Transitions/Armbar from Clamp Guard/Attacker|Armbar from Clamp Guard]]** (22% of attempts)
+- **[[Transitions/Armbar from Clamp Guard/Attacker|Armbar from Clamp Guard]]** (17% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (18% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (15% of attempts)
 
-- **[[Transitions/Triangle from Clamp Guard/Attacker|Triangle from Clamp Guard]]** (15% of attempts)
+- **[[Transitions/Triangle from Clamp Guard/Attacker|Triangle from Clamp Guard]]** (20% of attempts)
 
-- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (13% of attempts)
+- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (9% of attempts)
 
-- **[[Transitions/Scissor Sweep/Attacker|Scissor Sweep]]** (12% of attempts)
+- **[[Transitions/Scissor Sweep/Attacker|Scissor Sweep]]** (9% of attempts)
 
-- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (10% of attempts)
+- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (12% of attempts)
 
-- **[[Transitions/Sweep from Clamp Guard/Attacker|Sweep from Clamp Guard]]** (10% of attempts)
+- **[[Transitions/Sweep from Clamp Guard/Attacker|Sweep from Clamp Guard]]** (18% of attempts)
 
 
 ### Common Mistakes
@@ -210,9 +210,9 @@ Clamp Guard operates on the principle of limb isolation. By removing one arm fro
 ### Available Transitions
 
 
-- **[[Transitions/Arm Extraction from Clamp Guard/Attacker|Arm Extraction from Clamp Guard]]** (55% of attempts)
+- **[[Transitions/Arm Extraction from Clamp Guard/Attacker|Arm Extraction from Clamp Guard]]** (52% of attempts)
 
-- **[[Transitions/Stack Pass from Clamp Guard/Attacker|Stack Pass from Clamp Guard]]** (45% of attempts)
+- **[[Transitions/Stack Pass from Clamp Guard/Attacker|Stack Pass from Clamp Guard]]** (48% of attempts)
 
 
 ### Common Mistakes

@@ -133,29 +133,29 @@ Unlike defensive guards that merely stall a pass, Inverted Guard weaponizes rota
 ### Available Transitions
 
 
-- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (26% of attempts)
+- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (11% of attempts)
 
-- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (11% of attempts)
+- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (14% of attempts)
 
-- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (10% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (15% of attempts)
 
-- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (8% of attempts)
+- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (10% of attempts)
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (10% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (14% of attempts)
 
-- **[[Omoplata from Inverted Guard/Attacker|Omoplata from Inverted Guard]]** (4% of attempts)
+- **[[Omoplata from Inverted Guard/Attacker|Omoplata from Inverted Guard]]** (3% of attempts)
 
-- **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (5% of attempts)
+- **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (4% of attempts)
 
-- **[[Transitions/Reverse X-Guard Entry/Attacker|Reverse X-Guard Entry]]** (4% of attempts)
+- **[[Transitions/Reverse X-Guard Entry/Attacker|Reverse X-Guard Entry]]** (7% of attempts)
 
-- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (6% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (5% of attempts)
 
-- **[[Transitions/Bolo Sweep/Attacker|Bolo Sweep]]** (8% of attempts)
+- **[[Transitions/Bolo Sweep/Attacker|Bolo Sweep]]** (4% of attempts)
 
-- **[[Transitions/Reverse De La Riva Recovery/Attacker|Reverse De La Riva Recovery]]** (6% of attempts)
+- **[[Transitions/Reverse De La Riva Recovery/Attacker|Reverse De La Riva Recovery]]** (9% of attempts)
 
-- **[[Transitions/Sweep from Inverted Guard/Attacker|Sweep from Inverted Guard]]** (2% of attempts)
+- **[[Transitions/Sweep from Inverted Guard/Attacker|Sweep from Inverted Guard]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -220,29 +220,29 @@ Unlike defensive guards that merely stall a pass, Inverted Guard weaponizes rota
 ### Available Transitions
 
 
-- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (16% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (12% of attempts)
 
-- **[[Transitions/Headquarters Pass/Attacker|Headquarters Pass]]** (14% of attempts)
+- **[[Transitions/Headquarters Pass/Attacker|Headquarters Pass]]** (10% of attempts)
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (12% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (9% of attempts)
 
-- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (11% of attempts)
+- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (14% of attempts)
 
-- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (10% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (17% of attempts)
 
-- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (9% of attempts)
+- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (8% of attempts)
 
 - **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (8% of attempts)
 
-- **[[Transitions/Stack Pass from Inversion/Attacker|Stack Pass from Inversion]]** (6% of attempts)
+- **[[Transitions/Stack Pass from Inversion/Attacker|Stack Pass from Inversion]]** (5% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (5% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (6% of attempts)
 
-- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (4% of attempts)
+- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (3% of attempts)
 
-- **[[Transitions/Stack from Inverted/Attacker|Stack from Inverted]]** (3% of attempts)
+- **[[Transitions/Stack from Inverted/Attacker|Stack from Inverted]]** (4% of attempts)
 
-- **[[Transitions/Toreando from Inverted/Attacker|Toreando from Inverted]]** (2% of attempts)
+- **[[Transitions/Toreando from Inverted/Attacker|Toreando from Inverted]]** (4% of attempts)
 
 
 ### Common Mistakes

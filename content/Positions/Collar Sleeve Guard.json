@@ -271,43 +271,43 @@
       {
         "transition": "Headquarters Pass",
         "attempt_probability": {
-          "gi": 34,
-          "nogi": 34
+          "gi": 13,
+          "nogi": 11
         }
       },
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 13,
+          "nogi": 14
         }
       },
       {
         "transition": "Toreando Pass",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 11,
+          "nogi": 14
         }
       },
       {
         "transition": "Stack Pass",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 7,
+          "nogi": 8
         }
       },
       {
         "transition": "Leg Drag Pass",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 11,
+          "nogi": 12
         }
       },
       {
         "transition": "X Pass",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 8,
+          "nogi": 8
         }
       },
       {
@@ -320,29 +320,29 @@
       {
         "transition": "Long Step Pass",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 7,
+          "nogi": 8
         }
       },
       {
         "transition": "Double Under Pass",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 6,
+          "nogi": 5
         }
       },
       {
         "transition": "Bull Pass from Collar Sleeve",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 7,
+          "nogi": 5
         }
       },
       {
         "transition": "Pass Collar Sleeve Guard",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 9,
+          "nogi": 7
         }
       }
     ],
@@ -605,28 +605,28 @@
       {
         "transition": "Triangle Setup",
         "attempt_probability": {
-          "gi": 31,
-          "nogi": 31
+          "gi": 13,
+          "nogi": 15
         }
       },
       {
         "transition": "Pendulum Sweep",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 10,
+          "nogi": 9
         }
       },
       {
         "transition": "Scissor Sweep",
         "attempt_probability": {
           "gi": 9,
-          "nogi": 9
+          "nogi": 8
         }
       },
       {
         "transition": "Hip Bump Sweep",
         "attempt_probability": {
-          "gi": 8,
+          "gi": 5,
           "nogi": 8
         }
       },
@@ -647,56 +647,56 @@
       {
         "transition": "Collar Drag from Open Guard",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 9,
+          "nogi": 0
         }
       },
       {
         "transition": "Arm Drag to Back",
         "attempt_probability": {
           "gi": 5,
-          "nogi": 5
+          "nogi": 20
         }
       },
       {
         "transition": "Lapel to Spider Guard",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 6,
+          "nogi": 0
         }
       },
       {
         "transition": "Lapel to Lasso Guard",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 5,
+          "nogi": 0
         }
       },
       {
         "transition": "Collar Sleeve to De La Riva",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 8,
+          "nogi": 9
         }
       },
       {
         "transition": "Standing up in Base",
         "attempt_probability": {
           "gi": 3,
-          "nogi": 3
+          "nogi": 16
         }
       },
       {
         "transition": "Collar Sleeve Sweep",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 8,
+          "nogi": 0
         }
       },
       {
         "transition": "Collar Sleeve to Spider Guard",
         "attempt_probability": {
-          "gi": 1,
+          "gi": 5,
           "nogi": 1
         }
       }

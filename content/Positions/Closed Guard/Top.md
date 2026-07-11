@@ -21,37 +21,37 @@ description: "Master closed guard top with defensive posture strategies, systema
     {
       "@type": "HowToStep",
       "name": "Execute Posture Recovery",
-      "text": "From this position, attempt Posture Recovery. This technique is attempted in 40% of exchanges from this position.",
+      "text": "From this position, attempt Posture Recovery. This technique is attempted in 27% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guard Opening Sequence",
-      "text": "From this position, attempt Guard Opening Sequence. This technique is attempted in 33% of exchanges from this position.",
+      "text": "From this position, attempt Guard Opening Sequence. This technique is attempted in 21% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass",
-      "text": "From this position, attempt Stack Pass. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stand Up in Closed Guard",
-      "text": "From this position, attempt Stand Up in Closed Guard. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Stand Up in Closed Guard. This technique is attempted in 22% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Ezekiel Choke from Closed Guard",
-      "text": "From this position, attempt Ezekiel Choke from Closed Guard. This technique is attempted in 3% of exchanges from this position.",
+      "text": "From this position, attempt Ezekiel Choke from Closed Guard. This technique is attempted in 1% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice from Closed Guard",
-      "text": "From this position, attempt Knee Slice from Closed Guard. This technique is attempted in 2% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice from Closed Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],

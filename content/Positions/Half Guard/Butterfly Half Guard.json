@@ -231,71 +231,71 @@
       {
         "transition": "Half Guard Pass",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 13,
+          "nogi": 12
         }
       },
       {
         "transition": "Smash Pass",
         "attempt_probability": {
-          "gi": 23,
-          "nogi": 23
+          "gi": 10,
+          "nogi": 9
         }
       },
       {
         "transition": "Underhook Pass",
-        "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
-        }
-      },
-      {
-        "transition": "Long Step Pass",
-        "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
-        }
-      },
-      {
-        "transition": "Pressure Pass",
         "attempt_probability": {
           "gi": 8,
           "nogi": 8
         }
       },
       {
+        "transition": "Long Step Pass",
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 6
+        }
+      },
+      {
+        "transition": "Pressure Pass",
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 8
+        }
+      },
+      {
         "transition": "Back Step Pass",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 7,
+          "nogi": 11
         }
       },
       {
         "transition": "Half Guard to Flattened Half Guard",
+        "attempt_probability": {
+          "gi": 19,
+          "nogi": 18
+        }
+      },
+      {
+        "transition": "Knee Slice from Butterfly Half",
         "attempt_probability": {
           "gi": 10,
           "nogi": 10
         }
       },
       {
-        "transition": "Knee Slice from Butterfly Half",
-        "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
-        }
-      },
-      {
         "transition": "Smash from Butterfly Half",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 10,
+          "nogi": 9
         }
       }
     ],
@@ -585,63 +585,63 @@
       {
         "transition": "100% Sweep",
         "attempt_probability": {
-          "gi": 36,
-          "nogi": 36
+          "gi": 5,
+          "nogi": 6
         }
       },
       {
         "transition": "Old School Sweep",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 9,
+          "nogi": 8
         }
       },
       {
         "transition": "Butterfly Sweep",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 14,
+          "nogi": 13
         }
       },
       {
         "transition": "Deep Half Entry",
         "attempt_probability": {
           "gi": 8,
-          "nogi": 8
+          "nogi": 6
         }
       },
       {
         "transition": "Waiter Sweep",
         "attempt_probability": {
           "gi": 4,
-          "nogi": 4
+          "nogi": 3
         }
       },
       {
         "transition": "Underhook Sweep from Half",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 11,
+          "nogi": 12
         }
       },
       {
         "transition": "Half Guard to Back Take",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 11,
+          "nogi": 13
         }
       },
       {
         "transition": "Butterfly Guard to X-Guard",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 7,
+          "nogi": 7
         }
       },
       {
         "transition": "Lockdown Recovery",
         "attempt_probability": {
-          "gi": 4,
+          "gi": 3,
           "nogi": 4
         }
       },
@@ -649,28 +649,28 @@
         "transition": "Kimura Sweep",
         "attempt_probability": {
           "gi": 6,
-          "nogi": 6
+          "nogi": 7
         }
       },
       {
         "transition": "Electric Chair Transition",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 3,
+          "nogi": 4
         }
       },
       {
         "transition": "Butterfly Half Guard Sweep",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 10,
+          "nogi": 9
         }
       },
       {
         "transition": "Reguard from Butterfly Half Guard",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 9,
+          "nogi": 8
         }
       }
     ],

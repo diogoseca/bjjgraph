@@ -135,25 +135,25 @@ Quarter guard occurs most frequently during guard passing sequences when defende
 ### Available Transitions
 
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (18% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (6% of attempts)
 
-- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (13% of attempts)
+- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (12% of attempts)
 
-- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (17% of attempts)
+- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (8% of attempts)
 
-- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (16% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (9% of attempts)
 
-- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (9% of attempts)
+- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (3% of attempts)
 
-- **[[Transitions/Knee Shield Retention/Attacker|Knee Shield Retention]]** (13% of attempts)
+- **[[Transitions/Knee Shield Retention/Attacker|Knee Shield Retention]]** (11% of attempts)
 
-- **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (10% of attempts)
+- **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (6% of attempts)
 
-- **[[Transitions/Knee Shield from Quarter Guard/Attacker|Knee Shield from Quarter Guard]]** (2% of attempts)
+- **[[Transitions/Knee Shield from Quarter Guard/Attacker|Knee Shield from Quarter Guard]]** (17% of attempts)
 
-- **[[Transitions/Recover Full Guard from Quarter Guard/Attacker|Recover Full Guard from Quarter Guard]]** (1% of attempts)
+- **[[Transitions/Recover Full Guard from Quarter Guard/Attacker|Recover Full Guard from Quarter Guard]]** (19% of attempts)
 
-- **[[Transitions/Sweep from Quarter Guard/Attacker|Sweep from Quarter Guard]]** (1% of attempts)
+- **[[Transitions/Sweep from Quarter Guard/Attacker|Sweep from Quarter Guard]]** (9% of attempts)
 
 
 ### Common Mistakes
@@ -214,27 +214,27 @@ Quarter guard occurs most frequently during guard passing sequences when defende
 ### Available Transitions
 
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (30% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (20% of attempts)
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (11% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (10% of attempts)
 
-- **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** (11% of attempts)
+- **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** (10% of attempts)
 
-- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (10% of attempts)
+- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (9% of attempts)
 
-- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (9% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (5% of attempts)
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (7% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (2% of attempts)
 
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (8% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (1% of attempts)
 
 - **[[Kimura from Quarter Guard/Attacker|Kimura from Quarter Guard]]** (6% of attempts)
 
-- **[[Transitions/Darce Setup/Attacker|Darce Setup]]** (5% of attempts)
+- **[[Transitions/Darce Setup/Attacker|Darce Setup]]** (9% of attempts)
 
-- **[[Transitions/Complete Pass from Quarter/Attacker|Complete Pass from Quarter]]** (2% of attempts)
+- **[[Transitions/Complete Pass from Quarter/Attacker|Complete Pass from Quarter]]** (17% of attempts)
 
-- **[[Transitions/Knee Through from Quarter/Attacker|Knee Through from Quarter]]** (1% of attempts)
+- **[[Transitions/Knee Through from Quarter/Attacker|Knee Through from Quarter]]** (11% of attempts)
 
 
 ### Common Mistakes

@@ -293,141 +293,141 @@
       {
         "transition": "Guillotine Setup",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 8,
+          "nogi": 9
         }
       },
       {
         "transition": "Front Headlock to Guillotine",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 14,
+          "nogi": 12
         }
       },
       {
         "transition": "Anaconda Setup",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 8,
+          "nogi": 9
         }
       },
       {
         "transition": "Darce Setup",
         "attempt_probability": {
-          "gi": 10,
+          "gi": 8,
           "nogi": 10
         }
       },
       {
         "transition": "Front Headlock to Back",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 16,
+          "nogi": 14
         }
       },
       {
         "transition": "Arm Triangle from Front Headlock",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 3,
+          "nogi": 2
         }
       },
       {
         "transition": "Japanese Necktie Setup",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 3,
+          "nogi": 3
         }
       },
       {
         "transition": "Peruvian Necktie Setup",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 4,
+          "nogi": 4
         }
       },
       {
         "transition": "Step Over to Mount",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 2,
+          "nogi": 2
         }
       },
       {
         "transition": "Turtle Flatten to Side Control",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 8,
+          "nogi": 5
         }
       },
       {
         "transition": "Snap Down to Front Headlock",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 8,
+          "nogi": 7
         }
       },
       {
         "transition": "Crucifix from Turtle",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 2,
+          "nogi": 2
         }
       },
       {
         "transition": "Kimura from Front Headlock",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 2,
+          "nogi": 2
         }
       },
       {
         "transition": "Peruvian Necktie from Front Headlock",
         "attempt_probability": {
-          "gi": 2,
+          "gi": 1,
           "nogi": 2
         }
       },
       {
         "transition": "Arm in Guillotine from Front Headlock",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 4,
+          "nogi": 5
         }
       },
       {
         "transition": "High Elbow Guillotine from Front Headlock",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 3,
+          "nogi": 5
         }
       },
       {
         "transition": "Ten Finger Guillotine from Front Headlock",
         "attempt_probability": {
-          "gi": 2,
+          "gi": 1,
           "nogi": 2
         }
       },
       {
         "transition": "Brabo Choke from Front Headlock",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 3,
+          "nogi": 1
         }
       },
       {
         "transition": "Chin Strap Guillotine from Front Headlock",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 1,
+          "nogi": 2
         }
       },
       {
         "transition": "Japanese Necktie from Front Headlock",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 1,
+          "nogi": 2
         }
       }
     ],
@@ -669,64 +669,64 @@
       {
         "transition": "Technical Stand-up",
         "attempt_probability": {
-          "gi": 19,
-          "nogi": 19
+          "gi": 16,
+          "nogi": 16
         }
       },
       {
         "transition": "Granby Roll to Guard",
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 9
+        }
+      },
+      {
+        "transition": "Turtle to Guard",
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 11
+        }
+      },
+      {
+        "transition": "Stand and Circle Away",
         "attempt_probability": {
           "gi": 11,
           "nogi": 11
         }
       },
       {
-        "transition": "Turtle to Guard",
-        "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
-        }
-      },
-      {
-        "transition": "Stand and Circle Away",
-        "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
-        }
-      },
-      {
         "transition": "Roll Through to Reversal",
-        "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
-        }
-      },
-      {
-        "transition": "Arm Drag Escape",
-        "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
-        }
-      },
-      {
-        "transition": "Guillotine Defense",
-        "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
-        }
-      },
-      {
-        "transition": "Sit Through to Guard",
         "attempt_probability": {
           "gi": 7,
           "nogi": 7
         }
       },
       {
+        "transition": "Arm Drag Escape",
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 13
+        }
+      },
+      {
+        "transition": "Guillotine Defense",
+        "attempt_probability": {
+          "gi": 17,
+          "nogi": 17
+        }
+      },
+      {
+        "transition": "Sit Through to Guard",
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
+      },
+      {
         "transition": "Hip Escape from Front Headlock",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 7,
+          "nogi": 6
         }
       }
     ],

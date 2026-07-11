@@ -102,29 +102,29 @@
       {
         "transition": "Guard Pass from Diamond Guard",
         "attempt_probability": {
-          "gi": 22,
-          "nogi": 22
+          "gi": 17,
+          "nogi": 17
         }
       },
       {
         "transition": "Posture Recovery from Diamond Guard",
         "attempt_probability": {
-          "gi": 42,
-          "nogi": 42
+          "gi": 30,
+          "nogi": 30
         }
       },
       {
         "transition": "Guard Opening Sequence",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 18
+          "gi": 21,
+          "nogi": 20
         }
       },
       {
         "transition": "Overhook Strip from Diamond Guard",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 18
+          "gi": 32,
+          "nogi": 33
         }
       }
     ],
@@ -397,43 +397,43 @@
       {
         "transition": "Triangle Setup",
         "attempt_probability": {
-          "gi": 22,
-          "nogi": 22
+          "gi": 19,
+          "nogi": 20
         }
       },
       {
         "transition": "Closed Guard to Omoplata",
         "attempt_probability": {
-          "gi": 20,
-          "nogi": 20
+          "gi": 17,
+          "nogi": 15
         }
       },
       {
         "transition": "Hip Bump Sweep",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 18
+          "gi": 12,
+          "nogi": 12
         }
       },
       {
         "transition": "Kimura from Diamond Guard",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 12,
+          "nogi": 13
         }
       },
       {
         "transition": "Triangle from Diamond Guard",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 23,
+          "nogi": 24
         }
       },
       {
         "transition": "Sweep from Diamond Guard",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 17,
+          "nogi": 16
         }
       }
     ],

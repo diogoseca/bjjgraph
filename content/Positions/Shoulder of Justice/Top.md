@@ -21,37 +21,37 @@ description: "Master Shoulder of Justice Top in BJJ. Complete offensive guide wi
     {
       "@type": "HowToStep",
       "name": "Execute Americana from Shoulder of Justice",
-      "text": "From this position, attempt Americana from Shoulder of Justice. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Americana from Shoulder of Justice. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 19% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Triangle from Shoulder of Justice",
-      "text": "From this position, attempt Arm Triangle from Shoulder of Justice. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Arm Triangle from Shoulder of Justice. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute North-South Choke from Shoulder of Justice",
-      "text": "From this position, attempt North-South Choke from Shoulder of Justice. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt North-South Choke from Shoulder of Justice. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee on Belly",
-      "text": "From this position, attempt Knee on Belly. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Knee on Belly. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],

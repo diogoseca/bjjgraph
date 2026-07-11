@@ -21,37 +21,37 @@ description: "Master the attacking perspective of straight ankle lock control. C
     {
       "@type": "HowToStep",
       "name": "Execute Inside Ashi Entry",
-      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard to Ashi Garami",
-      "text": "From this position, attempt X-Guard to Ashi Garami. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt X-Guard to Ashi Garami. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute 50-50 Entry from Standing",
-      "text": "From this position, attempt 50-50 Entry from Standing. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt 50-50 Entry from Standing. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Entry",
-      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar Finish",
-      "text": "From this position, attempt Kneebar Finish. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Kneebar Finish. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Ankle Pick Sweep",
-      "text": "From this position, attempt Ankle Pick Sweep. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Ankle Pick Sweep. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],

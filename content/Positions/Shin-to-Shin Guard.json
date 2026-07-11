@@ -278,71 +278,71 @@
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 16,
+          "nogi": 14
         }
       },
       {
         "transition": "Long Step Pass",
         "attempt_probability": {
-          "gi": 22,
-          "nogi": 22
+          "gi": 8,
+          "nogi": 9
         }
       },
       {
         "transition": "Leg Drag Pass",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 14,
+          "nogi": 14
         }
       },
       {
         "transition": "Stack Pass",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 3,
+          "nogi": 3
         }
       },
       {
         "transition": "Pressure Pass",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 8,
+          "nogi": 6
         }
       },
       {
         "transition": "X Pass",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 8,
+          "nogi": 9
         }
       },
       {
         "transition": "Knee Through",
         "attempt_probability": {
           "gi": 10,
-          "nogi": 10
+          "nogi": 11
         }
       },
       {
         "transition": "Smash Pass",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 6,
+          "nogi": 6
         }
       },
       {
         "transition": "Pass Shin-to-Shin Guard",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 15,
+          "nogi": 16
         }
       },
       {
         "transition": "Pressure from Shin-to-Shin",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 12,
+          "nogi": 12
         }
       }
     ],
@@ -619,71 +619,71 @@
       {
         "transition": "Single Leg X Entry",
         "attempt_probability": {
-          "gi": 29,
-          "nogi": 29
+          "gi": 18,
+          "nogi": 24
         }
       },
       {
         "transition": "X-Guard Sweep",
         "attempt_probability": {
-          "gi": 10,
+          "gi": 12,
           "nogi": 10
         }
       },
       {
         "transition": "Butterfly Sweep",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 6,
+          "nogi": 6
         }
       },
       {
         "transition": "De La Riva Sweep",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 7,
+          "nogi": 2
         }
       },
       {
         "transition": "Technical Stand Up to Single Leg",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 8,
+          "nogi": 13
         }
       },
       {
         "transition": "Omoplata Sweep",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 3,
+          "nogi": 1
         }
       },
       {
         "transition": "Hook Sweep",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 6,
+          "nogi": 5
         }
       },
       {
         "transition": "Tripod Sweep",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 6,
+          "nogi": 4
         }
       },
       {
         "transition": "Shin-to-Shin Sweep",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 15,
+          "nogi": 13
         }
       },
       {
         "transition": "Shin-to-Shin to Single Leg X",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 19,
+          "nogi": 22
         }
       }
     ],

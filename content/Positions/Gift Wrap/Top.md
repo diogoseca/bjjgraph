@@ -21,19 +21,19 @@ description: "Master Gift Wrap control from top in BJJ. Complete guide covering 
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke from Gift Wrap",
-      "text": "From this position, attempt Rear Naked Choke from Gift Wrap. This technique is attempted in 30% of exchanges from this position.",
+      "text": "From this position, attempt Rear Naked Choke from Gift Wrap. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar on Free Arm",
-      "text": "From this position, attempt Armbar on Free Arm. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Armbar on Free Arm. This technique is attempted in 7% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Gift Wrap to Technical Mount",
-      "text": "From this position, attempt Gift Wrap to Technical Mount. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Gift Wrap to Technical Mount. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
@@ -45,13 +45,13 @@ description: "Master Gift Wrap control from top in BJJ. Complete guide covering 
     {
       "@type": "HowToStep",
       "name": "Execute Bow and Arrow Choke Setup",
-      "text": "From this position, attempt Bow and Arrow Choke Setup. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Bow and Arrow Choke Setup. This technique is attempted in 0% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Body Triangle Lock",
-      "text": "From this position, attempt Body Triangle Lock. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Body Triangle Lock. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],

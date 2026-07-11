@@ -276,29 +276,29 @@
       {
         "transition": "Leg Drag Pass",
         "attempt_probability": {
-          "gi": 42,
-          "nogi": 42
+          "gi": 28,
+          "nogi": 29
         }
       },
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 36,
-          "nogi": 36
+          "gi": 30,
+          "nogi": 28
         }
       },
       {
         "transition": "Posture Recovery from Carni",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 22,
+          "nogi": 23
         }
       },
       {
         "transition": "Stack Pass from Carni",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 20,
+          "nogi": 20
         }
       }
     ],
@@ -590,29 +590,29 @@
       {
         "transition": "Heel Hook from Carni",
         "attempt_probability": {
-          "gi": 49,
-          "nogi": 49
+          "gi": 4,
+          "nogi": 45
         }
       },
       {
         "transition": "Kneebar Finish",
         "attempt_probability": {
-          "gi": 23,
-          "nogi": 23
+          "gi": 41,
+          "nogi": 21
         }
       },
       {
         "transition": "Calf Slicer from Carni",
         "attempt_probability": {
-          "gi": 20,
-          "nogi": 20
+          "gi": 33,
+          "nogi": 18
         }
       },
       {
         "transition": "Carni to Gogoplata Setup",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 22,
+          "nogi": 16
         }
       }
     ],

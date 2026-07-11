@@ -312,28 +312,28 @@
       {
         "transition": "Leg Drag Pass to Side Control",
         "attempt_probability": {
-          "gi": 22,
+          "gi": 25,
           "nogi": 22
         }
       },
       {
         "transition": "Leg Drag to Back Take",
         "attempt_probability": {
-          "gi": 20,
-          "nogi": 20
+          "gi": 19,
+          "nogi": 22
         }
       },
       {
         "transition": "Leg Drag to Mount",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 10,
+          "nogi": 8
         }
       },
       {
         "transition": "Leg Drag to Knee on Belly",
         "attempt_probability": {
-          "gi": 11,
+          "gi": 13,
           "nogi": 11
         }
       },
@@ -341,7 +341,7 @@
         "transition": "Leg Drag to North-South",
         "attempt_probability": {
           "gi": 7,
-          "nogi": 7
+          "nogi": 8
         }
       },
       {
@@ -354,29 +354,29 @@
       {
         "transition": "Leg Drag to Inside Ashi",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 4,
+          "nogi": 8
         }
       },
       {
         "transition": "Leg Drag to Technical Mount",
         "attempt_probability": {
-          "gi": 8,
+          "gi": 9,
           "nogi": 8
         }
       },
       {
         "transition": "Leg Drag to Darce Setup",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 5,
+          "nogi": 5
         }
       },
       {
         "transition": "Darce Choke from Leg Drag",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 4,
+          "nogi": 4
         }
       }
     ]
@@ -622,64 +622,64 @@
       {
         "transition": "Leg Drag Escape to Closed Guard",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 8,
+          "nogi": 7
         }
       },
       {
         "transition": "Technical Stand-up",
         "attempt_probability": {
           "gi": 9,
-          "nogi": 9
+          "nogi": 8
         }
       },
       {
         "transition": "Leg Drag Counter to Half Guard",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 18
+          "gi": 13,
+          "nogi": 13
         }
       },
       {
         "transition": "Roll to Turtle",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 18
+          "gi": 11,
+          "nogi": 12
         }
       },
       {
         "transition": "Inside Position Recovery",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 11,
+          "nogi": 14
         }
       },
       {
         "transition": "Granby Roll to Guard",
         "attempt_probability": {
           "gi": 6,
-          "nogi": 6
+          "nogi": 7
         }
       },
       {
         "transition": "Leg Recovery to De La Riva",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 10,
+          "nogi": 8
         }
       },
       {
         "transition": "Frame and Shrimp to Guard",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 15,
+          "nogi": 15
         }
       },
       {
         "transition": "Half Guard Recovery",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 17,
+          "nogi": 16
         }
       }
     ]

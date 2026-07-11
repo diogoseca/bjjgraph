@@ -145,23 +145,23 @@ The position also serves an important pedagogical function in teaching fundament
 ### Available Transitions
 
 
-- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (20% of attempts)
+- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (16% of attempts)
 
-- **[[Transitions/X-Guard to Ashi Garami/Attacker|X-Guard to Ashi Garami]]** (10% of attempts)
+- **[[Transitions/X-Guard to Ashi Garami/Attacker|X-Guard to Ashi Garami]]** (11% of attempts)
 
-- **[[Transitions/50-50 Entry from Standing/Attacker|50-50 Entry from Standing]]** (13% of attempts)
+- **[[Transitions/50-50 Entry from Standing/Attacker|50-50 Entry from Standing]]** (10% of attempts)
 
-- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (15% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (12% of attempts)
 
-- **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (13% of attempts)
+- **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (8% of attempts)
 
-- **[[Transitions/Ankle Pick Sweep/Attacker|Ankle Pick Sweep]]** (11% of attempts)
+- **[[Transitions/Ankle Pick Sweep/Attacker|Ankle Pick Sweep]]** (9% of attempts)
 
-- **[[Transitions/Straight Footlock/Attacker|Straight Footlock]]** (5% of attempts)
+- **[[Transitions/Straight Footlock/Attacker|Straight Footlock]]** (15% of attempts)
 
-- **[[Transitions/Ankle Lock Escape to Standing/Attacker|Ankle Lock Escape to Standing]]** (3% of attempts)
+- **[[Transitions/Ankle Lock Escape to Standing/Attacker|Ankle Lock Escape to Standing]]** (8% of attempts)
 
-- **[[Kneebar from Straight Ankle Lock Control/Attacker|Kneebar from Straight Ankle Lock Control]]** (10% of attempts)
+- **[[Kneebar from Straight Ankle Lock Control/Attacker|Kneebar from Straight Ankle Lock Control]]** (11% of attempts)
 
 
 ### Common Mistakes
@@ -222,23 +222,23 @@ The position also serves an important pedagogical function in teaching fundament
 ### Available Transitions
 
 
-- **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** (25% of attempts)
+- **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** (12% of attempts)
 
-- **[[Transitions/Counter Entry to Opponent's Leg/Attacker|Counter Entry to Opponent's Leg]]** (14% of attempts)
+- **[[Transitions/Counter Entry to Opponent's Leg/Attacker|Counter Entry to Opponent's Leg]]** (12% of attempts)
 
-- **[[Transitions/Hip Rotation Defense/Attacker|Hip Rotation Defense]]** (14% of attempts)
+- **[[Transitions/Hip Rotation Defense/Attacker|Hip Rotation Defense]]** (12% of attempts)
 
 - **[[Transitions/Knee Extraction/Attacker|Knee Extraction]]** (14% of attempts)
 
-- **[[Transitions/Frame and Distance Creation/Attacker|Frame and Distance Creation]]** (11% of attempts)
+- **[[Transitions/Frame and Distance Creation/Attacker|Frame and Distance Creation]]** (10% of attempts)
 
-- **[[Transitions/Pass to Side Control/Attacker|Pass to Side Control]]** (7% of attempts)
+- **[[Transitions/Pass to Side Control/Attacker|Pass to Side Control]]** (12% of attempts)
 
-- **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** (9% of attempts)
+- **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** (10% of attempts)
 
-- **[[Transitions/Counter from Ankle Lock/Attacker|Counter from Ankle Lock]]** (4% of attempts)
+- **[[Transitions/Counter from Ankle Lock/Attacker|Counter from Ankle Lock]]** (9% of attempts)
 
-- **[[Straight Ankle Lock from Straight Ankle Lock Control/Attacker|Straight Ankle Lock from Straight Ankle Lock Control]]** (2% of attempts)
+- **[[Straight Ankle Lock from Straight Ankle Lock Control/Attacker|Straight Ankle Lock from Straight Ankle Lock Control]]** (9% of attempts)
 
 
 ### Common Mistakes

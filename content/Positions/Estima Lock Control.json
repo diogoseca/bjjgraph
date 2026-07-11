@@ -275,36 +275,36 @@
       {
         "transition": "Estima Lock from Estima Lock Control",
         "attempt_probability": {
-          "gi": 41,
-          "nogi": 41
+          "gi": 36,
+          "nogi": 29
         }
       },
       {
         "transition": "Estima Lock to Saddle",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 15,
+          "nogi": 22
         }
       },
       {
         "transition": "Estima Lock to Ashi Garami",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 17
+          "gi": 18,
+          "nogi": 19
         }
       },
       {
         "transition": "Kneebar from Estima Lock",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 14,
+          "nogi": 14
         }
       },
       {
         "transition": "Toe Hold from Estima Lock",
         "attempt_probability": {
-          "gi": 19,
-          "nogi": 19
+          "gi": 17,
+          "nogi": 16
         }
       }
     ],
@@ -558,43 +558,43 @@
       {
         "transition": "Ashi Garami Escape",
         "attempt_probability": {
-          "gi": 27,
-          "nogi": 27
+          "gi": 17,
+          "nogi": 17
         }
       },
       {
         "transition": "Leg Extraction",
         "attempt_probability": {
-          "gi": 47,
-          "nogi": 47
+          "gi": 24,
+          "nogi": 25
         }
       },
       {
         "transition": "Standing Escape",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 14,
+          "nogi": 16
         }
       },
       {
         "transition": "50-50 Entry",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 12,
+          "nogi": 11
         }
       },
       {
         "transition": "Estima Lock Counter Roll",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 11,
+          "nogi": 12
         }
       },
       {
         "transition": "Counter from Estima Lock",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 22,
+          "nogi": 19
         }
       }
     ],

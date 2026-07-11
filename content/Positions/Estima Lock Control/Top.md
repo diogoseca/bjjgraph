@@ -21,31 +21,31 @@ description: "Master Estima Lock Top Position in BJJ. Control opponent's foot an
     {
       "@type": "HowToStep",
       "name": "Execute Estima Lock from Estima Lock Control",
-      "text": "From this position, attempt Estima Lock from Estima Lock Control. This technique is attempted in 41% of exchanges from this position.",
+      "text": "From this position, attempt Estima Lock from Estima Lock Control. This technique is attempted in 29% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Estima Lock to Saddle",
-      "text": "From this position, attempt Estima Lock to Saddle. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Estima Lock to Saddle. This technique is attempted in 22% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Estima Lock to Ashi Garami",
-      "text": "From this position, attempt Estima Lock to Ashi Garami. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Estima Lock to Ashi Garami. This technique is attempted in 19% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar from Estima Lock",
-      "text": "From this position, attempt Kneebar from Estima Lock. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Kneebar from Estima Lock. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Toe Hold from Estima Lock",
-      "text": "From this position, attempt Toe Hold from Estima Lock. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Toe Hold from Estima Lock. This technique is attempted in 16% of exchanges from this position.",
       "position": 5
     }
   ],

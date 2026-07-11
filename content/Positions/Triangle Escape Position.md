@@ -141,13 +141,13 @@ Triangle escape training serves broader pedagogical purposes beyond the specific
 
 - **[[Triangle Choke from Triangle Control/Attacker|Triangle Choke from Triangle Control]]** (40% of attempts)
 
-- **[[Transitions/Triangle to Armbar/Attacker|Triangle to Armbar]]** (25% of attempts)
+- **[[Transitions/Triangle to Armbar/Attacker|Triangle to Armbar]]** (22% of attempts)
 
-- **[[Transitions/Triangle to Omoplata/Attacker|Triangle to Omoplata]]** (15% of attempts)
+- **[[Transitions/Triangle to Omoplata/Attacker|Triangle to Omoplata]]** (13% of attempts)
 
-- **[[Transitions/Triangle to Back/Attacker|Triangle to Back]]** (12% of attempts)
+- **[[Transitions/Triangle to Back/Attacker|Triangle to Back]]** (15% of attempts)
 
-- **[[Transitions/Inverted Triangle/Attacker|Inverted Triangle]]** (8% of attempts)
+- **[[Transitions/Inverted Triangle/Attacker|Inverted Triangle]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -208,19 +208,19 @@ Triangle escape training serves broader pedagogical purposes beyond the specific
 ### Available Transitions
 
 
-- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (22% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (18% of attempts)
 
-- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (44% of attempts)
+- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (22% of attempts)
 
-- **[[Transitions/Triangle Escape/Attacker|Triangle Escape]]** (22% of attempts)
+- **[[Transitions/Triangle Escape/Attacker|Triangle Escape]]** (17% of attempts)
 
-- **[[Transitions/Pass to Side Control/Attacker|Pass to Side Control]]** (7% of attempts)
+- **[[Transitions/Pass to Side Control/Attacker|Pass to Side Control]]** (13% of attempts)
 
-- **[[Transitions/Complete Triangle Escape/Attacker|Complete Triangle Escape]]** (3% of attempts)
+- **[[Transitions/Complete Triangle Escape/Attacker|Complete Triangle Escape]]** (12% of attempts)
 
-- **[[Transitions/Posture in Triangle Escape/Attacker|Posture in Triangle Escape]]** (1% of attempts)
+- **[[Transitions/Posture in Triangle Escape/Attacker|Posture in Triangle Escape]]** (11% of attempts)
 
-- **[[Transitions/Reversal from Triangle Escape/Attacker|Reversal from Triangle Escape]]** (1% of attempts)
+- **[[Transitions/Reversal from Triangle Escape/Attacker|Reversal from Triangle Escape]]** (7% of attempts)
 
 
 ### Common Mistakes

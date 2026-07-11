@@ -21,37 +21,37 @@ description: "Master Standing Rear Clinch in BJJ. Dominant back control from sta
     {
       "@type": "HowToStep",
       "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Back Take. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Body Lock Pass",
-      "text": "From this position, attempt Body Lock Pass. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Body Lock Pass. This technique is attempted in 3% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 2% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Mat Return to Back Mount",
-      "text": "From this position, attempt Mat Return to Back Mount. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Mat Return to Back Mount. This technique is attempted in 21% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Double Leg Finish",
-      "text": "From this position, attempt Double Leg Finish. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Double Leg Finish. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Mat Return from Standing Rear Clinch",
-      "text": "From this position, attempt Mat Return from Standing Rear Clinch. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Mat Return from Standing Rear Clinch. This technique is attempted in 21% of exchanges from this position.",
       "position": 6
     }
   ],

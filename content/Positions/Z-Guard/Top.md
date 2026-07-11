@@ -21,13 +21,13 @@ description: "Master Z-Guard Top in BJJ. Complete guide covering passing strateg
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 40% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice from Half",
-      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
@@ -39,19 +39,19 @@ description: "Master Z-Guard Top in BJJ. Complete guide covering passing strateg
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Step",
-      "text": "From this position, attempt Back Step. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Back Step. This technique is attempted in 16% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Pass",
-      "text": "From this position, attempt Underhook Pass. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Pass. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],

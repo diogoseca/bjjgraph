@@ -293,22 +293,22 @@
       {
         "transition": "Anaconda Choke",
         "attempt_probability": {
-          "gi": 35,
-          "nogi": 35
+          "gi": 19,
+          "nogi": 16
         }
       },
       {
         "transition": "Front Headlock to Back",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 18
+          "gi": 17,
+          "nogi": 20
         }
       },
       {
         "transition": "Side Control to Mount",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 18
+          "gi": 11,
+          "nogi": 11
         }
       },
       {
@@ -321,22 +321,22 @@
       {
         "transition": "Side Control to North-South",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Anaconda Choke from Dead Orchard",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 20,
+          "nogi": 18
         }
       },
       {
         "transition": "Dead Orchard to Darce Switch",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 10,
+          "nogi": 12
         }
       }
     ],
@@ -622,57 +622,57 @@
       {
         "transition": "Shrimp Escape",
         "attempt_probability": {
-          "gi": 38,
-          "nogi": 38
+          "gi": 17,
+          "nogi": 19
         }
       },
       {
         "transition": "Arm Extraction",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 18
+          "gi": 15,
+          "nogi": 15
         }
       },
       {
         "transition": "Rolling to Guard",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 17
+          "gi": 12,
+          "nogi": 11
         }
       },
       {
         "transition": "Hip Escape to Guard",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 13,
+          "nogi": 14
         }
       },
       {
         "transition": "Granby Roll to Guard",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 11,
+          "nogi": 12
         }
       },
       {
         "transition": "Escape Dead Orchard Control",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 15,
+          "nogi": 13
         }
       },
       {
         "transition": "Roll from Dead Orchard",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Escape from Dead Orchard",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 8,
+          "nogi": 7
         }
       }
     ],

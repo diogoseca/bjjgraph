@@ -145,19 +145,19 @@ The position's moderate risk level reflects its transitional nature - dominant e
 ### Available Transitions
 
 
-- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (28% of attempts)
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (18% of attempts)
 
-- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (22% of attempts)
+- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (10% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (17% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (20% of attempts)
 
-- **[[Transitions/Sit Through to Guard/Attacker|Sit Through to Guard]]** (12% of attempts)
+- **[[Transitions/Sit Through to Guard/Attacker|Sit Through to Guard]]** (13% of attempts)
 
-- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (12% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (15% of attempts)
 
-- **[[Transitions/Bridge from Reverse Mount/Attacker|Bridge from Reverse Mount]]** (6% of attempts)
+- **[[Transitions/Bridge from Reverse Mount/Attacker|Bridge from Reverse Mount]]** (10% of attempts)
 
-- **[[Transitions/Escape Reverse Mount/Attacker|Escape Reverse Mount]]** (3% of attempts)
+- **[[Transitions/Escape Reverse Mount/Attacker|Escape Reverse Mount]]** (14% of attempts)
 
 
 ### Common Mistakes
@@ -218,11 +218,11 @@ The position's moderate risk level reflects its transitional nature - dominant e
 ### Available Transitions
 
 
-- **[[Transitions/Reverse Mount to Mount/Attacker|Reverse Mount to Mount]]** (48% of attempts)
+- **[[Transitions/Reverse Mount to Mount/Attacker|Reverse Mount to Mount]]** (40% of attempts)
 
-- **[[Transitions/Reverse Mount to Side Control/Attacker|Reverse Mount to Side Control]]** (27% of attempts)
+- **[[Transitions/Reverse Mount to Side Control/Attacker|Reverse Mount to Side Control]]** (33% of attempts)
 
-- **[[Transitions/Armbar from Reverse Mount/Attacker|Armbar from Reverse Mount]]** (25% of attempts)
+- **[[Transitions/Armbar from Reverse Mount/Attacker|Armbar from Reverse Mount]]** (27% of attempts)
 
 
 ### Common Mistakes

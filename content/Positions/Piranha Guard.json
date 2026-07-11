@@ -298,64 +298,64 @@
       {
         "transition": "Toreando Pass",
         "attempt_probability": {
-          "gi": 20,
-          "nogi": 20
+          "gi": 9,
+          "nogi": 16
         }
       },
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 12,
+          "nogi": 17
         }
       },
       {
         "transition": "Long Step Pass",
         "attempt_probability": {
-          "gi": 11,
+          "gi": 8,
           "nogi": 11
         }
       },
       {
         "transition": "Stack Pass",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 5,
+          "nogi": 7
         }
       },
       {
         "transition": "Leg Drag Pass",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 10,
+          "nogi": 15
         }
       },
       {
         "transition": "Pressure Pass",
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 11
+        }
+      },
+      {
+        "transition": "X Pass",
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 9
+        }
+      },
+      {
+        "transition": "Pass Piranha Guard",
         "attempt_probability": {
           "gi": 14,
           "nogi": 14
         }
       },
       {
-        "transition": "X Pass",
-        "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
-        }
-      },
-      {
-        "transition": "Pass Piranha Guard",
-        "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
-        }
-      },
-      {
         "transition": "Strip Lapel from Piranha",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 28,
+          "nogi": 0
         }
       }
     ],
@@ -632,71 +632,71 @@
       {
         "transition": "Pendulum Sweep",
         "attempt_probability": {
-          "gi": 21,
-          "nogi": 21
+          "gi": 6,
+          "nogi": 11
         }
       },
       {
         "transition": "Collar Drag from Open Guard",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 11,
+          "nogi": 0
         }
       },
       {
         "transition": "Triangle Setup",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 9,
+          "nogi": 23
         }
       },
       {
         "transition": "Omoplata Sweep",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 8,
+          "nogi": 13
         }
       },
       {
         "transition": "De La Riva Sweep",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 8,
+          "nogi": 12
         }
       },
       {
         "transition": "Berimbolo Entry",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 8,
+          "nogi": 5
         }
       },
       {
         "transition": "Flower Sweep",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 5,
+          "nogi": 7
         }
       },
       {
         "transition": "Arm Drag to Back",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 7,
+          "nogi": 29
         }
       },
       {
         "transition": "Piranha Guard Sweep",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 22,
+          "nogi": 0
         }
       },
       {
         "transition": "Piranha to Worm Guard",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 16,
+          "nogi": 0
         }
       }
     ],

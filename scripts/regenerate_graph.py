@@ -80,9 +80,12 @@ def build_alias_maps(content_dir: Path) -> tuple[dict, dict]:
         a = data.get('aliases')
         return a if isinstance(a, list) else []
 
+    # alias mapping only reads name/slug/aliases — never probabilities — so load RAW
+    # (reduce=False): positions now carry divergent {gi,nogi} attempt maps that
+    # reduce_to_scalar(frame=None) would raise on (Q3).
     pos_dir = content_dir / 'Positions'
     if pos_dir.exists():
-        for data in load_json_files(pos_dir):
+        for data in load_json_files(pos_dir, reduce=False):
             name = data.get('name')
             if not name:
                 continue
@@ -95,7 +98,7 @@ def build_alias_maps(content_dir: Path) -> tuple[dict, dict]:
         d = content_dir / subdir
         if not d.exists():
             continue
-        for data in load_json_files(d):
+        for data in load_json_files(d, reduce=False):  # name/slug/aliases only — load raw
             name = data.get('name')
             if not name:
                 continue

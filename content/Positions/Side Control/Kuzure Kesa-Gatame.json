@@ -294,71 +294,71 @@
       {
         "transition": "Americana from Kuzure Kesa-Gatame",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 15,
+          "nogi": 18
         }
       },
       {
         "transition": "Kimura from Kuzure Kesa-Gatame",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 14,
+          "nogi": 16
         }
       },
       {
         "transition": "Side Control to Mount",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 12,
+          "nogi": 14
         }
       },
       {
         "transition": "Side Control to North-South",
         "attempt_probability": {
-          "gi": 12,
+          "gi": 10,
           "nogi": 12
         }
       },
       {
         "transition": "Paper Cutter Choke from Kuzure Kesa-Gatame",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 9,
+          "nogi": 0
         }
       },
       {
         "transition": "Arm Triangle from Kuzure Kesa-Gatame",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 9,
+          "nogi": 13
         }
       },
       {
         "transition": "Breadcutter Choke from Kuzure Kesa-Gatame",
         "attempt_probability": {
           "gi": 9,
-          "nogi": 9
+          "nogi": 0
         }
       },
       {
         "transition": "Armbar on Free Arm",
         "attempt_probability": {
-          "gi": 10,
+          "gi": 8,
           "nogi": 10
         }
       },
       {
         "transition": "Gift Wrap Control",
         "attempt_probability": {
-          "gi": 10,
+          "gi": 8,
           "nogi": 10
         }
       },
       {
         "transition": "Belly Down Armbar from Kuzure Kesa-Gatame",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 6,
+          "nogi": 7
         }
       }
     ]
@@ -581,49 +581,49 @@
         "transition": "Elbow Escape to Guard",
         "attempt_probability": {
           "gi": 22,
-          "nogi": 22
+          "nogi": 21
         }
       },
       {
         "transition": "Arm Recovery to Guard",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 16
+          "gi": 20,
+          "nogi": 20
         }
       },
       {
         "transition": "Bridge and Roll",
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 12
+        }
+      },
+      {
+        "transition": "Granby Roll to Guard",
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 12
+        }
+      },
+      {
+        "transition": "Technical Stand-up",
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 9
+        }
+      },
+      {
+        "transition": "Re-Guard from Headquarters",
         "attempt_probability": {
           "gi": 13,
           "nogi": 13
         }
       },
       {
-        "transition": "Granby Roll to Guard",
-        "attempt_probability": {
-          "gi": 17,
-          "nogi": 17
-        }
-      },
-      {
-        "transition": "Technical Stand-up",
-        "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
-        }
-      },
-      {
-        "transition": "Re-Guard from Headquarters",
-        "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
-        }
-      },
-      {
         "transition": "Frame Escape from Kuzure Kesa",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 13,
+          "nogi": 13
         }
       }
     ]

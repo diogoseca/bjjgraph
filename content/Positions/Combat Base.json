@@ -113,41 +113,41 @@
         "transition": "Knee Slide from Combat Base",
         "attempt_probability": {
           "gi": 22,
-          "nogi": 22
+          "nogi": 21
         }
       },
       {
         "transition": "Toreando Pass",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 18
+          "gi": 13,
+          "nogi": 14
         }
       },
       {
         "transition": "Leg Drag Pass",
-        "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
-        }
-      },
-      {
-        "transition": "Combat Base to Headquarters",
         "attempt_probability": {
           "gi": 13,
           "nogi": 13
         }
       },
       {
+        "transition": "Combat Base to Headquarters",
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 14
+        }
+      },
+      {
         "transition": "Long Step Pass",
         "attempt_probability": {
           "gi": 10,
-          "nogi": 10
+          "nogi": 9
         }
       },
       {
         "transition": "Standing Up from Combat Base",
         "attempt_probability": {
-          "gi": 5,
+          "gi": 4,
           "nogi": 5
         }
       },
@@ -155,21 +155,21 @@
         "transition": "Stand Up from Combat Base",
         "attempt_probability": {
           "gi": 3,
-          "nogi": 3
+          "nogi": 4
         }
       },
       {
         "transition": "Smash Pass",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 11,
+          "nogi": 10
         }
       },
       {
         "transition": "Double Under Pass",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 9,
+          "nogi": 10
         }
       }
     ],
@@ -460,21 +460,21 @@
       {
         "transition": "Guard Recovery from Combat Base",
         "attempt_probability": {
-          "gi": 35,
-          "nogi": 35
+          "gi": 42,
+          "nogi": 45
         }
       },
       {
         "transition": "Sweep from Combat Base",
         "attempt_probability": {
-          "gi": 35,
-          "nogi": 35
+          "gi": 26,
+          "nogi": 25
         }
       },
       {
         "transition": "Pull Guard from Combat Base",
         "attempt_probability": {
-          "gi": 30,
+          "gi": 32,
           "nogi": 30
         }
       }

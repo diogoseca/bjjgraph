@@ -272,50 +272,50 @@
       {
         "transition": "Butterfly Pass",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 9,
+          "nogi": 8
         }
       },
       {
         "transition": "Butterfly Smash",
-        "attempt_probability": {
-          "gi": 39,
-          "nogi": 39
-        }
-      },
-      {
-        "transition": "Knee Slice Pass",
-        "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
-        }
-      },
-      {
-        "transition": "Pressure Pass",
         "attempt_probability": {
           "gi": 9,
           "nogi": 9
         }
       },
       {
+        "transition": "Knee Slice Pass",
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 12
+        }
+      },
+      {
+        "transition": "Pressure Pass",
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 8
+        }
+      },
+      {
         "transition": "Double Under Pass",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 8,
+          "nogi": 7
         }
       },
       {
         "transition": "Leg Weave Pass",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 7,
+          "nogi": 7
         }
       },
       {
         "transition": "Toreando Pass",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 6,
+          "nogi": 8
         }
       },
       {
@@ -328,36 +328,36 @@
       {
         "transition": "Body Lock Pass",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 7,
+          "nogi": 10
         }
       },
       {
         "transition": "Leg Drag Pass",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 8,
+          "nogi": 9
         }
       },
       {
         "transition": "Over-Under Pass",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 8,
+          "nogi": 7
         }
       },
       {
         "transition": "Pass Butterfly Hook Control",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 5,
+          "nogi": 4
         }
       },
       {
         "transition": "Smash from Butterfly Hook Control",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 6,
+          "nogi": 6
         }
       }
     ],
@@ -621,42 +621,42 @@
       {
         "transition": "Butterfly Sweep",
         "attempt_probability": {
-          "gi": 41,
-          "nogi": 41
+          "gi": 16,
+          "nogi": 15
         }
       },
       {
         "transition": "Arm Drag to Back",
         "attempt_probability": {
           "gi": 9,
-          "nogi": 9
+          "nogi": 10
         }
       },
       {
         "transition": "Butterfly Guard to X-Guard",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 8,
+          "nogi": 8
         }
       },
       {
         "transition": "Hook Sweep",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Elevator Sweep",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 7,
+          "nogi": 7
         }
       },
       {
         "transition": "Guillotine Choke from Butterfly Guard",
         "attempt_probability": {
-          "gi": 5,
+          "gi": 3,
           "nogi": 5
         }
       },
@@ -664,28 +664,28 @@
         "transition": "Deep Half Entry",
         "attempt_probability": {
           "gi": 6,
-          "nogi": 6
+          "nogi": 5
         }
       },
       {
         "transition": "Single Leg X Entry",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 7,
+          "nogi": 10
         }
       },
       {
         "transition": "Butterfly Sweep with Guillotine",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 3,
+          "nogi": 4
         }
       },
       {
         "transition": "Butterfly Hook Recovery",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 6,
+          "nogi": 5
         }
       },
       {
@@ -698,15 +698,15 @@
       {
         "transition": "Collar Drag from Open Guard",
         "attempt_probability": {
-          "gi": 1,
+          "gi": 5,
           "nogi": 1
         }
       },
       {
         "transition": "John Wayne Sweep",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 2,
+          "nogi": 2
         }
       },
       {
@@ -719,22 +719,22 @@
       {
         "transition": "Arm Drag Sweep",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 4,
+          "nogi": 4
         }
       },
       {
         "transition": "Butterfly Hook Sweep",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 4,
+          "nogi": 4
         }
       },
       {
         "transition": "Reguard to Butterfly Guard",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 4,
+          "nogi": 4
         }
       }
     ],

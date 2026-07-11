@@ -277,43 +277,43 @@
       {
         "transition": "Back Take",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 18
+          "gi": 22,
+          "nogi": 21
         }
       },
       {
         "transition": "Stack Pass",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 16,
+          "nogi": 18
         }
       },
       {
         "transition": "Double Underhook Pass",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 16
+          "gi": 18,
+          "nogi": 19
         }
       },
       {
         "transition": "Rolling Back Take",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 13,
+          "nogi": 11
         }
       },
       {
         "transition": "Posture Recovery to Closed Guard",
         "attempt_probability": {
-          "gi": 20,
-          "nogi": 20
+          "gi": 14,
+          "nogi": 14
         }
       },
       {
         "transition": "Arm Extraction and Pass",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 16
+          "gi": 17,
+          "nogi": 17
         }
       }
     ],
@@ -581,43 +581,43 @@
       {
         "transition": "Gogoplata",
         "attempt_probability": {
-          "gi": 11,
+          "gi": 9,
           "nogi": 11
         }
       },
       {
         "transition": "Omoplata from Crackhead Control",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 12,
+          "nogi": 12
         }
       },
       {
         "transition": "Triangle Choke from Crackhead Control",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 17,
+          "nogi": 17
         }
       },
       {
         "transition": "Crackhead Control to Carni",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 11,
+          "nogi": 11
         }
       },
       {
         "transition": "Hook Sweep",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 14,
+          "nogi": 14
         }
       },
       {
         "transition": "Baratoplata from Crackhead Control",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 8,
+          "nogi": 8
         }
       },
       {
@@ -630,8 +630,8 @@
       {
         "transition": "Crackhead Control to New York",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 14,
+          "nogi": 12
         }
       }
     ],

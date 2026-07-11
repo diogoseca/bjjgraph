@@ -265,22 +265,22 @@
       {
         "transition": "Reverse Mount to Mount",
         "attempt_probability": {
-          "gi": 48,
-          "nogi": 48
+          "gi": 40,
+          "nogi": 40
         }
       },
       {
         "transition": "Reverse Mount to Side Control",
         "attempt_probability": {
-          "gi": 27,
-          "nogi": 27
+          "gi": 33,
+          "nogi": 33
         }
       },
       {
         "transition": "Armbar from Reverse Mount",
         "attempt_probability": {
-          "gi": 25,
-          "nogi": 25
+          "gi": 27,
+          "nogi": 27
         }
       }
     ],
@@ -526,50 +526,50 @@
       {
         "transition": "Elbow Escape to Guard",
         "attempt_probability": {
-          "gi": 28,
-          "nogi": 28
+          "gi": 18,
+          "nogi": 18
         }
       },
       {
         "transition": "Bridge and Roll",
         "attempt_probability": {
-          "gi": 22,
-          "nogi": 22
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Hip Escape to Guard",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 17
+          "gi": 20,
+          "nogi": 20
         }
       },
       {
         "transition": "Sit Through to Guard",
         "attempt_probability": {
           "gi": 12,
-          "nogi": 12
+          "nogi": 13
         }
       },
       {
         "transition": "Frame and Shrimp to Guard",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 16,
+          "nogi": 15
         }
       },
       {
         "transition": "Bridge from Reverse Mount",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Escape Reverse Mount",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 14,
+          "nogi": 14
         }
       }
     ],

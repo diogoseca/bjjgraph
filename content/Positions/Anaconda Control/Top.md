@@ -21,31 +21,31 @@ description: "Master offensive control from Anaconda Control Top position. Learn
     {
       "@type": "HowToStep",
       "name": "Execute Anaconda Choke from Anaconda Control",
-      "text": "From this position, attempt Anaconda Choke from Anaconda Control. This technique is attempted in 50% of exchanges from this position.",
+      "text": "From this position, attempt Anaconda Choke from Anaconda Control. This technique is attempted in 41% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Switch to Darce Configuration",
-      "text": "From this position, attempt Switch to Darce Configuration. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Switch to Darce Configuration. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Anaconda to Side Control",
-      "text": "From this position, attempt Anaconda to Side Control. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Anaconda to Side Control. This technique is attempted in 20% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Anaconda Control to Dead Orchard Control",
-      "text": "From this position, attempt Anaconda Control to Dead Orchard Control. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Anaconda Control to Dead Orchard Control. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take from Anaconda",
-      "text": "From this position, attempt Back Take from Anaconda. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Back Take from Anaconda. This technique is attempted in 16% of exchanges from this position.",
       "position": 5
     }
   ],

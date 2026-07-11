@@ -21,37 +21,37 @@ description: "Master attacking Chill Dog from top position. Learn to break defen
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Back Control",
-      "text": "From this position, attempt Turtle to Back Control. This technique is attempted in 31% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Back Control. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crucifix from Turtle",
-      "text": "From this position, attempt Crucifix from Turtle. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Crucifix from Turtle. This technique is attempted in 7% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Darce Setup",
-      "text": "From this position, attempt Darce Setup. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Darce Setup. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Anaconda Setup",
-      "text": "From this position, attempt Anaconda Setup. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Anaconda Setup. This technique is attempted in 7% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Front Headlock to Back",
-      "text": "From this position, attempt Front Headlock to Back. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Front Headlock to Back. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Truck Entry",
-      "text": "From this position, attempt Truck Entry. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Truck Entry. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],

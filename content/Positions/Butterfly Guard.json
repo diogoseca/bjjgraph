@@ -82,85 +82,85 @@
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 14,
+          "nogi": 15
         }
       },
       {
         "transition": "Double Under Pass",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 4,
+          "nogi": 4
         }
       },
       {
         "transition": "Butterfly Pass",
         "attempt_probability": {
           "gi": 10,
-          "nogi": 10
+          "nogi": 9
         }
       },
       {
         "transition": "Long Step Pass",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 8,
+          "nogi": 8
         }
       },
       {
         "transition": "Over-Under Pass",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 6,
+          "nogi": 5
         }
       },
       {
         "transition": "Toreando Pass",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 8,
+          "nogi": 6
         }
       },
       {
         "transition": "Butterfly Smash",
         "attempt_probability": {
-          "gi": 49,
-          "nogi": 49
+          "gi": 11,
+          "nogi": 10
         }
       },
       {
         "transition": "Body Lock Pass",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 11,
+          "nogi": 16
         }
       },
       {
         "transition": "Leg Drag Pass",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "X Pass",
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 8
+        }
+      },
+      {
+        "transition": "Butterfly Guard to Butterfly Half Guard",
         "attempt_probability": {
           "gi": 5,
           "nogi": 5
         }
       },
       {
-        "transition": "Butterfly Guard to Butterfly Half Guard",
-        "attempt_probability": {
-          "gi": 0,
-          "nogi": 0
-        }
-      },
-      {
         "transition": "Butterfly Guard to Half Butterfly",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 4,
+          "nogi": 4
         }
       }
     ],
@@ -387,106 +387,106 @@
       {
         "transition": "Butterfly Sweep",
         "attempt_probability": {
-          "gi": 37,
-          "nogi": 37
+          "gi": 21,
+          "nogi": 20
         }
       },
       {
         "transition": "Elevator Sweep",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 11,
+          "nogi": 9
         }
       },
       {
         "transition": "Arm Drag to Back",
         "attempt_probability": {
           "gi": 10,
-          "nogi": 10
+          "nogi": 11
         }
       },
       {
         "transition": "Butterfly Guard to X-Guard",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 10,
+          "nogi": 9
         }
       },
       {
         "transition": "Guillotine Choke from Butterfly Guard",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 5,
+          "nogi": 7
         }
       },
       {
         "transition": "Sumi Gaeshi",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 5,
+          "nogi": 4
         }
       },
       {
         "transition": "Single Leg X Entry",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 7,
+          "nogi": 9
         }
       },
       {
         "transition": "Butterfly Guard to Butterfly Hook Control",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 6,
+          "nogi": 6
         }
       },
       {
         "transition": "Deep Half Entry",
         "attempt_probability": {
           "gi": 4,
-          "nogi": 4
+          "nogi": 3
         }
       },
       {
         "transition": "Underhook Sweep",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 5,
+          "nogi": 5
         }
       },
       {
         "transition": "Kimura from Butterfly Guard",
         "attempt_probability": {
           "gi": 3,
-          "nogi": 3
+          "nogi": 4
         }
       },
       {
         "transition": "Snap Down to Front Headlock",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 3,
+          "nogi": 5
         }
       },
       {
         "transition": "Omoplata from Butterfly Guard",
         "attempt_probability": {
-          "gi": 1,
+          "gi": 2,
           "nogi": 1
         }
       },
       {
         "transition": "Hook Sweep",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 5,
+          "nogi": 4
         }
       },
       {
         "transition": "Butterfly Guard to Williams Guard",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 3,
+          "nogi": 3
         }
       }
     ],

@@ -21,37 +21,37 @@ description: "Master defensive strategies from Crucifix Bottom in BJJ. Complete 
     {
       "@type": "HowToStep",
       "name": "Execute Shrimp Escape",
-      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Defensive Roll",
-      "text": "From this position, attempt Defensive Roll. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Defensive Roll. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Explosive Bridge to Turtle",
-      "text": "From this position, attempt Explosive Bridge to Turtle. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Explosive Bridge to Turtle. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Roll to Guard",
-      "text": "From this position, attempt Roll to Guard. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Roll to Guard. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Recovery from Crucifix",
-      "text": "From this position, attempt Arm Recovery from Crucifix. This technique is attempted in 43% of exchanges from this position.",
+      "text": "From this position, attempt Arm Recovery from Crucifix. This technique is attempted in 16% of exchanges from this position.",
       "position": 6
     }
   ],

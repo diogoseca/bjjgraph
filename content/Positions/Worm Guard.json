@@ -298,15 +298,15 @@
       {
         "transition": "Leg Drag Pass",
         "attempt_probability": {
-          "gi": 24,
-          "nogi": 24
+          "gi": 8,
+          "nogi": 16
         }
       },
       {
         "transition": "Toreando Pass",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 6,
+          "nogi": 20
         }
       },
       {
@@ -319,36 +319,36 @@
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 11,
+          "nogi": 20
         }
       },
       {
         "transition": "Long Step Pass",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 8,
+          "nogi": 11
         }
       },
       {
         "transition": "Stack Pass",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 9,
+          "nogi": 8
         }
       },
       {
         "transition": "Backstep from Worm Guard",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 18,
+          "nogi": 12
         }
       },
       {
         "transition": "Lapel Strip from Worm Guard",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 27,
+          "nogi": 0
         }
       }
     ]
@@ -610,71 +610,71 @@
       {
         "transition": "Omoplata Sweep",
         "attempt_probability": {
-          "gi": 33,
-          "nogi": 33
+          "gi": 8,
+          "nogi": 19
         }
       },
       {
         "transition": "Triangle Setup",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 5,
+          "nogi": 17
         }
       },
       {
         "transition": "Omoplata to Back",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 5,
+          "nogi": 11
         }
       },
       {
         "transition": "Lapel Elevator Sweep",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 11,
+          "nogi": 0
         }
       },
       {
         "transition": "X-Guard Sweep",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 7,
+          "nogi": 29
         }
       },
       {
         "transition": "De La Riva Sweep",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 6,
+          "nogi": 18
         }
       },
       {
         "transition": "Bolo Sweep",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 12,
+          "nogi": 6
         }
       },
       {
         "transition": "Collar Drag from Worm Guard",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 7,
+          "nogi": 0
         }
       },
       {
         "transition": "Worm Guard Sweep",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 28,
+          "nogi": 0
         }
       },
       {
         "transition": "Worm to Squid Guard",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 11,
+          "nogi": 0
         }
       }
     ]

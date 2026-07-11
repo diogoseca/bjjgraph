@@ -21,25 +21,25 @@ description: "Master bottom gogoplata control mechanics including shin positioni
     {
       "@type": "HowToStep",
       "name": "Execute Gogoplata from Gogoplata Control",
-      "text": "From this position, attempt Gogoplata from Gogoplata Control. This technique is attempted in 55% of exchanges from this position.",
+      "text": "From this position, attempt Gogoplata from Gogoplata Control. This technique is attempted in 43% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Closed Guard to Omoplata",
-      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 28% of exchanges from this position.",
+      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 17% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Mission Control Recovery",
-      "text": "From this position, attempt Mission Control Recovery. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Mission Control Recovery. This technique is attempted in 19% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute High Mount Transition",
-      "text": "From this position, attempt High Mount Transition. This technique is attempted in 3% of exchanges from this position.",
+      "text": "From this position, attempt High Mount Transition. This technique is attempted in 21% of exchanges from this position.",
       "position": 4
     }
   ],

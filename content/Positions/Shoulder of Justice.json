@@ -329,64 +329,64 @@
       {
         "transition": "Americana from Shoulder of Justice",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 13,
+          "nogi": 11
         }
       },
       {
         "transition": "Side Control to Mount",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 19,
+          "nogi": 19
         }
       },
       {
         "transition": "Side Control to North-South",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 11,
+          "nogi": 10
         }
       },
       {
         "transition": "Arm Triangle from Shoulder of Justice",
         "attempt_probability": {
           "gi": 11,
-          "nogi": 11
+          "nogi": 13
         }
       },
       {
         "transition": "North-South Choke from Shoulder of Justice",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 7,
+          "nogi": 9
         }
       },
       {
         "transition": "Knee on Belly",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 12,
+          "nogi": 9
         }
       },
       {
         "transition": "Shoulder of Justice Kimura Setup",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 9,
+          "nogi": 10
         }
       },
       {
         "transition": "Shoulder of Justice to Mount",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Kimura from Shoulder of Justice",
         "attempt_probability": {
-          "gi": 20,
-          "nogi": 20
+          "gi": 9,
+          "nogi": 10
         }
       }
     ]
@@ -623,64 +623,64 @@
       {
         "transition": "Shrimp Escape",
         "attempt_probability": {
-          "gi": 36,
-          "nogi": 36
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Elbow Escape to Guard",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 18
+          "gi": 13,
+          "nogi": 12
         }
       },
       {
         "transition": "Frame and Shrimp to Guard",
         "attempt_probability": {
           "gi": 15,
-          "nogi": 15
+          "nogi": 14
         }
       },
       {
         "transition": "Bridge and Roll",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 8,
+          "nogi": 7
         }
       },
       {
         "transition": "Technical Stand-up",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 5,
+          "nogi": 6
         }
       },
       {
         "transition": "Hip Escape to Guard",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 12,
+          "nogi": 12
         }
       },
       {
         "transition": "Escape Shoulder of Justice",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 11,
+          "nogi": 12
         }
       },
       {
         "transition": "Frame from Shoulder of Justice",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 15,
+          "nogi": 15
         }
       },
       {
         "transition": "Frame Escape from Shoulder of Justice",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 11,
+          "nogi": 12
         }
       }
     ]

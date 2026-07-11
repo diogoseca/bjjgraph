@@ -108,49 +108,49 @@
         "transition": "Knee Cut from Headquarters",
         "attempt_probability": {
           "gi": 28,
-          "nogi": 28
+          "nogi": 22
         }
       },
       {
         "transition": "Toreando from Headquarters",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 18
+          "gi": 16,
+          "nogi": 14
         }
       },
       {
         "transition": "Leg Drag from Headquarters",
         "attempt_probability": {
           "gi": 17,
-          "nogi": 17
+          "nogi": 18
         }
       },
       {
         "transition": "Back Step Pass",
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 9
+        }
+      },
+      {
+        "transition": "Body Lock Pass",
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 12
+        }
+      },
+      {
+        "transition": "Headquarters Pass",
         "attempt_probability": {
           "gi": 12,
           "nogi": 12
         }
       },
       {
-        "transition": "Body Lock Pass",
-        "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
-        }
-      },
-      {
-        "transition": "Headquarters Pass",
-        "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
-        }
-      },
-      {
         "transition": "Saddle Entry from Top",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 7,
+          "nogi": 13
         }
       }
     ],
@@ -404,29 +404,29 @@
       {
         "transition": "Re-Guard from Headquarters",
         "attempt_probability": {
-          "gi": 30,
-          "nogi": 30
+          "gi": 37,
+          "nogi": 39
         }
       },
       {
         "transition": "Sweep from Headquarters",
         "attempt_probability": {
-          "gi": 25,
-          "nogi": 25
+          "gi": 18,
+          "nogi": 18
         }
       },
       {
         "transition": "Inversion from Headquarters",
         "attempt_probability": {
-          "gi": 25,
-          "nogi": 25
+          "gi": 22,
+          "nogi": 19
         }
       },
       {
         "transition": "Shin-to-Shin from Headquarters",
         "attempt_probability": {
-          "gi": 20,
-          "nogi": 20
+          "gi": 23,
+          "nogi": 24
         }
       }
     ],

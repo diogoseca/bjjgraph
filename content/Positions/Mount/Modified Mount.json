@@ -267,64 +267,64 @@
       {
         "transition": "Mount to Armbar",
         "attempt_probability": {
-          "gi": 19,
-          "nogi": 19
+          "gi": 13,
+          "nogi": 14
         }
       },
       {
         "transition": "S-Mount Transition",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 9,
+          "nogi": 10
         }
       },
       {
         "transition": "Mounted Triangle",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 6,
+          "nogi": 7
         }
       },
       {
         "transition": "Consolidate Mount",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 18,
+          "nogi": 20
         }
       },
       {
         "transition": "Cross Collar Choke from Modified Mount",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 13,
+          "nogi": 0
         }
       },
       {
         "transition": "Kimura from Modified Mount",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 10,
+          "nogi": 11
         }
       },
       {
         "transition": "Gift Wrap Transition",
         "attempt_probability": {
           "gi": 11,
-          "nogi": 11
+          "nogi": 14
         }
       },
       {
         "transition": "Back Take from Top",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 12,
+          "nogi": 15
         }
       },
       {
         "transition": "Americana from Modified Mount",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 8,
+          "nogi": 9
         }
       }
     ],
@@ -563,15 +563,15 @@
       {
         "transition": "Hip Escape to Guard",
         "attempt_probability": {
-          "gi": 22,
-          "nogi": 22
+          "gi": 16,
+          "nogi": 15
         }
       },
       {
         "transition": "Elbow Escape to Guard",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 18,
+          "nogi": 18
         }
       },
       {
@@ -591,7 +591,7 @@
       {
         "transition": "Upa Escape",
         "attempt_probability": {
-          "gi": 9,
+          "gi": 10,
           "nogi": 9
         }
       },
@@ -605,22 +605,22 @@
       {
         "transition": "Lockdown Recovery",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 6,
+          "nogi": 8
         }
       },
       {
         "transition": "Arm Extraction to Turtle",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 7,
+          "nogi": 7
         }
       },
       {
         "transition": "Bridge Escape from Modified Mount",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 12,
+          "nogi": 12
         }
       }
     ],

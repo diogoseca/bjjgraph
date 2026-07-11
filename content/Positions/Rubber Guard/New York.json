@@ -295,50 +295,50 @@
       {
         "transition": "Posture Recovery",
         "attempt_probability": {
-          "gi": 19,
-          "nogi": 19
+          "gi": 25,
+          "nogi": 26
         }
       },
       {
         "transition": "Overhook Extraction",
         "attempt_probability": {
-          "gi": 19,
-          "nogi": 19
+          "gi": 17,
+          "nogi": 17
         }
       },
       {
         "transition": "Guard Opening Sequence",
         "attempt_probability": {
-          "gi": 14,
+          "gi": 15,
           "nogi": 14
         }
       },
       {
         "transition": "Stack Pass",
         "attempt_probability": {
-          "gi": 25,
-          "nogi": 25
+          "gi": 12,
+          "nogi": 14
         }
       },
       {
         "transition": "Pressure Pass",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 12,
+          "nogi": 10
         }
       },
       {
         "transition": "Posture Recovery to Closed Guard",
         "attempt_probability": {
           "gi": 9,
-          "nogi": 9
+          "nogi": 8
         }
       },
       {
         "transition": "New York Pass to Side Control",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 10,
+          "nogi": 11
         }
       }
     ]
@@ -591,84 +591,84 @@
       {
         "transition": "New York to Invisible Collar",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 12,
+          "nogi": 14
         }
       },
       {
         "transition": "Progression to Zombie",
         "attempt_probability": {
           "gi": 10,
-          "nogi": 10
+          "nogi": 11
         }
       },
       {
         "transition": "Advance to Chill Dog",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 14,
+          "nogi": 15
         }
       },
       {
         "transition": "Rotate to Carni",
-        "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
-        }
-      },
-      {
-        "transition": "Triangle Setup",
-        "attempt_probability": {
-          "gi": 17,
-          "nogi": 17
-        }
-      },
-      {
-        "transition": "Omoplata Sweep",
-        "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
-        }
-      },
-      {
-        "transition": "Gogoplata",
         "attempt_probability": {
           "gi": 6,
           "nogi": 6
         }
       },
       {
-        "transition": "Armbar from New York",
+        "transition": "Triangle Setup",
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 13
+        }
+      },
+      {
+        "transition": "Omoplata Sweep",
         "attempt_probability": {
           "gi": 9,
-          "nogi": 9
+          "nogi": 8
+        }
+      },
+      {
+        "transition": "Gogoplata",
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 6
+        }
+      },
+      {
+        "transition": "Armbar from New York",
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 7
         }
       },
       {
         "transition": "Hip Bump Sweep",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 7,
+          "nogi": 6
         }
       },
       {
         "transition": "Omoplata to Back",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 5,
+          "nogi": 5
         }
       },
       {
         "transition": "Sweep from New York",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 7,
+          "nogi": 6
         }
       },
       {
         "transition": "Belly Down Armbar from New York",
         "attempt_probability": {
-          "gi": 3,
+          "gi": 4,
           "nogi": 3
         }
       }

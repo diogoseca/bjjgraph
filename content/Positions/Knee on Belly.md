@@ -135,25 +135,25 @@ Within the BJJ positional hierarchy, Knee on Belly occupies a distinctive role b
 ### Available Transitions
 
 
-- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (42% of attempts)
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (13% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (10% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (17% of attempts)
 
-- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (5% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (6% of attempts)
 
 - **[[Transitions/Knee Shield Retention/Attacker|Knee Shield Retention]]** (11% of attempts)
 
-- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (4% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (7% of attempts)
 
-- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (10% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (15% of attempts)
 
-- **[[Transitions/Hip Escape to Turtle/Attacker|Hip Escape to Turtle]]** (9% of attempts)
+- **[[Transitions/Hip Escape to Turtle/Attacker|Hip Escape to Turtle]]** (8% of attempts)
 
-- **[[Transitions/Frame and Shrimp from Knee on Belly/Attacker|Frame and Shrimp from Knee on Belly]]** (3% of attempts)
+- **[[Transitions/Frame and Shrimp from Knee on Belly/Attacker|Frame and Shrimp from Knee on Belly]]** (8% of attempts)
 
-- **[[Transitions/Push Knee and Reguard from Knee on Belly/Attacker|Push Knee and Reguard from Knee on Belly]]** (3% of attempts)
+- **[[Transitions/Push Knee and Reguard from Knee on Belly/Attacker|Push Knee and Reguard from Knee on Belly]]** (10% of attempts)
 
-- **[[Transitions/Turn to Turtle from Knee on Belly/Attacker|Turn to Turtle from Knee on Belly]]** (3% of attempts)
+- **[[Transitions/Turn to Turtle from Knee on Belly/Attacker|Turn to Turtle from Knee on Belly]]** (5% of attempts)
 
 
 ### Common Mistakes
@@ -218,23 +218,23 @@ Within the BJJ positional hierarchy, Knee on Belly occupies a distinctive role b
 ### Available Transitions
 
 
-- **[[Transitions/KOB to Mount/Attacker|KOB to Mount]]** (25% of attempts)
+- **[[Transitions/KOB to Mount/Attacker|KOB to Mount]]** (22% of attempts)
 
-- **[[Transitions/Far Side Armbar from KOB/Attacker|Far Side Armbar from KOB]]** (14% of attempts)
+- **[[Transitions/Far Side Armbar from KOB/Attacker|Far Side Armbar from KOB]]** (16% of attempts)
 
-- **[[Baseball Bat Choke from Knee on Belly/Attacker|Baseball Bat Choke from Knee on Belly]]** (12% of attempts)
+- **[[Baseball Bat Choke from Knee on Belly/Attacker|Baseball Bat Choke from Knee on Belly]]** (0% of attempts)
 
-- **[[Cross Collar Choke from Knee on Belly/Attacker|Cross Collar Choke from Knee on Belly]]** (11% of attempts)
+- **[[Cross Collar Choke from Knee on Belly/Attacker|Cross Collar Choke from Knee on Belly]]** (0% of attempts)
 
-- **[[Transitions/KOB to Side Control/Attacker|KOB to Side Control]]** (8% of attempts)
+- **[[Transitions/KOB to Side Control/Attacker|KOB to Side Control]]** (17% of attempts)
 
-- **[[Kimura from Knee on Belly/Attacker|Kimura from Knee on Belly]]** (7% of attempts)
+- **[[Kimura from Knee on Belly/Attacker|Kimura from Knee on Belly]]** (12% of attempts)
 
-- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (7% of attempts)
+- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (9% of attempts)
 
-- **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** (6% of attempts)
+- **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** (9% of attempts)
 
-- **[[Armbar from Knee on Belly/Attacker|Armbar from Knee on Belly]]** (5% of attempts)
+- **[[Armbar from Knee on Belly/Attacker|Armbar from Knee on Belly]]** (10% of attempts)
 
 - **[[Belly Down Armbar from Knee on Belly/Attacker|Belly Down Armbar from Knee on Belly]]** (5% of attempts)
 

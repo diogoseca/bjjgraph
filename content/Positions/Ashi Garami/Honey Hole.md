@@ -137,21 +137,21 @@ From a competitive standpoint, Honey Hole has revolutionized modern no-gi grappl
 ### Available Transitions
 
 
-- **[[Transitions/Inversion Escape/Attacker|Inversion Escape]]** (17% of attempts)
+- **[[Transitions/Inversion Escape/Attacker|Inversion Escape]]** (11% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (8% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (14% of attempts)
 
-- **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** (43% of attempts)
+- **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** (13% of attempts)
 
-- **[[Transitions/Counter heel hook/Attacker|Counter heel hook]]** (4% of attempts)
+- **[[Transitions/Counter heel hook/Attacker|Counter heel hook]]** (12% of attempts)
 
-- **[[Transitions/Reverse the entanglement to Outside Ashi/Attacker|Reverse the entanglement to Outside Ashi]]** (10% of attempts)
+- **[[Transitions/Reverse the entanglement to Outside Ashi/Attacker|Reverse the entanglement to Outside Ashi]]** (7% of attempts)
 
-- **[[Transitions/Grip Break/Attacker|Grip Break]]** (16% of attempts)
+- **[[Transitions/Grip Break/Attacker|Grip Break]]** (25% of attempts)
 
-- **[[Transitions/Standing Escape/Attacker|Standing Escape]]** (1% of attempts)
+- **[[Transitions/Standing Escape/Attacker|Standing Escape]]** (12% of attempts)
 
-- **[[Transitions/Sweep from Honey Hole/Attacker|Sweep from Honey Hole]]** (1% of attempts)
+- **[[Transitions/Sweep from Honey Hole/Attacker|Sweep from Honey Hole]]** (6% of attempts)
 
 
 ### Common Mistakes
@@ -216,25 +216,25 @@ From a competitive standpoint, Honey Hole has revolutionized modern no-gi grappl
 ### Available Transitions
 
 
-- **[[Outside Heel Hook from Honey Hole/Attacker|Outside Heel Hook from Honey Hole]]** (12% of attempts)
+- **[[Outside Heel Hook from Honey Hole/Attacker|Outside Heel Hook from Honey Hole]]** (7% of attempts)
 
-- **[[Heel Hook from Honey Hole/Attacker|Heel Hook from Honey Hole]]** (42% of attempts)
+- **[[Heel Hook from Honey Hole/Attacker|Heel Hook from Honey Hole]]** (13% of attempts)
 
 - **[[Toe Hold from Honey Hole/Attacker|Toe Hold from Honey Hole]]** (8% of attempts)
 
-- **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** (14% of attempts)
+- **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** (6% of attempts)
 
 - **[[Estima Lock from Honey Hole/Attacker|Estima Lock from Honey Hole]]** (2% of attempts)
 
-- **[[Transitions/Backside 50-50 Entry from Ashi/Attacker|Backside 50-50 Entry from Ashi]]** (2% of attempts)
+- **[[Transitions/Backside 50-50 Entry from Ashi/Attacker|Backside 50-50 Entry from Ashi]]** (11% of attempts)
 
-- **[[Calf Slicer from Honey Hole/Attacker|Calf Slicer from Honey Hole]]** (2% of attempts)
+- **[[Calf Slicer from Honey Hole/Attacker|Calf Slicer from Honey Hole]]** (4% of attempts)
 
-- **[[Transitions/Honey Hole to Saddle/Attacker|Honey Hole to Saddle]]** (2% of attempts)
+- **[[Transitions/Honey Hole to Saddle/Attacker|Honey Hole to Saddle]]** (11% of attempts)
 
-- **[[Inside Heel Hook from Honey Hole/Attacker|Inside Heel Hook from Honey Hole]]** (2% of attempts)
+- **[[Inside Heel Hook from Honey Hole/Attacker|Inside Heel Hook from Honey Hole]]** (29% of attempts)
 
-- **[[Kneebar from Honey Hole/Attacker|Kneebar from Honey Hole]]** (14% of attempts)
+- **[[Kneebar from Honey Hole/Attacker|Kneebar from Honey Hole]]** (9% of attempts)
 
 
 ### Common Mistakes

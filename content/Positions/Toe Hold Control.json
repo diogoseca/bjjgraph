@@ -306,50 +306,50 @@
       {
         "transition": "Toe Hold from Toe Hold Control",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 17
+          "gi": 34,
+          "nogi": 30
         }
       },
       {
         "transition": "Outside Ashi Entry",
         "attempt_probability": {
-          "gi": 27,
-          "nogi": 27
+          "gi": 9,
+          "nogi": 12
         }
       },
       {
         "transition": "Saddle Entry from Top",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 16
+          "gi": 10,
+          "nogi": 15
         }
       },
       {
         "transition": "Ankle Lock Finish",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 16
+          "gi": 13,
+          "nogi": 11
         }
       },
       {
         "transition": "Toe Hold to Ashi Garami",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 9,
+          "nogi": 10
         }
       },
       {
         "transition": "Toe Hold to Straight Ankle Lock",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 14,
+          "nogi": 12
         }
       },
       {
         "transition": "Kneebar from Toe Hold Control",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 11,
+          "nogi": 10
         }
       }
     ]
@@ -620,57 +620,57 @@
       {
         "transition": "Leg Extraction Escape from Entanglement",
         "attempt_probability": {
-          "gi": 25,
-          "nogi": 25
+          "gi": 17,
+          "nogi": 15
         }
       },
       {
         "transition": "Inversion Escape from Leg Entanglement",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Inside Ashi Entry",
         "attempt_probability": {
-          "gi": 14,
+          "gi": 9,
           "nogi": 14
         }
       },
       {
         "transition": "Counter-entangle to 50-50 Guard",
         "attempt_probability": {
-          "gi": 12,
+          "gi": 10,
           "nogi": 12
         }
       },
       {
         "transition": "Guard Recovery from Leg Entanglement",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 16,
+          "nogi": 12
         }
       },
       {
         "transition": "Deep Half Entry",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Boot Defense from Toe Hold",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 17,
+          "nogi": 15
         }
       },
       {
         "transition": "Counter Rotation from Toe Hold",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 12,
+          "nogi": 13
         }
       }
     ]

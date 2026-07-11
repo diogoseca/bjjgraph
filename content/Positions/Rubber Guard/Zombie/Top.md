@@ -21,25 +21,25 @@ description: "Master Zombie Top position in BJJ. Control and pass the opponent's
     {
       "@type": "HowToStep",
       "name": "Execute Crossface Pass",
-      "text": "From this position, attempt Crossface Pass. This technique is attempted in 27% of exchanges from this position.",
+      "text": "From this position, attempt Crossface Pass. This technique is attempted in 8% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Weave Pass",
-      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 6% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
@@ -51,7 +51,7 @@ description: "Master Zombie Top position in BJJ. Control and pass the opponent's
     {
       "@type": "HowToStep",
       "name": "Execute Crab Ride to Back",
-      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],

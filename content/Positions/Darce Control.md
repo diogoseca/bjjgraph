@@ -131,21 +131,21 @@ The effectiveness of Darce Control lies in its ability to create multiple dilemm
 ### Available Transitions
 
 
-- **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** (27% of attempts)
+- **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** (20% of attempts)
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (14% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (9% of attempts)
 
-- **[[Transitions/Back Door Escape/Attacker|Back Door Escape]]** (11% of attempts)
+- **[[Transitions/Back Door Escape/Attacker|Back Door Escape]]** (13% of attempts)
 
 - **[[Transitions/Counter Roll to Top/Attacker|Counter Roll to Top]]** (7% of attempts)
 
-- **[[Transitions/Step Over Escape/Attacker|Step Over Escape]]** (14% of attempts)
+- **[[Transitions/Step Over Escape/Attacker|Step Over Escape]]** (12% of attempts)
 
 - **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (14% of attempts)
 
-- **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** (9% of attempts)
+- **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** (10% of attempts)
 
-- **[[Transitions/Frame Escape from Darce/Attacker|Frame Escape from Darce]]** (4% of attempts)
+- **[[Transitions/Frame Escape from Darce/Attacker|Frame Escape from Darce]]** (15% of attempts)
 
 
 ### Common Mistakes
@@ -198,19 +198,19 @@ The effectiveness of Darce Control lies in its ability to create multiple dilemm
 ### Available Transitions
 
 
-- **[[Darce Choke from Darce Control/Attacker|Darce Choke from Darce Control]]** (54% of attempts)
+- **[[Darce Choke from Darce Control/Attacker|Darce Choke from Darce Control]]** (34% of attempts)
 
-- **[[Transitions/Turtle to Back Take/Attacker|Turtle to Back Take]]** (17% of attempts)
+- **[[Transitions/Turtle to Back Take/Attacker|Turtle to Back Take]]** (12% of attempts)
 
 - **[[Transitions/Switch to Anaconda Configuration/Attacker|Switch to Anaconda Configuration]]** (12% of attempts)
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (9% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (8% of attempts)
 
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (5% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (8% of attempts)
 
-- **[[Transitions/Darce Control Maintenance/Attacker|Darce Control Maintenance]]** (2% of attempts)
+- **[[Transitions/Darce Control Maintenance/Attacker|Darce Control Maintenance]]** (19% of attempts)
 
-- **[[Transitions/Darce to Anaconda Switch/Attacker|Darce to Anaconda Switch]]** (1% of attempts)
+- **[[Transitions/Darce to Anaconda Switch/Attacker|Darce to Anaconda Switch]]** (7% of attempts)
 
 
 ### Common Mistakes

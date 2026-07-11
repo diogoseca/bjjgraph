@@ -145,19 +145,19 @@ The position's integration within the broader 10th Planet system provides multip
 
 - **[[Transitions/Gogoplata/Attacker|Gogoplata]]** (11% of attempts)
 
-- **[[Omoplata from Crackhead Control/Attacker|Omoplata from Crackhead Control]]** (13% of attempts)
+- **[[Omoplata from Crackhead Control/Attacker|Omoplata from Crackhead Control]]** (12% of attempts)
 
-- **[[Triangle Choke from Crackhead Control/Attacker|Triangle Choke from Crackhead Control]]** (12% of attempts)
+- **[[Triangle Choke from Crackhead Control/Attacker|Triangle Choke from Crackhead Control]]** (17% of attempts)
 
-- **[[Transitions/Crackhead Control to Carni/Attacker|Crackhead Control to Carni]]** (15% of attempts)
+- **[[Transitions/Crackhead Control to Carni/Attacker|Crackhead Control to Carni]]** (11% of attempts)
 
-- **[[Transitions/Hook Sweep/Attacker|Hook Sweep]]** (12% of attempts)
+- **[[Transitions/Hook Sweep/Attacker|Hook Sweep]]** (14% of attempts)
 
-- **[[Baratoplata from Crackhead Control/Attacker|Baratoplata from Crackhead Control]]** (7% of attempts)
+- **[[Baratoplata from Crackhead Control/Attacker|Baratoplata from Crackhead Control]]** (8% of attempts)
 
 - **[[Transitions/Crackhead Control to Mission Control/Attacker|Crackhead Control to Mission Control]]** (15% of attempts)
 
-- **[[Transitions/Crackhead Control to New York/Attacker|Crackhead Control to New York]]** (15% of attempts)
+- **[[Transitions/Crackhead Control to New York/Attacker|Crackhead Control to New York]]** (12% of attempts)
 
 
 ### Common Mistakes
@@ -218,17 +218,17 @@ The position's integration within the broader 10th Planet system provides multip
 ### Available Transitions
 
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (18% of attempts)
+- **[[Transitions/Back Take/Attacker|Back Take]]** (21% of attempts)
 
-- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (15% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (18% of attempts)
 
-- **[[Transitions/Double Underhook Pass/Attacker|Double Underhook Pass]]** (16% of attempts)
+- **[[Transitions/Double Underhook Pass/Attacker|Double Underhook Pass]]** (19% of attempts)
 
-- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (15% of attempts)
+- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (11% of attempts)
 
-- **[[Transitions/Posture Recovery to Closed Guard/Attacker|Posture Recovery to Closed Guard]]** (20% of attempts)
+- **[[Transitions/Posture Recovery to Closed Guard/Attacker|Posture Recovery to Closed Guard]]** (14% of attempts)
 
-- **[[Transitions/Arm Extraction and Pass/Attacker|Arm Extraction and Pass]]** (16% of attempts)
+- **[[Transitions/Arm Extraction and Pass/Attacker|Arm Extraction and Pass]]** (17% of attempts)
 
 
 ### Common Mistakes

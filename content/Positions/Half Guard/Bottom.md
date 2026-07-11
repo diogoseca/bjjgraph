@@ -21,25 +21,25 @@ description: "Master Half Guard Bottom with comprehensive sweeps, submissions, a
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard to Back Take",
-      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Shield Retention",
-      "text": "From this position, attempt Knee Shield Retention. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Knee Shield Retention. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {

@@ -21,13 +21,13 @@ description: "Master closed guard bottom with offensive sweeps, submissions, and
     {
       "@type": "HowToStep",
       "name": "Execute Hip Bump Sweep",
-      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 9% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Wrist Lock",
-      "text": "From this position, attempt Wrist Lock. This technique is attempted in 3% of exchanges from this position.",
+      "text": "From this position, attempt Wrist Lock. This technique is attempted in 1% of exchanges from this position.",
       "position": 2
     },
     {
@@ -39,13 +39,13 @@ description: "Master closed guard bottom with offensive sweeps, submissions, and
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Cross Collar Choke from Closed Guard",
-      "text": "From this position, attempt Cross Collar Choke from Closed Guard. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Cross Collar Choke from Closed Guard. This technique is attempted in 0% of exchanges from this position.",
       "position": 5
     },
     {

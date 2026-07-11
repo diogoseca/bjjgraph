@@ -320,43 +320,43 @@
       {
         "transition": "Rear Naked Choke from Standing Back Control",
         "attempt_probability": {
-          "gi": 30,
-          "nogi": 30
+          "gi": 7,
+          "nogi": 11
         }
       },
       {
         "transition": "Takedown to Grounded Back Control",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 18
+          "gi": 21,
+          "nogi": 21
         }
       },
       {
         "transition": "Body Triangle Lock",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 4,
+          "nogi": 6
         }
       },
       {
         "transition": "Armbar from Back Transition",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 1,
+          "nogi": 1
         }
       },
       {
         "transition": "Crucifix Transition",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 1,
+          "nogi": 1
         }
       },
       {
         "transition": "Truck Position Entry",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 2,
+          "nogi": 3
         }
       },
       {
@@ -369,29 +369,29 @@
       {
         "transition": "Follow to Back Control",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 16,
+          "nogi": 16
         }
       },
       {
         "transition": "Mat Return to Back Mount",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 21,
+          "nogi": 21
         }
       },
       {
         "transition": "Back Control to Seat Belt Control Back",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 16,
+          "nogi": 16
         }
       },
       {
         "transition": "Bow and Arrow Setup from Standing Back",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 7,
+          "nogi": 0
         }
       }
     ]
@@ -662,64 +662,64 @@
       {
         "transition": "Hip Escape to Turtle",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 6,
+          "nogi": 6
         }
       },
       {
         "transition": "Rolling to Guard",
         "attempt_probability": {
-          "gi": 6,
+          "gi": 8,
           "nogi": 6
         }
       },
       {
         "transition": "Granby Roll to Guard",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 3,
+          "nogi": 4
         }
       },
       {
         "transition": "Grip Break and Face",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 28,
+          "nogi": 29
         }
       },
       {
         "transition": "Controlled Descent",
         "attempt_probability": {
-          "gi": 30,
-          "nogi": 30
+          "gi": 15,
+          "nogi": 13
         }
       },
       {
         "transition": "Explosive Forward Roll",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 5,
+          "nogi": 6
         }
       },
       {
         "transition": "Turn In and Face",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 17,
+          "nogi": 17
         }
       },
       {
         "transition": "Arm Drag Escape",
         "attempt_probability": {
           "gi": 7,
-          "nogi": 7
+          "nogi": 8
         }
       },
       {
         "transition": "Standing up in Base",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 11,
+          "nogi": 11
         }
       }
     ]

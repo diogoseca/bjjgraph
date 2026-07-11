@@ -137,17 +137,17 @@ The invisible collar serves multiple strategic functions within back attack syst
 ### Available Transitions
 
 
-- **[[Transitions/Hand Fighting to Remove Collar Grip/Attacker|Hand Fighting to Remove Collar Grip]]** (22% of attempts)
+- **[[Transitions/Hand Fighting to Remove Collar Grip/Attacker|Hand Fighting to Remove Collar Grip]]** (39% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (18% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (21% of attempts)
 
-- **[[Transitions/Elbow Escape to Remove Hooks/Attacker|Elbow Escape to Remove Hooks]]** (20% of attempts)
+- **[[Transitions/Elbow Escape to Remove Hooks/Attacker|Elbow Escape to Remove Hooks]]** (15% of attempts)
 
-- **[[Transitions/Rolling Escape to Guard/Attacker|Rolling Escape to Guard]]** (13% of attempts)
+- **[[Transitions/Rolling Escape to Guard/Attacker|Rolling Escape to Guard]]** (8% of attempts)
 
 - **[[Transitions/Standing Escape/Attacker|Standing Escape]]** (11% of attempts)
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (16% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (6% of attempts)
 
 
 ### Common Mistakes
@@ -204,21 +204,21 @@ The invisible collar serves multiple strategic functions within back attack syst
 ### Available Transitions
 
 
-- **[[Cross Collar Choke from Invisible Collar/Attacker|Cross Collar Choke from Invisible Collar]]** (14% of attempts)
+- **[[Cross Collar Choke from Invisible Collar/Attacker|Cross Collar Choke from Invisible Collar]]** (4% of attempts)
 
-- **[[Rear Naked Choke from Invisible Collar/Attacker|Rear Naked Choke from Invisible Collar]]** (14% of attempts)
+- **[[Rear Naked Choke from Invisible Collar/Attacker|Rear Naked Choke from Invisible Collar]]** (37% of attempts)
 
-- **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (12% of attempts)
+- **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (8% of attempts)
 
-- **[[Transitions/Aoki Lock to Crucifix/Attacker|Aoki Lock to Crucifix]]** (11% of attempts)
+- **[[Transitions/Aoki Lock to Crucifix/Attacker|Aoki Lock to Crucifix]]** (3% of attempts)
 
-- **[[Bow and Arrow Choke from Invisible Collar/Attacker|Bow and Arrow Choke from Invisible Collar]]** (11% of attempts)
+- **[[Bow and Arrow Choke from Invisible Collar/Attacker|Bow and Arrow Choke from Invisible Collar]]** (0% of attempts)
 
-- **[[Clock Choke from Invisible Collar/Attacker|Clock Choke from Invisible Collar]]** (10% of attempts)
+- **[[Clock Choke from Invisible Collar/Attacker|Clock Choke from Invisible Collar]]** (0% of attempts)
 
-- **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (15% of attempts)
+- **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (29% of attempts)
 
-- **[[Transitions/Body Triangle Lock/Attacker|Body Triangle Lock]]** (13% of attempts)
+- **[[Transitions/Body Triangle Lock/Attacker|Body Triangle Lock]]** (19% of attempts)
 
 
 ### Common Mistakes

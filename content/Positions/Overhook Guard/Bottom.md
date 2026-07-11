@@ -21,13 +21,13 @@ description: "Master Overhook Guard Bottom in BJJ. Complete guide covering contr
     {
       "@type": "HowToStep",
       "name": "Execute Overhook Sweep",
-      "text": "From this position, attempt Overhook Sweep. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Overhook Sweep. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Bump Sweep",
-      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
@@ -39,19 +39,19 @@ description: "Master Overhook Guard Bottom in BJJ. Complete guide covering contr
     {
       "@type": "HowToStep",
       "name": "Execute Arm Drag to Back",
-      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 17% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura Sweep",
-      "text": "From this position, attempt Kimura Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Kimura Sweep. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],

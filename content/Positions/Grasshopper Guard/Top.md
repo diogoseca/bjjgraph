@@ -21,13 +21,13 @@ description: "Master grasshopper guard from top. Complete guide to countering in
     {
       "@type": "HowToStep",
       "name": "Execute Back Step Pass",
-      "text": "From this position, attempt Back Step Pass. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Back Step Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
@@ -45,13 +45,13 @@ description: "Master grasshopper guard from top. Complete guide to countering in
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Sprawl and Disengage",
-      "text": "From this position, attempt Sprawl and Disengage. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Sprawl and Disengage. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],

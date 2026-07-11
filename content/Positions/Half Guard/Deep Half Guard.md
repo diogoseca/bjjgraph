@@ -137,27 +137,27 @@ From the top perspective, deep half guard presents a deceptive challenge - while
 ### Available Transitions
 
 
-- **[[Transitions/Waiter Sweep/Attacker|Waiter Sweep]]** (12% of attempts)
+- **[[Transitions/Waiter Sweep/Attacker|Waiter Sweep]]** (11% of attempts)
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (39% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (8% of attempts)
 
-- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (9% of attempts)
+- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (11% of attempts)
 
-- **[[Electric Chair from Deep Half Guard/Attacker|Electric Chair from Deep Half Guard]]** (9% of attempts)
+- **[[Electric Chair from Deep Half Guard/Attacker|Electric Chair from Deep Half Guard]]** (4% of attempts)
 
-- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (8% of attempts)
+- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (3% of attempts)
 
-- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (9% of attempts)
+- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (8% of attempts)
 
-- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (6% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (11% of attempts)
 
-- **[[Transitions/Deep Half Sweep/Attacker|Deep Half Sweep]]** (2% of attempts)
+- **[[Transitions/Deep Half Sweep/Attacker|Deep Half Sweep]]** (17% of attempts)
 
-- **[[Transitions/Deep Half to X-Guard/Attacker|Deep Half to X-Guard]]** (2% of attempts)
+- **[[Transitions/Deep Half to X-Guard/Attacker|Deep Half to X-Guard]]** (9% of attempts)
 
-- **[[Transitions/Electric Chair Entry from Deep Half/Attacker|Electric Chair Entry from Deep Half]]** (2% of attempts)
+- **[[Transitions/Electric Chair Entry from Deep Half/Attacker|Electric Chair Entry from Deep Half]]** (7% of attempts)
 
-- **[[Transitions/Homer Simpson Sweep/Attacker|Homer Simpson Sweep]]** (2% of attempts)
+- **[[Transitions/Homer Simpson Sweep/Attacker|Homer Simpson Sweep]]** (11% of attempts)
 
 
 ### Common Mistakes
@@ -214,23 +214,23 @@ From the top perspective, deep half guard presents a deceptive challenge - while
 ### Available Transitions
 
 
-- **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** (36% of attempts)
+- **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** (6% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (10% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (9% of attempts)
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (16% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (7% of attempts)
 
-- **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** (13% of attempts)
+- **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** (6% of attempts)
 
-- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (10% of attempts)
+- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (5% of attempts)
 
-- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (10% of attempts)
+- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (13% of attempts)
 
-- **[[Transitions/Backstep from Deep Half/Attacker|Backstep from Deep Half]]** (3% of attempts)
+- **[[Transitions/Backstep from Deep Half/Attacker|Backstep from Deep Half]]** (24% of attempts)
 
-- **[[Transitions/Whizzer from Deep Half/Attacker|Whizzer from Deep Half]]** (1% of attempts)
+- **[[Transitions/Whizzer from Deep Half/Attacker|Whizzer from Deep Half]]** (16% of attempts)
 
-- **[[Transitions/Knee Slice from Deep Half/Attacker|Knee Slice from Deep Half]]** (1% of attempts)
+- **[[Transitions/Knee Slice from Deep Half/Attacker|Knee Slice from Deep Half]]** (14% of attempts)
 
 
 ### Common Mistakes

@@ -21,37 +21,37 @@ description: "Master offensive strategies from Modified Mount. Learn stability m
     {
       "@type": "HowToStep",
       "name": "Execute Mount to Armbar",
-      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute S-Mount Transition",
-      "text": "From this position, attempt S-Mount Transition. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt S-Mount Transition. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Mounted Triangle",
-      "text": "From this position, attempt Mounted Triangle. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Mounted Triangle. This technique is attempted in 7% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Consolidate Mount",
-      "text": "From this position, attempt Consolidate Mount. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Consolidate Mount. This technique is attempted in 20% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Cross Collar Choke from Modified Mount",
-      "text": "From this position, attempt Cross Collar Choke from Modified Mount. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Cross Collar Choke from Modified Mount. This technique is attempted in 0% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Modified Mount",
-      "text": "From this position, attempt Kimura from Modified Mount. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Kimura from Modified Mount. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],

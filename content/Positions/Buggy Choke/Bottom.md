@@ -21,37 +21,37 @@ description: "Defend and escape Buggy Choke attacks. Complete defensive guide co
     {
       "@type": "HowToStep",
       "name": "Execute Sit to Half Guard",
-      "text": "From this position, attempt Sit to Half Guard. This technique is attempted in 30% of exchanges from this position.",
+      "text": "From this position, attempt Sit to Half Guard. This technique is attempted in 23% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand-up",
-      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turn In and Face",
-      "text": "From this position, attempt Turn In and Face. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Turn In and Face. This technique is attempted in 18% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Guard",
-      "text": "From this position, attempt Turtle to Guard. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Door Escape",
-      "text": "From this position, attempt Back Door Escape. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Back Door Escape. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],

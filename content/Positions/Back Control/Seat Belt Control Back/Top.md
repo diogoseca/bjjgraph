@@ -21,25 +21,25 @@ description: "Master Seat Belt Control from top back position. Dominant 4-point 
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke from Seat Belt Control Back",
-      "text": "From this position, attempt Rear Naked Choke from Seat Belt Control Back. This technique is attempted in 37% of exchanges from this position.",
+      "text": "From this position, attempt Rear Naked Choke from Seat Belt Control Back. This technique is attempted in 30% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Back Transition",
-      "text": "From this position, attempt Armbar from Back Transition. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Armbar from Back Transition. This technique is attempted in 4% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bow and Arrow Choke from Seat Belt Control Back",
-      "text": "From this position, attempt Bow and Arrow Choke from Seat Belt Control Back. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Bow and Arrow Choke from Seat Belt Control Back. This technique is attempted in 0% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Control to Crucifix",
-      "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 5% of exchanges from this position.",
       "position": 4
     },
     {
@@ -51,7 +51,7 @@ description: "Master Seat Belt Control from top back position. Dominant 4-point 
     {
       "@type": "HowToStep",
       "name": "Execute Back Control Maintenance",
-      "text": "From this position, attempt Back Control Maintenance. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Back Control Maintenance. This technique is attempted in 17% of exchanges from this position.",
       "position": 6
     }
   ],

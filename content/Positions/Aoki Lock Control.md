@@ -137,17 +137,17 @@ This position appears most commonly in no-gi competition, submission-only format
 ### Available Transitions
 
 
-- **[[Transitions/Rolling Escape to Guard/Attacker|Rolling Escape to Guard]]** (21% of attempts)
+- **[[Transitions/Rolling Escape to Guard/Attacker|Rolling Escape to Guard]]** (20% of attempts)
 
-- **[[Transitions/Arm Extraction to Turtle/Attacker|Arm Extraction to Turtle]]** (38% of attempts)
+- **[[Transitions/Arm Extraction to Turtle/Attacker|Arm Extraction to Turtle]]** (21% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (17% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (21% of attempts)
 
-- **[[Transitions/Counter Roll to Top/Attacker|Counter Roll to Top]]** (4% of attempts)
+- **[[Transitions/Counter Roll to Top/Attacker|Counter Roll to Top]]** (12% of attempts)
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (18% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (15% of attempts)
 
-- **[[Transitions/Base Attack to Sweep/Attacker|Base Attack to Sweep]]** (2% of attempts)
+- **[[Transitions/Base Attack to Sweep/Attacker|Base Attack to Sweep]]** (11% of attempts)
 
 
 ### Common Mistakes
@@ -204,17 +204,17 @@ This position appears most commonly in no-gi competition, submission-only format
 ### Available Transitions
 
 
-- **[[Aoki Lock from Aoki Lock Control/Attacker|Aoki Lock from Aoki Lock Control]]** (42% of attempts)
+- **[[Aoki Lock from Aoki Lock Control/Attacker|Aoki Lock from Aoki Lock Control]]** (26% of attempts)
 
-- **[[Transitions/Aoki Lock to Back Control/Attacker|Aoki Lock to Back Control]]** (19% of attempts)
+- **[[Transitions/Aoki Lock to Back Control/Attacker|Aoki Lock to Back Control]]** (25% of attempts)
 
-- **[[Transitions/Aoki Lock to Crucifix/Attacker|Aoki Lock to Crucifix]]** (14% of attempts)
+- **[[Transitions/Aoki Lock to Crucifix/Attacker|Aoki Lock to Crucifix]]** (15% of attempts)
 
-- **[[Transitions/Kimura Switch/Attacker|Kimura Switch]]** (9% of attempts)
+- **[[Transitions/Kimura Switch/Attacker|Kimura Switch]]** (14% of attempts)
 
-- **[[Transitions/Truck Entry/Attacker|Truck Entry]]** (13% of attempts)
+- **[[Transitions/Truck Entry/Attacker|Truck Entry]]** (15% of attempts)
 
-- **[[Transitions/Aoki Lock/Attacker|Aoki Lock]]** (3% of attempts)
+- **[[Transitions/Aoki Lock/Attacker|Aoki Lock]]** (5% of attempts)
 
 
 ### Common Mistakes

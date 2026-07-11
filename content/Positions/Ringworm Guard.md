@@ -135,19 +135,19 @@ The guard creates mechanical advantages through the lapel wrap, restricting the 
 ### Available Transitions
 
 
-- **[[Transitions/Ringworm Sweep to Back Control/Attacker|Ringworm Sweep to Back Control]]** (15% of attempts)
+- **[[Transitions/Ringworm Sweep to Back Control/Attacker|Ringworm Sweep to Back Control]]** (0% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (13% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (34% of attempts)
 
-- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (13% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (28% of attempts)
 
-- **[[Transitions/Lapel Sweep to Back/Attacker|Lapel Sweep to Back]]** (16% of attempts)
+- **[[Transitions/Lapel Sweep to Back/Attacker|Lapel Sweep to Back]]** (0% of attempts)
 
-- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (13% of attempts)
+- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (36% of attempts)
 
-- **[[Transitions/Ringworm Guard to Worm Guard/Attacker|Ringworm Guard to Worm Guard]]** (23% of attempts)
+- **[[Transitions/Ringworm Guard to Worm Guard/Attacker|Ringworm Guard to Worm Guard]]** (0% of attempts)
 
-- **[[Transitions/Ringworm to Spider Guard/Attacker|Ringworm to Spider Guard]]** (7% of attempts)
+- **[[Transitions/Ringworm to Spider Guard/Attacker|Ringworm to Spider Guard]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -206,17 +206,17 @@ The guard creates mechanical advantages through the lapel wrap, restricting the 
 ### Available Transitions
 
 
-- **[[Transitions/Lapel Grip Break and Posture Recovery/Attacker|Lapel Grip Break and Posture Recovery]]** (17% of attempts)
+- **[[Transitions/Lapel Grip Break and Posture Recovery/Attacker|Lapel Grip Break and Posture Recovery]]** (0% of attempts)
 
-- **[[Transitions/Leg Extraction from Lapel Wrap/Attacker|Leg Extraction from Lapel Wrap]]** (18% of attempts)
+- **[[Transitions/Leg Extraction from Lapel Wrap/Attacker|Leg Extraction from Lapel Wrap]]** (0% of attempts)
 
-- **[[Transitions/Stack Pass with Lapel Control Negation/Attacker|Stack Pass with Lapel Control Negation]]** (15% of attempts)
+- **[[Transitions/Stack Pass with Lapel Control Negation/Attacker|Stack Pass with Lapel Control Negation]]** (0% of attempts)
 
-- **[[Transitions/Standing Guard Pass with Distance Creation/Attacker|Standing Guard Pass with Distance Creation]]** (14% of attempts)
+- **[[Transitions/Standing Guard Pass with Distance Creation/Attacker|Standing Guard Pass with Distance Creation]]** (41% of attempts)
 
-- **[[Transitions/Smash Pass Counter/Attacker|Smash Pass Counter]]** (17% of attempts)
+- **[[Transitions/Smash Pass Counter/Attacker|Smash Pass Counter]]** (28% of attempts)
 
-- **[[Transitions/Standing Reset to Open Guard/Attacker|Standing Reset to Open Guard]]** (19% of attempts)
+- **[[Transitions/Standing Reset to Open Guard/Attacker|Standing Reset to Open Guard]]** (31% of attempts)
 
 
 ### Common Mistakes

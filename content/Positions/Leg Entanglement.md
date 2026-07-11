@@ -133,23 +133,23 @@ Leg Entanglement represents a comprehensive positional system in modern Brazilia
 ### Available Transitions
 
 
-- **[[Transitions/Leg Extraction Escape from Entanglement/Attacker|Leg Extraction Escape from Entanglement]]** (18% of attempts)
+- **[[Transitions/Leg Extraction Escape from Entanglement/Attacker|Leg Extraction Escape from Entanglement]]** (20% of attempts)
 
-- **[[Transitions/Guard Recovery from Leg Entanglement/Attacker|Guard Recovery from Leg Entanglement]]** (16% of attempts)
+- **[[Transitions/Guard Recovery from Leg Entanglement/Attacker|Guard Recovery from Leg Entanglement]]** (17% of attempts)
 
-- **[[Transitions/Counter Sweep from Leg Entanglement/Attacker|Counter Sweep from Leg Entanglement]]** (14% of attempts)
+- **[[Transitions/Counter Sweep from Leg Entanglement/Attacker|Counter Sweep from Leg Entanglement]]** (8% of attempts)
 
-- **[[Transitions/Inversion Escape from Leg Entanglement/Attacker|Inversion Escape from Leg Entanglement]]** (12% of attempts)
+- **[[Transitions/Inversion Escape from Leg Entanglement/Attacker|Inversion Escape from Leg Entanglement]]** (11% of attempts)
 
 - **[[Transitions/Counter Leg Attack/Attacker|Counter Leg Attack]]** (12% of attempts)
 
-- **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** (10% of attempts)
+- **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** (13% of attempts)
 
 - **[[Transitions/Inside Heel Hook from Ushiro/Attacker|Inside Heel Hook from Ushiro]]** (8% of attempts)
 
-- **[[Transitions/Kneebar from Ushiro/Attacker|Kneebar from Ushiro]]** (6% of attempts)
+- **[[Transitions/Kneebar from Ushiro/Attacker|Kneebar from Ushiro]]** (4% of attempts)
 
-- **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** (4% of attempts)
+- **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** (7% of attempts)
 
 
 ### Common Mistakes
@@ -218,27 +218,27 @@ Leg Entanglement represents a comprehensive positional system in modern Brazilia
 ### Available Transitions
 
 
-- **[[Kneebar from Leg Entanglement/Attacker|Kneebar from Leg Entanglement]]** (14% of attempts)
+- **[[Kneebar from Leg Entanglement/Attacker|Kneebar from Leg Entanglement]]** (7% of attempts)
 
-- **[[Outside Heel Hook from Leg Entanglement/Attacker|Outside Heel Hook from Leg Entanglement]]** (13% of attempts)
+- **[[Outside Heel Hook from Leg Entanglement/Attacker|Outside Heel Hook from Leg Entanglement]]** (18% of attempts)
 
-- **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** (13% of attempts)
+- **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** (10% of attempts)
 
-- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (11% of attempts)
+- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (12% of attempts)
 
-- **[[Toe Hold from Leg Entanglement/Attacker|Toe Hold from Leg Entanglement]]** (9% of attempts)
+- **[[Toe Hold from Leg Entanglement/Attacker|Toe Hold from Leg Entanglement]]** (8% of attempts)
 
-- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (8% of attempts)
+- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (13% of attempts)
 
-- **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** (8% of attempts)
+- **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** (6% of attempts)
 
-- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (7% of attempts)
+- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (6% of attempts)
 
-- **[[Transitions/Ashi Entry from Leg Entanglement/Attacker|Ashi Entry from Leg Entanglement]]** (6% of attempts)
+- **[[Transitions/Ashi Entry from Leg Entanglement/Attacker|Ashi Entry from Leg Entanglement]]** (10% of attempts)
 
 - **[[Transitions/Leg Extraction Pass/Attacker|Leg Extraction Pass]]** (6% of attempts)
 
-- **[[Transitions/Guard Pass from Leg Entanglement/Attacker|Guard Pass from Leg Entanglement]]** (5% of attempts)
+- **[[Transitions/Guard Pass from Leg Entanglement/Attacker|Guard Pass from Leg Entanglement]]** (4% of attempts)
 
 
 ### Common Mistakes

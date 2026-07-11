@@ -21,25 +21,25 @@ description: "Master defensive strategies from 3-4 Mount Bottom. Complete escape
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Guard",
-      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 24% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 20% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Upa Escape",
-      "text": "From this position, attempt Upa Escape. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Upa Escape. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Explosive Bridge to Turtle",
-      "text": "From this position, attempt Explosive Bridge to Turtle. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Explosive Bridge to Turtle. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
@@ -51,7 +51,7 @@ description: "Master defensive strategies from 3-4 Mount Bottom. Complete escape
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard Recovery",
-      "text": "From this position, attempt Half Guard Recovery. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Half Guard Recovery. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],

@@ -141,25 +141,25 @@ Mission Control serves as the central hub of the rubber guard system, connecting
 ### Available Transitions
 
 
-- **[[Transitions/Triangle from Guard/Attacker|Triangle from Guard]]** (12% of attempts)
+- **[[Transitions/Triangle from Guard/Attacker|Triangle from Guard]]** (15% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (12% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (11% of attempts)
 
-- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (10% of attempts)
+- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (11% of attempts)
 
-- **[[Transitions/Closed Guard to Triangle/Attacker|Closed Guard to Triangle]]** (10% of attempts)
+- **[[Transitions/Closed Guard to Triangle/Attacker|Closed Guard to Triangle]]** (11% of attempts)
 
-- **[[Transitions/Gogoplata/Attacker|Gogoplata]]** (11% of attempts)
+- **[[Transitions/Gogoplata/Attacker|Gogoplata]]** (8% of attempts)
 
-- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (11% of attempts)
+- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (8% of attempts)
 
-- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (11% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (7% of attempts)
 
-- **[[Transitions/Progression to Zombie/Attacker|Progression to Zombie]]** (9% of attempts)
+- **[[Transitions/Progression to Zombie/Attacker|Progression to Zombie]]** (13% of attempts)
 
-- **[[Transitions/Advance to Chill Dog/Attacker|Advance to Chill Dog]]** (10% of attempts)
+- **[[Transitions/Advance to Chill Dog/Attacker|Advance to Chill Dog]]** (11% of attempts)
 
-- **[[Belly Down Armbar from Mission Control/Attacker|Belly Down Armbar from Mission Control]]** (4% of attempts)
+- **[[Belly Down Armbar from Mission Control/Attacker|Belly Down Armbar from Mission Control]]** (5% of attempts)
 
 
 ### Common Mistakes
@@ -224,15 +224,15 @@ Mission Control serves as the central hub of the rubber guard system, connecting
 ### Available Transitions
 
 
-- **[[Transitions/Arm Extraction and Pass/Attacker|Arm Extraction and Pass]]** (29% of attempts)
+- **[[Transitions/Arm Extraction and Pass/Attacker|Arm Extraction and Pass]]** (26% of attempts)
 
-- **[[Transitions/Guard Opening Sequence/Attacker|Guard Opening Sequence]]** (22% of attempts)
+- **[[Transitions/Guard Opening Sequence/Attacker|Guard Opening Sequence]]** (19% of attempts)
 
-- **[[Transitions/Posture Break from Mission Control/Attacker|Posture Break from Mission Control]]** (9% of attempts)
+- **[[Transitions/Posture Break from Mission Control/Attacker|Posture Break from Mission Control]]** (15% of attempts)
 
-- **[[Transitions/Stack Pass from Mission Control/Attacker|Stack Pass from Mission Control]]** (4% of attempts)
+- **[[Transitions/Stack Pass from Mission Control/Attacker|Stack Pass from Mission Control]]** (16% of attempts)
 
-- **[[Transitions/Posture Recovery from Mission Control/Attacker|Posture Recovery from Mission Control]]** (36% of attempts)
+- **[[Transitions/Posture Recovery from Mission Control/Attacker|Posture Recovery from Mission Control]]** (24% of attempts)
 
 
 ### Common Mistakes

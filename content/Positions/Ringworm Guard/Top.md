@@ -21,37 +21,37 @@ description: "Master defending against Ringworm Guard in BJJ. Systematic approac
     {
       "@type": "HowToStep",
       "name": "Execute Lapel Grip Break and Posture Recovery",
-      "text": "From this position, attempt Lapel Grip Break and Posture Recovery. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Lapel Grip Break and Posture Recovery. This technique is attempted in 0% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Extraction from Lapel Wrap",
-      "text": "From this position, attempt Leg Extraction from Lapel Wrap. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Leg Extraction from Lapel Wrap. This technique is attempted in 0% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass with Lapel Control Negation",
-      "text": "From this position, attempt Stack Pass with Lapel Control Negation. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Stack Pass with Lapel Control Negation. This technique is attempted in 0% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing Guard Pass with Distance Creation",
-      "text": "From this position, attempt Standing Guard Pass with Distance Creation. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Standing Guard Pass with Distance Creation. This technique is attempted in 41% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass Counter",
-      "text": "From this position, attempt Smash Pass Counter. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass Counter. This technique is attempted in 28% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing Reset to Open Guard",
-      "text": "From this position, attempt Standing Reset to Open Guard. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Standing Reset to Open Guard. This technique is attempted in 31% of exchanges from this position.",
       "position": 6
     }
   ],

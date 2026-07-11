@@ -21,19 +21,19 @@ description: "Master defensive strategies from top of straight ankle lock contro
     {
       "@type": "HowToStep",
       "name": "Execute Ashi Garami Escape",
-      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter Entry to Opponent's Leg",
-      "text": "From this position, attempt Counter Entry to Opponent's Leg. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Counter Entry to Opponent's Leg. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Rotation Defense",
-      "text": "From this position, attempt Hip Rotation Defense. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Hip Rotation Defense. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
@@ -45,13 +45,13 @@ description: "Master defensive strategies from top of straight ankle lock contro
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Distance Creation",
-      "text": "From this position, attempt Frame and Distance Creation. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Frame and Distance Creation. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Pass to Side Control",
-      "text": "From this position, attempt Pass to Side Control. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Pass to Side Control. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],

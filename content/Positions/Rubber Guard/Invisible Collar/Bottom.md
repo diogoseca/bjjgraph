@@ -21,25 +21,25 @@ description: "Defend Invisible Collar position from bottom with grip removal tac
     {
       "@type": "HowToStep",
       "name": "Execute Hand Fighting to Remove Collar Grip",
-      "text": "From this position, attempt Hand Fighting to Remove Collar Grip. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Hand Fighting to Remove Collar Grip. This technique is attempted in 39% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 21% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Remove Hooks",
-      "text": "From this position, attempt Elbow Escape to Remove Hooks. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Remove Hooks. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Escape to Guard",
-      "text": "From this position, attempt Rolling Escape to Guard. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Rolling Escape to Guard. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
@@ -51,7 +51,7 @@ description: "Defend Invisible Collar position from bottom with grip removal tac
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],

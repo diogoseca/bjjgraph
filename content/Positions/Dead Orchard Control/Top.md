@@ -21,19 +21,19 @@ description: "Master Dead Orchard Control Top in BJJ. Advanced anaconda variatio
     {
       "@type": "HowToStep",
       "name": "Execute Anaconda Choke",
-      "text": "From this position, attempt Anaconda Choke. This technique is attempted in 35% of exchanges from this position.",
+      "text": "From this position, attempt Anaconda Choke. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Front Headlock to Back",
-      "text": "From this position, attempt Front Headlock to Back. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Front Headlock to Back. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
@@ -45,13 +45,13 @@ description: "Master Dead Orchard Control Top in BJJ. Advanced anaconda variatio
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Anaconda Choke from Dead Orchard",
-      "text": "From this position, attempt Anaconda Choke from Dead Orchard. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Anaconda Choke from Dead Orchard. This technique is attempted in 18% of exchanges from this position.",
       "position": 6
     }
   ],

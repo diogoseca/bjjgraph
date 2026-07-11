@@ -137,21 +137,21 @@ The Russian Cowboy is particularly effective because it combines elements of bac
 ### Available Transitions
 
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (15% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (16% of attempts)
 
-- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (12% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (11% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (16% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (14% of attempts)
 
-- **[[Transitions/Arm Extraction to Turtle/Attacker|Arm Extraction to Turtle]]** (36% of attempts)
+- **[[Transitions/Arm Extraction to Turtle/Attacker|Arm Extraction to Turtle]]** (12% of attempts)
 
-- **[[Transitions/Arm Recovery to Guard/Attacker|Arm Recovery to Guard]]** (12% of attempts)
+- **[[Transitions/Arm Recovery to Guard/Attacker|Arm Recovery to Guard]]** (16% of attempts)
 
-- **[[Transitions/Hip Escape from Russian Cowboy/Attacker|Hip Escape from Russian Cowboy]]** (6% of attempts)
+- **[[Transitions/Hip Escape from Russian Cowboy/Attacker|Hip Escape from Russian Cowboy]]** (13% of attempts)
 
-- **[[Transitions/Roll Escape from Russian Cowboy/Attacker|Roll Escape from Russian Cowboy]]** (2% of attempts)
+- **[[Transitions/Roll Escape from Russian Cowboy/Attacker|Roll Escape from Russian Cowboy]]** (10% of attempts)
 
-- **[[Transitions/Escape from Russian Cowboy/Attacker|Escape from Russian Cowboy]]** (1% of attempts)
+- **[[Transitions/Escape from Russian Cowboy/Attacker|Escape from Russian Cowboy]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -208,23 +208,23 @@ The Russian Cowboy is particularly effective because it combines elements of bac
 ### Available Transitions
 
 
-- **[[Transitions/Truck Entry/Attacker|Truck Entry]]** (13% of attempts)
+- **[[Transitions/Truck Entry/Attacker|Truck Entry]]** (16% of attempts)
 
-- **[[Twister from Russian Cowboy/Attacker|Twister from Russian Cowboy]]** (10% of attempts)
+- **[[Twister from Russian Cowboy/Attacker|Twister from Russian Cowboy]]** (11% of attempts)
 
-- **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (12% of attempts)
+- **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (9% of attempts)
 
-- **[[Rear Naked Choke from Russian Cowboy/Attacker|Rear Naked Choke from Russian Cowboy]]** (13% of attempts)
+- **[[Rear Naked Choke from Russian Cowboy/Attacker|Rear Naked Choke from Russian Cowboy]]** (18% of attempts)
 
-- **[[Calf Slicer from Russian Cowboy/Attacker|Calf Slicer from Russian Cowboy]]** (10% of attempts)
+- **[[Calf Slicer from Russian Cowboy/Attacker|Calf Slicer from Russian Cowboy]]** (8% of attempts)
 
-- **[[Bow and Arrow Choke from Russian Cowboy/Attacker|Bow and Arrow Choke from Russian Cowboy]]** (10% of attempts)
+- **[[Bow and Arrow Choke from Russian Cowboy/Attacker|Bow and Arrow Choke from Russian Cowboy]]** (0% of attempts)
 
-- **[[Transitions/Turtle to Back Take/Attacker|Turtle to Back Take]]** (16% of attempts)
+- **[[Transitions/Turtle to Back Take/Attacker|Turtle to Back Take]]** (12% of attempts)
 
-- **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (11% of attempts)
+- **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (6% of attempts)
 
-- **[[Transitions/Russian Cowboy to Back Control/Attacker|Russian Cowboy to Back Control]]** (5% of attempts)
+- **[[Transitions/Russian Cowboy to Back Control/Attacker|Russian Cowboy to Back Control]]** (20% of attempts)
 
 
 ### Common Mistakes

@@ -288,85 +288,85 @@
       {
         "transition": "Toreando Pass",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 19,
+          "nogi": 15
         }
       },
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 17
+          "gi": 15,
+          "nogi": 16
         }
       },
       {
         "transition": "Counter Sweep",
         "attempt_probability": {
-          "gi": 4,
+          "gi": 3,
           "nogi": 4
         }
       },
       {
         "transition": "Leg Drag Pass",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 12,
+          "nogi": 12
         }
       },
       {
         "transition": "Stack Pass",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 7,
+          "nogi": 6
         }
       },
       {
         "transition": "Long Step Pass",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 7,
+          "nogi": 9
         }
       },
       {
         "transition": "X Pass",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 7,
+          "nogi": 7
         }
       },
       {
         "transition": "Smash Pass",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 7,
+          "nogi": 7
         }
       },
       {
         "transition": "Double Under Pass",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 7,
+          "nogi": 4
         }
       },
       {
         "transition": "Pressure Pass",
         "attempt_probability": {
           "gi": 8,
-          "nogi": 8
+          "nogi": 9
         }
       },
       {
         "transition": "Float Passing",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 5,
+          "nogi": 9
         }
       },
       {
         "transition": "Open Guard to Double Unders",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 3,
+          "nogi": 2
         }
       }
     ],
@@ -666,141 +666,141 @@
       {
         "transition": "Butterfly Sweep",
         "attempt_probability": {
-          "gi": 23,
-          "nogi": 23
+          "gi": 7,
+          "nogi": 16
         }
       },
       {
         "transition": "De La Riva Sweep",
         "attempt_probability": {
-          "gi": 4,
+          "gi": 9,
           "nogi": 4
         }
       },
       {
         "transition": "Sickle Sweep",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
-        }
-      },
-      {
-        "transition": "Tripod Sweep",
-        "attempt_probability": {
           "gi": 4,
           "nogi": 4
         }
       },
       {
+        "transition": "Tripod Sweep",
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 6
+        }
+      },
+      {
         "transition": "Elevator Sweep",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 3,
+          "nogi": 3
         }
       },
       {
         "transition": "Omoplata Sweep",
         "attempt_probability": {
           "gi": 2,
-          "nogi": 2
+          "nogi": 1
         }
       },
       {
         "transition": "Kimura Sweep",
         "attempt_probability": {
           "gi": 2,
-          "nogi": 2
+          "nogi": 3
         }
       },
       {
         "transition": "Arm Drag to Back",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 6,
+          "nogi": 13
         }
       },
       {
         "transition": "Scissor Sweep from Open Guard",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 3,
+          "nogi": 2
         }
       },
       {
         "transition": "Open Guard to Deep Half",
-        "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
-        }
-      },
-      {
-        "transition": "Open Guard to Collar Sleeve Guard",
-        "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
-        }
-      },
-      {
-        "transition": "Open Guard to De La Riva",
-        "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
-        }
-      },
-      {
-        "transition": "Open Guard to Double Sleeve Guard",
-        "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
-        }
-      },
-      {
-        "transition": "Open Guard to Feet on Hips Guard",
-        "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
-        }
-      },
-      {
-        "transition": "Collar Drag from Open Guard",
-        "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
-        }
-      },
-      {
-        "transition": "Recovery from Failed Sweep",
         "attempt_probability": {
           "gi": 3,
           "nogi": 3
         }
       },
       {
-        "transition": "Technical Stand Up from Open Guard",
+        "transition": "Open Guard to Collar Sleeve Guard",
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 0
+        }
+      },
+      {
+        "transition": "Open Guard to De La Riva",
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 5
+        }
+      },
+      {
+        "transition": "Open Guard to Double Sleeve Guard",
         "attempt_probability": {
           "gi": 5,
-          "nogi": 5
+          "nogi": 0
+        }
+      },
+      {
+        "transition": "Open Guard to Feet on Hips Guard",
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 10
+        }
+      },
+      {
+        "transition": "Collar Drag from Open Guard",
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 0
+        }
+      },
+      {
+        "transition": "Recovery from Failed Sweep",
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 7
+        }
+      },
+      {
+        "transition": "Technical Stand Up from Open Guard",
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 14
         }
       },
       {
         "transition": "Transition to Clamp Guard",
         "attempt_probability": {
-          "gi": 2,
+          "gi": 1,
           "nogi": 2
         }
       },
       {
         "transition": "Belly Down Armbar from Open Guard",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 1,
+          "nogi": 1
         }
       },
       {
         "transition": "Triangle Choke from Open Guard",
         "attempt_probability": {
           "gi": 4,
-          "nogi": 4
+          "nogi": 6
         }
       }
     ],

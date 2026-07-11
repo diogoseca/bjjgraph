@@ -21,7 +21,7 @@ description: "Master Leg Knot Top in BJJ. Advanced leg entanglement control with
     {
       "@type": "HowToStep",
       "name": "Execute Heel Hook from Saddle",
-      "text": "From this position, attempt Heel Hook from Saddle. This technique is attempted in 35% of exchanges from this position.",
+      "text": "From this position, attempt Heel Hook from Saddle. This technique is attempted in 30% of exchanges from this position.",
       "position": 1
     },
     {
@@ -33,19 +33,19 @@ description: "Master Leg Knot Top in BJJ. Advanced leg entanglement control with
     {
       "@type": "HowToStep",
       "name": "Execute Toe Hold from Outside Ashi",
-      "text": "From this position, attempt Toe Hold from Outside Ashi. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Toe Hold from Outside Ashi. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Pressure Pass from Leg Knot",
-      "text": "From this position, attempt Pressure Pass from Leg Knot. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Pressure Pass from Leg Knot. This technique is attempted in 18% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Extraction from Leg Knot",
-      "text": "From this position, attempt Leg Extraction from Leg Knot. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Leg Extraction from Leg Knot. This technique is attempted in 18% of exchanges from this position.",
       "position": 5
     }
   ],

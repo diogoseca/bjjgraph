@@ -21,37 +21,37 @@ description: "Defensive survival position requiring systematic escape mechanics 
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 42% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 7% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Extraction to Guard",
-      "text": "From this position, attempt Leg Extraction to Guard. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Leg Extraction to Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take Reversal",
-      "text": "From this position, attempt Rolling Back Take Reversal. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Rolling Back Take Reversal. This technique is attempted in 5% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Door Escape",
-      "text": "From this position, attempt Back Door Escape. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Back Door Escape. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Defensive Roll",
-      "text": "From this position, attempt Defensive Roll. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Defensive Roll. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],

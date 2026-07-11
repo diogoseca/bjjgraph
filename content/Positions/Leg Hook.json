@@ -322,57 +322,57 @@
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 29,
-          "nogi": 29
+          "gi": 20,
+          "nogi": 19
         }
       },
       {
         "transition": "Leg Weave Pass",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 18
+          "gi": 13,
+          "nogi": 15
         }
       },
       {
         "transition": "Smash Pass",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 16
+          "gi": 17,
+          "nogi": 15
         }
       },
       {
         "transition": "Half Guard Pass",
         "attempt_probability": {
-          "gi": 13,
+          "gi": 12,
           "nogi": 13
         }
       },
       {
         "transition": "Pressure Pass",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 14,
+          "nogi": 13
         }
       },
       {
         "transition": "Back Step Pass",
         "attempt_probability": {
           "gi": 8,
-          "nogi": 8
+          "nogi": 9
         }
       },
       {
         "transition": "Leg Hook to Half Guard",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 8,
+          "nogi": 8
         }
       },
       {
         "transition": "Leg Hook to Side Control",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 8,
+          "nogi": 8
         }
       }
     ]
@@ -628,78 +628,78 @@
       {
         "transition": "Deep Half Entry",
         "attempt_probability": {
-          "gi": 34,
-          "nogi": 34
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Old School Sweep",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 8,
+          "nogi": 8
         }
       },
       {
         "transition": "Underhook Sweep from Half",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 10,
+          "nogi": 11
         }
       },
       {
         "transition": "Shin Shield Recovery",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 12,
+          "nogi": 13
         }
       },
       {
         "transition": "Half Guard Recovery",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 16,
+          "nogi": 16
         }
       },
       {
         "transition": "Hip Escape to Guard",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 14,
+          "nogi": 12
         }
       },
       {
         "transition": "Butterfly Hook Recovery",
         "attempt_probability": {
           "gi": 7,
-          "nogi": 7
+          "nogi": 8
         }
       },
       {
         "transition": "Frame and Shrimp to Guard",
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 8
+        }
+      },
+      {
+        "transition": "Counter Leg Hook",
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
+      },
+      {
+        "transition": "Escape Leg Hook",
         "attempt_probability": {
           "gi": 7,
           "nogi": 7
         }
       },
       {
-        "transition": "Counter Leg Hook",
-        "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
-        }
-      },
-      {
-        "transition": "Escape Leg Hook",
-        "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
-        }
-      },
-      {
         "transition": "Sweep from Leg Hook",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 4,
+          "nogi": 4
         }
       }
     ]

@@ -21,19 +21,19 @@ description: "Offensive guide for controlling and attacking from modified scarf 
     {
       "@type": "HowToStep",
       "name": "Execute Americana from Kuzure Kesa-Gatame",
-      "text": "From this position, attempt Americana from Kuzure Kesa-Gatame. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Americana from Kuzure Kesa-Gatame. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Kuzure Kesa-Gatame",
-      "text": "From this position, attempt Kimura from Kuzure Kesa-Gatame. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Kimura from Kuzure Kesa-Gatame. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
@@ -45,13 +45,13 @@ description: "Offensive guide for controlling and attacking from modified scarf 
     {
       "@type": "HowToStep",
       "name": "Execute Paper Cutter Choke from Kuzure Kesa-Gatame",
-      "text": "From this position, attempt Paper Cutter Choke from Kuzure Kesa-Gatame. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Paper Cutter Choke from Kuzure Kesa-Gatame. This technique is attempted in 0% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Triangle from Kuzure Kesa-Gatame",
-      "text": "From this position, attempt Arm Triangle from Kuzure Kesa-Gatame. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Arm Triangle from Kuzure Kesa-Gatame. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],

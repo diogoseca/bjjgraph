@@ -134,35 +134,35 @@ Modern butterfly guard has evolved significantly, particularly in no-gi grapplin
 ### Available Transitions
 
 
-- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (37% of attempts)
+- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (20% of attempts)
 
-- **[[Transitions/Elevator Sweep/Attacker|Elevator Sweep]]** (6% of attempts)
+- **[[Transitions/Elevator Sweep/Attacker|Elevator Sweep]]** (9% of attempts)
 
-- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (10% of attempts)
+- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (11% of attempts)
 
-- **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** (6% of attempts)
+- **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** (9% of attempts)
 
-- **[[Guillotine Choke from Butterfly Guard/Attacker|Guillotine Choke from Butterfly Guard]]** (6% of attempts)
+- **[[Guillotine Choke from Butterfly Guard/Attacker|Guillotine Choke from Butterfly Guard]]** (7% of attempts)
 
-- **[[Transitions/Sumi Gaeshi/Attacker|Sumi Gaeshi]]** (6% of attempts)
+- **[[Transitions/Sumi Gaeshi/Attacker|Sumi Gaeshi]]** (4% of attempts)
 
-- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (6% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (9% of attempts)
 
-- **[[Transitions/Butterfly Guard to Butterfly Hook Control/Attacker|Butterfly Guard to Butterfly Hook Control]]** (2% of attempts)
+- **[[Transitions/Butterfly Guard to Butterfly Hook Control/Attacker|Butterfly Guard to Butterfly Hook Control]]** (6% of attempts)
 
-- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (4% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (3% of attempts)
 
-- **[[Transitions/Underhook Sweep/Attacker|Underhook Sweep]]** (3% of attempts)
+- **[[Transitions/Underhook Sweep/Attacker|Underhook Sweep]]** (5% of attempts)
 
-- **[[Kimura from Butterfly Guard/Attacker|Kimura from Butterfly Guard]]** (3% of attempts)
+- **[[Kimura from Butterfly Guard/Attacker|Kimura from Butterfly Guard]]** (4% of attempts)
 
-- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (1% of attempts)
+- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (5% of attempts)
 
 - **[[Omoplata from Butterfly Guard/Attacker|Omoplata from Butterfly Guard]]** (1% of attempts)
 
-- **[[Transitions/Hook Sweep/Attacker|Hook Sweep]]** (2% of attempts)
+- **[[Transitions/Hook Sweep/Attacker|Hook Sweep]]** (4% of attempts)
 
-- **[[Transitions/Butterfly Guard to Williams Guard/Attacker|Butterfly Guard to Williams Guard]]** (7% of attempts)
+- **[[Transitions/Butterfly Guard to Williams Guard/Attacker|Butterfly Guard to Williams Guard]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -227,29 +227,29 @@ Modern butterfly guard has evolved significantly, particularly in no-gi grapplin
 ### Available Transitions
 
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (12% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (15% of attempts)
 
-- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (2% of attempts)
+- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (4% of attempts)
 
-- **[[Transitions/Butterfly Pass/Attacker|Butterfly Pass]]** (10% of attempts)
+- **[[Transitions/Butterfly Pass/Attacker|Butterfly Pass]]** (9% of attempts)
 
-- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (2% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (8% of attempts)
 
-- **[[Transitions/Over-Under Pass/Attacker|Over-Under Pass]]** (2% of attempts)
+- **[[Transitions/Over-Under Pass/Attacker|Over-Under Pass]]** (5% of attempts)
 
-- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (1% of attempts)
+- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (6% of attempts)
 
-- **[[Transitions/Butterfly Smash/Attacker|Butterfly Smash]]** (49% of attempts)
+- **[[Transitions/Butterfly Smash/Attacker|Butterfly Smash]]** (10% of attempts)
 
-- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (9% of attempts)
+- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (16% of attempts)
 
-- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (7% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (10% of attempts)
 
-- **[[Transitions/X Pass/Attacker|X Pass]]** (5% of attempts)
+- **[[Transitions/X Pass/Attacker|X Pass]]** (8% of attempts)
 
-- **[[Transitions/Butterfly Guard to Butterfly Half Guard/Attacker|Butterfly Guard to Butterfly Half Guard]]** (0% of attempts)
+- **[[Transitions/Butterfly Guard to Butterfly Half Guard/Attacker|Butterfly Guard to Butterfly Half Guard]]** (5% of attempts)
 
-- **[[Transitions/Butterfly Guard to Half Butterfly/Attacker|Butterfly Guard to Half Butterfly]]** (1% of attempts)
+- **[[Transitions/Butterfly Guard to Half Butterfly/Attacker|Butterfly Guard to Half Butterfly]]** (4% of attempts)
 
 
 ### Common Mistakes

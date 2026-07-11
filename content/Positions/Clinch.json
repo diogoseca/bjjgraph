@@ -110,99 +110,99 @@
       {
         "transition": "Double Leg Entry",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 13,
+          "nogi": 15
         }
       },
       {
         "transition": "Single Leg Takedown",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 14,
+          "nogi": 14
         }
       },
       {
         "transition": "Snap Down to Front Headlock",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 11,
+          "nogi": 12
         }
       },
       {
         "transition": "Duck Under from Clinch",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 8,
+          "nogi": 8
         }
       },
       {
         "transition": "Fireman's Carry",
-        "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
-        }
-      },
-      {
-        "transition": "Kouchi Gari",
-        "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
-        }
-      },
-      {
-        "transition": "Uchi Mata",
-        "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
-        }
-      },
-      {
-        "transition": "Arm Drag from Clinch",
-        "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
-        }
-      },
-      {
-        "transition": "Body Lock Pass",
-        "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
-        }
-      },
-      {
-        "transition": "High Crotch",
         "attempt_probability": {
           "gi": 5,
           "nogi": 5
         }
       },
       {
+        "transition": "Kouchi Gari",
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 4
+        }
+      },
+      {
+        "transition": "Uchi Mata",
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 3
+        }
+      },
+      {
+        "transition": "Arm Drag from Clinch",
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 6
+        }
+      },
+      {
+        "transition": "Body Lock Pass",
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
+        }
+      },
+      {
+        "transition": "High Crotch",
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 6
+        }
+      },
+      {
         "transition": "Ankle Pick",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 6,
+          "nogi": 5
         }
       },
       {
         "transition": "Body Lock Takedown from Clinch",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 6,
+          "nogi": 8
         }
       },
       {
         "transition": "Two-on-One to Back Take",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 5,
+          "nogi": 5
         }
       },
       {
         "transition": "Guillotine Choke from Clinch",
         "attempt_probability": {
           "gi": 4,
-          "nogi": 4
+          "nogi": 6
         }
       }
     ],
@@ -508,43 +508,43 @@
       {
         "transition": "Guard Pull from Clinch",
         "attempt_probability": {
-          "gi": 40,
-          "nogi": 40
+          "gi": 35,
+          "nogi": 17
         }
       },
       {
         "transition": "Underhook Pummeling from Clinch",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 20,
+          "nogi": 25
         }
       },
       {
         "transition": "Break Clinch",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 14,
+          "nogi": 16
         }
       },
       {
         "transition": "Arm Drag from Clinch",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 11,
+          "nogi": 14
         }
       },
       {
         "transition": "Duck Under from Clinch",
         "attempt_probability": {
           "gi": 10,
-          "nogi": 10
+          "nogi": 15
         }
       },
       {
         "transition": "Arm Drag from Clinch Bottom",
         "attempt_probability": {
           "gi": 10,
-          "nogi": 10
+          "nogi": 13
         }
       }
     ],

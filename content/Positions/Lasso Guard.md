@@ -134,29 +134,29 @@ Understanding Lasso Guard requires appreciation for both its strengths and limit
 ### Available Transitions
 
 
-- **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** (25% of attempts)
+- **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** (13% of attempts)
 
 - **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (16% of attempts)
 
-- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (13% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (10% of attempts)
 
-- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (8% of attempts)
+- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (11% of attempts)
 
-- **[[Transitions/Omoplata from Lasso/Attacker|Omoplata from Lasso]]** (9% of attempts)
+- **[[Transitions/Omoplata from Lasso/Attacker|Omoplata from Lasso]]** (10% of attempts)
 
-- **[[Transitions/Hook Sweep/Attacker|Hook Sweep]]** (5% of attempts)
+- **[[Transitions/Hook Sweep/Attacker|Hook Sweep]]** (11% of attempts)
 
-- **[[Transitions/Lasso Sweep/Attacker|Lasso Sweep]]** (7% of attempts)
+- **[[Transitions/Lasso Sweep/Attacker|Lasso Sweep]]** (6% of attempts)
 
-- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (5% of attempts)
+- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (10% of attempts)
 
-- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (3% of attempts)
+- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (2% of attempts)
 
-- **[[Transitions/Lasso Guard to Inverted Lasso Guard/Attacker|Lasso Guard to Inverted Lasso Guard]]** (3% of attempts)
+- **[[Transitions/Lasso Guard to Inverted Lasso Guard/Attacker|Lasso Guard to Inverted Lasso Guard]]** (1% of attempts)
 
-- **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (2% of attempts)
+- **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (7% of attempts)
 
-- **[[Transitions/Lasso Guard to Russian Leg Lasso/Attacker|Lasso Guard to Russian Leg Lasso]]** (2% of attempts)
+- **[[Transitions/Lasso Guard to Russian Leg Lasso/Attacker|Lasso Guard to Russian Leg Lasso]]** (1% of attempts)
 
 - **[[Belly Down Armbar from Lasso Guard/Attacker|Belly Down Armbar from Lasso Guard]]** (2% of attempts)
 
@@ -219,27 +219,27 @@ Understanding Lasso Guard requires appreciation for both its strengths and limit
 
 - **[[Transitions/Lasso Guard Pass/Attacker|Lasso Guard Pass]]** (15% of attempts)
 
-- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (10% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (12% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (34% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (14% of attempts)
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (8% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (11% of attempts)
 
-- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (8% of attempts)
+- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (10% of attempts)
 
-- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (3% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (6% of attempts)
 
-- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (8% of attempts)
+- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (9% of attempts)
 
 - **[[Kimura from Lasso Guard/Attacker|Kimura from Lasso Guard]]** (3% of attempts)
 
-- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (6% of attempts)
+- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (8% of attempts)
 
 - **[[Transitions/Spider Guard Pass/Attacker|Spider Guard Pass]]** (3% of attempts)
 
-- **[[Transitions/Lasso Guard Backstep Pass/Attacker|Lasso Guard Backstep Pass]]** (1% of attempts)
+- **[[Transitions/Lasso Guard Backstep Pass/Attacker|Lasso Guard Backstep Pass]]** (5% of attempts)
 
-- **[[Transitions/Lasso Guard Stack Pass/Attacker|Lasso Guard Stack Pass]]** (1% of attempts)
+- **[[Transitions/Lasso Guard Stack Pass/Attacker|Lasso Guard Stack Pass]]** (4% of attempts)
 
 
 ### Common Mistakes

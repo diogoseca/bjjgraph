@@ -265,71 +265,71 @@
       {
         "transition": "Americana from Modified Scarf Hold",
         "attempt_probability": {
-          "gi": 13,
+          "gi": 14,
           "nogi": 13
         }
       },
       {
         "transition": "Armbar on Free Arm",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 9,
+          "nogi": 8
         }
       },
       {
         "transition": "Side Control to Mount",
-        "attempt_probability": {
-          "gi": 20,
-          "nogi": 20
-        }
-      },
-      {
-        "transition": "Side Control to North-South",
         "attempt_probability": {
           "gi": 12,
           "nogi": 12
         }
       },
       {
-        "transition": "North-South Choke from Modified Scarf Hold",
+        "transition": "Side Control to North-South",
         "attempt_probability": {
           "gi": 9,
-          "nogi": 9
+          "nogi": 10
+        }
+      },
+      {
+        "transition": "North-South Choke from Modified Scarf Hold",
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 8
         }
       },
       {
         "transition": "Arm Triangle from Modified Scarf Hold",
         "attempt_probability": {
           "gi": 9,
-          "nogi": 9
+          "nogi": 11
         }
       },
       {
         "transition": "Modified Scarf to Kesa Gatame",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 10,
+          "nogi": 8
         }
       },
       {
         "transition": "Modified Scarf to Mount",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Kimura from Modified Scarf Hold",
         "attempt_probability": {
           "gi": 14,
-          "nogi": 14
+          "nogi": 15
         }
       },
       {
         "transition": "Belly Down Armbar from Modified Scarf Hold",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 7,
+          "nogi": 5
         }
       }
     ]
@@ -546,64 +546,64 @@
       {
         "transition": "Elbow Escape to Guard",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 18
+          "gi": 15,
+          "nogi": 15
         }
       },
       {
         "transition": "Bridge and Roll",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 10,
+          "nogi": 9
         }
       },
       {
         "transition": "Roll to Turtle",
         "attempt_probability": {
-          "gi": 20,
-          "nogi": 20
+          "gi": 11,
+          "nogi": 12
         }
       },
       {
         "transition": "Frame and Shrimp to Guard",
         "attempt_probability": {
-          "gi": 22,
-          "nogi": 22
+          "gi": 14,
+          "nogi": 14
         }
       },
       {
         "transition": "Arm Extraction",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 16
+          "gi": 12,
+          "nogi": 12
         }
       },
       {
         "transition": "Ghost Escape from Side Control",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 11,
+          "nogi": 12
         }
       },
       {
         "transition": "Bridge Escape from Modified Scarf Hold",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 10,
+          "nogi": 9
         }
       },
       {
         "transition": "Bridge from Modified Scarf Hold",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 6,
+          "nogi": 6
         }
       },
       {
         "transition": "Escape Modified Scarf Hold",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 11,
+          "nogi": 11
         }
       }
     ]

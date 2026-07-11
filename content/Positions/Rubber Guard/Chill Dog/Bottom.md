@@ -27,31 +27,31 @@ description: "Master defensive Chill Dog position from bottom. Learn compact tur
     {
       "@type": "HowToStep",
       "name": "Execute Granby to Closed Guard",
-      "text": "From this position, attempt Granby to Closed Guard. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Granby to Closed Guard. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand-up",
-      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 32% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling to Guard",
-      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Guard",
-      "text": "From this position, attempt Turtle to Guard. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Guard. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],

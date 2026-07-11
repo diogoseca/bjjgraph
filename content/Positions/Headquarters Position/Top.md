@@ -21,37 +21,37 @@ description: "Master Headquarters Position in BJJ. Strategic passing control pos
     {
       "@type": "HowToStep",
       "name": "Execute Knee Cut from Headquarters",
-      "text": "From this position, attempt Knee Cut from Headquarters. This technique is attempted in 28% of exchanges from this position.",
+      "text": "From this position, attempt Knee Cut from Headquarters. This technique is attempted in 22% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Toreando from Headquarters",
-      "text": "From this position, attempt Toreando from Headquarters. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Toreando from Headquarters. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag from Headquarters",
-      "text": "From this position, attempt Leg Drag from Headquarters. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag from Headquarters. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Step Pass",
-      "text": "From this position, attempt Back Step Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Back Step Pass. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Body Lock Pass",
-      "text": "From this position, attempt Body Lock Pass. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Body Lock Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Headquarters Pass",
-      "text": "From this position, attempt Headquarters Pass. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Headquarters Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],

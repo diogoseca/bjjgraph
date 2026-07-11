@@ -339,85 +339,85 @@
       {
         "transition": "Finish Buggy Choke",
         "attempt_probability": {
-          "gi": 41,
-          "nogi": 41
+          "gi": 12,
+          "nogi": 11
         }
       },
       {
         "transition": "Hook Leg and Take Back",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 17
+          "gi": 13,
+          "nogi": 12
         }
       },
       {
         "transition": "Roll to Truck",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 10,
+          "nogi": 12
         }
       },
       {
         "transition": "Switch to Darce Configuration",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 5,
+          "nogi": 8
         }
       },
       {
         "transition": "Switch to Anaconda Configuration",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 4,
+          "nogi": 5
         }
       },
       {
         "transition": "Buggy Choke to Front Headlock",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 9,
+          "nogi": 10
         }
       },
       {
         "transition": "Turtle Flatten to Side Control",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 14,
+          "nogi": 12
         }
       },
       {
         "transition": "Guillotine from Turtle",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 6,
+          "nogi": 7
         }
       },
       {
         "transition": "Crucifix from Turtle",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 9,
+          "nogi": 8
         }
       },
       {
         "transition": "Buggy Choke to North-South",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 5,
+          "nogi": 4
         }
       },
       {
         "transition": "Buggy Choke to Side Control",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 7,
+          "nogi": 6
         }
       },
       {
         "transition": "Grip Strip from Buggy Choke",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 6,
+          "nogi": 5
         }
       }
     ]
@@ -665,50 +665,50 @@
       {
         "transition": "Sit to Half Guard",
         "attempt_probability": {
-          "gi": 30,
-          "nogi": 30
+          "gi": 21,
+          "nogi": 23
         }
       },
       {
         "transition": "Granby Roll to Guard",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 14,
+          "nogi": 15
         }
       },
       {
         "transition": "Technical Stand-up",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 11,
+          "nogi": 9
         }
       },
       {
         "transition": "Turn In and Face",
         "attempt_probability": {
           "gi": 17,
-          "nogi": 17
+          "nogi": 18
         }
       },
       {
         "transition": "Turtle to Guard",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 14,
+          "nogi": 13
         }
       },
       {
         "transition": "Back Door Escape",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 16
+          "gi": 12,
+          "nogi": 12
         }
       },
       {
         "transition": "Roll to Deep Half Guard",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 11,
+          "nogi": 10
         }
       }
     ]

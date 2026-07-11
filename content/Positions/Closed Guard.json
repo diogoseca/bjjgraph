@@ -115,49 +115,49 @@
       {
         "transition": "Posture Recovery",
         "attempt_probability": {
-          "gi": 40,
-          "nogi": 40
+          "gi": 25,
+          "nogi": 27
         }
       },
       {
         "transition": "Guard Opening Sequence",
         "attempt_probability": {
-          "gi": 33,
-          "nogi": 33
+          "gi": 24,
+          "nogi": 21
         }
       },
       {
         "transition": "Stack Pass",
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
+        }
+      },
+      {
+        "transition": "Stand Up in Closed Guard",
+        "attempt_probability": {
+          "gi": 18,
+          "nogi": 22
+        }
+      },
+      {
+        "transition": "Ezekiel Choke from Closed Guard",
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 1
+        }
+      },
+      {
+        "transition": "Knee Slice from Closed Guard",
         "attempt_probability": {
           "gi": 13,
           "nogi": 13
         }
       },
       {
-        "transition": "Stand Up in Closed Guard",
-        "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
-        }
-      },
-      {
-        "transition": "Ezekiel Choke from Closed Guard",
-        "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
-        }
-      },
-      {
-        "transition": "Knee Slice from Closed Guard",
-        "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
-        }
-      },
-      {
         "transition": "Can Opener from Closed Guard",
         "attempt_probability": {
-          "gi": 5,
+          "gi": 4,
           "nogi": 5
         }
       }
@@ -430,70 +430,70 @@
       {
         "transition": "Hip Bump Sweep",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 7,
+          "nogi": 9
         }
       },
       {
         "transition": "Wrist Lock",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 2,
+          "nogi": 1
         }
       },
       {
         "transition": "Scissor Sweep",
         "attempt_probability": {
-          "gi": 6,
+          "gi": 9,
           "nogi": 6
         }
       },
       {
         "transition": "Triangle Setup",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 8,
+          "nogi": 10
         }
       },
       {
         "transition": "Cross Collar Choke from Closed Guard",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 7,
+          "nogi": 0
         }
       },
       {
         "transition": "Pendulum Sweep",
         "attempt_probability": {
-          "gi": 5,
+          "gi": 6,
           "nogi": 5
         }
       },
       {
         "transition": "Guillotine Setup",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 4,
+          "nogi": 10
         }
       },
       {
         "transition": "Kimura Sweep",
         "attempt_probability": {
           "gi": 3,
-          "nogi": 3
+          "nogi": 4
         }
       },
       {
         "transition": "Rolling Armbar from Closed Guard",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 1,
+          "nogi": 1
         }
       },
       {
         "transition": "Flower Sweep",
         "attempt_probability": {
-          "gi": 2,
+          "gi": 4,
           "nogi": 2
         }
       },
@@ -501,35 +501,35 @@
         "transition": "Kimura to Back Take",
         "attempt_probability": {
           "gi": 2,
-          "nogi": 2
+          "nogi": 3
         }
       },
       {
         "transition": "Elevator Sweep",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 2,
+          "nogi": 2
         }
       },
       {
         "transition": "Overhook Sweep",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 2,
+          "nogi": 3
         }
       },
       {
         "transition": "Omoplata Sweep",
         "attempt_probability": {
-          "gi": 1,
+          "gi": 2,
           "nogi": 1
         }
       },
       {
         "transition": "Closed Guard to Triangle",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 3,
+          "nogi": 4
         }
       },
       {
@@ -543,119 +543,119 @@
         "transition": "Lumberjack Sweep",
         "attempt_probability": {
           "gi": 2,
-          "nogi": 2
+          "nogi": 1
         }
       },
       {
         "transition": "Closed Guard to Omoplata",
         "attempt_probability": {
-          "gi": 2,
+          "gi": 3,
           "nogi": 2
         }
       },
       {
         "transition": "Omoplata to Back",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 1,
+          "nogi": 1
         }
       },
       {
         "transition": "Muscle Sweep",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 1,
+          "nogi": 1
         }
       },
       {
         "transition": "Closed Guard to Overhook Guard",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 3,
+          "nogi": 4
         }
       },
       {
         "transition": "High Guard to Rubber Guard",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 1,
+          "nogi": 3
         }
       },
       {
         "transition": "Transition to Diamond Guard",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 1,
+          "nogi": 1
         }
       },
       {
         "transition": "Armbar from Guard",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 6,
+          "nogi": 5
         }
       },
       {
         "transition": "Flying Armbar from Closed Guard",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 1,
+          "nogi": 1
         }
       },
       {
         "transition": "Kimura from Guard",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 5,
+          "nogi": 6
         }
       },
       {
         "transition": "Kneebar from Guard",
         "attempt_probability": {
           "gi": 1,
-          "nogi": 1
+          "nogi": 2
         }
       },
       {
         "transition": "Loop Choke from Closed Guard",
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 0
+        }
+      },
+      {
+        "transition": "Spinning Armbar from Closed Guard",
         "attempt_probability": {
           "gi": 1,
           "nogi": 1
         }
       },
       {
-        "transition": "Spinning Armbar from Closed Guard",
-        "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
-        }
-      },
-      {
         "transition": "Tarikoplata from Closed Guard",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 1,
+          "nogi": 1
         }
       },
       {
         "transition": "Triangle Choke from Closed Guard",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 5,
+          "nogi": 6
         }
       },
       {
         "transition": "Closed Guard to Hindulotine",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 1,
+          "nogi": 1
         }
       },
       {
         "transition": "Switch to Triangle",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 2,
+          "nogi": 2
         }
       }
     ],

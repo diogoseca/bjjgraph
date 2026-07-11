@@ -132,27 +132,27 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 ### Available Transitions
 
 
-- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (38% of attempts)
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (13% of attempts)
 
-- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (19% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (12% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (15% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (12% of attempts)
 
-- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (7% of attempts)
+- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (8% of attempts)
 
-- **[[Transitions/Side Control Escape/Attacker|Side Control Escape]]** (3% of attempts)
+- **[[Transitions/Side Control Escape/Attacker|Side Control Escape]]** (8% of attempts)
 
-- **[[Transitions/Ghost Escape from Side Control/Attacker|Ghost Escape from Side Control]]** (9% of attempts)
+- **[[Transitions/Ghost Escape from Side Control/Attacker|Ghost Escape from Side Control]]** (7% of attempts)
 
-- **[[Transitions/Sit Out from Side Control/Attacker|Sit Out from Side Control]]** (1% of attempts)
+- **[[Transitions/Sit Out from Side Control/Attacker|Sit Out from Side Control]]** (6% of attempts)
 
-- **[[Transitions/Turtle from Side Control Bottom/Attacker|Turtle from Side Control Bottom]]** (0% of attempts)
+- **[[Transitions/Turtle from Side Control Bottom/Attacker|Turtle from Side Control Bottom]]** (7% of attempts)
 
-- **[[Transitions/Frame from Side Control/Attacker|Frame from Side Control]]** (0% of attempts)
+- **[[Transitions/Frame from Side Control/Attacker|Frame from Side Control]]** (13% of attempts)
 
-- **[[Transitions/Hip Escape from Side Control/Attacker|Hip Escape from Side Control]]** (1% of attempts)
+- **[[Transitions/Hip Escape from Side Control/Attacker|Hip Escape from Side Control]]** (10% of attempts)
 
-- **[[Transitions/Buggy Choke from Bottom Side Control/Attacker|Buggy Choke from Bottom Side Control]]** (7% of attempts)
+- **[[Transitions/Buggy Choke from Bottom Side Control/Attacker|Buggy Choke from Bottom Side Control]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -213,53 +213,53 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 ### Available Transitions
 
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (32% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (23% of attempts)
 
-- **[[Positions/Knee on Belly/Attacker|Knee on Belly]]** (6% of attempts)
+- **[[Positions/Knee on Belly/Attacker|Knee on Belly]]** (8% of attempts)
 
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (5% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (7% of attempts)
 
-- **[[Arm Triangle from Side Control/Attacker|Arm Triangle from Side Control]]** (5% of attempts)
+- **[[Arm Triangle from Side Control/Attacker|Arm Triangle from Side Control]]** (8% of attempts)
 
-- **[[Transitions/Arm Triangle from Top/Attacker|Arm Triangle from Top]]** (4% of attempts)
+- **[[Transitions/Arm Triangle from Top/Attacker|Arm Triangle from Top]]** (2% of attempts)
 
 - **[[Ezekiel Choke from Side Control/Attacker|Ezekiel Choke from Side Control]]** (1% of attempts)
 
-- **[[Transitions/Side Control to Kesa Gatame/Attacker|Side Control to Kesa Gatame]]** (1% of attempts)
+- **[[Transitions/Side Control to Kesa Gatame/Attacker|Side Control to Kesa Gatame]]** (2% of attempts)
 
-- **[[Transitions/Side Control to Shoulder of Justice/Attacker|Side Control to Shoulder of Justice]]** (2% of attempts)
+- **[[Transitions/Side Control to Shoulder of Justice/Attacker|Side Control to Shoulder of Justice]]** (3% of attempts)
 
-- **[[North-South Choke from Side Control/Attacker|North-South Choke from Side Control]]** (2% of attempts)
+- **[[North-South Choke from Side Control/Attacker|North-South Choke from Side Control]]** (5% of attempts)
 
-- **[[Breadcutter Choke from Side Control/Attacker|Breadcutter Choke from Side Control]]** (2% of attempts)
+- **[[Breadcutter Choke from Side Control/Attacker|Breadcutter Choke from Side Control]]** (1% of attempts)
 
 - **[[Transitions/Side Control to Scarf Hold Position/Attacker|Side Control to Scarf Hold Position]]** (2% of attempts)
 
-- **[[Americana from Side Control/Attacker|Americana from Side Control]]** (11% of attempts)
+- **[[Americana from Side Control/Attacker|Americana from Side Control]]** (5% of attempts)
 
-- **[[Armbar from Side Control/Attacker|Armbar from Side Control]]** (1% of attempts)
+- **[[Armbar from Side Control/Attacker|Armbar from Side Control]]** (5% of attempts)
 
-- **[[Far Side Armbar from Side Control/Attacker|Far Side Armbar from Side Control]]** (1% of attempts)
+- **[[Far Side Armbar from Side Control/Attacker|Far Side Armbar from Side Control]]** (3% of attempts)
 
-- **[[Kimura from Side Control/Attacker|Kimura from Side Control]]** (9% of attempts)
+- **[[Kimura from Side Control/Attacker|Kimura from Side Control]]** (8% of attempts)
 
-- **[[Transitions/Side Control to Knee on Belly/Attacker|Side Control to Knee on Belly]]** (1% of attempts)
+- **[[Transitions/Side Control to Knee on Belly/Attacker|Side Control to Knee on Belly]]** (2% of attempts)
 
-- **[[Arm Crush from Side Control/Attacker|Arm Crush from Side Control]]** (2% of attempts)
+- **[[Arm Crush from Side Control/Attacker|Arm Crush from Side Control]]** (1% of attempts)
 
-- **[[Belly Down Armbar from Side Control/Attacker|Belly Down Armbar from Side Control]]** (1% of attempts)
+- **[[Belly Down Armbar from Side Control/Attacker|Belly Down Armbar from Side Control]]** (2% of attempts)
 
-- **[[Kneebar from Top/Attacker|Kneebar from Top]]** (1% of attempts)
+- **[[Kneebar from Top/Attacker|Kneebar from Top]]** (2% of attempts)
 
 - **[[Loop Choke from Side Control/Attacker|Loop Choke from Side Control]]** (1% of attempts)
 
-- **[[Marce Choke from Side Control/Attacker|Marce Choke from Side Control]]** (2% of attempts)
+- **[[Marce Choke from Side Control/Attacker|Marce Choke from Side Control]]** (1% of attempts)
 
-- **[[Mir Lock from Side Control/Attacker|Mir Lock from Side Control]]** (2% of attempts)
+- **[[Mir Lock from Side Control/Attacker|Mir Lock from Side Control]]** (1% of attempts)
 
 - **[[Triangle Choke Side from Side Control/Attacker|Triangle Choke Side from Side Control]]** (2% of attempts)
 
-- **[[Von Flue Choke from Side Control/Attacker|Von Flue Choke from Side Control]]** (2% of attempts)
+- **[[Von Flue Choke from Side Control/Attacker|Von Flue Choke from Side Control]]** (3% of attempts)
 
 - **[[Transitions/Side Control to Kuzure Kesa-Gatame/Attacker|Side Control to Kuzure Kesa-Gatame]]** (2% of attempts)
 

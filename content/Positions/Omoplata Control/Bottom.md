@@ -21,37 +21,37 @@ description: "Master Omoplata Control Bottom in BJJ. Complete guide covering sho
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
-      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 34% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata to Back",
-      "text": "From this position, attempt Omoplata to Back. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata to Back. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Closed Guard to Omoplata",
-      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Omoplata from Omoplata Control",
-      "text": "From this position, attempt Rolling Omoplata from Omoplata Control. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Rolling Omoplata from Omoplata Control. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Cartwheel Escape from Omoplata",
-      "text": "From this position, attempt Cartwheel Escape from Omoplata. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Cartwheel Escape from Omoplata. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],

@@ -21,37 +21,37 @@ description: "Defensive perspective in reversed leg entanglement. Learn escape s
     {
       "@type": "HowToStep",
       "name": "Execute Ushiro Ashi-Garami Escape",
-      "text": "From this position, attempt Ushiro Ashi-Garami Escape. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Ushiro Ashi-Garami Escape. This technique is attempted in 21% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Inversion to Turtle",
-      "text": "From this position, attempt Inversion to Turtle. This technique is attempted in 39% of exchanges from this position.",
+      "text": "From this position, attempt Inversion to Turtle. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Ushiro Ashi-Garami to Deep Half",
-      "text": "From this position, attempt Ushiro Ashi-Garami to Deep Half. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Ushiro Ashi-Garami to Deep Half. This technique is attempted in 7% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Recovery",
-      "text": "From this position, attempt Single Leg X Recovery. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Single Leg X Recovery. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Reverse Heel Hook Counter",
-      "text": "From this position, attempt Reverse Heel Hook Counter. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Reverse Heel Hook Counter. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Extraction to Guard",
-      "text": "From this position, attempt Leg Extraction to Guard. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Leg Extraction to Guard. This technique is attempted in 18% of exchanges from this position.",
       "position": 6
     }
   ],

@@ -21,37 +21,37 @@ description: "Dominate with S Mount attacks in BJJ. Master arm isolation, armbar
     {
       "@type": "HowToStep",
       "name": "Execute Mount to Armbar",
-      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 32% of exchanges from this position.",
+      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle from Mount",
-      "text": "From this position, attempt Triangle from Mount. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Triangle from Mount. This technique is attempted in 7% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Americana from S Mount",
-      "text": "From this position, attempt Americana from S Mount. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Americana from S Mount. This technique is attempted in 3% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from S Mount",
-      "text": "From this position, attempt Kimura from S Mount. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Kimura from S Mount. This technique is attempted in 5% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Back Take. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Mounted Crucifix Entry",
-      "text": "From this position, attempt Mounted Crucifix Entry. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Mounted Crucifix Entry. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],

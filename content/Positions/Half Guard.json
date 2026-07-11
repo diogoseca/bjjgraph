@@ -135,64 +135,64 @@
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 23,
-          "nogi": 23
+          "gi": 16,
+          "nogi": 16
         }
       },
       {
         "transition": "Smash Pass",
         "attempt_probability": {
           "gi": 12,
-          "nogi": 12
+          "nogi": 11
         }
       },
       {
         "transition": "Underhook Pass",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 13,
+          "nogi": 14
         }
       },
       {
         "transition": "Long Step Pass",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 8,
+          "nogi": 8
         }
       },
       {
         "transition": "Crossface Pass",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 8,
+          "nogi": 8
         }
       },
       {
         "transition": "Back Step Pass",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 5,
+          "nogi": 7
         }
       },
       {
         "transition": "Over-Under Pass",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 4,
+          "nogi": 4
         }
       },
       {
         "transition": "Half Guard to Double Jump",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 1,
+          "nogi": 1
         }
       },
       {
         "transition": "Half Guard to Flattened Half Guard",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 7,
+          "nogi": 7
         }
       },
       {
@@ -205,64 +205,64 @@
       {
         "transition": "Headquarters Pass",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 4,
+          "nogi": 5
         }
       },
       {
         "transition": "Half Guard to Leg Hook",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 1,
+          "nogi": 1
         }
       },
       {
         "transition": "Half Guard to Pocket Half Guard",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 1,
+          "nogi": 1
         }
       },
       {
         "transition": "Half Guard to Quarter Guard",
         "attempt_probability": {
-          "gi": 2,
+          "gi": 3,
           "nogi": 2
         }
       },
       {
         "transition": "Half Guard to Triangle Escape Position",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 1,
+          "nogi": 1
         }
       },
       {
         "transition": "Loop Choke from Half Guard",
         "attempt_probability": {
           "gi": 2,
-          "nogi": 2
+          "nogi": 0
         }
       },
       {
         "transition": "Suloev Stretch from Half Guard",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 1,
+          "nogi": 2
         }
       },
       {
         "transition": "Half Guard to Leg Weave",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 6,
+          "nogi": 5
         }
       },
       {
         "transition": "Half Guard Whizzer Counter",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 5,
+          "nogi": 5
         }
       }
     ],
@@ -503,56 +503,56 @@
         "transition": "Underhook Sweep from Half",
         "attempt_probability": {
           "gi": 15,
-          "nogi": 15
+          "nogi": 14
         }
       },
       {
         "transition": "Half Guard to Back Take",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 11,
+          "nogi": 10
         }
       },
       {
         "transition": "Old School Sweep",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 11,
+          "nogi": 8
         }
       },
       {
         "transition": "Knee Shield Retention",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 15,
+          "nogi": 12
         }
       },
       {
         "transition": "Lockdown Recovery",
         "attempt_probability": {
-          "gi": 4,
+          "gi": 3,
           "nogi": 4
         }
       },
       {
         "transition": "Kimura Sweep",
         "attempt_probability": {
-          "gi": 4,
+          "gi": 3,
           "nogi": 4
         }
       },
       {
         "transition": "Deep Half Entry",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 8,
+          "nogi": 7
         }
       },
       {
         "transition": "Knee Torque Sweep",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 1,
+          "nogi": 1
         }
       },
       {
@@ -565,29 +565,29 @@
       {
         "transition": "Dogfight Position",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 5,
+          "nogi": 7
         }
       },
       {
         "transition": "Half Guard Recovery",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 7,
+          "nogi": 6
         }
       },
       {
         "transition": "Electric Chair Transition",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 1,
+          "nogi": 2
         }
       },
       {
         "transition": "Half Guard to K-Guard",
         "attempt_probability": {
           "gi": 2,
-          "nogi": 2
+          "nogi": 4
         }
       },
       {
@@ -607,29 +607,29 @@
       {
         "transition": "Buggy Choke from Half Guard",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 1,
+          "nogi": 2
         }
       },
       {
         "transition": "Kneebar from Half Guard",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 1,
+          "nogi": 2
         }
       },
       {
         "transition": "Half Guard to Jailbreak",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 4,
+          "nogi": 4
         }
       },
       {
         "transition": "Kimura from Half Guard",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 4,
+          "nogi": 5
         }
       }
     ],

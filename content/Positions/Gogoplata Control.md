@@ -145,13 +145,13 @@ The position also demonstrates important principles about submission-based contr
 ### Available Transitions
 
 
-- **[[Gogoplata from Gogoplata Control/Attacker|Gogoplata from Gogoplata Control]]** (55% of attempts)
+- **[[Gogoplata from Gogoplata Control/Attacker|Gogoplata from Gogoplata Control]]** (43% of attempts)
 
-- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (28% of attempts)
+- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (17% of attempts)
 
-- **[[Transitions/Mission Control Recovery/Attacker|Mission Control Recovery]]** (14% of attempts)
+- **[[Transitions/Mission Control Recovery/Attacker|Mission Control Recovery]]** (19% of attempts)
 
-- **[[Transitions/High Mount Transition/Attacker|High Mount Transition]]** (3% of attempts)
+- **[[Transitions/High Mount Transition/Attacker|High Mount Transition]]** (21% of attempts)
 
 
 ### Common Mistakes
@@ -212,25 +212,25 @@ The position also demonstrates important principles about submission-based contr
 ### Available Transitions
 
 
-- **[[Transitions/Head Extraction to Posture/Attacker|Head Extraction to Posture]]** (33% of attempts)
+- **[[Transitions/Head Extraction to Posture/Attacker|Head Extraction to Posture]]** (16% of attempts)
 
-- **[[Transitions/Shin Removal to Pass/Attacker|Shin Removal to Pass]]** (4% of attempts)
+- **[[Transitions/Shin Removal to Pass/Attacker|Shin Removal to Pass]]** (12% of attempts)
 
-- **[[Transitions/Leg Extraction Escape/Attacker|Leg Extraction Escape]]** (3% of attempts)
+- **[[Transitions/Leg Extraction Escape/Attacker|Leg Extraction Escape]]** (11% of attempts)
 
-- **[[Transitions/Angle Change Escape/Attacker|Angle Change Escape]]** (14% of attempts)
+- **[[Transitions/Angle Change Escape/Attacker|Angle Change Escape]]** (10% of attempts)
 
-- **[[Transitions/Hand Control to Extract/Attacker|Hand Control to Extract]]** (10% of attempts)
+- **[[Transitions/Hand Control to Extract/Attacker|Hand Control to Extract]]** (14% of attempts)
 
-- **[[Transitions/Roll to Turtle/Attacker|Roll to Turtle]]** (14% of attempts)
+- **[[Transitions/Roll to Turtle/Attacker|Roll to Turtle]]** (7% of attempts)
 
-- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (10% of attempts)
+- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (14% of attempts)
 
-- **[[Transitions/Gogoplata to Armbar/Attacker|Gogoplata to Armbar]]** (2% of attempts)
+- **[[Transitions/Gogoplata to Armbar/Attacker|Gogoplata to Armbar]]** (4% of attempts)
 
-- **[[Transitions/Posture Up from Gogoplata/Attacker|Posture Up from Gogoplata]]** (2% of attempts)
+- **[[Transitions/Posture Up from Gogoplata/Attacker|Posture Up from Gogoplata]]** (9% of attempts)
 
-- **[[Gogoplata from Gogoplata Control/Attacker|Gogoplata from Gogoplata Control]]** (8% of attempts)
+- **[[Gogoplata from Gogoplata Control/Attacker|Gogoplata from Gogoplata Control]]** (3% of attempts)
 
 
 ### Common Mistakes

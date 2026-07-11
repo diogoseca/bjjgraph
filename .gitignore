@@ -47,6 +47,12 @@ calibration_results.json
 calibration_proposals.json
 calibration_results.partial.json
 
+# Q3 occurrence-elicitation working state (per-agent ballots persisted for credit-outage
+# resume; final provenance is committed as occurrence_calibration.json instead)
+occurrence_elicitation/
+# regenerable from occurrence_calibration.json via `occurrence_moe.py --aggregate`
+occurrence_preview.md
+
 # Package manager lock files (optional - uncomment if needed)
 # package-lock.json
 # yarn.lock

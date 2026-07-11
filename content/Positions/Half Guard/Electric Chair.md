@@ -139,13 +139,13 @@ From a tactical perspective, Electric Chair serves as a cornerstone of the lockd
 ### Available Transitions
 
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (54% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (23% of attempts)
 
-- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (14% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (17% of attempts)
 
-- **[[Transitions/Hip Rotation Escape from Electric Chair/Attacker|Hip Rotation Escape from Electric Chair]]** (6% of attempts)
+- **[[Transitions/Hip Rotation Escape from Electric Chair/Attacker|Hip Rotation Escape from Electric Chair]]** (14% of attempts)
 
-- **[[Transitions/Sweep from Electric Chair/Attacker|Sweep from Electric Chair]]** (8% of attempts)
+- **[[Transitions/Sweep from Electric Chair/Attacker|Sweep from Electric Chair]]** (28% of attempts)
 
 - **[[Transitions/Electric Chair from Electric Chair/Attacker|Electric Chair from Electric Chair]]** (18% of attempts)
 
@@ -208,15 +208,15 @@ From a tactical perspective, Electric Chair serves as a cornerstone of the lockd
 ### Available Transitions
 
 
-- **[[Transitions/Lockdown Break and Pass/Attacker|Lockdown Break and Pass]]** (32% of attempts)
+- **[[Transitions/Lockdown Break and Pass/Attacker|Lockdown Break and Pass]]** (24% of attempts)
 
-- **[[Transitions/Limp Leg Escape to Pass/Attacker|Limp Leg Escape to Pass]]** (28% of attempts)
+- **[[Transitions/Limp Leg Escape to Pass/Attacker|Limp Leg Escape to Pass]]** (22% of attempts)
 
-- **[[Transitions/Straighten Leg Defense from Electric Chair/Attacker|Straighten Leg Defense from Electric Chair]]** (16% of attempts)
+- **[[Transitions/Straighten Leg Defense from Electric Chair/Attacker|Straighten Leg Defense from Electric Chair]]** (20% of attempts)
 
-- **[[Transitions/Back Take from Lockdown Defense/Attacker|Back Take from Lockdown Defense]]** (20% of attempts)
+- **[[Transitions/Back Take from Lockdown Defense/Attacker|Back Take from Lockdown Defense]]** (17% of attempts)
 
-- **[[Transitions/Darce from Lockdown Counter/Attacker|Darce from Lockdown Counter]]** (4% of attempts)
+- **[[Transitions/Darce from Lockdown Counter/Attacker|Darce from Lockdown Counter]]** (17% of attempts)
 
 
 ### Common Mistakes

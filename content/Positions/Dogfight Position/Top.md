@@ -21,19 +21,19 @@ description: "Master the Dogfight position in BJJ half guard. Dynamic kneeling p
     {
       "@type": "HowToStep",
       "name": "Execute Crossface from Dogfight",
-      "text": "From this position, attempt Crossface from Dogfight. This technique is attempted in 35% of exchanges from this position.",
+      "text": "From this position, attempt Crossface from Dogfight. This technique is attempted in 34% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Re-flatten from Dogfight",
-      "text": "From this position, attempt Re-flatten from Dogfight. This technique is attempted in 35% of exchanges from this position.",
+      "text": "From this position, attempt Re-flatten from Dogfight. This technique is attempted in 40% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Snap Down from Dogfight",
-      "text": "From this position, attempt Snap Down from Dogfight. This technique is attempted in 30% of exchanges from this position.",
+      "text": "From this position, attempt Snap Down from Dogfight. This technique is attempted in 26% of exchanges from this position.",
       "position": 3
     }
   ],

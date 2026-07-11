@@ -137,17 +137,17 @@ Diamond Guard transforms standard closed guard into an aggressive submission-hun
 ### Available Transitions
 
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (22% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (20% of attempts)
 
-- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (20% of attempts)
+- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (15% of attempts)
 
-- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (18% of attempts)
+- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (12% of attempts)
 
-- **[[Transitions/Kimura from Diamond Guard/Attacker|Kimura from Diamond Guard]]** (15% of attempts)
+- **[[Transitions/Kimura from Diamond Guard/Attacker|Kimura from Diamond Guard]]** (13% of attempts)
 
-- **[[Transitions/Triangle from Diamond Guard/Attacker|Triangle from Diamond Guard]]** (13% of attempts)
+- **[[Transitions/Triangle from Diamond Guard/Attacker|Triangle from Diamond Guard]]** (24% of attempts)
 
-- **[[Transitions/Sweep from Diamond Guard/Attacker|Sweep from Diamond Guard]]** (12% of attempts)
+- **[[Transitions/Sweep from Diamond Guard/Attacker|Sweep from Diamond Guard]]** (16% of attempts)
 
 
 ### Common Mistakes
@@ -208,13 +208,13 @@ Diamond Guard transforms standard closed guard into an aggressive submission-hun
 ### Available Transitions
 
 
-- **[[Transitions/Guard Pass from Diamond Guard/Attacker|Guard Pass from Diamond Guard]]** (22% of attempts)
+- **[[Transitions/Guard Pass from Diamond Guard/Attacker|Guard Pass from Diamond Guard]]** (17% of attempts)
 
-- **[[Transitions/Posture Recovery from Diamond Guard/Attacker|Posture Recovery from Diamond Guard]]** (42% of attempts)
+- **[[Transitions/Posture Recovery from Diamond Guard/Attacker|Posture Recovery from Diamond Guard]]** (30% of attempts)
 
-- **[[Transitions/Guard Opening Sequence/Attacker|Guard Opening Sequence]]** (18% of attempts)
+- **[[Transitions/Guard Opening Sequence/Attacker|Guard Opening Sequence]]** (20% of attempts)
 
-- **[[Transitions/Overhook Strip from Diamond Guard/Attacker|Overhook Strip from Diamond Guard]]** (18% of attempts)
+- **[[Transitions/Overhook Strip from Diamond Guard/Attacker|Overhook Strip from Diamond Guard]]** (33% of attempts)
 
 
 ### Common Mistakes

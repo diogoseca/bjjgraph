@@ -278,64 +278,64 @@
       {
         "transition": "Side Control to North-South",
         "attempt_probability": {
-          "gi": 28,
-          "nogi": 28
+          "gi": 12,
+          "nogi": 11
         }
       },
       {
         "transition": "Side Control to Mount",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 18
+          "gi": 10,
+          "nogi": 9
         }
       },
       {
         "transition": "Americana from Reverse Scarf Hold",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 9,
+          "nogi": 8
         }
       },
       {
         "transition": "Kimura from Reverse Scarf Hold",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 15,
+          "nogi": 15
         }
       },
       {
         "transition": "Back Step",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 8,
+          "nogi": 7
         }
       },
       {
         "transition": "Arm Triangle from Reverse Scarf Hold",
         "attempt_probability": {
           "gi": 9,
-          "nogi": 9
+          "nogi": 11
         }
       },
       {
         "transition": "Reverse Scarf to North-South",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 13,
+          "nogi": 13
         }
       },
       {
         "transition": "Reverse Scarf to Side Control",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 16,
+          "nogi": 16
         }
       },
       {
         "transition": "North-South Choke from Reverse Scarf",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 8,
+          "nogi": 10
         }
       }
     ],
@@ -591,22 +591,22 @@
       {
         "transition": "Elbow Escape to Guard",
         "attempt_probability": {
-          "gi": 31,
-          "nogi": 31
+          "gi": 15,
+          "nogi": 15
         }
       },
       {
         "transition": "Bridge and Roll",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Hip Escape to Guard",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 16,
+          "nogi": 15
         }
       },
       {
@@ -619,36 +619,36 @@
       {
         "transition": "Technical Stand-up",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 8,
+          "nogi": 9
         }
       },
       {
         "transition": "Shrimp Escape",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 11,
+          "nogi": 11
         }
       },
       {
         "transition": "Escape Reverse Scarf Hold",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 11,
+          "nogi": 11
         }
       },
       {
         "transition": "Frame from Reverse Scarf Hold",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Bridge Escape from Reverse Scarf Hold",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 8,
+          "nogi": 8
         }
       }
     ],

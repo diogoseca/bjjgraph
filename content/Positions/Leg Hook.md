@@ -135,27 +135,27 @@ This position requires precise understanding of weight distribution, hip positio
 ### Available Transitions
 
 
-- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (34% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (9% of attempts)
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (9% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (8% of attempts)
 
-- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (7% of attempts)
+- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (11% of attempts)
 
-- **[[Transitions/Shin Shield Recovery/Attacker|Shin Shield Recovery]]** (15% of attempts)
+- **[[Transitions/Shin Shield Recovery/Attacker|Shin Shield Recovery]]** (13% of attempts)
 
-- **[[Transitions/Half Guard Recovery/Attacker|Half Guard Recovery]]** (9% of attempts)
+- **[[Transitions/Half Guard Recovery/Attacker|Half Guard Recovery]]** (16% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (7% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (12% of attempts)
 
-- **[[Transitions/Butterfly Hook Recovery/Attacker|Butterfly Hook Recovery]]** (7% of attempts)
+- **[[Transitions/Butterfly Hook Recovery/Attacker|Butterfly Hook Recovery]]** (8% of attempts)
 
-- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (7% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (8% of attempts)
 
-- **[[Transitions/Counter Leg Hook/Attacker|Counter Leg Hook]]** (3% of attempts)
+- **[[Transitions/Counter Leg Hook/Attacker|Counter Leg Hook]]** (4% of attempts)
 
-- **[[Transitions/Escape Leg Hook/Attacker|Escape Leg Hook]]** (1% of attempts)
+- **[[Transitions/Escape Leg Hook/Attacker|Escape Leg Hook]]** (7% of attempts)
 
-- **[[Transitions/Sweep from Leg Hook/Attacker|Sweep from Leg Hook]]** (1% of attempts)
+- **[[Transitions/Sweep from Leg Hook/Attacker|Sweep from Leg Hook]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -216,21 +216,21 @@ This position requires precise understanding of weight distribution, hip positio
 ### Available Transitions
 
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (29% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (19% of attempts)
 
-- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (18% of attempts)
+- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (15% of attempts)
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (16% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (15% of attempts)
 
 - **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** (13% of attempts)
 
-- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (10% of attempts)
+- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (13% of attempts)
 
-- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (8% of attempts)
+- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (9% of attempts)
 
-- **[[Transitions/Leg Hook to Half Guard/Attacker|Leg Hook to Half Guard]]** (4% of attempts)
+- **[[Transitions/Leg Hook to Half Guard/Attacker|Leg Hook to Half Guard]]** (8% of attempts)
 
-- **[[Transitions/Leg Hook to Side Control/Attacker|Leg Hook to Side Control]]** (2% of attempts)
+- **[[Transitions/Leg Hook to Side Control/Attacker|Leg Hook to Side Control]]** (8% of attempts)
 
 
 ### Common Mistakes

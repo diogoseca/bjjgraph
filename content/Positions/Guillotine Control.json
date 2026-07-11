@@ -328,85 +328,85 @@
       {
         "transition": "Guillotine Choke from Guillotine Control",
         "attempt_probability": {
-          "gi": 50,
-          "nogi": 50
+          "gi": 21,
+          "nogi": 22
         }
       },
       {
         "transition": "Front Headlock to Anaconda",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 8,
+          "nogi": 10
         }
       },
       {
         "transition": "Front Headlock to Darce",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 10,
+          "nogi": 12
         }
       },
       {
         "transition": "Side Control to Mount",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 3,
+          "nogi": 2
         }
       },
       {
         "transition": "Side Control to North-South",
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 2
+        }
+      },
+      {
+        "transition": "Pass to Side Control",
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 11
+        }
+      },
+      {
+        "transition": "Arm in Guillotine Variation",
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
+      },
+      {
+        "transition": "Guillotine Counter",
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 3
+        }
+      },
+      {
+        "transition": "Ten Finger Guillotine Variation",
         "attempt_probability": {
           "gi": 3,
           "nogi": 3
         }
       },
       {
-        "transition": "Pass to Side Control",
-        "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
-        }
-      },
-      {
-        "transition": "Arm in Guillotine Variation",
-        "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
-        }
-      },
-      {
-        "transition": "Guillotine Counter",
-        "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
-        }
-      },
-      {
-        "transition": "Ten Finger Guillotine Variation",
-        "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
-        }
-      },
-      {
         "transition": "Arm in Guillotine from Guillotine Control",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 10,
+          "nogi": 9
         }
       },
       {
         "transition": "High Elbow Guillotine from Guillotine Control",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 15,
+          "nogi": 16
         }
       },
       {
         "transition": "Ten Finger Guillotine from Guillotine Control",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 6,
+          "nogi": 6
         }
       }
     ]
@@ -687,50 +687,50 @@
       {
         "transition": "Guillotine Choke from Guillotine Control",
         "attempt_probability": {
-          "gi": 52,
-          "nogi": 52
+          "gi": 29,
+          "nogi": 29
         }
       },
       {
         "transition": "High Elbow Guillotine Variation",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 13,
+          "nogi": 15
         }
       },
       {
         "transition": "Hip Bump Sweep",
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 11
+        }
+      },
+      {
+        "transition": "Closed Guard to Omoplata",
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 5
+        }
+      },
+      {
+        "transition": "Closed Guard to Triangle",
         "attempt_probability": {
           "gi": 10,
           "nogi": 10
         }
       },
       {
-        "transition": "Closed Guard to Omoplata",
-        "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
-        }
-      },
-      {
-        "transition": "Closed Guard to Triangle",
-        "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
-        }
-      },
-      {
         "transition": "Guard Recovery from Guillotine Control",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 13,
+          "nogi": 12
         }
       },
       {
         "transition": "Butterfly Sweep with Guillotine",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 13,
+          "nogi": 16
         }
       },
       {

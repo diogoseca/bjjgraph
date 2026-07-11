@@ -21,13 +21,13 @@ description: "Master Meathook from bottom. Complete control guide covering arm i
     {
       "@type": "HowToStep",
       "name": "Execute Meathook to Gogoplata Control",
-      "text": "From this position, attempt Meathook to Gogoplata Control. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Meathook to Gogoplata Control. This technique is attempted in 21% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
@@ -39,7 +39,7 @@ description: "Master Meathook from bottom. Complete control guide covering arm i
     {
       "@type": "HowToStep",
       "name": "Execute Crackhead Control to Carni",
-      "text": "From this position, attempt Crackhead Control to Carni. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Crackhead Control to Carni. This technique is attempted in 7% of exchanges from this position.",
       "position": 4
     },
     {
@@ -51,7 +51,7 @@ description: "Master Meathook from bottom. Complete control guide covering arm i
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata to Back",
-      "text": "From this position, attempt Omoplata to Back. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata to Back. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],

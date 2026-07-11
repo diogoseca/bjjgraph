@@ -21,37 +21,37 @@ description: "Master Aoki Lock defense and escape strategies. Defensive control 
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Escape to Guard",
-      "text": "From this position, attempt Rolling Escape to Guard. This technique is attempted in 21% of exchanges from this position.",
+      "text": "From this position, attempt Rolling Escape to Guard. This technique is attempted in 20% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction to Turtle",
-      "text": "From this position, attempt Arm Extraction to Turtle. This technique is attempted in 38% of exchanges from this position.",
+      "text": "From this position, attempt Arm Extraction to Turtle. This technique is attempted in 21% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 21% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter Roll to Top",
-      "text": "From this position, attempt Counter Roll to Top. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Counter Roll to Top. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Base Attack to Sweep",
-      "text": "From this position, attempt Base Attack to Sweep. This technique is attempted in 2% of exchanges from this position.",
+      "text": "From this position, attempt Base Attack to Sweep. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],

@@ -287,22 +287,22 @@
       {
         "transition": "Triangle Choke from Mounted Triangle",
         "attempt_probability": {
-          "gi": 25,
-          "nogi": 25
+          "gi": 17,
+          "nogi": 17
         }
       },
       {
         "transition": "Armbar on Free Arm",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 12,
+          "nogi": 12
         }
       },
       {
         "transition": "Back Take",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 8,
+          "nogi": 8
         }
       },
       {
@@ -315,22 +315,22 @@
       {
         "transition": "Gift Wrap",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 5,
+          "nogi": 5
         }
       },
       {
         "transition": "Kimura to Back Take",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 5,
+          "nogi": 5
         }
       },
       {
         "transition": "S-Mount Transition",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 8,
+          "nogi": 8
         }
       },
       {
@@ -343,29 +343,29 @@
       {
         "transition": "Triangle to Back",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 7,
+          "nogi": 7
         }
       },
       {
         "transition": "Mounted Triangle Squeeze",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Mounted Triangle to S Mount",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 6,
+          "nogi": 6
         }
       },
       {
         "transition": "Belly Down Armbar from Mounted Triangle",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 5,
+          "nogi": 5
         }
       }
     ],
@@ -606,78 +606,78 @@
       {
         "transition": "Bridge and Roll",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 18
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Elbow Escape to Guard",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 11,
+          "nogi": 11
         }
       },
       {
         "transition": "Granby Roll to Guard",
         "attempt_probability": {
           "gi": 5,
-          "nogi": 5
+          "nogi": 6
         }
       },
       {
         "transition": "Hip Escape to Guard",
         "attempt_probability": {
-          "gi": 19,
-          "nogi": 19
+          "gi": 11,
+          "nogi": 10
         }
       },
       {
         "transition": "Upa Escape",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 11,
+          "nogi": 11
         }
       },
       {
         "transition": "Frame and Shrimp to Guard",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 18
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Shrimp Escape",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 7,
+          "nogi": 7
         }
       },
       {
         "transition": "Arm Extraction",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 13,
+          "nogi": 14
         }
       },
       {
         "transition": "Bridge Defense from Mounted Triangle",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 7,
+          "nogi": 7
         }
       },
       {
         "transition": "Frame and Escape Mounted Triangle",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Posture Up from Mounted Triangle",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 7,
+          "nogi": 6
         }
       }
     ],

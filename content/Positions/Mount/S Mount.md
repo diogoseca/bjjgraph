@@ -141,13 +141,13 @@ Historically, S Mount has been a fundamental component of Japanese judo groundwo
 ### Available Transitions
 
 
-- **[[Transitions/Trap and Roll from S Mount/Attacker|Trap and Roll from S Mount]]** (30% of attempts)
+- **[[Transitions/Trap and Roll from S Mount/Attacker|Trap and Roll from S Mount]]** (24% of attempts)
 
-- **[[Transitions/Frame and Shrimp from S Mount/Attacker|Frame and Shrimp from S Mount]]** (28% of attempts)
+- **[[Transitions/Frame and Shrimp from S Mount/Attacker|Frame and Shrimp from S Mount]]** (32% of attempts)
 
-- **[[Transitions/Bridge Escape from S Mount/Attacker|Bridge Escape from S Mount]]** (25% of attempts)
+- **[[Transitions/Bridge Escape from S Mount/Attacker|Bridge Escape from S Mount]]** (22% of attempts)
 
-- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (17% of attempts)
+- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (22% of attempts)
 
 
 ### Common Mistakes
@@ -208,25 +208,25 @@ Historically, S Mount has been a fundamental component of Japanese judo groundwo
 ### Available Transitions
 
 
-- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (32% of attempts)
+- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (14% of attempts)
 
-- **[[Transitions/Triangle from Mount/Attacker|Triangle from Mount]]** (14% of attempts)
+- **[[Transitions/Triangle from Mount/Attacker|Triangle from Mount]]** (7% of attempts)
 
-- **[[Americana from S Mount/Attacker|Americana from S Mount]]** (7% of attempts)
+- **[[Americana from S Mount/Attacker|Americana from S Mount]]** (3% of attempts)
 
-- **[[Kimura from S Mount/Attacker|Kimura from S Mount]]** (7% of attempts)
+- **[[Kimura from S Mount/Attacker|Kimura from S Mount]]** (5% of attempts)
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (10% of attempts)
+- **[[Transitions/Back Take/Attacker|Back Take]]** (8% of attempts)
 
-- **[[Transitions/Mounted Crucifix Entry/Attacker|Mounted Crucifix Entry]]** (6% of attempts)
+- **[[Transitions/Mounted Crucifix Entry/Attacker|Mounted Crucifix Entry]]** (5% of attempts)
 
 - **[[Transitions/Gift Wrap to Back/Attacker|Gift Wrap to Back]]** (11% of attempts)
 
-- **[[Transitions/S Mount Armbar Setup/Attacker|S Mount Armbar Setup]]** (4% of attempts)
+- **[[Transitions/S Mount Armbar Setup/Attacker|S Mount Armbar Setup]]** (19% of attempts)
 
-- **[[Transitions/S Mount to Mounted Triangle/Attacker|S Mount to Mounted Triangle]]** (2% of attempts)
+- **[[Transitions/S Mount to Mounted Triangle/Attacker|S Mount to Mounted Triangle]]** (10% of attempts)
 
-- **[[Armbar from S Mount/Attacker|Armbar from S Mount]]** (7% of attempts)
+- **[[Armbar from S Mount/Attacker|Armbar from S Mount]]** (18% of attempts)
 
 
 ### Common Mistakes

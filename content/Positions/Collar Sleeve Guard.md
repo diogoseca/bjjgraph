@@ -143,11 +143,11 @@ The position demands active hip movement and constant angle adjustment to remain
 ### Available Transitions
 
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (31% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (15% of attempts)
 
-- **[[Transitions/Pendulum Sweep/Attacker|Pendulum Sweep]]** (11% of attempts)
+- **[[Transitions/Pendulum Sweep/Attacker|Pendulum Sweep]]** (9% of attempts)
 
-- **[[Transitions/Scissor Sweep/Attacker|Scissor Sweep]]** (9% of attempts)
+- **[[Transitions/Scissor Sweep/Attacker|Scissor Sweep]]** (8% of attempts)
 
 - **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (8% of attempts)
 
@@ -155,19 +155,19 @@ The position demands active hip movement and constant angle adjustment to remain
 
 - **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (7% of attempts)
 
-- **[[Transitions/Collar Drag from Open Guard/Attacker|Collar Drag from Open Guard]]** (6% of attempts)
+- **[[Transitions/Collar Drag from Open Guard/Attacker|Collar Drag from Open Guard]]** (0% of attempts)
 
-- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (5% of attempts)
+- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (20% of attempts)
 
-- **[[Transitions/Lapel to Spider Guard/Attacker|Lapel to Spider Guard]]** (4% of attempts)
+- **[[Transitions/Lapel to Spider Guard/Attacker|Lapel to Spider Guard]]** (0% of attempts)
 
-- **[[Transitions/Lapel to Lasso Guard/Attacker|Lapel to Lasso Guard]]** (4% of attempts)
+- **[[Transitions/Lapel to Lasso Guard/Attacker|Lapel to Lasso Guard]]** (0% of attempts)
 
-- **[[Transitions/Collar Sleeve to De La Riva/Attacker|Collar Sleeve to De La Riva]]** (3% of attempts)
+- **[[Transitions/Collar Sleeve to De La Riva/Attacker|Collar Sleeve to De La Riva]]** (9% of attempts)
 
-- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (3% of attempts)
+- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (16% of attempts)
 
-- **[[Transitions/Collar Sleeve Sweep/Attacker|Collar Sleeve Sweep]]** (1% of attempts)
+- **[[Transitions/Collar Sleeve Sweep/Attacker|Collar Sleeve Sweep]]** (0% of attempts)
 
 - **[[Transitions/Collar Sleeve to Spider Guard/Attacker|Collar Sleeve to Spider Guard]]** (1% of attempts)
 
@@ -230,27 +230,27 @@ The position demands active hip movement and constant angle adjustment to remain
 ### Available Transitions
 
 
-- **[[Transitions/Headquarters Pass/Attacker|Headquarters Pass]]** (34% of attempts)
+- **[[Transitions/Headquarters Pass/Attacker|Headquarters Pass]]** (11% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (11% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (14% of attempts)
 
-- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (9% of attempts)
+- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (14% of attempts)
 
-- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (9% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (8% of attempts)
 
-- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (9% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (12% of attempts)
 
-- **[[Transitions/X Pass/Attacker|X Pass]]** (9% of attempts)
+- **[[Transitions/X Pass/Attacker|X Pass]]** (8% of attempts)
 
 - **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (8% of attempts)
 
-- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (5% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (8% of attempts)
 
-- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (4% of attempts)
+- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (5% of attempts)
 
-- **[[Transitions/Bull Pass from Collar Sleeve/Attacker|Bull Pass from Collar Sleeve]]** (1% of attempts)
+- **[[Transitions/Bull Pass from Collar Sleeve/Attacker|Bull Pass from Collar Sleeve]]** (5% of attempts)
 
-- **[[Transitions/Pass Collar Sleeve Guard/Attacker|Pass Collar Sleeve Guard]]** (1% of attempts)
+- **[[Transitions/Pass Collar Sleeve Guard/Attacker|Pass Collar Sleeve Guard]]** (7% of attempts)
 
 
 ### Common Mistakes

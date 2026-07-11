@@ -301,29 +301,29 @@
       {
         "transition": "Sprawl",
         "attempt_probability": {
-          "gi": 22,
-          "nogi": 22
+          "gi": 28,
+          "nogi": 30
         }
       },
       {
         "transition": "Guard Opening Sequence",
         "attempt_probability": {
-          "gi": 31,
-          "nogi": 31
+          "gi": 24,
+          "nogi": 23
         }
       },
       {
         "transition": "Posture Recovery from Meathook",
         "attempt_probability": {
-          "gi": 42,
-          "nogi": 42
+          "gi": 27,
+          "nogi": 26
         }
       },
       {
         "transition": "Stack Pass from Meathook",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 21,
+          "nogi": 21
         }
       }
     ]
@@ -600,29 +600,29 @@
       {
         "transition": "Meathook to Gogoplata Control",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 18,
+          "nogi": 21
         }
       },
       {
         "transition": "Triangle Setup",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 18
+          "gi": 13,
+          "nogi": 14
         }
       },
       {
         "transition": "Closed Guard to Omoplata",
         "attempt_probability": {
-          "gi": 11,
+          "gi": 12,
           "nogi": 11
         }
       },
       {
         "transition": "Crackhead Control to Carni",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 6,
+          "nogi": 7
         }
       },
       {
@@ -635,36 +635,36 @@
       {
         "transition": "Omoplata to Back",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 6,
+          "nogi": 6
         }
       },
       {
         "transition": "Crackhead Control to Mission Control",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 13,
+          "nogi": 14
         }
       },
       {
         "transition": "Baratoplata Setup",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 7,
+          "nogi": 4
         }
       },
       {
         "transition": "Tarikoplata Setup",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 6,
+          "nogi": 4
         }
       },
       {
         "transition": "Sweep from Meathook",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 11,
+          "nogi": 11
         }
       }
     ]

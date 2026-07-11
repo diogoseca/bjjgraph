@@ -21,25 +21,25 @@ description: "Defend against S Mount attacks in BJJ. Critical escape techniques,
     {
       "@type": "HowToStep",
       "name": "Execute Trap and Roll from S Mount",
-      "text": "From this position, attempt Trap and Roll from S Mount. This technique is attempted in 30% of exchanges from this position.",
+      "text": "From this position, attempt Trap and Roll from S Mount. This technique is attempted in 24% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Shrimp from S Mount",
-      "text": "From this position, attempt Frame and Shrimp from S Mount. This technique is attempted in 28% of exchanges from this position.",
+      "text": "From this position, attempt Frame and Shrimp from S Mount. This technique is attempted in 32% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge Escape from S Mount",
-      "text": "From this position, attempt Bridge Escape from S Mount. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Bridge Escape from S Mount. This technique is attempted in 22% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 22% of exchanges from this position.",
       "position": 4
     }
   ],

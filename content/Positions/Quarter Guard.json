@@ -341,78 +341,78 @@
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 30,
-          "nogi": 30
+          "gi": 22,
+          "nogi": 20
         }
       },
       {
         "transition": "Smash Pass",
         "attempt_probability": {
           "gi": 11,
-          "nogi": 11
+          "nogi": 10
         }
       },
       {
         "transition": "Crossface Pass",
-        "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
-        }
-      },
-      {
-        "transition": "Underhook Pass",
         "attempt_probability": {
           "gi": 10,
           "nogi": 10
         }
       },
       {
-        "transition": "Long Step Pass",
+        "transition": "Underhook Pass",
         "attempt_probability": {
-          "gi": 9,
+          "gi": 8,
           "nogi": 9
         }
       },
       {
-        "transition": "Side Control to Mount",
+        "transition": "Long Step Pass",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
-        }
-      },
-      {
-        "transition": "Side Control to North-South",
-        "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
-        }
-      },
-      {
-        "transition": "Kimura from Quarter Guard",
-        "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
-        }
-      },
-      {
-        "transition": "Darce Setup",
-        "attempt_probability": {
-          "gi": 5,
+          "gi": 4,
           "nogi": 5
         }
       },
       {
-        "transition": "Complete Pass from Quarter",
+        "transition": "Side Control to Mount",
         "attempt_probability": {
           "gi": 2,
           "nogi": 2
         }
       },
       {
+        "transition": "Side Control to North-South",
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 1
+        }
+      },
+      {
+        "transition": "Kimura from Quarter Guard",
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 6
+        }
+      },
+      {
+        "transition": "Darce Setup",
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 9
+        }
+      },
+      {
+        "transition": "Complete Pass from Quarter",
+        "attempt_probability": {
+          "gi": 19,
+          "nogi": 17
+        }
+      },
+      {
         "transition": "Knee Through from Quarter",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 13,
+          "nogi": 11
         }
       }
     ]
@@ -667,71 +667,71 @@
       {
         "transition": "Old School Sweep",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 18
+          "gi": 7,
+          "nogi": 6
         }
       },
       {
         "transition": "Half Guard to Back Take",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 10,
+          "nogi": 12
         }
       },
       {
         "transition": "Underhook Sweep from Half",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 17
+          "gi": 8,
+          "nogi": 8
         }
       },
       {
         "transition": "Deep Half Entry",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 16
+          "gi": 11,
+          "nogi": 9
         }
       },
       {
         "transition": "Electric Chair Transition",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 2,
+          "nogi": 3
         }
       },
       {
         "transition": "Knee Shield Retention",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 11,
+          "nogi": 11
         }
       },
       {
         "transition": "Lockdown Recovery",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 4,
+          "nogi": 6
         }
       },
       {
         "transition": "Knee Shield from Quarter Guard",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 18,
+          "nogi": 17
         }
       },
       {
         "transition": "Recover Full Guard from Quarter Guard",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 19,
+          "nogi": 19
         }
       },
       {
         "transition": "Sweep from Quarter Guard",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 10,
+          "nogi": 9
         }
       }
     ]

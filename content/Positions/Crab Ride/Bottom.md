@@ -21,37 +21,37 @@ description: "Master Crab Ride Bottom defense in BJJ. Complete guide covering ho
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 40% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Standing",
-      "text": "From this position, attempt Turtle to Standing. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Standing. This technique is attempted in 16% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Peterson Roll",
-      "text": "From this position, attempt Peterson Roll. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Peterson Roll. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Sit Through Escape",
-      "text": "From this position, attempt Sit Through Escape. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Sit Through Escape. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crab Ride Escape to Guard",
-      "text": "From this position, attempt Crab Ride Escape to Guard. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Crab Ride Escape to Guard. This technique is attempted in 20% of exchanges from this position.",
       "position": 6
     }
   ],

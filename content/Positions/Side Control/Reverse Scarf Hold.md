@@ -139,23 +139,23 @@ Both perspectives require specialized drilling and positional understanding, as 
 ### Available Transitions
 
 
-- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (31% of attempts)
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (15% of attempts)
 
-- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (12% of attempts)
+- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (9% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (13% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (15% of attempts)
 
 - **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (13% of attempts)
 
-- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (10% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (9% of attempts)
 
-- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (14% of attempts)
+- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (11% of attempts)
 
-- **[[Transitions/Escape Reverse Scarf Hold/Attacker|Escape Reverse Scarf Hold]]** (4% of attempts)
+- **[[Transitions/Escape Reverse Scarf Hold/Attacker|Escape Reverse Scarf Hold]]** (11% of attempts)
 
-- **[[Transitions/Frame from Reverse Scarf Hold/Attacker|Frame from Reverse Scarf Hold]]** (2% of attempts)
+- **[[Transitions/Frame from Reverse Scarf Hold/Attacker|Frame from Reverse Scarf Hold]]** (9% of attempts)
 
-- **[[Transitions/Bridge Escape from Reverse Scarf Hold/Attacker|Bridge Escape from Reverse Scarf Hold]]** (1% of attempts)
+- **[[Transitions/Bridge Escape from Reverse Scarf Hold/Attacker|Bridge Escape from Reverse Scarf Hold]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -214,23 +214,23 @@ Both perspectives require specialized drilling and positional understanding, as 
 ### Available Transitions
 
 
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (28% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (11% of attempts)
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (18% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (9% of attempts)
 
-- **[[Americana from Reverse Scarf Hold/Attacker|Americana from Reverse Scarf Hold]]** (11% of attempts)
+- **[[Americana from Reverse Scarf Hold/Attacker|Americana from Reverse Scarf Hold]]** (8% of attempts)
 
-- **[[Kimura from Reverse Scarf Hold/Attacker|Kimura from Reverse Scarf Hold]]** (12% of attempts)
+- **[[Kimura from Reverse Scarf Hold/Attacker|Kimura from Reverse Scarf Hold]]** (15% of attempts)
 
-- **[[Transitions/Back Step/Attacker|Back Step]]** (10% of attempts)
+- **[[Transitions/Back Step/Attacker|Back Step]]** (7% of attempts)
 
-- **[[Arm Triangle from Reverse Scarf Hold/Attacker|Arm Triangle from Reverse Scarf Hold]]** (9% of attempts)
+- **[[Arm Triangle from Reverse Scarf Hold/Attacker|Arm Triangle from Reverse Scarf Hold]]** (11% of attempts)
 
-- **[[Transitions/Reverse Scarf to North-South/Attacker|Reverse Scarf to North-South]]** (4% of attempts)
+- **[[Transitions/Reverse Scarf to North-South/Attacker|Reverse Scarf to North-South]]** (13% of attempts)
 
-- **[[Transitions/Reverse Scarf to Side Control/Attacker|Reverse Scarf to Side Control]]** (6% of attempts)
+- **[[Transitions/Reverse Scarf to Side Control/Attacker|Reverse Scarf to Side Control]]** (16% of attempts)
 
-- **[[North-South Choke from Reverse Scarf/Attacker|North-South Choke from Reverse Scarf]]** (2% of attempts)
+- **[[North-South Choke from Reverse Scarf/Attacker|North-South Choke from Reverse Scarf]]** (10% of attempts)
 
 
 ### Common Mistakes

@@ -299,57 +299,57 @@
       {
         "transition": "Cross Collar Choke from Invisible Collar",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 16,
+          "nogi": 4
         }
       },
       {
         "transition": "Rear Naked Choke from Invisible Collar",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 12,
+          "nogi": 37
         }
       },
       {
         "transition": "Armbar from Back Transition",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 8,
+          "nogi": 8
         }
       },
       {
         "transition": "Aoki Lock to Crucifix",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 3,
+          "nogi": 3
         }
       },
       {
         "transition": "Bow and Arrow Choke from Invisible Collar",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 16,
+          "nogi": 0
         }
       },
       {
         "transition": "Clock Choke from Invisible Collar",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 5,
+          "nogi": 0
         }
       },
       {
         "transition": "Back Control Maintenance",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 28,
+          "nogi": 29
         }
       },
       {
         "transition": "Body Triangle Lock",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 12,
+          "nogi": 19
         }
       }
     ]
@@ -562,43 +562,43 @@
       {
         "transition": "Hand Fighting to Remove Collar Grip",
         "attempt_probability": {
-          "gi": 22,
-          "nogi": 22
+          "gi": 39,
+          "nogi": 39
         }
       },
       {
         "transition": "Hip Escape to Guard",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 18
+          "gi": 23,
+          "nogi": 21
         }
       },
       {
         "transition": "Elbow Escape to Remove Hooks",
         "attempt_probability": {
-          "gi": 20,
-          "nogi": 20
+          "gi": 16,
+          "nogi": 15
         }
       },
       {
         "transition": "Rolling Escape to Guard",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 8,
+          "nogi": 8
         }
       },
       {
         "transition": "Standing Escape",
         "attempt_probability": {
-          "gi": 11,
+          "gi": 8,
           "nogi": 11
         }
       },
       {
         "transition": "Granby Roll to Guard",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 16
+          "gi": 6,
+          "nogi": 6
         }
       }
     ]

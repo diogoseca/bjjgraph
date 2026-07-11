@@ -141,27 +141,27 @@ Strategically, K-Guard represents a transitional hub position where the bottom p
 ### Available Transitions
 
 
-- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (10% of attempts)
+- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (11% of attempts)
 
-- **[[Transitions/Single Leg X Sweep/Attacker|Single Leg X Sweep]]** (11% of attempts)
+- **[[Transitions/Single Leg X Sweep/Attacker|Single Leg X Sweep]]** (15% of attempts)
 
-- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (29% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (8% of attempts)
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (8% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (6% of attempts)
 
-- **[[Transitions/Waiter Sweep/Attacker|Waiter Sweep]]** (7% of attempts)
+- **[[Transitions/Waiter Sweep/Attacker|Waiter Sweep]]** (3% of attempts)
 
-- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (12% of attempts)
+- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (9% of attempts)
 
-- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (10% of attempts)
+- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (6% of attempts)
 
-- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (6% of attempts)
+- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (14% of attempts)
 
-- **[[Transitions/Butterfly Hook Recovery/Attacker|Butterfly Hook Recovery]]** (4% of attempts)
+- **[[Transitions/Butterfly Hook Recovery/Attacker|Butterfly Hook Recovery]]** (6% of attempts)
 
-- **[[Transitions/K-Guard Sweep/Attacker|K-Guard Sweep]]** (2% of attempts)
+- **[[Transitions/K-Guard Sweep/Attacker|K-Guard Sweep]]** (9% of attempts)
 
-- **[[Transitions/K-Guard to Single Leg X/Attacker|K-Guard to Single Leg X]]** (1% of attempts)
+- **[[Transitions/K-Guard to Single Leg X/Attacker|K-Guard to Single Leg X]]** (13% of attempts)
 
 
 ### Common Mistakes
@@ -222,21 +222,21 @@ Strategically, K-Guard represents a transitional hub position where the bottom p
 ### Available Transitions
 
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (28% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (15% of attempts)
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (16% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (12% of attempts)
 
-- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (13% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (14% of attempts)
 
-- **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** (18% of attempts)
+- **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** (10% of attempts)
 
-- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (13% of attempts)
+- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (10% of attempts)
 
 - **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** (7% of attempts)
 
-- **[[Transitions/Backstep from K-Guard/Attacker|Backstep from K-Guard]]** (3% of attempts)
+- **[[Transitions/Backstep from K-Guard/Attacker|Backstep from K-Guard]]** (21% of attempts)
 
-- **[[Transitions/Pass K-Guard/Attacker|Pass K-Guard]]** (2% of attempts)
+- **[[Transitions/Pass K-Guard/Attacker|Pass K-Guard]]** (11% of attempts)
 
 
 ### Common Mistakes

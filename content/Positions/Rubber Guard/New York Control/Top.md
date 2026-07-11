@@ -21,37 +21,37 @@ description: "Master defensive strategies against New York Control from top posi
     {
       "@type": "HowToStep",
       "name": "Execute Overhook Escape",
-      "text": "From this position, attempt Overhook Escape. This technique is attempted in 21% of exchanges from this position.",
+      "text": "From this position, attempt Overhook Escape. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Posture Recovery",
-      "text": "From this position, attempt Posture Recovery. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Posture Recovery. This technique is attempted in 23% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crossface to Combat Base",
-      "text": "From this position, attempt Crossface to Combat Base. This technique is attempted in 33% of exchanges from this position.",
+      "text": "From this position, attempt Crossface to Combat Base. This technique is attempted in 16% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass",
-      "text": "From this position, attempt Stack Pass. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 16% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute New York Control Escape",
-      "text": "From this position, attempt New York Control Escape. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt New York Control Escape. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guard Pass from New York Control",
-      "text": "From this position, attempt Guard Pass from New York Control. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Guard Pass from New York Control. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],

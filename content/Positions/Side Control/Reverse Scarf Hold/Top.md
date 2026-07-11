@@ -21,37 +21,37 @@ description: "Master Reverse Scarf Hold Top (Ushiro Kesa Gatame). Complete guide
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 28% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Americana from Reverse Scarf Hold",
-      "text": "From this position, attempt Americana from Reverse Scarf Hold. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Americana from Reverse Scarf Hold. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Reverse Scarf Hold",
-      "text": "From this position, attempt Kimura from Reverse Scarf Hold. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Kimura from Reverse Scarf Hold. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Step",
-      "text": "From this position, attempt Back Step. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Back Step. This technique is attempted in 7% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Triangle from Reverse Scarf Hold",
-      "text": "From this position, attempt Arm Triangle from Reverse Scarf Hold. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Arm Triangle from Reverse Scarf Hold. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],

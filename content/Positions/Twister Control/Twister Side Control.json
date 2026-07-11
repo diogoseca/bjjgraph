@@ -269,42 +269,42 @@
       {
         "transition": "Side Control to Shoulder of Justice",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 9,
+          "nogi": 8
         }
       },
       {
         "transition": "Back Take",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 12,
+          "nogi": 10
         }
       },
       {
         "transition": "Darce Choke from Twister Side Control",
         "attempt_probability": {
           "gi": 9,
-          "nogi": 9
+          "nogi": 10
         }
       },
       {
         "transition": "Kimura from Twister Side Control",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 10,
+          "nogi": 8
         }
       },
       {
         "transition": "Side Control to North-South",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 8,
+          "nogi": 6
         }
       },
       {
         "transition": "Anaconda Choke",
         "attempt_probability": {
-          "gi": 7,
+          "gi": 6,
           "nogi": 7
         }
       },
@@ -318,43 +318,43 @@
       {
         "transition": "Side Control to Mount",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 8,
+          "nogi": 6
         }
       },
       {
         "transition": "Turtle to Truck",
         "attempt_probability": {
           "gi": 7,
-          "nogi": 7
+          "nogi": 8
         }
       },
       {
         "transition": "Calf Slicer from Twister Side Control",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 4,
+          "nogi": 6
         }
       },
       {
         "transition": "Twister SC to Back Take",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 8,
+          "nogi": 7
         }
       },
       {
         "transition": "Twister SC to Truck",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 8,
+          "nogi": 8
         }
       },
       {
         "transition": "Twister from Twister Side Control",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 4,
+          "nogi": 9
         }
       }
     ],
@@ -595,64 +595,64 @@
       {
         "transition": "Granby Roll to Guard",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 9,
+          "nogi": 10
         }
       },
       {
         "transition": "Technical Stand-up",
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 7
+        }
+      },
+      {
+        "transition": "Hip Escape to Guard",
+        "attempt_probability": {
+          "gi": 17,
+          "nogi": 16
+        }
+      },
+      {
+        "transition": "Frame and Shrimp to Guard",
+        "attempt_probability": {
+          "gi": 16,
+          "nogi": 16
+        }
+      },
+      {
+        "transition": "Arm Extraction to Turtle",
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 9
+        }
+      },
+      {
+        "transition": "Rolling to Guard",
         "attempt_probability": {
           "gi": 10,
           "nogi": 10
         }
       },
       {
-        "transition": "Hip Escape to Guard",
-        "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
-        }
-      },
-      {
-        "transition": "Frame and Shrimp to Guard",
-        "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
-        }
-      },
-      {
-        "transition": "Arm Extraction to Turtle",
-        "attempt_probability": {
-          "gi": 31,
-          "nogi": 31
-        }
-      },
-      {
-        "transition": "Rolling to Guard",
-        "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
-        }
-      },
-      {
         "transition": "Escape Twister Side Control",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 11,
+          "nogi": 12
         }
       },
       {
         "transition": "Frame from Twister Side Control",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 11,
+          "nogi": 11
         }
       },
       {
         "transition": "Turn In from Twister Side Control",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 10,
+          "nogi": 9
         }
       }
     ],

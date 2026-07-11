@@ -21,37 +21,37 @@ description: "Master the clinch position in BJJ with comprehensive grip fighting
     {
       "@type": "HowToStep",
       "name": "Execute Guard Pull from Clinch",
-      "text": "From this position, attempt Guard Pull from Clinch. This technique is attempted in 40% of exchanges from this position.",
+      "text": "From this position, attempt Guard Pull from Clinch. This technique is attempted in 17% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Pummeling from Clinch",
-      "text": "From this position, attempt Underhook Pummeling from Clinch. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Pummeling from Clinch. This technique is attempted in 25% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Break Clinch",
-      "text": "From this position, attempt Break Clinch. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Break Clinch. This technique is attempted in 16% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Drag from Clinch",
-      "text": "From this position, attempt Arm Drag from Clinch. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Arm Drag from Clinch. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Duck Under from Clinch",
-      "text": "From this position, attempt Duck Under from Clinch. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Duck Under from Clinch. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Drag from Clinch Bottom",
-      "text": "From this position, attempt Arm Drag from Clinch Bottom. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Arm Drag from Clinch Bottom. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],

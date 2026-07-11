@@ -319,36 +319,36 @@
       {
         "transition": "Arm Extraction and Pass",
         "attempt_probability": {
-          "gi": 29,
-          "nogi": 29
+          "gi": 24,
+          "nogi": 26
         }
       },
       {
         "transition": "Guard Opening Sequence",
         "attempt_probability": {
-          "gi": 22,
-          "nogi": 22
+          "gi": 19,
+          "nogi": 19
         }
       },
       {
         "transition": "Posture Break from Mission Control",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 16,
+          "nogi": 15
         }
       },
       {
         "transition": "Stack Pass from Mission Control",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 15,
+          "nogi": 16
         }
       },
       {
         "transition": "Posture Recovery from Mission Control",
         "attempt_probability": {
-          "gi": 36,
-          "nogi": 36
+          "gi": 26,
+          "nogi": 24
         }
       }
     ]
@@ -632,71 +632,71 @@
       {
         "transition": "Triangle from Guard",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 16,
+          "nogi": 15
         }
       },
       {
         "transition": "Triangle Setup",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 11,
+          "nogi": 11
         }
       },
       {
         "transition": "Closed Guard to Omoplata",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 13,
+          "nogi": 11
         }
       },
       {
         "transition": "Closed Guard to Triangle",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 12,
+          "nogi": 11
         }
       },
       {
         "transition": "Gogoplata",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 6,
+          "nogi": 8
         }
       },
       {
         "transition": "Hip Bump Sweep",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 9,
+          "nogi": 8
         }
       },
       {
         "transition": "Omoplata Sweep",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 8,
+          "nogi": 7
         }
       },
       {
         "transition": "Progression to Zombie",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 10,
+          "nogi": 13
         }
       },
       {
         "transition": "Advance to Chill Dog",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 9,
+          "nogi": 11
         }
       },
       {
         "transition": "Belly Down Armbar from Mission Control",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 6,
+          "nogi": 5
         }
       }
     ]

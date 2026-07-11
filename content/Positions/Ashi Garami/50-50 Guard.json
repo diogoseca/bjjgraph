@@ -277,85 +277,85 @@
       {
         "transition": "Heel Hook from 50-50 Guard",
         "attempt_probability": {
-          "gi": 29,
-          "nogi": 29
+          "gi": 0,
+          "nogi": 22
         }
       },
       {
         "transition": "Kneebar entry",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 6
         }
       },
       {
         "transition": "Calf Slicer from 50-50 Guard",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 2,
+          "nogi": 2
         }
       },
       {
         "transition": "Back Take from 50-50",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 11,
+          "nogi": 7
         }
       },
       {
         "transition": "50-50 Guard to Outside Ashi",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 7,
+          "nogi": 8
         }
       },
       {
         "transition": "50-50 Guard to Inside Ashi",
         "attempt_probability": {
           "gi": 6,
-          "nogi": 6
+          "nogi": 7
         }
       },
       {
         "transition": "Outside Heel Hook from 50-50 Guard",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 0,
+          "nogi": 5
         }
       },
       {
         "transition": "50-50 Pass",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 31,
+          "nogi": 13
         }
       },
       {
         "transition": "Toe Hold from 50-50",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 16,
+          "nogi": 6
         }
       },
       {
         "transition": "Saddle Entry from Top",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 3,
+          "nogi": 9
         }
       },
       {
         "transition": "50-50 Guard to Backside 50-50",
         "attempt_probability": {
           "gi": 5,
-          "nogi": 5
+          "nogi": 10
         }
       },
       {
         "transition": "Kneebar from 50-50",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 10,
+          "nogi": 5
         }
       }
     ]
@@ -573,56 +573,56 @@
       {
         "transition": "Position reversal sweep to top",
         "attempt_probability": {
-          "gi": 24,
-          "nogi": 24
+          "gi": 33,
+          "nogi": 18
         }
       },
       {
         "transition": "Counter heel hook",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 2,
+          "nogi": 21
         }
       },
       {
         "transition": "50-50 Guard to Single Leg X-Guard",
         "attempt_probability": {
-          "gi": 22,
-          "nogi": 22
+          "gi": 11,
+          "nogi": 12
         }
       },
       {
         "transition": "Extract legs and stand up",
         "attempt_probability": {
-          "gi": 21,
-          "nogi": 21
+          "gi": 15,
+          "nogi": 14
         }
       },
       {
         "transition": "Straight Ankle Lock Entry",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 20,
+          "nogi": 13
         }
       },
       {
         "transition": "Kneebar entry",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 7,
+          "nogi": 8
         }
       },
       {
         "transition": "Toe Hold from 50-50",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 8,
+          "nogi": 9
         }
       },
       {
         "transition": "Counter-entangle to 50-50 Guard",
         "attempt_probability": {
-          "gi": 5,
+          "gi": 4,
           "nogi": 5
         }
       }

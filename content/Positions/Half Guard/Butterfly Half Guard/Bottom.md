@@ -21,37 +21,37 @@ description: "Master bottom butterfly half guard - hybrid position combining but
     {
       "@type": "HowToStep",
       "name": "Execute 100% Sweep",
-      "text": "From this position, attempt 100% Sweep. This technique is attempted in 36% of exchanges from this position.",
+      "text": "From this position, attempt 100% Sweep. This technique is attempted in 6% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 8% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Sweep",
-      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 6% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Waiter Sweep",
-      "text": "From this position, attempt Waiter Sweep. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Waiter Sweep. This technique is attempted in 3% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],

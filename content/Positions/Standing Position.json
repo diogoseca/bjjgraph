@@ -107,35 +107,35 @@
       {
         "transition": "Guard Pull",
         "attempt_probability": {
-          "gi": 31,
-          "nogi": 31
+          "gi": 17,
+          "nogi": 7
         }
       },
       {
         "transition": "Sprawl Defense",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 3,
+          "nogi": 5
         }
       },
       {
         "transition": "Single Leg Entry",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 7,
+          "nogi": 10
         }
       },
       {
         "transition": "Double Leg Setup",
         "attempt_probability": {
           "gi": 5,
-          "nogi": 5
+          "nogi": 8
         }
       },
       {
         "transition": "Sprawl",
         "attempt_probability": {
-          "gi": 5,
+          "gi": 4,
           "nogi": 5
         }
       },
@@ -149,56 +149,56 @@
       {
         "transition": "Double Leg Entry",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 4,
+          "nogi": 6
         }
       },
       {
         "transition": "Snap Down to Front Headlock",
         "attempt_probability": {
           "gi": 3,
-          "nogi": 3
+          "nogi": 7
         }
       },
       {
         "transition": "Arm Drag",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 4,
+          "nogi": 5
         }
       },
       {
         "transition": "Ankle Pick",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 4,
+          "nogi": 4
         }
       },
       {
         "transition": "Body Lock Takedown",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 3,
+          "nogi": 5
         }
       },
       {
         "transition": "Jumping Guard",
         "attempt_probability": {
-          "gi": 1,
+          "gi": 2,
           "nogi": 1
         }
       },
       {
         "transition": "Osoto Gari",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 4,
+          "nogi": 2
         }
       },
       {
         "transition": "Ouchi Gari",
         "attempt_probability": {
-          "gi": 1,
+          "gi": 3,
           "nogi": 1
         }
       },
@@ -219,22 +219,22 @@
       {
         "transition": "Harai Goshi",
         "attempt_probability": {
-          "gi": 1,
+          "gi": 2,
           "nogi": 1
         }
       },
       {
         "transition": "Ippon Seoi Nage",
         "attempt_probability": {
-          "gi": 1,
+          "gi": 3,
           "nogi": 1
         }
       },
       {
         "transition": "Russian Tie to Back Take",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 2,
+          "nogi": 3
         }
       },
       {
@@ -255,14 +255,14 @@
         "transition": "50-50 Entry from Standing",
         "attempt_probability": {
           "gi": 1,
-          "nogi": 1
+          "nogi": 2
         }
       },
       {
         "transition": "Body Lock Pass",
         "attempt_probability": {
           "gi": 1,
-          "nogi": 1
+          "nogi": 2
         }
       },
       {
@@ -275,14 +275,14 @@
       {
         "transition": "Kosoto Gari",
         "attempt_probability": {
-          "gi": 1,
+          "gi": 2,
           "nogi": 1
         }
       },
       {
         "transition": "Morote Seoi Nage",
         "attempt_probability": {
-          "gi": 1,
+          "gi": 2,
           "nogi": 1
         }
       },
@@ -296,56 +296,56 @@
       {
         "transition": "Tai Otoshi",
         "attempt_probability": {
-          "gi": 1,
+          "gi": 2,
           "nogi": 1
         }
       },
       {
         "transition": "Single Leg to Back Take",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 2,
+          "nogi": 3
         }
       },
       {
         "transition": "Flying Kneebar from Standing Position",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 1,
+          "nogi": 1
         }
       },
       {
         "transition": "Kimura from Standing",
         "attempt_probability": {
           "gi": 1,
-          "nogi": 1
+          "nogi": 2
         }
       },
       {
         "transition": "Reverse Kimura from Standing Position",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 1,
+          "nogi": 1
         }
       },
       {
         "transition": "Collar Drag",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 4,
+          "nogi": 0
         }
       },
       {
         "transition": "Shin to Shin Pull",
         "attempt_probability": {
-          "gi": 3,
+          "gi": 2,
           "nogi": 3
         }
       },
       {
         "transition": "Standing to Single Leg X",
         "attempt_probability": {
-          "gi": 3,
+          "gi": 2,
           "nogi": 3
         }
       }
@@ -659,50 +659,50 @@
       {
         "transition": "Pull Guard from Standing",
         "attempt_probability": {
-          "gi": 24,
-          "nogi": 24
+          "gi": 29,
+          "nogi": 16
         }
       },
       {
         "transition": "Standing Guard Pull",
         "attempt_probability": {
-          "gi": 22,
-          "nogi": 22
+          "gi": 19,
+          "nogi": 14
         }
       },
       {
         "transition": "Butterfly Guard Pull",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 18
+          "gi": 14,
+          "nogi": 14
         }
       },
       {
         "transition": "Arm Drag",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 11,
+          "nogi": 15
         }
       },
       {
         "transition": "Level Change Takedown",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 15
         }
       },
       {
         "transition": "Takedown from Bottom",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 9,
+          "nogi": 14
         }
       },
       {
         "transition": "Snap Down from Standing",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 12
         }
       }
     ],

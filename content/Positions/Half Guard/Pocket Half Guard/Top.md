@@ -21,37 +21,37 @@ description: "Master Pocket Half Guard Top in BJJ. Complete guide covering contr
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 45% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Pass",
-      "text": "From this position, attempt Underhook Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Pass. This technique is attempted in 7% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Step Pass",
-      "text": "From this position, attempt Back Step Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Back Step Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Darce Setup",
-      "text": "From this position, attempt Darce Setup. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Darce Setup. This technique is attempted in 16% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard to Flattened Half Guard",
-      "text": "From this position, attempt Half Guard to Flattened Half Guard. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Half Guard to Flattened Half Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],

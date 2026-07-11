@@ -139,23 +139,23 @@ Kesa Gatame functions as a positional hub within the side control family, offeri
 ### Available Transitions
 
 
-- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (12% of attempts)
+- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (10% of attempts)
 
 - **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (13% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (9% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (14% of attempts)
 
-- **[[Transitions/Back Take from Kesa Gatame/Attacker|Back Take from Kesa Gatame]]** (10% of attempts)
+- **[[Transitions/Back Take from Kesa Gatame/Attacker|Back Take from Kesa Gatame]]** (11% of attempts)
 
-- **[[Transitions/Bridge and Turn to Turtle/Attacker|Bridge and Turn to Turtle]]** (28% of attempts)
+- **[[Transitions/Bridge and Turn to Turtle/Attacker|Bridge and Turn to Turtle]]** (10% of attempts)
 
 - **[[Transitions/Ghost Escape from Side Control/Attacker|Ghost Escape from Side Control]]** (12% of attempts)
 
-- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (10% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (12% of attempts)
 
-- **[[Transitions/Bridge Escape from Kesa Gatame/Attacker|Bridge Escape from Kesa Gatame]]** (3% of attempts)
+- **[[Transitions/Bridge Escape from Kesa Gatame/Attacker|Bridge Escape from Kesa Gatame]]** (9% of attempts)
 
-- **[[Transitions/Frame to Guard from Kesa Gatame/Attacker|Frame to Guard from Kesa Gatame]]** (3% of attempts)
+- **[[Transitions/Frame to Guard from Kesa Gatame/Attacker|Frame to Guard from Kesa Gatame]]** (9% of attempts)
 
 
 ### Common Mistakes
@@ -220,25 +220,25 @@ Kesa Gatame functions as a positional hub within the side control family, offeri
 ### Available Transitions
 
 
-- **[[Kimura from Kesa Gatame/Attacker|Kimura from Kesa Gatame]]** (15% of attempts)
+- **[[Kimura from Kesa Gatame/Attacker|Kimura from Kesa Gatame]]** (17% of attempts)
 
 - **[[North-South Choke from Kesa Gatame/Attacker|North-South Choke from Kesa Gatame]]** (9% of attempts)
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (19% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (12% of attempts)
 
 - **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (11% of attempts)
 
 - **[[Arm Triangle from Kesa Gatame/Attacker|Arm Triangle from Kesa Gatame]]** (10% of attempts)
 
-- **[[Transitions/Kesa Gatame to Modified Scarf Hold/Attacker|Kesa Gatame to Modified Scarf Hold]]** (2% of attempts)
+- **[[Transitions/Kesa Gatame to Modified Scarf Hold/Attacker|Kesa Gatame to Modified Scarf Hold]]** (10% of attempts)
 
-- **[[Transitions/Kesa Gatame to Reverse Kesa-Gatame/Attacker|Kesa Gatame to Reverse Kesa-Gatame]]** (2% of attempts)
+- **[[Transitions/Kesa Gatame to Reverse Kesa-Gatame/Attacker|Kesa Gatame to Reverse Kesa-Gatame]]** (10% of attempts)
 
-- **[[Americana from Kesa Gatame/Attacker|Americana from Kesa Gatame]]** (22% of attempts)
+- **[[Americana from Kesa Gatame/Attacker|Americana from Kesa Gatame]]** (9% of attempts)
 
-- **[[Kesa Gatame Arm Crush from Kesa Gatame/Attacker|Kesa Gatame Arm Crush from Kesa Gatame]]** (5% of attempts)
+- **[[Kesa Gatame Arm Crush from Kesa Gatame/Attacker|Kesa Gatame Arm Crush from Kesa Gatame]]** (6% of attempts)
 
-- **[[Belly Down Armbar from Kesa Gatame/Attacker|Belly Down Armbar from Kesa Gatame]]** (5% of attempts)
+- **[[Belly Down Armbar from Kesa Gatame/Attacker|Belly Down Armbar from Kesa Gatame]]** (6% of attempts)
 
 
 ### Common Mistakes

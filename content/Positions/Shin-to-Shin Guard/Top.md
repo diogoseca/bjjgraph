@@ -21,37 +21,37 @@ description: "Master passing Shin-to-Shin Guard from top perspective. Learn clea
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, attempt Long Step Pass. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass",
-      "text": "From this position, attempt Stack Pass. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 3% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Pressure Pass",
-      "text": "From this position, attempt Pressure Pass. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Pressure Pass. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute X Pass",
-      "text": "From this position, attempt X Pass. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt X Pass. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],

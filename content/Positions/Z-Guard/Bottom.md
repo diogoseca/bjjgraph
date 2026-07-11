@@ -21,37 +21,37 @@ description: "Master Z-Guard Bottom position in BJJ. Complete guide covering kne
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 35% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 7% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 7% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take from Bottom",
-      "text": "From this position, attempt Back Take from Bottom. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Back Take from Bottom. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard Sweep",
-      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Lockdown Recovery",
-      "text": "From this position, attempt Lockdown Recovery. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Lockdown Recovery. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],

@@ -102,78 +102,78 @@
       {
         "transition": "Back Take",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 17
+          "gi": 14,
+          "nogi": 13
         }
       },
       {
         "transition": "Body Lock Pass",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 3,
+          "nogi": 3
         }
       },
       {
         "transition": "Rolling Back Take",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 3,
+          "nogi": 2
         }
       },
       {
         "transition": "Mat Return to Back Mount",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 22,
+          "nogi": 21
         }
       },
       {
         "transition": "Double Leg Finish",
-        "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
-        }
-      },
-      {
-        "transition": "Mat Return from Standing Rear Clinch",
-        "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
-        }
-      },
-      {
-        "transition": "Rear Clinch to Body Lock",
-        "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
-        }
-      },
-      {
-        "transition": "Suplex from Rear Clinch",
-        "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
-        }
-      },
-      {
-        "transition": "Standing Switch Defense",
         "attempt_probability": {
           "gi": 6,
           "nogi": 6
         }
       },
       {
+        "transition": "Mat Return from Standing Rear Clinch",
+        "attempt_probability": {
+          "gi": 22,
+          "nogi": 21
+        }
+      },
+      {
+        "transition": "Rear Clinch to Body Lock",
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 8
+        }
+      },
+      {
+        "transition": "Suplex from Rear Clinch",
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 4
+        }
+      },
+      {
+        "transition": "Standing Switch Defense",
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
+      },
+      {
         "transition": "Rear Naked Choke Setup",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 11,
+          "nogi": 12
         }
       },
       {
         "transition": "Rear Naked Choke from Standing Rear Clinch",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 4,
+          "nogi": 6
         }
       }
     ],
@@ -480,22 +480,22 @@
       {
         "transition": "Defense from Standing Rear Clinch",
         "attempt_probability": {
-          "gi": 40,
-          "nogi": 40
+          "gi": 52,
+          "nogi": 53
         }
       },
       {
         "transition": "Standing Switch from Rear Clinch",
         "attempt_probability": {
-          "gi": 33,
-          "nogi": 33
+          "gi": 32,
+          "nogi": 34
         }
       },
       {
         "transition": "Counter Throw from Standing Rear Clinch",
         "attempt_probability": {
-          "gi": 27,
-          "nogi": 27
+          "gi": 16,
+          "nogi": 13
         }
       }
     ],

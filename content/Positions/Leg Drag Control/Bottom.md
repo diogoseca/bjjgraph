@@ -21,37 +21,37 @@ description: "Navigate leg drag control from bottom position. Master defensive t
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Escape to Closed Guard",
-      "text": "From this position, attempt Leg Drag Escape to Closed Guard. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag Escape to Closed Guard. This technique is attempted in 7% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand-up",
-      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 8% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Counter to Half Guard",
-      "text": "From this position, attempt Leg Drag Counter to Half Guard. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag Counter to Half Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Roll to Turtle",
-      "text": "From this position, attempt Roll to Turtle. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Roll to Turtle. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Inside Position Recovery",
-      "text": "From this position, attempt Inside Position Recovery. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Inside Position Recovery. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],

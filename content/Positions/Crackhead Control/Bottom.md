@@ -21,25 +21,25 @@ description: "Master Crackhead Control Bottom in BJJ. 10th Planet's innovative t
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 24% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing up in Base",
-      "text": "From this position, attempt Standing up in Base. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Standing up in Base. This technique is attempted in 23% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Sit Through Escape",
-      "text": "From this position, attempt Sit Through Escape. This technique is attempted in 30% of exchanges from this position.",
+      "text": "From this position, attempt Sit Through Escape. This technique is attempted in 22% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Peterson Roll",
-      "text": "From this position, attempt Peterson Roll. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Peterson Roll. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {

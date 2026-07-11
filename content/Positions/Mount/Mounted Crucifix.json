@@ -298,78 +298,78 @@
       {
         "transition": "Armbar from Crucifix",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 15,
+          "nogi": 14
         }
       },
       {
         "transition": "Rear Naked Choke from Mounted Crucifix",
         "attempt_probability": {
-          "gi": 10,
+          "gi": 8,
           "nogi": 10
         }
       },
       {
         "transition": "Back Control to Crucifix",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 3,
+          "nogi": 3
         }
       },
       {
         "transition": "Armbar on Free Arm",
         "attempt_probability": {
           "gi": 9,
-          "nogi": 9
+          "nogi": 8
         }
       },
       {
         "transition": "Gift Wrap to Technical Mount",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 11,
+          "nogi": 11
         }
       },
       {
         "transition": "Neck Crank from Mounted Crucifix",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 1,
+          "nogi": 3
         }
       },
       {
         "transition": "Mount to Armbar",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 9,
+          "nogi": 8
         }
       },
       {
         "transition": "Mounted Crucifix to S Mount",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 11,
+          "nogi": 11
         }
       },
       {
         "transition": "Gift Wrap Transition",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 7,
+          "nogi": 7
         }
       },
       {
         "transition": "Back Take from Top",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 8,
+          "nogi": 9
         }
       },
       {
         "transition": "Seat Belt Control Back",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 5,
+          "nogi": 5
         }
       },
       {
@@ -382,8 +382,8 @@
       {
         "transition": "Mounted Crucifix Armbar from Mounted Crucifix",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 10,
+          "nogi": 8
         }
       }
     ],
@@ -651,42 +651,42 @@
       {
         "transition": "Hip Escape from Mounted Crucifix",
         "attempt_probability": {
-          "gi": 33,
-          "nogi": 33
+          "gi": 19,
+          "nogi": 19
         }
       },
       {
         "transition": "Bridge and Roll",
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 13
+        }
+      },
+      {
+        "transition": "Elbow Escape to Guard",
         "attempt_probability": {
           "gi": 12,
           "nogi": 12
         }
       },
       {
-        "transition": "Elbow Escape to Guard",
+        "transition": "Upa Escape",
         "attempt_probability": {
           "gi": 14,
           "nogi": 14
         }
       },
       {
-        "transition": "Upa Escape",
-        "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
-        }
-      },
-      {
         "transition": "Hip Escape to Guard",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 11,
+          "nogi": 11
         }
       },
       {
         "transition": "Explosive Bridge to Turtle",
         "attempt_probability": {
-          "gi": 10,
+          "gi": 9,
           "nogi": 10
         }
       },
@@ -701,14 +701,14 @@
         "transition": "Rolling Escape to Guard",
         "attempt_probability": {
           "gi": 6,
-          "nogi": 6
+          "nogi": 7
         }
       },
       {
         "transition": "Bridge Escape from Mounted Crucifix",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 12,
+          "nogi": 11
         }
       }
     ],

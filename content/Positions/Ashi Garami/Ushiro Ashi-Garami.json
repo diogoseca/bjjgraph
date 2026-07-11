@@ -297,42 +297,42 @@
       {
         "transition": "Inside Heel Hook from Ushiro",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 1,
+          "nogi": 8
         }
       },
       {
         "transition": "Follow to Back Control",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 21,
+          "nogi": 12
         }
       },
       {
         "transition": "Ankle Lock Finish",
         "attempt_probability": {
-          "gi": 6,
+          "gi": 16,
           "nogi": 6
         }
       },
       {
         "transition": "Cross Ashi Transition",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 7,
+          "nogi": 7
         }
       },
       {
         "transition": "Outside Heel Hook Adjustment",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 0,
+          "nogi": 8
         }
       },
       {
         "transition": "Return to Outside Ashi",
         "attempt_probability": {
-          "gi": 10,
+          "gi": 16,
           "nogi": 10
         }
       },
@@ -340,49 +340,49 @@
         "transition": "Kneebar from Ushiro",
         "attempt_probability": {
           "gi": 12,
-          "nogi": 12
+          "nogi": 7
         }
       },
       {
         "transition": "Saddle Entry from Top",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 4,
+          "nogi": 11
         }
       },
       {
         "transition": "Toe Hold from Ushiro Ashi-Garami",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 10,
+          "nogi": 5
         }
       },
       {
         "transition": "Ashi Garami Maintenance",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 13,
+          "nogi": 8
         }
       },
       {
         "transition": "Heel Hook from Ushiro Ashi",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 0,
+          "nogi": 6
         }
       },
       {
         "transition": "Inside Heel Hook from Ushiro Ashi-Garami",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 0,
+          "nogi": 7
         }
       },
       {
         "transition": "Outside Heel Hook from Ushiro Ashi-Garami",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 0,
+          "nogi": 5
         }
       }
     ]
@@ -628,57 +628,57 @@
       {
         "transition": "Ushiro Ashi-Garami Escape",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 26,
+          "nogi": 21
         }
       },
       {
         "transition": "Inversion to Turtle",
         "attempt_probability": {
-          "gi": 39,
-          "nogi": 39
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Ushiro Ashi-Garami to Deep Half",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 10,
+          "nogi": 7
         }
       },
       {
         "transition": "Single Leg X Recovery",
         "attempt_probability": {
           "gi": 12,
-          "nogi": 12
+          "nogi": 13
         }
       },
       {
         "transition": "Reverse Heel Hook Counter",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 2,
+          "nogi": 12
         }
       },
       {
         "transition": "Leg Extraction to Guard",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 22,
+          "nogi": 18
         }
       },
       {
         "transition": "Counter-entangle to 50-50 Guard",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 10,
+          "nogi": 12
         }
       },
       {
         "transition": "Sweep from Ushiro Ashi-Garami",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 8,
+          "nogi": 7
         }
       }
     ]

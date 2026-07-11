@@ -311,50 +311,50 @@
       {
         "transition": "Stack Pass",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 11,
+          "nogi": 12
         }
       },
       {
         "transition": "Pressure Pass",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 11,
+          "nogi": 10
         }
       },
       {
         "transition": "Posture Recovery",
         "attempt_probability": {
-          "gi": 35,
-          "nogi": 35
+          "gi": 20,
+          "nogi": 19
         }
       },
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 29,
-          "nogi": 29
+          "gi": 9,
+          "nogi": 8
         }
       },
       {
         "transition": "Posture from Williams Guard",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 21,
+          "nogi": 22
         }
       },
       {
         "transition": "Stack from Williams Guard",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 15,
+          "nogi": 16
         }
       },
       {
         "transition": "Guard Pass from Williams Guard",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 13,
+          "nogi": 13
         }
       }
     ]
@@ -609,57 +609,57 @@
       {
         "transition": "Williams Shoulder Lock from Williams Guard",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 16,
+          "nogi": 16
         }
       },
       {
         "transition": "Omoplata Sweep",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 11,
+          "nogi": 9
         }
       },
       {
         "transition": "Triangle Setup",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 20,
+          "nogi": 21
         }
       },
       {
         "transition": "Omoplata to Back",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 17
+          "gi": 8,
+          "nogi": 9
         }
       },
       {
         "transition": "Back Take from Bottom",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 8,
+          "nogi": 9
         }
       },
       {
         "transition": "Kimura to Back Take",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 9,
+          "nogi": 10
         }
       },
       {
         "transition": "Williams Guard Sweep",
         "attempt_probability": {
           "gi": 18,
-          "nogi": 18
+          "nogi": 17
         }
       },
       {
         "transition": "Belly Down Armbar from Williams Guard",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 10,
+          "nogi": 9
         }
       }
     ]

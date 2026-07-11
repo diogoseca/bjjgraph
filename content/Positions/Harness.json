@@ -353,63 +353,63 @@
       {
         "transition": "Rear Naked Choke from Harness",
         "attempt_probability": {
-          "gi": 42,
-          "nogi": 42
+          "gi": 27,
+          "nogi": 32
         }
       },
       {
         "transition": "Armbar from Back Transition",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 14
+          "gi": 5,
+          "nogi": 6
         }
       },
       {
         "transition": "Back Control to Crucifix",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 6,
+          "nogi": 7
         }
       },
       {
         "transition": "Triangle from Back",
         "attempt_probability": {
           "gi": 4,
-          "nogi": 4
+          "nogi": 6
         }
       },
       {
         "transition": "Bow and Arrow Choke from Harness",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 15,
+          "nogi": 0
         }
       },
       {
         "transition": "Short Choke from Harness",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 8,
+          "nogi": 10
         }
       },
       {
         "transition": "Rolling Back Take",
-        "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
-        }
-      },
-      {
-        "transition": "Back Control Maintenance",
         "attempt_probability": {
           "gi": 2,
           "nogi": 2
         }
       },
       {
+        "transition": "Back Control Maintenance",
+        "attempt_probability": {
+          "gi": 19,
+          "nogi": 20
+        }
+      },
+      {
         "transition": "Kimura from Back",
         "attempt_probability": {
-          "gi": 6,
+          "gi": 5,
           "nogi": 6
         }
       },
@@ -417,14 +417,14 @@
         "transition": "Gift Wrap Transition",
         "attempt_probability": {
           "gi": 4,
-          "nogi": 4
+          "nogi": 5
         }
       },
       {
         "transition": "Harness to Body Lock",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 5,
+          "nogi": 6
         }
       }
     ]
@@ -700,64 +700,64 @@
       {
         "transition": "Elbow Escape to Guard",
         "attempt_probability": {
-          "gi": 21,
-          "nogi": 21
-        }
-      },
-      {
-        "transition": "Hip Escape to Turtle",
-        "attempt_probability": {
-          "gi": 17,
-          "nogi": 17
-        }
-      },
-      {
-        "transition": "Technical Stand Up to Single Leg",
-        "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
-        }
-      },
-      {
-        "transition": "Roll to Guard",
-        "attempt_probability": {
           "gi": 12,
           "nogi": 12
         }
       },
       {
-        "transition": "Granby Roll to Guard",
+        "transition": "Hip Escape to Turtle",
         "attempt_probability": {
           "gi": 11,
           "nogi": 11
         }
       },
       {
-        "transition": "Hip Escape to Guard",
+        "transition": "Technical Stand Up to Single Leg",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 5,
+          "nogi": 7
         }
       },
       {
-        "transition": "Shrimp Escape",
+        "transition": "Roll to Guard",
         "attempt_probability": {
-          "gi": 9,
+          "gi": 10,
           "nogi": 9
         }
       },
       {
-        "transition": "Hand Fighting from Back",
+        "transition": "Granby Roll to Guard",
         "attempt_probability": {
           "gi": 7,
           "nogi": 7
         }
       },
       {
+        "transition": "Hip Escape to Guard",
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 12
+        }
+      },
+      {
+        "transition": "Shrimp Escape",
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 14
+        }
+      },
+      {
+        "transition": "Hand Fighting from Back",
+        "attempt_probability": {
+          "gi": 19,
+          "nogi": 20
+        }
+      },
+      {
         "transition": "Harness Escape to Half Guard",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 8,
+          "nogi": 8
         }
       }
     ]

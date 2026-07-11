@@ -139,23 +139,23 @@ Strategically, RDLR has become increasingly prominent in both gi and no-gi compe
 ### Available Transitions
 
 
-- **[[Transitions/Waiter Sweep/Attacker|Waiter Sweep]]** (26% of attempts)
+- **[[Transitions/Waiter Sweep/Attacker|Waiter Sweep]]** (9% of attempts)
 
-- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (15% of attempts)
+- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (5% of attempts)
 
 - **[[Transitions/De La Riva to X-Guard Transition/Attacker|De La Riva to X-Guard Transition]]** (14% of attempts)
 
-- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (16% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (23% of attempts)
 
-- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (5% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (4% of attempts)
 
-- **[[Transitions/Reverse De La Riva Recovery/Attacker|Reverse De La Riva Recovery]]** (14% of attempts)
+- **[[Transitions/Reverse De La Riva Recovery/Attacker|Reverse De La Riva Recovery]]** (18% of attempts)
 
-- **[[Transitions/Tripod Sweep/Attacker|Tripod Sweep]]** (7% of attempts)
+- **[[Transitions/Tripod Sweep/Attacker|Tripod Sweep]]** (6% of attempts)
 
-- **[[Transitions/Kiss of the Dragon from RDLR/Attacker|Kiss of the Dragon from RDLR]]** (2% of attempts)
+- **[[Transitions/Kiss of the Dragon from RDLR/Attacker|Kiss of the Dragon from RDLR]]** (12% of attempts)
 
-- **[[Transitions/RDLR to Crab Ride/Attacker|RDLR to Crab Ride]]** (1% of attempts)
+- **[[Transitions/RDLR to Crab Ride/Attacker|RDLR to Crab Ride]]** (9% of attempts)
 
 
 ### Common Mistakes
@@ -216,25 +216,25 @@ Strategically, RDLR has become increasingly prominent in both gi and no-gi compe
 ### Available Transitions
 
 
-- **[[Transitions/RDLR Pass/Attacker|RDLR Pass]]** (20% of attempts)
+- **[[Transitions/RDLR Pass/Attacker|RDLR Pass]]** (8% of attempts)
 
-- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (13% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (12% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (7% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (16% of attempts)
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (7% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (8% of attempts)
 
-- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (6% of attempts)
+- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (8% of attempts)
 
-- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (9% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (8% of attempts)
 
-- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (8% of attempts)
+- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (14% of attempts)
 
-- **[[Transitions/Headquarters Pass/Attacker|Headquarters Pass]]** (14% of attempts)
+- **[[Transitions/Headquarters Pass/Attacker|Headquarters Pass]]** (8% of attempts)
 
-- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (13% of attempts)
+- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (8% of attempts)
 
-- **[[Transitions/RDLR Backstep Counter/Attacker|RDLR Backstep Counter]]** (3% of attempts)
+- **[[Transitions/RDLR Backstep Counter/Attacker|RDLR Backstep Counter]]** (10% of attempts)
 
 
 ### Common Mistakes

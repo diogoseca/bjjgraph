@@ -21,19 +21,19 @@ description: "Master Leg Hook Top in BJJ. Control position from half guard top w
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 29% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 19% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Weave Pass",
-      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
@@ -45,13 +45,13 @@ description: "Master Leg Hook Top in BJJ. Control position from half guard top w
     {
       "@type": "HowToStep",
       "name": "Execute Pressure Pass",
-      "text": "From this position, attempt Pressure Pass. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Pressure Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Step Pass",
-      "text": "From this position, attempt Back Step Pass. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Back Step Pass. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],

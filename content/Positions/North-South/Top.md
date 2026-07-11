@@ -21,7 +21,7 @@ description: "Master North-South top position in BJJ. Complete guide to establis
     {
       "@type": "HowToStep",
       "name": "Execute North-South Choke from North-South",
-      "text": "From this position, attempt North-South Choke from North-South. This technique is attempted in 21% of exchanges from this position.",
+      "text": "From this position, attempt North-South Choke from North-South. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
@@ -33,25 +33,25 @@ description: "Master North-South top position in BJJ. Complete guide to establis
     {
       "@type": "HowToStep",
       "name": "Execute North-South to Kimura",
-      "text": "From this position, attempt North-South to Kimura. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt North-South to Kimura. This technique is attempted in 19% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from North-South",
-      "text": "From this position, attempt Armbar from North-South. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Armbar from North-South. This technique is attempted in 6% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Americana from North-South",
-      "text": "From this position, attempt Americana from North-South. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Americana from North-South. This technique is attempted in 4% of exchanges from this position.",
       "position": 6
     }
   ],

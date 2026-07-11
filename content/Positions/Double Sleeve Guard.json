@@ -317,57 +317,57 @@
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 16
+          "gi": 17,
+          "nogi": 15
         }
       },
       {
         "transition": "Leg Drag Pass",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 13,
+          "nogi": 13
         }
       },
       {
         "transition": "Long Step Pass",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 8,
+          "nogi": 9
         }
       },
       {
         "transition": "X Pass",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 9,
+          "nogi": 10
         }
       },
       {
         "transition": "Double Under Pass",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 7,
+          "nogi": 7
         }
       },
       {
         "transition": "Stack Pass",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 8,
+          "nogi": 9
         }
       },
       {
         "transition": "Pass Double Sleeve Guard",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 11,
+          "nogi": 11
         }
       },
       {
         "transition": "Toreando from Double Sleeve",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 11,
+          "nogi": 10
         }
       }
     ]
@@ -633,50 +633,50 @@
       {
         "transition": "Tripod Sweep",
         "attempt_probability": {
-          "gi": 20,
-          "nogi": 20
+          "gi": 11,
+          "nogi": 12
         }
       },
       {
         "transition": "Omoplata Sweep",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 7,
+          "nogi": 7
         }
       },
       {
         "transition": "Triangle Setup",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 9,
+          "nogi": 13
         }
       },
       {
         "transition": "Omoplata from Double Sleeve Guard",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 3,
+          "nogi": 3
         }
       },
       {
         "transition": "Guard Recovery from Double Sleeve Guard",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 9,
+          "nogi": 18
         }
       },
       {
         "transition": "Sickle Sweep",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 11,
+          "nogi": 10
         }
       },
       {
         "transition": "Flower Sweep",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
@@ -689,43 +689,43 @@
       {
         "transition": "Armbar Setup from Double Sleeve",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 5,
+          "nogi": 5
         }
       },
       {
         "transition": "Double Sleeve Sweep",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 7,
+          "nogi": 5
         }
       },
       {
         "transition": "Double Sleeve to De La Riva",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 6,
+          "nogi": 8
         }
       },
       {
         "transition": "Double Sleeve to Lasso",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 6,
+          "nogi": 0
         }
       },
       {
         "transition": "Double Sleeve to Spider",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 5,
+          "nogi": 1
         }
       },
       {
         "transition": "Double Sleeve to Spider Guard",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 4,
+          "nogi": 1
         }
       }
     ]

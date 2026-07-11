@@ -21,37 +21,37 @@ description: "Master Reverse Half Guard Top in BJJ. Complete guide covering cont
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 24% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice from Half",
-      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crossface Pass",
-      "text": "From this position, attempt Crossface Pass. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Crossface Pass. This technique is attempted in 5% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crab Ride to Back",
-      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Step Pass",
-      "text": "From this position, attempt Back Step Pass. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Back Step Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],

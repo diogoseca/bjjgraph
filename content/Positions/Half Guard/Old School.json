@@ -299,57 +299,57 @@
       {
         "transition": "Half Guard Pass",
         "attempt_probability": {
-          "gi": 33,
-          "nogi": 33
+          "gi": 14,
+          "nogi": 13
         }
       },
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 17
+          "gi": 19,
+          "nogi": 18
         }
       },
       {
         "transition": "Crossface Pass",
         "attempt_probability": {
-          "gi": 21,
-          "nogi": 21
+          "gi": 14,
+          "nogi": 12
         }
       },
       {
         "transition": "Lockdown Break and Pass",
         "attempt_probability": {
-          "gi": 17,
-          "nogi": 17
+          "gi": 11,
+          "nogi": 14
         }
       },
       {
         "transition": "Darce from Lockdown Counter",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 5,
+          "nogi": 11
         }
       },
       {
         "transition": "Crossface from Old School",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 12,
+          "nogi": 11
         }
       },
       {
         "transition": "Defend Old School Sweep",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 16,
+          "nogi": 14
         }
       },
       {
         "transition": "Old School Pass",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 9,
+          "nogi": 7
         }
       }
     ]
@@ -616,50 +616,50 @@
       {
         "transition": "Old School Sweep",
         "attempt_probability": {
-          "gi": 48,
-          "nogi": 48
+          "gi": 22,
+          "nogi": 21
         }
       },
       {
         "transition": "Electric Chair Transition",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 8,
+          "nogi": 11
         }
       },
       {
         "transition": "Half Guard to Back Take",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 16,
+          "nogi": 15
         }
       },
       {
         "transition": "Deep Half Entry",
         "attempt_probability": {
-          "gi": 12,
+          "gi": 13,
           "nogi": 12
         }
       },
       {
         "transition": "Dogfight Position",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
+          "gi": 14,
+          "nogi": 15
         }
       },
       {
         "transition": "Old School to Half Guard",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
+          "gi": 12,
+          "nogi": 12
         }
       },
       {
         "transition": "Old School Position Sweep",
         "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
+          "gi": 15,
+          "nogi": 14
         }
       }
     ]

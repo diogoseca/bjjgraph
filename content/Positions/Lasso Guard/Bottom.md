@@ -21,7 +21,7 @@ description: "Master Lasso Guard from bottom position. Learn sweep mechanics, su
     {
       "@type": "HowToStep",
       "name": "Execute Sickle Sweep",
-      "text": "From this position, attempt Sickle Sweep. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Sickle Sweep. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
@@ -33,25 +33,25 @@ description: "Master Lasso Guard from bottom position. Learn sweep mechanics, su
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
-      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute De La Riva Sweep",
-      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata from Lasso",
-      "text": "From this position, attempt Omoplata from Lasso. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata from Lasso. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hook Sweep",
-      "text": "From this position, attempt Hook Sweep. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Hook Sweep. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],

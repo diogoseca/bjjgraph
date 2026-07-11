@@ -21,25 +21,25 @@ description: "Master Russian Leg Lasso Top position. Complete guide for passing 
     {
       "@type": "HowToStep",
       "name": "Execute Lasso Guard Pass",
-      "text": "From this position, attempt Lasso Guard Pass. This technique is attempted in 24% of exchanges from this position.",
+      "text": "From this position, attempt Lasso Guard Pass. This technique is attempted in 8% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Toreando Pass",
-      "text": "From this position, attempt Toreando Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Toreando Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, attempt Long Step Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
@@ -51,7 +51,7 @@ description: "Master Russian Leg Lasso Top position. Complete guide for passing 
     {
       "@type": "HowToStep",
       "name": "Execute Pressure Pass",
-      "text": "From this position, attempt Pressure Pass. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Pressure Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],

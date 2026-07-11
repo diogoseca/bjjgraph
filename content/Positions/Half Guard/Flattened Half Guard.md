@@ -137,29 +137,29 @@ The position's place in the BJJ positional hierarchy reflects its defensive natu
 ### Available Transitions
 
 
-- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (68% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (15% of attempts)
 
-- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (12% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (6% of attempts)
 
-- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (12% of attempts)
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (13% of attempts)
 
-- **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (4% of attempts)
+- **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (7% of attempts)
 
-- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (2% of attempts)
+- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (6% of attempts)
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (1% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (3% of attempts)
 
-- **[[Transitions/Underhook Recovery from Flattened/Attacker|Underhook Recovery from Flattened]]** (0% of attempts)
+- **[[Transitions/Underhook Recovery from Flattened/Attacker|Underhook Recovery from Flattened]]** (16% of attempts)
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (0% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (3% of attempts)
 
-- **[[Transitions/Deep Half Entry from Flattened/Attacker|Deep Half Entry from Flattened]]** (0% of attempts)
+- **[[Transitions/Deep Half Entry from Flattened/Attacker|Deep Half Entry from Flattened]]** (5% of attempts)
 
-- **[[Transitions/Elbow Escape from Flattened Half/Attacker|Elbow Escape from Flattened Half]]** (0% of attempts)
+- **[[Transitions/Elbow Escape from Flattened Half/Attacker|Elbow Escape from Flattened Half]]** (10% of attempts)
 
-- **[[Transitions/Recover Knee Shield from Flattened Half/Attacker|Recover Knee Shield from Flattened Half]]** (0% of attempts)
+- **[[Transitions/Recover Knee Shield from Flattened Half/Attacker|Recover Knee Shield from Flattened Half]]** (12% of attempts)
 
-- **[[Transitions/Reversal from Flattened Half Guard/Attacker|Reversal from Flattened Half Guard]]** (1% of attempts)
+- **[[Transitions/Reversal from Flattened Half Guard/Attacker|Reversal from Flattened Half Guard]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -212,13 +212,13 @@ The position's place in the BJJ positional hierarchy reflects its defensive natu
 ### Available Transitions
 
 
-- **[[Transitions/Knee Slice from Half/Attacker|Knee Slice from Half]]** (38% of attempts)
+- **[[Transitions/Knee Slice from Half/Attacker|Knee Slice from Half]]** (17% of attempts)
 
-- **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** (15% of attempts)
+- **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** (13% of attempts)
 
-- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (11% of attempts)
+- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (8% of attempts)
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (9% of attempts)
+- **[[Transitions/Back Take/Attacker|Back Take]]** (4% of attempts)
 
 - **[[Transitions/Arm Triangle Setup/Attacker|Arm Triangle Setup]]** (9% of attempts)
 
@@ -226,11 +226,11 @@ The position's place in the BJJ positional hierarchy reflects its defensive natu
 
 - **[[Kimura from Flattened Half Guard/Attacker|Kimura from Flattened Half Guard]]** (5% of attempts)
 
-- **[[Transitions/Complete Pass from Flattened Half/Attacker|Complete Pass from Flattened Half]]** (2% of attempts)
+- **[[Transitions/Complete Pass from Flattened Half/Attacker|Complete Pass from Flattened Half]]** (15% of attempts)
 
-- **[[Transitions/Knee Slide from Flattened Half/Attacker|Knee Slide from Flattened Half]]** (1% of attempts)
+- **[[Transitions/Knee Slide from Flattened Half/Attacker|Knee Slide from Flattened Half]]** (11% of attempts)
 
-- **[[Transitions/Cross Face Pass from Flattened Half/Attacker|Cross Face Pass from Flattened Half]]** (1% of attempts)
+- **[[Transitions/Cross Face Pass from Flattened Half/Attacker|Cross Face Pass from Flattened Half]]** (9% of attempts)
 
 
 ### Common Mistakes

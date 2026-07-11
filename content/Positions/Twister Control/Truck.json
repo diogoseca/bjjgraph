@@ -297,92 +297,92 @@
       {
         "transition": "Twister Entry",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 3,
+          "nogi": 14
         }
       },
       {
         "transition": "Roll to Truck",
         "attempt_probability": {
           "gi": 5,
-          "nogi": 5
+          "nogi": 4
         }
       },
       {
         "transition": "Rolling Back Take",
         "attempt_probability": {
-          "gi": 20,
-          "nogi": 20
+          "gi": 5,
+          "nogi": 4
         }
       },
       {
         "transition": "Bow and Arrow Choke from Truck",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 10,
+          "nogi": 0
         }
       },
       {
         "transition": "Crab Ride to Back",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 6,
+          "nogi": 6
         }
       },
       {
         "transition": "Crucifix from Turtle",
-        "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
-        }
-      },
-      {
-        "transition": "Back Take from Top",
-        "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
-        }
-      },
-      {
-        "transition": "Truck Maintenance",
-        "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
-        }
-      },
-      {
-        "transition": "Truck to Back Control",
         "attempt_probability": {
           "gi": 2,
           "nogi": 2
         }
       },
       {
+        "transition": "Back Take from Top",
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 6
+        }
+      },
+      {
+        "transition": "Truck Maintenance",
+        "attempt_probability": {
+          "gi": 23,
+          "nogi": 19
+        }
+      },
+      {
+        "transition": "Truck to Back Control",
+        "attempt_probability": {
+          "gi": 18,
+          "nogi": 14
+        }
+      },
+      {
         "transition": "Truck to Twister Side Control",
-        "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
-        }
-      },
-      {
-        "transition": "Calf Slicer from Truck",
-        "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
-        }
-      },
-      {
-        "transition": "Banana Split from Truck",
         "attempt_probability": {
           "gi": 5,
           "nogi": 5
         }
       },
       {
+        "transition": "Calf Slicer from Truck",
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 14
+        }
+      },
+      {
+        "transition": "Banana Split from Truck",
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 9
+        }
+      },
+      {
         "transition": "Spine Lock from Truck",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 1,
+          "nogi": 3
         }
       }
     ],
@@ -648,71 +648,71 @@
       {
         "transition": "Granby Roll to Guard",
         "attempt_probability": {
-          "gi": 42,
-          "nogi": 42
+          "gi": 6,
+          "nogi": 7
         }
       },
       {
         "transition": "Hip Escape to Guard",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Leg Extraction to Guard",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 16,
+          "nogi": 15
         }
       },
       {
         "transition": "Rolling Back Take Reversal",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 5,
+          "nogi": 5
         }
       },
       {
         "transition": "Back Door Escape",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 9,
+          "nogi": 11
         }
       },
       {
         "transition": "Defensive Roll",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 9,
+          "nogi": 8
         }
       },
       {
         "transition": "Escape from Truck",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 11,
+          "nogi": 10
         }
       },
       {
         "transition": "Hip Escape from Truck",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 11,
+          "nogi": 11
         }
       },
       {
         "transition": "Leg Extraction from Truck",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 3
+          "gi": 15,
+          "nogi": 15
         }
       },
       {
         "transition": "Roll to Guard from Truck",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 8
+          "gi": 9,
+          "nogi": 9
         }
       }
     ],
