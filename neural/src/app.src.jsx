@@ -312,6 +312,14 @@ class Component extends DCLogic {
     let r = 0; for (const n of nodes) { if (!isFinite(n.x) || !isFinite(n.y)) continue; r = Math.max(r, Math.hypot(n.x - cx, n.y - cy)); }
 
     this.nodes = nodes; this.links = links; this.adj = adj; this._idIndex = idIndex;
+    // slug indices for resolving cal.outcomes[].to -> node index: positions match by posId
+    // (role-stripped slug), techniques by the id tail; a submission wins a bare-slug tie.
+    const posSlugIndex = new Map(), techSlugIndex = new Map();
+    for (const n of nodes) {
+      if (n.ty === "positions") { if (n.posId) posSlugIndex.set(String(n.posId).toLowerCase(), n.idx); }
+      else { const slug = (n.id.includes("/") ? n.id.slice(n.id.indexOf("/") + 1) : n.id).toLowerCase(); if (!techSlugIndex.has(slug) || n.ty === "submissions") techSlugIndex.set(slug, n.idx); }
+    }
+    this._posSlugIndex = posSlugIndex; this._techSlugIndex = techSlugIndex;
     this.gcx = cx; this.gcy = cy;
     this.graphW = maxX - minX; this.graphH = maxY - minY; this.graphR = r;
     this.trail = []; this.pulse = null;
@@ -3120,9 +3128,41 @@ class Component extends DCLogic {
     return this._freqMap[this.splitName(n.t).main] || 1;
   }
   orderScore(opt) { return this.get("cardOrder", "potential") === "popularity" ? this.movePopularity(opt) : this.movePotential(opt); }
+  // resolve a cal.outcomes[].to (role-node slug "<pos>/top|bottom" | bare technique slug |
+  // "game-over") to a node index. { idx:-1 } unresolved, { terminal:true } for game-over,
+  // role = the authored landing role (top/bottom) for position targets.
+  resolveOutcomeTo(to) {
+    if (!to || typeof to !== "string") return { idx: -1, terminal: false };
+    const t = to.trim().toLowerCase();
+    if (t === "game-over") return { idx: -1, terminal: true };
+    const m = t.match(/^(.*)\/(top|bottom)$/);
+    if (m) { const i = this._posSlugIndex && this._posSlugIndex.get(m[1]); return { idx: i == null ? -1 : i, terminal: false, role: m[2] }; }
+    let i = this._techSlugIndex && this._techSlugIndex.get(t);
+    if (i != null) return { idx: i, terminal: false };
+    i = this._posSlugIndex && this._posSlugIndex.get(t);
+    return { idx: i == null ? -1 : i, terminal: false };
+  }
+  // draw one cal.outcome weighted by probability (they sum ~100); null when the node has no cal.
+  drawOutcome(act) {
+    const outs = act && act.cal && Array.isArray(act.cal.outcomes) ? act.cal.outcomes : null;
+    if (!outs || !outs.length) return null;
+    let total = 0; for (const o of outs) total += Math.max(0, +o.probability || 0);
+    if (total <= 0) return outs[0];
+    let r = Math.random() * total;
+    for (const o of outs) { r -= Math.max(0, +o.probability || 0); if (r <= 0) return o; }
+    return outs[outs.length - 1];
+  }
   resolve(opt) {
-    const success = Math.random() < this.moveChance(this.nodes[opt.idx]);
-    if (success) this.enterSuccess(opt); else this.enterFail(opt);
+    const act = this.nodes[opt.idx];
+    const success = Math.random() < this.moveChance(act);   // player-facing, drill-improvable gate
+    const out = this.drawOutcome(act);
+    if (!out) { return success ? this.enterSuccess(opt) : this.enterFail(opt); }  // no cal -> legacy path
+    if (success) {
+      const win = out.result === "success" ? out : (act.cal.outcomes.find((o) => o.result === "success") || out);
+      return this.enterSuccessCal(opt, win);
+    }
+    const bad = out.result !== "success" ? out : (act.cal.outcomes.find((o) => o.result !== "success") || out);
+    return this.enterFailCal(opt, bad);
   }
 
   enterSuccess(opt) {
@@ -3148,6 +3188,40 @@ class Component extends DCLogic {
     const act = this.nodes[opt.idx];
     this.setEvent("Failed", act.t + " stuffed", "bad");
     this.after(1.25 / this.cfg().signalSpeed, () => this.opponentDefend());
+  }
+
+  // calibrated success: travel to the outcome's real target position (fallback to legacy resultPos)
+  enterSuccessCal(opt, out) {
+    const act = this.nodes[opt.idx];
+    const r = this.resolveOutcomeTo(out.to);
+    if (act.ty === "submissions" || r.terminal) { this.flare(opt.idx); this.endRound("win", act.t); return; }
+    const dest = r.idx >= 0 ? r.idx : (opt.res >= 0 ? opt.res : this.currentPos);
+    this.setEvent("Transition lands", act.t, "good");
+    this.startTravel([opt.idx, dest], () => {
+      const before = this.myVal(this.nodes[this.currentPos]);
+      if (r.role) this.playerRole = r.role; else this.applyRoleByAction(act.t, act.ty, true);
+      this.flashFx(this.myVal(this.nodes[dest]) - before);
+      this.currentPos = dest; this.moveCount++; this.bumpBounce(); this._lastActor = "you";
+      if (this.moveCount >= this.maxMoves) this.after(0.8, () => this.endRound("reset"));
+      else this.after(0.5, () => this.enterLand(false));
+    });
+  }
+  // calibrated failure/counter: travel to the regress target first (so a counter visibly puts you
+  // in a worse spot), then hand initiative to the opponent; stay-put failures go straight to defense.
+  enterFailCal(opt, out) {
+    const act = this.nodes[opt.idx];
+    const r = this.resolveOutcomeTo(out.to);
+    const dest = r.idx >= 0 ? r.idx : this.currentPos;
+    const counter = out.result === "counter";
+    this.setEvent(counter ? "Countered" : "Failed", act.t + (counter ? " reversed" : " stuffed"), "bad");
+    if (dest === this.currentPos) { this.after(1.25 / this.cfg().signalSpeed, () => this.opponentDefend()); return; }
+    this.startTravel([opt.idx, dest], () => {
+      const before = this.myVal(this.nodes[this.currentPos]);
+      if (r.role) this.playerRole = r.role;
+      this.flashFx(this.myVal(this.nodes[dest]) - before);
+      this.currentPos = dest; this.moveCount++; this.bumpBounce(); this._lastActor = "opp";
+      this.after(0.5, () => this.opponentDefend());
+    });
   }
 
   defendKeyFor(subNode) { return subNode.t + "|Defender"; } // full name, matches the emitted Defender deck key
@@ -3227,14 +3301,14 @@ class Component extends DCLogic {
     trans.sort((a, b) => this.oppVal(this.nodes[this.resultPos(b, this.currentPos)] || this.nodes[b]) - this.oppVal(this.nodes[this.resultPos(a, this.currentPos)] || this.nodes[a]));
     const def = (trans.length ? trans : subs)[(Math.random() * Math.min(3, (trans.length ? trans : subs).length)) | 0];
     const defNode = this.nodes[def];
-    const dest = this.resultPos(def, this.currentPos);
-    // the opponent aims for `dest`, but the move doesn't always land exactly there
-    const intendDest = dest >= 0 ? dest : this.currentPos;
-    let actualDest = intendDest;
-    if (dest >= 0 && Math.random() < 0.35) {
-      const alts = this.adj[def].filter((k) => this.nodes[k].ty === "positions" && k !== intendDest);
-      if (alts.length) actualDest = alts[(Math.random() * alts.length) | 0];
-    }
+    // calibrated destination: draw from the move's own cal.outcomes (encodes the miss distribution),
+    // fall back to the legacy resultPos heuristic when the node is uncalibrated.
+    const draw = this.drawOutcome(defNode);
+    let intendDest;
+    if (draw) { const rr = this.resolveOutcomeTo(draw.to); intendDest = rr.terminal ? this.currentPos : (rr.idx >= 0 ? rr.idx : this.resultPos(def, this.currentPos)); }
+    else { intendDest = this.resultPos(def, this.currentPos); }
+    if (intendDest < 0) intendDest = this.currentPos;
+    const actualDest = intendDest; // the weighted draw already models "doesn't always land clean" — no extra random slip
     this._pendingIntent = { actor: "opp", idx: intendDest };
     const offensive = this.performerRole(defNode.t, defNode.ty) === "top";
     this.setEvent(offensive ? "Opponent counters" : "Opponent defends", defNode.t, "bad");
