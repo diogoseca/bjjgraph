@@ -108,6 +108,7 @@ def build_canonical_map() -> dict[str, str]:
         cat_dir = content_dir / category
         if not cat_dir.exists():
             continue
+        cat = category.lower()
         for md_file in cat_dir.rglob("*.md"):
             rel = md_file.relative_to(content_dir).with_suffix("")
             parts = str(rel).split("/")
@@ -116,11 +117,24 @@ def build_canonical_map() -> dict[str, str]:
                 continue
             # Canonical Quartz URL slug: preserve case, spaces → hyphens per segment.
             canonical_slug = "/".join(p.replace(" ", "-") for p in parts)
-            # Reconstruct the implicit "name" the JSON would carry (joined with spaces),
-            # then slugify it the same way regenerate_graph.py does.
-            implicit_name = " ".join(parts[1:])
-            lookup_key = f"{category.lower()}/{_slugify_name(implicit_name)}"
-            canonical[lookup_key] = canonical_slug
+            # graph.json keys off the file's own JSON `name` field, NOT the folder
+            # path. A family-nested file (Submissions/Loop Choke/from Closed Guard.md)
+            # carries name="Loop Choke from Closed Guard" → key loop-choke-from-...,
+            # so read the sibling .json name rather than trusting the filename tail.
+            json_file = md_file.with_suffix(".json")
+            name = ""
+            if json_file.exists():
+                try:
+                    name = json.load(json_file.open()).get("name", "")
+                except (OSError, json.JSONDecodeError):
+                    name = ""
+            name_slug = _slugify_name(name) if name else _slugify_name(parts[-1])
+            # The layout emits either a bare "cat/name-slug" (transitions/submissions
+            # loops, from the graph.json key) OR a compound "cat/parenthub/child"
+            # (positions loop, from entry.path). Register BOTH so every id resolves.
+            compound = "/".join(_slugify_name(p) for p in parts[1:])
+            canonical[f"{cat}/{name_slug}"] = canonical_slug
+            canonical[f"{cat}/{compound}"] = canonical_slug
     return canonical
 
 
@@ -165,6 +179,9 @@ def main() -> None:
     # transitions/<slug> (or submissions/<slug>) for a target that has no real graph node.
     real_tech_ids = {f"transitions/{k}".lower() for k in (graph_data.get("transitions") or {})} \
         | {f"submissions/{k}".lower() for k in (graph_data.get("submissions") or {})}
+    # Real position node ids — an outcome target that is NOT in here (but IS a real
+    # technique) must be prefixed submissions/ or transitions/, never positions/.
+    real_pos_ids = {f"positions/{k}".lower() for k in (graph_data.get("positions") or {})}
 
     # Positions: each entry has a path like "Mount/Top" — derive hub slug
     for key, entry in (graph_data.get("positions") or {}).items():
@@ -227,7 +244,20 @@ def main() -> None:
                 if to_lower.endswith(suffix):
                     to_lower = to_lower[: -len(suffix)]
                     break
-            tgt_slug = f"positions/{to_lower}"
+            # Classify the outcome target by which real node set its (role-stripped)
+            # base belongs to — do NOT assume positions/. A submission- or transition-
+            # typed target force-prefixed positions/ becomes a phantom node (the bug
+            # that produced 20 phantom positions/<sub> duplicates in the layout).
+            # Positions are matched first: they are authoritative for a position target,
+            # and a submission "from X" name can loosely collide with a position slug.
+            if f"positions/{to_lower}" in real_pos_ids:
+                tgt_slug = f"positions/{to_lower}"
+            elif f"submissions/{to_lower}" in real_tech_ids:
+                tgt_slug = f"submissions/{to_lower}"
+            elif f"transitions/{to_lower}" in real_tech_ids:
+                tgt_slug = f"transitions/{to_lower}"
+            else:
+                continue  # unresolved (family hub / stale ref) — never create a phantom
             if is_hub_node(tgt_slug):
                 add_node(tgt_slug)
                 add_edge(slug, tgt_slug)

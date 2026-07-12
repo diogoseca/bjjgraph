@@ -312,12 +312,27 @@ class Component extends DCLogic {
     let r = 0; for (const n of nodes) { if (!isFinite(n.x) || !isFinite(n.y)) continue; r = Math.max(r, Math.hypot(n.x - cx, n.y - cy)); }
 
     this.nodes = nodes; this.links = links; this.adj = adj; this._idIndex = idIndex;
-    // slug indices for resolving cal.outcomes[].to -> node index: positions match by posId
-    // (role-stripped slug), techniques by the id tail; a submission wins a bare-slug tie.
+    // slug indices for resolving cal.outcomes[].to -> node index. Robust to the layout's
+    // nested ids: cal targets use the bare state-machine slug ("rear-triangle/top",
+    // "arm-triangle-from-side-control") while nested layout ids are compound
+    // ("triangle-control/rear-triangle") or slash-nested ("arm-triangle/from-side-control").
     const posSlugIndex = new Map(), techSlugIndex = new Map();
+    const setTech = (k, i, ty) => { if (k && (!techSlugIndex.has(k) || ty === "submissions")) techSlugIndex.set(k, i); };
     for (const n of nodes) {
       if (n.ty === "positions") { if (n.posId) posSlugIndex.set(String(n.posId).toLowerCase(), n.idx); }
-      else { const slug = (n.id.includes("/") ? n.id.slice(n.id.indexOf("/") + 1) : n.id).toLowerCase(); if (!techSlugIndex.has(slug) || n.ty === "submissions") techSlugIndex.set(slug, n.idx); }
+      else {
+        const tail = (n.id.includes("/") ? n.id.slice(n.id.indexOf("/") + 1) : n.id).toLowerCase();
+        setTech(tail, n.idx, n.ty);
+        if (tail.includes("/")) setTech(tail.replace(/\//g, "-"), n.idx, n.ty); // hyphenated full-name form (graph.json slug)
+      }
+    }
+    // secondary pass: index nested positions by their bare child slug too (full posId already set,
+    // so it wins any collision); recovers targets like "rear-triangle/top" -> the compound node.
+    for (const n of nodes) {
+      if (n.ty === "positions" && n.posId) {
+        const pid = String(n.posId).toLowerCase();
+        if (pid.includes("/")) { const bare = pid.slice(pid.lastIndexOf("/") + 1); if (!posSlugIndex.has(bare)) posSlugIndex.set(bare, n.idx); }
+      }
     }
     this._posSlugIndex = posSlugIndex; this._techSlugIndex = techSlugIndex;
     this.gcx = cx; this.gcy = cy;
