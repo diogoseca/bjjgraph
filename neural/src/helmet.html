@@ -1,0 +1,63 @@
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=Sora:wght@500;600;700&family=Archivo:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  html,body{margin:0;padding:0;height:100%;background:#1a1a2e;overflow:hidden;}
+  *{box-sizing:border-box;}
+  @keyframes ngFadeUp{from{opacity:0;transform:translateY(10px);}to{opacity:1;transform:translateY(0);}}
+  @keyframes ngHintFade{0%{opacity:0;}12%,68%{opacity:.5;}100%{opacity:0;}}
+  @keyframes ngIntroLife{0%{opacity:0;transform:translateY(10px);}20%{opacity:1;transform:translateY(0);}77%{opacity:1;transform:translateY(0);}100%{opacity:0;transform:translateY(0);}}
+  @keyframes ngTabPulse{0%,100%{box-shadow:0 6px 26px rgba(0,0,0,.4),0 0 0 0 rgba(120,160,255,.34);}50%{box-shadow:0 6px 26px rgba(0,0,0,.4),0 0 0 7px rgba(120,160,255,0);}}
+  .ng-optionrow{-ms-overflow-style:none;scrollbar-width:none;mask-image:linear-gradient(90deg,transparent 0,#000 36px,#000 calc(100% - 36px),transparent 100%);-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 36px,#000 calc(100% - 36px),transparent 100%);scroll-padding:0 28px;}
+  .ng-optionrow::-webkit-scrollbar{height:0;display:none;}
+  .ng-optionrow > *{scroll-snap-align:center;}
+  .ng-logo:hover span{color:#fff;}
+  .ng-logo:hover .ng-kbd{opacity:1;color:#9fb0d8;}
+  .ng-logo .ng-kbd span{color:inherit;}
+  @keyframes ngSpin{to{transform:rotate(360deg);}}
+  @keyframes ngCount{from{transform:scaleX(1);}to{transform:scaleX(0);}}
+  @keyframes ngCardIn{from{opacity:0;transform:translateY(8px);}to{opacity:1;transform:translateY(0);}}
+  @keyframes ngNudge{0%,100%{transform:translateX(0);}50%{transform:translateX(5px);}}
+  @keyframes ngDeckExpire{0%{filter:grayscale(0) brightness(1);opacity:1;}55%{filter:grayscale(.35) brightness(.92);opacity:.92;}100%{filter:grayscale(1) brightness(.5);opacity:.34;}}
+  @keyframes ngPulseChip{0%,100%{box-shadow:0 0 0 0 rgba(120,170,255,.5);}50%{box-shadow:0 0 0 6px rgba(120,170,255,0);}}
+  .ng-chip-merged{background:transparent!important;border-color:transparent!important;backdrop-filter:none!important;}
+  .ngAcctChip{background:rgba(26,30,52,.66);backdrop-filter:blur(8px);border:1px solid rgba(150,170,210,.2);border-radius:999px;transition:background .2s ease,border-color .2s ease,backdrop-filter .2s ease;}
+  .ngAcctChip.ng-chip-merged{background:transparent;border-color:transparent;backdrop-filter:none;}
+  .ngSignupCta{cursor:pointer;font-size:11.5px;font-weight:700;color:#fff;background:linear-gradient(135deg,#4a6cff,#6a5cff);border-radius:999px;padding:8px 14px;box-shadow:0 3px 14px rgba(74,108,255,.42);white-space:nowrap;letter-spacing:.01em;transition:filter .15s ease,transform .15s ease,box-shadow .15s ease;}
+  .ngSignupCta:hover{filter:brightness(1.08);transform:translateY(-1px);box-shadow:0 5px 18px rgba(74,108,255,.5);}
+  *{scrollbar-width:thin;scrollbar-color:rgba(120,150,210,.32) transparent;}
+  ::-webkit-scrollbar{width:9px;height:9px;}
+  ::-webkit-scrollbar-track{background:transparent;}
+  ::-webkit-scrollbar-thumb{background:rgba(120,150,210,.28);border-radius:8px;border:2px solid transparent;background-clip:content-box;}
+  ::-webkit-scrollbar-thumb:hover{background:rgba(150,180,255,.5);border:2px solid transparent;background-clip:content-box;}
+  ::-webkit-scrollbar-corner{background:transparent;}
+  /* ---------- responsive ---------- */
+  @media (max-width:1023px){
+    .ng-explorer{width:min(330px,86vw)!important;}
+    .ng-drill{width:min(312px,84vw)!important;}
+  }
+  @media (max-width:640px){
+    .ng-logo{top:22px!important;left:18px!important;gap:0!important;}
+    .ng-acctwrap{top:18px!important;right:18px!important;}
+    .ngAcctChip{padding:0!important;}
+    .ng-logo .ng-word,.ng-logo .ng-kbd{display:none!important;}
+    .ng-intro{top:54px!important;left:16px!important;}
+    .ng-intro>div:first-child{font-size:21px!important;}
+    .ng-intro>div:last-child{font-size:12px!important;max-width:228px!important;margin-top:8px!important;}
+    .ng-explorer,.ng-drill{width:80vw!important;}
+    .ng-drilltab{top:auto!important;bottom:28px!important;right:14px!important;left:auto!important;transform:none!important;width:auto!important;min-height:46px!important;box-sizing:border-box!important;flex-direction:row!important;align-items:center!important;border-radius:23px!important;border-right:1px solid rgba(130,160,255,.32)!important;padding:8px 15px!important;gap:0!important;}
+    .ng-drilltab>span:first-child{display:none!important;}
+    .ng-drilltab .ng-dttitle,.ng-drilltab .ng-dtsub{display:none!important;}
+    .ng-drilltab>div{display:none!important;}
+    .ng-drilltab .ng-dt-short{display:block!important;text-align:center!important;}
+    .ngAcctChip>span:first-child{display:none!important;}
+    .ngSignupCta{display:none!important;}
+    .ng-evtoast{width:86vw!important;}
+    .ng-optionrow{padding:10px 12px 6px!important;gap:9px!important;}
+    .ng-legendkey{display:none!important;}
+    .ng-seemore{display:none!important;}
+    .ng-winbar{width:104px!important;}
+    .ng-legend{left:14px!important;bottom:27px!important;gap:0!important;}
+  }
+</style>
+<script src="technique-content.js"></script>

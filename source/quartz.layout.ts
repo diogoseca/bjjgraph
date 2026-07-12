@@ -57,6 +57,7 @@ export const sharedPageComponents: SharedLayout = {
     Component.RollSessionButton(),
     Component.Search(),
     Component.AffiliateTracking(),
+    Component.NeuralMount(),
   ],
   // Footer with no links - may add social links later
   footer: Component.Footer({

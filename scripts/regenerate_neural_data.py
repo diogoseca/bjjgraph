@@ -181,12 +181,22 @@ def main() -> None:
     graph = json.loads(GRAPH.read_text())
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    # remove the pre-chunking monolith if a prior run left one
-    (OUT_DIR / "flashcards.json").unlink(missing_ok=True)
-
     gd = build_graph_data(layout, graph)
     (OUT_DIR / "graph-data.json").write_text(json.dumps(gd, ensure_ascii=False, separators=(",", ":")))
-    n_decks, n_cards = write_flashcards(build_flashcards(graph), OUT_DIR)
+
+    decks = build_flashcards(graph)
+    n_decks, n_cards = write_flashcards(decks, OUT_DIR)
+    # Monolith flashcards.json — the Neural app fetches this today for its DRILL decks
+    # (this.flashcards.decks). The per-deck chunks above are the production optimization
+    # (pending an app patch to fetch on demand); both are emitted during the transition.
+    (OUT_DIR / "flashcards.json").write_text(
+        json.dumps({"decks": decks}, ensure_ascii=False, separators=(",", ":")))
+    # technique-content.js — window.NG_CONTENT: rich per-node content + fallback. Ship the
+    # design's seed as-is for now (unauthored nodes fall back gracefully); a full bake from
+    # content/ is a follow-up. Copied from neural/src/ if present.
+    seed = ROOT / "neural/src/technique-content.js"
+    if seed.exists():
+        (OUT_DIR / "technique-content.js").write_text(seed.read_text())
 
     n_cal = sum(1 for n in gd["nodes"] if "cal" in n)
     print(f"graph-data.json: {len(gd['nodes'])} nodes ({n_cal} with calibrated payload), "
