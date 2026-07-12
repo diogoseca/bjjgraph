@@ -248,11 +248,22 @@ class Component extends DCLogic {
       } catch (e) { /* retry */ }
       if (!data) await new Promise((res) => setTimeout(res, 400));
     }
-    if (!data) { console.error("graph load failed after retries"); return; }
-    this.ingest(data);
+    if (!data) { console.error("graph load failed after retries"); this._fallbackToLegacy(); return; }
+    // ingest can throw on malformed data; the mount try/catch has already returned by now, so
+    // guard here too — otherwise the opaque full-screen overlay stays up and HIDES the legacy
+    // (SEO) content, defeating the "overlay so legacy always shows" fallback contract.
+    try { this.ingest(data); }
+    catch (e) { console.error("[neural] ingest failed:", e); this._fallbackToLegacy(); return; }
     try { const fr = await fetch("flashcards.json", { cache: "no-cache" }); if (fr.ok) this.flashcards = await fr.json(); } catch (e) { /* optional */ }
     if (this.loaderRef.current) this.loaderRef.current.style.display = "none";
     this.startLoop();
+  }
+
+  // tear the overlay down and hand the page back to the legacy DOM (SEO content stays intact).
+  // mirrors the mount-time shim fallback in build.mjs so any boot failure degrades gracefully.
+  _fallbackToLegacy() {
+    try { const r = this.__ngRoot || document.getElementById("neural-root"); if (r) r.remove(); } catch (e) { /* noop */ }
+    try { document.documentElement.dataset.variant = "legacy"; } catch (e) { /* noop */ }
   }
 
   ingest(data) {
@@ -260,7 +271,7 @@ class Component extends DCLogic {
     const nodes = data.nodes.map((n, i) => {
       idIndex.set(n.id, i);
       const dom = (n.s && typeof n.s[0] === "number") ? n.s[0] : this.dominance(n.ty, n.t);
-      return { idx: i, id: n.id, x: n.x, y: n.y, t: n.t, ty: n.ty, s: n.s || null, dom, col: this.domColor(dom), deg: 0, lit: -99, posId: n.posId || null, fromPositionId: n.fromPositionId || null, fromRole: n.fromRole || null };
+      return { idx: i, id: n.id, x: n.x, y: n.y, t: n.t, ty: n.ty, s: n.s || null, dom, col: this.domColor(dom), deg: 0, lit: -99, posId: n.posId || null, fromPositionId: n.fromPositionId || null, fromRole: n.fromRole || null, cal: n.cal || null };
     });
     const adj = nodes.map(() => []);
     const links = [];
@@ -300,7 +311,7 @@ class Component extends DCLogic {
     if (!isFinite(minX)) { minX = -500; maxX = 500; minY = -500; maxY = 500; }
     let r = 0; for (const n of nodes) { if (!isFinite(n.x) || !isFinite(n.y)) continue; r = Math.max(r, Math.hypot(n.x - cx, n.y - cy)); }
 
-    this.nodes = nodes; this.links = links; this.adj = adj;
+    this.nodes = nodes; this.links = links; this.adj = adj; this._idIndex = idIndex;
     this.gcx = cx; this.gcy = cy;
     this.graphW = maxX - minX; this.graphH = maxY - minY; this.graphR = r;
     this.trail = []; this.pulse = null;
@@ -431,7 +442,9 @@ class Component extends DCLogic {
     const rc = this.richContentFor(n);
     if (rc) return this.richDetailHTML(n, cat, rc, persp || "attacker");
     const C = (window.NG_CONTENT && window.NG_CONTENT.decks) || {};
-    const c = C[this.deckKeyFor(n).key];
+    // positions are keyed "<fam>|<Role>" (deckKeyFor); techniques are keyed bare "<name>" in
+    // NG_CONTENT, so fall back on the full title, not the "<name>|Attacker" deck key.
+    const c = n.ty === "positions" ? C[this.deckKeyFor(n).key] : C[n.t];
     this._curClips = null;
     const sec = (label) => '<div style="font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#7b8aa8;font-weight:700;margin:16px 0 9px;">' + label + '</div>';
     const lead = (t) => '<div style="font-size:13.5px;color:#c2ccde;line-height:1.6;">' + t + '</div>';
@@ -2905,6 +2918,7 @@ class Component extends DCLogic {
     this.aiSkill = this.get("difficulty", "normal") === "off" ? 0 : 0.06 + Math.random() * 0.14; // opponent resistance, gated by difficulty
     // random starting position
     const positions = this._posIdx || (this._posIdx = this.nodes.filter((n) => n.ty === "positions" && this.adj[n.idx].some((k) => this.nodes[k].ty !== "positions")).map((n) => n.idx));
+    if (!positions.length) { console.error("[neural] no playable position nodes"); this._fallbackToLegacy(); return; } // degenerate graph → don't crash in a timer
     // first roll: start on a position that has a seeded deck so the example shows immediately
     if (!this._firstRollDone) {
       this._firstRollDone = true;

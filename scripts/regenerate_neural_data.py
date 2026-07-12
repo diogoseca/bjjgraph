@@ -125,14 +125,17 @@ def build_flashcards(graph: dict) -> dict:
                     cards.append({"q": q, "a": a})
             if not cards:
                 continue
-            # position role-node names carry the role ("Electric Chair Top"); the app looks
+            # POSITION role-node names carry the role ("Electric Chair Top"); the app looks
             # up decks by BASE name|Role ("Electric Chair|Top"), matching NG_CONTENT. Strip the
-            # trailing role word so flashcard keys align with the dossier keys + the app lookup.
+            # trailing role word ONLY for positions — technique names legitimately end in
+            # "Top"/"Bottom" (e.g. "Back Take from Top"), and stripping there would truncate the
+            # key so the app's "<full name>|Attacker" lookup never resolves the drill deck.
             base = name
-            for suf in (" Top", " Bottom", " Attacker", " Defender"):
-                if base.endswith(suf):
-                    base = base[: -len(suf)]
-                    break
+            if section == "positions":
+                for suf in (" Top", " Bottom"):
+                    if base.endswith(suf):
+                        base = base[: -len(suf)]
+                        break
             key = f"{base}|{role.capitalize()}"
             decks[key] = {"cat": SECTION_CAT[section], "role": role.capitalize(), "cards": cards}
     return decks
