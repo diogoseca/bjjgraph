@@ -1,5 +1,9 @@
 {
   "name": "Mat Return from Rear Clinch",
+  "bot_metadata": {
+    "last_improved": "2026-07-12",
+    "last_improved_by": "analytics-bot"
+  },
   "description": "Master the mat return from rear clinch in BJJ. Convert standing rear clinch to ground back control with 55% success using systematic takedown mechanics.",
   "summary": "The mat return from rear clinch is a wrestling-based takedown that converts standing rear clinch control into dominant ground back control by sitting the opponent to the mat while maintaining chest-to-back connection and threading hooks during the descent.",
   "tags": [
@@ -111,6 +115,14 @@
     {
       "name": "Turtle",
       "relationship": "Intermediate position that may occur if hooks are not immediately secured after landing"
+    },
+    {
+      "name": "Bow and Arrow Choke",
+      "relationship": "High-percentage back-control finish available once the mat return delivers you to the back"
+    },
+    {
+      "name": "Crucifix",
+      "relationship": "Alternative back-attack control the seatbelt grip can flow into after landing"
     }
   ],
   "attacker": {

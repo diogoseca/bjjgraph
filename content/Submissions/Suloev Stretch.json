@@ -1,5 +1,9 @@
 {
   "name": "Suloev Stretch",
+  "bot_metadata": {
+    "last_improved": "2026-07-12",
+    "last_improved_by": "analytics-bot"
+  },
   "summary": "The Suloev Stretch is a knee-compression submission from top half guard and leg-control positions in which the attacker folds the opponent's lower leg and drives the heel toward their buttock, crushing the calf into the hamstring while loading the knee joint.",
   "description": "Master the Suloev Stretch in BJJ. Devastating knee compression submission from top half guard and leg control positions. Complete attacker and defender guide.",
   "tags": [
@@ -154,6 +158,14 @@
     {
       "name": "Lockdown",
       "relationship": "Related control — the figure-four leg configuration mirrors the lockdown's posture-breaking structure"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Alternative entry — the leg-ride from turtle top sets up the figure-four fold described in the turtle-attack variation"
+    },
+    {
+      "name": "Deep Half Guard",
+      "relationship": "Entry context — leg exposure during deep half exchanges opens the figure-four trap for the compression"
     }
   ],
   "attacker": {
