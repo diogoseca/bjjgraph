@@ -125,7 +125,15 @@ def build_flashcards(graph: dict) -> dict:
                     cards.append({"q": q, "a": a})
             if not cards:
                 continue
-            key = f"{name}|{role.capitalize()}"
+            # position role-node names carry the role ("Electric Chair Top"); the app looks
+            # up decks by BASE name|Role ("Electric Chair|Top"), matching NG_CONTENT. Strip the
+            # trailing role word so flashcard keys align with the dossier keys + the app lookup.
+            base = name
+            for suf in (" Top", " Bottom", " Attacker", " Defender"):
+                if base.endswith(suf):
+                    base = base[: -len(suf)]
+                    break
+            key = f"{base}|{role.capitalize()}"
             decks[key] = {"cat": SECTION_CAT[section], "role": role.capitalize(), "cards": cards}
     return decks
 
@@ -191,12 +199,12 @@ def main() -> None:
     # (pending an app patch to fetch on demand); both are emitted during the transition.
     (OUT_DIR / "flashcards.json").write_text(
         json.dumps({"decks": decks}, ensure_ascii=False, separators=(",", ":")))
-    # technique-content.js — window.NG_CONTENT: rich per-node content + fallback. Ship the
-    # design's seed as-is for now (unauthored nodes fall back gracefully); a full bake from
-    # content/ is a follow-up. Copied from neural/src/ if present.
-    seed = ROOT / "neural/src/technique-content.js"
-    if seed.exists():
-        (OUT_DIR / "technique-content.js").write_text(seed.read_text())
+    # technique-content.js — window.NG_CONTENT: the full per-node DOSSIER map generated from
+    # content/ + calibrated graph.json (replaces the 3-entry design seed so node detail shows
+    # real content everywhere; unmapped fields still fall back gracefully in the app).
+    from _neural_content import write_ng_content
+    n_ng = write_ng_content(graph, OUT_DIR / "technique-content.js")
+    print(f"technique-content.js: window.NG_CONTENT with {n_ng} node dossiers")
 
     n_cal = sum(1 for n in gd["nodes"] if "cal" in n)
     print(f"graph-data.json: {len(gd['nodes'])} nodes ({n_cal} with calibrated payload), "

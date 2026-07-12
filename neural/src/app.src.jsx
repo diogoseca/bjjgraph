@@ -413,7 +413,7 @@ class Component extends DCLogic {
   deckCat(node) { return node.ty === "positions" ? "Position" : (node.ty === "submissions" ? "Submission" : "Transition"); }
   richContentFor(n) {
     const C = (window.NG_CONTENT && window.NG_CONTENT.decks) || {};
-    const rc = C[this.splitName(n.t).main];
+    const rc = C[n.t];
     return (rc && rc.perspectives) ? rc : null;
   }
   splitTo(t) {
@@ -626,7 +626,11 @@ class Component extends DCLogic {
   }
   deckKeyFor(node) {
     const cat = this.deckCat(node), role = this.deckRole(node);
-    const fam = node.ty === "positions" ? this.posFamily(node.t) : this.splitName(node.t).main;
+    // techniques: key by the FULL node title (e.g. "Kimura from Mount"), NOT the display
+    // shorthand splitName().main ("Kimura") — the shorthand collapses ~110 distinct origins
+    // onto one key and drops the per-origin calibrated content. positions keep posFamily
+    // (strips the Top/Bottom role suffix) so the base|Role key matches the emitted decks.
+    const fam = node.ty === "positions" ? this.posFamily(node.t) : node.t;
     return { fam: fam, role: role, cat: cat, key: fam + "|" + role };
   }
   stateBonus(key) { return key ? Math.min(0.3, 0.06 * ((this.prep && this.prep[key]) || 0)) : 0; }
@@ -3120,7 +3124,7 @@ class Component extends DCLogic {
     this.after(1.25 / this.cfg().signalSpeed, () => this.opponentDefend());
   }
 
-  defendKeyFor(subNode) { return this.splitName(subNode.t).main + "|Defender"; }
+  defendKeyFor(subNode) { return subNode.t + "|Defender"; } // full name, matches the emitted Defender deck key
   enterDefense(subIdx) {
     const sub = this.nodes[subIdx];
     // escape routes: positions reachable from the submission node (back to safety)
