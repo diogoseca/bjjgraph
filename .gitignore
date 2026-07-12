@@ -61,3 +61,8 @@ __pycache__/
 .claude
 .playwright-mcp/
 scripts/list-claude-sessions.sh
+
+# Neural Graph front-end (neural-graph branch): generated data (built at deploy, like graph.json)
+# + local build/analysis working dir. The generator script (scripts/regenerate_neural_data.py) IS tracked.
+source/quartz/static/neural/
+neural/
