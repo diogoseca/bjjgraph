@@ -2221,7 +2221,7 @@ class Component extends DCLogic {
     const mistakes = ((legacy && legacy.mistakes) || (persp && persp.mistakes) || []).slice(0, 3);
     const secHead = (txt, c2) => '<div style="font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:' + (c2 || "#96a3bf") + ';margin-bottom:7px;">' + txt + '</div>';
     const bullet = (txt, dot) => '<div style="display:flex;gap:8px;align-items:flex-start;font-size:12px;line-height:1.45;color:#c4cde0;margin-bottom:6px;"><span style="flex:none;width:5px;height:5px;border-radius:50%;background:' + dot + ';margin-top:6px;"></span><span>' + txt + '</span></div>';
-    const pct = (k) => { try { const p = Math.round(this.moveChance(this.nodes[k]) * 100); return isFinite(p) && p > 0 && p < 100 ? " \u00b7 " + p + "%" : ""; } catch (e) { return ""; } };
+    const pct = (k) => { try { const nd = this.nodes[k]; const cs = this.calSuccess(nd); const p = cs != null ? Math.round(cs * 100) : Math.round(this.moveChance(nd) * 100); return isFinite(p) && p > 0 && p < 100 ? " \u00b7 " + p + "%" : ""; } catch (e) { return ""; } };
 
     // ── node mode: the node IS the dossier — content lives inside the node's own shape ──
     if (nodeMode) {
@@ -3033,12 +3033,23 @@ class Component extends DCLogic {
     });
   }
 
-  // success = your modifiers (skill + drilling) vs the opponent's modifier (resistance)
+  // calibrated per-technique success as 0..1, frame-aware (gi/no-gi), from graph.json via
+  // node.cal; null when the node carries no calibrated rate. This is the page==graph==game seam:
+  // the same number the dossier/page shows, selected for the active ruleset.
+  calSuccess(act) {
+    const c = act && act.cal;
+    if (!c) return null;
+    const br = c.successRateByRuleset;
+    let v = (br && this._giMode && br[this._giMode] != null) ? br[this._giMode] : c.successRate;
+    return (typeof v === "number") ? Math.max(0, Math.min(1, v / 100)) : null;
+  }
+  // success = the calibrated base (page==graph==game) shifted by your modifiers (skill + drilling)
+  // vs the opponent's resistance. Falls back to the old dominance heuristic only for uncalibrated nodes.
   moveChance(act) {
     const ov = this.successOverride(act);
     if (ov != null) return ov;
-    let base = act.ty === "submissions" ? 0.36 : 0.56;
-    base += act.dom * 0.1;
+    const cal = this.calSuccess(act);
+    const base = (cal != null) ? cal : ((act.ty === "submissions" ? 0.36 : 0.56) + act.dom * 0.1);
     const playerMod = this.stateBonus(this._posKey) + this.stateBonus(this.deckKeyFor(act).key);
     const aiMod = Math.max(0, this.oppVal(this.nodes[this.currentPos])) * 0.4 + (this.aiSkill || 0);
     return Math.max(0.05, Math.min(0.95, base + playerMod - aiMod));
@@ -3056,7 +3067,8 @@ class Component extends DCLogic {
     let m = this.userMods.find((x) => x.name === node.t);
     if (!m) {
       const cat = node.ty === "submissions" ? "Submission" : node.ty === "transitions" ? "Transition" : "Position";
-      m = { name: node.t, cat: cat, pct: Math.round(this.moveChance(node) * 100), on: true };
+      const cs = this.calSuccess(node); // seed the stepper from the calibrated rate, not the pre-modifier heuristic
+      m = { name: node.t, cat: cat, pct: Math.round((cs != null ? cs : this.moveChance(node)) * 100), on: true };
       this.userMods.push(m);
     }
     m.on = true;
