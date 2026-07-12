@@ -48,51 +48,84 @@ function resolveVariant(): Variant {
   return "legacy"
 }
 
-let booted = false
+let scriptLoaded = false
 
-function bootNeural(): void {
-  if (booted) return
-  booted = true
-  // configurable data base so the app's fetches resolve regardless of the page URL
+// Inject the bundle <script> exactly once per full page load. The bundle installs
+// window.__mountNeural + window.__neural (see neural/build/build.mjs). It stays resident on
+// window across SPA navs even after micromorph removes its <script> tag.
+function loadNeuralBundle(): Promise<void> {
+  if (scriptLoaded) return Promise.resolve()
+  scriptLoaded = true
   ;(window as any).__NEURAL_DATA_BASE = DATA_BASE
+
   const loadScript = (src: string) =>
     new Promise<void>((res) => {
       const el = document.createElement("script")
       el.src = src
       el.defer = true
       el.onload = () => res()
-      el.onerror = () => res() // non-fatal (e.g. NG_CONTENT seed absent → app falls back)
+      el.onerror = () => res() // non-fatal
       document.body.appendChild(el)
     })
 
-  const run = async () => {
-    // stylesheet (optional — bundle may inline its own styles)
+  return (async () => {
     const css = document.createElement("link")
     css.rel = "stylesheet"
     css.href = APP_BASE + "neural.css"
     css.onerror = () => css.remove()
+    css.setAttribute("spa-preserve", "") // survive head-patching across navs
     document.head.appendChild(css)
-    // technique-content.js sets window.NG_CONTENT (rich per-node content); load it BEFORE
-    // the app so the content is present at mount. Missing → app falls back gracefully.
+    // technique-content.js sets window.NG_CONTENT; load it BEFORE the app.
     await loadScript(DATA_BASE + "technique-content.js")
-    // the app bundle mounts its own full-screen overlay
-    const js = document.createElement("script")
-    js.src = APP_BASE + "neural.js"
-    js.defer = true
-    js.onerror = () => {
-      console.warn("[variant] neural bundle unavailable at", js.src, "— staying on legacy")
-      document.documentElement.dataset.variant = "legacy"
+    await new Promise<void>((res) => {
+      const el = document.createElement("script")
+      el.src = APP_BASE + "neural.js"
+      el.defer = true
+      el.onload = () => res()
+      el.onerror = () => {
+        console.warn("[variant] neural bundle unavailable at", el.src, "— staying on legacy")
+        document.documentElement.dataset.variant = "legacy"
+        res()
+      }
+      document.body.appendChild(el)
+    })
+  })()
+}
+
+// Mount (or re-mount) the overlay for the current page and register its teardown with the SPA
+// router, so it is destroyed BEFORE the next body morph (releasing the keyboard + stopping the
+// rAF loop). addCleanup drains + clears each nav, so we re-register after every mount.
+async function mountAndRegisterCleanup(): Promise<void> {
+  await loadNeuralBundle()
+  const mount = (window as any).__mountNeural
+  if (typeof mount !== "function") return // bundle failed to load; legacy stays
+  mount() // idempotent: no-op if a live root already exists
+  ;(window as any).addCleanup?.(() => {
+    try {
+      ;(window as any).__neural?.destroy?.()
+    } catch (e) {
+      console.warn("[variant] neural teardown failed:", e)
     }
-    document.body.appendChild(js)
-  }
-  if (document.body) run()
-  else document.addEventListener("DOMContentLoaded", run, { once: true })
+  })
 }
 
 function applyVariant(): void {
   const v = resolveVariant()
   document.documentElement.dataset.variant = v
-  if (v === "neural") bootNeural()
+  if (v === "neural") {
+    void mountAndRegisterCleanup()
+  } else {
+    // switched to (or navigated under) legacy: tear down any live overlay.
+    try {
+      ;(window as any).__neural?.destroy?.()
+    } catch {
+      /* ignore */
+    }
+  }
 }
 
+// First execution (full page load) + every SPA soft-nav (this inline script does not re-execute
+// on soft nav, so react to the router's "nav" event — teardown for the outgoing page has already
+// run via addCleanup, and micromorph removed #neural-root, so __mountNeural builds a fresh one).
 applyVariant()
+document.addEventListener("nav", () => applyVariant())

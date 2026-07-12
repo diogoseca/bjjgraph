@@ -80,9 +80,12 @@ function mountNeural() {
   try {
     const inst = new Component(__PROPS)
     const vals = { ...__PROPS, ...(inst.renderVals ? inst.renderVals() : {}) }
-    // render the skeleton: ref="{{ x }}" -> data-ng-ref, other {{ x }} -> value
+    // render the skeleton: ref="{{ x }}" -> data-ng-ref; on<Event>="{{ x }}" -> data-ng-on
+    // (bound as a real listener below — else the handler fn stringifies into a dead, CSP-blocked
+    // inline attribute); any other {{ x }} -> value.
     const html = __TPL
       .replace(/ref="\\{\\{\\s*([\\w$.]+)\\s*\\}\\}"/g, (_, n) => 'data-ng-ref="' + n + '"')
+      .replace(/on(\\w+)="\\{\\{\\s*([\\w$.]+)\\s*\\}\\}"/g, (_, ev, n) => 'data-ng-on="' + ev.toLowerCase() + ':' + n + '"')
       .replace(/\\{\\{\\s*([\\w$.]+)\\s*\\}\\}/g, (_, k) => __resolve(vals, k))
     root.innerHTML = html
     // bind refs to their DOM elements (the app reads e.g. this.canvasRef.current in boot())
@@ -92,7 +95,25 @@ function mountNeural() {
       if (ref && typeof ref === "object") ref.current = el
       el.removeAttribute("data-ng-ref")
     })
+    // bind template on<Event> handlers imperatively from renderVals() (logo/Close/Terms/Privacy/etc.)
+    root.querySelectorAll("[data-ng-on]").forEach((el) => {
+      const spec = el.getAttribute("data-ng-on"); const ci = spec.indexOf(":")
+      const ev = spec.slice(0, ci), name = spec.slice(ci + 1)
+      const fn = vals[name]
+      if (typeof fn === "function") el.addEventListener(ev, fn)
+      el.removeAttribute("data-ng-on")
+    })
     inst.__ngRoot = root
+    // idempotent teardown for SPA nav: run the app's own componentWillUnmount (cancels rAF,
+    // disconnects ResizeObserver, removes window keydown/resize listeners, clears timers), then
+    // detach the overlay root so no zombie instance keeps the keyboard hijacked after navigation.
+    inst.destroy = function () {
+      if (inst.__ngDestroyed) return
+      inst.__ngDestroyed = true
+      try { if (inst.componentWillUnmount) inst.componentWillUnmount() } catch (e) { console.warn("[neural] teardown error:", e) }
+      try { if (inst.__ngRoot && inst.__ngRoot.remove) inst.__ngRoot.remove() } catch (e) {}
+      if ((window).__neural === inst) (window).__neural = null
+    }
     if (inst.componentDidMount) inst.componentDidMount()
     ;(window).__neural = inst
   } catch (e) {
@@ -101,8 +122,16 @@ function mountNeural() {
     document.documentElement.dataset.variant = "legacy"
   }
 }
-if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", mountNeural, { once: true })
-else mountNeural()
+// idempotent (re-)mount hook for the SPA router: no-op if a live overlay root is still connected.
+function __mountNeuralOnce() {
+  const existing = (window).__neural
+  if (existing && existing.__ngRoot && document.body.contains(existing.__ngRoot)) return existing
+  mountNeural()
+  return (window).__neural
+}
+;(window).__mountNeural = __mountNeuralOnce
+if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", __mountNeuralOnce, { once: true })
+else __mountNeuralOnce()
 `
 mkdirSync(R("build/.tmp"), { recursive: true })
 writeFileSync(R("build/.tmp/entry.tsx"), entry)

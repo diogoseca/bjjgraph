@@ -53,12 +53,33 @@ def build_graph_data(layout: dict, graph: dict) -> dict:
         for nid, node in graph.get(section, {}).items():
             by_slug[(section, nid)] = node
 
+    def _frame_positive(t, frame):
+        """True if this transition entry is attempted in `frame` (attemptProbability > 0)."""
+        apr = t.get("attemptProbabilityByRuleset")
+        v = apr.get(frame) if isinstance(apr, dict) else t.get("attemptProbability")
+        return isinstance(v, (int, float)) and v > 0
+
+    # per-technique ruleset availability: available in frame F if ANY position offers it with
+    # attemptProbability[F] > 0 (Q3's per-frame-0 policy zeroes ruleset-unavailable moves). Drives
+    # the app's giAllows filter from data instead of a brittle name regex.
+    tech_avail = {}
+    for node in graph.get("positions", {}).values():
+        for t in node.get("transitions", []) or []:
+            nm = t.get("technique")
+            if not nm:
+                continue
+            av = tech_avail.setdefault(slugify(nm), {"gi": False, "nogi": False})
+            for fr in ("gi", "nogi"):
+                if _frame_positive(t, fr):
+                    av[fr] = True
+
     def enrich(node_id: str, ty: str) -> dict:
         """Pull calibrated fields for a layout node from graph.json (best-effort join)."""
         slug = _slug_from_id(node_id)
         if ty == "positions":
             # a hub layout node collapses top+bottom; carry both role distributions
             out = {}
+            avail = {"gi": False, "nogi": False}
             for role in ("top", "bottom"):
                 n = graph["positions"].get(f"{slug}/{role}")
                 if n and n.get("transitions"):
@@ -71,7 +92,13 @@ def build_graph_data(layout: dict, graph: dict) -> dict:
                         }
                         for t in n["transitions"]
                     ]
-            return {"moves": out} if out else {}
+                    for t in n["transitions"]:
+                        for fr in ("gi", "nogi"):
+                            if _frame_positive(t, fr):
+                                avail[fr] = True
+            if not out:
+                return {}
+            return {"moves": out, "avail": avail}
         else:  # technique: attacker role-node carries the authored outcomes/success
             n = graph[ty].get(f"{slug}/attacker") or graph[ty].get(slug)
             if not n:
@@ -80,6 +107,9 @@ def build_graph_data(layout: dict, graph: dict) -> dict:
             for k in ("successRate", "successRateByRuleset", "outcomes", "endingPosition"):
                 if n.get(k) is not None:
                     e[k] = n[k]
+            av = tech_avail.get(slug)
+            if av:
+                e["avail"] = av
             return e
 
     nodes = []

@@ -1983,6 +1983,12 @@ class Component extends DCLogic {
     });
   }
   giAllows(n) {
+    // data-driven: a node's cal.avail.{gi,nogi} is derived from Q3's per-frame attempt
+    // probabilities (available in F iff attempted in F). Falls back to the old name heuristic
+    // only for nodes without calibrated availability (keeps behaviour for uncalibrated data).
+    const av = n.cal && n.cal.avail;
+    const frame = this._giMode || "gi";
+    if (av && typeof av[frame] === "boolean") return av[frame];
     if (this._giMode !== "nogi") return true;
     return !/collar|sleeve|lapel|spider|lasso|worm|loop |bow and arrow|ezekiel|cross choke|judo|gi tail|pant/i.test(n.t || "");
   }
