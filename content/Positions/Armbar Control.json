@@ -672,5 +672,35 @@
         "answer": "Avoid staying flat on your back with your spine parallel to the mat. This position gives the opponent a stable platform and maximum leverage for the finish. Instead, bridge onto one shoulder and turn toward the trapped arm side. This angled position disrupts their base, creates defensive space, and facilitates escape movements like the hitchhiker or stack defense."
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What defines the Armbar Control configuration regardless of which player holds it?",
+      "answer": "Armbar Control is a limb-isolation position in which one player's single arm is trapped and extended across the other player's hips while both of that player's legs clamp the torso and head. The defining feature is that the elbow joint is stacked over a hip fulcrum, aligning the hyperextension plane with the direction of hip elevation. Both grips concentrate on the isolated wrist and forearm, pulling it toward the controlling player's chest centerline. The configuration only exists while the arm remains isolated from its owner's torso; reconnecting the arm to the body dissolves the position."
+    },
+    {
+      "question": "What are the five interconnected control points that make Armbar Control function as a unit?",
+      "answer": "The system consists of two hands gripping the isolated wrist and forearm, the hips positioned as a fulcrum against the shoulder, one leg across the chest or throat, one leg controlling the head, and pinched knees eliminating space. These points work as a single machine rather than independent grips: the legs prevent the trapped player from posturing up, the hips supply the extension fulcrum, and the hands direct the finishing vector. Compromising any one element degrades the whole, which is why the position is simultaneously powerful and defeatable. This shared mechanical map is what both players read from opposite perspectives."
+    },
+    {
+      "question": "Why is the hip-to-shoulder relationship the single most important geometric feature of this position?",
+      "answer": "The controlling player's hips serve as the fulcrum over which the elbow is levered, so the closer the hip bone sits to the trapped shoulder, the shorter the moment arm the opponent can exploit to defend. Any gap between hip and shoulder gives the trapped player room to bend the arm, rotate, or spin out. When the connection is tight, hip elevation translates almost directly into hyperextension force on the elbow. Both players contest this exact distance: one fights to close it, the other fights to open it."
+    },
+    {
+      "question": "How does arm rotation, specifically thumb orientation, change the mechanics of the isolated elbow?",
+      "answer": "When the trapped thumb points toward the ceiling, the elbow's natural hinge is aligned with the plane of hip elevation, placing the ligaments in their most vulnerable structural position. Rotating the thumb downward turns the arm so pressure distributes across the stronger forearm bones and lets the shoulder rotate to follow the force, dispersing it. This is why thumb orientation is a shared pivot of the position: the same rotation that maximizes finishing efficiency for one player is precisely what the other rotates against to build a defensive structure. The elbow's vulnerability is therefore a function of rotation, not just extension."
+    },
+    {
+      "question": "What role do the legs play in sustaining Armbar Control beyond simply pinning the opponent?",
+      "answer": "The two legs form the containment half of the position: one across the chest or throat and one over the head, together preventing the trapped player from sitting up, turning in, or recovering posture. Without this leg frame the trapped player can follow their arm and reconnect it to their torso, collapsing the isolation. The knees pinching together closes the residual space and keeps the head and shoulder trapped as a single block. Leg control and arm control are thus co-dependent, and losing the legs typically means losing the arm shortly after."
+    },
+    {
+      "question": "Why does the perpendicular angle between the two players matter so much in this position?",
+      "answer": "Maximum elbow leverage occurs when the controlling player's spine is roughly perpendicular to the trapped player's body, because that orientation places the hip fulcrum squarely under the elbow. As the angle drifts toward parallel, the fulcrum slides off the joint, leverage collapses, and the isolated arm can slip free or the shoulder can rotate out of danger. The perpendicular relationship is therefore a shared battleground: the controlling player fights to preserve ninety degrees while the trapped player works to rotate the alignment toward parallel. Small angular changes produce large swings in mechanical advantage for both."
+    },
+    {
+      "question": "How does Armbar Control differ mechanically from adjacent positions like Triangle Control or the Kimura Trap?",
+      "answer": "All three isolate a limb, but Armbar Control attacks the elbow through straight-line hyperextension over a hip fulcrum, whereas Triangle Control uses the legs to strangle the neck while trapping one arm inside the noose. The Kimura Trap isolates the same arm but attacks the shoulder through internal rotation rather than extending the elbow. Because these positions share the arm-isolation entry, a defense that bends the trapped arm often converts an armbar threat into an omoplata or kimura, and a stack often flows into a triangle. The distinction that defines Armbar Control specifically is the extended arm plus hip-fulcrum extension vector, not merely the isolated limb."
+    }
+  ]
 }

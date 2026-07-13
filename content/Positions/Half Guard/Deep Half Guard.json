@@ -649,5 +649,39 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines deep half guard and distinguishes it from traditional half guard?",
+      "answer": "Deep half guard is defined by the bottom player burrowing their entire upper body beneath the top player's hips, wedging shoulder and head under the near hip while wrapping a deep underhook around the far leg. Unlike traditional half guard, where the trapped leg is pinned between the bottom player's legs and the two athletes fight for distance and framing, deep half sends the bottom player underneath the opponent's center of gravity rather than maintaining separation. This inverts the usual top-bottom dynamic, converting the top player's downward weight into a lever the bottom player can exploit. The far-leg underhook plus the head-and-shoulder wedge is the signature that identifies the position for both players."
+    },
+    {
+      "question": "Why does deep half guard function as a leverage system that neutralizes size and strength differences?",
+      "answer": "Because the bottom player positions their body directly under the top player's center of gravity, the top player's own weight loads onto a fulcrum the bottom player controls rather than pressing them flat. Elevating the hips even slightly transfers that loaded weight through the shoulder-and-head wedge and the far-leg underhook, tipping the top player's base without requiring the bottom player to overpower them. This is why deep half became a competitive staple for smaller grapplers: the mechanical advantage comes from placement beneath the base, not from muscular contest. Both players must understand that whoever controls the fulcrum controls the exchange, regardless of the size gap."
+    },
+    {
+      "question": "Where are the primary control points and contact points that hold deep half guard together?",
+      "answer": "The defining control point is the deep underhook wrapped around the top player's far leg, pulling that thigh toward the bottom player's chest. The second is the head-and-shoulder wedge driven against the inside of the top player's near thigh or hip, which acts as the fulcrum for sweeps. The bottom player's free hand and legs typically monitor or trap the top player's near leg to block step-over passes. For the top player these same contact points are the targets: strip the underhook or drive the head out from under the hip and the position collapses back toward ordinary half guard."
+    },
+    {
+      "question": "How is weight distributed in deep half guard, and why is the top player's balance so precarious?",
+      "answer": "The top player's weight sits above a bottom player who is inverted directly beneath their center of gravity, so the base is inherently narrow and easy to disrupt. Committing weight too far forward loads the waiter sweep, while sitting back loads the old-school sweep, meaning almost any committed weight bias feeds a specific sweep from the family that includes the waiter, old-school, and Homer Simpson variations. The stable answer for the top player is a wide, tripod-like base with the free leg posted far to the side and pressure carried through the upper body rather than the hips. This razor-thin balance window, where correct weight is a narrow band between two sweep traps, is a defining dynamic of the position for both players."
+    },
+    {
+      "question": "What role does the head-and-shoulder wedge under the hip play in the mechanics of deep half guard?",
+      "answer": "The wedge is the fulcrum of the entire lever system: by driving head and shoulder under the top player's near hip, the bottom player creates a pivot point around which the top player's loaded weight can be rotated during a sweep. As long as that wedge stays deep, the sweep mechanics remain high-percentage because the bottom player can tip weight in multiple directions from a single anchored point. The top player's central defensive task is disrupting this wedge, usually with a crossface that flattens the bottom player's upper body and drives the head away from the hip. Neutralize the wedge and the fulcrum disappears, which is why both players fight hardest over the head position."
+    },
+    {
+      "question": "Why does time favor the bottom player once deep half guard is established?",
+      "answer": "Deep half is energy-efficient for the bottom player because their sweeps run on leverage and placement rather than muscular exertion, so they can maintain the underhook and wedge with relatively little cost while probing for openings. The top player, by contrast, must actively manage a compromised base, constantly correct weight distribution, and fight to extract a trapped leg, all of which drain energy over time. Every second the position persists gives the bottom player more chances to feel the top player's weight shifts and time a sweep. This is why the top player is expected to work methodically toward extraction rather than settling in, since patience rewards the person underneath."
+    },
+    {
+      "question": "How does deep half guard relate to adjacent leg-entanglement positions like X-guard and single-leg X-guard?",
+      "answer": "Deep half sits within the same family of underneath, leverage-based guards and frequently flows into X-guard or single-leg X-guard, particularly when the top player pulls their far leg back to defend the underhook. As the far leg retreats, the bottom player can chase it with the feet, hooking it to enter an X-guard configuration and continue attacking the base from below. This makes deep half a hub rather than a dead end: losing the deep underhook does not necessarily mean losing the leverage advantage, only that the entanglement migrates to the legs. Both players should recognize that defending or escaping deep half often just shifts the exchange into a neighboring bottom-attacking guard."
+    },
+    {
+      "question": "What makes deep half guard a deceptive position where the top player appears to be winning?",
+      "answer": "Positionally the top player is on top with no points conceded, which reads as an advantage, but deep half is fundamentally an offensive platform for the player underneath. The bottom player has quietly assembled a lever system, deep underhook plus head-and-shoulder wedge under a loaded base, that turns the top player's apparent dominance into vulnerability to powerful sweeps and back takes. The danger is that the top player relaxes into the false sense of control and stays static, which is exactly the condition the bottom player needs. Recognizing that the on-top athlete is actually the one under mechanical threat is the key insight both players must hold about the position."
+    }
+  ]
 }

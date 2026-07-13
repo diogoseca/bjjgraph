@@ -673,5 +673,39 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines the New York position and distinguishes it from ordinary closed guard?",
+      "answer": "New York is defined by two simultaneous control points held by the bottom player: a deep overhook wrapping one of the top player's arms, and the bottom player's own shin pulled high across the top player's upper back, secured by a same-side grip on that shin near the ankle. Unlike closed guard, where the legs simply encircle the waist and posture can be re-established by sitting up, the shin-across-the-back component actively pins the top player's head and shoulders forward so upright posture is mechanically blocked. The overhook removes one posting arm rather than merely framing against it. Together these create a closed kinetic chain between the bottom player's leg, hand, and the top player's upper body that neither player can ignore, which is why New York functions as an attacking hub rather than a neutral holding position."
+    },
+    {
+      "question": "Why is the closed kinetic chain formed by the shin-grip so central to how New York behaves for both players?",
+      "answer": "The bottom player's hand gripping their own shin links their leg, torso, and grip into a single closed loop wrapped across the top player's upper back. Because both ends of the force are anchored to the same body, the loop resists opening far better than an open frame that relies on pushing against the opponent. For the top player this means brute-force posture recovery fails, since pulling backward tensions the loop rather than breaking it, and the correct answer is to attack the grip or the shin's angle rather than fight the head directly. For the bottom player it means the position is self-reinforcing only while that hand-to-shin connection is live, so the loop is simultaneously the source of control and the single point of failure both players fight over."
+    },
+    {
+      "question": "What weight and posture dynamic between the two players determines whether New York holds or collapses?",
+      "answer": "New York holds when the top player's posture stays broken forward and their weight loads onto the trapped-arm side, because the overhook has removed that side's posting base. The bottom player keeps their hips angled toward the overhook side rather than flat, which channels the top player's weight onto the compromised corner and denies a stable platform. If the top player can drive their weight forward and down to flatten the bottom player's hips, the shin-to-shoulder connection is compressed out and the loop opens. The tension is therefore a race between the bottom player maintaining hip elevation and angle versus the top player forcing the hips flat, and whoever wins that exchange controls whether the configuration survives."
+    },
+    {
+      "question": "Why is hip and lower-back flexibility a defining constraint of the New York configuration for both roles?",
+      "answer": "The position only exists while the bottom player's shin can reach across and stay pinned to the top player's upper back, which demands deep hip flexion and rotation held under load. A practitioner without that range cannot seat the shin high enough, so the control degrades into ordinary closed guard regardless of grip strength. Because the whole structure depends on that shin-to-shoulder connection, flexibility failure is a shared clock: as the bottom player's hips fatigue the loop loosens on its own, which is precisely the window the top player is timing their escape against. This is why New York is treated as a time-limited transitional position rather than a place either player can rest."
+    },
+    {
+      "question": "How does the overhook function as a control mechanism rather than just an arm wrap in New York?",
+      "answer": "The overhook is seated deep around the top player's tricep with the bottom player's shoulder pressed tight into the top player's armpit, not merely hooked at the elbow. Seated this deep it eliminates one of the top player's two posting arms, so half their base for pressure and balance is gone, and it prevents that arm from re-entering to defend the neck or hips. The depth matters because a shallow overhook that only traps the forearm can be extracted by drawing the elbow back to the hip, which restores the base and unravels the position. The overhook and the shin control also reinforce each other: the shin holds posture broken so the trapped arm cannot straighten to escape, while the overhook keeps that arm from posting to relieve the shin pressure."
+    },
+    {
+      "question": "What makes New York a transitional hub rather than a stable holding position for either player?",
+      "answer": "Every reaction the top player offers opens a different pathway, so the configuration is inherently unstable and reads as a decision point rather than a resting place. If the top player stays low and works to extract the arm, deeper controls like Invisible Collar or Zombie open; if they drive forward to flatten, threading pathways toward Chill Dog or the gogoplata appear; if they widen base and circle away, rotational attacks like Carni and the omoplata become available. Because the flexibility and grip demands also give the position a short shelf life, standing still favors whichever player is not fatiguing, which is normally the top player recovering base. Both players therefore treat New York as a place to move through, with the bottom player cycling attacks and the top player racing to escape before commitment."
+    },
+    {
+      "question": "How does New York differ from Mission Control, and why is that difference significant to both players?",
+      "answer": "Mission Control is the entry-level rubber guard hold where the bottom player keeps one leg high on the top player's shoulder and pins the trapped arm, prioritizing stability and posture control over immediate attack. New York advances from it by committing the shin across the back and securing the same-side self-grip on that shin, trading some of that stability for a far more aggressive posture break and direct access to the submission web. The significance is that Mission Control is a relatively safe parking spot the bottom player can hold and reset from, whereas New York is a live attacking configuration with a ticking flexibility clock. For the top player this means the threat level and the correct urgency of the escape both rise sharply the moment Mission Control converts into New York."
+    },
+    {
+      "question": "Why does breaking the top player's posture before establishing New York matter to the resulting configuration?",
+      "answer": "New York requires the top player already hunched forward so the shin can be seated high on the upper back and the overhook swum in deep; against an upright, based-out opponent neither control point can be established without fighting their full structure. Attempting entry on good posture wastes energy and typically fails, because the top player can simply drive in and flatten the bottom player before the loop closes. This is why the position is entered from an already-compromised posture, usually broken down first from closed guard, and it explains a shared truth of the configuration: New York is a consequence of a prior posture break, not the tool that creates one. The top player's counter-strategy mirrors this, since restoring even partial posture begins to strip the shin's angle and reopen their base."
+    }
+  ]
 }

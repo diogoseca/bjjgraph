@@ -761,5 +761,35 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What specifically defines the harness and distinguishes it from other back-control configurations?",
+      "answer": "The harness is defined by its grip structure rather than by hook placement: one arm passes over the shoulder toward the neck while the other threads under the opposite armpit, and the hands clasp together at the chest or sternum. This over-under connection at the centerline is the fixed feature, which is why the position is also called the seat belt. Because it depends on the arm frame and not on gi material or a specific leg configuration, the same control translates seamlessly across gi, no-gi, MMA, and standing. Hooks, body triangle, or a fully flat back-mount are variations layered on top of this grip, not part of its definition."
+    },
+    {
+      "question": "Why is the seat belt grip considered more valuable than both hooks combined in this position?",
+      "answer": "The seat belt is the primary upper-body connection that keeps chest and back joined and controls the defender's posture and centerline, whereas hooks only manage the lower body and hip movement. A player with the grip but no hooks still owns the back and the choke threat, but a player with both hooks and no grip has lost the mechanism that traps the shoulders and neck. This is why the control hierarchy places grip first: when forced to choose, both players understand that one hook is sacrificed before the seat belt is released. The grip is the anchor around which every attack and every escape is organized."
+    },
+    {
+      "question": "How does chest-to-back connection and weight distribution sustain the harness for both players?",
+      "answer": "The controlling player keeps their chest pressed flat against the defender's back so that body weight travels through the skeleton and core rather than the arms, making the position low-energy to hold and exhausting to fight. This forward pressure pins the shoulders and denies the space the defender needs to turn or sit up. For the bottom player, the same connection is what must be broken, so they curl the spine and work to create even a sliver of separation between the two chests. The position lives or dies on this connection: as long as the chests stay glued, the grip and the choke threat remain intact, and any daylight between them begins to unravel the control."
+    },
+    {
+      "question": "What role does the over-arm versus the under-arm play in the harness structure?",
+      "answer": "The over-arm crosses the near shoulder toward the throat and is the choking-side arm, so it carries the direct submission threat and is prioritized by both players. The under-arm threads beneath the opposite armpit and functions mainly as the anchor that locks the two arms into a closed loop and keeps the shoulders square. Together they form an asymmetric structure where offense and control are split between the two hands rather than shared equally. This asymmetry is why hand-fighting concentrates on the over-arm: for the top it is the finish, and for the bottom it is the first thing that must be neutralized with two-on-one control."
+    },
+    {
+      "question": "Why does the under-hook side determine the escape and control geometry of the harness?",
+      "answer": "The under-hook side, where the arm threads beneath the armpit, is the structurally weaker axis of the grip because the defender's shoulder can rotate down into it, whereas turning toward the over-arm feeds the neck into the choke. Consequently the bottom player's escape path is to turn toward the under-hook side to disrupt alignment and pry the chests apart, while the top player must feel that rotation and follow it to stay chest-to-back. This shared axis makes the position a rotational contest around one shoulder rather than a symmetric standoff. Both players read the same geometry from opposite intentions: one turning into the weak side to escape, the other chasing it to keep the back."
+    },
+    {
+      "question": "What makes the harness a submission platform rather than merely a controlling position?",
+      "answer": "The over-arm's proximity to the throat means the position always carries a live rear naked choke threat, so the defender cannot simply wait it out as they might in a lower-pressure pin. Defending the neck with both hands tends to expose the arms to armbars, while defending the arms reopens the neck, creating a dilemma where solving one problem creates another. This constant either-or pressure is what converts control into offense and forces the bottom player to spend energy on submission defense before they can even begin escaping. The position therefore functions simultaneously as a pin and as a strangle setup, which is why it anchors virtually every modern back-attack system."
+    },
+    {
+      "question": "How does the harness relate to adjacent positions like turtle, crucifix, and body triangle?",
+      "answer": "Turtle is the most common entry and the most common escape destination, since a player working to the back and a player fleeing it both pass through it. The crucifix and gift wrap are offensive branches that open when the defender turns their shoulder in or commits both hands to defending the choke, letting the top player trap an arm. The body triangle is a lower-body upgrade that replaces hooks with a locked leg configuration while the same seat belt grip governs the upper body. All of these share the harness grip as their common thread, so the position sits at the center of a web of transitions rather than being a dead end for either player."
+    }
+  ]
 }

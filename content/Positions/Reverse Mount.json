@@ -607,5 +607,39 @@
         "answer": "Use movement efficiency rather than explosive strength for continuous defense. Small, constant hip movements and shoulder adjustments require less energy than explosive bursts. Save explosive movements for actual escape attempts when timing windows open. Maintain calm composure to avoid panic-based energy waste. Focus on technical movement patterns rather than muscular effort."
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What spatial configuration defines reverse mount and distinguishes it from standard mount?",
+      "answer": "In reverse mount the top player sits astride the bottom player's torso but faces toward their feet, so the top player's back is turned to the opponent's head. This inverts every relationship of standard mount: there is no head or shoulder control, no line of sight to the opponent's face, and the top player's weight sits over the sternum or upper abdomen while their hips point toward the opponent's legs. Because the orientation is reversed rather than the elevation, it still scores as mount under IBJJF (4 points) despite the fundamentally different control dynamics."
+    },
+    {
+      "question": "Why does reverse mount function as a transitional position rather than a stable destination for either player?",
+      "answer": "The backward orientation removes the head-and-arm control that anchors standard mount, so the top player has no upper-body attachment to arrest the opponent's movement and must rely purely on hip weight and base. This makes the configuration inherently unstable and time-sensitive, favoring whichever player acts first. For the top player it is a launch point to standard mount or back control, and for the bottom player it is a brief window to escape before hooks are inserted, which is why holding it statically only raises escape probability for the bottom."
+    },
+    {
+      "question": "Where must the mounted player's weight be concentrated for reverse mount to control at all, given the reversed facing?",
+      "answer": "Because there is no chest-to-chest or head connection to distribute load in this orientation, the hips become the sole heavy control point, and weight must sink through the buttocks and lower back directly onto the sternum or upper abdomen rather than being carried in the legs or posted arms. That single downward pressure point is what pins the ribcage and denies the bottom player the space to bridge or turn. Any weight that stays in the base instead of the hips leaves the position hollow and easy to reverse, which is why reverse mount lives or dies on hip weight alone."
+    },
+    {
+      "question": "How does the base structure in reverse mount govern stability for both players in the exchange?",
+      "answer": "The top player's knees sit wide outside the opponent's ribcage with the feet near or past the shoulders, creating a broad quadrilateral base that resists tipping despite facing the wrong way. A narrow base makes the top player easy to unbalance backward with minimal hip movement, which is precisely the leverage the bottom player hunts for. Whether the position holds or collapses is therefore decided at the base: wide knees plus at least one posted hand keep it, and any collapse of that footprint hands the reversal to the bottom."
+    },
+    {
+      "question": "What does the loss of visual and head control mean for both players occupying reverse mount?",
+      "answer": "Neither player can see the other's upper body clearly: the top player's back blocks the bottom player's view, and the top player cannot read the opponent's face or hands for reaction cues. This forces both to operate on proprioception and tactile feel rather than sight, sensing weight shifts, bridges, and hip turns through contact instead of vision. The player who reads pressure changes fastest by feel dictates the exchange, since the usual visual feedback loop of face-to-face grappling is absent for both."
+    },
+    {
+      "question": "Why does a hip-escape turn from the bottom simultaneously open the top player's back take in reverse mount?",
+      "answer": "The top player is already oriented toward the opponent's lower body and hips, so when the bottom player turns to a side to hip-escape, that same rotation exposes their back to the player who is best positioned to attack it. The movement the bottom player instinctively uses to create space is therefore the exact one that opens the line for hook insertion and seat-belt control, converting reverse mount into back control. This shared dynamic is why the position rewards recognition on both sides: the bottom's escape and the top's advancement are the same rotation, so timing and priority alone decide who wins it."
+    },
+    {
+      "question": "How does reverse mount relate to and convert into its adjacent dominant positions?",
+      "answer": "A 180-degree rotation over either shoulder while keeping hips heavy returns the top player to standard mount, trading the reversed orientation for full head-and-arm control. Inserting hooks as the opponent turns advances to back control, and the position also borders side control and north-south when scrambles create off-angles, or the truck when it flows into a twister attack. It is best understood as a hub sitting one movement away from several superior positions rather than a position with its own long-term game."
+    },
+    {
+      "question": "Why is the reverse mount configuration so energetically costly to hold compared to standard mount?",
+      "answer": "Without head control or a chest connection, maintaining the position demands continuous active balancing against every bridge and hip movement, so the top player burns energy correcting base while the bottom player burns energy attempting to turn and frame. The reversed facing means small perturbations require large corrections, and neither player gets the passive structural rest that head-and-arm control affords in standard mount. This shared energy drain is precisely why the configuration is treated as a brief transitional window: prolonging it exhausts the top player faster than it does the escaping bottom player."
+    }
+  ]
 }

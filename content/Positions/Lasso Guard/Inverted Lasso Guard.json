@@ -686,5 +686,39 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural elements define the inverted lasso guard configuration and distinguish it from standard lasso guard?",
+      "answer": "The defining structure is a lasso hook—one leg threaded through the opponent's arm with the shin pressing the tricep and the foot hooked across the back—combined with the bottom player rotating backward onto their shoulders and upper back so their hips elevate above their head. Standard lasso keeps the bottom player seated or supine with the hook generating horizontal pulling force, whereas the inversion re-orients the hook into a vertical fulcrum. The same-side sleeve grip on the lassoed arm completes the connection in both variations. The presence of the inverted shoulder-stand posture layered onto an intact lasso lock is what makes the configuration specifically inverted lasso rather than its upright parent."
+    },
+    {
+      "question": "Why does the lasso hook function as a fulcrum in the inverted position rather than a simple pulling anchor?",
+      "answer": "When the bottom player inverts, their leg-through-arm connection becomes a fixed pivot point around which the whole body can rotate, so the lasso stops being a limb that merely pulls and becomes the axis of a lever. Body mass and angular momentum load onto the opponent's trapped arm from above rather than horizontal leg strength working against their base. This vector change means force is redirected into rotation and off-balancing rather than a straight tug the opponent can post against. The fulcrum effect is why sweeps generated from the inversion compound leverage and remain effective even against a heavier opponent."
+    },
+    {
+      "question": "Why must the inverted player's weight rest on the shoulders and upper back rather than the neck?",
+      "answer": "Loading the neck concentrates force on the cervical spine, which is both an injury risk and mechanically counterproductive because it locks the hips in place. The shoulders and upper back form a broad, stable tripod that supports the inverted posture while leaving the hips free to rotate, which is the movement every sweep and back-take depends on. Rolling weight onto the shoulder blades with the chin tucked distributes load across a wide surface and preserves the spatial freedom the position needs. This weight-bearing arrangement is a shared constraint of the configuration regardless of who is attacking or defending it."
+    },
+    {
+      "question": "How does maintaining or losing lasso hook tension determine whether the position persists at all?",
+      "answer": "The lasso lock is the single connection holding the inverted geometry together, so continuous tension is what keeps the configuration intact for both players. If the bottom player keeps the shin loaded against the tricep and the sleeve grip taut, the opponent cannot retract the arm and the fulcrum stays live. The instant slack appears—whether from a poorly executed roll or a successful extraction—the arm frees, the lever collapses, and the position ceases to be inverted lasso guard, typically resolving toward a pass. Because the whole structure hinges on this one connection, tension management defines the position's existence rather than any single attack or escape."
+    },
+    {
+      "question": "What makes the free (non-lasso) leg a central control element of the inverted lasso configuration?",
+      "answer": "The free leg is the position's steering mechanism because it governs distance and angle between the two players. Posted on the opponent's hip it controls their base and prevents them from circling to pass; threaded behind their back it becomes the initiator of rotation toward the back. Its placement dictates whether the geometry favors an overhead dump, a back-take rotation, or a stalemate, which is why control of this leg is contested by both sides. Whoever influences the free leg's position shapes what the inverted lasso can produce, making it a shared strategic pivot rather than a role-specific tool."
+    },
+    {
+      "question": "Why is inverted lasso guard treated as a transitional state rather than a stable holding position?",
+      "answer": "The inverted posture demands the bottom player continuously support body weight on the shoulders while holding hips elevated and lasso tension live, which drains energy far faster than a seated guard. The longer the inversion persists, the more time the top player has to establish counter-grips, apply pressure, or square their base against the rotation. The configuration's value is the momentary angle it opens for a sweep, back-take, or submission entry, not sustained control, so it is meant to resolve within a few seconds. Both players understand the position as a brief window that must convert into a technique or collapse back toward more stable configurations."
+    },
+    {
+      "question": "How does the inverted lasso obscure the attacking intention and create simultaneous dilemmas for the top player?",
+      "answer": "The same inverted setup can launch a berimbolo back-take, an overhead sweep, or a kiss-of-the-dragon depending on the top player's reaction, so the configuration itself does not telegraph which attack is coming. This forces the defender into guesses where committing to stop one line often opens another—stepping back invites the berimbolo, while driving forward feeds the overhead sweep. The rotational threat and the arm-trapping lasso operate at the same time, so defending the sweep can expose the back and defending the back can concede the sweep. This branching ambiguity is a structural property of the position that pressures both players' decision-making."
+    },
+    {
+      "question": "How does inverted lasso guard connect to adjacent guard systems within a broader positional flow?",
+      "answer": "It sits inside a family of open guards that share hip orientation and grip logic, so it flows naturally to and from spider guard, standard lasso guard, de la riva, and reverse de la riva rather than existing in isolation. Sweeps generated from it frequently terminate in x-guard or single-leg-x, and the rotational lines feed toward back control. Modern players reach it mid-sequence when an opponent starts passing an upright open guard and cycle back out of it just as readily, using the inversion as one node in a continuous chain. This connectivity is why the position is understood as part of an integrated system, alternately an entry, an exit, and a transient attacking angle."
+    }
+  ]
 }

@@ -603,5 +603,39 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines the Aoki Lock Control position?",
+      "answer": "It is a leg-entangled shoulder lock in which one player's legs trap the opponent's isolated arm, with the thigh draped over the shoulder and the shin controlling the upper arm. The trapped arm is extended and isolated between the legs with the elbow pointed away from the torso, which prevents the joint from re-centering. Unlike arm-clasping shoulder locks, the control mechanism here is entirely the lower body wrapping the shoulder girdle rather than the arms clasping. This leg-based trap frees the hands for hip and base management while the legs carry the isolating pressure."
+    },
+    {
+      "question": "Which control points make the Aoki Lock configuration function as a shoulder lock rather than a simple pin?",
+      "answer": "Three interdependent points define it: the leg entanglement isolating the shoulder complex, hip pressure directed down and forward into the shoulder joint to create rotational stress on the capsule, and hand control on the hips or far-side limbs preventing rotation. The posted free leg supplies the base so this pressure can be delivered without the top player tipping over. Remove any one point and the configuration decays from an active shoulder lock into a loose entanglement the trapped player can rotate out of. The submission threat lives specifically in the extended, externally rotated arm angle held under leg trap."
+    },
+    {
+      "question": "How does hip positioning determine the pressure vector in Aoki Lock Control?",
+      "answer": "The controlling player's hips act as the pressure engine, driving downward and forward onto the shoulder joint rather than squeezing with the arms. This vector loads the shoulder capsule into external rotation, which is what threatens the joint and pins the isolated arm. Because the mechanism is hip-driven, both players' fight centers on the hip line: the controller keeps hips heavy and connected while the trapped player tries to angle their hips away to change the vector. Shifting hip contact even slightly off the shoulder line changes whether the shoulder is genuinely loaded or merely held."
+    },
+    {
+      "question": "Why is base maintenance through the posted free leg critical to holding this position?",
+      "answer": "The posted free leg is the stable platform that lets hip pressure translate into shoulder torque instead of the controller rolling off. Without a strong post, any bridge or roll from the trapped player carries the whole entanglement over, because the shoulder lock has no independent base of its own. The post must stay close to the opponent's body; posting too far reduces the downward hip pressure and opens space for the shoulder to rotate free. This is why it is a stable-base shoulder lock rather than a purely gripping control."
+    },
+    {
+      "question": "What role does the extended, externally rotated arm angle play in this position for both players?",
+      "answer": "The isolated arm being extended with the elbow pointed away from the torso is the joint alignment that makes the shoulder vulnerable, so it is the central contested variable for both sides. The controlling player uses leg positioning to preserve that extension and outward elbow angle, since it keeps the capsule loaded. The trapped player's entire defensive premise is to bend the elbow back toward the body and internally rotate, which re-centers the joint and defuses the lock. Whoever wins the battle over elbow bend and rotation decides whether the position is a live submission or a neutralized entanglement."
+    },
+    {
+      "question": "How does the leg entanglement in Aoki Lock Control change the position's dynamics compared to an omoplata or kimura trap?",
+      "answer": "Aoki Lock shares omoplata-style rotational shoulder pressure but delivers it through a leg trap of the arm and shoulder rather than an omoplata's legs triangled over the shoulder from guard, or a kimura's figure-four arm grip. The leg entanglement simultaneously traps the arm and limits the opponent's lower-body mobility, which those grip-based shoulder locks do not do as completely. This dual trap closes standard extraction and framing routes, making it a distinctly no-gi, entanglement-driven control. The trade is that the mechanism depends on leg tightness, so a loosened entanglement degrades it faster than a committed grip would."
+    },
+    {
+      "question": "What position dynamics make the Aoki Lock a transitional hub rather than a static hold?",
+      "answer": "Because the leg entanglement already controls the arm, shoulder, and hip line, the same configuration sits adjacent to back control, the truck, and the crucifix, so movement by either player tends to flow toward one of those states. Rotational attempts by the trapped player frequently expose the back or far arm, converting the shoulder lock into a positional advance rather than a pure finish. This instability cuts both ways: the controller must finish or transition quickly, and the trapped player treats every adjustment as a scramble window. The position resolves into a finish, an advancement, or an escape rather than being held indefinitely."
+    },
+    {
+      "question": "How can either player tell whether the shoulder lock is genuinely loaded versus merely held in Aoki Lock Control?",
+      "answer": "A genuinely loaded lock shows the trapped arm extended with the elbow pointing away from the body, the shoulder in external rotation, and the controller's hips connected and driving into the joint. If the elbow has bent back toward the torso, the arm has internally rotated, or hip contact has drifted off the shoulder line, the configuration is only a positional hold with no active submission threat. Both players read these same cues in opposite directions: the trapped player seeks the bent-elbow, internally rotated state as safety, while the controller reads it as the signal to re-extend the arm or transition. This distinction separates the finishing phase from the mere control phase of the position."
+    }
+  ]
 }

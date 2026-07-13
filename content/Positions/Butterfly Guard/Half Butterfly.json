@@ -686,5 +686,39 @@
         "answer": "Immediately recover full butterfly guard by inserting your free leg as a second hook before they can establish passing grips. If they're too fast, transition to seated guard and use your frames to manage distance while working to re-establish hooks. Never allow them to consolidate a passing position - even a scrappy guard recovery is better than accepting side control. Stay active and use hip movement to create space for hook insertion."
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What leg configuration structurally defines the Half Butterfly position?",
+      "answer": "Half Butterfly is an asymmetric hybrid in which the bottom player's two legs perform different jobs at once. One leg traps and controls a single leg of the opponent between the knees in a half-guard clamp, while the other leg inserts a butterfly hook with the instep under the opponent's free-side inner thigh. This fuses half guard's leg-retention and passing-resistance on the trapped side with butterfly guard's lifting and elevation mechanics on the hooking side. The defining feature is that the trapped leg anchors the connection while the hook supplies the dynamic off-balancing vector."
+    },
+    {
+      "question": "Why does the asymmetry of Half Butterfly create leverage that neither pure half guard nor pure butterfly guard offers?",
+      "answer": "Because the two legs pull on the opponent's base from different directions, the position generates a diagonal off-balancing force rather than a single straight-line push. The trapped leg pins one of the opponent's posts to the mat so it cannot be used to base out, while the butterfly hook simultaneously removes the base on the free side by elevating that thigh. This dual-vector loading is far harder to counter than butterfly's symmetric two-hook lift or half guard's single-leg entanglement, because the opponent loses base on one side and cannot recover it with the other. The whole configuration exists to force the top player to defend a sweep and a pass at the same moment."
+    },
+    {
+      "question": "What role does the trapped leg play relative to the butterfly hook in this position?",
+      "answer": "The trapped leg functions as the anchor and the hook functions as the engine. By clamping one of the opponent's legs, the bottom player fixes a reference point that prevents the opponent from squaring up, extracting the leg, or freely stepping to rebase. Against that fixed anchor the butterfly hook can then elevate and rotate the opponent's weight without them simply stepping out of the lift. Removing either component collapses the position: lose the trap and it becomes single-hook butterfly, lose the hook and it becomes ordinary half guard."
+    },
+    {
+      "question": "Which upper-body connection is the shared pivotal control point that decides most Half Butterfly exchanges?",
+      "answer": "The underhook on the butterfly-hook side is the pivotal upper-body control that both players fight over. For the bottom player it links the elevating hook to the opponent's torso, converting a leg lift into a rotational sweep and preventing being flattened; for the top player, denying that underhook and replacing it with a crossface or their own underhook is what neutralizes the hook's lifting power. Whoever wins this connection controls whether the exchange becomes a sweep or a pass. This is why both role tiers prioritize the same battle for the near-side arm and shoulder."
+    },
+    {
+      "question": "How does weight distribution and body angle govern who is winning in Half Butterfly?",
+      "answer": "The position is a contest over the vertical location of the opponent's weight relative to the hook's fulcrum. If the top player keeps their chest heavy and hips driven low and forward, their weight sits below and ahead of the hook, starving it of the leverage it needs to elevate. If instead the top player's hips rise above shoulder level or their weight drifts back, that weight climbs above the hook's fulcrum and becomes easy to tip. Correspondingly the bottom player must stay on their side with hips angled toward the opponent, never flat, to keep the hook loaded and mobile."
+    },
+    {
+      "question": "What distinguishes Half Butterfly from a flattened or knee-shield half guard configuration?",
+      "answer": "The difference is the active butterfly hook and the on-side hip posture that comes with it. In flattened half guard the bottom player is largely on their back absorbing pressure, and in knee-shield half guard a shin frames across the opponent to hold distance defensively. Half Butterfly instead keeps the bottom player up on their side with a hook loaded under the thigh, making it inherently offensive and elevation-oriented rather than distance-managing or purely retentive. The moment the hook is removed and the player is flattened, the position degrades out of Half Butterfly and into a more passive half guard."
+    },
+    {
+      "question": "Into which adjacent positions does Half Butterfly most naturally flow, and what triggers each transition?",
+      "answer": "Half Butterfly is a hub that flows to deep half guard, X-guard, and full butterfly guard depending on how the top player's pressure and posture change. Heavy forward pressure that threatens to flatten the bottom player invites a dive underneath into deep half guard, while a rising or standing posture opens the space to extend the hook leg through into X-guard. If the bottom player can create enough space to insert the second hook, the position reverts to full butterfly guard. These are shared exits available from the configuration itself, and reading which one the pressure dictates is the core positional skill."
+    },
+    {
+      "question": "Why is constant motion and threat rather than static holding intrinsic to the nature of Half Butterfly?",
+      "answer": "Because the position's leverage depends on the opponent's weight staying above and unsettled over the hook, allowing the exchange to go static favors the top player, who can then consolidate pressure and methodically extract the trapped leg. Continuous hip movement, angle changes, and hook-elevation threats keep the opponent reacting and prevent them from settling their base or establishing a crossface. This is why Half Butterfly is characterized as a dynamic, scramble-oriented position rather than a resting one. The configuration is only as strong as the movement animating it, which is equally true for the top player's need to keep advancing the pass."
+    }
+  ]
 }

@@ -666,5 +666,39 @@
         "answer": "Maintain distance where your grips remain effective but the opponent cannot establish smash passing pressure. Your hips should be angled slightly toward the lasso side to optimize rotational sweep mechanics. Constant hip adjustment is essential as the opponent moves - too close allows pressure passing, too far loses grip effectiveness. The ideal distance keeps tension on the lasso while preserving hip mobility for attacks."
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines the Russian Leg Lasso and distinguishes it from standard lasso guard?",
+      "answer": "The defining feature is a deep lasso where the bottom player threads their shin across the opponent's tricep with the foot positioned high near or past the shoulder, then reinforces it with a same-side sleeve grip and an opposite-side collar grip. Standard lasso guard typically uses a shallower wrap and a single sleeve control, whereas the Russian variation layers collar plus sleeve onto the deep lasso to create multiple simultaneous control points. This added grip web trades some energy and mobility for greater rotational leverage and posture control. The result is a more binding, less easily extracted configuration built specifically to defeat sophisticated passing."
+    },
+    {
+      "question": "Why is the lasso described as a pulley or fulcrum, and how does that mechanic govern the exchange for both players?",
+      "answer": "The threaded leg wraps the opponent's arm and converts the guard player's hip and grip tension into rotational torque, acting like a fulcrum that redirects force around a fixed point rather than pushing linearly. For the bottom player this generates sweep power with relatively little strength; for the top player, any forward weight commitment feeds directly into that rotation and amplifies the off-balancing. This shared mechanic is why the position rewards the bottom player for creating angle and punishes the top player for leaning in. Both competitors are fundamentally fighting over the geometry of that pulley rather than raw strength."
+    },
+    {
+      "question": "Which control points must remain intact for the Russian Leg Lasso to function as a coherent system?",
+      "answer": "The system depends on three interlocking controls: the deep lasso leg binding the arm, the sleeve grip on that same lasso-side arm preventing extraction, and the collar grip controlling the opponent's posture and base. The non-lasso leg acts as a fourth, secondary control managing distance and preventing the opponent from circling away. Removing any one of these degrades the whole structure because they reinforce one another mechanically. This interdependence is why passing is a systematic dismantling and retention is a constant re-securing of the same points."
+    },
+    {
+      "question": "How does distance management determine whether the Russian Leg Lasso remains viable during an exchange?",
+      "answer": "The position has a functional distance window: if the opponent closes to chest-to-chest range, their weight pins the guard player flat and negates the lasso's rotational mechanics entirely. If distance grows too far, the grips lose tension and the lasso can be extracted. Both players therefore fight over the same middle range, where grips stay taut and the pulley still generates torque. This makes distance the single dynamic variable that dictates who holds the mechanical advantage at any moment."
+    },
+    {
+      "question": "What role does the non-lasso leg play in the overall dynamics of the Russian Leg Lasso?",
+      "answer": "The non-lasso leg provides a secondary control layer, typically posted as a De La Riva hook, butterfly hook, shin-to-shin contact, or an extended foot on the hip. It prevents the opponent from circling away from the lasso side or establishing an alternative passing angle, effectively closing off the escape route the deep lasso alone cannot cover. Because it manages distance and framing, it is also the primary tool for keeping the opponent inside the viable range. A static or unengaged non-lasso leg collapses the position's defensive geometry regardless of how tight the lasso is."
+    },
+    {
+      "question": "Why does grip fighting so directly determine positional outcomes in the Russian Leg Lasso?",
+      "answer": "Because the collar and sleeve grips are the levers that translate the lasso's rotational potential into actual posture control and sweep force, whoever wins these grips controls the exchange. The sleeve grip locks the trapped arm and prevents extraction while amplifying torque, and the collar grip breaks the opponent's upright posture and base. Control of these grips correlates almost one-to-one with position retention on the bottom and passing success on the top. This is why the position is fundamentally a grip-fighting contest layered over the mechanical lasso."
+    },
+    {
+      "question": "How does the Russian Leg Lasso relate to and differ from adjacent open guards like Spider Guard, Collar Sleeve, and De La Riva?",
+      "answer": "It shares Spider Guard's extension-and-grip principles and overlaps heavily with Collar Sleeve's grip configuration, and it frequently integrates with De La Riva through the non-lasso leg, making it a hub within the modern open-guard system. The key difference is the deep leg-lasso binding of the arm, which Spider and Collar Sleeve lack, giving the Russian variation a mechanical arm trap rather than pure grip tension. Because the grips overlap, players flow between these guards as the opponent defends, treating Russian Leg Lasso as one configuration in a connected chain. Understanding these adjacencies matters because the position rarely exists in isolation."
+    },
+    {
+      "question": "What makes the Russian Leg Lasso an energy-intensive position for both players to sustain?",
+      "answer": "Maintaining the position requires the bottom player to actively coordinate multiple grips, constant hip elevation to keep the lasso high, and continuous distance adjustment, none of which can be held passively without fatigue. The top player simultaneously expends energy fighting grips, controlling the non-lasso leg, and resisting rotational torque while keeping posture upright. Because the structure decays the moment either player relaxes, both are locked into continuous work. This shared energy cost is why the position tends to resolve quickly into a sweep, submission, or pass rather than a prolonged stalemate."
+    }
+  ]
 }

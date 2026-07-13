@@ -732,5 +732,39 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines the Gift Wrap and distinguishes it from standard back control?",
+      "answer": "Gift Wrap is a back control variation in which one player's arm is threaded under the armpit and pinned diagonally across their own chest toward the opposite shoulder, while the back-taking player retains hooks or a body triangle and chest-to-back connection. Standard back control with a seatbelt grip leaves both of the controlled player's arms free to hand-fight, defend the neck, and frame. The Gift Wrap removes one of those arms from the equation entirely, which is why it is treated as an advanced refinement rather than a separate position. The back-control foundation is unchanged; the arm trap is layered on top of it."
+    },
+    {
+      "question": "Why does trapping a single arm remove roughly half of the controlled player's defensive capability?",
+      "answer": "Nearly every back-defense task requires two hands working together: peeling the choking arm demands a two-on-one grip, framing for a hip escape needs both arms to post, and protecting the neck relies on a second hand to reinforce the first. With one arm pinned across the body, each of these tasks becomes one-handed and therefore far weaker. The result is a cascading disadvantage in which defending one threat leaves another wide open. This asymmetry, not raw pressure, is the position's defining source of dominance."
+    },
+    {
+      "question": "Why must the trapped arm be kept high across the chest toward the opposite shoulder rather than low near the hip?",
+      "answer": "Keeping the arm high maintains the diagonal control line and denies the trapped player the shoulder rotation needed to extract the limb. When the arm drifts low toward the waist or hip, it aligns with the body's natural rotational path and mechanical leverage opens up to slide it free. The high position also keeps the neck and free-arm framing lanes compromised, preserving the position's threats. This high-arm principle is the single most important maintenance detail of the configuration and holds true regardless of which player is being considered."
+    },
+    {
+      "question": "How does the arm trap create the diagonal control line, and what makes that line mechanically strong?",
+      "answer": "An arm is threaded under the trapped player's armpit and the wrist or lower forearm is secured on the far side, so the limb crosses the torso from one armpit to the opposite shoulder. This diagonal routing means the trapped arm can no longer travel along its natural rotational arc, because any extraction attempt must fight across the line rather than along it. Gripping low on the wrist or forearm maximizes leverage over the limb with minimal strength. The lock is positional and skeletal, so it holds even when both players fatigue."
+    },
+    {
+      "question": "What role do the hooks or body triangle play relative to the arm trap in defining the position?",
+      "answer": "The hooks or body triangle are the primary anchor that prevents the hips from escaping and keeps the two bodies connected back-to-chest, while the arm trap is a secondary layer that removes defensive options. If the leg control fails, the entire position collapses regardless of how tight the arm trap is, because the trapped player recovers the ability to turn and escape. Conversely, an intact leg anchor with a lost arm trap simply reverts to standard back control rather than losing the position outright. Understanding this hierarchy explains why the leg control is the foundation and the arm trap is the enhancement."
+    },
+    {
+      "question": "Why is the Gift Wrap considered a transitional hub rather than a position to be held indefinitely?",
+      "answer": "The arm trap opens simultaneous pathways to the rear naked choke with reduced hand-fighting, a straight armbar on the exposed free arm, and advancement to technical mount or the crucifix, making it a launchpad rather than a destination. Holding it statically wastes that leverage, gives the trapped player time to develop a defensive solution, and invites stalling calls in competition. The position rewards continuous forward pressure that converts control into a submission or a superior position. Its value lies in the threats it generates, not in the raw seconds of control."
+    },
+    {
+      "question": "Why is the chest-to-back connection a defining invariant of the Gift Wrap, and what happens mechanically when it breaks?",
+      "answer": "The chest-to-back connection is what glues the two bodies into a single unit, eliminating the gap the trapped player would otherwise use to rotate their shoulder and slide the limb free. It also keeps the arm trap tight, because the diagonal control line depends on the torsos staying stacked rather than separating. When space opens between chest and back, the shoulder gains room to rotate, the trapped arm finds its extraction path, and the whole configuration begins to revert toward ordinary back control. This is why the connection is listed as a state invariant alongside the arm trap and the leg anchor rather than treated as an optional detail."
+    },
+    {
+      "question": "What is the mechanical risk of maintaining the arm trap through pain compression rather than positioning?",
+      "answer": "The Gift Wrap is designed to immobilize the arm through skeletal alignment and the diagonal line, not through cranking the shoulder into a pain response. Relying on compression fatigues the controlling arm, wastes energy, and can produce an unintended shoulder-lock submission or a referee intervention rather than clean positional control. Correct maintenance uses the threading angle and chest connection so the trap feels nearly effortless when the diagonal is set properly. This principle keeps the position sustainable and preserves it as a control platform rather than a rushed finish."
+    }
+  ]
 }

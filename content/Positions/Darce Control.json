@@ -604,5 +604,39 @@
         "answer": "Early recognition signs include opponent threading their arm under your armpit while controlling your head, reaching across the back of your neck toward your far shoulder, and walking their hips to your side from front headlock or turtle positions. Preventive action requires immediately tucking your chin, bringing your elbows tight to your body to prevent the arm from threading through, and either standing up explosively or sitting back to guard before the grip is locked. Once the figure-four grip is secured, escape becomes significantly harder."
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What arm configuration defines the Darce Control position?",
+      "answer": "Darce Control is defined by an arm-in front-headlock structure where one player threads their choking arm under the opponent's near armpit and drives it across the back of the neck toward the far shoulder, then catches their own bicep with the opposite hand to complete a figure-four. The opponent's near arm is trapped between their own body and the choking forearm, so that arm becomes part of the strangle rather than a defensive tool. The locked loop compresses both carotid arteries by squeezing the trapped shoulder and the choking forearm toward each other. This arm-in figure-four is the single feature that makes the configuration a Darce rather than a bare front headlock."
+    },
+    {
+      "question": "Why is the trapped near arm considered a load-bearing structural element of Darce Control rather than incidental?",
+      "answer": "The trapped near arm supplies half of the constricting surface that closes the choke, acting as the wedge on one side of the neck while the choking forearm presses from the other. Without the arm threaded inside the loop, the figure-four has nothing to compress against and the strangle mechanism collapses into a loose headlock. This is why the position is called an arm-in choke: freeing that arm is simultaneously the whole defensive game and the event that defines loss of the position. Both players organize their effort around whether the near arm stays trapped or gets extracted."
+    },
+    {
+      "question": "What are the primary control points that hold the Darce Control configuration together?",
+      "answer": "The three control points are the figure-four grip locked on the far side of the neck, the chest-and-shoulder pressure wedging into the side of the opponent's head and trapped shoulder, and the pinning of the near arm inside the loop. The figure-four supplies the compressive frame, the shoulder pressure prevents posture recovery and drives the head down, and the trapped arm completes the closed circuit around the neck. Weakening any one of these points degrades the whole structure, which is why the top player fights to keep all three intact and the bottom player attacks whichever is loosest. The points reinforce each other, so pressure applied at one tends to tighten the others."
+    },
+    {
+      "question": "How is weight and pressure distributed across the Darce Control configuration?",
+      "answer": "The dominant vector runs through the top player's shoulder and chest driving into the side of the opponent's head and trapped shoulder, creating a forward-and-down wedge roughly perpendicular to the spine. The hips stay mobile and offset to the side rather than square on top, which preserves the choking angle while allowing the player to follow rotation. The compressed player's head and shoulders are forced below their hips, eliminating the posture needed to defend or stand. This asymmetric loading, heavy through the upper body and light through a mobile base, is what lets the configuration both strangle and steer the exchange."
+    },
+    {
+      "question": "How does the Darce Control configuration differ from Anaconda Control, its sister front-headlock position?",
+      "answer": "Both are arm-in front-headlock chokes that thread under the near armpit, but they differ in hand path and finishing geometry. In the Darce, the choking arm reaches deep across the back of the neck and the player catches their own far bicep, tending to finish flattened out to the side. In the Anaconda, the arm wraps under and the hands clasp to constrict as the top player rolls the opponent through onto their trapped shoulder. Practically they occupy the same entries and often flow into one another when the opponent's arm position shifts, which is why they are treated as adjacent configurations rather than unrelated positions."
+    },
+    {
+      "question": "What separates Darce Control from a standard front headlock or a guillotine, given all three arise from the same head-and-arm entries?",
+      "answer": "A plain front headlock controls the head and often an arm but has no strangling loop locked around the neck, so it is a control platform rather than an active submission structure. A guillotine is an arm-in-front or arm-out chin-strap choke that attacks from the front of the neck, typically with the opponent between the legs or pressed to the chest. Darce Control is distinguished by threading the choking arm from under the near armpit across the back of the neck and locking a figure-four on the far side, attacking the sides of the neck rather than the front. The under-the-armpit entry and far-side figure-four are the defining departure from both adjacent positions."
+    },
+    {
+      "question": "Why does moving into the choke, toward the trapped arm, tend to relieve pressure while pulling away tends to tighten it?",
+      "answer": "Pulling away straightens the neck and lengthens the trapped arm, which enlarges the loop and gives the choking forearm a longer lever and cleaner line into the carotids. Turning into the trapped-arm side shortens that loop, misaligns the compressive vector, and opens a seam through which the near arm can begin to extract. This is why the shared dynamic of the position runs counter to instinct: the direction that feels like escape actually feeds the strangle. Both players understand this, so the exchange often becomes a contest over rotation toward or away from the trapped arm."
+    },
+    {
+      "question": "What makes Darce Control function as a dilemma-based hub rather than a single-outcome position?",
+      "answer": "Every defensive reaction available to the compressed player tends to open a different attacking line for the controlling player, creating layered dilemmas. Relieving neck pressure usually exposes the back or invites a positional advance to mount or north-south, while attempts to improve position or stand typically tighten the figure-four and feed the choke. Because the same control structure threatens a strangle and simultaneously governs the opponent's posture and rotation, it links directly to back takes, the anaconda switch, and positional passes. This branching of forced choices, rather than one path to a finish, is what makes the configuration a hub position for both players' decision-making."
+    }
+  ]
 }

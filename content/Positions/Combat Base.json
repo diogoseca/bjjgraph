@@ -709,5 +709,39 @@
         "answer": "Use the hook elevation when the passer's weight is forward or centered, loading the posted knee your hook targets. Switch to the ankle pick when they sit back with weight settled on the planted foot, since that foot becomes the primary load-bearing point you can remove. The two attacks complement each other - the passer cannot defend both at once, so whichever way they distribute weight to stop one opens the other."
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What is the defining configuration that distinguishes Combat Base from other kneeling guard-passing stances?",
+      "answer": "Combat Base is defined by an asymmetric stance in which one knee is posted on the mat while the opposite foot is planted flat, with the top player kneeling inside the bottom player's open guard. This deliberate asymmetry trades the pure lateral stability of a double-knee base for forward mobility, letting the top player circle, step, and drive pressure in one direction while staying low. The planted-foot knee is raised near the bottom player's hip, and the posted knee anchors the structure to the mat. It is the boundary state between merely being inside the guard and actively working to pass it."
+    },
+    {
+      "question": "Which three structural contact points form the triangulated base that gives Combat Base its stability?",
+      "answer": "The three points are the posted knee and shin on the mat, the planted foot flat on the mat, and the top player's hips positioned above the bottom player's hip line. Together these form a geometric triangle that resists forces from multiple directions and keeps the center of gravity low. Because the base is a triangle rather than a square, it is strongest against forward and backward loading and comparatively weak along one diagonal axis. This structure is what both players read: the top player to maintain it, the bottom player to attack it."
+    },
+    {
+      "question": "Why does Combat Base have a diagonal line of weakness, and where does that line run?",
+      "answer": "The triangulated base is engineered for forward-and-backward stability, so its resistance is uneven: force applied along the diagonal running from the posted knee toward the planted foot meets minimal structural support from either point. Neither the posted knee nor the planted foot can effectively brace against toppling along that specific axis. This is the mechanical reason sweeps from the bottom aim across that diagonal rather than straight back. For the top player, guarding this line dictates how weight is shifted and where the free hand posts."
+    },
+    {
+      "question": "How does dynamic weight distribution between the posted knee and planted foot govern the central tension of Combat Base?",
+      "answer": "Weight is shared between the posted knee and planted foot in roughly a 60-40 split, with the balance shifting constantly based on intended direction of movement and the opponent's reactions. This dynamic loading is what lets the top player drive pressure forward to pass without becoming fixed and off-balanceable. The same forward commitment that powers a pass, however, is exactly the loaded weight the bottom player captures to reverse the position. Combat Base therefore lives on the tension that the weight enabling advancement is the weight that enables the sweep."
+    },
+    {
+      "question": "What role does the planted foot play in the mobility that separates Combat Base from a static passing posture?",
+      "answer": "The flat planted foot is the engine of Combat Base's mobility, allowing the top player to circle, step, and generate new angles while the posted knee anchors the structure. Because the foot is planted flat rather than on the ball of the foot, it provides maximum surface contact for explosive movement in any direction and for bracing against sweeps. This is why remaining static in Combat Base surrenders its core advantage: the position is meant to circle and pressure dynamically, not to sit still. The interplay of a mobile foot and an anchored knee is what makes it a launching platform rather than a resting place."
+    },
+    {
+      "question": "Why is posture, specifically head-above-hips alignment, a shared structural requirement of Combat Base rather than a stylistic preference?",
+      "answer": "Keeping the spine upright with the head positioned above the hips prevents forward collapse and preserves the structural integrity of the triangulated base. When the head drops forward, weight loads over the bottom player's chest, which both destabilizes the base and exposes the top player to being broken down and pulled into attacks. The bottom player's core offensive job is precisely to break this posture, while the top player's is to preserve it. Posture is therefore the pivot on which the entire positional battle turns."
+    },
+    {
+      "question": "How does Combat Base differ from Headquarters position despite both being kneeling passing platforms?",
+      "answer": "Both share the asymmetric kneeling structure and the same passing principles, but Headquarters commits the knee to a deeper, more locked-in position over the opponent's leg for tighter control. Combat Base keeps a shallower, more mobile stance that prioritizes circling and multi-directional passing options over committed control. Headquarters is therefore a positional advancement reached from Combat Base without completing a full pass, trading some mobility for greater control of the opponent's legs. The transition between them is a deepening of the same platform rather than a change of category."
+    },
+    {
+      "question": "Why is the grip-fighting exchange in Combat Base characterized as continuous and mutual rather than a one-time setup?",
+      "answer": "Combat Base is a contested, time-sensitive neutral position where whoever wins the grip battle controls the exchange, so both players fight grips continuously rather than establishing them once. The top player needs grips on the hips, legs, or gi to manage distance and load weight for a pass, while the bottom player must deny exactly those grips to prevent being loaded and passed. Because the position is not a resting place, any lull lets the other player consolidate their control. Relentless, reciprocal grip fighting is thus a defining dynamic of the position for both sides."
+    }
+  ]
 }

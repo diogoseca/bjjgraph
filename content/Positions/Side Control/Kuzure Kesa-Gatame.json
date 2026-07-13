@@ -627,5 +627,39 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What single structural feature distinguishes Kuzure Kesa-Gatame from a traditional Kesa-Gatame (scarf hold)?",
+      "answer": "Traditional Kesa-Gatame controls the opponent's head, wrapping the near arm around the head while their near arm is clamped under the top player's armpit. Kuzure Kesa-Gatame ('broken' or modified scarf hold) abandons that head wrap and instead isolates one of the opponent's arms across the torso, clamped between the top player's armpit and chest. The primary line of control therefore runs through the trapped shoulder and the hip rather than through the head. This shift converts a largely holding position into a submission platform, because the isolated arm is immediately exposed to armlocks and shoulder locks."
+    },
+    {
+      "question": "How is the load distributed between the top player's hip and chest in this pin, and why does that matter to both players?",
+      "answer": "The dominant weight vector runs through the hip into the opponent's lower ribs, roughly a hip-heavy split with the chest adding only a lighter load across the upper torso. For the pinning player this hip-forward channel is what restricts breathing and mobility while keeping the chest free to adjust. For the pinned player, recognizing that the pressure originates at the hip rather than the chest tells them where hip escapes and framing must be directed. The position lives or dies on that hip-to-rib contact, so both athletes are fundamentally fighting over that single connection."
+    },
+    {
+      "question": "Why is directional (angled) hip pressure toward the far hip more controlling than simply stacking weight straight down?",
+      "answer": "Pure downward weight only resists gravity and can be waited out, but pressure driven at roughly a forty-five-degree angle toward the opponent's far hip pins the torso against rotation in either direction. This angled vector simultaneously blocks turning in toward the pin and turning away to expose the back. It wedges the torso flat against the mat rather than merely making it heavy. Consequently the rotational movement that most side-control escapes require cannot be generated until that angle is disrupted."
+    },
+    {
+      "question": "What role does the trapped arm's dual control, at both shoulder and wrist, play in defining the position?",
+      "answer": "The isolated arm must be pinned at the shoulder (through the armpit clamp) and at the wrist or forearm simultaneously to lock a closed kinetic chain. Shoulder control alone lets the arm extend into a pushing frame, while wrist control alone lets the shoulder rotate and thread the arm free during a hip escape. Only when both ends are captured does the arm become a genuine control point and submission handle rather than a defensive tool. This two-point capture is what separates Kuzure Kesa-Gatame from ordinary side control, where both of the bottom player's arms remain free to frame."
+    },
+    {
+      "question": "How do the top player's wide base leg and far-side head placement counter bridging and rolling?",
+      "answer": "The base leg posts wide with the knee bent and foot flat, forming a tripod with the hip and sitting bone that resists being tipped over. The head is carried low on the far side of the opponent, past the shoulder line, so any bridging force is redirected across the base rather than up and over it. Together these produce a broad, low center of gravity that converts an explosive bridge into wasted energy. Because of this, a purely upward bridge cannot lift a well-based Kuzure Kesa-Gatame; the tripod has to be disrupted first."
+    },
+    {
+      "question": "Why does isolating one arm make this position structurally more constraining than standard side control?",
+      "answer": "In standard side control both of the bottom player's arms stay free to build frames, hip escape, and recover guard. In Kuzure Kesa-Gatame one arm is trapped across the top player's torso, which halves the available framing structure and holds the shoulder line pinned. The same isolation that removes a defensive frame simultaneously creates a live armbar, americana, and kimura threat that has to be managed continuously. This single arm-isolation feature is what makes the position both harder to defend from underneath and more offensively rich from on top."
+    },
+    {
+      "question": "What makes Kuzure Kesa-Gatame function as a bridge position between standard side control and mount?",
+      "answer": "Because the pin is anchored through the hip and the trapped arm rather than a chest-to-chest crossface, the top player keeps enough mobility to slide a knee across the belly toward mount without surrendering arm control. When the bottom player turns in to defend, that rotation feeds the mount transition; when they turn away it exposes the back. The position therefore sits on a hinge between holding, advancing to mount, and taking the back, governed by which way the bottom player rotates. This transitional flexibility, paired with immediate submissions, is why it is treated as a high-value control rather than a static hold."
+    },
+    {
+      "question": "How does the near leg's configuration change what the position offers to each side?",
+      "answer": "The near leg (closest to the opponent) can either hook over the opponent's hip to add rotational control or extend out to widen the base, depending on what is needed. Hooking the hip increases pinning power and helps kill hip escapes but slightly narrows the base, while extending it maximizes stability against rolls at the cost of some hip control. This adjustable leg is a shared pivot point in the exchange: the bottom player's hip movement is either checked by the hook or given room by the extended posture. Reading which configuration is in play tells both athletes whether the immediate battle is over hip mobility or over base stability."
+    }
+  ]
 }

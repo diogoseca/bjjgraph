@@ -682,5 +682,35 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural feature defines Pocket Half Guard and distinguishes it from standard half guard?",
+      "answer": "The defining feature is a deep underhook that reaches completely across the opponent's back to grip the far lat, far armpit, or belt line, rather than the shallow near-side underhook of standard half guard. This depth is what lets the underhooking player control the opponent's upper-body rotation. Combined with a bottom-leg frame against the near hip, it creates the namesake 'pocket' space. The battle over underhook depth is the single most important variable in the position for both players."
+    },
+    {
+      "question": "Where exactly is the 'pocket' in Pocket Half Guard and how is it formed?",
+      "answer": "The 'pocket' is the space between the opponent's hip and ribcage on the trapped-leg side, created by the underhooking player pulling the far shoulder down while wedging the bottom leg's foot as a frame against the near hip. That combination of a downward shoulder pull and a hip-height frame opens a gap that prevents chest-to-chest flattening. The player who owns that space owns the rotational leverage; the player who collapses it owns the pass. This space is the mechanical hinge the whole position turns on."
+    },
+    {
+      "question": "How is the half guard leg entanglement configured in this position?",
+      "answer": "One of the opponent's legs is trapped between both of the bottom player's legs in the standard half guard lock, preventing extraction. The bottom (same-side) leg frames against the opponent's near hip while the top (free) leg locks over the trapped thigh, with a knee shield option available. Keeping the trapped leg slightly bent and close rather than stretched straight preserves mobility and avoids leg-attack exposure. The leg lock is one of three interdependent control points alongside the underhook and the hip frame."
+    },
+    {
+      "question": "What are the three interdependent control points that define who is winning Pocket Half Guard?",
+      "answer": "The three points are the deep underhook gripping the far side of the opponent's back, the bottom-leg frame maintaining pocket space against the near hip, and the half guard leg lock trapping the leg. These are mutually reinforcing: losing the underhook allows flattening, losing the pocket frame allows advancement, and losing the leg lock allows the leg to be extracted and the position passed. Whichever player controls more of these three simultaneously dictates the outcome. This makes the position a live, unstable battleground rather than a static hold."
+    },
+    {
+      "question": "Why is the crossface versus head-position battle the critical secondary front in Pocket Half Guard?",
+      "answer": "The underhooking player keeps their head tight on the underhook side, forehead pressing into the opponent's ribs or chest, which reinforces the grip and blocks the crossface. The opposing player fights to thread an arm across the face because a crossface combined with an underhook strip is what flattens the hips and enables the pass. So head position and crossface are opposing keys to the same lock: whoever wins the face controls whether the position stays offensive or collapses. It is the decisive tiebreaker once underhook depth is contested."
+    },
+    {
+      "question": "How does hip mobility versus hip flattening determine the positional battle?",
+      "answer": "The bottom player must keep the underhook-side hip slightly elevated off the mat with a slight angle toward the underhook, preserving room to generate rotational power. The top player's entire objective is the opposite: drive chest weight to flatten the shoulders square to the mat and pin the hips. A mobile hip means live sweeps and back-takes; a flattened hip means a passing situation. The bottom-leg frame is what buys the elevation that keeps the position offensive."
+    },
+    {
+      "question": "Why is Pocket Half Guard described as a transitional hub rather than a static holding position?",
+      "answer": "The position is inherently unstable because both players hold strong but incomplete control, so it resolves quickly, typically within 45 to 90 seconds, into a sweep, back-take, submission, or pass. The deep underhook and pocket space feed directly into offensive threats while the compromised base and contested crossface constantly threaten reversal or advancement. Neither side can sit still without ceding one of the three control points. This is why it functions as a launching point into neighbors like Deep Half, Old School, side control, or the back rather than a place to rest."
+    }
+  ]
 }

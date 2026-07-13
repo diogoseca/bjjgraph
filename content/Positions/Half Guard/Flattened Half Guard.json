@@ -617,5 +617,39 @@
         "answer": "Develop the ability to remain calm and methodical by accepting temporary discomfort as part of the position. Panic triggers frantic movements that waste energy and tighten opponent's control. Focus on technical execution - systematic micro-adjustments rather than desperate escapes. Mental discipline to maintain the process even when uncomfortable separates successful defenders from those who get passed."
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What configuration defines Flattened Half Guard and distinguishes it from standard half guard?",
+      "answer": "Flattened Half Guard occurs when the bottom player's frames collapse and the top player settles chest-to-chest with the bottom player's back flat on the mat, while one of the top player's legs remains trapped in the half guard hook. Standard half guard retains the bottom player's active frames, hip mobility, and space to work sweeps and submissions. In the flattened variation that space is gone, so the position reduces to a compression pin held together by chest pressure over a still-hooked leg. It is defined by the simultaneous presence of a completed upper-body pin and an incomplete lower-body pass."
+    },
+    {
+      "question": "Why does the trapped leg hook function as the central technical tension of this position?",
+      "answer": "The hook is the single element preventing the position from resolving into side control, so it defines the stalemate for both players. The top player has won the upper-body battle but cannot score or advance until the leg is extracted, which forces them to solve a leg-freeing problem while holding pressure. The bottom player has lost the upper-body battle but retains the hook as the last barrier buying time for recovery. Because the hook simultaneously blocks the top player's advance and anchors the bottom player's survival, all meaningful action in the position revolves around whether it is freed or maintained."
+    },
+    {
+      "question": "How is weight and pressure distributed in Flattened Half Guard, and why does that distribution matter to both players?",
+      "answer": "The top player drives forward pressure through the chest and hips into the bottom player's sternum and ribcage, keeping the shoulder blades pinned to the mat while the hips stay low and heavy. This chest-and-hip combination creates a broad, low-center-of-gravity pin rather than a top-heavy one, which is why it restricts breathing and limits movement in all directions. For the bottom player, that same distribution is what compresses the diaphragm and eliminates the space needed to shrimp. Both players read this pressure vector constantly, because any moment the weight rises off the hips is the moment space becomes available."
+    },
+    {
+      "question": "What role does the crossface play in holding this position together for both sides of the exchange?",
+      "answer": "The crossface turns the bottom player's head away from the action, which flattens the near shoulder to the mat and multiplies the top player's effective weight through a bony pressure point on the jaw or cheek. By pinning the head, it also denies the bottom player the near-side arm as a framing tool, since the head and shoulder are steered as a unit. For the bottom player, the crossface is the mechanism that keeps them flat, so relieving even a fraction of its angle is a prerequisite to any recovery. It is the control point whose presence or absence most directly determines whether the flatten holds."
+    },
+    {
+      "question": "Why is the far-side underhook battle decisive in determining whether the position holds or breaks?",
+      "answer": "Whoever wins the far-side underhook controls whether the top player can settle full weight or the bottom player can create structure. If the top player secures both crossface and underhook, the bottom player's shoulders are stapled and escape avenues collapse. If the bottom player retains their own underhook, it wedges the top player's weight off the chest and provides the structural frame from which any hip escape can begin. Because the position tolerates only one player owning that connection, the underhook is the contested seam that decides whether flattening deepens toward a pass or loosens toward recovery."
+    },
+    {
+      "question": "How does Flattened Half Guard differ from side control despite the similar chest-to-chest pinning pressure?",
+      "answer": "Both positions feature chest-to-chest pressure, a crossface, and a flattened bottom player, but side control is a completed, scoring pin with the legs cleared, while Flattened Half Guard still has one of the top player's legs trapped in the hook. That trapped leg means the top player has not passed the guard, scores no points, and remains vulnerable to the bottom player rebuilding frames. Side control is a destination; Flattened Half Guard is a waypoint immediately before it. The distinction lives entirely below the waist, since the upper-body picture can look nearly identical."
+    },
+    {
+      "question": "Why does the energy cost of this position fall asymmetrically on the bottom player rather than evenly on both?",
+      "answer": "Sustained chest pressure drains the bottom player's oxygen and reserves far faster than it costs the top player to hold a broad, weight-supported pin, so every failed micro-escape depletes the defender more than the attacker. This is why time favors the top player and why passivity penalties in competition fall on the bottom. Crucially it does not mean the top player can go static: the file's own principle is that static weight lets the bottom systematically rebuild frames, so the top must keep pressure dynamic to convert the energy advantage into a pass. The asymmetry is why the bottom player must act early while their reserves and windows still exist, and why the top player can afford patience only while staying active."
+    },
+    {
+      "question": "Why are small incremental movements more productive than explosive ones for creating change in this position?",
+      "answer": "Because the bottom player is flattened with no frames and heavy compression on the chest, explosive bridges and rolls have no leverage base to generate power and simply telegraph intent, letting the top player ride the motion and resettle. Small hip escapes and micro-frames, by contrast, create tiny increments of space that can be immediately filled and stacked without giving the top player a clear movement to counter. The same logic constrains the top player, whose passing angles are best created through incremental hip and knee adjustments rather than lunges that spill pressure. The position rewards accumulation of small gains over single decisive bursts on both sides."
+    }
+  ]
 }

@@ -724,5 +724,39 @@
         "answer": "When opponent creates distance mid-extraction, you have a narrow window to act. Options: 1) chase with your hips while maintaining whatever grip remains, potentially transitioning to 50-50 as they disengage; 2) use their backward momentum to technical stand up and follow into standing leg attack position; 3) accept the escape and immediately re-guard to establish open guard before they can consolidate passing position. Do not continue pulling against a fully committed extraction - redirect energy to the next position."
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines the kneebar control position regardless of who is on top?",
+      "answer": "Kneebar control exists whenever one leg is isolated across the controller's torso with the knee joint aligned against a fulcrum, most commonly the controller's hip or thigh. The arms wrap the lower leg near the calf and ankle in a figure-four or gable grip to prevent extraction, while the hips press against the back of the knee to threaten hyperextension. This alignment of joint, fulcrum, and lever exists on a spectrum from loose control to full extension. It is the geometry of the knee stacked against a hard pivot point, not the top-or-bottom orientation, that makes the position what it is."
+    },
+    {
+      "question": "Why is hip-to-knee connection considered the primary control point of the position for both players?",
+      "answer": "The kneebar generates its finishing force by hyperextending the knee over a fixed fulcrum, and that fulcrum is the controller's hip pressed tight against the joint line. Any gap between hip and knee lets the defender bend the knee, rotate, or slide the leg out, collapsing both the control and the submission threat. This is why the shared maxim holds that distance equals escape: the entire position lives or dies on maintaining that connection. Both players fight over this single point, one to preserve it and one to open even a few centimeters of space."
+    },
+    {
+      "question": "How does the kneebar attack the knee differently from a heel hook operating from a similar leg entanglement?",
+      "answer": "The kneebar applies a straight-line lever that hyperextends the knee against its natural range of motion, driving the joint past full extension. A heel hook instead applies rotational force, twisting the foot to transmit torque through the ankle and into the knee's ligaments. Because the kneebar is linear rather than rotational, it is mechanically simpler to understand but demands more precise control to stop the defender from bending or spinning the knee away. This distinction in force vector is why the same leg entanglement can host several different attacks depending on how the leg is loaded."
+    },
+    {
+      "question": "What role does the leg entanglement play in stabilizing the position for whichever player holds the control?",
+      "answer": "The controlling legs, whether configured as inside ashi, outside ashi, 50-50, or a top-position staple, exist to pin the opponent's hips and deny rotation. Since hip rotation is the main way a defender clears the knee from the line of attack, the entanglement functions as the anchor that keeps the joint exposed. The upper-body grips isolate the leg while the lower-body entanglement controls the hips, and both are needed simultaneously. Without the leg hooks, arm control alone cannot stop the opponent from turning to safety."
+    },
+    {
+      "question": "In what sense does kneebar control function as a hub rather than a single technique?",
+      "answer": "The position sits at a crossroads within a leg-attack system, connecting to heel hooks, toe holds, straight ankle locks, and adjacent entanglements like the saddle and single-leg X. When the knee is defended by bending or rotating, the same control structure often exposes a different joint or a positional advance, so the controller flows to whichever attack the defense opens. This interconnected character means both players treat the position as a decision tree, not a dead end. The finish is only one of several outputs the control can produce."
+    },
+    {
+      "question": "Why does the position carry an asymmetric risk profile depending on top versus bottom orientation?",
+      "answer": "Top-position kneebars let the controller retain dominant position even if the finish fails, keeping the risk low to medium because a missed attack usually reverts to a passing or control situation. Bottom-position variants such as ashi-garami kneebars create mutual vulnerability, since the same entanglement that threatens the opponent's knee often exposes the bottom player to counter leg attacks or scrambles. The underlying joint mechanics are identical, but the positional stakes of a failed attempt differ sharply. This is why the same control is a safe hunt from top and a committed gamble from bottom."
+    },
+    {
+      "question": "How does breaking the opponent's defensive knee posture relate to the finishing mechanics of the position?",
+      "answer": "A bent knee cannot be hyperextended, so the controller must first straighten the leg before the lever can load the joint. The defender's core survival tactic is therefore keeping the knee bent and the hips rotated, denying the straight line the kneebar requires. Premature extension against a bent, defended knee wastes energy and invites counters, which is why the shared principle is to break posture and straighten the leg before committing. The battle over the knee's angle precedes any battle over the finish itself."
+    },
+    {
+      "question": "What distinguishes kneebar control from a neutral leg entanglement like a contested 50-50 with no attack loaded?",
+      "answer": "A neutral entanglement establishes leg-versus-leg connection and hip control but does not yet align one knee against a fulcrum with the lever loaded. Kneebar control is the specific moment that entanglement is weaponized: the leg is pulled across the torso, the hip drives into the joint line, and hyperextension becomes an active threat. The same 50-50 can sit in stalemate or convert into kneebar control depending on whether that knee-to-fulcrum alignment is achieved. The defining difference is the presence of a loaded lever on the knee, not merely tangled legs."
+    }
+  ]
 }

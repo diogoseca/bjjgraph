@@ -691,5 +691,39 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What is the defining spatial configuration that makes a position straight ankle lock control rather than a generic leg tangle?",
+      "answer": "One player sits or lies roughly perpendicular to the other, with the trapped foot pulled tight across their hip line and the near leg wrapped over the entangled thigh. The perpendicular angle is what converts a loose leg grab into a controlling position, because it lets the hip act as the fulcrum against which the ankle is levered. The trapped leg is isolated so its owner cannot simply retract it, while the entangling legs sit between the two bodies to police the distance. Without this cross-body angle and the foot pinned to the hip, the configuration is just a passing leg-grab with no submission structure."
+    },
+    {
+      "question": "Why is the hip line, rather than the hands, the true control point of this position?",
+      "answer": "The ankle is pinched between the controlling forearm and the crest of the hip, so the hip supplies the immovable base against which all Achilles pressure is generated. Hands can grip tightly, but arm strength alone cannot overcome the calf and the natural give of the ankle; the leverage only materializes when the foot is trapped against the pelvis and the back arches to drive the hip forward. This is why the position is described as position-before-submission: the hip must own the ankle before the grip means anything. Both players understand the fight as a contest over whether the foot stays pinned to the hip line or slides off it."
+    },
+    {
+      "question": "What role do the entangling legs play beyond simply holding the trapped leg in place?",
+      "answer": "The legs form a wedge or figure-four around the isolated thigh whose primary job is to prevent hip rotation, because rotation is the mechanism by which a trapped foot is unwound and the leverage relieved. By blocking the knee line and pinning the thigh, the legs deny the trapped player the angular change that would neutralize the joint pressure. They also govern connection distance, keeping the two hips close enough to sustain leverage but structured enough to allow either player to reconfigure. The tension is that the same leg frame that immobilizes must also stay mobile enough to follow rotation, which is what makes the position dynamic rather than static despite its controlling appearance."
+    },
+    {
+      "question": "How does the trapped leg's knee angle change the danger level for both players in this configuration?",
+      "answer": "A bent knee keeps the leg short, preserves the trapped player's ability to rotate the hip, and shortens the lever arm that ankle pressure travels along, all of which reduce joint stress. A fully straightened leg lengthens that lever, removes the rotational escape, and lines the ankle up for maximal hyperextension, dramatically increasing the finishing leverage. Because of this, the knee angle is a shared fulcrum both players fight over: keeping it bent versus forcing it straight is effectively the whole leverage battle. The same straightening that maximizes ankle pressure also exposes the knee line, which is why the configuration sits adjacent to kneebar territory."
+    },
+    {
+      "question": "What makes time a structural feature of straight ankle lock control rather than a neutral factor?",
+      "answer": "The position trades positional dominance for an immediate submission threat, so it is inherently unstable: neither player occupies a settled top or bottom hierarchy and both sit in a short-fuse window. Leverage on the ankle degrades as frames accumulate and the trapped foot inches off the hip, so the leverage-holder's advantage decays second by second. This is why the position is treated as a hub or junction to be resolved quickly rather than a resting place, unlike stable pins where holding time compounds advantage. The short time-sustainability is baked into the geometry, not a matter of either player's fatigue."
+    },
+    {
+      "question": "How does straight ankle lock control differ mechanically from inside and outside ashi-garami?",
+      "answer": "Straight ankle lock control is the lower-commitment entanglement where the entangling legs sit outside or across the thigh and the primary threat is Achilles hyperextension, with the trapped player retaining meaningful hip mobility. Inside and outside ashi-garami advance the leg triangle deeper, deepening the wedge to further kill rotation and, in the inside variation, opening rotational heel-hook leverage that the straight ankle position does not threaten. The straight ankle position is therefore both a starting hub and a comparatively controllable, lower-injury-risk cousin: it accesses the more dominant entanglements when rotation opens them, but on its own it lacks their rotational finishing structures. The defining distinction is depth of leg control and whether the finishing vector is hyperextension or rotation."
+    },
+    {
+      "question": "Why is straight ankle lock control frequently described as simultaneously offensive and vulnerable for the leverage-holder?",
+      "answer": "The player with the ankle threatens an immediate, genuinely dangerous submission and controls one of the opponent's primary mobility tools, which is the offensive side. Yet to hold that leverage they surrender superior positioning and expose their own posture and legs to counter-entanglement, so the same commitment that generates the finish also invites reversal. This dual character is why the position resolves into so many branches: a symmetrical 50-50 exchange, an advance to a deeper entanglement, or a counter that lands the roles reversed. The vulnerability is intrinsic to the trade the position represents, not a mistake in how it is held."
+    },
+    {
+      "question": "What defines the boundary condition where straight ankle lock control breaks down into an adjacent position like 50-50?",
+      "answer": "The position holds only while one foot stays isolated against one hip; the moment the trapped player mirrors the entanglement by capturing the opponent's near leg, the asymmetry that defined single-ankle control collapses into a symmetrical configuration. In 50-50 both players hold an equivalent ankle and an equivalent threat, so the leverage advantage that characterized straight ankle control neutralizes. Similarly, if the isolated foot slides free of the hip line the position degrades toward open guard or a scramble. These boundary conditions show the position is fundamentally about maintained asymmetry over a single isolated ankle, and it becomes something else the instant that asymmetry is lost."
+    }
+  ]
 }

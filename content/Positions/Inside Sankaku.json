@@ -728,5 +728,39 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What leg configuration defines the Inside Sankaku entanglement and distinguishes it from other ashi-garami variations?",
+      "answer": "Inside Sankaku is a figure-four of the entangling legs wrapping the opponent's trapped leg, with the outside leg crossed over the inside leg to lock the triangle at the knee joint. The trapped leg is isolated at the knee while the inside leg hooks under the thigh to hold the structure. The defining feature is that the entanglement rotates the opponent's leg so the heel points inward toward the centerline, which is what makes it an inside heel hook position rather than an outside one. That inward heel orientation is the single most important structural difference from Outside Ashi-Garami, which exposes the outside of the heel instead."
+    },
+    {
+      "question": "Why is control of the knee line considered the pivotal battleground for both players in Inside Sankaku?",
+      "answer": "The knee line is the boundary that determines whether the entangling player retains rotational control or the trapped player can spin free. As long as the crossed legs stay above and across the opponent's knee, the trapped leg cannot rotate to clear the inside heel exposure. If the trapped leg's knee gets past that barrier, the heel hook angle is neutralized and escape or counter paths open. Both players therefore orient their entire effort around this line: one fights to hold it, the other fights to cross it, which makes it the true fulcrum of the position rather than the heel itself."
+    },
+    {
+      "question": "How does hip-to-hip connection function as the primary control mechanism shared across this entanglement?",
+      "answer": "Tight hip-to-hip connection eliminates the distance the trapped leg needs to be extracted, so the closer the two sets of hips stay, the more locked the figure-four remains. When space opens between the hips, the leg can slide out and the entanglement collapses regardless of how the feet are configured. This is why control here is driven through the hips rather than through grip strength or the hands. The dynamic is mutual and directional: the entangling player constantly closes distance forward while the trapped player's only escape currency is generating hip space backward and away."
+    },
+    {
+      "question": "What makes Inside Sankaku a mutually engaged position rather than a one-sided control like mount or side control?",
+      "answer": "Both players have their legs committed into the entanglement, so neither is purely dominant the way a pin frees the top player's limbs. One player owns the superior mechanical angle on the inside heel, but their own legs are simultaneously occupied and potentially exposed to counter-entanglement. This shared commitment means the position is defined by relative control quality rather than absolute dominance, and small positional shifts can swing the advantage. That mutual exposure is precisely why leg-lock exchanges from here often become races to establish a finishing angle before the opponent counters."
+    },
+    {
+      "question": "How does Inside Sankaku differ from the Saddle despite both being inside-heel-hook entanglements?",
+      "answer": "In the Saddle the entangling player sits between the opponent's legs with both legs effectively managed, giving a lower, more stable base and heavier hip control. Inside Sankaku instead isolates a single leg in the figure-four with a more elevated posture that relies on the knee-line pinch to hold rotation. The Saddle generally offers greater positional security while Inside Sankaku offers a sharper, more immediate finishing angle on the exposed inside heel. The two are close neighbors, which is why a small shift in how many legs are trapped can convert one into the other."
+    },
+    {
+      "question": "Why does turning toward the entangling player to clear the knee line geometrically worsen the trapped player's situation?",
+      "answer": "Rotating inward brings the second leg toward the entanglement and shortens the distance needed to consolidate control, effectively feeding the figure-four rather than breaking it. That rotational direction assists an entry into the Saddle or deepens the inside heel exposure instead of relieving it. The mechanically correct escape vector is away from the opponent, opening hip space rather than closing it. This role-agnostic geometry is what makes the position so punishing: the intuitive panic movement of turning in is the same movement that tightens the trap."
+    },
+    {
+      "question": "What role does the inward heel orientation play in dictating which submissions live in this position?",
+      "answer": "Because the figure-four rotates the trapped leg so the heel faces the centerline, the inside heel hook becomes the highest-percentage finish, since the heel can be rotated laterally against the knee's natural range. That same orientation keeps the toe and foot accessible for a toe hold when the heel is hidden, and the isolated knee makes the kneebar a secondary threat. The position's entire submission menu is therefore a consequence of how the entanglement orients the lower leg. Recognizing that the heel points inward is what tells either player which attacks are live and which defenses matter."
+    },
+    {
+      "question": "Why is weight distributed through the hips rather than the hands the sustainable way to hold Inside Sankaku?",
+      "answer": "Posting or gripping with the hands to maintain the entanglement burns forearm and arm endurance quickly and leaves the position vulnerable the moment those muscles fatigue. Driving control through the hips lets the skeletal structure and the mechanical advantage of the figure-four do the work, so small hip adjustments defeat larger escape efforts. This also keeps the hands free to fight for submission grips or defend counters rather than being spent on positional maintenance. The principle cuts both ways: whoever relies on strength rather than structure and hip pressure is the one who tires first and loses the exchange."
+    }
+  ]
 }

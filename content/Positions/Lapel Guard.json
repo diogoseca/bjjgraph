@@ -694,5 +694,39 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural feature fundamentally defines lapel guard and distinguishes it from every no-gi open guard?",
+      "answer": "Lapel guard is defined by the player extracting one of the opponent's own lapels and feeding the fabric around a body segment—the passer's leg, arm, or torso—to build a control point made of cloth rather than limb-to-limb contact. Because the wrap encircles the segment, it forms a closed loop that persists as a mechanical barrier even after the hand grips are stripped, unlike a collar or sleeve grip that vanishes the instant it is released. This converts the gi into a semi-permanent tether that no-gi grappling cannot replicate, which is why the position exists only in the gi. The fabric effectively extends the guard player's reach and creates a fixed anchor independent of grip strength."
+    },
+    {
+      "question": "Why does an established lapel wrap keep controlling a limb even after the gripping hand is broken, and how does that differ from a standard collar grip?",
+      "answer": "The lapel is threaded around a body part—behind the knee, around the arm, or across the torso—so the fabric itself forms a closed loop that traps the segment regardless of whether a hand is actively holding it. A standard collar grip only controls while the fingers stay clamped, so breaking the grip removes the control entirely. With a lapel wrap the hand mainly maintains tension and prevents the fabric from feeding back out, while the encircling cloth restricts the trapped limb on its own. This decoupling of control from continuous grip effort is the mechanical heart of the position and why clearing it requires unwinding the fabric rather than simply peeling a hand."
+    },
+    {
+      "question": "How does the location of the lapel wrap determine which named lapel-guard variation is in play?",
+      "answer": "The variation is identified by which body part the lapel encircles: worm guard threads the lapel behind the passer's knee to trap the leg, while squid guard wraps the fabric around the passer's arm, usually the posting arm. Ringworm guard combines multiple wraps—leg and arm elements together—to create overlapping barriers. Each configuration restricts a different plane of movement, so a leg wrap primarily blocks passing footwork while an arm wrap disrupts basing and posting. Recognizing the wrap location tells both players which movements are restricted and which passing or attacking lanes remain open."
+    },
+    {
+      "question": "In what way does lapel guard invert the standard energy economy between the guard player and the passer?",
+      "answer": "In most open guards the bottom player spends more energy fighting grips and repositioning hips while the passer applies pressure, but lapel guard reverses this. Once a wrap is established, maintaining it relies on the fabric loop and skeletal grip alignment rather than muscular effort, so the guard player can hold control at low cost. The passer, meanwhile, must actively problem-solve the fabric barrier, which drains grip endurance and creates time pressure. This asymmetry means extended exchanges tend to favor the guard player, and rushing to solve the configuration typically produces errors rather than progress."
+    },
+    {
+      "question": "Why is a lapel wrap largely unresponsive to muscular force, and what does that imply about how it must be managed?",
+      "answer": "Because the fabric encircles a body part rather than being merely gripped, pulling against it with brute strength loads the loop without releasing the trapped segment, and the cloth simply redistributes the tension. Trying to rip it free burns grip endurance rapidly, risks damaging the gi, and usually leaves the configuration intact. The mechanically sound approach is to unwind or feed the fabric back along its original path, or to navigate around the barrier by changing angle. This reality shapes the whole position: technical fabric management and geometry beat physical strength for both establishing and dismantling the wrap."
+    },
+    {
+      "question": "How does the lapel configuration disrupt the hip-to-hip contact that pressure passing normally depends on?",
+      "answer": "Effective pressure passing requires the top player to connect hip-to-hip and drive weight into the guard player's frame, but a lapel wrap inserts a length of taut fabric between the two bodies that physically blocks that connection. The cloth acts as a spacer and a redirecting frame, pulling the passer off their intended line and preventing them from squaring their hips against the guard player. This is why generic smash and pressure passing tends to fail against a configured lapel guard—the barrier sits in the exact space the passer needs to occupy. The exchange therefore revolves around whether that fabric barrier can be cleared or must be circumvented."
+    },
+    {
+      "question": "What role do the guard player's free leg and hip mobility play while a lapel configuration is active?",
+      "answer": "The lapel wrap supplies persistent control, but on its own it does not constitute a complete guard, so the free leg and mobile hips supply a redundant defensive and offensive layer. The non-lapel leg forms an active frame or hooks the passer's lead leg to block circular passing, while the hips stay angled toward the grip side rather than flat, preserving the ability to sit up or elevate. This means that even if the fabric grip is lost, the underlying open-guard structure remains intact and retention continues. Treating the lapel as a supplement to an active guard rather than a replacement for it is what keeps the configuration dynamic rather than static and passable."
+    },
+    {
+      "question": "How does lapel guard relate to adjacent gi guards such as collar-sleeve, De La Riva, spider, and lasso during a live exchange?",
+      "answer": "Lapel guard rarely stands alone and instead functions as one node in a web of interconnected gi guards that share grip and framing principles. Collar-sleeve and De La Riva commonly serve as entry positions from which a player extracts and feeds the lapel, while spider (bicep control) and lasso (a leg wrapped around the opponent's arm) share arm-control principles that let a player flow into or out of a lapel wrap when the fabric grip is threatened. Because these guards share control logic, transitions between them preserve tension and structure rather than resetting the exchange. The lapel configuration is best understood as a layer that can be added onto or shed from these traditional guards depending on the opponent's reactions."
+    }
+  ]
 }

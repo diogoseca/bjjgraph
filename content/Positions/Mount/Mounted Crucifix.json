@@ -746,5 +746,35 @@
         "answer": "Accept that this is a bad position requiring patience rather than panic. Focus on small, achievable goals - first survive the immediate submission threat, then create small spaces, then extract one arm, then escape mount. Each step builds toward escape rather than trying to accomplish everything at once. Recognize that opponent must also expend energy to attack, and patient defense can create opportunities when they overcommit. Panic leads to energy depletion and technical breakdown; composure maintains efficient defense until escape windows appear."
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What configuration defines the mounted crucifix and distinguishes it from standard mount?",
+      "answer": "The mounted crucifix is a hybrid where the top player holds mount while using their legs to trap one or both of the bottom player's arms, threading a leg over the arm near the shoulder or bicep. This fuses mount's positional dominance with the arm-isolation mechanics of the traditional crucifix. The defining feature is that the bottom player's arms are removed from play by leg entanglement rather than left free as in standard mount. This single structural change converts a strong control position into a near-inescapable submission platform."
+    },
+    {
+      "question": "Why is arm isolation the mechanical linchpin that makes the mounted crucifix so dominant?",
+      "answer": "In standard mount the bottom player retains their arms to build frames, establish grips, and create the structure required for bridges and hip escapes. Trapping one or both arms with the legs strips away these primary defensive tools, leaving the neck, remaining limb, and back exposed with no framing available. The position therefore operates on a control hierarchy: mount establishes the base, the leg-trap removes the defense, and the exposure that follows creates the attacks. Removing the arms is what shifts the asymmetry from strong-but-escapable to dominant-and-trending-to-submission."
+    },
+    {
+      "question": "How does weight distribution govern the stability of the mounted crucifix for both players?",
+      "answer": "Stability depends on the top player keeping hips low and biasing weight forward over the chest, roughly 60% forward to pin the hips and kill the bridge with the remaining 40% centered to hold base against a roll. A rearward or upright posture surrenders the space the bottom player needs to buck and extract, while too much forward commitment invites being rolled. For the bottom player, that same forward pressure is the obstacle: any escape requires disrupting the weight during a moment when the top player shifts to attack. The position is stable precisely because forward pressure and tight legs leave no gap for the trapped player to exploit."
+    },
+    {
+      "question": "How does the leg entanglement behave mechanically as the trapped arm is pulled against it?",
+      "answer": "The leg entanglement functions like a closing gate rather than a static barrier, with the knees acting as the hinge. When the knees stay pinched tight and a shin is driven across the trapped arm, the trap actually tightens as the arm pulls against it, feeding the resistance back into the leverage. If the knees separate or the hips lift, that gate opens and the arm gains the space to slide free. This is why extraction depends on creating small angular spaces rather than pulling straight, since a straight pull only closes the gate harder."
+    },
+    {
+      "question": "How does the mounted crucifix differ from the traditional crucifix and from a gift wrap?",
+      "answer": "The traditional crucifix traps the arms while controlling the opponent from the back or side, whereas the mounted crucifix keeps the top player squarely in mount facing the opponent, adding mount's forward pressure and point value to the arm-trap. The gift wrap uses the hands and one of the opponent's own arms wrapped across their face to isolate a limb, relying on grip rather than leg entanglement. The mounted crucifix instead uses the legs as the trapping mechanism, freeing the top player's hands entirely for attacks. This distinction in trapping tool defines each position's control dynamics and transition options."
+    },
+    {
+      "question": "Why does the mounted crucifix create tactical dilemmas rather than a single line of attack?",
+      "answer": "Because the trapped arms remove defensive framing, the neck, the free arm, and the exposed back all become simultaneous threats that cannot be defended at once. Defending the neck opens the arm to attack, defending the arm turns the head and exposes the back, and turning away invites a back take. This multiplicity of coexisting threats, rather than any one technique, is what makes the position high-percentage. For the bottom player it means committing to a single defense necessarily concedes another line, which is the structural reason escape percentages from here are so low."
+    },
+    {
+      "question": "Where does the mounted crucifix sit in the positional hierarchy relative to its adjacent positions?",
+      "answer": "It emerges from high mount or S-mount when the bottom player's arms become exposed to leg entanglement, sitting one tier above standard mount in dominance. From here the natural advancement is to back control or a seat belt, since the arms are already controlled and the bottom player often surrenders the back while defending. If the trap is lost, the position degrades back toward standard mount rather than collapsing entirely, so mount remains the fallback floor. Understanding it as a bridge between mount and back control clarifies why it functions as a transition hub as well as a finishing platform."
+    }
+  ]
 }

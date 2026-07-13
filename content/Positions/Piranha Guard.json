@@ -734,5 +734,35 @@
         "answer": "Energy management requires active periods of attack followed by brief consolidation phases where you maintain strong grip tension with minimal movement. Avoid constant maximal effort; instead, create threat sequences that force the opponent to react while you conserve energy during their defensive movements. Use the lapel configuration as a passive barrier during rest phases—the opponent must work to clear it even when you're not actively attacking. Choose efficient attacks like collar drags and berimbolo entries that use their movement rather than pure strength-based sweeps that deplete your energy faster."
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines Piranha Guard and distinguishes it from other open guards?",
+      "answer": "Piranha Guard is defined by the bottom player threading the top player's own lapel between their legs and controlling the fed-through material with both hands. This routes the collar through the space created by the bottom player's leg triangle, turning the gi itself into a connection point between the top player's upper body and the bottom player's hips. Unlike sleeve or spider grips that pull on limbs, the control lives in the opponent's own garment threaded through the legs, which is why the guard exists only in the gi. The legs frame and reinforce the lapel line rather than hooking the opponent directly."
+    },
+    {
+      "question": "Why is the leg entanglement functionally a pulley in Piranha Guard rather than a simple grip?",
+      "answer": "Threading the lapel between the legs makes the bottom player's thigh act as a fulcrum around which the collar redirects, so a short pull on the tail is amplified into a much larger posture-breaking force at the opponent's neck and shoulders. Because the line changes direction at the leg, the mechanical advantage multiplies pulling force the way a pulley multiplies effort over distance. This lets the bottom player break the top player's posture with relatively little grip strength. The effect only holds while the collar stays seated deep against the leg, so slack anywhere in the line collapses the leverage for both players."
+    },
+    {
+      "question": "Which control points and lines of tension hold Piranha Guard together for both players?",
+      "answer": "The primary control line runs from the top player's collar, through the bottom player's legs, to the two hands gripping the fed-through tail, forming a closed loop of tension. A secondary control point is at least one hook or foot contact on the opponent's hip, thigh, or shoulder that manages distance and angle. The interaction of these two vectors, the lapel line and the leg contact, is what creates off-balancing: pulling the collar disrupts the top player's front-to-back base while the hook attacks the perpendicular axis. Whichever player better maintains connection along both lines controls the exchange."
+    },
+    {
+      "question": "How does the depth of the lapel feed determine whether Piranha Guard is stable or collapsing?",
+      "answer": "The collar must be threaded deep enough that a substantial length of material passes through the legs, placing the controlling grips far from the opponent's body. A deep feed keeps the fulcrum loaded and makes the tail hard to retract, preserving the pulley leverage. A shallow feed leaves the grips close to the opponent, which shortens the lever and lets the top player simply pull the collar back out through the legs to dissolve the guard. Depth of the thread is therefore the single variable that most decides whether the configuration is a live guard or a failing one."
+    },
+    {
+      "question": "What role does hip mobility and angle play in the shared dynamics of Piranha Guard?",
+      "answer": "Because the lapel line anchors the top player's upper body, the bottom player's hips can pivot underneath to constantly change the angle of pull without losing the connection. This mobility is what prevents the top player from squaring up and settling into a stable passing platform, since every hip adjustment re-aims the pulley's force. For the top player, the same dynamic means that staying centered over a mobile hip is impossible, so they must manage distance and prevent the angle changes from compounding. The position rewards whoever keeps their hips active and punishes whoever becomes static."
+    },
+    {
+      "question": "How does the lapel-through-legs configuration simultaneously serve as a defensive barrier against passing?",
+      "answer": "The threaded collar physically links the top player's torso to the bottom player's hips, so any attempt to circle or drive past must first overcome or clear the lapel connection rather than simply moving around the legs. This disrupts pressure and knee-slice style passes because the top player's weight distribution is tied to the collar line and cannot be freely committed forward. The guard thus works as a passive barrier even when the bottom player is not actively attacking, since the top player must spend effort clearing the thread to advance. This dual offense-defense quality is a defining trait of the configuration."
+    },
+    {
+      "question": "How does the lapel routing in Piranha Guard differ from its sister lapel guards such as Worm Guard and Squid Guard?",
+      "answer": "All three weaponize the opponent's collar for leverage, but they differ in where the lapel is routed and therefore where the lever forms. Worm Guard typically wraps the lapel around the outside of a leg to create a lever along the opponent's far side, while Squid Guard uses a distinct threading and hip configuration to build its angles. Piranha Guard is specifically defined by feeding the collar between the bottom player's own legs so the leg triangle itself becomes the pulley. Because they share the same raw material, the collar can be re-routed to convert one configuration into another when the current one is threatened."
+    }
+  ]
 }

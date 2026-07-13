@@ -617,5 +617,39 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines the Triangle Escape Position?",
+      "answer": "One player lies on their back with their legs closed in a figure-four around the opponent's head and one arm: a shin lies across the back of the neck while the opposite leg hooks behind that shin's knee to close the loop. The caught player is bent forward and down, head and one arm trapped inside the legs while the other arm remains free outside. This creates an asymmetrical closed loop that combines a blood choke with structural head-and-arm control. Both players share the same locked geometry but pursue opposite goals within it."
+    },
+    {
+      "question": "Why is the hip angle, rather than raw leg squeeze, the true determining factor of this position?",
+      "answer": "The figure-four loop only becomes an effective blood choke when the finisher's hips are turned perpendicular to the caught player's torso rather than square to it. From a square angle the leg pressure compresses muscle and windpipe inefficiently and leaves gaps around the carotids. Turning perpendicular aligns the shin and the trapped shoulder against both sides of the neck, sealing the arteries. Consequently the entire fight for both players revolves around whether that perpendicular angle gets established or denied, not around who squeezes harder."
+    },
+    {
+      "question": "What role does the trapped arm play in the mechanics shared by both players?",
+      "answer": "The trapped arm is simultaneously the choke's completing element and the position's chief vulnerability. When it is pulled across the caught player's centerline, that player's own shoulder seals the near carotid while the finisher's shin compresses the far one, completing the strangle. When it stays straight down the middle, the shoulder blocks the artery and the choke stalls. Because the arm is already isolated inside the legs, it also becomes a fulcrum for a linked armbar, which is why arm position governs both the finish and its counters."
+    },
+    {
+      "question": "How do posture and stacking function as the central shared axis of the exchange?",
+      "answer": "The caught player's compromised posture, head pulled forward and down toward the finisher's hips, is exactly what makes the choke work, so recovering vertical spine alignment and stacking weight forward onto the finisher's shoulders directly relieves the choking pressure. The finisher counters by pulling the head down with both hands to deny that posture and keep the spine flexed. This single tug-of-war over posture, break-down versus recovery, determines the position's outcome, making it the mechanic both roles fight over most continuously."
+    },
+    {
+      "question": "Why does the locking leg need to stay tucked behind the knee rather than riding high on the shoulder?",
+      "answer": "The figure-four seals only when the locking foot is tucked tight behind the opposite shin's knee, leaving no gap in the loop. If that leg drifts high onto the caught player's shoulder, it opens a space where a hand can be wedged underneath to peel the leg off and begin clearing the choke. The integrity of this ankle-behind-knee connection is what keeps the loop closed against stacking pressure. It is therefore a shared reference point: the finisher guards it while the caught player probes it for the clearing gap."
+    },
+    {
+      "question": "Why is the trapped-arm side the axis along which both players fight to align or misalign the loop?",
+      "answer": "The perpendicular choking angle is built toward the trapped-arm side, so that side is where the loop either aligns into a strangle or breaks open. The finisher hips out toward the trapped-arm side to turn perpendicular and seal the carotids, while the caught player works toward that same trapped-arm side to rotate out of the loop's line and open its structure rather than driving into the finishing angle. Whoever controls rotation along this axis controls whether the loop tightens or slackens. Reading the position from either seat means tracking motion relative to the trapped arm, not the free arm."
+    },
+    {
+      "question": "What distinguishes the Triangle Escape Position from adjacent guard and control positions?",
+      "answer": "Unlike an open or closed guard where the legs contain the opponent but no single limb is isolated for a finish, this position has both the head and one specific arm sealed inside a closed leg loop, creating an immediate strangle threat. It differs from Armbar Control, where the isolated arm is the sole target, because here the neck is the primary line and the arm is a secondary one. It is also inherently transitional and time-sensitive: the locked geometry either resolves into a finish, a linked attack such as armbar or omoplata, or collapses back to guard once the leg is cleared."
+    },
+    {
+      "question": "Why is this position considered inherently unstable and time-sensitive for both roles?",
+      "answer": "The closed leg loop demands high, continuous leg and grip effort from the finisher while the caught player's flexed posture restricts breathing, so neither role can sustain it comfortably. The finisher's control decays the moment posture is recovered and the leg is cleared, while the caught player's danger spikes as the angle is refined. Because the configuration steadily favors whichever player wins the angle-and-posture battle first, it resolves quickly rather than settling into a stable holding pattern. Both players are therefore racing a narrow window rather than waiting the other out."
+    }
+  ]
 }

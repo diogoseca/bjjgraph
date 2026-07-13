@@ -625,5 +625,39 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines Anaconda Control and distinguishes it from other front headlock positions?",
+      "answer": "Anaconda Control is defined by an arm-in front headlock where the top player threads one arm under the opponent's near armpit and around the neck, then clasps the hands together on the far side to close a constricting loop. This arm-in element is the defining feature: the opponent's near arm is trapped inside the encirclement alongside the neck, so the choke compresses the neck and the trapped shoulder together as a single package. It differs from the guillotine, which encircles only the neck with the arm passing over the shoulder rather than under it. The trapped arm is what separates the anaconda from a bare front headlock and is the source of its distinctive vice-like compression."
+    },
+    {
+      "question": "Why is the trapped near arm mechanically central to the anaconda configuration rather than an incidental detail?",
+      "answer": "The trapped arm reinforces the choke by becoming part of the constricting structure itself, so the loop compresses the neck against the opponent's own shoulder and arm rather than against empty space. This turns the defender's limb into a wedge that increases carotid pressure as the loop tightens, which is why extracting the arm is the single most consequential change either player can make. With the arm in, neck defense and hand fighting from the bottom are severely limited because the primary framing arm is occupied inside the lock. The position's identity and its finishing power both depend on that arm staying trapped."
+    },
+    {
+      "question": "How is compression generated in Anaconda Control, and why is grip strength alone insufficient?",
+      "answer": "Compression comes primarily from the top player's chest driving downward into the trapped shoulder combined with the two encircling arms squeezing elbow-toward-elbow, not from the hands crushing inward. Body weight and skeletal structure supply the force while the clasped grip merely maintains the closed loop, which is why a technically sound anaconda can be held with relatively relaxed hands between finishing attempts. Relying on grip and forearm squeezing exhausts the attacker without meaningfully increasing pressure. The position rewards structure over strength, which also shapes the energy economy for both players."
+    },
+    {
+      "question": "Which body angle and weight distribution make the position what it is for both players?",
+      "answer": "The controlling player is positioned roughly perpendicular to the defender, with the chest heavy over the trapped shoulder and the hips beside or slightly behind the opponent's hips. This perpendicular relationship channels weight through the upper body onto the neck-and-shoulder package while keeping the hips mobile enough to walk laterally or initiate a roll. The defender's head and neck are bent forward and to the side by the grip, creating the angle that makes the strangle work. If the controlling player's weight drifts too far forward past the head, the perpendicular angle collapses and their control degrades, shifting the advantage toward the defender."
+    },
+    {
+      "question": "Why does Anaconda Control function as a hub position rather than a single-outcome strangle?",
+      "answer": "The arm-in front headlock configuration sits at the intersection of several related attacks that share the same entry, so the same grip can flow into the anaconda choke, the darce, or a guillotine depending on how the defender reacts. When the trapped arm straightens or extracts, the darce angle opens; when the arm pulls free toward the attacker, the guillotine becomes available. It also branches positionally to side control via the roll-through or to back control when the opponent turns away. This shared front-headlock family membership is why both players treat any single defensive reaction as opening a different branch rather than ending the exchange."
+    },
+    {
+      "question": "What role does the roll-through play in the fundamental dynamics of this position?",
+      "answer": "The roll-through is the defining mechanism by which the perpendicular top position converts into a finishing angle, using momentum and weight transfer rather than pure squeezing. The attacker rolls toward the choking-arm side, pulling the trapped opponent over and landing perpendicular with the loop tightened by the rotation itself. It is a shared pivot point in the position because its success or failure determines whether the exchange resolves into a locked submission or a scramble back toward turtle or front headlock. Both players orient their base and posting around whether the roll can be initiated or denied."
+    },
+    {
+      "question": "Why is Anaconda Control considered a fundamentally transitional, short-duration position for both players?",
+      "answer": "The position is inherently unstable because the compression that threatens the choke also motivates the defender to move immediately and gives the attacker strong incentive to finish or advance before the defender resets. The top player's mobile-hips, heavy-chest configuration is built for dynamic action rather than static holding, so lingering allows the defender to extract the arm or create framing space. The metrics reflect this: the position typically lasts only tens of seconds before resolving into a submission, an advancement to side or back control, or an escape. Neither player benefits from treating it as a stable resting place."
+    },
+    {
+      "question": "How does the interplay of chest pressure, hip movement, and the closed loop determine which player controls the position moment to moment?",
+      "answer": "Control hinges on maintaining an unbroken chest-to-shoulder connection while the encircling loop stays closed and the trapped arm stays inside. When the top player keeps chest pressure continuous and walks the hips to preserve the perpendicular angle, the loop compresses and the defender cannot frame. Control shifts toward the bottom player the instant space appears at the choking arm's elbow or the trapped arm begins to extract, because either event opens the loop and relieves the neck compression. This is why both players fight over the same few variables: the chest connection, the tightness of the loop, and the status of the trapped arm."
+    }
+  ]
 }

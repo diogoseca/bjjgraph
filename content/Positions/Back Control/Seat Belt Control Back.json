@@ -737,5 +737,39 @@
         "answer": "Attempt rolling escapes when opponent extends their body to complete a submission, temporarily loosening their hook control. Also effective when opponent is high on your back with their weight forward, making them susceptible to being rolled. Do not attempt rolls when opponent has tight hooks and compact body positioning - this wastes energy and often results in worse position. The roll requires opponent's commitment elsewhere that compromises their hook security."
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What grip configuration defines the seat belt and distinguishes it from a parallel over-under harness?",
+      "answer": "The seat belt is a diagonal over-under grip: one arm crosses over the shoulder while the other threads under the opposite armpit, with the hands joined across the chest or lat. This diagonal arrangement is what defines it, as opposed to two parallel arms. The crossing of the two arms on opposite planes is precisely what locks the torso, whereas parallel grips leave a rotational axis open. Break the diagonal and the configuration ceases to be a seat belt regardless of whether the hands stay connected."
+    },
+    {
+      "question": "Why is the diagonal seat belt biomechanically harder to escape than a parallel two-arm hug?",
+      "answer": "The over-arm pulls down on one shoulder while the under-arm lifts the opposite side, producing two opposing force vectors that cross the torso diagonally. These opposing vectors clamp the trunk against rotation in both directions, because turning one way is blocked by the over-arm and turning the other way is blocked by the under-arm. A parallel hug applies force along a single plane, leaving one rotational axis free. The seat belt effectively removes that free axis, which is the core reason it is the universal back-control grip."
+    },
+    {
+      "question": "What role do the hooks play in the seat belt configuration and why must they sit deep in the thighs?",
+      "answer": "Both legs hook inside the opponent's thighs (or lock as a body triangle), pinning the hips so the lower body cannot rotate independently of the trapped upper body. Depth matters because feet placed on the inner thigh muscles cannot be cleared simply by bringing the knees together, whereas shallow hooks near the knees are stripped by knee pinch or hip movement. Deep hooks establish the stable lower-body base that the seat belt's upper-body control relies on. Together the grip and hooks control both ends of the spine so neither can pivot free of the other."
+    },
+    {
+      "question": "What is the function of the chest-to-back connection and head placement in defining this position?",
+      "answer": "The chest pressed flat against the opponent's back eliminates the space that rotation or bridging escapes require, keeping the shoulders pinned forward. Zero gap between chest and back means any bridge is immediately followed and closed rather than becoming cumulative space. The head is placed to one side of the opponent's head, not directly behind it, both to avoid backward head-butts and to keep the controlling player's balance over the spine. Chest connection plus a side-placed head is a structural element of the configuration, not merely a comfort detail."
+    },
+    {
+      "question": "How does the seat belt relate to and differ from its neighboring positions like Body Triangle, Crucifix, and Gift Wrap?",
+      "answer": "Body Triangle keeps the same seat belt upper-body grip but replaces the two-hook lower body with a figure-four leg lock, trading mobility for even tighter hip control. Crucifix is a more advanced back configuration reached when one of the opponent's arms gets isolated and trapped by the legs, going beyond the seat belt's symmetric grip. Gift Wrap is a different upper-body control where one of the opponent's own arms is folded across their neck. All share the back-control family, but the defining seat belt trait is specifically the diagonal over-under with two independent hooks."
+    },
+    {
+      "question": "Where does the clamping force in a well-maintained seat belt actually come from, and why does that make it low-energy to hold?",
+      "answer": "Control pressure comes primarily from chest compression and hook tension driven by the core and hips, not from squeezing with the arms. The arms only maintain the hand connection; they do not generate the clamping force, which would otherwise fatigue the grip within a minute or two. Roughly the bulk of control is chest-to-back and hook tension, some from hip positioning, and only a small fraction from arm grip. This sourcing of force through the trunk rather than the arms is why the configuration is sustainable for long durations rather than a short grip-strength contest."
+    },
+    {
+      "question": "Why is the hand connection across the chest the single most contested control point in this position?",
+      "answer": "The joined hands are what convert two separate arms into one locked diagonal loop, so the entire control structure depends on that connection holding. Keeping the hands connected via gable, wrist-on-wrist, or palm-cup grip is the structural priority above all else. Conversely, separating those hands is the primary way the loop is defeated, because once it opens the diagonal clamp collapses even if both arms remain in place. This is why grip fighting over the hand connection is the central battle regardless of which side you are on."
+    },
+    {
+      "question": "Can a seat belt exist without hooks, and what does that transitional state reveal about the position's control layers?",
+      "answer": "Yes, the seat belt grip can be held momentarily without hooks during transitions, where the upper-body diagonal grip temporarily compensates for missing leg control. This reveals that the position has two somewhat independent control layers: the upper-body diagonal grip and the lower-body hooks. A complete seat belt has both, but either can briefly carry control while the other is being established or recovered. Understanding these as separable layers explains why re-establishing a lost hook while keeping the grip, or vice versa, is a normal part of maintaining the position."
+    }
+  ]
 }

@@ -652,5 +652,39 @@
         "answer": "Against a perfectly balanced opponent, create off-balancing reactions through grip manipulation and false attacks. Pull sharply on their sleeve or collar to force them to resist in one direction, then sweep in the opposite direction as they recover. Use transitions to other positions (X-Guard, Single Leg X) to create new angles and force reactions. The key is never letting them stay comfortable - constant movement and threat generation eventually creates the opening you need."
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What leg configuration defines Reverse X-Guard and distinguishes it from standard X-Guard?",
+      "answer": "In Reverse X-Guard both hooks stack on the same side of a single trapped leg, whereas standard X-Guard splits the leg with an X where one hook sits high on the hip or thigh and the other behind the knee. Here the outside leg hooks behind the opponent's near knee while the inside leg extends across their far hip, creating a scissoring frame on one leg rather than a straddling X. The bottom player also faces away from the opponent, inverting the orientation relative to classic X-Guard. This same-side hook stacking is what makes the configuration explosive for lifting rather than the lateral off-balancing of the parent position."
+    },
+    {
+      "question": "Why does the bottom player face away from the opponent in Reverse X-Guard, and what does that orientation accomplish?",
+      "answer": "Facing away inverts the hips relative to the opponent so the back and shoulders anchor to the mat while the hips load underneath the opponent's base. This orientation converts the trapped leg into a lever that can be driven upward, generating vertical elevation instead of the lateral tilting typical of front-facing guards. It also shortens the distance from the guard player's power source, the hips and hip flexors, to the opponent's compromised leg. The trade-off is reduced upper-body vision of the opponent, which shapes how both players read the exchange."
+    },
+    {
+      "question": "What are the two primary control points that hold Reverse X-Guard together?",
+      "answer": "The primary control point is the outside hook behind the opponent's near knee, which prevents them from stepping the leg free and supplies the lifting fulcrum. The secondary control point is the inside leg pressing across the far hip or thigh, which governs rotation and steers the direction of any off-balancing. Together these create an asymmetric platform where one leg lifts and the other rotates, so losing either point collapses the leverage. Grip control on the opponent's upper body or ankle reinforces both by preventing them from squaring posture and clearing the hooks."
+    },
+    {
+      "question": "How does the elevated-hips, grounded-shoulders relationship create the lifting leverage in this position?",
+      "answer": "With the shoulders connected to the mat and the hips driven upward, the torso becomes a stable base while the hips act as a moving lever. The trapped leg rides on top of the elevated hips, so raising the hips directly unweights and lifts the opponent's leg off the floor. Because the shoulders stay planted, that elevation can be generated without being pushed flat or losing structural connection. This shoulders-down, hips-up geometry is the mechanical engine of the position, independent of who is attacking or defending."
+    },
+    {
+      "question": "What is the central battle over hip height that decides who controls Reverse X-Guard?",
+      "answer": "The exchange hinges on whose hips sit higher. The bottom player wants their hips elevated under the opponent to load the lifting lever, while the top player wants their hips above the bottom player's to flatten the structure and kill the elevation. When the top hips ride high and drive forward, the trapped leg cannot be lifted and the sweep mechanics stall; when the bottom wins the height contest, the opponent's base floats and becomes sweepable in whatever direction the inside leg steers. This vertical contest, rather than any single grip, is the position's defining dynamic."
+    },
+    {
+      "question": "Why is the near-knee hook the linchpin connection that both players fight over?",
+      "answer": "The outside hook behind the near knee is the single point that keeps the opponent's leg captured and supplies the fulcrum for elevation, making it the most contested connection in the position. If that knee slips or straightens free, the leg entanglement and the lifting leverage collapse together, dumping play back toward open guard. It is therefore the connection each side prioritizes: reinforcing it with hip-angle pressure versus clearing or straightening it. Because it doubles as a leg-entanglement anchor, it also gates the transitions into Single Leg X, Ashi Garami, and back takes."
+    },
+    {
+      "question": "How does Reverse X-Guard differ mechanically from Single Leg X-Guard, its most common transition target?",
+      "answer": "Both control a single leg, but Reverse X-Guard stacks both hooks on the same side with the bottom player inverted and facing away, generating explosive vertical elevation. Single Leg X uses a shallower hook configuration around one leg with the bottom player more square and lower, trading lifting power for more sustainable, lower-risk control. Because Single Leg X demands less hook depth and less inversion, it serves as the natural bail-out when the deep Reverse X hooks begin to slip. The positions share a leg-entanglement family but sit at different points on the elevation-versus-stability spectrum."
+    },
+    {
+      "question": "What makes Reverse X-Guard a hub connecting standing-guard entries to leg-entanglement and back-take exchanges?",
+      "answer": "Because the position captures a single leg with a deep inverted hook system, it sits at the intersection of several modern systems: De La Riva and other standing guards feed into it, and its trapped-leg control feeds out to Single Leg X, Ashi Garami, and Deep Half Guard. When the opponent steps back or backsteps to escape, the inverted orientation exposes their back, opening back-take pathways. This many-in, many-out connectivity is why it functions as a nodal position rather than a dead-end sweep. The shared leg-entanglement anchor is the thread that lets play flow between adjacent positions without fully resetting."
+    }
+  ]
 }

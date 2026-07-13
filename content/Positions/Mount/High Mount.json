@@ -739,5 +739,39 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What positional configuration defines High Mount and distinguishes it from standard mount?",
+      "answer": "In High Mount, the top player's knees have walked up from the hips to sit high near the bottom player's armpits or shoulders, placing the top player's weight and hips over the upper chest and sternum rather than the belt line. Standard mount centers control on the hips, whereas High Mount shifts the entire base upward so the top player is effectively riding the ribcage. This upward migration is the single defining trait, trading a lower center of gravity and broad base for compression of the upper torso and proximity to the neck and arms. The configuration exists on a continuum, and the higher the knees climb, the more the position's characteristic dynamics intensify."
+    },
+    {
+      "question": "Why does the elevated knee and hip position of High Mount neutralize the bridge for the bottom player?",
+      "answer": "The bridge, or upa, works by the bottom player planting the feet and extending the hips to throw the top player's weight forward over their own head. When the top player's weight sits on the upper chest and sternum instead of the hips, the bottom player's hip extension no longer has a load positioned above it to displace. Bridging force travels up the torso and dissipates because the top player's mass is already past the fulcrum, near the shoulders. This is the biomechanical reason High Mount converts the bridge from the bottom player's primary escape into a largely wasted expenditure of energy."
+    },
+    {
+      "question": "How do the knees function as control points in High Mount for both players?",
+      "answer": "The top player's knees act as wedges pinned tight against the bottom player's armpits and upper ribs, occupying the exact space the bottom player needs to insert an elbow or frame and begin an elbow escape. As long as those knees stay glued to the armpits, there is no room to shrimp or turn to the side. For the bottom player, the knee-to-armpit seal is the reference point they must break: escapes only become mechanically viable in the brief window when a knee drifts away from the armpit during a transition or attack. The tightness of this knee seal is therefore the position's central contested variable."
+    },
+    {
+      "question": "What role does forward weight distribution play in the mechanics of High Mount?",
+      "answer": "High Mount depends on the top player carrying weight forward with the chest over the bottom player's chest, driving downward through the sternum rather than sitting upright. This forward lean pins the shoulders to the mat and compresses the ribcage, restricting the bottom player's breathing and eliminating the postural space needed to turn. Sitting upright would shift the top player's center of gravity backward toward the hips, restoring bridge leverage and inviting a sweep. The forward-heavy structure is thus what makes the elevated position stable despite its relatively narrow base."
+    },
+    {
+      "question": "How does the arm and neck exposure in High Mount create the shared risk-reward dynamic of the position?",
+      "answer": "Because the top player's hips sit at chest height, the bottom player's arms and neck are drawn into immediate reach, which is exactly why High Mount carries the highest finishing rate of any mount variation. For the bottom player, any arm that extends to frame or push becomes an immediate armbar or shoulder-lock target, and any exposed collar or neck invites a choke. This creates a defensive paradox where framing to create space also surrenders the limb being framed with. The proximity that makes the top player so dangerous is the same proximity that punishes the bottom player's natural defensive reflexes."
+    },
+    {
+      "question": "Why is High Mount considered a less stable base than standard mount despite being more dominant?",
+      "answer": "Walking the knees high raises the top player's center of gravity and narrows the effective base, since weight is concentrated over a smaller area of the upper torso rather than spread across the hips. This trade sacrifices the broad, low stability of standard mount in exchange for submission proximity and bridge neutralization. The instability is only masked by constant forward pressure and tight knee wedging; the moment either lapses, the elevated position is more prone to being bumped off balance than a low mount. High Mount is therefore best understood as a calculated exchange of raw stability for finishing leverage."
+    },
+    {
+      "question": "How is weight-shift timing the pivotal shared dynamic that governs exchanges in High Mount?",
+      "answer": "Every submission attempt from the top requires briefly redistributing weight to reach for a collar, isolate an arm, or step a leg over, and each of those shifts momentarily loosens the knee seal or the forward chest pressure. These transient windows are the only realistic openings the bottom player has to bridge, shrimp, or extract a limb. The position is thus a timing battle where the top player tries to attack without surrendering control and the bottom player waits to convert the attacker's weight commitment into space. Understanding that offense and defense both hinge on these micro-moments of weight redistribution is the key to reading the position."
+    },
+    {
+      "question": "Why is High Mount described as a checkpoint that borders S-Mount and Technical Mount rather than a fixed endpoint?",
+      "answer": "High Mount sits at the top of the mount hierarchy and shares direct borders with S-Mount and Technical Mount, so the position is defined as much by what it flows into as by its own configuration. When the bottom player pushes on the hips or frames for distance, the geometry opens a path to S-Mount, where one arm becomes isolated. When the bottom player turns to their side chasing an elbow escape, that same turn feeds Technical Mount, which follows the exposed back. These are not separate destinations but the reflexive positional answers to specific escape attempts, which is why High Mount is understood as the final checkpoint before a finish or a further advancement."
+    }
+  ]
 }

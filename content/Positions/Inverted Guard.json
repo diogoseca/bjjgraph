@@ -778,5 +778,35 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What spatial configuration defines Inverted Guard and distinguishes it from other open guards?",
+      "answer": "Inverted Guard is defined by the bottom player rotating onto their shoulders and upper back with hips elevated and legs pointed up toward the top player, effectively turning upside-down beneath the passer. Unlike seated or supine open guards where the practitioner faces the opponent conventionally, here the body axis is rotated so the shoulders bear weight and the hips float overhead. This upside-down orientation is what generates the unconventional angles that make the position distinct, and it is typically entered dynamically as one player spins beneath the other rather than assumed statically."
+    },
+    {
+      "question": "Where must weight be borne in Inverted Guard, and why is this the position's central safety constraint?",
+      "answer": "Weight must rest across the shoulder blades and upper back, never on the neck or cervical spine. Because the bottom player is inverted with hips overhead, any load that drifts onto the neck compresses the cervical vertebrae and risks serious injury. The head is tucked with chin toward chest and the shoulders press actively into the mat to keep the loading line off the neck. This constraint is shared by both players' awareness: the passer's stack pressure exploits it, and the bottom player's structure defends against it."
+    },
+    {
+      "question": "What are the primary control and connection points between the two players in Inverted Guard?",
+      "answer": "The bottom player's legs extend up to the top player's hips or torso, connecting via hooks or foot placement to control distance and prevent a smash pass. Upper-body grips on the sleeves, collar, or pants regulate the top player's ability to establish dominant passing grips or flatten the guard. The top player counters by gripping the pants, legs, or belt to control distance and by seeking pressure angles that drive the elevated hips down. Control in this position is fundamentally a contest over distance and rotation rather than static pins."
+    },
+    {
+      "question": "Why is Inverted Guard considered transitional rather than a position to hold, for both players?",
+      "answer": "The inverted structure depends on active hip elevation and free rotation; the moment mobility stalls, the elevated hips sink and the shoulders become a target for stack pressure. Holding statically drains energy quickly and exposes the bottom player to being flattened, while the top player likewise cannot pass a truly mobile inverted opponent by waiting. Both players therefore treat it as a brief window: the bottom player enters with a specific transition in mind and the top player attacks the moment rotation slows. This is why the position functions as a link between guards rather than a resting state."
+    },
+    {
+      "question": "How does rotation function as the defining mechanic of Inverted Guard compared to frame-based guards?",
+      "answer": "Where most guards rely on frames and hooks to hold a passer at a fixed distance, Inverted Guard weaponizes rotation by spinning the body beneath the opponent to relocate the hips and create fresh angles. This turning motion converts the passer's forward pressure into the inverted player's momentum, letting them track a passing attempt dynamically rather than resisting it statically. The trade-off is a brief moment of vulnerability during the spin in exchange for direct access to the back and underneath angles. Rotational movement, not static holding, is what keeps the position alive for the bottom player and what the top player must arrest."
+    },
+    {
+      "question": "What positions does Inverted Guard sit between, and what makes it a hub for those transitions?",
+      "answer": "It connects entry guards like De La Riva and Reverse De La Riva to more dominant destinations such as back control, X-guard, and single-leg-X leg entanglements. It is a hub because the upside-down angle simultaneously threatens the opponent's back (via spinning under to the rear) and their legs (via threading into entanglements), so a single inverted rotation can branch to multiple attacks. The passer, conversely, must defend several exits at once, which is why the position disrupts traditional passing sequences. Its value comes from these branching pathways rather than from any submission it holds directly."
+    },
+    {
+      "question": "How does elevated hip position determine the balance of advantage in Inverted Guard for either player?",
+      "answer": "When the bottom player keeps hips high and mobile, they retain the rotational freedom to track the passer, create sweep angles, and thread transitions, keeping the exchange favorable to the guard. As soon as those hips sink toward the mat, rotation is lost, the shoulders flatten, and the top player gains a direct pressure line to stack or smash. Hip elevation is therefore the shared barometer of who is winning the exchange: it is the resource the bottom player must protect and the thing the top player is actively trying to collapse. Both players read hip height to decide whether to attack or defend."
+    }
+  ]
 }

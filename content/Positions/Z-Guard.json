@@ -694,5 +694,39 @@
         "answer": "Immediately make a decision - either re-establish the knee shield or commit to a transition. To recover, hip escape aggressively while using your arms to frame and create space, then re-insert the knee shield before they can settle their weight. If recovery isn't possible, accept the collapse and dive into deep half guard using their forward momentum. The worst option is staying in the halfway position where you have neither good defense nor offensive options."
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines Z-Guard and distinguishes it from ordinary half guard?",
+      "answer": "Z-Guard is a half guard variation where the bottom player's inside leg traps one of the top player's legs while the outside leg forms a high knee shield, with the shin angled across the top player's shoulder or upper chest. Viewed from the side, the trapped-leg and shielding-leg geometry resembles the letter 'Z', which gives the position its name. Unlike flat half guard where the bottom player accepts chest-to-chest pressure, Z-Guard interposes the shin as a wedge that holds the top player at distance. This shin barrier is the single feature that separates the configuration from a standard half guard entanglement."
+    },
+    {
+      "question": "Why is the height of the knee shield on the torso such a critical variable in Z-Guard?",
+      "answer": "The knee shield's contact point directly determines how much leverage the frame generates against the top player's forward pressure. When the knee is placed high on the shoulder or collarbone, it sits far from the top player's hips and creates a long lever that makes weight consolidation mechanically disadvantageous. When the shield slides low toward the hip or belly, the lever shortens and the top player can begin driving chest-to-chest to flatten the frame. This height distinction is exactly what separates Z-Guard from standard knee shield half guard, where the knee rides lower on the hip."
+    },
+    {
+      "question": "What are the primary contact and control points that hold the Z-Guard configuration together for both players?",
+      "answer": "The position is anchored by three simultaneous points working as an integrated system rather than in isolation. The knee shield shin presses into the shoulder or upper chest to manage distance, the trapped inside leg wraps the top player's leg to deny leg extraction, and the underhook-versus-crossface battle on the near side governs whose posture and angle wins. The bottom player's shielding-side foot typically hooks the hip or thigh to reinforce the distance the shin creates. Because these points reinforce each other, collapsing any one of them tends to unravel the others."
+    },
+    {
+      "question": "Why is the underhook battle described as the decisive factor for both players in Z-Guard?",
+      "answer": "The underhook determines who controls posture and angle, which in turn dictates whether the position resolves as a sweep or a pass. When the bottom player wins the underhook on the trapped-leg side, they can break the top player's posture forward and load sweeps or back takes. When the top player wins the crossface and far-side control instead, they suppress the bottom player's framing and open passing lanes. Because the same grip simultaneously enables one player's offense and neutralizes the other's, it functions as a shared pivot point rather than a role-specific advantage."
+    },
+    {
+      "question": "How does the angled-torso, shoulders-off-the-mat posture shape the dynamics of Z-Guard?",
+      "answer": "The bottom player keeps their shoulders elevated at roughly a 45-degree angle with weight on one shoulder blade and hip rather than lying flat. This angled posture preserves hip mobility so the bottom player can hip escape to maintain distance or bridge to create sweeping angles. If the top player succeeds in flattening the bottom player square to their back, the knee shield loses its spring and the frame becomes far easier to pass. Consequently the contest for staying angled versus being flattened is one of the central dynamics both players fight over."
+    },
+    {
+      "question": "In what sense does the knee shield behave as a spring-loaded mechanism that governs the exchange?",
+      "answer": "The shielding leg maintains constant tension into the top player's upper body so that it can either extend to generate space or compress to enable a transition, much like a loaded spring. When the top player drives forward, that incoming pressure is stored in the frame and can be redirected, which is why the bottom player uses the opponent's own pressure to power sweeps. When the shield is allowed to go slack, the top player settles weight and the stored energy disappears. This load-and-release quality is what makes Z-Guard simultaneously a retention frame and an offensive launching platform."
+    },
+    {
+      "question": "How does Z-Guard relate to and differ from the adjacent positions of deep half guard and standard knee shield half guard?",
+      "answer": "Z-Guard sits between open guard and deep half guard in the retention hierarchy, distinguished by its high shin frame targeting the shoulder rather than the hip contact that defines standard knee shield half guard. When forward pressure collapses the knee shield, the natural escape hatch is to dive underneath into deep half guard, using the top player's own momentum. In this sense deep half is the primary release valve when the Z-frame fails, while standard knee shield half is the lower-leverage cousin from which Z-Guard is elevated. The trapped inside leg is the common thread linking all three as half guard family positions."
+    },
+    {
+      "question": "Why is the collapse of the knee shield the pivotal event that decides how a Z-Guard exchange resolves?",
+      "answer": "As long as the shin maintains its high frame and tension, the top player cannot consolidate weight and the bottom player retains both sweeping and retention options. Once the shield collapses and the top player settles chest pressure, the leverage that defined the position vanishes and the exchange tips decisively toward a pass. This is why the moment of partial collapse is treated as a hard decision point by both players: the top player rushes to establish a control point before the frame re-extends, while the bottom player must immediately either re-insert the shield or bail into deep half. Lingering in the half-collapsed middle leaves neither player their intended tools."
+    }
+  ]
 }

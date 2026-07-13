@@ -735,5 +735,35 @@
         "answer": "Develop a rhythm that alternates between high-intensity attack sequences and lower-intensity control phases. During attack phases (10-15 seconds), commit fully to sweep or submission chains with active hip movement. During control phases (5-10 seconds), maintain grip tension and hip elevation but reduce large movements while you recover grip strength and assess their reactions. Never go completely passive - always maintain some degree of off-balancing pressure through your grips. Focus on efficiency by using hip movement to amplify grip power rather than relying solely on grip strength."
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What grip configuration defines collar sleeve guard and distinguishes it from other open guards?",
+      "answer": "Collar sleeve guard is defined by an asymmetric two-grip structure in which the bottom player pairs a cross-collar grip with a same-side sleeve grip on the opponent's forearm or wrist. The collar grip runs diagonally across the body to control posture and upper-body rotation, while the sleeve grip on the matching side pins one arm and governs engagement distance. This same-side pairing is the defining feature: while a supporting leg frame regulates range, control originates from the hands rather than from the leg-to-arm connections that primarily define spider or lasso guard. The mismatch between a diagonal collar pull and a straight-line sleeve extension is what generates the rotational forces central to the position."
+    },
+    {
+      "question": "Why does the same-side collar and sleeve pairing generate rotational rather than purely linear force?",
+      "answer": "Because the two grips pull along different vectors, they form a couple, a pair of offset forces that produce torque rather than a single straight push or pull. The cross-collar grip draws one shoulder diagonally forward and down while the same-side sleeve grip anchors and extends that arm, so the opponent's upper body is twisted around its own spine instead of simply pulled forward. This rotational loading is far harder to resist than a linear pull because the opponent cannot brace against it by leaning into a single direction. The torque is what continually compromises the top player's square base and makes the position feel unstable even when their posture initially looks strong."
+    },
+    {
+      "question": "What role does the sleeve-side leg frame play in the shared mechanics of the position?",
+      "answer": "The sleeve-side leg typically posts a foot on the opponent's hip or bicep to act as a distance-regulating frame, forming the third control point alongside the two hand grips. This frame sets the engagement range so the collar pull can break posture without the top player collapsing weight forward into the bottom player. It also prevents the top player from closing distance to smother the guard or initiate a pressure pass. Because the foot frame connects to the same side as both grips, all three control points reinforce one triangle of control on one side of the body, leaving the opposite leg free to hook, elevate, or pump for dynamic action."
+    },
+    {
+      "question": "How does weight distribution and base tend to be organized between the two players in collar sleeve guard?",
+      "answer": "The bottom player keeps their hips elevated and mobile off the mat rather than flat, allowing constant angle changes that feed the rotational grips. The top player, meanwhile, must keep hips back and chest elevated with weight biased toward the free-hand side, because the sleeve grip denies them the ability to post that captured arm for base. This produces a characteristic asymmetry: one side of the top player's base is structurally weakened by the sleeve control, while the bottom player's floating hips continuously probe for the moment that base commits too far. The position is inherently unstable and rewards whoever better manages this shifting weight balance."
+    },
+    {
+      "question": "What are the primary control points that both players contest in collar sleeve guard?",
+      "answer": "There are three contested control points: the collar grip governing posture, the sleeve grip governing one arm and distance, and the leg frame regulating range. Whoever controls each point dictates the exchange, so the position is fundamentally a grip-fighting contest over these connections. The collar is the highest-value point because it directly manages posture and rotation, which is why it is generally established and defended first by both sides. Distance is the second axis of contention: the bottom player uses the sleeve grip and leg frame to hold an ideal working range, while the top player fights to either close distance for pressure or clear it entirely to pass."
+    },
+    {
+      "question": "How does collar sleeve guard relate to and transition between adjacent open guards like spider, lasso, and De La Riva?",
+      "answer": "Collar sleeve sits at a hub within the gi open-guard family and shares grip lineage with several neighbors, so the transitions are largely a matter of adding or converting a connection. Threading the free leg around the sleeve-gripped arm converts the position into lasso guard, while placing a foot in the bicep of that arm shifts it toward spider guard. Inserting a hook behind the opponent's leg blends it into De La Riva while retaining the collar and sleeve grips. Because the collar grip persists across all of these, it acts as the constant anchor that lets a player flow between guards as the opponent's positioning and passing pressure change."
+    },
+    {
+      "question": "Why is constant hip movement and angle adjustment essential to sustaining collar sleeve guard for both players?",
+      "answer": "A static collar sleeve guard lets the opposing player settle their weight, establish counter-grips, and begin a stable passing or defensive sequence, so stillness surrenders the position's core advantage. The rotational grip structure only produces its off-balancing torque when the bottom player's hips are actively shifting angles, typically fifteen to thirty degrees at a time, to keep reloading the collar pull from fresh directions. From the top, matching that movement is equally required, because failing to follow the changing angle allows the bottom player to create the perpendicular relationship that precedes most attacks. The position is therefore dynamic by nature: whichever player stops moving first generally cedes control of the engagement's timing."
+    }
+  ]
 }

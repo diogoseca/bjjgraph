@@ -715,5 +715,39 @@
         "answer": "Immediately insert your knee as a shield between your bodies before they can recollapse the distance. Use your free arm to control their hip and prevent them from re-establishing mount pressure. Continue shrimping to create more space rather than pausing. If you can get to half guard, lock it immediately and establish proper half guard defense before they can remount. Never stop moving until you've achieved a stable defensive position with proper connection points."
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines the mounted triangle and distinguishes it from a standard mount?",
+      "answer": "In the mounted triangle the top player threads one leg over the bottom player's shoulder and across the back of their neck, then tucks that ankle behind the crook of the opposite knee to form a figure-four that traps the neck and one of the bottom player's arms. This differs from standard mount, where both knees pin the mat beside the torso, because one leg has left the floor to encircle the head. The result is a hybrid state fusing mount's positional dominance with an active triangle-choke and armbar threat. The trade is inherent: the top player gains an immediate finish but surrenders part of the two-knee base that makes plain mount so stable."
+    },
+    {
+      "question": "Which arm-and-neck relationship is the load-bearing feature of the mounted triangle for both players?",
+      "answer": "The defining trap is one of the bottom player's arms isolated inside the loop alongside their own neck, so the top player's thigh compresses one carotid while the bottom player's own trapped shoulder blocks the other. This single configuration simultaneously builds the strangle and exposes the trapped arm to an armbar, which is why the position reads as a fork rather than a single attack. For the top player it is the source of finishing pressure; for the bottom player it is the primary danger to neutralize by keeping that arm bent and tight. The whole position lives or dies on whether that one arm stays trapped inside the loop."
+    },
+    {
+      "question": "Why is the mounted triangle mechanically less stable than the mount it develops from?",
+      "answer": "Lifting one leg off the mat to encircle the head removes half of the wide two-knee base that anchors a standard mount, leaving the top player supported mainly by the triangle lock and a single posted leg. This narrows the base and raises the top player's center of gravity, so a well-timed bridge toward the posted-leg side can more readily topple the configuration. That instability is precisely the escape window the bottom player hunts and the reason the top player must convert quickly. The position therefore behaves as a transient hub rather than a place either player can settle into for long."
+    },
+    {
+      "question": "How does the triangle angle govern finishing pressure and escape space for both players?",
+      "answer": "The choke tightens as the encircling leg pulls the head down and the top player shifts off the centerline to lay the shin cleanly across the neck, so small changes in angle produce large changes in carotid pressure. When the players are squared up the loop is loose enough for the bottom player to posture, frame, and begin extracting the trapped arm. As the top player angles toward the trapped-arm side, the far carotid gets cut and the loop closes, shrinking available space and accelerating the strangle. Both players are contesting the same variable from opposite ends: one seeking to sharpen the angle, the other to keep it blunt."
+    },
+    {
+      "question": "What role does the top player's posted leg and weight balance play in the shared dynamics of this position?",
+      "answer": "The un-triangled leg posts low on the mat or hooks the hip to replace the base the wrapped leg gave up, so its placement dictates whether the top player can absorb a bridge. Weight must be split between driving the triangle downward to finish and staying heavy enough on the torso to smother explosive reversals. Too much weight forward onto the choke leaves no mount pressure and invites a bridge-and-roll; too little forward pressure lets the neck breathe and the loop loosen. This balancing act is the central tension of the position, and the bottom player reads it as shifting pressure that signals when the base is momentarily compromised."
+    },
+    {
+      "question": "In what way does the mounted triangle function as a hub connecting several adjacent positions rather than a static hold?",
+      "answer": "Because the leg-over-neck structure and isolated arm sit between multiple finishes, the same configuration flows naturally into a triangle choke, a mounted armbar, a back take, or a retreat to high mount or S-mount. Which path opens is dictated by the bottom player's defensive reaction: a chin tuck and bent arm steer toward the armbar, an extended arm toward the strangle, and a turn toward the back. For the bottom player these same branch points read as escape windows, since each transition briefly loosens a control point. The position is best understood as a decision node linking mount, triangle control, armbar control, and back control rather than an endpoint."
+    },
+    {
+      "question": "How does the mounted triangle differ from a triangle attacked from guard despite sharing the leg configuration?",
+      "answer": "Both use the figure-four wrap around neck and one arm, but from guard the attacker is underneath and must fight gravity and stacking to finish, whereas in the mounted triangle the attacker sits on top and lets bodyweight drive the strangle downward. The mounted version also preserves top position and its scoring advantage, so the bottom player is defending from beneath rather than merely surviving on top. This inversion of who has gravity's help is why the mounted variation carries a higher finishing likelihood for the same lock. Recognizing the shared mechanics but opposite leverage is essential for both players porting their guard-triangle knowledge here."
+    },
+    {
+      "question": "Why is the mounted triangle metabolically expensive for both the top and bottom player?",
+      "answer": "The top player must continuously manage a narrow base, adjust the triangle angle, and choose between competing finishes, which demands active leg tension and hip mobility rather than the restful settling of a locked mount. The bottom player simultaneously fights the strangle with a chin tuck, protects the trapped arm from extension, and frames against the base, burning energy against constant dual threats. Neither player can fully relax because the position rewards whoever stays technical and punishes whoever thrashes or overcommits. This shared fatigue cost is why the exchange tends to resolve quickly into a finish, an escape, or a transition rather than a prolonged stalemate."
+    }
+  ]
 }

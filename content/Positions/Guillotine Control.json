@@ -748,5 +748,39 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What geometric configuration defines Guillotine Control regardless of which player is on top?",
+      "answer": "Guillotine Control is a front-headlock configuration where one player encircles the opponent's neck with the choking arm and clasps both hands to form a closed loop around the head and throat. The blade of the forearm or bicep crosses the front of the neck while the opponent's head is trapped between that arm and the attacker's torso. The defining feature is that the head is pulled lower than the hips, breaking the opponent's posture forward. This head-below-hips relationship is what separates a genuine control from a loose, escapable headlock."
+    },
+    {
+      "question": "Where are the control points in Guillotine Control, and why do they matter to both players?",
+      "answer": "The two primary control points are the clasped-hands loop compressing the neck and the connection between the choking arm and the attacker's torso. Compression on the trachea or carotids comes not from arm strength alone but from the closed loop plus the head being pulled into the chest. Any gap opening between the choking forearm and the torso instantly relieves pressure, which is why both the attacker guards that seam and the defender attacks it. The head, neck, and that arm-to-body seam are the shared battleground for both roles."
+    },
+    {
+      "question": "Why is head-below-hip posture the central mechanical requirement of Guillotine Control for both sides?",
+      "answer": "When the trapped player's head is forced below their own hip line, their spine is flexed forward and they lose the ability to drive weight, base out, or generate the posture needed to extract the head. This broken posture is simultaneously what maintains choke pressure and what prevents escape, so the attacker fights to preserve it. Conversely, the defender's entire escape game reduces to restoring posture—lifting the head back above the hips. Whoever wins the posture battle wins the position, making it the shared fulcrum of the exchange."
+    },
+    {
+      "question": "What distinguishes Guillotine Control from the neighboring Anaconda and Darce controls?",
+      "answer": "All three are front-headlock chokes, but the guillotine encircles the neck alone with the head trapped against the torso and the choking arm crossing the front of the throat. The anaconda and darce are arm-in chokes: the attacker threads an arm under the opponent's near armpit and around the neck, trapping both head and one arm. The practical trigger is the opponent's reaction—when they turn into the attacker or expose the near arm, the guillotine converts to anaconda or darce. The guillotine is thus the front-facing member of the same front-headlock family."
+    },
+    {
+      "question": "How do grip configurations change the mechanics of Guillotine Control for either player?",
+      "answer": "The main grips are palm-to-palm (Marcelo), gable grip, S-grip, and the arm-in variation where one of the opponent's arms is trapped inside the loop. A no-arm grip attacks the neck alone and demands tighter compression, while an arm-in configuration wedges the trapped shoulder to jack up the choke and reduce escape routes. High-elbow versus standard elbow position changes whether pressure lands behind the chin or across the throat. Both players read the grip and elbow height to know which defense or finish applies, so the grip is shared positional information, not a role-specific detail."
+    },
+    {
+      "question": "What is the role of the non-choking arm in Guillotine Control?",
+      "answer": "The non-choking (supporting) arm closes the loop by clasping the choking wrist or forearm, converting a one-armed neck wrap into a rigid frame that the opponent cannot simply peel. It can also switch to an underhook, overhook, or body grip to kill the opponent's ability to turn or create space. Without this second point of connection the choking arm can be stripped and the head extracted. This second-hand function is identical in principle whether controlling from top or bottom—it seals the structure and denies rotation."
+    },
+    {
+      "question": "Why does Guillotine Control create a simultaneous submission-and-position dilemma for the trapped player?",
+      "answer": "The trapped player must defend the choke by hand-fighting and tucking the chin, but the same actions that protect the neck usually surrender position, and defending position usually opens the neck. Because the head is broken forward and low, they cannot fully commit to both at once. This forced binary choice is the strategic engine of the position: the controlling player threatens the finish specifically to harvest the positional concession, or advances position to force the neck to reopen. The dilemma exists independent of top or bottom—it is a property of the configuration."
+    },
+    {
+      "question": "How does the choke's pressure actually get generated in Guillotine Control?",
+      "answer": "Pressure is a product of compression, not raw squeezing: the closed hand-loop shortens the circumference around the neck while the head is pulled into the torso, sandwiching the throat and carotids between the choking forearm and the attacker's body. The head-below-hips posture pre-loads the neck by flexing it forward, and elbow position aims the forearm blade at either the trachea or the carotids. Micro-adjustments of angle finish more reliably than added grip strength. This mechanism is why a tight seam and broken posture matter far more than arm size for either player."
+    }
+  ]
 }

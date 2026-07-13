@@ -700,5 +700,35 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines Mission Control and distinguishes it from an ordinary high guard?",
+      "answer": "Mission Control is defined by the bottom player threading the inside leg high across the top player's back while the outside leg drapes over and pins the far shoulder, and both hands pull the top player's head down into a broken posture. The signature element is that the shoulder is actively isolated by the outside leg and welded to the trapped head, rather than the leg being left as a passive hook that lets the opponent posture. This locked, self-reinforcing shoulder trap is what separates Mission Control from a generic high guard, where the leg floats freely and the top player can still square up and rebuild posture. The captured head and isolated shoulder are pinned together beneath the leg, defining the whole position."
+    },
+    {
+      "question": "Why is shoulder isolation considered the central control mechanism of Mission Control for both players?",
+      "answer": "The position traps one of the top player's shoulders beneath the high-guard leg, welding the head and that shoulder together so they can no longer move independently. This isolation strips the top player of the ability to build effective frames or square their posture, because the trapped side cannot post or drive. For the bottom player it is the anchor that keeps the entire configuration intact, and for the top player it is the primary thing that must be undone to escape. Both roles orient their entire game around whether that shoulder stays captured or gets freed, which is why isolation is the defining control rather than any single grip."
+    },
+    {
+      "question": "How does weight distribution create the characteristic 'cooking' dynamic that makes Mission Control fatiguing for the top player?",
+      "answer": "Because the bottom player's elevated hips fold the top player forward, the top player's weight is loaded awkwardly onto the single trapped shoulder rather than spread across a stable base. Supporting bodyweight on one compromised shoulder while bent forward is metabolically expensive, so the top player fatigues rapidly even without either athlete making an aggressive move. The bottom player, meanwhile, holds the frame largely through skeletal structure and hip elevation, spending comparatively little energy. This asymmetric loading is the 'cooking' effect, and it means simply maintaining the position steadily tilts the exchange in the bottom player's favor over time."
+    },
+    {
+      "question": "What role does the bottom player's hip elevation play in holding the entire Mission Control structure together?",
+      "answer": "Elevated hips are what keep the high-guard leg pressed high across the back and maintain the downward folding pressure on the trapped shoulder. When the hips stay up, the leg stays high and the top player's posture remains broken, preserving the shoulder isolation that defines the position. The instant the hips settle to the mat the leg slides lower, the shoulder regains mobility, and the top player can begin driving weight down to collapse the frame. Because of this, hip elevation is the single load-bearing variable both players monitor: the bottom player fights to sustain it and the top player works to make it drop."
+    },
+    {
+      "question": "How does pulling the head down function as a structural trap rather than simple holding pressure?",
+      "answer": "Pulling the head down aggressively while the leg pins the shoulder folds the top player's spine forward, and a bent, loaded spine cannot generate the extension needed to posture or base out. The head control and the shoulder-isolating leg work as opposing ends of a lever, so the top player's own attempts to fight one end tend to tighten the other. This is why the control is a trap and not just pressure: resisting it feeds it. The configuration becomes progressively harder to escape the more the top player struggles, because each defensive extension is redirected into deeper shoulder isolation."
+    },
+    {
+      "question": "Why is Mission Control described as an inherently transitional hub rather than a static holding position?",
+      "answer": "The position is built to keep the top player folded and shoulder-isolated only long enough to force a defensive reaction, and every reaction opens a different path. Posturing feeds a triangle angle, extracting the arm opens the omoplata, and stacking forward opens other rubber-guard controls, so defending one threat creates another. A static Mission Control lets the top player methodically organize an escape, so the bottom player must keep threatening to deny that timing. This dilemma-driven quality is exactly why the position is treated as a launching hub into New York, Carni, and the submissions rather than a place to rest."
+    },
+    {
+      "question": "What distinguishes Mission Control from adjacent rubber-guard controls like New York, Carni, and Zombie?",
+      "answer": "All of these controls share the same underlying goal of shoulder isolation and broken posture, but they differ in leg configuration and how the trapped limb is managed. Mission Control uses the inside leg threaded high across the back plus the outside leg pinning the far shoulder as its baseline lock. New York is the transition when the top player defends the arm, Carni achieves comparable shoulder isolation through a different leg placement, and Zombie is specifically oriented to absorb and redirect a stacking, forward-driving opponent. The common thread is the folded posture and captured shoulder; what changes between them is the geometry of the leg used to maintain that capture against a particular defensive response."
+    }
+  ]
 }

@@ -967,5 +967,39 @@
         "answer": "The three most common errors are: (1) Standing too tall with locked knees and weight on heels, which raises center of gravity and delays defensive reactions because you must first bend your knees before sprawling or changing levels, making you vulnerable to both takedowns and throws. (2) Flat-footed static positioning without active movement, which allows opponents to time attacks against a predictable target and eliminates your ability to create angles or generate offensive momentum. (3) Overextended or overly wide stance that compromises mobility, which makes you susceptible to foot sweeps and trips because your feet are planted in predictable positions and weight transfer between them takes longer."
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural features define the Standing Position and distinguish it from every ground-based state in BJJ?",
+      "answer": "The Standing Position is defined by both grapplers upright with their feet as the only points of contact with the mat, creating a mobile, two-legged base for each player rather than the multi-point ground contact of guard or pinning positions. Neither player has established dominant control, so the configuration is symmetric and neutral: both have equal access to offense and both carry equal risk of being off-balanced. Because the center of gravity is high and supported only by the feet, small disruptions in base translate quickly into falls or takedowns, which is why footwork and posture dominate the exchange. This contrasts sharply with ground positions where contact area is large, the base is low, and control hierarchies are already established."
+    },
+    {
+      "question": "Why is the Standing Position classified as neutral with a point value of zero despite being the gateway to the entire match?",
+      "answer": "It is neutral because neither grappler holds a positional or scoring advantage: both stand upright with equal opportunity to initiate takedowns, throws, or guard pulls. No points are awarded merely for being on the feet, since the position confers no control over the opponent's hips, posture, or movement. The score only changes when one player converts the exchange into a takedown, sweep, or dominant landing that satisfies advancement criteria. This zero-sum symmetry is precisely what makes grip fighting and off-balancing so contested, because both players are competing to break the neutrality in their favor."
+    },
+    {
+      "question": "What are the primary control points contested by both players in a standing exchange, and what does controlling each one achieve?",
+      "answer": "The primary control points are the collar or neck (via collar tie), the sleeves or wrists, and in no-gi the biceps, wrists, and head. Collar and collar-tie control governs the opponent's posture and head position, enabling snapdowns and steering their level. Sleeve or wrist control governs their arms and framing, denying grips and setting up drags and throws. Head and inside-tie control from the clinch range dictates distance and forward-backward pressure. Whichever player wins the majority of these control points dictates distance, angle, and the timing of every entry, which is why hand fighting is continuous rather than incidental."
+    },
+    {
+      "question": "How do the mechanics of off-balancing (kuzushi) function in the Standing Position for both the player applying it and the player resisting it?",
+      "answer": "Off-balancing works by driving the opponent's center of gravity outside the base formed by their two feet, using push-pull dynamics, directional changes, and grip-driven weight manipulation. When one player pulls while the other resists, or pushes into a retreat, the resisting player's weight is momentarily loaded onto one edge of their base, creating a window where a takedown or throw meets minimal resistance. The player resisting must continuously re-center by adjusting footwork and lowering their hips so their center of gravity stays over their feet. Because both stand on a mobile two-point base, kuzushi is reciprocal: the same push-pull that threatens one player can be redirected against the initiator if their own weight commits too far."
+    },
+    {
+      "question": "What role does distance management play in determining which techniques are even available from the Standing Position?",
+      "answer": "Distance sets the menu of available techniques for both players simultaneously. At long range with no contact, level-change shots such as single and double legs and open-space footwork dominate, since there are no grips to break first. At grip range, collar-sleeve exchanges, arm drags, and guard pulls become available because the hands can reach control points. At close clinch range, throws, snapdowns, body locks, and front-headlock series open up while shots become harder to complete. Each player uses footwork to move the exchange to the range that favors their preferred entries, which is why controlling distance effectively controls the opponent's options as much as your own."
+    },
+    {
+      "question": "Why is athletic stance with bent knees and weight on the balls of the feet fundamental to sustaining the Standing Position for both players?",
+      "answer": "A stance with slightly bent knees, hips set behind the shoulders, and weight on the balls of the feet lowers the center of gravity and keeps it centered over the base, which is what resists off-balancing in every direction. Bent knees allow instant level changes to shoot or to sprawl without the delay of first having to bend, whereas locked knees and heel-heavy weight raise the center of gravity and slow every reaction. Weight on the balls of the feet preserves the ability to step, pivot, and redistribute weight rapidly to match the opponent's movement. Because the position is symmetric, both players depend on this same base, and whichever player abandons it first becomes the easier target."
+    },
+    {
+      "question": "How does the Standing Position relate to and differ from the adjacent Clinch and guard-pull destinations it commonly feeds into?",
+      "answer": "The Standing Position is the open, neutral upright state, whereas the Clinch is the same upright frame after grips and head or body control have been established, collapsing distance and shifting the exchange toward throws and takedowns. A guard pull deliberately abandons the upright neutral base entirely, taking one player to a seated or supine ground position such as closed guard, seated guard, or De La Riva, trading standing mobility for a bottom guard game. Both transitions resolve the neutrality of standing: the clinch does so by tightening control while staying vertical, the guard pull by voluntarily going to the ground. Understanding these adjacencies matters because every standing decision is ultimately a choice about which of these states to convert the neutral position into."
+    },
+    {
+      "question": "Why is direct submission rare from the Standing Position, and what conditions allow the exceptions that do occur?",
+      "answer": "Direct submissions are rare because the neutral upright configuration gives neither player the sustained control over a limb or the neck required to isolate and finish, and both retain full mobility to circle away or posture out. The high, mobile base also means any attacker committing to a submission risks being off-balanced or countered before the finish locks. Exceptions arise when one player exposes their neck by posturing down or shooting poorly, opening standing guillotines and front-headlock chokes, or when a flying or jumping attack such as a flying kneebar or jumping guard converts the standing engagement directly into a leg entanglement or submission. These are higher-risk, higher-skill actions that depend on a specific opening rather than being reliable defaults from the neutral position."
+    }
+  ]
 }

@@ -682,5 +682,39 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What leg configuration defines Ushiro Ashi-Garami and distinguishes it from standard outside ashi-garami?",
+      "answer": "Ushiro Ashi-Garami is a reversed figure-four leg entanglement in which the entangling player's outside leg crosses over the trapped leg's knee line while the inside leg stays underneath, but with the entangled player's hips inverted rather than facing the entangler. That inverted hip orientation is the defining feature: the identical crossed-leg structure now operates against a player who has rotated their hips away instead of keeping them squared. Standard outside ashi keeps the bottom player's hips oriented toward the entangler, whereas ushiro exists specifically because those hips have turned through an inversion. This reversal is what reshapes the heel hook attacks and escape paths available compared to standard configurations."
+    },
+    {
+      "question": "Why does the reversed hip orientation in Ushiro Ashi-Garami change the mechanics of heel hook control?",
+      "answer": "The entangled player's inverted hips rotate the trapped foot and heel to a different angle than in standard ashi-garami, where the exposed heel points along a more predictable line. Because of this, the finishing player must bring the heel toward their own hip line rather than reaching across the opponent's body, producing a more compact finishing frame with different shoulder and hip alignment. This is a shared mechanical consequence of the position: the reversed geometry dictates where leverage lives for whoever can establish control first. It is precisely why heel hook grips and finishing mechanics from ushiro require different adjustments than standard outside or inside ashi."
+    },
+    {
+      "question": "How does control of the free (non-entangled) leg govern who wins the Ushiro Ashi-Garami exchange?",
+      "answer": "The entangled player's free leg is a primary rotational lever, because ushiro arises from an inversion that is still in motion. If the free leg slips underneath the entangling player's body, it becomes a post that completes rotation toward turtle or standing, or feeds a counter-entanglement. If the entangler presses that free thigh away from their centerline with their outside leg, rotation stalls and the entanglement holds. The position is therefore defined by a contest over the free leg as much as the trapped one: whoever controls its path controls whether the exchange resolves as escape or retention."
+    },
+    {
+      "question": "What makes Ushiro Ashi-Garami a fundamentally dynamic position rather than a static hold?",
+      "answer": "Ushiro Ashi-Garami exists only as a snapshot inside an ongoing inversion, so it lives in a state of continuous rotational tension where both players are mid-movement. Unlike a settled entanglement such as the saddle, neither participant can rest here; the entangling player must constantly adapt leg pressure to the turning hips while the entangled player is actively rotating toward escape or counter. The configuration degrades quickly in either direction, which is why it is treated as transitional with a short time-sustainability. Its instability is intrinsic: the reversed, mid-rotation geometry cannot be locked down the way squared-hip entanglements can."
+    },
+    {
+      "question": "How do the entangled player's inverted hips create simultaneous danger and opportunity in this position?",
+      "answer": "The hip inversion that produces ushiro both traps and liberates, which is why control depth decides the outcome. It keeps the leg captured in the reversed figure-four while presenting the heel at an angle a prepared attacker can exploit, yet the same ongoing rotation opens windows for the entangled player to clear the legs or enter a counter-entanglement. This dual character is the defining shared dynamic: the exact rotation that could complete an escape can also feed a finish, depending on how deeply the entangler has established control. Neither player holds a stable advantage, so the inverted hips act as a pivot point that rewards whoever reads the angle and acts first."
+    },
+    {
+      "question": "What role does the inside leg's depth of control on the trapped thigh play in Ushiro Ashi-Garami?",
+      "answer": "The inside leg's depth on the trapped thigh is the pivot that determines where the position resolves. Shallow inside-leg control leaves the trapped leg free to slide out toward standing or turtle, favoring extraction. Deep inside-leg control on the thigh blocks that slide and opens the pathway toward higher-control entanglements such as the saddle or honey hole. This is a role-agnostic control measure: both players read the same depth to judge whether the exchange is trending toward escape or toward a tighter entanglement, and both orient their next movement around it."
+    },
+    {
+      "question": "How does Ushiro Ashi-Garami differ from the saddle and 50-50 in terms of stability and control?",
+      "answer": "The saddle is a deep, hip-committing entanglement that pins the trapped leg with a settled figure-four, and 50-50 is a symmetrical, mutually stable configuration where both players hold equivalent leverage. Ushiro Ashi-Garami is neither settled nor symmetrical: it is a reversed, mid-rotation geometry that neither player can hold statically. Where the saddle traps and 50-50 balances, ushiro is a scramble frame that must convert into one of those more stable positions or dissolve into escape. Recognizing that instability is what separates it from its adjacent entanglements and dictates the urgency both players feel."
+    },
+    {
+      "question": "Why is body position relative to the opponent's hips the master variable that decides whether Ushiro Ashi-Garami favors escape or attack?",
+      "answer": "Because ushiro is an inversion caught mid-rotation, the relationship between the two players' hip lines sets every other option. When the entangling player stays behind or beside the turning hips, the entanglement holds and submission angles remain live; when the entangled player drives their hips through and turns away, the leverage collapses toward escape. This hip-to-hip geometry is the shared reference both players track, above grips or foot position. It is the single measurement that tells each participant whether the reversed configuration is currently a trap or a doorway."
+    }
+  ]
 }

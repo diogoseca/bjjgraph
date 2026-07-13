@@ -712,5 +712,39 @@
         "answer": "First priority is recovering inside arm position through swimming motions or framing against their shoulder. Simultaneously increase hip movement to create angles that prevent complete flattening. If they continue progressing, transition to Deep Half Guard by diving your upper body under their weight while maintaining bottom leg hook connection. Alternatively, release the inverted hook and recover to Butterfly Guard if they've created enough distance - maintaining a guard position is preferable to getting completely flattened."
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What leg configuration defines K-Guard and gives the position its name?",
+      "answer": "K-Guard is defined by an inverted inside hook that crosses over the opponent's trapped leg with the bottom player's knee pointing toward the opponent's far hip, paired with an active outside butterfly hook seated at hip level under the opponent's free leg. Viewed from the side, the crossed inside leg and elevated outside leg form the diagonal-and-vertical shape of a 'K', which names the position. This dual-hook structure sits at the intersection of deep half guard and butterfly guard, trapping one of the opponent's legs while leaving the other as a base. The two hooks working in opposition are what separate K-Guard from a static half guard clamp."
+    },
+    {
+      "question": "Why is K-Guard considered a dynamic position rather than a static retention structure?",
+      "answer": "The two hooks pull in different directions simultaneously: the inverted inside hook drags the trapped leg laterally across the centerline while the butterfly hook drives vertically to elevate, creating a constant push-pull that never lets the top player settle. This opposition means the configuration is always loading toward an off-balance rather than merely holding ground. Because neither hook is purely defensive, small shifts in either one immediately change the balance vectors both players must manage. The position lives on continuous angle change and tension, so a passive K-Guard collapses into standard smash-passing control almost instantly."
+    },
+    {
+      "question": "How does the trapped leg create the asymmetric balance that both players fight over?",
+      "answer": "One of the top player's legs is trapped between the crossed inside hook and the butterfly hook while the other leg remains free as a post, splitting the top player's base into a mobile side and an anchored side. This asymmetry prevents weight from distributing evenly, so the top player must constantly re-base against tension on the trapped leg while the bottom player loads that same leg across the centerline to undermine the anchored side. Because the imbalance is baked into the configuration itself, the trapped-leg tension is the shared axis the whole position turns on. Whoever controls that tension dictates whether the position tips toward a sweep or a pass."
+    },
+    {
+      "question": "What role does head and spine positioning play in the shared dynamics of K-Guard?",
+      "answer": "Keeping the head elevated off the mat with the shoulders angled maintains a spine alignment that permits circular hip movement and continuous angle generation. A flattened spine with the head on the mat eliminates hip mobility, which is the engine for both retention and off-balancing. The top player therefore attacks this exact structure by driving shoulder pressure and crossface to flatten the spine, while the position's viability for the bottom depends on preventing that flatten-out. Head and spine posture is thus a contested control point rather than an incidental detail."
+    },
+    {
+      "question": "What are the primary contested control points that determine who wins the K-Guard exchange?",
+      "answer": "The central battlegrounds are the far hip, the inside-arm/underhook position, and the tension in both hooks. Controlling the far hip anchors the bottom player and shuts down the hip escapes that power sweeps, so both players fight over it. Inside-arm and underhook position governs whether chest-to-chest contact can be established, which is the gateway to flattening the hooks. Because these points connect the upper-body frames to the lower-body hooks, dominance at one control point cascades into control of the whole configuration."
+    },
+    {
+      "question": "How does the push-pull coordination between upper-body frames and lower-body hooks amplify off-balancing?",
+      "answer": "K-Guard links a pushing action from the upper-body frames with a simultaneous pulling action from the hooks, so force is applied to the opponent along two vectors at once. When the frame pushes the chest or shoulder one way while the inverted hook pulls the trapped leg the opposite way, the opponent's base is twisted rather than simply loaded, multiplying the off-balancing effect. Disconnecting these two systems leaves gaps that allow passing or re-basing, so the mechanics depend on synchronization. This coordinated push-pull is why a well-timed K-Guard can move a heavier opponent with relatively little muscular effort."
+    },
+    {
+      "question": "How does K-Guard differ from the knee-shield half guards such as Z-Guard?",
+      "answer": "Knee-shield variations like Z-Guard place a shin or knee across the opponent's torso as a rigid frame that holds distance, functioning primarily as a static barrier. K-Guard instead threads an inverted hook underneath and across the trapped leg, trading that framing barrier for an active leg entanglement that pulls and elevates. The knee shield defends by blocking forward pressure, whereas the K-Guard hooks defend by redirecting that pressure into sweep and off-balance trajectories. This makes K-Guard more offensively loaded but also more dependent on constant tension than the comparatively stable knee-shield structures."
+    },
+    {
+      "question": "Why does K-Guard tend to funnel the exchange toward leg-entanglement positions like X-Guard and Single Leg X?",
+      "answer": "Because the butterfly hook already sits under the opponent's free leg and the inverted hook controls the trapped leg, the position is one leg-line adjustment away from full entanglements. When the top player steps back or extracts the trapped leg, that motion feeds the bottom player's hips directly underneath, which is the exact entry geometry for X-Guard and Single Leg X. Conversely, if forward pressure collapses the space, the same hook connection routes into deep half guard. K-Guard therefore behaves as a transitional hub whose hook structure naturally continues into the neighboring leg-lock and elevation positions rather than standing alone."
+    }
+  ]
 }

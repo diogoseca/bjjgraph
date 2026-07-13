@@ -659,5 +659,39 @@
         "answer": "Do not release the shallow overhook to attempt a full re-establishment, as this gives the opponent a momentarily free arm. Instead, increase head control pressure to maintain broken posture while working the overhook back to depth. Walk your overhook hand back up their arm by gripping their sleeve or wrist, then re-pummel your arm over their bicep using a circular motion. If the overhook continues slipping, immediately transition to a submission entry that uses the current grip — a wrist-level overhook can still initiate an omoplata rotation or convert into a wrist-control triangle setup."
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What four structural elements form the enclosed shape that gives Diamond Guard its name?",
+      "answer": "The diamond is bounded by the guard player's overhooking arm on one side, their head-controlling arm on the other, the opponent's trapped arm running through the middle, and the opponent's head at the apex. These four elements enclose a diamond-shaped space that locks the opponent's near shoulder and head into a single rigid unit. Because the two encircling arms meet the opponent's arm and head at converging angles, the frame behaves as a closed geometric loop rather than two independent grips. This closed structure is what distinguishes Diamond Guard from a simple overhook or a lone collar tie."
+    },
+    {
+      "question": "Which three anchors must both players contest to determine who governs the position?",
+      "answer": "The position is decided at three anchors: the depth of the overhook on the opponent's arm, the pull of the head control behind the neck, and the closed guard legs locked at the small of the back. Whoever controls overhook depth dictates whether the trapped arm can be posted or extracted, while control of the head-neck line dictates whether posture can be recovered. The closed guard ankles are the third anchor, since losing them lets the opponent create the hip distance that slackens both upper-body grips. Every meaningful exchange in Diamond Guard is a fight over one of these three anchors."
+    },
+    {
+      "question": "How does the head-to-hip-line relationship define whether the position is actually established?",
+      "answer": "Diamond Guard is only truly established once the opponent's head is pulled below their own hip line, spine rounded and weight driven forward onto the guard player. Above that line the opponent retains enough postural extension to straighten their spine and neutralize the frame, meaning the diamond exists in name only. The combined downward pull of overhook and head control is what drags the head under the hip line and holds it there. This broken-posture threshold is the objective marker separating a live diamond from a contested, incomplete one."
+    },
+    {
+      "question": "Why do the overhook and head control function as one interdependent system rather than two separate grips?",
+      "answer": "The overhook pulls one shoulder down and across the body while the head control pulls the head down and forward, producing two converging force vectors that meet at the opponent's trapped side. Neither vector alone breaks posture reliably, but together they trap the opponent between forces that cannot both be answered at once. Addressing the head pull requires movement that deepens the overhook's bite, and freeing the arm requires movement that feeds the head deeper. Losing either element collapses the geometry, which is why the position is defined by the pairing, not by either grip in isolation."
+    },
+    {
+      "question": "What role do the closed guard legs play in the upper-body diamond frame?",
+      "answer": "The closed guard ankles locked at the small of the opponent's back form the lower anchor that prevents the opponent from retracting their hips and creating distance. Without that leg lock, the opponent could back their hips out and drain the tension from both the overhook and the head control, letting the upper-body diamond slacken. Active heel pressure into the lower back also reinforces the forward-and-down posture break by pulling the opponent's center of gravity toward the guard player. The legs therefore convert the arm frame from a grip the opponent can walk away from into a genuinely closed structure."
+    },
+    {
+      "question": "How does Diamond Guard differ from standard closed guard and from a plain overhook guard?",
+      "answer": "Standard closed guard leaves the opponent's posture and both arms relatively free, offering a stable but low-threat platform. A plain overhook guard controls one arm but leaves the head uncontrolled, so the opponent can still recover posture by straightening the spine. Diamond Guard adds the head-control arm to the overhook, closing the frame so that arm and head are trapped as one unit and posture cannot recover. The trade-off is reduced guard mobility and higher grip commitment in exchange for a far tighter, more offensive posture-breaking structure."
+    },
+    {
+      "question": "What weight and force dynamics keep the frame stable while draining the opponent's energy?",
+      "answer": "The diamond relies on skeletal alignment and connective-tissue tension rather than sustained muscular squeezing, so the guard player's holding cost stays low. The overhook and head control pull the opponent's upper body forward and down onto the guard player, forcing the opponent to carry their own broken posture against gravity. Because the closed legs passively maintain the break, the opponent must expend continuous muscular effort to fight two anchors at once just to stay even. This asymmetry, where holding is cheap and escaping is expensive, is a defining dynamic of the position for both players."
+    },
+    {
+      "question": "Why does binding the near shoulder and head into a single unit make the diamond a rigid structure rather than two independent grips?",
+      "answer": "Because the overhook and head control lock the opponent's near shoulder and head together, the two grips stop behaving as separate controls and instead move as one coupled block. Rotating the head cannot happen without also moving the trapped shoulder, and the shoulder cannot travel without dragging the head, so neither element has an independent degree of freedom. This coupling is what lets a low-effort frame resist force from multiple directions: pressure applied to one anchor is transmitted through the shared structure to the other. The bound shoulder-head unit is therefore the mechanical reason the diamond holds posture broken as a single rigid loop."
+    }
+  ]
 }

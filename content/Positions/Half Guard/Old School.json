@@ -663,5 +663,39 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What is the defining leg configuration that makes Old School distinct from ordinary half guard?",
+      "answer": "Old School is built on the lockdown, a figure-four leg entanglement where the bottom player traps one of the top player's legs between their own, hooks the top player's ankle or instep with the bottom foot, and drives the upper knee into the back of the trapped thigh. Actively extending both legs stretches the top player's trapped leg away from their center, robbing them of base on that side. This leg tie-up is the structural anchor of the position: it immobilizes the trapped limb and generates the rotational leverage that plain half guard lacks. Without the lockdown extension the configuration collapses back into standard half guard."
+    },
+    {
+      "question": "Why is the fight for the underhook the central upper-body battle that determines who controls Old School?",
+      "answer": "The same shoulder line can only be won by one player: whoever threads the underhook denies the other. When the bottom player secures a deep underhook they gain the lifting leverage to rotate the top player over the trapped leg. When the top player instead wins the overhook, or whizzer, on that arm they clamp the shoulder down, kill the rotation, and start driving toward a pass. Because the underhook and whizzer are mirror images competing for the identical arm, the position is decided at that shoulder more than anywhere else."
+    },
+    {
+      "question": "How does head and posture control function as a shared control point in Old School?",
+      "answer": "Whoever controls the head controls the spine's ability to posture, and posture is what lets the top player base and pass. The bottom player pulls the head down and across toward the underhook side to break posture and coil the sweep, while the top player fights to lift the head and drive a crossface that turns the bottom player's face away and flattens them. This is a direct tug-of-war over the same head, so the head position is a reliable read on which player currently holds the initiative. Broken posture favors the bottom player's sweep; recovered posture and crossface favor the top player's pass."
+    },
+    {
+      "question": "What makes Old School a launching position rather than a stalling or holding position?",
+      "answer": "The lockdown plus underhook creates constant sweeping tension that neither player can safely ignore, so the configuration is inherently unstable and time-sensitive. The bottom player is loaded to rotate the top player over the trapped leg toward mount or the back, while the top player must keep advancing pressure toward a pass before that leverage matures. Because staying still lets the bottom player build the sweep, both sides are forced into active work rather than passive holding. This offensive urgency is why Old School has a short natural lifespan compared to genuine control positions."
+    },
+    {
+      "question": "How does weight distribution and hip angle govern the sweep-versus-pass exchange in Old School?",
+      "answer": "The bottom player must stay on their side with hips angled toward the underhook, placing a shoulder under the top player's center of gravity to create a fulcrum for rotation. The top player counters by driving chest weight downward and forward to flatten the bottom player onto their back, because a flat bottom player loses the geometric angle the sweep requires. Whoever wins this angle battle wins the exchange: hips on-side and coiled means the sweep is live, hips flattened means the pass is near. The whole position is therefore a contest over whether the bottom player can keep their hip angle against the top player's flattening pressure."
+    },
+    {
+      "question": "What is the dilemma that couples the Old School Sweep and the Electric Chair threat?",
+      "answer": "The lockdown's extension attacks the top player's trapped leg in two conflicting directions at once. If the top player keeps their weight forward and posture broken, the underhook-driven sweep can roll them over the trapped leg toward mount. If they instead try to clear the leg by extending it away, they feed the Electric Chair, where the bottom player splits and hyperextends the exposed leg. This two-horned threat means the top player's escape from one danger opens the other, which is precisely why Old School is offensively potent from the bottom."
+    },
+    {
+      "question": "How does Old School differ mechanically from a knee shield half guard?",
+      "answer": "In knee shield half guard the bottom player wedges a shin across the top player's hip or torso to create distance and frame outward, making it a spacing and defensive-recovery structure. Old School removes that shin frame entirely and instead ties the legs together in the lockdown while closing all distance through the underhook and head control. The intent is opposite: knee shield manages space to stay safe, while Old School eliminates space to generate rotational offense. This is why breaking the lockdown often sends the exchange back toward knee shield or standard half guard."
+    },
+    {
+      "question": "Why is the connection between the two players' torsos so critical to Old School regardless of who holds the advantage?",
+      "answer": "Any gap between the chests lets the disadvantaged player either recover posture and base or hip out and reguard, dissolving the position. The bottom player relies on chest-to-chest connection to keep the top player's weight loaded onto the sweeping fulcrum, while the top player relies on the same connection to smother hip movement and prevent reguarding. Because both sweep leverage and passing pressure depend on that unbroken contact, space is the common enemy for whoever currently leads. This shared reliance on tight connection is what makes Old School a close-contact, low-space battle by nature."
+    }
+  ]
 }

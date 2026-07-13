@@ -137,37 +137,61 @@ def build_graph_data(layout: dict, graph: dict) -> dict:
     return {"nodes": nodes, "links": links}
 
 
+def _qa_cards(fc: list) -> list:
+    out = []
+    for c in fc or []:
+        q = c.get("q") or c.get("question")
+        a = c.get("a") or c.get("answer")
+        if q and a:
+            out.append({"q": q, "a": a})
+    return out
+
+
 def build_flashcards(graph: dict) -> dict:
-    """Full decks from graph.json node flashcards, keyed '<Name>|<Role>'."""
+    """Drill decks keyed '<Name>|<Role>' (own ROLE tier, unchanged) PLUS the multi-level
+    hierarchy tiers: '<Position>|Position' (role-agnostic mechanics) and '<Family>|Family'
+    (cross-variant principles). Role decks carry `ancestors` pointing at their non-empty
+    position/family decks so the app can offer a Role/Position/Family drill toggle."""
     decks = {}
     for section in ("positions", "transitions", "submissions"):
         for node in graph.get(section, {}).values():
-            fc = node.get("flashcards") or []
             role = node.get("role")
             name = node.get("name")
-            if not fc or not role or role in ("hub", "terminal") or not name:
+            if not role or role == "terminal" or not name:
                 continue
-            cards = []
-            for c in fc:
-                q = c.get("q") or c.get("question")
-                a = c.get("a") or c.get("answer")
-                if q and a:
-                    cards.append({"q": q, "a": a})
-            if not cards:
-                continue
-            # POSITION role-node names carry the role ("Electric Chair Top"); the app looks
-            # up decks by BASE name|Role ("Electric Chair|Top"), matching NG_CONTENT. Strip the
-            # trailing role word ONLY for positions — technique names legitimately end in
-            # "Top"/"Bottom" (e.g. "Back Take from Top"), and stripping there would truncate the
-            # key so the app's "<full name>|Attacker" lookup never resolves the drill deck.
+            # base name (strip the role word for position role-nodes only — see #14 fix rationale)
             base = name
             if section == "positions":
                 for suf in (" Top", " Bottom"):
                     if base.endswith(suf):
                         base = base[: -len(suf)]
                         break
-            key = f"{base}|{role.capitalize()}"
-            decks[key] = {"cat": SECTION_CAT[section], "role": role.capitalize(), "cards": cards}
+            tiers = node.get("flashcardTiers") or {}
+            pos_cards = _qa_cards(tiers.get("position"))
+            fam_cards = _qa_cards(tiers.get("family"))
+            fam_name = node.get("familyHub")
+
+            # ROLE deck (own) — unchanged key/format; skip hub aggregator entries (no own role deck)
+            if role not in ("hub",):
+                cards = _qa_cards(node.get("flashcards"))
+                if cards:
+                    key = f"{base}|{role.capitalize()}"
+                    ent = {"cat": SECTION_CAT[section], "role": role.capitalize(), "cards": cards, "tier": "role"}
+                    anc = {}
+                    if pos_cards and section == "positions":
+                        anc["position"] = f"{base}|Position"
+                    if fam_cards and fam_name:
+                        anc["family"] = f"{fam_name}|Family"
+                    if anc:
+                        ent["ancestors"] = anc
+                    decks[key] = ent
+
+            # POSITION tier (role-agnostic; identical for top+bottom of one position -> dedupe)
+            if pos_cards and section == "positions":
+                decks.setdefault(f"{base}|Position", {"cat": SECTION_CAT[section], "role": "Position", "cards": pos_cards, "tier": "position"})
+            # FAMILY tier (shared across all variants -> dedupe under the family name)
+            if fam_cards and fam_name:
+                decks.setdefault(f"{fam_name}|Family", {"cat": "Position", "role": "Family", "cards": fam_cards, "tier": "family"})
     return decks
 
 
@@ -194,7 +218,12 @@ def write_flashcards(decks: dict, out_dir: Path) -> tuple[int, int]:
         (fc_dir / fname).write_text(
             json.dumps({"cat": deck["cat"], "role": deck["role"], "cards": deck["cards"]},
                        ensure_ascii=False, separators=(",", ":")))
-        manifest[key] = {"file": fname, "cat": deck["cat"], "role": deck["role"], "n": len(deck["cards"])}
+        entry = {"file": fname, "cat": deck["cat"], "role": deck["role"], "n": len(deck["cards"])}
+        if deck.get("tier"):
+            entry["tier"] = deck["tier"]
+        if deck.get("ancestors"):
+            entry["ancestors"] = deck["ancestors"]  # {position?, family?} deck keys for the drill toggle
+        manifest[key] = entry
 
     (fc_dir / "_index.json").write_text(json.dumps({
         "_meta": {

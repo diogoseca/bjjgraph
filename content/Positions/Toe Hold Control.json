@@ -674,5 +674,39 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What grip configuration defines Toe Hold Control and distinguishes it from other leg entanglements?",
+      "answer": "Toe Hold Control is defined by one player's figure-four grip locking around the opponent's foot, where one hand caps the blade or top of the foot and the second hand clasps that gripping wrist to close the loop. The trapped leg is isolated inside a base entanglement such as ashi garami or the saddle so the hip and knee cannot generate defensive power. Unlike heel hook control, which loads the heel to torque the knee, the toe hold configuration concentrates rotational force on the ankle and foot itself. The defining feature is that the foot is captured as a lever independent of the rest of the leg, making the ankle the primary joint under threat."
+    },
+    {
+      "question": "Why is the figure-four grip the mechanical heart of this position for both players?",
+      "answer": "The figure-four creates a closed kinetic chain: the gripping hand caps the foot while the second hand clasps the first wrist, so force applied by the shoulders and back transmits directly into the foot without leaking through open grip points. This closed loop is what lets the controlling player rotate the foot as a rigid unit and what the trapped player must break to neutralize the threat. Because the loop is self-reinforcing, small grip adjustments translate into large changes in rotational leverage on the ankle. Both players orient their entire game around whether this loop is intact, tightening, or being pried open at the wrist."
+    },
+    {
+      "question": "How does control of the knee line govern the amount of rotational leverage available in this position?",
+      "answer": "The ankle can only be torqued effectively when the knee is pinned so the lower leg cannot follow the foot's rotation and dissipate the force. Whoever controls the knee line, typically through hip and chest positioning against the thigh, determines whether foot rotation loads the ankle joint or simply spins the whole leg harmlessly. When the knee is free to rotate with the foot, the submission leverage evaporates; when the knee is trapped, the foot becomes a lever against a fixed point. This is why the contest over the position is really a contest over knee-line control, not just the foot grip itself."
+    },
+    {
+      "question": "What role does body angle relative to the trapped leg play in the position's dynamics?",
+      "answer": "Rotational effectiveness peaks when the controlling player's body sits roughly perpendicular to the trapped leg, because this alignment lets the shoulders and back drive the foot's rotation along the ankle's weakest plane. As the angle drifts toward parallel, the same grip produces far less torque and the leg gains room to extract. Both players therefore fight over angle constantly: one works to establish and hold perpendicularity, the other to spin the hips and flatten the angle. The position is inherently dynamic because a few degrees of body rotation dramatically changes how much danger the ankle is under."
+    },
+    {
+      "question": "Why does the direction the foot is rotated matter to the injury mechanics of this position?",
+      "answer": "The toe hold applies force by rotating the foot against a pinned knee, and the plane of that rotation dictates which ankle structures are loaded, primarily the ligaments and joint capsule of the ankle. Because these structures have a short range before failure, the position offers little warning time compared with slower-tapping chokes. When the knee is allowed to rotate externally with the foot, the stress no longer isolates at the ankle and can spread dangerously into the knee. Understanding this mechanism is what makes progressive, controlled rotation and early tapping a shared safety imperative for both players."
+    },
+    {
+      "question": "How does Toe Hold Control relate to the surrounding leg entanglement hierarchy?",
+      "answer": "Toe Hold Control is a control layer that sits on top of a base entanglement rather than a standalone position, most often built from outside or inside ashi garami or the saddle. It functions as a transitional hub: when the foot grip or knee line is lost, the exchange naturally flows toward adjacent controls like straight ankle lock, kneebar, or heel hook depending on how the leg reorients. This interconnection means the position rarely exists in isolation and is best understood as one node in a web of leg attacks. The same knee-line and angle principles that govern the toe hold carry directly over to those neighboring entanglements."
+    },
+    {
+      "question": "Why does Toe Hold Control carry particular strategic weight in rulesets that restrict heel hooks?",
+      "answer": "Many gi and beginner-division rulesets ban heel hooks but permit toe holds, so the toe hold becomes the primary rotational ankle attack legally available in those settings. Because it isolates the foot rather than loading the heel, it delivers a comparable finishing threat from the same family of entanglements without crossing the rule line. This makes the position strategically central wherever the heel hook is off the table, shaping how both players approach leg entanglements in those competitions. It also serves as a foundational teaching tool for the joint-isolation and control-before-submission principles that underpin all leg locks."
+    },
+    {
+      "question": "Why is control considered a prerequisite to the finish rather than something applied simultaneously in this position?",
+      "answer": "The rotational break happens over a very short window, so if the foot grip, knee line, and body angle are not already locked when rotation begins, the opponent can spin the knee or extract the leg the instant they feel pressure. Applying torque before control is established simply telegraphs the threat and triggers a defensive scramble. Both players understand the position as a sequence in which control must be absolute first, because a premature finish attempt usually surrenders the position entirely. This control-before-submission logic is the defining tempo of the position and the reason it doubles as a positional hub rather than a pure finishing move."
+    }
+  ]
 }

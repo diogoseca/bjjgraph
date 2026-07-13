@@ -764,5 +764,39 @@
         "answer": "Your escape direction should generally be perpendicular to or away from their primary attack angle. For guillotines, the choke tightens if you drive into them, so circle to the sides or roll through. For anaconda, escape away from your trapped arm side. For darce, the trapped arm is opposite, so escape toward the darce side. For back takes, they typically step toward one side, so escape the opposite direction. Reading which submission they're setting up tells you which escape direction is safest. Escaping directly into their attack line is the worst choice in all scenarios."
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines the front headlock position?",
+      "answer": "The front headlock is a head-and-arm control state where one player pins a bent-forward opponent's head and neck against their own chest while both players face roughly the same direction. The controlled player's spine is flexed and their posture broken forward, either on hands and knees during a scramble or bent at the waist while trying to stand, so their head is driven low and their upper back is exposed upward. The controlling player's chest drives downward into that upper back, and at least one arm encircles the head and neck. This broken-posture, chest-over-back geometry is what distinguishes the front headlock from a neutral tie-up or a standing collar tie."
+    },
+    {
+      "question": "Why is chest-to-back connection the central control mechanic of the front headlock for both players?",
+      "answer": "The controlling player's chest driving down onto the opponent's upper back is what collapses posture and denies the space needed to stand or rebuild base. That same connection defines the contest from the bottom: any air the controlled player wins between their back and the opponent's chest is the exact space they need to circle, shrimp, or stand. Because the position lives or dies on this contact, both players fight over the same seam rather than over the arms alone. When the connection is tight the top player's weight does the work; when it opens, the position begins to dissolve regardless of grips."
+    },
+    {
+      "question": "How does head control combine with far-side arm or shoulder control to make the front headlock a cage?",
+      "answer": "Head control alone lets the opponent rotate their body freely, so it is insufficient to hold the position. The controlling player's second hand must occupy the far shoulder or arm, which pins the opponent's torso and prevents it from spinning out from under the chest. Together the head wrap and the far-arm control form a cage around the upper body that shuts down both rolling and standing escapes. This is why the position is fundamentally a two-point control: neck plus far shoulder, not neck alone."
+    },
+    {
+      "question": "What role does the controlled player's neck posture play in the front headlock dynamic?",
+      "answer": "Nearly every threat from the front headlock requires extending or exposing the neck, so neck posture is the pivot point of the whole exchange. A tucked chin, with the head pulled toward the chest, denies the extension needed for guillotines and shortens the choking surface for arm-in strangles. An extended or lifted head hands the controlling player the length and angle their finishes need. Both players therefore contest the same variable from opposite sides: one works to lengthen and turn the neck, the other to keep the chin buried and the spine rounded."
+    },
+    {
+      "question": "Why is the front headlock understood as a dynamic transitional position rather than a static hold?",
+      "answer": "The front headlock offers no stable equilibrium the way a settled pin does, because the controlled player's hips and legs remain mobile and their base is only temporarily broken. If the controlling player merely holds, the bottom player gets time to rebuild posture, establish frames, and stand or circle out. Conversely the controlled player cannot simply wait, since staying still lets the top player refine grips and weight toward a finish. The position is a race in both directions, which is why it is treated as a junction that must resolve toward a submission, an advancement, or an escape rather than a resting place."
+    },
+    {
+      "question": "How does hip position govern which outcomes are available from the front headlock?",
+      "answer": "The relative height and angle of the controlling player's hips determines the mechanical options for both sides. Hips high and tight against the opponent keep pressure on the neck and favor front-facing chokes, while hips sprawled back and off to one side jam forward rolls and set the angle for arm-in strangles. Mobile hips ready to step are what allow rotation toward the back. From the bottom, reading where the top player's hips are located tells the controlled player which escape lane is open, since escaping into the loaded hip is far harder than escaping away from it."
+    },
+    {
+      "question": "What distinguishes the front headlock from adjacent positions like turtle and back control?",
+      "answer": "Turtle describes the bottom player's defensive shell with the head still protected and the top player not yet committed to head control, whereas the front headlock specifically adds the encircled head and neck driven against the top player's chest. Back control sits on the far side of the front headlock's rotation lane: when the controlled player circles and the top player follows around the shoulder, the position converts to the back. The front headlock is the crossroads between these, holding the opponent's head in front rather than behind and keeping both players facing the same way rather than chest-to-back."
+    },
+    {
+      "question": "How do the front headlock's control mechanics stay largely consistent across gi and no-gi?",
+      "answer": "The core of the position is skeletal and weight-based rather than grip-dependent: chest pressure into the upper back, an arm encircling the head, and control of the far shoulder work identically whether or not cloth is present. What changes between rulesets is the finishing detail, since the gi adds collar and lapel grips that create additional choking options while no-gi relies on flesh-and-forearm strangles. The positional skeleton, broken posture, head driven low, two-point upper-body control, is the same in both frames, which is why the front headlock reads as one position across rulesets even as its submissions diverge."
+    }
+  ]
 }

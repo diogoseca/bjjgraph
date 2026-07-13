@@ -659,5 +659,39 @@
         "answer": "Immediately reassess heel protection and knee line - opponent may have improved position during your escape attempt. Re-establish defensive frames with free leg. Return hands to protective grips on your foot/ankle. Identify what defensive element failed and address it before next attempt. Consider a different escape route since opponent may be anticipating repeated attempts at the same escape. Reset breathing and stay calm."
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines the Leg Knot position and distinguishes it from a cleanly assigned leg entanglement?",
+      "answer": "In Leg Knot both grapplers' legs are woven through one another so that each player simultaneously controls and is controlled by the other's lower body, rather than one player holding a clean ashi-garami on a passive leg. This mutual weaving means neither has secured a dominant inside position, so heel-hook, kneebar, and reversal threats exist in both directions at once. The knot-like interlacing creates multiple friction and pressure points that restrict everyone's hip rotation and knee extraction. It is precisely this shared, unresolved control that makes the position transitional rather than a stable finishing platform."
+    },
+    {
+      "question": "Why is hip distance considered the master control variable for both players in Leg Knot rather than raw leg-squeezing pressure?",
+      "answer": "The submissions and reversals available from Leg Knot all depend on the angle between the two players' centerlines, and that angle is governed by how close or far the hips sit relative to each other. When hips are pulled tight and correctly angled, the entangling player can load the knee line and expose the heel; when hips drift apart, slack appears and the trapped leg can be extracted. Squeezing the legs harder without correcting hip distance simply burns energy and can even open extraction space. Both players therefore fight primarily over hip positioning, using leg pressure only to preserve the distance they have already won."
+    },
+    {
+      "question": "What role does the knee line play in determining who is winning the Leg Knot exchange?",
+      "answer": "The knee line is the imaginary boundary at the knee that separates a defensible entanglement from a compromised one, and controlling which side of it the entangled leg sits on decides heel exposure. Whichever player keeps their own knee pointed inward and their opponent's knee crossed past the line gains access to inside heel-hook and Saddle mechanics. Because both players are entangled at once, the knee-line battle runs in both directions simultaneously, so a momentary lapse can flip the advantage. This is why maintaining inside knee position is a shared priority regardless of whether you are the nominal top or bottom player."
+    },
+    {
+      "question": "How does heel and foot orientation govern the submission danger present for both grapplers in Leg Knot?",
+      "answer": "A heel becomes vulnerable to a heel hook only when it is exposed and rotatable relative to the entangling player's control, so foot orientation is a continuous defensive dial for whoever's leg is trapped. Pointing the toes toward the opponent's hip and keeping the heel hidden against your own body denies the rotational leverage the finish requires. Because the legs are mutually woven, each player must simultaneously hunt for the opponent's exposed heel while concealing their own. This two-way heel management is a defining shared dynamic of the configuration and a constant tension neither side can ignore."
+    },
+    {
+      "question": "What makes Leg Knot inherently transitional rather than a position either player can comfortably stall in?",
+      "answer": "Neither grappler holds a locked, dominant inside entanglement, so the control is unstable and constantly shifting as hips, knees, and feet adjust against each other. Any slack introduced by fatigue or hesitation immediately hands the other player an extraction or reversal window, meaning the configuration decays if it is not actively worked. The mutual threat of heel hooks and kneebars pressures both players to resolve the knot quickly rather than settle in. Consequently the position rewards decisiveness: consolidate toward a dominant entanglement like Saddle or extract to safety, because holding a true stalemate is mechanically impossible."
+    },
+    {
+      "question": "How does Leg Knot differ from the Saddle and from 50-50 in terms of control symmetry?",
+      "answer": "The Saddle is an asymmetric, dominant entanglement where one player has cleanly trapped the opponent's leg across their centerline with a secured knee line, giving a decisive attacking advantage. 50-50 is symmetric but comparatively stable, with each player holding an identical mirrored configuration and matching, defined offense. Leg Knot sits between these as a symmetric yet unstable knot, where the control is mutual but unresolved and constantly contestable rather than settled. The practical implication is that Leg Knot is a fork in the road that typically collapses toward Saddle for one player or resolves into a cleaner guard for the other."
+    },
+    {
+      "question": "Why does the free leg function as a decisive tool for whichever grappler can deploy it from Leg Knot?",
+      "answer": "Because so much of both players' lower bodies is committed to the weave, the leg that remains free becomes the primary lever for framing, pushing, and changing angles. The player who can use their free leg to post on the opponent's hip can create the distance needed either to extract the trapped leg or to prevent the opponent from consolidating a dominant angle. Conversely, controlling or nullifying the opponent's free leg removes their main engine for escape and reversal. This makes the free leg a contested shared asset whose deployment often tips a Leg Knot exchange one way or the other."
+    },
+    {
+      "question": "What underlying reason forces both Leg Knot players to move systematically rather than thrash explosively?",
+      "answer": "The knot is held together by interlocking friction and angle, and explosive thrashing tends to tighten those interlocks or feed the opponent momentum they can redirect into a submission. Sudden extension of a trapped leg, in particular, can walk the knee across the line and hand the opponent the exact heel exposure they need. Systematic, sequenced movement lets a player address the highest-priority threat first and open the entanglement in the correct order rather than worsening it. Because this logic applies symmetrically to both grapplers, controlled progression is a shared mechanical requirement of the position rather than merely a stylistic preference."
+    }
+  ]
 }

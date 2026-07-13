@@ -627,5 +627,39 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What leg configuration defines the 50-50 Guard and gives it its name?",
+      "answer": "The 50-50 Guard is a symmetrical leg entanglement in which each grappler traps one of the opponent's legs across their own hips while triangling their other leg around that trapped leg, producing a mirror image where both players occupy the same structure. Each competitor's inside leg is threaded between the opponent's legs and hooked over the top, with the feet crossing near the opponent's hip line. Because the geometry is identical for both people, neither has an inherent structural advantage and neither scores position points under most rulesets. The name reflects this theoretical parity, though in practice small grip, angle, or foot-control differences decide who attacks first."
+    },
+    {
+      "question": "Why is the 50-50 Guard described as a symmetrical or mirrored position, and what strategic consequence does that symmetry create?",
+      "answer": "The position is symmetrical because both players' legs are entangled in the same configuration facing each other, so any control one player establishes is theoretically available to the other. This mirroring means both grapplers have simultaneous access to the same submissions, primarily heel hooks against the shared trapped leg. The strategic consequence is that victory is decided not by the base position but by breaking the symmetry: one player must establish a foot-control, hip-angle, or grip advantage that the other cannot match. Until that asymmetry appears, the exchange remains a neutral hand-fight and can stall into a referee standup."
+    },
+    {
+      "question": "Which control points and grips are contested by both players in the 50-50 Guard?",
+      "answer": "The primary contested control point is each player's foot and heel, since controlling the opponent's foot while denying them control of yours determines who can initiate a leg attack first. Both grapplers fight for two-handed grips on the exposed heel or ankle, typically one hand cupping the heel and one controlling the Achilles or ankle. Inside-leg position is the second contested point: the player whose shin threads deeper inside the opponent's leg structure controls the submission hierarchy. Because the structure is mirrored, whichever player wins both the grip battle and the inside angle gains the decisive edge."
+    },
+    {
+      "question": "How does foot and heel exposure work in the 50-50 Guard, and why does knee rotation matter for both players?",
+      "answer": "Each player's trapped inside leg has its heel exposed to the opponent's grips unless it is actively hidden, so heel exposure is a shared vulnerability rather than a one-sided threat. Rotating the knee inward toward the opposite hip takes the heel off-line and removes the rotational tension a heel hook depends on, which is why both grapplers constantly manage knee angle. The player who keeps their own heel hidden while exposing the opponent's heel gains the attacking advantage. Because the position is symmetrical, a lapse in knee rotation by either player instantly reverses who is in danger."
+    },
+    {
+      "question": "How is weight and hip height distributed between the two players in the 50-50 Guard, and why does it matter?",
+      "answer": "Although the leg entanglement is symmetrical, hip height breaks the equality: the player with higher hips can drive downward pressure through the pelvis into the opponent's lower abdomen, keeping them flat and limiting their ability to sit up or create angle. The lower player is pinned toward their back with reduced leverage to extract or attack. Hip mobility is therefore critical for both, since constant hip movement prevents the opponent from settling weight and preserves the ability to create the perpendicular angle submissions require. Whoever controls hip height and angle converts the neutral entanglement into an attacking platform."
+    },
+    {
+      "question": "Why is passive play discouraged in the 50-50 Guard, and what dynamic keeps the position active?",
+      "answer": "Passive play is discouraged because the symmetry means a static 50-50 becomes a stalemate that referees penalize with a standup, erasing any positional work. The position stays active through a continuous grip and inside-position battle in which each player threatens submissions or transitions to force the other to react and expose an advantage. Constant threat is what pressures the opponent into small errors, such as a lost grip, an extended heel, or a dropped inside leg, that break the mirror. The player who engages more intelligently, attacking in bursts rather than exhausting themselves, tends to be the one who first establishes asymmetry."
+    },
+    {
+      "question": "How does the 50-50 Guard differ from Inside Ashi-Garami and other single-sided leg entanglements?",
+      "answer": "In Inside Ashi-Garami, Outside Ashi-Garami, and similar single-sided entanglements, only one player traps the opponent's leg, so the attacker has a clear structural advantage and the defender's leg is not correspondingly trapped. The 50-50 Guard is distinct because the entanglement is fully mutual: each player traps one of the other's legs in the same configuration, so both have simultaneous heel-hook access and neither holds an inherent edge. This mutual exposure makes 50-50 uniquely reciprocal, since the same attack is always available to the opponent. It also explains why players often transition out of 50-50 into asymmetrical entanglements like Honey Hole or Backside 50-50 to escape the parity and gain one-sided control."
+    },
+    {
+      "question": "What transition options let a player break out of the 50-50 stalemate into a more dominant entanglement?",
+      "answer": "Because standard 50-50 offers no inherent advantage, players seek to convert it into asymmetrical positions where control is one-sided. Primary targets include Honey Hole (inside sankaku), which offers superior heel exposure and control, and Backside 50-50, which repositions to attack from behind the opponent's leg line. X-Guard and Single Leg X-Guard serve as sweeping alternatives when leg attacks are unavailable, off-balancing the opponent rather than isolating a leg. Recognizing when a direct submission is stalemated and flowing seamlessly to one of these positions is what separates effective 50-50 play from passive stalling."
+    }
+  ]
 }

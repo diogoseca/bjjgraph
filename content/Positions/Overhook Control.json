@@ -681,5 +681,35 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What physical configuration defines Overhook Control and distinguishes it from a simple arm grip?",
+      "answer": "Overhook Control, or the whizzer, is defined by one player wrapping an arm over the top of the opponent's extended arm from above and sealing the armpit down over the opponent's shoulder. The wrapping arm passes on the outside of the opponent's upper arm rather than threading underneath it, which is what separates the whizzer from an underhook. The controlling hand then clasps behind the opponent's shoulder, neck, or back to close the loop. The result is a vice around the opponent's shoulder joint that traps the arm from above rather than lifting it from below."
+    },
+    {
+      "question": "Why is the armpit seal, rather than the hand grip, the primary source of control in the overhook?",
+      "answer": "The armpit seal presses the controlling player's shoulder and lat directly onto the opponent's shoulder, clamping the joint against the body with skeletal structure instead of grip strength. This zero-gap connection is what pins the trapped arm and prevents the opponent from rotating the shoulder free, whereas the hand grip behind the back merely closes the loop and can be broken. When a gap opens between armpit and shoulder, the opponent gains room to circle the arm out or limp-arm escape regardless of how tight the hand grip is. This is why both players fight over the seal first and the grip second."
+    },
+    {
+      "question": "How does elevating the trapped arm above shoulder height change the mechanics of the exchange?",
+      "answer": "Raising the opponent's arm above shoulder height drives it past the line where they can generate meaningful pushing or posting force, effectively removing that limb from play. An arm held high cannot post on the mat, cannot underhook, and cannot crossface, so the opponent's structure and base are compromised on that side. This upward-and-backward pressure also tilts their posture and shoulders, opening the neck and back. The controlling player therefore keeps constant elevation because the moment the arm drops back below the power line, the opponent regains a functional post."
+    },
+    {
+      "question": "What role does hip-to-hip connection play in keeping the overhook viable for either player?",
+      "answer": "Close hip proximity denies the opponent the space and angle needed to circle away from the arm control, which is the most common way the position dissolves. Because the overhook isolates only one arm, the opponent's natural escape is to rotate their hips and body around the controlled side until the arm slips free; staying hip-to-hip cuts off that arc. The controlling player uses body position, not just the arm, to trap the opponent against them. Losing hip connection isolates the arm control from the rest of the body and turns the overhook into a grip the opponent can simply walk out of."
+    },
+    {
+      "question": "What is the mechanical asymmetry that makes the overhook advantageous regardless of which player holds it?",
+      "answer": "The overhook trades one of the controlling player's arms to fully neutralize one of the opponent's arms, but the controlling player retains a free arm while the opponent's controlled arm is functionally dead. This reduces the exchange to a one-armed contest in which the holder keeps bilateral capability and the opponent is left with single-arm defense. The free arm can then attack the head, establish a second grip, or thread for a choke while the opponent has no equivalent resource. The whole position is built to exploit this two-against-one dynamic before the opponent can free the trapped arm."
+    },
+    {
+      "question": "How does the overhook differ mechanically from the underhook, and why do players fight to convert one into the other?",
+      "answer": "The underhook threads under the opponent's arm to lift and drive into their armpit, generating forward and upward pressure to advance or elevate, while the overhook wraps over the top of that same arm to trap and pin it as a control. Because both contest the same arm from opposite sides, whichever player wins the inside line dictates the direction of pressure, which is why half guard and clinch exchanges become underhook-versus-whizzer battles. The overhook is often the answer to an opponent's underhook attempt, killing their inside connection by climbing over the top of it. Converting between the two mid-scramble flips who controls the arm and who is on the defensive."
+    },
+    {
+      "question": "Why is the overhook treated as a transitional control with a short lifespan rather than a position to hold?",
+      "answer": "The overhook isolates only a single arm, so the opponent always retains a free hand, mobile hips, and their base to work an escape, meaning the control decays quickly if nothing is done with it. Holding it statically simply gives a patient opponent time to reestablish the armpit seal from their side, circle their hips, or limp-arm the trapped arm loose. Its value lies in the brief window of broken structure it creates, which must be cashed in for a submission, sweep, or positional advance within a few seconds. Both players understand this clock, which is why the exchange is fast and reactive rather than a settled hold like side control or mount."
+    }
+  ]
 }

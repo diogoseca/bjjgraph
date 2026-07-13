@@ -607,5 +607,39 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines Modified Scarf Hold and distinguishes it from other pins?",
+      "answer": "Modified Scarf Hold, or Kuzure Kesa-Gatame, is a side-control-family pin in which the top player lies chest-to-chest across the bottom player's torso while trapping the near arm and pressuring the head. The defining feature is the squarer, more centered chest alignment combined with head-and-arm entanglement, blending elements of both classical scarf hold and orthodox side control. The near-side arm is bundled between the two bodies rather than free, and the top player's sternum sits directly over the bottom player's ribcage. This chest-centered geometry is what separates it as a distinct configuration rather than a simple side-control variant."
+    },
+    {
+      "question": "How does the chest-over-chest pressure of Modified Scarf Hold create its characteristic control dynamic?",
+      "answer": "The top player's sternum is stacked directly over the bottom player's ribcage, channeling body weight through skeletal alignment rather than muscular effort. This downward, slightly diagonal force toward the far shoulder compresses the ribcage and restricts the bottom player's ability to expand the chest and breathe fully. Because the weight is centered rather than offset, the bottom player cannot easily rotate their torso to create the hip space needed for escape. The sustained compression drains energy over time, making the pressure itself a control mechanism shared by the dynamic between both players."
+    },
+    {
+      "question": "Why is control of the near-side arm the pivotal control point that defines this position for both players?",
+      "answer": "The near arm is bundled between the two torsos, either threaded under the top player's armpit or wrapped with the head, which eliminates the bottom player's primary framing tool on that side. For the top player, this trapped arm is the anchor that prevents frames and simultaneously opens upper-body submission lines. For the bottom player, whether that elbow stays glued to the ribs or extends away determines both escape viability and submission exposure. The position effectively lives or dies on the status of this single arm, making it the shared fulcrum of the exchange."
+    },
+    {
+      "question": "How does head positioning govern the pressure angles that hold Modified Scarf Hold together?",
+      "answer": "The top player's head is heavy on the bottom player's face or chest, adding a directional vector of pressure that supplements the chest compression. This head pressure restricts the bottom player's vision and, more importantly, blocks their ability to turn either into or away from the top player. Because turning the torso is the prerequisite for most escapes, the trapped head effectively pins the bottom player's rotational axis. When the head lifts, overall pressure drops sharply and rotational freedom returns, which is why head position dictates the position's stability for both sides."
+    },
+    {
+      "question": "What distinguishes Modified Scarf Hold from traditional Kesa Gatame in terms of hip placement and body angle?",
+      "answer": "In classical Kesa Gatame the top player's head and hips drop low toward the opponent's hip line, sitting to the side with the near arm hooked high and the body angled steeply away. Modified Scarf Hold keeps a higher, squarer chest position stacked over the ribcage rather than dropping toward the hips. This trades away some of the scarf hold's hip mobility and headlock leverage for heavier, more centered chest pressure and a cleaner platform for upper-body attacks. The result sits on the spectrum between orthodox side control and full Kesa Gatame."
+    },
+    {
+      "question": "How does the weight distribution in Modified Scarf Hold shift dynamically as the bottom player moves?",
+      "answer": "Effective weight in this position is not static; it rides the top player's toes and shifts diagonally toward the far shoulder in response to the bottom player's bridges and hip movement. When the bottom player bridges, the pressure vector redirects rather than resisting head-on, flowing with the movement to preserve chest contact. This dynamic redistribution is the shared mechanic that makes the position stable, because static weight gives the bottom player micro-movements to accumulate into escapes. Both players are effectively negotiating where the weight settles from moment to moment."
+    },
+    {
+      "question": "How does Modified Scarf Hold sit within the side control family relative to North-South, Mount, and Knee on Belly?",
+      "answer": "Modified Scarf Hold is a member of the side-control family that shares the same chest-to-chest pinning logic but occupies a specific angular niche. When the bottom player turns in toward the top player, the configuration naturally flows toward North-South, and when they turn away or expose the back, it flows toward Mount or back control. Knee on Belly is a lighter, more mobile cousin in the same family, trading pin heaviness for scoring mobility. This position's transitional adjacency to these neighbors is a defining structural trait, since the angle of the bottom player's rotation dictates which family position emerges next."
+    },
+    {
+      "question": "Why does Modified Scarf Hold restrict the bottom player's breathing more than orthodox side control?",
+      "answer": "Orthodox side control often distributes the top player's weight across the shoulder and hip lines with a cross-face, leaving portions of the ribcage relatively free. Modified Scarf Hold concentrates the sternum directly over the center of the ribcage, compressing the chest cavity where lung expansion occurs. This centered compression, combined with the trapped near arm removing a framing outlet, produces a suffocating, claustrophobic sensation that accelerates fatigue. The breathing restriction is a mechanical consequence of the centered chest geometry rather than a deliberate choke, and it shapes the tempo of the exchange for both players."
+    }
+  ]
 }

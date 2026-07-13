@@ -750,5 +750,39 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What leg configuration defines the Honey Hole position?",
+      "answer": "Honey Hole is an inside sankaku, meaning the controlling player triangles their legs around the opponent's trapped thigh from the inside line rather than the outside. The inside leg loops over the trapped thigh just above the knee and the ankle hooks behind the leg, while the outside leg crosses over the opponent's hip to form a figure-four. This inside-line entanglement is what distinguishes it from outside ashi-garami and gives it access to the exposed inner heel. The trapped leg's knee is bent and the foot is drawn across the controller's centerline, isolating the leg from the rest of the body."
+    },
+    {
+      "question": "Why does the perpendicular body alignment matter to the mechanics of Honey Hole?",
+      "answer": "Both players sit roughly ninety degrees to each other, forming a T-shape where the controlling player's hips face into the opponent's isolated leg. This perpendicular relationship is what converts the leg entanglement into rotational control, because the trapped leg can only be freed by rotating out along an arc that the controller's body directly blocks. The alignment also keeps the controller's own legs and heels angled away from the opponent, reducing counter-attack exposure. Any drift back toward parallel alignment loosens the entanglement and restores the trapped player's ability to spin free."
+    },
+    {
+      "question": "How does the inside leg triangle produce rotational imprisonment?",
+      "answer": "The natural escape from a leg entanglement is to rotate the trapped knee and hip in the direction that unwinds it, but the inside sankaku places the controlling legs directly on that rotational path. The trapped thigh is pinned between the triangle above the knee while the crossing outside leg holds the hip down, so hip rotation is mechanically blocked in the one direction that would free the limb. This is why the position imprisons through geometry rather than grip strength. The entanglement is only defeated by inverting or changing angle to unwind it along the arc it was built on."
+    },
+    {
+      "question": "What role does hip pressure and the crossing outside leg play in the position?",
+      "answer": "The controlling player's outside leg crosses the opponent's hip at roughly mid-thigh with the shin driving downward, pinning the hip flat to the mat. This downward wedge is the primary anti-rotation and anti-space mechanism, because a flattened hip cannot generate the bridge or turn needed to escape. It also connects the controller's weight to the opponent so the whole configuration moves as one unit when either player shifts. When that hip pressure lapses, space opens and the trapped player regains the leverage to rotate or counter-entangle."
+    },
+    {
+      "question": "Why is the inner heel exposed in Honey Hole, and what makes that a defining feature?",
+      "answer": "Because the leg is captured on the inside line with the foot drawn across the controller's centerline, the medial or inner heel is turned toward the controlling player's chest and hands. This inward orientation is precisely why the inside heel hook, the highest-percentage leg lock, is native to the position, since the heel is presented for capture without any additional rotation. The same geometry also angles the knee for kneebars and the ankle for toe holds. Outside ashi-garami, by contrast, exposes the outer heel and lacks this direct inner-heel access, which is the core mechanical difference between the two entanglements."
+    },
+    {
+      "question": "How does Honey Hole differ from 50-50 and outside ashi-garami in terms of control symmetry?",
+      "answer": "Honey Hole is a strongly asymmetric entanglement: one player controls the other's leg from the inside while keeping their own legs relatively safe, so control heavily favors the entangling player. 50-50 is symmetric because both players share identical mutual leg configurations, meaning whatever attack one has, the other has too. Outside ashi-garami is also asymmetric but from the outside line, offering less positional dominance and exposing the less-vulnerable outer heel. Recognizing which entanglement you are in dictates whether you hold a decisive advantage, a neutral exchange, or a weaker controlling frame."
+    },
+    {
+      "question": "Why does pulling the trapped leg straight back fail against this entanglement?",
+      "answer": "Linear extraction drives the captured leg directly into the closed figure-four, which only tightens as tension increases, so brute-force pulling fights the strongest line of the entanglement. The thigh is clamped above the knee and there is no straight corridor for the foot to travel out. The only path is angular, unwinding the triangle along the arc it was constructed on rather than fighting it head-on. This is why the position rewards patient angle change over strength and punishes anyone who treats it as a tug-of-war."
+    },
+    {
+      "question": "Why is the submission timeline in Honey Hole so compressed compared to other control positions?",
+      "answer": "Because the heel, knee, and ankle are all isolated and pre-aligned for attack the instant the entanglement closes, no intermediate positional advancement is required before a finish becomes available. Unlike upper-body controls where a strangle must be threaded and tightened over time, the leg here is already presented and the breaking mechanics engage almost immediately once grips are secured. Rotational heel hook pressure damages ligaments in seconds with little warning stretch, so both players operate on a window measured in seconds rather than minutes. This compressed timeline is why recognition and immediate reaction define success from either side far more than prolonged positional battling."
+    }
+  ]
 }

@@ -723,5 +723,39 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What leg configuration defines Backside 50-50 and distinguishes it from standard 50-50?",
+      "answer": "Both players share the mirrored 50-50 leg entanglement, where each player's inside leg is wedged between the opponent's legs with the feet crossing behind, so that both sets of legs symmetrically interlace and control one another. The defining difference from standard face-to-face 50-50 is orientation: in Backside 50-50 one player's back is turned toward the opponent's chest rather than the two grapplers facing each other. This rotation preserves the symmetric leg battle but breaks the upper-body symmetry, so the leg entanglement itself is neutral while the torso alignment is not. That single change in facing is what converts a positionally even 50-50 into a hierarchical position."
+    },
+    {
+      "question": "Why does the back-facing orientation create a positional hierarchy when the legs remain symmetric?",
+      "answer": "The 50-50 leg entanglement gives both players near-identical access to the same heel, so the legs alone keep the exchange even. The hierarchy comes entirely from the upper bodies: with one player's back exposed to the opponent's chest, the chest-side player can apply forward pressure and see the leg configuration, while the back-exposed player cannot face their opponent or observe the entanglement directly. This layers an unbalanced torso relationship on top of a balanced leg relationship. The result is a position that is mechanically symmetric below the hips but asymmetric above them, which is why one player is meaningfully ahead despite the shared leg lock threat."
+    },
+    {
+      "question": "How does chest-to-back contact function as the central control mechanism shared by both players in Backside 50-50?",
+      "answer": "The connection between one player's chest and the other's back is the pivot point of the whole position for both roles. For the chest-side player it is the source of pressure that pins the opponent's hips and restricts their ability to rotate and face inward. For the back-exposed player it is the pressure that must be managed through framing and hip angle to avoid being flattened. Because the legs are symmetrically locked, neither player can simply disengage, so the torso contact becomes the decisive control surface that governs whether the position holds, advances, or reverses. Both players' priorities are organized around whether this chest-to-back connection is maintained or broken."
+    },
+    {
+      "question": "Why is hip mobility and the prevention of complete flattening the shared mechanical fulcrum of Backside 50-50?",
+      "answer": "The position's dynamics hinge on the back-exposed player's hip angle relative to the opponent's chest. As long as that player stays angled on their side with active hips, the entanglement remains a live two-way battle over sweeps, escapes, and leg attacks. If they are flattened fully onto their back, hip mobility collapses, framing space disappears, and the chest-side player gains uncontested access to advance or attack. Both roles therefore orient their effort around this single variable, one working to preserve the angle and the other to erase it. It is the mechanical fulcrum on which the entire position tilts toward one player or the other."
+    },
+    {
+      "question": "What creates the visual and information asymmetry between the two players in Backside 50-50?",
+      "answer": "Because one player faces the opponent's back, that chest-side player has a direct line of sight to the shared leg entanglement, including the exposed heels and the precise positioning of both sets of legs. The back-exposed player, turned away, cannot see the leg configuration or the opponent's hands and must rely on tactile feedback alone. Since the legs are symmetric and both players can attack the same heel, this difference in information, rather than a difference in leg leverage, is what lets the chest-side player time attacks and defenses more precisely. The asymmetry is one of perception, and it exists purely because of the back-facing orientation."
+    },
+    {
+      "question": "Why does Backside 50-50 function as a transitional waypoint rather than a stable holding position?",
+      "answer": "The symmetric leg lock keeps both players tethered while the asymmetric torso relationship constantly pushes the exchange toward resolution, so the position rarely stays static. The chest-side player is pulled toward advancing to back control or a stronger entanglement like the saddle, while the back-exposed player is pulled toward facing in, extracting the legs, or reversing. Neither the symmetric legs nor the unbalanced torsos favor a prolonged stall, and both roles are penalized for inactivity in the entanglement. The position is therefore best understood as a crossroads between adjacent configurations rather than a destination in itself."
+    },
+    {
+      "question": "How does Backside 50-50 relate mechanically to the saddle and to back control as adjacent positions?",
+      "answer": "Backside 50-50 sits between these positions along a spectrum of leg and torso control. It differs from the saddle in that the legs remain in the symmetric 50-50 mirror rather than the saddle's inside-sankaku configuration, which more completely isolates one leg for attack. It differs from back control in that the players are still tethered by the leg entanglement rather than the chest-side player having freed their legs to establish hooks and a seatbelt. The position's back-facing orientation is precisely what makes both of these adjacent states reachable, since it already places one player's chest against the other's back. Recognizing it as one step removed from each explains why advancement and reversal pressure are always present."
+    },
+    {
+      "question": "Why do both players retain a genuine heel hook threat in Backside 50-50 despite the positional imbalance?",
+      "answer": "The symmetric 50-50 leg entanglement wedges each player's legs against the same exposed heel, so the submission access is shared rather than owned by one side. This means the back-exposed player is never purely defensive at the legs and can counter-attack the heel if the chest-side player overcommits or exposes their own leg. The chest-side player's advantage is not exclusive leg access but superior visibility and pressure, which lets them attack with more control and defend counters more easily. The persistent mutual heel threat is what keeps the position dangerous for both players and forces careful management of leg exposure by whoever attacks."
+    }
+  ]
 }

@@ -680,5 +680,39 @@
         "answer": "Your far leg provides the base and driving power for hip escapes. Keep it bent with the foot flat on the mat, ready to push. This leg drives your shrimping motion and prevents you from being flattened. Critically, do not bring this knee toward your opponent - this feeds them a path to mount. Instead, use it to push your hips away while keeping your near leg mobile for knee shield insertion."
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What body configuration defines Reverse Kesa-Gatame and distinguishes it from traditional Kesa-Gatame?",
+      "answer": "Both positions are perpendicular scarf holds where the top player's torso lies across the bottom player's chest at roughly a right angle to their spine. The defining difference is orientation: in Reverse Kesa-Gatame the top player faces toward the bottom player's legs and hips rather than toward the head. Because the facing is reversed, the top player's back and hips now occupy the head-side space while the chest and shoulder load down toward the opponent's far arm and lower torso instead of toward the neck. The result is a mechanically distinct pin that keeps the scarf-hold family's chest-across-chest connection but inverts where control and weight are concentrated."
+    },
+    {
+      "question": "Why does the reverse orientation deny the bottom player the defensive frames that are available in standard side control?",
+      "answer": "In standard side control the top player's head and shoulders are near the bottom player's head, giving the bottom player a natural target to frame against the neck, jaw, and near shoulder. In Reverse Kesa-Gatame the top player's back and hips occupy that space instead, so the bottom player's hands find only the hip and lower back rather than a framable head or shoulder. Removing the face-and-neck frame strips away the primary tool used to create elbow-escape space. Both players' games therefore reorganize around hip movement and the far arm rather than around framing."
+    },
+    {
+      "question": "How is the bottom player's far arm isolated as a natural consequence of the position rather than through a deliberate setup?",
+      "answer": "Because the top player faces the legs, their near-side torso and armpit come to rest directly over the bottom player's far arm, trapping it against the mat or clamping it to the ribs. The bottom player cannot easily retract that arm because the top player's chest and shoulder weight sit on top of it. This isolation exists the moment the pin is established, without any separate arm-hunting motion. It is why the position is inherently a launch point for far-arm attacks like the kimura and americana for the top and a constant defensive concern for the bottom."
+    },
+    {
+      "question": "Where must the top player's weight be directed for the pin to function, and how does the bottom player experience that pressure?",
+      "answer": "The pin depends on chest and hip weight driving downward through the bottom player's sternum, ribcage, and shoulder complex rather than the top player propping up on their arms. Because the connection is chest-to-chest and perpendicular, the compression concentrates on the diaphragm and upper torso, restricting breathing and rotation. The bottom player feels this as difficulty drawing a full breath and an inability to turn toward the trapped side. This shared pressure dynamic is the core reason the position is dominant for the top and urgent to escape for the bottom."
+    },
+    {
+      "question": "What role does the top player's leg and base configuration play in the stability of Reverse Kesa-Gatame?",
+      "answer": "The top player typically sprawls with the far leg extended wide and long while the near leg bends to post, forming a broad tripod with the hips. This wide base is what lets chest pressure stay heavy without the whole structure being tipped by a bridge. The bottom player's main reversal threat is generating a bridge when the base is narrow or the hips ride too high, so base width is the pivot point of the position's stability for both sides. A collapsed or narrow base converts the pin from stable control into a roll or sweep opportunity."
+    },
+    {
+      "question": "Why does Reverse Kesa-Gatame function as a transitional hub between several pinning positions?",
+      "answer": "The perpendicular scarf alignment sits geometrically between north-south, standard side control, and mount, so small rotations or hip walks carry the top player into any of them. Turning toward the head flows to north-south, squaring back up returns to side control, and stepping across when the bottom player creates space leads to mount. The same crossroads means the bottom player's escapes and the top player's advances both pass through these adjacent states rather than staying static. This hub quality is why the position is valued as much for its transitions as for its holding power."
+    },
+    {
+      "question": "How does the effectiveness of Reverse Kesa-Gatame change between gi and no-gi grappling?",
+      "answer": "The position relies on direct chest compression and physical arm isolation rather than on collar or lapel grips, so it loses none of its core control when the gi is removed. In no-gi it often becomes comparatively more valuable because the bottom player also loses the collar and sleeve grips they would otherwise use to manage distance and frame. The pin's pressure-and-arm-trap mechanics are equally available to both players regardless of ruleset. This grip-independence is a defining trait that separates it from scarf holds that lean on cloth-based control."
+    },
+    {
+      "question": "What is the significance of maintaining a true perpendicular angle rather than facing too far toward the opponent's legs?",
+      "answer": "The position's control depends on the top player's sternum pressing across the bottom player's upper chest at a right angle to their centerline. If the top player over-rotates toward the legs, chest-to-chest contact thins out and the bottom player gains room to turn in toward the now-open space. That lost pressure simultaneously weakens the far-arm trap and the breathing restriction that make the pin work. Both players read this angle closely: the top preserves the perpendicular to keep control, while the bottom hunts for any drift off it as the opening to recover."
+    }
+  ]
 }

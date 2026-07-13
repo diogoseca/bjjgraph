@@ -657,5 +657,39 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What arm and body configuration defines the Double Unders position?",
+      "answer": "The top player threads both arms underneath the bottom player's thighs and clasps the hands together behind the lower back or grips the belt, forming a closed loop that binds both legs as a single controlled unit. The passer's chest drives into the backs of the thighs, stacking the bottom player's hips upward and loading weight onto their shoulders and upper back. Because both legs are captured simultaneously, the defender cannot deploy either leg independently as a frame or hook. This bilateral capture, combined with forward chest pressure and elevated hips, is what distinguishes the configuration from single-leg or half-guard-based control."
+    },
+    {
+      "question": "Why is the connection behind the back the single most important control point in Double Unders?",
+      "answer": "The clasped hands behind the lower back close the loop that keeps both thighs bound together, so if that connection breaks the whole position dissolves into separate single-leg battles. Keeping the hands joined and the elbows pinned to the ribs turns both arms into one rigid structure that resists leg separation and frame insertion. The depth of the grip matters as much as the join: forearms fully under the legs give leverage, while a shallow grip lets the legs slip free. Everything else in the position — chest pressure, stacking angle, hip pinning — depends on this loop remaining intact for both players' calculations."
+    },
+    {
+      "question": "How does weight and pressure travel through the bodies in Double Unders?",
+      "answer": "The passer directs the bulk of their weight forward and downward through the chest into the backs of the thighs, driving the defender's hips up toward their own head and collapsing their spine into a stacked, curved posture. This vector loads the defender onto their shoulders and upper back rather than letting them stay flat and mobile on their hips. The pressure is skeletal rather than purely muscular when done well, with the passer stacking body weight through structure so it can be sustained. The stacked, hips-elevated posture is the position's signature stress and the reason it fatigues the bottom player rapidly."
+    },
+    {
+      "question": "What role does hip mobility play in determining how Double Unders resolves?",
+      "answer": "The position is fundamentally a contest over the bottom player's hips: whoever controls hip orientation controls the outcome. The top player works to pin the hips square and elevated so the defender cannot turn to either side, while the bottom player fights to keep the hips angled and mobile to preserve escape lanes. A flattened, squared hip means the defender has lost the ability to enter deep half on one side or granby toward the other. Because both escape and pass hinge on this single variable, hip control is the pivot point that both players are truly competing for beneath the surface of grip and pressure."
+    },
+    {
+      "question": "Why is Double Unders considered an inherently transitional position rather than a stable holding point?",
+      "answer": "Neither player can profitably sit still: static control lets the defender recover frames and reinsert legs, while passive defense simply invites the stack to complete. The passer must continuously advance by walking the knees forward to complete the pass, and the defender must continuously work frames, hip angle, and leg recovery to escape. The position also scores no points on its own, so there is no incentive to dwell in it. This mutual pressure to keep moving is why the configuration typically resolves within roughly fifteen to forty-five seconds toward either a pass or an escape."
+    },
+    {
+      "question": "How does Double Unders differ from an over-under or leg-weave passing configuration?",
+      "answer": "In Double Unders both arms pass underneath both of the defender's legs, capturing them symmetrically and lifting the hips to stack the opponent onto their shoulders. Over-under and leg-weave configurations are asymmetric: one arm goes under a leg while the other threads over or weaves through, pinning one leg to the mat rather than elevating both together. Because Double Unders is bilateral, it generates a pure stacking pressure and forward compression, whereas the asymmetric passes rely on shearing one leg away and staple pressure to a single side. When one leg escapes the Double Unders loop, the position naturally converts into one of these asymmetric configurations."
+    },
+    {
+      "question": "What makes the frame battle central to the shared dynamic of Double Unders?",
+      "answer": "The entire position turns on whether the defender can wedge any structure between the two chests: any frame that creates space lets escape mechanics function, and eliminating every frame lets the stack complete. The passer fights this by keeping elbows glued to the ribs so no arm can be inserted into the loop and by driving the chest tight to erase gaps. The defender fights it by seeking forearm frames against the face, neck, or hip to generate space proportional to the incoming pressure. Because space is the currency both players are trading, the frame contest is the underlying engine of the whole exchange."
+    },
+    {
+      "question": "From which positions does Double Unders typically arise, and what makes those guards vulnerable to it?",
+      "answer": "Double Unders most often emerges from half guard, butterfly guard, and seated or open guards where the bottom player's legs are elevated and reachable rather than pinned to the mat. Those guards expose the undersides of the thighs, giving the passer the openings needed to thread both arms and clasp behind the back. Once the guard is sufficiently opened or broken, the passer penetrates the defensive frames and captures both legs before the defender can reset. This origin explains why the position functions as a gateway in the passing hierarchy, converting elevated-leg guards into a stacked, frame-killed configuration that funnels toward side control, mount, or back."
+    }
+  ]
 }

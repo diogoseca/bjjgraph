@@ -649,5 +649,39 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines the Russian Cowboy and separates it from standard back control?",
+      "answer": "Russian Cowboy is an asymmetric back-control variant defined by a single deep leg hook threaded under the opponent's near-side leg rather than the two-hook symmetric seat of standard back mount. The hooking foot rides across the inner thigh toward the groin, giving rotational leverage on that hip while the free leg posts or drapes for base. This one-in/one-out structure biases control diagonally toward the hooked side instead of the balanced pinch of both hooks in. That asymmetry is what makes the position a live bridge between back control and the truck, since only one more leg needs to be threaded to complete a truck entanglement."
+    },
+    {
+      "question": "Why does the single deep leg hook function as the position's primary control mechanism rather than a mere secondary attachment?",
+      "answer": "The hook is threaded under the near leg and levered across the inner thigh, so it converts the leg into a lever that controls the opponent's hip line and spine rotation. Because it acts on the hip rather than just the ankle, it stretches the opponent's near side and resists their attempt to square their hips back to neutral or turn toward guard. This rotational anchor is what pins the bottom player onto their side with shoulders off the mat, the defining posture of the exchange. A hook that only catches the ankle or shin loses this hip-level leverage and lets the configuration collapse back toward loose turtle."
+    },
+    {
+      "question": "What is the shared body posture that both players are fighting over in Russian Cowboy?",
+      "answer": "The contested posture is the bottom player pinned on their side or partially turtled with shoulders lifted off the mat, unable to flatten out or square up to a neutral base. Chest-to-back contact keeps the torso aligned along the spine while the hook holds the near hip rotated. One player wants to preserve this stretched, side-exposed alignment because it prevents both re-guarding and standing; the other wants to break it by getting a shoulder or hip back to the mat. Whoever controls whether those shoulders return to the floor controls the position."
+    },
+    {
+      "question": "How does Russian Cowboy differ mechanically from the truck, and why is the boundary between them so fluid?",
+      "answer": "In the truck both of the opponent's legs are entangled and the controlling player is typically underneath, controlling the lower body for twister and calf-slicer angles, whereas Russian Cowboy keeps only one leg hooked while riding the back with chest-to-back contact from above. The shared element is that single threaded leg, so any rotation that lets the second leg be threaded converts Russian Cowboy directly into the truck. This is why the two positions blur together during scrambles and why a roll often decides which of the two results. The distinction is essentially one leg controlled and riding versus two legs entangled and inverted."
+    },
+    {
+      "question": "Which grip and contact points hold the upper body together, and how do they combine with the hook?",
+      "answer": "Upper-body connection is maintained through seatbelt control, over-under grips, or a collar tie plus underhook, clasped to keep the torso welded chest-to-back along the spine. These grips lock the shoulders and prevent the opponent from turning in, while the single hook simultaneously anchors the hip on the other diagonal. The combination creates a two-point diagonal tension across the body, one at the shoulder line and one at the hip line, that stretches the opponent between them. When either point is lost the other cannot hold the stretch alone, which is why the position is defended and attacked as an upper-plus-lower unit rather than as isolated grips."
+    },
+    {
+      "question": "What role does the free (unhooked) leg serve in stabilizing the asymmetric structure?",
+      "answer": "Because only one leg is committed as a hook, the free leg becomes the position's base and steering mechanism, posted on the mat or draped over the opponent's body to block rotation. It counters attempts to roll or bridge toward the open, unhooked side, which is the natural escape direction against a single hook. Kept close to the opponent's body it allows the riding player to follow movement with small pivots rather than large repositioning. If it is posted too wide the structure becomes static and the opponent gains room to turn into the gap on the free side."
+    },
+    {
+      "question": "How is defensive tension distributed across the opponent's body in Russian Cowboy, and why does that asymmetry create mechanical pressure?",
+      "answer": "The hook loads one hip and the seatbelt loads the opposite shoulder, so the opponent's defensive resources are split diagonally and cannot be concentrated in one place. This uneven, stretched distribution keeps the base broken and prevents the bottom player from stacking their frames on a single threat. Unlike symmetric back control where both hooks pinch evenly and the opponent can center their defense, the asymmetry forces them to choose which end to prioritize while the other end advances. That inability to defend both the rotated hip and the controlled shoulder at once is the core reason the configuration generates so much offensive pressure."
+    },
+    {
+      "question": "What relationship does Russian Cowboy hold to the crab ride, and how do their hook configurations differ?",
+      "answer": "Both are single-oriented back-control variants that ride the opponent from behind and feed into truck and twister pathways, but they differ in how the leg is engaged. Russian Cowboy threads one hook deep under the near leg and levers across the inner thigh to control the hip from the side, while the crab ride rides from a higher, more elevated seat with a different hook orientation on the opponent's lower body. Both trade the balanced stability of two-in back control for rotational leverage on the lower body and quicker access to leg entanglements. Recognizing which hook configuration is established tells both players which transitions and escape directions are live."
+    }
+  ]
 }

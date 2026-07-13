@@ -646,5 +646,39 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural elements must be present for a configuration to be considered the Vaporizer rather than ordinary lockdown half guard?",
+      "answer": "The Vaporizer requires three interdependent elements working together: a deep lockdown figure-four trapping one of the top player's legs, an upper-body connection through an underhook or overhook, and an active whip-up motion driving the bottom player's hips forward and upward. The lockdown alone is just a stalling half guard; the addition of committed upper-body control plus dynamic hip drive is what converts it into the Vaporizer. Remove any one of these and the position degrades back toward a neutral lockdown exchange. It is fundamentally a dynamic, off-balancing state rather than a static hold."
+    },
+    {
+      "question": "How does the lockdown figure-four generate control over the trapped leg for both players to contend with?",
+      "answer": "The bottom player triangles their legs around the top player's trapped leg, hooking the top foot behind their own bottom leg to form a figure-four. Extending both legs stretches the trapped leg away from the top player's centerline, preventing them from retracting the knee to rebuild base. This leg extension is the mechanical anchor of the whole position, since it robs the top player of the ability to square their hips or drive forward pressure. For the top player, the same figure-four is what pins their leg and forces every escape to first address the lock before anything else becomes possible."
+    },
+    {
+      "question": "What is the whip-up motion and why is it the defining dynamic of the Vaporizer?",
+      "answer": "The whip-up is a hip-driven action where the bottom player thrusts their hips forward and upward toward the top player's chest while simultaneously extending the trapped leg with the lockdown. This creates a lever that lifts and rotates the top player's weight forward onto their hands, breaking their posted base. Because the motion is rhythmic and repeatable rather than a single explosion, it continuously destabilizes the top player and forces reactive choices. It is the engine that converts the static lockdown into an off-balancing threat, which is why the position lives or dies on the quality of the hip drive rather than arm strength."
+    },
+    {
+      "question": "Why is the upper-body underhook or overhook indispensable to the position rather than optional?",
+      "answer": "The upper-body tie is what prevents the top player from posturing away and clearing the lockdown at leisure. An underhook to the far shoulder or lat lets the bottom player pull the top player's torso down and forward into the whip-up, coupling the leg lever to the upper body so both ends of the opponent are controlled simultaneously. Without it, the top player can post their hands, keep their chest high, and simply weather the leg pressure until they extract. The two control points create opposing forces the top player cannot answer at the same time, which is the source of the position's dilemmas."
+    },
+    {
+      "question": "What weight and balance state is the top player forced into while the Vaporizer is functioning?",
+      "answer": "The top player is held between a stable combat base and being rolled onto their side, with weight driven forward onto their hands and shifted laterally by the whip-up. Their trapped leg is extended and cannot post, so they lose one of the two supports they would normally use to widen and settle. This unstable middle zone is deliberate: it keeps the top player reactive and unable to commit weight in any single direction. The moment they establish a genuinely wide, low, symmetric base, the position's leverage collapses, which is exactly what the top player fights toward and the bottom player fights against."
+    },
+    {
+      "question": "How does the Vaporizer create the simultaneous-threat dilemma that makes it dangerous regardless of which side you play?",
+      "answer": "The coupling of lockdown leg control and upper-body tie means each defensive reaction by the top player opens a different attack. If they post a hand to stop the roll, they expose the Old School sweep; if they stay heavy and low, they invite the Electric Chair leg split; if they try to pull the leg and scramble away, they expose a Truck entry. Because these responses are mutually exclusive, no single defensive posture answers all three at once. This branching structure is a shared property of the position both players must understand, not a menu belonging to one role."
+    },
+    {
+      "question": "In what way does the Vaporizer differ mechanically from a standard bottom half guard or deep half guard?",
+      "answer": "Standard half guard emphasizes distance management, framing, and knee-shield space to prevent the pass, while deep half guard slips underneath to attack the base from below. The Vaporizer instead commits to extreme proximity and a leg-plus-torso lever that actively off-balances rather than merely holding or delaying. Where those guards seek space or an underneath angle, the Vaporizer eliminates space and drives the opponent's weight forward and up. This makes it an offensive control state built to force reactions, rather than a defensive retention posture built to survive and recover."
+    },
+    {
+      "question": "Why is close, chest-to-body proximity a non-negotiable requirement for maintaining the Vaporizer?",
+      "answer": "Proximity is what keeps the lockdown lever and the upper-body tie loaded; any gap lets the top player straighten their posture, retract the trapped knee, and begin clearing the figure-four. The bottom player must stay tight through the underhook, pulling their chest toward the opponent's side so the whip-up has something to act against. Distance converts the position's opposing forces into slack, and slack is precisely the space the top player needs to rebuild base and pass. For this reason both players treat the battle for that inch of separation as the true contest, since it determines whether the lever remains live."
+    }
+  ]
 }

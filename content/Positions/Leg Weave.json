@@ -679,5 +679,39 @@
         "answer": "First, reset your breathing and mental composure. Then begin micro-adjustments: small hip bumps, tiny angle changes, and testing their reactions without committing to escapes. Look for which direction they counter least strongly. Once you identify a weakness in their positioning, commit to a coordinated escape using frames, hips, and legs together. The worst mistake is staying passive - even small movement prevents complete position consolidation."
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines the leg weave and distinguishes it from a standard half guard exchange?",
+      "answer": "Leg weave is a half-guard passing control in which the top player threads their knee-side leg between the bottom player's legs so the weaved shin or knee crosses the bottom player's hip line or thigh. This threading pins the bottom player's lower leg and neutralizes their ability to reinsert knee shield, butterfly hooks, or framing legs. Unlike a neutral half guard where both players retain balanced leg connection, the weave creates an asymmetric leg tangle that mechanically favors the passer. The position is fundamentally transitional, existing as a control checkpoint between guard engagement and a completed pass rather than a settled resting state."
+    },
+    {
+      "question": "Why is the depth of the weaved leg the single most important variable governing who controls the position?",
+      "answer": "The weave only disrupts the bottom player's defensive structure once the top player's knee penetrates past the bottom player's hip line, so depth determines whether the leg functions as a control point or a liability. A deep weave pins the bottom leg and denies knee shield reinsertion, locking the asymmetric advantage in the passer's favor. A shallow weave leaves room for the bottom player to recover hooks, frame the knee, or attack the exposed leg. Because depth is the fulcrum of the exchange, both players fight over it constantly: the passer drives to deepen and the bottom player pumps hips to shallow it out."
+    },
+    {
+      "question": "How is weight and pressure distributed across the three contact points that hold the leg weave together?",
+      "answer": "Control rests on three points working together: the weaved leg anchoring the bottom leg, the supporting outside leg providing base, and upper-body connection through chest, shoulder, and grips. Effective pressure comes from skeletal structure and low hips rather than muscular pushing, letting body weight settle through the chest into the bottom player's torso. Committing too much weight onto the weaved leg alone collapses the base and invites sweeps, so the load stays distributed between leg, base, and hands. This structural distribution is what lets the top player rest heavy while the bottom player carries the weight and works to escape."
+    },
+    {
+      "question": "What role does upper-body control play in the leg weave beyond the leg threading itself?",
+      "answer": "The leg thread only addresses the lower body, so without upper-body connection the bottom player can sit up, frame, or create the angle needed to recover guard. A crossface, underhook, collar tie, or collar grip flattens the bottom player's shoulders and prevents them from posting up onto an elbow. This upper-body control is what converts the leg tangle into genuine flattening pressure, closing the space the bottom player needs to shrimp or reframe. The frame battle at the shoulder line and the neck is therefore as decisive as the leg depth in determining whether the position holds."
+    },
+    {
+      "question": "Which frames and connections are the contested currency that decides whether the position stays locked or breaks down?",
+      "answer": "The exchange turns on competing frames: the bottom player fights for a forearm on the neck or shoulder plus a hand on the hip to prevent flattening and rotation, while the top player fights for crossface or underhook to erase those frames. The near-side underhook is especially pivotal because whoever wins it controls the upper-body connection and the angle of pressure. The bottom player's far-side half-guard hook is the remaining leg connection that prevents an immediate pass, so it is defended and attacked with equal intensity. Control of the position is essentially the aggregate result of these simultaneous frame and hook battles."
+    },
+    {
+      "question": "Why does the leg weave create a passing dilemma rather than a single line of attack, and how does that shape both players' decisions?",
+      "answer": "Because the weave pins the bottom leg while freeing the top player's outside leg and grips, it opens several passing directions at once: knee slice to the near side, leg drag if the bottom player turns, and smash or over-under if they flatten. Defending one threat necessarily opens another, so the bottom player cannot commit fully to a single defense without conceding an alternate lane. This forces the position to remain dynamic, with the passer chaining threats to prevent the bottom player from settling into any one defensive posture. The shared dynamic is that stalling favors the passer, so both players are pushed toward continuous reaction and counter."
+    },
+    {
+      "question": "How does the leg weave relate to and transition into its adjacent positions on both sides of the exchange?",
+      "answer": "Leg weave sits downstream of half guard, where it typically develops as the top player threads through during a passing sequence, and upstream of side control, which is the passer's primary completion target. If the bottom player reframes and pumps hips they can recover knee shield half guard, while diving under forward pressure leads to deep half guard and coming up on the elbow leads to a dogfight. It shares its pressure-passing logic with headquarters position and can flow into leg drag control when the bottom player turns. Understanding it as a branching hub rather than an endpoint is what lets both players anticipate where the exchange resolves."
+    },
+    {
+      "question": "What makes the leg weave an inherently unstable, time-limited position for both players rather than a place to settle?",
+      "answer": "The asymmetric leg tangle and constant frame battle mean the configuration is always resolving toward a pass or an escape rather than holding statically. The passer burns position if they stall because the bottom player uses any settling to reframe and recover, while the bottom player's retention and energy drain rapidly under sustained pressure. Micro-adjustments in hips, frames, and weight are continuous on both sides, so neither player can afford to freeze. This transitional nature is a defining feature: the leg weave is a passing checkpoint measured in seconds, not a controlling position meant to be maintained."
+    }
+  ]
 }

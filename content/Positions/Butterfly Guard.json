@@ -677,5 +677,69 @@
       "guard retention strategies",
       "x-guard transition methods"
     ]
-  }
+  },
+  "flashcards_family": [
+    {
+      "question": "What is the defining mechanical principle that makes any butterfly guard variant a sweeping platform rather than a purely defensive posture?",
+      "answer": "Every butterfly variant places at least one foot as an active elevation hook underneath the opponent's thigh, positioning a lifting fulcrum directly beneath their center of mass. Because the hook sits inside and below the load, a small amount of leg drive translates into large vertical displacement of the opponent, unweighting their base. This inside-and-under position is what separates butterfly from guards that merely block or frame, and it is the common denominator whether both hooks are in or only one. The seated player leverages skeletal structure and elevation rather than raw strength, which is why the position rewards mechanical timing over athleticism."
+    },
+    {
+      "question": "Why must upper-body control and lower-body elevation be coordinated into a single directional force in every butterfly configuration?",
+      "answer": "The hook alone can lift an opponent but cannot dictate where they fall; the upper-body connection (collar, sleeve, underhook, or head-and-arm control) supplies the steering. When the pull of the arms and the drive of the hook point in the same direction, they combine into one unified rotational vector that off-balances the opponent past their base edge. If the two act in different directions, the forces cancel and the opponent simply re-bases. This coordinated pull-and-lift is the universal engine of butterfly offense regardless of which specific grip or which side the hook is on."
+    },
+    {
+      "question": "What upright postural requirement is shared across all butterfly variants, and what happens mechanically when it is lost?",
+      "answer": "Every butterfly variant demands a seated posture with the chest forward, spine stacked over the hips, and core engaged rather than lying flat on the back. This upright structure keeps the hips mobile and preserves the geometry needed to load the hook and reach the opponent's upper body. When the player is flattened, the hook loses its angle of elevation, the fulcrum collapses beneath the opponent, and the position degrades into a bottom pin with no sweeping leverage. Maintaining posture is therefore the shared survival-and-offense prerequisite that precedes any specific attack."
+    },
+    {
+      "question": "How does inside position function as the universal battleground of the butterfly guard for both the seated player and the passer?",
+      "answer": "Butterfly is fundamentally a contest for inside position: the seated player fights to keep hooks and elbows inside the opponent's thighs and arms, while the passer fights to strip those connections to the outside. Whoever controls the inside space controls the leverage, because inside hooks generate elevation and inside upper-body ties break posture, whereas outside control lets the passer flatten and circle. This dynamic holds in every variant because the hook is defined by its inside placement. The moment inside connection is lost the position converts toward a pass or a lesser guard, making inside-space retention the shared strategic priority."
+    },
+    {
+      "question": "Why is butterfly guard best understood as a transitional hub rather than a static holding position across all its variants?",
+      "answer": "Because the hooks sit under the opponent and the posture stays mobile, butterfly naturally flows into leg-entanglement systems like X-guard and single-leg X when the opponent stands, and into deep half or half guard when heavy pressure flattens the near side. This connectivity is intrinsic to the position's geometry, not specific to one variant. A seated player who treats butterfly as a launching point maintains constant threat by chaining sweeps into transitions, forcing the opponent into a dilemma where defending the elevation opens an entanglement and defending the entanglement opens the elevation. Stagnating in place surrenders this compounding pressure and lets the passer settle."
+    },
+    {
+      "question": "What is the universal off-balancing timing principle that governs when a butterfly sweep should be launched?",
+      "answer": "Sweeps from any butterfly variant land highest-percentage when they are timed to the opponent's own forward pressure or weight shift rather than initiated against a settled, balanced base. When the opponent commits weight forward to pass or posture up, their base narrows in that direction and the elevation hook only needs to redirect existing momentum past the base edge. Attacking a stationary, wide base instead forces the player to generate all the displacement themselves, which is inefficient and telegraphed. Reading and borrowing the opponent's motion is the shared timing logic that makes butterfly elevation feel effortless when done correctly."
+    },
+    {
+      "question": "Why does crossing the ankles behind the opponent neutralize the offensive capability of any butterfly position?",
+      "answer": "The elevation power of butterfly depends on each hook operating independently under a thigh so it can drive upward and rotate the opponent. Crossing the ankles locks the feet together behind the opponent's back, which converts the active lifting hooks into a passive closed loop with no upward vector. This eliminates the fulcrum beneath the opponent's center of mass and leaves the player flat and controllable, vulnerable to pressure passing. Keeping the hooks separate and independent is therefore a universal rule of the position, because independence is precisely what allows elevation and directional off-balancing."
+    }
+  ],
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines Butterfly Guard and distinguishes it from other open guards?",
+      "answer": "Butterfly Guard is defined by the bottom player sitting upright with both feet inserted as hooks, insteps or balls of the feet pressing against the inside of the opponent's thighs. The knees flare outward like wings, placing the shins and feet inside the opponent's legs to establish inside position beneath their center of mass. This differs from guards like Closed or Half Guard because the connection is made through active elevation hooks rather than a leg clamp or a trapped leg. The seated, hips-off-the-mat posture keeps the bottom player mobile and reactive rather than flattened, which is why it reads as a dynamic launching platform rather than a purely retentive position."
+    },
+    {
+      "question": "Why are the butterfly hooks positioned under the thighs rather than crossed or wrapped behind the opponent?",
+      "answer": "The hooks sit under the opponent's inner thighs so they act as a fulcrum directly beneath the opponent's center of mass, converting a small extension of the legs into significant vertical lift. Wrapping or crossing the ankles behind the opponent would eliminate this elevation vector and remove the independent action of each leg, collapsing the position's core mechanic. Keeping the hooks separate and unhooked lets either leg drive upward independently to unbalance the top player in any direction. This under-the-thigh placement is precisely what allows minimal energy input to produce large off-balancing output through leverage."
+    },
+    {
+      "question": "Why is upright seated posture treated as a defining state property rather than an optional detail in Butterfly Guard?",
+      "answer": "The upright seated posture with an engaged core keeps the bottom player's chest close to the opponent, which is what allows upper-body control and hook elevation to combine into a single unified force. If the bottom player is flattened onto the back, the hooks lose their lifting angle and the position degrades toward a supine open guard or gets passed. Sitting up also preserves hip mobility for angle changes and keeps the head off the mat, away from front-headlock and pressure dangers. The configuration only functions as Butterfly Guard while both players contest this vertical, connected relationship; flattening the bottom player fundamentally changes the position."
+    },
+    {
+      "question": "How do upper-body control and lower-body hooks combine to create the central dynamic of Butterfly Guard?",
+      "answer": "Butterfly Guard operates on the coordination of two force systems: the hooks generate elevation from below while grips on the collar, sleeves, or an underhook control the opponent's posture and weight from above. When these forces act in the same direction, the top player is lifted and rotated as a unit rather than being pushed against a braced base. This upper-lower coupling is what makes the position an off-balancing engine, and it is why neither the hooks alone nor the grips alone define the guard. The constant threat of this combined force keeps the exchange dynamic and forces the top player to manage both vectors simultaneously."
+    },
+    {
+      "question": "What role does inside position play in the shared dynamics of Butterfly Guard for both players?",
+      "answer": "Inside position means the bottom player's hooks and often an underhook occupy the space inside the opponent's legs and around their torso, closer to the centerline than the opponent's own controls. Whoever wins inside position governs the elevation and off-balancing potential, so the entire exchange centers on the top player fighting to establish outside control or distance while the bottom player fights to keep the hooks and connection deep. This inside-versus-outside contest is the pivotal battle that determines whether the position produces sweeps or gets passed. It explains why grip fighting and hook depth are contested from the very first moment of engagement."
+    },
+    {
+      "question": "How does the distance and posture of the top player change the character of the Butterfly Guard exchange?",
+      "answer": "Butterfly Guard is most active when the top player is close in combat base or on their knees, where the hooks can fully engage the thighs and elevation is maximized. As the top player stands or backs away to create distance, the hooks lose their thigh contact and the elevation mechanic weakens, which is why the position naturally feeds into leg-entanglement configurations like X-Guard and Single Leg X. Conversely, if the top player drives heavy forward pressure to flatten the bottom player, the seated posture is threatened and the exchange shifts toward Deep Half or Half Guard. The position is therefore defined by a narrow, close-range window of engagement that both players are constantly trying to control."
+    },
+    {
+      "question": "Why is Butterfly Guard considered a transitional hub rather than a static holding position?",
+      "answer": "Because the connection is made through active hooks and an upright seat rather than a fixed clamp, small changes in the opponent's distance or base immediately open pathways to adjacent positions for whichever player capitalizes first. When the opponent stands, the hooks flow into X-Guard or Single Leg X; when they pressure forward, the position feeds Deep Half or Half Guard; when a hook is cleared, Half Butterfly or Half Guard results. This connectivity is a structural feature of the configuration, not a strategic choice, which is why it is rarely held statically. Both players operate knowing the position is a crossroads that resolves quickly into a neighboring configuration."
+    },
+    {
+      "question": "How does Butterfly Guard differ mechanically from Half Guard and Closed Guard as a control system?",
+      "answer": "Closed Guard controls the opponent by clamping the legs around their waist, and Half Guard controls by trapping one of the opponent's legs, both relying on a locking or containing action. Butterfly Guard instead controls through active elevation, using unhooked feet under the thighs as levers to lift and unbalance rather than to contain. This makes it inherently more offensive and mobile but also less positionally secure, since there is no closed clamp to hold the opponent in place. The tradeoff of stability for elevation and dynamism is the defining mechanical distinction that separates Butterfly Guard from its clamp-based and leg-trap neighbors."
+    }
+  ]
 }

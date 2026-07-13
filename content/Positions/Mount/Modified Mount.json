@@ -658,5 +658,39 @@
         "answer": "Avoid explosive movements that the posted leg is designed to absorb - bridges and explosive escapes waste enormous energy against this position's stability. Instead, use small technical hip escapes combined with frames, accepting incremental progress. Keep breathing controlled and deep despite the pressure. Wait for genuine openings like grip changes or submission attempts rather than forcing escapes. The opponent is expending less energy than in standard mount, so patience and technical precision beat explosive attempts that exhaust you."
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What configuration of the top player's legs defines Modified Mount and distinguishes it from standard mount?",
+      "answer": "Modified Mount is an asymmetric top-mount variation in which one of the top player's legs posts wide to the side with the foot flat on the mat, while the opposite knee stays pinned diagonally across the torso. Standard mount keeps both knees down and hips squared, distributing weight evenly across the opponent's midline. The posted leg converts one side of the base from a knee anchor into a wide bracing strut, which is the single structural feature that makes the position what it is. This trade sacrifices some symmetric pinning pressure in exchange for a broader, bridge-resistant base and a hip already partially rotated toward armbar geometry."
+    },
+    {
+      "question": "How is weight distributed between the two contact points in Modified Mount?",
+      "answer": "Roughly 60-70% of the top player's weight funnels down through the across-body knee and hip, which press through skeletal alignment into the opponent's ribcage. The posted leg carries the remaining load as a passive stability strut rather than as a primary pinning surface. This deliberate imbalance is what creates the position's defining feel: heavy crushing pressure on the knee side and a comparatively lighter, more open feeling on the posted-leg side. Both players read the position through this asymmetry, one to exploit the light side and the other to defend it."
+    },
+    {
+      "question": "Why does the posted leg make Modified Mount more resistant to the bridge-and-roll than standard mount?",
+      "answer": "A bridge-and-roll works by loading the top player's weight onto one shoulder and using explosive hip extension to tip them over that edge. The wide posted foot acts as a buttress on exactly that edge, planting into the mat and absorbing the rotational momentum before it can complete. In standard mount both knees float off the ground during a hard bridge, giving the rotation nothing to catch on, whereas the posted leg gives the top player a rigid outrigger. This is the core structural reason the position is chosen against opponents with strong explosive reversals."
+    },
+    {
+      "question": "What directional bias does the asymmetric structure create in Modified Mount?",
+      "answer": "Because the across-body knee concentrates pressure on one side, the posted-leg side becomes the position's structurally weakest line, with a gap opening between the top player's hip and the bottom player's body. The across-body knee side, by contrast, functions as a heavily loaded wall that resists lateral movement. This bias sets the geometry of the exchange: the viable line of hip movement runs toward the posted leg, while the knee side is where control is strongest for whoever holds the top. Both players orient their effort along this single axis rather than treating the position as symmetric."
+    },
+    {
+      "question": "Why does Modified Mount naturally funnel into armbar geometry regardless of who is playing it?",
+      "answer": "Posting one leg pre-rotates the top player's hips toward that side, which is the same hip rotation required to swing a leg over the head for an armbar. The configuration therefore sits one motion away from armbar entry, with the posted leg ready to become the leg that pivots across the face. This is a shared mechanical fact of the position, not merely a top-side tactic: it is precisely why the bottom player must treat the near-side arm as under immediate armbar threat and keep it glued tight. The asymmetry that provides top-side stability is the same asymmetry that loads the armbar."
+    },
+    {
+      "question": "What role does the across-body knee play as the primary control element in Modified Mount?",
+      "answer": "The across-body knee presses its shin blade diagonally across the opponent's abdomen or lower ribs, pinning the torso and restricting lateral hip movement through bone-on-bone skeletal contact rather than muscular effort. It carries the majority of the position's control while the posted leg only supplies base, so the position's integrity depends on that knee staying heavy and connected. If the knee lifts or the opponent inserts an elbow inside it, the primary control collapses and the posted leg alone cannot hold the pin. Both players orient around this knee: one keeps it crushing, the other fights to get an elbow underneath it."
+    },
+    {
+      "question": "How does Modified Mount relate to S-Mount, High Mount, and Technical Mount as adjacent positions?",
+      "answer": "Modified Mount sits as a hub among the asymmetric mount family and typically appears as a transitional or intermediate configuration rather than a permanent one. Advancing the posted-side hip further under the opponent's arm progresses toward S-Mount, a more extreme asymmetry committed to the armbar; walking both knees toward the head moves to High Mount, which removes the posted-leg vulnerability entirely; and inserting a hook when the opponent turns leads toward Technical Mount and the back. It is more armbar-ready than these but less committed, which is why it frequently serves as the branching point between them. Recognizing it as a crossroads rather than a destination is central to understanding it."
+    },
+    {
+      "question": "Why is Modified Mount often described as a temporary or transitional position rather than a static hold?",
+      "answer": "The asymmetric base that grants stability against bridges also reduces the even, smothering pressure of squared standard mount, so holding it statically gives the bottom player time to build frames and work toward the open posted-leg side. Its value comes from being mid-motion, either advancing toward a submission or another mount variation, or briefly bracing against an explosive reversal before resettling. Left idle it slowly leaks control down the light side, which is why competent play keeps it flowing rather than parked. This transient character is a defining property of the configuration, not a flaw in how it is used."
+    }
+  ]
 }

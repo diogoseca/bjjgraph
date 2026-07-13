@@ -653,5 +653,39 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What geometric configuration defines Reverse Half Guard and distinguishes it from standard half guard?",
+      "answer": "Reverse Half Guard inverts the standard chest-to-chest half guard so that the bottom player faces away, with their spine running roughly parallel to the top player's centerline while still trapping one of the top player's legs between their own. The defining feature is this reversed facing: instead of the two players' fronts squaring off across a shared centerline, the connection is worked from behind rather than in front. This single change of orientation relocates every frame, grip, and pressure vector, turning familiar half guard reference points inside out. The trapped leg remains the shared anchor, but every angle of attack and defense is inverted from the standard configuration."
+    },
+    {
+      "question": "Why is the trapped leg the central control point that both players fight over in Reverse Half Guard?",
+      "answer": "The leg entanglement is the only stable mechanical link between the two players, so it functions as the pivot around which the entire position turns. The bottom player clamps the trapped leg with active tension through both knees to deny extraction, because releasing it lets the top player simply step free and pass. The top player, conversely, works to strip or extend the trapped leg to unlock the exit or advance. Because facing is reversed and upper-body connection is weak, whoever wins the leg battle dictates whether the position holds, sweeps, or resolves into a pass or back exposure."
+    },
+    {
+      "question": "How does weight distribution behave differently in Reverse Half Guard compared to a chest-to-chest half guard?",
+      "answer": "In standard half guard the top player drives weight forward through the chest into the bottom player's front, but the reversed facing means that pressure is now directed toward the bottom player's back and hips from behind. This changes the top player's balance vector from a forward smash into a rearward, hip-heavy pin that must chase the opponent's spine rather than their sternum. The bottom player, facing away, cannot absorb or redirect that pressure with conventional frames and instead relies on mobility and rotation. The result is an inherently less stable weight relationship where neither player can settle for long."
+    },
+    {
+      "question": "What makes Reverse Half Guard a momentum-driven position rather than a static holding position for either player?",
+      "answer": "Because the reversed facing prevents both players from establishing the strong chest-to-chest connection that stabilizes standard half guard, neither side can comfortably rest in the position. The weak upper-body link means any committed weight shift can be redirected, so the position rewards timing and directional change over sustained control. Both players are pushed to act quickly: the top toward a pass or back take, the bottom toward a sweep or recovery. Staying still simply hands the initiative to whoever moves first, which is why the position is universally treated as transitional."
+    },
+    {
+      "question": "Why does the reversed orientation of this position create back-exposure dynamics that neither player faces in standard half guard?",
+      "answer": "With the bottom player facing away, their back and neck are naturally presented toward the top player, creating a persistent back-take threat that does not exist when the two are chest-to-chest. This shapes the shared dynamics of the position: the top player is always one rotation away from hooks and a seat belt, while the bottom player must keep the chin tucked and hands defending the neck even while attacking. The same inverted geometry that opens unconventional sweep angles for the bottom is precisely what exposes the back, making back awareness a constant tax on both offense and defense here."
+    },
+    {
+      "question": "How do the available leverage angles in Reverse Half Guard differ from those in standard half guard, and why does that matter?",
+      "answer": "The inverted configuration opens leverage angles that are unreachable from the chest-to-chest orientation, because the players' hips and shoulders are aligned along a reversed axis. Sweeps and back-take entries here exploit rotation and the opponent's forward momentum rather than the underhook-versus-crossface battle that governs standard half guard. This angular novelty is compounded by unfamiliarity: most practitioners have drilled the standard facing far more than the reverse, so the same technique meets less trained defense. The position's value therefore comes as much from disrupting familiar defensive patterns as from the raw mechanics."
+    },
+    {
+      "question": "What role does continuous rotation and hip mobility play in the shared mechanics of Reverse Half Guard?",
+      "answer": "Rotation is the defining kinetic property of the position for both players, because the reversed facing means neither can hold ground through static pressure alone. The bottom player uses hip rotation to generate sweep angles, threaten the back take, and prevent the top player from settling their weight. The top player must rotate and walk their hips in kind to chase the escaping spine, choosing between following the turn into a back take or cutting the angle off to pass. Whoever controls the rotational battle controls the position, which is why hip mobility, not grip strength, is the governing attribute here."
+    },
+    {
+      "question": "How does Reverse Half Guard relate mechanically to adjacent positions like deep half guard, the dogfight, and back control?",
+      "answer": "Reverse Half Guard sits on a continuum of half guard variations defined by how the leg entanglement and facing are arranged. It typically originates from a scramble or a disrupted standard half guard, and can drain into deep half guard when the bottom player burrows underneath to retain, or into the dogfight when both players come up to their knees fighting for the underhook. Its reversed facing makes back control the most natural resolution, since the bottom player's turned-away spine is already oriented for either taking the back or surrendering it, depending on who capitalizes first. Understanding these neighbors clarifies that the reverse configuration is a hinge, not a destination."
+    }
+  ]
 }

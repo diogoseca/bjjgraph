@@ -692,5 +692,39 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What defines the Saddle configuration relative to the trapped leg?",
+      "answer": "The Saddle is an inside leg entanglement in which one player sits perpendicular to the other with a figure-four of their legs wrapping the opponent's trapped leg. The controlling legs thread inside the opponent's knee line so that one leg sits behind the trapped knee while the other crosses over, isolating the hip, knee, and ankle as a single unit. This perpendicular, inside-the-knee alignment is what distinguishes the Saddle from outside entanglements and is what generates simultaneous mechanical access to rotate the heel and stress the knee. Because both players share this same trapped-leg geometry, the configuration is defined by the entanglement itself rather than by who is currently winning the exchange."
+    },
+    {
+      "question": "Why does perpendicular alignment matter so much in the Saddle for both players?",
+      "answer": "Perpendicularity aligns the entangling player's hips and torso across the axis of the trapped leg, which is the geometry required to apply rotational force to the knee and ankle. When the trapped player rotates back toward square with their attacker, they reduce that cross-body angle and blunt the leverage on their own joints. The whole positional battle therefore revolves around this angle: the entangling player fights to stay perpendicular while the trapped player fights to face them and break the cross-body line. Because the mechanical advantage scales with how perpendicular the alignment is, both players read the position through the same lens of angle rather than through independent goals."
+    },
+    {
+      "question": "How does hip pressure into the trapped leg govern the shared dynamics of the Saddle?",
+      "answer": "The entangling player wedges their hips into the trapped thigh, and that pressure is what pins the leg and prevents the trapped player from rotating in either direction. It converts the entanglement from a loose tangle into a rigid structure where the knee and hip are stapled in place. For the trapped player, this same hip pressure is the primary obstacle they must clear before any leg extraction becomes possible, which is why clearing hip pressure precedes extraction in escape hierarchies. The dynamic is symmetric in that both players are managing the same wedge: one deepening it, the other trying to open the space it occupies."
+    },
+    {
+      "question": "Why is the position of the exposed heel the central control point that both players fixate on?",
+      "answer": "In the Saddle the trapped leg's heel is typically oriented toward the entangling player's chest or armpit, and control of that heel is what enables the inside heel hook, the position's highest-percentage finish. The heel's exposure or concealment defines the immediate danger level: an exposed heel is finishable, while a hidden heel forces the attack elsewhere. This is why the trapped player rotates the knee inward to bury the heel while the entangling player works to expose and cup it. Both players are essentially contesting the same few centimeters of the foot, making the heel the shared fulcrum around which the exchange turns."
+    },
+    {
+      "question": "What creates the submission dilemma that characterizes the Saddle?",
+      "answer": "The Saddle isolates the hip, knee, and ankle simultaneously, so defensive actions that protect one joint tend to expose another. Hiding the heel by rotating the knee inward re-orients the foot into a straight ankle lock or toe hold, while pulling the toes back to defend the ankle re-exposes the heel to rotation. This self-reinforcing web of threats is why practitioners describe the position as a check-mate-like dilemma rather than a single attack. Both players understand the same trade-off: every defensive rotation is simultaneously an offensive opening, which is what makes the Saddle mechanically distinct from single-joint leg attacks."
+    },
+    {
+      "question": "How does the Saddle differ mechanically from Outside Ashi-Garami and 50-50?",
+      "answer": "In the Saddle the entangling player's legs are inside the opponent's knee line and the alignment is perpendicular, giving direct rotational access to the heel; in Outside Ashi-Garami the control sits outside the knee line, which favors straight ankle locks over the inside heel hook. Compared to 50-50, where both players symmetrically entangle one leg each and neither owns clear inside position, the Saddle is asymmetric: one player holds the inside space and the other is trapped. This inside-versus-outside and asymmetric-versus-bilateral distinction is what makes the Saddle more dominant than adjacent entanglements. Losing inside position typically collapses the Saddle back into one of these less-committed configurations."
+    },
+    {
+      "question": "Why does the trapped player's free leg become a shared strategic focus in the Saddle?",
+      "answer": "The trapped player's non-entangled leg is one of the few tools that can act on the entangling player's hips, framing to push away pressure or to prevent them from squaring into full perpendicularity. For that reason the entangling player works to pin or hook that free leg, since an uncontrolled free leg can generate the rotation and space needed to break the cross-body angle. The contest over this free leg is a direct extension of the angle-and-pressure battle that defines the position. Both players read it the same way: it is the trapped player's engine for restoring square alignment and the entangling player's last variable to neutralize."
+    },
+    {
+      "question": "Why is the Saddle considered a submission platform rather than a positional-control endpoint?",
+      "answer": "Unlike positions such as mount or back control, where positional dominance is the primary objective and submission is secondary, the Saddle inverts that hierarchy because its control geometry exists to finish leg attacks. The perpendicular alignment, hip pressure, and heel exposure all serve the goal of applying rotational or extension force to the isolated joints. This is why the position carries a shorter time-sustainability profile and higher stakes than a dominant pin: it is inherently less stable than a control-first position and pushes toward resolution. Both players experience it as a race, one toward the finish and one toward extraction, rather than a state that can be comfortably held."
+    }
+  ]
 }

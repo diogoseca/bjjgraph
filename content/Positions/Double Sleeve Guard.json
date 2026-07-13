@@ -729,5 +729,39 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines Double Sleeve Guard and distinguishes it from other open guards?",
+      "answer": "Double Sleeve Guard is defined by the bottom player gripping both of the opponent's sleeve cuffs simultaneously while framing the feet against the hips or biceps to hold distance. Unlike collar-based or leg-entanglement guards, control here runs entirely through the opponent's arms, meaning both of their hands are occupied and cannot grip the pants, belt, or legs. This creates a bilateral, symmetrical connection that ties the top player's upper-body movement to the bottom player's grip fighting. The signature trait is that the sleeve grips and the foot frames form two independent control layers working together to manage distance and posture."
+    },
+    {
+      "question": "Why are the sleeve cuffs the preferred gripping point rather than higher up the arm?",
+      "answer": "Gripping at or near the cuff places the control at the far end of the lever formed by the opponent's arm, giving the gripper maximum mechanical advantage and the opponent minimal leverage to rotate free. A cuff grip with fingers inside the sleeve opening and the elbow tucked to the ribs converts finger strength into a structural hook reinforced by the whole arm. Gripping higher toward the shoulder shortens the lever the gripper controls while lengthening the arc through which the opponent can whip the arm loose. This is why the cuff position is the single most contested real estate in the exchange for both players."
+    },
+    {
+      "question": "How do the sleeve grips and foot frames combine to manage distance in this position?",
+      "answer": "The sleeve grips control the horizontal plane by pulling or redirecting the opponent's arms, while the feet on the hips or biceps control the vertical and depth plane by pushing the torso away. Working together, they form a four-point suspension that lets the bottom player set an exact distance and deny chest-to-chest contact. If either layer fails alone, the other can temporarily preserve the frame, but the position's stability comes from both operating at once. The push of the legs and the pull of the arms are opposable forces, and their tension is what freezes the top player at arm's length."
+    },
+    {
+      "question": "What is the push-pull mechanism at the heart of the Double Sleeve Guard exchange?",
+      "answer": "Push-pull refers to the feet driving the opponent's hips or shoulders along one vector while the sleeve grips pull the arms along an opposing or perpendicular vector. These opposed forces create rotational and off-balancing torque that a single-direction pull could never generate, bending the opponent into a rounded, concave shape that compromises their base. The mechanism is the engine behind nearly every sweep threat from the position and the primary thing the top player must neutralize to pass. Because the forces are opposed, small adjustments in foot or grip angle dramatically shift where the opponent's weight is compromised."
+    },
+    {
+      "question": "How does breaking the opponent's posture function as the pivotal event in this position?",
+      "answer": "Posture here is the top player's ability to keep the spine stacked, hips back, and shoulders above the base, which lets them resist being pulled forward and organize a pass. The bottom player attacks this by pulling the sleeves down and in while the feet push the hips back, bending the opponent into a rounded, forward-loaded shape. Once posture breaks forward, the top player's weight enters the bottom player's offensive range and the head drifts toward submission windows. The entire tug-of-war of the position orbits this single variable: whoever wins the posture battle dictates whether it becomes a sweep or a pass."
+    },
+    {
+      "question": "Why is Double Sleeve Guard classified as an inherently gi-dependent position?",
+      "answer": "The position's defining control is a fabric grip on the sleeve cuff, a handle that simply does not exist without the gi jacket. In no-gi the equivalent hand-on-wrist grip is far weaker because there is no cloth to lock the fingers around, so the bilateral sleeve structure collapses and players default to wrist control, two-on-ones, or frames. This is why the position's identity, its sweep menu, and its transitions are all built around gi mechanics. It also explains why many of its natural transitions lead to other gi-specific guards like spider, lasso, and collar sleeve rather than to no-gi entanglements."
+    },
+    {
+      "question": "What relationship connects Double Sleeve Guard to Spider Guard, Lasso Guard, and Collar Sleeve Guard?",
+      "answer": "All four share the same underlying sleeve-grip foundation, which makes Double Sleeve Guard a hub from which the others branch by changing where the feet or one grip go. Threading a foot into the crook of a gripped arm converts it toward spider guard, wrapping the shin over and around the arm creates the lasso, and trading one sleeve grip for a collar grip produces collar sleeve. Because the sleeve grips are preserved through these changes, the transitions flow without surrendering the core connection to the opponent's arms. This shared root is why the position is taught as a gateway guard rather than a dead end."
+    },
+    {
+      "question": "How does the symmetrical bilateral control of this guard shape the tempo of the exchange for both players?",
+      "answer": "Because both of the opponent's arms are tied up equally, neither player can quietly build a one-sided advantage without first winning a grip, so the position tends to freeze into a deliberate grip-fighting battle rather than fast scrambles. The bottom player uses this to control tempo and stall the top player's passing organization, while the top player must spend energy breaking at least one grip before any real progress. This symmetry makes the position energetically taxing for both sides and rewards whoever manages grip endurance and timing best. The tempo only breaks when one grip is won or lost, which is the trigger that tips the exchange toward either a sweep or a pass."
+    }
+  ]
 }

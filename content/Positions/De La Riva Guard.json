@@ -644,5 +644,69 @@
       },
       "average_time": "45-90 seconds per engagement"
     }
-  }
+  },
+  "flashcards_family": [
+    {
+      "question": "What makes the De La Riva hook a fundamentally different control mechanism than a static frame-based guard?",
+      "answer": "The De La Riva hook trades static structure for dynamic leverage by wrapping around the outside of the opponent's lead leg and pressuring behind the knee, connecting the guard player directly to the opponent's base rather than merely holding them at distance. Because the hook is wrapped rather than posted, tension can be lengthened and shortened at will, actively steering the opponent's weight rather than passively absorbing pressure. This live connection turns the opponent's own base into the lever, so their attempts to step, stand, or drive forward feed off-balancing energy back into the sweep. Every De La Riva variant inherits this principle: the hook is an active steering wheel on the opponent's balance, not a wall."
+    },
+    {
+      "question": "Why is the two-point connection of hook-plus-grip essential to every De La Riva variant?",
+      "answer": "A hook alone controls only the opponent's leg, allowing them to rotate their upper body, re-post their hands, and square up to smash the guard. Pairing the leg hook with a hand grip on a sleeve, collar, ankle, or pant creates a diagonal control line that simultaneously pins the base and disrupts the posture, so the opponent cannot align their hips and shoulders over their base. This two-point structure is what converts mere leg contact into genuine off-balancing power, because the grip prevents the opponent from recovering the posture they need to defend the sweep. Whether the hook is standard or reversed, losing either connection collapses the dilemma and lets the opponent begin passing."
+    },
+    {
+      "question": "How does the dilemma-based reaction structure define De La Riva as a system rather than a single sweep?",
+      "answer": "De La Riva does not rely on one technique succeeding; it forces the opponent into a small set of defensive reactions, each of which opens a different pre-loaded attack. When the opponent drives forward, inversion and back-take entries open; when they stand tall or lean back, under-transitions to X-Guard and Single Leg X become available; when they strip grips, timing windows for direct sweeps appear. Because every reasonable defensive reaction has a punishing counter, the guard player attacks the opponent's decision rather than any single limb. This reaction matrix is the strategic core shared by all variants, and reading which reaction is coming is what separates competent from dangerous De La Riva players."
+    },
+    {
+      "question": "Why does the De La Riva player prioritize creating and constantly changing angles rather than working from a square, facing position?",
+      "answer": "Off-balancing leverage is maximized when the guard player's hips are angled off-line relative to the opponent, because a perpendicular or oblique hip angle points the hook's force across the opponent's base rather than straight into their strongest defensive posture. From a square, facing position the opponent can stack weight forward and smash, but from an angle their base becomes a narrow, tippable line. Constantly shifting the angle also keeps the opponent reactive and prevents them from settling into a stable passing platform. This is why every variant emphasizes mobile hips and shoulders slightly off the mat: the angle is the engine of the sweep, and a static angle is a defeated guard."
+    },
+    {
+      "question": "What universal vulnerability does any De La Riva player accept in exchange for the hook's offensive power?",
+      "answer": "Threading a leg around the outside of the opponent's leg commits that limb to control rather than to framing, so if the opponent clears or extracts the hook the guard player is momentarily down a defensive structure. Inversions and berimbolo-style entries that make the guard dangerous also expose the back and invite stack and back-step passing if upper-body control is lost mid-rotation. The guard therefore depends on maintaining hook tension and a grip as a safety line at all times; slack in either turns the guard's own committed structure into the passer's opportunity. This risk-reward tradeoff is inherent to the family and is why grip retention is treated as non-negotiable across every variant."
+    },
+    {
+      "question": "Why is mid-range the decisive battleground in every De La Riva exchange, regardless of variant?",
+      "answer": "The hook-plus-grip combination generates its strongest leverage at mid-range, where the guard player can keep tension on the trapped leg while the free leg manages distance against the hips or biceps. If the opponent collapses the space entirely, the hook loses its lengthening leverage and can be smashed flat; if the opponent extends too far, the guard player must convert to a leg-entanglement guard like X-Guard or Single Leg X to keep the connection. Both the passer and the guard player are therefore fighting over this distance, and whoever controls it dictates whether sweeps or passes become available. Understanding that De La Riva lives and dies at mid-range explains why distance management, not raw strength, decides the exchange in any variant."
+    },
+    {
+      "question": "Why is the De La Riva family treated as a hub that connects to X-Guard, Single Leg X, and leg-entanglement systems rather than an endpoint?",
+      "answer": "Because the hook already establishes a deep connection to the opponent's leg and base, it sits one motion away from other under-the-opponent control systems that share the same off-balancing mechanics. When the opponent defends by standing or extending, the guard player threads underneath to X-Guard or Single Leg X; when they present the leg, ashi-garami and leg-lock entries open. This interconnectivity means the guard rarely needs to force a single finish and can flow to whichever system the opponent's defense leaves undefended. Treating De La Riva as a launch point rather than a destination is a defining strategic principle of the family and the reason it anchors so much of modern guard play."
+    }
+  ],
+  "flashcards_position": [
+    {
+      "question": "What is the defining structural configuration of De La Riva Guard?",
+      "answer": "De La Riva Guard is defined by the bottom player threading their outside leg around the outside of the top player's lead leg, hooking the foot behind the knee or thigh to wrap it from the far side. This DLR hook is paired with a same-side hand controlling the ankle or pant cuff and an opposite-side grip on the sleeve, collar, or lapel, creating a diagonal two-point connection. The result is an off-angle, hook-based open guard where the bottom player is positioned outside the top player's near leg rather than square to them. That wrapping hook, rather than any frame or clamp, is what distinguishes DLR from every other open guard."
+    },
+    {
+      "question": "How does the De La Riva hook generate off-balancing leverage on the top player?",
+      "answer": "The hook wraps behind the top player's knee so that the bottom player's shin and instep can pull the trapped leg forward and inward while the hand grip on the ankle anchors it. This couples the trapped leg to the bottom player's core, so extending or retracting the hook directly loads or unloads the top player's base. Because the force is applied behind the knee at the end of a long lever, small hip movements translate into large disruptions of the top player's weight distribution. The top player is repeatedly pulled off their center of balance, which is the mechanical engine behind DLR's sweeps and entries."
+    },
+    {
+      "question": "Why is the mid-range distance the critical battleground in De La Riva Guard?",
+      "answer": "DLR is mechanically strongest at mid-range, where the hook can wrap fully behind the knee and the arms can maintain their ankle and sleeve grips with tension. At this distance the hook-plus-grip system creates maximum sweeping leverage while still denying the top player a passing path. If the space collapses, the hook loses its wrap and the top player can smash and flatten the hips; if the space extends too far, the leg structure stretches thin and grips break. Both players therefore fight over this distance band, one trying to hold it and the other trying to escape it in either direction."
+    },
+    {
+      "question": "What role does the bottom player's non-hooking leg play in the shared dynamics of the position?",
+      "answer": "While the DLR hook wraps and off-balances, the non-hooking leg acts as the distance-management and framing limb, posting on the top player's hip, knee, or bicep. This second leg prevents the top player from closing space to smash the hook flat and keeps the perpendicular angle intact. It also serves as the pivot for angle changes, inversions, and transitions to X-Guard or Single Leg X. Control of this free leg is a central contest in the position, because whoever dictates it dictates whether distance and angle can be maintained or destroyed."
+    },
+    {
+      "question": "Why is the perpendicular hip angle so important to how De La Riva Guard functions?",
+      "answer": "DLR operates most effectively when the bottom player's hips sit at an off-angle roughly perpendicular to the top player rather than squared up. This angle aligns the hook's pulling vector with the direction that most easily breaks the top player's base and opens the line to the back for berimbolo entries. When the top player succeeds in flattening or squaring the hips, the hook's leverage collapses and its sweeping power largely disappears. The entire positional battle can be read as a fight over whether that perpendicular angle is preserved or destroyed."
+    },
+    {
+      "question": "What makes De La Riva Guard a dilemma-based or reaction-driven position for both players?",
+      "answer": "The configuration threatens several distinct attacks at once, so each defensive reaction by the top player opens a different pathway. Driving forward with pressure exposes the back and invites berimbolo and inversion entries, standing tall with weight back invites under-transitions to X-Guard and Single Leg X, and stripping grips creates timing windows for direct sweeps. This layered threat matrix forces the top player into a reactive posture where any single response solves one problem while creating another. The position's dynamics therefore reward reading reactions and flowing between chains rather than committing to one predetermined technique."
+    },
+    {
+      "question": "How does De La Riva Guard differ mechanically from adjacent open guards like X-Guard and Single Leg X?",
+      "answer": "DLR wraps a single hook around the outside of the top player's leg while the players remain at mid-range with the top player still standing or on their knees, keeping the bottom player oriented at an off-angle. X-Guard and Single Leg X, by contrast, place the bottom player underneath the top player's base with the legs entangling from below to elevate and topple them. DLR functions as an entry hub to these under-positions, converting its outside hook into an under-connection when the top player stands or the space changes. The distinction is essentially outside-and-alongside control versus underneath-and-elevating control."
+    },
+    {
+      "question": "What sustains the connection and control in De La Riva Guard over the course of an exchange?",
+      "answer": "Control is maintained through active, dynamic hook tension rather than a static clamp, with the bottom player constantly pulling the knee toward the chest and driving the foot behind the top player's knee. This is reinforced by the diagonal grip system, one hand on the near ankle or pant cuff and the other cross-gripping the sleeve or collar, which breaks the top player's posture and prevents them from squaring up. Keeping the hips mobile and the shoulders slightly off the mat lets the bottom player continuously change angles rather than settling into one fixed shape. Any slack in the hook or loss of the grips lets the top player step out, flatten the angle, and begin passing."
+    }
+  ]
 }

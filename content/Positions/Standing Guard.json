@@ -767,5 +767,35 @@
         "answer": "Immediately establish frames with both hands on their shoulders or collar to create distance while getting your feet between you and your opponent. Hip escape to create angle and prevent them from establishing a passing lane. If they're already past your initial frames, transition to retention tactics like shrimping, inverting, or establishing knee shield. The critical error is fighting to complete the original guard pull from a compromised position - accept the situation and transition to guard recovery rather than insisting on your planned guard type."
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What configuration defines Standing Guard and distinguishes it from the initial Standing Position?",
+      "answer": "Standing Guard is the upright engagement in which both grapplers are on their feet with at least intermittent grip or frame contact, actively contesting hand position and managing the distance between them. Unlike the neutral Standing Position that precedes it, Standing Guard is defined by live grip fighting and a mutual decision point: whether to pull guard, shoot a takedown, or continue the standup exchange. Neither player has committed to a takedown entry or gone to the mat, so the configuration is symmetrical in structure even though each player's intentions differ. The defining feature is the tension between distance and connection, where both players simultaneously threaten to initiate while defending the other's initiation."
+    },
+    {
+      "question": "Why is the engagement range the central control mechanic shared by both players in Standing Guard?",
+      "answer": "Range dictates which options are available to each grappler, so whoever controls distance controls the menu of techniques. At long range, grips are contested at the arms and neither player can shoot or snap effectively; at close range, body locks, snap-downs, and takedown entries become live for both sides. Both players therefore constantly negotiate the same distance dimension, one seeking the range that favors their game while denying the other theirs. Because the range is a shared variable rather than one player's possession, small footwork and grip adjustments by either grappler immediately shift the tactical balance for both."
+    },
+    {
+      "question": "How does grip fighting function as the shared currency of Standing Guard for both players?",
+      "answer": "Grip fighting is the continuous contest to establish controlling grips while stripping the opponent's, and it determines who dictates the terms of any transition. Dominant grips let a player break posture, steer the opponent's weight, and time an entry, so both grapplers invest constant energy in winning and denying grips before committing to anything else. Grips also serve double duty as protective frames, keeping the opponent at a managed distance while threatening a pull or takedown. The configuration rewards active, first-to-grip hands equally for both players, since a fully settled dominant grip for either side collapses the neutrality of the position."
+    },
+    {
+      "question": "What role does upright posture and base play for both players in Standing Guard?",
+      "answer": "Both grapplers keep an athletic upright posture with knees bent, weight over the balls of the feet, and hips loaded to enable explosive movement in any direction. This shared posture protects against snap-downs and front-headlock exposure while preserving the ability to change levels for a takedown or drop into a guard pull. A stance roughly shoulder-width gives lateral mobility, and keeping the head up with a strong neck denies the opponent the broken posture they need to attack. Because both players rely on the same base principles, the position stays neutral until one grappler's posture or balance is compromised."
+    },
+    {
+      "question": "Why is footwork and angle creation critical to the shared dynamics of Standing Guard?",
+      "answer": "Movement in Standing Guard is governed by the same footwork demands for both players: circular, lateral stepping preserves distance and creates angles, while backing straight up cedes ground and invites being driven or cornered. Whoever generates a superior angle can attack the opponent's exposed side or force a reaction, so angle creation is a shared offensive and defensive tool. Both grapplers also monitor mat boundaries, since being backed toward an edge removes retreat options and collapses the neutrality of the exchange. The constant repositioning is what keeps the standing engagement dynamic rather than a static grip clinch."
+    },
+    {
+      "question": "How does Standing Guard differ from the Clinch as a standing configuration?",
+      "answer": "Standing Guard is an open-range engagement where distance is actively managed and grips are contested at arm's length, whereas the Clinch is a close-range configuration with established body-to-body grips such as collar ties, underhooks, or a body lock. In Standing Guard both players retain the space and mobility to disengage, pull guard, or reset the exchange; in the Clinch that space has already been closed and the contest shifts to inside control and off-balancing. The transition from Standing Guard to Clinch represents one player successfully collapsing the distance dimension that defined the neutral standing position. Recognizing which configuration you are in tells both grapplers whether footwork-and-grip fighting or close-range control is the governing skill."
+    },
+    {
+      "question": "What makes Standing Guard the shared decision-point gateway between standing and ground grappling?",
+      "answer": "Standing Guard is the last neutral configuration before commitment, so both players face the same set of branching choices from it: pull guard to a chosen ground position, shoot a takedown, snap down to a front headlock, or continue the standup exchange. Each of these paths sends the match into a different domain, and the grip and distance battle in Standing Guard is fought precisely to enter the chosen path on favorable terms. Because the position resolves into fundamentally different games depending on who commits first and how, the timing of that commitment is a shared strategic axis for both grapplers. This gateway quality is why grip and range dominance in Standing Guard translates directly into positional advantage on the ground or in a scored takedown."
+    }
+  ]
 }

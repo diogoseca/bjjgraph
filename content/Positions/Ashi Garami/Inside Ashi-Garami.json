@@ -694,5 +694,39 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What leg configuration defines Inside Ashi-Garami and distinguishes it from other ashi variations?",
+      "answer": "One player's leg is trapped between the other player's legs, with the controlling player's inside leg crossed over the opponent's near hip and their foot planted on the far side of the body. The outside leg hooks behind the trapped knee, so the captured limb is pinned from hip to ankle by clamping pressure from both legs. The \"inside\" designation refers specifically to the controlling leg lying across the near hip rather than the far hip, which is what separates it from outside ashi-garami. This near-hip placement is the single geometric feature that governs the position's rotational control and its pathways to more advanced entanglements."
+    },
+    {
+      "question": "Why is perpendicular body alignment central to the mechanics of Inside Ashi-Garami?",
+      "answer": "The two players sit at roughly a 90-degree angle to each other, with the controlling player's torso facing the trapped leg rather than the opponent's upper body. This perpendicular relationship is what converts leg control into finishing leverage, because rotational and extension forces on the ankle and knee are maximized when the bodies are cross-aligned rather than parallel. It also determines the escape geometry: the trapped player must break this angle to extract, while the controlling player must preserve it to retain threats. Whoever wins the fight over this alignment largely dictates the exchange."
+    },
+    {
+      "question": "What role does the inside leg across the hip play in the shared dynamics of this position?",
+      "answer": "The inside leg draped across the near hip functions as a rotational block, preventing the trapped player from squaring their hips or turning to face the controlling player. By pinning the hip, it stops the defender from generating the hip rotation that both clears the entanglement and, on the attacking side, would otherwise be needed to align a finish. If this leg rides too high onto the torso, hip rotation frees up and the whole configuration destabilizes for both players. The near-hip cross is therefore the load-bearing control point that the position is built around."
+    },
+    {
+      "question": "How does heel exposure and the knee line shape the danger dynamic of Inside Ashi-Garami?",
+      "answer": "The trapped player's heel is the primary submission target, and its relationship to the knee line determines how much finishing leverage exists at any instant. When the trapped knee is bent and the heel is rotated toward the trapped player's own hip, the rotational finishing angle for a heel hook is denied; when the leg straightens and the heel exposes, that angle opens. This single variable governs both offense and defense simultaneously, which is why the position carries high injury risk and demands early tapping. The knee line, not brute strength, is the axis the entire exchange turns on."
+    },
+    {
+      "question": "Why is grip on the heel the decisive control point that both players fight over?",
+      "answer": "A secured grip on the heel, whether a C-grip with fingers around the heel and thumb on the Achilles or a figure-four, is what allows rotational force to be transmitted into the trapped limb. Without that grip the entanglement is dramatically weaker: finishes cannot be generated and extraction becomes far higher percentage. As a result the heel grip is the pivotal contested connection, with one player working to establish and retain it and the other working to strip or prevent it. The state of this single grip is the best predictor of who controls the position at any moment."
+    },
+    {
+      "question": "How does Inside Ashi-Garami serve as a transitional hub relative to adjacent positions?",
+      "answer": "The position sits at a crossroads rather than being an endpoint, because small changes in leg threading or hip angle convert it into neighboring entanglements. Advancing the outside leg deeper threads toward saddle or honey hole, switching the crossing leg leads to outside ashi-garami, and mirrored counter-entangling produces 50-50. These pathways are available to both players, so the same threading window that lets one advance to a more dominant entanglement is the moment the other can race to a more neutral one like 50-50. Understanding these adjacencies is essential because the position rarely stays static for long."
+    },
+    {
+      "question": "What determines which direction of rotation is dangerous versus safe in Inside Ashi-Garami?",
+      "answer": "Rotation toward the entanglement, meaning turning in toward the controlling player and the trapped leg, follows the safe direction the knee can travel and reduces heel hook leverage. Rotation away from the entanglement feeds the exact finishing mechanic and can cause catastrophic knee ligament damage in a fraction of a second. This asymmetry is a fixed property of the configuration's geometry, independent of who is attacking, so both players must understand it to move safely. It is precisely why explosive spinning away against a secured heel grip is the most dangerous action either player can take."
+    },
+    {
+      "question": "How does distance and hip elevation govern the stability of Inside Ashi-Garami for both players?",
+      "answer": "The controlling player keeps their hips elevated off the mat and manages the distance between the two bodies, using structural pressure rather than constant muscular squeezing to hold the trapped limb. Elevated hips load weight down through the captured leg and preserve the leverage needed for threats, while flat hips surrender both pressure and finishing angle. Distance is a two-way lever: too much space lets the trapped leg extract, while proper connection keeps the clamp intact. Because the position can be held with structure rather than strength, it is sustainable enough that the exchange is often decided by patience and angle rather than a scramble."
+    }
+  ]
 }

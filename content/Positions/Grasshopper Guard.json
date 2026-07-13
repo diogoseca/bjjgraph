@@ -694,5 +694,39 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines Grasshopper Guard and distinguishes it from a conventional open guard?",
+      "answer": "Grasshopper Guard is an inverted open guard where the bottom player bases on their shoulders and upper back rather than seated on their hips, elevating the hips and legs toward a typically standing passer. This inversion flips the usual guard geometry: the shoulders become the anchor while the hips float free to thread legs around the opponent's base. Unlike upright seated guards that rely on hip contact and grips for connection, grasshopper trades upper-body connection entirely for leg access and dynamic entanglement angles. The defining trade-off is stability sacrificed for immediate access to the passer's legs."
+    },
+    {
+      "question": "Why is Grasshopper Guard treated as a transitional hunting position rather than a place to settle and rest?",
+      "answer": "Holding the inverted posture demands continuous core engagement and hip-flexor tension to keep the hips elevated above torso level, which is metabolically unsustainable for more than roughly 10 to 20 seconds. Because the platform decays as the bottom player fatigues, every moment in the position must progress toward a leg entanglement, a sweep, or a transition to a sustainable guard. For both players this shapes the tempo: the bottom player races to convert before the position collapses, while the top player deliberately stalls to let time drain the inversion. The energy asymmetry is the central dynamic that governs who wins the exchange."
+    },
+    {
+      "question": "How does hip elevation function as the shared source of leverage in Grasshopper Guard?",
+      "answer": "The elevation of the hips above the opponent's center of gravity is what converts the inverted shoulder base into an offensive platform for both sweeping and leg attacks. When the hips sit at chest height or higher relative to the passer, the bottom player can drive the opponent's base upward for elevation sweeps or wedge legs into the hip line to break the passer's balance. If the hips sag toward the mat, that leverage vanishes and the passer can flatten and step over the legs. Consequently both players fixate on the vertical relationship of the hips: the bottom player fights to sustain elevation, the top player works to collapse it."
+    },
+    {
+      "question": "What role does the shoulder base play in stabilizing the inverted grasshopper posture?",
+      "answer": "The shoulders and upper back act as the primary support structure, distributing the bottom player's weight across both shoulder blades so the hips and legs are freed to move dynamically above. Even weight distribution across both blades gives a surprisingly stable platform that resists being tipped, whereas rolling onto a single shoulder creates instability that kills power generation and angle changes. This shoulder anchor replaces the hip-and-seat base of traditional guards, which is exactly why the position can survive against a standing passer despite appearing precarious. Micro-adjustments come from rolling the upper back rather than repositioning the hips."
+    },
+    {
+      "question": "Why does maintaining continuous leg contact matter for both players engaged in Grasshopper Guard?",
+      "answer": "At least one leg must stay actively hooking behind the knee, controlling the ankle, or threading between the opponent's legs, because that contact is simultaneously the bottom player's control mechanism and attacking pathway. If the leg connection is lost, the passer can freely disengage, circle to an advantageous angle, or begin a clean pass without obstruction. The contested leg contact is what allows the bottom player to follow a retreating passer with rolls and re-inversions, and what forces the top player to constantly manage which of their legs is exposed. The entire exchange orbits around whether this leg tie stays intact or gets cleared."
+    },
+    {
+      "question": "How do the transition windows during re-inversion shape the exchange in Grasshopper Guard?",
+      "answer": "As the bottom player switches between leg configurations or re-inverts to follow a moving passer, there is a brief interval where the legs are in transit between hooks and neither controlling nor attacking. These windows are the pivotal moments of the position: the top player exploits them to step over, back step, or drive forward to pass, while the bottom player tries to minimize their duration by anchoring one leg before releasing the other. Timing an inversion to coincide with the opponent's own forward or backward movement multiplies its effect, because the passer's committed momentum cannot be redirected mid-step. Both players are essentially fighting over who controls the tempo of these transitions."
+    },
+    {
+      "question": "What makes Grasshopper Guard particularly viable in no-gi compared to gi grappling?",
+      "answer": "The absence of collar and sleeve grips removes the upper-body handles that would normally let a passer control an inverting guard player or that a seated player would rely on for connection. Without gi friction to slow rolls and inversions, the bottom player can spin, chase, and re-thread legs far more freely, making the leg-centric grasshopper game far more sustainable. This is why the position rose in modern no-gi competition, where leg entanglements and heel-hook access dominate and grip fighting is minimal. In the gi, added friction and grip control make the same inverted spinning slower and easier to shut down."
+    },
+    {
+      "question": "How does Grasshopper Guard relate to the leg-entanglement positions it commonly feeds into?",
+      "answer": "Grasshopper functions as an entry hub within a broader leg-lock system rather than as an isolated position, with the inversion serving to shoot the legs under and around the passer's base to reach ashi garami variants. As the bottom player secures a single leg it naturally progresses toward Single Leg X or inside ashi, and when both players commit legs it can settle into 50-50; coming up from the elevation feeds X-Guard. The position's value lies in this connectivity, since the inverted angle grants leg access that upright guards cannot reach on their own. Understanding grasshopper therefore means understanding it as the transitional doorway between guard retention and a committed leg entanglement."
+    }
+  ]
 }

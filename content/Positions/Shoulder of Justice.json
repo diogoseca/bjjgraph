@@ -684,5 +684,39 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural feature distinguishes Shoulder of Justice from standard side control?",
+      "answer": "Standard side control distributes the top player's weight broadly across the chest and torso, whereas Shoulder of Justice concentrates that weight into a single point by driving the shoulder blade into the opponent's jaw and chin line. This turns a wide pin into a narrow pressure vector aimed at the temporomandibular joint and cervical spine. The reduced contact area multiplies the felt pressure at that one point, making it far more uncomfortable than the even distribution of a classic pin. The configuration otherwise retains the perpendicular chest-to-chest orientation and hip connection common to all side control variants."
+    },
+    {
+      "question": "Why is the shoulder pressure directed at an angle toward the far shoulder rather than straight down?",
+      "answer": "Angling the pressure vector at roughly 45 degrees toward the opponent's far shoulder routes force through the cervical spine and pins the head in a rotated position, eliminating the head mobility needed to begin most escapes. A straight-down vector lets the bottom player turn their head away and start creating the space that leads to framing and shrimping. The angled drive means whichever way the head is turned, it cannot rotate back toward the pressure source. This single geometric choice is what converts ordinary shoulder weight into the position's defining control."
+    },
+    {
+      "question": "How does connecting the top hips to the opponent's near hip line define this position's control dynamic?",
+      "answer": "The hip connection blocks the bottom player's primary escape vector, which is shrimping the hips away to create the space needed for guard recovery. It also transfers the top player's body weight through their center of mass into the shoulder contact point, producing unified whole-body pressure rather than isolated upper-body pressing. When the hips disconnect or rise, the bottom player can immediately shrimp underneath and begin recovering guard. The low, heavy hip tie is therefore as load-bearing to the position as the shoulder contact itself."
+    },
+    {
+      "question": "What role does the near-side arm play in creating this position's central dilemma?",
+      "answer": "The near arm is the fulcrum of the position's submission-or-suffer dilemma shared by both players. Trapped or controlled, it prevents the bottom player from building a defensive frame between the chests, but the moment the bottom player extends it to push the shoulder away for relief, it becomes exposed to a high-percentage kimura or americana. This means the pressure itself provokes the very reaction that opens the attack. The position's identity rests on this coupling: comfort and defense are in direct conflict for the bottom player."
+    },
+    {
+      "question": "How does the top player's base support the concentrated weight in Shoulder of Justice?",
+      "answer": "Rather than spreading weight evenly through a flat chest, the position funnels weight down a chain running from the top player's legs and hips, through the core, and out through a single shoulder-blade contact point on the jaw. The far knee posts wide for base stability while the near foot stays mobile for pressure adjustment, forming a stable tripod that lets weight drive forward without collapsing. Because force concentrates at one small area, the bottom player experiences disproportionate discomfort relative to the actual weight applied. Sustaining it depends on skeletal alignment and body weight, not muscular pressing, which would fatigue the top player quickly."
+    },
+    {
+      "question": "How does Shoulder of Justice relate to Kesa Gatame and North-South as neighboring positions?",
+      "answer": "All three are pinning configurations built on cross-body control and head or shoulder pressure, and Shoulder of Justice sits between them as transition-ready. Kesa Gatame shares the cross-face and shoulder-pressure concept but wraps the head and arm in a scarf-hold and sits hip-to-hip, offering a different weight line. North-South becomes the target when the bottom player turns into the pressure, letting the top player spin around the head while maintaining contact. The position's angled shoulder vector makes these adjacent pins reachable without ever fully releasing control."
+    },
+    {
+      "question": "Why is the pressure in Shoulder of Justice described as effective regardless of gi or no-gi ruleset?",
+      "answer": "The position's control derives from pure biomechanics: bone-on-bone pressure at the jaw, weight distribution through connected hips, and the angled cervical vector. Unlike collar chokes or cloth-based pins, none of these mechanisms depend on gripping fabric, so removing the gi changes almost nothing about how the pin functions. The discomfort and the head-immobilizing angle are identical in both frames. This grip-independence is why the position transfers cleanly across rulesets while gi-specific pins do not."
+    },
+    {
+      "question": "What shared dynamic makes this a low-sustainability position for the bottom player and a time-limited one for the top player?",
+      "answer": "For the bottom player, the concentrated jaw pressure creates constant physical misery and a psychological push to make reactive movements, so tolerance and defensive structure erode quickly. For the top player, holding a single-point pressure vector demands continuous micro-adjustment as the head repositions, and pressing with muscle rather than skeletal weight burns energy fast. The result is a mutual clock: the bottom player is racing to relieve pressure before making an error, while the top player is racing to convert reactions into a submission or advancement before fatigue sets in. Neither side is meant to hold the static position indefinitely, which is why it functions as a launching point rather than a resting pin."
+    }
+  ]
 }

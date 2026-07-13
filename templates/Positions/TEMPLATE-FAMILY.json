@@ -194,6 +194,32 @@
         }
       }
     },
+    "flashcards_position": {
+      "type": "array",
+      "description": "Optional POSITION-tier flashcards (multi-level hierarchy): role-agnostic mechanics of THIS specific position (the family hub is also a base position). Aggregated into flashcardTiers.position.",
+      "minItems": 6,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "question",
+          "answer"
+        ],
+        "properties": {
+          "question": {
+            "type": "string",
+            "pattern": ".*\\?$",
+            "description": "Question about this position's role-agnostic mechanics"
+          },
+          "answer": {
+            "type": "string",
+            "minLength": 50,
+            "description": "Detailed answer (50+ characters)"
+          }
+        }
+      }
+    },
     "related_positions": {
       "type": "array",
       "description": "Related positions with relationship descriptions",

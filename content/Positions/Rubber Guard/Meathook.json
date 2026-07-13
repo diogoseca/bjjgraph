@@ -668,5 +668,39 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines the Meathook position?",
+      "answer": "Meathook is a Rubber Guard control in which the bottom player threads a shin across the back of the top player's trapped arm, driving the shin against the tricep while the ankle clears past the shoulder line. This shin hook works together with a grip on the opponent's head or non-trapped-side collar, creating two opposing forces that isolate one arm and pull the posture forward and down. The result is a closed loop that removes the trapped arm from the exchange entirely, unlike guards where both arms remain available. The defining feature is that a leg, not an arm, does the trapping, which frees the bottom player's hands for gripping and attacking."
+    },
+    {
+      "question": "Why is the depth of the shin hook the single most important control variable in Meathook?",
+      "answer": "The isolation mechanic depends entirely on the ankle clearing past the shoulder line rather than resting shallow on the bicep or forearm. When the ankle crosses the shoulder, the shin seats against the tricep past the shoulder and creates a downward lever that the trapped arm cannot pull straight out of. A shallow hook that stops short of the shoulder lets the arm simply retract backward, collapsing the loop. This shoulder-line threshold is the shared pivot for both players: crossing it locks the position, and dragging the ankle back across it breaks the position, so both compete over that exact line."
+    },
+    {
+      "question": "How does the coordination between the shin hook and the head-or-collar grip generate control in Meathook?",
+      "answer": "The shin hook and the grip on the non-trapped side function as opposing forces rather than independent controls. The shin pulls the trapped shoulder forward and down while the grip pulls the head down and toward the trapped side, so the two forces compress the spine into a bent, forward-broken posture. Neither element alone maintains the position; losing the grip lets the head lift and re-posture, while losing the hook lets the arm escape. This paired-force structure is why Meathook breaks posture more completely than a simple overhook or a standard collar tie."
+    },
+    {
+      "question": "What distinguishes Meathook from the Mission Control position that typically precedes it?",
+      "answer": "Mission Control uses the arm and leg to control the opponent's head and near arm while keeping posture broken, but it leaves the trapped arm relatively mobile and functions as a stable, sustainable holding position. Meathook escalates this by threading the shin fully across the trapped arm's tricep, converting broad head-and-arm control into precise single-arm isolation. This trades Mission Control's sustainability for sharper submission leverage, because the isolated arm can no longer frame or base. Meathook is therefore a higher-commitment, shorter-duration configuration within the same Rubber Guard chain."
+    },
+    {
+      "question": "Why is Meathook inherently a transitional configuration rather than a resting position for either player?",
+      "answer": "The extreme leg placement required to hook the shin over the shoulder demands sustained engagement of the hip flexors and core, making the configuration metabolically expensive to hold. Neither player can settle: the bottom player must convert the isolation into a submission or a more sustainable control before fatigue erodes the hook, and the top player is under continuous submission threat that punishes delay. This time pressure is a shared property of the position, giving it a viability window measured in tens of seconds rather than minutes. Positions like closed guard or side control can be held statically, but Meathook structurally cannot."
+    },
+    {
+      "question": "Why does the trapped arm's isolation in Meathook create a defensive dilemma regardless of which player is considered?",
+      "answer": "Isolating one arm collapses the top player's base into an unstable triangular structure supported by only the free arm and the two legs, so weight distribution becomes asymmetric and easy to steer. Every direction the trapped side can move to relieve the pressure opens a different line of attack: driving forward pushes the throat into choke range, pulling the arm up exposes the neck angle, and rotating the arm exposes the shoulder. This is the position's defining dynamic, that defensive movement in any direction improves the bottom player's angle. The dilemma exists because the geometry of a leg-isolated arm leaves no neutral escape direction."
+    },
+    {
+      "question": "How does the hip angle between the two players govern what the Meathook configuration can become?",
+      "answer": "Because the shin hook anchors the trapped arm while the legs retain guard connection, the relative hip angle acts as a steering mechanism for the whole position. Rotating the hips perpendicular aligns the leg for a triangle path, squaring back toward the opponent aligns the shin toward the throat, and rotating away exposes the shoulder line. The angle is a shared axis of contention: one player rotates the hips to open a finishing line while the other resists to deny it. This is why static hips neutralize the position for both sides, since alignment, not grip strength, determines what is available."
+    },
+    {
+      "question": "What flexibility and range-of-motion demands make Meathook mechanically distinct from conventional guards?",
+      "answer": "Meathook requires bringing the shin over the opponent's shoulder while simultaneously keeping the hips connected in a guard structure, a combined range that most conventional guards never ask for. This demands deep hip flexion and hamstring length well beyond what closed guard or half guard require, which is why the position is associated with the 10th Planet system's flexibility emphasis. Without adequate range, the hook cannot reach past the shoulder line and the isolation fails, so the configuration is physically inaccessible to some practitioners. This flexibility prerequisite is a structural feature of the position itself, not merely a matter of technique refinement."
+    }
+  ]
 }

@@ -671,5 +671,39 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines the body triangle and distinguishes it from standard back control?",
+      "answer": "The body triangle is formed when the back-taker crosses one leg over the opponent's torso and tucks that foot behind their own knee, creating a figure-four lock around the midsection instead of two independent hooks. This replaces the dynamic, adjustable connection of standard hooks with a single closed mechanical structure that squeezes the ribcage. Because the loop is self-reinforcing, it cannot be cleared by the hip-swiveling and hook-stripping motions that defeat ordinary back control. The tradeoff is reduced leg mobility: the locked configuration is harder to establish and harder to abandon quickly than hooks."
+    },
+    {
+      "question": "Why does the body triangle restrict the trapped player's breathing, and how does that shape the dynamics for both players?",
+      "answer": "The figure-four sits around the lower ribs and diaphragm, so every squeeze compresses the exact region the trapped player needs to expand in order to inhale. This produces genuine physiological stress that compounds over time rather than mere discomfort. For the trapped player it creates urgency and a temptation to panic-scramble; for the controlling player it acts as a force multiplier, since a fatiguing, oxygen-starved opponent makes defensive errors and struggles to sustain resistance. The breathing restriction is therefore a shared axis of the position, present in both gi and no-gi because it depends on mechanical compression, not grips."
+    },
+    {
+      "question": "Where on the torso should the triangle be locked for maximum mechanical effect, and what happens when it sits too high or too low?",
+      "answer": "The optimal height is around the lower ribcage and diaphragm, roughly just above the navel, where the legs seat against the hip bones and compress the breathing muscles. Locked too high near the chest or shoulders, the loop allows the opponent freer rib expansion, easier neck defense, and simpler clearing. Locked too low across the hips, it provides less breathing restriction and tends to slip off the pelvis. Seating the lock just above the hip bones simultaneously maximizes compression and prevents the triangle from sliding downward off the body."
+    },
+    {
+      "question": "What role does chest-to-back connection play in the body triangle independent of the leg lock?",
+      "answer": "The controlling player keeps their chest pressed tight to the opponent's back with minimal gap, which prevents the trapped player from turning in, creating distance, or generating an escape angle. This connection also lets the controller feel the opponent's movement and breathing in real time, reading escape attempts before they develop. The upper-body connection and the leg lock work as one system: the legs immobilize the lower body while the chest pins the upper body, so neither can shift independently. Losing chest connection lets the opponent create the space needed to attack the figure-four even while the legs remain locked."
+    },
+    {
+      "question": "Why is hip placement beside the opponent rather than on their back critical to the stability of the body triangle?",
+      "answer": "Keeping the hips down on the mat beside the opponent, rather than perched on their back, turns the hip and elbow into a post that resists being rolled over. This grounded base also gives the controller leverage to drive the squeeze and adjust the pressure angle. If the hips ride up onto the opponent's back the base becomes unstable, the squeezing power drops, and the trapped player can bridge and roll the controller over. The defining stable configuration is therefore hips on the mat, chest on the back, legs locked around the torso."
+    },
+    {
+      "question": "What is the primary structural vulnerability inherent to the body triangle lock itself?",
+      "answer": "The single weak point of the figure-four is the foot tucked behind the knee, because the entire loop depends on that one connection holding. If that foot is pried, walked, or pushed out of position, the closed triangle springs open and reverts to loose or nonexistent control. This is why the lock is attacked at the ankle-behind-knee junction rather than by trying to pry the whole leg structure apart with strength. The vulnerability is symmetrical knowledge for both players: the controller must keep that foot threaded deep, and the trapped player targets exactly that junction."
+    },
+    {
+      "question": "How does pressure in the body triangle behave differently from a static hold, and why does escape effort tend to tighten it?",
+      "answer": "The triangle is a self-tightening loop: as the trapped player bridges, turns, or extends to escape, their own movement drives their torso further into the closed leg structure, increasing compression rather than relieving it. This is unlike independent hooks, which loosen and can be shed when the opponent moves. Consequently the more committed the escape attempt, the more locked-in the controller's legs become, which is why fighting the squeeze head-on is counterproductive. The position rewards patience for the controller and technical, low-energy problem-solving for the trapped player rather than explosive struggle."
+    },
+    {
+      "question": "How does the body triangle relate to and differ from the adjacent positions of standard back control, mount, and the truck?",
+      "answer": "The body triangle is a variation of back control that swaps hooks for a leg lock, trading the mobility and quick-transition ability of hooks for far higher retention and constant compression. It sits between standard back control and more dynamic entanglements: if the lock must be abandoned it commonly resets to hooks or advances to mount while the legs stay engaged, and rolling into the truck reconfigures the same lower-body entanglement into a leg-attack platform. Unlike mount, which controls from the front with the opponent facing up, the body triangle keeps the controller on the opponent's back with the opponent's neck exposed to attack. Its identity is the fusion of back-control positioning with a static mechanical leg lock."
+    }
+  ]
 }

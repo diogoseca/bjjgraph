@@ -708,5 +708,39 @@
         "answer": "Avoid repeatedly forcing the same sweep that's being defended - this burns energy without results. Instead, maintain your core structure with minimal effort (slight shoulder elevation, active but not maximal hook pressure) and wait for them to initiate movement. Their passing attempts create the opportunities for your counters. If truly stalled, flow to a related position (deep half, lockdown, full butterfly) to reset the dynamic. Energy management means making them work to defend while you stay ready to capitalize on their movements."
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What configuration of the legs defines Butterfly Half Guard and distinguishes it from standard half guard?",
+      "answer": "Butterfly Half Guard traps one of the top player's legs between the bottom player's thighs in a standard half guard lock, while the bottom player simultaneously inserts a butterfly hook under the top player's free leg. The half guard trap prevents the top player from disengaging or creating passing distance, while the butterfly hook adds an elevation vector absent from ordinary half guard. This produces an asymmetric entanglement where one leg is controlled through the flat squeeze of half guard and the other through the lifting mechanic of a butterfly hook. The combination of a stationary anchor and an active lifting leg is what makes the position a distinct hybrid rather than either parent guard alone."
+    },
+    {
+      "question": "Why does the asymmetric leg entanglement in Butterfly Half Guard create a base dilemma for the top player?",
+      "answer": "Because one leg is trapped flat and the other is being loaded by an upward-driving butterfly hook, the top player cannot optimize their base for both threats at once. Widening and dropping weight to kill the hook sacrifices the mobility needed to extract the trapped leg, while working to free the trapped leg lightens the load on the hook and invites elevation. This split-attention problem means any base adjustment that neutralizes one side tends to expose the other. The perpetual tension between defending the lift and freeing the leg is the core dynamic that both players are constantly negotiating."
+    },
+    {
+      "question": "How does the seated or semi-reclined posture govern the mechanics of Butterfly Half Guard for both players?",
+      "answer": "The bottom player's shoulders must stay elevated roughly 30 to 45 degrees off the mat so the hips remain mobile and the butterfly hook can drive at an angle rather than straight up. This posture is the mechanical prerequisite for generating sweep leverage, because a flat back reduces the hook to a weak vertical push and lets the top player crush with shoulder pressure. For the top player, the entire passing game revolves around breaking that posture backward and flattening the bottom player. Whether the bottom player keeps their posture or the top player collapses it is the pivotal contest that decides which way the position flows."
+    },
+    {
+      "question": "What role does upper-body connection play in stabilizing Butterfly Half Guard independent of who is attacking?",
+      "answer": "The leg entanglement alone cannot control the exchange; whoever wins the upper-body tie controls the position's posture and direction. The bottom player seeks an underhook on the butterfly-hook side or a collar tie to prevent the top player from posturing up and crushing forward. The top player counters with a crossface or overhook to turn the head, deny the underhook, and limit the bottom player's ability to sit up into their sweeps. This upper-body battle, coupled to the leg control, is what links elevation power to directional control, so a butterfly hook without a matching upper-body connection produces little useful off-balancing."
+    },
+    {
+      "question": "Why is Butterfly Half Guard considered a transitional platform rather than a position to hold statically?",
+      "answer": "The entanglement sits at the crossroads of several related systems, so pressure in any direction naturally converts it into an adjacent position rather than a stalemate. Forward pressure and a crossface push the exchange toward deep half guard, a standing or tall posture opens X-guard and single-leg X entries, and freeing or stepping over the trapped leg spills into dogfight scrambles or knee-shield half guard. Because the butterfly hook and half guard trap can each be traded for a new control, the position rewards flowing to whichever system the opponent's reaction opens. Treating it as a fixed hold wastes its defining advantage, which is the density of high-value exits available from a single configuration."
+    },
+    {
+      "question": "How do the two control points in Butterfly Half Guard divide the labor of restraint and off-balancing?",
+      "answer": "The half guard trap functions as the anchor: its constant inward squeeze pins one leg, denies passing distance, and keeps the top player tethered so they cannot simply stand clear. The butterfly hook functions as the engine: its active upward drive under the free leg supplies the elevation and off-balancing force. Neither element works well alone, since the anchor without the engine is passive half guard and the engine without the anchor is butterfly guard from which the opponent can back out. The position's leverage comes precisely from pairing a restraining point with a lifting point on opposite legs of the same opponent."
+    },
+    {
+      "question": "What distinguishes Butterfly Half Guard from its parent butterfly guard and half guard in terms of vulnerability and power?",
+      "answer": "Pure butterfly guard offers strong elevation but is vulnerable to pressure passing and requires careful space management, because the opponent can flatten the hooks and drive through. Pure half guard offers solid defensive structure and prevents disengagement but lacks explosive lifting power against a skilled passer. Butterfly Half Guard splices the two so the half guard trap supplies the retention that butterfly lacks while the butterfly hook supplies the elevation that half guard lacks. The result is a configuration that is harder to disengage from than butterfly guard and more offensively dangerous than half guard, at the cost of the asymmetry both players must actively manage."
+    },
+    {
+      "question": "Why does Butterfly Half Guard collapse into a different position the moment either the butterfly hook is killed or the trapped leg is freed?",
+      "answer": "The position is defined by the coexistence of both control points, so losing either one immediately degrades it into one of its parent guards. If the hook is pressured flat, the exchange reduces to pinned half guard or a knee-shield frame and the elevation threat disappears. If the trapped leg is extracted, what remains is pure butterfly guard and the retention that the half guard trap supplied is gone. Because each control point props up the value of the other, the integrity of the whole configuration hinges on maintaining both simultaneously, which is why the destruction of either is the decisive event in the exchange."
+    }
+  ]
 }

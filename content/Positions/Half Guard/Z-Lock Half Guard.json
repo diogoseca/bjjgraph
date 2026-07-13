@@ -672,5 +672,39 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What leg configuration defines the Z-Lock Half Guard and gives it its name?",
+      "answer": "The bottom player's two legs form a 'Z' shape around the top player's trapped leg: one leg establishes a lockdown by hooking behind the opponent's ankle and stretching the trapped leg away, while the other leg acts as a butterfly hook positioned under the opponent's opposite thigh. Viewed from above, the stretched lockdown leg and the elevated butterfly leg create the angular Z geometry. This dual-leg system is the structural signature of the position and separates it from a single-function leg entanglement. Both legs work in opposition to each other, one pulling and stretching while the other lifts and elevates."
+    },
+    {
+      "question": "Why does the Z-Lock create a genuine dilemma that a standard lockdown does not?",
+      "answer": "A standard lockdown threatens attacks predominantly on one side, letting the top player commit their weight and base against that single vector. The Z-Lock adds a butterfly hook on the opposite side, so the two legs threaten opposite directions simultaneously: the lockdown stretches and off-balances one way while the butterfly elevates the other. Defending the lockdown side opens the butterfly sweep, and shutting down the butterfly opens the electric chair and old-school attacks. This fork is the defining shared dynamic of the position, forcing the top player to split their attention and base rather than committing fully to one side."
+    },
+    {
+      "question": "How does hip angle function as a shared control mechanism in Z-Lock Half Guard?",
+      "answer": "The position lives or dies on the bottom player staying angled onto their side rather than flat on their back, and the top player's central goal is to flatten them. When the hips are angled, the Z-configuration retains its geometry and the butterfly hook can elevate; once the hips are squared flat, the butterfly hook collapses and the position degrades toward a flattened half guard. This makes hip angle the pivotal contested variable for both players, one fighting to preserve it and the other fighting to remove it. The entire offensive and defensive struggle is organized around whether that angle survives."
+    },
+    {
+      "question": "What roles do the two legs play in the opposing tension that holds the Z-Lock together?",
+      "answer": "The lockdown leg maintains constant pulling tension, hooking the opponent's ankle and stretching their trapped leg so they cannot post it or step free. The butterfly hook leg maintains lifting tension under the opposite thigh, threatening to elevate and unbalance the top player. These two forces oppose each other and create the leverage that off-balances the opponent's base. If either leg loses its tension the Z collapses into an ordinary trapped-leg half guard, so the coordinated push-pull between the two legs is what preserves the configuration's structural integrity."
+    },
+    {
+      "question": "Why is upper-body control an essential component of the Z-Lock rather than purely a leg position?",
+      "answer": "The leg configuration alone cannot prevent the top player from establishing crossface and heavy shoulder pressure that flattens the bottom player and neutralizes the Z geometry. An underhook, overhook, or collar-and-posture control is required to keep the top player's chest off and preserve the hip angle that the leg system depends on. This coordination of upper-body frames with the lower-body Z mechanics is why the position is considered a full-body configuration, not just a leg lock entanglement. Losing the upper-body connection typically precedes losing the whole position for the bottom player and signals the passing opportunity for the top."
+    },
+    {
+      "question": "How does the Z-Lock Half Guard differ from butterfly half guard and deep half guard?",
+      "answer": "Butterfly half guard uses a butterfly hook for elevation but lacks the ankle-stretching lockdown, so it does not stretch and immobilize the trapped leg the way the Z-Lock does. Deep half guard places the bottom player fully underneath the opponent's hips seeking a different set of sweeps, sacrificing the angular topside leverage the Z-Lock keeps. The Z-Lock is distinguished by combining a lockdown and a butterfly hook at once, retaining more mobility than a plain lockdown while stretching the trapped leg more than butterfly half guard. It occupies a middle ground that borrows the immobilizing stretch of one and the elevation threat of the other."
+    },
+    {
+      "question": "What conditions cause the Z-Lock to degrade into an inferior position for the bottom player?",
+      "answer": "The configuration collapses when the bottom player is flattened onto their back, when the butterfly hook is stripped so only a static lockdown remains, or when the top player secures a crossface that removes the hip angle. Loss of the upper-body connection lets the opponent consolidate chest pressure, and once the hips square up the two-legged fork disappears. At that point the position slides toward a flattened half guard where the top player can begin standard passing sequences. Recognizing these degradation triggers is shared knowledge both players use, one to prevent them and the other to force them."
+    },
+    {
+      "question": "Why is the Z-Lock especially valued in no-gi grappling relative to gi?",
+      "answer": "No-gi removes the friction and grip-based controls that both players rely on to slow exchanges, making dynamic leg entanglements and hook-based off-balancing comparatively more effective. The Z-Lock's control comes from the mechanical stretch of the lockdown and the elevation of the butterfly hook rather than fabric grips, so it retains its full leverage without a gi. It emerged from and was refined within the 10th Planet system, which is explicitly no-gi oriented. While the configuration still functions in the gi, its reliance on leg geometry rather than cloth grips is what makes it a signature no-gi framework."
+    }
+  ]
 }

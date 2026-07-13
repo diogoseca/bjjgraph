@@ -703,5 +703,39 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What precise leg configuration defines the Lockdown and distinguishes it from ordinary half guard?",
+      "answer": "In Lockdown the bottom player's near-side leg threads over the opponent's trapped leg at knee level, then triangles back underneath so the ankles cross and lock, while the outside foot hooks under the opponent's shin. This figure-four entanglement of the legs is what separates Lockdown from ordinary half guard, where the trapped leg is merely pinched between the knees without a locking triangle. The crossed-ankle lock lets the bottom player actively stretch and immobilize the trapped leg rather than just hold it. That single mechanical difference converts a defensive hold into an offensive lever."
+    },
+    {
+      "question": "How does extending the Lockdown physically off-balance the top player?",
+      "answer": "Extending the Lockdown means the bottom player straightens their legs and pushes the trapped leg forward and down, stretching the opponent's leg away from their base. Because the top player's knee and hip are now forced into extension, their center of gravity is pulled forward and their base narrows to just the free leg and posting hands. This loading of weight onto a compromised base is the shared mechanism behind the whip-up and Old School sweeps. Both players are reading the same lever: one to create the off-balance, the other to resist it."
+    },
+    {
+      "question": "Why is the underhook battle on the trapped-leg side the decisive upper-body contest in Lockdown?",
+      "answer": "Whoever wins the trapped-leg-side underhook controls whether the bottom player can turn in and elevate or is flattened onto their back. If the bottom player secures it, they can drive the whip-up and reach the opponent's back; if the top player secures crossface and denies it, they flatten the bottom player and neutralize the sweeps. The leg entanglement alone does not decide the exchange because the sweeps require upper-body connection to transmit the off-balancing force. This is why both players prioritize the same grip from opposite intentions."
+    },
+    {
+      "question": "What is the mechanical trade-off that defines the Lockdown, captured by \"leg triangle trades mobility for sweeps\"?",
+      "answer": "The figure-four leg lock immobilizes the opponent's trapped leg powerfully, but committing both of the bottom player's legs to the entanglement sacrifices the free hip and butterfly-hook mobility available in other half guards. In exchange, the bottom player gains a rigid lever to stretch and load the opponent's base for sweeps. This means the Lockdown is slow to disengage and vulnerable if the leg is extracted, but exceptionally strong at generating off-balancing power once set. Understanding this trade explains both why it retains so well and why disengaging cleanly is difficult for both players."
+    },
+    {
+      "question": "How does the position of the top player's weight determine which sweep dilemma is active?",
+      "answer": "If the top player drives their weight forward through crossface and low posture, their momentum feeds the whip-up, where the bottom player comes up on the same forward energy. If the top player sits back and posts high to extract the leg, they expose themselves to the Old School sweep and Electric Chair. Because forward and backward pressure each open a different attack, the top player is caught in a dilemma no matter which way they commit. Reading the opponent's weight vector is the single decision both players are constantly making."
+    },
+    {
+      "question": "Why must leg extraction from the Lockdown use circular, angular motion rather than pulling straight back?",
+      "answer": "The crossed-ankle figure-four is engineered to resist linear backward force, so pulling the trapped leg straight out only tightens the bottom player's lock and stretches the leg into the Electric Chair. Extraction succeeds by circling the trapped knee outward and changing the angle so the ankles can no longer maintain their cross. This is why the top player combines hip pressure and angle change with the pull rather than fighting the lock head-on. The same geometry tells the bottom player to keep re-crossing the ankles and flexing the top foot to preserve the lock."
+    },
+    {
+      "question": "How does the Lockdown relate to the Electric Chair, and what changes between the two?",
+      "answer": "The Electric Chair is a direct extension of the Lockdown in which the bottom player releases the triangle and steps the outside leg over the opponent's trapped leg, capturing it in a stretched configuration to attack the hip and spine. The Lockdown supplies the initial leg control and the stretched, off-balanced opponent; the Electric Chair converts that control into a submission-oriented entanglement. The key change is that the ankles uncross and the outside leg re-hooks over the top, trading pure retention for finishing leverage. This continuity is why the Electric Chair is treated as the signature attack of the position rather than a separate technique."
+    },
+    {
+      "question": "Why does the Lockdown retain better in no-gi than many other half guards?",
+      "answer": "The Lockdown's control comes entirely from the figure-four leg entanglement rather than from gi grips like the lapel or pant cuff, so removing the gi takes nothing away from its core mechanism. Traditional half guards that rely on collar or sleeve grips lose retention strength in no-gi, whereas the Lockdown's ankle lock and underhook are equally available. This grip-independence is why it became a cornerstone of no-gi systems and why its retention rate stays high there. Both players therefore treat it as a friction-and-leverage battle rather than a grip-fighting one."
+    }
+  ]
 }

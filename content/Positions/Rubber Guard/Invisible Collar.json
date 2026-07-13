@@ -602,5 +602,39 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines the Invisible Collar and distinguishes it from ordinary back control?",
+      "answer": "The Invisible Collar is a back-control variant in which one hand establishes a deep four-finger grip inside the opponent's gi collar with the thumb outside, folding the lapel against the side of the neck while the second arm keeps a seatbelt across the torso. What defines it is concealment: the collar hand is loaded into a finished choking configuration yet reads as passive positional control rather than an active submission. Standard back control seeks the rear naked choke through open hand fighting, whereas here the finishing mechanism is pre-installed against the carotid before the opponent registers the threat. The seatbelt and hooks anchor the same back-control skeleton, but the loaded lapel is the feature that makes this its own state."
+    },
+    {
+      "question": "Why is the Invisible Collar fundamentally a gi-dependent position, and what does that imply for both players?",
+      "answer": "The choke draws its strangling tension from the opponent's own collar folded against the neck, so it cannot exist without lapel material to grip. This gi-dependence means the top player's threat is carried by a fabric-anchored grip rather than a flesh-and-bone forearm as in the rear naked choke, and the bottom player must monitor the collar itself, not only the neck. For the attacker it offers a strangle that finishes without fully clearing the chin, since the lapel wraps around defensive structure. For the defender it means grip removal targets the fabric and the gripping wrist, a different problem than clearing a bare choking arm."
+    },
+    {
+      "question": "What are the shared control points that hold the Invisible Collar together for whichever player occupies each role?",
+      "answer": "Three connected control points define the configuration: the seatbelt across the torso that governs upper-body rotation, at least one hook (or a body triangle) under the leg that governs the hips and rolling escapes, and the loaded collar grip that governs the neck. The seatbelt and hooks form the back-control chassis that keeps chest-to-back connection, while the collar grip is the added strangling layer. These points are interdependent: losing hook control frees the hips to turn out, while losing the seatbelt lets the shoulders swim free and strips the platform the collar grip relies on. The whole position stands or falls on maintaining chest connection through the seatbelt while the collar develops."
+    },
+    {
+      "question": "How does weight distribution and chest connection shape the dynamics of the Invisible Collar for both players?",
+      "answer": "The top player drives the majority of weight forward through the chest into the opponent's upper back and shoulder blades, keeping the hips slightly lower than the opponent's to deny rotational momentum. This forward pressure compresses the defender's posture and pins the shoulders, which both prevents escape and quietly tightens the strangle as the neck folds against the lapel. For the bottom player, that same compression is the enemy of breathing and framing, so every escape attempt must first fight the chest connection before the hips can move. The connection is the axis of the whole exchange: whoever controls it controls whether the position advances toward a finish or opens toward escape."
+    },
+    {
+      "question": "Why is the Invisible Collar considered a dilemma position rather than a single-threat position?",
+      "answer": "Because the collar grip coexists with the full back-control structure, defending any one threat tends to open another. Committing both hands to strip the collar exposes the arms to an armbar from the back and leaves the neck open for the rear naked choke, while tucking the chin against the collar invites a transition toward the crucifix or a rotation into the bow and arrow. This dilemma structure is intrinsic to the configuration, not a role-specific tactic: the geometry of a loaded collar over a seatbelt-and-hook base means the defender is always solving more problems than they have limbs. That is what separates it from a lone collar drag or an isolated choke attempt."
+    },
+    {
+      "question": "How does the Invisible Collar relate to adjacent back-attack states like the bow and arrow choke and the crucifix?",
+      "answer": "All three share the seatbelt-and-hook back-control base, but they diverge in how the collar tension is applied. The Invisible Collar keeps the choke concealed and stationary, folding the lapel against the neck while the attacker stays squared chest-to-back behind the opponent. The bow and arrow rotates the attacker off to the side and adds a far-leg pull, converting the same collar grip into a leveraged, telegraphed finish. The crucifix branches off when the defender turns into the collar side, trapping both arms and abandoning the hooks for a limb-splitting pin. The Invisible Collar therefore functions as a hub from which these neighbors are reached, distinguished chiefly by its emphasis on disguise and preserved back-control alignment."
+    },
+    {
+      "question": "What role does the concealment itself play in the position's mechanics, independent of who is attacking or defending?",
+      "answer": "Concealment is a functional property of the state, not decoration: the grip is built incrementally so it occupies the defender's attention elsewhere while the collar deepens. Because a person can only track a limited number of simultaneous threats, a grip that reads as positional control rather than a strangle delays the recognition that would trigger defense. For the attacker this buys the depth needed to finish before hand fighting begins; for the defender the entire counter hinges on breaking that concealment early through proactive grip checking rather than waiting for choking pressure. The position's effectiveness is largely a function of how long recognition is delayed, which makes deception a real mechanical variable rather than mere style."
+    },
+    {
+      "question": "What determines whether the Invisible Collar is a sustainable hold or a short-fuse finish?",
+      "answer": "Sustainability depends on the balance between the back-control chassis and the loaded collar grip. Because the seatbelt and hooks provide durable positional control, the attacker can hold the collar loaded and wait, making it relatively low-risk and sustainable compared to a committed choke that stakes position on a single squeeze. The finishing pressure, however, escalates quickly once rotation is applied, so the same position can become a short-fuse strangle within seconds of the attacker choosing to commit. For the defender this dual nature is the danger: a grip that appears stable and unthreatening can convert to a finish faster than a conventional escape can complete, so the clock favors whoever dictates when the concealed grip becomes an active choke."
+    }
+  ]
 }

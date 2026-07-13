@@ -607,5 +607,39 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What leg configuration defines the Electric Chair position?",
+      "answer": "The Electric Chair is built on the lockdown, a figure-four leg entanglement in which the bottom player traps one of the top player's legs by wrapping their own legs around it, hooking the instep behind the calf and pulling the heel down on the thigh to stretch the leg long. On top of that lockdown, the top player's near ankle or foot is controlled and drawn across the bottom player's centerline, trapping the leg in a splayed, splitting orientation rather than a simple knee-pin. The distinguishing feature versus a plain lockdown is that the trapped leg is being actively abducted and stretched away from the top player's other leg, opening the hips and loading the groin and hip flexor. This active leg stretch, not just the figure-four hold, is what converts the configuration into an attacking platform."
+    },
+    {
+      "question": "Where does the splitting pressure that names the position actually get applied?",
+      "answer": "The pressure concentrates at the adductor, groin, and hip flexor of the trapped leg, with secondary load on the medial knee and hip joint. The lockdown stretches the leg long while the controlled ankle is pulled across and away from the body's midline, abducting the femur past its comfortable range. Because the top player's other leg is based elsewhere, the two legs are being forced apart like a splitting wedge, which is why the finish is also called the banana split. The trapped knee experiences torque as a byproduct, but the primary threat is the crotch-splitting hip and groin stretch rather than a rotational knee attack."
+    },
+    {
+      "question": "Why does the underhook function as a load-bearing structural anchor in this position?",
+      "answer": "The bottom player's deep underhook, reaching across the top player's back toward the far lat or belt, is what lets the leg stretch translate into a whole-body dilemma rather than a leg the top player can simply pull out. By anchoring the upper body, the underhook keeps the top player from posturing up or circling away, so the hips stay committed over the trapped leg. It also creates the counter-tension: the upper body is pulled one direction while the lower-body split drives the other, elongating the top player across their own base. Without that upper-body connection the position degrades into a loose lockdown with no splitting leverage."
+    },
+    {
+      "question": "How does the angle between the two players' hips amplify the splitting mechanism?",
+      "answer": "The bottom player angles their hips to roughly 45 degrees relative to the top player rather than lying square underneath them. This off-square orientation lines the lockdown's stretching vector up against the abduction axis of the trapped leg, so hip extension by the bottom player translates efficiently into a split. Squaring back up collapses the angle and bleeds off the leverage, while over-rotating loosens the lockdown's grip on the leg. The shared dynamic is that pressure scales with how well the bottom player can hold that angle, which is why both players fight over it throughout the exchange."
+    },
+    {
+      "question": "What makes the Electric Chair a dual sweep-and-submission threat rather than a single attack?",
+      "answer": "The same lockdown extension and underhook connection that load the split also break the top player's base to one side, so committing to defend either threat opens the other. If the top player postures up and bases to stop being swept, they feed the hip extension and angle that finish the split; if they drop their weight forward and stay low to relieve the groin stretch, they go light on their base and become vulnerable to the Old School sweep. This is the structural no-win dilemma at the heart of the position. Because a single set of controls powers both outcomes, the top player cannot fully neutralize one threat without conceding the other."
+    },
+    {
+      "question": "How does the top player's trapped-leg rigidity govern how much pressure the position generates?",
+      "answer": "A stiff, fully extended trapped leg feeds the mechanism, because a straight lever stretches easily and gives the lockdown a long, rigid limb to split. Softening the leg, the limp leg concept, bends the knee and relaxes the adductor so there is less rigid structure for the stretch to act on and the leg becomes easier to shorten and extract. The bottom player therefore works to keep the leg long and loaded while the top player works to make it soft and short. This shared tug over the trapped leg's rigidity is a defining dynamic of the configuration and a direct determinant of finishing pressure."
+    },
+    {
+      "question": "How does the Electric Chair differ from the lockdown and Old School positions it grows out of?",
+      "answer": "The plain lockdown is a defensive holding configuration: the figure-four traps a leg to prevent the pass and stall, with no active leg stretch or ankle control. The Electric Chair adds the far-side underhook plus control of the top player's near ankle drawn across the midline, converting that static hold into an active hip-abduction stretch and sweep engine. Old School, by contrast, is the sweeping action itself, driving the underhook and rolling the top player over the stretched base, whereas the Electric Chair is the loaded, dilemma-creating platform those attacks fire from. Compared with adjacent half-guard entries like Deep Half, the Electric Chair keeps the upper bodies connected and the leg splayed rather than diving beneath the opponent's center of gravity."
+    },
+    {
+      "question": "Why is there no safe posture range for the top player caught in a loaded Electric Chair?",
+      "answer": "Heavy forward weight and high posture each defuse one threat while arming the other, so the top player is squeezed into a narrow middle band. Driving weight forward flattens the bottom player and closes the angle to relieve some groin stretch, but it loads the underhook and shifts the top player's mass toward the bottom player's spine, which is exactly the alignment that powers the Old School sweep. Posturing high instead unloads the underhook but feeds the hip extension and split. Because both extremes are punished by different threats, the top player has no static posture that is safe, and the bottom player attacks whichever extreme they drift toward."
+    }
+  ]
 }

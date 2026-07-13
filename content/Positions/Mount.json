@@ -720,5 +720,65 @@
       },
       "average_time": "45-90 seconds before escape or submission at intermediate level"
     }
-  }
+  },
+  "flashcards_family": [
+    {
+      "question": "What single mechanical principle makes every variation of mount dominant?",
+      "answer": "Every mount variant places the top player's center of mass directly above the mounted player's torso, so gravity does the controlling work rather than muscular effort. Because the bottom player must generate force upward against that entire load just to breathe or move their hips, the position drains their energy while the top player expends almost none. Whether it is low mount pinning the solar plexus, high mount riding the chest, or technical mount on the side, the constant is that the top player's weight sits above the base of support the bottom player has been denied. This gravitational asymmetry is why mount converts to submissions at a higher rate than almost any other position and why it is scored so heavily."
+    },
+    {
+      "question": "Why does every mounted player, in any mount variation, always retain the upa and elbow-escape as latent threats?",
+      "answer": "No matter which mount variant is applied, the bottom player keeps their hips and their legs, and those are the two engines of mount escape. The upa (bridge-and-roll) exploits the top player's forward weight by trapping an arm and same-side leg and rolling them over their compromised base, while the elbow (knee) escape uses hip movement to reinsert a knee shield and recover guard. Because these two escapes attack the position from opposite directions, they form a dilemma for the top player that mirrors the submission dilemma imposed from above. This is why mount is never a static pin: the top player must continually neutralize bridge and shrimp even as they attack."
+    },
+    {
+      "question": "How does the weight-distribution tradeoff govern the choice between mount variations?",
+      "answer": "Every mount variation resolves the same tension between stability and submission access by sliding the top player's hips along the bottom player's body. Sitting lower and wider (toward the hips) maximizes base and control but keeps the arms and neck out of reach, while riding higher toward the armpits or shifting to an asymmetric platform surrenders base in exchange for direct access to arms and collar. There is no free lunch: each step toward finishing leverage is a step away from positional security. Skilled mounted players understand this exchange rate and only advance to a less stable variant once the bottom player's reactions have created the opening that pays for the lost stability."
+    },
+    {
+      "question": "Why is the mounted player's defensive movement itself the top player's primary source of attacks across all mount variants?",
+      "answer": "Mount is so oppressive statically that the bottom player is forced to move, and every defensive movement opens a specific offensive avenue for the top player. Extending an arm to push away invites the armbar or shoulder lock, bringing hands to the neck to defend a choke straightens the arms for isolation, and turning to the side to escape exposes the back for technical mount and the back take. This reactive dynamic is universal to the family because it stems from the position's core asymmetry: the top player can afford to wait while the bottom player cannot. Effective mount offense therefore reads and channels the escape rather than forcing a predetermined submission."
+    },
+    {
+      "question": "What is the universal escape hierarchy a mounted player must follow regardless of which mount variation is applied?",
+      "answer": "In any mount variant the bottom player follows the same three-tier priority: prevent further advancement, then establish frames, then move the hips to recover guard. Preventing advancement comes first because letting the opponent climb from low to high mount or slide to technical mount multiplies submission danger before any escape can begin. Frames built on skeletal alignment rather than muscle then create a sustainable wedge of space between chest and weight, and only after that space exists do chained hip escapes reinsert a knee and recover guard. Skipping a tier, such as bridging explosively before framing, wastes the limited energy reserve and typically feeds the very attacks the top player wants."
+    },
+    {
+      "question": "Why does energy management decide mount exchanges from both the top and bottom in every variation?",
+      "answer": "The position is structurally lopsided on energy: the top player maintains any mount variant almost for free by letting gravity and hip pressure do the work, while the bottom player must actively generate force against that weight with every defensive action. This means panic-driven, strength-based escapes deplete the mounted player's stamina and create a death spiral in which each failed attempt leaves less for the next. The winning approach on bottom is controlled breathing and small, technical, sequenced movements that preserve reserves, while the top player's job is simply to stay heavy and patient. Across the whole family, the practitioner who spends energy more efficiently controls the outcome."
+    },
+    {
+      "question": "How does control of the hips serve as the central battle in every mount variation from both perspectives?",
+      "answer": "In all mount variants the decisive contest is over the bottom player's hips, because hip mobility is what lets the bottom player bridge, shrimp, and recover guard. The top player wins by keeping their weight heavy on and connected to those hips, following them when the bottom player tries to escape and denying the space needed to reinsert a knee. The bottom player wins by freeing the hips first, since hip movement creates space that shoulder or arm movement alone never can. Whoever dictates whether the hips can move dictates the exchange, which is why every mount variation ultimately reduces to this same struggle regardless of the specific grips or leg positions involved."
+    }
+  ],
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines the Mount position?",
+      "answer": "Mount exists when one player straddles a supine opponent's torso with a knee on either side of the body, the top player's hips settled over the opponent's midsection or chest and the bottom player's back flat on the mat. The defining feature is that the top player's weight is stacked vertically over the opponent's centerline, so gravity does the pinning work rather than muscular effort. Unlike side control, where the top player lies chest-to-chest and perpendicular with both legs to one side, Mount keeps the top player square and facing the opponent directly with legs split to both flanks. This vertical, weight-over-centerline relationship is what makes Mount worth 4 IBJJF points and the most decisive pin in the positional hierarchy."
+    },
+    {
+      "question": "Why is hip control the central battle that determines who dictates a Mount exchange?",
+      "answer": "Whoever governs the connection between the two sets of hips controls the position. The top player pins by driving their hips low and heavy into the opponent's abdomen, flattening the bottom player's hips to the mat and stripping away the leverage needed to bridge or shrimp. The bottom player, conversely, must free their own hips to create the angle and space required for any escape. Because escape mechanics and retention mechanics both route through hip mobility, the exchange is fundamentally a contest over whose hips can move, which is why both roles orient their entire game around hip positioning rather than the arms."
+    },
+    {
+      "question": "How does the trade-off between stability and submission access shift as the Mount rides higher up the torso?",
+      "answer": "Mount is not a single fixed height but a sliding scale along the opponent's torso. Low mount, with the top player's hips near the opponent's belt line and feet often grapevined, maximizes base and control but keeps the arms and neck out of easy reach. High mount, with knees driven up toward the armpits, pins the arms above the shoulder line and opens direct submission access, but sacrifices base and becomes easier to bridge against. Every vertical inch trades positional security for finishing leverage, so both players read the current height to know whether control or submission danger is the dominant factor in that moment."
+    },
+    {
+      "question": "What role does the bottom player's bridging and framing play in the shared dynamics of Mount?",
+      "answer": "Bridging and framing are the two levers by which the bottom player injects instability into an otherwise stable pin, and the top player's entire retention game is a response to them. A bridge lifts and displaces the top player's base, momentarily unstacking the vertical weight, while frames wedge skeletal structure between the two torsos to create incremental space. These forces are why the position is dynamic rather than static: the top player must continuously re-center over the bridge and collapse the frames, and the bottom player must chain small displacements together. The interplay of bridge, frame, and re-center is the shared rhythm that defines active Mount for both roles."
+    },
+    {
+      "question": "How does Mount differ mechanically from side control and knee-on-belly?",
+      "answer": "All three are dominant top pins, but they differ in the geometry of the weight and legs. In side control the top player lies chest-to-chest perpendicular to the opponent with both legs off to one side, distributing weight horizontally. In knee-on-belly the top player is upright with one knee spiked into the abdomen and the other leg posted wide, prioritizing mobility and points over containment. Mount alone stacks the top player's hips directly over the opponent's centerline with a knee on each side, giving the most complete vertical pin and the widest submission arc. This is why Mount scores higher and converts to finishes more readily than either adjacent position."
+    },
+    {
+      "question": "Why is the top player's upper-body mobility a defining attribute of the Mount configuration?",
+      "answer": "Because the pinning work in Mount is done by the stacked hips and gravity, the top player's upper body is freed for grip fighting, posture manipulation, and submission entries in a way that lower pins do not allow. The hips act as the anchor while the torso and arms operate almost independently above. For the bottom player this same freedom is the core threat, since the opponent can attack the neck and arms without surrendering their base. This division of labor, heavy anchoring hips paired with a mobile attacking upper body, is a shared mechanical signature of Mount and explains why the position feels simultaneously stifling and dangerous from underneath."
+    },
+    {
+      "question": "What accounts for the severe energy asymmetry between the two players in Mount?",
+      "answer": "The top player maintains the pin almost entirely through gravity and skeletal alignment, spending minimal energy to stay stacked over the opponent's hips. The bottom player, by contrast, must generate force against that full body weight with every bridge, frame, and hip escape, so each defensive action draws down a finite stamina reserve. This asymmetry compounds over time, since panic-driven explosive movement accelerates the bottom player's exhaustion while the top player simply rides it out. The resulting attrition dynamic, where time itself favors the top player, is a defining property of Mount and shapes the pacing decisions both roles must make."
+    }
+  ]
 }

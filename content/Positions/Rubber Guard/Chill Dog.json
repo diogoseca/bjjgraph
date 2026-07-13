@@ -742,5 +742,39 @@
         "answer": "This is the setup for a crucifix or arm isolation attack. Immediately pull the threatened arm back toward your body and press the elbow tight to your ribs. If the grip is already established, roll your body toward the trapped arm (not away from it) to prevent them from completing the arm isolation. Simultaneously, use your free hand to fight their grip on your wrist. If you cannot strip the grip, commit to a forward roll toward the trapped arm side to scramble out before they establish full crucifix control. Never let them extend your arm away from your centerline."
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What defines the Chill Dog configuration and distinguishes it from a standard turtle?",
+      "answer": "Chill Dog is a compact turtle variant from Eddie Bravo's 10th Planet system where the bottom player stays low and ball-shaped rather than posted high on hands and knees. The defining features are elbows pinned tight to the knees, a rounded back with the head tucked chin-to-chest, and hips angled slightly to one side rather than square. Standard turtle often leaves more space between the thighs and torso and keeps hips higher, whereas Chill Dog collapses that space into a tight shell. This compactness is the structural signature: it minimizes the gaps an opponent needs while keeping the bottom player coiled for explosive rotation."
+    },
+    {
+      "question": "Why is the elbow-to-knee connection the central control point that governs both players in Chill Dog?",
+      "answer": "The elbow-to-knee connection is the load-bearing feature of the position for both sides. When the elbows stay glued to the knees, the shell is closed and no gaps exist for hooks, harness grips, or arm isolation to enter. The entire contest of the position therefore revolves around this seam: the bottom player fights to keep it sealed while the top player probes to pry an elbow off its knee. Because so much hinges on this single connection, a momentary separation of one elbow is the highest-value event in the position, instantly converting a defensive shell into an exploitable opening."
+    },
+    {
+      "question": "How is weight distributed across the four points of contact, and why does that matter to the dynamics?",
+      "answer": "The bottom player carries weight forward onto the hands with the hips low and heavy, spreading load across both hands and both knees to form a stable, hard-to-tip base. Sitting back onto the heels raises the hips and invites both rolling and back exposure, so forward weighting is what keeps the shell rooted. The top player, in turn, works to disrupt this distribution by driving chest pressure onto the upper back to either flatten the base or bait a weight shift. The whole exchange is a contest over this weight equilibrium: whoever controls where the load sits controls whether the position holds or breaks."
+    },
+    {
+      "question": "What role does the slight hip angle play in the position's shared dynamics?",
+      "answer": "In Chill Dog the hips are turned slightly away from the opponent's primary line of attack rather than kept square to the mat. This angle serves a dual purpose relevant to both players. Defensively it removes the flat, square back that an opponent would prefer for driving weight straight down or riding the hips, making the shell harder to flatten. Offensively for the coiled player it preloads the torso for an explosive rotation, so the same angle that shields also stores potential energy for a roll. The hip angle is therefore both a shield and a spring, which is why control of the hips is contested first."
+    },
+    {
+      "question": "Why is Chill Dog understood as an inherently transitional position rather than a place to settle?",
+      "answer": "The position is a temporary shell, not a resting state, because the equilibrium it depends on decays under sustained pressure. The compact shape lets the bottom player weather attacks and conserve structure, but holding it costs energy and every second gives the top player another chance to pry the elbow-knee seam or shift the weight balance. Neither side gains points from the configuration itself, so both are motivated to resolve it: the bottom toward guard or standing, the top toward back control or a front headlock. Its value lies entirely in the brief window it buys, which is why time sustainability is measured in tens of seconds rather than minutes."
+    },
+    {
+      "question": "What makes Chill Dog particularly relevant in no-gi contexts compared to gi grappling?",
+      "answer": "Chill Dog originated in a no-gi system and is shaped by the absence of lapels and sleeves. In the gi, turtle attacks often rely on collar chokes and cloth grips that let an opponent control the shell without prying it open, and defenders can likewise post on fabric. Without those grips, the top player must generate control through body weight, pressure, and grip fighting on limbs and neck, while the bottom player cannot be strangled by cloth around the tucked head. The compact posture is therefore tuned to deny the frictionless clothing grips of no-gi, which is why several gi-specific turtle attacks simply do not apply here."
+    },
+    {
+      "question": "How does the tucked head and rounded back shape what is available to both players in Chill Dog?",
+      "answer": "Tucking the head chin-to-chest and rounding the spine removes the leverage points an opponent would otherwise use. A lifted head exposes the neck to front-headlock chokes and gives the top player a lever to drive weight forward and flatten the shell, so keeping it tucked denies both. The rounded back likewise eliminates a flat surface for the opponent to ride or wedge into. For the bottom player this posture is protective; for the top player it means neck and spine attacks are unavailable until that structure is broken. The head and spine posture thus sets the boundary of what techniques are even on the table for either side."
+    },
+    {
+      "question": "How does Chill Dog relate to the positions that border it in the exchange?",
+      "answer": "Chill Dog sits between full turtle exposure and complete guard recovery, acting as a hinge among several neighbors. It is a specific variant of the parent turtle position, tightened into a compact shell. If the defensive frame breaks, it borders back control, crucifix, and front headlock, which are the outcomes the shell exists to deny. If the shell holds long enough to move, it opens onto guard-family positions such as closed guard, half guard, butterfly guard, and the 10th Planet lockdown. Understanding Chill Dog means understanding it as a junction: the same configuration is one broken seam from a dominant control or one clean rotation from guard recovery."
+    }
+  ]
 }

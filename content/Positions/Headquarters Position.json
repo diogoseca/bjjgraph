@@ -628,5 +628,39 @@
         "answer": "Switch immediately from knee recovery to a hip escape that turns you toward the passer rather than away, never exposing your back. If side control consolidation is imminent, hook the passer's near leg with your free-side leg to catch quarter guard or half guard while keeping both arm frames active against the crossface. From half guard you retain underhook, knee shield, and dogfight options with far more upside than a fully passed pin. The key is recognizing the lost recovery early and accepting the best structured fallback rather than fighting for a position that is already gone."
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What is the defining structural configuration that makes a position Headquarters rather than a generic top-passing scenario?",
+      "answer": "Headquarters is defined by the passer trapping exactly one of the bottom player's legs between their own knees, pinning that knee toward the mat while the passer's opposite leg posts wide to form a triangular base. This single-leg entrapment is the load-bearing feature: it splits the bottom player's lower body so one leg is neutralized while the other remains free. The upright, spine-vertical posture of the top player distinguishes it from smashing or chest-to-chest pressure passes. The result is a stable hub configuration rather than a committed pass, which is why either player can hold or contest it for a meaningful window."
+    },
+    {
+      "question": "Why is Headquarters described as a decision hub rather than a finished pass or a settled pin?",
+      "answer": "Because the passer's leg-trap and wide base do not by themselves complete a guard pass; they create a neutral platform from which multiple passing routes branch based on the bottom player's reaction. Knee cut, toreando, and leg drag all launch from the identical starting structure, so the configuration compresses many passing options into one reusable stance. The bottom player is likewise not pinned but caught in a time-sensitive predicament they can still contest. This shared undecided quality is the essence of the position: it is a fork in the exchange, not a resolution of it."
+    },
+    {
+      "question": "What role does the trapped leg versus the free leg play in defining the shared dynamics of Headquarters?",
+      "answer": "The trapped leg is the anchor of the entire position: pinned between the passer's knees with the knee driven matward, it removes half of the bottom player's hip mobility and gives the top player a fixed reference point for control. The free, uncontrolled leg is the pivot of every contested outcome, since it is the bottom player's engine for recovery, hooks, and inversion and the direction the top player must anticipate. This asymmetry between a neutralized leg and a live leg is what organizes both players' options. Recognizing which leg is which is the first read both players make."
+    },
+    {
+      "question": "How does the triangulated base of the top player govern the balance dynamics for both players in Headquarters?",
+      "answer": "The posting leg planted wide and roughly perpendicular to the bottom player's body forms a triangle with the trapped-leg knee, distributing the top player's weight across a broad footprint that resists both lateral and forward-backward off-balancing. This base is why the position is low-energy to hold and hard to sweep when correct. For the bottom player, that same triangle defines where leverage does and does not exist: sweeps must attack the moments the base narrows or the weight commits to one line. The width and angle of that post is therefore the pivotal variable both players fight over."
+    },
+    {
+      "question": "Why is the top player's upright posture and weight-through-the-hips a defining feature rather than a stylistic preference in Headquarters?",
+      "answer": "Keeping the spine vertical with shoulders stacked over the hips places the passer's weight down through skeletal alignment and the base rather than forward onto the hands. This is what keeps the position low-energy and resistant to being rolled, because a forward-leaning passer exposes their weight to forward rolls, granby escapes, and off-balancing. The upright structure also frees the top player's hands for grip management instead of propping. For the bottom player, any forward lean is the tell that the passer's weight has committed and a reversal window has opened."
+    },
+    {
+      "question": "What is the significance of the passer's weight probing only one direction at a time in Headquarters?",
+      "answer": "Because Headquarters threatens multiple passing lanes from one stance, the top player advances by loading a single direction at a time to test the reaction before committing. Each of those momentary weight commitments is simultaneously the mechanism of the pass and the position's chief exposure, since a loaded direction is a direction that can be exploited. The whole exchange therefore runs on timing: the top player wants to read a reaction before overcommitting, and the bottom player wants to catch the instant of commitment. This shared tempo of probe-and-react is what makes the position dynamic rather than static."
+    },
+    {
+      "question": "How does Headquarters differ from adjacent positions like half guard and side control in terms of control and leverage?",
+      "answer": "Half guard has the bottom player actively trapping the top player's leg with two legs and a knee shield, so control is contested and mutual, whereas Headquarters inverts that by having the top player trap one of the bottom player's legs from a based, upright hub. Side control is a completed, chest-to-chest pin with the guard already passed, while Headquarters is the pre-pass decision point that feeds into it. Headquarters sits mechanically between the two: the guard is beaten enough to control a leg but the pass is not yet finished. This in-between status is precisely why it functions as a launching hub toward side control."
+    },
+    {
+      "question": "Why does upper-body control, specifically the crossface and underhook, act as the tipping point that ends the contested phase of Headquarters?",
+      "answer": "As long as Headquarters is only a leg-trap plus base, the bottom player retains hip mobility and the position stays genuinely two-way. The moment the top player adds crossface and underhook, the bottom player's head and shoulders are pinned and their hips stop moving, which mechanically kills shrimping, inversion, and sweep leverage. That upper-body lock is therefore the hinge that converts the shared, undecided hub into a nearly-completed pass. Both players understand the position through this threshold: the top races to secure it and the bottom races to deny it before consolidation."
+    }
+  ]
 }

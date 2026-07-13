@@ -676,5 +676,39 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What is the defining structural configuration that makes a position Crab Ride rather than a generic turtle attack?",
+      "answer": "Crab Ride is defined by the riding player sitting perpendicular to the turtled player's spine with a single asymmetric hook threaded under the near hip, foot positioned inside the legs. This one-sided hooking leg is the signature control point, distinguishing it from balanced back rides that use two hooks or from a flat top pin. The perpendicular body angle combined with the lone inside hook creates the crab-like lateral orientation the position is named for. Both players organize their game around this asymmetry: one hip is anchored while the opposite side remains a contested lane."
+    },
+    {
+      "question": "Why does the perpendicular body angle between the two players sit at the mechanical core of Crab Ride?",
+      "answer": "Positioning the torso at a right angle to the opponent's spine maximizes control leverage while minimizing the turtled player's ability to use hip movement to escape. Perpendicular alignment lets weight cross the spine laterally rather than stacking front-to-back, which is harder to bridge against. For the turtled player, that same angle is what pins their escape vectors, forcing them to break the perpendicular relationship before any recovery becomes viable. When the angle collapses toward parallel, the position degrades toward standard turtle or back control for one side."
+    },
+    {
+      "question": "How does the single asymmetric hook create the position's characteristic escape-or-lose tempo?",
+      "answer": "Because only one hook is inserted, the position is inherently unstable and transitional rather than a resting control. The riding player is racing to convert the lone hook into a second hook, a back take, or a submission before the turtled player clears it, while the turtled player has a genuine but time-limited window to strip it. This asymmetry means neither side can settle, producing the urgent high-tempo dynamic the position is known for. Unlike a fully locked back control with two hooks, Crab Ride rewards immediate decisive action from both players."
+    },
+    {
+      "question": "Along which axis does Crab Ride's stability contest, given the single hook anchors only the near hip?",
+      "answer": "With the near hip pinned by the lone hook, the position's stability hinges on the opponent's far side, the far arm, shoulder, or collar, which is the free lane both players fight over. Whoever controls that far side brackets the torso across the spine rather than clinging to one edge, so the configuration holds; whenever the far shoulder is free to rotate inward, the perpendicular relationship starts to break. This is why far-side connection, not the hook alone, is what actually stabilizes the ride. The near-hip anchor and the contested far-side lane are the two structural poles the whole position balances between."
+    },
+    {
+      "question": "How is weight distributed across the two players in a stable Crab Ride?",
+      "answer": "The dominant pressure runs through the riding player's chest driving into the turtled player's shoulder blade and ribs, flattening their posture, while the hooking leg anchors the near hip and the free base leg stays mobile rather than heavily planted. The turtled player counters by posting hard through the arm opposite the hooked side to resist being flattened to the mat. This creates a shared tension: forward chest pressure versus a diagonal post. When either the chest connection lifts or the post collapses, the equilibrium breaks and the position resolves toward advancement or escape."
+    },
+    {
+      "question": "How does Crab Ride differ from adjacent turtle-attack positions like Cross Body Ride and the Truck?",
+      "answer": "All three are perpendicular turtle rides, but Crab Ride is distinguished by its single near-hip inside hook used as a springboard to the back, whereas Cross Body Ride distributes control across the body without that same lone-hook back-take emphasis. The Truck traps a near leg to attack the lower body and twister, shifting the target from the neck and back toward the legs and spine. Crab Ride sits upstream of these as a gateway, flowing into back control, crucifix, or Truck depending on how the turtled player defends. The shared thread is perpendicular pressure on a turtled opponent, but the specific limb captured and the primary target set them apart."
+    },
+    {
+      "question": "Which specific breakdowns mark the transition of Crab Ride out of its stable configuration?",
+      "answer": "The position destabilizes when the turtled player elevates their hips off the mat to kill the flattening pressure, when the inside hook slides shallow out of the hip crease, when the far arm frees itself to frame, or when the shoulders rotate past roughly 45 degrees toward the riding player. Any one of these signals that the perpendicular-plus-hook equilibrium is failing. For the riding player these are cues to deepen the hook or advance immediately; for the turtled player they are the openings to commit an escape. Once two of these breakdowns compound, the position has effectively resolved into either back exposure or guard recovery."
+    },
+    {
+      "question": "Why is Crab Ride best understood as a branching fork rather than a position to be held?",
+      "answer": "Its structural value comes from being a hub that simultaneously threatens back control, crucifix, and front-headlock chokes, so the turtled player faces a defensive dilemma among competing threats rather than one predictable attack. Because the lone hook and constantly adjusting perpendicular angle make it unsustainable to sit in statically, whoever rides it must cash the threat out before the turtle rebuilds and neutralizes the asymmetry. Defending one branch tends to open another, which is the leverage the position provides. Both players therefore treat it as a moment of decision where the exchange rapidly moves on to a more defined position."
+    }
+  ]
 }

@@ -715,5 +715,39 @@
         "answer": "Execute technical standup when: opponent commits to standing passes and is focused on leg control rather than pressure; when you've created enough distance that they can't immediately close; when opponent hesitates or resets their position; when grip fighting has stalemated and neither has dominant control; or when you need to reset after a near-pass. The key cue is space - if you have room to stand without opponent immediately driving into you, the standup is available."
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What physical configuration defines Seated Guard and distinguishes it from other open guards?",
+      "answer": "Seated Guard is defined by the bottom player sitting with hips flat on the mat, torso upright, hands posted behind for a tripod base, and legs extended or bent toward a standing or kneeling opponent. Unlike closed or butterfly guard, no legs are wrapped or hooked around the opponent, preserving maximum freedom of leg movement for distance management. The upright posture with posted hands is the signature trait, because it keeps the sitting player one motion away from a technical standup. This makes the position simultaneously grounded and mobile rather than committed to a wrap or entanglement."
+    },
+    {
+      "question": "Why is the distance between the two players the central battleground in Seated Guard?",
+      "answer": "Distance is central because it determines which player's tools are active: at range the sitting player's feet and legs act as frames and probes to keep the standing player out, while up close the standing player's chest pressure and grips take over. The sitting player fights to preserve a gap where their legs can push, pull, and hook, whereas the passer fights to collapse that gap and reach chest-to-chest. Whoever controls the engagement distance dictates the exchange, so the position is essentially a continuous negotiation over that spacing. This is why passive feet or an uncommitted approach both surrender ground instantly."
+    },
+    {
+      "question": "What role do the posted hands play in the mechanics of Seated Guard for the seated player?",
+      "answer": "The posted hands form the rear legs of a tripod with the hips, giving the seated player a stable yet mobile base rather than a passive lean. Slightly bent elbows act like springs that absorb incoming pressure without collapsing the player onto their back. This base lets the seated player pivot on their hips to face a circling opponent and elevate the hips to generate power or initiate a standup. If the hands post too narrow, too wide, or too far back, the base weakens and the standing player can flatten or drive over the seated player."
+    },
+    {
+      "question": "Why is Seated Guard considered a transitional position rather than a static holding position?",
+      "answer": "Seated Guard offers no wrap, hook, or grip that locks the two players together, so neither side can simply sit still and hold it. The seated player must constantly micro-adjust hips and feet to prevent the passer from timing grips and closing distance, while the passer must keep switching stance and angle to avoid being swept or countered on a standup. Staying static lets the opposing player calibrate and win the exchange, which is why constant movement is a shared requirement. The position is essentially a launch point that resolves quickly into a standup, a sweep, a pass, or a new guard."
+    },
+    {
+      "question": "How does the technical standup threat shape the dynamics for both players in Seated Guard?",
+      "answer": "Because the seated player can rise to standing in a single motion, the passer cannot bull-rush forward or overcommit weight without risking a scramble or reversal. This latent standup forces the top player to respect the sitting player's base, hold grips that pin the seat, and pass from angles rather than straight pressure. For the seated player, being physically and mentally ready to stand at any moment is what keeps the top player cautious and creates openings. The threat conditions the entire exchange even when no standup actually occurs."
+    },
+    {
+      "question": "Why does chest-to-chest pressure represent the failure point of Seated Guard for the bottom player?",
+      "answer": "Seated Guard depends on a gap that keeps the seated player's legs and frames between the two torsos, so when the passer establishes chest-to-chest contact that gap is gone and the legs can no longer function as barriers. At that point the seated player's base is compromised, their hips are pinned, and the upright posture collapses toward the back. The position has effectively ended, and the correct response shifts from playing Seated Guard to framing and shrimping toward half guard or butterfly recovery. This is the shared threshold both players recognize: reaching it is the passer's goal and the guard player's alarm."
+    },
+    {
+      "question": "How does controlling one versus both of the seated player's legs change the Seated Guard exchange?",
+      "answer": "As long as the seated player keeps at least one leg free, they retain an active tool to push, frame, hook, or enter an entanglement such as Single Leg X, preserving offense and distance. When the passer captures both legs simultaneously, the seated player loses mobility and distance control, allowing the top player to stack, pin, or pass with little resistance. Consequently the seated player treats their legs as independent systems and never lets both be trapped, while the passer specifically hunts double-leg control to neutralize the guard. This tug-of-war over how many legs are controlled is a defining mechanic of the position."
+    },
+    {
+      "question": "How does Seated Guard relate to butterfly guard, single leg X, and standing, and what triggers the shift to each?",
+      "answer": "Seated Guard sits at a hub of open-guard transitions because its upright, unwrapped posture connects cleanly to neighboring positions. Inserting a hook under the opponent's thigh as they close distance converts it to butterfly guard, while an opponent stepping a leg forward invites a Single Leg X entry. Rising off the posted hands takes the seated player to standing, resetting to neutral. The common thread is that each adjacent position is one committed motion away, which is precisely why Seated Guard functions as a versatile launch point rather than a destination."
+    }
+  ]
 }

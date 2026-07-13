@@ -647,5 +647,35 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What leg configuration defines Technical Mount and gives it the alternate name S-mount?",
+      "answer": "Technical Mount is an asymmetric mount where the top player steps one leg up so its shin runs across or above the opponent's head or shoulder line, while the other leg stays hooked underneath near the armpit or hip. Viewed from the side, the posted stepped-up leg and the tucked inside leg form an S shape, which is why the position is also called S-mount. This trades the symmetrical two-knee base of regular mount for a stepped-leg structure oriented around one of the opponent's arms. The defining feature is that leg placement, not chest pressure alone, dictates the position's geometry."
+    },
+    {
+      "question": "Why does the stepped-over leg make a single isolated arm the organizing center of Technical Mount?",
+      "answer": "Stepping one leg up over the head or shoulder walls off that side of the opponent's body and traps the near arm on the wrong side of that leg, cutting it off from the free arm. This isolates one specific limb, so the whole configuration is built around that arm rather than general torso control. That trapped arm becomes the shared reference point defining every threat and every defensive response. Because the structure hinges on it, control of that one arm is the pivot on which the position stands or falls for either player."
+    },
+    {
+      "question": "How does weight and hip placement in Technical Mount differ from the chest-to-chest pressure of standard mount?",
+      "answer": "Standard mount drives weight straight down through the chest onto the sternum with both knees pinching the ribs. Technical Mount instead shifts the hips toward the isolated-arm side and stacks weight over the shoulder rather than the center of the chest, with a large share of base carried on the posted leg. This produces a rotational, angled pressure aimed at the shoulder line instead of a flat downward pin. The result is a position that is inherently more mobile and less settled than mount, which is why it is treated as transitional rather than a resting pin."
+    },
+    {
+      "question": "What makes Technical Mount trade stability for offensive angle compared to regular mount?",
+      "answer": "Posting one leg up removes a point of contact with the mat and lifts weight off one side of the opponent, so the base becomes narrower and easier to disrupt than a grounded two-knee mount. In exchange, the stepped leg creates the head-side barrier and hip angle that set up armbar and back-take geometry a flat mount cannot reach. This is a deliberate exchange: the configuration spends the rolling resistance of full mount to buy a finishing angle. That reduced stability is exactly what both players read, because it shortens the window in which the position can be held before it must resolve."
+    },
+    {
+      "question": "Why is the free arm and the head-turn direction a central dynamic of Technical Mount for both players?",
+      "answer": "With one arm isolated by the stepped leg, the opponent's free arm and the orientation of their head become the contested variables that decide what happens next. The free arm can either frame to create space or be captured to shut down defense, while the head turned toward the stepped leg exposes the neck and turned away protects it against the triangle. Because the isolated arm is already committed, these two remaining assets determine whether the position resolves toward a submission, a back exposure, or an escape. The whole exchange orbits how the free arm and head sit relative to the stepped leg."
+    },
+    {
+      "question": "What is the defensive dilemma that structurally characterizes Technical Mount?",
+      "answer": "The stepped-leg configuration layers multiple threats onto a single controlled arm so that each defensive choice opens another attack. Straightening the trapped arm to push feeds the armbar, leaving the neck exposed invites the triangle, and turning away to escape offers the back. These threats share the same setup, so defending one commits the bottom player toward another. This interlocking near-no-win structure, rather than any single technique, is what defines Technical Mount and explains why it is rated one of the highest-percentage positions from mount."
+    },
+    {
+      "question": "How does Technical Mount differ from a fully committed S-mount armbar position?",
+      "answer": "Technical Mount is the controlling stage where the leg is stepped up and the arm is isolated but the top player still sits upright and can shift between multiple options. A committed S-mount armbar is the resolution of that position, where the far leg has swung across the face, the top player has sat back, and the hips drop to extend the arm for the finish. The distinction matters because Technical Mount retains its optionality between armbar, triangle, and back take, whereas the finish has already spent that optionality on one attack. Recognizing which stage the exchange is in tells both players whether the position is still fluid or already converting to a submission."
+    }
+  ]
 }

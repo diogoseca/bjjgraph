@@ -673,5 +673,35 @@
         "answer": "Squid Guard is energy-intensive due to the constant tension required. Manage energy by using frame-based distance control with your non-threading leg rather than pure muscular effort. Let the lapel wrap do most of the work - properly wrapped, it creates mechanical restriction that doesn't require constant pulling. Recognize when to transition out of Squid Guard if opponent is successfully defending without advancing, rather than depleting yourself trying to force attacks from a stalemated position."
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines Squid Guard and distinguishes it from a standard open guard?",
+      "answer": "Squid Guard is an asymmetrical lapel guard in which the bottom player threads one leg behind the top player's knee as a deep hook while simultaneously wrapping the top player's own lapel around that same leg or the body. The defining feature is the combination of a hook and a fabric tether working on the same limb, which no bilateral open guard offers. This pairing creates a mechanical anchor that resists both extraction of the hook and disengagement by the top player. Without the lapel wrap the configuration collapses into ordinary De La Riva, so the lapel-plus-hook coupling is what makes the position what it is."
+    },
+    {
+      "question": "Why is the lapel wrap the non-negotiable control point that anchors the entire position for both players?",
+      "answer": "The lapel wrap converts the top player's own gi into a semi-rigid tether that mechanically restricts their leg and posture without requiring the bottom player to spend continuous muscular effort. Because the fabric is looped around a limb, tension is maintained even during transitions, giving the bottom player a persistent anchor and forcing the top player to actively clear it before any normal passing mechanics work. For the top player, the lapel is the primary thing that must be stripped or unwrapped; for the bottom player, it is the element that must be preserved above all others. This shared centrality is why both roles orient their entire strategy around the fabric connection rather than the hook alone."
+    },
+    {
+      "question": "How does the deep hook behind the knee shape the base and posture battle in Squid Guard?",
+      "answer": "The hook threaded behind the top player's knee disrupts their base and prevents them from settling weight forward or squaring their hips into the bottom player. This denies the top player a stable platform to drive pressure straight down and forces them to widen their stance to stay balanced against the hook's tension. For the bottom player, maintaining constant tension on that hook is what keeps the top player from consolidating hip-to-hip pressure. The result is a configuration where the top player is structurally blocked from settling their weight until the hook is cleared."
+    },
+    {
+      "question": "What role does angle play in Squid Guard, and why do both players fight over it?",
+      "answer": "Effective Squid Guard depends on the bottom player keeping their hips perpendicular or at roughly 45 degrees to the top player's hips rather than flat on the back. This angle preserves the leverage needed to off-balance and threaten sweeps or back exposure, and it keeps the hook and lapel loaded. The top player's counter is to flatten that angle by squaring up or stacking, which neutralizes the sweeping and inverting threats. The constant contest over hip angle is therefore central to the position's dynamics for both players, since whoever controls the angle controls whether the guard is offensive or passable."
+    },
+    {
+      "question": "How do the two legs perform different jobs in Squid Guard's asymmetrical structure?",
+      "answer": "The threading leg forms the deep hook behind the opponent's knee and carries the primary off-balancing and posture-disrupting load in coordination with the lapel. The non-threading leg works separately as a distance manager and frame, typically posting on the near hip or bicep to control spacing and prevent the top player from closing in. This division of labor is what makes the guard asymmetrical, unlike bilateral guards where both legs mirror one another. If either leg goes passive the structure fails, so the roles of the two legs are distinct but interdependent for both maintaining and passing the position."
+    },
+    {
+      "question": "In what way does the lapel wrap around the leg expose the threading leg to specific dangers for both players?",
+      "answer": "Because one leg is deeply committed behind the opponent's knee and often further entangled by the lapel, that leg can become isolated and vulnerable to leg-lock entries such as heel hooks and kneebars if it stops moving. This vulnerability shapes play for both sides: the bottom player must keep the leg active and be ready to withdraw the thread, while the top player may attack the exposed leg instead of passing conventionally. The same deep commitment that generates the guard's control is also its structural liability. Managing that trade-off between control depth and leg exposure is a shared mechanical reality of the position."
+    },
+    {
+      "question": "How does Squid Guard differ from its parent De La Riva and Reverse De La Riva positions?",
+      "answer": "Squid Guard borrows the hook mechanics of De La Riva and Reverse De La Riva but adds the lapel wrap as an additional, semi-permanent point of control on the same limb. Where De La Riva relies on the hook plus hand grips that can be stripped relatively quickly, Squid Guard's fabric tether creates a more durable entanglement that persists through movement and restricts the top player's mobility more aggressively. This makes the guard more resistant to standard extraction but also more gi-dependent, since removing the lapel returns the exchange to a De La Riva dynamic. The lapel is thus the single element that separates Squid Guard from its hook-based relatives."
+    }
+  ]
 }

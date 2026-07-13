@@ -690,5 +690,39 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What leg configuration defines the 3-4 Mount and gives the position its name?",
+      "answer": "In 3-4 Mount the top player crosses one leg fully over the opponent's torso in the traditional mount configuration while the other leg posts outside the opponent's body, knee on the mat and foot planted. The name reflects the contact pattern created by this split: one side carries the full mounted-leg connection (the '4') while the posted-leg side has fewer points touching the opponent (the '3'). This deliberate asymmetry is the defining structural feature that separates it from symmetric mount, where both knees pinch the ribs. Everything else about the position's mechanics flows from this one-in, one-out leg split."
+    },
+    {
+      "question": "Why does the 3-4 Mount produce an inherently asymmetric weight distribution?",
+      "answer": "Because one leg is mounted across the torso while the other posts wide on the mat, the top player's mass is not evenly balanced between two knees as it is in standard mount. The mounted side carries concentrated pressure through the crossed leg and driving knee, making it the heavier side, while the posted-leg side offloads weight into the planted foot and knee on the floor, making it lighter. This creates a directional bias that both players can feel: pressure and control are stronger toward the mounted side, and instability is greater toward the posted side. The entire tactical character of the position stems from this uneven loading."
+    },
+    {
+      "question": "How does the posted outside leg function as a base for the top player?",
+      "answer": "The posted leg acts as a dynamic outrigger, its knee on the mat and foot planted to widen the base on that side. This planted limb lets the top player brace against and redirect a bridge by pushing off the floor rather than relying solely on hip-to-hip contact. It also frees the top player to shift weight and adjust angle quickly, since one leg is no longer committed to pinching the ribs. The trade-off is that the posted leg's contribution to base comes from the floor, not from clamping the opponent, so the control it provides is directional rather than symmetric."
+    },
+    {
+      "question": "What are the primary contact and control points shared across the 3-4 Mount regardless of role?",
+      "answer": "The mounted-side knee driving into the opponent's ribs or armpit is the primary internal control point, wedging space closed on that side. Chest-to-chest or chest-to-sternum pressure supplies the forward-and-down force that limits the bottom player's breathing and explosive movement. The posted leg's knee and foot form the external base point that resists tipping, and upper-body arm control (wrists, sleeves, or a crossface) anchors the opponent's frames. These points exist for both players to reckon with: the top player maintains them, the bottom player must break or exploit them."
+    },
+    {
+      "question": "Why is the mounted-side knee driving into the ribs so central to how this position controls the bottom player?",
+      "answer": "The mounted knee acts as a wedge that eliminates the inside space the bottom player needs to insert an elbow and begin a shrimp or elbow escape. By pinning tight to the ribs or armpit, it closes off the most common recovery channel on the heavier side and pins the opponent's hips to the mat. This concentrated pressure is also what makes the mounted side feel heavier and harder to escape toward. When that knee drifts away and space opens, the primary control mechanism of the whole position degrades, which is why maintaining or attacking that connection defines the exchange for both players."
+    },
+    {
+      "question": "How does the heavy-side/light-side gradient govern the shared bridge-and-escape logic of the position?",
+      "answer": "Because the mounted side is loaded and the posted side is offloaded, the position presents a fixed pressure gradient that dictates how both players fight over it. Force applied toward the heavy, mounted side meets a solid base and is largely absorbed, so a bridge directed there disrupts the top player's balance without opening a clean exit. The light, posted side is where the base is thin and escape angles actually live, so movement toward it meets less resistance. Both players read the same gradient in opposite directions: the top player keeps weight biased toward the heavy side to preserve control, while the bottom player disrupts the base then travels toward the light side."
+    },
+    {
+      "question": "Why is the 3-4 Mount considered a transitional position rather than a static holding position?",
+      "answer": "The asymmetric base that gives the top player mobility to shift and attack is the same asymmetry that leaves a directional vulnerability toward the posted-leg side, so the configuration does not settle into a stable equilibrium the way flat, symmetric mount can. Weight must be actively managed and angles constantly adjusted, meaning neither player can afford to stay put. The position naturally pulls toward change: the top player toward full mount, S-mount, technical mount, or a submission, and the bottom player toward guard recovery or a reversal. Its value lies in the doorways it opens, not in the pressure it holds indefinitely."
+    },
+    {
+      "question": "How does the 3-4 Mount differ mechanically from traditional symmetric mount and from S-mount?",
+      "answer": "Traditional mount seats both knees against the ribs for a balanced, two-point base that maximizes stability but commits both legs and slows transitions. The 3-4 Mount trades one of those knees for a posted outside leg, sacrificing symmetric stability in exchange for a mobile base and faster access to attacks and mount variations. S-mount goes further, folding one leg under and turning the hips to isolate the far arm for armbar mechanics, whereas 3-4 Mount keeps the posted leg as a bracing outrigger rather than a trapping structure. In essence 3-4 Mount sits between symmetric mount's stability and S-mount's specialization, offering asymmetric mobility without fully committing to a single attack."
+    }
+  ]
 }

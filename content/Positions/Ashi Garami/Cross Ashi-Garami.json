@@ -704,5 +704,39 @@
         }
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural feature defines Cross Ashi-Garami and distinguishes it from standard parallel Ashi-Garami?",
+      "answer": "In Cross Ashi-Garami the controlling player's legs cross over one another around the opponent's trapped leg, rather than running parallel to it as in standard Ashi. This crossing forms a figure-four-like wedge that pinches the isolated leg between two independent points of contact, one inside hook behind the hip and one outside leg crossing at shin level. The wedge converts the leg configuration into a rigid frame that resists being kicked apart, which is why the position generates more rotational control than parallel Ashi. The trade-off is that the crossed structure orients the trapped foot for heel exposure, raising the stakes for both players."
+    },
+    {
+      "question": "Why does the crossed-leg wedge produce superior rotational control compared to a parallel leg configuration?",
+      "answer": "The crossed legs bracket the trapped limb from two converging angles, so any attempt to rotate the leg meets resistance from both the inside hook and the outside cross simultaneously. This bracketing pins the knee and ankle line, preventing the trapped leg from spinning freely and forcing rotational force to concentrate on the joint rather than dissipating through hip movement. Because the controlling structure is skeletal rather than muscular, it holds the rotational relationship even under fatigue. That concentrated, inescapable rotation is exactly what makes the configuration a premier platform for heel hook mechanics."
+    },
+    {
+      "question": "How does perpendicular hip alignment between the two players govern the mechanics of this position?",
+      "answer": "The controlling player's hips sit roughly ninety degrees to the trapped player's hip line, forming an L-shape between the two bodies. This perpendicular relationship is what locks hip rotation for one player while denying the other the squared alignment needed to sit up, turn in, or drive forward. Whoever wins and holds the perpendicular angle dictates the exchange, so both players are constantly fighting to establish or break this alignment. When the angle collapses toward square, control degrades and the trapped leg gains the freedom to extract."
+    },
+    {
+      "question": "What role does the isolated, extended trapped leg play in the shared dynamics of Cross Ashi-Garami?",
+      "answer": "The trapped leg is captured and held between the crossed legs with the foot controlled, and its degree of extension is the central variable of the position. A fully extended, straight knee lengthens the lever and aligns the heel for rotational attack, favoring the controlling player. A flexed knee with the heel drawn toward the hip shortens that lever and hides the heel, favoring the trapped player. The entire positional battle therefore orbits around whether the trapped knee is kept straight or bent, making leg-extension management the shared mechanical fulcrum."
+    },
+    {
+      "question": "Why is heel exposure the defining risk that both players organize their game around in this position?",
+      "answer": "The crossed configuration naturally rotates the trapped foot so the heel becomes accessible, which is the anatomical prerequisite for a heel hook that torques the knee ligaments. Because the knee cannot tap or absorb rotation the way it signals other joints, injury can occur with little warning once the heel is captured and turned. This makes heel exposure the single highest-consequence element of the position, dictating that one player fights to expose and grip the heel while the other fights to conceal it by rotating the foot inward and flexing the knee. The severity of the outcome is why safety awareness and early recognition are shared imperatives regardless of role."
+    },
+    {
+      "question": "How does connection and compactness between the two bodies determine who controls Cross Ashi-Garami?",
+      "answer": "The position depends on the two bodies staying tightly connected with minimal space in the entanglement. When the gap is small, the crossed legs maintain constant tension on the trapped leg and the perpendicular angle holds, preserving control. When space opens, the trapped leg gains room to retract the knee, the foot can rotate to hide the heel, and framing becomes possible to break the angle. Distance management is thus a two-way lever: closing space favors the controller while creating space favors extraction, and both players contest it continuously."
+    },
+    {
+      "question": "What makes Cross Ashi-Garami function as a transitional hub connecting other leg entanglements?",
+      "answer": "Because the crossed structure sits between several entanglement geometries, small changes in the trapped player's rotation or the crossing height open direct pathways to adjacent positions. Turning the trapped leg inward flows toward Inside Ashi-Garami, deepening the cross and stepping the feet leads to the Saddle, and symmetric re-engagement of the legs produces 50-50. This connectivity means the position is rarely static: it is a decision point where the reaction of one player to a rotational or extension change reroutes the exchange into a neighboring entanglement. Understanding those adjacencies is essential because the position is defined as much by where it leads as by its own structure."
+    },
+    {
+      "question": "How does the height at which the outside leg crosses the trapped limb change the position's characteristics?",
+      "answer": "Where the outside leg crosses along the trapped limb tunes both how securely the foot is trapped and which joint the wedge threatens. A cross kept tight to the lower leg locks the foot and heel firmly against the structure, keeping the entanglement compact and hard to clear. A cross that rides up toward the thigh loosens control of the foot and makes the cross easier to strip, trading foot security for a different leverage line on the leg. Both players read the crossing height as a signal, since it reveals how tightly the leg is captured and where the coming attack is aimed."
+    }
+  ]
 }

@@ -356,6 +356,7 @@ def process_position_role(position_data: dict, role: str, hub_slug: str, hub_pat
         'transitions': transitions,
         'flashcards': flashcards,
         'flashcardTiers': {'family': family_tier, 'position': position_tier, 'role': flashcards},
+        'familyHub': family_ctx['hub_name'] if family_ctx else None,
     }
 
 
@@ -373,17 +374,20 @@ def process_positions(content_dir: Path) -> dict:
         return dedupe_flashcards([
             {'question': qa.get('question', ''), 'answer': qa.get('answer', '')} for qa in (cards or [])
         ])
-    family_of = {}            # variant_slug -> {'hub_slug', 'cards'}
+    family_of = {}            # variant_slug -> {'hub_slug', 'hub_name', 'cards'}
     family_cards_by_hub = {}  # hub_slug -> family cards (for the hub node itself)
+    family_name_by_hub = {}   # hub_slug -> family display name (for tier deck keys)
     for pd in position_files:
         if pd.get('variations'):
             fam_cards = _map_qa(pd.get('flashcards_family'))
             h_slug = slugify(pd.get('slug', pd.get('name', '')))
+            h_name = pd.get('name', h_slug)
             family_cards_by_hub[h_slug] = fam_cards
+            family_name_by_hub[h_slug] = h_name
             for v in pd['variations']:
                 vslug = slugify(v.get('slug') or v.get('name', ''))
                 if vslug:
-                    family_of[vslug] = {'hub_slug': h_slug, 'cards': fam_cards}
+                    family_of[vslug] = {'hub_slug': h_slug, 'hub_name': h_name, 'cards': fam_cards}
 
     for pos_data in position_files:
         if 'name' not in pos_data:
@@ -414,8 +418,11 @@ def process_positions(content_dir: Path) -> dict:
             }
             continue
 
-        # a variant leaf inherits its family's cards (by its own slug); a family hub is not itself a variant
+        # a variant leaf inherits its family's cards (by its own slug); a family hub's OWN role
+        # nodes also belong to the family (so drilling base Mount surfaces Mount family principles)
         fam_ctx = family_of.get(hub_slug)
+        if fam_ctx is None and hub_slug in family_cards_by_hub:
+            fam_ctx = {'hub_slug': hub_slug, 'hub_name': family_name_by_hub[hub_slug], 'cards': family_cards_by_hub[hub_slug]}
 
         top = process_position_role(pos_data, 'top', hub_slug, hub_path, path_index, family_ctx=fam_ctx)
         if top:

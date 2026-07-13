@@ -705,5 +705,39 @@
         "answer": "Once you have space, commit fully to guard recovery rather than trying to maintain the intermediate position. Immediately bring your knees to your chest and insert your knee shield or closed guard before they can re-establish pressure. If they're driving forward, use their momentum to pull them into your closed guard. If going to turtle, complete the transition fully rather than stopping halfway where you can be flattened again. Partial positions are dangerous - commit to completing the escape."
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What geometric configuration defines Kesa Gatame and distinguishes it from standard side control?",
+      "answer": "Kesa Gatame is defined by the top player sitting perpendicular to a supine opponent, oriented roughly along the opponent's near shoulder line rather than across their torso as in standard cross-body side control. One of the top player's arms wraps around the opponent's head while the opponent's near arm is trapped under the armpit, creating a scarf-like upper-body lock. This perpendicular alignment, borrowed from judo newaza, changes the mechanics for both players: control pressure runs along the head-and-near-arm axis rather than chest-to-chest across the sternum. The angle is the single feature that makes standard shrimping and standard cross-face passing mechanics both behave differently here."
+    },
+    {
+      "question": "Which control points immobilize the opponent's upper body in Kesa Gatame?",
+      "answer": "Three linked control points define the immobilization: the head wrapped and pulled toward the top player's hip, the opponent's near arm trapped tight under the top player's armpit against the ribs, and chest-to-chest weight distributed down onto the opponent's upper torso. The head-and-near-arm trap couples the opponent's head and shoulder together so they cannot be moved independently, which is what removes the opponent's ability to turn and frame. Because two of the opponent's three upper-body levers (head and one arm) are captured on the same side, the opponent's remaining defensive tools are the far arm and the hips. Losing any one of the three control points typically converts the position into a scramble."
+    },
+    {
+      "question": "How is weight and base distributed by the top player, and why does this matter to both players?",
+      "answer": "The top player keeps hips low and heavy, sinking bodyweight through the chest onto the opponent's torso rather than posting weight on the hands, while the far leg posts wide at roughly a 45-degree angle for base. This skeletal, gravity-driven pressure is what makes the pin sustainable without muscular fatigue, and it is why the position rewards a heavy, patient top player over an explosive one. For the bottom player, the same distribution defines the target: the wide posted leg and the sat-back hips are the base that a bridge or sweep must compromise. Weight carried through hips and chest rather than arms is the shared mechanical fact both players organize their game around."
+    },
+    {
+      "question": "Why does the perpendicular angle of Kesa Gatame create back exposure for the top player?",
+      "answer": "Because the top player sits alongside and faces across the opponent's body rather than squaring over the chest, the top player's own back and far side are turned partially away from the opponent's free far arm and hips. This is the central trade-off of the position: the perpendicular orientation buys crushing head-and-arm control at the cost of leaving the top player's back reachable when the opponent turns in. The exposure is intrinsic to the geometry, not an execution error, which is why variations like Reverse Kesa-Gatame exist specifically to address it. Both players must understand that the same angle that makes the pin strong is what makes the back-take a live threat."
+    },
+    {
+      "question": "Why does standard shrimping fail against Kesa Gatame, and what movement replaces it?",
+      "answer": "Standard shrimping assumes the opponent is squared across the chest, so hip-escaping away opens the space needed to reinsert a knee; but under Kesa Gatame's perpendicular angle, shrimping drives the hips into the top player's seated hips rather than into open space, so no gap appears. The head-and-near-arm coupling compounds this by denying the shoulder-to-hip separation that shrimping needs to begin. Because of this, bridge-and-turn mechanics replace shrimping as the relevant vocabulary: the bottom player bridges toward the top player and turns to face them rather than sliding straight away. This substitution of turning for shrimping is the defining escape-mechanics consequence of the perpendicular geometry."
+    },
+    {
+      "question": "How does Kesa Gatame relate to its adjacent variations such as Reverse Kesa-Gatame and Kuzure Kesa-Gatame?",
+      "answer": "Kesa Gatame sits within a family of judo-derived scarf holds that share the perpendicular head-and-near-arm control but differ in facing direction and arm configuration. Reverse Kesa-Gatame faces the opposite direction toward the opponent's hips, trading the standard version's back exposure for a different vulnerability profile, while Kuzure Kesa-Gatame ('broken' scarf hold) modifies the arm control and weight distribution for a more stable base. All variants preserve the defining perpendicular angle and upper-body trap but rebalance the control-versus-exposure trade-off. Understanding the family means recognizing that a player flows between these based on which vulnerability the opponent is currently attacking."
+    },
+    {
+      "question": "Why is Kesa Gatame better understood as a transitional hub than a static holding position?",
+      "answer": "The same back exposure and perpendicular angle that make the pin strong also make it dynamic, so the position naturally feeds transitions rather than rewarding indefinite stalling. From the top it flows toward North-South, mount, or the reverse and modified scarf variants as the opponent reacts, and from the bottom it opens routes toward turtle, guard recovery, or the back-take. Because holding statically invites the intrinsic back exposure to be exploited, the higher-percentage game for both players is to move with the opponent's reactions. The position is a decision point where the next configuration is chosen, not a terminal pin to be sat in."
+    },
+    {
+      "question": "Why does Kesa Gatame restrict the bottom player's breathing so heavily?",
+      "answer": "The top player's weight funnels through the chest and shoulder directly onto the opponent's upper torso and diaphragm, and because the near arm and head are pinned on one side, the opponent cannot create the ribcage expansion room that framing normally buys. The shoulder often presses across the face as well, adding a smothering component on top of the load on the chest. This is why the position is described as compounding over time: the pressure is constant and skeletal rather than something the bottom player can wait out, and oxygen debt accelerates fatigue and mental defeat. The breathing restriction is therefore a structural feature of the pin, not an added attack."
+    }
+  ]
 }

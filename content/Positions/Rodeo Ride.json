@@ -732,5 +732,39 @@
         "answer": "Establish a systematic defensive checklist: first assess which arm is controlled, then evaluate neck threat level, then feel hip pressure and hook threats. Having a mental framework prevents panic-driven reactions. Focus on breathing—holding your breath increases panic and drains energy. Accept that escaping from Rodeo Ride is a process, not a single explosive movement. Make small positional improvements rather than gambling on low-percentage explosive escapes. Each defensive success (preventing a grip, maintaining arm freedom, protecting neck) is progress toward eventual escape."
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What configuration of players and contact points defines the Rodeo Ride position?",
+      "answer": "Rodeo Ride is a turtle-attack configuration where the bottom player is on hands and knees in turtle and the top player rides perpendicular or angled across their back with hips loaded onto the torso between shoulder and hip. The defining contact points are the top player's chest against the back, an asymmetric grip that controls the near arm, and one leg posted on the mat for base while the other applies pressure to the hip or thigh. Unlike a static pin, the connection is maintained through constant micro-adjustments rather than a fixed clamp. This rider-like posture, with weight loaded high and one base leg posted, is what gives the position its name and its shifting, mobile character."
+    },
+    {
+      "question": "Why is Rodeo Ride characterized as a dynamic riding position rather than a static control?",
+      "answer": "The position trades static weight-pinning for responsive weight distribution that shifts with the bottom player's movement, adapted from wrestling's riding game. Because the turtled opponent is constantly rocking, sitting back, or trying to stand, a fixed clamp would either be beaten by their movement or thrown off balance by it. Instead the top player rides that movement, staying heavy enough to control but mobile enough to follow, using the opponent's energy rather than fighting it head-on. This is why the position is inherently transitional for both players: it is a launching pad toward back control or submission, not a place either player rests."
+    },
+    {
+      "question": "How does the asymmetric grip pattern shape the exchange for both players in Rodeo Ride?",
+      "answer": "One side of the opponent is controlled at the near arm (wrist, elbow, or underhook) while the other side is threatened through collar, neck, or far-side control, creating a deliberately lopsided structure. For the top player this asymmetry prevents the opponent from posting and framing on the controlled side while opening back-take and crucifix threats. For the bottom player it means one arm is under threat and the priority becomes never letting both arms get controlled at once, since a free posting arm is the only tool for generating base. The asymmetry is what forces the dilemma dynamic: defending one side concedes the other."
+    },
+    {
+      "question": "What role does the top player's posted leg play in the stability of Rodeo Ride?",
+      "answer": "The posted leg, typically the far leg, forms one point of a tripod with the chest and hips, giving the top player a base that resists being rolled or bridged over. Without it, driving weight forward would leave the rider vulnerable to the opponent sitting back to guard or rolling through underneath. The other leg or knee stays free to apply pressure to the opponent's hip or thigh, controlling their mobility rather than serving as base. For the bottom player, the moment that posted leg lifts or repositions is a compromised-base window, which is precisely when escape and hook-insertion attempts have the highest success."
+    },
+    {
+      "question": "How does chest-to-back connection govern the balance of control in Rodeo Ride?",
+      "answer": "Continuous chest contact against the opponent's back or shoulder is the connection that lets the top player feel and follow weight shifts in real time; lose it and the rider is left reacting late to movement they can no longer sense. It flattens the opponent's posture and limits their ability to rebuild base, while keeping the rider attached through stand-up attempts and lateral rocking. For the bottom player, breaking or lightening that chest connection is a core objective, because separation is what creates the space needed to sit back, granby, or turn in. Whoever wins the connection largely dictates whether the exchange resolves as an advance or an escape."
+    },
+    {
+      "question": "What makes Rodeo Ride a dilemma-based position for the bottom player?",
+      "answer": "Because the top player threatens multiple lines at once, such as the back take, the truck, crucifix, and chokes, every defensive movement the bottom player makes to shut one threat opens another. Tucking the near arm to protect against a crucifix can expose the back; turning to defend a choke can feed a back take. This is the mechanism that makes the position high-percentage for the attacker and exhausting for the defender: there is no single passive posture that neutralizes all threats simultaneously. The bottom player must instead prioritize the most urgent threat moment to moment and accept minor exposure elsewhere."
+    },
+    {
+      "question": "How does Rodeo Ride differ from static turtle top control and from full back control?",
+      "answer": "Compared to static turtle top control, Rodeo Ride sacrifices a fixed, low-mobility pin in exchange for a mobile riding posture that flows between attacks and follows escapes rather than smothering in place. Compared to full back control, it lacks the seat-belt-and-hooks harness that scores and threatens the rear naked choke; instead it is the transitional bridge that develops from turtle and aims toward back control or submission. The key structural distinction is the perpendicular or angled riding posture with a single posted base leg, which is more mobile than a turtle pin but less locked-in than the chest-to-back, double-hook attachment of back control."
+    },
+    {
+      "question": "Why is perpendicular or angular positioning relative to the spine central to Rodeo Ride?",
+      "answer": "Riding across the opponent's spine at an angle, rather than squaring up behind or beside them, maximizes control leverage and denies the opponent a clean line to turn in and rebuild guard. From perpendicular the top player can load weight onto the torso while controlling rotation with chest pressure and grips, keeping the opponent flat and off-balance. For the bottom player, forcing the rider to square up or lose the angle is a route back toward neutral, since a turn into the attacker collapses the leverage advantage. The angle is therefore a shared contested variable: the attacker preserves it and the defender fights to erase it."
+    }
+  ]
 }

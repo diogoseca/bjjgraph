@@ -682,5 +682,39 @@
         "answer": "Tap immediately. Once the arm is fully extended with opponent's hips tight to your shoulder and their legs controlling your body, the armbar is complete. Continuing to resist risks serious elbow injury. There is no shame in tapping to a properly executed submission - train again tomorrow. Recognize the submission is finished before the injury occurs."
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What body configuration defines S Mount and gives the position its name?",
+      "answer": "S Mount is a mounted position where the top player sits perpendicular to a flattened opponent, one leg posted over the head and the other bent across the torso so the shins form an S-shape around the opponent's near shoulder. The top player's hips rotate off the sternum and shift toward the opponent's head, trading the square chest-to-chest alignment of standard mount for an angled attacking base. The near arm is funneled into the channel between the top player's legs, which is the whole point of the shape. This perpendicular geometry is what isolates the shoulder and preloads the armbar line before any submission is applied."
+    },
+    {
+      "question": "Which control points make S Mount function for the top player and constrain the bottom player?",
+      "answer": "The three load-bearing control points are the leg posted over the head, the leg draped across the chest, and the hip pressure pinning the near shoulder to the mat. The over-the-head leg blocks the opponent from sitting up or turning that direction, while the chest-crossing leg pins the torso and denies the hip escape. The near arm trapped between the thighs is the fourth point, tying the upper body to the lower-body frame. Remove any one of these and the S-shape loses its structural closure, which is why both players fight over exactly these contacts."
+    },
+    {
+      "question": "How is weight distributed in S Mount, and why does it differ from standard mount?",
+      "answer": "In standard mount the top player's weight drives forward chest-to-chest through the sternum, but in S Mount the weight rotates to bear down through the hip bone onto the opponent's near shoulder. The two posted legs carry the base while the hip acts as the primary pressure point, grinding into the shoulder joint rather than the ribcage. This concentrates force on the arm being attacked and keeps the center of gravity low and toward the opponent's head. The tradeoff is a slightly narrower, more tippable base, which is why the position is inherently transitional rather than a long-term hold."
+    },
+    {
+      "question": "Why is the tightness of the hip-to-shoulder connection the pivotal dynamic in S Mount?",
+      "answer": "The entire position is a race over the gap between the top player's hip and the opponent's near shoulder. When that gap is zero, the arm is trapped, the torso is pinned, and the top player's weight is fully committed into the shoulder. Any space that opens there simultaneously frees the shoulder to move, lets the bottom player begin a hip escape, and lets the trapped arm slide back toward the body. Because a single measurement governs both offense and defense, both players orient their movement around opening or closing that gap rather than around the arm alone."
+    },
+    {
+      "question": "What role does the near arm play in holding the S Mount configuration together?",
+      "answer": "The near arm is the structural hinge of the position: it sits in the channel between the top player's thighs, linking the opponent's upper body to the top player's lower-body frame. Whoever controls the bend of that arm controls the position, because a bent, tucked elbow keeps the shoulder mobile and defensible while a straightened arm surrenders the shoulder to the leverage of the perpendicular angle. The arm is therefore both the top player's primary attacking target and the bottom player's primary thing to protect. Its bend or extension, more than its location, dictates who is winning the exchange."
+    },
+    {
+      "question": "How does S Mount differ mechanically from standard mount and from the finished armbar position?",
+      "answer": "Standard mount is square and chest-driven, prioritizing broad positional stability and points, whereas S Mount rotates perpendicular to sacrifice some base in exchange for shoulder isolation and armbar leverage. Compared to the finished armbar, S Mount is the setup stage: the hips are still stacked over the shoulder and the arm may still be bent, rather than the hips dropped to the mat with a fully extended arm across the pelvis. This makes S Mount an intermediate, high-tension state that can advance to the armbar, retreat to mount, or flow to a mounted triangle. Recognizing it as a transitional hub rather than a resting position explains why it is held only briefly."
+    },
+    {
+      "question": "What is the specific structural job of the leg draped across the opponent's torso in S Mount?",
+      "answer": "The chest-crossing far leg is the wall on the lower half of the S, pinning the opponent's torso to the mat and blocking the hip escape that is the bottom player's fastest route out. Because the top player's hips have rotated off the sternum toward the head, this leg carries the torso-control duty that chest pressure supplies in standard mount, freeing the hips to concentrate on the shoulder. It also closes the bottom edge of the S so the near arm stays funneled between the thighs rather than slipping back to the body. If this leg is stripped or slid under, the torso frees and the whole perpendicular frame unwinds, which is why its placement is contested independently of the over-the-head leg."
+    },
+    {
+      "question": "How does the over-the-head leg govern the escape and finishing geometry that both players contest?",
+      "answer": "The leg posted over the opponent's head is the wall that closes one side of the S and prevents the bottom player from sitting up or rotating toward the head to rebuild posture. For the top player it is also the lever that, when dropped, converts the setup into a finished armbar by trapping the head and extending the arm. For the bottom player, controlling or lifting that leg is the highest-leverage way to reopen the position, because it simultaneously blocks the step-over finish and creates room to turn. The status of that single leg contact largely determines whether the position advances to submission or unwinds toward escape."
+    }
+  ]
 }

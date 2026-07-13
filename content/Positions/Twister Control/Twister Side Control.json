@@ -690,5 +690,39 @@
         "answer": "Leg extraction must be coordinated with upper body frames - never attempt to extract legs while the opponent has full shoulder control, as this often deepens the entanglement. First establish frames to limit their ability to follow your hip movement, then systematically work to unhook one leg at a time using hip extension and small circular movements. Maintain defensive posture throughout extraction rather than rushing to complete escape."
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines twister side control and distinguishes it from an ordinary side control pin?",
+      "answer": "Twister side control is a lateral pin in which the top player entangles the bottom player's near leg with a leg hook while positioning their body perpendicular or angled across the torso, rather than relying on chest-to-chest immobilization. The defining feature is that the lower-body entanglement elevates and rotates the bottom player's hips while upper-body pressure drives the near shoulder toward the mat, twisting the spine along its long axis. This coupling of leg control and shoulder control is what generates lateral spinal torque, the mechanical signature absent from conventional side control. It is a 10th Planet position that deliberately trades the flat, stable pin for submission proximity."
+    },
+    {
+      "question": "Why is the near-leg entanglement considered the foundational control point of the position rather than an optional accessory?",
+      "answer": "The leg hook around the near leg serves two simultaneous functions that no other control point provides: it restricts hip mobility so the bottom player cannot square up or shrimp freely, and it elevates and rotates the hips to create the lower anchor of the spinal twist. Without this entanglement the position collapses back into ordinary side control, losing both the rotational torque and the mobility restriction. Because the twist requires opposing anchors at the hips and shoulders, removing the leg hook eliminates one anchor and neutralizes the submission threat entirely. This is why maintaining or extracting the leg hook is the pivotal battle for both players."
+    },
+    {
+      "question": "How do the two opposing control anchors combine to produce spinal torque in this position?",
+      "answer": "The position works by fixing two points of the bottom player's body and rotating them in opposite directions around the spine. The leg entanglement elevates and turns the hips one way while shoulder pressure drives the near shoulder toward the mat the other, wringing the spine along its length like a towel. This lateral rotation, not compression or joint isolation, is the mechanical basis of the twister family of attacks. If either anchor is lost the two segments realign and the torque dissipates, which is why the entire position hinges on preserving the shoulder-to-hip relationship."
+    },
+    {
+      "question": "Why does twister side control hold through structural positioning rather than the concentrated weight of a traditional pressure pin?",
+      "answer": "Its stability comes from geometry rather than sustained downward pressure: weight is split between shoulder pressure pinning the near shoulder and the leg hook controlling the elevated hips, with an outside base leg posted to resist reversals. Unlike a chest-to-chest pin that smothers with concentrated weight, twister side control leaves the top player somewhat elevated and angled to preserve the rotational geometry. This makes the position only moderately energy-demanding to hold but inherently less stable, because committing weight forward for a finish sacrifices the base that prevents a bridge-and-roll. Trading stability for submission access is intrinsic to the configuration, not a tactical choice."
+    },
+    {
+      "question": "Why does the bottom player's spine sitting in a rotated position make conventional side control escapes ineffective here?",
+      "answer": "Standard side control escapes rely on the bottom player being able to flatten out, frame, and shrimp their hips back to square up under the opponent. In twister side control the leg entanglement pins the hips in an elevated, rotated state, so the flat base those escapes require is never available. Any attempt to turn away increases the spinal rotation and feeds the very torque the twister needs, while turning in exposes the neck. The rotated spine therefore converts the usual escape mechanics into either submission entries or back exposure, which is precisely why the position resists orthodox technique."
+    },
+    {
+      "question": "How does twister side control relate to the truck position within the 10th Planet system?",
+      "answer": "The truck is the primary entry point and foundational leg-entanglement structure from which twister attacks originate, and twister side control functions as a lateral variant reached from it or from failed back takes and direct top entries. Both share the near-leg entanglement that anchors the hips, but the truck faces the bottom player away with the entanglement squarely behind them, while twister side control shifts the controlling player laterally across the torso. Because they share this leg-control foundation, play commonly flows between the two, resetting to the truck to re-secure the entanglement when side control mechanics degrade. The position is best understood as one node in the broader truck-based attack network."
+    },
+    {
+      "question": "What positional dilemma does the configuration impose on the bottom player, and why can no single defensive reaction resolve it?",
+      "answer": "The position is built around a three-way dilemma: the bottom player must simultaneously defend spinal rotation, prevent back exposure, and manage shoulder pressure, and addressing any one tends to worsen another. Turning in to relieve shoulder pressure exposes the neck to front chokes, turning away to escape the shoulder gifts the back and deepens the twist, and staying static feeds the spinal torque. This overlapping-threat structure is the strategic heart of the position, where intuitive defensive reactions open offensive pathways. The dilemma exists because the same leg-and-shoulder anchors that create the twist also gate every escape route."
+    },
+    {
+      "question": "Why is twister side control regarded as most effective in a no-gi context compared with the gi?",
+      "answer": "The position relies on body-positioning and leg entanglement rather than fabric grips, so its control does not weaken when there is no cloth to hold, which suits the no-gi setting where it originated. In the gi the defender gains extra escape leverage from collar, sleeve, and pant grips that let them frame, stall, and create space the leg entanglement alone cannot fully deny. The absence of those grips in no-gi correspondingly limits the defender's framing options, making the shoulder and spinal control harder to break. The position stays viable in the gi with adaptation, but its mechanical advantages are cleanest when grips are unavailable to either side."
+    }
+  ]
 }

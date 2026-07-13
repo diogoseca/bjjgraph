@@ -750,5 +750,39 @@
         "answer": "Optimal positioning includes: hips elevated off the mat rather than flattened, chin tucked with hands near neck for defense, free leg posted for base and potential bridging, torso not fully twisted (resist rotation), and weight distributed between your base hand and free leg. Avoid complete flattening as this gives opponent the stable platform needed for finishing."
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines the truck position regardless of which player is controlling it?",
+      "answer": "The truck is defined by a perpendicular body alignment in which one player traps a single leg of the opponent in a figure-four leg entanglement while pressing a boot against that opponent's hip. The controlling player sits behind and across the opponent's back rather than squared up, so the entangled lower body and exposed back become linked control points. This leg-in-front-of-hip geometry, combined with the perpendicular angle, is what distinguishes the truck from ordinary back control, where both hooks sit inside the hips symmetrically. The figure-four immobilizes the trapped leg independently of the hips, giving the position its signature dual-plane threat."
+    },
+    {
+      "question": "Why is boot pressure against the hip considered the engine of the truck for both players?",
+      "answer": "The boot pressed against the opponent's hip acts as a fulcrum that generates lateral torque through the spine and lower body, and this single contact point governs the entire position's stability. For the controlling player it prevents the opponent from squaring up, bridging, or rolling through, because the hip is pinned on a rotational axis it cannot easily escape. For the bottom player, clearing or reducing that boot pressure is the prerequisite to any escape, since without it the torque collapses and the entanglement loosens. Whoever controls the boot-hip relationship effectively controls whether the position holds or dissolves."
+    },
+    {
+      "question": "How does the figure-four leg entanglement create the truck's simultaneous upper-body and lower-body threats?",
+      "answer": "The figure-four locks the trapped leg so it cannot straighten or separate, which isolates the lower body on one mechanical plane while the exposed back and neck remain vulnerable on another. Because the leg is immobilized independently of hook placement, the controlling player can attack the calf slicer or banana split by extending or splitting the leg, or pivot to the twister and back attacks against the spine. These threats sit on different planes, so defending one exposes the other. This dual-plane dilemma is the defining dynamic that makes the truck a high-finishing-rate position rather than a mere control pin."
+    },
+    {
+      "question": "What is the core defensive dilemma inherent to the truck configuration?",
+      "answer": "The truck forces the defending player to choose between protecting the upper body and protecting the lower body, because both cannot be fully defended at once. Hiding the arms and shielding the neck to stop the twister or bow-and-arrow choke exposes the trapped leg to the calf slicer or banana split, while defending the leg frees the controlling player to attack the spine and back. This fork exists because the entangled leg and the exposed back are held on separate mechanical planes that a single defensive posture cannot cover. The dilemma is structural, not a matter of individual technique, which is why it persists regardless of skill matchup."
+    },
+    {
+      "question": "How does the truck differ mechanically from standard back control?",
+      "answer": "In standard back control both hooks sit symmetrically inside the opponent's hips and the controlling player's chest stays parallel to the opponent's back. The truck instead traps only one leg in a figure-four while the body sits perpendicular, immobilizing the hips through the trapped leg rather than through balanced hooks. This asymmetry sacrifices some of back control's positional stability but adds direct leg-attack access that back control lacks. The truck is therefore best understood as a hybrid that converges leg-lock and back-attack systems, whereas back control is purely a back-attack platform."
+    },
+    {
+      "question": "Why does the perpendicular body alignment matter to the leverage available in the truck?",
+      "answer": "The perpendicular alignment places the controlling player's weight across the opponent's back on an axis roughly ninety degrees to the opponent's spine, which maximizes rotational leverage for both spinal and leg attacks. This cross-body angle lets the boot generate corkscrew torque through the hip while the upper body can pin the shoulder to prevent rolls. If the alignment drifts back toward parallel, the position begins converting into ordinary back control and loses its leg-attack access. Maintaining or breaking that perpendicular relationship is therefore the pivotal battle that determines which attack systems remain live."
+    },
+    {
+      "question": "What role does spinal and torso rotation play in the truck's dynamics?",
+      "answer": "The boot-and-entanglement combination twists the defender's torso so that the hips and shoulders are wound in opposite directions, and how far that rotation progresses dictates the position's outcome. Increasing rotation feeds the twister by loading the cervical and lumbar spine, while resisting rotation and keeping the torso relatively square blunts the spinal attacks. The trapped leg anchors the lower half of this corkscrew so the rotational force concentrates through the middle of the body. Both players are effectively fighting over the degree of this twist, since it is the shared variable behind the position's most dangerous submissions."
+    },
+    {
+      "question": "Which positions does the truck flow between, and what mechanical link drives each connection?",
+      "answer": "On the entry side the turtle and crab ride feed the truck because each presents an exposed back and an accessible leg to entangle in the figure-four. On the exit side back control is the standard fallback: when the boot is cleared or the leg entanglement is lost, the perpendicular angle squares back up and the hooks go in. The twister control is the primary submission destination once torso rotation is loaded. Understanding these neighbors matters because the truck is inherently unstable and constantly threatens to convert into or out of them as the boot-hip and rotation battles shift."
+    }
+  ]
 }
