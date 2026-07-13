@@ -127,5 +127,9 @@ function applyVariant(): void {
 // First execution (full page load) + every SPA soft-nav (this inline script does not re-execute
 // on soft nav, so react to the router's "nav" event — teardown for the outgoing page has already
 // run via addCleanup, and micromorph removed #neural-root, so __mountNeural builds a fresh one).
-applyVariant()
+// This runs from prescript.js in <head>, BEFORE <body> exists — appending the bundle <script>s
+// to a null document.body throws. Defer the first boot until the DOM is ready (the "nav" path is
+// always post-body).
+if (document.body) applyVariant()
+else document.addEventListener("DOMContentLoaded", () => applyVariant(), { once: true })
 document.addEventListener("nav", () => applyVariant())
