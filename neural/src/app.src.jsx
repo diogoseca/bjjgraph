@@ -670,6 +670,37 @@ class Component extends DCLogic {
     return { fam: fam, role: role, cat: cat, key: fam + "|" + role };
   }
   stateBonus(key) { return key ? Math.min(0.3, 0.06 * ((this.prep && this.prep[key]) || 0)) : 0; }
+  // Cross-variant credit for the blended hierarchy cards: a family/position-tier card is the SAME
+  // card duplicated into every variant's deck (identical question). The first time it's answered
+  // anywhere, credit every other deck that contains it — so a "Mount principle" mastered while
+  // drilling High Mount also counts on S Mount, Technical Mount, base Mount… Role-specific cards
+  // are unique to their deck (map entry of one), so nothing changes for them.
+  noteCardDone(card, key) {
+    const q = card && card.q;
+    if (!q) return;
+    this.cardDone = this.cardDone || new Set();
+    if (this.cardDone.has(q)) return;          // already credited everywhere
+    this.cardDone.add(q);
+    if (!this._qkDecks) {                      // lazy one-time index: question -> deck keys carrying it
+      this._qkDecks = new Map();
+      const decks = (this.flashcards && this.flashcards.decks) || {};
+      for (const k of Object.keys(decks)) {
+        for (const c of decks[k].cards || []) {
+          const arr = this._qkDecks.get(c.q);
+          if (arr) arr.push(k); else this._qkDecks.set(c.q, [k]);
+        }
+      }
+    }
+    const shared = this._qkDecks.get(q);
+    if (!shared || shared.length < 2) return;
+    const decks = (this.flashcards && this.flashcards.decks) || {};
+    this.prep = this.prep || {};
+    for (const k of shared) {
+      if (k === key) continue;                 // the local deck's own paths already counted it
+      const cap = decks[k] && decks[k].cards ? decks[k].cards.length : 0;
+      this.prep[k] = Math.min(cap, (this.prep[k] || 0) + 1);
+    }
+  }
   setDrillHeader(title, sub, countText, role, roleColor) {
     const head = this.drillHeadRef.current; if (!head) return;
     head.innerHTML =
@@ -1079,7 +1110,7 @@ class Component extends DCLogic {
     const doNext = () => { st.idx = (st.idx + 1) % total; st.revealed = false; render(); };
     const doReveal = () => {
       st.revealed = !st.revealed;
-      if (st.revealed) { ansSet.add(st.idx); this.prep[key] = Math.max((this.prep[key] || 0), ansSet.size); } // answering raises this state's score
+      if (st.revealed) { ansSet.add(st.idx); this.prep[key] = Math.max((this.prep[key] || 0), ansSet.size); this.noteCardDone(cards[st.idx], key); } // answering raises this state's score (+ shared-card credit)
       render();
     };
     const render = () => {
@@ -2563,7 +2594,7 @@ class Component extends DCLogic {
   drillReveal() { if (this.deck && !this.revealed && this.deckIdx < this.deck.length) { this.revealed = true; this.renderDrill(); } }
   drillGrade(got) {
     if (!this.deck || !this.revealed) return;
-    if (got && this._deckInfo) { this.prep[this._deckInfo.key] = (this.prep[this._deckInfo.key] || 0) + 1; this.noteCardAnswered(); this.refreshOptionOdds(); }
+    if (got && this._deckInfo) { this.prep[this._deckInfo.key] = (this.prep[this._deckInfo.key] || 0) + 1; this.noteCardDone(this.deck[this.deckIdx], this._deckInfo.key); this.noteCardAnswered(); this.refreshOptionOdds(); }
     this.deckIdx++; this.revealed = false; this.renderDrill();
   }
   isDrillOpen() { const el = this.drillRef.current; return el && el.style.opacity === "1" && !!this.deck; }
@@ -2677,7 +2708,7 @@ class Component extends DCLogic {
         const again = this.drillBtn("Review again", false);
         const got = this.drillBtn("Got it", true);
         again.addEventListener("click", () => { this.deckIdx++; this.revealed = false; this.renderDrill(); });
-        got.addEventListener("click", () => { this.prep[info.key] = (this.prep[info.key] || 0) + 1; this.noteCardAnswered(); this.refreshOptionOdds(); this.deckIdx++; this.revealed = false; this.renderDrill(); });
+        got.addEventListener("click", () => { this.prep[info.key] = (this.prep[info.key] || 0) + 1; this.noteCardDone(this.deck[this.deckIdx], info.key); this.noteCardAnswered(); this.refreshOptionOdds(); this.deckIdx++; this.revealed = false; this.renderDrill(); });
         acts.appendChild(again); acts.appendChild(got);
       }
       foot.appendChild(acts);
