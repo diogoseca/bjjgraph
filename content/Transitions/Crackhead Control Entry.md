@@ -76,7 +76,7 @@ Strategically, the Crackhead Control Entry represents a critical decision point 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Crackhead Control]] | 55% |
+| Success | [[Positions/Rubber Guard/Crackhead Control]] | 55% |
 | Failure | [[Positions/Rubber Guard]] | 30% |
 | Counter | [[Positions/Open Guard]] | 15% |
 
@@ -243,7 +243,7 @@ The Crackhead Control Entry functions as a critical mid-system progression withi
 
 - [[Positions/Rubber Guard]] - Starting position from which this entry is executed
 
-- [[Positions/Crackhead Control]] - Target position achieved on successful execution of the entry
+- [[Positions/Rubber Guard/Crackhead Control]] - Target position achieved on successful execution of the entry
 
 - [[Positions/Rubber Guard/Mission Control]] - Primary sub-position used as the launching point for entry initiation
 

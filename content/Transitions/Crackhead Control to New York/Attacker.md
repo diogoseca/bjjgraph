@@ -186,7 +186,7 @@ Strategically, this transition serves as a positional reset that maintains offen
 
 Energy management considerations make this transition particularly valuable during extended guard exchanges. Crackhead Control's aggressive positioning requires significant hip flexor engagement and core tension, leading to fatigue over time. New York offers a more sustainable control structure that allows brief recovery periods while maintaining offensive threat. Experienced rubber guard players cycle between these positions strategically, using Crackhead Control for submission bursts and New York for positional consolidation.
 
-**From Position**: [[Positions/Crackhead Control]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Crackhead Control]] (Bottom)
 
 </section>
 
@@ -246,7 +246,7 @@ Energy management considerations make this transition particularly valuable duri
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Rubber Guard/New York]] | 65% |
-| Failure | [[Positions/Crackhead Control]] | 20% |
+| Failure | [[Positions/Rubber Guard/Crackhead Control]] | 20% |
 | Counter | [[Positions/Closed Guard]] | 15% |
 
 
@@ -258,9 +258,9 @@ Energy management considerations make this transition particularly valuable duri
 
 <p class="section-subtitle">How might your opponent counter Crackhead Control to New York?</p>
 
-- **Opponent drives forward explosively during leg repositioning to flatten and pass** (Effectiveness: High) - Your Response: Accept the forward drive and immediately transition to Carni or Chill Dog setup rather than completing New York - their momentum assists these transitions → Leads to [[Positions/Crackhead Control]]
+- **Opponent drives forward explosively during leg repositioning to flatten and pass** (Effectiveness: High) - Your Response: Accept the forward drive and immediately transition to Carni or Chill Dog setup rather than completing New York - their momentum assists these transitions → Leads to [[Positions/Rubber Guard/Crackhead Control]]
 - **Opponent postures up during the brief moment shin grip is released** (Effectiveness: Medium) - Your Response: Pull with overhook to break posture and either complete New York transition or abandon to closed guard if posture recovery is too strong → Leads to [[Positions/Closed Guard]]
-- **Opponent begins circling toward back exposure side during transition** (Effectiveness: Medium) - Your Response: Intensify free leg hip connection and either complete transition quickly or return to Crackhead Control to address back exposure threat first → Leads to [[Positions/Crackhead Control]]
+- **Opponent begins circling toward back exposure side during transition** (Effectiveness: Medium) - Your Response: Intensify free leg hip connection and either complete transition quickly or return to Crackhead Control to address back exposure threat first → Leads to [[Positions/Rubber Guard/Crackhead Control]]
 - **Opponent strips the shin grip as you attempt to re-establish it** (Effectiveness: Low) - Your Response: Immediately threaten triangle by shooting leg over shoulder while overhook remains - their grip fighting creates the opening for this attack → Leads to [[Positions/Rubber Guard/New York]]
 
 

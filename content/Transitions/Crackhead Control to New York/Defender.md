@@ -158,7 +158,7 @@ As the top player trapped in Crackhead Control, you must develop sensitivity to 
 
 Your defensive strategy should be calibrated to the transition's progress. Early intervention during the initial shin grip release offers the highest success percentage for full escape. Mid-transition intervention as the leg slides can still yield posture recovery. Late intervention after the New York shin grip is re-established requires you to address New York's control structure directly, which is a significantly harder defensive problem. Timing your response to the earliest possible recognition cue is therefore the single most important defensive skill for this scenario.
 
-**Opponent's Starting Position**: [[Positions/Crackhead Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Crackhead Control]] (Bottom)
 
 </section>
 
@@ -209,7 +209,7 @@ Your defensive strategy should be calibrated to the transition's progress. Early
 ### 2. Forward drive and stack pressure during leg repositioning - drive your weight forward and down to flatten the bottom player before they complete the transition
 
 - **When to use**: When you feel the leg sliding but the shin grip has not been re-established yet, typically 0.5-1 second into the transition
-- **Targets**: [[Positions/Crackhead Control]]
+- **Targets**: [[Positions/Rubber Guard/Crackhead Control]]
 - **If successful**: You prevent the New York position from being established and force the bottom player back into Crackhead Control where their leg is out of position, creating a scramble opportunity
 - **Risk**: Forward driving can assist Carni or Chill Dog entries if the bottom player reads your pressure and redirects to those transitions
 

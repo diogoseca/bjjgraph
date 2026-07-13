@@ -259,7 +259,7 @@ Advance to Chill Dog occupies a critical junction in the 10th Planet Rubber Guar
 
 - [[Positions/Rubber Guard]] - Parent system encompassing the full progression
 
-- [[Positions/Crackhead Control]] - Intermediate position variant for limited flexibility
+- [[Positions/Rubber Guard/Crackhead Control]] - Intermediate position variant for limited flexibility
 
 - [[Positions/Closed Guard]] - Fallback position if Rubber Guard system fails
 

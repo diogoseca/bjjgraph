@@ -142,7 +142,7 @@ description: "Defend against the omoplata from Crackhead Control. Recognition cu
 
 Defending the omoplata from Crackhead Control requires early recognition and prevention rather than late-stage escape attempts. The Rubber Guard system's pre-existing posture control means the omoplata setup begins from an already disadvantaged position, making the initial leg thread the critical defensive window. Once the perpendicular angle is established with hip control, escape options narrow dramatically and injury risk increases with each second of delay. Successful defense depends on recognizing the transition from Crackhead Control retention to omoplata attack and responding within the narrow window before the leg threads across the shoulder.
 
-**Opponent's Starting Position**: [[Positions/Crackhead Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Crackhead Control]] (Bottom)
 
 
 </section>
@@ -186,14 +186,14 @@ Defending the omoplata from Crackhead Control requires early recognition and pre
 ### 1. Posture up explosively before the leg thread completes
 
 - **When to use**: When you feel the opponent releasing the shin from behind your neck and beginning the leg swing - this is the earliest and best defensive window
-- **Targets**: [[Positions/Crackhead Control]]
+- **Targets**: [[Positions/Rubber Guard/Crackhead Control]]
 - **If successful**: Opponent loses arm isolation and must reset to Crackhead Control or another Rubber Guard position
 - **Risk**: If timed late, opponent may switch to triangle choke using the partially threaded leg
 
 ### 2. Forward roll escape before hip control is established
 
 - **When to use**: After the leg has threaded across your shoulder but before the opponent grips your far hip with both hands
-- **Targets**: [[Positions/Crackhead Control]]
+- **Targets**: [[Positions/Rubber Guard/Crackhead Control]]
 - **If successful**: Completely relieves shoulder pressure and may result in achieving top position after the roll
 - **Risk**: If opponent follows the roll maintaining arm control, you may end up in mount with the arm still trapped
 
@@ -227,7 +227,7 @@ Defending the omoplata from Crackhead Control requires early recognition and pre
 
 <p class="section-subtitle">What is the best outcome when defending Omoplata from Crackhead Control?</p>
 
-### → [[Positions/Crackhead Control]]
+### → [[Positions/Rubber Guard/Crackhead Control]]
 
 Posture up early before the leg thread completes, extracting your arm and forcing the opponent to reset their Rubber Guard position from scratch
 

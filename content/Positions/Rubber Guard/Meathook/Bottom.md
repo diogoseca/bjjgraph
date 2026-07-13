@@ -364,7 +364,7 @@ Start in Meathook position with partner attempting escapes using full resistance
 - **[[Positions/Rubber Guard/Carni]]** - Intermediate position that bridges Meathook to omoplata attacks
 - **[[Positions/Rubber Guard/New York]]** - Alternative Rubber Guard control that can transition to Meathook
 - **[[Positions/Rubber Guard/Invisible Collar]]** - Related Rubber Guard position within the same system
-- **[[Positions/Crackhead Control]]** - Transitional position in Rubber Guard chain connecting Meathook to other controls
+- **[[Positions/Rubber Guard/Crackhead Control]]** - Transitional position in Rubber Guard chain connecting Meathook to other controls
 - **[[Positions/Armbar Control]]** - Alternative attack when opponent establishes strong defensive base
 - **[[Positions/Back Control]]** - Available when opponent rolls or pressure passes from Meathook attacks
 

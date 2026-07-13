@@ -249,7 +249,7 @@ Strategically, the omoplata from Rubber Guard serves dual purposes: it functions
 - [[Positions/Omoplata Control]] - Control position reached when omoplata is established but not yet finished
 - [[Positions/Closed Guard]] - Fallback position if Rubber Guard control is lost during the omoplata attempt
 - [[Positions/Rubber Guard/Meathook]] - Alternative Rubber Guard variation providing secondary omoplata entry path
-- [[Positions/Crackhead Control]] - Arm isolation variation that can feed into omoplata when standard progression is blocked
+- [[Positions/Rubber Guard/Crackhead Control]] - Arm isolation variation that can feed into omoplata when standard progression is blocked
 
 </section>
 

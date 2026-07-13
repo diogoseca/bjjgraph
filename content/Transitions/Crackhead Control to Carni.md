@@ -65,7 +65,7 @@ The mechanical foundation of this transition relies on recognizing when the top 
 
 This transition is particularly effective in no-gi competition where the top player lacks gi grips to anchor their position during the bottom player's explosive movement. The technique exemplifies the 10th Planet philosophy of turning defensive positions into immediate offensive threats. Success requires excellent timing, hip mobility, and the ability to maintain hand fighting intensity while simultaneously setting up the leg capture. Advanced practitioners can chain this transition with the standard Carni attack tree including heel hooks, saddle entries, and back takes.
 
-**From Position**: [[Positions/Crackhead Control]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Crackhead Control]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -77,7 +77,7 @@ This transition is particularly effective in no-gi competition where the top pla
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Rubber Guard/Carni]] | 55% |
-| Failure | [[Positions/Crackhead Control]] | 30% |
+| Failure | [[Positions/Rubber Guard/Crackhead Control]] | 30% |
 | Counter | [[Positions/Back Control]] | 15% |
 
 
@@ -239,7 +239,7 @@ The Crackhead Control to Carni transition represents a critical link between the
 ## Related Techniques
 
 
-- [[Positions/Crackhead Control]] - Starting position - the defensive turtle control you transition from
+- [[Positions/Rubber Guard/Crackhead Control]] - Starting position - the defensive turtle control you transition from
 
 - [[Positions/Rubber Guard/Carni]] - Target position - the leg entanglement established upon successful completion
 

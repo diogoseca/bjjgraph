@@ -243,7 +243,7 @@ The New York Control to Invisible Collar transition serves as a critical connect
 
 - [[Positions/Rubber Guard]] - Parent guard system providing the foundation for both positions
 
-- [[Positions/Crackhead Control]] - Alternative rubber guard intermediate position accessible from New York
+- [[Positions/Rubber Guard/Crackhead Control]] - Alternative rubber guard intermediate position accessible from New York
 
 - [[Positions/Gogoplata Control]] - Primary submission target accessible from invisible collar configuration
 

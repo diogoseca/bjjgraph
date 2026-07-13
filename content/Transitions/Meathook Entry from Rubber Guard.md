@@ -255,7 +255,7 @@ The Meathook Entry from Rubber Guard occupies a pivotal spot in the 10th Planet 
 
 - [[Positions/Omoplata Control]] - Submission chain available when the opponent spins the trapped arm free from Meathook
 
-- [[Positions/Crackhead Control]] - Parallel Rubber Guard advancement emphasizing cross-body arm isolation
+- [[Positions/Rubber Guard/Crackhead Control]] - Parallel Rubber Guard advancement emphasizing cross-body arm isolation
 
 - [[Positions/Closed Guard]] - Foundational position from which the entire Rubber Guard system originates
 

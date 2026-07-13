@@ -176,7 +176,7 @@ description: "Learn to attack with the omoplata from Crackhead Control. Step-by-
 
 Attacking with the omoplata from Crackhead Control provides a systematic path from Rubber Guard control to a high-percentage shoulder lock finish. The pre-existing arm isolation and broken posture from Crackhead Control eliminate the setup phase that makes standard omoplata entries unreliable. The guard player can focus entirely on smooth leg threading, decisive hip escaping to create the perpendicular finishing angle, and disciplined hip control to prevent the forward roll escape that accounts for the majority of failed omoplata attempts across all entry positions.
 
-**From Position**: [[Positions/Crackhead Control]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Crackhead Control]] (Bottom)
 
 
 </section>
@@ -234,7 +234,7 @@ Attacking with the omoplata from Crackhead Control provides a systematic path fr
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 52% |
-| Failure | [[Positions/Crackhead Control]] | 31% |
+| Failure | [[Positions/Rubber Guard/Crackhead Control]] | 31% |
 | Counter | [[Positions/Closed Guard]] | 17% |
 
 
@@ -246,8 +246,8 @@ Attacking with the omoplata from Crackhead Control provides a systematic path fr
 
 <p class="section-subtitle">How might your opponent defend against Omoplata from Crackhead Control?</p>
 
-- **Forward roll escape to relieve shoulder pressure before hip control is established** (Effectiveness: High) - Your Response: Follow their roll by maintaining leg control on the arm and immediately transition to mount or re-establish the omoplata from the new angle by staying connected to the trapped arm throughout the rotation → Leads to [[Positions/Crackhead Control]]
-- **Posturing up explosively before the leg thread completes across the shoulder** (Effectiveness: Medium) - Your Response: Immediately switch to triangle choke setup using the partially threaded leg to close around their neck, or return to Mission Control by resetting the shin across the back of their neck to re-establish Rubber Guard control → Leads to [[Positions/Crackhead Control]]
+- **Forward roll escape to relieve shoulder pressure before hip control is established** (Effectiveness: High) - Your Response: Follow their roll by maintaining leg control on the arm and immediately transition to mount or re-establish the omoplata from the new angle by staying connected to the trapped arm throughout the rotation → Leads to [[Positions/Rubber Guard/Crackhead Control]]
+- **Posturing up explosively before the leg thread completes across the shoulder** (Effectiveness: Medium) - Your Response: Immediately switch to triangle choke setup using the partially threaded leg to close around their neck, or return to Mission Control by resetting the shin across the back of their neck to re-establish Rubber Guard control → Leads to [[Positions/Rubber Guard/Crackhead Control]]
 - **Stacking body weight forward to collapse the perpendicular finishing angle** (Effectiveness: Low) - Your Response: Frame against their hip with your free hand and use your leg hooks to redirect their pressure laterally. Angle your hips further away to maintain the perpendicular position and continue the finishing sequence with increased urgency → Leads to [[Positions/Closed Guard]]
 
 

@@ -340,7 +340,7 @@ Start in established Rubber Guard position. Flow between triangle, omoplata, and
 - **[[Positions/Rubber Guard/Mission Control]]** - Primary sub-position within Rubber Guard system representing foundational control configuration
 - **[[Positions/Rubber Guard/New York Control]]** - Advanced Rubber Guard variation emphasizing omoplata threat and enhanced arm isolation
 - **[[Positions/Rubber Guard/Invisible Collar]]** - Submission setup position from Rubber Guard focusing on neck control without gi grips
-- **[[Positions/Crackhead Control]]** - Variation emphasizing extreme arm isolation and shoulder pressure for advanced practitioners
+- **[[Positions/Rubber Guard/Crackhead Control]]** - Variation emphasizing extreme arm isolation and shoulder pressure for advanced practitioners
 - **[[Positions/Closed Guard]]** - Foundational position from which Rubber Guard is entered through posture breaking and leg elevation
 - **[[Positions/Triangle Control]]** - Primary submission target from Rubber Guard with multiple entry pathways from different variations
 - **[[Positions/Omoplata Control]]** - Secondary submission target particularly effective from New York position within Rubber Guard

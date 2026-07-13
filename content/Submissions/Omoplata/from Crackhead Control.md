@@ -75,7 +75,7 @@ What distinguishes this entry from standard closed guard omoplata attempts is th
 
 The finishing mechanics follow established omoplata principles once the perpendicular angle is achieved. The attacker controls the opponent's far hip to prevent the forward roll escape, sits up tall to maximize the lever arm, and applies progressive forward pressure to externally rotate the shoulder joint past its natural range of motion. Competition data from no-gi events shows this entry yields notably higher finish rates than omoplata attempts from basic closed guard, primarily because the opponent's defensive options are severely limited by the preceding Rubber Guard control sequence.
 
-**Starting Position**: [[Positions/Crackhead Control]] · **From**: [[Positions/Crackhead Control]] (Bottom)
+**Starting Position**: [[Positions/Rubber Guard/Crackhead Control]] · **From**: [[Positions/Rubber Guard/Crackhead Control]] (Bottom)
 
 </section>
 
@@ -86,7 +86,7 @@ The finishing mechanics follow established omoplata principles once the perpendi
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 52% |
-| Failure | [[Positions/Crackhead Control]] | 31% |
+| Failure | [[Positions/Rubber Guard/Crackhead Control]] | 31% |
 | Counter | [[Positions/Closed Guard]] | 17% |
 
 
@@ -226,7 +226,7 @@ The finishing mechanics follow established omoplata principles once the perpendi
 
 ## From Which Positions?
 
-- [[Positions/Crackhead Control]]
+- [[Positions/Rubber Guard/Crackhead Control]]
 - [[Positions/Rubber Guard/Mission Control]]
 
 
@@ -240,7 +240,7 @@ The finishing mechanics follow established omoplata principles once the perpendi
 - [[Submissions/Triangle Choke]]
 - [[Submissions/Monoplata]]
 - [[Submissions/Arm in Guillotine]]
-- [[Positions/Crackhead Control]] - Starting position for this submission variant with pre-existing arm isolation
+- [[Positions/Rubber Guard/Crackhead Control]] - Starting position for this submission variant with pre-existing arm isolation
 - [[Positions/Rubber Guard/Mission Control]] - Preceding Rubber Guard position that feeds into Crackhead Control entry
 - [[Positions/Omoplata Control]] - Control position used during the finishing sequence to prevent roll escape
 - [[Positions/Rubber Guard/Meathook]] - Related Rubber Guard position in the 10th Planet system chain

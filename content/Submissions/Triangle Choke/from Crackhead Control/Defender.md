@@ -142,7 +142,7 @@ description: "How to defend and escape the triangle choke from Crackhead Control
 
 Defending the triangle choke from Crackhead Control requires early recognition of the attacking sequence and immediate posture recovery before the triangle lock closes. The compressed distance between Crackhead Control and the locked triangle means defensive windows are narrow, making prevention significantly more effective than late-stage escape attempts. Understanding the attacker's grip sequence and leg positioning provides critical early warning signals that enable timely defensive responses. Once the triangle is fully locked with proper angle, escape percentages drop dramatically, so the defender must commit to prevention-first defense and react to the earliest recognition cues rather than waiting to confirm the attack.
 
-**Opponent's Starting Position**: [[Positions/Crackhead Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Crackhead Control]] (Bottom)
 
 
 </section>
@@ -186,7 +186,7 @@ Defending the triangle choke from Crackhead Control requires early recognition o
 ### 1. Explosive posture recovery before the triangle lock closes
 
 - **When to use**: Immediately upon recognizing the shin leaving your face or feeling the leg shoot over your shoulder, before the lock is secured
-- **Targets**: [[Positions/Crackhead Control]]
+- **Targets**: [[Positions/Rubber Guard/Crackhead Control]]
 - **If successful**: Return to Crackhead Control top position with posture intact and triangle attempt neutralized
 - **Risk**: Opponent may transition to gogoplata or omoplata if you posture without simultaneously defending the arm trap
 
@@ -200,7 +200,7 @@ Defending the triangle choke from Crackhead Control requires early recognition o
 ### 3. Arm extraction by rotating the trapped arm toward the lock opening
 
 - **When to use**: After the triangle is locked when posture recovery has failed and stacking is not viable due to attacker controlling your thigh
-- **Targets**: [[Positions/Crackhead Control]]
+- **Targets**: [[Positions/Rubber Guard/Crackhead Control]]
 - **If successful**: Both arms inside the triangle creates defensive structure that prevents the finish and allows gradual posture recovery
 - **Risk**: Opponent may transition to armbar on the extracting arm during the rotation movement
 

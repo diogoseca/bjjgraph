@@ -246,7 +246,7 @@ From the attacker's perspective, the Crackhead Control Entry is a calculated pos
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Crackhead Control]] | 55% |
+| Success | [[Positions/Rubber Guard/Crackhead Control]] | 55% |
 | Failure | [[Positions/Rubber Guard]] | 30% |
 | Counter | [[Positions/Open Guard]] | 15% |
 

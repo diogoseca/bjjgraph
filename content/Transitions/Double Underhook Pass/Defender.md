@@ -158,7 +158,7 @@ The fundamental defensive strategy centers on preventing the attacker from estab
 
 The defender's positional advantages include proximity to the mat for base, the ability to use their own bodyweight by sitting back into the attacker, and access to granby roll mechanics that can redirect the attacker's forward momentum. Successful defense transforms the attacker's committed forward pressure into a liability by using their own momentum against them, either recovering guard through hip insertion or creating enough scramble chaos to reset to a more neutral turtle position.
 
-**Opponent's Starting Position**: [[Positions/Crackhead Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Crackhead Control]] (Top)
 
 </section>
 
@@ -200,7 +200,7 @@ The defender's positional advantages include proximity to the mat for base, the 
 ### 1. Sit back into the attacker during the single-to-double underhook transition by dropping your hips toward them and collapsing your turtle base toward their lap
 
 - **When to use**: When you feel the first underhook establish and the attacker shifts weight to thread the second - this is the highest-percentage defensive window before the grip consolidates
-- **Targets**: [[Positions/Crackhead Control]]
+- **Targets**: [[Positions/Rubber Guard/Crackhead Control]]
 - **If successful**: Resets the position to neutral Crackhead Control where the attacker must restart their attack sequence, and may expose back take opportunities if they lose hip position
 - **Risk**: If poorly timed, you may flatten yourself and make the pass easier. Must maintain base through your posting hand to control the sit-back speed.
 
@@ -221,7 +221,7 @@ The defender's positional advantages include proximity to the mat for base, the 
 ### 4. Strip the Gable grip by swimming your near arm free using a circular motion toward the mat, breaking the palm-to-palm connection before the drive phase begins
 
 - **When to use**: Immediately after you feel both hands connect at your chest in the Gable grip but before the attacker initiates the forward drive - there is a brief window where the grip is not yet loaded
-- **Targets**: [[Positions/Crackhead Control]]
+- **Targets**: [[Positions/Rubber Guard/Crackhead Control]]
 - **If successful**: Breaks the pass sequence entirely. Without the connected grip, the attacker cannot generate sufficient leverage to flatten you and must reset to single underhook or abandon the pass attempt
 - **Risk**: Swimming the arm may briefly expose your back if the attacker transitions to a back take instead of re-establishing the grip. Must immediately return elbow to ribs after stripping.
 
@@ -235,7 +235,7 @@ The defender's positional advantages include proximity to the mat for base, the 
 
 <p class="section-subtitle">What is the best outcome when defending Double Underhook Pass?</p>
 
-### → [[Positions/Crackhead Control]]
+### → [[Positions/Rubber Guard/Crackhead Control]]
 
 Disrupt the pass early by sitting back into the attacker during the underhook threading phase or by stripping the Gable grip before the drive. This resets to neutral Crackhead Control where the attacker must restart their sequence. Maintain active hip movement and tight elbows after the reset to prevent immediate re-entry.
 

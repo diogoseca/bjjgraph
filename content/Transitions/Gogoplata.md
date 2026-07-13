@@ -243,7 +243,7 @@ The Gogoplata exists as a cornerstone attack within the Rubber Guard system, spe
 
 - [[Positions/Rubber Guard]] - Parent guard system
 
-- [[Positions/Crackhead Control]] - Alternative rubber guard control point
+- [[Positions/Rubber Guard/Crackhead Control]] - Alternative rubber guard control point
 
 - [[Positions/Triangle Control]] - Alternative attack from similar position
 

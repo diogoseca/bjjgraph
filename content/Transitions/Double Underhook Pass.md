@@ -65,7 +65,7 @@ Strategically, this pass exploits the defensive limitations created when an oppo
 
 The technique represents an evolution in turtle passing methodology, moving away from traditional approaches that emphasized riding the back toward modern systems that prioritize flattening and immediate dominant position acquisition. When executed with proper timing and hip pressure coordination, the Double Underhook Pass creates a direct pathway to Side Control while eliminating the scramble opportunities that make turtle attacks risky.
 
-**From Position**: [[Positions/Crackhead Control]] (Top)
+**From Position**: [[Positions/Rubber Guard/Crackhead Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -77,7 +77,7 @@ The technique represents an evolution in turtle passing methodology, moving away
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Side Control]] | 65% |
-| Failure | [[Positions/Crackhead Control]] | 25% |
+| Failure | [[Positions/Rubber Guard/Crackhead Control]] | 25% |
 | Counter | [[Positions/Half Guard]] | 10% |
 
 
@@ -231,7 +231,7 @@ The Double Underhook Pass represents one of three primary pathways from Crackhea
 ## Related Techniques
 
 
-- [[Positions/Crackhead Control]] - Starting position
+- [[Positions/Rubber Guard/Crackhead Control]] - Starting position
 
 - [[Positions/Side Control]] - Primary success outcome
 

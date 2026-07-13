@@ -182,7 +182,7 @@ description: "Learn to attack with the Baratoplata from Crackhead Control. Step-
 
 Attacking with the Baratoplata from Crackhead Control requires understanding the unique advantages this rubber guard position provides for shoulder lock mechanics. The shin-across-neck control already breaks the opponent's posture and partially isolates the target arm, eliminating the two most difficult prerequisites for shoulder lock submissions. Your primary task as the attacker is recognizing when the arm isolation is sufficient to abandon the overhook and commit to the figure-four threading sequence. The transition from control grip to submission grip is the critical moment where most attacks succeed or fail, and the timing must account for the opponent's defensive reactions to the grip change. Mastering the hip angle adjustment and controlled extension that generates the finishing torque transforms this from a positional curiosity into a legitimate competition weapon.
 
-**From Position**: [[Positions/Crackhead Control]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Crackhead Control]] (Bottom)
 
 
 </section>
@@ -242,7 +242,7 @@ Attacking with the Baratoplata from Crackhead Control requires understanding the
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 42% |
-| Failure | [[Positions/Crackhead Control]] | 38% |
+| Failure | [[Positions/Rubber Guard/Crackhead Control]] | 38% |
 | Counter | [[Positions/Closed Guard]] | 20% |
 
 
@@ -254,9 +254,9 @@ Attacking with the Baratoplata from Crackhead Control requires understanding the
 
 <p class="section-subtitle">How might your opponent defend against Baratoplata from Crackhead Control?</p>
 
-- **Posture recovery before figure-four closes** (Effectiveness: High) - Your Response: If the opponent begins posturing during the threading, abort the baratoplata and re-establish the overhook for crackhead control. Alternatively, use the remaining leg pressure to transition to a gogoplata attempt as they posture into the shin. → Leads to [[Positions/Crackhead Control]]
-- **Arm straightening to prevent figure-four closure** (Effectiveness: High) - Your Response: When the opponent straightens their trapped arm, increase shin pressure to keep them compressed while using your free hand to bend their elbow by pushing on their wrist. If the arm stays straight, transition to an omoplata angle using the existing leg position. → Leads to [[Positions/Crackhead Control]]
-- **Elbow rotation to relieve shoulder pressure** (Effectiveness: Medium) - Your Response: Tighten the figure-four connection by pulling your shin closer to your forearm, eliminating the space needed for elbow rotation. Simultaneously increase hip extension to accelerate the finish before they can complete the rotation. → Leads to [[Positions/Crackhead Control]]
+- **Posture recovery before figure-four closes** (Effectiveness: High) - Your Response: If the opponent begins posturing during the threading, abort the baratoplata and re-establish the overhook for crackhead control. Alternatively, use the remaining leg pressure to transition to a gogoplata attempt as they posture into the shin. → Leads to [[Positions/Rubber Guard/Crackhead Control]]
+- **Arm straightening to prevent figure-four closure** (Effectiveness: High) - Your Response: When the opponent straightens their trapped arm, increase shin pressure to keep them compressed while using your free hand to bend their elbow by pushing on their wrist. If the arm stays straight, transition to an omoplata angle using the existing leg position. → Leads to [[Positions/Rubber Guard/Crackhead Control]]
+- **Elbow rotation to relieve shoulder pressure** (Effectiveness: Medium) - Your Response: Tighten the figure-four connection by pulling your shin closer to your forearm, eliminating the space needed for elbow rotation. Simultaneously increase hip extension to accelerate the finish before they can complete the rotation. → Leads to [[Positions/Rubber Guard/Crackhead Control]]
 - **Explosive bridge and stack to collapse guard** (Effectiveness: Medium) - Your Response: If the opponent bridges forward to stack you, use the momentum to angle further onto your shoulder and increase the rotational leverage. The bridge actually assists the shoulder lock if you maintain the figure-four connection and hip angle. → Leads to [[Positions/Closed Guard]]
 - **Full-body roll toward trapped arm side** (Effectiveness: Low) - Your Response: Follow the roll while maintaining the figure-four and use the rotational momentum to accelerate the finish. The roll typically worsens their position as it drives additional internal rotation through the shoulder joint. → Leads to [[Positions/Closed Guard]]
 

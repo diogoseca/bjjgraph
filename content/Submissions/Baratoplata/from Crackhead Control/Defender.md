@@ -156,7 +156,7 @@ description: "Learn to defend against the Baratoplata from Crackhead Control. Re
 
 Defending against the Baratoplata from Crackhead Control requires understanding the specific windows of opportunity within the attacker's setup sequence where defensive actions are most effective. The most critical defensive principle is prevention over escape: stopping the figure-four from closing is exponentially easier than escaping once it is established. Defenders must recognize that crackhead control already places them at a significant positional disadvantage, and the baratoplata represents an escalation from a bad position to a submission-danger position. The transition moment when the attacker releases their overhook to begin threading is both the most dangerous moment and the best defensive opportunity. Recognizing this grip change instantly and responding with posture recovery or arm extraction determines whether you face a submission or successfully escape to a safer guard position.
 
-**Opponent's Starting Position**: [[Positions/Crackhead Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Crackhead Control]] (Bottom)
 
 
 </section>
@@ -208,14 +208,14 @@ Defending against the Baratoplata from Crackhead Control requires understanding 
 ### 2. Arm straightening to prevent figure-four closure
 
 - **When to use**: When you feel the attacker's arm beginning to thread underneath your trapped arm
-- **Targets**: [[Positions/Crackhead Control]]
+- **Targets**: [[Positions/Rubber Guard/Crackhead Control]]
 - **If successful**: Deny the figure-four connection and force the attacker to either re-establish the overhook or attempt a different submission
 - **Risk**: Straightening the arm while maintaining it in the crackhead control area keeps you in a defensive position with other submission threats still active
 
 ### 3. Elbow drive to hip with full-body rotation
 
 - **When to use**: When the figure-four is partially established but not yet tight, as a last-resort prevention before full lock
-- **Targets**: [[Positions/Crackhead Control]]
+- **Targets**: [[Positions/Rubber Guard/Crackhead Control]]
 - **If successful**: Extract the arm from the partially formed figure-four and return to standard crackhead control defensive posture
 - **Risk**: If the figure-four is already tight, this motion can accelerate the shoulder rotation and worsen the submission
 

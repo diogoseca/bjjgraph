@@ -67,7 +67,7 @@ Strategically, this transition serves as a positional reset that maintains offen
 
 Energy management considerations make this transition particularly valuable during extended guard exchanges. Crackhead Control's aggressive positioning requires significant hip flexor engagement and core tension, leading to fatigue over time. New York offers a more sustainable control structure that allows brief recovery periods while maintaining offensive threat. Experienced rubber guard players cycle between these positions strategically, using Crackhead Control for submission bursts and New York for positional consolidation.
 
-**From Position**: [[Positions/Crackhead Control]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Crackhead Control]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -79,7 +79,7 @@ Energy management considerations make this transition particularly valuable duri
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Rubber Guard/New York]] | 65% |
-| Failure | [[Positions/Crackhead Control]] | 20% |
+| Failure | [[Positions/Rubber Guard/Crackhead Control]] | 20% |
 | Counter | [[Positions/Closed Guard]] | 15% |
 
 
@@ -239,7 +239,7 @@ The Crackhead Control to New York transition represents a fundamental angle adju
 ## Related Techniques
 
 
-- [[Positions/Crackhead Control]] - Starting position - high-risk submission-dense rubber guard variant
+- [[Positions/Rubber Guard/Crackhead Control]] - Starting position - high-risk submission-dense rubber guard variant
 
 - [[Positions/Rubber Guard/New York]] - Target position - stable rubber guard control with different attack chains
 

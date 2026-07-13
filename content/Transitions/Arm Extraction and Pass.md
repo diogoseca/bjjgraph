@@ -65,7 +65,7 @@ The mechanical foundation relies on isolating the opponent's arm through shoulde
 
 Strategically, this technique represents a critical bridge between the dynamic turtle attack system and the stable control offered by side control. While Crackhead Control provides excellent back take and submission opportunities, some opponents become highly defensive, denying hooks and protecting their neck. The Arm Extraction and Pass offers an alternative advancement path that trades submission opportunities for positional points and the extensive attack options available from side control. Advanced practitioners use this as part of a threat matrix: the opponent must defend back takes, truck entries, and chokes from Crackhead Control, but defensive postures that protect against these attacks often make the Arm Extraction and Pass easier to execute.
 
-**From Position**: [[Positions/Crackhead Control]] (Top)
+**From Position**: [[Positions/Rubber Guard/Crackhead Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -77,7 +77,7 @@ Strategically, this technique represents a critical bridge between the dynamic t
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Side Control]] | 65% |
-| Failure | [[Positions/Crackhead Control]] | 25% |
+| Failure | [[Positions/Rubber Guard/Crackhead Control]] | 25% |
 | Counter | [[Positions/Half Guard]] | 10% |
 
 
@@ -229,7 +229,7 @@ Arm Extraction and Pass serves as a critical bridge between the 10th Planet turt
 ## Related Techniques
 
 
-- [[Positions/Crackhead Control]] - Starting position - this is the turtle attack platform from which extraction begins
+- [[Positions/Rubber Guard/Crackhead Control]] - Starting position - this is the turtle attack platform from which extraction begins
 
 - [[Positions/Side Control]] - Primary target position achieved upon successful execution
 

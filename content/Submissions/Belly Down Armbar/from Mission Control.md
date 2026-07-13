@@ -215,7 +215,7 @@ From a strategic standpoint, this submission creates a powerful dilemma within t
 ## From Which Positions?
 
 - [[Positions/Rubber Guard/Mission Control]]
-- [[Positions/Crackhead Control]]
+- [[Positions/Rubber Guard/Crackhead Control]]
 
 
 </section>
@@ -230,7 +230,7 @@ From a strategic standpoint, this submission creates a powerful dilemma within t
 - [[Positions/Rubber Guard/Mission Control]] - Starting position providing the shoulder isolation and arm control needed for this submission entry
 - [[Positions/Armbar Control]] - Control position established during the transition from high guard to armbar configuration
 - [[Positions/Closed Guard]] - Fallback position if the armbar attempt is countered and opponent escapes the rubber guard
-- [[Positions/Crackhead Control]] - Alternative rubber guard position with similar arm isolation potential for belly down armbar entry
+- [[Positions/Rubber Guard/Crackhead Control]] - Alternative rubber guard position with similar arm isolation potential for belly down armbar entry
 
 </section>
 

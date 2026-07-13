@@ -158,7 +158,7 @@ The most effective defensive window occurs before the shoulder pin is fully esta
 
 The defender's ultimate strategic goal is either to prevent the extraction entirely and force the attacker to return to standard Crackhead Control attacks (which you can then defend through your normal turtle defense protocols), or to time a counter that recovers half guard or better during the transition phase when the attacker's weight is shifting between positions. Understanding that the attacker is most vulnerable during the hip transition from chair-sit to side control sprawl gives you a specific timing window to exploit.
 
-**Opponent's Starting Position**: [[Positions/Crackhead Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Crackhead Control]] (Top)
 
 </section>
 
@@ -207,14 +207,14 @@ The defender's ultimate strategic goal is either to prevent the extraction entir
 ### 2. Granby roll away from the extraction direction as attacker commits weight forward for the shoulder pin
 
 - **When to use**: Early in the sequence when attacker drives their chest weight forward onto your shoulder, before the arm grip is established
-- **Targets**: [[Positions/Crackhead Control]]
+- **Targets**: [[Positions/Rubber Guard/Crackhead Control]]
 - **If successful**: You escape the shoulder pin and either recover to a neutral turtle position where standard Crackhead Control dynamics resume, or create enough chaos to recover guard
 - **Risk**: If attacker follows the roll maintaining chest contact, they may transition directly to back control with hooks as your back is exposed during the rolling motion
 
 ### 3. Retract and clamp trapped arm while simultaneously circling hips away from extraction direction
 
 - **When to use**: When attacker grips your wrist and begins guiding the arm across their body - the earliest moment of the actual extraction attempt
-- **Targets**: [[Positions/Crackhead Control]]
+- **Targets**: [[Positions/Rubber Guard/Crackhead Control]]
 - **If successful**: The extraction fails and attacker must reset to standard Crackhead Control, burning energy and creating opportunities for your standard turtle escapes
 - **Risk**: If attacker has already established the shoulder pin, your arm retraction may lack the structural support to resist the extraction, wasting energy without preventing the pass
 
@@ -235,7 +235,7 @@ The defender's ultimate strategic goal is either to prevent the extraction entir
 
 <p class="section-subtitle">What is the best outcome when defending Arm Extraction and Pass?</p>
 
-### → [[Positions/Crackhead Control]]
+### → [[Positions/Rubber Guard/Crackhead Control]]
 
 Prevent the extraction by defending the shoulder pin early through base maintenance and arm retraction, or execute a granby roll that disrupts the attacker's weight placement and forces them to reset to standard Crackhead Control dynamics
 

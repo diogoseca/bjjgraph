@@ -255,7 +255,7 @@ The New York to Invisible Collar transition occupies a central position in 10th 
 
 - [[Positions/Closed Guard]] - Fallback position if rubber guard fails
 
-- [[Positions/Crackhead Control]] - Upstream rubber guard position before Mission Control
+- [[Positions/Rubber Guard/Crackhead Control]] - Upstream rubber guard position before Mission Control
 
 
 </section>

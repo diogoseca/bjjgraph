@@ -75,7 +75,7 @@ The submission works by threading the attacking arm underneath the opponent's tr
 
 What makes this variation particularly dangerous at the competitive level is the deceptive nature of the attack within the Crackhead Control attack chain. Opponents defending against Crackhead Control typically focus on preventing the more common gogoplata or omoplata threats, leaving the baratoplata as a secondary attack that catches defenders off-guard. The leg-assisted mechanics generate significantly more torque than arm-only shoulder locks like the americana or kimura, making this a genuinely threatening submission even against larger or stronger opponents. The shoulder joint can reach structural failure before adequate pain signals register, demanding exceptional care during training.
 
-**Starting Position**: [[Positions/Crackhead Control]] · **From**: [[Positions/Crackhead Control]] (Bottom)
+**Starting Position**: [[Positions/Rubber Guard/Crackhead Control]] · **From**: [[Positions/Rubber Guard/Crackhead Control]] (Bottom)
 
 </section>
 
@@ -86,7 +86,7 @@ What makes this variation particularly dangerous at the competitive level is the
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 42% |
-| Failure | [[Positions/Crackhead Control]] | 38% |
+| Failure | [[Positions/Rubber Guard/Crackhead Control]] | 38% |
 | Counter | [[Positions/Closed Guard]] | 20% |
 
 
@@ -233,7 +233,7 @@ What makes this variation particularly dangerous at the competitive level is the
 
 ## From Which Positions?
 
-- [[Positions/Crackhead Control]]
+- [[Positions/Rubber Guard/Crackhead Control]]
 - [[Positions/Rubber Guard/Meathook]]
 
 
@@ -247,7 +247,7 @@ What makes this variation particularly dangerous at the competitive level is the
 - [[Submissions/Omoplata]]
 - [[Submissions/Arm Triangle]]
 - [[Positions/Half Guard/Electric Chair]]
-- [[Positions/Crackhead Control]] - Primary starting position providing posture control and arm isolation for the submission
+- [[Positions/Rubber Guard/Crackhead Control]] - Primary starting position providing posture control and arm isolation for the submission
 - [[Positions/Rubber Guard/Mission Control]] - Preceding rubber guard position that transitions into crackhead control setup
 - [[Positions/Rubber Guard/Meathook]] - Alternative rubber guard position with similar arm isolation for baratoplata entry
 

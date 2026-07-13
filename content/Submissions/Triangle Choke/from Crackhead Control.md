@@ -75,7 +75,7 @@ The position's strength lies in the asymmetric control it creates. The shin pres
 
 Strategically, the triangle from Crackhead Control functions as a primary threat within the rubber guard attacking system. It chains naturally with gogoplata, omoplata, and armbar attacks, creating a submission web where defending one threat exposes the opponent to another. The position is particularly effective in no-gi grappling where the absence of collar grips makes traditional posture-breaking more difficult, and Crackhead Control's mechanical posture break compensates for this limitation.
 
-**Starting Position**: [[Positions/Crackhead Control]] · **From**: [[Positions/Crackhead Control]] (Bottom)
+**Starting Position**: [[Positions/Rubber Guard/Crackhead Control]] · **From**: [[Positions/Rubber Guard/Crackhead Control]] (Bottom)
 
 </section>
 
@@ -86,7 +86,7 @@ Strategically, the triangle from Crackhead Control functions as a primary threat
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 65% |
-| Failure | [[Positions/Crackhead Control]] | 23% |
+| Failure | [[Positions/Rubber Guard/Crackhead Control]] | 23% |
 | Counter | [[Positions/Closed Guard]] | 12% |
 
 
@@ -214,7 +214,7 @@ Strategically, the triangle from Crackhead Control functions as a primary threat
 
 ## From Which Positions?
 
-- [[Positions/Crackhead Control]]
+- [[Positions/Rubber Guard/Crackhead Control]]
 - [[Positions/Rubber Guard/Mission Control]]
 
 
@@ -227,7 +227,7 @@ Strategically, the triangle from Crackhead Control functions as a primary threat
 - [[Transitions/Inverted Triangle]]
 - [[Submissions/Arm in Guillotine]]
 - [[Submissions/High Elbow Guillotine]]
-- [[Positions/Crackhead Control]] - Starting position for this submission variant
+- [[Positions/Rubber Guard/Crackhead Control]] - Starting position for this submission variant
 - [[Positions/Rubber Guard/Mission Control]] - Alternative rubber guard position with similar triangle access
 - [[Positions/Closed Guard]] - Base guard from which Crackhead Control is established
 

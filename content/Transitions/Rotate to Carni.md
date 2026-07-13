@@ -251,7 +251,7 @@ Rotate to Carni is a cornerstone transition within the 10th Planet Rubber Guard 
 
 - [[Positions/Triangle Control]] - Chain attack - arm extraction during rotation opens triangle opportunity
 
-- [[Positions/Crackhead Control]] - System predecessor - earlier Rubber Guard position in the progression chain
+- [[Positions/Rubber Guard/Crackhead Control]] - System predecessor - earlier Rubber Guard position in the progression chain
 
 
 </section>

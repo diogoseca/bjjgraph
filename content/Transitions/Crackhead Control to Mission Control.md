@@ -65,7 +65,7 @@ The mechanical foundation of this transition involves releasing the deep overhoo
 
 This transition serves multiple strategic purposes within the rubber guard framework. It provides an escape route when Crackhead Control becomes untenable due to back exposure threats, offers a way to reset when submission attempts stall, and creates opportunities to attack from a different angle when the opponent has adapted to your Crackhead Control offense. Advanced practitioners flow between these positions fluidly, using the transition itself as a setup for submissions when opponents anticipate a simple positional change.
 
-**From Position**: [[Positions/Crackhead Control]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Crackhead Control]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -77,7 +77,7 @@ This transition serves multiple strategic purposes within the rubber guard frame
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Rubber Guard/Mission Control]] | 65% |
-| Failure | [[Positions/Crackhead Control]] | 20% |
+| Failure | [[Positions/Rubber Guard/Crackhead Control]] | 20% |
 | Counter | [[Positions/Closed Guard]] | 15% |
 
 
@@ -239,7 +239,7 @@ The Crackhead Control to Mission Control transition represents a critical pathwa
 ## Related Techniques
 
 
-- [[Positions/Crackhead Control]] - Starting position - the high-risk overhook guard you transition from
+- [[Positions/Rubber Guard/Crackhead Control]] - Starting position - the high-risk overhook guard you transition from
 
 - [[Positions/Rubber Guard/Mission Control]] - Target position - the stable rubber guard control you transition to
 

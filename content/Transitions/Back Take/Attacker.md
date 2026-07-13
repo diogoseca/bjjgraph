@@ -178,7 +178,7 @@ The technique thrives on the dilemma-based nature of crackhead control - your op
 
 From a strategic standpoint, the back take from crackhead control serves as the primary advancement pathway in the 10th Planet turtle attack system. It connects directly to the highest-scoring and highest-submission-percentage position in grappling, making it an essential technique for competitive practitioners. The transition exemplifies the modern approach to positional grappling where control positions exist primarily as launching platforms for further advancement rather than static holding positions.
 
-**From Position**: [[Positions/Crackhead Control]] (Top)
+**From Position**: [[Positions/Rubber Guard/Crackhead Control]] (Top)
 
 </section>
 
@@ -236,7 +236,7 @@ From a strategic standpoint, the back take from crackhead control serves as the 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Back Control]] | 65% |
-| Failure | [[Positions/Crackhead Control]] | 25% |
+| Failure | [[Positions/Rubber Guard/Crackhead Control]] | 25% |
 | Counter | [[Positions/Turtle]] | 10% |
 
 
@@ -248,10 +248,10 @@ From a strategic standpoint, the back take from crackhead control serves as the 
 
 <p class="section-subtitle">How might your opponent counter Back Take?</p>
 
-- **Opponent sits through toward your hooks during rotation, attempting to face you and recover guard** (Effectiveness: High) - Your Response: Maintain inside hook as anchor and follow their movement, using their rotation momentum to complete your back take on the opposite side → Leads to [[Positions/Crackhead Control]]
+- **Opponent sits through toward your hooks during rotation, attempting to face you and recover guard** (Effectiveness: High) - Your Response: Maintain inside hook as anchor and follow their movement, using their rotation momentum to complete your back take on the opposite side → Leads to [[Positions/Rubber Guard/Crackhead Control]]
 - **Opponent explosively stands up before you complete the rotation, breaking your hip control** (Effectiveness: Medium) - Your Response: Transition to standing back control by maintaining harness grip and jumping hooks in, or drop to ankle pick if they create too much distance → Leads to [[Positions/Turtle]]
-- **Opponent granby rolls forward as you initiate rotation, attempting to invert and face you** (Effectiveness: Medium) - Your Response: Follow the roll and transition to truck position by controlling the near leg, converting the escape attempt into another attacking position → Leads to [[Positions/Crackhead Control]]
-- **Opponent posts arm and creates frame to prevent rotation around their body** (Effectiveness: Low) - Your Response: Attack the posted arm with crucifix entry or arm triangle setup, converting their defensive post into submission opportunity → Leads to [[Positions/Crackhead Control]]
+- **Opponent granby rolls forward as you initiate rotation, attempting to invert and face you** (Effectiveness: Medium) - Your Response: Follow the roll and transition to truck position by controlling the near leg, converting the escape attempt into another attacking position → Leads to [[Positions/Rubber Guard/Crackhead Control]]
+- **Opponent posts arm and creates frame to prevent rotation around their body** (Effectiveness: Low) - Your Response: Attack the posted arm with crucifix entry or arm triangle setup, converting their defensive post into submission opportunity → Leads to [[Positions/Rubber Guard/Crackhead Control]]
 
 
 </section>
