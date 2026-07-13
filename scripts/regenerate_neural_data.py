@@ -73,6 +73,15 @@ def build_graph_data(layout: dict, graph: dict) -> dict:
                 if _frame_positive(t, fr):
                     av[fr] = True
 
+    def _pos_role(slug: str, role: str):
+        """Resolve a graph.json position role-node: nested layout slugs are compound
+        ('mount/high-mount') but graph.json keys them bare ('high-mount/top')."""
+        for c in ([slug, slug.rsplit("/", 1)[-1]] if "/" in slug else [slug]):
+            nn = graph["positions"].get(f"{c}/{role}")
+            if nn:
+                return nn
+        return None
+
     def enrich(node_id: str, ty: str) -> dict:
         """Pull calibrated fields for a layout node from graph.json (best-effort join)."""
         slug = _slug_from_id(node_id)
@@ -81,7 +90,7 @@ def build_graph_data(layout: dict, graph: dict) -> dict:
             out = {}
             avail = {"gi": False, "nogi": False}
             for role in ("top", "bottom"):
-                n = graph["positions"].get(f"{slug}/{role}")
+                n = _pos_role(slug, role)
                 if n and n.get("transitions"):
                     out[role] = [
                         {
@@ -131,6 +140,11 @@ def build_graph_data(layout: dict, graph: dict) -> dict:
         cal = enrich(n["id"], ty)
         if cal:
             node["cal"] = cal  # calibrated payload (Phase 1 gameplay reads this)
+        if ty == "positions":  # family membership so the app can resolve the <Family>|Family tier deck
+            pslug = _slug_from_id(n["id"])
+            rn = _pos_role(pslug, "top") or _pos_role(pslug, "bottom")
+            if rn and rn.get("familyHub"):
+                node["familyHub"] = rn["familyHub"]
         nodes.append(node)
 
     links = [{"source": l["source"], "target": l["target"]} for l in layout.get("links", [])]
@@ -147,51 +161,56 @@ def _qa_cards(fc: list) -> list:
     return out
 
 
+def _blend_deck(role_cards: list, pos_cards: list, fam_cards: list, frac: float = 0.22) -> list:
+    """A position's drilled deck is MOSTLY its own role-specific cards, seasoned with ~`frac`
+    higher-tier cards (position-level, then family-level) so drilling also builds general
+    understanding of the position/family. Higher cards are spread through the role cards, not
+    appended. A base position with no role cards yet (e.g. Mount) falls back to the higher-tier
+    cards — which is exactly "understand what this position is"."""
+    seen = set(c["q"] for c in role_cards)
+    higher = []
+    for c in pos_cards + fam_cards:
+        if c["q"] not in seen:
+            higher.append(c)
+            seen.add(c["q"])
+    if not role_cards:
+        return higher[:8]
+    if not higher:
+        return role_cards
+    k = min(len(higher), max(1, round(len(role_cards) * frac / (1 - frac))))
+    picks = higher[:k]
+    out = list(role_cards)
+    step = max(1, len(role_cards) // (k + 1))
+    for i, c in enumerate(picks):
+        out.insert(min(len(out), (i + 1) * step + i), c)
+    return out
+
+
 def build_flashcards(graph: dict) -> dict:
-    """Drill decks keyed '<Name>|<Role>' (own ROLE tier, unchanged) PLUS the multi-level
-    hierarchy tiers: '<Position>|Position' (role-agnostic mechanics) and '<Family>|Family'
-    (cross-variant principles). Role decks carry `ancestors` pointing at their non-empty
-    position/family decks so the app can offer a Role/Position/Family drill toggle."""
+    """Drill decks keyed '<Name>|<Role>'. Position decks are BLENDED — mostly the node's own
+    role cards + ~20% higher-tier (position-level + family-level) cards from flashcardTiers — so a
+    single deck teaches the specific state and seasons in the general position/family concepts.
+    Transitions/submissions keep their own attacker/defender cards (no position tiers apply)."""
     decks = {}
     for section in ("positions", "transitions", "submissions"):
         for node in graph.get(section, {}).values():
             role = node.get("role")
             name = node.get("name")
-            if not role or role == "terminal" or not name:
+            if not role or role in ("hub", "terminal") or not name:
                 continue
-            # base name (strip the role word for position role-nodes only — see #14 fix rationale)
             base = name
             if section == "positions":
                 for suf in (" Top", " Bottom"):
                     if base.endswith(suf):
                         base = base[: -len(suf)]
                         break
-            tiers = node.get("flashcardTiers") or {}
-            pos_cards = _qa_cards(tiers.get("position"))
-            fam_cards = _qa_cards(tiers.get("family"))
-            fam_name = node.get("familyHub")
-
-            # ROLE deck (own) — unchanged key/format; skip hub aggregator entries (no own role deck)
-            if role not in ("hub",):
+                tiers = node.get("flashcardTiers") or {}
+                cards = _blend_deck(_qa_cards(node.get("flashcards")), _qa_cards(tiers.get("position")), _qa_cards(tiers.get("family")))
+            else:
                 cards = _qa_cards(node.get("flashcards"))
-                if cards:
-                    key = f"{base}|{role.capitalize()}"
-                    ent = {"cat": SECTION_CAT[section], "role": role.capitalize(), "cards": cards, "tier": "role"}
-                    anc = {}
-                    if pos_cards and section == "positions":
-                        anc["position"] = f"{base}|Position"
-                    if fam_cards and fam_name:
-                        anc["family"] = f"{fam_name}|Family"
-                    if anc:
-                        ent["ancestors"] = anc
-                    decks[key] = ent
-
-            # POSITION tier (role-agnostic; identical for top+bottom of one position -> dedupe)
-            if pos_cards and section == "positions":
-                decks.setdefault(f"{base}|Position", {"cat": SECTION_CAT[section], "role": "Position", "cards": pos_cards, "tier": "position"})
-            # FAMILY tier (shared across all variants -> dedupe under the family name)
-            if fam_cards and fam_name:
-                decks.setdefault(f"{fam_name}|Family", {"cat": "Position", "role": "Family", "cards": fam_cards, "tier": "family"})
+            if not cards:
+                continue
+            decks[f"{base}|{role.capitalize()}"] = {"cat": SECTION_CAT[section], "role": role.capitalize(), "cards": cards}
     return decks
 
 

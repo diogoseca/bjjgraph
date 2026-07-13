@@ -271,7 +271,7 @@ class Component extends DCLogic {
     const nodes = data.nodes.map((n, i) => {
       idIndex.set(n.id, i);
       const dom = (n.s && typeof n.s[0] === "number") ? n.s[0] : this.dominance(n.ty, n.t);
-      return { idx: i, id: n.id, x: n.x, y: n.y, t: n.t, ty: n.ty, s: n.s || null, dom, col: this.domColor(dom), deg: 0, lit: -99, posId: n.posId || null, fromPositionId: n.fromPositionId || null, fromRole: n.fromRole || null, cal: n.cal || null };
+      return { idx: i, id: n.id, x: n.x, y: n.y, t: n.t, ty: n.ty, s: n.s || null, dom, col: this.domColor(dom), deg: 0, lit: -99, posId: n.posId || null, fromPositionId: n.fromPositionId || null, fromRole: n.fromRole || null, cal: n.cal || null, familyHub: n.familyHub || null };
     });
     const adj = nodes.map(() => []);
     const links = [];
