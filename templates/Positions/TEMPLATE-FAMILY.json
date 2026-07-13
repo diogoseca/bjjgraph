@@ -168,6 +168,32 @@
         "additionalProperties": false
       }
     },
+    "flashcards_family": {
+      "type": "array",
+      "description": "Optional FAMILY-tier flashcards authored ON THE HUB (multi-level hierarchy): principles true across ALL variants of this family. Distinct from the computed aggregate deck; aggregated by regenerate_graph into flashcardTiers.family.",
+      "minItems": 3,
+      "maxItems": 12,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "question",
+          "answer"
+        ],
+        "properties": {
+          "question": {
+            "type": "string",
+            "pattern": ".*\\?$",
+            "description": "Question about family-wide principles/dynamics"
+          },
+          "answer": {
+            "type": "string",
+            "minLength": 50,
+            "description": "Detailed answer (50+ characters)"
+          }
+        }
+      }
+    },
     "related_positions": {
       "type": "array",
       "description": "Related positions with relationship descriptions",

@@ -170,6 +170,10 @@
         }
       }
     },
+    "flashcards_position": {
+      "$ref": "#/$defs/flashcards",
+      "description": "Optional POSITION-tier flashcards (multi-level hierarchy): role-agnostic mechanics true for BOTH Top and Bottom of this specific position. Aggregated by regenerate_graph into flashcardTiers.position."
+    },
     "bottom": {
       "type": "object",
       "description": "Bottom perspective - full position data (same structure as SINGLE template)",

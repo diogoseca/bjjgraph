@@ -303,7 +303,7 @@ def is_terminal_position(slug: str) -> bool:
 # Position processing
 # ---------------------------------------------------------------------------
 
-def process_position_role(position_data: dict, role: str, hub_slug: str, hub_path: str, path_index: dict) -> dict | None:
+def process_position_role(position_data: dict, role: str, hub_slug: str, hub_path: str, path_index: dict, family_ctx: dict | None = None) -> dict | None:
     role_data = position_data.get(role)
     if not role_data:
         return None
@@ -335,6 +335,15 @@ def process_position_role(position_data: dict, role: str, hub_slug: str, hub_pat
         for qa in role_data.get('flashcards', [])
     ]
 
+    # multi-level flashcard hierarchy: own ROLE cards (above) + role-agnostic POSITION cards from
+    # the file root (flashcards_position, shared by top+bottom) + FAMILY cards from the owning hub.
+    # flat `flashcards` stays = the node's own role deck (unchanged contract); tiers are additive.
+    position_tier = dedupe_flashcards([
+        {'question': qa.get('question', ''), 'answer': qa.get('answer', '')}
+        for qa in position_data.get('flashcards_position', [])
+    ])
+    family_tier = family_ctx['cards'] if family_ctx else []
+
     return {
         'name': name,
         'hub': hub_slug,
@@ -346,6 +355,7 @@ def process_position_role(position_data: dict, role: str, hub_slug: str, hub_pat
         'energyCost': state_props.get('energy_cost', 'Medium'),
         'transitions': transitions,
         'flashcards': flashcards,
+        'flashcardTiers': {'family': family_tier, 'position': position_tier, 'role': flashcards},
     }
 
 
@@ -355,6 +365,25 @@ def process_positions(content_dir: Path) -> dict:
     position_files = load_json_files(positions_dir, reduce=False)
     path_index = build_position_path_index(positions_dir)
     positions = {}
+
+    # multi-level flashcard hierarchy: index each FAMILY hub's variants -> the hub's authored
+    # family-tier cards (flashcards_family). Membership is by variations[].slug (position families
+    # do NOT set a `family` back-pointer). Used to attach flashcardTiers.family to each variant.
+    def _map_qa(cards):
+        return dedupe_flashcards([
+            {'question': qa.get('question', ''), 'answer': qa.get('answer', '')} for qa in (cards or [])
+        ])
+    family_of = {}            # variant_slug -> {'hub_slug', 'cards'}
+    family_cards_by_hub = {}  # hub_slug -> family cards (for the hub node itself)
+    for pd in position_files:
+        if pd.get('variations'):
+            fam_cards = _map_qa(pd.get('flashcards_family'))
+            h_slug = slugify(pd.get('slug', pd.get('name', '')))
+            family_cards_by_hub[h_slug] = fam_cards
+            for v in pd['variations']:
+                vslug = slugify(v.get('slug') or v.get('name', ''))
+                if vslug:
+                    family_of[vslug] = {'hub_slug': h_slug, 'cards': fam_cards}
 
     for pos_data in position_files:
         if 'name' not in pos_data:
@@ -385,25 +414,36 @@ def process_positions(content_dir: Path) -> dict:
             }
             continue
 
-        top = process_position_role(pos_data, 'top', hub_slug, hub_path, path_index)
+        # a variant leaf inherits its family's cards (by its own slug); a family hub is not itself a variant
+        fam_ctx = family_of.get(hub_slug)
+
+        top = process_position_role(pos_data, 'top', hub_slug, hub_path, path_index, family_ctx=fam_ctx)
         if top:
             positions[f"{hub_slug}/top"] = top
 
-        bottom = process_position_role(pos_data, 'bottom', hub_slug, hub_path, path_index)
+        bottom = process_position_role(pos_data, 'bottom', hub_slug, hub_path, path_index, family_ctx=fam_ctx)
         if bottom:
             positions[f"{hub_slug}/bottom"] = bottom
 
-        # Dual-role hub entry: aggregates top + bottom flashcards for the hub page
+        # Hub entry. A FAMILY hub's deck is its AUTHORED family-tier cards (flashcards_family) —
+        # a real "family principles" deck (empty until backfilled), NOT the old empty top+bottom
+        # aggregate. A standalone dual position (no variations) keeps the classic top+bottom aggregate.
         if top or bottom:
-            hub_flashcards = dedupe_flashcards(
-                (top or {}).get('flashcards', []) + (bottom or {}).get('flashcards', [])
-            )
+            if hub_slug in family_cards_by_hub:
+                fam_cards = family_cards_by_hub[hub_slug]
+                hub_flashcards = fam_cards
+            else:
+                fam_cards = []
+                hub_flashcards = dedupe_flashcards(
+                    (top or {}).get('flashcards', []) + (bottom or {}).get('flashcards', [])
+                )
             positions[hub_slug] = {
                 'name': pos_data['name'],
                 'hub': hub_slug,
                 'role': 'hub',
                 'path': hub_path,
                 'flashcards': hub_flashcards,
+                'flashcardTiers': {'family': fam_cards, 'position': [], 'role': []},
             }
 
         # Neutral positions (no top/bottom - SINGLE template)
