@@ -1092,6 +1092,9 @@ class Component extends DCLogic {
       wrap.innerHTML =
         '<div style="display:flex;gap:4px;align-items:center;margin:0 0 8px 3px;">' + tabs + '</div>' +
         '<div style="border:1px solid rgba(120,150,255,.2);border-radius:11px;background:linear-gradient(160deg,rgba(32,40,68,.55),rgba(13,16,30,.6));padding:14px 15px 13px;box-shadow:0 6px 18px rgba(0,0,0,.2);">' +
+          // scope chip: only on higher-tier (general) cards blended in — names the position/family
+          // the card is about, so it reads as a concept rather than a state:role-specific detail.
+          (card.tag ? '<div style="display:inline-block;font-size:8.5px;letter-spacing:.1em;text-transform:uppercase;font-weight:800;color:#9ab0e0;background:rgba(90,140,255,.13);border:1px solid rgba(120,150,255,.26);border-radius:999px;padding:2px 8px;margin-bottom:9px;">' + card.tag + '</div>' : '') +
           '<div style="font-size:13px;line-height:1.5;color:#e3e9f4;font-weight:500;">' + (card.q || card.front || "") + '</div>' +
         '</div>' +
         (st.revealed ? '<div style="margin-top:8px;border:1px solid rgba(110,214,160,.28);border-radius:11px;background:rgba(20,38,30,.42);padding:13px 15px;font-size:12.5px;line-height:1.6;color:#bfe6cf;animation:ngCardIn .22s ease both;">' + (card.a || card.back || "") + '</div>' : '') +
@@ -2647,7 +2650,10 @@ class Component extends DCLogic {
     let dots = '';
     for (let i = 0; i < deck.length; i++) dots += '<span style="width:6px;height:6px;border-radius:50%;background:' + (i === this.deckIdx ? '#7e9bff' : (i < this.deckIdx ? 'rgba(126,224,168,.55)' : 'rgba(150,170,210,.22)')) + ';"></span>';
     host.innerHTML =
-      '<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;">' + chipLabel +
+      '<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;">' +
+        '<span style="display:flex;align-items:center;gap:7px;">' + chipLabel +
+          (card.tag ? '<span style="font-size:8.5px;letter-spacing:.1em;text-transform:uppercase;font-weight:800;color:#9ab0e0;background:rgba(90,140,255,.13);border:1px solid rgba(120,150,255,.26);border-radius:999px;padding:2px 8px;">' + card.tag + '</span>' : '') +
+        '</span>' +
         '<span style="font-size:10px;font-weight:600;color:#8094b4;">' + (this.deckIdx + 1) + ' / ' + deck.length + '</span>' +
       '</div>' +
       '<div style="font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-weight:700;color:#7b8aa8;margin-bottom:7px;">Question</div>' +

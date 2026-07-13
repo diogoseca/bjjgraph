@@ -161,25 +161,38 @@ def _qa_cards(fc: list) -> list:
     return out
 
 
-def _blend_deck(role_cards: list, pos_cards: list, fam_cards: list, frac: float = 0.22) -> list:
-    """A position's drilled deck is MOSTLY its own role-specific cards, seasoned with ~`frac`
-    higher-tier cards (position-level, then family-level) so drilling also builds general
-    understanding of the position/family. Higher cards are spread through the role cards, not
-    appended. A base position with no role cards yet (e.g. Mount) falls back to the higher-tier
-    cards — which is exactly "understand what this position is"."""
+def _blend_deck(role_cards: list, pos_cards: list, fam_cards: list, pos_tag: str, fam_tag: str, frac: float = 0.22) -> list:
+    """A position's drilled deck is MOSTLY its own role-specific cards (untagged — they're already
+    shown in the context of the current state:role), seasoned with ~`frac` higher-tier cards spread
+    through the deck. Each higher card carries a `tag` naming its SCOPE — the position's own name
+    for position-level cards, the family name for family-level cards — so the user knows a general
+    card is about (e.g.) "High Mount" or "Mount", not the specific top/bottom state. A base position
+    with no role cards yet (e.g. Mount) falls back to the tagged higher-tier cards."""
     seen = set(c["q"] for c in role_cards)
-    higher = []
-    for c in pos_cards + fam_cards:
+    pos_h, fam_h = [], []
+    for c in pos_cards:
         if c["q"] not in seen:
-            higher.append(c)
+            pos_h.append({"q": c["q"], "a": c["a"], "tag": pos_tag})
             seen.add(c["q"])
+    for c in fam_cards:
+        if c["q"] not in seen:
+            fam_h.append({"q": c["q"], "a": c["a"], "tag": fam_tag})
+            seen.add(c["q"])
+    # interleave position + family so the ~20% seasoning is a MIX of both scopes (a "High Mount"
+    # card and a "Mount" card), not all of one tier
+    higher = []
+    for i in range(max(len(pos_h), len(fam_h))):
+        if i < len(pos_h):
+            higher.append(pos_h[i])
+        if i < len(fam_h):
+            higher.append(fam_h[i])
     if not role_cards:
         return higher[:8]
     if not higher:
         return role_cards
     k = min(len(higher), max(1, round(len(role_cards) * frac / (1 - frac))))
     picks = higher[:k]
-    out = list(role_cards)
+    out = list(role_cards)  # own role cards stay untagged
     step = max(1, len(role_cards) // (k + 1))
     for i, c in enumerate(picks):
         out.insert(min(len(out), (i + 1) * step + i), c)
@@ -205,7 +218,9 @@ def build_flashcards(graph: dict) -> dict:
                         base = base[: -len(suf)]
                         break
                 tiers = node.get("flashcardTiers") or {}
-                cards = _blend_deck(_qa_cards(node.get("flashcards")), _qa_cards(tiers.get("position")), _qa_cards(tiers.get("family")))
+                cards = _blend_deck(
+                    _qa_cards(node.get("flashcards")), _qa_cards(tiers.get("position")), _qa_cards(tiers.get("family")),
+                    pos_tag=base, fam_tag=node.get("familyHub") or base)
             else:
                 cards = _qa_cards(node.get("flashcards"))
             if not cards:
