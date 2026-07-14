@@ -655,6 +655,14 @@
             "type": "string",
             "minLength": 10
           }
+        },
+        "clips": {
+          "type": "array",
+          "description": "Curated YouTube film-study clips (playing bottom). Sourced by scripts/source_clips.py, machine-verified, hand-pruned. The content bot must never add, remove, or modify this field.",
+          "maxItems": 4,
+          "items": {
+            "$ref": "#/$defs/clip"
+          }
         }
       },
       "additionalProperties": false
@@ -1069,10 +1077,82 @@
             "type": "string",
             "minLength": 10
           }
+        },
+        "clips": {
+          "type": "array",
+          "description": "Curated YouTube film-study clips (playing top). Sourced by scripts/source_clips.py, machine-verified, hand-pruned. The content bot must never add, remove, or modify this field.",
+          "maxItems": 4,
+          "items": {
+            "$ref": "#/$defs/clip"
+          }
         }
       },
       "additionalProperties": false
+    },
+    "clips": {
+      "type": "array",
+      "description": "Curated YouTube film-study clips (position overview/hub-level). Sourced by scripts/source_clips.py, machine-verified, hand-pruned. The content bot must never add, remove, or modify this field.",
+      "maxItems": 4,
+      "items": {
+        "$ref": "#/$defs/clip"
+      }
     }
   },
-  "additionalProperties": false
+  "additionalProperties": false,
+  "$defs": {
+    "clip": {
+      "type": "object",
+      "description": "One curated YouTube film-study clip. Machine-verified by scripts/source_clips.py / verify_clips.py; pruned by hand. NEVER AI-authored.",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_-]{11}$",
+          "description": "YouTube video ID (11 chars)"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 3,
+          "maxLength": 80,
+          "description": "Short display title for the clip"
+        },
+        "by": {
+          "type": "string",
+          "description": "Display credit — the instructor/legend teaching the clip"
+        },
+        "start": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Loop start in seconds (default 0)"
+        },
+        "end": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Loop end in seconds; omit to play the full video"
+        },
+        "vertical": {
+          "type": "boolean",
+          "description": "True for YouTube Shorts / portrait video"
+        },
+        "channel": {
+          "type": "string",
+          "description": "Provenance: uploader channel name from search"
+        },
+        "duration": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Provenance: full video duration in seconds"
+        },
+        "verified": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+          "description": "Provenance: date of last machine verification (oEmbed + shorts check)"
+        }
+      }
+    }
+  }
 }

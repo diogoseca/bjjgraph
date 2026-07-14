@@ -413,5 +413,34 @@
         "description": "Start in rear triangle with attacker actively working the submission chain. Defender must survive both choke and armbar threats with full resistance. Defender earns points for successful escapes, attacker earns points for completing the armbar transition or finishing the submission. 90-second rounds with position reset between rounds."
       }
     ]
-  }
+  },
+  "clips": [
+    {
+      "id": "lvaEerT_LE8",
+      "title": "Triangle to armbar",
+      "by": "ADCC",
+      "start": 0,
+      "end": 22,
+      "vertical": true,
+      "channel": "ADCC Official",
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "Y0LsaUhyiYs",
+      "title": "Triangle → armbar details",
+      "by": "Bellingham BJJ",
+      "start": 0,
+      "vertical": false,
+      "channel": "Bellingham BJJ",
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "6qiaGv5W--U",
+      "title": "Triangle ↔ armbar chain",
+      "start": 0,
+      "vertical": false,
+      "channel": "BALANCE JIU JITSU",
+      "verified": "2026-07-14"
+    }
+  ]
 }

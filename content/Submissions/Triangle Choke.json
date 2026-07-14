@@ -193,5 +193,44 @@
       "description": "Jump guard entry directly into triangle position, typically used against standing opponent by jumping and locking triangle mid-air before landing.",
       "when_to_use": "Competition or advanced training when opponent is standing and vulnerable to jumping attacks"
     }
+  ],
+  "clips": [
+    {
+      "id": "rM8HMq3o9yY",
+      "title": "Triangle from closed guard",
+      "by": "Nicholas Meregali",
+      "start": 0,
+      "end": 26,
+      "vertical": true,
+      "channel": "Bernardo Faria BJJ Fanatics",
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "MbdpOmzThpQ",
+      "title": "Surprising triangle from guard",
+      "by": "Giancarlo Bodoni",
+      "start": 0,
+      "vertical": false,
+      "channel": "Bernardo Faria BJJ Fanatics",
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "9pjdpFCr4UI",
+      "title": "No-gi triangle from guard",
+      "by": "Chewjitsu",
+      "start": 0,
+      "vertical": false,
+      "channel": "Chewjitsu",
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "aR7JafPJ1lw",
+      "title": "Triangle off the overhook",
+      "by": "Jon Thomas · Grapplearts",
+      "start": 0,
+      "vertical": false,
+      "channel": "Stephan Kesting",
+      "verified": "2026-07-14"
+    }
   ]
 }

@@ -452,7 +452,36 @@
         "description": "Success rate of finishing submissions from mount position across all variations"
       },
       "average_time": "2-4 minutes to submission at intermediate level with active attacks"
-    }
+    },
+    "clips": [
+      {
+        "id": "Wy6Si0FuQaU",
+        "title": "Concepts for Maintaining Mount",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "Roger Gracie TV",
+        "duration": 890,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "kft2AkvKhWU",
+        "title": "Best Way To Control The Mount",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 538,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "wrZCRBlAB3Y",
+        "title": "Head and Arm Choke from Mount Details",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "Roger Gracie TV",
+        "duration": 265,
+        "verified": "2026-07-14"
+      }
+    ]
   },
   "bottom": {
     "name": "Mount Bottom",
@@ -719,7 +748,36 @@
         "description": "Risk of being submitted while defending bottom mount position"
       },
       "average_time": "45-90 seconds before escape or submission at intermediate level"
-    }
+    },
+    "clips": [
+      {
+        "id": "lSAYNVWIbnA",
+        "title": "Escaping the Mount by Weight Placement",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 593,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "uSrYAzVADsw",
+        "title": "Mount Escapes for Blue Belts & Champions",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Gordon Ryan",
+        "duration": 291,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "SYel-mVSMAI",
+        "title": "First 3 Mount Escapes You Need To Know",
+        "by": "Brandon Mccaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 285,
+        "verified": "2026-07-14"
+      }
+    ]
   },
   "flashcards_family": [
     {
@@ -779,6 +837,35 @@
     {
       "question": "What accounts for the severe energy asymmetry between the two players in Mount?",
       "answer": "The top player maintains the pin almost entirely through gravity and skeletal alignment, spending minimal energy to stay stacked over the opponent's hips. The bottom player, by contrast, must generate force against that full body weight with every bridge, frame, and hip escape, so each defensive action draws down a finite stamina reserve. This asymmetry compounds over time, since panic-driven explosive movement accelerates the bottom player's exhaustion while the top player simply rides it out. The resulting attrition dynamic, where time itself favors the top player, is a defining property of Mount and shapes the pacing decisions both roles must make."
+    }
+  ],
+  "clips": [
+    {
+      "id": "Wy6Si0FuQaU",
+      "title": "Concepts for Maintaining Mount",
+      "by": "Roger Gracie",
+      "vertical": false,
+      "channel": "Roger Gracie TV",
+      "duration": 890,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "IgaazDXIHbE",
+      "title": "Mount: Dominant Attacks & Control",
+      "by": "Realize BJJ",
+      "vertical": false,
+      "channel": "REALIZE BJJ LIFE",
+      "duration": 775,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "5Gxj5VQj8bc",
+      "title": "Fix Your BJJ Mount Control, Roger Gracie Style",
+      "by": "MMA Leech",
+      "vertical": false,
+      "channel": "MMA Leech",
+      "duration": 184,
+      "verified": "2026-07-14"
     }
   ]
 }

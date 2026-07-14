@@ -326,6 +326,52 @@ def validate_products(data, category):
     return warnings
 
 
+def iter_clips_arrays(data):
+    """Yield (location, clips_list) for every clips array in a content file:
+    root plus any role block (top/bottom/attacker/defender) that carries one."""
+    if not isinstance(data, dict):
+        return
+    if isinstance(data.get("clips"), list):
+        yield "clips", data["clips"]
+    for role in ("top", "bottom", "attacker", "defender"):
+        block = data.get(role)
+        if isinstance(block, dict) and isinstance(block.get("clips"), list):
+            yield f"{role}.clips", block["clips"]
+
+
+def validate_clips(data, category):
+    """Semantic checks on curated YouTube clips that the schema can't express.
+    Returns (errors, warnings): inverted start/end loop bounds are blocking
+    (the player would never play); end-past-duration and duplicate ids are
+    warnings — clips are machine-verified externally by verify_clips.py."""
+    errors = []
+    warnings = []
+    seen_ids = {}
+    for loc, clips in iter_clips_arrays(data):
+        for i, clip in enumerate(clips):
+            if not isinstance(clip, dict):
+                continue
+            where = f"{loc}[{i}]"
+            cid = clip.get("id")
+            start = clip.get("start")
+            end = clip.get("end")
+            duration = clip.get("duration")
+            if isinstance(start, int) and isinstance(end, int) and start >= end:
+                errors.append(f"{where} ('{cid}'): start ({start}) must be < end ({end})")
+            if isinstance(end, int) and isinstance(duration, int) and end > duration:
+                warnings.append(
+                    f"{where} ('{cid}'): end ({end}) exceeds video duration ({duration})"
+                )
+            if cid:
+                if cid in seen_ids:
+                    warnings.append(
+                        f"{where}: duplicate clip id '{cid}' (also at {seen_ids[cid]})"
+                    )
+                else:
+                    seen_ids[cid] = where
+    return errors, warnings
+
+
 def extract_references_from_field(data, field_path, field_config):
     """Extract references from a specific field in the JSON data."""
     references = []
@@ -1086,6 +1132,13 @@ def validate_json_file(json_path, schema, category, strict=False):
     product_warnings = validate_products(data, category)
     warnings.extend(product_warnings)
     categories["non_blocking"].extend(product_warnings)
+
+    # Curated YouTube clips → inverted loop bounds blocking, the rest warnings
+    clip_errors, clip_warnings = validate_clips(data, category)
+    errors.extend(clip_errors)
+    categories["blocking"].extend(clip_errors)
+    warnings.extend(clip_warnings)
+    categories["non_blocking"].extend(clip_warnings)
 
     # Build content index for cross-file validation (cached in function)
     if not hasattr(validate_json_file, 'content_index'):

@@ -464,6 +464,16 @@ def build_response_schema(category: str, template_type: str = None) -> dict:
                 category_schema["required"] = [
                     r for r in category_schema["required"] if r != "products"
                 ]
+        # `clips` is curated film-study data (machine-verified YouTube IDs) — never
+        # authored by AI. Strip it from root and every role block so the model cannot
+        # return or invent it; the save path re-merges the original verbatim.
+        if isinstance(category_schema.get("properties"), dict):
+            props = category_schema["properties"]
+            props.pop("clips", None)
+            for role in ("top", "bottom", "attacker", "defender"):
+                role_props = props.get(role)
+                if isinstance(role_props, dict) and isinstance(role_props.get("properties"), dict):
+                    role_props["properties"].pop("clips", None)
     except Exception:
         category_schema = {"type": "object", "required": ["name"],
                           "properties": {"name": {"type": "string"}}}
@@ -651,6 +661,7 @@ REQUIREMENTS:
 - NEVER change this entity's own top-level `name`. For a nested submission variant (file lives in a `<Family>/` subfolder), `name` MUST stay the FULL `"<Family> from <Position>"` form (e.g. "Americana from Mount") — do NOT shorten it to the filename (e.g. "from Mount"). The graph keys submissions by this `name`; shortening it collides every family's same-position variant onto one node and breaks aggregation and edges.
 - All content must be technically accurate and reflect BJJ best practices
 - Safety sections must be comprehensive (especially for submissions)
+- DO NOT add, remove, or modify any `clips` field (root or role-nested) — it is curated, machine-verified film-study data managed outside this pipeline and must be omitted from your output entirely (it is re-merged automatically)
 """
 
 
@@ -1509,6 +1520,18 @@ def check_structural_preservation(original: dict, fixed: dict, category: str) ->
                 "PRESERVATION: 'products' is curated affiliate data and must not change; "
                 "omit it from your output (it is re-merged automatically)."
             )
+    # `clips` is curated film-study data the AI must never alter (any category). The
+    # save path re-merges it via restore_clips before this runs — sanity backstop.
+    def _clips_of(d, holder):
+        block = d.get(holder) if holder else d
+        return block.get("clips") if isinstance(block, dict) else None
+    for holder in (None, "top", "bottom", "attacker", "defender"):
+        if _clips_of(original, holder) != _clips_of(fixed, holder):
+            where = f"{holder}.clips" if holder else "clips"
+            errors.append(
+                f"PRESERVATION: '{where}' is curated film-study data and must not change; "
+                "omit it from your output (it is re-merged automatically)."
+            )
     return errors
 
 
@@ -1549,6 +1572,33 @@ def restore_attempt_probabilities(original: dict, fixed: dict) -> int:
                     if t.get("attempt_probability") != ov:
                         t["attempt_probability"] = ov
                         restored += 1
+    return restored
+
+
+def restore_clips(original: dict, fixed: dict) -> int:
+    """Curation-safety: `clips` is machine-verified YouTube film-study data excluded
+    from the AI response contract (like Systems `products`). Restore the original
+    verbatim — root and every role block — so enrichment can never drop, reorder,
+    or invent video IDs. Returns the number of clips arrays restored/removed."""
+    if not isinstance(original, dict) or not isinstance(fixed, dict):
+        return 0
+
+    def sync(orig_holder, fixed_holder):
+        if not isinstance(orig_holder, dict) or not isinstance(fixed_holder, dict):
+            return 0
+        orig_clips = orig_holder.get("clips")
+        if orig_clips is not None:
+            if fixed_holder.get("clips") != orig_clips:
+                fixed_holder["clips"] = orig_clips
+                return 1
+        elif "clips" in fixed_holder:
+            fixed_holder.pop("clips")
+            return 1
+        return 0
+
+    restored = sync(original, fixed)
+    for role in ("top", "bottom", "attacker", "defender"):
+        restored += sync(original.get(role), fixed.get(role))
     return restored
 
 
@@ -1764,6 +1814,13 @@ def process_file(file_path: Path, refs: Dict[str, List[str]], dry_run: bool = Fa
                 fixed_content["products"] = orig_products
             else:
                 fixed_content.pop("products", None)
+
+        # Curation-safety: `clips` is machine-verified film-study data excluded from the
+        # AI response contract (all categories). Restore root + role-nested arrays verbatim.
+        if isinstance(original_data, dict):
+            n_clips = restore_clips(original_data, fixed_content)
+            if n_clips:
+                tprint(f"{tag}Restored {n_clips} curated clips array(s)")
 
         # Curation-safety (Q3): attempt_probability is panel-calibrated occurrence data —
         # restore the original (possibly gi/no-gi divergent) values by transition name.
