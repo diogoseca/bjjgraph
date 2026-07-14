@@ -9,14 +9,23 @@ Two dossier shapes the app renders (see neural/src/technique-content.js exemplar
        mistakes[{err,fix}], metrics{label:val}}
   - TRANSITION/SUBMISSION (dual-perspective), keyed "<Name>":
       {cat, from, target, successRate, def, context, outcomes[{result,position,prob,tone}],
-       perspectives:{attacker:{summary,steps[],principles[],counters[],mistakes[{err,fix}]},
+       variations[], related[],
+       perspectives:{attacker:{summary,recognition[],prerequisites[],steps[],principles[],
+                               counters[],mistakes[{err,fix}]},
                      defender:{authored,summary,recognition[],principles[],options[{move,when,leadsTo}],
                                bestOutcomes[],mistakes[{err,fix}]}}}
 Numbers come from the calibrated graph.json (no-gi default frame); prose from content/.
+Dossier enrichment (Slice 4) maps existing content-JSON fields:
+  variations <- variants_and_adaptations[].variant_name (names only), related <-
+  related_content[].name (positions: related_positions[].name), attacker.prerequisites <-
+  attacker.setup_requirements[], attacker.recognition <- top-level conditions[], and
+  attacker.counters gains the first sentence (<=120ch) of common_counters[].your_response.
+Caps are tuned to a size budget: technique-content.js raw growth <= +10%.
 """
 import glob
 import json
 import os
+import re
 import sys
 from pathlib import Path
 
@@ -92,7 +101,82 @@ def _strlist(xs, key=None):
     return out[:8]
 
 
-def _position_dossier(role_data, role_label):
+def _first_sentence(text):
+    """First sentence of a prose blob ('Pin the wrist. If they roll...' -> 'Pin the wrist.')."""
+    text = (text or "").strip() if isinstance(text, str) else ""
+    if not text:
+        return ""
+    return re.split(r"(?<=[.!?])\s", text, maxsplit=1)[0]
+
+
+def _variations(va):
+    """variants_and_adaptations[] -> variant names only (when_to_use/description dropped: size budget)."""
+    out = []
+    for v in va or []:
+        if isinstance(v, str):
+            out.append(v)
+        elif isinstance(v, dict):
+            name = v.get("variant_name") or v.get("name") or v.get("variation") or ""
+            if name:
+                out.append(name)
+    return out[:6]
+
+
+def _related(entries, exclude=()):
+    """related_content[]/related_positions[] -> names only, deduped (incl. vs from/target)."""
+    seen = {e.strip().lower() for e in exclude if isinstance(e, str) and e.strip()}
+    out = []
+    for r in entries or []:
+        name = r.get("name") if isinstance(r, dict) else (r if isinstance(r, str) else None)
+        if not name or not isinstance(name, str):
+            continue
+        k = name.strip().lower()
+        if k in seen:
+            continue
+        seen.add(k)
+        out.append(name)
+    return out[:6]
+
+
+def _counters(xs):
+    """common_counters[] -> 'counter — first sentence of your_response' (plain counter otherwise)."""
+    out = []
+    for x in xs or []:
+        if isinstance(x, str):
+            out.append(x)
+        elif isinstance(x, dict):
+            c = x.get("counter")
+            if not c:
+                continue
+            resp = _first_sentence(x.get("your_response"))
+            if len(resp) > 120:  # size budget: keep the gist, not the paragraph
+                resp = resp[:119].rstrip() + "…"
+            out.append(f"{c} — {resp}" if resp else c)
+    return out[:8]
+
+
+_CLIP_ID_RE = re.compile(r"^[A-Za-z0-9_-]{11}$")
+# Front-end clip fields only — provenance (channel/duration/verified) stays in content JSON.
+_CLIP_FIELDS = ("id", "start", "end", "vertical", "title", "by")
+
+
+def _clips(raw, extra=None):
+    """Sanitize curated clips arrays for the bundle: keep player fields only, drop
+    invalid ids, dedup by id (primary list wins over `extra` fallback), cap 4."""
+    out, seen = [], set()
+    for source in (raw or []), (extra or []):
+        for c in source:
+            if not isinstance(c, dict):
+                continue
+            cid = c.get("id")
+            if not isinstance(cid, str) or not _CLIP_ID_RE.match(cid) or cid in seen:
+                continue
+            seen.add(cid)
+            out.append({k: c[k] for k in _CLIP_FIELDS if c.get(k) is not None})
+    return out[:4]
+
+
+def _position_dossier(role_data, role_label, related=None, hub_clips=None):
     dt = []
     for node in role_data.get("decision_tree", []) or []:
         if not isinstance(node, dict):
@@ -119,7 +203,7 @@ def _position_dossier(role_data, role_label):
             metrics[label] = f"{round(v)}%"
         else:
             metrics[label] = str(v)
-    return {
+    doss = {
         "cat": "Position",
         "role": role_label,
         "def": (role_data.get("description") or role_data.get("overview") or "").strip(),
@@ -128,16 +212,34 @@ def _position_dossier(role_data, role_label):
         "mistakes": _mistakes(role_data.get("common_errors")),
         "metrics": metrics,
     }
+    rel = _related(related)
+    if rel:
+        doss["related"] = rel
+    # Role clips first, then position-hub overview clips as fallback (hub has no own key).
+    clips = _clips(role_data.get("clips"), extra=hub_clips)
+    if clips:
+        doss["clips"] = clips
+    return doss
 
 
-def _perspective_attacker(att):
-    return {
+def _perspective_attacker(att, conditions=None):
+    p = {
         "summary": (att.get("overview") or att.get("description") or "").strip(),
         "steps": _steps(att.get("execution_steps")),
         "principles": _strlist(att.get("key_principles"))[:6],
-        "counters": _strlist(att.get("common_counters"), key="counter"),
+        "counters": _counters(att.get("common_counters")),
         "mistakes": _mistakes(att.get("common_errors")),
     }
+    recog = _strlist(conditions)[:4]
+    if recog:
+        p["recognition"] = recog
+    prereq = _strlist(att.get("setup_requirements"))[:4]
+    if prereq:
+        p["prerequisites"] = prereq
+    clips = _clips(att.get("clips"))
+    if clips:
+        p["clips"] = clips
+    return p
 
 
 def _perspective_defender(dfn):
@@ -145,7 +247,7 @@ def _perspective_defender(dfn):
     for o in dfn.get("defensive_options", []) or []:
         if isinstance(o, dict) and o.get("action"):
             opts.append({"move": o.get("action"), "when": o.get("when_to_use") or "", "leadsTo": _clean_pos(o.get("leads_to") or o.get("targets_outcome") or "")})
-    return {
+    p = {
         "authored": True,
         "summary": (dfn.get("overview") or dfn.get("description") or "").strip(),
         "recognition": _strlist(dfn.get("recognition_cues")),
@@ -154,6 +256,10 @@ def _perspective_defender(dfn):
         "bestOutcomes": _strlist(dfn.get("favorable_outcomes"), key="outcome"),
         "mistakes": _mistakes(dfn.get("common_errors")),
     }
+    clips = _clips(dfn.get("clips"))
+    if clips:
+        p["clips"] = clips
+    return p
 
 
 def _technique_dossier(d, cat, graph):
@@ -183,9 +289,18 @@ def _technique_dossier(d, cat, graph):
         "context": (d.get("overview") or d.get("description") or "").strip(),
         "outcomes": outcomes,
     }
+    variations = _variations(d.get("variants_and_adaptations"))
+    if variations:
+        doss["variations"] = variations
+    clips = _clips(d.get("clips"))
+    if clips:
+        doss["clips"] = clips  # general fallback: app renders blk.clips || rc.clips
+    rel = _related(d.get("related_content"), exclude=(doss["from"], target))
+    if rel:
+        doss["related"] = rel
     persp = {}
     if isinstance(d.get("attacker"), dict):
-        persp["attacker"] = _perspective_attacker(d["attacker"])
+        persp["attacker"] = _perspective_attacker(d["attacker"], d.get("conditions"))
     if isinstance(d.get("defender"), dict):
         persp["defender"] = _perspective_defender(d["defender"])
     if persp:
@@ -207,7 +322,10 @@ def build_ng_content(graph) -> dict:
         for role in ("top", "bottom"):
             rd = d.get(role)
             if isinstance(rd, dict):
-                decks[f"{d['name']}|{role.capitalize()}"] = _position_dossier(rd, role.capitalize())
+                decks[f"{d['name']}|{role.capitalize()}"] = _position_dossier(
+                    rd, role.capitalize(), related=d.get("related_positions"),
+                    hub_clips=d.get("clips")
+                )
 
     # transitions + submissions -> "<Name>"
     for section, cat in (("Transitions", "Transition"), ("Submissions", "Submission")):

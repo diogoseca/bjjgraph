@@ -188,6 +188,7 @@ class Component extends DCLogic {
         else { const inp = this.explorerSearchRef.current; if (inp) inp.focus(); }
       } else if (e.key === "Escape") {
         if (this._detailCtx) { e.preventDefault(); this.closeOptionDetail(); return; }
+        if (this.closeNodeDossier()) return; // in-node dossier open (desktop) — fly back out
         const sh = this.dossierSheetRef.current;
         if (sh && sh.style.display === "block") { this.closeDossierSheet(); }
         else {
@@ -484,6 +485,12 @@ class Component extends DCLogic {
     if (c.mistakes) { h += sec("Common mistakes"); c.mistakes.forEach((m) => h += '<div style="margin-bottom:10px;"><div style="font-size:12.5px;color:#e8956b;line-height:1.45;">\u2717 ' + m.err + '</div><div style="font-size:12.5px;color:#7ee0a8;line-height:1.45;margin-top:2px;">\u2713 ' + m.fix + '</div></div>'); }
     if (c.counters) { h += sec("If it stalls"); c.counters.forEach((x) => h += li(x)); }
     if (c.metrics) { h += sec("Numbers"); h += '<div style="display:flex;gap:10px;flex-wrap:wrap;">'; Object.keys(c.metrics).forEach((k) => h += '<div style="flex:1;min-width:90px;background:rgba(255,255,255,.04);border:1px solid rgba(150,170,210,.14);border-radius:9px;padding:9px 11px;"><div style="font-size:15px;font-weight:700;color:#eef1f6;font-family:\'Space Grotesk\',sans-serif;">' + c.metrics[k] + '</div><div style="font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:#7e8aa3;font-weight:600;margin-top:2px;">' + k + '</div></div>'); h += '</div>'; }
+    if (c.related && c.related.length) {
+      h += sec("Related positions");
+      h += '<div style="display:flex;flex-wrap:wrap;gap:7px;">';
+      c.related.forEach((t) => h += '<span style="font-size:11.5px;color:#aeb9d4;background:rgba(255,255,255,.05);border:1px solid rgba(150,170,210,.14);border-radius:999px;padding:4px 11px;">' + t + '</span>');
+      h += '</div>';
+    }
     return h;
   }
   richDetailHTML(n, cat, rc, persp) {
@@ -2188,17 +2195,30 @@ class Component extends DCLogic {
       this.renderDossier(n);
       return;
     }
-    this.openExplorer();
-    const list = this.explorerListRef.current; if (list) list.style.display = "none";
-    const dos = this.dossierRef.current; if (dos) { dos.style.display = "block"; dos.scrollTop = 0; }
+    // desktop: unified prezi reveal — no side panel. Close the explorer, auto-pause the roll,
+    // and fly the camera all the way into node-mode zoom (s=1). updateNodeCard fades the
+    // in-node dossier in during the flight; the reveal IS the zoom.
+    {
+      const ex = this.explorerRef.current;
+      if (ex && ex.style.display === "flex") { ex.style.display = "none"; if (this._explorerAutoPaused) { this.setPaused(false); this._explorerAutoPaused = false; } }
+      const dos = this.dossierRef.current; if (dos) dos.style.display = "none";
+    }
+    if (!this.paused) { this.setPaused(true); this._dossierAutoPaused = true; }
     if (!skipCam) {
-      const W = this.W || 1200;
-      const vw = Math.max(this.graphW * 0.22, this.graphR * 0.5);
-      const sbw = Math.min(330, W * 0.86);
-      this.camTarget = { cx: n.x - (sbw / 2) * vw / W, cy: n.y, vw: vw };
+      if (!this._camBefore) this._camBefore = { cx: this.camTarget.cx, cy: this.camTarget.cy, vw: this.camTarget.vw };
+      this.camTarget = { cx: n.x, cy: n.y, vw: this.graphW * 0.0085 };
     }
     this.lastInteract = this.now; this.flare(idx);
-    this.renderDossier(n);
+  }
+  // leave the in-node dossier: restore the pre-open camera, resume the roll if we auto-paused it.
+  closeNodeDossier() {
+    if (this._dossierIdx == null || this.isMobile()) return false;
+    this._dossierIdx = null;
+    const cb = this._camBefore; this._camBefore = null;
+    this.camTarget = cb || { cx: this.gcx, cy: this.gcy, vw: this.graphW * 0.42 };
+    if (this._dossierAutoPaused) { this.setPaused(false); this._dossierAutoPaused = false; }
+    this.lastInteract = this.now;
+    return true;
   }
   closeDossierSheet() {
     const sh = this.dossierSheetRef.current;
@@ -2215,10 +2235,14 @@ class Component extends DCLogic {
     const el = this.nodeCardRef && this.nodeCardRef.current; if (!el) return;
     const W = this.W, H = this.H;
     const s = scale / (W / (this.graphW * 0.0085));
-    const off = () => { if (el.style.display !== "none") el.style.display = "none"; this._nodeCardIdx = null; this._nodeCardOn = false; this._suppressTray(false); };
+    const off = () => { if (el.style.display !== "none") el.style.display = "none"; this._nodeCardIdx = null; this._nodeCardOn = false; this._nodeCardO = 0; this._suppressTray(false); };
     if (s < 0.32 || !this.nodes || !this.nodes.length || !this.cam) { off(); return; }
     let best = -1, bd = 1e9;
-    for (const n of this.nodes) { const d = Math.hypot(n.x - this.cam.cx, n.y - this.cam.cy); if (d < bd) { bd = d; best = n.idx; } }
+    if (this._dossierIdx != null && this.nodes[this._dossierIdx]) {
+      best = this._dossierIdx; // an explicit open pins the card — no other node's card mid-flight
+    } else {
+      for (const n of this.nodes) { const d = Math.hypot(n.x - this.cam.cx, n.y - this.cam.cy); if (d < bd) { bd = d; best = n.idx; } }
+    }
     if (best < 0) { off(); return; }
     const n = this.nodes[best];
     const sx = (n.x - this.cam.cx) * scale + W / 2, sy = (n.y - this.cam.cy) * scale + H / 2;
@@ -2229,9 +2253,11 @@ class Component extends DCLogic {
     this._nodeCardOn = true;
     el.style.display = "block";
     const cardO = Math.min(1, (s - 0.32) / 0.2);
+    this._nodeCardO = cardO; // draw() crossfades the canvas glyph out as the card fades in
     el.style.opacity = cardO.toFixed(3);
     this._suppressTray(cardO > 0.5);
-    el.style.transform = "translate(" + sx.toFixed(1) + "px," + sy.toFixed(1) + "px) translate(-50%,-50%) scale(" + Math.min(1, s).toFixed(4) + ")";
+    // slight upscale past s=1 instead of letting the canvas glyph outgrow a hard-capped card
+    el.style.transform = "translate(" + sx.toFixed(1) + "px," + sy.toFixed(1) + "px) translate(-50%,-50%) scale(" + Math.min(1.12, s).toFixed(4) + ")";
     const hit = el.querySelector(".ndHit");
     if (hit) hit.style.pointerEvents = s > 0.75 ? "auto" : "none";
   }
@@ -2313,52 +2339,86 @@ class Component extends DCLogic {
       }
       const shape = n.ty === "positions" ? "circle" : n.ty === "submissions" ? "tri" : "diamond";
       const size = shape === "circle" ? 560 : shape === "tri" ? 680 : 600;
-      const ring = this.rgba(n.col, 0.85);
-      const fill = 'radial-gradient(120% 120% at 50% 16%,' + this.rgba(n.col, 0.13) + ',rgba(18,20,38,0) 44%),linear-gradient(180deg,#1a1d32,#111327)';
+      // em-based reflow: ONE root font-size drives every dimension inside the card, so the
+      // content scales as a unit instead of fixed-px text cramping inside a scaled shape.
+      const rootFs = (size / 46).toFixed(2);
+      // two-layer ring echoing the canvas node stroke (thin bright inner + faint outer, gap of
+      // background between) + top-lit fill in the canvas hue family + colored bloom instead of
+      // a flat drop-shadow \u2014 the DOM card reads as the same object the canvas draws.
+      const ringIn = this.rgba(n.col, 0.75), ringOut = this.rgba(n.col, 0.35);
+      const fill = 'radial-gradient(140% 100% at 50% 0%,' + this.rgba(n.col, 0.16) + ',rgba(16,18,35,0) 52%),linear-gradient(180deg,#171a30,#101223)';
+      const bloom = '0 0 90px ' + this.rgba(n.col, 0.10) + ',0 24px 70px rgba(0,0,0,.45)';
       const nClips = clips.slice(0, shape === "circle" ? 3 : 2);
       const nPrin = principles.slice(0, shape === "circle" ? 3 : 2);
-      const thumbW = shape === "circle" ? 104 : 120;
       const kick = isCur
-        ? '<span style="width:7px;height:7px;border-radius:50%;background:#5a9bf0;box-shadow:0 0 8px rgba(90,155,240,.7);"></span><span style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;font-weight:800;color:#7fb4ff;">Your current position</span>'
-        : '<span style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;font-weight:800;color:' + col + ';">' + cat + '</span>';
-      let c = '<div style="display:flex;align-items:center;justify-content:center;gap:8px;">' + kick + this.badgePill(badge, 10, "3px 12px") + '</div>';
-      c += '<div style="font-family:\'Space Grotesk\',sans-serif;font-size:25px;font-weight:600;letter-spacing:-.01em;line-height:1.08;color:#eef1f6;max-width:' + (shape === "circle" ? 380 : 330) + 'px;">' + title + '</div>';
-      if (sp.from && (!role || sp.from.toLowerCase() !== role.toLowerCase())) c += '<div style="font-size:11.5px;color:#8b97b0;margin-top:-4px;">' + sp.from + '</div>';
-      if (ovN) c += '<p style="margin:0;max-width:' + (shape === "circle" ? 350 : 330) + 'px;font-size:12px;line-height:1.5;color:#9aa6bd;">' + ovN + '</p>';
+        ? '<span style="width:.58em;height:.58em;border-radius:50%;background:#5a9bf0;box-shadow:0 0 .66em rgba(90,155,240,.7);"></span><span style="font-size:.82em;letter-spacing:.16em;text-transform:uppercase;font-weight:800;color:#7fb4ff;">Your current position</span>'
+        : '<span style="font-size:.82em;letter-spacing:.16em;text-transform:uppercase;font-weight:800;color:' + col + ';">' + cat + '</span>';
+      let c = '<div style="display:flex;align-items:center;justify-content:center;gap:.66em;">' + kick + this.badgePill(badge, 10, "3px 12px") + '</div>';
+      // diamond/tri narrow sharply toward the title's height — keep the headline inside the shape
+      c += '<div style="font-family:\'Space Grotesk\',sans-serif;font-size:' + (shape === "circle" ? "2.05em" : "1.7em") + ';font-weight:600;letter-spacing:-.01em;line-height:1.12;color:#eef1f6;max-width:' + (shape === "circle" ? "15em" : "11em") + ';">' + title + '</div>';
+      if (sp.from && (!role || sp.from.toLowerCase() !== role.toLowerCase())) c += '<div style="font-size:.94em;color:#8b97b0;margin-top:-.3em;">' + sp.from + '</div>';
+      if (ovN) c += '<p style="margin:0;max-width:' + (shape === "circle" ? "27em" : "22em") + ';font-size:1em;line-height:1.5;color:#9aa6bd;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;">' + ovN + '</p>';
       if (nClips.length) {
-        c += '<div style="display:flex;gap:6px;justify-content:center;">' + nClips.map((cl) =>
-          '<a href="https://www.youtube.com/watch?v=' + cl.id + (cl.start ? '&t=' + cl.start + 's' : '') + '" target="_blank" rel="noopener" title="' + (cl.title || "") + '" style="position:relative;width:' + thumbW + 'px;aspect-ratio:16/10;border-radius:8px;overflow:hidden;border:1px solid rgba(150,170,210,.18);background:linear-gradient(135deg,#2b2336,#1b1b30);display:block;">' +
+        c += '<div style="display:flex;gap:.5em;justify-content:center;">' + nClips.map((cl) =>
+          '<a href="https://www.youtube.com/watch?v=' + cl.id + (cl.start ? '&t=' + cl.start + 's' : '') + '" target="_blank" rel="noopener" title="' + (cl.title || "") + '" style="position:relative;width:' + (shape === "circle" ? "8.5em" : "9.2em") + ';aspect-ratio:16/10;border-radius:.66em;overflow:hidden;border:1px solid rgba(150,170,210,.18);background:linear-gradient(135deg,#2b2336,#1b1b30);display:block;">' +
             '<img src="https://i.ytimg.com/vi/' + cl.id + '/hqdefault.jpg" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.85;">' +
-            '<span style="position:absolute;top:50%;left:50%;transform:translate(-45%,-50%);width:0;height:0;border-left:9px solid rgba(255,255,255,.9);border-top:5.5px solid transparent;border-bottom:5.5px solid transparent;filter:drop-shadow(0 1px 3px rgba(0,0,0,.6));"></span>' +
+            '<span style="position:absolute;top:50%;left:50%;transform:translate(-45%,-50%);width:0;height:0;border-left:.74em solid rgba(255,255,255,.9);border-top:.45em solid transparent;border-bottom:.45em solid transparent;filter:drop-shadow(0 1px 3px rgba(0,0,0,.6));"></span>' +
           '</a>').join("") + '</div>';
       }
-      if (nPrin.length) c += '<div style="width:' + (shape === "circle" ? 340 : shape === "tri" ? 360 : 310) + 'px;text-align:left;">' + secHead("Essential principles") + nPrin.map((p) => bullet(p, "#96a3bf")).join("") + '</div>';
-      if (shape === "circle" && attacks.length) {
-        c += '<div style="width:340px;text-align:left;">' + secHead("Attacks from here", "#ff8a7e") +
-          '<div style="display:flex;gap:5px;flex-wrap:wrap;">' + attacks.slice(0, 3).map((k) =>
-            '<span class="dsAtk" data-i="' + k + '" style="cursor:pointer;font-size:10px;font-weight:700;color:#ff8a7e;background:rgba(242,104,95,.14);border-radius:999px;padding:4px 10px;">' + this.splitName(this.nodes[k].t).main + pct(k) + '</span>').join("") + '</div></div>';
+      if (nPrin.length) c += '<div style="width:' + (shape === "circle" ? "26em" : shape === "tri" ? "24em" : "23em") + ';text-align:left;">' + secHead("Essential principles") + nPrin.map((p) => bullet(p, "#96a3bf")).join("") + '</div>';
+      // techniques: where it leads \u2014 top outcomes with calibrated %s (positions get attack pills below)
+      if (shape !== "circle" && rc && Array.isArray(rc.outcomes) && rc.outcomes.length) {
+        const toneCol = { good: "#7ee0a8", bad: "#e8956b", mid: "#cbd24e" };
+        c += '<div style="width:' + (shape === "tri" ? "24em" : "23em") + ';text-align:left;">' + secHead("Where it leads") +
+          rc.outcomes.slice(0, 2).map((o) =>
+            '<div style="display:flex;align-items:center;gap:.6em;margin-bottom:.4em;"><span style="flex:1;font-size:1em;color:#cdd5e6;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">' + (o.result || "") + ' \u2192 ' + (o.position || "") + '</span><span style="font-size:.95em;font-weight:700;color:' + (toneCol[o.tone] || "#cfd6e4") + ';">' + (o.prob != null ? o.prob + '%' : '') + '</span></div>').join("") + '</div>';
       }
-      c += '<div class="dsRoll" style="cursor:pointer;display:inline-flex;align-items:center;gap:9px;background:linear-gradient(135deg,rgba(74,108,255,.2),rgba(74,108,255,.08));border:1px solid rgba(110,160,255,.35);border-radius:12px;padding:9px 18px;">' +
-        '<span style="flex:none;width:24px;height:24px;border-radius:8px;background:rgba(74,108,255,.22);color:#9ab0e0;display:flex;align-items:center;justify-content:center;"><svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"></path></svg></span>' +
-        '<span style="font-size:12.5px;font-weight:700;color:#eef1f6;">Roll from here</span><span style="font-size:12px;color:#9ab0e0;">\u2192</span></div>';
+      if (shape === "circle" && attacks.length) {
+        // dedupe by display label — adjacent variants often collapse to the same short name
+        const seenLbl = new Set();
+        const atk3 = attacks.filter((k) => { const l = this.splitName(this.nodes[k].t).main; if (seenLbl.has(l)) return false; seenLbl.add(l); return true; }).slice(0, 3);
+        c += '<div style="width:26em;text-align:left;">' + secHead("Attacks from here", "#ff8a7e") +
+          '<div style="display:flex;gap:.4em;flex-wrap:wrap;">' + atk3.map((k) =>
+            '<span class="dsAtk" data-i="' + k + '" style="cursor:pointer;font-size:.82em;font-weight:700;color:#ff8a7e;background:rgba(242,104,95,.14);border-radius:999px;padding:.4em 1em;">' + this.splitName(this.nodes[k].t).main + pct(k) + '</span>').join("") + '</div></div>';
+      }
+      c += '<div class="dsRoll" style="cursor:pointer;display:inline-flex;align-items:center;gap:.74em;background:linear-gradient(135deg,rgba(74,108,255,.2),rgba(74,108,255,.08));border:1px solid rgba(110,160,255,.35);border-radius:1em;padding:.74em 1.5em;">' +
+        '<span style="flex:none;width:2em;height:2em;border-radius:.66em;background:rgba(74,108,255,.22);color:#9ab0e0;display:flex;align-items:center;justify-content:center;"><svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"></path></svg></span>' +
+        '<span style="font-size:1.03em;font-weight:700;color:#eef1f6;">Roll from here</span><span style="font-size:1em;color:#9ab0e0;">\u2192</span></div>';
+      // \u2715 \u2014 fly back out. Lives on the UNCLIPPED shell root (the shape's overflow/clip-path would
+      // swallow it at any corner position), floating just off the ring's top-right.
+      const closeBtn = '<span class="ndClose" title="Close (Esc)" style="position:absolute;top:' + (shape === "tri" ? "14%" : "6%") + ';right:' + (shape === "tri" ? "10%" : "6%") + ';cursor:pointer;width:' + (size / 20) + 'px;height:' + (size / 20) + 'px;border-radius:35%;border:1px solid rgba(150,170,210,.3);background:rgba(12,15,28,.82);color:#c3cde0;font-size:' + (size / 38) + 'px;display:flex;align-items:center;justify-content:center;pointer-events:auto;z-index:2;box-shadow:0 4px 14px rgba(0,0,0,.4);">\u00d7</span>';
       let shell;
-      const colCss = 'position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:11px;text-align:center;';
+      const colCss = 'position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.9em;text-align:center;font-size:' + rootFs + 'px;';
+      // ring layers: outer faint 1px + gap + inner bright 3px (inset), matching canvas stroke style
+      const ringLayers = (radiusCss, clip) => {
+        if (radiusCss) return '<div style="position:absolute;inset:0;border-radius:50%;border:1px solid ' + ringOut + ';"></div>' +
+          '<div style="position:absolute;inset:8px;border-radius:50%;border:3px solid ' + ringIn + ';"></div>';
+        return '<div style="position:absolute;inset:0;clip-path:' + clip + ';background:' + ringOut + ';"></div>' +
+          '<div style="position:absolute;inset:2px;clip-path:' + clip + ';background:#0b0e1a;"></div>' +
+          '<div style="position:absolute;inset:8px;clip-path:' + clip + ';background:' + ringIn + ';"></div>' +
+          '<div style="position:absolute;inset:12px;clip-path:' + clip + ';background:#0b0e1a;"></div>';
+      };
       if (shape === "circle") {
-        shell = '<div style="position:absolute;inset:0;border-radius:50%;border:12px solid ' + ring + ';background:' + fill + ';box-shadow:0 30px 90px rgba(0,0,0,.5),0 0 70px ' + this.rgba(n.col, 0.12) + ';box-sizing:border-box;"></div>' +
-          '<div class="ndHit" style="position:absolute;inset:12px;border-radius:50%;overflow:hidden;pointer-events:none;"><div style="' + colCss + '">' + c + '</div></div>';
+        shell = '<div style="position:absolute;inset:0;border-radius:50%;background:' + fill + ';box-shadow:' + bloom + ';"></div>' + ringLayers(true) +
+          '<div class="ndHit" style="position:absolute;inset:14px;border-radius:50%;overflow:hidden;pointer-events:none;font-size:' + rootFs + 'px;"><div style="' + colCss + '">' + c + '</div></div>' + closeBtn;
       } else if (shape === "diamond") {
-        shell = '<div style="position:absolute;inset:0;filter:drop-shadow(0 26px 60px rgba(0,0,0,.55));">' +
-          '<div style="position:absolute;inset:0;clip-path:polygon(50% 0%,100% 50%,50% 100%,0% 50%);background:linear-gradient(160deg,' + this.rgba(n.col, 0.9) + ',' + this.rgba(n.col, 0.5) + ');"></div>' +
-          '<div class="ndHit" style="position:absolute;inset:16px;clip-path:polygon(50% 0%,100% 50%,50% 100%,0% 50%);background:' + fill + ';pointer-events:none;"><div style="' + colCss + 'gap:9px;">' + c + '</div></div></div>';
+        const clip = 'polygon(50% 0%,100% 50%,50% 100%,0% 50%)';
+        // content lives in the diamond's wide middle band — the top/bottom quarters are too narrow
+        shell = '<div style="position:absolute;inset:0;clip-path:' + clip + ';background:' + fill + ';"></div>' +
+          '<div style="position:absolute;inset:0;border-radius:50%;box-shadow:' + bloom + ';"></div>' + ringLayers(false, clip) +
+          '<div class="ndHit" style="position:absolute;inset:14px;clip-path:' + clip + ';background:' + fill + ';pointer-events:none;font-size:' + rootFs + 'px;"><div style="position:absolute;left:0;right:0;top:14%;bottom:14%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.9em;text-align:center;font-size:1em;">' + c + '</div></div>' + closeBtn;
       } else {
-        shell = '<div style="position:absolute;inset:0;filter:drop-shadow(0 26px 60px rgba(0,0,0,.55));">' +
-          '<div style="position:absolute;inset:0;clip-path:polygon(50% 2%,98% 92%,2% 92%);background:linear-gradient(170deg,' + this.rgba(n.col, 0.9) + ',' + this.rgba(n.col, 0.5) + ');"></div>' +
-          '<div class="ndHit" style="position:absolute;inset:17px;clip-path:polygon(50% 2%,98% 92%,2% 92%);background:' + fill + ';pointer-events:none;"><div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;gap:10px;text-align:center;padding-bottom:64px;box-sizing:border-box;">' + c + '</div></div></div>';
+        const clip = 'polygon(50% 2%,98% 92%,2% 92%)';
+        // triangle: center the content in the incircle (upper-middle of the polygon), not bottom-crushed
+        shell = '<div style="position:absolute;inset:0;clip-path:' + clip + ';background:' + fill + ';"></div>' +
+          '<div style="position:absolute;inset:0;border-radius:50%;box-shadow:' + bloom + ';"></div>' + ringLayers(false, clip) +
+          '<div class="ndHit" style="position:absolute;inset:14px;clip-path:' + clip + ';background:' + fill + ';pointer-events:none;font-size:' + rootFs + 'px;"><div style="position:absolute;left:0;right:0;top:22%;bottom:10%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.8em;text-align:center;font-size:1em;">' + c + '</div></div>' + closeBtn;
       }
       dos.style.width = size + "px"; dos.style.height = size + "px";
       dos.innerHTML = shell;
       dos.querySelectorAll(".dsAtk").forEach((a2) => a2.addEventListener("click", () => this.openDossier(parseInt(a2.getAttribute("data-i"), 10))));
-      const roll2 = dos.querySelector(".dsRoll"); if (roll2) roll2.addEventListener("click", () => this.jumpToState(n.idx));
+      const roll2 = dos.querySelector(".dsRoll"); if (roll2) roll2.addEventListener("click", () => { this.closeNodeDossier(); this.jumpToState(n.idx); });
+      const xnd = dos.querySelector(".ndClose"); if (xnd) xnd.addEventListener("click", (ev) => { ev.stopPropagation(); this.closeNodeDossier(); });
       return;
     }
 
@@ -2569,9 +2629,8 @@ class Component extends DCLogic {
     setTimeout(() => { try { inp.focus(); } catch (e) {} }, 60);
   }
   locateNode2(idx) {
-    const n = this.nodes[idx]; if (!n) return;
-    this.camTarget = { cx: n.x, cy: n.y, vw: Math.max(this.graphW * 0.22, this.graphR * 0.5) };
-    this.lastInteract = this.now; this.flare(idx);
+    // search "Locate" takes the same unified prezi path as explorer rows and canvas clicks
+    this.openDossier(idx);
   }
   updateTransport() {
     const b = this.playPauseRef.current; if (!b) return;
@@ -3422,6 +3481,10 @@ class Component extends DCLogic {
         tgt = { cx: f.x + offset, cy: f.y, vw: vw };
       }
     }
+    // while paused or reading an in-node dossier, suppress only the AUTO-retarget — the tween
+    // itself keeps flying toward whatever camTarget was set (Follow/Overview must not yank the
+    // camera away mid-read, but manual prezi targets still animate).
+    if (this.introDone && (this.paused || this._dossierIdx != null)) tgt = null;
     if (tgt) { this.camTarget.cx = tgt.cx; this.camTarget.cy = tgt.cy; this.camTarget.vw = tgt.vw; }
     const tauP = this.introDone ? 0.5 : 0.8, tauV = this.introDone ? 0.55 : 0.9;
     const aP = 1 - Math.exp(-dt / tauP), aV = 1 - Math.exp(-dt / tauV);
@@ -3457,7 +3520,9 @@ class Component extends DCLogic {
         this.updateFlash();
         this.updateRipples();
         this.updateUiShift(dt);
-        this.updateCamera(gdt);
+        // camera runs on the REAL clock — pausing the sim must not freeze the tween
+        // (the prezi flight into a dossier happens while the roll is auto-paused)
+        this.updateCamera(dt);
         this.trail = this.trail.filter((e) => this.now - e.time < 2.8);
         this.draw();
       } catch (err) {
@@ -3561,7 +3626,7 @@ class Component extends DCLogic {
       else if (ptrs.size === 0) {
         const card = this.nodeCardRef && this.nodeCardRef.current;
         const inCard = card && card.style.display !== "none" && e && card.contains(e.target);
-        if (dragging && moved < 5 && e && !inCard) { this._updateHover(e); if (this._hover && this._hover.idx >= 0) this.openDossier(this._hover.idx); else { this.closeExplorerIfOpen(); this.closeDossierSheet(); } }
+        if (dragging && moved < 5 && e && !inCard) { this._updateHover(e); if (this._hover && this._hover.idx >= 0) this.openDossier(this._hover.idx); else { this.closeNodeDossier(); this.closeExplorerIfOpen(); this.closeDossierSheet(); } }
         dragging = false; el.style.cursor = "grab";
       }
       this.lastInteract = this.now;
@@ -3575,7 +3640,9 @@ class Component extends DCLogic {
       const sb = this.W / this.cam.vw;
       const wx = this.cam.cx + (sx - this.W / 2) / sb, wy = this.cam.cy + (sy - this.H / 2) / sb;
       let vw = this.cam.vw * Math.exp(e.deltaY * 0.0012);
-      vw = Math.max(this.graphW * 0.006, Math.min(this.graphW * 2.6, vw));
+      // while reading an in-node dossier, don't let wheel-zoom overshoot past the card's sweet spot
+      const zmin = this._dossierIdx != null ? this.graphW * 0.0075 : this.graphW * 0.006;
+      vw = Math.max(zmin, Math.min(this.graphW * 2.6, vw));
       this.cam.vw = vw; this.cam.lvw = Math.log(vw);
       const sa = this.W / vw;
       this.cam.cx = wx - (sx - this.W / 2) / sa; this.cam.cy = wy - (sy - this.H / 2) / sa;
@@ -3715,15 +3782,20 @@ class Component extends DCLogic {
     // base nodes — shrink a touch when zoomed in so dense clusters separate
     const nodeK = Math.max(0.4, Math.min(1, this.cam.vw / (this.graphW * 0.5)));
     const br = this.anim("idleBreath", 2) * 0.01;
+    // glyph→dossier handoff: the carded node's canvas glyph fades out exactly as the DOM card
+    // fades in (matched ring/fill geometry) so the zoom reads as one object revealing itself
+    const cardFade = (idx) => (this._nodeCardOn && idx === this._nodeCardIdx) ? 1 - (this._nodeCardO || 0) : 1;
     for (const n of this.nodes) {
+      const cf = cardFade(n.idx); if (cf <= 0.01) continue;
       const bk = br ? 1 + br * Math.sin(this.now * 1.4 + n.idx * 0.83) : 1;
-      ctx.fillStyle = this.rgba(n.col, 0.62 * A * dim);
+      ctx.fillStyle = this.rgba(n.col, 0.62 * A * dim * cf);
       ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, n.y, n.r * nodeK * bk); ctx.fill();
     }
 
     // current position marker
     if (this.focusIdx >= 0 && !this.pulse) {
       const n = this.nodes[this.focusIdx];
+      const cf = cardFade(n.idx);
       const pulse = 0.5 + 0.5 * Math.sin(this.now * 2.4);
       const pc = this.myColor(n);
       // landing settle: damped overshoot when the roll arrives
@@ -3732,12 +3804,14 @@ class Component extends DCLogic {
         const sa = this.now - this._settleT;
         if (sa >= 0 && sa < 0.9) settle = 1 + 0.26 * Math.exp(-3.4 * sa) * Math.sin(sa * 14);
       }
-      // recolor the current node to YOUR perspective (red when you're losing, blue when winning)
-      ctx.fillStyle = this.rgba(pc, 0.98 * A);
-      ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, n.y, n.r * 1.28 * settle); ctx.fill();
-      ctx.strokeStyle = this.rgba(pc, (0.7 + 0.3 * pulse) * A);
-      ctx.lineWidth = 2.4 / scale;
-      ctx.beginPath(); ctx.arc(n.x, n.y, n.r * 2.9 * settle, 0, 6.2832); ctx.stroke();
+      if (cf > 0.01) {
+        // recolor the current node to YOUR perspective (red when you're losing, blue when winning)
+        ctx.fillStyle = this.rgba(pc, 0.98 * A * cf);
+        ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, n.y, n.r * 1.28 * settle); ctx.fill();
+        ctx.strokeStyle = this.rgba(pc, (0.7 + 0.3 * pulse) * A * cf);
+        ctx.lineWidth = 2.4 / scale;
+        ctx.beginPath(); ctx.arc(n.x, n.y, n.r * 2.9 * settle, 0, 6.2832); ctx.stroke();
+      }
     }
 
     // flaring nodes
