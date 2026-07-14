@@ -238,6 +238,8 @@ class Component extends DCLogic {
     this.mastered = new Set();
     this.prep = {};
     this.settings = this.settings || {};
+    this._loadProgress(); // restore prep / daily history / settings (guest persistence)
+    this._initAuth();     // signed-in? real identity + merge-on-pull cloud sync (facade-gated)
     this.paused = false;
     this.applyFont();
     this.updateTransport();
@@ -255,7 +257,12 @@ class Component extends DCLogic {
     // (SEO) content, defeating the "overlay so legacy always shows" fallback contract.
     try { this.ingest(data); }
     catch (e) { console.error("[neural] ingest failed:", e); this._fallbackToLegacy(); return; }
-    try { const fr = await fetch("flashcards.json", { cache: "no-cache" }); if (fr.ok) this.flashcards = await fr.json(); } catch (e) { /* optional */ }
+    // flashcards (13.5MB) load in the BACKGROUND — first paint doesn't wait; the drill panel
+    // and odds refresh when the decks land. (fetch literal kept patchable by build.mjs.)
+    fetch("flashcards.json", { cache: "no-cache" })
+      .then((fr) => (fr.ok ? fr.json() : null))
+      .then((j) => { if (j) { this.flashcards = j; this.onFlashcardsReady(); } })
+      .catch(() => { /* optional payload */ });
     if (this.loaderRef.current) this.loaderRef.current.style.display = "none";
     this.startLoop();
   }
@@ -685,9 +692,15 @@ class Component extends DCLogic {
   noteCardDone(card, key) {
     const q = card && card.q;
     if (!q) return;
+    this._saveProgress(); // persist prep bumps (debounced) even for repeat answers
     this.cardDone = this.cardDone || new Set();
     if (this.cardDone.has(q)) return;          // already credited everywhere
     this.cardDone.add(q);
+    { // honest daily counter — cardsToday was read everywhere but never written
+      const dk = this._dayKey(); this._days = this._days || {};
+      this._days[dk] = (this._days[dk] || 0) + 1; this.cardsToday = this._days[dk];
+      this.track("neural_card_answered", { deck_key: key, cards_today: this.cardsToday });
+    }
     if (!this._qkDecks) {                      // lazy one-time index: question -> deck keys carrying it
       this._qkDecks = new Map();
       const decks = (this.flashcards && this.flashcards.decks) || {};
@@ -773,6 +786,7 @@ class Component extends DCLogic {
   }
 
   setDeckOpen(open) {
+    if (open && !this.deckOpen) this.track("neural_drill_opened", { deck_key: this._posKey || null });
     this.deckOpen = !!open;       // sticky: once opened it stays open across lands until closed
     this.applyDeckVisibility();
     this.lastInteract = this.now;
@@ -913,9 +927,54 @@ class Component extends DCLogic {
     [this.brandFontRef, this.evcTextRef, this.evcKickerRef, this.evTextRef].forEach((r) => { if (r && r.current) r.current.style.fontFamily = fam; });
   }
   // ---------- account menu / modals ----------
-  set(k, v) { this.settings = this.settings || {}; this.settings[k] = v; }
+  // ---------- local persistence (bjj-neural-progress) — drill progress used to reset on every
+  // reload; this is the single blob the cloud sync (slice 6) pushes/pulls. ----------
+  _dayKey(d) { const x = d || new Date(); return x.getFullYear() + "-" + String(x.getMonth() + 1).padStart(2, "0") + "-" + String(x.getDate()).padStart(2, "0"); }
+  _loadProgress() {
+    try {
+      const raw = localStorage.getItem("bjj-neural-progress"); if (!raw) return;
+      const p = JSON.parse(raw); if (!p || p.v !== 1) return;
+      this.prep = Object.assign({}, p.prep || {});
+      this._days = Object.assign({}, p.days || {});
+      if (p.settings) this.settings = Object.assign({}, this.settings || {}, p.settings);
+      this.cardsToday = this._days[this._dayKey()] || 0;
+    } catch (e) { /* corrupt/absent — start fresh */ }
+  }
+  _progressBlob() {
+    const days = this._days || {};
+    const trimmed = {};
+    for (const k of Object.keys(days).sort().slice(-30)) trimmed[k] = days[k];
+    this._progressAt = Date.now();
+    return { v: 1, prep: this.prep || {}, days: trimmed, settings: this.settings || {}, updatedAt: this._progressAt };
+  }
+  _saveProgress() {
+    clearTimeout(this._saveT);
+    this._saveT = setTimeout(() => {
+      try { localStorage.setItem("bjj-neural-progress", JSON.stringify(this._progressBlob())); } catch (e) { /* quota */ }
+      if (this._pushCloud) this._pushCloud(); // cloud sync (slice 6) — no-op for guests
+    }, 400);
+  }
+  set(k, v) { this.settings = this.settings || {}; this.settings[k] = v; this._saveProgress(); }
+  // deferred-payload hooks: refresh whatever is open when the heavy files land post-boot
+  onFlashcardsReady() {
+    try {
+      if (this.currentPos != null && this.currentPos >= 0) this.buildDrillPanel(this.currentPos);
+      if (this.deckShown && this._drillView === "home") this.renderDrillHome();
+      this.refreshOptionOdds(); this.updateDrillTab();
+    } catch (e) { /* non-fatal */ }
+  }
+  onContentReady() {
+    try {
+      if (this._nodeCardOn) { this._nodeCardIdx = null; this.updateNodeCard(this.W / this.cam.vw); }
+      else if (this._dossierIdx != null && this.isMobile() && this.nodes) this.renderDossier(this.nodes[this._dossierIdx]);
+    } catch (e) { /* non-fatal */ }
+  }
+  // guarded PostHog capture (the page loads posthog globally; token absent on localhost) — no PII
+  track(event, props) {
+    try { const ph = window.posthog; if (ph && ph.capture) ph.capture(event, Object.assign({ variant: "neural" }, props || {})); } catch (e) { /* analytics must never break the app */ }
+  }
   get(k, d) { const v = (this.settings || {})[k]; return v == null ? d : v; }
-  masteredCount() { const p = this.prep || {}; return (this._libCount || 0) + Object.keys(p).filter((k) => p[k] > 0).length; }
+  masteredCount() { const p = this.prep || {}; return Object.keys(p).filter((k) => p[k] > 0).length; }
   coveragePct(mastered, goal) {
     const raw = (mastered / Math.max(1, goal)) * 100;
     if (raw <= 0) return 0;
@@ -1011,7 +1070,7 @@ class Component extends DCLogic {
         const out = document.createElement("button");
         out.textContent = "Log out";
         out.style.cssText = "width:100%;cursor:pointer;font-family:inherit;font-size:11.5px;font-weight:600;padding:6px;border-radius:9px;border:none;background:transparent;color:#7e8aa3;";
-        out.addEventListener("click", () => { this.user = null; this.updateAccountUI(); this.renderDrillHome(); });
+        out.addEventListener("click", () => { const A = this._auth(); if (A && A.signOut) { try { A.signOut(); } catch (e) {} } this.user = null; this._pulled = false; this.updateAccountUI(); this.renderDrillHome(); });
         foot.appendChild(out);
       }
     }
@@ -1521,7 +1580,7 @@ class Component extends DCLogic {
     if (!locked) b.addEventListener("click", onClick);
     return b;
   }
-  openSettings(tab) { this._settingsTab = tab || "flashcards"; this.openModal(); this.renderSettings(); }
+  openSettings(tab) { this._settingsTab = tab || "flashcards"; this.track("neural_settings_opened", { tab: this._settingsTab }); this.openModal(); this.renderSettings(); }
   bucketTechniques(bucket) {
     // build a deck list from seeded decks + node families, tagged by bucket
     const decks = (this.flashcards && this.flashcards.decks) || {};
@@ -1922,13 +1981,57 @@ class Component extends DCLogic {
     return wrap;
   }
   openAuth(mode) { this._authMode = mode || "create"; this.openModal(); this.renderAuth(); }
-  signIn(provider) {
-    this.user = { name: "Diogo", initial: "D", provider: provider, count: 24 };
-    // fold the signed-in library into mastery so "Your game" reflects it
-    this._libCount = 24;
+  // ---------- real auth via the page's Supabase facade (window.__bjjAuth, see supabase.ts) ----------
+  _auth() { const A = window.__bjjAuth; return (A && typeof A.isAuthenticated === "function") ? A : null; }
+  async _initAuth() {
+    const A = this._auth(); if (!A) return; // facade absent (no Supabase config) -> guest-only, zero UX change
+    try {
+      if (A.isAuthenticated()) {
+        await A.ensureClientInitialized();
+        const sess = await A.getSession();
+        if (sess && sess.user) this._applyUser(sess.user);
+        await this._pullAndMerge();
+      }
+      if (A.onAuthChange) A.onAuthChange((event, session) => {
+        if (event === "SIGNED_IN" && session && session.user) {
+          this._applyUser(session.user); this._pullAndMerge();
+          this.track("neural_signin_completed", { method: this._authMethod || "session" });
+        } else if (event === "SIGNED_OUT") {
+          this.user = null; this._pulled = false; this.updateAccountUI();
+        }
+      });
+    } catch (e) { /* auth is optional — guest experience stands */ }
+  }
+  _applyUser(u) {
+    const email = u.email || "";
+    const name = (u.user_metadata && (u.user_metadata.full_name || u.user_metadata.name)) || (email ? email.split("@")[0] : "You");
+    this.user = { name: name, initial: (name[0] || "Y").toUpperCase() };
     this.updateAccountUI();
-    this.closeModal();
-    this.openMenu();
+  }
+  // merge-on-pull: per-key max for prep/days (monotonic counters), settings LWW by updatedAt.
+  async _pullAndMerge() {
+    const A = this._auth(); if (!A || !A.pullNeural) return;
+    try {
+      const cloud = await A.pullNeural();
+      if (cloud && cloud.v === 1) {
+        const prep = this.prep || {}, days = this._days || {};
+        for (const k in (cloud.prep || {})) prep[k] = Math.max(prep[k] || 0, cloud.prep[k] || 0);
+        for (const d in (cloud.days || {})) days[d] = Math.max(days[d] || 0, cloud.days[d] || 0);
+        this.prep = prep; this._days = days;
+        const localAt = this._progressAt || 0;
+        if (cloud.settings && (cloud.updatedAt || 0) > localAt) this.settings = Object.assign({}, this.settings, cloud.settings);
+        this.cardsToday = days[this._dayKey()] || 0;
+      }
+      this._pulled = true;          // a fresh device must pull before it may push (no cloud clobber)
+      this._saveProgress();         // persist merged state + push it back
+      this.updateDrillTab();
+    } catch (e) { /* keep local on any failure */ }
+  }
+  _pushCloud() {
+    const A = this._auth(); if (!A || !A.pushNeural || !this._pulled) return;
+    try { if (!A.isAuthenticated()) return; } catch (e) { return; }
+    clearTimeout(this._pushT);
+    this._pushT = setTimeout(() => { try { A.pushNeural(this._progressBlob()); } catch (e) { /* retry on next save */ } }, 500);
   }
   updateAccountUI() {
     const chip = this.acctChipRef.current; if (!chip) return;
@@ -1955,28 +2058,56 @@ class Component extends DCLogic {
       '<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px;"><div style="display:flex;align-items:center;gap:9px;">' + this.iconStack("#7e9bff") + '<span style="font-size:17px;font-weight:700;color:#eef1f6;font-family:\'Space Grotesk\',sans-serif;">bjjgraph<span style="color:#7b8aa8;">.org</span></span></div><span class="x" style="cursor:pointer;color:#8b97b0;font-size:20px;">&times;</span></div>' +
       '<div style="font-size:21px;font-weight:700;color:#eef1f6;letter-spacing:-.01em;margin-top:14px;">' + (mode === "create" ? "Create your account" : "Welcome back") + '</div>' +
       '<div style="font-size:13px;color:#93a0bd;margin-top:6px;line-height:1.5;">' + (mode === "create" ? "Keep your drilled reps, progress and rolling stats across sessions." : "Log back in and pick up where you left off.") + '</div>';
-    // email + continue
+    // email + password (real Supabase auth via the page facade; guest-only when unconfigured)
+    const A = this._auth();
     const inp = document.createElement("input");
-    inp.type = "email"; inp.placeholder = "you@email.com";
+    inp.type = "email"; inp.placeholder = "you@email.com"; inp.autocomplete = "email";
     inp.style.cssText = "width:100%;margin-top:20px;font-family:inherit;font-size:14px;color:#eef1f6;background:rgba(255,255,255,.04);border:1px solid rgba(150,170,210,.25);border-radius:11px;padding:13px 14px;box-sizing:border-box;";
     b.appendChild(inp);
+    const pw = document.createElement("input");
+    pw.type = "password"; pw.placeholder = mode === "create" ? "Choose a password (8+ characters)" : "Password";
+    pw.autocomplete = mode === "create" ? "new-password" : "current-password";
+    pw.style.cssText = "width:100%;margin-top:9px;font-family:inherit;font-size:14px;color:#eef1f6;background:rgba(255,255,255,.04);border:1px solid rgba(150,170,210,.25);border-radius:11px;padding:13px 14px;box-sizing:border-box;";
+    b.appendChild(pw);
+    const err = document.createElement("div");
+    err.style.cssText = "display:none;margin-top:9px;font-size:12px;line-height:1.45;color:#ff9a8f;";
+    b.appendChild(err);
+    const showErr = (m) => { err.textContent = m; err.style.display = "block"; };
     const cont = document.createElement("button");
     cont.textContent = mode === "create" ? "Create account" : "Log in";
     cont.style.cssText = "width:100%;margin-top:11px;cursor:pointer;font-family:inherit;font-size:14px;font-weight:600;padding:13px;border-radius:11px;border:none;background:linear-gradient(135deg,#4a6cff,#6a5cff);color:#fff;";
-    cont.addEventListener("click", () => this.closeModal());
+    cont.addEventListener("click", async () => {
+      if (!A) { showErr("Accounts aren\u2019t available right now \u2014 your progress is saved on this device."); return; }
+      const email = inp.value.trim(), pass = pw.value;
+      if (!email || !pass) { showErr("Enter your email and password."); return; }
+      err.style.display = "none"; cont.disabled = true; const label = cont.textContent; cont.textContent = "\u2026";
+      this._authMethod = "email"; this.track("neural_signin_started", { method: "email", mode: mode });
+      try {
+        if (mode === "create") await A.signUp(email, pass); else await A.signIn(email, pass);
+        this.closeModal(); // SIGNED_IN handler applies identity + pulls; sign-up may require email confirm
+        if (mode === "create") this.showCenter && this.showCenter("Check your inbox", "Confirm your email to finish creating the account", "", "muted", true);
+      } catch (e2) {
+        showErr((e2 && e2.message) || "Sign-in failed \u2014 check your details and try again.");
+        cont.disabled = false; cont.textContent = label;
+      }
+    });
     b.appendChild(cont);
-    // divider + social
+    // divider + Google (Apple dropped — provider not configured)
     const div = document.createElement("div");
     div.style.cssText = "display:flex;align-items:center;gap:12px;margin:18px 0;color:#6b7691;font-size:11px;";
     div.innerHTML = '<div style="flex:1;height:1px;background:rgba(150,170,210,.15);"></div>OR<div style="flex:1;height:1px;background:rgba(150,170,210,.15);"></div>';
     b.appendChild(div);
-    ["Continue with Google", "Continue with Apple"].forEach((t) => {
+    {
       const sb = document.createElement("button");
-      sb.textContent = t;
+      sb.textContent = "Continue with Google";
       sb.style.cssText = "width:100%;margin-bottom:9px;cursor:pointer;font-family:inherit;font-size:13.5px;font-weight:600;padding:12px;border-radius:11px;border:1px solid rgba(150,170,210,.25);background:rgba(255,255,255,.03);color:#dbe2f0;";
-      sb.addEventListener("click", () => this.signIn(t.indexOf("Google") >= 0 ? "Google" : "Apple"));
+      sb.addEventListener("click", async () => {
+        if (!A) { showErr("Accounts aren\u2019t available right now \u2014 your progress is saved on this device."); return; }
+        this._authMethod = "google"; this.track("neural_signin_started", { method: "google", mode: mode });
+        try { await A.signInWithGoogle(); } catch (e2) { showErr((e2 && e2.message) || "Google sign-in failed."); } // PKCE redirect navigates away on success
+      });
       b.appendChild(sb);
-    });
+    }
     const sw = document.createElement("div");
     sw.style.cssText = "text-align:center;margin-top:14px;font-size:12.5px;color:#93a0bd;";
     sw.innerHTML = (mode === "create" ? "Already have an account? " : "New here? ") + '<span class="sw" style="cursor:pointer;color:#9ab0e0;font-weight:600;">' + (mode === "create" ? "Log in" : "Create account") + '</span>';
@@ -2173,6 +2304,7 @@ class Component extends DCLogic {
   }
   openDossier(idx, skipCam) {
     const n = this.nodes && this.nodes[idx]; if (!n) return;
+    this.track("neural_dossier_opened", { node: n.t, node_type: n.ty, mode: this.isMobile() ? "sheet" : "node" });
     this._dossierIdx = idx;
     if (this.isMobile()) {
       // top sheet: 70% tall, graph strip + options + win bar + drill row stay visible below
@@ -2691,7 +2823,7 @@ class Component extends DCLogic {
       ph.innerHTML =
         '<div style="margin-bottom:12px;">' + chipLabel + '</div>' +
         '<div style="font-size:13.5px;font-weight:600;color:#cdd5e6;line-height:1.45;margin-bottom:8px;">Flashcards for this ' + info.cat.toLowerCase() + ' are being authored.</div>' +
-        '<div style="font-size:11.5px;color:#8b97b0;line-height:1.5;">Cards are baked per role from the BJJ Graph guide. Seeded so far: <b style="color:#a9b6cf;">Closed Guard</b>, <b style="color:#a9b6cf;">Scissor Sweep</b>.</div>';
+        (function (D) { const nd = Object.keys(D).length; let nc = 0; for (const k in D) nc += (D[k].cards ? D[k].cards.length : 0); return '<div style="font-size:11.5px;color:#8b97b0;line-height:1.5;">Cards are baked per role from the BJJ Graph guide — <b style="color:#a9b6cf;">' + nd.toLocaleString() + ' decks</b> · <b style="color:#a9b6cf;">' + nc.toLocaleString() + ' cards</b> and counting.</div>'; })((this.flashcards && this.flashcards.decks) || {});
       list.appendChild(ph);
       return;
     }
@@ -2719,15 +2851,16 @@ class Component extends DCLogic {
           done.appendChild(next);
         } else if (cur === ses.keys.length - 1) {
           // session finished — celebrate, then a subtle close
+          this.track("neural_session_completed", { techniques: ses.keys.length });
           done.innerHTML =
             '<div style="font-size:26px;margin-bottom:10px;">\uD83C\uDF89</div>' +
             '<div style="font-size:15px;font-weight:700;color:#bff0d2;margin-bottom:6px;">Done for today \u2014 great job!</div>' +
             '<div style="font-size:11.5px;color:#9ab3a4;line-height:1.5;margin-bottom:14px;">You reviewed all ' + ses.keys.length + ' techniques in this session.</div>';
-          // 7-day progress sparkline (today reflects this session)
-          const today = ses.keys.length;
-          const week = [3, 6, 2, 8, 5, 4, today];
-          const days = ["M", "T", "W", "T", "F", "S", "S"];
-          const maxv = Math.max.apply(null, week);
+          // 7-day progress sparkline — REAL history from the persisted daily counts
+          const dk7 = []; for (let i = 6; i >= 0; i--) { const d = new Date(); d.setDate(d.getDate() - i); dk7.push(d); }
+          const week = dk7.map((d) => (this._days || {})[this._dayKey(d)] || 0);
+          const days = dk7.map((d) => ["S", "M", "T", "W", "T", "F", "S"][d.getDay()]);
+          const maxv = Math.max(1, Math.max.apply(null, week));
           let bars = '<div style="display:flex;align-items:flex-end;justify-content:center;gap:7px;height:60px;margin-bottom:6px;">';
           week.forEach((v, i) => { const last = i === week.length - 1; const h = Math.max(6, Math.round((v / maxv) * 54)); bars += '<div style="display:flex;flex-direction:column;align-items:center;gap:5px;"><div style="width:16px;height:' + h + 'px;border-radius:4px;background:' + (last ? "linear-gradient(180deg,#7ee0a8,#4a9c74)" : "rgba(120,150,210,.3)") + ';"></div><span style="font-size:9px;color:' + (last ? "#7ee0a8" : "#6b7691") + ';font-weight:600;">' + days[i] + '</span></div>'; });
           bars += '</div>';
@@ -2898,6 +3031,7 @@ class Component extends DCLogic {
 
   endRound(kind, name) {
     this.clearTimers(); this.clearOptions();
+    this.track("neural_roll_ended", { outcome: kind, moves: this.moveCount || 0 });
     if (kind !== "reset" && this.anim("slowMoFinish", true)) this._slowmo = this.now;
     this._lastOutcome = kind;
     this.deckReady = false;
@@ -3042,6 +3176,7 @@ class Component extends DCLogic {
   }
   startRoll() {
     this.clearTimers(); this.clearOptions();
+    this.track("neural_roll_started", {});
     // archive the roll that just ended so the sidebar can show "Previous roll / Today / Yesterday"
     if (this.rollLog && this.rollLog.length > 1) {
       this._pastRolls = this._pastRolls || [];
@@ -3162,6 +3297,7 @@ class Component extends DCLogic {
 
   enterAttempt(opt) {
     const act = this.nodes[opt.idx];
+    this.track("neural_move_picked", { technique: act.t, node_type: act.ty });
     this._pendingIntent = { actor: "you", idx: opt.res >= 0 ? opt.res : opt.idx };
     const verb = act.ty === "submissions" ? "Going for the submission" : "Attempting the transition";
     this.setEvent(verb, act.t, "info");

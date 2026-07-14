@@ -34,11 +34,14 @@ function persistVariant(v: Variant): void {
   }
 }
 
+let variantSource: "url" | "settings" | "default" = "default"
+
 function resolveVariant(): Variant {
   try {
     const p = new URLSearchParams(location.search).get("variant")
     if (p === "neural" || p === "legacy") {
       persistVariant(p) // ?variant= sticks for subsequent navigations
+      variantSource = "url"
       return p
     }
   } catch {
@@ -46,11 +49,32 @@ function resolveVariant(): Variant {
   }
   try {
     const s = JSON.parse(localStorage.getItem(SETTINGS_KEY) || "{}")
-    if (s.variant === "neural" || s.variant === "legacy") return s.variant
+    if (s.variant === "neural" || s.variant === "legacy") {
+      variantSource = "settings"
+      return s.variant
+    }
   } catch {
     /* corrupt settings — default */
   }
+  variantSource = "default"
   return "neural"
+}
+
+// one exposure event per full page load (fired post-DOM so the PostHog stub queue exists)
+let exposureFired = false
+function fireExposure(v: Variant): void {
+  if (exposureFired) return
+  exposureFired = true
+  const send = () => {
+    try {
+      const ph = (window as any).posthog
+      if (ph?.capture) ph.capture("neural_variant_exposure", { variant: v, source: variantSource })
+    } catch {
+      /* analytics must never break the page */
+    }
+  }
+  if (document.body) send()
+  else document.addEventListener("DOMContentLoaded", send, { once: true })
 }
 
 // Hide the legacy presentation while the Neural overlay owns the screen. Keyed on
@@ -102,8 +126,8 @@ function loadNeuralBundle(): Promise<void> {
     css.onerror = () => css.remove()
     css.setAttribute("spa-preserve", "") // survive head-patching across navs
     document.head.appendChild(css)
-    // technique-content.js sets window.NG_CONTENT; load it BEFORE the app.
-    await loadScript(DATA_BASE + "technique-content.js")
+    // app bundle FIRST — the ~20MB NG_CONTENT dossier payload is deferred off the critical
+    // path (the app renders graceful fallbacks until it lands, then onContentReady refreshes).
     await new Promise<void>((res) => {
       const el = document.createElement("script")
       el.src = APP_BASE + "neural.js"
@@ -115,6 +139,13 @@ function loadNeuralBundle(): Promise<void> {
         res()
       }
       document.body.appendChild(el)
+    })
+    void loadScript(DATA_BASE + "technique-content.js").then(() => {
+      try {
+        ;(window as any).__neural?.onContentReady?.()
+      } catch {
+        /* app not mounted yet — it reads window.NG_CONTENT lazily anyway */
+      }
     })
   })()
 }
@@ -141,6 +172,7 @@ function applyVariant(): void {
   // prescript (head) time — applying them immediately prevents any flash of legacy UI.
   const v = resolveVariant()
   document.documentElement.dataset.variant = v
+  fireExposure(v)
   setLegacyHidden(v === "neural") // hide legacy chrome under the overlay (self-disabling on fallback)
   if (v === "neural") {
     // appending the bundle <script>s needs <body>, which does NOT exist at head time — defer
