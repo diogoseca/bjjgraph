@@ -1523,9 +1523,17 @@ class Component extends DCLogic {
     if (bucket === "mastered") return keys.filter((k) => prep[k] > 0);
     if (bucket === "explored") return [...(this._exploredKeys || [])];
     if (bucket === "suggested") {
-      // weakest-first: seeded decks you haven't drilled, then the rest
+      // weakest-first, ONE entry per technique/position — deck keys come in Top/Bottom pairs of
+      // the same base (and base positions' blended Top/Bottom decks are identical), which reads
+      // as duplicated entries. Also make "your game" mean YOUR game: states you actually rolled
+      // through but haven't drilled come first, then untouched decks, then low-rep ones.
+      const seenBase = new Set();
+      const uniq = (arr) => arr.filter((k) => { const f = k.split("|")[0]; if (seenBase.has(f)) return false; seenBase.add(f); return true; });
+      const explored = this._exploredKeys ? [...this._exploredKeys] : [];
+      const undoneExplored = explored.filter((k) => decks[k] && !prep[k]);
       const undone = keys.filter((k) => !prep[k]);
-      return undone.concat(keys.filter((k) => prep[k])).slice(0, this.get("dailyGoal", 30));
+      const lowReps = keys.filter((k) => prep[k] > 0 && prep[k] < 3);
+      return uniq(undoneExplored.concat(undone, lowReps)).slice(0, this.get("dailyGoal", 30));
     }
     if (bucket === "reviewing") return keys.filter((k) => prep[k] > 0 && prep[k] < 3);
     if (bucket === "due") return keys.filter((k) => prep[k] > 0).slice(0, 0); // none scheduled in guest mode

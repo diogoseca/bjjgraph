@@ -2,10 +2,11 @@
 // localStorage-based with optional Supabase cloud sync
 
 export type GameMode = "off" | "normal" | "hard" | "ultra"
-// Front-end variant: "legacy" = the classic Quartz UI (default), "neural" = the Neural
-// Graph experience (mounted client-side on top of the same static HTML — see
-// variant.inline.ts). The static/SEO surface is identical for both; only the client
-// presentation differs, so this is purely a client-side preference.
+// Front-end variant: "neural" = the Neural Graph experience (default since v1.54.0 — mounted
+// client-side on top of the same static HTML, see variant.inline.ts), "legacy" = the classic
+// Quartz UI (?variant=legacy escape hatch, kept for comparison). The static/SEO surface is
+// identical for both; only the client presentation differs, so this is purely a client-side
+// preference.
 export type Variant = "legacy" | "neural"
 
 export interface BJJSettings {
@@ -41,7 +42,7 @@ export const DEFAULT_SETTINGS: BJJSettings = {
   gameMode: "off",
   dailyGoal: 30,
   showFlashcards: true,
-  variant: "legacy",
+  variant: "neural",
 }
 
 const today = localDateKey
