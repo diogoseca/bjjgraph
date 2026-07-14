@@ -2535,15 +2535,14 @@ class Component extends DCLogic {
           '<div class="ndHit" style="position:absolute;inset:14px;border-radius:50%;overflow:hidden;pointer-events:none;font-size:' + rootFs + 'px;"><div style="' + colCss + '">' + c + '</div></div>' + closeBtn;
       } else if (shape === "diamond") {
         const clip = 'polygon(50% 0%,100% 50%,50% 100%,0% 50%)';
-        // content lives in the diamond's wide middle band — the top/bottom quarters are too narrow
-        shell = '<div style="position:absolute;inset:0;clip-path:' + clip + ';background:' + fill + ';"></div>' +
-          '<div style="position:absolute;inset:0;border-radius:50%;box-shadow:' + bloom + ';"></div>' + ringLayers(false, clip) +
+        // content lives in the diamond's wide middle band — the top/bottom quarters are too narrow.
+        // glow via drop-shadow on the CLIPPED layer so it follows the diamond, not a circle.
+        shell = '<div style="position:absolute;inset:0;filter:drop-shadow(0 0 44px ' + this.rgba(n.col, 0.16) + ') drop-shadow(0 22px 46px rgba(0,0,0,.42));"><div style="position:absolute;inset:0;clip-path:' + clip + ';background:' + fill + ';"></div></div>' + ringLayers(false, clip) +
           '<div class="ndHit" style="position:absolute;inset:14px;clip-path:' + clip + ';background:' + fill + ';pointer-events:none;font-size:' + rootFs + 'px;"><div style="position:absolute;left:0;right:0;top:14%;bottom:14%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.9em;text-align:center;font-size:1em;">' + c + '</div></div>' + closeBtn;
       } else {
         const clip = 'polygon(50% 2%,98% 92%,2% 92%)';
-        // triangle: center the content in the incircle (upper-middle of the polygon), not bottom-crushed
-        shell = '<div style="position:absolute;inset:0;clip-path:' + clip + ';background:' + fill + ';"></div>' +
-          '<div style="position:absolute;inset:0;border-radius:50%;box-shadow:' + bloom + ';"></div>' + ringLayers(false, clip) +
+        // triangle: content centered in the incircle; glow follows the triangle silhouette
+        shell = '<div style="position:absolute;inset:0;filter:drop-shadow(0 0 44px ' + this.rgba(n.col, 0.16) + ') drop-shadow(0 22px 46px rgba(0,0,0,.42));"><div style="position:absolute;inset:0;clip-path:' + clip + ';background:' + fill + ';"></div></div>' + ringLayers(false, clip) +
           '<div class="ndHit" style="position:absolute;inset:14px;clip-path:' + clip + ';background:' + fill + ';pointer-events:none;font-size:' + rootFs + 'px;"><div style="position:absolute;left:0;right:0;top:22%;bottom:10%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.8em;text-align:center;font-size:1em;">' + c + '</div></div>' + closeBtn;
       }
       dos.style.width = size + "px"; dos.style.height = size + "px";
@@ -3841,14 +3840,13 @@ class Component extends DCLogic {
     // from the grey mesh. Fades with the halo when the in-node card covers the state.
     if (this.focusIdx >= 0 && this.adj && this.adj[this.focusIdx] && this.alpha > 0.05) {
       const cn = this.nodes[this.focusIdx];
-      const cfE = (this._nodeCardOn && this.focusIdx === this._nodeCardIdx) ? 1 - (this._nodeCardO || 0) : 1;
-      if (cfE > 0.02 && cn) {
+      if (cn) {
         ctx.lineWidth = 1.9 / scale;
         for (const k2 of this.adj[this.focusIdx]) {
           const o = this.nodes[k2]; if (!o) continue;
           const g2 = ctx.createLinearGradient(cn.x, cn.y, o.x, o.y);
-          g2.addColorStop(0, this.rgba(o.col, 0.10 * A * dim * cfE));
-          g2.addColorStop(1, this.rgba(o.col, 0.52 * A * dim * cfE));
+          g2.addColorStop(0, this.rgba(o.col, 0.10 * A * dim));
+          g2.addColorStop(1, this.rgba(o.col, 0.52 * A * dim));
           ctx.strokeStyle = g2;
           ctx.beginPath(); ctx.moveTo(cn.x, cn.y); ctx.lineTo(o.x, o.y); ctx.stroke();
         }
@@ -3941,20 +3939,16 @@ class Component extends DCLogic {
     // base nodes — shrink a touch when zoomed in so dense clusters separate
     const nodeK = Math.max(0.4, Math.min(1, this.cam.vw / (this.graphW * 0.5)));
     const br = this.anim("idleBreath", 2) * 0.01;
-    // glyph→dossier handoff: the carded node's canvas glyph fades out exactly as the DOM card
-    // fades in (matched ring/fill geometry) so the zoom reads as one object revealing itself
-    const cardFade = (idx) => (this._nodeCardOn && idx === this._nodeCardIdx) ? 1 - (this._nodeCardO || 0) : 1;
+    // (owner call: the original glyph NEVER hides — the dossier card renders on top of it)
     for (const n of this.nodes) {
-      const cf = cardFade(n.idx); if (cf <= 0.01) continue;
       const bk = br ? 1 + br * Math.sin(this.now * 1.4 + n.idx * 0.83) : 1;
-      ctx.fillStyle = this.rgba(n.col, 0.62 * A * dim * cf);
+      ctx.fillStyle = this.rgba(n.col, 0.62 * A * dim);
       ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, n.y, n.r * nodeK * bk); ctx.fill();
     }
 
     // current position marker
     if (this.focusIdx >= 0 && !this.pulse) {
       const n = this.nodes[this.focusIdx];
-      const cf = cardFade(n.idx);
       const pulse = 0.5 + 0.5 * Math.sin(this.now * 2.4);
       const pc = this.myColor(n);
       // landing settle: damped overshoot when the roll arrives
@@ -3963,14 +3957,12 @@ class Component extends DCLogic {
         const sa = this.now - this._settleT;
         if (sa >= 0 && sa < 0.9) settle = 1 + 0.26 * Math.exp(-3.4 * sa) * Math.sin(sa * 14);
       }
-      if (cf > 0.01) {
-        // recolor the current node to YOUR perspective (red when you're losing, blue when winning)
-        ctx.fillStyle = this.rgba(pc, 0.98 * A * cf);
-        ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, n.y, n.r * 1.28 * settle); ctx.fill();
-        ctx.strokeStyle = this.rgba(pc, (0.7 + 0.3 * pulse) * A * cf);
-        ctx.lineWidth = 2.4 / scale;
-        ctx.beginPath(); ctx.arc(n.x, n.y, n.r * 2.9 * settle, 0, 6.2832); ctx.stroke();
-      }
+      // recolor the current node to YOUR perspective (red when you're losing, blue when winning)
+      ctx.fillStyle = this.rgba(pc, 0.98 * A);
+      ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, n.y, n.r * 1.28 * settle); ctx.fill();
+      ctx.strokeStyle = this.rgba(pc, (0.7 + 0.3 * pulse) * A);
+      ctx.lineWidth = 2.4 / scale;
+      ctx.beginPath(); ctx.arc(n.x, n.y, n.r * 2.9 * settle, 0, 6.2832); ctx.stroke();
     }
 
     // sustained halo — the roll-end flare's light, present BEFORE the end: the current position
@@ -3992,20 +3984,18 @@ class Component extends DCLogic {
       const breathe = 0.8 + 0.2 * Math.sin(this.now * 1.6);
       if (this.focusIdx >= 0 && this.nodes[this.focusIdx]) {
         const cur = this.nodes[this.focusIdx];
-        const cf = (this._nodeCardOn && this.focusIdx === this._nodeCardIdx) ? 1 - (this._nodeCardO || 0) : 1;
         // departure drain: as the pulse leaves this node, the halo streams into the traveling light
         let dep = 1;
         const pu = this.pulse;
         if (pu && !pu.done && pu.path && pu.path[0] === this.focusIdx) dep = Math.max(0, 1 - (pu.seg + (pu.t || 0)) * 1.4);
-        const target = 0.62 * breathe * dim * cf * dep;
+        const target = 0.62 * breathe * dim * dep;
         this._haloK = (this._haloK == null ? target : this._haloK + (target - this._haloK) * (1 - Math.exp(-dtH / 0.22)));
         halo(cur, this.myColor(cur), this._haloK); // perspective-tinted, like the marker ring
       }
       if (this._dossierIdx != null && this._dossierIdx !== this.focusIdx && this.nodes[this._dossierIdx]) {
         const sN = scale / (W / (this.graphW * 0.0085));
-        const appr = Math.max(0, Math.min(1, (sN - 0.02) / 0.5)); // ramps over the approach
-        const cf = (this._nodeCardOn && this._dossierIdx === this._nodeCardIdx) ? 1 - (this._nodeCardO || 0) : 1;
-        halo(this.nodes[this._dossierIdx], this.nodes[this._dossierIdx].col, 0.7 * appr * cf);
+        const appr = Math.max(0, Math.min(1, (sN - 0.02) / 0.5)); // ramps over the approach and stays lit around the card
+        halo(this.nodes[this._dossierIdx], this.nodes[this._dossierIdx].col, 0.7 * appr);
       }
     }
     // flaring nodes
