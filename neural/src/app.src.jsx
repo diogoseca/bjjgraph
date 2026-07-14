@@ -2517,8 +2517,6 @@ class Component extends DCLogic {
         '<span style="flex:none;width:2em;height:2em;border-radius:.66em;background:rgba(74,108,255,.22);color:#9ab0e0;display:flex;align-items:center;justify-content:center;"><svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"></path></svg></span>' +
         '<span style="font-size:1.03em;font-weight:700;color:#eef1f6;">Roll from here</span><span style="font-size:1em;color:#9ab0e0;">\u2192</span></div>';
       // \u2715 \u2014 fly back out. Lives on the UNCLIPPED shell root (the shape's overflow/clip-path would
-      // swallow it at any corner position), floating just off the ring's top-right.
-      const closeBtn = '<span class="ndClose" title="Close (Esc)" style="position:absolute;top:' + (shape === "tri" ? "14%" : "6%") + ';right:' + (shape === "tri" ? "10%" : "6%") + ';cursor:pointer;width:' + (size / 20) + 'px;height:' + (size / 20) + 'px;border-radius:35%;border:1px solid rgba(150,170,210,.3);background:rgba(12,15,28,.82);color:#c3cde0;font-size:' + (size / 38) + 'px;display:flex;align-items:center;justify-content:center;pointer-events:auto;z-index:2;box-shadow:0 4px 14px rgba(0,0,0,.4);">\u00d7</span>';
       let shell;
       const colCss = 'position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.9em;text-align:center;font-size:' + rootFs + 'px;';
       // ring layers: outer faint 1px + gap + inner bright 3px (inset), matching canvas stroke style
@@ -2532,24 +2530,23 @@ class Component extends DCLogic {
       };
       if (shape === "circle") {
         shell = '<div style="position:absolute;inset:0;border-radius:50%;background:' + fill + ';box-shadow:' + bloom + ';"></div>' + ringLayers(true) +
-          '<div class="ndHit" style="position:absolute;inset:14px;border-radius:50%;overflow:hidden;pointer-events:none;font-size:' + rootFs + 'px;"><div style="' + colCss + '">' + c + '</div></div>' + closeBtn;
+          '<div class="ndHit" style="position:absolute;inset:14px;border-radius:50%;overflow:hidden;pointer-events:none;font-size:' + rootFs + 'px;"><div style="' + colCss + '">' + c + '</div></div>';
       } else if (shape === "diamond") {
         const clip = 'polygon(50% 0%,100% 50%,50% 100%,0% 50%)';
         // content lives in the diamond's wide middle band — the top/bottom quarters are too narrow.
         // glow via drop-shadow on the CLIPPED layer so it follows the diamond, not a circle.
         shell = '<div style="position:absolute;inset:0;filter:drop-shadow(0 0 44px ' + this.rgba(n.col, 0.16) + ') drop-shadow(0 22px 46px rgba(0,0,0,.42));"><div style="position:absolute;inset:0;clip-path:' + clip + ';background:' + fill + ';"></div></div>' + ringLayers(false, clip) +
-          '<div class="ndHit" style="position:absolute;inset:14px;clip-path:' + clip + ';background:' + fill + ';pointer-events:none;font-size:' + rootFs + 'px;"><div style="position:absolute;left:0;right:0;top:14%;bottom:14%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.9em;text-align:center;font-size:1em;">' + c + '</div></div>' + closeBtn;
+          '<div class="ndHit" style="position:absolute;inset:14px;clip-path:' + clip + ';background:' + fill + ';pointer-events:none;font-size:' + rootFs + 'px;"><div style="position:absolute;left:0;right:0;top:14%;bottom:14%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.9em;text-align:center;font-size:1em;">' + c + '</div></div>';
       } else {
         const clip = 'polygon(50% 2%,98% 92%,2% 92%)';
         // triangle: content centered in the incircle; glow follows the triangle silhouette
         shell = '<div style="position:absolute;inset:0;filter:drop-shadow(0 0 44px ' + this.rgba(n.col, 0.16) + ') drop-shadow(0 22px 46px rgba(0,0,0,.42));"><div style="position:absolute;inset:0;clip-path:' + clip + ';background:' + fill + ';"></div></div>' + ringLayers(false, clip) +
-          '<div class="ndHit" style="position:absolute;inset:14px;clip-path:' + clip + ';background:' + fill + ';pointer-events:none;font-size:' + rootFs + 'px;"><div style="position:absolute;left:0;right:0;top:22%;bottom:10%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.8em;text-align:center;font-size:1em;">' + c + '</div></div>' + closeBtn;
+          '<div class="ndHit" style="position:absolute;inset:14px;clip-path:' + clip + ';background:' + fill + ';pointer-events:none;font-size:' + rootFs + 'px;"><div style="position:absolute;left:0;right:0;top:22%;bottom:10%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.8em;text-align:center;font-size:1em;">' + c + '</div></div>';
       }
       dos.style.width = size + "px"; dos.style.height = size + "px";
       dos.innerHTML = shell;
       dos.querySelectorAll(".dsAtk").forEach((a2) => a2.addEventListener("click", () => this.openDossier(parseInt(a2.getAttribute("data-i"), 10))));
       const roll2 = dos.querySelector(".dsRoll"); if (roll2) roll2.addEventListener("click", () => { this.closeNodeDossier(); this.jumpToState(n.idx); });
-      const xnd = dos.querySelector(".ndClose"); if (xnd) xnd.addEventListener("click", (ev) => { ev.stopPropagation(); this.closeNodeDossier(); });
       return;
     }
 
