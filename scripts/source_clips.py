@@ -201,6 +201,7 @@ def _batches(keys, size):
 def stage_queries(state, args):
     keys = select(state, args, {"pending"})
     print(f"[queries] {len(keys)} slot(s) to plan")
+    consec_fails = 0
     for batch in _batches(keys, QUERY_BATCH):
         throttle_if_peak()
         lines = []
@@ -214,10 +215,14 @@ def stage_queries(state, args):
 
 {LEGEND_GUIDANCE}
 
-For EACH slot below return: the legend (instructor to prioritize) and 1-2 YouTube search
-queries crafted to surface that instructor's best SHORT instructional footage of exactly
-that technique/position and role. Include the instructor's name in at least one query;
-append "shorts" to one query to bias toward YouTube Shorts. Keep queries under 9 words.
+The product shows a ~30-second LOOP of the technique's motion — we need YouTube Shorts
+or very short clips, NOT lecture-length instructionals. For EACH slot below return: the
+legend (instructor to prioritize) and exactly 2 YouTube search queries crafted to surface
+SHORT demonstration footage of exactly that technique/position and role:
+- query 1: legend's name + technique + "shorts" (e.g. "craig jones body lock pass shorts")
+- query 2: technique + role framing + "#shorts" or "short demo" (no instructor name, so
+  we still find a great Short if the legend never made one)
+Keep queries under 9 words.
 
 SLOTS:
 {chr(10).join(lines)}
@@ -231,7 +236,12 @@ Return JSON: {{"plans": [{{"slot", "legend", "queries": [..]}}]}} — one entry 
         data = _extract(payload) if not err else None
         if not data or "plans" not in data:
             print(f"[queries] batch failed: {err or 'unparseable response'}")
+            consec_fails += 1
+            if consec_fails >= 3:
+                print("[queries] 3 consecutive batch failures — aborting stage; rerun to resume")
+                return
             continue
+        consec_fails = 0
         planned = 0
         for plan in data["plans"]:
             k = plan.get("slot")
@@ -252,6 +262,7 @@ def stage_search(state, args):
     keys = select(state, args, {"queried"})
     print(f"[search] {len(keys)} slot(s) to search (~{args.sleep:.0f}s/query pacing)")
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+    consec_failed_slots = 0
     for i, k in enumerate(keys):
         s = state["slots"][k]
         merged, seen, failed = [], set(), False
@@ -273,14 +284,30 @@ def stage_search(state, args):
                     merged.append(r)
             time.sleep(args.sleep * random.uniform(0.7, 1.3))
         if merged:
+            # Shorts-first pre-filter: the product loops ~30s of motion, so lecture-length
+            # videos are mechanically excluded before curation ever sees them. Keep
+            # everything <=300s (plus unknown-duration entries); if that empties the list,
+            # fall back to the 3 shortest so the slot isn't starved by a bad search.
+            shortish = [r for r in merged if not r.get("duration") or r["duration"] <= 300]
+            if not shortish:
+                shortish = sorted(merged, key=lambda r: r.get("duration") or 10**9)[:3]
+            merged = shortish
             atomic_write_json(results_path(k), merged)
             s["status"] = "searched"
             s["n_results"] = len(merged)
+            consec_failed_slots = 0
         elif failed:
-            s["error"] = "search failed"
+            s["error"] = "search failed"  # stays 'queried' -> retried on rerun
+            consec_failed_slots += 1
+            if consec_failed_slots >= 5:
+                save_state(state)
+                print("[search] 5 consecutive slots failed every search (yt-dlp/YouTube "
+                      "down or throttled) — aborting stage; rerun to resume")
+                return
         else:
             s["status"] = "curated"  # zero results -> nothing to curate, flows to report
             s["picks"] = []
+            consec_failed_slots = 0
         save_state(state)
         if (i + 1) % 25 == 0 or i + 1 == len(keys):
             print(f"[search] {i + 1}/{len(keys)} slots done")
@@ -292,6 +319,7 @@ def stage_search(state, args):
 def stage_curate(state, args):
     keys = [k for k in select(state, args, {"searched"}) if results_path(k).exists()]
     print(f"[curate] {len(keys)} slot(s) to curate")
+    consec_fails = 0
     for batch in _batches(keys, CURATE_BATCH):
         throttle_if_peak()
         blocks, valid_ids = [], {}
@@ -308,19 +336,24 @@ def stage_curate(state, args):
             blocks.append(f"### slot: {k}\nwhat: {ctx.get('role_note') or s['name']} "
                           f"(intended legend: {s.get('legend') or 'any authority'})\n"
                           f"candidates (REAL YouTube search results):\n{rows}")
-        prompt = f"""You curate film-study clips for a BJJ knowledge graph. For each slot pick the
-0-3 BEST clips from its candidate list, ranked best-first.
+        prompt = f"""You curate film-study clips for a BJJ knowledge graph. The product shows a
+~30-second LOOP of the technique's motion. For each slot pick the 0-3 BEST clips from its
+candidate list, ranked best-first.
 
 Rules:
 - Use ONLY ids from that slot's candidate list. Never invent an id.
-- Prefer clips <=75s (loopable Shorts), then great instructionals by the intended
-  legend or another recognized authority on this exact technique/role.
-- Prefer the instructor's own channel or reputable instructional channels. Down-rank
-  raw sparring/highlight footage unless it demonstrates the technique clearly.
+- Duration policy (strict): STRONGLY prefer <=75s (true Shorts — the whole video IS the
+  motion). 76-120s is fine if it's a focused demo. 121-300s is a LAST resort, only when
+  nothing shorter shows this technique, and only if clearly a demo (not a lecture).
+- Between two adequate Shorts, prefer the intended legend / a recognized authority on
+  this exact technique+role, and the instructor's own channel over reuploads. A clean
+  demonstration by a lesser-known coach BEATS a long lecture by a legend.
+- Down-rank raw sparring/highlight footage unless the technique is clearly visible.
 - The clip must match the ROLE: defender slots need defense/escape teaching, not execution.
 - `title`: <=60 chars, plain description. `by`: the instructor on screen (not the channel
   name unless unknown). Omit start/end unless a timestamp is certain from the title.
-- If nothing fits (wrong technique, junk results), return an empty picks array.
+- If nothing fits (wrong technique, junk results, only lectures), return an empty picks
+  array — an empty slot gets re-searched later; a bad long video does not.
 
 {chr(10).join(blocks)}
 
@@ -333,7 +366,12 @@ one entry per slot, `slot` copied verbatim."""
         data = _extract(payload) if not err else None
         if not data or "curations" not in data:
             print(f"[curate] batch failed: {err or 'unparseable response'}")
+            consec_fails += 1
+            if consec_fails >= 3:
+                print("[curate] 3 consecutive batch failures — aborting stage; rerun to resume")
+                return
             continue
+        consec_fails = 0
         done = 0
         for cur in data["curations"]:
             k = cur.get("slot")
@@ -365,6 +403,7 @@ def stage_verify(state, args):
             with open(results_path(k), encoding="utf-8") as fh:
                 durations = {r["id"]: r.get("duration") for r in json.load(fh)}
         verified = []
+        transient = False
         for p in s.get("picks", []):
             if len(verified) >= MAX_PICKS:
                 break
@@ -372,6 +411,11 @@ def stage_verify(state, args):
                 continue
             v = verify_video(p["id"])
             time.sleep(0.5)
+            if v["status"] == "error":
+                # transient (network) — do NOT advance the slot; rerun retries it
+                transient = True
+                print(f"[verify] {k}: transient check error on {p['id']} — slot deferred")
+                continue
             if v["status"] != "ok":
                 print(f"[verify] {k}: dropped {p['id']} ({v['status']})")
                 continue
@@ -393,6 +437,8 @@ def stage_verify(state, args):
         if args.dry_run:
             print(f"[verify] DRY RUN — would verify {len(s.get('picks', []))} pick(s) for {k}")
             continue
+        if transient:
+            continue  # stays 'curated'; rerun re-verifies the whole slot
         s.update(status="verified", verified_picks=verified)
         save_state(state)
         if (i + 1) % 25 == 0 or i + 1 == len(keys):
@@ -538,9 +584,23 @@ def main():
     ap.add_argument("--force", action="store_true", help="overwrite existing clips arrays on apply")
     ap.add_argument("--model", default=CLAUDE_MODEL)
     ap.add_argument("--effort", default=DEFAULT_EFFORT)
+    ap.add_argument("--redo-empty", action="store_true",
+                    help="reset slots that ended with no clips back to pending (fresh "
+                         "queries next pass); combine with --stage all for a re-sweep")
     args = ap.parse_args()
 
     state = sync_slots(load_state(), args)
+    if args.redo_empty:
+        n = 0
+        for k, s in state["slots"].items():
+            if s.get("applied") == "empty" or (s["status"] == "curated" and not s.get("picks")):
+                for field in ("legend", "queries", "picks", "verified_picks", "n_results",
+                              "applied", "error"):
+                    s.pop(field, None)
+                s["status"] = "pending"
+                results_path(k).unlink(missing_ok=True)
+                n += 1
+        print(f"[redo-empty] reset {n} empty slot(s) to pending")
     save_state(state)
     for name in (list(STAGES) if args.stage == "all" else [args.stage]):
         STAGES[name](state, args)
