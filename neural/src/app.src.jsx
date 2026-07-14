@@ -3836,6 +3836,24 @@ class Component extends DCLogic {
     ctx.stroke();
 
     ctx.globalCompositeOperation = "lighter";
+    // active edges: while a state is current, its connections take the color of the node they LAND
+    // in (gradient fading up toward the destination) and extra width — temporarily differentiated
+    // from the grey mesh. Fades with the halo when the in-node card covers the state.
+    if (this.focusIdx >= 0 && this.adj && this.adj[this.focusIdx] && this.alpha > 0.05) {
+      const cn = this.nodes[this.focusIdx];
+      const cfE = (this._nodeCardOn && this.focusIdx === this._nodeCardIdx) ? 1 - (this._nodeCardO || 0) : 1;
+      if (cfE > 0.02 && cn) {
+        ctx.lineWidth = 1.9 / scale;
+        for (const k2 of this.adj[this.focusIdx]) {
+          const o = this.nodes[k2]; if (!o) continue;
+          const g2 = ctx.createLinearGradient(cn.x, cn.y, o.x, o.y);
+          g2.addColorStop(0, this.rgba(o.col, 0.10 * A * dim * cfE));
+          g2.addColorStop(1, this.rgba(o.col, 0.52 * A * dim * cfE));
+          ctx.strokeStyle = g2;
+          ctx.beginPath(); ctx.moveTo(cn.x, cn.y); ctx.lineTo(o.x, o.y); ctx.stroke();
+        }
+      }
+    }
     // edge anticipation: the chosen edge brightens + tightens before the pulse launches
     if (this.pulse && !this.pulse.done && this.anim("edgeAnticipation", true)) {
       const aAge = this.now - (this.pulse.t0 || 0);
@@ -3956,30 +3974,38 @@ class Component extends DCLogic {
     }
 
     // sustained halo — the roll-end flare's light, present BEFORE the end: the current position
-    // breathes softly all roll long, and a dossier target brightens as the prezi flight closes in
-    // (then yields to the DOM card's own bloom through the glyph crossfade — light continuity).
+    // glows all roll long (screen-size floor so it reads at play zoom), breathes, DRAINS smoothly
+    // into the pulse when a move launches down an edge, and eases back in on arrival. A dossier
+    // target brightens as the prezi flight closes in, then yields to the card's own bloom.
     ctx.globalCompositeOperation = "lighter";
     {
       const halo = (n, col2, k) => {
         if (!n || k <= 0.01) return;
-        const gr = n.r * (2.2 + 2.6 * k);
+        const gr = Math.max(n.r * (2.4 + 3.2 * k), (46 * k) / scale); // never smaller than ~46px on screen
         const g = ctx.createRadialGradient(n.x, n.y, 0, n.x, n.y, gr);
-        g.addColorStop(0, this.rgba(col2, 0.5 * k * glow * A));
-        g.addColorStop(0.45, this.rgba(col2, 0.18 * k * glow * A));
+        g.addColorStop(0, this.rgba(col2, 0.72 * k * glow * A));
+        g.addColorStop(0.4, this.rgba(col2, 0.26 * k * glow * A));
         g.addColorStop(1, this.rgba(col2, 0));
         ctx.fillStyle = g; ctx.beginPath(); ctx.arc(n.x, n.y, gr, 0, 6.2832); ctx.fill();
       };
-      const breathe = 0.75 + 0.25 * Math.sin(this.now * 1.6);
+      const dtH = Math.max(0, Math.min(0.1, this.now - (this._haloT || this.now))); this._haloT = this.now;
+      const breathe = 0.8 + 0.2 * Math.sin(this.now * 1.6);
       if (this.focusIdx >= 0 && this.nodes[this.focusIdx]) {
         const cur = this.nodes[this.focusIdx];
         const cf = (this._nodeCardOn && this.focusIdx === this._nodeCardIdx) ? 1 - (this._nodeCardO || 0) : 1;
-        halo(cur, this.myColor(cur), 0.34 * breathe * dim * cf); // perspective-tinted, like the marker ring
+        // departure drain: as the pulse leaves this node, the halo streams into the traveling light
+        let dep = 1;
+        const pu = this.pulse;
+        if (pu && !pu.done && pu.path && pu.path[0] === this.focusIdx) dep = Math.max(0, 1 - (pu.seg + (pu.t || 0)) * 1.4);
+        const target = 0.62 * breathe * dim * cf * dep;
+        this._haloK = (this._haloK == null ? target : this._haloK + (target - this._haloK) * (1 - Math.exp(-dtH / 0.22)));
+        halo(cur, this.myColor(cur), this._haloK); // perspective-tinted, like the marker ring
       }
       if (this._dossierIdx != null && this._dossierIdx !== this.focusIdx && this.nodes[this._dossierIdx]) {
         const sN = scale / (W / (this.graphW * 0.0085));
         const appr = Math.max(0, Math.min(1, (sN - 0.02) / 0.5)); // ramps over the approach
         const cf = (this._nodeCardOn && this._dossierIdx === this._nodeCardIdx) ? 1 - (this._nodeCardO || 0) : 1;
-        halo(this.nodes[this._dossierIdx], this.nodes[this._dossierIdx].col, 0.5 * appr * cf);
+        halo(this.nodes[this._dossierIdx], this.nodes[this._dossierIdx].col, 0.7 * appr * cf);
       }
     }
     // flaring nodes
