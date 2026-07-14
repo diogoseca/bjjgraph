@@ -3622,7 +3622,12 @@ class Component extends DCLogic {
     // camera away mid-read, but manual prezi targets still animate).
     if (this.introDone && (this.paused || this._dossierIdx != null)) tgt = null;
     if (tgt) { this.camTarget.cx = tgt.cx; this.camTarget.cy = tgt.cy; this.camTarget.vw = tgt.vw; }
-    const tauP = this.introDone ? 0.5 : 0.8, tauV = this.introDone ? 0.55 : 0.9;
+    // dossier flight: CENTER faster than the zoom dives (prezi-style) — otherwise at deep zoom the
+    // viewport shrinks quicker than the target centers and mid-flight shows empty space instead of
+    // the glowing node you're flying toward.
+    const flight = this._dossierIdx != null;
+    const tauP = !this.introDone ? 0.8 : flight ? 0.28 : 0.5;
+    const tauV = !this.introDone ? 0.9 : flight ? 0.7 : 0.55;
     const aP = 1 - Math.exp(-dt / tauP), aV = 1 - Math.exp(-dt / tauV);
     this.cam.cx += (this.camTarget.cx - this.cam.cx) * aP;
     this.cam.cy += (this.camTarget.cy - this.cam.cy) * aP;
@@ -3950,8 +3955,34 @@ class Component extends DCLogic {
       }
     }
 
-    // flaring nodes
+    // sustained halo — the roll-end flare's light, present BEFORE the end: the current position
+    // breathes softly all roll long, and a dossier target brightens as the prezi flight closes in
+    // (then yields to the DOM card's own bloom through the glyph crossfade — light continuity).
     ctx.globalCompositeOperation = "lighter";
+    {
+      const halo = (n, col2, k) => {
+        if (!n || k <= 0.01) return;
+        const gr = n.r * (2.2 + 2.6 * k);
+        const g = ctx.createRadialGradient(n.x, n.y, 0, n.x, n.y, gr);
+        g.addColorStop(0, this.rgba(col2, 0.5 * k * glow * A));
+        g.addColorStop(0.45, this.rgba(col2, 0.18 * k * glow * A));
+        g.addColorStop(1, this.rgba(col2, 0));
+        ctx.fillStyle = g; ctx.beginPath(); ctx.arc(n.x, n.y, gr, 0, 6.2832); ctx.fill();
+      };
+      const breathe = 0.75 + 0.25 * Math.sin(this.now * 1.6);
+      if (this.focusIdx >= 0 && this.nodes[this.focusIdx]) {
+        const cur = this.nodes[this.focusIdx];
+        const cf = (this._nodeCardOn && this.focusIdx === this._nodeCardIdx) ? 1 - (this._nodeCardO || 0) : 1;
+        halo(cur, this.myColor(cur), 0.34 * breathe * dim * cf); // perspective-tinted, like the marker ring
+      }
+      if (this._dossierIdx != null && this._dossierIdx !== this.focusIdx && this.nodes[this._dossierIdx]) {
+        const sN = scale / (W / (this.graphW * 0.0085));
+        const appr = Math.max(0, Math.min(1, (sN - 0.02) / 0.5)); // ramps over the approach
+        const cf = (this._nodeCardOn && this._dossierIdx === this._nodeCardIdx) ? 1 - (this._nodeCardO || 0) : 1;
+        halo(this.nodes[this._dossierIdx], this.nodes[this._dossierIdx].col, 0.5 * appr * cf);
+      }
+    }
+    // flaring nodes
     for (const n of this.nodes) {
       const age = this.now - n.lit; if (age > 1.9) continue;
       const k = Math.max(0, 1 - age / 1.9);
