@@ -1663,6 +1663,11 @@ class Component extends DCLogic {
     head.style.cssText = "padding:20px 22px 0;";
     head.innerHTML =
       '<div style="display:flex;align-items:center;justify-content:space-between;"><div style="font-size:20px;font-weight:700;color:#eef1f6;letter-spacing:-.01em;">Settings</div><span class="x" style="cursor:pointer;color:#8b97b0;font-size:20px;">&times;</span></div>' +
+      // owner-requested disclaimer — first thing the user reads when opening settings
+      '<div style="margin-top:14px;padding:11px 13px;border:1px solid rgba(232,184,107,.28);border-radius:10px;background:rgba(232,168,90,.08);display:flex;gap:9px;align-items:flex-start;">' +
+        '<span style="flex:none;font-size:13px;line-height:1.4;">⚠️</span>' +
+        '<span style="font-size:12px;line-height:1.5;color:#e8c9a0;">BJJ Graph is still being actively built — the success rates and probabilities you see are being continuously fine-tuned and will keep improving.</span>' +
+      '</div>' +
       '<div style="display:flex;gap:22px;margin-top:18px;border-bottom:1px solid rgba(150,170,210,.12);">' +
         '<span class="t-fc" style="cursor:pointer;padding-bottom:11px;font-size:13.5px;font-weight:600;color:' + (tab === "flashcards" ? "#eef1f6" : "#8b97b0") + ';border-bottom:2px solid ' + (tab === "flashcards" ? "#7e9bff" : "transparent") + ';">Flashcards</span>' +
         '<span class="t-rl" style="cursor:pointer;padding-bottom:11px;font-size:13.5px;font-weight:600;color:' + (tab === "rolling" ? "#eef1f6" : "#8b97b0") + ';border-bottom:2px solid ' + (tab === "rolling" ? "#7e9bff" : "transparent") + ';">Rolling</span>' +
