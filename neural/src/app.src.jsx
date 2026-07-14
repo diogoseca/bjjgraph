@@ -343,6 +343,42 @@ class Component extends DCLogic {
       }
     }
     this._posSlugIndex = posSlugIndex; this._techSlugIndex = techSlugIndex;
+    // precomputed DIRECTED edge weights = P(actually taking this edge), for the whole graph:
+    //   position -> technique : occurrence% × success% (calibrated attempt & success rates)
+    //   technique -> landing  : calibrated outcome probability
+    // The active node's edges light up scaled by these (relative to its strongest edge).
+    {
+      const NN = nodes.length;
+      const edgeW = new Map();
+      const byName = new Map();
+      for (const n of nodes) if (n.ty !== "positions" && !byName.has(n.t)) byName.set(n.t, n.idx);
+      for (const n of nodes) {
+        const cal = n.cal;
+        if (!cal) continue;
+        if (n.ty === "positions" && cal.moves) {
+          for (const role of ["top", "bottom"]) {
+            for (const m of (cal.moves[role] || [])) {
+              const ti = byName.get(m.technique); if (ti == null) continue;
+              const w = Math.max(0, (m.attemptProbability || 0) / 100) * Math.max(0, (m.successRate || 0) / 100);
+              const k = n.idx * NN + ti;
+              if (w > (edgeW.get(k) || 0)) edgeW.set(k, w);
+            }
+          }
+        } else if (Array.isArray(cal.outcomes)) {
+          for (const o of cal.outcomes) {
+            const r = this.resolveOutcomeTo(o.to);
+            if (r.idx >= 0) {
+              const k = n.idx * NN + r.idx;
+              const w = Math.max(0, (o.probability || 0) / 100);
+              if (w > (edgeW.get(k) || 0)) edgeW.set(k, w);
+            }
+          }
+        }
+      }
+      const maxW = new Float32Array(NN);
+      for (const [k, w] of edgeW) { const a = Math.floor(k / NN); if (w > maxW[a]) maxW[a] = w; }
+      this._edgeW = edgeW; this._maxW = maxW;
+    }
     this.gcx = cx; this.gcy = cy;
     this.graphW = maxX - minX; this.graphH = maxY - minY; this.graphR = r;
     this.trail = []; this.pulse = null;
@@ -3832,18 +3868,26 @@ class Component extends DCLogic {
     ctx.stroke();
 
     ctx.globalCompositeOperation = "lighter";
-    // active edges: while a state is current, its connections take the color of the node they LAND
-    // in (gradient fading up toward the destination) and extra width — temporarily differentiated
-    // from the grey mesh. Fades with the halo when the in-node card covers the state.
-    if (this.focusIdx >= 0 && this.adj && this.adj[this.focusIdx] && this.alpha > 0.05) {
-      const cn = this.nodes[this.focusIdx];
-      if (cn) {
-        ctx.lineWidth = 1.9 / scale;
-        for (const k2 of this.adj[this.focusIdx]) {
+    // active edges: the selected node's connections take the destination's color, with width and
+    // brightness scaled by the PRECOMPUTED likelihood of actually taking that edge (occurrence% ×
+    // success% for a position's moves; outcome% for a technique's landings) relative to the
+    // node's strongest edge — the probable paths read instantly, the unlikely ones stay whisper-faint.
+    if (this.adj && this.alpha > 0.05) {
+      const NN = this.nodes.length;
+      const lit = [];
+      if (this.focusIdx >= 0) lit.push(this.focusIdx);
+      if (this._dossierIdx != null && this._dossierIdx !== this.focusIdx) lit.push(this._dossierIdx);
+      for (const li of lit) {
+        const cn = this.nodes[li]; if (!cn || !this.adj[li]) continue;
+        const mw = (this._maxW && this._maxW[li]) || 0;
+        for (const k2 of this.adj[li]) {
           const o = this.nodes[k2]; if (!o) continue;
+          const w = (this._edgeW && this._edgeW.get(li * NN + k2)) || 0;
+          const rel = mw > 0 ? w / mw : 0;
+          ctx.lineWidth = (0.8 + 1.4 * rel) / scale;
           const g2 = ctx.createLinearGradient(cn.x, cn.y, o.x, o.y);
-          g2.addColorStop(0, this.rgba(o.col, 0.10 * A * dim));
-          g2.addColorStop(1, this.rgba(o.col, 0.52 * A * dim));
+          g2.addColorStop(0, this.rgba(o.col, (0.04 + 0.06 * rel) * A * dim));
+          g2.addColorStop(1, this.rgba(o.col, (0.10 + 0.28 * rel) * A * dim));
           ctx.strokeStyle = g2;
           ctx.beginPath(); ctx.moveTo(cn.x, cn.y); ctx.lineTo(o.x, o.y); ctx.stroke();
         }
