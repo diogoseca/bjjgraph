@@ -12,6 +12,7 @@ Schema markup is generated automatically by Jinja2 templates during build.
 | **FAQ** | Common mistakes sections | Q&A format for featured snippets |
 | **BreadcrumbList** | All pages | Navigation hierarchy |
 | **WebPage** | All pages | Page metadata |
+| **VideoObject** (in ItemList) | Pages with curated `clips` | Film-study YouTube clips; `uploadDate` emitted only when the optional `upload_date` provenance field is present (future enrichment pass) |
 
 ### How Schema Is Generated
 

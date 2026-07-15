@@ -79,6 +79,55 @@ Fanatics named-athlete clips). For DEFENDER slots pick the defense/escape author
 (often Priit Mihkelson, Lachlan Giles retention, or the same legend teaching the counter),
 and write queries about DEFENDING/ESCAPING the technique, never executing it."""
 
+# --------------------------------------------------------------------------- #
+# Sourcing policies. "shorts" is the default (~30s motion loops). "relaxed" is
+# the rescue/top-up policy for slots where Shorts don't exist (longer focused
+# instructionals beat nothing). "principle" targets concept DEPTH: one short
+# hook + 1-2 real lectures. Policy rides on the slot (slot["policy"]) so mixed
+# reruns keep per-slot behavior; unset means shorts.
+# --------------------------------------------------------------------------- #
+SEARCH_CAP = {"shorts": 300, "relaxed": 900, "principle": 1800}
+
+QUERY_BRIEF = {
+    "shorts": """The product shows a ~30-second LOOP of the technique's motion — we need YouTube
+Shorts or very short clips, NOT lecture-length instructionals. Per slot, exactly 2 queries:
+- query 1: legend's name + technique + "shorts" (e.g. "craig jones body lock pass shorts")
+- query 2: technique + role framing + "#shorts" or "short demo" (no instructor name, so
+  we still find a great Short if the legend never made one)""",
+    "relaxed": """Short footage does NOT exist for these hard slots (previous Shorts-biased passes came
+up dry or thin). Find the best FOCUSED INSTRUCTIONAL (<= 10 minutes) of exactly this
+technique/position and role — defense slots need escape/defense instructionals. Per slot,
+exactly 2 queries: one with the legend/authority's name + technique (no "shorts"), one
+technique + role + "technique"/"instructional"/"details".""",
+    "principle": """These are BJJ PRINCIPLE/CONCEPT pages — depth beats brevity here. Per slot, exactly
+2 queries: one for a deep concept lecture/breakdown by the domain authority (Danaher-style
+seminar excerpts, 'concepts', 'principles', 'explained', 'breakdown' — 5-25 minutes), and
+one for a short punchy explainer of the same concept.""",
+}
+
+CURATE_RULES = {
+    "shorts": """- Duration policy (strict): STRONGLY prefer <=75s (true Shorts — the whole video IS the
+  motion). 76-120s is fine if it's a focused demo. 121-300s is a LAST resort, only when
+  nothing shorter shows this technique, and only if clearly a demo (not a lecture).
+- If nothing fits (wrong technique, junk results, only lectures), return an empty picks
+  array — an empty slot gets re-searched later; a bad long video does not.""",
+    "relaxed": """- Duration policy (rescue slots — Shorts don't exist here): prefer the SHORTEST adequate
+  focused instructional; up to ~10 minutes acceptable. Still demo/instruction, never a
+  podcast/seminar-ramble. Pick 1-2.
+- Ids listed under "already used" are on the page already — NEVER re-pick them.
+- Only return an empty picks array if genuinely nothing teaches this technique/role.""",
+    "principle": """- These are CONCEPT pages: pick up to 3 total — at most ONE short hook (<=120s) plus
+  1-2 DEEP lectures/breakdowns (300-1500s) by recognized authorities. Lectures are the
+  priority; skip the hook rather than a good lecture.
+- Candidates marked [CURRENT] are already on the page — include one in your picks ONLY
+  if it deserves to stay as the short hook; your picks REPLACE the page's clips.""",
+}
+
+
+def slot_policy(s):
+    return s.get("policy") or ("principle" if s.get("category") == "Principles" else "shorts")
+
+
 QUERY_SCHEMA = {
     "type": "object",
     "properties": {
@@ -195,14 +244,29 @@ def _batches(keys, size):
         yield keys[i: i + size]
 
 
+def _existing_clips(s):
+    """Clips currently applied on the slot's holder in content JSON (empty on error)."""
+    try:
+        with open(s["file"], encoding="utf-8") as fh:
+            holder = clips_holder(json.load(fh), s["role"])
+        return list((holder or {}).get("clips") or [])
+    except (OSError, json.JSONDecodeError):
+        return []
+
+
 # --------------------------------------------------------------------------- #
 # Stage: queries (LLM — legend + search queries per slot)
 # --------------------------------------------------------------------------- #
 def stage_queries(state, args):
-    keys = select(state, args, {"pending"})
-    print(f"[queries] {len(keys)} slot(s) to plan")
+    all_keys = select(state, args, {"pending"})
+    print(f"[queries] {len(all_keys)} slot(s) to plan")
     consec_fails = 0
-    for batch in _batches(keys, QUERY_BATCH):
+    by_policy = {}
+    for k in all_keys:
+        by_policy.setdefault(slot_policy(state["slots"][k]), []).append(k)
+    batches = [(pol, batch) for pol, keys in by_policy.items()
+               for batch in _batches(keys, QUERY_BATCH)]
+    for pol, batch in batches:
         throttle_if_peak()
         lines = []
         for k in batch:
@@ -215,14 +279,9 @@ def stage_queries(state, args):
 
 {LEGEND_GUIDANCE}
 
-The product shows a ~30-second LOOP of the technique's motion — we need YouTube Shorts
-or very short clips, NOT lecture-length instructionals. For EACH slot below return: the
-legend (instructor to prioritize) and exactly 2 YouTube search queries crafted to surface
-SHORT demonstration footage of exactly that technique/position and role:
-- query 1: legend's name + technique + "shorts" (e.g. "craig jones body lock pass shorts")
-- query 2: technique + role framing + "#shorts" or "short demo" (no instructor name, so
-  we still find a great Short if the legend never made one)
-Keep queries under 9 words.
+{QUERY_BRIEF[pol]}
+For EACH slot below return: the legend (instructor/authority to prioritize) and exactly
+2 YouTube search queries. Keep queries under 9 words.
 
 SLOTS:
 {chr(10).join(lines)}
@@ -284,11 +343,13 @@ def stage_search(state, args):
                     merged.append(r)
             time.sleep(args.sleep * random.uniform(0.7, 1.3))
         if merged:
-            # Shorts-first pre-filter: the product loops ~30s of motion, so lecture-length
-            # videos are mechanically excluded before curation ever sees them. Keep
-            # everything <=300s (plus unknown-duration entries); if that empties the list,
-            # fall back to the 3 shortest so the slot isn't starved by a bad search.
-            shortish = [r for r in merged if not r.get("duration") or r["duration"] <= 300]
+            # Policy pre-filter: lecture-length videos are mechanically excluded before
+            # curation ever sees them (cap per SEARCH_CAP: shorts 300s / relaxed 900s /
+            # principle 1800s; unknown-duration entries kept). If the cap empties the
+            # list, fall back to the 3 shortest so the slot isn't starved by a bad search.
+            cap = args.relax_cap if (args.relax_cap and slot_policy(s) == "relaxed") \
+                else SEARCH_CAP[slot_policy(s)]
+            shortish = [r for r in merged if not r.get("duration") or r["duration"] <= cap]
             if not shortish:
                 shortish = sorted(merged, key=lambda r: r.get("duration") or 10**9)[:3]
             merged = shortish
@@ -317,10 +378,15 @@ def stage_search(state, args):
 # Stage: curate (LLM — pick 1-3 from REAL results only)
 # --------------------------------------------------------------------------- #
 def stage_curate(state, args):
-    keys = [k for k in select(state, args, {"searched"}) if results_path(k).exists()]
-    print(f"[curate] {len(keys)} slot(s) to curate")
+    all_keys = [k for k in select(state, args, {"searched"}) if results_path(k).exists()]
+    print(f"[curate] {len(all_keys)} slot(s) to curate")
     consec_fails = 0
-    for batch in _batches(keys, CURATE_BATCH):
+    by_policy = {}
+    for k in all_keys:
+        by_policy.setdefault(slot_policy(state["slots"][k]), []).append(k)
+    batches = [(pol, batch) for pol, keys in by_policy.items()
+               for batch in _batches(keys, CURATE_BATCH)]
+    for pol, batch in batches:
         throttle_if_peak()
         blocks, valid_ids = [], {}
         for k in batch:
@@ -333,27 +399,33 @@ def stage_curate(state, args):
                 f"  [{r['id']}] {r['title']} | {r['channel'] or '?'} | "
                 f"{r['duration'] or '?'}s | {r['view_count'] or '?'} views"
                 for r in results)
+            existing = _existing_clips(s)
+            if pol == "principle" and existing:
+                # Existing shorts are candidates too: the curator's picks REPLACE the
+                # page, keeping at most one as the hook.
+                for c in existing:
+                    valid_ids[k].add(c["id"])
+                    rows += (f"\n  [{c['id']}] [CURRENT] {c.get('title','')} | "
+                             f"{c.get('channel') or '?'} | {c.get('duration') or '?'}s | applied")
+            used_note = ""
+            if pol == "relaxed" and existing:
+                used_note = "\nalready used (do NOT re-pick): " + ", ".join(c["id"] for c in existing)
             blocks.append(f"### slot: {k}\nwhat: {ctx.get('role_note') or s['name']} "
-                          f"(intended legend: {s.get('legend') or 'any authority'})\n"
+                          f"(intended legend: {s.get('legend') or 'any authority'}){used_note}\n"
                           f"candidates (REAL YouTube search results):\n{rows}")
-        prompt = f"""You curate film-study clips for a BJJ knowledge graph. The product shows a
-~30-second LOOP of the technique's motion. For each slot pick the 0-3 BEST clips from its
-candidate list, ranked best-first.
+        prompt = f"""You curate film-study clips for a BJJ knowledge graph. For each slot pick the
+0-3 BEST clips from its candidate list, ranked best-first.
 
 Rules:
 - Use ONLY ids from that slot's candidate list. Never invent an id.
-- Duration policy (strict): STRONGLY prefer <=75s (true Shorts — the whole video IS the
-  motion). 76-120s is fine if it's a focused demo. 121-300s is a LAST resort, only when
-  nothing shorter shows this technique, and only if clearly a demo (not a lecture).
-- Between two adequate Shorts, prefer the intended legend / a recognized authority on
-  this exact technique+role, and the instructor's own channel over reuploads. A clean
-  demonstration by a lesser-known coach BEATS a long lecture by a legend.
+{CURATE_RULES[pol]}
+- Prefer the intended legend / a recognized authority on this exact technique+role, and
+  the instructor's own channel over reuploads. A clean demonstration by a lesser-known
+  coach BEATS an off-topic video by a legend.
 - Down-rank raw sparring/highlight footage unless the technique is clearly visible.
 - The clip must match the ROLE: defender slots need defense/escape teaching, not execution.
 - `title`: <=60 chars, plain description. `by`: the instructor on screen (not the channel
   name unless unknown). Omit start/end unless a timestamp is certain from the title.
-- If nothing fits (wrong technique, junk results, only lectures), return an empty picks
-  array — an empty slot gets re-searched later; a bad long video does not.
 
 {chr(10).join(blocks)}
 
@@ -377,10 +449,13 @@ one entry per slot, `slot` copied verbatim."""
             k = cur.get("slot")
             if k not in state["slots"] or state["slots"][k]["status"] != "searched":
                 continue
+            banned = ({c["id"] for c in _existing_clips(state["slots"][k])}
+                      if pol == "relaxed" else set())
             picks = []
             for p in (cur.get("picks") or [])[:MAX_PICKS]:
                 pid = p.get("id")
-                if pid in valid_ids.get(k, set()) and CLIP_ID_RE.match(pid or ""):
+                if (pid in valid_ids.get(k, set()) and pid not in banned
+                        and CLIP_ID_RE.match(pid or "")):
                     picks.append({f: p[f] for f in ("id", "title", "by", "start", "end")
                                   if p.get(f) is not None})
             state["slots"][k].update(status="curated", picks=picks)
@@ -398,10 +473,10 @@ def stage_verify(state, args):
     today = date.today().isoformat()
     for i, k in enumerate(keys):
         s = state["slots"][k]
-        durations = {}
+        durations = {c["id"]: c.get("duration") for c in _existing_clips(s)}
         if results_path(k).exists():
             with open(results_path(k), encoding="utf-8") as fh:
-                durations = {r["id"]: r.get("duration") for r in json.load(fh)}
+                durations.update({r["id"]: r.get("duration") for r in json.load(fh)})
         verified = []
         transient = False
         for p in s.get("picks", []):
@@ -470,13 +545,21 @@ def stage_apply(state, args):
         if holder is None:
             s["error"] = f"role block '{s['role']}' missing"
             continue
-        if holder.get("clips") and not args.force:
+        pol = slot_policy(s)
+        existing = holder.get("clips") or []
+        if existing and pol == "shorts" and not args.force:
             s["status"] = "applied"
             s["applied"] = "skipped-existing"
             skipped += 1
             continue
+        if pol == "relaxed":
+            # top-up: append new picks to what's already there (dedup, existing first)
+            seen = {c.get("id") for c in existing}
+            clips = existing + [c for c in clips if c["id"] not in seen]
+            clips = clips[:4]
+        # principle: picks REPLACE the page (curator saw [CURRENT] clips as candidates)
         if args.dry_run:
-            print(f"[apply] DRY RUN — would write {len(clips)} clip(s) -> {k}")
+            print(f"[apply] DRY RUN — would write {len(clips)} clip(s) -> {k} ({pol})")
             continue
         holder["clips"] = clips
         atomic_write_json(s["file"], data)
@@ -587,9 +670,49 @@ def main():
     ap.add_argument("--redo-empty", action="store_true",
                     help="reset slots that ended with no clips back to pending (fresh "
                          "queries next pass); combine with --stage all for a re-sweep")
+    ap.add_argument("--top-up", action="store_true",
+                    help="reset every searched slot whose holder has <2 clips to pending "
+                         "under the relaxed policy (longer instructionals allowed, new "
+                         "picks APPEND); drives coverage to 100%% / min-2")
+    ap.add_argument("--redo-principles", action="store_true",
+                    help="reset all Principle slots to pending under the principle policy "
+                         "(1 short hook + 1-2 deep lectures REPLACE the current shorts)")
+    ap.add_argument("--relax-cap", type=int, default=None,
+                    help="override the relaxed policy's search duration cap in seconds "
+                         "(default 900; use 1800 for the final rescue round)")
     args = ap.parse_args()
 
     state = sync_slots(load_state(), args)
+    if args.top_up:
+        n = 0
+        for k, s in state["slots"].items():
+            if s["status"] not in ("applied", "curated", "verified"):
+                continue
+            if args.category and s["category"] != args.category:
+                continue
+            if args.file and args.file.lower() not in s["file"].lower():
+                continue
+            if slot_policy(s) == "principle" or len(_existing_clips(s)) >= 2:
+                continue
+            for field in ("queries", "picks", "verified_picks", "n_results", "applied", "error"):
+                s.pop(field, None)
+            s["status"] = "pending"
+            s["policy"] = "relaxed"
+            results_path(k).unlink(missing_ok=True)
+            n += 1
+        print(f"[top-up] reset {n} thin slot(s) to pending (relaxed policy)")
+    if args.redo_principles:
+        n = 0
+        for k, s in state["slots"].items():
+            if s["category"] != "Principles":
+                continue
+            for field in ("queries", "picks", "verified_picks", "n_results", "applied", "error"):
+                s.pop(field, None)
+            s["status"] = "pending"
+            s["policy"] = "principle"
+            results_path(k).unlink(missing_ok=True)
+            n += 1
+        print(f"[redo-principles] reset {n} principle slot(s) (lecture policy)")
     if args.redo_empty:
         n = 0
         for k, s in state["slots"].items():
