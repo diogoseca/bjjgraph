@@ -299,7 +299,36 @@
         "answer": "Prioritize controlling the arm that was performing the anaconda choke. In gi, grip their sleeve at the wrist of the choking arm. In no-gi, control the wrist or bicep of that arm. This grip serves dual purpose: it prevents the opponent from re-establishing any front headlock or anaconda configuration, and it creates an asymmetric control that you can use for sweeps and guard attacks. Controlling the formerly choking arm is psychologically effective as well, removing their primary offensive tool and forcing them to develop a new attacking strategy from open guard top."
       }
     ],
-    "safety_considerations": "The aggressive escape from Dead Orchard involves explosive movements while your neck is under compression, creating risk of cervical strain if performed without proper technique. Always maintain chin-to-chest contact during rolling movements to protect the cervical spine. In training, tap immediately if you feel the choke tighten during a failed escape attempt rather than forcing through a locked submission. Partners should release pressure immediately during escape drilling and communicate clearly about resistance levels. Start all aggressive escape practice at low resistance and increase gradually as mechanics become automatic."
+    "safety_considerations": "The aggressive escape from Dead Orchard involves explosive movements while your neck is under compression, creating risk of cervical strain if performed without proper technique. Always maintain chin-to-chest contact during rolling movements to protect the cervical spine. In training, tap immediately if you feel the choke tighten during a failed escape attempt rather than forcing through a locked submission. Partners should release pressure immediately during escape drilling and communicate clearly about resistance levels. Start all aggressive escape practice at low resistance and increase gradually as mechanics become automatic.",
+    "clips": [
+      {
+        "id": "FMAWiNfgp74",
+        "title": "Front headlock and darce escape via the stack",
+        "by": "BJJ101",
+        "vertical": false,
+        "channel": "BJJ101",
+        "duration": 30,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "iNZpCbutyrM",
+        "title": "Darce escape",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "LTGHO-aRBxw",
+        "title": "Head and arm escape from turtle",
+        "by": "Chosen Few BJJ",
+        "vertical": false,
+        "channel": "Chosen Few BJJ",
+        "duration": 78,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Escape from Dead Orchard Defender",
@@ -424,6 +453,26 @@
         "phase": "Phase 4: Full Resistance Positional Sparring",
         "focus": "Maintaining control against all escape variants at competition intensity",
         "description": "Full resistance rounds from dead orchard control where bottom player uses the complete escape decision tree including both incremental and aggressive variants. Track retention rate, submission finish rate, and side control transition rate. Target maintaining advantage in at least 65% of rounds against similarly skilled partners."
+      }
+    ],
+    "clips": [
+      {
+        "id": "VVjEXr-X3hg",
+        "title": "Following the gator roll defense off the guillotine",
+        "by": "Drew Darce",
+        "vertical": false,
+        "channel": "Drew Darce",
+        "duration": 183,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "IL04RCsCrac",
+        "title": "Arm-in guillotine finish from front headlock",
+        "by": "Neil Melanson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -297,7 +297,36 @@
         "answer": "First priority is recovering guard before they establish side control. Release the failed sweep grips and immediately establish frames on their shoulder and hip. Hip escape to create space and insert a knee shield or butterfly hook. If they advance past your frames, switch to underhook on the near side and fight for half guard rather than conceding full side control. The lockdown may still be partially engaged, which you can use to retain half guard even during the pass attempt."
       }
     ],
-    "safety_considerations": "The Old School Position Sweep is relatively low-risk for joint injuries compared to submissions, but practitioners should be mindful of knee strain from aggressive lockdown extension, particularly on the opponent's trapped knee and ankle. Avoid cranking the lockdown with maximum force during drilling, as this can hyperextend the opponent's knee joint. During the sweep rotation, control the descent to prevent the opponent from landing awkwardly on their neck or shoulder. Train progressively from slow cooperative repetitions before adding speed and resistance. Partners should communicate immediately if they feel joint pressure from the lockdown extension."
+    "safety_considerations": "The Old School Position Sweep is relatively low-risk for joint injuries compared to submissions, but practitioners should be mindful of knee strain from aggressive lockdown extension, particularly on the opponent's trapped knee and ankle. Avoid cranking the lockdown with maximum force during drilling, as this can hyperextend the opponent's knee joint. During the sweep rotation, control the descent to prevent the opponent from landing awkwardly on their neck or shoulder. Train progressively from slow cooperative repetitions before adding speed and resistance. Partners should communicate immediately if they feel joint pressure from the lockdown extension.",
+    "clips": [
+      {
+        "id": "08cbHHs_NsM",
+        "title": "Corona lockdown sweep from half guard",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 53,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "c5aHZxvr2bk",
+        "title": "Lockdown old school sweep demonstration",
+        "by": "The Jiu-Jitsu Foundry",
+        "vertical": false,
+        "channel": "The Jiu-Jitsu Foundry",
+        "duration": 33,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Jnc2siD9cak",
+        "title": "Old school sweep from half guard",
+        "by": "Ritchie Yip",
+        "vertical": false,
+        "channel": "Ritchie Yip",
+        "duration": 12,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Old School Position Sweep Defender",
@@ -424,6 +453,17 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance defense with variable attacks",
         "description": "Start in Old School position with full resistance. Bottom player attacks with sweep, Electric Chair, back take, and deep half transitions. Top player works to defend all attacks and advance to passing positions. Three-minute rounds with reset to Old School after each sweep, pass, or submission. Track defense success rate across multiple partners."
+      }
+    ],
+    "clips": [
+      {
+        "id": "-49CypLW9aM",
+        "title": "Breaking the lockdown half guard",
+        "by": "Superhero Jiu Jitsu Academy",
+        "vertical": false,
+        "channel": "Superhero Jiu Jitsu Academy ",
+        "duration": 61,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -332,6 +332,35 @@
         "answer": "Secure your side control points (3 points in IBJJF) before initiating the submission attempt, as a failed americana that leads to guard recovery loses the positional advantage. Time the attempt when the defender's energy is depleted from sustained chest pressure rather than immediately upon achieving the pin. Consider the match score and remaining time: if ahead on points, the americana attempt carries less positional risk; if behind, ensure you maintain the pin even if the submission fails to avoid giving up a sweep or escape.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "vyzwkYm-ZN4",
+        "title": "Americana from Kesa-Gatame",
+        "by": "hammerhouse99",
+        "vertical": false,
+        "channel": "hammerhouse99",
+        "duration": 21,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "ej1262EvsCk",
+        "title": "Kesa Gatame Leg Americana Sub NoGi",
+        "by": "RAW MMA",
+        "vertical": false,
+        "channel": "RAW MMA",
+        "duration": 98,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Fm4CRsUkAfw",
+        "title": "Favorite Series From Kuzure Kesa Gatame",
+        "by": "Bobby Thompson",
+        "vertical": false,
+        "channel": "Bobby Thompson BJJ",
+        "duration": 66,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -461,6 +490,17 @@
         "phase": "Live Positional Sparring",
         "focus": "Full integration of defensive skills against varied attacks",
         "description": "Start in modified scarf hold bottom against a partner who can attack americana, kimura, armbar, or transition. Practice reading which attack is coming and selecting the appropriate defensive response. This develops the decision-making speed required for live rolling where the attacker may chain multiple threats."
+      }
+    ],
+    "clips": [
+      {
+        "id": "fvp5_BVEtLg",
+        "title": "Kesa Gatame Pressure Defense with Framing",
+        "by": "Kohbukan Sisu",
+        "vertical": false,
+        "channel": "Kohbukan Sisu",
+        "duration": 84,
+        "verified": "2026-07-14"
       }
     ]
   }

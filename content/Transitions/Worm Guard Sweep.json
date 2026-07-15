@@ -285,7 +285,36 @@
         "answer": "If the sweep is blocked, immediately chain into alternative attacks rather than forcing a failed technique. The primary chains are: collar drag when the opponent bases backward after defending the sweep; transition to squid guard if you can advance the lapel position during the scramble; or switch to an X-guard entry by releasing the lapel and inserting butterfly hooks under the destabilized opponent. Never stay committed to a blocked sweep."
       }
     ],
-    "safety_considerations": "The Worm Guard Sweep carries relatively low injury risk compared to submissions, but the lapel wrap around the opponent's leg can create uncomfortable pressure on the knee joint during explosive sweep attempts. Partners should communicate immediately if the lapel configuration causes any knee discomfort or restricts circulation. Avoid explosive jerking motions with the lapel that could hyperextend the trapped leg. When being swept, practice proper breakfalling technique to protect wrists and shoulders from posting injuries during the fall. Always practice on adequately padded surfaces, particularly when drilling the full sweep-to-mount completion at higher speeds. Release the lapel promptly once mount is secured to avoid unnecessary strain on the training partner's leg."
+    "safety_considerations": "The Worm Guard Sweep carries relatively low injury risk compared to submissions, but the lapel wrap around the opponent's leg can create uncomfortable pressure on the knee joint during explosive sweep attempts. Partners should communicate immediately if the lapel configuration causes any knee discomfort or restricts circulation. Avoid explosive jerking motions with the lapel that could hyperextend the trapped leg. When being swept, practice proper breakfalling technique to protect wrists and shoulders from posting injuries during the fall. Always practice on adequately padded surfaces, particularly when drilling the full sweep-to-mount completion at higher speeds. Release the lapel promptly once mount is secured to avoid unnecessary strain on the training partner's leg.",
+    "clips": [
+      {
+        "id": "rCFiQeV6aHU",
+        "title": "Sweep from Worm Guard",
+        "by": "Lucas Lima",
+        "vertical": false,
+        "channel": "American Grappling Federation",
+        "duration": 41,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "BHwU-bbyvkc",
+        "title": "Worm Guard attacks: sweep and berimbolo",
+        "by": "Jamie",
+        "vertical": false,
+        "channel": "jamielovesmartialarts",
+        "duration": 89,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "v8GCc43GlXA",
+        "title": "De la worm sweep",
+        "by": "James Fisher",
+        "vertical": false,
+        "channel": "James Fisher",
+        "duration": 97,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Worm Guard Sweep Defender",
@@ -415,6 +444,26 @@
         "phase": "Phase 4: Live Defensive Integration",
         "focus": "Full-speed defense in positional sparring with all worm guard attacks available",
         "description": "Positional sparring starting from opponent's established worm guard with all attacks available including sweep, collar drag, and transitions. Defender must recognize and defend each attack while working toward passing the guard. Builds realistic defensive reactions and develops the ability to chain defensive responses into passing sequences."
+      }
+    ],
+    "clips": [
+      {
+        "id": "aR0dbddbfQA",
+        "title": "Passing the Polish Worm Rider lapel guard",
+        "by": "Daniel Maira",
+        "vertical": false,
+        "channel": "Movement Art",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lACga4DakTM",
+        "title": "Modern lapel guard passing",
+        "by": "Romulo Barral",
+        "vertical": false,
+        "channel": "Romulo Barral",
+        "duration": 121,
+        "verified": "2026-07-15"
       }
     ]
   }

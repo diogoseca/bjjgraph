@@ -280,7 +280,27 @@
         "answer": "With the choke neutralized, shift focus to hook removal by trapping their bottom hook with your legs while maintaining one hand on their choking wrist. Use your free hand to frame on their top knee and begin hip escaping toward turtle. Alternatively, if their seatbelt loosens during the grip exchange, immediately turn into them for half guard recovery by threading your near leg between theirs during the rotation."
       }
     ],
-    "safety_considerations": "Hand fighting from back control is generally safe during training but requires awareness of neck positioning. Avoid explosive head movements while under choke threat as this can strain neck muscles. Partners should apply submission attempts gradually, allowing time for defensive response. When practicing, tap early if a choke locks in despite your hand fighting to prevent unconsciousness. If you experience tingling in extremities or vision changes, tap immediately. Practitioners with prior neck injuries should inform partners and may need modified training protocols. During intense drilling, monitor grip fatigue that can lead to forearm cramping."
+    "safety_considerations": "Hand fighting from back control is generally safe during training but requires awareness of neck positioning. Avoid explosive head movements while under choke threat as this can strain neck muscles. Partners should apply submission attempts gradually, allowing time for defensive response. When practicing, tap early if a choke locks in despite your hand fighting to prevent unconsciousness. If you experience tingling in extremities or vision changes, tap immediately. Practitioners with prior neck injuries should inform partners and may need modified training protocols. During intense drilling, monitor grip fatigue that can lead to forearm cramping.",
+    "clips": [
+      {
+        "id": "GQXI1OG2874",
+        "title": "Defensive Position 2 hand fighting off the back",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 23,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "21BYfWzw6HI",
+        "title": "Wrists as the first layer of back defense",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 220,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Hand Fighting from Back Defender",
@@ -398,6 +418,26 @@
         "phase": "Week 5-6",
         "focus": "Submission finishing against active defense",
         "description": "Partner provides full resistance hand fighting while you work complete sequences from grip battle to submission finish. Practice arm switches to choke, gift wrap transitions, and patience-based compression strategies. Develop ability to recognize and exploit grip fatigue windows."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Q9Deu0fqLH0",
+        "title": "Key concepts for finishing the rear naked choke",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Faq",
+        "duration": 24,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "70jECxFfCSA",
+        "title": "Rear naked choke grip fighting to the finish",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Control Jiu JItsu",
+        "duration": 73,
+        "verified": "2026-07-15"
       }
     ]
   },

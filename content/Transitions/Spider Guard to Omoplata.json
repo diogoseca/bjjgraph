@@ -312,7 +312,36 @@
         "answer": "Reset to spider guard when the opponent has successfully extracted their arm past your knee line and is already establishing passing grips, when you have lost both sleeve grips and have no remaining control points, or when the opponent has achieved a strong stacking position with their hips above yours and you cannot redirect to triangle. The key indicator is whether you still have meaningful control of at least one limb. If you have zero control points, any attack attempt will fail and leave you vulnerable to a pass. A fast reset to spider guard preserves your guard structure and lets you restart the attack cycle."
       }
     ],
-    "safety_considerations": "When training the spider guard to omoplata transition, both partners must exercise control to prevent shoulder injuries. The omoplata attacks the shoulder joint through external rotation, which is vulnerable to rotator cuff tears, labral damage, and dislocation if excessive force is applied suddenly. The person executing the technique should apply finishing pressure gradually and incrementally, stopping immediately if the partner taps or shows discomfort. During drilling, focus on position control and the transition mechanics rather than finishing the submission until you have developed sensitivity to how much pressure the position creates. Partners defending should tap early when they feel rotational pressure on the shoulder and should never attempt to power through shoulder locks, as this dramatically increases injury risk. When practicing the leg swing, be mindful of your partner's neck and avoid dropping your full weight suddenly onto their cervical spine. Warm up shoulders thoroughly before omoplata drilling sessions."
+    "safety_considerations": "When training the spider guard to omoplata transition, both partners must exercise control to prevent shoulder injuries. The omoplata attacks the shoulder joint through external rotation, which is vulnerable to rotator cuff tears, labral damage, and dislocation if excessive force is applied suddenly. The person executing the technique should apply finishing pressure gradually and incrementally, stopping immediately if the partner taps or shows discomfort. During drilling, focus on position control and the transition mechanics rather than finishing the submission until you have developed sensitivity to how much pressure the position creates. Partners defending should tap early when they feel rotational pressure on the shoulder and should never attempt to power through shoulder locks, as this dramatically increases injury risk. When practicing the leg swing, be mindful of your partner's neck and avoid dropping your full weight suddenly onto their cervical spine. Warm up shoulders thoroughly before omoplata drilling sessions.",
+    "clips": [
+      {
+        "id": "wl48JJRddV8",
+        "title": "Spider guard to triangle or omoplata",
+        "by": "Clark Gracie",
+        "vertical": false,
+        "channel": "Clark Gracie Allegiance Jiu Jitsu",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Cl5tutvZ2NA",
+        "title": "Spider guard: break posture to omoplata and sweep",
+        "by": "Pathfinder JJ coach",
+        "vertical": false,
+        "channel": "Pathfinder Jiu-Jitsu Team",
+        "duration": 50,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "p3RN_8y_l_Y",
+        "title": "How to omoplata from spider guard",
+        "by": "Evolve MMA coach",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 66,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Spider Guard to Omoplata Defender",
@@ -438,6 +467,26 @@
         "phase": "Week 9-12: Live Defense Integration",
         "focus": "Defend the omoplata during full-speed positional sparring",
         "description": "Start in spider guard top versus bottom. Bottom player actively attacks with omoplata and alternative attacks. Top player practices the full defensive sequence from recognition through escape, including transitions back to passing when defense is successful. Track which defensive responses work most consistently and refine timing under pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "_2dhd21ffbc",
+        "title": "Omoplata escape by jumping over",
+        "by": "Ritchie Yip",
+        "vertical": false,
+        "channel": "Ritchie Yip",
+        "duration": 8,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "obRNRNrjaxs",
+        "title": "A new way to defend the omoplata",
+        "by": "Ricardo Cavalcanti",
+        "vertical": false,
+        "channel": "Ricardo Cavalcanti BJJ",
+        "duration": 209,
+        "verified": "2026-07-15"
       }
     ]
   }

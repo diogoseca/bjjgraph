@@ -291,7 +291,36 @@
         "answer": "Choose the sweep when the opponent's forward weight commitment is pronounced, their posting hand is controllable, and their heel grip has been neutralized. The sweep is the highest-reward option but also the highest-risk. If the opponent maintains cautious base positioning without overcommitting forward, safer options like turtle recovery or systematic leg extraction provide more reliable escape with less risk of ending up in saddle. Use the sweep as a weapon against aggressive finishers, not as a default escape against patient leg lock players."
       }
     ],
-    "safety_considerations": "The Sweep from Ushiro Ashi-Garami involves rapid rotational forces through the knee and ankle joints of both practitioners during the sweeping motion. Always strip or neutralize the opponent's heel hook grip before initiating the sweep—rotational forces during the sweep can amplify existing heel hook leverage and cause serious knee ligament damage. Maintain dorsiflexion throughout the entire rotation to protect the heel. Both practitioners should agree on tap protocols before drilling, as the transition from bottom to top can cause unexpected torque on entangled joints. Begin training at slow, controlled speeds and increase intensity only after both partners are comfortable with the rotational mechanics. If either partner feels any torsional stress in the knee during rotation, stop immediately and reset."
+    "safety_considerations": "The Sweep from Ushiro Ashi-Garami involves rapid rotational forces through the knee and ankle joints of both practitioners during the sweeping motion. Always strip or neutralize the opponent's heel hook grip before initiating the sweep—rotational forces during the sweep can amplify existing heel hook leverage and cause serious knee ligament damage. Maintain dorsiflexion throughout the entire rotation to protect the heel. Both practitioners should agree on tap protocols before drilling, as the transition from bottom to top can cause unexpected torque on entangled joints. Begin training at slow, controlled speeds and increase intensity only after both partners are comfortable with the rotational mechanics. If either partner feels any torsional stress in the knee during rotation, stop immediately and reset.",
+    "clips": [
+      {
+        "id": "lTsK9C_a6po",
+        "title": "V grip from top ushiro transition",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 140,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "gc3kDoiiFAs",
+        "title": "Butterfly sumi gaeshi to cross ashi inversion",
+        "by": "BJJFlowCharts",
+        "vertical": false,
+        "channel": "BJJFlowCharts",
+        "duration": 83,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "GqE4UobpkMs",
+        "title": "Butterfly to reverse X to cross ashi to inside heel hook",
+        "by": "Bowerhouse MMA",
+        "vertical": false,
+        "channel": "BOWERHOUSE MMA",
+        "duration": 88,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Sweep from Ushiro Ashi-Garami Defender",
@@ -412,6 +441,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Integration of all defensive options against sweep-capable opponents",
         "description": "Positional rounds starting in ushiro ashi-garami top against partners who actively threaten the sweep. Practice reading intentions, maintaining base during finishes, and selecting appropriate defensive responses. Track how often you successfully defend the sweep versus being reversed or successfully transitioning to saddle."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Z0WDtUMkBP8",
+        "title": "The one key idea for defending heel hooks",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 170,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "m0NLphEuFoc",
+        "title": "Leg lock defense fundamentals",
+        "by": "Kuwy Jitsu",
+        "vertical": false,
+        "channel": "Kuwy Jitsu",
+        "duration": 61,
+        "verified": "2026-07-15"
       }
     ]
   }

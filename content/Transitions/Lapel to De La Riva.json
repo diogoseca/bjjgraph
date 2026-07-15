@@ -285,7 +285,36 @@
         "answer": "The lapel pull should create a diagonal downward-and-toward-you force vector that prevents the opponent from stepping the target leg backward. This force keeps their leg loaded and within threading range. Pulling straight toward you is less effective because it allows lateral escape. The diagonal angle pins their base while you complete the hook rotation."
       }
     ],
-    "safety_considerations": "This transition is generally low-risk as it involves guard flow between two established positions rather than joint manipulation or choking threats. The primary safety concern is avoiding knee strain during the hook threading motion—ensure your hip rotates with your leg rather than forcing the knee into an awkward angle. If you feel knee discomfort during hook insertion, adjust your hip angle rather than forcing the position. During drilling, partners should allow the hook insertion rather than aggressively defending with knee torque. Practitioners with existing knee injuries should approach this technique cautiously and may need to modify the hip angle to reduce stress on the joint."
+    "safety_considerations": "This transition is generally low-risk as it involves guard flow between two established positions rather than joint manipulation or choking threats. The primary safety concern is avoiding knee strain during the hook threading motion—ensure your hip rotates with your leg rather than forcing the knee into an awkward angle. If you feel knee discomfort during hook insertion, adjust your hip angle rather than forcing the position. During drilling, partners should allow the hook insertion rather than aggressively defending with knee torque. Practitioners with existing knee injuries should approach this technique cautiously and may need to modify the hip angle to reduce stress on the joint.",
+    "clips": [
+      {
+        "id": "wMwYOHmtLuY",
+        "title": "Sleeve and lapel De La Riva sweeps",
+        "by": "Nate Stubley",
+        "vertical": false,
+        "channel": "Nate Stubley",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_lzJebmY_v8",
+        "title": "Reverse De La Worm to shin-to-shin back take",
+        "by": "BJJ Online",
+        "vertical": false,
+        "channel": "BJJ ONLINE",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Kc_jgNjyL1g",
+        "title": "Lapel lasso to De La Riva technique",
+        "by": "Carlson Gracie Team CT",
+        "vertical": false,
+        "channel": "Carlson Gracie Team CT - CPBJJ",
+        "duration": 218,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Lapel to De La Riva Defender",
@@ -414,6 +443,35 @@
         "phase": "Week 7+",
         "focus": "Live defensive sparring",
         "description": "Full resistance rounds starting with partner in established lapel guard. Defend all transition attempts while simultaneously working to clear the lapel configuration and initiate passes. Track which defensive responses succeed most frequently against each opponent and adjust your default reactions accordingly."
+      }
+    ],
+    "clips": [
+      {
+        "id": "PfCNibO8A7U",
+        "title": "Step back underhook De La Riva pass",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 80,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "hdSw-ZmcBRA",
+        "title": "Defense to reverse De La Riva and footlock",
+        "by": "Ninja Pinto",
+        "vertical": false,
+        "channel": "Ninja Pinto BJJ",
+        "duration": 31,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "TtNnbReRkcM",
+        "title": "Passing the underhook De La Riva guard",
+        "by": "Pedro Ramalho",
+        "vertical": false,
+        "channel": "JonThomasBJJ Plus",
+        "duration": 213,
+        "verified": "2026-07-15"
       }
     ]
   },

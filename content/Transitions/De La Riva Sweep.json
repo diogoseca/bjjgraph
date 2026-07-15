@@ -285,7 +285,27 @@
         "answer": "The highest percentage configuration is a same-side sleeve grip (controlling the wrist of the leg you are hooking) combined with a cross collar grip with the opposite hand. The sleeve grip eliminates their strongest posting defense while the collar grip controls posture and provides pulling power. This two-grip system creates maximum control because it addresses both the upper and lower body simultaneously, giving you leverage at two distant points on their frame."
       }
     ],
-    "safety_considerations": "The De La Riva Sweep should be executed with controlled force to protect both practitioners from injury. When sweeping, be mindful of the rotational torque placed on the opponent's knee from the hook position—avoid jerking or explosive movements that could stress knee ligaments. Ensure training partners understand proper falling technique (breakfalls) before practicing at full speed. The bottom player should maintain awareness of their own knee and ankle positioning in the De La Riva hook to prevent hyperextension injuries. When practicing, start slowly and gradually increase speed as both partners develop familiarity with the technique. Communication is essential, particularly when partner is airborne during sweep completion. Practice on appropriate mat surfaces with adequate padding. If you experience knee or ankle discomfort while in De La Riva Guard, release the position immediately and assess before continuing."
+    "safety_considerations": "The De La Riva Sweep should be executed with controlled force to protect both practitioners from injury. When sweeping, be mindful of the rotational torque placed on the opponent's knee from the hook position—avoid jerking or explosive movements that could stress knee ligaments. Ensure training partners understand proper falling technique (breakfalls) before practicing at full speed. The bottom player should maintain awareness of their own knee and ankle positioning in the De La Riva hook to prevent hyperextension injuries. When practicing, start slowly and gradually increase speed as both partners develop familiarity with the technique. Communication is essential, particularly when partner is airborne during sweep completion. Practice on appropriate mat surfaces with adequate padding. If you experience knee or ankle discomfort while in De La Riva Guard, release the position immediately and assess before continuing.",
+    "clips": [
+      {
+        "id": "pcOF-B4y09Q",
+        "title": "De La Riva sweep matrix",
+        "by": "Unknown coach",
+        "vertical": false,
+        "channel": "FreeChannelOpen",
+        "duration": 36,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "H_q0fvsywO0",
+        "title": "De la X sweep from De La Riva",
+        "by": "IronHide Academy coach",
+        "vertical": false,
+        "channel": "IronHide Academy",
+        "duration": 69,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "De La Riva Sweep Defender",
@@ -405,6 +425,26 @@
         "phase": "Week 9+: Live Application and Counter-Chain Development",
         "focus": "Defending sweep chains and counter-transitions in live sparring",
         "description": "Full resistance positional sparring starting in opponent's DLR guard. Partner chains sweep attempts with berimbolo, Kiss of the Dragon, and X-Guard transitions when initial sweep is defended. Develop automatic responses to each chain and build personal defensive sequences. Include competition-pace rounds with score tracking."
+      }
+    ],
+    "clips": [
+      {
+        "id": "KvdgeJjclTA",
+        "title": "Over-under pass to shut down De La Riva",
+        "by": "Carpio Jiu Jitsu coach",
+        "vertical": false,
+        "channel": "Carpio Jiu Jitsu",
+        "duration": 128,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "krtNPm3OXtc",
+        "title": "Over-under stack pass against De La Riva",
+        "by": "Balance BJJ coach",
+        "vertical": false,
+        "channel": "geministeven",
+        "duration": 163,
+        "verified": "2026-07-15"
       }
     ]
   },

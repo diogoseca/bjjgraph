@@ -324,6 +324,35 @@
         "answer": "Follow the roll by maintaining collar tension and adjusting your body angle to stay behind them. Use the pants grip to resist their rotation and redirect the extension vector. If they complete a partial roll, you may end in a top finishing position with the collar grip intact, which can actually improve your leverage. If they fully invert, be prepared to transition to a modified finishing angle or release and re-establish the rear triangle before they can recover guard position.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "xqNhZVNhxnE",
+        "title": "Bow and arrow choke from back control",
+        "by": "Evolve MMA",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 45,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "rc77idEskwo",
+        "title": "Bow and arrow choke",
+        "by": "Helena Crevar",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 55,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "R5LFNqtx1ps",
+        "title": "Bow & arrow choke",
+        "by": "Gracie Barra",
+        "vertical": false,
+        "channel": "Gracie Barra Jiu-jitsu",
+        "duration": 66,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -447,6 +476,17 @@
         "phase": "Phase 3: Live Positional Defense",
         "focus": "Full resistance defensive application and tap timing",
         "description": "Start in rear triangle with partner working full-speed bow and arrow attempts. Defend using all available options including grip fighting, chin defense, and rolling escapes. Practice recognizing when to tap rather than continuing to defend a fully locked submission. 2-minute rounds with reset after finish or successful escape to guard. Track defensive success rate to measure improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "_sBB-O8fqP4",
+        "title": "Back escape — standing up",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 114,
+        "verified": "2026-07-14"
       }
     ]
   }

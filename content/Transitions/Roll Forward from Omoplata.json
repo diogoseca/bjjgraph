@@ -291,7 +291,27 @@
         "answer": "A double post is one of the best triggers for the roll forward. Both hands on the mat means the opponent has committed their entire upper body structure to base, leaving zero hands available for grip fighting or blocking your hip drive. Their forward weight distribution from the double post plays directly into the roll mechanics. Secure your belt grip immediately if not already established, then drive your hips forward explosively. The opponent cannot strip your grip, block your momentum, or adjust their base without lifting a hand and compromising their stability. The double post also means their weight is already shifted forward, reducing the force you need to generate to complete the roll."
       }
     ],
-    "safety_considerations": "The Roll Forward from Omoplata involves continued shoulder joint pressure during a dynamic rolling motion. The trapped shoulder remains under rotational stress throughout the transition, and the combination of momentum and joint manipulation can hyperextend the shoulder before the defender can signal a tap. During training, execute the roll at controlled speed and release shoulder pressure immediately if your partner taps or signals discomfort at any point during the movement. Avoid explosive full-speed rolls with unfamiliar training partners. Communicate intensity expectations before drilling and build speed gradually as both partners become comfortable with the technique."
+    "safety_considerations": "The Roll Forward from Omoplata involves continued shoulder joint pressure during a dynamic rolling motion. The trapped shoulder remains under rotational stress throughout the transition, and the combination of momentum and joint manipulation can hyperextend the shoulder before the defender can signal a tap. During training, execute the roll at controlled speed and release shoulder pressure immediately if your partner taps or signals discomfort at any point during the movement. Avoid explosive full-speed rolls with unfamiliar training partners. Communicate intensity expectations before drilling and build speed gradually as both partners become comfortable with the technique.",
+    "clips": [
+      {
+        "id": "HCuRfqaM0tM",
+        "title": "Omoplata em Giro (Rolling Omoplata)",
+        "by": "Clark Gracie",
+        "vertical": false,
+        "channel": "CIENTISTAS DO JIU JITSU",
+        "duration": 96,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "oQAP8nARiHU",
+        "title": "Clark Gracie Omoplata Breakdown",
+        "by": "Clark Gracie",
+        "vertical": false,
+        "channel": "Deep Dive JJ",
+        "duration": 100,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Roll Forward from Omoplata Defender",
@@ -413,6 +433,26 @@
         "phase": "Phase 4: Recovery Training",
         "focus": "Guard recovery after partial or complete sweep",
         "description": "Start from the point where the roll forward is partially or fully succeeding. Practice immediate guard recovery upon landing, including knee insertion, hip escaping, frame establishment, and half guard recovery. This phase trains the damage control scenarios when primary defense fails, ensuring you can minimize positional loss even when swept."
+      }
+    ],
+    "clips": [
+      {
+        "id": "_2dhd21ffbc",
+        "title": "Omoplata Escape: Jump Over",
+        "by": "Ritchie Yip",
+        "vertical": false,
+        "channel": "Ritchie Yip",
+        "duration": 8,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ocIHY3jBYIQ",
+        "title": "Best Way to Escape the Omoplata Shoulder Lock",
+        "by": "John Connors",
+        "vertical": false,
+        "channel": "John Connors, Old Man BJJ Black Belt",
+        "duration": 62,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -296,7 +296,36 @@
         "answer": "Consistent failure at the leg swing stage points to three common issues: insufficient hip pivot before the swing, inadequate posture breakdown allowing the opponent to block the leg, or insufficient hip flexibility. First verify your hip pivot reaches at least 70 degrees before initiating the swing. Second, check that the opponent's head is at or below your chest level before releasing the shin. Third, if flexibility is the limitation, practice the leg swing solo with progressive stretching and consider the shin-walk variation that gradually walks the leg over rather than swinging in one motion."
       }
     ],
-    "safety_considerations": "The armbar from New York applies significant hyperextension force to the elbow joint. Always apply extension pressure gradually during training and respect your partner's tap immediately. The transition from rubber guard to armbar can happen quickly, catching defenders off-guard before they recognize the submission threat. Communicate with your training partner about the intensity of your attacks. In drilling, release immediately upon feeling the arm straighten to prevent ligament damage. Be especially cautious with less experienced partners who may not recognize the armbar setup from the unfamiliar rubber guard position. The hip flexibility demands of this technique can also cause groin or hip flexor strain in the attacker — warm up thoroughly before drilling and respect your own physical limits during the leg swing phase."
+    "safety_considerations": "The armbar from New York applies significant hyperextension force to the elbow joint. Always apply extension pressure gradually during training and respect your partner's tap immediately. The transition from rubber guard to armbar can happen quickly, catching defenders off-guard before they recognize the submission threat. Communicate with your training partner about the intensity of your attacks. In drilling, release immediately upon feeling the arm straighten to prevent ligament damage. Be especially cautious with less experienced partners who may not recognize the armbar setup from the unfamiliar rubber guard position. The hip flexibility demands of this technique can also cause groin or hip flexor strain in the attacker — warm up thoroughly before drilling and respect your own physical limits during the leg swing phase.",
+    "clips": [
+      {
+        "id": "jT4wPY2Dc_U",
+        "title": "Dead Orchard armbar from rubber guard",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "James O'Brien",
+        "duration": 88,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fME3fkrrZcA",
+        "title": "Invisible armbar from rubber guard",
+        "by": "mean gene",
+        "vertical": false,
+        "channel": "mean gene",
+        "duration": 109,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "htWNfAakkAY",
+        "title": "Mexican Dead Orchard setup",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Armbar from New York Defender",
@@ -426,6 +455,17 @@
         "phase": "Live positional defense",
         "focus": "Full resistance armbar defense from New York",
         "description": "Full positional sparring starting from New York where the bottom player can attempt any attack but prioritizes the armbar. Defender works all available defensive tools against realistic timing and pressure. Rounds are 3 minutes with the goal of escaping to closed guard or surviving the full round without being submitted. Progressive resistance from 50% to full competition intensity."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "Armbar escape",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "verified": "2026-07-15"
       }
     ]
   }

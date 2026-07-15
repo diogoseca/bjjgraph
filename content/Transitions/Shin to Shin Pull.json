@@ -281,7 +281,27 @@
         "answer": "The same-side sleeve or wrist grip is the most critical because it serves three simultaneous functions: it prevents the opponent from establishing their own strong posture and grips, it provides the primary pulling vector for off-balancing them forward over your shin connection, and it controls the arm that would otherwise be used to push your shin away or establish passing grips. Losing this grip mid-pull leaves you seated with a shin connection but no way to generate the off-balancing force needed to threaten sweeps. Re-establishing it should be the immediate priority if broken during execution."
       }
     ],
-    "safety_considerations": "The shin-to-shin pull is generally a low-risk technique when executed properly, but several safety considerations should be observed. When dropping to seated position, ensure the training surface is appropriate and free of obstacles that could cause injury during the descent. Control your falling motion rather than dropping uncontrollably, which could cause tailbone or lower back impact injuries. Be mindful of your opponent's knee and ankle joints when applying shin pressure—the pressure should be firm but not aggressive enough to hyperextend or torque their joints. If you feel your opponent's leg twisting or their knee bending unnaturally, release pressure immediately. During drilling, communicate with your partner about appropriate pressure levels. When transitioning from shin-to-shin to leg entanglement positions, maintain awareness of your partner's knee ligaments and apply transitions smoothly rather than explosively. In competition scenarios, be prepared for opponents to drive forward aggressively, and have escape routes planned to avoid being flattened in a dangerous position. Practice breakfalls and defensive positioning to safely handle failed attempts."
+    "safety_considerations": "The shin-to-shin pull is generally a low-risk technique when executed properly, but several safety considerations should be observed. When dropping to seated position, ensure the training surface is appropriate and free of obstacles that could cause injury during the descent. Control your falling motion rather than dropping uncontrollably, which could cause tailbone or lower back impact injuries. Be mindful of your opponent's knee and ankle joints when applying shin pressure—the pressure should be firm but not aggressive enough to hyperextend or torque their joints. If you feel your opponent's leg twisting or their knee bending unnaturally, release pressure immediately. During drilling, communicate with your partner about appropriate pressure levels. When transitioning from shin-to-shin to leg entanglement positions, maintain awareness of your partner's knee ligaments and apply transitions smoothly rather than explosively. In competition scenarios, be prepared for opponents to drive forward aggressively, and have escape routes planned to avoid being flattened in a dangerous position. Practice breakfalls and defensive positioning to safely handle failed attempts.",
+    "clips": [
+      {
+        "id": "sUJIGs8Othc",
+        "title": "Shin to Shin Guard entry and grips",
+        "by": "RGA South Herts coach",
+        "vertical": false,
+        "channel": "RGA South Herts",
+        "duration": 76,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "a1lWupzNhkg",
+        "title": "De La Riva to shin-on-shin to the back",
+        "by": "Carpio Jiu Jitsu coach",
+        "vertical": false,
+        "channel": "Carpio Jiu Jitsu",
+        "duration": 81,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Shin to Shin Pull Defender",
@@ -411,6 +431,26 @@
         "phase": "Week 7-8: Positional Sparring from Standing",
         "focus": "Live defense against committed shin-to-shin pull attempts",
         "description": "Start from standing with partner specifically attempting shin-to-shin pulls. If they establish guard, play for 30-60 seconds before resetting. Track your defense success rate and identify which counters work best against different pull entries. Partner uses full resistance and realistic timing. 8-10 rounds of 2 minutes, alternating roles. Analyze patterns in successful versus failed defenses."
+      }
+    ],
+    "clips": [
+      {
+        "id": "25oMxgS-wH0",
+        "title": "Backstep counter to shin to shin",
+        "by": "Kyle Dimmitt",
+        "vertical": false,
+        "channel": "Kyle Dimmitt",
+        "duration": 73,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "qAV1x1_RVbg",
+        "title": "Countering the wrestle up from shin to shin",
+        "by": "Unknown coach",
+        "vertical": false,
+        "channel": "FreeChannelOpen",
+        "duration": 45,
+        "verified": "2026-07-15"
       }
     ]
   },

@@ -472,5 +472,34 @@
       "question": "What distinguishes hip escape mechanics from a single position-specific escape technique?",
       "answer": "It is a transferable bridge-frame-rotate-recover movement system underlying many escapes, not one technique; the same mechanics apply from mount, side control, knee-on-belly, north-south, and more."
     }
+  ],
+  "clips": [
+    {
+      "id": "C268rQiJdyg",
+      "title": "How to shrimp / hip escape",
+      "by": "Brampton BJJ",
+      "vertical": false,
+      "channel": "Brampton Brazilian Jiu Jitsu",
+      "duration": 66,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "Wwhuorkm4oA",
+      "title": "Solo drill: shrimp / hip escape",
+      "by": "Bellingham BJJ",
+      "vertical": false,
+      "channel": "Bellingham BJJ",
+      "duration": 65,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "qnPzh_CY-Ec",
+      "title": "Shrimping and hip escape solo drills",
+      "by": "Kameron Ross",
+      "vertical": false,
+      "channel": "Kameron Ross",
+      "duration": 59,
+      "verified": "2026-07-15"
+    }
   ]
 }

@@ -255,7 +255,27 @@
         "answer": "The chain works bidirectionally. Threaten back take to draw opponent's defensive attention to their neck, then switch to Double Underhook Pass when they overcommit to back defense. Conversely, if the pass stalls due to underhook defense, use their arm elevation to enter back take. The opponent cannot defend both simultaneously, creating a dilemma."
       }
     ],
-    "safety_considerations": "The Double Underhook Pass is relatively low-risk when executed properly. Primary injury concerns involve shoulder strain for the bottom player if they attempt to post while you drive through - ensure training partners tap or verbally signal discomfort. Avoid explosive jerking motions with the Gable grip that could cause neck strain. When drilling, establish clear communication protocols for when the bottom player feels their shoulder or neck becoming compromised. The technique should not be forced against strong resistance during learning phases - if the pass isn't working, release and reset rather than muscling through with increased pressure."
+    "safety_considerations": "The Double Underhook Pass is relatively low-risk when executed properly. Primary injury concerns involve shoulder strain for the bottom player if they attempt to post while you drive through - ensure training partners tap or verbally signal discomfort. Avoid explosive jerking motions with the Gable grip that could cause neck strain. When drilling, establish clear communication protocols for when the bottom player feels their shoulder or neck becoming compromised. The technique should not be forced against strong resistance during learning phases - if the pass isn't working, release and reset rather than muscling through with increased pressure.",
+    "clips": [
+      {
+        "id": "wBZrTpuXV50",
+        "title": "No-gi double underhook guard pass",
+        "by": "Garden State BJJ",
+        "vertical": false,
+        "channel": "Garden State Brazilian Jiu-Jitsu Academy",
+        "duration": 63,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "BuDGLXL8sGs",
+        "title": "Double under pass to crucifix",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 198,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Double Underhook Pass Defender",
@@ -378,6 +398,35 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring from Crackhead Control",
         "description": "Full resistance rounds starting from Crackhead Control. Defender scores points for successful guard recovery, neutral reset, or position improvement. Track defensive success rate and identify which phase of the pass most commonly succeeds against you. Adjust defensive emphasis based on your specific failure points."
+      }
+    ],
+    "clips": [
+      {
+        "id": "dH6Cj-nv3vU",
+        "title": "Shoulder lock defending the double under stack pass",
+        "by": "Tony Casarez",
+        "vertical": false,
+        "channel": "Tony Casarez",
+        "duration": 62,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "H9spCvrBPsE",
+        "title": "Defense against double underhooks to guillotine",
+        "by": "First BJJ",
+        "vertical": false,
+        "channel": "First Bjj Affiliates",
+        "duration": 108,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "aBLmq4iT0sM",
+        "title": "Double under pass defense to triangle",
+        "by": "Clark Gracie",
+        "vertical": false,
+        "channel": "Clark Gracie Allegiance Jiu Jitsu",
+        "duration": 164,
+        "verified": "2026-07-15"
       }
     ]
   },

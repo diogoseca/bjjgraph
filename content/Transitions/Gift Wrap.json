@@ -278,7 +278,36 @@
         "answer": "The threading arm grips opponent's wrist or lower forearm on the far side of their chest, with the arm running diagonally under their armpit. Your free hand controls behind their head or cups the back of their neck, creating a clamp between the head control and the arm trap. This configuration prevents both arm recovery and the head turn needed to initiate escapes. The diagonal line of the threading arm is the structural backbone of the entire control."
       }
     ],
-    "safety_considerations": "The Gift Wrap transition is generally low-risk when executed with proper technique. The primary safety concern is avoiding excessive force on the trapped arm, which could cause shoulder strain or rotator cuff injury. Pull the arm across the chest using positional pressure rather than cranking force. During training, communicate immediately if the shoulder position becomes uncomfortable—tap early rather than risking injury. Partners should release the trap immediately upon tap, as continued pressure on an isolated shoulder joint can cause lasting damage. Avoid explosive jerking movements when establishing the wrap; smooth, steady pressure is both more effective and safer for training partners."
+    "safety_considerations": "The Gift Wrap transition is generally low-risk when executed with proper technique. The primary safety concern is avoiding excessive force on the trapped arm, which could cause shoulder strain or rotator cuff injury. Pull the arm across the chest using positional pressure rather than cranking force. During training, communicate immediately if the shoulder position becomes uncomfortable—tap early rather than risking injury. Partners should release the trap immediately upon tap, as continued pressure on an isolated shoulder joint can cause lasting damage. Avoid explosive jerking movements when establishing the wrap; smooth, steady pressure is both more effective and safer for training partners.",
+    "clips": [
+      {
+        "id": "eKTd-9SkrVk",
+        "title": "Gift wrap to taking the back",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 81,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "X3yIMfhGHnk",
+        "title": "Mount to gift wrap to the finish",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 92,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "5bw7poxVJ1E",
+        "title": "The gift wrap in two minutes, no-gi",
+        "by": "Brian Glick",
+        "vertical": false,
+        "channel": "Brian Glick",
+        "duration": 112,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Gift Wrap Defender",
@@ -408,6 +437,35 @@
         "phase": "Week 7+",
         "focus": "Full resistance positional sparring",
         "description": "Full resistance rounds starting from mount with the attacker actively hunting the Gift Wrap. Defender uses complete defensive toolkit including prevention, active defense, and escape. Track how often the Gift Wrap is prevented versus established, and success rate of escapes when it is locked."
+      }
+    ],
+    "clips": [
+      {
+        "id": "OMzki0Uu7vA",
+        "title": "Escaping the gift wrap",
+        "by": "The Jiu Jitsu Pedia",
+        "vertical": false,
+        "channel": "thejiujitsupedia",
+        "duration": 48,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "j5y349B6Go8",
+        "title": "Simple gift wrap escape",
+        "by": "Chewjitsu",
+        "vertical": false,
+        "channel": "Chewjitsu",
+        "duration": 160,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dKsWGZXo3Zw",
+        "title": "Escaping the modified mount",
+        "by": "Fenrir Jiu-Jitsu Academy",
+        "vertical": false,
+        "channel": "Fenrir Jiu-Jitsu Academy",
+        "duration": 133,
+        "verified": "2026-07-15"
       }
     ]
   },

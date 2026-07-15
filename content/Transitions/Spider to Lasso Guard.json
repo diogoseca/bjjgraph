@@ -282,7 +282,36 @@
         "answer": "Transition immediately to an alternative open guard rather than repeatedly attempting the same lasso entry. If your foot is still near their arm area, convert to collar sleeve guard by grabbing their collar with the free hand. If they have created distance during the failed attempt, recover to De La Riva guard by hooking their lead leg. If they drive forward aggressively after the failed attempt, switch to butterfly guard hooks to use their momentum for elevation sweeps rather than fighting to reestablish distance control."
       }
     ],
-    "safety_considerations": "The Spider to Lasso Guard transition is relatively low-risk from a safety perspective as it involves positional control rather than joint manipulation. However, the shoulder of the lassoed arm can experience strain if the transition is forced aggressively against strong resistance. During drilling, both partners should communicate if shoulder pressure becomes uncomfortable, and the bottom player should focus on technique rather than forcing the lasso through maximum strength. Grip fighting during this transition can occasionally lead to finger injuries, so practitioners should warm up their hands properly and release grips that are being aggressively stripped rather than holding on at the cost of finger joint integrity."
+    "safety_considerations": "The Spider to Lasso Guard transition is relatively low-risk from a safety perspective as it involves positional control rather than joint manipulation. However, the shoulder of the lassoed arm can experience strain if the transition is forced aggressively against strong resistance. During drilling, both partners should communicate if shoulder pressure becomes uncomfortable, and the bottom player should focus on technique rather than forcing the lasso through maximum strength. Grip fighting during this transition can occasionally lead to finger injuries, so practitioners should warm up their hands properly and release grips that are being aggressively stripped rather than holding on at the cost of finger joint integrity.",
+    "clips": [
+      {
+        "id": "n4ddjzGemrw",
+        "title": "Lasso guard variations from open guard",
+        "by": "Felipe Costa",
+        "vertical": false,
+        "channel": "Felipe Costa",
+        "duration": 28,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "aXTKuGGfwOs",
+        "title": "Spider guard entry drill",
+        "by": "Paragon Jiu-Jitsu Austin",
+        "vertical": false,
+        "channel": "Paragon Jiu-Jitsu Academy Austin",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uyNWqN84L9o",
+        "title": "Lasso entry and sweep from open guard",
+        "by": "Felipe Simplicio",
+        "vertical": false,
+        "channel": "Felipe Simplicio ",
+        "duration": 138,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Spider to Lasso Guard Defender",
@@ -402,6 +431,26 @@
         "phase": "Phase 4: Live Situational Sparring",
         "focus": "Full resistance application from spider guard scenarios",
         "description": "Positional sparring starting from spider guard with the bottom player actively pursuing lasso transitions alongside sweeps and submissions. Defender works to prevent lasso establishment while advancing their passing game. Full resistance with resets when guard is passed or lasso is fully established."
+      }
+    ],
+    "clips": [
+      {
+        "id": "9sQAn2ESkMU",
+        "title": "Passing lasso guard to the back",
+        "by": "Gabriel Sousa",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 113,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "GOzoDB10XkY",
+        "title": "Lasso and spider guard defense breakdown",
+        "by": "Binder BJJ",
+        "vertical": false,
+        "channel": "Binder Brazilian Jiu Jitsu",
+        "duration": 245,
+        "verified": "2026-07-15"
       }
     ]
   }

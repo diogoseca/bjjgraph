@@ -295,7 +295,27 @@
         "answer": "Your free arm—the one not trapped in the guillotine—controls the opponent's hip on the choking arm side by pushing their knee or thigh down and away. This hand drives into their hip crease or pushes their top knee to the mat to clear the passing path. Once past the guard, this arm transitions to controlling their far arm or underhooking to prevent framing. The free hand never reaches for their choking arm grip—it stays focused on hip control and leg clearing throughout the pass."
       }
     ],
-    "safety_considerations": "The Von Flue choke is a blood choke that can produce unconsciousness within seconds once properly established. Always tap immediately when caught in a Von Flue during training—the onset of unconsciousness is often sudden without gradual warning sensations. When applying the technique, maintain constant awareness of your partner's consciousness and release immediately upon tap or any signs of distress. During the passing phase, practitioners should tap early if the guillotine is too tight to survive the passing sequence rather than risking oxygen deprivation or cervical injury. Never ignore neck pain symptoms—cervical spine compression can occur if excessive downward shoulder force is applied improperly."
+    "safety_considerations": "The Von Flue choke is a blood choke that can produce unconsciousness within seconds once properly established. Always tap immediately when caught in a Von Flue during training—the onset of unconsciousness is often sudden without gradual warning sensations. When applying the technique, maintain constant awareness of your partner's consciousness and release immediately upon tap or any signs of distress. During the passing phase, practitioners should tap early if the guillotine is too tight to survive the passing sequence rather than risking oxygen deprivation or cervical injury. Never ignore neck pain symptoms—cervical spine compression can occur if excessive downward shoulder force is applied improperly.",
+    "clips": [
+      {
+        "id": "YhKOlw7jXI4",
+        "title": "Von Flue choke as the answer to the guillotine",
+        "by": "Guard Dog Athletic",
+        "vertical": false,
+        "channel": "Guard Dog Athletic",
+        "duration": 56,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "WSH-gBwPmLs",
+        "title": "Von Flue choke countering the guillotine",
+        "by": "Ramsey Dewey",
+        "vertical": false,
+        "channel": "Ramsey Dewey",
+        "duration": 199,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Guillotine Escape to Von Flue Defender",
@@ -424,6 +444,35 @@
         "phase": "Phase 4: Counter to the Counter",
         "focus": "Finishing guillotine before Von Flue completes",
         "description": "Partner commits to the Von Flue passing sequence at full intensity. Practice finishing the guillotine during the opponent's passing attempt by exploiting their forward momentum and timing the maximum choke pressure as they drive through the pass. This is advanced timing work requiring excellent feel."
+      }
+    ],
+    "clips": [
+      {
+        "id": "QUdNNiK-yTk",
+        "title": "Standing guillotine defense into Von Flue choke",
+        "by": "Chris Savarese",
+        "vertical": false,
+        "channel": "Chris Savarese",
+        "duration": 88,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fFIS8fkVXUw",
+        "title": "Von Flue shoulder choke off the guillotine",
+        "by": "Alexandre Marciano",
+        "vertical": false,
+        "channel": "Alexandre Marciano",
+        "duration": 62,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "JGjz2E8ZzL4",
+        "title": "Reverse guillotine choke counter",
+        "by": "James Lewis",
+        "vertical": false,
+        "channel": "James Lewis",
+        "duration": 61,
+        "verified": "2026-07-15"
       }
     ]
   }

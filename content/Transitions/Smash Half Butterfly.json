@@ -293,7 +293,36 @@
         "answer": "Treat the stalled smash as the opening move of a passing chain rather than forcing it. If they frame hard and turn into you, switch to a knee slice by cutting your trapped knee across their thigh into the space their frame creates, or transition to a body lock pass to re-pressure from a different angle. Reading the direction of their framing tells you which follow-up has the clearest lane—pass into the space their defense opens."
       }
     ],
-    "safety_considerations": "When executing the Smash Half Butterfly, be mindful of the pressure applied to your partner's knee and hip joints through the butterfly hook. Excessive lateral force on the trapped hook can strain the medial collateral ligament or hip flexors. Apply pressure progressively rather than explosively, and be responsive to your training partner's discomfort signals. In drilling, communicate about pressure intensity and allow your partner to tap to positional discomfort, not just submissions. Avoid dropping your full bodyweight suddenly onto a loaded butterfly hook."
+    "safety_considerations": "When executing the Smash Half Butterfly, be mindful of the pressure applied to your partner's knee and hip joints through the butterfly hook. Excessive lateral force on the trapped hook can strain the medial collateral ligament or hip flexors. Apply pressure progressively rather than explosively, and be responsive to your training partner's discomfort signals. In drilling, communicate about pressure intensity and allow your partner to tap to positional discomfort, not just submissions. Avoid dropping your full bodyweight suddenly onto a loaded butterfly hook.",
+    "clips": [
+      {
+        "id": "LIITsrlsAaI",
+        "title": "Passing half butterfly guard",
+        "by": "Morto BJJ coach",
+        "vertical": false,
+        "channel": "Morto BJJ",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Pk_6CrydIRQ",
+        "title": "No-gi half butterfly guard pass",
+        "by": "Factory Fresh Jiu Jitsu coach",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 110,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "TaiXKQlwj3g",
+        "title": "Passing butterfly half with a side smash",
+        "by": "Andrew Smith",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 153,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Smash Half Butterfly Defender",
@@ -417,6 +446,35 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Full resistance defense with integrated transitions",
         "description": "Positional sparring from half butterfly bottom against partner using full smash pressure and passing chains. Track which defensive options succeed and which need refinement. Integrate transitions between defenses when initial response is countered."
+      }
+    ],
+    "clips": [
+      {
+        "id": "02sVMQyHuGc",
+        "title": "Guard retention with butterfly hooks vs the smash",
+        "by": "Diamondback Jiu-Jitsu coach",
+        "vertical": false,
+        "channel": "Diamondback Jiu-Jitsu",
+        "duration": 81,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "06-ZO93fJak",
+        "title": "Head frame to stop the hug/smash pass",
+        "by": "Andrew Smith",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 90,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "NefWzEG3QUQ",
+        "title": "Smash pass defense: getting out of trouble",
+        "by": "Breza Grappling coach",
+        "vertical": false,
+        "channel": "Breza-Grappling",
+        "duration": 173,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -296,7 +296,36 @@
         "answer": "Establish crossface pressure immediately to control the opponent's head direction and prevent them from turning back into your legs. Drop your hips heavy on their hip line to eliminate space for knee insertion or leg pummeling. Control their far arm with your near hand to prevent frames that create distance. Keep your legs clear of their reach by sprawling your far leg back. The first 3-5 seconds of side control consolidation are critical because the opponent is most likely to attempt immediate re-entanglement."
       }
     ],
-    "safety_considerations": "The ankle joint is highly susceptible to ligament damage from forced dorsiflexion during ankle lock attempts. When drilling this counter, always begin at low resistance and establish clear tap communication with your training partner before starting. Never attempt explosive counters at full speed until the mechanics are well established at slow drilling pace. If boot defense fails and the submission is locked deep, tap immediately rather than forcing the counter. Partners applying the ankle lock during counter practice should release immediately upon feeling the tap and should apply pressure gradually to allow sufficient time for defensive positioning. Particular caution is needed during the forward stacking phase, as sudden weight shifts can unintentionally increase pressure on the trapped ankle."
+    "safety_considerations": "The ankle joint is highly susceptible to ligament damage from forced dorsiflexion during ankle lock attempts. When drilling this counter, always begin at low resistance and establish clear tap communication with your training partner before starting. Never attempt explosive counters at full speed until the mechanics are well established at slow drilling pace. If boot defense fails and the submission is locked deep, tap immediately rather than forcing the counter. Partners applying the ankle lock during counter practice should release immediately upon feeling the tap and should apply pressure gradually to allow sufficient time for defensive positioning. Particular caution is needed during the forward stacking phase, as sudden weight shifts can unintentionally increase pressure on the trapped ankle.",
+    "clips": [
+      {
+        "id": "cf-hK1t7qzU",
+        "title": "Counter straight ankle locks with a corkscrew toehold",
+        "by": "Patrick Donabedian",
+        "vertical": false,
+        "channel": "Patrick Donabedian BJJ",
+        "duration": 65,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "akB_o9gaNuc",
+        "title": "Finish the ankle lock when opponent rolls out",
+        "by": "James O'Connor",
+        "vertical": false,
+        "channel": "James O’Connor",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "zErch4qHfB0",
+        "title": "Counter footlock from straight ankle lock",
+        "by": "James Clingerman",
+        "vertical": false,
+        "channel": "James Clingerman",
+        "duration": 12,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Counter from Ankle Lock Defender",
@@ -430,6 +459,26 @@
         "phase": "Phase 4: Live Situational Sparring",
         "focus": "Full resistance counter defense with transition selection",
         "description": "Begin in straight ankle lock control with partner executing genuine counters at full resistance. Practice the complete decision tree: finish if the window is open, transition to inside ashi if they drive forward, switch to kneebar if they extend, re-guard if all else fails. Develop real-time selection under pressure with the understanding that maintaining offensive initiative through transitions is more important than forcing the original submission."
+      }
+    ],
+    "clips": [
+      {
+        "id": "MqtG9kuVt-Q",
+        "title": "Leg lock escapes: roll through",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "skz-bD0U788",
+        "title": "Ankle lock defense concepts",
+        "by": "Daniel de Groot",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 174,
+        "verified": "2026-07-15"
       }
     ]
   }

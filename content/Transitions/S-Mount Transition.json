@@ -274,7 +274,36 @@
         "answer": "From established S-Mount with a defended armbar, you can transition to mounted triangle by threading your head-side leg under their chin as they bring the free arm across. You can attack the defending arm with a kimura or americana. You can also return to Modified Mount or high mount to reset and attack again. The key is treating S-Mount as a branching point in your mount attack system rather than a dead end."
       }
     ],
-    "safety_considerations": "The S-Mount Transition itself carries minimal injury risk as it is a positional movement rather than a joint attack. However, be aware that completing this transition sets up immediate armbar threats, so training partners should be prepared to tap quickly once S-Mount is established. During drilling, perform the transition at controlled speed to avoid accidentally kneeing your partner in the face during the leg swing. When receiving this technique, avoid explosive escapes that could result in your arm being hyperextended if the attacker maintains grip during your escape attempt. Ensure adequate mat space as the transition can cause both practitioners to move significantly. Practitioners with neck issues should communicate before drilling, as the leg over the head can create pressure on the cervical spine."
+    "safety_considerations": "The S-Mount Transition itself carries minimal injury risk as it is a positional movement rather than a joint attack. However, be aware that completing this transition sets up immediate armbar threats, so training partners should be prepared to tap quickly once S-Mount is established. During drilling, perform the transition at controlled speed to avoid accidentally kneeing your partner in the face during the leg swing. When receiving this technique, avoid explosive escapes that could result in your arm being hyperextended if the attacker maintains grip during your escape attempt. Ensure adequate mat space as the transition can cause both practitioners to move significantly. Practitioners with neck issues should communicate before drilling, as the leg over the head can create pressure on the cervical spine.",
+    "clips": [
+      {
+        "id": "RsNdjwonGkw",
+        "title": "Transitioning from mount to S-mount",
+        "by": "Procel BJJ coach",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 132,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "FSbR22OOSaE",
+        "title": "S-mount basics, no-gi",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 72,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2Xm_mLp8xwk",
+        "title": "S-mount troubleshooting, no-gi",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 67,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "S-Mount Transition Defender",
@@ -408,6 +437,26 @@
         "phase": "Week 7+",
         "focus": "Live defensive sparring",
         "description": "Positional sparring starting from Modified Mount with the top player actively seeking S-Mount Transition. Bottom player practices full defensive sequences under live resistance. Track which defensive responses succeed most often and refine timing. Test defenses against partners of varying size and skill levels."
+      }
+    ],
+    "clips": [
+      {
+        "id": "9252EvCT0q4",
+        "title": "Mount escape when standard escapes fail",
+        "by": "Gabriel Gonzaga",
+        "vertical": false,
+        "channel": "Gabriel Gonzaga",
+        "duration": 93,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "PnQdaoKyxoc",
+        "title": "Arm-under-leg mount escape",
+        "by": "Professor Aaron",
+        "vertical": false,
+        "channel": "The Jiujitsu Project Foundation",
+        "duration": 130,
+        "verified": "2026-07-15"
       }
     ]
   },

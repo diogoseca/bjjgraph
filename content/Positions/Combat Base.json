@@ -412,6 +412,26 @@
         "question": "Your opponent hits a butterfly hook elevation that lifts your posted knee off the mat - how do you recover Combat Base?",
         "answer": "Immediately post the planted foot wider and drop your hips lower to create a new base point, preventing a full sweep. Use the hand on the elevated side to post on the mat for emergency stability. As you regain control, re-establish the posted knee on the mat by turning your hips toward the hooking side and driving the knee back down with forward hip pressure. Once the knee returns to the mat, reset hand positions to control the opponent's hooks before they attempt another elevation."
       }
+    ],
+    "clips": [
+      {
+        "id": "mQK4ZCqJ1OA",
+        "title": "Knee cut staple-switch pass",
+        "by": "Combat Room BJJ",
+        "vertical": false,
+        "channel": "Combat Room Brazilian Jiu Jitsu",
+        "duration": 69,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "yPxcNpuyr0w",
+        "title": "Knee slice pass from combat base",
+        "by": "5th Element BJJ",
+        "vertical": false,
+        "channel": "5th Element BJJ/MMA",
+        "duration": 143,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -708,6 +728,17 @@
         "question": "When should you switch from a hook elevation sweep to an ankle pick against combat base?",
         "answer": "Use the hook elevation when the passer's weight is forward or centered, loading the posted knee your hook targets. Switch to the ankle pick when they sit back with weight settled on the planted foot, since that foot becomes the primary load-bearing point you can remove. The two attacks complement each other - the passer cannot defend both at once, so whichever way they distribute weight to stop one opens the other."
       }
+    ],
+    "clips": [
+      {
+        "id": "rja-2KKDGb0",
+        "title": "Dealing with the switch/combat base",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 284,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -742,6 +773,26 @@
     {
       "question": "Why is the grip-fighting exchange in Combat Base characterized as continuous and mutual rather than a one-time setup?",
       "answer": "Combat Base is a contested, time-sensitive neutral position where whoever wins the grip battle controls the exchange, so both players fight grips continuously rather than establishing them once. The top player needs grips on the hips, legs, or gi to manage distance and load weight for a pass, while the bottom player must deny exactly those grips to prevent being loaded and passed. Because the position is not a resting place, any lull lets the other player consolidate their control. Relentless, reciprocal grip fighting is thus a defining dynamic of the position for both sides."
+    }
+  ],
+  "clips": [
+    {
+      "id": "vp3roMWi0dc",
+      "title": "How to get to combat base",
+      "by": "Myopinionin5",
+      "vertical": false,
+      "channel": "Myopinionin5",
+      "duration": 120,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "zCL3UKL1vvU",
+      "title": "Combat base breakdown",
+      "by": "Chosen Few BJJ",
+      "vertical": false,
+      "channel": "Chosen Few BJJ",
+      "duration": 78,
+      "verified": "2026-07-14"
     }
   ]
 }

@@ -266,7 +266,36 @@
         "answer": "Follow their descent while maintaining the body lock grip and chest connection. As the opponent sits, use their downward movement to drive through them and achieve top position with your body lock intact. If they successfully close guard, immediately begin working to pass using the existing body lock control as a passing grip. Alternatively, if you feel them beginning to sit, accelerate your driving pressure to complete the takedown to side control before they can establish guard. The critical error is releasing your grip as they sit, which allows them to establish guard with defensive frames."
       }
     ],
-    "safety_considerations": "The body lock takedown involves controlled descent to the mat and carries inherent risk of impact injuries. Practitioners must ensure adequate mat space before attempting takedowns and check for other training pairs in the landing zone. The driving force must be controlled to prevent slamming, which is prohibited in most BJJ competition rulesets and dangerous in training. When drilling, begin with cooperative partners on soft surfaces and increase resistance gradually. The defender should know how to safely receive takedowns by tucking their chin, protecting their head, and absorbing impact through controlled rolling rather than bracing with extended arms. Both practitioners must communicate clearly during drilling to prevent uncontrolled landings."
+    "safety_considerations": "The body lock takedown involves controlled descent to the mat and carries inherent risk of impact injuries. Practitioners must ensure adequate mat space before attempting takedowns and check for other training pairs in the landing zone. The driving force must be controlled to prevent slamming, which is prohibited in most BJJ competition rulesets and dangerous in training. When drilling, begin with cooperative partners on soft surfaces and increase resistance gradually. The defender should know how to safely receive takedowns by tucking their chin, protecting their head, and absorbing impact through controlled rolling rather than bracing with extended arms. Both practitioners must communicate clearly during drilling to prevent uncontrolled landings.",
+    "clips": [
+      {
+        "id": "GOwulE_PIMg",
+        "title": "Body lock takedown from standing",
+        "by": "Blue Base Jiu Jitsu",
+        "vertical": false,
+        "channel": "Blue Base Jiu Jitsu",
+        "duration": 74,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "91Fgpe788no",
+        "title": "Body lock from the standing position",
+        "by": "Sean Sherk",
+        "vertical": false,
+        "channel": "TAG Muay Thai",
+        "duration": 73,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2gknwIfTeN0",
+        "title": "Four body lock takedowns",
+        "by": "CSW Fullerton",
+        "vertical": false,
+        "channel": "CSW Fullerton",
+        "duration": 194,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Body Lock Takedown Defender",
@@ -384,6 +413,26 @@
         "phase": "Phase 4: Live Application",
         "focus": "Full resistance defensive drilling and competition scenarios",
         "description": "Defend body lock takedowns at full resistance in positional sparring starting from body lock bottom. Chain defensive responses together based on attacker's reactions and adjustments. Develop the ability to survive multiple takedown attempts and either escape to neutral or successfully counter to a favorable position."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Fxpu62evbwk",
+        "title": "Breaking the body lock with a kimura grip",
+        "by": "SBG Australia",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 44,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "4HaZwBmkFgk",
+        "title": "Defending the body lock takedown",
+        "by": "TJ Dillashaw",
+        "vertical": false,
+        "channel": "Dynamic Striking",
+        "duration": 207,
+        "verified": "2026-07-15"
       }
     ]
   }

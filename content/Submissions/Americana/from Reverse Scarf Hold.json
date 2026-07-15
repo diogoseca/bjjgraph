@@ -311,6 +311,26 @@
         "question": "How do you adapt the finishing strategy when competing versus training with a partner?",
         "answer": "In competition, you apply progressive pressure more decisively once the grip is locked, committing fully to the finish and being prepared to transition immediately if the opponent defends. In training, you deliberately throttle pressure to ten to twenty percent, give your partner clear space to tap, and release the moment you feel the submission is locked rather than completing the arc. The mechanical setup is identical, but competition allows full commitment to the finish while training requires constant awareness of your partner's safety and comfort level."
       }
+    ],
+    "clips": [
+      {
+        "id": "uaHf3d_aCso",
+        "title": "Inverted americana from scarf hold",
+        "by": "Adrian Nielsen",
+        "vertical": false,
+        "channel": "Adrian Nielsen",
+        "duration": 56,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "iGVWSwxKCII",
+        "title": "One-handed americana keylock",
+        "by": "Mastermind Martial Arts",
+        "vertical": false,
+        "channel": "Mastermind Martial Arts",
+        "duration": 141,
+        "verified": "2026-07-15"
+      }
     ]
   },
   "defender": {
@@ -446,6 +466,35 @@
         "phase": "Phase 4: Live Defensive Rounds",
         "focus": "Full resistance positional sparring from reverse scarf hold",
         "description": "Begin in reverse scarf hold bottom with partner attacking freely. Defend all submission attempts and work to escape to guard or standing position. Full resistance with the understanding that you tap early and reset rather than risking shoulder injury during training."
+      }
+    ],
+    "clips": [
+      {
+        "id": "gawKiLxmZbc",
+        "title": "Spinning back door escape from side control",
+        "by": "Science Of JiuJitsu",
+        "vertical": false,
+        "channel": "Science Of JiuJitsu",
+        "duration": 48,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "-czPu1EvCU0",
+        "title": "Kesa gatame escape",
+        "by": "Mattix Academy",
+        "vertical": false,
+        "channel": "MATTIX ACADEMY",
+        "duration": 209,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "q2WjKMK1v94",
+        "title": "Escaping reverse sit-out kesa gatame side control",
+        "by": "Uncle Kevvy",
+        "vertical": false,
+        "channel": "Uncle Kevvy",
+        "duration": 280,
+        "verified": "2026-07-15"
       }
     ]
   }

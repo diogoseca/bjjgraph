@@ -296,7 +296,36 @@
         "answer": "Once double under position is established with proper pressure, the opponent loses the ability to create effective frames with their legs, significantly restricted hip mobility and movement, the ability to sit up or create upward pressure, and the mechanical advantage to create meaningful distance. Their arms alone cannot generate enough force to overcome the chest pressure, and their legs are controlled beneath your underhooks, leaving them in a highly compromised defensive position."
       }
     ],
-    "safety_considerations": "The double under pass is generally a safe technique for both practitioners when executed properly, but several safety considerations should be observed. When driving pressure onto the opponent, ensure you are using chest and shoulder pressure rather than driving your head into vulnerable areas like the neck or throat, which could cause injury. Be mindful of the opponent's spine and neck when stacking—avoid excessive forward pressure that hyperextends the cervical spine, particularly when using the stack variation. When training with less experienced partners, moderate your pressure to allow them to develop defensive capabilities without being overwhelmed. Always respect the tap if the pressure becomes uncomfortable or if breathing is compromised. For the person being passed, do not panic or use explosive bridging movements that could strain your own neck or spine—instead, focus on technical defensive responses. Both practitioners should communicate about pressure levels during training, especially when learning the technique, ensuring that the passer develops proper control without injuring their training partner."
+    "safety_considerations": "The double under pass is generally a safe technique for both practitioners when executed properly, but several safety considerations should be observed. When driving pressure onto the opponent, ensure you are using chest and shoulder pressure rather than driving your head into vulnerable areas like the neck or throat, which could cause injury. Be mindful of the opponent's spine and neck when stacking—avoid excessive forward pressure that hyperextends the cervical spine, particularly when using the stack variation. When training with less experienced partners, moderate your pressure to allow them to develop defensive capabilities without being overwhelmed. Always respect the tap if the pressure becomes uncomfortable or if breathing is compromised. For the person being passed, do not panic or use explosive bridging movements that could strain your own neck or spine—instead, focus on technical defensive responses. Both practitioners should communicate about pressure levels during training, especially when learning the technique, ensuring that the passer develops proper control without injuring their training partner.",
+    "clips": [
+      {
+        "id": "wBZrTpuXV50",
+        "title": "No-gi double under guard pass",
+        "by": "Garden State BJJ",
+        "vertical": false,
+        "channel": "Garden State Brazilian Jiu-Jitsu Academy",
+        "duration": 63,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2KcAEYsaHAg",
+        "title": "Stack pass mechanics",
+        "by": "Kenny Kim",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 88,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "N4PxPPv98k4",
+        "title": "Double unders pass breakdown",
+        "by": "Nicky Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 91,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Double Under Pass Defender",
@@ -426,6 +455,35 @@
         "phase": "Phase 4: Live Defensive Integration (Week 7+)",
         "focus": "Applying double under defense in live rolling scenarios",
         "description": "Positional sparring starting from open guard where partner actively pursues double under passes at full speed and intensity. Practice the full defensive hierarchy from prevention through escape. Develop the ability to read which defensive phase you are in and apply the appropriate response in real time. Track success rates and identify which phase needs the most improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "uILaTRBgpG0",
+        "title": "Defensive sweep from the double under pass",
+        "by": "Smith",
+        "vertical": false,
+        "channel": "Smith ♞ | Brazilian Jiu-jitsu",
+        "duration": 28,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "3DSApDUoliQ",
+        "title": "Double unders pass counter",
+        "by": "Steve Lin",
+        "vertical": false,
+        "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
+        "duration": 67,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Ad0qtay9IVQ",
+        "title": "Double under stack defense and counter",
+        "by": "Wim Deputter",
+        "vertical": false,
+        "channel": "Wim Deputter BJJ",
+        "duration": 130,
+        "verified": "2026-07-15"
       }
     ]
   },

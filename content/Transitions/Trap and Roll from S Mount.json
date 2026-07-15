@@ -299,7 +299,36 @@
         "answer": "Immediately insert your near knee between your bodies to establish knee shield or half guard entanglement. Turn to your side facing the opponent and fight for an underhook on the trapped leg side. Do not remain flat on your back — the opponent will immediately attempt to re-establish mount or pass your guard. The transition from escape completion to active half guard retention must be seamless and automatic, with no pause between displacing the opponent and securing your guard structure."
       }
     ],
-    "safety_considerations": "The primary injury risk during this technique is hyperextension of the trapped elbow if the arm extends during the bridging motion. Never attempt the trap and roll if your arm is already significantly extended — tap and reset rather than risk joint damage. In training, communicate with your partner about arm security before drilling at full speed. The explosive bridging motion can strain the lower back, neck, and cervical spine, so ensure proper warm-up before high-repetition drilling. Start all drilling at controlled resistance and gradually increase intensity. If your collar grip begins to fail during live training, abort the escape immediately and defend the arm rather than forcing a compromised attempt."
+    "safety_considerations": "The primary injury risk during this technique is hyperextension of the trapped elbow if the arm extends during the bridging motion. Never attempt the trap and roll if your arm is already significantly extended — tap and reset rather than risk joint damage. In training, communicate with your partner about arm security before drilling at full speed. The explosive bridging motion can strain the lower back, neck, and cervical spine, so ensure proper warm-up before high-repetition drilling. Start all drilling at controlled resistance and gradually increase intensity. If your collar grip begins to fail during live training, abort the escape immediately and defend the arm rather than forcing a compromised attempt.",
+    "clips": [
+      {
+        "id": "HZ8TVKYg9x0",
+        "title": "Trap and roll from mounted punches",
+        "by": "Gabriel Toribio",
+        "vertical": false,
+        "channel": "Gabriel “Monsta” Toribio",
+        "duration": 26,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "00YumUON6to",
+        "title": "Mount escape: trap, bump and roll",
+        "by": "Daniel Gracie Academy",
+        "vertical": false,
+        "channel": "Daniel Gracie Academy of Northborough",
+        "duration": 106,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "LRAIOE7QNWM",
+        "title": "Trap and roll variation against the cross face",
+        "by": "Houston Karate Dojo",
+        "vertical": false,
+        "channel": "Houston Karate Dojo",
+        "duration": 127,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Trap and Roll from S Mount Defender",
@@ -424,6 +453,17 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Full-speed recognition and response against committed escape attempts",
         "description": "Full positional sparring from S Mount with partner making genuine escape attempts. Practice reading and responding to all escape methods — trap and roll, hip escape, framing — while maintaining offensive pressure and submission threat throughout."
+      }
+    ],
+    "clips": [
+      {
+        "id": "2Xm_mLp8xwk",
+        "title": "S-mount troubleshooting when the escape starts",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 67,
+        "verified": "2026-07-15"
       }
     ]
   }

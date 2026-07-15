@@ -348,6 +348,26 @@
         "answer": "In competition, time the transition for peak defensive commitment. Use incremental collar pressure to build urgency, then switch explosively rather than gradually. Once the RNC connects, immediately lock the figure-four and begin squeezing rather than adjusting for perfect position. Combine with a body triangle to eliminate hip escape during the finish. The combination of surprise from the switch and immediate finishing pressure catches elite defenders who expect time to address each threat sequentially.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "ZHjfYIXgNpg",
+        "title": "Collar Choke from Back Control",
+        "by": "Team Daruma Dojo",
+        "vertical": false,
+        "channel": "Team Daruma Dojo",
+        "duration": 45,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "pe4jLWTzpSE",
+        "title": "Invisible Detail of the Choke from the Back",
+        "by": "Rickson Gracie",
+        "vertical": false,
+        "channel": "Rickson Gracie Jiu-Jitsu Academy",
+        "duration": 122,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -479,6 +499,26 @@
         "phase": "Phase 4: Full Resistance Positional Sparring",
         "focus": "Complete defensive application against unrestricted back attacks",
         "description": "Start with attacker in invisible collar position. Defender must survive and escape within 2 minutes against full resistance. Attacker can use any back attack including collar finish, RNC switch, armbar, or crucifix. Builds defensive composure and decision-making under realistic pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "jDbywpDs3Tw",
+        "title": "Preventing the Hand Crossing to the Other Side",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 129,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Ly89G4iCTSQ",
+        "title": "Turtle No-Grips Escape Rolling to Guard",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 108,
+        "verified": "2026-07-14"
       }
     ]
   }

@@ -298,7 +298,27 @@
         "answer": "The primary chains are smash pass if the bottom player retracts legs to knee shield, leg weave pass if their legs remain extended but block the knee slide path, and backstep to leg entanglement if they commit their underhook to defend the pass. A darce choke opportunity may also present if the bottom player turns their head toward you while defending. The key is recognizing which defense they used to block the knee slide, as each defensive choice opens a specific alternative passing pathway."
       }
     ],
-    "safety_considerations": "The Knee Slide from Jailbreak is a relatively low-risk technique that does not directly target joints or the neck. However, the top player must be mindful of driving excessive pressure through the crossface onto the bottom player's jaw, which can cause TMJ issues or neck strain. The knee slide itself should not drive directly into the bottom player's knee joint, but rather across the thigh to avoid ligament stress. During training, partners should communicate clearly about pressure levels and the passer should develop sensitivity to avoid grinding the knee into the bottom player's body. Both players should be aware that explosive commitment to the slide or to countering it can create scramble situations where accidental knee-on-knee collisions or awkward landings occur."
+    "safety_considerations": "The Knee Slide from Jailbreak is a relatively low-risk technique that does not directly target joints or the neck. However, the top player must be mindful of driving excessive pressure through the crossface onto the bottom player's jaw, which can cause TMJ issues or neck strain. The knee slide itself should not drive directly into the bottom player's knee joint, but rather across the thigh to avoid ligament stress. During training, partners should communicate clearly about pressure levels and the passer should develop sensitivity to avoid grinding the knee into the bottom player's body. Both players should be aware that explosive commitment to the slide or to countering it can create scramble situations where accidental knee-on-knee collisions or awkward landings occur.",
+    "clips": [
+      {
+        "id": "yj_6xcl2emA",
+        "title": "Inside knee cut through the knee shield",
+        "by": "War Room Jiu Jitsu coach",
+        "vertical": false,
+        "channel": "War Room Jiu Jitsu",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "tzcW3RMR_Ho",
+        "title": "Knee slide pass demonstration",
+        "by": "Coach Janis",
+        "vertical": false,
+        "channel": "Satori BJJ",
+        "duration": 51,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Knee Slide from Jailbreak Defender",
@@ -423,6 +443,26 @@
         "phase": "Phase 4: Full Resistance Positional Sparring",
         "focus": "Defending under full resistance from Jailbreak bottom",
         "description": "Start from Jailbreak bottom position. Top player attempts to pass using any technique including knee slide. Bottom player defends with full technique selection at 100% resistance. Bottom player wins by recovering guard or sweeping. 3-minute rounds with position resets after each success or pass."
+      }
+    ],
+    "clips": [
+      {
+        "id": "RvIIpXaPyJM",
+        "title": "Basic knee slide recovery",
+        "by": "Vision BJJ coach",
+        "vertical": false,
+        "channel": "Vision Brazilian Jiu Jitsu",
+        "duration": 96,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lVLAROiSjNU",
+        "title": "Guard retention: when to sit up to escape",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 136,
+        "verified": "2026-07-15"
       }
     ]
   }

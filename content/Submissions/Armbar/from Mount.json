@@ -367,6 +367,35 @@
         "answer": "Competition finishing strategies include: (1) Establish all control points before committing to extension - rushed attempts allow escapes; (2) Use progressive pressure even at faster speeds - smooth acceleration rather than jerking; (3) Walk hips closer to shoulder before extending to eliminate escape space; (4) Keep arm tight to chest throughout the entire finish; (5) Be prepared to transition to triangle or back take if they defend; (6) Release immediately on tap regardless of competition intensity. The fastest finishes come from perfect position, not explosive force. Remember that even in competition, intentionally injuring an opponent with a spike or jerk is unsportsmanlike and potentially illegal.",
         "safety_critical": true
       }
+    ],
+    "clips": [
+      {
+        "id": "R2-h9yOwRdU",
+        "title": "Armbar from the Mount",
+        "by": "Relson Gracie",
+        "vertical": false,
+        "channel": "Balance Studios: Gracie Jiu-Jitsu & Muay Thai",
+        "duration": 72,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "vSmRbpNmf-E",
+        "title": "Armbar breakdown",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 102,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "4COgR6PfQW0",
+        "title": "Armbar against a stacking opponent",
+        "by": "Rolles Gracie",
+        "vertical": false,
+        "channel": "Gallerr",
+        "duration": 91,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -509,6 +538,35 @@
         "phase": "Phase 4: Chain Defense Under Fatigue",
         "focus": "Defending submission chains including armbar-triangle-Americana from mount",
         "description": "Partner attacks with full submission chains from mount - armbar to triangle to Americana and back. Practice defending the complete chain rather than isolated submissions. Include conditioning element to simulate competition fatigue. Develop ability to maintain defensive structure even when exhausted and under sustained positional pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "My favorite armbar escape",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "sDdqvh_1kbA",
+        "title": "Armbar escape",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 63,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "AfDEN3uK3W0",
+        "title": "Low-effort armbar escape via foot capture",
+        "by": "Patrick Donabedian",
+        "vertical": false,
+        "channel": "Patrick Donabedian BJJ",
+        "duration": 55,
+        "verified": "2026-07-14"
       }
     ]
   },

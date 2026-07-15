@@ -254,7 +254,27 @@
         "answer": "X-Guard provides immediate access to technical standup sweeps, single leg sweeps, overhead sweeps, and leg drag entries. Additionally, you can attack opponent's legs with your own entries to inside ashi or outside ashi. The ankle grip maintained from the transition sets up immediate ankle lock attempts if sweeps are defended. This variety of options makes X-Guard a high-value escape destination."
       }
     ],
-    "safety_considerations": "Practice this transition with controlled resistance before attempting in live sparring, as rushed execution can result in knee injuries if the leg clears at an awkward angle while still partially entangled. Communicate clearly with training partners about resistance levels during drilling. Be aware that failed attempts can worsen your leg entanglement position and increase submission danger—know when to abort and reset rather than forcing a compromised technique. Tap early if caught in submissions during practice; this transition works best when you recognize the window early rather than attempting it as a last-resort escape against fully locked submissions."
+    "safety_considerations": "Practice this transition with controlled resistance before attempting in live sparring, as rushed execution can result in knee injuries if the leg clears at an awkward angle while still partially entangled. Communicate clearly with training partners about resistance levels during drilling. Be aware that failed attempts can worsen your leg entanglement position and increase submission danger—know when to abort and reset rather than forcing a compromised technique. Tap early if caught in submissions during practice; this transition works best when you recognize the window early rather than attempting it as a last-resort escape against fully locked submissions.",
+    "clips": [
+      {
+        "id": "RWtKllp2avU",
+        "title": "Clearing the leg from mount escape into X-Guard",
+        "by": "Masters Martial Arts",
+        "vertical": false,
+        "channel": "Masters Martial Arts",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fQ1z2RLYz4Q",
+        "title": "Shallow K Guard entry off the far leg",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 42,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Clear leg and transition to X-Guard Defender",
@@ -384,6 +404,35 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Full-resistance positional rounds starting from Leg Knot. Top player practices maintaining entanglement and preventing X-Guard establishment while bottom player attempts the full transition. Track success rates for both players and identify which defensive strategies work best against different clearing variations."
+      }
+    ],
+    "clips": [
+      {
+        "id": "R7lPdQWLOus",
+        "title": "Protecting your leg from entanglement entries",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "The Grapplers Guide by Jason Scully",
+        "duration": 161,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MqtG9kuVt-Q",
+        "title": "Leg lock escape: roll through",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "AQbJMBiWYfU",
+        "title": "Escaping ashi garami",
+        "by": "Scott Elliott",
+        "vertical": false,
+        "channel": "Coach Scott Elliott",
+        "duration": 141,
+        "verified": "2026-07-15"
       }
     ]
   },

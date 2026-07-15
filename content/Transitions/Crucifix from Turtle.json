@@ -311,7 +311,36 @@
         "answer": "You release control of the hand-controlled far arm to thread your choking arm under the opponent's chin. The risk is that the freed arm can now defend the choke or create frames for escape. To mitigate this, ensure the leg-trapped arm is completely locked before releasing the far arm, and apply the choke quickly before the opponent can mount an effective defense with the freed hand. If they successfully defend the choke with the free arm, transition immediately to an armbar on that defending arm rather than fighting for the choke."
       }
     ],
-    "safety_considerations": "When practicing the crucifix from turtle, execute all movements with deliberate control and awareness of your partner's joint integrity. The arm positions in crucifix place significant stress on the shoulder joints, particularly the far arm trapped by the leg - avoid yanking or jerking trapped arms at any point. When threading the leg over the partner's shoulder, move slowly and check that the shin is pressing against the shoulder blade rather than the neck, which could cause cervical strain. During submission attempts from crucifix, apply techniques progressively with steady pressure and release immediately upon tap. Partners should communicate about shoulder or neck discomfort before reaching the tapping threshold. Start all drilling at zero resistance and increase intensity gradually over multiple sessions. Be especially cautious with wrist locks and shoulder attacks from this position, as the trapped arm configuration makes injuries more likely if techniques are applied with speed or explosiveness."
+    "safety_considerations": "When practicing the crucifix from turtle, execute all movements with deliberate control and awareness of your partner's joint integrity. The arm positions in crucifix place significant stress on the shoulder joints, particularly the far arm trapped by the leg - avoid yanking or jerking trapped arms at any point. When threading the leg over the partner's shoulder, move slowly and check that the shin is pressing against the shoulder blade rather than the neck, which could cause cervical strain. During submission attempts from crucifix, apply techniques progressively with steady pressure and release immediately upon tap. Partners should communicate about shoulder or neck discomfort before reaching the tapping threshold. Start all drilling at zero resistance and increase intensity gradually over multiple sessions. Be especially cautious with wrist locks and shoulder attacks from this position, as the trapped arm configuration makes injuries more likely if techniques are applied with speed or explosiveness.",
+    "clips": [
+      {
+        "id": "dtyrCY42OQg",
+        "title": "Turtle rollover into the crucifix",
+        "by": "South Island BJJ",
+        "vertical": false,
+        "channel": "South Island Bjj",
+        "duration": 52,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "JTw40IV1QlU",
+        "title": "Taking the crucifix from turtle",
+        "by": "Serge Self Defense",
+        "vertical": false,
+        "channel": "SERGE SELF DEFENSE",
+        "duration": 25,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "6NupGdJyV3o",
+        "title": "Turtle to crucifix armbar setup",
+        "by": "Mat Life Training Center",
+        "vertical": false,
+        "channel": "Mat Life Training Center",
+        "duration": 26,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Crucifix from Turtle Defender",
@@ -442,6 +471,35 @@
         "phase": "Month 3+: Live Defensive Sparring",
         "focus": "Applying crucifix defense under full resistance from turtle bottom",
         "description": "Begin in turtle bottom with partner working full resistance toward crucifix. Practice the complete defensive chain: recognition, early prevention, escape if prevention fails, and position recovery. Track success rate and identify which phase of the defense breaks down most frequently for targeted improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "-JBwH7ZcyC8",
+        "title": "Turtle roll counter",
+        "by": "Mark VanSchuyver",
+        "vertical": false,
+        "channel": "Mark VanSchuyver",
+        "duration": 93,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_sBB-O8fqP4",
+        "title": "Standing up from turtle",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 114,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "923eYpD1E58",
+        "title": "Inside roll escape from turtle",
+        "by": "Kenny Lester",
+        "vertical": false,
+        "channel": "KING OF CATCH WRESTLING CHAMPIONSHIP",
+        "duration": 158,
+        "verified": "2026-07-15"
       }
     ]
   }

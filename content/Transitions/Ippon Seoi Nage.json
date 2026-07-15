@@ -277,7 +277,36 @@
         "answer": "Standing Seoi Nage generates more throwing power and provides greater control during the landing because you maintain full leg drive throughout the arc. Drop Seoi Nage, where you drop to one or both knees during entry, achieves faster hip penetration below the opponent's center of gravity and is harder to defend against because of the rapid level change. Choose Drop Seoi Nage against significantly taller opponents whose hips are difficult to get under, when you need a faster entry that gives less reaction time, or when the opponent is defending standing throws by widening their base. Choose standing Seoi Nage when you have superior kuzushi, against similar-sized opponents, or when you want maximum throwing power and landing control."
       }
     ],
-    "safety_considerations": "When practicing Ippon Seoi Nage, ensure proper breakfall (ukemi) training before attempting live throws, as the technique generates significant rotational force and impact. Beginners should practice on crash mats and progress gradually to standard mats. The person being thrown must tuck their chin and execute a proper slapping breakfall to distribute impact and protect the head, neck, and shoulder. The thrower must control the speed and power of the throw to match their partner's breakfall ability. Never practice this technique against partners who cannot breakfall safely. In competition, landing with your weight on your opponent's neck or head risks serious cervical injury and disqualification. Always warm up shoulders, hips, and lower back thoroughly before throwing practice. If you feel sharp pain in your lower back during the loading phase, stop immediately as this indicates improper mechanics that risk disc injury."
+    "safety_considerations": "When practicing Ippon Seoi Nage, ensure proper breakfall (ukemi) training before attempting live throws, as the technique generates significant rotational force and impact. Beginners should practice on crash mats and progress gradually to standard mats. The person being thrown must tuck their chin and execute a proper slapping breakfall to distribute impact and protect the head, neck, and shoulder. The thrower must control the speed and power of the throw to match their partner's breakfall ability. Never practice this technique against partners who cannot breakfall safely. In competition, landing with your weight on your opponent's neck or head risks serious cervical injury and disqualification. Always warm up shoulders, hips, and lower back thoroughly before throwing practice. If you feel sharp pain in your lower back during the loading phase, stop immediately as this indicates improper mechanics that risk disc injury.",
+    "clips": [
+      {
+        "id": "A6u812Rxuag",
+        "title": "Sambo-style ippon seoi nage",
+        "by": "Shintaro Higashi",
+        "vertical": false,
+        "channel": "Shintaro Higashi",
+        "duration": 47,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "u-AiRGPSnEg",
+        "title": "Timing for ippon seoi nage",
+        "by": "Shintaro Higashi",
+        "vertical": false,
+        "channel": "Shintaro Higashi",
+        "duration": 53,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "wx6ewN6-b4Y",
+        "title": "No-gi ippon seoi nage",
+        "by": "Shintaro Higashi",
+        "vertical": false,
+        "channel": "Shintaro Higashi",
+        "duration": 92,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Ippon Seoi Nage Defender",
@@ -402,6 +431,35 @@
         "phase": "Week 9+: Standing Sparring Integration",
         "focus": "Defending throws in live standing rounds against varied attackers",
         "description": "Full standing sparring rounds where partners are specifically attempting judo-style throws. Practice defense under realistic speed and intensity with genuine kuzushi and committed entries. Develop automatic defensive reactions and counter-attack transitions after successful defense. 5-8 rounds per session against different body types and throwing styles."
+      }
+    ],
+    "clips": [
+      {
+        "id": "-nDnM3ISa4w",
+        "title": "How to counter ippon seoi nage",
+        "by": "Brian Glick",
+        "vertical": false,
+        "channel": "Brian Glick",
+        "duration": 71,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "qEE09xFbu8I",
+        "title": "Counter seoi nage with a quick foot sweep",
+        "by": "Judoroland",
+        "vertical": false,
+        "channel": "Judoroland",
+        "duration": 28,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "C7HnA1zd5Rs",
+        "title": "Judo throw counter-attacks",
+        "by": "Shintaro Higashi",
+        "vertical": false,
+        "channel": "Shintaro Higashi",
+        "duration": 161,
+        "verified": "2026-07-15"
       }
     ]
   },

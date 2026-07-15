@@ -298,7 +298,36 @@
         "answer": "The direction of force must be diagonal - downward and toward the opponent's centerline simultaneously. A purely downward force allows the hook to redirect sideways and maintain partial elevation capability. A purely lateral force does not address the vertical lifting power of the hook. The diagonal vector accomplishes two things: the downward component overpowers the hook's upward trajectory, while the inward component drives opponent's knee toward the mat and toward their opposite leg, collapsing the hook's structural integrity entirely. Your hip acts as a wedge that slides down the inside of their thigh, forcing their knee flat while your chest drives forward to prevent them from adjusting. This diagonal pressure line is why simply sitting heavy is insufficient - you must actively drive your hip across the hook toward the mat on the far side."
       }
     ],
-    "safety_considerations": "When practicing butterfly passing, both passer and guard player should be mindful of knee and hip stress. The passer should avoid dropping their full weight suddenly onto opponent's legs, which can cause knee hyperextension or strain. When removing hooks with hip pressure, apply force gradually rather than explosively to allow partner's joints to adjust. The guard player should tap if they feel excessive pressure on their knees or hips during hook removal, particularly if the passer's weight creates uncomfortable joint angles. During drilling, start with light resistance and gradually increase intensity as both partners develop familiarity with the mechanics. Partners with existing knee or hip injuries should communicate this clearly and may need to modify the technique or use alternative passing strategies. Always ensure adequate mat space around training partners to prevent accidental collisions during sweeping attempts or pass completions."
+    "safety_considerations": "When practicing butterfly passing, both passer and guard player should be mindful of knee and hip stress. The passer should avoid dropping their full weight suddenly onto opponent's legs, which can cause knee hyperextension or strain. When removing hooks with hip pressure, apply force gradually rather than explosively to allow partner's joints to adjust. The guard player should tap if they feel excessive pressure on their knees or hips during hook removal, particularly if the passer's weight creates uncomfortable joint angles. During drilling, start with light resistance and gradually increase intensity as both partners develop familiarity with the mechanics. Partners with existing knee or hip injuries should communicate this clearly and may need to modify the technique or use alternative passing strategies. Always ensure adequate mat space around training partners to prevent accidental collisions during sweeping attempts or pass completions.",
+    "clips": [
+      {
+        "id": "IGpcox5vWkw",
+        "title": "Butterfly guard pass into knee on belly",
+        "by": "Dark Arts Jiu-Jitsu coach",
+        "vertical": false,
+        "channel": "Dark Arts Jiu-Jitsu",
+        "duration": 89,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Ll3fkZ2oQD0",
+        "title": "Half butterfly guard pass, no-gi",
+        "by": "Kieran Davern",
+        "vertical": false,
+        "channel": "KD Grappling | Kieran Davern",
+        "duration": 170,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "231FhaqR008",
+        "title": "Folding pass against butterfly guard",
+        "by": "Unknown coach",
+        "vertical": false,
+        "channel": "Gorillatag694",
+        "duration": 137,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Butterfly Pass Defender",
@@ -425,6 +454,35 @@
         "phase": "Week 9-12: Full Resistance Integration",
         "focus": "Combining retention, counters, and transitions against live passing",
         "description": "Positional sparring starting from butterfly guard against partners using their full butterfly passing game. Blend recognition, retention, counter-sweeps, and guard transitions based on the passing situation. Score for sweeps, back takes, and successful guard transitions. Partner scores for completed passes. Build the decision-making speed needed for competition scenarios."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ADwKEjvhX-U",
+        "title": "Butterfly guard framing and retention concepts",
+        "by": "ZeGrapplez coach",
+        "vertical": false,
+        "channel": "ZeGrapplez",
+        "duration": 62,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "86KseinKoSY",
+        "title": "Knee slide pass recovery back to butterfly",
+        "by": "Italiano BJJ coach",
+        "vertical": false,
+        "channel": "Italiano BJJ",
+        "duration": 37,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ynoR-AtSYUc",
+        "title": "Around the legs guard retention",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 210,
+        "verified": "2026-07-15"
       }
     ]
   },

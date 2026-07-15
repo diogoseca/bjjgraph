@@ -311,7 +311,36 @@
         "answer": "The optimal window opens the instant their hand enters inside your guard to establish a hip frame. At this moment, their arm is extended and separated from their body, making isolation straightforward. Their other arm is typically occupied with grip fighting or posting. Capture the reaching wrist immediately with your same-side hand, pull it across your centerline while their arm is still in motion, and use your opposite hand to control their head or collar. This window lasts approximately one to two seconds before they retract or establish the frame solidly. The key recognition cue is seeing or feeling the arm enter the space between your thighs — this is the trigger to execute."
       }
     ],
-    "safety_considerations": "Triangle setup is generally safe for both practitioners when executed with proper control. The primary safety concern is neck and spine stress on the training partner — always release pressure immediately if partner taps or shows distress. When drilling, avoid explosive leg throws that could impact the face or whip the neck unexpectedly. The person applying the triangle should focus on control rather than force during practice, building tightness gradually rather than slamming the position closed. Partners should communicate about neck sensitivity and prior injuries before training triangles. The training partner should maintain awareness of their neck position and avoid stacking themselves excessively which can create spinal compression. Both practitioners should understand proper tapping mechanics and tap early during learning phases. Avoid practicing on partners with significant size/weight disadvantages as this increases injury risk."
+    "safety_considerations": "Triangle setup is generally safe for both practitioners when executed with proper control. The primary safety concern is neck and spine stress on the training partner — always release pressure immediately if partner taps or shows distress. When drilling, avoid explosive leg throws that could impact the face or whip the neck unexpectedly. The person applying the triangle should focus on control rather than force during practice, building tightness gradually rather than slamming the position closed. Partners should communicate about neck sensitivity and prior injuries before training triangles. The training partner should maintain awareness of their neck position and avoid stacking themselves excessively which can create spinal compression. Both practitioners should understand proper tapping mechanics and tap early during learning phases. Avoid practicing on partners with significant size/weight disadvantages as this increases injury risk.",
+    "clips": [
+      {
+        "id": "6eK-y5_KWIk",
+        "title": "Leg triangle setup from closed guard",
+        "by": "Penny Thomas",
+        "vertical": false,
+        "channel": "JiuJitsuMag",
+        "duration": 69,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QvQ79IB4ySw",
+        "title": "Triangle choke setup and finish details",
+        "by": "Ryan Hall",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 162,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2k02hOOclCc",
+        "title": "Quick closed guard triangle entry",
+        "by": "Ritchie Yip",
+        "vertical": false,
+        "channel": "Ritchie Yip",
+        "duration": 7,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Triangle Setup Defender",
@@ -452,6 +481,26 @@
         "phase": "Phase 4: Live Positional Defense (Week 6+)",
         "focus": "Full-resistance triangle setup defense integrated with broader closed guard top game",
         "description": "Full positional rounds starting from closed guard top with partner free to attack with any closed guard technique including triangle setup. Defender focuses on proactive posture maintenance, grip fighting, and early disruption of triangle setups while also defending sweeps and other submissions. Track how often triangles are locked compared to early disruptions. Develop ability to flow between triangle defense and guard passing attempts without becoming fixated on either."
+      }
+    ],
+    "clips": [
+      {
+        "id": "sR2rS2dwpNY",
+        "title": "How to escape a triangle choke",
+        "by": "Rener and Ryron Gracie",
+        "vertical": false,
+        "channel": "Hayabusa",
+        "duration": 117,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "DLmrzSs1hWI",
+        "title": "Triangle defense and escape",
+        "by": "Daniel Frank",
+        "vertical": false,
+        "channel": "Daniel Frank",
+        "duration": 24,
+        "verified": "2026-07-15"
       }
     ]
   },

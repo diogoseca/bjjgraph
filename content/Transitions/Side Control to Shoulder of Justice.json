@@ -294,7 +294,27 @@
         "answer": "Their extended near arm creates an immediate kimura opportunity. Secure a kimura grip on the extended wrist and elbow, then transition to the Kimura Trap control position. This is the highest-percentage submission pathway from Shoulder of Justice because the shoulder pressure specifically provokes this arm extension reaction. The opponent faces a dilemma: endure the jaw pressure or extend the arm and risk the kimura."
       }
     ],
-    "safety_considerations": "The Shoulder of Justice transition involves significant jaw and neck pressure that must be applied with awareness of training partner safety. During drilling, communicate with your partner about pressure intensity and allow them to tap to positional discomfort, not just submissions. Avoid driving shoulder pressure directly into the throat or trachea, as this can cause serious injury. The pressure should target the jaw line and mandible, not the airway. Partners with TMJ disorders or neck injuries should inform you before drilling. Reduce intensity when training with less experienced partners who may not know how to safely defend the position."
+    "safety_considerations": "The Shoulder of Justice transition involves significant jaw and neck pressure that must be applied with awareness of training partner safety. During drilling, communicate with your partner about pressure intensity and allow them to tap to positional discomfort, not just submissions. Avoid driving shoulder pressure directly into the throat or trachea, as this can cause serious injury. The pressure should target the jaw line and mandible, not the airway. Partners with TMJ disorders or neck injuries should inform you before drilling. Reduce intensity when training with less experienced partners who may not know how to safely defend the position.",
+    "clips": [
+      {
+        "id": "BjeDX3WupdA",
+        "title": "Shoulder pressure from side control",
+        "by": "Roy Dean",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 39,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "pyfc2SjiXVM",
+        "title": "Crossface shoulder crunch fundamentals",
+        "by": "CORE MMA coach",
+        "vertical": false,
+        "channel": "CORE MMA",
+        "duration": 143,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Side Control to Shoulder of Justice Defender",
@@ -416,6 +436,26 @@
         "phase": "Phase 4: Established Position Survival and Escape",
         "focus": "Surviving and escaping after the Shoulder of Justice is fully established",
         "description": "Partner establishes full Shoulder of Justice and maintains it with competition pressure. Practice controlled breathing, micro-frames, and recognizing escape windows during the attacker's offensive movements. Build tolerance for the position's discomfort while maintaining tactical awareness for escape opportunities."
+      }
+    ],
+    "clips": [
+      {
+        "id": "myIsFYohrNA",
+        "title": "Elbow escape and shrimp to replace guard",
+        "by": "Champions Jiu Jitsu coach",
+        "vertical": false,
+        "channel": "Champions Jiu Jitsu & Muay Thai",
+        "duration": 32,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "sdV37h_k8Wg",
+        "title": "Side control bottom escape fundamentals",
+        "by": "Cane Prevost",
+        "vertical": false,
+        "channel": "cane prevost",
+        "duration": 268,
+        "verified": "2026-07-15"
       }
     ]
   }

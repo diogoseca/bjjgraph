@@ -273,7 +273,27 @@
         "answer": "Follow the sitting motion and use the partial neck grip you already have to establish a front headlock or guillotine from the new angle. The opponent's explosive sit creates momentum you can redirect into a snap-down. If they achieve full closed guard before you can secure the front headlock, consolidate top position inside their guard and prepare to pass rather than forcing a submission from a compromised angle."
       }
     ],
-    "safety_considerations": "The anaconda choke is a blood choke that compresses both carotid arteries simultaneously, which can cause unconsciousness within seconds when properly applied. During training, always apply the grip progressively and give your partner adequate time to tap before the choke fully sets. The gator roll finishing mechanic adds neck torsion to the compression forces, so execute rolls slowly during drilling. Partners should tap early when they feel bilateral pressure rather than waiting for full unconsciousness onset. Practitioners with cervical spine issues should avoid aggressive gator rolls and focus on the static finishing position. Never crank the neck or apply twisting force—the anaconda is a squeeze, not a crank. Release immediately upon tap and check on your partner after every successful application during training."
+    "safety_considerations": "The anaconda choke is a blood choke that compresses both carotid arteries simultaneously, which can cause unconsciousness within seconds when properly applied. During training, always apply the grip progressively and give your partner adequate time to tap before the choke fully sets. The gator roll finishing mechanic adds neck torsion to the compression forces, so execute rolls slowly during drilling. Partners should tap early when they feel bilateral pressure rather than waiting for full unconsciousness onset. Practitioners with cervical spine issues should avoid aggressive gator rolls and focus on the static finishing position. Never crank the neck or apply twisting force—the anaconda is a squeeze, not a crank. Release immediately upon tap and check on your partner after every successful application during training.",
+    "clips": [
+      {
+        "id": "6d6Wkgh9imU",
+        "title": "Anaconda vs D'Arce: switching between configurations",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 67,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "OWVMvV4gmIo",
+        "title": "Anaconda choke entry for wrestlers",
+        "by": "The B-Team",
+        "vertical": false,
+        "channel": "The B-Team",
+        "duration": 235,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Switch to Anaconda Configuration Defender",
@@ -397,6 +417,35 @@
         "phase": "Week 7-8",
         "focus": "Full resistance positional sparring",
         "description": "Start from buggy choke bottom in turtle with full resistance. Attacker uses complete buggy choke attack tree including anaconda switch, darce switch, finishing choke, and back take. Defender practices reading which attack is coming and implementing the appropriate defense in real time. Score for successful escapes to half guard, prevention of grip lock, and survival past 30 seconds without submission."
+      }
+    ],
+    "clips": [
+      {
+        "id": "N9MbEtAv_Lw",
+        "title": "Anaconda choke defense",
+        "by": "Mamba BJJ",
+        "vertical": false,
+        "channel": "Mamba BJJ",
+        "duration": 62,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "SXm9wA1HcvM",
+        "title": "Escaping the anaconda choke",
+        "by": "SFS MMA",
+        "vertical": false,
+        "channel": "Fierce Pierce15",
+        "duration": 64,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "PEL4kh7Bu8U",
+        "title": "Stopping the anaconda choke with a wrestling counter",
+        "by": "Chewjitsu",
+        "vertical": false,
+        "channel": "Chewjitsu",
+        "duration": 162,
+        "verified": "2026-07-15"
       }
     ]
   },

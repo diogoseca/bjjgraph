@@ -286,7 +286,27 @@
         "answer": "Immediately establish crossface or underhook control to prevent them from creating the space needed to re-thread their leg and feed the lapel. Strip any remaining lapel grips as your first priority in half guard top. Pin their far hip with your chest pressure to prevent them from turning to their side and re-inserting the threading leg. If their lapel is still partially engaged, clear it completely before attempting any further passing from half guard."
       }
     ],
-    "safety_considerations": "Pressure passing through Squid Guard involves sustained compressive force on the bottom player's torso and frames. The top player must be aware of their partner's breathing and avoid excessive stacking that loads the cervical spine. During training, apply pressure gradually rather than explosively to allow your partner to tap or verbally signal discomfort. Be especially careful when the bottom player's lapel is tightly wound around their own body, as pressure can restrict their movement and breathing simultaneously. Communicate clearly during drilling and release pressure immediately if your partner shows signs of distress."
+    "safety_considerations": "Pressure passing through Squid Guard involves sustained compressive force on the bottom player's torso and frames. The top player must be aware of their partner's breathing and avoid excessive stacking that loads the cervical spine. During training, apply pressure gradually rather than explosively to allow your partner to tap or verbally signal discomfort. Be especially careful when the bottom player's lapel is tightly wound around their own body, as pressure can restrict their movement and breathing simultaneously. Communicate clearly during drilling and release pressure immediately if your partner shows signs of distress.",
+    "clips": [
+      {
+        "id": "lACga4DakTM",
+        "title": "Modern lapel guard passing",
+        "by": "Romulo Barral",
+        "vertical": false,
+        "channel": "Romulo Barral",
+        "duration": 121,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "eK-ZqVsQQCI",
+        "title": "Breaking the double lapel guard to pass",
+        "by": "JitzLive",
+        "vertical": false,
+        "channel": "JitzLive",
+        "duration": 116,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Pressure Through Squid Guard Defender",
@@ -411,6 +431,17 @@
         "phase": "Phase 4: Full Resistance Positional Sparring",
         "focus": "Integrating all defensive options against live pressure passing",
         "description": "Full resistance positional sparring starting from Squid Guard. Top player attempts any passing approach with emphasis on pressure. Bottom player integrates frame retention, sweep timing, inversion threats, and guard transitions based on the top player's actions. 3-minute rounds with position reset after each pass or sweep."
+      }
+    ],
+    "clips": [
+      {
+        "id": "541H63KeHD4",
+        "title": "Lapel guard introduction and retention",
+        "by": "Keenan Cornelius",
+        "vertical": false,
+        "channel": "Keenan Cornelius",
+        "duration": 293,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -318,6 +318,35 @@
         "answer": "The standard armbar defense toolkit—hitchhiker escape, stacking, clasping hands together, and rotating toward the attacker—becomes ineffective when the attacker is belly-down. The prone position eliminates the rotational escape path because the attacker's weight pins the defender flat. Stacking requires the attacker to be on their back, which does not apply here. Hand clasping is defeated by the two-on-one wrist control established before the transition began.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "2Y5HdBxqPv8",
+        "title": "Attacks from Scarf Hold",
+        "by": "Goulburn Martial Arts",
+        "vertical": false,
+        "channel": "Goulburn Martial Arts Academy",
+        "duration": 69,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "fB7gGDIm1i8",
+        "title": "12 Kesa Gatame Attacks",
+        "by": "Johnny Jitsu",
+        "vertical": false,
+        "channel": "Johnny Jitsu",
+        "duration": 88,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "nKITSItbeyM",
+        "title": "High Percentage Attacks from Kesa Gatame",
+        "by": "Stephan Kesting",
+        "vertical": false,
+        "channel": "Stephan Kesting",
+        "duration": 220,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -449,6 +478,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Integrating defensive recognition and response into live realistic training",
         "description": "Begin in modified scarf hold bottom with partner hunting the belly-down armbar at full resistance. Practice complete defensive sequences at competition pace, building the pattern recognition and timing needed for real application."
+      }
+    ],
+    "clips": [
+      {
+        "id": "fvp5_BVEtLg",
+        "title": "Kesa Gatame Pressure Defense with Framing",
+        "by": "Kohbukan Sisu",
+        "vertical": false,
+        "channel": "Kohbukan Sisu",
+        "duration": 84,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "u4mzEqzqoAU",
+        "title": "Mastering the Modified Scarf Hold Escape",
+        "by": "Knots and Collar",
+        "vertical": false,
+        "channel": "Knots and Collar",
+        "duration": 208,
+        "verified": "2026-07-14"
       }
     ]
   }

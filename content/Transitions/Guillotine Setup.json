@@ -279,7 +279,36 @@
         "answer": "Your primary chain options are: (1) Transition to an anaconda choke by threading your arm under their neck and over their far arm, then locking a gable grip and rolling; (2) Switch to a darce choke by underhooking their near arm and connecting your hands under the far side of their neck; (3) Disengage the choke attempt and take the back by using their defensive reaction to step around and secure hooks; (4) Snap them back down to re-establish front headlock and reset the attack cycle. The key is that each failed guillotine attempt should seamlessly flow into the next attack rather than creating a dead moment where you must re-establish control from scratch."
       }
     ],
-    "safety_considerations": "When training the guillotine setup, both practitioners must understand that the neck and trachea are extremely vulnerable areas requiring careful, controlled practice. Apply the setup slowly during drilling, giving your partner time to tap if uncomfortable. Never explosively jerk or crank the neck during the setup phase. Partners should communicate clearly about pressure levels, and the person applying the technique should release immediately upon any tap, verbal submission, or sign of distress. Be especially cautious with grip pressure during the initial threading phase, as overly aggressive arm placement can cause trachea damage even before the choke is fully applied. When practicing from standing positions, ensure adequate mat space and be prepared to control your partner's fall if they lose balance. Beginners should focus on positioning and mechanics with minimal pressure until they understand the technique thoroughly. Remember that a properly applied guillotine can render someone unconscious in 3-8 seconds, so never maintain pressure once a tap occurs, and never practice finishing mechanics without a partner's explicit consent and understanding of safe tapping protocols."
+    "safety_considerations": "When training the guillotine setup, both practitioners must understand that the neck and trachea are extremely vulnerable areas requiring careful, controlled practice. Apply the setup slowly during drilling, giving your partner time to tap if uncomfortable. Never explosively jerk or crank the neck during the setup phase. Partners should communicate clearly about pressure levels, and the person applying the technique should release immediately upon any tap, verbal submission, or sign of distress. Be especially cautious with grip pressure during the initial threading phase, as overly aggressive arm placement can cause trachea damage even before the choke is fully applied. When practicing from standing positions, ensure adequate mat space and be prepared to control your partner's fall if they lose balance. Beginners should focus on positioning and mechanics with minimal pressure until they understand the technique thoroughly. Remember that a properly applied guillotine can render someone unconscious in 3-8 seconds, so never maintain pressure once a tap occurs, and never practice finishing mechanics without a partner's explicit consent and understanding of safe tapping protocols.",
+    "clips": [
+      {
+        "id": "Mw5qLLzjay4",
+        "title": "Guillotine choke setup from turtle",
+        "by": "Cavalo Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Cavalo Jiu-Jitsu",
+        "duration": 49,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "6mHJ8Mh6fDs",
+        "title": "High elbow guillotine from front turtle",
+        "by": "Michael Hoffman",
+        "vertical": false,
+        "channel": "Michael Hoffman",
+        "duration": 22,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QMKv_AlTie8",
+        "title": "Snap down setup off the single leg",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 134,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Guillotine Setup Defender",
@@ -410,6 +439,35 @@
         "phase": "Week 9+: Live Positional Sparring",
         "focus": "Applying guillotine setup defense in realistic sparring conditions",
         "description": "Positional rounds starting from front headlock. Attacker works to establish guillotine setup and finish; defender works to prevent the setup and escape to safety. Full resistance from both sides. Track success rates and identify which defensive options work best against different attackers. Integrate with broader front headlock escape training."
+      }
+    ],
+    "clips": [
+      {
+        "id": "lV4cgzaVhb8",
+        "title": "Front headlock defense: farside peek out",
+        "by": "Procel BJJ",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 64,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Qb8gtundzPg",
+        "title": "Guillotine escape from inside the guard",
+        "by": "Ground Zero MMA",
+        "vertical": false,
+        "channel": "Ground Zero MMA,BJJ,Wresting,No Gi,Bridgend.",
+        "duration": 57,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "VZe2GY0_UIk",
+        "title": "Short drag front headlock escape",
+        "by": "Mason Parris",
+        "vertical": false,
+        "channel": "Merge Grappling",
+        "duration": 176,
+        "verified": "2026-07-15"
       }
     ]
   },

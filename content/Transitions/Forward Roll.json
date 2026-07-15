@@ -282,7 +282,36 @@
         "answer": "The decision depends on opponent's pursuit speed and the distance created by the roll. If the roll creates significant distance and opponent is slow to follow, a technical stand-up is optimal because it returns you to neutral standing where you have maximum options. If opponent follows closely through the roll and is immediately pressuring, seated guard with feet on their hips is safer because it establishes defensive frames faster than standing. Also consider mat position: near boundaries, standing gives you mobility to reset to center, while seated guard keeps you stationary."
       }
     ],
-    "safety_considerations": "Forward rolling must be practiced with careful attention to neck safety. Always ensure proper chin tuck before initiating any rolling motion, as failure to protect the neck can result in serious cervical spine injuries including disc herniation and nerve compression. Begin practicing on soft surfaces and progress gradually to competition-grade mats as technique improves. Students with existing neck, shoulder, or back injuries should consult medical professionals before practicing forward rolls. When practicing with partners, ensure adequate space around you to complete the roll without colliding with other practitioners or obstacles. Start with slow, controlled repetitions and gradually increase speed only after mastering proper diagonal rolling mechanics. Never attempt forward rolls on surfaces that are too hard, slippery, or uneven, and always warm up the neck and shoulders thoroughly before drilling."
+    "safety_considerations": "Forward rolling must be practiced with careful attention to neck safety. Always ensure proper chin tuck before initiating any rolling motion, as failure to protect the neck can result in serious cervical spine injuries including disc herniation and nerve compression. Begin practicing on soft surfaces and progress gradually to competition-grade mats as technique improves. Students with existing neck, shoulder, or back injuries should consult medical professionals before practicing forward rolls. When practicing with partners, ensure adequate space around you to complete the roll without colliding with other practitioners or obstacles. Start with slow, controlled repetitions and gradually increase speed only after mastering proper diagonal rolling mechanics. Never attempt forward rolls on surfaces that are too hard, slippery, or uneven, and always warm up the neck and shoulders thoroughly before drilling.",
+    "clips": [
+      {
+        "id": "ILvdMiqeJaY",
+        "title": "Turtle concepts: the front roll",
+        "by": "Brazilian Top Team Happy Valley",
+        "vertical": false,
+        "channel": "Brazilian Top Team Happy Valley ",
+        "duration": 73,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Ba9EahLaXkg",
+        "title": "Turtle shoulder roll escape (maki komi)",
+        "by": "Team Daruma Dojo",
+        "vertical": false,
+        "channel": "Team Daruma Dojo",
+        "duration": 36,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "W0TCGKRcniA",
+        "title": "Turtle escape via shoulder roll",
+        "by": "BJJake",
+        "vertical": false,
+        "channel": "BJJake",
+        "duration": 21,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Forward Roll Defender",
@@ -407,6 +436,26 @@
         "phase": "Week 7-8: Live Positional Sparring",
         "focus": "Apply forward roll defense during live turtle top sparring",
         "description": "Full resistance positional sparring from turtle top. Partner uses all available escapes including forward roll, granby roll, sit-through, and stand-up. Practice recognizing which escape is being attempted and applying the appropriate counter. Reset after successful escape or back take. Focus on reading cues under pressure and selecting the correct defensive response."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Rlk4mGg7vW4",
+        "title": "Maintaining back control with hooks",
+        "by": "Gracie Charlottesville",
+        "vertical": false,
+        "channel": "Gracie Charlottesville",
+        "duration": 84,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lpgcKpIgClw",
+        "title": "Why you keep losing the back",
+        "by": "Brandon Mccaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 143,
+        "verified": "2026-07-15"
       }
     ]
   },

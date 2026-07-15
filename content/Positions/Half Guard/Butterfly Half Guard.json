@@ -332,6 +332,35 @@
         "question": "Your opponent partially escapes and recovers a knee shield - what immediate recovery prevents full guard retention?",
         "answer": "Immediately control their knee shield knee with your hand and push it down toward the mat while driving your hip forward and low. Do not allow space for them to fully extend the knee shield. If they get the knee shield established, transition to a knee slice angle by stepping your outside leg wide and preparing to slice through. The critical moment is preventing the frame from locking into place - act within the first second of their recovery attempt."
       }
+    ],
+    "clips": [
+      {
+        "id": "LIITsrlsAaI",
+        "title": "Passing Half Butterfly Guard",
+        "by": "Morto BJJ",
+        "vertical": false,
+        "channel": "Morto BJJ",
+        "duration": 70,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Pk_6CrydIRQ",
+        "title": "Effective Half Butterfly Guard Pass (No Gi)",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 110,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "BkT2cQdqqgU",
+        "title": "How to Pass the Butterfly Guard",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 117,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -707,6 +736,35 @@
         "question": "How do you manage energy when your opponent is defending your sweeps effectively and the position becomes a stalemate?",
         "answer": "Avoid repeatedly forcing the same sweep that's being defended - this burns energy without results. Instead, maintain your core structure with minimal effort (slight shoulder elevation, active but not maximal hook pressure) and wait for them to initiate movement. Their passing attempts create the opportunities for your counters. If truly stalled, flow to a related position (deep half, lockdown, full butterfly) to reset the dynamic. Energy management means making them work to defend while you stay ready to capitalize on their movements."
       }
+    ],
+    "clips": [
+      {
+        "id": "MlMwtCvfYlQ",
+        "title": "Marcelo Garcia Short Hook Sweep",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "BJJ Joe",
+        "duration": 57,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "c8JBXJMc0Oc",
+        "title": "Marcelo Garcia Butterfly Sweep",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "Butterfly The World",
+        "duration": 81,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "WoSyrVZ1VvY",
+        "title": "Butterfly Hook Back Take from Half Guard",
+        "by": "Procel BJJ",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 55,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -741,6 +799,35 @@
     {
       "question": "Why does Butterfly Half Guard collapse into a different position the moment either the butterfly hook is killed or the trapped leg is freed?",
       "answer": "The position is defined by the coexistence of both control points, so losing either one immediately degrades it into one of its parent guards. If the hook is pressured flat, the exchange reduces to pinned half guard or a knee-shield frame and the elevation threat disappears. If the trapped leg is extracted, what remains is pure butterfly guard and the retention that the half guard trap supplied is gone. Because each control point props up the value of the other, the integrity of the whole configuration hinges on maintaining both simultaneously, which is why the destruction of either is the decisive event in the exchange."
+    }
+  ],
+  "clips": [
+    {
+      "id": "MFed9IE8afA",
+      "title": "Reverse Armdrag to Back Take (Marcelo style)",
+      "by": "Jerry Musquiz",
+      "vertical": false,
+      "channel": "Jerry Musquiz",
+      "duration": 42,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "-fnzNp6TWQo",
+      "title": "Rafael Lovato Jr Half Guard Sweep Breakdown",
+      "by": "Rafael Lovato Jr",
+      "vertical": false,
+      "channel": "Conceptual Grappling",
+      "duration": 88,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "wVWtFcfAbgE",
+      "title": "No Gi Butterfly Guard Explained Simply",
+      "by": "Jean Jacques Machado",
+      "vertical": false,
+      "channel": "JeanJacquesMachado",
+      "duration": 177,
+      "verified": "2026-07-14"
     }
   ]
 }

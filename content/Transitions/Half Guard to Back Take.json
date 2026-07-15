@@ -305,7 +305,27 @@
         "answer": "A whizzer actually aids the back take when exploited correctly. The whizzer pins your shoulder tight to their body, which gives you a closer connection for the climb. Circle your hips underneath their whizzer pressure while keeping your underhook hand connected. Their overhook acts as an anchor point that prevents them from creating distance, and as you rotate perpendicular, the whizzer loses its leverage while your underhook gains it."
       }
     ],
-    "safety_considerations": "Ensure controlled execution to avoid injury during the transition. Maintain awareness of opponent's spine and neck position, particularly when establishing back control and inserting hooks. Apply pressure gradually rather than explosively when first learning to prevent knee and hip injuries to your training partner. When inserting hooks, be careful not to drive knees forcefully into opponent's thighs, which can cause painful contusions. During drilling, communicate clearly if crossface pressure becomes excessive, as this can strain neck muscles. Partners should tap early if they feel trapped in poor positions during the transition to prevent panic responses that lead to injury."
+    "safety_considerations": "Ensure controlled execution to avoid injury during the transition. Maintain awareness of opponent's spine and neck position, particularly when establishing back control and inserting hooks. Apply pressure gradually rather than explosively when first learning to prevent knee and hip injuries to your training partner. When inserting hooks, be careful not to drive knees forcefully into opponent's thighs, which can cause painful contusions. During drilling, communicate clearly if crossface pressure becomes excessive, as this can strain neck muscles. Partners should tap early if they feel trapped in poor positions during the transition to prevent panic responses that lead to injury.",
+    "clips": [
+      {
+        "id": "WoSyrVZ1VvY",
+        "title": "Back take from half guard using a butterfly hook",
+        "by": "Procel",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 55,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "XqH1Bt0-AgY",
+        "title": "Back take from half guard bottom",
+        "by": "BJJ Recap coach",
+        "vertical": false,
+        "channel": "BJJ Recap",
+        "duration": 39,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Half Guard to Back Take Defender",
@@ -435,6 +455,17 @@
         "phase": "Week 7+: Full resistance positional sparring from half guard top",
         "focus": "Integrating all defensive layers against live back take attempts",
         "description": "Positional rounds starting in half guard top against partner's full offensive half guard system. Practice reading which defensive layer is appropriate based on opponent's progress through the back take sequence. Chain prevention, whizzer defense, and emergency turn-in as the situation demands."
+      }
+    ],
+    "clips": [
+      {
+        "id": "hHbb7ywVTwU",
+        "title": "Countering the back take from top deep half guard",
+        "by": "JiuJitsu.com coach",
+        "vertical": false,
+        "channel": "JiuJitsu.com",
+        "duration": 63,
+        "verified": "2026-07-15"
       }
     ]
   },

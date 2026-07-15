@@ -348,6 +348,26 @@
         "answer": "Widen your base immediately by extending your far leg further out and posting your near foot firmly on the mat. Drop your hips lower to increase downward pressure on their torso and ribs. Maintain the figure-four grip but pause the rotation until the bridge attempt subsides completely. Ride the bridge by staying connected to their body rather than tensing rigidly against the movement. Once they settle back to the mat, resume the slow progressive rotational pressure.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "uaHf3d_aCso",
+        "title": "Inverted Americana",
+        "by": "Adrian Nielsen",
+        "vertical": false,
+        "channel": "Adrian Nielsen",
+        "duration": 56,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "iGVWSwxKCII",
+        "title": "One-Handed Americana / Keylock Submission",
+        "by": "Mastermind Martial Arts",
+        "vertical": false,
+        "channel": "Mastermind Martial Arts",
+        "duration": 141,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -477,6 +497,26 @@
         "phase": "Live Defensive Sparring",
         "focus": "Full resistance application of all defensive tools",
         "description": "Positional sparring starting from reverse kesa with the attacker specifically hunting the Americana. Defender works all defensive tools including grip fighting, bridging, hip escapes, and guard recovery under full resistance. Track escape success rate and identify which defensive techniques are most reliable."
+      }
+    ],
+    "clips": [
+      {
+        "id": "q2WjKMK1v94",
+        "title": "Escape the Reverse Kesa Gatame Side Control Pin",
+        "by": "Uncle Kevvy",
+        "vertical": false,
+        "channel": "Uncle Kevvy",
+        "duration": 280,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "-czPu1EvCU0",
+        "title": "Kesa-Gatame Escape",
+        "by": "Mattix Academy",
+        "vertical": false,
+        "channel": "MATTIX ACADEMY",
+        "duration": 209,
+        "verified": "2026-07-14"
       }
     ]
   }

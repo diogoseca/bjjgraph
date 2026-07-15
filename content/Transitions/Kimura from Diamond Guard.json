@@ -293,7 +293,36 @@
         "answer": "Do not engage in a direct grip-breaking battle which wastes energy against a mechanically strong defensive position. Instead, use your free leg to thread between their arm and body, using your foot or knee as a wedge to pry their grip loose. Alternatively, abandon the submission angle temporarily and use the Kimura grip to initiate the hip bump sweep — their hand committed to belt grip cannot post against the sweep, making their defensive choice work against them. The sweep often breaks the belt grip automatically as they scramble to recover base during the topple."
       }
     ],
-    "safety_considerations": "The Kimura targets the shoulder joint through rotational force on the glenohumeral joint and can cause serious injury if applied explosively. Apply submission pressure gradually and progressively during drilling, never cranking suddenly. Release immediately upon tap or verbal submission. During the sweeping component, ensure controlled descent to the mat to prevent impact injuries. Practitioners with existing shoulder injuries, instability, or reduced range of motion should communicate limitations to training partners before drilling. When drilling the grip transition, avoid excessive force on the wrist during the control phase. Always warm up shoulders thoroughly before Kimura-focused training sessions."
+    "safety_considerations": "The Kimura targets the shoulder joint through rotational force on the glenohumeral joint and can cause serious injury if applied explosively. Apply submission pressure gradually and progressively during drilling, never cranking suddenly. Release immediately upon tap or verbal submission. During the sweeping component, ensure controlled descent to the mat to prevent impact injuries. Practitioners with existing shoulder injuries, instability, or reduced range of motion should communicate limitations to training partners before drilling. When drilling the grip transition, avoid excessive force on the wrist during the control phase. Always warm up shoulders thoroughly before Kimura-focused training sessions.",
+    "clips": [
+      {
+        "id": "n-tp8lLTs8U",
+        "title": "Kimura submission from closed guard",
+        "by": "Ultra Jiu Jitsu Academy",
+        "vertical": false,
+        "channel": "Ultra Jiu Jitsu Academy",
+        "duration": 120,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "IA4laaUMfD8",
+        "title": "Kimura sweep to kimura finish",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "R1DqRqmwDOw",
+        "title": "Kimura sweep from half guard",
+        "by": "Fenrir Jiu-Jitsu Academy",
+        "vertical": false,
+        "channel": "Fenrir Jiu-Jitsu Academy",
+        "duration": 117,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Kimura from Diamond Guard Defender",
@@ -418,6 +447,35 @@
         "phase": "Phase 4: Live Defensive Integration",
         "focus": "Full resistance defense within live positional sparring",
         "description": "Positional sparring starting in diamond guard with attacker attempting any diamond guard attack chain. Defender must identify and defend the Kimura specifically while also handling triangle and omoplata threats. Full resistance with rounds starting from established diamond guard position. Track which defensive option succeeds most often and identify timing patterns."
+      }
+    ],
+    "clips": [
+      {
+        "id": "a6vbWASwse8",
+        "title": "Kimura defense from guard",
+        "by": "Jiu-Jitsu Channel",
+        "vertical": false,
+        "channel": "Jiu-Jitsu Channel",
+        "duration": 67,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "GOLwVNTVcnY",
+        "title": "Kimura defense grip breaks",
+        "by": "Dirtball BJJ",
+        "vertical": false,
+        "channel": "Dirtball BJJ",
+        "duration": 81,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "FNyL93v5fGs",
+        "title": "Defending the americana",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 91,
+        "verified": "2026-07-15"
       }
     ]
   }

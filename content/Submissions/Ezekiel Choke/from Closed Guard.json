@@ -339,6 +339,26 @@
         "answer": "Upon any tap signal, immediately release the sleeve grip and withdraw the blade forearm from the neck in a smooth, controlled motion. Do not release abruptly and immediately scramble to another position. Maintain your top position briefly to allow your partner to recover orientation. Check that they are conscious and responsive by making eye contact, and confirm verbally that they are okay before resuming training or resetting positions. If there is any doubt about consciousness, call for assistance immediately.",
         "safety_critical": true
       }
+    ],
+    "clips": [
+      {
+        "id": "U0bEVMh07b0",
+        "title": "Ezekiel Choke from Closed Guard with a Twist",
+        "by": "BJJ After Forty",
+        "vertical": false,
+        "channel": "BJJ After Forty",
+        "duration": 149,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "B7_MjC4WAoI",
+        "title": "The Ezekiel To End All Ezekiels (No Gi)",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 87,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -462,6 +482,17 @@
         "phase": "Phase 3: Counter-Offense Integration",
         "focus": "Combining defense with sweeps and submission counters",
         "description": "Combine defensive recognition with counter-attacks including hip bump sweeps and triangle setups. Partner attempts the Ezekiel at increasing speed and intensity while you defend and immediately transition to counter-offense. Progress from isolated drilling to positional sparring rounds starting in closed guard with the Ezekiel as the attacker's primary goal."
+      }
+    ],
+    "clips": [
+      {
+        "id": "2_lXwrT3Ci0",
+        "title": "Ezekiel (bread) choke defense from guard",
+        "by": "Gracie Charlottesville",
+        "vertical": false,
+        "channel": "Gracie Charlottesville",
+        "duration": 14,
+        "verified": "2026-07-15"
       }
     ]
   }

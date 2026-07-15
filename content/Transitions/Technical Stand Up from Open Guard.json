@@ -285,7 +285,27 @@
         "answer": "Stand up at approximately a forty-five degree angle away from your opponent's centerline rather than directly toward or away from them. This angle makes it significantly harder for them to shoot directly at your hips and creates a natural distance buffer. Choose the angle that takes you toward their weak side, typically away from their dominant gripping hand. Standing directly upward into their centerline is the most common error, as it places you in optimal range for their clinch or takedown entries."
       }
     ],
-    "safety_considerations": "The Technical Stand Up from Open Guard is a low-risk transition with no submission danger, but practitioners should be aware of potential knee strain from improper foot positioning during the posting phase. Ensure your base foot is flat with the knee tracking over the toes to avoid lateral knee stress. When training with partners, communicate clearly about the level of resistance for shot attempts during the standing phase to prevent collision injuries. Avoid practicing on slippery surfaces where the posting hand or feet may slip during hip elevation."
+    "safety_considerations": "The Technical Stand Up from Open Guard is a low-risk transition with no submission danger, but practitioners should be aware of potential knee strain from improper foot positioning during the posting phase. Ensure your base foot is flat with the knee tracking over the toes to avoid lateral knee stress. When training with partners, communicate clearly about the level of resistance for shot attempts during the standing phase to prevent collision injuries. Avoid practicing on slippery surfaces where the posting hand or feet may slip during hip elevation.",
+    "clips": [
+      {
+        "id": "ACLeOKAuRug",
+        "title": "X-guard sweep to technical stand up",
+        "by": "The Grapple Lab",
+        "vertical": false,
+        "channel": "The Grapple Lab",
+        "duration": 271,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "wgb4IEjay68",
+        "title": "X-guard stand up sweep",
+        "by": "Bermuda Martial Arts",
+        "vertical": false,
+        "channel": "Bermuda Martial Arts",
+        "duration": 184,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Technical Stand Up from Open Guard Defender",
@@ -410,6 +430,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance defense against stand-up attempts from open guard top",
         "description": "Start in open guard top position with partner having the specific goal of completing a technical stand up. Work at full resistance to prevent the stand-up using the full range of defensive tools developed in earlier phases. Track which counters are most effective and develop your personal defensive system."
+      }
+    ],
+    "clips": [
+      {
+        "id": "TCinYYTF2BA",
+        "title": "When they stand up from your guard with sleeve control",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Xj_MVwk2jq0",
+        "title": "When they don't let go of your guard retention",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 46,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "gyeBBx6zozk",
+        "title": "Open guard strikes to stand up",
+        "by": "Mack Training Academy",
+        "vertical": false,
+        "channel": "Mack Training Academy ",
+        "duration": 86,
+        "verified": "2026-07-15"
       }
     ]
   }

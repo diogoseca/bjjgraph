@@ -325,6 +325,35 @@
         "answer": "Under IBJJF rules, kneebars are only legal at brown and black belt levels, and the attacker must be aware that reaping penalties can result from certain leg entanglement configurations during the finish. Under ADCC rules, kneebars are legal at all levels with fewer positional restrictions, allowing more aggressive entanglement and finishing angles. In IBJJF competition, maintain clean leg positioning to avoid disqualification. In ADCC, use the broader ruleset to incorporate inside and outside reaping positions that increase finishing leverage but would be penalized under IBJJF.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "vMqDIi10z4k",
+        "title": "Dog Bar Kneebar Finish",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "v4lhLkKgVvU",
+        "title": "Go Behind Kneebar",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 129,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "NzkSekbRmZ4",
+        "title": "Standing Grapevine to Kneebar",
+        "by": "Scientific Wrestling",
+        "vertical": false,
+        "channel": "Scientific Wrestling",
+        "duration": 63,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -442,6 +471,35 @@
         "phase": "Phase 3: Escape Integration",
         "focus": "Combining defensive layers with escape attempts",
         "description": "Full defensive sequence from recognition through escape attempt. Partner attacks with realistic timing and pressure while defender chains recognition, bent-knee defense, hip rotation, and leg extraction into a cohesive escape. Progress to full positional sparring where defender starts in kneebar control and must escape or tap safely."
+      }
+    ],
+    "clips": [
+      {
+        "id": "3zJthP57wXw",
+        "title": "Kneebar Escape",
+        "by": "Darren Branch",
+        "vertical": false,
+        "channel": "High Rollerz Jiu Jitsu 💨🥋",
+        "duration": 74,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "hze1WyTvkzA",
+        "title": "Defending the Kneebar to Toe Hold",
+        "by": "Garden State BJJ",
+        "vertical": false,
+        "channel": "Garden State Brazilian Jiu-Jitsu Academy",
+        "duration": 24,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "kUuJ03CcIUQ",
+        "title": "Kneebar Defense in Competition",
+        "by": "AJ Agazarm",
+        "vertical": false,
+        "channel": "FloGrappling",
+        "duration": 23,
+        "verified": "2026-07-14"
       }
     ]
   }

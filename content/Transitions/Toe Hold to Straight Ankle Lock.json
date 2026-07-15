@@ -307,7 +307,36 @@
         "answer": "External foot rotation during the grip switch re-exposes the defender to the original toe hold attack. Their rotation undoes the boot defense that motivated the switch in the first place. The correct response is to abort the ankle lock transition and immediately reattack the toe hold with the figure-four grip, capitalizing on the now-favorable foot position. This creates a catch-22 for the defender where defending one attack opens the other."
       }
     ],
-    "safety_considerations": "Both toe holds and straight ankle locks carry significant injury risk to ankle ligaments and the Achilles tendon. During grip transitions, maintain controlled pressure and never apply explosive force during the switch. The reconfiguration window creates unpredictable force vectors that can cause unintended injury if rushed. Always practice at reduced intensity initially, communicate clearly with training partners about pressure levels, and enforce a tap-early culture during leg lock training. Progressive pressure application is essential, particularly when establishing the new ankle lock grip, as the defender may not immediately recognize the changed threat vector. Stop immediately when a partner taps or verbally signals discomfort."
+    "safety_considerations": "Both toe holds and straight ankle locks carry significant injury risk to ankle ligaments and the Achilles tendon. During grip transitions, maintain controlled pressure and never apply explosive force during the switch. The reconfiguration window creates unpredictable force vectors that can cause unintended injury if rushed. Always practice at reduced intensity initially, communicate clearly with training partners about pressure levels, and enforce a tap-early culture during leg lock training. Progressive pressure application is essential, particularly when establishing the new ankle lock grip, as the defender may not immediately recognize the changed threat vector. Stop immediately when a partner taps or verbally signals discomfort.",
+    "clips": [
+      {
+        "id": "cf-hK1t7qzU",
+        "title": "Corkscrew toehold counter to straight ankle locks",
+        "by": "Patrick Donabedian",
+        "vertical": false,
+        "channel": "Patrick Donabedian BJJ",
+        "duration": 65,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "y3yldWyiSZY",
+        "title": "Chaining reverse toe hold and inside heel hook in 50/50",
+        "by": "Unknown",
+        "vertical": false,
+        "channel": "Grappling How to",
+        "duration": 50,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "P7ua1JeOpQ4",
+        "title": "One minute toe hold finishing tweak",
+        "by": "Albert",
+        "vertical": false,
+        "channel": "Albert",
+        "duration": 63,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Toe Hold to Straight Ankle Lock Defender",
@@ -428,6 +457,26 @@
         "phase": "Phase 4: Full Resistance Integration",
         "focus": "Live positional sparring from toe hold control",
         "description": "Full resistance positional sparring starting from toe hold control. Attacker works complete chain attacks while defender implements full defensive protocol including recognition, timed escape, and counter-positioning. Emphasize tap-early culture and controlled application throughout."
+      }
+    ],
+    "clips": [
+      {
+        "id": "vg-Luhls7yE",
+        "title": "Straight ankle lock defence and escapes",
+        "by": "Jiu Jitsu Brotherhood",
+        "vertical": false,
+        "channel": "Jiu Jitsu Brotherhood",
+        "duration": 164,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uZbUhFapIhg",
+        "title": "Craig Jones leglock defense breakdown",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 163,
+        "verified": "2026-07-15"
       }
     ]
   }

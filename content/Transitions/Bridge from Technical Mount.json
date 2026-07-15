@@ -288,7 +288,36 @@
         "answer": "Gripping your own collar or opposite shoulder with the threatened hand serves two critical functions: it mechanically locks the elbow in a bent position preventing extension during the explosive bridge, and it creates a connection point that allows your arm to move as a unit with your torso rather than being left behind during displacement. Without this self-grip, the arm tends to extend under the forces of the bridge, creating the exact arm exposure the escape is designed to prevent."
       }
     ],
-    "safety_considerations": "The bridge from technical mount involves explosive spinal extension and rotation under load, creating risk for lower back strain if performed without adequate warm-up. Always warm up the lumbar spine, hip flexors, and neck with progressive mobility work before drilling. When training with partners, communicate clearly about resistance levels—unexpected full resistance during bridge drills can cause neck injuries from the combined forces of the bridge and the top player's weight. Avoid forcing the bridge when the opponent has fully secured arm control, as explosive movement with a trapped arm risks shoulder injury. Always tap immediately if caught in a submission during escape attempts rather than risking injury to complete the escape."
+    "safety_considerations": "The bridge from technical mount involves explosive spinal extension and rotation under load, creating risk for lower back strain if performed without adequate warm-up. Always warm up the lumbar spine, hip flexors, and neck with progressive mobility work before drilling. When training with partners, communicate clearly about resistance levels—unexpected full resistance during bridge drills can cause neck injuries from the combined forces of the bridge and the top player's weight. Avoid forcing the bridge when the opponent has fully secured arm control, as explosive movement with a trapped arm risks shoulder injury. Always tap immediately if caught in a submission during escape attempts rather than risking injury to complete the escape.",
+    "clips": [
+      {
+        "id": "Ye08X4xjiUk",
+        "title": "Upa bridge escape from mount",
+        "by": "Team Daruma Dojo",
+        "vertical": false,
+        "channel": "Team Daruma Dojo",
+        "duration": 38,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2uuP147GoBk",
+        "title": "Bridge and roll escape from bottom mount",
+        "by": "Academy Jiu Jitsu",
+        "vertical": false,
+        "channel": "Academy Jiu Jitsu",
+        "duration": 62,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Z4aWuVsRTBs",
+        "title": "Mount bridge escape in one minute",
+        "by": "Just a Minute Jiu-jitsu",
+        "vertical": false,
+        "channel": "Just a Minute Jiu-jitsu",
+        "duration": 66,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Bridge from Technical Mount Defender",
@@ -402,6 +431,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance decision-making",
         "description": "Full resistance rounds starting from technical mount. Top player must choose in real time between maintaining position, following to back control, or accelerating the armbar based on the bottom player's escape attempts. Track conversion rate and identify which responses produce the best positional outcomes."
+      }
+    ],
+    "clips": [
+      {
+        "id": "wQI7JTaVM58",
+        "title": "Keeping mount when they grab your hips",
+        "by": "Prodigy MMA",
+        "vertical": false,
+        "channel": "Prodigy MMA Australia",
+        "duration": 30,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "PcSYX5if2rE",
+        "title": "Mount maintenance drill against bridging",
+        "by": "SBG Australia",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 109,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "RTMJDbZnFO0",
+        "title": "Holding middle mount against the bridge",
+        "by": "SBG PDX",
+        "vertical": false,
+        "channel": "SBG PDX & Vancouver BJJ and MMA Videos",
+        "duration": 154,
+        "verified": "2026-07-15"
       }
     ]
   }

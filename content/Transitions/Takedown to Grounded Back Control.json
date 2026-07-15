@@ -295,7 +295,36 @@
         "answer": "Shift your hips to one side while keeping your chest glued to their back, creating an off-center alignment between your bodies. This lateral offset converts the mat return from a straight-back pull into an angular displacement that attacks the weaker diagonal line of their base. You can enhance the angle by stepping one foot to the outside of their corresponding foot, giving you a trip reference point and removing their ability to post on that side during the descent."
       }
     ],
-    "safety_considerations": "The Takedown to Grounded Back Control involves bringing both practitioners to the ground from a standing position, which carries inherent impact risks. Always practice on adequate matting and ensure the training area is clear of other practitioners and obstacles. Control the speed of descent during drilling to prevent slamming or forceful impacts. The bottom practitioner should learn proper breakfall technique to safely absorb the landing. In competition rulesets that prohibit slamming, ensure your mat return uses controlled descent rather than forceful throwing. Be cautious of knee and ankle injuries if legs become entangled during the descent. Neck compression can occur if the seatbelt grip shifts during the fall, so partners should communicate immediately if they feel cervical pressure. Beginners should drill at slow speed with cooperative partners before progressing to resistance training."
+    "safety_considerations": "The Takedown to Grounded Back Control involves bringing both practitioners to the ground from a standing position, which carries inherent impact risks. Always practice on adequate matting and ensure the training area is clear of other practitioners and obstacles. Control the speed of descent during drilling to prevent slamming or forceful impacts. The bottom practitioner should learn proper breakfall technique to safely absorb the landing. In competition rulesets that prohibit slamming, ensure your mat return uses controlled descent rather than forceful throwing. Be cautious of knee and ankle injuries if legs become entangled during the descent. Neck compression can occur if the seatbelt grip shifts during the fall, so partners should communicate immediately if they feel cervical pressure. Beginners should drill at slow speed with cooperative partners before progressing to resistance training.",
+    "clips": [
+      {
+        "id": "GKrJsIYmycM",
+        "title": "Mat Return Drill from rear body lock",
+        "by": "Nicky Rodriguez",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 84,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ClASMnMYeQk",
+        "title": "Mat return to strangle",
+        "by": "Paul Cale",
+        "vertical": false,
+        "channel": "Courage Training Centre",
+        "duration": 66,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2VCyaassiRI",
+        "title": "Leg Switch Cutback from Rear Bodylock",
+        "by": "Procel BJJ",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 52,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Takedown to Grounded Back Control Defender",
@@ -433,6 +462,17 @@
         "phase": "Week 7-8",
         "focus": "Live defense and escape integration",
         "description": "Full positional sparring starting from standing back control. Partner works mat returns at full speed while you defend with all available tools. Practice reading the attacker's chosen variation and selecting the appropriate defensive response in real time. Integrate full escape sequences from any landing position into guard recovery or neutral standing."
+      }
+    ],
+    "clips": [
+      {
+        "id": "_sBB-O8fqP4",
+        "title": "Standing up from rear body lock defense",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 114,
+        "verified": "2026-07-15"
       }
     ]
   },

@@ -283,7 +283,36 @@
         "answer": "High-level practitioners execute three things that beginners do not. First, they maintain continuous motion from frame creation through roll completion to guard establishment as one seamless action with no pauses between phases. Second, they have superior spatial awareness, constantly tracking the opponent throughout the roll and making real-time directional adjustments mid-rotation. Third, they immediately threaten sweeps or submissions within 1-2 seconds of establishing guard, converting the defensive recovery into offensive pressure before the opponent can stabilize a passing position. Beginners typically pause between steps, roll without tracking the opponent, and remain passive after establishing guard."
       }
     ],
-    "safety_considerations": "When practicing Rolling to Guard, controlled execution is paramount to prevent neck and spine injuries. Always tuck your chin firmly to your chest and ensure the roll occurs across the upper back and shoulders, never directly on the head or neck. Begin practice on soft surfaces and progress gradually to standard mats. Avoid explosive or uncontrolled rolling during initial learning phases, building speed only as mechanics become consistent. Be aware of training partners and mat boundaries during the dynamic movement - collisions during rolling are a significant injury source. Partners should provide progressive resistance and should never attempt to spike, compress, or drive the rolling player's head into the mat. Stop immediately if any neck discomfort, numbness, or tingling occurs. Practitioners with existing cervical spine issues, herniated discs, or shoulder injuries should consult medical professionals before practicing this technique."
+    "safety_considerations": "When practicing Rolling to Guard, controlled execution is paramount to prevent neck and spine injuries. Always tuck your chin firmly to your chest and ensure the roll occurs across the upper back and shoulders, never directly on the head or neck. Begin practice on soft surfaces and progress gradually to standard mats. Avoid explosive or uncontrolled rolling during initial learning phases, building speed only as mechanics become consistent. Be aware of training partners and mat boundaries during the dynamic movement - collisions during rolling are a significant injury source. Partners should provide progressive resistance and should never attempt to spike, compress, or drive the rolling player's head into the mat. Stop immediately if any neck discomfort, numbness, or tingling occurs. Practitioners with existing cervical spine issues, herniated discs, or shoulder injuries should consult medical professionals before practicing this technique.",
+    "clips": [
+      {
+        "id": "HQc48KjD-lE",
+        "title": "Rolling to guard from turtle",
+        "by": "TSOMMA",
+        "vertical": false,
+        "channel": "TSOMMA",
+        "duration": 52,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "PYk5Ei2IZBk",
+        "title": "Recovering guard from the turtle position",
+        "by": "Gracie Barra",
+        "vertical": false,
+        "channel": "Gracie Barra Online",
+        "duration": 53,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "W0TCGKRcniA",
+        "title": "Turtle escape with the shoulder roll",
+        "by": "BJJake",
+        "vertical": false,
+        "channel": "BJJake",
+        "duration": 21,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Rolling to Guard Defender",
@@ -409,6 +438,17 @@
         "phase": "Month 3+: Integration with Attack Sequences",
         "focus": "Chaining roll defense with offensive advancement from turtle top",
         "description": "Incorporate roll defense into your complete turtle top attack system. When you successfully deny the roll, immediately transition to your preferred attack (back take, front headlock, or crucifix entry). When you follow a roll to back control, immediately establish hooks and begin submission attacks. The goal is zero dead time between defensive success and offensive initiation."
+      }
+    ],
+    "clips": [
+      {
+        "id": "8YvYkGr5FIU",
+        "title": "Riding the turtle through to side control",
+        "by": "Rickson Gracie",
+        "vertical": false,
+        "channel": "Rickson Gracie Jiu-Jitsu Academy",
+        "duration": 47,
+        "verified": "2026-07-15"
       }
     ]
   },

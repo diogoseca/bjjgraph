@@ -285,7 +285,36 @@
         "answer": "If the gift wrap is denied, immediately re-secure the seatbelt and attack the rear naked choke, as the opponent's defensive effort against the gift wrap may have disrupted their neck protection. If the neck is still defended, attempt the gift wrap on the opposite arm, which may be less defended after the opponent focused on protecting the first arm. You can also transition to a crucifix entry if both arms become briefly exposed during the defensive scramble, or use the distraction to tighten your body triangle for improved positional control."
       }
     ],
-    "safety_considerations": "The Gift Wrap from Back involves pulling the opponent's arm across their body, which places stress on the shoulder joint, particularly the rotator cuff and anterior deltoid. Apply the arm threading and pulling motion progressively rather than jerking the arm into position. In training, communicate with partners about shoulder flexibility limitations before drilling. If a training partner indicates shoulder discomfort at any point, release the arm trap immediately and adjust the angle or tightness of the wrap. Avoid cranking the arm past the midline of the chest, as this can create a pain-compliance submission rather than a positional control. Monitor for signs of excessive shoulder rotation that could indicate impending injury."
+    "safety_considerations": "The Gift Wrap from Back involves pulling the opponent's arm across their body, which places stress on the shoulder joint, particularly the rotator cuff and anterior deltoid. Apply the arm threading and pulling motion progressively rather than jerking the arm into position. In training, communicate with partners about shoulder flexibility limitations before drilling. If a training partner indicates shoulder discomfort at any point, release the arm trap immediately and adjust the angle or tightness of the wrap. Avoid cranking the arm past the midline of the chest, as this can create a pain-compliance submission rather than a positional control. Monitor for signs of excessive shoulder rotation that could indicate impending injury.",
+    "clips": [
+      {
+        "id": "EOv5GYpUYDw",
+        "title": "Gift wrap back take",
+        "by": "BJJ Lab Zürich",
+        "vertical": false,
+        "channel": "BJJ Lab Zürich",
+        "duration": 69,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "-ypj83J2Ngk",
+        "title": "Sit back gift wrap to the back",
+        "by": "Watauga BJJ",
+        "vertical": false,
+        "channel": "Watauga BJJ",
+        "duration": 24,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "wSSzPizlYAo",
+        "title": "Mount to gift wrap to back control",
+        "by": "Fight Flow Academy",
+        "vertical": false,
+        "channel": "Fight Flow Academy",
+        "duration": 30,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Gift Wrap from Back Defender",
@@ -415,6 +444,26 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Full resistance defense from back control against gift wrap",
         "description": "Three-minute rounds starting from back control bottom. Partner actively works to establish the gift wrap using full technique. Defender uses all defensive tools—recognition, prevention, escape timing—under realistic conditions. Scoring: defender wins by preventing the gift wrap for the full round or escaping to half guard or better."
+      }
+    ],
+    "clips": [
+      {
+        "id": "B_kiu8SIRRc",
+        "title": "Back escape with the arm trapped",
+        "by": "Skyhook Martial Arts",
+        "vertical": false,
+        "channel": "Skyhook Martial Arts & Fitness",
+        "duration": 40,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "jv_nitah_-s",
+        "title": "Basic back control escape",
+        "by": "AMAZIN BJJ",
+        "vertical": false,
+        "channel": "AMAZIN BJJ",
+        "duration": 41,
+        "verified": "2026-07-15"
       }
     ]
   }

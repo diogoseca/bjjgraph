@@ -349,6 +349,35 @@
         "question": "What competition strategy maximizes finishing rate with the Electric Chair?",
         "answer": "In competition, establish the lockdown early and immediately work toward the Electric Chair position rather than attempting sweeps first. Once the position is secured, threaten the Old School sweep to force the opponent to commit their base defensively, then capitalize on their defensive posture to initiate the split. Apply steady progressive pressure and avoid resetting once the split begins. If the opponent successfully defends the submission, immediately transition to the Old School sweep while their attention remains focused on split defense."
       }
+    ],
+    "clips": [
+      {
+        "id": "sMbaY4vG2mM",
+        "title": "Electric Chair from Lockdown Half Guard",
+        "by": "Brandon Mccaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 42,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "I8HLek9eCbg",
+        "title": "Electric Chair",
+        "by": "bjjtaro",
+        "vertical": false,
+        "channel": "bjjtaro",
+        "duration": 25,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "X7JA72d-3vw",
+        "title": "Electric Chair Submission",
+        "by": "Dan M.",
+        "vertical": false,
+        "channel": "Dan M.",
+        "duration": 55,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -480,6 +509,17 @@
         "phase": "Phase 4: Counter-Attacks",
         "focus": "Transitioning from successful defense to offensive passing",
         "description": "After successfully defending or escaping the Electric Chair, immediately transition to guard passing or counter-attacks. Develop the ability to chain escape into guard pass completion. Practice against full resistance in positional sparring from the Electric Chair starting position."
+      }
+    ],
+    "clips": [
+      {
+        "id": "3A6oRsDf3oU",
+        "title": "Lockdown & Electric Chair Counters and Escapes",
+        "by": "Street Jitsu",
+        "vertical": false,
+        "channel": "Street Jitsu",
+        "duration": 286,
+        "verified": "2026-07-14"
       }
     ]
   }

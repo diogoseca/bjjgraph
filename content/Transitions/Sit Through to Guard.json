@@ -270,7 +270,36 @@
         "answer": "If the posting arm gives way during the movement, immediately abort the sit through and re-turtle by pulling your knees back underneath you and rounding your back. Do not try to force through with compromised structure, as this exposes your neck and back without the structural support needed to complete the movement safely. Once re-turtled, re-establish your four-point base, reset your defensive frames, and either re-attempt when conditions improve or chain into an alternative escape like the granby roll."
       }
     ],
-    "safety_considerations": "The sit through is a relatively low-risk escape technique when performed correctly. Primary injury concerns involve the shoulder of the posting arm if it collapses under load - ensure adequate shoulder strength and stability before drilling at speed. The rotation can strain lower back muscles if performed with excessive twisting force; keep the movement smooth and controlled. Watch for guillotine attempts during the rotation, as a locked guillotine during movement can cause neck injury. Train the chin-tucked position consistently. Beginners should master the movement pattern at slow speed before adding resistance or attempting in live rolling. If you feel your posting arm giving way during practice, abort the technique and re-turtle rather than forcing through with compromised structure."
+    "safety_considerations": "The sit through is a relatively low-risk escape technique when performed correctly. Primary injury concerns involve the shoulder of the posting arm if it collapses under load - ensure adequate shoulder strength and stability before drilling at speed. The rotation can strain lower back muscles if performed with excessive twisting force; keep the movement smooth and controlled. Watch for guillotine attempts during the rotation, as a locked guillotine during movement can cause neck injury. Train the chin-tucked position consistently. Beginners should master the movement pattern at slow speed before adding resistance or attempting in live rolling. If you feel your posting arm giving way during practice, abort the technique and re-turtle rather than forcing through with compromised structure.",
+    "clips": [
+      {
+        "id": "fjCdR_vOBoY",
+        "title": "Sit through to guard from bottom turtle",
+        "by": "Coach Brandon",
+        "vertical": false,
+        "channel": "St. Paul Brazilian Jiu Jitsu",
+        "duration": 94,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "c-k3lA-yVhU",
+        "title": "Pulling guard from the turtle position",
+        "by": "Team Daruma Dojo coach",
+        "vertical": false,
+        "channel": "Team Daruma Dojo",
+        "duration": 33,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "7biwctrcRck",
+        "title": "Turtle sit out escape",
+        "by": "Diaz Combat Sports coach",
+        "vertical": false,
+        "channel": "DCS - Diaz Combat Sports",
+        "duration": 48,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Sit Through to Guard Defender",
@@ -401,6 +430,26 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Full-speed positional rounds starting from turtle top. Bottom player uses all turtle escapes including sit through, granby roll, and standup. Focus on reading which escape is coming and applying the correct defensive response in real time. Track prevention success rate and identify which escape combinations give you the most trouble."
+      }
+    ],
+    "clips": [
+      {
+        "id": "cs87MxpXdB4",
+        "title": "Riding the turtle and preventing guard recovery",
+        "by": "Rituals Jiu Jitsu coach",
+        "vertical": false,
+        "channel": "Rituals Jiu Jitsu",
+        "duration": 127,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8YvYkGr5FIU",
+        "title": "Turtle to side control: cutting off the sit through",
+        "by": "Rickson Gracie academy coach",
+        "vertical": false,
+        "channel": "Rickson Gracie Jiu-Jitsu Academy",
+        "duration": 47,
+        "verified": "2026-07-15"
       }
     ]
   },

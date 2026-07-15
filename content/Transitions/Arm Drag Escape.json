@@ -287,7 +287,36 @@
         "answer": "The arm drag pulls the opponent's choking arm laterally across your centerline toward your far hip, while your head circles in the same lateral direction but underneath the arm. Both movements go toward the same side—the drag-side. Your head passes under and through the gap created by the arm being redirected. This same-direction movement is counterintuitive because many escapes involve moving opposite to the force direction, but the arm drag works by clearing the barrier (their arm) and escaping through the opened space simultaneously."
       }
     ],
-    "safety_considerations": "The arm drag escape from front headlock is generally low-risk compared to other front headlock escapes, but practitioners should be aware of several safety concerns. The primary risk is exposing your neck during the transition—if the arm drag fails halfway through, your head may be in a compromised position vulnerable to guillotine or anaconda attacks. Always maintain a tight chin tuck throughout the entire escape. During drilling, communicate with your partner about the speed of the drag to prevent wrist or shoulder strain from sudden jerking movements. Avoid forcing the technique against a fully locked guillotine grip, as this can tighten the choke dangerously. If you feel any choking pressure increase during the escape attempt, immediately abandon the arm drag and prioritize neck defense. Partners applying front headlock during drilling should avoid cranking the neck and should release immediately when tapped."
+    "safety_considerations": "The arm drag escape from front headlock is generally low-risk compared to other front headlock escapes, but practitioners should be aware of several safety concerns. The primary risk is exposing your neck during the transition—if the arm drag fails halfway through, your head may be in a compromised position vulnerable to guillotine or anaconda attacks. Always maintain a tight chin tuck throughout the entire escape. During drilling, communicate with your partner about the speed of the drag to prevent wrist or shoulder strain from sudden jerking movements. Avoid forcing the technique against a fully locked guillotine grip, as this can tighten the choke dangerously. If you feel any choking pressure increase during the escape attempt, immediately abandon the arm drag and prioritize neck defense. Partners applying front headlock during drilling should avoid cranking the neck and should release immediately when tapped.",
+    "clips": [
+      {
+        "id": "muHh8bDzdSw",
+        "title": "Front Headlock Arm Drag Escape",
+        "by": "BJ Futrell",
+        "vertical": false,
+        "channel": "FCA Wrestling",
+        "duration": 77,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ZCTAYYZMVUo",
+        "title": "Escaping the Front Headlock",
+        "by": "Satori BJJ",
+        "vertical": false,
+        "channel": "Satori BJJ",
+        "duration": 36,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "BGSH5P5Mv9o",
+        "title": "Quick Method to Escape the Front Headlock",
+        "by": "Grapplezilla",
+        "vertical": false,
+        "channel": "Grapplezilla",
+        "duration": 113,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Arm Drag Escape Defender",
@@ -412,6 +441,26 @@
         "phase": "Week 7+",
         "focus": "Positional sparring and live application",
         "description": "Full resistance positional sparring starting from front headlock. Your goal is to either maintain control, submit, or advance to back control within 30 seconds. Bottom player uses full escape toolkit including arm drag. Track which defensive responses work best against specific partners and refine your counter-selection. Integrate into live rolling whenever you achieve front headlock."
+      }
+    ],
+    "clips": [
+      {
+        "id": "c8N4F3EgOZk",
+        "title": "Sucker Drag Defense Against the Front Headlock",
+        "by": "Procel BJJ",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 71,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "YL7t8YMfLmc",
+        "title": "Short Drag Defence from Front Headlock",
+        "by": "Bermuda Martial Arts",
+        "vertical": false,
+        "channel": "Bermuda Martial Arts",
+        "duration": 131,
+        "verified": "2026-07-15"
       }
     ]
   },

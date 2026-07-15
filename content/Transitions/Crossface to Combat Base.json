@@ -300,7 +300,36 @@
         "answer": "Choose this transition when opponent is defending well against direct passes but you have solid crossface control, when you want to assess their defensive positioning before committing to a specific pass, when opponent has strong guard recovery and you need a stable platform to prevent reguard, or when you want to create passing chains with multiple options rather than betting on a single technique."
       }
     ],
-    "safety_considerations": "Practice the crossface pressure progressively, allowing your training partner to adjust to the sensation and tap if the pressure becomes uncomfortable or dangerous. The crossface creates significant pressure on the neck and jaw that can cause injury if applied suddenly or excessively. Partners should communicate clearly if experiencing sharp neck pain, difficulty breathing, or jaw discomfort. When extracting the trapped leg, avoid explosive pulling motions that could hyperextend your partner's knee if they maintain their grip. The circular extraction motion should be controlled and deliberate rather than violent. Ensure adequate mat space as the transition involves significant weight shifting. Partners with existing neck injuries, jaw problems, or knee issues should consult instructors before practicing this technique. Build pressure intensity gradually over multiple training sessions rather than applying maximum force immediately."
+    "safety_considerations": "Practice the crossface pressure progressively, allowing your training partner to adjust to the sensation and tap if the pressure becomes uncomfortable or dangerous. The crossface creates significant pressure on the neck and jaw that can cause injury if applied suddenly or excessively. Partners should communicate clearly if experiencing sharp neck pain, difficulty breathing, or jaw discomfort. When extracting the trapped leg, avoid explosive pulling motions that could hyperextend your partner's knee if they maintain their grip. The circular extraction motion should be controlled and deliberate rather than violent. Ensure adequate mat space as the transition involves significant weight shifting. Partners with existing neck injuries, jaw problems, or knee issues should consult instructors before practicing this technique. Build pressure intensity gradually over multiple training sessions rather than applying maximum force immediately.",
+    "clips": [
+      {
+        "id": "gHD03vpWGSM",
+        "title": "Building an extremely tight crossface",
+        "by": "Escapology BJJ",
+        "vertical": false,
+        "channel": "Escapology BJJ",
+        "duration": 119,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "07SF02_2dbw",
+        "title": "Passing half guard with the crossface",
+        "by": "Behring Jiu Jitsu",
+        "vertical": false,
+        "channel": "BASE Behring Jiu Jitsu",
+        "duration": 100,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "BjeDX3WupdA",
+        "title": "Shoulder pressure from top control",
+        "by": "Roy Dean",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 39,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Crossface to Combat Base Defender",
@@ -430,6 +459,17 @@
         "phase": "Week 7+",
         "focus": "Live defensive application and counter-offense",
         "description": "Full resistance positional sparring starting from half guard bottom against partner working the crossface to combat base transition. Integrate all defensive layers: underhook fighting, frame creation, angle maintenance, leg retention, and lockdown. Begin developing counter-offensive sequences including sweeps off failed extraction attempts and back takes when opponent overcommits to the crossface."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Ge4PxqkgVN4",
+        "title": "Sweeping the combat base from bottom",
+        "by": "Sticks and Stones BJJ",
+        "vertical": false,
+        "channel": "Sticks and Stones BJJ",
+        "duration": 205,
+        "verified": "2026-07-15"
       }
     ]
   },

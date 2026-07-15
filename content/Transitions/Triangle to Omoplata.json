@@ -291,7 +291,27 @@
         "answer": "The attacking leg (previously behind the opponent's head) must complete a full arc over their back, landing with the shin crossing their shoulder blades at the scapula level—not lower on the mid-back where control diminishes. The bottom leg simultaneously drives into the opponent's hip on the far side, serving two functions: generating rotational momentum for the swing and preventing the opponent from backing away. The knee of the swinging leg should point toward the mat to create downward pressure, and the heel should hook toward their far armpit to secure the position."
       }
     ],
-    "safety_considerations": "The triangle to omoplata transition involves two distinct joint and blood flow threats that require careful management during training. The triangle phase can restrict blood flow to the brain and cause unconsciousness without warning—partners should communicate immediately if they feel lightheaded. The omoplata phase attacks the shoulder joint, which is particularly vulnerable to injury from sudden rotational force. During training, both partners must maintain clear communication about pressure levels and tap immediately when shoulder discomfort occurs. The practitioner applying the technique should increase pressure gradually and release immediately upon feeling a tap. Beginners should focus exclusively on positioning and control rather than finishing pressure until the complete transition mechanics are thoroughly understood. Explosive movements during the leg swing phase can inadvertently apply sudden force to the shoulder—emphasize smooth, controlled transitions rather than speed. Partners should agree on resistance levels appropriate for their skill level and injury history before beginning each round."
+    "safety_considerations": "The triangle to omoplata transition involves two distinct joint and blood flow threats that require careful management during training. The triangle phase can restrict blood flow to the brain and cause unconsciousness without warning—partners should communicate immediately if they feel lightheaded. The omoplata phase attacks the shoulder joint, which is particularly vulnerable to injury from sudden rotational force. During training, both partners must maintain clear communication about pressure levels and tap immediately when shoulder discomfort occurs. The practitioner applying the technique should increase pressure gradually and release immediately upon feeling a tap. Beginners should focus exclusively on positioning and control rather than finishing pressure until the complete transition mechanics are thoroughly understood. Explosive movements during the leg swing phase can inadvertently apply sudden force to the shoulder—emphasize smooth, controlled transitions rather than speed. Partners should agree on resistance levels appropriate for their skill level and injury history before beginning each round.",
+    "clips": [
+      {
+        "id": "OGq21nmoG1g",
+        "title": "Chaining Together Triangle and Omoplata",
+        "by": "Mikey Musumeci",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 127,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ELRgwbUyZ1U",
+        "title": "Finishing the Triangle or Switching to Omoplata",
+        "by": "Inverted Gear",
+        "vertical": false,
+        "channel": "Inverted Gear",
+        "duration": 155,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Triangle to Omoplata Defender",
@@ -417,6 +437,35 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Full resistance defense starting from triangle control with attacker free to transition",
         "description": "Positional sparring starting from triangle control. Attacker works to finish the triangle or transition to omoplata based on your defense. You practice the complete defensive sequence: triangle defense that does not feed the omoplata, recognition of the transition, exploitation of the transition window, and consolidated omoplata defense if needed. 5-minute rounds with full resistance."
+      }
+    ],
+    "clips": [
+      {
+        "id": "_2dhd21ffbc",
+        "title": "Omoplata Escape: Jump Over",
+        "by": "Ritchie Yip",
+        "vertical": false,
+        "channel": "Ritchie Yip",
+        "duration": 8,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "HszTUEYJ-xE",
+        "title": "Quick Omoplata Escape",
+        "by": "Adam Bradley",
+        "vertical": false,
+        "channel": "Adam Bradley",
+        "duration": 36,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "0-SG9igq40E",
+        "title": "Omoplata Escape to Front Headlock",
+        "by": "Asaf Mich",
+        "vertical": false,
+        "channel": "Asaf Mich",
+        "duration": 14,
+        "verified": "2026-07-15"
       }
     ]
   },

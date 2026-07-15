@@ -301,7 +301,36 @@
         "answer": "The failure occurred in the follow-through phase. After the initial snap, you must immediately chase the opponent's descent with your chest and hips, establishing heavy downward pressure on their upper back before they can rebuild their base. The correction is to drive your body weight forward and down as the snap occurs, getting your chest over their shoulders within the same beat as the pull. If there is a gap between the snap and the chest pressure, the opponent has a window to recover. Think of it as one continuous motion: pull, drive, settle."
       }
     ],
-    "safety_considerations": "When practicing snap downs, both partners must maintain awareness of the training surface and surrounding space to prevent head or neck contact with the mat or other obstacles. The executing partner should control the speed and force of the snap, particularly during initial learning phases, to prevent neck strain or injury to training partners. Never release control abruptly - maintain connection throughout the descent to ensure partner can safely post or protect themselves. Partners should communicate about resistance levels, especially when learning, and tap immediately if experiencing neck discomfort or inability to support their weight. In competition contexts, be aware that overly aggressive snap downs can be penalized in some rule sets if they endanger opponent's neck or spine. Beginners should practice on padded surfaces and build neck strength through progressive resistance before training this technique at full intensity."
+    "safety_considerations": "When practicing snap downs, both partners must maintain awareness of the training surface and surrounding space to prevent head or neck contact with the mat or other obstacles. The executing partner should control the speed and force of the snap, particularly during initial learning phases, to prevent neck strain or injury to training partners. Never release control abruptly - maintain connection throughout the descent to ensure partner can safely post or protect themselves. Partners should communicate about resistance levels, especially when learning, and tap immediately if experiencing neck discomfort or inability to support their weight. In competition contexts, be aware that overly aggressive snap downs can be penalized in some rule sets if they endanger opponent's neck or spine. Beginners should practice on padded surfaces and build neck strength through progressive resistance before training this technique at full intensity.",
+    "clips": [
+      {
+        "id": "O0Wz6fbOV1I",
+        "title": "Basic snap-down to front headlock",
+        "by": "WrestlingTournaments.com coach",
+        "vertical": false,
+        "channel": "WrestlingTournaments․com",
+        "duration": 32,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "6MG6bloYM0k",
+        "title": "Snap down to front headlock",
+        "by": "Training Grounds coach",
+        "vertical": false,
+        "channel": "Training Grounds",
+        "duration": 36,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "CnaxvdhToyM",
+        "title": "How to do a snap down",
+        "by": "Grapple Hub coach",
+        "vertical": false,
+        "channel": "Grapple hub ",
+        "duration": 60,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Snap Down to Front Headlock Defender",
@@ -432,6 +461,35 @@
         "phase": "Weeks 11+: Full Resistance Situational Sparring",
         "focus": "Live application against full-speed snap down attacks",
         "description": "Full resistance clinch sparring where partner actively hunts for snap downs as their primary weapon. Defend, escape, and counter in live conditions. Evaluate success rate of prevention versus post-snap escapes. Identify personal defensive tendencies and address weaknesses. Track which defensive options work best against different training partners."
+      }
+    ],
+    "clips": [
+      {
+        "id": "t4xBYQ1VauU",
+        "title": "Front headlock sit-out reversal",
+        "by": "Keith (Takada Dojo)",
+        "vertical": false,
+        "channel": "takadadojokeith",
+        "duration": 28,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "d312j3n9fIw",
+        "title": "Sit-out defence with head on back",
+        "by": "Mjolnir Fight Club coach",
+        "vertical": false,
+        "channel": "Mjølnir Fight Club",
+        "duration": 30,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "XPWHqs67tt8",
+        "title": "Front turtle escape",
+        "by": "Michael Daye",
+        "vertical": false,
+        "channel": "Michael Daye Landscaping and BJJ",
+        "duration": 60,
+        "verified": "2026-07-15"
       }
     ]
   },

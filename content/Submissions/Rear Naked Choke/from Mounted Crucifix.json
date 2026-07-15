@@ -347,6 +347,35 @@
         "answer": "In competition, capitalize on the opponent's urgency to escape by timing the choke entry during their explosive escape attempts, when their neck is most exposed from movement. Apply the choke with deliberate speed - fast enough to secure before the opponent can establish a defensive structure, but controlled enough to achieve proper placement on the carotid arteries. If chin tuck prevents entry, use over-chin jaw pressure to force a response. Chain the choke threat with armbar attempts to create dilemmas - opponents defending the neck expose arms, and those protecting arms expose the neck.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "pyZ65EYfirU",
+        "title": "Crucifix Smother to Rear Choke",
+        "by": "Josh Leduc",
+        "vertical": false,
+        "channel": "Josh Star-Lord Leduc",
+        "duration": 67,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "amVyOvT2yJs",
+        "title": "Rear Naked Choke from Crucifix Position",
+        "by": "Mat Life Training Center",
+        "vertical": false,
+        "channel": "Mat Life Training Center",
+        "duration": 14,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "3t6j9HT6Mr8",
+        "title": "Crucifix to Rear Naked Choke",
+        "by": "Greg Ferguson",
+        "vertical": false,
+        "channel": "Greg Ferguson",
+        "duration": 43,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -484,6 +513,17 @@
         "phase": "Phase 4 - Full Resistance Positional Sparring",
         "focus": "Applying defensive skills against fully resisting attacker from mounted crucifix",
         "description": "Start in mounted crucifix with partner attacking RNC at full intensity. Defender applies all learned defensive skills under pressure. Develop the composure and timing needed to survive and escape when all techniques are being applied against active resistance. Track escape success rate to measure improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "0FP7BLHdArw",
+        "title": "D'arce escape from the crucifix",
+        "by": "Breylor \"JR\" Grout",
+        "vertical": false,
+        "channel": "Gold BJJ",
+        "duration": 84,
+        "verified": "2026-07-15"
       }
     ]
   }

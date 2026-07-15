@@ -277,7 +277,18 @@
         "answer": "Force should be directed forward and downward, driving your hips across and onto the bottom player's torso. The common mistake is to direct force upward (standing tall to step over) or laterally (stepping around). Forward-and-down force serves two purposes: it loads your weight onto the bottom player's midsection which prevents re-inversion, and it creates the continuous motion needed to land in mount without pausing. Think of driving through the bottom player rather than stepping over them."
       }
     ],
-    "safety_considerations": "The Step Over to Mount involves rapid weight transfer onto the bottom player's torso, which can cause rib compression or breathing difficulty if performed with excessive force during training. The bottom player's inverted position makes their neck vulnerable if the top player's weight drives their shoulders into the mat at an awkward angle. During drilling, the top player should control their descent speed and not slam into mount. The bottom player should tap or signal if they feel neck compression during the transition. When the bottom player attempts to catch legs for entanglements mid-step, both players should avoid explosive movements that could hyperextend the knee of the stepping leg. In live rolling, be aware that the step-over motion places your knee near the bottom player's face - control your movement to avoid accidental strikes."
+    "safety_considerations": "The Step Over to Mount involves rapid weight transfer onto the bottom player's torso, which can cause rib compression or breathing difficulty if performed with excessive force during training. The bottom player's inverted position makes their neck vulnerable if the top player's weight drives their shoulders into the mat at an awkward angle. During drilling, the top player should control their descent speed and not slam into mount. The bottom player should tap or signal if they feel neck compression during the transition. When the bottom player attempts to catch legs for entanglements mid-step, both players should avoid explosive movements that could hyperextend the knee of the stepping leg. In live rolling, be aware that the step-over motion places your knee near the bottom player's face - control your movement to avoid accidental strikes.",
+    "clips": [
+      {
+        "id": "CkX_FzPFw8M",
+        "title": "Passing off the defensive roll",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 111,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Step Over to Mount Defender",
@@ -417,6 +428,17 @@
         "phase": "Week 7-8",
         "focus": "Live positional sparring with full passing system",
         "description": "Partner uses the full three-option passing system of step over, back step, and leg drag against your grasshopper guard at full resistance. You must read which pass is being attempted and select the appropriate defense in real time. Track success rates for each defensive option and identify which pass consistently beats your guard. Extend rounds to include mount escape sequences when the step over succeeds to build the complete defensive chain."
+      }
+    ],
+    "clips": [
+      {
+        "id": "cyegyon5hVg",
+        "title": "Two mount escape options to half guard",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 54,
+        "verified": "2026-07-15"
       }
     ]
   },

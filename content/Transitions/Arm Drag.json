@@ -300,7 +300,36 @@
         "answer": "The distinguishing factor is whether chest-to-back contact is established before the opponent rotates to re-face you. A successful drag results in your sternum pressed between their shoulder blades with your hips driving forward before they can turn. A partial drag moves you to their side but without chest-to-back pressure, allowing them to continue rotating until they face you again. The fix is ensuring the step-behind and chest drive happen simultaneously with the pull, not sequentially. If the pull finishes and you are still at their side rather than behind them, the drag has failed and you should transition to a different attack."
       }
     ],
-    "safety_considerations": "The arm drag is generally a safe technique with low injury risk when executed properly. Primary safety concerns involve preventing guillotine exposure by maintaining proper head position below opponent's shoulder line throughout execution. When drilling, start with slow, controlled repetitions to develop coordinated muscle memory before increasing speed and resistance. Partners should communicate clearly when practicing, especially during the transition to back control where hooks can accidentally strike the groin or inner thigh. In gi training, be mindful of finger injuries when establishing grips and avoid hooking individual fingers inside sleeves. During competition or intense training, avoid over-committing to failed arm drags as this can expose you to front headlock counters or leave you off-balance. When practicing the snap-down-to-arm-drag combination, be cautious with neck pressure during the snap down phase and ensure your partner is prepared for the directional change."
+    "safety_considerations": "The arm drag is generally a safe technique with low injury risk when executed properly. Primary safety concerns involve preventing guillotine exposure by maintaining proper head position below opponent's shoulder line throughout execution. When drilling, start with slow, controlled repetitions to develop coordinated muscle memory before increasing speed and resistance. Partners should communicate clearly when practicing, especially during the transition to back control where hooks can accidentally strike the groin or inner thigh. In gi training, be mindful of finger injuries when establishing grips and avoid hooking individual fingers inside sleeves. During competition or intense training, avoid over-committing to failed arm drags as this can expose you to front headlock counters or leave you off-balance. When practicing the snap-down-to-arm-drag combination, be cautious with neck pressure during the snap down phase and ensure your partner is prepared for the directional change.",
+    "clips": [
+      {
+        "id": "Kp3ABmsn1I0",
+        "title": "Marcelo Garcia arm drag takedown",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "Baltimore Martial Arts",
+        "duration": 55,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MFed9IE8afA",
+        "title": "Reverse arm drag from butterfly to back take",
+        "by": "Jerry Musquiz",
+        "vertical": false,
+        "channel": "Jerry Musquiz",
+        "duration": 42,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "xnjQbv6y1yo",
+        "title": "Breakdown of Marcelo Garcia's arm drag",
+        "by": "Riccardo Ammendolia",
+        "vertical": false,
+        "channel": "Riccardo Ammendolia",
+        "duration": 60,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Arm Drag Defender",
@@ -437,6 +466,35 @@
         "phase": "Week 11+: Integration and Counter-Attacking",
         "focus": "Converting arm drag defense into counter-offensive opportunities during full sparring",
         "description": "During regular sparring, practice not just defending the arm drag but converting the defense into your own attacks. After whizzering, immediately look for inside trips or snapdowns. After sprawling, transition to front headlock entries. After counter-turning, pummel to underhooks and initiate your own offense. The goal is to make the arm drag a liability for the attacker rather than a neutral exchange."
+      }
+    ],
+    "clips": [
+      {
+        "id": "JAik-k-lKWY",
+        "title": "Arm drag counter with BJJ application",
+        "by": "Joe Scioli",
+        "vertical": false,
+        "channel": "Joe Scioli",
+        "duration": 31,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "bmCjXADzgo4",
+        "title": "How to defend the arm drag",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "T3ChZk__H9c",
+        "title": "Standing arm drag counter",
+        "by": "Gracie Barra HQ",
+        "vertical": false,
+        "channel": "Gracie Barra HQ - California",
+        "duration": 141,
+        "verified": "2026-07-15"
       }
     ]
   },

@@ -257,7 +257,27 @@
         "answer": "Standing extraction uses explosive upward movement to break the entire control structure simultaneously rather than incrementally escaping the overhook while staying engaged on the ground. Standing creates distance that compromises both overhook and leg control. It requires excellent timing to prevent being pulled back down, but bypasses the need for precise spiral mechanics when ground extraction repeatedly fails."
       }
     ],
-    "safety_considerations": "Overhook Escape presents moderate injury risk primarily to the shoulder of the trapped arm. Forcing extraction against a deeply consolidated overhook can strain the shoulder joint, particularly the anterior deltoid and rotator cuff. Never attempt explosive extraction when opponent has maximum grip depth - the sudden release can cause hyperextension. During drilling, communicate with your partner about grip pressure and tap immediately if you feel shoulder strain during the spiral motion. Practitioners with prior shoulder injuries should use extra caution and consider the standing extraction variant which places less rotational stress on the joint. Ensure adequate warm-up focusing on shoulder mobility before drilling this technique. The neck is also at risk if opponent successfully transitions to triangle during failed extraction - always maintain chin tuck throughout the sequence."
+    "safety_considerations": "Overhook Escape presents moderate injury risk primarily to the shoulder of the trapped arm. Forcing extraction against a deeply consolidated overhook can strain the shoulder joint, particularly the anterior deltoid and rotator cuff. Never attempt explosive extraction when opponent has maximum grip depth - the sudden release can cause hyperextension. During drilling, communicate with your partner about grip pressure and tap immediately if you feel shoulder strain during the spiral motion. Practitioners with prior shoulder injuries should use extra caution and consider the standing extraction variant which places less rotational stress on the joint. Ensure adequate warm-up focusing on shoulder mobility before drilling this technique. The neck is also at risk if opponent successfully transitions to triangle during failed extraction - always maintain chin tuck throughout the sequence.",
+    "clips": [
+      {
+        "id": "XVxTzuJ1F60",
+        "title": "Overhook from Closed Guard to Rolling Armbar",
+        "by": "BOWERHOUSE MMA",
+        "vertical": false,
+        "channel": "BOWERHOUSE MMA",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "AvivOVuYcCk",
+        "title": "Simple rubber guard escape",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 131,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Overhook Escape Defender",
@@ -382,6 +402,26 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Full resistance positional sparring from New York Control. Bottom player works to maintain control and finish submissions while top player works to extract and escape. Develop real-time pattern recognition and counter-selection under competitive pressure with varied timing and intensity."
+      }
+    ],
+    "clips": [
+      {
+        "id": "5fp5Nh_9jE4",
+        "title": "Over/Under Control from Rubber Guard",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Submissions101",
+        "duration": 216,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "h1XzZDsUxHQ",
+        "title": "Eddie Bravo explains Rubber Guard control",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "JAN FERNANDEZ ",
+        "duration": 111,
+        "verified": "2026-07-15"
       }
     ]
   },

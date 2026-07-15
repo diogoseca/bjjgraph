@@ -287,7 +287,27 @@
         "answer": "A tripod base with your posted foot perpendicular to the opponent's body, positioned wide and slightly behind your center of gravity. When the bridge comes, absorb it by lowering your center of gravity rather than bracing against it rigidly. Your base foot should be flat on the mat with the knee bent at approximately 90 degrees, allowing you to ride the upward force and return to position as the bridge subsides. Avoid crossing your legs or keeping a narrow base, as either configuration collapses under explosive upward force."
       }
     ],
-    "safety_considerations": "Kneebar attacks target the knee joint through hyperextension, which can cause serious ligament damage including ACL and PCL tears if applied without control. During maintenance drilling, apply position control without finishing extension pressure. When cycling submission pressure bursts, use controlled, gradual force and immediately release if your partner signals discomfort. Both practitioners should have a clear understanding of tap protocols before any leg lock training. Never apply sudden jerking extension during maintenance adjustments. In competition, be prepared to release immediately upon tap, verbal submission, or referee stoppage."
+    "safety_considerations": "Kneebar attacks target the knee joint through hyperextension, which can cause serious ligament damage including ACL and PCL tears if applied without control. During maintenance drilling, apply position control without finishing extension pressure. When cycling submission pressure bursts, use controlled, gradual force and immediately release if your partner signals discomfort. Both practitioners should have a clear understanding of tap protocols before any leg lock training. Never apply sudden jerking extension during maintenance adjustments. In competition, be prepared to release immediately upon tap, verbal submission, or referee stoppage.",
+    "clips": [
+      {
+        "id": "vMqDIi10z4k",
+        "title": "Dog Bar Kneebar Control",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "v4lhLkKgVvU",
+        "title": "Go Behind Kneebar",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 129,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Kneebar Control Maintenance Defender",
@@ -408,6 +428,35 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Full resistance escape under realistic conditions",
         "description": "Start in bottom kneebar control against fully resisting partner. Defender wins by escaping to any guard or neutral position. Attacker wins by maintaining control for 60 seconds or finishing. Develops authentic escape timing, energy management, and the critical commitment decision under pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "wBRG0fY94fs",
+        "title": "How to Defend a Kneebar and Prevent a Backstep Pass",
+        "by": "Andrew Smith",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 59,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "NuWBh3LN-SY",
+        "title": "Knee Bar Defense to Back Take",
+        "by": "Bicudo BJJ",
+        "vertical": false,
+        "channel": "Bicudo BJJ",
+        "duration": 22,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "EUM4FxTRW_4",
+        "title": "Kneebar Knee Shield Entry and Prevention",
+        "by": "ZeGrapplez",
+        "vertical": false,
+        "channel": "ZeGrapplez",
+        "duration": 92,
+        "verified": "2026-07-15"
       }
     ]
   }

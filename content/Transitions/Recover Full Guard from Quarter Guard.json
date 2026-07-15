@@ -289,7 +289,18 @@
         "answer": "Abandon recovery in favor of offense when you have a deep underhook and your opponent posts their hand for base, creating sweep and back take opportunities. Also switch to offense when the opponent lifts their hips high during a passing attempt, creating space underneath for old school sweep or electric chair entries. Recovery should be the default when you lack the underhook, when you are being flattened, or when offensive attempts have already failed and position continues deteriorating. The decision point is underhook quality—deep underhook with angle means attack, compromised underhook or flat position means recover."
       }
     ],
-    "safety_considerations": "Guard recovery from quarter guard is generally low-risk for injury, but practitioners should be cautious about explosive hip escape movements that can strain the lower back or hip flexors if performed without proper warm-up. Avoid using excessive muscular effort to force recovery when the timing window has closed, as this can lead to neck strain from fighting against crossface pressure or knee injuries from forcing leg insertion through tight spaces. If the opponent has established deep crossface control, do not bridge explosively against their head pressure as this can compress cervical vertebrae. Practice the technique at moderate intensity before adding full resistance, and tap if any joint compression or neck pressure becomes uncomfortable during drilling."
+    "safety_considerations": "Guard recovery from quarter guard is generally low-risk for injury, but practitioners should be cautious about explosive hip escape movements that can strain the lower back or hip flexors if performed without proper warm-up. Avoid using excessive muscular effort to force recovery when the timing window has closed, as this can lead to neck strain from fighting against crossface pressure or knee injuries from forcing leg insertion through tight spaces. If the opponent has established deep crossface control, do not bridge explosively against their head pressure as this can compress cervical vertebrae. Practice the technique at moderate intensity before adding full resistance, and tap if any joint compression or neck pressure becomes uncomfortable during drilling.",
+    "clips": [
+      {
+        "id": "S8qzvGaBp74",
+        "title": "Quarter guard fundamentals",
+        "by": "RGA South Herts",
+        "vertical": false,
+        "channel": "RGA South Herts",
+        "duration": 66,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Recover Full Guard from Quarter Guard Defender",
@@ -401,6 +412,17 @@
         "phase": "Phase 3: Pass Completion Integration",
         "focus": "Converting recovery prevention directly into pass completion under realistic conditions",
         "description": "Full positional sparring from quarter guard where your goal is to complete the pass within fifteen seconds while partner attempts recovery. Focus on maintaining constant pressure advancement rather than settling in quarter guard. Develop the ability to read and immediately capitalize on recovery attempts as passing opportunities rather than simply blocking them."
+      }
+    ],
+    "clips": [
+      {
+        "id": "8lAqEhHz8ao",
+        "title": "Quarter guard escape and pass",
+        "by": "Marcus Almeida",
+        "vertical": false,
+        "channel": "grpplng",
+        "duration": 37,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -288,7 +288,36 @@
         "answer": "Maintain elbow and knee frames on the turning side to block the opponent's leg from crossing over your body. As you hip escape, keep your near-side elbow tight to your hip creating a physical barrier against mount. If you feel their weight shifting over your hips, immediately frame with your forearm against their thigh and hip escape in the opposite direction to prevent mount establishment."
       }
     ],
-    "safety_considerations": "During the turtle escape, avoid explosive bridging or turning movements that could strain the neck or spine under the opponent's body weight. The seatbelt grip across the chest can compress the ribcage during escape attempts, so communicate immediately if experiencing breathing difficulty. When drilling, the back controller should release hooks progressively to allow safe technique development. In live training, never attempt to stand up explosively with an opponent fully attached to your back, as uncontrolled falls can cause head and neck injuries to both practitioners."
+    "safety_considerations": "During the turtle escape, avoid explosive bridging or turning movements that could strain the neck or spine under the opponent's body weight. The seatbelt grip across the chest can compress the ribcage during escape attempts, so communicate immediately if experiencing breathing difficulty. When drilling, the back controller should release hooks progressively to allow safe technique development. In live training, never attempt to stand up explosively with an opponent fully attached to your back, as uncontrolled falls can cause head and neck injuries to both practitioners.",
+    "clips": [
+      {
+        "id": "dHanNAj6B80",
+        "title": "Turtle escape from back control",
+        "by": "Adnan Sadiq",
+        "vertical": false,
+        "channel": "Adnan Sadiq",
+        "duration": 38,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "waVFl1Ip6VU",
+        "title": "Back escape to turtle by shrugging",
+        "by": "Andy Tong",
+        "vertical": false,
+        "channel": "Andy Tong",
+        "duration": 33,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "wwa4llL0E1s",
+        "title": "Escaping back control with both hooks in",
+        "by": "Dinu Bucalet",
+        "vertical": false,
+        "channel": "Dinu Bucalet BJJ",
+        "duration": 159,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Turtle from Back Control Defender",
@@ -413,6 +442,17 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance back control retention and counter integration",
         "description": "Full resistance positional sparring starting from back control. Maintain position or improve to mount while opponent works full escape sequences. Integrate all defensive tools: hook retention, submission attacks during hand transitions, mount transitions, and body triangle switches. Evaluate success rate of retention versus escapes allowed."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Rlk4mGg7vW4",
+        "title": "Maintaining back control with hooks",
+        "by": "Gracie Charlottesville",
+        "vertical": false,
+        "channel": "Gracie Charlottesville",
+        "duration": 84,
+        "verified": "2026-07-15"
       }
     ]
   }

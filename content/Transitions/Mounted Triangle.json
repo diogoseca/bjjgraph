@@ -265,7 +265,27 @@
         "answer": "The optimal moment is when the opponent reaches up to defend an upper body attack like a collar choke or americana. Their defensive frame naturally creates the head-and-arm isolation needed. Also excellent timing includes when they turn their head away creating neck exposure, or immediately after defending an armbar attempt when their arm is still extended and their focus is on arm defense."
       }
     ],
-    "safety_considerations": "The Mounted Triangle applies significant pressure to the carotid arteries causing rapid unconsciousness if held after a tap—release immediately upon tap signal. Partners should tap early when caught and the choking practitioner must respect all tap signals instantly. During training, apply the choke gradually to allow defensive responses and learning rather than cranking suddenly. Be aware that the trapped arm can be injured if the opponent panics and tries to violently extract it while the triangle is locked—control the arm carefully and release if partner shows distress beyond normal submission defense. Avoid practicing on partners with neck injuries or blood pressure issues. When drilling entries, be cautious of knee-on-neck positioning which can cause discomfort even without the full choke applied."
+    "safety_considerations": "The Mounted Triangle applies significant pressure to the carotid arteries causing rapid unconsciousness if held after a tap—release immediately upon tap signal. Partners should tap early when caught and the choking practitioner must respect all tap signals instantly. During training, apply the choke gradually to allow defensive responses and learning rather than cranking suddenly. Be aware that the trapped arm can be injured if the opponent panics and tries to violently extract it while the triangle is locked—control the arm carefully and release if partner shows distress beyond normal submission defense. Avoid practicing on partners with neck injuries or blood pressure issues. When drilling entries, be cautious of knee-on-neck positioning which can cause discomfort even without the full choke applied.",
+    "clips": [
+      {
+        "id": "bSpySnLNiQg",
+        "title": "The mounted triangle",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 56,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8-hYlvwOqgU",
+        "title": "Mounted triangle from S-mount for short legs",
+        "by": "Submission Radio",
+        "vertical": false,
+        "channel": "Submission Radio",
+        "duration": 105,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Mounted Triangle Defender",
@@ -400,6 +420,17 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Start in mounted triangle with partner attempting to finish. Survive and escape within 2-minute rounds against increasing resistance. Progress to full sparring where you practice defending the setup during live mount exchanges. Focus on integrating early recognition with escape execution under genuine pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "l-HhOV9UjJU",
+        "title": "Preventing the mounted triangle",
+        "by": "Justen Hamilton",
+        "vertical": false,
+        "channel": "Justen Hamilton",
+        "duration": 104,
+        "verified": "2026-07-15"
       }
     ]
   },

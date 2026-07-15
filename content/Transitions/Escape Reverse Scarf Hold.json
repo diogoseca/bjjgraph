@@ -299,7 +299,36 @@
         "answer": "If full half guard cannot be locked, use the inserted knee as a butterfly hook by positioning your foot on the opponent's inner thigh and elevating to create more space for the second leg to engage. Alternatively, extend the knee shield into an open guard frame while establishing grips on their collar or sleeves to maintain distance. A third option is using the partial space to execute a technical stand-up by posting your far hand and driving to standing. The critical principle is never surrendering the space the shrimps created. Any guard structure you can establish serves as a platform for further improvement."
       }
     ],
-    "safety_considerations": "This escape involves sustained hip movement under significant chest compression, which can strain the lower back and hip flexors if performed with poor alignment. Practitioners should communicate if experiencing breathing difficulty under the pin pressure. During training, partners should allow escapes at reduced resistance levels before progressing to full resistance. The near-side arm is vulnerable to sudden joint locks during the escape attempt. If your partner catches a submission grip during the escape, tap immediately rather than trying to power through. Always warm up hip flexors and thoracic spine before drilling sustained shrimping mechanics."
+    "safety_considerations": "This escape involves sustained hip movement under significant chest compression, which can strain the lower back and hip flexors if performed with poor alignment. Practitioners should communicate if experiencing breathing difficulty under the pin pressure. During training, partners should allow escapes at reduced resistance levels before progressing to full resistance. The near-side arm is vulnerable to sudden joint locks during the escape attempt. If your partner catches a submission grip during the escape, tap immediately rather than trying to power through. Always warm up hip flexors and thoracic spine before drilling sustained shrimping mechanics.",
+    "clips": [
+      {
+        "id": "ORpUBUxK1QE",
+        "title": "Reverse kesa gatame escape to back take",
+        "by": "Unknown coach",
+        "vertical": false,
+        "channel": "Gymnanigains",
+        "duration": 26,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fvp5_BVEtLg",
+        "title": "Kesa gatame pressure defense using framing",
+        "by": "Kohbukan Sisu coach",
+        "vertical": false,
+        "channel": "Kohbukan Sisu",
+        "duration": 84,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8JaZOxy_0ws",
+        "title": "Turtle escape roll through to reverse scarf hold",
+        "by": "KoF Jiu Jutsu coach",
+        "vertical": false,
+        "channel": "KoF Jiu Jutsu",
+        "duration": 88,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Escape Reverse Scarf Hold Defender",
@@ -415,6 +444,26 @@
         "phase": "Phase 4: Full Resistance Positional Sparring",
         "focus": "Complete defensive toolkit against all reverse scarf hold escape methods",
         "description": "Full resistance rounds starting in reverse scarf hold. Defend against the opponent's complete escape system including hip escapes, bridges, and frame-based methods. Score retention and successful transitions across rounds to measure defensive improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "fB7gGDIm1i8",
+        "title": "Twelve kesa gatame attacks",
+        "by": "Johnny Jitsu",
+        "vertical": false,
+        "channel": "Johnny Jitsu",
+        "duration": 88,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "tfykooWW-xk",
+        "title": "Triangle attacks from broken scarf hold",
+        "by": "Unknown coach",
+        "vertical": false,
+        "channel": "Chokes And More",
+        "duration": 66,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -269,7 +269,36 @@
         "answer": "If the turn stalls at a half-rotation, immediately switch to a sit-through by kicking the near leg through to land in seated guard. If hip mobility is compromised, drop to a hip escape on the side you have partially rotated to and work to insert a knee shield for half guard recovery. The key principle is never returning to the original turtle position — any forward progress should be converted to an alternative escape pathway rather than abandoned."
       }
     ],
-    "safety_considerations": "Turn In and Face involves rapid rotational movement of the neck and spine under load while a choking grip may still be partially engaged. Practice the rotation slowly at first to avoid neck strain from twisting against an active choke. Partners should release choking pressure progressively as the defender initiates the turn during drilling. There is a brief moment during mid-rotation where the choke may momentarily tighten before the angle collapses — practitioners with neck injuries or cervical spine issues should communicate this to training partners and use reduced resistance. Tap immediately if the choke tightens beyond safe tolerance during the turn rather than forcing through the rotation."
+    "safety_considerations": "Turn In and Face involves rapid rotational movement of the neck and spine under load while a choking grip may still be partially engaged. Practice the rotation slowly at first to avoid neck strain from twisting against an active choke. Partners should release choking pressure progressively as the defender initiates the turn during drilling. There is a brief moment during mid-rotation where the choke may momentarily tighten before the angle collapses — practitioners with neck injuries or cervical spine issues should communicate this to training partners and use reduced resistance. Tap immediately if the choke tightens beyond safe tolerance during the turn rather than forcing through the rotation.",
+    "clips": [
+      {
+        "id": "-b7Avb1x7g8",
+        "title": "The Buggy Choke demonstrated step by step",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "0VDUwuyT6N4",
+        "title": "Fixing the details of your Buggy Choke",
+        "by": "Yoga for BJJ",
+        "vertical": false,
+        "channel": "Yoga for BJJ",
+        "duration": 71,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "U-eR63GzcIo",
+        "title": "Buggy choke entry with Kade Ruotolo",
+        "by": "Kade Ruotolo",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 67,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Turn In and Face Defender",

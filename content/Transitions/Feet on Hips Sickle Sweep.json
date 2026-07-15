@@ -285,7 +285,27 @@
         "answer": "Abandon the sickle sweep when the opponent achieves strong control of your hooking leg preventing the sickle motion, when they backstep beyond your hooking range, or when they drop their weight so low that your pushing foot cannot generate meaningful lateral force. In these situations, transition immediately to alternative attacks: against ankle control switch to X-Guard entry, against backstep defense flow to De La Riva guard, against low base attempt balloon sweep or tomoe nage using their forward weight commitment."
       }
     ],
-    "safety_considerations": "The sickle sweep is a low-risk technique with minimal injury potential for both practitioners. The primary safety concern is controlling the opponent's fall during the sweep to prevent them from landing awkwardly on their head, neck, or outstretched arm. When practicing, ensure the sweeping motion is controlled and gradual rather than explosive, allowing your partner to breakfall safely. Avoid applying excessive rotational force to the opponent's knee through the hooking leg, and release the hook immediately once the sweep succeeds. In competition, be aware that sweeping near the mat edge creates collision risks."
+    "safety_considerations": "The sickle sweep is a low-risk technique with minimal injury potential for both practitioners. The primary safety concern is controlling the opponent's fall during the sweep to prevent them from landing awkwardly on their head, neck, or outstretched arm. When practicing, ensure the sweeping motion is controlled and gradual rather than explosive, allowing your partner to breakfall safely. Avoid applying excessive rotational force to the opponent's knee through the hooking leg, and release the hook immediately once the sweep succeeds. In competition, be aware that sweeping near the mat edge creates collision risks.",
+    "clips": [
+      {
+        "id": "MAfNPSnw9Nk",
+        "title": "Sickle sweep into knee bar",
+        "by": "David Thomas",
+        "vertical": false,
+        "channel": "David Thomas",
+        "duration": 34,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "liPOgAeOrko",
+        "title": "Tripod and sickle sweep from feet on hips",
+        "by": "Barrick BJJ coach",
+        "vertical": false,
+        "channel": "Barrick BJJ Techniques",
+        "duration": 195,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Feet on Hips Sickle Sweep Defender",
@@ -406,6 +426,17 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full-speed application against varied sweep attacks",
         "description": "Positional sparring starting in feet on hips guard with partner attacking with all available sweeps including sickle, tripod, balloon, and others. Practice recognizing which sweep is being attempted and applying the correct defensive response under competition-level pressure and speed."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kNfVYhZbgrg",
+        "title": "Four levels of sweep defense",
+        "by": "Wim Deputter",
+        "vertical": false,
+        "channel": "Wim Deputter BJJ",
+        "duration": 87,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -313,6 +313,35 @@
         "answer": "The Clock Choke from Rodeo Ride offers a direct submission path without needing to secure hooks for back control points, which can be time-consuming against a well-defended turtle. In points-based competition, the Clock Choke can finish the match immediately from a position where no points have been scored yet—you bypass the incremental point-scoring of back take and go straight to submission. Additionally, opponents who are highly skilled at defending back takes often leave the neck more vulnerable because their defensive priorities focus on hook prevention and hip defense. The Clock Choke exploits this defensive allocation.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "grDZ5vo84bg",
+        "title": "Turtle Control & Clock Choke",
+        "by": "CVL BJJ",
+        "vertical": false,
+        "channel": "CVL BJJ",
+        "duration": 135,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "VXP06YF8v10",
+        "title": "Chokes from Turtle",
+        "by": "Marcello Monteiro",
+        "vertical": false,
+        "channel": "Butch Hiles Brazilian Jiu Jitsu & MMA, LLC - Charleston, WV",
+        "duration": 48,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "vX8n_1YUZJs",
+        "title": "Clock Choke",
+        "by": "Wallid Ismail",
+        "vertical": false,
+        "channel": "Black Dragon BJJ  / Cobra Kai Karate Dungannon",
+        "duration": 171,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -443,6 +472,35 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Full resistance Clock Choke defense from Rodeo Ride",
         "description": "Positional sparring where attacker is instructed to prioritize Clock Choke from Rodeo Ride. Defender practices the full defensive timeline under competition-level resistance. Debrief after each round to identify the moment where defense succeeded or failed and which recognition cue was present."
+      }
+    ],
+    "clips": [
+      {
+        "id": "vckXustqtpQ",
+        "title": "Clock Choke Defense",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ Ashland",
+        "duration": 63,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Ivs8Lt1oI0I",
+        "title": "Clock Choke Escape #1",
+        "by": "Vilanova BJJ",
+        "vertical": false,
+        "channel": "Vilanova Brazilian Jiu Jitsu",
+        "duration": 103,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "bHIR07WZ8yI",
+        "title": "Clock Choke from Turtle Escape",
+        "by": "Andy Tong",
+        "vertical": false,
+        "channel": "Andy Tong",
+        "duration": 17,
+        "verified": "2026-07-14"
       }
     ]
   }

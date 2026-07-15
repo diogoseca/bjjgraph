@@ -300,7 +300,18 @@
         "answer": "When the opponent's chin tuck is neutralizing both choke angles, shift your strategy from choke finishing to positional advancement. Use the existing front headlock control to transition to mount by walking your hips over the opponent's body, take the back by circling behind them and inserting hooks, or advance to north-south for new attacking angles. A committed chin tuck often compromises the opponent's ability to defend positional advances because their arms are occupied protecting their neck. Recognize when submission persistence becomes counterproductive and capitalize on the positional control your grip provides."
       }
     ],
-    "safety_considerations": "Both the Darce and Anaconda configurations create significant pressure on the cervical spine and carotid arteries. During training, communicate clearly with your partner before switching grips, as the new choking angle can produce unexpected pressure that catches the defender off guard. Partners should establish a clear tap signal before drilling. Release immediately upon any tap signal, even if you believe the choke is not yet tight. Never crank or twist the neck during the transition - maintain controlled, steady pressure throughout. Be especially cautious when drilling the rolling switch variant, as the dynamic movement combined with grip changes can produce sudden choking pressure."
+    "safety_considerations": "Both the Darce and Anaconda configurations create significant pressure on the cervical spine and carotid arteries. During training, communicate clearly with your partner before switching grips, as the new choking angle can produce unexpected pressure that catches the defender off guard. Partners should establish a clear tap signal before drilling. Release immediately upon any tap signal, even if you believe the choke is not yet tight. Never crank or twist the neck during the transition - maintain controlled, steady pressure throughout. Be especially cautious when drilling the rolling switch variant, as the dynamic movement combined with grip changes can produce sudden choking pressure.",
+    "clips": [
+      {
+        "id": "6d6Wkgh9imU",
+        "title": "Darce vs anaconda: switching between the grips",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 67,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Darce to Anaconda Switch Defender",
@@ -421,6 +432,26 @@
         "phase": "Phase 4: Full Resistance Application",
         "focus": "Defending the switch against fully committed attackers in live positional sparring",
         "description": "Start from Darce control with attacker free to switch to Anaconda or finish the Darce at any time. Defender scores for escaping to guard or neutral. Attacker scores for finishing either choke or advancing position. Full resistance rounds developing real-time defensive instincts against the complete front headlock choke system including the switch."
+      }
+    ],
+    "clips": [
+      {
+        "id": "5rVU51Brvs4",
+        "title": "Turtle escape from the front headlock",
+        "by": "Jiu Jitsu Five-O coach",
+        "vertical": false,
+        "channel": "Jiu Jitsu Five-O // Street-Ready BJJ Training",
+        "duration": 49,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "guHPx-OKi0M",
+        "title": "Preventing the sucker drag during the anaconda",
+        "by": "Drew Darce",
+        "vertical": false,
+        "channel": "Drew Darce",
+        "duration": 159,
+        "verified": "2026-07-15"
       }
     ]
   }

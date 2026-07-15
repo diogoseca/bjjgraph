@@ -276,7 +276,36 @@
         "answer": "The underhook sweep serves as a central technique that connects to multiple other attacks: when defended with a whizzer it opens back takes; when opponent sits back it transitions to waiter sweep; when they flatten you it allows entry to deep half; when the far leg posts it can chain to butterfly sweeps or single leg attacks. This interconnected system means that every defense your opponent makes to the underhook sweep creates an opportunity for a different attack, embodying the principle of creating dilemmas from bottom position."
       }
     ],
-    "safety_considerations": "The underhook sweep is generally one of the safer techniques in Brazilian Jiu-Jitsu, with minimal injury risk when executed properly. However, practitioners should be aware that explosive bridging can strain the neck if head position is incorrect - always keep your head tight to opponent's body rather than bridging with an extended neck. When coming up on top, control your weight distribution to avoid driving knees into opponent's ribs or face during the scramble. Training partners should tap the mat if they feel themselves being swept too aggressively and are unable to breakfall safely, particularly on hard surfaces. Beginners should practice breakfalls separately before drilling this sweep at full speed. As with all sweeps, be conscious of the training space and ensure sufficient room to complete the technique without rolling into walls, equipment, or other practitioners."
+    "safety_considerations": "The underhook sweep is generally one of the safer techniques in Brazilian Jiu-Jitsu, with minimal injury risk when executed properly. However, practitioners should be aware that explosive bridging can strain the neck if head position is incorrect - always keep your head tight to opponent's body rather than bridging with an extended neck. When coming up on top, control your weight distribution to avoid driving knees into opponent's ribs or face during the scramble. Training partners should tap the mat if they feel themselves being swept too aggressively and are unable to breakfall safely, particularly on hard surfaces. Beginners should practice breakfalls separately before drilling this sweep at full speed. As with all sweeps, be conscious of the training space and ensure sufficient room to complete the technique without rolling into walls, equipment, or other practitioners.",
+    "clips": [
+      {
+        "id": "X3M6JUqr1Bo",
+        "title": "Windmill underhook sweep from half guard",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 16,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "K7U2uBUfq-c",
+        "title": "Underhook from knee shield into the sweep",
+        "by": "Kaboom BJJ coach",
+        "vertical": false,
+        "channel": "Kaboom Brazilian Jiu-Jitsu",
+        "duration": 129,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "sPLKK9xvQ38",
+        "title": "The underhook sweep from half guard",
+        "by": "Brandon Quick",
+        "vertical": false,
+        "channel": "Brandon Quick",
+        "duration": 276,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Underhook Sweep from Half Defender",
@@ -406,6 +435,35 @@
         "phase": "Phase 4: Positional Sparring (Weeks 6-10)",
         "focus": "Live defense integration",
         "description": "Full-speed positional rounds starting from half guard top. Bottom player actively works underhook sweeps and chain attacks while top player practices defensive recognition and counter-passing. Three-minute rounds with reset after sweep completion or pass completion. Track defensive success rate and identify which sweep variations give you the most difficulty."
+      }
+    ],
+    "clips": [
+      {
+        "id": "dOdO6xJ-TcU",
+        "title": "Stop the half guard underhook before the sweep",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 98,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Zy88ds_RDG4",
+        "title": "Countering the half guard underhook",
+        "by": "Holy Grail BJJ coach",
+        "vertical": false,
+        "channel": "Holy Grail BJJ",
+        "duration": 126,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "BoPodHPmDYY",
+        "title": "How to beat the underhook in half guard",
+        "by": "Rituals Jiu Jitsu coach",
+        "vertical": false,
+        "channel": "Rituals Jiu Jitsu",
+        "duration": 235,
+        "verified": "2026-07-15"
       }
     ]
   },

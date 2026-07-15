@@ -287,7 +287,36 @@
         "answer": "Hip mobility and the ability to change hip angle fluidly are more important than raw strength or flexibility for this transition. The entire sequence requires continuous hip adjustments: angling to insert the first hook, shifting to establish the seat belt, repositioning to insert the second hook, and finally rotating through the roll or slide to back mount. Practitioners with stiff hips tend to create space during these adjustments, giving the opponent escape windows. Training hip circles, switch base drills, and granby rolls specifically improves the hip fluidity needed for smooth execution."
       }
     ],
-    "safety_considerations": "The Crab Ride to Back transition is generally safe when practiced with proper control and awareness. Primary safety concerns include preventing excessive cranking of the neck during seat belt establishment, avoiding sudden or jerky movements during the roll to back that could strain the opponent's spine, and being mindful of knee torque on both your hooks and opponent's defensive leg positions. Partners should communicate clearly during drilling, especially when practicing the dynamic roll variation. Start with slow, controlled repetitions before adding speed and resistance. Be particularly careful with the seat belt grip not to apply choking pressure during the transition phase unless specifically working submission chains. Both practitioners should understand the difference between positional control and submission application to prevent accidental injury during training."
+    "safety_considerations": "The Crab Ride to Back transition is generally safe when practiced with proper control and awareness. Primary safety concerns include preventing excessive cranking of the neck during seat belt establishment, avoiding sudden or jerky movements during the roll to back that could strain the opponent's spine, and being mindful of knee torque on both your hooks and opponent's defensive leg positions. Partners should communicate clearly during drilling, especially when practicing the dynamic roll variation. Start with slow, controlled repetitions before adding speed and resistance. Be particularly careful with the seat belt grip not to apply choking pressure during the transition phase unless specifically working submission chains. Both practitioners should understand the difference between positional control and submission application to prevent accidental injury during training.",
+    "clips": [
+      {
+        "id": "Y6fBPjHzfv4",
+        "title": "De La Riva crab ride back take",
+        "by": "Moncaio Brothers",
+        "vertical": false,
+        "channel": "Moncaio Brothers Jiujitsu",
+        "duration": 28,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "aSrT9fosH-s",
+        "title": "50/50 escape to back take using crab ride",
+        "by": "Samuel Braga",
+        "vertical": false,
+        "channel": "Samuel Braga",
+        "duration": 65,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fDyL_vlCuDs",
+        "title": "Crab ride to the back",
+        "by": "Chris Newman",
+        "vertical": false,
+        "channel": "Two Times Photography UK",
+        "duration": 18,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Crab Ride to Back Defender",
@@ -418,6 +447,26 @@
         "phase": "Phase 4: Live Positional Sparring (Weeks 9+)",
         "focus": "Full-resistance defensive application",
         "description": "Positional rounds starting from established Crab Ride with full resistance from both partners. Bottom player works to escape to any neutral or guard position. Top player works to complete back take. Track success rates and identify which defensive timing and technique combinations are most effective against different partners and body types. Gradually extend round length to develop endurance under pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "cUpVFqRUXY4",
+        "title": "Getting out from the crab ride",
+        "by": "Iron Faith Wrestling",
+        "vertical": false,
+        "channel": "Iron Faith Wrestling",
+        "duration": 92,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "6MvcCZw_lIk",
+        "title": "Crab and half to fall breakdown",
+        "by": "Josh Dziewa",
+        "vertical": false,
+        "channel": "Josh Dziewa",
+        "duration": 54,
+        "verified": "2026-07-15"
       }
     ]
   },

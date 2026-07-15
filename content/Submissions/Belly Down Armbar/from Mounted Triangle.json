@@ -303,6 +303,35 @@
         "answer": "Monitor for verbal taps, physical hand taps on your body or the mat, foot taps on the mat, and any distress vocalizations including screaming or grunting. Upon recognizing any tap signal, immediately lower the wrist to release extension pressure first, then release knee squeeze on the upper arm, then disengage completely. Never wait for a second tap or confirmation. If uncertain whether a signal occurred, release immediately as the position can always be re-established.",
         "safety_critical": true
       }
+    ],
+    "clips": [
+      {
+        "id": "ZLlkimwLb_Q",
+        "title": "Mounted Triangle Armbar Variation",
+        "by": "Tommy",
+        "vertical": false,
+        "channel": "Before The Mats Jiu Jitsu",
+        "duration": 103,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "vSmRbpNmf-E",
+        "title": "Roger Gracie Armbars",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 102,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "T8lhwzwE__c",
+        "title": "Arm Triangle to Armbar to Belly Down",
+        "by": "Sukrit Chandra",
+        "vertical": false,
+        "channel": "Sukrit Chandra",
+        "duration": 40,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -431,6 +460,35 @@
         "phase": "Phase 4: Live Situational Defense",
         "focus": "Full resistance defense from mounted triangle",
         "description": "Start in mounted triangle bottom against a partner who may attempt triangle choke, standard armbar, or belly down armbar. Defender must read the attack, select appropriate defense, and either escape or tap safely. Progressive resistance up to full competition intensity."
+      }
+    ],
+    "clips": [
+      {
+        "id": "sR2rS2dwpNY",
+        "title": "How To Escape a Triangle Choke",
+        "by": "Rener & Ryron Gracie",
+        "vertical": false,
+        "channel": "Hayabusa",
+        "duration": 117,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "Favorite Armbar Escape",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "n_2zR6BaF8A",
+        "title": "The Best Arm-Triangle Escape",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 58,
+        "verified": "2026-07-14"
       }
     ]
   }

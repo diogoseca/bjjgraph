@@ -372,6 +372,26 @@
         "question": "How does panic affect your escape success rate and what mental approach should you maintain?",
         "answer": "Panic leads to rushed, uncontrolled movements that expose your heel, waste energy, and create opportunities for your opponent to improve their position. The correct mental approach is calm, methodical problem-solving through systematic escape sequences. Breathe deeply, assess your heel position, identify whether their triangle is tight or loose, then execute the appropriate technique. Trust your drilling and technique rather than explosive scrambling."
       }
+    ],
+    "clips": [
+      {
+        "id": "tLcHN042w48",
+        "title": "Outside heel hook finishing mechanics",
+        "by": "Fox Den Martial Arts",
+        "vertical": false,
+        "channel": "Fox Den Martial Arts",
+        "duration": 86,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "xvx03k3jiWo",
+        "title": "Outside Ashi quick demo",
+        "by": "Team Strela",
+        "vertical": false,
+        "channel": "DARKSIDE | Team Strela",
+        "duration": 26,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -671,6 +691,35 @@
         "question": "How do you manage energy expenditure to maintain the position over extended periods?",
         "answer": "Energy management centers on using skeletal structure rather than muscular effort. The figure-4 leg configuration should lock in place without requiring constant squeeze - position your legs so the triangle holds naturally. Maintain grips efficiently using finger hooks rather than death grips. Flow between submission threats rather than holding any single position. Let your opponent's escape attempts create your offensive opportunities rather than constantly attacking."
       }
+    ],
+    "clips": [
+      {
+        "id": "KmGhb2j68Ng",
+        "title": "Escape outside ashi heel hook to back take",
+        "by": "Grapple Box",
+        "vertical": false,
+        "channel": "Grapple Box llc",
+        "duration": 34,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "QMgsMSTRSBI",
+        "title": "5 leglock counters to Ashi Garami",
+        "by": "BJJBlackBeltDad",
+        "vertical": false,
+        "channel": "BJJBlackBeltDad",
+        "duration": 93,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "uZbUhFapIhg",
+        "title": "Insane leglock defense",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 163,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -701,6 +750,35 @@
     {
       "question": "Why must the figure-four clamp remain tight with the foot pulled toward the buttocks for the position to hold?",
       "answer": "The entire control of Outside Ashi-Garami rests on eliminating space inside the figure-four, and the mechanism for that is pulling the closing foot back toward the buttocks so the loop cinches against the trapped thigh and knee. Any gap in the clamp lets the trapped leg slide, lets the knee rotate free, and lets the angle square up, all of which dissolve the leverage the position depends on. A loose triangle is therefore the shared signal both players read: it tells the entangler to re-cinch and squeeze, and it tells the trapped player that extraction or a stand-up has opened. Tightness is not a detail but the structural precondition that keeps the leg isolated."
+    }
+  ],
+  "clips": [
+    {
+      "id": "xvx03k3jiWo",
+      "title": "Outside Ashi overview",
+      "by": "Team Strela",
+      "vertical": false,
+      "channel": "DARKSIDE | Team Strela",
+      "duration": 26,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "pRqoNs4K7cI",
+      "title": "Ashi Garami and heel hook basics",
+      "by": "The Coop BJJ",
+      "vertical": false,
+      "channel": "The Coop BJJ",
+      "duration": 83,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "tLcHN042w48",
+      "title": "Outside heel hook finishing mechanics",
+      "by": "Fox Den Martial Arts",
+      "vertical": false,
+      "channel": "Fox Den Martial Arts",
+      "duration": 86,
+      "verified": "2026-07-14"
     }
   ]
 }

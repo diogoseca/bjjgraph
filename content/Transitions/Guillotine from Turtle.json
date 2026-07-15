@@ -297,7 +297,36 @@
         "answer": "The optimal window opens when the opponent first settles into turtle after a guard pass or scramble, before they begin active escape sequences. Key signals include: opponent pauses momentarily to reorganize their base, opponent lifts their head slightly to assess positioning, or opponent reaches a hand out to post during a direction change. The first 3-5 seconds of turtle establishment offer the highest-percentage entry because defensive grips and escape patterns have not yet been initiated."
       }
     ],
-    "safety_considerations": "The guillotine from turtle requires careful application in training to prevent neck injuries. Always apply pressure progressively over 3-5 seconds minimum, never explosively or with jerking motions. Partners must have clear communication and immediate tap protocol established before drilling. The choke should target the blood vessels in the neck, not create pressure on the spine or trachea. Practitioners should avoid applying guillotines to partners with known neck injuries or conditions. When drilling, use controlled resistance and stop immediately at tap. Beginners should focus on position and grip mechanics before applying finishing pressure. In competition, be aware that guillotines can transition to dangerous positions if opponent rolls, so maintain awareness of your own neck safety. If you feel pain rather than pressure in your neck as the defender, tap immediately—never try to tough out neck pain. Training partners should agree on intensity levels before each round, and white belts should only practice this technique under direct instructor supervision."
+    "safety_considerations": "The guillotine from turtle requires careful application in training to prevent neck injuries. Always apply pressure progressively over 3-5 seconds minimum, never explosively or with jerking motions. Partners must have clear communication and immediate tap protocol established before drilling. The choke should target the blood vessels in the neck, not create pressure on the spine or trachea. Practitioners should avoid applying guillotines to partners with known neck injuries or conditions. When drilling, use controlled resistance and stop immediately at tap. Beginners should focus on position and grip mechanics before applying finishing pressure. In competition, be aware that guillotines can transition to dangerous positions if opponent rolls, so maintain awareness of your own neck safety. If you feel pain rather than pressure in your neck as the defender, tap immediately—never try to tough out neck pain. Training partners should agree on intensity levels before each round, and white belts should only practice this technique under direct instructor supervision.",
+    "clips": [
+      {
+        "id": "6mHJ8Mh6fDs",
+        "title": "High elbow guillotine from front turtle",
+        "by": "Michael Hoffman",
+        "vertical": false,
+        "channel": "Michael Hoffman",
+        "duration": 22,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Mw5qLLzjay4",
+        "title": "Guillotine choke from turtle",
+        "by": "Cavalo Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Cavalo Jiu-Jitsu",
+        "duration": 49,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "bVNnVVnAWnU",
+        "title": "Arm-in guillotine attacking the front headlock",
+        "by": "BJJ101",
+        "vertical": false,
+        "channel": "BJJ101",
+        "duration": 35,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Guillotine from Turtle Defender",
@@ -422,6 +451,35 @@
         "phase": "Phase 4: Live Positional Sparring (Weeks 9+)",
         "focus": "Applying defensive skills under full resistance in realistic scenarios",
         "description": "Positional sparring starting from turtle with partner hunting guillotine as primary attack. Defender wins by escaping to guard or standing. Attacker wins by establishing guillotine control or submitting. Full resistance with progressive intensity increases. Develop ability to recognize and defend guillotine attempts while simultaneously working other turtle escape sequences. Review and refine weak points after each round."
+      }
+    ],
+    "clips": [
+      {
+        "id": "nGpAcI79frk",
+        "title": "Positional check against the guillotine",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 116,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8okq4cIHMO0",
+        "title": "Standing guillotine escape",
+        "by": "dogtownman",
+        "vertical": false,
+        "channel": "dogtownman",
+        "duration": 44,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "a7L1JP7_rgE",
+        "title": "Front headlock choke defense: guillotine escape",
+        "by": "Peter Mettler",
+        "vertical": false,
+        "channel": "Peter Mettler Martial Arts",
+        "duration": 153,
+        "verified": "2026-07-15"
       }
     ]
   },

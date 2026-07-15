@@ -376,6 +376,35 @@
           "nogi": 8
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "h_SRARh0B6U",
+        "title": "Cross Ashi Belly-Down Heel Hook",
+        "by": "Bowerhouse MMA",
+        "vertical": false,
+        "channel": "BOWERHOUSE MMA",
+        "duration": 68,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "EzS4k5JXLRY",
+        "title": "Cross Ashi Garami vs the Counter",
+        "by": "Raymond Tan",
+        "vertical": false,
+        "channel": "BJJ Cheat Codes by Raymond Tan",
+        "duration": 116,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "pRqoNs4K7cI",
+        "title": "Ashi Garami and Heel Hook",
+        "by": "The Coop BJJ",
+        "vertical": false,
+        "channel": "The Coop BJJ",
+        "duration": 83,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -703,6 +732,26 @@
           "nogi": 5
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "FUjlpGRjU44",
+        "title": "Escaping and Countering Cross Ashi Garami",
+        "by": "Lux's Jiu Jitsu",
+        "vertical": false,
+        "channel": "Lux’s jiu jitsu channel",
+        "duration": 45,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "cRXsNPAgVLU",
+        "title": "Irimi Ashi Garami Counter",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 29,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -737,6 +786,35 @@
     {
       "question": "How does the height at which the outside leg crosses the trapped limb change the position's characteristics?",
       "answer": "Where the outside leg crosses along the trapped limb tunes both how securely the foot is trapped and which joint the wedge threatens. A cross kept tight to the lower leg locks the foot and heel firmly against the structure, keeping the entanglement compact and hard to clear. A cross that rides up toward the thigh loosens control of the foot and makes the cross easier to strip, trading foot security for a different leverage line on the leg. Both players read the crossing height as a signal, since it reveals how tightly the leg is captured and where the coming attack is aimed."
+    }
+  ],
+  "clips": [
+    {
+      "id": "HVc2CKdAfN0",
+      "title": "X-Guard to Saddle (Cross Ashi)",
+      "by": "Johnny Jitsu",
+      "vertical": false,
+      "channel": "Johnny Jitsu",
+      "duration": 120,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "nVfqMfVpTVk",
+      "title": "Simple Trick to Fix Your Cross Ashi",
+      "by": "Factory Fresh Jiu Jitsu",
+      "vertical": false,
+      "channel": "Factory Fresh Jiu Jitsu",
+      "duration": 55,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "f0DAtrYy41s",
+      "title": "K Guard to Cross Ashi",
+      "by": "Phage Jiu-Jitsu",
+      "vertical": false,
+      "channel": "Phage Jiu-Jitsu",
+      "duration": 20,
+      "verified": "2026-07-14"
     }
   ]
 }

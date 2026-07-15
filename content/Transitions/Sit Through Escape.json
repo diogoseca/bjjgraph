@@ -255,7 +255,36 @@
         "answer": "The most critical error is failing to properly load weight onto the far-side knee before initiating rotation. Without this pivot point established, the rotation has no stable base to generate momentum from. Practitioners who keep their far-side knee wide or unloaded find their rotation stalls midway, leaving them in a worse position than they started. Always feel your weight shift to the pivot knee before swinging the near leg through."
       }
     ],
-    "safety_considerations": "The Sit Through Escape is generally a low-injury-risk technique when performed correctly. Primary safety concerns involve neck protection during rotation—keep chin firmly tucked throughout to prevent opponent from capitalizing on exposed neck during the transition. Avoid attempting this escape when opponent has deep seat belt control as the rotation under these conditions can create strain on the neck and shoulder complex. Practice initially at slow speeds to develop the rotation mechanics before adding explosiveness. Be aware of your training partner's position during rotation to avoid accidentally kneeing them during the swinging phase. If rotation is blocked mid-execution, do not force through—release and reset to prevent shoulder strain from fighting a stuck position."
+    "safety_considerations": "The Sit Through Escape is generally a low-injury-risk technique when performed correctly. Primary safety concerns involve neck protection during rotation—keep chin firmly tucked throughout to prevent opponent from capitalizing on exposed neck during the transition. Avoid attempting this escape when opponent has deep seat belt control as the rotation under these conditions can create strain on the neck and shoulder complex. Practice initially at slow speeds to develop the rotation mechanics before adding explosiveness. Be aware of your training partner's position during rotation to avoid accidentally kneeing them during the swinging phase. If rotation is blocked mid-execution, do not force through—release and reset to prevent shoulder strain from fighting a stuck position.",
+    "clips": [
+      {
+        "id": "-S6bU0mQp1Y",
+        "title": "Escaping the crab ride",
+        "by": "Brian Hawkins",
+        "vertical": false,
+        "channel": "Brian Hawkins",
+        "duration": 78,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "cUpVFqRUXY4",
+        "title": "Getting out from crab ride",
+        "by": "Iron Faith Wrestling",
+        "vertical": false,
+        "channel": "Iron Faith Wrestling",
+        "duration": 92,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "jdUhyICbKSM",
+        "title": "Crab ride defense to low leg cradle",
+        "by": "Michael Trasso",
+        "vertical": false,
+        "channel": "Merge Grappling",
+        "duration": 33,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Sit Through Escape Defender",
@@ -370,6 +399,35 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Full resistance positional rounds from crab ride. Top player works to maintain control and advance to back while bottom player uses all escape options. Track how often sit through attempts succeed versus get countered. Identify patterns in your defensive timing gaps."
+      }
+    ],
+    "clips": [
+      {
+        "id": "X06h6EJpV24",
+        "title": "Scoring with a crab ride when opponent sits out",
+        "by": "WrestlingTournaments.com",
+        "vertical": false,
+        "channel": "WrestlingTournaments․com",
+        "duration": 52,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "qp--XOaaFjk",
+        "title": "Crab ride turn when opponent traps you on your back",
+        "by": "CMPTV",
+        "vertical": false,
+        "channel": "CMPTV",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "F-5OoSOUBBo",
+        "title": "Crab ride transition to leg ride",
+        "by": "Myrmidon Wrestling",
+        "vertical": false,
+        "channel": "myrmidonwrestling",
+        "duration": 118,
+        "verified": "2026-07-15"
       }
     ]
   },

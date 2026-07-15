@@ -294,7 +294,36 @@
         "answer": "Stop racing for double unders and commit to the single-arm-pummel-to-whizzer chain: keep the one underhook you won, throw a hard overhook (whizzer) on the opposite side, and use that asymmetric inside-outside frame to peel apart the chest-to-back seal. If even the first underhook is denied, chain into a drop-level entry - sharply lower your level so their arms ride up to a higher, weaker point on your torso, then re-attack the pummel through the fresh space that opens at your waist. The governing principle is to keep flowing between entries rather than stalling and arm-wrestling a single contested pummel."
       }
     ],
-    "safety_considerations": "The pummeling escape involves dynamic rotational movements under pressure that can stress shoulder joints if arms are forced through tight spaces without proper technique. Always warm up shoulder joints thoroughly before drilling. During training, partners should release the body lock if the escaping player signals pain or discomfort in their shoulders. Avoid using explosive jerking motions to force pummels through extremely tight grips, as this can cause shoulder impingement or rotator cuff strain. Progress resistance gradually during drilling phases."
+    "safety_considerations": "The pummeling escape involves dynamic rotational movements under pressure that can stress shoulder joints if arms are forced through tight spaces without proper technique. Always warm up shoulder joints thoroughly before drilling. During training, partners should release the body lock if the escaping player signals pain or discomfort in their shoulders. Avoid using explosive jerking motions to force pummels through extremely tight grips, as this can cause shoulder impingement or rotator cuff strain. Progress resistance gradually during drilling phases.",
+    "clips": [
+      {
+        "id": "nuSiGy6dw6Y",
+        "title": "Re-pummel to head control",
+        "by": "Chad Lyman",
+        "vertical": false,
+        "channel": "Code 4 Concepts Chad Lyman",
+        "duration": 42,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "0DqO9-LfJZo",
+        "title": "BJJ fundamentals: the pummel",
+        "by": "Daniel Gracie",
+        "vertical": false,
+        "channel": "DANIEL GRACIE University City",
+        "duration": 88,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lGGo0H8ems4",
+        "title": "Breaking a body lock by pummeling",
+        "by": "Nick Diaz",
+        "vertical": false,
+        "channel": "Moments in MMA",
+        "duration": 62,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Pummeling Escape from Body Lock Defender",
@@ -411,6 +440,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full application with all options available",
         "description": "Start from body lock position with both players using their full toolsets. Defender works to maintain control and advance position while partner uses pummeling and all other escape options. Develop the ability to read which escape is being attempted and select the appropriate counter in real-time."
+      }
+    ],
+    "clips": [
+      {
+        "id": "YVeeiNy43j4",
+        "title": "Body lock pass defense: inside position and elevator",
+        "by": "Brian Glick",
+        "vertical": false,
+        "channel": "Brian Glick",
+        "duration": 123,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "mWimgVQrsMU",
+        "title": "Far side underhook pin",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 137,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Ftc76MrOkfw",
+        "title": "Winning inside position",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 198,
+        "verified": "2026-07-15"
       }
     ]
   }

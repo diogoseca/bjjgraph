@@ -284,7 +284,18 @@
         "answer": "Avoid treating each smash as an all-or-nothing effort that requires maximum exertion. Instead, apply steady moderate pressure that tests the opponent's hook retention without committing your full weight. Between attempts, focus on grip fighting and positional adjustment rather than constant forward pressure. Recognize that the smash often succeeds on the second or third attempt after the opponent's hooks fatigue from repeated defense. Vary your timing and direction between attempts to prevent the opponent from establishing a comfortable defensive rhythm."
       }
     ],
-    "safety_considerations": "When executing the butterfly smash, apply pressure gradually and avoid sudden explosive weight drops that could cause knee or hip injury to the bottom player. Be aware that your knee driving through their hook can compress the ankle joint—if you feel resistance indicating their foot is trapped at an awkward angle, adjust your knee position before driving further. During training, communicate with partners about pressure levels and ensure neither practitioner's knees are being stressed by the weight transfer mechanics. Avoid driving the knee directly into the opponent's inner thigh or groin area."
+    "safety_considerations": "When executing the butterfly smash, apply pressure gradually and avoid sudden explosive weight drops that could cause knee or hip injury to the bottom player. Be aware that your knee driving through their hook can compress the ankle joint—if you feel resistance indicating their foot is trapped at an awkward angle, adjust your knee position before driving further. During training, communicate with partners about pressure levels and ensure neither practitioner's knees are being stressed by the weight transfer mechanics. Avoid driving the knee directly into the opponent's inner thigh or groin area.",
+    "clips": [
+      {
+        "id": "yhwztrFcIUE",
+        "title": "Kick out to collapse the hooks passing drill",
+        "by": "Lion Heart BJJ coach",
+        "vertical": false,
+        "channel": "Lion Heart Jiu-Jitsu Academy",
+        "duration": 125,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Smash from Butterfly Hook Control Defender",
@@ -409,6 +420,26 @@
         "phase": "Live Defensive Sparring",
         "focus": "Full-speed application under realistic pressure conditions",
         "description": "Positional sparring starting in butterfly guard against a top player whose goal is to smash through hooks. Bottom player works to prevent the smash, execute counter-sweeps, or recover position. Full resistance with progressive intensity across multiple rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "06-ZO93fJak",
+        "title": "Head frame to prevent the hug smash pass",
+        "by": "Revolution BJJ coach",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 90,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "RmqIAXU9TWE",
+        "title": "Butterfly guard against strong aggressive smashers",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "bjjweekly",
+        "duration": 300,
+        "verified": "2026-07-15"
       }
     ]
   }

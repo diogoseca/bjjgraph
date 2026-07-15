@@ -291,7 +291,36 @@
         "answer": "The Z-Guard Sweep uses far-side collar or sleeve control with knee shield extension as the primary sweeping mechanism, while the Sweep from Z-Guard relies on a deep underhook combined with knee shield leverage to drive to mount. Choose the Z-Guard Sweep when the underhook battle is contested, when the opponent is defending the underhook with crossface or pummel, or when you have superior far-side grips established. Choose the underhook sweep when you have secured the deep underhook and the opponent's posture is elevated. The two sweeps complement each other by addressing different grip configurations from the same position."
       }
     ],
-    "safety_considerations": "The Z-Guard Sweep is a relatively low-risk technique with minimal joint stress on either player. The primary safety concern is controlled landing during sweep completion to avoid dropping weight suddenly onto the opponent. Practice the sweep with progressive resistance, ensuring the top player understands how to break-fall when swept. The bottom player should avoid hyperextending their own knee during explosive knee shield extension, particularly when the opponent's full weight is loaded onto the shin. Communication between training partners about intensity level prevents unexpected sweep completions that could result in impact injuries."
+    "safety_considerations": "The Z-Guard Sweep is a relatively low-risk technique with minimal joint stress on either player. The primary safety concern is controlled landing during sweep completion to avoid dropping weight suddenly onto the opponent. Practice the sweep with progressive resistance, ensuring the top player understands how to break-fall when swept. The bottom player should avoid hyperextending their own knee during explosive knee shield extension, particularly when the opponent's full weight is loaded onto the shin. Communication between training partners about intensity level prevents unexpected sweep completions that could result in impact injuries.",
+    "clips": [
+      {
+        "id": "BCnjULrSSPw",
+        "title": "3 underhook sweeps from knee shield",
+        "by": "Kameron Ross",
+        "vertical": false,
+        "channel": "Kameron Ross",
+        "duration": 38,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Wd0Ne503BNE",
+        "title": "Knee shield sweep from half guard",
+        "by": "Rituals Jiu Jitsu coach",
+        "vertical": false,
+        "channel": "Rituals Jiu Jitsu",
+        "duration": 127,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "TrVf9YzEe0E",
+        "title": "Reverse Z-Guard options, Craig Jones style",
+        "by": "Phantom Punch coach",
+        "vertical": false,
+        "channel": "Phantom Punch Breakdowns",
+        "duration": 139,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Z-Guard Sweep Defender",
@@ -412,6 +441,26 @@
         "phase": "Phase 4: Live Integration",
         "focus": "Full resistance positional sparring",
         "description": "Full resistance positional sparring from Z-Guard with the top player defending sweeps and attempting to pass while the bottom player uses the complete Z-Guard offensive system. No resets except after pass completion or sweep to top. Develops realistic defensive responses under competitive pressure against varied sweep entries."
+      }
+    ],
+    "clips": [
+      {
+        "id": "JvuTT95vUvw",
+        "title": "Beating Z-Guard with tripod base",
+        "by": "Street Jitsu coach",
+        "vertical": false,
+        "channel": "Street Jitsu",
+        "duration": 106,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "VWtpArHvmEc",
+        "title": "Dealing with the Z-Guard from top",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 174,
+        "verified": "2026-07-15"
       }
     ]
   }

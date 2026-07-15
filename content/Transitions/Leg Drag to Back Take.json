@@ -279,7 +279,36 @@
         "answer": "The bottom hook should follow the natural arc of the opponent's hip rotation, threading inside their thigh from behind as the space opens. The force direction is forward and slightly upward, curling your heel into their inner thigh to secure the hook rather than pushing outward which allows clearance."
       }
     ],
-    "safety_considerations": "The Leg Drag to Back Take is a relatively safe transition with low injury risk when performed correctly. Primary safety concerns involve neck strain if the opponent resists the rotation aggressively, and potential knee stress on the trapped leg if excessive force is applied during the leg drag phase. Always ensure smooth transitions rather than forcing positions. During training, communicate with your partner about the pace of rotation and avoid jerking movements. If your partner indicates discomfort in their knee or hip from the leg drag position, release pressure immediately. Be particularly careful when inserting hooks to avoid knee-on-knee contact that could cause injury to either practitioner."
+    "safety_considerations": "The Leg Drag to Back Take is a relatively safe transition with low injury risk when performed correctly. Primary safety concerns involve neck strain if the opponent resists the rotation aggressively, and potential knee stress on the trapped leg if excessive force is applied during the leg drag phase. Always ensure smooth transitions rather than forcing positions. During training, communicate with your partner about the pace of rotation and avoid jerking movements. If your partner indicates discomfort in their knee or hip from the leg drag position, release pressure immediately. Be particularly careful when inserting hooks to avoid knee-on-knee contact that could cause injury to either practitioner.",
+    "clips": [
+      {
+        "id": "4xplJQ-FFvI",
+        "title": "Leg drag to back take pass",
+        "by": "Ben (Combat Room BJJ)",
+        "vertical": false,
+        "channel": "Combat Room Brazilian Jiu Jitsu",
+        "duration": 75,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "3W-mpN5pSE0",
+        "title": "Leg drag to back control",
+        "by": "Ninja Pinto",
+        "vertical": false,
+        "channel": "Ninja Pinto BJJ",
+        "duration": 55,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "4pqiJsPBIls",
+        "title": "Leg drag to back take",
+        "by": "Adrian Roldan",
+        "vertical": false,
+        "channel": "Adrian Roldán",
+        "duration": 33,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Leg Drag to Back Take Defender",
@@ -408,6 +437,26 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Start from established leg drag with partner actively pursuing the back take at full speed. Score defensive success by recovering half guard, facing opponent, or creating enough distance to re-establish any guard position. Track which defensive option succeeds most often and refine under competition-intensity pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "OltjLaTW3wQ",
+        "title": "Three ways to defend the back take",
+        "by": "Roberto Cyborg Abreu",
+        "vertical": false,
+        "channel": "Cyborg BJJ",
+        "duration": 89,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fO9mvIlh4Yw",
+        "title": "Leg drag defense with technical stand up",
+        "by": "Leandro Lo",
+        "vertical": false,
+        "channel": "BJJ Black",
+        "duration": 200,
+        "verified": "2026-07-15"
       }
     ]
   },

@@ -382,6 +382,35 @@
         "question": "How do you manage energy expenditure when facing a skilled Spider Guard player in a long match?",
         "answer": "Prioritize posture and distance over constant forward pressure. Step back when necessary to reset rather than fighting through strong grips. Use efficient grip-breaking mechanics rather than strength-based breaks. Wait for transition moments when they're moving between positions or switching grips to launch your passing attacks. Avoid prolonged static grip battles which favor the guard player's energy conservation."
       }
+    ],
+    "clips": [
+      {
+        "id": "w5zek2cOaYA",
+        "title": "Spider guard passing",
+        "by": "Christopher Frazier",
+        "vertical": false,
+        "channel": "Christopher Frazier",
+        "duration": 142,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "XnpPaSpf5QM",
+        "title": "Lasso spider guard passing concepts",
+        "by": "Alec Baulding",
+        "vertical": false,
+        "channel": "Alec Baulding",
+        "duration": 163,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "XK-wLG3B0xU",
+        "title": "How to pass the spider guard",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ Plus",
+        "duration": 205,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -739,6 +768,35 @@
         "question": "When should you abandon Spider Guard and transition to closed guard as a defensive recovery?",
         "answer": "Transition to closed guard when you've lost significant grip control and the opponent has established dominant grips on your pants or legs, when they've successfully flattened your hips making angle creation impossible, or when they've broken both sleeve grips and are advancing rapidly. Closed guard provides a defensive reset where you can recover your grips and energy before re-establishing Spider Guard. Don't wait until you're being passed to transition - recognize the compromised position early."
       }
+    ],
+    "clips": [
+      {
+        "id": "EQHr97AWDaM",
+        "title": "13 spider guard sweeps in 64 seconds",
+        "by": "The ROL Radio",
+        "vertical": false,
+        "channel": "The ROL Radio Podcast",
+        "duration": 64,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "GENLH8FOczM",
+        "title": "Upgrade your spider guard",
+        "by": "Romulo Barral",
+        "vertical": false,
+        "channel": "Romulo Barral",
+        "duration": 208,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "rRDmaMkOrSI",
+        "title": "Spider guard and biceps control",
+        "by": "AJ Agazarm",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 98,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -769,6 +827,35 @@
     {
       "question": "What is the central dilemma Spider Guard imposes on the top player, and why does it define the position's effectiveness?",
       "answer": "Spider Guard forces the top player into a lose-lose choice between two responses. If they stay tall and upright to preserve posture, their extended arms become isolated and vulnerable to triangles, omoplatas, and off-balancing sweeps. If they lower their posture and drive forward to pass, they load the bottom player's leg springs and feed directly into sweeps like the balloon or scissor. Because every option the top player has feeds a counter, the position's effectiveness comes from this constant dilemma rather than from any single attack."
+    }
+  ],
+  "clips": [
+    {
+      "id": "e0xe5_BJyJY",
+      "title": "Spider guard concepts",
+      "by": "Tiago Alves",
+      "vertical": false,
+      "channel": "Tiago Alves Jiu-Jitsu",
+      "duration": 61,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "D-VuUJqNDZc",
+      "title": "Spider guard mindset",
+      "by": "Romulo Barral",
+      "vertical": false,
+      "channel": "Grappling Plus",
+      "duration": 216,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "aXTKuGGfwOs",
+      "title": "Spider guard entry drill",
+      "by": "Paragon Jiu-Jitsu",
+      "vertical": false,
+      "channel": "Paragon Jiu-Jitsu Academy Austin",
+      "duration": 60,
+      "verified": "2026-07-14"
     }
   ]
 }

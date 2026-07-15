@@ -296,7 +296,18 @@
         "answer": "Your immediate priority is getting to your side facing the opponent and establishing either a knee shield or underhook before they can recover any back control. Many failed peel escapes occur because the practitioner arrives in half guard but stays flat on their back, allowing the opponent to re-take the back from the top half guard position. Get on your side, establish frames to prevent cross-face, and secure the leg entanglement tightly before the opponent can disengage and circle back to your back."
       }
     ],
-    "safety_considerations": "The Seat Belt Peel Escape carries moderate injury risk primarily from the opponent's potential counter-attacks during grip transition. When both hands leave neck defense to attack the grip, the throat becomes temporarily vulnerable to choke attacks that can cause tracheal injury if applied explosively. Always verify chin defense before committing to the peel. Shoulder strain can occur if the opponent resists the peel by pulling their arm back while your two-on-one grip is locked, creating opposing forces across your shoulder joint. Release the peel rather than forcing through extreme resistance. Finger injuries are possible when stripping grips, particularly against opponents wearing a gi. Never use single-finger manipulation to break grips."
+    "safety_considerations": "The Seat Belt Peel Escape carries moderate injury risk primarily from the opponent's potential counter-attacks during grip transition. When both hands leave neck defense to attack the grip, the throat becomes temporarily vulnerable to choke attacks that can cause tracheal injury if applied explosively. Always verify chin defense before committing to the peel. Shoulder strain can occur if the opponent resists the peel by pulling their arm back while your two-on-one grip is locked, creating opposing forces across your shoulder joint. Release the peel rather than forcing through extreme resistance. Finger injuries are possible when stripping grips, particularly against opponents wearing a gi. Never use single-finger manipulation to break grips.",
+    "clips": [
+      {
+        "id": "3Jd2llamfl8",
+        "title": "Back control escape fundamentals",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 189,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Seat Belt Peel Escape Defender",
@@ -413,6 +424,17 @@
         "phase": "Phase 4: Integrated Defense",
         "focus": "Full defensive response against mixed escape attempts",
         "description": "Partner alternates between peel escapes, standard escapes, and other back escape methods. Practice deploying appropriate counter-strategies for each escape type, switching between grip reinforcement, choke attacks, body triangle transitions, and pressure adjustments in real time."
+      }
+    ],
+    "clips": [
+      {
+        "id": "MwxnveKrlxU",
+        "title": "Keeping a tight seatbelt grip on the back",
+        "by": "Ben Kool",
+        "vertical": false,
+        "channel": "Ben Kool Tech",
+        "duration": 62,
+        "verified": "2026-07-15"
       }
     ]
   }

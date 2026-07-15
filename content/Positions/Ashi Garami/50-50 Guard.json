@@ -358,6 +358,35 @@
           "nogi": 5
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "UuluKZKDt8w",
+        "title": "Heel Hooks from 50/50",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 64,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "5RyU5LDc3C4",
+        "title": "Lachlan's ADCC 50/50 Heel Hook",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Alberto Serrano BJJ",
+        "duration": 86,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "U1vlUbJN3sc",
+        "title": "True 50/50 Heel Hook",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 34,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -626,6 +655,26 @@
           "nogi": 5
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "_hyZqLRwsWE",
+        "title": "Counter the 50/50 Heel Hook with a Wristlock",
+        "by": "Whangarei BJJ",
+        "vertical": false,
+        "channel": "Whangarei BJJ",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "DBbSqQf6iCo",
+        "title": "Roll Under to Backside 50/50",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 110,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -660,6 +709,35 @@
     {
       "question": "What transition options let a player break out of the 50-50 stalemate into a more dominant entanglement?",
       "answer": "Because standard 50-50 offers no inherent advantage, players seek to convert it into asymmetrical positions where control is one-sided. Primary targets include Honey Hole (inside sankaku), which offers superior heel exposure and control, and Backside 50-50, which repositions to attack from behind the opponent's leg line. X-Guard and Single Leg X-Guard serve as sweeping alternatives when leg attacks are unavailable, off-balancing the opponent rather than isolating a leg. Recognizing when a direct submission is stalemated and flowing seamlessly to one of these positions is what separates effective 50-50 play from passive stalling."
+    }
+  ],
+  "clips": [
+    {
+      "id": "ucAwPgTLSpQ",
+      "title": "Getting to Backside 50/50",
+      "by": "Lachlan Giles",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 121,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "DBbSqQf6iCo",
+      "title": "Roll Under to Backside 50/50",
+      "by": "Lachlan Giles",
+      "vertical": false,
+      "channel": "BJJ focus camps",
+      "duration": 110,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "QRc5Lc5Pez8",
+      "title": "Ham Sandwich to 50/50 Leg Lock Entry",
+      "by": "Brandon McCaghren",
+      "vertical": false,
+      "channel": "Brandon Mccaghren",
+      "duration": 84,
+      "verified": "2026-07-14"
     }
   ]
 }

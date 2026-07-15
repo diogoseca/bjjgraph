@@ -286,7 +286,27 @@
         "answer": "When the armbar is defended, the defensive reaction itself opens specific chain attacks. If they pull the elbow back, the triangle becomes available because their arm is retracting into the choking position. If they turn away, back control opens via harness grip. If they bridge and stack, you can recover mount or transition to the opposite-side armbar. If they keep elbows tight, Americana or Ezekiel attacks become available. A complete mount attack system treats every defense as the entry to the next technique."
       }
     ],
-    "safety_considerations": "The Mount to Armbar transition is generally safe when practiced with control and awareness. When drilling, the top person should never drop their full weight suddenly onto the arm - the sit-back should be controlled and progressive. During the transition, be aware of your partner's neck position when sliding your leg across their face, avoiding excessive pressure that could cause cervical strain. When finishing the armbar, apply pressure gradually and stop immediately upon the tap. The bottom person should tap early and often during drilling to prevent elbow hyperextension. Never attempt to escape an established armbar by violently rolling or standing, as this risks serious elbow ligament damage. When learning the technique, communicate with your partner about pressure levels, and always start with zero resistance before progressing to live drilling. Instructors should emphasize tap safety and ensure students understand that protecting training partners is paramount."
+    "safety_considerations": "The Mount to Armbar transition is generally safe when practiced with control and awareness. When drilling, the top person should never drop their full weight suddenly onto the arm - the sit-back should be controlled and progressive. During the transition, be aware of your partner's neck position when sliding your leg across their face, avoiding excessive pressure that could cause cervical strain. When finishing the armbar, apply pressure gradually and stop immediately upon the tap. The bottom person should tap early and often during drilling to prevent elbow hyperextension. Never attempt to escape an established armbar by violently rolling or standing, as this risks serious elbow ligament damage. When learning the technique, communicate with your partner about pressure levels, and always start with zero resistance before progressing to live drilling. Instructors should emphasize tap safety and ensure students understand that protecting training partners is paramount.",
+    "clips": [
+      {
+        "id": "vSmRbpNmf-E",
+        "title": "Roger Gracie armbar details",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 102,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "4COgR6PfQW0",
+        "title": "Armbar against a stacking opponent",
+        "by": "Rolles Gracie",
+        "vertical": false,
+        "channel": "Gallerr",
+        "duration": 91,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Mount to Armbar Defender",
@@ -417,6 +437,35 @@
         "phase": "Week 9+: Full Resistance Integration",
         "focus": "Defend the complete Mount to Armbar under live conditions",
         "description": "Positional sparring starting from mount. Attacker uses full technique and speed to complete the armbar. Defender applies the complete defensive hierarchy: deny isolation, block pivot, escape transition, survive control. Track success rates across rounds and identify which defensive phase needs the most work. Integrate into regular rolling."
+      }
+    ],
+    "clips": [
+      {
+        "id": "lXpel1GO2Do",
+        "title": "Armbar stack escape",
+        "by": "WNY MMA coach",
+        "vertical": false,
+        "channel": "WNY MMA & Fitness",
+        "duration": 37,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "Favorite armbar escape",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "sDdqvh_1kbA",
+        "title": "Armbar escape using the RNC grip",
+        "by": "ZombieProofBJJ coach",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 63,
+        "verified": "2026-07-15"
       }
     ]
   },

@@ -304,7 +304,36 @@
         "answer": "In a scramble from a failed single leg, your priorities are: first, protect your neck and head position since front headlock and guillotine are the most common scramble submissions; second, fight for underhook position on at least one side as this controls the pummeling exchange; third, work to get your hips underneath the opponent for any form of guard retention rather than allowing them to establish top pressure; fourth, if you still have any leg control, convert it into a guard position like Single Leg X-Guard or butterfly rather than releasing everything. Maintaining offensive initiative through the scramble prevents the opponent from settling into a dominant position."
       }
     ],
-    "safety_considerations": "When practicing the technical standup to single leg, always maintain awareness of head position during the level change to prevent neck injuries from guillotine or front headlock pressure. Partners should release any neck submissions immediately when training partner taps or shows distress. When completing takedowns in drilling, control the descent to prevent the opponent from landing awkwardly on hard surfaces or impacting with their head. In live training, tap early to chokes and cranks rather than fighting through dangerous positions. Beginners should practice the standup phase extensively before adding explosive takedown entries to develop proper structural habits. Always warm up hips, knees, and ankles thoroughly before practicing this sequence, as the level change and driving mechanics place significant stress on these joints. Be particularly careful with knee health during penetration steps on hard mats."
+    "safety_considerations": "When practicing the technical standup to single leg, always maintain awareness of head position during the level change to prevent neck injuries from guillotine or front headlock pressure. Partners should release any neck submissions immediately when training partner taps or shows distress. When completing takedowns in drilling, control the descent to prevent the opponent from landing awkwardly on hard surfaces or impacting with their head. In live training, tap early to chokes and cranks rather than fighting through dangerous positions. Beginners should practice the standup phase extensively before adding explosive takedown entries to develop proper structural habits. Always warm up hips, knees, and ankles thoroughly before practicing this sequence, as the level change and driving mechanics place significant stress on these joints. Be particularly careful with knee health during penetration steps on hard mats.",
+    "clips": [
+      {
+        "id": "8pqe0j3B974",
+        "title": "Craig Jones single leg takedown breakdown",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "FreeChannelOpen",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "DZS9yJI1Mzw",
+        "title": "Single leg takedown mechanics",
+        "by": "Shane Griffith",
+        "vertical": false,
+        "channel": "FANATIC WRESTLING",
+        "duration": 135,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "eDXHY0mzt04",
+        "title": "Snatch single leg takedown",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 158,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Technical Stand Up to Single Leg Defender",
@@ -430,6 +459,35 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Full resistance defense from turtle top against standup-to-single-leg chain",
         "description": "Partner starts in turtle bottom and attempts the full technical standup to single leg sequence with complete resistance. Defend both phases with all available tools. Track which phase you are most successful at stopping and which needs additional drilling. Alternate roles to develop understanding of both perspectives."
+      }
+    ],
+    "clips": [
+      {
+        "id": "lygOlTN0GAU",
+        "title": "Single leg defense: sprawl and crunch",
+        "by": "CMPTV coach",
+        "vertical": false,
+        "channel": "CMPTV",
+        "duration": 175,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "cB5RNJHKfIw",
+        "title": "Stuff head and sprawl to defend the single leg",
+        "by": "Rob Harman",
+        "vertical": false,
+        "channel": "Rob Harman",
+        "duration": 186,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uaPLKgwdgc0",
+        "title": "Single leg defense to back take",
+        "by": "Dragons Den MMA coach",
+        "vertical": false,
+        "channel": "Dragons Den MMA",
+        "duration": 120,
+        "verified": "2026-07-15"
       }
     ]
   },

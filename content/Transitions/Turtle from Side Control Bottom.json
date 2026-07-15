@@ -289,7 +289,18 @@
         "answer": "The follow-up depends on the opponent's position after the turn. If they are behind you with chest pressure, execute a sit-through to guard or granby roll while their base is still adjusting to the new position. If they are circling toward the front, technical standup is optimal as their angle is wrong for back control. If they have established wrist control but no hooks, an explosive forward roll to guard can break their grips. The key principle is continuous motion without pause."
       }
     ],
-    "safety_considerations": "The turtle turn from side control involves rotational movement under an opponent's bodyweight, creating potential strain on the neck and shoulders. Always tuck your chin firmly to protect the cervical spine during the rotation. Do not force the turn against a deeply established crossface, as this can create dangerous neck compression. In training, partners should allow the turn to complete rather than cranking on the neck to prevent it. If shoulder discomfort occurs during the elbow-knee connection phase, stop and reassess your positioning before continuing. Be mindful of your posting wrist and elbow during the drive to hands and knees, as these joints absorb significant force when combined with opponent's weight."
+    "safety_considerations": "The turtle turn from side control involves rotational movement under an opponent's bodyweight, creating potential strain on the neck and shoulders. Always tuck your chin firmly to protect the cervical spine during the rotation. Do not force the turn against a deeply established crossface, as this can create dangerous neck compression. In training, partners should allow the turn to complete rather than cranking on the neck to prevent it. If shoulder discomfort occurs during the elbow-knee connection phase, stop and reassess your positioning before continuing. Be mindful of your posting wrist and elbow during the drive to hands and knees, as these joints absorb significant force when combined with opponent's weight.",
+    "clips": [
+      {
+        "id": "psMJiX4ZIWw",
+        "title": "Side control escape to turtle transition",
+        "by": "Kameron Ross",
+        "vertical": false,
+        "channel": "Kameron Ross",
+        "duration": 140,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Turtle from Side Control Bottom Defender",
@@ -410,6 +421,26 @@
         "phase": "Phase 4: Live Application",
         "focus": "Full-resistance counter strategies from side control top",
         "description": "Positional sparring from side control with partner using all available escapes including the turtle turn, hip escape, and ghost escape. Practice selecting the appropriate response in real-time against full resistance. Build automatic recognition and response patterns for each escape type."
+      }
+    ],
+    "clips": [
+      {
+        "id": "6_4uK_c0-cI",
+        "title": "Cross knee pass, preventing the turtle",
+        "by": "Inverted Gear",
+        "vertical": false,
+        "channel": "Inverted Gear",
+        "duration": 79,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "mWimgVQrsMU",
+        "title": "Far side underhook pin",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 137,
+        "verified": "2026-07-15"
       }
     ]
   }

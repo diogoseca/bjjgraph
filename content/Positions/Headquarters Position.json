@@ -355,6 +355,35 @@
         "question": "How do you manage energy expenditure from headquarters during a long match or multiple consecutive guard passing attempts?",
         "answer": "Headquarters is designed as a low-energy control position because the structure does the work rather than muscular effort. Maintain position through skeletal alignment and gravity-based pressure rather than gripping strength or pushing force. Between passing attempts, return to a neutral headquarters stance and allow your grips to reset rather than maintaining death grips continuously. Use the opponent's reactions to dictate your passing choices rather than forcing techniques against resistance, which conserves energy while exhausting the bottom player who must continuously create defensive structures."
       }
+    ],
+    "clips": [
+      {
+        "id": "EFEgiEekLNY",
+        "title": "Knee Cut Pass With Underhook",
+        "by": "Jiu Jitsu Curriculum",
+        "vertical": false,
+        "channel": "Jiu Jitsu Curriculum",
+        "duration": 62,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "IUvwQc_Y6RA",
+        "title": "Headquarters to Knee-Cut When Long Step Fails",
+        "by": "Tony Casarez",
+        "vertical": false,
+        "channel": "Tony Casarez",
+        "duration": 109,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "k4pZYVOwmbI",
+        "title": "Knee Shield Pass From Headquarters",
+        "by": "Jiu Jitsu Curriculum",
+        "vertical": false,
+        "channel": "Jiu Jitsu Curriculum",
+        "duration": 117,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -627,6 +656,35 @@
         "question": "Your knee insertion gets blocked and the passer begins consolidating toward side control - what is your emergency recovery?",
         "answer": "Switch immediately from knee recovery to a hip escape that turns you toward the passer rather than away, never exposing your back. If side control consolidation is imminent, hook the passer's near leg with your free-side leg to catch quarter guard or half guard while keeping both arm frames active against the crossface. From half guard you retain underhook, knee shield, and dogfight options with far more upside than a fully passed pin. The key is recognizing the lost recovery early and accepting the best structured fallback rather than fighting for a position that is already gone."
       }
+    ],
+    "clips": [
+      {
+        "id": "lVLAROiSjNU",
+        "title": "Guard Retention: When To Sit Up Escape",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 136,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Bp0v7c_MrbY",
+        "title": "Getting Feet On Biceps Position",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 125,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "ynoR-AtSYUc",
+        "title": "Around The Legs Guard Retention",
+        "by": "Absolute MMA St Kilda",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 210,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -661,6 +719,26 @@
     {
       "question": "Why does upper-body control, specifically the crossface and underhook, act as the tipping point that ends the contested phase of Headquarters?",
       "answer": "As long as Headquarters is only a leg-trap plus base, the bottom player retains hip mobility and the position stays genuinely two-way. The moment the top player adds crossface and underhook, the bottom player's head and shoulders are pinned and their hips stop moving, which mechanically kills shrimping, inversion, and sweep leverage. That upper-body lock is therefore the hinge that converts the shared, undecided hub into a nearly-completed pass. Both players understand the position through this threshold: the top races to secure it and the bottom races to deny it before consolidation."
+    }
+  ],
+  "clips": [
+    {
+      "id": "zT3JjOR838w",
+      "title": "Passing a Seated Guard With Underhooks",
+      "by": "John Danaher",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 143,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "ACWzSbjbo2g",
+      "title": "Gordon Ryan Style Guard Pass",
+      "by": "Danny Brown",
+      "vertical": false,
+      "channel": "UNC_CynX",
+      "duration": 209,
+      "verified": "2026-07-14"
     }
   ]
 }

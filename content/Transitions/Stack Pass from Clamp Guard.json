@@ -286,7 +286,27 @@
         "answer": "During the initial drive phase, grip the opponent's far hip or pants at thigh level to control their angling ability and prevent triangle setup. As stack compression establishes and you begin the lateral walk, shift the grip to behind their near knee or under their thigh to help direct and clear their legs as you walk around their compressed guard. During the final phase of clearing legs and establishing side control, release the leg grip entirely and immediately transition to crossface or underhook on the opponent's upper body. Each grip change corresponds to the control priority of that specific phase — hip control during stack, leg management during walk, upper body control during consolidation."
       }
     ],
-    "safety_considerations": "The stack pass places significant compressive force on the opponent's cervical spine and lower back as their hips are folded over their shoulders. Apply stacking pressure progressively during drilling rather than explosively to allow the training partner to signal discomfort before dangerous compression levels are reached. Never maintain a deep stack position if the opponent indicates pain in their neck or spine. Release immediately if the opponent taps for any reason during the stacking phase, even if no submission is being applied, as spinal compression injuries can occur independently of submission mechanics. Be especially cautious with training partners who have limited spinal flexibility or pre-existing cervical conditions."
+    "safety_considerations": "The stack pass places significant compressive force on the opponent's cervical spine and lower back as their hips are folded over their shoulders. Apply stacking pressure progressively during drilling rather than explosively to allow the training partner to signal discomfort before dangerous compression levels are reached. Never maintain a deep stack position if the opponent indicates pain in their neck or spine. Release immediately if the opponent taps for any reason during the stacking phase, even if no submission is being applied, as spinal compression injuries can occur independently of submission mechanics. Be especially cautious with training partners who have limited spinal flexibility or pre-existing cervical conditions.",
+    "clips": [
+      {
+        "id": "2KcAEYsaHAg",
+        "title": "Stack pass mechanics and finish",
+        "by": "Kenny Kim",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 88,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "xQIZEMLolpU",
+        "title": "Guard break into stack pass",
+        "by": "Einar Friðgeirs",
+        "vertical": false,
+        "channel": "Einar Friðgeirs",
+        "duration": 21,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Stack Pass from Clamp Guard Defender",
@@ -400,6 +420,17 @@
         "phase": "Phase 4: Full Integration",
         "focus": "Combined defense, counter-attack, and reguarding",
         "description": "Full positional sparring from established clamp guard against stack pass attempts at competition intensity. Bottom player integrates recognition, triangle counters, defensive framing, and reguarding into a complete defensive system. Alternate roles each round to build understanding of both perspectives and timing windows."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Y6R29wW_KrU",
+        "title": "Defending the stack pass in no-gi",
+        "by": "Matt Serra",
+        "vertical": false,
+        "channel": "Fernaldi Jonatan",
+        "duration": 158,
+        "verified": "2026-07-15"
       }
     ]
   }

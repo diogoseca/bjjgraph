@@ -378,6 +378,26 @@
         "answer": "In sweaty no-gi conditions, the palm-to-bicep grip can slip. Adjust by using a deeper gable grip variation where you clasp your hands together rather than palm-to-bicep, though this reduces some choking efficiency. Alternatively, dry your arms on your shorts or the mat before locking. The most reliable adjustment is ensuring your threading arm is deep enough that the lock is structural rather than grip-dependent—when the arm is fully through the armpit, the opponent's own body creates a shelf that prevents slipping. You can also use your chin pressed against the back of your threading hand to reinforce the lock.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "eEDKC2F3U2k",
+        "title": "Double stack pass to a Darce choke",
+        "by": "All Day MMA and Jiu Jitsu",
+        "vertical": false,
+        "channel": "All Day MMA and Jiu Jitsu ",
+        "duration": 85,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Rosmg5rjo_s",
+        "title": "Darce choke to guard pass",
+        "by": "Josh Presley",
+        "vertical": false,
+        "channel": "Josh Presley",
+        "duration": 121,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -513,6 +533,26 @@
         "phase": "Phase 4: Live Defensive Integration",
         "focus": "Applying Darce defense within live leg drag escape sequences",
         "description": "Positional sparring from leg drag bottom. Defender works normal leg drag escapes while maintaining awareness of Darce threats. Partner can attack Darce at any point. Builds the ability to defend submissions while working positional escapes simultaneously."
+      }
+    ],
+    "clips": [
+      {
+        "id": "FMAWiNfgp74",
+        "title": "Defending the Darce choke, stack escape",
+        "by": "BJJ101",
+        "vertical": false,
+        "channel": "BJJ101",
+        "duration": 30,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "cmaIzjv3QG8",
+        "title": "D'arce defense, belly down",
+        "by": "JitzLive",
+        "vertical": false,
+        "channel": "JitzLive",
+        "duration": 38,
+        "verified": "2026-07-14"
       }
     ]
   }

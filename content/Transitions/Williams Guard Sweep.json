@@ -294,7 +294,36 @@
         "answer": "A hip sprawl creates the exact hip angle needed for omoplata transition. When the opponent sprawls back, their hips clear your legs and their shoulder drops closer to the mat. Maintain the shoulder lock grip and rotate your hips underneath their sprawled body to begin the omoplata sequence. Their sprawl momentum actually assists the omoplata rotation. Alternatively, if they sprawl unevenly, the scissor leg sweep variation can exploit the asymmetric base created by partial sprawling."
       }
     ],
-    "safety_considerations": "The Williams Guard Sweep involves shoulder lock mechanics throughout the sweeping motion that place rotational stress on the opponent's shoulder joint. Controlled execution is essential to prevent shoulder injuries. Partners should communicate regarding shoulder flexibility limitations before drilling. When practicing, allow the sweep to complete rather than posting on a compromised arm, which risks shoulder strain or dislocation. Release shoulder lock pressure immediately if your partner taps during any phase of the sweep. Avoid explosive force application against locked shoulder joints, and increase sweep speed gradually as both partners develop comfort with the mechanics."
+    "safety_considerations": "The Williams Guard Sweep involves shoulder lock mechanics throughout the sweeping motion that place rotational stress on the opponent's shoulder joint. Controlled execution is essential to prevent shoulder injuries. Partners should communicate regarding shoulder flexibility limitations before drilling. When practicing, allow the sweep to complete rather than posting on a compromised arm, which risks shoulder strain or dislocation. Release shoulder lock pressure immediately if your partner taps during any phase of the sweep. Avoid explosive force application against locked shoulder joints, and increase sweep speed gradually as both partners develop comfort with the mechanics.",
+    "clips": [
+      {
+        "id": "vcO2z_awL5k",
+        "title": "Williams guard sweep variations",
+        "by": "UFAI Grappling",
+        "vertical": false,
+        "channel": "UFAI GRAPPLING",
+        "duration": 36,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Mfw8-mXM_JY",
+        "title": "Williams guard shoulder pin options",
+        "by": "Cross Fight",
+        "vertical": false,
+        "channel": "Cross Fight ",
+        "duration": 38,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "RQjhLboSn34",
+        "title": "Williams guard money sweep from closed guard",
+        "by": "Ralph Gracie BJJ",
+        "vertical": false,
+        "channel": "Ralph Gracie BJJ - San Jose & Santa Clara",
+        "duration": 129,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Williams Guard Sweep Defender",
@@ -418,6 +447,26 @@
         "phase": "Phase 4: Live Integration",
         "focus": "Full resistance positional sparring",
         "description": "Positional sparring starting in Williams Guard. Partner works full offensive system including sweep, shoulder lock, and alternative attacks. Defender works to survive, extract arm, and pass guard. Three-minute rounds with alternating roles. Track defensive success rate and identify recurring failure patterns."
+      }
+    ],
+    "clips": [
+      {
+        "id": "NZEf9jXzCYA",
+        "title": "Williams guard cartwheel escape counter",
+        "by": "Sam Wilkinson",
+        "vertical": false,
+        "channel": "Sam Wilkinson MMA",
+        "duration": 80,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "kNfVYhZbgrg",
+        "title": "Four levels of sweep defense",
+        "by": "Wim Deputter",
+        "vertical": false,
+        "channel": "Wim Deputter BJJ",
+        "duration": 87,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -349,6 +349,17 @@
       "systematic passing approach",
       "stack passing variations",
       "competition guard passing"
+    ],
+    "clips": [
+      {
+        "id": "Cx53Xl0SGC4",
+        "title": "Lasso Guard Knee Press Pass",
+        "by": "Roll 247",
+        "vertical": false,
+        "channel": "Roll 247",
+        "duration": 27,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -665,6 +676,35 @@
       "triangle entries from lasso",
       "omoplata setups",
       "competition guard systems"
+    ],
+    "clips": [
+      {
+        "id": "LwnoWDFJlN0",
+        "title": "Open Guard to Lasso Sweep",
+        "by": "Lucas Lepri",
+        "vertical": false,
+        "channel": "Lucas Lepri Brazilian Jiu Jitsu & Fitness",
+        "duration": 44,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "K4n_MQnR08c",
+        "title": "Lasso Guard to Arm Drag Sweep",
+        "by": "Xande Ribeiro",
+        "vertical": false,
+        "channel": "Riccardo Ammendolia",
+        "duration": 150,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "nHW1Sxvh_rI",
+        "title": "Lasso Guard Arm Drag to the Back",
+        "by": "OMJJJ",
+        "vertical": false,
+        "channel": "OMJJJ",
+        "duration": 79,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_family": [
@@ -729,6 +769,35 @@
     {
       "question": "What happens to the configuration when the opponent's posture breaks forward versus when they stay tall?",
       "answer": "Lasso Guard operates as a dual-threat dilemma driven by the opponent's posture. When the top player's posture breaks forward into the lasso, the trapped shoulder and bent posture open submission geometry such as triangle, omoplata, and armbar angles. When the top player stays tall and upright to avoid those submissions, they surrender base and expose themselves to off-balancing sweeps that exploit the perpendicular angle. Because each defensive posture opens the other line of attack, the opponent cannot simultaneously defend both, and this posture-dependent fork is the core shared dynamic that makes the position high-percentage."
+    }
+  ],
+  "clips": [
+    {
+      "id": "LwnoWDFJlN0",
+      "title": "Open Guard to Lasso Sweep",
+      "by": "Lucas Lepri",
+      "vertical": false,
+      "channel": "Lucas Lepri Brazilian Jiu Jitsu & Fitness",
+      "duration": 44,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "3zM3gZsUPWc",
+      "title": "Lasso Sweep from Closed Guard",
+      "by": "Ralph Gracie BJJ",
+      "vertical": false,
+      "channel": "Ralph Gracie BJJ - San Jose & Santa Clara",
+      "duration": 39,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "K4n_MQnR08c",
+      "title": "Lasso Guard to Arm Drag Sweep",
+      "by": "Xande Ribeiro",
+      "vertical": false,
+      "channel": "Riccardo Ammendolia",
+      "duration": 150,
+      "verified": "2026-07-14"
     }
   ]
 }

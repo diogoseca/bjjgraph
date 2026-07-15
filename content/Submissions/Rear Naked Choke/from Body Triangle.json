@@ -332,6 +332,26 @@
         "answer": "Use pulsing leg squeezes timed with arm advancement to split the defender's attention. When you strip a defensive grip, simultaneously pulse the triangle to prevent them from resetting their hands. During the final squeeze, coordinate leg and arm pressure together for maximum force multiplication. The defender cannot effectively address both breathing restriction and neck defense simultaneously, so alternating pressure between upper and lower body creates consistent advancement windows.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "3OkCuU0B0UE",
+        "title": "Attack the Back with a Body Triangle",
+        "by": "Grapple Box",
+        "vertical": false,
+        "channel": "Grapple Box llc",
+        "duration": 28,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "8JwxpgWGsFU",
+        "title": "How to Properly Use a Body Triangle",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Less Impressed More Involved BJJ",
+        "duration": 294,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -482,6 +502,35 @@
         "phase": "Phase 4: Full Defensive Rounds",
         "focus": "Complete defensive sequences against increasing resistance",
         "description": "Three-minute rounds starting from body triangle with partner attacking at progressive intensity. Practice complete defensive sequences from initial chin protection through choke defense to triangle clearing and guard recovery. Track survival time and escape success rate across sessions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "hgaULMND3ag",
+        "title": "Escaping the Body Triangle",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 129,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "ys398a2Trrw",
+        "title": "Escaping the Topside Body Triangle",
+        "by": "Fox Den Martial Arts",
+        "vertical": false,
+        "channel": "Fox Den Martial Arts",
+        "duration": 48,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "hCu7SXEaXjc",
+        "title": "Defending the Figure 4 from the Back",
+        "by": "Whangarei BJJ",
+        "vertical": false,
+        "channel": "Whangarei BJJ",
+        "duration": 67,
+        "verified": "2026-07-14"
       }
     ]
   }

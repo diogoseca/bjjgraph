@@ -276,7 +276,27 @@
         "answer": "Once the overhook is established with secondary control, every defensive response opens a different attack. If they pull their arm back to escape the overhook, the space created opens triangle and omoplata entries. If they post their free hand to stabilize their base, they become vulnerable to the overhook sweep. If they drive forward to stack, their momentum feeds your hip rotation for submissions. If they stay passive, you methodically improve angle and attack. This interlocking threat matrix means there is no single correct defense that solves all problems simultaneously."
       }
     ],
-    "safety_considerations": "This transition involves capturing and controlling the opponent's arm through an overhook grip. While generally low-risk compared to joint locks, be aware that aggressive overhook control combined with hip rotation can create shoulder pressure on the trapped arm. Release overhook pressure immediately if your partner indicates discomfort or taps. During drilling, establish the overhook smoothly without jerking the arm into position. Avoid excessive rotational force on the shoulder when combining overhook control with sweep attempts at full speed."
+    "safety_considerations": "This transition involves capturing and controlling the opponent's arm through an overhook grip. While generally low-risk compared to joint locks, be aware that aggressive overhook control combined with hip rotation can create shoulder pressure on the trapped arm. Release overhook pressure immediately if your partner indicates discomfort or taps. During drilling, establish the overhook smoothly without jerking the arm into position. Avoid excessive rotational force on the shoulder when combining overhook control with sweep attempts at full speed.",
+    "clips": [
+      {
+        "id": "UhYqXfpluYs",
+        "title": "Key detail to strengthen your closed guard",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 75,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "5J92PJO-dEo",
+        "title": "Overhook control from closed guard",
+        "by": "6am Jiu Jitsu",
+        "vertical": false,
+        "channel": "6am jiu jitsu, try it, it’s fun they said 🥋",
+        "duration": 114,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Closed Guard to Overhook Guard Defender",
@@ -394,6 +414,17 @@
         "phase": "Live Positional Defense",
         "focus": "Defending overhook establishment and extracting under full resistance",
         "description": "Positional sparring from closed guard where partner's objective is to establish overhook guard and attack. Your objective is to prevent establishment or extract and recover posture. Full resistance, 5-minute rounds. Practice chaining defensive responses when first extraction attempt fails."
+      }
+    ],
+    "clips": [
+      {
+        "id": "58LkTy6v3KQ",
+        "title": "Closed guard defense and counter to the overhook clamp",
+        "by": "The Grappling Bloke",
+        "vertical": false,
+        "channel": "The Grappling Bloke",
+        "duration": 109,
+        "verified": "2026-07-15"
       }
     ]
   }

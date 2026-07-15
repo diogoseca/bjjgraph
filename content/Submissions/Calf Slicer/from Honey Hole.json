@@ -330,6 +330,26 @@
         "answer": "The heel hook causes ligament damage through rotational force, and the damage onset is extremely sudden with minimal warning pain before catastrophic failure. The calf slicer causes progressive tissue compression damage that builds gradually, but the critical distinction is that significant calf muscle tearing can occur before maximum pain is perceived by the defender. The heel hook has a sharper failure point while the calf slicer has a broader damage zone. Both require immediate respect and early tapping, but the calf slicer's deceptive pain curve makes slow application in training absolutely essential.",
         "safety_critical": true
       }
+    ],
+    "clips": [
+      {
+        "id": "4hjnzSE-VgY",
+        "title": "Ham Sandwich to Honeyhole Calf Slicer",
+        "by": "Christopher Hendrick",
+        "vertical": false,
+        "channel": "Christopher Hendrick",
+        "duration": 113,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "IX7ABEXpMVw",
+        "title": "Calf Slicer: Bait, Enter and Finish",
+        "by": "Patrick Donabedian",
+        "vertical": false,
+        "channel": "Patrick Donabedian BJJ",
+        "duration": 164,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -457,6 +477,35 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Full resistance defense with tap awareness",
         "description": "Positional sparring starting in Honey Hole bottom with partner at 80% resistance. Partner can attack with any submission including calf slicer. Focus on surviving and escaping while maintaining awareness of when tapping is the appropriate defensive choice. Debrief each round to identify recognition delays."
+      }
+    ],
+    "clips": [
+      {
+        "id": "gEEHqiSznS4",
+        "title": "How to Escape the Honey Hole",
+        "by": "Vagner Rocha",
+        "vertical": false,
+        "channel": "Vagner Rocha Martial Arts - MMA Gym, BJJ School, Jiu Jitsu, Mixed Martial Arts, Kickboxing, Boxing Gym",
+        "duration": 60,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "XwndkdlPHwc",
+        "title": "Counter to Honey Hole",
+        "by": "Sonny Parlin",
+        "vertical": false,
+        "channel": "Sonny Parlin",
+        "duration": 65,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "VGNTi2hEvfc",
+        "title": "How To Defend & Escape the Leg-Lace/Cloverleaf",
+        "by": "jamielovesmartialarts",
+        "vertical": false,
+        "channel": "jamielovesmartialarts",
+        "duration": 78,
+        "verified": "2026-07-14"
       }
     ]
   }

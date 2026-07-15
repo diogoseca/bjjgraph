@@ -328,6 +328,26 @@
         "answer": "The point of no return occurs when the attacker has a deep two-handed heel cup with elbows tight to the ribs and begins external rotation with hip extension. At this stage, the knee ligaments are loaded and the defender cannot safely extract their heel or rotate their body to relieve pressure without risking ligament damage. The defender must tap before or at this moment. Once rotation begins with a locked grip, any defensive movement—including rolling—can accelerate ligament damage rather than relieve it.",
         "safety_critical": true
       }
+    ],
+    "clips": [
+      {
+        "id": "h_SRARh0B6U",
+        "title": "Cross ashi belly-down heel hook",
+        "by": "BOWERHOUSE MMA",
+        "vertical": false,
+        "channel": "BOWERHOUSE MMA",
+        "duration": 68,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "F-FTqEsE7v0",
+        "title": "Piano string finishing trick",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 46,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -451,6 +471,26 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Full defensive sequence under live conditions",
         "description": "Start in cross ashi-garami bottom against a partner attacking heel hooks at 70-90% intensity. Apply the complete defensive layering—boot defense, hand fighting, frame management, escape timing—under realistic pressure. Focus on surviving, escaping, or tapping safely. 3-minute rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "v3w0qXLKxug",
+        "title": "Defending heel hooks fundamentals",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 92,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "KmGhb2j68Ng",
+        "title": "Escaping outside ashi heel hook to back take",
+        "by": "Grapple Box",
+        "vertical": false,
+        "channel": "Grapple Box llc",
+        "duration": 34,
+        "verified": "2026-07-14"
       }
     ]
   }

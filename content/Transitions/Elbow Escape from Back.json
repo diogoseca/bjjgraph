@@ -284,7 +284,27 @@
         "answer": "The back door escape to turtle is the primary alternative when the elbow escape stalls. When the opponent tightens hooks to prevent your downward hip escape, their upper body control often loosens slightly, creating an opportunity to address the seatbelt and work toward sliding your back to the mat and escaping out the back door to turtle position. The opponent cannot simultaneously maximize hook defense and upper body control."
       }
     ],
-    "safety_considerations": "The elbow escape is a low-risk technique for both practitioners when performed correctly. The primary safety concern involves the neck defense phase where improper hand fighting during drilling can lead to accidental finger injuries or neck strain from sustained choking pressure. Partners should apply submissions with controlled pressure during training, allowing adequate time for the escaper to work through the sequence before fully committing to chokes. Avoid explosive bridging movements that can strain the lower back, and communicate clearly if experiencing breathing difficulty or choking discomfort. The turning phase requires controlled rotation to avoid knee strain on the trapped leg."
+    "safety_considerations": "The elbow escape is a low-risk technique for both practitioners when performed correctly. The primary safety concern involves the neck defense phase where improper hand fighting during drilling can lead to accidental finger injuries or neck strain from sustained choking pressure. Partners should apply submissions with controlled pressure during training, allowing adequate time for the escaper to work through the sequence before fully committing to chokes. Avoid explosive bridging movements that can strain the lower back, and communicate clearly if experiencing breathing difficulty or choking discomfort. The turning phase requires controlled rotation to avoid knee strain on the trapped leg.",
+    "clips": [
+      {
+        "id": "Pt6pcB6i8tU",
+        "title": "Escape back control with a 2-on-1",
+        "by": "John Connors",
+        "vertical": false,
+        "channel": "John Connors, Old Man BJJ Black Belt",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "zU2Baz5qm78",
+        "title": "Back escape into a half guard sweep",
+        "by": "Carpio Jiu Jitsu",
+        "vertical": false,
+        "channel": "Carpio Jiu Jitsu",
+        "duration": 190,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Elbow Escape from Back Defender",
@@ -401,6 +421,17 @@
         "phase": "Phase 4: Full Positional Sparring",
         "focus": "Integrated back control retention against all escape methods at full intensity",
         "description": "Full-speed positional sparring from back control where the bottom player uses all available escapes including elbow escape, back door escape, and shoulder walk. Practice maintaining control, recognizing which escape is being attempted, and applying the appropriate defensive response. Two-minute rounds with reset after escape or submission."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Rlk4mGg7vW4",
+        "title": "Maintaining back control with the hooks",
+        "by": "Gracie Charlottesville",
+        "vertical": false,
+        "channel": "Gracie Charlottesville",
+        "duration": 84,
+        "verified": "2026-07-15"
       }
     ]
   }

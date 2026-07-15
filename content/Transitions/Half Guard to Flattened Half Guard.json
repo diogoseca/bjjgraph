@@ -303,7 +303,27 @@
         "answer": "Chest and hip pressure must work as a unified system distributed across a broad base. Using only chest pressure allows hip escape opportunities because your hips are too high. Using only hip pressure leaves their upper body free to frame and create angles. Drive pressure through both simultaneously, with your hips staying low and heavy while your chest drives forward through the crossface connection. This broad pressure base limits their mobility in all directions."
       }
     ],
-    "safety_considerations": "This technique involves sustained chest pressure that restricts your training partner's breathing. Always monitor your partner's comfort level and be responsive to tapping, which may indicate breathing distress rather than a submission. Avoid driving excessive pressure directly onto the throat or trachea through the crossface. In drilling, use moderate pressure that allows your partner to breathe shallowly rather than full competition-intensity pressure. Communicate with your training partner about pressure levels and allow breaks when needed. The crossface should pressure the jaw and cheek, not the neck or windpipe."
+    "safety_considerations": "This technique involves sustained chest pressure that restricts your training partner's breathing. Always monitor your partner's comfort level and be responsive to tapping, which may indicate breathing distress rather than a submission. Avoid driving excessive pressure directly onto the throat or trachea through the crossface. In drilling, use moderate pressure that allows your partner to breathe shallowly rather than full competition-intensity pressure. Communicate with your training partner about pressure levels and allow breaks when needed. The crossface should pressure the jaw and cheek, not the neck or windpipe.",
+    "clips": [
+      {
+        "id": "PTe4-NhLXf8",
+        "title": "Shallow cross face to flatten the bottom player",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 24,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "gHD03vpWGSM",
+        "title": "Building a tight cross face to flatten half guard",
+        "by": "Escapology BJJ coach",
+        "vertical": false,
+        "channel": "Escapology BJJ",
+        "duration": 119,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Half Guard to Flattened Half Guard Defender",
@@ -440,6 +460,17 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Applying defensive techniques under full resistance",
         "description": "Full resistance positional sparring starting in half guard bottom. Top player's goal is to flatten and pass. Bottom player's goal is to prevent flattening and either maintain active half guard or sweep. Rounds of 2-3 minutes with position resets. Focus on early recognition, frame maintenance, and timely transitions between defensive layers."
+      }
+    ],
+    "clips": [
+      {
+        "id": "NWie1oi3JSg",
+        "title": "Recovering when you get flattened in half guard",
+        "by": "Inverted Gear coach",
+        "vertical": false,
+        "channel": "Inverted Gear",
+        "duration": 274,
+        "verified": "2026-07-15"
       }
     ]
   }

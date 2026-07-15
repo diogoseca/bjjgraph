@@ -321,7 +321,27 @@
         "answer": "The 50-50 guard creates bilateral entanglement where both players have mirrored leg control, meaning your extraction attempt also exposes your free leg to being caught since the opponent has control structures on both sides. You must address two sets of hooks rather than one, and the opponent can transition between attacking your original trapped leg and your free leg as you attempt to clear. The extraction from 50-50 typically requires first achieving asymmetric advantage — either by getting your hips above the opponent's hips or by clearing one side of the entanglement to create an inside ashi configuration before attempting full extraction. Direct extraction from neutral 50-50 has a low success rate because the opponent can simply mirror your clearing motions."
       }
     ],
-    "safety_considerations": "The Leg Extraction Pass involves movement within active leg entanglement positions where submissions such as heel hooks, kneebars, and ankle locks are live threats. Never attempt explosive ripping motions to free your leg, as this can cause injury to your own knee ligaments if the opponent maintains their grip during the jerky motion. Always neutralize heel grips before beginning extraction — attempting to extract while the opponent holds a heel hook grip can provide the rotational force that completes their submission and causes serious knee injury. Train extraction mechanics initially with cooperative partners who release submissions when you tap, and gradually increase resistance only as the mechanics become reliable. Be aware that your training partner's knees are also at risk during extraction drilling, as the straightening and rotational forces involved can stress their joints if they maintain grips too long against a resisting extraction."
+    "safety_considerations": "The Leg Extraction Pass involves movement within active leg entanglement positions where submissions such as heel hooks, kneebars, and ankle locks are live threats. Never attempt explosive ripping motions to free your leg, as this can cause injury to your own knee ligaments if the opponent maintains their grip during the jerky motion. Always neutralize heel grips before beginning extraction — attempting to extract while the opponent holds a heel hook grip can provide the rotational force that completes their submission and causes serious knee injury. Train extraction mechanics initially with cooperative partners who release submissions when you tap, and gradually increase resistance only as the mechanics become reliable. Be aware that your training partner's knees are also at risk during extraction drilling, as the straightening and rotational forces involved can stress their joints if they maintain grips too long against a resisting extraction.",
+    "clips": [
+      {
+        "id": "KcA6VYd8J2c",
+        "title": "Backstep from primary leg extraction",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 115,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "mZp355NAIYk",
+        "title": "Ashi garami defense and counter pass",
+        "by": "The Grappling Bloke",
+        "vertical": false,
+        "channel": "The Grappling Bloke",
+        "duration": 111,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Leg Extraction Pass Defender",
@@ -442,6 +462,17 @@
         "phase": "Phase 4: Full Resistance Defense",
         "focus": "Complete defensive system against live extraction attempts",
         "description": "Full positional sparring from leg entanglement positions. Partner commits fully to extraction while you employ the complete defensive toolkit: hook retention, entanglement transitions, submission threats, sweep attempts, and half guard recovery when extraction succeeds. Track the percentage of exchanges where you maintain the entanglement versus being passed."
+      }
+    ],
+    "clips": [
+      {
+        "id": "tLcHN042w48",
+        "title": "Outside heel hook finish from irimi and outside ashi",
+        "by": "Fox Den Martial Arts",
+        "vertical": false,
+        "channel": "Fox Den Martial Arts",
+        "duration": 86,
+        "verified": "2026-07-15"
       }
     ]
   }

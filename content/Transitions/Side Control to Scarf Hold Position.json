@@ -305,7 +305,36 @@
         "answer": "Initiate an americana attack on the near arm from standard side control. The opponent must defend by pulling their elbow tight and turning their arm inward. This defensive reaction actually pre-isolates the arm in the exact configuration needed for scarf hold entry. As they commit to the americana defense, use the opportunity to thread your arm deeper under theirs and begin the hip rotation. The opponent faces a dilemma: release the americana defense and risk the submission, or maintain the defense and allow you to complete the transition to scarf hold where the arm is already trapped in an even more compromised position."
       }
     ],
-    "safety_considerations": "This transition involves significant pressure on the opponent's ribcage and chest, which can restrict breathing. Be attentive to your training partner's breathing and tap signals throughout. When drilling, apply pressure gradually rather than dropping full weight immediately. Avoid cranking the head wrap aggressively, as excessive neck torque can cause cervical strain. During live training, be prepared to release pressure if your partner signals distress, and communicate clearly about intensity levels before beginning positional drilling."
+    "safety_considerations": "This transition involves significant pressure on the opponent's ribcage and chest, which can restrict breathing. Be attentive to your training partner's breathing and tap signals throughout. When drilling, apply pressure gradually rather than dropping full weight immediately. Avoid cranking the head wrap aggressively, as excessive neck torque can cause cervical strain. During live training, be prepared to release pressure if your partner signals distress, and communicate clearly about intensity levels before beginning positional drilling.",
+    "clips": [
+      {
+        "id": "SzLuqtw6lpE",
+        "title": "Side control to scarf hold position",
+        "by": "TRITAC Martial Arts",
+        "vertical": false,
+        "channel": "TRITAC Martial Arts",
+        "duration": 104,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fB7gGDIm1i8",
+        "title": "Kesa gatame attack series",
+        "by": "Johnny Jitsu",
+        "vertical": false,
+        "channel": "Johnny Jitsu",
+        "duration": 88,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "JAB5RcnA7ds",
+        "title": "Kubi nage throw into kesa gatame",
+        "by": "JBBA Judo Education",
+        "vertical": false,
+        "channel": "JBBA Judo Education Channel",
+        "duration": 137,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Side Control to Scarf Hold Position Defender",
@@ -426,6 +455,35 @@
         "phase": "Phase 4: Recovery Chain Training",
         "focus": "Escaping when defense fails and scarf hold is established",
         "description": "Partner successfully establishes scarf hold. Practice the complete escape sequence from consolidated scarf hold including bridge-and-roll, backdoor escape to turtle, and guard recovery. Build contingency skills for when the transition defense fails."
+      }
+    ],
+    "clips": [
+      {
+        "id": "C98ztdlur4E",
+        "title": "Escape kesa gatame with bridge and roll",
+        "by": "Judo Life instructor",
+        "vertical": false,
+        "channel": "Judo Life",
+        "duration": 77,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dQQby7IUiDA",
+        "title": "How to escape the kesa gatame hold",
+        "by": "Andy Ede",
+        "vertical": false,
+        "channel": "WESTCROFT JUDO CLUB - ANDY EDE",
+        "duration": 68,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fOEaHj3d0l8",
+        "title": "Kesa gatame escape",
+        "by": "Modesto Judo Club instructor",
+        "vertical": false,
+        "channel": "Modesto Judo Club",
+        "duration": 52,
+        "verified": "2026-07-15"
       }
     ]
   }

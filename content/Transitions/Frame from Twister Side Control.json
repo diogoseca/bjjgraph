@@ -276,7 +276,27 @@
         "answer": "Switch from the extended frame to a compact elbow-knee connection frame for structural resilience, and if the top player commits weight forward to collapse it, redirect that momentum into a hip escape away from the pressure or a granby roll that changes the angle of engagement entirely toward open guard. The principle is to adapt frame type and force direction rather than forcing the same collapsed structure repeatedly."
       }
     ],
-    "safety_considerations": "Frame escape from twister side control involves managing significant spinal rotation forces. Never attempt explosive bridging movements while under active twister torque, as this can amplify rotational stress on the cervical and thoracic spine. If the twister submission is fully locked and you cannot prevent spinal rotation through framing, tap immediately rather than risk neck or spine injury. During training, communicate with your partner about the intensity of spinal pressure and use controlled resistance progressions. Begin all drills with light resistance and increase gradually as technique proficiency develops."
+    "safety_considerations": "Frame escape from twister side control involves managing significant spinal rotation forces. Never attempt explosive bridging movements while under active twister torque, as this can amplify rotational stress on the cervical and thoracic spine. If the twister submission is fully locked and you cannot prevent spinal rotation through framing, tap immediately rather than risk neck or spine injury. During training, communicate with your partner about the intensity of spinal pressure and use controlled resistance progressions. Begin all drills with light resistance and increase gradually as technique proficiency develops.",
+    "clips": [
+      {
+        "id": "AUyR1rmVzo4",
+        "title": "Escaping twister side control",
+        "by": "Robot Dolphin Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Robot Dolphin Jiu-Jitsu ",
+        "duration": 205,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "hXp34AtDjac",
+        "title": "Reverse scarf hold escape from twister side control",
+        "by": "Black Dragon BJJ",
+        "vertical": false,
+        "channel": "Black Dragon BJJ  / Cobra Kai Karate Dungannon",
+        "duration": 291,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Frame from Twister Side Control Defender",
@@ -385,6 +405,17 @@
         "phase": "Dynamic Defense",
         "focus": "Submission pursuit during escape attempts",
         "description": "Full positional sparring where the bottom player actively attempts the frame escape. Focus on maintaining control while recognizing and exploiting submission opportunities that arise during the escape attempt. Balance between re-establishing control and attacking openings created by escape movements."
+      }
+    ],
+    "clips": [
+      {
+        "id": "R55lmkc6Mus",
+        "title": "Holding twister side control",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 87,
+        "verified": "2026-07-15"
       }
     ]
   }

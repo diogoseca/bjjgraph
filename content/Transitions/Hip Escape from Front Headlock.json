@@ -305,7 +305,36 @@
         "answer": "When one arm is trapped, use your free hand exclusively for the hip frame rather than splitting duties between frame and arm control. Bridge harder to create more initial space since you cannot hand fight the choking arm. Focus the hip escape on creating enough angle to extract the trapped arm during the movement. As your hips slide laterally, the trapped arm often comes free naturally as the angle changes. If the arm remains trapped, prioritize escaping to half guard with a single leg hook rather than attempting full closed guard, as half guard provides enough defensive structure to then work on freeing the arm."
       }
     ],
-    "safety_considerations": "The hip escape from front headlock involves movements around the neck and cervical spine, requiring careful attention to safety during training. Always tap immediately if a choke tightens during the escape attempt rather than forcing through it. When drilling, partners should apply front headlock pressure gradually and communicate about comfort levels with neck compression. Avoid explosive jerking movements of the head or neck during the escape. If you experience any tingling, numbness, or sharp pain in the neck area during practice, stop immediately and consult a medical professional. Train the timing and mechanics at slow speed before adding resistance to prevent neck injuries from poorly timed escape attempts under heavy pressure."
+    "safety_considerations": "The hip escape from front headlock involves movements around the neck and cervical spine, requiring careful attention to safety during training. Always tap immediately if a choke tightens during the escape attempt rather than forcing through it. When drilling, partners should apply front headlock pressure gradually and communicate about comfort levels with neck compression. Avoid explosive jerking movements of the head or neck during the escape. If you experience any tingling, numbness, or sharp pain in the neck area during practice, stop immediately and consult a medical professional. Train the timing and mechanics at slow speed before adding resistance to prevent neck injuries from poorly timed escape attempts under heavy pressure.",
+    "clips": [
+      {
+        "id": "OZkTT8kT1G8",
+        "title": "Clearing the front headlock",
+        "by": "School of Wrestling coach",
+        "vertical": false,
+        "channel": "The School of Wrestling",
+        "duration": 86,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "tv6NE67Zwk0",
+        "title": "Front headlock escape back to the knees",
+        "by": "Prodigy MMA coach",
+        "vertical": false,
+        "channel": "Prodigy MMA Australia",
+        "duration": 107,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "VZe2GY0_UIk",
+        "title": "Short drag front headlock escape",
+        "by": "Mason Parris",
+        "vertical": false,
+        "channel": "Merge Grappling",
+        "duration": 176,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Hip Escape from Front Headlock Defender",
@@ -427,6 +456,26 @@
         "phase": "Phase 4: Full Resistance Positional Sparring",
         "focus": "Applying all defensive concepts against live resistance",
         "description": "Positional sparring from front headlock with partner attempting all available escapes including hip escape, sit-through, granby roll, and standup. Practice reading which escape is being attempted and selecting the appropriate counter. Track retention rate and advancement rate across multiple rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "87l6l0dmPWM",
+        "title": "Front headlock to the back as they escape",
+        "by": "Coach Casey",
+        "vertical": false,
+        "channel": "Coach “Coach Casey” Casey",
+        "duration": 52,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "HiyveeWT9QQ",
+        "title": "Front headlock to side control",
+        "by": "Pineapple MMA coach",
+        "vertical": false,
+        "channel": "Pineapple MMA",
+        "duration": 160,
+        "verified": "2026-07-15"
       }
     ]
   }

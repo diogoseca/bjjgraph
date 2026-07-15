@@ -301,7 +301,36 @@
         "answer": "Immediately abort the pummeling sequence and return to pure heel defense. Retract your free leg to guard the heel if it was committed to the pummel. Use both hands to fight the heel grip—strip at the thumbs with two-on-one grip fighting. Rotate your knee inward to hide the heel. The positional progress from pummeling is meaningless if the opponent finishes the heel hook during the transition. Only resume pummeling after the submission threat is fully addressed and the opponent returns to positional control."
       }
     ],
-    "safety_considerations": "Leg pummeling from saddle involves transitional movement through positions with high knee ligament injury risk. Never attempt pummeling when the opponent has already secured a finishing heel hook grip with rotational pressure—tap immediately in this scenario. Throughout the pummeling sequence, maintain strict heel protection and avoid any explosive pulling of the trapped leg away from the opponent, as this creates the kinetic energy that magnifies joint damage. If you feel any sharp pain in the knee during the transition, stop immediately and tap. Train this technique under qualified instruction with progressive resistance, and always communicate clearly with training partners about the danger level of the position."
+    "safety_considerations": "Leg pummeling from saddle involves transitional movement through positions with high knee ligament injury risk. Never attempt pummeling when the opponent has already secured a finishing heel hook grip with rotational pressure—tap immediately in this scenario. Throughout the pummeling sequence, maintain strict heel protection and avoid any explosive pulling of the trapped leg away from the opponent, as this creates the kinetic energy that magnifies joint damage. If you feel any sharp pain in the knee during the transition, stop immediately and tap. Train this technique under qualified instruction with progressive resistance, and always communicate clearly with training partners about the danger level of the position.",
+    "clips": [
+      {
+        "id": "DBbSqQf6iCo",
+        "title": "Rolling under to backside 50/50 from saddle",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 110,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "zl-OLGxkKo0",
+        "title": "Pummeling from 50/50 to outside sankaku",
+        "by": "Jamie",
+        "vertical": false,
+        "channel": "jamielovesmartialarts",
+        "duration": 57,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "K5XhO7o5QN0",
+        "title": "Saddle entries from guard",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 66,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Leg Pummeling from Saddle Defender",
@@ -422,6 +451,35 @@
         "phase": "Phase 4: Live Positional Rounds",
         "focus": "Full resistance saddle retention against all escape methods",
         "description": "Start in established saddle against fully resisting opponents who use all available escape methods including leg pummeling. Track which escapes succeed most often and identify defensive gaps. Three-minute rounds with reset to saddle. Goal is maintaining saddle or finishing the submission in 80% of attempts against training-level resistance."
+      }
+    ],
+    "clips": [
+      {
+        "id": "QMgsMSTRSBI",
+        "title": "Five leglock counters to ashi garami",
+        "by": "BJJ Black Belt Dad",
+        "vertical": false,
+        "channel": "BJJBlackBeltDad",
+        "duration": 93,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "yUdB-EJaXgQ",
+        "title": "Heel hook defense vs ankle lock defense",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "The Grapplers Guide by Jason Scully",
+        "duration": 133,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "mNM7ADt_fcg",
+        "title": "Anti leg lock game basics",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 15,
+        "verified": "2026-07-15"
       }
     ]
   }

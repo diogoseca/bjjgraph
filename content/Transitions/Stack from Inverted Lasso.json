@@ -291,7 +291,27 @@
         "answer": "The free leg is the bottom player's primary counter-attack mechanism during a stack attempt. Without control, they can post it on your hip to block forward compression, thread it behind your back to initiate berimbolo rotation, or use it to create angular momentum for sweeps. Pinning or controlling the free leg before committing to the forward drive removes their ability to steer, redirect, or counter the compression, transforming the stack from a contested exchange into a controlled progression."
       }
     ],
-    "safety_considerations": "Stack passing creates significant spinal compression on the bottom player, particularly in the cervical and thoracic regions. Control the pace of compression to avoid forcing the opponent's spine beyond safe range of motion. Monitor your partner's neck position throughout — if their neck is bearing weight rather than their shoulders, reduce pressure immediately. The bottom player should tap or verbally signal if they feel unsafe cervical pressure, and the top player must release compression promptly when any discomfort is communicated. Avoid explosive driving motions that could cause whiplash-type injury, and never bounce or slam into the compression. In training, build pressure gradually rather than crashing into the stack."
+    "safety_considerations": "Stack passing creates significant spinal compression on the bottom player, particularly in the cervical and thoracic regions. Control the pace of compression to avoid forcing the opponent's spine beyond safe range of motion. Monitor your partner's neck position throughout — if their neck is bearing weight rather than their shoulders, reduce pressure immediately. The bottom player should tap or verbally signal if they feel unsafe cervical pressure, and the top player must release compression promptly when any discomfort is communicated. Avoid explosive driving motions that could cause whiplash-type injury, and never bounce or slam into the compression. In training, build pressure gradually rather than crashing into the stack.",
+    "clips": [
+      {
+        "id": "EdLPqtAm5yQ",
+        "title": "Pressure passing the lasso guard",
+        "by": "Alberto Serrano",
+        "vertical": false,
+        "channel": "Alberto Serrano BJJ",
+        "duration": 123,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "krtNPm3OXtc",
+        "title": "Over-under stack pass vs De La Riva",
+        "by": "Balance BJJ",
+        "vertical": false,
+        "channel": "geministeven",
+        "duration": 163,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Stack from Inverted Lasso Defender",
@@ -413,6 +433,26 @@
         "phase": "Phase 4: Full-Speed Defense",
         "focus": "Integrating all defensive options under realistic pressure and speed",
         "description": "Partner attempts stack pass at full speed from inverted lasso guard. Defend using the complete defensive toolkit with real-time decision-making. Focus on maintaining lasso hook throughout all defensive exchanges and recognizing when to transition between defensive strategies. 5-minute rounds with role switching."
+      }
+    ],
+    "clips": [
+      {
+        "id": "dH6Cj-nv3vU",
+        "title": "Shoulder lock while defending the stack pass",
+        "by": "Tony Casarez",
+        "vertical": false,
+        "channel": "Tony Casarez",
+        "duration": 62,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "T_GhZe_MOWI",
+        "title": "Grip chain for guard retention",
+        "by": "Xande Ribeiro",
+        "vertical": false,
+        "channel": "XANDE RIBEIRO",
+        "duration": 174,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -291,7 +291,36 @@
         "answer": "If they posture up to prevent the entry, attack with the sickle sweep or pendulum sweep using the lasso leverage. If they drive forward to stack, redirect into a triangle by throwing the non-lasso leg over their neck. If they step over the rotating leg, hook their leg and sweep laterally. If they retract the arm completely and break the lasso, transition to spider guard or De La Riva using whatever grip remains. Each defensive response opens a specific chain attack."
       }
     ],
-    "safety_considerations": "The omoplata entry from lasso involves significant rotational force on the opponent's shoulder joint. During drilling, execute the hip rotation at controlled speed and pause before applying finishing pressure to allow your partner to tap or verbally signal discomfort. The transition from lasso to omoplata can happen quickly, and the shoulder can be compromised before either partner fully recognizes the danger. In competition, maintain control throughout the transition to prevent your own knee or ankle from being trapped during the rotation. Always tap early when caught in the omoplata position during training."
+    "safety_considerations": "The omoplata entry from lasso involves significant rotational force on the opponent's shoulder joint. During drilling, execute the hip rotation at controlled speed and pause before applying finishing pressure to allow your partner to tap or verbally signal discomfort. The transition from lasso to omoplata can happen quickly, and the shoulder can be compromised before either partner fully recognizes the danger. In competition, maintain control throughout the transition to prevent your own knee or ankle from being trapped during the rotation. Always tap early when caught in the omoplata position during training.",
+    "clips": [
+      {
+        "id": "P_Utuxeq7uo",
+        "title": "Lasso guard to omoplata",
+        "by": "Adam Wardzinski",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 37,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "U_CEhwz8EpQ",
+        "title": "Omoplata from lasso guard",
+        "by": "Claudia do Val",
+        "vertical": false,
+        "channel": "Cláudia do Val",
+        "duration": 49,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "FCdFl9aAiUg",
+        "title": "No-gi lasso omoplata",
+        "by": "Asaf Mich",
+        "vertical": false,
+        "channel": "Asaf Mich",
+        "duration": 49,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Omoplata from Lasso Defender",
@@ -426,6 +455,35 @@
         "phase": "Phase 5: Integrated Defense",
         "focus": "Full resistance lasso guard defense with omoplata awareness",
         "description": "Situational sparring starting in lasso guard top. Partner freely attacks with all lasso options including the omoplata. Practice integrating omoplata defense into your overall lasso passing strategy. Goal is passing the guard while defending all submission and sweep threats."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ocIHY3jBYIQ",
+        "title": "Best way to escape the omoplata",
+        "by": "John Connors",
+        "vertical": false,
+        "channel": "John Connors, Old Man BJJ Black Belt",
+        "duration": 62,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_2dhd21ffbc",
+        "title": "Omoplata escape by jumping over",
+        "by": "Ritchie Yip",
+        "vertical": false,
+        "channel": "Ritchie Yip",
+        "duration": 8,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "jKdERMTQqPY",
+        "title": "Escaping a deep omoplata",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 72,
+        "verified": "2026-07-15"
       }
     ]
   }

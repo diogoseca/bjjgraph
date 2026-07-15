@@ -255,7 +255,36 @@
         "answer": "Rising onto your hips lifts your chest off the opponent, removing the pressure that keeps them flat and simultaneously opening both the deep half guard dive and the underhook sit-up. To avoid it, keep your hips low and your chest connected throughout, driving the knee forward along the mat rather than lifting up to step it over. Pressure must never lighten during the thread - the entry is a low, connected slide, not a high step."
       }
     ],
-    "safety_considerations": "This entry is mechanically safe for both players when threaded with control. The main concern is the knee-threading leg: drive it between the opponent's legs deliberately rather than kicking it through, since an uncontrolled knee can strike the partner's inner thigh, groin, or tailbone. The cross-face should pressure the jaw and cheek, never the throat or eyes, and should be applied with steady weight rather than a sudden crank to the neck. During the deep half counter, control your descent so you do not collapse your weight onto the partner's diving head or neck. Beginners should drill the thread slowly at low resistance to learn the under-weave path before adding pressure, protecting both partners' knees and the bottom player's neck."
+    "safety_considerations": "This entry is mechanically safe for both players when threaded with control. The main concern is the knee-threading leg: drive it between the opponent's legs deliberately rather than kicking it through, since an uncontrolled knee can strike the partner's inner thigh, groin, or tailbone. The cross-face should pressure the jaw and cheek, never the throat or eyes, and should be applied with steady weight rather than a sudden crank to the neck. During the deep half counter, control your descent so you do not collapse your weight onto the partner's diving head or neck. Beginners should drill the thread slowly at low resistance to learn the under-weave path before adding pressure, protecting both partners' knees and the bottom player's neck.",
+    "clips": [
+      {
+        "id": "agDvokcjm5o",
+        "title": "High step out of half guard",
+        "by": "Hellfish MMA",
+        "vertical": false,
+        "channel": "Hellfish Mixed Martial Arts",
+        "duration": 88,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_XjuF0no1Uw",
+        "title": "The most basic half guard pass, no-gi",
+        "by": "Danny Mitchell",
+        "vertical": false,
+        "channel": "Danny Mitchell MMA",
+        "duration": 89,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "4LIBFmas-oE",
+        "title": "Passing knee shield with the leg weave pass",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 153,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Half Guard to Leg Weave Defender",
@@ -370,6 +399,35 @@
         "phase": "Month 3+: Live Half Guard Bottom Sparring",
         "focus": "Full-resistance defense of the entry from half guard bottom",
         "description": "Start in half guard bottom with full resistance. The top player works the complete leg weave entry and passing chain. Defend by winning the underhook, blocking the thread, and choosing deep half, knee shield, or come-up counters under live pressure. 5-minute rounds with reset after each completed pass or successful defense."
+      }
+    ],
+    "clips": [
+      {
+        "id": "tO5rPtjfsGE",
+        "title": "Prevent the leg weave with the lasso",
+        "by": "Grand Union Jiu Jitsu",
+        "vertical": false,
+        "channel": "Grand Union Jiu Jitsu",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "06-ZO93fJak",
+        "title": "Head frame to prevent the hug pass",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 90,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "9i-U4ivd108",
+        "title": "3-step defensive counter to the weave pass",
+        "by": "Pendergrass Academy",
+        "vertical": false,
+        "channel": "Pendergrass Academy of Martial Arts",
+        "duration": 116,
+        "verified": "2026-07-15"
       }
     ]
   },

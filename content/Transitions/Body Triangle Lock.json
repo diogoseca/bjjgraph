@@ -245,7 +245,27 @@
         "answer": "Positioning the body triangle too high across the floating ribs and then squeezing creates fracture risk. Avoid this by threading low across the midsection, targeting the area below the ribcage at the waistline level. Focus on using hip extension for pressure rather than squeezing with your legs."
       }
     ],
-    "safety_considerations": "The body triangle position can generate significant compression pressure on the torso, creating potential for rib injuries if positioned incorrectly. Always thread the body triangle across the lower midsection below the floating ribs rather than across the ribcage. In training, communicate with partners about pressure levels and release immediately if they tap or signal discomfort. Avoid explosive squeezing or cranking motions - control should come from sustained positional pressure. Practitioners with rib injuries should avoid this position until fully healed. When drilling, start with light pressure and progressively increase as partners adapt."
+    "safety_considerations": "The body triangle position can generate significant compression pressure on the torso, creating potential for rib injuries if positioned incorrectly. Always thread the body triangle across the lower midsection below the floating ribs rather than across the ribcage. In training, communicate with partners about pressure levels and release immediately if they tap or signal discomfort. Avoid explosive squeezing or cranking motions - control should come from sustained positional pressure. Practitioners with rib injuries should avoid this position until fully healed. When drilling, start with light pressure and progressively increase as partners adapt.",
+    "clips": [
+      {
+        "id": "3OkCuU0B0UE",
+        "title": "Attacking the back with a body triangle",
+        "by": "Grapple Box coach",
+        "vertical": false,
+        "channel": "Grapple Box llc",
+        "duration": 28,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "t85-T9z_evY",
+        "title": "Body triangle with shoulder lock",
+        "by": "Demian Maia",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 195,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Body Triangle Lock Defender",
@@ -365,6 +385,35 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring from Gift Wrap",
         "description": "Start every round in Gift Wrap bottom position. Attacker attempts body triangle lock and other attacks at full intensity. Defender works all defensive options and escape chains under realistic conditions. Track success rate of preventing body triangle establishment versus times it locks."
+      }
+    ],
+    "clips": [
+      {
+        "id": "hgaULMND3ag",
+        "title": "Escaping the body triangle",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 129,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "VYef5MPcNZA",
+        "title": "Body triangle ankle trap escape",
+        "by": "Garry Tonon and Gordon Ryan",
+        "vertical": false,
+        "channel": "MastersmokeABUSE",
+        "duration": 144,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Dc3sgOZddOg",
+        "title": "Escaping the body triangle from back control",
+        "by": "Coach Ben",
+        "vertical": false,
+        "channel": "Coach Ben BJJ",
+        "duration": 138,
+        "verified": "2026-07-15"
       }
     ]
   },

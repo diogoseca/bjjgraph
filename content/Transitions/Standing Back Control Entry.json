@@ -292,7 +292,18 @@
         "answer": "Hip-to-hip connection transfers your entire body weight to the opponent and creates a mechanical bond that is far stronger than any grip. Arms fatigue quickly under load and can be stripped through hand fighting, but hip connection uses your core and structural alignment to maintain position. The hips also serve as the primary following mechanism during the vertical transition, allowing you to track the opponent's upward movement through physical contact rather than chasing them with your upper body."
       }
     ],
-    "safety_considerations": "Standing back control transitions involve significant fall risk for both practitioners. Never attempt to slam or suplex the opponent during the transition, which is illegal in most rulesets and extremely dangerous. Both practitioners should be aware of their surroundings and mat space to avoid falling off elevated surfaces or into other training pairs. When drilling, start with slow cooperative movement before adding resistance, and always ensure adequate mat coverage beneath the training area. The attacker should never hang their full weight on the opponent's neck or use excessive force to prevent standing."
+    "safety_considerations": "Standing back control transitions involve significant fall risk for both practitioners. Never attempt to slam or suplex the opponent during the transition, which is illegal in most rulesets and extremely dangerous. Both practitioners should be aware of their surroundings and mat space to avoid falling off elevated surfaces or into other training pairs. When drilling, start with slow cooperative movement before adding resistance, and always ensure adequate mat coverage beneath the training area. The attacker should never hang their full weight on the opponent's neck or use excessive force to prevent standing.",
+    "clips": [
+      {
+        "id": "f6o0MecKxOU",
+        "title": "The Dagestani drag to the back from standing",
+        "by": "Wrestling University",
+        "vertical": false,
+        "channel": "Wrestling University - Takedowns for Jiu Jitsu",
+        "duration": 84,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Standing Back Control Entry Defender",
@@ -412,6 +423,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Integrating defense into live rolling",
         "description": "Start in grounded back control bottom and work escape attempts. When partner follows to standing, apply defensive actions in real-time against fully resisting partner. Evaluate which defensive option works best against different attacker styles and adjust approach."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kZd9bvSgaHc",
+        "title": "Escaping standing back control",
+        "by": "Carrero BJJ",
+        "vertical": false,
+        "channel": "Freedom Jiu Jitsu",
+        "duration": 56,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "rlJlNeccbEw",
+        "title": "Standing rear naked choke defense",
+        "by": "SAMA Self Defense",
+        "vertical": false,
+        "channel": "SAMA Self Defense",
+        "duration": 20,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "I43ALzc733w",
+        "title": "Escaping back control",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 71,
+        "verified": "2026-07-15"
       }
     ]
   }

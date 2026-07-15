@@ -197,5 +197,34 @@
       "name": "Open Guard",
       "relationship": "Position defender may recover to when successfully escaping the ankle lock attempt"
     }
+  ],
+  "clips": [
+    {
+      "id": "-VpByetjzqs",
+      "title": "Backside Foot Finish Mechanics",
+      "by": "Mikey Musumeci",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 84,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "PsyAVXfRhyY",
+      "title": "Straight Ankle Lock",
+      "by": "bjjtaro",
+      "vertical": false,
+      "channel": "bjjtaro",
+      "duration": 16,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "GVwnRuiKk-Y",
+      "title": "Fast Straight Ankle Lock (No-Gi)",
+      "by": "Everythingbjj",
+      "vertical": false,
+      "channel": "Everythingbjj",
+      "duration": 64,
+      "verified": "2026-07-14"
+    }
   ]
 }

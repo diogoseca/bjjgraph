@@ -289,7 +289,36 @@
         "answer": "If your stepping leg is hooked, do not try to forcefully pull it free as this creates instability. Instead, use your posted hand to strip their hooking leg while maintaining your crossface anchor. If the hook cannot be stripped, settle your weight down and transition to a leg entanglement or half guard top position using the leg contact. Alternatively, reverse the stepping direction and extract your original trapped leg forward for a conventional pass, since their focus on hooking your step created a defensive gap on the forward side."
       }
     ],
-    "safety_considerations": "The backstep involves significant rotational forces on both players' knees during the stepping phase. The top player must control their descent to avoid landing with full weight on the bottom player's head or neck during the rotation. Both players should be aware of knee torque during the trapped leg extraction, particularly if the trapped leg does not release cleanly as the hips rotate. Practice at controlled speeds before adding intensity, and communicate with your training partner if any knee discomfort occurs during drilling. The posting hand must be positioned carefully to avoid landing on the bottom player's face during the weight transfer."
+    "safety_considerations": "The backstep involves significant rotational forces on both players' knees during the stepping phase. The top player must control their descent to avoid landing with full weight on the bottom player's head or neck during the rotation. Both players should be aware of knee torque during the trapped leg extraction, particularly if the trapped leg does not release cleanly as the hips rotate. Practice at controlled speeds before adding intensity, and communicate with your training partner if any knee discomfort occurs during drilling. The posting hand must be positioned carefully to avoid landing on the bottom player's face during the weight transfer.",
+    "clips": [
+      {
+        "id": "jGTBslgblas",
+        "title": "Half guard backstep to honey hole knee slide",
+        "by": "Jiu Jitsu Land",
+        "vertical": false,
+        "channel": "Jiu Jitsu Land (중단 채널 old channel)",
+        "duration": 13,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ABSueJ6cwis",
+        "title": "Half guard lockdown pass with backstep",
+        "by": "Peter Mettler",
+        "vertical": false,
+        "channel": "Peter Mettler Martial Arts",
+        "duration": 98,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uU4eLkeMR1o",
+        "title": "Backstep basics for passing",
+        "by": "Jon Thor Blank",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 150,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Backstep from Deep Half Defender",
@@ -413,6 +442,17 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance application from deep half guard",
         "description": "Positional sparring starting from deep half guard bottom with full resistance. Top player uses all available passing options including backstep. Bottom player works sweeps while maintaining awareness of backstep threats. Track how often backstep attempts succeed versus defended. 3-minute rounds with analysis between rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "JEDoJOZWQHY",
+        "title": "Three options to defend deep half guard",
+        "by": "Six Blades Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Six Blades Jiu-Jitsu Fort Worth",
+        "duration": 207,
+        "verified": "2026-07-15"
       }
     ]
   }

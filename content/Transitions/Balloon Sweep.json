@@ -286,7 +286,36 @@
         "answer": "Replace the collar grip with a deep overhook or whizzer on one arm, clamping tightly above the elbow to control their posture and prevent posting on that side. Replace the sleeve grip with a wrist control or two-on-one grip on the opposite arm. Use head control by pulling their head to your chest with the overhook side rather than relying on collar pressure. The fundamental mechanics remain identical but the grip substitutions require tighter body-to-body connection since no-gi grips are inherently less secure than collar grips."
       }
     ],
-    "safety_considerations": "When practicing the Balloon Sweep, ensure controlled execution during the explosive lifting phase to avoid slamming your partner onto the mat. Partners should practice proper breakfall techniques to safely absorb the sweep. During drilling, maintain awareness of surrounding training partners to avoid collisions as the sweep involves significant rotational movement across mat space. Progress resistance levels gradually to prevent injuries from mistimed explosive hip extensions. Ensure adequate mat space for the full sweeping arc. Partners with back, neck, or shoulder injuries should communicate limitations before drilling. When learning, prioritize controlled repetitions over explosive power until the movement pattern is reliable."
+    "safety_considerations": "When practicing the Balloon Sweep, ensure controlled execution during the explosive lifting phase to avoid slamming your partner onto the mat. Partners should practice proper breakfall techniques to safely absorb the sweep. During drilling, maintain awareness of surrounding training partners to avoid collisions as the sweep involves significant rotational movement across mat space. Progress resistance levels gradually to prevent injuries from mistimed explosive hip extensions. Ensure adequate mat space for the full sweeping arc. Partners with back, neck, or shoulder injuries should communicate limitations before drilling. When learning, prioritize controlled repetitions over explosive power until the movement pattern is reliable.",
+    "clips": [
+      {
+        "id": "OLGUxB9k7B0",
+        "title": "Balloon Sweep",
+        "by": "bjjtaro",
+        "vertical": false,
+        "channel": "bjjtaro",
+        "duration": 16,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "x9wqr8IP_zM",
+        "title": "Butterfly Balloon Sweep",
+        "by": "AlphaBroadcast",
+        "vertical": false,
+        "channel": "AlphaBroadcast",
+        "duration": 87,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "7jlI3VexQyw",
+        "title": "Balloon Sweep from Closed Guard",
+        "by": "Christian Uflacker",
+        "vertical": false,
+        "channel": "Uflacker Academy",
+        "duration": 101,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Balloon Sweep Defender",
@@ -416,6 +445,17 @@
         "phase": "Month 3+: Integrated Positional Sparring",
         "focus": "Defending Balloon Sweep within full closed guard top game",
         "description": "Begin rounds in closed guard top with partner free to attack any sweep or submission. Develop ability to recognize and defend the Balloon Sweep while simultaneously managing other threats. Identify moments where your posture is vulnerable and practice automatic recovery responses under realistic pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kNfVYhZbgrg",
+        "title": "Four levels of sweep defense from inside guard",
+        "by": "Wim Deputter",
+        "vertical": false,
+        "channel": "Wim Deputter BJJ",
+        "duration": 87,
+        "verified": "2026-07-15"
       }
     ]
   },

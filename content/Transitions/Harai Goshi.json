@@ -288,7 +288,36 @@
         "answer": "A high-percentage collar grip for Harai Goshi requires depth and positioning behind the opponent's neck rather than on the front lapel. The grip should be placed at the back of the collar on the throwing side, with your forearm running along the side of their neck. This deep collar grip gives you the ability to both break their posture forward (pulling their head down) and control the rotational direction of their upper body during the throw. A shallow grip on the front lapel only provides pulling force in one direction and allows the opponent to posture up and resist the off-balancing. The depth of this grip also determines how much control you maintain during the descent - a deep grip naturally follows the opponent to the ground, while a shallow grip tends to slip during the rotation phase."
       }
     ],
-    "safety_considerations": "When practicing Harai Goshi, controlled application is essential to prevent injury on impact, particularly to the opponent's head, neck, and shoulders during landing. Both practitioners must be competent in breakfall techniques (ukemi) before live practice, as improper landing can result in serious injury. The thrower must maintain grip connection throughout the throw to control the opponent's descent velocity and prevent them from being dropped or spiking into the mat. Adequate mat space is critical - ensure at least 10 feet of clear space in the throwing direction to account for the rotational nature of the technique. Begin practice with cooperative drilling on crash pads or soft surfaces before progressing to standard mats. Never attempt this throw at full speed or power against beginners who lack proper falling skills. The sweeping leg action should be controlled to avoid hyperextension of the opponent's knee - sweep through the leg rather than into it. When following to the ground, avoid driving your weight into the opponent's ribcage or chest on landing. Progress speed and intensity gradually over weeks of practice, and immediately stop if either partner feels unsafe or lacks control during execution."
+    "safety_considerations": "When practicing Harai Goshi, controlled application is essential to prevent injury on impact, particularly to the opponent's head, neck, and shoulders during landing. Both practitioners must be competent in breakfall techniques (ukemi) before live practice, as improper landing can result in serious injury. The thrower must maintain grip connection throughout the throw to control the opponent's descent velocity and prevent them from being dropped or spiking into the mat. Adequate mat space is critical - ensure at least 10 feet of clear space in the throwing direction to account for the rotational nature of the technique. Begin practice with cooperative drilling on crash pads or soft surfaces before progressing to standard mats. Never attempt this throw at full speed or power against beginners who lack proper falling skills. The sweeping leg action should be controlled to avoid hyperextension of the opponent's knee - sweep through the leg rather than into it. When following to the ground, avoid driving your weight into the opponent's ribcage or chest on landing. Progress speed and intensity gradually over weeks of practice, and immediately stop if either partner feels unsafe or lacks control during execution.",
+    "clips": [
+      {
+        "id": "J23ai6yIaIE",
+        "title": "No-gi harai goshi throw",
+        "by": "Shintaro Higashi",
+        "vertical": false,
+        "channel": "Shintaro Higashi",
+        "duration": 91,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "hj1wTW5poro",
+        "title": "Harai goshi for wrestlers",
+        "by": "Victoria Anthony",
+        "vertical": false,
+        "channel": "CholoMMA",
+        "duration": 23,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "aWPnGn9dthM",
+        "title": "Three variations of harai goshi",
+        "by": "Shintaro Higashi",
+        "vertical": false,
+        "channel": "Shintaro Higashi",
+        "duration": 174,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Harai Goshi Defender",
@@ -430,6 +459,17 @@
         "phase": "Phase 5: Live Standing Sparring with Focus (Ongoing)",
         "focus": "Integrating Harai Goshi defense into full standing exchanges",
         "description": "Full standup sparring where partner specifically includes Harai Goshi in their attack combinations alongside other throws and takedowns. Practice recognizing and defending the throw within the chaos of live grip fighting and movement. Develop the ability to defend while maintaining your own offensive threats rather than becoming purely defensive. 5-minute rounds with post-round review of defensive timing and reaction quality."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Lpx5dn3D9uI",
+        "title": "No-gi counter to harai goshi",
+        "by": "Andrew Smith",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 248,
+        "verified": "2026-07-15"
       }
     ]
   },

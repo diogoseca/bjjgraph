@@ -295,7 +295,27 @@
         "answer": "No grip is used. The frame is a forearm-to-hip contact using the bone of your ulna pressed against their hip bone or belt line. Gripping wastes energy through muscular contraction and reduces the structural efficiency of the frame. The forearm acts as a rigid strut maintained by skeletal alignment rather than grip strength, which is essential for sustainability under prolonged pressure."
       }
     ],
-    "safety_considerations": "The primary safety concern during this escape involves the trapped arm. Never allow the trapped arm to extend during framing or hip escape attempts, as this creates immediate armbar risk. If the opponent aggressively attacks a submission during the escape, immediately abandon the escape and address the submission threat. Tap promptly if any shoulder lock reaches full extension before you can reset your defensive arm position. During training, communicate with your partner about pressure levels and trapped arm comfort to prevent unnecessary shoulder or elbow injuries."
+    "safety_considerations": "The primary safety concern during this escape involves the trapped arm. Never allow the trapped arm to extend during framing or hip escape attempts, as this creates immediate armbar risk. If the opponent aggressively attacks a submission during the escape, immediately abandon the escape and address the submission threat. Tap promptly if any shoulder lock reaches full extension before you can reset your defensive arm position. During training, communicate with your partner about pressure levels and trapped arm comfort to prevent unnecessary shoulder or elbow injuries.",
+    "clips": [
+      {
+        "id": "fvp5_BVEtLg",
+        "title": "Kesa gatame pressure defense using proper framing",
+        "by": "Kohbukan Sisu",
+        "vertical": false,
+        "channel": "Kohbukan Sisu",
+        "duration": 84,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2okf5X17jeg",
+        "title": "Scarf hold escape from kesa gatame",
+        "by": "Bruce Fowler",
+        "vertical": false,
+        "channel": "Renzo Gracie Jiu Jitsu DFW",
+        "duration": 230,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Frame Escape from Kuzure Kesa Defender",
@@ -415,6 +435,17 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Full resistance position maintenance",
         "description": "Positional sparring where partner attempts all available escapes including frame escape, bridge-and-roll, and Granby Roll. Maintain position or advance for the duration of each round. Develop integrated defensive responses across multiple escape threats."
+      }
+    ],
+    "clips": [
+      {
+        "id": "TfNpVcekHGg",
+        "title": "Kesa gatame: holding the scarf hold",
+        "by": "Grappler Station",
+        "vertical": false,
+        "channel": "Grappler Station",
+        "duration": 121,
+        "verified": "2026-07-15"
       }
     ]
   }

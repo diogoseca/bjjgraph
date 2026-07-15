@@ -337,7 +337,27 @@
         "description": "Probability of finishing submission through leg attacks or after passing from X-Guard Top"
       },
       "average_time": "30-90 seconds depending on skill differential and grip fighting success"
-    }
+    },
+    "clips": [
+      {
+        "id": "v2thEjJ0ES0",
+        "title": "Five passes vs Single Leg X-Guard",
+        "by": "Oneonta Jiu Jitsu",
+        "vertical": false,
+        "channel": "OneontaJiuJitsu Academy",
+        "duration": 121,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "noPXosvgzA0",
+        "title": "Counter X-Guard: knee pull to heel hook",
+        "by": "ZeGrapplez",
+        "vertical": false,
+        "channel": "ZeGrapplez",
+        "duration": 83,
+        "verified": "2026-07-14"
+      }
+    ]
   },
   "bottom": {
     "name": "X-Guard Bottom",
@@ -618,7 +638,36 @@
         "description": "Probability of finishing submission directly or through transition from X-Guard Bottom"
       },
       "average_time": "30-90 seconds"
-    }
+    },
+    "clips": [
+      {
+        "id": "zbYb6sOYC8w",
+        "title": "X-Guard sweep",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "CHOKE LABORATORY",
+        "duration": 53,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "AhsXraebbdg",
+        "title": "One-leg X-Guard sweep",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "jen jitsu",
+        "duration": 47,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "7OnjPU1WjH4",
+        "title": "X-Guard sweep and pass",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "Gentle Art Media",
+        "duration": 35,
+        "verified": "2026-07-14"
+      }
+    ]
   },
   "flashcards_family": [
     {
@@ -682,6 +731,35 @@
     {
       "question": "What role does controlling the opponent's trapped ankle or free leg play in the position?",
       "answer": "Hand control on the trapped ankle or the opponent's free leg is the connective tissue that keeps the leg-based structure intact. Gripping the trapped ankle prevents the standing player from simply stepping backward to slide their leg out of the deep inside hook, sealing the primary escape. Reaching or controlling the free leg limits the opponent's ability to reestablish a second posting base and widens the off-balancing angles available. While the legs supply the elevating and framing power, these grips remove the opponent's easiest exits and let the bottom player dictate which sweep or entanglement direction opens up."
+    }
+  ],
+  "clips": [
+    {
+      "id": "7OnjPU1WjH4",
+      "title": "X-Guard sweep and pass overview",
+      "by": "Marcelo Garcia",
+      "vertical": false,
+      "channel": "Gentle Art Media",
+      "duration": 35,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "zbYb6sOYC8w",
+      "title": "X-Guard sweep",
+      "by": "Marcelo Garcia",
+      "vertical": false,
+      "channel": "CHOKE LABORATORY",
+      "duration": 53,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "m-ueyJXiShY",
+      "title": "No-Gi X-Guard sweep",
+      "by": "Marcelo Garcia",
+      "vertical": false,
+      "channel": "GRACIEMAG - The original BJJ magazine. ",
+      "duration": 126,
+      "verified": "2026-07-14"
     }
   ]
 }

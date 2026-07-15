@@ -343,6 +343,35 @@
         "answer": "The critical control is chest pressure on the trapped arm before and during the grip switch. Your body weight pins their arm against their own neck so they cannot pull it free. Once the head-and-arm grip is locked, the figure-four configuration mechanically prevents arm extraction. If you feel the arm starting to slide out during transition, immediately return to the Hindulotine guillotine grip rather than chasing a compromised arm triangle.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "WSz5MbUhb_0",
+        "title": "Von Flu and arm triangle",
+        "by": "Pure Grappling",
+        "vertical": false,
+        "channel": "Pure Grappling",
+        "duration": 52,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "f2Sm-KgO-jA",
+        "title": "Strong arm-triangle from the turtle",
+        "by": "Nicolas Renier",
+        "vertical": false,
+        "channel": "NRFight Club par Nicolas Renier",
+        "duration": 245,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "bVNnVVnAWnU",
+        "title": "Arm-in guillotine to arm triangle from turtle",
+        "by": "BJJ101",
+        "vertical": false,
+        "channel": "BJJ101",
+        "duration": 35,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -478,6 +507,35 @@
         "phase": "Phase 4: Live defensive sparring",
         "focus": "Full-speed defense from Hindulotine position",
         "description": "Partner starts in Hindulotine top with full offensive options. Defend all attacks including the arm triangle transition. Focus on arm positioning awareness to prevent the arm triangle setup while still defending the guillotine. 5-minute rounds, reset on escape or submission."
+      }
+    ],
+    "clips": [
+      {
+        "id": "D2vkZGTD78I",
+        "title": "The fastest escape out of the arm triangle",
+        "by": "Adam Bradley",
+        "vertical": false,
+        "channel": "Adam Bradley",
+        "duration": 31,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "n_2zR6BaF8A",
+        "title": "The best arm-triangle escape",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 58,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Nspz2EAIQ_k",
+        "title": "Arm triangle escape using hawking",
+        "by": "Crucifix Mike",
+        "vertical": false,
+        "channel": "Crucifix Mike",
+        "duration": 27,
+        "verified": "2026-07-14"
       }
     ]
   }

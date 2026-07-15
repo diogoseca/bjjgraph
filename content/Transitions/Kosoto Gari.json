@@ -295,7 +295,36 @@
         "answer": "Four conditions must be present: (1) you have established controlling grips on both collar and sleeve that allow pulling action; (2) opponent's weight has shifted predominantly to their rear leg, either through your pushing action or their defensive posture; (3) you have stepped to the correct angle (approximately 45 degrees) with your base foot stable; and (4) opponent's posture is broken forward or they are resisting backward pressure. Attempting Kosoto Gari without these conditions results in low-percentage execution and potential counter-throws."
       }
     ],
-    "safety_considerations": "When practicing Kosoto Gari, both partners must maintain control throughout the falling motion to prevent injury. The person being thrown should practice proper ukemi (breakfall) by slapping the mat with their arm to dissipate impact force and protect their head. Never release grips completely during static drilling as this can cause uncontrolled falls. When drilling at speed, use crash mats or soft surfaces until breakfall mechanics are reflexive. Avoid practicing on hard surfaces until both partners have developed proper falling technique. If you feel yourself being thrown and cannot escape, do not attempt to post with extended arm as this can cause elbow, wrist, or shoulder injuries. Instead, tuck chin to chest and execute proper breakfall. Beginners should practice falling mechanics separately before integrating live throws."
+    "safety_considerations": "When practicing Kosoto Gari, both partners must maintain control throughout the falling motion to prevent injury. The person being thrown should practice proper ukemi (breakfall) by slapping the mat with their arm to dissipate impact force and protect their head. Never release grips completely during static drilling as this can cause uncontrolled falls. When drilling at speed, use crash mats or soft surfaces until breakfall mechanics are reflexive. Avoid practicing on hard surfaces until both partners have developed proper falling technique. If you feel yourself being thrown and cannot escape, do not attempt to post with extended arm as this can cause elbow, wrist, or shoulder injuries. Instead, tuck chin to chest and execute proper breakfall. Beginners should practice falling mechanics separately before integrating live throws.",
+    "clips": [
+      {
+        "id": "9nFKizOUCdI",
+        "title": "Minor outer reap kosoto gari for judo and BJJ",
+        "by": "Conway",
+        "vertical": false,
+        "channel": "ConwayToe2Toe Jiu-Jitsu",
+        "duration": 21,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "sX02CGHnOag",
+        "title": "Fast ko soto gari entry",
+        "by": "Grappler Kingdom",
+        "vertical": false,
+        "channel": "Grappler Kingdom",
+        "duration": 42,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "H5lOkLcs1tM",
+        "title": "Kosoto gari demonstration",
+        "by": "Casimiro Bento",
+        "vertical": false,
+        "channel": "Casimiro Bento",
+        "duration": 40,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Kosoto Gari Defender",
@@ -420,6 +449,26 @@
         "phase": "Week 9-12: Live Standing Defense Rounds",
         "focus": "Integrating defense against combination attacks in live sparring",
         "description": "Partner attacks with Kosoto Gari and common follow-ups (Kouchi Gari, Deashi Harai, Ouchi Gari) at full speed. Defender uses all trained defensive and counter-offensive tools. 3-minute rounds with standing resets after each exchange. Track defensive success rate and identify which defensive responses work best against specific follow-up combinations. Adjust defensive strategy based on personal body type and reaction patterns."
+      }
+    ],
+    "clips": [
+      {
+        "id": "KG3kJoh57uk",
+        "title": "Counter kosoto gari with ouchi gari",
+        "by": "Mick",
+        "vertical": false,
+        "channel": "Mick",
+        "duration": 158,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "C7HnA1zd5Rs",
+        "title": "Judo throw counter-attacks",
+        "by": "Shintaro Higashi",
+        "vertical": false,
+        "channel": "Shintaro Higashi",
+        "duration": 161,
+        "verified": "2026-07-15"
       }
     ]
   },

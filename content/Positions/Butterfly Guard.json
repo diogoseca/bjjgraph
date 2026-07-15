@@ -350,6 +350,35 @@
       "sweep defense and counter techniques",
       "guard passing strategies for butterfly",
       "base maintenance against sweeps"
+    ],
+    "clips": [
+      {
+        "id": "cUTZ4bpZVUU",
+        "title": "1-minute butterfly guard pass",
+        "by": "Phil Migliarese",
+        "vertical": false,
+        "channel": "Balance Studios: Gracie Jiu-Jitsu & Muay Thai",
+        "duration": 72,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "khanfPFPpIc",
+        "title": "Butterfly guard cartwheel pass",
+        "by": "The Base Jiu Jitsu",
+        "vertical": false,
+        "channel": "The Base Jiu Jitsu",
+        "duration": 88,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "yo6xI2LammA",
+        "title": "Passing butterfly from standing (knee slide)",
+        "by": "Coach William",
+        "vertical": false,
+        "channel": "Coach William",
+        "duration": 98,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -676,6 +705,35 @@
       "butterfly sweep variations",
       "guard retention strategies",
       "x-guard transition methods"
+    ],
+    "clips": [
+      {
+        "id": "sJfkAL95S9k",
+        "title": "2-on-1 lift to back from butterfly",
+        "by": "Lorenz Sadychow",
+        "vertical": true,
+        "channel": "Systematic Jiu-Jitsu",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "_wEmnFzwFl0",
+        "title": "Butterfly sweep to crucifix",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 56,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Ml2YppHVvj0",
+        "title": "Marcelo Garcia push sweep at ADCC",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "ac c",
+        "duration": 11,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_family": [
@@ -740,6 +798,26 @@
     {
       "question": "How does Butterfly Guard differ mechanically from Half Guard and Closed Guard as a control system?",
       "answer": "Closed Guard controls the opponent by clamping the legs around their waist, and Half Guard controls by trapping one of the opponent's legs, both relying on a locking or containing action. Butterfly Guard instead controls through active elevation, using unhooked feet under the thighs as levers to lift and unbalance rather than to contain. This makes it inherently more offensive and mobile but also less positionally secure, since there is no closed clamp to hold the opponent in place. The tradeoff of stability for elevation and dynamism is the defining mechanical distinction that separates Butterfly Guard from its clamp-based and leg-trap neighbors."
+    }
+  ],
+  "clips": [
+    {
+      "id": "OQCEokRYP4c",
+      "title": "Butterfly guard highlights",
+      "by": "Forge Forward",
+      "vertical": false,
+      "channel": "Forge Forward",
+      "duration": 78,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "c8JBXJMc0Oc",
+      "title": "Marcelo Garcia butterfly sweep",
+      "by": "Marcelo Garcia",
+      "vertical": false,
+      "channel": "Butterfly The World",
+      "duration": 81,
+      "verified": "2026-07-14"
     }
   ]
 }

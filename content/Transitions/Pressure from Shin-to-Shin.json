@@ -286,7 +286,36 @@
         "answer": "Against lighter opponents, reduce the overall weight commitment and increase control precision. Lighter guard players are more mobile and quicker to transition, so excessive forward weight creates larger vulnerability windows for counter-entries. Focus on upper body control quality and use moderate pressure combined with immediate advancement rather than heavy progressive loading. The shin connection collapses faster against lighter practitioners, so the emphasis shifts from force generation to reaction speed and transition timing."
       }
     ],
-    "safety_considerations": "Apply pressure progressively and avoid slamming body weight through the shin connection, which can cause tibial stress injuries to both players. Be aware of knee strain on the guard player when collapsing the shin angle—if they signal discomfort, release pressure immediately. During training, communicate with your partner about pressure intensity and adjust based on their comfort level. Avoid hyperextending the guard player's ankle by monitoring foot position during the collapse phase."
+    "safety_considerations": "Apply pressure progressively and avoid slamming body weight through the shin connection, which can cause tibial stress injuries to both players. Be aware of knee strain on the guard player when collapsing the shin angle—if they signal discomfort, release pressure immediately. During training, communicate with your partner about pressure intensity and adjust based on their comfort level. Avoid hyperextending the guard player's ankle by monitoring foot position during the collapse phase.",
+    "clips": [
+      {
+        "id": "2aggDA12emA",
+        "title": "Shin-to-shin guard pass",
+        "by": "Trapp Martial Arts",
+        "vertical": false,
+        "channel": "Trapp Martial Arts",
+        "duration": 55,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "rRCor6OwhCo",
+        "title": "No-gi shin-to-shin pass variation",
+        "by": "The Base Jiu Jitsu",
+        "vertical": false,
+        "channel": "The Base Jiu Jitsu",
+        "duration": 136,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "hPri1wuwCP8",
+        "title": "Shin slice pass",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 106,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Pressure from Shin-to-Shin Defender",
@@ -408,6 +437,17 @@
         "phase": "Phase 4: Full Resistance Integration",
         "focus": "Competitive application",
         "description": "Positional sparring starting from shin-to-shin with partner committed to pressure passing approach. Full resistance from both players. Defender works to either maintain guard or convert to superior position through counter-entries. Score points for successful transitions, deduct for being passed. Multiple rounds against varied partners."
+      }
+    ],
+    "clips": [
+      {
+        "id": "qAV1x1_RVbg",
+        "title": "Wrestle up counter from shin-to-shin",
+        "by": "FreeChannelOpen",
+        "vertical": false,
+        "channel": "FreeChannelOpen",
+        "duration": 45,
+        "verified": "2026-07-15"
       }
     ]
   }

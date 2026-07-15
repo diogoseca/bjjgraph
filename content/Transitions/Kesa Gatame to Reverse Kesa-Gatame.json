@@ -295,7 +295,27 @@
         "answer": "The bottom player must defend two contradictory directions. If they focus on framing against the top player's face to prevent standard Kesa Gatame attacks, they leave their far arm exposed for the rotation to Reverse Kesa. If they tuck their far arm defensively, they weaken their frames and become more vulnerable to standard Kesa submissions like Americana. The transition forces the bottom player to choose which threat to address, and either choice creates an opening for the other. This offensive dilemma is the strategic value of having the rotation in your repertoire."
       }
     ],
-    "safety_considerations": "This transition is a positional adjustment rather than a submission, so injury risk is primarily related to the rotation mechanics. Avoid cranking the opponent's trapped near arm during the pivot, as the rotational force can stress the shoulder joint. In training, perform the rotation at controlled speed and check that your partner's trapped arm has sufficient slack to accommodate the directional change. If your partner reports shoulder discomfort during drilling, adjust your arm release timing to free their near arm earlier in the rotation sequence. The chest pressure applied after settling into Reverse Kesa-Gatame can restrict breathing, so be attentive to tap signals during positional sparring."
+    "safety_considerations": "This transition is a positional adjustment rather than a submission, so injury risk is primarily related to the rotation mechanics. Avoid cranking the opponent's trapped near arm during the pivot, as the rotational force can stress the shoulder joint. In training, perform the rotation at controlled speed and check that your partner's trapped arm has sufficient slack to accommodate the directional change. If your partner reports shoulder discomfort during drilling, adjust your arm release timing to free their near arm earlier in the rotation sequence. The chest pressure applied after settling into Reverse Kesa-Gatame can restrict breathing, so be attentive to tap signals during positional sparring.",
+    "clips": [
+      {
+        "id": "SBapox2M2dE",
+        "title": "Ushiro kesa gatame (reverse scarf hold)",
+        "by": "Kodokan instructor",
+        "vertical": false,
+        "channel": "KODOKAN",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fB7gGDIm1i8",
+        "title": "12 attacks from kesa gatame",
+        "by": "Johnny Jitsu",
+        "vertical": false,
+        "channel": "Johnny Jitsu",
+        "duration": 88,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Kesa Gatame to Reverse Kesa-Gatame Defender",
@@ -421,6 +441,26 @@
         "phase": "Live Positional Sparring",
         "focus": "Full integration of defensive system",
         "description": "Start every round in Kesa Gatame bottom. Top player must attempt transition to Reverse Kesa at least once per round. Bottom player uses full defensive toolkit including cue recognition, bridge disruption, arm protection, and escape chains. Track success rate of preventing the transition versus escaping after completion. 5 rounds of 3 minutes."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ORpUBUxK1QE",
+        "title": "Reverse kesa gatame escape to back take",
+        "by": "Gymnanigains coach",
+        "vertical": false,
+        "channel": "Gymnanigains",
+        "duration": 26,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QzegNgUUfZs",
+        "title": "Reverse kesa gatame escape",
+        "by": "Coach Paul",
+        "vertical": false,
+        "channel": "Coach Paul - War Fork Jiu-Jitsu Academy",
+        "duration": 81,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -304,7 +304,36 @@
         "answer": "Angle your hips approximately 20-30 degrees toward the overhook side rather than lying flat on your back. This angle loads the opponent's weight asymmetrically onto their trapped arm side, further degrading their already compromised base. Biomechanically, the angle creates a diagonal pulling vector through your shin and overhook that is harder to resist than a straight downward pull from a flat position. The angle also pre-positions your body for progression to Invisible Collar and Carni, reducing the adjustment needed for follow-up transitions."
       }
     ],
-    "safety_considerations": "The New York entry requires significant hip and hamstring flexibility. Never force the position beyond your current range of motion, as this risks hip flexor strains, hamstring tears, and groin injuries. During drilling, communicate with your partner about pressure levels during the overhook threading phase, as excessive resistance can strain the shoulder joint of either player. Warm up thoroughly before practicing, focusing on hip openers and hamstring stretches. If you experience sharp pain in the hip or groin during the shin-across-back position, stop immediately and address flexibility limitations through progressive stretching rather than forcing the position. The one-handed transition phase places extra demand on the hip flexors, so build endurance gradually."
+    "safety_considerations": "The New York entry requires significant hip and hamstring flexibility. Never force the position beyond your current range of motion, as this risks hip flexor strains, hamstring tears, and groin injuries. During drilling, communicate with your partner about pressure levels during the overhook threading phase, as excessive resistance can strain the shoulder joint of either player. Warm up thoroughly before practicing, focusing on hip openers and hamstring stretches. If you experience sharp pain in the hip or groin during the shin-across-back position, stop immediately and address flexibility limitations through progressive stretching rather than forcing the position. The one-handed transition phase places extra demand on the hip flexors, so build endurance gradually.",
+    "clips": [
+      {
+        "id": "gFYyMkaMz34",
+        "title": "Prison guard breakdown from rubber guard",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 59,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "5fJM5bIk8Fw",
+        "title": "Mission Control to Zombie to Invisible Collar",
+        "by": "10th Planet Orange Park",
+        "vertical": false,
+        "channel": "10th Planet Orange Park",
+        "duration": 108,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "WliTCjEDA-8",
+        "title": "Basic entries into rubber guard",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 106,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "New York Entry from Rubber Guard Defender",
@@ -429,6 +458,17 @@
         "phase": "Phase 4: Recovery Training",
         "focus": "Escaping after New York is successfully established",
         "description": "Start with the bottom player already in full New York control. Defender practices the systematic escape sequence under progressive resistance. Develop proficiency at escaping the position after the entry succeeds, ensuring defensive capability at all stages of the Rubber Guard progression."
+      }
+    ],
+    "clips": [
+      {
+        "id": "xNc_Cdh9VVg",
+        "title": "Late stage guard retention vs rubber guard",
+        "by": "Robert Diggle",
+        "vertical": false,
+        "channel": "RobertDiggleJJ",
+        "duration": 189,
+        "verified": "2026-07-15"
       }
     ]
   }

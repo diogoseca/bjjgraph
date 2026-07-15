@@ -311,6 +311,35 @@
           "nogi": 16
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "RbkOnRb2lvA",
+        "title": "Anaconda choke finish",
+        "by": "Ninja Pinto",
+        "vertical": false,
+        "channel": "Ninja Pinto BJJ",
+        "duration": 49,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "6d6Wkgh9imU",
+        "title": "Anaconda vs D'Arce choke difference",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 67,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "EbhWFWp-B6s",
+        "title": "How to do an anaconda choke",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 81,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -624,6 +653,35 @@
           "nogi": 8
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "N9MbEtAv_Lw",
+        "title": "Anaconda choke defense",
+        "by": "Mamba BJJ",
+        "vertical": false,
+        "channel": "Mamba BJJ",
+        "duration": 62,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "s94GexEkoQ0",
+        "title": "Anaconda defense plus counter",
+        "by": "Cyril Robert",
+        "vertical": false,
+        "channel": "Cyril Robert MMA",
+        "duration": 43,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "At1_GDu4hSc",
+        "title": "How to escape the anaconda choke",
+        "by": "ArtOfSayingGoodbye",
+        "vertical": false,
+        "channel": "ArtOfSayingGoodbye",
+        "duration": 23,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -658,6 +716,35 @@
     {
       "question": "How does the interplay of chest pressure, hip movement, and the closed loop determine which player controls the position moment to moment?",
       "answer": "Control hinges on maintaining an unbroken chest-to-shoulder connection while the encircling loop stays closed and the trapped arm stays inside. When the top player keeps chest pressure continuous and walks the hips to preserve the perpendicular angle, the loop compresses and the defender cannot frame. Control shifts toward the bottom player the instant space appears at the choking arm's elbow or the trapped arm begins to extract, because either event opens the loop and relieves the neck compression. This is why both players fight over the same few variables: the chest connection, the tightness of the loop, and the status of the trapped arm."
+    }
+  ],
+  "clips": [
+    {
+      "id": "6d6Wkgh9imU",
+      "title": "Anaconda vs D'Arce choke difference",
+      "by": "Matt Arroyo",
+      "vertical": false,
+      "channel": "Matt Arroyo Jiu Jitsu ",
+      "duration": 67,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "oUib2H2bOMQ",
+      "title": "Basic anaconda choke, step by step",
+      "by": "Caleb McAllister",
+      "vertical": false,
+      "channel": "Caleb McAllister",
+      "duration": 102,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "DHYmDsncdS8",
+      "title": "Marcelo Garcia anaconda choke finish",
+      "by": "Marcelo Garcia",
+      "vertical": false,
+      "channel": "forlogosVideos",
+      "duration": 126,
+      "verified": "2026-07-14"
     }
   ]
 }

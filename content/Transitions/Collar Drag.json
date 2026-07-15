@@ -274,7 +274,36 @@
         "answer": "After a failed first attempt, your opponent is now alert to the collar drag threat and will defend more aggressively against the same setup. You should change at least two variables: direction (drag to opposite side), entry (use arm drag first to set up collar drag), or timing (use a feint collar drag to draw their defensive reaction, then attack what opens). You can also switch levels—fake the collar drag high and shoot a low single leg when they defend the pull. The critical principle is never repeating the exact same attack after a failed attempt. Use the information from their defense to identify what they exposed, and attack that opening instead."
       }
     ],
-    "safety_considerations": "The Collar Drag is a relatively safe technique when practiced correctly, but several precautions ensure injury-free training. When gripping the collar in gi, avoid overly tight or twisted grips that could cause finger injuries—grip firmly but maintain hand mobility. For the partner being dragged, if you feel excessive neck torque, immediately turn your body in the direction of the pull rather than resisting, which prevents neck strain. When practicing at high intensity, both partners should maintain awareness of the training space to avoid colliding with walls, equipment, or other practitioners when moving explosively. In no-gi variations, the person applying neck control should avoid pulling directly downward on the head/neck (which creates dangerous compression) and instead pull horizontally across the shoulders. When drilling, start slow and gradually increase speed and resistance—many collar drag injuries occur when practitioners attempt full-speed execution before mastering mechanics. If transitioning to takedowns or mat work after the drag, both partners should understand breakfall fundamentals to land safely."
+    "safety_considerations": "The Collar Drag is a relatively safe technique when practiced correctly, but several precautions ensure injury-free training. When gripping the collar in gi, avoid overly tight or twisted grips that could cause finger injuries—grip firmly but maintain hand mobility. For the partner being dragged, if you feel excessive neck torque, immediately turn your body in the direction of the pull rather than resisting, which prevents neck strain. When practicing at high intensity, both partners should maintain awareness of the training space to avoid colliding with walls, equipment, or other practitioners when moving explosively. In no-gi variations, the person applying neck control should avoid pulling directly downward on the head/neck (which creates dangerous compression) and instead pull horizontally across the shoulders. When drilling, start slow and gradually increase speed and resistance—many collar drag injuries occur when practitioners attempt full-speed execution before mastering mechanics. If transitioning to takedowns or mat work after the drag, both partners should understand breakfall fundamentals to land safely.",
+    "clips": [
+      {
+        "id": "Kp3ABmsn1I0",
+        "title": "Arm drag takedown demonstration",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "Baltimore Martial Arts",
+        "duration": 55,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "mzMJN2lwBbk",
+        "title": "Collar drag / lapel drag from guard",
+        "by": "Louis Armezzani",
+        "vertical": false,
+        "channel": "Louis Armezzani",
+        "duration": 65,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "TkCWCSvk7I4",
+        "title": "Arm drag into single leg takedown",
+        "by": "Grapple Hub",
+        "vertical": false,
+        "channel": "Grapple hub ",
+        "duration": 60,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Collar Drag Defender",
@@ -394,6 +423,35 @@
         "phase": "Week 7+: Live Standing Sparring Integration",
         "focus": "Applying collar drag defense in full standing exchanges with unrestricted attacks",
         "description": "Incorporate collar drag defense into regular standing sparring rounds. Partner can mix collar drags with other attacks (arm drags, snap downs, takedowns) while you must recognize and defend each appropriately. Track success rate of collar drag defense versus other standing attacks. Add situational rounds where partner must attempt at least two collar drags per round to ensure repeated defensive practice."
+      }
+    ],
+    "clips": [
+      {
+        "id": "bmCjXADzgo4",
+        "title": "How to defend the arm drag",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "0VFMOfzHLcM",
+        "title": "Arm drag counters and counter-attacks",
+        "by": "Zugaj Wrestling Academy",
+        "vertical": false,
+        "channel": "Zugaj brothers",
+        "duration": 40,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_w0gGtSirRI",
+        "title": "Arm drag counter with seoi nage",
+        "by": "Orso BJJ",
+        "vertical": false,
+        "channel": "orsobjj",
+        "duration": 8,
+        "verified": "2026-07-15"
       }
     ]
   },

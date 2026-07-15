@@ -300,7 +300,18 @@
         "answer": "When the slice stalls and the opponent re-establishes deep half leverage, abandon forcing the slice and chain into a backstep pass, using their underhook commitment against them by stepping the trapped leg back and around. Alternatively, if their far arm is exposed during the scramble, attack a kimura grip to occupy the arm before resetting your passing pressure."
       }
     ],
-    "safety_considerations": "The knee slice from deep half guard involves significant pressure on the opponent's neck and face from the crossface, as well as knee pressure across their body. Apply crossface with controlled force, avoiding excessive cranking of the neck. During training, communicate with partners about pressure intensity. Be cautious of your knee landing on the opponent's ribs or hip bones during the slice. If the opponent taps due to pressure rather than submission, release immediately and adjust your technique to distribute pressure more broadly."
+    "safety_considerations": "The knee slice from deep half guard involves significant pressure on the opponent's neck and face from the crossface, as well as knee pressure across their body. Apply crossface with controlled force, avoiding excessive cranking of the neck. During training, communicate with partners about pressure intensity. Be cautious of your knee landing on the opponent's ribs or hip bones during the slice. If the opponent taps due to pressure rather than submission, release immediately and adjust your technique to distribute pressure more broadly.",
+    "clips": [
+      {
+        "id": "hHbb7ywVTwU",
+        "title": "Passing deep half guard, countering the back take",
+        "by": "JiuJitsu.com",
+        "vertical": false,
+        "channel": "JiuJitsu.com",
+        "duration": 63,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Knee Slice from Deep Half Defender",
@@ -426,6 +437,26 @@
         "phase": "Phase 4: Full Resistance Positional Sparring",
         "focus": "Applying defense under live conditions",
         "description": "Full positional rounds starting with top player in deep half guard. Bottom player defends all pass attempts including knee slice, backstep, and smash variations. Track success rate of defense and identify which pass variations cause the most difficulty for targeted improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "dhGbNUvfvjM",
+        "title": "Common deep half sweep mistakes",
+        "by": "John Kelly",
+        "vertical": false,
+        "channel": "John Kelly Brazilian Jiu Jitsu Ireland ",
+        "duration": 73,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "JEDoJOZWQHY",
+        "title": "Three options to defend the deep half guard",
+        "by": "Six Blades Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Six Blades Jiu-Jitsu Fort Worth",
+        "duration": 207,
+        "verified": "2026-07-15"
       }
     ]
   }

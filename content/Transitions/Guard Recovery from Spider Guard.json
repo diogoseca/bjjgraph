@@ -276,7 +276,18 @@
         "answer": "Immediately chain into an offensive threat to occupy the opponent's defensive attention. The strongest sequence is: break posture with collar grip and heel pressure, then establish a cross-collar grip with your free hand to threaten a cross-collar choke. If they defend the choke by posting a hand, transition to a hip bump sweep. If they frame to re-posture, switch to an armbar or triangle setup from the broken posture. Any offensive threat prevents them from committing both hands to reopening your guard."
       }
     ],
-    "safety_considerations": "Guard recovery from spider guard is a low-injury-risk transition, but practitioners should be mindful of finger strain from aggressive sleeve gripping during the transition. If your spider guard grips are failing due to finger fatigue, commit to the recovery rather than fighting to maintain grips that stress your finger joints. During the leg retraction, avoid hyperextending your knees by pulling your feet off the biceps in a controlled arc rather than snapping them back explosively. The guard closure itself places minimal injury risk on both players when performed with controlled technique."
+    "safety_considerations": "Guard recovery from spider guard is a low-injury-risk transition, but practitioners should be mindful of finger strain from aggressive sleeve gripping during the transition. If your spider guard grips are failing due to finger fatigue, commit to the recovery rather than fighting to maintain grips that stress your finger joints. During the leg retraction, avoid hyperextending your knees by pulling your feet off the biceps in a controlled arc rather than snapping them back explosively. The guard closure itself places minimal injury risk on both players when performed with controlled technique.",
+    "clips": [
+      {
+        "id": "QH9-1I5XqO4",
+        "title": "Guard recovery vs cross face from side control bottom",
+        "by": "Academy Jiu Jitsu",
+        "vertical": false,
+        "channel": "Academy Jiu Jitsu",
+        "duration": 105,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Guard Recovery from Spider Guard Defender",
@@ -394,6 +405,17 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance prevention of guard closure from spider guard breakdown",
         "description": "Start each round in spider guard with you working to break grips and pass while the bottom player works recovery to closed guard. Full resistance with rotating partners. Track how often the bottom player achieves closed guard versus how often you establish combat base or passing position."
+      }
+    ],
+    "clips": [
+      {
+        "id": "IlYYg75ncqY",
+        "title": "Spider guard to toreando pass",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 246,
+        "verified": "2026-07-15"
       }
     ]
   }

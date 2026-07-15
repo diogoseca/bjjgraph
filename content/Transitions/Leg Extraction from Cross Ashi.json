@@ -299,7 +299,18 @@
         "answer": "Tap immediately. A heel hook applied during an extraction attempt creates amplified rotational force because the trapped leg is partially extended and moving. The combined forces of their rotation and your extraction movement can cause ligament damage faster than a static heel hook. In training, safety takes absolute priority over escape completion. After tapping, analyze what allowed them to secure the heel during your escape, likely the outside cross was not fully cleared or the leg bent during extraction, and drill the gap in your clearing sequence."
       }
     ],
-    "safety_considerations": "Leg extraction from cross ashi carries significant injury risk to the knee joint if performed incorrectly. Cross ashi provides excellent heel hook finishing angles, and the most dangerous error is any extraction motion that bends the trapped knee or exposes the heel during the clearing sequence. Always maintain straight leg alignment throughout the escape. Never continue extraction if the opponent has secured a grip on your heel. In training, tap immediately if you feel any rotational pressure on the knee during an escape attempt. Practice at slow speed until the mechanical clearing sequence is automatic before adding resistance. Partners should communicate clearly about heel exposure during drilling and apply entanglements with control."
+    "safety_considerations": "Leg extraction from cross ashi carries significant injury risk to the knee joint if performed incorrectly. Cross ashi provides excellent heel hook finishing angles, and the most dangerous error is any extraction motion that bends the trapped knee or exposes the heel during the clearing sequence. Always maintain straight leg alignment throughout the escape. Never continue extraction if the opponent has secured a grip on your heel. In training, tap immediately if you feel any rotational pressure on the knee during an escape attempt. Practice at slow speed until the mechanical clearing sequence is automatic before adding resistance. Partners should communicate clearly about heel exposure during drilling and apply entanglements with control.",
+    "clips": [
+      {
+        "id": "0T4T2so40C4",
+        "title": "Basic escape from the saddle (cross ashi)",
+        "by": "Travis Anderson",
+        "vertical": false,
+        "channel": "Travis Anderson",
+        "duration": 171,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Leg Extraction from Cross Ashi Defender",
@@ -420,6 +431,17 @@
         "phase": "Phase 4: Live Integration",
         "focus": "Full-speed retention and counter-attack during rolling",
         "description": "During live rolling, focus specifically on retaining cross ashi when partners attempt extraction. Develop automatic re-crossing, hip following, and saddle advancement responses. Review which extraction methods succeed against you most often and develop specific counters for those patterns."
+      }
+    ],
+    "clips": [
+      {
+        "id": "nVfqMfVpTVk",
+        "title": "Fixing cross ashi control to keep the leg",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 55,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -307,7 +307,27 @@
         "answer": "When the opponent dives for deep half, immediately sprawl your hips back to prevent them from getting underneath you. Control their head with a crossface or whizzer to stop the deep half rotation. If they establish deep half, transition to a backstep pass or smash pass that capitalizes on their committed position. Alternatively, if they abandon deep half and return to knee shield, restart the knee slice sequence with adjusted grips. The key is having at least three passing options ready: knee slice, smash pass, and backstep, and flowing between them based on defensive reactions."
       }
     ],
-    "safety_considerations": "The knee slice pass involves significant pressure through the opponent's torso and can strain the bottom player's hip and knee joints, particularly when the shield leg is pinned and rotated. Apply pressure progressively rather than explosively, especially when driving the knee across the thigh. Be aware of your partner's knee position throughout the pass to avoid hyperextending their trapped leg. In training, communicate about pressure levels and release immediately if your partner indicates discomfort in their knee, hip, or lower back. Avoid explosive weight drops onto a compromised knee shield, as this can cause MCL or meniscus injuries to the bottom player."
+    "safety_considerations": "The knee slice pass involves significant pressure through the opponent's torso and can strain the bottom player's hip and knee joints, particularly when the shield leg is pinned and rotated. Apply pressure progressively rather than explosively, especially when driving the knee across the thigh. Be aware of your partner's knee position throughout the pass to avoid hyperextending their trapped leg. In training, communicate about pressure levels and release immediately if your partner indicates discomfort in their knee, hip, or lower back. Avoid explosive weight drops onto a compromised knee shield, as this can cause MCL or meniscus injuries to the bottom player.",
+    "clips": [
+      {
+        "id": "yj_6xcl2emA",
+        "title": "Inside knee cut through the knee shield",
+        "by": "War Room Jiu Jitsu",
+        "vertical": false,
+        "channel": "War Room Jiu Jitsu",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "j9DDQ_bkLVA",
+        "title": "Knee slice pass fundamentals",
+        "by": "Marra Senki Jiujitsu",
+        "vertical": false,
+        "channel": "Marra Senki Jiujitsu",
+        "duration": 60,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Knee Slice from Knee Shield Defender",
@@ -437,6 +457,35 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Full resistance positional sparring",
         "description": "Full resistance positional sparring starting in knee shield half guard. Passer attempts any pass, defender must retain guard or sweep within 90 seconds. Track success rates across multiple rounds. Identify which defensive reactions still fail under pressure and refine them. Aim for 60%+ successful defense rate before considering the skill developed."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Da5PAZooedU",
+        "title": "Knee slice defense and counter",
+        "by": "A Day In A Life",
+        "vertical": false,
+        "channel": "A DAY IN A LIFE",
+        "duration": 86,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lrhHIF4AwVc",
+        "title": "Knee cut pass defense to one leg X sweep",
+        "by": "Edson Oliveira",
+        "vertical": false,
+        "channel": "Edson Oliveira",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QGNL-sCrxnE",
+        "title": "Retaining the knee shield against the knee cut",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 112,
+        "verified": "2026-07-15"
       }
     ]
   }

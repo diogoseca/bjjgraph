@@ -252,7 +252,36 @@
         "answer": "Attempt the transition when you have clear timing windows (opponent adjusting grips, decreased hip pressure, failed submission defense on their part). Accept the 50-50 when opponent has strong inside control and heavy hip pressure with no defensive reactions to exploit. In competition, consider point implications - sometimes maintaining 50-50 control is tactically preferable to risking the transition against a well-defended opponent."
       }
     ],
-    "safety_considerations": "This transition involves rapid leg repositioning within leg entanglements and carries inherent knee and ankle injury risk. Always practice initially at slow speed with cooperative partners, gradually increasing resistance only after movement patterns are established. Never jerk or explosive movements while legs are entangled - smooth, controlled motion protects both practitioners. Tap immediately if you feel knee rotation pressure during the transition. Communicate clearly with training partners about intensity level. If either practitioner's knee becomes trapped at an awkward angle during the movement, stop immediately and reset rather than forcing through. This technique should only be practiced after establishing proficiency in both 50-50 position maintenance and basic inside ashi-garami controls."
+    "safety_considerations": "This transition involves rapid leg repositioning within leg entanglements and carries inherent knee and ankle injury risk. Always practice initially at slow speed with cooperative partners, gradually increasing resistance only after movement patterns are established. Never jerk or explosive movements while legs are entangled - smooth, controlled motion protects both practitioners. Tap immediately if you feel knee rotation pressure during the transition. Communicate clearly with training partners about intensity level. If either practitioner's knee becomes trapped at an awkward angle during the movement, stop immediately and reset rather than forcing through. This technique should only be practiced after establishing proficiency in both 50-50 position maintenance and basic inside ashi-garami controls.",
+    "clips": [
+      {
+        "id": "sIYeSMSkqeE",
+        "title": "Craig Jones backside 50/50 inside heel hook finish",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "Professor Buck",
+        "duration": 18,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dOEX17DEGgg",
+        "title": "50/50 to cross ashi: controlling the leg",
+        "by": "Grapple Factory coach",
+        "vertical": false,
+        "channel": "Grapple Factory",
+        "duration": 84,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "yT3euuWRWXw",
+        "title": "3 paths to backside 50/50 from single leg X",
+        "by": "Gustavo Gomes Firmino",
+        "vertical": false,
+        "channel": "Gustavo Gomes Firmino",
+        "duration": 56,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "50-50 Guard to Inside Ashi Defender",
@@ -376,6 +405,35 @@
         "phase": "Week 7+",
         "focus": "Live situational sparring",
         "description": "Start every round from 50-50 with partner choosing when to attempt the transition. Defend under full resistance with the complete toolkit. After each round, debrief on which cues you caught early and which you missed. Gradually expand to open rolling where the transition occurs naturally within broader exchanges."
+      }
+    ],
+    "clips": [
+      {
+        "id": "67VIHbxcSe8",
+        "title": "Inside sankaku counter",
+        "by": "Alberto Serrano",
+        "vertical": false,
+        "channel": "Alberto Serrano BJJ",
+        "duration": 66,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "L417yCl_-dc",
+        "title": "Leg defense from ashi garami",
+        "by": "The Coop BJJ coach",
+        "vertical": false,
+        "channel": "The Coop BJJ",
+        "duration": 48,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8F_7Y9JpTP0",
+        "title": "Inside ashi leg lock defense",
+        "by": "Nick Ortiz",
+        "vertical": false,
+        "channel": "Tap House Jiu Jitsu",
+        "duration": 101,
+        "verified": "2026-07-15"
       }
     ]
   },

@@ -292,7 +292,27 @@
         "answer": "This signals the bottom player is loading a hip bump or overhook sweep, exploiting the moment your attention is committed to the grip fight. Immediately widen your knees and drive shoulder pressure down into the overhook side to flatten them, posting your free hand on the mat if necessary to kill the sweep. Re-establish a stable base before resuming the strip — never keep circulating the elbow while your base is compromised, because the circular motion combined with a narrow base is exactly the energy their sweep needs."
       }
     ],
-    "safety_considerations": "When stripping the overhook, avoid explosive jerking motions that could hyperextend your partner's shoulder joint. The overhooking arm is in a vulnerable position, and sudden forceful extraction can cause rotator cuff strain or shoulder impingement. Control the speed of your elbow circulation and always use progressive pressure rather than sudden force. During drilling, communicate with your partner about grip depth and resistance levels to prevent accidental injury."
+    "safety_considerations": "When stripping the overhook, avoid explosive jerking motions that could hyperextend your partner's shoulder joint. The overhooking arm is in a vulnerable position, and sudden forceful extraction can cause rotator cuff strain or shoulder impingement. Control the speed of your elbow circulation and always use progressive pressure rather than sudden force. During drilling, communicate with your partner about grip depth and resistance levels to prevent accidental injury.",
+    "clips": [
+      {
+        "id": "58LkTy6v3KQ",
+        "title": "Breaking the overhook clamp from closed guard",
+        "by": "The Grappling Bloke",
+        "vertical": false,
+        "channel": "The Grappling Bloke",
+        "duration": 109,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "21-ZmD25pMs",
+        "title": "Overhook escape and half guard sweep",
+        "by": "JiuJitsu.com",
+        "vertical": false,
+        "channel": "JiuJitsu.com",
+        "duration": 197,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Break Overhook Guard Defender",
@@ -413,6 +433,26 @@
         "phase": "Scenario Training",
         "focus": "Recovery after partial overhook loss",
         "description": "Start from situations where the overhook is partially compromised (shallow grip, opponent has wrist control). Practice recovering full overhook depth or transitioning to alternative attacks when the overhook is being lost. Builds adaptability for real competition scenarios where positions are rarely perfect."
+      }
+    ],
+    "clips": [
+      {
+        "id": "IQ2mviobbI0",
+        "title": "Defending the whizzer or overhook",
+        "by": "Pendergrass Academy",
+        "vertical": false,
+        "channel": "Pendergrass Academy of Martial Arts",
+        "duration": 138,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8mXBDHXrAu4",
+        "title": "Whizzer from half guard: winning the dogfight",
+        "by": "Wrecking Crew BJJ",
+        "vertical": false,
+        "channel": "Wrecking Crew BJJ",
+        "duration": 60,
+        "verified": "2026-07-15"
       }
     ]
   }

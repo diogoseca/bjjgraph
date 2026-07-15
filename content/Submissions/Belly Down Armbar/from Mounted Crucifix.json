@@ -337,6 +337,35 @@
         "answer": "Set up the belly down armbar by first threatening chokes from the crucifix, forcing the opponent to extend their arms defensively. When the arm extends, immediately secure the wrist and begin the rotation. Execute the rotation at full speed since the opponent is already committed to choke defense. Once belly down, apply pressure progressively but without hesitation—competition opponents will attempt multiple escapes in rapid succession. Maintain wide base throughout and be prepared to transition to standard armbar if they roll into you, turning their escape into a second submission opportunity.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "-Vmyjv8-WFw",
+        "title": "Mount to Side Crucifix Arm Attacks",
+        "by": "Evolve MMA",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 76,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "5eA_LJK-gJo",
+        "title": "Belly Down Attacks: Armbar and Rear Triangle",
+        "by": "Kameron Ross",
+        "vertical": false,
+        "channel": "Kameron Ross",
+        "duration": 67,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "MIo1Q07Ng6U",
+        "title": "Belly Down Armbar from Mount Against Push",
+        "by": "Forca Martial Arts",
+        "vertical": false,
+        "channel": "Força Martial Arts & Fitness",
+        "duration": 110,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -466,6 +495,26 @@
         "phase": "Phase 4: Full Resistance Survival",
         "focus": "Defending against committed attacks",
         "description": "Full resistance positional sparring starting from mounted crucifix with the attacker pursuing the belly down armbar. Practice surviving the transition and escaping to any safer position. Goal is extending survival time and increasing escape rate against progressively skilled attackers."
+      }
+    ],
+    "clips": [
+      {
+        "id": "zKieMBkGXxU",
+        "title": "Armbar Defense and Stack Escape",
+        "by": "Daniel Frank",
+        "vertical": false,
+        "channel": "Daniel Frank",
+        "duration": 32,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Wt2NW_hfTd0",
+        "title": "Crucifix Escape",
+        "by": "Mick Hall",
+        "vertical": false,
+        "channel": "Mick Hall",
+        "duration": 228,
+        "verified": "2026-07-14"
       }
     ]
   }

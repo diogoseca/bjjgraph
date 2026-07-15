@@ -352,6 +352,17 @@
           "nogi": 7
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "dOdO6xJ-TcU",
+        "title": "Stop the half guard underhook",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 98,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -662,6 +673,26 @@
           "nogi": 14
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "Jnc2siD9cak",
+        "title": "Old school half guard sweep",
+        "by": "Ritchie Yip",
+        "vertical": false,
+        "channel": "Ritchie Yip",
+        "duration": 12,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "tTroLgpLJ1k",
+        "title": "Godfather sweep from lockdown half guard",
+        "by": "Coach Paul",
+        "vertical": false,
+        "channel": "Coach Paul - War Fork Jiu-Jitsu Academy",
+        "duration": 11,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -696,6 +727,26 @@
     {
       "question": "Why is the connection between the two players' torsos so critical to Old School regardless of who holds the advantage?",
       "answer": "Any gap between the chests lets the disadvantaged player either recover posture and base or hip out and reguard, dissolving the position. The bottom player relies on chest-to-chest connection to keep the top player's weight loaded onto the sweeping fulcrum, while the top player relies on the same connection to smother hip movement and prevent reguarding. Because both sweep leverage and passing pressure depend on that unbroken contact, space is the common enemy for whoever currently leads. This shared reliance on tight connection is what makes Old School a close-contact, low-space battle by nature."
+    }
+  ],
+  "clips": [
+    {
+      "id": "Jnc2siD9cak",
+      "title": "Old school half guard sweep",
+      "by": "Ritchie Yip",
+      "vertical": false,
+      "channel": "Ritchie Yip",
+      "duration": 12,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "_1o_3IT7Yj8",
+      "title": "Old school sweep from half guard",
+      "by": "Dave Peters",
+      "vertical": false,
+      "channel": "Alliance Richmond Hill",
+      "duration": 108,
+      "verified": "2026-07-14"
     }
   ]
 }

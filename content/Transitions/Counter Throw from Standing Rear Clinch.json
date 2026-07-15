@@ -309,7 +309,18 @@
         "answer": "The sacrifice throw (tani otoshi style) is most effective against heavier opponents because it does not require lifting or hip-loading their mass. Instead, you drop your body weight suddenly while blocking their far leg, creating a fulcrum that topples them over you using gravity rather than muscular effort. The weight difference actually becomes an advantage for the sacrifice throw because the heavier opponent has more momentum to redirect and less ability to recover balance once their base is compromised by the leg block and your sudden level drop."
       }
     ],
-    "safety_considerations": "Counter throws from standing involve significant impact forces and rotational stresses that require careful training progression. Always practice on appropriate mat surfaces with sufficient padding. Begin all throw training at reduced speed with a cooperative partner until mechanics are reliable. Use crash pads for full-speed drilling of lateral drops and sacrifice throws. Both practitioners must know proper breakfall technique (ukemi) before training throws at any intensity. Be particularly cautious with the hip throw variant, as poor execution can result in the opponent landing on their head or neck. Never practice standing throws on hard surfaces or when fatigued to the point where control is compromised. The bottom player (person being thrown) should tap or verbally signal immediately if they feel their neck or spine is being loaded dangerously during any throwing attempt."
+    "safety_considerations": "Counter throws from standing involve significant impact forces and rotational stresses that require careful training progression. Always practice on appropriate mat surfaces with sufficient padding. Begin all throw training at reduced speed with a cooperative partner until mechanics are reliable. Use crash pads for full-speed drilling of lateral drops and sacrifice throws. Both practitioners must know proper breakfall technique (ukemi) before training throws at any intensity. Be particularly cautious with the hip throw variant, as poor execution can result in the opponent landing on their head or neck. Never practice standing throws on hard surfaces or when fatigued to the point where control is compromised. The bottom player (person being thrown) should tap or verbally signal immediately if they feel their neck or spine is being loaded dangerously during any throwing attempt.",
+    "clips": [
+      {
+        "id": "PxeYMAji5Vg",
+        "title": "Takedown from the standing rear clinch",
+        "by": "Bushido BJJ coach",
+        "vertical": false,
+        "channel": "Bushido Brazilian Jiu-jitsu ",
+        "duration": 81,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Counter Throw from Standing Rear Clinch Defender",
@@ -430,6 +441,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full-speed defense integration against all throw variants and combination fakes",
         "description": "Positional sparring starting from standing rear clinch. Top player defends throws while maintaining control. Bottom player uses all throw variants plus combination fakes with standing switch and grip fighting escapes. Track how often you maintain standing rear clinch, how often you land in ground back control, and how often you lose position entirely. Target: maintain advantageous position in 80% or more of attempts."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ogdhNIXBDXw",
+        "title": "Six ways to escape the body lock",
+        "by": "Super Export Shop",
+        "vertical": false,
+        "channel": "Super Export Shop",
+        "duration": 55,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "JyJCWlBvDS0",
+        "title": "Escaping the rear bear hug",
+        "by": "Wesley Chapel MMA",
+        "vertical": false,
+        "channel": "Wesley Chapel MMA",
+        "duration": 73,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "GclkEsj1iE8",
+        "title": "Body lock escape using the switch",
+        "by": "FreeChannelOpen",
+        "vertical": false,
+        "channel": "FreeChannelOpen",
+        "duration": 146,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -299,7 +299,36 @@
         "answer": "After a failed backstep, immediately threaten a direct pass in the opposite direction such as a headquarters pass or standing leg extraction. The bottom player committed their hooks to following your rotation in one direction, which means they are momentarily committed in that direction and vulnerable to a sudden reversal of passing direction. Alternatively, if they over-commit to chasing, their legs may extend and create a window for a knee bar or ankle lock counter-attack on the trapped leg."
       }
     ],
-    "safety_considerations": "The backstep from SLX involves rapid rotational movement that can stress knee and ankle joints for both practitioners. The top player must control rotation speed to avoid sudden twisting pressure on the bottom player's hooks, particularly their inside hook around the ankle which bears rotational torque during the pass. The bottom player's knee is vulnerable if they resist hook clearance with a locked leg during rotation. Both partners should communicate clearly and tap immediately if any joint pressure becomes excessive. When drilling, begin with slow controlled rotations and gradually increase speed. Avoid explosive backsteps until both partners are comfortable with the mechanics."
+    "safety_considerations": "The backstep from SLX involves rapid rotational movement that can stress knee and ankle joints for both practitioners. The top player must control rotation speed to avoid sudden twisting pressure on the bottom player's hooks, particularly their inside hook around the ankle which bears rotational torque during the pass. The bottom player's knee is vulnerable if they resist hook clearance with a locked leg during rotation. Both partners should communicate clearly and tap immediately if any joint pressure becomes excessive. When drilling, begin with slow controlled rotations and gradually increase speed. Avoid explosive backsteps until both partners are comfortable with the mechanics.",
+    "clips": [
+      {
+        "id": "WsQy2bzQqL8",
+        "title": "Backstep Pass from X Guard",
+        "by": "Wakizashi Jiu Jitsu",
+        "vertical": false,
+        "channel": "Wakizashi Jiu Jitsu",
+        "duration": 76,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "gwAf2mcPZ0g",
+        "title": "Single Leg X Pass and Back Take",
+        "by": "Kameron Ross",
+        "vertical": false,
+        "channel": "Kameron Ross",
+        "duration": 42,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "RGcGInZB7uM",
+        "title": "Floating Backstep Pass vs Single Leg X",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 122,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Backstep from Single Leg X Defender",
@@ -425,6 +454,26 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Full-speed backstep defense with all tools available",
         "description": "Positional sparring starting from SLX where partner's primary goal is to complete the backstep pass. Use all defensive tools: hook chasing, counter-attacks, guard recovery, and frame defense. Partner increases intensity to full competition speed. Track pass completion percentage to measure defensive improvement over time."
+      }
+    ],
+    "clips": [
+      {
+        "id": "25oMxgS-wH0",
+        "title": "Shin-to-shin counter to the backstep",
+        "by": "Kyle Dimmitt",
+        "vertical": false,
+        "channel": "Kyle Dimmitt",
+        "duration": 73,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "El_icnQ7GKg",
+        "title": "Re-entering the legs when single leg X gets crushed",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 140,
+        "verified": "2026-07-15"
       }
     ]
   }

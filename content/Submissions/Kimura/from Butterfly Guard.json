@@ -331,6 +331,26 @@
         "answer": "Drive your hooks upward into their inner thighs to elevate their hips and break their posture before they can fully extend. Simultaneously pull the trapped arm toward your hip to prevent them from creating the distance needed to straighten the arm. If they continue posturing, use their forward commitment to roll them over into a Kimura Trap position where you end up on top with the grip intact, converting their escape attempt into a more dominant finishing position and scoring the reversal.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "a52wxVLVkAY",
+        "title": "Kimura from guard, Marcelo Garcia version",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "Skyhook Martial Arts & Fitness",
+        "duration": 106,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "dgYwflmcxKk",
+        "title": "Kimura from half guard bottom",
+        "by": "Georges St-Pierre",
+        "vertical": false,
+        "channel": "Hayabusa",
+        "duration": 72,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -456,6 +476,35 @@
         "phase": "Phase 3: Escape Integration",
         "focus": "Complete defensive sequences under resistance",
         "description": "Positional sparring where the attacker works Kimura attacks from butterfly guard and the defender practices the full defensive sequence: recognition, prevention, grip defense, and escape. Full resistance with emphasis on safe tapping when caught and controlled release protocol."
+      }
+    ],
+    "clips": [
+      {
+        "id": "9P4zweTSZRE",
+        "title": "Butterfly hook back take against a kimura",
+        "by": "Procel BJJ",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 72,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "GOLwVNTVcnY",
+        "title": "Kimura defense grip breaks",
+        "by": "Dirtball BJJ",
+        "vertical": false,
+        "channel": "Dirtball BJJ",
+        "duration": 81,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "gvRGrvtKd1U",
+        "title": "Kimura defense",
+        "by": "Jon Satava",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 142,
+        "verified": "2026-07-14"
       }
     ]
   }

@@ -272,7 +272,36 @@
         "answer": "Your hands must release the heel cup grip used for the heel hook and transition to controlling the ankle and lower leg area. The foot gets secured against your chest or shoulder with both hands wrapping the ankle. This grip change must happen smoothly during the body rotation—any delay allows the opponent to retract their leg before you establish kneebar control."
       }
     ],
-    "safety_considerations": "The kneebar attacks the knee joint through hyperextension, which can cause severe ligament damage (ACL, PCL, MCL) if applied too quickly or without proper control. In training, apply pressure gradually and progressively—never explosively. Partners should tap early when they feel the extension begin, not wait for pain. The knee joint provides less warning than shoulder or elbow joints before injury occurs. Avoid this technique if your partner has pre-existing knee injuries. Never attempt to straighten a bent knee by force. When drilling, establish clear communication about pressure levels. In competition, be prepared for opponents who do not tap—release rather than cause permanent injury. This technique should only be trained in environments where leg locks are permitted and partners understand the risks involved."
+    "safety_considerations": "The kneebar attacks the knee joint through hyperextension, which can cause severe ligament damage (ACL, PCL, MCL) if applied too quickly or without proper control. In training, apply pressure gradually and progressively—never explosively. Partners should tap early when they feel the extension begin, not wait for pain. The knee joint provides less warning than shoulder or elbow joints before injury occurs. Avoid this technique if your partner has pre-existing knee injuries. Never attempt to straighten a bent knee by force. When drilling, establish clear communication about pressure levels. In competition, be prepared for opponents who do not tap—release rather than cause permanent injury. This technique should only be trained in environments where leg locks are permitted and partners understand the risks involved.",
+    "clips": [
+      {
+        "id": "fZRfKh1B53o",
+        "title": "Single Leg X to Kneebar Setup",
+        "by": "Fernaldi Jonatan",
+        "vertical": false,
+        "channel": "Fernaldi Jonatan",
+        "duration": 76,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "nlqXyzajRUg",
+        "title": "Omoplata to Knee Bar Setup",
+        "by": "Todd Hendrickson",
+        "vertical": false,
+        "channel": "Old School Jiu Jitsu",
+        "duration": 88,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "0wHq6PZVGfI",
+        "title": "2 Ways to Attack a Kneebar From Cross Ashi",
+        "by": "King Kneebar",
+        "vertical": false,
+        "channel": "King Kneebar",
+        "duration": 140,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Kneebar Setup Defender",
@@ -402,6 +431,35 @@
         "phase": "Week 7+",
         "focus": "Live positional defense",
         "description": "Full positional sparring starting from outside ashi top. Attacker works complete leg lock game including kneebar, heel hook, and calf slicer chains. Practice defending all threats and successfully extracting the leg. Focus on remaining calm under genuine submission pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "L417yCl_-dc",
+        "title": "Leg Defense from Ashi Garami",
+        "by": "The Coop BJJ",
+        "vertical": false,
+        "channel": "The Coop BJJ",
+        "duration": 48,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "cRXsNPAgVLU",
+        "title": "Irimi Ashi Garami Counter",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 29,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fkl93-NakrI",
+        "title": "Terminology of Ashi Garami and Leg Locks",
+        "by": "Patrick Donabedian",
+        "vertical": false,
+        "channel": "Patrick Donabedian BJJ",
+        "duration": 79,
+        "verified": "2026-07-15"
       }
     ]
   },

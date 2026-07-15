@@ -240,7 +240,36 @@
         "answer": "Keeping your hips elevated and your hooks active. Elevated hips lift the opponent's weight off their base and keep the trapped leg extended away from their body, while the inside hook and shin prevent their free leg from framing on your hips. If your hips drop flat, the leg returns toward their body and they recover guard or clear the entanglement."
       }
     ],
-    "safety_considerations": "Footlocks load the ankle joint and Achilles tendon, which give little warning before injury, so apply all rotational pressure slowly and progressively and never with a jerking motion. During drilling, establish control fully before adding any pressure, communicate clearly with your partner, and release the instant they tap or signal discomfort. Beginners should drill the entry and grip without finishing pressure until the mechanics are reliable."
+    "safety_considerations": "Footlocks load the ankle joint and Achilles tendon, which give little warning before injury, so apply all rotational pressure slowly and progressively and never with a jerking motion. During drilling, establish control fully before adding any pressure, communicate clearly with your partner, and release the instant they tap or signal discomfort. Beginners should drill the entry and grip without finishing pressure until the mechanics are reliable.",
+    "clips": [
+      {
+        "id": "_6BC8d5B5Hs",
+        "title": "Estima Lock demonstration",
+        "by": "bjjtaro",
+        "vertical": false,
+        "channel": "bjjtaro",
+        "duration": 31,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8Wum2xWu8b8",
+        "title": "Estima Lock breakdown",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 108,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "enJwT6Ttreo",
+        "title": "Key detail for finishing the Estima Lock",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 137,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Single Leg X to Estima Lock Defender",
@@ -338,6 +367,26 @@
         "phase": "Week 5-8: Counter-Passing and Live Defense",
         "focus": "Turning a defended entry into a top pass under resistance",
         "description": "Partner attacks the Estima entry at medium-to-full resistance. Work to recognize over-commitment, frame with the free leg, and drive forward to clear the hooks into a top open-guard pass, or tap cleanly when the lock consolidates. 5-minute rounds with resets."
+      }
+    ],
+    "clips": [
+      {
+        "id": "JSOM86_1lRo",
+        "title": "Foot lock and single leg X guard escapes",
+        "by": "James O'Connor",
+        "vertical": false,
+        "channel": "James O’Connor",
+        "duration": 111,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "0CUWEdcIMlU",
+        "title": "Advanced footlock defense details",
+        "by": "Scott Clawson",
+        "vertical": false,
+        "channel": "Scott Clawson Jiu-Jitsu",
+        "duration": 68,
+        "verified": "2026-07-15"
       }
     ]
   },

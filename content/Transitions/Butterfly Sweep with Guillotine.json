@@ -276,7 +276,36 @@
         "answer": "Follow their retreating hips by extending your hooks and maintaining downward pull on their head. If they create too much distance for the sweep, transition to closed guard while keeping the guillotine locked, then reset the dilemma. From closed guard with guillotine, you threaten the finish directly or re-insert butterfly hooks to reload the sweep threat."
       }
     ],
-    "safety_considerations": "This technique involves significant rotational force on the cervical spine during the sweep transition. Practice with controlled speed initially, ensuring your partner can tap at any point during the movement. The guillotine component requires immediate release upon tap, which can be challenging during the sweep motion, so develop the habit of releasing grip instantly regardless of sweep progress. Avoid jerking or explosive neck cranking during the finishing phase. Partners should tap early when caught in the sweep-to-mount guillotine sequence rather than defending through uncomfortable positions. Practitioners with prior neck injuries should approach this technique with extra caution and possibly modify the grip pressure during training."
+    "safety_considerations": "This technique involves significant rotational force on the cervical spine during the sweep transition. Practice with controlled speed initially, ensuring your partner can tap at any point during the movement. The guillotine component requires immediate release upon tap, which can be challenging during the sweep motion, so develop the habit of releasing grip instantly regardless of sweep progress. Avoid jerking or explosive neck cranking during the finishing phase. Partners should tap early when caught in the sweep-to-mount guillotine sequence rather than defending through uncomfortable positions. Practitioners with prior neck injuries should approach this technique with extra caution and possibly modify the grip pressure during training.",
+    "clips": [
+      {
+        "id": "QVX_1iEBFk4",
+        "title": "Failed butterfly sweep to guillotine",
+        "by": "Gracie Westchase coach",
+        "vertical": false,
+        "channel": "Gracie Westchase ",
+        "duration": 74,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "SAWvSovVk4A",
+        "title": "Guillotine from butterfly guard",
+        "by": "Jake Shields",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 64,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "3lHWHK-ga1s",
+        "title": "Arm-in guillotine to butterfly sweep",
+        "by": "Cate BJJ coach",
+        "vertical": false,
+        "channel": "Cate Brazilian Jiu-jitsu and Kickboxing",
+        "duration": 109,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Butterfly Sweep with Guillotine Defender",
@@ -405,6 +434,35 @@
         "phase": "Week 7+",
         "focus": "Live defense under full pressure",
         "description": "Full resistance sparring starting in the Hindulotine with butterfly hooks position. Defender must escape without being swept or submitted. Track success rate over rounds and identify which defensive patterns work best against different body types and grip styles."
+      }
+    ],
+    "clips": [
+      {
+        "id": "dyTKKiajgzQ",
+        "title": "Guillotine escape vs single and double",
+        "by": "Cobrinha",
+        "vertical": false,
+        "channel": "Cobrinha Brazilian Jiu-Jitsu & Fitness",
+        "duration": 44,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "OI_18KI8_jg",
+        "title": "Guillotine defense from inside closed guard",
+        "by": "Double Phoenix coach",
+        "vertical": false,
+        "channel": "Double Phoenix Jiu Jitsu",
+        "duration": 48,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "aH1byNn_hj4",
+        "title": "Standing guillotine escape",
+        "by": "Team Daruma Dojo coach",
+        "vertical": false,
+        "channel": "Team Daruma Dojo",
+        "duration": 86,
+        "verified": "2026-07-15"
       }
     ]
   },

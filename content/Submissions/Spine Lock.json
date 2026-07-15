@@ -196,5 +196,25 @@
       "name": "Electric Chair",
       "relationship": "Half guard position that can lead to Truck and spine lock entries"
     }
+  ],
+  "clips": [
+    {
+      "id": "sCBGkcJCQYY",
+      "title": "The Truck in Transition",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "Eddie Bravo",
+      "duration": 61,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "Y693ZHlCd2Q",
+      "title": "Two Entries Into the Truck",
+      "by": "Geo Martinez",
+      "vertical": false,
+      "channel": "FloGrappling",
+      "duration": 100,
+      "verified": "2026-07-14"
+    }
   ]
 }

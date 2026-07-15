@@ -389,6 +389,35 @@
         "focus": "Live positional sparring integration",
         "description": "Full resistance positional sparring starting from gogoplata control. Defender must defend both the submission and the mount transition in real time. Track success rates for preventing mount versus recovering half guard versus being mounted cleanly."
       }
+    ],
+    "clips": [
+      {
+        "id": "_05Lwonu0mw",
+        "title": "Escaping a high full mount",
+        "by": "Tenzan Aikido",
+        "vertical": false,
+        "channel": "TENZAN AIKIDO",
+        "duration": 78,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MgF9kZdPnDE",
+        "title": "Upa mount escape beating shadow hooks",
+        "by": "SBG PDX",
+        "vertical": false,
+        "channel": "SBG PDX & Vancouver BJJ and MMA Videos",
+        "duration": 104,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2uuP147GoBk",
+        "title": "Mount bottom bridge and roll escape",
+        "by": "Academy Jiu Jitsu",
+        "vertical": false,
+        "channel": "Academy Jiu Jitsu",
+        "duration": 62,
+        "verified": "2026-07-15"
+      }
     ]
   },
   "variants_and_adaptations": [

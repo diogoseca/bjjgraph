@@ -285,7 +285,36 @@
         "answer": "Experienced opponents watch for heel positioning, core tensing, and breathing changes that signal an incoming bridge. Counter this by making foot adjustments gradually throughout the position rather than in a sudden burst. Maintain steady breathing rhythm until the moment of execution. Use small preliminary movements like minor hip shifts to disguise the setup. Consider using a frame adjustment or grip fight as a distraction that masks the foot positioning needed for the bridge."
       }
     ],
-    "safety_considerations": "Bridge escapes involve explosive spinal extension that can strain the lower back if performed with poor mechanics or insufficient warm-up. Practitioners with cervical spine issues should exercise particular caution since the head bears partial weight during the bridge. Always warm up thoroughly with progressive bridging drills before training explosive escapes. Communicate with training partners about intensity levels to prevent neck strain or accidental collisions during the explosive movement phase. Avoid repeatedly drilling bridges at maximum intensity in a single session to prevent cumulative lower back fatigue."
+    "safety_considerations": "Bridge escapes involve explosive spinal extension that can strain the lower back if performed with poor mechanics or insufficient warm-up. Practitioners with cervical spine issues should exercise particular caution since the head bears partial weight during the bridge. Always warm up thoroughly with progressive bridging drills before training explosive escapes. Communicate with training partners about intensity levels to prevent neck strain or accidental collisions during the explosive movement phase. Avoid repeatedly drilling bridges at maximum intensity in a single session to prevent cumulative lower back fatigue.",
+    "clips": [
+      {
+        "id": "2M_6VytUaus",
+        "title": "Kesa gatame escape",
+        "by": "SBG Australia",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 43,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "W16rYg4nzrw",
+        "title": "Kesa gatame escape: elbow to the floor",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 159,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "KUBGWiRuSkI",
+        "title": "Scarf hold defence: the two foot positions",
+        "by": "SBG Rossendale",
+        "vertical": false,
+        "channel": "SBG Rossendale 3rd Degree Black Belt BJJ",
+        "duration": 141,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Bridge Escape from Modified Scarf Hold Defender",
@@ -394,6 +423,26 @@
         "phase": "Phase 3: Counter-Transition",
         "focus": "Converting bridge attempts into positional advancement",
         "description": "Partner performs committed bridge escapes at high intensity. Practice the decision tree between resettling into scarf hold and advancing to mount based on how much space the bridge creates. Develop fluid transitions between maintaining position and advancing when the opportunity presents itself."
+      }
+    ],
+    "clips": [
+      {
+        "id": "OYmQpzNmvF4",
+        "title": "Kesa gatame back door escape",
+        "by": "5am Birds of War",
+        "vertical": false,
+        "channel": "5am Birds of War",
+        "duration": 25,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "E1iLCgRjGaY",
+        "title": "Using your body to pin and keep them flat",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 115,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -294,7 +294,18 @@
         "answer": "The bull pass threatens lateral passing while techniques like knee slice and pressure pass threaten direct forward passing. When you alternate between these threats, the opponent cannot commit their defensive structure in a single direction. Defending the lateral bull pass by turning their hips sideways exposes them to direct knee slice. Defending the knee slice by squaring up their hips makes lateral passing more available. This multi-directional threat forces defensive compromises."
       }
     ],
-    "safety_considerations": "The bull pass involves explosive lateral movement that can strain the passer's knees if performed with poor mechanics. Avoid over-rotation of the knee joint when stepping laterally by keeping feet pointed in the direction of movement. The opponent's legs should be redirected with controlled continuous force rather than violent jerking to prevent hyperextension of their hip or knee joints. In training, communicate with partners about the speed and intensity of leg redirection. When drilling at full speed, ensure adequate warm-up of the knees, hips, and ankles for both practitioners."
+    "safety_considerations": "The bull pass involves explosive lateral movement that can strain the passer's knees if performed with poor mechanics. Avoid over-rotation of the knee joint when stepping laterally by keeping feet pointed in the direction of movement. The opponent's legs should be redirected with controlled continuous force rather than violent jerking to prevent hyperextension of their hip or knee joints. In training, communicate with partners about the speed and intensity of leg redirection. When drilling at full speed, ensure adequate warm-up of the knees, hips, and ankles for both practitioners.",
+    "clips": [
+      {
+        "id": "HsNwpC2CYIM",
+        "title": "Passing collar sleeve guard, competition tested",
+        "by": "Jamil Hill-Taylor",
+        "vertical": false,
+        "channel": "IBJJF (International Brazilian Jiu-Jitsu Federation)",
+        "duration": 69,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Bull Pass from Collar Sleeve Defender",
@@ -419,6 +430,26 @@
         "phase": "Live Defensive Sparring",
         "focus": "Full speed defense against bull pass and complementary passes",
         "description": "Positional sparring starting in collar sleeve guard where the top player attempts bull pass and related passing techniques. Bottom player practices recognition, defensive reactions, and guard recovery under live conditions with full resistance and unpredictable combinations."
+      }
+    ],
+    "clips": [
+      {
+        "id": "wdvJF6S68TI",
+        "title": "Collar sleeve matrix defense, overhead sweep",
+        "by": "Luciana Marcos",
+        "vertical": false,
+        "channel": "luciana MARCOS",
+        "duration": 68,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "sXMtbCGzpvs",
+        "title": "Tripod sweep from collar sleeve guard",
+        "by": "Golden State BJJ",
+        "vertical": false,
+        "channel": "Golden State BJJ",
+        "duration": 95,
+        "verified": "2026-07-15"
       }
     ]
   }

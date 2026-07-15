@@ -359,6 +359,26 @@
         "answer": "Against thick-necked opponents, arm threading depth becomes even more critical because the carotid arteries are deeper beneath muscle tissue. Thread the arm until your elbow clears well past the far side of their neck. Increase the hip sprawl distance to generate greater structural compression force through the shoulder and chest. You may also need to adjust your choking arm angle slightly, angling the bicep more toward the jaw line where the carotid is closer to the surface. Relying on squeeze against a muscular neck will always fail - the finish must come from progressive structural pressure through hip drive and shoulder drop, which generates far more force than arm strength alone.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "z3RNUfHfiSM",
+        "title": "Marcelo Garcia - North South Choke",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "Kon Ying",
+        "duration": 20,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "SfUhu8rbz68",
+        "title": "North South Choke for BJJ & MMA",
+        "by": "Robby Malof",
+        "vertical": false,
+        "channel": "Robby Malof",
+        "duration": 86,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -499,6 +519,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance defense from reverse scarf hold",
         "description": "Begin positional rounds from reverse scarf hold with attacker hunting the north-south choke at full resistance. Defender uses all available tools to prevent the choke and escape. Emphasize early recognition and early defensive action. Track success rates and identify which defensive stage needs the most improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ORpUBUxK1QE",
+        "title": "Reverse Kesa Gatame escape to back take",
+        "by": "Gymnanigains",
+        "vertical": false,
+        "channel": "Gymnanigains",
+        "duration": 26,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "O-2iSvT8zDk",
+        "title": "Hook-Plata North-South choke escape",
+        "by": "Erik Koehne",
+        "vertical": false,
+        "channel": "Erik Koehne",
+        "duration": 59,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "pafncZwJurg",
+        "title": "Bottom North/South escape - roll back",
+        "by": "Cosens Martial Arts",
+        "vertical": false,
+        "channel": "Cosens MMA LLC",
+        "duration": 109,
+        "verified": "2026-07-14"
       }
     ]
   }

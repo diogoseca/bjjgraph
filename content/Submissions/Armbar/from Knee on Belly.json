@@ -325,6 +325,35 @@
         "answer": "Before extending, verify five control points: two-on-one wrist grip with opponent's thumb up, hips tight against the opponent's shoulder with zero gap, knees squeezed together around the upper arm creating the fulcrum, near leg heavy across opponent's torso preventing them from sitting up, and far leg pressed against the side of their head preventing them from turning toward you. Missing any of these five creates an escape pathway that the opponent will exploit under pressure. Only begin hip elevation once all five checkpoints are confirmed.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "JQMSXF2uVfA",
+        "title": "Armbar from Knee on Belly",
+        "by": "Mauricio Gomes",
+        "vertical": false,
+        "channel": "Mauricio Gomes BJJ",
+        "duration": 80,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "LrWL-ILB4ME",
+        "title": "Shotgun Armbar from Knee on Belly",
+        "by": "Raymond Tan",
+        "vertical": false,
+        "channel": "BJJ Cheat Codes by Raymond Tan",
+        "duration": 62,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "jxZaCP3bBuM",
+        "title": "Armbar from Knee on Belly",
+        "by": "Team Daruma Dojo",
+        "vertical": false,
+        "channel": "Team Daruma Dojo",
+        "duration": 65,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -448,6 +477,35 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Full resistance defense from knee on belly positional rounds",
         "description": "Positional sparring starting from knee on belly with the top player actively hunting the armbar. Develop real-time recognition of the attack entry and execute appropriate defensive responses under full competitive pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Wn01Ynw7O28",
+        "title": "How to escape the Knee on Belly position",
+        "by": "Evolve MMA",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 40,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "I9_3u9AcwAg",
+        "title": "First principles escapes: Knee-on-Belly",
+        "by": "40 Plus BJJ",
+        "vertical": false,
+        "channel": "40 Plus BJJ",
+        "duration": 59,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "WIYwi1fKisU",
+        "title": "Sneaky knee on belly escape (gi and no gi)",
+        "by": "Zebulon Miller",
+        "vertical": false,
+        "channel": "Zebulon Miller",
+        "duration": 78,
+        "verified": "2026-07-14"
       }
     ]
   }

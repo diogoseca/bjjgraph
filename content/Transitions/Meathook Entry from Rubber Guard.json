@@ -296,7 +296,27 @@
         "answer": "The climb requires enough hip flexion and hamstring length to walk the shin over the shoulder line while keeping guard connection. If flexibility is limited, break the opponent's posture more aggressively first so their body is closer to yours, shortening the distance the leg must travel. Long term, develop hip-flexor and hamstring range with a dedicated stretching program before relying on the entry live."
       }
     ],
-    "safety_considerations": "This entry loads the practitioner's own hip flexors, hamstrings, and groin heavily during the leg climb, so warm up hip external rotation and hamstring flexibility thoroughly and never force the climb beyond your range, which risks groin strain or acute hip injury. The resulting Meathook isolates the partner's shoulder; apply shin and shoulder pressure gradually in drilling so they can tap before the shoulder is compromised, and communicate clearly about intensity, especially when the position chains into gogoplata or triangle where neck and shoulder pressure escalate quickly."
+    "safety_considerations": "This entry loads the practitioner's own hip flexors, hamstrings, and groin heavily during the leg climb, so warm up hip external rotation and hamstring flexibility thoroughly and never force the climb beyond your range, which risks groin strain or acute hip injury. The resulting Meathook isolates the partner's shoulder; apply shin and shoulder pressure gradually in drilling so they can tap before the shoulder is compromised, and communicate clearly about intensity, especially when the position chains into gogoplata or triangle where neck and shoulder pressure escalate quickly.",
+    "clips": [
+      {
+        "id": "KN7ww-OyaxQ",
+        "title": "Meathook options from rubber guard",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "0w0642zFqWo",
+        "title": "Troubleshooting the rubber guard meathook",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 61,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Meathook Entry from Rubber Guard Defender",
@@ -406,6 +426,26 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Full-resistance defensive application",
         "description": "Positional sparring from established Rubber Guard with the bottom player attempting the Meathook climb and other Rubber Guard advancements. Defender uses the full toolkit against unpredictable attacks, tracking which defensive sequences stop the climb most consistently."
+      }
+    ],
+    "clips": [
+      {
+        "id": "58LkTy6v3KQ",
+        "title": "Defending and countering the overhook clamp",
+        "by": "The Grappling Bloke",
+        "vertical": false,
+        "channel": "The Grappling Bloke",
+        "duration": 109,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "SYl7QbIRELM",
+        "title": "Passing basics against rubber guard",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 119,
+        "verified": "2026-07-15"
       }
     ]
   }

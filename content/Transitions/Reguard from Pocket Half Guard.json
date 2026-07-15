@@ -284,7 +284,27 @@
         "answer": "Persist with pocket half guard attacks when your underhook is still deep with grip on the opponent's far lat or back, your bottom leg pocket frame is actively maintaining space against their hip, and you can generate rotational power for sweeps. The reguard should only be initiated when the underhook is becoming shallow, the crossface is establishing, or your hips are being progressively flattened. Reguarding from a viable pocket half guard wastes the offensive advantages that position provides."
       }
     ],
-    "safety_considerations": "This guard retention technique carries minimal injury risk as no joint locks or chokes are involved. The primary safety concern is the knee of the trapped leg, which can experience medial stress if the opponent drives heavy pressure during the hip escape phase while the leg entanglement restricts natural movement. Both training partners should communicate immediately if knee discomfort occurs during drilling. The top player should increase resistance gradually during progressive drilling rather than applying maximum force during the transition. Avoid explosive movements during the underhook release phase that could result in shoulder strain if the opponent is actively gripping the arm."
+    "safety_considerations": "This guard retention technique carries minimal injury risk as no joint locks or chokes are involved. The primary safety concern is the knee of the trapped leg, which can experience medial stress if the opponent drives heavy pressure during the hip escape phase while the leg entanglement restricts natural movement. Both training partners should communicate immediately if knee discomfort occurs during drilling. The top player should increase resistance gradually during progressive drilling rather than applying maximum force during the transition. Avoid explosive movements during the underhook release phase that could result in shoulder strain if the opponent is actively gripping the arm.",
+    "clips": [
+      {
+        "id": "L8_9QIvzZtA",
+        "title": "Knee shield half guard recovery vs pressure pass",
+        "by": "Dirtball BJJ",
+        "vertical": false,
+        "channel": "Dirtball BJJ",
+        "duration": 39,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "R0P8BvcJLAs",
+        "title": "Getting the underhook back from knee shield half",
+        "by": "Bowerhouse MMA",
+        "vertical": false,
+        "channel": "BOWERHOUSE MMA",
+        "duration": 131,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Reguard from Pocket Half Guard Defender",
@@ -409,6 +429,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Defending reguard within full competitive pocket half guard top game",
         "description": "Start in pocket half guard top against a fully resisting partner. Bottom player uses full pocket half guard attack chain including the reguard as a defensive fallback. Top player prevents reguard and passes. Reset after sweep, pass, or submission. Integrate reguard defense with overall pocket half guard top strategy including flattening, crossface maintenance, and pass completion."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ZzOVD7P6U-E",
+        "title": "Killing the knee shield to deny guard recovery",
+        "by": "Chosen Few BJJ",
+        "vertical": false,
+        "channel": "Chosen Few BJJ",
+        "duration": 88,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8WbQvytyCX0",
+        "title": "Passing the flat half guard",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 63,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "UXCySaKOndI",
+        "title": "Knee shield half guard pass",
+        "by": "Bowerhouse MMA",
+        "vertical": false,
+        "channel": "BOWERHOUSE MMA",
+        "duration": 121,
+        "verified": "2026-07-15"
       }
     ]
   }

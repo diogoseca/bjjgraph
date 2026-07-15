@@ -290,7 +290,27 @@
         "answer": "Your head should remain below the opponent's head level throughout the entire sweep sequence. This prevents them from establishing a crossface which would flatten you and kill the sweep, and creates a physical wedge that drives upward into their chest during execution. Think of your forehead driving into their sternum as an additional force vector complementing the underhook drive. If your head rises above theirs, you lose mechanical advantage and become vulnerable to being driven back to flat positioning."
       }
     ],
-    "safety_considerations": "The Sweep from Zombie Guard involves significant rotational forces on both practitioners' knees due to the lockdown entanglement. Release the lockdown immediately if either practitioner experiences sharp knee pain or popping sensations. The lockdown stretch should create controlled tension through muscular engagement, not acute joint stress on the knee or ankle. During training, communicate with your partner about lockdown pressure intensity and complete the sweep with smooth controlled rotation rather than explosive jerking movements to minimize injury risk. Practitioners with existing knee or ankle injuries should exercise particular caution and consider modified lockdown depth."
+    "safety_considerations": "The Sweep from Zombie Guard involves significant rotational forces on both practitioners' knees due to the lockdown entanglement. Release the lockdown immediately if either practitioner experiences sharp knee pain or popping sensations. The lockdown stretch should create controlled tension through muscular engagement, not acute joint stress on the knee or ankle. During training, communicate with your partner about lockdown pressure intensity and complete the sweep with smooth controlled rotation rather than explosive jerking movements to minimize injury risk. Practitioners with existing knee or ankle injuries should exercise particular caution and consider modified lockdown depth.",
+    "clips": [
+      {
+        "id": "c5aHZxvr2bk",
+        "title": "Lockdown old school sweep",
+        "by": "The Jiu-Jitsu Foundry",
+        "vertical": false,
+        "channel": "The Jiu-Jitsu Foundry",
+        "duration": 33,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "CFQXFFFNQhM",
+        "title": "Sweep flow options from the lockdown",
+        "by": "10th Planet Orange Park",
+        "vertical": false,
+        "channel": "10th Planet Orange Park",
+        "duration": 165,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Sweep from Zombie Guard Defender",

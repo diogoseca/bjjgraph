@@ -281,7 +281,27 @@
         "answer": "Focus on the consolidation phase after the break rather than the break itself. Drill the immediate transition from extraction to tight half guard top control with emphasis on closing all space against the opponent's hip. Practice chaining the break directly into a passing attempt so the opponent never has a window to reconfigure. Also examine whether your upper body pressure drops during the final extraction phase, as this commonly allows the re-establishment."
       }
     ],
-    "safety_considerations": "The lockdown break involves controlled leg straightening and hook stripping that places stress on both players' knees and ankles. Apply progressive force when straightening rather than explosive jerking motions that can strain the bottom player's knee ligaments, particularly the MCL. If either player reports sharp knee pain during drilling, stop immediately and assess the angle of force application. Ensure adequate warm-up of hip flexors and hamstrings before practicing this technique, and communicate with your training partner about pressure intensity throughout the drill."
+    "safety_considerations": "The lockdown break involves controlled leg straightening and hook stripping that places stress on both players' knees and ankles. Apply progressive force when straightening rather than explosive jerking motions that can strain the bottom player's knee ligaments, particularly the MCL. If either player reports sharp knee pain during drilling, stop immediately and assess the angle of force application. Ensure adequate warm-up of hip flexors and hamstrings before practicing this technique, and communicate with your training partner about pressure intensity throughout the drill.",
+    "clips": [
+      {
+        "id": "WMcD-_R-To0",
+        "title": "Getting unstuck on top half guard",
+        "by": "Trapp Martial Arts",
+        "vertical": false,
+        "channel": "Trapp Martial Arts",
+        "duration": 35,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "a_DC4rAqrvQ",
+        "title": "Escaping the lockdown from top",
+        "by": "The Grappling Academy",
+        "vertical": false,
+        "channel": "The Grappling Academy",
+        "duration": 232,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Lockdown Break from Z-Lock Defender",
@@ -394,6 +414,26 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Real-time decision making between retention and counter",
         "description": "Full positional sparring from Z-Lock bottom against partners who actively attempt to break and pass. Score retained Z-Lock as a draw, sweep as a win, and being passed as a loss. Develop real-time decision-making between committing to retention versus launching counter-attacks."
+      }
+    ],
+    "clips": [
+      {
+        "id": "OIr4wDxl-Ys",
+        "title": "Lockdown clinches to hold the Z-lock",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "LYeQDaZhVL0",
+        "title": "Lockdown stomp to butterfly guard",
+        "by": "Brandon Mccaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 123,
+        "verified": "2026-07-15"
       }
     ]
   }

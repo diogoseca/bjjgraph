@@ -272,7 +272,36 @@
         "answer": "The trapped arm is already in internal rotation with bent elbow from the Gift Wrap position - essentially halfway to submission before you attack. The opponent cannot straighten the arm because Gift Wrap prevents extension, and cannot rotate the shoulder externally because your body blocks that path. This eliminates the two primary Kimura defenses before the attack begins, reducing the technique to a finishing sequence rather than a full setup-to-finish chain."
       }
     ],
-    "safety_considerations": "The Kimura places significant rotational stress on the shoulder joint's glenohumeral capsule and rotator cuff structures. Apply pressure progressively rather than explosively to allow training partners time to tap. The trapped arm position reduces defensive ability, making shoulder injuries more likely if pressure is applied too rapidly. Release immediately upon any tap signal - verbal, physical, or foot tapping. When drilling, establish clear communication protocols before training. Avoid this technique on partners with existing shoulder injuries or reduced mobility. In competition, be prepared for opponents who refuse to tap; maintain control without excessive force escalation. The belly-down finish variant places additional stress on the shoulder; use extra caution when following rolls."
+    "safety_considerations": "The Kimura places significant rotational stress on the shoulder joint's glenohumeral capsule and rotator cuff structures. Apply pressure progressively rather than explosively to allow training partners time to tap. The trapped arm position reduces defensive ability, making shoulder injuries more likely if pressure is applied too rapidly. Release immediately upon any tap signal - verbal, physical, or foot tapping. When drilling, establish clear communication protocols before training. Avoid this technique on partners with existing shoulder injuries or reduced mobility. In competition, be prepared for opponents who refuse to tap; maintain control without excessive force escalation. The belly-down finish variant places additional stress on the shoulder; use extra caution when following rolls.",
+    "clips": [
+      {
+        "id": "bKEhbrZaS7Y",
+        "title": "Kimura setup from knee on belly with arm trap",
+        "by": "Jiu Jitsu Five-O",
+        "vertical": false,
+        "channel": "Jiu Jitsu Five-O // Street-Ready BJJ Training",
+        "duration": 32,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Wx6X2jZ-1Ec",
+        "title": "Side control step around to kimura arm trap",
+        "by": "Submission1",
+        "vertical": false,
+        "channel": "Submission1",
+        "duration": 41,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "yOO_TVoje9Q",
+        "title": "S-mount arm trap kimura",
+        "by": "Kameron Ross",
+        "vertical": false,
+        "channel": "Kameron Ross",
+        "duration": 152,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Kimura on Trapped Arm Defender",
@@ -387,6 +416,35 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring from Gift Wrap bottom",
         "description": "Full resistance positional rounds starting from Gift Wrap Bottom. Defender works to survive and escape while attacker uses the complete Gift Wrap attack system including Kimura, chokes, and armbars. Develop realistic defensive timing and decision-making under pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "TuaopPUakM8",
+        "title": "Defending the kimura",
+        "by": "Eddie Kone",
+        "vertical": false,
+        "channel": "Eddie Kone Academy Of Jiu-Jitsu",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MM9rddEgJ58",
+        "title": "Kimura defense from bottom side control",
+        "by": "Gracie Westchase",
+        "vertical": false,
+        "channel": "Gracie Westchase ",
+        "duration": 156,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "qKj5Y-jDEeM",
+        "title": "Countering the kimura back take",
+        "by": "Placido Santos",
+        "vertical": false,
+        "channel": "Placido Santos ",
+        "duration": 32,
+        "verified": "2026-07-15"
       }
     ]
   },

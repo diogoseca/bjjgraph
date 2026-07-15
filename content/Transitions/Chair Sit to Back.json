@@ -303,7 +303,36 @@
         "answer": "After breaking the opponent onto their side with your seatbelt grip, insert the far-side hook first by swinging your free leg over their hip and threading your foot inside their top thigh. This hook is inserted first because your far leg is unencumbered and the opponent's side position naturally creates the opening. Only after this first hook is secure should you extract your blocking leg from across their thigh and insert it as the second hook underneath. Progressive insertion maintains control throughout the transition rather than creating a vulnerable moment with no hooks."
       }
     ],
-    "safety_considerations": "Chair sit to back take is generally a low-risk technique when practiced correctly, but practitioners should be aware of potential knee stress on the blocking leg. Avoid forcing your blocking leg position if the opponent is much larger or driving significant pressure into your shin, as this can cause knee ligament strain. When your training partner is transitioning to your back from chair sit, avoid explosive rolling movements backward, as this can injure their posted leg or torque their knee. During drilling, communicate clearly if hip or shoulder pressure becomes uncomfortable during the structure-breaking phase. For practitioners with previous knee injuries, consider using alternative back take methods that do not require the shin-across-thigh blocking position. Always tap early if caught in any submission during failed back take attempts, and respect your partner's tap immediately when practicing from the attacking side."
+    "safety_considerations": "Chair sit to back take is generally a low-risk technique when practiced correctly, but practitioners should be aware of potential knee stress on the blocking leg. Avoid forcing your blocking leg position if the opponent is much larger or driving significant pressure into your shin, as this can cause knee ligament strain. When your training partner is transitioning to your back from chair sit, avoid explosive rolling movements backward, as this can injure their posted leg or torque their knee. During drilling, communicate clearly if hip or shoulder pressure becomes uncomfortable during the structure-breaking phase. For practitioners with previous knee injuries, consider using alternative back take methods that do not require the shin-across-thigh blocking position. Always tap early if caught in any submission during failed back take attempts, and respect your partner's tap immediately when practicing from the attacking side.",
+    "clips": [
+      {
+        "id": "KU5nK5cWZos",
+        "title": "Chair sit back take from turtle",
+        "by": "New Legacy Martial Arts",
+        "vertical": false,
+        "channel": "New Legacy Martial Arts Gym",
+        "duration": 133,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_ApGfiRgL5k",
+        "title": "Back take basics",
+        "by": "Leo Vieira",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Vs50FHimMKA",
+        "title": "Saving the chair sit triangle",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 128,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Chair Sit to Back Defender",
@@ -432,6 +461,35 @@
         "phase": "Phase 4: Live positional sparring (Week 7+)",
         "focus": "Full resistance application from turtle defense scenarios",
         "description": "Positional sparring starting with attacker in turtle top. Defender must survive and escape using full defensive repertoire against unrestricted chair sit and other turtle attacks. Track success rate and identify which defensive responses work best against different attackers."
+      }
+    ],
+    "clips": [
+      {
+        "id": "OltjLaTW3wQ",
+        "title": "Three ways to defend the back take",
+        "by": "Roberto \"Cyborg\" Abreu",
+        "vertical": false,
+        "channel": "Cyborg BJJ",
+        "duration": 89,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "1yvAZJbc3iY",
+        "title": "Sweep from turtle to counter the back take",
+        "by": "Brian Cusack",
+        "vertical": false,
+        "channel": "Brian Cusack Juijitsu",
+        "duration": 65,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "JgrpnE0HyAY",
+        "title": "Defending a single hook from turtle",
+        "by": "South Boston BJJ",
+        "vertical": false,
+        "channel": "South Boston BJJ",
+        "duration": 149,
+        "verified": "2026-07-15"
       }
     ]
   },

@@ -331,6 +331,35 @@
         "answer": "The four primary defenses are: posture recovery and head extraction by driving upward, Von Flue shoulder pressure counter-choke by driving their shoulder into your neck, guard passing to relieve the choking angle by working laterally, and arm framing by wedging their forearm between your choking arm and their neck. Each defense has a specific counter—tighten legs against posture, angle hips against Von Flue, maintain guard against passing, and transition to darce against framing. Anticipating these responses allows you to pre-position your body to shut them down.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "NUnTxPvjCa0",
+        "title": "The Marcelotine Choke",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "stuartcooperfilms",
+        "duration": 73,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "IvSVZuezQGo",
+        "title": "Double Elbow to High Elbow Guillotine",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 171,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "9U5nyBImGj4",
+        "title": "High Elbow Guillotine (Marcelotine)",
+        "by": "Wrecking Crew BJJ",
+        "vertical": false,
+        "channel": "Wrecking Crew BJJ",
+        "duration": 45,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -462,6 +491,35 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Full-speed defense from front headlock entries",
         "description": "Start in front headlock with the attacker given freedom to attempt any finish including the high elbow guillotine. Defend with full resistance, implementing the complete defensive decision tree. Track which defenses succeed and which require further drilling. 6-minute rounds from starting position with reset on escape or submission."
+      }
+    ],
+    "clips": [
+      {
+        "id": "dyTKKiajgzQ",
+        "title": "Guillotine Escape from Single & Double",
+        "by": "Cobrinha",
+        "vertical": false,
+        "channel": "Cobrinha Brazilian Jiu-Jitsu & Fitness",
+        "duration": 44,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "8okq4cIHMO0",
+        "title": "Standing Guillotine Escape",
+        "by": "dogtownman",
+        "vertical": false,
+        "channel": "dogtownman",
+        "duration": 44,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "EMkHnDqU3l0",
+        "title": "Escape the High Elbow Guillotine",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Learn Faster BJJ - Jiu Jitsu Breakdowns",
+        "duration": 284,
+        "verified": "2026-07-14"
       }
     ]
   }

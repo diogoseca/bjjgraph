@@ -301,7 +301,27 @@
         "answer": "Against larger opponents, prioritize distance-creating guard variations like De La Riva or feet-on-hips rather than close-range butterfly guard, because their weight advantage makes close-range control more difficult to maintain. Use a deeper collar grip for greater leverage during the posture break, and sit further away during the descent to create more space for your legs to work. Focus on angular guard play rather than direct hook sweeps, as your leverage advantage increases with distance and angle. Consider the seated guard pull variant to avoid the risk of being crushed during a contested descent."
       }
     ],
-    "safety_considerations": "Guard pulls carry inherent risk of knee and ankle injuries if the pulling foot gets caught between or under the opponent's legs during descent. Always ensure your lead foot is positioned on the ball with toes pointing outward before sitting, and never initiate the pull with your foot trapped flat under the opponent's base. Jumping guard pulls pose additional risk of slamming injuries for both practitioners and are restricted or banned in many competition rulesets for lower belt divisions. During training, communicate with partners about injury history and increase resistance gradually. Avoid pulling guard on uneven or hard surfaces, and ensure sufficient mat space behind you before committing. If you feel your foot catching during descent, abort the pull immediately by posting your hand and standing back up rather than forcing through the compromised position."
+    "safety_considerations": "Guard pulls carry inherent risk of knee and ankle injuries if the pulling foot gets caught between or under the opponent's legs during descent. Always ensure your lead foot is positioned on the ball with toes pointing outward before sitting, and never initiate the pull with your foot trapped flat under the opponent's base. Jumping guard pulls pose additional risk of slamming injuries for both practitioners and are restricted or banned in many competition rulesets for lower belt divisions. During training, communicate with partners about injury history and increase resistance gradually. Avoid pulling guard on uneven or hard surfaces, and ensure sufficient mat space behind you before committing. If you feel your foot catching during descent, abort the pull immediately by posting your hand and standing back up rather than forcing through the compromised position.",
+    "clips": [
+      {
+        "id": "P7mhNq9atUo",
+        "title": "Open guard pull from standing",
+        "by": "Absolute MMA",
+        "vertical": false,
+        "channel": "Absolute MMA",
+        "duration": 79,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "B4_5rH7Vae0",
+        "title": "Competition-tested ways to pull guard",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ Plus",
+        "duration": 207,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Standing Guard Pull Defender",
@@ -426,6 +446,35 @@
         "phase": "Phase 4: Competition Simulation",
         "focus": "Full-resistance defense with strategic decision-making",
         "description": "Start standing rounds where the partner is specifically trying to pull guard and you are specifically trying to prevent establishment. Track your success rate at either keeping the fight standing or achieving a passing position within five seconds of their pull. Analyze your most common failure points—late recognition, passive response, or failed grip strips—and drill those specific scenarios."
+      }
+    ],
+    "clips": [
+      {
+        "id": "TFmD-xVlkpM",
+        "title": "What to do when your opponent pulls guard",
+        "by": "Fabio Galeb",
+        "vertical": false,
+        "channel": "Galeb BJJ Association ",
+        "duration": 47,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "aaE1IFqvknI",
+        "title": "Countering the guard pull",
+        "by": "Meerkatsu",
+        "vertical": false,
+        "channel": "Meerkatsu's BJJ Videos",
+        "duration": 93,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "u-jWz-kuERU",
+        "title": "Sweep counter to the guard pull drill",
+        "by": "Cobra",
+        "vertical": false,
+        "channel": "Cobra",
+        "duration": 88,
+        "verified": "2026-07-15"
       }
     ]
   }

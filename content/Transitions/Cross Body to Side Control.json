@@ -302,7 +302,36 @@
         "answer": "When the opponent successfully rebuilds turtle after pressure, it indicates either insufficient pressure angle or that they have developed effective re-posting timing. Adjust by changing your pressure angle—walk feet closer to their head to increase the downward component—or by threatening a back take first to force them to commit defensive resources away from base maintenance. Creating a genuine back take threat often opens the flatten as a secondary option."
       }
     ],
-    "safety_considerations": "This transition involves sustained pressure on the opponent's spine and shoulders during the flattening phase. Apply pressure progressively rather than explosively to allow training partners to adjust and defend. Be aware of the opponent's neck position during crossface establishment—aggressive crossface application can strain the cervical spine. During the transition, avoid driving weight directly onto the opponent's lower back or kidneys. In training, communicate with partners about pressure levels and release immediately if they signal discomfort."
+    "safety_considerations": "This transition involves sustained pressure on the opponent's spine and shoulders during the flattening phase. Apply pressure progressively rather than explosively to allow training partners to adjust and defend. Be aware of the opponent's neck position during crossface establishment—aggressive crossface application can strain the cervical spine. During the transition, avoid driving weight directly onto the opponent's lower back or kidneys. In training, communicate with partners about pressure levels and release immediately if they signal discomfort.",
+    "clips": [
+      {
+        "id": "8YvYkGr5FIU",
+        "title": "Turtle position to side control",
+        "by": "Rickson Gracie",
+        "vertical": false,
+        "channel": "Rickson Gracie Jiu-Jitsu Academy",
+        "duration": 47,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "b25b-PjmgdY",
+        "title": "Turtle gator roll to side control",
+        "by": "Carlos Machado",
+        "vertical": false,
+        "channel": "Carlos Machado",
+        "duration": 84,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "4U7fN1DNk4A",
+        "title": "Cross body ride entry vs seated opponent",
+        "by": "Bowerhouse MMA",
+        "vertical": false,
+        "channel": "BOWERHOUSE MMA",
+        "duration": 38,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Cross Body to Side Control Defender",
@@ -423,6 +452,35 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Full resistance positional sparring from disadvantaged position",
         "description": "Start from cross body ride with defender facing immediate flattening threat. Full resistance from both players. Defender scores for guard recovery or escape to standing. Attacker scores for side control establishment. Multiple rounds with position reset after each score."
+      }
+    ],
+    "clips": [
+      {
+        "id": "bDZntPrcLpg",
+        "title": "Turtle escape from back control",
+        "by": "BJJ101",
+        "vertical": false,
+        "channel": "BJJ101",
+        "duration": 37,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "JsiYZcOJXxg",
+        "title": "Escape from sprawl / turtle control",
+        "by": "Carlson Gracie Team CT",
+        "vertical": false,
+        "channel": "Carlson Gracie Team CT - CPBJJ",
+        "duration": 48,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "nJrDZItdKs8",
+        "title": "Turtle guard escape out of side control",
+        "by": "Grappling Instructionals",
+        "vertical": false,
+        "channel": "Grapplinginstructionals",
+        "duration": 95,
+        "verified": "2026-07-15"
       }
     ]
   }

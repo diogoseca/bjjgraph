@@ -290,7 +290,36 @@
         "answer": "If full half guard cannot be established, several alternatives exist. First, use the inserted knee as a butterfly hook by positioning your foot on the opponent's inner thigh and elevating to create more space for the second leg to engage. Second, transition the knee shield into an open guard frame by extending the leg while establishing collar or sleeve grips to prevent re-engagement. Third, use the partial space to execute a technical stand-up by posting your far hand and driving up to standing position. The key principle is to never give back the space the bridge created—use whatever guard structure you can establish as a platform for further improvement."
       }
     ],
-    "safety_considerations": "The Bridge Escape from Reverse Scarf Hold involves explosive hip extension under load, which can strain the lower back if performed with poor spinal alignment. Keep your chin tucked and core engaged throughout the bridge to protect the cervical and lumbar spine. During training, partners should allow escape at reduced resistance levels before progressing to full resistance. The near-side arm is vulnerable to sudden joint locks during the escape attempt—if your partner catches a submission grip during your bridge, tap immediately rather than trying to power through. Always warm up hip flexors and lower back before drilling bridge mechanics."
+    "safety_considerations": "The Bridge Escape from Reverse Scarf Hold involves explosive hip extension under load, which can strain the lower back if performed with poor spinal alignment. Keep your chin tucked and core engaged throughout the bridge to protect the cervical and lumbar spine. During training, partners should allow escape at reduced resistance levels before progressing to full resistance. The near-side arm is vulnerable to sudden joint locks during the escape attempt—if your partner catches a submission grip during your bridge, tap immediately rather than trying to power through. Always warm up hip flexors and lower back before drilling bridge mechanics.",
+    "clips": [
+      {
+        "id": "ORpUBUxK1QE",
+        "title": "Reverse kesa gatame escape to back take",
+        "by": "Gymnanigains",
+        "vertical": false,
+        "channel": "Gymnanigains",
+        "duration": 26,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QzegNgUUfZs",
+        "title": "Reverse kesa gatame side control escape",
+        "by": "Coach Paul",
+        "vertical": false,
+        "channel": "Coach Paul - War Fork Jiu-Jitsu Academy",
+        "duration": 81,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "-zFQ6h4yKT4",
+        "title": "Kuzure-kesa-gatame escapes",
+        "by": "Kodokan",
+        "vertical": false,
+        "channel": "KODOKAN",
+        "duration": 70,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Bridge Escape from Reverse Scarf Hold Defender",
@@ -413,6 +442,17 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance defense against complete escape systems",
         "description": "Full resistance rounds starting in reverse scarf hold. Top player works to maintain position or advance while bottom player uses complete escape toolkit including bridge escape, hip escape, and frame escape chains. Track retention rate and transition success across rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "fB7gGDIm1i8",
+        "title": "Kesa gatame retention and attacks from the top",
+        "by": "Johnny Jitsu",
+        "vertical": false,
+        "channel": "Johnny Jitsu",
+        "duration": 88,
+        "verified": "2026-07-15"
       }
     ]
   }

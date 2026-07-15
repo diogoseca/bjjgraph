@@ -464,6 +464,35 @@
         "question": "What is the relationship between hip position and submission availability from front headlock top?",
         "answer": "Hip position directly determines which submissions are accessible. Hips high and tight against opponent's body favor guillotine attacks - you can pull guard and finish or drop for standing guillotine. Hips sprawled back and to the side favor arm-in chokes like anaconda and darce, as this position prevents the opponent from rolling through while you thread your arm. For back takes, you need mobile hips ready to step over as the opponent tries to circle away. Understanding this relationship allows you to proactively position your hips based on which attack you want to set up."
       }
+    ],
+    "clips": [
+      {
+        "id": "HPAWgC8qxFY",
+        "title": "Marcelotine guillotine from front headlock",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "Miguel Garcia",
+        "duration": 47,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "9QCJFDsDQmk",
+        "title": "Front headlock snap down to spin behind",
+        "by": "Procel BJJ",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 66,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "87l6l0dmPWM",
+        "title": "Front headlock to the back",
+        "by": "Coach Casey",
+        "vertical": false,
+        "channel": "Coach “Coach Casey” Casey",
+        "duration": 52,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -763,6 +792,35 @@
         "question": "What is the relationship between your escape direction and the opponent's submission attempts from front headlock?",
         "answer": "Your escape direction should generally be perpendicular to or away from their primary attack angle. For guillotines, the choke tightens if you drive into them, so circle to the sides or roll through. For anaconda, escape away from your trapped arm side. For darce, the trapped arm is opposite, so escape toward the darce side. For back takes, they typically step toward one side, so escape the opposite direction. Reading which submission they're setting up tells you which escape direction is safest. Escaping directly into their attack line is the worst choice in all scenarios."
       }
+    ],
+    "clips": [
+      {
+        "id": "t4xBYQ1VauU",
+        "title": "Front headlock sit-out reversal",
+        "by": "Takada Dojo",
+        "vertical": false,
+        "channel": "takadadojokeith",
+        "duration": 28,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "OZkTT8kT1G8",
+        "title": "Clearing the front headlock",
+        "by": "The School of Wrestling",
+        "vertical": false,
+        "channel": "The School of Wrestling",
+        "duration": 86,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "ry5lH-N7O-0",
+        "title": "Basic front headlock defense",
+        "by": "Ben Askren",
+        "vertical": false,
+        "channel": "Askren Wrestling Academy",
+        "duration": 108,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -797,6 +855,26 @@
     {
       "question": "How do the front headlock's control mechanics stay largely consistent across gi and no-gi?",
       "answer": "The core of the position is skeletal and weight-based rather than grip-dependent: chest pressure into the upper back, an arm encircling the head, and control of the far shoulder work identically whether or not cloth is present. What changes between rulesets is the finishing detail, since the gi adds collar and lapel grips that create additional choking options while no-gi relies on flesh-and-forearm strangles. The positional skeleton, broken posture, head driven low, two-point upper-body control, is the same in both frames, which is why the front headlock reads as one position across rulesets even as its submissions diverge."
+    }
+  ],
+  "clips": [
+    {
+      "id": "Oa4LFTysBdo",
+      "title": "5 basic submissions from front headlock",
+      "by": "Elevate MMA Academy",
+      "vertical": false,
+      "channel": "Elevate MMA Academy",
+      "duration": 165,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "jJQ8r8nR5a4",
+      "title": "Front headlock fundamentals",
+      "by": "David Taylor",
+      "vertical": false,
+      "channel": "Live Trained",
+      "duration": 236,
+      "verified": "2026-07-14"
     }
   ]
 }

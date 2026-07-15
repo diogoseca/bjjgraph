@@ -291,7 +291,18 @@
         "answer": "Maintain heel protection throughout by keeping toes pointed toward the opponent's hip and the knee flexed to prevent heel exposure. Before initiating the sweep, confirm your heel is tucked and the opponent cannot access a clean grip on it. During the rotation, the sweeping motion should turn your trapped leg away from the opponent's finishing mechanics rather than toward them, using the sweep direction itself as a protective mechanism."
       }
     ],
-    "safety_considerations": "The Reversal from Leg Knot involves rotation through active leg entanglements where knees and ankles remain vulnerable throughout the transition. Always communicate with training partners about joint pressure during sweep attempts. Tap immediately if your trapped leg experiences dangerous torque or rotational force on the knee during the reversal. Begin drilling at reduced speed and intensity, gradually increasing as both partners develop comfort with the mechanics. Monitor for knee ligament stress caused by rotational forces and avoid forcing the sweep against locked-out entanglements."
+    "safety_considerations": "The Reversal from Leg Knot involves rotation through active leg entanglements where knees and ankles remain vulnerable throughout the transition. Always communicate with training partners about joint pressure during sweep attempts. Tap immediately if your trapped leg experiences dangerous torque or rotational force on the knee during the reversal. Begin drilling at reduced speed and intensity, gradually increasing as both partners develop comfort with the mechanics. Monitor for knee ligament stress caused by rotational forces and avoid forcing the sweep against locked-out entanglements.",
+    "clips": [
+      {
+        "id": "8VfldffVsFU",
+        "title": "Rolling leg knot control",
+        "by": "Tom Dinklage",
+        "vertical": false,
+        "channel": "Tom Dinklage",
+        "duration": 91,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Reversal from Leg Knot Defender",
@@ -416,6 +427,35 @@
         "phase": "Phase 4: Live Situational Defense",
         "focus": "Full resistance reversal defense with positional sparring",
         "description": "Positional sparring from Leg Knot Top with specific objective of maintaining or advancing position for 90 seconds while partner attempts reversals at full resistance. Track success rates and identify defensive patterns that need reinforcement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "m0NLphEuFoc",
+        "title": "Leg lock defense basics",
+        "by": "Kuwy Jitsu",
+        "vertical": false,
+        "channel": "Kuwy Jitsu",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MqtG9kuVt-Q",
+        "title": "Leg lock escape: roll through",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uZbUhFapIhg",
+        "title": "Leg entanglement defense",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 163,
+        "verified": "2026-07-15"
       }
     ]
   }

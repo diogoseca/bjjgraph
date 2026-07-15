@@ -367,6 +367,35 @@
         "answer": "Arm-only rotation creates two critical problems. First, it produces inconsistent and jerky force application because small arm muscles fatigue rapidly and generate force in unpredictable bursts rather than smooth progressive pressure. This makes it nearly impossible to apply the slow, controlled rotation required for safe training. Second, arm-only rotation lacks sufficient power against competent defense, leading the attacker to compensate by jerking or spiking the submission in frustration, dramatically increasing injury risk. Full body rotation using core and hip turn creates smooth, powerful, controllable force that can be modulated precisely.",
         "safety_critical": true
       }
+    ],
+    "clips": [
+      {
+        "id": "lTsK9C_a6po",
+        "title": "V Grip from Top Ushiro leg entanglement",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 140,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QfNKQzy3V_w",
+        "title": "Arm Saddle to inside heel hook flow drill",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 21,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Bf5cJNYCMcA",
+        "title": "Reverse X ashi garami leg control",
+        "by": "The Sanctuary BJJ",
+        "vertical": false,
+        "channel": "The Sanctuary Brazilian JiuJitsu and Fitness",
+        "duration": 105,
+        "verified": "2026-07-15"
+      }
     ]
   },
   "defender": {
@@ -514,6 +543,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full defensive application against committed attacks",
         "description": "Begin in ushiro ashi-garami with partner working full offensive heel hook sequences. Defend using all available tools with realistic intensity, practicing tap timing when the submission is fully established. Develop the judgment to distinguish between recoverable and unrecoverable submission positions under pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "2RLgyzWN71Y",
+        "title": "Outside Ashi Heel Hook Running Man Escape",
+        "by": "Grappling Game Changer",
+        "vertical": false,
+        "channel": "GRAPPLING GAME CHANGER",
+        "duration": 54,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "clVAHxgRadE",
+        "title": "Outside Heel Hook Defense to Inside Heel Hook",
+        "by": "Holy Grail BJJ",
+        "vertical": false,
+        "channel": "Holy Grail BJJ",
+        "duration": 105,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "EP49pafOr_I",
+        "title": "The Heel Hook Escape (Burn His Rashguard)",
+        "by": "Stephan Kesting",
+        "vertical": false,
+        "channel": "Stephan Kesting",
+        "duration": 172,
+        "verified": "2026-07-14"
       }
     ]
   }

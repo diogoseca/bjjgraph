@@ -331,7 +331,36 @@
         "answer": "The scoring urgency means you must prioritize reaching standing position to create offensive opportunities. Standing from turtle earns no points itself but creates the ability to pull guard to an attacking position or shoot a takedown for points. Execute the stand-up aggressively even at slightly higher risk of counter, because remaining in turtle guarantees a loss while a failed stand-up that leads to back control was likely the trajectory anyway with an aggressive opponent. After standing, immediately engage rather than creating distance: shoot a takedown attempt or pull guard into a sweeping position. The time constraint eliminates the luxury of patient grip fighting and demands committed action."
       }
     ],
-    "safety_considerations": "The turtle to standing transition is generally low-risk but requires awareness of several safety considerations. The primary injury risk is to the neck: rising with poor chin tuck mechanics can result in being caught in a guillotine or front headlock choke, and practitioners should tap immediately if a choke tightens during drilling rather than trying to power through. When training the explosive stand-up, ensure adequate warm-up of quadriceps, hip flexors, and shoulders, as the movement demands sudden power generation from a compressed starting position. Partners applying top pressure during resistance drills should avoid suddenly dropping their full bodyweight, as this can cause wrist, shoulder, or cervical spine injuries to the person posting. On hard or thin mat surfaces, be cautious of knee impact when driving the lead leg forward into the lunge position. Communication between training partners about intensity levels is essential, particularly during the transition from cooperative to resistant drilling phases. When practicing guillotine defense during stand-up drills, always tap early and reset rather than testing neck durability."
+    "safety_considerations": "The turtle to standing transition is generally low-risk but requires awareness of several safety considerations. The primary injury risk is to the neck: rising with poor chin tuck mechanics can result in being caught in a guillotine or front headlock choke, and practitioners should tap immediately if a choke tightens during drilling rather than trying to power through. When training the explosive stand-up, ensure adequate warm-up of quadriceps, hip flexors, and shoulders, as the movement demands sudden power generation from a compressed starting position. Partners applying top pressure during resistance drills should avoid suddenly dropping their full bodyweight, as this can cause wrist, shoulder, or cervical spine injuries to the person posting. On hard or thin mat surfaces, be cautious of knee impact when driving the lead leg forward into the lunge position. Communication between training partners about intensity levels is essential, particularly during the transition from cooperative to resistant drilling phases. When practicing guillotine defense during stand-up drills, always tap early and reset rather than testing neck durability.",
+    "clips": [
+      {
+        "id": "_sBB-O8fqP4",
+        "title": "Standing up from turtle, step 5",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 114,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "d312j3n9fIw",
+        "title": "Sit out from turtle with head on back",
+        "by": "Mjølnir Fight Club",
+        "vertical": false,
+        "channel": "Mjølnir Fight Club",
+        "duration": 30,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "TsBQBAp5o_I",
+        "title": "Standing up without exposing your back",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 146,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Turtle to Standing Defender",
@@ -453,6 +482,17 @@
         "phase": "Phase 4: Integrated Positional Sparring (Ongoing)",
         "focus": "Complete turtle top game including stand-up prevention",
         "description": "Situational sparring starting from turtle top where the bottom player can attempt any escape including stand-up, granby roll, sit-through, or guard pull. You must read their intention and apply the correct counter. This phase develops the complete decision tree for turtle top play where stand-up prevention is one component of your overall attacking and controlling strategy."
+      }
+    ],
+    "clips": [
+      {
+        "id": "nP6nIypaq0A",
+        "title": "Stop getting your back taken from turtle",
+        "by": "Grappling Education",
+        "vertical": false,
+        "channel": "Grappling Education",
+        "duration": 130,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -289,7 +289,27 @@
         "answer": "Release the bottom hand of the figure-four first while the top hand stays clamped on the foot and ankle, so one hand is always in contact with the limb. The freed bottom hand travels directly to the heel and establishes the C-grip, fingers wrapping the heel bone and thumb on the Achilles, before the top hand lets go. This staggered hand-over-hand sequence means the opponent never faces a fully open grip, and the increased leg clamp covers the brief moment when both hands are repositioning."
       }
     ],
-    "safety_considerations": "The Toe Hold to Ashi Garami transition involves manipulating ankle joint mechanics during a grip change, creating potential for uncontrolled rotational force during the repositioning phase. Release toe hold pressure completely before beginning leg repositioning to avoid applying inadvertent torque during the transition. Never rush the grip change under competition intensity until the mechanics are automatic through hundreds of repetitions in controlled drilling. Training partners must communicate clearly throughout the transition, and the attacking practitioner must be prepared to release immediately if the partner signals discomfort. Ankle and knee ligament injuries from improper transitions can be career-limiting, so prioritize safety over speed during the learning phase."
+    "safety_considerations": "The Toe Hold to Ashi Garami transition involves manipulating ankle joint mechanics during a grip change, creating potential for uncontrolled rotational force during the repositioning phase. Release toe hold pressure completely before beginning leg repositioning to avoid applying inadvertent torque during the transition. Never rush the grip change under competition intensity until the mechanics are automatic through hundreds of repetitions in controlled drilling. Training partners must communicate clearly throughout the transition, and the attacking practitioner must be prepared to release immediately if the partner signals discomfort. Ankle and knee ligament injuries from improper transitions can be career-limiting, so prioritize safety over speed during the learning phase.",
+    "clips": [
+      {
+        "id": "Kx8gZ3QdO8s",
+        "title": "Craig Jones crossover toe hold",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "Bence Romanek",
+        "duration": 51,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "OLghTlbmJGc",
+        "title": "Toe hold to heel hook transition, no-gi",
+        "by": "Denny Prokopos",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 137,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Toe Hold to Ashi Garami Defender",
@@ -404,6 +424,35 @@
         "phase": "Phase 3: Full Defense Under Pressure",
         "focus": "Defending the transition with full resistance and follow-up defense",
         "description": "Partner performs the transition at full speed with genuine intent to complete it. Defender must either escape during the transition window or implement immediate inside ashi-garami bottom defense if the transition succeeds. Three-minute positional rounds with scoring based on escape success or submission defense duration. Emphasize the decision-making process of when to fight the transition versus when to accept the new position and defend from there."
+      }
+    ],
+    "clips": [
+      {
+        "id": "L417yCl_-dc",
+        "title": "Leg defense from ashi garami",
+        "by": "The Coop BJJ coach",
+        "vertical": false,
+        "channel": "The Coop BJJ",
+        "duration": 48,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QMgsMSTRSBI",
+        "title": "Five leglock counters to ashi garami",
+        "by": "BJJ Black Belt Dad",
+        "vertical": false,
+        "channel": "BJJBlackBeltDad",
+        "duration": 93,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "m0NLphEuFoc",
+        "title": "Leg lock defense fundamentals, no-gi",
+        "by": "Kuwy Jitsu coach",
+        "vertical": false,
+        "channel": "Kuwy Jitsu",
+        "duration": 61,
+        "verified": "2026-07-15"
       }
     ]
   }

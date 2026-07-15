@@ -205,5 +205,25 @@
       "name": "Kimura",
       "relationship": "Complete system of Kimura-family shoulder lock techniques"
     }
+  ],
+  "clips": [
+    {
+      "id": "8tW1t_KO1T4",
+      "title": "Reverse Kimura Throw to Submission",
+      "by": "Coach Brian",
+      "vertical": false,
+      "channel": "TeachMeGrappling Coach Brian",
+      "duration": 69,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "dw9YtuvroXI",
+      "title": "Reverse Kimura Arm Drag to Back",
+      "by": "Grappling with Insanity",
+      "vertical": false,
+      "channel": "Grappling with Insanity",
+      "duration": 27,
+      "verified": "2026-07-14"
+    }
   ]
 }

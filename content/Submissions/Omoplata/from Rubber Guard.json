@@ -353,6 +353,17 @@
         "answer": "Apply pressure gradually over 4-6 seconds using body weight rather than jerking or spiking the shoulder rotation. Lean forward progressively while monitoring your partner's response. Never apply competition-speed finishing pressure in training. Maintain awareness of their tap access at all times and release instantly at the first signal of any kind.",
         "safety_critical": true
       }
+    ],
+    "clips": [
+      {
+        "id": "D84srOt_CeU",
+        "title": "Omoplata Options from Rubber Guard",
+        "by": "Sickness Ferro",
+        "vertical": false,
+        "channel": "Sickness Ferro",
+        "duration": 207,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -478,6 +489,35 @@
         "phase": "Full Defensive Sparring",
         "focus": "Complete defensive protocol under live conditions",
         "description": "Start in opponent's established Rubber Guard. Defender applies the complete defensive protocol from early recognition through escape execution against full resistance. Rotate partners to experience different body types and finishing styles."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ocIHY3jBYIQ",
+        "title": "Best Way to Escape the Omoplata Shoulder Lock",
+        "by": "John Connors",
+        "vertical": false,
+        "channel": "John Connors, Old Man BJJ Black Belt",
+        "duration": 62,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "jDbywpDs3Tw",
+        "title": "Preventing the Hand Moving to the Other Side",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 129,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "HszTUEYJ-xE",
+        "title": "Quick Omoplata Escape",
+        "by": "Adam Bradley",
+        "vertical": false,
+        "channel": "Adam Bradley",
+        "duration": 36,
+        "verified": "2026-07-14"
       }
     ]
   }

@@ -303,7 +303,36 @@
         "answer": "S Mount's perpendicular body angle creates a narrower base for the top person compared to standard mount's chest-to-chest square positioning. This narrow base makes it mechanically difficult for the top person to track lateral hip movement without compromising their own stability. The Frame and Shrimp exploits this by creating lateral distance through shrimping, which is more effective against the narrow perpendicular base than vertical bridges."
       }
     ],
-    "safety_considerations": "The Frame and Shrimp from S Mount requires constant attention to arm protection throughout the escape. Never release the collar grip on your trapped arm to attempt escape movement, as an exposed extended arm in S Mount leads directly to armbar with potential for serious elbow hyperextension injury. If the opponent secures full arm extension with their hips locked tight against your shoulder, tap immediately rather than attempting to power out of the completed submission. During training, communicate with partners about resistance levels and tap early when practicing escape timing to avoid cumulative joint stress. Be particularly cautious with newer training partners who may apply sudden jerking pressure during armbar attempts."
+    "safety_considerations": "The Frame and Shrimp from S Mount requires constant attention to arm protection throughout the escape. Never release the collar grip on your trapped arm to attempt escape movement, as an exposed extended arm in S Mount leads directly to armbar with potential for serious elbow hyperextension injury. If the opponent secures full arm extension with their hips locked tight against your shoulder, tap immediately rather than attempting to power out of the completed submission. During training, communicate with partners about resistance levels and tap early when practicing escape timing to avoid cumulative joint stress. Be particularly cautious with newer training partners who may apply sudden jerking pressure during armbar attempts.",
+    "clips": [
+      {
+        "id": "mg1UN7a6saE",
+        "title": "Fundamental movement for escaping the mount",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 58,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "cyegyon5hVg",
+        "title": "Two mount escapes to half guard",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "snftmG4LDQU",
+        "title": "Power shrimp escape from bottom mount",
+        "by": "SBG Bend",
+        "vertical": false,
+        "channel": "Straight Blast Gym Bend ",
+        "duration": 147,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Frame and Shrimp from S Mount Defender",
@@ -424,6 +453,26 @@
         "phase": "Phase 4: Live Positional Integration",
         "focus": "Full resistance S Mount defense against all escape types",
         "description": "Full competition resistance positional sparring from S Mount top. Integrate defense against frame and shrimp with responses to bridge escapes and trap-and-roll attempts. Develop pattern recognition for which escape your opponent is attempting and apply the correct defensive response in real time."
+      }
+    ],
+    "clips": [
+      {
+        "id": "cO0o5SLAk90",
+        "title": "Holding the S-mount",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "MastersmokeABUSE",
+        "duration": 28,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "FSbR22OOSaE",
+        "title": "S-mount basics and control",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 72,
+        "verified": "2026-07-15"
       }
     ]
   }

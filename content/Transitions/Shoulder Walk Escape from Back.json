@@ -307,7 +307,27 @@
         "answer": "Shoulder walk is ineffective when the opponent has locked a body triangle instead of hooks, as the body triangle moves as a unit with your body and cannot be made shallow through downward displacement. It is also a poor choice when the opponent has established deep choking grips that require immediate defensive attention rather than the sustained multi-step escape process. Finally, if limited mat space exists behind you, the shoulder walk may move you off the mat before achieving sufficient displacement, making explosive single-movement escapes more appropriate."
       }
     ],
-    "safety_considerations": "The shoulder walk escape carries moderate safety risk primarily from maintaining back control position for an extended period during the grinding escape process. The sustained time in back control increases cumulative submission exposure, making neck defense absolutely critical throughout. Never sacrifice chin tuck or hand fighting position for additional shoulder walk movement. If you feel a choke tightening during the escape, immediately abandon the shoulder walk and address the submission threat. Partners drilling this technique should communicate clearly about neck pressure and maintain controlled resistance to prevent accidental choke application during the multi-repetition escape sequence. Shoulder strain can occur from repetitive driving movements, so practitioners should warm up their shoulders and upper back before extended shoulder walk drilling sessions."
+    "safety_considerations": "The shoulder walk escape carries moderate safety risk primarily from maintaining back control position for an extended period during the grinding escape process. The sustained time in back control increases cumulative submission exposure, making neck defense absolutely critical throughout. Never sacrifice chin tuck or hand fighting position for additional shoulder walk movement. If you feel a choke tightening during the escape, immediately abandon the shoulder walk and address the submission threat. Partners drilling this technique should communicate clearly about neck pressure and maintain controlled resistance to prevent accidental choke application during the multi-repetition escape sequence. Shoulder strain can occur from repetitive driving movements, so practitioners should warm up their shoulders and upper back before extended shoulder walk drilling sessions.",
+    "clips": [
+      {
+        "id": "Zn0uAdARaHQ",
+        "title": "Walkover escape from side back control",
+        "by": "John Will and Dave Meyer",
+        "vertical": false,
+        "channel": "John Will",
+        "duration": 98,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "teQS9GKEriU",
+        "title": "Shoulder walk escape mechanics",
+        "by": "Chosen Few BJJ coach",
+        "vertical": false,
+        "channel": "Chosen Few BJJ",
+        "duration": 94,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Shoulder Walk Escape from Back Defender",
@@ -427,6 +447,17 @@
         "phase": "Phase 4: Integrated Counter Strategy",
         "focus": "Combining recognition, following, attacking, and transitioning in live situations",
         "description": "Full positional sparring from back control where the bottom player's primary escape tool is the shoulder walk. Practice the complete decision tree: recognize early, follow with hips, attack neck when opportunity presents, transition to body triangle if hooks become endangered. Develop fluid adaptive responses to the opponent's shoulder walk variations."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Rlk4mGg7vW4",
+        "title": "Maintaining back control with hooks",
+        "by": "Gracie Charlottesville coach",
+        "vertical": false,
+        "channel": "Gracie Charlottesville",
+        "duration": 84,
+        "verified": "2026-07-15"
       }
     ]
   }

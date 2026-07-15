@@ -379,6 +379,35 @@
           "nogi": 4
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "cr4bYMXDG6k",
+        "title": "Leg Drag Guard Passing",
+        "by": "Andre Galvao",
+        "vertical": false,
+        "channel": "DATI SHUAI",
+        "duration": 89,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "8DG2hn0xxMI",
+        "title": "Leg Drag to Rolling Back Take",
+        "by": "Grapple Box",
+        "vertical": false,
+        "channel": "Grapple Box llc",
+        "duration": 18,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "H9hckrLXcRQ",
+        "title": "De La Riva to Leg Drag",
+        "by": "Alavanca",
+        "vertical": false,
+        "channel": "Alavanca",
+        "duration": 29,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -682,6 +711,26 @@
           "nogi": 16
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "lVLAROiSjNU",
+        "title": "Guard Retention: When to Sit Up Escape",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 136,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "BhNZGloJ56c",
+        "title": "Guard Recovery When Getting Smashed",
+        "by": "Finesse Jiujitsu",
+        "vertical": false,
+        "channel": "FINESSE JIUJITSU HTX",
+        "duration": 103,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -716,6 +765,17 @@
     {
       "question": "Which adjacent positions does Leg Drag Control most naturally connect to, and what determines which one it resolves into?",
       "answer": "The position sits at a crossroads leading to back control, mount, side control, north-south, turtle, or a reverted half guard, and the bottom player's reaction dictates the outcome. Turning away opens the back take, staying flat invites mount or side control, sitting up exposes the arm for crucifix or north-south, and rolling defensively leads toward turtle. If the bottom player reinserts a leg or knee shield, the position collapses back toward half guard. This branching set of exits is precisely why the leg drag is treated as a dilemma-generating hub rather than an endpoint."
+    }
+  ],
+  "clips": [
+    {
+      "id": "cmKlGZ3Oe2Q",
+      "title": "Leg Drag & Passing Concepts",
+      "by": "Andre Galvao",
+      "vertical": false,
+      "channel": "Jiu Jitsu Moves",
+      "duration": 111,
+      "verified": "2026-07-14"
     }
   ]
 }

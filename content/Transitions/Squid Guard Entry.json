@@ -284,7 +284,27 @@
         "answer": "Hook fingers through the lapel fabric rather than squeezing it in a fist grip. Use your hip angle and leg frames to maintain structural tension on the lapel rather than relying on muscular forearm contraction. This allows the skeletal system and body positioning to do the work, preserving grip endurance for the duration of a competitive match."
       }
     ],
-    "safety_considerations": "Squid guard entry is a relatively low-risk technique focused on control rather than joint manipulation. The primary safety concern is maintaining proper finger alignment when gripping the lapel fabric to prevent finger injuries during grip fighting. Avoid death-gripping the lapel with excessive force, which can strain the forearm and lead to repetitive stress injuries. When drilling, ensure partners communicate about shoulder discomfort as the arm wrap can place stress on the shoulder joint when combined with aggressive sweeping attempts. During live training, be prepared to release the configuration if your partner taps or indicates discomfort. The arm wrap itself does not create submission danger, but follow-up attacks like omoplata require standard joint lock protocols."
+    "safety_considerations": "Squid guard entry is a relatively low-risk technique focused on control rather than joint manipulation. The primary safety concern is maintaining proper finger alignment when gripping the lapel fabric to prevent finger injuries during grip fighting. Avoid death-gripping the lapel with excessive force, which can strain the forearm and lead to repetitive stress injuries. When drilling, ensure partners communicate about shoulder discomfort as the arm wrap can place stress on the shoulder joint when combined with aggressive sweeping attempts. During live training, be prepared to release the configuration if your partner taps or indicates discomfort. The arm wrap itself does not create submission danger, but follow-up attacks like omoplata require standard joint lock protocols.",
+    "clips": [
+      {
+        "id": "mIUc5788gsw",
+        "title": "Squid guard entry against a standing opponent",
+        "by": "Adam Bradley",
+        "vertical": false,
+        "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
+        "duration": 56,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MrhKi486Wr4",
+        "title": "Squid guard to switch X guard sweep",
+        "by": "BJJ Online",
+        "vertical": false,
+        "channel": "BJJ ONLINE",
+        "duration": 77,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Squid Guard Entry Defender",
@@ -414,6 +434,35 @@
         "phase": "Week 7+",
         "focus": "Live defensive sparring",
         "description": "Start with partner in established lapel guard with instruction to enter squid guard. Defend the entry and immediately pass or reset. Track prevention rate and identify which defensive response works best against your training partners' specific squid guard styles."
+      }
+    ],
+    "clips": [
+      {
+        "id": "aR0dbddbfQA",
+        "title": "Passing the worm rider lapel guard",
+        "by": "Daniel Maira",
+        "vertical": false,
+        "channel": "Movement Art",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "U6h4HKtwqU4",
+        "title": "Fio dental lapel guard pass",
+        "by": "Ninja Pinto",
+        "vertical": false,
+        "channel": "Ninja Pinto BJJ",
+        "duration": 109,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "U-d9fLP9eAo",
+        "title": "Reverse de la worm smash pass defense",
+        "by": "Satori BJJ",
+        "vertical": false,
+        "channel": "Satori BJJ",
+        "duration": 62,
+        "verified": "2026-07-15"
       }
     ]
   },

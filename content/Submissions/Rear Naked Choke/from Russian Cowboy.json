@@ -326,6 +326,17 @@
         "answer": "Immediately release all choking pressure and remove your arms from around their neck. Gently lower them to the mat and place them in a side-lying recovery position to protect the airway. Call their name and gently shake their shoulder to check responsiveness. Most people regain consciousness within ten to thirty seconds. Do not allow them to stand up immediately after regaining consciousness. If they do not regain consciousness within thirty seconds, call for medical assistance immediately. Stay calm and monitor their breathing continuously.",
         "safety_critical": true
       }
+    ],
+    "clips": [
+      {
+        "id": "kGoEjQMRp3I",
+        "title": "Double deep hook submissions from Russian Cowboy",
+        "by": "10th Planet Rochester",
+        "vertical": false,
+        "channel": "10thPlanetRochester",
+        "duration": 193,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -449,6 +460,26 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Full resistance defense with realistic attack combinations",
         "description": "Positional sparring starting from Russian Cowboy with the attacker cycling between RNC, truck entries, and other attacks. Defend all threats while seeking escape opportunities. Develop the ability to read whether the attacker is committing to the choke or transitioning, and choose defensive responses accordingly."
+      }
+    ],
+    "clips": [
+      {
+        "id": "UQO3V3Uo3t4",
+        "title": "Three rear choke defenses everyone should know",
+        "by": "Gracie Breakdown",
+        "vertical": false,
+        "channel": "GracieBreakdown",
+        "duration": 70,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "lVLAROiSjNU",
+        "title": "When to sit up to escape the back",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 136,
+        "verified": "2026-07-14"
       }
     ]
   }

@@ -340,6 +340,26 @@
         "question": "After a failed heel hook attempt, what is the proper recovery sequence to maintain position?",
         "answer": "Immediately reset leg crossing configuration before opponent can extract. Return hands to controlling opponent's hip and free leg. Re-establish proper distance and upper body posture. Assess what defensive adjustment opponent made and prepare alternative attack (toe hold if they're hiding heel, kneebar if they're flexing knee). The key is never completely abandoning position during attack attempts."
       }
+    ],
+    "clips": [
+      {
+        "id": "MaQQU4ydJoc",
+        "title": "Intro to the Leg Knot position",
+        "by": "Mike Robinson",
+        "vertical": false,
+        "channel": "Joshua Ortegon",
+        "duration": 170,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "-Sz1rg8X-UI",
+        "title": "Leg lock transitions from entanglement",
+        "by": "Kinesiology College",
+        "vertical": false,
+        "channel": "Kinesiology College",
+        "duration": 95,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -658,6 +678,35 @@
         "question": "After a failed escape attempt that returns you to Leg Knot Bottom, what is the recovery sequence?",
         "answer": "Immediately reassess heel protection and knee line - opponent may have improved position during your escape attempt. Re-establish defensive frames with free leg. Return hands to protective grips on your foot/ankle. Identify what defensive element failed and address it before next attempt. Consider a different escape route since opponent may be anticipating repeated attempts at the same escape. Reset breathing and stay calm."
       }
+    ],
+    "clips": [
+      {
+        "id": "v3w0qXLKxug",
+        "title": "Defending heel hooks",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 92,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "MqtG9kuVt-Q",
+        "title": "Leg lock escape: roll through",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 103,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "m0NLphEuFoc",
+        "title": "Leg lock defense",
+        "by": "Kuwy Jitsu",
+        "vertical": false,
+        "channel": "Kuwy Jitsu",
+        "duration": 61,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -692,6 +741,26 @@
     {
       "question": "What underlying reason forces both Leg Knot players to move systematically rather than thrash explosively?",
       "answer": "The knot is held together by interlocking friction and angle, and explosive thrashing tends to tighten those interlocks or feed the opponent momentum they can redirect into a submission. Sudden extension of a trapped leg, in particular, can walk the knee across the line and hand the opponent the exact heel exposure they need. Systematic, sequenced movement lets a player address the highest-priority threat first and open the entanglement in the correct order rather than worsening it. Because this logic applies symmetrically to both grapplers, controlled progression is a shared mechanical requirement of the position rather than merely a stylistic preference."
+    }
+  ],
+  "clips": [
+    {
+      "id": "FVVBFlEjhVc",
+      "title": "Leg entanglement transitions overview",
+      "by": "Clever Combat",
+      "vertical": false,
+      "channel": "Clever Combat",
+      "duration": 133,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "2QDZMqBV2kQ",
+      "title": "Leg entanglement control drill",
+      "by": "Training Grounds",
+      "vertical": false,
+      "channel": "Training Grounds",
+      "duration": 33,
+      "verified": "2026-07-14"
     }
   ]
 }

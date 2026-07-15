@@ -370,6 +370,35 @@
         "question": "When should you break your grip during the body lock sequence?",
         "answer": "Only break your locked grip after you have fully secured an alternative dominant position with its own control mechanisms established. Breaking the grip prematurely is a critical error that allows opponents to escape or counter-attack. The grip should be maintained throughout the entire attacking sequence - through the mat return, through the landing, and until back control hooks and seatbelt are fully secured, or until side control crossface and hip control are established. The locked hands are your primary control until replaced by position-specific controls."
       }
+    ],
+    "clips": [
+      {
+        "id": "sztjmLZYxIQ",
+        "title": "Nicky Rod's body lock pass demo",
+        "by": "Professor Buck",
+        "vertical": false,
+        "channel": "Professor Buck",
+        "duration": 38,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "91Fgpe788no",
+        "title": "Body lock takedown from standing",
+        "by": "Sean Sherk",
+        "vertical": false,
+        "channel": "TAG Muay Thai",
+        "duration": 73,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "spB8qALp5rA",
+        "title": "Nicky Rod explains his body lock pass",
+        "by": "Nicky Rodriguez",
+        "vertical": false,
+        "channel": "Learn Faster BJJ - Jiu Jitsu Breakdowns",
+        "duration": 221,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -670,6 +699,35 @@
         "question": "What is the correct response if you feel yourself being lifted for a suplex or throw?",
         "answer": "Immediately hook one of their legs with your foot to prevent them from completing the lift - this removes their ability to generate lifting power from the ground. Simultaneously drive your hips toward the mat and make your body as heavy as possible. If the lift continues, tuck your chin to protect your neck and roll with the throw rather than fighting it, using the momentum to transition into guard as you land. The worst outcome is being lifted and thrown while rigid, potentially landing in a dominated position. The controlled fall into guard preserves your ability to continue defending."
       }
+    ],
+    "clips": [
+      {
+        "id": "Di-fJ06DSq8",
+        "title": "Body lock defense",
+        "by": "Peerless Jiu Jitsu",
+        "vertical": false,
+        "channel": "Peerless Jiu Jitsu Academy ",
+        "duration": 79,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "ZGgfRpUJvHU",
+        "title": "Body lock counter and submission",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "FreeChannelOpen",
+        "duration": 114,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "COMTE898ja8",
+        "title": "Don't get squashed: body lock defense",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 156,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -704,6 +762,35 @@
     {
       "question": "Why is a low, wide, knee-bent base decisive for both players in the body lock?",
       "answer": "Because the position is a closed kinetic chain, whichever player owns the lower center of gravity can transfer force through the connection more efficiently and resist being unbalanced. A low, wide stance with bent knees and weight over the balls of the feet gives the controlling player the platform to drive hips and explode into throws, and gives the trapped player the stability to absorb pressure and deny lifts. A player caught tall with straight legs and a high center of gravity is easy to break backward, trip, or hoist regardless of which role they occupy. Base is therefore not a role-specific detail but a shared prerequisite, and the athlete who loses their base usually loses the exchange."
+    }
+  ],
+  "clips": [
+    {
+      "id": "sztjmLZYxIQ",
+      "title": "Nicky Rod's body lock pass concept",
+      "by": "Professor Buck",
+      "vertical": false,
+      "channel": "Professor Buck",
+      "duration": 38,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "spB8qALp5rA",
+      "title": "Nicky Rod explains the body lock pass",
+      "by": "Nicky Rodriguez",
+      "vertical": false,
+      "channel": "Learn Faster BJJ - Jiu Jitsu Breakdowns",
+      "duration": 221,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "2gknwIfTeN0",
+      "title": "4 body lock takedowns",
+      "by": "CSW Fullerton",
+      "vertical": false,
+      "channel": "CSW Fullerton",
+      "duration": 194,
+      "verified": "2026-07-14"
     }
   ]
 }

@@ -217,5 +217,43 @@
       "name": "High Mount",
       "relationship": "Superior mounted position for Short Choke variation with better arm isolation"
     }
+  ],
+  "clips": [
+    {
+      "id": "Sb-atqD_TqQ",
+      "title": "Short Choke from Back Position",
+      "by": "Cosens MMA",
+      "vertical": false,
+      "channel": "Cosens MMA LLC",
+      "duration": 55,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "E_M4Y0_hxsk",
+      "title": "Shirt Choke From Back Mount",
+      "by": "Defender Combatives",
+      "vertical": false,
+      "channel": "Defender Combatives",
+      "duration": 14,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "EJaBa7Q3qVI",
+      "title": "Short Choke to Rear Naked Choke",
+      "by": "Mako BJJ",
+      "vertical": false,
+      "channel": "Mako Brazilian Jiu-Jitsu",
+      "duration": 188,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "DAUs6oX4jjo",
+      "title": "Gift Wrap Arm Triangle / Ezekiel Choke",
+      "by": "Prosaic Living",
+      "vertical": false,
+      "channel": "Prosaic Living",
+      "duration": 46,
+      "verified": "2026-07-14"
+    }
   ]
 }

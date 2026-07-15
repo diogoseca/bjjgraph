@@ -298,7 +298,36 @@
         "answer": "Your first action should be testing the opponent's balance by applying elevator pressure through your hooks while pulling with your upper body grips in a sweeping direction. This serves dual purposes — if the opponent is still off-balance from the pull, an immediate sweep attempt may succeed before they establish defensive base. If they resist the sweep direction, their defensive reaction reveals their weight distribution pattern and balance tendencies, directly informing your subsequent attack selection. The critical principle is zero pause between completing the pull and initiating the first sweep threat, denying the opponent time to settle into a comfortable combat base."
       }
     ],
-    "safety_considerations": "The Butterfly Guard Pull is generally a low-risk technique since it involves transitioning to a seated ground position rather than applying joint locks or chokes. However, practitioners should be aware of knee stress from improper hook insertion angles, particularly when hooks catch awkwardly on the opponent's legs during the descent. Ensure adequate mat space behind you before pulling to avoid sitting into walls, other practitioners, or the mat edge. Communicate with training partners when drilling guard pulls to prevent unexpected collapses that can injure both people. Avoid pulling guard when the standing partner is not expecting it, as the sudden downward force through grips can strain shoulders and neck."
+    "safety_considerations": "The Butterfly Guard Pull is generally a low-risk technique since it involves transitioning to a seated ground position rather than applying joint locks or chokes. However, practitioners should be aware of knee stress from improper hook insertion angles, particularly when hooks catch awkwardly on the opponent's legs during the descent. Ensure adequate mat space behind you before pulling to avoid sitting into walls, other practitioners, or the mat edge. Communicate with training partners when drilling guard pulls to prevent unexpected collapses that can injure both people. Avoid pulling guard when the standing partner is not expecting it, as the sudden downward force through grips can strain shoulders and neck.",
+    "clips": [
+      {
+        "id": "Kp3ABmsn1I0",
+        "title": "Marcelo Garcia arm drag takedown entry",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "Baltimore Martial Arts",
+        "duration": 55,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "c8JBXJMc0Oc",
+        "title": "Marcelo Garcia butterfly guard sweep demo",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "Butterfly The World",
+        "duration": 81,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "L8JpDuYczgk",
+        "title": "Belt grab guard pull",
+        "by": "Mick Hall",
+        "vertical": false,
+        "channel": "Mick Hall",
+        "duration": 98,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Butterfly Guard Pull Defender",
@@ -419,6 +448,17 @@
         "phase": "Phase 4: Live Defense Integration",
         "focus": "Full resistance guard pull defense with tactical decision-making",
         "description": "Positional sparring starting from standing where the partner must pull butterfly guard against your full defensive efforts. Defender scores for maintaining standing position, stuffing the pull entirely, or passing within ten seconds of pull completion. Develop the ability to choose between sprawl, forward drive, grip strip, and knee-squeeze defense in real time based on the specific pull variation the partner attempts."
+      }
+    ],
+    "clips": [
+      {
+        "id": "HC0O_1S2r9g",
+        "title": "Countering the no-gi 2-on-1 guard pull",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 169,
+        "verified": "2026-07-15"
       }
     ]
   }

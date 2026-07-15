@@ -281,7 +281,36 @@
         "answer": "Chain immediately to knee slice pass by driving your knee across their thigh line, or switch to a long step pass by stepping over their bottom leg while maintaining crossface. If the opponent turns away from crossface pressure during your attempt, follow immediately for a back take rather than insisting on the forward pass. If they establish an underhook, transition to kimura grip to control it and continue passing from the new control point."
       }
     ],
-    "safety_considerations": "While this transition involves moderate pressure application rather than joint manipulation, practitioners should exercise caution with crossface pressure. Apply crossface against the cheek and jawline rather than directly across the throat or trachea to avoid injury. During leg extraction, use controlled circular movement rather than sudden jerking motions that could strain your training partner's knee or hip joints. Be aware of your weight distribution during consolidation to avoid dropping full bodyweight unexpectedly on a partner who is in a compromised position."
+    "safety_considerations": "While this transition involves moderate pressure application rather than joint manipulation, practitioners should exercise caution with crossface pressure. Apply crossface against the cheek and jawline rather than directly across the throat or trachea to avoid injury. During leg extraction, use controlled circular movement rather than sudden jerking motions that could strain your training partner's knee or hip joints. Be aware of your weight distribution during consolidation to avoid dropping full bodyweight unexpectedly on a partner who is in a compromised position.",
+    "clips": [
+      {
+        "id": "kTSMGYlVJKY",
+        "title": "Freeing your trapped foot to finish the pass",
+        "by": "Kameron Ross",
+        "vertical": false,
+        "channel": "Kameron Ross",
+        "duration": 55,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8lAqEhHz8ao",
+        "title": "Quarter guard escape and pass with slow motion",
+        "by": "Marcus Almeida",
+        "vertical": false,
+        "channel": "grpplng",
+        "duration": 37,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "S8qzvGaBp74",
+        "title": "Quarter guard passing mechanics",
+        "by": "RGA South Herts",
+        "vertical": false,
+        "channel": "RGA South Herts",
+        "duration": 66,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Complete Pass from Quarter Defender",
@@ -400,6 +429,35 @@
         "phase": "Phase 3: Counter-Offense and Sweeps",
         "focus": "Timing sweeps and back takes to the passer's extraction commitment",
         "description": "Partner provides full resistance passing attempts from quarter guard. Practice timing underhook sweeps, deep half entries, and back takes specifically to the moment when the passer begins leg extraction. Develop ability to distinguish between genuine commitment and feinted extraction within one second. Track successful counter-offense rate across twenty attempts per round."
+      }
+    ],
+    "clips": [
+      {
+        "id": "plsCCqn8-jQ",
+        "title": "Half guard retention concepts",
+        "by": "Five Lions Jiu Jitsu",
+        "vertical": false,
+        "channel": "Five Lions Jiu Jitsu",
+        "duration": 155,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "3d2gH5Z6ETA",
+        "title": "Quarter guard recovery to deep half guard",
+        "by": "Honu BJJ Reno",
+        "vertical": false,
+        "channel": "Honu BJJ Reno",
+        "duration": 281,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "xDZucxFVK48",
+        "title": "Defending the knee slice from quarter guard",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 275,
+        "verified": "2026-07-15"
       }
     ]
   }

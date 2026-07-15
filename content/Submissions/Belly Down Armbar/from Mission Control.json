@@ -305,6 +305,35 @@
         "answer": "In competition, maintain steady progressive pressure and trust the mechanics. Do not spike or jerk the arm regardless of competitive pressure. If the opponent is not tapping despite clearly locked belly down position, continue smooth extension while watching the referee for a verbal or visual submission call. The belly down position is so mechanically dominant that patience always prevails. Rushing the finish to beat the clock risks injuring your opponent and potential disqualification for dangerous conduct.",
         "safety_critical": true
       }
+    ],
+    "clips": [
+      {
+        "id": "5fJM5bIk8Fw",
+        "title": "Mission Control to Armbars",
+        "by": "10th Planet Orange Park",
+        "vertical": false,
+        "channel": "10th Planet Orange Park",
+        "duration": 108,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "bpzSfXme_eY",
+        "title": "Gubber Guard to Belly Down Armbar",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 77,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "yDxtO6qzOL0",
+        "title": "Belly Down Armbar Finish",
+        "by": "Brandoo",
+        "vertical": false,
+        "channel": "Brandoo",
+        "duration": 58,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -432,6 +461,26 @@
         "phase": "Phase 4: Full Resistance Positional Sparring",
         "focus": "Integrated defense under live conditions",
         "description": "Start in Mission Control with full resistance. Defender uses all available tools to prevent the belly down armbar while attacker uses full technique. 3-minute rounds with reset after each submission or escape. Track which defensive window is most effective and which phase the defender is getting caught in most frequently."
+      }
+    ],
+    "clips": [
+      {
+        "id": "vfKVCQ-tA9M",
+        "title": "Armbar Escape from Closed Guard",
+        "by": "Bowerhouse MMA",
+        "vertical": false,
+        "channel": "BOWERHOUSE MMA",
+        "duration": 84,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "58eCiNxdOiI",
+        "title": "Why Your Armbar from Guard Always Fails",
+        "by": "Wim Deputter",
+        "vertical": false,
+        "channel": "Wim Deputter BJJ",
+        "duration": 76,
+        "verified": "2026-07-14"
       }
     ]
   }

@@ -278,7 +278,27 @@
         "answer": "Counter the bridge by immediately posting your free hand on the mat to create a wider base, and stepping your far foot out to lower your center of gravity. The bridge exploits the narrow base inherent in the walking phase of the pass. If the bridge is powerful, momentarily pause the passing arc and drive your weight into the bridge to exhaust their explosive effort, then resume passing once they settle. If you feel the reversal is imminent, maintain the overhook and ride the roll, using the grip to prevent complete position loss and immediately fight to re-establish top position."
       }
     ],
-    "safety_considerations": "The Overhook Pass to Side Control is a low-risk positional transition with minimal injury potential compared to submissions or explosive techniques. The primary safety concern is maintaining controlled pressure on the trapped arm to avoid hyperextension of the opponent's shoulder during the overhook. When driving forward pressure through the whizzer, avoid cranking the arm beyond its natural range of motion. Communicate with training partners about shoulder sensitivity, particularly those with pre-existing shoulder injuries. During drilling, allow your partner to tap if shoulder pressure becomes uncomfortable. Control your body weight distribution during the passing arc to avoid dropping weight suddenly onto the opponent's ribcage or neck."
+    "safety_considerations": "The Overhook Pass to Side Control is a low-risk positional transition with minimal injury potential compared to submissions or explosive techniques. The primary safety concern is maintaining controlled pressure on the trapped arm to avoid hyperextension of the opponent's shoulder during the overhook. When driving forward pressure through the whizzer, avoid cranking the arm beyond its natural range of motion. Communicate with training partners about shoulder sensitivity, particularly those with pre-existing shoulder injuries. During drilling, allow your partner to tap if shoulder pressure becomes uncomfortable. Control your body weight distribution during the passing arc to avoid dropping weight suddenly onto the opponent's ribcage or neck.",
+    "clips": [
+      {
+        "id": "aAd6OIq94X0",
+        "title": "Body lock guard pass off their underhook",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 205,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "mjOUm-T1Rr0",
+        "title": "Standing up to reach over the whizzer",
+        "by": "John Beresford",
+        "vertical": false,
+        "channel": "John Beresford",
+        "duration": 85,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Overhook Pass to Side Control Defender",
@@ -403,6 +423,17 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Full resistance positional sparring",
         "description": "Begin rounds with the passer in overhook control and the defender working to prevent the pass. Track success rates for both players. Progress to starting from earlier positions where the overhook must be established before the pass can be attempted, giving the defender more time to develop defensive positions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "lVLAROiSjNU",
+        "title": "Guard retention: when to sit up to escape the pass",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 136,
+        "verified": "2026-07-15"
       }
     ]
   }

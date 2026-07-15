@@ -276,7 +276,36 @@
         "answer": "After a defended stack, immediately transition to an alternative passing approach rather than re-attempting the same technique. Effective follow-ups include backstep passing to attack from a different angle, transitioning to headquarters position to control the bottom leg, or initiating a toreando pass while the opponent is still recovering from the stack defense. The stack attempt often disrupts the opponent's grip structure even when unsuccessful, creating windows for these alternative passes that were not available before."
       }
     ],
-    "safety_considerations": "The stack pass applies significant compression to the opponent's spine and neck region. Never drive the opponent's weight directly onto their cervical spine - control the stacking angle to distribute pressure across the upper back and shoulder blades. Release stacking pressure immediately if the opponent signals discomfort or if you observe their neck bearing excessive load. In training, communicate with your partner about pressure intensity and build stacking force gradually across sessions. Avoid sudden explosive drives that could cause cervical compression injuries. Be especially cautious with training partners who have limited flexibility or pre-existing neck conditions."
+    "safety_considerations": "The stack pass applies significant compression to the opponent's spine and neck region. Never drive the opponent's weight directly onto their cervical spine - control the stacking angle to distribute pressure across the upper back and shoulder blades. Release stacking pressure immediately if the opponent signals discomfort or if you observe their neck bearing excessive load. In training, communicate with your partner about pressure intensity and build stacking force gradually across sessions. Avoid sudden explosive drives that could cause cervical compression injuries. Be especially cautious with training partners who have limited flexibility or pre-existing neck conditions.",
+    "clips": [
+      {
+        "id": "aQ2vFXXBn-o",
+        "title": "Countering a full inversion",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "M6gK8yjDFGE",
+        "title": "How to pass the inverted guard",
+        "by": "Wim Deputter",
+        "vertical": false,
+        "channel": "Wim Deputter BJJ",
+        "duration": 91,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "bq_WmrzAMgs",
+        "title": "Stack pass to back take",
+        "by": "Tony Casarez",
+        "vertical": false,
+        "channel": "Tony Casarez",
+        "duration": 139,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Stack from Inverted Defender",
@@ -400,6 +429,17 @@
         "phase": "Phase 4: Counter-Attack Integration",
         "focus": "Sweeps and reversals from stacking pressure",
         "description": "Partner applies full stacking pressure while you practice hooking their legs for sweeps, redirecting momentum with collar grips for berimbolo counters, and transitioning to leg entanglement entries. Combine defensive survival with offensive counter-attacks in live positional sparring."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Ad0qtay9IVQ",
+        "title": "Double under stack defense and counter",
+        "by": "Wim Deputter",
+        "vertical": false,
+        "channel": "Wim Deputter BJJ",
+        "duration": 130,
+        "verified": "2026-07-15"
       }
     ]
   }

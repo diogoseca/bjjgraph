@@ -255,7 +255,36 @@
         "answer": "The 50-50 to outside ashi transition is a gateway movement that breaks positional stalemate and opens pathways to more dominant entanglements. Outside ashi itself is transitional, leading to saddle (highest control) or inside ashi (highest finish percentage). Understanding this transition is essential for practitioners who want to flow through the leg lock system rather than getting stuck in 50-50 exchanges."
       }
     ],
-    "safety_considerations": "This transition involves leg entanglement positions where heel hooks become immediately available upon completion. Partners must understand that the outside ashi-garami configuration creates significant rotational force on the knee joint when heel hooks are applied. Always train with partners who understand leg lock tap protocols and respect immediate taps. The transition itself is relatively safe, but the resulting position demands caution. Avoid this transition entirely if either partner has existing knee injuries. During drilling, complete the transition without immediately attacking submissions - allow partner to recognize the position before adding submission threats. In competition, be aware that heel hooks are prohibited or restricted in many rulesets based on belt level."
+    "safety_considerations": "This transition involves leg entanglement positions where heel hooks become immediately available upon completion. Partners must understand that the outside ashi-garami configuration creates significant rotational force on the knee joint when heel hooks are applied. Always train with partners who understand leg lock tap protocols and respect immediate taps. The transition itself is relatively safe, but the resulting position demands caution. Avoid this transition entirely if either partner has existing knee injuries. During drilling, complete the transition without immediately attacking submissions - allow partner to recognize the position before adding submission threats. In competition, be aware that heel hooks are prohibited or restricted in many rulesets based on belt level.",
+    "clips": [
+      {
+        "id": "xvx03k3jiWo",
+        "title": "Outside ashi entry and control",
+        "by": "Team Strela coach",
+        "vertical": false,
+        "channel": "DARKSIDE | Team Strela",
+        "duration": 26,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "zl-OLGxkKo0",
+        "title": "50/50 to outside sankaku",
+        "by": "jamielovesmartialarts",
+        "vertical": false,
+        "channel": "jamielovesmartialarts",
+        "duration": 57,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Bya6YLJMwDw",
+        "title": "Heel hook from outside ashi",
+        "by": "Morning Star Jiu Jitsu coach",
+        "vertical": false,
+        "channel": "Morning Star Jiu Jitsu",
+        "duration": 82,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "50-50 Guard to Outside Ashi Defender",
@@ -379,6 +408,35 @@
         "phase": "Week 7+",
         "focus": "Live defensive sparring",
         "description": "Positional sparring from 50-50 where opponent actively works to transition to outside ashi and you apply defensive strategies with full resistance. Track which defensive responses succeed most often and identify personal timing tendencies for additional drilling."
+      }
+    ],
+    "clips": [
+      {
+        "id": "AsGMkATAqqw",
+        "title": "Heel hook defense when ambushed",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 53,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "v3w0qXLKxug",
+        "title": "Defending heel hooks",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 92,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "clVAHxgRadE",
+        "title": "Outside heel hook defense to inside heel hook",
+        "by": "Holy Grail BJJ coach",
+        "vertical": false,
+        "channel": "Holy Grail BJJ",
+        "duration": 105,
+        "verified": "2026-07-15"
       }
     ]
   },

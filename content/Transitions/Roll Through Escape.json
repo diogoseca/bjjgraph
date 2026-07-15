@@ -256,7 +256,18 @@
         "answer": "Immediately return to defensive framing and neck protection rather than reattempting the same escape. Switch to hip escape to guard or bridge and turn to turtle as secondary options. If opponent loosened their leg control during your attempt even slightly, a leg extraction escape may now be available. Chain between these options based on which control points weakened during the failed roll attempt."
       }
     ],
-    "safety_considerations": "The Roll Through Escape carries significant risk when performed incorrectly. Never attempt this escape if opponent has secured finishing grips on your head or neck, as the rolling motion will accelerate spinal torque and can cause cervical spine injury. Always roll with the established rotation direction rather than against it. Tap immediately if you feel neck strain or the submission tightening during the escape attempt. Practice this technique progressively with cooperative partners before attempting against full resistance. The neck and spine are particularly vulnerable during Twister Control, and forcing an escape when controls are deeply established risks serious injury that could have long-term consequences."
+    "safety_considerations": "The Roll Through Escape carries significant risk when performed incorrectly. Never attempt this escape if opponent has secured finishing grips on your head or neck, as the rolling motion will accelerate spinal torque and can cause cervical spine injury. Always roll with the established rotation direction rather than against it. Tap immediately if you feel neck strain or the submission tightening during the escape attempt. Practice this technique progressively with cooperative partners before attempting against full resistance. The neck and spine are particularly vulnerable during Twister Control, and forcing an escape when controls are deeply established risks serious injury that could have long-term consequences.",
+    "clips": [
+      {
+        "id": "U_nrXc64nIM",
+        "title": "Twister Side Control to Twister Roll",
+        "by": "Ramsey Dewey",
+        "vertical": false,
+        "channel": "Ramsey Dewey",
+        "duration": 27,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Roll Through Escape Defender",
@@ -374,6 +385,26 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Full resistance positional sparring from Twister Control where bottom player uses all available escapes including Roll Through. Develop real-time decision-making between maintaining Twister Control, transitioning to back control, and attacking submissions during escape attempts."
+      }
+    ],
+    "clips": [
+      {
+        "id": "jg0Rdc0rJzg",
+        "title": "Twister Side Control Counter",
+        "by": "10th Planet Murrieta coach",
+        "vertical": false,
+        "channel": "10th Planet Jiu Jitsu Murrieta",
+        "duration": 16,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Va1YNgx2E6M",
+        "title": "Escape and Counter the Twister",
+        "by": "Matrix Jiu Jitsu coach",
+        "vertical": false,
+        "channel": "Matrix Jiu Jitsu",
+        "duration": 165,
+        "verified": "2026-07-15"
       }
     ]
   },

@@ -300,7 +300,27 @@
         "answer": "A partially successful butterfly sweep where the opponent is elevated but recovers creates several high-value transition opportunities. If they post a hand during elevation, their weight shifts to that posting arm, opening kimura attacks and opposite-direction sweeps. If they sprawl their hips back to avoid being swept, the distance created is ideal for X-guard or single leg X-guard entries by following their retreating legs. If they step one leg over your hook to base out, the resulting asymmetric position feeds directly into reverse De La Riva or deep half guard entries. The butterfly sweep thus functions as a forcing mechanism that creates reactions exploitable through the broader butterfly guard system."
       }
     ],
-    "safety_considerations": "The basic butterfly sweep is generally a low-risk technique when practiced correctly. However, practitioners should be aware of several safety considerations. When drilling, ensure controlled execution to avoid slamming your partner, especially on hard surfaces. Begin with slow, cooperative repetitions to develop proper mechanics before adding speed and resistance. For the person being swept, learn to breakfall properly by slapping the mat with your arm to disperse impact energy. Avoid stiff-arming or posting with straight arms when defending the sweep, as this can lead to wrist, elbow, or shoulder injuries. When executing the sweep, maintain control of your partner's upper body throughout to prevent uncontrolled falls. If you have knee issues, be cautious with the butterfly hook position as it requires some knee flexibility and can stress the joint if hooks are too shallow or if weight is dropped suddenly. Start with light resistance and gradually increase intensity as your body adapts to the positions and movements."
+    "safety_considerations": "The basic butterfly sweep is generally a low-risk technique when practiced correctly. However, practitioners should be aware of several safety considerations. When drilling, ensure controlled execution to avoid slamming your partner, especially on hard surfaces. Begin with slow, cooperative repetitions to develop proper mechanics before adding speed and resistance. For the person being swept, learn to breakfall properly by slapping the mat with your arm to disperse impact energy. Avoid stiff-arming or posting with straight arms when defending the sweep, as this can lead to wrist, elbow, or shoulder injuries. When executing the sweep, maintain control of your partner's upper body throughout to prevent uncontrolled falls. If you have knee issues, be cautious with the butterfly hook position as it requires some knee flexibility and can stress the joint if hooks are too shallow or if weight is dropped suddenly. Start with light resistance and gradually increase intensity as your body adapts to the positions and movements.",
+    "clips": [
+      {
+        "id": "c8JBXJMc0Oc",
+        "title": "Marcelo Garcia butterfly sweep demonstration",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "Butterfly The World",
+        "duration": 81,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Mo2vJ0_xb1U",
+        "title": "Butterfly sweep breakdown, version 2",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "bjjweekly",
+        "duration": 239,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Basic Butterfly Sweep Defender",
@@ -430,6 +450,17 @@
         "phase": "Month 3+: Full Integration Against Advanced Butterfly Systems",
         "focus": "Defending against chained sweep-submission-transition attacks from experienced butterfly guard players",
         "description": "Open sparring against training partners who specialize in butterfly guard. Focus on managing the complete offensive system including sweeps, arm drags, guillotine threats, and X-guard transitions as an integrated defensive challenge. Develop your personal defensive hierarchy and passing game specifically tailored to neutralizing butterfly guard play."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ScOVTa-p3jk",
+        "title": "Preventing the butterfly sweep",
+        "by": "Matt Thornton",
+        "vertical": false,
+        "channel": "SBG PDX & Vancouver BJJ and MMA Videos",
+        "duration": 184,
+        "verified": "2026-07-15"
       }
     ]
   },

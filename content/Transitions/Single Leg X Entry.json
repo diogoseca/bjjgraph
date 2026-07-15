@@ -272,7 +272,36 @@
         "answer": "Before attempting the entry, you need: hips that are mobile and elevated (not flat on mat), at least one accessible leg from your opponent within gripping range, your inside leg free to insert the hook without being controlled, and your opponent's weight must be shifting forward or their base narrowed from movement. If opponent is perfectly centered with wide base and you have no grips, attempting the entry cold will fail. Create the conditions by using foot pushes, grip fighting, or threatening technical standup to draw them forward before committing to the entry."
       }
     ],
-    "safety_considerations": "Single Leg X Entry is generally a safe technique when practiced with proper control, but several safety considerations must be observed. When inserting the inside hook behind opponent's knee, do so smoothly without jerking or twisting their leg suddenly, as aggressive hooking can stress knee ligaments. If transitioning directly to leg locks from this position, ensure you and your training partners understand appropriate submission progression and tap early protocols, particularly with heel hooks which can cause severe injury. During the entry, be aware that aggressive backward resistance from opponent while you have deep grips can create awkward falling situations, so maintain control of your own balance. When drilling with elevated hips, ensure adequate mat space behind you as rapid angle changes can cause backward rolling if not properly controlled. Communicate with training partners during learning phases and start with cooperative drilling before adding resistance. For beginners, focus on position establishment rather than immediate submissions until mechanics are solid. As with all leg entanglement work, tap early and often to protect knee and ankle joints from cumulative stress."
+    "safety_considerations": "Single Leg X Entry is generally a safe technique when practiced with proper control, but several safety considerations must be observed. When inserting the inside hook behind opponent's knee, do so smoothly without jerking or twisting their leg suddenly, as aggressive hooking can stress knee ligaments. If transitioning directly to leg locks from this position, ensure you and your training partners understand appropriate submission progression and tap early protocols, particularly with heel hooks which can cause severe injury. During the entry, be aware that aggressive backward resistance from opponent while you have deep grips can create awkward falling situations, so maintain control of your own balance. When drilling with elevated hips, ensure adequate mat space behind you as rapid angle changes can cause backward rolling if not properly controlled. Communicate with training partners during learning phases and start with cooperative drilling before adding resistance. For beginners, focus on position establishment rather than immediate submissions until mechanics are solid. As with all leg entanglement work, tap early and often to protect knee and ankle joints from cumulative stress.",
+    "clips": [
+      {
+        "id": "PGQ7YYfu76Q",
+        "title": "Single leg X entry to honey hole and sweep",
+        "by": "Ilya Bodnya",
+        "vertical": false,
+        "channel": "Ilya Bodnya",
+        "duration": 65,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "H3HHTStUtVs",
+        "title": "Seated guard hand fight drill into single leg X",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 43,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "EcxCadpBePk",
+        "title": "Single leg X guard entries and options",
+        "by": "Steven Kaloustian",
+        "vertical": false,
+        "channel": "Steven Kaloustian",
+        "duration": 97,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Single Leg X Entry Defender",
@@ -401,6 +430,35 @@
         "phase": "Week 9+: Positional Sparring Integration",
         "focus": "Defending entries during live positional rounds from standing over seated guard",
         "description": "Start in standing position over partner's seated guard. Partner has full freedom to attempt any entry including Single Leg X, X-Guard, butterfly hooks, and leg entanglements. You defend and pass. Full resistance both directions. Track how often you get caught in established Single Leg X versus how often you prevent the entry. Target: prevent entry completion at least 60% of attempts within first month of this phase."
+      }
+    ],
+    "clips": [
+      {
+        "id": "m1nyuMt3IP4",
+        "title": "Single leg X defense to rolling back take",
+        "by": "Gracie Barra Pymble",
+        "vertical": false,
+        "channel": "Gracie Barra Pymble",
+        "duration": 80,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "gwAf2mcPZ0g",
+        "title": "Passing single leg X to the back take",
+        "by": "Kameron Ross",
+        "vertical": false,
+        "channel": "Kameron Ross",
+        "duration": 42,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "e2KVHXnSh_o",
+        "title": "Countering single leg X with a heel hook",
+        "by": "Charles Allan Price",
+        "vertical": false,
+        "channel": "Charles Allan Price",
+        "duration": 75,
+        "verified": "2026-07-15"
       }
     ]
   },

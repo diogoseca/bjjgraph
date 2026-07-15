@@ -325,6 +325,26 @@
         "answer": "Time the entry when the opponent commits their weight forward to address your inverted guard, specifically when they reach to control your hips or attempt a passing grip. Their forward commitment creates the arm exposure needed for the leg thread and their momentum assists your rotation. Avoid attempting the entry when the opponent maintains distance or has their weight back, as they can simply disengage. The best window is during their transition from standing to engaged passing posture.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "UzkpQQNymhA",
+        "title": "Omoplata to Opposite RDLR Sweep to Back",
+        "by": "Paulo Miyao",
+        "vertical": false,
+        "channel": "BJJ Shorts",
+        "duration": 88,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "U87WJbHqdQU",
+        "title": "Omoplata Setup",
+        "by": "Mikey Musumeci",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 141,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -449,6 +469,35 @@
         "phase": "Phase 4 - Live positional sparring",
         "focus": "Full defense against live omoplata attacks from inverted guard",
         "description": "Positional sparring rounds starting with opponent in inverted guard. Defend all attacks including omoplata, berimbolo, and triangles. Develop real-time decision making about which threats to prioritize and which defensive responses match the current attack."
+      }
+    ],
+    "clips": [
+      {
+        "id": "aQ2vFXXBn-o",
+        "title": "Countering a Full Inversion",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "P3qLV1ujet0",
+        "title": "Omoplata 2.0 Escape Essentials",
+        "by": "Stephan Kesting",
+        "vertical": false,
+        "channel": "Stephan Kesting",
+        "duration": 54,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Y4TxL4mDSKg",
+        "title": "Defending the Omoplata Sweep",
+        "by": "Ninja Pinto",
+        "vertical": false,
+        "channel": "Ninja Pinto BJJ",
+        "duration": 47,
+        "verified": "2026-07-14"
       }
     ]
   }

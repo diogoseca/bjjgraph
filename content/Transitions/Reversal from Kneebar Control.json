@@ -281,7 +281,36 @@
         "answer": "When the sweep stalls, recycle the entanglement into other threats rather than disengaging. The opponent's widened or posted base often exposes their knee line, so re-threaten the kneebar finish; if they rotate to defend, flow toward an inside ashi or heel hook entry; if they step over to clear the knee line, transition to single leg X-guard for a fresh sweep angle. The reversal and submission threats reinforce each other, keeping you offensive instead of conceding the position."
       }
     ],
-    "safety_considerations": "Practice kneebar reversals with controlled intensity, particularly during the grip transition phase where sudden releases can cause training partners to fall unexpectedly. Always communicate with your partner about the submission-to-sweep transition to prevent accidental hyperextension during the movement. Tap early if the opponent locks in a counter-kneebar during the scramble, and avoid explosive bridging motions that could damage the knee joint of either practitioner. When drilling at higher resistance, ensure both partners understand the sweep direction to prevent awkward landings."
+    "safety_considerations": "Practice kneebar reversals with controlled intensity, particularly during the grip transition phase where sudden releases can cause training partners to fall unexpectedly. Always communicate with your partner about the submission-to-sweep transition to prevent accidental hyperextension during the movement. Tap early if the opponent locks in a counter-kneebar during the scramble, and avoid explosive bridging motions that could damage the knee joint of either practitioner. When drilling at higher resistance, ensure both partners understand the sweep direction to prevent awkward landings.",
+    "clips": [
+      {
+        "id": "uJi9Pr2xxlI",
+        "title": "Rolling kneebar escape",
+        "by": "Renegade BJJ",
+        "vertical": false,
+        "channel": "Renegade BJJ",
+        "duration": 40,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_3SLMuTgp54",
+        "title": "Kneebar escape from half guard",
+        "by": "Moncaio Brothers",
+        "vertical": false,
+        "channel": "Moncaio Brothers Jiujitsu",
+        "duration": 37,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Oa0Ac9ILYu8",
+        "title": "Kneebar counter into your own kneebar",
+        "by": "Gracie Westchase",
+        "vertical": false,
+        "channel": "Gracie Westchase ",
+        "duration": 21,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Reversal from Kneebar Control Defender",
@@ -406,6 +435,17 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Full resistance defensive application",
         "description": "Start in kneebar control bottom versus defender in top position. Attacker attempts reversal at full resistance while defender works all defensive options including base maintenance, leg extraction, and scramble recovery. Defender wins by extracting leg or maintaining position for 30 seconds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "v4lhLkKgVvU",
+        "title": "Go-behind kneebar: keeping the leg when they turn",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 129,
+        "verified": "2026-07-15"
       }
     ]
   }

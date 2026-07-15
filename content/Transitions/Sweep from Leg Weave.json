@@ -286,7 +286,36 @@
         "answer": "First, immediately drive your chest perpendicular to their torso and settle heavy weight through your shoulder and chest contact. Second, establish crossface control with your far arm driving your forearm across their neck to prevent them from turning into you. Third, block their far hip with your near hand to prevent knee insertion and guard recovery. These three actions in the first three seconds after landing on top prevent the common scramble that occurs when the sweep is completed but not consolidated, and establish dominant side control before the opponent can react."
       }
     ],
-    "safety_considerations": "The sweep from leg weave involves significant rotational forces on both players during the bridging and rolling phase. The passer's knee can be vulnerable to twisting pressure when their leg is weaved and the bottom player bridges laterally, so execute the sweep with controlled force in training and check with your partner about their knee comfort. The bottom player should tap immediately if their own knee becomes trapped or twisted during a failed attempt. Be mindful of your training partner's shoulder when securing the underhook under pressure, and control the landing when completing the sweep rather than dropping full weight suddenly. In competition, maintain awareness of mat boundaries as the sweeping motion can carry both players laterally across the training surface."
+    "safety_considerations": "The sweep from leg weave involves significant rotational forces on both players during the bridging and rolling phase. The passer's knee can be vulnerable to twisting pressure when their leg is weaved and the bottom player bridges laterally, so execute the sweep with controlled force in training and check with your partner about their knee comfort. The bottom player should tap immediately if their own knee becomes trapped or twisted during a failed attempt. Be mindful of your training partner's shoulder when securing the underhook under pressure, and control the landing when completing the sweep rather than dropping full weight suddenly. In competition, maintain awareness of mat boundaries as the sweeping motion can carry both players laterally across the training surface.",
+    "clips": [
+      {
+        "id": "0xW6B99fsKk",
+        "title": "Rolling omoplata counter to the leg weave pass",
+        "by": "Maven Martial Arts coach",
+        "vertical": false,
+        "channel": "Maven Martial Arts",
+        "duration": 18,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "z9z_IKORSsw",
+        "title": "Roll-under sweep vs late-stage knee cut",
+        "by": "Revolution BJJ coach",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 84,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "9i-U4ivd108",
+        "title": "Three-step counter to the leg weave pass",
+        "by": "PAMA coach",
+        "vertical": false,
+        "channel": "Pendergrass Academy of Martial Arts",
+        "duration": 116,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Sweep from Leg Weave Defender",
@@ -411,6 +440,26 @@
         "phase": "Phase 4: Counter-Passing",
         "focus": "Converting failed sweep attempts into passing opportunities",
         "description": "Full resistance positional sparring. Bottom player uses all sweep variants while top player defends and immediately transitions to a passing sequence when the sweep fails. Success is measured by maintaining position or completing a pass within the round. Develops the complete defensive and offensive integration from leg weave top against sweep threats. 3-minute rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "sNbJLknPgQM",
+        "title": "Leg weave and leg staple pins to stop the sweep",
+        "by": "Fox Den coach",
+        "vertical": false,
+        "channel": "Fox Den Martial Arts",
+        "duration": 108,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "CkE-XEU26nc",
+        "title": "Leg weave guard pass mechanics",
+        "by": "F.I.T.E. Fit coach",
+        "vertical": false,
+        "channel": "F.I.T.E. Fit",
+        "duration": 90,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -297,7 +297,27 @@
         "answer": "This typically happens when you commit to the slice without maintaining forward pressure, creating space the bottom player uses to redirect your leg into Single Leg X hooks. To adjust, immediately stop forward passing momentum and address the new hook configuration. Backstep with the caught leg to clear the Single Leg X structure, or apply heavy downward pressure to pin their controlling foot to the mat. To prevent this in the future, maintain constant forward hip drive throughout the slice so the bottom player cannot create the space needed for the leg redirection."
       }
     ],
-    "safety_considerations": "When drilling this pass, control the speed of your knee slice to avoid driving your knee forcefully into your partner's inner thigh or groin area. During the hook clearing phase, avoid aggressively yanking your partner's feet or ankles, which can strain their knee or ankle joints. Communicate with your training partner about crossface pressure levels and always allow space for them to tap or verbally signal discomfort during the pass completion. Build speed gradually across training phases rather than attempting full-speed passes before the movement pattern is established."
+    "safety_considerations": "When drilling this pass, control the speed of your knee slice to avoid driving your knee forcefully into your partner's inner thigh or groin area. During the hook clearing phase, avoid aggressively yanking your partner's feet or ankles, which can strain their knee or ankle joints. Communicate with your training partner about crossface pressure levels and always allow space for them to tap or verbally signal discomfort during the pass completion. Build speed gradually across training phases rather than attempting full-speed passes before the movement pattern is established.",
+    "clips": [
+      {
+        "id": "R6qEQAFRzjA",
+        "title": "Knee cut pass against reverse De La Riva",
+        "by": "Sticks and Stones BJJ",
+        "vertical": false,
+        "channel": "Sticks and Stones BJJ",
+        "duration": 246,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "qjnhpw1lijU",
+        "title": "Knee cut pass, no-gi",
+        "by": "Daniel Frank",
+        "vertical": false,
+        "channel": "Daniel Frank",
+        "duration": 44,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Knee Slice from Reverse X-Guard Defender",
@@ -418,6 +438,26 @@
         "phase": "Phase 4: Full Guard Retention Sparring",
         "focus": "Integrating pass defense into complete Reverse X-Guard game",
         "description": "Positional sparring starting in Reverse X-Guard Bottom against full resistance. Bottom player works sweeps, guard retention, and pass defense including knee slice counters. Top player uses all available passing options. 5-minute rounds tracking defensive success rate."
+      }
+    ],
+    "clips": [
+      {
+        "id": "dqgSUNvoVsQ",
+        "title": "Wrestle-up counter to the knee cut across the hip",
+        "by": "ZeGrapplez",
+        "vertical": false,
+        "channel": "ZeGrapplez",
+        "duration": 91,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "BIFfZ3bK4ss",
+        "title": "Knee slide pass defense counter",
+        "by": "Alexander Miller",
+        "vertical": false,
+        "channel": "Alexander Miller",
+        "duration": 66,
+        "verified": "2026-07-15"
       }
     ]
   }

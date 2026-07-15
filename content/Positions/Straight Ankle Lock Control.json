@@ -368,6 +368,35 @@
           "nogi": 9
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "akB_o9gaNuc",
+        "title": "Finish the Ankle Lock vs the Roll Out",
+        "by": "James O'Connor",
+        "vertical": false,
+        "channel": "James O’Connor",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "pspIS0i2G2U",
+        "title": "The Ankle Lock Roll Control Drill",
+        "by": "Escapology BJJ",
+        "vertical": false,
+        "channel": "Escapology BJJ",
+        "duration": 95,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "z3ILKAQN_i8",
+        "title": "Always Finish the Ankle Lock",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ Plus",
+        "duration": 143,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -690,6 +719,17 @@
           "nogi": 11
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "GCcYYBHUi3c",
+        "title": "Beat the Boot: Straight Ankle Lock Escape",
+        "by": "Patrick Donabedian",
+        "vertical": false,
+        "channel": "Patrick Donabedian BJJ",
+        "duration": 56,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -724,6 +764,35 @@
     {
       "question": "What defines the boundary condition where straight ankle lock control breaks down into an adjacent position like 50-50?",
       "answer": "The position holds only while one foot stays isolated against one hip; the moment the trapped player mirrors the entanglement by capturing the opponent's near leg, the asymmetry that defined single-ankle control collapses into a symmetrical configuration. In 50-50 both players hold an equivalent ankle and an equivalent threat, so the leverage advantage that characterized straight ankle control neutralizes. Similarly, if the isolated foot slides free of the hip line the position degrades toward open guard or a scramble. These boundary conditions show the position is fundamentally about maintained asymmetry over a single isolated ankle, and it becomes something else the instant that asymmetry is lost."
+    }
+  ],
+  "clips": [
+    {
+      "id": "PsyAVXfRhyY",
+      "title": "Straight Ankle Lock",
+      "by": "bjjtaro",
+      "vertical": false,
+      "channel": "bjjtaro",
+      "duration": 16,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "-VpByetjzqs",
+      "title": "Backside Foot Finish Mechanics",
+      "by": "Mikey Musumeci",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 84,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "9SuTfbCNcFs",
+      "title": "Straight Foot Lock Sitting Up",
+      "by": "Ninja Pinto BJJ",
+      "vertical": false,
+      "channel": "Ninja Pinto BJJ",
+      "duration": 70,
+      "verified": "2026-07-14"
     }
   ]
 }

@@ -310,7 +310,36 @@
         "answer": "With one remaining grip after a partially defended pull, you have several chain options depending on which grip survived. If you retain the collar grip, immediately transition to a seated guard with feet on hips and use the collar to manage distance while working to close guard or enter De La Riva. If you retain the sleeve grip, use it to arm drag from seated position for a back take attempt, or pull them into your butterfly hooks. The retained grip prevents complete disengagement and gives you a connection point to rebuild guard structure. The worst decision is abandoning the remaining grip to post defensively, which surrenders all offensive initiative."
       }
     ],
-    "safety_considerations": "Guard pulling carries inherent risk of knee injury if performed with poor landing mechanics, particularly when sitting with a twisted knee or when your opponent drives forward during the transition. Never jump to closed guard on a standing opponent in training, as this can cause severe knee ligament damage to the standing partner when your weight lands on their posted leg. Always perform controlled sit-down mechanics where one hip contacts the mat first. During drilling, communicate with your training partner before initiating guard pulls so they can react safely rather than being caught off-balance. Ensure adequate mat space behind you before pulling to avoid contact with walls, other practitioners, or mat edges during the descent."
+    "safety_considerations": "Guard pulling carries inherent risk of knee injury if performed with poor landing mechanics, particularly when sitting with a twisted knee or when your opponent drives forward during the transition. Never jump to closed guard on a standing opponent in training, as this can cause severe knee ligament damage to the standing partner when your weight lands on their posted leg. Always perform controlled sit-down mechanics where one hip contacts the mat first. During drilling, communicate with your training partner before initiating guard pulls so they can react safely rather than being caught off-balance. Ensure adequate mat space behind you before pulling to avoid contact with walls, other practitioners, or mat edges during the descent.",
+    "clips": [
+      {
+        "id": "_CR9bNLYuEk",
+        "title": "Collar and sleeve guard pull",
+        "by": "The Fang Den",
+        "vertical": false,
+        "channel": "The Fang Den",
+        "duration": 55,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "XS1e697it5c",
+        "title": "Standing closed guard pull to sweep",
+        "by": "Doug",
+        "vertical": false,
+        "channel": "bjj doug",
+        "duration": 27,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "s1l1pyN6DsE",
+        "title": "One-grip guard pull to collar sleeve",
+        "by": "Carpio Jiu Jitsu",
+        "vertical": false,
+        "channel": "Carpio Jiu Jitsu",
+        "duration": 139,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Pull Guard from Standing Defender",
@@ -435,6 +464,26 @@
         "phase": "Phase 4: Passing Integration",
         "focus": "Connecting guard pull defense directly to immediate passing sequences",
         "description": "Full sparring flow where successful guard pull counter immediately transitions into passing attempt against the opponent's forming guard. Builds the critical connection between denying closed guard and capitalizing on the resulting open guard with knee slice, toreando, or leg drag passes. Continue each exchange until the pass is completed or guard is fully recovered."
+      }
+    ],
+    "clips": [
+      {
+        "id": "oaOB2XovGYE",
+        "title": "Intercepting the guard pull",
+        "by": "Riccardo Ammendolia",
+        "vertical": false,
+        "channel": "Riccardo Ammendolia",
+        "duration": 49,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Cnht4EL_Ato",
+        "title": "Guard pull counter for competition",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 162,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -255,7 +255,36 @@
         "answer": "Primary options include: transitioning to back control using the arm control to prevent defense, rolling to mounted Kimura for improved finishing angle, releasing Kimura and returning to side control with dominant crossface, or using the arm control to set up armbar. The figure-four grip provides control for multiple transitions even if the shoulder lock is defended."
       }
     ],
-    "safety_considerations": "The Kimura Switch involves rapid transition between two dangerous shoulder lock positions. During practice, apply all shoulder pressure progressively over 3-5 seconds minimum and release immediately upon any tap signal. Partners should communicate clearly about shoulder flexibility limitations before drilling. The transition itself carries lower injury risk than the finishing positions, but grip changes during live rolling can create sudden pressure spikes. Never force the figure-four grip if opponent's arm is in an awkward angle. Practitioners with previous shoulder injuries should approach this technique with additional caution and communicate any limitations. Training partners should allow the grip transition to complete before applying defensive resistance to prevent unexpected joint stress."
+    "safety_considerations": "The Kimura Switch involves rapid transition between two dangerous shoulder lock positions. During practice, apply all shoulder pressure progressively over 3-5 seconds minimum and release immediately upon any tap signal. Partners should communicate clearly about shoulder flexibility limitations before drilling. The transition itself carries lower injury risk than the finishing positions, but grip changes during live rolling can create sudden pressure spikes. Never force the figure-four grip if opponent's arm is in an awkward angle. Practitioners with previous shoulder injuries should approach this technique with additional caution and communicate any limitations. Training partners should allow the grip transition to complete before applying defensive resistance to prevent unexpected joint stress.",
+    "clips": [
+      {
+        "id": "YvTmqi750wQ",
+        "title": "Kimura trap rolling sweep from bottom side control",
+        "by": "Mat Life Training Center",
+        "vertical": false,
+        "channel": "Mat Life Training Center",
+        "duration": 31,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "rj3LRhRCtCA",
+        "title": "Kimura trap against the turtle",
+        "by": "Paul Stolyar",
+        "vertical": false,
+        "channel": "boomdunker",
+        "duration": 52,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "UpnwTYC3fgM",
+        "title": "Standing kimura bodylock switch drill",
+        "by": "Brandon Quick",
+        "vertical": false,
+        "channel": "Brandon Quick",
+        "duration": 73,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Kimura Switch Defender",
@@ -379,6 +408,35 @@
         "phase": "Week 7+",
         "focus": "Live Integration",
         "description": "Apply defensive skills in live rolling with emphasis on recognizing Kimura Switch attempts from various leg entanglement positions. Track success rates of each defensive option and identify which responses work best against different body types and grip styles. Refine timing based on competitive resistance and develop instinctive defensive reactions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "GOLwVNTVcnY",
+        "title": "Kimura defense grip breaks",
+        "by": "Dirtball BJJ",
+        "vertical": false,
+        "channel": "Dirtball BJJ",
+        "duration": 81,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "FNyL93v5fGs",
+        "title": "Defending the americana",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 91,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uRn3DRICpeY",
+        "title": "Late kimura defense from bottom side control",
+        "by": "Fox Den Martial Arts",
+        "vertical": false,
+        "channel": "Fox Den Martial Arts",
+        "duration": 100,
+        "verified": "2026-07-15"
       }
     ]
   },

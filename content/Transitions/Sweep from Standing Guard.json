@@ -291,7 +291,36 @@
         "answer": "Against a wide, low stance, direct tripod or sickle sweeps become lower percentage because the opponent's base is naturally more stable. Adjust by first narrowing their stance through grip manipulation, such as pulling one ankle toward the other to bring their feet closer together. Alternatively, switch to a collar drag or arm drag approach that attacks their upper body balance rather than their lower body base. You can also use the feet on hips to elevate their weight off one leg, effectively narrowing their functional base before launching the sweep. The key principle is to create the vulnerability before attacking it rather than forcing a sweep against a structurally sound base."
       }
     ],
-    "safety_considerations": "When drilling sweeps against standing opponents, ensure adequate mat space behind the standing player to prevent landing on hard surfaces or other practitioners. The falling player should practice breakfalls and tuck their chin on impact to prevent head and neck injury. Standing players face risk of knee hyperextension if their feet catch on the mat surface during an unexpected fall, so always communicate resistance levels with training partners. Progress resistance gradually from cooperative to full resistance over multiple sessions. In competition contexts, be aware that aggressive follow-throughs into top position can result in slamming penalties if the opponent is elevated during the sweep."
+    "safety_considerations": "When drilling sweeps against standing opponents, ensure adequate mat space behind the standing player to prevent landing on hard surfaces or other practitioners. The falling player should practice breakfalls and tuck their chin on impact to prevent head and neck injury. Standing players face risk of knee hyperextension if their feet catch on the mat surface during an unexpected fall, so always communicate resistance levels with training partners. Progress resistance gradually from cooperative to full resistance over multiple sessions. In competition contexts, be aware that aggressive follow-throughs into top position can result in slamming penalties if the opponent is elevated during the sweep.",
+    "clips": [
+      {
+        "id": "IPvmkijzJmQ",
+        "title": "Flower sweep against a standing opponent",
+        "by": "Jeffjitsu",
+        "vertical": false,
+        "channel": "Jeffjitsu",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "tj8NhpI88JU",
+        "title": "Standing guard sweeps breakdown",
+        "by": "Fenrir Jiu-Jitsu Academy",
+        "vertical": false,
+        "channel": "Fenrir Jiu-Jitsu Academy",
+        "duration": 102,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "pqNvQJ_tnmQ",
+        "title": "Foot scoop sweep when opponent stands in closed guard",
+        "by": "SlothGuard",
+        "vertical": false,
+        "channel": "SlothGuard",
+        "duration": 58,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Sweep from Standing Guard Defender",
@@ -416,6 +445,26 @@
         "phase": "Phase 4: Integrated Passing Under Sweep Threat",
         "focus": "Passing while managing sweep risk in live sparring",
         "description": "Full positional sparring from standing guard with emphasis on passing while maintaining sweep awareness. Track both passing success rate and sweep prevention rate to identify whether your passing approach creates excessive sweep vulnerability. Adjust passing style based on the opponent's sweep tendencies, developing the ability to pass aggressively while maintaining sufficient base integrity."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kNfVYhZbgrg",
+        "title": "Four levels of sweep defense",
+        "by": "Wim Deputter",
+        "vertical": false,
+        "channel": "Wim Deputter BJJ",
+        "duration": 87,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "DXe1Ln5vuHE",
+        "title": "Opening the closed guard: the standing guard open",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 260,
+        "verified": "2026-07-15"
       }
     ]
   }

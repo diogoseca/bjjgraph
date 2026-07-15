@@ -350,6 +350,26 @@
         "answer": "The primary risks are elbow hyperextension causing collateral ligament sprains or complete tears (4-8 weeks to 6 months recovery), ulnar collateral ligament rupture potentially requiring surgical repair (6-12 months recovery), and radial head subluxation from explosive resistance. To prevent these, always apply finishing pressure progressively over 2-3 seconds minimum rather than jerking explosively. Release immediately upon any tap signal. During drilling, stop before full extension and communicate pressure levels with your partner. Never continue the finish if your partner's arm slips suddenly due to sweat.",
         "safety_critical": true
       }
+    ],
+    "clips": [
+      {
+        "id": "vSmRbpNmf-E",
+        "title": "Roger Gracie armbars",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 102,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "gDn6uThIABM",
+        "title": "Armbar from mount when they bump you off",
+        "by": "Kyle Dimmitt",
+        "vertical": false,
+        "channel": "Kyle Dimmitt",
+        "duration": 76,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -492,6 +512,35 @@
         "phase": "Week 7-8",
         "focus": "Positional sparring with full resistance",
         "description": "Start from armbar control in live positional rounds. Attacker works to finish, defender works to escape. Full resistance and speed. Track escape success rate over 3-minute rounds. Emphasize recognizing the tap threshold—defender must tap honestly when escape is no longer viable. Debrief after each round to identify which defensive checkpoint failures allowed the finish and which escape selections were optimal."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "My favorite armbar escape",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "gWfgCEvGZTo",
+        "title": "Hitchhiker armbar escape",
+        "by": "Evolve MMA",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 58,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "w6M0NpTMkeU",
+        "title": "Quickest armbar escape: the Hitchhiker",
+        "by": "Peter Mettler",
+        "vertical": false,
+        "channel": "Peter Mettler Martial Arts",
+        "duration": 55,
+        "verified": "2026-07-14"
       }
     ]
   }

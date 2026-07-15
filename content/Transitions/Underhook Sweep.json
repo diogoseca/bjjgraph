@@ -293,7 +293,36 @@
         "answer": "Keeping your head tight on the underhook side blocks the opponent's crossface, keeps your shoulder connected so the underhook can lift, and helps drive the rotation as you fall and elevate. If your head drifts to the wrong side, the opponent can crossface, separate your shoulder from their body, and posture out of the sweep entirely."
       }
     ],
-    "safety_considerations": "The butterfly underhook sweep is a low-risk technique involving no joint locks or chokes, but a few precautions apply. Because the finish elevates and rotates your partner over your shoulder, control the speed of the lift so they are not dropped onto their head or neck - guide the landing rather than launching them. When your underhook is whizzered, do not force the arm against the resistance, as this stresses the shoulder joint; branch to a back take or recover position instead. Keep your head out from under your partner's body during the roll-through, and ensure adequate mat space so the reversal does not carry either player off the training area. When drilling with less experienced partners, scale your explosiveness and let them feel the mechanics before adding speed."
+    "safety_considerations": "The butterfly underhook sweep is a low-risk technique involving no joint locks or chokes, but a few precautions apply. Because the finish elevates and rotates your partner over your shoulder, control the speed of the lift so they are not dropped onto their head or neck - guide the landing rather than launching them. When your underhook is whizzered, do not force the arm against the resistance, as this stresses the shoulder joint; branch to a back take or recover position instead. Keep your head out from under your partner's body during the roll-through, and ensure adequate mat space so the reversal does not carry either player off the training area. When drilling with less experienced partners, scale your explosiveness and let them feel the mechanics before adding speed.",
+    "clips": [
+      {
+        "id": "mJyjWNGm_XE",
+        "title": "The hook sweep in 5 steps vs kneeling opponent",
+        "by": "Stephan Kesting",
+        "vertical": false,
+        "channel": "Stephan Kesting",
+        "duration": 31,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "sJfkAL95S9k",
+        "title": "2-on-1 lift to back from butterfly guard",
+        "by": "Lorenz Sadychow",
+        "vertical": true,
+        "channel": "Systematic Jiu-Jitsu",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "is7gMf-wYuA",
+        "title": "2-on-1 hook sweep from butterfly guard",
+        "by": "grpplng",
+        "vertical": false,
+        "channel": "grpplng",
+        "duration": 14,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Underhook Sweep Defender",
@@ -423,6 +452,35 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Passing the seated butterfly while defending the underhook sweep system",
         "description": "Positional sparring from butterfly top with the goal of passing while defending the underhook sweep. Start standing or in combat base against a seated partner; score for passes, partner scores for sweeps or back takes. Develop the ability to keep weight off the hook and stay offensive rather than purely reactive."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kNfVYhZbgrg",
+        "title": "Four levels of butterfly sweep defense",
+        "by": "Wim Deputter",
+        "vertical": false,
+        "channel": "Wim Deputter BJJ",
+        "duration": 87,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dOdO6xJ-TcU",
+        "title": "Stop the half guard underhook",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 98,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "C09VDq-tbaY",
+        "title": "Countering the butterfly sweep when you post",
+        "by": "Carlos Machado",
+        "vertical": false,
+        "channel": "Carlos Machado",
+        "duration": 108,
+        "verified": "2026-07-15"
       }
     ]
   },

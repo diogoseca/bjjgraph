@@ -284,7 +284,36 @@
         "answer": "The window between a successful lasso extraction and the opponent re-establishing a guard system is extremely narrow, typically one to three seconds for a skilled guard player. Pausing after extraction allows them to insert hooks, establish new grips, and rebuild their defensive structure. Immediately chaining into a pass exploits the brief period where the opponent has no established guard, dramatically increasing passing success rate compared to stripping and then setting up a separate passing sequence."
       }
     ],
-    "safety_considerations": "Strip Russian Leg Lasso is a low-injury-risk technique as it involves grip fighting and positional adjustments rather than joint manipulation or compression. However, practitioners should be aware that aggressive arm extraction against a tight lasso can strain the shoulder joint of the trapped arm. Always create slack before extracting rather than forcing through resistance. The bottom player should release the lasso if the top player's shoulder is being stressed in an unnatural direction. During training, communicate clearly when beginning the strip sequence so the bottom player can adjust grip tension appropriately."
+    "safety_considerations": "Strip Russian Leg Lasso is a low-injury-risk technique as it involves grip fighting and positional adjustments rather than joint manipulation or compression. However, practitioners should be aware that aggressive arm extraction against a tight lasso can strain the shoulder joint of the trapped arm. Always create slack before extracting rather than forcing through resistance. The bottom player should release the lasso if the top player's shoulder is being stressed in an unnatural direction. During training, communicate clearly when beginning the strip sequence so the bottom player can adjust grip tension appropriately.",
+    "clips": [
+      {
+        "id": "XFCJ_etUWO4",
+        "title": "Leg drag pass against lasso guard",
+        "by": "Mitsuyoshi Hayakawa",
+        "vertical": false,
+        "channel": "トライフォース柔術アカデミー / Tri-force Jiu-jitsu Academy",
+        "duration": 26,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "9sQAn2ESkMU",
+        "title": "Passing lasso guard through to the back",
+        "by": "Gabriel Sousa",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 113,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "eXriz8Oz99I",
+        "title": "Deep lasso guard pass into leg drag",
+        "by": "Carpio Jiu Jitsu",
+        "vertical": false,
+        "channel": "Carpio Jiu Jitsu",
+        "duration": 161,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Strip Russian Leg Lasso Defender",
@@ -409,6 +438,26 @@
         "phase": "Full Positional Sparring",
         "focus": "Complete strip defense under competition conditions",
         "description": "Live positional rounds starting from Russian Leg Lasso. Top player attempts to strip and pass while bottom player defends using all available tools: grip retention, sweeps, transitions, and submissions. Integrates all defensive skills into realistic application."
+      }
+    ],
+    "clips": [
+      {
+        "id": "T_GhZe_MOWI",
+        "title": "Grip chain to retain guard when grips are stripped",
+        "by": "Xande Ribeiro",
+        "vertical": false,
+        "channel": "XANDE RIBEIRO",
+        "duration": 174,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "K4n_MQnR08c",
+        "title": "Keeping the lasso and hitting the arm drag sweep",
+        "by": "Xande Ribeiro",
+        "vertical": false,
+        "channel": "Riccardo Ammendolia",
+        "duration": 150,
+        "verified": "2026-07-15"
       }
     ]
   }

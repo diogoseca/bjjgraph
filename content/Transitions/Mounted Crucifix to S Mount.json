@@ -274,7 +274,36 @@
         "answer": "Their hip escape toward your back actually feeds the armbar finish. Follow their movement by leaning back slightly while maintaining wrist control, allowing their escape momentum to extend their trapped arm. Pinch your knees tight, scoop their arm across your hip line, and fall back to complete the armbar. Their escape direction is the same direction needed for arm extension. If they reverse direction, settle heavy in S Mount and consolidate before attacking again."
       }
     ],
-    "safety_considerations": "This transition involves dynamic leg repositioning while maintaining mount control, which carries relatively low injury risk compared to submission techniques. However, practitioners should be aware of potential knee strain during the leg threading motion, particularly if forcing the movement against resistance. Partners should communicate if leg pressure on the neck becomes uncomfortable. Avoid explosive transitions until the movement pattern is well-established to prevent losing balance and falling onto training partners. When drilling, allow controlled escapes rather than forcing the transition against maximum resistance to prevent positional scrambles that could result in collision injuries."
+    "safety_considerations": "This transition involves dynamic leg repositioning while maintaining mount control, which carries relatively low injury risk compared to submission techniques. However, practitioners should be aware of potential knee strain during the leg threading motion, particularly if forcing the movement against resistance. Partners should communicate if leg pressure on the neck becomes uncomfortable. Avoid explosive transitions until the movement pattern is well-established to prevent losing balance and falling onto training partners. When drilling, allow controlled escapes rather than forcing the transition against maximum resistance to prevent positional scrambles that could result in collision injuries.",
+    "clips": [
+      {
+        "id": "5UtNLw7usQk",
+        "title": "Switch side armbar from S-mount",
+        "by": "Darrin Lillian",
+        "vertical": false,
+        "channel": "Darrin Lillian",
+        "duration": 50,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "NSQos3RARTk",
+        "title": "S-mount armbar setup",
+        "by": "Team Daruma Dojo",
+        "vertical": false,
+        "channel": "Team Daruma Dojo",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2zSi7RlFJEU",
+        "title": "Armbar from S-mount",
+        "by": "Fenrir Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Fenrir Jiu-Jitsu Academy",
+        "duration": 78,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Mounted Crucifix to S Mount Defender",
@@ -403,6 +432,26 @@
         "phase": "Week 7+",
         "focus": "Live application and recovery chains",
         "description": "Positional sparring starting from mounted crucifix with partner attempting the S Mount transition at full resistance. Practice defending the transition and, when defense fails, immediately implementing S Mount bottom survival and escape sequences. Build the complete chain from crucifix defense through S Mount escape."
+      }
+    ],
+    "clips": [
+      {
+        "id": "C7wr6klxbC8",
+        "title": "Crucifix escape",
+        "by": "Chosen Few BJJ",
+        "vertical": false,
+        "channel": "Chosen Few BJJ",
+        "duration": 89,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "41koUZWmeHE",
+        "title": "Escaping the mounted crucifix",
+        "by": "Shem Rock",
+        "vertical": false,
+        "channel": "Shem Rock ",
+        "duration": 146,
+        "verified": "2026-07-15"
       }
     ]
   },

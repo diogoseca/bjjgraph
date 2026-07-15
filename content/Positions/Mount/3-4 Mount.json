@@ -388,6 +388,35 @@
           "nogi": 8
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "2Xm_mLp8xwk",
+        "title": "S-Mount top troubleshooting",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 67,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "2zSi7RlFJEU",
+        "title": "Armbar from S-Mount",
+        "by": "Fenrir Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Fenrir Jiu-Jitsu Academy",
+        "duration": 78,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "5UtNLw7usQk",
+        "title": "Switch-side armbar from S-Mount",
+        "by": "Darrin Lillian",
+        "vertical": false,
+        "channel": "Darrin Lillian",
+        "duration": 50,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -689,6 +718,35 @@
           "nogi": 11
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "2uuP147GoBk",
+        "title": "Mount bottom bridge & roll escape",
+        "by": "Academy Jiu Jitsu",
+        "vertical": false,
+        "channel": "Academy Jiu Jitsu",
+        "duration": 62,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "TutAtWW-HWQ",
+        "title": "Upa shrimp mount escape",
+        "by": "Mat Life Training Center",
+        "vertical": false,
+        "channel": "Mat Life Training Center",
+        "duration": 27,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "9252EvCT0q4",
+        "title": "Escaping the mount",
+        "by": "Gabriel Gonzaga",
+        "vertical": false,
+        "channel": "Gabriel Gonzaga",
+        "duration": 93,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -723,6 +781,35 @@
     {
       "question": "How does the 3-4 Mount differ mechanically from traditional symmetric mount and from S-mount?",
       "answer": "Traditional mount seats both knees against the ribs for a balanced, two-point base that maximizes stability but commits both legs and slows transitions. The 3-4 Mount trades one of those knees for a posted outside leg, sacrificing symmetric stability in exchange for a mobile base and faster access to attacks and mount variations. S-mount goes further, folding one leg under and turning the hips to isolate the far arm for armbar mechanics, whereas 3-4 Mount keeps the posted leg as a bracing outrigger rather than a trapping structure. In essence 3-4 Mount sits between symmetric mount's stability and S-mount's specialization, offering asymmetric mobility without fully committing to a single attack."
+    }
+  ],
+  "clips": [
+    {
+      "id": "FSbR22OOSaE",
+      "title": "S-Mount basics",
+      "by": "ZombieProofBJJ",
+      "vertical": false,
+      "channel": "ZombieProofBJJ",
+      "duration": 72,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "aVDYz6OeOnc",
+      "title": "Take the back from S-Mount",
+      "by": "Andrew Chappelle",
+      "vertical": false,
+      "channel": "Andrew Chappelle BJJ",
+      "duration": 83,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "KTTMiT_YEoA",
+      "title": "S-Mount scissor collar choke",
+      "by": "Jiu Jitsu Kid",
+      "vertical": false,
+      "channel": "Jiu Jitsu Kid",
+      "duration": 99,
+      "verified": "2026-07-14"
     }
   ]
 }

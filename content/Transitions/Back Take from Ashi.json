@@ -254,7 +254,36 @@
         "answer": "The standard back take works when the opponent sits up or reaches forward from a grounded position, providing a clean circling path to their back. The crab ride variant is optimal when the opponent is on all fours or has turtled, since you can maintain shin-across-hip control as a lever while circling behind them without fully releasing leg entanglement. The chair sit variant works best when the opponent drives heavy forward pressure to remove your leg control, since their momentum carries them past you and you can sit directly to their hip on the weak side. Read the opponent's body position and weight distribution to select the highest-percentage variant."
       }
     ],
-    "safety_considerations": "This transition involves releasing leg control and moving dynamically to opponent's back, which carries lower injury risk than most leg lock positions but requires controlled practice. Primary safety concerns include avoiding explosive movements that could torque opponent's knee as you release leg control, and ensuring controlled descent when taking opponent to mat from back position. Practice initially at slow speed to develop the timing and pathway. When drilling with resistance, communicate clearly about intensity levels. The transition itself does not apply joint stress but careless execution during release of leg control could strain opponent's knee if their leg is still entangled during explosive movement."
+    "safety_considerations": "This transition involves releasing leg control and moving dynamically to opponent's back, which carries lower injury risk than most leg lock positions but requires controlled practice. Primary safety concerns include avoiding explosive movements that could torque opponent's knee as you release leg control, and ensuring controlled descent when taking opponent to mat from back position. Practice initially at slow speed to develop the timing and pathway. When drilling with resistance, communicate clearly about intensity levels. The transition itself does not apply joint stress but careless execution during release of leg control could strain opponent's knee if their leg is still entangled during explosive movement.",
+    "clips": [
+      {
+        "id": "cNpVTxV0WGs",
+        "title": "Cross ashi to back take when they slip the heel",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 20,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "N2weatRR_V4",
+        "title": "Cross ashi entry and wedge berimbolo counter to the back",
+        "by": "BJJ Doug",
+        "vertical": false,
+        "channel": "bjj doug",
+        "duration": 28,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "jIJIKwQ6YY4",
+        "title": "Ashi counter into the back take",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 19,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Back Take from Ashi Defender",
@@ -378,6 +407,17 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Full resistance positional rounds starting from inside ashi. Attacker works complete leg lock to back take system while defender works prevention and escape. Track which defensive option succeeds most frequently against each variant and adjust training focus accordingly."
+      }
+    ],
+    "clips": [
+      {
+        "id": "fsp_qU-D_-g",
+        "title": "Cross ashi / honey hole counter to the back take",
+        "by": "Douglas Wasson",
+        "vertical": false,
+        "channel": "douglas wasson",
+        "duration": 143,
+        "verified": "2026-07-15"
       }
     ]
   },

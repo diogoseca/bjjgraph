@@ -296,7 +296,36 @@
         "answer": "Abort the transition when the opponent breaks your heel grip during the switch, they achieve standing posture with strong base during the reconfiguration, their free leg establishes a powerful frame that prevents you from completing the angle change, or they begin a successful counter-entanglement during the vulnerability window. In all these cases, forcing the transition risks losing the entanglement entirely. Returning to inside ashi preserves your attacking position and allows you to try again later."
       }
     ],
-    "safety_considerations": "This transition involves reconfiguring a leg entanglement that can lead directly to heel hook submissions. During training, execute the transition at controlled speed and communicate clearly with your training partner about the angle change. The outside ashi configuration provides direct access to outside heel hooks, which apply rotational force to the knee ligaments. Always apply submissions slowly and progressively, giving your partner time to tap. If your partner's leg position changes unexpectedly during the transition, pause and verify their comfort before continuing. Never combine explosive transition movement with immediate submission application."
+    "safety_considerations": "This transition involves reconfiguring a leg entanglement that can lead directly to heel hook submissions. During training, execute the transition at controlled speed and communicate clearly with your training partner about the angle change. The outside ashi configuration provides direct access to outside heel hooks, which apply rotational force to the knee ligaments. Always apply submissions slowly and progressively, giving your partner time to tap. If your partner's leg position changes unexpectedly during the transition, pause and verify their comfort before continuing. Never combine explosive transition movement with immediate submission application.",
+    "clips": [
+      {
+        "id": "ZbK5uGQJ_3w",
+        "title": "Problem solving outside ashi to inside",
+        "by": "Trans4mer Sports",
+        "vertical": false,
+        "channel": "Trans4mer Sports",
+        "duration": 78,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "xvx03k3jiWo",
+        "title": "Outside ashi entanglement details",
+        "by": "Team Strela",
+        "vertical": false,
+        "channel": "DARKSIDE | Team Strela",
+        "duration": 26,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "tLcHN042w48",
+        "title": "Outside heel hook mechanics from irimi and outside ashi",
+        "by": "Fox Den Martial Arts",
+        "vertical": false,
+        "channel": "Fox Den Martial Arts",
+        "duration": 86,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Inside Ashi to Outside Ashi Defender",
@@ -418,6 +447,35 @@
         "phase": "Phase 4: Full Positional Sparring",
         "focus": "Defending transitions within live leg lock exchanges",
         "description": "Start in inside ashi with the attacker free to attempt any transition including outside ashi. The defender works full defense against all threats. Track which transitions catch you and which you successfully defend. Develop pattern recognition for the attacker's preferred transition timing and triggers. 5-minute rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "AsGMkATAqqw",
+        "title": "Heel hook defense when ambushed",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 53,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "KmGhb2j68Ng",
+        "title": "Escaping outside ashi heel hook to rolling back take",
+        "by": "Grapple Box",
+        "vertical": false,
+        "channel": "Grapple Box llc",
+        "duration": 34,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "clVAHxgRadE",
+        "title": "Outside heel hook defense to inside heel hook",
+        "by": "Holy Grail BJJ",
+        "vertical": false,
+        "channel": "Holy Grail BJJ",
+        "duration": 105,
+        "verified": "2026-07-15"
       }
     ]
   }

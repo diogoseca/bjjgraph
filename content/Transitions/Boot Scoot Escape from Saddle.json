@@ -288,7 +288,36 @@
         "answer": "If extraction stalls at a partial point, transition to a counter-entangle by threading your free leg through their legs to establish 50-50 guard. This converts the asymmetric saddle where they have all the advantage into a symmetric entanglement where both players have equal control. From 50-50, you can work more methodical escapes or threaten your own leg attacks. Alternatively, if enough space exists, attempt an inversion to fully clear the entanglement from a different angle."
       }
     ],
-    "safety_considerations": "The boot scoot escape involves movement against an active leg entanglement targeting the knee and ankle joints. Never explosively pull your trapped leg during any phase of the escape—this creates rotational force that magnifies joint damage and can cause severe ligament injuries. If at any point you feel heel hook rotation beginning or sharp pain in the knee, tap immediately rather than continuing the escape attempt. Train this escape with controlled partners who understand the danger of resisting heel hook defense. Always communicate with training partners about knee sensitivity and injury history before drilling saddle escapes. Start all training progressions at zero resistance and increase gradually."
+    "safety_considerations": "The boot scoot escape involves movement against an active leg entanglement targeting the knee and ankle joints. Never explosively pull your trapped leg during any phase of the escape—this creates rotational force that magnifies joint damage and can cause severe ligament injuries. If at any point you feel heel hook rotation beginning or sharp pain in the knee, tap immediately rather than continuing the escape attempt. Train this escape with controlled partners who understand the danger of resisting heel hook defense. Always communicate with training partners about knee sensitivity and injury history before drilling saddle escapes. Start all training progressions at zero resistance and increase gradually.",
+    "clips": [
+      {
+        "id": "pCX38nCUGD0",
+        "title": "Saddle heel hook escape into 50/50",
+        "by": "ZombieProof BJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 65,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "C3bPRoMwGPo",
+        "title": "Saddle escape drilling into leg drag",
+        "by": "Travis Anderson",
+        "vertical": false,
+        "channel": "Travis Anderson",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "qfLLnHyb1GE",
+        "title": "Heel hook escape from the saddle",
+        "by": "ZombieProof BJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 120,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Boot Scoot Escape from Saddle Defender",
@@ -413,6 +442,17 @@
         "phase": "Phase 4: Live Pressure Testing",
         "focus": "Full resistance application",
         "description": "Start in saddle with partner attempting all available escapes including boot scoot. Maintain position and prevent escapes at full competition speed. Track how often the boot scoot escape succeeds and identify patterns in your defensive failures to address specific weaknesses."
+      }
+    ],
+    "clips": [
+      {
+        "id": "5hhSK86xBFc",
+        "title": "Controlling the saddle to shut down escapes",
+        "by": "Mads H.",
+        "vertical": false,
+        "channel": "Mads H. BJJ",
+        "duration": 259,
+        "verified": "2026-07-15"
       }
     ]
   }

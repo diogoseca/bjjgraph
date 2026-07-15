@@ -281,7 +281,27 @@
         "answer": "Your immediate priority is guard retention from the open guard position you have been reduced to. Establish defensive frames with your forearms against the opponent's shoulders, insert your feet on their hips or biceps to create distance, and work to re-establish either a leg entanglement entry or a standard guard position. Do not attempt to scramble wildly for top position—a controlled guard recovery preserves your defensive structure and prevents being passed during the transition."
       }
     ],
-    "safety_considerations": "The counter sweep from outside ashi-garami involves significant rotational forces through intertwined legs. During training, execute sweeps with controlled speed to avoid hyperextension of the knee or ankle when the entanglement does not release cleanly. If existing submission pressure is being applied to your leg during the sweep attempt, communicate with your partner and ensure they release pressure before you generate sweeping force through the entangled limbs. Tap immediately if you feel unexpected joint pressure during the sweep motion. Use progressive resistance when drilling and avoid full-speed sweeps until both partners are comfortable with the movement pattern."
+    "safety_considerations": "The counter sweep from outside ashi-garami involves significant rotational forces through intertwined legs. During training, execute sweeps with controlled speed to avoid hyperextension of the knee or ankle when the entanglement does not release cleanly. If existing submission pressure is being applied to your leg during the sweep attempt, communicate with your partner and ensure they release pressure before you generate sweeping force through the entangled limbs. Tap immediately if you feel unexpected joint pressure during the sweep motion. Use progressive resistance when drilling and avoid full-speed sweeps until both partners are comfortable with the movement pattern.",
+    "clips": [
+      {
+        "id": "KmGhb2j68Ng",
+        "title": "Escaping outside ashi into a rolling back take",
+        "by": "Grapple Box coach",
+        "vertical": false,
+        "channel": "Grapple Box llc",
+        "duration": 34,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "up34T04wt_U",
+        "title": "Countering outside ashi by rolling to 50/50",
+        "by": "Robyn Sheehan",
+        "vertical": false,
+        "channel": "Robyn Sheehan",
+        "duration": 107,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Counter Sweep from Outside Ashi Defender",
@@ -405,6 +425,26 @@
         "phase": "Phase 4: Full Integration Sparring",
         "focus": "Complete escape sequence with sweep defense integration",
         "description": "Full-resistance positional sparring from outside ashi-garami top where partner has the option to sweep, submit, or advance position at any time. Develop the decision-making to balance escape progression with sweep defense and submission defense simultaneously across extended exchanges."
+      }
+    ],
+    "clips": [
+      {
+        "id": "L417yCl_-dc",
+        "title": "Leg defense from ashi garami",
+        "by": "The Coop BJJ coach",
+        "vertical": false,
+        "channel": "The Coop BJJ",
+        "duration": 48,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Epb9dS7aYfA",
+        "title": "Straight ankle lock defense in ashi garami",
+        "by": "A BJJ Marriage coach",
+        "vertical": false,
+        "channel": "A BJJ Marriage",
+        "duration": 86,
+        "verified": "2026-07-15"
       }
     ]
   }

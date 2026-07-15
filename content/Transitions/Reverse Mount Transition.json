@@ -278,7 +278,27 @@
         "answer": "The transition integrates into a North-South attack system where threats create openings for other attacks. If the opponent defends the North-South choke by tucking their chin, their arms often become exposed for the kimura. If they defend the kimura by keeping elbows tight, they become passive, creating the ideal window for the reverse mount spin. The reverse mount itself opens armbars, S-mount entries, and back take opportunities based on their defensive reactions."
       }
     ],
-    "safety_considerations": "The Reverse Mount Transition is generally low-risk for both practitioners when performed with control. The primary safety concern is ensuring the spinning motion is controlled to avoid accidentally striking the opponent with knees during the transition. When drilling, communicate with your partner about the pace of the spin and gradually increase speed. Once in reverse mount, be mindful that armbar attacks can develop quickly from this position, so maintain controlled transitions and give partners adequate time to tap. Avoid dropping your full weight suddenly when landing in the position, as this can wind an unprepared training partner. Always settle into the position gradually rather than crashing down."
+    "safety_considerations": "The Reverse Mount Transition is generally low-risk for both practitioners when performed with control. The primary safety concern is ensuring the spinning motion is controlled to avoid accidentally striking the opponent with knees during the transition. When drilling, communicate with your partner about the pace of the spin and gradually increase speed. Once in reverse mount, be mindful that armbar attacks can develop quickly from this position, so maintain controlled transitions and give partners adequate time to tap. Avoid dropping your full weight suddenly when landing in the position, as this can wind an unprepared training partner. Always settle into the position gradually rather than crashing down.",
+    "clips": [
+      {
+        "id": "XQ4fwGrXV2Q",
+        "title": "Reverse mount in scrambles",
+        "by": "jamielovesmartialarts",
+        "vertical": false,
+        "channel": "jamielovesmartialarts",
+        "duration": 23,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "9_cPJAPTXs0",
+        "title": "Reverse mount toe lock",
+        "by": "GrapplingMechanics",
+        "vertical": false,
+        "channel": "GrapplingMechanics",
+        "duration": 76,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Reverse Mount Transition Defender",
@@ -411,6 +431,35 @@
         "phase": "Week 7+",
         "focus": "Live defense integration",
         "description": "Positional sparring starting from North-South bottom where the top player can choose any attack including the Reverse Mount Transition. Develop the ability to read which attack is coming and apply the appropriate defense under full resistance and unpredictable conditions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "bNdt6jVatj4",
+        "title": "Inverted mount escape to ashi garami",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 43,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uTuPvxQUOo4",
+        "title": "Mount escape",
+        "by": "bjjtaro",
+        "vertical": false,
+        "channel": "bjjtaro",
+        "duration": 23,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "R21vtm5BHF4",
+        "title": "How to escape the mount",
+        "by": "Pantera Jiujitsu",
+        "vertical": false,
+        "channel": "Pantera Jiujitsu",
+        "duration": 80,
+        "verified": "2026-07-15"
       }
     ]
   },

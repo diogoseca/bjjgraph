@@ -314,6 +314,35 @@
         "answer": "Commit to the twister when: the arm thread is unobstructed, the shoulder is fully pinned, and the leg entanglement is deep and secure. Transition away when: the arm thread is blocked twice consecutively, the leg entanglement is becoming shallow, or the opponent is successfully creating upper body frames. Time remaining matters—the twister setup is time-intensive, so with limited time, faster alternatives like the darce choke on a turn-in or back take on a turn-away may be higher percentage. Energy expenditure should also factor in, as forcing a defended twister depletes resources needed for alternatives.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "odT3-cVWXdc",
+        "title": "Twister Side Attacks",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "R55lmkc6Mus",
+        "title": "Twister from Side Control",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 87,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "im8KbQUyxLY",
+        "title": "Truck Options from Twister Side Control",
+        "by": "Jeremiah Vance",
+        "vertical": false,
+        "channel": "Jeremiah Vance",
+        "duration": 42,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -436,6 +465,35 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Defending all submission threats from twister side control bottom under realistic pressure",
         "description": "Full positional sparring starting from twister side control bottom. Partner uses full resistance and pursues any available submission. Defender must manage multiple threats while working systematic escape. Track escape rate, tap frequency, and time spent in the position across training sessions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Va1YNgx2E6M",
+        "title": "Escape and Counter the Twister",
+        "by": "Matrix Jiu Jitsu",
+        "vertical": false,
+        "channel": "Matrix Jiu Jitsu",
+        "duration": 165,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "jg0Rdc0rJzg",
+        "title": "Twister Side Control Counter",
+        "by": "10th Planet Murrieta",
+        "vertical": false,
+        "channel": "10th Planet Jiu Jitsu Murrieta",
+        "duration": 16,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "AUyR1rmVzo4",
+        "title": "Escaping Twister Side Control",
+        "by": "Robot Dolphin Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Robot Dolphin Jiu-Jitsu ",
+        "duration": 205,
+        "verified": "2026-07-14"
       }
     ]
   }

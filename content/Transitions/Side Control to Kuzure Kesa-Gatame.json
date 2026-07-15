@@ -285,7 +285,36 @@
         "answer": "From standard side control the opponent must simultaneously defend four directional threats: the mount step-over, the north-south circle, the classical head-wrap scarf hold, and this arm-trap scarf hold. Each defensive commitment opens the others. If they bury their near arm to deny the arm trap, their frames against the mount step-over weaken. If they pin their chin to deny the head wrap, the near arm becomes available for this transition. If they shrimp away to prevent both scarf holds, north-south opens. This multi-threat dilemma is what makes systematic side control top game effective, and capturing the arm via this transition is how you punish them for defending the other three threats."
       }
     ],
-    "safety_considerations": "The transition to Kuzure Kesa-Gatame is generally safe but carries specific risks tied to the arm isolation. The trapped arm sits one motion away from an armbar, so apply any extension or rotation gradually and release immediately on a tap, as the shoulder and elbow are vulnerable to fast or forceful finishes. The modified scarf hold also restricts breathing through hip and chest pressure, which can be intense for smaller or less experienced partners, so build pressure progressively rather than slamming into the position. Avoid wrenching the clamped arm during the capture, since the opponent's shoulder can be hyperextended if the arm is forced rather than scooped. When drilling the bridge-and-roll counter, both partners should be aware of mat boundaries, and heavier practitioners should moderate their weight during early learning phases."
+    "safety_considerations": "The transition to Kuzure Kesa-Gatame is generally safe but carries specific risks tied to the arm isolation. The trapped arm sits one motion away from an armbar, so apply any extension or rotation gradually and release immediately on a tap, as the shoulder and elbow are vulnerable to fast or forceful finishes. The modified scarf hold also restricts breathing through hip and chest pressure, which can be intense for smaller or less experienced partners, so build pressure progressively rather than slamming into the position. Avoid wrenching the clamped arm during the capture, since the opponent's shoulder can be hyperextended if the arm is forced rather than scooped. When drilling the bridge-and-roll counter, both partners should be aware of mat boundaries, and heavier practitioners should moderate their weight during early learning phases.",
+    "clips": [
+      {
+        "id": "oXzrusNRq70",
+        "title": "Kuzure Kesa Gatame (broken scarf hold) no-gi demo",
+        "by": "Sampson Judo",
+        "vertical": false,
+        "channel": "Sampson Judo",
+        "duration": 19,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "aTsvuZ1vM48",
+        "title": "Kuzure Kesa Gatame study and application",
+        "by": "Judo Life",
+        "vertical": false,
+        "channel": "Judo Life",
+        "duration": 33,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "tfykooWW-xk",
+        "title": "Triangle attacks from broken scarf hold",
+        "by": "Chokes And More",
+        "vertical": false,
+        "channel": "Chokes And More",
+        "duration": 66,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Side Control to Kuzure Kesa-Gatame Defender",
@@ -401,6 +430,35 @@
         "phase": "Week 6-8: Escape from Established Position",
         "focus": "Developing escape options when prevention fails and the modified scarf hold is established",
         "description": "Start with the partner in an established Kuzure Kesa-Gatame. Practice bridge-and-roll escapes with proper far-arm control, turn-in back-take attempts that exploit the scarf hold back exposure, and trapped-arm recovery sequences while keeping the arm bent and protected. Include positional sparring rounds starting from the bottom of the modified scarf hold where the defender scores for escaping within 60 seconds, chaining one escape into the next when the first fails."
+      }
+    ],
+    "clips": [
+      {
+        "id": "-zFQ6h4yKT4",
+        "title": "Kuzure kesa-gatame escapes",
+        "by": "Kodokan instructor",
+        "vertical": false,
+        "channel": "KODOKAN",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_HjmunOXVtY",
+        "title": "Kuzure kesa gatame escapes",
+        "by": "Utah Shudokan instructor",
+        "vertical": false,
+        "channel": "Utah Shudokan USA",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2M_6VytUaus",
+        "title": "Kesa gatame escape",
+        "by": "SBG Australia coach",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 43,
+        "verified": "2026-07-15"
       }
     ]
   }

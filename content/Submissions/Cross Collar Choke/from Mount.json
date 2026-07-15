@@ -336,6 +336,35 @@
         "answer": "If pressure feels tight but no tap comes, the grip is likely compressing the trachea rather than the carotid arteries. Without releasing the position, rotate your wrists slightly to reposition the forearm bones laterally toward the sides of the neck. Ensure the X-formation is at mid-neck height rather than against the chin or throat. In training, if repositioning does not produce a tap within a few additional seconds, release and reset rather than cranking harder on an incorrectly positioned choke.",
         "safety_critical": true
       }
+    ],
+    "clips": [
+      {
+        "id": "dfP-Ov8FBUo",
+        "title": "Cross Collar Chokes breakdown",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 80,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "wA1QP2bpENA",
+        "title": "Finishing the cross choke from mount",
+        "by": "Saulo Ribeiro",
+        "vertical": false,
+        "channel": "Riccardo Ammendolia",
+        "duration": 112,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "DrAxA8KUxbo",
+        "title": "Palm-up palm-up cross choke (Helio variation)",
+        "by": "Avant-Garde BJJ",
+        "vertical": false,
+        "channel": "Avant-Garde BJJ",
+        "duration": 61,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -463,6 +492,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Defending the choke in realistic rolling conditions with full resistance",
         "description": "Start in mount with the opponent attacking the Cross Collar Choke. Defender works complete defensive sequences including grip prevention, stripping, bridging, and guard recovery against 100% resistance. Track success rate and identify which defensive window you are most effective at exploiting."
+      }
+    ],
+    "clips": [
+      {
+        "id": "6rMCDkWRlgg",
+        "title": "Cross collar choke defense: down and over",
+        "by": "Emil Takeuchi",
+        "vertical": false,
+        "channel": "Six Blades NOVA Emil Takeuchi",
+        "duration": 94,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "be-iHHhJGng",
+        "title": "Juji Jime escape: cross collar choke defense",
+        "by": "Peter Mettler",
+        "vertical": false,
+        "channel": "Peter Mettler Martial Arts",
+        "duration": 130,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "tl4kP4edemE",
+        "title": "Great way to escape the collar choke from mount",
+        "by": "Todd Margolis",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 246,
+        "verified": "2026-07-14"
       }
     ]
   }

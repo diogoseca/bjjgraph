@@ -286,7 +286,18 @@
         "answer": "The most dangerous moment occurs when you are approximately halfway through the turn, past the point where you can recover half guard but before establishing a defensible turtle structure. At this halfway point, your back is fully exposed, your base is transitional, and the opponent has maximum access to seatbelt, hooks, and front headlock attacks. This is why the turning motion must be explosive and continuous rather than gradual. Pausing at any point during the turn dramatically increases the probability of back take."
       }
     ],
-    "safety_considerations": "The back door escape is generally low-risk for joint injuries since it does not involve submission mechanics or extreme joint manipulation. The primary safety concern is cervical spine protection during the turning motion. Maintain chin tucked firmly to chest throughout to prevent awkward neck positioning if opponent applies crossface pressure during the turn. Avoid explosive attempts if you have existing neck or shoulder injuries that could be aggravated by rapid rotation under load. In training, partners should allow the escape at reduced speed until the escaper has developed sufficient technique and speed to protect their back during the full-speed transition."
+    "safety_considerations": "The back door escape is generally low-risk for joint injuries since it does not involve submission mechanics or extreme joint manipulation. The primary safety concern is cervical spine protection during the turning motion. Maintain chin tucked firmly to chest throughout to prevent awkward neck positioning if opponent applies crossface pressure during the turn. Avoid explosive attempts if you have existing neck or shoulder injuries that could be aggravated by rapid rotation under load. In training, partners should allow the escape at reduced speed until the escaper has developed sufficient technique and speed to protect their back during the full-speed transition.",
+    "clips": [
+      {
+        "id": "mhX-XlDDj7w",
+        "title": "Back door sweep from deep half guard",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 50,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Back Door Escape from Half Guard Defender",
@@ -400,6 +411,26 @@
         "phase": "Phase 4: Decision-Making Under Pressure",
         "focus": "Choosing stuff versus follow at competition speed",
         "description": "Full positional sparring from half guard top where partner mixes conventional escapes with back door attempts at full speed. Practice reading which escape is being attempted and selecting the appropriate defensive response. Develop automatic decision-making: stuff early-stage attempts, follow late-stage attempts to back control."
+      }
+    ],
+    "clips": [
+      {
+        "id": "hHbb7ywVTwU",
+        "title": "Countering the deep half back take from top",
+        "by": "JiuJitsu.com",
+        "vertical": false,
+        "channel": "JiuJitsu.com",
+        "duration": 63,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "JEDoJOZWQHY",
+        "title": "Three ways to defend deep half guard",
+        "by": "Six Blades Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Six Blades Jiu-Jitsu Fort Worth",
+        "duration": 207,
+        "verified": "2026-07-15"
       }
     ]
   }

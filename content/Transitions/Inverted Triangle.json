@@ -306,7 +306,36 @@
         "answer": "You need the ability to rotate your hips 180 degrees while maintaining a tight leg triangle configuration around the opponent's neck and shoulder. This requires flexibility in the hip flexors, adductors, and lower back to swing your body underneath without losing the squeeze. Drill the rotation solo and with a compliant partner extensively before adding resistance to prevent lower back strain."
       }
     ],
-    "safety_considerations": "The inverted triangle involves significant rotation of your body while maintaining leg pressure on your opponent's neck, creating unique safety concerns. During training, communicate with your partner throughout the rotation phase—the transition can disorient them and they may not realize the submission is tightening from the new angle. Always allow adequate time for your partner to tap before unconsciousness, as blood chokes can cause loss of consciousness within seconds. Practitioners with neck injuries or cervical spine issues should approach this technique cautiously, as the rotation places unusual forces on the spine. The inverted position can also strain your lower back if you lack the hip mobility to complete the rotation smoothly—build flexibility before attempting under resistance. In competition, be prepared for opponents who don't recognize the danger of the inverted angle and may resist beyond their limits. Release immediately upon feeling the tap or observing signs of unconsciousness such as body going limp or cessation of defensive movement."
+    "safety_considerations": "The inverted triangle involves significant rotation of your body while maintaining leg pressure on your opponent's neck, creating unique safety concerns. During training, communicate with your partner throughout the rotation phase—the transition can disorient them and they may not realize the submission is tightening from the new angle. Always allow adequate time for your partner to tap before unconsciousness, as blood chokes can cause loss of consciousness within seconds. Practitioners with neck injuries or cervical spine issues should approach this technique cautiously, as the rotation places unusual forces on the spine. The inverted position can also strain your lower back if you lack the hip mobility to complete the rotation smoothly—build flexibility before attempting under resistance. In competition, be prepared for opponents who don't recognize the danger of the inverted angle and may resist beyond their limits. Release immediately upon feeling the tap or observing signs of unconsciousness such as body going limp or cessation of defensive movement.",
+    "clips": [
+      {
+        "id": "9Z741GgDWj0",
+        "title": "Inverted triangle setup",
+        "by": "Doug",
+        "vertical": false,
+        "channel": "bjj doug",
+        "duration": 15,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "xAW3spYg9vE",
+        "title": "Inverted triangle breakdown",
+        "by": "Bristol Jiu Jitsu coach",
+        "vertical": false,
+        "channel": "Bristol Jiu Jitsu",
+        "duration": 51,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QPpQnCDw65k",
+        "title": "Crucifix to inverted triangle",
+        "by": "Zen Spot coach",
+        "vertical": false,
+        "channel": "Zen Spot",
+        "duration": 25,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Inverted Triangle Defender",
@@ -431,6 +460,26 @@
         "phase": "Week 7+",
         "focus": "Live integration and pattern reading",
         "description": "Positional sparring from triangle control where the attacker can choose standard finish, armbar, omoplata, or inverted triangle. Develop the ability to read which attack is coming based on the opponent's grip changes and body movement, and select appropriate defensive response in real time."
+      }
+    ],
+    "clips": [
+      {
+        "id": "DLmrzSs1hWI",
+        "title": "Triangle defense and escape",
+        "by": "Daniel Frank",
+        "vertical": false,
+        "channel": "Daniel Frank",
+        "duration": 24,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "q2ttnL90Js8",
+        "title": "Escaping a fully locked triangle",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 207,
+        "verified": "2026-07-15"
       }
     ]
   }

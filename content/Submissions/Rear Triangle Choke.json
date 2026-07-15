@@ -134,5 +134,43 @@
       "name": "Bow and Arrow Choke",
       "relationship": "Alternative gi-based choke from back control sharing similar positional prerequisites"
     }
+  ],
+  "clips": [
+    {
+      "id": "l5ayCZh3W78",
+      "title": "Rear triangle from the back",
+      "by": "Gracie Charlottesville",
+      "vertical": false,
+      "channel": "Gracie Charlottesville",
+      "duration": 32,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "LQUICOJ82xk",
+      "title": "Ushiro sankaku rear triangle from seated back",
+      "by": "Chris Reymann",
+      "vertical": false,
+      "channel": "Chris Reymann",
+      "duration": 40,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "4h-lxaNIqzw",
+      "title": "Rear triangle setup from back control",
+      "by": "Hellfish MMA",
+      "vertical": false,
+      "channel": "Hellfish Mixed Martial Arts",
+      "duration": 189,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "w8vzr24_n0s",
+      "title": "Back Triangle Choke",
+      "by": "Dr. Deng",
+      "vertical": false,
+      "channel": "Dr. Deng",
+      "duration": 30,
+      "verified": "2026-07-14"
+    }
   ]
 }

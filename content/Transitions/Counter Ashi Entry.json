@@ -265,7 +265,36 @@
         "answer": "The force should be directed inward and downward, driving your knee toward the mat on the inside of opponent's near-side thigh. This creates a wedge that controls inside space. Avoid pushing forward or outward, which would create shallow contact that the opponent can easily clear. The downward angle locks your knee inside their thigh and makes clearing your leg structurally difficult."
       }
     ],
-    "safety_considerations": "Counter Ashi Entry involves significant knee ligament risk for both practitioners due to the bilateral nature of leg entanglements. Never attempt counter entry when your heel is exposed—tap immediately if opponent achieves heel hook grip. During training, communicate clearly with partner about resistance levels and tap early to any submission threat. Avoid explosive or jerky movements during entry that could torque either practitioner's knee. Both partners should understand heel hook safety and release protocols before drilling leg entanglement exchanges."
+    "safety_considerations": "Counter Ashi Entry involves significant knee ligament risk for both practitioners due to the bilateral nature of leg entanglements. Never attempt counter entry when your heel is exposed—tap immediately if opponent achieves heel hook grip. During training, communicate clearly with partner about resistance levels and tap early to any submission threat. Avoid explosive or jerky movements during entry that could torque either practitioner's knee. Both partners should understand heel hook safety and release protocols before drilling leg entanglement exchanges.",
+    "clips": [
+      {
+        "id": "SyP61TJ7ckI",
+        "title": "Modern leglock counters",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "Michael Wong",
+        "duration": 86,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QMgsMSTRSBI",
+        "title": "Five leglock counters to ashi garami",
+        "by": "BJJ Black Belt Dad",
+        "vertical": false,
+        "channel": "BJJBlackBeltDad",
+        "duration": 93,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "L417yCl_-dc",
+        "title": "Leg defense from ashi garami",
+        "by": "The Coop BJJ",
+        "vertical": false,
+        "channel": "The Coop BJJ",
+        "duration": 48,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Counter Ashi Entry Defender",
@@ -389,6 +418,17 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Full resistance exchanges starting from Ashi Garami. Bottom player maintains position and threatens submissions while top player attempts Counter Ashi Entry. Alternate roles each round. Score points for successful defenses, position advances, and submissions to develop competitive defensive urgency."
+      }
+    ],
+    "clips": [
+      {
+        "id": "VIpOq3emUZ0",
+        "title": "Ashi garami entry against shin defense",
+        "by": "Placido Santos",
+        "vertical": false,
+        "channel": "Placido Santos ",
+        "duration": 150,
+        "verified": "2026-07-15"
       }
     ]
   },

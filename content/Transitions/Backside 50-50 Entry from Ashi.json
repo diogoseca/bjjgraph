@@ -290,7 +290,36 @@
         "answer": "If the initial entry attempt is blocked, immediately threaten a direct heel hook or ankle lock from inside ashi to force the opponent to address that threat. When they commit defensive resources to protecting their heel, their frames against your rotation path weaken. Use this moment to re-attempt the entry. Alternatively, if they maintain frames, transition to Saddle Entry or Honey Hole entry as alternative advancement paths, then look for the backside angle from the new position."
       }
     ],
-    "safety_considerations": "The Backside 50-50 Entry involves rotational forces on the knee and ankle that require controlled application throughout. During the transition, avoid explosive rotations that could torque training partners' knees unexpectedly. Both practitioners should maintain communication about leg pressure throughout the entry. Drill at reduced speed until the movement pattern is smooth, and always respect tap signals immediately during positional sparring. Particular caution is needed during the leg threading phase where improper foot placement can create unintended pressure on the opponent's knee joint."
+    "safety_considerations": "The Backside 50-50 Entry involves rotational forces on the knee and ankle that require controlled application throughout. During the transition, avoid explosive rotations that could torque training partners' knees unexpectedly. Both practitioners should maintain communication about leg pressure throughout the entry. Drill at reduced speed until the movement pattern is smooth, and always respect tap signals immediately during positional sparring. Particular caution is needed during the leg threading phase where improper foot placement can create unintended pressure on the opponent's knee joint.",
+    "clips": [
+      {
+        "id": "yT3euuWRWXw",
+        "title": "Three paths to backside 50/50 from single leg X",
+        "by": "Gustavo Gomes Firmino",
+        "vertical": false,
+        "channel": "Gustavo Gomes Firmino",
+        "duration": 56,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "DBbSqQf6iCo",
+        "title": "Roll under to backside 50/50",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 110,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ucAwPgTLSpQ",
+        "title": "Getting to backside 50/50",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 121,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Backside 50-50 Entry from Ashi Defender",
@@ -411,6 +440,35 @@
         "phase": "Phase 4: Full Positional Sparring",
         "focus": "Integrating defense into complete ashi garami defensive strategy",
         "description": "Full resistance positional sparring starting in inside ashi garami. Attacker may attempt any technique including backside 50-50 entry. Defender must address all threats including direct submissions, positional advancements, and the backside entry. Develops ability to prioritize defensive actions in real-time based on attacker's choices."
+      }
+    ],
+    "clips": [
+      {
+        "id": "cYEzCp2l4rQ",
+        "title": "50/50 escape for no-gi leg locks",
+        "by": "Elite Team Monterey",
+        "vertical": false,
+        "channel": "ELITE TEAM MONTEREY",
+        "duration": 46,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_hyZqLRwsWE",
+        "title": "Counter the 50/50 heel hook with a wristlock",
+        "by": "Whangarei BJJ",
+        "vertical": false,
+        "channel": "Whangarei BJJ",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "UA1prHHiwPI",
+        "title": "50/50 defense: toe and heel slipping",
+        "by": "South Boston BJJ",
+        "vertical": false,
+        "channel": "South Boston BJJ",
+        "duration": 179,
+        "verified": "2026-07-15"
       }
     ]
   }

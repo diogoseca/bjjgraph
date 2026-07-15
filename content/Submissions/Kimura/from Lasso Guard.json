@@ -324,6 +324,26 @@
         "answer": "The optimal moment is when the opponent's non-lasso arm extends away from their body—reaching for a collar grip, posting on the mat to adjust hip angle, or reaching across their own body to establish secondary controls. Attacking a retracted arm that is tight against the body is extremely difficult and likely to fail, while an extended arm provides the space needed to establish wrist control and thread the figure-four.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "Uu4h-eTOU5w",
+        "title": "Kimura with the Legs from Guard",
+        "by": "Jaime Jara",
+        "vertical": false,
+        "channel": "Jaime Jara",
+        "duration": 31,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Afz-rE1YYE0",
+        "title": "Kimura with the Legs",
+        "by": "Brendan Smitke",
+        "vertical": false,
+        "channel": "Brendan Smitke",
+        "duration": 31,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -458,6 +478,26 @@
         "phase": "Phase 4: Live Defense Integration",
         "focus": "Full resistance defensive sparring",
         "description": "Situational sparring from Lasso Guard where partner actively seeks Kimura opportunities at full intensity. Practice maintaining guard effectiveness while managing arm exposure. Develop the balance between offensive lasso guard play and defensive awareness of Kimura vulnerability."
+      }
+    ],
+    "clips": [
+      {
+        "id": "FNyL93v5fGs",
+        "title": "Defending the Americana/Kimura",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 91,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "LdHCMIMM380",
+        "title": "North South Kimura Defense",
+        "by": "Stephen Whittier",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 195,
+        "verified": "2026-07-14"
       }
     ]
   }

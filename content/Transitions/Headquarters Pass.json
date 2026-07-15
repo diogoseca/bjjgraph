@@ -272,7 +272,36 @@
         "answer": "When the opponent recovers knee shield, do not force the same pass again. Instead, use the knee shield as a fulcrum by gripping below their knee and collapsing their shield inward with a smash pass motion, or switch to a long step variation by stepping your free leg completely over their far leg to attack from the opposite angle. You can also threaten a kimura grip on their bottom arm to force them to address the submission threat, which often breaks their knee shield structure as they redirect their defensive attention. The key principle is never repeating a failed passing angle - always chain to a different vector."
       }
     ],
-    "safety_considerations": "The headquarters pass is generally a safe technique for both practitioners when executed with proper control. The passer should be mindful of maintaining shoulder pressure without driving their shoulder point directly into the opponent's face or throat, which can cause discomfort or injury. When extracting the trapped leg, avoid explosive or jerking motions that could strain your own knee or the opponent's leg if they are holding tight grips. During training, both partners should communicate if grips or pressure become uncomfortable. The bottom player should tap if they feel their neck is being cranked or if they experience any joint discomfort from leg entanglement. Practice this technique progressively with cooperative partners before attempting it at full intensity to develop proper mechanics and avoid injury during the learning phase."
+    "safety_considerations": "The headquarters pass is generally a safe technique for both practitioners when executed with proper control. The passer should be mindful of maintaining shoulder pressure without driving their shoulder point directly into the opponent's face or throat, which can cause discomfort or injury. When extracting the trapped leg, avoid explosive or jerking motions that could strain your own knee or the opponent's leg if they are holding tight grips. During training, both partners should communicate if grips or pressure become uncomfortable. The bottom player should tap if they feel their neck is being cranked or if they experience any joint discomfort from leg entanglement. Practice this technique progressively with cooperative partners before attempting it at full intensity to develop proper mechanics and avoid injury during the learning phase.",
+    "clips": [
+      {
+        "id": "IUvwQc_Y6RA",
+        "title": "Headquarters Position to Knee-Cut Pass",
+        "by": "Tony Casarez",
+        "vertical": false,
+        "channel": "Tony Casarez",
+        "duration": 109,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "YNmgTjIxtNQ",
+        "title": "Mount Pass from Headquarters",
+        "by": "Reding Martial Arts",
+        "vertical": false,
+        "channel": "Reding Martial Arts",
+        "duration": 159,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "VDsDFK-ntLE",
+        "title": "Headquarters Smash Pass",
+        "by": "OMJJJ",
+        "vertical": false,
+        "channel": "OMJJJ",
+        "duration": 195,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Headquarters Pass Defender",
@@ -395,6 +424,35 @@
         "phase": "Month 3+: Live Positional Sparring",
         "focus": "Full resistance defense with counter-attacking options",
         "description": "Positional sparring starting in half guard bottom against a partner working headquarters pass at full intensity. Integrate all defensive tools including underhook battles, knee shield retention, timed hip escapes, and deep half entries. Track success rate and identify which defensive pathway works best against different body types and passing styles."
+      }
+    ],
+    "clips": [
+      {
+        "id": "rP8SOouke1s",
+        "title": "Knee-Elbow Retention vs the Knee Cut",
+        "by": "Cal McDonald",
+        "vertical": false,
+        "channel": "Cal McDonald",
+        "duration": 57,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lVLAROiSjNU",
+        "title": "Guard Retention: When To Sit Up Escape",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 136,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "k4pZYVOwmbI",
+        "title": "Knee Shield Defense vs Headquarters",
+        "by": "Jiu Jitsu Curriculum",
+        "vertical": false,
+        "channel": "Jiu Jitsu Curriculum",
+        "duration": 117,
+        "verified": "2026-07-15"
       }
     ]
   },

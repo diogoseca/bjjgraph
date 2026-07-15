@@ -278,7 +278,36 @@
         "answer": "Abandon darce maintenance when the opponent has successfully extracted their trapped arm past the point of recovery, when your grip has degraded to a shallow position that cannot be re-deepened against their defense, or when you have held the position for an extended period without progress toward a finish and your energy is depleting faster than your opponent's. In these situations, transition to front headlock to maintain head control, advance to mount if the opponent is flattened, or take the back if they are turning away."
       }
     ],
-    "safety_considerations": "While darce maintenance is a control transition rather than a direct submission, the position creates constant pressure on the opponent's carotid arteries that can cause unconsciousness if sustained. Always monitor your training partner's responsiveness during maintenance drilling. If your partner goes limp, stops moving, or taps, release the grip immediately. During extended maintenance practice, allow rest periods between repetitions to prevent cumulative neck strain. Communicate with your partner about pressure intensity and adjust accordingly. Never maintain a fully locked darce grip on an unconscious partner."
+    "safety_considerations": "While darce maintenance is a control transition rather than a direct submission, the position creates constant pressure on the opponent's carotid arteries that can cause unconsciousness if sustained. Always monitor your training partner's responsiveness during maintenance drilling. If your partner goes limp, stops moving, or taps, release the grip immediately. During extended maintenance practice, allow rest periods between repetitions to prevent cumulative neck strain. Communicate with your partner about pressure intensity and adjust accordingly. Never maintain a fully locked darce grip on an unconscious partner.",
+    "clips": [
+      {
+        "id": "XpFxqgrhEgA",
+        "title": "Short arm darce grip and control details",
+        "by": "Travis Moore",
+        "vertical": false,
+        "channel": "Travis Moore",
+        "duration": 120,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "22EYQ2uhxQw",
+        "title": "Side control to north-south darce control",
+        "by": "Gracie Westchase coach",
+        "vertical": false,
+        "channel": "Gracie Westchase ",
+        "duration": 75,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dpjc7ly_wSY",
+        "title": "Mounted darce control setup (no-gi)",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 82,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Darce Control Maintenance Defender",
@@ -399,6 +428,26 @@
         "phase": "Phase 4: Full Resistance Defense",
         "focus": "Surviving and escaping darce maintenance against competition-level pressure",
         "description": "Partner applies full darce maintenance with intent to finish or advance. Defender works to escape within 30-second rounds. Track escape success rate and identify which escapes work most consistently under full pressure. Debrief after each round to refine timing and mechanics based on partner feedback."
+      }
+    ],
+    "clips": [
+      {
+        "id": "FMAWiNfgp74",
+        "title": "Escaping the darce choke from front headlock",
+        "by": "BJJ101 coach",
+        "vertical": false,
+        "channel": "BJJ101",
+        "duration": 30,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "t-7Q49INbe8",
+        "title": "Reversing the darce from half guard",
+        "by": "Chosen Few BJJ coach",
+        "vertical": false,
+        "channel": "Chosen Few BJJ",
+        "duration": 174,
+        "verified": "2026-07-15"
       }
     ]
   }

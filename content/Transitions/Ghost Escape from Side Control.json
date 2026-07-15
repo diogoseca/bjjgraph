@@ -321,7 +321,36 @@
         "answer": "Any pause mid-rotation leaves you in a half-turned position with your back partially exposed and your frames compromised. This intermediate position is worse than the original side control bottom because it gives the opponent easy access to mount transitions and back takes with minimal effort. The continuous momentum also makes it mechanically impossible for the opponent to track and follow the movement in real-time."
       }
     ],
-    "safety_considerations": "The ghost escape to open guard is a low-risk technique that does not involve joint manipulation or choking mechanics. The primary safety concern is neck strain during the turning phase if the opponent maintains a strong crossface while you rotate. Avoid forcing the turn against extreme neck pressure; instead, create the frame and bridge first to reduce crossface pressure before initiating rotation. During drilling, both partners should communicate about crossface intensity to prevent cervical strain. The turning motion should be practiced slowly initially to develop proper mechanics before adding speed, as rushing without established frames can result in the opponent landing heavily on your back during the transition. Be cautious with the knee insertion if your partner is driving forward aggressively, as a mistimed knee drive against a heavy opponent can strain the knee joint."
+    "safety_considerations": "The ghost escape to open guard is a low-risk technique that does not involve joint manipulation or choking mechanics. The primary safety concern is neck strain during the turning phase if the opponent maintains a strong crossface while you rotate. Avoid forcing the turn against extreme neck pressure; instead, create the frame and bridge first to reduce crossface pressure before initiating rotation. During drilling, both partners should communicate about crossface intensity to prevent cervical strain. The turning motion should be practiced slowly initially to develop proper mechanics before adding speed, as rushing without established frames can result in the opponent landing heavily on your back during the transition. Be cautious with the knee insertion if your partner is driving forward aggressively, as a mistimed knee drive against a heavy opponent can strain the knee joint.",
+    "clips": [
+      {
+        "id": "_4Ahdd-O8FM",
+        "title": "Ghost Escape Drill from Side Control",
+        "by": "The Martial Arts Monk",
+        "vertical": false,
+        "channel": "The Martial Arts Monk",
+        "duration": 56,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "rjvvLBRxa8s",
+        "title": "No-Gi Side Control Escape to Ghost",
+        "by": "Pantera Jiujitsu",
+        "vertical": false,
+        "channel": "Pantera Jiujitsu",
+        "duration": 62,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "gawKiLxmZbc",
+        "title": "Spinning Back Door Escape from Side Control",
+        "by": "Science Of JiuJitsu",
+        "vertical": false,
+        "channel": "Science Of JiuJitsu",
+        "duration": 48,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Ghost Escape from Side Control Defender",
@@ -465,6 +494,17 @@
         "phase": "Phase 4: Live Positional Integration",
         "focus": "Defend all escape types including ghost escape to guard in live rounds",
         "description": "Full-resistance side control maintenance rounds where partner uses their complete escape arsenal. Focus on recognizing which escape is being attempted within the first half-second and selecting the appropriate defensive response. Track success rates for each escape type defended."
+      }
+    ],
+    "clips": [
+      {
+        "id": "6mZGA39kDxI",
+        "title": "Stopping the Ghost Escape: The Door Stop Killer",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 73,
+        "verified": "2026-07-15"
       }
     ]
   }

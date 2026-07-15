@@ -284,7 +284,18 @@
         "answer": "Abandon the stack pass if the bottom player's heel grip tightens during your forward pressure rather than loosening, if they successfully establish a saddle hook during your forward drive, or if their inversion counter successfully resets the Carni from a fresh angle. In these scenarios, continuing the stack pass compounds the danger. Default to posture recovery for closed guard, or technical stand-up to disengage entirely. The worst outcome is persisting with a failing stack pass and ending up in saddle with your leg deeply entangled."
       }
     ],
-    "safety_considerations": "The Stack Pass from Carni involves driving forward into a leg entanglement where the bottom player may have active heel hook grip. Never attempt this technique if the heel hook is already deeply engaged, as forward momentum can accelerate knee ligament damage beyond the point of safe tapping. Always confirm ankle protection before initiating the pass. If you feel any rotational pressure on your knee during the forward drive, stop immediately and address the submission threat before continuing. This technique carries higher injury risk than conservative Carni escapes and should only be attempted after extensive drilling with cooperative partners. Communicate clearly with training partners about heel hook threat levels during positional drilling."
+    "safety_considerations": "The Stack Pass from Carni involves driving forward into a leg entanglement where the bottom player may have active heel hook grip. Never attempt this technique if the heel hook is already deeply engaged, as forward momentum can accelerate knee ligament damage beyond the point of safe tapping. Always confirm ankle protection before initiating the pass. If you feel any rotational pressure on your knee during the forward drive, stop immediately and address the submission threat before continuing. This technique carries higher injury risk than conservative Carni escapes and should only be attempted after extensive drilling with cooperative partners. Communicate clearly with training partners about heel hook threat levels during positional drilling.",
+    "clips": [
+      {
+        "id": "2KcAEYsaHAg",
+        "title": "Stack pass breakdown",
+        "by": "Kenny Kim",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 88,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Stack Pass from Carni Defender",
@@ -405,6 +416,17 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Full resistance stack pass defense from Carni bottom",
         "description": "Positional sparring from Carni bottom with partner actively working stack pass and other escapes. Defend and counter while maintaining offensive threat and heel control. Two-minute rounds ending on successful escape, submission, or positional advancement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "hj1nHZUZvoA",
+        "title": "Funk roll counter to the stack pass",
+        "by": "Adam Bradley",
+        "vertical": false,
+        "channel": "Adam Bradley",
+        "duration": 60,
+        "verified": "2026-07-15"
       }
     ]
   }

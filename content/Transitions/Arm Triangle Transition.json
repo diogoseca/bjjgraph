@@ -271,7 +271,18 @@
         "answer": "The opponent faces a lose-lose scenario. Keeping arms tight to their body leaves the guillotine grip unobstructed for the Hindulotine finish. Creating a near-side frame to relieve guillotine pressure positions their arm perfectly for the arm triangle transition. Turning away to escape either choke exposes the back for a back take. Every common defense to one attack directly enables another, forcing the opponent to choose which threat to accept rather than neutralizing all attacks."
       }
     ],
-    "safety_considerations": "The Arm Triangle Transition involves a grip change around the opponent's neck that requires controlled execution to avoid injury. During the reconfiguration from guillotine to arm triangle, avoid explosive jerking motions on the neck. The arm triangle itself is a blood choke that can cause unconsciousness rapidly once locked—always respect tap signals immediately and release pressure within one second of the tap. During training, apply the sweep with controlled force to avoid slamming your partner. Partners defending should communicate if they feel excessive neck pressure during the grip transition phase. Practitioners with cervical spine issues should approach this technique cautiously and inform training partners of any limitations."
+    "safety_considerations": "The Arm Triangle Transition involves a grip change around the opponent's neck that requires controlled execution to avoid injury. During the reconfiguration from guillotine to arm triangle, avoid explosive jerking motions on the neck. The arm triangle itself is a blood choke that can cause unconsciousness rapidly once locked—always respect tap signals immediately and release pressure within one second of the tap. During training, apply the sweep with controlled force to avoid slamming your partner. Partners defending should communicate if they feel excessive neck pressure during the grip transition phase. Practitioners with cervical spine issues should approach this technique cautiously and inform training partners of any limitations.",
+    "clips": [
+      {
+        "id": "wrZCRBlAB3Y",
+        "title": "Head and arm choke from mount: finishing details",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "Roger Gracie TV",
+        "duration": 265,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Arm Triangle Transition Defender",
@@ -395,6 +406,35 @@
         "phase": "Week 7+",
         "focus": "Full defensive integration under live pressure",
         "description": "Positional sparring starting in bottom Hindulotine with partner attempting the full arm triangle transition at 100% resistance. Practice the complete defensive decision tree: recognize the transition, choose between arm retraction, sweep denial, or grip transition exploitation based on timing. Track which defenses succeed and which phase breaks down for targeted drilling."
+      }
+    ],
+    "clips": [
+      {
+        "id": "D2vkZGTD78I",
+        "title": "Fastest escape out of the arm triangle",
+        "by": "Adam Bradley",
+        "vertical": false,
+        "channel": "Adam Bradley",
+        "duration": 31,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "zaYaAl5x26Y",
+        "title": "Arm triangle escape",
+        "by": "Hauck Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Hauck Jiu-Jitsu",
+        "duration": 80,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "VDPPLiZvvFE",
+        "title": "Escape from the standing arm triangle",
+        "by": "Andrew Hoard",
+        "vertical": false,
+        "channel": "andrew Hoard",
+        "duration": 81,
+        "verified": "2026-07-15"
       }
     ]
   },

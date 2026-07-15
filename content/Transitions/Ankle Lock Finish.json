@@ -254,7 +254,36 @@
         "answer": "The Ankle Lock Finish provides a legal submission option across all rulesets including those restricting heel hooks. It also works when the opponent's hand fighting has successfully prevented heel exposure, or when the reversed configuration makes heel hook mechanics less favorable. Having both options creates offensive diversity that complicates the opponent's defensive priorities."
       }
     ],
-    "safety_considerations": "The Ankle Lock Finish attacks the ankle joint and Achilles tendon, which can sustain serious injury if pressure is applied too quickly or without proper control. Always apply submission pressure gradually and tap immediately when caught - the ankle provides less warning before injury than larger joints. During training, stop at the first sign of discomfort from your partner and never 'crank' the finish. Be especially cautious with training partners who have previous ankle injuries. When drilling, practice the motion without pressure until mechanics are smooth, then add controlled pressure progressively. In competition, maintain awareness that the finishing pressure point arrives quickly - release immediately upon tap to prevent injury to your opponent."
+    "safety_considerations": "The Ankle Lock Finish attacks the ankle joint and Achilles tendon, which can sustain serious injury if pressure is applied too quickly or without proper control. Always apply submission pressure gradually and tap immediately when caught - the ankle provides less warning before injury than larger joints. During training, stop at the first sign of discomfort from your partner and never 'crank' the finish. Be especially cautious with training partners who have previous ankle injuries. When drilling, practice the motion without pressure until mechanics are smooth, then add controlled pressure progressively. In competition, maintain awareness that the finishing pressure point arrives quickly - release immediately upon tap to prevent injury to your opponent.",
+    "clips": [
+      {
+        "id": "PsyAVXfRhyY",
+        "title": "Straight ankle lock finish",
+        "by": "bjjtaro",
+        "vertical": false,
+        "channel": "bjjtaro",
+        "duration": 16,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "3h9twIIueXU",
+        "title": "Straight ankle lock breakdown",
+        "by": "Tex Johnson",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 49,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "9gbX4ppi95c",
+        "title": "Achilles lock finish from guard",
+        "by": "Kinesiology College",
+        "vertical": false,
+        "channel": "Kinesiology College",
+        "duration": 57,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Ankle Lock Finish Defender",
@@ -384,6 +413,35 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring integration",
         "description": "Begin from Ushiro Ashi-Garami with partner working full offensive sequences including ankle lock finish, heel hook, and kneebar threats. Defend and escape against fully resisting opponents with progressive intensity. Focus on decision-making speed and defensive composure under real submission threat."
+      }
+    ],
+    "clips": [
+      {
+        "id": "v3w0qXLKxug",
+        "title": "Defending leg locks: protecting the foot",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 92,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "yUdB-EJaXgQ",
+        "title": "Proper ankle lock defense vs heel hook defense",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "The Grapplers Guide by Jason Scully",
+        "duration": 133,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "6-HYU8Pbngg",
+        "title": "K guard defense vs toe hold and straight foot lock",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 152,
+        "verified": "2026-07-15"
       }
     ]
   },

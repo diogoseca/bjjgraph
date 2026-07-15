@@ -414,5 +414,34 @@
       "question": "What recognition skill is essential from the defensive side of a leg entanglement?",
       "answer": "Identifying which entanglement you are caught in and its threat level early—before full control and heel exposure are established—so you can execute the appropriate escape while time and space still exist."
     }
+  ],
+  "clips": [
+    {
+      "id": "fkl93-NakrI",
+      "title": "Terminology of ashi garami and leg entanglements",
+      "by": "Patrick Donabedian",
+      "vertical": false,
+      "channel": "Patrick Donabedian BJJ",
+      "duration": 79,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "E0fwubdYp9M",
+      "title": "Heel hook position glossary: leg entanglements",
+      "by": "ZombieProofBJJ",
+      "vertical": false,
+      "channel": "ZombieProofBJJ",
+      "duration": 119,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "iVa-jgMsLUk",
+      "title": "411 leg entanglement control details",
+      "by": "Holy Grail BJJ",
+      "vertical": false,
+      "channel": "Holy Grail BJJ",
+      "duration": 135,
+      "verified": "2026-07-15"
+    }
   ]
 }

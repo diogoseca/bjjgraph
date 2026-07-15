@@ -291,7 +291,27 @@
         "answer": "In the first two seconds, you must simultaneously establish three control points: crossface pressure driving their head away, hip-to-hip connection with your hips heavy against theirs, and a far hip block with your near arm to prevent knee insertion. These three points must be established as a single coordinated action rather than sequentially. Any delay in establishing all three gives the bottom player a window to insert a knee and recover half guard, which is the most common way the pass is lost after the legs have been cleared."
       }
     ],
-    "safety_considerations": "The backstep involves significant hip rotation while maintaining leg entanglement with your partner. Avoid rapid, uncontrolled twisting motions that could strain the medial collateral ligament of the weaved leg. Partners should communicate immediately if they feel knee torsion during the rotation phase. During drilling, practice the hip pivot at slow speed before adding speed or resistance. Be particularly careful when the bottom player's hooks catch the stepping leg mid-rotation, as forcing through a caught hook can create dangerous torque on both players' knees."
+    "safety_considerations": "The backstep involves significant hip rotation while maintaining leg entanglement with your partner. Avoid rapid, uncontrolled twisting motions that could strain the medial collateral ligament of the weaved leg. Partners should communicate immediately if they feel knee torsion during the rotation phase. During drilling, practice the hip pivot at slow speed before adding speed or resistance. Be particularly careful when the bottom player's hooks catch the stepping leg mid-rotation, as forcing through a caught hook can create dangerous torque on both players' knees.",
+    "clips": [
+      {
+        "id": "MGlM7DXPKZg",
+        "title": "Back stepping from knee cut to side saddle",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "39LiloK29bM",
+        "title": "Leg drag pass with back step options",
+        "by": "Mr. NogiJiujitsu",
+        "vertical": false,
+        "channel": "Mr. NogiJiujitsu",
+        "duration": 41,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Backstep from Leg Weave Defender",
@@ -412,6 +432,35 @@
         "phase": "Phase 4: Full Passing Defense Positional Sparring",
         "focus": "Defending the backstep within the full leg weave passing context",
         "description": "Start in leg weave with top player using all available passes including backstep. Bottom player defends all passing attempts with the backstep defense integrated into their overall defensive framework. This phase tests whether the defender can recognize and respond to the backstep among other threats without over-anticipating it. Five-minute rounds at full resistance."
+      }
+    ],
+    "clips": [
+      {
+        "id": "tO5rPtjfsGE",
+        "title": "Prevent the leg weave with lasso",
+        "by": "Grand Union Jiu Jitsu",
+        "vertical": false,
+        "channel": "Grand Union Jiu Jitsu",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "PKvaosk3gGc",
+        "title": "Defending the leg weave pass",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ",
+        "duration": 197,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "7gcVk4flYHo",
+        "title": "Leg weave guard pass counter",
+        "by": "Stephan Kesting",
+        "vertical": false,
+        "channel": "Stephan Kesting",
+        "duration": 182,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -202,5 +202,34 @@
       "description": "Instead of standard bicep grip, bring your elbow high above opponent's back and grip your own wrist, creating different angle of pressure. More common in no-gi.",
       "when_to_use": "Standard grip is difficult to secure or opponent is defending traditional angle"
     }
+  ],
+  "clips": [
+    {
+      "id": "BMU1_wfjYTw",
+      "title": "Darce Choke from the Front Headlock",
+      "by": "Procel BJJ",
+      "vertical": false,
+      "channel": "Procel Brazilian Jiu-Jitsu",
+      "duration": 101,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "dS5HQNSyuXs",
+      "title": "Half Nelson to D'Arce/Brabo Choke",
+      "by": "Joshua Clements",
+      "vertical": false,
+      "channel": "Joshua Clements",
+      "duration": 94,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "pad9c-Ldljg",
+      "title": "Brabo Choke from Turtle",
+      "by": "Thiago Stefanutti",
+      "vertical": false,
+      "channel": "thiago stefanutti",
+      "duration": 46,
+      "verified": "2026-07-14"
+    }
   ]
 }

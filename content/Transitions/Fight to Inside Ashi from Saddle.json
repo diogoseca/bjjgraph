@@ -304,7 +304,36 @@
         "answer": "Do not muscle a re-tightened figure-four; switch threats so no single counter shuts down your whole escape. Re-strip the grips and re-attempt the bridge-and-pummel, or chain to a different Saddle-bottom option: a Boot Scoot Escape from Saddle to create distance, a counter-entangle to 50-50 Guard to neutralize the heel exposure, or an Ashi Garami Escape if their control has loosened elsewhere. Keeping the opponent reacting to multiple degradation threats is what eventually opens the pummel lane."
       }
     ],
-    "safety_considerations": "This transition involves significant knee and ankle joint risk due to the Saddle position creating immediate danger to medial and lateral knee ligaments through heel hook mechanics. Never practice at full speed without proper warm-up and explicit partner communication about submission thresholds. If the opponent applies rotational pressure to the heel during your escape attempt, tap immediately rather than continuing the movement. Training partners must apply all submissions slowly and progressively, allowing adequate reaction time. Practitioners should master this technique in controlled drilling with cooperative partners before attempting it in live sparring. Always communicate clearly with your training partner about intensity levels and respect the tap instantly."
+    "safety_considerations": "This transition involves significant knee and ankle joint risk due to the Saddle position creating immediate danger to medial and lateral knee ligaments through heel hook mechanics. Never practice at full speed without proper warm-up and explicit partner communication about submission thresholds. If the opponent applies rotational pressure to the heel during your escape attempt, tap immediately rather than continuing the movement. Training partners must apply all submissions slowly and progressively, allowing adequate reaction time. Practitioners should master this technique in controlled drilling with cooperative partners before attempting it in live sparring. Always communicate clearly with your training partner about intensity levels and respect the tap instantly.",
+    "clips": [
+      {
+        "id": "K5XhO7o5QN0",
+        "title": "Saddle entries from guard",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 66,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "HniaoFWTsmI",
+        "title": "Easy entry to the saddle (inside sankaku)",
+        "by": "Ilya",
+        "vertical": false,
+        "channel": "Ilya's Jiu-Jitsu",
+        "duration": 53,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "zXeMxV_3a50",
+        "title": "Ashi garami counter into the saddle",
+        "by": "Mr. Heel Hook",
+        "vertical": false,
+        "channel": "Mr. Heel Hook",
+        "duration": 85,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Fight to Inside Ashi from Saddle Defender",
@@ -422,6 +451,17 @@
         "phase": "Phase 4: Decision Making",
         "focus": "Choosing between maintaining position, attacking, and strategic disengagement",
         "description": "Full live rounds starting in Saddle. Practice reading the opponent's escape progress and making strategic decisions: maintain position when control is strong, attack when opportunities arise, and disengage to top position when the entanglement is compromised beyond recovery. Develop the judgment to select the right strategy based on real-time positional assessment."
+      }
+    ],
+    "clips": [
+      {
+        "id": "C3bPRoMwGPo",
+        "title": "Saddle escape into leg drag flow drill",
+        "by": "Travis Anderson",
+        "vertical": false,
+        "channel": "Travis Anderson",
+        "duration": 70,
+        "verified": "2026-07-15"
       }
     ]
   }

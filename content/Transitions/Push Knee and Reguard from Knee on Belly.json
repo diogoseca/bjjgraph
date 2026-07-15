@@ -289,7 +289,27 @@
         "answer": "If the push is blocked and the opponent re-plants, immediately transition to a frame-and-shrimp escape using the frames already in place. If that is also blocked, turn to turtle as a last resort. Each attempt creates incremental space improvement even if the full escape fails. The key is maintaining continuous movement rather than repeating the same blocked technique, forcing the top player to solve multiple defensive problems in sequence."
       }
     ],
-    "safety_considerations": "This escape involves explosive hip movement under significant compressive pressure on the torso. Avoid bridging hard directly against the knee as this can cause rib or costal cartilage injuries. If the opponent's knee is positioned on your sternum or directly on your ribs rather than the softer diaphragm area, be cautious about pushing forcefully against a bony contact point. Communicate with training partners about pressure levels during drilling to prevent rib injuries. During initial learning phases, have partners apply reduced pressure to allow proper mechanics development before adding resistance."
+    "safety_considerations": "This escape involves explosive hip movement under significant compressive pressure on the torso. Avoid bridging hard directly against the knee as this can cause rib or costal cartilage injuries. If the opponent's knee is positioned on your sternum or directly on your ribs rather than the softer diaphragm area, be cautious about pushing forcefully against a bony contact point. Communicate with training partners about pressure levels during drilling to prevent rib injuries. During initial learning phases, have partners apply reduced pressure to allow proper mechanics development before adding resistance.",
+    "clips": [
+      {
+        "id": "Wn01Ynw7O28",
+        "title": "Escaping the knee on belly position",
+        "by": "Evolve MMA",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 40,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "WIYwi1fKisU",
+        "title": "Sneaky knee on belly escape, gi and no-gi",
+        "by": "Zebulon Miller",
+        "vertical": false,
+        "channel": "Zebulon Miller",
+        "duration": 78,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Push Knee and Reguard from Knee on Belly Defender",
@@ -409,6 +429,26 @@
         "phase": "Live Integration",
         "focus": "Complete positional defense system",
         "description": "Positional sparring starting from KOB with both players using full technique repertoire. Focus on recognizing which escape opponent is attempting and applying the appropriate counter. Track position advancement rate and escape prevention across multiple rounds and training partners."
+      }
+    ],
+    "clips": [
+      {
+        "id": "647EFIw4r5o",
+        "title": "Countering the knee on belly escape to armbar",
+        "by": "Grappling Instructionals",
+        "vertical": false,
+        "channel": "Grapplinginstructionals",
+        "duration": 218,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "mEmlkI3zbeE",
+        "title": "Kimura from knee on belly",
+        "by": "Mauricio Gomes",
+        "vertical": false,
+        "channel": "Mauricio Gomes BJJ",
+        "duration": 50,
+        "verified": "2026-07-15"
       }
     ]
   }

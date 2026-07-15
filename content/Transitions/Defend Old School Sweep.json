@@ -295,7 +295,27 @@
         "answer": "Surviving means absorbing the sweep attempt and remaining in Old School Top position without advancement, leaving the bottom player free to attack again. Successfully defending means neutralizing the sweep while simultaneously degrading the bottom player's offensive structure, flattening them and breaking their controls to create an immediate passing opportunity. The goal is to convert every defended sweep into forward positional progress toward half guard top and eventually side control."
       }
     ],
-    "safety_considerations": "This defense involves significant pressure application through crossface and chest compression. Train with progressive resistance, starting at low intensity to allow partners to develop comfort with the pressure. Communicate clearly about crossface pressure levels as excessive force against the jaw can cause neck strain or jaw discomfort. Ensure the lockdown extension during defense does not hyperextend the knee of the trapped leg. Tap immediately if the lockdown creates uncomfortable knee pressure rather than fighting through it."
+    "safety_considerations": "This defense involves significant pressure application through crossface and chest compression. Train with progressive resistance, starting at low intensity to allow partners to develop comfort with the pressure. Communicate clearly about crossface pressure levels as excessive force against the jaw can cause neck strain or jaw discomfort. Ensure the lockdown extension during defense does not hyperextend the knee of the trapped leg. Tap immediately if the lockdown creates uncomfortable knee pressure rather than fighting through it.",
+    "clips": [
+      {
+        "id": "dOdO6xJ-TcU",
+        "title": "Shutting down the half guard underhook",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 98,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "9zyaoQWEEls",
+        "title": "Whizzer counters to half guard underhook sweeps",
+        "by": "Trillo Jiujitsu Academy",
+        "vertical": false,
+        "channel": "Trillo Jiujitsu Academy",
+        "duration": 232,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Defend Old School Sweep Defender",
@@ -418,6 +438,35 @@
         "phase": "Phase 4: Live Situational Sparring",
         "focus": "Full-speed offensive half guard play from Old School bottom",
         "description": "Start in Old School bottom position against full resistance. Execute complete offensive game plan including initial sweep threat, reading defense, and flowing through chain attacks. Reset after successful sweep, back take, submission, or pass. Five-minute rounds developing fight IQ for Old School bottom offense."
+      }
+    ],
+    "clips": [
+      {
+        "id": "c5aHZxvr2bk",
+        "title": "Old school sweep from the lockdown",
+        "by": "The Jiu-Jitsu Foundry",
+        "vertical": false,
+        "channel": "The Jiu-Jitsu Foundry",
+        "duration": 33,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "IZ2UJ-IsRV0",
+        "title": "Old school half guard sweep breakdown",
+        "by": "Wimbledon BJJ",
+        "vertical": false,
+        "channel": "Wimbledon Brazilian Jiu Jitsu & Self Defence",
+        "duration": 110,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fjDBmFzfhgI",
+        "title": "Dogfight basics: Plan B and old school sweep",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 145,
+        "verified": "2026-07-15"
       }
     ]
   }

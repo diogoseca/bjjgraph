@@ -279,7 +279,36 @@
         "answer": "The upper body pull and leg reap work in opposing directions to create maximum rotational force. The collar grip pulls the opponent's upper body backward and slightly downward toward the mat behind them, while the reaping leg sweeps their weighted leg forward and upward, removing their base. This creates a scissors-like rotational effect where the upper and lower body are driven in opposite directions simultaneously. The collar hand pulls toward your own rear hip, while the reaping leg sweeps along a trajectory perpendicular to opponent's standing line. This opposing-force principle is why both actions must occur simultaneously - either one alone lacks sufficient off-balancing power."
       }
     ],
-    "safety_considerations": "When practicing Osoto Gari, both training partners must be aware of proper falling mechanics to prevent injury. The person being thrown should understand how to breakfall correctly, turning their head away from the impact and slapping the mat with their arm to dissipate force. The person executing the throw must maintain grip connection throughout the technique to control the speed and direction of the fall, never simply throwing the opponent away. Adequate mat space should be verified before attempting the technique - ensure there are no obstacles or other grapplers in the fall zone. Begin all training at reduced speed and with cooperative partners before progressing to full resistance. Both partners should communicate clearly about resistance levels during drilling phases. The thrower should be particularly careful not to follow through with excessive weight if the opponent is unable to complete a proper breakfall. In competition scenarios, be aware of the edge of the mat area to avoid throwing opponents off the competition surface. Practitioners with knee or ankle issues should be cautious with the reaping motion and may need to modify the technique or use alternative takedowns."
+    "safety_considerations": "When practicing Osoto Gari, both training partners must be aware of proper falling mechanics to prevent injury. The person being thrown should understand how to breakfall correctly, turning their head away from the impact and slapping the mat with their arm to dissipate force. The person executing the throw must maintain grip connection throughout the technique to control the speed and direction of the fall, never simply throwing the opponent away. Adequate mat space should be verified before attempting the technique - ensure there are no obstacles or other grapplers in the fall zone. Begin all training at reduced speed and with cooperative partners before progressing to full resistance. Both partners should communicate clearly about resistance levels during drilling phases. The thrower should be particularly careful not to follow through with excessive weight if the opponent is unable to complete a proper breakfall. In competition scenarios, be aware of the edge of the mat area to avoid throwing opponents off the competition surface. Practitioners with knee or ankle issues should be cautious with the reaping motion and may need to modify the technique or use alternative takedowns.",
+    "clips": [
+      {
+        "id": "uSh01u56MnE",
+        "title": "No-gi Osoto Gari judo throw breakdown",
+        "by": "Shintaro Higashi",
+        "vertical": false,
+        "channel": "Shintaro Higashi",
+        "duration": 68,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Z1axdCFVCJE",
+        "title": "O Soto Gari: major outer reap demonstration",
+        "by": "Bradford Jiu Jitsu Club coach",
+        "vertical": false,
+        "channel": "Bradford Jiu Jitsu Club",
+        "duration": 45,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "B0N46zIn96M",
+        "title": "Ippon Osoto Gari full-speed demo",
+        "by": "Efficient Judo",
+        "vertical": false,
+        "channel": "Efficient Judo",
+        "duration": 26,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Osoto Gari Defender",
@@ -410,6 +439,26 @@
         "phase": "Phase 4: Counter-Offensive Integration (Weeks 11+)",
         "focus": "Converting successful defense into immediate offensive opportunities",
         "description": "Full-speed standing sparring where partner prioritizes Osoto Gari attacks. Practice the complete defensive sequence: recognition, appropriate defense, and immediate counter-attack. Work on specific counter-offense chains such as grip break to snap-down, leg retraction to angle change to your own throw, and counter-throw to top position establishment. Film sessions for review and identify patterns in your defensive timing."
+      }
+    ],
+    "clips": [
+      {
+        "id": "st_61V1EcVE",
+        "title": "No-gi Osoto Gari counter",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 128,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "LdjSdus6LVE",
+        "title": "Osoto Gari: watching out for the counter",
+        "by": "David Groom",
+        "vertical": false,
+        "channel": "JudoFanatics",
+        "duration": 171,
+        "verified": "2026-07-15"
       }
     ]
   },

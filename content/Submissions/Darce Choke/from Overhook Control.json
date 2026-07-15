@@ -343,6 +343,26 @@
         "answer": "In competition, create the overhook from turtle top or front headlock rather than waiting for it to appear. Drive forward pressure into the opponent to force their head down, then transition quickly from overhook to Darce before they can adjust defensively. Speed of transition is critical because experienced opponents recognize the Darce setup within 1-2 seconds. Chain the attempt with Anaconda and arm triangle threats so that defending one exposes them to another, forcing reaction-based mistakes.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "pJcwan8Mza4",
+        "title": "Darce from the overhook",
+        "by": "Ashure Elbanna",
+        "vertical": false,
+        "channel": "Ashure Elbanna",
+        "duration": 81,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "HR6Bk9RY5W4",
+        "title": "Darce attack from inside guard",
+        "by": "Clark Gracie",
+        "vertical": false,
+        "channel": "Clark Gracie Allegiance Jiu Jitsu",
+        "duration": 74,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -478,6 +498,17 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Full resistance defense from overhook positions",
         "description": "Positional sparring starting from overhook control with partner actively pursuing the Darce. Defender uses full repertoire of prevention, early escape, and late escape techniques. Focus on chaining defensive responses when initial defense fails. Build confidence in survival under realistic attacking pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "FMAWiNfgp74",
+        "title": "Defending the Darce choke, stack escape",
+        "by": "BJJ101",
+        "vertical": false,
+        "channel": "BJJ101",
+        "duration": 30,
+        "verified": "2026-07-14"
       }
     ]
   }

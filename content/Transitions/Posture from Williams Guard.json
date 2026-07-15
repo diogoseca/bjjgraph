@@ -276,7 +276,18 @@
         "answer": "Initiate your highest-percentage guard opening sequence immediately—typically standing guard break or systematic grip establishment leading to knee pressure break. Immediate action is critical because the opponent will begin working to re-isolate your arm and rebuild Williams Guard, and the window between posture recovery and guard re-establishment is narrow. Your recent escape also means the opponent's grips are disrupted and their guard structure is transitional, creating a temporary vulnerability that disappears within seconds if you allow them to resettle."
       }
     ],
-    "safety_considerations": "Shoulder joint protection is paramount during posture recovery from Williams Guard. The figure-four shoulder lock creates genuine submission danger that can cause rotator cuff tears, labrum injuries, or shoulder dislocations if handled carelessly. Never yank your trapped arm aggressively—sudden jerking movements dramatically increase injury risk. If you feel sharp or escalating pain in your shoulder during extraction, immediately tap and reset rather than fighting through the lock. During training, communicate with your partner about pressure levels and establish clear tap protocols before beginning positional work. Avoid explosive movements that could compromise either practitioner's joint integrity. The shoulder lock in Williams Guard should be treated with the same respect as any other joint lock—controlled, patient escape is always safer than desperate resistance."
+    "safety_considerations": "Shoulder joint protection is paramount during posture recovery from Williams Guard. The figure-four shoulder lock creates genuine submission danger that can cause rotator cuff tears, labrum injuries, or shoulder dislocations if handled carelessly. Never yank your trapped arm aggressively—sudden jerking movements dramatically increase injury risk. If you feel sharp or escalating pain in your shoulder during extraction, immediately tap and reset rather than fighting through the lock. During training, communicate with your partner about pressure levels and establish clear tap protocols before beginning positional work. Avoid explosive movements that could compromise either practitioner's joint integrity. The shoulder lock in Williams Guard should be treated with the same respect as any other joint lock—controlled, patient escape is always safer than desperate resistance.",
+    "clips": [
+      {
+        "id": "NZEf9jXzCYA",
+        "title": "Countering Williams guard with a cartwheel escape",
+        "by": "Sam Wilkinson",
+        "vertical": false,
+        "channel": "Sam Wilkinson MMA",
+        "duration": 80,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Posture from Williams Guard Defender",
@@ -397,6 +408,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full-speed application with unrestricted opponent",
         "description": "Start in Williams Guard Bottom with shoulder lock established. Partner uses any escape method at full intensity. Work to maintain Williams Guard, counter escape attempts, and score sweeps or submissions. Three-minute rounds with position resets. Track retention rate and offensive conversion rate."
+      }
+    ],
+    "clips": [
+      {
+        "id": "NZEf9jXzCYA",
+        "title": "Williams guard cartwheel escape counter",
+        "by": "Sam Wilkinson",
+        "vertical": false,
+        "channel": "Sam Wilkinson MMA",
+        "duration": 80,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "M__MeC_XCIM",
+        "title": "Williams guard armbar counter",
+        "by": "Sam Wilkinson",
+        "vertical": false,
+        "channel": "Sam Wilkinson MMA",
+        "duration": 66,
+        "verified": "2026-07-15"
       }
     ]
   }

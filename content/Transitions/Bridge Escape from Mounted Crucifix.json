@@ -287,7 +287,36 @@
         "answer": "Accept mount bottom when your arm extraction succeeds but you cannot establish frames quickly enough to prevent the opponent from re-settling their weight. Mount bottom with free arms is significantly better than mounted crucifix — you regain all standard escape options including upa, elbow escape, and hip escape. Continuing to fight for half guard while the opponent re-establishes control risks returning to crucifix. Take the positional improvement and immediately begin standard mount escape sequences."
       }
     ],
-    "safety_considerations": "Bridge escapes from mounted crucifix involve explosive spinal extension under significant load from the opponent's body weight. Warm up the lower back and hips thoroughly before drilling this technique. During training, communicate clearly with your partner if you feel any neck compression or breathing restriction during the crucifix position. Tap immediately to any choke or joint lock threat — the mounted crucifix creates extremely fast submission finishes with minimal reaction time available. Partners maintaining the crucifix position should control their weight distribution and avoid dropping full weight suddenly onto the trapped practitioner's chest or face. Begin drilling at low intensity and gradually increase resistance across training sessions."
+    "safety_considerations": "Bridge escapes from mounted crucifix involve explosive spinal extension under significant load from the opponent's body weight. Warm up the lower back and hips thoroughly before drilling this technique. During training, communicate clearly with your partner if you feel any neck compression or breathing restriction during the crucifix position. Tap immediately to any choke or joint lock threat — the mounted crucifix creates extremely fast submission finishes with minimal reaction time available. Partners maintaining the crucifix position should control their weight distribution and avoid dropping full weight suddenly onto the trapped practitioner's chest or face. Begin drilling at low intensity and gradually increase resistance across training sessions.",
+    "clips": [
+      {
+        "id": "C7wr6klxbC8",
+        "title": "Crucifix escape breakdown",
+        "by": "Chosen Few BJJ",
+        "vertical": false,
+        "channel": "Chosen Few BJJ",
+        "duration": 89,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "41koUZWmeHE",
+        "title": "Escaping the mounted crucifix",
+        "by": "Shem Rock",
+        "vertical": false,
+        "channel": "Shem Rock ",
+        "duration": 146,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Wrg5Tx-88yM",
+        "title": "Simple crucifix escape",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 149,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Bridge Escape from Mounted Crucifix Defender",
@@ -408,6 +437,26 @@
         "phase": "Phase 4: Transition Decision-Making",
         "focus": "Choosing between crucifix retention and mount transition",
         "description": "Practice recognizing when crucifix control is compromised beyond recovery and smoothly transitioning to standard mount without hesitation. Develop the tactical judgment for when to fight for crucifix retention versus accepting mount as a strong fallback position. Include scenarios with partial arm extraction and compromised leg control."
+      }
+    ],
+    "clips": [
+      {
+        "id": "rh7TUm0ysww",
+        "title": "Crucifix: isolating the near arm with the top leg",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 151,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "4QlWJFhI7i8",
+        "title": "No-gi mounted crucifix control",
+        "by": "Esteem Jiujitsu HQ",
+        "vertical": false,
+        "channel": "Esteem Jiujitsu HQ",
+        "duration": 124,
+        "verified": "2026-07-15"
       }
     ]
   }

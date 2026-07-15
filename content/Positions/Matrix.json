@@ -366,6 +366,35 @@
           "nogi": 6
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "8DG2hn0xxMI",
+        "title": "Leg drag to rolling back take",
+        "by": "Grapple Box",
+        "vertical": false,
+        "channel": "Grapple Box llc",
+        "duration": 18,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "oijKoS9siS4",
+        "title": "Rolling back take from turtle",
+        "by": "JiuJitsu.com",
+        "vertical": false,
+        "channel": "JiuJitsu.com",
+        "duration": 41,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "W3JU6HAibZE",
+        "title": "Guard passing to rolling back take",
+        "by": "James O'Connor",
+        "vertical": false,
+        "channel": "James O’Connor",
+        "duration": 158,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -672,6 +701,35 @@
           "nogi": 8
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "DvD3VVl1kDk",
+        "title": "De La Riva wrist control matrix back take",
+        "by": "Luciana Marcos",
+        "vertical": false,
+        "channel": "luciana MARCOS",
+        "duration": 59,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "BWDsJPV7iPA",
+        "title": "The no-gi matrix back take",
+        "by": "LangakerBjj",
+        "vertical": false,
+        "channel": "LangakerBjj",
+        "duration": 96,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "H0SUb0Eo168",
+        "title": "Set up and finish the matrix",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ Plus",
+        "duration": 132,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -706,6 +764,35 @@
     {
       "question": "Why does the Matrix create a dilemma for the top player regardless of whether they defend the initial rotation?",
       "answer": "The rotation forces the top player into base and weight adjustments that inherently trade off against their other objectives. Widening the base and distributing weight laterally to resist the roll slows passing progression and can leave a limb or the neck momentarily exposed. Committing weight forward to flatten the roll instead invites secondary options like granby recoveries or guard pulls. Because the position couples the defender's stability to the attacker's momentum, any single-purpose response opens a counter, which is why the Matrix functions as a system-level threat rather than an isolated move."
+    }
+  ],
+  "clips": [
+    {
+      "id": "BWDsJPV7iPA",
+      "title": "The no-gi matrix back take",
+      "by": "LangakerBjj",
+      "vertical": false,
+      "channel": "LangakerBjj",
+      "duration": 96,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "lKoEMLwgwMc",
+      "title": "Matrix back take compilation",
+      "by": "FreeChannelOpen",
+      "vertical": false,
+      "channel": "FreeChannelOpen",
+      "duration": 67,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "uo8-ZJyba08",
+      "title": "B-Team matrix back take compilation",
+      "by": "FreeChannelOpen",
+      "vertical": false,
+      "channel": "FreeChannelOpen",
+      "duration": 63,
+      "verified": "2026-07-14"
     }
   ]
 }

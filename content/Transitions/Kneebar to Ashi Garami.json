@@ -275,7 +275,27 @@
         "answer": "The optimal window is when the opponent has established effective kneebar defense but has not yet begun their active escape sequence. Specifically, initiate when you feel their knee is fully bent against your extension pressure and their posture is consolidated, but before they start working to extract the leg or rotate away. This window typically occurs 5-8 seconds into a committed kneebar defense. Transitioning too early wastes a viable kneebar attempt that might have finished. Transitioning too late means fighting against an opponent already executing their escape plan, dramatically reducing success probability."
       }
     ],
-    "safety_considerations": "Kneebar to ashi-garami transitions involve significant knee joint vulnerability during the reconfiguration phase as forces shift from extension-based pressure to potential rotational threats. Maintain controlled, progressive movement throughout, never yanking or twisting the opponent's knee during the transition. Both practitioners must maintain tap awareness as the position changes: the attacker may inadvertently apply submission pressure during reconfiguration, and the opponent's knee is in a compromised position throughout. During training, communicate clearly with partners when practicing this transition to establish boundaries around heel hook exposure. Always release immediately upon tap or verbal submission. Drill at slow speed initially, increasing tempo only after both practitioners are comfortable with the control mechanics."
+    "safety_considerations": "Kneebar to ashi-garami transitions involve significant knee joint vulnerability during the reconfiguration phase as forces shift from extension-based pressure to potential rotational threats. Maintain controlled, progressive movement throughout, never yanking or twisting the opponent's knee during the transition. Both practitioners must maintain tap awareness as the position changes: the attacker may inadvertently apply submission pressure during reconfiguration, and the opponent's knee is in a compromised position throughout. During training, communicate clearly with partners when practicing this transition to establish boundaries around heel hook exposure. Always release immediately upon tap or verbal submission. Drill at slow speed initially, increasing tempo only after both practitioners are comfortable with the control mechanics.",
+    "clips": [
+      {
+        "id": "FfkVEt5YHbY",
+        "title": "Inside ashi garami leg attack",
+        "by": "Modesto Judo Club coach",
+        "vertical": false,
+        "channel": "Modesto Judo Club",
+        "duration": 59,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uB23Ogno7DM",
+        "title": "Half guard to kneebar",
+        "by": "CholoMMA coach",
+        "vertical": false,
+        "channel": "CholoMMA",
+        "duration": 24,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Kneebar to Ashi Garami Defender",
@@ -399,6 +419,35 @@
         "phase": "Phase 4: Full Resistance Positional Sparring",
         "focus": "Competitive defense against realistic transition attempts",
         "description": "Start from established kneebar control with attacker free to attempt the kneebar finish or transition to ashi-garami at will. Defender scores by escaping to guard, neutral, or standing. Attacker scores by finishing from kneebar or establishing ashi-garami and finishing from there. Full resistance, five-minute rounds. This develops realistic timing and conditioning for competition scenarios."
+      }
+    ],
+    "clips": [
+      {
+        "id": "CyLeFNjcq0A",
+        "title": "Back hug defense against the kneebar",
+        "by": "Valente Brothers",
+        "vertical": false,
+        "channel": "Valente BrothersTV",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MqtG9kuVt-Q",
+        "title": "Leg lock escape: roll through",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "f1oV7mGImQU",
+        "title": "Basic kneebar escape",
+        "by": "Scott Ryan Chiriboga",
+        "vertical": false,
+        "channel": "Scott Ryan Chiriboga",
+        "duration": 111,
+        "verified": "2026-07-15"
       }
     ]
   }

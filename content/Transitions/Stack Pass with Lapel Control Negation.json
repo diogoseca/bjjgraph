@@ -306,7 +306,18 @@
         "answer": "Controlling the opponent's far hip with your near hand is the single most critical action. Without this hip block, the opponent will turn into you and insert a knee shield or recover half guard within seconds, regardless of how cleanly you stripped the lapel. The hip control must be established before or simultaneously with the leg clearing motion, and it must be maintained continuously until you have settled crossface in side control. Every other action during the pass completion is secondary to this hip block."
       }
     ],
-    "safety_considerations": "The stack pass involves significant spinal compression on the bottom player as their hips are folded over their shoulders. Practitioners must be attentive to their training partner's flexibility limits and avoid driving excessive weight when the opponent is fully stacked. In drilling, communicate clearly and establish a tap signal for when the compression becomes uncomfortable, particularly for partners with cervical spine issues or limited spinal flexibility. The lapel stripping motion involves forceful grip breaking that can strain fingers if executed with excessive jerking force. Use smooth, progressive pressure when breaking grips rather than sudden yanking. The forward driving motion requires controlled deceleration if the opponent suddenly yields, as uncontrolled forward momentum can result in head-to-mat contact or neck strain for either player. Avoid this technique entirely on training partners who have known neck or cervical spine injuries."
+    "safety_considerations": "The stack pass involves significant spinal compression on the bottom player as their hips are folded over their shoulders. Practitioners must be attentive to their training partner's flexibility limits and avoid driving excessive weight when the opponent is fully stacked. In drilling, communicate clearly and establish a tap signal for when the compression becomes uncomfortable, particularly for partners with cervical spine issues or limited spinal flexibility. The lapel stripping motion involves forceful grip breaking that can strain fingers if executed with excessive jerking force. Use smooth, progressive pressure when breaking grips rather than sudden yanking. The forward driving motion requires controlled deceleration if the opponent suddenly yields, as uncontrolled forward momentum can result in head-to-mat contact or neck strain for either player. Avoid this technique entirely on training partners who have known neck or cervical spine injuries.",
+    "clips": [
+      {
+        "id": "2KcAEYsaHAg",
+        "title": "Stack pass breakdown",
+        "by": "Kenny Kim",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 88,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Stack Pass with Lapel Control Negation Defender",
@@ -436,6 +447,17 @@
         "phase": "Week 7-8",
         "focus": "Full resistance defense and guard recovery after grip loss",
         "description": "Partner applies the complete stack pass sequence with full resistance including the grip strip. Practice the entire defensive sequence from early recognition through framing, counter-offense, and guard recovery if the lapel grip is lost. Develop contingency plans for each phase of the pass. Include scenarios where the pass succeeds and you must recover from side control bottom to build complete defensive resilience."
+      }
+    ],
+    "clips": [
+      {
+        "id": "VX4RwqAyTH0",
+        "title": "Countering the double under stack",
+        "by": "Chosen Few BJJ",
+        "vertical": false,
+        "channel": "Chosen Few BJJ",
+        "duration": 231,
+        "verified": "2026-07-15"
       }
     ]
   },

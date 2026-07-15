@@ -341,6 +341,35 @@
         "answer": "The most common finishing error is squeezing with the arms rather than using chest compression and body positioning to generate pressure. Arm squeezing fatigues rapidly and produces a neck crank rather than a clean blood choke. The correction is to walk to the full perpendicular angle, drop your hip, seal with your head, and expand your ribcage while pulling elbows to centerline. Your body mechanics generate the choking force while your arms simply maintain the locked configuration.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "QGiT5mFu_Qo",
+        "title": "Head and Arm Choke Arm Triangle Variations",
+        "by": "War Room Jiu Jitsu",
+        "vertical": false,
+        "channel": "War Room Jiu Jitsu",
+        "duration": 122,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "wrZCRBlAB3Y",
+        "title": "Head and Arm Choke from Mount Finishing Details",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "Roger Gracie TV",
+        "duration": 265,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "hSo_Km-MOtQ",
+        "title": "Head and Arm Triangle from Closed Guard",
+        "by": "Professor Aaron",
+        "vertical": false,
+        "channel": "The Jiujitsu Project Foundation",
+        "duration": 91,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -476,6 +505,35 @@
         "phase": "Phase 4: Live defensive sparring",
         "focus": "Full-speed defense from Shoulder of Justice bottom",
         "description": "Partner starts in Shoulder of Justice top with full offensive options including the arm triangle transition. Defend all attacks with focus on far arm positioning awareness to prevent the arm triangle setup while still managing jaw pressure. 5-minute rounds, reset on escape or submission."
+      }
+    ],
+    "clips": [
+      {
+        "id": "D2vkZGTD78I",
+        "title": "The Fastest Escape Out of the Arm Triangle",
+        "by": "Adam Bradley",
+        "vertical": false,
+        "channel": "Adam Bradley",
+        "duration": 31,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "n_2zR6BaF8A",
+        "title": "The Best Arm-Triangle Escape",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 58,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Fx6qjR6a_xE",
+        "title": "3 Arm Triangle Choke Defenses",
+        "by": "MMA Leech",
+        "vertical": false,
+        "channel": "MMA Leech",
+        "duration": 274,
+        "verified": "2026-07-14"
       }
     ]
   }

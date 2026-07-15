@@ -276,5 +276,43 @@
       "name": "Ashi Garami",
       "relationship": "Parent position family encompassing the primary control positions for kneebar attacks"
     }
+  ],
+  "clips": [
+    {
+      "id": "-5BXaxHLsyo",
+      "title": "50/50 Spinning Kneebar",
+      "by": "Revolution BJJ",
+      "vertical": false,
+      "channel": "Revolution BJJ",
+      "duration": 97,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "4DMk3pavYFA",
+      "title": "50/50 Kneebar from Top",
+      "by": "Revolution BJJ",
+      "vertical": false,
+      "channel": "Revolution BJJ",
+      "duration": 126,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "hn5ts5EWZ1A",
+      "title": "Kneebar from Bottom 50/50",
+      "by": "Dr. Deng",
+      "vertical": false,
+      "channel": "Dr. Deng",
+      "duration": 17,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "v4lhLkKgVvU",
+      "title": "Go Behind Kneebar",
+      "by": "Craig Jones",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 129,
+      "verified": "2026-07-14"
+    }
   ]
 }

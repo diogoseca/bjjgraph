@@ -284,7 +284,36 @@
         "answer": "The ankle-behind-knee figure-four lock creates a self-tightening mechanism where pulling on the shin increases pressure exponentially through the entire kinetic chain. This configuration distributes force across a wider area of the opponent's neck, making it harder for them to create space. The locked position prevents the opponent from simply pushing your legs apart, as the structural integrity of the lock becomes stronger under pressure. Alternative configurations such as ankle-on-ankle or crossing at the shins lack this mechanical advantage and can be broken more easily through posturing or hand fighting."
       }
     ],
-    "safety_considerations": "When training triangle setups from closed guard, practitioners must be mindful of neck and spine safety for both participants. The person applying the triangle should never crank or jerk the opponent's head violently, as this can cause cervical spine injuries. Apply pressure gradually and release immediately upon tap signal. For the defender, avoid explosive stacking movements that could injure your training partner's neck or spine—controlled movement is essential. When practicing entries, beginners should focus on position rather than finishing pressure until proper mechanics are established. Partners should communicate clearly about pressure levels and tap early when learning the position. Instructors should emphasize that the triangle choke targets the carotid arteries, not the trachea, and should be applied with control rather than force. Never practice triangles on training partners with known neck injuries without explicit clearance from medical professionals."
+    "safety_considerations": "When training triangle setups from closed guard, practitioners must be mindful of neck and spine safety for both participants. The person applying the triangle should never crank or jerk the opponent's head violently, as this can cause cervical spine injuries. Apply pressure gradually and release immediately upon tap signal. For the defender, avoid explosive stacking movements that could injure your training partner's neck or spine—controlled movement is essential. When practicing entries, beginners should focus on position rather than finishing pressure until proper mechanics are established. Partners should communicate clearly about pressure levels and tap early when learning the position. Instructors should emphasize that the triangle choke targets the carotid arteries, not the trachea, and should be applied with control rather than force. Never practice triangles on training partners with known neck injuries without explicit clearance from medical professionals.",
+    "clips": [
+      {
+        "id": "8zbp7hnlWcc",
+        "title": "Closed guard triangle entry",
+        "by": "Clark Gracie",
+        "vertical": false,
+        "channel": "Clark Gracie Allegiance Jiu Jitsu",
+        "duration": 95,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QOWZKuEtXjc",
+        "title": "Triangle choke from closed guard",
+        "by": "Grappling Game Changer",
+        "vertical": false,
+        "channel": "GRAPPLING GAME CHANGER",
+        "duration": 89,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "N-wlZQRxFM8",
+        "title": "Triangle choke setup from guard",
+        "by": "Gokor Chivichyan",
+        "vertical": false,
+        "channel": "Gokor MMA",
+        "duration": 61,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Closed Guard to Triangle Defender",
@@ -414,6 +443,35 @@
         "phase": "Week 7-8: Live Defensive Sparring",
         "focus": "Applying triangle defense under full resistance",
         "description": "Positional sparring from closed guard where partner actively hunts for triangles while you practice the full defensive spectrum from early prevention through late-stage escape. Partner uses full resistance and chains attacks. Develop ability to recognize which stage you are in and select the appropriate defensive response in real time under pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "dJOw0ZEyXXc",
+        "title": "Posture up escape from the triangle choke",
+        "by": "Cosens MMA",
+        "vertical": false,
+        "channel": "Cosens MMA LLC",
+        "duration": 73,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "DAmqUAPPYTc",
+        "title": "Triangle escape driving the knee to the floor",
+        "by": "Kei Shin",
+        "vertical": false,
+        "channel": "Kei Shin",
+        "duration": 86,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "sR2rS2dwpNY",
+        "title": "How to escape a triangle choke",
+        "by": "Rener and Ryron Gracie",
+        "vertical": false,
+        "channel": "Hayabusa",
+        "duration": 117,
+        "verified": "2026-07-15"
       }
     ]
   },

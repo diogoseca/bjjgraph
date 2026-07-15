@@ -335,6 +335,26 @@
           "nogi": 7
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "DLmrzSs1hWI",
+        "title": "Triangle defense and escape",
+        "by": "Daniel Frank",
+        "vertical": false,
+        "channel": "Daniel Frank",
+        "duration": 24,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "51J5IsX_Ss4",
+        "title": "Closed guard triangle escape",
+        "by": "Vagabond-Ares BJJ",
+        "vertical": false,
+        "channel": "Vagabond-Ares BJJ",
+        "duration": 87,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -616,6 +636,26 @@
           "nogi": 10
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "L5MwbSqlUuA",
+        "title": "Finishing the triangle on the wrong side",
+        "by": "Lux",
+        "vertical": false,
+        "channel": "Lux’s jiu jitsu channel",
+        "duration": 27,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "M3_VDLm6PoE",
+        "title": "Finishing the triangle vs good posture",
+        "by": "Inverted Gear",
+        "vertical": false,
+        "channel": "Inverted Gear",
+        "duration": 142,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -650,6 +690,26 @@
     {
       "question": "Why is this position considered inherently unstable and time-sensitive for both roles?",
       "answer": "The closed leg loop demands high, continuous leg and grip effort from the finisher while the caught player's flexed posture restricts breathing, so neither role can sustain it comfortably. The finisher's control decays the moment posture is recovered and the leg is cleared, while the caught player's danger spikes as the angle is refined. Because the configuration steadily favors whichever player wins the angle-and-posture battle first, it resolves quickly rather than settling into a stable holding pattern. Both players are therefore racing a narrow window rather than waiting the other out."
+    }
+  ],
+  "clips": [
+    {
+      "id": "3aRpzqiIvgs",
+      "title": "Triangle setup with lapel",
+      "by": "Gracie Ohio",
+      "vertical": false,
+      "channel": "Gracie Ohio Jiu-Jitsu Academy",
+      "duration": 135,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "gQWXO_L0jbU",
+      "title": "Rolling triangle from the clamp",
+      "by": "John Danaher",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 223,
+      "verified": "2026-07-14"
     }
   ]
 }

@@ -280,7 +280,36 @@
         "answer": "The primary chain option is the Counter Leg Hook, which uses explosive movement to reach turtle instead of the methodical half guard recovery. If that is also blocked, chain to Deep Half Entry by threading underneath the top player's base. A third option is establishing Lockdown on the hooked leg to stall the pass and create a new set of offensive options. The key is never settling into a static Leg Hook Bottom after a failed escape attempt."
       }
     ],
-    "safety_considerations": "The Escape Leg Hook is a low-risk defensive technique with minimal injury potential. The primary safety concern is knee strain during leg extraction if the hook is deep and the bottom player yanks forcefully rather than creating space first. Always reduce hook depth through angling before attempting extraction. Avoid excessive lateral torque on the knee by extracting the leg along its natural range of motion. Communicate with training partners about hook pressure intensity to prevent cumulative joint stress during high-repetition drilling sessions."
+    "safety_considerations": "The Escape Leg Hook is a low-risk defensive technique with minimal injury potential. The primary safety concern is knee strain during leg extraction if the hook is deep and the bottom player yanks forcefully rather than creating space first. Always reduce hook depth through angling before attempting extraction. Avoid excessive lateral torque on the knee by extracting the leg along its natural range of motion. Communicate with training partners about hook pressure intensity to prevent cumulative joint stress during high-repetition drilling sessions.",
+    "clips": [
+      {
+        "id": "cyegyon5hVg",
+        "title": "Two Mount Escape Options to Half Guard",
+        "by": "Andrew Smith",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "6jTzVV7dV1Q",
+        "title": "Leg Hook Mount Escape to Half Guard",
+        "by": "Fuse Martial Arts",
+        "vertical": false,
+        "channel": "Fuse Martial Arts & Fitness",
+        "duration": 123,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "XLWkhrwmuGQ",
+        "title": "Three-Quarter Mount Escape to Heel Hook",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 40,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Escape Leg Hook Defender",

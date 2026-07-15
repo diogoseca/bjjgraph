@@ -367,6 +367,26 @@
           "nogi": 3
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "VbLlhI0aZC8",
+        "title": "How to do the gogoplata",
+        "by": "jamielovesmartialarts",
+        "vertical": false,
+        "channel": "jamielovesmartialarts",
+        "duration": 68,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "PqAJraYllQI",
+        "title": "Gogoplata variations from a high guard",
+        "by": "SpringHill BJJ",
+        "vertical": false,
+        "channel": "SpringHillBjj",
+        "duration": 88,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -638,6 +658,26 @@
           "nogi": 21
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "4Opp0j7UmlU",
+        "title": "Gogoplata from guard",
+        "by": "Kinesiology College",
+        "vertical": false,
+        "channel": "Kinesiology College",
+        "duration": 21,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "uOW0otO9MPI",
+        "title": "Gogo clinch submission (10th Planet)",
+        "by": "Jeremiah Vance",
+        "vertical": false,
+        "channel": "Jeremiah Vance",
+        "duration": 57,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -672,6 +712,26 @@
     {
       "question": "What role does control of the opponent's head and posture play in preventing this position from unraveling?",
       "answer": "The loop only holds if the opponent's head stays trapped inside the shin-and-foot configuration, so the bottom player uses the hands to pull the foot deeper behind the head and keep the skull captured. If the opponent can extend and repost their head backward, the shin loses its downward angle and the foot hook loosens, letting the whole system slide apart. Breaking the opponent's posture forward is what originally allowed the leg to thread across in the first place, and maintaining that broken posture is what sustains it. Head control is thus the connective tissue linking the shin angle, the foot hook, and the elevated hips into one functioning unit."
+    }
+  ],
+  "clips": [
+    {
+      "id": "X73jEbuUaxQ",
+      "title": "7 submissions from rubber guard",
+      "by": "Felipe Cavalcante",
+      "vertical": false,
+      "channel": "Felipe Cavalcante BJJ",
+      "duration": 51,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "h1XzZDsUxHQ",
+      "title": "Eddie Bravo explains rubber guard",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "JAN FERNANDEZ ",
+      "duration": 111,
+      "verified": "2026-07-14"
     }
   ]
 }

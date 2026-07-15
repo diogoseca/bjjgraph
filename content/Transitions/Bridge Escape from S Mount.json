@@ -301,7 +301,27 @@
         "answer": "As soon as you feel the opponent scrambling to recover mount, accelerate your hip escape and get your near knee across their hip line as a barrier. This knee shield prevents them from settling their hips back onto your torso. Frame against their chest with both arms to maintain distance while threading your far leg around their waist. If they are persistent, use the knee shield to create enough space to insert butterfly hooks rather than closed guard, as butterfly guard provides immediate sweep threats that discourage them from pressing forward into mount."
       }
     ],
-    "safety_considerations": "Bridge escapes from S Mount carry inherent risk of accelerating arm submission if timing or arm protection fails. Never attempt to bridge with a straightened or partially extended arm, as the bridge movement can provide the opponent with the force needed to complete the armbar. If your arm becomes fully extended during any phase of the escape, tap immediately rather than continuing the bridge movement, which would increase hyperextension force on the elbow joint. Train this escape with progressive resistance, beginning at low intensity to develop proper arm protection habits before adding explosive bridge mechanics. Communicate clearly with training partners about submission thresholds."
+    "safety_considerations": "Bridge escapes from S Mount carry inherent risk of accelerating arm submission if timing or arm protection fails. Never attempt to bridge with a straightened or partially extended arm, as the bridge movement can provide the opponent with the force needed to complete the armbar. If your arm becomes fully extended during any phase of the escape, tap immediately rather than continuing the bridge movement, which would increase hyperextension force on the elbow joint. Train this escape with progressive resistance, beginning at low intensity to develop proper arm protection habits before adding explosive bridge mechanics. Communicate clearly with training partners about submission thresholds.",
+    "clips": [
+      {
+        "id": "dKsWGZXo3Zw",
+        "title": "Escaping the modified/S mount",
+        "by": "Fenrir Jiu-Jitsu Academy",
+        "vertical": false,
+        "channel": "Fenrir Jiu-Jitsu Academy",
+        "duration": 133,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2uuP147GoBk",
+        "title": "Mount bottom bridge and roll escape",
+        "by": "Academy Jiu Jitsu",
+        "vertical": false,
+        "channel": "Academy Jiu Jitsu",
+        "duration": 62,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Bridge Escape from S Mount Defender",
@@ -423,6 +443,35 @@
         "phase": "Phase 4: Full Positional Sparring",
         "focus": "Maintaining S Mount and finishing submissions against all escape attempts",
         "description": "Live positional sparring starting in S Mount with full resistance. Maintain control and finish submissions while opponent uses bridge, frame-and-shrimp, and trap-and-roll escapes. Develop automatic defensive responses and capitalize on escape attempts to accelerate submission completion."
+      }
+    ],
+    "clips": [
+      {
+        "id": "FSbR22OOSaE",
+        "title": "S-mount basics and control",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 72,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_jeIL_n2UcY",
+        "title": "Maintaining mount by swimming through the arms",
+        "by": "Gracie Charlottesville",
+        "vertical": false,
+        "channel": "Gracie Charlottesville",
+        "duration": 41,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2zSi7RlFJEU",
+        "title": "Armbar from S-mount",
+        "by": "Fenrir Jiu-Jitsu Academy",
+        "vertical": false,
+        "channel": "Fenrir Jiu-Jitsu Academy",
+        "duration": 78,
+        "verified": "2026-07-15"
       }
     ]
   }

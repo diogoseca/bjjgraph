@@ -376,6 +376,26 @@
         "answer": "In competition, you may apply faster initial control and positioning to prevent defensive reactions, but the final rotational pressure should still be progressive to allow your opponent opportunity to tap. Competition finishing focuses on rapid grip establishment and angle creation (within 2-3 seconds) followed by controlled but determined pressure application. Key differences include: accepting that opponent will fight harder requiring stronger grip control, being prepared to transition immediately if they defend rather than forcing, and understanding that referees will stop the match if tap is not given but injury appears imminent. Even in competition, sudden jerking application is unnecessary and dangerous - controlled pressure with committed intent achieves the finish while maintaining safety standards.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "KAxTmcxGc60",
+        "title": "Kimura from Guard",
+        "by": "Gracie Charlottesville",
+        "vertical": false,
+        "channel": "Gracie Charlottesville",
+        "duration": 36,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Y1ubVWKdbXU",
+        "title": "The Perfect Kimura (Gracie Breakdown)",
+        "by": "Gracie Breakdown",
+        "vertical": false,
+        "channel": "GracieBreakdown",
+        "duration": 30,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -518,6 +538,35 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Full-speed defense against complete Kimura attack system",
         "description": "Positional sparring from closed guard top against partner hunting Kimura and all its transitions (sweep, back take, triangle). 3-minute rounds at full intensity. Develop the ability to defend the complete Kimura trap system rather than individual techniques. Score for grip breaks and posture recovery. Reset after submission, sweep, or back take."
+      }
+    ],
+    "clips": [
+      {
+        "id": "a6vbWASwse8",
+        "title": "Kimura Defense from Guard",
+        "by": "Jiu-Jitsu Channel",
+        "vertical": false,
+        "channel": "Jiu-Jitsu Channel",
+        "duration": 67,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "TuaopPUakM8",
+        "title": "Defending the Kimura",
+        "by": "Eddie Kone",
+        "vertical": false,
+        "channel": "Eddie Kone Academy Of Jiu-Jitsu",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "TIOgQ3N2a6Y",
+        "title": "How to Escape the Kimura Armlock",
+        "by": "Eddie Kone",
+        "vertical": false,
+        "channel": "Eddie Kone Academy Of Jiu-Jitsu",
+        "duration": 45,
+        "verified": "2026-07-14"
       }
     ]
   },

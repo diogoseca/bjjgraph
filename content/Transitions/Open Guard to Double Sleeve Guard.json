@@ -281,7 +281,36 @@
         "answer": "Maintain your sleeve grips and immediately transition your foot placement. If a scissor sweep was blocked, redirect to a pendulum sweep in the opposite direction using the opponent's recovery momentum. If they posture strongly with both arms pulled back, their backward weight distribution creates an opportunity for a sit-up guard transition or technical stand-up. Alternatively, convert one sleeve grip to a lasso or spider configuration to enter a different guard system that exploits the angle their recovery created."
       }
     ],
-    "safety_considerations": "This transition involves sustained grip fighting which can cause finger and forearm injuries over time. Use proper pistol grip technique to distribute load across all fingers rather than relying on fingertip grips. Release grips immediately if you feel sharp pain in finger joints or tendons. Avoid forcing grip acquisition against explosive resistance that could hyperextend your fingers. Tape fingers prophylactically if you train this position frequently. Communicate with training partners about grip intensity during drilling to prevent accidental joint injuries."
+    "safety_considerations": "This transition involves sustained grip fighting which can cause finger and forearm injuries over time. Use proper pistol grip technique to distribute load across all fingers rather than relying on fingertip grips. Release grips immediately if you feel sharp pain in finger joints or tendons. Avoid forcing grip acquisition against explosive resistance that could hyperextend your fingers. Tape fingers prophylactically if you train this position frequently. Communicate with training partners about grip intensity during drilling to prevent accidental joint injuries.",
+    "clips": [
+      {
+        "id": "_PmAwfEXEss",
+        "title": "Closed guard double sleeve sweep",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 102,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "nnE8rPGGIto",
+        "title": "2-on-1 sleeve grip attacks",
+        "by": "Kenneth Brown",
+        "vertical": false,
+        "channel": "Kenneth Brown",
+        "duration": 111,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "7xYsEyYxF_U",
+        "title": "Butterfly guard double sleeve hook flip",
+        "by": "Carlos Machado",
+        "vertical": false,
+        "channel": "Carlos Machado",
+        "duration": 105,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Open Guard to Double Sleeve Guard Defender",
@@ -396,6 +425,35 @@
         "phase": "Phase 3: Passing Integration",
         "focus": "Connecting grip defense directly to passing sequences",
         "description": "Positional sparring from open guard where top player must prevent double sleeve establishment and convert directly to passing. Partner attempts full double sleeve transition with 80-100% resistance. Top player chains grip prevention and breaks into toreando, knee slice, or pressure passing."
+      }
+    ],
+    "clips": [
+      {
+        "id": "hxEbI6aP5nY",
+        "title": "Defensive gripping vs double sleeve grip",
+        "by": "Ronda Rousey",
+        "vertical": false,
+        "channel": "Ronda Rousey",
+        "duration": 90,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "5dwCJOzItDE",
+        "title": "Breaking double lapel grips",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 56,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "N4M0VWhDkMA",
+        "title": "Two ways to pass the collar and sleeve",
+        "by": "Carpio Jiu Jitsu",
+        "vertical": false,
+        "channel": "Carpio Jiu Jitsu",
+        "duration": 103,
+        "verified": "2026-07-15"
       }
     ]
   }

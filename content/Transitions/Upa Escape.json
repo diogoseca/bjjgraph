@@ -317,7 +317,36 @@
         "answer": "Any gap between your chest and your opponent's chest during the roll is a critical failure point that signals they are attempting to disengage and either post a hand to arrest the reversal or switch their hips to begin taking your back. You must immediately tighten the arm trap by squeezing your elbow against your ribcage and pulling their trapped arm deeper across your chest. Simultaneously accelerate the roll rather than slowing down — the rotational momentum is your primary weapon and losing speed allows them to establish defensive positioning. If the gap has already widened enough that you feel them beginning to rotate their hips independently, abandon the upa immediately and turn into them rather than completing a roll that will deliver you into their back control. Prevention is always preferable: maintain chest contact from the first moment of the bridge by keeping your arm trap extremely tight throughout."
       }
     ],
-    "safety_considerations": "The upa escape is among the safest fundamental techniques in BJJ when practiced properly, but several precautions ensure injury-free training. Execute the bridge with explosive power but controlled direction — wild, uncontrolled bridging can cause both practitioners to land awkwardly, risking shoulder, neck, or wrist injuries from unexpected impact angles. Partners defending should avoid posting rigidly with locked elbows, as the rotational force of the bridge can hyperextend the elbow joint against a locked arm structure. Beginners should practice on padded mats and start with cooperative drilling at low intensity before adding resistance. When completing the roll, maintain tight body connection to prevent the training partner from free-falling onto their head or neck. For the person being rolled, learn to tuck the chin and roll with the movement rather than resisting rigidly, which reduces neck compression risk. Practitioners with lower back issues should engage core muscles throughout the bridge to protect the lumbar spine from hyperextension, and those with cervical spine issues should modify the head turn component to avoid aggravating existing conditions."
+    "safety_considerations": "The upa escape is among the safest fundamental techniques in BJJ when practiced properly, but several precautions ensure injury-free training. Execute the bridge with explosive power but controlled direction — wild, uncontrolled bridging can cause both practitioners to land awkwardly, risking shoulder, neck, or wrist injuries from unexpected impact angles. Partners defending should avoid posting rigidly with locked elbows, as the rotational force of the bridge can hyperextend the elbow joint against a locked arm structure. Beginners should practice on padded mats and start with cooperative drilling at low intensity before adding resistance. When completing the roll, maintain tight body connection to prevent the training partner from free-falling onto their head or neck. For the person being rolled, learn to tuck the chin and roll with the movement rather than resisting rigidly, which reduces neck compression risk. Practitioners with lower back issues should engage core muscles throughout the bridge to protect the lumbar spine from hyperextension, and those with cervical spine issues should modify the head turn component to avoid aggravating existing conditions.",
+    "clips": [
+      {
+        "id": "dPZco4xC4vQ",
+        "title": "Upa escape from mount",
+        "by": "CVL BJJ",
+        "vertical": false,
+        "channel": "CVL BJJ",
+        "duration": 69,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Ye08X4xjiUk",
+        "title": "Mount escape: the upa bridge and roll",
+        "by": "Team Daruma Dojo",
+        "vertical": false,
+        "channel": "Team Daruma Dojo",
+        "duration": 38,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "wzvR9SuLrlE",
+        "title": "Bridge escape from bottom mount",
+        "by": "Gracie Barra Burton",
+        "vertical": false,
+        "channel": "Gracie Barra Burton Michigan ",
+        "duration": 75,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Upa Escape Defender",
@@ -446,6 +475,17 @@
         "phase": "Phase 4: Live Mount Maintenance with Escape Chains (Week 6+)",
         "focus": "Maintain mount against partners chaining upa with elbow escape and hip escape at full resistance",
         "description": "Positional sparring starting from mount with partner attempting all escape combinations at full intensity. Practice dynamic base management — adjusting weight distribution and posting positions in response to shifting escape threats. Track mount retention time and identify which escape chain gives you the most difficulty for targeted improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "2uuP147GoBk",
+        "title": "Countering the bridge and roll mount escape",
+        "by": "Academy Jiu Jitsu",
+        "vertical": false,
+        "channel": "Academy Jiu Jitsu",
+        "duration": 62,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -299,7 +299,36 @@
         "answer": "When the opponent turns to turtle, maintain your under-hook grip as it naturally transitions into a seat belt or waist control position. Follow their rotation closely without allowing space between your chest and their back. Your primary chain attack is a back take by inserting hooks as they complete their turn to turtle. Alternatively, if they turtle tightly with elbows in, transition to a front headlock by circling to their head side, which opens Darce choke, Anaconda choke, or guillotine entries. The turtle response is often a better outcome than completing the pass since back control scores 4 points versus 3 for the pass."
       }
     ],
-    "safety_considerations": "Practice the Over-Under Pass with controlled application, especially regarding stacking pressure on your partner's neck and spine. Excessive stacking can cause neck strain or cervical spine issues, so build intensity gradually and communicate with your training partner. Ensure adequate mat space for the technique as the stacking and circulation movements require room. When applying pressure, be mindful of your partner's flexibility limitations - some individuals cannot safely be stacked to extreme angles. If your partner taps or shows discomfort, release pressure immediately. For the person being passed, learn to recognize when the pass is inevitable and accept the position transition rather than forcing defensive movements that could cause injury. As the passer, keep your weight distributed properly to avoid dropping all your weight onto their chest or face. The technique should feel like heavy, controlled pressure, not explosive force."
+    "safety_considerations": "Practice the Over-Under Pass with controlled application, especially regarding stacking pressure on your partner's neck and spine. Excessive stacking can cause neck strain or cervical spine issues, so build intensity gradually and communicate with your training partner. Ensure adequate mat space for the technique as the stacking and circulation movements require room. When applying pressure, be mindful of your partner's flexibility limitations - some individuals cannot safely be stacked to extreme angles. If your partner taps or shows discomfort, release pressure immediately. For the person being passed, learn to recognize when the pass is inevitable and accept the position transition rather than forcing defensive movements that could cause injury. As the passer, keep your weight distributed properly to avoid dropping all your weight onto their chest or face. The technique should feel like heavy, controlled pressure, not explosive force.",
+    "clips": [
+      {
+        "id": "mk4c5t8Eqd0",
+        "title": "Over Under Pass to Kneebar",
+        "by": "Owen Livesey",
+        "vertical": false,
+        "channel": "ABEL BJJ: 5 Minutes Alone",
+        "duration": 79,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MvsgiCFdQPA",
+        "title": "Passing Knee Shield from Over Under Position",
+        "by": "Paragon Jiu-Jitsu Austin",
+        "vertical": false,
+        "channel": "Paragon Jiu-Jitsu Academy Austin",
+        "duration": 116,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ehau6wbheEU",
+        "title": "Over Under Pass from opponent pulling guard",
+        "by": "Bernardo Faria",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 193,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Over-Under Pass Defender",
@@ -429,6 +458,26 @@
         "phase": "Week 9-12: Live Defense and Counter-Attacking",
         "focus": "Defending the Over-Under Pass in positional sparring with full resistance",
         "description": "Positional sparring starting in half guard where the top player is specifically attempting Over-Under Pass. Practice integrating defense with offensive counters including sweeps during the stacking transition and back takes when the passer overcommits to circulation. Develop timing for when to defend versus when to counter-attack."
+      }
+    ],
+    "clips": [
+      {
+        "id": "RonrS17I1mA",
+        "title": "Early Double Under and Over Under Pass Defense",
+        "by": "Cal McDonald",
+        "vertical": false,
+        "channel": "Cal McDonald",
+        "duration": 141,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lVLAROiSjNU",
+        "title": "Guard Retention: When To Sit Up Escape",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 136,
+        "verified": "2026-07-15"
       }
     ]
   },

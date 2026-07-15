@@ -330,6 +330,35 @@
         "answer": "First, immediately release the collar grip and stop all pulling pressure. Second, release the pant grip and retract your legs from extension simultaneously. Allow your opponent's head and neck to return to a neutral position without forcing any movement. Check that your opponent is conscious and responsive. If they lost consciousness, place them on their back, elevate their legs, and monitor breathing until they recover fully. Never release the choke by suddenly dropping all control, as this can cause the opponent to fall awkwardly.",
         "safety_critical": true
       }
+    ],
+    "clips": [
+      {
+        "id": "TDBe1SHzHKo",
+        "title": "Finishing the cross collar choke",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 51,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "xab75xOnHqk",
+        "title": "Bread cutter choke, Roger Gracie style",
+        "by": "Andy Hagans",
+        "vertical": false,
+        "channel": "Guardian Jiu-Jitsu - Holland, Michigan",
+        "duration": 70,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "KE4ulYBSmjY",
+        "title": "Cross collar choke — first hand inside",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 55,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -460,6 +489,26 @@
         "phase": "Phase 4: Full Resistance Defense",
         "focus": "Complete defensive sequences against committed attacks",
         "description": "Positional sparring from invisible collar with full resistance. Defender must survive or escape within 90 seconds. Partner uses the complete back attack system including bow and arrow as one option. Develops the ability to defend the bow and arrow within the context of a dynamic submission chain rather than in isolation."
+      }
+    ],
+    "clips": [
+      {
+        "id": "6rMCDkWRlgg",
+        "title": "Cross collar choke defense — down and over",
+        "by": "Emil Takeuchi",
+        "vertical": false,
+        "channel": "Six Blades NOVA Emil Takeuchi",
+        "duration": 94,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "kkAVJ3u7THM",
+        "title": "Back collar choke escape",
+        "by": "Beto Vilanova",
+        "vertical": false,
+        "channel": "Beto Vilanova",
+        "duration": 166,
+        "verified": "2026-07-14"
       }
     ]
   }

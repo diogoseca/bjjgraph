@@ -263,7 +263,36 @@
         "answer": "This depends on how much of the hook remains and whether you have the underhook secured. If you have a deep underhook and your hook is only partially cleared, continue rising aggressively because your underhook provides alternative control. If you lack the underhook and the hook is being cleared, abort immediately by flattening back down and re-establishing frames. Continuing up without either control point means you arrive in dogfight with no advantage and high risk of back exposure or immediate pass."
       }
     ],
-    "safety_considerations": "The dogfight transition is generally low-risk but requires attention to neck safety and shoulder integrity. Avoid explosive entries when your neck is compromised by crossface pressure, as forcing the rise can strain cervical vertebrae. The underhook battle can stress the shoulder joint—tap immediately if you feel shoulder pain from whizzer pressure or arm drag attempts. When drilling, ensure partners understand to release whizzer pressure if you signal discomfort. Beginners should practice at slow speeds before adding resistance, and should not attempt the technique in live sparring until the mechanics are ingrained. The transition involves significant load on the posting arm, so practitioners with elbow or wrist issues should modify the technique or avoid it entirely."
+    "safety_considerations": "The dogfight transition is generally low-risk but requires attention to neck safety and shoulder integrity. Avoid explosive entries when your neck is compromised by crossface pressure, as forcing the rise can strain cervical vertebrae. The underhook battle can stress the shoulder joint—tap immediately if you feel shoulder pain from whizzer pressure or arm drag attempts. When drilling, ensure partners understand to release whizzer pressure if you signal discomfort. Beginners should practice at slow speeds before adding resistance, and should not attempt the technique in live sparring until the mechanics are ingrained. The transition involves significant load on the posting arm, so practitioners with elbow or wrist issues should modify the technique or avoid it entirely.",
+    "clips": [
+      {
+        "id": "InGMvIP5tqg",
+        "title": "Three submissions from the dogfight",
+        "by": "Geo Martinez",
+        "vertical": true,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "1i6UncmMfOs",
+        "title": "Cat-dog position breakdown",
+        "by": "Absolute MMA St Kilda",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 78,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "K7U2uBUfq-c",
+        "title": "Knee shield to underhook to dogfight knee tap",
+        "by": "Kaboom Brazilian Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Kaboom Brazilian Jiu-Jitsu",
+        "duration": 129,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Dogfight Position Defender",
@@ -386,6 +415,17 @@
         "phase": "Week 7+",
         "focus": "Full resistance positional sparring",
         "description": "Live rounds starting in leg weave. Top player works to either prevent the dogfight entry or capitalize on it by completing the pass or taking back. Bottom player works all escape options. Track which defensive responses succeed and which fail to identify areas for improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "81_Ayv0Auro",
+        "title": "Dogfight defense: limp leg and sprawl",
+        "by": "Corey McWilliams",
+        "vertical": false,
+        "channel": "Corey McWilliams",
+        "duration": 281,
+        "verified": "2026-07-15"
       }
     ]
   },

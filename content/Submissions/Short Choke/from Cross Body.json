@@ -476,6 +476,26 @@
         "focus": "Full resistance defense in positional sparring",
         "description": "Defend the Short Choke under full competition-intensity resistance starting from cross body ride. Partner attacks with full commitment while you apply all defensive layers. Score escapes and successful defenses, building confidence and timing under realistic pressure conditions."
       }
+    ],
+    "clips": [
+      {
+        "id": "bDZntPrcLpg",
+        "title": "Escaping Back Control - Turtle Escape",
+        "by": "BJJ101",
+        "vertical": false,
+        "channel": "BJJ101",
+        "duration": 37,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "XPWHqs67tt8",
+        "title": "Turtle Escape - Front Turtle",
+        "by": "Michael Daye",
+        "vertical": false,
+        "channel": "Michael Daye Landscaping and BJJ",
+        "duration": 60,
+        "verified": "2026-07-14"
+      }
     ]
   }
 }

@@ -290,7 +290,27 @@
         "answer": "This transition leverages the grip advantage already established in collar sleeve guard to arrive in DLR with superior control compared to establishing DLR from scratch. Starting in collar sleeve means you already control the opponent's posture and one arm, so the DLR you arrive in has pre-existing upper body control that a fresh DLR entry would need to fight for. This makes your initial DLR attacks higher percentage because the opponent is already partially off-balanced from your collar sleeve control rather than having had time to establish their preferred defensive posture."
       }
     ],
-    "safety_considerations": "This transition involves low injury risk as it is a positional guard switch rather than a submission or high-impact technique. However, care should be taken when threading the hooking leg to avoid catching the foot in the opponent's gi or belt, which could cause ankle or knee strain during dynamic movement. If the opponent aggressively backsteps while your hook is partially inserted, release the hook rather than holding on with a compromised angle, as the lateral force on a hooked knee with body weight can stress the medial collateral ligament. During drilling, both partners should communicate if the hook creates uncomfortable pressure behind the knee."
+    "safety_considerations": "This transition involves low injury risk as it is a positional guard switch rather than a submission or high-impact technique. However, care should be taken when threading the hooking leg to avoid catching the foot in the opponent's gi or belt, which could cause ankle or knee strain during dynamic movement. If the opponent aggressively backsteps while your hook is partially inserted, release the hook rather than holding on with a compromised angle, as the lateral force on a hooked knee with body weight can stress the medial collateral ligament. During drilling, both partners should communicate if the hook creates uncomfortable pressure behind the knee.",
+    "clips": [
+      {
+        "id": "uyW7SqD63SQ",
+        "title": "Collar sleeve to deep De La Riva crab ride",
+        "by": "Luciana Marcos",
+        "vertical": false,
+        "channel": "luciana MARCOS",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "bGhNA5ZuTnQ",
+        "title": "Collar sleeve into reverse De La Riva hook",
+        "by": "Elite Team Monterey",
+        "vertical": false,
+        "channel": "ELITE TEAM MONTEREY",
+        "duration": 64,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Collar Sleeve to De La Riva Defender",
@@ -407,6 +427,35 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Full speed prevention and adaptation under live conditions",
         "description": "Positional sparring starting in collar sleeve guard with the objective of preventing the DLR transition. Partner uses full speed and deception to initiate the transition. If prevention fails, immediately implement DLR-specific passing strategies. Develops the complete defensive response under realistic conditions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "6td9ZiochpY",
+        "title": "Counter to deep De La Riva with long step",
+        "by": "Carpio Jiu Jitsu",
+        "vertical": false,
+        "channel": "Carpio Jiu Jitsu",
+        "duration": 80,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "bdD496w3erA",
+        "title": "De La Riva counter into back take",
+        "by": "Vicente Cavalcanti",
+        "vertical": false,
+        "channel": "VICENTE CAVALCANTI",
+        "duration": 56,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "S5IKZijyNMc",
+        "title": "Guard pass to shut down De La Riva",
+        "by": "Augusto Frota",
+        "vertical": false,
+        "channel": "Gile23",
+        "duration": 51,
+        "verified": "2026-07-15"
       }
     ]
   }

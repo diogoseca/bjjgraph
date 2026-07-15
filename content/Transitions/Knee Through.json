@@ -288,7 +288,27 @@
         "answer": "Three primary force vectors work together in the Knee Through. First, downward shoulder pressure through the crossface pins the opponent's upper body and prevents them from sitting up or turning. Second, forward hip drive pushes your knee through the guard in a straight line toward the far side mat. Third, lateral crossface pressure drives the opponent's head away from the passing direction, making it difficult for them to face you and establish defensive frames. These three vectors converge to create a compound pressure that the bottom player cannot address simultaneously, as defending one vector exposes them to the other two."
       }
     ],
-    "safety_considerations": "The Knee Through pass is a relatively safe technique for both practitioners when performed correctly. The primary safety concern is excessive crossface pressure on the opponent's neck and jaw, which should be firm but controlled to avoid cervical strain. Avoid driving the crossface upward into the throat, keeping pressure lateral across the face instead. When extracting your leg, be mindful not to drag your shin forcefully across the opponent's thigh or knee, which can cause bruising or ligament stress. If the pass is not working after two or three attempts, reset rather than forcing movement, as forcing can lead to awkward leg positions where knee injuries occur. Practitioners with existing knee injuries should communicate with their partner about controlling the extraction phase."
+    "safety_considerations": "The Knee Through pass is a relatively safe technique for both practitioners when performed correctly. The primary safety concern is excessive crossface pressure on the opponent's neck and jaw, which should be firm but controlled to avoid cervical strain. Avoid driving the crossface upward into the throat, keeping pressure lateral across the face instead. When extracting your leg, be mindful not to drag your shin forcefully across the opponent's thigh or knee, which can cause bruising or ligament stress. If the pass is not working after two or three attempts, reset rather than forcing movement, as forcing can lead to awkward leg positions where knee injuries occur. Practitioners with existing knee injuries should communicate with their partner about controlling the extraction phase.",
+    "clips": [
+      {
+        "id": "v1-B4vyiASU",
+        "title": "No-gi shin-to-shin pass with details",
+        "by": "The Base Jiu Jitsu coach",
+        "vertical": false,
+        "channel": "The Base Jiu Jitsu",
+        "duration": 59,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "rRCor6OwhCo",
+        "title": "No-gi shin-to-shin pass variation",
+        "by": "The Base Jiu Jitsu coach",
+        "vertical": false,
+        "channel": "The Base Jiu Jitsu",
+        "duration": 136,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Knee Through Defender",
@@ -418,6 +438,17 @@
         "phase": "Phase 4: Positional Sparring with Specific Starts (Weeks 6+)",
         "focus": "Live defense against committed Knee Through attempts",
         "description": "Start in half guard bottom against a partner who specifically hunts the Knee Through pass at full intensity. Work all defensive options including sweeps and guard recovery under live conditions. Track success rate and identify which defensive options work best against different body types and passing styles."
+      }
+    ],
+    "clips": [
+      {
+        "id": "RvIIpXaPyJM",
+        "title": "Basic knee slide recovery",
+        "by": "Vision BJJ coach",
+        "vertical": false,
+        "channel": "Vision Brazilian Jiu Jitsu",
+        "duration": 96,
+        "verified": "2026-07-15"
       }
     ]
   },

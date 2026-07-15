@@ -284,7 +284,27 @@
         "answer": "Redirect to saddle when your inside leg has deep control on the opponent's thigh but your outside leg has been partially cleared, when the opponent successfully prevents heel exposure from ushiro through persistent hand fighting, or when their continued rotation makes the ushiro angle progressively worse for finishing. The inside leg depth is the key indicator: if it is controlling above the knee with strong pressure, saddle entry becomes mechanically available and often higher-percentage than forcing the ushiro finish."
       }
     ],
-    "safety_considerations": "Ushiro Ashi-Garami involves heel hook positions that carry significant knee ligament injury risk, particularly to the MCL and ACL. Always apply rotational pressure slowly and progressively during training. The transitional phase between inside ashi and ushiro can create sudden angle changes on the knee joint that the trapped person may not anticipate. Communicate clearly with training partners throughout the transition. Never crank through resistance. If the opponent taps during any phase of the rotation, release immediately and check for injury. Train this transition under qualified instruction with experienced partners who understand leg lock mechanics and proper tap timing."
+    "safety_considerations": "Ushiro Ashi-Garami involves heel hook positions that carry significant knee ligament injury risk, particularly to the MCL and ACL. Always apply rotational pressure slowly and progressively during training. The transitional phase between inside ashi and ushiro can create sudden angle changes on the knee joint that the trapped person may not anticipate. Communicate clearly with training partners throughout the transition. Never crank through resistance. If the opponent taps during any phase of the rotation, release immediately and check for injury. Train this transition under qualified instruction with experienced partners who understand leg lock mechanics and proper tap timing.",
+    "clips": [
+      {
+        "id": "lTsK9C_a6po",
+        "title": "V grip from top ushiro transition",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 140,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "WvUalQ3yOpY",
+        "title": "Outside ashi garami leg lock series",
+        "by": "10th Planet Torrance",
+        "vertical": false,
+        "channel": "10th Planet Jiu Jitsu: Torrance",
+        "duration": 73,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Inside Ashi-Garami to Ushiro Ashi Defender",
@@ -408,6 +428,17 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance defense integration",
         "description": "Begin in inside ashi-garami with partner at full resistance attacking and following. Practice the complete defensive decision tree including rotation escape, direction reversal, standing, and grip stripping. Track which defensive options are most successful against each partner. Integrate into full leg lock sparring rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "AQbJMBiWYfU",
+        "title": "Escaping ashi garami — leg lock defense",
+        "by": "Scott Elliott",
+        "vertical": false,
+        "channel": "Coach Scott Elliott",
+        "duration": 141,
+        "verified": "2026-07-15"
       }
     ]
   }

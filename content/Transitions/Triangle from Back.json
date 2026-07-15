@@ -272,7 +272,36 @@
         "answer": "Five conditions must be met: (1) secure harness grip with chest-to-back connection, (2) at least one hook inserted for lower body control, (3) opponent committed to two-handed choke defense creating the shoulder opening, (4) control of the far-side arm to prevent blocking, and (5) sufficient space above the shoulder for the leg to thread through. Attempting without these conditions leads to failed entries where you lose hooks, give up back control, or get stuck mid-transition in a compromised position."
       }
     ],
-    "safety_considerations": "The Triangle from Back involves significant neck compression and cervical spine stress on the bottom player once the rear triangle is locked. Training partners must tap early when the triangle tightens around the neck, as the choking pressure from a rear triangle can cause unconsciousness rapidly due to bilateral carotid compression. The threading motion can also strain the top player's hip flexors and groin if forced without adequate flexibility. During drilling, practice the leg thread at controlled speed and avoid cranking the triangle lock aggressively. Partners with neck injuries or cervical disc issues should avoid being placed in the bottom position. Always establish clear tap signals before drilling this technique, and release immediately upon any tap or verbal submission."
+    "safety_considerations": "The Triangle from Back involves significant neck compression and cervical spine stress on the bottom player once the rear triangle is locked. Training partners must tap early when the triangle tightens around the neck, as the choking pressure from a rear triangle can cause unconsciousness rapidly due to bilateral carotid compression. The threading motion can also strain the top player's hip flexors and groin if forced without adequate flexibility. During drilling, practice the leg thread at controlled speed and avoid cranking the triangle lock aggressively. Partners with neck injuries or cervical disc issues should avoid being placed in the bottom position. Always establish clear tap signals before drilling this technique, and release immediately upon any tap or verbal submission.",
+    "clips": [
+      {
+        "id": "oyXaGXU3mFU",
+        "title": "Rear triangle entry from side control",
+        "by": "Onyx Martial Arts",
+        "vertical": false,
+        "channel": "Onyx Martial Arts Edmundston ",
+        "duration": 77,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "e5-wNLYzJT0",
+        "title": "Back triangle when the choke stalls",
+        "by": "Josh Presley",
+        "vertical": false,
+        "channel": "Josh Presley",
+        "duration": 101,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "-lMabjvtaLk",
+        "title": "Entries into the rear triangle from the back",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 252,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Triangle from Back Defender",
@@ -396,6 +425,17 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring integration",
         "description": "Start in harness bottom against fully resisting partners. Track how often you get caught in the triangle versus successfully defending the entry. Identify which defensive habits create the triangle opening and systematically eliminate them. Goal is to force the attacker to abandon triangle attempts and return to standard choke attacks due to consistent defensive interception."
+      }
+    ],
+    "clips": [
+      {
+        "id": "qZ5ahQCqrTE",
+        "title": "Back triangle escapes",
+        "by": "Michael Hoffman",
+        "vertical": false,
+        "channel": "Michael Hoffman",
+        "duration": 110,
+        "verified": "2026-07-15"
       }
     ]
   },

@@ -279,7 +279,27 @@
         "answer": "The highest escape probability occurs during steps 2-3 when your choking arm is mid-thread and you have temporarily released some control to swim through. Opponent can sit through, pull their far arm free, or granby roll during this window. Prevention requires maintaining maximum chest pressure throughout the threading motion, using your free hand to block the far arm from escaping while your choking arm moves, and keeping your hips low to prevent opponent from creating upward movement. Speed of threading reduces this vulnerability window."
       }
     ],
-    "safety_considerations": "The Darce choke is a blood choke that restricts blood flow to the brain and must be practiced with extreme caution and respect. Apply pressure progressively and slowly, never explosively or with jerking motions. Both partners must have clear tap protocols established - verbal tap, physical tap with hand, and foot tap if hands are trapped. The person applying the choke must release IMMEDIATELY upon receiving any tap signal. During training progressions, build pressure over 3-5 seconds minimum to allow partner time to recognize danger and tap. Never spike the pressure suddenly. Monitor your partner's face and body for signs of distress - if they cannot tap (rare but possible if both hands are trapped), look for color change, body going limp, or unusual sounds. Common injuries from improper application include neck strain, carotid artery damage from excessive force, and unconsciousness if held too long. If training partner loses consciousness (goes limp, snoring sounds, unresponsive), release immediately, lay them flat, elevate legs slightly, and monitor breathing. They should regain consciousness within seconds. If not, seek immediate medical attention. Never practice finishing pressure on untrained partners or those who do not understand tap protocols."
+    "safety_considerations": "The Darce choke is a blood choke that restricts blood flow to the brain and must be practiced with extreme caution and respect. Apply pressure progressively and slowly, never explosively or with jerking motions. Both partners must have clear tap protocols established - verbal tap, physical tap with hand, and foot tap if hands are trapped. The person applying the choke must release IMMEDIATELY upon receiving any tap signal. During training progressions, build pressure over 3-5 seconds minimum to allow partner time to recognize danger and tap. Never spike the pressure suddenly. Monitor your partner's face and body for signs of distress - if they cannot tap (rare but possible if both hands are trapped), look for color change, body going limp, or unusual sounds. Common injuries from improper application include neck strain, carotid artery damage from excessive force, and unconsciousness if held too long. If training partner loses consciousness (goes limp, snoring sounds, unresponsive), release immediately, lay them flat, elevate legs slightly, and monitor breathing. They should regain consciousness within seconds. If not, seek immediate medical attention. Never practice finishing pressure on untrained partners or those who do not understand tap protocols.",
+    "clips": [
+      {
+        "id": "7F4Torh--7E",
+        "title": "Modified darce choke from turtle (no-gi)",
+        "by": "Simple JiuJitsu coach",
+        "vertical": false,
+        "channel": "Simple JiuJitsu",
+        "duration": 127,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_9WioKiPqDY",
+        "title": "Gator roll into the darce choke",
+        "by": "Applied Pressure MMA coach",
+        "vertical": false,
+        "channel": "Applied Pressure MMA",
+        "duration": 83,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Darce from Turtle Defender",
@@ -409,6 +429,35 @@
         "phase": "Week 9+: Live Application and Prevention",
         "focus": "Applying defenses in live rolling and preventing the setup entirely",
         "description": "Incorporate Darce defense into positional sparring starting from turtle bottom. Focus on preventing the setup through proactive hand fighting and movement before it begins. When caught, apply trained escape sequences under full resistance. Track success rate and identify which stage you most commonly get caught to refine earlier recognition. Target 60-70% escape rate against training partners of similar skill."
+      }
+    ],
+    "clips": [
+      {
+        "id": "d1YBV8UTKds",
+        "title": "Darce choke defense from turtle",
+        "by": "Animal BJJ coach",
+        "vertical": false,
+        "channel": "Animal",
+        "duration": 53,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "cmaIzjv3QG8",
+        "title": "Belly-down darce defense",
+        "by": "JitzLive coach",
+        "vertical": false,
+        "channel": "JitzLive",
+        "duration": 38,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "rgf9QUebMWE",
+        "title": "Darce killer: shutting down the choke early",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 78,
+        "verified": "2026-07-15"
       }
     ]
   },

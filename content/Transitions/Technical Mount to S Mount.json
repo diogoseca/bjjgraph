@@ -297,7 +297,36 @@
         "answer": "Against larger opponents, prioritize the Pressure Slide variant over the Explosive Rotation. Larger opponents generate more powerful bridges during weight shifts, so maintaining constant grinding pressure throughout the rotation minimizes the moments of instability they can exploit. Ensure your arm control is exceptionally secure before initiating, as stronger opponents can power through marginal grip positions. Keep your hips lower and tighter to their shoulder than you would against a similarly-sized opponent, reducing the space available for their defensive movements. The fundamental advantage of S Mount is mechanical leverage that negates size differences, but reaching S Mount against a larger opponent demands more patience and pressure during the transition."
       }
     ],
-    "safety_considerations": "The Technical Mount to S Mount transition itself carries low direct injury risk since it is a positional advancement rather than a submission. However, practitioners should be mindful that the arm control maintained throughout the transition can create inadvertent hyperextension pressure on the opponent's elbow if the rotation is performed aggressively while the arm is fully extended. During training, execute the rotation with controlled speed and communicate with your partner about elbow comfort. The transition should flow smoothly into S Mount rather than jerking the controlled arm during rotation. Partners should tap immediately if they feel any elbow hyperextension during the rotational movement."
+    "safety_considerations": "The Technical Mount to S Mount transition itself carries low direct injury risk since it is a positional advancement rather than a submission. However, practitioners should be mindful that the arm control maintained throughout the transition can create inadvertent hyperextension pressure on the opponent's elbow if the rotation is performed aggressively while the arm is fully extended. During training, execute the rotation with controlled speed and communicate with your partner about elbow comfort. The transition should flow smoothly into S Mount rather than jerking the controlled arm during rotation. Partners should tap immediately if they feel any elbow hyperextension during the rotational movement.",
+    "clips": [
+      {
+        "id": "2Xm_mLp8xwk",
+        "title": "S-mount troubleshooting, no-gi",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 67,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2zSi7RlFJEU",
+        "title": "Armbar from S-mount",
+        "by": "Fenrir Jiu-Jitsu Academy",
+        "vertical": false,
+        "channel": "Fenrir Jiu-Jitsu Academy",
+        "duration": 78,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "5UtNLw7usQk",
+        "title": "Switch side armbar from S-mount",
+        "by": "Darrin Lillian",
+        "vertical": false,
+        "channel": "Darrin Lillian",
+        "duration": 50,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Technical Mount to S Mount Defender",
@@ -422,6 +451,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance defense and escape",
         "description": "Start in Technical Mount with arm controlled. Full resistance from both players. Top player attempts S Mount transition and subsequent submissions. Bottom player attempts to prevent the transition or escape. 2-minute rounds with reset on submission or escape. Develops timing and decision-making under genuine pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "sDdqvh_1kbA",
+        "title": "Armbar escape to rear naked choke",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 63,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "Favorite armbar escape",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "w6M0NpTMkeU",
+        "title": "Hitchhiker armbar escape into a guard pass",
+        "by": "Peter Mettler",
+        "vertical": false,
+        "channel": "Peter Mettler Martial Arts",
+        "duration": 55,
+        "verified": "2026-07-15"
       }
     ]
   }

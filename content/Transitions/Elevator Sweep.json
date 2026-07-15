@@ -294,7 +294,36 @@
         "answer": "First, you can use the whizzer against them by transitioning to a shoulder lock attack, since the whizzer puts their shoulder in a vulnerable rotated position if you control their wrist and apply inward pressure. Second, you can roll under their whizzer into an electric chair position from half butterfly, where their whizzer becomes trapped and you threaten both sweeps and calf crush submissions. The key insight is that the whizzer, while preventing the original sweep direction, actually limits opponent's mobility and creates new attacking opportunities. A third option is to switch your sweep direction entirely, using an underhook on the opposite side."
       }
     ],
-    "safety_considerations": "The elevator sweep is generally a safe technique for both practitioners when executed properly, but several precautions should be observed. When drilling, the person being swept should be prepared to break fall appropriately, as the sweep can generate significant rotational force and speed. Beginners should start with slow, controlled repetitions to develop proper mechanics before adding explosive power. Partners should communicate about knee sensitivity, as the hooks can cause discomfort for those with knee issues - in such cases, reduce hook pressure or use alternative guards. When practicing the variation that lands in mount, the sweeping practitioner should control the landing to avoid dropping full body weight onto partner's ribs or torso. In live training, be mindful of your training partner's size - extremely large weight differentials may require modified application. If opponent attempts to guillotine during the sweep setup, immediately defend the neck before continuing the technique. Finally, when drilling the whizzer counter responses involving shoulder locks, practice these slowly and tap early as shoulder submissions can occur quickly and cause injury if applied with full force."
+    "safety_considerations": "The elevator sweep is generally a safe technique for both practitioners when executed properly, but several precautions should be observed. When drilling, the person being swept should be prepared to break fall appropriately, as the sweep can generate significant rotational force and speed. Beginners should start with slow, controlled repetitions to develop proper mechanics before adding explosive power. Partners should communicate about knee sensitivity, as the hooks can cause discomfort for those with knee issues - in such cases, reduce hook pressure or use alternative guards. When practicing the variation that lands in mount, the sweeping practitioner should control the landing to avoid dropping full body weight onto partner's ribs or torso. In live training, be mindful of your training partner's size - extremely large weight differentials may require modified application. If opponent attempts to guillotine during the sweep setup, immediately defend the neck before continuing the technique. Finally, when drilling the whizzer counter responses involving shoulder locks, practice these slowly and tap early as shoulder submissions can occur quickly and cause injury if applied with full force.",
+    "clips": [
+      {
+        "id": "mjy1CpE6N2M",
+        "title": "Elevator Sweep Variations from Butterfly Guard",
+        "by": "Antonio Suazo",
+        "vertical": false,
+        "channel": "Break Point",
+        "duration": 79,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "LgDGnavTYAs",
+        "title": "BJJ Elevator Sweep",
+        "by": "Clinch Academy",
+        "vertical": false,
+        "channel": "Clinch Academy",
+        "duration": 116,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2hc9sl1hEkE",
+        "title": "Overhook Elevator Sweep from Butterfly Guard",
+        "by": "Satori BJJ",
+        "vertical": false,
+        "channel": "Satori BJJ",
+        "duration": 36,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Elevator Sweep Defender",
@@ -425,6 +454,26 @@
         "phase": "Phase 4: Live Positional Sparring (Weeks 11+)",
         "focus": "Full-speed defense against elevator sweep in realistic butterfly guard exchanges",
         "description": "5-minute rounds of positional sparring starting in opponent's butterfly guard. Defender works full passing game while being ready to defend elevator sweep attempts at any moment. Partner uses elevator sweep as part of a complete butterfly guard system with other sweeps and transitions. This phase develops the ability to defend the elevator sweep while simultaneously executing a passing strategy."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ZAOF5qNApJ0",
+        "title": "Simple Counters to a Failed Butterfly Sweep",
+        "by": "Oneonta Jiu Jitsu",
+        "vertical": false,
+        "channel": "OneontaJiuJitsu Academy",
+        "duration": 98,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "YVeeiNy43j4",
+        "title": "Body Lock Pass Defense vs Elevator Sweep",
+        "by": "Brian Glick",
+        "vertical": false,
+        "channel": "Brian Glick",
+        "duration": 123,
+        "verified": "2026-07-15"
       }
     ]
   },

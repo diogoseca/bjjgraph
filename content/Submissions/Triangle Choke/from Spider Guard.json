@@ -370,6 +370,35 @@
         "answer": "For competition finishing under time pressure: First, commit fully to your angle by pivoting your hips as perpendicular as possible—half-committed triangles never finish against good defense. Second, abandon the head pull if they're resisting strongly and focus on hip elevation and knee squeeze, which is harder for them to counter. Third, use their defensive movements against them—if they're spending energy fighting the arm pull, they're not defending the angle adjustment. Fourth, threaten the armbar on their trapped arm to create a dilemma: if they defend the armbar, they expose the choke, and vice versa. Finally, if the triangle truly isn't finishing, transition immediately to omoplata or armbar rather than wasting precious time on a stalled position.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "t03kY6knAkU",
+        "title": "Triangle from the Spider Lasso Guard",
+        "by": "Nartay Kazhekov",
+        "vertical": false,
+        "channel": "Nartay Kazhekov",
+        "duration": 11,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "7ItTf1BFDZA",
+        "title": "Spider Guard Foot on Bicep Triangle Choke",
+        "by": "Ritchie Yip",
+        "vertical": false,
+        "channel": "Ritchie Yip",
+        "duration": 31,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "aR907qucSvk",
+        "title": "Spider Guard: Triangle Choke Option",
+        "by": "Hurricane Jiu Jitsu",
+        "vertical": false,
+        "channel": "Hurricane Jiu Jitsu",
+        "duration": 60,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -510,6 +539,26 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Full-speed defense starting from spider guard with attacker hunting triangle",
         "description": "Start in spider guard with attacker having full grips. Attacker hunts the triangle and all chain attacks at full speed. Defender works prevention, early escapes, and locked-triangle escapes as the situation demands. 3-minute rounds with resets on submission, pass, or sweep. Track how often the triangle is locked versus prevented, and escape success rate when locked."
+      }
+    ],
+    "clips": [
+      {
+        "id": "dJOw0ZEyXXc",
+        "title": "Triangle Choke Posture Up Escape",
+        "by": "Cosens MMA",
+        "vertical": false,
+        "channel": "Cosens MMA LLC",
+        "duration": 73,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "sR2rS2dwpNY",
+        "title": "How To Escape a Triangle Choke",
+        "by": "Rener & Ryron Gracie",
+        "vertical": false,
+        "channel": "Hayabusa",
+        "duration": 117,
+        "verified": "2026-07-14"
       }
     ]
   },

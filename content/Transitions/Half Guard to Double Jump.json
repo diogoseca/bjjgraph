@@ -287,7 +287,18 @@
         "answer": "The three primary chains are: back control entry by walking hooks from inside thigh position to traditional over-under hook placement with seatbelt grip; crab ride transition when the opponent sits back or turns into you, using leg hook mechanics to maintain hip control from the side; and truck entry when the opponent rolls away, following their rotation to establish the leg entanglement for twister or calf slicer attacks."
       }
     ],
-    "safety_considerations": "The Transition to Double Jump involves explosive movement during a dynamic positional change and carries risk of knee strain for both practitioners. The top player should avoid forcing hooks against locked-out legs to prevent MCL or LCL stress on the opponent. During training, partners should communicate clearly about hook depth and pressure levels. Avoid explosive entries at full speed until both partners are comfortable with the movement pattern. The transition should be drilled progressively from zero resistance to full speed over multiple sessions."
+    "safety_considerations": "The Transition to Double Jump involves explosive movement during a dynamic positional change and carries risk of knee strain for both practitioners. The top player should avoid forcing hooks against locked-out legs to prevent MCL or LCL stress on the opponent. During training, partners should communicate clearly about hook depth and pressure levels. Avoid explosive entries at full speed until both partners are comfortable with the movement pattern. The transition should be drilled progressively from zero resistance to full speed over multiple sessions.",
+    "clips": [
+      {
+        "id": "WoSyrVZ1VvY",
+        "title": "Half guard butterfly hook back take",
+        "by": "Procel BJJ",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 55,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Half Guard to Double Jump Defender",
@@ -408,6 +419,17 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Applying defenses under realistic rolling conditions",
         "description": "Positional sparring starting from half guard bottom with the explicit agreement that the top player will attempt Double Jump when opportunities arise. Defender must recognize and address the threat while simultaneously managing the broader half guard passing battle. Full resistance rounds with scoring for successful prevention or escape."
+      }
+    ],
+    "clips": [
+      {
+        "id": "dOdO6xJ-TcU",
+        "title": "Stopping the half guard underhook",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 98,
+        "verified": "2026-07-15"
       }
     ]
   }

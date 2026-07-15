@@ -287,7 +287,36 @@
         "answer": "The sweep should be layered with gogoplata, triangle, and omoplata threats as a unified system. Submission feints manipulate the opponent's weight distribution into patterns favorable for sweeping. When they defend chokes by pulling their head back, their weight shifts rearward, creating the optimal sweep window. When they defend the sweep by driving forward, submissions open. This creates an unsolvable dilemma where every defense opens the complementary attack."
       }
     ],
-    "safety_considerations": "The Meathook sweep involves significant rotational force through the opponent's shoulder via the trapped arm. Practitioners must ensure the shin hook does not apply excessive downward or twisting pressure to the shoulder joint during the sweep rotation, as the combination of arm isolation and rotational momentum can strain the glenohumeral joint. Release the hook immediately if your partner signals discomfort or taps. Both practitioners should develop the sweep gradually with cooperative drilling before applying full resistance. Avoid explosive sweep attempts without first confirming proper hook depth and partner readiness."
+    "safety_considerations": "The Meathook sweep involves significant rotational force through the opponent's shoulder via the trapped arm. Practitioners must ensure the shin hook does not apply excessive downward or twisting pressure to the shoulder joint during the sweep rotation, as the combination of arm isolation and rotational momentum can strain the glenohumeral joint. Release the hook immediately if your partner signals discomfort or taps. Both practitioners should develop the sweep gradually with cooperative drilling before applying full resistance. Avoid explosive sweep attempts without first confirming proper hook depth and partner readiness.",
+    "clips": [
+      {
+        "id": "pJ4G8hW6dIE",
+        "title": "Near-side meathook sweep from rubber guard",
+        "by": "10th Planet Colorado Springs coach",
+        "vertical": false,
+        "channel": "10th Planet Colorado Springs",
+        "duration": 93,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "KN7ww-OyaxQ",
+        "title": "Meathook options from rubber guard",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "0w0642zFqWo",
+        "title": "Troubleshooting the rubber guard meathook",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 61,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Sweep from Meathook Defender",
@@ -408,6 +437,17 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Full resistance sweep defense within complete Meathook attack system",
         "description": "Positional sparring starting in Meathook with bottom player attacking with complete system including sweeps, gogoplata, triangle, and omoplata. Top player must defend all threats while working toward escape. Track sweep prevention rate and escape success rate across multiple rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "QzT5BsOqrMk",
+        "title": "Elbow position to beat rubber guard control",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 57,
+        "verified": "2026-07-15"
       }
     ]
   }

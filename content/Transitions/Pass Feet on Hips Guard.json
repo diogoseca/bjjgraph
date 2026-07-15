@@ -303,7 +303,27 @@
         "answer": "During frame breaking, your grips are on the pants at the knees for frame control. As you clear the frames and drive through, you must transition to passing grips: release the far-side pants grip and establish a crossface by driving your forearm or shoulder across the opponent's jaw, then use your near-side arm to secure an underhook under their far arm or to block their near-side hip. This grip transition must happen in one fluid motion—pausing between releasing knee grips and establishing crossface creates a recovery window where the guard player can insert a knee for half guard."
       }
     ],
-    "safety_considerations": "Guard passing involves forward pressure and body weight compression that require controlled application. Avoid driving excessively into the guard player's face or neck with your shoulder during crossface establishment. When breaking leg frames, redirect feet laterally rather than hyperextending the guard player's knees by forcing legs backward. Communicate with training partners about pressure intensity and always respect tap signals during positional drilling. Be mindful of your training partner's knees and ankles when pinning cleared legs."
+    "safety_considerations": "Guard passing involves forward pressure and body weight compression that require controlled application. Avoid driving excessively into the guard player's face or neck with your shoulder during crossface establishment. When breaking leg frames, redirect feet laterally rather than hyperextending the guard player's knees by forcing legs backward. Communicate with training partners about pressure intensity and always respect tap signals during positional drilling. Be mindful of your training partner's knees and ankles when pinning cleared legs.",
+    "clips": [
+      {
+        "id": "YLPNsyHtREs",
+        "title": "Monitoring the Feet While Passing Guard",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Michael Wong",
+        "duration": 50,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "7lBIkzah1gg",
+        "title": "Footwork Passing vs the Supine Guard: 3 Zones",
+        "by": "Doederlein JJ",
+        "vertical": false,
+        "channel": "Doederlein JJ",
+        "duration": 129,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Pass Feet on Hips Guard Defender",
@@ -440,6 +460,17 @@
         "phase": "Full Resistance Defense",
         "focus": "Complete defensive sequence against committed passing",
         "description": "Positional sparring starting from feet on hips against a passer using full technique. Practice the complete defensive hierarchy: grip fighting, frame maintenance, guard transition, half guard insertion, and guard recovery. Track success rates at each defensive layer to identify where your defense breaks down most frequently."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Bp0v7c_MrbY",
+        "title": "Getting Feet on Biceps Position Correctly",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 125,
+        "verified": "2026-07-15"
       }
     ]
   }

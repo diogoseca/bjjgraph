@@ -427,5 +427,16 @@
       "question": "What distinguishes Control Point Hierarchy from Positional Hierarchy?",
       "answer": "Positional Hierarchy ranks the positions themselves, while Control Point Hierarchy governs dominance within a single position by ranking the grips and contacts available there."
     }
+  ],
+  "clips": [
+    {
+      "id": "OVNThMHxY4k",
+      "title": "The positional hierarchy explained",
+      "by": "Absolute MMA St Kilda",
+      "vertical": false,
+      "channel": "Absolute MMA St Kilda - Melbourne",
+      "duration": 275,
+      "verified": "2026-07-15"
+    }
   ]
 }

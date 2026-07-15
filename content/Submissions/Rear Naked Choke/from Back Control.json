@@ -348,6 +348,35 @@
         "answer": "Chest expansion produces finishing pressure by driving your torso into the opponent's back while pulling your elbows toward your ribs and creating a slight backward arch, engaging the large muscles of the back and chest. Bicep flexion relies on squeezing the arms inward using only the bicep and forearm muscles. Chest expansion generates significantly more sustainable force because it engages larger muscle groups that fatigue much more slowly than the biceps. Bicep-driven squeezes tire within seconds, producing inconsistent pressure that an experienced opponent can outlast. The chest expansion method also creates more even bilateral pressure on both carotid arteries simultaneously, producing faster unconsciousness with less total effort.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "3vCytl_OI-4",
+        "title": "Rear Naked Choke from Back Control",
+        "by": "Affinity Academy",
+        "vertical": false,
+        "channel": "Affinity Academy",
+        "duration": 75,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "70jECxFfCSA",
+        "title": "Rear Naked Choke",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Control Jiu JItsu",
+        "duration": 73,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "rPRORaAiJAs",
+        "title": "Rear Naked Choke: It's in the Squeeze",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 95,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -479,6 +508,35 @@
         "phase": "Phase 4: Live Survival and Escape Rounds",
         "focus": "Full resistance defense and escape under competition pressure",
         "description": "Start in back control with full resistance from both partners. Defender works complete defense and escape chain under realistic pressure. Attacker uses full hand fighting and chaining between RNC, armbar, and bow and arrow threats. Builds the mental toughness, timing, and technical integration needed for competition-level back control defense."
+      }
+    ],
+    "clips": [
+      {
+        "id": "R6W9P4_SMzY",
+        "title": "Escape the Rear Naked Choke",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 104,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "kXvNLzTMVPk",
+        "title": "Rear Naked Choke Escape",
+        "by": "Applied Pressure MMA",
+        "vertical": false,
+        "channel": "Applied Pressure MMA",
+        "duration": 46,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "3RbOD9fhi20",
+        "title": "Back Escape: Running Man",
+        "by": "Jiu Jitsu Modern",
+        "vertical": false,
+        "channel": "JIU JITSU MODERN",
+        "duration": 210,
+        "verified": "2026-07-14"
       }
     ]
   }

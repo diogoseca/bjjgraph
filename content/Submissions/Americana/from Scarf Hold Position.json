@@ -335,6 +335,35 @@
         "answer": "If the opponent straightens their arm, transition to kimura by circling the grip to attack opposite rotation. If they turn into you to close the angle, switch to arm triangle by threading your arm around their neck and trapped arm. If they push on your head with their far arm, attack that arm with a far-side armbar or transition to north-south for additional submission options. The scarf hold americana is most effective as part of a chain rather than as an isolated attack.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "a4fJ3xTZYnU",
+        "title": "Side control to Americana (Kata-gatame)",
+        "by": "Sergio Babu Gasparelli",
+        "vertical": false,
+        "channel": "Sergio Babu Gasparelli - MMA - Brazilian Jiu Jitsu",
+        "duration": 57,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "2Y5HdBxqPv8",
+        "title": "Attacks from scarf hold",
+        "by": "Goulburn Martial Arts Academy",
+        "vertical": false,
+        "channel": "Goulburn Martial Arts Academy",
+        "duration": 69,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "SkFE9CBKvsA",
+        "title": "Modified Americana grip",
+        "by": "BJJ After Forty",
+        "vertical": false,
+        "channel": "BJJ After Forty",
+        "duration": 61,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -464,6 +493,26 @@
         "phase": "Phase 3: Escape Integration",
         "focus": "Combining americana defense with scarf hold escape sequences",
         "description": "Partner attempts full americana from scarf hold at progressive resistance levels. Defender chains americana defense directly into escape attempts - bridge during grip transition, ghost escape when arm control is disrupted, guard recovery when space is created. 5 rounds of 3 minutes with full resistance."
+      }
+    ],
+    "clips": [
+      {
+        "id": "c5GUAlY1YwE",
+        "title": "Scarf hold headlock escape",
+        "by": "Clinch",
+        "vertical": false,
+        "channel": "Clinch Dirty Boxing-Brazilian Jiu-Jitsu-Krav Maga",
+        "duration": 141,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "HMTN5IrV2Mw",
+        "title": "Kesa-gatame escape and armlock",
+        "by": "Kombatan Kali Brianza",
+        "vertical": false,
+        "channel": "Kombatan kali - Brianza",
+        "duration": 15,
+        "verified": "2026-07-14"
       }
     ]
   }

@@ -263,7 +263,36 @@
         "answer": "The opponent's relief when sensing the overhook release creates vulnerability. Their reduced defensive tension during this moment opens attack opportunities. Advanced practitioners attack during the transition itself - the leg repositioning can become a triangle entry, the momentary control shift can set up sweeps, and opponent reactions to the transition can be redirected into submissions."
       }
     ],
-    "safety_considerations": "This transition involves rapid grip and control changes that can create joint stress on the opponent's shoulder if performed aggressively. Release the overhook smoothly rather than explosively to prevent sudden shoulder torque on the trapped arm. Both practitioners should be aware that the transition creates a brief vulnerability window where uncontrolled scrambles can occur. Train at reduced speed initially to develop proper timing before adding resistance. Practitioners with shoulder injuries should approach cautiously."
+    "safety_considerations": "This transition involves rapid grip and control changes that can create joint stress on the opponent's shoulder if performed aggressively. Release the overhook smoothly rather than explosively to prevent sudden shoulder torque on the trapped arm. Both practitioners should be aware that the transition creates a brief vulnerability window where uncontrolled scrambles can occur. Train at reduced speed initially to develop proper timing before adding resistance. Practitioners with shoulder injuries should approach cautiously.",
+    "clips": [
+      {
+        "id": "5fJM5bIk8Fw",
+        "title": "Mission Control to Zombie to Invisible Collar",
+        "by": "10th Planet Orange Park",
+        "vertical": false,
+        "channel": "10th Planet Orange Park",
+        "duration": 108,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "gFYyMkaMz34",
+        "title": "Prison Guard breakdown",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 59,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "h1XzZDsUxHQ",
+        "title": "Eddie Bravo explains rubber guard",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "JAN FERNANDEZ ",
+        "duration": 111,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Crackhead Control to Mission Control Defender",
@@ -394,6 +423,17 @@
         "phase": "Week 7+",
         "focus": "Live integration",
         "description": "Full resistance positional sparring starting from Crackhead Control. Partner attempts transition opportunistically while defender works to exploit windows. Track escape success rate and identify which defensive options work best against specific partner body types and transition styles."
+      }
+    ],
+    "clips": [
+      {
+        "id": "AvivOVuYcCk",
+        "title": "Simple rubber guard escape",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 131,
+        "verified": "2026-07-15"
       }
     ]
   },

@@ -298,7 +298,36 @@
         "answer": "When opponent sprawls back, they create distance but also reduce their forward pressure and control. Capitalize by immediately switching from knee shield insertion to butterfly hook insertion, threading your foot under their hips rather than placing shin across their torso. The sprawl creates the space underneath them that butterfly hooks exploit. Alternatively, use their backward movement to sit up toward them and establish a sitting guard position. Their sprawl is defensive against your knee shield but opens other recovery paths; recognize the reaction and select the appropriate counter-recovery."
       }
     ],
-    "safety_considerations": "Guard recovery from Headquarters is generally a low-risk technique with minimal injury potential when practiced correctly. The primary safety concern is avoiding overexertion during resistance training, particularly in the hip and lower back regions which can be strained by explosive shrimping movements. When drilling, start with slow, controlled movements to build proper motor patterns before adding speed and resistance. Partners should communicate clearly about resistance levels and stop immediately if either person experiences joint discomfort, particularly in the knees during leg recovery movements. Avoid practicing this technique when fatigued to the point where form breaks down, as poor mechanics during explosive hip movements can lead to lower back strain. During training progressions, increase resistance gradually over weeks rather than jumping to full resistance immediately, allowing connective tissues to adapt to the forces involved."
+    "safety_considerations": "Guard recovery from Headquarters is generally a low-risk technique with minimal injury potential when practiced correctly. The primary safety concern is avoiding overexertion during resistance training, particularly in the hip and lower back regions which can be strained by explosive shrimping movements. When drilling, start with slow, controlled movements to build proper motor patterns before adding speed and resistance. Partners should communicate clearly about resistance levels and stop immediately if either person experiences joint discomfort, particularly in the knees during leg recovery movements. Avoid practicing this technique when fatigued to the point where form breaks down, as poor mechanics during explosive hip movements can lead to lower back strain. During training progressions, increase resistance gradually over weeks rather than jumping to full resistance immediately, allowing connective tissues to adapt to the forces involved.",
+    "clips": [
+      {
+        "id": "rP8SOouke1s",
+        "title": "Retention basics: knee-elbow connection, knee cut response",
+        "by": "Cal McDonald",
+        "vertical": false,
+        "channel": "Cal McDonald",
+        "duration": 57,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lVLAROiSjNU",
+        "title": "Guard retention: when to sit up and escape",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 136,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ynoR-AtSYUc",
+        "title": "Recovering guard around the legs",
+        "by": "Absolute MMA St Kilda",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 210,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Re-Guard from Headquarters Defender",
@@ -423,6 +452,17 @@
         "phase": "Week 9-12: Full Resistance Passing Chains",
         "focus": "Completing passes against full resistance with integrated systematic passing",
         "description": "Partner uses full-resistance re-guard attempts with their best techniques and variations. You must consolidate to side control or advance to mount within 30 seconds of establishing Headquarters. Practice against different guard recovery styles: aggressive shrimpers, inverters, granby roll specialists, and technical standup players. Develop the ability to read and shut down any recovery pattern while maintaining your systematic passing framework. Target 70%+ consolidation rate against training partners of similar skill."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ACWzSbjbo2g",
+        "title": "Shutting down guard recovery while passing",
+        "by": "Danny Brown",
+        "vertical": false,
+        "channel": "UNC_CynX",
+        "duration": 209,
+        "verified": "2026-07-15"
       }
     ]
   },

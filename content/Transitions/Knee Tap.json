@@ -282,7 +282,36 @@
         "answer": "Four conditions must be present: collar tie or head control established to manipulate opponent's upper body, angle created by stepping outside their lead leg giving access to the knee, opponent's weight committed forward onto the targeted leg making it difficult to retract, and close enough distance that you can reach the knee without overextending and compromising your own base. Attempting the knee tap without these prerequisites results in easily defended attacks and potential exposure to guillotine counters. The setup phase is where the technique is won or lost."
       }
     ],
-    "safety_considerations": "The knee tap is relatively safe compared to other takedowns as it doesn't involve high amplitude throws or dangerous falling angles. Primary safety concern is avoiding guillotine exposure by keeping head position high and outside throughout entry. When drilling, the person being taken down should practice breakfalling by turning toward the attacking side and slapping the mat. Avoid jerking the knee violently during practice - use controlled pulling motion to protect your partner's knee joint. In live training, be aware of cage or wall proximity to prevent partner from impacting hard surfaces during the fall. For those with knee injuries, communicate clearly with partners before drilling this technique as the knee manipulation can aggravate existing conditions. Always release knee grip immediately upon completion in training to avoid unnecessary joint stress."
+    "safety_considerations": "The knee tap is relatively safe compared to other takedowns as it doesn't involve high amplitude throws or dangerous falling angles. Primary safety concern is avoiding guillotine exposure by keeping head position high and outside throughout entry. When drilling, the person being taken down should practice breakfalling by turning toward the attacking side and slapping the mat. Avoid jerking the knee violently during practice - use controlled pulling motion to protect your partner's knee joint. In live training, be aware of cage or wall proximity to prevent partner from impacting hard surfaces during the fall. For those with knee injuries, communicate clearly with partners before drilling this technique as the knee manipulation can aggravate existing conditions. Always release knee grip immediately upon completion in training to avoid unnecessary joint stress.",
+    "clips": [
+      {
+        "id": "F29Chv2R9MI",
+        "title": "Knee tap from the front headlock",
+        "by": "Ben Askren",
+        "vertical": false,
+        "channel": "Askren Wrestling Academy",
+        "duration": 63,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "b459BzZNmTA",
+        "title": "Inside knee tap off a failed shot",
+        "by": "Five Star Wrestling coach",
+        "vertical": false,
+        "channel": "Devine Savannah Five Star Wrestling takedown guru",
+        "duration": 86,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "vK7xJrBO3Jc",
+        "title": "Failed sweep single straight into a knee tap",
+        "by": "Trent Creech",
+        "vertical": false,
+        "channel": "Trent Creech Wrestle Jitsu",
+        "duration": 57,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Knee Tap Defender",
@@ -415,6 +444,26 @@
         "phase": "Week 7-8: Live Standing Integration",
         "focus": "Apply knee tap defense during live standing exchanges",
         "description": "Full speed standing rounds where partner actively hunts knee taps among other takedowns. Practice reading knee tap setups while managing other takedown threats simultaneously. Focus on maintaining defensive stance habits and grip fighting patterns that prevent knee tap opportunities from developing. Track success rate and identify remaining vulnerabilities."
+      }
+    ],
+    "clips": [
+      {
+        "id": "FFr4o2pjlnw",
+        "title": "Defense against the knee tap takedown",
+        "by": "Knockout Fight Club",
+        "vertical": false,
+        "channel": "Knockout Fight Club",
+        "duration": 119,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "JCdgOoRG4F0",
+        "title": "Blocking the knee tap by walking around",
+        "by": "Legion Wrestling",
+        "vertical": false,
+        "channel": "Legion Wrestling",
+        "duration": 93,
+        "verified": "2026-07-15"
       }
     ]
   },

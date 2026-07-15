@@ -295,7 +295,18 @@
         "answer": "First, increase chest-to-back pressure and hook depth to create a stable platform independent of your collar grips. Release one collar grip while maintaining the other for partial upper body control. Thread the released hand into the over-shoulder position, using the remaining collar grip as your safety anchor. Once the over-arm is set, release the second collar grip and thread it under the armpit, immediately connecting hands. The key is never having zero upper body control—the collar grip serves as your bridge between grip configurations."
       }
     ],
-    "safety_considerations": "This transition involves upper body grip changes around the neck and shoulder area. Ensure controlled movements to avoid inadvertent neck compression during arm threading. Partners should communicate immediately if any choking pressure occurs during drill work before the seat belt is properly established. Avoid explosive jerking motions during grip transitions that could strain the partner's cervical spine or shoulder. During training progressions, start slowly and increase speed only as both partners develop comfort with the threading mechanics."
+    "safety_considerations": "This transition involves upper body grip changes around the neck and shoulder area. Ensure controlled movements to avoid inadvertent neck compression during arm threading. Partners should communicate immediately if any choking pressure occurs during drill work before the seat belt is properly established. Avoid explosive jerking motions during grip transitions that could strain the partner's cervical spine or shoulder. During training progressions, start slowly and increase speed only as both partners develop comfort with the threading mechanics.",
+    "clips": [
+      {
+        "id": "baSqWCtLysU",
+        "title": "Establishing seatbelt control from back mount",
+        "by": "Teach Me NoGi",
+        "vertical": false,
+        "channel": "Teach Me NoGi",
+        "duration": 212,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Back Control to Seat Belt Control Back Defender",
@@ -419,6 +430,35 @@
         "phase": "Live Integration",
         "focus": "Combining prevention with escape sequences",
         "description": "Incorporate seat belt prevention into live back control escape rounds. Combine grip fighting with escape sequences, flowing between preventing seat belt establishment and executing escapes when opportunities arise during grip transitions at full resistance and speed."
+      }
+    ],
+    "clips": [
+      {
+        "id": "djhMEfVZozo",
+        "title": "Back escape against the seatbelt grip",
+        "by": "Skyhook Martial Arts",
+        "vertical": false,
+        "channel": "Skyhook Martial Arts & Fitness",
+        "duration": 36,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Wga4PfuShEg",
+        "title": "Defending back control with the seatbelt grip",
+        "by": "Academy Jiu Jitsu",
+        "vertical": false,
+        "channel": "Academy Jiu Jitsu",
+        "duration": 114,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "OltjLaTW3wQ",
+        "title": "Three ways to defend the back take",
+        "by": "Roberto Cyborg Abreu",
+        "vertical": false,
+        "channel": "Cyborg BJJ",
+        "duration": 89,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -305,7 +305,36 @@
         "answer": "The gable grip (palm-to-palm) is the default configuration for the body lock at the waist because it provides maximum compression force and is the most difficult for the opponent to break. You might switch to a rear naked choke grip (one hand gripping the opposite bicep) if you plan to immediately transition back to ground back control, as this grip pre-positions your arms for the harness when you return to the mat. Use butterfly grip (clasped hands, thumbs on top) when you need the flexibility to adjust between multiple attack options quickly."
       }
     ],
-    "safety_considerations": "This transition involves standing grappling with locked grip control, which creates risk of falls and impact injuries for both practitioners. Ensure training mats are adequate for standing techniques. When practicing mat returns from the body lock, the person being returned to the mat should understand breakfalling mechanics. Never suplex or slam during training without explicit agreement. Release the body lock immediately if either practitioner loses balance in a dangerous direction. Be aware of surrounding training partners when practicing standing transitions. Controlled repetitions at reduced speed should precede any full-speed drilling."
+    "safety_considerations": "This transition involves standing grappling with locked grip control, which creates risk of falls and impact injuries for both practitioners. Ensure training mats are adequate for standing techniques. When practicing mat returns from the body lock, the person being returned to the mat should understand breakfalling mechanics. Never suplex or slam during training without explicit agreement. Release the body lock immediately if either practitioner loses balance in a dangerous direction. Be aware of surrounding training partners when practicing standing transitions. Controlled repetitions at reduced speed should precede any full-speed drilling.",
+    "clips": [
+      {
+        "id": "2VCyaassiRI",
+        "title": "Leg Switch Cutback From Rear Bodylock",
+        "by": "Procel Brazilian Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 52,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "auRFQHVeQeo",
+        "title": "Knee Tap From the Body Lock",
+        "by": "SBG Athens",
+        "vertical": false,
+        "channel": "SBG Athens - BJJ & Mixed Martial Arts MMA Classes",
+        "duration": 58,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "F6bTABR5b1U",
+        "title": "Seatbelt to Body Lock Takedown",
+        "by": "Progressive FORCE Concepts",
+        "vertical": false,
+        "channel": "Progressive FORCE Concepts",
+        "duration": 114,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Harness to Body Lock Defender",
@@ -431,6 +460,35 @@
         "phase": "Phase 4: Live Situational Sparring",
         "focus": "Decision-making under full resistance",
         "description": "Start from harness bottom with full resistance. Work complete escape sequence including standing, defending the body lock transition, and recovering to neutral or guard. Develop real-time decision-making about when to fight standing versus when to sit to guard. Track success rates and refine timing across multiple rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Di-fJ06DSq8",
+        "title": "Body Lock Defense",
+        "by": "Peerless Jiu Jitsu Academy",
+        "vertical": false,
+        "channel": "Peerless Jiu Jitsu Academy ",
+        "duration": 79,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Fxpu62evbwk",
+        "title": "Breaking the Body Lock into a Kimura",
+        "by": "SBG Australia",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 44,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ZGgfRpUJvHU",
+        "title": "Body Lock Counter and Submission",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "FreeChannelOpen",
+        "duration": 114,
+        "verified": "2026-07-15"
       }
     ]
   }

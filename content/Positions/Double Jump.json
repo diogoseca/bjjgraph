@@ -357,6 +357,35 @@
         "question": "What do you do if opponent successfully extracts one of your hooks?",
         "answer": "If one hook is extracted, immediately transition to a single-hook attacking position like crab ride, or use the remaining hook to establish half back control. Do not try to force the second hook back in against a defended position. Instead, use the remaining control points to advance to an alternative dominant position or attack the exposed side with upper body submissions."
       }
+    ],
+    "clips": [
+      {
+        "id": "6ns9XP2BsjQ",
+        "title": "Back Take from the Turtle Position",
+        "by": "Evolve MMA",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 66,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "CzejF1OSPYE",
+        "title": "Take the Back from Turtle and Choke",
+        "by": "Base Monkey",
+        "vertical": false,
+        "channel": "Base Monkey SAMBO, MMA & Self-defence",
+        "duration": 80,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "f0zi7eZEXnk",
+        "title": "Turtle Tight Waist Tilt to Rear Control",
+        "by": "Fox Den Martial Arts",
+        "vertical": false,
+        "channel": "Fox Den Martial Arts",
+        "duration": 68,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -719,6 +748,35 @@
         "question": "How do you manage the high energy cost of Double Jump Bottom position?",
         "answer": "Double Jump Bottom is inherently a high-energy transition position meant to be held only 3-8 seconds. Once you achieve the entry, immediately work toward sweep completion rather than consolidating in place. Chain your attacks (deep half entry to old school sweep to back take) in continuous flow rather than pausing between techniques. The energy expenditure is justified by the high percentage improvement over incremental guard recovery methods."
       }
+    ],
+    "clips": [
+      {
+        "id": "ZQzg3TnzMJI",
+        "title": "Deep Half Guard Sweep",
+        "by": "Kyle Dimmitt",
+        "vertical": false,
+        "channel": "Kyle Dimmitt",
+        "duration": 42,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Dalv3UtxCZ0",
+        "title": "Deep Half Guard from Knee on Belly",
+        "by": "Team Daruma Dojo",
+        "vertical": false,
+        "channel": "Team Daruma Dojo",
+        "duration": 68,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "q83q61ZVAy4",
+        "title": "Faria Sweep from Deep Half Guard",
+        "by": "Masahiro Iwasaki",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 158,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -753,6 +811,26 @@
     {
       "question": "What shared dilemma does the bilateral leg configuration impose on the opponent regardless of which player holds the position?",
       "answer": "Because both legs are committed, the opponent faces two threats that cannot be defended simultaneously: addressing the leg entanglement opens one line of attack, while defending that line frees the legs to off-balance them. In the top turtle context this manifests as back exposure versus sweep vulnerability, and in the bottom entry context as sweep versus back-take exposure. The underlying mechanism is identical, a two-front problem created by controlling the base on both sides at once. Resolving one threat inherently concedes the other, which is what makes the position a genuine forcing mechanism."
+    }
+  ],
+  "clips": [
+    {
+      "id": "Jnc2siD9cak",
+      "title": "Half Guard Old School Sweep",
+      "by": "Ritchie Yip",
+      "vertical": false,
+      "channel": "Ritchie Yip",
+      "duration": 12,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "gGgG5t1pxsY",
+      "title": "Half Guard Coyote to the Back",
+      "by": "Carpio Jiu Jitsu",
+      "vertical": false,
+      "channel": "Carpio Jiu Jitsu",
+      "duration": 181,
+      "verified": "2026-07-14"
     }
   ]
 }

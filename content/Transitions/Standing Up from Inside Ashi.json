@@ -272,7 +272,27 @@
         "answer": "Rise at approximately 45 degrees away from the opponent rather than straight upward. Moving directly vertical leaves you within easy reach for them to grab your legs and pull you back down. Angling away creates increasing distance as you stand, making it progressively harder for them to counter as the standup advances. The 45-degree angle also positions you to immediately step back and establish safe distance once fully standing, preventing guard pull attempts."
       }
     ],
-    "safety_considerations": "When standing up from Inside Ashi-Garami, exercise particular caution with the opponent's trapped leg. The transition from supine to standing changes the leverage angle on the knee and ankle joints, potentially creating unexpected torque. If maintaining heel control during the standup, apply pressure gradually rather than explosively. Always release immediately if your training partner signals discomfort through tapping or verbal communication. Avoid jerky movements during the intermediate phase that could wrench the trapped knee. Communicate your intent to stand with your training partner to allow them to prepare for the position change and reduce injury risk."
+    "safety_considerations": "When standing up from Inside Ashi-Garami, exercise particular caution with the opponent's trapped leg. The transition from supine to standing changes the leverage angle on the knee and ankle joints, potentially creating unexpected torque. If maintaining heel control during the standup, apply pressure gradually rather than explosively. Always release immediately if your training partner signals discomfort through tapping or verbal communication. Avoid jerky movements during the intermediate phase that could wrench the trapped knee. Communicate your intent to stand with your training partner to allow them to prepare for the position change and reduce injury risk.",
+    "clips": [
+      {
+        "id": "XRpZHD3KEog",
+        "title": "Pulling ashi off a two-on-one from standing",
+        "by": "Grapple Box",
+        "vertical": false,
+        "channel": "Grapple Box llc",
+        "duration": 17,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "AQbJMBiWYfU",
+        "title": "Escaping ashi garami: leg lock defense",
+        "by": "Scott Elliott",
+        "vertical": false,
+        "channel": "Coach Scott Elliott",
+        "duration": 141,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Standing Up from Inside Ashi Defender",
@@ -397,6 +417,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Integrating defense into full ashi garami exchanges",
         "description": "Full positional sparring from Inside Ashi-Garami where the attacker can choose to submit, advance position, or stand up. Defender must read the attacker's intent and respond appropriately to each option. Focus on recognizing the standup early and selecting the correct defensive response under full resistance and speed. 6-minute rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "NljWP25vW5Y",
+        "title": "Standing false reap counter",
+        "by": "Doug",
+        "vertical": false,
+        "channel": "bjj doug",
+        "duration": 19,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QbTnnAOcAl4",
+        "title": "Clearing defensive hands in ashi garami",
+        "by": "Brian Glick",
+        "vertical": false,
+        "channel": "Brian Glick",
+        "duration": 191,
+        "verified": "2026-07-15"
       }
     ]
   }

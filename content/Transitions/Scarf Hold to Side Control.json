@@ -275,7 +275,36 @@
         "answer": "The crossface-first variant prioritizes continuous head control by establishing the crossface before releasing the head wrap, making it ideal against active opponents who immediately exploit any gap in head control. The quick-switch variant simultaneously releases old grips and establishes new ones in a faster but riskier movement, suitable against passive opponents who are unlikely to exploit the brief control gap. Choose crossface-first against experienced or aggressive defenders, and quick-switch when speed of transition is more important than control continuity."
       }
     ],
-    "safety_considerations": "This transition is low-risk from an injury standpoint as it involves positional adjustment rather than joint manipulation or choking mechanics. The primary safety concern is maintaining controlled pressure during the rotation to avoid accidentally driving excessive weight into the bottom player's ribs or sternum during the hip rotation phase. Practitioners should communicate during drilling if chest compression becomes uncomfortable, and the top player should avoid slamming their weight down after completing the rotation. During live training, be aware that the bottom player may attempt explosive escapes during the grip change window, which can create collision risks if both players commit to rapid movement simultaneously."
+    "safety_considerations": "This transition is low-risk from an injury standpoint as it involves positional adjustment rather than joint manipulation or choking mechanics. The primary safety concern is maintaining controlled pressure during the rotation to avoid accidentally driving excessive weight into the bottom player's ribs or sternum during the hip rotation phase. Practitioners should communicate during drilling if chest compression becomes uncomfortable, and the top player should avoid slamming their weight down after completing the rotation. During live training, be aware that the bottom player may attempt explosive escapes during the grip change window, which can create collision risks if both players commit to rapid movement simultaneously.",
+    "clips": [
+      {
+        "id": "SzLuqtw6lpE",
+        "title": "Side Control to Scarf Hold Position",
+        "by": "TRITAC Martial Arts",
+        "vertical": false,
+        "channel": "TRITAC Martial Arts",
+        "duration": 104,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "aAKcSjzX4to",
+        "title": "Side Control to Scarf Hold",
+        "by": "Raven Jiu Jitsu",
+        "vertical": false,
+        "channel": "Raven Jiu Jitsu",
+        "duration": 115,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "d7ucks8aHN0",
+        "title": "Kesa Gatame to Kimura transition",
+        "by": "Strong Hold Jiu Jitsu",
+        "vertical": false,
+        "channel": "Strong Hold Jiu Jitsu",
+        "duration": 71,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Scarf Hold to Side Control Defender",
@@ -385,6 +414,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Applying transition defense under full resistance conditions",
         "description": "Full resistance positional sparring starting from scarf hold. Top player may transition to side control at any time. Bottom player practices both scarf hold escapes and transition-specific defense based on what the top player chooses. Score points for successful guard recovery during transition window."
+      }
+    ],
+    "clips": [
+      {
+        "id": "2M_6VytUaus",
+        "title": "Kesa Gatame escape",
+        "by": "SBG Australia",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 43,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "-zFQ6h4yKT4",
+        "title": "Kuzure-kesa-gatame escapes",
+        "by": "Kodokan",
+        "vertical": false,
+        "channel": "KODOKAN",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fvp5_BVEtLg",
+        "title": "Kesa Gatame pressure defense using proper framing",
+        "by": "Kohbukan Sisu",
+        "vertical": false,
+        "channel": "Kohbukan Sisu",
+        "duration": 84,
+        "verified": "2026-07-15"
       }
     ]
   }

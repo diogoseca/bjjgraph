@@ -260,7 +260,27 @@
         "answer": "Do not stop to strip the collar grips, as this creates a static exchange that favors the defender. Instead, use your circling motion itself to break the grips—as you rotate past their shoulder line, the angle change naturally weakens their grip mechanics because their wrists must twist awkwardly to maintain the hold. If grips persist, pin their gripping elbow to their body with your armpit as you circle, which both neutralizes the grip and establishes the arm control you need for north-south consolidation."
       }
     ],
-    "safety_considerations": "This transition is relatively low-risk from an injury standpoint as it involves controlled movement rather than dynamic techniques or joint manipulation. The primary safety consideration is maintaining smooth, continuous pressure during the transition rather than sudden jerking movements that could cause the opponent's neck or shoulder to twist unexpectedly. When drilling, ensure the bottom partner communicates if pressure becomes uncomfortable, particularly around the head and neck area as you circle. In competition, be aware that rapid transitions can catch opponents off-guard—give them a moment to recognize the new position before attacking submissions."
+    "safety_considerations": "This transition is relatively low-risk from an injury standpoint as it involves controlled movement rather than dynamic techniques or joint manipulation. The primary safety consideration is maintaining smooth, continuous pressure during the transition rather than sudden jerking movements that could cause the opponent's neck or shoulder to twist unexpectedly. When drilling, ensure the bottom partner communicates if pressure becomes uncomfortable, particularly around the head and neck area as you circle. In competition, be aware that rapid transitions can catch opponents off-guard—give them a moment to recognize the new position before attacking submissions.",
+    "clips": [
+      {
+        "id": "8VT4dxSqCvI",
+        "title": "Leg drag pass mechanics",
+        "by": "Procel BJJ coach",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 94,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "aRpubM-K7Gc",
+        "title": "Toreando pass into north-south",
+        "by": "Jay Rodriguez",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 165,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Leg Drag to North-South Defender",
@@ -375,6 +395,26 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring integration",
         "description": "Full resistance positional sparring from leg drag bottom. Top player uses all consolidation options including north-south. Bottom player works to prevent any consolidation, with specific attention to the north-south transition. Track success rate across rounds and identify which recognition cues are most reliable under pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "aAitcEHUcRE",
+        "title": "Taking the back to escape north-south",
+        "by": "Stephan Kesting",
+        "vertical": false,
+        "channel": "Stephan Kesting",
+        "duration": 53,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "rmT52A--V3Q",
+        "title": "How to escape north-south",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ Plus",
+        "duration": 203,
+        "verified": "2026-07-15"
       }
     ]
   },

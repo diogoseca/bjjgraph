@@ -309,6 +309,26 @@
         "answer": "Choose the neck crank when the opponent has their chin tucked so tightly that choking grips cannot penetrate below the jaw line, when gi collar access is unavailable in no-gi, or when the opponent's neck musculature is too developed for arm-based chokes to compress the carotid arteries effectively. The crank attacks skeletal structures rather than blood flow, so it bypasses the muscular defenses that protect against chokes. It also works well as a secondary threat after a choke attempt is defended—the defensive chin tuck that stops the choke actually positions the head well for forward-compression cranking.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "PWvr1NUFxGs",
+        "title": "Filthy Neck Crank",
+        "by": "Neil Melanson",
+        "vertical": false,
+        "channel": "Neil Melanson",
+        "duration": 71,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "nw1iXWH7rP4",
+        "title": "Crucifix Neck Crank",
+        "by": "Bicudo BJJ",
+        "vertical": false,
+        "channel": "Bicudo BJJ",
+        "duration": 40,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -421,6 +441,26 @@
         "phase": "Phase 3: Full Defensive Sequence",
         "focus": "Connecting defense to escape under competition conditions",
         "description": "Partner attacks the neck crank with full technical execution. Defender works the complete sequence: recognize, chin tuck, bridge to disrupt, extract arm, frame, escape to guard. Emphasize tap discipline—tap immediately when cervical pressure engages. Build comfort with the worst-case position."
+      }
+    ],
+    "clips": [
+      {
+        "id": "TrRtPaMCA8I",
+        "title": "Crucifix Escape",
+        "by": "RKBJJ",
+        "vertical": false,
+        "channel": "RKBJJ Class Archive",
+        "duration": 88,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "OO92wSXFFV8",
+        "title": "Crucifix Escape",
+        "by": "Left Side Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Left Side Jiu-Jitsu ",
+        "duration": 145,
+        "verified": "2026-07-14"
       }
     ]
   }

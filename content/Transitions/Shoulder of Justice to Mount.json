@@ -279,7 +279,36 @@
         "answer": "Immediately transition to half guard top passing mode rather than retreating to Shoulder of Justice. Apply a knee slice pass using the forward momentum from the failed mount attempt, driving your trapped knee through the half guard entanglement. Alternatively, re-establish crossface pressure from half guard top and begin working the standard half guard passing progression. Do not attempt to extract your leg and return to Shoulder of Justice, as this wastes the positional progress already achieved and gives the opponent time to consolidate their half guard defense."
       }
     ],
-    "safety_considerations": "This transition involves sustained pressure on the temporomandibular joint and jaw area throughout the step-over phase. While not a joint lock or choke, the shoulder pressure can cause significant discomfort and potential jaw strain. In training, use controlled pressure that allows partners to practice defense without risk of dental or cervical injury. Reduce intensity immediately if training partners signal distress beyond normal positional discomfort. Avoid dropping knee weight onto the opponent's ribs or solar plexus during the step-over landing. Practitioners with pre-existing TMJ conditions, neck injuries, or dental work should communicate limitations before drilling this technique."
+    "safety_considerations": "This transition involves sustained pressure on the temporomandibular joint and jaw area throughout the step-over phase. While not a joint lock or choke, the shoulder pressure can cause significant discomfort and potential jaw strain. In training, use controlled pressure that allows partners to practice defense without risk of dental or cervical injury. Reduce intensity immediately if training partners signal distress beyond normal positional discomfort. Avoid dropping knee weight onto the opponent's ribs or solar plexus during the step-over landing. Practitioners with pre-existing TMJ conditions, neck injuries, or dental work should communicate limitations before drilling this technique.",
+    "clips": [
+      {
+        "id": "gMMKNpUu96w",
+        "title": "Side control to mount transition",
+        "by": "White Belt Jiu Jitsu",
+        "vertical": false,
+        "channel": "White Belt Jiu Jitsu",
+        "duration": 58,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "7xRbDDW3zFY",
+        "title": "Side control to mount",
+        "by": "CSW Association",
+        "vertical": false,
+        "channel": "CSW Association",
+        "duration": 91,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "EyQhJMK7_ic",
+        "title": "No-gi side control to mount",
+        "by": "Training with Lions",
+        "vertical": false,
+        "channel": "Training with Lions",
+        "duration": 98,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Shoulder of Justice to Mount Defender",
@@ -409,6 +438,17 @@
         "phase": "Phase 4: Live Application",
         "focus": "Defending under progressive resistance",
         "description": "Full positional sparring starting from Shoulder of Justice. Partner attempts the mount transition with increasing resistance and unpredictability, mixing mount attempts with submission threats. Develop the ability to distinguish genuine mount transition setups from feints and to select the appropriate defensive response under pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "O19KhyZBZwg",
+        "title": "Iron pillow frame vs side mount",
+        "by": "SBG New Braunfels",
+        "vertical": false,
+        "channel": "SBG New Braunfels BJJ",
+        "duration": 82,
+        "verified": "2026-07-15"
       }
     ]
   }

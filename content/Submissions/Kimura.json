@@ -366,5 +366,43 @@
       "name": "from Twister Side Control",
       "slug": "from-twister-side-control"
     }
+  ],
+  "clips": [
+    {
+      "id": "M-xjYAPgKVU",
+      "title": "Kimura and armbar from side control",
+      "by": "BJJ Recap",
+      "vertical": false,
+      "channel": "BJJ Recap",
+      "duration": 51,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "MIPeuSLIaKQ",
+      "title": "North-south kimura grip to armbar",
+      "by": "Raven Jiu Jitsu",
+      "vertical": false,
+      "channel": "Raven Jiu Jitsu",
+      "duration": 214,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "a52wxVLVkAY",
+      "title": "Kimura from guard, Marcelo Garcia version",
+      "by": "Marcelo Garcia",
+      "vertical": false,
+      "channel": "Skyhook Martial Arts & Fitness",
+      "duration": 106,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "dgYwflmcxKk",
+      "title": "Kimura from half guard bottom",
+      "by": "Georges St-Pierre",
+      "vertical": false,
+      "channel": "Hayabusa",
+      "duration": 72,
+      "verified": "2026-07-14"
+    }
   ]
 }

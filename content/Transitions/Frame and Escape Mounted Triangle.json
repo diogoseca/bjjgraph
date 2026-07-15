@@ -301,7 +301,18 @@
         "answer": "This indicates the opponent is transitioning to an armbar attack, using the hip pivot to isolate your arm. Immediately retract both arms tight to your body and turn toward the opponent rather than away. If possible, grip your own wrist with your free hand to create a two-on-one defense on the targeted arm. Their pivot and triangle release actually creates space—use it to accelerate your hip escape toward guard recovery rather than defending the armbar statically from your back."
       }
     ],
-    "safety_considerations": "When drilling this escape, communicate clearly with your training partner about triangle pressure levels. Begin with light pressure and gradually increase intensity as the technique improves. If you feel lightheaded, experience tingling, or see visual changes from the triangle choke during drilling, tap immediately—never attempt to tough out a locked triangle to practice the escape. Partners applying the mounted triangle should release pressure immediately upon tap and should avoid cranking neck-torquing angles during training. The escape should be drilled with enough realism to develop timing but never at the risk of consciousness loss during the learning process."
+    "safety_considerations": "When drilling this escape, communicate clearly with your training partner about triangle pressure levels. Begin with light pressure and gradually increase intensity as the technique improves. If you feel lightheaded, experience tingling, or see visual changes from the triangle choke during drilling, tap immediately—never attempt to tough out a locked triangle to practice the escape. Partners applying the mounted triangle should release pressure immediately upon tap and should avoid cranking neck-torquing angles during training. The escape should be drilled with enough realism to develop timing but never at the risk of consciousness loss during the learning process.",
+    "clips": [
+      {
+        "id": "sR2rS2dwpNY",
+        "title": "Escaping the triangle choke",
+        "by": "Rener & Ryron Gracie",
+        "vertical": false,
+        "channel": "Hayabusa",
+        "duration": 117,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Frame and Escape Mounted Triangle Defender",
@@ -421,6 +432,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance application and adaptation",
         "description": "Positional sparring from mounted triangle with full resistance. Top player works to finish or maintain while bottom player executes escape attempts. Track which escape patterns cause the most difficulty and develop targeted counters for each variation."
+      }
+    ],
+    "clips": [
+      {
+        "id": "a6SPEOcuNzs",
+        "title": "Keeping top control when the mounted triangle fails",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8ys-uZnBgYM",
+        "title": "Mounted triangle to armbar switch",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 26,
+        "verified": "2026-07-15"
       }
     ]
   }

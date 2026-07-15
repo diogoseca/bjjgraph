@@ -343,6 +343,35 @@
         "answer": "A finishing-quality mounted triangle has legs crossing perpendicular to the spine with the choking leg's calf pressing directly on the lateral neck, not sliding up onto the jaw or down onto the trapezius. The trapped shoulder must be wedged firmly against the opposite carotid — if the arm is floating or angled away, only one carotid is compressed and consciousness is maintained indefinitely. The head must be broken down so there is zero space between the thigh and the neck. An uncomfortable squeeze without proper angle creates jaw and face pressure that is painful but survivable, while a properly angled triangle restricts blood flow bilaterally and produces a tap within seconds.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "8f6rsOtI_HU",
+        "title": "Mounted Triangle from the Mount",
+        "by": "Way of BJJ",
+        "vertical": false,
+        "channel": "Way of BJJ",
+        "duration": 96,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "8ys-uZnBgYM",
+        "title": "Mounted Triangle Armbar",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 26,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "XWR8C2xp1SU",
+        "title": "Triangle to Reverse Triangle Finish",
+        "by": "Renzo Gracie Holland",
+        "vertical": false,
+        "channel": "RENZO GRACIE HOLLAND",
+        "duration": 51,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -477,6 +506,17 @@
         "phase": "Phase 4: Timed Survival and Escape",
         "focus": "Defense under pressure",
         "description": "Start in fully locked mounted triangle with partner applying progressive finishing pressure. Goal is to survive 60 seconds and escape at least once. Gradually increase partner's resistance level across sessions from 70% to full competition intensity. Builds mental toughness and validates defensive technique against committed attackers."
+      }
+    ],
+    "clips": [
+      {
+        "id": "sR2rS2dwpNY",
+        "title": "How To Escape a Triangle Choke",
+        "by": "Rener & Ryron Gracie",
+        "vertical": false,
+        "channel": "Hayabusa",
+        "duration": 117,
+        "verified": "2026-07-14"
       }
     ]
   }

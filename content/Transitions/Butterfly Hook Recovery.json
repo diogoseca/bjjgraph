@@ -243,7 +243,27 @@
         "answer": "Insert the hook on the side opponent is shifting their weight away from. When they move right, their left side becomes lighter - insert there. When they adjust grips, their weight typically shifts backward or laterally briefly. The lighter side offers less resistance to hook entry. Trying to insert on the heavy side results in the hook being immediately crushed."
       }
     ],
-    "safety_considerations": "Butterfly Hook Recovery is a low-risk technique that does not involve joint locks or chokes. The primary safety concern is avoiding excessive neck strain when stacked under heavy double unders pressure. If your spine is being compressed uncomfortably, prioritize turning to your side or accepting turtle rather than waiting for a hook insertion opportunity. During training, communicate with your partner about pressure intensity. When drilling, start with light pressure and progressively increase as technique improves. Practitioners with neck or lower back issues should work with reduced pressure and focus on early-stage prevention rather than recovery from deep stacking positions."
+    "safety_considerations": "Butterfly Hook Recovery is a low-risk technique that does not involve joint locks or chokes. The primary safety concern is avoiding excessive neck strain when stacked under heavy double unders pressure. If your spine is being compressed uncomfortably, prioritize turning to your side or accepting turtle rather than waiting for a hook insertion opportunity. During training, communicate with your partner about pressure intensity. When drilling, start with light pressure and progressively increase as technique improves. Practitioners with neck or lower back issues should work with reduced pressure and focus on early-stage prevention rather than recovery from deep stacking positions.",
+    "clips": [
+      {
+        "id": "lVLAROiSjNU",
+        "title": "Guard retention: when to sit up and escape",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 136,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "SMTORT8NDGw",
+        "title": "Guard recovery variation",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 185,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Butterfly Hook Recovery Defender",
@@ -360,6 +380,26 @@
         "phase": "Week 7+",
         "focus": "Live integration",
         "description": "Full resistance positional sparring from double unders top. Partner uses all recovery options including hook recovery, deep half entry, and granby rolls. Focus on maintaining passing pressure while adapting to whichever escape route opponent chooses. Track pass completion rate and average time to pass or position loss."
+      }
+    ],
+    "clips": [
+      {
+        "id": "YU4eCp4FXrA",
+        "title": "Shutting down guard recovery while passing",
+        "by": "Jason Rau",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 234,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "9miuP4-v0EE",
+        "title": "Passing half butterfly guard",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 192,
+        "verified": "2026-07-15"
       }
     ]
   },

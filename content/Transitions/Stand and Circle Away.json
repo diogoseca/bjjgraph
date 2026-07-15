@@ -276,7 +276,36 @@
         "answer": "The snap-down commits their weight forward and downward, which paradoxically opens up two excellent chain attacks. First, you can redirect into a single leg by catching their near leg as their weight drives forward — their snap-down momentum makes it difficult for them to sprawl away. Second, you can duck under their arm during the snap motion and circle behind them for a back take, since the snap exposes their far side as they overcommit downward. The principle is that their counter-force creates predictable weight distribution you can exploit rather than simply absorbing the snap and resetting to bottom position."
       }
     ],
-    "safety_considerations": "The Stand and Circle Away is generally a low-risk escape when executed with proper chin protection, but improper technique can expose you to dangerous chokes. Never extend your neck during the standing drive — this is the primary injury vector, as guillotine pressure combined with forced neck extension can cause cervical spine strain. If you feel a choke tightening during the escape, immediately tap or abort the escape to protect your neck and airway. During training, partners should incrementally increase resistance and release any choke that begins to tighten before the escape is complete. In competition, recognize when the grip is too deep and abandon the standing escape for a safer ground option rather than fighting through a locked choke. Knee and ankle injuries can occur if you drive upward with poor foot positioning, so ensure your feet are properly under your hips before initiating the stand."
+    "safety_considerations": "The Stand and Circle Away is generally a low-risk escape when executed with proper chin protection, but improper technique can expose you to dangerous chokes. Never extend your neck during the standing drive — this is the primary injury vector, as guillotine pressure combined with forced neck extension can cause cervical spine strain. If you feel a choke tightening during the escape, immediately tap or abort the escape to protect your neck and airway. During training, partners should incrementally increase resistance and release any choke that begins to tighten before the escape is complete. In competition, recognize when the grip is too deep and abandon the standing escape for a safer ground option rather than fighting through a locked choke. Knee and ankle injuries can occur if you drive upward with poor foot positioning, so ensure your feet are properly under your hips before initiating the stand.",
+    "clips": [
+      {
+        "id": "rVnKhZ2aX7k",
+        "title": "Clearing the front headlock",
+        "by": "Coach Slay",
+        "vertical": false,
+        "channel": "CreightonWrestling",
+        "duration": 94,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ry5lH-N7O-0",
+        "title": "Basic front headlock defense",
+        "by": "Askren Wrestling Academy",
+        "vertical": false,
+        "channel": "Askren Wrestling Academy",
+        "duration": 108,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ccoivM_CJw8",
+        "title": "Circling 2-on-1 front headlock escape",
+        "by": "LJJF Seals",
+        "vertical": false,
+        "channel": "LJJF seals",
+        "duration": 173,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Stand and Circle Away Defender",
@@ -401,6 +430,26 @@
         "phase": "Week 7-8",
         "focus": "Live situational sparring with full counters",
         "description": "Start in front headlock top, partner uses full resistance Stand and Circle Away with all variants including underhook variation and direction changes. Practice the complete counter decision tree: early sprawl, mid-phase guillotine, late-phase back take. Integrate with other front headlock attacks to build a complete offensive chain that responds to each escape attempt."
+      }
+    ],
+    "clips": [
+      {
+        "id": "8amBNhArfwY",
+        "title": "Front headlock short drag counter",
+        "by": "OMJJJ",
+        "vertical": false,
+        "channel": "OMJJJ",
+        "duration": 80,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "HiyveeWT9QQ",
+        "title": "Keeping front headlock: get to side control",
+        "by": "Pineapple MMA",
+        "vertical": false,
+        "channel": "Pineapple MMA",
+        "duration": 160,
+        "verified": "2026-07-15"
       }
     ]
   },

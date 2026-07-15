@@ -277,7 +277,36 @@
         "answer": "The bridge to guard recovery keeps you on your back with legs as primary defense, ideal for guard players. The bridge-and-turn commits you to turtle position, requiring scrambling ability. Choose guard recovery when you prefer leg-based defense and have space for leg insertion. Choose turtle when opponent pressure prevents leg insertion or you prefer wrestling-based scrambles."
       }
     ],
-    "safety_considerations": "This technique involves explosive hip extension which can strain the lower back if performed with poor mechanics. Ensure proper bridging form with drive coming from glutes and hamstrings rather than hyperextending the lumbar spine. During drilling, communicate with partners about pressure levels to prevent rib or shoulder injuries from heavy North-South pressure. Avoid this escape if you have active lower back injuries. When practicing at full resistance, ensure the mat surface provides adequate cushioning, as failed attempts result in returning to a pinned position with additional impact. Tap immediately if partner achieves arm isolation during your escape attempt rather than fighting through to prevent shoulder injuries."
+    "safety_considerations": "This technique involves explosive hip extension which can strain the lower back if performed with poor mechanics. Ensure proper bridging form with drive coming from glutes and hamstrings rather than hyperextending the lumbar spine. During drilling, communicate with partners about pressure levels to prevent rib or shoulder injuries from heavy North-South pressure. Avoid this escape if you have active lower back injuries. When practicing at full resistance, ensure the mat surface provides adequate cushioning, as failed attempts result in returning to a pinned position with additional impact. Tap immediately if partner achieves arm isolation during your escape attempt rather than fighting through to prevent shoulder injuries.",
+    "clips": [
+      {
+        "id": "960u_PQy8XM",
+        "title": "Bridge and shrimp side control escape",
+        "by": "White Belt Jiu Jitsu",
+        "vertical": false,
+        "channel": "White Belt Jiu Jitsu",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "D6toRF1vM7s",
+        "title": "Solo hip escape drill on your back",
+        "by": "Move Well Durham",
+        "vertical": false,
+        "channel": "Move Well Durham",
+        "duration": 47,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "q4e8HHp7avk",
+        "title": "Three tricks to stop your guard getting passed",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ Plus",
+        "duration": 147,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Explosive Bridge to Guard Recovery Defender",
@@ -406,6 +435,17 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Full resistance positional rounds starting from North-South. Top player works to maintain control and advance while bottom player uses bridge to guard recovery and chain escapes. Integrate all defensive tools against realistic escape sequences."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Y1Sxim-5NRc",
+        "title": "Underhook and crossface pin against the bridge",
+        "by": "Mads H.",
+        "vertical": false,
+        "channel": "Mads H. BJJ",
+        "duration": 261,
+        "verified": "2026-07-15"
       }
     ]
   },

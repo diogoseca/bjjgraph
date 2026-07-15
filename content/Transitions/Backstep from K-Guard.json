@@ -300,7 +300,36 @@
         "answer": "Use the re-hook commitment against them. As they pull the trapped leg back across the centerline, their tension is now directed forward-laterally, which opens a forward-pressure pass. Feint to reset the backstep, then immediately switch to a knee slice or smash pass in the direction they just over-committed. Alternatively, redirect the extraction arc into a leg drag by catching their far leg across your body. The backstep and forward passes form a two-way dilemma that exhausts their retention."
       }
     ],
-    "safety_considerations": "The backstep movement involves rotational forces on both players' knees during the extraction arc. Execute the circular arc motion with controlled speed to avoid sudden torque on the bottom player's hooked knee. Both partners should communicate immediately if knee pressure becomes uncomfortable during drilling. Start at reduced speed and intensity to develop familiarity with the movement pattern before adding resistance. Never force the trapped leg extraction against fully locked hooks, as this creates dangerous shearing forces on both players' knee joints."
+    "safety_considerations": "The backstep movement involves rotational forces on both players' knees during the extraction arc. Execute the circular arc motion with controlled speed to avoid sudden torque on the bottom player's hooked knee. Both partners should communicate immediately if knee pressure becomes uncomfortable during drilling. Start at reduced speed and intensity to develop familiarity with the movement pattern before adding resistance. Never force the trapped leg extraction against fully locked hooks, as this creates dangerous shearing forces on both players' knee joints.",
+    "clips": [
+      {
+        "id": "wkPHi2q1Cbo",
+        "title": "K guard to 411 leg entanglement",
+        "by": "10th Planet St Louis",
+        "vertical": false,
+        "channel": "10th Planet St Louis",
+        "duration": 41,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "i8nOBcGeXv8",
+        "title": "Back step pass into the saddle",
+        "by": "Rich Close Quarters BJJ",
+        "vertical": false,
+        "channel": "Rich Close Quarters Brazilian Jiu Jitsu (CQ Brazilian Jiu Jitsu)",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "oh-3fjFUImY",
+        "title": "No-gi back-step attacks",
+        "by": "C4 Brazilian Jiu Jitsu",
+        "vertical": false,
+        "channel": "C4 BRAZILIAN JIU JITSU",
+        "duration": 65,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Backstep from K-Guard Defender",
@@ -421,6 +450,26 @@
         "phase": "Full Situational Sparring",
         "focus": "Complete defensive decision-making integration",
         "description": "Start in K-Guard bottom against full-resistance top player who may or may not attempt the backstep. Practice the complete defensive decision tree: recognize backstep cues, attempt retention through hook tension, transition to Single Leg X if retention fails, and continue offensive sequences from the new position."
+      }
+    ],
+    "clips": [
+      {
+        "id": "EPfM9pTRivE",
+        "title": "Kill the K guard with a kick spin maneuver",
+        "by": "Keenan Cornelius",
+        "vertical": false,
+        "channel": "Keenan Cornelius",
+        "duration": 196,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "JxDViUC4xhk",
+        "title": "K guard defense",
+        "by": "Rodrigo Lopes",
+        "vertical": false,
+        "channel": "Pathfinder Jiu-Jitsu Team",
+        "duration": 289,
+        "verified": "2026-07-15"
       }
     ]
   }

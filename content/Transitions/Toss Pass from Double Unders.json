@@ -287,7 +287,27 @@
         "answer": "Maintain a low, compressed posture with your hips close to the opponent's body throughout the toss, eliminating the space they need to rotate underneath you. If you sense them attempting to dive under during the loading phase, immediately walk your knees forward to pin their hips before initiating the toss. The deep half entry requires space under your hips - by keeping your posture low and hips connected, you deny the prerequisite space for this escape."
       }
     ],
-    "safety_considerations": "The Toss Pass involves explosive lateral redirection of the opponent's lower body which can stress the lumbar spine and hip joints if performed with excessive force. Partners should communicate comfort levels during drilling, especially regarding the intensity of the toss. The technique works through precise redirection rather than raw power - avoid slamming legs to the mat. Be mindful of training partners with lower back, hip, or knee injuries. During the follow-through, control your chest drop to avoid landing with full force on the opponent's ribs. Always allow controlled landing and avoid explosive toss practice with significantly smaller partners where the force differential creates injury risk."
+    "safety_considerations": "The Toss Pass involves explosive lateral redirection of the opponent's lower body which can stress the lumbar spine and hip joints if performed with excessive force. Partners should communicate comfort levels during drilling, especially regarding the intensity of the toss. The technique works through precise redirection rather than raw power - avoid slamming legs to the mat. Be mindful of training partners with lower back, hip, or knee injuries. During the follow-through, control your chest drop to avoid landing with full force on the opponent's ribs. Always allow controlled landing and avoid explosive toss practice with significantly smaller partners where the force differential creates injury risk.",
+    "clips": [
+      {
+        "id": "N4PxPPv98k4",
+        "title": "Double unders pass",
+        "by": "Nicky Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 91,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MPUuovNI1ak",
+        "title": "Double under pass breakdown",
+        "by": "Scranton MMA",
+        "vertical": false,
+        "channel": "Scranton Mma",
+        "duration": 131,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Toss Pass from Double Unders Defender",
@@ -403,6 +423,35 @@
         "phase": "Guard Recovery Under Pressure",
         "focus": "Post-toss hook insertion and guard re-establishment",
         "description": "Partner completes the toss at progressively increasing intensity and speed. Practice inserting knee shields, butterfly hooks, or hip escaping during and immediately after the toss motion to prevent pass consolidation. Build the reflex of accepting the toss direction and immediately working guard recovery on the landing side."
+      }
+    ],
+    "clips": [
+      {
+        "id": "4k-D0Q8DeGQ",
+        "title": "Simple double under guard pass defense",
+        "by": "Ancient City Martial Arts",
+        "vertical": false,
+        "channel": "Ancient City Martial Arts and The Training Loft",
+        "duration": 56,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "kgEKjcHAyh4",
+        "title": "Stop the double under pass with a stiff arm",
+        "by": "JitzLive",
+        "vertical": false,
+        "channel": "JitzLive",
+        "duration": 66,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Ad0qtay9IVQ",
+        "title": "Double under stack defense and counter",
+        "by": "Wim Deputter",
+        "vertical": false,
+        "channel": "Wim Deputter BJJ",
+        "duration": 130,
+        "verified": "2026-07-15"
       }
     ]
   }

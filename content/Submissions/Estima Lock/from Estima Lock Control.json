@@ -332,6 +332,35 @@
         "answer": "Under time pressure, prioritize rapid consolidation of all four finishing prerequisites simultaneously rather than sequentially: seat the grip, drive the hip fulcrum, control the free leg, and initiate the dorsiflexion in one coordinated movement. Increase the rate of progressive pressure application while still avoiding dangerous jerking. If the primary Estima Lock angle is being defended, transition immediately to the highest-percentage alternative rather than spending time re-adjusting—a toe hold or belly-down variation often finishes faster than fighting through a well-established foot-flattening defense.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "_6BC8d5B5Hs",
+        "title": "Estima Lock",
+        "by": "bjjtaro",
+        "vertical": false,
+        "channel": "bjjtaro",
+        "duration": 31,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Ao0IatSHEi0",
+        "title": "Estima Lock",
+        "by": "Leandro Dos Santos Flores",
+        "vertical": false,
+        "channel": "Sensei Leandro Dos Santos Flores",
+        "duration": 27,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "-RKlONkjanA",
+        "title": "Estima Lock Finish",
+        "by": "Yao Nkromah",
+        "vertical": false,
+        "channel": "Yao TheTruth",
+        "duration": 50,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -465,6 +494,17 @@
         "phase": "Phase 4: Transition Integration",
         "focus": "Defending within full leg lock exchanges",
         "description": "Integrate Estima Lock defense into broader leg entanglement sparring. Start from 50-50 or open guard and work through the full positional chain including Estima Lock attempts and defenses. Develop the ability to recognize and defend the lock within the flow of dynamic grappling rather than only from static starting positions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "zErch4qHfB0",
+        "title": "Counter Footlock from Straight Ankle Lock",
+        "by": "James Clingerman",
+        "vertical": false,
+        "channel": "James Clingerman",
+        "duration": 12,
+        "verified": "2026-07-14"
       }
     ]
   }

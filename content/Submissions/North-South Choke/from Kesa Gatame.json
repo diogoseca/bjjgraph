@@ -344,6 +344,26 @@
         "answer": "Commit to the choke only when your arm is threaded past the centerline of the throat and the opponent is flat with their near arm controlled, because from there the rotation is high-percentage and ends the match outright. If your arm is shallow, the opponent is actively turning into you, or you are already ahead late on points, stay in Kesa Gatame and keep accumulating pressure and arm-attack threats instead of gambling the rotation, which can open a guard recovery or scramble. Treat the choke as a match-ender you take only when the entry is genuinely there.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "z3RNUfHfiSM",
+        "title": "Marcelo Garcia - North South Choke",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "Kon Ying",
+        "duration": 20,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "SPXanCnoBYA",
+        "title": "North South Choke as a Pinning Tool",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 135,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -479,6 +499,35 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Full-resistance defense starting from Kesa Gatame with attacker hunting the choke",
         "description": "Positional rounds starting from Kesa Gatame with the top player using the North-South Choke among other attacks at full resistance. Defender works all available defenses and escapes. Two-minute rounds with roles switching. Track success rate and identify which defensive phase needs the most work."
+      }
+    ],
+    "clips": [
+      {
+        "id": "XaLBmGnHm78",
+        "title": "North South inverted spin escape",
+        "by": "SBG Australia",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 37,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "JgVZpD0yZPk",
+        "title": "North South lapel sweep from bottom",
+        "by": "Edward Anthony",
+        "vertical": false,
+        "channel": "Edward “Scissorhands” Anthony Jiu Jitsu ",
+        "duration": 82,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "rmT52A--V3Q",
+        "title": "How to escape North South",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ Plus",
+        "duration": 203,
+        "verified": "2026-07-14"
       }
     ]
   }

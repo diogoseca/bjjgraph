@@ -262,7 +262,36 @@
         "answer": "The best timing windows are immediately after establishing turtle top before the opponent can organize their defense, when the opponent is recovering from a failed escape attempt and temporarily immobile, and when the opponent exposes their collar by shifting their weight or adjusting hand position. The worst time to attempt is when the opponent is actively moving or has just tightened their defensive shell, as they will have maximum awareness and defensive structure."
       }
     ],
-    "safety_considerations": "The Clock Choke is a blood choke that can render an opponent unconscious within seconds once fully applied. Always release immediately upon tap or when unconsciousness is detected. Apply pressure gradually during drilling to allow your partner time to tap before the choke becomes fully tight. Never crank or jerk the rotation, as this can cause cervical spine injury in addition to the choking mechanism. Partners should tap early when practicing, as the choke tightens rapidly during the sprawl phase. Practitioners with neck injuries should avoid this technique until fully healed. When drilling, communicate clearly about pressure levels and respect tap signals immediately."
+    "safety_considerations": "The Clock Choke is a blood choke that can render an opponent unconscious within seconds once fully applied. Always release immediately upon tap or when unconsciousness is detected. Apply pressure gradually during drilling to allow your partner time to tap before the choke becomes fully tight. Never crank or jerk the rotation, as this can cause cervical spine injury in addition to the choking mechanism. Partners should tap early when practicing, as the choke tightens rapidly during the sprawl phase. Practitioners with neck injuries should avoid this technique until fully healed. When drilling, communicate clearly about pressure levels and respect tap signals immediately.",
+    "clips": [
+      {
+        "id": "gKzOk8XthEQ",
+        "title": "Bulldog choke from top turtle (no-gi clock choke)",
+        "by": "Brad Hodges",
+        "vertical": false,
+        "channel": "Brad Hodges Mma training drills and techniques",
+        "duration": 67,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "5E4oms5Yx6Q",
+        "title": "The most important choke from top turtle",
+        "by": "Brazilian Top Team Happy Valley",
+        "vertical": false,
+        "channel": "Brazilian Top Team Happy Valley ",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "7-0YrhCpDUo",
+        "title": "Clock choke breakdown",
+        "by": "Energia Martial Arts",
+        "vertical": false,
+        "channel": "Energia Martial Arts",
+        "duration": 179,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Clock Choke Defender",
@@ -392,6 +421,35 @@
         "phase": "Week 7+",
         "focus": "Full sparring integration and tap awareness",
         "description": "Integrate Clock Choke defense into full sparring rounds. Practice recognizing the setup from live turtle exchanges, defending early, and making intelligent decisions about when to fight and when to tap. Track which defensive responses succeed most often against different training partners."
+      }
+    ],
+    "clips": [
+      {
+        "id": "5DnhNOvP66I",
+        "title": "Clock choke escape",
+        "by": "Renato Migliaccio",
+        "vertical": false,
+        "channel": "Renato Migliaccio",
+        "duration": 11,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "RiBLBO9zinA",
+        "title": "Clock choke counter",
+        "by": "Jamie Ridgeway",
+        "vertical": false,
+        "channel": "Jamie Ridgeway",
+        "duration": 79,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "bHIR07WZ8yI",
+        "title": "Escaping the clock choke from turtle",
+        "by": "Andy Tong",
+        "vertical": false,
+        "channel": "Andy Tong",
+        "duration": 17,
+        "verified": "2026-07-15"
       }
     ]
   },

@@ -242,5 +242,43 @@
       "name": "Back Control",
       "relationship": "Alternative target when opponent turns during arm triangle defense"
     }
+  ],
+  "clips": [
+    {
+      "id": "tc-XXMg7v48",
+      "title": "The mounted arm triangle",
+      "by": "Coach Brian",
+      "vertical": false,
+      "channel": "TeachMeGrappling Coach Brian",
+      "duration": 145,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "YHCZ7SHep5k",
+      "title": "Finishing head-and-arm chokes the right way",
+      "by": "Henry Akins",
+      "vertical": false,
+      "channel": "Henry Akins' Hidden Jiu-Jitsu",
+      "duration": 88,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "wrZCRBlAB3Y",
+      "title": "Head and arm choke from mount finishing details",
+      "by": "Roger Gracie",
+      "vertical": false,
+      "channel": "Roger Gracie TV",
+      "duration": 265,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "WSz5MbUhb_0",
+      "title": "Von Flu and arm triangle",
+      "by": "Pure Grappling",
+      "vertical": false,
+      "channel": "Pure Grappling",
+      "duration": 52,
+      "verified": "2026-07-14"
+    }
   ]
 }

@@ -273,7 +273,36 @@
         "answer": "Follow the roll and maintain the darce grip throughout. The darce finishes effectively from the chest-to-chest position with the opponent on their back, and in some cases the finishing angle improves because gravity assists the compression. Walk your hips to maintain perpendicular pressure and continue squeezing. Do not release the grip to chase a top position—the darce is viable from multiple angles once the figure-four is fully locked."
       }
     ],
-    "safety_considerations": "The darce choke is a blood choke that compresses both carotid arteries simultaneously, producing unconsciousness within seconds when properly applied. Always apply the grip progressively during training and allow adequate time for your partner to recognize the pressure and tap before the choke fully engages. The arm threading under the far armpit can strain the opponent's shoulder if forced aggressively, so thread smoothly rather than yanking. Partners should tap early when bilateral pressure is felt rather than waiting for vision changes. Practitioners with cervical spine issues should communicate this before drilling, as the head pressure component can aggravate existing neck conditions. Never apply cranking or twisting force—the darce is a squeeze, not a crank. Release immediately upon tap and monitor your partner for delayed symptoms after successful applications."
+    "safety_considerations": "The darce choke is a blood choke that compresses both carotid arteries simultaneously, producing unconsciousness within seconds when properly applied. Always apply the grip progressively during training and allow adequate time for your partner to recognize the pressure and tap before the choke fully engages. The arm threading under the far armpit can strain the opponent's shoulder if forced aggressively, so thread smoothly rather than yanking. Partners should tap early when bilateral pressure is felt rather than waiting for vision changes. Practitioners with cervical spine issues should communicate this before drilling, as the head pressure component can aggravate existing neck conditions. Never apply cranking or twisting force—the darce is a squeeze, not a crank. Release immediately upon tap and monitor your partner for delayed symptoms after successful applications.",
+    "clips": [
+      {
+        "id": "6d6Wkgh9imU",
+        "title": "Anaconda vs D'Arce: switching between configurations",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 67,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8Idnp8DpSHU",
+        "title": "Finishing the D'Arce on bigger opponents",
+        "by": "Rener and Ryron Gracie",
+        "vertical": false,
+        "channel": "Hayabusa",
+        "duration": 151,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "FZOqivRqzrg",
+        "title": "D'Arce setup from half guard, no-gi",
+        "by": "Roy Dean",
+        "vertical": false,
+        "channel": "ROYDEAN",
+        "duration": 193,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Switch to Darce Configuration Defender",
@@ -397,6 +426,35 @@
         "phase": "Week 7-8",
         "focus": "Full resistance defensive sparring",
         "description": "Positional sparring starting from buggy choke top with partner attacking the full decision tree including darce switch, anaconda switch, and buggy choke finish. Defender uses complete defensive arsenal under full resistance. Score for successful defense (denying the darce, escaping to guard, extracting the trapped arm). Builds competition-realistic defensive capability under genuine pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "tbLmzzg6TcE",
+        "title": "Craig Jones D'Arce escape breakdown",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "DR-Grappling-Breakdowns",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "d1YBV8UTKds",
+        "title": "D'Arce choke defense",
+        "by": "Animal",
+        "vertical": false,
+        "channel": "Animal",
+        "duration": 53,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lcSRdtcUKcU",
+        "title": "Countering the Brabo / D'Arce choke",
+        "by": "Stephan Kesting",
+        "vertical": false,
+        "channel": "Stephan Kesting",
+        "duration": 143,
+        "verified": "2026-07-15"
       }
     ]
   },

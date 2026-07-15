@@ -336,7 +336,27 @@
         "answer": "The mounted crucifix pre-solves the two biggest problems in standard mount armbars: arm isolation and grip prevention. From standard mount, the attacker must fight to isolate one arm and prevent the defender from clasping hands — both of which consume time and energy while telegraphing intention. The crucifix configuration has already trapped the arm with leg mechanics, meaning the defender cannot establish defensive grips, cannot frame against the transition, and cannot use their second arm to assist the trapped arm. This eliminates roughly 60% of the defensive responses that normally defeat mount armbars, dramatically increasing completion rates at all skill levels."
       }
     ],
-    "safety_considerations": "The crucifix armbar applies sudden hyperextension force to the elbow joint in a position where the defender has severely limited ability to resist or create space. In training, always apply the finishing extension gradually and progressively—never use explosive hip bridges against your partner's arm. Allow training partners adequate time to recognize the submission and tap before increasing pressure. The trapped position means the defender may have difficulty reaching to tap with their free hand; establish verbal tap signals and immediately release upon any tap indication. Monitor your partner's arm position throughout and abort if the angle becomes dangerous. Competition practitioners should drill the finish with controlled intensity to develop proper mechanics without relying on explosive force."
+    "safety_considerations": "The crucifix armbar applies sudden hyperextension force to the elbow joint in a position where the defender has severely limited ability to resist or create space. In training, always apply the finishing extension gradually and progressively—never use explosive hip bridges against your partner's arm. Allow training partners adequate time to recognize the submission and tap before increasing pressure. The trapped position means the defender may have difficulty reaching to tap with their free hand; establish verbal tap signals and immediately release upon any tap indication. Monitor your partner's arm position throughout and abort if the angle becomes dangerous. Competition practitioners should drill the finish with controlled intensity to develop proper mechanics without relying on explosive force.",
+    "clips": [
+      {
+        "id": "qq1LScm50Ow",
+        "title": "Arm drag to crucifix armlock",
+        "by": "John Gutta",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 151,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "JRaAEvCjz0A",
+        "title": "Crucifix armbar on a turtled opponent",
+        "by": "Prodigy MMA",
+        "vertical": false,
+        "channel": "Prodigy MMA Australia",
+        "duration": 129,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Armbar from Crucifix Defender",
@@ -477,6 +497,17 @@
         "phase": "Phase 4: Live Defense Integration",
         "focus": "Defending the full crucifix attack chain under realistic pressure",
         "description": "Start from established crucifix with partner flowing between choke and armbar threats at full speed. Defender applies all defensive tools: recognition, arm retraction, grip fighting, bridging, and positional disruption. Track whether you survive, escape to back control, or get submitted. Identify personal defensive weaknesses and drill them specifically."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Wrg5Tx-88yM",
+        "title": "Simple crucifix escape",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 149,
+        "verified": "2026-07-15"
       }
     ]
   }

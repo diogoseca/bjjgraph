@@ -215,5 +215,43 @@
       "name": "Guillotine Control",
       "relationship": "Related control position—guillotine defenses frequently create the arm-neck gap needed for darce entry"
     }
+  ],
+  "clips": [
+    {
+      "id": "ukb_hx28qsM",
+      "title": "Side Control D'Arce Choke (No Gi)",
+      "by": "ZombieProofBJJ",
+      "vertical": false,
+      "channel": "ZombieProofBJJ",
+      "duration": 74,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "22EYQ2uhxQw",
+      "title": "Side control to north-south D'Arce",
+      "by": "Gracie Westchase",
+      "vertical": false,
+      "channel": "Gracie Westchase ",
+      "duration": 75,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "eEDKC2F3U2k",
+      "title": "Double stack pass to a Darce choke",
+      "by": "All Day MMA and Jiu Jitsu",
+      "vertical": false,
+      "channel": "All Day MMA and Jiu Jitsu ",
+      "duration": 85,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "Rosmg5rjo_s",
+      "title": "Darce choke to guard pass",
+      "by": "Josh Presley",
+      "vertical": false,
+      "channel": "Josh Presley",
+      "duration": 121,
+      "verified": "2026-07-14"
+    }
   ]
 }

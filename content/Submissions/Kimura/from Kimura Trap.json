@@ -409,6 +409,35 @@
         "answer": "Abandon the Kimura attempt when: (1) opponent successfully hides their arm tight to their body for more than 3-4 seconds despite your attempts to extract it; (2) your base becomes significantly compromised and you risk being swept or reversed; (3) opponent is rolling away from you (not into you) creating distance and breaking your chest pressure; (4) you've lost the figure-four grip and cannot quickly reestablish it; or (5) time pressure in competition requires a faster scoring option. In these scenarios, transition to north-south choke if they're framing, take mount if they're turning toward you, or secure back control if they've exposed their back during defense. Never force a submission at the expense of losing position entirely.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "baHSGhmYVmM",
+        "title": "Kimura Trap Setup Tutorial (No-Gi)",
+        "by": "FreeChannelOpen",
+        "vertical": false,
+        "channel": "FreeChannelOpen",
+        "duration": 91,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "QF7R6uovqSc",
+        "title": "Kimura Trap finish",
+        "by": "Rudy Fields",
+        "vertical": false,
+        "channel": "Rudy Fields",
+        "duration": 46,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "PiaCdkFIxPk",
+        "title": "Kimura Trap submission at Pan Ams",
+        "by": "Luke Ruffo",
+        "vertical": false,
+        "channel": "Luke Ruffo",
+        "duration": 89,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -557,6 +586,35 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Defending under progressive resistance",
         "description": "Full positional sparring starting from Kimura Trap with attacker working genuine finish attempts. Defender applies all defensive layers in sequence: recognition, grip defense, escape mechanics, and appropriate tapping when defense fails. Develop realistic timing and defensive decision-making under pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "GOLwVNTVcnY",
+        "title": "Kimura Defense Grip Breaks",
+        "by": "Dirtball BJJ",
+        "vertical": false,
+        "channel": "Dirtball BJJ",
+        "duration": 81,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "uRn3DRICpeY",
+        "title": "Late Kimura Defense from Bottom Side Control",
+        "by": "Fox Den Martial Arts",
+        "vertical": false,
+        "channel": "Fox Den Martial Arts",
+        "duration": 100,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "FNyL93v5fGs",
+        "title": "Defending the Americana/Kimura",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 91,
+        "verified": "2026-07-14"
       }
     ]
   }

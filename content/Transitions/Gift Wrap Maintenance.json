@@ -290,7 +290,36 @@
         "answer": "Rely on structural positioning rather than muscular effort for primary control. The arm threading angle, chest-to-back gravity, and hook placement should create a self-reinforcing structure that requires minimal active force. Save muscular effort for brief counter-pressure during escape attempts and for offensive threats. Between escape attempts, consciously relax your grip to functional minimum tension while maintaining positional alignment."
       }
     ],
-    "safety_considerations": "Gift Wrap Maintenance involves sustained pressure on the opponent's shoulder joint through the trapped arm position. Monitor for signs of shoulder distress including verbal indicators, tapping, or visible discomfort. The arm trap should create positional control without causing pain or injury to the shoulder joint. If the opponent indicates shoulder discomfort, adjust the arm angle to reduce joint stress while maintaining control. Never use the arm trap as a pain compliance technique—it is a positional control tool. Release immediately if your partner taps."
+    "safety_considerations": "Gift Wrap Maintenance involves sustained pressure on the opponent's shoulder joint through the trapped arm position. Monitor for signs of shoulder distress including verbal indicators, tapping, or visible discomfort. The arm trap should create positional control without causing pain or injury to the shoulder joint. If the opponent indicates shoulder discomfort, adjust the arm angle to reduce joint stress while maintaining control. Never use the arm trap as a pain compliance technique—it is a positional control tool. Release immediately if your partner taps.",
+    "clips": [
+      {
+        "id": "g4onw9pd4_s",
+        "title": "Getting and maintaining gift wrap control",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 121,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "eKTd-9SkrVk",
+        "title": "Holding the gift wrap to take the back",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 81,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "TqKNr2lC7B0",
+        "title": "Gift wrap control position details",
+        "by": "Ronin Dojo",
+        "vertical": false,
+        "channel": "Ronin Dojo",
+        "duration": 114,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Gift Wrap Maintenance Defender",
@@ -415,6 +444,17 @@
         "phase": "Phase 4: Full Resistance Application",
         "focus": "Competition-intensity escape practice under realistic pressure",
         "description": "Partner maintains Gift Wrap and attacks at full resistance. Defender works complete escape sequences from recognition through execution. Measure success rate and identify personal weaknesses. Develop mental composure under the stress of full-resistance Gift Wrap maintenance."
+      }
+    ],
+    "clips": [
+      {
+        "id": "j5y349B6Go8",
+        "title": "Simple gift wrap escape",
+        "by": "Chewjitsu",
+        "vertical": false,
+        "channel": "Chewjitsu",
+        "duration": 160,
+        "verified": "2026-07-15"
       }
     ]
   }

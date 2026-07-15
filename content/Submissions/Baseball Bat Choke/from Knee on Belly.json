@@ -324,6 +324,35 @@
         "answer": "Staying upright after completing the spin instead of dropping the chest flat to the mat. The rotational torsion through the collar requires downward body weight to reach full compression. Without the chest-to-mat position, there is insufficient force to close both carotid arteries against a resisting opponent. After the spin, immediately sprawl your legs back and press your forehead and chest to the mat. Walking your hips slightly away from the opponent adds additional torsional pressure through the collar.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "RxMwGEBoPYw",
+        "title": "Baseball Bat Choke From Knee on Belly",
+        "by": "Clayton Phillips",
+        "vertical": false,
+        "channel": "Clayton Phillips",
+        "duration": 105,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "JFk3ZiedLdY",
+        "title": "Baseball Bat Choke",
+        "by": "Iron & Soul",
+        "vertical": false,
+        "channel": "Iron & Soul",
+        "duration": 60,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "uvr8pF7ad7k",
+        "title": "Baseball Bat Choke",
+        "by": "Jiu-Jitsu Times",
+        "vertical": false,
+        "channel": "Jiu-Jitsu Times",
+        "duration": 67,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -460,6 +489,35 @@
         "phase": "Full Defense Under Pressure",
         "focus": "Integrating recognition, grip prevention, and escape under full resistance",
         "description": "Live positional rounds starting from Knee on Belly. Partner attempts Baseball Bat Choke with full intent. Bottom player practices the complete defensive sequence from recognition through escape or tap. 3-minute rounds with role switching."
+      }
+    ],
+    "clips": [
+      {
+        "id": "dUDptMjjrnQ",
+        "title": "No Gi Baseball Bat Choke Defence",
+        "by": "Team Anaconda Central Coast",
+        "vertical": false,
+        "channel": "Team Anaconda Central Coast - Brazilian Jiu Jitsu & MMA",
+        "duration": 42,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "nLtarv8APWA",
+        "title": "Baseball Choke defense in 60 seconds",
+        "by": "Trujitsu",
+        "vertical": false,
+        "channel": "Trujitsu",
+        "duration": 66,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "rj1OPITKM3U",
+        "title": "Baseball Choke from the Bottom Defense",
+        "by": "Schell Shock BJJ",
+        "vertical": false,
+        "channel": "Fuquay Varina Brazilian Jiu Jitsu - Schell Shock BJJ",
+        "duration": 78,
+        "verified": "2026-07-14"
       }
     ]
   }

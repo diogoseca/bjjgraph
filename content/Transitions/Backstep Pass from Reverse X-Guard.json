@@ -422,6 +422,35 @@
         "focus": "Full-speed defense and counter-offense",
         "description": "Start from Reverse X-Guard with full resistance. Defend backstep attempts while maintaining offensive guard threats. Track which defensive response you default to and develop the ability to choose optimally based on the passer's commitment level and timing."
       }
+    ],
+    "clips": [
+      {
+        "id": "UYSDyiPraRQ",
+        "title": "Imanari roll to counter the backstep from reverse X",
+        "by": "Alex Fialho",
+        "vertical": false,
+        "channel": "LegLock Assassins",
+        "duration": 116,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2hJO3DwdFK4",
+        "title": "Backstep counter from reverse X into the saddle",
+        "by": "Kieran Davern",
+        "vertical": false,
+        "channel": "KD Grappling | Kieran Davern",
+        "duration": 198,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "a3ModDEKY6s",
+        "title": "Defending the backstep pass and recovering De La Riva",
+        "by": "Inverted Gear",
+        "vertical": false,
+        "channel": "Inverted Gear",
+        "duration": 145,
+        "verified": "2026-07-15"
+      }
     ]
   }
 }

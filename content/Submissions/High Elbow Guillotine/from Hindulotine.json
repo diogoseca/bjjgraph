@@ -331,6 +331,35 @@
         "answer": "The four primary defenses are: posture recovery and head extraction by driving upward, Von Flue shoulder pressure counter-choke by driving their shoulder into your neck, guard passing to relieve the choking angle by working laterally, and arm framing by wedging their forearm between your choking arm and their neck. Each defense has a specific counter—tighten legs against posture, angle hips against Von Flue, maintain guard against passing, and transition to darce against framing. Anticipating these responses allows you to pre-position your body to shut them down.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "NUnTxPvjCa0",
+        "title": "The Marcelotine High Elbow Guillotine",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "stuartcooperfilms",
+        "duration": 73,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "9U5nyBImGj4",
+        "title": "High Elbow Guillotine aka Marcelotine",
+        "by": "Wrecking Crew BJJ",
+        "vertical": false,
+        "channel": "Wrecking Crew BJJ",
+        "duration": 45,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "HPAWgC8qxFY",
+        "title": "Marcelotine High Elbow Guillotine",
+        "by": "Miguel Garcia",
+        "vertical": false,
+        "channel": "Miguel Garcia",
+        "duration": 47,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -458,6 +487,35 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Full-speed defense from Hindulotine entries",
         "description": "Start in Hindulotine with the attacker given freedom to attempt any finish including the high elbow. Defend with full resistance, implementing the complete defensive decision tree. Track which defenses succeed and which require further drilling. 6-minute rounds from starting position with reset on escape or submission."
+      }
+    ],
+    "clips": [
+      {
+        "id": "dyTKKiajgzQ",
+        "title": "Master the Guillotine Escape",
+        "by": "Cobrinha",
+        "vertical": false,
+        "channel": "Cobrinha Brazilian Jiu-Jitsu & Fitness",
+        "duration": 44,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "8okq4cIHMO0",
+        "title": "Standing Guillotine Escape",
+        "by": "dogtownman",
+        "vertical": false,
+        "channel": "dogtownman",
+        "duration": 44,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Qb8gtundzPg",
+        "title": "Guillotine Escape From the Guard",
+        "by": "Ground Zero MMA",
+        "vertical": false,
+        "channel": "Ground Zero MMA,BJJ,Wresting,No Gi,Bridgend.",
+        "duration": 57,
+        "verified": "2026-07-14"
       }
     ]
   }

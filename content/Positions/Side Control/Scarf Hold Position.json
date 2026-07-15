@@ -346,6 +346,35 @@
           "nogi": 15
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "2Y5HdBxqPv8",
+        "title": "Attacks from scarf hold",
+        "by": "Goulburn Martial Arts",
+        "vertical": false,
+        "channel": "Goulburn Martial Arts Academy",
+        "duration": 69,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "fB7gGDIm1i8",
+        "title": "12 Kesa Gatame attacks",
+        "by": "Johnny Jitsu",
+        "vertical": false,
+        "channel": "Johnny Jitsu",
+        "duration": 88,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "SzLuqtw6lpE",
+        "title": "Side control to scarf hold position",
+        "by": "TRITAC Martial Arts",
+        "vertical": false,
+        "channel": "TRITAC Martial Arts",
+        "duration": 104,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -676,6 +705,26 @@
           "nogi": 8
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "fvp5_BVEtLg",
+        "title": "Kesa Gatame pressure defense with framing",
+        "by": "Kohbukan Sisu",
+        "vertical": false,
+        "channel": "Kohbukan Sisu",
+        "duration": 84,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "2okf5X17jeg",
+        "title": "Scarf hold escape (kesa gatame defense)",
+        "by": "Bruce Fowler",
+        "vertical": false,
+        "channel": "Renzo Gracie Jiu Jitsu DFW",
+        "duration": 230,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -706,6 +755,35 @@
     {
       "question": "How does scarf hold relate to its named variations such as reverse kesa-gatame and kuzure kesa-gatame?",
       "answer": "Scarf hold sits at the center of a family of judo-derived perpendicular pins that share the T-shaped angle but differ in arm control and facing direction. Kuzure kesa-gatame, or modified scarf hold, replaces the trapped-arm configuration with an underhook of the near arm, altering which control point anchors the upper body while preserving the perpendicular hip pressure. Reverse kesa-gatame flips the facing direction so the top player orients toward the opponent's hips rather than head, reversing the angle while retaining the perpendicular relationship. All variations remain governed by the same core principle that the ninety-degree orientation negates parallel escapes, which is why they are treated as a coherent group distinct from orthodox side control."
+    }
+  ],
+  "clips": [
+    {
+      "id": "ZMSfqiFWgiI",
+      "title": "Kuzure Kesa Gatame demonstration",
+      "by": "Poraka Nova",
+      "vertical": false,
+      "channel": "Poraka Nova",
+      "duration": 37,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "jwArJKRlJ8o",
+      "title": "5 basic judo hold downs (osaekomi)",
+      "by": "Shintaro Higashi",
+      "vertical": false,
+      "channel": "Shintaro Higashi",
+      "duration": 211,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "fB7gGDIm1i8",
+      "title": "12 Kesa Gatame attacks",
+      "by": "Johnny Jitsu",
+      "vertical": false,
+      "channel": "Johnny Jitsu",
+      "duration": 88,
+      "verified": "2026-07-14"
     }
   ]
 }

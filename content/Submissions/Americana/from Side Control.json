@@ -388,6 +388,35 @@
         "answer": "In training, the figure-four grip should be relaxed enough to allow immediate release upon tap, with your grip hand loosely holding your own wrist. The priority is control and safety over maximum pressure. In competition, the grip becomes significantly tighter - your bottom hand grips their wrist firmly with all fingers, and your top hand death-grips your own wrist with your thumb wrapped over. Your elbows squeeze together creating a locked structure. This tighter competition grip makes the finish more secure but also makes release slower, which is why it's inappropriate for training where partner safety requires instant release capability.",
         "safety_critical": true
       }
+    ],
+    "clips": [
+      {
+        "id": "mk4jR6Anm8g",
+        "title": "Finishing the Americana",
+        "by": "The Muscular Octopus",
+        "vertical": false,
+        "channel": "The Muscular Octopus",
+        "duration": 71,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "swst0VGRr44",
+        "title": "Americana from side control",
+        "by": "Absolute MMA",
+        "vertical": false,
+        "channel": "Absolute MMA",
+        "duration": 96,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "wckW_4r7vbk",
+        "title": "Americana from side control",
+        "by": "Roy Dean",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 194,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -527,6 +556,26 @@
         "phase": "Phase 4: Live Situational Defense",
         "focus": "Full resistance defense with tap discipline",
         "description": "Start under side control with partner attempting Americana at full resistance. Practice the complete defensive sequence: prevention, early escape, late escape, and tapping when caught. Emphasize recognizing the tap point and tapping early rather than risking injury. Track your defensive success rate and identify which phase your defenses fail most often."
+      }
+    ],
+    "clips": [
+      {
+        "id": "NZjUCo8os8Q",
+        "title": "Simple Americana armlock escape",
+        "by": "Eddie Kone",
+        "vertical": false,
+        "channel": "Eddie Kone Academy Of Jiu-Jitsu",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "x5oNak2YANY",
+        "title": "Americana defense to armbar",
+        "by": "JiuJitsu.com",
+        "vertical": false,
+        "channel": "JiuJitsu.com",
+        "duration": 177,
+        "verified": "2026-07-14"
       }
     ]
   },

@@ -295,7 +295,36 @@
         "answer": "Never repeat an identical bridge, because the opponent will anticipate the timing and direction and simply ride the second attempt. Instead, immediately flow into a hip escape or elbow escape toward your free-arm side, exploiting the weight disruption the failed bridge created to insert your knee and recover half guard. If the opponent over-committed their weight forward chasing the bridge, a technical stand-up to disengage also opens up. Treat the failed bridge as a deliberate setup that loads the next escape, not as a wasted attempt."
       }
     ],
-    "safety_considerations": "Bridge escapes involve explosive spinal extension and rotational forces on the lumbar spine. Warm up the lower back, hip flexors, and glutes thoroughly before drilling. During initial learning phases, the top player should allow controlled escape repetitions rather than resisting at maximum intensity. Tap immediately if neck or spinal discomfort occurs during the turning phase. Partners should communicate about intensity level and any pre-existing back or neck injuries before positional drilling. Avoid explosive bridging on hard surfaces without adequate mat padding."
+    "safety_considerations": "Bridge escapes involve explosive spinal extension and rotational forces on the lumbar spine. Warm up the lower back, hip flexors, and glutes thoroughly before drilling. During initial learning phases, the top player should allow controlled escape repetitions rather than resisting at maximum intensity. Tap immediately if neck or spinal discomfort occurs during the turning phase. Partners should communicate about intensity level and any pre-existing back or neck injuries before positional drilling. Avoid explosive bridging on hard surfaces without adequate mat padding.",
+    "clips": [
+      {
+        "id": "-zFQ6h4yKT4",
+        "title": "Kuzure kesa gatame escapes",
+        "by": "Kodokan",
+        "vertical": false,
+        "channel": "KODOKAN",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lOMiYZzvH-s",
+        "title": "Escaping yoko shiho gatame by bridging",
+        "by": "Travis Stevens",
+        "vertical": false,
+        "channel": "Travis Stevens",
+        "duration": 161,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "iDi59hI5-YQ",
+        "title": "Kesa gatame bridge and reverse shrimp escape",
+        "by": "JitzLive",
+        "vertical": false,
+        "channel": "JitzLive",
+        "duration": 132,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Bridge from Reverse Kesa-Gatame Defender",
@@ -408,6 +437,17 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Full resistance pin maintenance against all escape attempts",
         "description": "Full-resistance positional sparring from Reverse Kesa-Gatame. Bottom player uses bridges mixed with shrimps and elbow escapes. Top player must maintain position, recognize each escape type, and respond appropriately while threatening submissions. Track position retention time across rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "RYo2TWEnOiY",
+        "title": "Holding reverse kesa gatame and attacking the kimura",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 234,
+        "verified": "2026-07-15"
       }
     ]
   }

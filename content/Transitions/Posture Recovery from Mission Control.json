@@ -291,7 +291,18 @@
         "answer": "Immediately establish strong posture with hands on the bottom player's hips or biceps to prevent re-entry into rubber guard. Do not relax - the bottom player will immediately attempt to re-pull your head down and re-thread the high guard leg. Maintain defensive grips, keep posture upright, and begin working toward guard opening before they can reconfigure their attack."
       }
     ],
-    "safety_considerations": "Posture recovery from Mission Control involves significant neck and shoulder stress for the top player. Avoid explosive jerking movements that could strain cervical vertebrae or damage the shoulder joint under isolation pressure. If experiencing sharp neck pain or unusual shoulder discomfort, tap and reset rather than forcing through the escape. The bottom player should release Mission Control immediately if their partner signals distress, as prolonged shoulder isolation combined with resistance can cause joint strain. Both practitioners should communicate clearly about pain levels during drilling."
+    "safety_considerations": "Posture recovery from Mission Control involves significant neck and shoulder stress for the top player. Avoid explosive jerking movements that could strain cervical vertebrae or damage the shoulder joint under isolation pressure. If experiencing sharp neck pain or unusual shoulder discomfort, tap and reset rather than forcing through the escape. The bottom player should release Mission Control immediately if their partner signals distress, as prolonged shoulder isolation combined with resistance can cause joint strain. Both practitioners should communicate clearly about pain levels during drilling.",
+    "clips": [
+      {
+        "id": "AvivOVuYcCk",
+        "title": "Rubber guard escape and posture recovery",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 131,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Posture Recovery from Mission Control Defender",
@@ -409,6 +420,35 @@
         "phase": "Phase 4: Full Resistance Retention and Counter",
         "focus": "Complete defensive game against determined escape attempts",
         "description": "Partner uses full-resistance posture recovery with all available techniques including standing, stacking, and grip fighting. Maintain Mission Control or successfully transition to submission entries for three-minute rounds. Develops the complete defensive skill set including retention, transition recognition, and offensive counter-attacks under maximum pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "gFYyMkaMz34",
+        "title": "Prison guard breakdown",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 59,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "GWR4g4St-yw",
+        "title": "Invisible detail from the rubber guard",
+        "by": "Strength & Honor MMA",
+        "vertical": false,
+        "channel": "Strength & Honor MMA",
+        "duration": 142,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "5fJM5bIk8Fw",
+        "title": "Mission Control to Zombie and Double Bag attacks",
+        "by": "10th Planet Orange Park",
+        "vertical": false,
+        "channel": "10th Planet Orange Park",
+        "duration": 108,
+        "verified": "2026-07-15"
       }
     ]
   }

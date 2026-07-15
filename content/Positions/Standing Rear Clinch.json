@@ -398,6 +398,35 @@
         "question": "Your opponent partially escapes by creating 6 inches of space between your chest and their back but you still have one arm around their waist - how do you recover full control?",
         "answer": "Immediately close the gap by driving your hips forward and re-establishing chest-to-back contact before they can turn or create more space. Use the remaining waist grip as an anchor point and step your feet closer while pulling their hips back toward you. Once chest contact is re-established, secure a second grip (seatbelt or second arm around waist) and re-angle your hips to the side. If you cannot close the gap, use the single grip to transition to a different attack like a mat return or bodylock takedown rather than fighting to hold a deteriorating position."
       }
+    ],
+    "clips": [
+      {
+        "id": "GKrJsIYmycM",
+        "title": "Mat Return Drill from Rear Bodylock",
+        "by": "Nicky Rodriguez",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 84,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "iPXirj0gvko",
+        "title": "Bodylock to Back Take",
+        "by": "Diogo Reis",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 36,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "2VCyaassiRI",
+        "title": "Leg Switch Cutback from Rear Bodylock",
+        "by": "Procel BJJ",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 52,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -675,7 +704,36 @@
         "description": "Minimal offensive submission threat from the defensive bottom role; the priority is survival and escape, not finishing"
       },
       "average_time": "5-12 seconds before the opponent attempts a takedown or back take, or you complete an escape"
-    }
+    },
+    "clips": [
+      {
+        "id": "_sBB-O8fqP4",
+        "title": "Standing Up Escape 5",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 114,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "lGGo0H8ems4",
+        "title": "How to Break a Body Lock",
+        "by": "Nick Diaz",
+        "vertical": false,
+        "channel": "Moments in MMA",
+        "duration": 62,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "aW0nNv2UWh0",
+        "title": "Rear Body Lock Counters: Granby & Kneebar",
+        "by": "GFAMMA",
+        "vertical": false,
+        "channel": "𝐆𝐅𝐀𝐌𝐌𝐀 - 𝐆𝐋𝐀𝐃𝐈𝐀𝐓𝐎𝐑 𝐅𝐈𝐆𝐇𝐓 𝐀𝐂𝐀𝐃𝐄𝐌𝐘",
+        "duration": 170,
+        "verified": "2026-07-14"
+      }
+    ]
   },
   "flashcards_position": [
     {
@@ -709,6 +767,26 @@
     {
       "question": "How does Standing Rear Clinch relate to the adjacent positions it can flow into or from?",
       "answer": "Standing Rear Clinch sits at the overlap of the takedown phase and the back-attack game, bridging wrestling and jiu-jitsu. It commonly emerges from a sprawl, snap-down, arm drag, or a failed guard-pull that leaves one player behind the other, and it most often resolves into ground back control via a mat return or into a neutral clinch if the front player successfully turns to face. If the rear player's posture breaks the front player downward, the exchange can divert to a front headlock, and if the front player sits to guard, a body-lock pass toward side control becomes available. Understanding these neighboring positions is what lets either player anticipate where the exchange is heading before it arrives."
+    }
+  ],
+  "clips": [
+    {
+      "id": "ovl7eZIzBaU",
+      "title": "Easy Takedowns from the Rear Clinch",
+      "by": "Oneonta Jiu Jitsu Academy",
+      "vertical": false,
+      "channel": "OneontaJiuJitsu Academy",
+      "duration": 57,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "sztjmLZYxIQ",
+      "title": "Nicky Rod's Body Lock Pass",
+      "by": "Professor Buck",
+      "vertical": false,
+      "channel": "Professor Buck",
+      "duration": 38,
+      "verified": "2026-07-14"
     }
   ]
 }

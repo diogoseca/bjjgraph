@@ -354,6 +354,26 @@
         "answer": "The point of no escape is when the elbow is firmly pinned to the mat as a fixed fulcrum AND your chest weight has settled to prevent the arm from straightening. Once both conditions are met, the defender can no longer straighten the arm to kill the angle or bridge effectively to lift your weight, leaving only the tap. Recognizing this moment matters for safety as much as finishing—because escape is gone, the attacker carries full responsibility for a slow, controlled finish, and the defender should tap rather than risk the joint.",
         "safety_critical": true
       }
+    ],
+    "clips": [
+      {
+        "id": "3lVaIp79rIo",
+        "title": "Kimura Roll to Americana",
+        "by": "The Art of Fighting",
+        "vertical": false,
+        "channel": "The Art of Fighting",
+        "duration": 79,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "D9eBGVemI7A",
+        "title": "Americana Trap",
+        "by": "Thomas Lisboa",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 243,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -481,6 +501,17 @@
         "phase": "Phase 4: Positional Sparring from Kimura Trap",
         "focus": "Defending the full Kimura Trap submission system under live conditions",
         "description": "Full resistance positional sparring starting from Kimura Trap Top vs Bottom. Defender must survive both Kimura and Americana threats while working to escape or recover guard. 3-minute rounds with role switching. Track which submission catches you and adjust defensive priorities accordingly."
+      }
+    ],
+    "clips": [
+      {
+        "id": "9CJx9mZimwQ",
+        "title": "Kimura Trap Counter",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "Marcelo Garcia Jiu-Jitsu",
+        "duration": 300,
+        "verified": "2026-07-14"
       }
     ]
   }

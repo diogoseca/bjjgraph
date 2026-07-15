@@ -243,7 +243,27 @@
         "answer": "Default pressure direction is straight down through your hips into their solar plexus, using gravity as your primary tool. When they bridge, shift pressure backward by sprawling hips while posting forward. When they hip escape laterally, drive pressure into the direction of their escape to close space. When they frame upward, increase downward chest-to-chest pressure while swimming inside their arms. The key principle is that your pressure vector always opposes their movement direction, making every escape attempt feel like pushing into a wall."
       }
     ],
-    "safety_considerations": "Mount Control is a low-risk technique when performed with awareness of your training partner's comfort. Avoid excessive chest pressure that prevents breathing - your partner should be uncomfortable, not unable to breathe. When using grapevines, control the extension to avoid hyperextending your partner's knees. During drilling, establish clear communication so partners can tap if pressure becomes excessive. Be especially careful with grapevine pressure against smaller or less flexible training partners."
+    "safety_considerations": "Mount Control is a low-risk technique when performed with awareness of your training partner's comfort. Avoid excessive chest pressure that prevents breathing - your partner should be uncomfortable, not unable to breathe. When using grapevines, control the extension to avoid hyperextending your partner's knees. During drilling, establish clear communication so partners can tap if pressure becomes excessive. Be especially careful with grapevine pressure against smaller or less flexible training partners.",
+    "clips": [
+      {
+        "id": "SGZ5wD3z73Q",
+        "title": "Maintaining full mount top control",
+        "by": "Formidable Combat coach",
+        "vertical": false,
+        "channel": "Formidable Combat, Fitness and Living",
+        "duration": 106,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "4eDtPYQ0bps",
+        "title": "Top mount control fundamentals",
+        "by": "Todd Hendrickson",
+        "vertical": false,
+        "channel": "Todd Hendrickson Jiu Jitsu",
+        "duration": 152,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Mount Control Defender",
@@ -372,6 +392,35 @@
         "phase": "Week 7+",
         "focus": "Live escape against active control",
         "description": "Full resistance positional sparring starting from mount where partner actively maintains control using all retention tools while you work systematic escapes under competition-level pressure"
+      }
+    ],
+    "clips": [
+      {
+        "id": "pUZcLTWHAzk",
+        "title": "Knee and elbow escape from mount",
+        "by": "Jamie",
+        "vertical": false,
+        "channel": "jamielovesmartialarts",
+        "duration": 71,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2uuP147GoBk",
+        "title": "Bridge and roll escape from bottom mount",
+        "by": "Academy Jiu Jitsu coach",
+        "vertical": false,
+        "channel": "Academy Jiu Jitsu",
+        "duration": 62,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uTuPvxQUOo4",
+        "title": "Quick mount escape demo",
+        "by": "bjjtaro",
+        "vertical": false,
+        "channel": "bjjtaro",
+        "duration": 23,
+        "verified": "2026-07-15"
       }
     ]
   },

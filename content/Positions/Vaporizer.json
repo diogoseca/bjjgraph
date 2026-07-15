@@ -353,6 +353,35 @@
           "nogi": 6
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "PptkZQh_MFA",
+        "title": "Lockdown Escape",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 31,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "-49CypLW9aM",
+        "title": "Lockdown half guard break",
+        "by": "Superhero Jiu Jitsu Academy",
+        "vertical": false,
+        "channel": "Superhero Jiu Jitsu Academy ",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "ABSueJ6cwis",
+        "title": "Advanced Half Guard Lockdown Pass w/ Backstep",
+        "by": "Peter Mettler",
+        "vertical": false,
+        "channel": "Peter Mettler Martial Arts",
+        "duration": 98,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -645,6 +674,35 @@
           "nogi": 12
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "8ZgEL2zU_jg",
+        "title": "Lockdown to Vaporizer",
+        "by": "Axel Collazo",
+        "vertical": false,
+        "channel": "Axel Collazo",
+        "duration": 98,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "BUGZwZooq4Q",
+        "title": "The Vaporizer & Toe Hook",
+        "by": "10th Planet Salt Lake City",
+        "vertical": false,
+        "channel": "10th Planet Salt Lake City",
+        "duration": 98,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "VopfKnaVSjE",
+        "title": "Vaporizer from Top Stoner Control",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "JiuJitsuMag",
+        "duration": 254,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -679,6 +737,35 @@
     {
       "question": "Why is close, chest-to-body proximity a non-negotiable requirement for maintaining the Vaporizer?",
       "answer": "Proximity is what keeps the lockdown lever and the upper-body tie loaded; any gap lets the top player straighten their posture, retract the trapped knee, and begin clearing the figure-four. The bottom player must stay tight through the underhook, pulling their chest toward the opponent's side so the whip-up has something to act against. Distance converts the position's opposing forces into slack, and slack is precisely the space the top player needs to rebuild base and pass. For this reason both players treat the battle for that inch of separation as the true contest, since it determines whether the lever remains live."
+    }
+  ],
+  "clips": [
+    {
+      "id": "vTE4XQpRiqY",
+      "title": "The Vaporizer (calf slicer)",
+      "by": "Bobby Lee",
+      "vertical": false,
+      "channel": "Bobby Lee",
+      "duration": 17,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "ITZ4ZPcsY2c",
+      "title": "The Vaporizer breakdown",
+      "by": "Coach Brian",
+      "vertical": false,
+      "channel": "TeachMeGrappling Coach Brian",
+      "duration": 140,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "AmOMN0S1v8Q",
+      "title": "Advanced Lockdown Details",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "Eddie Bravo",
+      "duration": 61,
+      "verified": "2026-07-14"
     }
   ]
 }

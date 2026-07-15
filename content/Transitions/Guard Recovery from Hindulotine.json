@@ -282,7 +282,36 @@
         "answer": "When flattened, abandon the large hip rotation and shift to survival-based incremental recovery. First, maintain your knee shield even if compressed - it prevents full side control consolidation. Second, use small hip escapes to regain a lateral angle rather than attempting the full rotation under pressure. Third, keep your overhook or collar grip active to prevent the opponent from achieving full crossface control. Work in small movements to rebuild the space needed for hip realignment rather than fighting one large explosive escape against settled pressure."
       }
     ],
-    "safety_considerations": "Guard recovery from Hindulotine carries moderate risk due to the rotational forces involved. The angular hip position can place stress on the lumbar spine during the realignment phase, particularly if explosive rotation is used. Perform hip realignment with controlled core-driven movement rather than explosive twisting. The Hindulotine itself applies cervical pressure, so ensure the choke is fully released before initiating recovery movements to avoid compounding neck strain with rotational body movement. During training, communicate clearly about when the choke is released to prevent accidental cranking during the transition."
+    "safety_considerations": "Guard recovery from Hindulotine carries moderate risk due to the rotational forces involved. The angular hip position can place stress on the lumbar spine during the realignment phase, particularly if explosive rotation is used. Perform hip realignment with controlled core-driven movement rather than explosive twisting. The Hindulotine itself applies cervical pressure, so ensure the choke is fully released before initiating recovery movements to avoid compounding neck strain with rotational body movement. During training, communicate clearly about when the choke is released to prevent accidental cranking during the transition.",
+    "clips": [
+      {
+        "id": "BhNZGloJ56c",
+        "title": "Guard recovery when getting smashed",
+        "by": "Finesse Jiu-Jitsu HTX",
+        "vertical": false,
+        "channel": "FINESSE JIUJITSU HTX",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lVLAROiSjNU",
+        "title": "Guard retention: when to sit up and escape",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 136,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Bp0v7c_MrbY",
+        "title": "Getting to feet on biceps correctly",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 125,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Guard Recovery from Hindulotine Defender",
@@ -406,6 +435,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance passing from Hindulotine release",
         "description": "Start each round in Hindulotine with the bottom player working recovery and you working to advance. Full resistance with rotating partners to experience different recovery strategies, flexibility levels, and hip rotation speeds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "UoJul9UvRao",
+        "title": "Denying straight-arm guard retention while passing",
+        "by": "Cameron Florczak",
+        "vertical": false,
+        "channel": "Cameron Florczak",
+        "duration": 66,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "aQ2vFXXBn-o",
+        "title": "Countering the full inversion recovery",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-15"
       }
     ]
   }

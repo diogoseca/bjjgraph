@@ -301,7 +301,36 @@
         "answer": "The grip transition is the most vulnerable moment for your base. Keep your weight driven downward through the knee throughout the switch. Your far hand can briefly post on the mat or on the opponent's hip for stability as your near hand releases the collar and reaches across. Avoid lifting your center of gravity during the reach — stay low and heavy. The posting leg should remain wide throughout, and your core engagement keeps you stable as you extend across the opponent's body to capture the far wrist."
       }
     ],
-    "safety_considerations": "The far side armbar applies significant hyperextension force to the elbow joint. Always apply the finish progressively, giving your training partner time to recognize the threat and tap. Release immediately upon feeling a tap or hearing a verbal submission. In training, emphasize reaching armbar control position rather than cranking through full extension. Be especially cautious during the leg swing transition phase, as the opponent's arm can be caught at an awkward angle if the grip shifts unexpectedly. Never apply explosive force to the elbow — use steady, controlled pressure. Both partners should communicate clearly about comfort and tap early when caught."
+    "safety_considerations": "The far side armbar applies significant hyperextension force to the elbow joint. Always apply the finish progressively, giving your training partner time to recognize the threat and tap. Release immediately upon feeling a tap or hearing a verbal submission. In training, emphasize reaching armbar control position rather than cranking through full extension. Be especially cautious during the leg swing transition phase, as the opponent's arm can be caught at an awkward angle if the grip shifts unexpectedly. Never apply explosive force to the elbow — use steady, controlled pressure. Both partners should communicate clearly about comfort and tap early when caught.",
+    "clips": [
+      {
+        "id": "ID3UY0tQkrM",
+        "title": "Spinning far side armbar from knee on belly",
+        "by": "Gracie Barra Carlton coach",
+        "vertical": false,
+        "channel": "Gracie Barra Carlton",
+        "duration": 113,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "JQMSXF2uVfA",
+        "title": "Armbar from knee on belly",
+        "by": "Mauricio Gomes",
+        "vertical": false,
+        "channel": "Mauricio Gomes BJJ",
+        "duration": 80,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QJ_rrVbdDDw",
+        "title": "Far side armbar from knee on belly details",
+        "by": "Tarik",
+        "vertical": false,
+        "channel": "Tarik BJJ",
+        "duration": 169,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Far Side Armbar from KOB Defender",
@@ -425,6 +454,35 @@
         "phase": "Phase 4: Counter Integration",
         "focus": "Converting defense into positional improvement",
         "description": "Partner attempts the far side armbar with full commitment. Defender practices not just blocking the attack but actively converting the defense into guard recovery or positional reversal. Bridge-and-turn during the transition to catch the attacker off-balance and recover half guard or achieve a scramble to a neutral position."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Wn01Ynw7O28",
+        "title": "How to escape the knee on belly position",
+        "by": "Evolve MMA coach",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 40,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "WIYwi1fKisU",
+        "title": "Sneaky knee on belly escape (gi and no-gi)",
+        "by": "Zebulon Miller",
+        "vertical": false,
+        "channel": "Zebulon Miller",
+        "duration": 78,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "52LxBaUJdcw",
+        "title": "Knee on belly escape to technical stand up",
+        "by": "Lucas Lepri",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 131,
+        "verified": "2026-07-15"
       }
     ]
   }

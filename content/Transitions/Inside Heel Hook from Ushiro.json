@@ -261,7 +261,27 @@
         "answer": "The optimal window occurs during the opponent's transition between defensive priorities—specifically when they shift focus from heel protection to leg extraction or positional escape. Their hands momentarily leave heel defense to push on your legs or hips, exposing the heel for 1-2 seconds. A secondary window opens when they commit to rotation toward turtle, as their heel orientation temporarily favors your finishing grip before their hips clear your entanglement."
       }
     ],
-    "safety_considerations": "The Inside Heel Hook from Ushiro is extremely dangerous and can cause severe, career-ending knee injuries including ACL, MCL, and meniscus tears. Damage occurs before pain is felt, making the 'tap early' principle critical. Never apply this technique explosively—use slow, controlled pressure and release IMMEDIATELY upon tap. In training, partners should tap at the first sensation of rotational pressure, not when they feel pain. Only practice with experienced training partners who understand leg lock safety protocols. Avoid this technique entirely on training partners with prior knee injuries. In competition, be prepared to release instantly even if the referee hasn't called the match. The reversed ushiro configuration can make tap signals harder to see—maintain visual or verbal contact with your partner throughout. Consider practicing with catch-and-release drilling before any resistance training."
+    "safety_considerations": "The Inside Heel Hook from Ushiro is extremely dangerous and can cause severe, career-ending knee injuries including ACL, MCL, and meniscus tears. Damage occurs before pain is felt, making the 'tap early' principle critical. Never apply this technique explosively—use slow, controlled pressure and release IMMEDIATELY upon tap. In training, partners should tap at the first sensation of rotational pressure, not when they feel pain. Only practice with experienced training partners who understand leg lock safety protocols. Avoid this technique entirely on training partners with prior knee injuries. In competition, be prepared to release instantly even if the referee hasn't called the match. The reversed ushiro configuration can make tap signals harder to see—maintain visual or verbal contact with your partner throughout. Consider practicing with catch-and-release drilling before any resistance training.",
+    "clips": [
+      {
+        "id": "QfNKQzy3V_w",
+        "title": "Arm saddle to inside heel hook flow drill",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 21,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lTsK9C_a6po",
+        "title": "V grip from top ushiro transition",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 140,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Inside Heel Hook from Ushiro Defender",
@@ -390,6 +410,35 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Full resistance rounds starting from ushiro ashi-garami with the attacker pursuing the heel hook. Develop real-time defensive reactions under competition pressure. Practice recognizing when defense has failed and tapping appropriately. Include rounds where you alternate between attacker and defender roles to deepen understanding of both perspectives."
+      }
+    ],
+    "clips": [
+      {
+        "id": "DF2AYLPbeHc",
+        "title": "Defending and countering the inside heel hook",
+        "by": "Jahred Dell",
+        "vertical": false,
+        "channel": "Jahred Dell",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "AsGMkATAqqw",
+        "title": "What to do when ambushed by a heel hook",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 53,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "5jD4ByQUrDA",
+        "title": "Basic inside / inverted heel hook escape",
+        "by": "Scott Ryan Chiriboga",
+        "vertical": false,
+        "channel": "Scott Ryan Chiriboga",
+        "duration": 108,
+        "verified": "2026-07-15"
       }
     ]
   },

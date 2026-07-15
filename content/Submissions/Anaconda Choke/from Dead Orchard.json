@@ -348,6 +348,35 @@
         "question": "Your opponent successfully clasps their hands together during your finishing attempt. What is the systematic response to break this defense?",
         "answer": "Target the bottom hand of the clasp specifically, using your free hand to strip it toward their hip by attacking at the wrist. If direct grip stripping fails, walk your hips further toward their head to increase angular pressure that makes the clasped position structurally weaker. You can also briefly release shoulder pressure then immediately re-drive at a slightly different angle, which forces them to re-establish their clasp and creates a momentary opening. The worst response is to simply squeeze harder against clasped hands, which fatigues your arms without breaking their defense."
       }
+    ],
+    "clips": [
+      {
+        "id": "dr66s8QK9_g",
+        "title": "Anaconda finish details, S-grip",
+        "by": "Ben Eddy",
+        "vertical": false,
+        "channel": "Ben Eddy Bravo",
+        "duration": 96,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "EbhWFWp-B6s",
+        "title": "How to do an anaconda choke",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 81,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "PGZUu6JbtDA",
+        "title": "Sneaky anaconda submission (no-gi)",
+        "by": "The Grapple Club",
+        "vertical": false,
+        "channel": "The Grapple Club",
+        "duration": 89,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -482,6 +511,35 @@
         "phase": "Phase 4: Full Resistance Positional Sparring",
         "focus": "Complete defensive application against full-resistance finishing attempts",
         "description": "Positional sparring starting from established Dead Orchard control with the attacker working to finish at full intensity. Defender uses all available defensive tools—framing, grip fighting, escape timing, and positional awareness—to either prevent the finish or escape to guard recovery. Tap early and often to build pattern recognition safely."
+      }
+    ],
+    "clips": [
+      {
+        "id": "czQckiDogRc",
+        "title": "How to escape the anaconda choke",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 92,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "SXm9wA1HcvM",
+        "title": "Anaconda choke defense",
+        "by": "SFS MMA",
+        "vertical": false,
+        "channel": "Fierce Pierce15",
+        "duration": 64,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "guHPx-OKi0M",
+        "title": "Prevent the sucker drag during anaconda",
+        "by": "Drew Darce",
+        "vertical": false,
+        "channel": "Drew Darce",
+        "duration": 159,
+        "verified": "2026-07-14"
       }
     ]
   }

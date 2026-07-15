@@ -251,7 +251,27 @@
         "answer": "The leg drag pass drives forward and diagonally across the opponent's body, pressuring their shoulder and hip simultaneously. The ashi transition reverses this—you sit back and pull the leg toward you rather than driving forward. The force becomes rotational around their trapped leg rather than linear pressure through it."
       }
     ],
-    "safety_considerations": "This transition involves entry to leg entanglement positions that can result in knee ligament damage if attacks are applied without proper control. When training, establish the inside ashi position completely before attempting any heel hook attacks, and always give training partners time to tap. The transition itself is relatively safe, but practitioners should be aware that entering leg entanglements creates immediate submission danger. Never crank heel hooks in training—apply controlled pressure and release immediately on tap. Avoid this transition if you have existing knee injuries, and be cautious with training partners who may not recognize the danger of inside ashi position."
+    "safety_considerations": "This transition involves entry to leg entanglement positions that can result in knee ligament damage if attacks are applied without proper control. When training, establish the inside ashi position completely before attempting any heel hook attacks, and always give training partners time to tap. The transition itself is relatively safe, but practitioners should be aware that entering leg entanglements creates immediate submission danger. Never crank heel hooks in training—apply controlled pressure and release immediately on tap. Avoid this transition if you have existing knee injuries, and be cautious with training partners who may not recognize the danger of inside ashi position.",
+    "clips": [
+      {
+        "id": "DsTRE1Rq0G0",
+        "title": "Leg drag straight into inside ashi heel hook",
+        "by": "LegLock Assassins",
+        "vertical": false,
+        "channel": "LegLock Assassins",
+        "duration": 13,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "vEQNbapQOLU",
+        "title": "Three entries into ashi, outside ashi and the saddle",
+        "by": "Huxley Skate Co.",
+        "vertical": false,
+        "channel": "Huxley Skate Co.",
+        "duration": 120,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Leg Drag to Inside Ashi Defender",
@@ -376,6 +396,26 @@
         "phase": "Week 7+",
         "focus": "Live situational sparring",
         "description": "Start from leg drag bottom position with partner choosing between passing and transitioning to legs. Defend both threats in real time with increasing resistance. Develop the sensitivity to distinguish between passing pressure and leg attack entries, adjusting defense accordingly."
+      }
+    ],
+    "clips": [
+      {
+        "id": "SyP61TJ7ckI",
+        "title": "Modern leglock counters and defensive concepts",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "Michael Wong",
+        "duration": 86,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uZbUhFapIhg",
+        "title": "Leglock defense from inside leg entanglements",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 163,
+        "verified": "2026-07-15"
       }
     ]
   },

@@ -279,7 +279,36 @@
         "answer": "Both attacks use the same initial leg framing mechanics from grasshopper. When the opponent defends the ankle by curling their toes, flexing their foot, or stripping your grip, your legs are already positioned around their lower body. Continue threading your inside leg higher behind their knee while your outside leg crosses over the thigh rather than the shin. This upward migration converts the ankle attack frame into a kneebar frame, catching them mid-defense when their focus is on protecting the ankle."
       }
     ],
-    "safety_considerations": "The straight ankle lock targets the Achilles tendon and ankle joint, which are vulnerable to acute injury if excessive force is applied or if the technique is executed with poor alignment. Always apply finishing pressure gradually during training, allowing your partner time to tap before the joint reaches its end range. Avoid explosive cranking motions that can cause ligament damage faster than your partner can signal submission. Partners with pre-existing ankle, foot, or Achilles tendon injuries should communicate these before drilling. The inverted grasshopper position also carries neck and cervical spine risk if you are stacked while inverted - tap immediately if your neck is compressed during a failed entry rather than fighting through the stack. Release all pressure instantly when your partner taps and reset cleanly before the next repetition."
+    "safety_considerations": "The straight ankle lock targets the Achilles tendon and ankle joint, which are vulnerable to acute injury if excessive force is applied or if the technique is executed with poor alignment. Always apply finishing pressure gradually during training, allowing your partner time to tap before the joint reaches its end range. Avoid explosive cranking motions that can cause ligament damage faster than your partner can signal submission. Partners with pre-existing ankle, foot, or Achilles tendon injuries should communicate these before drilling. The inverted grasshopper position also carries neck and cervical spine risk if you are stacked while inverted - tap immediately if your neck is compressed during a failed entry rather than fighting through the stack. Release all pressure instantly when your partner taps and reset cleanly before the next repetition.",
+    "clips": [
+      {
+        "id": "mM7UEXLsmMw",
+        "title": "Basic leg lock entries from standing",
+        "by": "Jaime Sanchez",
+        "vertical": false,
+        "channel": "Jaime Sanchez BJJ",
+        "duration": 39,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "bAExryUlXsA",
+        "title": "Guard pull into straight ankle lock",
+        "by": "Adriano",
+        "vertical": false,
+        "channel": "Adriano ",
+        "duration": 34,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "PsyAVXfRhyY",
+        "title": "Straight ankle lock quick demo",
+        "by": "bjjtaro",
+        "vertical": false,
+        "channel": "bjjtaro",
+        "duration": 16,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Straight Ankle Lock Entry Defender",
@@ -403,6 +432,35 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring from grasshopper guard",
         "description": "Start each round with partner in grasshopper guard. They may attempt any attack including ankle locks, kneebars, sweeps, and transitions to other guards. You work to pass or disengage safely, applying the full defensive toolkit developed in previous phases. Track which attacks succeed against you and isolate those for additional drilling. Full resistance with five-minute rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "MCZVJEU3ujw",
+        "title": "Ankle lock defense",
+        "by": "Full Metal Jiu Jitsu",
+        "vertical": false,
+        "channel": "Full Metal Jiu Jitsu",
+        "duration": 102,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "m0NLphEuFoc",
+        "title": "Leg lock defense basics, no-gi",
+        "by": "Kuwy Jitsu",
+        "vertical": false,
+        "channel": "Kuwy Jitsu",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "vg-Luhls7yE",
+        "title": "Straight ankle lock defence and escapes",
+        "by": "Jiu Jitsu Brotherhood",
+        "vertical": false,
+        "channel": "Jiu Jitsu Brotherhood",
+        "duration": 164,
+        "verified": "2026-07-15"
       }
     ]
   },

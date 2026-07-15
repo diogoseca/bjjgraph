@@ -284,7 +284,36 @@
         "answer": "The threading leg drives medially through the gap between opponent's legs, directed toward the far side of their trapped thigh. Your hip rotates slightly inward to facilitate the threading angle. Simultaneously, your arms pull the heel toward your chest (upward and toward you), and your inside leg maintains lateral pressure across their hip. These three force vectors work together: arms anchor, inside leg frames, outside leg threads through the space created."
       }
     ],
-    "safety_considerations": "This transition involves advanced leg entanglement mechanics with significant injury potential if performed incorrectly or against uncooperative partners without proper training. The resulting Honey Hole position provides access to heel hooks that can cause catastrophic knee ligament damage (ACL, MCL, meniscus tears) within seconds. Practice only with experienced partners who understand tap protocols. Never apply heel hook pressure during transition drilling. Ensure both training partners have explicit understanding that taps must be immediate and releases must be instant. This technique should only be trained after developing solid foundation in straight ankle locks and basic leg entanglement safety. Avoid training this transition when fatigued, as technical errors during threading can expose your own legs to counter-attacks. Competition application should be limited to rulesets where heel hooks are legal (IBJJF brown/black belt no-gi, ADCC, submission-only events)."
+    "safety_considerations": "This transition involves advanced leg entanglement mechanics with significant injury potential if performed incorrectly or against uncooperative partners without proper training. The resulting Honey Hole position provides access to heel hooks that can cause catastrophic knee ligament damage (ACL, MCL, meniscus tears) within seconds. Practice only with experienced partners who understand tap protocols. Never apply heel hook pressure during transition drilling. Ensure both training partners have explicit understanding that taps must be immediate and releases must be instant. This technique should only be trained after developing solid foundation in straight ankle locks and basic leg entanglement safety. Avoid training this transition when fatigued, as technical errors during threading can expose your own legs to counter-attacks. Competition application should be limited to rulesets where heel hooks are legal (IBJJF brown/black belt no-gi, ADCC, submission-only events).",
+    "clips": [
+      {
+        "id": "xCrW5MBmqig",
+        "title": "Entering the saddle / honey hole / 411 position",
+        "by": "Foundation Chicago",
+        "vertical": false,
+        "channel": "Foundation Chicago",
+        "duration": 44,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lVYMMNbJjRk",
+        "title": "Ashi garami to 411 transition",
+        "by": "BJJ Battalion",
+        "vertical": false,
+        "channel": "BJJ Battalion",
+        "duration": 71,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "N2weatRR_V4",
+        "title": "Cross ashi (saddle / 411) entry",
+        "by": "bjj doug",
+        "vertical": false,
+        "channel": "bjj doug",
+        "duration": 28,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Inside Ashi-Garami to Honey Hole Defender",
@@ -414,6 +443,26 @@
         "phase": "Week 7+",
         "focus": "Live positional defense",
         "description": "Full resistance positional sparring starting from Inside Ashi-Garami top defending the leg attack. Partner's goal is Honey Hole entry or submission. Your goal is preventing the transition and escaping the entanglement. Track success rate and identify which attacker setups consistently bypass your defense."
+      }
+    ],
+    "clips": [
+      {
+        "id": "8D4EFJ3kG9w",
+        "title": "3 escapes from saddle / 411 / honey hole",
+        "by": "Because Jitsu",
+        "vertical": false,
+        "channel": "Because Jitsu",
+        "duration": 200,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "xgvsUAW8h8o",
+        "title": "Inside heel hook escape flow drill",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 90,
+        "verified": "2026-07-15"
       }
     ]
   },

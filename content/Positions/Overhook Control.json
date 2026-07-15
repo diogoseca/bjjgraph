@@ -379,6 +379,35 @@
           "nogi": 11
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "DfUHvTQpzCg",
+        "title": "Using an overhook",
+        "by": "Patrick Spano",
+        "vertical": false,
+        "channel": "FANATIC WRESTLING",
+        "duration": 40,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "8mXBDHXrAu4",
+        "title": "Whizzer from half guard: win the dogfight",
+        "by": "Wrecking Crew BJJ",
+        "vertical": false,
+        "channel": "Wrecking Crew BJJ",
+        "duration": 60,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "GgWOa1nEeu8",
+        "title": "Russian tie whizzer kick",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "Merge Grappling",
+        "duration": 147,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -680,6 +709,35 @@
           "nogi": 9
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "QPL5y0hIVV4",
+        "title": "Closed guard overhook sweep",
+        "by": "David Morris",
+        "vertical": false,
+        "channel": "David Morris Jiu Jitsu ",
+        "duration": 17,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "ljmJ9xP6N7U",
+        "title": "Overhook guard to reverse triangle + kimura",
+        "by": "ZeGrapplez",
+        "vertical": false,
+        "channel": "ZeGrapplez",
+        "duration": 45,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "SONTST7yTT8",
+        "title": "Closed guard overhook scissor sweep",
+        "by": "Fight Sports Charlotte",
+        "vertical": false,
+        "channel": "Fight Sports Charlotte",
+        "duration": 89,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -710,6 +768,35 @@
     {
       "question": "Why is the overhook treated as a transitional control with a short lifespan rather than a position to hold?",
       "answer": "The overhook isolates only a single arm, so the opponent always retains a free hand, mobile hips, and their base to work an escape, meaning the control decays quickly if nothing is done with it. Holding it statically simply gives a patient opponent time to reestablish the armpit seal from their side, circle their hips, or limp-arm the trapped arm loose. Its value lies in the brief window of broken structure it creates, which must be cashed in for a submission, sweep, or positional advance within a few seconds. Both players understand this clock, which is why the exchange is fast and reactive rather than a settled hold like side control or mount."
+    }
+  ],
+  "clips": [
+    {
+      "id": "DfUHvTQpzCg",
+      "title": "Using an overhook",
+      "by": "Patrick Spano",
+      "vertical": false,
+      "channel": "FANATIC WRESTLING",
+      "duration": 40,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "8mXBDHXrAu4",
+      "title": "Whizzer from half guard: win the dogfight",
+      "by": "Wrecking Crew BJJ",
+      "vertical": false,
+      "channel": "Wrecking Crew BJJ",
+      "duration": 60,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "IQJ2k2Nbst8",
+      "title": "Overhook to counter underhook control",
+      "by": "Wrecking Crew BJJ",
+      "vertical": false,
+      "channel": "Wrecking Crew BJJ",
+      "duration": 54,
+      "verified": "2026-07-14"
     }
   ]
 }

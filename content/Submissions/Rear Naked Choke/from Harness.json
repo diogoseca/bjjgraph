@@ -353,6 +353,35 @@
         "answer": "The point of no escape occurs when the figure-four lock is fully secured with the choking forearm under the chin, the free hand grabbing the bicep, and the lock hand behind the head. Once all three connection points are established and the elbows begin closing together, the bilateral carotid compression makes escape virtually impossible through hand fighting alone. Before this point, the opponent can still strip grips or create space. After the lock, only a dramatic positional escape like a forward roll has any chance of success.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "8tdVE2zgjXw",
+        "title": "Details on Finishing the Rear Naked Choke",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "Wrecking Crew BJJ",
+        "duration": 57,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "70jECxFfCSA",
+        "title": "Rear Naked Choke from the Back",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Control Jiu JItsu",
+        "duration": 73,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "eMbkVDRreIQ",
+        "title": "3 Favorite Jiu-Jitsu Chokes from the Back",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 87,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -488,6 +517,26 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Applying all defensive skills under full resistance with competition-level intensity",
         "description": "Positional sparring starting from full harness with both hooks. Attacker works submissions at full intensity while defender applies all defensive tools. Rounds last until escape or submission. Track escape success rate and identify which stage of defense breaks down most frequently for targeted drilling."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ylLO80PM4zg",
+        "title": "Rear Naked Choke Escape",
+        "by": "Renato Migliaccio",
+        "vertical": false,
+        "channel": "Renato Migliaccio",
+        "duration": 16,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Cwry6GEfi8I",
+        "title": "Rear Naked Choke Defense on the Ground",
+        "by": "Jiu Jitsu Cop",
+        "vertical": false,
+        "channel": "Jiu Jitsu Cop",
+        "duration": 98,
+        "verified": "2026-07-14"
       }
     ]
   }

@@ -291,7 +291,27 @@
         "answer": "Option one: use the whizzer pressure to assist a roll underneath the opponent for a back take. The whizzer creates rotational momentum that you can redirect by ducking under and coming out on the opposite side with back exposure. Option two: release the underhook entirely, re-pummel to a different grip configuration on the same side or switch to a double overhook setup, and attack with a different sweep angle that does not require the underhook. The key is recognizing the whizzer early and adapting rather than fighting through it with strength."
       }
     ],
-    "safety_considerations": "The Waiter Sweep is among the safest techniques in Brazilian Jiu-Jitsu with minimal injury risk when practiced correctly. The primary safety concern is controlling your partner's descent to prevent them from landing awkwardly on their neck or shoulder. Always maintain connection through the sweep completion to guide their landing onto their back rather than releasing mid-sweep. For the bottom practitioner, avoid overextending butterfly hooks which can strain knee ligaments—hooks should maintain a bent-knee position throughout. When drilling, both partners should start slowly to develop proprioception for safe falling patterns. Ensure adequate mat space for the rotational sweep to prevent hitting walls or other students. Partners should communicate during initial learning phases about sweep speed and intensity."
+    "safety_considerations": "The Waiter Sweep is among the safest techniques in Brazilian Jiu-Jitsu with minimal injury risk when practiced correctly. The primary safety concern is controlling your partner's descent to prevent them from landing awkwardly on their neck or shoulder. Always maintain connection through the sweep completion to guide their landing onto their back rather than releasing mid-sweep. For the bottom practitioner, avoid overextending butterfly hooks which can strain knee ligaments—hooks should maintain a bent-knee position throughout. When drilling, both partners should start slowly to develop proprioception for safe falling patterns. Ensure adequate mat space for the rotational sweep to prevent hitting walls or other students. Partners should communicate during initial learning phases about sweep speed and intensity.",
+    "clips": [
+      {
+        "id": "yzCTMZRc-ZY",
+        "title": "Waiter sweep from butterfly guard",
+        "by": "Monument Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Monument JiuJitsu",
+        "duration": 99,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fCqC2CvOKt0",
+        "title": "Back pocket sweep from butterfly guard",
+        "by": "Animal",
+        "vertical": false,
+        "channel": "Animal",
+        "duration": 51,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Waiter Sweep Defender",
@@ -420,6 +440,35 @@
         "phase": "Month 2+: Live Defensive Integration",
         "focus": "Full resistance butterfly guard positional sparring",
         "description": "Positional sparring starting in opponent's butterfly guard. Opponent has full access to Waiter Sweep and all butterfly attacks. Practice reading which attack is coming and selecting appropriate defensive response in real time. 5-minute rounds with scoring for passes versus sweeps."
+      }
+    ],
+    "clips": [
+      {
+        "id": "LT6RXdUY-VQ",
+        "title": "Defending the butterfly sweep with hip switching",
+        "by": "Trujitsu",
+        "vertical": false,
+        "channel": "Trujitsu",
+        "duration": 68,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "kNfVYhZbgrg",
+        "title": "Four levels of sweep defense",
+        "by": "Wim Deputter",
+        "vertical": false,
+        "channel": "Wim Deputter BJJ",
+        "duration": 87,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ZAOF5qNApJ0",
+        "title": "Simple counters to a failed butterfly sweep",
+        "by": "Oneonta Jiu-Jitsu",
+        "vertical": false,
+        "channel": "OneontaJiuJitsu Academy",
+        "duration": 98,
+        "verified": "2026-07-15"
       }
     ]
   },

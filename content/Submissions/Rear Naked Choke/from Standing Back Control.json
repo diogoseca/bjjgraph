@@ -353,6 +353,35 @@
         "answer": "Commit to the standing finish when you have the figure-four locked or nearly locked and the opponent's defensive hands are already defeated. Take them down first when you have strong harness control but cannot clear the defending hands, or when the opponent's base is compromised and a controlled descent will tighten your existing grips. The worst competition decision is attempting a standing finish with an unlocked choke against an opponent with active hand defense — this burns time and energy. Use the takedown as a submission setup rather than treating standing and ground finishes as separate strategies.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "eMbkVDRreIQ",
+        "title": "3 favorite chokes from the back",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 87,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "JVw1AvVRWQs",
+        "title": "Rear naked choke from standing",
+        "by": "Teach Me NoGi",
+        "vertical": false,
+        "channel": "Teach Me NoGi",
+        "duration": 150,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Sb-atqD_TqQ",
+        "title": "Short choke from back position",
+        "by": "Cosens MMA",
+        "vertical": false,
+        "channel": "Cosens MMA LLC",
+        "duration": 55,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -498,6 +527,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Real-time defensive decision making under full pressure",
         "description": "Full resistance positional rounds starting from standing back control. Defender works to escape or neutralize the choke, attacker works for the finish. 2-minute rounds resetting on submission or complete escape. Focus on applying the defensive sequence under genuine pressure while maintaining composure and recognizing tap moments."
+      }
+    ],
+    "clips": [
+      {
+        "id": "rlJlNeccbEw",
+        "title": "Standing rear naked choke defense",
+        "by": "SAMA Self Defense",
+        "vertical": false,
+        "channel": "SAMA Self Defense",
+        "duration": 20,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "UQO3V3Uo3t4",
+        "title": "Three rear choke defenses everyone should know",
+        "by": "Gracie Breakdown",
+        "vertical": false,
+        "channel": "GracieBreakdown",
+        "duration": 70,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "I43ALzc733w",
+        "title": "Escape the back control",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 71,
+        "verified": "2026-07-14"
       }
     ]
   }

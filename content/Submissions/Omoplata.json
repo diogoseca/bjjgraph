@@ -268,5 +268,43 @@
       "name": "Armbar Control",
       "relationship": "Alternative submission when opponent defends omoplata by posturing"
     }
+  ],
+  "clips": [
+    {
+      "id": "TNvcL55uvrE",
+      "title": "Reverse Omoplata, Keenan style",
+      "by": "Keenan Cornelius",
+      "vertical": false,
+      "channel": "ufctalkingthailand",
+      "duration": 22,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "zZv3V0b3tqg",
+      "title": "Teaching the reverse omoplata",
+      "by": "Bradley",
+      "vertical": false,
+      "channel": "Logan Cook",
+      "duration": 106,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "HtMbIJCiz-4",
+      "title": "Omoplata to armbar transition",
+      "by": "Asbury Park Jiu Jitsu",
+      "vertical": false,
+      "channel": "Asbury Park Jiu Jitsu",
+      "duration": 70,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "hZMbgWNh7MI",
+      "title": "Omoplata to armbar",
+      "by": "Bicudo Maciel",
+      "vertical": false,
+      "channel": "Bicudo BJJ",
+      "duration": 25,
+      "verified": "2026-07-14"
+    }
   ]
 }

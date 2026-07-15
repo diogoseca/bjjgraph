@@ -420,6 +420,26 @@
         "focus": "Full resistance crab ride retention and advancement",
         "description": "Three-minute positional rounds starting from crab ride. Top player works to maintain position or advance to back control while bottom player works escape. Track retention time, back take rate, and escape rate to measure improvement. Alternate partners to experience different body types and escape styles."
       }
+    ],
+    "clips": [
+      {
+        "id": "qp--XOaaFjk",
+        "title": "Crab ride turn when they try to trap you on your back",
+        "by": "CMPTV",
+        "vertical": false,
+        "channel": "CMPTV",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "gFqoFaD87So",
+        "title": "Crab ride progression: beating the hips to spiderweb",
+        "by": "MCM Wrestling",
+        "vertical": false,
+        "channel": "MCM Wrestling Vids",
+        "duration": 55,
+        "verified": "2026-07-15"
+      }
     ]
   }
 }

@@ -343,6 +343,35 @@
         "answer": "The belly down position eliminates the opponent's ability to stack, roll through, or extract the arm by pulling it toward themselves. Your body weight presses directly onto the opponent's back, gravity assists the extension force, and the opponent cannot generate the hip movement needed for most standard armbar escapes. This makes the belly down finish particularly reliable when you have successfully completed the rotation from the lasso guard entry.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "0Szhzt-o9Cs",
+        "title": "Lasso Tripod Finish with Armbar",
+        "by": "Marcos Tinoco",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 37,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "tb4J2D6Wm28",
+        "title": "Lasso Sweep to Armbar",
+        "by": "BJJ Recap",
+        "vertical": false,
+        "channel": "BJJ Recap",
+        "duration": 37,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "RdSVo5wesuE",
+        "title": "Lasso Guard to Armbar",
+        "by": "Sickness Ferro",
+        "vertical": false,
+        "channel": "Sickness Ferro",
+        "duration": 115,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -455,6 +484,26 @@
         "phase": "Phase 3: Live Defense Integration",
         "focus": "Defending under full resistance with realistic attacks",
         "description": "Positional sparring starting in the opponent's lasso guard. Partner attacks at 70-100% intensity with full commitment to the belly down armbar. Practice chaining defensive responses when the first defense fails. Include tap discipline training — practice tapping immediately when the belly down position is fully established rather than fighting a losing position."
+      }
+    ],
+    "clips": [
+      {
+        "id": "xh2iJGUS-NQ",
+        "title": "The Best Armbar Escape",
+        "by": "Aaron Benzrihem",
+        "vertical": false,
+        "channel": "Aaron Benzrihem bjj",
+        "duration": 227,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "niXxzdQBFEo",
+        "title": "Passing the Lasso Guard",
+        "by": "Fargo BJJ Academy",
+        "vertical": false,
+        "channel": "Fargo BJJ Academy",
+        "duration": 25,
+        "verified": "2026-07-14"
       }
     ]
   }

@@ -298,7 +298,18 @@
         "answer": "Treat the blocking arm as a gift rather than an obstacle: attack it directly with a kimura grip or an americana from the reverse scarf hold, since the framing arm is already isolated away from their body and exposed. If the opponent instead turns away to defend the arm, abandon the north-south rotation and follow the exposed back toward back control. A blocked transition should flow into a submission or a back take rather than stalling into a static push that drains your energy."
       }
     ],
-    "safety_considerations": "This transition involves continuous pressure on the opponent's chest and upper body which restricts breathing. Monitor your training partner for signs of respiratory distress including tapping, verbal signals, or cessation of movement. During drilling, periodically check that your partner can breathe adequately under the pressure. Avoid dropping your full weight suddenly during the rotation completion as this can cause rib injuries. The transition itself is low-risk compared to submissions, but the sustained chest compression in both the starting and ending positions requires awareness of your partner's comfort and safety throughout the positional exchange."
+    "safety_considerations": "This transition involves continuous pressure on the opponent's chest and upper body which restricts breathing. Monitor your training partner for signs of respiratory distress including tapping, verbal signals, or cessation of movement. During drilling, periodically check that your partner can breathe adequately under the pressure. Avoid dropping your full weight suddenly during the rotation completion as this can cause rib injuries. The transition itself is low-risk compared to submissions, but the sustained chest compression in both the starting and ending positions requires awareness of your partner's comfort and safety throughout the positional exchange.",
+    "clips": [
+      {
+        "id": "LurZB_PfUmA",
+        "title": "Modified scarf hold to north-south choke",
+        "by": "Todd Blatchley",
+        "vertical": false,
+        "channel": "Todd Blatchley",
+        "duration": 121,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Reverse Scarf to North-South Defender",
@@ -423,6 +434,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full integration into live defensive sequences",
         "description": "Start in reverse scarf hold bottom during live positional sparring. Partner works all available attacks and transitions including the north-south transition. Practice recognizing and defending the specific transition within the broader context of reverse scarf hold escape sequences where multiple threats must be addressed simultaneously."
+      }
+    ],
+    "clips": [
+      {
+        "id": "2EZfzJb_-tA",
+        "title": "Quick north-south escape",
+        "by": "Moncaio Brothers",
+        "vertical": false,
+        "channel": "Moncaio Brothers Jiujitsu",
+        "duration": 24,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ORpUBUxK1QE",
+        "title": "Reverse kesa gatame escape to back take",
+        "by": "Gymnanigains",
+        "vertical": false,
+        "channel": "Gymnanigains",
+        "duration": 26,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QzegNgUUfZs",
+        "title": "Reverse kesa gatame side control escape",
+        "by": "Coach Paul",
+        "vertical": false,
+        "channel": "Coach Paul - War Fork Jiu-Jitsu Academy",
+        "duration": 81,
+        "verified": "2026-07-15"
       }
     ]
   }

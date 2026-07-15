@@ -272,7 +272,36 @@
         "answer": "In ushiro, your hips are already inverted from a prior escape attempt, which changes the available leverage angles for both defender and attacker. Standard ashi-garami escape relies heavily on hip movement away from the entanglement, but in ushiro your hips face the opposite direction, making continued rotation (Granby roll) more natural than reversing the inversion. The reversed configuration also changes which of the opponent's legs is the primary threat—the inside leg becomes the saddle transition danger rather than just a secondary control point."
       }
     ],
-    "safety_considerations": "Ushiro ashi-garami escape involves significant knee and ankle joint risk due to the reversed leg entanglement configuration. The primary injury danger is heel hook submission during extraction attempts—momentary loss of dorsiflexion can expose the heel to finishing grips that attack the knee's rotational ligaments (MCL, LCL, meniscus). Always tap immediately if a heel hook grip is secured and you cannot strip it within one to two seconds. During training, practice at controlled speed with trusted partners who understand the mechanics. Never attempt explosive escapes against training partners applying heel hooks at full resistance. Beginners should drill the sequence without any submission threat until the movement pattern is automatic. The inverted hip position also creates potential neck strain during Granby roll variants—ensure adequate neck conditioning before training rolling escapes."
+    "safety_considerations": "Ushiro ashi-garami escape involves significant knee and ankle joint risk due to the reversed leg entanglement configuration. The primary injury danger is heel hook submission during extraction attempts—momentary loss of dorsiflexion can expose the heel to finishing grips that attack the knee's rotational ligaments (MCL, LCL, meniscus). Always tap immediately if a heel hook grip is secured and you cannot strip it within one to two seconds. During training, practice at controlled speed with trusted partners who understand the mechanics. Never attempt explosive escapes against training partners applying heel hooks at full resistance. Beginners should drill the sequence without any submission threat until the movement pattern is automatic. The inverted hip position also creates potential neck strain during Granby roll variants—ensure adequate neck conditioning before training rolling escapes.",
+    "clips": [
+      {
+        "id": "2RLgyzWN71Y",
+        "title": "Double outside ashi escape — running man",
+        "by": "Grappling Game Changer",
+        "vertical": false,
+        "channel": "GRAPPLING GAME CHANGER",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "L417yCl_-dc",
+        "title": "Leg defense and escape from ashi garami",
+        "by": "The Coop BJJ",
+        "vertical": false,
+        "channel": "The Coop BJJ",
+        "duration": 48,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "m4UEhHwbGfQ",
+        "title": "Ashi garami escape: sit over foot to mount",
+        "by": "Troy Manning",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 76,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Ushiro Ashi-Garami Escape Defender",
@@ -396,6 +425,35 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring integration",
         "description": "Full resistance positional sparring starting from ushiro ashi-garami top. Track submission finish rate, saddle transition success rate, and position retention duration across rounds. Integrate into complete leg attack systems flowing from initial ashi-garami entry through ushiro maintenance to submission or transition depending on opponent's defensive choices."
+      }
+    ],
+    "clips": [
+      {
+        "id": "nVfqMfVpTVk",
+        "title": "Simple fix to keep your cross ashi control",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 55,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "DF2AYLPbeHc",
+        "title": "Defending and countering the inside heel hook",
+        "by": "Jahred Dell",
+        "vertical": false,
+        "channel": "Jahred Dell",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "kzgvfbZtH-8",
+        "title": "Craig Jones on hiding the heel",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 233,
+        "verified": "2026-07-15"
       }
     ]
   },

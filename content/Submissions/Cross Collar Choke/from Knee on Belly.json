@@ -332,6 +332,35 @@
         "answer": "With a wet or slippery collar, feed your grips even deeper so that more collar fabric wraps around the neck, increasing friction surface area. Grip with all four fingers inside the collar rather than relying on thumb-over grips. Once both grips are set, lock your wrists by curling your fingers and pulling your elbows tight to your body before dropping to finish—this pre-tension prevents grip slippage during the transition. You can also dry your hands on your own gi pants between attempts.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "hfwzbS9va6M",
+        "title": "Cross choke from knee on belly",
+        "by": "TEAM BERT",
+        "vertical": false,
+        "channel": "TEAM BERT",
+        "duration": 47,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "7N0smA14MFU",
+        "title": "Far lapel cross collar choke from knee on belly",
+        "by": "Martial Arts Institute",
+        "vertical": false,
+        "channel": "Team Martial Arts Institute",
+        "duration": 140,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "bnHem44kqeA",
+        "title": "Cross collar choke from knee on belly",
+        "by": "Evan Cutts",
+        "vertical": false,
+        "channel": "Evan Cutts",
+        "duration": 157,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -462,6 +491,35 @@
         "phase": "Phase 3: Full Defense Under Resistance",
         "focus": "Complete defensive sequence from recognition through escape",
         "description": "Partner attacks the cross collar choke from KOB at full speed. Practice the complete defensive chain: recognize the setup, strip or prevent grips, create angle, and recover guard. Include the last-resort sit-up escape for scenarios where both grips are established. Build up to full-resistance positional sparring from bottom of KOB."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Wn01Ynw7O28",
+        "title": "How to escape the knee on belly position",
+        "by": "Evolve MMA",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 40,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "52LxBaUJdcw",
+        "title": "Knee on belly escape to ankle pick",
+        "by": "Lucas Lepri",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 131,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "XgcesjuXZq4",
+        "title": "Escape the knee on belly before it's too late",
+        "by": "Ryan Robinson",
+        "vertical": false,
+        "channel": "Ryan Robinson BJJ",
+        "duration": 169,
+        "verified": "2026-07-14"
       }
     ]
   }

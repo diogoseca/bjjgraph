@@ -272,7 +272,36 @@
         "answer": "Eliminate all slack immediately after connecting the lapel to your shin by pulling tight and angling your hips perpendicular to the opponent. Maintain your secondary grip on their sleeve to restrict their hand movement. Your near-side knee should be slightly bent and pulled toward your chest, creating structural tension that holds the lapel in place through skeletal alignment rather than grip strength alone. If they reach for the lapel, their posture breaks forward into sweep territory."
       }
     ],
-    "safety_considerations": "Worm Guard Entry involves lapel manipulation around the opponent's leg and does not directly threaten joints or the neck, making it one of the safer advanced transitions to practice. However, ensure the lapel is not wound excessively tight around training partners' legs during drilling, as excessive compression can restrict blood flow during extended positional sparring. Avoid jerking the lapel violently when establishing tension, as sudden force transmission through the fabric can strain the partner's knee or hip when their leg is locked in the configuration. Partners should communicate if the wrap creates uncomfortable pressure on the knee joint. When drilling with new training partners, explain the Worm Guard configuration before applying it, as unfamiliar practitioners may panic and attempt explosive escapes that could injure either participant."
+    "safety_considerations": "Worm Guard Entry involves lapel manipulation around the opponent's leg and does not directly threaten joints or the neck, making it one of the safer advanced transitions to practice. However, ensure the lapel is not wound excessively tight around training partners' legs during drilling, as excessive compression can restrict blood flow during extended positional sparring. Avoid jerking the lapel violently when establishing tension, as sudden force transmission through the fabric can strain the partner's knee or hip when their leg is locked in the configuration. Partners should communicate if the wrap creates uncomfortable pressure on the knee joint. When drilling with new training partners, explain the Worm Guard configuration before applying it, as unfamiliar practitioners may panic and attempt explosive escapes that could injure either participant.",
+    "clips": [
+      {
+        "id": "QzwnLW735U8",
+        "title": "Worm guard entry breakdown",
+        "by": "Erich Munis",
+        "vertical": false,
+        "channel": "Deep Dive JJ",
+        "duration": 53,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ARmiJRANTpg",
+        "title": "Worm guard to back choke",
+        "by": "Keenan Cornelius",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 36,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_lzJebmY_v8",
+        "title": "Reverse de la worm to the back",
+        "by": "BJJ Online",
+        "vertical": false,
+        "channel": "BJJ ONLINE",
+        "duration": 60,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Worm Guard Entry Defender",
@@ -397,6 +426,26 @@
         "phase": "Week 7+",
         "focus": "Live defense and passing integration",
         "description": "Full-resistance positional sparring where partner starts from Lapel Guard and works toward Worm Guard Entry. Defend the entry using all available counters and immediately chain into your preferred passing sequence when the entry fails. Develop the ability to transition seamlessly from defense to offense without pausing between preventing the entry and initiating your pass."
+      }
+    ],
+    "clips": [
+      {
+        "id": "aR0dbddbfQA",
+        "title": "Passing the Polish worm rider",
+        "by": "Daniel Maira",
+        "vertical": false,
+        "channel": "Movement Art",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "4W-dStVHCIQ",
+        "title": "Lapel guard counters and entries",
+        "by": "Bradley Hill",
+        "vertical": false,
+        "channel": "The Grapple Club",
+        "duration": 90,
+        "verified": "2026-07-15"
       }
     ]
   },

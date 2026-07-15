@@ -299,7 +299,36 @@
         "answer": "Three primary alternatives exist depending on the degree of extraction. If extraction is minimal, abort and re-establish cross ashi by recrossing immediately. If the leg is partially extracted but your inside hook remains engaged, redirect into inside ashi-garami by following the extracting leg inward and closing your legs on the inside. If extraction is advanced but you still have ankle grip, transition to straight ankle lock control by shifting your outside leg over the ankle and applying downward pressure. The key decision point is how much inside hook contact remains."
       }
     ],
-    "safety_considerations": "While the Cross Ashi to 50-50 transition itself does not directly apply submission force, it occurs within the leg entanglement system where knee and ankle injuries are common. Maintain awareness that your heel grip during the transition could inadvertently apply rotational force on the opponent's knee if combined with sudden hip movement. During training, execute the transition at controlled speed and communicate with your partner before initiating so they do not panic and attempt explosive escapes that could strain their own knee ligaments. If the opponent taps during the transition due to discomfort in the entanglement, release immediately regardless of whether you were applying intentional submission force."
+    "safety_considerations": "While the Cross Ashi to 50-50 transition itself does not directly apply submission force, it occurs within the leg entanglement system where knee and ankle injuries are common. Maintain awareness that your heel grip during the transition could inadvertently apply rotational force on the opponent's knee if combined with sudden hip movement. During training, execute the transition at controlled speed and communicate with your partner before initiating so they do not panic and attempt explosive escapes that could strain their own knee ligaments. If the opponent taps during the transition due to discomfort in the entanglement, release immediately regardless of whether you were applying intentional submission force.",
+    "clips": [
+      {
+        "id": "ucAwPgTLSpQ",
+        "title": "Getting to backside 50/50",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 121,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "DBbSqQf6iCo",
+        "title": "Roll under to backside 50/50",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 110,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "UuluKZKDt8w",
+        "title": "Heel hooks from 50/50",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 64,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Cross Ashi to 50-50 Defender",
@@ -420,6 +449,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full-speed defensive application",
         "description": "Start in cross ashi-garami with attacker having full control. Attacker chooses when to transition to 50-50 or continue attacking from cross ashi. Defender must defend both the cross ashi submissions and recognize and counter the transition attempts. Full resistance from both players. Track success rate of transition prevention versus successful attacker transitions across multiple rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "cYEzCp2l4rQ",
+        "title": "50/50 escape for no-gi leg locks",
+        "by": "Elite Team Monterey",
+        "vertical": false,
+        "channel": "ELITE TEAM MONTEREY",
+        "duration": 46,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "AsGMkATAqqw",
+        "title": "What to do if you are being ambushed (heel hook defense)",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 53,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "clVAHxgRadE",
+        "title": "Outside heel hook defense to inside heel hook",
+        "by": "Holy Grail BJJ",
+        "vertical": false,
+        "channel": "Holy Grail BJJ",
+        "duration": 105,
+        "verified": "2026-07-15"
       }
     ]
   }

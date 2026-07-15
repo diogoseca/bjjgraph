@@ -302,7 +302,18 @@
         "answer": "A sound hook insertion maintains unbroken chest-to-back contact throughout the entire insertion motion, results in the foot being placed deep inside the thigh with active heel engagement, and does not require releasing near-arm control or seat belt grip. A flawed insertion typically involves reaching with the foot while the chest separates, placing the foot shallowly near the knee where it is easily cleared, or sacrificing upper body control to focus on leg mechanics. The diagnostic test: if your chest lifts off the opponent's back at any point during insertion, the mechanics are flawed."
       }
     ],
-    "safety_considerations": "This transition carries moderate injury risk from dynamic weight shifts during hook insertion. Practitioners should avoid explosive hook insertion near the groin or knee joints, as forced foot placement can cause knee ligament stress or groin compression. Sustained weight loading on a turtled opponent can compress the cervical and thoracic spine if applied aggressively, particularly when driving forward pressure. Communication between training partners is essential—the bottom player should signal discomfort from spinal pressure or hook placement. In gi training, collar grips during the transition can apply dangerous neck pressure. Always drill at controlled speed before introducing resistance, and ensure the bottom player can tap or verbally signal at any point during the transition sequence."
+    "safety_considerations": "This transition carries moderate injury risk from dynamic weight shifts during hook insertion. Practitioners should avoid explosive hook insertion near the groin or knee joints, as forced foot placement can cause knee ligament stress or groin compression. Sustained weight loading on a turtled opponent can compress the cervical and thoracic spine if applied aggressively, particularly when driving forward pressure. Communication between training partners is essential—the bottom player should signal discomfort from spinal pressure or hook placement. In gi training, collar grips during the transition can apply dangerous neck pressure. Always drill at controlled speed before introducing resistance, and ensure the bottom player can tap or verbally signal at any point during the transition sequence.",
+    "clips": [
+      {
+        "id": "6MhcPYISQDU",
+        "title": "Rodeo ride to rodeo choke on the back",
+        "by": "Ethos Jiu-Jitsu Fullerton",
+        "vertical": false,
+        "channel": "Ethos Jiu-Jitsu Fullerton",
+        "duration": 85,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Rodeo Ride to Back Control Defender",
@@ -423,6 +434,35 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Full resistance positional sparring from Rodeo Ride bottom",
         "description": "Start from Rodeo Ride bottom against a partner working full-speed back takes. Apply all defensive concepts in live conditions. Measure success by time to escape and positions achieved after escape. Integrate defensive reactions with guard recovery sequences for complete escape-to-offense chains."
+      }
+    ],
+    "clips": [
+      {
+        "id": "W0TCGKRcniA",
+        "title": "Turtle Escape with the Shoulder Roll",
+        "by": "BJJake",
+        "vertical": false,
+        "channel": "BJJake",
+        "duration": 21,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "0AzYYiSiPbU",
+        "title": "Sit-Out and Turn-In from Turtle Defense",
+        "by": "Adam Song",
+        "vertical": false,
+        "channel": "Adam Song MMA",
+        "duration": 162,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_sBB-O8fqP4",
+        "title": "Standing Up from Defensive Positions",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 114,
+        "verified": "2026-07-15"
       }
     ]
   }

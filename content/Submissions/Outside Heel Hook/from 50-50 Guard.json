@@ -346,6 +346,26 @@
         "answer": "The outside heel hook is preferred when you have strong inside position and the opponent's heel is naturally exposed on the outside of the entanglement. Transition to inside heel hook by moving to honey hole or inside ashi when the opponent's boot defense effectively hides the heel from the outside angle. Competition strategy also considers the ruleset: ADCC and most no-gi rulesets allow both, while IBJJF restricts heel hooks by belt level. The outside heel hook from 50-50 carries less positional risk as failure returns you to 50-50 top.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "UuluKZKDt8w",
+        "title": "Heel Hooks breakdown",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 64,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "5RyU5LDc3C4",
+        "title": "ADCC-style 50/50 heel hook",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Alberto Serrano BJJ",
+        "duration": 86,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -481,6 +501,26 @@
         "phase": "Phase 4: Live Defense with Tap Discipline",
         "focus": "Full-speed defense with emphasis on knowing when to tap",
         "description": "Positional sparring from 50-50 bottom against partners with legitimate heel hook ability. Primary goal is recognizing the critical moment when defense has failed and tapping before damage occurs. Track the percentage of rounds where you successfully defend versus where you tap, aiming to improve defense rate while maintaining zero injuries through disciplined tap timing."
+      }
+    ],
+    "clips": [
+      {
+        "id": "v3w0qXLKxug",
+        "title": "Defending heel hooks fundamentals",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 92,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "AsGMkATAqqw",
+        "title": "What to do when ambushed (heel hook defense)",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 53,
+        "verified": "2026-07-14"
       }
     ]
   }

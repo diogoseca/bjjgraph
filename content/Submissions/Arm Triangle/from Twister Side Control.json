@@ -342,6 +342,35 @@
         "answer": "Chest compression uses your entire body weight and the structural advantage of your torso expanding against the opponent's trapped shoulder and neck. Arm squeezing relies on bicep and forearm endurance, which fatigues rapidly under the sustained effort needed to finish a choke. Body mechanics generate far more compressive force while requiring less energy, and the pressure is distributed across a larger surface area, making the choke tighter and more difficult to defend.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "CuhFzPhwvQA",
+        "title": "Advanced Arm Triangle from Twister Side",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "odT3-cVWXdc",
+        "title": "Twister Side Control Attacks",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "R55lmkc6Mus",
+        "title": "Twister Side Control",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 87,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -477,6 +506,26 @@
         "phase": "Phase 4: Live defensive sparring",
         "focus": "Full-speed defense from Twister Side Control position",
         "description": "Partner starts in Twister Side Control top with full offensive options. Defend all attacks including the arm triangle transition. Focus on arm positioning awareness to prevent the arm triangle setup while still defending the shoulder pressure. 5-minute rounds, reset on escape or submission."
+      }
+    ],
+    "clips": [
+      {
+        "id": "D2vkZGTD78I",
+        "title": "The Fastest Escape Out of the Arm Triangle",
+        "by": "Adam Bradley",
+        "vertical": false,
+        "channel": "Adam Bradley",
+        "duration": 31,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Fx6qjR6a_xE",
+        "title": "3 Arm Triangle Choke Defenses",
+        "by": "MMA Leech",
+        "vertical": false,
+        "channel": "MMA Leech",
+        "duration": 274,
+        "verified": "2026-07-14"
       }
     ]
   }

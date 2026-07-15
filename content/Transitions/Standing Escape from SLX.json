@@ -294,7 +294,18 @@
         "answer": "The standing escape is suboptimal when you have already partially cleared the guard and are close to completing a pass, when the bottom player's hooks are loose enough that a backstep pass or smash pass would succeed with less effort, or when you have grip configurations that favor a direct passing sequence. The standing escape sacrifices positional progress to reset to neutral, so it is best reserved for situations where the entanglement is deep, the bottom player's control is strong, and attempting to pass carries high sweep or submission risk."
       }
     ],
-    "safety_considerations": "The Standing Escape from SLX is generally low-risk for both practitioners, but care must be taken during extraction to avoid dropping weight suddenly onto the bottom player's legs or torso. The top player should control their descent if balance is lost rather than falling uncontrolled. Avoid twisting the trapped knee laterally during extraction, which can stress the medial collateral ligament. Both players should be aware that rapid hook clearing can occasionally catch fingers or toes, so maintain controlled movements rather than violent ripping motions."
+    "safety_considerations": "The Standing Escape from SLX is generally low-risk for both practitioners, but care must be taken during extraction to avoid dropping weight suddenly onto the bottom player's legs or torso. The top player should control their descent if balance is lost rather than falling uncontrolled. Avoid twisting the trapped knee laterally during extraction, which can stress the medial collateral ligament. Both players should be aware that rapid hook clearing can occasionally catch fingers or toes, so maintain controlled movements rather than violent ripping motions.",
+    "clips": [
+      {
+        "id": "jE1TQnPOzig",
+        "title": "Escape and counter the single leg X reap",
+        "by": "Matteo BJJ",
+        "vertical": false,
+        "channel": "No-Gi Jiu-Jitsu By Matteobjj",
+        "duration": 277,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Standing Escape from SLX Defender",
@@ -415,6 +426,35 @@
         "phase": "Phase 4: Full Resistance Defense",
         "focus": "Preventing the complete escape under competition conditions",
         "description": "Positional sparring where the top player's sole objective is the standing escape and your sole objective is maintaining SLX or sweeping. Use all available tools including hook retention, grip fighting, sweeps, and transitions. Track success rate and identify patterns in your defensive failures."
+      }
+    ],
+    "clips": [
+      {
+        "id": "TVQXVTX6Szw",
+        "title": "Single leg X sweep as they stand",
+        "by": "Won Hee Cho",
+        "vertical": false,
+        "channel": "조원희주짓수다",
+        "duration": 23,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "aoyScppYR1E",
+        "title": "Single leg X to X guard sweep retention",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 160,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "iCxvIhNqLlI",
+        "title": "Single leg X off-balancing and sweeping system",
+        "by": "Mads H.",
+        "vertical": false,
+        "channel": "Mads H. BJJ",
+        "duration": 222,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -293,7 +293,36 @@
         "answer": "Look for forward weight commitment with arms extended within dragging range, which indicates the opponent is pressuring or reaching. Moments when they grip or reach for your collar, lapel, or sleeve are optimal because their hand is occupied and retraction is delayed. Watch for asymmetric weight distribution where one side is loaded more than the other, making the loaded side vulnerable to being pulled off balance. The best opportunities arise when the opponent is focused on their own offensive action such as initiating a pass, which diverts their attention from arm position defense."
       }
     ],
-    "safety_considerations": "The arm drag to back is generally a low-risk technique with minimal injury potential when practiced correctly. However, several safety considerations should be observed. When drilling, ensure controlled speed initially to prevent neck injuries since rapid rotation combined with resistance can cause the partner's neck to torque unexpectedly. Start slow and gradually increase speed as both partners develop comfort with the movement. Be cautious with grip strength on wrist and triceps, particularly with smaller or beginner partners, as overly aggressive gripping can cause hand and forearm injuries. When your partner is learning to counter the arm drag, communicate clearly about resistance levels to prevent sudden explosive counters that might cause injury. During the rotation phase, be aware of your training partner's knee and ankle position since awkward angles during the circular movement can stress these joints if they cannot adjust properly. In competition or live sparring, be prepared for opponent to sit back suddenly to prevent back take, which can create collision risks. Always maintain awareness of training area boundaries to avoid rotating off the mat."
+    "safety_considerations": "The arm drag to back is generally a low-risk technique with minimal injury potential when practiced correctly. However, several safety considerations should be observed. When drilling, ensure controlled speed initially to prevent neck injuries since rapid rotation combined with resistance can cause the partner's neck to torque unexpectedly. Start slow and gradually increase speed as both partners develop comfort with the movement. Be cautious with grip strength on wrist and triceps, particularly with smaller or beginner partners, as overly aggressive gripping can cause hand and forearm injuries. When your partner is learning to counter the arm drag, communicate clearly about resistance levels to prevent sudden explosive counters that might cause injury. During the rotation phase, be aware of your training partner's knee and ankle position since awkward angles during the circular movement can stress these joints if they cannot adjust properly. In competition or live sparring, be prepared for opponent to sit back suddenly to prevent back take, which can create collision risks. Always maintain awareness of training area boundaries to avoid rotating off the mat.",
+    "clips": [
+      {
+        "id": "MFed9IE8afA",
+        "title": "Reverse Arm Drag from Butterfly to Back Take",
+        "by": "Jerry Musquiz",
+        "vertical": false,
+        "channel": "Jerry Musquiz",
+        "duration": 42,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "PCPrbetHf4U",
+        "title": "Arm Drag from Butterfly Guard",
+        "by": "Procel BJJ",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "OgyVXBXFpdA",
+        "title": "Three Back Takes from Guard: Arm Drag, Wrist Drag, Swim Under",
+        "by": "AMAZIN BJJ",
+        "vertical": false,
+        "channel": "AMAZIN BJJ",
+        "duration": 53,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Arm Drag to Back Defender",
@@ -414,6 +443,17 @@
         "phase": "Week 9+: Full Sparring Integration",
         "focus": "Applying arm drag defense within live rolling context",
         "description": "Focus on recognizing arm drag setups during full sparring rounds, not just positional sparring. Work on maintaining proper arm positioning and weight distribution habits throughout entire rounds. Debrief after each session to identify moments where arm drag defense succeeded or failed and adjust training focus accordingly. Chain defensive responses with offensive counter-attacks when defense is successful."
+      }
+    ],
+    "clips": [
+      {
+        "id": "bmCjXADzgo4",
+        "title": "How to Defend the Arm Drag",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 103,
+        "verified": "2026-07-15"
       }
     ]
   },

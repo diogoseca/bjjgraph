@@ -337,6 +337,26 @@
         "answer": "The chain creates a binary defensive dilemma where each defense opens the other attack. Bending the knee to defend the kneebar exposes the foot for the toe hold. Straightening the leg to defend the toe hold re-exposes the knee for the kneebar. This forces the opponent to choose which submission to defend rather than having a single defensive strategy, dramatically increasing the attacker's finishing probability compared to isolated attacks.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "uDoUFh3gXxo",
+        "title": "Toe Hold from Failed Kneebar",
+        "by": "Jaime Jara",
+        "vertical": false,
+        "channel": "Jaime Jara",
+        "duration": 67,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "0Ikomr3uYBU",
+        "title": "Kneebar to Toe Hold from Guard",
+        "by": "Kinesiology College",
+        "vertical": false,
+        "channel": "Kinesiology College",
+        "duration": 14,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -460,6 +480,26 @@
         "phase": "Live Positional Defense",
         "focus": "Full resistance defense from kneebar control against the complete chain",
         "description": "Start in kneebar control with attacker working the kneebar-toe hold chain at competition pace. Defender uses all available tools - grip prevention, leg straightening, hip rotation, guard recovery. Track escape rate and tap timing to measure defensive development."
+      }
+    ],
+    "clips": [
+      {
+        "id": "hze1WyTvkzA",
+        "title": "Defending the Kneebar to Toe Hold",
+        "by": "Garden State BJJ",
+        "vertical": false,
+        "channel": "Garden State Brazilian Jiu-Jitsu Academy",
+        "duration": 24,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "3a9k8-ZcYrk",
+        "title": "How to Escape the Toe Hold",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "The King Life",
+        "duration": 106,
+        "verified": "2026-07-14"
       }
     ]
   }

@@ -294,7 +294,27 @@
         "answer": "First, squeeze your legs together to tighten the inside ashi configuration and eliminate any space. Second, adjust your body angle to perpendicular alignment with the opponent's trapped leg for maximum mechanical advantage. Third, secure heel control with a C-grip if not already established during the transition. Fourth, elevate your hips off the mat to create submission leverage. Only after all four elements are secured should you consider initiating a submission attempt—rushing to finish before full consolidation risks losing the hard-won position."
       }
     ],
-    "safety_considerations": "Counter-entanglement transitions involve simultaneous offensive and defensive leg lock mechanics, creating elevated injury risk for both practitioners. Always maintain heel protection as the top priority throughout the entire transition—no counter-entanglement is worth a knee injury from an undefended heel hook. When drilling, progress through resistance levels gradually and ensure both partners understand tap protocols for leg locks. Never attempt explosive counter-entanglements at full speed until the mechanical pattern is deeply ingrained through repetitive cooperative drilling. Both practitioners should verbally communicate heel exposure during training to prevent accidental injury."
+    "safety_considerations": "Counter-entanglement transitions involve simultaneous offensive and defensive leg lock mechanics, creating elevated injury risk for both practitioners. Always maintain heel protection as the top priority throughout the entire transition—no counter-entanglement is worth a knee injury from an undefended heel hook. When drilling, progress through resistance levels gradually and ensure both partners understand tap protocols for leg locks. Never attempt explosive counter-entanglements at full speed until the mechanical pattern is deeply ingrained through repetitive cooperative drilling. Both practitioners should verbally communicate heel exposure during training to prevent accidental injury.",
+    "clips": [
+      {
+        "id": "07rBjpOH3wo",
+        "title": "Ashi to inside heel hook transition",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 128,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "I5WGh_TODis",
+        "title": "Switching side to side Ashi Garami",
+        "by": "Pendergrass Academy",
+        "vertical": false,
+        "channel": "Pendergrass Academy of Martial Arts",
+        "duration": 177,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Outside Ashi to Inside Ashi Defender",
@@ -415,6 +435,35 @@
         "phase": "Phase 4: Live Positional Sparring with Full Resistance",
         "focus": "Full competitive intensity defensive application in realistic conditions",
         "description": "Positional sparring from Outside Ashi-Garami with full resistance. You start in bottom offensive position working to maintain control and finish submissions while partner works to escape or counter-entangle. Develop instinctive recognition and response patterns under competitive intensity with proper leg lock safety protocols. Three-minute rounds alternating roles with immediate post-round feedback."
+      }
+    ],
+    "clips": [
+      {
+        "id": "cRXsNPAgVLU",
+        "title": "Irimi Ashi Garami counter",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 29,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "mZp355NAIYk",
+        "title": "Ashi Garami defense and counter pass",
+        "by": "The Grappling Bloke",
+        "vertical": false,
+        "channel": "The Grappling Bloke",
+        "duration": 111,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MFA3wu20LzI",
+        "title": "Two counters vs Outside Ashi Garami",
+        "by": "Oneonta Jiu Jitsu coach",
+        "vertical": false,
+        "channel": "OneontaJiuJitsu Academy",
+        "duration": 141,
+        "verified": "2026-07-15"
       }
     ]
   }

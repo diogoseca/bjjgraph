@@ -276,7 +276,36 @@
         "answer": "Recognize that the Old School threat means your base is being loaded toward your far side, so immediately post your free hand wide on the mat in the direction they are sweeping and drive your hips back down heavy. Free the trapped arm by circling it toward their hip rather than pulling straight back, and re-pin their underhook side. If you cannot recover base, abandon the extraction and reset to flat pocket half pressure rather than fighting the momentum upward."
       }
     ],
-    "safety_considerations": "This pass involves sustained chest and crossface pressure that can be uncomfortable but generally carries low injury risk compared to submissions. Ensure crossface pressure is applied with the forearm flat across the jaw rather than driving into the throat or trachea. During training, communicate with your partner about pressure levels, particularly during the flattening phase. Be mindful of your partner's neck position when applying crossface—avoid cranking or twisting motions. During extraction, move smoothly to prevent knee torque on the trapped leg."
+    "safety_considerations": "This pass involves sustained chest and crossface pressure that can be uncomfortable but generally carries low injury risk compared to submissions. Ensure crossface pressure is applied with the forearm flat across the jaw rather than driving into the throat or trachea. During training, communicate with your partner about pressure levels, particularly during the flattening phase. Be mindful of your partner's neck position when applying crossface—avoid cranking or twisting motions. During extraction, move smoothly to prevent knee torque on the trapped leg.",
+    "clips": [
+      {
+        "id": "TwBbrjRxRRU",
+        "title": "Pick pocket method to pass half guard",
+        "by": "Patrick Donabedian",
+        "vertical": false,
+        "channel": "Patrick Donabedian BJJ",
+        "duration": 93,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Nuh4wnROi-c",
+        "title": "Z guard pass into side control",
+        "by": "JitzLive",
+        "vertical": false,
+        "channel": "JitzLive",
+        "duration": 28,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "OsAvmhwQqCo",
+        "title": "Passing the knee shield half guard",
+        "by": "Sticks and Stones BJJ",
+        "vertical": false,
+        "channel": "Sticks and Stones BJJ",
+        "duration": 211,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Pass Pocket Half Defender",
@@ -400,6 +429,26 @@
         "phase": "Phase 4: Counter Offense",
         "focus": "Integrating sweep threats and back take attempts into defensive sequence",
         "description": "Full resistance positional sparring from pocket half guard bottom. Combine defensive frame maintenance with active sweep threats, deep half transitions, and back take attempts. Score points for successful sweeps or guard retentions, deduct for completed passes. Develop the ability to simultaneously defend and threaten."
+      }
+    ],
+    "clips": [
+      {
+        "id": "W80zSgyOIuQ",
+        "title": "No-gi half guard sweep from the bottom",
+        "by": "Precision Martial Arts",
+        "vertical": false,
+        "channel": "Precision Martial Arts ",
+        "duration": 46,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fCqC2CvOKt0",
+        "title": "Back pocket sweep from half guard",
+        "by": "Animal",
+        "vertical": false,
+        "channel": "Animal",
+        "duration": 51,
+        "verified": "2026-07-15"
       }
     ]
   }

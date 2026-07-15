@@ -444,7 +444,36 @@
         "description": "Success rate of finishing submission from back control position"
       },
       "average_time": "45-90 seconds before submission attempt or position change"
-    }
+    },
+    "clips": [
+      {
+        "id": "f3PJ06A_bWQ",
+        "title": "Hip Switch to Back Take",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 19,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "70jECxFfCSA",
+        "title": "Rear Naked Choke from the Back",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Control Jiu JItsu",
+        "duration": 73,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "aQ2vFXXBn-o",
+        "title": "Countering a Full Inversion",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-14"
+      }
+    ]
   },
   "bottom": {
     "name": "Back Control Bottom",
@@ -759,7 +788,27 @@
         "description": "Risk of being submitted from back control bottom position by opponent"
       },
       "average_time": "30-60 seconds before submission or escape attempt"
-    }
+    },
+    "clips": [
+      {
+        "id": "_sBB-O8fqP4",
+        "title": "Standing Up from Back Control",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 114,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "3RbOD9fhi20",
+        "title": "Running Man Back Escape",
+        "by": "Jiu Jitsu Modern",
+        "vertical": false,
+        "channel": "JIU JITSU MODERN",
+        "duration": 210,
+        "verified": "2026-07-14"
+      }
+    ]
   },
   "flashcards_family": [
     {
@@ -827,6 +876,35 @@
     {
       "question": "What makes back control mechanically distinct from mount despite both being dominant positions?",
       "answer": "Both mount and back control are top-tier dominant positions, but they attack from opposite sides and control different planes. Mount pins the opponent chest-to-chest from the front, relying on downward weight and the opponent facing up. Back control attaches chest-to-back from behind, relying on the harness and leg hooks rather than flat pressure, and the opponent faces away. This gives back control its blind-side advantage and higher submission rate, while mount trades that away for more direct visual control and heavier top pressure. The transition between them is why losing the back often flows into mount rather than a full escape."
+    }
+  ],
+  "clips": [
+    {
+      "id": "ovyq_pmaB88",
+      "title": "Back Attacks System Overview",
+      "by": "John Danaher",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 56,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "ypTfNWlR5ls",
+      "title": "Basics of Back Control & Rear Strangle",
+      "by": "Robyn Sheehan",
+      "vertical": false,
+      "channel": "Robyn Sheehan",
+      "duration": 168,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "-lMabjvtaLk",
+      "title": "Entries Into Rear Triangle Back Position",
+      "by": "John Danaher",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 252,
+      "verified": "2026-07-14"
     }
   ]
 }

@@ -299,7 +299,36 @@
         "answer": "Core strength and hip mobility are the primary physical requirements. Explosive hip elevation demands strong glutes, hip flexors, and abdominal engagement working in coordination. Rotational power through the obliques drives the sweeping motion that displaces the opponent. Hip flexibility allows the range of motion needed for the fulcrum creation. Grip endurance maintains the pulling connections throughout the sweep, and cardiovascular conditioning supports repeated attempts. However, proper timing and technique ultimately matter more than raw physical attributes."
       }
     ],
-    "safety_considerations": "The Sweep from Matrix involves rotational movement and inversion that can strain the neck and shoulders if performed incorrectly. Always warm up thoroughly with neck circles, shoulder mobility, and hip openers before drilling. Control the speed of rotation during training to prevent partner collisions or awkward landings. If neck compression occurs during the rolling component, tap immediately and reset. Partners should allow the sweep to complete during drilling rather than resisting explosively mid-motion, which can cause joint injuries or neck compression. Beginners should master the solo hip elevation mechanics before attempting the sweep with a partner. Avoid the technique if you have existing neck or cervical spine issues."
+    "safety_considerations": "The Sweep from Matrix involves rotational movement and inversion that can strain the neck and shoulders if performed incorrectly. Always warm up thoroughly with neck circles, shoulder mobility, and hip openers before drilling. Control the speed of rotation during training to prevent partner collisions or awkward landings. If neck compression occurs during the rolling component, tap immediately and reset. Partners should allow the sweep to complete during drilling rather than resisting explosively mid-motion, which can cause joint injuries or neck compression. Beginners should master the solo hip elevation mechanics before attempting the sweep with a partner. Avoid the technique if you have existing neck or cervical spine issues.",
+    "clips": [
+      {
+        "id": "pcOF-B4y09Q",
+        "title": "De La Riva sweep into the matrix",
+        "by": "Unknown coach",
+        "vertical": false,
+        "channel": "FreeChannelOpen",
+        "duration": 36,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "BWDsJPV7iPA",
+        "title": "No-gi matrix back take off the leg drag",
+        "by": "Langaker BJJ coach",
+        "vertical": false,
+        "channel": "LangakerBjj",
+        "duration": 96,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "H0SUb0Eo168",
+        "title": "Setting up and finishing the matrix",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ Plus",
+        "duration": 132,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Sweep from Matrix Defender",
@@ -424,6 +453,17 @@
         "phase": "Phase 4: Counter-Offensive Transition",
         "focus": "Converting defensive wins into offensive opportunities",
         "description": "After successfully defending the sweep, practice immediately transitioning to passing or submission attacks. Chain defensive success into crossface passes, back takes, or darce setups while the bottom player is compromised from their failed sweep attempt."
+      }
+    ],
+    "clips": [
+      {
+        "id": "QCEdvqfWZMI",
+        "title": "Matrix defense in the leg drag series",
+        "by": "BJJ Lab Zurich coach",
+        "vertical": false,
+        "channel": "BJJ Lab Zürich",
+        "duration": 96,
+        "verified": "2026-07-15"
       }
     ]
   }

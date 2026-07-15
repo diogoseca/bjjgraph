@@ -360,6 +360,35 @@
           "nogi": 13
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "3OkCuU0B0UE",
+        "title": "Attack the Back with a Body Triangle",
+        "by": "Grapple Box",
+        "vertical": false,
+        "channel": "Grapple Box llc",
+        "duration": 28,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "8JwxpgWGsFU",
+        "title": "How to Properly Use a Body Triangle",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Less Impressed More Involved BJJ",
+        "duration": 294,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "TFKAmteeVIA",
+        "title": "Body Triangle Troubleshooting",
+        "by": "Tom Halpin",
+        "vertical": false,
+        "channel": "Tom Halpin",
+        "duration": 186,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -670,6 +699,26 @@
           "nogi": 4
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "hgaULMND3ag",
+        "title": "Escaping the Body Triangle",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 129,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "XXnVvrZXGOs",
+        "title": "Body Triangle Escape",
+        "by": "Art of War MMA",
+        "vertical": false,
+        "channel": "Art of War - MMA",
+        "duration": 173,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -704,6 +753,26 @@
     {
       "question": "How does the body triangle relate to and differ from the adjacent positions of standard back control, mount, and the truck?",
       "answer": "The body triangle is a variation of back control that swaps hooks for a leg lock, trading the mobility and quick-transition ability of hooks for far higher retention and constant compression. It sits between standard back control and more dynamic entanglements: if the lock must be abandoned it commonly resets to hooks or advances to mount while the legs stay engaged, and rolling into the truck reconfigures the same lower-body entanglement into a leg-attack platform. Unlike mount, which controls from the front with the opponent facing up, the body triangle keeps the controller on the opponent's back with the opponent's neck exposed to attack. Its identity is the fusion of back-control positioning with a static mechanical leg lock."
+    }
+  ],
+  "clips": [
+    {
+      "id": "8JwxpgWGsFU",
+      "title": "How to Properly Use a Body Triangle",
+      "by": "Gordon Ryan",
+      "vertical": false,
+      "channel": "Less Impressed More Involved BJJ",
+      "duration": 294,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "t85-T9z_evY",
+      "title": "Body Triangle with Shoulder Lock",
+      "by": "Demian Maia",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 195,
+      "verified": "2026-07-14"
     }
   ]
 }

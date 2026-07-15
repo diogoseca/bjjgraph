@@ -250,7 +250,27 @@
         "answer": "From established Single Leg X-Guard, if the initial off-balancing sweep is defended, chain into an inside ashi garami entry by rotating underneath their base and capturing the leg in entanglement. If they post wide to resist sweeps, transition to standard X-Guard for a different sweep angle. If they attempt to pull their leg free, follow with an ankle pick sweep or technical standup to a single leg. The key is maintaining offensive momentum rather than settling into a static guard position."
       }
     ],
-    "safety_considerations": "This technique involves leg entanglement positions where knee and ankle injuries are possible. During training, communicate clearly with partners about resistance levels and tap immediately if any leg lock pressure is applied during extraction attempts. The extraction motion itself is relatively safe, but failed attempts may leave you in worse leg lock positions. Practice at controlled speeds initially, only adding speed as the mechanical pattern becomes automatic. Partners should never explosively attack leg submissions during extraction drilling. In live training, recognize that forcing extraction against tight control risks knee injury if opponent has heel hook or kneebar position. When in doubt about joint safety, tap and reset rather than fighting through a bad position."
+    "safety_considerations": "This technique involves leg entanglement positions where knee and ankle injuries are possible. During training, communicate clearly with partners about resistance levels and tap immediately if any leg lock pressure is applied during extraction attempts. The extraction motion itself is relatively safe, but failed attempts may leave you in worse leg lock positions. Practice at controlled speeds initially, only adding speed as the mechanical pattern becomes automatic. Partners should never explosively attack leg submissions during extraction drilling. In live training, recognize that forcing extraction against tight control risks knee injury if opponent has heel hook or kneebar position. When in doubt about joint safety, tap and reset rather than fighting through a bad position.",
+    "clips": [
+      {
+        "id": "y0C8vIeCrc0",
+        "title": "Two single leg X entries and sweep",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 179,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "XELDoBTfGpM",
+        "title": "Single leg X to X guard drill",
+        "by": "Emily Kwok",
+        "vertical": false,
+        "channel": "Kingston Jiu Jitsu",
+        "duration": 176,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Extract leg and establish Single Leg X Defender",
@@ -367,6 +387,26 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Full resistance rounds starting from Leg Knot with both players working their systems. Top player practices proactive control maintenance with no transitional windows while recognizing and responding to extraction attempts. Track how often bottom player achieves Single Leg X versus being retained or countered."
+      }
+    ],
+    "clips": [
+      {
+        "id": "e2KVHXnSh_o",
+        "title": "Countering single leg X with a heel hook",
+        "by": "Charles Allan Price",
+        "vertical": false,
+        "channel": "Charles Allan Price",
+        "duration": 75,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "gwEmeb9RSk4",
+        "title": "Defending the single leg X sweep (no-gi)",
+        "by": "Tiger Muay Thai coach",
+        "vertical": false,
+        "channel": "Tiger Muay Thai and MMA Training Camp, Phuket, Thailand",
+        "duration": 227,
+        "verified": "2026-07-15"
       }
     ]
   },

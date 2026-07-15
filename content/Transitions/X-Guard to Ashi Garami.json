@@ -307,7 +307,36 @@
         "answer": "The decision depends on your opponent's hip height relative to yours and where their free leg lands. If they drop forward but their hips remain above yours and their free leg stays wide, continue to Inside Ashi by using the forward pressure to flatten yourself and thread your inside leg deeper. If their hips drop level with yours and their free leg collapses close to your body, the 50-50 entry becomes higher percentage because you can mirror their leg position with minimal reconfiguration. The general rule is that forward pressure with high hips favors standard Ashi, while forward pressure with collapsed hips favors 50-50. Reading this hip height difference in real time is the critical decision-making skill."
       }
     ],
-    "safety_considerations": "This transition enters leg entanglement territory where submissions can occur rapidly and cause significant injury if applied without control. When training this transition, both practitioners must understand tap protocols for heel hooks, toe holds, and knee bars, as these submissions can damage joints before pain signals warn of danger. Always practice with controlled speed and communicate clearly with training partners about resistance levels. Beginners should master the positional aspects thoroughly before attempting submissions from Ashi positions. Never attempt explosive entries or submissions during initial learning phases. Ensure training partners are experienced enough to defend leg entanglements safely, as inexperienced practitioners may not recognize submission danger until injury occurs. Use progressive resistance protocols and always respect taps immediately. Consider using limited-resistance positional sparring before incorporating full submissions into live training from this transition."
+    "safety_considerations": "This transition enters leg entanglement territory where submissions can occur rapidly and cause significant injury if applied without control. When training this transition, both practitioners must understand tap protocols for heel hooks, toe holds, and knee bars, as these submissions can damage joints before pain signals warn of danger. Always practice with controlled speed and communicate clearly with training partners about resistance levels. Beginners should master the positional aspects thoroughly before attempting submissions from Ashi positions. Never attempt explosive entries or submissions during initial learning phases. Ensure training partners are experienced enough to defend leg entanglements safely, as inexperienced practitioners may not recognize submission danger until injury occurs. Use progressive resistance protocols and always respect taps immediately. Consider using limited-resistance positional sparring before incorporating full submissions into live training from this transition.",
+    "clips": [
+      {
+        "id": "lUeZ2AAbm7c",
+        "title": "X-Guard to Ashi Garami (Saddle) to ankle lock",
+        "by": "The Bear's Den BJJ coach",
+        "vertical": false,
+        "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
+        "duration": 82,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "HVc2CKdAfN0",
+        "title": "X-Guard to Saddle (cross ashi) entry",
+        "by": "Johnny Jitsu",
+        "vertical": false,
+        "channel": "Johnny Jitsu",
+        "duration": 120,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "gxDZILDKNyQ",
+        "title": "Entries to Single X / Ashi Garami",
+        "by": "Primal MKE coach",
+        "vertical": false,
+        "channel": "Primal MKE MMA",
+        "duration": 71,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "X-Guard to Ashi Garami Defender",
@@ -437,6 +466,35 @@
         "phase": "Phase 4: Live Positional Sparring from X-Guard Top (Weeks 7+)",
         "focus": "Full resistance defense against all X-Guard attacks including Ashi transition",
         "description": "Begin positional sparring from X-Guard top with full resistance from both players. Partner can sweep, transition to Ashi, or hold position. You must defend all threats while working to pass guard. This integrates transition defense with overall X-Guard top strategy. Measure success by tracking how often you get caught in Ashi versus successfully defending or passing. Aim to reduce Ashi entry success to below 30% against training partners of similar skill level."
+      }
+    ],
+    "clips": [
+      {
+        "id": "L417yCl_-dc",
+        "title": "Leg defense from Ashi Garami",
+        "by": "The Coop BJJ coach",
+        "vertical": false,
+        "channel": "The Coop BJJ",
+        "duration": 48,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QMgsMSTRSBI",
+        "title": "5 leglock counters to Ashi Garami",
+        "by": "BJJ Black Belt Dad",
+        "vertical": false,
+        "channel": "BJJBlackBeltDad",
+        "duration": 93,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "AQbJMBiWYfU",
+        "title": "Escaping Ashi Garami — leg lock defense",
+        "by": "Scott Elliott",
+        "vertical": false,
+        "channel": "Coach Scott Elliott",
+        "duration": 141,
+        "verified": "2026-07-15"
       }
     ]
   },

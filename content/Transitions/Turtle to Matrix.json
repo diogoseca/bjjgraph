@@ -287,7 +287,18 @@
         "answer": "The decision depends on the opponent's defensive reaction once you achieve Matrix position. If they remain relatively static with their base intact, proceed to Matrix Back Take by initiating the hip slide. If they begin rolling or inverting in response to your perpendicular pressure, follow their roll into truck position for leg attack options. If they extend an arm to post or push against your entry, exploit the exposed arm for crucifix. The Matrix position is a decision point, and reading the opponent's reaction in the first one to two seconds determines the highest-percentage follow-up."
       }
     ],
-    "safety_considerations": "The Transition to Matrix involves angular body movements around a turtled opponent that require controlled execution to prevent injury. The primary risk is during the leg threading phase, where an overly aggressive or poorly timed entry can cause the attacker's knee to impact the defender's ribs or hip. Always drill the threading motion slowly before adding speed. The defender in turtle should communicate immediately if they feel pressure on their neck or spine from the angular weight transfer. When practicing the pressure manipulation phase, avoid dropping full body weight suddenly, as the turtled opponent's spine is vulnerable to compressive forces. Progress through resistance levels gradually and ensure both partners understand the entry mechanics before live drilling."
+    "safety_considerations": "The Transition to Matrix involves angular body movements around a turtled opponent that require controlled execution to prevent injury. The primary risk is during the leg threading phase, where an overly aggressive or poorly timed entry can cause the attacker's knee to impact the defender's ribs or hip. Always drill the threading motion slowly before adding speed. The defender in turtle should communicate immediately if they feel pressure on their neck or spine from the angular weight transfer. When practicing the pressure manipulation phase, avoid dropping full body weight suddenly, as the turtled opponent's spine is vulnerable to compressive forces. Progress through resistance levels gradually and ensure both partners understand the entry mechanics before live drilling.",
+    "clips": [
+      {
+        "id": "PBl0A6TMQfw",
+        "title": "Face-away underhook to turtle matrix",
+        "by": "Greg Hamilton",
+        "vertical": false,
+        "channel": "Renzo Gracie Jiu Jitsu DFW",
+        "duration": 254,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Turtle to Matrix Defender",
@@ -412,6 +423,26 @@
         "phase": "Week 9+: Integrated Turtle Defense System",
         "focus": "Defend Matrix entries alongside all other turtle top attacks in positional sparring",
         "description": "Partner attacks from turtle top using Matrix entry alongside traditional back takes, front headlocks, crucifix attempts, and other attacks. You must distinguish Matrix setups from other threats and choose the correct defensive response within the context of full positional exchanges with all attack options available."
+      }
+    ],
+    "clips": [
+      {
+        "id": "v6PJRWSN9Lk",
+        "title": "Defending the Telles turtle sweep to cross ashi",
+        "by": "JJPA APEX",
+        "vertical": false,
+        "channel": "JJPA APEX",
+        "duration": 23,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "naD1QlcLZNk",
+        "title": "Turtle offense and counters to matrix entries",
+        "by": "Raoul Audhoe",
+        "vertical": false,
+        "channel": "Grapplinginstructionals",
+        "duration": 117,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -289,7 +289,36 @@
         "answer": "The opponent is transitioning to deep half guard by using the space created during your extraction to get underneath your center of gravity. Immediately stop the extraction and address this threat by driving your hips down and forward to prevent them from completing the deep half entry. Establish a whizzer or crossface to flatten them. If they complete the entry, you must switch to deep half guard top defense rather than continuing extraction."
       }
     ],
-    "safety_considerations": "Leg extraction from lockdown carries moderate risk primarily to the knee and ankle of the trapped leg. Never force extraction against a fully locked and extended lockdown as this can strain the knee ligaments. If opponent refuses to release despite proper technique, accept the stalemate rather than risking joint injury through excessive force. Partners drilling this technique should communicate clearly about resistance levels and tap immediately if experiencing any joint discomfort. The top player should avoid sudden jerking movements during extraction that could torque the knee. When practicing extraction against aggressive lockdown extensions, be aware that rapid position changes can cause ankle sprains if the foot catches unexpectedly."
+    "safety_considerations": "Leg extraction from lockdown carries moderate risk primarily to the knee and ankle of the trapped leg. Never force extraction against a fully locked and extended lockdown as this can strain the knee ligaments. If opponent refuses to release despite proper technique, accept the stalemate rather than risking joint injury through excessive force. Partners drilling this technique should communicate clearly about resistance levels and tap immediately if experiencing any joint discomfort. The top player should avoid sudden jerking movements during extraction that could torque the knee. When practicing extraction against aggressive lockdown extensions, be aware that rapid position changes can cause ankle sprains if the foot catches unexpectedly.",
+    "clips": [
+      {
+        "id": "kTSMGYlVJKY",
+        "title": "Free your trapped foot while passing half guard",
+        "by": "Kameron Ross",
+        "vertical": false,
+        "channel": "Kameron Ross",
+        "duration": 55,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "FFy_b1-lPg0",
+        "title": "Base switch half guard pass",
+        "by": "The Jiu-Jitsu Foundry",
+        "vertical": false,
+        "channel": "The Jiu-Jitsu Foundry",
+        "duration": 30,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Y4eC_7dtzOA",
+        "title": "Passing the half guard lockdown",
+        "by": "Peter Mettler",
+        "vertical": false,
+        "channel": "Peter Mettler Martial Arts",
+        "duration": 73,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Leg Extraction to Combat Base Defender",
@@ -424,6 +453,35 @@
         "phase": "Week 7+",
         "focus": "Full positional sparring",
         "description": "Positional sparring from lockdown bottom against partner working full extraction sequences. Score points for maintained lockdown, successful sweeps, and successful deep half transitions. Partner uses all three extraction variants. Develop the decision-making framework for choosing between retention, counter-attack, and transition in real time."
+      }
+    ],
+    "clips": [
+      {
+        "id": "AmOMN0S1v8Q",
+        "title": "Advanced lockdown details to keep the leg trapped",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "oSQ7BHerIow",
+        "title": "Lockdown strategies against leg extraction",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "6r4DoDXcHcs",
+        "title": "Deep lockdown retention concepts",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
       }
     ]
   },

@@ -347,6 +347,35 @@
         "answer": "The three most common defensive responses are: first, explosive posturing up before the leg lands, which is the highest-percentage escape and must be prevented by maintaining heavy chest pressure and snapping the head down before throwing the leg; second, sprawling the hips back to create distance and prevent the grip lock, which you counter by following their hip movement or chaining to a darce; third, forward rolling through the choke attempt to recover guard, which you counter by sprawling your hips back and letting the leg over the head act as a hook that jams the roll. Recognizing which defense the opponent favors allows you to preemptively address it during your setup.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "7J0hJPRPpRQ",
+        "title": "Peruvian Necktie",
+        "by": "Keith Krikorian",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 87,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "4ob2ZrEH3Yc",
+        "title": "Front Headlock to Peruvian Necktie",
+        "by": "Gile23",
+        "vertical": false,
+        "channel": "Gile23",
+        "duration": 113,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "WpQIntujyFU",
+        "title": "Peruvian Necktie",
+        "by": "Luke Harris",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 106,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -479,6 +508,35 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Defending the Peruvian Necktie within live front headlock exchanges",
         "description": "Positional sparring starting from front headlock bottom. Partner can attack with any submission including the Peruvian Necktie. Practice identifying which attack is coming and applying the correct defensive response. Emphasis on distinguishing necktie from guillotine and darce setups in real time."
+      }
+    ],
+    "clips": [
+      {
+        "id": "FuNT7N9X8y8",
+        "title": "Peruvian Necktie Escape",
+        "by": "Chosen Few BJJ",
+        "vertical": false,
+        "channel": "Chosen Few BJJ",
+        "duration": 183,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "OZkTT8kT1G8",
+        "title": "Clearing the Front Headlock",
+        "by": "The School of Wrestling",
+        "vertical": false,
+        "channel": "The School of Wrestling",
+        "duration": 86,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "5rVU51Brvs4",
+        "title": "Turtle Escape from the Front Headlock",
+        "by": "Jiu Jitsu Five-O",
+        "vertical": false,
+        "channel": "Jiu Jitsu Five-O // Street-Ready BJJ Training",
+        "duration": 49,
+        "verified": "2026-07-14"
       }
     ]
   }

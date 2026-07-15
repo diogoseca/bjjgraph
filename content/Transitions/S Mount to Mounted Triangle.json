@@ -312,7 +312,36 @@
         "answer": "Use your free hand to cup the back of the opponent's head and pull it toward your calf, closing the gap from the head side rather than forcing your leg deeper. Simultaneously, angle your hips to bring your calf tighter against their neck. Once the calf contacts their neck with no visible space, lock the figure-four immediately. If the gap persists because the opponent is tucking their chin aggressively, use your hand to pry their chin up slightly or push their forehead away to create the angle, then lock. Never squeeze for a finish with a gap present, as it wastes energy and produces no choking pressure."
       }
     ],
-    "safety_considerations": "The S Mount to Mounted Triangle transition involves neck compression and potential cervical spine stress. Partners should establish clear tap signals before drilling. The leg threading motion must be controlled and deliberate to avoid striking the opponent's face or jaw. Once the triangle is locked, apply choking pressure gradually to allow time for the tap. Never crank or twist the neck during the transition. In training, release immediately upon any tap signal, verbal or physical. Be especially careful when drilling with less experienced partners who may not recognize the choking pressure building before it becomes dangerous."
+    "safety_considerations": "The S Mount to Mounted Triangle transition involves neck compression and potential cervical spine stress. Partners should establish clear tap signals before drilling. The leg threading motion must be controlled and deliberate to avoid striking the opponent's face or jaw. Once the triangle is locked, apply choking pressure gradually to allow time for the tap. Never crank or twist the neck during the transition. In training, release immediately upon any tap signal, verbal or physical. Be especially careful when drilling with less experienced partners who may not recognize the choking pressure building before it becomes dangerous.",
+    "clips": [
+      {
+        "id": "vLUua_voKzc",
+        "title": "Mounted triangle entry and finish",
+        "by": "Satori BJJ coach",
+        "vertical": false,
+        "channel": "Satori BJJ",
+        "duration": 53,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "1hjapzU7lQg",
+        "title": "Finishing the mounted triangle",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 177,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MZ8j0IPVS9o",
+        "title": "Triangle choke entry from top mount",
+        "by": "Stay Safe Martial Arts coach",
+        "vertical": false,
+        "channel": "Stay Safe Martial Arts",
+        "duration": 182,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "S Mount to Mounted Triangle Defender",
@@ -437,6 +466,35 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Defending the full transition chain against full resistance",
         "description": "Start in S Mount bottom with partner attacking at full intensity. Defend the armbar, recognize the triangle transition, and execute your defensive plan against a fully resisting attacker. Track success rate across rounds, aiming to prevent the mounted triangle lock at least 40% of the time through early defensive intervention."
+      }
+    ],
+    "clips": [
+      {
+        "id": "l-HhOV9UjJU",
+        "title": "Preventing the mounted triangle",
+        "by": "Justen Hamilton",
+        "vertical": false,
+        "channel": "Justen Hamilton",
+        "duration": 104,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "DLmrzSs1hWI",
+        "title": "Triangle defense and escape",
+        "by": "Daniel Frank",
+        "vertical": false,
+        "channel": "Daniel Frank",
+        "duration": 24,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "q2ttnL90Js8",
+        "title": "Escaping a fully locked triangle",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 207,
+        "verified": "2026-07-15"
       }
     ]
   }

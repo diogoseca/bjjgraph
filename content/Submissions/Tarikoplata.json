@@ -190,5 +190,34 @@
       "name": "Kimura Trap",
       "relationship": "Related shoulder isolation control position sharing wrist and shoulder attack mechanics"
     }
+  ],
+  "clips": [
+    {
+      "id": "jpNqecvfuFg",
+      "title": "The Power of the Tarikoplata",
+      "by": "Miha Perhavec",
+      "vertical": false,
+      "channel": "Miha Perhavec",
+      "duration": 63,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "hVXGAvOrwyA",
+      "title": "Tarikoplata quick demo",
+      "by": "bjjtaro",
+      "vertical": false,
+      "channel": "bjjtaro",
+      "duration": 8,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "ZbFNUmyWQkM",
+      "title": "Tarikoplata finishes + switch to Baratoplata",
+      "by": "Sam Bahador",
+      "vertical": false,
+      "channel": "Sam Bahador",
+      "duration": 60,
+      "verified": "2026-07-14"
+    }
   ]
 }

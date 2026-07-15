@@ -283,7 +283,18 @@
         "answer": "You need your far-side arm clamping the opponent's far arm tightly under your armpit with your elbow squeezed against your ribs, creating a complete seal that prevents arm extraction. Your near-side arm should be posted or controlling the mat for base, not committed to a grip that will complicate the rotation. The armpit clamp is the anchor grip that you maintain through the first half of the rotation before exchanging to the north-south underhook. If the armpit clamp is loose or the opponent's arm is partially free, consolidate this grip before beginning any rotational movement."
       }
     ],
-    "safety_considerations": "This transition involves significant chest pressure changes that can temporarily restrict the bottom player's breathing. Maintain awareness of your training partner's comfort level during drilling, particularly when establishing north-south pressure after the rotation completes. Avoid dropping weight suddenly onto the chest upon arrival. During progressive resistance phases, communicate with your partner about pressure intensity. In competition the transition is generally low-risk for joint injuries, but sustained heavy pressure requires conditioning from both practitioners to train safely over extended sessions."
+    "safety_considerations": "This transition involves significant chest pressure changes that can temporarily restrict the bottom player's breathing. Maintain awareness of your training partner's comfort level during drilling, particularly when establishing north-south pressure after the rotation completes. Avoid dropping weight suddenly onto the chest upon arrival. During progressive resistance phases, communicate with your partner about pressure intensity. In competition the transition is generally low-risk for joint injuries, but sustained heavy pressure requires conditioning from both practitioners to train safely over extended sessions.",
+    "clips": [
+      {
+        "id": "2AiDW2rNJxg",
+        "title": "Transitioning from failed kesa gatame",
+        "by": "ceedublyew",
+        "vertical": false,
+        "channel": "ceedublyew",
+        "duration": 47,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Reverse Kesa to North-South Defender",
@@ -415,6 +426,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Integration into live rolling scenarios",
         "description": "Begin in reverse kesa with the top player free to transition to north-south or attack from reverse kesa. Defender must defend all threats while specifically looking for the north-south transition to intercept. This integrates transition defense with broader positional escape work and develops the ability to recognize and respond to the transition amid other offensive threats."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ORpUBUxK1QE",
+        "title": "Reverse kesa gatame escape to back take",
+        "by": "Gymnanigains",
+        "vertical": false,
+        "channel": "Gymnanigains",
+        "duration": 26,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2EZfzJb_-tA",
+        "title": "North south escape",
+        "by": "Moncaio Brothers",
+        "vertical": false,
+        "channel": "Moncaio Brothers Jiujitsu",
+        "duration": 24,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "rmT52A--V3Q",
+        "title": "How to escape north south",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ Plus",
+        "duration": 203,
+        "verified": "2026-07-15"
       }
     ]
   }

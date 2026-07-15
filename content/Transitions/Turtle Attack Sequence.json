@@ -303,7 +303,36 @@
         "answer": "When the defender initiates a sit-through with one hook already inserted, immediately drive your free knee across their hip line on the side they are sitting toward, blocking the sit-through completion. Simultaneously tighten your seat belt grip and pull them back into turtle using your inserted hook as a lever. If the block fails and they achieve partial butterfly position, follow their body by maintaining harness control and work to re-insert hooks from the new angle. Do not release the inserted hook to address the sit-through, as losing that hook while they are in motion virtually guarantees complete guard recovery."
       }
     ],
-    "safety_considerations": "Turtle transitions involve dynamic movements and scrambles where both practitioners are moving explosively with compromised base and balance. Primary injury risks include neck strain from aggressive front headlock attacks, shoulder injuries from posted arms being driven into during flattening sequences, and knee stress from sudden weight changes during hook insertion. When drilling turtle attacks, start at reduced speed to develop proper mechanics before adding explosive power. Top players should avoid driving excessive weight directly onto the bottom player's neck during front headlock transitions and should release pressure immediately if the bottom player's base collapses unexpectedly into a dangerous neck position. During hook insertion drills, communicate with training partners to avoid driving hooks in with excessive force against the inner thigh. Granby roll follow-throughs require adequate mat space to complete safely. When practicing crucifix entries, respect shoulder joint limits on the trapped arm and release immediately if the training partner signals discomfort. Stop all turtle attack drills immediately if either person experiences neck pain, joint entrapment, or loss of positional awareness."
+    "safety_considerations": "Turtle transitions involve dynamic movements and scrambles where both practitioners are moving explosively with compromised base and balance. Primary injury risks include neck strain from aggressive front headlock attacks, shoulder injuries from posted arms being driven into during flattening sequences, and knee stress from sudden weight changes during hook insertion. When drilling turtle attacks, start at reduced speed to develop proper mechanics before adding explosive power. Top players should avoid driving excessive weight directly onto the bottom player's neck during front headlock transitions and should release pressure immediately if the bottom player's base collapses unexpectedly into a dangerous neck position. During hook insertion drills, communicate with training partners to avoid driving hooks in with excessive force against the inner thigh. Granby roll follow-throughs require adequate mat space to complete safely. When practicing crucifix entries, respect shoulder joint limits on the trapped arm and release immediately if the training partner signals discomfort. Stop all turtle attack drills immediately if either person experiences neck pain, joint entrapment, or loss of positional awareness.",
+    "clips": [
+      {
+        "id": "8amN_mjxDrI",
+        "title": "Turtle to crucifix attack",
+        "by": "Prof Lopez",
+        "vertical": false,
+        "channel": "caliber7554",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "XjhCtXY5XvE",
+        "title": "Turtle to crucifix entry",
+        "by": "519 Martial Arts",
+        "vertical": false,
+        "channel": "519 Martial Arts ",
+        "duration": 82,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "JTw40IV1QlU",
+        "title": "Crucifix from the turtle position",
+        "by": "Serge",
+        "vertical": false,
+        "channel": "SERGE SELF DEFENSE",
+        "duration": 25,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Turtle Attack Sequence Defender",
@@ -428,6 +457,35 @@
         "phase": "Phase 4: Chaining Escapes and Competition Intensity (Weeks 7-10)",
         "focus": "Flowing between failed escapes and performing under full pressure",
         "description": "Full-speed turtle escape rounds at competition intensity. Bottom player must chain escape attempts continuously without resetting to static turtle. If granby fails, flow to sit-through. If sit-through is blocked, attempt standup. 3-minute rounds with partner using full resistance. Track successful escape rate and average time to escape. Goal is sub-5-second escape from turtle in 70% of attempts. Video review recommended for identifying predictable patterns in escape selection."
+      }
+    ],
+    "clips": [
+      {
+        "id": "8YvYkGr5FIU",
+        "title": "Escaping turtle to side control",
+        "by": "Rickson Gracie Academy",
+        "vertical": false,
+        "channel": "Rickson Gracie Jiu-Jitsu Academy",
+        "duration": 47,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "PYk5Ei2IZBk",
+        "title": "Recovering guard from turtle",
+        "by": "Gracie Barra",
+        "vertical": false,
+        "channel": "Gracie Barra Online",
+        "duration": 53,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "W0TCGKRcniA",
+        "title": "Turtle escape via shoulder roll",
+        "by": "BJJake",
+        "vertical": false,
+        "channel": "BJJake",
+        "duration": 21,
+        "verified": "2026-07-15"
       }
     ]
   },

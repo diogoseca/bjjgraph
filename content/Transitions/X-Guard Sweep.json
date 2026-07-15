@@ -297,7 +297,36 @@
         "answer": "A wide, low base neutralizes the standard elevation sweep but opens transitions to alternative attacks. First, attempt to walk your hips underneath them to change the angle, which may create an opening for the overhead sweep variation. If the base remains too stable, transition to a technical stand-up while maintaining ankle control, which gives you a single leg takedown opportunity from standing. Alternatively, release the top hook and transition to Single Leg X or ashi garami, attacking their legs instead of trying to sweep through a fortified base."
       }
     ],
-    "safety_considerations": "The X-Guard Sweep is generally low-risk when practiced correctly, but practitioners should be aware of several safety factors. When falling after being swept, avoid posting with stiff arms as this can lead to wrist, elbow, or shoulder injuries. Instead, practice proper breakfall technique by slapping the mat with your arm and tucking your chin. The sweeping player must control the descent and avoid spiking the opponent or causing them to land on their head or neck. Release hooks if the sweep goes wrong to prevent knee or ankle torque. For the bottom player, be cautious of your own knee health by not forcing hooks into positions that create excessive twisting pressure on your knee joints. Start with slow, controlled repetitions and gradually increase speed as both partners develop familiarity with the movement patterns."
+    "safety_considerations": "The X-Guard Sweep is generally low-risk when practiced correctly, but practitioners should be aware of several safety factors. When falling after being swept, avoid posting with stiff arms as this can lead to wrist, elbow, or shoulder injuries. Instead, practice proper breakfall technique by slapping the mat with your arm and tucking your chin. The sweeping player must control the descent and avoid spiking the opponent or causing them to land on their head or neck. Release hooks if the sweep goes wrong to prevent knee or ankle torque. For the bottom player, be cautious of your own knee health by not forcing hooks into positions that create excessive twisting pressure on your knee joints. Start with slow, controlled repetitions and gradually increase speed as both partners develop familiarity with the movement patterns.",
+    "clips": [
+      {
+        "id": "zbYb6sOYC8w",
+        "title": "X guard sweep",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "CHOKE LABORATORY",
+        "duration": 53,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "7OnjPU1WjH4",
+        "title": "X-guard sweep and pass",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "Gentle Art Media",
+        "duration": 35,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "m-ueyJXiShY",
+        "title": "No-gi X-guard sweep",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "GRACIEMAG - The original BJJ magazine. ",
+        "duration": 126,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "X-Guard Sweep Defender",
@@ -427,6 +456,17 @@
         "phase": "Week 7+: Integrated Positional Sparring",
         "focus": "Defending X-Guard in live conditions with chain defense against transitions",
         "description": "Positional sparring starting from X-Guard top. Defend sweeps, leg entanglement transitions, and Single Leg X variations. Work on maintaining composure when caught in deep X-Guard and executing defensive sequences under full resistance. Integrate successful defenses into immediate passing attempts."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kNfVYhZbgrg",
+        "title": "Four levels of sweep defense",
+        "by": "Wim Deputter",
+        "vertical": false,
+        "channel": "Wim Deputter BJJ",
+        "duration": 87,
+        "verified": "2026-07-15"
       }
     ]
   },

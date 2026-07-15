@@ -266,7 +266,18 @@
         "answer": "A standard bridge drives force vertically upward and then directionally to one side to create an upa reversal. The Rolling Back Take Reversal drives force horizontally through a rotational axis centered on your shoulder, carrying both bodies through a 180-degree arc. The force is circular rather than linear, which is why momentum and commitment matter more than raw power. The body triangle actually assists by keeping bodies connected through the rotation."
       }
     ],
-    "safety_considerations": "This technique involves a controlled rolling motion while under body triangle pressure, which carries inherent risks. The breathing restriction from the body triangle means you should never attempt this when already exhausted or oxygen-depleted - failed attempts in this state can lead to panic and poor decision-making. Practice the rolling mechanics extensively at low resistance before attempting against aggressive partners. Be aware that the roll can place stress on neck and shoulder structures if executed improperly. If you feel your neck being cranked during the rotation, abandon the attempt immediately. Partners should release the body triangle if the rolling person taps or shows signs of distress. In training, establish clear communication about resistance levels before starting positional rounds."
+    "safety_considerations": "This technique involves a controlled rolling motion while under body triangle pressure, which carries inherent risks. The breathing restriction from the body triangle means you should never attempt this when already exhausted or oxygen-depleted - failed attempts in this state can lead to panic and poor decision-making. Practice the rolling mechanics extensively at low resistance before attempting against aggressive partners. Be aware that the roll can place stress on neck and shoulder structures if executed improperly. If you feel your neck being cranked during the rotation, abandon the attempt immediately. Partners should release the body triangle if the rolling person taps or shows signs of distress. In training, establish clear communication about resistance levels before starting positional rounds.",
+    "clips": [
+      {
+        "id": "C-21-71FDnM",
+        "title": "One-minute back-take setup",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 58,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Rolling Back Take Reversal Defender",
@@ -391,6 +402,26 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Full resistance positional rounds starting in body triangle back control. Partner uses all escape options including the rolling reversal. Develop the ability to defend the roll while maintaining offensive pressure and finishing submissions. Track how often the roll succeeds to calibrate defensive awareness."
+      }
+    ],
+    "clips": [
+      {
+        "id": "KPYtg6YeNzU",
+        "title": "Back escape breakdown",
+        "by": "Nicky Rodriguez",
+        "vertical": false,
+        "channel": "WetChip",
+        "duration": 80,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "VYef5MPcNZA",
+        "title": "Body triangle ankle trap escape",
+        "by": "Garry Tonon & Gordon Ryan",
+        "vertical": false,
+        "channel": "MastersmokeABUSE",
+        "duration": 144,
+        "verified": "2026-07-15"
       }
     ]
   },

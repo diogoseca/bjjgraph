@@ -245,7 +245,36 @@
         "answer": "The hip rotation must create perpendicular alignment to opponent's body before threading the leg. Hip escape away from the posting arm first, establishing the angle while maintaining lapel anchor. Attempting to thread the leg without sufficient angle results in the leg being blocked by opponent's shoulder."
       }
     ],
-    "safety_considerations": "The omoplata attacks the shoulder joint through rotational force on the humerus. Apply pressure gradually, especially during training, as the shoulder can be vulnerable to injury from sudden torque. Partners must tap early when feeling shoulder pressure—ego-driven resistance risks rotator cuff damage or shoulder dislocation. When drilling, communicate clearly about pressure levels. The lapel configuration can create unexpected restriction on opponent's movement, so release all controls immediately upon tap. Avoid this technique on training partners with existing shoulder injuries."
+    "safety_considerations": "The omoplata attacks the shoulder joint through rotational force on the humerus. Apply pressure gradually, especially during training, as the shoulder can be vulnerable to injury from sudden torque. Partners must tap early when feeling shoulder pressure—ego-driven resistance risks rotator cuff damage or shoulder dislocation. When drilling, communicate clearly about pressure levels. The lapel configuration can create unexpected restriction on opponent's movement, so release all controls immediately upon tap. Avoid this technique on training partners with existing shoulder injuries.",
+    "clips": [
+      {
+        "id": "GqeeDnherWw",
+        "title": "Lapeloplata guard to lapeloplata sweep",
+        "by": "Street Jitsu",
+        "vertical": false,
+        "channel": "Street Jitsu",
+        "duration": 44,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "zCuJSvlosbA",
+        "title": "Lapeloplata sweep demonstration",
+        "by": "Moncaio Brothers",
+        "vertical": false,
+        "channel": "Moncaio Brothers Jiujitsu",
+        "duration": 25,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "TNvcL55uvrE",
+        "title": "Reverse omoplata, Keenan style",
+        "by": "Keenan Cornelius",
+        "vertical": false,
+        "channel": "ufctalkingthailand",
+        "duration": 22,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Lapel Omoplata Entry Defender",
@@ -368,6 +397,35 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Full resistance positional rounds starting from lapel guard. Top player focuses on passing while defending omoplata entries. Track success rate of preventing the omoplata establishment and note which recognition cues you respond to fastest."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ocIHY3jBYIQ",
+        "title": "Best way to escape the omoplata shoulder lock",
+        "by": "John Connors",
+        "vertical": false,
+        "channel": "John Connors, Old Man BJJ Black Belt",
+        "duration": 62,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_2dhd21ffbc",
+        "title": "Omoplata escape by jumping over",
+        "by": "Ritchie Yip",
+        "vertical": false,
+        "channel": "Ritchie Yip",
+        "duration": 8,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Y4TxL4mDSKg",
+        "title": "Defending the omoplata sweep",
+        "by": "Ninja Pinto",
+        "vertical": false,
+        "channel": "Ninja Pinto BJJ",
+        "duration": 47,
+        "verified": "2026-07-15"
       }
     ]
   },

@@ -263,7 +263,36 @@
         "answer": "The Rolling Backstep uses a shoulder roll while maintaining leg control to rotate into Saddle position, generating momentum through the rolling motion rather than hip rotation from a stable base. This variant is appropriate when you've been flattened by opponent's pressure and cannot execute a standing backstep, or when their downward drive creates an opportunity to use their energy against them through the roll."
       }
     ],
-    "safety_considerations": "The Estima Lock to Saddle transition involves rotational stress on both practitioners' knees and ankles during the backstep movement. Control your rotation speed during training to prevent sudden torque on your partner's joints. When completing the transition, establish the Saddle triangle gradually rather than explosively snapping your legs closed, which can hyperextend your partner's knee. Once in Saddle, heel hook attacks become available—these are among the most dangerous submissions in BJJ with potential for permanent knee ligament damage. Apply heel hook pressure slowly with clear communication, and tap immediately when caught. Never explosively rotate heel hooks or continue applying pressure after a tap. Partners should keep their knee aligned with their hip to prevent ACL injury during training; avoid allowing the knee to rotate inward under pressure. If either person feels sharp pain during the transition or subsequent attacks, immediately release and reset."
+    "safety_considerations": "The Estima Lock to Saddle transition involves rotational stress on both practitioners' knees and ankles during the backstep movement. Control your rotation speed during training to prevent sudden torque on your partner's joints. When completing the transition, establish the Saddle triangle gradually rather than explosively snapping your legs closed, which can hyperextend your partner's knee. Once in Saddle, heel hook attacks become available—these are among the most dangerous submissions in BJJ with potential for permanent knee ligament damage. Apply heel hook pressure slowly with clear communication, and tap immediately when caught. Never explosively rotate heel hooks or continue applying pressure after a tap. Partners should keep their knee aligned with their hip to prevent ACL injury during training; avoid allowing the knee to rotate inward under pressure. If either person feels sharp pain during the transition or subsequent attacks, immediately release and reset.",
+    "clips": [
+      {
+        "id": "fQ8qh6az6_Y",
+        "title": "Randy roll entry into the saddle",
+        "by": "Greg Melita",
+        "vertical": false,
+        "channel": "Greg Melita",
+        "duration": 26,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "eRQVlYxFx1Y",
+        "title": "Shoulder roll into cross ashi saddle",
+        "by": "bjj doug",
+        "vertical": false,
+        "channel": "bjj doug",
+        "duration": 42,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "KBkoWJtMeNA",
+        "title": "K guard entry to the saddle",
+        "by": "bjj doug",
+        "vertical": false,
+        "channel": "bjj doug",
+        "duration": 28,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Estima Lock to Saddle Defender",
@@ -387,6 +416,35 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring from Estima Lock",
         "description": "Full resistance positional rounds starting from Estima Lock bottom. Attacker works both the footlock finish and the Saddle transition while you defend both threats. Track which defensive responses succeed most often and identify which recognition cues you miss under pressure. Develop reflexive defensive reactions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "C3bPRoMwGPo",
+        "title": "Saddle escape into leg drag flow",
+        "by": "Travis Anderson",
+        "vertical": false,
+        "channel": "Travis Anderson",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "q1JgpfFRDA4",
+        "title": "Inside sankaku counter to the inside heel hook",
+        "by": "Pedro Rocha",
+        "vertical": false,
+        "channel": "BJJ ONLINE",
+        "duration": 163,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8D4EFJ3kG9w",
+        "title": "Three escapes from the saddle",
+        "by": "Because Jitsu",
+        "vertical": false,
+        "channel": "Because Jitsu",
+        "duration": 200,
+        "verified": "2026-07-15"
       }
     ]
   },

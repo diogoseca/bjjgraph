@@ -266,7 +266,36 @@
         "answer": "Your legs should generate force in two simultaneous directions: squeeze inward with your knees to clamp their leg tightly and prevent extraction, while extending your feet downward and away from your body to straighten their trapped leg. This combination of inward squeeze and linear extension creates a vise effect that hyperextends their knee slightly and immobilizes the hip joint. The extension force is the primary control mechanism - without it, the opponent can curl their leg and extract from the triangle configuration."
       }
     ],
-    "safety_considerations": "Lockdown Recovery is generally low-risk when performed correctly, but several safety considerations apply. First, never reach with your near-side arm during the escape attempt - this exposes you to armbar attacks and can result in hyperextension injury if caught. Second, when extending the Lockdown squeeze, be aware that excessive hyperextension of your opponent's knee can cause injury during training - apply controlled pressure sufficient to maintain position without cranking. Third, if your partner taps during Lockdown practice, release immediately as the knee hyperextension can be painful even before injury threshold. Fourth, avoid explosive bridging attempts that could strain your lower back, especially when flat under mount - use technical hip movement instead. Finally, communicate with training partners about intensity levels since the Lockdown position can be uncomfortable even when applied correctly."
+    "safety_considerations": "Lockdown Recovery is generally low-risk when performed correctly, but several safety considerations apply. First, never reach with your near-side arm during the escape attempt - this exposes you to armbar attacks and can result in hyperextension injury if caught. Second, when extending the Lockdown squeeze, be aware that excessive hyperextension of your opponent's knee can cause injury during training - apply controlled pressure sufficient to maintain position without cranking. Third, if your partner taps during Lockdown practice, release immediately as the knee hyperextension can be painful even before injury threshold. Fourth, avoid explosive bridging attempts that could strain your lower back, especially when flat under mount - use technical hip movement instead. Finally, communicate with training partners about intensity levels since the Lockdown position can be uncomfortable even when applied correctly.",
+    "clips": [
+      {
+        "id": "AmOMN0S1v8Q",
+        "title": "Advanced lockdown details and re-entry",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "OIr4wDxl-Ys",
+        "title": "Lockdown clinches to lock the legs back up",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "6r4DoDXcHcs",
+        "title": "Deep down the lockdown hole",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Lockdown Recovery Defender",

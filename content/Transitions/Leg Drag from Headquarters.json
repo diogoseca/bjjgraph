@@ -284,7 +284,27 @@
         "answer": "Against tightly stacked, bent legs, do not force a single-leg drag. Use the cross-grip variation: reach across with your opposite hand to grip the far ankle or pants leg at the knee, which lets you displace both legs as a unit across the centerline. Alternatively, apply a knee-cut feint or collar drag to provoke a frame or leg extension, then attack the leg that separates first. The principle is to manufacture the extension you need rather than fighting against the strongest bent-leg retraction structure."
       }
     ],
-    "safety_considerations": "The leg drag involves lateral pressure on the opponent's knee and hip joints. Apply controlled force during the drag motion to avoid hyperextending the knee or straining the MCL through excessive lateral torque. Be particularly mindful of your training partner's hip flexibility when pinning the dragged leg, as forcing the leg past its natural range of motion can cause groin or hip flexor injuries. During drilling, allow partners to tap or verbally signal if they experience discomfort in the knee, hip, or groin during the drag motion, and release pressure immediately upon any signal."
+    "safety_considerations": "The leg drag involves lateral pressure on the opponent's knee and hip joints. Apply controlled force during the drag motion to avoid hyperextending the knee or straining the MCL through excessive lateral torque. Be particularly mindful of your training partner's hip flexibility when pinning the dragged leg, as forcing the leg past its natural range of motion can cause groin or hip flexor injuries. During drilling, allow partners to tap or verbally signal if they experience discomfort in the knee, hip, or groin during the drag motion, and release pressure immediately upon any signal.",
+    "clips": [
+      {
+        "id": "T50gLtUUtqs",
+        "title": "Leg drag to set up the toreando pass",
+        "by": "PFed BJJ",
+        "vertical": false,
+        "channel": "PFed BJJ",
+        "duration": 76,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_e82XgM98go",
+        "title": "Leg pin headquarters to over-under to back take",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 32,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Leg Drag from Headquarters Defender",
@@ -414,6 +434,35 @@
         "phase": "Phase 4: Live Defense Integration",
         "focus": "Full-speed defense with progressive resistance",
         "description": "Positional sparring from headquarters where the passer can attempt any pass but the defender specifically tracks leg drag attempts and applies trained defensive responses at full speed. Track success rates of early prevention versus late recovery to measure improvement. Progressive resistance from 50% to full competition intensity across training sessions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "fFqoFDE2yyw",
+        "title": "Guard retention against the leg drag",
+        "by": "Brandon Quick",
+        "vertical": false,
+        "channel": "Brandon Quick",
+        "duration": 90,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lVLAROiSjNU",
+        "title": "Guard retention: when to sit up and escape",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 136,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "BhNZGloJ56c",
+        "title": "Guard recovery when getting smashed",
+        "by": "Finesse Jiujitsu HTX",
+        "vertical": false,
+        "channel": "FINESSE JIUJITSU HTX",
+        "duration": 103,
+        "verified": "2026-07-15"
       }
     ]
   }

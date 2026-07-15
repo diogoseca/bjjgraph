@@ -601,6 +601,26 @@
           "nogi": 6
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "CHT81JnfD2Q",
+        "title": "Invisible Collar Choke from Rubber Guard",
+        "by": "David Thomas",
+        "vertical": false,
+        "channel": "David Thomas",
+        "duration": 57,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "km9506KvIJg",
+        "title": "Rubber Guard Double Invisible Collar Choke",
+        "by": "Denny Prokopos",
+        "vertical": false,
+        "channel": "Denny Prokopos",
+        "duration": 41,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -635,6 +655,17 @@
     {
       "question": "What determines whether the Invisible Collar is a sustainable hold or a short-fuse finish?",
       "answer": "Sustainability depends on the balance between the back-control chassis and the loaded collar grip. Because the seatbelt and hooks provide durable positional control, the attacker can hold the collar loaded and wait, making it relatively low-risk and sustainable compared to a committed choke that stakes position on a single squeeze. The finishing pressure, however, escalates quickly once rotation is applied, so the same position can become a short-fuse strangle within seconds of the attacker choosing to commit. For the defender this dual nature is the danger: a grip that appears stable and unthreatening can convert to a finish faster than a conventional escape can complete, so the clock favors whoever dictates when the concealed grip becomes an active choke."
+    }
+  ],
+  "clips": [
+    {
+      "id": "KCyIwacRKu8",
+      "title": "Invisible Collar (MTS 134)",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "Eddie Bravo",
+      "duration": 61,
+      "verified": "2026-07-14"
     }
   ]
 }

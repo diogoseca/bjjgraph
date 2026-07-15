@@ -326,6 +326,17 @@
         "answer": "In competition, initiate the grip conversion when the opponent commits to defending another threat like the gogoplata or triangle, as their defensive reaction creates the arm positioning needed for the Kimura entry. The grip conversion must be fast and decisive since opponents at competition intensity will immediately counter slow transitions. Once the figure-four is established, maintain steady pressure rather than explosive force, as controlled finishing prevents defensive scrambles and ensures the referee can clearly identify the tap signal.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "Q2aYW-20B44",
+        "title": "Meathook to Kimura / Ultimate Kimura",
+        "by": "Marshall Stamper",
+        "vertical": false,
+        "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
+        "duration": 73,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -444,6 +455,17 @@
         "phase": "Phase 3: Live Defensive Sparring",
         "focus": "Full resistance defense from New York Control",
         "description": "Begin in New York Control with the bottom player actively hunting the Kimura and chain submissions. Defend with full resistance, implementing recognition, grip defense, and posture recovery under pressure. Track escape rate and identify which defensive stage breaks down most frequently."
+      }
+    ],
+    "clips": [
+      {
+        "id": "FoAYceaEPLc",
+        "title": "Counter Kimuras",
+        "by": "Chewjitsu",
+        "vertical": false,
+        "channel": "Chewjitsu",
+        "duration": 277,
+        "verified": "2026-07-14"
       }
     ]
   }

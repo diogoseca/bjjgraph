@@ -281,7 +281,27 @@
         "answer": "The most common error is clasping the seatbelt too loosely or too far from the opponent's body, creating slack that allows the defender to insert frames between your arms and their torso. The seatbelt must be cinched tight against the opponent's chest with no space for their arms to work inside the grip. The clasping point should be on the opponent's sternum area rather than floating in front of their body, and the choking arm elbow should be tight against the side of their neck."
       }
     ],
-    "safety_considerations": "The rotational mechanics of this transition place stress on the bottom player's cervical and thoracic spine, particularly during the turning phase that exposes the back. Both practitioners must communicate about discomfort, and the top player should never force rapid rotation against a locked or braced spine. During training, drill the complete transition at slow speed before adding resistance. If the bottom player's spine is already near its rotational limit from the twister position, extra caution is required as the back take adds additional rotational force. The transition should be abandoned immediately if the bottom player signals discomfort in the neck or spine. Tap early and reset rather than fighting through structural pain."
+    "safety_considerations": "The rotational mechanics of this transition place stress on the bottom player's cervical and thoracic spine, particularly during the turning phase that exposes the back. Both practitioners must communicate about discomfort, and the top player should never force rapid rotation against a locked or braced spine. During training, drill the complete transition at slow speed before adding resistance. If the bottom player's spine is already near its rotational limit from the twister position, extra caution is required as the back take adds additional rotational force. The transition should be abandoned immediately if the bottom player signals discomfort in the neck or spine. Tap early and reset rather than fighting through structural pain.",
+    "clips": [
+      {
+        "id": "v3hCMwN92TQ",
+        "title": "Back attacks and RNC from twister side control",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 57,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "odT3-cVWXdc",
+        "title": "Twister side control attacks",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Twister SC to Back Take Defender",
@@ -407,6 +427,17 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Full resistance defense from Twister Side Control bottom",
         "description": "Begin rounds from Twister Side Control bottom at full resistance. Attacker may pursue any attack including back take, twister, or other transitions. Defender works complete defensive sequences including prevention, counter-movement, and escape chains. Measure improvement by tracking how often the attacker successfully achieves back control."
+      }
+    ],
+    "clips": [
+      {
+        "id": "AUyR1rmVzo4",
+        "title": "Twister side control and escaping it",
+        "by": "Robot Dolphin Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Robot Dolphin Jiu-Jitsu ",
+        "duration": 205,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -340,6 +340,35 @@
         "answer": "The point of no escape occurs once both grips are established deep in the collar and the elbows are retracted tight against the attacker's ribcage. At this stage, the opponent cannot strip either grip without the other hand maintaining choking pressure, creating a defensive dilemma. The crossed forearms lock each other into position, and any pulling on one arm tightens the other side's pressure against the neck. Before this point, the opponent can strip the first grip before the second is set. After both grips are locked with elbows in, the only viable defense is to prevent the finishing pressure by creating a frame, but the choke can usually be completed within 3-5 seconds from this position.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "dfP-Ov8FBUo",
+        "title": "Cross Collar Chokes breakdown",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 80,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "X93MdMlmrUg",
+        "title": "The one thing that makes the cross collar choke easy",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 77,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "TDBe1SHzHKo",
+        "title": "Finishing when you can't pull them in",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 51,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -474,6 +503,26 @@
         "phase": "Live Positional Sparring from Closed Guard Top",
         "focus": "Full-resistance defense against all closed guard attacks including the cross collar choke",
         "description": "Full-speed positional sparring starting in closed guard top against a partner who actively attacks with the cross collar choke and its chain attacks. Three-minute rounds with the goal of opening guard and passing without being submitted. Track which phase of defense fails most frequently and address specific weaknesses in subsequent drilling sessions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "QIRF2B9riAA",
+        "title": "Cross choke defense from guard: two tips",
+        "by": "Wayne Sniffen",
+        "vertical": false,
+        "channel": "Wayne Sniffen",
+        "duration": 105,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "be-iHHhJGng",
+        "title": "Juji Jime escape: cross collar choke defense",
+        "by": "Peter Mettler",
+        "vertical": false,
+        "channel": "Peter Mettler Martial Arts",
+        "duration": 130,
+        "verified": "2026-07-14"
       }
     ]
   }

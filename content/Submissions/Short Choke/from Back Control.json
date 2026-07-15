@@ -332,6 +332,26 @@
         "answer": "Immediately release both collar grips and remove all compressive pressure from the neck. Remove your weight from the opponent's torso by disengaging hooks and shifting to the side. Check your partner's consciousness by calling their name and looking for responsive eye movement. If they are unconscious, place them on their back, elevate their legs to restore blood flow to the brain, and monitor their airway until they regain consciousness. Never re-apply the choke in the same training session after an unconsciousness episode.",
         "safety_critical": true
       }
+    ],
+    "clips": [
+      {
+        "id": "Sb-atqD_TqQ",
+        "title": "Short Choke from Back Position",
+        "by": "Cosens MMA",
+        "vertical": false,
+        "channel": "Cosens MMA LLC",
+        "duration": 55,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "E_M4Y0_hxsk",
+        "title": "Shirt Choke From Back Mount",
+        "by": "Defender Combatives",
+        "vertical": false,
+        "channel": "Defender Combatives",
+        "duration": 14,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -454,6 +474,26 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Full resistance survival and escape from back control attacks",
         "description": "Full resistance positional sparring starting from back control. Partner uses complete back attack system including RNC, Short Choke, and Bow and Arrow. Practice defensive threat identification and appropriate response selection under pressure. Track successful defenses and escapes across rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "bDZntPrcLpg",
+        "title": "Escaping Back Control - Turtle Escape",
+        "by": "BJJ101",
+        "vertical": false,
+        "channel": "BJJ101",
+        "duration": 37,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "_sBB-O8fqP4",
+        "title": "Standing Up Back Escape",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 114,
+        "verified": "2026-07-14"
       }
     ]
   }

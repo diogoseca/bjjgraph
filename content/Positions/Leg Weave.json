@@ -355,6 +355,35 @@
         "question": "Your opponent partially escapes and gets their knee shield halfway established - how do you recover full leg weave control?",
         "answer": "Rather than fighting directly against their inserted knee, angle your hips and drive your shoulder into the knee shield to collapse it. Use your far hand to control their bottom leg and prevent them from establishing full shield. Sometimes the best recovery is accepting the partial loss and transitioning to a complementary pass like knee slice that uses their shield position against them rather than forcing back to pure leg weave."
       }
+    ],
+    "clips": [
+      {
+        "id": "sNbJLknPgQM",
+        "title": "Leg weave and leg staple passing pins",
+        "by": "Fox Den Martial Arts",
+        "vertical": false,
+        "channel": "Fox Den Martial Arts",
+        "duration": 108,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "aN2S7_WAhq4",
+        "title": "Leg weave to knee slide pass",
+        "by": "Modern BJJ",
+        "vertical": false,
+        "channel": "Modern BJJ",
+        "duration": 118,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "4LIBFmas-oE",
+        "title": "Passing knee shield with leg weave",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 153,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -678,6 +707,26 @@
         "question": "The top player has settled their weight and you've been stuck in leg weave for extended time - how do you restart your defensive activity?",
         "answer": "First, reset your breathing and mental composure. Then begin micro-adjustments: small hip bumps, tiny angle changes, and testing their reactions without committing to escapes. Look for which direction they counter least strongly. Once you identify a weakness in their positioning, commit to a coordinated escape using frames, hips, and legs together. The worst mistake is staying passive - even small movement prevents complete position consolidation."
       }
+    ],
+    "clips": [
+      {
+        "id": "9i-U4ivd108",
+        "title": "3-step defense to the weave pass",
+        "by": "Pendergrass Academy",
+        "vertical": false,
+        "channel": "Pendergrass Academy of Martial Arts",
+        "duration": 116,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "zCsPGrS3ewI",
+        "title": "Knee slice counter sweep",
+        "by": "Steve Haydock",
+        "vertical": false,
+        "channel": "Steve Haydock Jiu Jitsu Academy",
+        "duration": 67,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -712,6 +761,26 @@
     {
       "question": "What makes the leg weave an inherently unstable, time-limited position for both players rather than a place to settle?",
       "answer": "The asymmetric leg tangle and constant frame battle mean the configuration is always resolving toward a pass or an escape rather than holding statically. The passer burns position if they stall because the bottom player uses any settling to reframe and recover, while the bottom player's retention and energy drain rapidly under sustained pressure. Micro-adjustments in hips, frames, and weight are continuous on both sides, so neither player can afford to freeze. This transitional nature is a defining feature: the leg weave is a passing checkpoint measured in seconds, not a controlling position meant to be maintained."
+    }
+  ],
+  "clips": [
+    {
+      "id": "nqFlswgRLnE",
+      "title": "Body lock pass with leg split",
+      "by": "SpringHillBjj",
+      "vertical": false,
+      "channel": "SpringHillBjj",
+      "duration": 77,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "G5SOKMLRvMU",
+      "title": "Passing guard using the legs",
+      "by": "SBG Rossendale",
+      "vertical": false,
+      "channel": "SBG Rossendale 3rd Degree Black Belt BJJ",
+      "duration": 144,
+      "verified": "2026-07-14"
     }
   ]
 }

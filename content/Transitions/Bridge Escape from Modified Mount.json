@@ -278,7 +278,27 @@
         "answer": "The best windows are when the top player reaches for a new grip or submission setup, shifting their weight momentarily and reducing controlling pressure. Also effective during transitions when the top player adjusts from standard mount to Modified Mount or shifts between variations. Any moment where they post their leg farther than optimal to reach creates an enlarged vulnerability. Wait for these natural openings rather than forcing the escape against consolidated control."
       }
     ],
-    "safety_considerations": "The bridge escape from Modified Mount carries moderate risk of neck strain from improper bridging mechanics. Always drive through the hips and posterior chain rather than the cervical spine, keeping your chin tucked toward your chest throughout the movement. Avoid explosive bridges without proper foot positioning, as unsupported bridging can strain the lower back. If the top player threatens an armbar during the escape attempt, prioritize arm defense over completing the escape to prevent hyperextension injury. In training, practice at controlled intensity before adding speed and resistance, and communicate with your partner about pressure levels during Modified Mount drilling."
+    "safety_considerations": "The bridge escape from Modified Mount carries moderate risk of neck strain from improper bridging mechanics. Always drive through the hips and posterior chain rather than the cervical spine, keeping your chin tucked toward your chest throughout the movement. Avoid explosive bridges without proper foot positioning, as unsupported bridging can strain the lower back. If the top player threatens an armbar during the escape attempt, prioritize arm defense over completing the escape to prevent hyperextension injury. In training, practice at controlled intensity before adding speed and resistance, and communicate with your partner about pressure levels during Modified Mount drilling.",
+    "clips": [
+      {
+        "id": "cyegyon5hVg",
+        "title": "Two mount escape options to half guard",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "9252EvCT0q4",
+        "title": "Mount escape when you cannot get out",
+        "by": "Gabriel Gonzaga",
+        "vertical": false,
+        "channel": "Gabriel Gonzaga",
+        "duration": 93,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Bridge Escape from Modified Mount Defender",
@@ -403,6 +423,17 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance defense against escape chains",
         "description": "Positional sparring rounds starting in Modified Mount. Bottom player attempts bridge escapes and chain escapes while top player defends and looks for submissions or position advancement. Full resistance with rounds lasting two minutes. Track success rates and adjust defensive strategy based on which escape variations are most difficult to defend."
+      }
+    ],
+    "clips": [
+      {
+        "id": "RTMJDbZnFO0",
+        "title": "Holding the middle mount against escapes",
+        "by": "SBG PDX",
+        "vertical": false,
+        "channel": "SBG PDX & Vancouver BJJ and MMA Videos",
+        "duration": 154,
+        "verified": "2026-07-15"
       }
     ]
   }

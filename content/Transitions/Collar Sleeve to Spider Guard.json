@@ -287,7 +287,36 @@
         "answer": "Abort the transition when the opponent is actively driving forward with committed passing pressure, when they have established a strong cross-face or collar grip that could be used to stack you during the grip switch, when your existing sleeve grip is weak or being actively stripped, or when your hips are pinned flat to the mat without mobility. In these situations, the momentary vulnerability of the grip switch creates more risk than the potential benefit of reaching spider guard. Address the immediate threat first."
       }
     ],
-    "safety_considerations": "This transition involves rapid grip changes that stress the fingers and wrists. Ensure proper grip conditioning to prevent finger sprains and flexor tendon injuries common in gi grappling. When extending legs to establish spider guard, avoid hyperextending your partner's elbows by controlling extension speed. If your opponent collapses forward during the transition, protect your face and neck by framing with forearms rather than posting extended arms that could be trapped. Tap immediately if fingers become caught in sleeve fabric during grip transitions."
+    "safety_considerations": "This transition involves rapid grip changes that stress the fingers and wrists. Ensure proper grip conditioning to prevent finger sprains and flexor tendon injuries common in gi grappling. When extending legs to establish spider guard, avoid hyperextending your partner's elbows by controlling extension speed. If your opponent collapses forward during the transition, protect your face and neck by framing with forearms rather than posting extended arms that could be trapped. Tap immediately if fingers become caught in sleeve fabric during grip transitions.",
+    "clips": [
+      {
+        "id": "Rv4bJYHncSA",
+        "title": "Collar spider grip to pant grip break to omoplata",
+        "by": "Outer Heaven Jiu Jitsu",
+        "vertical": false,
+        "channel": "Outer Heaven Jiu Jitsu App",
+        "duration": 74,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "YUBd4HUfuYQ",
+        "title": "Spider same side collar tomoe nage to triangle",
+        "by": "Mikey Musumeci",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 159,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QHuA7VaehJ0",
+        "title": "Spider guard transition drill",
+        "by": "Heroes Martial Arts",
+        "vertical": false,
+        "channel": "Heroes Martial Arts",
+        "duration": 163,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Collar Sleeve to Spider Guard Defender",
@@ -404,6 +433,35 @@
         "phase": "Phase 4: Counter-Passing Integration",
         "focus": "Converting successful defense into immediate passing opportunities",
         "description": "After successfully preventing the spider guard transition, immediately chain into a guard passing sequence. Practice the full defensive-to-offensive flow: recognize transition, execute defense, establish passing grips, complete guard pass. Develops the ability to convert defensive success into positional advancement rather than simply resetting to neutral."
+      }
+    ],
+    "clips": [
+      {
+        "id": "uS8G8ETMHc8",
+        "title": "Countering the cross spider grip",
+        "by": "BJJ Lab Zürich",
+        "vertical": false,
+        "channel": "BJJ Lab Zürich",
+        "duration": 67,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "HeV1fqXa8RM",
+        "title": "Handling strong grips in spider guard",
+        "by": "Animal BJJ",
+        "vertical": false,
+        "channel": "Animal",
+        "duration": 53,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "J6RdX606DrY",
+        "title": "Three grip breaks against sleeve grips",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 64,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -319,7 +319,27 @@
         "answer": "Circling toward the trapped arm side indicates the opponent is trying to rotate their shoulder out of the Whizzer by decreasing the angle of your overhook. This is a limp-arm escape in motion. You must follow their circle by stepping with them and maintaining hip angle relative to their movement direction, not relative to the ground. As they circle, use your free hand to control their far hip or head to prevent the full rotation. If they commit to the circle, accelerate past them and transition directly to back control by stepping behind them as they turn. Their circling motion actually exposes their back if you move faster than they rotate. Never let them circle without matching or exceeding their movement."
       }
     ],
-    "safety_considerations": "The Whizzer is generally a safe technique when applied properly, as it focuses on positional control rather than joint manipulation or choking. However, practitioners should be aware that over-rotating the opponent's shoulder while maintaining the Whizzer can place stress on their rotator cuff and shoulder joint. Release pressure if your partner taps or indicates discomfort in their shoulder. When drilling Whizzer transitions to kimura, ensure smooth transition between controls without cranking the shoulder suddenly. In live training, avoid using the Whizzer to force opponent's arm into dangerous positions - the control should be based on leverage and position, not raw shoulder torque. Be particularly careful when combining Whizzer control with leg entanglements, as this can create unusual joint angles."
+    "safety_considerations": "The Whizzer is generally a safe technique when applied properly, as it focuses on positional control rather than joint manipulation or choking. However, practitioners should be aware that over-rotating the opponent's shoulder while maintaining the Whizzer can place stress on their rotator cuff and shoulder joint. Release pressure if your partner taps or indicates discomfort in their shoulder. When drilling Whizzer transitions to kimura, ensure smooth transition between controls without cranking the shoulder suddenly. In live training, avoid using the Whizzer to force opponent's arm into dangerous positions - the control should be based on leverage and position, not raw shoulder torque. Be particularly careful when combining Whizzer control with leg entanglements, as this can create unusual joint angles.",
+    "clips": [
+      {
+        "id": "DfUHvTQpzCg",
+        "title": "Using an overhook to attack",
+        "by": "Patrick Spano",
+        "vertical": false,
+        "channel": "FANATIC WRESTLING",
+        "duration": 40,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "VopGHIx2g4w",
+        "title": "Darkside whizzer entry",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "DARKSIDE | Team Strela",
+        "duration": 29,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Whizzer Defender",
@@ -442,6 +462,35 @@
         "phase": "Week 7+: Live Scramble Defense Integration",
         "focus": "Applying Whizzer defense in live scrambles and competition scenarios",
         "description": "Full-resistance positional sparring starting from positions where Whizzer is common: single-leg exchanges, turtle attacks, half guard underhook battles. Goal is to survive the Whizzer, escape to neutral or advantageous position, and counter-attack. Track success rate across rounds. Include competition-speed exchanges where Whizzer appears during natural scrambles."
+      }
+    ],
+    "clips": [
+      {
+        "id": "pYljJ1yRXO4",
+        "title": "Dip under sweep as a whizzer counter",
+        "by": "JiuJitsu.com",
+        "vertical": false,
+        "channel": "JiuJitsu.com",
+        "duration": 169,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "1JH5gqQnG8M",
+        "title": "Beating the whizzer on a takedown",
+        "by": "M&A BJJ",
+        "vertical": false,
+        "channel": "M&A BJJ & Strength and Conditioning",
+        "duration": 45,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "D3D1m7XZtkg",
+        "title": "Dealing with the whizzer",
+        "by": "Jay Rodriguez",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 178,
+        "verified": "2026-07-15"
       }
     ]
   }

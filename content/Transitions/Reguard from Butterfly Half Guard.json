@@ -279,7 +279,18 @@
         "answer": "Immediately return to threatening sweeps from butterfly half guard rather than repeatedly forcing failed reguard attempts. The 100% sweep and butterfly half guard sweep are high-percentage options that keep the opponent reactive. If the opponent's defense has shut down both the reguard and primary sweeps, transition to deep half guard entry where their forward pressure works in your favor, or recover to knee shield half guard for a more defensively stable position to reset from."
       }
     ],
-    "safety_considerations": "This guard retention technique carries minimal injury risk as no joint locks or chokes are involved. However, care must be taken during leg extraction to avoid awkward knee angles on the trapped leg, particularly when the opponent applies heavy crossface or lateral pressure that could twist the knee joint. Both training partners should communicate immediately if knee discomfort occurs during drilling. Avoid explosive yanking of the trapped leg which could strain hip flexors or create sudden torque on the knee. During progressive resistance drilling, the top player should gradually increase squeeze pressure rather than applying maximum force immediately."
+    "safety_considerations": "This guard retention technique carries minimal injury risk as no joint locks or chokes are involved. However, care must be taken during leg extraction to avoid awkward knee angles on the trapped leg, particularly when the opponent applies heavy crossface or lateral pressure that could twist the knee joint. Both training partners should communicate immediately if knee discomfort occurs during drilling. Avoid explosive yanking of the trapped leg which could strain hip flexors or create sudden torque on the knee. During progressive resistance drilling, the top player should gradually increase squeeze pressure rather than applying maximum force immediately.",
+    "clips": [
+      {
+        "id": "SMTORT8NDGw",
+        "title": "Guard Recovery Variation",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 185,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Reguard from Butterfly Half Guard Defender",
@@ -400,6 +411,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Defending reguard under full competition conditions",
         "description": "Start in top butterfly half guard against fully resisting partner. Bottom player's goal is to reguard to butterfly guard or sweep. Top player's goal is to prevent reguard and pass. Reset after each successful reguard, sweep, or pass. Integrate reguard defense with overall butterfly half guard top game including passing sequences and sweep defense."
+      }
+    ],
+    "clips": [
+      {
+        "id": "LIITsrlsAaI",
+        "title": "Passing half butterfly guard",
+        "by": "Morto BJJ",
+        "vertical": false,
+        "channel": "Morto BJJ",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Pk_6CrydIRQ",
+        "title": "Effective half butterfly guard pass for no-gi",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 110,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "9miuP4-v0EE",
+        "title": "Passing half butterfly guard is a different problem",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 192,
+        "verified": "2026-07-15"
       }
     ]
   }

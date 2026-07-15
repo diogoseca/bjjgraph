@@ -295,7 +295,36 @@
         "answer": "In no-gi, grip security is the primary concern because sweat eliminates friction, making the Gable grip behind the knees more likely to slip during the lifting phase. This makes the drive-through finish generally more reliable than the lift-and-dump in no-gi because it requires less sustained grip pressure. In gi, the collar and sleeve material provides additional friction and potential grip points that stabilize the connection, allowing longer lift sequences and more controlled finishes. The gi also changes defensive dynamics - opponents can grab your collar during the finish to set up chokes or create frames, which is not possible in no-gi. Adjustments include: in no-gi, emphasize speed and continuous forward pressure over lifting; in gi, be aware of collar grips that could compromise your posture, and consider incorporating gi-specific grips on the pants or belt to supplement the standard grip behind the knees."
       }
     ],
-    "safety_considerations": "When practicing the double leg finish, controlled application is essential to prevent injury to both partners. The primary safety concern is managing the driving power and landing to prevent dangerous falls, head-first impacts, or hard landings on the opponent's back or head. During training, always maintain awareness of mat space to ensure adequate room for the full driving motion and controlled landing. Start with slow, controlled repetitions with compliant partners before progressing to resistance. The partner being taken down should be taught proper breakfall techniques to protect themselves during the landing phase. Practitioners should build up driving power gradually, emphasizing technical precision before adding intensity or speed. In live training, be especially cautious when finishing near the edge of the mat or in crowded areas. When drilling, the person executing the technique should control the opponent's landing by maintaining grip and adjusting descent speed - slamming or dropping the opponent is dangerous and unnecessary. Partners should communicate clearly about resistance levels and stop immediately if either person feels unsafe. Proper conditioning and technical progression prevent most injuries associated with this technique, but awareness and partner safety must always take priority over completion of the technique."
+    "safety_considerations": "When practicing the double leg finish, controlled application is essential to prevent injury to both partners. The primary safety concern is managing the driving power and landing to prevent dangerous falls, head-first impacts, or hard landings on the opponent's back or head. During training, always maintain awareness of mat space to ensure adequate room for the full driving motion and controlled landing. Start with slow, controlled repetitions with compliant partners before progressing to resistance. The partner being taken down should be taught proper breakfall techniques to protect themselves during the landing phase. Practitioners should build up driving power gradually, emphasizing technical precision before adding intensity or speed. In live training, be especially cautious when finishing near the edge of the mat or in crowded areas. When drilling, the person executing the technique should control the opponent's landing by maintaining grip and adjusting descent speed - slamming or dropping the opponent is dangerous and unnecessary. Partners should communicate clearly about resistance levels and stop immediately if either person feels unsafe. Proper conditioning and technical progression prevent most injuries associated with this technique, but awareness and partner safety must always take priority over completion of the technique.",
+    "clips": [
+      {
+        "id": "vFvl1tdr8l4",
+        "title": "Double leg head drive finish",
+        "by": "Cary Kolat",
+        "vertical": false,
+        "channel": "Cary Kolat",
+        "duration": 47,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "yqyCo-skPvA",
+        "title": "Driving through to finish the double leg",
+        "by": "Physiohealth coach",
+        "vertical": false,
+        "channel": "Physiohealth01",
+        "duration": 28,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "7LHzjdOADBs",
+        "title": "Blast double finish breakdown",
+        "by": "Josh Dziewa",
+        "vertical": false,
+        "channel": "Josh Dziewa",
+        "duration": 54,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Double Leg Finish Defender",
@@ -418,6 +447,26 @@
         "phase": "Week 10+: Live Integration and Counterattacking",
         "focus": "Full resistance application and offensive counters from defensive positions",
         "description": "Defend double leg finishes during live standing grappling at full resistance. Develop the ability to counterattack during defense including guillotine submissions, front headlock transitions, and go-behind counters when sprawl creates back exposure. Track which defensive options succeed most frequently against different training partners and finish styles. Begin developing personal defensive preferences based on body type and grappling style."
+      }
+    ],
+    "clips": [
+      {
+        "id": "eaaHsLE3r3Q",
+        "title": "Powering up the whizzer to stop the finish",
+        "by": "Cary Kolat",
+        "vertical": false,
+        "channel": "Cary Kolat",
+        "duration": 79,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "92ncNJ_7qAQ",
+        "title": "Whizzer for takedown defense",
+        "by": "Kinesiology College coach",
+        "vertical": false,
+        "channel": "Kinesiology College",
+        "duration": 39,
+        "verified": "2026-07-15"
       }
     ]
   },

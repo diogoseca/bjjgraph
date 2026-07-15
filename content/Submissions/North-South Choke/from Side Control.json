@@ -329,6 +329,35 @@
         "answer": "The point of no escape occurs when your choking arm is threaded past the opponent's chin to the far side of their neck, your shoulder is seated directly on the near-side carotid, and your hips are sprawled flat with legs wide. At this stage, the opponent has no avenue to insert their arm inside the choke, cannot bridge effectively against your sprawled base, and cannot shrimp because your chest weight pins their upper body. Any squeezing from this position produces immediate carotid compression. If all three conditions are met, the finish is a matter of progressive pressure application.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "z3RNUfHfiSM",
+        "title": "Marcelo Garcia - North South Choke",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "Kon Ying",
+        "duration": 20,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "TkdKbLp5Ugo",
+        "title": "North South choke attack from side control",
+        "by": "Fighting Techniques Collection",
+        "vertical": false,
+        "channel": "Fighting Techniques Collection",
+        "duration": 78,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "HEocenfcpKg",
+        "title": "Side control to north south lapel choke",
+        "by": "JMA BKNY",
+        "vertical": false,
+        "channel": "JMA BKNY",
+        "duration": 62,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -459,6 +488,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Defending the complete attack sequence under full resistance",
         "description": "Start in side control with the attacker attempting the north-south choke. Defender uses all defensive tools — frames, turns, arm blocks, hip escapes — against full resistance. Rounds reset after successful defense, guard recovery, or tap. Builds the ability to integrate recognition, prevention, and escape into a cohesive defensive response."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ZT4QcOFksxs",
+        "title": "Kimura escape from North South",
+        "by": "Street Jitsu",
+        "vertical": false,
+        "channel": "Street Jitsu",
+        "duration": 25,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "rmT52A--V3Q",
+        "title": "How to escape North South",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ Plus",
+        "duration": 203,
+        "verified": "2026-07-14"
       }
     ]
   }

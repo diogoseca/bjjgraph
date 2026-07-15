@@ -352,6 +352,35 @@
         "answer": "The side control starting position means you maintain your 3-point pass advantage even if the armbar attempt fails, as you can return to side control rather than risking a guard recovery. The belly down finish has a significantly higher completion rate than supine armbars because it eliminates stacking and hitchhiker defenses. Additionally, opponents focused on defending standard side control attacks like americana and kimura often expose the arm configurations that create belly down armbar entries.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "9wGAI_8zvBQ",
+        "title": "Belly Down Armbar to Counter the Stack",
+        "by": "The Art of Fighting",
+        "vertical": false,
+        "channel": "The Art of Fighting",
+        "duration": 62,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "5eA_LJK-gJo",
+        "title": "Belly Down Attacks: Armbar and Rear Triangle",
+        "by": "Kameron Ross",
+        "vertical": false,
+        "channel": "Kameron Ross",
+        "duration": 67,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "yDxtO6qzOL0",
+        "title": "Belly Down Arm Bar Finish",
+        "by": "Brandoo",
+        "vertical": false,
+        "channel": "Brandoo",
+        "duration": 58,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -474,6 +503,35 @@
         "phase": "Phase 4: Full Defensive Sequence",
         "focus": "Integrated defense against complete attack",
         "description": "Partner attempts the full belly down armbar sequence from side control with progressive resistance. Practice the defensive hierarchy: prevent isolation, defend step-over, tap if caught. Develop realistic assessment of which defensive window you are in."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "Favorite Armbar Escape",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "3EG4Gfs30V8",
+        "title": "Hitchhiker Armbar Escape",
+        "by": "Absolute MMA",
+        "vertical": false,
+        "channel": "Absolute MMA",
+        "duration": 57,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "04LT-fIPlgw",
+        "title": "Armbar Defense: Stack and Hitchhiker Escape",
+        "by": "Gladiators Academy",
+        "vertical": false,
+        "channel": "Gladiators Academy of Youngsville",
+        "duration": 120,
+        "verified": "2026-07-14"
       }
     ]
   }

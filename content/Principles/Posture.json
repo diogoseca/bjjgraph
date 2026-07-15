@@ -418,5 +418,34 @@
       "question": "What signals confirm an opponent's posture is sufficiently broken to launch an attack?",
       "answer": "Their spine is curved forward, their head is below their hips, and they cannot generate forward pressure. These signs indicate the structure is compromised enough that planned sweeps or submissions will not be easily defended."
     }
+  ],
+  "clips": [
+    {
+      "id": "z1EkUuTh43M",
+      "title": "Regaining posture in closed guard",
+      "by": "Unknown",
+      "vertical": false,
+      "channel": "Gracie Sports Jiu Jitsu ",
+      "duration": 70,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "jx120fTdOfA",
+      "title": "Common posture mistake made by guard players",
+      "by": "Rickson Gracie",
+      "vertical": false,
+      "channel": "Rickson Gracie Jiu-Jitsu Academy",
+      "duration": 58,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "UhYqXfpluYs",
+      "title": "Simplest detail to strengthen your closed guard",
+      "by": "Jean Jacques Machado",
+      "vertical": false,
+      "channel": "JeanJacquesMachado",
+      "duration": 75,
+      "verified": "2026-07-15"
+    }
   ]
 }

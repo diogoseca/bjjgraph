@@ -286,7 +286,36 @@
         "answer": "Releasing grips prematurely—especially the collar grip—during the sweep allows the opponent to post a hand, create a frame, or recover guard before you consolidate top position. The collar grip provides continuous directional control throughout the rotation, and the sleeve grip prevents posting that would halt the sweep. Only release the lasso configuration after your weight is settled across the opponent's torso with crossface established."
       }
     ],
-    "safety_considerations": "The Russian Lasso Sweep applies significant rotational force to the opponent's body and the arm trapped in the lasso configuration. The lasso can stress the shoulder joint of the trapped arm during aggressive sweep execution. Always train with controlled force and clear communication with your partner. Release the lasso immediately if your partner signals discomfort in the shoulder or elbow. Avoid explosive full-speed execution against inexperienced training partners who may land awkwardly or fail to breakfall properly. Be especially cautious with the overhead variant, which involves more dramatic elevation and rotation."
+    "safety_considerations": "The Russian Lasso Sweep applies significant rotational force to the opponent's body and the arm trapped in the lasso configuration. The lasso can stress the shoulder joint of the trapped arm during aggressive sweep execution. Always train with controlled force and clear communication with your partner. Release the lasso immediately if your partner signals discomfort in the shoulder or elbow. Avoid explosive full-speed execution against inexperienced training partners who may land awkwardly or fail to breakfall properly. Be especially cautious with the overhead variant, which involves more dramatic elevation and rotation.",
+    "clips": [
+      {
+        "id": "3zM3gZsUPWc",
+        "title": "Lasso sweep from closed guard",
+        "by": "Ralph Gracie BJJ",
+        "vertical": false,
+        "channel": "Ralph Gracie BJJ - San Jose & Santa Clara",
+        "duration": 39,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "iDogUD6i03M",
+        "title": "No-gi lasso sweep",
+        "by": "JitzLive",
+        "vertical": false,
+        "channel": "JitzLive",
+        "duration": 15,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "LBI0dlDKrN0",
+        "title": "Lasso guard sweep to armbar",
+        "by": "Wagner Guimaraes",
+        "vertical": false,
+        "channel": "Wagner Guimarães BJJ",
+        "duration": 11,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Russian Lasso Sweep Defender",
@@ -411,6 +440,17 @@
         "phase": "Phase 4: Counter-Offensive Integration",
         "focus": "Transitioning from defense to passing",
         "description": "Full positional sparring from Russian Leg Lasso where you combine sweep defense with guard passing strategies. After successfully defending the sweep, immediately transition to passing sequences while the opponent is recovering their guard structure. Develop the ability to use sweep defense as a passing entry point."
+      }
+    ],
+    "clips": [
+      {
+        "id": "EdLPqtAm5yQ",
+        "title": "Pressure passing the lasso guard",
+        "by": "Alberto Serrano",
+        "vertical": false,
+        "channel": "Alberto Serrano BJJ",
+        "duration": 123,
+        "verified": "2026-07-15"
       }
     ]
   }

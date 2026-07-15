@@ -274,7 +274,36 @@
         "answer": "From the front headlock with a blocked Darce, several high-percentage chains exist: transition to Anaconda setup by reversing your arm threading direction, switch to guillotine by adjusting your grip under the chin, take the back by circling behind as they defend the choke threat, or attack with a Japanese necktie by adjusting your leg position. The front headlock is a hub position — a blocked Darce should flow directly into the next attack rather than being forced."
       }
     ],
-    "safety_considerations": "Practice Darce setups with controlled pressure and clear communication with training partners. When drilling the setup phase, focus on positional control rather than applying choking pressure until both partners understand the mechanics. The threading motion should be deliberate and smooth to avoid injury to shoulders or neck. Partners should maintain open communication about pressure levels, especially when adding resistance during training progressions. When transitioning from setup to finish, always release immediately when partner taps. Beginners should work under supervision of experienced practitioners or instructors who can correct technical errors before they become dangerous habits. The neck and cervical spine are vulnerable during front headlock positions, so avoid excessive cranking or twisting motions. Always ensure training partner understands how to tap from various positions before applying any submission setup."
+    "safety_considerations": "Practice Darce setups with controlled pressure and clear communication with training partners. When drilling the setup phase, focus on positional control rather than applying choking pressure until both partners understand the mechanics. The threading motion should be deliberate and smooth to avoid injury to shoulders or neck. Partners should maintain open communication about pressure levels, especially when adding resistance during training progressions. When transitioning from setup to finish, always release immediately when partner taps. Beginners should work under supervision of experienced practitioners or instructors who can correct technical errors before they become dangerous habits. The neck and cervical spine are vulnerable during front headlock positions, so avoid excessive cranking or twisting motions. Always ensure training partner understands how to tap from various positions before applying any submission setup.",
+    "clips": [
+      {
+        "id": "BMU1_wfjYTw",
+        "title": "Darce choke setup from front headlock",
+        "by": "Procel BJJ coach",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 101,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dpjc7ly_wSY",
+        "title": "Mounted darce setup (no-gi)",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 82,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "egZ6dBNmibo",
+        "title": "Drill to make the darce entry easy to catch",
+        "by": "Brandon Quick",
+        "vertical": false,
+        "channel": "Brandon Quick",
+        "duration": 63,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Darce Setup Defender",
@@ -391,6 +420,26 @@
         "phase": "Phase 4: Late-Stage Defense and Live Application (Weeks 8+)",
         "focus": "Escaping locked grips and integrating defense into sparring",
         "description": "Partner establishes full Darce grip with moderate resistance while you practice last-resort escapes including granby rolls, forward rolls, and arm extraction under pressure. Then integrate all defensive layers into live rolling, practicing early recognition leading to early prevention, falling back to mid-stage escapes, and using late-stage defense only when earlier layers fail."
+      }
+    ],
+    "clips": [
+      {
+        "id": "FMAWiNfgp74",
+        "title": "Defending the darce before the grip closes",
+        "by": "BJJ101 coach",
+        "vertical": false,
+        "channel": "BJJ101",
+        "duration": 30,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "wxXzlt-77Qs",
+        "title": "Overhook chin drag escape from the darce setup",
+        "by": "BJJ101 coach",
+        "vertical": false,
+        "channel": "BJJ101",
+        "duration": 262,
+        "verified": "2026-07-15"
       }
     ]
   },

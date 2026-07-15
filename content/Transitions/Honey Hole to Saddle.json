@@ -292,7 +292,36 @@
         "answer": "First attempt to pin or redirect their framing leg using your outside hand or by hooking it with your outside foot. If the frame persists, consider attacking from the current Honey Hole position rather than forcing the Saddle. The inside heel hook, kneebar, and toe hold are all available from Honey Hole without requiring full Saddle optimization. Alternatively, use the frame removal attempt to create a timing window: as you address their frame, they may relax the leg momentarily, opening the transition opportunity."
       }
     ],
-    "safety_considerations": "This transition involves leg entanglement reconfiguration that can inadvertently apply torque to the opponent's knee joint during adjustment. Both practitioners must communicate clearly during training and establish tap protocols before drilling. If the defender feels unexpected rotational pressure on their knee during the attacker's reconfiguration, they should tap immediately rather than waiting to assess whether the pressure is intentional. Training should begin at slow speed with cooperative partners before adding resistance. Never force the transition against a partner who is verbally indicating discomfort."
+    "safety_considerations": "This transition involves leg entanglement reconfiguration that can inadvertently apply torque to the opponent's knee joint during adjustment. Both practitioners must communicate clearly during training and establish tap protocols before drilling. If the defender feels unexpected rotational pressure on their knee during the attacker's reconfiguration, they should tap immediately rather than waiting to assess whether the pressure is intentional. Training should begin at slow speed with cooperative partners before adding resistance. Never force the transition against a partner who is verbally indicating discomfort.",
+    "clips": [
+      {
+        "id": "eRQVlYxFx1Y",
+        "title": "Shoulder roll to cross ashi (saddle/411) to back",
+        "by": "BJJ Doug",
+        "vertical": false,
+        "channel": "bjj doug",
+        "duration": 42,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "6PkbyGnn2w4",
+        "title": "Easiest entry to the honey hole",
+        "by": "Robot Dolphin Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Robot Dolphin Jiu-Jitsu ",
+        "duration": 147,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ratNiM2lx5U",
+        "title": "Transitioning to honey hole from outside ashi",
+        "by": "Robot Dolphin Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Robot Dolphin Jiu-Jitsu ",
+        "duration": 155,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Honey Hole to Saddle Defender",
@@ -417,6 +446,26 @@
         "phase": "Phase 4: Full Positional Sparring",
         "focus": "Applying defensive skills under competition conditions",
         "description": "Start in Honey Hole with full resistance. Attacker's goal is to achieve Saddle within 15 seconds. Defender's goal is to prevent the transition or escape entirely. Alternate roles every 5 attempts. Analyze patterns in successful and failed defenses to refine timing and technique selection under genuine competitive pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "8D4EFJ3kG9w",
+        "title": "Three escapes from the saddle / honey hole",
+        "by": "Because Jitsu",
+        "vertical": false,
+        "channel": "Because Jitsu",
+        "duration": 200,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "C3bPRoMwGPo",
+        "title": "Saddle escape to leg drag drill",
+        "by": "Travis Anderson",
+        "vertical": false,
+        "channel": "Travis Anderson",
+        "duration": 70,
+        "verified": "2026-07-15"
       }
     ]
   }

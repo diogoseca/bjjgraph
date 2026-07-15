@@ -279,7 +279,36 @@
         "answer": "Circle your knee in a small arc toward their hip rather than pulling straight back, which creates the catch point. Use your free hand to cup your own heel and guide it over the obstruction while maintaining crossface with your other arm. The circular extraction path avoids the geometry that creates the knee catch and allows smooth clearing without losing upper body control."
       }
     ],
-    "safety_considerations": "The Lockdown Escape to Half Guard Pass involves significant torque potential on the trapped knee joint, making proper technique essential for injury prevention. Never attempt to forcefully yank your leg free without first breaking the foot triangle—this can cause MCL, LCL, or meniscus damage. If you feel sharp pain in your knee during the sequence, tap and reset rather than continuing through discomfort. When drilling, partners should apply lockdown pressure progressively, allowing the escaping player to work technique before adding resistance. Practitioners with existing knee injuries should approach this technique cautiously and may need to modify the extraction angle. Communication with training partners is essential throughout to prevent injury."
+    "safety_considerations": "The Lockdown Escape to Half Guard Pass involves significant torque potential on the trapped knee joint, making proper technique essential for injury prevention. Never attempt to forcefully yank your leg free without first breaking the foot triangle—this can cause MCL, LCL, or meniscus damage. If you feel sharp pain in your knee during the sequence, tap and reset rather than continuing through discomfort. When drilling, partners should apply lockdown pressure progressively, allowing the escaping player to work technique before adding resistance. Practitioners with existing knee injuries should approach this technique cautiously and may need to modify the extraction angle. Communication with training partners is essential throughout to prevent injury.",
+    "clips": [
+      {
+        "id": "PptkZQh_MFA",
+        "title": "Quick lockdown escape from top",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 31,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "-49CypLW9aM",
+        "title": "Lockdown break to half guard pass",
+        "by": "Superhero Jiu Jitsu Academy",
+        "vertical": false,
+        "channel": "Superhero Jiu Jitsu Academy ",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "rHT8G14Gbb8",
+        "title": "Strategy-based lockdown escape",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 159,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Lockdown Escape to Half Guard Pass Defender",
@@ -409,6 +438,35 @@
         "phase": "Week 7+",
         "focus": "Live defensive sparring against extraction specialists",
         "description": "Positional sparring starting in lockdown bottom against partners who have trained the extraction sequence. Work the complete defensive decision tree including retention, counter-attacks, and transitions under full resistance. Develop real-time recognition and appropriate response selection."
+      }
+    ],
+    "clips": [
+      {
+        "id": "AmOMN0S1v8Q",
+        "title": "Advanced lockdown details to stop the escape",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "OIr4wDxl-Ys",
+        "title": "Lockdown clinches to keep the passer trapped",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "oSQ7BHerIow",
+        "title": "Lockdown strategies from bottom",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
       }
     ]
   },

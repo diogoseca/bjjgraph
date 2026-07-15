@@ -334,6 +334,35 @@
         "answer": "If the opponent successfully defends for 10-15 seconds with active hand fighting, posture recovery, or head extraction, transition rather than burning energy on a diminishing-return attempt. Viable transitions include high elbow guillotine, arm-in guillotine, anaconda or darce choke if they turn, or positional advancement to mount or side control using the choking threat as a distraction. The guillotine control position provides multiple offensive options—never become fixated on a single finish.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "k_j0NLNwKDA",
+        "title": "Guillotine Finishing Mechanics",
+        "by": "John Combs",
+        "vertical": false,
+        "channel": "Sanjay Nambiar",
+        "duration": 71,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "rYKci9GFisg",
+        "title": "10 Finger Grip Guillotine choke",
+        "by": "Big Dan",
+        "vertical": false,
+        "channel": "Big Dan's Bang Gym",
+        "duration": 20,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "tsofKYcYqaA",
+        "title": "How to Do a 10-Finger Guillotine",
+        "by": "Howcast",
+        "vertical": false,
+        "channel": "Howcast",
+        "duration": 113,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -469,6 +498,35 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Defending the complete submission sequence under realistic conditions",
         "description": "Partner begins in Guillotine Control with intent to finish via ten finger guillotine at full speed and resistance. Defender must escape or survive for 30 seconds. Track escape success rate across multiple rounds and identify which defensive option produces the best results. Develop personalized defensive strategy based on body type and grappling style."
+      }
+    ],
+    "clips": [
+      {
+        "id": "nGpAcI79frk",
+        "title": "Positional Check Against the Guillotine",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 116,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "OQYU2BXdEEw",
+        "title": "Guillotine Choke Defense",
+        "by": "Todd Hendrickson",
+        "vertical": false,
+        "channel": "Todd Hendrickson Jiu Jitsu",
+        "duration": 51,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "8okq4cIHMO0",
+        "title": "Standing guillotine escape",
+        "by": "dogtownman",
+        "vertical": false,
+        "channel": "dogtownman",
+        "duration": 44,
+        "verified": "2026-07-14"
       }
     ]
   }

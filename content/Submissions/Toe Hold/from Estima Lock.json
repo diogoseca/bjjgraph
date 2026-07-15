@@ -298,6 +298,35 @@
         "answer": "Immediately stop all rotational pressure upon hearing or feeling the tap. Release the cupping grip on the forefoot gradually rather than dropping the foot abruptly. Release the figure-four and heel control. Allow the opponent's foot to return to its neutral position naturally without forcing it. Maintain light supportive contact until they signal they are comfortable. Always verbally check with your training partner before resuming any activity.",
         "safety_critical": true
       }
+    ],
+    "clips": [
+      {
+        "id": "_6BC8d5B5Hs",
+        "title": "Estima Lock",
+        "by": "bjjtaro",
+        "vertical": false,
+        "channel": "bjjtaro",
+        "duration": 31,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "7hajltIw4kI",
+        "title": "Estima Lock Breaking Mechanics",
+        "by": "Josh Leduc",
+        "vertical": false,
+        "channel": "Josh Star-Lord Leduc",
+        "duration": 82,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "enJwT6Ttreo",
+        "title": "Huge Detail on the Estima Lock",
+        "by": "Brandon Mccaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 137,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -435,6 +464,26 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Defending the complete Estima Lock to toe hold chain in sparring",
         "description": "Full resistance positional sparring starting from Estima Lock bottom. Defend against the complete two-attack chain, recognizing which submission the attacker is pursuing and selecting the appropriate defensive response. Practice transitioning between Estima Lock defense and toe hold defense as the attacker flows between attacks."
+      }
+    ],
+    "clips": [
+      {
+        "id": "3a9k8-ZcYrk",
+        "title": "How to Escape the Toe Hold",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "The King Life",
+        "duration": 106,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "m0NLphEuFoc",
+        "title": "Leg Lock Defense",
+        "by": "Kuwy Jitsu",
+        "vertical": false,
+        "channel": "Kuwy Jitsu",
+        "duration": 61,
+        "verified": "2026-07-14"
       }
     ]
   }

@@ -286,7 +286,18 @@
         "answer": "Your immediate priority in 50-50 is winning the inside space battle by driving your knee toward the centerline and establishing inside hook dominance. From 50-50 with inside space, you can advance to Inside Ashi on the opponent's leg, then to Cross Ashi or Saddle. Without inside space, you are stuck in a neutral exchange. Use your base advantage from having been the top player to drive weight into the inside space fight while the opponent adjusts to the new bilateral configuration. The first 5 seconds after arriving in 50-50 typically determine who gains hierarchy advantage."
       }
     ],
-    "safety_considerations": "This transition involves entering bilateral leg entanglement where both practitioners have access to dangerous lower body submissions including heel hooks and kneebars. Always maintain awareness of your own heel exposure throughout the threading sequence and resulting exchange. Tap immediately if your heel becomes trapped in a finishing configuration rather than fighting through it, as knee ligament injuries from heel hooks develop rapidly and with minimal warning. During training, perform the threading sequence at controlled speed and communicate with your partner about resistance levels. Never force counter-entanglement entries against fully resisting training partners until the mechanical pattern is thoroughly drilled at lower intensities."
+    "safety_considerations": "This transition involves entering bilateral leg entanglement where both practitioners have access to dangerous lower body submissions including heel hooks and kneebars. Always maintain awareness of your own heel exposure throughout the threading sequence and resulting exchange. Tap immediately if your heel becomes trapped in a finishing configuration rather than fighting through it, as knee ligament injuries from heel hooks develop rapidly and with minimal warning. During training, perform the threading sequence at controlled speed and communicate with your partner about resistance levels. Never force counter-entanglement entries against fully resisting training partners until the mechanical pattern is thoroughly drilled at lower intensities.",
+    "clips": [
+      {
+        "id": "xvx03k3jiWo",
+        "title": "Outside ashi leg entanglement",
+        "by": "Team Strela",
+        "vertical": false,
+        "channel": "DARKSIDE | Team Strela",
+        "duration": 26,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Ashi Garami to Leg Entanglement Defender",
@@ -403,6 +414,35 @@
         "phase": "Phase 4: Bilateral Exchange Competition",
         "focus": "Winning the inside space battle when counter-entanglement succeeds",
         "description": "Start in freshly established bilateral entanglement (simulating successful counter-entry). Practice winning the inside space competition from the position of the original Ashi Garami holder. Develops post-failure recovery strategy."
+      }
+    ],
+    "clips": [
+      {
+        "id": "m0NLphEuFoc",
+        "title": "Leg lock defense from entanglement",
+        "by": "Kuwy Jitsu",
+        "vertical": false,
+        "channel": "Kuwy Jitsu",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "v3w0qXLKxug",
+        "title": "Defending heel hooks from entanglement",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 92,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Z0WDtUMkBP8",
+        "title": "The one key thing for defending heel hooks",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 170,
+        "verified": "2026-07-15"
       }
     ]
   }

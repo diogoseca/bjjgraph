@@ -345,6 +345,26 @@
         "answer": "The primary chain flows between kimura, americana, and armbar based on defensive reactions. When the opponent straightens their arm to prevent the kimura figure-four, redirect immediately to an americana by driving the straightened arm toward the mat. If they tuck their elbow tightly to prevent rotation in either direction, switch to an armbar by stepping over their head and extending the arm. Each defensive reaction to one submission creates the opening for the next, keeping the opponent in a perpetual defensive cycle.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "d7ucks8aHN0",
+        "title": "Kesa Gatame to Kimura transition",
+        "by": "Strong Hold Jiu Jitsu",
+        "vertical": false,
+        "channel": "Strong Hold Jiu Jitsu",
+        "duration": 71,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "fB7gGDIm1i8",
+        "title": "Kesa Gatame attacks including Kimura",
+        "by": "Johnny Jitsu",
+        "vertical": false,
+        "channel": "Johnny Jitsu",
+        "duration": 88,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -479,6 +499,26 @@
         "phase": "Phase 4: Full Resistance Positional Sparring",
         "focus": "Integrating all defensive options under full resistance from scarf hold",
         "description": "Start in scarf hold with attacker working full kimura and submission chain attacks. Defender uses all available tools including early prevention, escape exploitation, and late defense. Work 2-minute rounds tracking escape rate and identifying defensive gaps for further drilling."
+      }
+    ],
+    "clips": [
+      {
+        "id": "5atT-Q9-CVw",
+        "title": "Kesa Gatame escape",
+        "by": "Taylor Jiu Jitsu",
+        "vertical": false,
+        "channel": "Taylorjiujitsu",
+        "duration": 14,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "c5GUAlY1YwE",
+        "title": "Scarf hold headlock escape",
+        "by": "Clinch",
+        "vertical": false,
+        "channel": "Clinch Dirty Boxing-Brazilian Jiu-Jitsu-Krav Maga",
+        "duration": 141,
+        "verified": "2026-07-14"
       }
     ]
   }

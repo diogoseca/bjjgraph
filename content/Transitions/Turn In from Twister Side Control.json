@@ -278,7 +278,27 @@
         "answer": "First, protect your spine by re-establishing hand positioning that blocks rotational torque. Second, assess why the attempt failed and whether the opponent has tightened their control. Third, rebuild your frames using the compact forearm wedge position. Fourth, consider whether the turn-in remains viable or whether switching to an alternative escape direction such as the rolling escape or frame escape would exploit the opponent's current positioning. Alternate between escape directions to prevent the opponent from anticipating your next attempt."
       }
     ],
-    "safety_considerations": "The turn-in escape involves significant pressure on the neck, shoulders, and spine throughout the rotation. Never force the rotation if you feel sharp or shooting pain in the cervical spine, as the twister position inherently stresses spinal structures. If the opponent has achieved a deep twister grip with full spinal torque, tap immediately rather than attempting the escape and risking disc injury. During training, communicate clearly with your partner about resistance levels and use incremental resistance progression. Practice the turn-in movement slowly before adding resistance to develop proper hip-leading mechanics and avoid neck strain from shoulder-first rotation."
+    "safety_considerations": "The turn-in escape involves significant pressure on the neck, shoulders, and spine throughout the rotation. Never force the rotation if you feel sharp or shooting pain in the cervical spine, as the twister position inherently stresses spinal structures. If the opponent has achieved a deep twister grip with full spinal torque, tap immediately rather than attempting the escape and risking disc injury. During training, communicate clearly with your partner about resistance levels and use incremental resistance progression. Practice the turn-in movement slowly before adding resistance to develop proper hip-leading mechanics and avoid neck strain from shoulder-first rotation.",
+    "clips": [
+      {
+        "id": "R55lmkc6Mus",
+        "title": "Twister side control fundamentals",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 87,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "odT3-cVWXdc",
+        "title": "Attacks from twister side control",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Turn In from Twister Side Control Defender",

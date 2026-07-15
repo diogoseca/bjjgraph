@@ -358,6 +358,26 @@
         "answer": "This dilemma requires honest real-time assessment of finishing proximity. If your toe hold is further along in the finishing sequence than their counter-attack (figure-four locked, foot on chest, rotation initiated), you may continue and force a simultaneous finish race. If their attack is more advanced or equally developed, you must immediately abandon the toe hold and prioritize defending your own leg—structural damage to your knee from a heel hook is far more severe than a missed toe hold opportunity. The decision point is approximately 2 seconds: if you cannot generate a tap within 2 seconds of recognizing their counter-attack, release and defend. Never stubbornly hold a losing submission exchange.",
         "safety_critical": true
       }
+    ],
+    "clips": [
+      {
+        "id": "tUKGafnOlJo",
+        "title": "Slide into Ashi to Straight Toe Hold",
+        "by": "Josh Star-Lord Leduc",
+        "vertical": false,
+        "channel": "Josh Star-Lord Leduc",
+        "duration": 58,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "zsnGef5-N2g",
+        "title": "Attacking the Toe Hold from Outside Ashi",
+        "by": "Brian Glick",
+        "vertical": false,
+        "channel": "Brian Glick",
+        "duration": 202,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -508,6 +528,26 @@
         "phase": "Phase 4: Counter-Advancement",
         "focus": "Using toe hold defense as a catalyst for positional improvement",
         "description": "Start in Outside Ashi-Garami bottom with partner attempting toe holds at full resistance. Practice defending the toe hold while simultaneously advancing to Inside Ashi-Garami or deeper entanglement. Develop the ability to recognize the positional window created by the opponent's hand commitment and exploit it for advancement while maintaining foot safety."
+      }
+    ],
+    "clips": [
+      {
+        "id": "3a9k8-ZcYrk",
+        "title": "How to Escape the Toe Hold",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "The King Life",
+        "duration": 106,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "f4OOg_35Xjk",
+        "title": "How to Defend Against Toe Holds",
+        "by": "The Grappling Academy",
+        "vertical": false,
+        "channel": "The Grappling Academy",
+        "duration": 203,
+        "verified": "2026-07-14"
       }
     ]
   }

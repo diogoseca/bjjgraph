@@ -255,7 +255,18 @@
         "answer": "No—continue and even accelerate the rotation. The finishing mechanics for heel hooks become progressively compromised as your full inversion completes. The rotation actually helps strip heel hook grips by changing the angle and creating movement that disrupts their finishing position. Stopping leaves you in their optimal finishing configuration."
       }
     ],
-    "safety_considerations": "This escape involves rapid spinal rotation under load, requiring proper warm-up and flexibility development before training. Never attempt with a pre-existing lower back or neck injury. When drilling, partners should release leg control progressively rather than holding through forced rotation to prevent knee and ankle strain on the escaping practitioner. Maintain dorsiflexion religiously—a relaxed foot during live training can result in heel hook injury even during successful escapes. If you feel your heel becoming exposed mid-rotation, tap immediately rather than hoping to complete the escape. When landing in turtle, protect your neck by tucking your chin; extended neck positions combined with back take attempts can cause cervical strain."
+    "safety_considerations": "This escape involves rapid spinal rotation under load, requiring proper warm-up and flexibility development before training. Never attempt with a pre-existing lower back or neck injury. When drilling, partners should release leg control progressively rather than holding through forced rotation to prevent knee and ankle strain on the escaping practitioner. Maintain dorsiflexion religiously—a relaxed foot during live training can result in heel hook injury even during successful escapes. If you feel your heel becoming exposed mid-rotation, tap immediately rather than hoping to complete the escape. When landing in turtle, protect your neck by tucking your chin; extended neck positions combined with back take attempts can cause cervical strain.",
+    "clips": [
+      {
+        "id": "T9ZbR8GNE04",
+        "title": "Backside 50/50 to Outside Sankaku from Turtle",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 156,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Inversion to Turtle Defender",
@@ -381,6 +392,26 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Full resistance rounds starting from Ushiro Ashi-Garami. Bottom player attempts all escape variations while top player integrates recognition, transition, and counter-attack skills in real-time. Develop the ability to chain defensive responses when the first option is countered."
+      }
+    ],
+    "clips": [
+      {
+        "id": "AQbJMBiWYfU",
+        "title": "Escaping Ashi Garami - Leg Lock Defense",
+        "by": "Scott Elliott",
+        "vertical": false,
+        "channel": "Coach Scott Elliott",
+        "duration": 141,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MqtG9kuVt-Q",
+        "title": "Leg Lock Escape - Roll Through",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 103,
+        "verified": "2026-07-15"
       }
     ]
   },

@@ -273,7 +273,27 @@
         "answer": "A posted hand indicates they are creating a stable base for controlled inversion rather than a panicked scramble, giving them more control over rotation speed and direction. Counter by increasing the speed of your hip follow to stay ahead of their controlled rotation, and consider targeting that posted arm with your free hand to remove their stabilization point. Without the posted hand their rotation becomes less controlled, creating more opportunities for you to dictate the final position angle in Ushiro."
       }
     ],
-    "safety_considerations": "Leg entanglement transitions carry significant injury risk to knees and ankles due to changing rotational angles during movement. Both practitioners must communicate clearly during rotation sequences as the shifting angles can create unexpected submission pressure on the knee joint. Apply all movements smoothly and progressively, never explosively. Tap immediately if you feel any rotational pressure on the knee during training. Partners should release all heel grips before resetting positions. Begin drilling at very slow speeds and increase only when both practitioners are comfortable with the mechanics and can identify dangerous angles."
+    "safety_considerations": "Leg entanglement transitions carry significant injury risk to knees and ankles due to changing rotational angles during movement. Both practitioners must communicate clearly during rotation sequences as the shifting angles can create unexpected submission pressure on the knee joint. Apply all movements smoothly and progressively, never explosively. Tap immediately if you feel any rotational pressure on the knee during training. Partners should release all heel grips before resetting positions. Begin drilling at very slow speeds and increase only when both practitioners are comfortable with the mechanics and can identify dangerous angles.",
+    "clips": [
+      {
+        "id": "g3j7TZYoW14",
+        "title": "Top Ushiro to Kneebar entry",
+        "by": "Modesto Judo Club",
+        "vertical": false,
+        "channel": "Modesto Judo Club",
+        "duration": 115,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lTsK9C_a6po",
+        "title": "V Grip From Top Ushiro Transition",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 140,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Outside to Ushiro Ashi Defender",
@@ -390,6 +410,35 @@
         "phase": "Phase 4: Live Situational Sparring",
         "focus": "Full resistance defensive application",
         "description": "Full resistance positional sparring starting from Outside Ashi-Garami where you attempt inversion escape and the attacker works to follow into Ushiro. Practice all defensive options under realistic conditions in 2-minute rounds with position resets."
+      }
+    ],
+    "clips": [
+      {
+        "id": "2RLgyzWN71Y",
+        "title": "Double outside ashi heel hook escape (running man)",
+        "by": "GRAPPLING GAME CHANGER",
+        "vertical": false,
+        "channel": "GRAPPLING GAME CHANGER",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "KmGhb2j68Ng",
+        "title": "Escaping outside ashi heel hook to rolling back take",
+        "by": "Grapple Box",
+        "vertical": false,
+        "channel": "Grapple Box llc",
+        "duration": 34,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "AQbJMBiWYfU",
+        "title": "Escaping Ashi Garami leg lock defense",
+        "by": "Scott Elliott",
+        "vertical": false,
+        "channel": "Coach Scott Elliott",
+        "duration": 141,
+        "verified": "2026-07-15"
       }
     ]
   }

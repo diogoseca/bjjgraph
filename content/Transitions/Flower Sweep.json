@@ -264,7 +264,36 @@
         "answer": "If the sweep stalls with both practitioners partially on their sides, your priority is maintaining your grips and continuing forward momentum rather than resetting to guard. Drive your chest into theirs while keeping the sleeve controlled. From this halfway position, you can often complete the sweep by posting your free hand and driving over. If completion is not possible, immediately transition to attacking the controlled arm for a kimura or transition to a front headlock position if you can get your head above theirs. The worst option is abandoning the sweep and pulling back to closed guard, because you've already expended the energy and opened your guard - capitalize on the scramble rather than conceding."
       }
     ],
-    "safety_considerations": "The Flower Sweep is one of the safest techniques in BJJ when practiced properly, with minimal injury risk to either practitioner. The primary safety concern is ensuring controlled follow-through to mount - avoid driving your knee or bodyweight into the opponent's face or ribs as you come on top. When learning, both partners should be aware of the rotational nature of the sweep to avoid awkward landings. Practitioners with limited hip mobility should warm up thoroughly before drilling this technique to prevent hip flexor or groin strains. During live training, tap quickly if caught in a submission during the scramble to mount. As the person being swept, do not post your hand directly into the mat with a locked elbow, as this can result in shoulder or elbow injuries - instead, post with a bent arm or learn to roll through safely."
+    "safety_considerations": "The Flower Sweep is one of the safest techniques in BJJ when practiced properly, with minimal injury risk to either practitioner. The primary safety concern is ensuring controlled follow-through to mount - avoid driving your knee or bodyweight into the opponent's face or ribs as you come on top. When learning, both partners should be aware of the rotational nature of the sweep to avoid awkward landings. Practitioners with limited hip mobility should warm up thoroughly before drilling this technique to prevent hip flexor or groin strains. During live training, tap quickly if caught in a submission during the scramble to mount. As the person being swept, do not post your hand directly into the mat with a locked elbow, as this can result in shoulder or elbow injuries - instead, post with a bent arm or learn to roll through safely.",
+    "clips": [
+      {
+        "id": "HptsGRf7PX0",
+        "title": "Flower sweep from closed guard",
+        "by": "Alberto Serrano",
+        "vertical": false,
+        "channel": "Alberto Serrano BJJ",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "VPuRGIFaWz4",
+        "title": "Flower sweep basics (pendulum sweep)",
+        "by": "Gorilla BJJ Academy",
+        "vertical": false,
+        "channel": "Gorilla BJJ Academy Mahwah, NJ",
+        "duration": 50,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "guLR_4msTH4",
+        "title": "Deep flower sweep",
+        "by": "American Top Team coach",
+        "vertical": false,
+        "channel": "American Top Team - Palm Beach Gardens",
+        "duration": 29,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Flower Sweep Defender",
@@ -393,6 +422,17 @@
         "phase": "Month 3+: Full Integration",
         "focus": "Defending the complete closed guard attack system",
         "description": "Bottom player uses their full closed guard offense including sweeps, submissions, and transitions. Top player integrates Flower Sweep defense into their overall guard passing strategy. Focus on recognizing when the bottom player is setting up the Flower Sweep versus other attacks, and selecting the appropriate defense without creating openings for alternative attacks. Track sweep success rates to measure improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kNfVYhZbgrg",
+        "title": "Four levels of sweep defense",
+        "by": "Wim Deputter",
+        "vertical": false,
+        "channel": "Wim Deputter BJJ",
+        "duration": 87,
+        "verified": "2026-07-15"
       }
     ]
   },

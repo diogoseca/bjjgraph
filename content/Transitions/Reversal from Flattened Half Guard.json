@@ -309,7 +309,27 @@
         "answer": "The immediate priority is establishing crossface control and driving your shoulder pressure into their chin to turn their head away, then settling your hips low against their near hip to block knee insertion. This must happen within the first two to three seconds of achieving top position. The crossface prevents them from turning into you, and the hip block stops the most common guard recovery method. Failing to consolidate rapidly negates the entire positional gain as skilled opponents can recover guard before you establish meaningful control."
       }
     ],
-    "safety_considerations": "This reversal involves explosive bridging movements under load, which places significant stress on the cervical spine, lumbar spine, and shoulders. Practitioners should develop adequate bridge strength and mobility before attempting the technique at full intensity. The diagonal bridging angle can strain the lower back if the hips are not properly engaged. When drilling, partners should communicate clearly about pressure levels and allow gradual progression to full resistance. Tap immediately if neck compression occurs during the bridge. Warm up thoroughly before practicing bridging-intensive techniques, and avoid this reversal if you have existing spinal or shoulder injuries."
+    "safety_considerations": "This reversal involves explosive bridging movements under load, which places significant stress on the cervical spine, lumbar spine, and shoulders. Practitioners should develop adequate bridge strength and mobility before attempting the technique at full intensity. The diagonal bridging angle can strain the lower back if the hips are not properly engaged. When drilling, partners should communicate clearly about pressure levels and allow gradual progression to full resistance. Tap immediately if neck compression occurs during the bridge. Warm up thoroughly before practicing bridging-intensive techniques, and avoid this reversal if you have existing spinal or shoulder injuries.",
+    "clips": [
+      {
+        "id": "5sdZak2bil4",
+        "title": "Half guard bottom: reclaim closed guard",
+        "by": "Daniel Lima",
+        "vertical": false,
+        "channel": "Daniel Lima",
+        "duration": 26,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "NWie1oi3JSg",
+        "title": "Recovering when flattened in half guard",
+        "by": "Inverted Gear",
+        "vertical": false,
+        "channel": "Inverted Gear",
+        "duration": 274,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Reversal from Flattened Half Guard Defender",
@@ -430,6 +450,26 @@
         "phase": "Phase 4: Mixed Threat Defense",
         "focus": "Defending reversals and frame recovery simultaneously",
         "description": "Partner alternates between reversal attempts and frame recovery from flattened half guard. Develop the ability to distinguish between the two threats in real time and apply the correct defensive response to each. Full resistance with open outcomes."
+      }
+    ],
+    "clips": [
+      {
+        "id": "8WbQvytyCX0",
+        "title": "Keeping the flat half and passing it",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 63,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "WMcD-_R-To0",
+        "title": "Staying on top of half guard",
+        "by": "Trapp Martial Arts",
+        "vertical": false,
+        "channel": "Trapp Martial Arts",
+        "duration": 35,
+        "verified": "2026-07-15"
       }
     ]
   }

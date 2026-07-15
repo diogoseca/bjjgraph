@@ -285,7 +285,27 @@
         "answer": "Transition to a smash pass by driving your hip pressure into their knee shield to collapse it, or switch to a long step pass by stepping your free leg over their shield. The crossface you maintained gives you significant advantage for either follow-up because their head is already turned away. You can also transition to an arm triangle setup if their near arm comes across their body while fighting the re-established knee shield."
       }
     ],
-    "safety_considerations": "The crossface applies significant pressure to the opponent's face, jaw, and cervical spine. Position your forearm across the jawline rather than the throat to avoid tracheal compression. In training, apply pressure gradually and release immediately upon tap signals. Be aware that extreme crossface pressure combined with full body weight can create cervical spine strain, particularly for smaller training partners. Never crank the head violently - use steady, controlled pressure that turns rather than torques the neck. Monitor your partner's breathing and reduce pressure if they show signs of respiratory distress."
+    "safety_considerations": "The crossface applies significant pressure to the opponent's face, jaw, and cervical spine. Position your forearm across the jawline rather than the throat to avoid tracheal compression. In training, apply pressure gradually and release immediately upon tap signals. Be aware that extreme crossface pressure combined with full body weight can create cervical spine strain, particularly for smaller training partners. Never crank the head violently - use steady, controlled pressure that turns rather than torques the neck. Monitor your partner's breathing and reduce pressure if they show signs of respiratory distress.",
+    "clips": [
+      {
+        "id": "PTe4-NhLXf8",
+        "title": "Shallow cross face detail",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 24,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "gHD03vpWGSM",
+        "title": "How to create an insanely tight cross face",
+        "by": "Escapology BJJ",
+        "vertical": false,
+        "channel": "Escapology BJJ",
+        "duration": 119,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Cross Face Pass from Flattened Half Defender",
@@ -409,6 +429,17 @@
         "phase": "Phase 4: Live Application",
         "focus": "Full Resistance Positional Defense",
         "description": "Full resistance positional sparring starting from flattened half guard with opponent attempting cross face pass. Defender success measured by preventing the pass, recovering to active half guard with frames, or countering to sweep. Develop ability to select and execute appropriate defensive option in real time under competition-level pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "lVLAROiSjNU",
+        "title": "Guard retention: when to sit up and escape",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 136,
+        "verified": "2026-07-15"
       }
     ]
   }

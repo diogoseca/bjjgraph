@@ -286,7 +286,36 @@
         "answer": "The standard high-elbow guillotine generates pressure through linear pulling with the elbow rising toward the ceiling, compressing the trachea and carotids in a straight line. The Hindulotine generates pressure through rotational torque where hip angle creates a perpendicular force vector on the neck. This means the Hindulotine is more effective against opponents who can resist straight pulling pressure, uses less grip strength for sustained attempts, and offers better control from top position where gravity assists the rotation."
       }
     ],
-    "safety_considerations": "The Hindulotine finish applies both blood choke pressure on the carotid arteries and cranking force on the cervical spine due to its rotational mechanics. Always release immediately when your training partner taps or their body goes limp, as unconsciousness can occur rapidly with bilateral carotid compression. Never apply rotational pressure explosively in training, as the combined choke and cervical crank can cause injury before the partner has time to signal a tap. Monitor for signs of unconsciousness including cessation of defensive movement, body going limp, and unusual sounds. Beginners should drill the finishing sequence at significantly reduced intensity until the rotational mechanics are understood. Communicate with your partner about pressure levels throughout the drill."
+    "safety_considerations": "The Hindulotine finish applies both blood choke pressure on the carotid arteries and cranking force on the cervical spine due to its rotational mechanics. Always release immediately when your training partner taps or their body goes limp, as unconsciousness can occur rapidly with bilateral carotid compression. Never apply rotational pressure explosively in training, as the combined choke and cervical crank can cause injury before the partner has time to signal a tap. Monitor for signs of unconsciousness including cessation of defensive movement, body going limp, and unusual sounds. Beginners should drill the finishing sequence at significantly reduced intensity until the rotational mechanics are understood. Communicate with your partner about pressure levels throughout the drill.",
+    "clips": [
+      {
+        "id": "i9rAyo8tRZw",
+        "title": "Hindulotine breakdown from rubber guard",
+        "by": "CordesgainsBJJ",
+        "vertical": false,
+        "channel": "CordesgainsBJJ",
+        "duration": 87,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "YbOV4vESByc",
+        "title": "Hindulotine submission of the week",
+        "by": "Ben Eddy",
+        "vertical": false,
+        "channel": "Control Jiu JItsu",
+        "duration": 97,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "6UwoAQt6u6o",
+        "title": "Hindulotine finish in competition",
+        "by": "Ben Eddy",
+        "vertical": false,
+        "channel": "Rubber Guard Assassins",
+        "duration": 60,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Finish from Hindulotine Defender",
@@ -411,6 +440,35 @@
         "phase": "Phase 4: Live Defense Integration",
         "focus": "Defending the finish under full resistance sparring conditions",
         "description": "Positional sparring starting from established Hindulotine control. Attacker works to finish while defender uses full repertoire of defenses and escapes. Track escape rate over rounds and identify which finishing variations cause the most difficulty for targeted drilling. 2-minute rounds with position resets."
+      }
+    ],
+    "clips": [
+      {
+        "id": "q6efGUnLu9s",
+        "title": "Guillotine defense from inside the guard",
+        "by": "Soma Academy",
+        "vertical": false,
+        "channel": "Soma Academy",
+        "duration": 52,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "OI_18KI8_jg",
+        "title": "Defending the guillotine from closed guard",
+        "by": "Double Phoenix Jiu Jitsu",
+        "vertical": false,
+        "channel": "Double Phoenix Jiu Jitsu",
+        "duration": 48,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ra6bs8YwYGc",
+        "title": "Escaping a guillotine choke from guard",
+        "by": "Cosens MMA",
+        "vertical": false,
+        "channel": "Cosens MMA LLC",
+        "duration": 88,
+        "verified": "2026-07-15"
       }
     ]
   }

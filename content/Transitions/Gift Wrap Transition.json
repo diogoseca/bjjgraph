@@ -259,7 +259,36 @@
         "answer": "Do not chase the same arm immediately. Instead, use the failed attempt as a setup for your next attack. The arm recovery movement often creates openings elsewhere - their opposite arm may have extended, their posture may have changed, or their neck may be exposed. Threaten a submission on whatever target their recovery exposed, then re-attack the Gift Wrap when they defend that new threat. Chaining attacks creates the entries that isolated attempts cannot."
       }
     ],
-    "safety_considerations": "The Gift Wrap Transition is generally low-risk when executed with proper technique. Primary safety concern is avoiding excessive force on the trapped arm, which could cause shoulder strain. Pull the arm across the chest using positional pressure rather than cranking force. During training, tap early if the shoulder position becomes uncomfortable. Partners should release the trap immediately upon tap, as continued pressure on an isolated arm can cause injury. Avoid explosive jerking movements when establishing the wrap - smooth, steady pressure is both more effective and safer."
+    "safety_considerations": "The Gift Wrap Transition is generally low-risk when executed with proper technique. Primary safety concern is avoiding excessive force on the trapped arm, which could cause shoulder strain. Pull the arm across the chest using positional pressure rather than cranking force. During training, tap early if the shoulder position becomes uncomfortable. Partners should release the trap immediately upon tap, as continued pressure on an isolated arm can cause injury. Avoid explosive jerking movements when establishing the wrap - smooth, steady pressure is both more effective and safer.",
+    "clips": [
+      {
+        "id": "EOv5GYpUYDw",
+        "title": "Gift wrap back take",
+        "by": "BJJ Lab Zürich",
+        "vertical": false,
+        "channel": "BJJ Lab Zürich",
+        "duration": 69,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "X3yIMfhGHnk",
+        "title": "Mount to gift wrap to submission",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 92,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "KwhoNiUJboI",
+        "title": "Gift wrap to armbar from mount",
+        "by": "The Fight Coach",
+        "vertical": false,
+        "channel": "The Fight Coach",
+        "duration": 87,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Gift Wrap Transition Defender",
@@ -388,6 +417,26 @@
         "phase": "Week 7+",
         "focus": "Full resistance positional sparring",
         "description": "Start from High Mount bottom with partner actively pursuing Gift Wrap. Full resistance with realistic setups, feints, and chains. Measure success rate of preventing Gift Wrap establishment and successful escapes to half guard. Develop defensive instincts under competition-level pressure and urgency."
+      }
+    ],
+    "clips": [
+      {
+        "id": "OMzki0Uu7vA",
+        "title": "Escaping the gift wrap",
+        "by": "The Jiu Jitsu Pedia",
+        "vertical": false,
+        "channel": "thejiujitsupedia",
+        "duration": 48,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dKsWGZXo3Zw",
+        "title": "Escaping the modified mount",
+        "by": "Fenrir Jiu-Jitsu Academy",
+        "vertical": false,
+        "channel": "Fenrir Jiu-Jitsu Academy",
+        "duration": 133,
+        "verified": "2026-07-15"
       }
     ]
   },

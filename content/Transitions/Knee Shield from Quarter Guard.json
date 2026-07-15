@@ -285,7 +285,18 @@
         "answer": "The sequence is frame-shrimp-insert. First, establish forearm frames against the opponent's chest or shoulder to arrest their forward momentum and create initial space. Second, execute a committed hip escape to generate lateral distance and turn onto your side, opening the diagonal corridor for knee travel. Third, drive the near-side knee across the opponent's centerline toward their far shoulder. Skipping any step dramatically reduces success probability—inserting without frames fails against pressure, inserting without hip escape fails due to blocked path, and framing without follow-through wastes the created window."
       }
     ],
-    "safety_considerations": "When drilling knee shield recovery from quarter guard, training partners should control the speed and intensity of passing pressure to prevent knee strain during the insertion phase. The inserting knee is vulnerable to lateral stress if the top player drives sideways against it before it is fully established across the centerline. Partners should avoid explosive sideways pressure against a partially inserted knee shield. Communicate clearly about intensity level before each round, and tap immediately if any knee discomfort occurs during insertion attempts. Gradually increase resistance over multiple training sessions rather than jumping to full intensity, particularly for practitioners returning from knee injuries."
+    "safety_considerations": "When drilling knee shield recovery from quarter guard, training partners should control the speed and intensity of passing pressure to prevent knee strain during the insertion phase. The inserting knee is vulnerable to lateral stress if the top player drives sideways against it before it is fully established across the centerline. Partners should avoid explosive sideways pressure against a partially inserted knee shield. Communicate clearly about intensity level before each round, and tap immediately if any knee discomfort occurs during insertion attempts. Gradually increase resistance over multiple training sessions rather than jumping to full intensity, particularly for practitioners returning from knee injuries.",
+    "clips": [
+      {
+        "id": "sMsgoChdaHE",
+        "title": "Quarter guard concepts",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Knee Shield from Quarter Guard Defender",
@@ -406,6 +417,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance quarter guard scenarios",
         "description": "Start every round in quarter guard with partner at full competitive resistance. Top player scores for completed pass, bottom player scores for knee shield recovery. Two-minute rounds with role switches. Integrates recognition, pressure, and passing speed into competitive application."
+      }
+    ],
+    "clips": [
+      {
+        "id": "8lAqEhHz8ao",
+        "title": "Quarter guard escape and pass, with slow motion",
+        "by": "Marcus Almeida",
+        "vertical": false,
+        "channel": "grpplng",
+        "duration": 37,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "kTSMGYlVJKY",
+        "title": "Freeing your foot while passing half guard",
+        "by": "Kameron Ross",
+        "vertical": false,
+        "channel": "Kameron Ross",
+        "duration": 55,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "r5TVxSXdsCY",
+        "title": "Passing the quarter guard with a back step",
+        "by": "Ashure Elbanna",
+        "vertical": false,
+        "channel": "Ashure Elbanna",
+        "duration": 100,
+        "verified": "2026-07-15"
       }
     ]
   }

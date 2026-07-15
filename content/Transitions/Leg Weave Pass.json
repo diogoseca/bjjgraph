@@ -293,7 +293,27 @@
         "answer": "The lockdown counter variation uses the same leg threading mechanics but serves a dual purpose: it both breaks the opponent's lockdown structure and establishes the passing position simultaneously. In the standard version, you thread through an open half guard configuration where the legs offer moderate resistance. In the lockdown counter, you thread through the opponent's locked ankles, requiring more deliberate force and slightly different positioning to break through their ankle connection. The lockdown version begins as a defensive counter but transitions to the same offensive passing configuration."
       }
     ],
-    "safety_considerations": "When practicing the leg weave pass, maintain control of your weight distribution to avoid placing excessive pressure on the opponent's neck or spine. The crossface should create control without cranking the neck laterally. When your partner is defending, be aware that attempting to forcefully extract your trapped leg before proper control is established can lead to knee strain for both practitioners. Communication is essential during drilling - the bottom person should tap if they feel uncomfortable pressure on their neck or if they cannot breathe properly. When threading the leg through, move deliberately rather than explosively to avoid accidentally kicking or kneeing your partner. In competition or advanced training, be aware that aggressive bridging attempts from bottom can create injury risk if you're not properly based, so maintain wide base and low hips throughout."
+    "safety_considerations": "When practicing the leg weave pass, maintain control of your weight distribution to avoid placing excessive pressure on the opponent's neck or spine. The crossface should create control without cranking the neck laterally. When your partner is defending, be aware that attempting to forcefully extract your trapped leg before proper control is established can lead to knee strain for both practitioners. Communication is essential during drilling - the bottom person should tap if they feel uncomfortable pressure on their neck or if they cannot breathe properly. When threading the leg through, move deliberately rather than explosively to avoid accidentally kicking or kneeing your partner. In competition or advanced training, be aware that aggressive bridging attempts from bottom can create injury risk if you're not properly based, so maintain wide base and low hips throughout.",
+    "clips": [
+      {
+        "id": "kQrTYXOO1To",
+        "title": "Leg pummeling into the weave pass",
+        "by": "Michael Wong",
+        "vertical": false,
+        "channel": "Michael Wong",
+        "duration": 22,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "4LIBFmas-oE",
+        "title": "Leg weave pass against the knee shield",
+        "by": "BJJ4Breakfast coach",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 153,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Leg Weave Pass Defender",
@@ -423,6 +443,26 @@
         "phase": "Week 9+: Live Application and Counter-Offense",
         "focus": "Integrating leg weave defense into live rolling with offensive counter-attacks",
         "description": "Apply defensive skills during live positional sparring from half guard bottom against partners who actively hunt for the leg weave. Focus on using the underhook as an offensive defense that prevents the weave while simultaneously threatening sweeps. Begin developing automatic defensive responses so that recognition and reaction happen without conscious deliberation."
+      }
+    ],
+    "clips": [
+      {
+        "id": "9i-U4ivd108",
+        "title": "Three step counter to the weave pass",
+        "by": "Pendergrass Academy coach",
+        "vertical": false,
+        "channel": "Pendergrass Academy of Martial Arts",
+        "duration": 116,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lVLAROiSjNU",
+        "title": "Guard retention: when to sit up and escape",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 136,
+        "verified": "2026-07-15"
       }
     ]
   },

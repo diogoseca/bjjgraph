@@ -381,6 +381,35 @@
         "answer": "In competition, establish complete positional control before committing to the finish - rushing leads to failed attempts. Use the threat of rear naked choke to bait arm extension, then immediately transition. Apply steady increasing pressure rather than explosive force even in competition to prevent referee stoppage before tap. If opponent is highly defensive, chain the armbar threat with triangle and back choke attempts to force reactions. Be prepared to follow rolling escapes and finish from the top position. Finally, if they establish a strong defensive grip, maintain pressure and wait for their grip to fatigue rather than trying to rip through it.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "B01WDrVESIo",
+        "title": "Armbar from back control",
+        "by": "Cesar Lima",
+        "vertical": false,
+        "channel": "The Grapple Club",
+        "duration": 86,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "I4PhmMcJn_Y",
+        "title": "Armbar from back mount (Danaher system)",
+        "by": "Aaron Milam",
+        "vertical": false,
+        "channel": "Matrix Jiu Jitsu",
+        "duration": 170,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "jf1kPefTmm0",
+        "title": "Armbar from the back variation",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 80,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -523,6 +552,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance defense from back control",
         "description": "Start each round in back control with the attacker having seatbelt. Attacker uses full technique at increasing intensity to hunt the armbar with legs. Defender works complete defensive sequences from recognition through escape. Track success rates and identify which defensive layer fails most frequently for targeted improvement. Alternate roles each round."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "My favorite armbar escape",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "s_X84S_o8_A",
+        "title": "Armbar from the back and how to stop it",
+        "by": "Stephan Kesting",
+        "vertical": false,
+        "channel": "Stephan Kesting",
+        "duration": 246,
+        "verified": "2026-07-14"
       }
     ]
   },

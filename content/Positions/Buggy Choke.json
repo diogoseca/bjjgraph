@@ -420,6 +420,35 @@
           "nogi": 5
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "-b7Avb1x7g8",
+        "title": "The buggy choke",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "0VDUwuyT6N4",
+        "title": "Fix your buggy choke",
+        "by": "Yoga for BJJ",
+        "vertical": false,
+        "channel": "Yoga for BJJ",
+        "duration": 71,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Rlk8WXQrj4Q",
+        "title": "Buggy choke from north-south",
+        "by": "JaezeeJiujitsu",
+        "vertical": false,
+        "channel": "JaezeeJiujitsu",
+        "duration": 48,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -711,6 +740,35 @@
           "nogi": 10
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "-b7Avb1x7g8",
+        "title": "The buggy choke from bottom side control",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "0VDUwuyT6N4",
+        "title": "Fixing common buggy choke mistakes",
+        "by": "Yoga for BJJ",
+        "vertical": false,
+        "channel": "Yoga for BJJ",
+        "duration": 71,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "U-eR63GzcIo",
+        "title": "Buggy choke setups and finishes",
+        "by": "Kade Ruotolo",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 67,
+        "verified": "2026-07-15"
+      }
     ]
   },
   "flashcards_position": [
@@ -745,6 +803,35 @@
     {
       "question": "What posture and positional cues distinguish a live Buggy Choke threat from a routine pin exchange?",
       "answer": "The defining cue is the near arm being strung or framed across the compressed player's own neck while the opposite player begins bringing a leg toward that shoulder. A routine pin lacks this arm-across-neck configuration and the leg-over-shoulder clamp that seals it. The threat becomes active the instant those two elements combine, since together they establish the self-strangle mechanism unique to this position. Recognizing that specific arm-and-leg geometry, rather than overall pressure, is what tells both players the exchange has become a Buggy Choke."
+    }
+  ],
+  "clips": [
+    {
+      "id": "-b7Avb1x7g8",
+      "title": "The buggy choke",
+      "by": "ZombieProofBJJ",
+      "vertical": false,
+      "channel": "ZombieProofBJJ",
+      "duration": 61,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "mUwBihCvZl8",
+      "title": "Buggy choke overhaul: mechanics and defense",
+      "by": "Arroyo Grappling",
+      "vertical": false,
+      "channel": "Arroyo Grappling Academy",
+      "duration": 141,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "0_3YYrWEGoU",
+      "title": "3 buggy choke concepts",
+      "by": "Kade and Tye Ruotolo",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 201,
+      "verified": "2026-07-14"
     }
   ]
 }

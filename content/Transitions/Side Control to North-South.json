@@ -279,7 +279,27 @@
         "answer": "Continue the transition but modify your objective. As they turn, accelerate your movement and transition past North-South directly to front headlock or turtle top position. Their turning motion actually assists your circular path around their head. Rather than fighting to keep them flat, use their movement to advance to a position where you threaten chokes or back takes from their turtle. This is a higher-value outcome than completing North-South against a resisting opponent."
       }
     ],
-    "safety_considerations": "The North-South transition is one of the safer movements in BJJ when executed properly, but practitioners must be aware of potential issues. Maintain controlled pressure throughout - dropping your full weight suddenly onto opponent's chest can cause rib injuries or breathing difficulty. Be particularly cautious with smaller or injured training partners. When consolidating in North-South, ensure your partner can breathe and tap if needed. Avoid posting hands near opponent's face during the transition to prevent accidental eye pokes. Practice smooth, controlled movements rather than explosive or jerky motions that could injure neck or shoulders. Always respond immediately when partner taps, especially if you have transitioned to submission attempts from North-South."
+    "safety_considerations": "The North-South transition is one of the safer movements in BJJ when executed properly, but practitioners must be aware of potential issues. Maintain controlled pressure throughout - dropping your full weight suddenly onto opponent's chest can cause rib injuries or breathing difficulty. Be particularly cautious with smaller or injured training partners. When consolidating in North-South, ensure your partner can breathe and tap if needed. Avoid posting hands near opponent's face during the transition to prevent accidental eye pokes. Practice smooth, controlled movements rather than explosive or jerky motions that could injure neck or shoulders. Always respond immediately when partner taps, especially if you have transitioned to submission attempts from North-South.",
+    "clips": [
+      {
+        "id": "vvZJYBd7z3o",
+        "title": "Side control to north-south position",
+        "by": "Joao Crus",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 88,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "22EYQ2uhxQw",
+        "title": "Side control to north-south darce",
+        "by": "Gracie Westchase coach",
+        "vertical": false,
+        "channel": "Gracie Westchase ",
+        "duration": 75,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Side Control to North-South Defender",
@@ -413,6 +433,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance defensive application",
         "description": "Start in Side Control bottom with partner attempting transitions to North-South, Mount, and Knee on Belly. Defend all transitions at full resistance while prioritizing guard recovery. Reset after position changes. 5-minute rounds alternating roles. Track success rate of transition prevention."
+      }
+    ],
+    "clips": [
+      {
+        "id": "rmT52A--V3Q",
+        "title": "How to escape north-south in jiu-jitsu",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ Plus",
+        "duration": 203,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "YTKbNwNaaPQ",
+        "title": "Escaping and countering north-south",
+        "by": "John Connors",
+        "vertical": false,
+        "channel": "John Connors, Old Man BJJ Black Belt",
+        "duration": 216,
+        "verified": "2026-07-15"
       }
     ]
   },

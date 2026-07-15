@@ -291,7 +291,36 @@
         "answer": "As they strip the overhook by pulling their arm out, their arm movement creates an opening for a triangle setup since the arm is extending away from their body. Alternatively, switch your overhook hand to a wrist grip on the escaping arm and immediately attack with a kimura or transition to an arm drag toward their back. The key is flowing with their extraction energy into an attack rather than fighting to maintain a lost grip."
       }
     ],
-    "safety_considerations": "This transition involves controlled positional movement with minimal joint stress. Maintain awareness of knee positioning during hip walking to avoid awkward angles on your own knees. When closing guard, ensure ankles cross cleanly behind the opponent's back rather than catching on their hip bones, which can cause ankle strain under load. The overhook pressure on the opponent's shoulder should be firm but controlled to avoid shoulder injury during training. Communicate with your training partner if the overhook creates excessive pressure on their shoulder joint."
+    "safety_considerations": "This transition involves controlled positional movement with minimal joint stress. Maintain awareness of knee positioning during hip walking to avoid awkward angles on your own knees. When closing guard, ensure ankles cross cleanly behind the opponent's back rather than catching on their hip bones, which can cause ankle strain under load. The overhook pressure on the opponent's shoulder should be firm but controlled to avoid shoulder injury during training. Communicate with your training partner if the overhook creates excessive pressure on their shoulder joint.",
+    "clips": [
+      {
+        "id": "cgMrWs-IXm4",
+        "title": "Trapping the arm from closed guard (no-gi)",
+        "by": "Mica Galvao",
+        "vertical": true,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "XVxTzuJ1F60",
+        "title": "Overhook from closed guard into rolling armbar",
+        "by": "Bowerhouse MMA",
+        "vertical": false,
+        "channel": "BOWERHOUSE MMA",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Nyn3IbRFoxI",
+        "title": "Closed guard overhook to cross fist choke",
+        "by": "Fight Sports Charlotte",
+        "vertical": false,
+        "channel": "Fight Sports Charlotte",
+        "duration": 37,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Overhook to Closed Guard Defender",
@@ -421,6 +450,17 @@
         "phase": "Phase 4: Full Resistance Positional Sparring",
         "focus": "Defending closure against full resistance with passing follow-up",
         "description": "Begin in overhook guard top against a fully resisting partner who attempts guard closure. Your objective is to prevent the closure and advance to a passing position or side control. Track success rate over multiple rounds and analyze which defensive responses work best against different closure variants and body types."
+      }
+    ],
+    "clips": [
+      {
+        "id": "58LkTy6v3KQ",
+        "title": "Closed guard overhook/clamp defense and counter",
+        "by": "The Grappling Bloke",
+        "vertical": false,
+        "channel": "The Grappling Bloke",
+        "duration": 109,
+        "verified": "2026-07-15"
       }
     ]
   }

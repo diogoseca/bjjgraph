@@ -303,7 +303,27 @@
         "answer": "The primary grip should be at the knee or just below on the pant leg, not at the ankle or foot. Knee-level grip provides maximum mechanical leverage for the drag motion while allowing your forearm to control the direction of the leg. Ankle grips offer less control over the leg's trajectory and allow the opponent more freedom to bend their knee and recover. The grip strength should be firm but not death-grip tight - excessive tension wastes energy and reduces your ability to transition the grip as needed. Your thumb should be on the inside of the pant leg for gi, or hooking behind the knee for no-gi, creating a secure connection that doesn't slip during the drag motion."
       }
     ],
-    "safety_considerations": "The leg drag pass is generally one of the safer guard passing techniques for both practitioners when executed properly. However, several safety considerations should be observed. Avoid driving your head or shoulder into your training partner's face with excessive force, as this can cause neck injuries or facial trauma. When establishing chest pressure on the trapped leg, be mindful of knee torque - the leg should be dragged across the body's centerline without twisting the knee joint in dangerous angles. During drilling, communicate with your partner about pressure levels, especially when learning to establish heavy chest pressure. Partners defending the leg drag should avoid posting with extended arms as this can lead to wrist, elbow, or shoulder injuries when the passer's weight collapses the frame. Beginners should start with slow, controlled repetitions before adding speed and dynamic movement. When the pass is completed and opponent is flattened, be conscious of rib and chest pressure - effective control doesn't require crushing pressure that prevents breathing."
+    "safety_considerations": "The leg drag pass is generally one of the safer guard passing techniques for both practitioners when executed properly. However, several safety considerations should be observed. Avoid driving your head or shoulder into your training partner's face with excessive force, as this can cause neck injuries or facial trauma. When establishing chest pressure on the trapped leg, be mindful of knee torque - the leg should be dragged across the body's centerline without twisting the knee joint in dangerous angles. During drilling, communicate with your partner about pressure levels, especially when learning to establish heavy chest pressure. Partners defending the leg drag should avoid posting with extended arms as this can lead to wrist, elbow, or shoulder injuries when the passer's weight collapses the frame. Beginners should start with slow, controlled repetitions before adding speed and dynamic movement. When the pass is completed and opponent is flattened, be conscious of rib and chest pressure - effective control doesn't require crushing pressure that prevents breathing.",
+    "clips": [
+      {
+        "id": "3C4KXdIb3C0",
+        "title": "Leg drag pass from closed guard",
+        "by": "ROJ Europe coach",
+        "vertical": false,
+        "channel": "ROJ - EUROPE - Jiu Jitsu",
+        "duration": 72,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "4xplJQ-FFvI",
+        "title": "Leg drag pass to back take",
+        "by": "Ben, Combat Room BJJ",
+        "vertical": false,
+        "channel": "Combat Room Brazilian Jiu Jitsu",
+        "duration": 75,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Leg Drag Pass Defender",
@@ -439,6 +459,35 @@
         "phase": "Month 3+: Full Resistance Integration",
         "focus": "Live application and automatic defensive reactions",
         "description": "Full-resistance rolling with emphasis on guard retention against passing sequences that include leg drag. Set specific defensive benchmarks: prevent the drag from being established in at least 50% of attempts, recover to half guard or better within 10 seconds when drag is completed. Use competition-pace positional sparring where partner is scored on pass completion speed and you are scored on guard retention duration."
+      }
+    ],
+    "clips": [
+      {
+        "id": "QCEdvqfWZMI",
+        "title": "Matrix defense against the leg drag",
+        "by": "BJJ Lab Zurich coach",
+        "vertical": false,
+        "channel": "BJJ Lab Zürich",
+        "duration": 96,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fFqoFDE2yyw",
+        "title": "Guard retention against the leg drag",
+        "by": "Brandon Quick",
+        "vertical": false,
+        "channel": "Brandon Quick",
+        "duration": 90,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lVLAROiSjNU",
+        "title": "Sit-up escape for guard retention",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 136,
+        "verified": "2026-07-15"
       }
     ]
   },

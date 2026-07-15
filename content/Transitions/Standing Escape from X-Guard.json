@@ -304,7 +304,18 @@
         "answer": "The two highest-percentage follow-ups are toreando passing and body lock entry. Toreando is optimal when the bottom player's legs are still disorganized from the collapsed X-Guard — grab both pants at the knees and redirect their legs to one side before they can establish new hooks. Body lock entry works when you can close distance before they frame, wrapping their hips to deny guard re-establishment entirely. Choose toreando when you have distance and can see their legs are uncoordinated. Choose body lock when they are already reaching for your legs to re-hook, since closing the distance neutralizes their re-entry attempts. Against fast guard players who recover quickly, immediate re-engagement before they reorganize is critical. Against slower recoverers, maintaining distance briefly to establish your preferred passing grips is viable."
       }
     ],
-    "safety_considerations": "The Standing Escape from X-Guard carries moderate injury risk primarily during the extraction phase. Avoid explosive jerking motions when removing the inside hook, as sudden forceful extraction can hyperextend the bottom player's knee when their leg is deeply entangled. Maintain controlled movement throughout all phases of the escape. If hooks resist extraction through mechanical means, reassess your sequence rather than forcing through muscular effort, which risks knee ligament strain for the bottom player and ankle injuries for both practitioners. When practicing the sit-down variant, descend in a controlled manner to avoid landing on the bottom player's legs or face."
+    "safety_considerations": "The Standing Escape from X-Guard carries moderate injury risk primarily during the extraction phase. Avoid explosive jerking motions when removing the inside hook, as sudden forceful extraction can hyperextend the bottom player's knee when their leg is deeply entangled. Maintain controlled movement throughout all phases of the escape. If hooks resist extraction through mechanical means, reassess your sequence rather than forcing through muscular effort, which risks knee ligament strain for the bottom player and ankle injuries for both practitioners. When practicing the sit-down variant, descend in a controlled manner to avoid landing on the bottom player's legs or face.",
+    "clips": [
+      {
+        "id": "JSOM86_1lRo",
+        "title": "Single leg X guard escapes and footlock counters",
+        "by": "James O'Connor",
+        "vertical": false,
+        "channel": "James O’Connor",
+        "duration": 111,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Standing Escape from X-Guard Defender",
@@ -433,6 +444,26 @@
         "phase": "Phase 4: Full resistance sparring",
         "focus": "Complete defensive system under competition pressure",
         "description": "Positional sparring starting in X-Guard with full resistance from both players. Bottom player scores for sweeps, maintained guard at the end of the round, or successful transitions to alternative guards. Top player scores for achieving standing position or completing a guard pass. Build the complete defensive chain under realistic conditions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "7OnjPU1WjH4",
+        "title": "X-guard sweep against a standing opponent",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "Gentle Art Media",
+        "duration": 35,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "c8JBXJMc0Oc",
+        "title": "X-guard sweep detail",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "Butterfly The World",
+        "duration": 81,
+        "verified": "2026-07-15"
       }
     ]
   }

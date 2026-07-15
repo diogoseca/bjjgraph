@@ -301,7 +301,36 @@
         "answer": "The knee slice completion drives the trapped knee diagonally across the opponent's thigh in one continuous forward motion, relying on angular displacement and forward pressure to break the hook. The hip switch extraction shifts the hips from one side to the other while maintaining chest pressure, using the directional change to pop the leg free through a change in the angle of the leg relative to the hook. The knee slice is the primary option when you have strong crossface control and can create a diagonal angle. The hip switch is better against tight hooks that resist forward extraction."
       }
     ],
-    "safety_considerations": "The Complete Pass from Flattened Half Guard is a relatively low-risk transition from an injury perspective, as no joint locks or chokes are directly applied during the movement. However, the sustained chest pressure can be uncomfortable and restrict breathing for the bottom player, so training partners should be attentive to tapping for pressure and should release immediately when tapped. During the knee slice extraction, avoid driving your knee aggressively into the opponent's inner thigh as this can cause bruising or soft tissue injury. When drilling, establish clear communication about pressure intensity levels."
+    "safety_considerations": "The Complete Pass from Flattened Half Guard is a relatively low-risk transition from an injury perspective, as no joint locks or chokes are directly applied during the movement. However, the sustained chest pressure can be uncomfortable and restrict breathing for the bottom player, so training partners should be attentive to tapping for pressure and should release immediately when tapped. During the knee slice extraction, avoid driving your knee aggressively into the opponent's inner thigh as this can cause bruising or soft tissue injury. When drilling, establish clear communication about pressure intensity levels.",
+    "clips": [
+      {
+        "id": "8WbQvytyCX0",
+        "title": "Passing the flat half guard",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 63,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "YcNppdGtt6c",
+        "title": "Half guard pass to full mount",
+        "by": "Carlos Machado",
+        "vertical": false,
+        "channel": "Carlos Machado",
+        "duration": 92,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Zo6aygjOgcQ",
+        "title": "Gordon Ryan's half guard passing details",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Nina Drama Clips",
+        "duration": 188,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Complete Pass from Flattened Half Defender",
@@ -418,6 +447,35 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Full resistance defense against complete pass attempts",
         "description": "Positional sparring starting from flattened half guard with full resistance. Defender scores by recovering to active half guard or better position. Track which extraction variants give you the most trouble and drill specific counters for those patterns."
+      }
+    ],
+    "clips": [
+      {
+        "id": "lVLAROiSjNU",
+        "title": "Guard retention: when to sit up and escape",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 136,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "NWie1oi3JSg",
+        "title": "Recovering when flattened in half guard",
+        "by": "Inverted Gear",
+        "vertical": false,
+        "channel": "Inverted Gear",
+        "duration": 274,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Xu_94V0uSBY",
+        "title": "Whip down: avoid getting flattened in half guard",
+        "by": "Chosen Few BJJ",
+        "vertical": false,
+        "channel": "Chosen Few BJJ",
+        "duration": 215,
+        "verified": "2026-07-15"
       }
     ]
   }

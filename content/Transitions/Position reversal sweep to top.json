@@ -261,7 +261,36 @@
         "answer": "When the sweep stalls but entanglement remains, several chain attacks open: counter heel hook becomes available if opponent over-committed their hands defending the sweep rather than protecting their own heel; transition to Single Leg X-Guard by using their committed weight against them; or reattempt the sweep from a different angle after resetting hip position. The key is recognizing that a blocked sweep is not a dead end but a transition point within the 50-50 system."
       }
     ],
-    "safety_considerations": "This sweep involves dynamic hip elevation and rotation with entangled legs, creating potential for knee stress if executed incorrectly. Always ensure your knee tracks in natural alignment during elevation—avoid twisting motions that could stress the MCL or meniscus. If opponent has deep heel hook control, prioritize defending the heel over completing the sweep, as finishing the rotation under heel hook tension can cause catastrophic knee injury. Practice initially at slow speed to develop proper mechanics before adding explosiveness. Tap early if you feel any heel hook tension during the sweep attempt."
+    "safety_considerations": "This sweep involves dynamic hip elevation and rotation with entangled legs, creating potential for knee stress if executed incorrectly. Always ensure your knee tracks in natural alignment during elevation—avoid twisting motions that could stress the MCL or meniscus. If opponent has deep heel hook control, prioritize defending the heel over completing the sweep, as finishing the rotation under heel hook tension can cause catastrophic knee injury. Practice initially at slow speed to develop proper mechanics before adding explosiveness. Tap early if you feel any heel hook tension during the sweep attempt.",
+    "clips": [
+      {
+        "id": "DBbSqQf6iCo",
+        "title": "Roll under sweep to backside 50/50",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 110,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lj_gZ9YhlEs",
+        "title": "50/50 sweep to top",
+        "by": "Luan Frasson",
+        "vertical": false,
+        "channel": "Luan Frasson",
+        "duration": 25,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ucAwPgTLSpQ",
+        "title": "Getting to backside 50/50",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 121,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Position reversal sweep to top Defender",
@@ -385,6 +414,26 @@
         "phase": "Week 7+",
         "focus": "Live integration",
         "description": "Defend the sweep in live rolling while maintaining your own offensive game plan from top 50-50. The goal is seamless integration where sweep defense does not interrupt your submission hunting—your offense and defense operate simultaneously rather than in alternating phases."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Q-ZBPkqGOgE",
+        "title": "Standing pass to deny the 50/50 sweep",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 135,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "gpg88DFH9D4",
+        "title": "Defending and countering from 50/50",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 81,
+        "verified": "2026-07-15"
       }
     ]
   },

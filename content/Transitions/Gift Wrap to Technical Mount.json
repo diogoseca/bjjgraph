@@ -264,7 +264,36 @@
         "answer": "In the initial phase, force is lateral as you guide rotation using the near hook and Gift Wrap control. At the perpendicular point, force shifts to downward pressure as you drive your knee across the hip line. In the consolidation phase, force becomes vertical as you settle weight into technical mount. Understanding these directional shifts prevents applying force in the wrong plane, which is the root cause of most failed transition attempts."
       }
     ],
-    "safety_considerations": "This transition is relatively low risk compared to explosive sweeps or inversions. The primary safety concern is maintaining controlled rotation speed - allowing the opponent to rotate too quickly can result in neck strain if the Gift Wrap creates resistance to head movement. Release Gift Wrap control immediately if your partner indicates neck discomfort during the rotation phase. During drilling, communicate rotation speed preferences with training partners. Practitioners with shoulder injuries should approach the Gift Wrap position cautiously as the arm trap creates shoulder stress. Avoid this transition against significantly smaller partners where your weight in mount could cause breathing restriction."
+    "safety_considerations": "This transition is relatively low risk compared to explosive sweeps or inversions. The primary safety concern is maintaining controlled rotation speed - allowing the opponent to rotate too quickly can result in neck strain if the Gift Wrap creates resistance to head movement. Release Gift Wrap control immediately if your partner indicates neck discomfort during the rotation phase. During drilling, communicate rotation speed preferences with training partners. Practitioners with shoulder injuries should approach the Gift Wrap position cautiously as the arm trap creates shoulder stress. Avoid this transition against significantly smaller partners where your weight in mount could cause breathing restriction.",
+    "clips": [
+      {
+        "id": "ynBZ-d74qck",
+        "title": "Arm drag to technical mount to gift wrap",
+        "by": "Prof Lopez",
+        "vertical": false,
+        "channel": "caliber7554",
+        "duration": 50,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "sxlBaiQj2Rc",
+        "title": "Gift wrap sweep to S-mount",
+        "by": "Roland Larson",
+        "vertical": false,
+        "channel": "Roland Larson",
+        "duration": 36,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "X3yIMfhGHnk",
+        "title": "Mount to gift wrap control",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 92,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Gift Wrap to Technical Mount Defender",
@@ -394,6 +423,17 @@
         "phase": "Week 7+",
         "focus": "Live integration",
         "description": "Begin rounds from Gift Wrap back control position. Defend against all back attacks including the technical mount transition. Track which defense works most consistently against different body types and speeds. Integrate with full back escape sequences so the defense connects to subsequent escape attempts."
+      }
+    ],
+    "clips": [
+      {
+        "id": "9252EvCT0q4",
+        "title": "Escaping the mount when stuck",
+        "by": "Gabriel Gonzaga",
+        "vertical": false,
+        "channel": "Gabriel Gonzaga",
+        "duration": 93,
+        "verified": "2026-07-15"
       }
     ]
   },

@@ -282,7 +282,27 @@
         "answer": "Immediately after arriving behind the opponent, establish a seatbelt grip with your choking arm over their shoulder and your underhook arm beneath their armpit. Simultaneously insert both hooks inside their thighs before they can turn to face you. Press your chest firmly against their back and lower your hips to prevent them from sitting back into you. The transition from sweep grips to back control configuration must happen in one continuous motion without any pause that allows the opponent to begin escape sequences."
       }
     ],
-    "safety_considerations": "Inverted guard sweeps carry inherent risk of cervical spine compression if weight is placed on the neck during inversion. Always maintain weight on shoulder blades, never on the cervical spine. Practitioners with pre-existing neck injuries or limited cervical mobility should avoid this technique until adequate flexibility is developed. During training, communicate clearly with partners about neck comfort and immediately abandon any sweep attempt if neck pressure is felt. Build inversion comfort progressively through dedicated mobility work before attempting sweeps under resistance. Training partners should avoid applying sudden stack pressure that could compress the inverted practitioner's neck."
+    "safety_considerations": "Inverted guard sweeps carry inherent risk of cervical spine compression if weight is placed on the neck during inversion. Always maintain weight on shoulder blades, never on the cervical spine. Practitioners with pre-existing neck injuries or limited cervical mobility should avoid this technique until adequate flexibility is developed. During training, communicate clearly with partners about neck comfort and immediately abandon any sweep attempt if neck pressure is felt. Build inversion comfort progressively through dedicated mobility work before attempting sweeps under resistance. Training partners should avoid applying sudden stack pressure that could compress the inverted practitioner's neck.",
+    "clips": [
+      {
+        "id": "HbgjJXhLIYk",
+        "title": "Tornado guard sweep and back take options",
+        "by": "Moncaio Brothers",
+        "vertical": false,
+        "channel": "Moncaio Brothers Jiujitsu",
+        "duration": 73,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "iwcRISvtG3g",
+        "title": "Inverted half guard sweep to Ezequiel from the back",
+        "by": "Carpio Jiu Jitsu",
+        "vertical": false,
+        "channel": "Carpio Jiu Jitsu",
+        "duration": 116,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Sweep from Inverted Guard Defender",
@@ -406,6 +426,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Defending inverted sweeps under full resistance",
         "description": "Positional sparring rounds starting with the partner in inverted guard. Defend sweep attempts against full resistance and work to pass the guard. Track which defensive responses succeed most frequently and refine timing based on real-time feedback from competitive exchanges."
+      }
+    ],
+    "clips": [
+      {
+        "id": "aQ2vFXXBn-o",
+        "title": "Countering a full inversion",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ORVVk4OJl5w",
+        "title": "Counter to the inverted kick sweep",
+        "by": "Mitsuyoshi Hayakawa",
+        "vertical": false,
+        "channel": "トライフォース柔術アカデミー / Tri-force Jiu-jitsu Academy",
+        "duration": 16,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "3e82Y_MRj_o",
+        "title": "Countering an inversion from top north south",
+        "by": "Frankie Roberts",
+        "vertical": false,
+        "channel": "Frankie Roberts",
+        "duration": 42,
+        "verified": "2026-07-15"
       }
     ]
   }

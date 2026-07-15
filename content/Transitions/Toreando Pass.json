@@ -314,7 +314,18 @@
         "answer": "When the opponent inverts, their legs come overhead and their hips lift off the mat, which paradoxically opens them to leg drag and back exposure. As they invert, maintain control of at least one leg and redirect it across their body into a leg drag position rather than fighting the inversion directly. From leg drag, you can immediately consolidate side control or pursue a back take as their turning motion exposes the far hip. If they complete the inversion, circle toward their head rather than chasing the legs — this prevents them from re-establishing guard and often leads to a front headlock or north-south opportunity."
       }
     ],
-    "safety_considerations": "The Toreando Pass is generally a safe passing technique when practiced with proper control and awareness. Primary safety considerations include controlling your explosive lateral movement to avoid knee injuries to yourself (from sudden directional changes) and to your partner (from excessive force when redirecting their legs). When redirecting the opponent's legs, maintain awareness of their knee and hip flexibility - do not force their legs beyond their comfortable range of motion, particularly when they are less flexible. During drilling, communicate with your partner about the speed and force level, especially when first learning the explosive timing. Be cautious when executing the pass near the training area boundaries to avoid driving your partner into walls or other students. In competition or live sparring, be aware that the Toreando can create scramble situations where both practitioners may end up in awkward positions - maintain control throughout the pass to prevent accidental injuries. Partners with existing knee or hip injuries should communicate these limitations before training this pass."
+    "safety_considerations": "The Toreando Pass is generally a safe passing technique when practiced with proper control and awareness. Primary safety considerations include controlling your explosive lateral movement to avoid knee injuries to yourself (from sudden directional changes) and to your partner (from excessive force when redirecting their legs). When redirecting the opponent's legs, maintain awareness of their knee and hip flexibility - do not force their legs beyond their comfortable range of motion, particularly when they are less flexible. During drilling, communicate with your partner about the speed and force level, especially when first learning the explosive timing. Be cautious when executing the pass near the training area boundaries to avoid driving your partner into walls or other students. In competition or live sparring, be aware that the Toreando can create scramble situations where both practitioners may end up in awkward positions - maintain control throughout the pass to prevent accidental injuries. Partners with existing knee or hip injuries should communicate these limitations before training this pass.",
+    "clips": [
+      {
+        "id": "JZHp3VI-X_g",
+        "title": "Toreando straight to side control",
+        "by": "Joao Mendes",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 237,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Toreando Pass Defender",
@@ -451,6 +462,26 @@
         "phase": "Week 9+: Live Integration and Situational Sparring",
         "focus": "Apply Toreando defense in live training against varied passing styles",
         "description": "Incorporate Toreando defense into regular sparring rounds. Start rolls from standing in guard and focus on recognizing when the Toreando is being set up versus other passes. Develop the ability to defend Toreando while simultaneously managing other passing threats. Film rolls and review defensive timing, grip fighting effectiveness, and counter-attack success rates. Adjust strategies based on individual body type and athletic attributes."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Ad4250mBWKc",
+        "title": "Toreando defense with roll counter",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 84,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "PRaqiE5oPvc",
+        "title": "Toreando pass fail options and counters",
+        "by": "SimpleBJJ",
+        "vertical": false,
+        "channel": "SimpleBJJ",
+        "duration": 203,
+        "verified": "2026-07-15"
       }
     ]
   },

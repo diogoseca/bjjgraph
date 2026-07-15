@@ -368,6 +368,35 @@
         "answer": "For maximum rotational torque, grip the opponent's wrist with a four-finger grip wrapped around the ulnar side (pinky side) of their wrist, with your thumb pressing into their radial side (thumb side). This grip creates a lever that allows you to rotate their forearm while maintaining control. As you approach the finish, slide your grip slightly toward their hand, gripping the base of their palm, which increases mechanical advantage for rotation. Keep your elbow close to your body to use your entire arm and torso for rotation rather than just hand strength. The rotation direction should turn their palm toward their own head, which creates the maximum external rotation stress on the shoulder combined with your hip extension.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "jpNqecvfuFg",
+        "title": "The Power of the Tarikoplata",
+        "by": "Miha Perhavec",
+        "vertical": false,
+        "channel": "Miha Perhavec",
+        "duration": 63,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "hVXGAvOrwyA",
+        "title": "Tarikoplata quick demo",
+        "by": "bjjtaro",
+        "vertical": false,
+        "channel": "bjjtaro",
+        "duration": 8,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "ZbFNUmyWQkM",
+        "title": "Tarikoplata finishes + switch to Baratoplata",
+        "by": "Sam Bahador",
+        "vertical": false,
+        "channel": "Sam Bahador",
+        "duration": 60,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -491,6 +520,26 @@
         "phase": "Phase 4: Live Defense Integration",
         "focus": "Applying defensive protocols against live tarikoplata attempts",
         "description": "Specific sparring rounds starting from closed guard or rubber guard where attacker pursues tarikoplata. Defender applies full defensive protocol: early recognition, wrist denial, posture recovery, and timely tapping when caught. Progressive resistance from 60% to full competition speed. Debrief after each round identifying which defensive window was available and whether the defender acted within it."
+      }
+    ],
+    "clips": [
+      {
+        "id": "rx4XoCFWeq8",
+        "title": "Baratoplata / shoulder lock defense",
+        "by": "Animal",
+        "vertical": false,
+        "channel": "Animal",
+        "duration": 75,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "_2dhd21ffbc",
+        "title": "Omoplata escape, jump over",
+        "by": "Ritchie Yip",
+        "vertical": false,
+        "channel": "Ritchie Yip",
+        "duration": 8,
+        "verified": "2026-07-14"
       }
     ]
   },

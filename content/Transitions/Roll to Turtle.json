@@ -260,7 +260,36 @@
         "answer": "When the opponent has a far-side underhook, you must first fight to strip or neutralize the underhook before attempting the roll, or they will use it to follow you and flatten your turtle immediately. Create a frame with your near arm while using your far arm to strip their underhook grip. Alternatively, switch to ghost escape variation which threads your body through the space rather than turning into their control."
       }
     ],
-    "safety_considerations": "Roll to Turtle is a relatively safe escape technique when executed with proper form. The primary safety concern is protecting your neck throughout the movement by maintaining a tucked chin and rounded back posture. Exposing the neck during rotation can lead to front headlock chokes. Additionally, be aware that failed attempts may result in the opponent establishing back control, which carries submission risk from rear naked chokes and back attacks. Train the technique progressively with increasing resistance levels, ensuring you develop the defensive structure habits before facing aggressive training partners. Communicate with training partners about their intended follow-up attacks so you can practice defensive reactions safely."
+    "safety_considerations": "Roll to Turtle is a relatively safe escape technique when executed with proper form. The primary safety concern is protecting your neck throughout the movement by maintaining a tucked chin and rounded back posture. Exposing the neck during rotation can lead to front headlock chokes. Additionally, be aware that failed attempts may result in the opponent establishing back control, which carries submission risk from rear naked chokes and back attacks. Train the technique progressively with increasing resistance levels, ensuring you develop the defensive structure habits before facing aggressive training partners. Communicate with training partners about their intended follow-up attacks so you can practice defensive reactions safely.",
+    "clips": [
+      {
+        "id": "W0TCGKRcniA",
+        "title": "Turtle escape via shoulder roll",
+        "by": "BJJake",
+        "vertical": false,
+        "channel": "BJJake",
+        "duration": 21,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "iV-agsE5AD8",
+        "title": "Makikomi roll from turtle",
+        "by": "Modesto Judo Club",
+        "vertical": false,
+        "channel": "Modesto Judo Club",
+        "duration": 31,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8YvYkGr5FIU",
+        "title": "Turtle position to side control",
+        "by": "Rickson Gracie Jiu-Jitsu Academy",
+        "vertical": false,
+        "channel": "Rickson Gracie Jiu-Jitsu Academy",
+        "duration": 47,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Roll to Turtle Defender",
@@ -389,6 +418,17 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring with decision-making",
         "description": "Positional sparring from side control top against partners who mix Roll to Turtle with other escapes. Develop real-time decision-making about when to prevent versus follow. Practice reading feints and committing to the correct response without overreacting. Focus on maintaining position control regardless of which escape the bottom player attempts."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ekkQFHyTDwE",
+        "title": "Turning an opponent from turtle into a hold down",
+        "by": "Idris Boussetoua",
+        "vertical": false,
+        "channel": "Idris Boussetoua",
+        "duration": 72,
+        "verified": "2026-07-15"
       }
     ]
   },

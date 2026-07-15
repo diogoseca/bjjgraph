@@ -273,7 +273,27 @@
         "answer": "If the whizzer pass stalls, you can transition to a crossface-based flattening pass by releasing the whizzer and immediately establishing a crossface with that arm. Alternatively, if the bottom player turns aggressively into you to fight the whizzer, their exposed neck creates a Darce choke opportunity. You can also abandon the whizzer entirely and switch to a backstep pass or combat base recovery to reset the passing sequence from a neutral half guard top position."
       }
     ],
-    "safety_considerations": "The whizzer overhook applies significant rotational pressure on the bottom player's shoulder joint. Apply pressure gradually during training and be attentive to tap signals or verbal indication of discomfort. During leg extraction, avoid sudden jerking motions that could strain either player's knee ligaments, particularly the bottom player's ankles which are crossed in the lockdown triangle. Communicate with training partners about shoulder discomfort from sustained whizzer pressure, and release immediately if they indicate any pain. When drilling at higher intensities, ensure both players have warmed up their shoulders adequately."
+    "safety_considerations": "The whizzer overhook applies significant rotational pressure on the bottom player's shoulder joint. Apply pressure gradually during training and be attentive to tap signals or verbal indication of discomfort. During leg extraction, avoid sudden jerking motions that could strain either player's knee ligaments, particularly the bottom player's ankles which are crossed in the lockdown triangle. Communicate with training partners about shoulder discomfort from sustained whizzer pressure, and release immediately if they indicate any pain. When drilling at higher intensities, ensure both players have warmed up their shoulders adequately.",
+    "clips": [
+      {
+        "id": "YGwFWamjXKg",
+        "title": "Whizzer choke setup from half guard top",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 141,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "hotSXTK9oGI",
+        "title": "Whizzer and dogfight sweep mechanics",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 169,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Lockdown Whizzer Pass Defender",
@@ -392,6 +412,35 @@
         "phase": "Phase 3: Transition and Counter Training",
         "focus": "Executing transitions and sweeps during whizzer pass attempts",
         "description": "Practice deep half guard transitions, whip-up sweep timing, and overhook switches against active whizzer pass attempts. Partner works the full whizzer pass sequence while you practice recognizing the correct counter for each phase of the pass. Develop fluid decision-making between defending and transitioning."
+      }
+    ],
+    "clips": [
+      {
+        "id": "8mXBDHXrAu4",
+        "title": "Beating the whizzer from half guard dogfight",
+        "by": "Wrecking Crew BJJ",
+        "vertical": false,
+        "channel": "Wrecking Crew BJJ",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "McIs6aNz4Tk",
+        "title": "Whizzer counter from half butterfly guard",
+        "by": "RKBJJ coach",
+        "vertical": false,
+        "channel": "RKBJJ Class Archive",
+        "duration": 51,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dOdO6xJ-TcU",
+        "title": "Stopping the half guard underhook",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 98,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -292,7 +292,36 @@
         "answer": "The most common failure point is attempting the knee slice before the guard is fully opened. When ankles are still partially locked or the bottom player's legs maintain any connection, the knee lacks the space to penetrate the thigh line. This premature attempt breaks posture and exposes the top player to triangle and armbar setups as they lean forward without proper base. Ensure complete ankle separation and active leg control before committing to the slice."
       }
     ],
-    "safety_considerations": "The knee slice from closed guard carries moderate injury risk primarily to the bottom player's knee and hip structures. The top player should avoid driving excessive lateral force through the bottom player's trapped leg, which can stress the medial collateral ligament. Both practitioners should communicate about knee discomfort during drilling. The bottom player should tap immediately if their knee is twisted or compressed abnormally during the pass. In training, apply the knee slice with controlled pressure rather than explosive force to allow the partner time to adjust their leg position safely. Be especially careful when the bottom player's foot is caught between your legs during the transition."
+    "safety_considerations": "The knee slice from closed guard carries moderate injury risk primarily to the bottom player's knee and hip structures. The top player should avoid driving excessive lateral force through the bottom player's trapped leg, which can stress the medial collateral ligament. Both practitioners should communicate about knee discomfort during drilling. The bottom player should tap immediately if their knee is twisted or compressed abnormally during the pass. In training, apply the knee slice with controlled pressure rather than explosive force to allow the partner time to adjust their leg position safely. Be especially careful when the bottom player's foot is caught between your legs during the transition.",
+    "clips": [
+      {
+        "id": "V6Q79fPuJHQ",
+        "title": "Guard break into knee cut pass",
+        "by": "Underground Gym",
+        "vertical": false,
+        "channel": "Underground Gym, LLC",
+        "duration": 29,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Yhy-QVscGq8",
+        "title": "Knee wedge guard break to knee through pass",
+        "by": "Procel BJJ",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 40,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "l4CEu9xW9Vo",
+        "title": "Knee cut closed guard pass from the knees",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 150,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Knee Slice from Closed Guard Defender",
@@ -421,6 +450,35 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Full resistance defense from closed guard bottom against knee slice attempts",
         "description": "Positional sparring starting in closed guard bottom with partner attempting the knee slice pass at full resistance. Three-minute rounds with position reset after pass completion or sweep. Track which defenses succeed and which need refinement under competitive pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "rP8SOouke1s",
+        "title": "Knee-elbow connection response to the knee cut",
+        "by": "Cal McDonald",
+        "vertical": false,
+        "channel": "Cal McDonald",
+        "duration": 57,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "yiIHeo7NgsE",
+        "title": "Countering the knee slice pass",
+        "by": "Kohbukan Sisu",
+        "vertical": false,
+        "channel": "Kohbukan Sisu",
+        "duration": 58,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lVLAROiSjNU",
+        "title": "Guard retention: when to sit up escape",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 136,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -304,7 +304,18 @@
         "answer": "When opponent initiates the ghost escape by turning away during your step-over, you have two primary responses depending on timing. If you catch it early (before they create significant space), drive your crossface deeper and use your near-side hand to control their far hip, pulling them back flat before continuing the mount transition. If they've committed fully to the turn, abandon the mount goal and follow them to take the back - this is often a superior position anyway. Your leg that was stepping over becomes your first hook as you follow their rotation. The key is recognizing the escape early through the feeling of their shoulders turning and maintaining heavy shoulder pressure to limit their rotation speed. Never fight to complete a mount on someone who's already 45+ degrees turned - take the back instead."
       }
     ],
-    "safety_considerations": "The transition to mount is generally one of the safest fundamental transitions in BJJ with minimal injury risk when executed properly. The primary safety concern is maintaining control throughout the movement to avoid accidentally posting weight on opponent's face or neck with your knee during the step-over. Keep your stepping leg trajectory wide and high to clear over their head and chest area. Partners should communicate if they feel excessive pressure on ribs or sternum during the consolidation phase, especially with significant weight differences. When drilling, the bottom partner should not bridge at full explosive force during early learning stages as this can cause the top partner to lose balance and fall awkwardly. As resistance increases, both partners should maintain awareness of mat space to avoid transitioning near walls or other practitioners. For competitors with knee injuries, the torque on the stepping knee during the wide arc motion may require modification or temporary avoidance. Overall, this is considered a fundamental low-risk transition appropriate for all skill levels including beginners when taught with proper progression."
+    "safety_considerations": "The transition to mount is generally one of the safest fundamental transitions in BJJ with minimal injury risk when executed properly. The primary safety concern is maintaining control throughout the movement to avoid accidentally posting weight on opponent's face or neck with your knee during the step-over. Keep your stepping leg trajectory wide and high to clear over their head and chest area. Partners should communicate if they feel excessive pressure on ribs or sternum during the consolidation phase, especially with significant weight differences. When drilling, the bottom partner should not bridge at full explosive force during early learning stages as this can cause the top partner to lose balance and fall awkwardly. As resistance increases, both partners should maintain awareness of mat space to avoid transitioning near walls or other practitioners. For competitors with knee injuries, the torque on the stepping knee during the wide arc motion may require modification or temporary avoidance. Overall, this is considered a fundamental low-risk transition appropriate for all skill levels including beginners when taught with proper progression.",
+    "clips": [
+      {
+        "id": "yTQT4hMLZGk",
+        "title": "Side control to mount with head and arm choke",
+        "by": "Sticks and Stones BJJ coach",
+        "vertical": false,
+        "channel": "Sticks and Stones BJJ",
+        "duration": 143,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Side Control to Mount Defender",
@@ -435,6 +446,35 @@
         "phase": "Week 9+: Live Application and Chain Defense",
         "focus": "Integrating mount prevention into full defensive side control game",
         "description": "Apply all defensive responses in live rolling. Chain defenses together when first attempt fails (knee shield attempt to bridge to ghost escape). Track success rate against different partners and identify personal weak points. Include film review to identify missed cues and delayed reactions. Develop the ability to seamlessly transition between mount defense and full side control escape attempts."
+      }
+    ],
+    "clips": [
+      {
+        "id": "mBFVriM0ojQ",
+        "title": "Turkish get-up escape from bottom side control",
+        "by": "Dirtball BJJ coach",
+        "vertical": false,
+        "channel": "Dirtball BJJ",
+        "duration": 64,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "R21vtm5BHF4",
+        "title": "How to escape the mount",
+        "by": "Pantera Jiujitsu coach",
+        "vertical": false,
+        "channel": "Pantera Jiujitsu",
+        "duration": 80,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "TPkmg7qRcSc",
+        "title": "Side control underhook escape",
+        "by": "Clayton Phillips",
+        "vertical": false,
+        "channel": "Clayton Phillips",
+        "duration": 128,
+        "verified": "2026-07-15"
       }
     ]
   },

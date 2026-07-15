@@ -272,7 +272,36 @@
         "answer": "Remaining in Meathook guarantees submission completion through Gogoplata, Triangle, or Omoplata. Closed Guard with recovered posture is a neutral position where you retain top position, both arms are free, and systematic guard opening and passing are available. Forcing an immediate pass with compromised posture risks re-capture into Rubber Guard. The strategic calculus is clear: escape to Closed Guard first, then pass methodically with full positional advantage."
       }
     ],
-    "safety_considerations": "Posture recovery from Meathook carries moderate injury risk centered on the trapped shoulder and elbow. Never yank the trapped arm explosively without rotational mechanics, as straight-line force against the shin hook creates sustained tension on the rotator cuff and can cause strain or tears. If the bottom player transitions to a submission during recovery attempts, tap early rather than fighting through mechanically compromised positions. Partners drilling this technique should communicate clearly about shoulder discomfort and release hook pressure immediately upon request. The bottom player must never crank the shin hook aggressively to prevent extraction, as this can hyperextend the trapped elbow or compress the shoulder beyond safe range."
+    "safety_considerations": "Posture recovery from Meathook carries moderate injury risk centered on the trapped shoulder and elbow. Never yank the trapped arm explosively without rotational mechanics, as straight-line force against the shin hook creates sustained tension on the rotator cuff and can cause strain or tears. If the bottom player transitions to a submission during recovery attempts, tap early rather than fighting through mechanically compromised positions. Partners drilling this technique should communicate clearly about shoulder discomfort and release hook pressure immediately upon request. The bottom player must never crank the shin hook aggressively to prevent extraction, as this can hyperextend the trapped elbow or compress the shoulder beyond safe range.",
+    "clips": [
+      {
+        "id": "u9_zJA5NkEE",
+        "title": "Rubber guard near-side meathook armbar",
+        "by": "10th Planet Colorado Springs",
+        "vertical": false,
+        "channel": "10th Planet Colorado Springs",
+        "duration": 98,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "huzjQNiJu7Y",
+        "title": "Rubber guard quick fix",
+        "by": "Brandon Mccaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 65,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "6mZOuPs8nA8",
+        "title": "Meathook to the stock",
+        "by": "Richie Martinez",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 217,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Posture Recovery from Meathook Defender",
@@ -387,6 +416,35 @@
         "phase": "Phase 3: Live Meathook Retention Sparring",
         "focus": "Full resistance control maintenance and attack transition",
         "description": "Start in Meathook with full resistance from both players. Bottom player works to either maintain control and submit, or take the back. Top player works to extract and recover posture. 60-second rounds. Track whether the round ends in submission, back take, posture recovery, or sustained control. Build competitive data across training sessions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "0w0642zFqWo",
+        "title": "Rubber guard: troubleshooting the meathook",
+        "by": "Brandon Mccaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "KN7ww-OyaxQ",
+        "title": "Meathook options",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "htzF0gSDqqo",
+        "title": "Meathook rubber guard options",
+        "by": "Jeremiah Vance",
+        "vertical": false,
+        "channel": "Jeremiah Vance",
+        "duration": 47,
+        "verified": "2026-07-15"
       }
     ]
   }

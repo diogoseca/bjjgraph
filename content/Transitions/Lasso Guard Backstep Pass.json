@@ -289,7 +289,36 @@
         "answer": "Do not immediately reattempt the backstep—the opponent is now anticipating that direction. Instead, change levels or angles with a different passing approach such as a stack pass or knee cut to reset their defensive focus. Return to the backstep only after establishing a different threat that forces them to redistribute their attention and grip configuration."
       }
     ],
-    "safety_considerations": "The backstep pass is generally low-risk from a safety perspective, but the rotation can place stress on the trapped arm's shoulder joint if the opponent maintains a tight lasso grip during the turn. Never force the rotation against locked resistance—reduce the grip first. Partners should release the lasso immediately if the passer reports shoulder discomfort during the backstep rotation. Avoid explosive backstep attempts when warming up or training with less experienced partners who may not release grips smoothly."
+    "safety_considerations": "The backstep pass is generally low-risk from a safety perspective, but the rotation can place stress on the trapped arm's shoulder joint if the opponent maintains a tight lasso grip during the turn. Never force the rotation against locked resistance—reduce the grip first. Partners should release the lasso immediately if the passer reports shoulder discomfort during the backstep rotation. Avoid explosive backstep attempts when warming up or training with less experienced partners who may not release grips smoothly.",
+    "clips": [
+      {
+        "id": "xJ2w7bL4vw0",
+        "title": "Lasso Guard back step pass",
+        "by": "Bruno Paulista",
+        "vertical": false,
+        "channel": "BudoVideos.com",
+        "duration": 182,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "bl_Bsn3IxXM",
+        "title": "Knee cut pass backstep",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 50,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "48BAeXxcAK4",
+        "title": "Long step pass from open guard",
+        "by": "Ultra Jiu Jitsu Academy",
+        "vertical": false,
+        "channel": "Ultra Jiu Jitsu Academy",
+        "duration": 123,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Lasso Guard Backstep Pass Defender",
@@ -410,6 +439,35 @@
         "phase": "Phase 4: Counter-Offense",
         "focus": "Back takes and sweeps during backstep",
         "description": "Partner performs backstep at increasing speed while you practice timing inversions for back takes during the mid-rotation vulnerability window and identifying sweep opportunities from the passer's compromised base."
+      }
+    ],
+    "clips": [
+      {
+        "id": "wBRG0fY94fs",
+        "title": "Defend a kneebar and prevent the backstep pass",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 59,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Bp0v7c_MrbY",
+        "title": "The right way to get feet on biceps position",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 125,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lVLAROiSjNU",
+        "title": "Guard retention: when to sit up escape",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 136,
+        "verified": "2026-07-15"
       }
     ]
   }

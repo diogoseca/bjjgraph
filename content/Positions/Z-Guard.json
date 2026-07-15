@@ -351,6 +351,26 @@
         "question": "After their knee shield partially collapses but they haven't fully given up the position, what's your recovery strategy?",
         "answer": "Immediately establish a dominant control point before they can re-extend their frame - either secure the crossface, control their pants at the knee, or establish your underhook. Keep your hips heavy on the collapsed shield to prevent re-extension. From this halfway point, you can choose between completing the knee slice if there's enough space, or resetting with better grips if they're defending well. Don't retreat to neutral - maintain whatever ground you've gained."
       }
+    ],
+    "clips": [
+      {
+        "id": "GQeS3xTXlb0",
+        "title": "Z-Guard pass to the back",
+        "by": "Animal",
+        "vertical": false,
+        "channel": "Animal",
+        "duration": 48,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "39EhiiW-p6o",
+        "title": "How to pass the Z-Guard (no-gi)",
+        "by": "Zach LeCates",
+        "vertical": false,
+        "channel": "Zach LeCates BJJ",
+        "duration": 151,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -693,6 +713,35 @@
         "question": "After your knee shield partially collapses but you haven't been passed, what's your recovery strategy?",
         "answer": "Immediately make a decision - either re-establish the knee shield or commit to a transition. To recover, hip escape aggressively while using your arms to frame and create space, then re-insert the knee shield before they can settle their weight. If recovery isn't possible, accept the collapse and dive into deep half guard using their forward momentum. The worst option is staying in the halfway position where you have neither good defense nor offensive options."
       }
+    ],
+    "clips": [
+      {
+        "id": "T3Gwg-ABsZA",
+        "title": "Three attacks from the Z-Guard",
+        "by": "Way of BJJ",
+        "vertical": false,
+        "channel": "Way of BJJ",
+        "duration": 67,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "TrVf9YzEe0E",
+        "title": "Reverse Z-Guard options, Craig Jones style",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "Phantom Punch Breakdowns",
+        "duration": 139,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "vMqDIi10z4k",
+        "title": "Dog Bar from Z-Guard",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -727,6 +776,35 @@
     {
       "question": "Why is the collapse of the knee shield the pivotal event that decides how a Z-Guard exchange resolves?",
       "answer": "As long as the shin maintains its high frame and tension, the top player cannot consolidate weight and the bottom player retains both sweeping and retention options. Once the shield collapses and the top player settles chest pressure, the leverage that defined the position vanishes and the exchange tips decisively toward a pass. This is why the moment of partial collapse is treated as a hard decision point by both players: the top player rushes to establish a control point before the frame re-extends, while the bottom player must immediately either re-insert the shield or bail into deep half. Lingering in the half-collapsed middle leaves neither player their intended tools."
+    }
+  ],
+  "clips": [
+    {
+      "id": "T3Gwg-ABsZA",
+      "title": "Use the Z-Guard: three options",
+      "by": "Way of BJJ",
+      "vertical": false,
+      "channel": "Way of BJJ",
+      "duration": 67,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "TrVf9YzEe0E",
+      "title": "Reverse Z-Guard options, Craig Jones style",
+      "by": "Craig Jones",
+      "vertical": false,
+      "channel": "Phantom Punch Breakdowns",
+      "duration": 139,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "cnW27eV9H8U",
+      "title": "Triangle from the Z-Guard",
+      "by": "Evolve MMA",
+      "vertical": false,
+      "channel": "Evolve Mixed Martial Arts",
+      "duration": 95,
+      "verified": "2026-07-14"
     }
   ]
 }

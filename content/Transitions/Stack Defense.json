@@ -334,7 +334,36 @@
         "answer": "In gi, the opponent can use collar and pant grips to maintain the stack, making grip breaking an additional prerequisite before hip escape. However, you can use their lapel or sleeve for lasso guard recovery, creating mechanical barriers. In no-gi, the opponent cannot grip fabric, making their stack less stable but harder to control with frames because skin is slippery. Focus more on overhook and underhook control rather than collar frames. Hip escapes become more effective in no-gi because without gi grips the opponent has fewer anchoring options, but you must be faster because they can also transition between passes more fluidly without grip entanglements."
       }
     ],
-    "safety_considerations": "Stack defense requires careful attention to spinal safety, particularly protecting the cervical spine from excessive compression. Never allow your neck to bear the full weight of the opponent's stack. If you feel intense pressure on your neck vertebrae, immediately tap or use explosive bridging to create emergency space. When drilling stack defense, partners must apply progressive resistance rather than full power, as the stacked position can cause serious neck injury if weight is applied suddenly or without control. Practitioners with pre-existing neck, upper back, or shoulder injuries should consult with medical professionals before training this defensive sequence and should consider using the granby roll variation which reduces spinal compression. Always communicate clearly with training partners about pressure levels, and establish a verbal signal such as 'ease up' to indicate when pressure is approaching unsafe levels before a formal tap becomes necessary."
+    "safety_considerations": "Stack defense requires careful attention to spinal safety, particularly protecting the cervical spine from excessive compression. Never allow your neck to bear the full weight of the opponent's stack. If you feel intense pressure on your neck vertebrae, immediately tap or use explosive bridging to create emergency space. When drilling stack defense, partners must apply progressive resistance rather than full power, as the stacked position can cause serious neck injury if weight is applied suddenly or without control. Practitioners with pre-existing neck, upper back, or shoulder injuries should consult with medical professionals before training this defensive sequence and should consider using the granby roll variation which reduces spinal compression. Always communicate clearly with training partners about pressure levels, and establish a verbal signal such as 'ease up' to indicate when pressure is approaching unsafe levels before a formal tap becomes necessary.",
+    "clips": [
+      {
+        "id": "YZkWd9yDOjg",
+        "title": "Stack pass guard recovery into triangle",
+        "by": "Revolution BJJ coach",
+        "vertical": false,
+        "channel": "Revolution BJJ Ashland",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "BhNZGloJ56c",
+        "title": "Guard recovery trick when getting smashed",
+        "by": "Finesse Jiujitsu coach",
+        "vertical": false,
+        "channel": "FINESSE JIUJITSU HTX",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Y6R29wW_KrU",
+        "title": "Defending the stack pass in no-gi",
+        "by": "Matt Serra",
+        "vertical": false,
+        "channel": "Fernaldi Jonatan",
+        "duration": 158,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Stack Defense Defender",
@@ -455,6 +484,35 @@
         "phase": "Week 9-12: Full Resistance Stack Passing",
         "focus": "Completing stack passes against opponents using full defensive toolkit",
         "description": "Live situational rolling starting from closed guard where you must pass using stack-based approaches against a fully resisting opponent. Focus on reading their defensive choices in real-time and selecting the appropriate counter. Develop the ability to chain stack attempt into knee cut, leg drag, or over-under based on opponent's defensive reactions. Film and review to identify decision-making patterns."
+      }
+    ],
+    "clips": [
+      {
+        "id": "2KcAEYsaHAg",
+        "title": "Stack pass breakdown",
+        "by": "Kenny Kim",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 88,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "EC4JVnymW3U",
+        "title": "Stack pass from closed guard",
+        "by": "Procel BJJ coach",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 95,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "0HIyQwUm2lw",
+        "title": "Stack pass mechanics",
+        "by": "Andy Varela",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 133,
+        "verified": "2026-07-15"
       }
     ]
   }

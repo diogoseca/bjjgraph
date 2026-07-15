@@ -335,6 +335,26 @@
         "answer": "Follow the rotation and increase your own rotational pressure proportionally while maintaining Inside Sankaku control. Their body rotation partially neutralizes your torque, but if they rotate far enough, their heel becomes exposed from the turning movement. This creates the transition opportunity back to the inside heel hook. The dilemma is that their best toe hold defense creates their worst heel hook exposure, so you chain between threats based on their rotation direction.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "lyF2GxQrLoQ",
+        "title": "Inside Sankaku Toe Hold and Heel Hook Finishes",
+        "by": "Professor Buck",
+        "vertical": false,
+        "channel": "Professor Buck",
+        "duration": 106,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Jn_JST6ZJ3o",
+        "title": "Inside Sankaku Entries",
+        "by": "Dynamic Martial Arts Roseburg",
+        "vertical": false,
+        "channel": "Dynamic Martial Arts Roseburg",
+        "duration": 138,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -458,6 +478,17 @@
         "phase": "Live Defensive Sparring",
         "focus": "Full scenario defense under pressure",
         "description": "Start in established Inside Sankaku with partner working all available attacks including toe hold. Practice defending and escaping under realistic conditions with progressive resistance up to full competition intensity."
+      }
+    ],
+    "clips": [
+      {
+        "id": "3a9k8-ZcYrk",
+        "title": "How to escape the toe hold",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "The King Life",
+        "duration": 106,
+        "verified": "2026-07-15"
       }
     ]
   }

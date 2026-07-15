@@ -360,6 +360,17 @@
           "nogi": 5
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "aQ2vFXXBn-o",
+        "title": "Countering a full inversion from the top",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-15"
+      }
     ]
   },
   "bottom": {
@@ -693,6 +704,35 @@
           "nogi": 2
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "515jbygVF0I",
+        "title": "Kneebar from reverse De La Riva",
+        "by": "Whangarei BJJ",
+        "vertical": false,
+        "channel": "Whangarei BJJ",
+        "duration": 50,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "_beJGS2-yIE",
+        "title": "Reverse De La Riva guard",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Learn Faster BJJ - Jiu Jitsu Breakdowns",
+        "duration": 122,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "4W6-SDBRPo4",
+        "title": "Inverted guard to kneebar",
+        "by": "RKBJJ",
+        "vertical": false,
+        "channel": "RKBJJ Class Archive",
+        "duration": 67,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -727,6 +767,17 @@
     {
       "question": "How does Grasshopper Guard relate to the leg-entanglement positions it commonly feeds into?",
       "answer": "Grasshopper functions as an entry hub within a broader leg-lock system rather than as an isolated position, with the inversion serving to shoot the legs under and around the passer's base to reach ashi garami variants. As the bottom player secures a single leg it naturally progresses toward Single Leg X or inside ashi, and when both players commit legs it can settle into 50-50; coming up from the elevation feeds X-Guard. The position's value lies in this connectivity, since the inverted angle grants leg access that upright guards cannot reach on their own. Understanding grasshopper therefore means understanding it as the transitional doorway between guard retention and a committed leg entanglement."
+    }
+  ],
+  "clips": [
+    {
+      "id": "_beJGS2-yIE",
+      "title": "Reverse De La Riva guard overview",
+      "by": "Lachlan Giles",
+      "vertical": false,
+      "channel": "Learn Faster BJJ - Jiu Jitsu Breakdowns",
+      "duration": 122,
+      "verified": "2026-07-14"
     }
   ]
 }

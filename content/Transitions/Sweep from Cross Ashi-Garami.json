@@ -283,7 +283,36 @@
         "answer": "In the hip bridge variant, the free foot plants firmly on the mat near your hip to provide the posting base for vertical hip elevation. The free leg drives straight down into the mat to generate maximal upward force. In the kick-over variant, the free leg swings overhead in a pendulum arc, generating rotational momentum that carries your body over the opponent. The kick-over variant requires more space and a longer arc but generates powerful rotational force that is difficult for the opponent to resist once the momentum builds."
       }
     ],
-    "safety_considerations": "Cross Ashi-Garami sweeps involve rotational forces on both practitioners' knees due to the entangled leg configuration. Never attempt the sweep while the opponent is actively applying a heel hook with rotation, as the sweep motion can amplify destructive forces on the knee ligaments. Always communicate with training partners about intensity levels and establish clear tap protocols before drilling. If you feel any knee pressure or twisting sensation in the trapped leg during the sweep motion, abandon the technique immediately rather than forcing through resistance. During training, perform sweep entries at controlled speed before adding intensity, and ensure both partners understand the mechanics to prevent accidental injury during the rotation. Release all leg control immediately if your partner taps during any phase of the sweep."
+    "safety_considerations": "Cross Ashi-Garami sweeps involve rotational forces on both practitioners' knees due to the entangled leg configuration. Never attempt the sweep while the opponent is actively applying a heel hook with rotation, as the sweep motion can amplify destructive forces on the knee ligaments. Always communicate with training partners about intensity levels and establish clear tap protocols before drilling. If you feel any knee pressure or twisting sensation in the trapped leg during the sweep motion, abandon the technique immediately rather than forcing through resistance. During training, perform sweep entries at controlled speed before adding intensity, and ensure both partners understand the mechanics to prevent accidental injury during the rotation. Release all leg control immediately if your partner taps during any phase of the sweep.",
+    "clips": [
+      {
+        "id": "A9N2yA6dRX4",
+        "title": "Single leg to cross ashi to sweep to knee slice",
+        "by": "Moncaio Brothers",
+        "vertical": false,
+        "channel": "Moncaio Brothers Jiujitsu",
+        "duration": 29,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "DBbSqQf6iCo",
+        "title": "Roll under to backside 50/50",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 110,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "SLYKgVORsxk",
+        "title": "Cross ashi to double cross ashi drill",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 28,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Sweep from Cross Ashi-Garami Defender",
@@ -408,6 +437,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full-resistance defense against sweep attempts from cross ashi top",
         "description": "Begin rounds in cross ashi top position with the partner's primary objective being the sweep. Roll at full intensity with realistic submission threats in both directions. Track the ratio of sweeps defended to sweeps completed and identify which sweep variants give you the most difficulty. Adjust your base positioning and grip strategy based on observed patterns."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ox4UVx6ps-s",
+        "title": "Cross ashi and honey hole escape",
+        "by": "Moncaio Brothers",
+        "vertical": false,
+        "channel": "Moncaio Brothers Jiujitsu",
+        "duration": 43,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "cRXsNPAgVLU",
+        "title": "Irimi ashi garami counter",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 29,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "L417yCl_-dc",
+        "title": "Leg defense from ashi garami",
+        "by": "The Coop BJJ",
+        "vertical": false,
+        "channel": "The Coop BJJ",
+        "duration": 48,
+        "verified": "2026-07-15"
       }
     ]
   }

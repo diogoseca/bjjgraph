@@ -285,7 +285,36 @@
         "answer": "When the opponent retreats to standing to avoid collar sleeve, you gain several offensive options. Sit up and pursue with a technical stand-up to re-engage in the grip fight from standing. Alternatively, use your existing foot positioning to enter De La Riva guard by hooking their far leg, which is highly effective against standing opponents. If they retreat far enough to break all connection, pull guard with a collar drag or arm drag to immediately re-establish close-range guard play. The retreat itself is a defensive concession that creates offensive opportunities."
       }
     ],
-    "safety_considerations": "Transition to Collar Sleeve Guard is a low-risk positional transition with minimal injury potential. The primary safety concern involves finger and grip strain from aggressive collar gripping against resistance. Tape fingers before training sessions focused on grip-intensive guard work. Avoid death-gripping the collar with a single hand for extended periods, which can cause finger flexor tendon inflammation. Release grips periodically during drilling to allow blood flow recovery. Partners should communicate clearly during grip fighting exchanges to prevent accidental finger bending or joint hyperextension."
+    "safety_considerations": "Transition to Collar Sleeve Guard is a low-risk positional transition with minimal injury potential. The primary safety concern involves finger and grip strain from aggressive collar gripping against resistance. Tape fingers before training sessions focused on grip-intensive guard work. Avoid death-gripping the collar with a single hand for extended periods, which can cause finger flexor tendon inflammation. Release grips periodically during drilling to allow blood flow recovery. Partners should communicate clearly during grip fighting exchanges to prevent accidental finger bending or joint hyperextension.",
+    "clips": [
+      {
+        "id": "s1l1pyN6DsE",
+        "title": "One-grip guard pull into collar sleeve",
+        "by": "Carpio Jiu Jitsu",
+        "vertical": false,
+        "channel": "Carpio Jiu Jitsu",
+        "duration": 139,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "DOy6y-Z-wK4",
+        "title": "Getting to inside collar sleeve",
+        "by": "Mikey Musumeci",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 123,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "1piAnOs7xpA",
+        "title": "Modified collar sleeve introduction",
+        "by": "Mikey Musumeci",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 158,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Open Guard to Collar Sleeve Guard Defender",
@@ -395,6 +424,26 @@
         "phase": "Phase 3: Integrated Passing Against Grip Attempts",
         "focus": "Converting grip defense into passing offense",
         "description": "Partner attempts to establish collar sleeve guard while you use their grip-reaching moments as passing windows. When they reach for the collar, their framing capacity decreases - use this moment to initiate knee slice or toreando passes. Practice the transition from defensive grip fighting to offensive passing within a single exchange."
+      }
+    ],
+    "clips": [
+      {
+        "id": "N4M0VWhDkMA",
+        "title": "Two ways to pass the collar and sleeve",
+        "by": "Carpio Jiu Jitsu",
+        "vertical": false,
+        "channel": "Carpio Jiu Jitsu",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "zuLPD05QWKI",
+        "title": "Breaking collar and sleeve grips",
+        "by": "Martial Arts Unlimited",
+        "vertical": false,
+        "channel": "Martial Arts Unlimited",
+        "duration": 216,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -270,7 +270,18 @@
         "answer": "Williams Guard controls through a shoulder lock rather than collar-and-sleeve grips, so it retains its threat when sweat and a lack of fabric defeat traditional gripping guards. The butterfly entry gives a grip-independent on-ramp into a retention-and-attack platform, making it a reliable way to escalate a neutral no-gi exchange into a submission-driven control hub."
       }
     ],
-    "safety_considerations": "The figure-four creates real shoulder-lock pressure, so apply the rotation slowly and stop immediately at your partner's tap, especially during reactive drilling where the opponent may feed the arm faster than expected. Avoid cranking the lock to force the entry; the shoulder is a vulnerable joint and a sudden jerk can injure the rotator cuff or labrum. Keep your own head off the centerline to protect against guillotine counters, and communicate clearly with newer partners before adding resistance."
+    "safety_considerations": "The figure-four creates real shoulder-lock pressure, so apply the rotation slowly and stop immediately at your partner's tap, especially during reactive drilling where the opponent may feed the arm faster than expected. Avoid cranking the lock to force the entry; the shoulder is a vulnerable joint and a sudden jerk can injure the rotator cuff or labrum. Keep your own head off the centerline to protect against guillotine counters, and communicate clearly with newer partners before adding resistance.",
+    "clips": [
+      {
+        "id": "Hob0ebzBwjc",
+        "title": "Williams guard Neil knot finish",
+        "by": "Ralph Gracie BJJ",
+        "vertical": false,
+        "channel": "Ralph Gracie BJJ - San Jose & Santa Clara",
+        "duration": 98,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Butterfly Guard to Williams Guard Defender",
@@ -369,6 +380,17 @@
         "phase": "Month 2+: Underhook Counter and Pass",
         "focus": "Stalling a partial lock and converting to a pass under resistance",
         "description": "Partner secures a partial shoulder lock at 60-70% while you practice digging the free-arm underhook, driving forward to flatten the hooks, and advancing toward a butterfly pass. Reset if the lock fully sets or you pass. 3-5 minute rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "M__MeC_XCIM",
+        "title": "Countering the Williams guard armbar",
+        "by": "Sam Wilkinson",
+        "vertical": false,
+        "channel": "Sam Wilkinson MMA",
+        "duration": 66,
+        "verified": "2026-07-15"
       }
     ]
   }

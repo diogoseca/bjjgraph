@@ -260,7 +260,36 @@
         "answer": "At 90 degrees of partial rotation, several viable chain attacks exist. The highest percentage option is transitioning to X-Guard by threading your bottom leg as an X-hook while your top leg maintains the DLR hook, creating an immediate elevation sweep threat. Second, you can establish Single Leg X-Guard by controlling the near leg for a simpler sweeping position. Third, you can redirect momentum into a Kiss of the Dragon by releasing the hook and spinning through to the far side. The critical principle is never remaining static at 90 degrees, as this position is inherently unstable and vulnerable. Always convert partial rotation into a recognized guard position or redirect into an alternative attack chain."
       }
     ],
-    "safety_considerations": "The Bolo requires significant spinal flexibility and inversion ability, making progressive warm-up of the neck, shoulders, and thoracic spine essential before training. Practitioners should develop neck strength and inversion comfort through solo forward and backward rolling drills before attempting the technique with a partner. Ensure adequate mat space since the rotation can carry both practitioners several feet from the starting position. Partners should never post hands directly on the inverting practitioner's head or neck during drilling, as this can cause cervical spine compression. Beginners must practice the inversion mechanics slowly with fully cooperative partners before adding any resistance. Those with pre-existing neck, back, or shoulder injuries should consult a medical professional before training this technique. In competition, be aware of IBJJF rules regarding slamming from inversions."
+    "safety_considerations": "The Bolo requires significant spinal flexibility and inversion ability, making progressive warm-up of the neck, shoulders, and thoracic spine essential before training. Practitioners should develop neck strength and inversion comfort through solo forward and backward rolling drills before attempting the technique with a partner. Ensure adequate mat space since the rotation can carry both practitioners several feet from the starting position. Partners should never post hands directly on the inverting practitioner's head or neck during drilling, as this can cause cervical spine compression. Beginners must practice the inversion mechanics slowly with fully cooperative partners before adding any resistance. Those with pre-existing neck, back, or shoulder injuries should consult a medical professional before training this technique. In competition, be aware of IBJJF rules regarding slamming from inversions.",
+    "clips": [
+      {
+        "id": "vG_QHqUZPbc",
+        "title": "No-gi De La Riva sweep demonstration",
+        "by": "James Fisher",
+        "vertical": false,
+        "channel": "James Fisher",
+        "duration": 62,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "pcOF-B4y09Q",
+        "title": "De La Riva sweep matrix — sweep options",
+        "by": "Unknown",
+        "vertical": false,
+        "channel": "FreeChannelOpen",
+        "duration": 36,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "0QnWhCtEkq4",
+        "title": "De La Riva guard sweep variation",
+        "by": "Bruno Lieberenz",
+        "vertical": false,
+        "channel": "Bruno Lieberenz",
+        "duration": 39,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Bolo Sweep Defender",
@@ -384,6 +413,35 @@
         "phase": "Week 9+: Live Integration and Counter-Attacking",
         "focus": "Full-speed defense with immediate guard passing after Bolo denial",
         "description": "Open positional sparring from De La Riva guard with full resistance. Partner uses complete DLR attack system including Bolo, Berimbolo Entry, Kiss of the Dragon, and standard sweeps. Focus on recognizing Bolo versus other DLR attacks and selecting appropriate defense. After successful Bolo defense, immediately transition to guard passing rather than resetting. Include rounds against multiple training partners with different DLR styles to develop universal pattern recognition."
+      }
+    ],
+    "clips": [
+      {
+        "id": "S5IKZijyNMc",
+        "title": "Guard pass shutting down De La Riva and berimbolo",
+        "by": "Augusto Frota",
+        "vertical": false,
+        "channel": "Gile23",
+        "duration": 51,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "bdD496w3erA",
+        "title": "De La Riva counter into back take",
+        "by": "Vicente Cavalcanti",
+        "vertical": false,
+        "channel": "VICENTE CAVALCANTI",
+        "duration": 56,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QSZEm0Y0KIg",
+        "title": "Passing De La Riva with your pant controlled",
+        "by": "Alec Baulding",
+        "vertical": false,
+        "channel": "Alec Baulding",
+        "duration": 174,
+        "verified": "2026-07-15"
       }
     ]
   },

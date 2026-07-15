@@ -319,6 +319,26 @@
         "answer": "First, verify figure-four lock integrity by confirming the ankle is seated deep in the knee crook and the shin crosses behind the neck rather than the front of the throat. Second, confirm chest-to-back connection is maintained with your torso pressed against the opponent's back, preventing them from rotating or creating distance during the squeeze. Third, establish control over the opponent's free arm through wrist grip, overhook, or positional pinning to prevent last-moment defensive grips that could disrupt the finish. Committing to the squeeze without all three checkpoints secured significantly reduces finishing probability and creates escape windows.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "w8vzr24_n0s",
+        "title": "Back Triangle Choke",
+        "by": "Dr. Deng",
+        "vertical": false,
+        "channel": "Dr. Deng",
+        "duration": 30,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "-lMJHL8SXlA",
+        "title": "Back Triangle Choke",
+        "by": "Dr. Deng",
+        "vertical": false,
+        "channel": "Dr. Deng",
+        "duration": 23,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -465,6 +485,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance escape attempts under competitive conditions",
         "description": "Positional rounds starting from locked rear triangle with full resistance. Defender earns points for arm extraction and escape; attacker earns points for submission or maintained control. Builds the ability to execute escapes under fatigue and adrenaline."
+      }
+    ],
+    "clips": [
+      {
+        "id": "sR2rS2dwpNY",
+        "title": "How To Escape a Triangle Choke",
+        "by": "Rener & Ryron Gracie",
+        "vertical": false,
+        "channel": "Hayabusa",
+        "duration": 117,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "L1KeviYu1FQ",
+        "title": "Back Escape + RNC Defence",
+        "by": "Arete BJJ Malta",
+        "vertical": false,
+        "channel": "Arete Brazilian Jiu Jitsu Malta",
+        "duration": 25,
+        "verified": "2026-07-14"
       }
     ]
   }

@@ -285,7 +285,18 @@
         "answer": "The chain flows based on their defensive reaction. If they post to stop the lateral sweep, switch to the overhead variant targeting their now-elevated posture. If they sit back to prevent the overhead, their backward weight shift reopens the primary asymmetric sweep. If they widen their base symmetrically, the scissor variant using a shin across their hip becomes available. Maintaining sleeve control throughout defensive adjustments is essential so you can immediately redirect to the next chain option."
       }
     ],
-    "safety_considerations": "The Double Sleeve Sweep is a low-risk technique with minimal injury potential for both practitioners. Primary safety concerns involve controlled landings when completing the sweep - guide your partner to the mat rather than slamming them. Wrist strain can occur from aggressive grip fighting, so release grips if your partner signals discomfort. During drilling, execute sweeps at controlled speed to prevent training partners from landing awkwardly on shoulders or head. Always practice on properly matted surfaces and communicate with your partner about sweep intensity."
+    "safety_considerations": "The Double Sleeve Sweep is a low-risk technique with minimal injury potential for both practitioners. Primary safety concerns involve controlled landings when completing the sweep - guide your partner to the mat rather than slamming them. Wrist strain can occur from aggressive grip fighting, so release grips if your partner signals discomfort. During drilling, execute sweeps at controlled speed to prevent training partners from landing awkwardly on shoulders or head. Always practice on properly matted surfaces and communicate with your partner about sweep intensity.",
+    "clips": [
+      {
+        "id": "RHe0Is-Ax6M",
+        "title": "Double sleeve guard sweep breakdown",
+        "by": "Black Dragon BJJ coach",
+        "vertical": false,
+        "channel": "Black Dragon BJJ  / Cobra Kai Karate Dungannon",
+        "duration": 198,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Double Sleeve Sweep Defender",
@@ -405,6 +416,26 @@
         "phase": "Phase 4: Counter-offensive",
         "focus": "Converting sweep defense into passing opportunities",
         "description": "Full resistance positional sparring where successful sweep defense launches directly into guard passing sequences. After defending the sweep and breaking bilateral grips, immediately transition to your preferred passing strategy before opponent can re-establish double sleeve control."
+      }
+    ],
+    "clips": [
+      {
+        "id": "wdvJF6S68TI",
+        "title": "Defending the overhead sweep from sleeve grips",
+        "by": "Luciana Marcos",
+        "vertical": false,
+        "channel": "luciana MARCOS",
+        "duration": 68,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "N4M0VWhDkMA",
+        "title": "Two ways to pass the collar and sleeve guard",
+        "by": "Carpio Jiu Jitsu coach",
+        "vertical": false,
+        "channel": "Carpio Jiu Jitsu",
+        "duration": 103,
+        "verified": "2026-07-15"
       }
     ]
   }

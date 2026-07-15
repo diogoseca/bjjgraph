@@ -344,6 +344,35 @@
         "question": "Your opponent partially extracts their head and begins recovering posture - how do you recover the position?",
         "answer": "Immediately snap their head back down before they achieve full posture by pulling with your grip while sprawling your hips back. If they get significant posture, release the guillotine attempt and transition to front headlock control to reset. Chasing a lost guillotine wastes energy - better to control and re-establish."
       }
+    ],
+    "clips": [
+      {
+        "id": "i9rAyo8tRZw",
+        "title": "Hindulotine Breakdown",
+        "by": "Cordesgains BJJ",
+        "vertical": false,
+        "channel": "CordesgainsBJJ",
+        "duration": 87,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "YbOV4vESByc",
+        "title": "Hindulotine Submission Breakdown",
+        "by": "Ben Eddy",
+        "vertical": false,
+        "channel": "Control Jiu JItsu",
+        "duration": 97,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "NqAXUtNqYLk",
+        "title": "Two Hindulotines From ADCC Trials",
+        "by": "Ben Eddy",
+        "vertical": false,
+        "channel": "Ben Eddy Bravo",
+        "duration": 85,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -649,6 +678,17 @@
         "question": "Your opponent partially breaks your grip and starts extracting their head - how do you recover?",
         "answer": "If they create significant space, abandon the guillotine attempt rather than chasing with diminishing grip. Transition immediately to closed guard control and reset. If they only partially escape, use your legs to pull them back down while re-establishing your grip higher on the neck. A partial grip is worse than controlled guard position."
       }
+    ],
+    "clips": [
+      {
+        "id": "8okq4cIHMO0",
+        "title": "Standing Guillotine Escape",
+        "by": "dogtownman",
+        "vertical": false,
+        "channel": "dogtownman",
+        "duration": 44,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -683,6 +723,26 @@
     {
       "question": "What separates a genuine Hindulotine from a simple front headlock or snap-down control?",
       "answer": "A front headlock or snap-down is a control frame without a committed submission loop, whereas the Hindulotine is defined by a locked guillotine grip combined with hip-driven rotational pressure that makes the choke immediately live. In a front headlock the head is controlled but the neck is not yet under closing pressure, leaving posture recovery and disengagement open. The Hindulotine forecloses those by seating the grip high under the chin and angling the hips to torque the neck. Losing the grip or the hip angle drops the position back down to a plain front headlock, which is why front headlock is treated as its parent entry."
+    }
+  ],
+  "clips": [
+    {
+      "id": "h1XzZDsUxHQ",
+      "title": "Eddie Bravo Explains Rubber Guard",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "JAN FERNANDEZ ",
+      "duration": 111,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "58q16MnT8pM",
+      "title": "Hindulotine: Rubber Guard Guillotine",
+      "by": "Ben Eddy",
+      "vertical": false,
+      "channel": "BJJ Trickster",
+      "duration": 264,
+      "verified": "2026-07-14"
     }
   ]
 }

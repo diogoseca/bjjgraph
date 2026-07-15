@@ -287,7 +287,27 @@
         "answer": "The hook elevation sweep works best when the opponent's weight is forward or centered, loading the posted knee that your hook targets. The ankle pick sweep works best when the opponent sits back with weight on the planted foot, making it the primary load-bearing point you can remove. They complement each other because the opponent cannot simultaneously distribute weight to defend both attacks. If the opponent sits back to avoid the hook sweep, the ankle pick becomes available, and if they drive forward to avoid the ankle pick, the hook sweep becomes available."
       }
     ],
-    "safety_considerations": "Sweeps from combat base carry moderate injury risk primarily concentrated in the landing phase and knee mechanics. The top player being swept can injure their shoulder or wrist if they post aggressively on an extended arm during the fall. The bottom player executing the sweep risks knee strain if the hook gets trapped and the opponent drives forward over it. Practice sweeps at controlled speed initially, allowing the partner to fall safely by tucking rather than posting on extended limbs. When drilling, the person being swept should practice falling to their side with arms close to body rather than extending arms to catch themselves."
+    "safety_considerations": "Sweeps from combat base carry moderate injury risk primarily concentrated in the landing phase and knee mechanics. The top player being swept can injure their shoulder or wrist if they post aggressively on an extended arm during the fall. The bottom player executing the sweep risks knee strain if the hook gets trapped and the opponent drives forward over it. Practice sweeps at controlled speed initially, allowing the partner to fall safely by tucking rather than posting on extended limbs. When drilling, the person being swept should practice falling to their side with arms close to body rather than extending arms to catch themselves.",
+    "clips": [
+      {
+        "id": "z-3izL3cyTQ",
+        "title": "Sitting guard sweep against combat base",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 114,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Ge4PxqkgVN4",
+        "title": "Sweeping the combat base",
+        "by": "Sticks and Stones BJJ",
+        "vertical": false,
+        "channel": "Sticks and Stones BJJ",
+        "duration": 205,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Sweep from Combat Base Defender",
@@ -409,6 +429,17 @@
         "phase": "Phase 4: Counter-Offense Integration",
         "focus": "Converting successful sweep defense into immediate guard passing opportunities",
         "description": "After defending each sweep attempt, immediately transition to a passing technique targeting the exposed side created by the guard player's failed sweep commitment. Practice knee slice, toreando, and smash pass entries within the 1-2 second window before the guard player resets their guard. Chain defense directly into offense without pausing in neutral combat base."
+      }
+    ],
+    "clips": [
+      {
+        "id": "htIK1Z0dXc0",
+        "title": "Using combat base to counter the guard pull",
+        "by": "Força Martial Arts",
+        "vertical": false,
+        "channel": "Força Martial Arts & Fitness",
+        "duration": 47,
+        "verified": "2026-07-15"
       }
     ]
   }

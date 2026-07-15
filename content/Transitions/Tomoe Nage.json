@@ -314,7 +314,36 @@
         "answer": "From this position with grips maintained and opponent standing, immediately transition your feet to their hips to establish open guard with collar-sleeve control. From here you can attempt a second Tomoe Nage if they pressure forward again, transition to De La Riva guard by threading your outside foot to their far hip and hooking their lead leg, or enter single leg X-guard by placing one foot on their hip and the other behind their knee. If they attempt to pass, use your sleeve grip to prevent them from controlling your legs and hip escape to re-establish guard frames. The critical mistake is attempting to re-close guard from flat on your back. Instead, use feet and grips to control distance and enter your preferred open guard system."
       }
     ],
-    "safety_considerations": "Tomoe Nage requires significant attention to safety due to its dynamic sacrifice nature and the risk of both practitioners landing awkwardly. Always practice on appropriate matting with sufficient space and clear boundary awareness. Develop proper breakfall mechanics before attempting the full technique with a partner. When throwing a partner, ensure you control their trajectory to prevent them from landing on their head or neck. Start all training at slow speed with cooperative partners to establish proper body mechanics and spatial awareness. Be particularly cautious about foot placement on the opponent's body, avoiding the groin and ensuring your foot is secure before committing to the throw. In competition, be aware of boundary lines to prevent throwing opponents off the mat. Never practice this technique with significant size mismatches until both practitioners are experienced with the mechanics. Partners being thrown should practice their own falling technique separately before receiving full-speed throws."
+    "safety_considerations": "Tomoe Nage requires significant attention to safety due to its dynamic sacrifice nature and the risk of both practitioners landing awkwardly. Always practice on appropriate matting with sufficient space and clear boundary awareness. Develop proper breakfall mechanics before attempting the full technique with a partner. When throwing a partner, ensure you control their trajectory to prevent them from landing on their head or neck. Start all training at slow speed with cooperative partners to establish proper body mechanics and spatial awareness. Be particularly cautious about foot placement on the opponent's body, avoiding the groin and ensuring your foot is secure before committing to the throw. In competition, be aware of boundary lines to prevent throwing opponents off the mat. Never practice this technique with significant size mismatches until both practitioners are experienced with the mechanics. Partners being thrown should practice their own falling technique separately before receiving full-speed throws.",
+    "clips": [
+      {
+        "id": "Z_wKBxX_BC4",
+        "title": "Mastering tomoe nage",
+        "by": "Shintaro Higashi",
+        "vertical": false,
+        "channel": "Shintaro Higashi",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "1f2S-JKMbrk",
+        "title": "Tomoe nage in three directions",
+        "by": "Shintaro Higashi",
+        "vertical": false,
+        "channel": "Shintaro Higashi",
+        "duration": 124,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "TON-fQk3aTc",
+        "title": "Learning tomoe nage safely",
+        "by": "Shintaro Higashi",
+        "vertical": false,
+        "channel": "Shintaro Higashi",
+        "duration": 110,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Tomoe Nage Defender",
@@ -445,6 +474,17 @@
         "phase": "Week 9+: Live Situational Sparring",
         "focus": "Defending Tomoe Nage in realistic standing exchanges with full resistance",
         "description": "Positional sparring starting from standing where partner is specifically hunting for Tomoe Nage among other standing techniques. You must defend the throw while pursuing your own offensive game plan. Develop the ability to maintain defensive awareness against sacrifice throws while still attacking with your own takedowns and guard pulls."
+      }
+    ],
+    "clips": [
+      {
+        "id": "5ZVicSC2lDw",
+        "title": "Counter to tomoe nage",
+        "by": "Mick",
+        "vertical": false,
+        "channel": "Mick",
+        "duration": 13,
+        "verified": "2026-07-15"
       }
     ]
   },

@@ -288,7 +288,27 @@
         "answer": "The immediate priority is establishing the underhook on the trapped-leg side while turning fully onto your side to face the opponent. The turn-in often delivers you to half guard while still somewhat flat, and remaining flat allows the top player to immediately crossface and establish dominant half guard top. Fighting for the underhook and side angle in the first two seconds after the escape converts a defensive recovery into an offensive half guard position with sweep potential."
       }
     ],
-    "safety_considerations": "The Turn In from Reverse Kesa-Gatame is a relatively low-risk escape technique with no joint manipulation involved. The primary safety concern is neck strain during the bridge-and-rotate sequence, particularly if the top player maintains heavy pressure on the chest during the rotation. Practitioners should avoid forcing the rotation against fully locked-down pressure, as this can create cervical spine compression. Train the bridge timing to create space before rotating. During drilling, the top player should reduce resistance if the bottom player signals discomfort in the neck or upper spine during the turning motion. Always warm up the neck and thoracic spine before practicing this escape repetitively."
+    "safety_considerations": "The Turn In from Reverse Kesa-Gatame is a relatively low-risk escape technique with no joint manipulation involved. The primary safety concern is neck strain during the bridge-and-rotate sequence, particularly if the top player maintains heavy pressure on the chest during the rotation. Practitioners should avoid forcing the rotation against fully locked-down pressure, as this can create cervical spine compression. Train the bridge timing to create space before rotating. During drilling, the top player should reduce resistance if the bottom player signals discomfort in the neck or upper spine during the turning motion. Always warm up the neck and thoracic spine before practicing this escape repetitively.",
+    "clips": [
+      {
+        "id": "ORpUBUxK1QE",
+        "title": "Reverse Kesa Gatame escape to back take, gi and no-gi",
+        "by": "Gymnanigains",
+        "vertical": false,
+        "channel": "Gymnanigains",
+        "duration": 26,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QzegNgUUfZs",
+        "title": "Reverse Kesa Gatame side control escape",
+        "by": "Coach Paul",
+        "vertical": false,
+        "channel": "Coach Paul - War Fork Jiu-Jitsu Academy",
+        "duration": 81,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Turn In from Reverse Kesa Defender",
@@ -398,6 +418,26 @@
         "phase": "Phase 4: Full Positional Sparring",
         "focus": "Maintaining reverse kesa against all escape attempts",
         "description": "Full resistance positional rounds starting in Reverse Kesa-Gatame. Top player maintains position or transitions to better positions while bottom player works all available escapes. 2-minute rounds tracking retention rate and successful counter-transitions to mount."
+      }
+    ],
+    "clips": [
+      {
+        "id": "lOMiYZzvH-s",
+        "title": "Escaping yoko shiho gatame pins",
+        "by": "Travis Stevens",
+        "vertical": false,
+        "channel": "Travis Stevens",
+        "duration": 161,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "5atT-Q9-CVw",
+        "title": "Quick kesa gatame escape",
+        "by": "Taylorjiujitsu",
+        "vertical": false,
+        "channel": "Taylorjiujitsu",
+        "duration": 14,
+        "verified": "2026-07-15"
       }
     ]
   }

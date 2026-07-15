@@ -285,7 +285,36 @@
         "answer": "The crossface serves three critical functions throughout the smash: it prevents the opponent from turning toward you to establish an underhook, it provides the primary pressure vector by driving your shoulder into their jawline and upper chest, and it controls their head position which dictates their overall body movement capabilities. Without crossface, the opponent can freely rotate their torso, adjust their hips, and counter the smash with underhook-based sweeps or back takes."
       }
     ],
-    "safety_considerations": "The smash from knee shield involves significant compressive pressure on the opponent's torso and knee joint. Apply pressure gradually during training to allow your partner to tap or adjust position. Be particularly cautious when redirecting the knee shield leg laterally—forcing the knee beyond its natural range of motion can strain the MCL or LCL. Avoid dropping full bodyweight explosively onto a training partner's collapsed shield position. Always respect tap signals immediately and release pressure when your training partner indicates discomfort in their knee, ribs, or neck from the crossface pressure."
+    "safety_considerations": "The smash from knee shield involves significant compressive pressure on the opponent's torso and knee joint. Apply pressure gradually during training to allow your partner to tap or adjust position. Be particularly cautious when redirecting the knee shield leg laterally—forcing the knee beyond its natural range of motion can strain the MCL or LCL. Avoid dropping full bodyweight explosively onto a training partner's collapsed shield position. Always respect tap signals immediately and release pressure when your training partner indicates discomfort in their knee, ribs, or neck from the crossface pressure.",
+    "clips": [
+      {
+        "id": "yj_6xcl2emA",
+        "title": "Passing the knee shield with an inside knee cut",
+        "by": "War Room BJJ coach",
+        "vertical": false,
+        "channel": "War Room Jiu Jitsu",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Y815hmtzGZA",
+        "title": "Knee shield smash pass",
+        "by": "Adam Metcalf",
+        "vertical": false,
+        "channel": "ADAM METCALF",
+        "duration": 30,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "DmFX5HGf7Xw",
+        "title": "Smashing knee shield pass",
+        "by": "Gabriel Gonzaga",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 159,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Smash from Knee Shield Defender",
@@ -410,6 +439,26 @@
         "phase": "Phase 4: Counter-Offense",
         "focus": "Threatening sweeps during opponent's smash attempt",
         "description": "Full positional sparring from knee shield bottom against committed smash passers. Integrate sweep threats, underhook attempts, and guard transitions into your defensive game. The goal is not just surviving the smash but making the opponent pay for committing forward with sweeps and reversals that punish overcommitment."
+      }
+    ],
+    "clips": [
+      {
+        "id": "BhNZGloJ56c",
+        "title": "Guard recovery when you are getting smashed",
+        "by": "Finesse Jiujitsu coach",
+        "vertical": false,
+        "channel": "FINESSE JIUJITSU HTX",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "tgm9VyvVkgI",
+        "title": "Knee shield fighting mistakes to avoid",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 148,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -325,6 +325,26 @@
         "answer": "Exhale steadily as you apply forward pressure during the finish, using each breath cycle to incrementally increase the rotational force on the shoulder. Avoid holding your breath, which creates muscular tension and reduces your ability to feel the opponent's resistance for controlled application. Rhythmic breathing prevents applying the submission too explosively, which is critical for training safety and gives the opponent adequate time to recognize and signal a tap before injury occurs.",
         "safety_critical": true
       }
+    ],
+    "clips": [
+      {
+        "id": "Nfkpn4Qup1o",
+        "title": "La PataPlata from rubber guard",
+        "by": "Richie Martinez",
+        "vertical": false,
+        "channel": "CholoMMA",
+        "duration": 31,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "EyP4hSdTzVE",
+        "title": "Rubber guard omoplata to armbar chain",
+        "by": "Christopher Hendrick",
+        "vertical": false,
+        "channel": "Christopher Hendrick",
+        "duration": 57,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -447,6 +467,35 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Full resistance defense from Rubber Guard positions",
         "description": "Defend against live omoplata attempts from the complete Rubber Guard system with full resistance. Integrate all defensive options based on real-time position reading and develop the judgment to tap early when escape windows have closed."
+      }
+    ],
+    "clips": [
+      {
+        "id": "HszTUEYJ-xE",
+        "title": "Quick omoplata escape",
+        "by": "Adam Bradley",
+        "vertical": false,
+        "channel": "Adam Bradley",
+        "duration": 36,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "xqBK1Y2BdSg",
+        "title": "Submission escape from the omoplata",
+        "by": "Thiago Stefanutti",
+        "vertical": false,
+        "channel": "thiago stefanutti",
+        "duration": 17,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "0-SG9igq40E",
+        "title": "Omoplata escape to front headlock",
+        "by": "Asaf Mich",
+        "vertical": false,
+        "channel": "Asaf Mich",
+        "duration": 14,
+        "verified": "2026-07-14"
       }
     ]
   }

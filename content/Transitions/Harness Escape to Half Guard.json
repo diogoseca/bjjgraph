@@ -308,7 +308,36 @@
         "answer": "Chain to the elbow escape toward turtle or the hip escape to guard. The positional adjustments you made during the failed half guard attempt—two-on-one grip, partial hook clearing, hip angle creation—have already improved your position even though the escape did not complete. Use the angle you created to attempt a different escape vector. If your hips moved but the leg catch failed, continue the turn toward turtle. If the hip escape was stuffed entirely, try the opposite direction or work to clear the second hook for a different escape pathway."
       }
     ],
-    "safety_considerations": "This escape involves significant rotational movement of the spine and neck while under the opponent's weight and control. Always maintain chin protection throughout the escape to prevent the choking arm from compressing the trachea during the turn. Practice the turning mechanics at slow speed before adding resistance. Partners maintaining back control should release immediately if the escaping player signals discomfort in the neck or shoulder area. Avoid explosive jerking movements that could strain the cervical spine—use smooth, controlled hip escapes instead. In training, the back controller should gradually increase resistance rather than applying maximum pressure from the start."
+    "safety_considerations": "This escape involves significant rotational movement of the spine and neck while under the opponent's weight and control. Always maintain chin protection throughout the escape to prevent the choking arm from compressing the trachea during the turn. Practice the turning mechanics at slow speed before adding resistance. Partners maintaining back control should release immediately if the escaping player signals discomfort in the neck or shoulder area. Avoid explosive jerking movements that could strain the cervical spine—use smooth, controlled hip escapes instead. In training, the back controller should gradually increase resistance rather than applying maximum pressure from the start.",
+    "clips": [
+      {
+        "id": "a_4vNWWM7gU",
+        "title": "Reverse seat belt escape to mount trap back take",
+        "by": "David Avellan",
+        "vertical": false,
+        "channel": "David Avellan",
+        "duration": 92,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "q-lXQQInfD0",
+        "title": "Hip lock escape from the seatbelt",
+        "by": "Coach William",
+        "vertical": false,
+        "channel": "Coach William",
+        "duration": 126,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uMI5yq6Rdhg",
+        "title": "Back control seat belt escape",
+        "by": "Richmond TKD",
+        "vertical": false,
+        "channel": "Richmond TKD",
+        "duration": 163,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Harness Escape to Half Guard Defender",
@@ -429,6 +458,35 @@
         "phase": "Phase 4: Full Resistance Retention",
         "focus": "Complete back control retention against determined escape attempts",
         "description": "Full intensity positional sparring from harness position. Both players operate at 100% with the back controller working to maintain position or transition to mount while the bottom player works all available escapes. 90-second rounds with position tracking. Analyze patterns to identify which escape sequences give you the most difficulty."
+      }
+    ],
+    "clips": [
+      {
+        "id": "cyegyon5hVg",
+        "title": "2 Mount Escape Options to Half Guard",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "bhkb4ItZQno",
+        "title": "Avoiding Mount When Escaping the Back",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 131,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "3hEokMKZ3vo",
+        "title": "The 2 Most Important Back Escapes",
+        "by": "Ritchie Yip",
+        "vertical": false,
+        "channel": "Ritchie Yip",
+        "duration": 161,
+        "verified": "2026-07-15"
       }
     ]
   }

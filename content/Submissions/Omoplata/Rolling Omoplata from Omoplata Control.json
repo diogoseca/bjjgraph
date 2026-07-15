@@ -398,6 +398,26 @@
         "answer": "In competition, maximize finishing percentage by threatening the sweep even more than the submission initially - this forces opponents to post their arms more aggressively, creating better submission opportunities. Chain the rolling omoplata with other attacks like triangle and armbar so opponents cannot focus solely on defending one threat. Time your roll for when the opponent is already moving or reacting to another stimulus, as static entries are much lower percentage. Once you achieve the position, prioritize controlling their far hip by grabbing their belt or pants before driving for the finish - this eliminates their primary escape. Finally, be willing to convert to the omoplata sweep for points if the submission is being defended well, then reattack from the resulting top position.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "TNvcL55uvrE",
+        "title": "Reverse Omoplata, Keenan style",
+        "by": "Keenan Cornelius",
+        "vertical": false,
+        "channel": "ufctalkingthailand",
+        "duration": 22,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "zZv3V0b3tqg",
+        "title": "Teaching the reverse omoplata",
+        "by": "Bradley",
+        "vertical": false,
+        "channel": "Logan Cook",
+        "duration": 106,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -533,6 +553,35 @@
         "phase": "Phase 4: Live Defensive Integration",
         "focus": "Applying defensive skills during live rolling",
         "description": "Positional sparring starting from guard situations and scrambles where the attacker is actively seeking rolling omoplata entries. Defend at full intensity, chaining recognition, early prevention, and late-stage escapes as needed. Track your success rate at each defensive stage. Develop the instinct to protect extended arms during scrambles without conscious thought."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ocIHY3jBYIQ",
+        "title": "Best way to escape the omoplata shoulder lock",
+        "by": "John Connors",
+        "vertical": false,
+        "channel": "John Connors, Old Man BJJ Black Belt",
+        "duration": 62,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "jKdERMTQqPY",
+        "title": "Escape the omoplata when it's already locked in",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 72,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "YsSrfDmrVjs",
+        "title": "Early omoplata escape, opposite shoulder roll",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 43,
+        "verified": "2026-07-14"
       }
     ]
   }

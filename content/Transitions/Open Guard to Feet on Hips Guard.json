@@ -273,7 +273,18 @@
         "answer": "First priority is to establish a knee shield by inserting your inside knee across their hip line to prevent the knee cut from completing. If the knee cut is already past your knee line, hip escape away from the passing direction and work to recover half guard by capturing their passing leg between yours. From half guard, re-establish frames on their shoulder and hip to create space for knee shield recovery. If recovery to half guard fails, frame on their crossface and hip to prevent side control consolidation and begin the side control escape sequence. The key is recognizing that each fallback position has its own recovery path—do not panic, but systematically work through the defensive hierarchy."
       }
     ],
-    "safety_considerations": "The transition to feet on hips guard is generally low-risk from a joint safety perspective, as it involves no joint locks or cervical loading. The primary injury risk comes from the opponent driving forward aggressively while your feet are on their hips, which can hyperextend the knees if your legs are fully locked out under sudden heavy pressure. Always maintain a slight bend in the knees to absorb impact forces. Additionally, avoid pushing with straight, rigid legs against a much heavier opponent driving forward—redirect their pressure laterally rather than absorbing it linearly. During training, communicate with partners when drilling pressure scenarios to prevent accidental knee hyperextension from uncontrolled forward drives."
+    "safety_considerations": "The transition to feet on hips guard is generally low-risk from a joint safety perspective, as it involves no joint locks or cervical loading. The primary injury risk comes from the opponent driving forward aggressively while your feet are on their hips, which can hyperextend the knees if your legs are fully locked out under sudden heavy pressure. Always maintain a slight bend in the knees to absorb impact forces. Additionally, avoid pushing with straight, rigid legs against a much heavier opponent driving forward—redirect their pressure laterally rather than absorbing it linearly. During training, communicate with partners when drilling pressure scenarios to prevent accidental knee hyperextension from uncontrolled forward drives.",
+    "clips": [
+      {
+        "id": "MUZyUFn6RC4",
+        "title": "Foot on the hip guard control",
+        "by": "BJJ House Okinawa",
+        "vertical": false,
+        "channel": "BJJ House Okinawa",
+        "duration": 151,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Open Guard to Feet on Hips Guard Defender",
@@ -392,6 +403,17 @@
         "phase": "Phase 3: Decision-Making Under Pressure",
         "focus": "Selecting appropriate defensive response based on context",
         "description": "Full-speed positional sparring where the bottom player attempts the transition repeatedly from various open guard configurations. Top player must recognize the attempt, select the appropriate defensive option based on current grips and positioning, and execute within the defensive window. Debrief after each round to analyze decision quality."
+      }
+    ],
+    "clips": [
+      {
+        "id": "o2gll2GU85s",
+        "title": "Both Feet On Hips guard — mechanics and control",
+        "by": "Sathya Wiltse",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 90,
+        "verified": "2026-07-15"
       }
     ]
   }

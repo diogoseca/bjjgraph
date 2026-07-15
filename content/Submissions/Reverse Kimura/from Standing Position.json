@@ -390,6 +390,26 @@
         "answer": "When the opponent anchors by grabbing their shorts, you have several strategic options. First, use your free hand in a two-on-one peel at their wrist junction to strip the grip - attack where their fingers wrap rather than pulling against the full grip. Second, change the angle of your rotational force slightly by adding a lifting component, which shifts the force vector and makes their grip alignment less effective. Third, increase overall body pressure to fatigue their grip - maintaining a defensive grip under heavy pressure is exhausting. Fourth, if their grip proves unbreakable, transition to positional advancement instead. Their commitment to the grip defense often leaves their back exposed, and back control points in competition may be more valuable than forcing a locked-up submission. The key competition principle is never to waste time forcing through a strong defensive grip when transitions to equally valuable positions are available.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "8tW1t_KO1T4",
+        "title": "Reverse Kimura Throw to Submission",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 69,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "dw9YtuvroXI",
+        "title": "Reverse Kimura Arm Drag to Back",
+        "by": "Grappling with Insanity",
+        "vertical": false,
+        "channel": "Grappling with Insanity",
+        "duration": 27,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -530,6 +550,26 @@
         "phase": "Phase 4: Live Defensive Scenarios",
         "focus": "Defending reverse Kimura attempts during live rolling conditions",
         "description": "Start from positions where reverse Kimura is likely (standing clinch, front headlock, turtle bottom). Partner attacks with full commitment while defender works all defensive tools at realistic pace. Review after each round to identify where recognition failed or escape timing was late. Integrate reverse Kimura defense into normal rolling awareness."
+      }
+    ],
+    "clips": [
+      {
+        "id": "uRn3DRICpeY",
+        "title": "Late Kimura Defense from Bottom",
+        "by": "Fox Den Martial Arts",
+        "vertical": false,
+        "channel": "Fox Den Martial Arts",
+        "duration": 100,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "MM9rddEgJ58",
+        "title": "Kimura Defense 101 from Bottom",
+        "by": "Gracie Westchase",
+        "vertical": false,
+        "channel": "Gracie Westchase ",
+        "duration": 156,
+        "verified": "2026-07-14"
       }
     ]
   }

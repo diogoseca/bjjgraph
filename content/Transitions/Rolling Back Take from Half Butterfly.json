@@ -276,7 +276,36 @@
         "answer": "If you end up behind the opponent but without hooks, immediately establish a seatbelt grip and work to insert at least one hook before they can turn to face you. If you lose back position entirely, look for turtle top or crab ride as intermediate control points. If the scramble returns you to guard, reestablish half butterfly immediately rather than conceding position. The key is maintaining offensive initiative through the scramble rather than becoming passive and accepting a worse outcome."
       }
     ],
-    "safety_considerations": "The rolling motion places stress on the neck and shoulder girdle during the transition phase. Always practice with controlled speed initially, ensuring your neck remains tucked throughout the roll rather than bearing weight. Communicate with training partners about the direction and speed of the roll to prevent unexpected collisions or awkward landings. Avoid forcing the roll when the underhook is insufficient, as this can result in compromised neck positioning under the opponent's weight. In drilling, start with cooperative repetitions at slow speed before adding progressive resistance, and tap immediately if you feel neck compression during a stalled roll attempt."
+    "safety_considerations": "The rolling motion places stress on the neck and shoulder girdle during the transition phase. Always practice with controlled speed initially, ensuring your neck remains tucked throughout the roll rather than bearing weight. Communicate with training partners about the direction and speed of the roll to prevent unexpected collisions or awkward landings. Avoid forcing the roll when the underhook is insufficient, as this can result in compromised neck positioning under the opponent's weight. In drilling, start with cooperative repetitions at slow speed before adding progressive resistance, and tap immediately if you feel neck compression during a stalled roll attempt.",
+    "clips": [
+      {
+        "id": "WoSyrVZ1VvY",
+        "title": "Half guard with butterfly hook back take",
+        "by": "Procel BJJ",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 55,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "9P4zweTSZRE",
+        "title": "Butterfly hook back take against a kimura",
+        "by": "Procel BJJ",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 72,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MFed9IE8afA",
+        "title": "Reverse armdrag from butterfly to back take",
+        "by": "Jerry Musquiz",
+        "vertical": false,
+        "channel": "Jerry Musquiz",
+        "duration": 42,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Rolling Back Take from Half Butterfly Defender",
@@ -401,6 +430,26 @@
         "phase": "Phase 4: Live Contextual Defense",
         "focus": "Full-speed defense integrated within complete half butterfly top game",
         "description": "Positional sparring starting from half butterfly top position. Partner mixes standard butterfly sweeps with rolling back take attempts at competition intensity. Develop the ability to read which technique is coming and select the appropriate defensive response in real time while maintaining your own passing initiative."
+      }
+    ],
+    "clips": [
+      {
+        "id": "h26GaRXjSHo",
+        "title": "Countering the half guard underhook",
+        "by": "Revolution Fitness Center",
+        "vertical": false,
+        "channel": "Revolution Fitness Center",
+        "duration": 55,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dOdO6xJ-TcU",
+        "title": "Stopping the half guard underhook",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 98,
+        "verified": "2026-07-15"
       }
     ]
   }

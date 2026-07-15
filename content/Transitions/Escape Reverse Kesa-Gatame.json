@@ -294,7 +294,27 @@
         "answer": "Once the knee shield is established, shift your frame from the opponent's hip to controlling their far arm or cross-facing hand to prevent them from applying submissions or flattening you past the knee shield. Continue shrimping to widen the space between your bodies while your legs work to capture their near leg for full half guard. The knee shield is not the endpoint—it is the transition point from escape mode to guard recovery mode. Use it as a platform for establishing the underhook."
       }
     ],
-    "safety_considerations": "Hip escape drilling involves repetitive spinal rotation and lateral hip movement that can strain the lower back and hip flexors if performed without adequate warm-up. Begin each session with hip circles, spinal mobility exercises, and light shrimping before loading with partner pressure. The top player should apply progressive resistance rather than maximum weight during initial learning phases to prevent rib compression injuries. Communicate about breathing difficulty immediately—chest compression from Reverse Kesa-Gatame can restrict respiration, and both partners should recognize when the bottom player needs a moment to recover breathing before continuing drill repetitions."
+    "safety_considerations": "Hip escape drilling involves repetitive spinal rotation and lateral hip movement that can strain the lower back and hip flexors if performed without adequate warm-up. Begin each session with hip circles, spinal mobility exercises, and light shrimping before loading with partner pressure. The top player should apply progressive resistance rather than maximum weight during initial learning phases to prevent rib compression injuries. Communicate about breathing difficulty immediately—chest compression from Reverse Kesa-Gatame can restrict respiration, and both partners should recognize when the bottom player needs a moment to recover breathing before continuing drill repetitions.",
+    "clips": [
+      {
+        "id": "M5rDeLflY5w",
+        "title": "Modified kesa escape",
+        "by": "Inverted Gear coach",
+        "vertical": false,
+        "channel": "Inverted Gear",
+        "duration": 123,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "JM9nDge0arQ",
+        "title": "Reverse kesa gatame escape",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "MMA Leech",
+        "duration": 238,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Escape Reverse Kesa-Gatame Defender",
@@ -414,6 +434,17 @@
         "phase": "Phase 4: Full Resistance Pin Maintenance",
         "focus": "Maintaining Reverse Kesa-Gatame against all escape types",
         "description": "Full-resistance positional sparring where the bottom player uses both bridges and hip escapes mixed together. Top player must maintain position, recognize each escape type, respond appropriately, and capitalize on failed attempts. Track position retention time and mount transition success rate across rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "nKITSItbeyM",
+        "title": "Holding and attacking from kesa gatame",
+        "by": "Stephan Kesting",
+        "vertical": false,
+        "channel": "Stephan Kesting",
+        "duration": 220,
+        "verified": "2026-07-15"
       }
     ]
   }

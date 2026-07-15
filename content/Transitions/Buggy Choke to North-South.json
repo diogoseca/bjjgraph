@@ -290,7 +290,27 @@
         "answer": "Choose north-south when the opponent is already partially flattened and your hips can clear their head smoothly, or when you want to access north-south specific submissions like the north-south choke or kimura. Choose side control when the opponent maintains strong turtle posture that resists flattening, when you need to maintain back exposure for back take options, or when the opponent's arm positioning makes side control arm attacks more available. North-south requires more complete flattening to be effective, while side control works against opponents who maintain some turtle structure."
       }
     ],
-    "safety_considerations": "This transition involves significant pressure application through chest-to-chest contact and body weight distribution. When drilling, the top player should be mindful of the crushing pressure applied during the flattening phase, as it can restrict the bottom player's breathing significantly. Allow training partners to tap for pressure at any time, not just submissions. Avoid explosive dropping of body weight during the transition — use controlled, progressive pressure. Be especially careful when flattening opponents from turtle to prone, as sudden forced flattening can strain the lower back and neck. Communication between training partners about pressure tolerance is essential for safe practice."
+    "safety_considerations": "This transition involves significant pressure application through chest-to-chest contact and body weight distribution. When drilling, the top player should be mindful of the crushing pressure applied during the flattening phase, as it can restrict the bottom player's breathing significantly. Allow training partners to tap for pressure at any time, not just submissions. Avoid explosive dropping of body weight during the transition — use controlled, progressive pressure. Be especially careful when flattening opponents from turtle to prone, as sudden forced flattening can strain the lower back and neck. Communication between training partners about pressure tolerance is essential for safe practice.",
+    "clips": [
+      {
+        "id": "n4sA0G8bIKk",
+        "title": "Buggy choke to Rubix guard variations",
+        "by": "Jaezee",
+        "vertical": false,
+        "channel": "JaezeeJiujitsu",
+        "duration": 32,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "U-eR63GzcIo",
+        "title": "Buggy chokes in competition",
+        "by": "Kade Ruotolo",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 67,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Buggy Choke to North-South Defender",
@@ -407,6 +427,35 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Full-speed defense against transition attempts",
         "description": "Positional sparring starting from buggy choke position. Partner chooses between finishing the choke and transitioning to north-south. Defend appropriately against both threats. Score for preventing the choke, preventing the transition, or recovering to guard. Full competition-speed resistance."
+      }
+    ],
+    "clips": [
+      {
+        "id": "2EZfzJb_-tA",
+        "title": "North south escape",
+        "by": "Moncaio Brothers",
+        "vertical": false,
+        "channel": "Moncaio Brothers Jiujitsu",
+        "duration": 24,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "y5bnvzVyRgM",
+        "title": "North South pin-down escape",
+        "by": "Giroux Family",
+        "vertical": false,
+        "channel": "Giroux Family",
+        "duration": 11,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "XaLBmGnHm78",
+        "title": "North South inverted spin escape",
+        "by": "SBG Australia",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 37,
+        "verified": "2026-07-15"
       }
     ]
   }

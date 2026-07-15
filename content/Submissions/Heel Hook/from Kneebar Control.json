@@ -336,6 +336,35 @@
         "answer": "In competition, commit to genuine kneebar pressure first to force the bent-knee defensive reaction. The kneebar must be a real threat, not a feint — apply enough force that the opponent must fully commit to bending their knee. As they commit to defense, redirect to the heel immediately. Time the grip change to coincide with their maximum defensive commitment, when the heel is most exposed and their attention is focused on preventing extension. The transition should feel like a continuous flow rather than two separate attacks.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "HQSxxYL1Aew",
+        "title": "Kneebar to Heel Hook Matrix",
+        "by": "Mikey Musumeci",
+        "vertical": false,
+        "channel": "DARKSIDE | Team Strela",
+        "duration": 26,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "B8q8wZx0b74",
+        "title": "Ankle Lock to Kneebar to Heel Hook Transitions",
+        "by": "Elevate MMA",
+        "vertical": false,
+        "channel": "Elevate MMA Academy",
+        "duration": 94,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "6gu-n4P9JXo",
+        "title": "Heel Hook Breaking Mechanics",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "Altay Pirge",
+        "duration": 77,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -463,6 +492,26 @@
         "phase": "Phase 4: Live Defense Integration",
         "focus": "Applying defensive skills under realistic conditions with full leg lock exchanges",
         "description": "Open leg lock sparring where kneebar-to-heel-hook transitions occur organically. Defender must recognize and respond to transitions in real time with full resistance. Maintain strict safety protocols throughout. Debrief after each round to analyze decision points and defensive timing."
+      }
+    ],
+    "clips": [
+      {
+        "id": "v3w0qXLKxug",
+        "title": "Defending Heel Hooks",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 92,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "E8oQH0salp4",
+        "title": "Knee Bar Submission Escape from Guard",
+        "by": "ConwayToe2Toe",
+        "vertical": false,
+        "channel": "ConwayToe2Toe Jiu-Jitsu",
+        "duration": 96,
+        "verified": "2026-07-14"
       }
     ]
   }

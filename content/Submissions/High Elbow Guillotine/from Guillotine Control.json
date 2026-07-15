@@ -339,6 +339,35 @@
         "answer": "In competition, use rapid grip switching between standard and high elbow configurations to prevent the defender from settling into a single defensive pattern. Time the elbow elevation to coincide with the opponent's exhalation when their neck is momentarily thinner. Walk your hips toward the choking side to increase the lever arm. If the opponent stalls your finish, threaten positional advancement to mount or back control—their defensive reaction to the position threat often opens the neck for the choke finish.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "NUnTxPvjCa0",
+        "title": "The Marcelotine Choke",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "stuartcooperfilms",
+        "duration": 73,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "IvSVZuezQGo",
+        "title": "Double Elbow to High Elbow Guillotine",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 171,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "9U5nyBImGj4",
+        "title": "High Elbow Guillotine (Marcelotine)",
+        "by": "Wrecking Crew BJJ",
+        "vertical": false,
+        "channel": "Wrecking Crew BJJ",
+        "duration": 45,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -468,6 +497,35 @@
         "phase": "Live Survival Sparring",
         "focus": "Realistic defense with full resistance and tap awareness",
         "description": "Start in guillotine control with partner applying full-intensity high elbow guillotine. Defender must escape or survive for the round duration. Emphasize tap discipline—tap early when escape is not available rather than risking unconsciousness. Develops honest assessment of defensive capabilities under pressure. 90-second rounds, 5-8 rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "dyTKKiajgzQ",
+        "title": "Guillotine Escape from Single & Double",
+        "by": "Cobrinha",
+        "vertical": false,
+        "channel": "Cobrinha Brazilian Jiu-Jitsu & Fitness",
+        "duration": 44,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "8okq4cIHMO0",
+        "title": "Standing Guillotine Escape",
+        "by": "dogtownman",
+        "vertical": false,
+        "channel": "dogtownman",
+        "duration": 44,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "lvjRNWzKMPc",
+        "title": "Guillotine Escape from Closed Guard to Side Control",
+        "by": "Street Jitsu",
+        "vertical": false,
+        "channel": "Street Jitsu",
+        "duration": 27,
+        "verified": "2026-07-14"
       }
     ]
   }

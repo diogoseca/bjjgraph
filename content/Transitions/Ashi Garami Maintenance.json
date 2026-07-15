@@ -289,7 +289,27 @@
         "answer": "Drive your knees together in a pinching, scissoring direction while pulling the trapped limb toward your centerline, concentrating force inward rather than just squeezing down. Combine the inward pinch with a hip scoot toward the defender to remove the space they need to peel the clamp. The convergent force keeps the clamp seated even as they push outward on the crossing leg."
       }
     ],
-    "safety_considerations": "Ashi Garami maintenance involves sustained pressure on the knee joint and surrounding ligaments. Always practice with controlled intensity and tap immediately if a training partner achieves heel exposure during maintenance drilling. Avoid explosive resistance when your heel is exposed, as rotational forces through the knee can cause ligament damage faster than pain signals register. Communicate clearly with training partners about resistance levels during positional sparring involving leg entanglements. During re-hooking drills, maintain awareness that rapid reconnection can inadvertently apply twisting force to the knee if angles change during the exchange."
+    "safety_considerations": "Ashi Garami maintenance involves sustained pressure on the knee joint and surrounding ligaments. Always practice with controlled intensity and tap immediately if a training partner achieves heel exposure during maintenance drilling. Avoid explosive resistance when your heel is exposed, as rotational forces through the knee can cause ligament damage faster than pain signals register. Communicate clearly with training partners about resistance levels during positional sparring involving leg entanglements. During re-hooking drills, maintain awareness that rapid reconnection can inadvertently apply twisting force to the knee if angles change during the exchange.",
+    "clips": [
+      {
+        "id": "eiI_4VBA-qA",
+        "title": "4 ashi foot positions: single leg X, outside ashi, 50/50",
+        "by": "Evo BJJ",
+        "vertical": false,
+        "channel": "Evo BJJ",
+        "duration": 162,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_4jDUxFg7uU",
+        "title": "De La Riva knee bump entry into ashi garami",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 165,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Ashi Garami Maintenance Defender",
@@ -413,6 +433,35 @@
         "phase": "Phase 4: Live Application",
         "focus": "Competition simulation under pressure",
         "description": "Positional sparring starting in various Ashi Garami configurations with full resistance, practicing extraction sequences and counter-attack recognition under realistic competitive pressure"
+      }
+    ],
+    "clips": [
+      {
+        "id": "L417yCl_-dc",
+        "title": "Leg defense from ashi garami",
+        "by": "The Coop BJJ",
+        "vertical": false,
+        "channel": "The Coop BJJ",
+        "duration": 48,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "m4UEhHwbGfQ",
+        "title": "Ashi garami escape: sit over foot to mount",
+        "by": "Troy Manning",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 76,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QMgsMSTRSBI",
+        "title": "5 leglock counters to ashi garami",
+        "by": "BJJBlackBeltDad",
+        "vertical": false,
+        "channel": "BJJBlackBeltDad",
+        "duration": 93,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -411,5 +411,34 @@
       "question": "Which three positions make the Whizzer a critical tool?",
       "answer": "Half guard (prevents flattening and cross-face, enables sweeps), turtle (prevents back exposure), and the dogfight or standing clinch (denies underhook-based takedowns and contests the dominant angle)."
     }
+  ],
+  "clips": [
+    {
+      "id": "0HQA-a5pSTQ",
+      "title": "Single leg whizzer defense",
+      "by": "Michael Trasso",
+      "vertical": false,
+      "channel": "Merge Grappling",
+      "duration": 29,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "DfUHvTQpzCg",
+      "title": "Using an overhook to control",
+      "by": "Patrick Spano",
+      "vertical": false,
+      "channel": "FANATIC WRESTLING",
+      "duration": 40,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "UYDPc1d7lKU",
+      "title": "Dogfight overhook: rolling leg entry",
+      "by": "Ashure Elbanna",
+      "vertical": false,
+      "channel": "Ashure Elbanna",
+      "duration": 91,
+      "verified": "2026-07-15"
+    }
   ]
 }

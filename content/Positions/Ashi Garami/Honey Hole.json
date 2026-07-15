@@ -411,6 +411,35 @@
           "nogi": 9
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "3KAO2Ck4HRg",
+        "title": "Honey Hole Heel Hook from Bow and Arrow",
+        "by": "JitzLive",
+        "vertical": false,
+        "channel": "JitzLive",
+        "duration": 52,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "K5XhO7o5QN0",
+        "title": "Saddle Entries from Guard",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 66,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "PGQ7YYfu76Q",
+        "title": "Single Leg X to Honey Hole Heel Hook",
+        "by": "Ilya Bodnya",
+        "vertical": false,
+        "channel": "Ilya Bodnya",
+        "duration": 65,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -749,6 +778,26 @@
           "nogi": 6
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "PhS9Xj-4KbA",
+        "title": "Escaping the Honey Hole (Inside Sankaku)",
+        "by": "Oneonta Jiu Jitsu",
+        "vertical": false,
+        "channel": "OneontaJiuJitsu Academy",
+        "duration": 56,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "DrjbaXt-nTo",
+        "title": "Rolling Out of Heel Hooks",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 243,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -783,6 +832,35 @@
     {
       "question": "Why is the submission timeline in Honey Hole so compressed compared to other control positions?",
       "answer": "Because the heel, knee, and ankle are all isolated and pre-aligned for attack the instant the entanglement closes, no intermediate positional advancement is required before a finish becomes available. Unlike upper-body controls where a strangle must be threaded and tightened over time, the leg here is already presented and the breaking mechanics engage almost immediately once grips are secured. Rotational heel hook pressure damages ligaments in seconds with little warning stretch, so both players operate on a window measured in seconds rather than minutes. This compressed timeline is why recognition and immediate reaction define success from either side far more than prolonged positional battling."
+    }
+  ],
+  "clips": [
+    {
+      "id": "F5rdV0PUuDc",
+      "title": "Leg Locks: Enter the System",
+      "by": "John Danaher",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 176,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "Jn_JST6ZJ3o",
+      "title": "Inside Sankaku Entries",
+      "by": "Dynamic Martial Arts",
+      "vertical": false,
+      "channel": "Dynamic Martial Arts Roseburg",
+      "duration": 138,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "VmxgqU-ScTM",
+      "title": "Honey Hole from Single Leg X",
+      "by": "Danny Mitchell",
+      "vertical": false,
+      "channel": "Danny Mitchell MMA",
+      "duration": 34,
+      "verified": "2026-07-14"
     }
   ]
 }

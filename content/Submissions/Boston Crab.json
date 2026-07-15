@@ -193,5 +193,16 @@
       "name": "Twister Control",
       "relationship": "Spinal lock position that shares anatomical targets with Boston Crab"
     }
+  ],
+  "clips": [
+    {
+      "id": "iarztc8kRHk",
+      "title": "Boston crab as a legit submission",
+      "by": "Ramsey Dewey",
+      "vertical": false,
+      "channel": "Ramsey Dewey",
+      "duration": 148,
+      "verified": "2026-07-15"
+    }
   ]
 }

@@ -293,7 +293,36 @@
         "answer": "Entry requirements include: proper distance (close enough for penetration but not tied up), opponent's hands occupied or cleared from defensive position, an angle or opening that allows unobstructed access to the lead leg, your own balanced stance allowing explosive level change, and ideally a reaction from the opponent that shifts their weight or attention. Missing any of these significantly reduces success probability."
       }
     ],
-    "safety_considerations": "When practicing single leg takedowns, practitioners must be mindful of several safety considerations. Primary among these is knee safety during the penetration step - always control your drop to the mat rather than crashing down, which can cause patellar injuries. Partners should communicate clearly about resistance levels, especially during initial learning phases. Ensure adequate mat space exists for the takedown and follow-through, as practitioners will be moving dynamically across the training area. When defending single legs in training, avoid posting with stiff arms which can lead to wrist, elbow, or shoulder injuries when the takedown is completed. Instead, focus on technical defensive responses like sprawling and repositioning. Be particularly cautious when partner attempts guillotine counters - the person shooting should be prepared to abandon the takedown if the choke becomes dangerous, and both parties should understand safe submission protocols. When falling, tuck your chin to protect against mat contact, and use proper breakfall techniques if available. As with all takedown training, both partners must maintain situational awareness and respect each other's skill level and injury history. Stop immediately if either person feels unstable or at risk during the execution."
+    "safety_considerations": "When practicing single leg takedowns, practitioners must be mindful of several safety considerations. Primary among these is knee safety during the penetration step - always control your drop to the mat rather than crashing down, which can cause patellar injuries. Partners should communicate clearly about resistance levels, especially during initial learning phases. Ensure adequate mat space exists for the takedown and follow-through, as practitioners will be moving dynamically across the training area. When defending single legs in training, avoid posting with stiff arms which can lead to wrist, elbow, or shoulder injuries when the takedown is completed. Instead, focus on technical defensive responses like sprawling and repositioning. Be particularly cautious when partner attempts guillotine counters - the person shooting should be prepared to abandon the takedown if the choke becomes dangerous, and both parties should understand safe submission protocols. When falling, tuck your chin to protect against mat contact, and use proper breakfall techniques if available. As with all takedown training, both partners must maintain situational awareness and respect each other's skill level and injury history. Stop immediately if either person feels unstable or at risk during the execution.",
+    "clips": [
+      {
+        "id": "WDtgYMYppHE",
+        "title": "Single leg finishes for jiu jitsu and MMA",
+        "by": "Steel City MMA",
+        "vertical": false,
+        "channel": "Steel City MMA",
+        "duration": 68,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "YBG9LkoAMoo",
+        "title": "Sweep single leg takedown finish",
+        "by": "Jarrod Goode",
+        "vertical": false,
+        "channel": "Jarrod Goode",
+        "duration": 87,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "KilowvsfU2U",
+        "title": "Single leg takedown study",
+        "by": "The Fight Site",
+        "vertical": false,
+        "channel": "The Fight Site",
+        "duration": 89,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Single Leg Takedown Defender",
@@ -429,6 +458,35 @@
         "phase": "Month 4+: Proactive defense and counter-wrestling",
         "focus": "Preventing shots through distance management, hand fighting, and counter-offense",
         "description": "Shift from reactive defense to proactive prevention. Work snap-downs and collar ties that discourage shooting, maintain distance that denies clean penetration, and develop counter-attacks that punish level changes. Practice integrating defense into your offensive standing game so that your takedown defense flows naturally into your own attacks. Full live training rounds with emphasis on standing exchanges."
+      }
+    ],
+    "clips": [
+      {
+        "id": "KT91bdZtBU4",
+        "title": "No-gi single leg defense technique",
+        "by": "Ronin Training Center",
+        "vertical": false,
+        "channel": "Ronin Training Center",
+        "duration": 73,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "x7NgC69PV9I",
+        "title": "Bo Nickal counter attack breakdown",
+        "by": "Josh Dziewa",
+        "vertical": false,
+        "channel": "Josh Dziewa",
+        "duration": 47,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_GTtWGe49ho",
+        "title": "Sprawl to throw-by against the leg attack",
+        "by": "John Beresford",
+        "vertical": false,
+        "channel": "John Beresford",
+        "duration": 101,
+        "verified": "2026-07-15"
       }
     ]
   },

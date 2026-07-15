@@ -271,7 +271,27 @@
         "answer": "The primary force direction is perpendicular to the opponent's spine, driving your chest and shoulder into their trapped shoulder while your choking arm pulls upward and across the back of their neck. This creates a shearing force that closes both sides of the neck. Your hips walk toward their head to increase the angle and tighten the compression."
       }
     ],
-    "safety_considerations": "The Darce choke is a blood strangle that compresses both carotid arteries when applied correctly. Training partners must tap early and clearly, as unconsciousness can occur within seconds once the choke is fully locked. When drilling, apply pressure gradually and release immediately upon the tap—do not hold the position to demonstrate control. Practitioners with neck injuries or cervical spine issues should avoid this technique or practice only the entry mechanics without pressure. The arm threading motion can also stress the shoulder joint of the person being choked if they resist incorrectly, so ensure training partners understand proper tap responses. Never crank or twist the neck during this technique."
+    "safety_considerations": "The Darce choke is a blood strangle that compresses both carotid arteries when applied correctly. Training partners must tap early and clearly, as unconsciousness can occur within seconds once the choke is fully locked. When drilling, apply pressure gradually and release immediately upon the tap—do not hold the position to demonstrate control. Practitioners with neck injuries or cervical spine issues should avoid this technique or practice only the entry mechanics without pressure. The arm threading motion can also stress the shoulder joint of the person being choked if they resist incorrectly, so ensure training partners understand proper tap responses. Never crank or twist the neck during this technique.",
+    "clips": [
+      {
+        "id": "EiUXb7SpH_E",
+        "title": "Arm drag to darce choke, no-gi",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 73,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Rosmg5rjo_s",
+        "title": "Darce choke to guard pass",
+        "by": "Josh Presley",
+        "vertical": false,
+        "channel": "Josh Presley",
+        "duration": 121,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Leg Drag to Darce Setup Defender",
@@ -395,6 +415,35 @@
         "phase": "Week 7+",
         "focus": "Live situational sparring",
         "description": "Start from leg drag bottom in live rolls. Defender must escape without getting caught in the Darce while also defending back takes and other attacks. Develop the ability to choose between conventional turtle escape and Darce-aware escape based on opponent's intentions in real time."
+      }
+    ],
+    "clips": [
+      {
+        "id": "d1YBV8UTKds",
+        "title": "Darce choke defense",
+        "by": "Animal",
+        "vertical": false,
+        "channel": "Animal",
+        "duration": 53,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "iNZpCbutyrM",
+        "title": "Darce escape",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lAOxeKq4W3E",
+        "title": "Escaping the darce choke",
+        "by": "Brandon Quick",
+        "vertical": false,
+        "channel": "Brandon Quick",
+        "duration": 116,
+        "verified": "2026-07-15"
       }
     ]
   },

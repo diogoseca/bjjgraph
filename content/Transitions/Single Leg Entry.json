@@ -311,7 +311,36 @@
         "answer": "Against a guillotine-heavy opponent, three adjustments are essential. First, ensure your head positioning stays on the outside of their body - never let your head drift to the centerline where their choking arm can wrap your neck. Second, use setup techniques that force their hands low before shooting: snap downs, level change feints, and collar drags make them reach downward, temporarily removing the guillotine threat. Third, consider using the high crotch variation where your head goes inside their stance with your ear pressed to their chest, which is the most guillotine-safe head position since both their arms are on the wrong side to choke. If they do catch a guillotine grip during entry, the answer is to complete the takedown rather than pulling back - passing to side control eliminates most guillotine finishes."
       }
     ],
-    "safety_considerations": "When practicing single leg entries, execute with controlled application to avoid knee injuries to your partner during the capture and elevation phases. The lifting and driving motions can place significant torque on the opponent's knee joint, so gradual progression and communication with training partners is essential. Ensure adequate mat space for the takedown completion, as both athletes will be moving dynamically and may cover significant ground during the finish. During drilling, partners should provide appropriate resistance levels that match the practitioner's experience - beginners should face minimal resistance while developing proper mechanics. For the person executing the technique, maintain proper lifting mechanics with straight back and engaged core to protect your spine during the elevation phase. When defending single leg entries, avoid hyperextending your captured leg or making explosive movements that could cause joint injury. Build up speed and power gradually over weeks and months rather than attempting full-power entries immediately. Always tap or verbally submit if caught in a compromising position during scrambles, and respect your partner's taps immediately during competitive drilling."
+    "safety_considerations": "When practicing single leg entries, execute with controlled application to avoid knee injuries to your partner during the capture and elevation phases. The lifting and driving motions can place significant torque on the opponent's knee joint, so gradual progression and communication with training partners is essential. Ensure adequate mat space for the takedown completion, as both athletes will be moving dynamically and may cover significant ground during the finish. During drilling, partners should provide appropriate resistance levels that match the practitioner's experience - beginners should face minimal resistance while developing proper mechanics. For the person executing the technique, maintain proper lifting mechanics with straight back and engaged core to protect your spine during the elevation phase. When defending single leg entries, avoid hyperextending your captured leg or making explosive movements that could cause joint injury. Build up speed and power gradually over weeks and months rather than attempting full-power entries immediately. Always tap or verbally submit if caught in a compromising position during scrambles, and respect your partner's taps immediately during competitive drilling.",
+    "clips": [
+      {
+        "id": "cqqrha_4Jy4",
+        "title": "Entry into the single leg takedown",
+        "by": "Grappler Station",
+        "vertical": false,
+        "channel": "Grappler Station",
+        "duration": 65,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "YBG9LkoAMoo",
+        "title": "Sweep single leg takedown entry and finish",
+        "by": "Jarrod Goode",
+        "vertical": false,
+        "channel": "Jarrod Goode",
+        "duration": 87,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "riQ0SFuNWlw",
+        "title": "Single leg takedown entry option",
+        "by": "Sickness Ferro",
+        "vertical": false,
+        "channel": "Sickness Ferro",
+        "duration": 103,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Single Leg Entry Defender",
@@ -442,6 +471,35 @@
         "phase": "Phase 4: Counter-Offense Integration (Weeks 9-12)",
         "focus": "Transitioning from defense to offensive counter-attacks after stuffing takedown attempts",
         "description": "Full-speed standing sparring with emphasis on converting defensive success into offensive position. After stuffing single leg attempts, immediately transition to front headlock attacks, go-behinds, or your own takedown entries. Score keeping: successful defense plus counter-attack scores higher than defense alone. Partner shoots with full intention and you must both defend and counter-attack within the same exchange. Develops the habit of punishing failed shots."
+      }
+    ],
+    "clips": [
+      {
+        "id": "pfNtYzw97Ew",
+        "title": "Sprawl and spin defense to the leg attack",
+        "by": "USA Wrestling",
+        "vertical": false,
+        "channel": "USA Wrestling",
+        "duration": 55,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "OYZfgkzjFEg",
+        "title": "Harai goshi counter to the single leg",
+        "by": "Gracie Barra Colorado Springs",
+        "vertical": false,
+        "channel": "Gracie Barra Colorado Springs",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "qE9U8UnuQcE",
+        "title": "Leg curl sprawl against the leg attack",
+        "by": "Jason Nolf",
+        "vertical": false,
+        "channel": "Todd Adamczyk",
+        "duration": 29,
+        "verified": "2026-07-15"
       }
     ]
   },

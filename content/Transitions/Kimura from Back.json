@@ -265,7 +265,18 @@
         "answer": "The back position eliminates standard kimura defenses. From guard, opponents can grab their thigh; from side control, they can grip the belt or bridge away. From back, the triangle pins their torso preventing rotation, and their trapped arm position prevents grabbing their own body effectively. Additionally, chest-to-back pressure maintains control that other positions lack, making the finish percentage significantly higher."
       }
     ],
-    "safety_considerations": "The kimura creates extreme rotational stress on the shoulder joint, specifically the rotator cuff muscles and glenohumeral capsule. Apply pressure slowly and continuously—never jerk or crank the submission. Give your training partner time to tap; shoulder injuries can occur within 1-2 seconds of proper pressure application. In training, release immediately upon any tap, verbal submission, or expression of discomfort. Be especially cautious with training partners who have previous shoulder injuries, as their range of motion and pain thresholds may be reduced. When drilling, establish clear communication about pressure levels before beginning. The combination of back control (which is disorienting) and shoulder lock can cause panicked reactions—be prepared to release if your partner tenses unexpectedly."
+    "safety_considerations": "The kimura creates extreme rotational stress on the shoulder joint, specifically the rotator cuff muscles and glenohumeral capsule. Apply pressure slowly and continuously—never jerk or crank the submission. Give your training partner time to tap; shoulder injuries can occur within 1-2 seconds of proper pressure application. In training, release immediately upon any tap, verbal submission, or expression of discomfort. Be especially cautious with training partners who have previous shoulder injuries, as their range of motion and pain thresholds may be reduced. When drilling, establish clear communication about pressure levels before beginning. The combination of back control (which is disorienting) and shoulder lock can cause panicked reactions—be prepared to release if your partner tenses unexpectedly.",
+    "clips": [
+      {
+        "id": "gA0eqO9KtUg",
+        "title": "Short figure-four kimura from back control",
+        "by": "Effortless Jiu Jitsu",
+        "vertical": false,
+        "channel": "EffortlessJiuJitsu",
+        "duration": 268,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Kimura from Back Defender",
@@ -389,6 +400,35 @@
         "phase": "Week 7+",
         "focus": "Live positional defense",
         "description": "Positional sparring starting in rear triangle with partner attacking kimura, choke, and armbar. Defend all three threats with full resistance. Score escapes to back control or better positions. Focus on composure under sustained multi-threat pressure and efficient energy use."
+      }
+    ],
+    "clips": [
+      {
+        "id": "qKj5Y-jDEeM",
+        "title": "Countering the kimura back take",
+        "by": "Placido Santos",
+        "vertical": false,
+        "channel": "Placido Santos ",
+        "duration": 32,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "TuaopPUakM8",
+        "title": "Defending the kimura",
+        "by": "Eddie Kone Academy",
+        "vertical": false,
+        "channel": "Eddie Kone Academy Of Jiu-Jitsu",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "OltjLaTW3wQ",
+        "title": "Three ways to defend the back take",
+        "by": "Roberto Cyborg Abreu",
+        "vertical": false,
+        "channel": "Cyborg BJJ",
+        "duration": 89,
+        "verified": "2026-07-15"
       }
     ]
   },

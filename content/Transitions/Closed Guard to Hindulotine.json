@@ -242,7 +242,27 @@
         "answer": "Establishing the Hindulotine first gives you control over the opponent's posture and hips with the choke loaded, which makes every follow-up high percentage. If the choke stalls, the loaded hooks feed a butterfly sweep to mount, a turn-away exposes the back, and a near-arm frame opens the Darce. Chasing only the finish forfeits those branches and lowers the overall success rate."
       }
     ],
-    "safety_considerations": "Guillotine-family chokes are blood and air chokes that can render a partner unconscious quickly, so apply rotational pressure progressively and release the instant a partner taps verbally or physically. Avoid cranking the neck laterally during the hip rotation, as the spinal torque that makes the Hindulotine effective also raises cervical injury risk if applied explosively. When drilling the stack and Von Flue counters, the bottom player must protect their own neck and not let the top player drive shoulder pressure into the throat at full force. Beginners should build the hip-clearance and rotation slowly with light resistance before adding finishing pressure."
+    "safety_considerations": "Guillotine-family chokes are blood and air chokes that can render a partner unconscious quickly, so apply rotational pressure progressively and release the instant a partner taps verbally or physically. Avoid cranking the neck laterally during the hip rotation, as the spinal torque that makes the Hindulotine effective also raises cervical injury risk if applied explosively. When drilling the stack and Von Flue counters, the bottom player must protect their own neck and not let the top player drive shoulder pressure into the throat at full force. Beginners should build the hip-clearance and rotation slowly with light resistance before adding finishing pressure.",
+    "clips": [
+      {
+        "id": "NqAXUtNqYLk",
+        "title": "Two Hindulotine finishes from the ADCC Trials",
+        "by": "Eddy Bravo",
+        "vertical": false,
+        "channel": "Ben Eddy Bravo",
+        "duration": 85,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Dg1dvtWkXhE",
+        "title": "Marcelo Garcia guillotine (Marcelotine) breakdown",
+        "by": "Half The Battle",
+        "vertical": false,
+        "channel": "Half The Battle",
+        "duration": 110,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Closed Guard to Hindulotine Defender",
@@ -341,6 +361,35 @@
         "phase": "Week 5-8: Stack passing and the Von Flue counter",
         "focus": "Converting the defense into a pass or finish",
         "description": "With the grip held at 60 to 70 percent, drill both counters: stacking forward to square the hips and pass toward side control, and dropping the near shoulder into the neck for the Von Flue. Work the timing so you commit before the attacker locks their hooks and off-line angle, while keeping your own neck protected throughout."
+      }
+    ],
+    "clips": [
+      {
+        "id": "lvjRNWzKMPc",
+        "title": "Guillotine escape from closed guard to side control",
+        "by": "Street Jitsu",
+        "vertical": false,
+        "channel": "Street Jitsu",
+        "duration": 27,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "aHRDKmcZCEE",
+        "title": "Gordon Ryan breaks down the guillotine escape",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "RAPHA COM ÉLLES",
+        "duration": 98,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "PYiD6UjqMTw",
+        "title": "Worst case guillotine scenario defense",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 108,
+        "verified": "2026-07-15"
       }
     ]
   },

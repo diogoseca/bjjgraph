@@ -275,7 +275,36 @@
         "answer": "The primary risk is that your threading motion exposes your trapped leg's heel or provides the opponent with leverage to advance to Honey Hole/Saddle. Mitigation requires three things: maintaining heel defense on the trapped leg throughout the entire attempt, committing only when a genuine window exists rather than forcing against tight control, and having the discipline to abort cleanly if the attempt encounters significant resistance. A failed attempt that resets to cross ashi is acceptable; a failed attempt that leads to Honey Hole is catastrophic."
       }
     ],
-    "safety_considerations": "The counter-entangle involves moving your leg through a zone of increased heel hook vulnerability. During the threading motion, your trapped leg's heel may become briefly more exposed as you shift focus to the free leg insertion. Never attempt this transition if the opponent has a secured heel grip with figure-four configuration—address grip fighting and heel defense first. If you feel rotational pressure on your knee at any point during the threading, immediately abandon the attempt and prioritize tapping if necessary. The technique should feel controlled and smooth; if it requires forcing your leg through tight resistance, the timing window has closed and continuing risks knee ligament injury. Always practice with cooperative partners at low intensity before applying under resistance."
+    "safety_considerations": "The counter-entangle involves moving your leg through a zone of increased heel hook vulnerability. During the threading motion, your trapped leg's heel may become briefly more exposed as you shift focus to the free leg insertion. Never attempt this transition if the opponent has a secured heel grip with figure-four configuration—address grip fighting and heel defense first. If you feel rotational pressure on your knee at any point during the threading, immediately abandon the attempt and prioritize tapping if necessary. The technique should feel controlled and smooth; if it requires forcing your leg through tight resistance, the timing window has closed and continuing risks knee ligament injury. Always practice with cooperative partners at low intensity before applying under resistance.",
+    "clips": [
+      {
+        "id": "DBbSqQf6iCo",
+        "title": "Roll under from ashi to backside 50/50",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 110,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "up34T04wt_U",
+        "title": "Counter outside ashi by rolling to 50/50 heel hook",
+        "by": "Robyn Sheehan",
+        "vertical": false,
+        "channel": "Robyn Sheehan",
+        "duration": 107,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ucAwPgTLSpQ",
+        "title": "Getting to backside 50/50",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 121,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Counter Entangle from Cross Ashi Defender",
@@ -381,6 +410,26 @@
         "phase": "Phase 3: Live Situational Defense",
         "focus": "Maintaining cross ashi under full-speed counter-entangle attempts",
         "description": "Start in cross ashi top with partner at full resistance attempting both counter-entangle and other escapes. Maintain position and prevent 50-50 conversion while pursuing your own offensive chain. Integrate counter-entangle prevention into your broader cross ashi top game plan. Score based on whether opponent reaches 50-50 or you maintain cross ashi or advance to Honey Hole."
+      }
+    ],
+    "clips": [
+      {
+        "id": "SyP61TJ7ckI",
+        "title": "Modern leglock counters and defense",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "Michael Wong",
+        "duration": 86,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uZbUhFapIhg",
+        "title": "Leglock defense from entanglement",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 163,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -255,5 +255,43 @@
       "name": "from Standing Rear Clinch",
       "slug": "from-standing-rear-clinch"
     }
+  ],
+  "clips": [
+    {
+      "id": "3vCytl_OI-4",
+      "title": "Rear Naked Choke from Back Control",
+      "by": "Affinity Academy",
+      "vertical": false,
+      "channel": "Affinity Academy",
+      "duration": 75,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "70jECxFfCSA",
+      "title": "Rear Naked Choke",
+      "by": "Gordon Ryan",
+      "vertical": false,
+      "channel": "Control Jiu JItsu",
+      "duration": 73,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "rPRORaAiJAs",
+      "title": "Rear Naked Choke: It's in the Squeeze",
+      "by": "Henry Akins",
+      "vertical": false,
+      "channel": "Henry Akins' Hidden Jiu-Jitsu",
+      "duration": 95,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "3OkCuU0B0UE",
+      "title": "Attack the Back with a Body Triangle",
+      "by": "Grapple Box",
+      "vertical": false,
+      "channel": "Grapple Box llc",
+      "duration": 28,
+      "verified": "2026-07-14"
+    }
   ]
 }

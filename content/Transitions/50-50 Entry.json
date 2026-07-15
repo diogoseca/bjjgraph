@@ -259,7 +259,36 @@
         "answer": "The 50-50 Entry serves as a gateway to the entire leg entanglement system. From 50-50, you can access heel hooks, transition to inside ashi for straight ankle locks, or move to backside 50-50 for additional heel hook angles. It's also reversible - you can transition back out to single leg X or other guard positions if needed."
       }
     ],
-    "safety_considerations": "The 50-50 Entry leads directly to positions where devastating leg locks are available. Practice with controlled speed and always respect tap signals immediately. When drilling, complete the entry without immediately attacking the heel to build proper habits. Avoid forcing the entry against flexible opponents who can counter-rotate and apply heel hooks faster than you. If you feel any torque on your own knee during a failed entry, disengage immediately rather than fighting through. Never attempt this technique against partners with existing knee injuries. In competition, be aware that explosive 50-50 entries can result in accidental heel hooks that injure both practitioners."
+    "safety_considerations": "The 50-50 Entry leads directly to positions where devastating leg locks are available. Practice with controlled speed and always respect tap signals immediately. When drilling, complete the entry without immediately attacking the heel to build proper habits. Avoid forcing the entry against flexible opponents who can counter-rotate and apply heel hooks faster than you. If you feel any torque on your own knee during a failed entry, disengage immediately rather than fighting through. Never attempt this technique against partners with existing knee injuries. In competition, be aware that explosive 50-50 entries can result in accidental heel hooks that injure both practitioners.",
+    "clips": [
+      {
+        "id": "xLrbkcvIdy0",
+        "title": "Reverse De La Riva to 50/50 with heel hook",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 77,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "p0e38zh3Sg4",
+        "title": "50/50 entry from single leg X",
+        "by": "Grappling How to",
+        "vertical": false,
+        "channel": "Grappling How to",
+        "duration": 96,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ucAwPgTLSpQ",
+        "title": "Getting to backside 50/50",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 121,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "50-50 Entry Defender",
@@ -382,6 +411,26 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring defense",
         "description": "Positional rounds starting with partner in inverted guard and you standing. Partner attempts 50-50 entries at full speed while you defend and counter-pass with full resistance. Track your prevention rate and identify which entry variants still catch you. Focus on the specific variants that penetrate your defense most often."
+      }
+    ],
+    "clips": [
+      {
+        "id": "_hyZqLRwsWE",
+        "title": "Counter the 50/50 heel hook with a wristlock",
+        "by": "Whangarei BJJ",
+        "vertical": false,
+        "channel": "Whangarei BJJ",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Q-ZBPkqGOgE",
+        "title": "Standing pass for 50/50",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 135,
+        "verified": "2026-07-15"
       }
     ]
   },

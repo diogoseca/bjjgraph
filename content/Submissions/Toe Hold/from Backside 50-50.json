@@ -333,6 +333,35 @@
         "answer": "Chest-to-back pressure pins the opponent's hips to the mat, eliminating their ability to bridge, turn, or create the hip movement needed to strip your grip or escape the entanglement. Without this pressure, the opponent can generate enough movement to either pull their foot free, rotate to face you and neutralize the backside advantage, or create a scramble. The pressure also prevents them from sitting up to use their hands for grip fighting against your figure-four lock.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "B_StkmaI3Nc",
+        "title": "Toe Hold from 50/50",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 17,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "xwaJm1Ft5lc",
+        "title": "Paper Cutter Toehold from 50/50",
+        "by": "Garden State BJJ",
+        "vertical": false,
+        "channel": "Garden State Brazilian Jiu-Jitsu Academy",
+        "duration": 60,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "BbPdLSszYt8",
+        "title": "Fifty-fifty toe hold",
+        "by": "Ninja Pinto",
+        "vertical": false,
+        "channel": "Ninja Pinto BJJ",
+        "duration": 70,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -468,6 +497,26 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Defending toe hold attempts in live rolling from Backside 50-50 bottom",
         "description": "Positional sparring starting from Backside 50-50 with partner attacking legs freely. Practice all defensive tools under genuine pressure with partner working at competitive intensity. Focus on surviving and escaping rather than counter-attacking. Build confidence in recognizing and defending the toe hold in realistic conditions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "3a9k8-ZcYrk",
+        "title": "How to escape the toe hold",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "The King Life",
+        "duration": 106,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "ydWFAUrv8Ns",
+        "title": "Toe Hold escape from 50/50",
+        "by": "Catch Wrestling Alliance",
+        "vertical": false,
+        "channel": "Catch Wrestling Alliance",
+        "duration": 150,
+        "verified": "2026-07-14"
       }
     ]
   }

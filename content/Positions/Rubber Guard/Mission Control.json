@@ -351,6 +351,17 @@
           "nogi": 24
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "AvivOVuYcCk",
+        "title": "Rubber Guard Escape (Passing Mission Control)",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 131,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -699,6 +710,26 @@
           "nogi": 5
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "5fJM5bIk8Fw",
+        "title": "Mission Control to Invisible Collar to Armbars",
+        "by": "10th Planet Orange Park",
+        "vertical": false,
+        "channel": "10th Planet Orange Park",
+        "duration": 108,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "d_IuykmUqBA",
+        "title": "10th Planet Rubber Guard Path",
+        "by": "Justin Patten",
+        "vertical": false,
+        "channel": "Justin Patten",
+        "duration": 54,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -729,6 +760,17 @@
     {
       "question": "What distinguishes Mission Control from adjacent rubber-guard controls like New York, Carni, and Zombie?",
       "answer": "All of these controls share the same underlying goal of shoulder isolation and broken posture, but they differ in leg configuration and how the trapped limb is managed. Mission Control uses the inside leg threaded high across the back plus the outside leg pinning the far shoulder as its baseline lock. New York is the transition when the top player defends the arm, Carni achieves comparable shoulder isolation through a different leg placement, and Zombie is specifically oriented to absorb and redirect a stacking, forward-driving opponent. The common thread is the folded posture and captured shoulder; what changes between them is the geometry of the leg used to maintain that capture against a particular defensive response."
+    }
+  ],
+  "clips": [
+    {
+      "id": "h1XzZDsUxHQ",
+      "title": "Eddie Bravo Explains Rubber Guard",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "JAN FERNANDEZ ",
+      "duration": 111,
+      "verified": "2026-07-14"
     }
   ]
 }

@@ -325,6 +325,26 @@
         "answer": "The Kimura from Gift Wrap carries the advantage of accumulated back control points before the submission attempt. If the Kimura fails and you maintain Gift Wrap, you retain those points and can re-attack immediately. The worst common outcome is returning to Gift Wrap control rather than losing position entirely. This favorable risk-reward makes it a strong competition option where controlled rotation is preferred over explosive application to maintain positional advantage.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "8sdF_KhIVik",
+        "title": "Gift Wrap T-Bag Kimura",
+        "by": "JitzLive",
+        "vertical": false,
+        "channel": "JitzLive",
+        "duration": 64,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "c23mDOOXANw",
+        "title": "Split Gift Wrap to Kimura",
+        "by": "Watauga BJJ",
+        "vertical": false,
+        "channel": "Watauga BJJ",
+        "duration": 33,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -459,6 +479,35 @@
         "phase": "Phase 4: Full Defensive Sparring",
         "focus": "Complete defense under live conditions",
         "description": "Positional sparring starting from Gift Wrap. Attacker pursues Kimura and chains to alternative submissions. Defender works complete defensive hierarchy from recognition through escape. Develops decision-making under realistic pressure and threat management."
+      }
+    ],
+    "clips": [
+      {
+        "id": "OMzki0Uu7vA",
+        "title": "Escaping the Gift Wrap",
+        "by": "thejiujitsupedia",
+        "vertical": false,
+        "channel": "thejiujitsupedia",
+        "duration": 48,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "gvRGrvtKd1U",
+        "title": "Kimura Defense",
+        "by": "Jon Satava",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 142,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "qKj5Y-jDEeM",
+        "title": "Countering the Kimura Back Take",
+        "by": "Placido Santos",
+        "vertical": false,
+        "channel": "Placido Santos ",
+        "duration": 32,
+        "verified": "2026-07-14"
       }
     ]
   }

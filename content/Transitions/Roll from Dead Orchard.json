@@ -300,7 +300,18 @@
         "answer": "Against a heavier, slower opponent, the standard forward roll is more effective because their committed weight provides more rotational energy and they are slower to follow the movement. Against a lighter, more athletic opponent, consider the diagonal roll variation that changes the angle to deny the follow, since lighter opponents can more easily match your rotational speed. Against opponents with very long arms, the grip disruption during the roll may be less effective, so you need to be more explosive and commit to stripping the trapped arm during the rotation."
       }
     ],
-    "safety_considerations": "The roll from dead orchard involves cervical spine rotation under significant pressure from the anaconda grip. Never force the roll if you experience sharp neck pain during the setup or rotation. Tap immediately if the choke tightens during the roll attempt rather than continuing through, as the rotational forces combined with choke compression can cause cervical injury. In training, communicate with your partner about neck pressure thresholds before drilling this technique. The rolling motion must come from hip rotation, not neck twisting. Practitioners with pre-existing cervical spine conditions, disc injuries, or neck instability should avoid this technique and focus on frame-based escapes instead. Always warm up the neck thoroughly before drilling roll escapes from choke positions."
+    "safety_considerations": "The roll from dead orchard involves cervical spine rotation under significant pressure from the anaconda grip. Never force the roll if you experience sharp neck pain during the setup or rotation. Tap immediately if the choke tightens during the roll attempt rather than continuing through, as the rotational forces combined with choke compression can cause cervical injury. In training, communicate with your partner about neck pressure thresholds before drilling this technique. The rolling motion must come from hip rotation, not neck twisting. Practitioners with pre-existing cervical spine conditions, disc injuries, or neck instability should avoid this technique and focus on frame-based escapes instead. Always warm up the neck thoroughly before drilling roll escapes from choke positions.",
+    "clips": [
+      {
+        "id": "PTAAQz-RMyw",
+        "title": "Dead Orchard Entry and Roll",
+        "by": "bjjtaro coach",
+        "vertical": false,
+        "channel": "bjjtaro",
+        "duration": 83,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Roll from Dead Orchard Defender",
@@ -421,6 +432,17 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full-resistance application from both perspectives",
         "description": "Start in established dead orchard control with full resistance. Top player works to maintain control or capitalize on escape attempts. Bottom player uses all escape options including the roll. Track outcomes across rounds to measure defensive improvement and develop the ability to read and counter the specific roll timing in live conditions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "XoiB1D2WJwE",
+        "title": "Dead Orchard Instructional Part 1",
+        "by": "Nathan Orchard",
+        "vertical": false,
+        "channel": "10th Planet Portland",
+        "duration": 111,
+        "verified": "2026-07-15"
       }
     ]
   }

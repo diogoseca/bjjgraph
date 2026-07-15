@@ -297,7 +297,36 @@
         "answer": "Continuous downward pressure on the trapped leg restricts the opponent's hip mobility, which is the foundation of all their defensive options. If pressure is released even momentarily, the opponent can use that window to hip escape, re-angle their hips, insert a knee shield, or recover full guard structure. The trapped leg pressure also serves as the anchor point from which the cutting knee generates its diagonal wedge force."
       }
     ],
-    "safety_considerations": "The knee cut pass applies significant lateral pressure across the opponent's knee and hip joints during the cutting phase. Controlled application is essential—sudden explosive entries can cause MCL strain or hip flexor injury in training partners. When drilling, reduce speed during the cutting phase and allow the bottom player time to adjust their leg position. Avoid driving the knee through a fully locked defensive structure with maximum force, as this can injure both the knee joint of the bottom player and the hip of the passer. Communicate with training partners about knee sensitivity and tap immediately if any joint pain is felt during the extraction phase."
+    "safety_considerations": "The knee cut pass applies significant lateral pressure across the opponent's knee and hip joints during the cutting phase. Controlled application is essential—sudden explosive entries can cause MCL strain or hip flexor injury in training partners. When drilling, reduce speed during the cutting phase and allow the bottom player time to adjust their leg position. Avoid driving the knee through a fully locked defensive structure with maximum force, as this can injure both the knee joint of the bottom player and the hip of the passer. Communicate with training partners about knee sensitivity and tap immediately if any joint pain is felt during the extraction phase.",
+    "clips": [
+      {
+        "id": "k4pZYVOwmbI",
+        "title": "Knee shield pass from headquarters, no-gi",
+        "by": "Jiu Jitsu Curriculum",
+        "vertical": false,
+        "channel": "Jiu Jitsu Curriculum",
+        "duration": 117,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "3r093piKEr4",
+        "title": "Smash into knee cut pass in competition",
+        "by": "Ross Nicholls",
+        "vertical": false,
+        "channel": "London Grapple",
+        "duration": 116,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "1FG1o31-mMc",
+        "title": "Knee side smash passes in 90 seconds",
+        "by": "The ROL Radio Podcast",
+        "vertical": false,
+        "channel": "The ROL Radio Podcast",
+        "duration": 91,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Knee Cut from Headquarters Defender",
@@ -427,6 +456,26 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Full resistance positional sparring from headquarters bottom against all passing options",
         "description": "Full resistance positional sparring starting from headquarters bottom. Partner uses all available passes from headquarters including knee cut, toreando, leg drag, and backstep. Practice recognizing which pass is being attempted and applying the correct defensive response in real time under competitive pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "yiIHeo7NgsE",
+        "title": "Countering the knee slice pass",
+        "by": "Kohbukan Sisu",
+        "vertical": false,
+        "channel": "Kohbukan Sisu",
+        "duration": 58,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "xDZucxFVK48",
+        "title": "Defending the knee slice from quarter guard",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 275,
+        "verified": "2026-07-15"
       }
     ]
   }

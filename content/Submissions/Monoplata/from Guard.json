@@ -368,6 +368,26 @@
         "answer": "Common last-moment escapes result from: (1) failing to squeeze the figure-four tightly enough, allowing arm extraction, (2) applying pressure too quickly before all control points are secured, (3) not blocking the far hip with your free leg, enabling a forward roll escape, (4) losing wrist control during the finish, allowing defensive grips, (5) having an incorrect body angle that lacks mechanical advantage, and (6) telegraphing the finish by pausing before applying pressure. The solution is systematic control establishment before any finishing attempt.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "u9fF8OCRDks",
+        "title": "Monoplata from Triangle Choke",
+        "by": "Waza Brazilian Jiu Jitsu",
+        "vertical": false,
+        "channel": "Waza Brazilian Jiu Jitsu",
+        "duration": 110,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "5J6Gtv1hAMo",
+        "title": "Monoplata Trap System from Guard",
+        "by": "Johnny Jitsu",
+        "vertical": false,
+        "channel": "Johnny Jitsu",
+        "duration": 160,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -503,6 +523,17 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance defense integration",
         "description": "Start in closed guard with partner actively working toward monoplata from their regular guard attack chains. Defend at full resistance, integrating recognition, early prevention, and mid-stage escapes as needed. Track which defensive windows you consistently catch and which entries still catch you. Train to recognize when tapping is the correct defensive response rather than risking injury on late-stage escapes."
+      }
+    ],
+    "clips": [
+      {
+        "id": "tJRjDm9z_9E",
+        "title": "The Omoplata Escape Before the Forward Roll",
+        "by": "Jiu-Jitsu Times",
+        "vertical": false,
+        "channel": "Jiu-Jitsu Times",
+        "duration": 98,
+        "verified": "2026-07-14"
       }
     ]
   },

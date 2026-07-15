@@ -420,6 +420,35 @@
           "nogi": 7
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "5RyU5LDc3C4",
+        "title": "Lachlan's ADCC Heel Hook",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Alberto Serrano BJJ",
+        "duration": 86,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "S8ZH_9F18jw",
+        "title": "Using Hips For The Inverted Heel Hook",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "grapplerINFO",
+        "duration": 103,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "QVHDJoP-LK0",
+        "title": "Catch The Inside Heel Hook From The Saddle",
+        "by": "Hellfish MMA",
+        "vertical": false,
+        "channel": "Hellfish Mixed Martial Arts",
+        "duration": 138,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -727,6 +756,35 @@
           "nogi": 9
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "PhS9Xj-4KbA",
+        "title": "Escaping Honey Hole (Inside Sankaku)",
+        "by": "Oneonta Jiu Jitsu",
+        "vertical": false,
+        "channel": "OneontaJiuJitsu Academy",
+        "duration": 56,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "3xEmPci_szw",
+        "title": "Escape the Inside Ashi Garami Heel Hook",
+        "by": "Eddie Cummings",
+        "vertical": false,
+        "channel": "Digitsu",
+        "duration": 164,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "DrjbaXt-nTo",
+        "title": "Rolling Out Of Heel Hooks",
+        "by": "Craig Jones & Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 243,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -761,6 +819,35 @@
     {
       "question": "Why is weight distributed through the hips rather than the hands the sustainable way to hold Inside Sankaku?",
       "answer": "Posting or gripping with the hands to maintain the entanglement burns forearm and arm endurance quickly and leaves the position vulnerable the moment those muscles fatigue. Driving control through the hips lets the skeletal structure and the mechanical advantage of the figure-four do the work, so small hip adjustments defeat larger escape efforts. This also keeps the hands free to fight for submission grips or defend counters rather than being spent on positional maintenance. The principle cuts both ways: whoever relies on strength rather than structure and hip pressure is the one who tires first and loses the exchange."
+    }
+  ],
+  "clips": [
+    {
+      "id": "eiI_4VBA-qA",
+      "title": "4 Foot Positions for Leg Locks",
+      "by": "Evo BJJ",
+      "vertical": false,
+      "channel": "Evo BJJ",
+      "duration": 162,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "fkl93-NakrI",
+      "title": "Terminology of Ashi Garami & Leg Locks",
+      "by": "Patrick Donabedian",
+      "vertical": false,
+      "channel": "Patrick Donabedian BJJ",
+      "duration": 79,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "K5XhO7o5QN0",
+      "title": "Saddle Entries From Guard",
+      "by": "Lachlan Giles",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 66,
+      "verified": "2026-07-14"
     }
   ]
 }

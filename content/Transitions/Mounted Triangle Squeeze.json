@@ -291,7 +291,36 @@
         "answer": "The primary chain attack is the armbar on the trapped arm, especially if the opponent has loosened it during defense. The arm extraction defense often leaves the arm extended and vulnerable. Secondary is the back take when the opponent turns to relieve squeeze pressure. Their turning motion exposes the back for seat belt grip and hook insertion. Third is transitioning to S mount if the triangle configuration is too compromised for finishing but you want to maintain high mount attacking position. Never persist with a fully defended squeeze for more than 15-20 seconds without transitioning."
       }
     ],
-    "safety_considerations": "The mounted triangle squeeze involves significant cervical compression and carotid artery pressure. Apply squeeze progressively and never explosively jerk or spike the compression. In training, squeeze incrementally and give your partner time to tap. Be aware that the combination of mount weight and triangle squeeze can create tracheal pressure in addition to carotid compression. Release immediately upon tap, verbal submission, or any sign of loss of consciousness. Avoid cranking the neck laterally during angle adjustments. Partners should tap early when they feel the squeeze take effect rather than fighting through significant pressure."
+    "safety_considerations": "The mounted triangle squeeze involves significant cervical compression and carotid artery pressure. Apply squeeze progressively and never explosively jerk or spike the compression. In training, squeeze incrementally and give your partner time to tap. Be aware that the combination of mount weight and triangle squeeze can create tracheal pressure in addition to carotid compression. Release immediately upon tap, verbal submission, or any sign of loss of consciousness. Avoid cranking the neck laterally during angle adjustments. Partners should tap early when they feel the squeeze take effect rather than fighting through significant pressure.",
+    "clips": [
+      {
+        "id": "yBHU4resLgc",
+        "title": "Triangle squeeze finishing mechanics",
+        "by": "Daniel Wanderley",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 93,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "zuJkiUU2djs",
+        "title": "Triangle choke finish with the arm in",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 47,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uE8JGma_Y80",
+        "title": "Finishing the triangle without closing the legs",
+        "by": "Mr. NogiJiujitsu",
+        "vertical": false,
+        "channel": "Mr. NogiJiujitsu",
+        "duration": 90,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Mounted Triangle Squeeze Defender",
@@ -413,6 +442,17 @@
         "phase": "Phase 4: Live Positional Sparring Defense",
         "focus": "Defending squeeze-to-finish chains under competition conditions",
         "description": "Start in mounted triangle with attacker working full squeeze-to-finish sequence. Defender practices survival and escape against unrestricted technique. Track time survived and escapes achieved. Build the confidence and technical resilience needed to defend the squeeze in live rolling."
+      }
+    ],
+    "clips": [
+      {
+        "id": "sR2rS2dwpNY",
+        "title": "How to escape a triangle choke",
+        "by": "Rener and Ryron Gracie",
+        "vertical": false,
+        "channel": "Hayabusa",
+        "duration": 117,
+        "verified": "2026-07-15"
       }
     ]
   }

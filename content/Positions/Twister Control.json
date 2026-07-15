@@ -267,6 +267,35 @@
       "offensive controlling position",
       "back control variation",
       "10th planet jiu-jitsu system"
+    ],
+    "clips": [
+      {
+        "id": "odT3-cVWXdc",
+        "title": "Twister side attacks",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "R55lmkc6Mus",
+        "title": "Twister side control",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 87,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "nnphEk5pmjk",
+        "title": "Grace's twister",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -521,6 +550,26 @@
       "defensive survival position",
       "back exposure defense",
       "10th planet jiu-jitsu system"
+    ],
+    "clips": [
+      {
+        "id": "Va1YNgx2E6M",
+        "title": "Escape and counter the twister",
+        "by": "Matrix Jiu Jitsu",
+        "vertical": false,
+        "channel": "Matrix Jiu Jitsu",
+        "duration": 165,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "qQYdPx_KoXo",
+        "title": "Battle-testing a twister counter",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 238,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_family": [
@@ -585,6 +634,35 @@
     {
       "question": "How do the upper-body attachment and the leg control depend on each other to sustain Twister Control?",
       "answer": "The two controls are interdependent because each alone leaves an open escape route: strong leg control with a weak upper body lets the opponent hand-fight and peel off the top, while a controlled upper body with a free leg lets them simply turn in and square up. Only when both are held simultaneously does the spine stay loaded in rotation. The upper-body attachment sets the shoulder line while the leg control fixes the hip line, and the torque lives in the gap between them. This coordination requirement is why the position rewards constant simultaneous adjustment of both anchors."
+    }
+  ],
+  "clips": [
+    {
+      "id": "odT3-cVWXdc",
+      "title": "Twister side attacks",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "Eddie Bravo",
+      "duration": 61,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "R55lmkc6Mus",
+      "title": "Twister side control",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "Eddie Bravo",
+      "duration": 87,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "oBya4BEW_XU",
+      "title": "Smash side control",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "Eddie Bravo",
+      "duration": 61,
+      "verified": "2026-07-14"
     }
   ]
 }

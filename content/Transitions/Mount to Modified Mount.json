@@ -269,7 +269,27 @@
         "answer": "Re-drive the across-body knee forward and downward to crush the frame while keeping your chest connection and cross-face intact, so you regain the heavy pin you lost during the climb. If the frame is already deep, treat the extended framing arm as an invitation: attack it with an Americana or wrist control to force its retraction, then re-settle your post. The error that caused the shrink was almost always lightening the across-body knee while raising the hips, so the fix is to climb without ever letting that knee float."
       }
     ],
-    "safety_considerations": "This transition is low-risk for acute injury because it is positional rather than a joint or choke attack, but the posted leg places stress on the knee and ankle, especially on hard or slippery mats where the foot may slide—warm up the hips, knees, and ankles before heavy drilling. The bottom partner should tap or call out if cross-face pressure compresses the neck or if the across-body knee restricts breathing. When chaining into the armbar that this position pre-loads, apply the finish slowly and respect the early tap, as the swing-over can load the elbow quickly once the hips are already rotated."
+    "safety_considerations": "This transition is low-risk for acute injury because it is positional rather than a joint or choke attack, but the posted leg places stress on the knee and ankle, especially on hard or slippery mats where the foot may slide—warm up the hips, knees, and ankles before heavy drilling. The bottom partner should tap or call out if cross-face pressure compresses the neck or if the across-body knee restricts breathing. When chaining into the armbar that this position pre-loads, apply the finish slowly and respect the early tap, as the swing-over can load the elbow quickly once the hips are already rotated.",
+    "clips": [
+      {
+        "id": "cO0o5SLAk90",
+        "title": "Gordon Ryan's S-mount",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "MastersmokeABUSE",
+        "duration": 28,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "jaujxC4Rpyo",
+        "title": "S-mount entry from full mount",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 146,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Mount to Modified Mount Defender",
@@ -370,6 +390,26 @@
         "phase": "Phase 3: Escape from Established Position",
         "focus": "Frame-and-shrimp recovery and armbar denial after consolidation",
         "description": "Partner establishes full modified mount with the hips rotated. Practice keeping the elbow bent, framing on the across-body knee, and shrimping toward the posted-leg side to recover half guard under moderate resistance. Develop composure so prevention failure flows into a systematic escape rather than panic."
+      }
+    ],
+    "clips": [
+      {
+        "id": "3AMEkhiCU1A",
+        "title": "Modified mount escape",
+        "by": "Pathfinder Jiu-Jitsu coach",
+        "vertical": false,
+        "channel": "Pathfinder Jiu-Jitsu Team",
+        "duration": 20,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "9252EvCT0q4",
+        "title": "Mount escape when you can't get out",
+        "by": "Gabriel Gonzaga",
+        "vertical": false,
+        "channel": "Gabriel Gonzaga",
+        "duration": 93,
+        "verified": "2026-07-15"
       }
     ]
   }

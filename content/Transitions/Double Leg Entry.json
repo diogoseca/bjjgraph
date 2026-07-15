@@ -290,7 +290,36 @@
         "answer": "Several conditions should be present for high-percentage double leg entry: 1) You must be within proper range - close enough that one explosive step reaches between their feet, but not so close you telegraph the attack, 2) Opponent's weight should be neutral or forward, not sitting back on their heels ready to sprawl, 3) Their hands should be occupied or out of position, not actively framing your shoulders or head, 4) You need a clear path for your penetration step without their knee blocking the lane, 5) Your own balance and stance must allow for explosive level change without telegraphing, 6) Ideally, you've created some reaction or movement that momentarily disrupts their defensive posture. When multiple conditions align, the entry percentage increases dramatically. Attempting the entry when conditions are poor leads to sprawls and guillotines."
       }
     ],
-    "safety_considerations": "Double leg entries carry inherent risks that must be managed through proper technique and training progression. The primary safety concern is guillotine choke exposure - improper head position or premature reaching for legs creates immediate submission vulnerability. Always maintain head position awareness and drill defensive guillotine responses. During training, partners should apply guillotine pressure slowly to allow recognition and escape rather than sudden application. For the person being taken down, learning to breakfall properly is essential - landing with arms extended can cause wrist, elbow, or shoulder injuries. Practice taking the fall by turning to the side, distributing impact across back/shoulder, and keeping chin tucked. When drilling entries, the defending partner should allow controlled completion rather than explosive counter-resistance that can lead to knee injuries, muscle strains, or collision injuries. Progress resistance gradually over weeks rather than immediately applying full defensive intensity. For both practitioners, ensuring adequate mat space and awareness of walls, other students, or obstacles prevents collision injuries during dynamic takedown practice. Knee health is paramount - penetration steps place significant stress on the lead knee, so proper warm-up, gradual intensity progression, and attention to any knee pain is critical."
+    "safety_considerations": "Double leg entries carry inherent risks that must be managed through proper technique and training progression. The primary safety concern is guillotine choke exposure - improper head position or premature reaching for legs creates immediate submission vulnerability. Always maintain head position awareness and drill defensive guillotine responses. During training, partners should apply guillotine pressure slowly to allow recognition and escape rather than sudden application. For the person being taken down, learning to breakfall properly is essential - landing with arms extended can cause wrist, elbow, or shoulder injuries. Practice taking the fall by turning to the side, distributing impact across back/shoulder, and keeping chin tucked. When drilling entries, the defending partner should allow controlled completion rather than explosive counter-resistance that can lead to knee injuries, muscle strains, or collision injuries. Progress resistance gradually over weeks rather than immediately applying full defensive intensity. For both practitioners, ensuring adequate mat space and awareness of walls, other students, or obstacles prevents collision injuries during dynamic takedown practice. Knee health is paramount - penetration steps place significant stress on the lead knee, so proper warm-up, gradual intensity progression, and attention to any knee pain is critical.",
+    "clips": [
+      {
+        "id": "Wy-a8VfNsVo",
+        "title": "Signature double leg entry",
+        "by": "Jordan Burroughs",
+        "vertical": false,
+        "channel": "United World Wrestling",
+        "duration": 73,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "roTSpQlBPyg",
+        "title": "Penetration step drill for the shot",
+        "by": "Dominik Haska",
+        "vertical": false,
+        "channel": "Dominik Haška",
+        "duration": 33,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "NmCH0gKeWiY",
+        "title": "Penetration step for the double leg",
+        "by": "Nicky Rodriguez",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 90,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Double Leg Entry Defender",
@@ -421,6 +450,35 @@
         "phase": "Week 9+: Competition-Speed Defense",
         "focus": "Full-speed defensive application with counter-attacking",
         "description": "Positional sparring starting from standing with partner focused on shooting double legs while you defend. Full speed and resistance. Develop personal defensive preferences and recognize which counter-attacks work best for your body type and game. Video review to identify defensive timing failures and positional breakdowns. Integrate takedown defense into full rolling sessions where the double leg is one of many threats requiring awareness."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Io79xaXZx_c",
+        "title": "Sprawling against the double leg",
+        "by": "A-Team BJJ coach",
+        "vertical": false,
+        "channel": "ateambjj",
+        "duration": 56,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "iPZ2ZB0A1Fs",
+        "title": "How to defend the double leg takedown",
+        "by": "NY Martial Arts Academy",
+        "vertical": false,
+        "channel": "NY Martial Arts Academy",
+        "duration": 85,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QhpRyI_HjcU",
+        "title": "Fixing common double leg defense errors",
+        "by": "Travis Rutt",
+        "vertical": false,
+        "channel": "FANATIC WRESTLING",
+        "duration": 79,
+        "verified": "2026-07-15"
       }
     ]
   },

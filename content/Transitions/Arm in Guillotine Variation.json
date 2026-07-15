@@ -278,7 +278,36 @@
         "answer": "When the arm-in guillotine stalls against a committed chin tuck, exploit the occupied head-and-arm position rather than forcing a defended choke. If the opponent turns away from the choking arm, thread your free arm under their trapped arm and transition to an anaconda or darce choke. If they posture and the choke is failing entirely, use the head control to advance position—pass to side control, step over to north-south, or take the back. Because the arm-in configuration keeps the opponent's near-side defensive arm trapped and useless, positional advancement is often higher-percentage than persisting with the stalled finish, and the choke threat keeps them from reacquiring guard."
       }
     ],
-    "safety_considerations": "The arm-in guillotine applies intense bilateral pressure to both carotid arteries simultaneously, with the opponent's own trapped shoulder assisting the compression. This can accelerate unconsciousness faster than standard guillotine variations—full blood flow restriction can occur within three to five seconds under proper compression. Always apply finishing pressure gradually and progressively, never with sudden jerking or spiking motions. Release immediately upon tap or any verbal signal. Monitor for signs of unconsciousness including body going limp, face color changes, or failure to respond. Ensure the trapped arm retains enough mobility for the defender to tap—never pin both arms simultaneously. During training, communicate with your partner about pressure levels and maintain awareness that the arm-in configuration restricts their ability to signal distress with the trapped hand."
+    "safety_considerations": "The arm-in guillotine applies intense bilateral pressure to both carotid arteries simultaneously, with the opponent's own trapped shoulder assisting the compression. This can accelerate unconsciousness faster than standard guillotine variations—full blood flow restriction can occur within three to five seconds under proper compression. Always apply finishing pressure gradually and progressively, never with sudden jerking or spiking motions. Release immediately upon tap or any verbal signal. Monitor for signs of unconsciousness including body going limp, face color changes, or failure to respond. Ensure the trapped arm retains enough mobility for the defender to tap—never pin both arms simultaneously. During training, communicate with your partner about pressure levels and maintain awareness that the arm-in configuration restricts their ability to signal distress with the trapped hand.",
+    "clips": [
+      {
+        "id": "NUnTxPvjCa0",
+        "title": "Marcelotine: Marcelo Garcia's arm-in guillotine",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "stuartcooperfilms",
+        "duration": 73,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8AGCNn4ElSA",
+        "title": "Lapel-assisted arm-in guillotine finish",
+        "by": "Johnny Jitsu",
+        "vertical": true,
+        "channel": "Johnny Jitsu",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Dg1dvtWkXhE",
+        "title": "Marcelotine guillotine breakdown",
+        "by": "Half The Battle",
+        "vertical": false,
+        "channel": "Half The Battle",
+        "duration": 110,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Arm in Guillotine Variation Defender",
@@ -402,6 +431,35 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Full resistance defense and decision-making under choke pressure",
         "description": "Positional sparring where partner starts with arm-in guillotine locked from various positions at full resistance. Defend by choosing between arm extraction, Von Flue counter, stacking, or tapping based on the depth and timing of the choke. Develop the decision tree for which defense applies in which scenario. Build the habit of tapping early when defenses fail rather than fighting through dangerous choke positions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "dyTKKiajgzQ",
+        "title": "Escaping single and double arm guillotines",
+        "by": "Cobrinha",
+        "vertical": false,
+        "channel": "Cobrinha Brazilian Jiu-Jitsu & Fitness",
+        "duration": 44,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Qb8gtundzPg",
+        "title": "Guillotine escape from inside the guard",
+        "by": "Ground Zero MMA",
+        "vertical": false,
+        "channel": "Ground Zero MMA,BJJ,Wresting,No Gi,Bridgend.",
+        "duration": 57,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "IdHNqDoxlGE",
+        "title": "Arm-in guillotine defence from closed guard",
+        "by": "Essence BJJ",
+        "vertical": false,
+        "channel": "Essence BJJ",
+        "duration": 158,
+        "verified": "2026-07-15"
       }
     ]
   }

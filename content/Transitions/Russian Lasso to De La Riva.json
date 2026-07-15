@@ -285,7 +285,27 @@
         "answer": "Initiate the lasso extraction within the context of an offensive movement such as a sweep attempt, grip fight, or angle change so the leg repositioning appears to be part of an attack rather than a guard switch. Avoid telegraphing cues like looking at the opponent's lead leg or making preparatory hip adjustments. The best disguise is combining the transition with a legitimate sweep threat from Russian Lasso, so the opponent must decide between defending the sweep and preventing the guard change."
       }
     ],
-    "safety_considerations": "This guard transition carries low injury risk as it involves leg repositioning rather than joint manipulation or impact. The primary safety concern is knee stress during rapid leg repositioning, particularly if the lasso leg becomes temporarily trapped during extraction. Practice the transition at slow speeds before adding tempo. Ensure the lasso leg has a clear extraction path before committing to avoid awkward knee angles under load. Partners should communicate immediately if the leg feels stuck during extraction to prevent forced movement that could strain the knee or ankle ligaments. Avoid explosive extraction movements when the lasso is tightly configured."
+    "safety_considerations": "This guard transition carries low injury risk as it involves leg repositioning rather than joint manipulation or impact. The primary safety concern is knee stress during rapid leg repositioning, particularly if the lasso leg becomes temporarily trapped during extraction. Practice the transition at slow speeds before adding tempo. Ensure the lasso leg has a clear extraction path before committing to avoid awkward knee angles under load. Partners should communicate immediately if the leg feels stuck during extraction to prevent forced movement that could strain the knee or ankle ligaments. Avoid explosive extraction movements when the lasso is tightly configured.",
+    "clips": [
+      {
+        "id": "CfUwaKU11dg",
+        "title": "De La Riva lasso sweep study",
+        "by": "Gustavo Batista",
+        "vertical": false,
+        "channel": "Tomer Alroy BJJ",
+        "duration": 128,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "meClUae7E6w",
+        "title": "De La Riva sweep to back take",
+        "by": "Michael Hoffman",
+        "vertical": false,
+        "channel": "Michael Hoffman",
+        "duration": 63,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Russian Lasso to De La Riva Defender",
@@ -410,6 +430,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance application",
         "description": "Start in Russian Leg Lasso top against a training partner who actively works to transition to DLR and attack. Apply recognition skills and counter-techniques under full competitive resistance. Track how often the transition is prevented versus completed and adjust your defensive timing based on results."
+      }
+    ],
+    "clips": [
+      {
+        "id": "krtNPm3OXtc",
+        "title": "Over-under stack pass against De La Riva",
+        "by": "Steven Balance",
+        "vertical": false,
+        "channel": "geministeven",
+        "duration": 163,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "6yFTfWUTJiI",
+        "title": "Collar and sleeve to shut down deep De La Riva",
+        "by": "Lucas Lepri",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 272,
+        "verified": "2026-07-15"
       }
     ]
   }

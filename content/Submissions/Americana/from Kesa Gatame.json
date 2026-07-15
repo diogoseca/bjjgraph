@@ -352,6 +352,26 @@
         "answer": "From Kesa Gatame, the arm is already trapped under your armpit, eliminating the initial arm isolation step required from standard side control. The perpendicular body angle creates a different leverage angle for the figure-four where your body weight drives more directly into the finishing motion. However, Kesa Gatame requires releasing head control for the figure-four, while standard side control allows maintaining crossface throughout. The scarf hold version also generates stronger natural chest pressure on the opponent's diaphragm, reducing their explosive defensive capacity during the finishing sequence.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "M7KvRNUC7FE",
+        "title": "Scarf Hold Americana",
+        "by": "Fensom Jiu Jitsu",
+        "vertical": false,
+        "channel": "Fensom Jiu Jitsu",
+        "duration": 105,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "SkFE9CBKvsA",
+        "title": "Modified Americana Grip",
+        "by": "BJJ After Forty",
+        "vertical": false,
+        "channel": "BJJ After Forty",
+        "duration": 61,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -482,6 +502,17 @@
         "phase": "Phase 4: Full Resistance Defense",
         "focus": "Complete defensive sequence against committed Americana attempts",
         "description": "Partner attacks the Americana from Kesa Gatame with full speed and intention. Combine all defensive tools: early wrist defense, timed bridges, grip anchoring, and hip escapes. If defense fails and the figure-four locks in, practice tapping early and identifying where the defensive sequence broke down. Three-minute rounds with full reset on tap or escape."
+      }
+    ],
+    "clips": [
+      {
+        "id": "c5GUAlY1YwE",
+        "title": "Scarf Hold Headlock Escape",
+        "by": "Clinch BJJ",
+        "vertical": false,
+        "channel": "Clinch Dirty Boxing-Brazilian Jiu-Jitsu-Krav Maga",
+        "duration": 141,
+        "verified": "2026-07-14"
       }
     ]
   }

@@ -293,7 +293,36 @@
         "answer": "When they ride the guard high to kill your hip extension, drop your hips and use a hand to walk one of their feet down off your back, or pin one knee across your centerline to flatten the ankle lock against the mat. Alternatively, sit your hips back and step one leg through to load their legs to one side, converting the failed straight break into a leg-pin or stack that pries the ankles apart. The principle is to break the high lock by attacking the feet directly or by changing the angle so gravity again loads the crossed ankles."
       }
     ],
-    "safety_considerations": "Standing up in closed guard carries inherent balance risks that both practitioners must manage. Ensure stable footing before committing to the standing motion, as falling backward while standing can cause injury to both players. Avoid explosive jerking motions when breaking the guard open, as sudden forceful guard breaks can strain the bottom player's lower back or ankles. When training this technique, bottom players should release their guard voluntarily if they feel excessive pressure on their ankles rather than holding a guard that is clearly broken. On mats with seams or uneven surfaces, check footing before standing to prevent slipping during the transition."
+    "safety_considerations": "Standing up in closed guard carries inherent balance risks that both practitioners must manage. Ensure stable footing before committing to the standing motion, as falling backward while standing can cause injury to both players. Avoid explosive jerking motions when breaking the guard open, as sudden forceful guard breaks can strain the bottom player's lower back or ankles. When training this technique, bottom players should release their guard voluntarily if they feel excessive pressure on their ankles rather than holding a guard that is clearly broken. On mats with seams or uneven surfaces, check footing before standing to prevent slipping during the transition.",
+    "clips": [
+      {
+        "id": "3tvI0nmCXRk",
+        "title": "3 ways to open closed guard by standing up",
+        "by": "RGA South Herts",
+        "vertical": false,
+        "channel": "RGA South Herts",
+        "duration": 63,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "RrD643OqTao",
+        "title": "Basic standing guard break and pass",
+        "by": "Rickson Gracie",
+        "vertical": false,
+        "channel": "Gallerr",
+        "duration": 66,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "E4UjJi0n0mM",
+        "title": "Vale tudo standing guard pass",
+        "by": "Adam Song",
+        "vertical": false,
+        "channel": "Adam Song MMA",
+        "duration": 51,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Stand Up in Closed Guard Defender",
@@ -417,6 +446,35 @@
         "phase": "Phase 4: Full Defense Positional Sparring",
         "focus": "Integrating all defensive layers under live resistance",
         "description": "Live positional sparring starting in closed guard where top player is specifically attempting to stand and break the guard. Bottom player uses all three defensive layers—prevention, counter-attack during transition, and controlled open guard transition. 3-minute rounds with reset on guard pass or sweep."
+      }
+    ],
+    "clips": [
+      {
+        "id": "weabtq_uapY",
+        "title": "Closed guard sweep when opponent stands up",
+        "by": "Crispim Soares",
+        "vertical": false,
+        "channel": "CrispimSoares",
+        "duration": 45,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dMcMblcXhF0",
+        "title": "Sweep from closed guard",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "Gentle Art Media",
+        "duration": 73,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "UhYqXfpluYs",
+        "title": "Detail to strengthen your closed guard",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 75,
+        "verified": "2026-07-15"
       }
     ]
   }

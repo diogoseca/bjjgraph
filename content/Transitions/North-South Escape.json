@@ -300,7 +300,27 @@
         "answer": "Establish a controlled breathing pattern by exhaling during moments of peak pressure and taking quick inhales during micro-adjustments in their weight. Turning slightly to angle your ribcage helps create breathing space. Avoid holding your breath or hyperventilating, as both lead to rapid fatigue and panic. Mental composure allows you to wait for proper timing rather than wasting energy on poorly-timed escape attempts that fail and further exhaust you."
       }
     ],
-    "safety_considerations": "When practicing the north-south escape, ensure controlled execution to avoid neck injuries from improper bridging mechanics or excessive force. The bridging motion should be powerful but controlled, with proper foot positioning to prevent strain on the lower back and neck. Partners should communicate clearly about resistance levels during training, especially when adding submission attempts into the drill. Beginners should master the basic movements with light resistance before progressing to full-speed execution. Be aware of submission threats throughout the escape sequence, particularly kimura, armbar, and choke attacks from the top position. If your partner attacks a submission during escape training, pause the escape and address the submission defense first. Never force the escape if it causes pain in your neck, shoulders, or spine. Proper mat space should be available for the bridging and rolling movements to prevent collisions with other practitioners."
+    "safety_considerations": "When practicing the north-south escape, ensure controlled execution to avoid neck injuries from improper bridging mechanics or excessive force. The bridging motion should be powerful but controlled, with proper foot positioning to prevent strain on the lower back and neck. Partners should communicate clearly about resistance levels during training, especially when adding submission attempts into the drill. Beginners should master the basic movements with light resistance before progressing to full-speed execution. Be aware of submission threats throughout the escape sequence, particularly kimura, armbar, and choke attacks from the top position. If your partner attacks a submission during escape training, pause the escape and address the submission defense first. Never force the escape if it causes pain in your neck, shoulders, or spine. Proper mat space should be available for the bridging and rolling movements to prevent collisions with other practitioners.",
+    "clips": [
+      {
+        "id": "XaLBmGnHm78",
+        "title": "North-south inverted spin escape",
+        "by": "SBG Australia",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 37,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "O9H8V9BL_b0",
+        "title": "Escaping the kesa-gatame pin",
+        "by": "Full Metal Jiu Jitsu",
+        "vertical": false,
+        "channel": "Full Metal Jiu Jitsu",
+        "duration": 79,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "North-South Escape Defender",
@@ -434,6 +454,35 @@
         "phase": "Phase 4: Submission Threat Integration",
         "focus": "Use submission attacks as escape-disruption tools",
         "description": "Incorporate kimura, armbar, and north-south choke threats into your retention game. Practice threatening submissions to disrupt escape sequences without fully committing weight shifts that compromise control. Develop the timing to attack when they frame, then immediately reconsolidate when they retract. Full resistance positional sparring rounds starting from north-south."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Yzd35ezo2OQ",
+        "title": "North-south counter to the underhook escape",
+        "by": "Paul McVeigh",
+        "vertical": false,
+        "channel": "Paul Mcveigh",
+        "duration": 76,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "LdjrPT6Wt7c",
+        "title": "How to hold north-south",
+        "by": "Inverted Gear",
+        "vertical": false,
+        "channel": "Inverted Gear",
+        "duration": 121,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "SPXanCnoBYA",
+        "title": "North-south choke as a pinning tool",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 135,
+        "verified": "2026-07-15"
       }
     ]
   },

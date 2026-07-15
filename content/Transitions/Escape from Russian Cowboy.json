@@ -278,7 +278,27 @@
         "answer": "After a failed attempt, reassess which control point the opponent re-established first, as this reveals their recovery priority and your best target for the next attempt. If they prioritized chest pressure, your frames were likely insufficient—use a deeper elbow post and angle your frame higher against their collarbone rather than their shoulder. If they prioritized the hook, chain multiple rapid hip escapes at changing angles rather than a single committed shrimp. Consider switching to the roll-under reversal variant if the frame-and-turn approach is consistently countered, as the change in escape direction forces the opponent to adapt their retention strategy."
       }
     ],
-    "safety_considerations": "When escaping Russian Cowboy, never attempt explosive neck movements or violent rolling that could compress the cervical spine under the opponent's weight. If a choke is secured during your escape attempt, tap immediately rather than continuing to fight the position—neck injuries from fighting locked chokes can be severe and career-ending. Be cautious when extracting the hooked leg to avoid knee or ankle strain from twisting against the hook under load. During drilling, communicate with your partner about hook pressure levels and transition speed to prevent accidental injury. Start all escape drilling at low intensity and build progressively."
+    "safety_considerations": "When escaping Russian Cowboy, never attempt explosive neck movements or violent rolling that could compress the cervical spine under the opponent's weight. If a choke is secured during your escape attempt, tap immediately rather than continuing to fight the position—neck injuries from fighting locked chokes can be severe and career-ending. Be cautious when extracting the hooked leg to avoid knee or ankle strain from twisting against the hook under load. During drilling, communicate with your partner about hook pressure levels and transition speed to prevent accidental injury. Start all escape drilling at low intensity and build progressively.",
+    "clips": [
+      {
+        "id": "Ly89G4iCTSQ",
+        "title": "Turtle no-grips escape rolling back to guard",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 108,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "3Jd2llamfl8",
+        "title": "Back control escape explained simply",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 189,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Escape from Russian Cowboy Defender",
@@ -398,6 +418,17 @@
         "phase": "Phase 3: Counter-Advancement Integration",
         "focus": "Converting escape attempts into positional advancement",
         "description": "Practice using the bottom player's escape movement to advance to full back control or set up submissions. When they create space, drill threading the second hook. When they abandon neck defense, drill committing to the choke. Develop the ability to transition between retention and advancement fluidly based on the escape direction and available openings."
+      }
+    ],
+    "clips": [
+      {
+        "id": "lpgcKpIgClw",
+        "title": "Why you keep losing the back — holding back control",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 143,
+        "verified": "2026-07-15"
       }
     ]
   }

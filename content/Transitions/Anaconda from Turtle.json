@@ -302,7 +302,27 @@
         "answer": "Your choking arm should maintain palm-down orientation throughout the entire threading process. This orientation positions the radius bone of your forearm to align directly against the carotid artery on one side of the neck while your bicep is optimally positioned for pressure on the opposite side after completing the roll. Palm-up threading results in the ulna bone contacting the neck instead, which creates windpipe pressure rather than carotid compression, producing discomfort without effective blood choke mechanics."
       }
     ],
-    "safety_considerations": "When practicing the anaconda from turtle, execute the rolling motion smoothly and controlled to prevent partner from landing awkwardly on their neck or being thrown with excessive force. Apply choking pressure gradually in training, never explosively or with full force, as bilateral chokes can cause unconsciousness within seconds once properly locked. Monitor partner's response carefully and release immediately upon tap signal - never hold chokes after submission. Ensure partner is prepared for the rolling motion before initiating and communicate during initial drilling phases. Be particularly mindful of neck safety during the roll transition, supporting partner's head and neck during the movement. In drilling, use progressive resistance to build coordination before attempting at full speed. Partners should communicate clearly about comfort level with rolling techniques and inversion. Never practice this technique on untrained partners who do not understand tap protocols. Be aware that bilateral blood chokes produce rapid unconsciousness - maintain constant awareness of partner's consciousness state and look for signs of distress beyond verbal tapping such as body going limp."
+    "safety_considerations": "When practicing the anaconda from turtle, execute the rolling motion smoothly and controlled to prevent partner from landing awkwardly on their neck or being thrown with excessive force. Apply choking pressure gradually in training, never explosively or with full force, as bilateral chokes can cause unconsciousness within seconds once properly locked. Monitor partner's response carefully and release immediately upon tap signal - never hold chokes after submission. Ensure partner is prepared for the rolling motion before initiating and communicate during initial drilling phases. Be particularly mindful of neck safety during the roll transition, supporting partner's head and neck during the movement. In drilling, use progressive resistance to build coordination before attempting at full speed. Partners should communicate clearly about comfort level with rolling techniques and inversion. Never practice this technique on untrained partners who do not understand tap protocols. Be aware that bilateral blood chokes produce rapid unconsciousness - maintain constant awareness of partner's consciousness state and look for signs of distress beyond verbal tapping such as body going limp.",
+    "clips": [
+      {
+        "id": "faFx9xOawS8",
+        "title": "Anaconda choke from top turtle",
+        "by": "Jiu Jitsu Kid",
+        "vertical": false,
+        "channel": "Jiu Jitsu Kid",
+        "duration": 108,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "SSWodDzj4-4",
+        "title": "Anaconda choke demonstration",
+        "by": "Grappler Station",
+        "vertical": false,
+        "channel": "Grappler Station",
+        "duration": 91,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Anaconda from Turtle Defender",
@@ -433,6 +453,35 @@
         "phase": "Live Positional Sparring (Week 9+)",
         "focus": "Applying defense under full resistance with integrated escape chains",
         "description": "Partner attacks anaconda from turtle with full intent. Defend using the complete hierarchy: prevent trap, fight grip, block roll, survive and escape after roll. Integrate anaconda defense with overall turtle escape system. Develop the ability to flow between anaconda defense and guard recovery or standup attempts."
+      }
+    ],
+    "clips": [
+      {
+        "id": "N9MbEtAv_Lw",
+        "title": "Anaconda choke defense",
+        "by": "Mamba BJJ",
+        "vertical": false,
+        "channel": "Mamba BJJ",
+        "duration": 62,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "s94GexEkoQ0",
+        "title": "Anaconda choke defense and counter",
+        "by": "Cyril Robert",
+        "vertical": false,
+        "channel": "Cyril Robert MMA",
+        "duration": 43,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Yqz0JQuZGes",
+        "title": "Anaconda defense into americana counter",
+        "by": "Gracie Barra Newcastle City",
+        "vertical": false,
+        "channel": "Gracie Barra Newcastle City",
+        "duration": 40,
+        "verified": "2026-07-15"
       }
     ]
   },

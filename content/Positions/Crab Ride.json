@@ -386,6 +386,26 @@
           "nogi": 5
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "Y6fBPjHzfv4",
+        "title": "DLR to crab ride back take",
+        "by": "Moncaio Brothers",
+        "vertical": false,
+        "channel": "Moncaio Brothers Jiujitsu",
+        "duration": 28,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "oxkUTA1yf-o",
+        "title": "Leg drag to crab ride back attack",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 24,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -675,6 +695,17 @@
           "nogi": 13
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "-S6bU0mQp1Y",
+        "title": "Escaping the crab ride",
+        "by": "Brian Hawkins",
+        "vertical": false,
+        "channel": "Brian Hawkins",
+        "duration": 78,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -709,6 +740,26 @@
     {
       "question": "Why is Crab Ride best understood as a branching fork rather than a position to be held?",
       "answer": "Its structural value comes from being a hub that simultaneously threatens back control, crucifix, and front-headlock chokes, so the turtled player faces a defensive dilemma among competing threats rather than one predictable attack. Because the lone hook and constantly adjusting perpendicular angle make it unsustainable to sit in statically, whoever rides it must cash the threat out before the turtle rebuilds and neutralizes the asymmetry. Defending one branch tends to open another, which is the leverage the position provides. Both players therefore treat it as a moment of decision where the exchange rapidly moves on to a more defined position."
+    }
+  ],
+  "clips": [
+    {
+      "id": "tsxvdEE_qCY",
+      "title": "Crab ride / claw ride setup",
+      "by": "myrmidonwrestling",
+      "vertical": false,
+      "channel": "myrmidonwrestling",
+      "duration": 86,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "aSrT9fosH-s",
+      "title": "Crab ride to the back",
+      "by": "Samuel Braga",
+      "vertical": false,
+      "channel": "Samuel Braga",
+      "duration": 65,
+      "verified": "2026-07-14"
     }
   ]
 }

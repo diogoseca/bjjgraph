@@ -303,7 +303,18 @@
         "answer": "When your shield begins to fail, the opponent is typically committing significant forward pressure and weight. Rather than purely recovering, use their committed weight against them. If they drive your shield down and to one side, underhook on the opposite side and initiate the Old School sweep, using their own pressure as the energy source. If they flatten your shield centrally, dive underneath them into deep half guard where their forward momentum carries them over your body. If they step through the shield, immediately hook their advancing leg with a butterfly hook and elevate for a sweep. Every failed retention creates a specific sweep opportunity based on how the opponent is loading their weight."
       }
     ],
-    "safety_considerations": "Knee Shield Retention is a relatively safe technique with minimal injury risk when practiced properly. The primary safety concern is avoiding knee hyperextension when opponent smashes down on your shield leg - always keep some bend in your knee and be ready to retract if heavy pressure comes down on top of your shin. For training partners working as the passer, avoid driving excessive weight onto the shield leg's knee joint, especially when the bottom player is new and may not have developed the muscular stability to support that pressure. When transitioning between positions, both partners should maintain control to avoid sudden weight shifts that could cause knee or ankle injuries. Practitioners with previous knee injuries should be especially cautious about maintaining proper angle on their shield leg and avoiding positions where the knee is exposed to lateral stress."
+    "safety_considerations": "Knee Shield Retention is a relatively safe technique with minimal injury risk when practiced properly. The primary safety concern is avoiding knee hyperextension when opponent smashes down on your shield leg - always keep some bend in your knee and be ready to retract if heavy pressure comes down on top of your shin. For training partners working as the passer, avoid driving excessive weight onto the shield leg's knee joint, especially when the bottom player is new and may not have developed the muscular stability to support that pressure. When transitioning between positions, both partners should maintain control to avoid sudden weight shifts that could cause knee or ankle injuries. Practitioners with previous knee injuries should be especially cautious about maintaining proper angle on their shield leg and avoiding positions where the knee is exposed to lateral stress.",
+    "clips": [
+      {
+        "id": "R0P8BvcJLAs",
+        "title": "Getting the underhook from knee shield half guard",
+        "by": "Bowerhouse MMA",
+        "vertical": false,
+        "channel": "BOWERHOUSE MMA",
+        "duration": 131,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Knee Shield Retention Defender",
@@ -439,6 +450,35 @@
         "phase": "Week 8+: Live Positional Sparring",
         "focus": "Full resistance passing against trained knee shield retention",
         "description": "Two-minute rounds starting from knee shield half guard. Top player must pass to side control or better. Bottom player uses full retention and offensive threats. Track success rate and identify which passing sequences work best against different body types and retention styles. Refine your approach based on real data."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Y815hmtzGZA",
+        "title": "Knee shield half guard pass",
+        "by": "Adam Metcalf",
+        "vertical": false,
+        "channel": "ADAM METCALF",
+        "duration": 30,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "yj_6xcl2emA",
+        "title": "Passing the knee shield with an inside knee cut",
+        "by": "War Room Jiu Jitsu",
+        "vertical": false,
+        "channel": "War Room Jiu Jitsu",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MvsgiCFdQPA",
+        "title": "Passing the knee shield from over-under",
+        "by": "Paragon Jiu-Jitsu Austin",
+        "vertical": false,
+        "channel": "Paragon Jiu-Jitsu Academy Austin",
+        "duration": 116,
+        "verified": "2026-07-15"
       }
     ]
   },

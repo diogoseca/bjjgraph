@@ -285,7 +285,27 @@
         "answer": "If the pass fails, three primary follow-up options remain from Leg Hook Top: consolidate to Half Guard Top via the Leg Hook to Half Guard transition for a stable passing reset, reattempt using a different extraction variant that addresses the specific defense that blocked the initial attempt, or chain into submission threats like kimura or darce choke that exploit the defensive commitments the bottom player made to block the pass. The worst option is to remain stalled in leg hook with no clear objective."
       }
     ],
-    "safety_considerations": "The Leg Hook to Side Control transition carries low injury risk compared to submissions but requires attention to knee safety during the leg extraction phase. Avoid twisting or torquing either player's knee through the entanglement during extraction—the leg should clear through angular motion, not rotational force on the joint. During drilling, perform the extraction at controlled speed and communicate with training partners about knee discomfort. When consolidating side control, avoid placing full body weight directly on the sternum or floating ribs. Be mindful of neck pressure during the crossface—the shoulder should drive the jaw, not compress the windpipe."
+    "safety_considerations": "The Leg Hook to Side Control transition carries low injury risk compared to submissions but requires attention to knee safety during the leg extraction phase. Avoid twisting or torquing either player's knee through the entanglement during extraction—the leg should clear through angular motion, not rotational force on the joint. During drilling, perform the extraction at controlled speed and communicate with training partners about knee discomfort. When consolidating side control, avoid placing full body weight directly on the sternum or floating ribs. Be mindful of neck pressure during the crossface—the shoulder should drive the jaw, not compress the windpipe.",
+    "clips": [
+      {
+        "id": "kTSMGYlVJKY",
+        "title": "Free your foot from half guard to finish the pass",
+        "by": "Kameron Ross",
+        "vertical": false,
+        "channel": "Kameron Ross",
+        "duration": 55,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "gh4rAQmG2wU",
+        "title": "Throw-by leg pass to side control",
+        "by": "Danny Stolfi",
+        "vertical": false,
+        "channel": "Digitsu",
+        "duration": 89,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Leg Hook to Side Control Defender",
@@ -410,6 +430,26 @@
         "phase": "Phase 4: Live Application",
         "focus": "Defending under full resistance in positional sparring",
         "description": "Positional sparring starting from Leg Hook Bottom with the top player attempting to pass to side control. Both players at full intensity. Track which defensive options succeed and fail to calibrate your decision making for which counters work against which extraction variants under real conditions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "lVLAROiSjNU",
+        "title": "Guard retention — when to sit up and escape",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 136,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Bp0v7c_MrbY",
+        "title": "Recovering to feet on biceps to stop the pass",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 125,
+        "verified": "2026-07-15"
       }
     ]
   }

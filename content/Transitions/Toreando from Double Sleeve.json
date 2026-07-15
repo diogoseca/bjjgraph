@@ -299,7 +299,36 @@
         "answer": "The most common failure is releasing pants control or lifting the chest too early before the hips have fully cleared the opponent's leg line. When you release control while your hips are still in line with their legs, the opponent inserts a knee shield or hooks your trailing leg with their bottom leg, catching you in half guard. The correction is maintaining bilateral leg control until your chest is dropping onto their upper body and your hips are fully past their legs."
       }
     ],
-    "safety_considerations": "The Toreando from Double Sleeve is a relatively low-risk technique in terms of injury potential, but practitioners should be mindful of several safety factors. During explosive grip breaks, avoid hyperextending your own wrists or elbows by using proper mechanics. When swinging the opponent's legs laterally, control the speed to prevent knee or hip strain on the bottom player. During training, communicate with your partner and avoid dropping your full weight aggressively when establishing side control, particularly with less experienced training partners."
+    "safety_considerations": "The Toreando from Double Sleeve is a relatively low-risk technique in terms of injury potential, but practitioners should be mindful of several safety factors. During explosive grip breaks, avoid hyperextending your own wrists or elbows by using proper mechanics. When swinging the opponent's legs laterally, control the speed to prevent knee or hip strain on the bottom player. During training, communicate with your partner and avoid dropping your full weight aggressively when establishing side control, particularly with less experienced training partners.",
+    "clips": [
+      {
+        "id": "N4M0VWhDkMA",
+        "title": "Two ways to pass the collar-and-sleeve guard",
+        "by": "Carpio Jiu Jitsu",
+        "vertical": false,
+        "channel": "Carpio Jiu Jitsu",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Ae6DgOYvVec",
+        "title": "C-grip toreando pass against the frame",
+        "by": "Isaac Doederlein",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 158,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "nolXMAMiIMU",
+        "title": "Double arm (sleeve) guard pass",
+        "by": "10th Planet Costa Mesa",
+        "vertical": false,
+        "channel": "10th Planet Costa Mesa",
+        "duration": 23,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Toreando from Double Sleeve Defender",
@@ -420,6 +449,26 @@
         "phase": "Phase 4: Live Guard Retention",
         "focus": "Full resistance guard retention against toreando",
         "description": "Positional sparring where the top player specifically attempts toreando passes from double sleeve. Practice the full defensive chain: grip retention, regripping, foot framing, guard transitions, and hip escape reguarding. Measure success by guard retention time and recovery rate after partial passes."
+      }
+    ],
+    "clips": [
+      {
+        "id": "T_GhZe_MOWI",
+        "title": "Grip chain for guard retention",
+        "by": "Xande Ribeiro",
+        "vertical": false,
+        "channel": "XANDE RIBEIRO",
+        "duration": 174,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "w32XrGgws3w",
+        "title": "Cross-knee defense near shoulder pressure",
+        "by": "Xande Ribeiro",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 217,
+        "verified": "2026-07-15"
       }
     ]
   }

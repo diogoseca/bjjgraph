@@ -303,7 +303,27 @@
         "answer": "Immediately transition to a guard recovery escape rather than attempting a second bridge from a compromised position. Shrimp your hips away from the opponent while the space from the first bridge still exists, insert your near-side knee between your bodies as a shield, and work to recover half guard or full guard. A partial bridge that leads to guard recovery is a successful outcome—you escaped mount, which was the primary objective. Attempting a second bridge from the same setup rarely works because the top player is now alert and has adjusted their base."
       }
     ],
-    "safety_considerations": "Bridge escapes generate significant force through the cervical spine and neck. Ensure proper head positioning throughout the bridge, tucking chin to chest rather than extending the neck backward. When drilling with partners, the person being bridged should tap or verbalize if they feel uncomfortable with the rotational force. Avoid explosive bridges against rigid, braced partners who refuse to roll, as this can cause neck and shoulder injuries to both practitioners. During training, the top player should flow with the bridge rather than posting rigidly on the face or neck. If you experience any neck pain or discomfort during bridge practice, stop immediately and consult your instructor."
+    "safety_considerations": "Bridge escapes generate significant force through the cervical spine and neck. Ensure proper head positioning throughout the bridge, tucking chin to chest rather than extending the neck backward. When drilling with partners, the person being bridged should tap or verbalize if they feel uncomfortable with the rotational force. Avoid explosive bridges against rigid, braced partners who refuse to roll, as this can cause neck and shoulder injuries to both practitioners. During training, the top player should flow with the bridge rather than posting rigidly on the face or neck. If you experience any neck pain or discomfort during bridge practice, stop immediately and consult your instructor.",
+    "clips": [
+      {
+        "id": "v6XzfCbx3H0",
+        "title": "Quarter guard mount escape to deep half",
+        "by": "Third Dimension Jiu Jitsu",
+        "vertical": false,
+        "channel": "THIRD DIMENSION JIU JITSU ",
+        "duration": 35,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8nZrMOEgtfU",
+        "title": "Neck clamp reversal from bottom",
+        "by": "Animal",
+        "vertical": false,
+        "channel": "Animal",
+        "duration": 74,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Bridge Escape from 3-4 Mount Defender",
@@ -424,6 +444,17 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full-speed defense with realistic resistance",
         "description": "Three-minute rounds starting in 3-4 mount with the bottom player attempting any escape at full intensity. Focus on reading setups, defending bridges, and maintaining top control or transitioning to better positions. Rotate partners to experience different escape styles and body types."
+      }
+    ],
+    "clips": [
+      {
+        "id": "r3YtZkGq29Q",
+        "title": "Passing 3/4 mount with the pry",
+        "by": "Double Phoenix Jiu Jitsu",
+        "vertical": false,
+        "channel": "Double Phoenix Jiu Jitsu",
+        "duration": 220,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -279,7 +279,27 @@
         "answer": "Turtle base provides immediate four-point stability that prevents the attacker from re-capturing your leg during the vulnerable transition moment. Standing attempts require basing on one leg, leaving the other momentarily exposed to re-capture or single leg attacks. Turtle also protects against the attacker diving on a takedown as you try to stand. Establish turtle first to create distance and defensive structure, then work toward standing or guard recovery from the more stable four-point platform."
       }
     ],
-    "safety_considerations": "The turn and extract must be executed with careful awareness of knee joint loading during the rotation. Never force the rotation if the attacker has achieved full hyperextension, as this can create dangerous rotational stress on an already compromised knee. Tap immediately if you feel sharp pain in the knee joint during the escape attempt. In training, communicate with your partner about resistance levels and practice the rotation at controlled speeds until mechanics are well-established. The knee is particularly vulnerable during this escape because rotation occurs while the joint is under extension stress, creating compound force vectors on the ligaments."
+    "safety_considerations": "The turn and extract must be executed with careful awareness of knee joint loading during the rotation. Never force the rotation if the attacker has achieved full hyperextension, as this can create dangerous rotational stress on an already compromised knee. Tap immediately if you feel sharp pain in the knee joint during the escape attempt. In training, communicate with your partner about resistance levels and practice the rotation at controlled speeds until mechanics are well-established. The knee is particularly vulnerable during this escape because rotation occurs while the joint is under extension stress, creating compound force vectors on the ligaments.",
+    "clips": [
+      {
+        "id": "MqtG9kuVt-Q",
+        "title": "Roll-through escape to extract the leg from a kneebar",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "NuWBh3LN-SY",
+        "title": "Turning out of the kneebar and taking the back",
+        "by": "Bicudo BJJ",
+        "vertical": false,
+        "channel": "Bicudo BJJ",
+        "duration": 22,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Turn and Extract from Kneebar Defender",
@@ -400,6 +420,35 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Full resistance decision-making",
         "description": "Start in kneebar control with partner attempting any escape method. Maintain control, finish the submission, or transition to better position. Develops realistic reaction timing and strategic choices between maintaining and transitioning"
+      }
+    ],
+    "clips": [
+      {
+        "id": "SmyTA2P_RZk",
+        "title": "Knee bar escape mechanics",
+        "by": "Tom DeBlass",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 142,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "eoFrZfJBlvw",
+        "title": "Kneebar escapes breakdown",
+        "by": "Dean Lister",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 158,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "NHyBpBC4apY",
+        "title": "Knee bar defense details",
+        "by": "Clark Gracie",
+        "vertical": false,
+        "channel": "Clark Gracie Allegiance Jiu Jitsu",
+        "duration": 138,
+        "verified": "2026-07-15"
       }
     ]
   }

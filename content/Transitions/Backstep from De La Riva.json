@@ -293,7 +293,27 @@
         "answer": "Pants grips on the opponent's legs serve as your primary control mechanism during the rotation, functioning as a steering wheel that manages the guard player's lower body trajectory. They prevent the opponent from following your rotation with their hips, restrict their ability to insert new hooks or frames, and provide the foundation for immediate consolidation after hook clearance. Maintaining at least one strong pants grip throughout the entire backstep is non-negotiable for consistent success."
       }
     ],
-    "safety_considerations": "The backstep from De La Riva involves rotational forces on both players' knees that must be managed carefully during training. Execute the backstep with controlled hip rotation rather than violent twisting to avoid knee ligament strain on your partner's hooked leg, particularly when their foot is wrapped behind your knee. During drilling, use moderate speed until mechanics are smooth, and communicate with your partner if the hook is deeply set and resisting rotation. Be mindful of collision risk during the rotation in crowded training spaces, and always check your surroundings before performing the backstep arc."
+    "safety_considerations": "The backstep from De La Riva involves rotational forces on both players' knees that must be managed carefully during training. Execute the backstep with controlled hip rotation rather than violent twisting to avoid knee ligament strain on your partner's hooked leg, particularly when their foot is wrapped behind your knee. During drilling, use moderate speed until mechanics are smooth, and communicate with your partner if the hook is deeply set and resisting rotation. Be mindful of collision risk during the rotation in crowded training spaces, and always check your surroundings before performing the backstep arc.",
+    "clips": [
+      {
+        "id": "H9hckrLXcRQ",
+        "title": "De La Riva to Leg Drag pass",
+        "by": "Alavanca",
+        "vertical": false,
+        "channel": "Alavanca",
+        "duration": 29,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ZaIgVPdXIFE",
+        "title": "Long step pass against De La Riva guard",
+        "by": "Greg Hernandez",
+        "vertical": false,
+        "channel": "GREG HERNANDEZ",
+        "duration": 130,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Backstep from De La Riva Defender",
@@ -414,6 +434,26 @@
         "phase": "Phase 4: Live Defense Integration",
         "focus": "Full resistance defensive application against mixed passing attacks",
         "description": "Positional sparring from DLR guard where the passer mixes backstep attempts with toreando, knee slice, and other passes. Defender practices reading the passer's intentions and applying the correct defensive response for each passing attempt. Track which defensive tier (hook retention, RDLR transition, or back take) you employ and your success rate with each."
+      }
+    ],
+    "clips": [
+      {
+        "id": "a3ModDEKY6s",
+        "title": "Defending the backstep pass from De La Riva",
+        "by": "Inverted Gear",
+        "vertical": false,
+        "channel": "Inverted Gear",
+        "duration": 145,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Tcd_wHmmNOk",
+        "title": "Stop getting your leg trapped in De La Riva",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ",
+        "duration": 156,
+        "verified": "2026-07-15"
       }
     ]
   }

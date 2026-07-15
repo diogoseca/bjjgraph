@@ -376,6 +376,35 @@
         "question": "What specific pressure application technique distinguishes a high-level Dogfight player from an intermediate one?",
         "answer": "High-level Dogfight players use directional pressure changes rather than constant unidirectional driving. Instead of simply pushing forward, they alternate between driving forward into the opponent, pulling laterally to off-balance, and momentarily releasing pressure to create reactions. This push-pull rhythm forces the opponent to constantly readjust their base, creating the split-second windows needed for sweeps and back takes. The advanced practitioner also uses their head as a fifth limb, pressing it into the opponent's chest or chin to create additional control vectors and make the opponent carry extra weight through awkward angles."
       }
+    ],
+    "clips": [
+      {
+        "id": "InGMvIP5tqg",
+        "title": "3 Submissions from the Dog Fight",
+        "by": "Geo Martinez",
+        "vertical": true,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "vMqDIi10z4k",
+        "title": "Dog Bar",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "4rXi8YQ3o5k",
+        "title": "Pass the Dog Fight to Mount",
+        "by": "Christian Diaz",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 241,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -712,6 +741,35 @@
         "question": "What specific pressure application technique distinguishes a high-level Dogfight player from an intermediate one?",
         "answer": "High-level Dogfight players use directional pressure changes rather than constant unidirectional driving. Instead of simply pushing forward, they alternate between driving forward into the opponent, pulling laterally to off-balance, and momentarily releasing pressure to create reactions. This push-pull rhythm forces the opponent to constantly readjust their base, creating the split-second windows needed for sweeps and back takes. The advanced practitioner also uses their head as a fifth limb, pressing it into the opponent's chest or chin to create additional control vectors and make the opponent carry extra weight through awkward angles."
       }
+    ],
+    "clips": [
+      {
+        "id": "8mXBDHXrAu4",
+        "title": "Whizzer to Win the Dog Fight",
+        "by": "Wrecking Crew BJJ",
+        "vertical": false,
+        "channel": "Wrecking Crew BJJ",
+        "duration": 60,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "OAlwVyNmNqE",
+        "title": "Bottom Half Guard to Dogfight Back Take",
+        "by": "Broadway JiuJitsu",
+        "vertical": false,
+        "channel": "Broadway JiuJitsu",
+        "duration": 148,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "OghklyfXB-Q",
+        "title": "Coyote Half Guard to Rollover Sweep",
+        "by": "Holy Grail BJJ",
+        "vertical": false,
+        "channel": "Holy Grail BJJ",
+        "duration": 103,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -742,6 +800,35 @@
     {
       "question": "Which adjacent positions does the Dogfight most commonly flow into, and what triggers each transition?",
       "answer": "The Dogfight sits at a crossroads of half guard exchanges and resolves along a few predictable lines. If forward pressure and a heavy whizzer drive the underhooking player downward, the position collapses back into flattened half guard or ducks under into deep half guard. If a player secures the deep underhook and the opponent overcommits or exposes their back while circling, it advances toward back control or a sweep to side control or mount. When one player wins the underhook and pressure race decisively, the exchange tips into a dominant top position; when they lose it, they regress to a defensive guard. Recognizing which trigger is present, an exposed back, a wide post, or collapsing frames, tells both players which adjacent position the scramble is about to become."
+    }
+  ],
+  "clips": [
+    {
+      "id": "X4jR2wWOy2M",
+      "title": "Half Guard to the Dogfight",
+      "by": "The Base Jiu Jitsu",
+      "vertical": false,
+      "channel": "The Base Jiu Jitsu",
+      "duration": 79,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "fjDBmFzfhgI",
+      "title": "Dog Fight Basics: Plan B & Old School Sweep",
+      "by": "Brandon Mccaghren",
+      "vertical": false,
+      "channel": "Brandon Mccaghren",
+      "duration": 145,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "0uz58YFhIv8",
+      "title": "Understanding the Timing of the Dog Fight",
+      "by": "Brandon Mccaghren",
+      "vertical": false,
+      "channel": "Brandon Mccaghren",
+      "duration": 187,
+      "verified": "2026-07-14"
     }
   ]
 }

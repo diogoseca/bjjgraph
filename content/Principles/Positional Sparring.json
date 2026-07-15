@@ -439,5 +439,25 @@
       "question": "How can progressive constraints accelerate skill development?",
       "answer": "Systematically adding restrictions (grip limits, banned techniques, time caps) removes familiar options, forcing technical creativity and revealing gaps that full-freedom rounds would let you avoid."
     }
+  ],
+  "clips": [
+    {
+      "id": "U4E5caVacD4",
+      "title": "Why positional sparring works",
+      "by": "Dante Leon",
+      "vertical": false,
+      "channel": "BjjBrick",
+      "duration": 37,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "9mUzVwippH0",
+      "title": "The positional sparring training method",
+      "by": "Alec Baulding",
+      "vertical": false,
+      "channel": "Alec Baulding",
+      "duration": 121,
+      "verified": "2026-07-15"
+    }
   ]
 }

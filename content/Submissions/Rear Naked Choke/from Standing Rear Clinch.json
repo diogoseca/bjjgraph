@@ -371,6 +371,26 @@
         "question": "Why is chest expansion more effective than arm squeezing alone for finishing the standing RNC?",
         "answer": "Chest expansion engages the large muscles of the back and chest (latissimus dorsi, pectorals, rhomboids) to generate compressive force against the opponent's back, which transmits through the locked figure-four to compress the neck from the posterior direction. This creates a vice-like effect where the forearm compresses from the front and the chest-driven pressure compresses from the back simultaneously. Arm squeezing alone uses only the biceps and forearms, which fatigue rapidly under sustained contraction and generate significantly less total force. The chest expansion method also naturally drives the shoulder blades together, which pulls the elbows toward centerline and tightens the figure-four without additional arm effort. This biomechanical advantage means practitioners can maintain effective finishing pressure for much longer periods."
       }
+    ],
+    "clips": [
+      {
+        "id": "PxeYMAji5Vg",
+        "title": "Rear clinch takedown to the back",
+        "by": "Bushido BJJ",
+        "vertical": false,
+        "channel": "Bushido Brazilian Jiu-jitsu ",
+        "duration": 81,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "FvT_Ffy68OI",
+        "title": "Takedown to rear naked choke setup",
+        "by": "Fit To Fight Republic",
+        "vertical": false,
+        "channel": "Fit To Fight Republic",
+        "duration": 38,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -522,6 +542,35 @@
         "phase": "Phase 4: Full Resistance Survival",
         "focus": "Defending and escaping standing RNC under competition conditions",
         "description": "Positional sparring starting from standing rear clinch with opponent actively pursuing the RNC. Practice full defensive sequence from recognition through escape against complete resistance. Track escape success rates and identify which defensive sequences work best against different attacker body types and styles. Emphasize staying calm and technical under maximum pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "dTIDRA-0YY0",
+        "title": "Defense to rear choke from behind",
+        "by": "Gracie Charlottesville",
+        "vertical": false,
+        "channel": "Gracie Charlottesville",
+        "duration": 38,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "F9NRcVxEo8w",
+        "title": "How to escape a rear choke hold",
+        "by": "The Martial Way Dojo",
+        "vertical": false,
+        "channel": "The Martial Way Dojo",
+        "duration": 60,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "QQFbYx_ARQo",
+        "title": "Rear choke release",
+        "by": "Allen's American Martial Arts",
+        "vertical": false,
+        "channel": "Allen's American Martial Arts",
+        "duration": 34,
+        "verified": "2026-07-14"
       }
     ]
   }

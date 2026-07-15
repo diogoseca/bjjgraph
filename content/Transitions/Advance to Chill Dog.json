@@ -283,7 +283,36 @@
         "answer": "Immediately clamp down on the overhook by driving your shoulder deeper into their armpit and pulling your elbow tight to your ribs. If extraction has progressed past the point of recovery, abandon the Chill Dog attempt and transition to a triangle by shooting your threading leg over their newly freed shoulder. Their arm extraction creates the exact space needed for a triangle entry, turning their escape into your submission opportunity."
       }
     ],
-    "safety_considerations": "This transition involves significant pressure on both practitioners' bodies and requires careful training progression. For the bottom player, hip flexibility limitations can cause strain if the technique is forced - always warm up thoroughly and respect your body's range of motion. For the top player, the eventual Chill Dog position creates neck compression that can be dangerous if applied explosively. Train the transition with control, tap early during the learning phase, and communicate clearly with training partners about pressure levels. Avoid this technique if you have existing hip, knee, or neck injuries. In competition, be aware that some rulesets restrict certain Rubber Guard finishing techniques - verify legality before relying on this pathway."
+    "safety_considerations": "This transition involves significant pressure on both practitioners' bodies and requires careful training progression. For the bottom player, hip flexibility limitations can cause strain if the technique is forced - always warm up thoroughly and respect your body's range of motion. For the top player, the eventual Chill Dog position creates neck compression that can be dangerous if applied explosively. Train the transition with control, tap early during the learning phase, and communicate clearly with training partners about pressure levels. Avoid this technique if you have existing hip, knee, or neck injuries. In competition, be aware that some rulesets restrict certain Rubber Guard finishing techniques - verify legality before relying on this pathway.",
+    "clips": [
+      {
+        "id": "Q2aYW-20B44",
+        "title": "Meathook to Chill Dog to kimura finishes",
+        "by": "Marshall Stamper",
+        "vertical": false,
+        "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
+        "duration": 73,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2zillrf6gGs",
+        "title": "Closed guard entry to Chill Dog to omoplata",
+        "by": "Marshall Stamper",
+        "vertical": false,
+        "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
+        "duration": 195,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "wUDqbU2jwxg",
+        "title": "Rubber guard positions: Zombie, New York, Chill Dog",
+        "by": "Submissions101",
+        "vertical": false,
+        "channel": "Submissions101",
+        "duration": 278,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Advance to Chill Dog Defender",
@@ -418,6 +447,35 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Begin from New York with partner attempting full Rubber Guard progression including Chill Dog advancement. Defend with full resistance and chain defenses together when individual techniques fail. Track which recognition cues you respond to fastest and which defensive options yield the highest success rate."
+      }
+    ],
+    "clips": [
+      {
+        "id": "huzjQNiJu7Y",
+        "title": "Rubber guard quick fix",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 65,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "cY1xCIx-9-I",
+        "title": "2 simple rubber guard tips",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 57,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "WliTCjEDA-8",
+        "title": "Basic entries into rubber guard",
+        "by": "BJJ4Breakfast coach",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 106,
+        "verified": "2026-07-15"
       }
     ]
   },

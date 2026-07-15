@@ -285,7 +285,27 @@
         "answer": "The outside hand post signals an Old School sweep setup. They need this post as a fulcrum to drive the rolling sweep. Immediately widen your base in the direction opposite to their intended roll and increase crossface pressure to limit their bridging power. Do not post your own hand near their hip as this gives them an additional leverage point. If you sense the sweep momentum beginning, reset your base completely rather than fighting through it."
       }
     ],
-    "safety_considerations": "This pass involves controlled leg extraction from an entanglement that places stress on the knee and ankle joints. Avoid explosive twisting motions that could strain the trapped knee. If the lockdown creates sharp pain in the knee joint, tap and reset rather than forcing through the extraction. Partners should release lockdown pressure immediately upon tap. During training, communicate about knee sensitivity before drilling and use gradual progressive resistance rather than starting at full intensity."
+    "safety_considerations": "This pass involves controlled leg extraction from an entanglement that places stress on the knee and ankle joints. Avoid explosive twisting motions that could strain the trapped knee. If the lockdown creates sharp pain in the knee joint, tap and reset rather than forcing through the extraction. Partners should release lockdown pressure immediately upon tap. During training, communicate about knee sensitivity before drilling and use gradual progressive resistance rather than starting at full intensity.",
+    "clips": [
+      {
+        "id": "PptkZQh_MFA",
+        "title": "Escaping and passing the lockdown",
+        "by": "Thunderdome BJJ coach",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 31,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ABSueJ6cwis",
+        "title": "Lockdown half guard pass with backstep",
+        "by": "Peter Mettler",
+        "vertical": false,
+        "channel": "Peter Mettler Martial Arts",
+        "duration": 98,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Pass Vaporizer Position Defender",
@@ -401,6 +421,35 @@
         "phase": "Phase 3: Full Positional Sparring",
         "focus": "Integrating all defensive and offensive tools in live conditions",
         "description": "Full resistance positional sparring starting from the Vaporizer. Partner attempts to pass while you defend and counter-attack. Practice the full decision tree: retain lockdown, counter with sweep, threaten submission, or accept half guard retention as a last resort. Complete 5-minute rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "AmOMN0S1v8Q",
+        "title": "Advanced lockdown details",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "oSQ7BHerIow",
+        "title": "Lockdown strategies",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8ZgEL2zU_jg",
+        "title": "Lockdown to vaporizer",
+        "by": "Axel Collazo",
+        "vertical": false,
+        "channel": "Axel Collazo",
+        "duration": 98,
+        "verified": "2026-07-15"
       }
     ]
   }

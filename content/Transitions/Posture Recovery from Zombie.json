@@ -296,7 +296,36 @@
         "answer": "This is a common transition the bottom player makes when they feel the lockdown losing effectiveness. Immediately counter by driving a deep whizzer over their underhook arm while simultaneously sprawling your hips back to create downward pressure on their shoulder. The sprawl prevents them from completing the sit-up to dogfight, while the whizzer removes their underhook leverage. If they manage to reach dogfight despite your counter, crossface aggressively and drive them back to the mat rather than engaging in the dogfight exchange where they have sweep opportunities."
       }
     ],
-    "safety_considerations": "Posture recovery from Zombie involves significant forces on the knee and ankle of the trapped leg due to lockdown tension. Never attempt explosive jerking motions to free the leg, as this can cause medial collateral ligament strain or ankle injuries. During training, communicate with your partner about lockdown tightness and tap if you feel sharp pain in the trapped knee. The crossface pressure used during recovery should be firm but controlled, avoiding direct pressure on the throat or windpipe. Partners playing Zombie bottom should gradually release lockdown tension if the top player signals discomfort rather than maintaining maximum grip."
+    "safety_considerations": "Posture recovery from Zombie involves significant forces on the knee and ankle of the trapped leg due to lockdown tension. Never attempt explosive jerking motions to free the leg, as this can cause medial collateral ligament strain or ankle injuries. During training, communicate with your partner about lockdown tightness and tap if you feel sharp pain in the trapped knee. The crossface pressure used during recovery should be firm but controlled, avoiding direct pressure on the throat or windpipe. Partners playing Zombie bottom should gradually release lockdown tension if the top player signals discomfort rather than maintaining maximum grip.",
+    "clips": [
+      {
+        "id": "kTSMGYlVJKY",
+        "title": "Free your trapped foot while passing half guard",
+        "by": "Kameron Ross",
+        "vertical": false,
+        "channel": "Kameron Ross",
+        "duration": 55,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Y4eC_7dtzOA",
+        "title": "Passing the lockdown half guard",
+        "by": "Peter Mettler",
+        "vertical": false,
+        "channel": "Peter Mettler Martial Arts",
+        "duration": 73,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ABSueJ6cwis",
+        "title": "Lockdown pass with the backstep",
+        "by": "Peter Mettler",
+        "vertical": false,
+        "channel": "Peter Mettler Martial Arts",
+        "duration": 98,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Posture Recovery from Zombie Defender",
@@ -426,6 +455,26 @@
         "phase": "Phase 4: Full Resistance Positional Sparring",
         "focus": "Complete defensive game plan under competition conditions",
         "description": "Start in Zombie bottom with partner at full resistance attempting posture recovery and passing. Apply all defensive tools including lockdown maintenance, sweep threats, guard recovery, and transition options. Analyze success rate and identify which defensive responses work best against different recovery strategies."
+      }
+    ],
+    "clips": [
+      {
+        "id": "OIr4wDxl-Ys",
+        "title": "Lockdown clinches to keep the top man broken down",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "oSQ7BHerIow",
+        "title": "Lockdown strategies from bottom half guard",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
       }
     ]
   }

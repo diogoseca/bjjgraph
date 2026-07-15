@@ -285,7 +285,36 @@
         "answer": "The initial setup is identical — same grips, same hook, same angle. The decision point comes from reading the opponent's defensive choice. If they keep a narrow base with weight centered, sweep laterally since they lack the wide base to resist. If they widen their base and drop their hips, invert for the back take since the wide stance creates space underneath them. This shared setup is what makes the dilemma effective — the opponent cannot determine your intended attack until you commit, and their defensive choice against one attack opens the other."
       }
     ],
-    "safety_considerations": "The Squid Guard Sweep involves significant rotational forces on both practitioners' knee and ankle joints. The threading leg must maintain proper alignment throughout the sweep to avoid knee torque injuries from twisting under load. When drilling, execute the sweep with controlled rotation rather than explosive jerking motions that can strain the bottom player's hip flexors or the top player's knees during the fall. Partners should communicate about lapel tightness to prevent circulation restriction in the wrapped leg. The falling partner should practice breakfalls to absorb the sweep impact safely, and both practitioners should tap immediately if any joint discomfort occurs during the sweep rotation."
+    "safety_considerations": "The Squid Guard Sweep involves significant rotational forces on both practitioners' knee and ankle joints. The threading leg must maintain proper alignment throughout the sweep to avoid knee torque injuries from twisting under load. When drilling, execute the sweep with controlled rotation rather than explosive jerking motions that can strain the bottom player's hip flexors or the top player's knees during the fall. Partners should communicate about lapel tightness to prevent circulation restriction in the wrapped leg. The falling partner should practice breakfalls to absorb the sweep impact safely, and both practitioners should tap immediately if any joint discomfort occurs during the sweep rotation.",
+    "clips": [
+      {
+        "id": "mIUc5788gsw",
+        "title": "Squid guard entry vs standing then sweep",
+        "by": "Adam Bradley",
+        "vertical": false,
+        "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
+        "duration": 56,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MrhKi486Wr4",
+        "title": "Squid guard to switch X guard sweep",
+        "by": "BJJ Online",
+        "vertical": false,
+        "channel": "BJJ ONLINE",
+        "duration": 77,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "A_W-xOWwNaM",
+        "title": "Squid guard variations and sweeps",
+        "by": "PTC Combat Fitness",
+        "vertical": false,
+        "channel": "PTC Combat Fitness",
+        "duration": 149,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Squid Guard Sweep Defender",
@@ -405,6 +434,17 @@
         "phase": "Phase 3: Live Defense",
         "focus": "Full resistance sweep defense with competitive pressure",
         "description": "Positional sparring starting from established Squid Guard with full resistance from both players. Defender scores points for successful sweep prevention, lapel stripping, and guard passing. Attacker scores for completed sweeps and back takes. 3-minute rounds alternating roles with partner feedback between rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "rvbYLboVzZM",
+        "title": "Countering the lapel guard with a pass",
+        "by": "Tarik BJJ",
+        "vertical": false,
+        "channel": "Tarik BJJ",
+        "duration": 289,
+        "verified": "2026-07-15"
       }
     ]
   }

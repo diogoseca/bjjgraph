@@ -278,7 +278,36 @@
         "answer": "Your free arm pushes against the opponent's hip or shoulder in the rolling direction to generate initial momentum and prevent them from blocking the roll. Your legs perform a bridging motion to elevate your hips and create rotational momentum, then tuck underneath you as the roll progresses. The sequence is: bridge to elevate, push with free arm to initiate rotation, tuck legs and roll over trapped shoulder, land with free arm posting to prevent being followed. Poor coordination stalls the roll and wastes the escape attempt."
       }
     ],
-    "safety_considerations": "Kimura defense requires controlled practice to prevent shoulder injuries. The shoulder joint has limited range of motion in the rotation and elevation patterns the kimura exploits, making it vulnerable to dislocation, rotator cuff tears, and labrum damage. Never force defensive movements explosively or jerk the arm against resistance. Tap early when learning, before reaching pain threshold. Partners must release immediately upon tap signal and avoid applying sudden or maximal pressure during training. Warm up shoulders thoroughly before drilling kimura defenses. If shoulder pain or clicking occurs, stop training and seek medical evaluation. Build shoulder mobility and strength gradually through progressive resistance training. Competition situations require higher risk tolerance, but training should prioritize long-term joint health over ego."
+    "safety_considerations": "Kimura defense requires controlled practice to prevent shoulder injuries. The shoulder joint has limited range of motion in the rotation and elevation patterns the kimura exploits, making it vulnerable to dislocation, rotator cuff tears, and labrum damage. Never force defensive movements explosively or jerk the arm against resistance. Tap early when learning, before reaching pain threshold. Partners must release immediately upon tap signal and avoid applying sudden or maximal pressure during training. Warm up shoulders thoroughly before drilling kimura defenses. If shoulder pain or clicking occurs, stop training and seek medical evaluation. Build shoulder mobility and strength gradually through progressive resistance training. Competition situations require higher risk tolerance, but training should prioritize long-term joint health over ego.",
+    "clips": [
+      {
+        "id": "pJG_2XYYaOw",
+        "title": "Breaking the kimura grip",
+        "by": "Ralph Gracie coach",
+        "vertical": false,
+        "channel": "Ralph Gracie BJJ - San Jose & Santa Clara",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uRn3DRICpeY",
+        "title": "Late kimura defense from bottom side control",
+        "by": "Fox Den coach",
+        "vertical": false,
+        "channel": "Fox Den Martial Arts",
+        "duration": 100,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "gvRGrvtKd1U",
+        "title": "Kimura defense",
+        "by": "Jon Satava",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 142,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Kimura Defense Defender",
@@ -380,6 +409,26 @@
         "phase": "Phase 3: Transition Flow from Failed Kimura",
         "focus": "Converting escape attempts into positional advancement",
         "description": "Practice following rolling escapes to mount and back control. Drill the decision tree for when to maintain grip versus release and consolidate position. Train smooth transitions between kimura control, mount, back take, and side control consolidation based on partner's defensive reactions at full resistance."
+      }
+    ],
+    "clips": [
+      {
+        "id": "qKj5Y-jDEeM",
+        "title": "Countering the kimura back take",
+        "by": "Placido Santos",
+        "vertical": false,
+        "channel": "Placido Santos ",
+        "duration": 32,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "gvRGrvtKd1U",
+        "title": "Kimura defense details",
+        "by": "Jon Satava",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 142,
+        "verified": "2026-07-15"
       }
     ]
   },

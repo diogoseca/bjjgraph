@@ -306,7 +306,27 @@
         "answer": "The highest-percentage grip sequence is to first secure both pant legs at the knee line with a pistol grip, which provides immediate control of the opponent's hip movement and leg position. From there, either push both knees laterally for a toreando or pull one leg across the centerline for a leg drag. Gripping the collar first is a common error because it only controls the upper body while leaving the legs free to re-establish guard hooks. The legs are the immediate threat after lapel clearance, so they must be controlled first."
       }
     ],
-    "safety_considerations": "When drilling this technique, be aware that the standing phase creates fall risk if the bottom player executes a sweep during the transition. Practice on mats with adequate padding and ensure training partners communicate during sweep attempts to prevent uncontrolled falls. The lapel extraction involves pulling forces near the knee joint area, so avoid aggressive yanking motions that could hyperextend training partners' fingers or wrists. If the lapel is deeply wrapped, work the extraction slowly rather than explosively to prevent fabric burns on the trapped leg. During the passing phase, control your descent into side control to avoid dropping full weight onto the opponent's ribs or face. Practitioners with knee injuries should be cautious during the standing phase, as the wrapped leg bears unusual lateral forces from the lapel tension."
+    "safety_considerations": "When drilling this technique, be aware that the standing phase creates fall risk if the bottom player executes a sweep during the transition. Practice on mats with adequate padding and ensure training partners communicate during sweep attempts to prevent uncontrolled falls. The lapel extraction involves pulling forces near the knee joint area, so avoid aggressive yanking motions that could hyperextend training partners' fingers or wrists. If the lapel is deeply wrapped, work the extraction slowly rather than explosively to prevent fabric burns on the trapped leg. During the passing phase, control your descent into side control to avoid dropping full weight onto the opponent's ribs or face. Practitioners with knee injuries should be cautious during the standing phase, as the wrapped leg bears unusual lateral forces from the lapel tension.",
+    "clips": [
+      {
+        "id": "RrD643OqTao",
+        "title": "Standing guard pass with distance and posture",
+        "by": "Rickson Gracie",
+        "vertical": false,
+        "channel": "Gallerr",
+        "duration": 66,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ltkYEliFZqo",
+        "title": "Standing armpit pin guard pass",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 101,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Standing Guard Pass with Distance Creation Defender",
@@ -435,6 +455,26 @@
         "phase": "Week 7+",
         "focus": "Full live defense with multiple response options",
         "description": "Partner executes the standing pass at full speed and resistance from established Ringworm Guard. Practice reading which defensive option is available based on the passer's timing, grip placement, and posture. Work the complete decision tree: sweep during stand-up, invert during extraction, or reguard after lapel loss. Track which responses work against different passer body types and speeds to develop personalized defensive priorities."
+      }
+    ],
+    "clips": [
+      {
+        "id": "qDCNyH38ZVU",
+        "title": "Stopping the standing pass from collar sleeve guard",
+        "by": "Trey Carter",
+        "vertical": false,
+        "channel": "Trey “Lapel Zombie” Carter",
+        "duration": 104,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "gSgrhXc7u9c",
+        "title": "Opponent stands in guard: omoplata sweep counter",
+        "by": "Pica Pau Jiu Jitsu",
+        "vertical": false,
+        "channel": "Pica Pau Jiu Jitsu & Grappling",
+        "duration": 148,
+        "verified": "2026-07-15"
       }
     ]
   },

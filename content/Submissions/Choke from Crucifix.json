@@ -345,6 +345,35 @@
         "answer": "Immediately release all pressure and carefully position your partner on their side in the recovery position with their airway clear. Do not shake them or slap them - unconsciousness from blood chokes typically resolves within 10-20 seconds naturally as blood flow returns to the brain. Stay with them and monitor their breathing. If they do not regain consciousness within 20-30 seconds, signal for help immediately. When they wake up, keep them lying down and monitor for confusion, headache, or nausea. Do not allow them to immediately return to training - they should rest and be checked. Report the incident to your instructor regardless of outcome.",
         "safety_critical": true
       }
+    ],
+    "clips": [
+      {
+        "id": "3t6j9HT6Mr8",
+        "title": "Crucifix to Rear Naked Choke",
+        "by": "Greg Ferguson",
+        "vertical": false,
+        "channel": "Greg Ferguson",
+        "duration": 43,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "A6H5KUCB_0E",
+        "title": "Crucifix to Assassin Choke",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 84,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "vCCarCZUPpM",
+        "title": "Assassin Choke from Back Crucifix",
+        "by": "Hellfish MMA",
+        "vertical": false,
+        "channel": "Hellfish Mixed Martial Arts",
+        "duration": 175,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -473,6 +502,17 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Realistic defense against full-speed crucifix choke attempts",
         "description": "Positional sparring starting from crucifix bottom with partner attacking at competition intensity. Defend and escape or survive for timed rounds. Develop the ability to remain calm and execute technical defense under realistic pressure. Track success rates across rounds and identify which defensive responses work best against specific choke variations and attacker body types."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Wt2NW_hfTd0",
+        "title": "Crucifix Escape vs Bulldog Choke",
+        "by": "Mick Hall",
+        "vertical": false,
+        "channel": "Mick Hall",
+        "duration": 228,
+        "verified": "2026-07-14"
       }
     ]
   },

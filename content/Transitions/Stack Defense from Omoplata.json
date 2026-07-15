@@ -276,7 +276,36 @@
         "answer": "If the counter-sweep fails but you maintain omoplata control, immediately reset your hip angle and threaten the omoplata finish with increased rotational pressure. If the opponent begins to extract their arm, transition to a triangle by throwing your top leg over their head while controlling their wrist. If they posture up, use the momentum to execute a standard omoplata sweep by sitting up and driving them forward. If you lose the omoplata entirely, immediately establish open guard frames with feet on hips and work to recover a specific guard variation."
       }
     ],
-    "safety_considerations": "Stack defense from omoplata involves managing significant compressive forces on your spine and neck. Never fight the stack with your neck—always redirect with hip movement. If you feel excessive pressure on your cervical spine, release the omoplata and recover guard rather than risking neck injury. During training, the stacking partner should apply gradual pressure rather than explosive drives to allow the defending partner time to execute proper defensive mechanics. Both partners should communicate clearly about pressure levels and tap immediately if discomfort occurs in the shoulder, neck, or spine."
+    "safety_considerations": "Stack defense from omoplata involves managing significant compressive forces on your spine and neck. Never fight the stack with your neck—always redirect with hip movement. If you feel excessive pressure on your cervical spine, release the omoplata and recover guard rather than risking neck injury. During training, the stacking partner should apply gradual pressure rather than explosive drives to allow the defending partner time to execute proper defensive mechanics. Both partners should communicate clearly about pressure levels and tap immediately if discomfort occurs in the shoulder, neck, or spine.",
+    "clips": [
+      {
+        "id": "jKdERMTQqPY",
+        "title": "Escaping a locked-in omoplata by stacking",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 72,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "UaZdeo4ro3E",
+        "title": "Highly effective omoplata escape",
+        "by": "Queixinho",
+        "vertical": false,
+        "channel": "Quiexinho Online Ares BJJ Goodyear",
+        "duration": 141,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Swa-hGf7EDI",
+        "title": "Escaping the omoplata off an armbar escape",
+        "by": "AMS MMA coach",
+        "vertical": false,
+        "channel": "AMS MMA",
+        "duration": 47,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Stack Defense from Omoplata Defender",
@@ -400,6 +429,17 @@
         "phase": "Phase 4: Live Application",
         "focus": "Full positional sparring from omoplata control",
         "description": "Positional sparring starting in omoplata control with you as the person being controlled. Attempt various escapes including the stack while partner uses full defensive options. Develop the ability to read defensive reactions in real time and adapt your escape strategy accordingly. Focus on energy efficiency and decisive escape attempts."
+      }
+    ],
+    "clips": [
+      {
+        "id": "gyynua1XBj8",
+        "title": "Omoplata finishes vs the opponent's half roll",
+        "by": "Andris Brunovskis",
+        "vertical": false,
+        "channel": "The Grapplers Guide by Jason Scully",
+        "duration": 177,
+        "verified": "2026-07-15"
       }
     ]
   }

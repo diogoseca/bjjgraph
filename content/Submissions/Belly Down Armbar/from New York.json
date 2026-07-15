@@ -344,6 +344,26 @@
         "question": "In competition, your opponent is defending intelligently by keeping their elbow bent and posture low - what strategy forces the opening for the belly down armbar from New York?",
         "answer": "Use attack cycling to force a defensive error. Threaten the triangle by shooting your leg over their shoulder, then when they defend the triangle by posturing their head back, their trapped arm straightens momentarily as they redirect defensive effort. This straightening creates the window to clamp the arm and initiate the belly down rotation. Alternatively, use a hip bump to off-balance them forward, forcing them to post with their free hand, which isolates the overhook arm for the armbar entry. The key is making the armbar the second threat in a chain, not the first."
       }
+    ],
+    "clips": [
+      {
+        "id": "jT4wPY2Dc_U",
+        "title": "Dead Orchard Armbar from Rubber Guard",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "James O'Brien",
+        "duration": 88,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "cScYIuSZPyk",
+        "title": "NoGi Rubber Guard Armbar",
+        "by": "Christian Polanco",
+        "vertical": false,
+        "channel": "Christian Polanco",
+        "duration": 100,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -478,6 +498,17 @@
         "phase": "Phase 4: Live defense integration",
         "focus": "Full-speed defense with tap awareness",
         "description": "Full positional sparring from New York with partner attacking at competition speed. Defender implements complete defensive strategy from early recognition through last-resort defenses. Emphasize appropriate tap timing when the position is fully locked rather than fighting unwinnable positions. Develop the judgment to distinguish between escapable and locked positions under live pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "J4KvinANGLs",
+        "title": "Why Your Rubber Guard Won't Work",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 295,
+        "verified": "2026-07-14"
       }
     ]
   }

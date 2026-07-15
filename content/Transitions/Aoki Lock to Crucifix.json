@@ -260,7 +260,36 @@
         "answer": "Abandon the crucifix attempt if: near arm begins extracting from leg entanglement, far arm remains protected despite two or more pressure cycles, or opponent creates significant base that prevents hip transition. Return to Aoki Lock if shoulder control remains solid. Transition to back control if opponent's rolling creates the opening. Transition to truck if leg positioning allows. The crucifix transition should not be forced when conditions are unfavorable—recognizing when to abandon is as important as knowing when to commit."
       }
     ],
-    "safety_considerations": "This transition involves shoulder joint manipulation from the initial Aoki Lock position. While the crucifix destination is primarily a control position, the path through Aoki Lock involves rotational stress on the shoulder capsule. Always use progressive pressure rather than explosive movements when building the Aoki Lock threat. Partners should communicate clearly and tap immediately if shoulder pressure becomes dangerous during the transition. Training partners must be familiar with Aoki Lock dangers before practicing this transition. Avoid applying full pressure during transition drilling—focus on mechanics and timing rather than submission threat. During live training, be especially cautious during the hip rotation phase as the angle change can unexpectedly increase shoulder torque."
+    "safety_considerations": "This transition involves shoulder joint manipulation from the initial Aoki Lock position. While the crucifix destination is primarily a control position, the path through Aoki Lock involves rotational stress on the shoulder capsule. Always use progressive pressure rather than explosive movements when building the Aoki Lock threat. Partners should communicate clearly and tap immediately if shoulder pressure becomes dangerous during the transition. Training partners must be familiar with Aoki Lock dangers before practicing this transition. Avoid applying full pressure during transition drilling—focus on mechanics and timing rather than submission threat. During live training, be especially cautious during the hip rotation phase as the angle change can unexpectedly increase shoulder torque.",
+    "clips": [
+      {
+        "id": "uQn6tbgVeGA",
+        "title": "Arm drag to crucifix",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 57,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "qgKgmpccI0E",
+        "title": "Passing the arm with the legs into crucifix",
+        "by": "Dallas Niles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 121,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "knACdcGIOtk",
+        "title": "Arm drag to crucifix breakdown",
+        "by": "Dallas Niles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 146,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Aoki Lock to Crucifix Defender",
@@ -386,6 +415,26 @@
         "phase": "Week 7+",
         "focus": "Live situational sparring",
         "description": "Begin rounds from Aoki Lock top position with attacker choosing between finishing, crucifix transition, back control, or truck. Defender must read intent and respond appropriately. Develops real-time decision making under genuine pressure and integrates defense into broader Aoki Lock escape game."
+      }
+    ],
+    "clips": [
+      {
+        "id": "m-iTKRTVeeo",
+        "title": "Crucifix escape",
+        "by": "Chosen Few BJJ",
+        "vertical": false,
+        "channel": "Chosen Few BJJ",
+        "duration": 160,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "41koUZWmeHE",
+        "title": "Escaping the mounted crucifix",
+        "by": "Shem Rock",
+        "vertical": false,
+        "channel": "Shem Rock ",
+        "duration": 146,
+        "verified": "2026-07-15"
       }
     ]
   },

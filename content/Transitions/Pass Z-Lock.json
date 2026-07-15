@@ -281,7 +281,36 @@
         "answer": "The optimal timing is after you have established heavy crossface pressure and the bottom player has begun using energy to maintain the Z-Lock configuration defensively rather than threatening sweeps. Signs include their hips settling flat, reduced underhook fighting activity, and visible fatigue in the lockdown tension. Initiating the pass while they are actively attacking with sweeps or fighting for the underhook dramatically reduces success probability because their energy and attention are directed toward offensive movement."
       }
     ],
-    "safety_considerations": "The Z-Lock pass involves significant pressure on the bottom player's knee and ankle joints during the lockdown breaking phase. Drive the knee extension gradually rather than explosively to avoid hyperextending the bottom player's knee or straining their ankle. During training, communicate with your partner about pressure levels, particularly when stripping the lockdown hook. If your partner signals discomfort in their knee or ankle, release pressure immediately and adjust your angle. Crossface pressure should be firm but controlled to avoid neck strain."
+    "safety_considerations": "The Z-Lock pass involves significant pressure on the bottom player's knee and ankle joints during the lockdown breaking phase. Drive the knee extension gradually rather than explosively to avoid hyperextending the bottom player's knee or straining their ankle. During training, communicate with your partner about pressure levels, particularly when stripping the lockdown hook. If your partner signals discomfort in their knee or ankle, release pressure immediately and adjust your angle. Crossface pressure should be firm but controlled to avoid neck strain.",
+    "clips": [
+      {
+        "id": "GQeS3xTXlb0",
+        "title": "Z-guard pass to the back",
+        "by": "Unknown coach",
+        "vertical": false,
+        "channel": "Animal",
+        "duration": 48,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "xXb65zA1yzs",
+        "title": "Passing half and z-guard with tripod base",
+        "by": "Street Jitsu coach",
+        "vertical": false,
+        "channel": "Street Jitsu",
+        "duration": 91,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "wYHP6wOk4jU",
+        "title": "Pressure passing the z-guard",
+        "by": "Tacio Carneiro",
+        "vertical": false,
+        "channel": "Tacio Carneiro BJJ",
+        "duration": 116,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Pass Z-Lock Defender",
@@ -402,6 +431,26 @@
         "phase": "Phase 4: Positional Sparring",
         "focus": "Full-speed defense with alternative guard transitions",
         "description": "Positional sparring from Z-Lock Half Guard bottom with full resistance. Defender scores by retaining guard for 2 minutes, sweeping, or submitting. Practice the complete defensive decision tree including Z-Lock retention, transition to alternative guards, and counter-sweeps under competition conditions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "mv5hY9YFUdU",
+        "title": "Z-lock dilemma and lateral kneebar",
+        "by": "Jamie",
+        "vertical": false,
+        "channel": "jamielovesmartialarts",
+        "duration": 66,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "J9iNUWoAbIk",
+        "title": "Z-lock from 50/50",
+        "by": "Jason Rau",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 188,
+        "verified": "2026-07-15"
       }
     ]
   }

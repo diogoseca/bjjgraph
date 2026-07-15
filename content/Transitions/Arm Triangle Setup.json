@@ -275,7 +275,36 @@
         "answer": "Threaten the North-South choke first by controlling the far arm and sliding your near arm toward their neck. When they defend the choke by turning their head and bringing their arms up, switch immediately to the kimura on the exposed near-side arm. As they defend the kimura by straightening and retracting the arm toward their body, use that arm retraction momentum to drive the arm across their neck and enter the arm triangle setup. The key is never pausing between threats—each failed attack should flow directly into the next without resettling into static North-South control."
       }
     ],
-    "safety_considerations": "The arm triangle involves bilateral compression of the carotid arteries, which can cause loss of consciousness rapidly if applied with full force. During training, always apply the squeeze gradually and release immediately upon receiving a tap. Training partners should tap early when they feel the blood restriction rather than waiting for visual symptoms. Avoid cranking the neck during the setup—the submission should come from shoulder-to-neck compression, not neck twisting. Practitioners with neck injuries or cervical spine issues should inform their training partners before drilling this technique. When drilling the setup without the finish, still respect the arm position to prevent shoulder strain from the trapped arm being forced into an uncomfortable angle."
+    "safety_considerations": "The arm triangle involves bilateral compression of the carotid arteries, which can cause loss of consciousness rapidly if applied with full force. During training, always apply the squeeze gradually and release immediately upon receiving a tap. Training partners should tap early when they feel the blood restriction rather than waiting for visual symptoms. Avoid cranking the neck during the setup—the submission should come from shoulder-to-neck compression, not neck twisting. Practitioners with neck injuries or cervical spine issues should inform their training partners before drilling this technique. When drilling the setup without the finish, still respect the arm position to prevent shoulder strain from the trapped arm being forced into an uncomfortable angle.",
+    "clips": [
+      {
+        "id": "WzA25kaIqEg",
+        "title": "North south arm choke setup",
+        "by": "BJJ Recap",
+        "vertical": false,
+        "channel": "BJJ Recap",
+        "duration": 46,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "AtRy0npW6x0",
+        "title": "Head and arm choke from north-south",
+        "by": "Mark Cukro",
+        "vertical": false,
+        "channel": "The Old Rollers Podcast",
+        "duration": 92,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "1o3yaF5MiW8",
+        "title": "North south choke, arm in variation",
+        "by": "LEGACY TV",
+        "vertical": false,
+        "channel": "LEGACY TV",
+        "duration": 95,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Arm Triangle Setup Defender",
@@ -404,6 +433,35 @@
         "phase": "Week 7-8",
         "focus": "Live positional sparring",
         "description": "Start in North-South bottom with partner at full resistance attempting the arm triangle setup and its chain attacks. Defend using the complete recognition-to-escape toolkit. Track how often you prevent the arm isolation versus having to defend the locked configuration. Progress is measured by shifting the percentage toward early prevention over late-stage escapes."
+      }
+    ],
+    "clips": [
+      {
+        "id": "D2vkZGTD78I",
+        "title": "Fastest escape out of the arm triangle",
+        "by": "Adam Bradley",
+        "vertical": false,
+        "channel": "Adam Bradley",
+        "duration": 31,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "n_2zR6BaF8A",
+        "title": "Best arm triangle escape",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 58,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "zaYaAl5x26Y",
+        "title": "Arm triangle escape",
+        "by": "Hauck Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Hauck Jiu-Jitsu",
+        "duration": 80,
+        "verified": "2026-07-15"
       }
     ]
   },

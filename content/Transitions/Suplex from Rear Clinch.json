@@ -296,7 +296,27 @@
         "answer": "Always use adequate mat padding and ensure sufficient clear space around the drilling area. Begin with cooperative partners who assist the lift and practice controlled landings before adding resistance. Communicate clearly about intensity level and landing direction before each repetition. Never attempt overhead throws onto hard surfaces. The thrower must maintain grip throughout the landing to control descent speed and protect both practitioners from impact injuries."
       }
     ],
-    "safety_considerations": "The suplex carries significant injury risk for both practitioners and demands strict safety protocols. Always direct throws laterally rather than overhead to prevent head and cervical spine injuries. Use crash mats or adequate padding during initial drilling phases. Maintain grip throughout the throw to control the opponent's landing—never release mid-air. Both practitioners should warm up thoroughly with emphasis on neck, shoulders, and spine mobility. Communicate clearly about intensity and direction before each repetition. In competition, verify ruleset legality as some organizations restrict or penalize suplexes. Never attempt suplexes on concrete, thin mats, or near walls and boundaries. The thrower bears responsibility for their partner's safe landing at all times."
+    "safety_considerations": "The suplex carries significant injury risk for both practitioners and demands strict safety protocols. Always direct throws laterally rather than overhead to prevent head and cervical spine injuries. Use crash mats or adequate padding during initial drilling phases. Maintain grip throughout the throw to control the opponent's landing—never release mid-air. Both practitioners should warm up thoroughly with emphasis on neck, shoulders, and spine mobility. Communicate clearly about intensity and direction before each repetition. In competition, verify ruleset legality as some organizations restrict or penalize suplexes. Never attempt suplexes on concrete, thin mats, or near walls and boundaries. The thrower bears responsibility for their partner's safe landing at all times.",
+    "clips": [
+      {
+        "id": "7wQOgSA4eXE",
+        "title": "Belly to belly suplex from the rear body lock",
+        "by": "Pat Downey",
+        "vertical": false,
+        "channel": "FANATIC WRESTLING",
+        "duration": 272,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "iWYGLiFAiT4",
+        "title": "Body lock takedown from the clinch",
+        "by": "James Johnson",
+        "vertical": false,
+        "channel": "FANATIC WRESTLING",
+        "duration": 162,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Suplex from Rear Clinch Defender",
@@ -417,6 +437,35 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Defending suplexes under competitive conditions",
         "description": "Positional sparring starting from standing rear clinch where the attacker can attempt any takedown including suplex. Defender works to either prevent the takedown entirely or minimize positional damage. Analyze defensive success rate and identify patterns in defensive failures to refine technique under genuine competitive pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "LXn4w_Gq8a4",
+        "title": "Suplex defense from the rear body lock",
+        "by": "SBG New Braunfels",
+        "vertical": false,
+        "channel": "SBG New Braunfels BJJ",
+        "duration": 78,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8pFLiu8vHG4",
+        "title": "Breaking the rear waist lock grip",
+        "by": "Mohamad Hamad",
+        "vertical": false,
+        "channel": "Mohamad Hamad",
+        "duration": 11,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "gbTSgq2M4ns",
+        "title": "Five ways to defend the suplex",
+        "by": "Self Defense Tutorials",
+        "vertical": false,
+        "channel": "Self Defense Tutorials",
+        "duration": 279,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -279,7 +279,36 @@
         "answer": "The primary chain attack is the Old School sweep, which uses the same lockdown and underhook control but redirects the energy from splitting into rolling reversal. If the opponent defends both, transitioning to the Truck by using their leg extraction attempt to insert crab ride hooks is highly effective. A third option is flowing to Deep Half Guard by diving underneath the opponent when the lockdown is partially compromised, maintaining offensive initiative rather than resetting to neutral half guard."
       }
     ],
-    "safety_considerations": "The Electric Chair targets the groin, hip flexors, and adductor muscles with intense splitting pressure that can cause severe injury if applied recklessly. Always apply the split progressively over 2-3 seconds rather than jerking or exploding into the finish, as the groin and hip flexor structures can tear rapidly once their tolerance threshold is exceeded. Release all control points immediately upon feeling or hearing any tap signal, including hand taps, verbal taps, and foot taps. Be especially cautious with training partners who have pre-existing hip, groin, or knee injuries, as the Electric Chair places significant stress on all of these structures simultaneously. In training, communicate with your partner about pressure levels and establish clear tap protocols before drilling this submission. Never hold the split after a tap, as even a few additional seconds of pressure can cause muscle tears or ligament damage."
+    "safety_considerations": "The Electric Chair targets the groin, hip flexors, and adductor muscles with intense splitting pressure that can cause severe injury if applied recklessly. Always apply the split progressively over 2-3 seconds rather than jerking or exploding into the finish, as the groin and hip flexor structures can tear rapidly once their tolerance threshold is exceeded. Release all control points immediately upon feeling or hearing any tap signal, including hand taps, verbal taps, and foot taps. Be especially cautious with training partners who have pre-existing hip, groin, or knee injuries, as the Electric Chair places significant stress on all of these structures simultaneously. In training, communicate with your partner about pressure levels and establish clear tap protocols before drilling this submission. Never hold the split after a tap, as even a few additional seconds of pressure can cause muscle tears or ligament damage.",
+    "clips": [
+      {
+        "id": "I8HLek9eCbg",
+        "title": "Electric Chair Submission",
+        "by": "bjjtaro",
+        "vertical": false,
+        "channel": "bjjtaro",
+        "duration": 25,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "X7JA72d-3vw",
+        "title": "Electric Chair Submission Finish",
+        "by": "Dan M.",
+        "vertical": false,
+        "channel": "Dan M.",
+        "duration": 55,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "pIoiYLBb_Vg",
+        "title": "Electric Chair Submission",
+        "by": "Panacea BJJ",
+        "vertical": false,
+        "channel": "PanaceaBJJ",
+        "duration": 76,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Electric Chair from Electric Chair Defender",
@@ -399,6 +428,17 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Defending the finish under full competition conditions",
         "description": "Start from established Electric Chair position with bottom player having all grips. Full resistance from both partners with controlled intensity. Defender works to escape the position entirely while managing the submission threat. Track escape rate and identify remaining defensive gaps over multiple rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "3A6oRsDf3oU",
+        "title": "Lockdown and Electric Chair Counters and Escapes",
+        "by": "Coach Dennis",
+        "vertical": false,
+        "channel": "Street Jitsu",
+        "duration": 286,
+        "verified": "2026-07-15"
       }
     ]
   }

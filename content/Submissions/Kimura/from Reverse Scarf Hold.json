@@ -348,6 +348,26 @@
         "answer": "Chest pressure serves three critical functions throughout the attack. First, it pins the opponent flat, preventing the hip escape that would create space for guard recovery. Second, it restricts their breathing, reducing their ability to generate explosive defensive movements. Third, it anchors your body position so your arms can work the grip transitions and finishing mechanics independently without compromising positional stability. Losing chest pressure at any stage of the attack compromises the entire submission sequence.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "L_u5g2wDpIQ",
+        "title": "Kimura from Reverse Scarf",
+        "by": "Torres Martial Arts",
+        "vertical": false,
+        "channel": "Torres Martial Arts Academy",
+        "duration": 74,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "xLCWZaGPW0g",
+        "title": "Kimura trap from reverse kesa gatame",
+        "by": "Smith BJJ",
+        "vertical": false,
+        "channel": "Smith ♞ | Brazilian Jiu-jitsu",
+        "duration": 140,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -482,6 +502,26 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Full resistance defense with all options available",
         "description": "Start in reverse scarf hold bottom against fully resisting partners who attack the kimura. Practice combining recognition, grip defense, bridging, and hip escape into fluid defensive sequences. Assess success rate and identify which defensive responses need additional drilling."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ORpUBUxK1QE",
+        "title": "Reverse Kesa Gatame escape from bottom",
+        "by": "Gymnanigains",
+        "vertical": false,
+        "channel": "Gymnanigains",
+        "duration": 26,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "fvp5_BVEtLg",
+        "title": "Kesa Gatame pressure defense with framing",
+        "by": "Kohbukan Sisu",
+        "vertical": false,
+        "channel": "Kohbukan Sisu",
+        "duration": 84,
+        "verified": "2026-07-14"
       }
     ]
   }

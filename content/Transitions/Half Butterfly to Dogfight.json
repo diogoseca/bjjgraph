@@ -275,7 +275,36 @@
         "answer": "Your head should drive directly into the opponent's chest or the shoulder on the underhook side, maintaining firm pressure throughout the entire rise. The head acts as a third control point alongside the underhook and butterfly hook, preventing the opponent from creating space or establishing crossface. Once in dogfight, your head should be level with or above the opponent's head—dropping below their head level invites being driven backward and flattened. Think of your head as a battering ram that leads the transition and secures your position once you arrive."
       }
     ],
-    "safety_considerations": "This transition involves rising from a supine position to kneeling under an opponent's weight, which places stress on the neck and lower back. Avoid explosive jerking movements without proper underhook security, as sudden load changes can strain the cervical spine or shoulder joint. Partners should communicate when applying heavy crossface pressure during drilling to prevent neck compression injuries. When training the butterfly hook elevation, gradually increase resistance to allow the body to adapt to the loading patterns. Tap immediately if neck pressure becomes excessive during failed attempts."
+    "safety_considerations": "This transition involves rising from a supine position to kneeling under an opponent's weight, which places stress on the neck and lower back. Avoid explosive jerking movements without proper underhook security, as sudden load changes can strain the cervical spine or shoulder joint. Partners should communicate when applying heavy crossface pressure during drilling to prevent neck compression injuries. When training the butterfly hook elevation, gradually increase resistance to allow the body to adapt to the loading patterns. Tap immediately if neck pressure becomes excessive during failed attempts.",
+    "clips": [
+      {
+        "id": "X4jR2wWOy2M",
+        "title": "Half guard to the dogfight",
+        "by": "The Base Jiu Jitsu",
+        "vertical": false,
+        "channel": "The Base Jiu Jitsu",
+        "duration": 79,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "gZPD4WQwgA8",
+        "title": "Half guard transition to dogfight",
+        "by": "Lucas Leite",
+        "vertical": false,
+        "channel": "GambleDub Breakdowns",
+        "duration": 11,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "K7U2uBUfq-c",
+        "title": "Knee shield to underhook to dogfight to knee tap",
+        "by": "Kaboom BJJ",
+        "vertical": false,
+        "channel": "Kaboom Brazilian Jiu-Jitsu",
+        "duration": 129,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Half Butterfly to Dogfight Defender",
@@ -392,6 +421,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Applying defensive skills in full-resistance exchanges",
         "description": "Full positional sparring from half butterfly top. Bottom player attempts dogfight entry and all other half butterfly attacks. Top player defends the dogfight specifically while also working toward passing. Track how often the bottom player reaches dogfight to measure defensive improvement over time."
+      }
+    ],
+    "clips": [
+      {
+        "id": "8mXBDHXrAu4",
+        "title": "Whizzer from half guard: winning the dogfight",
+        "by": "Wrecking Crew BJJ",
+        "vertical": false,
+        "channel": "Wrecking Crew BJJ",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dOdO6xJ-TcU",
+        "title": "Stop the half guard underhook",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 98,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "sL-NXPZE4zE",
+        "title": "How to shut down the underhook player",
+        "by": "Chad Hardy",
+        "vertical": false,
+        "channel": "Chad The Beast Hardy",
+        "duration": 102,
+        "verified": "2026-07-15"
       }
     ]
   }

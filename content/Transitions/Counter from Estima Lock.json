@@ -278,7 +278,36 @@
         "answer": "Switch immediately from counter-rotation to boot defense by pointing your toes and flexing your ankle to prevent the toe hold grip from achieving proper rotational angle on the metatarsals. The toe hold attacks a different mechanical axis than the Estima Lock, requiring adjusted ankle positioning and different grip-fighting angles. Address the new submission threat before continuing your escape sequence, as the grip transition creates a momentary window where neither submission is fully consolidated."
       }
     ],
-    "safety_considerations": "The Estima Lock attacks the ankle joint and Achilles tendon with rotational force that can cause serious ligament and tendon injury. Always tap early when pressure reaches dangerous levels rather than risking structural damage. During training, communicate clearly with partners about pressure levels and maintain controlled movements throughout escape attempts to prevent self-injury from explosive reactions. Never continue escaping when sharp pain indicates the lock has been mechanically completed. Ankle injuries from inverted footlocks can require months of recovery and significantly impact training consistency."
+    "safety_considerations": "The Estima Lock attacks the ankle joint and Achilles tendon with rotational force that can cause serious ligament and tendon injury. Always tap early when pressure reaches dangerous levels rather than risking structural damage. During training, communicate clearly with partners about pressure levels and maintain controlled movements throughout escape attempts to prevent self-injury from explosive reactions. Never continue escaping when sharp pain indicates the lock has been mechanically completed. Ankle injuries from inverted footlocks can require months of recovery and significantly impact training consistency.",
+    "clips": [
+      {
+        "id": "7hajltIw4kI",
+        "title": "Estima lock breaking mechanics",
+        "by": "Josh Leduc",
+        "vertical": false,
+        "channel": "Josh Star-Lord Leduc",
+        "duration": 82,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "1I7Nlm1IhgQ",
+        "title": "Estima lock from 50/50",
+        "by": "The Jiu-Jitsu Foundry",
+        "vertical": false,
+        "channel": "The Jiu-Jitsu Foundry",
+        "duration": 33,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "enJwT6Ttreo",
+        "title": "Key detail on the Estima lock",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 137,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Counter from Estima Lock Defender",
@@ -401,6 +430,17 @@
         "phase": "Phase 4: Live Maintenance",
         "focus": "Full resistance Estima Lock control against trained escape attempts",
         "description": "Positional sparring from established Estima Lock at full resistance. Practice the complete defensive toolkit including grip maintenance, position following, submission finishing, and transition to alternatives. Track retention rate and finish rate to measure improvement over training cycles."
+      }
+    ],
+    "clips": [
+      {
+        "id": "JSOM86_1lRo",
+        "title": "Foot lock and single leg X escapes",
+        "by": "James O'Connor",
+        "vertical": false,
+        "channel": "James O’Connor",
+        "duration": 111,
+        "verified": "2026-07-15"
       }
     ]
   }

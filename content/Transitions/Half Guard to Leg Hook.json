@@ -285,7 +285,27 @@
         "answer": "The far-side hand should control the bottom player's far hip, gripping the hip bone or belt line to prevent hip escape during the hook insertion. This hip control is critical because it tethers the bottom player in place while your leg repositions. Without this grip, the bottom player can shrimp away from the hook, re-establish distance, and recover their guard structure. Some practitioners alternatively use an underhook with the far arm, but hip control is more reliable for preventing the specific escapes available during hook insertion."
       }
     ],
-    "safety_considerations": "This transition involves controlled weight distribution and leg repositioning without significant joint stress or compression risk. The primary safety concern is maintaining awareness of your partner's neck and spine during the crossface application; avoid driving crossface pressure directly into the throat. During training, ensure gradual weight application during the consolidation phase to prevent rib compression injuries. Communicate with your partner about pressure tolerance and avoid explosive movements during the hook insertion that could torque the knee of either practitioner."
+    "safety_considerations": "This transition involves controlled weight distribution and leg repositioning without significant joint stress or compression risk. The primary safety concern is maintaining awareness of your partner's neck and spine during the crossface application; avoid driving crossface pressure directly into the throat. During training, ensure gradual weight application during the consolidation phase to prevent rib compression injuries. Communicate with your partner about pressure tolerance and avoid explosive movements during the hook insertion that could torque the knee of either practitioner.",
+    "clips": [
+      {
+        "id": "kh-rcVO8xgE",
+        "title": "Leg entanglement entry against the knee shield",
+        "by": "Grappling Mastery coach",
+        "vertical": false,
+        "channel": "Grappling Mastery: BJJ & Muay Thai Academy",
+        "duration": 27,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "5abrviYxKU8",
+        "title": "Leg lock entry from knee shield half guard",
+        "by": "Hellfish MMA coach",
+        "vertical": false,
+        "channel": "Hellfish Mixed Martial Arts",
+        "duration": 147,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Half Guard to Leg Hook Defender",
@@ -411,6 +431,17 @@
         "phase": "Phase 4: Full Resistance Positional Sparring",
         "focus": "Applying defensive skills under realistic conditions",
         "description": "Full resistance positional rounds starting from half guard. Top player attempts all passing methods including hook insertion. Bottom player defends with full toolset and scores for successful prevention, sweep, or position improvement. Develop automatic responses to hook insertion attempts."
+      }
+    ],
+    "clips": [
+      {
+        "id": "YXT82MndUyo",
+        "title": "Defending leg locks while playing guard",
+        "by": "Mason Fowler",
+        "vertical": false,
+        "channel": "ChampChat",
+        "duration": 175,
+        "verified": "2026-07-15"
       }
     ]
   }

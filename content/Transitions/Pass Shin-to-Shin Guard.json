@@ -286,7 +286,27 @@
         "answer": "Accept the half guard position and immediately transition to a half guard passing sequence—knee slice, hip switch, or smash pass—rather than trying to rip your leg free, which wastes energy and creates scramble situations. Maintain crossface and shoulder pressure throughout. Half guard represents a tactical detour with well-established passing chains, not a failure requiring you to restart the entire passing process from open guard."
       }
     ],
-    "safety_considerations": "Avoid explosive shin clearing movements that could hyperextend the knee or ankle of either player. Control all clearing sequences with measured pressure to prevent collision injuries. When the guard player is transitioning rapidly between positions, pause rather than force through configurations that could strain knee ligaments. Tap immediately if caught in any leg entanglement during pass attempts, and communicate with training partners about knee sensitivity."
+    "safety_considerations": "Avoid explosive shin clearing movements that could hyperextend the knee or ankle of either player. Control all clearing sequences with measured pressure to prevent collision injuries. When the guard player is transitioning rapidly between positions, pause rather than force through configurations that could strain knee ligaments. Tap immediately if caught in any leg entanglement during pass attempts, and communicate with training partners about knee sensitivity.",
+    "clips": [
+      {
+        "id": "YV26zZARJdA",
+        "title": "One easy way to pass shin-to-shin guard",
+        "by": "Dynasty Jiu Jitsu",
+        "vertical": false,
+        "channel": "Dynasty Jiu Jitsu",
+        "duration": 164,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "4jrUwVLezI4",
+        "title": "Passing the shin-to-shin guard",
+        "by": "Arte Suave",
+        "vertical": false,
+        "channel": "Arte Suave - BJJ Brisbane",
+        "duration": 184,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Pass Shin-to-Shin Guard Defender",
@@ -411,6 +431,35 @@
         "phase": "Phase 4: Counter-Offensive Integration",
         "focus": "Combining defense with active sweep and transition threats",
         "description": "Progress from purely defensive guard retention to actively threatening sweeps and transitions during the passer's clearing sequences. Practice using the passer's clearing movements as triggers for offensive actions like Single Leg X entries and butterfly elevations. Develop the ability to make the passer choose between safe clearing and defending your attacks, creating genuine dilemmas."
+      }
+    ],
+    "clips": [
+      {
+        "id": "sUJIGs8Othc",
+        "title": "Shin-to-shin guard fundamentals from the bottom",
+        "by": "RGA South Herts",
+        "vertical": false,
+        "channel": "RGA South Herts",
+        "duration": 76,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "a1lWupzNhkg",
+        "title": "De La Riva shin-on-shin to the back",
+        "by": "Carpio Jiu Jitsu",
+        "vertical": false,
+        "channel": "Carpio Jiu Jitsu",
+        "duration": 81,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "vKjAcZbsTwI",
+        "title": "Shin-to-shin guard to single leg X sweep",
+        "by": "Bermuda Martial Arts",
+        "vertical": false,
+        "channel": "Bermuda Martial Arts",
+        "duration": 138,
+        "verified": "2026-07-15"
       }
     ]
   }

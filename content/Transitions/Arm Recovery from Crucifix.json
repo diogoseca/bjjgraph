@@ -296,7 +296,18 @@
         "answer": "Switch to the bridge and turn variant. Instead of hip escaping away from the trapped arm, bridge upward and turn your body toward the trapped arm side. This creates a completely different extraction angle that the opponent has not been defending. The bridge lifts their weight momentarily off the trapped shoulder while the turn changes the arm's orientation through the trap. The element of surprise from changing direction often succeeds precisely because the opponent has committed their adjustments to countering the hip escape direction they were expecting."
       }
     ],
-    "safety_considerations": "Arm recovery from crucifix involves sustained pressure on the trapped arm's shoulder joint and significant neck exposure throughout the escape sequence. Never sacrifice neck defense for arm extraction—chokes can cause unconsciousness in seconds while the positional disadvantage, though severe, is survivable. During training, communicate clearly with your partner about pressure levels on both the trapped arm and neck, and tap immediately if a choke is secured before the arm is freed. Progressive resistance protocols are essential—attempting this escape at full competition intensity without first building mechanical proficiency risks shoulder injury from the trapped arm being wrenched during failed extractions and neck injury from undefended chokes during focused escape attempts."
+    "safety_considerations": "Arm recovery from crucifix involves sustained pressure on the trapped arm's shoulder joint and significant neck exposure throughout the escape sequence. Never sacrifice neck defense for arm extraction—chokes can cause unconsciousness in seconds while the positional disadvantage, though severe, is survivable. During training, communicate clearly with your partner about pressure levels on both the trapped arm and neck, and tap immediately if a choke is secured before the arm is freed. Progressive resistance protocols are essential—attempting this escape at full competition intensity without first building mechanical proficiency risks shoulder injury from the trapped arm being wrenched during failed extractions and neck injury from undefended chokes during focused escape attempts.",
+    "clips": [
+      {
+        "id": "siDGUI_LSlM",
+        "title": "Crucifix Recovery — freeing the trapped arm",
+        "by": "Lin H",
+        "vertical": false,
+        "channel": "Lin H",
+        "duration": 140,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Arm Recovery from Crucifix Defender",
@@ -416,6 +427,17 @@
         "phase": "Phase 3: Live Positional Sparring",
         "focus": "Full situational sparring from crucifix with scoring",
         "description": "Competition-pace positional sparring starting from established crucifix. Score points for maintaining position beyond 30 seconds, advancing to mounted crucifix, or finishing submissions. Bottom player scores for arm extraction, guard recovery, or surviving 60 seconds. Develop real-time decision-making between maintenance, advancement, and submission under genuine competitive pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "npUrHml3hHk",
+        "title": "Back Crucifix: Fall Back vs Fall Forward Control",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 193,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -268,7 +268,36 @@
         "answer": "The force must travel laterally and downward simultaneously—you push the opponent's legs to one side while driving them into the mat, not simply sideways through space. Your shoulder pressure drives forward and down into their hip on the passing side. Upward or purely lateral force allows the opponent to follow your movement with hip escapes and re-guard."
       }
     ],
-    "safety_considerations": "This technique is generally safe when practiced with appropriate control. The lapel clearing phase poses minimal injury risk but partners should communicate if the clearing motion creates uncomfortable pressure on trapped limbs. During the toreando phase, avoid explosive twisting motions that could strain the opponent's knee or hip joints—the pass should pin and direct the legs rather than torque them. When drilling at speed, ensure the opponent has time to turn into the pass rather than having their spine twisted. Partners with existing knee injuries should communicate limitations, and the passing pressure should be gradual rather than sudden impact."
+    "safety_considerations": "This technique is generally safe when practiced with appropriate control. The lapel clearing phase poses minimal injury risk but partners should communicate if the clearing motion creates uncomfortable pressure on trapped limbs. During the toreando phase, avoid explosive twisting motions that could strain the opponent's knee or hip joints—the pass should pin and direct the legs rather than torque them. When drilling at speed, ensure the opponent has time to turn into the pass rather than having their spine twisted. Partners with existing knee injuries should communicate limitations, and the passing pressure should be gradual rather than sudden impact.",
+    "clips": [
+      {
+        "id": "vkoAkm1Mu5E",
+        "title": "Toreando variation from the lapel guard",
+        "by": "Joao Mendes",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 166,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "l-hmPPwr9Xg",
+        "title": "Toreando from lasso, hiding the hand behind the thigh",
+        "by": "Joao Mendes",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 187,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "hELDQRRa8iw",
+        "title": "Throw-by trick to pass sticky lapel guards",
+        "by": "Gold BJJ",
+        "vertical": false,
+        "channel": "Gold BJJ",
+        "duration": 156,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Lapel Clear to Toreando Pass Defender",
@@ -392,6 +421,35 @@
         "phase": "Week 7+",
         "focus": "Full sequence live defense",
         "description": "Full resistance specific training where partner works the complete Lapel Clear to Toreando Pass sequence. Defend using all available tools—re-gripping, transition exploitation, backup guards, and toreando defense. Progress to integrating this defense into regular rolling against lapel guard passers."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Ad4250mBWKc",
+        "title": "Toreando defense with roll counter",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 84,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "EAN0i-p8HKc",
+        "title": "Scorpion kick recovery vs toreando",
+        "by": "Sidewinder",
+        "vertical": false,
+        "channel": "Sidewinder Network",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "guEr6TkpBOQ",
+        "title": "Guard retention principles vs toreando passing",
+        "by": "Mads H.",
+        "vertical": false,
+        "channel": "Mads H. BJJ",
+        "duration": 190,
+        "verified": "2026-07-15"
       }
     ]
   },

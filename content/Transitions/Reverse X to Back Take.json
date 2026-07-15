@@ -260,7 +260,36 @@
         "answer": "If the back take stalls, immediately prioritize recovering to Single Leg X-Guard or standard Reverse X-Guard rather than fighting for the back from a compromised angle. From Single Leg X, you retain leg entanglement control and can threaten sweeps or leg attacks while reassessing. Attempting to force the back take from a scramble position without proper hook connection usually results in your guard being passed. Maintaining any form of leg entanglement keeps you in the offensive cycle rather than conceding top position."
       }
     ],
-    "safety_considerations": "The Reverse X to Back Take is a relatively safe technique when practiced correctly, as it primarily involves rotational movement rather than joint manipulation or choking pressure. However, practitioners should be aware of several safety factors. Neck strain can occur if you attempt the inversion without sufficient mobility or if your head position is compromised during the rotation. Always warm up your neck, shoulders, and hips before drilling inversions. Partners should avoid sprawling aggressively onto the inverting person's head or neck. When first learning, practice the inversion at slow speeds to develop proper mechanics before adding speed and resistance. Practitioners with existing shoulder or neck injuries should consult their instructor before attempting this technique and may need to use the chair sit variation instead of the full inversion."
+    "safety_considerations": "The Reverse X to Back Take is a relatively safe technique when practiced correctly, as it primarily involves rotational movement rather than joint manipulation or choking pressure. However, practitioners should be aware of several safety factors. Neck strain can occur if you attempt the inversion without sufficient mobility or if your head position is compromised during the rotation. Always warm up your neck, shoulders, and hips before drilling inversions. Partners should avoid sprawling aggressively onto the inverting person's head or neck. When first learning, practice the inversion at slow speeds to develop proper mechanics before adding speed and resistance. Practitioners with existing shoulder or neck injuries should consult their instructor before attempting this technique and may need to use the chair sit variation instead of the full inversion.",
+    "clips": [
+      {
+        "id": "Ax4eFbP9oqc",
+        "title": "Back take from X-guard",
+        "by": "Gracie Barra Pymble",
+        "vertical": false,
+        "channel": "Gracie Barra Pymble",
+        "duration": 42,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "R_4QLjiackA",
+        "title": "X-guard to berimbolo back take",
+        "by": "Battle Gear BJJ",
+        "vertical": false,
+        "channel": "Battle Gear BJJ",
+        "duration": 17,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2g2gppcyfJA",
+        "title": "No-gi DLR underhook to X-guard back take",
+        "by": "Paragon Jiu-Jitsu Austin",
+        "vertical": false,
+        "channel": "Paragon Jiu-Jitsu Academy Austin",
+        "duration": 139,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Reverse X to Back Take Defender",
@@ -383,6 +412,17 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Full resistance positional sparring starting from Reverse X-Guard. Guard player attempts sweeps and back takes while you defend and pass. Focus on reading which attack is coming in real time and selecting the appropriate defensive response. Track success rate and adjust defensive priorities based on which attacks are landing most frequently."
+      }
+    ],
+    "clips": [
+      {
+        "id": "M82CDkEzxlQ",
+        "title": "Reverse X-guard defense into rolling back take",
+        "by": "Effortless Jiu Jitsu",
+        "vertical": false,
+        "channel": "EffortlessJiuJitsu",
+        "duration": 121,
+        "verified": "2026-07-15"
       }
     ]
   },

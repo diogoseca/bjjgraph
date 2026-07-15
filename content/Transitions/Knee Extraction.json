@@ -277,7 +277,36 @@
         "answer": "The free leg serves dual critical functions: preventing the attacker from completing their leg triangle by pushing or kicking down on their bottom leg, and creating additional space for the trapped knee to clear by driving against the attacker's hips or thighs. Without active free leg management, the attacker consolidates leg control while you focus on grip breaking, making extraction nearly impossible."
       }
     ],
-    "safety_considerations": "Knee extraction is a relatively safe defensive technique when executed properly. The primary safety concern is avoiding the actual ankle lock submission by maintaining knee bend throughout - if you feel significant pressure on your ankle joint, tap immediately rather than forcing the extraction. Never allow full leg extension under load as this dramatically increases injury risk to the ankle and Achilles tendon. Practice grip breaking and leg positioning components separately before combining into the full sequence under resistance. Training partners should release immediately upon tap and avoid cranking submissions during extraction drilling."
+    "safety_considerations": "Knee extraction is a relatively safe defensive technique when executed properly. The primary safety concern is avoiding the actual ankle lock submission by maintaining knee bend throughout - if you feel significant pressure on your ankle joint, tap immediately rather than forcing the extraction. Never allow full leg extension under load as this dramatically increases injury risk to the ankle and Achilles tendon. Practice grip breaking and leg positioning components separately before combining into the full sequence under resistance. Training partners should release immediately upon tap and avoid cranking submissions during extraction drilling.",
+    "clips": [
+      {
+        "id": "CUnX7TOpb-A",
+        "title": "Ankle lock escape by booting the foot free",
+        "by": "Ritchie Yip",
+        "vertical": false,
+        "channel": "Ritchie Yip",
+        "duration": 16,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MqtG9kuVt-Q",
+        "title": "Leg lock escape: roll through",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "vg-Luhls7yE",
+        "title": "Straight ankle lock defence and escapes",
+        "by": "Jiu Jitsu Brotherhood",
+        "vertical": false,
+        "channel": "Jiu Jitsu Brotherhood",
+        "duration": 164,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Knee Extraction Defender",

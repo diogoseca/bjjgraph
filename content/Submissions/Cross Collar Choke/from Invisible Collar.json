@@ -331,6 +331,35 @@
         "question": "In competition, how does the finishing strategy differ when time is running low versus when you have ample time remaining?",
         "answer": "With ample time, maintain the patient approach—confirm grip depth fully, wait for optimal defensive openings, and use submission chains to create dilemmas. When time is short, you may need to accept slightly less optimal grip depth and initiate the finish more aggressively, accepting higher failure probability. However, never sacrifice safety regardless of time pressure. The key competition adjustment is reducing the patience phase, not the mechanical execution. A rushed finish with poor mechanics wastes more time than a deliberate setup."
       }
+    ],
+    "clips": [
+      {
+        "id": "km9506KvIJg",
+        "title": "Rubber guard double invisible collar cross choke",
+        "by": "Denny Prokopos",
+        "vertical": false,
+        "channel": "Denny Prokopos",
+        "duration": 41,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "KE4ulYBSmjY",
+        "title": "Getting the first hand inside first",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 55,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "pe4jLWTzpSE",
+        "title": "Invisible detail of the choke from the back",
+        "by": "Rickson Gracie Academy",
+        "vertical": false,
+        "channel": "Rickson Gracie Jiu-Jitsu Academy",
+        "duration": 122,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -470,6 +499,26 @@
         "phase": "Week 7+",
         "focus": "Live positional defense",
         "description": "Full positional sparring from back control. Attacker uses complete invisible collar system including submission chains. Defender applies all defensive skills under realistic pressure. Track survival time and escape rates to measure improvement across sessions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "6rMCDkWRlgg",
+        "title": "Cross collar choke defense: down and over",
+        "by": "Emil Takeuchi",
+        "vertical": false,
+        "channel": "Six Blades NOVA Emil Takeuchi",
+        "duration": 94,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "KZBFuqvmKpo",
+        "title": "Escape the lapel choke from back mount",
+        "by": "North Bay Jiu Jitsu",
+        "vertical": false,
+        "channel": "North Bay Jiu Jitsu",
+        "duration": 142,
+        "verified": "2026-07-14"
       }
     ]
   }

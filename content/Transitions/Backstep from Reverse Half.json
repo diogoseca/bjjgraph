@@ -290,7 +290,27 @@
         "answer": "The backstep from reverse half guard is the natural completion of the backstep passing system. A passer enters reverse half guard by executing backstep passes from De La Riva, deep half, K-guard, or standard half guard. Once in reverse half guard, the back take is the highest-value progression available. This creates a systematic pathway where any backstep pass that achieves reverse half guard feeds directly into back control through this technique."
       }
     ],
-    "safety_considerations": "The backstep from reverse half guard is a positional transition with low direct injury risk compared to submissions. However, practitioners should be mindful of knee stress on the trapped leg during extraction, particularly if the bottom player maintains a tight clamp. Avoid jerking the trapped leg free with explosive force, as this can stress the knee joint in both training partners. The stepping arc should be smooth and controlled to prevent accidentally striking the bottom player with the knee or shin. Partners should communicate if trapped leg pressure becomes uncomfortable, and the top player should prioritize controlled extraction over speed. During drilling, start with zero resistance to establish safe movement patterns before adding progressive resistance."
+    "safety_considerations": "The backstep from reverse half guard is a positional transition with low direct injury risk compared to submissions. However, practitioners should be mindful of knee stress on the trapped leg during extraction, particularly if the bottom player maintains a tight clamp. Avoid jerking the trapped leg free with explosive force, as this can stress the knee joint in both training partners. The stepping arc should be smooth and controlled to prevent accidentally striking the bottom player with the knee or shin. Partners should communicate if trapped leg pressure becomes uncomfortable, and the top player should prioritize controlled extraction over speed. During drilling, start with zero resistance to establish safe movement patterns before adding progressive resistance.",
+    "clips": [
+      {
+        "id": "iVUskeb2-Ss",
+        "title": "Back Take from Reverse Half Guard",
+        "by": "Trapp Martial Arts",
+        "vertical": false,
+        "channel": "Trapp Martial Arts",
+        "duration": 104,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "s21HgPr-lIA",
+        "title": "Sweep and Back Take from Reverse Half Guard",
+        "by": "Legacy Jiu-Jitsu Academy",
+        "vertical": false,
+        "channel": "Legacy Jiu-Jitsu Academy",
+        "duration": 146,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Backstep from Reverse Half Defender",
@@ -415,6 +435,17 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Integrating all defensive responses under full competitive resistance",
         "description": "Start in reverse half guard bottom with partner at full resistance attempting the backstep. Defend using any available option from your defensive repertoire. If the backstep succeeds, continue defending from back control. Score points for successful backstep prevention and back control escape. Develop competition-ready defensive responses under pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "a3ModDEKY6s",
+        "title": "Defending the backstep pass and recovering guard",
+        "by": "Inverted Gear",
+        "vertical": false,
+        "channel": "Inverted Gear",
+        "duration": 145,
+        "verified": "2026-07-15"
       }
     ]
   }

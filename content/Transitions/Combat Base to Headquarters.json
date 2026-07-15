@@ -294,7 +294,27 @@
         "answer": "The correct sequence is: leg pin confirmed, wide base posted, then upper body control established as the final phase. This order matters because attempting upper body control before the leg pin is secure allows the opponent to use their leg freedom to recover guard or insert hooks. Attempting upper body control before posting the base wide leaves you vulnerable to sweeps during the grip transition. By the time you reach for the collar, cross-face, or underhook, your lower body structure should be completely stable and self-sustaining."
       }
     ],
-    "safety_considerations": "This transition involves controlled pressure on the opponent's knee and leg during the pinning phase. Apply leg pinning pressure gradually through hip weight rather than explosive knee drops that could damage the opponent's knee joint or meniscus. During drilling, maintain awareness of your partner's knee alignment—if their leg is bent at an awkward angle during the pin, adjust your position before applying full weight. Release immediately if your partner signals discomfort in their knee or hip. The weight transfer phase requires controlled movement to prevent accidental headbutts or elbow strikes during advancement."
+    "safety_considerations": "This transition involves controlled pressure on the opponent's knee and leg during the pinning phase. Apply leg pinning pressure gradually through hip weight rather than explosive knee drops that could damage the opponent's knee joint or meniscus. During drilling, maintain awareness of your partner's knee alignment—if their leg is bent at an awkward angle during the pin, adjust your position before applying full weight. Release immediately if your partner signals discomfort in their knee or hip. The weight transfer phase requires controlled movement to prevent accidental headbutts or elbow strikes during advancement.",
+    "clips": [
+      {
+        "id": "yPxcNpuyr0w",
+        "title": "Knee slice pass from combat base",
+        "by": "5th Element BJJ",
+        "vertical": false,
+        "channel": "5th Element BJJ/MMA",
+        "duration": 143,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "te88wU3Wo6E",
+        "title": "Basic headquarters passing in the gi",
+        "by": "Courage Training Centre",
+        "vertical": false,
+        "channel": "Courage Training Centre",
+        "duration": 192,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Combat Base to Headquarters Defender",
@@ -424,6 +444,26 @@
         "phase": "Phase 4: Layered Defense Under Pressure",
         "focus": "Chaining defensive options when primary defense fails",
         "description": "Partner attempts headquarters entry at full speed and resistance with multiple entry variants. Practice layering defenses: if knee shield fails, transition to butterfly hook; if butterfly hook is stripped, recover to De La Riva; if all frames fail, immediately establish half guard structure rather than accepting a bad headquarters position. Develop automatic backup responses."
+      }
+    ],
+    "clips": [
+      {
+        "id": "lVLAROiSjNU",
+        "title": "Guard retention: when to sit up and escape",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 136,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fIFM4fzVqC0",
+        "title": "Guard retention through the legs",
+        "by": "Absolute MMA St Kilda",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 240,
+        "verified": "2026-07-15"
       }
     ]
   }

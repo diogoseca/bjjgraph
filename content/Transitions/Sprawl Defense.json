@@ -315,7 +315,36 @@
         "answer": "Against a tight turtle defense from front headlock, begin with anaconda or darce choke setups by threading your arm around their neck and trapping their near arm. If they defend chokes by keeping elbows tight, work to flatten them toward side control by driving your chest weight forward and stepping your leg over their body. If they attempt to stand, their neck extends and opens for guillotine attacks. If they try to circle away, follow their movement and transition to back control. Each defensive response from the turtle opens a different offensive pathway."
       }
     ],
-    "safety_considerations": "When practicing sprawl defense, ensure adequate mat space to avoid sprawling into walls or other practitioners. Begin drilling at reduced speed to develop proper mechanics before increasing intensity. Be mindful of knee and hip flexibility limitations when shooting legs back - improper form can strain hip flexors or cause knee hyperextension. Partners drilling takedowns should not drive forward at full force until the defender has developed proper sprawl timing and mechanics. In competition or sparring, avoid sprawling with excessive force on opponent's neck or spine as this can cause injury. When establishing front headlock control, be aware of pressure on opponent's cervical spine and release immediately if they tap. Practitioners with lower back issues should consult instructors before drilling full sprawls as the hip extension can aggravate existing conditions."
+    "safety_considerations": "When practicing sprawl defense, ensure adequate mat space to avoid sprawling into walls or other practitioners. Begin drilling at reduced speed to develop proper mechanics before increasing intensity. Be mindful of knee and hip flexibility limitations when shooting legs back - improper form can strain hip flexors or cause knee hyperextension. Partners drilling takedowns should not drive forward at full force until the defender has developed proper sprawl timing and mechanics. In competition or sparring, avoid sprawling with excessive force on opponent's neck or spine as this can cause injury. When establishing front headlock control, be aware of pressure on opponent's cervical spine and release immediately if they tap. Practitioners with lower back issues should consult instructors before drilling full sprawls as the hip extension can aggravate existing conditions.",
+    "clips": [
+      {
+        "id": "8AaRLOSM61U",
+        "title": "Sprawl technique to defend the shot",
+        "by": "Coach Lang",
+        "vertical": false,
+        "channel": "Coach Lang",
+        "duration": 55,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "LiRrlPGboK8",
+        "title": "Sprawl technique breakdown",
+        "by": "Jordan Burroughs",
+        "vertical": false,
+        "channel": "CreightonWrestling",
+        "duration": 122,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Io79xaXZx_c",
+        "title": "How to sprawl against a double leg",
+        "by": "ateambjj",
+        "vertical": false,
+        "channel": "ateambjj",
+        "duration": 56,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Sprawl Defense Defender",
@@ -465,6 +494,35 @@
         "phase": "Week 9+: Live Situational Sparring",
         "focus": "Full-speed takedown attempts against sprawling opponents",
         "description": "Begin from standing with you shooting takedowns and partner defending with full-speed sprawl. Chain your responses based on what happens: finish the shot, switch to single leg, stand back up, or recover guard. 3-minute rounds with role switching. Develop the ability to read the sprawl in real-time and select the appropriate response under pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "suLByvCIBN4",
+        "title": "Double leg finish when they sprawl",
+        "by": "Infliction Derby",
+        "vertical": false,
+        "channel": "Infliction Derby",
+        "duration": 146,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "CZ-TUSCkvSs",
+        "title": "Beating the sprawl: double leg to back attacks",
+        "by": "Modern Combat Arts",
+        "vertical": false,
+        "channel": "Modern Combat Arts",
+        "duration": 127,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "U3T0fy6-iNE",
+        "title": "Chain wrestling: shot recovery after the sprawl",
+        "by": "Jordan Burroughs",
+        "vertical": false,
+        "channel": "FCA Wrestling",
+        "duration": 244,
+        "verified": "2026-07-15"
       }
     ]
   },

@@ -266,7 +266,27 @@
         "answer": "A turtled opponent requires a different pathway to side control. Rather than continuing the flattening pressure against their turtle structure, transition to a spiral ride or use crossface pressure to break them down flat from turtle. Alternatively, you can chain to a front headlock attack, snap-down, or clock choke that exploits their turtle posture. The key is recognizing that turtle requires different mechanics than the standard Matrix-to-side-control flattening sequence."
       }
     ],
-    "safety_considerations": "This transition involves significant pressure application through crossface and chest-to-chest contact. Be mindful of the opponent's neck position during crossface application to avoid excessive lateral neck pressure. During training, apply flattening pressure gradually rather than explosively to allow your partner to tap or verbally signal if the pressure becomes uncomfortable. Avoid driving crossface pressure directly into the throat—target the jaw and cheekbone area instead. When extracting legs from entanglements, move deliberately to avoid torquing your partner's knee or ankle joints."
+    "safety_considerations": "This transition involves significant pressure application through crossface and chest-to-chest contact. Be mindful of the opponent's neck position during crossface application to avoid excessive lateral neck pressure. During training, apply flattening pressure gradually rather than explosively to allow your partner to tap or verbally signal if the pressure becomes uncomfortable. Avoid driving crossface pressure directly into the throat—target the jaw and cheekbone area instead. When extracting legs from entanglements, move deliberately to avoid torquing your partner's knee or ankle joints.",
+    "clips": [
+      {
+        "id": "gwAf2mcPZ0g",
+        "title": "Single Leg X pass and back take",
+        "by": "Kameron Ross",
+        "vertical": false,
+        "channel": "Kameron Ross",
+        "duration": 42,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QCEdvqfWZMI",
+        "title": "Matrix defense from the leg drag",
+        "by": "BJJ Lab Zurich",
+        "vertical": false,
+        "channel": "BJJ Lab Zürich",
+        "duration": 96,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Matrix to Side Control Defender",
@@ -378,6 +398,17 @@
         "phase": "Phase 3: Live Defensive Sparring",
         "focus": "Full resistance Matrix defense to guard recovery",
         "description": "Positional sparring from Matrix bottom after a blocked rotation. Top player attempts side control consolidation at full intensity while defender works complete defensive sequences including secondary rotation attempts, frame creation, guard recovery, and sweep attempts. Position resets after side control is established or defender recovers guard. Six rounds of 90 seconds each."
+      }
+    ],
+    "clips": [
+      {
+        "id": "qZFnfPF6N9o",
+        "title": "Stiff arm escape timing and speed drill",
+        "by": "Matrix Jiu Jitsu",
+        "vertical": false,
+        "channel": "Matrix Jiu Jitsu",
+        "duration": 71,
+        "verified": "2026-07-15"
       }
     ]
   }

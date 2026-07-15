@@ -287,7 +287,27 @@
         "answer": "Attack a sweep or back take in the first two to three seconds while the opponent is still recalibrating to the new control structure. The Ringworm wrap's strongest sweeping vector pulls the opponent forward over their tethered leg, so a lapel-driven off-balance toward their wrapped side combined with leg elevation produces a high-percentage sweep. If they post a hand to defend the forward pull, the same lapel tension feeds a back take as they turn to base. Striking immediately exploits the same tactical uncertainty that motivated the transition, before the opponent can build a defensive framework for the unfamiliar configuration."
       }
     ],
-    "safety_considerations": "This transition involves lapel manipulation with minimal joint stress or direct submission danger. The primary safety concern is maintaining awareness of your threading leg position during the reconfiguration to avoid exposing it to leg lock entries from an alert opponent. Ensure the lapel is not wrapped around your own fingers during rethreading, as sudden opponent movement could cause finger sprains or dislocations. Practice at controlled speeds until the reconfiguration pattern becomes automatic. Communicate with training partners about the guard change to prevent confusion during drilling."
+    "safety_considerations": "This transition involves lapel manipulation with minimal joint stress or direct submission danger. The primary safety concern is maintaining awareness of your threading leg position during the reconfiguration to avoid exposing it to leg lock entries from an alert opponent. Ensure the lapel is not wrapped around your own fingers during rethreading, as sudden opponent movement could cause finger sprains or dislocations. Practice at controlled speeds until the reconfiguration pattern becomes automatic. Communicate with training partners about the guard change to prevent confusion during drilling.",
+    "clips": [
+      {
+        "id": "CdPHu-ly6t8",
+        "title": "Lapel guard examples: worm, reverse de la worm, ringworm",
+        "by": "Greg Hamilton",
+        "vertical": false,
+        "channel": "Renzo Gracie Jiu Jitsu DFW",
+        "duration": 287,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "541H63KeHD4",
+        "title": "Lapel guard introduction and entries",
+        "by": "Keenan Cornelius",
+        "vertical": false,
+        "channel": "Keenan Cornelius",
+        "duration": 293,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Squid to Ringworm Guard Defender",
@@ -412,6 +432,17 @@
         "phase": "Phase 4: Positional Sparring Integration",
         "focus": "Full context defense with competitive resistance",
         "description": "Start in Squid Guard Top position and spar with full resistance. Partner uses the Squid to Ringworm transition as one of their offensive options alongside sweeps and back takes. Practice integrating your recognition and defensive responses into your overall guard passing strategy without tunnel-visioning on the transition threat."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Apdhlgpalgc",
+        "title": "How to pass the worm guard",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ Plus",
+        "duration": 202,
+        "verified": "2026-07-15"
       }
     ]
   }

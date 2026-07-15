@@ -341,6 +341,35 @@
         "answer": "Retain your closed guard rather than chasing the finish into a passed position. If the opponent escapes the hand and starts to stack or pass, abandon the wrist, re-frame, and recover your guard to stay safe.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "zJm3g60Expo",
+        "title": "Wrist lock inside closed guard",
+        "by": "Stealth BJJ Madrid",
+        "vertical": false,
+        "channel": "Stealth BJJ Madrid",
+        "duration": 47,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "4rpZgxQXNFM",
+        "title": "Wrist Lock from Closed Guard vs Biceps Control",
+        "by": "Scott Ryan Chiriboga",
+        "vertical": false,
+        "channel": "Scott Ryan Chiriboga",
+        "duration": 97,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "nnhPrvpY9qM",
+        "title": "Best Wrist Lock From Closed Guard",
+        "by": "Giancarlo Bodoni",
+        "vertical": false,
+        "channel": "Giancarlo Bodoni",
+        "duration": 204,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -459,6 +488,26 @@
         "phase": "Live retention vs counter",
         "focus": "Decision-making under resistance",
         "description": "Spar from closed guard top against a partner hunting the wrist lock, choosing in real time whether to retract, posture and pass, or tap, while respecting safety on the small joint."
+      }
+    ],
+    "clips": [
+      {
+        "id": "w9YMlr_ru7I",
+        "title": "How to Escape a Painful Armlock",
+        "by": "Full Circle Fighting System",
+        "vertical": false,
+        "channel": "Full Circle Fighting System",
+        "duration": 67,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "H4O_WHpAxvQ",
+        "title": "Defend Any Wrist Lock Attack",
+        "by": "Kevin Goat",
+        "vertical": false,
+        "channel": "Kevin Goat Self Defense",
+        "duration": 219,
+        "verified": "2026-07-14"
       }
     ]
   }

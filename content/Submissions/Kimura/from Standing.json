@@ -396,6 +396,35 @@
         "answer": "When transitioning to ground finish: (1) Maintain figure-four grip throughout the descent - never release to post or catch yourself, (2) As you land, immediately adjust hip angle to position perpendicular to opponent's body rather than parallel, creating 90-degree torque angle, (3) Shift your grip hand from behind their back to grip your own bicep for the classic 'figure-four' finishing configuration, (4) Drop your chest weight onto their shoulder/upper arm to pin their shoulder blade to mat, (5) Extend your body away while maintaining chest pressure, creating lever arm that multiplies rotational force. The ground position allows heavier pressure and longer application time compared to standing, making controlled transition the highest percentage finishing strategy.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "HDnP_Kksmf8",
+        "title": "Standing Kimura",
+        "by": "Michael Currier",
+        "vertical": false,
+        "channel": "ROLLING SOCIETY",
+        "duration": 23,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "CqJrSJnGPDQ",
+        "title": "Kimura Takedown",
+        "by": "Kinesiology College",
+        "vertical": false,
+        "channel": "Kinesiology College",
+        "duration": 18,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Fxpu62evbwk",
+        "title": "Body Lock Break to Kimura",
+        "by": "SBG Australia",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 44,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -530,6 +559,26 @@
         "phase": "Phase 4: Live Situational Defense Sparring",
         "focus": "Full-speed defense from standing engagement",
         "description": "Specific sparring rounds where partner is tasked with achieving standing Kimura while defender works complete defense chain. Full resistance with standing safety protocols enforced. Track which defensive responses succeed most frequently and identify personal defensive timing. Build comfort with early tap decisions when defense fails rather than risking injury. Integrate defense into broader standing strategy including pre-emptive grip fighting to prevent Kimura entries entirely."
+      }
+    ],
+    "clips": [
+      {
+        "id": "FNyL93v5fGs",
+        "title": "Defending the Americana / Kimura",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 91,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "7bN5ypMZyyM",
+        "title": "Defending the Kimura Against the Cage",
+        "by": "Intercept MMA",
+        "vertical": false,
+        "channel": "Intercept MMA",
+        "duration": 150,
+        "verified": "2026-07-14"
       }
     ]
   },

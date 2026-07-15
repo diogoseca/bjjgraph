@@ -290,7 +290,27 @@
         "answer": "Use intervals of intense effort followed by positional maintenance rather than continuous maximum exertion. Make explosive extraction attempts during moments when the opponent adjusts grips or transitions between entanglement variants, then rest in protected defensive positions between attempts. Keep your heel hidden and maintain minimal frames during rest phases to prevent submission threats while conserving energy. The opponent maintaining the entanglement also costs them energy — if you are efficient in your defensive posture, they may fatigue faster as they work to advance position and finish submissions."
       }
     ],
-    "safety_considerations": "Guard recovery from leg entanglement involves managing active submission threats to the knee and ankle joints. Never attempt explosive extraction when the opponent has a secured heel hook grip, as the sudden movement combined with rotational force can cause catastrophic knee ligament damage. If a heel hook or toe hold is locked in during your recovery attempt, address the submission defense first by stripping grips carefully — tap immediately if you cannot strip the grip before pressure is applied. Practice recovery drills at controlled intensity with trusted training partners who understand leg lock safety protocols."
+    "safety_considerations": "Guard recovery from leg entanglement involves managing active submission threats to the knee and ankle joints. Never attempt explosive extraction when the opponent has a secured heel hook grip, as the sudden movement combined with rotational force can cause catastrophic knee ligament damage. If a heel hook or toe hold is locked in during your recovery attempt, address the submission defense first by stripping grips carefully — tap immediately if you cannot strip the grip before pressure is applied. Practice recovery drills at controlled intensity with trusted training partners who understand leg lock safety protocols.",
+    "clips": [
+      {
+        "id": "c-LUX8aDBUE",
+        "title": "Leg entanglement escapes, fundamentals",
+        "by": "Jeremy Skinner",
+        "vertical": false,
+        "channel": "Techniqly Online",
+        "duration": 35,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "R7lPdQWLOus",
+        "title": "50/50 defense: protecting your leg",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "The Grapplers Guide by Jason Scully",
+        "duration": 161,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Guard Recovery from Leg Entanglement Defender",
@@ -407,6 +427,17 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full-speed retention and advancement against resisting opponents",
         "description": "Positional sparring starting in leg entanglement. Opponent works full-speed guard recovery while you work retention and advancement. Develop competition-speed responses to all recovery variants and build the ability to chain retention, submission threats, and positional advancement fluidly."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kzgvfbZtH-8",
+        "title": "Hiding the heel to keep the entanglement",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 233,
+        "verified": "2026-07-15"
       }
     ]
   }

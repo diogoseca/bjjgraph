@@ -319,7 +319,27 @@
         "answer": "Evaluate your partner on several safety factors: they should be of similar or larger size than you, as jumping onto significantly smaller partners creates injury risk for both; they should have stable base and strong enough legs to absorb your jumping weight without buckling or falling backward dangerously; they should understand the drill protocol including agreed resistance levels and know not to attempt slams or explosive counters during early training phases; they should be free from knee, back, or shoulder injuries that could be aggravated by absorbing impact; and they should be experienced enough to recognize when the technique is failing and not resist in ways that create awkward landing angles. Always communicate clearly about resistance levels before beginning and check in after the first few repetitions."
       }
     ],
-    "safety_considerations": "Jumping guard carries inherent injury risks that practitioners must understand before attempting. Primary safety concerns include knee ligament damage if legs are caught awkwardly during opponent's defensive sprawl, lower back injury from poor landing mechanics, head and neck injury if you fall backward without proper breakfall technique, and catastrophic injury from slams in rulesets where they are legal or not adequately penalized. To train safely: always progress through the six-phase training progression rather than attempting full technique prematurely; ensure training partners understand their role and agree on resistance levels; train on appropriate surfaces with sufficient mat padding; understand your competition ruleset regarding guard jumps and slams; develop excellent breakfall skills before attempting jumping guard; never attempt jumping guard when fatigued as this increases error probability; and maintain awareness of size and strength differentials with training partners. If you experience any knee, back, or neck pain during jumping guard training, stop immediately and consult with a qualified instructor and medical professional before continuing. Competitive use of jumping guard should only occur after hundreds of successful repetitions in training with progressive resistance."
+    "safety_considerations": "Jumping guard carries inherent injury risks that practitioners must understand before attempting. Primary safety concerns include knee ligament damage if legs are caught awkwardly during opponent's defensive sprawl, lower back injury from poor landing mechanics, head and neck injury if you fall backward without proper breakfall technique, and catastrophic injury from slams in rulesets where they are legal or not adequately penalized. To train safely: always progress through the six-phase training progression rather than attempting full technique prematurely; ensure training partners understand their role and agree on resistance levels; train on appropriate surfaces with sufficient mat padding; understand your competition ruleset regarding guard jumps and slams; develop excellent breakfall skills before attempting jumping guard; never attempt jumping guard when fatigued as this increases error probability; and maintain awareness of size and strength differentials with training partners. If you experience any knee, back, or neck pain during jumping guard training, stop immediately and consult with a qualified instructor and medical professional before continuing. Competitive use of jumping guard should only occur after hundreds of successful repetitions in training with progressive resistance.",
+    "clips": [
+      {
+        "id": "at-wrp51-_Q",
+        "title": "Jumping guard technique breakdown",
+        "by": "BJJInAction",
+        "vertical": false,
+        "channel": "BJJInAction",
+        "duration": 91,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "B4_5rH7Vae0",
+        "title": "Competition-tested ways to pull and jump guard",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ Plus",
+        "duration": 207,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Jumping Guard Defender",
@@ -441,6 +461,17 @@
         "phase": "Phase 4: Live Positional Sparring (Week 7+)",
         "focus": "Applying defensive skills against full-speed jumping guard attempts in sparring",
         "description": "Positional sparring starting from standing where partner is specifically attempting jumping guard while you defend. Full resistance on both sides. Track your defense success rate and identify which defensive option works best against different opponents and body types. Integrate jumping guard defense into your overall standing game rather than treating it as an isolated drill."
+      }
+    ],
+    "clips": [
+      {
+        "id": "oaOB2XovGYE",
+        "title": "Intercepting the guard pull",
+        "by": "Riccardo Ammendolia",
+        "vertical": false,
+        "channel": "Riccardo Ammendolia",
+        "duration": 49,
+        "verified": "2026-07-15"
       }
     ]
   }

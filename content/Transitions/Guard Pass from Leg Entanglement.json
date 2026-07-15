@@ -284,7 +284,36 @@
         "answer": "Persistent re-pummeling indicates that individual hook stripping is insufficient against this opponent's leg activity. Shift to the smash pass extraction variant: instead of stripping hooks one at a time, drive heavy downward hip pressure into their entire leg structure to mechanically collapse their hooks under your weight. Alternatively, occupy the space their hook needs with your wedging knee immediately after stripping, denying the re-entry path entirely. The principle is that against active re-pummelers, you must remove the space for hooks rather than removing the hooks from the space."
       }
     ],
-    "safety_considerations": "Guard passing from leg entanglements requires careful attention to knee and ankle safety for both practitioners. During extraction, never violently rip your leg free when your foot is caught near the opponent's hip, as this can torque your own knee against their entanglement structure. If the opponent maintains heel control during your extraction, stop and address the grip rather than forcing through, since heel hook finishes can occur in fractions of a second during transitional moments. The most dangerous phase is when your heel crosses the opponent's centerline during extraction—always prioritize tucking your heel over completing the pass. Communicate with training partners when drilling at speed, and tap immediately if you feel rotational pressure on your knee during extraction attempts. When practicing the drive-through phase, control your momentum to avoid landing with full bodyweight on a partner whose legs may still be partially entangled."
+    "safety_considerations": "Guard passing from leg entanglements requires careful attention to knee and ankle safety for both practitioners. During extraction, never violently rip your leg free when your foot is caught near the opponent's hip, as this can torque your own knee against their entanglement structure. If the opponent maintains heel control during your extraction, stop and address the grip rather than forcing through, since heel hook finishes can occur in fractions of a second during transitional moments. The most dangerous phase is when your heel crosses the opponent's centerline during extraction—always prioritize tucking your heel over completing the pass. Communicate with training partners when drilling at speed, and tap immediately if you feel rotational pressure on your knee during extraction attempts. When practicing the drive-through phase, control your momentum to avoid landing with full bodyweight on a partner whose legs may still be partially entangled.",
+    "clips": [
+      {
+        "id": "kQrTYXOO1To",
+        "title": "Leg pommeling to pass the leg entanglement",
+        "by": "Michael Wong",
+        "vertical": false,
+        "channel": "Michael Wong",
+        "duration": 22,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MqtG9kuVt-Q",
+        "title": "Roll through escape from leg entanglement",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "UpNhZl5nkcM",
+        "title": "Passing single leg X guard",
+        "by": "Profectus Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Profectus Jiu-Jitsu WilCo.",
+        "duration": 187,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Guard Pass from Leg Entanglement Defender",
@@ -404,6 +433,26 @@
         "phase": "Phase 4: Live Integration",
         "focus": "Full resistance positional defense with all defensive options available",
         "description": "Positional sparring starting in leg entanglement with partner at 100% effort to pass. Integrate re-pummeling, submission threats, entanglement transitions, and sweep attempts based on what the situation presents. Track pass completion rate across sessions and identify which defensive patterns most effectively prevent the pass against different passing styles."
+      }
+    ],
+    "clips": [
+      {
+        "id": "R7lPdQWLOus",
+        "title": "Protecting your leg in 50/50",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "The Grapplers Guide by Jason Scully",
+        "duration": 161,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "LQul2ZvHyms",
+        "title": "Single leg X: forcing their hands to the mat",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 254,
+        "verified": "2026-07-15"
       }
     ]
   }

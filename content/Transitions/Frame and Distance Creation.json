@@ -240,7 +240,18 @@
         "answer": "Push with both arm frames on the attacker's upper body while simultaneously driving your free leg into their hip or inside knee. The arm frames create horizontal separation while the leg push adds a perpendicular force vector. This multi-directional pressure is exponentially harder to resist than single-plane force because the attacker cannot brace against two different directions at once."
       }
     ],
-    "safety_considerations": "Frame and Distance Creation is a relatively safe defensive technique with low injury risk when performed correctly. The primary safety concern is maintaining your bent knee position throughout - attempting to frame while allowing your leg to straighten dramatically increases ankle lock leverage and injury potential. Never sacrifice knee position for frame establishment. Train this technique with partners who respect tap signals and understand the importance of progressive resistance. When drilling, ensure the attacker does not actively crank the ankle lock while you practice framing mechanics. Communication about pressure levels prevents unnecessary injury during learning phases."
+    "safety_considerations": "Frame and Distance Creation is a relatively safe defensive technique with low injury risk when performed correctly. The primary safety concern is maintaining your bent knee position throughout - attempting to frame while allowing your leg to straighten dramatically increases ankle lock leverage and injury potential. Never sacrifice knee position for frame establishment. Train this technique with partners who respect tap signals and understand the importance of progressive resistance. When drilling, ensure the attacker does not actively crank the ankle lock while you practice framing mechanics. Communication about pressure levels prevents unnecessary injury during learning phases.",
+    "clips": [
+      {
+        "id": "CUnX7TOpb-A",
+        "title": "Ankle lock escape: putting on the boot",
+        "by": "Ritchie Yip",
+        "vertical": false,
+        "channel": "Ritchie Yip",
+        "duration": 16,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Frame and Distance Creation Defender",
@@ -357,6 +368,17 @@
         "phase": "Week 7+",
         "focus": "Live integration",
         "description": "Full resistance sparring from straight ankle lock control where partner uses Frame and Distance Creation as primary escape. Practice the complete defensive flowchart: clear frames early, maintain control, recognize transition points, and advance position when frames succeed."
+      }
+    ],
+    "clips": [
+      {
+        "id": "x6mkAn6N5zk",
+        "title": "Key detail for an inescapable achilles lock",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Gordon Ryan",
+        "duration": 216,
+        "verified": "2026-07-15"
       }
     ]
   },

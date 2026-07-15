@@ -287,7 +287,27 @@
         "answer": "Choose the incremental shrimp when your energy reserves are depleted, when the opponent is significantly heavier and explosive bridges cannot disrupt their base, or when you have already partially loosened the arm control and small additional adjustments can complete the extraction. The explosive variant is preferred when you have energy, when the opponent shifts weight during attack transitions, or when their control is tight but their balance is forward. The incremental approach trades speed for sustainability."
       }
     ],
-    "safety_considerations": "The hip escape from mounted crucifix involves explosive bridging and hip movement while under significant spinal load from the opponent's body weight. Practitioners should be cautious of neck strain during aggressive chin-tucking defense, especially when the opponent drives forward. During training, partners should communicate clearly about pressure levels and allow controlled escape practice before full resistance. Tapping immediately to any submission threat that develops during escape attempts is essential, as the compromised arm position creates elevated risk for shoulder and elbow injuries. Avoid training this escape when fatigued to the point where bridging mechanics deteriorate and cervical spine protection is compromised."
+    "safety_considerations": "The hip escape from mounted crucifix involves explosive bridging and hip movement while under significant spinal load from the opponent's body weight. Practitioners should be cautious of neck strain during aggressive chin-tucking defense, especially when the opponent drives forward. During training, partners should communicate clearly about pressure levels and allow controlled escape practice before full resistance. Tapping immediately to any submission threat that develops during escape attempts is essential, as the compromised arm position creates elevated risk for shoulder and elbow injuries. Avoid training this escape when fatigued to the point where bridging mechanics deteriorate and cervical spine protection is compromised.",
+    "clips": [
+      {
+        "id": "C7wr6klxbC8",
+        "title": "Crucifix escape demonstration",
+        "by": "Chosen Few BJJ coach",
+        "vertical": false,
+        "channel": "Chosen Few BJJ",
+        "duration": 89,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "m-iTKRTVeeo",
+        "title": "Crucifix escape mechanics",
+        "by": "Chosen Few BJJ coach",
+        "vertical": false,
+        "channel": "Chosen Few BJJ",
+        "duration": 160,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Hip Escape from Mounted Crucifix Defender",
@@ -409,6 +429,26 @@
         "phase": "Phase 4: Dynamic Decision Making",
         "focus": "Choosing between maintaining crucifix, transitioning to back, or attacking submissions in real time",
         "description": "Full positional sparring from mounted crucifix with unrestricted escape attempts. Practice reading the situation and making split-second decisions about whether to maintain control, follow the escape into back control, or attack a submission. Develop the tactical awareness to select the highest-percentage response to each escape variation."
+      }
+    ],
+    "clips": [
+      {
+        "id": "-Vmyjv8-WFw",
+        "title": "Holding the side crucifix and attacking the arm",
+        "by": "Evolve MMA coach",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 76,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "rdQkBWzG-X4",
+        "title": "Mounted crucifix control and attacks",
+        "by": "Team United MMA coach",
+        "vertical": false,
+        "channel": "Team United MMA",
+        "duration": 142,
+        "verified": "2026-07-15"
       }
     ]
   }

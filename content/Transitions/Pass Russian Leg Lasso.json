@@ -297,7 +297,18 @@
         "answer": "During grip breaking, force is directed upward and away from the guard player as you posture up, strip grips, and create distance that reduces lasso effectiveness. During pass completion, force direction reverses to forward and downward as you drive chest pressure through the guard player, close distance rapidly, and establish side control. This directional shift must happen immediately and decisively when transitioning between phases."
       }
     ],
-    "safety_considerations": "Guard passing against Russian Leg Lasso involves significant rotational forces on the trapped arm and shoulder joint. Avoid explosive yanking motions to extract the arm from the lasso, as this can cause shoulder or elbow injuries to either practitioner. If the lasso creates sharp pain in the trapped arm's shoulder, stop and reset position rather than fighting through potential injury. When drilling at high intensity, both partners should communicate about shoulder comfort levels, particularly regarding the binding effect of the lasso on the arm and the rotational stress generated during sweep attempts."
+    "safety_considerations": "Guard passing against Russian Leg Lasso involves significant rotational forces on the trapped arm and shoulder joint. Avoid explosive yanking motions to extract the arm from the lasso, as this can cause shoulder or elbow injuries to either practitioner. If the lasso creates sharp pain in the trapped arm's shoulder, stop and reset position rather than fighting through potential injury. When drilling at high intensity, both partners should communicate about shoulder comfort levels, particularly regarding the binding effect of the lasso on the arm and the rotational stress generated during sweep attempts.",
+    "clips": [
+      {
+        "id": "9sQAn2ESkMU",
+        "title": "Passing lasso guard to the back",
+        "by": "Gabriel Sousa",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 113,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Pass Russian Leg Lasso Defender",
@@ -421,6 +432,26 @@
         "phase": "Phase 4: Competition simulation",
         "focus": "Full resistance guard retention and offense",
         "description": "Positional sparring with full resistance from both players starting in Russian Leg Lasso. Work to either maintain guard, sweep, or submit while the passer works their passing system. Develop the complete defensive and offensive skillset under competition conditions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "tO5rPtjfsGE",
+        "title": "Preventing the leg weave pass with lasso",
+        "by": "Grand Union Jiu Jitsu",
+        "vertical": false,
+        "channel": "Grand Union Jiu Jitsu",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "efdShgcXc8I",
+        "title": "Lasso guard to omoplata with a pant grip",
+        "by": "Eugene Bidchenco",
+        "vertical": false,
+        "channel": "Eugene Bidchenco",
+        "duration": 42,
+        "verified": "2026-07-15"
       }
     ]
   }

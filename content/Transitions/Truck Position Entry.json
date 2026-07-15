@@ -287,7 +287,36 @@
         "answer": "The standing variant threads the hook during the dynamic moment of descent when the opponent's defensive structure is incomplete, whereas the turtle top entry requires breaking down an already established defensive shell. From standing, momentum and gravity assist the hook threading as the opponent transitions between positions. The standing entry also preserves the harness grip from standing back control, giving immediate upper body connection that a turtle top attacker must first establish. However, the standing variant has a narrower timing window and requires committing to the entry before seeing whether the opponent will successfully consolidate turtle."
       }
     ],
-    "safety_considerations": "The Truck Position Entry from standing involves a descent from standing to ground that carries inherent impact risk if executed without control. Both practitioners should ensure the training surface is adequately padded, and the top player must control the descent speed using their own base rather than allowing the opponent to crash to the mat. The leg hook threading places rotational stress on the hooking knee, so warm up the knee joint thoroughly before drilling. During the rolling phase, uncontrolled momentum can cause awkward falls, so practice the roll slowly before increasing speed. The Truck position itself gives access to dangerous submissions including the Twister (spine lock) and Calf Slicer (leg lock), which can cause serious injury if applied without control. Partners should establish clear tap signals before drilling, and both practitioners should understand the submission mechanics before training at full resistance. Avoid this entry on hard surfaces or when fatigued, as the standing-to-ground transition requires body awareness that degrades with exhaustion."
+    "safety_considerations": "The Truck Position Entry from standing involves a descent from standing to ground that carries inherent impact risk if executed without control. Both practitioners should ensure the training surface is adequately padded, and the top player must control the descent speed using their own base rather than allowing the opponent to crash to the mat. The leg hook threading places rotational stress on the hooking knee, so warm up the knee joint thoroughly before drilling. During the rolling phase, uncontrolled momentum can cause awkward falls, so practice the roll slowly before increasing speed. The Truck position itself gives access to dangerous submissions including the Twister (spine lock) and Calf Slicer (leg lock), which can cause serious injury if applied without control. Partners should establish clear tap signals before drilling, and both practitioners should understand the submission mechanics before training at full resistance. Avoid this entry on hard surfaces or when fatigued, as the standing-to-ground transition requires body awareness that degrades with exhaustion.",
+    "clips": [
+      {
+        "id": "sCBGkcJCQYY",
+        "title": "The Truck in transition",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "aeD1fb1X6Oc",
+        "title": "Basic Truck entry demo",
+        "by": "Georges St-Pierre & Firas Zahabi",
+        "vertical": false,
+        "channel": "Tristar Gym",
+        "duration": 93,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Y693ZHlCd2Q",
+        "title": "Two entries into the Truck",
+        "by": "Geo Martinez",
+        "vertical": false,
+        "channel": "FloGrappling",
+        "duration": 100,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Truck Position Entry Defender",
@@ -412,6 +441,35 @@
         "phase": "Week 7+",
         "focus": "Live sparring integration from standing back control bottom",
         "description": "During sparring, allow partners to achieve standing back control and work the full defensive decision tree at live speed. Identify which attacks partners attempt most frequently and refine defensive timing. If caught in Truck despite defense, chain into Truck bottom escape sequences. Track success rate of preventing the entry versus being caught and adjust training focus accordingly."
+      }
+    ],
+    "clips": [
+      {
+        "id": "KQdaDNNGBro",
+        "title": "Truck back take and escapes",
+        "by": "Mint Flow Jiu-Jitsu",
+        "vertical": false,
+        "channel": "BJJ BLACK BELT⚫️MINT FLOW JIU-JITSU ",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "LA-AdwNMGvc",
+        "title": "Truck back take vs babybridge and hawkins defenses",
+        "by": "Wim Deputter",
+        "vertical": false,
+        "channel": "Wim Deputter BJJ",
+        "duration": 162,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "WEpVDP7MRpo",
+        "title": "Defending the rolling back take (Truck roll)",
+        "by": "Brian Glick",
+        "vertical": false,
+        "channel": "Brian Glick",
+        "duration": 209,
+        "verified": "2026-07-15"
       }
     ]
   },

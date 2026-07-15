@@ -373,6 +373,26 @@
         "answer": "Under IBJJF rules and most major competition rulesets, the Can Opener results in immediate disqualification regardless of belt level. Even in submission-only or no-time-limit formats where neck cranks may be technically legal, elite competitors rarely use it due to its low finishing percentage against skilled opponents who simply open guard, the ethical concerns about intentionally injuring opponents, and the availability of higher-percentage techniques. In MMA contexts, the Can Opener sees occasional use as a guard opener rather than finish, but carries similar injury risks and ethical concerns. Understanding rule variations is important, but the fundamental safety and ethical issues make this technique inadvisable in any competitive context.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "_-NGlUCnHy0",
+        "title": "How to Do a Can Opener",
+        "by": "MMA Submissions",
+        "vertical": false,
+        "channel": "thuật võ",
+        "duration": 126,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "FGPGkKnY_Mg",
+        "title": "Can Opener Cervical Choke",
+        "by": "Marcus Soares",
+        "vertical": false,
+        "channel": "Marcus Soares Brazilian Jiu Jitsu Academy",
+        "duration": 73,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -514,6 +534,35 @@
         "phase": "Phase 4: Integrated Defense in Live Training",
         "focus": "Applying full defensive framework during positional sparring",
         "description": "Full positional sparring from closed guard where partner may attempt the Can Opener setup among other guard passing techniques. Defender practices the complete defensive progression: recognition, prevention, early disruption, and emergency escape as needed. Partner uses full effort for the setup but applies zero actual neck compression - the moment hands clasp, defender executes the practiced escape and both practitioners reset."
+      }
+    ],
+    "clips": [
+      {
+        "id": "AaG3yEVcR74",
+        "title": "Defending the can opener from closed guard",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 93,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "WKT2yF6R3Fs",
+        "title": "Can opener escape",
+        "by": "Animal",
+        "vertical": false,
+        "channel": "Animal",
+        "duration": 57,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fKA4O_RlXzk",
+        "title": "Can opener counter with omoplata",
+        "by": "The Grappling Bloke",
+        "vertical": false,
+        "channel": "The Grappling Bloke",
+        "duration": 91,
+        "verified": "2026-07-15"
       }
     ]
   },

@@ -375,6 +375,35 @@
           "nogi": 8
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "-HT8Vfiq5Pk",
+        "title": "Top half guard toe hold to knee bar attack",
+        "by": "Eliot Marshall",
+        "vertical": false,
+        "channel": "Eliot Marshall",
+        "duration": 67,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "esC22tIGI94",
+        "title": "Toe hold attack from top half guard",
+        "by": "Maven Martial Arts",
+        "vertical": false,
+        "channel": "Maven Martial Arts",
+        "duration": 45,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "45R5ZjI5YUY",
+        "title": "Calf slicer from top half guard",
+        "by": "Combat Principles MMA",
+        "vertical": false,
+        "channel": "Combat Principles MMA",
+        "duration": 73,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -702,6 +731,35 @@
           "nogi": 4
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "X3M6JUqr1Bo",
+        "title": "Roger windmill half guard sweep",
+        "by": "SBG Australia",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 16,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Jnc2siD9cak",
+        "title": "Old school half guard sweep",
+        "by": "Ritchie Yip",
+        "vertical": false,
+        "channel": "Ritchie Yip",
+        "duration": 12,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "tTroLgpLJ1k",
+        "title": "Lockdown half guard Godfather sweep",
+        "by": "Coach Paul",
+        "vertical": false,
+        "channel": "Coach Paul - War Fork Jiu-Jitsu Academy",
+        "duration": 11,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -736,6 +794,35 @@
     {
       "question": "Why does the Leg Hook carry higher scramble and reversal risk than a settled pin or a locked half guard?",
       "answer": "The dynamic hook keeps the shared leg connection in constant motion, so the position never reaches the mechanical stability of a fully secured pin. Both players are actively steering weight through the entanglement, meaning any committed shift by one creates momentum the other can redirect, which is fertile ground for sweeps, reversals, and scrambles. A locked half guard or a pin removes this leverage by killing movement, but the leg hook trades that safety for the mobility that enables its transitions. The same active tension that makes it offensively versatile is what makes it inherently unstable for whoever fails to control the tempo."
+    }
+  ],
+  "clips": [
+    {
+      "id": "R4K-UU_bUZQ",
+      "title": "411 leg entanglement breakdown",
+      "by": "10th Planet Orange Park",
+      "vertical": false,
+      "channel": "10th Planet Orange Park",
+      "duration": 75,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "iVa-jgMsLUk",
+      "title": "411 leg entanglement control details",
+      "by": "Holy Grail BJJ",
+      "vertical": false,
+      "channel": "Holy Grail BJJ",
+      "duration": 135,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "2QDZMqBV2kQ",
+      "title": "Leg entanglement control drill",
+      "by": "Training Grounds",
+      "vertical": false,
+      "channel": "Training Grounds",
+      "duration": 33,
+      "verified": "2026-07-14"
     }
   ]
 }

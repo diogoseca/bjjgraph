@@ -295,7 +295,36 @@
         "answer": "From Dogfight, chain immediately to complementary attacks based on the opponent's defensive reaction. If they post wide to defend the forward drive sweep, attack with the back take by circling behind their whizzer side. If they whizzer hard and drive forward, drop to deep half guard and use their momentum for the deep half sweep. If they try to flatten you, hit the old school sweep by catching their far leg. Every defensive reaction to one Dogfight attack opens a different Dogfight attack—never reset to neutral after a failed attempt."
       }
     ],
-    "safety_considerations": "The Underhook from Knee Shield is a relatively low-risk transition, but practitioners should be aware of potential neck strain when the opponent drives a heavy crossface during the transition, particularly if the head is caught in an awkward angle between the underhook side and the crossface. Shoulder strain can occur if the underhook arm gets trapped in an extended position while the opponent applies a tight whizzer and drives downward. Always abort the attempt cleanly rather than forcing through a strong counter to avoid joint strain. Train the transition at progressive resistance levels and ensure the abort-to-knee-shield pattern is automatic before attempting against full resistance."
+    "safety_considerations": "The Underhook from Knee Shield is a relatively low-risk transition, but practitioners should be aware of potential neck strain when the opponent drives a heavy crossface during the transition, particularly if the head is caught in an awkward angle between the underhook side and the crossface. Shoulder strain can occur if the underhook arm gets trapped in an extended position while the opponent applies a tight whizzer and drives downward. Always abort the attempt cleanly rather than forcing through a strong counter to avoid joint strain. Train the transition at progressive resistance levels and ensure the abort-to-knee-shield pattern is automatic before attempting against full resistance.",
+    "clips": [
+      {
+        "id": "BCnjULrSSPw",
+        "title": "3 underhook sweeps from knee shield",
+        "by": "Kameron Ross",
+        "vertical": false,
+        "channel": "Kameron Ross",
+        "duration": 38,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "X4jR2wWOy2M",
+        "title": "Half guard knee shield to the dogfight",
+        "by": "The Base Jiu Jitsu",
+        "vertical": false,
+        "channel": "The Base Jiu Jitsu",
+        "duration": 79,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "OSToEZOVdr0",
+        "title": "Entering the underhook from knee shield vs 1 leg up",
+        "by": "Darragh O'Conaill",
+        "vertical": false,
+        "channel": "Darragh O Conaill BJJ",
+        "duration": 132,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Underhook from Knee Shield Defender",
@@ -409,6 +438,35 @@
         "phase": "Phase 4: Live Defense Sparring",
         "focus": "Full-speed defensive application with complete passing integration",
         "description": "Positional sparring from knee shield top with full resistance. Top player must both deny underhook attempts and work their passing game. Bottom player uses all available entries including push-pull, collar drag, and sweep fake setups. Two-minute rounds with scoring for successful underhook denial versus successful Dogfight entries."
+      }
+    ],
+    "clips": [
+      {
+        "id": "KzQz0AWFFZk",
+        "title": "Underhook knee cut vs knee shield",
+        "by": "Michael Wong",
+        "vertical": false,
+        "channel": "Michael Wong",
+        "duration": 25,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "kItQxImd_NE",
+        "title": "Knee shield pass to inside heel hook",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 32,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uQTihtP0-Z0",
+        "title": "Heel hook answer to the knee shield",
+        "by": "Peter Mettler",
+        "vertical": false,
+        "channel": "Peter Mettler Martial Arts",
+        "duration": 99,
+        "verified": "2026-07-15"
       }
     ]
   }

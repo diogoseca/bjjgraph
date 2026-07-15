@@ -419,6 +419,26 @@
           "nogi": 13
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "dfP-Ov8FBUo",
+        "title": "Cross collar chokes from mount",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 80,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "vSmRbpNmf-E",
+        "title": "Armbars from mount",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 102,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -738,6 +758,35 @@
           "nogi": 10
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "5EceltPECLg",
+        "title": "Trap and roll mount escape",
+        "by": "Auburn Jiu Jitsu",
+        "vertical": false,
+        "channel": "Auburn Jiu Jitsu",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "_05Lwonu0mw",
+        "title": "Escape from a high full mount",
+        "by": "TENZAN",
+        "vertical": false,
+        "channel": "TENZAN AIKIDO",
+        "duration": 78,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "JoKL61nEZl0",
+        "title": "Trap and roll mount escape",
+        "by": "Topp Performance",
+        "vertical": false,
+        "channel": "Topp Performance",
+        "duration": 77,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -772,6 +821,26 @@
     {
       "question": "Why is High Mount described as a checkpoint that borders S-Mount and Technical Mount rather than a fixed endpoint?",
       "answer": "High Mount sits at the top of the mount hierarchy and shares direct borders with S-Mount and Technical Mount, so the position is defined as much by what it flows into as by its own configuration. When the bottom player pushes on the hips or frames for distance, the geometry opens a path to S-Mount, where one arm becomes isolated. When the bottom player turns to their side chasing an elbow escape, that same turn feeds Technical Mount, which follows the exposed back. These are not separate destinations but the reflexive positional answers to specific escape attempts, which is why High Mount is understood as the final checkpoint before a finish or a further advancement."
+    }
+  ],
+  "clips": [
+    {
+      "id": "2MIuCN0fnxs",
+      "title": "High mount submission basics",
+      "by": "John Joseph Tabang",
+      "vertical": false,
+      "channel": "John Joseph “426 MMA” Tabang",
+      "duration": 133,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "dfP-Ov8FBUo",
+      "title": "Cross collar chokes from mount",
+      "by": "Roger Gracie",
+      "vertical": false,
+      "channel": "Jiu Jitsu Moves",
+      "duration": 80,
+      "verified": "2026-07-14"
     }
   ]
 }

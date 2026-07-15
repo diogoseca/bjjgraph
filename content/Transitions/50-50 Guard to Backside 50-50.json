@@ -285,7 +285,36 @@
         "answer": "Threaten a heel hook from standard 50-50 to force a defensive commitment. When the opponent focuses on hiding their heel, tucking their knee, or grip fighting to protect the heel, their hips become static and their attention is directed away from monitoring your positional changes. This defensive reaction creates the ideal window. The heel hook threat does not need to be a serious finishing attempt; even a credible setup attempt is enough to shift their focus and open the rotational pathway."
       }
     ],
-    "safety_considerations": "The Transition to Backside 50-50 involves rotational forces around knee and ankle joints that can create unintended torque if executed carelessly. Always maintain controlled movement during the hip walk rather than explosive jerking motions that could hyper-rotate the entangled knee. In training, communicate with your partner before drilling this transition at speed, as the rotation can catch defenders off-guard and create sudden pressure on their knee ligaments. If your partner indicates discomfort during the entanglement tightening phase, immediately reduce pressure and adjust leg positioning. Never continue the rotation if you feel your own or your partner's knee being loaded in a twisting direction that does not align with natural joint movement."
+    "safety_considerations": "The Transition to Backside 50-50 involves rotational forces around knee and ankle joints that can create unintended torque if executed carelessly. Always maintain controlled movement during the hip walk rather than explosive jerking motions that could hyper-rotate the entangled knee. In training, communicate with your partner before drilling this transition at speed, as the rotation can catch defenders off-guard and create sudden pressure on their knee ligaments. If your partner indicates discomfort during the entanglement tightening phase, immediately reduce pressure and adjust leg positioning. Never continue the rotation if you feel your own or your partner's knee being loaded in a twisting direction that does not align with natural joint movement.",
+    "clips": [
+      {
+        "id": "DBbSqQf6iCo",
+        "title": "Roll under to backside 50/50",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 110,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "1s9wTxwTqwM",
+        "title": "Backside 50/50 entry",
+        "by": "Combat Principles MMA",
+        "vertical": false,
+        "channel": "Combat Principles MMA",
+        "duration": 38,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "h1kv3AHUKJk",
+        "title": "Reverse De La Riva to backside 50-50",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 41,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "50-50 Guard to Backside 50-50 Defender",
@@ -400,6 +429,17 @@
         "phase": "Full Resistance Positional Sparring",
         "focus": "Live defense against committed transition attempts",
         "description": "Full resistance rounds starting in standard 50-50. Top player actively works to achieve Backside 50-50 while bottom player defends. Score: successful prevention returns to standard 50-50 and resets. If Backside 50-50 is achieved, bottom player immediately works escape protocols. Five-minute rounds tracking prevention success rate."
+      }
+    ],
+    "clips": [
+      {
+        "id": "RTzSOGlxSWg",
+        "title": "Escape and counter the backside 50/50",
+        "by": "Matrix Jiu Jitsu",
+        "vertical": false,
+        "channel": "Matrix Jiu Jitsu",
+        "duration": 240,
+        "verified": "2026-07-15"
       }
     ]
   }

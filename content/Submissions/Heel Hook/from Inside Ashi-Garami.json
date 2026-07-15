@@ -399,6 +399,35 @@
         "answer": "When the opponent rolls toward you, they are attempting to rotate their body in the same direction as your heel hook rotation to neutralize the twisting differential on their knee. Counter by following their roll while maintaining your grip configuration—as they turn, you turn, keeping the rotational differential between their heel and knee constant. Simultaneously tighten your leg hooks and drive hips forward to prevent them from completing the full rotation. If they continue committing to the roll, transition to a belly-down heel hook position by going over your shoulder, which generates even greater finishing torque using your entire body weight.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "chtDbrmYQo8",
+        "title": "Inversion to inside heel hook",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Control Jiu JItsu",
+        "duration": 62,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "mZ4Q3PL9iZ4",
+        "title": "WNO inversion heel hook breakdown",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 53,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "FfkVEt5YHbY",
+        "title": "Inside ashi garami heel hook",
+        "by": "Modesto Judo Club",
+        "vertical": false,
+        "channel": "Modesto Judo Club",
+        "duration": 59,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -553,6 +582,35 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Applying defensive skills in live heel hook scenarios with safety protocols",
         "description": "Begin in Inside Ashi-Garami with partner attacking at 75% intensity. Practice full defensive repertoire including prevention, escape, and tactical tapping. Maintain strict safety protocols throughout with attacker applying finishing pressure slowly and defender tapping at first sign of committed rotational torque. Review each round to identify moments where earlier defense would have been more effective."
+      }
+    ],
+    "clips": [
+      {
+        "id": "cRXsNPAgVLU",
+        "title": "Irimi ashi garami counter",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 29,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "2RLgyzWN71Y",
+        "title": "Outside ashi heel hook / running man escape",
+        "by": "Grappling Game Changer",
+        "vertical": false,
+        "channel": "GRAPPLING GAME CHANGER",
+        "duration": 54,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "gpg88DFH9D4",
+        "title": "Defending and countering the 50/50 heel hook",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 81,
+        "verified": "2026-07-14"
       }
     ]
   }

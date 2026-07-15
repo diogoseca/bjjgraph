@@ -400,6 +400,35 @@
         "answer": "Competition finishing requires sealing the hand-to-shin loop quickly before the opponent extracts the trapped arm, then immediately drawing the knee to your head and bridging. Keep the trapped arm pinned throughout and use their forward pass as the compression engine. Avoid testing the loop with partial pressure, which alerts opponents and triggers an arm extraction before you are ready.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "0VDUwuyT6N4",
+        "title": "How To Buggy Choke",
+        "by": "Yoga for BJJ",
+        "vertical": false,
+        "channel": "Yoga for BJJ",
+        "duration": 71,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "zixbOyLpoOc",
+        "title": "The OG Buggy Choke",
+        "by": "Kade and Tye Ruotolo",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 138,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "0_3YYrWEGoU",
+        "title": "3 Buggy Choke Concepts",
+        "by": "Kade and Tye Ruotolo",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 201,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -561,6 +590,35 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Defending the Buggy Choke under realistic conditions during rolling",
         "description": "Positional sparring starting in half guard top against a partner who actively hunts the Buggy Choke. Defend the choke while maintaining your passing offense. Track how often you get caught, at what stage you recognize the threat, and which escape paths succeed most frequently. Refine your defensive timing and develop the habit of monitoring arm position throughout half guard passing exchanges."
+      }
+    ],
+    "clips": [
+      {
+        "id": "6na3oiDkWek",
+        "title": "No Gi Buggy Choke Counter/Defence",
+        "by": "SD BJJ Australia",
+        "vertical": false,
+        "channel": "SD BJJ AUSTRALIA",
+        "duration": 81,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "6VmI-HMAQso",
+        "title": "How To Defend the Dreaded Buggy Choke",
+        "by": "MMA Leech",
+        "vertical": false,
+        "channel": "MMA Leech",
+        "duration": 239,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "jMIn4CQ3khE",
+        "title": "Buggy Choke Recovery",
+        "by": "Zach Maslany",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 153,
+        "verified": "2026-07-14"
       }
     ]
   },

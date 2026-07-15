@@ -295,7 +295,27 @@
         "answer": "Maintain your hip rotation angle so their re-hook lands on the outside of your knee rather than behind it in the original position. Continue driving your knee toward the mat while using your free hand to address their re-hook. Persistence through 2-3 re-hooking cycles usually succeeds because each cycle weakens their outside leg's grip angle. Do not reset to the beginning of the extraction—continue from where you are, as their inside leg clearance is still effective even if the outside hook re-engages."
       }
     ],
-    "safety_considerations": "Leg extraction from ashi-garami positions carries significant injury risk when performed improperly. Never yank or explosively pull your leg when the opponent has any grip on your heel—this can cause catastrophic knee ligament damage by accelerating the heel hook mechanism. Always strip grips before generating extraction force. Tap immediately if you feel any rotational pressure on your knee during the extraction process. In training, communicate with your partner and practice at controlled speeds before adding resistance. If your extraction stalls and opponent secures deep heel control, it is safer to tap and reset than to force the escape against a locked submission. Knee and ankle injuries from forced extractions are among the most common training injuries in leg lock-focused gyms."
+    "safety_considerations": "Leg extraction from ashi-garami positions carries significant injury risk when performed improperly. Never yank or explosively pull your leg when the opponent has any grip on your heel—this can cause catastrophic knee ligament damage by accelerating the heel hook mechanism. Always strip grips before generating extraction force. Tap immediately if you feel any rotational pressure on your knee during the extraction process. In training, communicate with your partner and practice at controlled speeds before adding resistance. If your extraction stalls and opponent secures deep heel control, it is safer to tap and reset than to force the escape against a locked submission. Knee and ankle injuries from forced extractions are among the most common training injuries in leg lock-focused gyms.",
+    "clips": [
+      {
+        "id": "PhS9Xj-4KbA",
+        "title": "Escaping the honey hole (inside sankaku)",
+        "by": "Oneonta Jiu Jitsu",
+        "vertical": false,
+        "channel": "OneontaJiuJitsu Academy",
+        "duration": 56,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "L417yCl_-dc",
+        "title": "Leg defense from ashi garami",
+        "by": "The Coop BJJ",
+        "vertical": false,
+        "channel": "The Coop BJJ",
+        "duration": 48,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Leg Extraction from Inside Ashi Defender",
@@ -417,6 +437,17 @@
         "phase": "Phase 4: Full Resistance Positional Sparring",
         "focus": "Applying retention and counter-attack skills under competition conditions",
         "description": "Start in Inside Ashi-Garami. Bottom player attacks while top player works extraction or alternative escapes at full resistance. Track retention rate, submission rate during extraction, and positional advancement rate. 3-minute rounds with 1-minute rest, 5 rounds per session."
+      }
+    ],
+    "clips": [
+      {
+        "id": "aQ2vFXXBn-o",
+        "title": "Countering a full inversion escape",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-15"
       }
     ]
   }

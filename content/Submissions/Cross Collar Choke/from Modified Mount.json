@@ -328,6 +328,35 @@
         "answer": "The Cross Collar Choke serves as the centerpiece of a dilemma-based attack chain from Modified Mount. When you establish the first collar grip, defenders must choose between keeping arms tight (accepting choke pressure) or reaching up to strip the grip (exposing arms to armbar or americana). Threaten the choke to force arms up, then attack the extended arm. If they keep arms down, deepen the choke. If they bridge to escape, use the posted leg to maintain base and continue choke pressure. The choke threat makes every other attack from Modified Mount more dangerous because the defender cannot commit fully to any single defense.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "dfP-Ov8FBUo",
+        "title": "Cross Collar Chokes breakdown",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 80,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "pXcCvjwjPHw",
+        "title": "Cross collar choke from mount",
+        "by": "Chad Lyman",
+        "vertical": false,
+        "channel": "Rich Castro",
+        "duration": 56,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "5cYvd0U5IQQ",
+        "title": "Cross choke from mount",
+        "by": "Blue Springs Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Blue Springs Jiu-Jitsu",
+        "duration": 29,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -452,6 +481,26 @@
         "phase": "Phase 3: Full Defense Integration",
         "focus": "Combining grip stripping with positional escape under increasing resistance",
         "description": "Partner actively attacks the Cross Collar Choke from Modified Mount with progressive resistance. Combine grip stripping, chin tucking, and hip escape sequences into fluid defensive chains. Practice recognizing when grip stripping has failed and transitioning immediately to positional escape rather than continuing a losing grip battle. Include tap recognition training where partner occasionally locks the choke fully to practice safe tapping reflexes."
+      }
+    ],
+    "clips": [
+      {
+        "id": "QIRF2B9riAA",
+        "title": "Cross choke defense: two quick tips",
+        "by": "Wayne Sniffen",
+        "vertical": false,
+        "channel": "Wayne Sniffen",
+        "duration": 105,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "j2qf5q7PChY",
+        "title": "Defending the mount cross choke",
+        "by": "Ninja Pinto",
+        "vertical": false,
+        "channel": "Ninja Pinto BJJ",
+        "duration": 23,
+        "verified": "2026-07-14"
       }
     ]
   }

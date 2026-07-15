@@ -331,7 +331,36 @@
         "answer": "If the primary frame-and-shrimp sequence stalls, transition to the forward roll escape by matching the opponent's hip direction and rolling through to invert the position. If that path is blocked because the opponent has their hips low, switch to the arm extraction variant by pulling your trapped elbow in a circular arc toward your hip while maintaining whatever angle you created. If arm extraction fails, use the space from your existing angle to work a knee insertion between your bodies for knee shield recovery. The key is never remaining static in a stalled position - cycle through escape variants continuously, as each attempt forces the opponent to adjust and creates micro-openings for the next attempt in the chain."
       }
     ],
-    "safety_considerations": "Dead Orchard Control involves blood choke mechanics that can cause unconsciousness in seconds when fully locked. During training, maintain clear tap signals with your free hand and tap early when the choke is fully secured rather than fighting through a locked submission. Training partners should release immediately upon any tap signal and monitor for signs of disorientation or loss of consciousness. Practice at controlled resistance levels and increase gradually. Never attempt to power through a fully locked dead orchard choke in training - the escape must be initiated before the choke reaches full compression to be viable."
+    "safety_considerations": "Dead Orchard Control involves blood choke mechanics that can cause unconsciousness in seconds when fully locked. During training, maintain clear tap signals with your free hand and tap early when the choke is fully secured rather than fighting through a locked submission. Training partners should release immediately upon any tap signal and monitor for signs of disorientation or loss of consciousness. Practice at controlled resistance levels and increase gradually. Never attempt to power through a fully locked dead orchard choke in training - the escape must be initiated before the choke reaches full compression to be viable.",
+    "clips": [
+      {
+        "id": "At1_GDu4hSc",
+        "title": "How to Escape the Anaconda Choke",
+        "by": "ArtOfSayingGoodbye",
+        "vertical": false,
+        "channel": "ArtOfSayingGoodbye",
+        "duration": 23,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "s94GexEkoQ0",
+        "title": "Anaconda Choke Defense Plus Counter",
+        "by": "Cyril Robert",
+        "vertical": false,
+        "channel": "Cyril Robert MMA",
+        "duration": 43,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "N9MbEtAv_Lw",
+        "title": "Anaconda Choke Defense",
+        "by": "Mamba BJJ",
+        "vertical": false,
+        "channel": "Mamba BJJ",
+        "duration": 62,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Escape Dead Orchard Control Defender",
@@ -460,6 +489,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance control and submission against committed escapes",
         "description": "Full resistance positional rounds starting in dead orchard control. Top player scores for maintaining position, finishing submissions, or advancing to back control. Track retention rates and submission finish percentages to measure control effectiveness against trained escape attempts."
+      }
+    ],
+    "clips": [
+      {
+        "id": "guHPx-OKi0M",
+        "title": "Prevent the Sucker Drag Escape During the Anaconda",
+        "by": "Drew Darce",
+        "vertical": false,
+        "channel": "Drew Darce",
+        "duration": 159,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "grRBEneVtR8",
+        "title": "Detail to Keep the Anaconda Choke Tight",
+        "by": "Tommy P",
+        "vertical": false,
+        "channel": "Tommy P",
+        "duration": 124,
+        "verified": "2026-07-15"
       }
     ]
   }

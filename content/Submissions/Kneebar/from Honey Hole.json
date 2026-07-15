@@ -348,6 +348,26 @@
         "answer": "Follow their rotation with your hips while maintaining the arm clamp and inside leg triangle. If they rotate toward you, use the momentum to transition to a belly-down kneebar position which provides even stronger finishing leverage. If they rotate away, your triangle should limit the rotation to prevent completion. Post your free hand on the mat for base if the rotation threatens to displace you. Never let go of the arm clamp during rotation as your grip on the leg is your anchor point for following their movement.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "3KAO2Ck4HRg",
+        "title": "Bow and Arrow to Kneebar from Honey Hole",
+        "by": "JitzLive",
+        "vertical": false,
+        "channel": "JitzLive",
+        "duration": 52,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "tm98rJZCvdc",
+        "title": "Kneebar from Side Saddle / Honey Hole",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 253,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -483,6 +503,35 @@
         "phase": "Phase 4: Full Positional Sparring",
         "focus": "Live defense under pressure",
         "description": "Start in Honey Hole bottom with partner at full resistance. Defend both heel hook and kneebar threats while actively pursuing escape. Practice tap timing when escape fails and tap early then analyze what went wrong. Goal is building realistic defensive instincts and safe tap habits."
+      }
+    ],
+    "clips": [
+      {
+        "id": "gEEHqiSznS4",
+        "title": "How to Escape the Honey Hole",
+        "by": "Vagner Rocha",
+        "vertical": false,
+        "channel": "Vagner Rocha Martial Arts - MMA Gym, BJJ School, Jiu Jitsu, Mixed Martial Arts, Kickboxing, Boxing Gym",
+        "duration": 60,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "wBRG0fY94fs",
+        "title": "How to Defend a Kneebar",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 59,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "NuWBh3LN-SY",
+        "title": "Kneebar Defense + Take the Back",
+        "by": "Bicudo BJJ",
+        "vertical": false,
+        "channel": "Bicudo BJJ",
+        "duration": 22,
+        "verified": "2026-07-14"
       }
     ]
   }

@@ -399,6 +399,35 @@
           "nogi": 4
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "tQdLbooJjvI",
+        "title": "Get to the far hip and hold it in place",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 13,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "aX87dPPVcGU",
+        "title": "Cross body ride back take vs turtle",
+        "by": "Paul McVeigh",
+        "vertical": false,
+        "channel": "Paul Mcveigh",
+        "duration": 107,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "PTe4-NhLXf8",
+        "title": "Shallow cross face detail",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 24,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -709,6 +738,35 @@
           "nogi": 5
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "d312j3n9fIw",
+        "title": "Turtle defence: sit out, head on back",
+        "by": "Mjolnir Fight Club",
+        "vertical": false,
+        "channel": "Mjølnir Fight Club",
+        "duration": 30,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "923eYpD1E58",
+        "title": "Inside roll escape from turtle",
+        "by": "Kenny Lester",
+        "vertical": false,
+        "channel": "KING OF CATCH WRESTLING CHAMPIONSHIP",
+        "duration": 158,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "zxSKKUroV6Q",
+        "title": "So many ways to escape the turtle",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 214,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -743,6 +801,26 @@
     {
       "question": "What makes Cross Body Ride especially prevalent in no-gi grappling compared to gi settings?",
       "answer": "The ride relies on body-to-body seatbelt control and chest-driven perpendicular pressure rather than on lapel or collar grips, so it does not lose potency when gi handles are unavailable. In the gi a top player can often ride turtle using collar and belt grips, but no-gi removes those anchors and elevates positions like this that control through structure and weight. Its friction-and-pressure mechanics translate directly to no-gi where grip-based rides break down. This is why it features prominently in modern no-gi turtle-attack systems built around the harness."
+    }
+  ],
+  "clips": [
+    {
+      "id": "-OJPjHh2F7A",
+      "title": "Back-taking concepts from turtle",
+      "by": "Chase Namba",
+      "vertical": false,
+      "channel": "Chase Namba",
+      "duration": 245,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "P47fz4EuVWQ",
+      "title": "Peel back: leg riding from the sit-out",
+      "by": "WrestlingTournaments.com",
+      "vertical": false,
+      "channel": "WrestlingTournaments․com",
+      "duration": 103,
+      "verified": "2026-07-14"
     }
   ]
 }

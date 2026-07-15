@@ -326,6 +326,35 @@
         "answer": "First verify the elbow is properly pinned at or below shoulder level because if it has risen you must re-pin it before continuing. Then try walking your base slightly toward the defender's head to change the rotational angle on the joint. You can also tighten your figure-four grip closer to the wrist joint for increased leverage. If these adjustments fail, the defender may have unusual shoulder flexibility, and transitioning to a kimura or armbar chain is more productive than forcing the Americana.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "eBD320q32IA",
+        "title": "North South Kimura to Americana",
+        "by": "PAC Enumclaw",
+        "vertical": false,
+        "channel": "PAC Enumclaw",
+        "duration": 79,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "xwp0G1-2p-Q",
+        "title": "North South Americana",
+        "by": "Cauliflower Ear Family",
+        "vertical": false,
+        "channel": "Cauliflower Ear Family",
+        "duration": 165,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "nbiGqgXoYxE",
+        "title": "North South to Americana",
+        "by": "Fenrir Thorvaldsen",
+        "vertical": false,
+        "channel": "Fenrir Thorvaldsen",
+        "duration": 177,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -460,6 +489,26 @@
         "phase": "Phase 4: Live Defense Rounds",
         "focus": "Full resistance application",
         "description": "Positional sparring starting from North-South with the attacker specifically hunting the Americana. Defend at full resistance while tracking which defensive tools work most consistently. Develop the ability to read the attacker's setup and choose the optimal defensive response in real time."
+      }
+    ],
+    "clips": [
+      {
+        "id": "bN9pxIdCiPU",
+        "title": "Americana Defense with the Legs",
+        "by": "ROBAL BJJ",
+        "vertical": false,
+        "channel": "ROBAL BJJ / MRF",
+        "duration": 17,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "jDbywpDs3Tw",
+        "title": "Preventing the Hand Moving Across (North South)",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 129,
+        "verified": "2026-07-14"
       }
     ]
   }

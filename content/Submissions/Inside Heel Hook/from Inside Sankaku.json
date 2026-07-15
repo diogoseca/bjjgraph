@@ -357,6 +357,35 @@
         "answer": "If your grip is secure with wrist blade on the Achilles and foot trapped in the armpit, maintain the grip and follow the roll - the rotational movement of the escape can actually accelerate the submission finish as their own momentum generates force on the knee. If your grip is only partial without the foot secured in the armpit, release the grip and focus on maintaining the Inside Sankaku entanglement through the roll. A partial grip during a dynamic rolling scramble creates unpredictable forces that risk uncontrolled knee damage to both the opponent and yourself. Positional control can always be reestablished; knee ligaments cannot be reattached in training.",
         "safety_critical": true
       }
+    ],
+    "clips": [
+      {
+        "id": "sIYeSMSkqeE",
+        "title": "Inside Heel Hook Finish",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "Professor Buck",
+        "duration": 18,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "6gu-n4P9JXo",
+        "title": "Heel Hook Breaking Mechanics",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "Altay Pirge",
+        "duration": 77,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "lyF2GxQrLoQ",
+        "title": "Inside Sankaku Heel Hook Finish",
+        "by": "Professor Buck",
+        "vertical": false,
+        "channel": "Professor Buck",
+        "duration": 106,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -492,6 +521,26 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Applying defensive skills under full resistance with safety protocols",
         "description": "Positional sparring starting in established Inside Sankaku. Defender works full escape attempts against attacker using complete offensive toolkit. Both partners maintain catch-and-release rules on all heel hooks. Build real-time defensive decision-making under pressure. Reset when escape is successful or submission is caught."
+      }
+    ],
+    "clips": [
+      {
+        "id": "v3w0qXLKxug",
+        "title": "Defending Heel Hooks",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 92,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "q1JgpfFRDA4",
+        "title": "Inside Sankaku Counter to Inside Heel Hook",
+        "by": "Pedro Rocha",
+        "vertical": false,
+        "channel": "BJJ ONLINE",
+        "duration": 163,
+        "verified": "2026-07-14"
       }
     ]
   }

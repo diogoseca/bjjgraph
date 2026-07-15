@@ -348,6 +348,35 @@
         "question": "Your opponent explosively frames with their free arm against your face - how do you recover control?",
         "answer": "Turn your head to the side and drive your chin down, making the frame slip off your face rather than stopping your forward pressure. Simultaneously use your free hand to swim inside their framing arm and redirect it to the mat or pin it to their body. Never back away from the frame as this surrenders your position. Increase your forward pressure through the frame and angle your approach to bypass it."
       }
+    ],
+    "clips": [
+      {
+        "id": "NjpsGcUIo9Y",
+        "title": "Overhook guard pass",
+        "by": "Eric Laporte",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 167,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "nyZwifeL_Do",
+        "title": "Shoulder crunch pass",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 106,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "aAd6OIq94X0",
+        "title": "Body lock guard pass off the underhook",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 205,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -661,6 +690,35 @@
         "question": "Your opponent explosively attempts to rip their arm free from the overhook - what is your immediate counter?",
         "answer": "Follow their arm movement rather than fighting it directly. As they pull, immediately transition to triangle by shooting your overhook-side leg over their shoulder since their posture is broken and arm is pulled back. Alternatively, switch to kimura grip as their arm extracts - their pulling motion actually assists your kimura entry. The key is to flow with their energy into an attack rather than losing a grip-fighting battle."
       }
+    ],
+    "clips": [
+      {
+        "id": "QPL5y0hIVV4",
+        "title": "Closed guard overhook sweep",
+        "by": "David Morris",
+        "vertical": false,
+        "channel": "David Morris Jiu Jitsu ",
+        "duration": 17,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "ljmJ9xP6N7U",
+        "title": "Overhook guard to reverse triangle + kimura",
+        "by": "ZeGrapplez",
+        "vertical": false,
+        "channel": "ZeGrapplez",
+        "duration": 45,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "PAVo91SaisY",
+        "title": "Overhook closed guard to triangle attack",
+        "by": "Hellfish MMA",
+        "vertical": false,
+        "channel": "Hellfish Mixed Martial Arts",
+        "duration": 174,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -695,6 +753,35 @@
     {
       "question": "Why does Overhook Guard reward continuous attacking rather than passively holding the arm connection?",
       "answer": "The single-arm trap leaves the opponent one free posting hand, so if the holder merely maintains the grip without threatening, the opponent uses that free arm to re-posture, rebuild base, and neutralize the connection. The deep overhook also depends on continuous posture-breaking tension; the moment that downward pull lapses, the trapped shoulder re-straightens and the control resets toward neutral. Because the compromised trapped corner invites off-balancing on one side and re-posturing on the other, the connection is only leverage while it is actively loaded. This is why the position is treated as a launch point for chained sweeps, back takes, and submissions rather than a control to sit in, with the overhook serving as the anchor that links one attack to the next."
+    }
+  ],
+  "clips": [
+    {
+      "id": "DfUHvTQpzCg",
+      "title": "Using an overhook",
+      "by": "Patrick Spano",
+      "vertical": false,
+      "channel": "FANATIC WRESTLING",
+      "duration": 40,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "5J92PJO-dEo",
+      "title": "Overhook from closed guard",
+      "by": "6am Jiu Jitsu",
+      "vertical": false,
+      "channel": "6am jiu jitsu, try it, it’s fun they said 🥋",
+      "duration": 114,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "XVxTzuJ1F60",
+      "title": "Overhook closed guard to rolling armbar",
+      "by": "BOWERHOUSE MMA",
+      "vertical": false,
+      "channel": "BOWERHOUSE MMA",
+      "duration": 60,
+      "verified": "2026-07-14"
     }
   ]
 }

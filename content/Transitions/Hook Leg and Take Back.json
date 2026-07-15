@@ -260,7 +260,36 @@
         "answer": "You must have established buggy choke control with a secure harness grip and chest-to-back connection. The opponent must be initiating a sit-up or guard recovery motion that creates hip elevation. Your hips must be close enough to the opponent's hips that hook insertion distance is minimal. Without these conditions, attempting the transition results in positional loss."
       }
     ],
-    "safety_considerations": "This technique carries relatively low injury risk when performed correctly as the transition involves positional movement rather than joint locks or chokes. Primary safety concerns include avoiding excessive pressure on opponent's lower back during the sitting transition phase, and ensuring smooth hook insertion that does not catch toes on opponent's clothing or create knee torque. Training partners should communicate if hook insertion causes discomfort in hip flexors. Practitioners with existing knee issues should focus on the body triangle variant rather than forcing deep hook insertion when resistance is high. Always control the descent when following opponent's sitting motion to prevent landing heavily on their back."
+    "safety_considerations": "This technique carries relatively low injury risk when performed correctly as the transition involves positional movement rather than joint locks or chokes. Primary safety concerns include avoiding excessive pressure on opponent's lower back during the sitting transition phase, and ensuring smooth hook insertion that does not catch toes on opponent's clothing or create knee torque. Training partners should communicate if hook insertion causes discomfort in hip flexors. Practitioners with existing knee issues should focus on the body triangle variant rather than forcing deep hook insertion when resistance is high. Always control the descent when following opponent's sitting motion to prevent landing heavily on their back.",
+    "clips": [
+      {
+        "id": "f3PJ06A_bWQ",
+        "title": "Hip switch to back take",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 19,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "oijKoS9siS4",
+        "title": "Rolling back take from turtle",
+        "by": "JiuJitsu.com",
+        "vertical": false,
+        "channel": "JiuJitsu.com",
+        "duration": 41,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "6ns9XP2BsjQ",
+        "title": "Back take from the turtle position",
+        "by": "Evolve MMA",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 66,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Hook Leg and Take Back Defender",
@@ -389,6 +418,35 @@
         "phase": "Week 7+",
         "focus": "Full resistance positional sparring",
         "description": "Start in buggy choke bottom position against fully resisting partner who attacks both the choke finish and the back take transition. Score for successful escapes to guard or half guard. Develop real-time decision-making about when to sit, which direction, and how to address hooks under competition pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "d312j3n9fIw",
+        "title": "Turtle defense: sit-out with head on back",
+        "by": "Mjolnir Fight Club",
+        "vertical": false,
+        "channel": "Mjølnir Fight Club",
+        "duration": 30,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "OltjLaTW3wQ",
+        "title": "Three ways to defend the back take",
+        "by": "Roberto \"Cyborg\" Abreu",
+        "vertical": false,
+        "channel": "Cyborg BJJ",
+        "duration": 89,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "1yvAZJbc3iY",
+        "title": "Sweep from turtle to counter the back take",
+        "by": "Brian Cusack",
+        "vertical": false,
+        "channel": "Brian Cusack Juijitsu",
+        "duration": 65,
+        "verified": "2026-07-15"
       }
     ]
   },

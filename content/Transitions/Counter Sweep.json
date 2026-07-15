@@ -285,7 +285,27 @@
         "answer": "When the butterfly sweep is already in motion, do not fight the direction. Instead, follow the sweep by posting your far hand on the mat in the direction you are being swept, then immediately circle your hips away from their hooks and drive your chest back into them as your body rotation breaks the hook connection. This converts their sweep momentum into your passing angle. The critical detail is posting and circling rather than bracing, because bracing against a committed butterfly sweep wastes energy and usually fails. By following and redirecting, you use their energy expenditure against them."
       }
     ],
-    "safety_considerations": "Counter-sweep training is generally low risk for injury as it emphasizes defensive positioning and base maintenance rather than explosive movements. However, practitioners should be aware that rapid base adjustments and posting can strain ankles, knees, and wrists if done with poor technique. When practicing counter-sweeps at speed, ensure proper mat space to avoid collisions with walls or other training partners during dynamic movements. Partners should communicate clearly about resistance levels, especially when drilling chain defenses where multiple directional changes occur rapidly. Beginners should master static defensive positions before progressing to full-speed sweep defense to avoid developing compensatory movement patterns that rely on strength rather than proper mechanics."
+    "safety_considerations": "Counter-sweep training is generally low risk for injury as it emphasizes defensive positioning and base maintenance rather than explosive movements. However, practitioners should be aware that rapid base adjustments and posting can strain ankles, knees, and wrists if done with poor technique. When practicing counter-sweeps at speed, ensure proper mat space to avoid collisions with walls or other training partners during dynamic movements. Partners should communicate clearly about resistance levels, especially when drilling chain defenses where multiple directional changes occur rapidly. Beginners should master static defensive positions before progressing to full-speed sweep defense to avoid developing compensatory movement patterns that rely on strength rather than proper mechanics.",
+    "clips": [
+      {
+        "id": "xDOjrYFJf5Y",
+        "title": "Closed guard counter sweep vs a head hug",
+        "by": "Jiu Jitsu Five-O coach",
+        "vertical": false,
+        "channel": "Jiu Jitsu Five-O // Street-Ready BJJ Training",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_uXZgaQm9jg",
+        "title": "Sweeping off an arm drag counter",
+        "by": "JiuJitsu.com coach",
+        "vertical": false,
+        "channel": "JiuJitsu.com",
+        "duration": 137,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Counter Sweep Defender",
@@ -403,6 +423,26 @@
         "phase": "Phase 4: Live Sweep-Counter-Recovery Rounds (Weeks 7+)",
         "focus": "Full-speed sweep failure management in live training",
         "description": "Positional sparring starting from open guard where you must attempt sweeps against a partner who actively counters. When sweeps fail, practice the complete decision tree: reguard, chain sweep, or create scramble. Track which recovery method you default to and develop the others to become unpredictable."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kNfVYhZbgrg",
+        "title": "Four levels of sweep defense",
+        "by": "Wim Deputter",
+        "vertical": false,
+        "channel": "Wim Deputter BJJ",
+        "duration": 87,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Y4TxL4mDSKg",
+        "title": "Defending the omoplata sweep",
+        "by": "Ninja Pinto",
+        "vertical": false,
+        "channel": "Ninja Pinto BJJ",
+        "duration": 47,
+        "verified": "2026-07-15"
       }
     ]
   },

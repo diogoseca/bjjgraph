@@ -348,6 +348,17 @@
         "question": "After your opponent partially disrupts your base but you manage to recover - what immediate steps do you take to prevent another attempt?",
         "answer": "Immediately re-establish wide base with free leg positioned further from sweep direction, lower your hips by bending knees more deeply, and re-engage upper body control to prevent them from building momentum for another attempt. Strip any grips they may have established during the disruption. Consider changing your angle relative to their hooks to prevent them from re-creating the same sweep setup that nearly worked."
       }
+    ],
+    "clips": [
+      {
+        "id": "gwEmeb9RSk4",
+        "title": "Single Leg X sweep defense (no-gi)",
+        "by": "Tiger Muay Thai",
+        "vertical": false,
+        "channel": "Tiger Muay Thai and MMA Training Camp, Phuket, Thailand",
+        "duration": 227,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -715,6 +726,35 @@
         "question": "After your opponent nearly passes but you recover to SLX - what steps do you take to prevent them from immediately trying the same pass?",
         "answer": "Immediately re-establish tight ankle control and aggressive elevation to remind them of the sweeping threat. Change your angle slightly from your previous position so they cannot simply repeat the same passing sequence. Consider attacking immediately with a sweep or leg lock entry while they are still adjusting - their near-success often means they over-committed in a way that creates vulnerability. Re-grip their sleeve or establish different upper body control to disrupt their grip pattern and prevent them from re-initiating the same passing chain."
       }
+    ],
+    "clips": [
+      {
+        "id": "AhsXraebbdg",
+        "title": "One-Leg X guard sweep",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "jen jitsu",
+        "duration": 47,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "zbYb6sOYC8w",
+        "title": "X-Guard sweep",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "CHOKE LABORATORY",
+        "duration": 53,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "y0C8vIeCrc0",
+        "title": "Two Single Leg X entries and sweep",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 179,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -749,6 +789,35 @@
     {
       "question": "What causes the position to break down, and how does that failure transfer control to the standing player?",
       "answer": "The position breaks down when the leg wrap loosens or elevation is lost, allowing the trapped leg to rotate free or the standing player to settle weight downward. A loose ankle wrap lets the limb extract; a dropped hip lets the opponent flatten and establish a heavy pressing base. The standing player exploits exactly these failures by clearing the outside (bottom) hook first to kill the sweep leverage, then extracting the leg once elevation is gone. Maintaining constant ankle tension and continuous hip elevation is therefore the shared fulcrum: lose either and control transfers to the standing player."
+    }
+  ],
+  "clips": [
+    {
+      "id": "y0C8vIeCrc0",
+      "title": "Single Leg X entries and sweep",
+      "by": "Marcelo Garcia",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 179,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "EcxCadpBePk",
+      "title": "Single Leg X guard options",
+      "by": "Steven Kaloustian",
+      "vertical": false,
+      "channel": "Steven Kaloustian",
+      "duration": 97,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "AhsXraebbdg",
+      "title": "One-Leg X guard sweep",
+      "by": "Marcelo Garcia",
+      "vertical": false,
+      "channel": "jen jitsu",
+      "duration": 47,
+      "verified": "2026-07-14"
     }
   ]
 }

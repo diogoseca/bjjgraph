@@ -348,7 +348,36 @@
         "description": "Probability of achieving submission during or after successful guard pass"
       },
       "average_time": "45-90 seconds before pass or sweep"
-    }
+    },
+    "clips": [
+      {
+        "id": "_4jDUxFg7uU",
+        "title": "De La Riva knee bump ashi entry",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 165,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "py3b0tmTJuU",
+        "title": "De La Riva float pass",
+        "by": "TrickyBJJ Academy",
+        "vertical": false,
+        "channel": "TrickyBJJ Academy",
+        "duration": 57,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "S5IKZijyNMc",
+        "title": "Destroy the De La Riva pass",
+        "by": "Augusto Frota",
+        "vertical": false,
+        "channel": "Gile23",
+        "duration": 51,
+        "verified": "2026-07-14"
+      }
+    ]
   },
   "bottom": {
     "name": "De La Riva Guard Bottom",
@@ -643,7 +672,27 @@
         "description": "Probability of achieving submission directly from this position or immediate follow-up"
       },
       "average_time": "45-90 seconds per engagement"
-    }
+    },
+    "clips": [
+      {
+        "id": "IvzYCJN4H1I",
+        "title": "Side sweep with the belt from DLR",
+        "by": "Mikey Musumeci",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 164,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "ErsvmCAGxnA",
+        "title": "Retaining DLR vs heavy pressure",
+        "by": "Chase Namba",
+        "vertical": false,
+        "channel": "Chase Namba",
+        "duration": 78,
+        "verified": "2026-07-14"
+      }
+    ]
   },
   "flashcards_family": [
     {
@@ -707,6 +756,35 @@
     {
       "question": "What sustains the connection and control in De La Riva Guard over the course of an exchange?",
       "answer": "Control is maintained through active, dynamic hook tension rather than a static clamp, with the bottom player constantly pulling the knee toward the chest and driving the foot behind the top player's knee. This is reinforced by the diagonal grip system, one hand on the near ankle or pant cuff and the other cross-gripping the sleeve or collar, which breaks the top player's posture and prevents them from squaring up. Keeping the hips mobile and the shoulders slightly off the mat lets the bottom player continuously change angles rather than settling into one fixed shape. Any slack in the hook or loss of the grips lets the top player step out, flatten the angle, and begin passing."
+    }
+  ],
+  "clips": [
+    {
+      "id": "_V15lSbYA8k",
+      "title": "Back take from De La Riva",
+      "by": "Elite MMA",
+      "vertical": false,
+      "channel": "Elite MMA",
+      "duration": 77,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "sktKJVpry0k",
+      "title": "DLR mantis back take to bow and arrow",
+      "by": "War Room Jiu Jitsu",
+      "vertical": false,
+      "channel": "War Room Jiu Jitsu",
+      "duration": 58,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "48WwhEdE0NY",
+      "title": "Long De La Riva to back control",
+      "by": "Jimmy Quinlan",
+      "vertical": false,
+      "channel": "Blue Wave Brazilian Jiu Jitsu",
+      "duration": 156,
+      "verified": "2026-07-14"
     }
   ]
 }

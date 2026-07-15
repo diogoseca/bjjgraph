@@ -270,7 +270,18 @@
         "answer": "Reset your frames and wait for the next transition rather than forcing multiple extraction attempts. Consider switching to alternative escapes—half guard recovery requires less leg clearance, technical standup uses different mechanics, or turtle transition accepts different positioning. If they're timing your extraction well, you may need to feint the leg escape to draw their defensive commitment, then execute a different escape pathway."
       }
     ],
-    "safety_considerations": "This escape involves bridging and hip movement under an opponent's weight, creating potential strain on the lower back and neck. Ensure proper warm-up before drilling, particularly for hip flexors and spine mobility. During training, communicate clearly with your partner about pressure levels—excessive weight during the bridging phase can cause injury. Tap immediately if you feel trapped in a position causing neck strain rather than forcing the escape. The shoulder frame position can expose your elbow to kimura attacks; if your arm becomes trapped, abandon the escape rather than risking joint damage. This technique should not be attempted when fatigued to the point where proper frame mechanics cannot be maintained."
+    "safety_considerations": "This escape involves bridging and hip movement under an opponent's weight, creating potential strain on the lower back and neck. Ensure proper warm-up before drilling, particularly for hip flexors and spine mobility. During training, communicate clearly with your partner about pressure levels—excessive weight during the bridging phase can cause injury. Tap immediately if you feel trapped in a position causing neck strain rather than forcing the escape. The shoulder frame position can expose your elbow to kimura attacks; if your arm becomes trapped, abandon the escape rather than risking joint damage. This technique should not be attempted when fatigued to the point where proper frame mechanics cannot be maintained.",
+    "clips": [
+      {
+        "id": "fFqoFDE2yyw",
+        "title": "Guard retention against the leg drag",
+        "by": "Brandon Quick",
+        "vertical": false,
+        "channel": "Brandon Quick",
+        "duration": 90,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Leg Drag Escape to Closed Guard Defender",
@@ -395,6 +406,17 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring integration",
         "description": "Full resistance positional sparring starting from leg drag top. Partner uses all available escapes while you practice recognition, prevention, and advancement. Track which escape attempts you struggle against most and develop specific counters. Measure advancement rate from leg drag to dominant positions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "T50gLtUUtqs",
+        "title": "Leg drag into toreando/X pass follow-up",
+        "by": "PFed BJJ coach",
+        "vertical": false,
+        "channel": "PFed BJJ",
+        "duration": 76,
+        "verified": "2026-07-15"
       }
     ]
   },

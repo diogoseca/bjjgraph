@@ -180,5 +180,25 @@
       "name": "Armbar Control",
       "relationship": "Related control position - arm exposure during gogoplata defense often creates armbar opportunities"
     }
+  ],
+  "clips": [
+    {
+      "id": "4Opp0j7UmlU",
+      "title": "Gogoplata from Guard",
+      "by": "Kinesiology College",
+      "vertical": false,
+      "channel": "Kinesiology College",
+      "duration": 21,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "PqAJraYllQI",
+      "title": "Gogoplata Variations from High Guard",
+      "by": "SpringHillBjj",
+      "vertical": false,
+      "channel": "SpringHillBjj",
+      "duration": 88,
+      "verified": "2026-07-14"
+    }
   ]
 }

@@ -281,7 +281,18 @@
         "answer": "If the opponent partially defends but you have grip on the legs, switch to a leg drag by pulling one leg across your body instead of pushing both laterally. If they recover one leg but you have cleared past the other, convert to a knee cut through the gap. If the opponent catches your leg during the lateral movement, immediately establish crossface and underhook for a half guard top passing position and work a knee slice. If the opponent hip escapes away, pursue with a body lock pass. The key principle is maintaining contact and converting the failed speed pass into a pressure pass rather than disengaging."
       }
     ],
-    "safety_considerations": "The Toreando from Headquarters is a relatively low-risk technique for both practitioners. Primary safety concerns involve the passer's lateral movement potentially causing knee strain if the foot catches on the mat during the explosive step. Both practitioners should ensure adequate mat space exists in the passing direction. Avoid cranking the opponent's legs with excessive rotational force during the lateral redirect, as this can strain their knee ligaments. Control the speed of the leg push in training to prevent hyperextension of the opponent's hip joints."
+    "safety_considerations": "The Toreando from Headquarters is a relatively low-risk technique for both practitioners. Primary safety concerns involve the passer's lateral movement potentially causing knee strain if the foot catches on the mat during the explosive step. Both practitioners should ensure adequate mat space exists in the passing direction. Avoid cranking the opponent's legs with excessive rotational force during the lateral redirect, as this can strain their knee ligaments. Control the speed of the leg push in training to prevent hyperextension of the opponent's hip joints.",
+    "clips": [
+      {
+        "id": "1Kfm5zqB8GQ",
+        "title": "Toreando pass to north-south",
+        "by": "Jay Rodriguez",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 165,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Toreando from Headquarters Defender",
@@ -397,6 +408,26 @@
         "phase": "Phase 3: Counter Offense",
         "focus": "Converting toreando defense into sweeps and guard recovery sequences",
         "description": "Partner initiates toreando at full speed from headquarters. Bottom player practices hip escape with knee insertion for half guard recovery and learns to use the passer's lateral momentum for counter-sweep opportunities. Develop the ability to catch the passer's trailing leg during the lateral step and convert into an offensive half guard position with immediate underhook and sweep threat. Progress to full positional sparring starting from headquarters."
+      }
+    ],
+    "clips": [
+      {
+        "id": "lVLAROiSjNU",
+        "title": "Guard retention: when to sit up and escape",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 136,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ynoR-AtSYUc",
+        "title": "Guard retention: recovering around the legs",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 210,
+        "verified": "2026-07-15"
       }
     ]
   }

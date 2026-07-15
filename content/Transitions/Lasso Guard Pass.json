@@ -278,7 +278,36 @@
         "answer": "The shoulder rotation must go backward and downward, not forward or upward. Rotate the trapped shoulder posteriorly while simultaneously dropping it toward the mat. This creates a corkscrew motion that reduces the circumference your arm presents inside the lasso loop, allowing extraction. Rotating forward or upward actually tightens the lasso by pressing your arm harder into their shin. The motion is similar to shrugging your shoulder backward while pulling your elbow toward your own hip, combined with the free hand pulling their shin away from your arm."
       }
     ],
-    "safety_considerations": "The lasso guard pass is generally a low-risk technique from a safety perspective, but practitioners should be aware of several considerations. When clearing the lasso hook, avoid jerking or explosive movements that could stress the opponent's shoulder or elbow joint, as the lasso creates a connected system through their arm. When standing up, ensure your partner's arm is not trapped in an awkward position that could cause injury if you post weight suddenly. Be cautious of your own balance when standing, as falling onto your partner while they maintain the lasso could cause injury to both participants. During training, communicate with your partner about the intensity level and take care when applying pressure to their legs or hips. For practitioners with knee issues, be mindful when driving your knee across for the final pass, as excessive force on a mat can aggravate existing conditions. Finally, if your partner maintains the lasso and you feel stuck, tap and reset rather than forcing the position, as this prevents both frustration and potential injury from desperate movements."
+    "safety_considerations": "The lasso guard pass is generally a low-risk technique from a safety perspective, but practitioners should be aware of several considerations. When clearing the lasso hook, avoid jerking or explosive movements that could stress the opponent's shoulder or elbow joint, as the lasso creates a connected system through their arm. When standing up, ensure your partner's arm is not trapped in an awkward position that could cause injury if you post weight suddenly. Be cautious of your own balance when standing, as falling onto your partner while they maintain the lasso could cause injury to both participants. During training, communicate with your partner about the intensity level and take care when applying pressure to their legs or hips. For practitioners with knee issues, be mindful when driving your knee across for the final pass, as excessive force on a mat can aggravate existing conditions. Finally, if your partner maintains the lasso and you feel stuck, tap and reset rather than forcing the position, as this prevents both frustration and potential injury from desperate movements.",
+    "clips": [
+      {
+        "id": "9sQAn2ESkMU",
+        "title": "Passing lasso guard to the back",
+        "by": "Gabriel Sousa",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 113,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "EdLPqtAm5yQ",
+        "title": "Pressure pass the Lasso Guard",
+        "by": "Alberto Serrano",
+        "vertical": false,
+        "channel": "Alberto Serrano BJJ",
+        "duration": 123,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "eXriz8Oz99I",
+        "title": "Deep lasso guard pass to leg drag",
+        "by": "Carpio Jiu Jitsu",
+        "vertical": false,
+        "channel": "Carpio Jiu Jitsu",
+        "duration": 161,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Lasso Guard Pass Defender",
@@ -401,6 +430,35 @@
         "phase": "Phase 4: Full Resistance Defense Integration (Weeks 7+)",
         "focus": "Defending passes at competition intensity with full offensive and defensive toolkit",
         "description": "Positional sparring starting in lasso guard with partner using full intensity passes. Combine grip retention, hip mobility, guard transitions, and sweep attacks into a complete defensive system. Track success rates: how often you maintain guard, how often you sweep, and how often you get passed. Identify patterns in where your defense breaks down and drill those specific scenarios."
+      }
+    ],
+    "clips": [
+      {
+        "id": "tO5rPtjfsGE",
+        "title": "Prevent the leg weave with lasso",
+        "by": "Grand Union Jiu Jitsu",
+        "vertical": false,
+        "channel": "Grand Union Jiu Jitsu",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QT_3oCZJ-3Y",
+        "title": "Short lasso guard retention",
+        "by": "Dean Lewis",
+        "vertical": false,
+        "channel": "Dean Lewis",
+        "duration": 194,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "gRz_Kv4HUN4",
+        "title": "Why your lasso guard is easy to pass",
+        "by": "Darin Conner DeAngelis",
+        "vertical": false,
+        "channel": "Darin Conner DeAngelis",
+        "duration": 239,
+        "verified": "2026-07-15"
       }
     ]
   },

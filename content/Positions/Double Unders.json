@@ -358,6 +358,35 @@
           "nogi": 4
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "UZVu4XCCO0k",
+        "title": "Passing with Double Unders",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 75,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "8O-urvZVqYU",
+        "title": "Double Under Pass to Darce",
+        "by": "10th Planet Costa Mesa",
+        "vertical": false,
+        "channel": "10th Planet Costa Mesa",
+        "duration": 35,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "bPyk_2CrVBo",
+        "title": "Double-Under Pass to Armbar",
+        "by": "Dirtball BJJ",
+        "vertical": false,
+        "channel": "Dirtball BJJ",
+        "duration": 68,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -656,6 +685,35 @@
           "nogi": 9
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "DBbSqQf6iCo",
+        "title": "Roll Under to Backside 50/50 Counter",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 110,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "vXSyHH514Gs",
+        "title": "3 Ways to Counter the Double Under Pass",
+        "by": "Dubious Dom",
+        "vertical": false,
+        "channel": "Dubious Dom",
+        "duration": 115,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "k-78AJwPYig",
+        "title": "Defending Double Under to Back Control",
+        "by": "Academy Jiu Jitsu",
+        "vertical": false,
+        "channel": "Academy Jiu Jitsu",
+        "duration": 64,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -690,6 +748,26 @@
     {
       "question": "From which positions does Double Unders typically arise, and what makes those guards vulnerable to it?",
       "answer": "Double Unders most often emerges from half guard, butterfly guard, and seated or open guards where the bottom player's legs are elevated and reachable rather than pinned to the mat. Those guards expose the undersides of the thighs, giving the passer the openings needed to thread both arms and clasp behind the back. Once the guard is sufficiently opened or broken, the passer penetrates the defensive frames and captures both legs before the defender can reset. This origin explains why the position functions as a gateway in the passing hierarchy, converting elevated-leg guards into a stacked, frame-killed configuration that funnels toward side control, mount, or back."
+    }
+  ],
+  "clips": [
+    {
+      "id": "N4PxPPv98k4",
+      "title": "Double unders pass concept and mechanics",
+      "by": "Nicky Ryan",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 91,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "wBZrTpuXV50",
+      "title": "No-gi double under guard pass walkthrough",
+      "by": "Garden State BJJ",
+      "vertical": false,
+      "channel": "Garden State Brazilian Jiu-Jitsu Academy",
+      "duration": 63,
+      "verified": "2026-07-15"
     }
   ]
 }

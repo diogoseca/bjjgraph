@@ -267,7 +267,27 @@
         "answer": "Transition immediately to an open guard system rather than forcing the closed guard against strong resistance. Place your freed foot on their hip as a frame while your other foot hooks behind their leg, establishing a butterfly guard entry or single leg X-guard position. The half-extracted position creates excellent entries to alternative guard systems that may be more effective than fighting to close guard."
       }
     ],
-    "safety_considerations": "This transition involves hip escape movements and leg extraction that place moderate stress on the hip flexors, groin, and medial knee ligaments. Practitioners should warm up hip mobility thoroughly before drilling extensively. Avoid forcing the leg extraction against heavy resistance—if the opponent is driving significant pressure during the attempt, abandon the extraction and re-establish your frame rather than risking knee or hip injury. Partners should communicate immediately if they feel any discomfort in the trapped knee during drilling. This is a low-risk technique overall, but rushing the mechanics under load can strain the inner knee structures."
+    "safety_considerations": "This transition involves hip escape movements and leg extraction that place moderate stress on the hip flexors, groin, and medial knee ligaments. Practitioners should warm up hip mobility thoroughly before drilling extensively. Avoid forcing the leg extraction against heavy resistance—if the opponent is driving significant pressure during the attempt, abandon the extraction and re-establish your frame rather than risking knee or hip injury. Partners should communicate immediately if they feel any discomfort in the trapped knee during drilling. This is a low-risk technique overall, but rushing the mechanics under load can strain the inner knee structures.",
+    "clips": [
+      {
+        "id": "5sdZak2bil4",
+        "title": "Reclaiming closed guard from half guard",
+        "by": "Daniel Lima",
+        "vertical": false,
+        "channel": "Daniel Lima",
+        "duration": 26,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ptGVzGawGB8",
+        "title": "Knee shield half guard to closed guard",
+        "by": "Grapple Factory",
+        "vertical": false,
+        "channel": "Grapple Factory",
+        "duration": 140,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Knee Shield to Closed Guard Defender",
@@ -371,6 +391,26 @@
         "phase": "Phase 3: Live Positional Sparring",
         "focus": "Integrating prevention into complete passing game",
         "description": "Full positional sparring from knee shield half guard top where partner is free to attempt any technique including guard recovery. Practice maintaining passing pressure that proactively prevents the recovery while pursuing your own passing objectives. Track how often opponent successfully closes guard to measure defensive improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "yj_6xcl2emA",
+        "title": "Passing the knee shield with an inside knee cut",
+        "by": "War Room Jiu Jitsu",
+        "vertical": false,
+        "channel": "War Room Jiu Jitsu",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dOdO6xJ-TcU",
+        "title": "Stopping the half guard underhook",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 98,
+        "verified": "2026-07-15"
       }
     ]
   }

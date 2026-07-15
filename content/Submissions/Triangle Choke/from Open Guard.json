@@ -325,6 +325,17 @@
         "answer": "When the opponent turns into the triangle, immediately tighten the figure-four lock by squeezing knees and pulling their head down to prevent them from creating enough rotation to extract their head. Use your free hand to control their far hip or belt to resist the rotation. If they generate significant rotational angle, transition to omoplata on the trapped arm—their turning motion feeds directly into the omoplata position by rotating their shoulder past the breaking point. You can also follow their rotation by hip-switching to the opposite side to maintain the perpendicular angle as they turn.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "4TSu2ySVQk4",
+        "title": "Triangle Choke from Collar Sleeve Open Guard",
+        "by": "Josh Presley",
+        "vertical": false,
+        "channel": "Josh Presley",
+        "duration": 150,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -453,6 +464,35 @@
         "phase": "Phase 3: Escape and Counter",
         "focus": "Escaping locked triangles and converting to passes",
         "description": "Start from locked triangle position with partner applying progressive pressure. Practice posture recovery, stack escapes, and turning escapes at increasing resistance levels. Progress to converting successful escapes into immediate passing sequences to side control. Full-speed positional rounds with triangle as the starting position."
+      }
+    ],
+    "clips": [
+      {
+        "id": "XE7KCUjLpqg",
+        "title": "Triangle Escape to Side Control",
+        "by": "Valdir Rodrigues",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 72,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "DLmrzSs1hWI",
+        "title": "Triangle Defense / Escape",
+        "by": "Daniel Frank",
+        "vertical": false,
+        "channel": "Daniel Frank",
+        "duration": 24,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Z-CsRn4K0vg",
+        "title": "Escaping Triangles vs Big Opponents",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 48,
+        "verified": "2026-07-14"
       }
     ]
   }

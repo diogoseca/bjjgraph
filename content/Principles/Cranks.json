@@ -380,5 +380,34 @@
       "question": "How does the twister generate force against the spine?",
       "answer": "The twister controls the opponent's leg and head simultaneously to create full-body lateral rotation that twists the spine. It requires specific entanglement and should only be drilled with extreme caution."
     }
+  ],
+  "clips": [
+    {
+      "id": "b1K-ymnozTM",
+      "title": "No-gi neck crank demonstration",
+      "by": "Bicudo BJJ",
+      "vertical": false,
+      "channel": "Bicudo BJJ",
+      "duration": 40,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "172-KIK7RYc",
+      "title": "Neck crank from guard",
+      "by": "Bushido BJJ",
+      "vertical": false,
+      "channel": "Bushido Brazilian Jiu-jitsu ",
+      "duration": 56,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "U7S78VFuwmU",
+      "title": "Peruvian necktie: neck crank or choke",
+      "by": "Judo Life",
+      "vertical": false,
+      "channel": "Judo Life",
+      "duration": 34,
+      "verified": "2026-07-15"
+    }
   ]
 }

@@ -350,6 +350,35 @@
         "question": "Why is hip elevation more effective than arm pulling for generating breaking pressure in the armbar finish?",
         "answer": "Hip elevation is more effective because it engages the largest muscle groups in the body — glutes, hamstrings, and core — against a single joint, creating a mechanical advantage that is impossible to resist with the bicep and forearm muscles alone. The hip bridge generates force along the entire kinetic chain from feet through hips, while arm pulling isolates the comparatively small muscles of the arms and shoulders. Additionally, hip elevation maintains the fulcrum position against the elbow while arm pulling tends to shift the arm away from the optimal fulcrum point, reducing effectiveness. The biomechanical principle is a first-class lever where the hip acts as the fulcrum, the attacker's body weight provides the effort, and the opponent's elbow is the load."
       }
+    ],
+    "clips": [
+      {
+        "id": "92INP2YJIMg",
+        "title": "Anatomy of the Arm Bar",
+        "by": "Tim Trevail",
+        "vertical": false,
+        "channel": "Tim Trevail",
+        "duration": 81,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "PE61YGNeYzU",
+        "title": "Finishing arm-bars from mount",
+        "by": "Sanabul",
+        "vertical": false,
+        "channel": "Sanabul",
+        "duration": 82,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "55Ux8giP_PY",
+        "title": "Wrist Control to Arm Bar",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 226,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -486,6 +515,35 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Full resistance survival and escape",
         "description": "Positional sparring from Technical Mount bottom against full-resistance armbar attacks. Goal is either escape or survival for a specified time period. Partner attacks with competition intensity while you apply all defensive skills. Track success rate over multiple rounds and identify which defensive phase needs improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "My favorite armbar escape",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "sDdqvh_1kbA",
+        "title": "Armbar Escape",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 63,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "AfDEN3uK3W0",
+        "title": "Low effort armbar escape via foot capture",
+        "by": "Patrick Donabedian",
+        "vertical": false,
+        "channel": "Patrick Donabedian BJJ",
+        "duration": 55,
+        "verified": "2026-07-14"
       }
     ]
   }

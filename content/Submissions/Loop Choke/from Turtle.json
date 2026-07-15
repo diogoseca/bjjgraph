@@ -372,6 +372,26 @@
         "answer": "From the front, the rolling motion goes directly over the opponent's head and shoulders, with the attacker rolling forward and ending on their back with the opponent's head trapped in the collar loop. This creates maximum rotational collar tension but requires committing your entire body over the opponent, which is higher risk if the grip is not perfect. From the side, the rolling motion is more lateral, with the attacker sprawling their hips away while pulling the opponent's head into the collar loop. The side approach allows a sprawl-based finish without a full roll, which maintains more positional control if the choke fails. The side attack also allows easier transitions to clock choke or back take if the loop choke defense is successful. Choose the front roll for maximum finishing power when grips are deep and secure, and the side approach when you want a safer attack with better fallback options.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "Vvsa0a3Wzkw",
+        "title": "Loop Choke from Turtle Position",
+        "by": "ICON Jiu-Jitsu Team",
+        "vertical": false,
+        "channel": "ICON JIU-JITSU TEAM",
+        "duration": 36,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "ruk0kdlr-Qw",
+        "title": "Alexandre Vieira's Famous Loop Choke",
+        "by": "Alexandre Vieira",
+        "vertical": false,
+        "channel": "FloGrappling",
+        "duration": 85,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -513,6 +533,17 @@
         "phase": "Phase 4: Live Defensive Sparring from Turtle",
         "focus": "Defending the loop choke against full resistance within turtle defense scenarios",
         "description": "Start in turtle bottom against a partner who hunts the loop choke along with other turtle attacks like clock choke, back takes, and front headlock submissions. Defend using all trained responses while also working turtle escapes. Partner uses full resistance and chains the loop choke with alternative attacks. Track how often you prevent the collar grip establishment versus how often you must escape a committed rolling attempt. Build the ability to defend the loop choke as part of a complete turtle survival strategy."
+      }
+    ],
+    "clips": [
+      {
+        "id": "RiBLBO9zinA",
+        "title": "Clock choke counter from turtle",
+        "by": "Jamie Ridgeway",
+        "vertical": false,
+        "channel": "Jamie Ridgeway",
+        "duration": 79,
+        "verified": "2026-07-15"
       }
     ]
   },

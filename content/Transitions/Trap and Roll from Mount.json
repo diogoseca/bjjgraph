@@ -296,7 +296,27 @@
         "answer": "The trap and roll and elbow escape create a binary dilemma for the mounted opponent. To prevent the trap and roll, they must keep their arms retracted and base wide, but this makes their weight distribution higher and more susceptible to hip escape. To prevent the elbow escape, they must keep tight pressure and low hips, but this brings their arms closer to trapping range. Each failed attempt of one escape improves the conditions for the other, creating a systematic escape engine."
       }
     ],
-    "safety_considerations": "The trap and roll is one of the safest escape techniques in BJJ as it involves no joint manipulation or strangulation risk. The primary safety concern is neck strain during explosive bridging, which can be mitigated by driving through the shoulders and hips rather than the neck. Practitioners with cervical spine issues should modify the bridge angle and intensity. During training, the rolling partner should be prepared for the reversal to avoid landing awkwardly, and beginners should practice at controlled speeds before adding explosive power."
+    "safety_considerations": "The trap and roll is one of the safest escape techniques in BJJ as it involves no joint manipulation or strangulation risk. The primary safety concern is neck strain during explosive bridging, which can be mitigated by driving through the shoulders and hips rather than the neck. Practitioners with cervical spine issues should modify the bridge angle and intensity. During training, the rolling partner should be prepared for the reversal to avoid landing awkwardly, and beginners should practice at controlled speeds before adding explosive power.",
+    "clips": [
+      {
+        "id": "WJmDwNWTXKY",
+        "title": "Trap and roll mount escape, technique 4",
+        "by": "Demian Maia",
+        "vertical": false,
+        "channel": "Demian Maia Jiu-Jitsu Portugal",
+        "duration": 40,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Pw76Tizir3k",
+        "title": "High mount escape, simple and effective",
+        "by": "Pathfinder Jiu-Jitsu Team",
+        "vertical": false,
+        "channel": "Pathfinder Jiu-Jitsu Team",
+        "duration": 120,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Trap and Roll from Mount Defender",
@@ -427,6 +447,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full-resistance mount maintenance against escape chains",
         "description": "Positional sparring from mount where the bottom player focuses specifically on trap and roll and elbow escape chains. The top player must defend both escapes while maintaining mount and looking for offensive opportunities. Full resistance with competition-level intensity."
+      }
+    ],
+    "clips": [
+      {
+        "id": "cxAYK5yx8Ws",
+        "title": "Trap and roll defense with double wrist pin",
+        "by": "Next Level Martial Arts",
+        "vertical": false,
+        "channel": "Next Level Martial Arts- Mount Kisco, NY",
+        "duration": 40,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dPkkcUtsymw",
+        "title": "Three must-know mount escapes",
+        "by": "Legion AJJ",
+        "vertical": false,
+        "channel": "Legion AJJ",
+        "duration": 96,
+        "verified": "2026-07-15"
       }
     ]
   }

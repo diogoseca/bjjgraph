@@ -291,7 +291,36 @@
         "answer": "An opponent dropping level during the transition is actually loading themselves for either a counter throw or an escape attempt. Respond by lowering your own level proportionally, keeping your hips below or level with theirs to prevent being thrown over. If your arms are mid-transition, accelerate the conversion and complete the body lock at the lower level rather than trying to pull them back upright. A low body lock is still highly functional for mat returns. If they are turning, use the remaining seatbelt arm to control their rotation and circle with them to maintain rear position before completing the grip change."
       }
     ],
-    "safety_considerations": "This transition involves standing grip work where the primary safety concern is maintaining balance for both practitioners during the grip change. Avoid explosive jerking motions that could cause whiplash or cervical strain. When training the immediate takedown follow-up, ensure the receiving partner knows how to breakfall properly. Never attempt suplex-style lifts in training without explicit partner consent and appropriate mat surface. Be mindful of finger and wrist injuries from aggressive grip fighting during the transition window. Always release control immediately if your partner signals discomfort or taps."
+    "safety_considerations": "This transition involves standing grip work where the primary safety concern is maintaining balance for both practitioners during the grip change. Avoid explosive jerking motions that could cause whiplash or cervical strain. When training the immediate takedown follow-up, ensure the receiving partner knows how to breakfall properly. Never attempt suplex-style lifts in training without explicit partner consent and appropriate mat surface. Be mindful of finger and wrist injuries from aggressive grip fighting during the transition window. Always release control immediately if your partner signals discomfort or taps.",
+    "clips": [
+      {
+        "id": "CEVgl3pTii4",
+        "title": "Rear body lock takedown",
+        "by": "3 Strikes Jujitsu",
+        "vertical": false,
+        "channel": "3 STRIKES JUJITSU",
+        "duration": 44,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "GOwulE_PIMg",
+        "title": "Body lock clinch takedown",
+        "by": "Blue Base Jiu Jitsu",
+        "vertical": false,
+        "channel": "Blue Base Jiu Jitsu",
+        "duration": 74,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "KXf8Jr3a9zg",
+        "title": "Body lock rear trip against the wall",
+        "by": "SBG Australia",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 12,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Rear Clinch to Body Lock Defender",
@@ -421,6 +450,35 @@
         "phase": "Phase 4: Full Resistance Positional Sparring",
         "focus": "Live defensive application from standing rear clinch",
         "description": "Full positional sparring starting from standing rear clinch. Attacker works to establish body lock and complete takedown. Defender uses full defensive repertoire to prevent conversion or manage consequences. Track success rate for preventing body lock establishment and for recovering guard when prevention fails."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Di-fJ06DSq8",
+        "title": "Body lock defense",
+        "by": "Peerless Jiu Jitsu Academy",
+        "vertical": false,
+        "channel": "Peerless Jiu Jitsu Academy ",
+        "duration": 79,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lGGo0H8ems4",
+        "title": "How to break a body lock",
+        "by": "Nick Diaz",
+        "vertical": false,
+        "channel": "Moments in MMA",
+        "duration": 62,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "aW0nNv2UWh0",
+        "title": "Two rear body lock counters: granby roll and knee bar",
+        "by": "GFA MMA",
+        "vertical": false,
+        "channel": "𝐆𝐅𝐀𝐌𝐌𝐀 - 𝐆𝐋𝐀𝐃𝐈𝐀𝐓𝐎𝐑 𝐅𝐈𝐆𝐇𝐓 𝐀𝐂𝐀𝐃𝐄𝐌𝐘",
+        "duration": 170,
+        "verified": "2026-07-15"
       }
     ]
   }

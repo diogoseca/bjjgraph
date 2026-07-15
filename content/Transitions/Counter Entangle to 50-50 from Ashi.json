@@ -284,7 +284,36 @@
         "answer": "Transition from the C-grip used during ashi garami to a figure-four grip around the opponent's heel, with your wrist positioned behind their Achilles tendon. This grip configuration is the finishing grip for heel hooks from 50-50 and allows immediate rotational breaking pressure. Establishing this grip as part of the transition rather than after settling into 50-50 saves critical seconds and often catches the opponent before they can establish defensive hand fighting positions."
       }
     ],
-    "safety_considerations": "The counter entangle to 50-50 involves rotational forces on both practitioners' knee joints during the threading and settling phases. Apply all leg entanglement transitions slowly during training, communicating with your partner throughout the movement. Both practitioners should be prepared to tap immediately if unexpected rotational pressure occurs on the knee during the entanglement change. Never force the threading motion against a fully locked defensive position, as this can create dangerous torque on the opponent's trapped knee. Train this transition only under qualified instruction with partners who understand leg lock safety protocols."
+    "safety_considerations": "The counter entangle to 50-50 involves rotational forces on both practitioners' knee joints during the threading and settling phases. Apply all leg entanglement transitions slowly during training, communicating with your partner throughout the movement. Both practitioners should be prepared to tap immediately if unexpected rotational pressure occurs on the knee during the entanglement change. Never force the threading motion against a fully locked defensive position, as this can create dangerous torque on the opponent's trapped knee. Train this transition only under qualified instruction with partners who understand leg lock safety protocols.",
+    "clips": [
+      {
+        "id": "DBbSqQf6iCo",
+        "title": "Roll under from ashi to backside 50/50",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 110,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "up34T04wt_U",
+        "title": "Roll from outside ashi to 50/50 inside heel hook",
+        "by": "Robyn Sheehan",
+        "vertical": false,
+        "channel": "Robyn Sheehan",
+        "duration": 107,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "yT3euuWRWXw",
+        "title": "Three paths to backside 50/50 from single leg X",
+        "by": "Gustavo Gomes Firmino",
+        "vertical": false,
+        "channel": "Gustavo Gomes Firmino",
+        "duration": 56,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Counter Entangle to 50-50 from Ashi Defender",
@@ -409,6 +438,35 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Full resistance counter entangle defense",
         "description": "Live positional sparring from Inside Ashi-Garami where partner uses the counter entangle as one of their offensive options among other ashi attacks. Defend with full resistance while managing all available defensive responses. Work 3-minute rounds with goal of preventing the 50-50 transition or immediately establishing strong defensive positioning if 50-50 is reached."
+      }
+    ],
+    "clips": [
+      {
+        "id": "KmGhb2j68Ng",
+        "title": "Escape outside ashi heel hook to back take",
+        "by": "Grapple Box",
+        "vertical": false,
+        "channel": "Grapple Box llc",
+        "duration": 34,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "clVAHxgRadE",
+        "title": "Outside heel hook defense into inside heel hook",
+        "by": "Holy Grail BJJ",
+        "vertical": false,
+        "channel": "Holy Grail BJJ",
+        "duration": 105,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uZbUhFapIhg",
+        "title": "Leglock defense from entanglement",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 163,
+        "verified": "2026-07-15"
       }
     ]
   }

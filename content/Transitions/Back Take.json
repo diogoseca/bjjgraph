@@ -370,6 +370,35 @@
         "focus": "Live positional defense",
         "description": "Full-resistance positional sparring starting from crackhead control. Partner works back take at 100% while you apply all defensive tools under competitive conditions. Track escape success rates, identify patterns in your defensive failures, and use data to target specific defensive weaknesses in subsequent drilling sessions."
       }
+    ],
+    "clips": [
+      {
+        "id": "OltjLaTW3wQ",
+        "title": "Three ways to defend the back take",
+        "by": "Roberto \"Cyborg\" Abreu",
+        "vertical": false,
+        "channel": "Cyborg BJJ",
+        "duration": 89,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "waVFl1Ip6VU",
+        "title": "Turtle back escape by shrugging",
+        "by": "Andy Tong",
+        "vertical": false,
+        "channel": "Andy Tong",
+        "duration": 33,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dHanNAj6B80",
+        "title": "Turtle escape from back control",
+        "by": "Adnan Sadiq",
+        "vertical": false,
+        "channel": "Adnan Sadiq",
+        "duration": 38,
+        "verified": "2026-07-15"
+      }
     ]
   },
   "variants_and_adaptations": [

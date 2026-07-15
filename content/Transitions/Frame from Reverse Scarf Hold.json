@@ -286,7 +286,18 @@
         "answer": "The two escapes target opposite base configurations. To resist frame escapes, the top player must maintain tight, heavy chest pressure with a narrow base that prevents lateral displacement. To resist bridge escapes, they need a wide sprawled base that absorbs directional force. These requirements are mutually exclusive: widening base against bridges creates gaps for frame-based hip escapes, while tightening against frames weakens bridge resistance. Alternating between threats forces the opponent to continuously adjust, creating timing windows for whichever escape targets their current configuration."
       }
     ],
-    "safety_considerations": "The primary safety concern during this escape involves the near-side arm, which remains vulnerable to americana and kimura attacks throughout the framing sequence. Never allow the near-side arm to extend or drift away from the body during frame establishment or hip escapes. If the opponent aggressively attacks a submission during the escape, immediately abandon the frame and address the submission threat with both arms. Tap promptly if any shoulder lock reaches full extension before you can reset defensive positioning. During training, communicate with your partner about chest compression levels and trapped arm comfort. Progress resistance gradually from static weight to live pressure to prevent unnecessary shoulder, elbow, or rib injuries."
+    "safety_considerations": "The primary safety concern during this escape involves the near-side arm, which remains vulnerable to americana and kimura attacks throughout the framing sequence. Never allow the near-side arm to extend or drift away from the body during frame establishment or hip escapes. If the opponent aggressively attacks a submission during the escape, immediately abandon the frame and address the submission threat with both arms. Tap promptly if any shoulder lock reaches full extension before you can reset defensive positioning. During training, communicate with your partner about chest compression levels and trapped arm comfort. Progress resistance gradually from static weight to live pressure to prevent unnecessary shoulder, elbow, or rib injuries.",
+    "clips": [
+      {
+        "id": "JM9nDge0arQ",
+        "title": "Reverse kesa gatame escape breakdown",
+        "by": "MMA Leech",
+        "vertical": false,
+        "channel": "MMA Leech",
+        "duration": 238,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Frame from Reverse Scarf Hold Defender",
@@ -399,6 +410,17 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance position maintenance against complete escape systems",
         "description": "Full resistance rounds starting in reverse scarf hold. Partner uses complete escape toolkit including frame escape, bridge escape, and combined chain attempts. Maintain position or advance for the duration of each round while mixing pressure maintenance with submission threats and transitions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "L_u5g2wDpIQ",
+        "title": "Holding reverse scarf and attacking the kimura",
+        "by": "Torres Martial Arts Academy",
+        "vertical": false,
+        "channel": "Torres Martial Arts Academy",
+        "duration": 74,
+        "verified": "2026-07-15"
       }
     ]
   }

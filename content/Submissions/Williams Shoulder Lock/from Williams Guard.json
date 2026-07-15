@@ -350,6 +350,35 @@
         "answer": "The Williams Shoulder Lock applies external (posterior) rotation from bottom guard position using an overhook figure-four grip, sharing the kimura/omoplata direction, while the Americana applies internal (medial) rotation from top position using a figure-four on the wrist. The key mechanical difference is rotation direction and body positioning—the Williams Lock drives the forearm up and rotates the humerus rearward using hip angle and full body engagement from bottom, while the Americana cranks the forearm down toward the mat relying on top pressure and gravity. The Williams Lock uniquely integrates guard retention with submission threat.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "CbhMCaKPYA4",
+        "title": "Neil Knot shoulder lock from Williams Guard",
+        "by": "UFAI Grappling",
+        "vertical": false,
+        "channel": "UFAI GRAPPLING",
+        "duration": 36,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "YXaJU4DVUUc",
+        "title": "Shoulder Pin to Neil Knot",
+        "by": "Control Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Control Jiu JItsu",
+        "duration": 70,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "URqmSVOr9Qw",
+        "title": "Shoulder Pin Series",
+        "by": "Heritage JuJitsu",
+        "vertical": false,
+        "channel": "Heritage JuJitsu",
+        "duration": 137,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -482,6 +511,17 @@
         "phase": "Phase 4: Full Chain Defense",
         "focus": "Defending the complete Williams Guard attack system including transitions",
         "description": "Defend the full Williams Guard attack chain including shoulder lock, omoplata transitions, triangle setups, and armbar entries under competitive resistance. Focus on reading which attack the opponent selects and countering appropriately."
+      }
+    ],
+    "clips": [
+      {
+        "id": "NZEf9jXzCYA",
+        "title": "Williams Guard cartwheel escape counter",
+        "by": "Sam Wilkinson",
+        "vertical": false,
+        "channel": "Sam Wilkinson MMA",
+        "duration": 80,
+        "verified": "2026-07-14"
       }
     ]
   }

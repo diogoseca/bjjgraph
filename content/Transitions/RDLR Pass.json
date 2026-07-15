@@ -291,7 +291,36 @@
         "answer": "When the primary pass is defended, transition to complementary passes based on the opponent's defensive reaction. If they flatten out to prevent circling, switch to a knee slice through their legs. If they post their far leg to frame, drag that leg across for a leg drag pass. If they attempt to follow your circling motion with their hips, commit to a long step past their head. The key is reading which defensive structure they prioritize and attacking the opening it creates."
       }
     ],
-    "safety_considerations": "Practice RDLR passing with control and awareness of your partner's leg positioning. When applying chest pressure to their inside thigh, gradually increase intensity to avoid sudden pressure on their knee joint. Be mindful of your base and weight distribution to prevent accidentally falling with all your weight onto your training partner. When clearing the RDLR hook, avoid explosive yanking motions on their leg that could stress their knee or ankle joints. If your partner taps during the passing sequence, it may indicate pressure on a joint or discomfort in their leg positioning—always release immediately and check in with them. During positional sparring, maintain communication about intensity levels, especially when practicing the pass at higher resistance levels. Both the passer and guard player should be aware of leg entanglement positions and tap early if caught in an uncomfortable position during transitions."
+    "safety_considerations": "Practice RDLR passing with control and awareness of your partner's leg positioning. When applying chest pressure to their inside thigh, gradually increase intensity to avoid sudden pressure on their knee joint. Be mindful of your base and weight distribution to prevent accidentally falling with all your weight onto your training partner. When clearing the RDLR hook, avoid explosive yanking motions on their leg that could stress their knee or ankle joints. If your partner taps during the passing sequence, it may indicate pressure on a joint or discomfort in their leg positioning—always release immediately and check in with them. During positional sparring, maintain communication about intensity levels, especially when practicing the pass at higher resistance levels. Both the passer and guard player should be aware of leg entanglement positions and tap early if caught in an uncomfortable position during transitions.",
+    "clips": [
+      {
+        "id": "ynFpOlFWdLw",
+        "title": "Passing reverse de la riva",
+        "by": "Ronin Training Center",
+        "vertical": false,
+        "channel": "Ronin Training Center",
+        "duration": 68,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "F5S-CtME6_U",
+        "title": "Reverse de la riva passing drills",
+        "by": "Carlos Miller",
+        "vertical": false,
+        "channel": "Flow Academy Bjj ",
+        "duration": 67,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "IdfQWVHikws",
+        "title": "Passing reverse de la riva with a shin slice",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 86,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "RDLR Pass Defender",
@@ -421,6 +450,35 @@
         "phase": "Phase 4: Full Resistance Positional Sparring (Weeks 11+)",
         "focus": "Integrating all defensive and offensive options under live conditions",
         "description": "Full resistance positional sparring from RDLR guard with 2-3 minute rounds. Both players compete at 100% with the bottom player working to sweep, submit, or take the back while the top player works to pass. Review rounds to identify patterns in defensive decision-making and timing."
+      }
+    ],
+    "clips": [
+      {
+        "id": "l5KLz636hyo",
+        "title": "Off-balance drill to recover de la riva guard",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 99,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "eO0iX_6Whaw",
+        "title": "Tip to improve your de la riva",
+        "by": "Absolute MMA St Kilda",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 71,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "wLSe23vSbP0",
+        "title": "Tips to make your de la riva unpassable",
+        "by": "Juanjo",
+        "vertical": false,
+        "channel": "Juanjo BJJ Tecnicas y Drills",
+        "duration": 102,
+        "verified": "2026-07-15"
       }
     ]
   },

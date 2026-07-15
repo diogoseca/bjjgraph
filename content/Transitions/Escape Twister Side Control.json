@@ -288,7 +288,36 @@
         "answer": "Immediately establish tight defensive turtle structure—rounded back, chin tucked, elbows to knees—and begin active escape work without pause. Turtle is a transitional position with high back exposure risk, not a safe resting point. Initiate guard recovery through granby rolls, sit-throughs, or technical stand-ups before the opponent can establish new grips or hooks. The escape from twister side control is not complete until you reach guard or standing."
       }
     ],
-    "safety_considerations": "Practice spine protection techniques slowly and deliberately before adding resistance. The twister submission applies dangerous rotational force to the cervical and thoracic spine that can cause serious injury. Tap immediately if you feel spinal torque that you cannot control with your defensive hand positioning. Never explosively twist against the direction of an applied submission. Communicate with training partners about intensity levels when drilling from this position, and build resistance gradually over multiple training sessions."
+    "safety_considerations": "Practice spine protection techniques slowly and deliberately before adding resistance. The twister submission applies dangerous rotational force to the cervical and thoracic spine that can cause serious injury. Tap immediately if you feel spinal torque that you cannot control with your defensive hand positioning. Never explosively twist against the direction of an applied submission. Communicate with training partners about intensity levels when drilling from this position, and build resistance gradually over multiple training sessions.",
+    "clips": [
+      {
+        "id": "AUyR1rmVzo4",
+        "title": "Twister side control and how to escape it",
+        "by": "Robot Dolphin Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Robot Dolphin Jiu-Jitsu ",
+        "duration": 205,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ldL974KL5sg",
+        "title": "Side control escape to the Hazlet",
+        "by": "10th Planet Orange Park",
+        "vertical": false,
+        "channel": "10th Planet Orange Park",
+        "duration": 22,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "hXp34AtDjac",
+        "title": "Reverse scarf hold escape from twister side control",
+        "by": "Black Dragon BJJ",
+        "vertical": false,
+        "channel": "Black Dragon BJJ  / Cobra Kai Karate Dungannon",
+        "duration": 291,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Escape Twister Side Control Defender",
@@ -409,6 +438,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Applying all defensive tools under full resistance",
         "description": "Full-speed positional sparring from twister side control. Top player uses all available tools—control maintenance, submission threats, back takes—against resisting opponent's escape attempts. Track position retention rates and submission finishes over training cycles."
+      }
+    ],
+    "clips": [
+      {
+        "id": "odT3-cVWXdc",
+        "title": "Twister side control attacks",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "R55lmkc6Mus",
+        "title": "Holding twister side control",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 87,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "im8KbQUyxLY",
+        "title": "Truck options from twister side control",
+        "by": "Jeremiah Vance",
+        "vertical": false,
+        "channel": "Jeremiah Vance",
+        "duration": 42,
+        "verified": "2026-07-15"
       }
     ]
   }

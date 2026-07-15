@@ -343,6 +343,17 @@
         "answer": "The attacker's hips must face along the line of the opponent's trapped leg axis rather than square to the opponent's body. This alignment creates the optimal vector for hip extension to translate into rotational torque through the ankle and into the knee joint. The common error is maintaining standard ashi hip alignment (facing the opponent), which reduces torque efficiency by roughly 30-40% in the reversed configuration. Pull the trapped foot tight to the sternum and bridge forward along the leg line to finish.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "WvUalQ3yOpY",
+        "title": "Outside Ashi Leg Lock Series",
+        "by": "10th Planet Torrance",
+        "vertical": false,
+        "channel": "10th Planet Jiu Jitsu: Torrance",
+        "duration": 73,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -471,6 +482,26 @@
         "phase": "Phase 4: Tap Recognition Under Pressure",
         "focus": "Developing the discipline to tap early when rotational pressure is established",
         "description": "Partner applies slow, controlled heel hook finishing pressure from established grips. Practice identifying the exact moment when rotational pressure loads through the knee and executing immediate tap signals. Build the habit of tapping at the first sign of rotational load rather than testing limits. This phase is critical for injury prevention and must be revisited regularly."
+      }
+    ],
+    "clips": [
+      {
+        "id": "m0NLphEuFoc",
+        "title": "Leg Lock Defense",
+        "by": "Kuwy Jitsu",
+        "vertical": false,
+        "channel": "Kuwy Jitsu",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "v3w0qXLKxug",
+        "title": "Defending Heel Hooks",
+        "by": "Absolute MMA St Kilda",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 92,
+        "verified": "2026-07-14"
       }
     ]
   }

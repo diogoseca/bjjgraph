@@ -298,6 +298,35 @@
         "answer": "Blood chokes can cause unconsciousness in as little as 3-4 seconds when properly applied to both carotid arteries. At full competition speed, a training partner may not have adequate time to recognize the choke is locked and signal a tap before losing consciousness. The proper training application speed is 3-5 seconds minimum, with progressive pressure that gives the partner clear opportunity to tap.",
         "safety_critical": true
       }
+    ],
+    "clips": [
+      {
+        "id": "dfP-Ov8FBUo",
+        "title": "Cross Collar Chokes",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 80,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "ZHjfYIXgNpg",
+        "title": "Collar Choke from Back Control",
+        "by": "Team Daruma Dojo",
+        "vertical": false,
+        "channel": "Team Daruma Dojo",
+        "duration": 45,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "nKIMxCzXvl0",
+        "title": "Cross Choke from the Back with Lapel",
+        "by": "Eduardo Fraga",
+        "vertical": false,
+        "channel": "Eduardo Fraga BJJ",
+        "duration": 176,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -448,6 +477,35 @@
         "phase": "Phase 4: Live Defense Rounds",
         "focus": "Full resistance defensive rounds from body triangle",
         "description": "Partner attacks freely with cross collar choke, RNC, and other submissions from body triangle at full intensity. Practice surviving the attack chain, making intelligent defensive choices, and finding escape opportunities under realistic conditions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kkAVJ3u7THM",
+        "title": "Back Collar Choke Escape",
+        "by": "Beto Vilanova",
+        "vertical": false,
+        "channel": "Beto Vilanova",
+        "duration": 166,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "SkCjPNSWzRM",
+        "title": "How to Defend the Back Choke",
+        "by": "Alpha Urban Krav Maga",
+        "vertical": false,
+        "channel": "Alpha Urban Krav Maga",
+        "duration": 132,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "QIRF2B9riAA",
+        "title": "Cross Choke Defense from Guard",
+        "by": "Wayne Sniffen",
+        "vertical": false,
+        "channel": "Wayne Sniffen",
+        "duration": 105,
+        "verified": "2026-07-14"
       }
     ]
   }

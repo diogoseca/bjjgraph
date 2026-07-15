@@ -282,7 +282,27 @@
         "answer": "Control the opponent's near-side ankle or shin with your same-side hand while your far hand pushes their far knee toward the mat or across their centerline. This two-point control prevents them from following with either leg and creates the window to drive forward into the pass completion."
       }
     ],
-    "safety_considerations": "The Back Step Pass is generally a low-risk technique when executed with proper timing. The primary safety concern is attempting the back step too late when the opponent has already established deep leg control, as explosive extraction against locked entanglements can strain knee ligaments. If your leg is deeply entangled, prioritize controlled disengagement over forcing the back step. During training, partners should allow the back step to complete rather than cranking on partially cleared leg positions. Communicate immediately if knee discomfort occurs during the extraction phase. The forward drive portion carries minimal injury risk but be mindful of your partner's neck position when establishing crossface."
+    "safety_considerations": "The Back Step Pass is generally a low-risk technique when executed with proper timing. The primary safety concern is attempting the back step too late when the opponent has already established deep leg control, as explosive extraction against locked entanglements can strain knee ligaments. If your leg is deeply entangled, prioritize controlled disengagement over forcing the back step. During training, partners should allow the back step to complete rather than cranking on partially cleared leg positions. Communicate immediately if knee discomfort occurs during the extraction phase. The forward drive portion carries minimal injury risk but be mindful of your partner's neck position when establishing crossface.",
+    "clips": [
+      {
+        "id": "KcA6VYd8J2c",
+        "title": "Back step from primary leg extraction",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 115,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "288kWE480Zo",
+        "title": "Back step into a heel hook",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 23,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Back Step Pass Defender",
@@ -415,6 +435,26 @@
         "phase": "Week 7+",
         "focus": "Live defensive sparring",
         "description": "Positional sparring starting in grasshopper guard where the passer is instructed to use back step passes. Defend at full speed with all options available. Track success rate of guard retention, counter-entanglements, and passes conceded. Refine reaction timing under competitive pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "xEvf5OkSDQ0",
+        "title": "Sweeping to stop the back step pass early",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 35,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "wBRG0fY94fs",
+        "title": "Kneebar defense that prevents the back step",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 59,
+        "verified": "2026-07-15"
       }
     ]
   },

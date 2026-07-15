@@ -278,7 +278,18 @@
         "answer": "Do not repeat the identical grip break attempt. Instead, chain into a different escape vector: attempt a hip escape to create angle, switch to the wrist peel variation targeting their hand grips, or use the disruption from your grip fight to attempt a posture recovery escape. Each failed grip break still loosens the triangle incrementally, so cycling between different attack points compounds these gains. If you have attempted three grip breaks without success, the triangle may be too tight for methodical escape and you should consider explosive alternatives or tapping."
       }
     ],
-    "safety_considerations": "This escape involves fighting against a choking mechanism that can cause unconsciousness within seconds if the rear triangle is fully locked on the carotid arteries. Always practice with a cooperative partner initially and tap immediately if you experience lightheadedness, tunnel vision, or any neurological symptoms. The partner maintaining the rear triangle should apply controlled pressure and release immediately upon tap or verbal signal. Never attempt to fight through a fully sunk choke in training. When drilling grip breaks, be mindful of your partner's knee and ankle joints as forceful peeling can strain ligaments. Progress resistance gradually across training sessions."
+    "safety_considerations": "This escape involves fighting against a choking mechanism that can cause unconsciousness within seconds if the rear triangle is fully locked on the carotid arteries. Always practice with a cooperative partner initially and tap immediately if you experience lightheadedness, tunnel vision, or any neurological symptoms. The partner maintaining the rear triangle should apply controlled pressure and release immediately upon tap or verbal signal. Never attempt to fight through a fully sunk choke in training. When drilling grip breaks, be mindful of your partner's knee and ankle joints as forceful peeling can strain ligaments. Progress resistance gradually across training sessions.",
+    "clips": [
+      {
+        "id": "cWrV0wc6jyQ",
+        "title": "Back defense: the Home Alone escape",
+        "by": "Procel Brazilian Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 84,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Grip Fight Escape from Rear Triangle Defender",
@@ -399,6 +410,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance application of grip fight defense",
         "description": "Start in locked rear triangle with partner using full effort grip fight escape. Practice maintaining position, defending the escape, and finishing submissions or transitioning to alternative dominant positions. Three-minute rounds with reset on escape or submission. Track success rate of maintaining position versus opponent escaping."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kpUNco4wp0U",
+        "title": "Troubleshooting the rear triangle (ushiro sankaku)",
+        "by": "kangchenjj",
+        "vertical": false,
+        "channel": "kangchenjj",
+        "duration": 90,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Rlk4mGg7vW4",
+        "title": "Maintaining back control with hooks",
+        "by": "Gracie Charlottesville",
+        "vertical": false,
+        "channel": "Gracie Charlottesville",
+        "duration": 84,
+        "verified": "2026-07-15"
       }
     ]
   }

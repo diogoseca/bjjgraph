@@ -421,6 +421,35 @@
           "nogi": 2
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "eKTd-9SkrVk",
+        "title": "Taking the back from the gift wrap",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 81,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "X3yIMfhGHnk",
+        "title": "Mount to gift wrap to tap",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 92,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "-ypj83J2Ngk",
+        "title": "Side control sit back, gift wrap to back",
+        "by": "Watauga BJJ",
+        "vertical": false,
+        "channel": "Watauga BJJ",
+        "duration": 24,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -731,6 +760,26 @@
           "nogi": 9
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "KyqooDo1w68",
+        "title": "Escaping back control / gift wrap",
+        "by": "BJJ101",
+        "vertical": false,
+        "channel": "BJJ101",
+        "duration": 43,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "jv_nitah_-s",
+        "title": "Back control escape basics",
+        "by": "Amazin BJJ",
+        "vertical": false,
+        "channel": "AMAZIN BJJ",
+        "duration": 41,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -765,6 +814,35 @@
     {
       "question": "What is the mechanical risk of maintaining the arm trap through pain compression rather than positioning?",
       "answer": "The Gift Wrap is designed to immobilize the arm through skeletal alignment and the diagonal line, not through cranking the shoulder into a pain response. Relying on compression fatigues the controlling arm, wastes energy, and can produce an unintended shoulder-lock submission or a referee intervention rather than clean positional control. Correct maintenance uses the threading angle and chest connection so the trap feels nearly effortless when the diagonal is set properly. This principle keeps the position sustainable and preserves it as a control platform rather than a rushed finish."
+    }
+  ],
+  "clips": [
+    {
+      "id": "5bw7poxVJ1E",
+      "title": "The gift wrap in 2 minutes",
+      "by": "Brian Glick",
+      "vertical": false,
+      "channel": "Brian Glick",
+      "duration": 112,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "EOv5GYpUYDw",
+      "title": "Gift wrap backtake (intro)",
+      "by": "BJJ Lab Zurich",
+      "vertical": false,
+      "channel": "BJJ Lab Zürich",
+      "duration": 69,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "UIWX13Sx-zw",
+      "title": "3 back takes from mount using the gift wrap",
+      "by": "MMA Leech",
+      "vertical": false,
+      "channel": "MMA Leech",
+      "duration": 224,
+      "verified": "2026-07-14"
     }
   ]
 }

@@ -273,7 +273,27 @@
         "answer": "Maintain a wide base with knees spread and hips low to the mat, distributing weight laterally across a broad foundation rather than concentrating it forward. Avoid loading weight forward or narrowing your base during extraction. The wide low position creates stability against the bottom player's sweep attempts while providing the platform needed for patient angular extraction without being off-balanced."
       }
     ],
-    "safety_considerations": "This guard pass involves significant neck and shoulder stress during extraction from rubber guard controls. Never jerk or explosively twist your trapped arm, as the overhook position can create shoulder impingement if forced against deep control. If the bottom player achieves a gogoplata or triangle during your pass attempt, tap immediately rather than fighting through the choke. Communicate clearly with training partners about flexibility limitations and shoulder mobility restrictions. Use controlled progressive resistance when drilling, starting at low intensity and building gradually."
+    "safety_considerations": "This guard pass involves significant neck and shoulder stress during extraction from rubber guard controls. Never jerk or explosively twist your trapped arm, as the overhook position can create shoulder impingement if forced against deep control. If the bottom player achieves a gogoplata or triangle during your pass attempt, tap immediately rather than fighting through the choke. Communicate clearly with training partners about flexibility limitations and shoulder mobility restrictions. Use controlled progressive resistance when drilling, starting at low intensity and building gradually.",
+    "clips": [
+      {
+        "id": "4E5IQ9ouZfA",
+        "title": "Passing the 10th Planet guard",
+        "by": "Danny Gutierrez",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 51,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "SYl7QbIRELM",
+        "title": "Passing basics from rubber guard",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 119,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Guard Pass from New York Control Defender",
@@ -398,6 +418,17 @@
         "phase": "Phase 4: Full defense sparring",
         "focus": "Complete pass defense with all options under live conditions",
         "description": "Begin in New York Control with partner working full pass sequence at competition intensity. Practice the complete defensive game including counter-submissions, position transitions, and closed guard recovery. Develop real-time decision-making for choosing the optimal defensive response under pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "huzjQNiJu7Y",
+        "title": "Rubber guard quick fix to stop the pass",
+        "by": "Brandon Mccaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 65,
+        "verified": "2026-07-15"
       }
     ]
   }

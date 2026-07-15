@@ -251,7 +251,36 @@
         "answer": "A specific leg-attack target - inside or outside ashi-garami, a kneebar, an ankle lock, or an elevation sweep. Grasshopper is energy-expensive and unsustainable, so you must arrive with a plan and convert the platform into a concrete attack within a few seconds, rather than inverting aimlessly and stalling while the opponent settles the pass."
       }
     ],
-    "safety_considerations": "The primary safety concern is the inversion itself: load the neck gradually and roll over the point of the shoulder rather than crunching directly on the cervical spine, and only attempt the granby roll once you have built the neck and thoracic flexibility for it. Beginners should drill the roll slowly and solo before adding a resisting partner. Because this transition feeds directly into kneebars, ankle locks, and heel hooks, apply all leg attacks with slow, controlled pressure and respect early taps, as rotational knee and ankle submissions injure with little warning. Communicate clearly during live drilling and never force the inversion into heavy opponent pressure that could compress the neck or back."
+    "safety_considerations": "The primary safety concern is the inversion itself: load the neck gradually and roll over the point of the shoulder rather than crunching directly on the cervical spine, and only attempt the granby roll once you have built the neck and thoracic flexibility for it. Beginners should drill the roll slowly and solo before adding a resisting partner. Because this transition feeds directly into kneebars, ankle locks, and heel hooks, apply all leg attacks with slow, controlled pressure and respect early taps, as rotational knee and ankle submissions injure with little warning. Communicate clearly during live drilling and never force the inversion into heavy opponent pressure that could compress the neck or back.",
+    "clips": [
+      {
+        "id": "KNz5AkZ4jrg",
+        "title": "Inversion mechanics for guard entries",
+        "by": "Mikey Musumeci",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 72,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "eO0iX_6Whaw",
+        "title": "Tip to improve your De La Riva hook",
+        "by": "Absolute MMA St Kilda",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 71,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_V15lSbYA8k",
+        "title": "Back take from De La Riva guard",
+        "by": "Elite MMA",
+        "vertical": false,
+        "channel": "Elite MMA",
+        "duration": 77,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "De La Riva to Grasshopper Guard Defender",
@@ -363,6 +392,26 @@
         "phase": "Month 3+: Live Passing Against Inversion",
         "focus": "Full-resistance passing against an inverting De La Riva player",
         "description": "Start with the partner in De La Riva actively threatening the inversion to Grasshopper. Pass while choosing between hook clearance, back-take off the roll, and stack-and-flatten under competitive pressure. 5-minute rounds, multiple rounds per session."
+      }
+    ],
+    "clips": [
+      {
+        "id": "aQ2vFXXBn-o",
+        "title": "Countering a full inversion",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "-XU_JoO9Hhg",
+        "title": "How to deal with a strong De La Riva",
+        "by": "Mikey Musumeci",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 138,
+        "verified": "2026-07-15"
       }
     ]
   },

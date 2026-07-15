@@ -288,7 +288,36 @@
         "answer": "Immediately establish a dominant collar grip with one hand deep behind the neck and a sleeve or wrist grip with the other hand to control their posture. Pull them forward to break their upright positioning and prevent them from immediately re-initiating guard opening sequences. Your legs should actively squeeze with heels pulling into their lower back to consolidate the recovered position before they can counter."
       }
     ],
-    "safety_considerations": "Guard recovery from double unders involves significant spinal compression during the stacking phase. Both practitioners must be aware of cervical and lumbar strain risks when the bottom player is heavily stacked onto their shoulders. The top player should monitor the bottom player's comfort level and avoid driving excessive weight through the neck during training. Tap immediately if experiencing sharp neck pain, numbness in extremities, or difficulty breathing due to compression. Practice recovery techniques at controlled intensity with cooperative partners before applying under full resistance."
+    "safety_considerations": "Guard recovery from double unders involves significant spinal compression during the stacking phase. Both practitioners must be aware of cervical and lumbar strain risks when the bottom player is heavily stacked onto their shoulders. The top player should monitor the bottom player's comfort level and avoid driving excessive weight through the neck during training. Tap immediately if experiencing sharp neck pain, numbness in extremities, or difficulty breathing due to compression. Practice recovery techniques at controlled intensity with cooperative partners before applying under full resistance.",
+    "clips": [
+      {
+        "id": "YZkWd9yDOjg",
+        "title": "Stack pass guard recovery to triangle",
+        "by": "Revolution BJJ Ashland",
+        "vertical": false,
+        "channel": "Revolution BJJ Ashland",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "1UOj60dc540",
+        "title": "Double under stack pass counter to triangle",
+        "by": "Adam Bradley",
+        "vertical": false,
+        "channel": "Adam Bradley",
+        "duration": 69,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "PlvedjiTZ3U",
+        "title": "Double under guard pass counter",
+        "by": "Legacy Jiu-Jitsu Academy",
+        "vertical": false,
+        "channel": "Legacy Jiu-Jitsu Academy",
+        "duration": 75,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Guard Recovery from Double Unders Defender",
@@ -409,6 +438,26 @@
         "phase": "Phase 4: Configuration Transition Under Duress",
         "focus": "Seamlessly switching passing configurations when partial recovery succeeds",
         "description": "Full resistance positional sparring where partner successfully frees one leg. Practice transitioning to over-under, leg weave, or single underhook passing without losing all control. Develop the ability to maintain continuous passing pressure across multiple grip and position configurations."
+      }
+    ],
+    "clips": [
+      {
+        "id": "N4PxPPv98k4",
+        "title": "Finishing the double unders pass",
+        "by": "Nicky Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 91,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "RIg9zUESSsQ",
+        "title": "Double under pass to paper cutter finish",
+        "by": "JitzLive",
+        "vertical": false,
+        "channel": "JitzLive",
+        "duration": 99,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -276,7 +276,36 @@
         "answer": "A strong sleeve or wrist grip on the same side as your intended inside hook must be established before any level change. This grip is non-negotiable because it serves three functions simultaneously: it prevents the opponent from sprawling backward during your descent, it maintains physical connection between you and the opponent throughout the transition ensuring you don't fall into empty space, and it provides the pulling force needed after position establishment to break their posture forward for sweeps. Without this grip, the opponent can simply step back as you sit, leaving you seated on the mat with no control and vulnerable to passing."
       }
     ],
-    "safety_considerations": "The Standing to Single Leg X transition is generally low-risk when executed properly, but several safety considerations must be observed. When dropping to the guard position, ensure adequate mat space and awareness of surroundings to prevent collision with walls, other training partners, or equipment. During initial learning phases, communicate with your partner about the entry timing to prevent unexpected drops that could cause awkward falls or knee impacts. For the partner being pulled into Single Leg X, maintain awareness of leg positioning to avoid twisting forces on the knee joint - if the bottom player's technique is incorrect or overly aggressive, verbally indicate discomfort immediately. When drilling sweep completions, both practitioners should control the descent to the mat rather than allowing hard slams. Partners with existing knee injuries should communicate limitations before drilling this position, as the leg control and elevation can stress knee ligaments if the injured leg is the trapped leg."
+    "safety_considerations": "The Standing to Single Leg X transition is generally low-risk when executed properly, but several safety considerations must be observed. When dropping to the guard position, ensure adequate mat space and awareness of surroundings to prevent collision with walls, other training partners, or equipment. During initial learning phases, communicate with your partner about the entry timing to prevent unexpected drops that could cause awkward falls or knee impacts. For the partner being pulled into Single Leg X, maintain awareness of leg positioning to avoid twisting forces on the knee joint - if the bottom player's technique is incorrect or overly aggressive, verbally indicate discomfort immediately. When drilling sweep completions, both practitioners should control the descent to the mat rather than allowing hard slams. Partners with existing knee injuries should communicate limitations before drilling this position, as the leg control and elevation can stress knee ligaments if the injured leg is the trapped leg.",
+    "clips": [
+      {
+        "id": "7SMKvyR3lUE",
+        "title": "Single leg X pull from standing",
+        "by": "Haven Jiu Jitsu",
+        "vertical": false,
+        "channel": "Haven Jiu Jitsu",
+        "duration": 16,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "yuTJYpVKrJc",
+        "title": "Simple entry into single leg X guard",
+        "by": "Grappler Station",
+        "vertical": false,
+        "channel": "Grappler Station",
+        "duration": 104,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "xyy5xm72UJ8",
+        "title": "No-gi guard pull to single leg X",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 139,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Standing to Single Leg X Defender",
@@ -402,6 +431,17 @@
         "phase": "Week 9-12: Live Standing Defense",
         "focus": "Full resistance defense with passing follow-ups",
         "description": "Start standing with partner who can freely attempt Single Leg X entries, Shin-to-Shin Guard entries, and other guard pulls. You must defend the entry and immediately advance to a passing position. Full competition resistance from both sides. Develop the ability to transition from successful defense directly into guard passing without pausing."
+      }
+    ],
+    "clips": [
+      {
+        "id": "s5o6PRqWi5c",
+        "title": "Stopping the butt scoot: 4 ways to deny the guard pull",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 35,
+        "verified": "2026-07-15"
       }
     ]
   },

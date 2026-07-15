@@ -260,7 +260,36 @@
         "answer": "If the threading motion is blocked, immediately transition to: (1) Single Leg X-Guard entry using the threading motion's momentum, (2) Full leg extraction to Half Guard if space is created by their defensive reaction, or (3) Return to defensive frames and wait for the next transitional window. Having these alternatives prevents you from forcing a failed technique repeatedly."
       }
     ],
-    "safety_considerations": "The counter-entangle to 50-50 requires careful attention to heel position throughout execution. During the threading motion, there is a brief window where your heel may become exposed - maintain awareness and keep toes pointed toward the opponent to minimize this risk. Both the Leg Knot starting position and 50-50 ending position carry heel hook danger, so practitioners should be well-versed in heel hook defense before drilling this technique live. Always tap early to heel hooks during training, as the reaping force on the knee can cause serious ligament damage. When practicing with new partners, establish clear communication about heel hook intensity and catch-and-release protocols."
+    "safety_considerations": "The counter-entangle to 50-50 requires careful attention to heel position throughout execution. During the threading motion, there is a brief window where your heel may become exposed - maintain awareness and keep toes pointed toward the opponent to minimize this risk. Both the Leg Knot starting position and 50-50 ending position carry heel hook danger, so practitioners should be well-versed in heel hook defense before drilling this technique live. Always tap early to heel hooks during training, as the reaping force on the knee can cause serious ligament damage. When practicing with new partners, establish clear communication about heel hook intensity and catch-and-release protocols.",
+    "clips": [
+      {
+        "id": "DBbSqQf6iCo",
+        "title": "Roll under to backside 50/50",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 110,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "yT3euuWRWXw",
+        "title": "Three paths to backside 50/50 from single leg X",
+        "by": "Gustavo Gomes Firmino",
+        "vertical": false,
+        "channel": "Gustavo Gomes Firmino",
+        "duration": 56,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "zMJb2tjrqOY",
+        "title": "Luiz Panza 50/50 entrance",
+        "by": "Luiz Panza",
+        "vertical": false,
+        "channel": "Evo BJJ",
+        "duration": 47,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Counter-entangle to 50-50 Guard Defender",
@@ -385,6 +414,17 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Full resistance positional rounds from Leg Knot. Top player works attacks while defending counter-entangle attempts. Bottom player uses all available escapes. Focus on maintaining offensive pressure while staying alert to counter-entangle setups without becoming overly defensive."
+      }
+    ],
+    "clips": [
+      {
+        "id": "uZbUhFapIhg",
+        "title": "Leglock defense from entanglement",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 163,
+        "verified": "2026-07-15"
       }
     ]
   },

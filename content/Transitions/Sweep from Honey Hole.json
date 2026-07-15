@@ -282,7 +282,18 @@
         "answer": "Immediately chain into an alternative escape rather than resting or reattempting the same sweep. The failed sweep may have created micro-adjustments in the opponent's position that open other escape paths—check if counter-entanglement to 50-50 is available, attempt inversion if space exists underneath, or revert to grip fighting and heel defense. Do not attempt the identical sweep twice consecutively, as the opponent is now specifically defending against it and your energy reserves are diminished."
       }
     ],
-    "safety_considerations": "The Sweep from Honey Hole involves significant knee injury risk on the trapped leg throughout the entire sweep motion. During execution, maintain strict alignment between your knee and toes on the trapped leg—any independent knee rotation while the leg is entangled in the opponent's triangle can cause catastrophic ligament damage including ACL and MCL tears. If you feel any sharp pain, clicking, or unusual pressure in your knee during the sweep attempt, abandon the technique immediately and tap if necessary. Never initiate the sweep while the opponent has an active heel hook grip—the sweep motion under those conditions amplifies rotational forces on the knee exponentially. In training, start with cooperative drilling at zero resistance before progressing to live application. Communicate clearly with training partners about intensity levels."
+    "safety_considerations": "The Sweep from Honey Hole involves significant knee injury risk on the trapped leg throughout the entire sweep motion. During execution, maintain strict alignment between your knee and toes on the trapped leg—any independent knee rotation while the leg is entangled in the opponent's triangle can cause catastrophic ligament damage including ACL and MCL tears. If you feel any sharp pain, clicking, or unusual pressure in your knee during the sweep attempt, abandon the technique immediately and tap if necessary. Never initiate the sweep while the opponent has an active heel hook grip—the sweep motion under those conditions amplifies rotational forces on the knee exponentially. In training, start with cooperative drilling at zero resistance before progressing to live application. Communicate clearly with training partners about intensity levels.",
+    "clips": [
+      {
+        "id": "PGQ7YYfu76Q",
+        "title": "Single leg X to honey hole sweep and heel hook",
+        "by": "Ilya Bodnya",
+        "vertical": false,
+        "channel": "Ilya Bodnya",
+        "duration": 65,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Sweep from Honey Hole Defender",
@@ -403,6 +414,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full-speed defense integrated with complete Honey Hole top game",
         "description": "Positional sparring from Honey Hole top with partner using all available bottom options including sweeps, counter-entanglement, and heel defense. Develop the ability to maintain offensive heel hook progression while automatically defending sweep attempts. Build the confidence to commit to finishes without sacrificing base awareness."
+      }
+    ],
+    "clips": [
+      {
+        "id": "gEEHqiSznS4",
+        "title": "How to escape the honey hole",
+        "by": "Vagner Rocha",
+        "vertical": false,
+        "channel": "Vagner Rocha Martial Arts - MMA Gym, BJJ School, Jiu Jitsu, Mixed Martial Arts, Kickboxing, Boxing Gym",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "JAJH0x4ss74",
+        "title": "Reversing the honey hole with the honey flip",
+        "by": "Phill Schwartz",
+        "vertical": false,
+        "channel": "LegLocker Official",
+        "duration": 94,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QsRKPfYLWj0",
+        "title": "Escaping the honey hole entry from front triangle",
+        "by": "Baguio BJJ",
+        "vertical": false,
+        "channel": "Baguio BJJ",
+        "duration": 56,
+        "verified": "2026-07-15"
       }
     ]
   }

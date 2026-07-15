@@ -256,7 +256,27 @@
         "answer": "If the attacker's hips are positioned perpendicular to your spine (to the side), the back door gap is larger and escape is viable. If they position their hips directly behind you with weight low, the gap closes and back door becomes nearly impossible. During training, develop sensitivity to reading hip position through the pressure distribution on your body to select the appropriate escape."
       }
     ],
-    "safety_considerations": "The Back Door Escape involves rotating while partially in a choke, which carries inherent risk if executed incorrectly or too late. Never attempt this escape when the Darce is fully locked and blood flow restriction is occurring—the rotation can accelerate unconsciousness. Keep chin tucked throughout to protect the airway. In training, communicate with your partner about pressure levels and ensure the choker maintains awareness of your escape attempts to prevent inadvertent tightening during rotation. If you feel significant choking pressure increase during the escape attempt, tap immediately rather than forcing completion. This escape should be drilled extensively at low resistance before attempting in live sparring."
+    "safety_considerations": "The Back Door Escape involves rotating while partially in a choke, which carries inherent risk if executed incorrectly or too late. Never attempt this escape when the Darce is fully locked and blood flow restriction is occurring—the rotation can accelerate unconsciousness. Keep chin tucked throughout to protect the airway. In training, communicate with your partner about pressure levels and ensure the choker maintains awareness of your escape attempts to prevent inadvertent tightening during rotation. If you feel significant choking pressure increase during the escape attempt, tap immediately rather than forcing completion. This escape should be drilled extensively at low resistance before attempting in live sparring.",
+    "clips": [
+      {
+        "id": "Ly89G4iCTSQ",
+        "title": "Turtle escape rolling out to guard",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 108,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "pdkUm3nuK34",
+        "title": "Escaping out the back into a darce",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 48,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Back Door Escape Defender",
@@ -380,6 +400,35 @@
         "phase": "Week 7+",
         "focus": "Live integration",
         "description": "Full Darce control sparring rounds where partner uses all escape options including back door. Practice maintaining proper hip position throughout while also threatening the choke finish. Develop the ability to prevent multiple escape attempts in sequence and finish the submission when openings appear. Includes situational sparring from Darce control entry."
+      }
+    ],
+    "clips": [
+      {
+        "id": "FMAWiNfgp74",
+        "title": "Defending the front headlock and darce with a stack",
+        "by": "BJJ101",
+        "vertical": false,
+        "channel": "BJJ101",
+        "duration": 30,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "rgf9QUebMWE",
+        "title": "Darce defense: shutting the choke down early",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 78,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "IxZ0re1mxeI",
+        "title": "Favorite darce counter from front headlock",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 132,
+        "verified": "2026-07-15"
       }
     ]
   },

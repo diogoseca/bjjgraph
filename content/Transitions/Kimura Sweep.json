@@ -280,7 +280,27 @@
         "answer": "Use their forward momentum against them by switching to a pendulum sweep or elevator sweep. Their committed forward weight shift eliminates their ability to post backward, making them highly vulnerable to sweeps that redirect their momentum over your head or to the side."
       }
     ],
-    "safety_considerations": "The Kimura Sweep is relatively low-risk compared to submission techniques, but attention to shoulder safety remains important. During drilling, avoid cranking the Kimura grip aggressively as the sweep completes, as landing momentum can add unexpected force to the shoulder joint. Partners should tap immediately if shoulder pressure becomes uncomfortable during sweep practice. When learning, focus on smooth technique rather than explosive power to prevent accidental joint strain. Avoid this sweep if you have existing wrist or elbow injuries, as the gripping demands can aggravate these conditions."
+    "safety_considerations": "The Kimura Sweep is relatively low-risk compared to submission techniques, but attention to shoulder safety remains important. During drilling, avoid cranking the Kimura grip aggressively as the sweep completes, as landing momentum can add unexpected force to the shoulder joint. Partners should tap immediately if shoulder pressure becomes uncomfortable during sweep practice. When learning, focus on smooth technique rather than explosive power to prevent accidental joint strain. Avoid this sweep if you have existing wrist or elbow injuries, as the gripping demands can aggravate these conditions.",
+    "clips": [
+      {
+        "id": "KAxTmcxGc60",
+        "title": "Kimura from closed guard",
+        "by": "Gracie Charlottesville",
+        "vertical": false,
+        "channel": "Gracie Charlottesville",
+        "duration": 36,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "xDOjrYFJf5Y",
+        "title": "Closed guard sweep when opponent hugs your head",
+        "by": "Jiu Jitsu Five-O",
+        "vertical": false,
+        "channel": "Jiu Jitsu Five-O // Street-Ready BJJ Training",
+        "duration": 70,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Kimura Sweep Defender",
@@ -404,6 +424,17 @@
         "phase": "Week 7+",
         "focus": "Live Situational Sparring",
         "description": "Begin from inside opponent's Closed Guard with them targeting the Kimura Sweep. Practice the full defensive sequence against fully resisting partners, including grip prevention, sweep defense, and counter-passing at competition intensity."
+      }
+    ],
+    "clips": [
+      {
+        "id": "a6vbWASwse8",
+        "title": "Kimura defense from guard",
+        "by": "Jiu-Jitsu Channel",
+        "vertical": false,
+        "channel": "Jiu-Jitsu Channel",
+        "duration": 67,
+        "verified": "2026-07-15"
       }
     ]
   },

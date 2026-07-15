@@ -306,7 +306,27 @@
         "answer": "Attack immediately rather than waiting for them to stabilize. Use sleeve or wrist control combined with maximum hip elevation to attempt the primary SLX sweep before their base fully sets. Direct the off-balancing force laterally toward their weakened side rather than straight backward. If the sweep attempt is blocked, immediately transition to a leg lock entry—their lowered base actually brings their leg closer to your hooks, making Ashi Garami entries more accessible. The worst response is passively accepting their base adjustment."
       }
     ],
-    "safety_considerations": "The K-Guard to Single Leg X transition is generally low-risk as it involves guard-to-guard movement without joint lock pressure. However, practitioners should be mindful of knee torque on the trapped leg during the hook reconfiguration phase—avoid excessive twisting that could strain the opponent's knee ligaments. The bottom player should also be aware of neck compression risk if flattened during the transition. When training, communicate with your partner about comfort during hook transfers and avoid explosive movements until the mechanics are smooth. If either player feels knee discomfort during the hook reconfiguration, stop and reset the position."
+    "safety_considerations": "The K-Guard to Single Leg X transition is generally low-risk as it involves guard-to-guard movement without joint lock pressure. However, practitioners should be mindful of knee torque on the trapped leg during the hook reconfiguration phase—avoid excessive twisting that could strain the opponent's knee ligaments. The bottom player should also be aware of neck compression risk if flattened during the transition. When training, communicate with your partner about comfort during hook transfers and avoid explosive movements until the mechanics are smooth. If either player feels knee discomfort during the hook reconfiguration, stop and reset the position.",
+    "clips": [
+      {
+        "id": "ELOhLjq6fUs",
+        "title": "K guard attacks including single leg X entry",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 81,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "BWuZVvfHrNw",
+        "title": "Entering single leg X from shin to shin",
+        "by": "TurboNinjaKilla",
+        "vertical": false,
+        "channel": "TurboNinjaKilla",
+        "duration": 133,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "K-Guard to Single Leg X Defender",
@@ -431,6 +451,26 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Full resistance defensive application",
         "description": "Start in K-Guard top with partner attempting all SLX entry variations at full resistance. Your objective is to prevent the transition and advance to side control or better. Track your prevention success rate and identify which entry variations give you the most difficulty. Full competitive intensity."
+      }
+    ],
+    "clips": [
+      {
+        "id": "e2KVHXnSh_o",
+        "title": "Countering single leg X with a heel hook",
+        "by": "Charles Allan Price",
+        "vertical": false,
+        "channel": "Charles Allan Price",
+        "duration": 75,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "gwEmeb9RSk4",
+        "title": "Defending the single leg X guard sweep",
+        "by": "Tiger Muay Thai",
+        "vertical": false,
+        "channel": "Tiger Muay Thai and MMA Training Camp, Phuket, Thailand",
+        "duration": 227,
+        "verified": "2026-07-15"
       }
     ]
   }

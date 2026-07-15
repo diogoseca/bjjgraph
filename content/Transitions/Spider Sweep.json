@@ -290,7 +290,36 @@
         "answer": "The three best timing windows are: when the opponent shifts their weight forward attempting to advance or break grips, as their forward momentum adds to your sweeping force; when they reach with one hand for a grip, temporarily compromising their posting ability; and immediately after they complete a grip break on one side, as they are momentarily focused on their successful grip break rather than base maintenance. Avoid initiating when the opponent is stationary with wide base and full attention on balance."
       }
     ],
-    "safety_considerations": "Spider Sweep is a relatively low-risk technique with minimal injury potential. The primary safety concern is wrist and finger strain from maintaining deep sleeve grips under load during the sweeping motion. Practitioners should release grips immediately if they feel sharp pain in fingers or wrists rather than fighting through it. When drilling, the person being swept should practice controlled breakfalls and the sweeper should allow the technique to complete smoothly rather than forcing through stalled positions that could strain the swept player's shoulder on impact."
+    "safety_considerations": "Spider Sweep is a relatively low-risk technique with minimal injury potential. The primary safety concern is wrist and finger strain from maintaining deep sleeve grips under load during the sweeping motion. Practitioners should release grips immediately if they feel sharp pain in fingers or wrists rather than fighting through it. When drilling, the person being swept should practice controlled breakfalls and the sweeper should allow the technique to complete smoothly rather than forcing through stalled positions that could strain the swept player's shoulder on impact.",
+    "clips": [
+      {
+        "id": "lgozvgeHwgI",
+        "title": "Spider guard scissor sweep to mount",
+        "by": "Evolve MMA coach",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 41,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "iVgFuP4NlkA",
+        "title": "Spider guard bus driver sweep",
+        "by": "The Base Jiu Jitsu coach",
+        "vertical": false,
+        "channel": "The Base Jiu Jitsu",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "cRCnbv2BN4k",
+        "title": "De La Riva spider guard sweep",
+        "by": "Kings Academy coach",
+        "vertical": false,
+        "channel": "Kings Academy",
+        "duration": 28,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Spider Sweep Defender",
@@ -416,6 +445,17 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Full resistance defense with counter-offense integration",
         "description": "Positional sparring where partner starts in spider guard with full offensive intent including sweeps, triangles, and omoplatas. Defend all attacks while systematically working toward passing the guard. Three-minute rounds with position resets. Develop composure and strategic patience against an active spider guard player."
+      }
+    ],
+    "clips": [
+      {
+        "id": "v9Fyn7YEddk",
+        "title": "Stacking pass to shut down spider guard",
+        "by": "Chris Haueter",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 231,
+        "verified": "2026-07-15"
       }
     ]
   }

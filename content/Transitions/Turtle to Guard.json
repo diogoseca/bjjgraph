@@ -299,7 +299,36 @@
         "answer": "When opponent shifts weight to your left side, their right side becomes light and unsupported, creating an immediate timing window to rotate toward their right. The moment you feel their weight commit laterally is the optimal window because they cannot redirect their mass quickly enough to follow your rotation in the opposite direction. Execute the hip shift to your right simultaneously with their left-side weight commitment, then drive off your left leg to rotate toward the light side. This window lasts only a fraction of a second before they can readjust, so the rotation must be pre-loaded and explosive. Their lateral weight shift also means their hooks and grips are strongest on the committed side and weakest on the escape side."
       }
     ],
-    "safety_considerations": "The turtle to guard transition is generally safe when executed with proper technique, but several considerations apply. Avoid jerky or uncontrolled rotation that could strain the neck or spine, particularly when opponent is riding heavy weight on your back. Maintain a tucked chin throughout to protect the neck from cranks or chokes during the rotation phase. If opponent has secured strong back control with both hooks during the attempt, immediately prioritize defending against chokes rather than forcing the rotation further. When drilling, partners should release pressure if bottom person's neck is compressed or movement is blocked in an unsafe position. Beginners should focus on technical precision at slow speed before adding explosive power to prevent injury from falls or awkward landings during the rotation. Training partners must communicate about resistance levels and gradually increase intensity as technical proficiency develops."
+    "safety_considerations": "The turtle to guard transition is generally safe when executed with proper technique, but several considerations apply. Avoid jerky or uncontrolled rotation that could strain the neck or spine, particularly when opponent is riding heavy weight on your back. Maintain a tucked chin throughout to protect the neck from cranks or chokes during the rotation phase. If opponent has secured strong back control with both hooks during the attempt, immediately prioritize defending against chokes rather than forcing the rotation further. When drilling, partners should release pressure if bottom person's neck is compressed or movement is blocked in an unsafe position. Beginners should focus on technical precision at slow speed before adding explosive power to prevent injury from falls or awkward landings during the rotation. Training partners must communicate about resistance levels and gradually increase intensity as technical proficiency develops.",
+    "clips": [
+      {
+        "id": "PYk5Ei2IZBk",
+        "title": "Guard recovery from turtle position",
+        "by": "Gracie Barra",
+        "vertical": false,
+        "channel": "Gracie Barra Online",
+        "duration": 53,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "c-k3lA-yVhU",
+        "title": "Pulling guard from turtle position",
+        "by": "Team Daruma Dojo",
+        "vertical": false,
+        "channel": "Team Daruma Dojo",
+        "duration": 33,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "W0TCGKRcniA",
+        "title": "Turtle escape via shoulder roll",
+        "by": "BJJake",
+        "vertical": false,
+        "channel": "BJJake",
+        "duration": 21,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Turtle to Guard Defender",
@@ -430,6 +459,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance application with realistic consequences",
         "description": "Specific sparring from turtle top against partner working guard recovery at full resistance. Score points for maintaining turtle control, securing back control, or achieving submissions. Partner scores for guard recovery. 3-minute rounds with role switches. This phase tests your ability to read, react, and counter under pressure with a resisting opponent using timing, feints, and chain escapes."
+      }
+    ],
+    "clips": [
+      {
+        "id": "0xhfjKDfwBY",
+        "title": "Arm drag back take vs turtle guard recovery",
+        "by": "Irmãos Lisboa",
+        "vertical": false,
+        "channel": "Alliance Jiu Jitsu SJC - Irmãos Lisboa",
+        "duration": 104,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8YvYkGr5FIU",
+        "title": "Turtle to side control before guard recovers",
+        "by": "Rickson Gracie Academy",
+        "vertical": false,
+        "channel": "Rickson Gracie Jiu-Jitsu Academy",
+        "duration": 47,
+        "verified": "2026-07-15"
       }
     ]
   },

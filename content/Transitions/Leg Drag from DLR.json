@@ -284,7 +284,36 @@
         "answer": "Your chest must connect diagonally to their far-side hip or shoulder while your near hip drives into their near-side hip. This cross-body pressure angle prevents them from turning toward you to recover guard or turning away without giving up their back. Your posted leg should be on the drag side with your knee next to their hip, and your weight should be driving forward and down through skeletal alignment rather than muscular effort. Releasing this diagonal connection before upper body control is established allows immediate guard recovery."
       }
     ],
-    "safety_considerations": "The leg drag from DLR is generally low-risk for injury when executed with controlled force. However, aggressive dragging can strain the hip flexors and groin if the bottom player's leg is pulled beyond their flexibility range. Practitioners should communicate about flexibility limitations before drilling. The passer should use progressive force rather than explosive jerking motions when redirecting the leg. Knee torque can occur if the bottom player's foot catches during the hook clearing phase—ensure the foot clears cleanly before redirecting. In training, prioritize controlled repetitions and build speed gradually."
+    "safety_considerations": "The leg drag from DLR is generally low-risk for injury when executed with controlled force. However, aggressive dragging can strain the hip flexors and groin if the bottom player's leg is pulled beyond their flexibility range. Practitioners should communicate about flexibility limitations before drilling. The passer should use progressive force rather than explosive jerking motions when redirecting the leg. Knee torque can occur if the bottom player's foot catches during the hook clearing phase—ensure the foot clears cleanly before redirecting. In training, prioritize controlled repetitions and build speed gradually.",
+    "clips": [
+      {
+        "id": "H9hckrLXcRQ",
+        "title": "De La Riva to leg drag",
+        "by": "Alavanca",
+        "vertical": false,
+        "channel": "Alavanca",
+        "duration": 29,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Mtwz27161ZI",
+        "title": "Bullfighter counter to De La Riva into leg drag",
+        "by": "King Mo",
+        "vertical": false,
+        "channel": "King Mo",
+        "duration": 41,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Mag1e96DQuY",
+        "title": "De La Riva to leg drag pass",
+        "by": "Sickness Ferro",
+        "vertical": false,
+        "channel": "Sickness Ferro",
+        "duration": 108,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Leg Drag from DLR Defender",
@@ -405,6 +434,35 @@
         "phase": "Phase 4: Counter-Offense",
         "focus": "Sweep timing during drag weight transitions",
         "description": "Partner attempts full leg drags while you practice timing sweeps during their weight transition moments. Focus on the underhook entry on their near leg and forward drive when their base is compromised during the step-around. Track sweep success rate to measure improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "fFqoFDE2yyw",
+        "title": "Guard retention against the leg drag",
+        "by": "Brandon Quick",
+        "vertical": false,
+        "channel": "Brandon Quick",
+        "duration": 90,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QCEdvqfWZMI",
+        "title": "Matrix defense against the leg drag",
+        "by": "BJJ Lab Zurich",
+        "vertical": false,
+        "channel": "BJJ Lab Zürich",
+        "duration": 96,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lVLAROiSjNU",
+        "title": "Guard retention: when to sit up and escape",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 136,
+        "verified": "2026-07-15"
       }
     ]
   }

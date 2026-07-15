@@ -294,7 +294,36 @@
         "answer": "The grip on the inside of the opponent's far knee or shin is the anchor for the entire entry. This grip serves three functions: it prevents the opponent from pulling their leg away, it creates the slack needed for your threading leg to pass through, and it breaks their four-point base symmetry. If you lose this grip mid-thread, the opponent can immediately straighten their far leg and pull it away from your threading shin, collapsing the entry. If the grip is lost after your shin is partially through, you must accelerate the triangle lock with your far leg before the opponent can react, as the window without the anchor grip is extremely narrow."
       }
     ],
-    "safety_considerations": "The Turtle to Truck Entry involves leg entanglement that can generate significant torque on the knee joint of both practitioners. During the threading phase, the inserting practitioner should use controlled hip-driven motion rather than explosive kicks to prevent accidentally striking the training partner's inner thigh or groin. Once the leg triangle is locked, apply pressure gradually and maintain communication with your partner about intensity levels. The trapped leg is particularly vulnerable to lateral knee stress during the triangle lock, so release immediately upon any tap signal. Partners in turtle should tap early if they feel knee pressure before the triangle fully locks rather than waiting, as the pressure can escalate quickly once the configuration is established. Avoid forcing the entry if the angle is incorrect - reset and try again rather than cranking the leg into position. Be especially careful during the roll to side-lying position, as awkward weight distribution with legs entangled can strain knee ligaments for both practitioners."
+    "safety_considerations": "The Turtle to Truck Entry involves leg entanglement that can generate significant torque on the knee joint of both practitioners. During the threading phase, the inserting practitioner should use controlled hip-driven motion rather than explosive kicks to prevent accidentally striking the training partner's inner thigh or groin. Once the leg triangle is locked, apply pressure gradually and maintain communication with your partner about intensity levels. The trapped leg is particularly vulnerable to lateral knee stress during the triangle lock, so release immediately upon any tap signal. Partners in turtle should tap early if they feel knee pressure before the triangle fully locks rather than waiting, as the pressure can escalate quickly once the configuration is established. Avoid forcing the entry if the angle is incorrect - reset and try again rather than cranking the leg into position. Be especially careful during the roll to side-lying position, as awkward weight distribution with legs entangled can strain knee ligaments for both practitioners.",
+    "clips": [
+      {
+        "id": "sCBGkcJCQYY",
+        "title": "The truck in transition from turtle",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "XLvbK52hzqM",
+        "title": "Truck back take against a stubborn turtle",
+        "by": "Patrick Donabedian",
+        "vertical": false,
+        "channel": "Patrick Donabedian BJJ",
+        "duration": 63,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "yGkKdnPksik",
+        "title": "Turtle series: truck entry breakdown",
+        "by": "Courage Training Centre",
+        "vertical": false,
+        "channel": "Courage Training Centre",
+        "duration": 109,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Turtle to Truck Entry Defender",
@@ -424,6 +453,26 @@
         "phase": "Week 7+",
         "focus": "Live integration and turtle defense system",
         "description": "Full speed positional sparring from turtle bottom against a partner hunting for both back takes and Truck entries. Defender must differentiate between attack types in real time and apply appropriate defenses. Integrate Truck defense into overall turtle escape system. Track defensive success rate and identify which cues are being missed in live application."
+      }
+    ],
+    "clips": [
+      {
+        "id": "WEpVDP7MRpo",
+        "title": "Defending the rolling back take / truck roll",
+        "by": "Brian Glick",
+        "vertical": false,
+        "channel": "Brian Glick",
+        "duration": 209,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "923eYpD1E58",
+        "title": "Inside roll escape from turtle",
+        "by": "Kenny Lester",
+        "vertical": false,
+        "channel": "KING OF CATCH WRESTLING CHAMPIONSHIP",
+        "duration": 158,
+        "verified": "2026-07-15"
       }
     ]
   },

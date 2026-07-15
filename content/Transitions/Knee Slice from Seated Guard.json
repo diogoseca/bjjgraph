@@ -292,7 +292,27 @@
         "answer": "The trail leg provides base and balance during the forward drive. It should remain posted on the mat with the foot flat, ready to adjust position as the lead knee slices forward. If neglected, the trail leg floats off the mat or gets too far behind, removing your base and making you vulnerable to being swept laterally. After the knee lands, the trail leg becomes the free leg used to backstep or windshield-wiper past the opponent's half guard retention. Proper trail leg positioning is the difference between a controlled entry and an off-balance lunge."
       }
     ],
-    "safety_considerations": "The knee slice involves significant forward pressure on the opponent's knee and hip structures. Apply pressure gradually and maintain control throughout the technique. Avoid explosive twisting motions that could hyperextend the opponent's trapped knee, particularly when their foot is caught between your legs during the slice. Rapid angle changes during the drive can stress the medial collateral ligament. In training, drive smoothly rather than explosively, and immediately release pressure if your partner signals discomfort in their knee or hip. Be especially cautious when the opponent's leg is externally rotated during the half guard catch."
+    "safety_considerations": "The knee slice involves significant forward pressure on the opponent's knee and hip structures. Apply pressure gradually and maintain control throughout the technique. Avoid explosive twisting motions that could hyperextend the opponent's trapped knee, particularly when their foot is caught between your legs during the slice. Rapid angle changes during the drive can stress the medial collateral ligament. In training, drive smoothly rather than explosively, and immediately release pressure if your partner signals discomfort in their knee or hip. Be especially cautious when the opponent's leg is externally rotated during the half guard catch.",
+    "clips": [
+      {
+        "id": "Op44Sijyotw",
+        "title": "Knee cut pass from seated guard",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 141,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Q_kqgSU9ZAs",
+        "title": "Knee cut pass from open guard",
+        "by": "Affinity Academy",
+        "vertical": false,
+        "channel": "Affinity Academy",
+        "duration": 129,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Knee Slice from Seated Guard Defender",
@@ -413,6 +433,17 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance defense and counter-attack under authentic pressure",
         "description": "Start in seated guard with partner attempting the knee slice at full resistance within a complete passing game. Defend, counter, and sweep or stand up. Track success rate against different skill levels and identify which defensive responses work best against specific entry variations."
+      }
+    ],
+    "clips": [
+      {
+        "id": "RvIIpXaPyJM",
+        "title": "Basic knee slide recovery",
+        "by": "Vision Brazilian Jiu Jitsu",
+        "vertical": false,
+        "channel": "Vision Brazilian Jiu Jitsu",
+        "duration": 96,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -301,7 +301,27 @@
         "answer": "Prevention is the priority: keep both arms either inside the opponent's legs or posted wide with elbows flared so they cannot isolate one arm inside and one outside their guard structure. If they begin closing the triangle angle, immediately stack even harder by driving your weight forward and down, which compresses their locking mechanism and makes it difficult to close the triangle tightly. Use your free hand to push on their locking ankle to break the triangle closure. The increased stacking pressure from the triangle defense can actually accelerate the pass if you maintain your composure and continue working the stack while defending."
       }
     ],
-    "safety_considerations": "The stack pass places significant pressure on the opponent's neck, cervical spine, and lower back due to the spinal inversion created by the stacking action. Always apply pressure gradually and be aware of your partner's flexibility limitations, particularly in their hamstrings and lower back. Beginners should avoid excessive stacking that drives the opponent's knees too far toward their face, as this can cause neck compression injuries or aggravate existing spinal conditions. When practicing, communicate with your partner about pressure levels and stop immediately if they tap or show signs of discomfort. Be especially cautious with partners who have neck, back, or shoulder injuries. The passer should also be aware that poor head position during the forward drive can result in neck strain from guillotine pressure, and should never jerk their head violently to escape a guillotine grip."
+    "safety_considerations": "The stack pass places significant pressure on the opponent's neck, cervical spine, and lower back due to the spinal inversion created by the stacking action. Always apply pressure gradually and be aware of your partner's flexibility limitations, particularly in their hamstrings and lower back. Beginners should avoid excessive stacking that drives the opponent's knees too far toward their face, as this can cause neck compression injuries or aggravate existing spinal conditions. When practicing, communicate with your partner about pressure levels and stop immediately if they tap or show signs of discomfort. Be especially cautious with partners who have neck, back, or shoulder injuries. The passer should also be aware that poor head position during the forward drive can result in neck strain from guillotine pressure, and should never jerk their head violently to escape a guillotine grip.",
+    "clips": [
+      {
+        "id": "_l_u3jIJaY4",
+        "title": "Stack pass to back control",
+        "by": "Clark Gracie",
+        "vertical": false,
+        "channel": "Clark Gracie Allegiance Jiu Jitsu",
+        "duration": 73,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "EC4JVnymW3U",
+        "title": "Stack pass from closed guard",
+        "by": "Procel BJJ",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 95,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Stack Pass Defender",
@@ -432,6 +452,26 @@
         "phase": "Week 9+: Live Defense Application",
         "focus": "Full resistance stack pass defense",
         "description": "Positional sparring starting from closed guard top with partner actively attempting stack pass. Defend using the full defensive toolkit: grip fighting, framing, counter-offense, and dynamic escapes. Track success rate of maintaining guard versus being passed and identify which defensive phase needs the most development."
+      }
+    ],
+    "clips": [
+      {
+        "id": "mOvf60z4HS0",
+        "title": "Stack pass defense to triangle trap",
+        "by": "Mark Cerrone",
+        "vertical": false,
+        "channel": "Mark Cerrone",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Y6R29wW_KrU",
+        "title": "Defending the stack pass, no-gi",
+        "by": "Matt Serra",
+        "vertical": false,
+        "channel": "Fernaldi Jonatan",
+        "duration": 158,
+        "verified": "2026-07-15"
       }
     ]
   },

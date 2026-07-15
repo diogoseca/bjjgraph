@@ -289,7 +289,27 @@
         "answer": "An S-grip with interlocking fingers is generally easier to strip because the grip has a natural weak point where the fingers interlock—target the wrist of the bottom hand and peel downward. A Gable grip with palm-to-palm contact is stronger and requires you to wedge between the hands at the wrist junction to break the connection. With either grip, the principle remains the same—two-on-one on the controlling wrist and strip below the ankle line—but the initial grip break requires different hand positioning."
       }
     ],
-    "safety_considerations": "The heel strip must NEVER be attempted once heel hook rotation has begun—tap immediately if you feel rotational pressure on your knee. Knee ligament injuries from heel hooks can be career-ending, with damage to the LCL, MCL, and meniscus occurring within fractions of a second once rotation is applied. In training, always communicate clearly with your partner about resistance levels and establish clear tap signals before drilling. If you cannot strip the grip within two controlled attempts, strongly consider tapping rather than fighting through increasing danger. Progressive training from zero resistance to full resistance is essential—never jump to live resistance before mastering the mechanical sequence. Partners applying heel hooks in drill scenarios must maintain controlled grip pressure and immediately release upon any tap signal."
+    "safety_considerations": "The heel strip must NEVER be attempted once heel hook rotation has begun—tap immediately if you feel rotational pressure on your knee. Knee ligament injuries from heel hooks can be career-ending, with damage to the LCL, MCL, and meniscus occurring within fractions of a second once rotation is applied. In training, always communicate clearly with your partner about resistance levels and establish clear tap signals before drilling. If you cannot strip the grip within two controlled attempts, strongly consider tapping rather than fighting through increasing danger. Progressive training from zero resistance to full resistance is essential—never jump to live resistance before mastering the mechanical sequence. Partners applying heel hooks in drill scenarios must maintain controlled grip pressure and immediately release upon any tap signal.",
+    "clips": [
+      {
+        "id": "MqtG9kuVt-Q",
+        "title": "Leg lock escape: rolling through out of ashi garami",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "AQbJMBiWYfU",
+        "title": "Escaping ashi garami — leg lock defense",
+        "by": "Scott Elliott",
+        "vertical": false,
+        "channel": "Coach Scott Elliott",
+        "duration": 141,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Heel Strip from Ashi Garami Defender",
@@ -406,6 +426,26 @@
         "phase": "Phase 4: Full Offensive System Integration",
         "focus": "Integrating all concepts in competitive positional sparring",
         "description": "Positional sparring from Ashi Garami where attacker practices maintaining complete offensive system while partner uses full escape toolkit including heel strip, boot defense, and counter-entanglement. Track submission completion rate and identify patterns."
+      }
+    ],
+    "clips": [
+      {
+        "id": "JbRfIo1NTLk",
+        "title": "Clearing the kneeline - leglock defense",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 274,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "yUdB-EJaXgQ",
+        "title": "Heel hook defense vs ankle lock defense",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "The Grapplers Guide by Jason Scully",
+        "duration": 133,
+        "verified": "2026-07-15"
       }
     ]
   }

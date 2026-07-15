@@ -367,6 +367,26 @@
         "question": "Your opponent partially escapes and gets their near arm free - how do you recover control?",
         "answer": "Immediately transition to a safer variation before they can capitalize. Options include: shifting to North-South by circling toward their head, moving to standard side control by sliding your hips perpendicular, or if they turn in, flowing to mount. Do not fight to re-trap the arm in Kesa Gatame as this creates scramble opportunities. Accept the partial escape and secure a dominant position rather than losing everything trying to maintain the original hold."
       }
+    ],
+    "clips": [
+      {
+        "id": "fB7gGDIm1i8",
+        "title": "12 Kesa Gatame Attacks",
+        "by": "Johnny Jitsu",
+        "vertical": false,
+        "channel": "Johnny Jitsu",
+        "duration": 88,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "wxD6LV1GARg",
+        "title": "Armbar from Kesa Gatame (Scarf Hold)",
+        "by": "Jiu-jitsu",
+        "vertical": false,
+        "channel": "Jiu-jitsu",
+        "duration": 68,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -704,6 +724,35 @@
         "question": "You partially escape and get space but opponent is re-engaging - how do you complete the guard recovery?",
         "answer": "Once you have space, commit fully to guard recovery rather than trying to maintain the intermediate position. Immediately bring your knees to your chest and insert your knee shield or closed guard before they can re-establish pressure. If they're driving forward, use their momentum to pull them into your closed guard. If going to turtle, complete the transition fully rather than stopping halfway where you can be flattened again. Partial positions are dangerous - commit to completing the escape."
       }
+    ],
+    "clips": [
+      {
+        "id": "ORpUBUxK1QE",
+        "title": "Reverse Kesa Gatame Escape to Back Take",
+        "by": "Gymnanigains",
+        "vertical": false,
+        "channel": "Gymnanigains",
+        "duration": 26,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "2M_6VytUaus",
+        "title": "Kesa Gatame Escape",
+        "by": "SBG Australia",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 43,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "fvp5_BVEtLg",
+        "title": "Kesa Gatame Pressure Defense w/ Framing",
+        "by": "Kohbukan Sisu",
+        "vertical": false,
+        "channel": "Kohbukan Sisu",
+        "duration": 84,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -738,6 +787,17 @@
     {
       "question": "Why does Kesa Gatame restrict the bottom player's breathing so heavily?",
       "answer": "The top player's weight funnels through the chest and shoulder directly onto the opponent's upper torso and diaphragm, and because the near arm and head are pinned on one side, the opponent cannot create the ribcage expansion room that framing normally buys. The shoulder often presses across the face as well, adding a smothering component on top of the load on the chest. This is why the position is described as compounding over time: the pressure is constant and skeletal rather than something the bottom player can wait out, and oxygen debt accelerates fatigue and mental defeat. The breathing restriction is therefore a structural feature of the pin, not an added attack."
+    }
+  ],
+  "clips": [
+    {
+      "id": "fB7gGDIm1i8",
+      "title": "12 Kesa Gatame Attacks",
+      "by": "Johnny Jitsu",
+      "vertical": false,
+      "channel": "Johnny Jitsu",
+      "duration": 88,
+      "verified": "2026-07-14"
     }
   ]
 }

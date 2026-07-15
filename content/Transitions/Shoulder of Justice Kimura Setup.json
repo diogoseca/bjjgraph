@@ -301,7 +301,36 @@
         "answer": "If the Kimura is consistently blocked, chain to mount advancement when they keep their arm tight, north-south transition when they turn away from pressure, or Americana when their arm is trapped but rotated in the opposite direction. The shoulder pressure itself enables all these alternatives. By threatening the Kimura, you condition the opponent to protect their near arm, which often opens mount transitions as they stop framing. This attack chain makes the Shoulder of Justice a complete offensive system."
       }
     ],
-    "safety_considerations": "The Kimura grip applies significant rotational force to the shoulder joint. During training, establish the grip and position slowly enough for your partner to tap before shoulder damage occurs. Never jerk or explosively rotate the arm when transitioning from grip catch to Kimura Trap position. The shoulder pressure component of this technique can cause jaw discomfort and TMJ issues—communicate with your training partner about pressure intensity. Always release immediately upon tap and give your partner time to reset before repeating the drill."
+    "safety_considerations": "The Kimura grip applies significant rotational force to the shoulder joint. During training, establish the grip and position slowly enough for your partner to tap before shoulder damage occurs. Never jerk or explosively rotate the arm when transitioning from grip catch to Kimura Trap position. The shoulder pressure component of this technique can cause jaw discomfort and TMJ issues—communicate with your training partner about pressure intensity. Always release immediately upon tap and give your partner time to reset before repeating the drill.",
+    "clips": [
+      {
+        "id": "awNPX8E6bf4",
+        "title": "Kimura from side control",
+        "by": "Alavanca",
+        "vertical": false,
+        "channel": "Alavanca",
+        "duration": 16,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "g-e2ZrNsoNQ",
+        "title": "Setting up the kimura from side control",
+        "by": "Heiho Dojo",
+        "vertical": false,
+        "channel": "Heiho Dojo",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "WZYSrAW32D4",
+        "title": "Kimura from side control breakdown",
+        "by": "Josh Cooksley",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 136,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Shoulder of Justice Kimura Setup Defender",
@@ -423,6 +452,35 @@
         "phase": "Phase 4: Live Defense Integration",
         "focus": "Full defensive application under progressive resistance",
         "description": "Positional sparring starting from Shoulder of Justice. Attacker attempts Kimura setup with full technique. Defender uses complete defensive repertoire including arm discipline, recognition, and timed escapes. Progress from 60% to full resistance over multiple rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "uRn3DRICpeY",
+        "title": "Late kimura defense from bottom side control",
+        "by": "Fox Den Martial Arts",
+        "vertical": false,
+        "channel": "Fox Den Martial Arts",
+        "duration": 100,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "gvRGrvtKd1U",
+        "title": "Kimura defense fundamentals",
+        "by": "Jon Satava",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 142,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MM9rddEgJ58",
+        "title": "Kimura defense 101 from bottom side control",
+        "by": "Gracie Westchase",
+        "vertical": false,
+        "channel": "Gracie Westchase ",
+        "duration": 156,
+        "verified": "2026-07-15"
       }
     ]
   }

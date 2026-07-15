@@ -294,7 +294,27 @@
         "answer": "Three indicators signal readiness: the opponent's legs go limp or stop actively resisting the compression, their breathing becomes labored and shallow from spinal compression restricting their diaphragm, and their frame attempts weaken noticeably as their structural leverage diminishes in the fully stacked position. The clearest mechanical indicator is when you can feel their hips loaded above their shoulders with their back curved and weight resting on their shoulder blades. At this point, hip escape is biomechanically impossible and the pass completion window is open."
       }
     ],
-    "safety_considerations": "Stack passing applies significant compressive force to the opponent's cervical spine and can restrict breathing when fully loaded. Always release immediately when your training partner taps and be especially cautious with partners who have pre-existing neck or back conditions. During drilling, build stacking pressure progressively rather than slamming into full compression. Communicate with your partner about pressure levels and immediately ease off if they indicate discomfort or difficulty breathing. Never continue stacking an opponent who appears to be in distress or unable to signal for a stop."
+    "safety_considerations": "Stack passing applies significant compressive force to the opponent's cervical spine and can restrict breathing when fully loaded. Always release immediately when your training partner taps and be especially cautious with partners who have pre-existing neck or back conditions. During drilling, build stacking pressure progressively rather than slamming into full compression. Communicate with your partner about pressure levels and immediately ease off if they indicate discomfort or difficulty breathing. Never continue stacking an opponent who appears to be in distress or unable to signal for a stop.",
+    "clips": [
+      {
+        "id": "N4PxPPv98k4",
+        "title": "Double unders stack pass",
+        "by": "Nicky Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 91,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "C1owQwRAOkw",
+        "title": "Over under to double under pass transition",
+        "by": "Paragon Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Paragon Jiu-Jitsu Academy Austin",
+        "duration": 136,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Stack Pass from Double Unders Defender",
@@ -425,6 +445,35 @@
         "phase": "Phase 4: Live Defense Integration",
         "focus": "Full resistance stack pass defense",
         "description": "Positional sparring from double unders bottom against partner's full-resistance stack pass attempts. Integrate all defensive tools: framing, deep half entry, granby roll, bridge and turn. Track success rates for each defensive option and identify which counters work best against different opponent body types and passing angles."
+      }
+    ],
+    "clips": [
+      {
+        "id": "1UOj60dc540",
+        "title": "Double under stack pass counter to triangle",
+        "by": "Adam Bradley",
+        "vertical": false,
+        "channel": "Adam Bradley",
+        "duration": 69,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Ad0qtay9IVQ",
+        "title": "Double under stack defense and counter",
+        "by": "Wim Deputter",
+        "vertical": false,
+        "channel": "Wim Deputter BJJ",
+        "duration": 130,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uILaTRBgpG0",
+        "title": "Defensive sweep from the double under pass",
+        "by": "Smith",
+        "vertical": false,
+        "channel": "Smith ♞ | Brazilian Jiu-jitsu",
+        "duration": 28,
+        "verified": "2026-07-15"
       }
     ]
   }

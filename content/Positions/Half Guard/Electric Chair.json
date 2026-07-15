@@ -327,6 +327,35 @@
           "nogi": 17
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "sMbaY4vG2mM",
+        "title": "Electric Chair from lockdown half guard",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 42,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "O18n2Z5HISI",
+        "title": "Electric Chair from deep half",
+        "by": "Heart & Dagger BJJ",
+        "vertical": false,
+        "channel": "Heart & Dagger  BJJ - Mineral Wells Jiu Jitsu",
+        "duration": 43,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "X7JA72d-3vw",
+        "title": "Electric Chair submission",
+        "by": "Dan M.",
+        "vertical": false,
+        "channel": "Dan M.",
+        "duration": 55,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -606,6 +635,35 @@
           "nogi": 18
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "sMbaY4vG2mM",
+        "title": "Electric Chair from lockdown half guard",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 42,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "08cbHHs_NsM",
+        "title": "Corona lockdown sweep to Electric Chair",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 53,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "9CxxyZEd7-E",
+        "title": "Electric Chair sweep breakdown",
+        "by": "Asaf Mich",
+        "vertical": false,
+        "channel": "Asaf Mich",
+        "duration": 76,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -640,6 +698,35 @@
     {
       "question": "Why is there no safe posture range for the top player caught in a loaded Electric Chair?",
       "answer": "Heavy forward weight and high posture each defuse one threat while arming the other, so the top player is squeezed into a narrow middle band. Driving weight forward flattens the bottom player and closes the angle to relieve some groin stretch, but it loads the underhook and shifts the top player's mass toward the bottom player's spine, which is exactly the alignment that powers the Old School sweep. Posturing high instead unloads the underhook but feeds the hip extension and split. Because both extremes are punished by different threats, the top player has no static posture that is safe, and the bottom player attacks whichever extreme they drift toward."
+    }
+  ],
+  "clips": [
+    {
+      "id": "I8HLek9eCbg",
+      "title": "Electric Chair quick demo",
+      "by": "bjjtaro",
+      "vertical": false,
+      "channel": "bjjtaro",
+      "duration": 25,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "OIr4wDxl-Ys",
+      "title": "Lockdown clinches (MTS 176)",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "Eddie Bravo",
+      "duration": 60,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "VcW4GCI5_8w",
+      "title": "Two submissions from lockdown half guard",
+      "by": "Coach Paul",
+      "vertical": false,
+      "channel": "Coach Paul - War Fork Jiu-Jitsu Academy",
+      "duration": 87,
+      "verified": "2026-07-14"
     }
   ]
 }

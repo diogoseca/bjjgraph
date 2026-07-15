@@ -300,7 +300,36 @@
         "answer": "Immediately circle your elbow down and in toward your hip while driving your shoulder into their chest. The arm drag requires them to isolate your arm away from your body—if you keep your elbow connected to your ribs, the drag fails. After defending the drag, recognize that the opponent committed their upper body to the drag attempt, which means their hook control on the drag side is temporarily weakened. Use this window to attack that hook immediately."
       }
     ],
-    "safety_considerations": "This is a positional pass without direct joint manipulation or choking mechanics, making it one of the safer transitions in BJJ. Primary injury risks include knee strain from awkward hook positions during the clearing phase—if your knee catches on the opponent's hook at an uncomfortable angle, reset rather than forcing through. Neck strain can occur from aggressive crossface pressure during drilling. Both partners should communicate if crossface pressure becomes uncomfortable on the cervical spine. During live training, be aware of finger injuries from grips catching in gi material during the passing exchange."
+    "safety_considerations": "This is a positional pass without direct joint manipulation or choking mechanics, making it one of the safer transitions in BJJ. Primary injury risks include knee strain from awkward hook positions during the clearing phase—if your knee catches on the opponent's hook at an uncomfortable angle, reset rather than forcing through. Neck strain can occur from aggressive crossface pressure during drilling. Both partners should communicate if crossface pressure becomes uncomfortable on the cervical spine. During live training, be aware of finger injuries from grips catching in gi material during the passing exchange.",
+    "clips": [
+      {
+        "id": "IKs6ZDfahHE",
+        "title": "Passing butterfly guard via cross butterfly hook",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 44,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Pk_6CrydIRQ",
+        "title": "Half butterfly guard pass for no-gi",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 110,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "s5MYmM58Ipg",
+        "title": "Passing by smash-baiting the butterfly hook",
+        "by": "JT Torres",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 198,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Pass Butterfly Hook Control Defender",
@@ -425,6 +454,26 @@
         "phase": "Counter-Attack Integration",
         "focus": "Converting successful defense into offensive sweeps",
         "description": "Positional sparring where successful pass defense must immediately convert to a sweep or back take attempt. Develops the habit of transitioning from defensive posture to offensive action without pause, exploiting the passer's vulnerability after their pass attempt fails."
+      }
+    ],
+    "clips": [
+      {
+        "id": "02sVMQyHuGc",
+        "title": "Guard retention with butterfly hooks vs the pass",
+        "by": "Diamondback Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Diamondback Jiu-Jitsu",
+        "duration": 81,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "SMTORT8NDGw",
+        "title": "Guard recovery variation against the pass",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 185,
+        "verified": "2026-07-15"
       }
     ]
   }

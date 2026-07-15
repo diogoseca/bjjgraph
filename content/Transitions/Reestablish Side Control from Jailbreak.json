@@ -382,6 +382,35 @@
         "focus": "Explosive execution within the escape window under full resistance",
         "description": "Partner provides full resistance and actively counters the jailbreak. Focus on timing the explosive roll for moments of forward weight commitment and committing fully to the chosen escape path. If the jailbreak is shut down, switch immediately to contingency. Full speed, 3-minute rounds with reset after each conclusion."
       }
+    ],
+    "clips": [
+      {
+        "id": "gFYyMkaMz34",
+        "title": "Prison guard breakdown",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 59,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "EV_xmwb3l-8",
+        "title": "Jailbreak escape from bottom side control",
+        "by": "Two Minute Technique",
+        "vertical": false,
+        "channel": "Two Minute Technique",
+        "duration": 191,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "6spcIWJsYYY",
+        "title": "Jail break side control escape",
+        "by": "Chosen Few BJJ",
+        "vertical": false,
+        "channel": "Chosen Few BJJ",
+        "duration": 189,
+        "verified": "2026-07-15"
+      }
     ]
   }
 }

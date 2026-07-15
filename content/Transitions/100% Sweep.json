@@ -307,7 +307,36 @@
         "answer": "After rolling the opponent over, immediately drive your knee across their body to establish mount before they can recover guard or turn to turtle. Keep the arm trap secured throughout the transition if possible, as this prevents them from framing. Once your knee clears their hip, settle your weight low with your hips pressed into their abdomen. Establish head control with your free hand to prevent them from bridging. Your first priority is preventing the elbow-knee escape by driving your knees into their armpits. Only release the arm trap once mount is fully secured with proper weight distribution and base."
       }
     ],
-    "safety_considerations": "When practicing the 100% Sweep, execute with control to avoid injuring your partner when they fall. The sweep can result in a hard landing if done too explosively, particularly in beginner settings where partners may not know how to breakfall properly. Ensure your training partner understands how to fall safely by tucking their chin and using breakfall techniques. Always practice in a controlled environment with proper mats to prevent injury from falls. When learning the technique, use slower speeds and progressive resistance to develop proper mechanics before attempting at full intensity. Be prepared to adjust if the sweep fails or your opponent counters, as forcing a failed sweep can leave you vulnerable to guard passing. In competition, be aware of the rules regarding slamming, as following through too aggressively on the sweep could be interpreted as a slam in some rule sets."
+    "safety_considerations": "When practicing the 100% Sweep, execute with control to avoid injuring your partner when they fall. The sweep can result in a hard landing if done too explosively, particularly in beginner settings where partners may not know how to breakfall properly. Ensure your training partner understands how to fall safely by tucking their chin and using breakfall techniques. Always practice in a controlled environment with proper mats to prevent injury from falls. When learning the technique, use slower speeds and progressive resistance to develop proper mechanics before attempting at full intensity. Be prepared to adjust if the sweep fails or your opponent counters, as forcing a failed sweep can leave you vulnerable to guard passing. In competition, be aware of the rules regarding slamming, as following through too aggressively on the sweep could be interpreted as a slam in some rule sets.",
+    "clips": [
+      {
+        "id": "dMcMblcXhF0",
+        "title": "Roger Gracie: sweep from closed guard",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "Gentle Art Media",
+        "duration": 73,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "KizFNjw2h18",
+        "title": "100% sweep to mounted guillotine",
+        "by": "Grappling How to",
+        "vertical": false,
+        "channel": "Grappling How to",
+        "duration": 67,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "L0k94Lnww84",
+        "title": "Bait Choi bar to 100%'er from half guard",
+        "by": "Charles Allan Price",
+        "vertical": false,
+        "channel": "Charles Allan Price",
+        "duration": 70,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "100% Sweep Defender",
@@ -433,6 +462,17 @@
         "phase": "Positional Sparring from Closed Guard Top",
         "focus": "Defending sweeps in live closed guard scenarios",
         "description": "Start in closed guard top against a partner whose primary attack is the 100% Sweep and its chain attacks. Work your full defensive game including prevention, response, and recovery while the partner chains between sweep and submission threats. 5-minute rounds with focus on maintaining top position throughout."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kNfVYhZbgrg",
+        "title": "Four levels of sweep defense",
+        "by": "Wim Deputter",
+        "vertical": false,
+        "channel": "Wim Deputter BJJ",
+        "duration": 87,
+        "verified": "2026-07-15"
       }
     ]
   },

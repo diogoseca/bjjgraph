@@ -302,7 +302,27 @@
         "answer": "Do not keep grinding the same stuffed bridge. Reset your chin tuck and defensive posture and let their forward drive and squeeze burn energy. Then chain to a hip escape away from their committed weight, or re-attempt the bridge on their next finishing commitment. Their forward over-commitment is exactly when their backward base is weakest, so a second, better-timed bridge against their fatigue, or a shrimp into the space their posting leg vacated, beats repeating the blocked attempt."
       }
     ],
-    "safety_considerations": "Bridge defense from mounted triangle requires careful awareness of neck positioning throughout the escape. Explosive bridging while trapped in a triangle can temporarily increase choking pressure if the chin tuck is not maintained. Never bridge directly into the triangle squeeze direction. Training partners should apply moderate triangle pressure during drilling rather than competition-level finishing force. Tap immediately if you feel lightheadedness, tingling, or loss of blood flow during practice. Partners should release immediately on any tap signal. Warm up the neck and spine thoroughly before drilling explosive bridging movements to prevent cervical strain."
+    "safety_considerations": "Bridge defense from mounted triangle requires careful awareness of neck positioning throughout the escape. Explosive bridging while trapped in a triangle can temporarily increase choking pressure if the chin tuck is not maintained. Never bridge directly into the triangle squeeze direction. Training partners should apply moderate triangle pressure during drilling rather than competition-level finishing force. Tap immediately if you feel lightheadedness, tingling, or loss of blood flow during practice. Partners should release immediately on any tap signal. Warm up the neck and spine thoroughly before drilling explosive bridging movements to prevent cervical strain.",
+    "clips": [
+      {
+        "id": "B7IqvaOiwgo",
+        "title": "Bridge escape from mounted headlock",
+        "by": "astinus4",
+        "vertical": false,
+        "channel": "astinus4",
+        "duration": 52,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "R21vtm5BHF4",
+        "title": "Escaping the mount by bridging",
+        "by": "Pantera Jiujitsu",
+        "vertical": false,
+        "channel": "Pantera Jiujitsu",
+        "duration": 80,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Bridge Defense from Mounted Triangle Defender",
@@ -423,6 +443,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Maintaining mounted triangle against full escape attempts",
         "description": "Full positional sparring from mounted triangle. Top player maintains position and works submissions while bottom player uses all available escapes including bridges. Develop ability to manage multiple escape threats simultaneously while progressing toward submission finish under realistic conditions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "a6SPEOcuNzs",
+        "title": "Keeping top control on a failed mounted triangle",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "l-HhOV9UjJU",
+        "title": "Preventing the mounted triangle",
+        "by": "Justen Hamilton",
+        "vertical": false,
+        "channel": "Justen Hamilton",
+        "duration": 104,
+        "verified": "2026-07-15"
       }
     ]
   }

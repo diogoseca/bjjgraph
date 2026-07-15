@@ -272,7 +272,27 @@
         "answer": "Releasing both hooks simultaneously creates a window of zero leg control where the opponent can freely disengage, backstep to a passing angle, or drive forward into a dominant position. This is the single most common and catastrophic error in this transition. The solution is strict sequential hook movement with overlapping control, ensuring one hook always maintains pressure while the other repositions."
       }
     ],
-    "safety_considerations": "This transition is relatively low-risk when performed correctly, as it involves repositioning your own body rather than applying joint stress to your opponent. The primary safety concern is maintaining your own back and hip health during the rotational movement. Avoid forcing the transition if your hips or lower back are fatigued, as the twisting motion combined with opponent pressure can strain these areas. When drilling, ensure you have adequate hip mobility before attempting full-speed repetitions. If you feel your grips slipping during the transition, it is safer to return to your starting position rather than forcing completion, which could result in losing position entirely and ending up in a disadvantageous passing situation."
+    "safety_considerations": "This transition is relatively low-risk when performed correctly, as it involves repositioning your own body rather than applying joint stress to your opponent. The primary safety concern is maintaining your own back and hip health during the rotational movement. Avoid forcing the transition if your hips or lower back are fatigued, as the twisting motion combined with opponent pressure can strain these areas. When drilling, ensure you have adequate hip mobility before attempting full-speed repetitions. If you feel your grips slipping during the transition, it is safer to return to your starting position rather than forcing completion, which could result in losing position entirely and ending up in a disadvantageous passing situation.",
+    "clips": [
+      {
+        "id": "EcxCadpBePk",
+        "title": "Single leg X, X guard and reverse X guard options",
+        "by": "Steven Kaloustian",
+        "vertical": false,
+        "channel": "Steven Kaloustian",
+        "duration": 97,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "zbYb6sOYC8w",
+        "title": "X guard sweep demonstration",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "CHOKE LABORATORY",
+        "duration": 53,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Reverse X-Guard to Standard X-Guard Defender",
@@ -397,6 +417,17 @@
         "phase": "Week 7+",
         "focus": "Live integration",
         "description": "Positional sparring starting from Reverse X-Guard Top. Bottom player has full freedom to transition, sweep, or submit. Focus on maintaining awareness of transition attempts while also defending direct Reverse X sweeps and managing the overall passing strategy."
+      }
+    ],
+    "clips": [
+      {
+        "id": "WsQy2bzQqL8",
+        "title": "Backstep pass against X guard",
+        "by": "Wakizashi Jiu Jitsu",
+        "vertical": false,
+        "channel": "Wakizashi Jiu Jitsu",
+        "duration": 76,
+        "verified": "2026-07-15"
       }
     ]
   },

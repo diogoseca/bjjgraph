@@ -279,7 +279,36 @@
         "answer": "Immediately re-engage the Inside Sankaku figure-four by re-crossing your outside leg over your inside leg and driving your hips back to the original entanglement angle. If the figure-four cannot be recovered, fall back further to Inside Ashi-Garami by maintaining your inside leg hook while disengaging the outside leg entirely. Never try to force the Saddle from a degraded position. The control hierarchy gives you multiple fallback layers to preserve the leg entanglement even when the Saddle entry fails."
       }
     ],
-    "safety_considerations": "This transition involves leg entanglements that create significant risk of knee and ankle ligament damage to both practitioners. During the reconfiguration phase, the attacker's hip switch can inadvertently apply rotational force on the opponent's knee before either practitioner recognizes the danger. Always execute the transition with controlled, deliberate movements in training. Never attempt the hip switch explosively, as the positional change can accidentally engage heel hook mechanics during reconfiguration. If the defender signals distress or taps at any point during the transition, release all control immediately. Partners should establish clear communication protocols and agree on tap-and-release expectations before drilling this technique. Beginners should learn the movement pattern without any submission grip engagement until the mechanics are automatic."
+    "safety_considerations": "This transition involves leg entanglements that create significant risk of knee and ankle ligament damage to both practitioners. During the reconfiguration phase, the attacker's hip switch can inadvertently apply rotational force on the opponent's knee before either practitioner recognizes the danger. Always execute the transition with controlled, deliberate movements in training. Never attempt the hip switch explosively, as the positional change can accidentally engage heel hook mechanics during reconfiguration. If the defender signals distress or taps at any point during the transition, release all control immediately. Partners should establish clear communication protocols and agree on tap-and-release expectations before drilling this technique. Beginners should learn the movement pattern without any submission grip engagement until the mechanics are automatic.",
+    "clips": [
+      {
+        "id": "hcw1zaEizxw",
+        "title": "Deep half guard to honey hole",
+        "by": "Mission Tristan",
+        "vertical": false,
+        "channel": "Mission Tristan",
+        "duration": 68,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "rldppvn1WTg",
+        "title": "Honey hole entry from half guard",
+        "by": "JitzLive",
+        "vertical": false,
+        "channel": "JitzLive",
+        "duration": 89,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "eRQVlYxFx1Y",
+        "title": "Shoulder roll to cross ashi / saddle",
+        "by": "bjj doug",
+        "vertical": false,
+        "channel": "bjj doug",
+        "duration": 42,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Inside Sankaku to Saddle Defender",
@@ -403,6 +432,17 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Defending the transition under full competitive resistance",
         "description": "Start in Inside Sankaku. Attacker works to transition to Saddle or submit from Inside Sankaku. Defender works to escape or prevent advancement. Full resistance with reset when position is lost or submission achieved. Build confidence in defensive protocols under genuine competitive pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "DF2AYLPbeHc",
+        "title": "Defending and countering the inside heel hook",
+        "by": "Jahred Dell",
+        "vertical": false,
+        "channel": "Jahred Dell",
+        "duration": 70,
+        "verified": "2026-07-15"
       }
     ]
   }

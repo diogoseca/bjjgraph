@@ -265,7 +265,36 @@
         "answer": "If the opponent prevents back exposure by turning into you, follow their rotation to maintain mount with the gift wrap still intact and reattempt from the new angle. If they post with the far arm, attack with kimura or transition to crucifix. If they bridge and create space, abandon the gift wrap and secure side control or reset to mount. The gift wrap control persists through most defensive reactions, so you can chain multiple attempts before the grip is actually broken."
       }
     ],
-    "safety_considerations": "The Gift Wrap to Back transition is generally low-risk for injury when performed correctly. The primary safety concern is shoulder strain on the trapped arm if excessive force is applied to the gift wrap grip. Always apply control progressively rather than jerking the arm into position. During training, communicate with your partner if the shoulder position feels compromised. Avoid cranking the arm beyond its natural range of motion—the technique works through positional control, not joint manipulation. When drilling, release immediately if your partner taps or indicates discomfort in the shoulder."
+    "safety_considerations": "The Gift Wrap to Back transition is generally low-risk for injury when performed correctly. The primary safety concern is shoulder strain on the trapped arm if excessive force is applied to the gift wrap grip. Always apply control progressively rather than jerking the arm into position. During training, communicate with your partner if the shoulder position feels compromised. Avoid cranking the arm beyond its natural range of motion—the technique works through positional control, not joint manipulation. When drilling, release immediately if your partner taps or indicates discomfort in the shoulder.",
+    "clips": [
+      {
+        "id": "eKTd-9SkrVk",
+        "title": "Taking the back from the gift wrap",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 81,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "EOv5GYpUYDw",
+        "title": "Gift wrap back take",
+        "by": "BJJ Lab Zürich",
+        "vertical": false,
+        "channel": "BJJ Lab Zürich",
+        "duration": 69,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "-ypj83J2Ngk",
+        "title": "Sit back gift wrap to the back",
+        "by": "Watauga BJJ",
+        "vertical": false,
+        "channel": "Watauga BJJ",
+        "duration": 24,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Gift Wrap to Back Defender",

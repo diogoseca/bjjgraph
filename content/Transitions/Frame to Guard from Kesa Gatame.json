@@ -286,7 +286,36 @@
         "answer": "In gi, secure a collar grip with your far hand and a sleeve grip with your near hand to control their posture and prevent disengagement for passing. In no-gi, establish a collar tie behind their neck with one hand and wrist control with the other. These grips serve the dual purpose of preventing immediate re-passing attempts and setting up your offensive guard game with sweeps and submissions, transforming the situation from a defensive recovery into an offensive engagement."
       }
     ],
-    "safety_considerations": "Frame placement against the opponent's face must be controlled to avoid eye gouging or excessive pressure on the throat. Always frame against the jawline and cheekbone area rather than directly against the eyes or trachea. During training, communicate with your partner about frame pressure intensity and adjust based on their feedback. When drilling with newer practitioners, emphasize controlled frame placement to prevent accidental injury to the face and neck area. If you feel your partner's neck being compressed dangerously during frame application, adjust your angle immediately."
+    "safety_considerations": "Frame placement against the opponent's face must be controlled to avoid eye gouging or excessive pressure on the throat. Always frame against the jawline and cheekbone area rather than directly against the eyes or trachea. During training, communicate with your partner about frame pressure intensity and adjust based on their feedback. When drilling with newer practitioners, emphasize controlled frame placement to prevent accidental injury to the face and neck area. If you feel your partner's neck being compressed dangerously during frame application, adjust your angle immediately.",
+    "clips": [
+      {
+        "id": "fvp5_BVEtLg",
+        "title": "Framing against kesa gatame pressure",
+        "by": "Kohbukan Sisu",
+        "vertical": false,
+        "channel": "Kohbukan Sisu",
+        "duration": 84,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "5eAmcE9UXNc",
+        "title": "Modified kesa gatame escape",
+        "by": "Shane Moore",
+        "vertical": false,
+        "channel": "Shane Moore Jiu Jitsu",
+        "duration": 126,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "u4mzEqzqoAU",
+        "title": "Modified scarf hold escape step by step",
+        "by": "Knots and Collar",
+        "vertical": false,
+        "channel": "Knots and Collar",
+        "duration": 208,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Frame to Guard from Kesa Gatame Defender",
@@ -400,6 +429,35 @@
         "phase": "Live Positional Sparring",
         "focus": "Full resistance application and retention metrics",
         "description": "Start in Kesa Gatame with partner attempting any escape at full resistance. Practice maintaining position against frame escapes specifically, flowing between frame counter-pressure, arm control, and mount transitions as the situation demands. Track position retention rate and identify patterns in losses to refine your defensive responses."
+      }
+    ],
+    "clips": [
+      {
+        "id": "yjQHCaCmhyo",
+        "title": "Beating an opponent who stiff arms and frames",
+        "by": "Travis Stevens",
+        "vertical": false,
+        "channel": "Travis Stevens",
+        "duration": 114,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "TfNpVcekHGg",
+        "title": "Kesa gatame scarf hold control",
+        "by": "Grappler Station",
+        "vertical": false,
+        "channel": "Grappler Station",
+        "duration": 121,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "P64g72jM_co",
+        "title": "Side control to kesa pressure transition",
+        "by": "Carlos Machado",
+        "vertical": false,
+        "channel": "Carlos Machado",
+        "duration": 221,
+        "verified": "2026-07-15"
       }
     ]
   }

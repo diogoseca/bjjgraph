@@ -278,7 +278,27 @@
         "answer": "Assess why the attempt failed by identifying whether it was a timing issue, grip acquisition problem, or opponent recognition of the transition. Check that your lapel wrap is still functional and retighten if needed. Evaluate whether the opponent has adjusted their arm defense to specifically counter sleeve grips. Consider varying your approach by trying the hybrid variant or lasso detour on the next attempt to avoid being predictable."
       }
     ],
-    "safety_considerations": "This transition involves grip changes and position shifts that carry minimal direct injury risk compared to submissions or joint locks. However, practitioners should exercise caution with foot placement on biceps to avoid accidental contact with the training partner's face or eyes during the repositioning phase. Communicate with training partners during initial drill phases when practicing the grip exchange sequence. Avoid explosive foot movements near the opponent's face. If grip fatigue develops during repeated drilling, rest to prevent finger and forearm strain that can lead to overuse injuries."
+    "safety_considerations": "This transition involves grip changes and position shifts that carry minimal direct injury risk compared to submissions or joint locks. However, practitioners should exercise caution with foot placement on biceps to avoid accidental contact with the training partner's face or eyes during the repositioning phase. Communicate with training partners during initial drill phases when practicing the grip exchange sequence. Avoid explosive foot movements near the opponent's face. If grip fatigue develops during repeated drilling, rest to prevent finger and forearm strain that can lead to overuse injuries.",
+    "clips": [
+      {
+        "id": "RKSB3YVVxTQ",
+        "title": "Keymaster Guard to Spider Guard Sweep",
+        "by": "UFAI Grappling",
+        "vertical": false,
+        "channel": "UFAI GRAPPLING",
+        "duration": 20,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2j0T2PHb1z4",
+        "title": "Spider Guard Overhead Sweep to Knee on Belly",
+        "by": "Evolve MMA",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 43,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Ringworm to Spider Guard Defender",
@@ -398,6 +418,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance defense and counter-passing",
         "description": "Begin with partner in established Ringworm Guard. Partner chooses when to initiate the Spider Guard transition. You must both defend the transition and capitalize on any openings to advance your passing position. Track outcomes across multiple rounds to identify defensive success patterns."
+      }
+    ],
+    "clips": [
+      {
+        "id": "jhNqsGmnJX4",
+        "title": "Throw Pass Against Spider Guard",
+        "by": "Ultra Jiu Jitsu Academy",
+        "vertical": false,
+        "channel": "Ultra Jiu Jitsu Academy",
+        "duration": 76,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Bp0v7c_MrbY",
+        "title": "Correct Feet on Biceps Position and Counters",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 125,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8IGX--2XTos",
+        "title": "Throw By Pass Against Spider Guard",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 149,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -303,7 +303,36 @@
         "answer": "The most common mistake is releasing sleeve tension during the hip pivot to focus on the leg swing. Practitioners often loosen their grip momentarily as they concentrate on swinging the leg over, creating a window where the opponent can retract their elbow and extract the arm. The correction is to maintain constant pulling tension on the sleeve grip throughout the entire pivot and leg swing, treating the grip as a fixed anchor point. Your pulling hand should actually increase tension during the swing to counteract the natural tendency to loosen it. The leg swing and grip maintenance must be trained as a simultaneous action, not sequential steps."
       }
     ],
-    "safety_considerations": "The omoplata sweep involves significant rotational force on the opponent's shoulder and should be practiced with controlled execution. During drilling, execute the sweep at moderate speed until both partners understand the mechanics. Sudden explosive sweeps can cause the person being swept to land awkwardly on their shoulder or neck. The person being swept should practice proper breakfall technique and communicate if the rotation feels unsafe. For the person executing the sweep, maintain the omoplata position without applying excessive pressure during drilling, as the shoulder is vulnerable throughout the movement. Avoid cranking or jerking the trapped arm at any point. When practicing with resistance, both partners should establish clear tap signals, and the person being swept should tap if shoulder pressure becomes uncomfortable. Never apply the sweep at competition speed during initial learning phases."
+    "safety_considerations": "The omoplata sweep involves significant rotational force on the opponent's shoulder and should be practiced with controlled execution. During drilling, execute the sweep at moderate speed until both partners understand the mechanics. Sudden explosive sweeps can cause the person being swept to land awkwardly on their shoulder or neck. The person being swept should practice proper breakfall technique and communicate if the rotation feels unsafe. For the person executing the sweep, maintain the omoplata position without applying excessive pressure during drilling, as the shoulder is vulnerable throughout the movement. Avoid cranking or jerking the trapped arm at any point. When practicing with resistance, both partners should establish clear tap signals, and the person being swept should tap if shoulder pressure becomes uncomfortable. Never apply the sweep at competition speed during initial learning phases.",
+    "clips": [
+      {
+        "id": "Ar2oa-jV9-Y",
+        "title": "Omoplata sweep from guard",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 50,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "oQAP8nARiHU",
+        "title": "Clark Gracie omoplata breakdown",
+        "by": "Clark Gracie",
+        "vertical": false,
+        "channel": "Deep Dive JJ",
+        "duration": 100,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "GDXF6brOcjw",
+        "title": "Omoplata and log roll sweep",
+        "by": "PAC Jiu-Jitsu",
+        "vertical": false,
+        "channel": "PAC Jiu-Jitsu",
+        "duration": 108,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Omoplata Sweep Defender",
@@ -424,6 +453,26 @@
         "phase": "Phase 4: Live Defense Integration (Weeks 10+)",
         "focus": "Applying all defensive options under full resistance in positional sparring",
         "description": "Positional sparring starting from closed guard where partner actively hunts the omoplata sweep and related attacks. Practice the full defensive decision tree: early extraction, base management, forward roll, and scramble recovery. Track which defensive responses succeed against different partners and refine timing. Integrate omoplata sweep defense into regular rolling sessions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Y4TxL4mDSKg",
+        "title": "Defending the omoplata sweep",
+        "by": "Ninja Pinto",
+        "vertical": false,
+        "channel": "Ninja Pinto BJJ",
+        "duration": 47,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "kNfVYhZbgrg",
+        "title": "Four levels of sweep defense",
+        "by": "Wim Deputter",
+        "vertical": false,
+        "channel": "Wim Deputter BJJ",
+        "duration": 87,
+        "verified": "2026-07-15"
       }
     ]
   },

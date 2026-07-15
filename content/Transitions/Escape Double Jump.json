@@ -289,7 +289,36 @@
         "answer": "Choose the knee shield recovery variant when the opponent is applying very heavy forward pressure that threatens to flatten you during the extraction. The knee shield provides superior structural defense against forward drive compared to standard half guard hooks. It is also preferable when you need more time to consolidate because the knee shield creates greater distance and prevents the immediate chest-to-chest pressure that makes standard half guard difficult to hold against aggressive passers."
       }
     ],
-    "safety_considerations": "Escape Double Jump is a low-risk positional transition that does not involve joint locks or chokes. The primary safety concern is neck strain from heavy crossface pressure during the escape. If your training partner applies excessive crossface force during drilling, communicate immediately. During the leg extraction phase, be mindful of knee positioning to avoid catching your foot or ankle in an awkward angle as you retract from underneath your partner's base. When drilling with significant resistance, ensure both partners understand the escape sequence to prevent inadvertent knee torque from unexpected movements."
+    "safety_considerations": "Escape Double Jump is a low-risk positional transition that does not involve joint locks or chokes. The primary safety concern is neck strain from heavy crossface pressure during the escape. If your training partner applies excessive crossface force during drilling, communicate immediately. During the leg extraction phase, be mindful of knee positioning to avoid catching your foot or ankle in an awkward angle as you retract from underneath your partner's base. When drilling with significant resistance, ensure both partners understand the escape sequence to prevent inadvertent knee torque from unexpected movements.",
+    "clips": [
+      {
+        "id": "5sdZak2bil4",
+        "title": "Half Guard: Reclaim Closed Guard",
+        "by": "Daniel Lima",
+        "vertical": false,
+        "channel": "Daniel Lima",
+        "duration": 26,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "BhNZGloJ56c",
+        "title": "Guard Recovery Trick When You Get Smashed",
+        "by": "Finesse Jiu-Jitsu HTX",
+        "vertical": false,
+        "channel": "FINESSE JIUJITSU HTX",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QH9-1I5XqO4",
+        "title": "Side Control Bottom: Guard Recovery vs Cross Face",
+        "by": "Academy Jiu Jitsu",
+        "vertical": false,
+        "channel": "Academy Jiu Jitsu",
+        "duration": 105,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Escape Double Jump Defender",
@@ -410,6 +439,26 @@
         "phase": "Passing chain development",
         "focus": "Chaining counters against the retreating guard",
         "description": "After defending the double jump and recognizing the escape, chain 3-4 passing attempts against the retreating bottom player. Practice flowing from crossface pressure to knee slice to backstep to smash pass based on the bottom player's defensive reactions during and after the escape."
+      }
+    ],
+    "clips": [
+      {
+        "id": "8WbQvytyCX0",
+        "title": "How to Pass the Flat Half Guard",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 63,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "o3PZRQSZStQ",
+        "title": "Guard Passing Tip to Shut Down Recovery",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 84,
+        "verified": "2026-07-15"
       }
     ]
   }

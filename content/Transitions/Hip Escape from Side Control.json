@@ -299,7 +299,36 @@
         "answer": "Adopt the 80/20 approach: spend 80% of the time in energy-conserving defensive posture maintaining frames and controlled breathing, and commit full effort only during genuine timing windows that represent the remaining 20% of the time. Between escape attempts, focus on breathing recovery and frame maintenance rather than constant movement. Each escape attempt should be a committed, multi-shrimp sequence rather than half-hearted single movements that waste energy without result. Recognize that failed attempts are not wasted if they force the opponent to adjust, as these adjustments often create the timing windows for subsequent attempts."
       }
     ],
-    "safety_considerations": "The hip escape from side control consolidation carries moderate physical risk primarily to the neck and shoulders. Avoid explosive bridging movements without proper head positioning, as forced bridges under heavy crossface pressure can strain the cervical spine. If the opponent's crossface is extremely deep and restricting breathing, prioritize frame creation for breathing space before attempting the full escape sequence. During training, communicate with partners about pressure intensity to prevent rib compression injuries. Practitioners with existing neck or shoulder injuries should modify the bridge height and focus on shrimping-dominant variants that reduce cervical loading."
+    "safety_considerations": "The hip escape from side control consolidation carries moderate physical risk primarily to the neck and shoulders. Avoid explosive bridging movements without proper head positioning, as forced bridges under heavy crossface pressure can strain the cervical spine. If the opponent's crossface is extremely deep and restricting breathing, prioritize frame creation for breathing space before attempting the full escape sequence. During training, communicate with partners about pressure intensity to prevent rib compression injuries. Practitioners with existing neck or shoulder injuries should modify the bridge height and focus on shrimping-dominant variants that reduce cervical loading.",
+    "clips": [
+      {
+        "id": "4L25UQntnPg",
+        "title": "Reverse hip escape from side control",
+        "by": "Fox Den coach",
+        "vertical": false,
+        "channel": "Fox Den Martial Arts",
+        "duration": 25,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "br0-osUjx7c",
+        "title": "Hip escape to guard recovery",
+        "by": "Science of JiuJitsu coach",
+        "vertical": false,
+        "channel": "Science Of JiuJitsu",
+        "duration": 42,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QH9-1I5XqO4",
+        "title": "Guard recovery from bottom side control",
+        "by": "Academy Jiu Jitsu coach",
+        "vertical": false,
+        "channel": "Academy Jiu Jitsu",
+        "duration": 105,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Hip Escape from Side Control Defender",
@@ -420,6 +449,17 @@
         "phase": "Phase 4: Live Pressure Testing",
         "focus": "Full resistance retention and counter-attacking",
         "description": "Positional sparring where partner uses full resistance hip escape attempts and you maintain consolidated side control or advance. Track how many escape attempts you successfully counter per round and whether you can convert attempts into mount advancement. Identify which opponent body types or styles give you the most difficulty."
+      }
+    ],
+    "clips": [
+      {
+        "id": "T1LCZzkhG80",
+        "title": "Maintaining side control against the hip escape",
+        "by": "Reding Martial Arts coach",
+        "vertical": false,
+        "channel": "Reding Martial Arts",
+        "duration": 162,
+        "verified": "2026-07-15"
       }
     ]
   }

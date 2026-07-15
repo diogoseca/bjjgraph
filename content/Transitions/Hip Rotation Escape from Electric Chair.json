@@ -277,7 +277,18 @@
         "answer": "From turtle, the primary options are: granby roll to guard recovery if the opponent's weight is high on your back, technical standup if the opponent has poor hip control, sit-through to half guard if the opponent is committed to one side, and Peterson roll if they have a loose harness grip. Selection depends on the opponent's weight distribution and grip establishment in the first two seconds after arrival. If their weight is forward and high, granby roll is highest percentage. If they are still adjusting their position and grips are loose, the technical standup provides the cleanest exit."
       }
     ],
-    "safety_considerations": "The hip rotation involves significant torque on both knees and the lower back during the transition from lockdown configuration to turtle position. Practitioners must ensure the lockdown is properly released before rotating to avoid knee ligament strain from the figure-four being torqued during rotation. The exposed neck during mid-rotation is vulnerable to front headlock attacks, so always tuck the chin and protect the neck throughout the movement. Train this technique progressively with cooperative partners before adding resistance, and never force the rotation against a fully committed opponent pinning you flat, as this risks shoulder and neck injury."
+    "safety_considerations": "The hip rotation involves significant torque on both knees and the lower back during the transition from lockdown configuration to turtle position. Practitioners must ensure the lockdown is properly released before rotating to avoid knee ligament strain from the figure-four being torqued during rotation. The exposed neck during mid-rotation is vulnerable to front headlock attacks, so always tuck the chin and protect the neck throughout the movement. Train this technique progressively with cooperative partners before adding resistance, and never force the rotation against a fully committed opponent pinning you flat, as this risks shoulder and neck injury.",
+    "clips": [
+      {
+        "id": "3A6oRsDf3oU",
+        "title": "Lockdown and electric chair counters and escapes",
+        "by": "Street Jitsu",
+        "vertical": false,
+        "channel": "Street Jitsu",
+        "duration": 286,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Hip Rotation Escape from Electric Chair Defender",
@@ -389,6 +400,26 @@
         "phase": "Phase 3: Positional Sparring",
         "focus": "Full resistance scenario training",
         "description": "Start in electric chair top position with partner having full grip establishment. Partner chooses between continuing the attack or bailing out to hip rotation escape. Practice defending the electric chair while staying ready to capitalize on any escape attempt. Reset after pass, sweep, or escape to guard."
+      }
+    ],
+    "clips": [
+      {
+        "id": "9CxxyZEd7-E",
+        "title": "Electric chair sweep technique breakdown",
+        "by": "Asaf Mich",
+        "vertical": false,
+        "channel": "Asaf Mich",
+        "duration": 76,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "adarj-QUB4Y",
+        "title": "Electric chair sweep from lockdown",
+        "by": "Moncaio Brothers Jiujitsu",
+        "vertical": false,
+        "channel": "Moncaio Brothers Jiujitsu",
+        "duration": 47,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -301,7 +301,27 @@
         "answer": "Against double underhooks, you cannot establish inside frames on the chest because their arms are inside yours. Instead, use overhooks to control their biceps, widen your stance to prevent lifting, and work to re-pummel one underhook before attempting separation. The break from double underhooks often requires the underhook peel variant where you recover one underhook and use it as leverage. Against a collar tie, your inside position is available but you must first strip the collar tie grip to prevent snap-downs during the push-off. The frame-and-push break works well against collar ties once the head control is neutralized, because the opponent's remaining control is usually a single wrist grip that provides limited re-engagement capacity."
       }
     ],
-    "safety_considerations": "The clinch break involves explosive backward movement that can cause collisions with walls, other practitioners, or equipment if spatial awareness is not maintained. During training, ensure adequate space behind you before attempting full-speed breaks. Neck strain is a risk when opponents apply snap-downs during failed break attempts, so develop neck strength progressively and tap early to any uncomfortable head or neck pressure during drilling. Avoid hyperextending elbows when pushing against a resisting opponent by keeping arms slightly bent throughout the frame phase."
+    "safety_considerations": "The clinch break involves explosive backward movement that can cause collisions with walls, other practitioners, or equipment if spatial awareness is not maintained. During training, ensure adequate space behind you before attempting full-speed breaks. Neck strain is a risk when opponents apply snap-downs during failed break attempts, so develop neck strength progressively and tap early to any uncomfortable head or neck pressure during drilling. Avoid hyperextending elbows when pushing against a resisting opponent by keeping arms slightly bent throughout the frame phase.",
+    "clips": [
+      {
+        "id": "yEGyEjjgkKU",
+        "title": "Clearing the neck tie to break the clinch",
+        "by": "CSW Association",
+        "vertical": false,
+        "channel": "CSW Association",
+        "duration": 83,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "jTk5AaZd1Rc",
+        "title": "Breaking a collar grip with technique, not strength",
+        "by": "Travis Stevens",
+        "vertical": false,
+        "channel": "Travis Stevens",
+        "duration": 113,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Break Clinch Defender",
@@ -423,6 +443,17 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Maintaining clinch control under full resistance break attempts",
         "description": "Full-speed positional sparring where the opponent's sole objective is to break the clinch and your objective is to maintain control or advance to a dominant position. Track success rates and identify which break variants give you the most trouble for targeted improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "BhFDcDU7oX0",
+        "title": "Maintaining the body lock clinch",
+        "by": "Nicky Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 123,
+        "verified": "2026-07-15"
       }
     ]
   }

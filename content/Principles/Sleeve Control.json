@@ -441,5 +441,34 @@
       "question": "Why grip with skeletal structure rather than arm muscles alone?",
       "answer": "Pure muscular gripping fatigues quickly and fails as the match wears on; connecting the grip through elbow position and body angles lets your skeleton hold tension efficiently."
     }
+  ],
+  "clips": [
+    {
+      "id": "1szGHQx-dv0",
+      "title": "The missing aspect of sleeve gripping in guard",
+      "by": "Jon Thomas",
+      "vertical": false,
+      "channel": "JonThomasBJJ",
+      "duration": 80,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "SehIaBibwYY",
+      "title": "Three attacks from collar and sleeve guard",
+      "by": "Giancarlo Bodoni",
+      "vertical": false,
+      "channel": "Giancarlo Bodoni",
+      "duration": 16,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "TCinYYTF2BA",
+      "title": "Sleeve control when they stand in closed guard",
+      "by": "Jean Jacques Machado",
+      "vertical": false,
+      "channel": "JeanJacquesMachado",
+      "duration": 54,
+      "verified": "2026-07-15"
+    }
   ]
 }

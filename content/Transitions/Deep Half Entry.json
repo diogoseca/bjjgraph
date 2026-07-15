@@ -326,7 +326,36 @@
         "answer": "The direction of force changes from lateral to diagonal to rotational. Initially, you apply lateral force through the hip escape to create the entry angle. During the dive, force becomes diagonal as you thread underneath at an angle toward the opponent's far hip. Once established in deep half, force becomes rotational as your shoulder wedge and underhook create the circular leverage needed for sweeps. Understanding this force progression helps you apply the right type of pressure at each phase."
       }
     ],
-    "safety_considerations": "Deep half entry is generally a low-risk technique when practiced with proper progression and control. The primary safety considerations include protecting your neck during rotation by maintaining good posture and not allowing your head to be pushed into dangerous angles. Beginners should avoid forcing the entry against heavy resistance until they have developed proper mechanics, as this can result in neck strain. When drilling, partners should apply gradual resistance rather than explosive movements to allow the practitioner to develop timing safely. Pay particular attention to your bottom shoulder during the rotation: ensure you are rotating on your shoulder blade rather than the tip of the shoulder to avoid joint stress. During live training, if you find yourself stuck mid-rotation with opponent applying heavy pressure, do not continue forcing the movement. Instead, work back to half guard or accept the positional disadvantage and focus on guard recovery. Practitioners with shoulder injuries should consult with their instructor before drilling deep half entries extensively, as the rotation places significant load through the bottom shoulder."
+    "safety_considerations": "Deep half entry is generally a low-risk technique when practiced with proper progression and control. The primary safety considerations include protecting your neck during rotation by maintaining good posture and not allowing your head to be pushed into dangerous angles. Beginners should avoid forcing the entry against heavy resistance until they have developed proper mechanics, as this can result in neck strain. When drilling, partners should apply gradual resistance rather than explosive movements to allow the practitioner to develop timing safely. Pay particular attention to your bottom shoulder during the rotation: ensure you are rotating on your shoulder blade rather than the tip of the shoulder to avoid joint stress. During live training, if you find yourself stuck mid-rotation with opponent applying heavy pressure, do not continue forcing the movement. Instead, work back to half guard or accept the positional disadvantage and focus on guard recovery. Practitioners with shoulder injuries should consult with their instructor before drilling deep half entries extensively, as the rotation places significant load through the bottom shoulder.",
+    "clips": [
+      {
+        "id": "Dalv3UtxCZ0",
+        "title": "Entering deep half guard from knee on belly",
+        "by": "Team Daruma Dojo",
+        "vertical": false,
+        "channel": "Team Daruma Dojo",
+        "duration": 68,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_IGB9jEvXfo",
+        "title": "Low grip and high grip for deep half guard",
+        "by": "Jeff Glover",
+        "vertical": false,
+        "channel": "The Jiu Jitsu Encyclopedia",
+        "duration": 42,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "FP3SqS8ys7U",
+        "title": "Three effective deep half guard entries",
+        "by": "DVG Jiu Jitsu",
+        "vertical": false,
+        "channel": "DVG JIU JITSU",
+        "duration": 161,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Deep Half Entry Defender",
@@ -472,6 +501,35 @@
         "phase": "Week 9-12: Live Positional Sparring",
         "focus": "Defending deep half entry under full resistance",
         "description": "Positional sparring from half guard top. Partner specifically targets deep half entry while you work to prevent it and pass. 3-minute rounds. Track how often the entry succeeds versus how often you shut it down. Identify which defensive timing gives you the best results against different body types and entry styles."
+      }
+    ],
+    "clips": [
+      {
+        "id": "qqheiIgQrfY",
+        "title": "Passing against the deep half guard entry",
+        "by": "Koji Shibamoto",
+        "vertical": false,
+        "channel": "トライフォース柔術アカデミー / Tri-force Jiu-jitsu Academy",
+        "duration": 33,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dOdO6xJ-TcU",
+        "title": "Stopping the half guard underhook that feeds deep half",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 98,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "K0XMj9BNJ8U",
+        "title": "Knee slide pass counter to deep half entry",
+        "by": "Scott Ryan Chiriboga",
+        "vertical": false,
+        "channel": "Scott Ryan Chiriboga",
+        "duration": 133,
+        "verified": "2026-07-15"
       }
     ]
   },

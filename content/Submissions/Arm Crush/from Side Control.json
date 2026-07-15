@@ -343,6 +343,35 @@
         "answer": "Several indicators signal imminent submission: the opponent's trapped arm goes completely rigid as they involuntarily brace against the pressure, their breathing becomes audible and strained due to chest compression, their free hand begins frantically searching for your grip or their own arm rather than attempting positional escapes, and their body stiffens into a defensive arch. You will also feel the shoulder joint reaching its structural limit through your grip - a subtle grinding sensation transmitted through the figure-four as the rotator cuff tendons approach their maximum tolerance.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "lN8yn5YaMi0",
+        "title": "Cradle from side control to armbar shoulder lock",
+        "by": "Andy Tong",
+        "vertical": false,
+        "channel": "Andy Tong",
+        "duration": 42,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "RFkSf7gQ18E",
+        "title": "Arm crush armbar",
+        "by": "AMAZIN BJJ",
+        "vertical": false,
+        "channel": "AMAZIN BJJ",
+        "duration": 65,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "LUxMvOFbxIY",
+        "title": "Killing the near side arm from side control",
+        "by": "Inverted Gear",
+        "vertical": false,
+        "channel": "Inverted Gear",
+        "duration": 123,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -470,6 +499,35 @@
         "phase": "Phase 4: Live Positional Sparring with Tap Awareness",
         "focus": "Full resistance defense with safety-first tap decisions",
         "description": "Start from side control with partner attacking the Arm Crush among other submissions. Defender uses full defensive toolkit including early extraction, bridge defense, and positional escapes. Emphasize tapping immediately when the submission is fully locked rather than fighting through dangerous pressure. Review each round for recognition timing and decision quality."
+      }
+    ],
+    "clips": [
+      {
+        "id": "vg8z-4ENucg",
+        "title": "Side control escape to submission",
+        "by": "Fit To Fight",
+        "vertical": false,
+        "channel": "Fit To Fight Republic",
+        "duration": 122,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "lvAmtGuetEI",
+        "title": "Side control escape when you're getting crushed",
+        "by": "AMAZIN BJJ",
+        "vertical": false,
+        "channel": "AMAZIN BJJ",
+        "duration": 174,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "RnXjO_-Ayr8",
+        "title": "Side control escape - grips in detail",
+        "by": "Wim Deputter",
+        "vertical": false,
+        "channel": "Wim Deputter BJJ",
+        "duration": 286,
+        "verified": "2026-07-14"
       }
     ]
   },

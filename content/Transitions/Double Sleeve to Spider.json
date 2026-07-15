@@ -286,7 +286,36 @@
         "answer": "Follow their arm retraction by sitting up immediately, using the sleeve grips to maintain connection. Their backward pull compromises their base and creates sweep opportunities. Attack with a tripod sweep by placing one foot on their hip and the other behind their knee while they are leaning backward. Alternatively, use their retraction to come to a seated position for a technical standup, as their arms are too retracted to prevent your elevation."
       }
     ],
-    "safety_considerations": "The Double Sleeve to Spider transition is a low-risk guard transition with minimal injury potential. However, practitioners should be aware that aggressive pulling on sleeve grips can cause finger strain over extended training sessions. Use proper four-finger pistol grips rather than death-gripping to preserve finger joint health. If you feel your grips weakening due to fatigue, transition to a less grip-dependent guard rather than fighting through pain. Partners should communicate if sleeve pressure causes discomfort at the elbow or wrist joints."
+    "safety_considerations": "The Double Sleeve to Spider transition is a low-risk guard transition with minimal injury potential. However, practitioners should be aware that aggressive pulling on sleeve grips can cause finger strain over extended training sessions. Use proper four-finger pistol grips rather than death-gripping to preserve finger joint health. If you feel your grips weakening due to fatigue, transition to a less grip-dependent guard rather than fighting through pain. Partners should communicate if sleeve pressure causes discomfort at the elbow or wrist joints.",
+    "clips": [
+      {
+        "id": "UiLkVg7by60",
+        "title": "Double sleeve guard sweep",
+        "by": "Han Bin Seo",
+        "vertical": false,
+        "channel": "서한빈",
+        "duration": 16,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "WQcr_6wkXo8",
+        "title": "Spider guard double sleeve triangle choke",
+        "by": "Ritchie Yip",
+        "vertical": false,
+        "channel": "Ritchie Yip",
+        "duration": 25,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "CphfVS-0W6Y",
+        "title": "Spider guard sweep to one leg X sweep to side control",
+        "by": "Lucas Lepri",
+        "vertical": false,
+        "channel": "Lucas Lepri Brazilian Jiu Jitsu & Fitness",
+        "duration": 35,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Double Sleeve to Spider Defender",
@@ -411,6 +440,35 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Full resistance transition defense",
         "description": "Positional sparring where the bottom player starts in double sleeve guard and attempts to establish spider guard. You must prevent the transition and advance to a passing position. Track success rate and refine timing. Progress to open sparring scenarios where the transition can happen at any time."
+      }
+    ],
+    "clips": [
+      {
+        "id": "hELDQRRa8iw",
+        "title": "Throw-by trick to pass sticky guards",
+        "by": "Gold BJJ",
+        "vertical": false,
+        "channel": "Gold BJJ",
+        "duration": 156,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "XK-wLG3B0xU",
+        "title": "How to pass the spider guard",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ Plus",
+        "duration": 205,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "wje0dLTWHlo",
+        "title": "Spider guard grip breaks",
+        "by": "Sentosa Martial Arts",
+        "vertical": false,
+        "channel": "Sentosa Martial Arts and Fitness",
+        "duration": 248,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -284,7 +284,27 @@
         "answer": "Execute the transition with smooth controlled movements rather than explosive or jerky repositioning. The leg reconfiguration creates unpredictable angles on the opponent's knee and ankle joints, so controlled speed prevents accidental torque on vulnerable ligament structures. Maintain verbal communication during drilling and never snap rapidly from one configuration to another. The transition should feel like a deliberate gear shift through sequential control replacements, not a sudden violent repositioning."
       }
     ],
-    "safety_considerations": "This transition involves reconfiguration of leg entanglements where knee and ankle injuries are possible during the positional change. Always execute with smooth controlled movements—never jerk or explosively reposition legs during the fallback. The moment of releasing the saddle configuration creates unpredictable angles on the opponent's trapped knee and ankle. Communicate clearly with training partners about pressure levels during drilling. Tap immediately if you feel any rotational stress on the knee during reconfiguration. When first learning, practice at minimal speed with a cooperative partner before adding resistance."
+    "safety_considerations": "This transition involves reconfiguration of leg entanglements where knee and ankle injuries are possible during the positional change. Always execute with smooth controlled movements—never jerk or explosively reposition legs during the fallback. The moment of releasing the saddle configuration creates unpredictable angles on the opponent's trapped knee and ankle. Communicate clearly with training partners about pressure levels during drilling. Tap immediately if you feel any rotational stress on the knee during reconfiguration. When first learning, practice at minimal speed with a cooperative partner before adding resistance.",
+    "clips": [
+      {
+        "id": "HniaoFWTsmI",
+        "title": "Cross ashi and inside sankaku control switch",
+        "by": "Ilya",
+        "vertical": false,
+        "channel": "Ilya's Jiu-Jitsu",
+        "duration": 53,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QfNKQzy3V_w",
+        "title": "Arm saddle to inside heel hook flow drill",
+        "by": "Factory Fresh coach",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 21,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Saddle Fallback to Inside Ashi Defender",
@@ -397,6 +417,35 @@
         "phase": "Phase 4: Full Resistance Positional Sparring",
         "focus": "Live escape attempts during transitions and from established ashi",
         "description": "Positional sparring starting from saddle bottom. Partner attacks from saddle and falls back to ashi when defended. Your objective is to escape during the transition window. If you end up in inside ashi, continue working for escape. Track success rate across multiple rounds to identify which defensive actions produce the highest escape percentage."
+      }
+    ],
+    "clips": [
+      {
+        "id": "L417yCl_-dc",
+        "title": "Leg defense from ashi garami",
+        "by": "The Coop BJJ coach",
+        "vertical": false,
+        "channel": "The Coop BJJ",
+        "duration": 48,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8F_7Y9JpTP0",
+        "title": "Inside ashi leg lock defense",
+        "by": "Nick Ortiz",
+        "vertical": false,
+        "channel": "Tap House Jiu Jitsu",
+        "duration": 101,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QMgsMSTRSBI",
+        "title": "Five leglock counters to ashi garami",
+        "by": "BJJ Black Belt Dad",
+        "vertical": false,
+        "channel": "BJJBlackBeltDad",
+        "duration": 93,
+        "verified": "2026-07-15"
       }
     ]
   }

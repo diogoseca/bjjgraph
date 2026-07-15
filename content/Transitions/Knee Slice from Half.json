@@ -292,7 +292,36 @@
         "answer": "While both involve driving your knee across opponent's legs, the knee slice typically originates from half guard with one leg trapped and emphasizes a cutting motion with your shin bone, whereas the knee cut usually starts from open guard with both legs free and involves cutting with your knee itself at a sharper angle. The knee slice focuses more on upper body control and flattening, while the knee cut often emphasizes hip switch and angle creation. They complement each other in passing systems."
       }
     ],
-    "safety_considerations": "The knee slice pass is generally safe for both practitioners when performed correctly, but several precautions should be observed. The primary safety concern is avoiding excessive pressure on the opponent's jaw with the crossface, particularly in training situations. Apply firm control without cranking their neck or driving upward into their jaw, which can cause neck strain or jaw injuries. When slicing your knee across, be mindful not to drive your knee directly into their thigh muscle with excessive force, as this can cause painful bruising or muscle damage. In no-gi situations, ensure your forearm isn't creating a choke across their throat when establishing the crossface. For the person playing bottom, avoid explosive or jerky movements when defending the pass, as sudden direction changes while your legs are entangled can lead to knee injuries. Both partners should communicate about pressure levels, especially when drilling, and the bottom player should tap if experiencing any sharp pain in their knees or hips during the passing motion."
+    "safety_considerations": "The knee slice pass is generally safe for both practitioners when performed correctly, but several precautions should be observed. The primary safety concern is avoiding excessive pressure on the opponent's jaw with the crossface, particularly in training situations. Apply firm control without cranking their neck or driving upward into their jaw, which can cause neck strain or jaw injuries. When slicing your knee across, be mindful not to drive your knee directly into their thigh muscle with excessive force, as this can cause painful bruising or muscle damage. In no-gi situations, ensure your forearm isn't creating a choke across their throat when establishing the crossface. For the person playing bottom, avoid explosive or jerky movements when defending the pass, as sudden direction changes while your legs are entangled can lead to knee injuries. Both partners should communicate about pressure levels, especially when drilling, and the bottom player should tap if experiencing any sharp pain in their knees or hips during the passing motion.",
+    "clips": [
+      {
+        "id": "yj_6xcl2emA",
+        "title": "Passing half guard knee shield with an inside knee cut",
+        "by": "War Room Jiu Jitsu",
+        "vertical": false,
+        "channel": "War Room Jiu Jitsu",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "kTSMGYlVJKY",
+        "title": "Freeing your trapped foot while passing half guard",
+        "by": "Kameron Ross",
+        "vertical": false,
+        "channel": "Kameron Ross",
+        "duration": 55,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "TIsH40L5AVQ",
+        "title": "Double collar grip to knee slice pass",
+        "by": "Clube De Lutas",
+        "vertical": false,
+        "channel": "Clube De Lutas Australia",
+        "duration": 47,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Knee Slice from Half Defender",
@@ -428,6 +457,26 @@
         "phase": "Phase 5: Live Positional Sparring (Week 9+)",
         "focus": "Full resistance defensive application",
         "description": "Positional rounds starting in half guard bottom against partners who actively hunt the knee slice. Score based on preventing the pass, recovering guard, or reversing position. Develop pattern recognition for when to use each defensive tool and build confidence under real passing pressure from training partners of varying skill levels."
+      }
+    ],
+    "clips": [
+      {
+        "id": "WMcD-_R-To0",
+        "title": "Stopping the pass when stuck under top half guard",
+        "by": "Trapp Martial Arts",
+        "vertical": false,
+        "channel": "Trapp Martial Arts",
+        "duration": 35,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dOdO6xJ-TcU",
+        "title": "Stopping the half guard underhook",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 98,
+        "verified": "2026-07-15"
       }
     ]
   },

@@ -293,7 +293,27 @@
         "answer": "Once Single Leg X is established, your hooks should generate opposing forces on the opponent's hips: the outside hook pushes their far hip away from you while the inside hook pushes their near hip in the opposite direction, creating a scissoring effect that destabilizes their stance laterally. Simultaneously, your hip extension generates upward force that elevates their trapped leg, compromising their base. This three-directional force system - lateral scissor plus vertical elevation - is what makes Single Leg X such an effective sweeping and leg attack platform."
       }
     ],
-    "safety_considerations": "This transition involves rapid hook reconfiguration that can expose your legs to counter-attacks if performed carelessly. Avoid forcing the transition against heavy forward pressure, as this can result in knee strain from your hooks being compressed awkwardly during the reconfiguration. During training, communicate with partners about the speed of their reactions to allow proper technical development before increasing resistance levels. The ankle grip required throughout the transition should be firm but controlled - excessive twisting or cranking on the ankle is unnecessary and risks injury to training partners. When drilling at higher resistance levels, both practitioners should be aware of leg lock entries that may become available during failed transitions and respect tap signals immediately."
+    "safety_considerations": "This transition involves rapid hook reconfiguration that can expose your legs to counter-attacks if performed carelessly. Avoid forcing the transition against heavy forward pressure, as this can result in knee strain from your hooks being compressed awkwardly during the reconfiguration. During training, communicate with partners about the speed of their reactions to allow proper technical development before increasing resistance levels. The ankle grip required throughout the transition should be firm but controlled - excessive twisting or cranking on the ankle is unnecessary and risks injury to training partners. When drilling at higher resistance levels, both practitioners should be aware of leg lock entries that may become available during failed transitions and respect tap signals immediately.",
+    "clips": [
+      {
+        "id": "EcxCadpBePk",
+        "title": "Single leg X, X-guard and reverse X options",
+        "by": "Steven Kaloustian",
+        "vertical": false,
+        "channel": "Steven Kaloustian",
+        "duration": 97,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "V7ND4cpJ2_c",
+        "title": "Single leg X to reverse X to kneebar",
+        "by": "Combat by the Minute",
+        "vertical": false,
+        "channel": "Combat by the Minute",
+        "duration": 117,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Reverse X to Single Leg X Entry Defender",
@@ -423,6 +443,26 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Full resistance positional rounds starting from Reverse X-Guard. Attacker works all transition options while defender applies defensive responses in real time. Alternate roles each round. Focus on reading the attacker's intentions and selecting the correct counter before the reconfiguration window closes."
+      }
+    ],
+    "clips": [
+      {
+        "id": "m1nyuMt3IP4",
+        "title": "Single leg X defense to rolling back take",
+        "by": "Gracie Barra Pymble",
+        "vertical": false,
+        "channel": "Gracie Barra Pymble",
+        "duration": 80,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "e2KVHXnSh_o",
+        "title": "Single leg X counter with heel hook",
+        "by": "Charles Allan Price",
+        "vertical": false,
+        "channel": "Charles Allan Price",
+        "duration": 75,
+        "verified": "2026-07-15"
       }
     ]
   }

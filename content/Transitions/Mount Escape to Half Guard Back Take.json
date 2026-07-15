@@ -251,7 +251,27 @@
         "answer": "From dogfight with your underhook established, you have several high-percentage options: continue fighting the underhook battle and re-attempt the back circle when they overcommit to re-pummeling, execute a standard dogfight sweep by driving into them and lifting their trapped leg to come up on top to side control, transition to a single leg takedown by dropping your level and attacking their posted leg, or pull them into deep half guard by sitting back under them. The dogfight is not a dead end—it is a branching point with multiple offensive pathways, all of which are superior to the mount bottom you started from."
       }
     ],
-    "safety_considerations": "This is a positional chain technique with minimal inherent injury risk. The primary safety consideration is controlling the bridge during the initial mount escape to avoid injuring training partners. Bridge with controlled force during drilling and communicate with partners about intensity levels. During the back take phase, be careful not to crank the neck when driving your head into the opponent's armpit area. In competition, be aware that the multi-step nature of this technique requires sustained physical effort."
+    "safety_considerations": "This is a positional chain technique with minimal inherent injury risk. The primary safety consideration is controlling the bridge during the initial mount escape to avoid injuring training partners. Bridge with controlled force during drilling and communicate with partners about intensity levels. During the back take phase, be careful not to crank the neck when driving your head into the opponent's armpit area. In competition, be aware that the multi-step nature of this technique requires sustained physical effort.",
+    "clips": [
+      {
+        "id": "cyegyon5hVg",
+        "title": "Two mount escape options into half guard",
+        "by": "Revolution BJJ coach",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "XqH1Bt0-AgY",
+        "title": "Back take from half guard",
+        "by": "BJJ Recap coach",
+        "vertical": false,
+        "channel": "BJJ Recap",
+        "duration": 39,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Mount Escape to Half Guard Back Take Defender",
@@ -357,6 +377,17 @@
         "phase": "Phase 3: Bait Recognition",
         "focus": "Identifying when leg extraction is a trap",
         "description": "Partner randomly uses either defensive half guard or bait half guard. You must read the situation and either pass or consolidate accordingly. Develop the decision-making to avoid the trap."
+      }
+    ],
+    "clips": [
+      {
+        "id": "hHbb7ywVTwU",
+        "title": "Countering the half guard back take from the top",
+        "by": "JiuJitsu.com coach",
+        "vertical": false,
+        "channel": "JiuJitsu.com",
+        "duration": 63,
+        "verified": "2026-07-15"
       }
     ]
   },

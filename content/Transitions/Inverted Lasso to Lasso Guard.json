@@ -286,7 +286,18 @@
         "answer": "The transition maintains all control elements including lasso hook, sleeve grip, and distance management while changing the attack angle. Unlike a true retreat where you lose position and control, this recovery preserves offensive capability throughout and arrives in a position with different but equally dangerous attacking options. The standard lasso guard offers sickle sweeps, triangles, and omoplatas that complement the berimbolo and overhead sweeps available from inverted lasso, making the combination a complete offensive system."
       }
     ],
-    "safety_considerations": "The primary safety concern during this transition is cervical spine loading. When rotating from inverted to upright, weight must remain on the shoulders and upper back, never concentrating on the neck vertebrae. Practitioners with limited neck mobility or any cervical spine history should use the controlled roll-through variant rather than the quick hip switch. Additionally, the lasso hook creates stress on the opponent's shoulder joint - maintain awareness of your partner's flexibility limitations and avoid cranking the lasso aggressively during the transition when the angle changes may unexpectedly increase rotational force on their trapped arm. Always warm up the neck and spine before drilling inverted guard transitions."
+    "safety_considerations": "The primary safety concern during this transition is cervical spine loading. When rotating from inverted to upright, weight must remain on the shoulders and upper back, never concentrating on the neck vertebrae. Practitioners with limited neck mobility or any cervical spine history should use the controlled roll-through variant rather than the quick hip switch. Additionally, the lasso hook creates stress on the opponent's shoulder joint - maintain awareness of your partner's flexibility limitations and avoid cranking the lasso aggressively during the transition when the angle changes may unexpectedly increase rotational force on their trapped arm. Always warm up the neck and spine before drilling inverted guard transitions.",
+    "clips": [
+      {
+        "id": "n4ddjzGemrw",
+        "title": "Lasso guard variations and how to establish them",
+        "by": "Felipe Costa",
+        "vertical": false,
+        "channel": "Felipe Costa",
+        "duration": 28,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Inverted Lasso to Lasso Guard Defender",
@@ -399,6 +410,17 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance decision-making against the transition",
         "description": "Start from established inverted lasso guard with both players at full resistance. Top player attempts to exploit the transition window whenever the bottom player recovers to standard lasso. Bottom player can attack from both positions. Develops real-time pattern recognition and counter-selection against unpredictable guard play."
+      }
+    ],
+    "clips": [
+      {
+        "id": "9sQAn2ESkMU",
+        "title": "Passing lasso guard through to the back",
+        "by": "Gabriel Sousa",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 113,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -284,7 +284,36 @@
         "answer": "Skeletal alignment creates a structural barrier that transfers load through bone rather than through muscle contraction. Bones can sustain compressive forces indefinitely without fatigue, while muscles fatigue rapidly under sustained isometric contraction. A frame built on ulna-to-bone contact maintains structural integrity for the duration needed without energy cost, while muscular pushing exhausts the forearm within seconds under heavy Shoulder of Justice pressure."
       }
     ],
-    "safety_considerations": "The Frame from Shoulder of Justice involves sustained jaw and temporomandibular joint pressure that can cause discomfort and potential injury if the top player applies excessive force. During training, communicate with your partner about pressure intensity and establish tap signals for pressure reduction. Practitioners with pre-existing TMJ conditions, cervical spine issues, or jaw injuries should inform partners before drilling. Begin with light pressure and increase gradually across sessions. Never attempt to power through neck pain during frame insertion, as cervical strain can result from improper head positioning under heavy shoulder pressure."
+    "safety_considerations": "The Frame from Shoulder of Justice involves sustained jaw and temporomandibular joint pressure that can cause discomfort and potential injury if the top player applies excessive force. During training, communicate with your partner about pressure intensity and establish tap signals for pressure reduction. Practitioners with pre-existing TMJ conditions, cervical spine issues, or jaw injuries should inform partners before drilling. Begin with light pressure and increase gradually across sessions. Never attempt to power through neck pain during frame insertion, as cervical strain can result from improper head positioning under heavy shoulder pressure.",
+    "clips": [
+      {
+        "id": "__VUVYcI3uA",
+        "title": "Getting your frame back from bottom side control",
+        "by": "Steven Henshall",
+        "vertical": false,
+        "channel": "steven henshall",
+        "duration": 48,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "GFyuu8sAUtg",
+        "title": "Framing off side control to recover guard",
+        "by": "DS Team Jiu Jitsu School",
+        "vertical": false,
+        "channel": "DS Team Jiu Jitsu School",
+        "duration": 127,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "wDSd5Qy8Kac",
+        "title": "Babybridge frame against shoulder pressure",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 231,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Frame from Shoulder of Justice Defender",
@@ -403,6 +432,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Maintaining Shoulder of Justice against all frame-based escape attempts",
         "description": "Full resistance positional sparring from Shoulder of Justice. Top player scores for maintaining position beyond two minutes, advancing to mount, or securing kimura. Bottom player scores for degrading to side control or escaping to guard. Develop automatic recognition and response patterns across multiple rounds with different training partners."
+      }
+    ],
+    "clips": [
+      {
+        "id": "e8OUw05ZBwo",
+        "title": "Beating frames to establish a chest-to-chest pin",
+        "by": "Fox Den Martial Arts",
+        "vertical": false,
+        "channel": "Fox Den Martial Arts",
+        "duration": 245,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "LUxMvOFbxIY",
+        "title": "Killing the near side arm from side control",
+        "by": "Inverted Gear",
+        "vertical": false,
+        "channel": "Inverted Gear",
+        "duration": 123,
+        "verified": "2026-07-15"
       }
     ]
   }

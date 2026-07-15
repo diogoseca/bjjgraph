@@ -188,5 +188,34 @@
       "name": "Back Control",
       "relationship": "Dominant position achievable when opponent rolls to escape"
     }
+  ],
+  "clips": [
+    {
+      "id": "CbhMCaKPYA4",
+      "title": "Neil Knot shoulder lock from Williams Guard",
+      "by": "UFAI Grappling",
+      "vertical": false,
+      "channel": "UFAI GRAPPLING",
+      "duration": 36,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "YXaJU4DVUUc",
+      "title": "Shoulder Pin to Neil Knot",
+      "by": "Control Jiu-Jitsu",
+      "vertical": false,
+      "channel": "Control Jiu JItsu",
+      "duration": 70,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "URqmSVOr9Qw",
+      "title": "Shoulder Pin Series",
+      "by": "Heritage JuJitsu",
+      "vertical": false,
+      "channel": "Heritage JuJitsu",
+      "duration": 137,
+      "verified": "2026-07-14"
+    }
   ]
 }

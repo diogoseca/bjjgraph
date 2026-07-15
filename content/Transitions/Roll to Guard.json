@@ -294,7 +294,18 @@
         "answer": "If the roll stalls, immediately transition to alternative escapes rather than forcing completion. From a partial roll position, you can hip escape toward turtle and work technical standup, switch to a granby roll using the opposite shoulder angle, or use the partial momentum to create enough space to turn into half guard. The worst option is trying to complete a stalled roll against a prepared opponent."
       }
     ],
-    "safety_considerations": "Practice roll mechanics on mats with adequate padding before adding partners. During partner drilling, communicate clearly and tap immediately if neck is compromised during rotation. The rolling motion can cause neck strain if chin is not properly tucked - always tuck chin firmly to chest before initiating. Beginners should drill at slow speed until mechanics are ingrained. Avoid this technique if you have existing neck or cervical spine injuries. When drilling with resistance, ensure partner understands to release grips if you become stuck mid-roll to prevent neck compression injuries."
+    "safety_considerations": "Practice roll mechanics on mats with adequate padding before adding partners. During partner drilling, communicate clearly and tap immediately if neck is compromised during rotation. The rolling motion can cause neck strain if chin is not properly tucked - always tuck chin firmly to chest before initiating. Beginners should drill at slow speed until mechanics are ingrained. Avoid this technique if you have existing neck or cervical spine injuries. When drilling with resistance, ensure partner understands to release grips if you become stuck mid-roll to prevent neck compression injuries.",
+    "clips": [
+      {
+        "id": "Ba9EahLaXkg",
+        "title": "Turtle shoulder roll escape (maki komi)",
+        "by": "Team Daruma Dojo",
+        "vertical": false,
+        "channel": "Team Daruma Dojo",
+        "duration": 36,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Roll to Guard Defender",
@@ -425,6 +436,17 @@
         "phase": "Week 7+",
         "focus": "Live positional defense",
         "description": "Full-speed positional sparring where partner works all back escape methods including roll to guard. Develop the ability to read which escape is being attempted and select appropriate defensive response in real time. Evaluate your prevention rate and adjust defensive strategies based on different opponent styles and body types."
+      }
+    ],
+    "clips": [
+      {
+        "id": "lpgcKpIgClw",
+        "title": "Holding the back when they roll and turn in",
+        "by": "Brandon Mccaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 143,
+        "verified": "2026-07-15"
       }
     ]
   },

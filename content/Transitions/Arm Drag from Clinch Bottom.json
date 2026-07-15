@@ -289,7 +289,36 @@
         "answer": "If your drag attempt fails and the opponent shoots, you are in a compromised position because your weight has shifted laterally. Immediately sprawl by kicking your legs back and driving your hips to the mat while maintaining whatever grip contact you still have on their arm. Use the remaining wrist grip to redirect their shooting direction, turning their double leg into a single leg angle where you have better defensive options. If the sprawl fails and they secure the takedown, accept the position change and focus on immediately establishing guard frames rather than fighting the takedown from a losing position. The key error to avoid is trying to re-drag during their shot, which exposes your hips completely."
       }
     ],
-    "safety_considerations": "The arm drag from clinch bottom is generally a low-risk technique but requires awareness of several safety factors. Shoulder strain can occur if the two-on-one grip is applied with excessive rotational force on a planted opponent, particularly if their arm is locked straight. Execute the drag as a redirection of existing momentum rather than forcing rotation against a completely static base. During training, both partners should communicate about intensity levels and the attacker should release grip immediately if the defender signals discomfort. The transition to the mat after securing back control carries fall risk for both practitioners, so practice the sit-down back take on mats with adequate padding and avoid slamming or throwing during the descent phase."
+    "safety_considerations": "The arm drag from clinch bottom is generally a low-risk technique but requires awareness of several safety factors. Shoulder strain can occur if the two-on-one grip is applied with excessive rotational force on a planted opponent, particularly if their arm is locked straight. Execute the drag as a redirection of existing momentum rather than forcing rotation against a completely static base. During training, both partners should communicate about intensity levels and the attacker should release grip immediately if the defender signals discomfort. The transition to the mat after securing back control carries fall risk for both practitioners, so practice the sit-down back take on mats with adequate padding and avoid slamming or throwing during the descent phase.",
+    "clips": [
+      {
+        "id": "rc36jRToKOk",
+        "title": "Arm Drag to Rear Clinch",
+        "by": "Jiu Jitsu Five-O",
+        "vertical": false,
+        "channel": "Jiu Jitsu Five-O // Street-Ready BJJ Training",
+        "duration": 31,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "TkCWCSvk7I4",
+        "title": "Arm Drag to Single Leg",
+        "by": "Grapple Hub",
+        "vertical": false,
+        "channel": "Grapple hub ",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "CYF4OUTGwvk",
+        "title": "Arm Drag Drill",
+        "by": "Budo Brothers",
+        "vertical": false,
+        "channel": "Budo Brothers",
+        "duration": 49,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Arm Drag from Clinch Bottom Defender",
@@ -410,6 +439,35 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Full-speed arm drag defense integrated into clinch sparring",
         "description": "Positional sparring from clinch where partner's primary objective is the arm drag back take and your objective is to prevent it. Full resistance from both sides. Track success and failure rates to identify which defensive layer needs the most development. Rotate partners to experience different speeds and styles of arm drag."
+      }
+    ],
+    "clips": [
+      {
+        "id": "JAik-k-lKWY",
+        "title": "Arm Drag Counter with BJJ Application",
+        "by": "Joe Scioli",
+        "vertical": false,
+        "channel": "Joe Scioli",
+        "duration": 31,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "bmCjXADzgo4",
+        "title": "How to Defend the Arm Drag",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "gnsX4EjShMQ",
+        "title": "Arm Drag Defense to Knee Pick",
+        "by": "David Avellan",
+        "vertical": false,
+        "channel": "David Avellan",
+        "duration": 137,
+        "verified": "2026-07-15"
       }
     ]
   }

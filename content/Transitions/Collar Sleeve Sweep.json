@@ -299,7 +299,36 @@
         "answer": "If the opponent defends by posting, attack the triangle. If they defend by driving forward to flatten you, switch to a hip bump sweep or redirect their momentum overhead with a tomoe nage variation. If they strip your collar grip, transition to spider or lasso guard maintaining the sleeve control. If they backstep to remove your hook, follow with a collar drag to take the back. Every defensive reaction should expose them to a different attack—never attempt the same sweep twice against a prepared defense."
       }
     ],
-    "safety_considerations": "The Collar Sleeve Sweep is a relatively low-risk technique compared to submissions, but practitioners should be mindful of several safety factors. The opponent being swept should practice proper falling mechanics to avoid injury when landing on the mat. The sweeper should avoid hyperextending the controlled arm by maintaining controlled sleeve tension rather than explosive yanking. Both partners should be aware of surrounding training space to avoid colliding with other pairs during the sweep arc. The hooking leg should apply force behind the knee joint, never directly on the knee itself, to prevent ligament stress."
+    "safety_considerations": "The Collar Sleeve Sweep is a relatively low-risk technique compared to submissions, but practitioners should be mindful of several safety factors. The opponent being swept should practice proper falling mechanics to avoid injury when landing on the mat. The sweeper should avoid hyperextending the controlled arm by maintaining controlled sleeve tension rather than explosive yanking. Both partners should be aware of surrounding training space to avoid colliding with other pairs during the sweep arc. The hooking leg should apply force behind the knee joint, never directly on the knee itself, to prevent ligament stress.",
+    "clips": [
+      {
+        "id": "I2xn1bMaBdg",
+        "title": "Five sweeps from collar and sleeve guard",
+        "by": "Oneonta Jiu Jitsu",
+        "vertical": false,
+        "channel": "OneontaJiuJitsu Academy",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "sXMtbCGzpvs",
+        "title": "Tripod sweep from collar sleeve guard",
+        "by": "Golden State BJJ",
+        "vertical": false,
+        "channel": "Golden State BJJ",
+        "duration": 95,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "SehIaBibwYY",
+        "title": "Three attacks from collar and sleeve guard",
+        "by": "Giancarlo Bodoni",
+        "vertical": false,
+        "channel": "Giancarlo Bodoni",
+        "duration": 16,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Collar Sleeve Sweep Defender",
@@ -421,6 +450,35 @@
         "phase": "Phase 4: Counter-Attack Integration",
         "focus": "Converting successful defense into passing opportunities",
         "description": "After successfully defending the sweep, immediately transition into a guard pass. Practice linking grip breaks into toreando passes, hip drives into pressure passes, and backsteps into leg drag opportunities. Punish sweep attempts so the sweeper becomes hesitant, opening other passing windows."
+      }
+    ],
+    "clips": [
+      {
+        "id": "wdvJF6S68TI",
+        "title": "Defending the collar sleeve overhead sweep",
+        "by": "Luciana Marcos",
+        "vertical": false,
+        "channel": "luciana MARCOS",
+        "duration": 68,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "N4M0VWhDkMA",
+        "title": "Two ways to pass the collar and sleeve",
+        "by": "Carpio Jiu Jitsu",
+        "vertical": false,
+        "channel": "Carpio Jiu Jitsu",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "WJ25wu9Ioks",
+        "title": "Passing collar sleeve open guard",
+        "by": "Ultra Jiu Jitsu Academy",
+        "vertical": false,
+        "channel": "Ultra Jiu Jitsu Academy",
+        "duration": 105,
+        "verified": "2026-07-15"
       }
     ]
   }

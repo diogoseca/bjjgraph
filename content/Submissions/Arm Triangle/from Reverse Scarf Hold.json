@@ -347,6 +347,35 @@
         "answer": "The primary difference is the rotational component. From reverse scarf hold, you begin facing the opponent's legs and must rotate approximately 180 degrees to reach the perpendicular finishing angle, whereas from side control you are already near the correct orientation. This rotation requirement means the walk-around phase takes longer and creates a window where the opponent can attempt escapes. However, the advantage is that the reverse scarf hold pin provides superior initial arm isolation and chest compression that makes the grip transition more secure.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "xz9-FEBFFIo",
+        "title": "Arm Triangle from Scarf Hold Position",
+        "by": "Mat Life Training Center",
+        "vertical": false,
+        "channel": "Mat Life Training Center",
+        "duration": 32,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "5POG6rDBVLM",
+        "title": "Reverse Kesa Gatame Arm Attack Roll Over",
+        "by": "Carlos Machado",
+        "vertical": false,
+        "channel": "Carlos Machado",
+        "duration": 113,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "17m6bnarNdE",
+        "title": "Arm Attack Options from Scarf Hold",
+        "by": "Alexey Olynick",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 89,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -482,6 +511,35 @@
         "phase": "Phase 4: Live defensive sparring",
         "focus": "Full-speed defense from reverse scarf hold bottom against all attacks",
         "description": "Partner starts in reverse scarf hold top with full offensive options including americanas, kimuras, and the arm triangle transition. Defend all attacks with particular focus on arm positioning awareness to prevent the arm triangle setup. 5-minute rounds, reset on escape or submission."
+      }
+    ],
+    "clips": [
+      {
+        "id": "D2vkZGTD78I",
+        "title": "The Fastest Escape Out of the Arm Triangle",
+        "by": "Adam Bradley",
+        "vertical": false,
+        "channel": "Adam Bradley",
+        "duration": 31,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Nspz2EAIQ_k",
+        "title": "Arm Triangle Escape",
+        "by": "Crucifix Mike",
+        "vertical": false,
+        "channel": "Crucifix Mike",
+        "duration": 27,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "BuTIktWWudo",
+        "title": "How to Escape Arm Triangles",
+        "by": "War Room Jiu Jitsu",
+        "vertical": false,
+        "channel": "War Room Jiu Jitsu",
+        "duration": 129,
+        "verified": "2026-07-14"
       }
     ]
   }

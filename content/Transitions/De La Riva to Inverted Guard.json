@@ -258,7 +258,36 @@
         "answer": "Their forward pressure adds rotational energy in the same direction you want to spin. Instead of resisting the stack statically, you continue the rotation into a granby roll to recover guard or redirect into a berimbolo, since committed forward weight is exactly what the back take exploits. The key is to never resist the stack with your neck loaded — convert their pressure into your spin."
       }
     ],
-    "safety_considerations": "Inverting carries genuine cervical spine risk and must never be drilled cold. Always warm up the neck and spine, tuck the chin, and load weight onto the shoulder blades and upper back rather than the head or neck. Beginners should master solo inversion and granby mechanics on the ground before attempting the entry under a partner's weight, and should bail out of any inversion the instant they feel pressure on the neck. Partners drilling the stack counter must apply forward pressure gradually and stop immediately if the bottom player's neck becomes loaded. Practitioners with prior neck injuries or limited spinal mobility should substitute lower-risk guard-retention entries."
+    "safety_considerations": "Inverting carries genuine cervical spine risk and must never be drilled cold. Always warm up the neck and spine, tuck the chin, and load weight onto the shoulder blades and upper back rather than the head or neck. Beginners should master solo inversion and granby mechanics on the ground before attempting the entry under a partner's weight, and should bail out of any inversion the instant they feel pressure on the neck. Partners drilling the stack counter must apply forward pressure gradually and stop immediately if the bottom player's neck becomes loaded. Practitioners with prior neck injuries or limited spinal mobility should substitute lower-risk guard-retention entries.",
+    "clips": [
+      {
+        "id": "zQ2DK_uMK_8",
+        "title": "Berimbolo breakdown at Art of Jiu Jitsu",
+        "by": "Art of Jiu Jitsu",
+        "vertical": false,
+        "channel": "ART OF JIU JITSU",
+        "duration": 63,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2BHshl7AeGU",
+        "title": "De La Riva guard into berimbolo",
+        "by": "Vinicius Amaral",
+        "vertical": false,
+        "channel": "MESTRE VINICIUS AMARAL ",
+        "duration": 34,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "BG3c7JlQbow",
+        "title": "De La Riva to berimbolo to leg drag",
+        "by": "Ground Fighter",
+        "vertical": false,
+        "channel": "Ground Fighter",
+        "duration": 27,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "De La Riva to Inverted Guard Defender",
@@ -363,6 +392,26 @@
         "phase": "Month 3+: Live Positional Sparring",
         "focus": "Full-resistance passing against a De La Riva inversion game",
         "description": "Start with the partner in De La Riva threatening inversions under full resistance. Work to deny entries early, recognize when to step out versus stack, and pass safely without giving up the back. 4-5 minute rounds, multiple rounds per session."
+      }
+    ],
+    "clips": [
+      {
+        "id": "aQ2vFXXBn-o",
+        "title": "Countering a full inversion",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "3e82Y_MRj_o",
+        "title": "Countering an inversion from top north/south",
+        "by": "Frankie Roberts",
+        "vertical": false,
+        "channel": "Frankie Roberts",
+        "duration": 42,
+        "verified": "2026-07-15"
       }
     ]
   },

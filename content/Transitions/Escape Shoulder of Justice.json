@@ -410,6 +410,26 @@
         "focus": "Full positional sparring from Shoulder of Justice",
         "description": "Full resistance positional sparring starting in Shoulder of Justice. Top player scores for maintaining position beyond two minutes, advancing to mount, or securing submission. Bottom player scores for escaping to half guard or better. Progressive resistance from 50% to 100% across rounds to develop automatic counter responses."
       }
+    ],
+    "clips": [
+      {
+        "id": "XaYoAcTeKkk",
+        "title": "Maintaining side control shoulder pressure",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 32,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "mWimgVQrsMU",
+        "title": "Far side underhook pin retention",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 137,
+        "verified": "2026-07-15"
+      }
     ]
   }
 }

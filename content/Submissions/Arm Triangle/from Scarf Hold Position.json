@@ -342,6 +342,35 @@
         "answer": "A proper blood choke compresses the carotid arteries on both sides of the neck without significant pressure on the trachea or cervical spine. You ensure correct application by walking to full perpendicular angle so the opponent's shoulder drives into the lateral neck, not the front. Your forearm blade should cross the back of their neck with pressure directed toward the opposite carotid, not downward into the spine. If the opponent reports throat pressure rather than a squeezing sensation on the sides of their neck, adjust your angle by walking further around. The chest compression should feel like a vice closing from both sides of their neck simultaneously.",
         "safety_critical": true
       }
+    ],
+    "clips": [
+      {
+        "id": "xz9-FEBFFIo",
+        "title": "Arm Triangle from Scarf Hold Position",
+        "by": "Mat Life Training Center",
+        "vertical": false,
+        "channel": "Mat Life Training Center",
+        "duration": 32,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "17m6bnarNdE",
+        "title": "Arm Attack Options from Scarf Hold",
+        "by": "Alexey Olynick",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 89,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Ms6mDg91dY4",
+        "title": "Arm Triangle from Scarf Hold",
+        "by": "Sowilo Mob BJJ",
+        "vertical": false,
+        "channel": "Sowilo Mob BJJ",
+        "duration": 176,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -477,6 +506,35 @@
         "phase": "Phase 4: Live defensive sparring from scarf hold",
         "focus": "Full-speed defense against all scarf hold attacks including the arm triangle transition",
         "description": "Partner starts in scarf hold top with full offensive options including americana, kimura, arm triangle, and positional transitions. Defend all attacks with emphasis on near-arm positioning awareness to prevent the arm triangle setup while still defending other threats. Build the habit of tracking your arm position even during intense defensive exchanges. 5-minute rounds, reset on escape or submission."
+      }
+    ],
+    "clips": [
+      {
+        "id": "chpoSczCLTI",
+        "title": "Scarf Hold Ghost Escape",
+        "by": "Mat Life Training Center",
+        "vertical": false,
+        "channel": "Mat Life Training Center",
+        "duration": 20,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Nspz2EAIQ_k",
+        "title": "Arm Triangle Escape",
+        "by": "Crucifix Mike",
+        "vertical": false,
+        "channel": "Crucifix Mike",
+        "duration": 27,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "5atT-Q9-CVw",
+        "title": "Kesa Gatame Escape",
+        "by": "Taylorjiujitsu",
+        "vertical": false,
+        "channel": "Taylorjiujitsu",
+        "duration": 14,
+        "verified": "2026-07-14"
       }
     ]
   }

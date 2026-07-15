@@ -291,7 +291,27 @@
         "answer": "Against heavier opponents, the free leg post must generate more driving force, and the rolling arc must be tighter and more precise to overcome the additional weight resistance on the trapped leg. Compensate by using more hip engagement and less upper body effort, as hip-generated rotation produces more power than arm pulling. Timing becomes even more critical—initiate earlier in the grip consolidation phase when less weight has been committed to the lock. Heavier opponents may also have slower reactions to the roll's initiation, potentially providing a slightly larger execution window."
       }
     ],
-    "safety_considerations": "The Estima Lock Counter Roll involves rolling while caught in an active ankle submission, creating significant injury risk if executed with incorrect timing or direction. Never attempt the roll when the lock has reached tap-worthy pressure—tapping is always preferable to risking ankle, Achilles tendon, or foot ligament damage. During training, communicate clearly with partners about pressure levels and agree on progressive resistance protocols before attempting the technique. Rolling in the wrong direction can cause acute injury to the ankle joint, so thorough understanding of directional mechanics must be established through solo and zero-resistance drilling before attempting under any live resistance. Partners should release immediately if any distress signal occurs during the rolling transition phase."
+    "safety_considerations": "The Estima Lock Counter Roll involves rolling while caught in an active ankle submission, creating significant injury risk if executed with incorrect timing or direction. Never attempt the roll when the lock has reached tap-worthy pressure—tapping is always preferable to risking ankle, Achilles tendon, or foot ligament damage. During training, communicate clearly with partners about pressure levels and agree on progressive resistance protocols before attempting the technique. Rolling in the wrong direction can cause acute injury to the ankle joint, so thorough understanding of directional mechanics must be established through solo and zero-resistance drilling before attempting under any live resistance. Partners should release immediately if any distress signal occurs during the rolling transition phase.",
+    "clips": [
+      {
+        "id": "akB_o9gaNuc",
+        "title": "Finishing the ankle lock when opponent rolls out",
+        "by": "James O'Connor",
+        "vertical": false,
+        "channel": "James O’Connor",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "JSOM86_1lRo",
+        "title": "Foot lock counter and single leg X escapes",
+        "by": "James O'Connor",
+        "vertical": false,
+        "channel": "James O’Connor",
+        "duration": 111,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Estima Lock Counter Roll Defender",
@@ -417,6 +437,26 @@
         "phase": "Phase 4: Live Positional Application",
         "focus": "Full-speed defense integration with mixed escape scenarios",
         "description": "Positional sparring from Estima Lock top where the bottom player uses the counter roll as one option among conventional defenses. Practice reading which escape is being attempted and applying the appropriate defensive response in real time with full resistance and commitment."
+      }
+    ],
+    "clips": [
+      {
+        "id": "akB_o9gaNuc",
+        "title": "Finishing the ankle lock when they roll out",
+        "by": "James O'Connor",
+        "vertical": false,
+        "channel": "James O’Connor",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "enJwT6Ttreo",
+        "title": "Key detail for holding the Estima lock",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 137,
+        "verified": "2026-07-15"
       }
     ]
   }

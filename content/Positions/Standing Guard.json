@@ -407,6 +407,35 @@
         "question": "How do you anticipate and shut down an opponent's inversion attempts while maintaining your passing position?",
         "answer": "Watch for the hip elevation and shoulder rotation that precede inversion. When you see these precursors, immediately drive forward pressure onto their hips to flatten them, or control their collar to prevent the shoulder rotation needed for successful inversion. Alternatively, time your pass to coincide with their inversion attempt, as their commitment to inverting creates openings for quick directional passing. Never back away from an inverting opponent - either pressure forward to prevent the inversion or use their momentum against them."
       }
+    ],
+    "clips": [
+      {
+        "id": "RrD643OqTao",
+        "title": "Basic Standing Guard Pass",
+        "by": "Rickson Gracie",
+        "vertical": false,
+        "channel": "Gallerr",
+        "duration": 66,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "yXNfYoZszss",
+        "title": "Standing Guard Pass",
+        "by": "10th Planet Costa Mesa",
+        "vertical": false,
+        "channel": "10th Planet Costa Mesa",
+        "duration": 11,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "o3PZRQSZStQ",
+        "title": "Easy Guard Passing Tip / Concept",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 84,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -766,6 +795,35 @@
         "question": "Your guard pull attempt partially fails and you land in a compromised seated position with opponent already moving to pass. How do you recover?",
         "answer": "Immediately establish frames with both hands on their shoulders or collar to create distance while getting your feet between you and your opponent. Hip escape to create angle and prevent them from establishing a passing lane. If they're already past your initial frames, transition to retention tactics like shrimping, inverting, or establishing knee shield. The critical error is fighting to complete the original guard pull from a compromised position - accept the situation and transition to guard recovery rather than insisting on your planned guard type."
       }
+    ],
+    "clips": [
+      {
+        "id": "lVLAROiSjNU",
+        "title": "Guard Retention: When To Sit Up Escape",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 136,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "fpu-rDbLM_0",
+        "title": "Bottom Postures in Open Guard",
+        "by": "Ultra Jiu Jitsu Academy",
+        "vertical": false,
+        "channel": "Ultra Jiu Jitsu Academy",
+        "duration": 80,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Bp0v7c_MrbY",
+        "title": "Feet on Biceps Guard Position",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 125,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -796,6 +854,26 @@
     {
       "question": "What makes Standing Guard the shared decision-point gateway between standing and ground grappling?",
       "answer": "Standing Guard is the last neutral configuration before commitment, so both players face the same set of branching choices from it: pull guard to a chosen ground position, shoot a takedown, snap down to a front headlock, or continue the standup exchange. Each of these paths sends the match into a different domain, and the grip and distance battle in Standing Guard is fought precisely to enter the chosen path on favorable terms. Because the position resolves into fundamentally different games depending on who commits first and how, the timing of that commitment is a shared strategic axis for both grapplers. This gateway quality is why grip and range dominance in Standing Guard translates directly into positional advantage on the ground or in a scored takedown."
+    }
+  ],
+  "clips": [
+    {
+      "id": "OZ54F0L1ikY",
+      "title": "Standing Guard Passing for Competition",
+      "by": "BJJTube",
+      "vertical": false,
+      "channel": "BJJTube",
+      "duration": 105,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "CrB2ifj730g",
+      "title": "Why We Standing Guard Pass",
+      "by": "Chattanooga Jiu-Jitsu Academy",
+      "vertical": false,
+      "channel": "Chattanooga Jiu-Jitsu Academy",
+      "duration": 177,
+      "verified": "2026-07-14"
     }
   ]
 }

@@ -274,7 +274,36 @@
         "answer": "Minimize the transition window by overlapping the grip change with the leg swing—your hands should be moving to closed guard grips while your legs are still completing the wrap. Keep your chest pressed tight against their torso throughout the roll to deny space for posturing. The moment your ankles cross, immediately pull your heels into their lower back and squeeze your knees to break their posture before they can orient to the new position."
       }
     ],
-    "safety_considerations": "The Kimura Counter via Roll involves rapid rotational movement that can stress the neck, shoulders, and spine. During the grip transition phase, the shoulder joint remains under residual Kimura pressure and sudden movement can cause injury if the grip is not released smoothly. Always practice at controlled speed before attempting in live sparring. Communicate with training partners before drilling to prevent unexpected rolls that could cause collision injuries. If you experience sharp pain in the shoulder or neck during execution, stop immediately and assess before continuing. Partners should avoid resisting with rigid, locked-out arms during the Kimura phase, as the rolling motion can amplify joint pressure unpredictably."
+    "safety_considerations": "The Kimura Counter via Roll involves rapid rotational movement that can stress the neck, shoulders, and spine. During the grip transition phase, the shoulder joint remains under residual Kimura pressure and sudden movement can cause injury if the grip is not released smoothly. Always practice at controlled speed before attempting in live sparring. Communicate with training partners before drilling to prevent unexpected rolls that could cause collision injuries. If you experience sharp pain in the shoulder or neck during execution, stop immediately and assess before continuing. Partners should avoid resisting with rigid, locked-out arms during the Kimura phase, as the rolling motion can amplify joint pressure unpredictably.",
+    "clips": [
+      {
+        "id": "YvTmqi750wQ",
+        "title": "Kimura trap rolling sweep from bottom side control",
+        "by": "Mat Life coach",
+        "vertical": false,
+        "channel": "Mat Life Training Center",
+        "duration": 31,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "3scKusIPsC8",
+        "title": "Kimura trap roll from half guard",
+        "by": "Combat Arts coach",
+        "vertical": false,
+        "channel": "Combat Arts Strength and Conditioning",
+        "duration": 51,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "WEhMKdFPV9U",
+        "title": "No gi kimura trap roll",
+        "by": "Robyn Sheehan",
+        "vertical": false,
+        "channel": "Robyn Sheehan",
+        "duration": 60,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Kimura Counter via Roll Defender",
@@ -398,6 +427,26 @@
         "phase": "Phase 4: Full Positional Sparring",
         "focus": "Integrating defense into complete Kimura Trap top game",
         "description": "Full-speed positional sparring starting from Kimura Trap with top player working arm extraction while defending all bottom player options including the counter-roll. Develop fluid decision-making between extraction, defense, and position advancement under realistic conditions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "jMbFs98ox60",
+        "title": "Rolling kimura counter",
+        "by": "Znass Jitsu coach",
+        "vertical": false,
+        "channel": "Znass Jitsu",
+        "duration": 11,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "r1a6-MSgdls",
+        "title": "Kimura trap counter from bottom while passing",
+        "by": "BJJ Training Center Houston coach",
+        "vertical": false,
+        "channel": "BJJ training center houston",
+        "duration": 129,
+        "verified": "2026-07-15"
       }
     ]
   }

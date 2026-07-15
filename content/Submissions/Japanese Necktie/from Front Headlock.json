@@ -379,6 +379,26 @@
         "answer": "The highest percentage escape is extracting the trapped arm before your opponent locks their grip configuration. Once the arm is free, their shoulder can no longer function as part of the choking mechanism and the entire technique falls apart. This defense works because it removes one of the two compression points (your own shoulder) from the equation. To execute this escape, you must aggressively pull your trapped arm free before your opponent completes their rotation to perpendicular position and locks their hands. Use your free hand to push on their elbow or shoulder to create space, then extract the arm by pulling it toward your head. Once the arm is free, immediately work to improve your position by sitting back to guard or standing up. Attempting this escape after they've locked their grips becomes much more difficult, making early recognition and reaction critical.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "4ob2ZrEH3Yc",
+        "title": "Front headlock to necktie choke",
+        "by": "Gile23",
+        "vertical": false,
+        "channel": "Gile23",
+        "duration": 113,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "hfifEH_SNVc",
+        "title": "Schultz choke from front headlock",
+        "by": "Sonny Brown",
+        "vertical": false,
+        "channel": "Sonny Brown",
+        "duration": 187,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -517,6 +537,26 @@
         "phase": "Phase 4: Live Defense Integration",
         "focus": "Defending Japanese Necktie during live rolling scenarios",
         "description": "Incorporate Japanese Necktie defense into live rolling by having training partners deliberately hunt for the submission from turtle and front headlock. Practice defending while fatigued and under pressure. Develop the ability to recognize the setup during scrambles and react with appropriate defensive urgency. Include tap timing awareness - practice tapping when the choke reaches the point of no return rather than fighting through a locked submission."
+      }
+    ],
+    "clips": [
+      {
+        "id": "jDbywpDs3Tw",
+        "title": "Preventing the necktie hand switch",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 129,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "FuNT7N9X8y8",
+        "title": "Peruvian necktie escape",
+        "by": "Chosen Few BJJ",
+        "vertical": false,
+        "channel": "Chosen Few BJJ",
+        "duration": 183,
+        "verified": "2026-07-14"
       }
     ]
   },

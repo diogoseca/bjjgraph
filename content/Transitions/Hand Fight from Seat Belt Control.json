@@ -302,7 +302,27 @@
         "answer": "In the first second, immediately execute a sharp hip escape to the side of the bottom hook, creating angular separation between your back and opponent's chest before they can re-grip. In the second second, use your near-side elbow to frame against their top leg while bringing your far-side hand to control their bottom hook ankle, preventing hook reinforcement. In the third second, drive your hips to the mat on the bottom hook side while stripping the bottom hook with your hand, initiating the transition to turtle or half guard. The critical principle is never pausing after the grip break - the window before re-establishment is approximately two to three seconds, and every moment spent stationary allows opponent to reconfigure control."
       }
     ],
-    "safety_considerations": "Hand fighting from back control carries inherent neck injury risk due to the proximity of choking attacks throughout the sequence. Never fully extend or lift your chin during grip breaks, as even momentary throat exposure invites choke entry that can compress carotid arteries and cause unconsciousness within seconds. If opponent secures a choke during hand fighting, immediately prioritize choke defense over continuing the grip break. In training, tap early when chokes are locked rather than continuing to fight grips. Communicate with training partners about appropriate resistance levels during back defense drilling to prevent cervical strain from explosive neck movements."
+    "safety_considerations": "Hand fighting from back control carries inherent neck injury risk due to the proximity of choking attacks throughout the sequence. Never fully extend or lift your chin during grip breaks, as even momentary throat exposure invites choke entry that can compress carotid arteries and cause unconsciousness within seconds. If opponent secures a choke during hand fighting, immediately prioritize choke defense over continuing the grip break. In training, tap early when chokes are locked rather than continuing to fight grips. Communicate with training partners about appropriate resistance levels during back defense drilling to prevent cervical strain from explosive neck movements.",
+    "clips": [
+      {
+        "id": "djhMEfVZozo",
+        "title": "Back escape vs seatbelt grip",
+        "by": "Skyhook Martial Arts coach",
+        "vertical": false,
+        "channel": "Skyhook Martial Arts & Fitness",
+        "duration": 36,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "cWrV0wc6jyQ",
+        "title": "\"Home Alone\" back escape off the seat belt",
+        "by": "Procel BJJ coach",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 84,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Hand Fight from Seat Belt Control Defender",
@@ -419,6 +439,35 @@
         "phase": "Grip Configuration Transitions",
         "focus": "Seamless transitions between seat belt, gift wrap, and alternative controls under pressure",
         "description": "When partner successfully breaks your seat belt, immediately transition to alternative control rather than re-fighting the same grip. Practice flowing between seat belt, gift wrap, double underhooks, and body triangle configurations to maintain back control despite successful grip breaks."
+      }
+    ],
+    "clips": [
+      {
+        "id": "y_GjhMb6Qf8",
+        "title": "Holding the seatbelt position from the back",
+        "by": "Kyuzo BJJ coach",
+        "vertical": false,
+        "channel": "Kyuzo Brazilian Jiu Jitsu",
+        "duration": 26,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MwxnveKrlxU",
+        "title": "Quick fix for a stronger seatbelt grip",
+        "by": "Ben Kool",
+        "vertical": false,
+        "channel": "Ben Kool Tech",
+        "duration": 62,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Wga4PfuShEg",
+        "title": "Keeping the seatbelt grip in back control",
+        "by": "Academy Jiu Jitsu coach",
+        "vertical": false,
+        "channel": "Academy Jiu Jitsu",
+        "duration": 114,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -262,7 +262,36 @@
         "answer": "Getting stuck mid-roll typically results from insufficient explosive commitment, attempting without adequate forward pressure from the opponent, or losing wrist control during rotation. To recover, do not try to complete the stalled roll. Instead, immediately abandon the attempt and use the inverted position to either granby roll the rest of the way through to guard recovery, or post and scramble back to turtle. Staying stuck mid-roll exposes your back and neck to attacks."
       }
     ],
-    "safety_considerations": "The Peterson Roll is generally a low-risk technique, but practitioners should be aware of several safety factors. During the rolling motion, protect your neck by keeping chin tucked tight to your shoulder - exposing the neck during rotation can allow guillotine or front headlock attacks. Practice the rolling mechanics slowly before adding speed to ensure you're not landing on your head or neck. When drilling with a partner, ensure they know to release grips if you get stuck mid-roll to prevent shoulder strain. Be cautious executing this technique near walls or other training pairs, as the roll requires space. If you have existing shoulder or neck injuries, modify training intensity and avoid this technique until cleared, as the rotation places stress on these areas."
+    "safety_considerations": "The Peterson Roll is generally a low-risk technique, but practitioners should be aware of several safety factors. During the rolling motion, protect your neck by keeping chin tucked tight to your shoulder - exposing the neck during rotation can allow guillotine or front headlock attacks. Practice the rolling mechanics slowly before adding speed to ensure you're not landing on your head or neck. When drilling with a partner, ensure they know to release grips if you get stuck mid-roll to prevent shoulder strain. Be cautious executing this technique near walls or other training pairs, as the roll requires space. If you have existing shoulder or neck injuries, modify training intensity and avoid this technique until cleared, as the rotation places stress on these areas.",
+    "clips": [
+      {
+        "id": "DZyvEHWuVb0",
+        "title": "Peterson Roll tutorial",
+        "by": "WrestlingTournaments.com",
+        "vertical": false,
+        "channel": "WrestlingTournaments․com",
+        "duration": 85,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ZSP2fh42fmw",
+        "title": "Peterson Roll reversal demo",
+        "by": "Kirk White",
+        "vertical": false,
+        "channel": "Kirk White",
+        "duration": 15,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "JZ75_t30GWI",
+        "title": "Granby / Peterson roll technique",
+        "by": "Maverick Wrestling",
+        "vertical": false,
+        "channel": "MaverickWrestling",
+        "duration": 127,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Peterson Roll Defender",
@@ -385,6 +414,35 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring integration",
         "description": "Full resistance positional sparring from turtle top where partner actively attempts Peterson Rolls among other escapes. Practice reading which escape is being attempted and selecting the appropriate defensive response in real-time. Develop the ability to bait failed Peterson Roll attempts to advance your own position."
+      }
+    ],
+    "clips": [
+      {
+        "id": "MVR2PubZGn8",
+        "title": "Preventing the Peterson roll",
+        "by": "Bernardo Faria",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 256,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "33QXFbKKQt4",
+        "title": "Fat man roll defense after you're late",
+        "by": "RVV BJJ",
+        "vertical": false,
+        "channel": "RVV BJJ",
+        "duration": 227,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "okQoqbMj-2s",
+        "title": "First steps to stop the fat man roll",
+        "by": "RVV BJJ",
+        "vertical": false,
+        "channel": "RVV BJJ",
+        "duration": 265,
+        "verified": "2026-07-15"
       }
     ]
   },

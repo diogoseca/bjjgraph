@@ -300,7 +300,36 @@
         "answer": "Alternate between genuine passing attempts (knee slice, leg weave, smash pass) and saddle entries from the same starting positions. When the opponent defends the pass by extending their legs or creating frames, attack the saddle entry. When they defend the saddle entry by retracting their legs, advance the guard pass. This creates a passing-versus-leg-lock dilemma where defending one attack opens the other. The headquarters position is ideal for this because it naturally threatens both pathways from the same base."
       }
     ],
-    "safety_considerations": "When practicing saddle entries, ensure controlled execution with clear communication between partners regarding resistance levels. The saddle position leads directly to inside heel hooks which can cause severe knee injuries if applied without control. During drilling, establish tap-early protocols and never apply sudden explosive force to leg locks. Partners should understand proper tapping procedures and recognize when they are caught in vulnerable positions. Instructors should ensure students have adequate experience with positional control before progressing to submission applications from saddle. Always practice on mats with sufficient padding, and beginners should master the entry mechanics with zero resistance before adding any defensive pressure. Avoid practicing this technique if either partner has existing knee or hip injuries without medical clearance. The rotation into saddle can place stress on the practitioner's own knees, so execute entries smoothly rather than explosively to protect your own joints."
+    "safety_considerations": "When practicing saddle entries, ensure controlled execution with clear communication between partners regarding resistance levels. The saddle position leads directly to inside heel hooks which can cause severe knee injuries if applied without control. During drilling, establish tap-early protocols and never apply sudden explosive force to leg locks. Partners should understand proper tapping procedures and recognize when they are caught in vulnerable positions. Instructors should ensure students have adequate experience with positional control before progressing to submission applications from saddle. Always practice on mats with sufficient padding, and beginners should master the entry mechanics with zero resistance before adding any defensive pressure. Avoid practicing this technique if either partner has existing knee or hip injuries without medical clearance. The rotation into saddle can place stress on the practitioner's own knees, so execute entries smoothly rather than explosively to protect your own joints.",
+    "clips": [
+      {
+        "id": "P-rkPE4bjdE",
+        "title": "Saddle transition from top half guard",
+        "by": "Thunderdome BJJ coach",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 31,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "HniaoFWTsmI",
+        "title": "Easy entry to the saddle from top",
+        "by": "Ilya",
+        "vertical": false,
+        "channel": "Ilya's Jiu-Jitsu",
+        "duration": 53,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "IOyoyijtaBY",
+        "title": "Gordon Ryan saddle entry breakdown",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "THE FLAWED CASUAL",
+        "duration": 85,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Saddle Entry from Top Defender",
@@ -437,6 +466,26 @@
         "phase": "Phase 4: Live Integration (Weeks 7-12)",
         "focus": "Defending saddle entries during live guard retention against leg lock specialists",
         "description": "Situational sparring starting from guard positions where top player actively hunts saddle entries alongside passing attempts. Defender works preventive leg management, early recognition, and full defensive sequence against committed entries. Progress to open rolling where saddle entry defense is tested against complete game plans."
+      }
+    ],
+    "clips": [
+      {
+        "id": "v3w0qXLKxug",
+        "title": "Defending heel hooks from the saddle",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 92,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "m0NLphEuFoc",
+        "title": "Leg lock defense basics",
+        "by": "10th Planet coach",
+        "vertical": false,
+        "channel": "Kuwy Jitsu",
+        "duration": 61,
+        "verified": "2026-07-15"
       }
     ]
   },

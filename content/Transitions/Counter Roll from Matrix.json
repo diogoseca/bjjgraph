@@ -278,7 +278,36 @@
         "answer": "Follow the backstep with immediate hip escape to re-engage your legs with theirs before the distance becomes too great. If the backstep creates too much separation for direct leg reengagement, transition to butterfly hooks or open guard frames to maintain a guard position rather than being left on your back without any guard structure. The key is never accepting the separation passively—your legs must actively pursue connection even as the opponent tries to disengage from your entanglement attempt."
       }
     ],
-    "safety_considerations": "The Counter Roll from Matrix involves inverted movement and directional changes during rolling mechanics that carry moderate neck and shoulder risk. Practitioners should develop comfort with inversions through progressive solo drilling before attempting at full speed with partners. During training, communicate rolling direction with partners to prevent collision injuries. Avoid forcing the redirect if neck position is compromised—return to turtle rather than risk cervical compression. Partners should never drive weight down explosively on a practitioner who is mid-inversion, as this can cause spinal compression injuries."
+    "safety_considerations": "The Counter Roll from Matrix involves inverted movement and directional changes during rolling mechanics that carry moderate neck and shoulder risk. Practitioners should develop comfort with inversions through progressive solo drilling before attempting at full speed with partners. During training, communicate rolling direction with partners to prevent collision injuries. Avoid forcing the redirect if neck position is compromised—return to turtle rather than risk cervical compression. Partners should never drive weight down explosively on a practitioner who is mid-inversion, as this can cause spinal compression injuries.",
+    "clips": [
+      {
+        "id": "BWDsJPV7iPA",
+        "title": "No-gi matrix back take",
+        "by": "Langaker BJJ",
+        "vertical": false,
+        "channel": "LangakerBjj",
+        "duration": 96,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "3rTUggUmhBk",
+        "title": "Counter back take from 50/50",
+        "by": "Revolution BJJ Ashland",
+        "vertical": false,
+        "channel": "Revolution BJJ Ashland",
+        "duration": 71,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uo8-ZJyba08",
+        "title": "Matrix position compilation",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "FreeChannelOpen",
+        "duration": 63,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Counter Roll from Matrix Defender",
@@ -398,6 +427,17 @@
         "phase": "Live Positional Sparring",
         "focus": "Full context application under competitive resistance",
         "description": "Start with bottom player in Matrix position at full intensity. Top player defends both the Matrix back take and any subsequent counter roll attempt, then seeks to advance position to side control, back control, or submission. Full resistance with positional resets after each exchange resolution to maximize repetitions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "aQ2vFXXBn-o",
+        "title": "Countering a full inversion",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-15"
       }
     ]
   }

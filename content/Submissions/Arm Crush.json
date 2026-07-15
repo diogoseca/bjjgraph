@@ -159,5 +159,34 @@
       "description": "From modified scarf hold (kuzure kesa-gatame), opponent's arm is already in ideal position for the Arm Crush. Simply adjust your grip to the figure-four and apply crushing pressure with a slight rotation.",
       "when_to_use": "When in kuzure kesa-gatame and opponent is defending by keeping their trapped arm tight rather than trying to extract it"
     }
+  ],
+  "clips": [
+    {
+      "id": "lN8yn5YaMi0",
+      "title": "Cradle from side control to armbar shoulder lock",
+      "by": "Andy Tong",
+      "vertical": false,
+      "channel": "Andy Tong",
+      "duration": 42,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "RFkSf7gQ18E",
+      "title": "Arm crush armbar",
+      "by": "AMAZIN BJJ",
+      "vertical": false,
+      "channel": "AMAZIN BJJ",
+      "duration": 65,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "LUxMvOFbxIY",
+      "title": "Killing the near side arm from side control",
+      "by": "Inverted Gear",
+      "vertical": false,
+      "channel": "Inverted Gear",
+      "duration": 123,
+      "verified": "2026-07-14"
+    }
   ]
 }

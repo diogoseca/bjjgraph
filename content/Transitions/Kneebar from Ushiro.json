@@ -262,7 +262,27 @@
         "answer": "A bent knee defense opens two primary chain attacks. First, triangle your legs around their shin for a calf slicer, using the bent position against them. Second, release kneebar pressure and return to heel hook attack, since bending the knee relaxes the foot position that was protecting the heel. The bent knee also makes toe hold entries available by controlling the foot and applying rotational force."
       }
     ],
-    "safety_considerations": "The kneebar attacks the knee joint, which contains ligaments (ACL, PCL, MCL, LCL) and meniscus that can suffer serious injury from hyperextension. Unlike heel hooks where damage occurs rapidly, kneebars provide slightly more warning sensation, but training partners must still tap early and attackers must apply pressure progressively. Never crank kneebars explosively. In training, apply pressure slowly and release immediately upon tap. Partners should tap at the first sensation of joint stress rather than testing flexibility limits. Practitioners with previous knee injuries should inform training partners and consider limiting kneebar training. The technique should not be attempted on an unwilling or unaware partner. Ensure adequate warm-up before leg lock training to reduce injury risk."
+    "safety_considerations": "The kneebar attacks the knee joint, which contains ligaments (ACL, PCL, MCL, LCL) and meniscus that can suffer serious injury from hyperextension. Unlike heel hooks where damage occurs rapidly, kneebars provide slightly more warning sensation, but training partners must still tap early and attackers must apply pressure progressively. Never crank kneebars explosively. In training, apply pressure slowly and release immediately upon tap. Partners should tap at the first sensation of joint stress rather than testing flexibility limits. Practitioners with previous knee injuries should inform training partners and consider limiting kneebar training. The technique should not be attempted on an unwilling or unaware partner. Ensure adequate warm-up before leg lock training to reduce injury risk.",
+    "clips": [
+      {
+        "id": "g3j7TZYoW14",
+        "title": "Top ushiro to kneebar",
+        "by": "Modesto Judo Club coach",
+        "vertical": false,
+        "channel": "Modesto Judo Club",
+        "duration": 115,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "0wHq6PZVGfI",
+        "title": "Two ways to attack a kneebar from cross ashi",
+        "by": "King Kneebar",
+        "vertical": false,
+        "channel": "King Kneebar",
+        "duration": 140,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Kneebar from Ushiro Defender",
@@ -387,6 +407,26 @@
         "phase": "Week 7+",
         "focus": "Live defense under pressure",
         "description": "Specific sparring from ushiro ashi-garami where the attacker freely chooses between heel hook and kneebar. Develop the dual awareness needed to defend both threats simultaneously. Full resistance with emphasis on reading the attacker's intentions and selecting the correct defensive response in real time."
+      }
+    ],
+    "clips": [
+      {
+        "id": "m0NLphEuFoc",
+        "title": "Leg lock defense fundamentals",
+        "by": "Kuwy Jitsu coach",
+        "vertical": false,
+        "channel": "Kuwy Jitsu",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "sq9jW4ZZrU8",
+        "title": "Leg lock defense from a knee",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 99,
+        "verified": "2026-07-15"
       }
     ]
   },

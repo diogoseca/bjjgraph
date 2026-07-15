@@ -335,6 +335,35 @@
         "answer": "The point of no escape occurs when you achieve proper perpendicular angle with opponent's posture broken, arm trapped across their centerline, and knee positioned behind their head. Before this point, you must control their posture through head grip, secure the trapped arm position, and lock the figure-four configuration. Once these elements align, even skilled opponents have very limited defensive options and the finish becomes largely a matter of progressive pressure application.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "UOFZwIbz9zM",
+        "title": "Triangle from De La Riva Guard",
+        "by": "Nartay Kazhekov",
+        "vertical": false,
+        "channel": "Nartay Kazhekov",
+        "duration": 25,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "gR54h1IXyGg",
+        "title": "Reverse De La Riva to Triangle",
+        "by": "Lucas Lepri",
+        "vertical": false,
+        "channel": "Lucas Lepri Brazilian Jiu Jitsu & Fitness",
+        "duration": 22,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "0EmXVus5m8o",
+        "title": "Easy De La Riva Triangle Choke",
+        "by": "Alex Lane",
+        "vertical": false,
+        "channel": "Alex Lane",
+        "duration": 90,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -476,6 +505,26 @@
         "phase": "Phase 4: Competition Simulation with Multiple Threats",
         "focus": "Defending triangle within the full DLR attack chain including sweeps, omoplata, and back takes",
         "description": "Open sparring rounds starting from DLR where attacker can use any technique. Defender must address triangle threat while also defending sweeps and other submissions. Develops the ability to defend the triangle without creating openings for other attacks. Full competition intensity with focus on maintaining composure and defensive structure across multiple threat vectors."
+      }
+    ],
+    "clips": [
+      {
+        "id": "DLmrzSs1hWI",
+        "title": "Triangle defense and escape",
+        "by": "Daniel Frank",
+        "vertical": false,
+        "channel": "Daniel Frank",
+        "duration": 24,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "-XU_JoO9Hhg",
+        "title": "Shutting down a strong De La Riva guard",
+        "by": "Mikey Musumeci",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 138,
+        "verified": "2026-07-15"
       }
     ]
   },

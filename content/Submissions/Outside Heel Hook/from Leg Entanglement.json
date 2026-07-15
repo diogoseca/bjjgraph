@@ -378,6 +378,35 @@
         "answer": "The outside angle positions your body to the lateral side of the opponent's trapped leg, enabling outward (lateral) heel rotation that attacks the LCL and ACL. The inside angle positions you medially, enabling inward rotation that attacks the MCL. You verify your positioning by checking which direction the opponent's toes are pointing relative to your body - for the outside heel hook, their toes should point away from you toward the outside. Your outside leg should be threading across their hip line on the far side. If you find yourself on the medial side of their leg, you are set up for an inside heel hook instead. Applying outward rotation from an inside angle or vice versa produces a mechanically weak attack that is easily defended.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "tLcHN042w48",
+        "title": "Finishing the outside heel hook from ashi",
+        "by": "Fox Den Martial Arts",
+        "vertical": false,
+        "channel": "Fox Den Martial Arts",
+        "duration": 86,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "pRqoNs4K7cI",
+        "title": "Ashi garami to heel hook",
+        "by": "The Coop BJJ",
+        "vertical": false,
+        "channel": "The Coop BJJ",
+        "duration": 83,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "m4sGDhukUmk",
+        "title": "Nasty heel hook from outside ashi",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
+        "duration": 141,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -519,6 +548,26 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Applying all defensive tools under full resistance with tap-early culture",
         "description": "Full resistance rounds starting from leg entanglement where the attacker works for the outside heel hook and you work for escape. Maintain strict tap-early culture - tap the moment you feel rotation reaching the knee. Review each round to identify where defensive opportunities were missed and which stage your defense broke down. Progress to starting from earlier positions as defensive skills improve."
+      }
+    ],
+    "clips": [
+      {
+        "id": "v3w0qXLKxug",
+        "title": "Defending heel hooks fundamentals",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 92,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "DF2AYLPbeHc",
+        "title": "70-second heel hook defense breakdown",
+        "by": "Jahred Dell",
+        "vertical": false,
+        "channel": "Jahred Dell",
+        "duration": 70,
+        "verified": "2026-07-14"
       }
     ]
   }

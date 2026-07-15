@@ -293,7 +293,27 @@
         "answer": "From high mount, standard hip frames on the thigh become less effective because the opponent's knees have bypassed your framing range. Shift your frames higher to push on their chest or shoulders while working to inch your hips downward toward their knees through small scooting movements. Bridges combined with downward hip scooting create the distance needed to re-establish standard escape frames at their hip level. The priority becomes escaping high mount back to standard mount positioning before resuming the elbow escape."
       }
     ],
-    "safety_considerations": "The elbow escape is one of the safest techniques in BJJ as it is a defensive positional escape rather than a joint lock or choke. Primary safety concern is neck strain from being flattened under heavy pressure for extended periods. Practitioners should tap immediately if a submission is locked in rather than attempting to escape through the submission. Avoid bridging directly onto the neck or cervical spine. Communicate with training partners about appropriate pressure levels during drilling, especially when working with significant weight differences. Be cautious of knee strain when inserting the knee shield against aggressive top player resistance."
+    "safety_considerations": "The elbow escape is one of the safest techniques in BJJ as it is a defensive positional escape rather than a joint lock or choke. Primary safety concern is neck strain from being flattened under heavy pressure for extended periods. Practitioners should tap immediately if a submission is locked in rather than attempting to escape through the submission. Avoid bridging directly onto the neck or cervical spine. Communicate with training partners about appropriate pressure levels during drilling, especially when working with significant weight differences. Be cautious of knee strain when inserting the knee shield against aggressive top player resistance.",
+    "clips": [
+      {
+        "id": "pUZcLTWHAzk",
+        "title": "Knee and elbow escape from mount",
+        "by": "Jamie",
+        "vertical": false,
+        "channel": "jamielovesmartialarts",
+        "duration": 71,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MohD353qSw4",
+        "title": "Advanced elbow-knee mount escape concepts",
+        "by": "Peter Mettler",
+        "vertical": false,
+        "channel": "Peter Mettler Martial Arts",
+        "duration": 89,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Elbow Escape from Mount Defender",
@@ -418,6 +438,26 @@
         "phase": "Phase 4: Live Integration",
         "focus": "Applying retention and counter-offense in full sparring",
         "description": "Mount retention positional sparring with three-minute rounds. Set targets for maintaining mount for specific durations and finishing submissions off escape attempts. Develop the judgment to choose between re-centering mount and capitalizing on offensive openings created by escape attempts."
+      }
+    ],
+    "clips": [
+      {
+        "id": "RTMJDbZnFO0",
+        "title": "Holding the middle mount against escapes",
+        "by": "SBG PDX",
+        "vertical": false,
+        "channel": "SBG PDX & Vancouver BJJ and MMA Videos",
+        "duration": 154,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "oeqPk3gG-qg",
+        "title": "Mount retention details",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 179,
+        "verified": "2026-07-15"
       }
     ]
   }

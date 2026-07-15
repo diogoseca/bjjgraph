@@ -347,6 +347,17 @@
         "answer": "Upon any tap signal, immediately stop all hip extension and forward pressure on the shoulder. Release the figure-four grip by letting go of your shin, then unwrap the controlling leg from behind the opponent's neck. Lower your hips to remove all rotational force from the shoulder before allowing your partner to extract their arm at their own pace. Check that they have full shoulder mobility and no pain before resuming training. Never maintain any pressure while releasing, as the shoulder is at its most vulnerable at end range of motion.",
         "safety_critical": true
       }
+    ],
+    "clips": [
+      {
+        "id": "1O-BoOWXhzY",
+        "title": "Baratoplata basics from rubber guard",
+        "by": "True Believer Jiu Jitsu",
+        "vertical": false,
+        "channel": "True Believer Jiu Jitsu",
+        "duration": 232,
+        "verified": "2026-07-15"
+      }
     ]
   },
   "defender": {
@@ -478,6 +489,26 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Full-resistance crackhead control defense including baratoplata threats",
         "description": "Start in crackhead control with the attacker free to attempt any submission including the baratoplata. Defender works all available escapes and defensive options against unpredictable attacks. Develops the ability to distinguish between different submission threats and apply the correct defensive response in real time."
+      }
+    ],
+    "clips": [
+      {
+        "id": "rx4XoCFWeq8",
+        "title": "Baratoplata Defense",
+        "by": "Animal",
+        "vertical": false,
+        "channel": "Animal",
+        "duration": 75,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "ocIHY3jBYIQ",
+        "title": "Best way to escape the omoplata shoulder lock",
+        "by": "John Connors",
+        "vertical": false,
+        "channel": "John Connors, Old Man BJJ Black Belt",
+        "duration": 62,
+        "verified": "2026-07-14"
       }
     ]
   }

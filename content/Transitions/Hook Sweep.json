@@ -271,7 +271,36 @@
         "answer": "The most common failure point is losing chest-to-chest connection at the apex of the sweep, creating a gap that allows the opponent to insert defensive frames, post, or re-establish base as they come back down. This typically happens because the sweeper releases grip tension after the initial lift succeeds, treating the lift and the follow-through as two separate actions rather than one continuous motion. The correction is to maintain aggressive grip pulling throughout the entire sweep arc, keeping the opponent's upper body controlled and close to yours, so that your forward momentum carries you directly into side control without any pause at the apex."
       }
     ],
-    "safety_considerations": "The hook sweep is generally one of the safer techniques in BJJ when practiced correctly, but several important safety considerations must be observed. First, ensure controlled execution during drilling, avoiding explosive force until both partners are comfortable with the mechanics. The partner being swept should be prepared to breakfall safely, keeping their chin tucked and using proper rolling mechanics to avoid head or neck impact. Second, maintain awareness of training space boundaries, as the sweep creates lateral movement that can carry both practitioners several feet from the starting position. Third, the sweeping practitioner must control their follow-through to avoid landing heavily on their partner or driving excessive chest pressure onto a partner who has landed awkwardly. Fourth, when drilling with significant size mismatches, the larger practitioner should moderate their force to prevent injury. Partners should communicate clearly about resistance levels during drilling progression, ensuring both parties are ready for increased intensity before advancing to live resistance. Proper warm-up of hips and legs is essential, as the hook sweep requires significant hip flexibility and leg strength."
+    "safety_considerations": "The hook sweep is generally one of the safer techniques in BJJ when practiced correctly, but several important safety considerations must be observed. First, ensure controlled execution during drilling, avoiding explosive force until both partners are comfortable with the mechanics. The partner being swept should be prepared to breakfall safely, keeping their chin tucked and using proper rolling mechanics to avoid head or neck impact. Second, maintain awareness of training space boundaries, as the sweep creates lateral movement that can carry both practitioners several feet from the starting position. Third, the sweeping practitioner must control their follow-through to avoid landing heavily on their partner or driving excessive chest pressure onto a partner who has landed awkwardly. Fourth, when drilling with significant size mismatches, the larger practitioner should moderate their force to prevent injury. Partners should communicate clearly about resistance levels during drilling progression, ensuring both parties are ready for increased intensity before advancing to live resistance. Proper warm-up of hips and legs is essential, as the hook sweep requires significant hip flexibility and leg strength.",
+    "clips": [
+      {
+        "id": "MlMwtCvfYlQ",
+        "title": "Short hook sweep (baseball slide hook sweep)",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "BJJ Joe",
+        "duration": 57,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "c8JBXJMc0Oc",
+        "title": "Butterfly hook sweep demonstration",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "Butterfly The World",
+        "duration": 81,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2hc9sl1hEkE",
+        "title": "Overhook sweep from butterfly guard",
+        "by": "Satori BJJ",
+        "vertical": false,
+        "channel": "Satori BJJ",
+        "duration": 36,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Hook Sweep Defender",
@@ -398,6 +427,35 @@
         "phase": "Phase 4: Months 3+",
         "focus": "Live positional sparring with defensive focus",
         "description": "Positional sparring starting in opponent's butterfly guard. Focus on preventing all sweeps while actively working to pass. Partner attacks with full technique variety including hook sweep, butterfly sweep, arm drags, and guard transitions. Develop the ability to read and defend multiple threats while maintaining offensive passing intent."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ZAOF5qNApJ0",
+        "title": "Simple counters to a failed butterfly sweep",
+        "by": "Oneonta Jiu Jitsu",
+        "vertical": false,
+        "channel": "OneontaJiuJitsu Academy",
+        "duration": 98,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "IKs6ZDfahHE",
+        "title": "Passing butterfly guard via cross butterfly hook",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 44,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "FutXrBKJWj8",
+        "title": "Butterfly guard counter",
+        "by": "Shahrizan",
+        "vertical": false,
+        "channel": "Shahrizan AMAAC",
+        "duration": 61,
+        "verified": "2026-07-15"
       }
     ]
   },

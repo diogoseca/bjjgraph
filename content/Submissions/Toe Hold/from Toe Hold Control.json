@@ -340,6 +340,35 @@
         "question": "What distinguishes a successful toe hold finish from a position where you should transition to another attack?",
         "answer": "A successful finish requires all four control points maintained with the opponent unable to break grips, sit up, or rotate the knee enough to negate ankle leverage. Transition when any of these fail: if grips are broken beyond recovery, if the opponent achieves upright posture despite chest pressure, or if knee rotation eliminates your rotational angle. The decision point is whether re-establishing the compromised element is realistic or whether the opponent's defensive progress has created better opportunities at the next attack in the leg lock chain."
       }
+    ],
+    "clips": [
+      {
+        "id": "Kx8gZ3QdO8s",
+        "title": "Crossover Toe Hold",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "Bence Romanek",
+        "duration": 51,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "B_StkmaI3Nc",
+        "title": "Toe Hold from 50/50",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 17,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "esC22tIGI94",
+        "title": "Attack the Toe Hold from Top Half Guard",
+        "by": "Maven Martial Arts",
+        "vertical": false,
+        "channel": "Maven Martial Arts",
+        "duration": 45,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -469,6 +498,17 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Full resistance defensive sparring from toe hold control bottom with realistic pressure",
         "description": "Begin from established toe hold control bottom with the training partner working genuine finishing sequences at controlled intensity. Bottom player uses full defensive arsenal including grip breaks, knee management, free leg framing, and escape transitions. Strict tap-early culture enforced. Track escape success rate and identify which defensive sequences work best against your common training partners."
+      }
+    ],
+    "clips": [
+      {
+        "id": "3a9k8-ZcYrk",
+        "title": "How to Escape the Toe Hold",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "The King Life",
+        "duration": 106,
+        "verified": "2026-07-14"
       }
     ]
   }

@@ -299,7 +299,36 @@
         "answer": "The leg hook removes the base needed to generate forward rolling momentum and must be addressed before the cartwheel can proceed. Kick the hooked leg free by extending it forcefully while keeping your upper body loaded forward to maintain readiness for the roll. If the hook is too deep to clear with a single kick, abandon the cartwheel escape entirely and switch to alternative defenses. Drive your hips backward to relieve shoulder pressure and work toward posture recovery, or use the stack defense by driving forward weight onto the opponent to flatten them and reduce their leg control. Never attempt the roll with the far leg hooked as the incomplete momentum will stall the escape and leave you in a worse position."
       }
     ],
-    "safety_considerations": "The cartwheel escape involves a forward roll that places significant stress on the trapped shoulder and cervical spine. Always tuck the chin firmly before initiating any forward movement to protect the neck from compression injuries. If shoulder mobility is limited due to existing injury or the omoplata pressure has already created significant pain, do not attempt the roll as the rotational forces during the escape can exacerbate shoulder damage. In training, communicate clearly with your partner and tap early if the shoulder pressure becomes excessive before attempting the escape. Start all drilling at slow speed to develop proper rolling mechanics before adding intensity. Practitioners with neck or shoulder injuries should consult with their instructor before training this technique."
+    "safety_considerations": "The cartwheel escape involves a forward roll that places significant stress on the trapped shoulder and cervical spine. Always tuck the chin firmly before initiating any forward movement to protect the neck from compression injuries. If shoulder mobility is limited due to existing injury or the omoplata pressure has already created significant pain, do not attempt the roll as the rotational forces during the escape can exacerbate shoulder damage. In training, communicate clearly with your partner and tap early if the shoulder pressure becomes excessive before attempting the escape. Start all drilling at slow speed to develop proper rolling mechanics before adding intensity. Practitioners with neck or shoulder injuries should consult with their instructor before training this technique.",
+    "clips": [
+      {
+        "id": "_2dhd21ffbc",
+        "title": "Omoplata escape by jumping over the leg",
+        "by": "Ritchie Yip",
+        "vertical": false,
+        "channel": "Ritchie Yip",
+        "duration": 8,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "i1SFYSZvMJU",
+        "title": "Cartwheel over the head to escape the omoplata",
+        "by": "David Thomas",
+        "vertical": false,
+        "channel": "David Thomas",
+        "duration": 30,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "HszTUEYJ-xE",
+        "title": "Quick omoplata escape",
+        "by": "Adam Bradley",
+        "vertical": false,
+        "channel": "Adam Bradley",
+        "duration": 36,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Cartwheel Escape from Omoplata Defender",
@@ -424,6 +453,17 @@
         "phase": "Phase 4: Live Situational Sparring",
         "focus": "Full resistance decision-making",
         "description": "Begin from omoplata control with full resistance. Defender must decide in real-time whether to prevent the escape through control or follow the roll for the sweep. Track success rates for prevention versus exploitation across multiple rounds. Develop automatic responses to the recognition cues identified in Phase 1."
+      }
+    ],
+    "clips": [
+      {
+        "id": "tHynApXlsEA",
+        "title": "Posture escape from the omoplata",
+        "by": "Satori BJJ",
+        "vertical": false,
+        "channel": "Satori BJJ",
+        "duration": 73,
+        "verified": "2026-07-15"
       }
     ]
   }

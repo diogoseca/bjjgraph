@@ -285,7 +285,36 @@
         "answer": "Perform a second hip escape in the same direction to create additional angle rather than forcing the extraction. Each successive shrimp increases the angle between your hips and their control, progressively shortening the extraction path. Attempting to force the leg free against resistance wastes energy and telegraphs your movement, giving the opponent time to counter."
       }
     ],
-    "safety_considerations": "Inside Position Recovery is a relatively safe technique with low injury risk when practiced correctly. The primary safety concern is protecting your lower back and hip during the hip escape movement—avoid explosive twisting motions if you have existing hip or spine issues. When drilling, communicate with your partner about pressure levels during the leg drag, as excessive weight on a crossed leg can strain the knee. In live rolling, be aware that failed recovery attempts may result in your opponent advancing aggressively, so maintain protective frames even if the technique fails. Tap early if caught in any subsequent submission rather than fighting from a compromised position."
+    "safety_considerations": "Inside Position Recovery is a relatively safe technique with low injury risk when practiced correctly. The primary safety concern is protecting your lower back and hip during the hip escape movement—avoid explosive twisting motions if you have existing hip or spine issues. When drilling, communicate with your partner about pressure levels during the leg drag, as excessive weight on a crossed leg can strain the knee. In live rolling, be aware that failed recovery attempts may result in your opponent advancing aggressively, so maintain protective frames even if the technique fails. Tap early if caught in any subsequent submission rather than fighting from a compromised position.",
+    "clips": [
+      {
+        "id": "BhNZGloJ56c",
+        "title": "Guard recovery when getting smashed",
+        "by": "Finesse Jiujitsu HTX",
+        "vertical": false,
+        "channel": "FINESSE JIUJITSU HTX",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QH9-1I5XqO4",
+        "title": "Guard recovery from side control bottom",
+        "by": "Academy Jiu Jitsu",
+        "vertical": false,
+        "channel": "Academy Jiu Jitsu",
+        "duration": 105,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Ly89G4iCTSQ",
+        "title": "Turtle escape rolling back to guard",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 108,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Inside Position Recovery Defender",

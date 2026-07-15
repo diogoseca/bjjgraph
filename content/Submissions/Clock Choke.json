@@ -191,5 +191,43 @@
       "description": "Instead of controlling opponent's far side with your free hand, use it to reinforce your choking grip by grabbing your own wrist or grabbing the gi material near your choking hand. This creates significantly more pressure but requires you to already have excellent positioning and control. The trade-off is less ability to prevent opponent's rolling escape.",
       "when_to_use": "When opponent is smaller or when you have already achieved perfect positioning and want maximum choking pressure; most effective when they cannot roll due to being near the edge of the mat"
     }
+  ],
+  "clips": [
+    {
+      "id": "Yc4zm2EWi4g",
+      "title": "Tight Clock Choke",
+      "by": "Satoshi Ishii",
+      "vertical": false,
+      "channel": "Bernardo Faria BJJ Fanatics",
+      "duration": 138,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "rjP4GvxTO6s",
+      "title": "Invisible Choke From Side Control",
+      "by": "Tom Oberhue",
+      "vertical": false,
+      "channel": "Bernardo Faria BJJ Fanatics",
+      "duration": 166,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "rJ1YYOBoXMg",
+      "title": "No-Gi Clock Choke",
+      "by": "Ronster",
+      "vertical": false,
+      "channel": "Ronster",
+      "duration": 21,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "grDZ5vo84bg",
+      "title": "Turtle Control & Clock Choke",
+      "by": "CVL BJJ",
+      "vertical": false,
+      "channel": "CVL BJJ",
+      "duration": 135,
+      "verified": "2026-07-14"
+    }
   ]
 }

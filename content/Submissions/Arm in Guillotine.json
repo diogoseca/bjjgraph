@@ -178,5 +178,43 @@
       "name": "Turtle",
       "relationship": "Entry position when attacking opponent's turtle with front headlock"
     }
+  ],
+  "clips": [
+    {
+      "id": "NUnTxPvjCa0",
+      "title": "The Marcelotine Arm-In Guillotine",
+      "by": "Marcelo Garcia",
+      "vertical": false,
+      "channel": "stuartcooperfilms",
+      "duration": 73,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "8AGCNn4ElSA",
+      "title": "Arm-in Guillotine (Lapel-assisted)",
+      "by": "Johnny Jitsu",
+      "vertical": true,
+      "channel": "Johnny Jitsu",
+      "duration": 61,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "Dg1dvtWkXhE",
+      "title": "Marcelo Garcia Marcelotine Guillotine",
+      "by": "Marcelo Garcia",
+      "vertical": false,
+      "channel": "Half The Battle",
+      "duration": 110,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "IvSVZuezQGo",
+      "title": "Double Elbow to High Elbow Guillotine",
+      "by": "Marcelo Garcia",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 171,
+      "verified": "2026-07-14"
+    }
   ]
 }

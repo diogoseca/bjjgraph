@@ -287,7 +287,18 @@
         "answer": "Practitioners with longer legs have a mechanical advantage because their leg can arc over the opponent's head with less hip elevation required. Shorter or less flexible practitioners need a more explosive bridge and may need to create more angle before initiating the swing. Hip flexibility is more important than hamstring flexibility since the primary motion is a lateral rotation rather than a straight-leg lift. Regardless of body type, the technique remains viable when the bridge and turn-in mechanics are properly executed."
       }
     ],
-    "safety_considerations": "The Step Over Escape involves movement while a choke is actively applied, creating a window where practitioners must maintain composure under genuine submission threat. Always tap immediately if the choke reaches full depth before the escape is complete. Never sacrifice neck safety to force the technique. During training, the partner applying the Darce should release immediately when the training partner taps and should not chase the choke at full intensity during the learning phases. Be cautious of neck strain from the bridging and rotation under the opponent's weight. Warm up the neck and cervical spine thoroughly before drilling this technique. Partners should communicate clearly about resistance levels and any discomfort during progressive training phases."
+    "safety_considerations": "The Step Over Escape involves movement while a choke is actively applied, creating a window where practitioners must maintain composure under genuine submission threat. Always tap immediately if the choke reaches full depth before the escape is complete. Never sacrifice neck safety to force the technique. During training, the partner applying the Darce should release immediately when the training partner taps and should not chase the choke at full intensity during the learning phases. Be cautious of neck strain from the bridging and rotation under the opponent's weight. Warm up the neck and cervical spine thoroughly before drilling this technique. Partners should communicate clearly about resistance levels and any discomfort during progressive training phases.",
+    "clips": [
+      {
+        "id": "9Sk00Dj1LCk",
+        "title": "D'Arce choke escape",
+        "by": "Asaf Mich",
+        "vertical": false,
+        "channel": "Asaf Mich",
+        "duration": 61,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Step Over Escape Defender",
@@ -411,6 +422,17 @@
         "phase": "Week 7+",
         "focus": "Competition-intensity positional sparring",
         "description": "Full resistance positional rounds starting from Darce Control. The top player works to finish the choke while the bottom player chains all available escapes. Track finish rate versus escape rate across 10-attempt sets. Develop the ability to recognize and shut down the step over while maintaining submission pressure on other escape attempts."
+      }
+    ],
+    "clips": [
+      {
+        "id": "8Idnp8DpSHU",
+        "title": "Finishing the darce against a bigger defender",
+        "by": "Rener & Ryron Gracie",
+        "vertical": false,
+        "channel": "Hayabusa",
+        "duration": 151,
+        "verified": "2026-07-15"
       }
     ]
   },

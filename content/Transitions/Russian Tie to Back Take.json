@@ -295,7 +295,27 @@
         "answer": "When the opponent sprawls backward and drops their hips, they commit their weight away from you in a direction that prevents rotational movement. Their heavy sprawl makes it biomechanically difficult for them to turn to face you because their hips are behind their shoulders and their weight is committed to the mat. This means your lateral circling meets less rotational resistance. Continue small lateral steps while maintaining head pressure on their bicep, and their inability to turn will allow you to reach the perpendicular angle more easily than against an upright, mobile opponent."
       }
     ],
-    "safety_considerations": "The Russian Tie to Back Take is generally a safe technique when practiced properly, but practitioners should be aware of several safety considerations. When applying the Russian Tie grip, avoid hyperextending the opponent's wrist or elbow by maintaining control without excessive torque on joints. During drilling with beginners, ensure your partner understands they can tap if they feel unsafe during the rotation to back control. When circling, be aware of mat boundaries and other training pairs to prevent accidental collisions. The most common injury risk occurs when practitioners take overly large steps and lose balance, potentially causing both partners to fall awkwardly on standing surfaces. Always maintain controlled movement rather than explosive rushing. In competition scenarios, be cautious of opponents attempting sacrifice throws or guard pulls while you have Russian Tie control - maintain a low base and be prepared to follow them to the ground safely. For training partners with shoulder or rotator cuff issues, communicate before drilling and apply lighter pressure on the controlled arm."
+    "safety_considerations": "The Russian Tie to Back Take is generally a safe technique when practiced properly, but practitioners should be aware of several safety considerations. When applying the Russian Tie grip, avoid hyperextending the opponent's wrist or elbow by maintaining control without excessive torque on joints. During drilling with beginners, ensure your partner understands they can tap if they feel unsafe during the rotation to back control. When circling, be aware of mat boundaries and other training pairs to prevent accidental collisions. The most common injury risk occurs when practitioners take overly large steps and lose balance, potentially causing both partners to fall awkwardly on standing surfaces. Always maintain controlled movement rather than explosive rushing. In competition scenarios, be cautious of opponents attempting sacrifice throws or guard pulls while you have Russian Tie control - maintain a low base and be prepared to follow them to the ground safely. For training partners with shoulder or rotator cuff issues, communicate before drilling and apply lighter pressure on the controlled arm.",
+    "clips": [
+      {
+        "id": "iE9Ap8vUYWQ",
+        "title": "2-on-1 drag behind to the back",
+        "by": "Alec Pantaleo",
+        "vertical": false,
+        "channel": "FANATIC WRESTLING",
+        "duration": 169,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "RtJPzUBgCIs",
+        "title": "Russian 2-on-1 mechanics and common errors",
+        "by": "Shintaro Higashi",
+        "vertical": false,
+        "channel": "Shintaro Higashi",
+        "duration": 177,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Russian Tie to Back Take Defender",
@@ -420,6 +440,26 @@
         "phase": "Month 3+: Live Sparring Integration",
         "focus": "Defending the Russian Tie in live standing exchanges",
         "description": "Begin rounds from standing with partner specifically hunting for Russian Tie control. Practice grip fighting to prevent the 2-on-1 establishment as the first line of defense. When the Russian Tie is secured, execute trained defensive responses under full resistance. Review training footage to identify patterns in reaction timing and defense selection."
+      }
+    ],
+    "clips": [
+      {
+        "id": "uVsLdcUuxJg",
+        "title": "2-on-1 defense",
+        "by": "Youssif Hemida",
+        "vertical": false,
+        "channel": "FANATIC WRESTLING",
+        "duration": 158,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "wP6QjxaklRk",
+        "title": "Countering the 2-on-1 with a double leg",
+        "by": "Shelton Mack",
+        "vertical": false,
+        "channel": "FANATIC WRESTLING",
+        "duration": 242,
+        "verified": "2026-07-15"
       }
     ]
   }

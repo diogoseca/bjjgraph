@@ -332,6 +332,35 @@
           "nogi": 5
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "17m6bnarNdE",
+        "title": "Arm Attack Options from Scarf Hold",
+        "by": "Alexey Olynick",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 89,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "907qne3Jz7c",
+        "title": "Scarf Hold Submission Compilation",
+        "by": "Timothy Player",
+        "vertical": false,
+        "channel": "Timothy Player",
+        "duration": 45,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "wxD6LV1GARg",
+        "title": "Armbar from Kesa Gatame (Scarf Hold)",
+        "by": "Jiu-jitsu",
+        "vertical": false,
+        "channel": "Jiu-jitsu",
+        "duration": 68,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -606,6 +635,35 @@
           "nogi": 11
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "2M_6VytUaus",
+        "title": "Kesa Gatame Escape",
+        "by": "SBG Australia",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 43,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "fvp5_BVEtLg",
+        "title": "Kesa Gatame Pressure Defense w/ Framing",
+        "by": "Kohbukan Sisu",
+        "vertical": false,
+        "channel": "Kohbukan Sisu",
+        "duration": 84,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "M5rDeLflY5w",
+        "title": "Modified Kesa Escape",
+        "by": "Inverted Gear",
+        "vertical": false,
+        "channel": "Inverted Gear",
+        "duration": 123,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -640,6 +698,17 @@
     {
       "question": "Why does Modified Scarf Hold restrict the bottom player's breathing more than orthodox side control?",
       "answer": "Orthodox side control often distributes the top player's weight across the shoulder and hip lines with a cross-face, leaving portions of the ribcage relatively free. Modified Scarf Hold concentrates the sternum directly over the center of the ribcage, compressing the chest cavity where lung expansion occurs. This centered compression, combined with the trapped near arm removing a framing outlet, produces a suffocating, claustrophobic sensation that accelerates fatigue. The breathing restriction is a mechanical consequence of the centered chest geometry rather than a deliberate choke, and it shapes the tempo of the exchange for both players."
+    }
+  ],
+  "clips": [
+    {
+      "id": "aTsvuZ1vM48",
+      "title": "Kuzure Kesa Gatame: Study It",
+      "by": "Judo Life",
+      "vertical": false,
+      "channel": "Judo Life",
+      "duration": 33,
+      "verified": "2026-07-14"
     }
   ]
 }

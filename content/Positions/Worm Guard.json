@@ -351,6 +351,35 @@
           "nogi": 0
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "aR0dbddbfQA",
+        "title": "Passing the Polish Worm Rider (lapel pass)",
+        "by": "Daniel Maira",
+        "vertical": false,
+        "channel": "Movement Art",
+        "duration": 54,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "LrcdkHwbHK8",
+        "title": "Passing Worm Guard tarikoplata",
+        "by": "luciana MARCOS",
+        "vertical": false,
+        "channel": "luciana MARCOS",
+        "duration": 66,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "u0D9HUwXuKE",
+        "title": "Passing lapel guard",
+        "by": "Vicente Cavalcanti",
+        "vertical": false,
+        "channel": "VICENTE CAVALCANTI",
+        "duration": 70,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -677,6 +706,35 @@
           "nogi": 0
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "ARmiJRANTpg",
+        "title": "Worm Guard to back choke",
+        "by": "Keenan Cornelius",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 36,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "qua4MaF2d98",
+        "title": "Worm Guard reverse omoplata",
+        "by": "Keenan Cornelius",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 49,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "BHwU-bbyvkc",
+        "title": "Worm Guard attacks: sweep & berimbolo",
+        "by": "jamielovesmartialarts",
+        "vertical": false,
+        "channel": "jamielovesmartialarts",
+        "duration": 89,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -711,6 +769,35 @@
     {
       "question": "How does dynamic hip angle relative to the opponent govern the off-balancing potential in Worm Guard?",
       "answer": "Even with the lapel locked, the direction and magnitude of off-balancing force depend on the bottom player's hip angle relative to the top player, typically kept perpendicular or slightly angled to maximize leverage. Static hips make any sweep predictable and let the top player anchor their base against a known vector, while continuously shifting hip angles create fresh off-balancing forces the top player must constantly re-address. The lapel linkage supplies the connection, but the hips supply the direction of attack, so the two must work together. This is why the position is an active platform rather than a static hold, with hip movement dictating where the top player's compromised base gets pulled."
+    }
+  ],
+  "clips": [
+    {
+      "id": "QzwnLW735U8",
+      "title": "Worm Guard breakdown",
+      "by": "Erich Munis",
+      "vertical": false,
+      "channel": "Deep Dive JJ",
+      "duration": 53,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "ARmiJRANTpg",
+      "title": "Worm Guard to back choke",
+      "by": "Keenan Cornelius",
+      "vertical": false,
+      "channel": "Jiu Jitsu Moves",
+      "duration": 36,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "OO2IqO3M8f8",
+      "title": "Lapel guard overview",
+      "by": "bjjhighlights",
+      "vertical": false,
+      "channel": "@bjjhighlights",
+      "duration": 52,
+      "verified": "2026-07-14"
     }
   ]
 }

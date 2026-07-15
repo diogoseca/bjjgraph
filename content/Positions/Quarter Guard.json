@@ -415,6 +415,17 @@
           "nogi": 11
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "Zo6aygjOgcQ",
+        "title": "Passing half guard",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Nina Drama Clips",
+        "duration": 188,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -734,6 +745,35 @@
           "nogi": 9
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "sMsgoChdaHE",
+        "title": "Quarter guard concepts",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "3Jqz8_dbsfM",
+        "title": "Quarter guard dogfight scoop sweep",
+        "by": "Christopher Hendrick",
+        "vertical": false,
+        "channel": "Christopher Hendrick",
+        "duration": 45,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "9OVINPV6FkY",
+        "title": "Quarter guard back step to heel hook",
+        "by": "Subforce",
+        "vertical": false,
+        "channel": "Subforce Women",
+        "duration": 30,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -768,6 +808,17 @@
     {
       "question": "What makes the near-side crossface such a decisive frame in quarter guard for both competitors?",
       "answer": "The crossface, the top player's shoulder or upper arm pressing across the bottom player's jaw and far cheek, is the mechanism that rotates the bottom player's head and shoulders toward flat, directly attacking the hip angle that sustains the position. When it is established the bottom player cannot turn back in to recover the underhook or generate a sweep, which is why bottom-player defense centers on turning the head away and framing against the crossfacing arm before it settles. Establishing it is likewise the top player's prerequisite to committing weight into the final pass. The crossface is thus the specific upper-body frame that translates pressure into a flattened, passable opponent."
+    }
+  ],
+  "clips": [
+    {
+      "id": "XMfbu5VR2kE",
+      "title": "What is the half guard?",
+      "by": "Stephan Kesting",
+      "vertical": false,
+      "channel": "Stephan Kesting",
+      "duration": 109,
+      "verified": "2026-07-14"
     }
   ]
 }

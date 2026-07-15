@@ -291,7 +291,18 @@
         "answer": "First, immediately re-establish your wide base and drop your hips to prevent the bottom player from capitalizing on any forward momentum from the failed attempt. Second, reassess whether the lapel has been re-threaded during the failed pass—if so, restart the grip-clearing hierarchy from the beginning. Third, change your passing direction for the next attempt, as the bottom player has now prepared defenses for your initial direction. Avoid the instinct to immediately reattempt the same pass, as they are most prepared for that exact sequence."
       }
     ],
-    "safety_considerations": "Guard passing against Piranha Guard involves aggressive grip fighting that creates risk of finger injuries from lapel gripping and wrist strain from stripping motions. Maintain controlled intensity during grip exchanges and avoid violent yanking on lapel material. When clearing the collar from between the opponent's legs, use smooth pulling motions rather than explosive jerks to prevent knee or hip injuries to the bottom player. During the passing phase, control your weight distribution to avoid dropping full body weight onto the bottom player's face or neck area during side control consolidation."
+    "safety_considerations": "Guard passing against Piranha Guard involves aggressive grip fighting that creates risk of finger injuries from lapel gripping and wrist strain from stripping motions. Maintain controlled intensity during grip exchanges and avoid violent yanking on lapel material. When clearing the collar from between the opponent's legs, use smooth pulling motions rather than explosive jerks to prevent knee or hip injuries to the bottom player. During the passing phase, control your weight distribution to avoid dropping full body weight onto the bottom player's face or neck area during side control consolidation.",
+    "clips": [
+      {
+        "id": "lACga4DakTM",
+        "title": "Modern lapel guard passing",
+        "by": "Romulo Barral",
+        "vertical": false,
+        "channel": "Romulo Barral",
+        "duration": 121,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Pass Piranha Guard Defender",
@@ -416,6 +427,17 @@
         "phase": "Phase 4: Full Defense at Competition Intensity",
         "focus": "Complete defensive integration against committed passers",
         "description": "Partner attempts full-speed Piranha Guard passes with all stripping, lateral, and pressure tools at 90-100% resistance. Practice the complete defensive cycle from grip retention through sweep attempts through guard transitions. Track how many pass attempts you can defend per round."
+      }
+    ],
+    "clips": [
+      {
+        "id": "X2JY-yMeGo8",
+        "title": "Guard retention against the pass",
+        "by": "Cobrinha",
+        "vertical": false,
+        "channel": "Cobrinha Brazilian Jiu-Jitsu & Fitness",
+        "duration": 46,
+        "verified": "2026-07-15"
       }
     ]
   }

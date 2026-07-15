@@ -226,5 +226,43 @@
       "name": "Anaconda Choke",
       "relationship": "Complementary front headlock submission sharing positional entries"
     }
+  ],
+  "clips": [
+    {
+      "id": "SAWvSovVk4A",
+      "title": "Guillotine from Butterfly Guard",
+      "by": "Jake Shields",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 64,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "Z75kDSCIeN4",
+      "title": "Guillotine Choke from Butterfly Guard",
+      "by": "Modesto Judo Club",
+      "vertical": false,
+      "channel": "Modesto Judo Club",
+      "duration": 76,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "2Ioe4B7HF38",
+      "title": "Guillotine choke from the clinch",
+      "by": "Michael James",
+      "vertical": false,
+      "channel": "Michael James",
+      "duration": 43,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "-x0MJel3Ru0",
+      "title": "Attacking the standing guillotine",
+      "by": "Fargo BJJ",
+      "vertical": false,
+      "channel": "Fargo BJJ Academy",
+      "duration": 55,
+      "verified": "2026-07-14"
+    }
   ]
 }

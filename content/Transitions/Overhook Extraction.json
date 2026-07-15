@@ -260,7 +260,27 @@
         "answer": "Immediately abandon the extraction and shift to stack defense. The Zombie position deepens leg control and creates additional choking threats that are more dangerous than New York. Address the transition by driving your weight forward into your opponent's hips to prevent their leg from climbing higher. Once you have neutralized the Zombie attempt and returned to New York, reassess whether extraction or an alternative escape is more viable."
       }
     ],
-    "safety_considerations": "Overhook extraction carries moderate injury risk primarily to the shoulder and elbow of the trapped arm. Never explosively yank your arm to escape - this can hyperextend the elbow against the overhook pressure or strain the shoulder capsule. The corkscrew motion should be smooth and controlled. If you feel significant pain during extraction, stop and work to create space rather than forcing through. Partners should release immediately if the person on top signals discomfort. When drilling, start with zero resistance and progress slowly to ensure both partners understand the mechanics before adding intensity."
+    "safety_considerations": "Overhook extraction carries moderate injury risk primarily to the shoulder and elbow of the trapped arm. Never explosively yank your arm to escape - this can hyperextend the elbow against the overhook pressure or strain the shoulder capsule. The corkscrew motion should be smooth and controlled. If you feel significant pain during extraction, stop and work to create space rather than forcing through. Partners should release immediately if the person on top signals discomfort. When drilling, start with zero resistance and progress slowly to ensure both partners understand the mechanics before adding intensity.",
+    "clips": [
+      {
+        "id": "rxnJrGZMDlc",
+        "title": "Overhook Armbar extraction from guard",
+        "by": "JiuJitsuEvolutionSeries",
+        "vertical": false,
+        "channel": "JiuJitsuEvolutionSeries",
+        "duration": 50,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "xNc_Cdh9VVg",
+        "title": "Late stage guard retention using the rubber guard",
+        "by": "Robert Diggle",
+        "vertical": false,
+        "channel": "RobertDiggleJJ",
+        "duration": 189,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Overhook Extraction Defender",
@@ -384,6 +404,26 @@
         "phase": "Week 7+",
         "focus": "Live situational sparring",
         "description": "Start in New York with partner working full resistance extraction. Integrate all defensive tools - overhook retention, offensive cycling, triangle transitions, and positional advancement. Track how often you maintain position versus successfully transition versus lose control entirely."
+      }
+    ],
+    "clips": [
+      {
+        "id": "5J92PJO-dEo",
+        "title": "Overhook control from Closed Guard",
+        "by": "6am Jiu Jitsu",
+        "vertical": false,
+        "channel": "6am jiu jitsu, try it, it’s fun they said 🥋",
+        "duration": 114,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "tWAZbCiWQ9E",
+        "title": "Rubber Guard Philosophy: maintaining the overhook",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
       }
     ]
   },

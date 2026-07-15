@@ -295,7 +295,27 @@
         "answer": "The opponent's weight distribution determines both whether to attempt the sweep and how to execute it. Heavy forward pressure creates the ideal condition—their committed weight provides momentum that the sweep redirects. Weight centered over your hips allows the standard sweep with full hip bridge. Weight shifted to one side suggests angling the sweep toward the light side. Weight posted back on their heels is a contraindication—do not attempt the sweep and instead use alternative guard recovery methods or bait them forward before attempting."
       }
     ],
-    "safety_considerations": "The Sweep from Double Jump involves explosive hip extension and bilateral leg mechanics that can stress knee and ankle joints if executed with poor alignment. Always warm up hip flexors, hamstrings, and groin thoroughly before drilling this technique. When completing the sweep, control your opponent's descent to prevent them from landing with uncontrolled impact. During training, communicate with your partner about entry intensity and avoid full-force sweeps against significantly lighter training partners. If you feel any sharp pain in your knees during the leg insertion or elevation phase, stop immediately and reassess your hook positioning."
+    "safety_considerations": "The Sweep from Double Jump involves explosive hip extension and bilateral leg mechanics that can stress knee and ankle joints if executed with poor alignment. Always warm up hip flexors, hamstrings, and groin thoroughly before drilling this technique. When completing the sweep, control your opponent's descent to prevent them from landing with uncontrolled impact. During training, communicate with your partner about entry intensity and avoid full-force sweeps against significantly lighter training partners. If you feel any sharp pain in your knees during the leg insertion or elevation phase, stop immediately and reassess your hook positioning.",
+    "clips": [
+      {
+        "id": "zbYb6sOYC8w",
+        "title": "X guard sweep",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "CHOKE LABORATORY",
+        "duration": 53,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "is7gMf-wYuA",
+        "title": "2-on-1 hook sweep from butterfly guard",
+        "by": "grpplng",
+        "vertical": false,
+        "channel": "grpplng",
+        "duration": 14,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Sweep from Double Jump Defender",

@@ -312,6 +312,17 @@
         "question": "If you decide to stand up to relieve the clamp pressure, how do you do it without surrendering the arm?",
         "answer": "Never stand straight up while the clamp is locked and your arm is straight, because that loads the armbar instantly and narrows your base for a sweep. First pin the bottom player's clamping knee to the mat with your free hand to kill their hip elevation, and keep your trapped elbow bent and tight to your ribs so the arm cannot be extended. Step up to your trapped-side foot first, driving your shoulder forward into them so they cannot follow your hips, then use the standing base to slide the bent elbow free along their thigh. Standing is a tool to break the clamp's angle, but only after the knee is controlled and the arm is protected from extension."
       }
+    ],
+    "clips": [
+      {
+        "id": "58LkTy6v3KQ",
+        "title": "Defense and counter to the clamp guard",
+        "by": "The Grappling Bloke",
+        "vertical": false,
+        "channel": "The Grappling Bloke",
+        "duration": 109,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -609,6 +620,35 @@
         "question": "What base fundamentals prevent the opponent from simply standing up to disengage from the clamp guard entirely?",
         "answer": "Maintain constant downward pressure on the opponent's posture through a combination of wrist grip pulling their trapped arm toward your hip and head or collar control pulling their upper body forward. This posture-breaking force prevents them from straightening their spine, which is a prerequisite for standing. Additionally, use your free leg (the non-clamping leg) as a hook behind their far knee or inside their thigh to disrupt their base and prevent the leg drive needed to stand. If they begin to posture despite your controls, immediately threaten an armbar by extending your hips — the armbar threat forces them to drop back down rather than risk the submission by standing into full arm extension."
       }
+    ],
+    "clips": [
+      {
+        "id": "bH5ApVR2jRo",
+        "title": "Shoulder crunch from closed guard",
+        "by": "Francis F. Abramson",
+        "vertical": false,
+        "channel": "Francis F. Abramson",
+        "duration": 84,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "bCuDep0mSEA",
+        "title": "Clamp guard to kimura",
+        "by": "LBJJ TV",
+        "vertical": false,
+        "channel": "LBJJ TV",
+        "duration": 170,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "zgSRXQFf97o",
+        "title": "Clamp guard to triangle",
+        "by": "Nathan Kay",
+        "vertical": false,
+        "channel": "London Grapple",
+        "duration": 224,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -643,6 +683,26 @@
     {
       "question": "How does Clamp Guard differ from spider and lasso guard despite all three using shin or foot contact on the arm?",
       "answer": "All three place a leg against the opponent's arm, but the mechanism and objective diverge sharply. Spider guard uses the sole of the foot pushing outward against the bicep with a sleeve grip to manage distance and off-balance, and lasso wraps the shin around the outside of the arm to entangle and control posture, both relying on the gi. Clamp Guard instead traps the arm fully between two legs, wedging it with bone-on-bone bilateral pressure to isolate the limb outright rather than to steer it at range. The clamp aims to remove the arm from play and finish, whereas spider and lasso aim to control and unbalance while keeping the opponent at a managed distance. Clamp Guard is also range-collapsing and grip-independent, making it a fundamentally closer, more submission-oriented cousin rather than a distance guard."
+    }
+  ],
+  "clips": [
+    {
+      "id": "KPJJENQtRWU",
+      "title": "Straitjacket: trapping the arm",
+      "by": "Absolute MMA St Kilda",
+      "vertical": false,
+      "channel": "Absolute MMA St Kilda - Melbourne",
+      "duration": 125,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "cgMrWs-IXm4",
+      "title": "Trap the arm from closed guard (no-gi)",
+      "by": "Mica Galvao",
+      "vertical": true,
+      "channel": "Bernardo Faria BJJ Fanatics",
+      "duration": 61,
+      "verified": "2026-07-14"
     }
   ]
 }

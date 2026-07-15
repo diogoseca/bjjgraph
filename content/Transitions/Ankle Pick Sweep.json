@@ -304,7 +304,36 @@
         "answer": "Immediately after the sweep, your priorities are: first, maintain upper body control throughout the transition to prevent guard recovery; second, come up on your knees explosively rather than staying seated; third, establish headquarters position or side control by getting your hips perpendicular to your opponent; fourth, secure head control with a crossface or underhook to prevent them from turning toward you; and fifth, begin advancing toward mount or working to pass any remaining leg frames. The first three seconds after a sweep are critical for consolidating position."
       }
     ],
-    "safety_considerations": "The ankle pick sweep is generally a low-risk technique with minimal injury potential when executed properly. The primary safety concern is ensuring controlled execution during training to avoid torquing the opponent's ankle excessively. When drilling, gradually increase intensity rather than immediately going at full speed, and communicate with your training partner about appropriate resistance levels. For the person being swept, practice safe falling techniques and avoid posting with a stiff arm, which can lead to wrist or shoulder injuries. Instead, use proper breakfall mechanics when landing. When applying the sweep in competition or higher-intensity training, be aware of the mat boundaries to avoid sweeping your opponent off the mat or into obstacles. Beginners should focus on technical precision rather than speed or power until the movement pattern is well established."
+    "safety_considerations": "The ankle pick sweep is generally a low-risk technique with minimal injury potential when executed properly. The primary safety concern is ensuring controlled execution during training to avoid torquing the opponent's ankle excessively. When drilling, gradually increase intensity rather than immediately going at full speed, and communicate with your training partner about appropriate resistance levels. For the person being swept, practice safe falling techniques and avoid posting with a stiff arm, which can lead to wrist or shoulder injuries. Instead, use proper breakfall mechanics when landing. When applying the sweep in competition or higher-intensity training, be aware of the mat boundaries to avoid sweeping your opponent off the mat or into obstacles. Beginners should focus on technical precision rather than speed or power until the movement pattern is well established.",
+    "clips": [
+      {
+        "id": "prFvdbbgE5Q",
+        "title": "Inside foot sweep into ankle pick",
+        "by": "JamJits",
+        "vertical": false,
+        "channel": "JamJits",
+        "duration": 49,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "pF7jaKzHra0",
+        "title": "Ankle pick from seated guard",
+        "by": "Fox Den Martial Arts",
+        "vertical": false,
+        "channel": "Fox Den Martial Arts",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "93fnYBkmiGQ",
+        "title": "Lapel grip ankle pick",
+        "by": "JiuJitsu.com",
+        "vertical": false,
+        "channel": "JiuJitsu.com",
+        "duration": 52,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Ankle Pick Sweep Defender",
@@ -434,6 +463,35 @@
         "phase": "Week 9+: Integrated passing with ankle pick defense",
         "focus": "Defending ankle pick while actively passing seated guard",
         "description": "Full positional sparring where you attempt to pass seated guard while partner uses ankle pick as part of their complete seated guard offense. Practice maintaining passing initiative while defending sweep threats. Focus on transitioning from defense back to offense immediately after shutting down the ankle pick attempt, converting defensive movements into passing angles. Apply in open rolling."
+      }
+    ],
+    "clips": [
+      {
+        "id": "nsDT5YZgU-4",
+        "title": "Counter to the double ankle sweep",
+        "by": "Kohbukan Sisu",
+        "vertical": false,
+        "channel": "Kohbukan Sisu",
+        "duration": 95,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "qP9iLxlxgzw",
+        "title": "Sit up guard live breakdown",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 120,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lVLAROiSjNU",
+        "title": "Guard retention: when to sit up and escape",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 136,
+        "verified": "2026-07-15"
       }
     ]
   },

@@ -343,6 +343,35 @@
         "answer": "If the opponent clears your outside leg but your inside leg retains deep thigh control, immediately transition to saddle by stepping your outside leg through to the far side of their hip. This converts partial escape into a higher-control entanglement. The inside leg control is the critical retention point—as long as it stays deep on their thigh, you can rebuild the entanglement or transition to saddle rather than losing position entirely.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "rjMVCd6n1TA",
+        "title": "Inside Heel Hook",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "6gu-n4P9JXo",
+        "title": "Heel Hook Breaking Mechanics",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "Altay Pirge",
+        "duration": 77,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "QfNKQzy3V_w",
+        "title": "Arm Saddle to Inside Heel Hook Drill",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 21,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -482,6 +511,35 @@
         "phase": "Phase 4: Live positional defense rounds",
         "focus": "Full-speed defense with tap discipline and escape selection",
         "description": "Begin rounds in established ushiro ashi-garami bottom with both practitioners at full intensity. Practice selecting between escape, defense, and counter-attack based on real-time conditions. Emphasize tap discipline—tap early and without hesitation when rotational pressure is felt. Review each round to identify decision points."
+      }
+    ],
+    "clips": [
+      {
+        "id": "AsGMkATAqqw",
+        "title": "Heel Hook Defense When Ambushed",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 53,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "v3w0qXLKxug",
+        "title": "Defending Heel Hooks",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 92,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "5jD4ByQUrDA",
+        "title": "Inside/Inverted Heel Hook Escape",
+        "by": "Scott Ryan Chiriboga",
+        "vertical": false,
+        "channel": "Scott Ryan Chiriboga",
+        "duration": 108,
+        "verified": "2026-07-14"
       }
     ]
   }

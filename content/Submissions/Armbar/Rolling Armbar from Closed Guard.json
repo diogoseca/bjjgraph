@@ -383,6 +383,35 @@
         "answer": "The most common finishing error causing injuries is applying the extension too rapidly after completing the roll. The momentum and surprise of the rolling entry often means the opponent hasn't fully realized they're in danger until the submission is locked. If you immediately hyperextend with full force, they have no time to tap. Prevention requires deliberately slowing down the finishing phase regardless of how explosive the rolling entry was. Apply extension progressively over 3-5 seconds, watching for tap signals throughout. The position and leverage create the tap, not speed - a properly locked rolling armbar requires minimal force to finish safely.",
         "safety_critical": true
       }
+    ],
+    "clips": [
+      {
+        "id": "XVxTzuJ1F60",
+        "title": "Overhook closed guard to rolling armbar",
+        "by": "BOWERHOUSE MMA",
+        "vertical": false,
+        "channel": "BOWERHOUSE MMA",
+        "duration": 60,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "vSmRbpNmf-E",
+        "title": "Roger Gracie armbars",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 102,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "e995R56aRTU",
+        "title": "Rolling armbar from closed guard",
+        "by": "Pure Art BJJ",
+        "vertical": false,
+        "channel": "Pure Art BJJ Portsmouth - Brazilian Jiu-Jitsu",
+        "duration": 19,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -516,6 +545,26 @@
         "phase": "Phase 4: Live Defense Integration",
         "focus": "Applying defensive skills against fully committed rolling armbar attempts in sparring",
         "description": "Positional sparring rounds starting in closed guard where the bottom player is hunting specifically for rolling armbars. Defend using the full defensive toolkit: grip denial during setup, stacking or following during the roll, and escape mechanics during the finish. Track which phase of defense you most commonly rely on and work to improve earlier-phase interventions. Film rounds for technical review."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "My favorite armbar escape",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "yWmSp1_dOfI",
+        "title": "Armbar defense escape",
+        "by": "Wesley Chapel MMA",
+        "vertical": false,
+        "channel": "Wesley Chapel MMA",
+        "duration": 172,
+        "verified": "2026-07-14"
       }
     ]
   },

@@ -313,7 +313,36 @@
         "answer": "The torso leg serves as the primary anti-escape mechanism in S Mount. Positioned across the opponent's chest at sternum level, it prevents hip escape by blocking lateral hip movement and anchors your weight distribution across their upper body. Without this leg tight and heavy across the chest, the opponent can shrimp their hips away and begin recovering guard. The torso leg must maintain constant downward pressure and stay connected to their chest — if it rides up or loosens, the position deteriorates rapidly."
       }
     ],
-    "safety_considerations": "The High Mount to S Mount transition itself carries low injury risk since it is a positional movement rather than a joint attack. However, practitioners should be aware that the transition leads directly to armbar position, where injury potential is significant. During training, complete the S Mount entry with control rather than explosive speed to avoid accidentally dropping weight onto your partner's face or shoulder. When drilling the full sequence into armbar, always allow time for your partner to tap and release immediately. Never slam or drop into S Mount position — the hip-to-shoulder drive should be firm but controlled."
+    "safety_considerations": "The High Mount to S Mount transition itself carries low injury risk since it is a positional movement rather than a joint attack. However, practitioners should be aware that the transition leads directly to armbar position, where injury potential is significant. During training, complete the S Mount entry with control rather than explosive speed to avoid accidentally dropping weight onto your partner's face or shoulder. When drilling the full sequence into armbar, always allow time for your partner to tap and release immediately. Never slam or drop into S Mount position — the hip-to-shoulder drive should be firm but controlled.",
+    "clips": [
+      {
+        "id": "FSbR22OOSaE",
+        "title": "S-Mount basics and entry (no-gi)",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 72,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2Xm_mLp8xwk",
+        "title": "S-Mount troubleshooting details",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 67,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "RsNdjwonGkw",
+        "title": "Transitioning from mount to S-Mount",
+        "by": "Procel BJJ",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 132,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "High Mount to S Mount Defender",
@@ -443,6 +472,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance defense from high mount bottom",
         "description": "Start in high mount bottom with partner actively working to achieve S Mount and finish the armbar. Full resistance both directions. Defender scores a point for preventing the S Mount entry (forcing return to high mount) and two points for escaping to half guard. This phase tests whether defensive timing and technique transfer to realistic conditions against unpredictable attacks."
+      }
+    ],
+    "clips": [
+      {
+        "id": "TOQ9I4gYOaU",
+        "title": "Escaping S mount to half guard",
+        "by": "Paul Schreiner",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 295,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "9252EvCT0q4",
+        "title": "Mount escape when the standard escapes stall",
+        "by": "Gabriel Gonzaga",
+        "vertical": false,
+        "channel": "Gabriel Gonzaga",
+        "duration": 93,
+        "verified": "2026-07-15"
       }
     ]
   }

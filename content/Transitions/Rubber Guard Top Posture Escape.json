@@ -266,7 +266,18 @@
         "answer": "If the initial escape fails, reassess before repeating. Try the stacking variation by driving forward pressure through your shoulder while walking knees up to compress their spine and reduce leg elevation effectiveness. If stacking fails, attempt the swim-and-circle extraction from a different angle. If all escapes fail, prioritize preventing advancement to submission-ready positions by maintaining the free hand frame on their knee while conserving energy for the next escape opportunity."
       }
     ],
-    "safety_considerations": "This escape involves movements around the neck and shoulder area while under posture-breaking pressure. Avoid explosive jerking of the trapped arm as this can cause shoulder impingement or rotator cuff strain. If neck pain develops from prolonged posture breaking, tap and reset rather than fighting through cervical compression. During training, partners holding Rubber Guard should release immediately if the top player reports neck discomfort, and both practitioners should warm up neck and shoulder mobility before drilling this escape."
+    "safety_considerations": "This escape involves movements around the neck and shoulder area while under posture-breaking pressure. Avoid explosive jerking of the trapped arm as this can cause shoulder impingement or rotator cuff strain. If neck pain develops from prolonged posture breaking, tap and reset rather than fighting through cervical compression. During training, partners holding Rubber Guard should release immediately if the top player reports neck discomfort, and both practitioners should warm up neck and shoulder mobility before drilling this escape.",
+    "clips": [
+      {
+        "id": "AvivOVuYcCk",
+        "title": "Simple rubber guard escape for the top player",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 131,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Rubber Guard Top Posture Escape Defender",
@@ -391,6 +402,26 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Full resistance positional sparring maintaining Rubber Guard",
         "description": "Positional sparring with full resistance starting in Rubber Guard. Bottom player works to maintain control and submit or sweep. Top player works to escape. Track retention rate, submission conversion rate, and how often the position advances through the hierarchy before resolution."
+      }
+    ],
+    "clips": [
+      {
+        "id": "GWR4g4St-yw",
+        "title": "Invisible detail for holding rubber guard",
+        "by": "Strength & Honor MMA",
+        "vertical": false,
+        "channel": "Strength & Honor MMA",
+        "duration": 142,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "OXNu_vW7onc",
+        "title": "Why your rubber guard keeps getting passed",
+        "by": "Brandon Mccaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 282,
+        "verified": "2026-07-15"
       }
     ]
   }

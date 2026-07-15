@@ -272,7 +272,18 @@
         "answer": "The immediate priorities are arm control and base establishment, in that order. First, secure at least one of the bottom player's arms through underhook, overhook, or wrist control to prevent defensive frame creation. Second, widen your base and lower your hips to create stability against bridge and roll escapes. Third, distribute your chest weight to compress their rib cage for maximum pressure. Only after these three elements are established should you begin considering submission setups or further transitions."
       }
     ],
-    "safety_considerations": "This transition involves significant upper body pressure across the opponent's chest and rib cage throughout the movement. Maintain awareness of your training partner's breathing during drilling and release pressure immediately if they tap or signal distress. The circular walking motion requires controlled footwork to avoid accidentally striking your partner with knees during the walk-around. During initial learning phases, practice at reduced speed and pressure to allow both partners to develop the movement patterns safely before adding intensity. Communicate clearly when drilling to ensure the bottom player is prepared for the pressure transitions."
+    "safety_considerations": "This transition involves significant upper body pressure across the opponent's chest and rib cage throughout the movement. Maintain awareness of your training partner's breathing during drilling and release pressure immediately if they tap or signal distress. The circular walking motion requires controlled footwork to avoid accidentally striking your partner with knees during the walk-around. During initial learning phases, practice at reduced speed and pressure to allow both partners to develop the movement patterns safely before adding intensity. Communicate clearly when drilling to ensure the bottom player is prepared for the pressure transitions.",
+    "clips": [
+      {
+        "id": "Yzd35ezo2OQ",
+        "title": "Moving to north-south to counter the underhook escape",
+        "by": "Paul McVeigh",
+        "vertical": false,
+        "channel": "Paul Mcveigh",
+        "duration": 76,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "North-South Recovery from Jailbreak Defender",
@@ -397,6 +408,35 @@
         "phase": "Live Situational Sparring",
         "focus": "Applying defense under competitive conditions",
         "description": "Start from Jailbreak position with full resistance. Top player may attempt North-South Recovery or any other passing option. Bottom player defends using all available responses. Score: bottom player wins by recovering guard or preventing North-South for 20 seconds. Top player wins by establishing North-South for 3 seconds. 3-minute rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "3e82Y_MRj_o",
+        "title": "Countering an inversion from top north-south",
+        "by": "Frankie Roberts",
+        "vertical": false,
+        "channel": "Frankie Roberts",
+        "duration": 42,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "aQ2vFXXBn-o",
+        "title": "Countering a full inversion",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Yzd35ezo2OQ",
+        "title": "North-south counter to the underhook escape",
+        "by": "Paul McVeigh",
+        "vertical": false,
+        "channel": "Paul Mcveigh",
+        "duration": 76,
+        "verified": "2026-07-15"
       }
     ]
   }

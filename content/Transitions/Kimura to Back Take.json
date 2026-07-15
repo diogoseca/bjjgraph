@@ -292,7 +292,36 @@
         "answer": "Watch their far arm and head position. A genuine defensive turtle will have both elbows tight to the mat, chin tucked, and limited mobility. An escape setup often shows: far arm reaching to grip your leg or posting to create an angle, head turning to look for openings, hips shifting to create space, or one arm starting to thread for guard recovery. Their breathing and muscle tension also differ - genuine defense is controlled and patient, while escape setup shows increased tension in the far side as they prepare explosive movement."
       }
     ],
-    "safety_considerations": "The Kimura to Back Take transition is relatively safe compared to submission finishes, but practitioners must exercise appropriate control during execution. When applying initial Kimura pressure to create the defensive reaction, avoid explosive or excessive force that could injure the shoulder joint - the goal is to create movement, not injury. During the rolling phase, be aware of your weight distribution to avoid driving your shoulder or elbow into opponent's head or neck. When establishing hooks, control your leg movements to avoid accidental strikes to the opponent's lower back or kidneys. During training, communicate clearly with partners about resistance levels and pause immediately if either person loses control of the movement. The transition can be practiced safely at all skill levels with appropriate progressive resistance."
+    "safety_considerations": "The Kimura to Back Take transition is relatively safe compared to submission finishes, but practitioners must exercise appropriate control during execution. When applying initial Kimura pressure to create the defensive reaction, avoid explosive or excessive force that could injure the shoulder joint - the goal is to create movement, not injury. During the rolling phase, be aware of your weight distribution to avoid driving your shoulder or elbow into opponent's head or neck. When establishing hooks, control your leg movements to avoid accidental strikes to the opponent's lower back or kidneys. During training, communicate clearly with partners about resistance levels and pause immediately if either person loses control of the movement. The transition can be practiced safely at all skill levels with appropriate progressive resistance.",
+    "clips": [
+      {
+        "id": "xpEueRuYcnM",
+        "title": "Kimura trap back take from half guard",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 69,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "OoCf7ukKR54",
+        "title": "Kimura trap to back take to RNC",
+        "by": "Focused Fight Team",
+        "vertical": false,
+        "channel": "Focused Fight Team",
+        "duration": 89,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MGotqppgD0w",
+        "title": "Kimura trap flow: control, invert, take the back",
+        "by": "Mr. NogiJiujitsu",
+        "vertical": false,
+        "channel": "Mr. NogiJiujitsu",
+        "duration": 59,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Kimura to Back Take Defender",
@@ -423,6 +452,35 @@
         "phase": "Week 7-8: Full Defense with Progressive Resistance",
         "focus": "Chaining all defensive options against committed attacker",
         "description": "Partner executes full Kimura to back take sequence at increasing resistance levels. Practice selecting appropriate defense based on the phase of the attack: grip strip early, controlled directional roll mid-sequence, and turtle defense as last resort. Partner provides realistic but not competition-level resistance. Track which defensive stage you successfully stop the transition at."
+      }
+    ],
+    "clips": [
+      {
+        "id": "qKj5Y-jDEeM",
+        "title": "Countering the kimura back take",
+        "by": "Placido Santos",
+        "vertical": false,
+        "channel": "Placido Santos ",
+        "duration": 32,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "TuaopPUakM8",
+        "title": "Defending the kimura",
+        "by": "Eddie Kone",
+        "vertical": false,
+        "channel": "Eddie Kone Academy Of Jiu-Jitsu",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "OltjLaTW3wQ",
+        "title": "Three ways to defend the back take",
+        "by": "Roberto Cyborg Abreu",
+        "vertical": false,
+        "channel": "Cyborg BJJ",
+        "duration": 89,
+        "verified": "2026-07-15"
       }
     ]
   },

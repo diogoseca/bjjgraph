@@ -295,7 +295,36 @@
         "answer": "During the underhook insertion phase, your primary force vector is downward and inward: you drive weight down through your chest into the opponent's shoulders while threading your arm under and across their body. During the finishing phase after circling, the force vector shifts to a lateral compression: your choking arm pulls inward toward your chest while your shoulder drives perpendicular to their spine, creating a pinching action on both carotid arteries. Understanding this shift is crucial because applying finishing-direction force during the setup phase, or setup-direction force during the finish, reduces effectiveness at both stages."
       }
     ],
-    "safety_considerations": "When practicing the Front Headlock to Darce transition, controlled application is paramount as blood chokes can cause unconsciousness rapidly if the training partner does not tap. Always apply choking pressure gradually over 3-5 seconds minimum to allow your partner adequate time to recognize the choke and tap. Monitor your partner's breathing and color during drilling - any signs of distress should result in immediate release. Be especially mindful during the circling phase as this is when maximum pressure is often applied unintentionally. Ensure adequate mat space for the circling movement to avoid rolling your opponent into walls or other obstacles. During competition-level drilling with full resistance, establish clear tap protocols including verbal taps for situations where hand movement is restricted. Never apply sudden or explosive pressure to the neck. Build proficiency through slow, controlled drilling before attempting full-speed application. Both practitioners should understand proper release protocol before training this technique."
+    "safety_considerations": "When practicing the Front Headlock to Darce transition, controlled application is paramount as blood chokes can cause unconsciousness rapidly if the training partner does not tap. Always apply choking pressure gradually over 3-5 seconds minimum to allow your partner adequate time to recognize the choke and tap. Monitor your partner's breathing and color during drilling - any signs of distress should result in immediate release. Be especially mindful during the circling phase as this is when maximum pressure is often applied unintentionally. Ensure adequate mat space for the circling movement to avoid rolling your opponent into walls or other obstacles. During competition-level drilling with full resistance, establish clear tap protocols including verbal taps for situations where hand movement is restricted. Never apply sudden or explosive pressure to the neck. Build proficiency through slow, controlled drilling before attempting full-speed application. Both practitioners should understand proper release protocol before training this technique.",
+    "clips": [
+      {
+        "id": "pnLk6jW0qeI",
+        "title": "Three Darce Choke Finishes",
+        "by": "Bowerhouse MMA",
+        "vertical": false,
+        "channel": "BOWERHOUSE MMA",
+        "duration": 15,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "6d6Wkgh9imU",
+        "title": "Darce vs Anaconda: Grip and Finish Difference",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 67,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "XpFxqgrhEgA",
+        "title": "Short Arm Darce from Front Headlock",
+        "by": "Travis Moore",
+        "vertical": false,
+        "channel": "Travis Moore",
+        "duration": 120,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Front Headlock to Darce Defender",
@@ -426,6 +455,35 @@
         "phase": "Week 9-12: Live Situational Sparring",
         "focus": "Full resistance defense starting from front headlock bottom",
         "description": "Live rounds starting from front headlock where the attacker can attempt any submission including the Darce. Defender works all escape options against full resistance, practicing transitions between defensive techniques based on the attacker's choices. Include chain defense where the attacker switches between Darce, anaconda, guillotine, and back take attempts."
+      }
+    ],
+    "clips": [
+      {
+        "id": "cmaIzjv3QG8",
+        "title": "Darce Defense: Belly Down Escape",
+        "by": "JitzLive",
+        "vertical": false,
+        "channel": "JitzLive",
+        "duration": 38,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "iNZpCbutyrM",
+        "title": "Escaping the Darce Choke",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "d1YBV8UTKds",
+        "title": "Darce Choke Defense",
+        "by": "Animal",
+        "vertical": false,
+        "channel": "Animal",
+        "duration": 53,
+        "verified": "2026-07-15"
       }
     ]
   },

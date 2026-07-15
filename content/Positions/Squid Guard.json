@@ -350,6 +350,35 @@
         "question": "How do you recognize when to abandon a specific passing direction and switch sides?",
         "answer": "Watch for defensive overcommitment - when the bottom player shifts their hips heavily to one side, loads their hook in a specific direction, or adjusts their lapel wrap to defend a particular pass. This defensive commitment creates vulnerability on the opposite side. Recognizing these patterns allows you to bait their defensive reactions and immediately attack the newly opened passing lane before they can readjust."
       }
+    ],
+    "clips": [
+      {
+        "id": "aR0dbddbfQA",
+        "title": "Passing the Polish Worm Rider lapel guard",
+        "by": "Daniel Maira",
+        "vertical": false,
+        "channel": "Movement Art",
+        "duration": 54,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "u0D9HUwXuKE",
+        "title": "Passing lapel guard",
+        "by": "Vicente Cavalcanti",
+        "vertical": false,
+        "channel": "VICENTE CAVALCANTI",
+        "duration": 70,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "pbK4xwr8ggU",
+        "title": "Modern lapel guard passing 03",
+        "by": "Romulo Barral",
+        "vertical": false,
+        "channel": "Romulo Barral",
+        "duration": 105,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -672,6 +701,35 @@
         "question": "How do you manage energy expenditure while maintaining active Squid Guard?",
         "answer": "Squid Guard is energy-intensive due to the constant tension required. Manage energy by using frame-based distance control with your non-threading leg rather than pure muscular effort. Let the lapel wrap do most of the work - properly wrapped, it creates mechanical restriction that doesn't require constant pulling. Recognize when to transition out of Squid Guard if opponent is successfully defending without advancing, rather than depleting yourself trying to force attacks from a stalemated position."
       }
+    ],
+    "clips": [
+      {
+        "id": "QW8av8U2h-k",
+        "title": "Worm & squid guard vs black belt champ",
+        "by": "BJJ Hacks",
+        "vertical": false,
+        "channel": "BJJ Hacks TV",
+        "duration": 84,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Z14Nz40c52s",
+        "title": "Keenan's new lapel guard",
+        "by": "Keenan Cornelius",
+        "vertical": false,
+        "channel": "Takedown Breakdown 👥",
+        "duration": 191,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "ba5KOGBUpNo",
+        "title": "Secure the proto-guard grips",
+        "by": "Keenan Cornelius",
+        "vertical": false,
+        "channel": "Keenan Cornelius",
+        "duration": 230,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -702,6 +760,35 @@
     {
       "question": "How does Squid Guard differ from its parent De La Riva and Reverse De La Riva positions?",
       "answer": "Squid Guard borrows the hook mechanics of De La Riva and Reverse De La Riva but adds the lapel wrap as an additional, semi-permanent point of control on the same limb. Where De La Riva relies on the hook plus hand grips that can be stripped relatively quickly, Squid Guard's fabric tether creates a more durable entanglement that persists through movement and restricts the top player's mobility more aggressively. This makes the guard more resistant to standard extraction but also more gi-dependent, since removing the lapel returns the exchange to a De La Riva dynamic. The lapel is thus the single element that separates Squid Guard from its hook-based relatives."
+    }
+  ],
+  "clips": [
+    {
+      "id": "Z14Nz40c52s",
+      "title": "Keenan's new lapel guard",
+      "by": "Keenan Cornelius",
+      "vertical": false,
+      "channel": "Takedown Breakdown 👥",
+      "duration": 191,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "4W-dStVHCIQ",
+      "title": "Enter the Galaxy: lapel guard",
+      "by": "Bradley Hill",
+      "vertical": false,
+      "channel": "The Grapple Club",
+      "duration": 90,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "OO2IqO3M8f8",
+      "title": "Lapel guard overview",
+      "by": "BJJ Highlights",
+      "vertical": false,
+      "channel": "@bjjhighlights",
+      "duration": 52,
+      "verified": "2026-07-14"
     }
   ]
 }

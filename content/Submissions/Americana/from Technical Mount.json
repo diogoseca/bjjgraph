@@ -372,6 +372,35 @@
         "answer": "Commit fully to the finish rather than hedging between the Americana and positional maintenance. Increase hip pressure on the shoulder to eliminate any remaining bridging capacity, ensuring the opponent cannot create space during your finishing attempt. Accelerate the rotational arc slightly while remaining controlled—competition pace is faster than drilling pace but must never become a spike. If the opponent anchors their wrist, immediately switch to the high-elbow variation rather than grinding against the anchor, as time pressure demands you bypass defenses rather than fight through them. Keep the posted leg active to prevent any last-second scramble from disrupting the finish.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "uPazS4MJiDc",
+        "title": "Americana from top mount",
+        "by": "Evolve MMA",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 71,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "N-bZMbI2jSo",
+        "title": "Americana from mount explained",
+        "by": "Gabriel Gonzaga",
+        "vertical": false,
+        "channel": "Gabriel Gonzaga",
+        "duration": 110,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "IGcqUUmdi3A",
+        "title": "Americana to armbar from mount",
+        "by": "Renato Migliaccio",
+        "vertical": false,
+        "channel": "Renato Migliaccio",
+        "duration": 17,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -507,6 +536,35 @@
         "phase": "Phase 4: Live Defense Integration",
         "focus": "Defending the full Americana chain in live rolling conditions",
         "description": "Positional sparring starting from technical mount bottom. Partner works the Americana-armbar chain at full resistance while you defend freely. Track success rates and identify recurring failure points. Build the defensive instincts needed to survive the binary submission threat under realistic pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "qVINUjefot8",
+        "title": "Bent armlock escape from mount",
+        "by": "Soma Academy",
+        "vertical": false,
+        "channel": "Soma Academy",
+        "duration": 72,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "qfoEZtys84k",
+        "title": "Defense against the Americana",
+        "by": "Kevin Conan Bankens",
+        "vertical": false,
+        "channel": "Kevin Conan Bankens",
+        "duration": 42,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "NZjUCo8os8Q",
+        "title": "Simple Americana armlock escape",
+        "by": "Eddie Kone",
+        "vertical": false,
+        "channel": "Eddie Kone Academy Of Jiu-Jitsu",
+        "duration": 61,
+        "verified": "2026-07-14"
       }
     ]
   }

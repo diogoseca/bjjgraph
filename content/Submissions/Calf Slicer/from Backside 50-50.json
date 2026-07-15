@@ -331,6 +331,35 @@
         "answer": "The three primary defenses are straightening the trapped leg before the figure-four locks to deny the compression angle, rolling toward the attacker to change the compression angle and break the backside orientation, and stripping the foot grip to create slack for leg extraction. The most effective defense is early leg straightening, which must be countered by transitioning to heel hook attacks on the now-exposed straight leg.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "UsEvrDzgbqE",
+        "title": "50/50 to Calf Slicer",
+        "by": "CaMiCho327",
+        "vertical": false,
+        "channel": "CaMiCho327",
+        "duration": 13,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "d4KgnwWTkuk",
+        "title": "5050 Calf Slicer",
+        "by": "The Jiu-Jitsu Foundry",
+        "vertical": false,
+        "channel": "The Jiu-Jitsu Foundry",
+        "duration": 35,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "buBg-yzLTrY",
+        "title": "Calf Slicer Positions: RDLR, 50/50, Z Guard",
+        "by": "Grappling with Insanity",
+        "vertical": false,
+        "channel": "Grappling with Insanity",
+        "duration": 54,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -458,6 +487,17 @@
         "phase": "Phase 4: Integrated Defense in Live Rolling",
         "focus": "Managing calf slicer threat within complete backside 50-50 defense",
         "description": "Full resistance positional sparring from backside 50-50 bottom. Balance heel hook defense with calf slicer awareness. Practice transitioning between defensive postures without becoming predictable against the complete top attack system."
+      }
+    ],
+    "clips": [
+      {
+        "id": "MqtG9kuVt-Q",
+        "title": "Leg lock escape: roll through from 50/50",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 103,
+        "verified": "2026-07-15"
       }
     ]
   }

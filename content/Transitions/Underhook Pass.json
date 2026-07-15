@@ -311,7 +311,27 @@
         "answer": "The opponent's shrimp creates momentary space that you must immediately collapse. Drive your hips forward and drop your weight into the space they created, following their hip movement rather than staying in place. Your near-hip grip hand becomes critical here - use it to block their far knee from crossing over your body to close the guard. Simultaneously drive your crossface shoulder forward to prevent them from turning their hips enough to insert both legs. If their shrimp creates enough distance that guard recovery seems imminent, transition to a standing pass posture by posting your free leg and converting to a toreando or leg drag angle rather than fighting to maintain half guard top. The worst response is to freeze and allow them to complete the hip escape sequence unopposed."
       }
     ],
-    "safety_considerations": "The underhook pass is generally a safe technique when executed properly, but practitioners should be aware of several safety considerations. Avoid driving excessive pressure into the opponent's neck or head, as the crossface should target the chest and shoulder, not the cervical spine. When extracting the trapped leg, move methodically to avoid hyperextending your own or your opponent's knee joints. Be cautious of cranking or twisting motions with the underhook that could stress the opponent's shoulder joint. When drilling, partners should communicate about pressure levels, especially when learning the flattening mechanics. Beginners should focus on positional control rather than explosive movements that could result in knee or shoulder injuries."
+    "safety_considerations": "The underhook pass is generally a safe technique when executed properly, but practitioners should be aware of several safety considerations. Avoid driving excessive pressure into the opponent's neck or head, as the crossface should target the chest and shoulder, not the cervical spine. When extracting the trapped leg, move methodically to avoid hyperextending your own or your opponent's knee joints. Be cautious of cranking or twisting motions with the underhook that could stress the opponent's shoulder joint. When drilling, partners should communicate about pressure levels, especially when learning the flattening mechanics. Beginners should focus on positional control rather than explosive movements that could result in knee or shoulder injuries.",
+    "clips": [
+      {
+        "id": "aAd6OIq94X0",
+        "title": "Body lock pass off their underhook",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 205,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Zy88ds_RDG4",
+        "title": "Passing half guard against the underhook",
+        "by": "Holy Grail BJJ coach",
+        "vertical": false,
+        "channel": "Holy Grail BJJ",
+        "duration": 126,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Underhook Pass Defender",
@@ -452,6 +472,26 @@
         "phase": "Phase 4: Live Defensive Sparring (Weeks 7+)",
         "focus": "Integrating all defensive skills against full resistance underhook pass attempts",
         "description": "Positional sparring starting in half guard bottom against partner actively attempting the underhook pass with full technique and pressure. Apply all defensive layers: early underhook fighting, frame maintenance, and escape sequences as needed. Track success rate across rounds and identify which defensive layer is failing most frequently for targeted improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "dOdO6xJ-TcU",
+        "title": "Stop the half guard underhook",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 98,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "L-tgJFSzbDE",
+        "title": "Countering the underhook from deep half guard",
+        "by": "Jason Juatco",
+        "vertical": false,
+        "channel": "Jason Juatco",
+        "duration": 111,
+        "verified": "2026-07-15"
       }
     ]
   },

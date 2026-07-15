@@ -417,6 +417,35 @@
         "question": "How do you manage energy expenditure when your opponent maintains a strong defensive turtle for an extended period?",
         "answer": "Against a well-defended turtle, avoid trying to force submissions or positions through strength. Instead, use systematic pressure cycling: threaten one attack to force a defensive reaction, then immediately transition to attack the opening created by that reaction. This creates a dilemma-based scenario where the opponent expends energy defending while you flow between attacks efficiently. Maintain constant hip pressure but use your legs and body positioning rather than arm strength for control. Cycle between three or four attacks in sequence rather than committing fully to any single option."
       }
+    ],
+    "clips": [
+      {
+        "id": "XXnawMQEfKw",
+        "title": "Breaking the turtle with the spiral ride",
+        "by": "Big Guy BJJ",
+        "vertical": false,
+        "channel": "Big Guy BJJ",
+        "duration": 73,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "yUEVUbXEHrs",
+        "title": "Knee-to-belly to rodeo back take",
+        "by": "Muny Munoz",
+        "vertical": false,
+        "channel": "Muny Munoz",
+        "duration": 34,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "6MhcPYISQDU",
+        "title": "Rodeo choke from turtle top",
+        "by": "Ethos Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Ethos Jiu-Jitsu Fullerton",
+        "duration": 85,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -731,6 +760,35 @@
         "question": "How do you prevent yourself from panicking and making mistakes when under heavy pressure?",
         "answer": "Establish a systematic defensive checklist: first assess which arm is controlled, then evaluate neck threat level, then feel hip pressure and hook threats. Having a mental framework prevents panic-driven reactions. Focus on breathing—holding your breath increases panic and drains energy. Accept that escaping from Rodeo Ride is a process, not a single explosive movement. Make small positional improvements rather than gambling on low-percentage explosive escapes. Each defensive success (preventing a grip, maintaining arm freedom, protecting neck) is progress toward eventual escape."
       }
+    ],
+    "clips": [
+      {
+        "id": "_sBB-O8fqP4",
+        "title": "Standing-up escape from turtle",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 114,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "bDZntPrcLpg",
+        "title": "Turtle back-control escape",
+        "by": "BJJ101",
+        "vertical": false,
+        "channel": "BJJ101",
+        "duration": 37,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "495HaYBg-mY",
+        "title": "Single-leg reversal from turtle",
+        "by": "Pathfinder Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Pathfinder Jiu-Jitsu Team",
+        "duration": 36,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -765,6 +823,26 @@
     {
       "question": "Why is perpendicular or angular positioning relative to the spine central to Rodeo Ride?",
       "answer": "Riding across the opponent's spine at an angle, rather than squaring up behind or beside them, maximizes control leverage and denies the opponent a clean line to turn in and rebuild guard. From perpendicular the top player can load weight onto the torso while controlling rotation with chest pressure and grips, keeping the opponent flat and off-balance. For the bottom player, forcing the rider to square up or lose the angle is a route back toward neutral, since a turn into the attacker collapses the leverage advantage. The angle is therefore a shared contested variable: the attacker preserves it and the defender fights to erase it."
+    }
+  ],
+  "clips": [
+    {
+      "id": "XXnawMQEfKw",
+      "title": "The spiral ride: breaking the turtle",
+      "by": "Big Guy BJJ",
+      "vertical": false,
+      "channel": "Big Guy BJJ",
+      "duration": 73,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "6MhcPYISQDU",
+      "title": "Rodeo choke from the ride",
+      "by": "Ethos Jiu-Jitsu",
+      "vertical": false,
+      "channel": "Ethos Jiu-Jitsu Fullerton",
+      "duration": 85,
+      "verified": "2026-07-14"
     }
   ]
 }

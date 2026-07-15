@@ -275,7 +275,36 @@
         "answer": "From the belly-down position with a bent arm, you can transition to a kimura by adjusting your grip to a figure-four on their bent arm and torquing the shoulder. You can also release to top turtle position and attack with a back take, clock choke, or front headlock series. If you still have the wrist, a wrist lock becomes available by rotating the hand against the joint while maintaining belly-down pressure."
       }
     ],
-    "safety_considerations": "The belly down armbar applies extreme leverage to the elbow joint from a position where the opponent has severely limited ability to signal a tap. Always watch for verbal taps, body slaps with the free hand, and foot stomping on the mat. Apply finishing pressure gradually during training and never crank the arm explosively. The prone position can compress the opponent's neck and face if bodyweight is misapplied to the head area. Release immediately upon any tap signal. In competition, the referee may not have clear sight lines when the opponent is face-down, so prioritize controlled application over speed."
+    "safety_considerations": "The belly down armbar applies extreme leverage to the elbow joint from a position where the opponent has severely limited ability to signal a tap. Always watch for verbal taps, body slaps with the free hand, and foot stomping on the mat. Apply finishing pressure gradually during training and never crank the arm explosively. The prone position can compress the opponent's neck and face if bodyweight is misapplied to the head area. Release immediately upon any tap signal. In competition, the referee may not have clear sight lines when the opponent is face-down, so prioritize controlled application over speed.",
+    "clips": [
+      {
+        "id": "134Ibutiqxg",
+        "title": "Overhook attacks: triangle and belly down armbar",
+        "by": "Kameron Ross",
+        "vertical": false,
+        "channel": "Kameron Ross",
+        "duration": 51,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ZKmdEwOYI28",
+        "title": "Belly down armbar from mount",
+        "by": "One Jiu-Jitsu",
+        "vertical": false,
+        "channel": "ONE JIU-JITSU",
+        "duration": 157,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "1uhVD0tAQYc",
+        "title": "Belly down armbar from closed guard",
+        "by": "Hellfish MMA",
+        "vertical": false,
+        "channel": "Hellfish Mixed Martial Arts",
+        "duration": 152,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Belly Down Armbar Transition Defender",
@@ -400,6 +429,35 @@
         "phase": "Phase 4: Live Defensive Rounds",
         "focus": "Full-speed application in positional sparring",
         "description": "Begin rounds in standard armbar control bottom. Defend everything the top player attempts, including the belly-down transition. Track your escape rate over 10-round sets. Goal is to escape or survive 60% of belly-down attempts through proper technique rather than strength."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "Armbar escape when they have the arm extended",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "E3mDnJiv28Y",
+        "title": "Armbar escape: spin under when stacked",
+        "by": "OMJJJ",
+        "vertical": false,
+        "channel": "OMJJJ",
+        "duration": 53,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "04LT-fIPlgw",
+        "title": "Armbar defense: stack and hitchhiker escape",
+        "by": "Gladiators Academy",
+        "vertical": false,
+        "channel": "Gladiators Academy of Youngsville",
+        "duration": 120,
+        "verified": "2026-07-15"
       }
     ]
   }

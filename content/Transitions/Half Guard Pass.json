@@ -311,7 +311,36 @@
         "answer": "In gi, you have access to collar and pants grips that provide reliable anchor points - a cross-collar grip combined with a pants grip at the knee gives you excellent control for both upper body management and leg manipulation during extraction. In no-gi, without these friction-based grips, you must rely more heavily on body positioning and pressure rather than grips. Underhooks, overhooks, and head control become your primary connection points. The crossface becomes even more critical in no-gi because you cannot rely on collar grips to control head position. This shifts the passing strategy toward tighter chest-to-chest pressure and more wrestling-based upper body control rather than grip-dependent sequences."
       }
     ],
-    "safety_considerations": "Half guard passing is generally safe when practiced with proper control and progressive resistance. The primary safety concerns involve knee and hip injuries to the passing player if they attempt to violently rip their trapped leg free without proper technique - this can stress knee ligaments and hip flexors. Always extract your leg using proper hip positioning and pressure rather than forceful yanking. For the bottom player, ensure your partner doesn't drive crossface pressure excessively hard onto your neck or face, especially when learning. Bottom players should be aware of potential shoulder and rib pressure and communicate if pressure becomes uncomfortable. When practicing lockdown defenses, the top player should use controlled movements when whipping their leg to break the hold rather than violent kicking that could injure their partner's legs. Both partners should build pressure gradually during training rather than applying maximum force immediately. Advanced practitioners should be particularly careful when practicing against deep half guard attempts, as mistimed movements can result in awkward falls or knee torque."
+    "safety_considerations": "Half guard passing is generally safe when practiced with proper control and progressive resistance. The primary safety concerns involve knee and hip injuries to the passing player if they attempt to violently rip their trapped leg free without proper technique - this can stress knee ligaments and hip flexors. Always extract your leg using proper hip positioning and pressure rather than forceful yanking. For the bottom player, ensure your partner doesn't drive crossface pressure excessively hard onto your neck or face, especially when learning. Bottom players should be aware of potential shoulder and rib pressure and communicate if pressure becomes uncomfortable. When practicing lockdown defenses, the top player should use controlled movements when whipping their leg to break the hold rather than violent kicking that could injure their partner's legs. Both partners should build pressure gradually during training rather than applying maximum force immediately. Advanced practitioners should be particularly careful when practicing against deep half guard attempts, as mistimed movements can result in awkward falls or knee torque.",
+    "clips": [
+      {
+        "id": "kTSMGYlVJKY",
+        "title": "Free your foot while passing half guard",
+        "by": "Kameron Ross",
+        "vertical": false,
+        "channel": "Kameron Ross",
+        "duration": 55,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8WbQvytyCX0",
+        "title": "How to pass the flat half guard",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 63,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ftsB4fpRROk",
+        "title": "Belly-up half guard pass",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 60,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Half Guard Pass Defender",
@@ -448,6 +477,35 @@
         "phase": "Month 4+: Full resistance positional sparring",
         "focus": "Completing sweeps and back takes against skilled passers using complete defensive system",
         "description": "Regular positional sparring starting from half guard bottom against partners using full resistance and complete passing systems. Track your retention rate, sweep success, and identify which sub-variations and transitions work best against different passing styles. Develop your personal half guard defensive system by identifying your highest-percentage sequences and building automatic responses to common passing patterns."
+      }
+    ],
+    "clips": [
+      {
+        "id": "lVLAROiSjNU",
+        "title": "Guard retention: when to sit up escape",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 136,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "BhNZGloJ56c",
+        "title": "Guard recovery when you get smashed",
+        "by": "Finesse Jiujitsu",
+        "vertical": false,
+        "channel": "FINESSE JIUJITSU HTX",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "LI0MQp3oh7g",
+        "title": "Get a better underhook from bottom half guard",
+        "by": "Jiu-Jitsu Collective",
+        "vertical": false,
+        "channel": "Jiu-Jitsu Collective",
+        "duration": 188,
+        "verified": "2026-07-15"
       }
     ]
   }

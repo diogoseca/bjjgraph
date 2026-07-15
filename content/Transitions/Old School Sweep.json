@@ -327,7 +327,27 @@
         "answer": "The backward sprawl pulls their hips off your sweeping arc but feeds directly into the Electric Chair. As their hips travel away, use the lockdown to drag their trapped leg through and rotate underneath into the Electric Chair, attacking the knee and spine while their weight is committed backward. If instead they choose to turtle or roll through the rotation rather than sprawl, abandon the mount finish and convert your underhook into a seat belt grip to chase the back take, following their momentum rather than fighting it."
       }
     ],
-    "safety_considerations": "The Old School Sweep is a positional technique with relatively low injury risk when executed properly. The primary safety concern involves the lockdown itself, which can stress the knee and ankle of the trapped leg if applied with excessive force or sudden torque. Partners should communicate clearly about lockdown pressure intensity during drilling. Avoid explosive cranking of the lockdown extension, as this can cause MCL or LCL strain in the trapped knee. When being swept, tuck your chin and avoid posting on an extended arm to prevent wrist or shoulder injuries during the landing rotation. During training, drill the sweep at controlled speed before adding resistance to ensure both partners understand the rotation path."
+    "safety_considerations": "The Old School Sweep is a positional technique with relatively low injury risk when executed properly. The primary safety concern involves the lockdown itself, which can stress the knee and ankle of the trapped leg if applied with excessive force or sudden torque. Partners should communicate clearly about lockdown pressure intensity during drilling. Avoid explosive cranking of the lockdown extension, as this can cause MCL or LCL strain in the trapped knee. When being swept, tuck your chin and avoid posting on an extended arm to prevent wrist or shoulder injuries during the landing rotation. During training, drill the sweep at controlled speed before adding resistance to ensure both partners understand the rotation path.",
+    "clips": [
+      {
+        "id": "Jnc2siD9cak",
+        "title": "Old school sweep from half guard",
+        "by": "Ritchie Yip",
+        "vertical": false,
+        "channel": "Ritchie Yip",
+        "duration": 12,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "08cbHHs_NsM",
+        "title": "Corona lockdown sweep from half guard",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 53,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Old School Sweep Defender",
@@ -479,6 +499,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full Resistance Defense and Counter",
         "description": "Start in Old School top position against full resistance sweep attempts. Practice the complete defensive cycle: recognize, defend, counter, advance. Progressive resistance from 70% to 100%. Reset after successful sweep, pass, or submission. Develop the ability to stay calm and systematic under real sweep pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "-49CypLW9aM",
+        "title": "Breaking the lockdown half guard",
+        "by": "Superhero Jiu Jitsu Academy",
+        "vertical": false,
+        "channel": "Superhero Jiu Jitsu Academy ",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dOdO6xJ-TcU",
+        "title": "Stopping the half guard underhook",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 98,
+        "verified": "2026-07-15"
       }
     ]
   }

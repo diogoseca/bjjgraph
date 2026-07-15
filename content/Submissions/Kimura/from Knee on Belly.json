@@ -333,6 +333,35 @@
         "answer": "The rotation should occur in the transverse plane of the shoulder — the forearm rotates laterally in an arc toward the opponent's feet while the elbow stays pinned to their side. This is internal rotation of the shoulder joint. A common error is lifting the arm upward into abduction, which allows the opponent to engage their latissimus dorsi and pectoralis muscles to resist. Keeping the rotation strictly lateral ensures maximum mechanical advantage against the weakest rotational axis.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "mEmlkI3zbeE",
+        "title": "Kimura from Knee on Belly",
+        "by": "Mauricio Gomes",
+        "vertical": false,
+        "channel": "Mauricio Gomes BJJ",
+        "duration": 50,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "MEc9jBx5M14",
+        "title": "Knee on Belly to Kimura via North South",
+        "by": "Nikos Kalivas",
+        "vertical": false,
+        "channel": "Nikos Kalivas BJJ",
+        "duration": 38,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "bKEhbrZaS7Y",
+        "title": "Kimura Setup From Knee on Belly, Arm Trap",
+        "by": "Jiu Jitsu Five-O",
+        "vertical": false,
+        "channel": "Jiu Jitsu Five-O // Street-Ready BJJ Training",
+        "duration": 32,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -462,6 +491,35 @@
         "phase": "Phase 4: Live Situational Sparring",
         "focus": "Full resistance defense from KOB bottom",
         "description": "Start from KOB bottom with partner attacking kimura at full competition pace. Develop automatic defensive reactions and escape timing under pressure. Focus on survival composure and technical execution under respiratory distress."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Wn01Ynw7O28",
+        "title": "How To Escape the Knee on Belly Position",
+        "by": "Evolve MMA",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 40,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "I9_3u9AcwAg",
+        "title": "First Principles Escapes: Knee-on-Belly",
+        "by": "40 Plus BJJ",
+        "vertical": false,
+        "channel": "40 Plus BJJ",
+        "duration": 59,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "52LxBaUJdcw",
+        "title": "Knee on Belly Escape to Technical Standup",
+        "by": "Lucas Lepri",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 131,
+        "verified": "2026-07-14"
       }
     ]
   }

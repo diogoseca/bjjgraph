@@ -288,7 +288,27 @@
         "answer": "The pressure pass creates a two-pronged threat alongside leg lock attacks from Leg Knot Top. When the opponent defends leg locks by hiding their heels and tightening their knee line, the upper body becomes accessible for the pressure pass. When the opponent frames to prevent the pressure pass, their legs loosen creating heel hook and toe hold opportunities. This creates an attacking dilemma where defending one threat exposes the other, forcing the opponent into increasingly compromised positions regardless of their defensive choice."
       }
     ],
-    "safety_considerations": "Pressure passing from leg entanglements requires awareness of knee and ankle vulnerability for both practitioners. Avoid explosive twisting motions during the leg extraction phase that could damage trapped joints locked in the entanglement configuration. The knee slide portion carries risk of lateral knee torque on the opponent's trapped leg if performed with excessive force or improper angle. Communicate with training partners about discomfort during entanglement transitions and release pressure immediately if your partner taps or signals pain. During training, perform the extraction at controlled speed to prevent injury from unexpected resistance or sudden positional shifts."
+    "safety_considerations": "Pressure passing from leg entanglements requires awareness of knee and ankle vulnerability for both practitioners. Avoid explosive twisting motions during the leg extraction phase that could damage trapped joints locked in the entanglement configuration. The knee slide portion carries risk of lateral knee torque on the opponent's trapped leg if performed with excessive force or improper angle. Communicate with training partners about discomfort during entanglement transitions and release pressure immediately if your partner taps or signals pain. During training, perform the extraction at controlled speed to prevent injury from unexpected resistance or sudden positional shifts.",
+    "clips": [
+      {
+        "id": "JbRfIo1NTLk",
+        "title": "Clearing the kneeline to pass",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 274,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_e82XgM98go",
+        "title": "Leg pin to over-under pass to back take",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 32,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Pressure Pass from Leg Knot Defender",
@@ -409,6 +429,26 @@
         "phase": "Phase 4: Full Defensive Sparring from Leg Knot Bottom",
         "focus": "Integrating all defensive tools against the full pressure pass with live resistance",
         "description": "Positional sparring starting from Leg Knot with top player's goal of completing the pressure pass and bottom player's goal of either re-entangling, sweeping, or recovering to guard. Track success rates for each defensive option to identify strengths and areas needing development. Include post-round analysis of decision-making and timing."
+      }
+    ],
+    "clips": [
+      {
+        "id": "mZp355NAIYk",
+        "title": "Ashi garami defense and counter pass",
+        "by": "The Grappling Bloke",
+        "vertical": false,
+        "channel": "The Grappling Bloke",
+        "duration": 111,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "m0NLphEuFoc",
+        "title": "Leg lock defense from entanglement",
+        "by": "Kuwy Jitsu",
+        "vertical": false,
+        "channel": "Kuwy Jitsu",
+        "duration": 61,
+        "verified": "2026-07-15"
       }
     ]
   }

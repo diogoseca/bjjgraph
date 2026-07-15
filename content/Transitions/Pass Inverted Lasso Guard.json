@@ -313,7 +313,36 @@
         "answer": "Creating distance by stepping back opens massive space for berimbolo entries and allows the bottom player to freely thread their legs, generate new angles, and reinvert with superior positioning. Space also permits them to reset their grips without pressure and choose their optimal attack without time constraints. Staying connected with strategic pressure on the opponent's shoulders limits their rotational options, prevents re-engagement with better angles, and forces them to defend your passing pressure while in an energetically demanding inverted position. Connection converts offense into defense for the guard player."
       }
     ],
-    "safety_considerations": "When applying stack passes against inverted opponents, exercise particular caution regarding cervical spine compression on the bottom player. The inverted position places the guard player's neck in a vulnerable posture, and aggressive stacking can create dangerous spinal pressure. Apply stacking force gradually and progressively rather than explosively dropping weight. During arm extraction, control the speed of your withdrawal to prevent hyperextension of the opponent's shoulder or elbow. If the bottom player signals any discomfort with neck positioning during drilling, immediately release pressure and allow them to reposition safely. During cartwheel counter-passes, ensure sufficient mat space to prevent either practitioner from colliding with walls or other training pairs."
+    "safety_considerations": "When applying stack passes against inverted opponents, exercise particular caution regarding cervical spine compression on the bottom player. The inverted position places the guard player's neck in a vulnerable posture, and aggressive stacking can create dangerous spinal pressure. Apply stacking force gradually and progressively rather than explosively dropping weight. During arm extraction, control the speed of your withdrawal to prevent hyperextension of the opponent's shoulder or elbow. If the bottom player signals any discomfort with neck positioning during drilling, immediately release pressure and allow them to reposition safely. During cartwheel counter-passes, ensure sufficient mat space to prevent either practitioner from colliding with walls or other training pairs.",
+    "clips": [
+      {
+        "id": "9sQAn2ESkMU",
+        "title": "Passing Lasso Guard To The Back",
+        "by": "Gabriel Sousa",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 113,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "EdLPqtAm5yQ",
+        "title": "Pressure Passing the Lasso Guard",
+        "by": "Alberto Serrano",
+        "vertical": false,
+        "channel": "Alberto Serrano BJJ",
+        "duration": 123,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "XSkn8eAmtJU",
+        "title": "Passing the Lasso Using Long Step and Footwork",
+        "by": "Bryce Nie",
+        "vertical": false,
+        "channel": "Bryce Nie",
+        "duration": 150,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Pass Inverted Lasso Guard Defender",
@@ -438,6 +467,17 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Full resistance guard defense and counter-attacking from established inverted lasso",
         "description": "Positional sparring starting in established inverted lasso guard with the top player working full intensity passes. Score guard retention, successful sweeps, and back takes against completed passes and half guard concessions. Identify which defensive responses require additional drilling under competition conditions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "T_GhZe_MOWI",
+        "title": "Grip Chain for Guard Retention",
+        "by": "Xande Ribeiro",
+        "vertical": false,
+        "channel": "XANDE RIBEIRO",
+        "duration": 174,
+        "verified": "2026-07-15"
       }
     ]
   }

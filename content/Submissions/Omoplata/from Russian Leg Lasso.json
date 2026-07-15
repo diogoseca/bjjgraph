@@ -333,6 +333,35 @@
         "answer": "If hip control was properly established, the forward roll should be blocked entirely. If they initiate the roll despite your control, maintain your leg position across their back and follow their rolling motion by transitioning to the rolling omoplata: stay attached to their arm with your legs, roll with them, and reestablish the seated omoplata position on the other side. The key is never releasing the leg position across their back during the roll. If you lose leg position during the roll, immediately transition to a scramble and work to reestablish guard rather than chasing a compromised omoplata.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "X38VbqKI8dY",
+        "title": "Lasso to Omoplata",
+        "by": "Ninja Pinto",
+        "vertical": false,
+        "channel": "Ninja Pinto BJJ",
+        "duration": 56,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "P_Utuxeq7uo",
+        "title": "Lasso Guard to Omoplata",
+        "by": "Adam Wardzinski",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 37,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "FCdFl9aAiUg",
+        "title": "No-Gi Lasso Omoplata",
+        "by": "Asaf Mich",
+        "vertical": false,
+        "channel": "Asaf Mich",
+        "duration": 49,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -467,6 +496,35 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Defending under full competition conditions",
         "description": "Full resistance positional sparring starting from Russian Leg Lasso. Top player must defend all attacks including omoplata, triangle, and sweep threats. Bottom player uses full offensive system. Develops the ability to distinguish omoplata attempts from other attacks and apply the correct defensive response under pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ocIHY3jBYIQ",
+        "title": "Best Way to Escape the Omoplata Shoulder Lock",
+        "by": "John Connors",
+        "vertical": false,
+        "channel": "John Connors, Old Man BJJ Black Belt",
+        "duration": 62,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "jDbywpDs3Tw",
+        "title": "Preventing the Hand Moving to the Other Side",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 129,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Y4TxL4mDSKg",
+        "title": "Defending the Omoplata Sweep",
+        "by": "Ninja Pinto",
+        "vertical": false,
+        "channel": "Ninja Pinto BJJ",
+        "duration": 47,
+        "verified": "2026-07-14"
       }
     ]
   }

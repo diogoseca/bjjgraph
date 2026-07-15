@@ -292,7 +292,27 @@
         "answer": "Change strategy immediately. A fully established knee shield creates too much distance for the chest-to-chest pressure required by Pocket Half Guard. Attempting to force the transition through a knee shield wastes energy and exposes you to sweeps. Instead, address the knee shield first using smash pass mechanics to collapse it or a long step pass to circumvent it. Only re-attempt the Pocket Half Guard transition after the knee shield has been completely cleared and you have re-established forward pressure contact."
       }
     ],
-    "safety_considerations": "The Transition to Pocket Half Guard involves significant forward pressure through the chest and crossface mechanics that require awareness of partner safety during training. Crossface pressure should be applied with the forearm across the jaw, never directly against the throat or trachea. Underhook control should use pulling force on the torso, never apply torquing pressure to the shoulder joint. During flattening sequences, be aware that driving excessive weight through the chest onto a partner whose ribs are compressed can cause discomfort or injury. Communicate with training partners about pressure levels and maintain control throughout the transition rather than dropping weight suddenly."
+    "safety_considerations": "The Transition to Pocket Half Guard involves significant forward pressure through the chest and crossface mechanics that require awareness of partner safety during training. Crossface pressure should be applied with the forearm across the jaw, never directly against the throat or trachea. Underhook control should use pulling force on the torso, never apply torquing pressure to the shoulder joint. During flattening sequences, be aware that driving excessive weight through the chest onto a partner whose ribs are compressed can cause discomfort or injury. Communicate with training partners about pressure levels and maintain control throughout the transition rather than dropping weight suddenly.",
+    "clips": [
+      {
+        "id": "f3PJ06A_bWQ",
+        "title": "Hip switch to back take from half guard",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 19,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Zy88ds_RDG4",
+        "title": "Countering the half guard underhook while passing",
+        "by": "Holy Grail BJJ",
+        "vertical": false,
+        "channel": "Holy Grail BJJ",
+        "duration": 126,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Half Guard to Pocket Half Guard Defender",
@@ -413,6 +433,26 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Full resistance application",
         "description": "Positional sparring starting from Half Guard with partner attempting to establish Pocket Half Guard. Defender uses all available tools against full resistance. Success measured by preventing the transition or recovering within 30 seconds if it is established. Partner chains the transition with passing attempts for realistic pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "h26GaRXjSHo",
+        "title": "Countering the underhook in half guard",
+        "by": "Revolution Fitness Center",
+        "vertical": false,
+        "channel": "Revolution Fitness Center",
+        "duration": 55,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dOdO6xJ-TcU",
+        "title": "Stopping the half guard underhook",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 98,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -401,5 +401,34 @@
       "question": "How do submission chains relate to the position-over-submission philosophy?",
       "answer": "They integrate by treating submission attempts as position-improvement tools; even when a finish fails, the attack forces a reaction that yields a better control point, so pursuing the chain still advances positional dominance."
     }
+  ],
+  "clips": [
+    {
+      "id": "e3NL2SQZPV0",
+      "title": "Seven-submission flow chain",
+      "by": "Johnny Jitsu",
+      "vertical": false,
+      "channel": "Johnny Jitsu",
+      "duration": 76,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "XO7sKuzwoH4",
+      "title": "Chaining and creativity principles",
+      "by": "Johnny Jitsu",
+      "vertical": false,
+      "channel": "Johnny Jitsu",
+      "duration": 99,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "yuMJpNwPEI8",
+      "title": "Chaining guard attacks and sweeps",
+      "by": "Monument Jiu-Jitsu",
+      "vertical": false,
+      "channel": "Monument JiuJitsu",
+      "duration": 49,
+      "verified": "2026-07-15"
+    }
   ]
 }

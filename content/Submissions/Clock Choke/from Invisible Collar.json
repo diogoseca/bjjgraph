@@ -309,6 +309,35 @@
         "answer": "The three most common defenses are: two-handed grip stripping where the opponent commits both hands to your collar wrist and pulls away from their neck; rolling toward the choking side to relieve rotational pressure, recognized by hip movement and shoulder rotation; and sitting out to face the attacker, recognized by the opponent posting a hand and driving their hips through. Each defense creates a specific opening—grip stripping exposes the neck for RNC, rolling helps tighten the choke if you follow, and the sit-out can be blocked with the far-side anchor grip.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "Yc4zm2EWi4g",
+        "title": "Tight Clock Choke",
+        "by": "Satoshi Ishii",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 138,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "rjP4GvxTO6s",
+        "title": "Invisible Choke From Side Control",
+        "by": "Tom Oberhue",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 166,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "rJ1YYOBoXMg",
+        "title": "No-Gi Clock Choke",
+        "by": "Ronster",
+        "vertical": false,
+        "channel": "Ronster",
+        "duration": 21,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -438,6 +467,35 @@
         "phase": "Phase 4: Live Survival Sparring",
         "focus": "Competition pressure defense",
         "description": "Start with invisible collar fully established and walking about to begin. Defender must survive or escape within 60 seconds against full resistance. Builds mental toughness, emergency defense skills, and the ability to find escape windows under genuine submission pressure. Track survival rate across sessions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "bHIR07WZ8yI",
+        "title": "Clock Choke from Turtle Escape",
+        "by": "Andy Tong",
+        "vertical": false,
+        "channel": "Andy Tong",
+        "duration": 17,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "RiBLBO9zinA",
+        "title": "Clock Choke Counter",
+        "by": "Jamie Ridgeway",
+        "vertical": false,
+        "channel": "Jamie Ridgeway",
+        "duration": 79,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "5DnhNOvP66I",
+        "title": "Clock Choke Escape",
+        "by": "Renato Migliaccio",
+        "vertical": false,
+        "channel": "Renato Migliaccio",
+        "duration": 11,
+        "verified": "2026-07-14"
       }
     ]
   }

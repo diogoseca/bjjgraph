@@ -386,6 +386,35 @@
         "question": "Your pass attempt fails and the opponent recovers half guard - how do you recover back to Jailbreak Top?",
         "answer": "When the opponent recovers half guard after a failed pass, immediately reestablish crossface control and begin driving shoulder pressure back into their face to flatten their posture. Secure an underhook on the far side before they can establish theirs. From here, work to force their legs back into extension by driving forward pressure while controlling their upper body. The key is not allowing them to establish knee shield or lockdown before you can reinitiate the passing sequence."
       }
+    ],
+    "clips": [
+      {
+        "id": "m7i-COxDMb0",
+        "title": "Top Half Guard Pass - Donkey Pass",
+        "by": "Cosens Martial Arts",
+        "vertical": false,
+        "channel": "Cosens MMA LLC",
+        "duration": 64,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "8WbQvytyCX0",
+        "title": "How to pass the flat half guard",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 63,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "kTSMGYlVJKY",
+        "title": "Free Your Foot While Passing Half Guard",
+        "by": "Kameron Ross",
+        "vertical": false,
+        "channel": "Kameron Ross",
+        "duration": 55,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -681,6 +710,26 @@
         "question": "Your jailbreak fails and you end up in turtle with the opponent on top - how do you continue the escape sequence?",
         "answer": "If you reach turtle after a jailbreak attempt, immediately protect your neck and far arm from chokes and back takes. Your options from turtle include: sitting through to guard recovery by posting and rotating, standing up through a technical stand-up if you can create space, or attacking with a Peterson roll or Granby to re-guard. The key is staying active in turtle rather than stalling, as the opponent will quickly establish back control if you remain static. Chain your escape attempts together."
       }
+    ],
+    "clips": [
+      {
+        "id": "Ij2aFpcJiFU",
+        "title": "Jailbreak Escape from Side Control",
+        "by": "CORE MMA",
+        "vertical": false,
+        "channel": "CORE MMA",
+        "duration": 175,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "gFYyMkaMz34",
+        "title": "Prison Guard Breakdown (MTS 201)",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 59,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -715,6 +764,35 @@
     {
       "question": "Why does timing the opponent's weight and base configuration matter more than strength in the Jailbreak?",
       "answer": "The Jailbreak resolves through borrowed momentum and angle rather than force, so the correct action depends entirely on where the opponent's weight is committed at a given instant. Forward-committed weight over a narrow base makes the inverting roll viable, while a wide, hips-back base closes that door and favors a different pathway such as diving to deep half or the top player patiently collapsing space. Acting against the pressure rather than with it wastes energy and gets the mover stuck mid-transition. Both players therefore win from this position by reading the opponent's base and committing at the exact moment the mechanics align, not by muscling through a poorly timed attempt."
+    }
+  ],
+  "clips": [
+    {
+      "id": "gFYyMkaMz34",
+      "title": "Prison Guard Breakdown (MTS 201)",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "Eddie Bravo",
+      "duration": 59,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "Ij2aFpcJiFU",
+      "title": "Jailbreak Escape from Side Control",
+      "by": "CORE MMA",
+      "vertical": false,
+      "channel": "CORE MMA",
+      "duration": 175,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "kFEDU0DVQ7I",
+      "title": "Jailbreak to reversal sweep",
+      "by": "Redmond Fit",
+      "vertical": false,
+      "channel": "Redmond Fit",
+      "duration": 77,
+      "verified": "2026-07-14"
     }
   ]
 }

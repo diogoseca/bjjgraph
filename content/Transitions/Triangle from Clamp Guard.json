@@ -289,7 +289,36 @@
         "answer": "The two critical grips are wrist control on the trapped arm and head or posture control with the other hand. If wrist control is lost during the leg shoot, the opponent can retract their arm to the outside of the triangle, converting your triangle attempt into a loose head-and-arm position with no choking threat. If head control is lost, the opponent can posture up before the lock closes, creating enough vertical space to begin their escape sequence. Losing both grips simultaneously is catastrophic — it typically results in the opponent standing completely out of the guard and resetting to neutral."
       }
     ],
-    "safety_considerations": "The triangle choke compresses the carotid arteries and can cause unconsciousness within seconds when fully locked with correct angle. Always practice the leg shoot and locking mechanics with controlled pressure during drilling. Release immediately when your training partner taps — verbal, physical, or any signal of distress. Monitor your partner for signs of reduced blood flow including facial color changes and decreased responsiveness. During training progressions, apply the choking leg gradually and allow your partner time to work their defensive technique before increasing pressure. Never hold a locked triangle with full pressure on a partner who has stopped defending."
+    "safety_considerations": "The triangle choke compresses the carotid arteries and can cause unconsciousness within seconds when fully locked with correct angle. Always practice the leg shoot and locking mechanics with controlled pressure during drilling. Release immediately when your training partner taps — verbal, physical, or any signal of distress. Monitor your partner for signs of reduced blood flow including facial color changes and decreased responsiveness. During training progressions, apply the choking leg gradually and allow your partner time to work their defensive technique before increasing pressure. Never hold a locked triangle with full pressure on a partner who has stopped defending.",
+    "clips": [
+      {
+        "id": "UWdTY2pVj08",
+        "title": "Clamp guard to triangle choke",
+        "by": "Modesto Judo Club",
+        "vertical": false,
+        "channel": "Modesto Judo Club",
+        "duration": 94,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "OC8IOTnsETk",
+        "title": "Triangle attack from guard",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "Denver Seminars",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "gQWXO_L0jbU",
+        "title": "Rolling triangle from the clamp",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 223,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Triangle from Clamp Guard Defender",
@@ -404,6 +433,35 @@
         "phase": "Phase 3: Escape Sequences",
         "focus": "Systematic escape from partially and fully locked triangles",
         "description": "Start with the triangle already locked at various stages of tightness. Practice the complete escape priority sequence: posture first, fight angle second, work arm position third. Partner provides progressive resistance and transitions to armbar or omoplata when the defender creates openings, developing awareness of the full submission chain. 5 rounds of 3 minutes."
+      }
+    ],
+    "clips": [
+      {
+        "id": "58LkTy6v3KQ",
+        "title": "Defending and countering the clamp overhook",
+        "by": "The Grappling Bloke",
+        "vertical": false,
+        "channel": "The Grappling Bloke",
+        "duration": 109,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "sR2rS2dwpNY",
+        "title": "How to escape a triangle choke",
+        "by": "Rener and Ryron Gracie",
+        "vertical": false,
+        "channel": "Hayabusa",
+        "duration": 117,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "DLmrzSs1hWI",
+        "title": "Triangle defense and escape",
+        "by": "Daniel Frank",
+        "vertical": false,
+        "channel": "Daniel Frank",
+        "duration": 24,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -286,7 +286,36 @@
         "answer": "The primary chain attacks after a blocked sweep are: Kimura entry when opponent pulls their arm back against the overhook, arm drag to back take when opponent attempts to posture away, guillotine or front headlock entry when opponent drives forward to prevent another sweep attempt, and a re-attempt of the sweep from a different angle or variant. The key is reading which defensive adjustment the opponent makes after blocking the sweep and selecting the corresponding chain attack."
       }
     ],
-    "safety_considerations": "The Overhook Control Sweep is generally safe when executed with proper technique. Primary injury risks include shoulder strain on the trapped arm if the top player resists by posting aggressively while their arm is deeply controlled. Avoid cranking the overhook aggressively during drilling as this can strain the trapped shoulder's rotator cuff. During the sweep transition, control the landing to prevent your partner from landing on their head or neck. Release the overhook immediately if your partner indicates shoulder discomfort. When drilling bridge-based variants, ensure the training area is clear of other practitioners to prevent collisions during the rolling motion."
+    "safety_considerations": "The Overhook Control Sweep is generally safe when executed with proper technique. Primary injury risks include shoulder strain on the trapped arm if the top player resists by posting aggressively while their arm is deeply controlled. Avoid cranking the overhook aggressively during drilling as this can strain the trapped shoulder's rotator cuff. During the sweep transition, control the landing to prevent your partner from landing on their head or neck. Release the overhook immediately if your partner indicates shoulder discomfort. When drilling bridge-based variants, ensure the training area is clear of other practitioners to prevent collisions during the rolling motion.",
+    "clips": [
+      {
+        "id": "2hc9sl1hEkE",
+        "title": "Overhook Sweep from Butterfly Guard",
+        "by": "Satori BJJ",
+        "vertical": false,
+        "channel": "Satori BJJ",
+        "duration": 36,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "vIa1iE-WJpo",
+        "title": "Leg Assisted Overhook Sweep from Butterfly Guard",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 79,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "myygiNlQQK8",
+        "title": "Butterfly Guard overhook sweep options",
+        "by": "Elevate MMA Academy",
+        "vertical": false,
+        "channel": "Elevate MMA Academy",
+        "duration": 116,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Overhook Control Sweep Defender",
@@ -412,6 +441,35 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Defending in full-resistance positional sparring",
         "description": "Full-resistance positional sparring starting in overhook control. Bottom player attempts all sweeps and chain attacks while top player works to defend sweeps and strip the overhook to advance passing position. Track sweep defense success rate and identify which defensive reactions need refinement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "58LkTy6v3KQ",
+        "title": "Closed Guard Defense and Counter to the Overhook",
+        "by": "The Grappling Bloke",
+        "vertical": false,
+        "channel": "The Grappling Bloke",
+        "duration": 109,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "O3YoK7uDtHI",
+        "title": "Hip Flick Defense to the Hook Sweep",
+        "by": "Satori BJJ",
+        "vertical": false,
+        "channel": "Satori BJJ",
+        "duration": 80,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "hgup3-KphBM",
+        "title": "Counter to the Whizzer in Dogfight",
+        "by": "The Base Jiu Jitsu",
+        "vertical": false,
+        "channel": "The Base Jiu Jitsu",
+        "duration": 119,
+        "verified": "2026-07-15"
       }
     ]
   }

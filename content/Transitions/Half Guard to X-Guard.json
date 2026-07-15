@@ -289,7 +289,36 @@
         "answer": "When the opponent attempts a knee slice pass, their knee drives across your thigh line with forward momentum. Instead of defending the slice directly, redirect their slicing knee by inserting your butterfly hook behind it as it crosses. Their passing energy becomes your entry mechanics, threading them into the X-Guard configuration as their knee slides naturally into your hook placement."
       }
     ],
-    "safety_considerations": "The Half Guard to X-Guard transition involves significant hip and knee loading on both players. Ensure adequate warm-up of hip flexors, groin, and knee ligaments before drilling. When the bottom player elevates with X-Guard hooks, the top player's knee can experience lateral stress if they resist rotation. Communicate clearly with training partners about knee comfort during hook insertion and elevation. Avoid explosive cranking motions when establishing hooks, as this can strain the top player's medial collateral ligament. Progress resistance gradually during drilling phases and tap immediately if knee discomfort occurs."
+    "safety_considerations": "The Half Guard to X-Guard transition involves significant hip and knee loading on both players. Ensure adequate warm-up of hip flexors, groin, and knee ligaments before drilling. When the bottom player elevates with X-Guard hooks, the top player's knee can experience lateral stress if they resist rotation. Communicate clearly with training partners about knee comfort during hook insertion and elevation. Avoid explosive cranking motions when establishing hooks, as this can strain the top player's medial collateral ligament. Progress resistance gradually during drilling phases and tap immediately if knee discomfort occurs.",
+    "clips": [
+      {
+        "id": "zbYb6sOYC8w",
+        "title": "X-guard sweep",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "CHOKE LABORATORY",
+        "duration": 53,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "AhsXraebbdg",
+        "title": "Single leg X-guard sweep",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "jen jitsu",
+        "duration": 47,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "7OnjPU1WjH4",
+        "title": "X-guard sweep and pass",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "Gentle Art Media",
+        "duration": 35,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Half Guard to X-Guard Defender",
@@ -410,6 +439,17 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Full resistance positional sparring from half guard top against X-Guard entries",
         "description": "Full speed positional sparring where bottom player actively pursues the X-Guard entry among other half guard attacks. Develop the ability to distinguish X-Guard transition attempts from underhook sweeps and deep half entries, applying the appropriate defensive response for each in real time competition conditions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "JSOM86_1lRo",
+        "title": "Foot lock and single leg X-guard escapes",
+        "by": "James O'Connor",
+        "vertical": false,
+        "channel": "James O’Connor",
+        "duration": 111,
+        "verified": "2026-07-15"
       }
     ]
   }

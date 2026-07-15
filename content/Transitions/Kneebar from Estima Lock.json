@@ -296,7 +296,27 @@
         "answer": "The Estima Lock applies rotational force to the ankle joint—twisting the inverted foot toward the opponent's body while the forearm acts as a fulcrum across the top of the foot. The force vector is primarily rotational around the ankle's axis. The kneebar applies linear hyperextension force to the knee joint—bridging your hips forward into the knee crease while pulling the foot and ankle toward your chest. The force vector is perpendicular to the leg's natural bending direction. This fundamental difference in force direction is what makes the chain attack effective: defending the rotation exposes the leg to hyperextension, and defending the hyperextension may re-expose the ankle to rotation."
       }
     ],
-    "safety_considerations": "The kneebar attacks the knee joint through hyperextension, which can cause catastrophic injury to the ACL, PCL, and surrounding ligaments if applied explosively or without control. Always apply kneebar pressure gradually and steadily after establishing full control—never crank during the transition itself when the opponent may not yet recognize the new threat. In training, communicate clearly with your partner when transitioning from the Estima Lock to the kneebar, as the change in attack vector can catch defenders off-guard. Honor tap signals immediately and be especially cautious with less experienced training partners who may not recognize kneebar danger cues as quickly. The transition itself should be practiced at slow speed before increasing to competition tempo. Check your gym's ruleset regarding kneebar legality at your belt level before drilling in live sparring."
+    "safety_considerations": "The kneebar attacks the knee joint through hyperextension, which can cause catastrophic injury to the ACL, PCL, and surrounding ligaments if applied explosively or without control. Always apply kneebar pressure gradually and steadily after establishing full control—never crank during the transition itself when the opponent may not yet recognize the new threat. In training, communicate clearly with your partner when transitioning from the Estima Lock to the kneebar, as the change in attack vector can catch defenders off-guard. Honor tap signals immediately and be especially cautious with less experienced training partners who may not recognize kneebar danger cues as quickly. The transition itself should be practiced at slow speed before increasing to competition tempo. Check your gym's ruleset regarding kneebar legality at your belt level before drilling in live sparring.",
+    "clips": [
+      {
+        "id": "_6BC8d5B5Hs",
+        "title": "Estima Lock demonstration",
+        "by": "bjjtaro",
+        "vertical": false,
+        "channel": "bjjtaro",
+        "duration": 31,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8Wum2xWu8b8",
+        "title": "Estima Lock breakdown",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 108,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Kneebar from Estima Lock Defender",
@@ -427,6 +447,17 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Full-speed defense against genuine transition attempts",
         "description": "Start from Estima Lock bottom position. Attacker works the Estima Lock and transitions to kneebar when appropriate. Defend both the footlock and the kneebar transition using all available tools at full resistance. Reset after escape, submission, or tap. Alternate roles to develop complete understanding of both perspectives."
+      }
+    ],
+    "clips": [
+      {
+        "id": "R7lPdQWLOus",
+        "title": "50/50 defense: protecting your leg",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "The Grapplers Guide by Jason Scully",
+        "duration": 161,
+        "verified": "2026-07-15"
       }
     ]
   }

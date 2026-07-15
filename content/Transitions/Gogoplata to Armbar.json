@@ -292,7 +292,27 @@
         "answer": "Drive your hips upward toward the ceiling while simultaneously pulling the opponent's wrist toward your chest centerline. These two force vectors work together: the upward hip drive creates fulcrum pressure against the elbow joint, while the chest-directed wrist pull extends the arm into hyperextension across that fulcrum. The force must be perpendicular to the opponent's forearm to maximize leverage on the elbow. Avoid pulling the wrist laterally or pushing hips sideways, as diagonal force vectors reduce finishing efficiency and allow defensive adjustments."
       }
     ],
-    "safety_considerations": "The gogoplata to armbar transition involves moving between two joint-threatening positions in rapid succession. During training, partners should apply the armbar finish slowly and incrementally after the transition is complete. The rapid change from throat compression to elbow hyperextension can catch defenders off guard, significantly increasing injury risk. Always establish clear tap protocols before drilling this chain, and release immediately upon any tap signal regardless of which phase the technique is in. Practitioners with limited hip flexibility should not force the gogoplata component, as hip and hamstring injuries can result from attempting positions beyond current mobility range. Drill at reduced speed until the full transition sequence is comfortable for both partners."
+    "safety_considerations": "The gogoplata to armbar transition involves moving between two joint-threatening positions in rapid succession. During training, partners should apply the armbar finish slowly and incrementally after the transition is complete. The rapid change from throat compression to elbow hyperextension can catch defenders off guard, significantly increasing injury risk. Always establish clear tap protocols before drilling this chain, and release immediately upon any tap signal regardless of which phase the technique is in. Practitioners with limited hip flexibility should not force the gogoplata component, as hip and hamstring injuries can result from attempting positions beyond current mobility range. Drill at reduced speed until the full transition sequence is comfortable for both partners.",
+    "clips": [
+      {
+        "id": "BZUaoH8vf0U",
+        "title": "Armbar and gogoplata transition",
+        "by": "Carlson Gracie Melbourne coach",
+        "vertical": false,
+        "channel": "Carlson Gracie Jiu-Jitsu Team Melbourne FL",
+        "duration": 65,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ht6VYMYXHsI",
+        "title": "Armbar from rubber guard",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "JiuJitsuMania",
+        "duration": 260,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Gogoplata to Armbar Defender",
@@ -417,6 +437,17 @@
         "phase": "Phase 4: Counter-Attack Development",
         "focus": "Converting successful defense into positional advancement rather than returning to static survival",
         "description": "After successfully defending the armbar transition, immediately work to improve position through guard passing, posture recovery, or positional advancement rather than settling back into gogoplata defense. Practice punishing the attacker for abandoning the gogoplata by escaping their entire guard system when the transition fails."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "Armbar escape when they are close to finishing",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "verified": "2026-07-15"
       }
     ]
   }

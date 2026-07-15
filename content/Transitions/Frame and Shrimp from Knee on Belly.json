@@ -282,7 +282,27 @@
         "answer": "The space created by the shrimp is temporary — the opponent is actively working to follow your movement and re-establish knee contact. Without a physical barrier, the opponent simply hops their knee to your new position and resets the entire exchange. The inserted knee creates an obstacle that prevents direct re-establishment and begins the structural transition to half guard. Delayed insertion wastes the space gained and often leads to the opponent advancing to mount through the gap you created."
       }
     ],
-    "safety_considerations": "This escape technique involves no direct joint manipulation or choking mechanics, making it low-risk from a submission safety perspective. The primary concern is managing the significant compressive pressure on the diaphragm and solar plexus during the escape sequence. Practitioners with rib injuries, respiratory conditions, or recent abdominal surgery should communicate clearly with training partners about pressure levels. During drilling, the top player should modulate pressure progressively and watch for signs of respiratory distress. Tap immediately if you cannot breathe — there is no technical benefit to training through oxygen deprivation."
+    "safety_considerations": "This escape technique involves no direct joint manipulation or choking mechanics, making it low-risk from a submission safety perspective. The primary concern is managing the significant compressive pressure on the diaphragm and solar plexus during the escape sequence. Practitioners with rib injuries, respiratory conditions, or recent abdominal surgery should communicate clearly with training partners about pressure levels. During drilling, the top player should modulate pressure progressively and watch for signs of respiratory distress. Tap immediately if you cannot breathe — there is no technical benefit to training through oxygen deprivation.",
+    "clips": [
+      {
+        "id": "Wn01Ynw7O28",
+        "title": "How to escape knee on belly",
+        "by": "Evolve MMA",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 40,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "52LxBaUJdcw",
+        "title": "Knee on belly escape to technical stand up",
+        "by": "Lucas Lepri",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 131,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Frame and Shrimp from Knee on Belly Defender",
@@ -395,6 +415,26 @@
         "phase": "Live Positional Sparring",
         "focus": "Full-speed KOB defense against all escape methods",
         "description": "Maintain KOB against a fully resisting partner who mixes Frame and Shrimp with other escapes — pushing the knee, turning to turtle, technical stand-up. Practice reading which escape is being attempted and applying the correct defensive response in real time with full resistance and speed."
+      }
+    ],
+    "clips": [
+      {
+        "id": "eAk417Da_2o",
+        "title": "Applying pressure to hold knee on belly",
+        "by": "KMW Krav Maga",
+        "vertical": false,
+        "channel": "KMWKravMaga",
+        "duration": 57,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "wzHXCeskbWo",
+        "title": "Grips that keep knee on belly locked down",
+        "by": "Neale Hoerle",
+        "vertical": false,
+        "channel": "Neale Hoerle Brazilian Jiu Jitsu",
+        "duration": 126,
+        "verified": "2026-07-15"
       }
     ]
   }

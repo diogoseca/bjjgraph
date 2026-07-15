@@ -286,7 +286,36 @@
         "answer": "The optimal window is immediately after successfully defending a submission attempt when the opponent's grip loosens slightly, or after establishing solid two-on-one hand fighting control that prevents the opponent from attacking the neck. The opponent's momentary focus on re-establishing their choking grip creates the window for hip movement that is hardest to counter."
       }
     ],
-    "safety_considerations": "This escape involves significant spinal movement and neck pressure throughout its execution. Ensure your chin remains tucked at all times to protect cervical vertebrae from choke pressure during the transition. Never force the scooting motion if you feel sharp pain in your neck or spine. During training, communicate with your partner about the intensity of their hooks and choke attempts. Tap immediately if a choke is secured during practice rather than continuing the escape attempt. Build the scooting motion gradually through repetition before applying it under full resistance to prevent injury."
+    "safety_considerations": "This escape involves significant spinal movement and neck pressure throughout its execution. Ensure your chin remains tucked at all times to protect cervical vertebrae from choke pressure during the transition. Never force the scooting motion if you feel sharp pain in your neck or spine. During training, communicate with your partner about the intensity of their hooks and choke attempts. Tap immediately if a choke is secured during practice rather than continuing the escape attempt. Build the scooting motion gradually through repetition before applying it under full resistance to prevent injury.",
+    "clips": [
+      {
+        "id": "Ly89G4iCTSQ",
+        "title": "Turtle no-grips escape rolling to guard",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 108,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "485wvqwlBYA",
+        "title": "Back control escape when sprawled face down",
+        "by": "Academy Jiu Jitsu",
+        "vertical": false,
+        "channel": "Academy Jiu Jitsu",
+        "duration": 92,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "bhkb4ItZQno",
+        "title": "How to not get mounted escaping the back",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 131,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Scoot Hips to Guard from Back Defender",
@@ -407,6 +436,26 @@
         "phase": "Phase 4: Live Retention Sparring",
         "focus": "Full resistance positional defense",
         "description": "Back control positional sparring where bottom player uses all escape methods with full resistance. Maintain back control for 2-minute rounds, focusing on retention and counter-attacking when escape attempts create submission opportunities or position improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "43iZ-GLc_r8",
+        "title": "Back escape against top hook",
+        "by": "Mattix Academy",
+        "vertical": false,
+        "channel": "MATTIX ACADEMY",
+        "duration": 144,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "485wvqwlBYA",
+        "title": "Back control escape when sprawled face down",
+        "by": "Academy Jiu Jitsu",
+        "vertical": false,
+        "channel": "Academy Jiu Jitsu",
+        "duration": 92,
+        "verified": "2026-07-15"
       }
     ]
   }

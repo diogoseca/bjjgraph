@@ -280,7 +280,27 @@
         "answer": "Frame from Side Control targets an incremental improvement: disrupting consolidation and returning to standard side control bottom with active frames. Escape Side Control targets full guard recovery through elbow escape, hip escape, or ghost escape sequences. Framing is the prerequisite because without structural barriers preventing the opponent from following your movement, hip escapes and guard recovery attempts fail. The opponent simply follows your shrimp and re-pins you. Frames create the space that makes escape mechanics functional."
       }
     ],
-    "safety_considerations": "This is a defensive technique with minimal injury risk to either practitioner when performed correctly. The primary safety concern is arm isolation leading to shoulder submissions (kimura, americana) if the framing arm becomes extended and trapped. Always maintain bent elbows during framing and immediately prioritize arm recovery over frame maintenance if the opponent secures wrist control. Training partners should apply consolidation pressure progressively, starting at low intensity to allow the bottom player to develop frame timing before increasing to competition-level pressure. Tap immediately if any shoulder lock develops during frame training."
+    "safety_considerations": "This is a defensive technique with minimal injury risk to either practitioner when performed correctly. The primary safety concern is arm isolation leading to shoulder submissions (kimura, americana) if the framing arm becomes extended and trapped. Always maintain bent elbows during framing and immediately prioritize arm recovery over frame maintenance if the opponent secures wrist control. Training partners should apply consolidation pressure progressively, starting at low intensity to allow the bottom player to develop frame timing before increasing to competition-level pressure. Tap immediately if any shoulder lock develops during frame training.",
+    "clips": [
+      {
+        "id": "wDSd5Qy8Kac",
+        "title": "Babybridge frames from bottom side control",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 231,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dlIH3VjvDRo",
+        "title": "Sticky hands framing from bottom side control",
+        "by": "Select Jiu Jitsu Academy",
+        "vertical": false,
+        "channel": "Select Jiu Jitsu Academy",
+        "duration": 220,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Frame from Side Control Defender",
@@ -391,6 +411,35 @@
         "phase": "Phase 3: Dynamic Consolidation vs. Active Framing",
         "focus": "Maintaining consolidation against sustained and varied framing attempts",
         "description": "Full positional sparring where bottom player focuses exclusively on framing while top player maintains consolidation. Top player practices all defensive options including frame collapse, angle swimming, and position advancement. Bottom player uses all frame variants. 4 rounds of 2 minutes at increasing resistance."
+      }
+    ],
+    "clips": [
+      {
+        "id": "e8OUw05ZBwo",
+        "title": "Dealing with frames from top side control",
+        "by": "Fox Den Martial Arts",
+        "vertical": false,
+        "channel": "Fox Den Martial Arts",
+        "duration": 245,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "LUxMvOFbxIY",
+        "title": "Killing the near side arm from side control",
+        "by": "Inverted Gear",
+        "vertical": false,
+        "channel": "Inverted Gear",
+        "duration": 123,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "AErzgTWDSnE",
+        "title": "Passing against the elbow and knee frame",
+        "by": "Eric DeVere",
+        "vertical": false,
+        "channel": "Eric DeVere",
+        "duration": 287,
+        "verified": "2026-07-15"
       }
     ]
   }

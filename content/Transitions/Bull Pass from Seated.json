@@ -314,7 +314,36 @@
         "answer": "Choose the bull pass when the opponent's feet are close together or inactive since toreando requires separated legs to redirect laterally. Choose it when the opponent has a strong lateral scooting game that defeats toreando attempts. Also choose it when the opponent is focused on upper body grip fighting and neglecting their leg defense. The toreando is generally higher percentage, so the bull pass works best as a change of pace or against specific passive defensive postures."
       }
     ],
-    "safety_considerations": "The Bull Pass involves explosive forward driving that can strain the lower back and knees if performed with poor mechanics. Always warm up hips and lower back before drilling this technique. The forward drive should come from hip extension rather than spinal flexion. When drilling with partners, communicate about drive intensity to prevent accidental knee impacts or facial collisions. The opponent's legs can be stressed at the knee joint if pushed at an extreme lateral angle, so direct leg pushes laterally with controlled force rather than hyperextending. Practice at controlled speed before adding full explosiveness."
+    "safety_considerations": "The Bull Pass involves explosive forward driving that can strain the lower back and knees if performed with poor mechanics. Always warm up hips and lower back before drilling this technique. The forward drive should come from hip extension rather than spinal flexion. When drilling with partners, communicate about drive intensity to prevent accidental knee impacts or facial collisions. The opponent's legs can be stressed at the knee joint if pushed at an extreme lateral angle, so direct leg pushes laterally with controlled force rather than hyperextending. Practice at controlled speed before adding full explosiveness.",
+    "clips": [
+      {
+        "id": "Zgta5opKk9E",
+        "title": "Bullfighter pass demonstration",
+        "by": "Affinity Academy",
+        "vertical": false,
+        "channel": "Affinity Academy",
+        "duration": 69,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "x05l4enyJzc",
+        "title": "Guard passing connection system",
+        "by": "Kyle Sleeman",
+        "vertical": false,
+        "channel": "Kyle 'Bull' Sleeman",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Xg1AIYs575s",
+        "title": "Combining tornado and x-pass",
+        "by": "Professor Buck",
+        "vertical": false,
+        "channel": "Professor Buck",
+        "duration": 22,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Bull Pass from Seated Defender",
@@ -439,6 +468,35 @@
         "phase": "Phase 4: Live Integration",
         "focus": "Defending the bull pass within full-resistance positional sparring",
         "description": "Full-resistance positional sparring from seated guard where the top player has complete freedom to pass using any technique. Apply bull pass defense alongside toreando and other pass defenses without pre-knowing which technique is coming. Develop the ability to read and defend multiple pass types seamlessly."
+      }
+    ],
+    "clips": [
+      {
+        "id": "G1PKGe_q9P0",
+        "title": "How to counter sit-up guard",
+        "by": "Avant-Garde BJJ",
+        "vertical": false,
+        "channel": "Avant-Garde BJJ",
+        "duration": 58,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "qP9iLxlxgzw",
+        "title": "Sit up guard retention, live rolling",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 120,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lVLAROiSjNU",
+        "title": "Guard retention: when to sit up escape",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 136,
+        "verified": "2026-07-15"
       }
     ]
   }

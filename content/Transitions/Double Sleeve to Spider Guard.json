@@ -291,7 +291,36 @@
         "answer": "If the right grip is threatened, transition the left side into a lasso by threading your left leg under their left arm and over their shoulder, converting to a lasso-spider hybrid that maintains strong unilateral control. Alternatively, release the threatened right grip voluntarily and shoot for a triangle setup by pulling their left arm across your centerline while swinging your right leg over their head. A third option is converting to collar-sleeve guard by releasing the right sleeve and grabbing their collar for mixed grip control."
       }
     ],
-    "safety_considerations": "The Double Sleeve to Spider Guard transition is generally low-risk for both practitioners. The primary safety concern involves hyperextension pressure on the elbows when the bottom player applies excessive pushing force through the bicep hooks with fully extended legs. Both practitioners should communicate regarding elbow comfort, particularly during high-intensity drilling. Wrist and finger strain from sustained sleeve gripping is common during extended practice sessions. Practitioners should vary grip intensity, take adequate rest between drilling rounds, and avoid death-gripping during initial learning phases to prevent repetitive strain injuries in the fingers and forearms."
+    "safety_considerations": "The Double Sleeve to Spider Guard transition is generally low-risk for both practitioners. The primary safety concern involves hyperextension pressure on the elbows when the bottom player applies excessive pushing force through the bicep hooks with fully extended legs. Both practitioners should communicate regarding elbow comfort, particularly during high-intensity drilling. Wrist and finger strain from sustained sleeve gripping is common during extended practice sessions. Practitioners should vary grip intensity, take adequate rest between drilling rounds, and avoid death-gripping during initial learning phases to prevent repetitive strain injuries in the fingers and forearms.",
+    "clips": [
+      {
+        "id": "8gykFUspVxU",
+        "title": "Framing the guard",
+        "by": "Rafael Mendes",
+        "vertical": false,
+        "channel": "ART OF JIU JITSU",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Cl5tutvZ2NA",
+        "title": "Spider guard: breaking posture to triangle and sweep",
+        "by": "Pathfinder Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Pathfinder Jiu-Jitsu Team",
+        "duration": 50,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "7ItTf1BFDZA",
+        "title": "Spider guard foot on bicep to triangle choke",
+        "by": "Ritchie Yip",
+        "vertical": false,
+        "channel": "Ritchie Yip",
+        "duration": 31,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Double Sleeve to Spider Guard Defender",
@@ -416,6 +445,35 @@
         "phase": "Phase 4: Competition Integration",
         "focus": "Full integration with passing strategy",
         "description": "Full positional sparring where the bottom player works from double sleeve guard with freedom to transition to any guard variation including spider, lasso, and De La Riva. Top player must defend all transitions while maintaining forward passing pressure. Full resistance with position resets after pass or sweep."
+      }
+    ],
+    "clips": [
+      {
+        "id": "QLFDlCZqHlU",
+        "title": "Spider guard grip break",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "BJJ Joe",
+        "duration": 10,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "-LZ8rl5LrxU",
+        "title": "Removing spider grips to torreando leg drag pass",
+        "by": "Joao Miyao",
+        "vertical": false,
+        "channel": "BJJ Shorts",
+        "duration": 146,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "XK-wLG3B0xU",
+        "title": "How to pass the spider guard",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ Plus",
+        "duration": 205,
+        "verified": "2026-07-15"
       }
     ]
   }

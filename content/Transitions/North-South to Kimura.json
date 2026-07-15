@@ -289,7 +289,36 @@
         "answer": "Without a gi, the opponent cannot grab their own belt or lapel to anchor their arm, which eliminates their highest-effectiveness defensive option. However, they can still grab their own shorts or clasp their hands together. The lack of friction also means your grip on their wrist must be more precise and deeper above the wrist joint, as sweat makes shallow grips unreliable. To compensate, prioritize speed in the grip transition phase and use more body weight compression to control the arm before locking the figure-four. The overall success rate tends to be slightly higher in no-gi because the opponent's primary grip defense is removed."
       }
     ],
-    "safety_considerations": "When training the North-South to Kimura transition, practitioners must exercise caution to prevent shoulder injuries. The Kimura places significant torque on the shoulder joint, and applying pressure too quickly or forcefully can result in serious injury including shoulder dislocation, rotator cuff tears, or labrum damage. Always apply the technique slowly and progressively during drilling, giving your training partner ample time to recognize the danger and tap. Partners should establish clear tap signals before beginning: verbal tap, physical tap with free hand, or foot tap if hands are trapped. The person applying the technique must release immediately upon feeling any tap signal or hearing verbal submission. When defending in training, do not wait too long to tap - protecting your training longevity is more important than resisting a locked submission. Instructors should closely supervise beginners learning this technique and emphasize that the shoulder lock requires gradual application, not explosive cranking."
+    "safety_considerations": "When training the North-South to Kimura transition, practitioners must exercise caution to prevent shoulder injuries. The Kimura places significant torque on the shoulder joint, and applying pressure too quickly or forcefully can result in serious injury including shoulder dislocation, rotator cuff tears, or labrum damage. Always apply the technique slowly and progressively during drilling, giving your training partner ample time to recognize the danger and tap. Partners should establish clear tap signals before beginning: verbal tap, physical tap with free hand, or foot tap if hands are trapped. The person applying the technique must release immediately upon feeling any tap signal or hearing verbal submission. When defending in training, do not wait too long to tap - protecting your training longevity is more important than resisting a locked submission. Instructors should closely supervise beginners learning this technique and emphasize that the shoulder lock requires gradual application, not explosive cranking.",
+    "clips": [
+      {
+        "id": "-aEJ1gdSyIM",
+        "title": "Colossus kimura finishes from north-south",
+        "by": "Utopia Martial Arts",
+        "vertical": false,
+        "channel": "Utopia Martial Arts",
+        "duration": 86,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MQvTMVMiLl4",
+        "title": "North-south kimura grip to step-over armbar",
+        "by": "Raven Jiu Jitsu",
+        "vertical": false,
+        "channel": "Raven Jiu Jitsu",
+        "duration": 131,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MEGPKR9ctWY",
+        "title": "North-south kimura from kesa",
+        "by": "CORE MMA",
+        "vertical": false,
+        "channel": "CORE MMA",
+        "duration": 178,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "North-South to Kimura Defender",
@@ -418,6 +447,35 @@
         "phase": "Week 9-12: Full Resistance Positional Sparring",
         "focus": "Defending the complete North-South to Kimura chain at full resistance",
         "description": "Positional sparring starting from North-South with attacker attempting the Kimura at full speed and pressure. Defender integrates all defensive tools into fluid response chains. Track success rates at each defensive stage to identify weaknesses. Develop instinctive recognition and reaction patterns through high-repetition sparring rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ZT4QcOFksxs",
+        "title": "Kimura escape from north-south",
+        "by": "Street Jitsu",
+        "vertical": false,
+        "channel": "Street Jitsu",
+        "duration": 25,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "BLPOQLQqngI",
+        "title": "Countering the north-south kimura setup",
+        "by": "Scott Clawson",
+        "vertical": false,
+        "channel": "Scott Clawson Jiu-Jitsu",
+        "duration": 83,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "n-qXtiqiCho",
+        "title": "North-south kimura defense",
+        "by": "Hauck Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Hauck Jiu-Jitsu",
+        "duration": 181,
+        "verified": "2026-07-15"
       }
     ]
   },

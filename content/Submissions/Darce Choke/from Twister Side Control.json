@@ -331,6 +331,26 @@
         "answer": "Immediately unclasp your hands to break the figure-four grip. Remove shoulder pressure from the neck first to relieve arterial compression as quickly as possible. Then slowly extract the choking arm to avoid jerking the neck. Allow your partner to recover in a seated or supine position and monitor them for at least 30 seconds for signs of dizziness, disorientation, or delayed effects. If they lost consciousness at any point, keep their airway clear and seek medical evaluation.",
         "safety_critical": true
       }
+    ],
+    "clips": [
+      {
+        "id": "EW9QdDZBmrU",
+        "title": "Twister Side to Darce (quick tip)",
+        "by": "Underground Alliance",
+        "vertical": false,
+        "channel": "UNDERGROUND ALLIANCE TV",
+        "duration": 64,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "R55lmkc6Mus",
+        "title": "Twister Side Control setup",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 87,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -466,6 +486,17 @@
         "phase": "Phase 4: Live Defense with Dilemma Management",
         "focus": "Defending both Darce and Twister threats during positional sparring",
         "description": "Positional sparring from Twister Side Control bottom with partner free to pursue any submission including Darce, Twister, and other chains. Defender must manage multiple threats simultaneously while working toward escape. Track defensive success rate and submission frequency to measure progress."
+      }
+    ],
+    "clips": [
+      {
+        "id": "FMAWiNfgp74",
+        "title": "Defending the Darce choke, stack escape",
+        "by": "BJJ101",
+        "vertical": false,
+        "channel": "BJJ101",
+        "duration": 30,
+        "verified": "2026-07-14"
       }
     ]
   }

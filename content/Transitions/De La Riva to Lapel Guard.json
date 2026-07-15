@@ -244,7 +244,27 @@
         "answer": "Feeding the lapel occupies your hands, so without a second point of control the opponent is free to backstep, circle, or post and pass during that window. A retained sleeve, ankle, or collar grip pins them in place and limits their escape routes, allowing you to commit both hands to the threading. You only fully commit to the feed once those escape routes are restricted."
       }
     ],
-    "safety_considerations": "This entry is a positional gi transition with low inherent injury risk, but a few precautions apply. Avoid cinching the lapel wrap so aggressively around the opponent's knee that it torques the joint laterally - the goal is to trap and control the leg, not to apply a leg lock, so feed the fabric with control and release immediately if your partner signals knee discomfort. Be mindful of finger entanglement in the gi during the feed and re-grip; keep fingers hooked rather than deeply threaded to prevent finger sprains if the opponent rips free. When drilling the standing-pass timing, communicate clearly so neither partner is surprised by the sudden leg entanglement, which can unbalance a standing opponent."
+    "safety_considerations": "This entry is a positional gi transition with low inherent injury risk, but a few precautions apply. Avoid cinching the lapel wrap so aggressively around the opponent's knee that it torques the joint laterally - the goal is to trap and control the leg, not to apply a leg lock, so feed the fabric with control and release immediately if your partner signals knee discomfort. Be mindful of finger entanglement in the gi during the feed and re-grip; keep fingers hooked rather than deeply threaded to prevent finger sprains if the opponent rips free. When drilling the standing-pass timing, communicate clearly so neither partner is surprised by the sudden leg entanglement, which can unbalance a standing opponent.",
+    "clips": [
+      {
+        "id": "ARmiJRANTpg",
+        "title": "Worm guard to back choke",
+        "by": "Keenan Cornelius",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 36,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "OO2IqO3M8f8",
+        "title": "Lapel guard entry demonstration",
+        "by": "Unknown",
+        "vertical": false,
+        "channel": "@bjjhighlights",
+        "duration": 52,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "De La Riva to Lapel Guard Defender",
@@ -343,6 +363,26 @@
         "phase": "Month 2+: Live Defense and Pass Conversion",
         "focus": "Defending the full entry and converting incomplete wraps into passes",
         "description": "From De La Riva at full resistance, the opponent works the lapel entry while you defend with prevention, backstep, and strip-and-pass responses. When you clear a half-formed wrap, immediately convert into a guard pass. 5-minute rounds, integrating the defense into a complete passing game against the lapel system."
+      }
+    ],
+    "clips": [
+      {
+        "id": "aR0dbddbfQA",
+        "title": "Passing the Polish worm rider lapel guard",
+        "by": "Daniel Maira and Nicholas Salles",
+        "vertical": false,
+        "channel": "Movement Art",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "rvbYLboVzZM",
+        "title": "Countering the lapel guard with a pass",
+        "by": "Tarik",
+        "vertical": false,
+        "channel": "Tarik BJJ",
+        "duration": 289,
+        "verified": "2026-07-15"
       }
     ]
   },

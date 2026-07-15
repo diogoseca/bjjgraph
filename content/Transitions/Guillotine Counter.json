@@ -289,7 +289,36 @@
         "answer": "When an opponent maintains a guillotine grip after you have passed to side control, they create the conditions for a Von Flue choke. By driving your shoulder into their choking arm while their own grip traps their arm against their neck, you compress the carotid artery using their own arm as the choking mechanism. Establish heavy crossface pressure with your shoulder driving into their forearm against their neck, sprawl your legs back for maximum weight, and wait for the tap. The opponent's refusal to release becomes a liability that assists your counter-submission from side control."
       }
     ],
-    "safety_considerations": "When practicing guillotine counters, both partners must exercise caution to prevent injury. The person applying the guillotine should release pressure immediately upon tap or if they sense their partner's defense is failing. Prolonged exposure to choking pressure can cause injury even in training. The defending practitioner should tap early and often during learning phases rather than risk injury by fighting through a fully locked submission. Training partners should communicate clearly about pressure levels, starting with light resistance and gradually increasing as technical proficiency improves. Be aware of mat boundaries during the forward drive portion of the defense, as aggressive movement can result in collision with walls or other training partners. Never practice this technique with full resistance until both partners demonstrate technical competency in controlled drilling. Remember that the goal in training is skill development, not proving toughness by refusing to tap."
+    "safety_considerations": "When practicing guillotine counters, both partners must exercise caution to prevent injury. The person applying the guillotine should release pressure immediately upon tap or if they sense their partner's defense is failing. Prolonged exposure to choking pressure can cause injury even in training. The defending practitioner should tap early and often during learning phases rather than risk injury by fighting through a fully locked submission. Training partners should communicate clearly about pressure levels, starting with light resistance and gradually increasing as technical proficiency improves. Be aware of mat boundaries during the forward drive portion of the defense, as aggressive movement can result in collision with walls or other training partners. Never practice this technique with full resistance until both partners demonstrate technical competency in controlled drilling. Remember that the goal in training is skill development, not proving toughness by refusing to tap.",
+    "clips": [
+      {
+        "id": "dyTKKiajgzQ",
+        "title": "Escaping single and double guillotine grips",
+        "by": "Cobrinha",
+        "vertical": false,
+        "channel": "Cobrinha Brazilian Jiu-Jitsu & Fitness",
+        "duration": 44,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lvjRNWzKMPc",
+        "title": "Guillotine escape from closed guard to side control",
+        "by": "Street Jitsu",
+        "vertical": false,
+        "channel": "Street Jitsu",
+        "duration": 27,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8okq4cIHMO0",
+        "title": "Standing guillotine escape",
+        "by": "dogtownman",
+        "vertical": false,
+        "channel": "dogtownman",
+        "duration": 44,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Guillotine Counter Defender",
@@ -418,6 +447,35 @@
         "phase": "Month 3+: Live Positional Sparring",
         "focus": "Integrating guillotine retention into live rolling scenarios",
         "description": "Start each round with guillotine grip established. Partner attempts full counter while you work to maintain, adjust, or transition. Develop competition-speed reactions and learn to read individual opponents' counter timing. Reset after submission, sweep, pass, or guard recovery."
+      }
+    ],
+    "clips": [
+      {
+        "id": "9U5nyBImGj4",
+        "title": "High elbow guillotine (Marcelotine) mechanics",
+        "by": "Wrecking Crew BJJ",
+        "vertical": false,
+        "channel": "Wrecking Crew BJJ",
+        "duration": 45,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "NUnTxPvjCa0",
+        "title": "Marcelotine choke demonstration",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "stuartcooperfilms",
+        "duration": 73,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "IvSVZuezQGo",
+        "title": "Double elbow to high elbow guillotine",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 171,
+        "verified": "2026-07-15"
       }
     ]
   },

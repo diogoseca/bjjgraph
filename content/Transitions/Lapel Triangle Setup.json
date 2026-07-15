@@ -271,7 +271,36 @@
         "answer": "The lapel creates a persistent mechanical arm trap that doesn't require constant muscular effort to maintain, unlike closed guard where you must actively control the arm throughout the setup. This frees cognitive and physical resources for managing posture and timing the leg swing. The fabric barrier also prevents the free arm from entering the triangle space without active blocking."
       }
     ],
-    "safety_considerations": "The Lapel Triangle Setup is generally safe when practiced with proper control, but several precautions should be observed. During the leg swing phase, avoid kicking or driving your leg forcefully into your partner's neck or jaw—control the movement to place the leg rather than striking with it. When practicing the finish, apply gradual pressure and watch for tap signals immediately, as triangle chokes can produce unconsciousness quickly once locked. Partners should tap early during drilling rather than waiting for full pressure. Avoid cranking the neck by pulling the head aggressively—the choke should come from positioning and squeeze, not neck manipulation. If the lapel configuration creates uncomfortable pressure on joints during practice, adjust the wrap or release and reset. Be particularly careful with the inverted triangle variation, as the inverted position adds spinal stress that some practitioners should avoid."
+    "safety_considerations": "The Lapel Triangle Setup is generally safe when practiced with proper control, but several precautions should be observed. During the leg swing phase, avoid kicking or driving your leg forcefully into your partner's neck or jaw—control the movement to place the leg rather than striking with it. When practicing the finish, apply gradual pressure and watch for tap signals immediately, as triangle chokes can produce unconsciousness quickly once locked. Partners should tap early during drilling rather than waiting for full pressure. Avoid cranking the neck by pulling the head aggressively—the choke should come from positioning and squeeze, not neck manipulation. If the lapel configuration creates uncomfortable pressure on joints during practice, adjust the wrap or release and reset. Be particularly careful with the inverted triangle variation, as the inverted position adds spinal stress that some practitioners should avoid.",
+    "clips": [
+      {
+        "id": "W8XDwj8zLcU",
+        "title": "Lapel triangle choke setup",
+        "by": "BJJ After Forty",
+        "vertical": false,
+        "channel": "BJJ After Forty",
+        "duration": 55,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "oClbb67K0zE",
+        "title": "Triangle using the lapel",
+        "by": "South Island BJJ",
+        "vertical": false,
+        "channel": "South Island Bjj",
+        "duration": 56,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "3aRpzqiIvgs",
+        "title": "Triangle setup with the lapel",
+        "by": "Gracie Ohio Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Gracie Ohio Jiu-Jitsu Academy",
+        "duration": 135,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Lapel Triangle Setup Defender",
@@ -395,6 +424,26 @@
         "phase": "Week 7+",
         "focus": "Live defense with counter-passing",
         "description": "Full resistance positional sparring starting with partner in established lapel guard. Defend the triangle setup and immediately transition to passing when the attack fails. Track which defensive responses lead to the most successful guard passes to optimize your defensive-to-offensive chains."
+      }
+    ],
+    "clips": [
+      {
+        "id": "sR2rS2dwpNY",
+        "title": "How to escape a triangle choke",
+        "by": "Rener & Ryron Gracie",
+        "vertical": false,
+        "channel": "Hayabusa",
+        "duration": 117,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "UH19FJlx60U",
+        "title": "Triangle escape and counter",
+        "by": "John Manzella",
+        "vertical": false,
+        "channel": "John Manzella",
+        "duration": 25,
+        "verified": "2026-07-15"
       }
     ]
   },

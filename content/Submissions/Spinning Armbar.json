@@ -228,5 +228,34 @@
       "name": "Armbar Control",
       "relationship": "Target control position after completing the spin"
     }
+  ],
+  "clips": [
+    {
+      "id": "D2tutut1zio",
+      "title": "Armbar from Closed Guard",
+      "by": "Gracie Barra Boston",
+      "vertical": false,
+      "channel": "Gracie Barra Boston",
+      "duration": 103,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "F4Ns40AnI3Q",
+      "title": "Closed Guard Pull to Armbar",
+      "by": "Satori BJJ",
+      "vertical": false,
+      "channel": "Satori BJJ",
+      "duration": 41,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "FBDG7u5lOjk",
+      "title": "Armbar from Closed Guard: Hand Positioning",
+      "by": "Jean Jacques Machado",
+      "vertical": false,
+      "channel": "JeanJacquesMachado",
+      "duration": 138,
+      "verified": "2026-07-14"
+    }
   ]
 }

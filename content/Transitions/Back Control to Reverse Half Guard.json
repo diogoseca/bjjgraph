@@ -290,7 +290,27 @@
         "answer": "Crossface pressure serves dual purposes. During the backstep, it slows the defender's shoulder rotation to buy time for the leg reconfiguration. After establishing reverse half guard, the crossface from behind prevents the defender from turning to face you, which would convert the position to standard half guard and eliminate your reverse angle advantage. Strong crossface is the primary control mechanism in reverse half guard top."
       }
     ],
-    "safety_considerations": "This transition involves rapid positional changes and leg entanglement that require controlled execution during training. Avoid explosive backstep movements that could torque your partner's trapped knee or ankle. During drilling, communicate with your partner about the speed and pressure of the transition. Be particularly careful when threading the backstep leg to avoid catching your partner's knee in an awkward angle. If your partner signals discomfort in the leg entanglement, release immediately and adjust your positioning."
+    "safety_considerations": "This transition involves rapid positional changes and leg entanglement that require controlled execution during training. Avoid explosive backstep movements that could torque your partner's trapped knee or ankle. During drilling, communicate with your partner about the speed and pressure of the transition. Be particularly careful when threading the backstep leg to avoid catching your partner's knee in an awkward angle. If your partner signals discomfort in the leg entanglement, release immediately and adjust your positioning.",
+    "clips": [
+      {
+        "id": "iVUskeb2-Ss",
+        "title": "Back take from reverse half guard",
+        "by": "Trapp Martial Arts",
+        "vertical": false,
+        "channel": "Trapp Martial Arts",
+        "duration": 104,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "s21HgPr-lIA",
+        "title": "Reverse half guard sweep and back take",
+        "by": "Legacy Jiu-Jitsu Academy",
+        "vertical": false,
+        "channel": "Legacy Jiu-Jitsu Academy",
+        "duration": 146,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Back Control to Reverse Half Guard Defender",
@@ -411,6 +431,17 @@
         "phase": "Phase 4: Live Integration",
         "focus": "Full resistance back escape to backstep defense chain",
         "description": "Positional sparring starting from back control. Work full escape sequences knowing the partner may convert to backstep at any point. Practice the complete defensive chain from back escape through backstep recognition and defense to half guard recovery. Track which defensive options succeed most frequently against your training partners."
+      }
+    ],
+    "clips": [
+      {
+        "id": "4swAdbsNv-0",
+        "title": "Countering the back step to back take",
+        "by": "Força Martial Arts",
+        "vertical": false,
+        "channel": "Força Martial Arts & Fitness",
+        "duration": 94,
+        "verified": "2026-07-15"
       }
     ]
   }

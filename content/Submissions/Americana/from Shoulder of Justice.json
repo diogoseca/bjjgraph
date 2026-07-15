@@ -368,6 +368,35 @@
         "question": "How do you adjust the Americana finish approach for competition versus training?",
         "answer": "In competition, you can apply the paint motion with full progressive speed and body weight commitment since the opponent is actively resisting and the stakes require efficiency. Establish the grip quickly during transitions before the opponent can set defensive grips. In training, use 10-20% pressure maximum, apply the finish over 3-5 seconds minimum, and prioritize your partner's safety over completion rate. In both contexts, never use sudden jerking force — the difference is speed of progressive application, not the use of explosive spikes."
       }
+    ],
+    "clips": [
+      {
+        "id": "NFbf-Yi9BOU",
+        "title": "Slick Americana setup",
+        "by": "Joel Bouhey",
+        "vertical": false,
+        "channel": "JOEL BOUHEY",
+        "duration": 37,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "wpZfDVXOeJw",
+        "title": "Side control Americana armlock",
+        "by": "JitzLive",
+        "vertical": false,
+        "channel": "JitzLive",
+        "duration": 122,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "wckW_4r7vbk",
+        "title": "Americana from side control",
+        "by": "Roy Dean",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 194,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -499,6 +528,35 @@
         "phase": "Phase 4: Progressive Resistance Defense",
         "focus": "Defending against increasingly committed americana attacks",
         "description": "Partner attempts the americana at 50% speed and progresses to 75% over multiple rounds. Practice the full defensive sequence: recognition, prevention, grip defense, escape attempt, and tap decision. The focus is on making the correct decision at each stage — including tapping early when the defense fails rather than risking injury. Track which defenses succeed at each resistance level."
+      }
+    ],
+    "clips": [
+      {
+        "id": "FNyL93v5fGs",
+        "title": "Defending the Americana",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 91,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Unz1euhI2y8",
+        "title": "Escape Americana/key lock from side",
+        "by": "Chuck Jack",
+        "vertical": false,
+        "channel": "Chuck Jack21",
+        "duration": 72,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "NuweBGC8xz8",
+        "title": "Ultimate side control escape",
+        "by": "Pedro Sauer",
+        "vertical": false,
+        "channel": "Submissions101",
+        "duration": 162,
+        "verified": "2026-07-14"
       }
     ]
   }

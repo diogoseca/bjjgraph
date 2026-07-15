@@ -299,7 +299,27 @@
         "answer": "Immediately increase boot pressure and squeeze your leg entanglement tighter to compensate for the lost upper body control. Then re-establish chest contact by walking your upper body back toward their shoulders using short incremental movements rather than one large reach that could destabilize your lower body controls. Prioritize re-establishing the underhook or crossface before attempting any submission, because without upper body connection the opponent can begin forward rolling sequences that leg control alone cannot prevent. If they begin escaping during re-establishment, threaten a calf slicer to freeze their movement."
       }
     ],
-    "safety_considerations": "The truck position creates significant torque on the opponent's spine and knee joints. When practicing maintenance, avoid sudden explosive adjustments that could hyperextend the trapped leg or compress the knee. Partners should establish clear tap signals before drilling. Be especially cautious with boot pressure angles that drive the opponent's hip into extreme rotation. Never crank leg entanglement against a tapping opponent and release immediately upon any tap signal. Spinal submission threats from this position can cause permanent injury if not respected during training."
+    "safety_considerations": "The truck position creates significant torque on the opponent's spine and knee joints. When practicing maintenance, avoid sudden explosive adjustments that could hyperextend the trapped leg or compress the knee. Partners should establish clear tap signals before drilling. Be especially cautious with boot pressure angles that drive the opponent's hip into extreme rotation. Never crank leg entanglement against a tapping opponent and release immediately upon any tap signal. Spinal submission threats from this position can cause permanent injury if not respected during training.",
+    "clips": [
+      {
+        "id": "aeD1fb1X6Oc",
+        "title": "Basic Truck entry and control demo",
+        "by": "Georges St-Pierre & Firas Zahabi",
+        "vertical": false,
+        "channel": "Tristar Gym",
+        "duration": 93,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "YqlKl-La88s",
+        "title": "Mastering the Truck position",
+        "by": "10th Planet Newport",
+        "vertical": false,
+        "channel": "10th Planet Newport",
+        "duration": 216,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Truck Maintenance Defender",
@@ -424,6 +444,35 @@
         "phase": "Phase 4: Live Escape Under Full Resistance",
         "focus": "Realistic escape timing and execution",
         "description": "Start in established truck against partner at full resistance in 30-second rounds. Work for escape while partner hunts submissions. Analyze failed attempts to identify which control point should have been addressed first and develop timing for explosive escape during attacker's weight shifts."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Y-asW9hrB3o",
+        "title": "Truck defense with knee-elbow escape",
+        "by": "Matrix Jiu Jitsu",
+        "vertical": false,
+        "channel": "Matrix Jiu Jitsu",
+        "duration": 129,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "TSUbl6HmLiw",
+        "title": "Truck escape",
+        "by": "Elevate MMA Academy",
+        "vertical": false,
+        "channel": "Elevate MMA Academy",
+        "duration": 182,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dWAZQ2VQcjw",
+        "title": "Reversing the Truck",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 229,
+        "verified": "2026-07-15"
       }
     ]
   }

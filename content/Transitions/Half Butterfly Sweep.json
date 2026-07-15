@@ -289,7 +289,36 @@
         "answer": "Transition to the knee tap finish variation by releasing the butterfly hook mid-elevation and using that foot to tap the opponent's far knee inward, collapsing their remaining base point. If the knee tap is unavailable, use the partial off-balance to enter X-guard by extending both legs under the opponent, or attack a kimura on the posted arm since their weight is committed to that hand and they cannot easily retract it."
       }
     ],
-    "safety_considerations": "The Half Butterfly Sweep is a low-risk technique with minimal joint stress when executed with proper mechanics. Primary safety concerns involve controlling the sweep direction so training partners do not land awkwardly on outstretched arms or twist their knees during the fall. During drilling, allow complete sweep execution rather than resisting at extreme angles that could torque the trapped knee. The underhook should not be used to crank the opponent's shoulder aggressively. Partners should communicate immediately if they feel unusual pressure on their trapped knee or ankle during the sweep rotation. Tap immediately if caught in any compromising position during scrambles following a defended attempt."
+    "safety_considerations": "The Half Butterfly Sweep is a low-risk technique with minimal joint stress when executed with proper mechanics. Primary safety concerns involve controlling the sweep direction so training partners do not land awkwardly on outstretched arms or twist their knees during the fall. During drilling, allow complete sweep execution rather than resisting at extreme angles that could torque the trapped knee. The underhook should not be used to crank the opponent's shoulder aggressively. Partners should communicate immediately if they feel unusual pressure on their trapped knee or ankle during the sweep rotation. Tap immediately if caught in any compromising position during scrambles following a defended attempt.",
+    "clips": [
+      {
+        "id": "_PJ9H2B8us8",
+        "title": "Half butterfly guard sweep from head wrap",
+        "by": "Six Blades JJ Yorktown",
+        "vertical": false,
+        "channel": "Six Blades JJ Yorktown ",
+        "duration": 43,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "hTQ29eG4cqY",
+        "title": "Half guard sit-up to butterfly sweep",
+        "by": "Bjj Picanha",
+        "vertical": false,
+        "channel": "Bjj Picanha",
+        "duration": 38,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "oyBedW2q0Qo",
+        "title": "Half butterfly sweep from half guard",
+        "by": "StadiumMMA",
+        "vertical": false,
+        "channel": "StadiumMMA",
+        "duration": 30,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Half Butterfly Sweep Defender",
@@ -410,6 +439,17 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full-speed defensive application and decision-making",
         "description": "Positional sparring starting in top half butterfly against full resistance. Track sweep defense success rate and develop automatic defensive responses to the sweep and its chain attacks."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Wgnw31_o3kk",
+        "title": "Defending butterfly hooks",
+        "by": "Kohbukan Sisu",
+        "vertical": false,
+        "channel": "Kohbukan Sisu",
+        "duration": 58,
+        "verified": "2026-07-15"
       }
     ]
   }

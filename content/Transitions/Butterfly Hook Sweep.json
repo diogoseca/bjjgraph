@@ -293,7 +293,36 @@
         "answer": "When they sprawl back they remove weight from your hooks, making the sweep ineffective in that direction. Immediately pull them back into range using your grips while scooting your hips forward to close the distance. If they continue retreating, release one hook and transition to a single hook configuration with deep sleeve or collar control, setting up either a collar drag or a transition to X-Guard by following their hips. Never chase a sprawling opponent with both hooks—maintain at least one connection while repositioning."
       }
     ],
-    "safety_considerations": "The butterfly hook sweep is generally low-risk but requires controlled execution to prevent training injuries. Maintain grip contact throughout the sweep to guide your partner's descent and prevent them from landing on their head or shoulder. Avoid explosive jerking motions that could strain your partner's neck during off-balancing. Be mindful of knee pressure on your own hooking leg—ensure proper hook placement on the inner thigh crease rather than directly on the knee joint to prevent MCL strain during elevation."
+    "safety_considerations": "The butterfly hook sweep is generally low-risk but requires controlled execution to prevent training injuries. Maintain grip contact throughout the sweep to guide your partner's descent and prevent them from landing on their head or shoulder. Avoid explosive jerking motions that could strain your partner's neck during off-balancing. Be mindful of knee pressure on your own hooking leg—ensure proper hook placement on the inner thigh crease rather than directly on the knee joint to prevent MCL strain during elevation.",
+    "clips": [
+      {
+        "id": "c8JBXJMc0Oc",
+        "title": "Marcelo Garcia butterfly hook sweep",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "Butterfly The World",
+        "duration": 81,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2hc9sl1hEkE",
+        "title": "Overhook sweep from butterfly guard",
+        "by": "Satori BJJ coach",
+        "vertical": false,
+        "channel": "Satori BJJ",
+        "duration": 36,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "is7gMf-wYuA",
+        "title": "2-on-1 hook sweep from butterfly guard",
+        "by": "grpplng coach",
+        "vertical": false,
+        "channel": "grpplng",
+        "duration": 14,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Butterfly Hook Sweep Defender",
@@ -423,6 +452,17 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full-resistance defense against butterfly guard sweeps",
         "description": "Positional sparring starting in opponent's butterfly guard with full resistance. Defender works to prevent sweeps and pass guard while attacker works full offensive game. Track sweep defense success rate and identify defensive gaps requiring additional drilling."
+      }
+    ],
+    "clips": [
+      {
+        "id": "9miuP4-v0EE",
+        "title": "Passing half butterfly guard",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 192,
+        "verified": "2026-07-15"
       }
     ]
   }

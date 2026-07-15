@@ -290,7 +290,18 @@
         "answer": "Apply active upward pressure with the engaged hook throughout the recovery sequence—this maintains your connection to the opponent and prevents them from advancing past your guard. The engaged hook serves as an anchor point while your frames and hip escape create space on the other side for reinsertion. Never relax the engaged hook to focus on the other side, as this creates a window where the opponent can clear both hooks simultaneously and collapse your guard entirely."
       }
     ],
-    "safety_considerations": "Reguard drilling involves dynamic hip movement and hook reinsertion that can stress the hip flexors and adductors if performed repeatedly without adequate warm-up. When training with progressive resistance, communicate with your partner about the intensity of knee pressure during hook clearing attempts. Avoid explosive hook reinsertion against a fully locked-out partner, as forcing the instep past a resisting knee can strain the MCL or LCL. Progress resistance gradually and use controlled repetitions to develop timing rather than relying on speed and power that increases injury risk for both training partners."
+    "safety_considerations": "Reguard drilling involves dynamic hip movement and hook reinsertion that can stress the hip flexors and adductors if performed repeatedly without adequate warm-up. When training with progressive resistance, communicate with your partner about the intensity of knee pressure during hook clearing attempts. Avoid explosive hook reinsertion against a fully locked-out partner, as forcing the instep past a resisting knee can strain the MCL or LCL. Progress resistance gradually and use controlled repetitions to develop timing rather than relying on speed and power that increases injury risk for both training partners.",
+    "clips": [
+      {
+        "id": "j6dhu5-KuFY",
+        "title": "Guard replace series: bottom turtle",
+        "by": "Dark Horse BJJ",
+        "vertical": false,
+        "channel": "Dark Horse Brazilian Jiu Jitsu",
+        "duration": 100,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Reguard to Butterfly Guard Defender",
@@ -415,6 +426,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance reguard prevention in realistic scenarios",
         "description": "Start from top position against compromised butterfly hooks with partner working full intensity to recover guard. You score for passes, partner scores for recovering full butterfly guard and executing a sweep. 3-minute rounds with reset on scoring event. Develops real-time decision-making under competitive pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "IKs6ZDfahHE",
+        "title": "Passing butterfly guard with a cross butterfly hook",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 44,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "cUTZ4bpZVUU",
+        "title": "One-minute butterfly guard pass",
+        "by": "Phil Migliarese",
+        "vertical": false,
+        "channel": "Balance Studios: Gracie Jiu-Jitsu & Muay Thai",
+        "duration": 72,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8c74OPVlFek",
+        "title": "Quick butterfly guard pass to cowboy mount",
+        "by": "Bakari & Jesus",
+        "vertical": false,
+        "channel": "MouthGuardComic",
+        "duration": 44,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -317,6 +317,17 @@
         "question": "How do you manage energy expenditure when controlling from reverse mount?",
         "answer": "Minimize energy expenditure by keeping transitions brief - make your decision within 3-5 seconds and execute smoothly. Use structural control through proper knee and hip positioning rather than muscular effort. Relying on proprioception rather than constantly looking backward reduces tension and conserves energy. The goal is efficient flow to a superior position, not prolonged battle for unstable control."
       }
+    ],
+    "clips": [
+      {
+        "id": "aQ2vFXXBn-o",
+        "title": "Countering a full inversion",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -606,6 +617,17 @@
         "question": "How do you manage energy expenditure while defending from reverse mount bottom?",
         "answer": "Use movement efficiency rather than explosive strength for continuous defense. Small, constant hip movements and shoulder adjustments require less energy than explosive bursts. Save explosive movements for actual escape attempts when timing windows open. Maintain calm composure to avoid panic-based energy waste. Focus on technical movement patterns rather than muscular effort."
       }
+    ],
+    "clips": [
+      {
+        "id": "bNdt6jVatj4",
+        "title": "Inverted mount escape to ashi garami",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 43,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -640,6 +662,17 @@
     {
       "question": "Why is the reverse mount configuration so energetically costly to hold compared to standard mount?",
       "answer": "Without head control or a chest connection, maintaining the position demands continuous active balancing against every bridge and hip movement, so the top player burns energy correcting base while the bottom player burns energy attempting to turn and frame. The reversed facing means small perturbations require large corrections, and neither player gets the passive structural rest that head-and-arm control affords in standard mount. This shared energy drain is precisely why the configuration is treated as a brief transitional window: prolonging it exhausts the top player faster than it does the escaping bottom player."
+    }
+  ],
+  "clips": [
+    {
+      "id": "aQ2vFXXBn-o",
+      "title": "Countering a full inversion",
+      "by": "Gordon Ryan",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 61,
+      "verified": "2026-07-14"
     }
   ]
 }

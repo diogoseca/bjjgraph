@@ -316,6 +316,35 @@
         "answer": "In competition against strong defense, focus on incremental pressure increases rather than trying to force the finish. Use micro-adjustments to walk your hips closer to their shoulder for better fulcrum placement. Apply rhythmic pressure — squeeze, hold, squeeze harder — rather than constant force, as the pulsing makes it harder for the defender to brace. If the belly-down finish stalls completely, consider transitioning to a wrist lock on the trapped arm or releasing to re-establish knee on belly for a fresh attack cycle.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "jxZaCP3bBuM",
+        "title": "Armbar from Knee on Belly",
+        "by": "Team Daruma Dojo",
+        "vertical": false,
+        "channel": "Team Daruma Dojo",
+        "duration": 65,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "88n5GiAWE_c",
+        "title": "Knee on Belly 180 Armbar to Triangle",
+        "by": "Ritchie Yip",
+        "vertical": false,
+        "channel": "Ritchie Yip",
+        "duration": 35,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "sz2tFpKi9lg",
+        "title": "Two Knee on Belly Armbars",
+        "by": "Ferdi",
+        "vertical": false,
+        "channel": "Munich MMA",
+        "duration": 115,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -433,6 +462,35 @@
         "phase": "Phase 3: Guard Recovery Under Pressure",
         "focus": "Turning into the attacker and establishing closed guard during the rotation phase",
         "description": "Partner completes the step-over and begins the belly-down rotation. Practice turning into them and threading your legs before the rotation finishes. Drill the timing window between armbar position and belly-down completion. Include live positional rounds starting from the armbar position with guard recovery as the objective."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Wn01Ynw7O28",
+        "title": "How to Escape the Knee on Belly Position",
+        "by": "Evolve MMA",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 40,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "I9_3u9AcwAg",
+        "title": "First Principles Escapes: Mount and Knee-on-Belly",
+        "by": "40 Plus BJJ",
+        "vertical": false,
+        "channel": "40 Plus BJJ",
+        "duration": 59,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "52LxBaUJdcw",
+        "title": "Knee on Belly Escape to Technical Standup",
+        "by": "Lucas Lepri",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 131,
+        "verified": "2026-07-14"
       }
     ]
   }

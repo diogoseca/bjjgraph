@@ -360,6 +360,35 @@
           "nogi": 6
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "70jECxFfCSA",
+        "title": "Rear naked choke from the back",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Control Jiu JItsu",
+        "duration": 73,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "9bH-UvKJBf4",
+        "title": "Technical mount attack sequence & back take",
+        "by": "DS Team Jiu Jitsu",
+        "vertical": false,
+        "channel": "DS Team Jiu Jitsu School",
+        "duration": 175,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "plD6TW7pFv4",
+        "title": "Mount to technical mount transition",
+        "by": "Dark Horse BJJ",
+        "vertical": false,
+        "channel": "Dark Horse Brazilian Jiu Jitsu",
+        "duration": 20,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -646,6 +675,35 @@
           "nogi": 10
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "_sBB-O8fqP4",
+        "title": "Standing up: escaping from bottom",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 114,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "9252EvCT0q4",
+        "title": "Can't escape the mount? Try this escape",
+        "by": "Gabriel Gonzaga",
+        "vertical": false,
+        "channel": "Gabriel Gonzaga",
+        "duration": 93,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "2uuP147GoBk",
+        "title": "Bridge & roll mount escape",
+        "by": "Academy Jiu Jitsu",
+        "vertical": false,
+        "channel": "Academy Jiu Jitsu",
+        "duration": 62,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -676,6 +734,26 @@
     {
       "question": "How does Technical Mount differ from a fully committed S-mount armbar position?",
       "answer": "Technical Mount is the controlling stage where the leg is stepped up and the arm is isolated but the top player still sits upright and can shift between multiple options. A committed S-mount armbar is the resolution of that position, where the far leg has swung across the face, the top player has sat back, and the hips drop to extend the arm for the finish. The distinction matters because Technical Mount retains its optionality between armbar, triangle, and back take, whereas the finish has already spent that optionality on one attack. Recognizing which stage the exchange is in tells both players whether the position is still fluid or already converting to a submission."
+    }
+  ],
+  "clips": [
+    {
+      "id": "pa4Aj431Yds",
+      "title": "Technical mount attacks overview",
+      "by": "Soma Academy",
+      "vertical": false,
+      "channel": "Soma Academy",
+      "duration": 110,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "pNp2-2-r2Ec",
+      "title": "Getting to technical mount from mount",
+      "by": "Danny Fung",
+      "vertical": false,
+      "channel": "Danny Fung",
+      "duration": 175,
+      "verified": "2026-07-14"
     }
   ]
 }

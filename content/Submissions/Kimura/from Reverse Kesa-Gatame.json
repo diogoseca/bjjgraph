@@ -331,6 +331,26 @@
         "answer": "Immediately stop all rotational pressure the moment any tap signal is detected—verbal, hand tap, or foot tap. Reverse the rotation by externally rotating the arm back toward neutral position. Release the figure-four grip completely and allow your partner to move their arm freely. Never release suddenly or let the arm spring back, as this can cause additional injury. Allow your partner to assess their shoulder mobility before continuing.",
         "safety_critical": true
       }
+    ],
+    "clips": [
+      {
+        "id": "waWC7ARiESc",
+        "title": "Kimura from Reverse Kesa Gatame",
+        "by": "Raymond Tan",
+        "vertical": false,
+        "channel": "BJJ Cheat Codes by Raymond Tan",
+        "duration": 170,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "xLCWZaGPW0g",
+        "title": "Kimura trap from reverse kesa gatame",
+        "by": "Smith BJJ",
+        "vertical": false,
+        "channel": "Smith ♞ | Brazilian Jiu-jitsu",
+        "duration": 140,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -461,6 +481,17 @@
         "phase": "Live Defense",
         "focus": "Full resistance Kimura defense from Reverse Kesa-Gatame",
         "description": "Start in established Reverse Kesa-Gatame with partner actively hunting the Kimura at full speed and resistance. Defend and escape using all trained techniques. Track success rate across rounds and identify which defensive windows you consistently miss."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ORpUBUxK1QE",
+        "title": "Reverse Kesa Gatame escape to back take",
+        "by": "Gymnanigains",
+        "vertical": false,
+        "channel": "Gymnanigains",
+        "duration": 26,
+        "verified": "2026-07-14"
       }
     ]
   }

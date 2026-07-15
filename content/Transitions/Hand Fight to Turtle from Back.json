@@ -287,7 +287,36 @@
         "answer": "Immediately establish a tight defensive turtle posture with elbows to knees and chin tucked, then kick back with the hooked leg to strip the remaining hook before the opponent can use it to flatten you or re-establish back control. Do not attempt guard recovery or standup until both hooks are fully cleared, because a single hook gives the opponent enough control to drag you back into full back control. Once the hook is cleared, immediately begin working toward your preferred turtle escape."
       }
     ],
-    "safety_considerations": "Hand fighting from back control involves positions where the neck is vulnerable to choking techniques throughout the escape sequence. Always train with partners who respect tap signals and release immediately upon feeling the tap. Practice grip stripping at controlled intensity before increasing resistance to avoid finger and wrist injuries from aggressive grip fighting. Be aware that aggressive rotation attempts while the opponent maintains a deep choke grip can strain the cervical spine. If a choke becomes tight at any point during training, tap immediately rather than attempting to power through the escape. Communicate with your training partner about resistance levels during progressive drilling."
+    "safety_considerations": "Hand fighting from back control involves positions where the neck is vulnerable to choking techniques throughout the escape sequence. Always train with partners who respect tap signals and release immediately upon feeling the tap. Practice grip stripping at controlled intensity before increasing resistance to avoid finger and wrist injuries from aggressive grip fighting. Be aware that aggressive rotation attempts while the opponent maintains a deep choke grip can strain the cervical spine. If a choke becomes tight at any point during training, tap immediately rather than attempting to power through the escape. Communicate with your training partner about resistance levels during progressive drilling.",
+    "clips": [
+      {
+        "id": "dHanNAj6B80",
+        "title": "Turtle escape out of back control",
+        "by": "Adnan Sadiq",
+        "vertical": false,
+        "channel": "Adnan Sadiq",
+        "duration": 38,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "waVFl1Ip6VU",
+        "title": "Shrugging back escape into turtle",
+        "by": "Andy Tong",
+        "vertical": false,
+        "channel": "Andy Tong",
+        "duration": 33,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "bDZntPrcLpg",
+        "title": "Escaping back control into turtle",
+        "by": "BJJ101 coach",
+        "vertical": false,
+        "channel": "BJJ101",
+        "duration": 37,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Hand Fight to Turtle from Back Defender",
@@ -399,6 +428,26 @@
         "phase": "Phase 3: Integrated Back Control Defense",
         "focus": "Full-resistance defense against all back escape methods",
         "description": "Positional sparring starting from back control where the partner can use any escape method. Practice maintaining control through submission threats, grip adjustments, positional transitions, and adaptive responses to the specific escape being attempted. Develop the ability to read and counter multiple escape types in real time."
+      }
+    ],
+    "clips": [
+      {
+        "id": "lpgcKpIgClw",
+        "title": "Why you keep losing the back — keeping back control",
+        "by": "Brandon Mccaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 143,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "s_bNe2rnQcg",
+        "title": "Standing cutback to recover the back",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 201,
+        "verified": "2026-07-15"
       }
     ]
   }

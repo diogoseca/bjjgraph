@@ -250,7 +250,36 @@
         "answer": "Accept 50-50 as a neutral outcome and work standard 50-50 techniques. The 50-50 is preferable to losing control entirely, as you maintain leg entanglement with submission and sweep options. Don't panic or over-commit trying to prevent the 50-50 entry if it means losing position completely."
       }
     ],
-    "safety_considerations": "Return to Outside Ashi involves dynamic leg movement during active leg entanglement, creating knee and ankle injury risk if executed explosively without control. Practice the transition slowly before adding speed. When drilling, communicate clearly with partners about resistance levels and tap immediately if any joint feels compromised during the hip reversal. Avoid forcing the transition against strong resistance that could torque your own knees. The transition itself is relatively safe compared to submission finishes, but the follow-up heel hook attacks require careful application."
+    "safety_considerations": "Return to Outside Ashi involves dynamic leg movement during active leg entanglement, creating knee and ankle injury risk if executed explosively without control. Practice the transition slowly before adding speed. When drilling, communicate clearly with partners about resistance levels and tap immediately if any joint feels compromised during the hip reversal. Avoid forcing the transition against strong resistance that could torque your own knees. The transition itself is relatively safe compared to submission finishes, but the follow-up heel hook attacks require careful application.",
+    "clips": [
+      {
+        "id": "xvx03k3jiWo",
+        "title": "Outside ashi garami entry and control",
+        "by": "Team Strela",
+        "vertical": false,
+        "channel": "DARKSIDE | Team Strela",
+        "duration": 26,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "tLcHN042w48",
+        "title": "Outside ashi control and finishing mechanics",
+        "by": "Fox Den Martial Arts",
+        "vertical": false,
+        "channel": "Fox Den Martial Arts",
+        "duration": 86,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "HVc2CKdAfN0",
+        "title": "X-guard to cross ashi leg entanglement entry",
+        "by": "Johnny Jitsu",
+        "vertical": false,
+        "channel": "Johnny Jitsu",
+        "duration": 120,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Return to Outside Ashi Defender",
@@ -366,6 +395,35 @@
         "phase": "Week 7+",
         "focus": "Live integration",
         "description": "Apply defensive responses in positional sparring starting from ushiro ashi-garami. Partner has full freedom to attempt Return to Outside Ashi, maintain ushiro, or follow to back. Practice recognizing the transition among multiple possible attacker actions and responding with the highest-percentage defensive option."
+      }
+    ],
+    "clips": [
+      {
+        "id": "cRXsNPAgVLU",
+        "title": "Irimi ashi garami counter",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 29,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "m4UEhHwbGfQ",
+        "title": "Ashi garami escape: sit over the foot to mount",
+        "by": "Troy Manning",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 76,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "L417yCl_-dc",
+        "title": "Leg defense from ashi garami",
+        "by": "The Coop BJJ",
+        "vertical": false,
+        "channel": "The Coop BJJ",
+        "duration": 48,
+        "verified": "2026-07-15"
       }
     ]
   },

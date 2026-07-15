@@ -277,7 +277,36 @@
         "answer": "The force should be directed diagonally across and slightly downward, pushing opponent's elbow across their midline toward the opposite hip. This diagonal angle prevents them from simply pulling the arm straight back and uses the mechanical disadvantage of their shoulder joint at that angle. Your control arm pushes from underneath while your chest pressure from behind prevents them from rotating to follow the arm."
       }
     ],
-    "safety_considerations": "The crucifix transition involves taking an opponent to the ground from standing, which carries inherent impact risks. Practice the mat return on appropriate surfaces with mats thick enough to absorb the fall. The partner being taken down should understand how to safely receive the takedown by not posting with extended arms which risks wrist and elbow injuries. During training, communicate clearly about the timing of the takedown so your partner can prepare. The arm trap itself is not dangerous when properly applied, but the crucifix position leads to submissions that can cause injury if applied too quickly. Always allow sufficient time for training partners to tap when applying finishes from the completed crucifix. Avoid this transition on hard surfaces or when fatigued, as the dynamic movement requires precise control."
+    "safety_considerations": "The crucifix transition involves taking an opponent to the ground from standing, which carries inherent impact risks. Practice the mat return on appropriate surfaces with mats thick enough to absorb the fall. The partner being taken down should understand how to safely receive the takedown by not posting with extended arms which risks wrist and elbow injuries. During training, communicate clearly about the timing of the takedown so your partner can prepare. The arm trap itself is not dangerous when properly applied, but the crucifix position leads to submissions that can cause injury if applied too quickly. Always allow sufficient time for training partners to tap when applying finishes from the completed crucifix. Avoid this transition on hard surfaces or when fatigued, as the dynamic movement requires precise control.",
+    "clips": [
+      {
+        "id": "VEhXnr55SOU",
+        "title": "Three crucifix entries from live rolls",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 46,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uQn6tbgVeGA",
+        "title": "Arm drag entry to the crucifix",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 57,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "X8spZ0nmvuo",
+        "title": "Crucifix into north south control",
+        "by": "Koji Shibamoto",
+        "vertical": false,
+        "channel": "トライフォース柔術アカデミー / Tri-force Jiu-jitsu Academy",
+        "duration": 40,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Crucifix Transition Defender",
@@ -407,6 +436,26 @@
         "phase": "Week 7+",
         "focus": "Live defensive application",
         "description": "Incorporate crucifix defense into live rolling from standing back control bottom. Focus on maintaining elbow discipline throughout extended grip fighting exchanges and reacting automatically when crucifix entries begin. Track which defensive options you select and refine timing through repetition."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Yqd86F2qjHs",
+        "title": "Universal back escape",
+        "by": "The Academy MN",
+        "vertical": false,
+        "channel": "The Academy MN",
+        "duration": 95,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "KBvb1LqGwnA",
+        "title": "Back escape when they take the underhook side",
+        "by": "Martial Arts and Wellness",
+        "vertical": false,
+        "channel": "Martial Arts and Wellness ",
+        "duration": 149,
+        "verified": "2026-07-15"
       }
     ]
   },

@@ -282,7 +282,36 @@
         "answer": "With grips and butterfly hooks maintained after a failed Sumi Gaeshi, several high-percentage follow-ups are available. You can immediately attempt a standard butterfly sweep to the opposite side since the opponent's base is likely shifted from defending. Entry to X-guard or single leg X-guard is available by threading your hooking leg deeper. You can reattempt the Sumi Gaeshi to the other side if the opponent over-corrects their base. Finally, pulling into closed guard resets the engagement if all sweeping options are exhausted."
       }
     ],
-    "safety_considerations": "When practicing Sumi Gaeshi, ensure adequate mat space exists behind you for the backward drop. The person being thrown must be comfortable with rotational breakfalls and overhead throws. Begin all training with slow, controlled repetitions with clear communication between partners. The thrower should maintain grip control throughout to guide the landing. Advanced practitioners must still exercise control to prevent dangerous spikes or uncontrolled landings. Avoid practicing on hard surfaces or when fatigued. Stop immediately if either partner experiences discomfort or uncertainty about the rotation."
+    "safety_considerations": "When practicing Sumi Gaeshi, ensure adequate mat space exists behind you for the backward drop. The person being thrown must be comfortable with rotational breakfalls and overhead throws. Begin all training with slow, controlled repetitions with clear communication between partners. The thrower should maintain grip control throughout to guide the landing. Advanced practitioners must still exercise control to prevent dangerous spikes or uncontrolled landings. Avoid practicing on hard surfaces or when fatigued. Stop immediately if either partner experiences discomfort or uncertainty about the rotation.",
+    "clips": [
+      {
+        "id": "1nAzI48mMJo",
+        "title": "Sumi gaeshi off a single leg attempt",
+        "by": "Shintaro Higashi",
+        "vertical": false,
+        "channel": "Shintaro Higashi",
+        "duration": 73,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "HNtpb3yp6Do",
+        "title": "Three sumi gaeshi entries",
+        "by": "Shintaro Higashi",
+        "vertical": false,
+        "channel": "Shintaro Higashi",
+        "duration": 121,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "x1BHax6c_zg",
+        "title": "Sumi gaeshi corner throw mechanics",
+        "by": "Judo Life",
+        "vertical": false,
+        "channel": "Judo Life",
+        "duration": 58,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Sumi Gaeshi Defender",
@@ -413,6 +442,26 @@
         "phase": "Month 3+: Live Defense Integration",
         "focus": "Full-speed defense in rolling",
         "description": "Partner attacks with Sumi Gaeshi at full speed during standing exchanges and situational sparring. Defend using the full toolkit: early recognition and avoidance, mid-throw disruption, and late-stage recovery. Track which defensive window you are using most often and work to shift your reactions earlier in the sequence."
+      }
+    ],
+    "clips": [
+      {
+        "id": "W_B_eY6Kc1k",
+        "title": "Countering sumi gaeshi with ouchi gari",
+        "by": "Mick",
+        "vertical": false,
+        "channel": "Mick",
+        "duration": 67,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "FQ3jP6fKlIo",
+        "title": "Swallow counter concept against sacrifice throws",
+        "by": "Travis Stevens",
+        "vertical": false,
+        "channel": "JudoFanatics",
+        "duration": 219,
+        "verified": "2026-07-15"
       }
     ]
   },

@@ -265,7 +265,27 @@
         "answer": "The critical hip movement is a forward and downward drive where you shoot your hips toward the mat while bending at the waist. This is not a shoulder-led movement but a hip-initiated power transfer. Think of it as a wrestling level change combined with a forward dive. The hips must lead the motion, creating a pendulum effect that uses your lower body mass to generate rotational force sufficient to carry both you and the opponent through the roll."
       }
     ],
-    "safety_considerations": "This technique involves significant spinal loading during the forward roll and carries inherent risk of neck injury if executed improperly. Never practice on hard surfaces - always use proper mats. Beginners should build comfort with basic forward rolls before attempting this technique with a partner. The chin must remain tucked throughout to protect the cervical spine and prevent choke finishing during transition. Do not attempt this escape if you have any existing neck, shoulder, or spine injuries. Partners should initially allow the technique to flow rather than aggressively countering, as resisting mid-roll can cause both practitioners to land awkwardly. In competition, assess the surface and ensure adequate mat space before committing to rolling escapes."
+    "safety_considerations": "This technique involves significant spinal loading during the forward roll and carries inherent risk of neck injury if executed improperly. Never practice on hard surfaces - always use proper mats. Beginners should build comfort with basic forward rolls before attempting this technique with a partner. The chin must remain tucked throughout to protect the cervical spine and prevent choke finishing during transition. Do not attempt this escape if you have any existing neck, shoulder, or spine injuries. Partners should initially allow the technique to flow rather than aggressively countering, as resisting mid-roll can cause both practitioners to land awkwardly. In competition, assess the surface and ensure adequate mat space before committing to rolling escapes.",
+    "clips": [
+      {
+        "id": "Dqnh7bhBdEc",
+        "title": "Forward roll escape from rear bear hug under arms",
+        "by": "Soma Academy",
+        "vertical": false,
+        "channel": "Soma Academy",
+        "duration": 39,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "l1eLyDgyNUA",
+        "title": "Basic forward roll mechanics",
+        "by": "Dark Arts Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Dark Arts Jiu-Jitsu",
+        "duration": 77,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Explosive Forward Roll Defender",
@@ -394,6 +414,17 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring from standing back control",
         "description": "Full resistance sparring starting from standing back control top. Partner uses explosive forward roll as one of multiple escape options. Practice reading which escape is coming and selecting appropriate counter. Test all defensive responses under competition intensity."
+      }
+    ],
+    "clips": [
+      {
+        "id": "aQ2vFXXBn-o",
+        "title": "Countering a full inversion / roll-through",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-15"
       }
     ]
   },

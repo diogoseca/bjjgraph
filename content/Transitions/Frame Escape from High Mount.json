@@ -294,7 +294,27 @@
         "answer": "Your feet serve as the primary force generators for hip bumps and hip escapes that power the frame escape. Plant your feet flat on the mat near your hips for maximum upward drive during bumps. During hip escapes, push off one foot to angle your body while maintaining frame pressure. Once the opponent's hips reach your midsection, your knees and shins become barriers pressed against their inner thighs to prevent re-advancement. Without active lower body engagement, your arms alone cannot generate sufficient force to move the opponent's base."
       }
     ],
-    "safety_considerations": "Frame escapes from high mount involve significant compressive forces on the torso and ribcage from the opponent's weight. Train progressively, starting with cooperative drilling at zero resistance before increasing intensity. Communicate with training partners about pressure levels, particularly regarding breathing restriction under sustained high mount pressure. Avoid explosive neck movements during frame attempts, as the opponent's weight on the upper chest creates vulnerability to cervical strain. Tap immediately if any choke becomes fully secured during the escape attempt rather than continuing to frame against a locked submission."
+    "safety_considerations": "Frame escapes from high mount involve significant compressive forces on the torso and ribcage from the opponent's weight. Train progressively, starting with cooperative drilling at zero resistance before increasing intensity. Communicate with training partners about pressure levels, particularly regarding breathing restriction under sustained high mount pressure. Avoid explosive neck movements during frame attempts, as the opponent's weight on the upper chest creates vulnerability to cervical strain. Tap immediately if any choke becomes fully secured during the escape attempt rather than continuing to frame against a locked submission.",
+    "clips": [
+      {
+        "id": "koJqUOC3P98",
+        "title": "Escaping high mount with arms pinned",
+        "by": "Arashi-Do Sylvan Lake",
+        "vertical": false,
+        "channel": "Arashi-Do Sylvan Lake ",
+        "duration": 28,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "R21vtm5BHF4",
+        "title": "How to escape the mount",
+        "by": "Pantera Jiujitsu",
+        "vertical": false,
+        "channel": "Pantera Jiujitsu",
+        "duration": 80,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Frame Escape from High Mount Defender",
@@ -415,6 +435,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Integrating frame escape counters into comprehensive high mount retention",
         "description": "Full resistance positional rounds starting from high mount top. Apply recognition, counter, and transition skills against partners attempting all available high mount escapes including frame escapes, bridges, and hip escapes in combination sequences."
+      }
+    ],
+    "clips": [
+      {
+        "id": "_jeIL_n2UcY",
+        "title": "Maintaining mount by swimming through the arms",
+        "by": "Gracie Charlottesville",
+        "vertical": false,
+        "channel": "Gracie Charlottesville",
+        "duration": 41,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "RTMJDbZnFO0",
+        "title": "Holding the middle mount",
+        "by": "SBG PDX",
+        "vertical": false,
+        "channel": "SBG PDX & Vancouver BJJ and MMA Videos",
+        "duration": 154,
+        "verified": "2026-07-15"
       }
     ]
   }

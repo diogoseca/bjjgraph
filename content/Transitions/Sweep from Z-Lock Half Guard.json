@@ -295,7 +295,36 @@
         "answer": "The sweep punishes forward pressure, which is the primary tool top players use to pass half guard. When the top player knows the Z-Lock sweep is available, they must choose between driving forward (risking the sweep) and sitting back (creating space for guard recovery, deep half entries, or dogfight transitions). This dilemma means the bottom player wins strategically regardless of which option the top player chooses, because both defensive responses open alternative attacking paths."
       }
     ],
-    "safety_considerations": "The Sweep from Z-Lock Half Guard involves rotational forces through the knee and ankle joints of both practitioners. The lockdown component places stress on the trapped leg's knee and ankle, so partners should communicate if leg pressure becomes excessive. Release the lockdown immediately if your partner signals discomfort. During the rotation phase, avoid driving your bodyweight onto the opponent's extended limbs. Train the timing elements at reduced speed before adding full resistance to prevent knee torque injuries."
+    "safety_considerations": "The Sweep from Z-Lock Half Guard involves rotational forces through the knee and ankle joints of both practitioners. The lockdown component places stress on the trapped leg's knee and ankle, so partners should communicate if leg pressure becomes excessive. Release the lockdown immediately if your partner signals discomfort. During the rotation phase, avoid driving your bodyweight onto the opponent's extended limbs. Train the timing elements at reduced speed before adding full resistance to prevent knee torque injuries.",
+    "clips": [
+      {
+        "id": "08cbHHs_NsM",
+        "title": "Corona lockdown sweep from half guard",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 53,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "PKWx7CpKUXY",
+        "title": "Lockdown sweep from half guard",
+        "by": "Jiu-Jitsu Studio Salamanca",
+        "vertical": false,
+        "channel": "Jiu-Jitsu Studio Salamanca",
+        "duration": 65,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "LYeQDaZhVL0",
+        "title": "Lockdown stomp to butterfly guard",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 123,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Sweep from Z-Lock Half Guard Defender",
@@ -416,6 +445,26 @@
         "phase": "Phase 4: Positional Sparring from Z-Lock Top",
         "focus": "Integrating sweep defense into complete top game strategy",
         "description": "Full positional sparring starting from Z-Lock Half Guard top. Defend sweeps while simultaneously working your own passing and submission game. Evaluate how sweep defense integrates with offensive strategy and identify when to defend versus when to abandon the position for a different passing approach."
+      }
+    ],
+    "clips": [
+      {
+        "id": "-49CypLW9aM",
+        "title": "Breaking the lockdown half guard",
+        "by": "Superhero Jiu Jitsu Academy",
+        "vertical": false,
+        "channel": "Superhero Jiu Jitsu Academy ",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ABSueJ6cwis",
+        "title": "Passing the lockdown half guard with a backstep",
+        "by": "Peter Mettler",
+        "vertical": false,
+        "channel": "Peter Mettler Martial Arts",
+        "duration": 98,
+        "verified": "2026-07-15"
       }
     ]
   }

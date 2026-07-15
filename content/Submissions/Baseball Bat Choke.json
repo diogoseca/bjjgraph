@@ -218,5 +218,34 @@
       "name": "Scarf Hold Position",
       "relationship": "Transitional position that can lead to baseball bat setup"
     }
+  ],
+  "clips": [
+    {
+      "id": "RxMwGEBoPYw",
+      "title": "Baseball Bat Choke From Knee on Belly",
+      "by": "Clayton Phillips",
+      "vertical": false,
+      "channel": "Clayton Phillips",
+      "duration": 105,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "JFk3ZiedLdY",
+      "title": "Baseball Bat Choke",
+      "by": "Iron & Soul",
+      "vertical": false,
+      "channel": "Iron & Soul",
+      "duration": 60,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "uvr8pF7ad7k",
+      "title": "Baseball Bat Choke",
+      "by": "Jiu-Jitsu Times",
+      "vertical": false,
+      "channel": "Jiu-Jitsu Times",
+      "duration": 67,
+      "verified": "2026-07-14"
+    }
   ]
 }

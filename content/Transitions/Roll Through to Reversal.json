@@ -277,7 +277,27 @@
         "answer": "The most likely cause is insufficient compactness during the roll—your body is too extended rather than forming a tight ball. When your hips are not tucked under and your torso is not curled, the rotation axis becomes unstable and friction increases. The correction is to focus on bringing your hips directly under your shoulders before initiating, tucking your chin tighter, and driving more explosively off your toes. A secondary cause could be releasing arm control of the choking arm, which allows the opponent to post and physically block the rotation."
       }
     ],
-    "safety_considerations": "The roll through to reversal is generally safe when executed with proper mechanics but requires attention to neck protection. Maintain chin-to-chest tuck throughout the entire roll to prevent neck strain or exposure to chokes. Avoid forcing the roll when opponent has solid sprawled base—this leads to failed attempts that waste energy and can compress the cervical spine under load. Practice rolling mechanics on soft mats without a partner initially to develop smooth rotation before adding resistance. If you feel any neck strain or compression during training, stop immediately and reassess your technique. The roll should feel smooth and controlled, not forced or jarring. Partners should release choke pressure once they feel the reversal succeeding to allow safe completion during drilling."
+    "safety_considerations": "The roll through to reversal is generally safe when executed with proper mechanics but requires attention to neck protection. Maintain chin-to-chest tuck throughout the entire roll to prevent neck strain or exposure to chokes. Avoid forcing the roll when opponent has solid sprawled base—this leads to failed attempts that waste energy and can compress the cervical spine under load. Practice rolling mechanics on soft mats without a partner initially to develop smooth rotation before adding resistance. If you feel any neck strain or compression during training, stop immediately and reassess your technique. The roll should feel smooth and controlled, not forced or jarring. Partners should release choke pressure once they feel the reversal succeeding to allow safe completion during drilling.",
+    "clips": [
+      {
+        "id": "t4xBYQ1VauU",
+        "title": "Front Headlock Sit Out Reversal",
+        "by": "Keith Takada",
+        "vertical": false,
+        "channel": "takadadojokeith",
+        "duration": 28,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "mthp6x4Y3KM",
+        "title": "Standing Headlock Defense Roll Through",
+        "by": "Altiora Jiu Jitsu coach",
+        "vertical": false,
+        "channel": "Altiora Jiu Jitsu",
+        "duration": 53,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Roll Through to Reversal Defender",
@@ -403,6 +423,35 @@
         "phase": "Week 7+",
         "focus": "Full positional sparring integration",
         "description": "Live positional sparring from front headlock where partner has full freedom to attempt any escape including roll through. Practice reading which escape they're choosing and responding appropriately—sprawl for rolls, follow for committed rolls, re-settle for circling attempts. Develop real-time defensive decision making."
+      }
+    ],
+    "clips": [
+      {
+        "id": "qXN9MA_kWGs",
+        "title": "Front Headlock Defense: Peek Out",
+        "by": "Film Study coach",
+        "vertical": false,
+        "channel": "Film Study",
+        "duration": 98,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "4qSsXwqDWhI",
+        "title": "Front Headlock Turn Counter to Leg Attack",
+        "by": "British Wrestling coach",
+        "vertical": false,
+        "channel": "British Wrestling",
+        "duration": 32,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "F_cW7ETcTPg",
+        "title": "Sucker Drag and Peek Out Counters",
+        "by": "Glover Teixeira",
+        "vertical": false,
+        "channel": "Black and Gold MMA",
+        "duration": 103,
+        "verified": "2026-07-15"
       }
     ]
   },

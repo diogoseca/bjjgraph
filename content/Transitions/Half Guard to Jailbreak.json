@@ -230,7 +230,27 @@
         "answer": "Hesitation at the halfway point is the most dangerous failure: you have given up your half guard frames without arriving at the Jailbreak, so the passer can flatten you to side control. The fix is to commit fully once you begin the turn - drive the free leg and finish all the way to the junction. The deeper lesson is to make the decision before you turn so you never enter half-committed."
       }
     ],
-    "safety_considerations": "This entry involves an inverting, granby-style rotation, so neck safety is the foremost concern. The chin must be tucked to the chest and the load carried on the rounded upper back and shoulders, never on the crown of the head or an extended neck. Beginners should build the inversion gradually with a compliant partner before adding explosive speed or resistance, and should never force the turn if the neck feels compressed. Both partners should communicate during drilling, and the bottom player should abort the inversion if the underhook is lost rather than rolling through blind."
+    "safety_considerations": "This entry involves an inverting, granby-style rotation, so neck safety is the foremost concern. The chin must be tucked to the chest and the load carried on the rounded upper back and shoulders, never on the crown of the head or an extended neck. Beginners should build the inversion gradually with a compliant partner before adding explosive speed or resistance, and should never force the turn if the neck feels compressed. Both partners should communicate during drilling, and the bottom player should abort the inversion if the underhook is lost rather than rolling through blind.",
+    "clips": [
+      {
+        "id": "kFEDU0DVQ7I",
+        "title": "Jailbreak frame escape into a reversal sweep",
+        "by": "Redmond Fit coach",
+        "vertical": false,
+        "channel": "Redmond Fit",
+        "duration": 77,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "j25mgRF9wE4",
+        "title": "Framed jailbreak drill from half guard",
+        "by": "JitzLive coach",
+        "vertical": false,
+        "channel": "JitzLive",
+        "duration": 153,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Half Guard to Jailbreak Defender",
@@ -329,6 +349,35 @@
         "phase": "Month 2+: Live containment",
         "focus": "Denying the Jailbreak under resistance and passing",
         "description": "Start in top half guard with the bottom player actively hunting the Jailbreak entry. Defend by controlling the underhook and base width, and score by passing to side control or stalling them flat. 4-5 minute rounds with increasing resistance."
+      }
+    ],
+    "clips": [
+      {
+        "id": "aQ2vFXXBn-o",
+        "title": "Countering a full inversion from half guard",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "h26GaRXjSHo",
+        "title": "Counter to the half guard underhook",
+        "by": "Revolution Fitness Center",
+        "vertical": false,
+        "channel": "Revolution Fitness Center",
+        "duration": 55,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Mw9e-xftPcY",
+        "title": "Dealing with lapel feeds in half guard",
+        "by": "Inverted Gear",
+        "vertical": false,
+        "channel": "Inverted Gear",
+        "duration": 92,
+        "verified": "2026-07-15"
       }
     ]
   },

@@ -276,7 +276,36 @@
         "answer": "You failed to follow through with forward momentum after the reap. The correct finishing mechanic requires continuous forward drive with your hips and chest while maintaining grip contact throughout the fall. Your body should follow the opponent to the mat, landing with your chest across their torso. The error usually stems from releasing grips at the moment of the throw or leaning backward during the reap instead of driving forward through the technique."
       }
     ],
-    "safety_considerations": "Kouchi Gari is one of the safer takedown techniques when executed properly, as the falling direction is controlled and predictable. However, training partners should be aware of proper breakfall techniques, particularly falling backward with the chin tucked to avoid head impact. When drilling, ensure mat space is clear of obstacles and other rolling pairs. The person executing the technique should maintain grips and control throughout the fall to prevent the partner from landing awkwardly on their shoulder or neck. In competition or live sparring, be mindful of the edge of the mat area, as the backward motion can carry both practitioners out of bounds. For older practitioners or those with knee issues, the reaping motion should be executed smoothly rather than explosively to avoid strain on the base leg's knee joint."
+    "safety_considerations": "Kouchi Gari is one of the safer takedown techniques when executed properly, as the falling direction is controlled and predictable. However, training partners should be aware of proper breakfall techniques, particularly falling backward with the chin tucked to avoid head impact. When drilling, ensure mat space is clear of obstacles and other rolling pairs. The person executing the technique should maintain grips and control throughout the fall to prevent the partner from landing awkwardly on their shoulder or neck. In competition or live sparring, be mindful of the edge of the mat area, as the backward motion can carry both practitioners out of bounds. For older practitioners or those with knee issues, the reaping motion should be executed smoothly rather than explosively to avoid strain on the base leg's knee joint.",
+    "clips": [
+      {
+        "id": "4FDRR9ukLjc",
+        "title": "Kouchi gari small inner reap breakdown",
+        "by": "Ben Stark",
+        "vertical": false,
+        "channel": "Ben Stark",
+        "duration": 52,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "4Kgcm3TthAg",
+        "title": "Kouchi gari in no-gi grappling",
+        "by": "CombatLife",
+        "vertical": false,
+        "channel": "CombatLife Soft",
+        "duration": 46,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_osQlpT8mTE",
+        "title": "Sumi gaeshi into drop kouchi gari",
+        "by": "Shintaro Higashi",
+        "vertical": false,
+        "channel": "Shintaro Higashi",
+        "duration": 95,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Kouchi Gari Defender",
@@ -399,6 +428,35 @@
         "phase": "Week 7+: Live standing defense",
         "focus": "Full-speed application",
         "description": "Integrate Kouchi Gari defense into live stand-up sparring rounds. Partner actively attacks with Kouchi Gari and its common combinations. Focus on reading attacks in real-time, selecting appropriate defense, and converting to counter offense. Track which defensive responses work best against different setups."
+      }
+    ],
+    "clips": [
+      {
+        "id": "NBj5D2KHdvw",
+        "title": "Leg block to stop inside trip attacks",
+        "by": "Shintaro Higashi",
+        "vertical": false,
+        "channel": "Shintaro Higashi",
+        "duration": 140,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "C7HnA1zd5Rs",
+        "title": "Countering judo throw attempts",
+        "by": "Shintaro Higashi",
+        "vertical": false,
+        "channel": "Shintaro Higashi",
+        "duration": 161,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "HWg7hUhRbW8",
+        "title": "Cut back ouchi counter from losing position",
+        "by": "Shintaro Higashi",
+        "vertical": false,
+        "channel": "Shintaro Higashi",
+        "duration": 175,
+        "verified": "2026-07-15"
       }
     ]
   },

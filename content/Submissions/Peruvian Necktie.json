@@ -181,5 +181,34 @@
       "name": "Japanese Necktie",
       "relationship": "Closely related front headlock choke with similar leg threading mechanics"
     }
+  ],
+  "clips": [
+    {
+      "id": "7J0hJPRPpRQ",
+      "title": "Peruvian Necktie",
+      "by": "Keith Krikorian",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 87,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "4ob2ZrEH3Yc",
+      "title": "Front Headlock to Peruvian Necktie",
+      "by": "Gile23",
+      "vertical": false,
+      "channel": "Gile23",
+      "duration": 113,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "WpQIntujyFU",
+      "title": "Peruvian Necktie",
+      "by": "Luke Harris",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 106,
+      "verified": "2026-07-14"
+    }
   ]
 }

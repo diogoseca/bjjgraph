@@ -271,7 +271,36 @@
         "answer": "The leg across the face serves three critical functions: it prevents the opponent from posturing up or stacking forward to relieve elbow pressure, it blocks them from turning their head and shoulders into you which would allow escape, and the calf hooking past their far shoulder acts as a lever that keeps their upper body pinned flat. Without deep leg placement, the opponent retains the ability to change body angle and defeat the armbar mechanics."
       }
     ],
-    "safety_considerations": "The armbar hyperextends the elbow joint and can cause serious ligament damage, dislocation, or fracture if applied too quickly or powerfully. Always apply pressure gradually in training, giving your partner adequate time to tap. Release immediately when you feel or hear a tap, and never hold through a tap during drilling. Partners should tap early before feeling significant pain, as joint damage can occur very quickly once the elbow begins extending past its natural range. Avoid explosive bridging during practice - save full-speed application for competition only. If your partner has elbow injuries or hyper-mobility issues, use extra caution or avoid this technique entirely. Never apply armbars on partners who are unfamiliar with proper tap protocols."
+    "safety_considerations": "The armbar hyperextends the elbow joint and can cause serious ligament damage, dislocation, or fracture if applied too quickly or powerfully. Always apply pressure gradually in training, giving your partner adequate time to tap. Release immediately when you feel or hear a tap, and never hold through a tap during drilling. Partners should tap early before feeling significant pain, as joint damage can occur very quickly once the elbow begins extending past its natural range. Avoid explosive bridging during practice - save full-speed application for competition only. If your partner has elbow injuries or hyper-mobility issues, use extra caution or avoid this technique entirely. Never apply armbars on partners who are unfamiliar with proper tap protocols.",
+    "clips": [
+      {
+        "id": "2YWKQ0q2bCU",
+        "title": "Gift wrap armbar from mount",
+        "by": "Ryan Robinson",
+        "vertical": false,
+        "channel": "Ryan Robinson BJJ",
+        "duration": 194,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fU_0UYYJEPc",
+        "title": "Wrap to S-mount armbar",
+        "by": "James Clingerman",
+        "vertical": false,
+        "channel": "James Clingerman",
+        "duration": 204,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "mKGRSQ0xrv4",
+        "title": "Americana to gift wrap armbar vs hands-over defense",
+        "by": "Força Martial Arts",
+        "vertical": false,
+        "channel": "Força Martial Arts & Fitness",
+        "duration": 264,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Armbar on Free Arm Defender",
@@ -401,6 +430,26 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring from Gift Wrap",
         "description": "Full resistance rounds starting from Gift Wrap bottom. Defender must manage both choke and armbar threats simultaneously. Focus on not extending the free arm under pressure and timing escapes to the attacker's transitions rather than reacting after positions are consolidated."
+      }
+    ],
+    "clips": [
+      {
+        "id": "9209zGsCnvg",
+        "title": "Straight armlock defense from mount: hitchhiker",
+        "by": "Soma Academy",
+        "vertical": false,
+        "channel": "Soma Academy",
+        "duration": 64,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "Armbar escape fundamentals",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "verified": "2026-07-15"
       }
     ]
   },

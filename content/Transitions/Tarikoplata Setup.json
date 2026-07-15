@@ -261,7 +261,36 @@
         "answer": "The Tarikoplata creates compound stress from two simultaneous vectors: omoplata hip extension on the shoulder plus wrist rotation adding internal rotation torque. This compound loading damages tissue faster than single-joint attacks—the rotator cuff, labrum, and glenohumeral ligaments can fail before the opponent perceives sufficient pain to tap. Explosive wrist rotation can cause rotator cuff tears, shoulder dislocation, and labrum damage. Progressive application over 3-5 seconds is mandatory to allow safe tapping."
       }
     ],
-    "safety_considerations": "The Tarikoplata attacks the shoulder joint through compound loading—omoplata hip extension combined with wrist rotation creates dual-vector stress that damages tissue faster than single-joint submissions. Rotator cuff tears, labrum damage, and shoulder dislocation are all possible from improperly applied Tarikoplata. Apply wrist rotation progressively over 3-5 seconds minimum and never spike or jerk the grip. Maintain constant verbal communication during drilling. Release the wrist grip first upon any tap signal, then gradually remove the leg. Avoid this technique entirely with training partners who have existing shoulder injuries. Minimum purple belt experience is recommended before live application. During training, apply at reduced speed and pressure even when the position is fully secured."
+    "safety_considerations": "The Tarikoplata attacks the shoulder joint through compound loading—omoplata hip extension combined with wrist rotation creates dual-vector stress that damages tissue faster than single-joint submissions. Rotator cuff tears, labrum damage, and shoulder dislocation are all possible from improperly applied Tarikoplata. Apply wrist rotation progressively over 3-5 seconds minimum and never spike or jerk the grip. Maintain constant verbal communication during drilling. Release the wrist grip first upon any tap signal, then gradually remove the leg. Avoid this technique entirely with training partners who have existing shoulder injuries. Minimum purple belt experience is recommended before live application. During training, apply at reduced speed and pressure even when the position is fully secured.",
+    "clips": [
+      {
+        "id": "7QIKCY_R_3A",
+        "title": "How to do the Tarikoplata",
+        "by": "Bristol Jiu Jitsu",
+        "vertical": false,
+        "channel": "Bristol Jiu Jitsu",
+        "duration": 83,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "rPpcs9YBpCM",
+        "title": "Tarikoplata from collar and sleeve",
+        "by": "Andris Brunovskis",
+        "vertical": false,
+        "channel": "Grappling with Insanity",
+        "duration": 96,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8g6KFT9O2Hw",
+        "title": "Tarikoplata from omoplata breakdown",
+        "by": "Grappling with Insanity",
+        "vertical": false,
+        "channel": "Grappling with Insanity",
+        "duration": 177,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Tarikoplata Setup Defender",
@@ -385,6 +414,35 @@
         "phase": "Week 7+",
         "focus": "Live defense integration from Meathook",
         "description": "Full positional sparring from Meathook where the bottom player selects between Gogoplata, Baratoplata, and Tarikoplata based on your defensive responses. Practice maintaining movement-based defense that avoids all three triggers simultaneously. Develop the ability to move directionally while managing secondary threat exposure, accepting calculated risk rather than freezing in static defense."
+      }
+    ],
+    "clips": [
+      {
+        "id": "jpNqecvfuFg",
+        "title": "Tarikoplata mechanics and how it traps the arm",
+        "by": "Miha Perhavec",
+        "vertical": false,
+        "channel": "Miha Perhavec",
+        "duration": 63,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ocIHY3jBYIQ",
+        "title": "Best way to escape the omoplata shoulder lock",
+        "by": "John Connors",
+        "vertical": false,
+        "channel": "John Connors, Old Man BJJ Black Belt",
+        "duration": 62,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "rx4XoCFWeq8",
+        "title": "Baratoplata shoulder lock defense",
+        "by": "Animal",
+        "vertical": false,
+        "channel": "Animal",
+        "duration": 75,
+        "verified": "2026-07-15"
       }
     ]
   },

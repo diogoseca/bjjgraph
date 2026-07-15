@@ -280,7 +280,27 @@
         "answer": "In leg drag control, you shrimp at approximately 45 degrees away from opponent and slightly toward your trapped-leg side, creating space specifically along the line where your leg is pinned. A standard side control hip escape moves directly away. The angled shrimp in leg drag defense accounts for the crossed-leg configuration and generates space along the path your knee needs to travel for extraction."
       }
     ],
-    "safety_considerations": "Frame and Shrimp to Guard is a relatively low-risk defensive technique, but proper execution is important to prevent injury. Avoid explosive movements when cold—always warm up hip flexors, lower back, and shoulders before drilling. When practicing with partners, communicate about frame pressure intensity to prevent shoulder or rib injuries from overly aggressive framing. The shrimping motion should not strain your lower back if performed correctly; if you feel back pain, check that you're using leg drive rather than back extension. During drilling, tap or verbally indicate if partner's leg drag control creates uncomfortable knee or hip pressure before attempting escape."
+    "safety_considerations": "Frame and Shrimp to Guard is a relatively low-risk defensive technique, but proper execution is important to prevent injury. Avoid explosive movements when cold—always warm up hip flexors, lower back, and shoulders before drilling. When practicing with partners, communicate about frame pressure intensity to prevent shoulder or rib injuries from overly aggressive framing. The shrimping motion should not strain your lower back if performed correctly; if you feel back pain, check that you're using leg drive rather than back extension. During drilling, tap or verbally indicate if partner's leg drag control creates uncomfortable knee or hip pressure before attempting escape.",
+    "clips": [
+      {
+        "id": "BhNZGloJ56c",
+        "title": "Recovering guard when you are getting smashed",
+        "by": "Finesse Jiujitsu HTX",
+        "vertical": false,
+        "channel": "FINESSE JIUJITSU HTX",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lVLAROiSjNU",
+        "title": "Guard retention: when to sit up and escape",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 136,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Frame and Shrimp to Guard Defender",
@@ -410,6 +430,26 @@
         "phase": "Week 7+",
         "focus": "Live passing integration",
         "description": "Incorporate leg drag maintenance and escape prevention into full guard passing sparring. Practice establishing leg drag, immediately advancing to consolidation, and defending escape attempts under full resistance. Measure success by how quickly you convert leg drag to a scoring position."
+      }
+    ],
+    "clips": [
+      {
+        "id": "8VT4dxSqCvI",
+        "title": "Leg drag pass mechanics",
+        "by": "Procel BJJ",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 94,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "4xplJQ-FFvI",
+        "title": "Leg drag to back take pass",
+        "by": "Combat Room BJJ",
+        "vertical": false,
+        "channel": "Combat Room Brazilian Jiu Jitsu",
+        "duration": 75,
+        "verified": "2026-07-15"
       }
     ]
   },

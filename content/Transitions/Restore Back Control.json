@@ -363,6 +363,26 @@
         "focus": "Full resistance escape against restoration",
         "description": "Start from partially compromised back control with partner attempting full restoration. 3-minute rounds with the goal of completing escape or maintaining position. Track which escape patterns succeed most consistently."
       }
+    ],
+    "clips": [
+      {
+        "id": "bDZntPrcLpg",
+        "title": "Escaping back control via turtle escape",
+        "by": "BJJ101",
+        "vertical": false,
+        "channel": "BJJ101",
+        "duration": 37,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "3Jd2llamfl8",
+        "title": "Back control escape explained simply",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 189,
+        "verified": "2026-07-15"
+      }
     ]
   },
   "variants_and_adaptations": [

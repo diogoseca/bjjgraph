@@ -190,5 +190,34 @@
       "name": "Breadcutter Choke",
       "relationship": "Alternative lapel choke from similar positions with different finishing mechanics"
     }
+  ],
+  "clips": [
+    {
+      "id": "hCiHjCbhGyE",
+      "title": "1 Minute Jiu-Jitsu Hack: Marce Choke",
+      "by": "Brandon McCaghren",
+      "vertical": false,
+      "channel": "Brandon Mccaghren",
+      "duration": 67,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "1jsDC-jaPoU",
+      "title": "Marce Choke",
+      "by": "Colemans Electric",
+      "vertical": false,
+      "channel": "Colemans Electric",
+      "duration": 78,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "Mp7Ffm85k0A",
+      "title": "Knee Flare Marce Choke Detail",
+      "by": "Drew Darce",
+      "vertical": false,
+      "channel": "Drew Darce",
+      "duration": 113,
+      "verified": "2026-07-14"
+    }
   ]
 }

@@ -268,7 +268,36 @@
         "answer": "When the opponent reaches up with both hands to grab your leg, they have removed both arms from their defensive frame against your upper body and exposed both elbows. Immediately switch your attack to an armbar on whichever arm is most extended—typically the far arm that reached highest. The act of reaching for your leg while mounted creates the exact arm extension and postural compromise that makes armbar entries from mount high-percentage. This is a core chain-attack principle: the triangle threat creates armbar openings."
       }
     ],
-    "safety_considerations": "Triangle from Mount involves significant neck compression and should be trained with careful communication between partners. The mounted triangle applies blood choke pressure to the carotid arteries, which can cause unconsciousness within seconds if the bottom player cannot or does not tap. Always apply the choke gradually during training and release immediately upon tap or verbal submission. The leg swing transition carries risk of knee collision with the opponent's face—control the speed of the swing during drilling. Bottom players should tap early when caught in mounted triangle, as the top player's weight makes the choke substantially tighter than guard triangles. Partners with cervical spine issues should avoid this technique or train with minimal finishing pressure. Never crank the neck laterally while in the triangle—the submission works through bilateral carotid compression, not neck torque."
+    "safety_considerations": "Triangle from Mount involves significant neck compression and should be trained with careful communication between partners. The mounted triangle applies blood choke pressure to the carotid arteries, which can cause unconsciousness within seconds if the bottom player cannot or does not tap. Always apply the choke gradually during training and release immediately upon tap or verbal submission. The leg swing transition carries risk of knee collision with the opponent's face—control the speed of the swing during drilling. Bottom players should tap early when caught in mounted triangle, as the top player's weight makes the choke substantially tighter than guard triangles. Partners with cervical spine issues should avoid this technique or train with minimal finishing pressure. Never crank the neck laterally while in the triangle—the submission works through bilateral carotid compression, not neck torque.",
+    "clips": [
+      {
+        "id": "_tzcSlkSRKY",
+        "title": "Mounted Triangle Extra Details",
+        "by": "FightClubJiuJitsu",
+        "vertical": false,
+        "channel": "FightClubJiuJitsu",
+        "duration": 57,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "vLUua_voKzc",
+        "title": "Mounted Triangle Demonstration",
+        "by": "Satori BJJ",
+        "vertical": false,
+        "channel": "Satori BJJ",
+        "duration": 53,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "1hjapzU7lQg",
+        "title": "Finishing the Mounted Triangle",
+        "by": "Brandon Mccaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 177,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Triangle from Mount Defender",
@@ -398,6 +427,17 @@
         "phase": "Week 7+",
         "focus": "Live positional defense and counter-attacking",
         "description": "Positional sparring starting from 3-4 Mount with the attacker specifically hunting the triangle. Use full defensive resistance including early intervention, bridge timing, and guard recovery. Practice reading whether to defend the arm isolation, bridge during the leg swing, or work systematic escapes from the locked triangle based on the attacker's timing and commitment level. Integrate counter-opportunities when the attacker overcommits."
+      }
+    ],
+    "clips": [
+      {
+        "id": "l-HhOV9UjJU",
+        "title": "Preventing the Mounted Triangle",
+        "by": "Justen Hamilton",
+        "vertical": false,
+        "channel": "Justen Hamilton",
+        "duration": 104,
+        "verified": "2026-07-15"
       }
     ]
   },

@@ -281,7 +281,27 @@
         "answer": "The decision depends on three factors: the opponent's distance, their direction of movement, and your remaining points of contact. Close guard recovery when the opponent is driving forward into your space with their hips close to yours, as this proximity makes guard closure mechanically efficient. Transition to butterfly guard when they drive forward with low pressure and their hips drop below your knee line. Transition to De La Riva or collar sleeve guard when the opponent maintains distance or steps laterally after grip stripping, as these guards function at medium range where closed guard closure would require an unrealistic amount of leg extension."
       }
     ],
-    "safety_considerations": "Guard recovery from double sleeve guard is generally low risk, but practitioners should be aware of shoulder strain when maintaining sleeve grips under heavy forward pressure. Release grips cleanly rather than fighting grip strips with a fully locked wrist when the opponent's bodyweight drives through the connection. During training, communicate with partners about intensity of forward pressure to prevent rib compression from sudden weight drops when the bottom player's legs collapse from extended to retracted position. Avoid hyperextending the elbows by keeping a slight bend when framing against aggressive forward drives."
+    "safety_considerations": "Guard recovery from double sleeve guard is generally low risk, but practitioners should be aware of shoulder strain when maintaining sleeve grips under heavy forward pressure. Release grips cleanly rather than fighting grip strips with a fully locked wrist when the opponent's bodyweight drives through the connection. During training, communicate with partners about intensity of forward pressure to prevent rib compression from sudden weight drops when the bottom player's legs collapse from extended to retracted position. Avoid hyperextending the elbows by keeping a slight bend when framing against aggressive forward drives.",
+    "clips": [
+      {
+        "id": "fIFM4fzVqC0",
+        "title": "Guard retention: recovering through the legs",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 240,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ynoR-AtSYUc",
+        "title": "Guard retention: recovering around the legs",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 210,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Guard Recovery from Double Sleeve Guard Defender",
@@ -394,6 +414,26 @@
         "phase": "Phase 4: Live Passing Against Guard Recovery",
         "focus": "Full resistance passing against active double sleeve guard and recovery attempts",
         "description": "Positional sparring starting in double sleeve guard with full resistance. Top player works to strip grips and advance while bottom player practices recovery mechanics. Track passing success rate and identify which recovery responses create the most difficulty for targeted counter-development."
+      }
+    ],
+    "clips": [
+      {
+        "id": "UoJul9UvRao",
+        "title": "Denying straight-arm guard retention while passing",
+        "by": "Cameron Florczak",
+        "vertical": false,
+        "channel": "Cameron Florczak",
+        "duration": 66,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "aQ2vFXXBn-o",
+        "title": "Countering the full inversion recovery",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-15"
       }
     ]
   }

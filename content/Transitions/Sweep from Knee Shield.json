@@ -284,7 +284,36 @@
         "answer": "The underhook force should drive diagonally forward and upward toward the opponent's far shoulder, not straight forward into their chest. This diagonal vector creates the rotational moment that tips them over their base. Think of lifting their near-side ribs while pushing their far-side ribs with the knee shield—the combined forces create a rolling motion across their base line. Driving straight forward results in a pushing match that the top player can resist with base and gravity advantage."
       }
     ],
-    "safety_considerations": "The Sweep from Knee Shield is a low-risk technique with minimal injury potential when executed properly. The primary safety concern is neck strain from the opponent driving heavy crossface pressure during sweep attempts. Avoid cranking the sweep against a locked-out opponent—if the sweep is not moving, abandon and reset rather than forcing through with explosive power that could injure either player's knees or shoulders. Communicate with training partners about resistance levels during drilling phases."
+    "safety_considerations": "The Sweep from Knee Shield is a low-risk technique with minimal injury potential when executed properly. The primary safety concern is neck strain from the opponent driving heavy crossface pressure during sweep attempts. Avoid cranking the sweep against a locked-out opponent—if the sweep is not moving, abandon and reset rather than forcing through with explosive power that could injure either player's knees or shoulders. Communicate with training partners about resistance levels during drilling phases.",
+    "clips": [
+      {
+        "id": "OsKySrabYR4",
+        "title": "Waiter sweep from knee shield half guard",
+        "by": "Fluvium coach",
+        "vertical": false,
+        "channel": "Fluvium",
+        "duration": 50,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "hU61Nd_Vzys",
+        "title": "Knee shield half guard roll-through sweep",
+        "by": "Bowerhouse MMA coach",
+        "vertical": false,
+        "channel": "BOWERHOUSE MMA",
+        "duration": 53,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "YEVojixbKs8",
+        "title": "Knee shield sweep using the opponent's belt",
+        "by": "A. Sukandar",
+        "vertical": false,
+        "channel": "A. Sukandar",
+        "duration": 70,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Sweep from Knee Shield Defender",
@@ -409,6 +438,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Integrating defense into full knee shield top game",
         "description": "Spar from knee shield top position with the opponent specifically hunting sweeps. Practice recognizing and defending the sweep while continuing to advance your passing game. Track how often you get swept and identify which recognition cues you are missing at live speed."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Y815hmtzGZA",
+        "title": "Passing the knee shield half guard",
+        "by": "Adam Metcalf",
+        "vertical": false,
+        "channel": "ADAM METCALF",
+        "duration": 30,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dOdO6xJ-TcU",
+        "title": "Shutting down the half guard underhook",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 98,
+        "verified": "2026-07-15"
       }
     ]
   }

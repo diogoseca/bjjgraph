@@ -341,6 +341,35 @@
         "answer": "High mount provides three distinct advantages: first, the elevated knee position naturally pushes the defender's elbows away from their body, making arm isolation easier; second, the top-down angle means gravity assists the finishing rotation rather than working against it as in side control; third, the defender cannot generate effective bridging power because the attacker's weight is on their upper chest rather than their hips, removing their primary escape mechanism. These combined advantages produce a significantly higher finishing rate compared to Kimura attacks from lower positions.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "pDByo2uZnzo",
+        "title": "Kimura from S-mount",
+        "by": "Marcus Ashcraft",
+        "vertical": false,
+        "channel": "Marcus Ashcraft",
+        "duration": 63,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "nyZwifeL_Do",
+        "title": "Shoulder crunch attack from mount",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 106,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "oDVXJw48OMU",
+        "title": "Kimura from the mount",
+        "by": "Matt McCormick",
+        "vertical": false,
+        "channel": "Matt McCormick",
+        "duration": 131,
+        "verified": "2026-07-15"
+      }
     ]
   },
   "defender": {
@@ -470,6 +499,35 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Full resistance Kimura defense from High Mount",
         "description": "Begin positional sparring rounds starting with partner in high mount. Partner attacks Kimura and all mount submissions while you defend and attempt escapes against full resistance. Track which defensive stage you most commonly fail at and drill that specific phase in isolation."
+      }
+    ],
+    "clips": [
+      {
+        "id": "TuaopPUakM8",
+        "title": "Defending the Kimura",
+        "by": "Eddie Kone",
+        "vertical": false,
+        "channel": "Eddie Kone Academy Of Jiu-Jitsu",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Ye08X4xjiUk",
+        "title": "Mount Escape: Upa",
+        "by": "Team Daruma Dojo",
+        "vertical": false,
+        "channel": "Team Daruma Dojo",
+        "duration": 38,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "ZT4QcOFksxs",
+        "title": "Kimura Escape from North-South",
+        "by": "Street Jitsu",
+        "vertical": false,
+        "channel": "Street Jitsu",
+        "duration": 25,
+        "verified": "2026-07-14"
       }
     ]
   }

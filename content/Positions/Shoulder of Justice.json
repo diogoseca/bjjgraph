@@ -389,6 +389,35 @@
           "nogi": 10
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "BjeDX3WupdA",
+        "title": "Shoulder Pressure From Side Control",
+        "by": "Roy Dean",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 39,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "MpWpNkQwBGA",
+        "title": "Side Smash Side Control Pressure",
+        "by": "Owen Livesey",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 73,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "HO877lE69nM",
+        "title": "Cross Sides Shoulder of Justice",
+        "by": "SBG New Braunfels",
+        "vertical": false,
+        "channel": "SBG New Braunfels BJJ",
+        "duration": 145,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -683,6 +712,35 @@
           "nogi": 12
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "4L25UQntnPg",
+        "title": "Side Control Escape: Reverse Hip Escape",
+        "by": "Fox Den Martial Arts",
+        "vertical": false,
+        "channel": "Fox Den Martial Arts",
+        "duration": 25,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Zw_QEoWDvcw",
+        "title": "Bump 'n Roll Side Control Escape",
+        "by": "PIOT",
+        "vertical": false,
+        "channel": "PIOT",
+        "duration": 82,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "-Jib9G-LM-M",
+        "title": "Shoulder Crunch Side Control Escape",
+        "by": "Cauliflower Ear Family",
+        "vertical": false,
+        "channel": "Cauliflower Ear Family",
+        "duration": 188,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -717,6 +775,17 @@
     {
       "question": "What shared dynamic makes this a low-sustainability position for the bottom player and a time-limited one for the top player?",
       "answer": "For the bottom player, the concentrated jaw pressure creates constant physical misery and a psychological push to make reactive movements, so tolerance and defensive structure erode quickly. For the top player, holding a single-point pressure vector demands continuous micro-adjustment as the head repositions, and pressing with muscle rather than skeletal weight burns energy fast. The result is a mutual clock: the bottom player is racing to relieve pressure before making an error, while the top player is racing to convert reactions into a submission or advancement before fatigue sets in. Neither side is meant to hold the static position indefinitely, which is why it functions as a launching point rather than a resting pin."
+    }
+  ],
+  "clips": [
+    {
+      "id": "BjeDX3WupdA",
+      "title": "Shoulder Pressure Concept",
+      "by": "Roy Dean",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 39,
+      "verified": "2026-07-14"
     }
   ]
 }

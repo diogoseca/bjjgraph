@@ -310,7 +310,36 @@
         "answer": "During setup, the primary force direction is downward and lateral—your shoulder drives opponent's head down while your threading arm travels horizontally across their neck. The force is about collapsing their structure and creating the enclosed loop. During the finishing phase post-roll, the force direction shifts to inward compression and rotational torque. Your elbows squeeze together (inward force), your chest expands against their shoulder (outward force creating the squeeze), and your choking-side shoulder drives forward and down to rotate their head (rotational force). The finish uses your entire torso as a compression mechanism rather than just your arms. This shift from structural breakdown to compression finishing is why many practitioners who set up well still fail to finish—they continue applying setup-phase forces instead of transitioning to finishing mechanics."
       }
     ],
-    "safety_considerations": "⚠️ CRITICAL SAFETY NOTICE: The anaconda choke is a blood choke that can cause unconsciousness in 3-8 seconds if applied with full force. During training, apply pressure gradually over 3-5 seconds minimum to allow partner adequate time to recognize the submission and tap. Monitor partner continuously throughout application and release IMMEDIATELY upon any tap signal (hand, foot, verbal, or loss of resistance). Before rolling, ensure adequate mat space in all directions to avoid rolling partner into obstacles, walls, or off the mat. The rolling motion can disorient both practitioners—maintain awareness of surroundings throughout execution. When practicing as the person being choked, tap early and clearly at the first sign of pressure or discomfort. Do not attempt to 'tough it out' or test your limits with chokes—this serves no training purpose and risks injury. If applying choke causes partner's face to rapidly change color or they make unusual sounds, release immediately even without a tap. Both partners share responsibility for safe training: the person applying must control pressure and release quickly, while the person receiving must tap appropriately and communicate any concerns. Never hold a choke after resistance stops. In competition, judges and referees monitor choke safety, but in training you are your partner's primary safety monitor."
+    "safety_considerations": "⚠️ CRITICAL SAFETY NOTICE: The anaconda choke is a blood choke that can cause unconsciousness in 3-8 seconds if applied with full force. During training, apply pressure gradually over 3-5 seconds minimum to allow partner adequate time to recognize the submission and tap. Monitor partner continuously throughout application and release IMMEDIATELY upon any tap signal (hand, foot, verbal, or loss of resistance). Before rolling, ensure adequate mat space in all directions to avoid rolling partner into obstacles, walls, or off the mat. The rolling motion can disorient both practitioners—maintain awareness of surroundings throughout execution. When practicing as the person being choked, tap early and clearly at the first sign of pressure or discomfort. Do not attempt to 'tough it out' or test your limits with chokes—this serves no training purpose and risks injury. If applying choke causes partner's face to rapidly change color or they make unusual sounds, release immediately even without a tap. Both partners share responsibility for safe training: the person applying must control pressure and release quickly, while the person receiving must tap appropriately and communicate any concerns. Never hold a choke after resistance stops. In competition, judges and referees monitor choke safety, but in training you are your partner's primary safety monitor.",
+    "clips": [
+      {
+        "id": "RbkOnRb2lvA",
+        "title": "Anaconda Choke from Front Headlock",
+        "by": "Ninja Pinto",
+        "vertical": false,
+        "channel": "Ninja Pinto BJJ",
+        "duration": 49,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "1e2GPOUYR-o",
+        "title": "Fixing Common Anaconda Choke Mistakes",
+        "by": "Lycan",
+        "vertical": false,
+        "channel": "Lycan",
+        "duration": 41,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "6d6Wkgh9imU",
+        "title": "Anaconda vs Darce: Grip and Finish Difference",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 67,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Front Headlock to Anaconda Defender",
@@ -440,6 +469,35 @@
         "phase": "Week 9-12: Full Resistance Defense and Scramble Recovery",
         "focus": "Defending against committed anaconda attempts with full resistance",
         "description": "Positional sparring starting from front headlock. Attacker uses full technique at 80-100% effort. Defender applies complete defensive system: recognition, near-arm protection, hand fighting, directional escape, or last-resort roll-through. Includes scramble recovery after partially successful defenses. 3-minute rounds, tracking defense success rate. Target: preventing the anaconda control position in at least 50% of attempts."
+      }
+    ],
+    "clips": [
+      {
+        "id": "At1_GDu4hSc",
+        "title": "Escaping the Anaconda Choke",
+        "by": "ArtOfSayingGoodbye",
+        "vertical": false,
+        "channel": "ArtOfSayingGoodbye",
+        "duration": 23,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "s94GexEkoQ0",
+        "title": "Anaconda Choke Defense Plus Counter",
+        "by": "Cyril Robert",
+        "vertical": false,
+        "channel": "Cyril Robert MMA",
+        "duration": 43,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "SXm9wA1HcvM",
+        "title": "Anaconda Choke Defense",
+        "by": "SFS MMA",
+        "vertical": false,
+        "channel": "Fierce Pierce15",
+        "duration": 64,
+        "verified": "2026-07-15"
       }
     ]
   },

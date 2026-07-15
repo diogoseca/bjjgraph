@@ -244,7 +244,36 @@
         "answer": "Keep your hips heavy to maintain forward pressure through the overhook, but keep your base wide and reactive with your knees and feet positioned to absorb bridges and shrimps. Overcommitting your weight forward onto the overhook lets the bottom player use your momentum to roll you or recover guard underneath. The goal is constant forward pressure balanced with the mobility to instantly adjust if the opponent attempts to bridge, shrimp, or scramble out."
       }
     ],
-    "safety_considerations": "The whizzer counter itself is a control transition and is generally safe, but the elevated arm and shoulder pressure carry specific risks. Driving the overhooked arm too aggressively upward and across can stress the opponent's shoulder, so elevate to break structure rather than to crank, and never wrench the arm to finish a position. The crossface and shoulder pressure used to flatten the opponent should be applied with controlled weight, not by dropping your full bodyweight onto their face or neck. During live drilling, communicate clearly when transitioning toward back takes or Kimura threats so the partner can tap to shoulder pressure before any submission tension builds. Beginners should drill the flatten and seal at low intensity before adding speed to avoid accidental shoulder torque."
+    "safety_considerations": "The whizzer counter itself is a control transition and is generally safe, but the elevated arm and shoulder pressure carry specific risks. Driving the overhooked arm too aggressively upward and across can stress the opponent's shoulder, so elevate to break structure rather than to crank, and never wrench the arm to finish a position. The crossface and shoulder pressure used to flatten the opponent should be applied with controlled weight, not by dropping your full bodyweight onto their face or neck. During live drilling, communicate clearly when transitioning toward back takes or Kimura threats so the partner can tap to shoulder pressure before any submission tension builds. Beginners should drill the flatten and seal at low intensity before adding speed to avoid accidental shoulder torque.",
+    "clips": [
+      {
+        "id": "8mXBDHXrAu4",
+        "title": "Whizzer from half guard: winning the dogfight",
+        "by": "Wrecking Crew BJJ",
+        "vertical": false,
+        "channel": "Wrecking Crew BJJ",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "IQ2mviobbI0",
+        "title": "Defending the whizzer or overhook",
+        "by": "Pendergrass Academy",
+        "vertical": false,
+        "channel": "Pendergrass Academy of Martial Arts",
+        "duration": 138,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "pYljJ1yRXO4",
+        "title": "Dip under sweep: whizzer counter",
+        "by": "JiuJitsu.com",
+        "vertical": false,
+        "channel": "JiuJitsu.com",
+        "duration": 169,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Half Guard Whizzer Counter Defender",
@@ -344,6 +373,26 @@
         "phase": "Month 3+: Live Positional Sparring",
         "focus": "Defending the whizzer counter under full half guard resistance",
         "description": "Start in half guard bottom with the top player free to fight for the whizzer counter. Work to win the underhook battle, refuse to be flattened, and convert the exchange into sweeps or guard recovery against full resistance. 5-minute rounds, multiple rounds per session, with attention to the early defensive window."
+      }
+    ],
+    "clips": [
+      {
+        "id": "QpiSPUtLtpE",
+        "title": "Defeat the whizzer in the dogfight position",
+        "by": "Grapplezilla",
+        "vertical": false,
+        "channel": "Grapplezilla",
+        "duration": 141,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "P4XzQEyx55c",
+        "title": "Underhook fundamentals vs whizzer counter",
+        "by": "Bury BJJ",
+        "vertical": false,
+        "channel": "SBG Rossendale 3rd Degree Black Belt BJJ",
+        "duration": 168,
+        "verified": "2026-07-15"
       }
     ]
   },

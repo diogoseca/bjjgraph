@@ -268,7 +268,36 @@
         "answer": "Three conditions must be confirmed before full commitment. First, you must have secured the sleeve grip that prevents the opponent from posting on the sweep side, as this is the single most critical control point without which the sweep cannot succeed. Second, your hips must already be angled at least 30 degrees off the centerline to generate the mechanical advantage needed for the pendulum arc, because attempting the sweep from a square position produces insufficient rotational force. Third, the opponent's weight distribution must be neutral or slightly rearward rather than driving forward, since forward pressure converts your pendulum energy into their stack pass. If any of these conditions is missing, redirect to a complementary technique such as Hip Bump Sweep against forward pressure or Scissor Sweep if your angle is established but sleeve control is compromised."
       }
     ],
-    "safety_considerations": "The Pendulum Sweep is generally a very safe technique for both practitioners when executed properly. The primary safety concern is ensuring controlled execution during the sweeping motion to avoid the opponent falling awkwardly or having insufficient time to protect their head when landing. When drilling, start slowly and allow your partner to become familiar with the falling motion. For the person being swept, practice proper breakfall technique by tucking your chin and using your arms to absorb impact. Avoid forcefully swinging the pendulum leg into the opponent's face or head; the leg should pass close to their shoulder but not strike them. When teaching beginners, emphasize the importance of maintaining control throughout the sweep rather than executing it explosively before they understand the mechanics. As with all sweeps, be mindful of training surfaces and ensure adequate mat space to complete the technique safely."
+    "safety_considerations": "The Pendulum Sweep is generally a very safe technique for both practitioners when executed properly. The primary safety concern is ensuring controlled execution during the sweeping motion to avoid the opponent falling awkwardly or having insufficient time to protect their head when landing. When drilling, start slowly and allow your partner to become familiar with the falling motion. For the person being swept, practice proper breakfall technique by tucking your chin and using your arms to absorb impact. Avoid forcefully swinging the pendulum leg into the opponent's face or head; the leg should pass close to their shoulder but not strike them. When teaching beginners, emphasize the importance of maintaining control throughout the sweep rather than executing it explosively before they understand the mechanics. As with all sweeps, be mindful of training surfaces and ensure adequate mat space to complete the technique safely.",
+    "clips": [
+      {
+        "id": "dMcMblcXhF0",
+        "title": "Pendulum sweep from closed guard",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "Gentle Art Media",
+        "duration": 73,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "YniHtIW_xbM",
+        "title": "Pendulum sweep demonstration",
+        "by": "The Forge coach",
+        "vertical": false,
+        "channel": "The Forge Brazilian Jiu Jitsu",
+        "duration": 22,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "N_VFW8Yd0jI",
+        "title": "Pendulum sweep variations",
+        "by": "Peaceful Warrior coach",
+        "vertical": false,
+        "channel": "Peaceful Warrior Jiu-Jitsu",
+        "duration": 127,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Pendulum Sweep Defender",
@@ -383,6 +412,17 @@
         "phase": "Month 3+: Live Positional Sparring Integration",
         "focus": "Applying pendulum sweep defense during live closed guard rounds against varied opponents",
         "description": "Incorporate pendulum sweep defense into regular positional sparring starting from closed guard top. Spar with partners who actively set up pendulum sweeps as part of their closed guard game. Focus on reading the sweep setup within the context of other closed guard threats and making correct defensive choices without overcommitting to any single threat. Track your defense success rate across training sessions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kNfVYhZbgrg",
+        "title": "Four levels of closed guard sweep defense",
+        "by": "Wim Deputter",
+        "vertical": false,
+        "channel": "Wim Deputter BJJ",
+        "duration": 87,
+        "verified": "2026-07-15"
       }
     ]
   },

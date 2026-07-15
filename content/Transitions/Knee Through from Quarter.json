@@ -291,7 +291,27 @@
         "answer": "If the opponent immediately initiates escape attempts as you clear the leg, skip the consolidation phase and flow directly into attacks that capitalize on their defensive movement. If they bridge, ride the bridge and threaten americana on the arm they extend for the upa. If they turn to their side, immediately transition to technical mount and threaten the back take. If they push against your chest with frames, attack the extended arms with armbar entries. The key insight is that defensive reactions during mount establishment are predictable and each one has a corresponding high-percentage attack."
       }
     ],
-    "safety_considerations": "The knee through from quarter guard involves significant pressure application through crossface and body weight that requires training awareness. Practitioners should communicate with partners about pressure intensity during drilling and avoid driving the knee directly into sensitive areas including the groin, inner thigh, or knee joint. Aggressive crossface pressure can strain the cervical spine if applied with excessive force rather than structural weight. In training, use progressive resistance to allow the bottom player to develop defensive reactions safely before applying full competition-level pressure. Be particularly mindful during the knee drive phase that your shin does not catch the opponent's knee at an awkward angle during extraction."
+    "safety_considerations": "The knee through from quarter guard involves significant pressure application through crossface and body weight that requires training awareness. Practitioners should communicate with partners about pressure intensity during drilling and avoid driving the knee directly into sensitive areas including the groin, inner thigh, or knee joint. Aggressive crossface pressure can strain the cervical spine if applied with excessive force rather than structural weight. In training, use progressive resistance to allow the bottom player to develop defensive reactions safely before applying full competition-level pressure. Be particularly mindful during the knee drive phase that your shin does not catch the opponent's knee at an awkward angle during extraction.",
+    "clips": [
+      {
+        "id": "Tr-K1pNOb_E",
+        "title": "Knee slide to mount",
+        "by": "Jake Shields",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 89,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MHkLdz5_qsw",
+        "title": "Knee slide pass to mount",
+        "by": "Matt McCormick",
+        "vertical": false,
+        "channel": "Matt McCormick",
+        "duration": 79,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Knee Through from Quarter Defender",
@@ -415,6 +435,17 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Implementing defensive skills under full competition conditions",
         "description": "Positional sparring from quarter guard bottom with full resistance. Bottom player scores for successful guard recovery or sweep; top player scores for mount achievement. Track success rates over multiple rounds and identify which defensive patterns need refinement. Integrate counter-offensive opportunities from the defensive positions when they present naturally."
+      }
+    ],
+    "clips": [
+      {
+        "id": "xDZucxFVK48",
+        "title": "Defending the knee slice from quarter guard",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 275,
+        "verified": "2026-07-15"
       }
     ]
   }

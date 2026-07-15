@@ -310,6 +310,17 @@
       "10th planet defense and posture recovery",
       "mission control counter techniques",
       "submission defense against rubber guard"
+    ],
+    "clips": [
+      {
+        "id": "AvivOVuYcCk",
+        "title": "Escaping and passing the rubber guard",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 131,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -617,6 +628,35 @@
       "no-gi guard control and submissions",
       "mission control to submission chains",
       "flexibility-based guard attack system"
+    ],
+    "clips": [
+      {
+        "id": "gFYyMkaMz34",
+        "title": "Prison guard breakdown from rubber guard",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 59,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "KN7ww-OyaxQ",
+        "title": "Meathook options from rubber guard",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 60,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "KCyIwacRKu8",
+        "title": "Invisible collar from rubber guard",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_family": [
@@ -681,6 +721,26 @@
     {
       "question": "How does the neck and spine posture of the bottom player govern the safety and integrity of the configuration for both athletes?",
       "answer": "Because the bottom player's head is drawn toward their own knee and the leg is elevated over the shoulder line, the bottom player must maintain a rounded C-curve with the chin tucked to avoid cervical hyperextension under stacking pressure. This same rounded posture is what keeps the shoulders aligned to sustain the leg grip and hold the trapped arm tight, so structure and safety are the same thing here. For the top player, the bottom player's spinal alignment dictates how stacking pressure transmits: a well-curved bottom player absorbs stacking and preserves the trap, while a flattened or hyperextended one both risks injury and loosens the arm isolation. The configuration therefore hinges on a spinal posture that simultaneously protects the neck and preserves the control."
+    }
+  ],
+  "clips": [
+    {
+      "id": "h1XzZDsUxHQ",
+      "title": "Eddie Bravo explains the rubber guard",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "JAN FERNANDEZ ",
+      "duration": 111,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "tWAZbCiWQ9E",
+      "title": "Rubber guard philosophy",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "Eddie Bravo",
+      "duration": 61,
+      "verified": "2026-07-14"
     }
   ]
 }

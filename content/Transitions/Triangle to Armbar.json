@@ -308,7 +308,36 @@
         "answer": "Attempt the transition when the opponent has successfully reduced the choking pressure of your triangle through posture, hand positioning, or shoulder rotation, but has not escaped the leg configuration. Specifically, look for their trapped arm actively pushing against your thigh or hip rather than being compressed against their own neck. If the triangle choke is still viable and the opponent is fading, finish the choke rather than transitioning. The armbar transition is a response to effective triangle defense, not a replacement for a working choke."
       }
     ],
-    "safety_considerations": "The triangle to armbar transition is generally safe to practice at all training intensities when proper communication and tapping protocols are observed. The primary safety concern is the armbar finish itself: apply extension pressure gradually and smoothly, never explosively jerking the joint. Partners must tap early when they feel elbow pressure, as hyperextension injuries can occur rapidly once the arm straightens past its natural range. During the transition phase, be aware of neck pressure from leg configuration changes and pause if your partner indicates discomfort or restricted breathing. When drilling, maintain control throughout rather than rushing through steps, as uncontrolled pivoting can result in accidental knee contact to the face. Beginners should spend extensive time with cooperative drilling before applying in live situations. Always establish clear tapping protocols before drilling armbar sequences."
+    "safety_considerations": "The triangle to armbar transition is generally safe to practice at all training intensities when proper communication and tapping protocols are observed. The primary safety concern is the armbar finish itself: apply extension pressure gradually and smoothly, never explosively jerking the joint. Partners must tap early when they feel elbow pressure, as hyperextension injuries can occur rapidly once the arm straightens past its natural range. During the transition phase, be aware of neck pressure from leg configuration changes and pause if your partner indicates discomfort or restricted breathing. When drilling, maintain control throughout rather than rushing through steps, as uncontrolled pivoting can result in accidental knee contact to the face. Beginners should spend extensive time with cooperative drilling before applying in live situations. Always establish clear tapping protocols before drilling armbar sequences.",
+    "clips": [
+      {
+        "id": "5fuUTE9QN3U",
+        "title": "Triangle to Armbar Transition",
+        "by": "Keith Florian",
+        "vertical": false,
+        "channel": "Florian Martial Arts Center",
+        "duration": 52,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "r8rBt5Mp3B4",
+        "title": "Transition from Triangle to Armbar",
+        "by": "ArmoryTraining",
+        "vertical": false,
+        "channel": "ArmoryTraining",
+        "duration": 48,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "yrl903y9jbg",
+        "title": "Triangle Armbar",
+        "by": "Ramsey Dewey",
+        "vertical": false,
+        "channel": "Ramsey Dewey",
+        "duration": 64,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Triangle to Armbar Defender",
@@ -439,6 +468,35 @@
         "phase": "Phase 4: Full Resistance Integration",
         "focus": "Defending the complete triangle-armbar chain in live sparring",
         "description": "Positional sparring starting in triangle control with full resistance. Partner attacks the triangle and transitions to armbar freely while you defend and escape. Track which defensive responses succeed most often against different body types and skill levels. Integrate lessons into your regular rolling as automatic defensive responses."
+      }
+    ],
+    "clips": [
+      {
+        "id": "DLmrzSs1hWI",
+        "title": "Triangle Defense and Escape",
+        "by": "Daniel Frank",
+        "vertical": false,
+        "channel": "Daniel Frank",
+        "duration": 24,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "zKieMBkGXxU",
+        "title": "Armbar Defense: Stack Escape",
+        "by": "Daniel Frank",
+        "vertical": false,
+        "channel": "Daniel Frank",
+        "duration": 32,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ZyRbg7ubHio",
+        "title": "How to Escape the Triangle and the Armbar",
+        "by": "War Room Jiu Jitsu",
+        "vertical": false,
+        "channel": "War Room Jiu Jitsu",
+        "duration": 115,
+        "verified": "2026-07-15"
       }
     ]
   },

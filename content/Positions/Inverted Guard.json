@@ -410,6 +410,35 @@
           "nogi": 4
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "aQ2vFXXBn-o",
+        "title": "Countering a Full Inversion",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "M6gK8yjDFGE",
+        "title": "How to Pass Inverted Guard",
+        "by": "Wim Deputter",
+        "vertical": false,
+        "channel": "Wim Deputter BJJ",
+        "duration": 91,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "P7JKadlMi_M",
+        "title": "How to Pass The Inverted Guard",
+        "by": "JiuJitsu.com",
+        "vertical": false,
+        "channel": "JiuJitsu.com",
+        "duration": 97,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -777,6 +806,35 @@
           "nogi": 4
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "KNz5AkZ4jrg",
+        "title": "Jiu Jitsu Inversion Mechanics",
+        "by": "Mikey Musumeci",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 72,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "ErsvmCAGxnA",
+        "title": "Inverting under top pressure",
+        "by": "Mikey Musumeci",
+        "vertical": false,
+        "channel": "Chase Namba",
+        "duration": 78,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "SCfmkmD4PYA",
+        "title": "Standing Alternative to Circle Hand",
+        "by": "Mikey Musumeci",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 119,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -807,6 +865,35 @@
     {
       "question": "How does elevated hip position determine the balance of advantage in Inverted Guard for either player?",
       "answer": "When the bottom player keeps hips high and mobile, they retain the rotational freedom to track the passer, create sweep angles, and thread transitions, keeping the exchange favorable to the guard. As soon as those hips sink toward the mat, rotation is lost, the shoulders flatten, and the top player gains a direct pressure line to stack or smash. Hip elevation is therefore the shared barometer of who is winning the exchange: it is the resource the bottom player must protect and the thing the top player is actively trying to collapse. Both players read hip height to decide whether to attack or defend."
+    }
+  ],
+  "clips": [
+    {
+      "id": "KNz5AkZ4jrg",
+      "title": "Jiu Jitsu Inversion Mechanics",
+      "by": "Mikey Musumeci",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 72,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "Ez4LvZ2PtRk",
+      "title": "Basic inversion guard maintenance drill",
+      "by": "Revolution BJJ",
+      "vertical": false,
+      "channel": "Revolution BJJ",
+      "duration": 17,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "SCfmkmD4PYA",
+      "title": "Standing Alternative to Circle Hand",
+      "by": "Mikey Musumeci",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 119,
+      "verified": "2026-07-14"
     }
   ]
 }

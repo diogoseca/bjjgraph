@@ -292,7 +292,27 @@
         "answer": "When the opponent drives forward, their weight commitment creates vulnerability to inversion-based attacks. Use your top leg frame as a barrier to redirect their pressure laterally rather than absorbing it. From there, you can invert underneath them for a kiss-of-the-dragon back take, transition to deep half guard by releasing the top hook and threading underneath, or convert to ashi garami by controlling the ankle and rotating your hips to entangle their leg in a submission-oriented position."
       }
     ],
-    "safety_considerations": "The Single Leg X Sweep is generally safe to practice at all experience levels when executed with control and awareness. Primary safety concerns include maintaining control during the opponent's fall to prevent awkward landings and ensuring smooth transitions that don't create sudden jerking motions on the captured leg. When practicing, both partners should communicate and the person being swept should be prepared to breakfall appropriately. Avoid yanking or explosively jerking the hooked leg, as this can create knee torque. Instead, focus on smooth, controlled elevation and rotation. Advanced practitioners should be especially mindful when transitioning to leg attacks after the sweep, ensuring proper progression and control before applying submissions. Always tap early when being swept into compromised positions, and release immediately when partner taps during follow-up submissions."
+    "safety_considerations": "The Single Leg X Sweep is generally safe to practice at all experience levels when executed with control and awareness. Primary safety concerns include maintaining control during the opponent's fall to prevent awkward landings and ensuring smooth transitions that don't create sudden jerking motions on the captured leg. When practicing, both partners should communicate and the person being swept should be prepared to breakfall appropriately. Avoid yanking or explosively jerking the hooked leg, as this can create knee torque. Instead, focus on smooth, controlled elevation and rotation. Advanced practitioners should be especially mindful when transitioning to leg attacks after the sweep, ensuring proper progression and control before applying submissions. Always tap early when being swept into compromised positions, and release immediately when partner taps during follow-up submissions.",
+    "clips": [
+      {
+        "id": "TVQXVTX6Szw",
+        "title": "Single leg X sweep to 50/50 transition",
+        "by": "Won-hee Cho",
+        "vertical": false,
+        "channel": "조원희주짓수다",
+        "duration": 23,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ElAdD4QuxXk",
+        "title": "Modified single leg X guard sweep",
+        "by": "Escapology BJJ",
+        "vertical": false,
+        "channel": "Escapology BJJ",
+        "duration": 160,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Single Leg X Sweep Defender",
@@ -423,6 +443,35 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Full resistance defense and transition to passing or counter-attacks",
         "description": "Positional sparring starting in Single Leg X Guard with partner working full-speed sweep attempts. Defend using all learned techniques and immediately transition to passing when sweeps are neutralized. Track success rate and identify which defensive patterns work best against different sweep timing and angles."
+      }
+    ],
+    "clips": [
+      {
+        "id": "TwE_vhlV13g",
+        "title": "Single leg X escape to back take",
+        "by": "Ronin Training Center",
+        "vertical": false,
+        "channel": "Ronin Training Center",
+        "duration": 63,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ycHT2LS41Cw",
+        "title": "Back-take counter to single leg X",
+        "by": "Eugene Bidchenco",
+        "vertical": false,
+        "channel": "Eugene Bidchenco",
+        "duration": 72,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "m1nyuMt3IP4",
+        "title": "Single leg X defense to rolling back take",
+        "by": "Gracie Barra Pymble",
+        "vertical": false,
+        "channel": "Gracie Barra Pymble",
+        "duration": 80,
+        "verified": "2026-07-15"
       }
     ]
   },

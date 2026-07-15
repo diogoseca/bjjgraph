@@ -290,7 +290,27 @@
         "answer": "The deep half entry indicates insufficient hip control—your weight was too far forward without controlling their ability to dive underneath. Immediately sprawl hips back and drive downward pressure to prevent them from completing the entry. If they achieve deep half, you must address that position specifically with whizzer and hip pressure rather than continuing the quarter guard transition. Prevention requires maintaining hip awareness and not overcommitting weight past the tipping point where they can get underneath you."
       }
     ],
-    "safety_considerations": "The Transition to Quarter Guard involves sustained pressure application that can be uncomfortable for the bottom player, particularly crossface pressure against the face and jaw. In training, modulate crossface intensity to avoid cervical spine strain or TMJ discomfort in your partner. Avoid explosive jerking movements during leg extraction that could torque the bottom player's knee or hip. Communicate with training partners about pressure levels and be prepared to ease off immediately if they indicate pain or discomfort in their knee, hip, or neck."
+    "safety_considerations": "The Transition to Quarter Guard involves sustained pressure application that can be uncomfortable for the bottom player, particularly crossface pressure against the face and jaw. In training, modulate crossface intensity to avoid cervical spine strain or TMJ discomfort in your partner. Avoid explosive jerking movements during leg extraction that could torque the bottom player's knee or hip. Communicate with training partners about pressure levels and be prepared to ease off immediately if they indicate pain or discomfort in their knee, hip, or neck.",
+    "clips": [
+      {
+        "id": "yj_6xcl2emA",
+        "title": "Passing half guard knee shield with an inside knee cut",
+        "by": "War Room Jiu Jitsu",
+        "vertical": false,
+        "channel": "War Room Jiu Jitsu",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "sMsgoChdaHE",
+        "title": "Quarter guard concepts",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Half Guard to Quarter Guard Defender",
@@ -416,6 +436,26 @@
         "phase": "Live Positional Sparring",
         "focus": "Full resistance application with competitive intensity",
         "description": "Start in half guard bottom with partner at full competitive resistance working the Transition to Quarter Guard. Your goal is to prevent the transition and either retain half guard, sweep, or achieve a back take within sixty seconds. Track success rates across multiple rounds to identify weak points requiring additional drilling."
+      }
+    ],
+    "clips": [
+      {
+        "id": "S8qzvGaBp74",
+        "title": "Working from quarter guard bottom",
+        "by": "RGA South Herts",
+        "vertical": false,
+        "channel": "RGA South Herts",
+        "duration": 66,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "86KseinKoSY",
+        "title": "Knee slide pass recovery to butterfly guard sweep",
+        "by": "Italiano BJJ",
+        "vertical": false,
+        "channel": "Italiano BJJ",
+        "duration": 37,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -345,6 +345,35 @@
         "question": "Your leg slips off the opponent's shoulder during a scramble - how do you recover?",
         "answer": "If your leg slips from the shoulder, immediately secure control of their wrist or sleeve to prevent full arm extraction. Use your free leg to re-establish guard by hooking their hip while working to re-thread your attacking leg back over their shoulder. If they've created too much distance, transition to closed guard with an overhook on the previously trapped arm, or shoot immediately for a triangle by throwing your legs around their head and arm. Never chase a lost omoplata - transition to a related attack instead."
       }
+    ],
+    "clips": [
+      {
+        "id": "k8b2GBVqcco",
+        "title": "Omoplata variation from open guard",
+        "by": "Clark Gracie",
+        "vertical": false,
+        "channel": "Clark Gracie Allegiance Jiu Jitsu",
+        "duration": 50,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "w3_FCkkNQxU",
+        "title": "Omoplata finish with far leg control",
+        "by": "Clark Gracie",
+        "vertical": false,
+        "channel": "Clark Gracie Allegiance Jiu Jitsu",
+        "duration": 102,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "oQAP8nARiHU",
+        "title": "Omoplata technique breakdown",
+        "by": "Clark Gracie",
+        "vertical": false,
+        "channel": "Deep Dive JJ",
+        "duration": 100,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -618,6 +647,35 @@
         "question": "Your opponent partially postures and creates some distance - how do you recover control?",
         "answer": "When they create space by partial posturing, use your grip on their belt or hip to pull yourself toward them rather than trying to pull them down. Simultaneously increase shin pressure across their back. If they achieve significant posture, this is the trigger to sweep rather than insist on pulling them back down. Use their elevated posture against them by executing the omoplata sweep, driving forward as they rise and following through to mount or side control. Alternatively, if they pull the arm free, immediately transition to triangle or armbar."
       }
+    ],
+    "clips": [
+      {
+        "id": "pgIEqjw9ovs",
+        "title": "Mount escape into an omoplata",
+        "by": "Clark Gracie",
+        "vertical": false,
+        "channel": "Clark Gracie Allegiance Jiu Jitsu",
+        "duration": 31,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "oQAP8nARiHU",
+        "title": "Omoplata technique breakdown",
+        "by": "Clark Gracie",
+        "vertical": false,
+        "channel": "Deep Dive JJ",
+        "duration": 100,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "HCuRfqaM0tM",
+        "title": "Spinning omoplata setup",
+        "by": "Clark Gracie",
+        "vertical": false,
+        "channel": "CIENTISTAS DO JIU JITSU",
+        "duration": 96,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -652,6 +710,35 @@
     {
       "question": "Why is Omoplata Control considered a transitional hub rather than a static holding position?",
       "answer": "Unlike a pin such as side control or mount, the omoplata trades a stable base for a committed limb entanglement, so it cannot be held indefinitely without either advancing or degrading. The shoulder lock, the sweep, and the back take all share the same control points, meaning small shifts in hip angle and weight convert one threat into another without releasing the arm. As the opponent defends one line, the position naturally flows toward whichever pathway their weight commitment leaves open. This is why it is understood as a crossroads connecting submission, sweep, and positional advancement rather than a destination to be maintained."
+    }
+  ],
+  "clips": [
+    {
+      "id": "dwwXQx6HBNw",
+      "title": "The omoplata explained",
+      "by": "Rafael Mendes",
+      "vertical": false,
+      "channel": "ART OF JIU JITSU",
+      "duration": 59,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "oQAP8nARiHU",
+      "title": "Omoplata technique breakdown",
+      "by": "Clark Gracie",
+      "vertical": false,
+      "channel": "Deep Dive JJ",
+      "duration": 100,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "WdGe841yhsU",
+      "title": "Troubleshooting the no-gi omoplata",
+      "by": "Jean Jacques Machado",
+      "vertical": false,
+      "channel": "JeanJacquesMachado",
+      "duration": 101,
+      "verified": "2026-07-14"
     }
   ]
 }

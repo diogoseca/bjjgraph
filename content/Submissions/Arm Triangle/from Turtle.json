@@ -329,6 +329,35 @@
         "answer": "The arm triangle serves as a secondary attack that punishes opponents who defend the back take by tucking elbows tight and lowering their head. When they defend the back take, they often position their arm perfectly for the arm triangle entry. It chains with anaconda chokes when the opponent posts their arm forward, darce chokes when they try to turn into you, and guillotines when they lift their head. The three-way threat of arm triangle, anaconda, and darce from turtle top creates a dilemma where defending one attack opens another.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "h4izOHcQh2Y",
+        "title": "Head & Arm Choke from Turtle Position",
+        "by": "Pathfinder Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Pathfinder Jiu-Jitsu Team",
+        "duration": 50,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "nD3qXP4o7GM",
+        "title": "Turtle Attacks: Arm Triangle",
+        "by": "SlothGuard",
+        "vertical": false,
+        "channel": "SlothGuard",
+        "duration": 37,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "KHEJ0DygJvc",
+        "title": "Arm Triangle from Turtle",
+        "by": "BTT Evergreen",
+        "vertical": false,
+        "channel": "BTT Evergreen",
+        "duration": 58,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -465,6 +494,35 @@
         "phase": "Phase 4: Live Defense Integration",
         "focus": "Defending against full-speed arm triangle attempts",
         "description": "Positional sparring from turtle bottom against a partner who mixes arm triangle attempts with back takes and other attacks. Develop the ability to distinguish arm triangle setups from other attacks in real time and apply the correct defensive response. Build confidence in the defensive sequence from recognition through escape at increasing intensity."
+      }
+    ],
+    "clips": [
+      {
+        "id": "LTGHO-aRBxw",
+        "title": "Head and Arm Escape from Turtle",
+        "by": "Chosen Few BJJ",
+        "vertical": false,
+        "channel": "Chosen Few BJJ",
+        "duration": 78,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "n_2zR6BaF8A",
+        "title": "The Best Arm-Triangle Escape",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 58,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Fx6qjR6a_xE",
+        "title": "3 Arm Triangle Choke Defenses",
+        "by": "MMA Leech",
+        "vertical": false,
+        "channel": "MMA Leech",
+        "duration": 274,
+        "verified": "2026-07-14"
       }
     ]
   }

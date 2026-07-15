@@ -298,7 +298,18 @@
         "answer": "If you still have arm control, you can return to the armbar threat since your Technical Mount base may still be partially intact. If the opponent's frame has pushed you to the side, look for a darce choke as their arm is often exposed during the framing motion. You can also transition to a gift wrap if you can capture their framing arm by swimming under it. The worst option is to force the back take against a strong frame—disengage cleanly, consolidate your top position, and reset the attacking sequence."
       }
     ],
-    "safety_considerations": "This transition involves rapid rotational movement around the opponent's body. During drilling, communicate clearly with your partner about rotation speed and intensity. Ensure controlled hook insertion to avoid accidentally striking the groin area or hyperextending your partner's knee during leg threading. The seatbelt grip must be established across the chest and shoulder, never across the throat. When practicing the rolling back take variant, ensure adequate mat space and start slowly to prevent neck strain from sudden rotational forces. Partners should tap or verbally signal if any hook insertion creates knee discomfort."
+    "safety_considerations": "This transition involves rapid rotational movement around the opponent's body. During drilling, communicate clearly with your partner about rotation speed and intensity. Ensure controlled hook insertion to avoid accidentally striking the groin area or hyperextending your partner's knee during leg threading. The seatbelt grip must be established across the chest and shoulder, never across the throat. When practicing the rolling back take variant, ensure adequate mat space and start slowly to prevent neck strain from sudden rotational forces. Partners should tap or verbally signal if any hook insertion creates knee discomfort.",
+    "clips": [
+      {
+        "id": "5bw7poxVJ1E",
+        "title": "Gift wrap to the back from mount, no-gi",
+        "by": "Brian Glick",
+        "vertical": false,
+        "channel": "Brian Glick",
+        "duration": 112,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Technical Mount to Back Control Defender",
@@ -423,6 +434,35 @@
         "phase": "Phase 4: Full Resistance Scenarios",
         "focus": "Defending the complete armbar-to-back-take dilemma at full intensity",
         "description": "Positional sparring starting from Technical Mount bottom. Opponent works the full system: armbar threats, back take transitions, and chain attacks. Defend both threats simultaneously while looking for escape windows. Track which situations result in successful defense versus back control concession to identify patterns and refine defensive decision-making."
+      }
+    ],
+    "clips": [
+      {
+        "id": "NHrpJdU8wCQ",
+        "title": "Technical mount escape out the back",
+        "by": "smallmanbjj",
+        "vertical": false,
+        "channel": "smallmanbjj",
+        "duration": 58,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "bhkb4ItZQno",
+        "title": "How to not get mounted when escaping the back",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 131,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "1dymN5AbYhM",
+        "title": "Back mount defense",
+        "by": "Marcelo Alonso",
+        "vertical": false,
+        "channel": "Marcelo Alonso",
+        "duration": 58,
+        "verified": "2026-07-15"
       }
     ]
   }

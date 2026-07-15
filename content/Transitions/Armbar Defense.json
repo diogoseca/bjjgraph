@@ -305,7 +305,36 @@
         "answer": "From mount, armbar indicators include: opponent beginning to pivot their body perpendicular to yours, isolating one of your arms by controlling the wrist or sleeve, shifting their weight to one side to facilitate leg swing, and beginning to swing their leg across your face or chest. Additional signs include opponent securing a high mount position, trapping your arm across their body, or breaking your defensive frames. Recognition of these early movements allows defensive response before full armbar position is achieved."
       }
     ],
-    "safety_considerations": "Armbar defense training carries significant injury risk if not practiced with appropriate control and communication. Practitioners must understand that the elbow joint can be hyperextended very rapidly once full armbar leverage is achieved, and attempts to resist a completed armbar will result in serious injury requiring medical attention and extended recovery. During drilling, partners must apply controlled pressure and immediately release when the defending partner taps or signals verbally. Never attempt to tough out or resist a fully locked armbar, as elbow ligament damage can occur in less than one second of sustained pressure. Beginners should practice defenses only with experienced partners who understand appropriate pressure application. Progress gradually through resistance levels and ensure drilling partners can reliably control their submission attempts before advancing to higher-intensity training."
+    "safety_considerations": "Armbar defense training carries significant injury risk if not practiced with appropriate control and communication. Practitioners must understand that the elbow joint can be hyperextended very rapidly once full armbar leverage is achieved, and attempts to resist a completed armbar will result in serious injury requiring medical attention and extended recovery. During drilling, partners must apply controlled pressure and immediately release when the defending partner taps or signals verbally. Never attempt to tough out or resist a fully locked armbar, as elbow ligament damage can occur in less than one second of sustained pressure. Beginners should practice defenses only with experienced partners who understand appropriate pressure application. Progress gradually through resistance levels and ensure drilling partners can reliably control their submission attempts before advancing to higher-intensity training.",
+    "clips": [
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "Favorite armbar escape",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "gWfgCEvGZTo",
+        "title": "Hitchhiker armbar escape",
+        "by": "Evolve MMA",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 58,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "w6M0NpTMkeU",
+        "title": "Hitchhiker escape and pass in one motion",
+        "by": "Peter Mettler",
+        "vertical": false,
+        "channel": "Peter Mettler Martial Arts",
+        "duration": 55,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Armbar Defense Defender",
@@ -430,6 +459,35 @@
         "phase": "Week 11+: Full Chain Integration",
         "focus": "Flowing between armbar and all available submissions during live sparring",
         "description": "During positional sparring from armbar control, work the complete submission chain: armbar attempt, grip break counter, triangle transition, omoplata flow, and guard recovery as fallback. Partner operates at full resistance. Focus on reading defensive reactions and selecting the highest-percentage transition in real time."
+      }
+    ],
+    "clips": [
+      {
+        "id": "zVLS7fLlobg",
+        "title": "Preventing the hitchhiker armbar escape",
+        "by": "Pathfinder Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Pathfinder Jiu-Jitsu Team",
+        "duration": 91,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "s68skjhhSMI",
+        "title": "Finishing the armbar without crossing your legs",
+        "by": "Chosen Few BJJ",
+        "vertical": false,
+        "channel": "Chosen Few BJJ",
+        "duration": 63,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "58eCiNxdOiI",
+        "title": "Why your armbar from guard gets defended",
+        "by": "Wim Deputter",
+        "vertical": false,
+        "channel": "Wim Deputter BJJ",
+        "duration": 76,
+        "verified": "2026-07-15"
       }
     ]
   },

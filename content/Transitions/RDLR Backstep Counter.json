@@ -293,7 +293,36 @@
         "answer": "Do not race to settle into Headquarters against a forming entanglement. First strip the foot on your hip by gripping the ankle and driving it to the mat, killing the dual-contact needed for Single Leg X. As you clear the foot, step your posting leg back to lengthen the distance and break the hook's purchase, then re-pin their near knee with your shin before resettling. The direction of force is down-and-back on the hook leg while your cross-face keeps their torso flat so they cannot follow with an elevation sweep."
       }
     ],
-    "safety_considerations": "The RDLR Backstep Counter carries moderate knee stress risk for both players. The top player should avoid explosive twisting motions during the backstep that could strain the knee of the hooked leg under rotational load. The bottom player's knee is vulnerable if the backstep compresses their RDLR hook against the mat at an awkward angle. Both practitioners should communicate if they feel knee pressure during drilling, and the top player should step around hook resistance rather than driving through it with force."
+    "safety_considerations": "The RDLR Backstep Counter carries moderate knee stress risk for both players. The top player should avoid explosive twisting motions during the backstep that could strain the knee of the hooked leg under rotational load. The bottom player's knee is vulnerable if the backstep compresses their RDLR hook against the mat at an awkward angle. Both practitioners should communicate if they feel knee pressure during drilling, and the top player should step around hook resistance rather than driving through it with force.",
+    "clips": [
+      {
+        "id": "gTbjLDdBC-I",
+        "title": "RDLR knee cut to backstep pass",
+        "by": "Andrew Smith",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 84,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "IdfQWVHikws",
+        "title": "Passing reverse de la riva with a shin slice",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 86,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_beJGS2-yIE",
+        "title": "How to use reverse de la riva",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Learn Faster BJJ - Jiu Jitsu Breakdowns",
+        "duration": 122,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "RDLR Backstep Counter Defender",
@@ -418,6 +447,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full-speed defensive application against committed backsteps",
         "description": "Full resistance positional sparring starting from RDLR. Top player actively attempts backstep passes while bottom player uses full defensive repertoire. 5-minute rounds tracking how often the bottom player retains guard, sweeps, or gets passed. Aim to prevent Headquarters establishment in at least 40% of backstep attempts."
+      }
+    ],
+    "clips": [
+      {
+        "id": "a3ModDEKY6s",
+        "title": "Defending the backstep pass to de la riva",
+        "by": "Inverted Gear",
+        "vertical": false,
+        "channel": "Inverted Gear",
+        "duration": 145,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "hdSw-ZmcBRA",
+        "title": "Defense to reverse de la riva and foot lock",
+        "by": "Ninja Pinto",
+        "vertical": false,
+        "channel": "Ninja Pinto BJJ",
+        "duration": 31,
+        "verified": "2026-07-15"
       }
     ]
   }

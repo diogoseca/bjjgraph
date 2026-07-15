@@ -343,6 +343,35 @@
         "answer": "The most common failure is attempting the step-over without first establishing a secure two-on-one wrist grip. When the attacker lifts their weight to step over, the momentary pressure relief allows the opponent to retract their arm if the grip is insufficient. Prevention requires confirming the grip is deep with thumbs wrapped before initiating any weight transfer. Test the grip by pulling slightly — if the arm moves with your pull, proceed. If the arm slips or you feel the opponent beginning to retract, reset to chest pressure and re-establish the grip rather than forcing a compromised step-over.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "UXPfzHTSCDE",
+        "title": "Belly Down Armbar from Turtle",
+        "by": "Ashland Hero Academy",
+        "vertical": false,
+        "channel": "Ashland Hero Academy & Standing Monkey Tai Chi",
+        "duration": 25,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "GGlY1B7Ys78",
+        "title": "Pass to Belly Down Armbar",
+        "by": "Mick Hall",
+        "vertical": false,
+        "channel": "Mick Hall",
+        "duration": 15,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "TPUiYC4-g70",
+        "title": "Armbar from Turtle",
+        "by": "Anthony Anderson",
+        "vertical": false,
+        "channel": "Anthony Anderson",
+        "duration": 14,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -470,6 +499,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Integrating all defensive layers against full-resistance turtle attacks",
         "description": "Three-minute positional rounds starting from turtle. Attacker can attempt any turtle top attack including belly-down armbar. Defender must apply appropriate defense based on the specific attack. Full resistance from both partners. Alternate roles each round to develop both perspectives."
+      }
+    ],
+    "clips": [
+      {
+        "id": "i_SeG9B_Znc",
+        "title": "Inverted Armbar from Turtle Escape",
+        "by": "LBJJ TV",
+        "vertical": false,
+        "channel": "LBJJ TV",
+        "duration": 96,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "mZ0EFbfDP_E",
+        "title": "Arm Bar Escape",
+        "by": "Wesley Chapel MMA",
+        "vertical": false,
+        "channel": "Wesley Chapel MMA",
+        "duration": 74,
+        "verified": "2026-07-14"
       }
     ]
   }

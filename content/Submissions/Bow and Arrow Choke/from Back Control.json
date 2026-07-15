@@ -345,6 +345,35 @@
         "answer": "If you cannot secure the far leg, you can use your free arm to push against the opponent's far shoulder or hip to create the opposing force instead. Another option is to hook the far leg with your own leg rather than gripping it with your hand, freeing both hands for collar work. You can also transition to a sliding collar choke by bringing your free hand to grip the other side of the collar, creating a cross-collar strangle from the back. The key is maintaining collar tension throughout any grip transition so the opponent cannot use the adjustment window to escape.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "xqNhZVNhxnE",
+        "title": "Bow and Arrow Choke from Back Control",
+        "by": "Evolve MMA",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 45,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "rc77idEskwo",
+        "title": "Bow and Arrow Choke",
+        "by": "Helena Crevar",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 55,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "vlydEGpl50k",
+        "title": "Bow and Arrow Choke from the Back",
+        "by": "Procel BJJ",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 52,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -475,6 +504,26 @@
         "phase": "Phase 4: Full Defense Sparring",
         "focus": "Live defense against committed bow and arrow attempts",
         "description": "Specific sparring starting from back control where the attacker's primary goal is the bow and arrow choke. Defender works the full defensive sequence: grip prevention, grip stripping, turn-in escape, and survival if caught deep. Track successful escapes over 10 rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Iz0aesx6cKk",
+        "title": "Bow and Arrow Choke Escape",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 36,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "J91GRsql-ZA",
+        "title": "Bow & Arrow Choke Defense Drill",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 114,
+        "verified": "2026-07-14"
       }
     ]
   }

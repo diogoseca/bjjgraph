@@ -361,6 +361,35 @@
         "question": "Your opponent is completely defensive with elbows tight and chin tucked - describe how you open them up?",
         "answer": "Begin by threatening the cross collar choke or applying collar pressure to their neck area, forcing them to bring hands up to defend. As they reach to strip your collar grip, immediately capture the extended arm and transition to armbar through S-mount. If they keep one arm defending choke and one tight, attack the americana on the tight arm - when they straighten to defend, switch to armbar. The principle is creating dilemmas where every defensive choice opens a different attack path."
       }
+    ],
+    "clips": [
+      {
+        "id": "uo5jPElZ6po",
+        "title": "Armbar from modified mount",
+        "by": "Black Lotus BJJ",
+        "vertical": false,
+        "channel": "Black Lotus Brazilian Jiu Jitsu Academy",
+        "duration": 63,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "dfP-Ov8FBUo",
+        "title": "Cross collar chokes from mount",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 80,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "GCxRluGItWY",
+        "title": "Mounted armbar + cross collar double attack",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 95,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -657,6 +686,35 @@
         "question": "How should you manage your energy when trapped in Modified Mount against a patient opponent?",
         "answer": "Avoid explosive movements that the posted leg is designed to absorb - bridges and explosive escapes waste enormous energy against this position's stability. Instead, use small technical hip escapes combined with frames, accepting incremental progress. Keep breathing controlled and deep despite the pressure. Wait for genuine openings like grip changes or submission attempts rather than forcing escapes. The opponent is expending less energy than in standard mount, so patience and technical precision beat explosive attempts that exhaust you."
       }
+    ],
+    "clips": [
+      {
+        "id": "_05Lwonu0mw",
+        "title": "Escape from a high full mount",
+        "by": "TENZAN",
+        "vertical": false,
+        "channel": "TENZAN AIKIDO",
+        "duration": 78,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "9252EvCT0q4",
+        "title": "Escaping the mount",
+        "by": "Gabriel Gonzaga",
+        "vertical": false,
+        "channel": "Gabriel Gonzaga",
+        "duration": 93,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "PnQdaoKyxoc",
+        "title": "One arm under leg mount escape",
+        "by": "Professor Aaron",
+        "vertical": false,
+        "channel": "The Jiujitsu Project Foundation",
+        "duration": 130,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -691,6 +749,35 @@
     {
       "question": "Why is Modified Mount often described as a temporary or transitional position rather than a static hold?",
       "answer": "The asymmetric base that grants stability against bridges also reduces the even, smothering pressure of squared standard mount, so holding it statically gives the bottom player time to build frames and work toward the open posted-leg side. Its value comes from being mid-motion, either advancing toward a submission or another mount variation, or briefly bracing against an explosive reversal before resettling. Left idle it slowly leaks control down the light side, which is why competent play keeps it flowing rather than parked. This transient character is a defining property of the configuration, not a flaw in how it is used."
+    }
+  ],
+  "clips": [
+    {
+      "id": "-mVdsoKMXhc",
+      "title": "Positional control from the mount",
+      "by": "Northwoods Combat Arts",
+      "vertical": false,
+      "channel": "Northwoods Combat Arts",
+      "duration": 102,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "pa4Aj431Yds",
+      "title": "Technical mount attacks",
+      "by": "Soma Academy",
+      "vertical": false,
+      "channel": "Soma Academy",
+      "duration": 110,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "uo5jPElZ6po",
+      "title": "Armbar from modified mount",
+      "by": "Black Lotus BJJ",
+      "vertical": false,
+      "channel": "Black Lotus Brazilian Jiu Jitsu Academy",
+      "duration": 63,
+      "verified": "2026-07-14"
     }
   ]
 }

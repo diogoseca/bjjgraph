@@ -291,7 +291,27 @@
         "answer": "The primary indicators are: the bottom player has successfully inserted a frame that is creating increasing distance, their knee is entering the space between your bodies, or they have secured a deep underhook and are beginning to sit up. When you feel the momentum of the completion stalling against defensive structure rather than flowing through it, abandon the direct completion within two seconds and transition to a backstep, knee slice, or leg drag rather than grinding against an established defense."
       }
     ],
-    "safety_considerations": "The Leg Weave Pass Completion involves significant pressure on the bottom player's chest, ribs, and neck during the crossface and hip drive phases. Practitioners should apply pressure progressively during drilling rather than sudden explosive weight drops. Be mindful of crossface pressure on the jaw and neck, reducing intensity when drilling with lighter or less experienced partners. During live training, release pressure immediately if a partner taps or signals discomfort, particularly during the consolidation phase where chest compression can restrict breathing."
+    "safety_considerations": "The Leg Weave Pass Completion involves significant pressure on the bottom player's chest, ribs, and neck during the crossface and hip drive phases. Practitioners should apply pressure progressively during drilling rather than sudden explosive weight drops. Be mindful of crossface pressure on the jaw and neck, reducing intensity when drilling with lighter or less experienced partners. During live training, release pressure immediately if a partner taps or signals discomfort, particularly during the consolidation phase where chest compression can restrict breathing.",
+    "clips": [
+      {
+        "id": "4XGYCwIekhY",
+        "title": "Weave pass finish from open guard",
+        "by": "Martial Arts and Wellness coach",
+        "vertical": false,
+        "channel": "Martial Arts and Wellness ",
+        "duration": 79,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "4LIBFmas-oE",
+        "title": "Leg weave pass through the knee shield",
+        "by": "BJJ4Breakfast coach",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 153,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Leg Weave Pass Completion Defender",
@@ -412,6 +432,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance defense application",
         "description": "Start from established leg weave with passer working completion attempts at full resistance. Defender applies complete defensive system including recognition, decision-making, and execution. Track successful defense rate and identify which completion variants need additional work. Rounds of 2 minutes with reset after pass or guard recovery."
+      }
+    ],
+    "clips": [
+      {
+        "id": "tO5rPtjfsGE",
+        "title": "Preventing the leg weave with the lasso",
+        "by": "Grand Union coach",
+        "vertical": false,
+        "channel": "Grand Union Jiu Jitsu",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "7gcVk4flYHo",
+        "title": "Countering the leg weave pass",
+        "by": "Stephan Kesting",
+        "vertical": false,
+        "channel": "Stephan Kesting",
+        "duration": 182,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ZXt2yzy0BL0",
+        "title": "Defeating the weave pass with the underhook",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 249,
+        "verified": "2026-07-15"
       }
     ]
   }

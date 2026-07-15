@@ -292,7 +292,18 @@
         "answer": "If the roll is partially blocked but forward momentum has been generated, chain into a sit-out by redirecting the motion laterally rather than continuing forward. Another option is using the momentum to scramble to a single leg on the opponent's controlling leg. If enough space was created during the partial roll, transition to a hip escape that clears the entanglement without completing the full rotation. The key is redirecting momentum rather than stopping—a failed roll that chains into another escape is far better than resetting to static defense."
       }
     ],
-    "safety_considerations": "The forward roll from saddle carries significant knee ligament injury risk if executed while the opponent has rotational control of the heel. Never attempt this escape when the heel hook is already being applied with rotation—tap immediately in that scenario. The rolling motion generates rotational forces through the knee that can compound heel hook mechanics if the opponent maintains their grip throughout the roll. Always protect the heel before initiating the roll, and abort the attempt if you feel increasing pressure on the knee joint during execution. Training should progress gradually from zero resistance to full resistance, with both partners understanding the injury mechanisms involved. Communication between training partners about heel exposure and grip security is essential during drilling."
+    "safety_considerations": "The forward roll from saddle carries significant knee ligament injury risk if executed while the opponent has rotational control of the heel. Never attempt this escape when the heel hook is already being applied with rotation—tap immediately in that scenario. The rolling motion generates rotational forces through the knee that can compound heel hook mechanics if the opponent maintains their grip throughout the roll. Always protect the heel before initiating the roll, and abort the attempt if you feel increasing pressure on the knee joint during execution. Training should progress gradually from zero resistance to full resistance, with both partners understanding the injury mechanisms involved. Communication between training partners about heel exposure and grip security is essential during drilling.",
+    "clips": [
+      {
+        "id": "DBbSqQf6iCo",
+        "title": "Rolling out of the saddle to backside 50/50",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 110,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Forward Roll from Saddle Defender",
@@ -406,6 +417,17 @@
         "phase": "Phase 4: Saddle to Back Control Conversion",
         "focus": "Seamless transition from leg control to upper body control",
         "description": "Specifically practice following the forward roll and establishing back control. Start with controlled rolls and progress to explosive full-speed attempts. Develop the ability to maintain chest-to-back connection during the dynamic transition and immediately insert hooks upon the opponent reaching turtle."
+      }
+    ],
+    "clips": [
+      {
+        "id": "5hhSK86xBFc",
+        "title": "Controlling the saddle against the roll",
+        "by": "Mads H.",
+        "vertical": false,
+        "channel": "Mads H. BJJ",
+        "duration": 259,
+        "verified": "2026-07-15"
       }
     ]
   }

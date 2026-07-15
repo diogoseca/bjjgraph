@@ -298,7 +298,18 @@
         "answer": "Use proprioceptive feedback by testing small movements in different directions. If ankle rotation meets immediate resistance but the knee can shift slightly outward, the entanglement controls the ankle and lower calf, favoring the ankle rotation extraction variant. If the ankle has some freedom but the knee is locked in position by the figure-four, the control targets the knee, favoring the hip rotation variant. This assessment determines which extraction variant has the highest probability of success and should be performed before committing energy to extraction attempts."
       }
     ],
-    "safety_considerations": "The truck position threatens the twister (cervical spine lock) and calf slicer (knee joint compression), both of which can cause serious injury with minimal warning before damage occurs. During extraction practice, always tap immediately if you feel rotational pressure on your cervical spine or significant compression on the knee joint. The calf slicer risk actually increases during extraction attempts as the changing leg angles can accelerate compression. Partners should apply submissions slowly during extraction drilling and communicate clearly about pressure levels. Begin all training with static drilling before progressing to resistance. Never sacrifice neck protection for leg work."
+    "safety_considerations": "The truck position threatens the twister (cervical spine lock) and calf slicer (knee joint compression), both of which can cause serious injury with minimal warning before damage occurs. During extraction practice, always tap immediately if you feel rotational pressure on your cervical spine or significant compression on the knee joint. The calf slicer risk actually increases during extraction attempts as the changing leg angles can accelerate compression. Partners should apply submissions slowly during extraction drilling and communicate clearly about pressure levels. Begin all training with static drilling before progressing to resistance. Never sacrifice neck protection for leg work.",
+    "clips": [
+      {
+        "id": "YqlKl-La88s",
+        "title": "Mastering the Truck — control and attack breakdown",
+        "by": "10th Planet Newport",
+        "vertical": false,
+        "channel": "10th Planet Newport",
+        "duration": 216,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Leg Extraction from Truck Defender",
@@ -418,6 +429,17 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance truck retention against all escape methods",
         "description": "Start in truck with both players at full resistance. Top player works to maintain position and finish submissions while bottom player works all available escapes including leg extraction. Track retention rate and identify which extraction configurations are hardest to counter for targeted improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "dWAZQ2VQcjw",
+        "title": "Reversing and escaping the Truck",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 229,
+        "verified": "2026-07-15"
       }
     ]
   }

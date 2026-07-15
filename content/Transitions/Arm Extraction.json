@@ -290,7 +290,27 @@
         "answer": "The most common failure point is attempting extraction while flat on your back with both shoulders on the mat. This position eliminates all rotational space and allows opponent to settle maximum weight. The fix is immediate and non-negotiable: turn slightly onto your side before any extraction attempt. Even 10-15 degrees of rotation creates the space pathway for your elbow to clear. Use your frames actively to maintain this angle—opponent will try to flatten you, so this is a constant battle. Developing the habit of never accepting a flat position under side control is the single most important factor in successful arm extraction."
       }
     ],
-    "safety_considerations": "Arm extraction is a low-risk defensive technique with minimal injury potential when performed correctly. The primary safety concern is avoiding turning away from opponent (turning to turtle), which can result in giving up back control or rear mount position—significantly worse positions than side control. Always turn toward opponent during the escape. When drilling, the top partner should provide appropriate resistance levels matching the training phase—excessive pressure during initial learning phases can create bad habits and potential joint strain. Bottom partner should tap immediately if any submission threats develop during escape attempts. Avoid explosive, jerky movements during arm extraction as these can strain shoulder joints and are also technically inefficient. The technique should feel smooth and controlled, not forced. When learning, ensure adequate mat space around drilling pairs as the guard recovery phase involves leg movements that could accidentally strike nearby practitioners."
+    "safety_considerations": "Arm extraction is a low-risk defensive technique with minimal injury potential when performed correctly. The primary safety concern is avoiding turning away from opponent (turning to turtle), which can result in giving up back control or rear mount position—significantly worse positions than side control. Always turn toward opponent during the escape. When drilling, the top partner should provide appropriate resistance levels matching the training phase—excessive pressure during initial learning phases can create bad habits and potential joint strain. Bottom partner should tap immediately if any submission threats develop during escape attempts. Avoid explosive, jerky movements during arm extraction as these can strain shoulder joints and are also technically inefficient. The technique should feel smooth and controlled, not forced. When learning, ensure adequate mat space around drilling pairs as the guard recovery phase involves leg movements that could accidentally strike nearby practitioners.",
+    "clips": [
+      {
+        "id": "YhkVpXhiAho",
+        "title": "Limp arm escape from side control",
+        "by": "United BJJ Hawaii",
+        "vertical": false,
+        "channel": "United BJJ Hawaii",
+        "duration": 128,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "aw_eTRRuDz8",
+        "title": "How to free the trapped arm",
+        "by": "The Fight Centre",
+        "vertical": false,
+        "channel": "The Fight Centre - Brisbane",
+        "duration": 207,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Arm Extraction Defender",
@@ -415,6 +435,26 @@
         "phase": "Week 9-12: Full Resistance Integration",
         "focus": "Maintaining side control and countering arm extraction under full competition-level resistance",
         "description": "Full positional sparring rounds from side control with both players at 100% intensity. Top player practices the complete defensive toolkit including pressure maintenance, position advancement, and submission threats. Track success rate of maintaining control versus opponent recovering guard. Identify which extraction variants are most difficult to counter and develop specific responses. 3-minute rounds with reset after guard recovery or position advancement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "QH9-1I5XqO4",
+        "title": "Side control bottom: guard recovery vs the cross face",
+        "by": "Academy Jiu Jitsu",
+        "vertical": false,
+        "channel": "Academy Jiu Jitsu",
+        "duration": 105,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "7fFw__hZXMg",
+        "title": "Frame details to stop getting crushed on bottom",
+        "by": "John Connors",
+        "vertical": false,
+        "channel": "John Connors, Old Man BJJ Black Belt",
+        "duration": 146,
+        "verified": "2026-07-15"
       }
     ]
   },

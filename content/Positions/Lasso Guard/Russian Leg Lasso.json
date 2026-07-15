@@ -355,6 +355,26 @@
         "question": "Your opponent starts elevating their hips aggressively to set up an overhead sweep - what should you do?",
         "answer": "Immediately sprawl your hips back and down while driving your weight through your legs rather than forward. Control their hips or belt with your free hand to prevent elevation. Step back with your trapped-arm side leg to remove the base they need for the overhead motion. If they've already committed to the elevation, consider following their movement and transitioning to a back take rather than fighting the sweep directly."
       }
+    ],
+    "clips": [
+      {
+        "id": "Cx53Xl0SGC4",
+        "title": "Lasso Guard Knee Press Pass",
+        "by": "Roll 247",
+        "vertical": false,
+        "channel": "Roll 247",
+        "duration": 27,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "XSkn8eAmtJU",
+        "title": "Passing the Lasso with Longstep + Footwork",
+        "by": "Bryce Nie",
+        "vertical": false,
+        "channel": "Bryce Nie",
+        "duration": 150,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -665,6 +685,35 @@
         "question": "What hip position and distance should you maintain relative to your opponent?",
         "answer": "Maintain distance where your grips remain effective but the opponent cannot establish smash passing pressure. Your hips should be angled slightly toward the lasso side to optimize rotational sweep mechanics. Constant hip adjustment is essential as the opponent moves - too close allows pressure passing, too far loses grip effectiveness. The ideal distance keeps tension on the lasso while preserving hip mobility for attacks."
       }
+    ],
+    "clips": [
+      {
+        "id": "ErsvmCAGxnA",
+        "title": "Lasso Guard vs Top Pressure",
+        "by": "Mikey Musumeci",
+        "vertical": false,
+        "channel": "Chase Namba",
+        "duration": 78,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "n4ddjzGemrw",
+        "title": "Lasso Guard Variations",
+        "by": "Felipe Costa",
+        "vertical": false,
+        "channel": "Felipe Costa",
+        "duration": 28,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "0Szhzt-o9Cs",
+        "title": "Lasso Tripod Sweep Finish to Armbar",
+        "by": "Marcos Tinoco",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 37,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -699,6 +748,35 @@
     {
       "question": "What makes the Russian Leg Lasso an energy-intensive position for both players to sustain?",
       "answer": "Maintaining the position requires the bottom player to actively coordinate multiple grips, constant hip elevation to keep the lasso high, and continuous distance adjustment, none of which can be held passively without fatigue. The top player simultaneously expends energy fighting grips, controlling the non-lasso leg, and resisting rotational torque while keeping posture upright. Because the structure decays the moment either player relaxes, both are locked into continuous work. This shared energy cost is why the position tends to resolve quickly into a sweep, submission, or pass rather than a prolonged stalemate."
+    }
+  ],
+  "clips": [
+    {
+      "id": "n4ddjzGemrw",
+      "title": "Lasso Guard Variations Overview",
+      "by": "Felipe Costa",
+      "vertical": false,
+      "channel": "Felipe Costa",
+      "duration": 28,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "ErsvmCAGxnA",
+      "title": "Lasso Guard vs Top Pressure",
+      "by": "Mikey Musumeci",
+      "vertical": false,
+      "channel": "Chase Namba",
+      "duration": 78,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "LwnoWDFJlN0",
+      "title": "Entering Lasso Guard from Open Guard",
+      "by": "Lucas Lepri",
+      "vertical": false,
+      "channel": "Lucas Lepri Brazilian Jiu Jitsu & Fitness",
+      "duration": 44,
+      "verified": "2026-07-14"
     }
   ]
 }

@@ -286,7 +286,36 @@
         "answer": "Do not fight the granby—follow it. Your leg entanglement should prevent a clean escape, so ride the roll by maintaining your hook and allowing your body to follow their rotation. This typically results in re-establishing truck position or converting directly to back control as they roll. The worst response is to plant your hands and resist, which creates a tug-of-war that the granby momentum usually wins. Flow with the movement and re-attack from the resulting position."
       }
     ],
-    "safety_considerations": "This transition involves spinal rotation mechanics and should be practiced with controlled speed until both partners understand the movement pattern. The leg entanglement can trap the knee in vulnerable angles during the rotation, so communicate clearly with your training partner about any discomfort in the trapped leg. Never force the rotation if the opponent's leg is caught at an awkward angle. When drilling, start with slow walkthroughs and only increase speed as both partners gain confidence. Tap immediately if you feel unexpected pressure on the spine or knee during training."
+    "safety_considerations": "This transition involves spinal rotation mechanics and should be practiced with controlled speed until both partners understand the movement pattern. The leg entanglement can trap the knee in vulnerable angles during the rotation, so communicate clearly with your training partner about any discomfort in the trapped leg. Never force the rotation if the opponent's leg is caught at an awkward angle. When drilling, start with slow walkthroughs and only increase speed as both partners gain confidence. Tap immediately if you feel unexpected pressure on the spine or knee during training.",
+    "clips": [
+      {
+        "id": "im8KbQUyxLY",
+        "title": "Truck options from twister side control",
+        "by": "Jeremiah Vance",
+        "vertical": false,
+        "channel": "Jeremiah Vance",
+        "duration": 42,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "R55lmkc6Mus",
+        "title": "Twister side control",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 87,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "odT3-cVWXdc",
+        "title": "Twister side attacks",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Truck to Twister Side Control Defender",
@@ -412,6 +441,35 @@
         "phase": "Phase 4: Live Defensive Rounds",
         "focus": "Full-speed defense from truck through transition attempts",
         "description": "Start in truck bottom with full resistance. Defender must handle both direct truck submissions and transition attempts to twister side control. Build the ability to identify which attack is coming and select the appropriate defensive response. Track escape success rate to measure improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "jg0Rdc0rJzg",
+        "title": "Twister side control counter",
+        "by": "10th Planet Murrieta",
+        "vertical": false,
+        "channel": "10th Planet Jiu Jitsu Murrieta",
+        "duration": 16,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Va1YNgx2E6M",
+        "title": "Escape and counter the Twister",
+        "by": "Matrix Jiu Jitsu",
+        "vertical": false,
+        "channel": "Matrix Jiu Jitsu",
+        "duration": 165,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "AUyR1rmVzo4",
+        "title": "Twister side control and escaping it",
+        "by": "Robot Dolphin Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Robot Dolphin Jiu-Jitsu ",
+        "duration": 205,
+        "verified": "2026-07-15"
       }
     ]
   }

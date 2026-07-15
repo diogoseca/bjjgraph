@@ -269,7 +269,27 @@
         "answer": "Drive diagonally across and down, pushing the opponent's jaw away from you and toward the mat on their far side. This force vector serves dual purposes: it prevents them from sitting up to pursue back takes and it creates rotational torque that turns their upper body away from your slicing leg, reducing their ability to reconfigure the lapel around your knee."
       }
     ],
-    "safety_considerations": "The Knee Slice Despite Lapel is generally low-risk when executed with proper technique. Primary injury concerns involve knee stress on the slicing leg if it gets tangled in lapel fabric while torquing. Never force the slice if your knee is wrapped—stop and clear the obstruction first. Training partners should communicate immediately if they feel knee pressure from awkward fabric entanglement. Neck strain can occur from aggressive cross-face pressure, so drilling partners should tap to excessive pressure rather than fighting through it. In competition, be aware that combined lapel and knee entanglement can create positions requiring careful extraction rather than explosive movement."
+    "safety_considerations": "The Knee Slice Despite Lapel is generally low-risk when executed with proper technique. Primary injury concerns involve knee stress on the slicing leg if it gets tangled in lapel fabric while torquing. Never force the slice if your knee is wrapped—stop and clear the obstruction first. Training partners should communicate immediately if they feel knee pressure from awkward fabric entanglement. Neck strain can occur from aggressive cross-face pressure, so drilling partners should tap to excessive pressure rather than fighting through it. In competition, be aware that combined lapel and knee entanglement can create positions requiring careful extraction rather than explosive movement.",
+    "clips": [
+      {
+        "id": "fpHh5-DyeAk",
+        "title": "Lapel half guard to combat knee slice",
+        "by": "Team Daruma Dojo",
+        "vertical": false,
+        "channel": "Team Daruma Dojo",
+        "duration": 75,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "zJkr3PfYDMI",
+        "title": "X pass to knee slice",
+        "by": "Aidan Sericolo",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 93,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Knee Slice Despite Lapel Defender",
@@ -399,6 +419,26 @@
         "phase": "Week 7+",
         "focus": "Full defensive chain integration",
         "description": "Full resistance sparring from lapel guard. Practice the complete defensive hierarchy: maintain tension, reconfigure if cleared, sit up for back take if slice initiates, insert knee shield as last resort. Develop fluid transitions between defensive layers based on what the passer gives you."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Mw9e-xftPcY",
+        "title": "Dealing with the lapel feed in half guard",
+        "by": "Inverted Gear",
+        "vertical": false,
+        "channel": "Inverted Gear",
+        "duration": 92,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "yiIHeo7NgsE",
+        "title": "Countering the knee slice pass",
+        "by": "Kohbukan Sisu",
+        "vertical": false,
+        "channel": "Kohbukan Sisu",
+        "duration": 58,
+        "verified": "2026-07-15"
       }
     ]
   },

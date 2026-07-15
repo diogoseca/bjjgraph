@@ -314,7 +314,36 @@
         "answer": "When the opponent retracts their leg during entry, several chain attacks become available depending on the distance created. If they pull back while you maintain forward momentum, transition immediately to single leg X-guard entry by inserting your foot on their far hip. If they create significant vertical distance by standing tall, switch to an ankle pick on the same or opposite leg since their weight is momentarily shifted. If they step backward with both feet, pursue a low single leg entry using the forward pressure you already have. The key principle is that their retraction creates a directional reaction you can exploit - never simply reset to neutral after a failed entry."
       }
     ],
-    "safety_considerations": "The outside ashi entry involves rapid level changes and rotational movements that can stress the knee joints of both practitioners. When drilling, ensure your partner is aware you're practicing leg entanglements and that they understand tapping protocols for leg locks. During the entry, avoid jerking or yanking the opponent's leg violently - maintain constant connection but execute with control. Be particularly careful when dropping your weight as improper landing can stress your own knee or hip joints. When practicing against resistance, both partners should have clear understanding of competition-legal versus training-only leg lock positions based on skill level and rule set. Partners should communicate about knee or ankle injuries before practicing. As with all leg lock training, start slowly with cooperative drilling before progressing to resistance, and always respect taps immediately and completely. The rotational forces during entry can create torque on your own spine, so maintain core engagement throughout the movement."
+    "safety_considerations": "The outside ashi entry involves rapid level changes and rotational movements that can stress the knee joints of both practitioners. When drilling, ensure your partner is aware you're practicing leg entanglements and that they understand tapping protocols for leg locks. During the entry, avoid jerking or yanking the opponent's leg violently - maintain constant connection but execute with control. Be particularly careful when dropping your weight as improper landing can stress your own knee or hip joints. When practicing against resistance, both partners should have clear understanding of competition-legal versus training-only leg lock positions based on skill level and rule set. Partners should communicate about knee or ankle injuries before practicing. As with all leg lock training, start slowly with cooperative drilling before progressing to resistance, and always respect taps immediately and completely. The rotational forces during entry can create torque on your own spine, so maintain core engagement throughout the movement.",
+    "clips": [
+      {
+        "id": "WvUalQ3yOpY",
+        "title": "Outside Ashi series entry",
+        "by": "10th Planet Torrance",
+        "vertical": false,
+        "channel": "10th Planet Jiu Jitsu: Torrance",
+        "duration": 73,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "vEQNbapQOLU",
+        "title": "Three unorthodox entries into Outside Ashi",
+        "by": "Huxley Skate Co.",
+        "vertical": false,
+        "channel": "Huxley Skate Co.",
+        "duration": 120,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "xvx03k3jiWo",
+        "title": "Outside Ashi entry demo",
+        "by": "Team Strela",
+        "vertical": false,
+        "channel": "DARKSIDE | Team Strela",
+        "duration": 26,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Outside Ashi Entry Defender",
@@ -440,6 +469,35 @@
         "phase": "Week 9-12: Live Positional Sparring Integration",
         "focus": "Defending entries in realistic standing exchanges",
         "description": "Begin standing positional rounds where partner freely attempts outside ashi entries mixed with traditional takedowns and guard pulls. Defend with appropriate responses at full speed. Develop the ability to defend ashi entries without overcommitting resources away from other standing threats. This phase develops the realistic timing, distance management, and threat assessment needed for competition application. 3-minute rounds with reset on successful entry or defense."
+      }
+    ],
+    "clips": [
+      {
+        "id": "L417yCl_-dc",
+        "title": "Leg defense from Ashi Garami",
+        "by": "The Coop BJJ",
+        "vertical": false,
+        "channel": "The Coop BJJ",
+        "duration": 48,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "cRXsNPAgVLU",
+        "title": "Irimi Ashi Garami counter",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 29,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "AQbJMBiWYfU",
+        "title": "Escaping Ashi Garami leg lock defense",
+        "by": "Scott Elliott",
+        "vertical": false,
+        "channel": "Coach Scott Elliott",
+        "duration": 141,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -295,7 +295,36 @@
         "answer": "If your choking leg successfully crosses the back of the opponent's neck and you can lock the ankle behind your knee at a high position, commit to the triangle and work the finish. If the leg lands but the lock is low on the back rather than behind the neck, consider transitioning to an armbar by pivoting your hips and extending the trapped arm. If the opponent's shoulder turns inward during the leg shoot, redirect to an omoplata rotation. The decision point is the quality of the triangle lock — a high, tight lock warrants finishing, while a compromised lock signals a transition opportunity."
       }
     ],
-    "safety_considerations": "The triangle from Diamond Guard involves neck compression through the choking leg configuration and shoulder stress on the trapped arm from the overhook. During training, execute the grip switch and leg shoot at controlled speeds to avoid accidentally striking your partner's face with your shin during the leg shoot. When the triangle is locked, apply pressure progressively and respond immediately to tap signals. The overhook can create shoulder torque on the trapped arm during the transition — be aware that aggressive overhook pulling combined with the leg shoot can stress the shoulder joint beyond comfortable levels. Partners should communicate if shoulder discomfort occurs during the overhook phase before the triangle is attempted."
+    "safety_considerations": "The triangle from Diamond Guard involves neck compression through the choking leg configuration and shoulder stress on the trapped arm from the overhook. During training, execute the grip switch and leg shoot at controlled speeds to avoid accidentally striking your partner's face with your shin during the leg shoot. When the triangle is locked, apply pressure progressively and respond immediately to tap signals. The overhook can create shoulder torque on the trapped arm during the transition — be aware that aggressive overhook pulling combined with the leg shoot can stress the shoulder joint beyond comfortable levels. Partners should communicate if shoulder discomfort occurs during the overhook phase before the triangle is attempted.",
+    "clips": [
+      {
+        "id": "VtSbv2sWvEw",
+        "title": "High guard attacks with no escape",
+        "by": "Avant-Garde BJJ",
+        "vertical": false,
+        "channel": "Avant-Garde BJJ",
+        "duration": 83,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "4yoxzSAXe3A",
+        "title": "High guard attack entry",
+        "by": "Animal",
+        "vertical": false,
+        "channel": "Animal",
+        "duration": 51,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "oqR6MLjUrd4",
+        "title": "Diamond guard setup and two attacks",
+        "by": "Caron Jiu Jitsu",
+        "vertical": false,
+        "channel": "Caron Jiu Jitsu",
+        "duration": 252,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Triangle from Diamond Guard Defender",
@@ -419,6 +448,35 @@
         "phase": "Phase 4: Live Diamond Guard Defense",
         "focus": "Full-speed defense against all diamond guard attacks",
         "description": "Partner establishes diamond guard and attacks freely with triangle, omoplata, and kimura threats. Practice defending all attacks while working to escape the diamond entirely. Develop ability to prioritize threats, recognize attack initiations, and select appropriate defensive responses in real time."
+      }
+    ],
+    "clips": [
+      {
+        "id": "TuAZXBEx5A4",
+        "title": "Defending and escaping diamond guard",
+        "by": "Grappling Game Changer",
+        "vertical": false,
+        "channel": "GRAPPLING GAME CHANGER",
+        "duration": 73,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "sR2rS2dwpNY",
+        "title": "How to escape a triangle choke",
+        "by": "Rener and Ryron Gracie",
+        "vertical": false,
+        "channel": "Hayabusa",
+        "duration": 117,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "DLmrzSs1hWI",
+        "title": "Triangle defense and escape",
+        "by": "Daniel Frank",
+        "vertical": false,
+        "channel": "Daniel Frank",
+        "duration": 24,
+        "verified": "2026-07-15"
       }
     ]
   }

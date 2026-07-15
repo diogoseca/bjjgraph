@@ -234,7 +234,36 @@
         "answer": "Stop fighting to force both arms in against the established frame and instead commit to the single underhook you already secured, transitioning to a leg-weave or over-under control on the framing side. Chasing both legs against a knee shield only creates space and stalls; redirecting to a one-side pressure control keeps your advantage and avoids resetting to neutral."
       }
     ],
-    "safety_considerations": "This entry stacks the opponent's weight onto their head, neck, and upper back, so apply elevation and pressure progressively rather than slamming the hips overhead - sudden or forced stacking can compress the cervical spine. The defender should always have room to roll or tap, and partners must communicate during heavy stacking drills. The passer's committed arms also create scramble and rolling situations, so train on adequate mat space and control the speed of any bridge or roll to protect both practitioners' necks and shoulders."
+    "safety_considerations": "This entry stacks the opponent's weight onto their head, neck, and upper back, so apply elevation and pressure progressively rather than slamming the hips overhead - sudden or forced stacking can compress the cervical spine. The defender should always have room to roll or tap, and partners must communicate during heavy stacking drills. The passer's committed arms also create scramble and rolling situations, so train on adequate mat space and control the speed of any bridge or roll to protect both practitioners' necks and shoulders.",
+    "clips": [
+      {
+        "id": "N4PxPPv98k4",
+        "title": "Double unders pass breakdown",
+        "by": "Nicky Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 91,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "0qu9a0a3ozQ",
+        "title": "Double under pass",
+        "by": "Elite MMA",
+        "vertical": false,
+        "channel": "Elite MMA",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "wBZrTpuXV50",
+        "title": "No-gi double under guard pass",
+        "by": "Garden State BJJ",
+        "vertical": false,
+        "channel": "Garden State Brazilian Jiu-Jitsu Academy",
+        "duration": 63,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Open Guard to Double Unders Defender",
@@ -332,6 +361,35 @@
         "phase": "Month 2+: Live Stack Defense and Reversals",
         "focus": "Escaping and reversing under full resistance",
         "description": "Start with the passer committing the Double Unders entry at full resistance. Work to deny, dive to deep half, or bridge-and-roll into their committed arms before the control locks. Reset when you escape, reverse, or are fully stacked and controlled. 4-5 minute rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "4k-D0Q8DeGQ",
+        "title": "Simple double under guard pass defense",
+        "by": "Ancient City Martial Arts",
+        "vertical": false,
+        "channel": "Ancient City Martial Arts and The Training Loft",
+        "duration": 56,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "1UOj60dc540",
+        "title": "Double under stack pass counter to triangle",
+        "by": "Adam Bradley",
+        "vertical": false,
+        "channel": "Adam Bradley",
+        "duration": 69,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Ad0qtay9IVQ",
+        "title": "Double under stack defense and counter",
+        "by": "Wim Deputter",
+        "vertical": false,
+        "channel": "Wim Deputter BJJ",
+        "duration": 130,
+        "verified": "2026-07-15"
       }
     ]
   },

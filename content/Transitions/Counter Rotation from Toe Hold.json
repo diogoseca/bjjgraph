@@ -291,7 +291,18 @@
         "answer": "Use your near-side hand to strip the blocking grip from your knee before recommitting to the rotation. If grip stripping fails on the first attempt, redirect your rotational vector by bridging over your opposite shoulder instead of rotating flat along the mat surface. The hip block only works against one rotational plane, so changing the elevation and angle of your rotation bypasses the block through a different movement pathway."
       }
     ],
-    "safety_considerations": "Counter Rotation from Toe Hold involves dynamic movement through an active joint lock scenario, creating significant injury potential if executed with poor timing or incorrect direction. Always rotate in the same direction as the pressure - opposite rotation can cause immediate ankle ligament damage. Never attempt this technique when the toe hold is fully locked at maximum torque; tap instead. During training, partners should apply toe hold pressure gradually and communicate clearly about pressure levels. Both practitioners must prioritize joint safety over positional outcomes, maintaining a tap-early culture when practicing this technique."
+    "safety_considerations": "Counter Rotation from Toe Hold involves dynamic movement through an active joint lock scenario, creating significant injury potential if executed with poor timing or incorrect direction. Always rotate in the same direction as the pressure - opposite rotation can cause immediate ankle ligament damage. Never attempt this technique when the toe hold is fully locked at maximum torque; tap instead. During training, partners should apply toe hold pressure gradually and communicate clearly about pressure levels. Both practitioners must prioritize joint safety over positional outcomes, maintaining a tap-early culture when practicing this technique.",
+    "clips": [
+      {
+        "id": "3a9k8-ZcYrk",
+        "title": "Escaping the toe hold by rotating out",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "The King Life",
+        "duration": 106,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Counter Rotation from Toe Hold Defender",
@@ -400,6 +411,17 @@
         "phase": "Phase 3: Live Defensive Sparring",
         "focus": "Defending counter rotation under realistic conditions",
         "description": "Positional sparring starting from toe hold control top with partner at 80% resistance. Partner uses all available defensive options including counter rotation, boot defense, and grip fighting. Focus on maintaining some form of advantageous entanglement regardless of which escape the partner attempts, transitioning fluidly between toe hold, saddle, and ashi variations."
+      }
+    ],
+    "clips": [
+      {
+        "id": "3a9k8-ZcYrk",
+        "title": "Escaping the toe hold",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "The King Life",
+        "duration": 106,
+        "verified": "2026-07-15"
       }
     ]
   }

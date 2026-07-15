@@ -313,6 +313,35 @@
         "question": "How do you manage energy expenditure while maintaining Darce control for extended periods?",
         "answer": "Energy management requires using body weight and positioning rather than muscular squeezing. Establish your shoulder and chest pressure through structural alignment, keeping your core engaged but arms relatively relaxed in the grip. Breathe steadily through your nose. Make micro-adjustments rather than constant movement. When opponent stops escaping, reduce active squeezing while maintaining positional pressure - only increase grip tension when they attempt movement or when finishing the submission."
       }
+    ],
+    "clips": [
+      {
+        "id": "pnLk6jW0qeI",
+        "title": "3 darce choke finishes",
+        "by": "Bowerhouse MMA",
+        "vertical": false,
+        "channel": "BOWERHOUSE MMA",
+        "duration": 15,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "BMU1_wfjYTw",
+        "title": "Darce choke from the front headlock",
+        "by": "Procel BJJ",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 101,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "8Idnp8DpSHU",
+        "title": "Finishing the darce on big guys",
+        "by": "Rener & Ryron Gracie",
+        "vertical": false,
+        "channel": "Hayabusa",
+        "duration": 151,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -603,6 +632,35 @@
         "question": "How do you recognize early that a Darce attempt is coming and what preventive action should you take?",
         "answer": "Early recognition signs include opponent threading their arm under your armpit while controlling your head, reaching across the back of your neck toward your far shoulder, and walking their hips to your side from front headlock or turtle positions. Preventive action requires immediately tucking your chin, bringing your elbows tight to your body to prevent the arm from threading through, and either standing up explosively or sitting back to guard before the grip is locked. Once the figure-four grip is secured, escape becomes significantly harder."
       }
+    ],
+    "clips": [
+      {
+        "id": "d1YBV8UTKds",
+        "title": "Darce choke defense",
+        "by": "Animal",
+        "vertical": false,
+        "channel": "Animal",
+        "duration": 53,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "iNZpCbutyrM",
+        "title": "Darce escape",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 54,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "rgf9QUebMWE",
+        "title": "Darce killer: the defense you need",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 78,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -637,6 +695,35 @@
     {
       "question": "What makes Darce Control function as a dilemma-based hub rather than a single-outcome position?",
       "answer": "Every defensive reaction available to the compressed player tends to open a different attacking line for the controlling player, creating layered dilemmas. Relieving neck pressure usually exposes the back or invites a positional advance to mount or north-south, while attempts to improve position or stand typically tighten the figure-four and feed the choke. Because the same control structure threatens a strangle and simultaneously governs the opponent's posture and rotation, it links directly to back takes, the anaconda switch, and positional passes. This branching of forced choices, rather than one path to a finish, is what makes the configuration a hub position for both players' decision-making."
+    }
+  ],
+  "clips": [
+    {
+      "id": "jeHPHHtBbAo",
+      "title": "Darce choke details",
+      "by": "Chad Lyman",
+      "vertical": false,
+      "channel": "Code 4 Concepts Chad Lyman",
+      "duration": 53,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "22EYQ2uhxQw",
+      "title": "Side control to north-south darce",
+      "by": "Gracie Westchase",
+      "vertical": false,
+      "channel": "Gracie Westchase ",
+      "duration": 75,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "Pc2yhqtRxJA",
+      "title": "How to do a darce from front headlock",
+      "by": "LI MMA",
+      "vertical": false,
+      "channel": "LI MMA",
+      "duration": 150,
+      "verified": "2026-07-14"
     }
   ]
 }

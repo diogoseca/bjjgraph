@@ -294,7 +294,27 @@
         "answer": "Forward hip pressure is the primary mechanism preventing the triangle finish during every phase of the escape. When you drive your hips forward and stack the opponent, you compress the distance between their hips and shoulders, limiting their ability to extend and squeeze—which is the primary finishing mechanic of the triangle choke. Without hip extension, the opponent cannot generate the bilateral carotid compression needed for the choke regardless of how tightly their legs are locked. If you lose hip drive at any phase, the opponent regains the ability to extend their legs, pull your head down, and re-establish the finishing angle. Constant forward hip pressure must be maintained from initial posture establishment through final head extraction."
       }
     ],
-    "safety_considerations": "Triangle escape carries moderate injury risk to the neck and shoulders. The cervical spine is under compression from the opponent's legs and can be strained if explosive posturing is attempted against a fully locked triangle. If the choke is deep and posture cannot be established within the first five seconds, tap early rather than risking loss of consciousness during a prolonged escape attempt. The trapped shoulder is vulnerable to rotator cuff strain when the arm is forcefully extracted—use incremental movement rather than explosive pulling. Communicate with training partners about the tightness of their triangle squeeze, particularly when drilling, to prevent inadvertent loss of consciousness during repetition work."
+    "safety_considerations": "Triangle escape carries moderate injury risk to the neck and shoulders. The cervical spine is under compression from the opponent's legs and can be strained if explosive posturing is attempted against a fully locked triangle. If the choke is deep and posture cannot be established within the first five seconds, tap early rather than risking loss of consciousness during a prolonged escape attempt. The trapped shoulder is vulnerable to rotator cuff strain when the arm is forcefully extracted—use incremental movement rather than explosive pulling. Communicate with training partners about the tightness of their triangle squeeze, particularly when drilling, to prevent inadvertent loss of consciousness during repetition work.",
+    "clips": [
+      {
+        "id": "HLWwfq8FNMI",
+        "title": "Triangle escape: hips down, posture up",
+        "by": "Mat Life Training Center",
+        "vertical": false,
+        "channel": "Mat Life Training Center",
+        "duration": 19,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "sR2rS2dwpNY",
+        "title": "How to escape a triangle choke",
+        "by": "Rener and Ryron Gracie",
+        "vertical": false,
+        "channel": "Hayabusa",
+        "duration": 117,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Guard Recovery from Triangle Control Defender",
@@ -405,6 +425,17 @@
         "phase": "Phase 3: Live Triangle Defense Against Escape",
         "focus": "Full resistance triangle maintenance and transition chains against active escape attempts",
         "description": "Partner works triangle escape at 80% resistance while you practice maintaining the submission or transitioning to alternative attacks. Track whether you finish the triangle, transition to armbar or omoplata, or the escape succeeds across multiple rounds to identify your weakest phase."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Z-CsRn4K0vg",
+        "title": "Escaping triangles against big opponents",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 48,
+        "verified": "2026-07-15"
       }
     ]
   }

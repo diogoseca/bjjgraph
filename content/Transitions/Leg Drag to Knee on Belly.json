@@ -266,7 +266,27 @@
         "answer": "Drive your transitioning knee across their thigh to pin it down before it reaches their chest, using your shin as a barrier. Simultaneously, use your grip hand to push their recovering knee away while continuing to establish knee on belly. If they succeed in getting their knee high, transition to leg weave or smash pass rather than forcing knee on belly."
       }
     ],
-    "safety_considerations": "This transition involves driving significant bodyweight through your knee into the opponent's midsection. During training, always apply pressure gradually rather than dropping your full weight explosively, especially with smaller or newer training partners. Be attentive to tap signals that may indicate rib discomfort rather than submission. Partners with rib injuries, recent abdominal surgery, or breathing conditions should communicate these issues before drilling. When first learning, practice the movement pattern without pressure to develop proper mechanics before adding intensity."
+    "safety_considerations": "This transition involves driving significant bodyweight through your knee into the opponent's midsection. During training, always apply pressure gradually rather than dropping your full weight explosively, especially with smaller or newer training partners. Be attentive to tap signals that may indicate rib discomfort rather than submission. Partners with rib injuries, recent abdominal surgery, or breathing conditions should communicate these issues before drilling. When first learning, practice the movement pattern without pressure to develop proper mechanics before adding intensity.",
+    "clips": [
+      {
+        "id": "dFTRdgvZoPU",
+        "title": "Leg drag entry from 50/50",
+        "by": "Muny Munoz",
+        "vertical": false,
+        "channel": "Muny Munoz",
+        "duration": 17,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "s05PfUYVW48",
+        "title": "Torreando pass arriving in knee on belly",
+        "by": "Hellfish MMA coach",
+        "vertical": false,
+        "channel": "Hellfish Mixed Martial Arts",
+        "duration": 121,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Leg Drag to Knee on Belly Defender",
@@ -397,6 +417,35 @@
         "phase": "Week 7+",
         "focus": "Live situational sparring",
         "description": "Positional sparring starting from leg drag control. Partner attempts full-speed transition to knee on belly while you defend. Score based on preventing knee on belly establishment or recovering to half guard within 5 seconds. Alternate with full rolling to develop recognition during live exchanges."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Wn01Ynw7O28",
+        "title": "How to escape the knee on belly position",
+        "by": "Evolve MMA coach",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 40,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "52LxBaUJdcw",
+        "title": "Knee on belly escape to technical stand up",
+        "by": "Lucas Lepri",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 131,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "XgcesjuXZq4",
+        "title": "Escaping knee on belly early, no-gi",
+        "by": "Ryan Robinson",
+        "vertical": false,
+        "channel": "Ryan Robinson BJJ",
+        "duration": 169,
+        "verified": "2026-07-15"
       }
     ]
   },

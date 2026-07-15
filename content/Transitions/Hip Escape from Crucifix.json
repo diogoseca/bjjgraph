@@ -296,7 +296,27 @@
         "answer": "Three conditions must hold: your hips retain lateral mobility and are not fully flattened under the opponent's chest pressure, your free arm can frame against their hip or leg rather than being pinned, and no active choke is locked—a live choke must be defended first. If the opponent has consolidated maximum chest-to-back pressure and crossed-arm control, prioritize survival and choke defense until a transition reopens the hip-mobility window needed to shrimp."
       }
     ],
-    "safety_considerations": "The hip escape from crucifix is a defensive technique with low injury risk when performed correctly. However, the trapped arm may experience shoulder strain if pulled explosively against the leg trap—always lead with hip movement rather than forcing the arm. Neck vulnerability increases during the escape as body positioning changes, so maintain neck defense throughout. In training, top players should allow escape attempts at reduced resistance initially and never apply submissions at full speed against escaping partners. Tap immediately if any choke tightens during the escape attempt rather than continuing to fight the position."
+    "safety_considerations": "The hip escape from crucifix is a defensive technique with low injury risk when performed correctly. However, the trapped arm may experience shoulder strain if pulled explosively against the leg trap—always lead with hip movement rather than forcing the arm. Neck vulnerability increases during the escape as body positioning changes, so maintain neck defense throughout. In training, top players should allow escape attempts at reduced resistance initially and never apply submissions at full speed against escaping partners. Tap immediately if any choke tightens during the escape attempt rather than continuing to fight the position.",
+    "clips": [
+      {
+        "id": "Wrg5Tx-88yM",
+        "title": "Simple crucifix escape breakdown",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 149,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "41koUZWmeHE",
+        "title": "Escaping the crucifix step by step",
+        "by": "Shem Rock",
+        "vertical": false,
+        "channel": "Shem Rock ",
+        "duration": 146,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Hip Escape from Crucifix Defender",
@@ -418,6 +438,17 @@
         "phase": "Phase 4: Transition Decisions",
         "focus": "Choosing between maintaining crucifix and transitioning to back control",
         "description": "Full-speed positional sparring from crucifix with focus on recognizing when to fight for the crucifix versus when to proactively transition to back control. Develop the judgment to make this decision before the position deteriorates beyond recovery point."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Wt2NW_hfTd0",
+        "title": "Bulldog choke to punish the crucifix escape",
+        "by": "Mick Hall",
+        "vertical": false,
+        "channel": "Mick Hall",
+        "duration": 228,
+        "verified": "2026-07-15"
       }
     ]
   }

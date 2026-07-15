@@ -416,6 +416,35 @@
         "focus": "Full defensive sequence against progressive resistance",
         "description": "Positional sparring starting from anaconda control. Partner attempts either choke finish or back take based on defensive reactions. Defender must read the situation and apply appropriate defense in real-time. Score system: defender earns points for preventing back control and recovering to guard. Five-minute rounds at 75-100% intensity."
       }
+    ],
+    "clips": [
+      {
+        "id": "czQckiDogRc",
+        "title": "How to escape the anaconda choke (no-gi)",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 92,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "SXm9wA1HcvM",
+        "title": "Anaconda choke defense",
+        "by": "SFS MMA",
+        "vertical": false,
+        "channel": "Fierce Pierce15",
+        "duration": 64,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "s94GexEkoQ0",
+        "title": "Anaconda defense plus counter",
+        "by": "Cyril Robert",
+        "vertical": false,
+        "channel": "Cyril Robert MMA",
+        "duration": 43,
+        "verified": "2026-07-15"
+      }
     ]
   }
 }

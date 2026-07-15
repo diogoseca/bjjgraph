@@ -354,6 +354,26 @@
         "question": "How does finishing the RNC from Rodeo Ride differ strategically from finishing from established back control with hooks?",
         "answer": "From Rodeo Ride, you lack the hip control that hooks provide, making the position inherently less stable during the finishing sequence. This means you must finish faster and with greater urgency since the opponent has more escape options available. However, Rodeo Ride offers the advantage of surprise—opponents in turtle typically expect back take attempts rather than direct choke attacks, creating a timing advantage. The strategic trade-off is speed versus stability: from Rodeo Ride you attack sooner but with less positional security, while from full back control you have more time but face a fully prepared defensive structure."
       }
+    ],
+    "clips": [
+      {
+        "id": "8tdVE2zgjXw",
+        "title": "Details on finishing the rear naked choke",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "Wrecking Crew BJJ",
+        "duration": 57,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "6MhcPYISQDU",
+        "title": "Rodeo choke from the back",
+        "by": "Ethos Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Ethos Jiu-Jitsu Fullerton",
+        "duration": 85,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -484,6 +504,26 @@
         "phase": "Phase 4: Competition Pressure Simulation",
         "focus": "Defending under fatigue and match conditions",
         "description": "Simulate competition scenarios where you arrive at Rodeo Ride bottom after extended sparring, replicating the fatigue and decision-making pressure of real matches. Practice making correct defensive choices when tired and under psychological pressure. Develop the composure to follow the defensive hierarchy even when exhausted."
+      }
+    ],
+    "clips": [
+      {
+        "id": "pKMYriPSD9o",
+        "title": "Crocodile roll escape from rear naked choke",
+        "by": "Martin Valenzuela",
+        "vertical": false,
+        "channel": "Martin Valenzuela C.",
+        "duration": 28,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_X1ZpmEswzI",
+        "title": "Escaping back mount seatbelt control",
+        "by": "Julie Bond",
+        "vertical": false,
+        "channel": "Julie Bond",
+        "duration": 18,
+        "verified": "2026-07-15"
       }
     ]
   }

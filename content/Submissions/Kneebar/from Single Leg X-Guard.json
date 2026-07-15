@@ -387,6 +387,26 @@
         "answer": "Position quality is insufficient when any of these indicators are present: your hips are not fully perpendicular to their leg creating an acute rather than right angle, space exists between their heel and your chest allowing potential extraction, your figure-four leg triangle is loose or the opponent's thigh is not fully trapped, the opponent has defensive grips on their own leg that you cannot break, or the opponent has successfully stepped their free leg over your head establishing a defensive hook. When these conditions exist, forcing the finish risks both escape and potential injury from a compromised angle. Transition to guard passing or alternative leg entanglements rather than committing to a low-percentage finish.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "fZRfKh1B53o",
+        "title": "Single Leg X to Kneebar",
+        "by": "Fernaldi Jonatan",
+        "vertical": false,
+        "channel": "Fernaldi Jonatan",
+        "duration": 76,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "V7ND4cpJ2_c",
+        "title": "Reverse X to Kneebar",
+        "by": "Combat by the Minute",
+        "vertical": false,
+        "channel": "Combat by the Minute",
+        "duration": 117,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -517,6 +537,17 @@
         "phase": "Phase 4: Live Defensive Sparring from SLX",
         "focus": "Integrating kneebar defense into live SLX guard exchanges",
         "description": "Positional sparring rounds where you play SLX Bottom while your partner has the kneebar counter-attack as their primary option alongside guard passing. Integrate recognition, early hook retraction, grip fighting, and escape sequences into live rolling at progressive intensity. Track which defensive responses work at each stage and develop your personal defensive hierarchy based on your timing and flexibility."
+      }
+    ],
+    "clips": [
+      {
+        "id": "m0NLphEuFoc",
+        "title": "Leg Lock Defense (No-Gi)",
+        "by": "Kuwy Jitsu",
+        "vertical": false,
+        "channel": "Kuwy Jitsu",
+        "duration": 61,
+        "verified": "2026-07-14"
       }
     ]
   }

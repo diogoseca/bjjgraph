@@ -280,7 +280,18 @@
         "answer": "The most critical detail is initiating the extension from the hip joint rather than the knee. Engaging the glutes and driving the hip forward creates a straight-line force through the entire leg that the lockdown cannot easily resist. Many practitioners make the error of trying to kick their foot out or extend only at the knee, which allows the lockdown's ankle hooks to maintain control. Hip-driven extension changes the force vector to work against the lockdown's structural weakness along its longitudinal axis."
       }
     ],
-    "safety_considerations": "The Straighten Leg Defense from Electric Chair involves significant forces on the knee, hip, and groin of the top player's trapped leg. Never attempt explosive straightening against a fully locked-out Electric Chair, as this can strain the adductor muscles or stress the medial collateral ligament of the knee. During training, both partners should communicate clearly about pressure levels—the bottom player should release immediately if the top player taps or signals discomfort. Practitioners with pre-existing knee, hip, or groin injuries should approach this technique cautiously and consider alternative escapes that place less stress on the involved joints. Always warm up hip flexors and adductors thoroughly before drilling this technique."
+    "safety_considerations": "The Straighten Leg Defense from Electric Chair involves significant forces on the knee, hip, and groin of the top player's trapped leg. Never attempt explosive straightening against a fully locked-out Electric Chair, as this can strain the adductor muscles or stress the medial collateral ligament of the knee. During training, both partners should communicate clearly about pressure levels—the bottom player should release immediately if the top player taps or signals discomfort. Practitioners with pre-existing knee, hip, or groin injuries should approach this technique cautiously and consider alternative escapes that place less stress on the involved joints. Always warm up hip flexors and adductors thoroughly before drilling this technique.",
+    "clips": [
+      {
+        "id": "3A6oRsDf3oU",
+        "title": "Electric chair counters and escapes",
+        "by": "Coach Dennis",
+        "vertical": false,
+        "channel": "Street Jitsu",
+        "duration": 286,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Straighten Leg Defense from Electric Chair Defender",
@@ -389,6 +400,26 @@
         "phase": "Phase 4: Full Positional Sparring",
         "focus": "Complete Electric Chair attack versus straighten defense exchanges",
         "description": "Start in Electric Chair bottom with all grips established. Attack with the full Electric Chair system while top player defends with straighten defense and chains to passing. Practice complete attack-defense-transition sequences with full resistance. Track success rates to identify timing adjustments."
+      }
+    ],
+    "clips": [
+      {
+        "id": "sMbaY4vG2mM",
+        "title": "Electric chair from lockdown half guard",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 42,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "9CxxyZEd7-E",
+        "title": "Electric chair sweep breakdown",
+        "by": "Asaf Mich",
+        "vertical": false,
+        "channel": "Asaf Mich",
+        "duration": 76,
+        "verified": "2026-07-15"
       }
     ]
   }

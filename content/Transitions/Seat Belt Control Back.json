@@ -274,7 +274,36 @@
         "answer": "If the hip slide is blocked, use your seat belt control to attack directly from the mounted position. The over-arm is already positioned for a short choke or can thread deeper for a rear naked choke attempt from a modified mount angle. You can also use the grip to pull opponent onto their side, exposing their back further and creating a new angle for the hip slide. Alternatively, return to mounted crucifix submissions since you still maintain dominant control."
       }
     ],
-    "safety_considerations": "This transition involves significant upper body control and pressure during the grip establishment phase. When training, be mindful of your partner's neck and shoulder position during the seat belt lock - avoid cranking or twisting motions that could strain cervical structures. Release pressure immediately if partner taps or shows discomfort during the transition phase. The mounted crucifix starting position already places significant stress on the trapped shoulder; adding aggressive seat belt grip work compounds this stress. Progress gradually through resistance levels to allow both partners to develop appropriate defensive sensitivity."
+    "safety_considerations": "This transition involves significant upper body control and pressure during the grip establishment phase. When training, be mindful of your partner's neck and shoulder position during the seat belt lock - avoid cranking or twisting motions that could strain cervical structures. Release pressure immediately if partner taps or shows discomfort during the transition phase. The mounted crucifix starting position already places significant stress on the trapped shoulder; adding aggressive seat belt grip work compounds this stress. Progress gradually through resistance levels to allow both partners to develop appropriate defensive sensitivity.",
+    "clips": [
+      {
+        "id": "y_GjhMb6Qf8",
+        "title": "Holding the seatbelt position",
+        "by": "Kyuzo Brazilian Jiu Jitsu",
+        "vertical": false,
+        "channel": "Kyuzo Brazilian Jiu Jitsu",
+        "duration": 26,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "a_4vNWWM7gU",
+        "title": "Reverse seat belt mount trap back take",
+        "by": "David Avellan",
+        "vertical": false,
+        "channel": "David Avellan",
+        "duration": 92,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "pV10eiTh1qQ",
+        "title": "Guard pass to seat belt to the back",
+        "by": "Anker Fugslang",
+        "vertical": false,
+        "channel": "Arte Suave - BJJ Brisbane",
+        "duration": 136,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Seat Belt Control Back Defender",
@@ -398,6 +427,26 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Begin from mounted crucifix with partner at full resistance attempting the back take. Evaluate which defensive options work under pressure, identify your most reliable defensive response, and develop contingency plans when primary defense fails. Track escape success rate over multiple rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "djhMEfVZozo",
+        "title": "Back escape against the seatbelt grip",
+        "by": "Skyhook Martial Arts",
+        "vertical": false,
+        "channel": "Skyhook Martial Arts & Fitness",
+        "duration": 36,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MwxnveKrlxU",
+        "title": "Quick fix for the seatbelt grip",
+        "by": "Ben Kool",
+        "vertical": false,
+        "channel": "Ben Kool Tech",
+        "duration": 62,
+        "verified": "2026-07-15"
       }
     ]
   },

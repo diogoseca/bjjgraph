@@ -264,7 +264,27 @@
         "answer": "If the front headlock establishment fails, immediately reassess based on the opponent's posture. If they retract to tight turtle with chin tucked, re-engage with a fresh buggy choke threading attempt or transition to seatbelt control for a back take. If they post an arm, attack the crucifix. The chain never resets to neutral; every defensive posture reveals a new entry point in the turtle attack system."
       }
     ],
-    "safety_considerations": "This transition involves neck manipulation and head control throughout. Practice the grip transfers slowly before adding speed to avoid straining partner's neck during the circling movement. The front headlock position that results can lead to guillotine, darce, and anaconda attacks - all of which are blood chokes requiring immediate tap recognition. Partners should establish clear tap protocols before drilling. Avoid explosive jerking motions when extracting the threading arm, as this can cause shoulder strain. If either partner experiences neck discomfort during the circling phase, stop and reset the position. The transition does not involve joint locks but the subsequent attacks do - maintain awareness of partner comfort throughout positional drilling."
+    "safety_considerations": "This transition involves neck manipulation and head control throughout. Practice the grip transfers slowly before adding speed to avoid straining partner's neck during the circling movement. The front headlock position that results can lead to guillotine, darce, and anaconda attacks - all of which are blood chokes requiring immediate tap recognition. Partners should establish clear tap protocols before drilling. Avoid explosive jerking motions when extracting the threading arm, as this can cause shoulder strain. If either partner experiences neck discomfort during the circling phase, stop and reset the position. The transition does not involve joint locks but the subsequent attacks do - maintain awareness of partner comfort throughout positional drilling.",
+    "clips": [
+      {
+        "id": "ZBOagHWTCFw",
+        "title": "Buggy choke from half guard",
+        "by": "Moncaio Brothers",
+        "vertical": false,
+        "channel": "Moncaio Brothers Jiujitsu",
+        "duration": 33,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Jw8PSPrR8-E",
+        "title": "BJJ Buggy Choke demonstration",
+        "by": "Judoka",
+        "vertical": false,
+        "channel": "Judoka",
+        "duration": 41,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Buggy Choke to Front Headlock Defender",
@@ -393,6 +413,35 @@
         "phase": "Week 7+",
         "focus": "Full resistance positional sparring",
         "description": "Begin from buggy choke control with full resistance from both players. Attacker works to finish the choke or transition to front headlock; defender works to escape to guard, stand, or neutralize the attack. Score successful escapes, transitions, and submissions. Reset after position resolution."
+      }
+    ],
+    "clips": [
+      {
+        "id": "lV4cgzaVhb8",
+        "title": "Front Headlock Defense - Farside Peek Out",
+        "by": "Procel BJJ",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 64,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "c8N4F3EgOZk",
+        "title": "Sucker Drag Defense Against The Front Headlock",
+        "by": "Procel BJJ",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 71,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ynXB4QKxzOs",
+        "title": "Front head and arm escape - duck under to turtle",
+        "by": "United Fighter",
+        "vertical": false,
+        "channel": "UNITED FIGHTER",
+        "duration": 58,
+        "verified": "2026-07-15"
       }
     ]
   },

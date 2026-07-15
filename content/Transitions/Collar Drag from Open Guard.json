@@ -290,7 +290,27 @@
         "answer": "The non-gripping hand performs three distinct functions across the drag sequence. First, it posts behind your hip to power the explosive sit-up, providing the structural base your body rises from. Second, after the sit-up, it releases the post and begins reaching toward the opponent's far shoulder or over their back as you circle. Third, it secures the front headlock by wrapping over the opponent's near shoulder to establish the chest-to-back connection. The transition between these three functions must be fluid and continuous."
       }
     ],
-    "safety_considerations": "The collar drag is a relatively low-risk technique for both practitioners. Primary safety concern is the transition to front headlock, where excessive rotational force on the neck can cause strain. During training, use controlled pulling force and avoid explosive head-snapping motions. Partners should communicate clearly about neck discomfort during front headlock entries. When drilling, allow the training partner to absorb the drag gradually rather than crashing them into the mat, particularly when working with less experienced practitioners who may not know how to fall safely from the bent-over position."
+    "safety_considerations": "The collar drag is a relatively low-risk technique for both practitioners. Primary safety concern is the transition to front headlock, where excessive rotational force on the neck can cause strain. During training, use controlled pulling force and avoid explosive head-snapping motions. Partners should communicate clearly about neck discomfort during front headlock entries. When drilling, allow the training partner to absorb the drag gradually rather than crashing them into the mat, particularly when working with less experienced practitioners who may not know how to fall safely from the bent-over position.",
+    "clips": [
+      {
+        "id": "kl7ZQxvcY-0",
+        "title": "Collar drag to back triangle",
+        "by": "Dojo Outfitters",
+        "vertical": false,
+        "channel": "Dojo Outfitters",
+        "duration": 51,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ch4tXv7Y4Jw",
+        "title": "Collar drag takedown breakdown",
+        "by": "Bianca Basilio",
+        "vertical": false,
+        "channel": "Riccardo Ammendolia",
+        "duration": 60,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Collar Drag from Open Guard Defender",
@@ -414,6 +434,26 @@
         "phase": "Phase 4: Counter-Attacking",
         "focus": "Converting failed collar drag defense into passing advancement",
         "description": "Partner attempts collar drags while defender practices timing the forward drive counter, using the opponent's sit-up and guard structure compromise to advance past their legs. Focus on reading the moment of maximum vulnerability and exploiting it to achieve half guard or side control."
+      }
+    ],
+    "clips": [
+      {
+        "id": "bmCjXADzgo4",
+        "title": "Best way to defend the arm drag in jiu jitsu",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "wdvJF6S68TI",
+        "title": "Collar sleeve defense with overhead sweep counter",
+        "by": "Luciana Marcos",
+        "vertical": false,
+        "channel": "luciana MARCOS",
+        "duration": 68,
+        "verified": "2026-07-15"
       }
     ]
   }

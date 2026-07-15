@@ -278,7 +278,36 @@
         "answer": "The bottom leg provides critical transitional control by establishing quarter guard hook around opponent's trapped leg. This hook prevents them from backing out to reset the leg drag, maintains connection during the scramble, and provides a foundation for upgrading to full half guard control. A passive bottom leg allows opponent to disengage and restart their passing sequence from a better angle."
       }
     ],
-    "safety_considerations": "Half Guard Recovery is generally a safe technique with low injury risk when performed correctly. The primary safety concern is neck strain from attempting the recovery when opponent has established a strong crossface - always address the crossface with frames before explosive hip movement. Avoid explosive shrimping when your spine is twisted or compressed, as this can strain lower back muscles. When drilling, partners should release pressure if bottom player taps or verbally indicates discomfort. In competition or hard sparring, accept turtle position rather than fighting a losing recovery battle that could result in neck or back injury. Players with existing knee issues should be cautious about the twisting motion during knee shield insertion."
+    "safety_considerations": "Half Guard Recovery is generally a safe technique with low injury risk when performed correctly. The primary safety concern is neck strain from attempting the recovery when opponent has established a strong crossface - always address the crossface with frames before explosive hip movement. Avoid explosive shrimping when your spine is twisted or compressed, as this can strain lower back muscles. When drilling, partners should release pressure if bottom player taps or verbally indicates discomfort. In competition or hard sparring, accept turtle position rather than fighting a losing recovery battle that could result in neck or back injury. Players with existing knee issues should be cautious about the twisting motion during knee shield insertion.",
+    "clips": [
+      {
+        "id": "L8_9QIvzZtA",
+        "title": "Knee shield half guard recovery vs pressure pass",
+        "by": "Dirtball BJJ",
+        "vertical": false,
+        "channel": "Dirtball BJJ",
+        "duration": 39,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "5sdZak2bil4",
+        "title": "Half guard: reclaim closed guard",
+        "by": "Daniel Lima",
+        "vertical": false,
+        "channel": "Daniel Lima",
+        "duration": 26,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lVLAROiSjNU",
+        "title": "Guard retention: when to sit up escape",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 136,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Half Guard Recovery Defender",
@@ -396,6 +425,26 @@
         "phase": "Week 5+",
         "focus": "Capitalizing on recovery attempts",
         "description": "Full resistance positional sparring from leg drag. Focus on converting failed recovery attempts into positional advancement - follow their hip movement to side control, backstep to back control, or use their committed frames to advance your pass. The recovery attempt should become your passing trigger rather than a defensive problem."
+      }
+    ],
+    "clips": [
+      {
+        "id": "7jm4N-AODEc",
+        "title": "Guard retention against the wall",
+        "by": "Barrick BJJ",
+        "vertical": false,
+        "channel": "Barrick BJJ Techniques",
+        "duration": 57,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "0xhfjKDfwBY",
+        "title": "Arm drag back take vs guard recovery",
+        "by": "Alliance Jiu Jitsu SJC",
+        "vertical": false,
+        "channel": "Alliance Jiu Jitsu SJC - Irmãos Lisboa",
+        "duration": 104,
+        "verified": "2026-07-15"
       }
     ]
   },

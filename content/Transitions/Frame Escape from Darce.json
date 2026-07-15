@@ -286,7 +286,18 @@
         "answer": "Breathe slowly and deliberately through your nose in controlled cycles, exhaling during each phase of exertion such as the hip escape and arm extraction. Never hold your breath as this depletes oxygen faster and accelerates the panic response that degrades technique. During moments when the choke pressure lessens from your framing, take a full breath to restore oxygen before initiating the next escape phase. Calm breathing enables systematic execution rather than energy-wasting explosive movements."
       }
     ],
-    "safety_considerations": "The Frame Escape from Darce involves defending against an active blood choke that can cause unconsciousness within seconds if fully locked. Always tap immediately if you feel lightheaded, experience vision changes, or cannot maintain defensive composure. During training, communicate clearly with your partner about pressure levels and establish tap signals before drilling. Never attempt to power through a fully locked Darce choke to practice the escape—start from partially established positions and progressively increase resistance across training sessions. Partners applying the Darce must release immediately upon tap and monitor for signs of distress including facial color changes and loss of muscular tension."
+    "safety_considerations": "The Frame Escape from Darce involves defending against an active blood choke that can cause unconsciousness within seconds if fully locked. Always tap immediately if you feel lightheaded, experience vision changes, or cannot maintain defensive composure. During training, communicate clearly with your partner about pressure levels and establish tap signals before drilling. Never attempt to power through a fully locked Darce choke to practice the escape—start from partially established positions and progressively increase resistance across training sessions. Partners applying the Darce must release immediately upon tap and monitor for signs of distress including facial color changes and loss of muscular tension.",
+    "clips": [
+      {
+        "id": "9Sk00Dj1LCk",
+        "title": "D'arce choke escape",
+        "by": "Asaf Mich",
+        "vertical": false,
+        "channel": "Asaf Mich",
+        "duration": 61,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Frame Escape from Darce Defender",
@@ -407,6 +418,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Maintaining Darce control under full resistance escape pressure",
         "description": "Full resistance positional sparring starting from established Darce Control. Alternate between finishing the choke and countering escape attempts with appropriate responses. Develop real-time reading of opponent's escape intentions and automatic application of the correct counter-measure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "8Idnp8DpSHU",
+        "title": "Finishing the D'arce against bigger opponents",
+        "by": "Rener and Ryron Gracie",
+        "vertical": false,
+        "channel": "Hayabusa",
+        "duration": 151,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "1EU_QlWrFRA",
+        "title": "Preventing the bridge and roll out of the D'arce",
+        "by": "EffortlessJiuJitsu",
+        "vertical": false,
+        "channel": "EffortlessJiuJitsu",
+        "duration": 274,
+        "verified": "2026-07-15"
       }
     ]
   }

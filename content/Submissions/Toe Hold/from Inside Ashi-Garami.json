@@ -409,6 +409,26 @@
         "answer": "When the toe hold fails (usually because opponent creates distance or hides their foot), maintain your leg entanglement as the foundation for the next attack. If they pull their foot back, their heel becomes exposed for heel hook - transition by releasing the figure-four and securing their heel instead. If they straighten their leg to escape, this creates a direct kneebar opportunity - release the foot and control above their knee while extending their leg. If they roll away, follow their roll and transition to Outside Ashi-Garami for better angle. The key is never releasing your leg control during transition - your legs stay locked around their leg while only your hand grips change.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "h3f04mxXQ8M",
+        "title": "Heel Hook to Toe Hold from Guard",
+        "by": "Kinesiology College",
+        "vertical": false,
+        "channel": "Kinesiology College",
+        "duration": 43,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "zsnGef5-N2g",
+        "title": "Attacking the Toe Hold from Ashi Garami",
+        "by": "Brian Glick",
+        "vertical": false,
+        "channel": "Brian Glick",
+        "duration": 202,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -568,6 +588,26 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Defending the toe hold within full leg lock exchanges",
         "description": "Positional sparring starting from Inside Ashi-Garami with the attacker free to attempt any leg attack. Practice recognizing when the toe hold is coming within the broader attack sequence and deploying appropriate defense while managing the overall position. Full resistance with strict safety protocols maintained."
+      }
+    ],
+    "clips": [
+      {
+        "id": "3a9k8-ZcYrk",
+        "title": "How to Escape the Toe Hold",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "The King Life",
+        "duration": 106,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "QMgsMSTRSBI",
+        "title": "5 Leglock Counters to Ashi Garami",
+        "by": "BJJBlackBeltDad",
+        "vertical": false,
+        "channel": "BJJBlackBeltDad",
+        "duration": 93,
+        "verified": "2026-07-14"
       }
     ]
   }

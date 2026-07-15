@@ -285,7 +285,36 @@
         "answer": "The complete escape typically requires four to eight individual hip escapes, each creating two to three inches of space that compounds with the previous gain. This matters for training because practitioners must develop the mental discipline to commit to this methodical process rather than expecting a single explosive movement to solve the position. Training drills should emphasize full repetition counts rather than practicing individual hip escapes in isolation."
       }
     ],
-    "safety_considerations": "The elbow escape from flattened half guard is a low-risk positional recovery technique. However, practitioners should be aware that sustained chest compression can restrict breathing and elevate heart rate significantly. Partners drilling top pressure should communicate and immediately reduce pressure if the bottom player signals distress. Avoid using the elbow as a striking point against the opponent's body during wedge insertion, as this can cause rib injuries. During training, the top player should apply progressive resistance rather than full competition pressure when the bottom player is learning the technique to prevent unnecessary injury from panic responses under pressure."
+    "safety_considerations": "The elbow escape from flattened half guard is a low-risk positional recovery technique. However, practitioners should be aware that sustained chest compression can restrict breathing and elevate heart rate significantly. Partners drilling top pressure should communicate and immediately reduce pressure if the bottom player signals distress. Avoid using the elbow as a striking point against the opponent's body during wedge insertion, as this can cause rib injuries. During training, the top player should apply progressive resistance rather than full competition pressure when the bottom player is learning the technique to prevent unnecessary injury from panic responses under pressure.",
+    "clips": [
+      {
+        "id": "BhNZGloJ56c",
+        "title": "Guard recovery trick when you get smashed",
+        "by": "Finesse Jiujitsu",
+        "vertical": false,
+        "channel": "FINESSE JIUJITSU HTX",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "5sdZak2bil4",
+        "title": "Reclaiming closed guard from half guard",
+        "by": "Daniel Lima",
+        "vertical": false,
+        "channel": "Daniel Lima",
+        "duration": 26,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "NWie1oi3JSg",
+        "title": "Recovering when flattened in half guard",
+        "by": "Inverted Gear",
+        "vertical": false,
+        "channel": "Inverted Gear",
+        "duration": 274,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Elbow Escape from Flattened Half Defender",
@@ -406,6 +435,26 @@
         "phase": "Phase 4: Competition Intensity Drilling",
         "focus": "Full-speed defense and passing under realistic conditions",
         "description": "Begin in flattened half guard and engage in full-resistance positional sparring. Top player works to maintain the flattened position or complete the pass while bottom player attempts the elbow escape. Three-minute rounds with outcome tracking to develop competition-ready timing and pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "8WbQvytyCX0",
+        "title": "Passing the flattened half guard",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 63,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dOdO6xJ-TcU",
+        "title": "Shutting down the half guard underhook",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 98,
+        "verified": "2026-07-15"
       }
     ]
   }

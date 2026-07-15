@@ -282,7 +282,36 @@
         "answer": "First, the opponent must be shifting their weight backward or attempting to extract their far leg from your deep half control. Forward-driving opponents should be swept with deep half techniques, not transitioned against. Second, you must have sufficient hip mobility and space to rotate from the inverted deep half angle to the perpendicular X-Guard position. If you are completely flattened by crossface pressure without space to rotate, you need to create space first through framing and shrimping before attempting the transition."
       }
     ],
-    "safety_considerations": "This transition involves significant hip rotation and leg repositioning under an opponent's weight. Avoid forcing hooks when knee alignment is compromised, as lateral knee pressure during the X-Guard entry can stress the MCL and meniscus. Ensure proper warm-up of hips and knees before drilling. Tap immediately if your partner's weight shifts unexpectedly onto a compromised leg position. When drilling at speed, communicate with training partners about knee sensitivity. The inside hook threading carries particular risk if the opponent drives their knee laterally while your foot is partially inserted — release and reset rather than forcing through resistance."
+    "safety_considerations": "This transition involves significant hip rotation and leg repositioning under an opponent's weight. Avoid forcing hooks when knee alignment is compromised, as lateral knee pressure during the X-Guard entry can stress the MCL and meniscus. Ensure proper warm-up of hips and knees before drilling. Tap immediately if your partner's weight shifts unexpectedly onto a compromised leg position. When drilling at speed, communicate with training partners about knee sensitivity. The inside hook threading carries particular risk if the opponent drives their knee laterally while your foot is partially inserted — release and reset rather than forcing through resistance.",
+    "clips": [
+      {
+        "id": "vOYlq4yK8ns",
+        "title": "Waiter sweep to X-guard from deep half",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 16,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "WWclVTFqucc",
+        "title": "Deep half guard to X-guard transition",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 137,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "GOeuZa7Kc6U",
+        "title": "Deep half to single X entry",
+        "by": "Strong Hold Jiu Jitsu",
+        "vertical": false,
+        "channel": "Strong Hold Jiu Jitsu",
+        "duration": 122,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Deep Half to X-Guard Defender",
@@ -403,6 +432,26 @@
         "phase": "Phase 4: Counter-Attack Integration",
         "focus": "Transitioning from defense to immediate offense",
         "description": "After successfully defending the X-Guard transition, practice immediately transitioning to guard passing or leg entanglement entries without pause. Build the habit of capitalizing on the bottom player's failed transition rather than simply re-establishing deep half top and restarting the cycle."
+      }
+    ],
+    "clips": [
+      {
+        "id": "K0XMj9BNJ8U",
+        "title": "Knee slide pass counter before deep half develops",
+        "by": "Scott Ryan Chiriboga",
+        "vertical": false,
+        "channel": "Scott Ryan Chiriboga",
+        "duration": 133,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "WQu-G2JVj2A",
+        "title": "Defensive strategy to avoid the deep half guard",
+        "by": "DVG Jiu Jitsu",
+        "vertical": false,
+        "channel": "DVG JIU JITSU",
+        "duration": 275,
+        "verified": "2026-07-15"
       }
     ]
   }

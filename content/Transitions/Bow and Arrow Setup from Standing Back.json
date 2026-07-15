@@ -299,7 +299,36 @@
         "answer": "Choose the cross-collar grip when the far-side collar is accessible and the opponent's hands are committed high defending the rear naked choke, as this produces the deepest choking angle and highest finishing percentage. Choose the same-side collar grip when the opponent has strong two-on-one defense on your crossing arm, when they are actively stripping far-side grips, or when speed of entry matters more than depth. The same-side grip is faster to obtain since it does not cross the centerline, but produces a shorter lever arm for the choke. Read the opponent's hand position at the moment of grip transition to make this decision."
       }
     ],
-    "safety_considerations": "The bow and arrow choke applies extreme pressure to the trachea and carotid arteries, making it one of the most powerful chokes in BJJ. During the setup phase, the controlled takedown from standing carries inherent risk of impact injury if performed recklessly. Always practice the sit-down component slowly with cooperative partners before adding resistance. The collar grip can cause friction burns on the neck and jaw if yanked aggressively. When drilling, ensure training partners communicate clearly about neck pressure and tap immediately when the choke begins to engage. Never jerk or yank the collar grip explosively, as this can cause cervical spine injury. Release all pressure immediately upon tap—the bow and arrow choke can render a partner unconscious in under three seconds when fully applied."
+    "safety_considerations": "The bow and arrow choke applies extreme pressure to the trachea and carotid arteries, making it one of the most powerful chokes in BJJ. During the setup phase, the controlled takedown from standing carries inherent risk of impact injury if performed recklessly. Always practice the sit-down component slowly with cooperative partners before adding resistance. The collar grip can cause friction burns on the neck and jaw if yanked aggressively. When drilling, ensure training partners communicate clearly about neck pressure and tap immediately when the choke begins to engage. Never jerk or yank the collar grip explosively, as this can cause cervical spine injury. Release all pressure immediately upon tap—the bow and arrow choke can render a partner unconscious in under three seconds when fully applied.",
+    "clips": [
+      {
+        "id": "KUvlEU5m1fw",
+        "title": "Standing bow and arrow choke setup",
+        "by": "Edward Anthony",
+        "vertical": false,
+        "channel": "Edward “Scissorhands” Anthony Jiu Jitsu ",
+        "duration": 45,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "DQQgYqnCVAA",
+        "title": "Standing bow and arrow choke",
+        "by": "Turtles Impact",
+        "vertical": false,
+        "channel": "Turtles impact ",
+        "duration": 116,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "eSsnIKo8gLw",
+        "title": "Bow and arrow from standing back control",
+        "by": "Thomas Lisboa",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 133,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Bow and Arrow Setup from Standing Back Defender",
@@ -436,6 +465,17 @@
         "phase": "Phase 4: Live Application",
         "focus": "Full-speed defense from standing back control",
         "description": "Partner attempts the complete bow and arrow setup sequence from standing back control at full speed and resistance. Defender applies all defensive layers: grip prevention, base resistance, transition exploitation, and ground-level collar grip stripping. Debrief after each round to identify which defensive layer succeeded or failed."
+      }
+    ],
+    "clips": [
+      {
+        "id": "K1zBxCL_IQ4",
+        "title": "Back escape against collar control",
+        "by": "Dragons Den MMA",
+        "vertical": false,
+        "channel": "Dragons Den MMA",
+        "duration": 93,
+        "verified": "2026-07-15"
       }
     ]
   }

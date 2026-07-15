@@ -376,6 +376,35 @@
           "nogi": 5
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "Y815hmtzGZA",
+        "title": "Knee shield half guard pass",
+        "by": "Adam Metcalf",
+        "vertical": false,
+        "channel": "ADAM METCALF",
+        "duration": 30,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "yj_6xcl2emA",
+        "title": "Pass knee shield with inside knee cut",
+        "by": "War Room Jiu Jitsu",
+        "vertical": false,
+        "channel": "War Room Jiu Jitsu",
+        "duration": 70,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "_XjuF0no1Uw",
+        "title": "Most basic half guard pass (no-gi)",
+        "by": "Danny Mitchell",
+        "vertical": false,
+        "channel": "Danny Mitchell MMA",
+        "duration": 89,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -712,6 +741,26 @@
           "nogi": 4
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "YEVojixbKs8",
+        "title": "Signature sweep from knee shield",
+        "by": "A. Sukandar",
+        "vertical": false,
+        "channel": "A. Sukandar",
+        "duration": 70,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "5abrviYxKU8",
+        "title": "Leg lock entry from knee shield half guard",
+        "by": "Hellfish MMA",
+        "vertical": false,
+        "channel": "Hellfish Mixed Martial Arts",
+        "duration": 147,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -746,6 +795,26 @@
     {
       "question": "Why does this position demand constant micro-adjustment from both players rather than a static hold?",
       "answer": "The knee shield is an equilibrium of opposing forces, so any shift by one player immediately changes what the other must do. The top player pulses pressure and switches passing angles to bait reactions and find a moment to collapse the shield, while the bottom player continuously retunes shield height, hip angle, and grips to match each threat. A static frame is quickly solved, because a fixed shield height leaves a predictable lane open and a flat hip surrenders the angles needed to defend or attack. This ongoing negotiation of distance, angle, and grips is the fundamental dynamic that makes the position what it is."
+    }
+  ],
+  "clips": [
+    {
+      "id": "CLBRo3Jef54",
+      "title": "Knee shield to scissor/push sweep",
+      "by": "Strong Hold Jiu Jitsu",
+      "vertical": false,
+      "channel": "Strong Hold Jiu Jitsu",
+      "duration": 52,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "ZqsGp9fWi3Y",
+      "title": "Bottom half guard attacks basics",
+      "by": "Cobrinha",
+      "vertical": false,
+      "channel": "Cobrinha BJJ SB",
+      "duration": 205,
+      "verified": "2026-07-14"
     }
   ]
 }

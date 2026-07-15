@@ -281,7 +281,36 @@
         "answer": "The direction depends on whether you are attacking with inside or outside rotation. For standard outside heel hook, rotate opponent's toes laterally away from their body while pulling heel toward your hip. For inside heel hook variation, rotate toes medially toward the floor. The correct direction is determined by which side of opponent's leg your wrist blade contacts the Achilles and the orientation of their trapped foot."
       }
     ],
-    "safety_considerations": "Counter heel hook exchanges carry significant knee ligament injury risk for both practitioners. The racing dynamic between two simultaneous heel hooks can lead to delayed tap recognition as both people focus on finishing rather than defending. Always practice with controlled pressure and immediate release upon tap. Beginners should drill grip mechanics without applying breaking pressure. Never apply rotational force to your own knee while attempting the counter. If opponent has dominant grips on your heel, tap early rather than risking ACL or MCL damage. Training partners should establish clear tap protocols before drilling. This technique should only be practiced by intermediate or advanced practitioners with established leg lock defense fundamentals."
+    "safety_considerations": "Counter heel hook exchanges carry significant knee ligament injury risk for both practitioners. The racing dynamic between two simultaneous heel hooks can lead to delayed tap recognition as both people focus on finishing rather than defending. Always practice with controlled pressure and immediate release upon tap. Beginners should drill grip mechanics without applying breaking pressure. Never apply rotational force to your own knee while attempting the counter. If opponent has dominant grips on your heel, tap early rather than risking ACL or MCL damage. Training partners should establish clear tap protocols before drilling. This technique should only be practiced by intermediate or advanced practitioners with established leg lock defense fundamentals.",
+    "clips": [
+      {
+        "id": "rjMVCd6n1TA",
+        "title": "Inside heel hook",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "6gu-n4P9JXo",
+        "title": "Heel hook breaking mechanics",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "Altay Pirge",
+        "duration": 77,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fB3FYb-Jx_0",
+        "title": "50/50 heel hook finishing details",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 27,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Counter heel hook Defender",
@@ -406,6 +435,35 @@
         "phase": "Week 7+",
         "focus": "Live 50-50 exchanges with decision making",
         "description": "Full speed 50-50 positional sparring where both practitioners attack and defend heel hooks. Focus on making correct real-time decisions about whether to race, defend, or transition. Establish clear tap protocols and emphasize safety. Review decision-making after each round."
+      }
+    ],
+    "clips": [
+      {
+        "id": "AsGMkATAqqw",
+        "title": "What to do when ambushed: heel hook defense",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 53,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "v3w0qXLKxug",
+        "title": "Defending heel hooks",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 92,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "clVAHxgRadE",
+        "title": "Outside heel hook defense to inside heel hook",
+        "by": "Holy Grail BJJ",
+        "vertical": false,
+        "channel": "Holy Grail BJJ",
+        "duration": 105,
+        "verified": "2026-07-15"
       }
     ]
   },

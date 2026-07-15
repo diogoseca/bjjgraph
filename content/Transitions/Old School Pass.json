@@ -301,7 +301,27 @@
         "answer": "Drive through to pass completion as one continuous motion without pausing. Swing the freed leg over their bottom leg into knee slide position while maintaining chest pressure and crossface contact. Any pause between extraction and pass completion gives the opponent time to re-insert hooks, establish knee shield, or transition to an alternative guard. The extraction and pass consolidation to side control should feel like a single flowing movement, not two separate actions."
       }
     ],
-    "safety_considerations": "The Old School Pass is a pressure-based passing technique with moderate risk. Crossface pressure should be applied with body weight rather than cranking the neck, avoiding excessive cervical spine stress. When extracting the trapped leg from lockdown, use controlled angular movement rather than violent twisting that could injure the ankle or knee of either player. If the bottom player's lockdown creates knee pain in the trapped leg, communicate immediately and adjust rather than forcing through. Be mindful that explosive extraction attempts can cause knee hyperextension in the bottom player's lockdown configuration."
+    "safety_considerations": "The Old School Pass is a pressure-based passing technique with moderate risk. Crossface pressure should be applied with body weight rather than cranking the neck, avoiding excessive cervical spine stress. When extracting the trapped leg from lockdown, use controlled angular movement rather than violent twisting that could injure the ankle or knee of either player. If the bottom player's lockdown creates knee pain in the trapped leg, communicate immediately and adjust rather than forcing through. Be mindful that explosive extraction attempts can cause knee hyperextension in the bottom player's lockdown configuration.",
+    "clips": [
+      {
+        "id": "c5aHZxvr2bk",
+        "title": "Old school sweep from lockdown",
+        "by": "The Jiu-Jitsu Foundry",
+        "vertical": false,
+        "channel": "The Jiu-Jitsu Foundry",
+        "duration": 33,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "08cbHHs_NsM",
+        "title": "Lockdown sweep details",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 53,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Old School Pass Defender",
@@ -431,6 +451,35 @@
         "phase": "Phase 4: Full Resistance Defense",
         "focus": "Defending the complete pass sequence under live conditions",
         "description": "Partner works the Old School Pass at full intensity including crossface pressure, angular extraction, and pass completion attempts. Defender uses all defensive tools: control maintenance, sweep counters, guard transitions, and reguarding sequences. Reset after successful pass, sweep, or stalemate. Build automatic defensive responses to the full passing chain."
+      }
+    ],
+    "clips": [
+      {
+        "id": "oSQ7BHerIow",
+        "title": "Lockdown strategies against the top pass",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "zNYVPT5XExU",
+        "title": "Half guard recovery and lockdown defense",
+        "by": "Robot Dolphin Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Robot Dolphin Jiu-Jitsu ",
+        "duration": 194,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "rHT8G14Gbb8",
+        "title": "Strategy-based lockdown escape",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 159,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -276,7 +276,36 @@
         "answer": "Before committing to the shot, three conditions should be present: First, you need the opponent's weight to be distributed across both feet or slightly forward rather than loaded on their back leg where they can easily retreat. Second, you need a clear lane for your penetration step without their lead leg blocking your path, which is achieved through grip fighting and feints. Third, your own stance must be balanced with weight on the balls of your feet and knees slightly bent, ready for an explosive level change. Shooting without these conditions dramatically reduces success rate and increases exposure to counters."
       }
     ],
-    "safety_considerations": "When practicing the high crotch, execute all training repetitions with control to protect both yourself and your training partner. The most significant safety consideration is protecting your neck during the penetration step - maintain proper outside head position at all times to avoid guillotine exposure. When finishing with lift and return variations, ensure you are on proper mats and control the opponent's landing to prevent head or neck injuries. Never spike an opponent or release them at the apex of a lift. Practice releases so training partners can safely exit the position if needed. During live training, tap early if caught in a guillotine during a failed high crotch attempt rather than fighting through submission danger. For the training partner defending, avoid cranking guillotines or kimuras immediately when defending high crotch attempts - give your partner time to adjust position or release. Both parties should communicate about intensity levels, especially when drilling finishing variations that involve lifting. Always warm up properly before practicing explosive penetration steps to prevent knee, hip, and lower back injuries."
+    "safety_considerations": "When practicing the high crotch, execute all training repetitions with control to protect both yourself and your training partner. The most significant safety consideration is protecting your neck during the penetration step - maintain proper outside head position at all times to avoid guillotine exposure. When finishing with lift and return variations, ensure you are on proper mats and control the opponent's landing to prevent head or neck injuries. Never spike an opponent or release them at the apex of a lift. Practice releases so training partners can safely exit the position if needed. During live training, tap early if caught in a guillotine during a failed high crotch attempt rather than fighting through submission danger. For the training partner defending, avoid cranking guillotines or kimuras immediately when defending high crotch attempts - give your partner time to adjust position or release. Both parties should communicate about intensity levels, especially when drilling finishing variations that involve lifting. Always warm up properly before practicing explosive penetration steps to prevent knee, hip, and lower back injuries.",
+    "clips": [
+      {
+        "id": "NkMeJDR7nN8",
+        "title": "High crotch attack breakdown",
+        "by": "The School of Wrestling",
+        "vertical": false,
+        "channel": "The School of Wrestling",
+        "duration": 78,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "4ff7enn34yk",
+        "title": "Hesitation fake into high crotch",
+        "by": "Ben Honis",
+        "vertical": false,
+        "channel": "FANATIC WRESTLING",
+        "duration": 126,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "AJzijsw8iWY",
+        "title": "Simple post high crotch takedown",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 171,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "High Crotch Defender",
@@ -401,6 +430,35 @@
         "phase": "Week 9+: Full Resistance and Competition Scenarios",
         "focus": "Applying defenses under full competition pressure",
         "description": "Implement high crotch defense in full sparring sessions with all standing techniques available. Practice against multiple training partners with different body types and shooting styles. Work on maintaining composure when the attacker chains high crotch with other takedowns. Evaluate success rate and identify which defensive options work best for your body type and reaction time."
+      }
+    ],
+    "clips": [
+      {
+        "id": "s8HuRLm50c8",
+        "title": "High crotch sprawl for BJJ",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 59,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "p9PDDr18bqs",
+        "title": "Leg curl sprawl against the high-C",
+        "by": "Jason Nolf",
+        "vertical": false,
+        "channel": "Todd Adamczyk",
+        "duration": 83,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "aOWEmGtMDHQ",
+        "title": "Front headlock high-C drag defense",
+        "by": "Cary Kolat",
+        "vertical": false,
+        "channel": "Cary Kolat",
+        "duration": 75,
+        "verified": "2026-07-15"
       }
     ]
   },

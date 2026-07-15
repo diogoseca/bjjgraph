@@ -283,7 +283,36 @@
         "answer": "In a crossface sprawl, after initial hip drive and chest pressure, you immediately establish a strong crossface by driving your forearm across the opponent's face while circling. This variant breaks down the opponent's posture more aggressively than relying solely on chest weight, and it sets up easier transitions to front headlock and submission attacks. Use the crossface sprawl against opponents who maintain strong head position and try to drive through your initial sprawl, particularly in no-gi where front headlock grips are harder to establish. The crossface forces their head to turn, collapsing their structure and exposing the far side neck for choke attacks."
       }
     ],
-    "safety_considerations": "The sprawl is generally a safe defensive technique when performed with proper form, but several safety considerations must be observed. Always keep your head up with neutral neck position to prevent cervical spine injuries and avoid creating angles for guillotine chokes. When drilling, communicate clearly with your partner about speed and intensity, gradually increasing resistance rather than starting at full speed. Be aware of mat boundaries and other training partners when circling or driving backward explosively. If you feel a guillotine being secured during sprawl practice, tap immediately rather than fighting through it, as neck injuries can be severe. Beginners should master the movement pattern at slow speed before attempting reactive sprawls against live attacks. Warm up with dynamic stretching targeting hip flexors, groin, and hamstrings, as the explosive hip extension can strain these muscle groups if performed cold. Monitor fatigue during drilling, as exhaustion leads to poor technique and increased injury risk."
+    "safety_considerations": "The sprawl is generally a safe defensive technique when performed with proper form, but several safety considerations must be observed. Always keep your head up with neutral neck position to prevent cervical spine injuries and avoid creating angles for guillotine chokes. When drilling, communicate clearly with your partner about speed and intensity, gradually increasing resistance rather than starting at full speed. Be aware of mat boundaries and other training partners when circling or driving backward explosively. If you feel a guillotine being secured during sprawl practice, tap immediately rather than fighting through it, as neck injuries can be severe. Beginners should master the movement pattern at slow speed before attempting reactive sprawls against live attacks. Warm up with dynamic stretching targeting hip flexors, groin, and hamstrings, as the explosive hip extension can strain these muscle groups if performed cold. Monitor fatigue during drilling, as exhaustion leads to poor technique and increased injury risk.",
+    "clips": [
+      {
+        "id": "8AaRLOSM61U",
+        "title": "Sprawl technique to defend the shot",
+        "by": "Coach Lang",
+        "vertical": false,
+        "channel": "Coach Lang",
+        "duration": 55,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "LiRrlPGboK8",
+        "title": "Sprawl technique breakdown",
+        "by": "Jordan Burroughs",
+        "vertical": false,
+        "channel": "CreightonWrestling",
+        "duration": 122,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Io79xaXZx_c",
+        "title": "How to sprawl against a double leg",
+        "by": "ateambjj",
+        "vertical": false,
+        "channel": "ateambjj",
+        "duration": 56,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Sprawl Defender",
@@ -413,6 +442,35 @@
         "phase": "Phase 4: Live Takedown Sparring with Recovery Focus",
         "focus": "Applying takedown recovery techniques in full-resistance standing exchanges",
         "description": "Engage in live takedown sparring where you initiate shots against a partner who sprawls with full effort. Focus on executing recovery options immediately after being sprawled rather than forcing through stuffed shots. Include rounds where you must recover position within 5 seconds of being sprawled or the round resets."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ymf_c1j3JEY",
+        "title": "Reshots after being sprawled on",
+        "by": "Askren Wrestling Academy",
+        "vertical": false,
+        "channel": "Askren Wrestling Academy",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "F_cW7ETcTPg",
+        "title": "Sucker drag and peek out vs short offense",
+        "by": "Glover Teixeira",
+        "vertical": false,
+        "channel": "Black and Gold MMA",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "U3T0fy6-iNE",
+        "title": "Chain wrestling: shot recovery after the sprawl",
+        "by": "Jordan Burroughs",
+        "vertical": false,
+        "channel": "FCA Wrestling",
+        "duration": 244,
+        "verified": "2026-07-15"
       }
     ]
   },

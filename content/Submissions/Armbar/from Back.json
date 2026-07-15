@@ -364,6 +364,35 @@
         "answer": "Apply steady, incrementally increasing hip pressure rather than explosive bursts, which allows you to feel opponent's defensive reactions and adjust accordingly. If they bend the arm, maintain position and wait for fatigue to straighten it. If they attempt to roll, follow with your hips connected. Always maintain the option to transition to rear triangle if they successfully defend with bent arm, or return to back control with hooks if the armbar position becomes compromised. Never abandon control entirely - cycling between threats from the same position exhausts defenders faster than committing fully to escapes.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "4aQQqz-6Baw",
+        "title": "Armbar from back control",
+        "by": "Evolve MMA",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 54,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "nsLJ8AiGZ5A",
+        "title": "Rolling armbar from back mount",
+        "by": "Hammer Jiu-Jitsu",
+        "vertical": false,
+        "channel": "American Top Team - Palm Beach Gardens",
+        "duration": 40,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "jf1kPefTmm0",
+        "title": "Armbar from the back variation",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 80,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -506,6 +535,26 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Full-speed defense against all back attack chains including armbar",
         "description": "Start in back control with full resistance. Attacker uses complete back attack system including choke threats, armbar transitions, and follow-up submissions. Defender applies all defensive tools: prevention of isolation, turn-in during transition, bent arm defense, and emergency escapes. Five-minute rounds with full resistance. Emphasis on chaining defensive responses and maintaining composure under sustained attack pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "My favorite armbar escape",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "sDdqvh_1kbA",
+        "title": "Armbar escape vs back attack",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 63,
+        "verified": "2026-07-14"
       }
     ]
   },

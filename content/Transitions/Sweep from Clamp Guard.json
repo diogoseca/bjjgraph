@@ -271,7 +271,36 @@
         "answer": "Prioritize guard retention over re-establishing the clamp. If the arm is partially extracted, immediately close your guard by wrapping your legs around their torso to establish closed guard, which provides a safe defensive position with its own offensive toolkit. If closing guard is not possible due to opponent posture, insert butterfly hooks underneath their thighs to establish butterfly guard. Do not chase the lost clamp with desperate re-clamping attempts, as this typically results in a scramble where the now-free opponent can pass guard. If re-establishing the clamp is still feasible — meaning the arm is still partially controlled — hip escape to deepen the clamp back onto the bicep before the opponent fully extracts."
       }
     ],
-    "safety_considerations": "The Sweep from Clamp Guard involves significant momentum and rotational force during the rolling motion. Control sweep speed during training to allow your partner to safely post or roll with the movement. Avoid explosive sweep attempts when drilling with lighter or less experienced partners, as the sudden weight transfer and rotational force can cause shoulder or wrist injuries on landing. When following through to mount, place weight gradually rather than dropping full body weight onto your partner's torso. Communicate with your training partner about intensity level before drilling and during live rolling. The clamp itself can generate uncomfortable pressure on the trapped arm's bicep — check in with your partner periodically during extended drilling sessions."
+    "safety_considerations": "The Sweep from Clamp Guard involves significant momentum and rotational force during the rolling motion. Control sweep speed during training to allow your partner to safely post or roll with the movement. Avoid explosive sweep attempts when drilling with lighter or less experienced partners, as the sudden weight transfer and rotational force can cause shoulder or wrist injuries on landing. When following through to mount, place weight gradually rather than dropping full body weight onto your partner's torso. Communicate with your training partner about intensity level before drilling and during live rolling. The clamp itself can generate uncomfortable pressure on the trapped arm's bicep — check in with your partner periodically during extended drilling sessions.",
+    "clips": [
+      {
+        "id": "KLwqvzhW3A8",
+        "title": "Shoulder crunch sweep from butterfly guard",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Coach Ben BJJ",
+        "duration": 19,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "nyZwifeL_Do",
+        "title": "Shoulder crunch sweep breakdown",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 106,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "A6OG_3e1srY",
+        "title": "The clamp guard: control and sweep mechanics",
+        "by": "Fenrir Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Fenrir Jiu-Jitsu Academy",
+        "duration": 137,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Sweep from Clamp Guard Defender",
@@ -390,6 +419,17 @@
         "phase": "Phase 3: Counter-Offense",
         "focus": "Converting sweep defense into passing opportunities",
         "description": "Partner executes sweeps at 60-80% resistance. Practice not only defending the sweep but immediately transitioning to arm extraction and guard passing when the sweep fails. Develop the instinct to capitalize on the opponent's failed offensive attempt rather than simply surviving and resetting to neutral."
+      }
+    ],
+    "clips": [
+      {
+        "id": "58LkTy6v3KQ",
+        "title": "Defending and countering the clamp from closed guard",
+        "by": "The Grappling Bloke",
+        "vertical": false,
+        "channel": "The Grappling Bloke",
+        "duration": 109,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -289,7 +289,18 @@
         "answer": "If the guard recloses before you establish leg control, you must repeat the guard opening. However, the second attempt is easier because the diamond controls have already been stripped. Use one hand on their hip to maintain posture while positioning your knee in their tailbone area as a wedge. Drive the wedge forward to break their ankle lock while keeping your hips heavy. If they repeatedly reclose, transition to a log splitter approach where you drive one knee between their thighs to prevent ankle contact entirely, then establish leg control from the inside position."
       }
     ],
-    "safety_considerations": "Guard passing from diamond guard involves significant neck strain during the posture recovery phase due to the combined pulling forces of the overhook and head control. Avoid explosive head movements when the opponent has deep head control, as cervical spine injuries can result from sudden directional changes against a loaded grip. The overhook configuration can trap the shoulder in compromised positions during explosive stripping attempts, risking rotator cuff strain. Practice grip stripping and posture recovery at controlled speeds before adding intensity. Communicate with your training partner about neck discomfort, and release immediately if either practitioner reports pain in the cervical spine or shoulder during drilling."
+    "safety_considerations": "Guard passing from diamond guard involves significant neck strain during the posture recovery phase due to the combined pulling forces of the overhook and head control. Avoid explosive head movements when the opponent has deep head control, as cervical spine injuries can result from sudden directional changes against a loaded grip. The overhook configuration can trap the shoulder in compromised positions during explosive stripping attempts, risking rotator cuff strain. Practice grip stripping and posture recovery at controlled speeds before adding intensity. Communicate with your training partner about neck discomfort, and release immediately if either practitioner reports pain in the cervical spine or shoulder during drilling.",
+    "clips": [
+      {
+        "id": "dLXj6r-CX2U",
+        "title": "Three passes from inside closed guard",
+        "by": "Strong Hold Jiu Jitsu",
+        "vertical": false,
+        "channel": "Strong Hold Jiu Jitsu",
+        "duration": 192,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Guard Pass from Diamond Guard Defender",
@@ -413,6 +424,26 @@
         "phase": "Phase 4: Live Defense Integration",
         "focus": "Full defensive game plan in live sparring",
         "description": "Positional sparring starting in diamond guard with partner using full passing methodology. Apply the complete defensive hierarchy: maintain diamond, counter-attack during grip stripping, transition to open guard if diamond breaks, and retain guard against the complete pass. Track outcomes across multiple rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Y9D5xi0ZPAs",
+        "title": "Defending the stack from the overhook guard",
+        "by": "JJPA APEX",
+        "vertical": false,
+        "channel": "JJPA APEX",
+        "duration": 28,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Xj_MVwk2jq0",
+        "title": "Guard retention when they hold on",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 46,
+        "verified": "2026-07-15"
       }
     ]
   }

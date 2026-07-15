@@ -294,7 +294,36 @@
         "answer": "Against larger opponents, use the progressive whip-up variant with rhythmic pulses rather than attempting one explosive motion. Each pulse incrementally walks their weight forward without requiring the explosive force needed to move a heavier body in one motion. Focus on angle creation by hip escaping slightly away from them before each whip-up pulse, which uses leverage rather than strength. Also prioritize patience: multiple medium-intensity attempts accumulate fatigue in the top player's posting arms, progressively weakening their base until the Vaporizer can be fully established."
       }
     ],
-    "safety_considerations": "The Transition to Vaporizer involves significant forces on the trapped leg through the lockdown extension and hip drive. Practitioners should be aware that aggressive lockdown extensions can strain the opponent's knee, particularly if their foot gets caught in the lockdown at an awkward angle. Always release the lockdown immediately if your training partner signals discomfort in their knee or ankle. The whip-up motion can also create sudden positional changes that may lead to neck strain if the opponent's head is pinned against the mat during the roll. Begin all training with controlled, gradual resistance and communicate clearly with your partner about pressure levels."
+    "safety_considerations": "The Transition to Vaporizer involves significant forces on the trapped leg through the lockdown extension and hip drive. Practitioners should be aware that aggressive lockdown extensions can strain the opponent's knee, particularly if their foot gets caught in the lockdown at an awkward angle. Always release the lockdown immediately if your training partner signals discomfort in their knee or ankle. The whip-up motion can also create sudden positional changes that may lead to neck strain if the opponent's head is pinned against the mat during the roll. Begin all training with controlled, gradual resistance and communicate clearly with your partner about pressure levels.",
+    "clips": [
+      {
+        "id": "8ZgEL2zU_jg",
+        "title": "Lockdown to vaporizer entry",
+        "by": "Axel Collazo",
+        "vertical": false,
+        "channel": "Axel Collazo",
+        "duration": 98,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dLIqO90Ix7o",
+        "title": "Quarter guard to vaporizer breakdown",
+        "by": "Superhero Jiu Jitsu",
+        "vertical": false,
+        "channel": "Superhero Jiu Jitsu Academy ",
+        "duration": 113,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "OIr4wDxl-Ys",
+        "title": "Lockdown clinch details",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 60,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Lockdown to Vaporizer Defender",
@@ -420,6 +449,17 @@
         "phase": "Phase 4: Full Defense to Escape Sequence",
         "focus": "Complete defensive protocol against live attacks",
         "description": "Positional sparring starting from lockdown. Bottom player attempts Vaporizer transition and all follow-up attacks. Top player must deny the Vaporizer, extract the trapped leg, and begin passing. Track success rates to identify remaining weaknesses in the defensive chain."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Y4eC_7dtzOA",
+        "title": "Passing and shutting down the lockdown",
+        "by": "Peter Mettler",
+        "vertical": false,
+        "channel": "Peter Mettler Martial Arts",
+        "duration": 73,
+        "verified": "2026-07-15"
       }
     ]
   }

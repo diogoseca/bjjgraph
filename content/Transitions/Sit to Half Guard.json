@@ -275,7 +275,27 @@
         "answer": "Prioritize the underhook on the near side if available, as it provides the strongest offensive Half Guard platform with immediate sweep and back take threats. If the underhook is not available due to opponent's crossface pressure, establish knee shield with collar-and-sleeve control to create distance and rebuild your defensive framework before attacking."
       }
     ],
-    "safety_considerations": "This escape involves rapid positional transition with brief back exposure that can result in neck strain if executed against a fully-locked choke. Never attempt the sitting motion when opponent has deep collar grip with perpendicular pressure already applied—the rotation will tighten the choke around your neck. Train the timing recognition extensively with cooperative partners before adding resistance. Ensure your neck has warmed up adequately before drilling turtle escapes. When drilling at higher intensities, tap immediately if you feel choking pressure increase during the sitting motion rather than fighting through. Partners should release collar grips quickly when they feel the escape initiating to allow safe technical development."
+    "safety_considerations": "This escape involves rapid positional transition with brief back exposure that can result in neck strain if executed against a fully-locked choke. Never attempt the sitting motion when opponent has deep collar grip with perpendicular pressure already applied—the rotation will tighten the choke around your neck. Train the timing recognition extensively with cooperative partners before adding resistance. Ensure your neck has warmed up adequately before drilling turtle escapes. When drilling at higher intensities, tap immediately if you feel choking pressure increase during the sitting motion rather than fighting through. Partners should release collar grips quickly when they feel the escape initiating to allow safe technical development.",
+    "clips": [
+      {
+        "id": "ZBOagHWTCFw",
+        "title": "Buggy choke from half guard",
+        "by": "Moncaio Brothers",
+        "vertical": false,
+        "channel": "Moncaio Brothers Jiujitsu",
+        "duration": 33,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_CH4ZiXdxpQ",
+        "title": "Buggy choke sweep",
+        "by": "BJJ Doug",
+        "vertical": false,
+        "channel": "bjj doug",
+        "duration": 13,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Sit to Half Guard Defender",
@@ -405,6 +425,17 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Positional sparring from buggy choke position with full resistance. Top player works to either finish the choke or capitalize on escape attempts for positional advancement. Bottom player attempts sit to half guard and alternative escapes. Score points for maintenance, back takes, and successful passes versus guard recovery."
+      }
+    ],
+    "clips": [
+      {
+        "id": "U-eR63GzcIo",
+        "title": "Buggy choke mechanics and counters",
+        "by": "Jacob Rodriguez",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 67,
+        "verified": "2026-07-15"
       }
     ]
   },

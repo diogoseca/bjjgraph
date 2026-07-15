@@ -298,7 +298,27 @@
         "answer": "Use a swim move to get your crossface arm inside their frame, collapsing the distance between your shoulder and their neck. If the frame is too strong to swim through, grip their wrist and pin it to the mat while driving your shoulder past the frame. Alternatively, use the frame as an opportunity to switch grips and transition to an arm drag that pulls their framing arm across their body, opening the far side for the knee to cut through without resistance."
       }
     ],
-    "safety_considerations": "The knee slide is generally a low-risk technique, but practitioners should apply crossface pressure with control to avoid excessive neck strain on training partners. Avoid driving the knee directly into the opponent's thigh with excessive downward force, which can cause contusions or bruising. When training, communicate with your partner about pressure levels during the crossface and hip pressure phases. Be aware that the cutting knee can compress the opponent's ribs if body weight is applied incorrectly—adjust the cutting angle to pass over the thigh rather than driving into the torso. During drilling, use progressive resistance to allow the bottom player to develop defensive timing without injury."
+    "safety_considerations": "The knee slide is generally a low-risk technique, but practitioners should apply crossface pressure with control to avoid excessive neck strain on training partners. Avoid driving the knee directly into the opponent's thigh with excessive downward force, which can cause contusions or bruising. When training, communicate with your partner about pressure levels during the crossface and hip pressure phases. Be aware that the cutting knee can compress the opponent's ribs if body weight is applied incorrectly—adjust the cutting angle to pass over the thigh rather than driving into the torso. During drilling, use progressive resistance to allow the bottom player to develop defensive timing without injury.",
+    "clips": [
+      {
+        "id": "yPxcNpuyr0w",
+        "title": "Knee slice guard pass from combat base",
+        "by": "5th Element BJJ/MMA coach",
+        "vertical": false,
+        "channel": "5th Element BJJ/MMA",
+        "duration": 143,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "zJkr3PfYDMI",
+        "title": "X pass into knee slice finish",
+        "by": "Aidan Sericolo",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 93,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Knee Slide from Combat Base Defender",
@@ -424,6 +444,35 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Full resistance positional sparring against the knee slide",
         "description": "Defend the knee slide in live positional sparring against training partners of various sizes and skill levels. Score points for successful guard retention, sweeps, or back takes while the attacker works exclusively from combat base. Identify personal defensive tendencies and address weak points through targeted drilling."
+      }
+    ],
+    "clips": [
+      {
+        "id": "yiIHeo7NgsE",
+        "title": "Knee slice pass counter",
+        "by": "Kohbukan Sisu",
+        "vertical": false,
+        "channel": "Kohbukan Sisu",
+        "duration": 58,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Da5PAZooedU",
+        "title": "Knee slice defense counter",
+        "by": "A DAY IN A LIFE",
+        "vertical": false,
+        "channel": "A DAY IN A LIFE",
+        "duration": 86,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "rP8SOouke1s",
+        "title": "Guard retention: knee cut response",
+        "by": "Cal McDonald",
+        "vertical": false,
+        "channel": "Cal McDonald",
+        "duration": 57,
+        "verified": "2026-07-15"
       }
     ]
   }

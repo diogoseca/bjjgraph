@@ -285,7 +285,36 @@
         "answer": "Upon reaching standing, treat it as a decision point rather than an endpoint: if the opponent stays grounded, you can disengage to reset, attack with an ankle pick, or re-pummel for standing grips to set up an arm drag. If the opponent also stands, immediately establish distance and grip fight before they can clinch. The technical stand up only buys you the standing position; chaining it into a deliberate offensive or distance-management plan is what converts the reset into an advantage rather than a neutral restart."
       }
     ],
-    "safety_considerations": "The primary injury risk during the Technical Stand Up is wrist and hand strain from the posting hand, particularly when bearing full body weight during the transition on hard or uneven surfaces. Practitioners should develop gradual loading capacity in their wrists through progressive drilling before attempting the movement at full speed or under resistance. Additional considerations include the risk of being caught in a guillotine choke if the head drops forward during the transition, and potential ankle or knee strain if the opponent grabs and twists the lead leg during the kick-through phase. Always warm up wrists and shoulders before intensive drilling of this movement."
+    "safety_considerations": "The primary injury risk during the Technical Stand Up is wrist and hand strain from the posting hand, particularly when bearing full body weight during the transition on hard or uneven surfaces. Practitioners should develop gradual loading capacity in their wrists through progressive drilling before attempting the movement at full speed or under resistance. Additional considerations include the risk of being caught in a guillotine choke if the head drops forward during the transition, and potential ankle or knee strain if the opponent grabs and twists the lead leg during the kick-through phase. Always warm up wrists and shoulders before intensive drilling of this movement.",
+    "clips": [
+      {
+        "id": "4yc0Swz_El0",
+        "title": "How to do the technical standup",
+        "by": "Ritchie Yip",
+        "vertical": false,
+        "channel": "Ritchie Yip",
+        "duration": 40,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MFm_-kqmE8U",
+        "title": "Technical stand up drill",
+        "by": "The Jiu-jitsu Ronin",
+        "vertical": false,
+        "channel": "The Jiu-jitsu Ronin",
+        "duration": 31,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "bRMQRElVLho",
+        "title": "Technical stand up movement breakdown",
+        "by": "Stasis Jiu Jitsu & Yoga",
+        "vertical": false,
+        "channel": "Stasis Jiu Jitsu & Yoga",
+        "duration": 108,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Technical Stand Up from Ground Defender",
@@ -405,6 +434,35 @@
         "phase": "Phase 4: Live Situational Sparring",
         "focus": "Application against unpredictable timing and variations",
         "description": "Start with partner in seated position and you standing or in combat base. Partner may attempt technical stand up, guard pull, or other escapes at any time. Defend the stand up attempt while maintaining top position. Practice for 2-minute rounds with full resistance and positional resets after each successful stand up or guard recovery."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Xj_MVwk2jq0",
+        "title": "When they don't let go of your guard retention",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 46,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "1JROabJi6yE",
+        "title": "Countering the just stand up defense",
+        "by": "Jiu-Jitsu Times",
+        "vertical": false,
+        "channel": "Jiu-Jitsu Times",
+        "duration": 48,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fO9mvIlh4Yw",
+        "title": "Leg drag defense with technical stand up",
+        "by": "Leandro Lo",
+        "vertical": false,
+        "channel": "BJJ Black",
+        "duration": 200,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -299,7 +299,36 @@
         "answer": "For the transition, you need two-on-one wrist control: near hand on the opponent's wrist, far hand on their elbow or bicep. This differs from triangle finishing grips where you typically pull the head down with one hand and grab your own shin with the other to tighten the squeeze. The shift from triangle finishing grips to arm control grips is itself the first commitment to the transition. Make this grip change before unlocking the triangle, so you never have a moment where neither triangle pressure nor arm control is established."
       }
     ],
-    "safety_considerations": "This transition involves repositioning while maintaining mount control and does not directly threaten joint locks during the transition itself. However, the transition leads directly to S mount armbar position, so practitioners should be mindful of arm isolation pressure during the repositioning phase. Avoid cranking or twisting the trapped arm during the transition. In training, execute the transition at controlled speed and communicate with your partner before applying submission pressure from S mount. If the partner signals discomfort during the arm isolation phase of the transition, immediately release pressure and reset."
+    "safety_considerations": "This transition involves repositioning while maintaining mount control and does not directly threaten joint locks during the transition itself. However, the transition leads directly to S mount armbar position, so practitioners should be mindful of arm isolation pressure during the repositioning phase. Avoid cranking or twisting the trapped arm during the transition. In training, execute the transition at controlled speed and communicate with your partner before applying submission pressure from S mount. If the partner signals discomfort during the arm isolation phase of the transition, immediately release pressure and reset.",
+    "clips": [
+      {
+        "id": "8ys-uZnBgYM",
+        "title": "Mounted triangle to armbar",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 26,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "eSsyKhjg6xw",
+        "title": "Triangle to armbar from mount",
+        "by": "FreeChannelOpen",
+        "vertical": false,
+        "channel": "FreeChannelOpen",
+        "duration": 92,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ZLlkimwLb_Q",
+        "title": "Mounted triangle armbar variation",
+        "by": "Tommy",
+        "vertical": false,
+        "channel": "Before The Mats Jiu Jitsu",
+        "duration": 103,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Mounted Triangle to S Mount Defender",
@@ -437,6 +466,26 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Applying defensive skills under full resistance",
         "description": "Start in mounted triangle with partner actively pursuing either the triangle finish or the S mount transition. Your goal is to survive and escape to half guard or better. Full resistance with the understanding that a tap ends the round. Track escape success rate and identify which defensive options work best against different transition speeds and styles."
+      }
+    ],
+    "clips": [
+      {
+        "id": "l-HhOV9UjJU",
+        "title": "Preventing the mounted triangle",
+        "by": "Justen Hamilton",
+        "vertical": false,
+        "channel": "Justen Hamilton",
+        "duration": 104,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "sR2rS2dwpNY",
+        "title": "How to escape a triangle choke",
+        "by": "Rener and Ryron Gracie",
+        "vertical": false,
+        "channel": "Hayabusa",
+        "duration": 117,
+        "verified": "2026-07-15"
       }
     ]
   }

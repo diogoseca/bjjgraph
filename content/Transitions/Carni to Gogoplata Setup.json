@@ -296,7 +296,36 @@
         "answer": "Begin with both hands controlling the opponent's heel and ankle in Carni. As you release the top leg, shift one hand to control the opponent's head or collar to maintain forward pressure and prevent posturing. Once the shin crosses the throat, both hands shift to pull your own foot behind the opponent's head. Finally, one hand maintains foot position behind the head while the other controls posture or adds compression pressure for the finish."
       }
     ],
-    "safety_considerations": "The Carni to Gogoplata Setup involves shin-across-throat pressure that can restrict breathing and blood flow to the brain. Always practice with controlled intensity and establish clear tap protocols before drilling. The transition requires significant hip flexibility - never force the leg-behind-head position as this risks hip labrum tears, hamstring strains, or groin injuries. Partners should communicate immediately if they feel neck compression or difficulty breathing. Begin all training at slow speed with cooperative partners before progressing to resistance. Practitioners with knee, hip, or neck injuries should avoid this technique until fully recovered. The attacker must also protect their own flexibility by warming up thoroughly before attempting the threading motion under load."
+    "safety_considerations": "The Carni to Gogoplata Setup involves shin-across-throat pressure that can restrict breathing and blood flow to the brain. Always practice with controlled intensity and establish clear tap protocols before drilling. The transition requires significant hip flexibility - never force the leg-behind-head position as this risks hip labrum tears, hamstring strains, or groin injuries. Partners should communicate immediately if they feel neck compression or difficulty breathing. Begin all training at slow speed with cooperative partners before progressing to resistance. Practitioners with knee, hip, or neck injuries should avoid this technique until fully recovered. The attacker must also protect their own flexibility by warming up thoroughly before attempting the threading motion under load.",
+    "clips": [
+      {
+        "id": "4Opp0j7UmlU",
+        "title": "Gogoplata from guard",
+        "by": "Kinesiology College",
+        "vertical": false,
+        "channel": "Kinesiology College",
+        "duration": 21,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "X73jEbuUaxQ",
+        "title": "Seven submissions from rubber guard including gogoplata",
+        "by": "Felipe Cavalcante",
+        "vertical": false,
+        "channel": "Felipe Cavalcante BJJ",
+        "duration": 51,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "VbLlhI0aZC8",
+        "title": "Gogoplata from half guard knee shield",
+        "by": "Jamie",
+        "vertical": false,
+        "channel": "jamielovesmartialarts",
+        "duration": 68,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Carni to Gogoplata Setup Defender",
@@ -420,6 +449,17 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Integrating all defensive elements under full resistance",
         "description": "Positional sparring starting from established Carni with partner free to attempt gogoplata transition at any point. Defender must manage standard Carni threats while maintaining awareness of the upper body attack possibility. Track success rate of preventing the gogoplata establishment and identify which defensive responses are most reliable under competition-level pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "gkijX3Hbd_s",
+        "title": "Half guard defense countering the gogoplata",
+        "by": "Yesanam Atomm",
+        "vertical": false,
+        "channel": "예사남atomm",
+        "duration": 52,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -198,5 +198,25 @@
       "name": "Crucifix",
       "relationship": "Alternative arm trap position from turtle top"
     }
+  ],
+  "clips": [
+    {
+      "id": "4ob2ZrEH3Yc",
+      "title": "Front headlock to necktie choke",
+      "by": "Gile23",
+      "vertical": false,
+      "channel": "Gile23",
+      "duration": 113,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "hfifEH_SNVc",
+      "title": "Schultz choke from front headlock",
+      "by": "Sonny Brown",
+      "vertical": false,
+      "channel": "Sonny Brown",
+      "duration": 187,
+      "verified": "2026-07-14"
+    }
   ]
 }

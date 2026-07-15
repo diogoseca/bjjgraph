@@ -274,7 +274,18 @@
         "answer": "Initially, the force is directed downward and laterally as you widen your base and lower your center of gravity. During the knee drop, the force shifts to a rotational vector as the hip turn redirects your body toward the chosen side. Upon landing, the force transitions to a forward posting direction as you drive into turtle position with hands and knees under your body. This three-phase force direction prevents the straight-down collapse that leads to being flattened."
       }
     ],
-    "safety_considerations": "Controlled Descent involves intentionally going to the ground and carries inherent risks that require attention. Ensure the training area is properly matted with no gaps or hard surfaces at the edges. When drilling, communicate with your partner before initiating descent so they can adjust their weight and avoid inadvertently driving you into the mat with full force. The neck remains vulnerable throughout the transition, so never rush the technique in a way that compromises your protective chin tuck. In competition or intense sparring, be aware that opponents may attempt to drive through the descent aggressively - maintain defensive posture even when descending rapidly. Knee injuries can occur from improper landing mechanics, so practice the knee-down portion slowly before adding speed. If you have existing neck, shoulder, or knee injuries, consult with your instructor about modified versions of this technique."
+    "safety_considerations": "Controlled Descent involves intentionally going to the ground and carries inherent risks that require attention. Ensure the training area is properly matted with no gaps or hard surfaces at the edges. When drilling, communicate with your partner before initiating descent so they can adjust their weight and avoid inadvertently driving you into the mat with full force. The neck remains vulnerable throughout the transition, so never rush the technique in a way that compromises your protective chin tuck. In competition or intense sparring, be aware that opponents may attempt to drive through the descent aggressively - maintain defensive posture even when descending rapidly. Knee injuries can occur from improper landing mechanics, so practice the knee-down portion slowly before adding speed. If you have existing neck, shoulder, or knee injuries, consult with your instructor about modified versions of this technique.",
+    "clips": [
+      {
+        "id": "HWrsepCcaUk",
+        "title": "Mat return from standing back control",
+        "by": "William Abreu",
+        "vertical": false,
+        "channel": "William Abreu",
+        "duration": 194,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Controlled Descent Defender",
@@ -397,6 +408,26 @@
         "phase": "Week 7+",
         "focus": "Live integration",
         "description": "Incorporate into full sparring rounds starting from standing back control. Develop real-time decision-making between following descent, attacking standing submissions, and converting to alternative control positions. Focus on reading opponent's intent early and selecting the optimal counter response."
+      }
+    ],
+    "clips": [
+      {
+        "id": "s_bNe2rnQcg",
+        "title": "Standing cutback escape from back control",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 201,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "3Jd2llamfl8",
+        "title": "Back control escape explained simply",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 189,
+        "verified": "2026-07-15"
       }
     ]
   },

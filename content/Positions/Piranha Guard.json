@@ -733,6 +733,17 @@
         "question": "How do you manage energy in Piranha Guard during extended guard battles?",
         "answer": "Energy management requires active periods of attack followed by brief consolidation phases where you maintain strong grip tension with minimal movement. Avoid constant maximal effort; instead, create threat sequences that force the opponent to react while you conserve energy during their defensive movements. Use the lapel configuration as a passive barrier during rest phases—the opponent must work to clear it even when you're not actively attacking. Choose efficient attacks like collar drags and berimbolo entries that use their movement rather than pure strength-based sweeps that deplete your energy faster."
       }
+    ],
+    "clips": [
+      {
+        "id": "xwERZYBqP9Q",
+        "title": "Lapel guard basics for beginners",
+        "by": "Daniel Maira",
+        "vertical": false,
+        "channel": "JonThomasBJJ Plus",
+        "duration": 250,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -763,6 +774,26 @@
     {
       "question": "How does the lapel routing in Piranha Guard differ from its sister lapel guards such as Worm Guard and Squid Guard?",
       "answer": "All three weaponize the opponent's collar for leverage, but they differ in where the lapel is routed and therefore where the lever forms. Worm Guard typically wraps the lapel around the outside of a leg to create a lever along the opponent's far side, while Squid Guard uses a distinct threading and hip configuration to build its angles. Piranha Guard is specifically defined by feeding the collar between the bottom player's own legs so the leg triangle itself becomes the pulley. Because they share the same raw material, the collar can be re-routed to convert one configuration into another when the current one is threatened."
+    }
+  ],
+  "clips": [
+    {
+      "id": "QzwnLW735U8",
+      "title": "Worm guard breakdown",
+      "by": "Erich Munis",
+      "vertical": false,
+      "channel": "Deep Dive JJ",
+      "duration": 53,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "37RW-Z4xn0U",
+      "title": "Keenan's lapel guard concept",
+      "by": "Keenan Cornelius",
+      "vertical": false,
+      "channel": "Keenan Cornelius",
+      "duration": 100,
+      "verified": "2026-07-14"
     }
   ]
 }

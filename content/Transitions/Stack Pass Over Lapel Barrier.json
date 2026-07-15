@@ -258,7 +258,27 @@
         "answer": "The highest-risk moment occurs when you are driving forward but have not yet achieved full compression—the intermediate range where you have committed your weight but the opponent's hips are still mobile. At this point, the opponent can load sweeps using your forward momentum, create angles for back takes, or lock closed guard around your waist. This is why full commitment is essential: hesitating in this intermediate range gives the opponent maximum leverage from their lapel configuration while you have already sacrificed your standing posture. Drive through this range as quickly as possible to reach the compressed position where your weight advantage takes over."
       }
     ],
-    "safety_considerations": "The stack pass compresses the opponent's spine significantly, which can cause discomfort or injury if applied excessively. During training, communicate with your partner and release pressure immediately if they tap or express discomfort. Avoid driving excessive weight onto opponents with pre-existing neck or back issues. The pass should fold them, not injure them. When drilling, start with controlled pressure and increase gradually as both partners become comfortable with the compression mechanics. In competition, be aware that fully compressed opponents may tap from discomfort rather than submission—this is a valid outcome but should not be the primary goal in training contexts where you want to develop passing mechanics."
+    "safety_considerations": "The stack pass compresses the opponent's spine significantly, which can cause discomfort or injury if applied excessively. During training, communicate with your partner and release pressure immediately if they tap or express discomfort. Avoid driving excessive weight onto opponents with pre-existing neck or back issues. The pass should fold them, not injure them. When drilling, start with controlled pressure and increase gradually as both partners become comfortable with the compression mechanics. In competition, be aware that fully compressed opponents may tap from discomfort rather than submission—this is a valid outcome but should not be the primary goal in training contexts where you want to develop passing mechanics.",
+    "clips": [
+      {
+        "id": "EC4JVnymW3U",
+        "title": "Stack pass from closed guard",
+        "by": "Procel BJJ coach",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 95,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2KcAEYsaHAg",
+        "title": "Stack pass breakdown",
+        "by": "Kenny Kim",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 88,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Stack Pass Over Lapel Barrier Defender",
@@ -387,6 +407,17 @@
         "phase": "Week 7+",
         "focus": "Live sparring integration with full passing exchanges",
         "description": "Integrate stack defense into full guard retention sequences during sparring. Recognize when the passer is choosing stack versus backstep versus long step and apply the appropriate defensive framework. Develop automatic reactions to stack cues that don't require conscious decision-making."
+      }
+    ],
+    "clips": [
+      {
+        "id": "bddWtJxLWKg",
+        "title": "Backward roll counter to the stack pass",
+        "by": "Pacific Martial Arts",
+        "vertical": false,
+        "channel": "Pacific Martial Arts",
+        "duration": 61,
+        "verified": "2026-07-15"
       }
     ]
   },

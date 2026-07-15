@@ -420,6 +420,35 @@
         "question": "Opponent has cleared your bottom hook - how do you recover position before they complete the escape?",
         "answer": "Immediately transition to body triangle attempt with your top leg or swing the cleared leg over their body to establish reverse hooks. Simultaneously tighten seat belt grip and increase chest pressure to prevent further rotation. If body triangle isn't available, use your free leg to post and prevent them from completing the turn while working to re-insert the hook from a new angle. Consider transitioning to technical mount or gift wrap if hook recovery isn't immediately possible - maintaining some control is better than losing position entirely."
       }
+    ],
+    "clips": [
+      {
+        "id": "MwxnveKrlxU",
+        "title": "Seatbelt Grip Quick Fix",
+        "by": "Ben Kool",
+        "vertical": false,
+        "channel": "Ben Kool Tech",
+        "duration": 62,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "rvh8MFq_tb0",
+        "title": "Deep Seatbelt Control",
+        "by": "Tom Halpin",
+        "vertical": false,
+        "channel": "Tom Halpin",
+        "duration": 111,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Es7T1KjTUpI",
+        "title": "Application Against a Seated Opponent",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 157,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -736,6 +765,26 @@
         "question": "When is it appropriate to attempt the rolling escape from back control?",
         "answer": "Attempt rolling escapes when opponent extends their body to complete a submission, temporarily loosening their hook control. Also effective when opponent is high on your back with their weight forward, making them susceptible to being rolled. Do not attempt rolls when opponent has tight hooks and compact body positioning - this wastes energy and often results in worse position. The roll requires opponent's commitment elsewhere that compromises their hook security."
       }
+    ],
+    "clips": [
+      {
+        "id": "_sBB-O8fqP4",
+        "title": "Standing Up from Back Control",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 114,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "_1jEnlqZgS0",
+        "title": "Makikomi Roll vs Seat Belt/Harness",
+        "by": "Corey McWilliams",
+        "vertical": false,
+        "channel": "Corey McWilliams",
+        "duration": 264,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -770,6 +819,26 @@
     {
       "question": "Can a seat belt exist without hooks, and what does that transitional state reveal about the position's control layers?",
       "answer": "Yes, the seat belt grip can be held momentarily without hooks during transitions, where the upper-body diagonal grip temporarily compensates for missing leg control. This reveals that the position has two somewhat independent control layers: the upper-body diagonal grip and the lower-body hooks. A complete seat belt has both, but either can briefly carry control while the other is being established or recovered. Understanding these as separable layers explains why re-establishing a lost hook while keeping the grip, or vice versa, is a normal part of maintaining the position."
+    }
+  ],
+  "clips": [
+    {
+      "id": "MwxnveKrlxU",
+      "title": "Seatbelt Grip Quick Fix",
+      "by": "Ben Kool",
+      "vertical": false,
+      "channel": "Ben Kool Tech",
+      "duration": 62,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "baSqWCtLysU",
+      "title": "Back Mount Seatbelt Control Fundamentals",
+      "by": "Teach Me NoGi",
+      "vertical": false,
+      "channel": "Teach Me NoGi",
+      "duration": 212,
+      "verified": "2026-07-14"
     }
   ]
 }

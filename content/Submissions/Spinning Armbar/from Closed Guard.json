@@ -377,6 +377,35 @@
         "answer": "If wrist control slips during the finish, immediately transition to a figure-four grip (gable grip or S-grip) where both hands connect together while controlling the arm above and below the elbow. This distributes the control across both hands and eliminates the weak point of single-hand wrist control. Alternatively, cup their wrist with one hand while your other forearm presses down on their forearm just below the elbow - this creates a two-point pressure system. You can also secure their wrist in your armpit by pulling it deep toward your far shoulder while squeezing your elbow tight. Never chase a slipping grip by releasing with both hands simultaneously - always maintain at least one control point while adjusting the other.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "D2tutut1zio",
+        "title": "Armbar from Closed Guard",
+        "by": "Gracie Barra Boston",
+        "vertical": false,
+        "channel": "Gracie Barra Boston",
+        "duration": 103,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "F4Ns40AnI3Q",
+        "title": "Closed Guard Pull to Armbar",
+        "by": "Satori BJJ",
+        "vertical": false,
+        "channel": "Satori BJJ",
+        "duration": 41,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "FBDG7u5lOjk",
+        "title": "Armbar from Closed Guard: Hand Positioning",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 138,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -519,6 +548,26 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Defending spinning armbars during live rolling with full resistance",
         "description": "Positional sparring starting from positions where spinning armbars are common (closed guard, mount attacks). Attacker works spinning armbars at full speed while defender applies trained defensive responses. Track which defenses succeed most frequently and which attack setups are hardest to defend. Refine recognition timing and defensive selection based on live results."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "My Favorite Armbar Escape",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "_ntIcP_zf4s",
+        "title": "Best Armbar Escape When They're Close to Finishing",
+        "by": "Chewjitsu",
+        "vertical": false,
+        "channel": "Chewjitsu",
+        "duration": 245,
+        "verified": "2026-07-14"
       }
     ]
   },

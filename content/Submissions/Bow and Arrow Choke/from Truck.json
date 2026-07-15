@@ -333,6 +333,26 @@
         "answer": "The choke must be applied slowly and progressively, taking a minimum of 3-5 seconds from initial pressure to full compression. This allows the training partner adequate time to recognize the choke is locked and deliver a tap signal before unconsciousness occurs. Never spike or jerk the choke in training. Competition-speed application is reserved for competition only. Smooth, progressive tightening protects your training partners.",
         "safety_critical": true
       }
+    ],
+    "clips": [
+      {
+        "id": "YqlKl-La88s",
+        "title": "Mastering the Truck",
+        "by": "10th Planet Newport",
+        "vertical": false,
+        "channel": "10th Planet Newport",
+        "duration": 216,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "vsrzIeye0uw",
+        "title": "Rear Naked Choke Series (MTS 194)",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 57,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -468,6 +488,17 @@
         "phase": "Phase 4: Multi-Threat Defense Integration",
         "focus": "Defending bow and arrow within the context of all truck threats",
         "description": "Partner alternates between twister, calf slicer, and bow and arrow from truck. Defender must read which attack is coming and adjust defensive priorities accordingly. Develops the split-attention awareness needed to survive the truck's multi-threat system."
+      }
+    ],
+    "clips": [
+      {
+        "id": "DBbSqQf6iCo",
+        "title": "Roll Under Escape to Backside 50/50",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 110,
+        "verified": "2026-07-14"
       }
     ]
   }

@@ -290,7 +290,18 @@
         "answer": "The grip-first variant establishes control before the transition begins, making the extraction safer but potentially alerting the opponent to a positional change through the grip itself. The reaction-based variant uses a submission threat to freeze the opponent's hips and occupy their arms, creating a distraction window for leg extraction. The reaction-based entry carries higher risk because it requires committing to a credible submission feint while simultaneously executing the base change—if the opponent does not react to the feint, you may find yourself mid-extraction without the expected freeze. The grip-first variant is more reliable against all opponents, while the reaction-based variant is more effective specifically against experienced defenders who counter grip establishment."
       }
     ],
-    "safety_considerations": "The Transition to 3-4 Mount is a positional adjustment with low inherent injury risk. However, practitioners should avoid driving the posted knee into training partners with excessive force during the consolidation phase, as concentrated knee pressure on the ribcage can cause bruising or rib injuries. During drilling, communicate with your partner about pressure levels and avoid full competition intensity on the knee drive until both practitioners are comfortable with the position. The primary safety concern is the bottom player's breathing—heavy chest pressure combined with a tight mounted knee can restrict breathing significantly, so monitor your partner for distress signals and allow breathing space during extended drilling sessions."
+    "safety_considerations": "The Transition to 3-4 Mount is a positional adjustment with low inherent injury risk. However, practitioners should avoid driving the posted knee into training partners with excessive force during the consolidation phase, as concentrated knee pressure on the ribcage can cause bruising or rib injuries. During drilling, communicate with your partner about pressure levels and avoid full competition intensity on the knee drive until both practitioners are comfortable with the position. The primary safety concern is the bottom player's breathing—heavy chest pressure combined with a tight mounted knee can restrict breathing significantly, so monitor your partner for distress signals and allow breathing space during extended drilling sessions.",
+    "clips": [
+      {
+        "id": "OI73kR-gvbQ",
+        "title": "Clearing the foot between mount and 3/4 mount",
+        "by": "Mack Training Academy",
+        "vertical": false,
+        "channel": "Mack Training Academy ",
+        "duration": 94,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Mount to 3-4 Mount Defender",
@@ -407,6 +418,35 @@
         "phase": "Phase 4: Live Defense Rounds",
         "focus": "Full resistance defense with position reset",
         "description": "Start from standard mount with full resistance. Top player attempts to transition to 3-4 Mount using any method. Bottom player defends using trained responses. Score: bottom player earns points for preventing the transition or recovering guard, top player earns points for completing the transition and consolidating. Rotate partners to experience different body types and transition styles."
+      }
+    ],
+    "clips": [
+      {
+        "id": "NHrpJdU8wCQ",
+        "title": "Technical mount escape out the back",
+        "by": "smallmanbjj coach",
+        "vertical": false,
+        "channel": "smallmanbjj",
+        "duration": 58,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "PnBb1hxjCkw",
+        "title": "Escaping the mount, part 1",
+        "by": "10th Planet West LA coach",
+        "vertical": false,
+        "channel": "10th Planet Jiu Jitsu - West LA",
+        "duration": 94,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "hyQouCv4tDs",
+        "title": "Stiff arm escape from full mount",
+        "by": "Andy Tong",
+        "vertical": false,
+        "channel": "Andy Tong",
+        "duration": 13,
+        "verified": "2026-07-15"
       }
     ]
   }

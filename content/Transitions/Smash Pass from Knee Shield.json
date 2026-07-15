@@ -279,7 +279,36 @@
         "answer": "Four conditions are essential: crossface or shoulder pressure controlling the opponent's upper body must be established first; a controlling grip on the knee shield leg at the ankle or pants must be secured; your base must be wide and stable enough to absorb sweep attempts during the pass; and the bottom player's underhook arm must be controlled or blocked. Attempting the smash without all four conditions dramatically reduces success rate and exposes you to sweeps and guard recoveries."
       }
     ],
-    "safety_considerations": "The smash pass applies significant compressive pressure to the opponent's ribcage, spine, and jaw through shoulder driving and body weight. Apply pressure progressively rather than explosively to prevent rib injuries and intercostal strains. Be mindful of your training partner's breathing—if they signal distress or tap from pressure alone, release immediately. During the hip switch phase, be careful not to torque the opponent's trapped leg at an unnatural angle, as this can stress the knee and ankle joints. In training, communicate with your partner about pressure intensity and build gradually to full pressure over multiple repetitions."
+    "safety_considerations": "The smash pass applies significant compressive pressure to the opponent's ribcage, spine, and jaw through shoulder driving and body weight. Apply pressure progressively rather than explosively to prevent rib injuries and intercostal strains. Be mindful of your training partner's breathing—if they signal distress or tap from pressure alone, release immediately. During the hip switch phase, be careful not to torque the opponent's trapped leg at an unnatural angle, as this can stress the knee and ankle joints. In training, communicate with your partner about pressure intensity and build gradually to full pressure over multiple repetitions.",
+    "clips": [
+      {
+        "id": "Y815hmtzGZA",
+        "title": "Knee shield half guard pass",
+        "by": "Adam Metcalf",
+        "vertical": false,
+        "channel": "ADAM METCALF",
+        "duration": 30,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "1FG1o31-mMc",
+        "title": "Knee-side smash passes in 90 seconds",
+        "by": "ROL Radio coach",
+        "vertical": false,
+        "channel": "The ROL Radio Podcast",
+        "duration": 91,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "UXCySaKOndI",
+        "title": "Knee shield half guard pass",
+        "by": "Bowerhouse MMA coach",
+        "vertical": false,
+        "channel": "BOWERHOUSE MMA",
+        "duration": 121,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Smash Pass from Knee Shield Defender",
@@ -404,6 +433,26 @@
         "phase": "Phase 4: Competitive Defense",
         "focus": "Full resistance defensive sparring from knee shield bottom",
         "description": "Positional sparring starting from knee shield half guard. Bottom player defends all passing attempts with full resistance. Track which defensive option you use most often and which has the highest success rate. Identify patterns in your defense that advanced passers exploit and refine weak points."
+      }
+    ],
+    "clips": [
+      {
+        "id": "8YxAYfWINeQ",
+        "title": "Countering the double over smash pass",
+        "by": "BJJ & Submission Grappling coach",
+        "vertical": false,
+        "channel": "Brazilian Jiu-Jitsu & Submission Grappling",
+        "duration": 164,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lVLAROiSjNU",
+        "title": "Guard retention: when to sit up and escape",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 136,
+        "verified": "2026-07-15"
       }
     ]
   }

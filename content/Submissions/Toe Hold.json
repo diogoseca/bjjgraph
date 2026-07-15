@@ -285,5 +285,43 @@
       "name": "Cross Ashi-Garami",
       "relationship": "Cross-body leg entanglement offering unique Toe Hold angles and enhanced control"
     }
+  ],
+  "clips": [
+    {
+      "id": "B_StkmaI3Nc",
+      "title": "Toe Hold from 50/50",
+      "by": "John Danaher",
+      "vertical": false,
+      "channel": "Dohn Janaher ",
+      "duration": 17,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "xwaJm1Ft5lc",
+      "title": "Paper Cutter Toehold from 50/50",
+      "by": "Garden State BJJ",
+      "vertical": false,
+      "channel": "Garden State Brazilian Jiu-Jitsu Academy",
+      "duration": 60,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "BbPdLSszYt8",
+      "title": "Fifty-fifty toe hold",
+      "by": "Ninja Pinto",
+      "vertical": false,
+      "channel": "Ninja Pinto BJJ",
+      "duration": 70,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "Kx8gZ3QdO8s",
+      "title": "Crossover Toe Hold",
+      "by": "Craig Jones",
+      "vertical": false,
+      "channel": "Bence Romanek",
+      "duration": 51,
+      "verified": "2026-07-14"
+    }
   ]
 }

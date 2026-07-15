@@ -319,6 +319,26 @@
         "answer": "When facing counter-entanglement attempts, you must accelerate your grip establishment timeline while maintaining enough leg control to prevent the reversal. Prioritize locking the figure-four grip quickly and beginning rotation before they can establish their own attacking position. If they succeed in reaching your leg before you finish, consider abandoning the toe hold to defend the counter-attack rather than fighting both the finish and the defense simultaneously.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "tUKGafnOlJo",
+        "title": "Slide into Ashi to Straight Toe Hold",
+        "by": "Josh Star-Lord Leduc",
+        "vertical": false,
+        "channel": "Josh Star-Lord Leduc",
+        "duration": 58,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "TkSFu08UXec",
+        "title": "Toe Hold / Kneebar from Reverse Ashi",
+        "by": "Mads H.",
+        "vertical": false,
+        "channel": "Mads H. BJJ",
+        "duration": 296,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -450,6 +470,26 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Full defensive sequences under progressive resistance",
         "description": "Positional sparring starting from ushiro ashi-garami with partner attacking the toe hold at increasing intensity. Practice the full defensive hierarchy: grip prevention, dorsiflexion, counter-entanglement, and safe tapping. Partner increases speed and intensity over sessions from 50% to 80%."
+      }
+    ],
+    "clips": [
+      {
+        "id": "cRXsNPAgVLU",
+        "title": "Irimi Ashi Garami Counter",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 29,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "m4UEhHwbGfQ",
+        "title": "Ashi Garami Escape to Mount",
+        "by": "Troy Manning",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 76,
+        "verified": "2026-07-14"
       }
     ]
   }

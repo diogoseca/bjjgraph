@@ -294,7 +294,36 @@
         "answer": "The most common error is immediately attempting to extract the trapped leg and complete the pass without first consolidating the flattened position. When you rush to pass, you must shift your weight, which creates momentary space the opponent can use to re-establish their hip frame and swim the underhook back in. Instead, spend several seconds settling into the flattened half guard, ensuring shoulders are pinned flat, underhook is neutralized, and crossface is dominant before beginning any pass attempt."
       }
     ],
-    "safety_considerations": "The Smash Pocket Half involves significant pressure application to the opponent's torso and face. Be mindful of the crossface pressure on the jaw and neck area, avoiding excessive force that could cause cervical strain. Apply pressure progressively rather than explosively to give training partners time to tap if uncomfortable. Be aware that chest compression on smaller training partners can restrict breathing, so maintain communication and respond immediately to taps or verbal signals of distress."
+    "safety_considerations": "The Smash Pocket Half involves significant pressure application to the opponent's torso and face. Be mindful of the crossface pressure on the jaw and neck area, avoiding excessive force that could cause cervical strain. Apply pressure progressively rather than explosively to give training partners time to tap if uncomfortable. Be aware that chest compression on smaller training partners can restrict breathing, so maintain communication and respond immediately to taps or verbal signals of distress.",
+    "clips": [
+      {
+        "id": "8WbQvytyCX0",
+        "title": "Passing the flat half guard",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 63,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "kyDmvr3qvY0",
+        "title": "Countering the half guard underhook on top",
+        "by": "Marcos Escobar",
+        "vertical": false,
+        "channel": "Marcos Escobar",
+        "duration": 132,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "aAd6OIq94X0",
+        "title": "Body lock pass off their underhook",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 205,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Smash Pocket Half Defender",
@@ -414,6 +443,17 @@
         "phase": "Phase 4: Positional Sparring Integration",
         "focus": "Applying defensive skills in live rolling scenarios",
         "description": "Start in Pocket Half Guard Bottom against a partner who may or may not attempt the smash. Bottom player must maintain pocket structure, recognize smash attempts, and execute appropriate defenses while also pursuing their own offensive game. Full resistance with position resets on pass or sweep."
+      }
+    ],
+    "clips": [
+      {
+        "id": "XqxdMRY2qqk",
+        "title": "Stop getting smashed in half guard",
+        "by": "Grapplers Planet coach",
+        "vertical": false,
+        "channel": "Grapplers Planet",
+        "duration": 241,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -347,6 +347,26 @@
         "answer": "When you attack the kimura from North-South, your opponent's natural defense is to clamp their elbows tight to their body and grip their own wrist or belt to prevent arm isolation. This elbow-clamped defensive posture pulls their arms away from their neck, removing the frames that would normally block your choking arm from threading underneath. When you recognize the kimura defense, immediately abandon the kimura grip and thread your arm under their exposed neck. The transition must be fast enough that the opponent cannot switch from arm defense to neck defense.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "z3RNUfHfiSM",
+        "title": "Marcelo Garcia - North South Choke",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "Kon Ying",
+        "duration": 20,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "SPXanCnoBYA",
+        "title": "North South Choke as a Pinning Tool",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 135,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -483,6 +503,26 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Integrating recognition and defense under full resistance",
         "description": "Positional sparring starting from North-South bottom against a partner actively hunting the choke. Practice reading which attack is coming and choosing the appropriate defensive response. Include rounds where the partner mixes in kimura and positional transitions to develop complete defensive decision-making."
+      }
+    ],
+    "clips": [
+      {
+        "id": "XaLBmGnHm78",
+        "title": "North South inverted spin escape",
+        "by": "SBG Australia",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 37,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "rmT52A--V3Q",
+        "title": "How to escape North South",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ Plus",
+        "duration": 203,
+        "verified": "2026-07-14"
       }
     ]
   }

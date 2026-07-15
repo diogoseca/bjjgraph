@@ -286,7 +286,27 @@
         "answer": "Hip movement serves dual purposes: it changes the angle between your neck and the opponent's choking arm, reducing choke effectiveness, and it creates the positional displacement needed for escape. Initiate hip movement concurrently with grip fighting, not sequentially—small shrimps during grip exchanges accumulate into meaningful angle changes. The hip movement should not be large or explosive, as this diverts energy and attention from the primary choke defense, but rather incremental shrimps timed with each successful grip disruption."
       }
     ],
-    "safety_considerations": "Crucifix choke defense training involves working against active neck attacks where injury risk is elevated. Partners must release choke pressure immediately when the bottom player taps or shows any signs of distress including slapping, verbal tapping, or going limp. Never hold a choke in training to test whether defense will work—the margin between effective choke and loss of consciousness is narrow and unpredictable. Train grip fighting progressively, starting at low intensity to prevent wrist, finger, and neck injuries. When drilling, establish clear verbal signals for stopping if the choke becomes too tight for productive training. The trapped arm in crucifix is vulnerable to shoulder strain—partners should avoid cranking the leg triangle aggressively during defense drills."
+    "safety_considerations": "Crucifix choke defense training involves working against active neck attacks where injury risk is elevated. Partners must release choke pressure immediately when the bottom player taps or shows any signs of distress including slapping, verbal tapping, or going limp. Never hold a choke in training to test whether defense will work—the margin between effective choke and loss of consciousness is narrow and unpredictable. Train grip fighting progressively, starting at low intensity to prevent wrist, finger, and neck injuries. When drilling, establish clear verbal signals for stopping if the choke becomes too tight for productive training. The trapped arm in crucifix is vulnerable to shoulder strain—partners should avoid cranking the leg triangle aggressively during defense drills.",
+    "clips": [
+      {
+        "id": "Wrg5Tx-88yM",
+        "title": "Simple crucifix escape",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 149,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "6vb_D-aobfg",
+        "title": "Crucifix escape with a back roll",
+        "by": "Adam Bradley",
+        "vertical": false,
+        "channel": "Adam Bradley",
+        "duration": 189,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Crucifix Choke Defense Defender",
@@ -401,6 +421,26 @@
         "phase": "Phase 3: Live Finishing Against Full Defense",
         "focus": "Completing submissions against active choke defense and escape attempts",
         "description": "Partner defends at 80-100% intensity including grip fighting, hip escapes, and escape attempts. Top player must read defenses in real-time, switch attacks appropriately, and complete submissions or maintain dominant position. Track finish rate and identify which defensive patterns consistently prevent completion."
+      }
+    ],
+    "clips": [
+      {
+        "id": "C7wr6klxbC8",
+        "title": "Crucifix escape",
+        "by": "Chosen Few BJJ",
+        "vertical": false,
+        "channel": "Chosen Few BJJ",
+        "duration": 89,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Wrg5Tx-88yM",
+        "title": "Simple crucifix escape",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 149,
+        "verified": "2026-07-15"
       }
     ]
   }

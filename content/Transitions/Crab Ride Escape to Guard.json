@@ -297,7 +297,36 @@
         "answer": "Accelerate the rotation and pull the opponent into your guard immediately rather than stopping to block the incoming hook with your hand. The window between crab ride and full back control is your last opportunity, so commit fully to the guard pull. Getting your hips under them and engaging both legs makes the second hook irrelevant, whereas pausing to fight the hook usually gives the opponent the time and angle they need to finish the back take."
       }
     ],
-    "safety_considerations": "This escape involves significant spinal rotation and neck protection must be maintained throughout all phases. Never sacrifice neck defense for positional escape, as rear naked choke or neck crank risks are present throughout the movement. The hip rotation phase places stress on the lower back and knees, so practitioners with pre-existing lumbar or knee injuries should modify the turning mechanics to reduce joint stress. Always tap immediately if the opponent secures a choke during escape attempts. When drilling, communicate clearly with training partners about resistance levels, particularly during the hook stripping phase where aggressive stripping against a resistant hook can torque the ankle or knee of the top player."
+    "safety_considerations": "This escape involves significant spinal rotation and neck protection must be maintained throughout all phases. Never sacrifice neck defense for positional escape, as rear naked choke or neck crank risks are present throughout the movement. The hip rotation phase places stress on the lower back and knees, so practitioners with pre-existing lumbar or knee injuries should modify the turning mechanics to reduce joint stress. Always tap immediately if the opponent secures a choke during escape attempts. When drilling, communicate clearly with training partners about resistance levels, particularly during the hook stripping phase where aggressive stripping against a resistant hook can torque the ankle or knee of the top player.",
+    "clips": [
+      {
+        "id": "-S6bU0mQp1Y",
+        "title": "Escape the crab ride",
+        "by": "Brian Hawkins",
+        "vertical": false,
+        "channel": "Brian Hawkins",
+        "duration": 78,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "PPiiUtZSIfQ",
+        "title": "No-gi De La Riva counter to crab ride",
+        "by": "The Base Jiu Jitsu",
+        "vertical": false,
+        "channel": "The Base Jiu Jitsu",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "jdUhyICbKSM",
+        "title": "Crab ride defense: head hunt to low leg cradle",
+        "by": "Michael Trasso",
+        "vertical": false,
+        "channel": "Merge Grappling",
+        "duration": 33,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Crab Ride Escape to Guard Defender",
@@ -417,6 +446,17 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Full resistance positional sparring maintaining crab ride against all escape attempts",
         "description": "Positional sparring starting from crab ride with both players at full resistance. Top player works to either maintain crab ride or advance to back control while bottom player attempts any available escape. Track outcomes over 10 rounds to measure defensive improvement and back take conversion rate."
+      }
+    ],
+    "clips": [
+      {
+        "id": "qp--XOaaFjk",
+        "title": "Crab ride turn when trapped on your back",
+        "by": "CMPTV",
+        "vertical": false,
+        "channel": "CMPTV",
+        "duration": 61,
+        "verified": "2026-07-15"
       }
     ]
   }

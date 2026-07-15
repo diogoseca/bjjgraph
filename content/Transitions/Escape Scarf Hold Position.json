@@ -306,7 +306,36 @@
         "answer": "The primary cues are tactile rather than visual: feeling the opponent's weight shift forward when attacking submissions or transitioning positions, sensing loosened head control when they adjust grips, detecting base narrowing when they reach for attacks. The most reliable window occurs when the opponent releases head control to attack your far arm, as this momentarily frees your head mobility for escape mechanics."
       }
     ],
-    "safety_considerations": "Escaping scarf hold involves explosive bridging movements that stress the cervical spine and lower back. Practice bridge mechanics gradually with progressive resistance to build tolerance. Tap immediately if opponent secures deep submission grips during escape attempts rather than fighting through joint locks. Avoid violent bridging without proper warm-up. When drilling, partners should communicate about pressure levels to prevent rib injuries from sustained hip compression. Stop immediately if experiencing sharp neck pain during bridge-and-turn execution."
+    "safety_considerations": "Escaping scarf hold involves explosive bridging movements that stress the cervical spine and lower back. Practice bridge mechanics gradually with progressive resistance to build tolerance. Tap immediately if opponent secures deep submission grips during escape attempts rather than fighting through joint locks. Avoid violent bridging without proper warm-up. When drilling, partners should communicate about pressure levels to prevent rib injuries from sustained hip compression. Stop immediately if experiencing sharp neck pain during bridge-and-turn execution.",
+    "clips": [
+      {
+        "id": "2M_6VytUaus",
+        "title": "Kesa gatame escape",
+        "by": "SBG Australia coach",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 43,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "chpoSczCLTI",
+        "title": "Scarf hold escape with low underhook ghost escape",
+        "by": "Mat Life coach",
+        "vertical": false,
+        "channel": "Mat Life Training Center",
+        "duration": 20,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "5eAmcE9UXNc",
+        "title": "Modified kesa-gatame escape",
+        "by": "Shane Moore",
+        "vertical": false,
+        "channel": "Shane Moore Jiu Jitsu",
+        "duration": 126,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Escape Scarf Hold Position Defender",
@@ -422,6 +451,35 @@
         "phase": "Submission Integration Phase",
         "focus": "Attacking submissions while defending escape attempts",
         "description": "Partner works full-resistance escapes while you chain submission attacks including americana, kimura, and arm triangle into escape defense sequences. Focus on recognizing which submissions become available based on specific escape attempts without compromising positional control."
+      }
+    ],
+    "clips": [
+      {
+        "id": "5atT-Q9-CVw",
+        "title": "Kesa gatame escape",
+        "by": "Taylor",
+        "vertical": false,
+        "channel": "Taylorjiujitsu",
+        "duration": 14,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "17m6bnarNdE",
+        "title": "Arm attack options from scarf hold",
+        "by": "Alexey Olynick",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 89,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "g2DJyaBI2pk",
+        "title": "Kesa gatame: pinning the opponent",
+        "by": "Brent Yamamoto",
+        "vertical": false,
+        "channel": "Brent Yamamoto",
+        "duration": 96,
+        "verified": "2026-07-15"
       }
     ]
   }

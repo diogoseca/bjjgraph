@@ -279,7 +279,36 @@
         "answer": "Your choking arm should pull upward and toward your own body, creating a lifting action on the back of opponent's neck while your shoulder drives downward and forward into the side of their head. These opposing force vectors compress the carotid arteries from both sides simultaneously, creating the blood choke mechanism that produces the tap."
       }
     ],
-    "safety_considerations": "The Hindulotine to Darce transition involves choke mechanics that can become dangerous quickly once the grip is secured. Practice with controlled pressure, especially during the learning phase when timing and mechanics are still developing. Both the guillotine and Darce can restrict blood flow to the brain, so partners should tap early and practitioners should release immediately upon feeling a tap. Never continue applying pressure after a tap, even if you believe the choke was not tight. During drilling, communicate clearly about pressure levels and tap before discomfort becomes dangerous. The neck is vulnerable during transitions, so avoid explosive or jerky movements that could cause cervical spine injury. When rolling live, be aware that the transition creates a moment where neck position may be compromised if executed incorrectly."
+    "safety_considerations": "The Hindulotine to Darce transition involves choke mechanics that can become dangerous quickly once the grip is secured. Practice with controlled pressure, especially during the learning phase when timing and mechanics are still developing. Both the guillotine and Darce can restrict blood flow to the brain, so partners should tap early and practitioners should release immediately upon feeling a tap. Never continue applying pressure after a tap, even if you believe the choke was not tight. During drilling, communicate clearly about pressure levels and tap before discomfort becomes dangerous. The neck is vulnerable during transitions, so avoid explosive or jerky movements that could cause cervical spine injury. When rolling live, be aware that the transition creates a moment where neck position may be compromised if executed incorrectly.",
+    "clips": [
+      {
+        "id": "BMU1_wfjYTw",
+        "title": "Darce choke from the front headlock",
+        "by": "Procel BJJ",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 101,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "pnLk6jW0qeI",
+        "title": "Three darce choke finishes",
+        "by": "Bowerhouse MMA",
+        "vertical": false,
+        "channel": "BOWERHOUSE MMA",
+        "duration": 15,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "itnE4HweT8I",
+        "title": "Simple darce choke from front headlock",
+        "by": "Hellfish MMA",
+        "vertical": false,
+        "channel": "Hellfish Mixed Martial Arts",
+        "duration": 143,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Hindulotine to Darce Choke Defender",
@@ -403,6 +432,35 @@
         "phase": "Week 7+",
         "focus": "Integrated positional sparring",
         "description": "Start from Hindulotine with attacker free to attempt Darce, Anaconda, or guillotine finish. Defend all three threats and work to escape to neutral or advantageous positions. Track which defensive actions succeed most consistently and identify patterns in attacker timing to refine recognition."
+      }
+    ],
+    "clips": [
+      {
+        "id": "d1YBV8UTKds",
+        "title": "Darce choke defense",
+        "by": "Animal",
+        "vertical": false,
+        "channel": "Animal",
+        "duration": 53,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "iNZpCbutyrM",
+        "title": "Darce choke escape",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "FMAWiNfgp74",
+        "title": "Defending the front headlock darce",
+        "by": "BJJ101",
+        "vertical": false,
+        "channel": "BJJ101",
+        "duration": 30,
+        "verified": "2026-07-15"
       }
     ]
   },

@@ -284,7 +284,36 @@
         "answer": "Drive forward and slightly downward through your chest and hips, directing force through the opponent's centerline to fold them backward over their own hips. The vector is into and over them, not lifting up or pulling them toward you. Combined with head pressure on the near side, this forward-and-down drive collapses their posted-hand base and flattens them, at which point you redirect the pressure laterally to begin clearing the legs with the windshield wiper motion."
       }
     ],
-    "safety_considerations": "The bodylock pass applies significant compressive force to the opponent's torso and ribcage during the squeeze and drive phases. Practitioners should be mindful of training partners with rib injuries or breathing difficulties and apply pressure progressively during drilling rather than explosively. When driving the opponent backward, control the descent to prevent their head from impacting the mat. Release the lock immediately if your partner signals distress or taps due to rib compression. Avoid cranking the lock upward toward the neck, which can create dangerous cervical spine pressure."
+    "safety_considerations": "The bodylock pass applies significant compressive force to the opponent's torso and ribcage during the squeeze and drive phases. Practitioners should be mindful of training partners with rib injuries or breathing difficulties and apply pressure progressively during drilling rather than explosively. When driving the opponent backward, control the descent to prevent their head from impacting the mat. Release the lock immediately if your partner signals distress or taps due to rib compression. Avoid cranking the lock upward toward the neck, which can create dangerous cervical spine pressure.",
+    "clips": [
+      {
+        "id": "pUaS-9hIFIE",
+        "title": "Applying the body lock pass effectively",
+        "by": "Lucas Barbosa",
+        "vertical": false,
+        "channel": "Atos Jiu-Jitsu HQ | World's Best BJJ Academy - Home Page",
+        "duration": 37,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "nqFlswgRLnE",
+        "title": "Body lock pass variation with leg split",
+        "by": "Spring Hill BJJ coach",
+        "vertical": false,
+        "channel": "SpringHillBjj",
+        "duration": 77,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "BhFDcDU7oX0",
+        "title": "Body lock passing details",
+        "by": "Nicky Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 123,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Bodylock Pass from Seated Defender",
@@ -404,6 +433,35 @@
         "phase": "Phase 4: Live Application",
         "focus": "Full resistance seated guard defense integration",
         "description": "Positional sparring starting in seated guard with partner using bodylock pass as their primary attack. Defend with full toolbox of frames, counters, sweeps, and guard transitions against escalating resistance. Develop automatic defensive responses and identify personal weak points."
+      }
+    ],
+    "clips": [
+      {
+        "id": "AdEb7U9e4Z8",
+        "title": "Body lock pass counters",
+        "by": "Gracie Westchase coach",
+        "vertical": false,
+        "channel": "Gracie Westchase ",
+        "duration": 89,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "YVeeiNy43j4",
+        "title": "Body lock pass defense: inside position and elevator sweep",
+        "by": "Brian Glick",
+        "vertical": false,
+        "channel": "Brian Glick",
+        "duration": 123,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "9DXogw_sChY",
+        "title": "Countering a failed body lock pass",
+        "by": "Factory Fresh coach",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 139,
+        "verified": "2026-07-15"
       }
     ]
   }

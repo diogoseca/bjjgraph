@@ -370,6 +370,35 @@
         "answer": "In competition, entry speed can be maximized—the pivot, leg swing, and position establishment should be explosive. However, even in competition, finishing pressure should still be controlled and progressive over 1-2 seconds rather than explosive. This is because sudden explosive pressure can cause serious injury before the opponent or referee can stop the match, potentially resulting in disqualification and long-term consequences for your opponent. Elite competitors finish with controlled pressure, using their positional dominance rather than explosive force to secure the tap.",
         "safety_critical": true
       }
+    ],
+    "clips": [
+      {
+        "id": "I8f9wkX7n4Y",
+        "title": "Straight Arm Lock from Guard",
+        "by": "Gracie Charlottesville",
+        "vertical": false,
+        "channel": "Gracie Charlottesville",
+        "duration": 30,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "vSmRbpNmf-E",
+        "title": "Armbar breakdown",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 102,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "zpa_49EcTEA",
+        "title": "Armbar / Arm Drag from Guard",
+        "by": "Rich Castro",
+        "vertical": false,
+        "channel": "Rich Castro",
+        "duration": 52,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -505,6 +534,17 @@
         "phase": "Phase 3: Mid and Late Stage Escapes",
         "focus": "Stack defense and hitchhiker escape from established armbar positions",
         "description": "Start from progressively worse positions: first from angle-created stage, then from legs-positioned stage, then from full armbar with grip defense only. Practice stacking at 60-70% resistance and hitchhiker escapes at controlled speed. Develop sensitivity for which escape is available based on the tightness of the attacker's position."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "My favorite armbar escape",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "verified": "2026-07-14"
       }
     ]
   },

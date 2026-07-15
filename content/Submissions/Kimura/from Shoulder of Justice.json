@@ -371,6 +371,26 @@
         "answer": "In competition, the kimura grip itself is a powerful positional control tool beyond just the submission. If the opponent defends the finish effectively, use the grip to score advantages by threatening the rotation repeatedly, or transition the kimura grip into a back take by rolling them to their stomach for 4 points. If the opponent is stalling against the submission, transition to belly-down to increase urgency and force a tap or a scramble that creates scoring opportunities. Never abandon a secured kimura grip in competition—it controls the opponent even when the finish is temporarily unavailable, and referees award advantages for sustained near-submission threats.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "awNPX8E6bf4",
+        "title": "Kimura from side control",
+        "by": "Alavanca",
+        "vertical": false,
+        "channel": "Alavanca",
+        "duration": 16,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "qbKtgYa_wzk",
+        "title": "Controlling the elbow in the Kimura",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 68,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -503,6 +523,26 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Full-resistance positional sparring from Shoulder of Justice bottom",
         "description": "Positional rounds starting from Shoulder of Justice bottom against unrestricted top player. Defender must survive all submission attempts including but not limited to the kimura. Track success rate of prevention versus late-stage escapes and work to increase the ratio of early prevention through arm discipline."
+      }
+    ],
+    "clips": [
+      {
+        "id": "uRn3DRICpeY",
+        "title": "Late Kimura defense from bottom side control",
+        "by": "Fox Den Martial Arts",
+        "vertical": false,
+        "channel": "Fox Den Martial Arts",
+        "duration": 100,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "MM9rddEgJ58",
+        "title": "Kimura defense 101 from bottom side control",
+        "by": "Gracie Westchase",
+        "vertical": false,
+        "channel": "Gracie Westchase ",
+        "duration": 156,
+        "verified": "2026-07-14"
       }
     ]
   }

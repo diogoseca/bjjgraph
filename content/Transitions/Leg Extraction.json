@@ -275,7 +275,27 @@
         "answer": "Flattening eliminates the hip mobility required for extraction. Without the ability to hip escape or create angles, all escape mechanics become significantly more difficult or impossible. Maintaining active posting with your far hand and keeping shoulders turned toward the trapped leg preserves the movement foundation necessary for successful extraction."
       }
     ],
-    "safety_considerations": "Leg Extraction training requires careful attention to joint safety given the danger of Estima Lock submissions. Partners must communicate clearly throughout drilling, with the attacker controlling pressure and the defender tapping immediately when escape becomes impossible. Never force extraction attempts against fully locked submissions—the risk of ankle, Achilles tendon, or foot ligament injury far outweighs any training benefit. Begin all drilling at zero resistance, progressing only when mechanics are sound. Both partners should understand tap protocols and the defender should tap early when pressure reaches concerning levels. Avoid training this escape when fatigued, as reaction time decreases and injury risk increases. The position involves rotational stress on the ankle joint, so practitioners with previous ankle injuries should consult healthcare providers before intensive drilling."
+    "safety_considerations": "Leg Extraction training requires careful attention to joint safety given the danger of Estima Lock submissions. Partners must communicate clearly throughout drilling, with the attacker controlling pressure and the defender tapping immediately when escape becomes impossible. Never force extraction attempts against fully locked submissions—the risk of ankle, Achilles tendon, or foot ligament injury far outweighs any training benefit. Begin all drilling at zero resistance, progressing only when mechanics are sound. Both partners should understand tap protocols and the defender should tap early when pressure reaches concerning levels. Avoid training this escape when fatigued, as reaction time decreases and injury risk increases. The position involves rotational stress on the ankle joint, so practitioners with previous ankle injuries should consult healthcare providers before intensive drilling.",
+    "clips": [
+      {
+        "id": "R7lPdQWLOus",
+        "title": "Protecting and extracting your leg from 50/50",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "The Grapplers Guide by Jason Scully",
+        "duration": 161,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "DrjbaXt-nTo",
+        "title": "Rolling out of heel hooks to free the leg",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 243,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Leg Extraction Defender",
@@ -400,6 +420,17 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Full competition-intensity positional rounds starting from established Estima Lock. Attacker attempts to finish or transition, defender attempts extraction. Develop reading speed for escape phases and automatic counter selection under pressure. Track success rates to identify weak phases in your retention game."
+      }
+    ],
+    "clips": [
+      {
+        "id": "wIccehL7gkw",
+        "title": "Answering the leg extraction from footlock guard",
+        "by": "Mikey Musumeci",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 87,
+        "verified": "2026-07-15"
       }
     ]
   },

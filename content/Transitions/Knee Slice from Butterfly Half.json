@@ -331,7 +331,36 @@
         "answer": "Windshield-wiper your foot by circling it toward the mat on the far side rather than pulling it straight backward. The foot traces an arc that maintains constant contact with their legs, preventing any space from opening during extraction. Simultaneously maintain forward hip pressure so that the extraction does not create the backward momentum the bottom player needs to reguard. If the half guard grip is exceptionally tight, use your free hand to push their top knee down while you circle the foot free, but never sacrifice chest-to-chest pressure to reach for the leg."
       }
     ],
-    "safety_considerations": "When drilling the knee slice from butterfly half guard, exercise caution with the lateral pressure your slicing knee applies to the bottom player's inner thigh and knee joint. Excessive force or incorrect angle during the slice can stress the MCL and meniscus of the bottom player's trapped leg. Control your speed during the slicing phase, especially when the bottom player's leg is entangled and cannot move freely. The crossface should apply firm but controlled pressure—avoid driving forcefully into the jaw or neck in a way that could cause cervical spine discomfort. Both partners should communicate about pressure levels throughout the drill. During live sparring, be particularly aware of knee position when the bottom player is actively defending, as unexpected directional changes can create dangerous twisting forces on trapped joints. If the bottom player taps or verbally indicates discomfort at any point during the pass, release pressure immediately."
+    "safety_considerations": "When drilling the knee slice from butterfly half guard, exercise caution with the lateral pressure your slicing knee applies to the bottom player's inner thigh and knee joint. Excessive force or incorrect angle during the slice can stress the MCL and meniscus of the bottom player's trapped leg. Control your speed during the slicing phase, especially when the bottom player's leg is entangled and cannot move freely. The crossface should apply firm but controlled pressure—avoid driving forcefully into the jaw or neck in a way that could cause cervical spine discomfort. Both partners should communicate about pressure levels throughout the drill. During live sparring, be particularly aware of knee position when the bottom player is actively defending, as unexpected directional changes can create dangerous twisting forces on trapped joints. If the bottom player taps or verbally indicates discomfort at any point during the pass, release pressure immediately.",
+    "clips": [
+      {
+        "id": "Pk_6CrydIRQ",
+        "title": "Half butterfly guard pass for no-gi",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 110,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "yo6xI2LammA",
+        "title": "Passing butterfly guard with the knee slide",
+        "by": "Coach William",
+        "vertical": false,
+        "channel": "Coach William",
+        "duration": 98,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "jsy9oRpq998",
+        "title": "Half butterfly guard pass to knee slice",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 183,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Knee Slice from Butterfly Half Defender",
@@ -462,6 +491,35 @@
         "phase": "Phase 4: Live Defense Sparring",
         "focus": "Full resistance defense against knee slice from butterfly half guard bottom",
         "description": "Positional sparring starting in butterfly half guard bottom against a partner committed to the knee slice pass. Score points for sweeps, guard retention after 90 seconds, and successful transitions to alternative guard positions. Track which defensive options succeed most frequently against different training partners and refine your defensive decision-making under genuine pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "86KseinKoSY",
+        "title": "Knee slide recovery into butterfly sweep",
+        "by": "Italiano BJJ",
+        "vertical": false,
+        "channel": "Italiano BJJ",
+        "duration": 37,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "yiIHeo7NgsE",
+        "title": "Countering the knee slice pass",
+        "by": "Kohbukan Sisu",
+        "vertical": false,
+        "channel": "Kohbukan Sisu",
+        "duration": 58,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Da5PAZooedU",
+        "title": "Knee slice defense counter",
+        "by": "A Day In A Life",
+        "vertical": false,
+        "channel": "A DAY IN A LIFE",
+        "duration": 86,
+        "verified": "2026-07-15"
       }
     ]
   }

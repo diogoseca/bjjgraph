@@ -314,7 +314,27 @@
         "answer": "Prepare three primary chains based on opponent reactions: if they drive forward with pressure, enter berimbolo or kiss of the dragon; if they maintain upright posture and resist being pulled forward, transition underneath to X-Guard or Single Leg X; if they attempt to strip your grips, execute the basic DLR sweep before they complete the strip. Having these three reaction-based chains ready means you can attack within one to two seconds of establishing DLR rather than settling into a static holding position."
       }
     ],
-    "safety_considerations": "This transition involves threading your leg around the opponent's leg, which can create momentary knee vulnerability if the opponent sprawls or drives forward unexpectedly during hook insertion. Avoid forcing the DLR hook if the angle is not correct, as this can hyperextend your hooking knee. Communicate with training partners about the intensity of their passing pressure during transition drills to prevent accidental knee torque. The transition itself carries low injury risk compared to submissions, but practitioners with existing knee issues should develop the hook insertion gradually and avoid snapping the hook in aggressively."
+    "safety_considerations": "This transition involves threading your leg around the opponent's leg, which can create momentary knee vulnerability if the opponent sprawls or drives forward unexpectedly during hook insertion. Avoid forcing the DLR hook if the angle is not correct, as this can hyperextend your hooking knee. Communicate with training partners about the intensity of their passing pressure during transition drills to prevent accidental knee torque. The transition itself carries low injury risk compared to submissions, but practitioners with existing knee issues should develop the hook insertion gradually and avoid snapping the hook in aggressively.",
+    "clips": [
+      {
+        "id": "JUlOn-jrIzk",
+        "title": "Entering De La Riva from closed guard",
+        "by": "Affinity Academy",
+        "vertical": false,
+        "channel": "Affinity Academy",
+        "duration": 67,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Za6BUCYALrs",
+        "title": "De La Riva sweep trapping the sleeve",
+        "by": "Carlson Gracie Team CT",
+        "vertical": false,
+        "channel": "Carlson Gracie Team CT - CPBJJ",
+        "duration": 133,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Double Sleeve to De La Riva Defender",
@@ -431,6 +451,26 @@
         "phase": "Phase 4: Full Resistance Integration (Week 7+)",
         "focus": "Preventing DLR in live sparring from double sleeve",
         "description": "Positional sparring starting from double sleeve guard. Top player's goal is to prevent DLR establishment and pass the guard. Bottom player's goal is to establish DLR and sweep. Full resistance. Develop the ability to integrate DLR prevention into your broader passing strategy against double sleeve guard."
+      }
+    ],
+    "clips": [
+      {
+        "id": "8QnCpFYN0L8",
+        "title": "Knee slide pass against De La Riva",
+        "by": "Icon Jiu-Jitsu coach",
+        "vertical": false,
+        "channel": "ICON JIU-JITSU TEAM",
+        "duration": 31,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "krtNPm3OXtc",
+        "title": "Over under stack pass vs De La Riva",
+        "by": "Balance BJJ coach",
+        "vertical": false,
+        "channel": "geministeven",
+        "duration": 163,
+        "verified": "2026-07-15"
       }
     ]
   }

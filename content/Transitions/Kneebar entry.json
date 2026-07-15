@@ -259,7 +259,36 @@
         "answer": "Shift your grip from cupping the heel to controlling the ankle and lower shin area. Your heel-cupping hand slides to the Achilles while your other hand reinforces from the top of the foot. This grip repositioning secures their foot for the armpit trap rather than heel exposure, and must happen smoothly without releasing all control."
       }
     ],
-    "safety_considerations": "Kneebar attacks target the knee joint and can cause serious ligament damage (ACL, PCL, MCL, LCL) if applied without control. Always apply pressure gradually and give training partners time to tap. Never explosively bridge into the knee. When caught in a kneebar, tap early - the joint can be damaged before significant pain occurs. Beginners should practice positioning and entry without finishing pressure until mechanics are understood. Avoid this technique if you or your partner has pre-existing knee injuries. In training, establish clear tap protocols and release immediately upon tap or verbal submission."
+    "safety_considerations": "Kneebar attacks target the knee joint and can cause serious ligament damage (ACL, PCL, MCL, LCL) if applied without control. Always apply pressure gradually and give training partners time to tap. Never explosively bridge into the knee. When caught in a kneebar, tap early - the joint can be damaged before significant pain occurs. Beginners should practice positioning and entry without finishing pressure until mechanics are understood. Avoid this technique if you or your partner has pre-existing knee injuries. In training, establish clear tap protocols and release immediately upon tap or verbal submission.",
+    "clips": [
+      {
+        "id": "BbtWWX6Glw0",
+        "title": "50/50 Kneebar Entry",
+        "by": "The Jiu-Jitsu Foundry",
+        "vertical": false,
+        "channel": "The Jiu-Jitsu Foundry",
+        "duration": 40,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "-5BXaxHLsyo",
+        "title": "50/50 Spinning Kneebar Entry",
+        "by": "Andrew Smith",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 97,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "DBbSqQf6iCo",
+        "title": "Roll Under to Backside 50/50",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 110,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Kneebar entry Defender",
@@ -382,6 +411,26 @@
         "phase": "Week 7+",
         "focus": "Live defensive sparring",
         "description": "Start in 50-50 with partner attacking freely. Defend kneebar entries in live rolling while also managing heel hook threats. Develop the ability to recognize and counter the entry while maintaining offensive options of your own. Full resistance from both partners."
+      }
+    ],
+    "clips": [
+      {
+        "id": "cYEzCp2l4rQ",
+        "title": "50/50 Escape, No-Gi Leg Locks",
+        "by": "Elite Team Monterey",
+        "vertical": false,
+        "channel": "ELITE TEAM MONTEREY",
+        "duration": 46,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "-1c4KyEfZ9Y",
+        "title": "Knee Bar Defense to Leg Drag",
+        "by": "Clark Gracie",
+        "vertical": false,
+        "channel": "Clark Gracie Allegiance Jiu Jitsu",
+        "duration": 234,
+        "verified": "2026-07-15"
       }
     ]
   },

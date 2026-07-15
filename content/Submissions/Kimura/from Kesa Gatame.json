@@ -328,6 +328,35 @@
         "answer": "The Kimura from Kesa Gatame is designed to maintain positional advantage even on failure. If the opponent defends, you retain the figure-four grip and can cycle to Americana or armbar. If they bridge and turn in, you flow to mount while keeping grip control. If they shrimp away, you follow into their guard maintaining the grip. The 25% failure outcome returns you to Kesa Gatame Top because the attack is inherently low-risk—you never sacrifice position to attempt the submission.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "d7ucks8aHN0",
+        "title": "Kesa Gatame to Kimura",
+        "by": "Strong Hold Jiu Jitsu",
+        "vertical": false,
+        "channel": "Strong Hold Jiu Jitsu",
+        "duration": 71,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "u80GDGC1Yno",
+        "title": "Kimura from Scarf Hold",
+        "by": "Julie Bond",
+        "vertical": false,
+        "channel": "Julie Bond",
+        "duration": 35,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "-RyLUQSZZ1s",
+        "title": "Kimura from Kesa",
+        "by": "Vernon Kirk",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 92,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -441,6 +470,26 @@
         "phase": "Phase 3: Full Defense Flow Under Resistance",
         "focus": "Chaining defensive responses against full-speed Kimura attacks from Kesa Gatame",
         "description": "Live positional sparring starting from Kesa Gatame. Defender works through the full defensive sequence: prevent arm isolation, establish defensive grip, time escape bridge, and recover guard. 3-minute rounds with emphasis on recognizing when defense has failed and tapping early."
+      }
+    ],
+    "clips": [
+      {
+        "id": "2M_6VytUaus",
+        "title": "Kesa Gatame Escape",
+        "by": "SBG Australia",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 43,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "fvp5_BVEtLg",
+        "title": "Kesa Gatame Pressure Defense (Framing)",
+        "by": "Kohbukan Sisu",
+        "vertical": false,
+        "channel": "Kohbukan Sisu",
+        "duration": 84,
+        "verified": "2026-07-14"
       }
     ]
   }

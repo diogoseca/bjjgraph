@@ -344,6 +344,26 @@
         "answer": "Chest pressure serves multiple essential functions during the finish: it prevents the opponent from standing up to escape, it pins their torso so the rotational force concentrates entirely on the shoulder joint rather than being absorbed by whole-body movement, and it eliminates the space needed for defensive rolling or hip escape. Without chest pressure, the opponent can simply stand during the grip transition or create enough space to pull their arm free. The chest pressure functions as your positional control anchor while your arms handle the submission mechanics.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "H8falUKaNMQ",
+        "title": "Front headlock to turtle to kimura",
+        "by": "Josh Presley",
+        "vertical": false,
+        "channel": "Josh Presley",
+        "duration": 126,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fgJhHt03Klk",
+        "title": "Modified kimura against the underhook",
+        "by": "Nate Cason",
+        "vertical": false,
+        "channel": "Nate Cason",
+        "duration": 173,
+        "verified": "2026-07-15"
+      }
     ]
   },
   "defender": {
@@ -475,6 +495,35 @@
         "phase": "Phase 4: Live Defensive Integration",
         "focus": "Full defensive decision-making under pressure",
         "description": "Start from front headlock with partner free to attack any submission including the Kimura. Practice the full defensive hierarchy: when to defend neck, when to protect arms, and when to commit to positional escape. Build comfort and composure under realistic pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "t4xBYQ1VauU",
+        "title": "Front Headlock Sit-Out Reversal",
+        "by": "takadadojokeith",
+        "vertical": false,
+        "channel": "takadadojokeith",
+        "duration": 28,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "18OPk9jF39A",
+        "title": "Front Headlock Escape",
+        "by": "Erik Paulson",
+        "vertical": false,
+        "channel": "Crang MD",
+        "duration": 109,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "ShZv8y0u0vA",
+        "title": "Front Headlock Escape to Kimura",
+        "by": "Advanced Fighting Centre",
+        "vertical": false,
+        "channel": "advanced fighting centre",
+        "duration": 62,
+        "verified": "2026-07-14"
       }
     ]
   }

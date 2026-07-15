@@ -303,7 +303,36 @@
         "answer": "Immediately fight for the underhook on the trapped leg side with your bottom arm while establishing a frame against the opponent's shoulder or chest with your top arm. The underhook provides the primary offensive pathway to sweeps and back takes from half guard, while the chest frame prevents the opponent from immediately re-establishing crushing pressure. These grips must be secured within seconds of establishing half guard before the opponent settles their passing game."
       }
     ],
-    "safety_considerations": "This escape involves bridging and turning movements under an opponent's body weight, which places stress on the cervical and lumbar spine. Avoid explosive neck movements that could strain cervical vertebrae. If the opponent secures a choke during the escape attempt, tap immediately rather than continuing the escape under submission threat. Practitioners with lower back injuries should modify the bridge technique to reduce lumbar stress. When drilling, partners should communicate clearly about resistance levels and avoid dropping full weight unexpectedly during cooperative phases."
+    "safety_considerations": "This escape involves bridging and turning movements under an opponent's body weight, which places stress on the cervical and lumbar spine. Avoid explosive neck movements that could strain cervical vertebrae. If the opponent secures a choke during the escape attempt, tap immediately rather than continuing the escape under submission threat. Practitioners with lower back injuries should modify the bridge technique to reduce lumbar stress. When drilling, partners should communicate clearly about resistance levels and avoid dropping full weight unexpectedly during cooperative phases.",
+    "clips": [
+      {
+        "id": "ORpUBUxK1QE",
+        "title": "Reverse kesa escape from bottom to back take",
+        "by": "Unknown coach",
+        "vertical": false,
+        "channel": "Gymnanigains",
+        "duration": 26,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "bNdt6jVatj4",
+        "title": "Inverted mount escape to ashi garami",
+        "by": "Thunderdome BJJ coach",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 43,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "XQ4fwGrXV2Q",
+        "title": "Reverse mount scrambles and escapes",
+        "by": "Unknown coach",
+        "vertical": false,
+        "channel": "jamielovesmartialarts",
+        "duration": 23,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Escape Reverse Mount Defender",
@@ -419,6 +448,26 @@
         "phase": "Phase 3: Live Positional Application",
         "focus": "Full resistance defensive application with position tracking",
         "description": "Positional sparring from reverse mount with full resistance. Top player practices both maintaining and converting to back control based on bottom player's escape choices. Track success rates for position maintenance versus back take conversion. 2-minute rounds with role switching to build bilateral understanding."
+      }
+    ],
+    "clips": [
+      {
+        "id": "d-4IYhVS7sc",
+        "title": "Three ways to maintain mount",
+        "by": "Exodus Jiu Jitsu coach",
+        "vertical": false,
+        "channel": "Exodus Jiu Jitsu",
+        "duration": 106,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "RTMJDbZnFO0",
+        "title": "Holding the middle mount",
+        "by": "SBG coach",
+        "vertical": false,
+        "channel": "SBG PDX & Vancouver BJJ and MMA Videos",
+        "duration": 154,
+        "verified": "2026-07-15"
       }
     ]
   }

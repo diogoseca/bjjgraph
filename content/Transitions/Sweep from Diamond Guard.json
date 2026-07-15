@@ -273,7 +273,27 @@
         "answer": "Return to the diamond frame and attack the submission chain: triangle entry by releasing head control while maintaining overhook, omoplata rotation by switching to wrist control on the trapped arm, or kimura attack using the overhook as the initial control point. The failed sweep attempt often changes the opponent's weight distribution and defensive focus, creating new openings for submissions that were not previously available before the sweep attempt."
       }
     ],
-    "safety_considerations": "The sweep involves explosive rotational movement that can stress the opponent's shoulder in the overhook arm if the grip is excessively tight during rotation. Release overhook tension smoothly during the mount transition rather than maintaining maximum torque throughout the rotation. During training, allow the partner to rotate naturally with the sweep rather than holding the overhook rigidly and forcing the shoulder joint against its natural range of motion. Communicate with training partners about shoulder sensitivity before drilling this technique at speed."
+    "safety_considerations": "The sweep involves explosive rotational movement that can stress the opponent's shoulder in the overhook arm if the grip is excessively tight during rotation. Release overhook tension smoothly during the mount transition rather than maintaining maximum torque throughout the rotation. During training, allow the partner to rotate naturally with the sweep rather than holding the overhook rigidly and forcing the shoulder joint against its natural range of motion. Communicate with training partners about shoulder sensitivity before drilling this technique at speed.",
+    "clips": [
+      {
+        "id": "QPL5y0hIVV4",
+        "title": "Closed guard overhook sweep",
+        "by": "David Morris",
+        "vertical": false,
+        "channel": "David Morris Jiu Jitsu ",
+        "duration": 17,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "SONTST7yTT8",
+        "title": "Overhook scissor sweep from closed guard",
+        "by": "Fight Sports Charlotte",
+        "vertical": false,
+        "channel": "Fight Sports Charlotte",
+        "duration": 89,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Sweep from Diamond Guard Defender",
@@ -398,6 +418,17 @@
         "phase": "Phase 4: Live Integration",
         "focus": "Full resistance defense in rolling scenarios",
         "description": "Defend against sweep attempts from diamond guard during live rolling at full resistance. Track which defensive responses prove most effective and identify recurring patterns in partner setups that provide earlier recognition windows for preemptive defense."
+      }
+    ],
+    "clips": [
+      {
+        "id": "58LkTy6v3KQ",
+        "title": "Defending and countering the overhook clamp guard",
+        "by": "The Grappling Bloke",
+        "vertical": false,
+        "channel": "The Grappling Bloke",
+        "duration": 109,
+        "verified": "2026-07-15"
       }
     ]
   }

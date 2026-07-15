@@ -261,7 +261,27 @@
         "answer": "When the opponent retracts their knee successfully, follow their leg with your hips rather than releasing contact. This pursuit typically allows you to enter 50-50 guard, maintaining bilateral leg entanglement where you still have offensive submission opportunities. From 50-50, you can work toward heel hook attempts, transition to inside ashi through superior inside space control, or use the entanglement to sweep and establish top position while maintaining leg control."
       }
     ],
-    "safety_considerations": "This transition involves leg entanglement positions that can stress knee and ankle structures. Practice grip releases and leg threading at slow speeds initially to develop control before adding intensity. When drilling, communicate clearly with your partner about pressure levels during both the Estima Lock phase and the ashi garami consolidation. The heel hook threat in ashi garami can damage knee ligaments rapidly—always tap early when caught and apply submissions with controlled, gradual pressure. Avoid explosive movements during the transition that could torque your partner's joints unexpectedly. Practitioners with existing knee or ankle injuries should exercise additional caution and may need to limit live application intensity."
+    "safety_considerations": "This transition involves leg entanglement positions that can stress knee and ankle structures. Practice grip releases and leg threading at slow speeds initially to develop control before adding intensity. When drilling, communicate clearly with your partner about pressure levels during both the Estima Lock phase and the ashi garami consolidation. The heel hook threat in ashi garami can damage knee ligaments rapidly—always tap early when caught and apply submissions with controlled, gradual pressure. Avoid explosive movements during the transition that could torque your partner's joints unexpectedly. Practitioners with existing knee or ankle injuries should exercise additional caution and may need to limit live application intensity.",
+    "clips": [
+      {
+        "id": "_6BC8d5B5Hs",
+        "title": "Estima lock mechanics",
+        "by": "bjjtaro",
+        "vertical": false,
+        "channel": "bjjtaro",
+        "duration": 31,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "6RllPxhcICY",
+        "title": "Estima lock from single leg X and ashi garami",
+        "by": "BJJ101",
+        "vertical": false,
+        "channel": "BJJ101",
+        "duration": 200,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Estima Lock to Ashi Garami Defender",
@@ -377,6 +397,35 @@
         "phase": "Week 7+",
         "focus": "Live positional defense",
         "description": "Full resistance positional sparring starting from Estima Lock position. Defender works to either prevent the transition during the gap or escape from established ashi garami. Attacker pursues full chain—Estima Lock finish, transition to ashi garami, heel hook. Track defensive success rates and identify which recognition cues you respond to fastest."
+      }
+    ],
+    "clips": [
+      {
+        "id": "cRXsNPAgVLU",
+        "title": "Irimi counter to ashi garami",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 29,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QMgsMSTRSBI",
+        "title": "Five counters to ashi garami leglocks",
+        "by": "BJJBlackBeltDad",
+        "vertical": false,
+        "channel": "BJJBlackBeltDad",
+        "duration": 93,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "JSOM86_1lRo",
+        "title": "Footlock and single leg X escapes",
+        "by": "James O'Connor",
+        "vertical": false,
+        "channel": "James O’Connor",
+        "duration": 111,
+        "verified": "2026-07-15"
       }
     ]
   },

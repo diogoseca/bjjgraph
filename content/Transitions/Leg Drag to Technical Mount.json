@@ -268,7 +268,27 @@
         "answer": "Accept the half guard position rather than fighting the shield. Immediately re-establish crossface to flatten the knee shield and drive your shoulder into their jaw. From there, chain into a knee slice pass using the pressure angle you already have from the leg drag. If they defend the knee slice by underhooking, switch to a backstep pass or darce choke entry on the exposed neck."
       }
     ],
-    "safety_considerations": "This transition is relatively low-risk compared to many BJJ techniques, but proper training protocols should still be followed. During the knee insertion phase, be careful not to drop your full weight suddenly onto the opponent's ribs—slide into position with controlled pressure. When practicing with newer partners, communicate before transitioning to prevent them from attempting dangerous spinal twisting escapes. The submission threats available from technical mount (arm triangle, armbar) require standard tap-and-release protocols. Never crank submissions in training without giving partners time to tap. If the opponent's arm is trapped awkwardly during the transition, release and reset rather than forcing them into a position where joint damage could occur."
+    "safety_considerations": "This transition is relatively low-risk compared to many BJJ techniques, but proper training protocols should still be followed. During the knee insertion phase, be careful not to drop your full weight suddenly onto the opponent's ribs—slide into position with controlled pressure. When practicing with newer partners, communicate before transitioning to prevent them from attempting dangerous spinal twisting escapes. The submission threats available from technical mount (arm triangle, armbar) require standard tap-and-release protocols. Never crank submissions in training without giving partners time to tap. If the opponent's arm is trapped awkwardly during the transition, release and reset rather than forcing them into a position where joint damage could occur.",
+    "clips": [
+      {
+        "id": "4xplJQ-FFvI",
+        "title": "Leg drag to back take pass",
+        "by": "Combat Room coach Ben",
+        "vertical": false,
+        "channel": "Combat Room Brazilian Jiu Jitsu",
+        "duration": 75,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "plD6TW7pFv4",
+        "title": "Mount to technical mount transition",
+        "by": "Dark Horse BJJ coach",
+        "vertical": false,
+        "channel": "Dark Horse Brazilian Jiu Jitsu",
+        "duration": 20,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Leg Drag to Technical Mount Defender",
@@ -392,6 +412,35 @@
         "phase": "Week 7+",
         "focus": "Integration into positional sparring from leg drag",
         "description": "Begin positional sparring rounds starting from leg drag bottom. Defend all transition attempts including technical mount, back take, standard mount, and side control. Build automatic defensive responses that activate without conscious thought at the first recognition cue."
+      }
+    ],
+    "clips": [
+      {
+        "id": "QCEdvqfWZMI",
+        "title": "Matrix defense against the leg drag",
+        "by": "BJJ Lab Zurich coach",
+        "vertical": false,
+        "channel": "BJJ Lab Zürich",
+        "duration": 96,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fFqoFDE2yyw",
+        "title": "Guard retention against the leg drag",
+        "by": "Brandon Quick",
+        "vertical": false,
+        "channel": "Brandon Quick",
+        "duration": 90,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "1bqpKpa6ofY",
+        "title": "Leg drag pass defense from spider guard",
+        "by": "Ante Dzolic",
+        "vertical": false,
+        "channel": "Ante Dzolic",
+        "duration": 177,
+        "verified": "2026-07-15"
       }
     ]
   },

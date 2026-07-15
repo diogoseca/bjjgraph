@@ -326,6 +326,35 @@
         "answer": "In competition with a resisting opponent, grip the choking arm's own wrist with the free hand to create a closed loop that prevents the arm from being pulled out during defensive movement. Alternatively, clasp both hands together in a gable grip under the neck for maximum stability. If the opponent tucks their chin aggressively, adjust the shoulder angle by walking your knees slightly past their head to change the compression vector. Small positional adjustments are more effective than simply squeezing harder against active defense.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "LurZB_PfUmA",
+        "title": "Modified Scarf Hold North/South choke",
+        "by": "Todd Blatchley",
+        "vertical": false,
+        "channel": "Todd Blatchley",
+        "duration": 121,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "z3RNUfHfiSM",
+        "title": "Marcelo Garcia - North South Choke",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "Kon Ying",
+        "duration": 20,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "17m6bnarNdE",
+        "title": "Arm attack options from Scarf Hold",
+        "by": "Alexey Olynick",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 89,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -461,6 +490,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Integrating defense into free rolling from Modified Scarf Hold",
         "description": "Full resistance positional sparring starting from Modified Scarf Hold. Defender must read whether the opponent is attacking the choke or other submissions and respond appropriately. Practice tapping early when caught and resetting rather than fighting through locked chokes. 3-minute rounds with position reset on escape or submission."
+      }
+    ],
+    "clips": [
+      {
+        "id": "AyL9eW7ytq4",
+        "title": "Defending the north south choke",
+        "by": "Joel Bouhey",
+        "vertical": false,
+        "channel": "JOEL BOUHEY",
+        "duration": 59,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "O-2iSvT8zDk",
+        "title": "Hook-Plata North-South choke escape",
+        "by": "Erik Koehne",
+        "vertical": false,
+        "channel": "Erik Koehne",
+        "duration": 59,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "2EZfzJb_-tA",
+        "title": "North south escape",
+        "by": "Moncaio Brothers",
+        "vertical": false,
+        "channel": "Moncaio Brothers Jiujitsu",
+        "duration": 24,
+        "verified": "2026-07-14"
       }
     ]
   }

@@ -281,7 +281,27 @@
         "answer": "The inversion becomes higher percentage when the opponent has successfully blocked your ability to turn and face them—strong crossface preventing face-the-opponent escapes, or positioning making underhook recovery impossible. If the opponent's pressure is forward and lateral rather than straight down, the inversion exploits their committed weight angle. The technique is best suited to practitioners with good hip mobility and inversion experience, because committed rotation speed is difficult for even aware opponents to follow."
       }
     ],
-    "safety_considerations": "The inversion places significant load on the cervical spine and neck during the rotational phase. Always tuck the chin firmly to the chest before initiating the roll to distribute forces through the upper back and shoulders rather than the neck. Practitioners with cervical spine issues, herniated discs, or neck injuries should avoid this technique or modify it with medical guidance. During training, partners should avoid driving weight onto an inverting player's head or neck. Progress gradually from solo drills to partner drilling before adding resistance, ensuring proper rotational mechanics are established before loading the movement."
+    "safety_considerations": "The inversion places significant load on the cervical spine and neck during the rotational phase. Always tuck the chin firmly to the chest before initiating the roll to distribute forces through the upper back and shoulders rather than the neck. Practitioners with cervical spine issues, herniated discs, or neck injuries should avoid this technique or modify it with medical guidance. During training, partners should avoid driving weight onto an inverting player's head or neck. Progress gradually from solo drills to partner drilling before adding resistance, ensuring proper rotational mechanics are established before loading the movement.",
+    "clips": [
+      {
+        "id": "iwcRISvtG3g",
+        "title": "Inverted Half Guard Sweep to Ezequiel from the Back",
+        "by": "Carpio Jiu Jitsu",
+        "vertical": false,
+        "channel": "Carpio Jiu Jitsu",
+        "duration": 116,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "BhNZGloJ56c",
+        "title": "Guard Recovery Trick When Getting Smashed",
+        "by": "Finesse Jiujitsu HTX",
+        "vertical": false,
+        "channel": "FINESSE JIUJITSU HTX",
+        "duration": 103,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Invert from Reverse Half Guard Defender",
@@ -402,6 +422,26 @@
         "phase": "Phase 4: Full Resistance Decision Making",
         "focus": "Competition-speed multi-option response",
         "description": "Partner alternates between inversions, face-the-opponent escapes, old school sweeps, and other reverse half guard recoveries at full speed. You must read which escape is being attempted and deploy the appropriate counter for each. Develops the ability to distinguish between escape types and respond correctly under pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "aQ2vFXXBn-o",
+        "title": "Countering a Full Inversion",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "XqxdMRY2qqk",
+        "title": "Stop Getting Smashed In Half Guard",
+        "by": "Grapplers Planet",
+        "vertical": false,
+        "channel": "Grapplers Planet",
+        "duration": 241,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -296,7 +296,36 @@
         "answer": "Your support leg must remain firmly planted with a slight knee bend, bearing your full body weight on the ball of the foot. It serves as the stable axis around which the entire technique rotates. The knee should be slightly bent to lower your center of gravity and absorb any balance disruption. Never allow your support leg to drift, lock straight, or lift onto the toes, as this compromises your base and makes you vulnerable to counter-throws. After the sweep connects, the support leg becomes your lead leg for following the opponent to the ground."
       }
     ],
-    "safety_considerations": "Deashi Harai is generally one of the safer takedown techniques for both the thrower and the person being thrown, but several safety considerations remain important. First, maintain grip connection throughout the entire technique to control the speed and direction of your partner's fall—never execute the sweep and then release grips, as this can result in uncontrolled backward falls that risk head injury. Second, ensure adequate mat space behind the opponent before attempting the technique in training. Third, both practitioners should have basic understanding of breakfall techniques (ukemi), particularly the backward breakfall, as this is the primary falling pattern from this throw. When first learning, practice on soft mats or crash pads until the mechanics are reliable. For the person being thrown, resist the urge to post backward with your hands during the fall, as this can result in wrist or elbow injuries—instead, execute proper breakfall by slapping the mat with your arms. Finally, when drilling with newer partners, control the speed and force of the throw to match their skill level and falling ability."
+    "safety_considerations": "Deashi Harai is generally one of the safer takedown techniques for both the thrower and the person being thrown, but several safety considerations remain important. First, maintain grip connection throughout the entire technique to control the speed and direction of your partner's fall—never execute the sweep and then release grips, as this can result in uncontrolled backward falls that risk head injury. Second, ensure adequate mat space behind the opponent before attempting the technique in training. Third, both practitioners should have basic understanding of breakfall techniques (ukemi), particularly the backward breakfall, as this is the primary falling pattern from this throw. When first learning, practice on soft mats or crash pads until the mechanics are reliable. For the person being thrown, resist the urge to post backward with your hands during the fall, as this can result in wrist or elbow injuries—instead, execute proper breakfall by slapping the mat with your arms. Finally, when drilling with newer partners, control the speed and force of the throw to match their skill level and falling ability.",
+    "clips": [
+      {
+        "id": "9pUI4_Nrg9Q",
+        "title": "Deashi harai foot sweep",
+        "by": "B King",
+        "vertical": false,
+        "channel": "B King",
+        "duration": 39,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Ckv5xkIoWUk",
+        "title": "De ashi harai foot sweep on Giancarlo Bodoni",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 34,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "rU6zeS9abRc",
+        "title": "Textbook foot sweep",
+        "by": "Grappler Kingdom",
+        "vertical": false,
+        "channel": "Grappler Kingdom",
+        "duration": 48,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Deashi Harai Defender",
@@ -420,6 +449,17 @@
         "phase": "Week 7+: Live Standup Sparring with Defensive Focus",
         "focus": "Applying Deashi Harai defense in fully live training",
         "description": "Engage in full standup sparring rounds where you specifically monitor for foot sweep setups while maintaining your own offensive game. Track how often you successfully identify and defend sweep attempts versus being caught. Partner does not limit their attacks to Deashi Harai alone, requiring you to integrate this defense into your overall standup awareness. Review after each round which sweeps were defended and which succeeded, and why."
+      }
+    ],
+    "clips": [
+      {
+        "id": "klXnE1xnfKI",
+        "title": "De ashi barai counter",
+        "by": "FL Jiu Jitsu Studies coach",
+        "vertical": false,
+        "channel": "FL Jiu Jitsu Studies",
+        "duration": 12,
+        "verified": "2026-07-15"
       }
     ]
   },

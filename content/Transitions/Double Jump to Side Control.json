@@ -286,7 +286,36 @@
         "answer": "The side control transition creates a dilemma because it punishes the exact defensive posture that prevents back takes. When the opponent seals their back tightly with tucked elbows and chin to defend hook elevation to back control, they inadvertently expose the lateral pathway to side control. If they widen their base to prevent the lateral transition, they create gaps for the primary back-take entries. This dual threat forces the defender into narrow defensive corridors where protecting against one pathway opens the other."
       }
     ],
-    "safety_considerations": "Double Jump to Side Control is a positional transition without direct submission threat, making it relatively safe during training. The primary safety concern involves maintaining controlled pressure during the lateral hip walk to avoid sudden weight drops onto the opponent's ribcage or spine. The crossface pressure maintained throughout the transition can stress the defender's cervical spine if applied with excessive force. Partners should communicate about pressure intensity during drilling. When extracting hooks, move deliberately rather than explosively to prevent the opponent's knees or ankles from being torqued by sudden hook removal. During live sparring, be aware that the rapid positional change from turtle to side control can disorient the defender."
+    "safety_considerations": "Double Jump to Side Control is a positional transition without direct submission threat, making it relatively safe during training. The primary safety concern involves maintaining controlled pressure during the lateral hip walk to avoid sudden weight drops onto the opponent's ribcage or spine. The crossface pressure maintained throughout the transition can stress the defender's cervical spine if applied with excessive force. Partners should communicate about pressure intensity during drilling. When extracting hooks, move deliberately rather than explosively to prevent the opponent's knees or ankles from being torqued by sudden hook removal. During live sparring, be aware that the rapid positional change from turtle to side control can disorient the defender.",
+    "clips": [
+      {
+        "id": "8YvYkGr5FIU",
+        "title": "Turtle to side control",
+        "by": "Rickson Gracie Academy",
+        "vertical": false,
+        "channel": "Rickson Gracie Jiu-Jitsu Academy",
+        "duration": 47,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "IH3RFT307WQ",
+        "title": "Attacking turtle into side control",
+        "by": "Team Daruma Dojo",
+        "vertical": false,
+        "channel": "Team Daruma Dojo",
+        "duration": 46,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "b25b-PjmgdY",
+        "title": "Gator roll from turtle to side control",
+        "by": "Carlos Machado",
+        "vertical": false,
+        "channel": "Carlos Machado",
+        "duration": 84,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Double Jump to Side Control Defender",
@@ -411,6 +440,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance defense with realistic competition-intensity pressure",
         "description": "Positional rounds starting from Double Jump Bottom with the attacker pursuing side control. Defend at full resistance for two-minute rounds, tracking successful defenses versus side control establishments. Integrate recognition, timing, and option selection into fluid defensive responses under match-realistic pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "JsiYZcOJXxg",
+        "title": "Escape from turtle control",
+        "by": "Carlson Gracie Team CT",
+        "vertical": false,
+        "channel": "Carlson Gracie Team CT - CPBJJ",
+        "duration": 48,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_sBB-O8fqP4",
+        "title": "Standing up from turtle defense",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 114,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "zxSKKUroV6Q",
+        "title": "Ways to get out of the turtle",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 214,
+        "verified": "2026-07-15"
       }
     ]
   }

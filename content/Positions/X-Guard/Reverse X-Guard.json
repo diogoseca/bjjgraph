@@ -651,6 +651,35 @@
         "question": "How do you set up sweeps against an opponent who refuses to commit weight in any direction?",
         "answer": "Against a perfectly balanced opponent, create off-balancing reactions through grip manipulation and false attacks. Pull sharply on their sleeve or collar to force them to resist in one direction, then sweep in the opposite direction as they recover. Use transitions to other positions (X-Guard, Single Leg X) to create new angles and force reactions. The key is never letting them stay comfortable - constant movement and threat generation eventually creates the opening you need."
       }
+    ],
+    "clips": [
+      {
+        "id": "lr7rlj7WV-E",
+        "title": "X-Guard to Heel Hook",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
+        "duration": 94,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "V81JTcD_fTU",
+        "title": "Half-guard to Reverse X saddle sweep",
+        "by": "Gracie Barra Jupiter",
+        "vertical": false,
+        "channel": "Gracie Barra Jupiter And Stuart",
+        "duration": 141,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Kx8gZ3QdO8s",
+        "title": "Reverse X crossover to toe hold",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "Bence Romanek",
+        "duration": 51,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -685,6 +714,35 @@
     {
       "question": "What makes Reverse X-Guard a hub connecting standing-guard entries to leg-entanglement and back-take exchanges?",
       "answer": "Because the position captures a single leg with a deep inverted hook system, it sits at the intersection of several modern systems: De La Riva and other standing guards feed into it, and its trapped-leg control feeds out to Single Leg X, Ashi Garami, and Deep Half Guard. When the opponent steps back or backsteps to escape, the inverted orientation exposes their back, opening back-take pathways. This many-in, many-out connectivity is why it functions as a nodal position rather than a dead-end sweep. The shared leg-entanglement anchor is the thread that lets play flow between adjacent positions without fully resetting."
+    }
+  ],
+  "clips": [
+    {
+      "id": "lr7rlj7WV-E",
+      "title": "Reverse/X-Guard to heel hook",
+      "by": "Craig Jones",
+      "vertical": false,
+      "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
+      "duration": 94,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "dISye8G6dpU",
+      "title": "The Reverse X-Guard entry",
+      "by": "Black Flag Submission Company",
+      "vertical": false,
+      "channel": "Black Flag Submission Company",
+      "duration": 191,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "yWF7dsUJOKs",
+      "title": "Single X to Reverse X to 411",
+      "by": "Factory Fresh Jiu Jitsu",
+      "vertical": false,
+      "channel": "Factory Fresh Jiu Jitsu",
+      "duration": 249,
+      "verified": "2026-07-14"
     }
   ]
 }

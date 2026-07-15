@@ -278,7 +278,36 @@
         "answer": "Within the first three seconds, execute an immediate posture break using combined overhook pull and heel pressure into the opponent's lower back. The opponent is typically in a reactive state after failing to prevent the guard closure, creating a brief window where their defensive posture is not yet established. From the broken posture, threaten a triangle setup by controlling one arm across your centerline, or initiate a hip bump sweep by posting on one hand and driving your hips upward. The key is establishing offensive initiative immediately rather than settling into a neutral closed guard position, because the opponent will be motivated to immediately begin guard opening sequences."
       }
     ],
-    "safety_considerations": "Guard recovery from the Zombie position is generally low risk, but practitioners should be mindful of knee strain when releasing the lockdown entanglement quickly. The lockdown involves intertwining legs in a way that can stress the medial collateral ligament if released with a sudden jerking motion rather than a controlled uncrossing. During training, practice the lockdown release at controlled speed before adding explosiveness. Additionally, the high guard position can create hip flexor fatigue that affects the quality of the subsequent closed guard - if hip flexors are cramping, communicate with your partner and stretch before continuing drilling."
+    "safety_considerations": "Guard recovery from the Zombie position is generally low risk, but practitioners should be mindful of knee strain when releasing the lockdown entanglement quickly. The lockdown involves intertwining legs in a way that can stress the medial collateral ligament if released with a sudden jerking motion rather than a controlled uncrossing. During training, practice the lockdown release at controlled speed before adding explosiveness. Additionally, the high guard position can create hip flexor fatigue that affects the quality of the subsequent closed guard - if hip flexors are cramping, communicate with your partner and stretch before continuing drilling.",
+    "clips": [
+      {
+        "id": "gFYyMkaMz34",
+        "title": "Prison Guard breakdown from lockdown",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 59,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fTBl0AclzH4",
+        "title": "Quarter guard concepts and recovery",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "o9sXXKqd4sc",
+        "title": "Getting to guard and butterfly from lockdown",
+        "by": "BJJ Level UP",
+        "vertical": false,
+        "channel": "BJJ Level UP Workshops",
+        "duration": 157,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Guard Recovery from Zombie Defender",
@@ -385,6 +414,17 @@
         "phase": "Phase 4: Live Anti-Recovery Sparring",
         "focus": "Full resistance prevention of guard recovery from Zombie position",
         "description": "Positional sparring starting in Zombie with partner at full resistance working guard recovery. Top player practices the complete anti-recovery toolkit - overhook stripping, lockdown release exploitation, and position advancement. Track success rates across rounds to identify which recovery tactics are most difficult to counter."
+      }
+    ],
+    "clips": [
+      {
+        "id": "lwwIfCAA7Zc",
+        "title": "Top lockdown turk to shut down recovery",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 207,
+        "verified": "2026-07-15"
       }
     ]
   }

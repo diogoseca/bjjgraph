@@ -371,6 +371,35 @@
         "question": "Your opponent partially escapes and starts inserting a knee shield - how do you recover the kneebar control?",
         "answer": "When opponent inserts knee shield, immediately shift priority from kneebar finish to preventing full guard recovery. Use your free arm to pin their shield leg while maintaining grip on the original target leg. Either: 1) switch to passing the knee shield using knee cut mechanics while maintaining leg grip for potential re-entry, or 2) abandon the kneebar entirely and prioritize securing side control. Do not force the kneebar against an established shield as this creates a stalemate favoring the defender."
       }
+    ],
+    "clips": [
+      {
+        "id": "vMqDIi10z4k",
+        "title": "Dog Bar Kneebar",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "-HT8Vfiq5Pk",
+        "title": "Top Half Guard Toe Hold to Kneebar",
+        "by": "Eliot Marshall",
+        "vertical": false,
+        "channel": "Eliot Marshall",
+        "duration": 67,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "v4lhLkKgVvU",
+        "title": "Go Behind Kneebar",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 129,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -723,6 +752,35 @@
         "question": "Your opponent has extracted their leg halfway and is creating significant distance - how do you recover the position?",
         "answer": "When opponent creates distance mid-extraction, you have a narrow window to act. Options: 1) chase with your hips while maintaining whatever grip remains, potentially transitioning to 50-50 as they disengage; 2) use their backward momentum to technical stand up and follow into standing leg attack position; 3) accept the escape and immediately re-guard to establish open guard before they can consolidate passing position. Do not continue pulling against a fully committed extraction - redirect energy to the next position."
       }
+    ],
+    "clips": [
+      {
+        "id": "DBbSqQf6iCo",
+        "title": "Roll Under to Backside 50/50",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 110,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "ucAwPgTLSpQ",
+        "title": "Getting to Backside 50/50",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 121,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "ih_7aXNM6UU",
+        "title": "Knee Bar from Deep Half Guard",
+        "by": "Miles Moudy",
+        "vertical": false,
+        "channel": "LegLock Assassins",
+        "duration": 25,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -757,6 +815,35 @@
     {
       "question": "What distinguishes kneebar control from a neutral leg entanglement like a contested 50-50 with no attack loaded?",
       "answer": "A neutral entanglement establishes leg-versus-leg connection and hip control but does not yet align one knee against a fulcrum with the lever loaded. Kneebar control is the specific moment that entanglement is weaponized: the leg is pulled across the torso, the hip drives into the joint line, and hyperextension becomes an active threat. The same 50-50 can sit in stalemate or convert into kneebar control depending on whether that knee-to-fulcrum alignment is achieved. The defining difference is the presence of a loaded lever on the knee, not merely tangled legs."
+    }
+  ],
+  "clips": [
+    {
+      "id": "K5XhO7o5QN0",
+      "title": "Saddle Entries from Guard",
+      "by": "Lachlan Giles",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 66,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "12rNXPlqVXo",
+      "title": "No-Gi Kneebar Technique",
+      "by": "Jiu Jitsu Matrix",
+      "vertical": false,
+      "channel": "FreeChannelOpen",
+      "duration": 20,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "zkBeVUL0YxY",
+      "title": "Several Sneaky Kneebars",
+      "by": "Coach Brian",
+      "vertical": false,
+      "channel": "TeachMeGrappling Coach Brian",
+      "duration": 147,
+      "verified": "2026-07-14"
     }
   ]
 }

@@ -296,7 +296,36 @@
         "answer": "Immediately after landing, release the body lock grip within one to two seconds and establish side control by driving your near forearm across the opponent's face for a crossface while your far hand blocks their hip to prevent knee insertion. Sprawl your legs backward to remove your hips from the opponent's guard recovery range, preventing them from hooking your legs for half guard or closed guard. Your chest should remain perpendicular to the opponent's torso with heavy shoulder pressure driving their head away from you. The speed of this transition is critical because the window between landing and the opponent establishing defensive structures is extremely brief."
       }
     ],
-    "safety_considerations": "Body lock takedowns involve significant impact forces when practitioners hit the mat. Always practice on appropriate matting surfaces with sufficient padding, and increase resistance and speed gradually across training sessions. The attacker must guide the descent and control the landing rather than slamming, as uncontrolled impact can cause head, neck, and shoulder injuries. Partners should communicate about intensity level and any pre-existing injuries before drilling. Beginners should focus on slow, controlled repetitions to build proper mechanics before adding speed and power. When drilling at higher intensity, the attacker is responsible for their partner's safety during the fall."
+    "safety_considerations": "Body lock takedowns involve significant impact forces when practitioners hit the mat. Always practice on appropriate matting surfaces with sufficient padding, and increase resistance and speed gradually across training sessions. The attacker must guide the descent and control the landing rather than slamming, as uncontrolled impact can cause head, neck, and shoulder injuries. Partners should communicate about intensity level and any pre-existing injuries before drilling. Beginners should focus on slow, controlled repetitions to build proper mechanics before adding speed and power. When drilling at higher intensity, the attacker is responsible for their partner's safety during the fall.",
+    "clips": [
+      {
+        "id": "GOwulE_PIMg",
+        "title": "Body lock takedown from the clinch",
+        "by": "Blue Base Jiu Jitsu",
+        "vertical": false,
+        "channel": "Blue Base Jiu Jitsu",
+        "duration": 74,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "GnJ6_s4x8Ns",
+        "title": "Body lock takedown from the clinch",
+        "by": "Cris Cyborg",
+        "vertical": false,
+        "channel": "Cris Cyborg",
+        "duration": 134,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2gknwIfTeN0",
+        "title": "Four body lock takedowns",
+        "by": "CSW Fullerton",
+        "vertical": false,
+        "channel": "CSW Fullerton",
+        "duration": 194,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Body Lock Takedown from Clinch Defender",
@@ -417,6 +446,17 @@
         "phase": "Phase 4: Live Defense Integration",
         "focus": "Full-speed defensive application in sparring",
         "description": "Positional sparring starting from clinch where the attacker seeks the body lock takedown and the defender applies the complete defensive system. Score points for grip denial, successful sprawl defense, and establishing half guard on landing. Build automatic defensive responses under competitive pressure and timing."
+      }
+    ],
+    "clips": [
+      {
+        "id": "4HaZwBmkFgk",
+        "title": "Defending the body lock in the clinch",
+        "by": "TJ Dillashaw",
+        "vertical": false,
+        "channel": "Dynamic Striking",
+        "duration": 207,
+        "verified": "2026-07-15"
       }
     ]
   }

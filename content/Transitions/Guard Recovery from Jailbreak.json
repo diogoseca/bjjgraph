@@ -282,7 +282,36 @@
         "answer": "The decision point occurs when your Jailbreak roll reaches approximately 60-70% completion without achieving the turtle position. Key indicators that the roll has stalled include: the opponent has based out wide to prevent being rolled through, your underhook connection is weakening, or you feel your rotational momentum decelerating. At this point, continuing the roll has diminishing returns and increasing risk. The optimal moment to transition to guard recovery is when you still have residual momentum to redirect into a hip escape—waiting until you are completely stopped means you lose the kinetic energy advantage and the opponent has fully loaded their pressure onto your compromised position."
       }
     ],
-    "safety_considerations": "Guard recovery from Jailbreak involves transitional scramble positions that carry moderate injury risk. The Jailbreak inversion places stress on the cervical spine, and attempting recovery while partially inverted can increase neck compression if the top player drives forward. Always ensure your head is free and not bearing weight before executing hip escapes. Avoid explosive bridging when your spine is not properly aligned—realign your body systematically before generating force. During training, partners should avoid driving heavy pressure during the initial post-inversion moment while the bottom player is oriented upside down, as this can create dangerous neck loading situations. Knee and ankle injuries can also occur if legs become entangled during the scramble—communicate clearly with training partners when legs are caught in awkward positions."
+    "safety_considerations": "Guard recovery from Jailbreak involves transitional scramble positions that carry moderate injury risk. The Jailbreak inversion places stress on the cervical spine, and attempting recovery while partially inverted can increase neck compression if the top player drives forward. Always ensure your head is free and not bearing weight before executing hip escapes. Avoid explosive bridging when your spine is not properly aligned—realign your body systematically before generating force. During training, partners should avoid driving heavy pressure during the initial post-inversion moment while the bottom player is oriented upside down, as this can create dangerous neck loading situations. Knee and ankle injuries can also occur if legs become entangled during the scramble—communicate clearly with training partners when legs are caught in awkward positions.",
+    "clips": [
+      {
+        "id": "oiedgtVDx-I",
+        "title": "Jailbreak: recover guard from bottom side control",
+        "by": "Broadway JiuJitsu",
+        "vertical": false,
+        "channel": "Broadway JiuJitsu",
+        "duration": 191,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "rjvvLBRxa8s",
+        "title": "No-gi side control escape to guard recovery",
+        "by": "Pantera Jiujitsu",
+        "vertical": false,
+        "channel": "Pantera Jiujitsu",
+        "duration": 62,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "z-wF4eJnoW8",
+        "title": "11 guard recovery drills in 90 seconds",
+        "by": "Northwest Fighting Arts",
+        "vertical": false,
+        "channel": "Northwest Fighting Arts",
+        "duration": 106,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Guard Recovery from Jailbreak Defender",
@@ -395,6 +424,17 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance consolidation against Jailbreak specialists",
         "description": "Begin each round with partner executing Jailbreak from half guard at full resistance. Practice the complete flow from Jailbreak defense through position consolidation and pass completion. Rotate training partners to experience different body types and Jailbreak variations."
+      }
+    ],
+    "clips": [
+      {
+        "id": "H1mYd49sUfE",
+        "title": "Shutting down guard recovery with the side guard",
+        "by": "John Connors",
+        "vertical": false,
+        "channel": "John Connors, Old Man BJJ Black Belt",
+        "duration": 96,
+        "verified": "2026-07-15"
       }
     ]
   }

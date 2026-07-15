@@ -290,7 +290,27 @@
         "answer": "Arm extraction opens two primary chain attacks. First, the darce choke becomes immediately available because the freed arm creates the space your choking arm needs to slide deeper across their neck into darce configuration. Slide your arm through without hesitation. Second, if their arm extraction pulls toward you rather than away, the guillotine becomes available by releasing your far hand and securing their chin. Never attempt to re-trap the arm. Flow instantly to whichever submission the extraction direction creates."
       }
     ],
-    "safety_considerations": "The transition to dead orchard control involves sustained compression on the opponent's neck and shoulder that can restrict breathing and blood flow even before a submission is fully applied. During training, partners should establish clear tap signals and top players should release immediately upon feeling a tap. The incremental nature of this transition means choking pressure builds gradually, so the bottom player may not recognize critical compression levels until they are already compromised. Monitor your training partner for signs of discomfort, labored breathing, or color changes in the face. When drilling the grip deepening sequence, use controlled pressure and communicate regularly. Practitioners with cervical spine injuries should approach this position with particular caution as the combined shoulder and neck compression can aggravate pre-existing conditions."
+    "safety_considerations": "The transition to dead orchard control involves sustained compression on the opponent's neck and shoulder that can restrict breathing and blood flow even before a submission is fully applied. During training, partners should establish clear tap signals and top players should release immediately upon feeling a tap. The incremental nature of this transition means choking pressure builds gradually, so the bottom player may not recognize critical compression levels until they are already compromised. Monitor your training partner for signs of discomfort, labored breathing, or color changes in the face. When drilling the grip deepening sequence, use controlled pressure and communicate regularly. Practitioners with cervical spine injuries should approach this position with particular caution as the combined shoulder and neck compression can aggravate pre-existing conditions.",
+    "clips": [
+      {
+        "id": "O22YyheqB-Q",
+        "title": "The front headlock position explained",
+        "by": "DCS - Diaz Combat Sports",
+        "vertical": false,
+        "channel": "DCS - Diaz Combat Sports",
+        "duration": 105,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Cy5vDkj8fDQ",
+        "title": "Chin strap front headlock to anaconda and d'arce",
+        "by": "ChokeArtist",
+        "vertical": false,
+        "channel": "ChokeArtist",
+        "duration": 261,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Anaconda Control to Dead Orchard Control Defender",
@@ -414,6 +434,35 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Starting from anaconda control, top player chooses between immediate finish and dead orchard transition. Bottom player must defend both options with appropriate strategy. 90-second rounds with reset. Track escape rates during transition versus escape rates from established dead orchard to reinforce the importance of early defensive action."
+      }
+    ],
+    "clips": [
+      {
+        "id": "wxiM5z0NUXw",
+        "title": "Front headlock escape drill",
+        "by": "Gracie Barra Charlestown",
+        "vertical": false,
+        "channel": "Gracie Barra Charlestown",
+        "duration": 29,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "J-MaOIfDHXk",
+        "title": "Standing front headlock choke defense",
+        "by": "Empower Gym Tampa",
+        "vertical": false,
+        "channel": "Empower Gym Tampa",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "BGSH5P5Mv9o",
+        "title": "Quick method to escape the front headlock",
+        "by": "Grapplezilla",
+        "vertical": false,
+        "channel": "Grapplezilla",
+        "duration": 113,
+        "verified": "2026-07-15"
       }
     ]
   }

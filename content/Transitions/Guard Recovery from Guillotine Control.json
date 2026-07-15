@@ -408,6 +408,17 @@
         "focus": "Full resistance advancement from guillotine escape",
         "description": "Start each round in guillotine control with the bottom player working recovery and you working to advance. Full resistance with rotating partners to experience different recovery styles, grip strengths, and leg flexibility levels."
       }
+    ],
+    "clips": [
+      {
+        "id": "n8UTAggp3L4",
+        "title": "Passing the guard when they recover from guillotine",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 115,
+        "verified": "2026-07-15"
+      }
     ]
   }
 }

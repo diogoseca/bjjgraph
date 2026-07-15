@@ -196,5 +196,43 @@
       "name": "Inside Ashi-Garami",
       "relationship": "Primary entry position with direct access to Aoki Lock"
     }
+  ],
+  "clips": [
+    {
+      "id": "qRH7g21c6xQ",
+      "title": "Aoki lock breakdown",
+      "by": "Escuela de Grappling",
+      "vertical": false,
+      "channel": "Escuela de Grappling - Certified Killers",
+      "duration": 199,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "vMhOsw3wRQg",
+      "title": "Rolling no-gi calf slicer",
+      "by": "Factory Fresh Jiu Jitsu",
+      "vertical": false,
+      "channel": "Factory Fresh Jiu Jitsu",
+      "duration": 110,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "6M0HvIFfc-w",
+      "title": "Bear trap into calf slicer",
+      "by": "Revolution BJJ",
+      "vertical": false,
+      "channel": "Revolution BJJ",
+      "duration": 119,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "tQWfhZiDREc",
+      "title": "Aoki lock from butterfly ashi",
+      "by": "Factory Fresh Jiu Jitsu",
+      "vertical": false,
+      "channel": "Factory Fresh Jiu Jitsu",
+      "duration": 77,
+      "verified": "2026-07-14"
+    }
   ]
 }

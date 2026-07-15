@@ -284,7 +284,27 @@
         "answer": "The near-side heel drag uses the same-side heel to hook the opponent's nearest foot, requiring less hip mobility and covering a shorter distance, making it the default high-percentage option. The cross-body variation uses the opposite foot to reach across, requiring greater hip mobility and a larger bridge for space creation. The cross-body version is primarily used when the near-side foot has been retracted or when the opponent has adapted to defend the standard version, offering a different angle of attack."
       }
     ],
-    "safety_considerations": "The Heel Drag Escape is one of the lowest-risk mount escapes as it involves no explosive joint manipulation or significant neck-loading movements. However, practitioners should be mindful of knee and ankle stress during the dragging motion, particularly when training with larger partners whose weight may resist the hooking motion and create lateral torque on the knee. Partners maintaining mount should avoid driving weight through grapevines during initial drill work to prevent knee hyperextension on the bottom player. If any sharp knee pain occurs during the hooking motion, stop immediately and assess whether the angle of the drag is placing lateral stress on the knee joint. Training partners should communicate resistance levels clearly during progressive drilling phases."
+    "safety_considerations": "The Heel Drag Escape is one of the lowest-risk mount escapes as it involves no explosive joint manipulation or significant neck-loading movements. However, practitioners should be mindful of knee and ankle stress during the dragging motion, particularly when training with larger partners whose weight may resist the hooking motion and create lateral torque on the knee. Partners maintaining mount should avoid driving weight through grapevines during initial drill work to prevent knee hyperextension on the bottom player. If any sharp knee pain occurs during the hooking motion, stop immediately and assess whether the angle of the drag is placing lateral stress on the knee joint. Training partners should communicate resistance levels clearly during progressive drilling phases.",
+    "clips": [
+      {
+        "id": "to2pdxtUpVU",
+        "title": "Mount escape to ankle lock",
+        "by": "Andy Tong",
+        "vertical": false,
+        "channel": "Andy Tong",
+        "duration": 50,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fK3On64P2cg",
+        "title": "Mount escape with the foot lift",
+        "by": "P5 Academy",
+        "vertical": false,
+        "channel": "P5 Academy",
+        "duration": 93,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Heel Drag Escape Defender",
@@ -405,6 +425,26 @@
         "phase": "Phase 4: Live Application Sparring",
         "focus": "Full resistance mount retention against systematic escape chains",
         "description": "Positional sparring from mount top against opponents who use the heel drag as part of their escape chain. Must maintain mount or advance position for 90 seconds. Track which escape in the chain most frequently succeeds and develop specific defensive responses to the heel drag within combination escape sequences."
+      }
+    ],
+    "clips": [
+      {
+        "id": "v3w0qXLKxug",
+        "title": "Defending Heel Hooks",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 92,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MqtG9kuVt-Q",
+        "title": "Leg Lock Escape: Roll Through",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 103,
+        "verified": "2026-07-15"
       }
     ]
   }

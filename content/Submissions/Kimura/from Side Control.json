@@ -381,6 +381,26 @@
         "answer": "In no-gi, grip security becomes critical since there's no gi material to anchor. Use a deeper figure-four grip where your grabbing hand wraps further around your own wrist for added security. Keep your body tighter to the opponent to prevent their arm from slipping due to sweat. Your chest pressure becomes even more important since you can't use collar or sleeve grips to control position. Consider the wrist-ride variation where you grip their wrist more aggressively. In gi, you can use their sleeve to assist arm isolation and their belt or pants grip to add rotational pressure to the finish.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "g-e2ZrNsoNQ",
+        "title": "Set up Kimura from side control",
+        "by": "Heiho Dojo",
+        "vertical": false,
+        "channel": "Heiho Dojo",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "FYKc-hep22I",
+        "title": "Kimura finish from side control",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 31,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -521,6 +541,26 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Full resistance defense with transitions to guard recovery",
         "description": "Full resistance positional sparring starting from side control with the attacker specifically hunting the Kimura. Defender must combine prevention, grip fighting, escape mechanics, and guard recovery into a seamless defensive chain. Track success rates and identify which defensive techniques work best against different attacker body types and styles. 5-minute rounds with role switching."
+      }
+    ],
+    "clips": [
+      {
+        "id": "GOLwVNTVcnY",
+        "title": "Kimura defense grip breaks",
+        "by": "Dirtball BJJ",
+        "vertical": false,
+        "channel": "Dirtball BJJ",
+        "duration": 81,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "uRn3DRICpeY",
+        "title": "Late Kimura defense from bottom side control",
+        "by": "Fox Den Martial Arts",
+        "vertical": false,
+        "channel": "Fox Den Martial Arts",
+        "duration": 100,
+        "verified": "2026-07-14"
       }
     ]
   },

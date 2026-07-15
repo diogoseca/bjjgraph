@@ -274,7 +274,27 @@
         "answer": "The darce choke becomes available when the opponent straightens their trapped arm to defeat the arm triangle. Their arm extension creates space under their armpit that you can thread your choking arm through, switching from the arm triangle's over-the-shoulder path to the darce's under-the-armpit path. This is a natural chain because the opponent's successful arm triangle defense directly opens the darce angle. The key is recognizing the arm extension immediately and redirecting your choking arm before they can retract."
       }
     ],
-    "safety_considerations": "The arm triangle from front headlock produces a blood choke through bilateral carotid compression, which can cause unconsciousness within seconds when properly applied. During training, always tap early when you feel the squeeze tighten around your neck, and release immediately when your partner taps or goes limp. The transition phase involves significant neck manipulation as you reconfigure from front headlock to arm triangle, so avoid explosive jerking movements on your partner's head and neck. Partners with prior neck injuries should communicate clearly and consider limiting resistance during the grip change phase. When drilling, apply the choke gradually and give your partner time to tap. Never crank the neck laterally during the transition - the force should be a clean squeeze, not a twist. Stop immediately if your partner shows signs of disorientation after release."
+    "safety_considerations": "The arm triangle from front headlock produces a blood choke through bilateral carotid compression, which can cause unconsciousness within seconds when properly applied. During training, always tap early when you feel the squeeze tighten around your neck, and release immediately when your partner taps or goes limp. The transition phase involves significant neck manipulation as you reconfigure from front headlock to arm triangle, so avoid explosive jerking movements on your partner's head and neck. Partners with prior neck injuries should communicate clearly and consider limiting resistance during the grip change phase. When drilling, apply the choke gradually and give your partner time to tap. Never crank the neck laterally during the transition - the force should be a clean squeeze, not a twist. Stop immediately if your partner shows signs of disorientation after release.",
+    "clips": [
+      {
+        "id": "ioz33MH1j7Q",
+        "title": "Arm triangle from the front headlock",
+        "by": "Jordan",
+        "vertical": false,
+        "channel": "XMARTIAL Partners",
+        "duration": 35,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8hzRbpUfawY",
+        "title": "Front headlock attacks including the head and arm",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 277,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Arm Triangle from Front Headlock Defender",
@@ -404,6 +424,35 @@
         "phase": "Week 7+",
         "focus": "Live defensive integration",
         "description": "Positional sparring starting from front headlock with partner attacking the full submission chain including guillotine, darce, and arm triangle. Practice transitioning between different defensive postures as the attack changes. Full resistance from partner. Focus on reading the attacker's intentions and selecting the correct defensive response in real time. Include rounds where you must defend multiple attack transitions in sequence before escaping."
+      }
+    ],
+    "clips": [
+      {
+        "id": "5rVU51Brvs4",
+        "title": "Turtle escape from the front headlock",
+        "by": "Jiu Jitsu Five-O",
+        "vertical": false,
+        "channel": "Jiu Jitsu Five-O // Street-Ready BJJ Training",
+        "duration": 49,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "J-MaOIfDHXk",
+        "title": "Standing front headlock choke defense",
+        "by": "Empower Gym Tampa",
+        "vertical": false,
+        "channel": "Empower Gym Tampa",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Tx78frJNbGg",
+        "title": "Front headlock defense to a fireman's carry",
+        "by": "American Born Grappler",
+        "vertical": false,
+        "channel": "American Born Grappler",
+        "duration": 61,
+        "verified": "2026-07-15"
       }
     ]
   },

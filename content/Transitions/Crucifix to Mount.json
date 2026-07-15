@@ -287,7 +287,18 @@
         "answer": "The hips must drive down directly onto the opponent's solar plexus region, which is the center of their torso between the ribcage and the hips. Landing too high toward the chest makes you vulnerable to upa escapes because the opponent can bridge and roll you over your own head. Landing too low on the thighs gives the opponent easy access to hip escape and knee insertion for half guard recovery. Center your weight on the solar plexus, squeeze both knees tight against the ribs, and settle your full weight before initiating any grip changes or submission threats."
       }
     ],
-    "safety_considerations": "During the transition from crucifix to mount, exercise control over the speed and force of the leg swing to avoid striking your training partner's face or ribs. The weight transfer must be controlled and gradual rather than dropping full bodyweight abruptly onto a partner's torso, which can cause rib injuries or wind the partner. When drilling at higher resistance levels, communicate with training partners to establish boundaries for bridge intensity and counter force. Be especially cautious with the crossface pressure during training, as excessive shoulder driving can cause neck strain."
+    "safety_considerations": "During the transition from crucifix to mount, exercise control over the speed and force of the leg swing to avoid striking your training partner's face or ribs. The weight transfer must be controlled and gradual rather than dropping full bodyweight abruptly onto a partner's torso, which can cause rib injuries or wind the partner. When drilling at higher resistance levels, communicate with training partners to establish boundaries for bridge intensity and counter force. Be especially cautious with the crossface pressure during training, as excessive shoulder driving can cause neck strain.",
+    "clips": [
+      {
+        "id": "C-to6LGEjIs",
+        "title": "Turtle attack finishing in mount",
+        "by": "Dirtball BJJ",
+        "vertical": false,
+        "channel": "Dirtball BJJ",
+        "duration": 57,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Crucifix to Mount Defender",
@@ -407,6 +418,26 @@
         "phase": "Phase 3: Live Application",
         "focus": "Full resistance defensive sparring from crucifix",
         "description": "Positional sparring starting from crucifix bottom with full resistance. Top player works complete crucifix attack sequence including submissions and mount transition. Bottom player works all defensive options and escape pathways. Evaluate success rates for preventing mount establishment and identify which defensive responses are most effective under pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "41koUZWmeHE",
+        "title": "Escaping the mounted crucifix",
+        "by": "Shem Rock",
+        "vertical": false,
+        "channel": "Shem Rock ",
+        "duration": 146,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "C7wr6klxbC8",
+        "title": "Crucifix escape",
+        "by": "Chosen Few BJJ",
+        "vertical": false,
+        "channel": "Chosen Few BJJ",
+        "duration": 89,
+        "verified": "2026-07-15"
       }
     ]
   }

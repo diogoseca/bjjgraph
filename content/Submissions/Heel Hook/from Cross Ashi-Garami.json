@@ -354,6 +354,35 @@
         "answer": "Immediately stop all rotational pressure the instant you perceive any tap signal. Release the heel grip completely by opening your hands before unwrapping the leg entanglement. Slowly remove your crossed legs while allowing your partner to extract their leg at their own pace. Never maintain any rotational pressure during the release, even passively. Check with your partner about their knee and ankle status after every heel hook attempt, and report any discomfort to the instructor.",
         "safety_critical": true
       }
+    ],
+    "clips": [
+      {
+        "id": "h_SRARh0B6U",
+        "title": "Cross ashi belly-down heel hook",
+        "by": "Bowerhouse MMA",
+        "vertical": false,
+        "channel": "BOWERHOUSE MMA",
+        "duration": 68,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "GqE4UobpkMs",
+        "title": "Reverse X to cross ashi to inside heel hook",
+        "by": "Bowerhouse MMA",
+        "vertical": false,
+        "channel": "BOWERHOUSE MMA",
+        "duration": 88,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "lr7rlj7WV-E",
+        "title": "X guard to heel hook",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
+        "duration": 94,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -489,6 +518,26 @@
         "phase": "Phase 4: Live Defense with Full Resistance",
         "focus": "Integrating all defensive skills against realistic attacks",
         "description": "Full positional sparring from Cross Ashi-Garami bottom against partner attacking at 80-90% intensity. Practice combining boot defense, hand fighting, escape recognition, and counter-attacks in real time. Heel hooks applied at controlled training speed only. Focus on making correct decisions under pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "FUjlpGRjU44",
+        "title": "Escaping and countering cross ashi garami",
+        "by": "Lux's Jiu Jitsu",
+        "vertical": false,
+        "channel": "Lux’s jiu jitsu channel",
+        "duration": 45,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "v3w0qXLKxug",
+        "title": "Defending heel hooks",
+        "by": "Absolute MMA St Kilda",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 92,
+        "verified": "2026-07-14"
       }
     ]
   }

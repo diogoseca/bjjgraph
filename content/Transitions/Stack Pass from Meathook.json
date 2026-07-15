@@ -307,7 +307,27 @@
         "answer": "Immediately begin walking hips laterally to clear the opponent's legs and establish passing position. Any pause between arm extraction and passing allows the bottom player to recover guard structure, re-insert their legs for Rubber Guard re-establishment, or transition to alternative attacks like triangle or closed guard submissions. The extraction-to-pass must be one continuous flowing sequence."
       }
     ],
-    "safety_considerations": "The Stack Pass from Meathook carries significant neck and throat risk due to the gogoplata danger inherent in forward driving against Rubber Guard positions. Always tuck the chin before initiating any forward movement. If you feel shin contact near the throat at any point during the drive, immediately stop and retreat rather than forcing through. Tap immediately to any gogoplata that locks the shin against the throat. The trapped shoulder is also at risk during aggressive extraction attempts. Use rotational mechanics rather than brute force pulling to prevent shoulder strain. During training, communicate clearly with partners about resistance levels and establish tap protocols before drilling."
+    "safety_considerations": "The Stack Pass from Meathook carries significant neck and throat risk due to the gogoplata danger inherent in forward driving against Rubber Guard positions. Always tuck the chin before initiating any forward movement. If you feel shin contact near the throat at any point during the drive, immediately stop and retreat rather than forcing through. Tap immediately to any gogoplata that locks the shin against the throat. The trapped shoulder is also at risk during aggressive extraction attempts. Use rotational mechanics rather than brute force pulling to prevent shoulder strain. During training, communicate clearly with partners about resistance levels and establish tap protocols before drilling.",
+    "clips": [
+      {
+        "id": "AvivOVuYcCk",
+        "title": "Escaping and passing the rubber guard",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 131,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "xQIZEMLolpU",
+        "title": "Guard break into stack pass",
+        "by": "Einar Friðgeirs",
+        "vertical": false,
+        "channel": "Einar Friðgeirs",
+        "duration": 21,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Stack Pass from Meathook Defender",
@@ -432,6 +452,35 @@
         "phase": "Phase 4: Full Meathook defense system",
         "focus": "Integrating stack pass defense with defense against all Meathook escape attempts",
         "description": "Partner freely chooses between stack pass, arm extraction, posture recovery, or sprawl escapes. You must recognize and counter each escape type appropriately. Develops complete defensive pattern recognition and response fluency from Meathook bottom."
+      }
+    ],
+    "clips": [
+      {
+        "id": "E3sCfrFKJDE",
+        "title": "Rubber guard: preventing the pass",
+        "by": "Força Martial Arts",
+        "vertical": false,
+        "channel": "Força Martial Arts & Fitness",
+        "duration": 158,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "huzjQNiJu7Y",
+        "title": "Rubber guard quick fix",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 65,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "PFFTzx1Ih_Q",
+        "title": "Prison guard breakdown",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 59,
+        "verified": "2026-07-15"
       }
     ]
   }

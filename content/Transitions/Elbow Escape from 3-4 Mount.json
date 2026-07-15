@@ -303,7 +303,36 @@
         "answer": "The immediate priority is establishing a stabilized half guard by turning to face the top player on your side rather than remaining flat, fighting for the underhook on the trapped leg side, and inserting a knee shield to prevent the top player from immediately re-passing or re-mounting. Without these stabilization actions, the half guard recovery is temporary because the top player will immediately pressure forward to flatten you and begin their passing sequence. The underhook is particularly critical as it provides access to sweeps and back takes that shift the position from defensive to offensive."
       }
     ],
-    "safety_considerations": "The Elbow Escape from 3-4 Mount is a low-risk technique with minimal injury potential when executed correctly. The primary safety concern is neck strain from improper bridging mechanics, particularly if the head is extended rather than chin-tucked during the bridge phase. Practitioners should avoid explosive full-extension arm frames that expose the elbow and shoulder joints to Americana and armbar attacks from the top player. During training, the top player should avoid dropping sudden full weight during the partner's escape attempts to prevent rib compression injuries. Both practitioners should communicate about pressure levels during drilling phases and immediately signal if knee or hip discomfort occurs during the knee insertion phase."
+    "safety_considerations": "The Elbow Escape from 3-4 Mount is a low-risk technique with minimal injury potential when executed correctly. The primary safety concern is neck strain from improper bridging mechanics, particularly if the head is extended rather than chin-tucked during the bridge phase. Practitioners should avoid explosive full-extension arm frames that expose the elbow and shoulder joints to Americana and armbar attacks from the top player. During training, the top player should avoid dropping sudden full weight during the partner's escape attempts to prevent rib compression injuries. Both practitioners should communicate about pressure levels during drilling phases and immediately signal if knee or hip discomfort occurs during the knee insertion phase.",
+    "clips": [
+      {
+        "id": "pUZcLTWHAzk",
+        "title": "Knee and elbow escape from mount",
+        "by": "Jamie",
+        "vertical": false,
+        "channel": "jamielovesmartialarts",
+        "duration": 71,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "cyegyon5hVg",
+        "title": "Two mount escapes to half guard",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "V2nhiny9fws",
+        "title": "Ankle-elbow escape from mount to deep half",
+        "by": "Elite Team Monterey",
+        "vertical": false,
+        "channel": "ELITE TEAM MONTEREY",
+        "duration": 82,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Elbow Escape from 3-4 Mount Defender",
@@ -428,6 +457,17 @@
         "phase": "Phase 4: Transition Integration",
         "focus": "Using escape defense to advance position or attack",
         "description": "Practice flowing from escape defense into offensive sequences: bottom player's bridge becomes your full mount consolidation, their extended arm becomes your Americana setup, their turning motion becomes your technical mount entry. Develop the ability to convert defensive situations into offensive opportunities."
+      }
+    ],
+    "clips": [
+      {
+        "id": "iS017eyM0eQ",
+        "title": "Maintaining mount: preventing the elbow escape",
+        "by": "St. Paul Brazilian Jiu Jitsu",
+        "vertical": false,
+        "channel": "St. Paul Brazilian Jiu Jitsu",
+        "duration": 264,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -398,6 +398,35 @@
           "nogi": 23
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "sIYeSMSkqeE",
+        "title": "Backside 50/50 Inside Heel Hook Finish",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "Professor Buck",
+        "duration": 18,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "hll_k_6QiI0",
+        "title": "Straight Footlock Finish from Backside 50/50",
+        "by": "Mitch Oley",
+        "vertical": false,
+        "channel": "SoulTaker",
+        "duration": 54,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "LTPdSfUqeFc",
+        "title": "Backside 50/50 from Knee on Belly",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 19,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -722,6 +751,26 @@
           "nogi": 9
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "DBbSqQf6iCo",
+        "title": "Roll Under Counter to Backside 50/50",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 110,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "RTzSOGlxSWg",
+        "title": "Escape and Counter the Backside 50/50",
+        "by": "Matrix Jiu Jitsu",
+        "vertical": false,
+        "channel": "Matrix Jiu Jitsu",
+        "duration": 240,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -756,6 +805,35 @@
     {
       "question": "Why do both players retain a genuine heel hook threat in Backside 50-50 despite the positional imbalance?",
       "answer": "The symmetric 50-50 leg entanglement wedges each player's legs against the same exposed heel, so the submission access is shared rather than owned by one side. This means the back-exposed player is never purely defensive at the legs and can counter-attack the heel if the chest-side player overcommits or exposes their own leg. The chest-side player's advantage is not exclusive leg access but superior visibility and pressure, which lets them attack with more control and defend counters more easily. The persistent mutual heel threat is what keeps the position dangerous for both players and forces careful management of leg exposure by whoever attacks."
+    }
+  ],
+  "clips": [
+    {
+      "id": "ucAwPgTLSpQ",
+      "title": "Getting to Backside 50/50",
+      "by": "Lachlan Giles",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 121,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "DBbSqQf6iCo",
+      "title": "Roll Under to Backside 50/50",
+      "by": "Lachlan Giles",
+      "vertical": false,
+      "channel": "BJJ focus camps",
+      "duration": 110,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "bqyt1bW6odw",
+      "title": "Single Leg X to Backside 50/50",
+      "by": "Flux MMA",
+      "vertical": false,
+      "channel": "Flux MMA",
+      "duration": 116,
+      "verified": "2026-07-14"
     }
   ]
 }

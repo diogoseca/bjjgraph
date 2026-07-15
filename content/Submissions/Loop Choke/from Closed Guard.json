@@ -349,6 +349,35 @@
         "answer": "Keeping the guard closed during setup locks the opponent within range and prevents them from creating the distance needed to strip the collar grip or escape entirely. The closed guard forces them to fight the grip while compressed, with their posture broken and mobility restricted by your legs. Opening the guard prematurely surrenders this controlling structure before the attack is ready, giving the opponent space to posture, stand, or begin passing. The correct sequence is to complete all grip work while the guard is closed, then open the guard only at the moment you initiate the turning motion, so the opponent has minimal time to react to the positional change.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "ruk0kdlr-Qw",
+        "title": "Alexandre Vieira's Famous Loop Choke",
+        "by": "Alexandre Vieira",
+        "vertical": false,
+        "channel": "FloGrappling",
+        "duration": 85,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "7MTvWfHIHtc",
+        "title": "Loop Choke from Closed Guard",
+        "by": "Mat Life Training Center",
+        "vertical": false,
+        "channel": "Mat Life Training Center",
+        "duration": 89,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "hBKRP0Ss8qk",
+        "title": "Loop Choke from Closed Guard",
+        "by": "ICON Jiu-Jitsu Team",
+        "vertical": false,
+        "channel": "ICON JIU-JITSU TEAM",
+        "duration": 15,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -489,6 +518,17 @@
         "phase": "Phase 4: Live Defensive Sparring from Closed Guard Top",
         "focus": "Defending the loop choke under full resistance while working toward guard opening and passing",
         "description": "Start in closed guard top against a partner hunting the loop choke along with other closed guard attacks. Balance guard opening attempts with collar defense, maintaining awareness of the loop choke threat throughout your passing sequence. Partner uses full resistance and chains the loop choke with hip bump sweeps, cross collar chokes, and guillotine threats. Track how often you prevent the grip versus how often the choke reaches the turning phase."
+      }
+    ],
+    "clips": [
+      {
+        "id": "pZmJpXSwRTk",
+        "title": "Loop choke escape",
+        "by": "Ninja Pinto",
+        "vertical": false,
+        "channel": "Ninja Pinto BJJ",
+        "duration": 60,
+        "verified": "2026-07-15"
       }
     ]
   },

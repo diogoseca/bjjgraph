@@ -284,7 +284,36 @@
         "answer": "Pull the far leg tightly toward your chest with the underhook while your shoulder wedges against the inside of their thigh, creating a fulcrum point. The force direction is toward your own body and slightly upward — you are loading their weight onto your frame. Simultaneously, your hips push upward to elevate their base. This opposing force system — pulling the leg in while pushing hips up — creates the off-balancing mechanics that power all deep half sweeps."
       }
     ],
-    "safety_considerations": "When practicing the open guard to deep half transition, practitioners must prioritize proper head positioning throughout the entry sequence. Never allow your head to dive between your opponent's legs, as this creates immediate vulnerability to guillotine chokes and can result in serious neck injuries under aggressive application. Always maintain a tucked chin position to protect against crossface pressure and potential neck cranks. During drilling, partners should use controlled movements and avoid explosive counter-pressure until proper technique is established. Beginners should practice this entry exclusively with cooperative partners who understand the safety requirements and will not apply sudden pressure that could compress the neck. Practitioners with existing neck injuries or cervical restrictions should consult with medical professionals before training this technique. The transition should be trained progressively, starting with zero resistance and gradually increasing intensity only after demonstrating consistent proper form."
+    "safety_considerations": "When practicing the open guard to deep half transition, practitioners must prioritize proper head positioning throughout the entry sequence. Never allow your head to dive between your opponent's legs, as this creates immediate vulnerability to guillotine chokes and can result in serious neck injuries under aggressive application. Always maintain a tucked chin position to protect against crossface pressure and potential neck cranks. During drilling, partners should use controlled movements and avoid explosive counter-pressure until proper technique is established. Beginners should practice this entry exclusively with cooperative partners who understand the safety requirements and will not apply sudden pressure that could compress the neck. Practitioners with existing neck injuries or cervical restrictions should consult with medical professionals before training this technique. The transition should be trained progressively, starting with zero resistance and gradually increasing intensity only after demonstrating consistent proper form.",
+    "clips": [
+      {
+        "id": "_IGB9jEvXfo",
+        "title": "Low grip and high grip for deep half guard",
+        "by": "Jeff Glover",
+        "vertical": false,
+        "channel": "The Jiu Jitsu Encyclopedia",
+        "duration": 42,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ZQzg3TnzMJI",
+        "title": "Deep half guard sweep",
+        "by": "Kyle Dimmitt",
+        "vertical": false,
+        "channel": "Kyle Dimmitt",
+        "duration": 42,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Dalv3UtxCZ0",
+        "title": "Deep half guard entry from knee on belly",
+        "by": "Team Daruma Dojo",
+        "vertical": false,
+        "channel": "Team Daruma Dojo",
+        "duration": 68,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Open Guard to Deep Half Defender",
@@ -410,6 +439,35 @@
         "phase": "Week 9+: Positional Sparring Integration",
         "focus": "Prevention and defense within live passing sequences",
         "description": "Full positional sparring from open guard top. Integrate deep half prevention into your passing strategy — maintain posture, manage grips proactively, and address entries immediately when detected. 5-minute rounds at full resistance. Track how many entries you prevent versus how many reach full deep half to measure progress."
+      }
+    ],
+    "clips": [
+      {
+        "id": "qqheiIgQrfY",
+        "title": "Guard pass vs deep half",
+        "by": "Koji Shibamoto",
+        "vertical": false,
+        "channel": "トライフォース柔術アカデミー / Tri-force Jiu-jitsu Academy",
+        "duration": 33,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "hHbb7ywVTwU",
+        "title": "Top deep half guard counter to back take",
+        "by": "JiuJitsu.com",
+        "vertical": false,
+        "channel": "JiuJitsu.com",
+        "duration": 63,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Zy88ds_RDG4",
+        "title": "Half guard passing underhook counter",
+        "by": "Holy Grail BJJ",
+        "vertical": false,
+        "channel": "Holy Grail BJJ",
+        "duration": 126,
+        "verified": "2026-07-15"
       }
     ]
   },

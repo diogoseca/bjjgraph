@@ -279,7 +279,27 @@
         "answer": "Shift back toward their head and threaten a front headlock or back-take entry. Forcing them to defend their neck or a hook pulls their attention and hands away from squeezing the elbow-knee frame, which opens the near-side hip for your underhook. Alternate between the head-side threat and the hip underhook so each defensive reaction creates the opening for the other — the posture transition works best as the counter to their re-turtle, not as a standalone first option."
       }
     ],
-    "safety_considerations": "This transition involves lifting and rotating an opponent from turtle to guard, which places load on the lower back and shoulders of both practitioners. The top player should use hip and chest leverage rather than muscular pulling to avoid lower back strain. The bottom player can experience neck compression if the top player drives them forward while their head is tucked. Both practitioners should tap immediately if they feel any neck compression or spine loading in unexpected directions. In drilling, the bottom player should communicate clearly if they feel unstable during the rotation phase."
+    "safety_considerations": "This transition involves lifting and rotating an opponent from turtle to guard, which places load on the lower back and shoulders of both practitioners. The top player should use hip and chest leverage rather than muscular pulling to avoid lower back strain. The bottom player can experience neck compression if the top player drives them forward while their head is tucked. Both practitioners should tap immediately if they feel any neck compression or spine loading in unexpected directions. In drilling, the bottom player should communicate clearly if they feel unstable during the rotation phase.",
+    "clips": [
+      {
+        "id": "8YvYkGr5FIU",
+        "title": "Turtle to side control transition",
+        "by": "Rickson Gracie Academy",
+        "vertical": false,
+        "channel": "Rickson Gracie Jiu-Jitsu Academy",
+        "duration": 47,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "rj3LRhRCtCA",
+        "title": "Kimura trap to attack the turtle guard",
+        "by": "Paul Stolyar",
+        "vertical": false,
+        "channel": "boomdunker",
+        "duration": 52,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Posture from Chill Dog Defender",
@@ -397,6 +417,26 @@
         "phase": "Phase 3: Guard Recovery Optimization",
         "focus": "Immediate offensive grip establishment upon guard recovery",
         "description": "Partner completes the posture transition to closed guard. Focus exclusively on the first three seconds after guard recovery — establishing collar or head control, breaking posture, and threatening the first sweep or submission. The drill resets each time posture is broken or the top player establishes stable posture."
+      }
+    ],
+    "clips": [
+      {
+        "id": "dHanNAj6B80",
+        "title": "Turtle escape from back control",
+        "by": "Adnan Sadiq",
+        "vertical": false,
+        "channel": "Adnan Sadiq",
+        "duration": 38,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "923eYpD1E58",
+        "title": "Inside roll escape from turtle",
+        "by": "Kenny Lester",
+        "vertical": false,
+        "channel": "KING OF CATCH WRESTLING CHAMPIONSHIP",
+        "duration": 158,
+        "verified": "2026-07-15"
       }
     ]
   }

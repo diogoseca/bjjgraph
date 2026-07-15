@@ -396,6 +396,35 @@
         "question": "What should you do immediately after a partial escape where opponent frees their arm but you still have positional control?",
         "answer": "Immediately transition back to standard mount and consolidate control before they can fully escape. Once in mount, reset your grips and wait for another arm isolation opportunity. Do not chase the escaped arm or attempt to re-enter S Mount while unstable. Secure the position first, then look for the next submission opportunity from a position of control."
       }
+    ],
+    "clips": [
+      {
+        "id": "nH4ly3vk7WI",
+        "title": "S-Mount armbar, kimura & far-side armbar",
+        "by": "GBCostaMesa",
+        "vertical": false,
+        "channel": "GBCostaMesa",
+        "duration": 24,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "2zSi7RlFJEU",
+        "title": "Armbar from S-Mount",
+        "by": "Fenrir Jiu-Jitsu Academy",
+        "vertical": false,
+        "channel": "Fenrir Jiu-Jitsu Academy",
+        "duration": 78,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "N-fwXASdMCQ",
+        "title": "Brutal armbar from S-Mount",
+        "by": "Lux's Jiu Jitsu",
+        "vertical": false,
+        "channel": "Lux’s jiu jitsu channel",
+        "duration": 80,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -681,6 +710,26 @@
         "question": "What should you do if your arm becomes fully extended and opponent has proper armbar control?",
         "answer": "Tap immediately. Once the arm is fully extended with opponent's hips tight to your shoulder and their legs controlling your body, the armbar is complete. Continuing to resist risks serious elbow injury. There is no shame in tapping to a properly executed submission - train again tomorrow. Recognize the submission is finished before the injury occurs."
       }
+    ],
+    "clips": [
+      {
+        "id": "pUZcLTWHAzk",
+        "title": "Knee and elbow mount escape",
+        "by": "jamielovesmartialarts",
+        "vertical": false,
+        "channel": "jamielovesmartialarts",
+        "duration": 71,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "tx_pVnkCA-o",
+        "title": "Cross-underhook side mount escape",
+        "by": "Carlos Machado",
+        "vertical": false,
+        "channel": "Carlos Machado",
+        "duration": 130,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -715,6 +764,35 @@
     {
       "question": "How does the over-the-head leg govern the escape and finishing geometry that both players contest?",
       "answer": "The leg posted over the opponent's head is the wall that closes one side of the S and prevents the bottom player from sitting up or rotating toward the head to rebuild posture. For the top player it is also the lever that, when dropped, converts the setup into a finished armbar by trapping the head and extending the arm. For the bottom player, controlling or lifting that leg is the highest-leverage way to reopen the position, because it simultaneously blocks the step-over finish and creates room to turn. The status of that single leg contact largely determines whether the position advances to submission or unwinds toward escape."
+    }
+  ],
+  "clips": [
+    {
+      "id": "FSbR22OOSaE",
+      "title": "S-Mount basics",
+      "by": "ZombieProofBJJ",
+      "vertical": false,
+      "channel": "ZombieProofBJJ",
+      "duration": 72,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "BDoWDTgzKf8",
+      "title": "Attack options from S-Mount",
+      "by": "DS Team Jiu Jitsu",
+      "vertical": false,
+      "channel": "DS Team Jiu Jitsu School",
+      "duration": 110,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "2Xm_mLp8xwk",
+      "title": "S-Mount troubleshooting",
+      "by": "ZombieProofBJJ",
+      "vertical": false,
+      "channel": "ZombieProofBJJ",
+      "duration": 67,
+      "verified": "2026-07-14"
     }
   ]
 }

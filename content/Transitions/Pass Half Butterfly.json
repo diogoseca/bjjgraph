@@ -299,7 +299,36 @@
         "answer": "When the hook is deeply inserted and resists standard hip pressure neutralization, switch to the backstep variation. Instead of driving through the hook, circle your hips away from it while maintaining upper body connection through the crossface. The backstep changes the angle of engagement so the hook points away from your center of gravity, eliminating its leverage entirely. Alternatively, use the leg weave variation by threading your free leg over and around the hook to pin it mechanically to the mat."
       }
     ],
-    "safety_considerations": "Pass Half Butterfly is a relatively low-risk transition with no direct joint manipulation or choking mechanics. The primary safety concern is maintaining controlled weight distribution to avoid dropping excessive weight suddenly onto the bottom player's ribs or face during crossface application. Practitioners should communicate about pressure levels during drilling. Knee injuries can occur if the passer's trapped knee twists during the extraction phase, so the knee slide should follow a straight path without lateral torque. The bottom player should tap if they feel any sharp knee discomfort from the passing pressure. Both partners should be aware that sudden sweep attempts during live drilling can cause the top player to land awkwardly."
+    "safety_considerations": "Pass Half Butterfly is a relatively low-risk transition with no direct joint manipulation or choking mechanics. The primary safety concern is maintaining controlled weight distribution to avoid dropping excessive weight suddenly onto the bottom player's ribs or face during crossface application. Practitioners should communicate about pressure levels during drilling. Knee injuries can occur if the passer's trapped knee twists during the extraction phase, so the knee slide should follow a straight path without lateral torque. The bottom player should tap if they feel any sharp knee discomfort from the passing pressure. Both partners should be aware that sudden sweep attempts during live drilling can cause the top player to land awkwardly.",
+    "clips": [
+      {
+        "id": "LIITsrlsAaI",
+        "title": "Passing Half Butterfly Guard",
+        "by": "Morto BJJ",
+        "vertical": false,
+        "channel": "Morto BJJ",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Pk_6CrydIRQ",
+        "title": "Half Butterfly Guard Pass for No-Gi",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 110,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "FyQToVSEOKk",
+        "title": "Half Butterfly Guard Passing",
+        "by": "Michael Hoffman",
+        "vertical": false,
+        "channel": "Michael Hoffman",
+        "duration": 94,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Pass Half Butterfly Defender",
@@ -429,6 +458,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance defense with all options available",
         "description": "Positional sparring from half butterfly bottom with full resistance. Score points for successful sweeps, guard retention beyond two minutes, or transitions to offensive guard positions. Develop composure and reliable defensive responses under competitive pressure and fatigue."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ADwKEjvhX-U",
+        "title": "Butterfly Guard Framing and Retention Concepts",
+        "by": "ZeGrapplez",
+        "vertical": false,
+        "channel": "ZeGrapplez",
+        "duration": 62,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uH2MxHMNDo0",
+        "title": "Half Butterfly: Entering The Trade Off a Failed Sweep",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 74,
+        "verified": "2026-07-15"
       }
     ]
   }

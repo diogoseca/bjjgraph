@@ -290,7 +290,27 @@
         "answer": "Hip escape away from the opponent toward the open side, never toward them. Escaping away creates the lateral distance and angle that standard half guard's knee shield and framing require, while escaping toward the opponent collapses your own space, feeds their crossface, and flattens you before the knee shield can be inserted. The direction of this single movement often determines whether you recover a functional half guard or end up in flattened half guard."
       }
     ],
-    "safety_considerations": "This transition is positionally focused with minimal injury risk, but practitioners should release the lockdown figure-four gradually rather than explosively to avoid jarring their partner's knee or ankle. During drilling, ensure the knee shield insertion is controlled to prevent accidentally striking the training partner's ribs or hip bone with the knee. When performing hip escapes during the transition, maintain awareness of surrounding mat space to avoid colliding with other training pairs. Partners working from top Old School should avoid driving extreme forward pressure during early drilling phases to allow the bottom player to develop the transition mechanics safely."
+    "safety_considerations": "This transition is positionally focused with minimal injury risk, but practitioners should release the lockdown figure-four gradually rather than explosively to avoid jarring their partner's knee or ankle. During drilling, ensure the knee shield insertion is controlled to prevent accidentally striking the training partner's ribs or hip bone with the knee. When performing hip escapes during the transition, maintain awareness of surrounding mat space to avoid colliding with other training pairs. Partners working from top Old School should avoid driving extreme forward pressure during early drilling phases to allow the bottom player to develop the transition mechanics safely.",
+    "clips": [
+      {
+        "id": "WGa86Z8B44Q",
+        "title": "Old school entry from half guard",
+        "by": "Coach SUL",
+        "vertical": false,
+        "channel": "Coach SUL",
+        "duration": 20,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Jnc2siD9cak",
+        "title": "Old school sweep from half guard",
+        "by": "Ritchie Yip",
+        "vertical": false,
+        "channel": "Ritchie Yip",
+        "duration": 12,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Old School to Half Guard Defender",
@@ -406,6 +426,17 @@
         "phase": "Phase 3: Pressure Integration",
         "focus": "Maintaining offensive pressure through transitions",
         "description": "Full positional sparring starting from Old School top. Partner attempts both Old School sweeps and half guard transitions while you maintain continuous defensive and offensive pressure. Practice reading which threat the bottom player is pursuing and applying the appropriate counter in real time. Develop the ability to seamlessly transition your top pressure between lockdown defense and transition window exploitation."
+      }
+    ],
+    "clips": [
+      {
+        "id": "zNYVPT5XExU",
+        "title": "Half guard recovery and lockdown defense",
+        "by": "Robot Dolphin Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Robot Dolphin Jiu-Jitsu ",
+        "duration": 194,
+        "verified": "2026-07-15"
       }
     ]
   }

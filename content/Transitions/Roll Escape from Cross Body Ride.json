@@ -297,7 +297,36 @@
         "answer": "Choose the roll escape when the rider has effectively neutralized lateral hip movement through tight hip control or hip-to-hip connection but has left the rotational axis unguarded. This typically occurs when the rider has adapted to your hip escape pattern by keeping their weight centered and following lateral displacement. The roll escape introduces a vector that their centered weight cannot counter. Also choose the roll when the rider is in transition between control configurations, as their momentary weight shift provides the instability that the roll requires for success."
       }
     ],
-    "safety_considerations": "Practice rolling escapes on properly padded mats to prevent shoulder and neck injuries from the rotational impact. Start with slow, controlled repetitions at minimal resistance before adding speed or partner pressure. The neck is the primary injury concern during this technique—maintain a strict chin-tuck throughout all training phases and never force a roll if you feel compression or strain on the cervical spine. If a training partner establishes a choke during the roll, tap immediately rather than attempting to power through the rotation. Gradually increase partner resistance over multiple sessions rather than jumping to full intensity. Warm up the neck, shoulders, and hips thoroughly before dedicated rolling escape drilling sessions."
+    "safety_considerations": "Practice rolling escapes on properly padded mats to prevent shoulder and neck injuries from the rotational impact. Start with slow, controlled repetitions at minimal resistance before adding speed or partner pressure. The neck is the primary injury concern during this technique—maintain a strict chin-tuck throughout all training phases and never force a roll if you feel compression or strain on the cervical spine. If a training partner establishes a choke during the roll, tap immediately rather than attempting to power through the rotation. Gradually increase partner resistance over multiple sessions rather than jumping to full intensity. Warm up the neck, shoulders, and hips thoroughly before dedicated rolling escape drilling sessions.",
+    "clips": [
+      {
+        "id": "S2-UjM43Luk",
+        "title": "Five Crossbody Escape Drills",
+        "by": "Clinch Academy",
+        "vertical": false,
+        "channel": "Clinch Academy",
+        "duration": 152,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "F6reAeYmhoU",
+        "title": "Leg Ride Escape",
+        "by": "Steve Weismann",
+        "vertical": false,
+        "channel": "steve weismann",
+        "duration": 14,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "l7FuJKfhhug",
+        "title": "Escaping the Cross Body Ride",
+        "by": "Jake Sueflohn",
+        "vertical": false,
+        "channel": "Moore Wrestling",
+        "duration": 191,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Roll Escape from Cross Body Ride Defender",
@@ -418,6 +447,17 @@
         "phase": "Full Resistance Integration",
         "focus": "Combining all defensive responses against diverse escape attempts",
         "description": "Full-resistance positional sparring from cross body ride. Partner uses all available escape options including rolls, hip escapes, and sit-throughs. Practice reading which escape is being attempted and applying the appropriate defensive response. Develop automatic, fluid reactions that combine ride maintenance with back control advancement based on the escape type."
+      }
+    ],
+    "clips": [
+      {
+        "id": "923eYpD1E58",
+        "title": "Inside roll escape from the turtle ride",
+        "by": "Kenny Lester",
+        "vertical": false,
+        "channel": "KING OF CATCH WRESTLING CHAMPIONSHIP",
+        "duration": 158,
+        "verified": "2026-07-15"
       }
     ]
   }

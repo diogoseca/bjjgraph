@@ -396,6 +396,35 @@
         "answer": "Trace the opponent's arm that wraps under their own chin and around your neck; that is the choking arm. You then seat your shoulder on the carotid on that same side, letting their arm seal the opposite carotid.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "0Iv9WUpKb4E",
+        "title": "Side Control to Von Flue Choke",
+        "by": "Fenrir Thorvaldsen",
+        "vertical": false,
+        "channel": "Fenrir Thorvaldsen",
+        "duration": 88,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "ExQHrRPcvLM",
+        "title": "The Von Flue Choke",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 88,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "xpWNlOoalKs",
+        "title": "Von Flue Pressure Choke",
+        "by": "Stafford MMA",
+        "vertical": false,
+        "channel": "Stafford MMA",
+        "duration": 119,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -549,6 +578,35 @@
         "phase": "Phase 4: Live Situational Sparring",
         "focus": "Applying Von Flue defense in live rolling conditions",
         "description": "Begin in closed guard with you holding a guillotine. Partner attempts to pass and establish the Von Flue at full resistance. You must decide in real time whether to finish the guillotine or release and defend. Progress to fully live rolling where you specifically practice guillotine attempts with awareness of Von Flue danger. Track how often you get caught versus how often you release at the correct time and successfully defend."
+      }
+    ],
+    "clips": [
+      {
+        "id": "WSH-gBwPmLs",
+        "title": "Von Flue Choke - Guillotine Counter",
+        "by": "Ramsey Dewey",
+        "vertical": false,
+        "channel": "Ramsey Dewey",
+        "duration": 199,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "pThmcwxzNBQ",
+        "title": "How NOT to Escape a Guillotine Choke",
+        "by": "Self Defense Mythbuster",
+        "vertical": false,
+        "channel": "Self Defense Mythbuster",
+        "duration": 79,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "RXoU4lbjelI",
+        "title": "Guillotine Counter + Von Flue Choke",
+        "by": "Updawg Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Updawg Jiu-Jitsu",
+        "duration": 133,
+        "verified": "2026-07-14"
       }
     ]
   },

@@ -299,7 +299,36 @@
         "answer": "Abandon when you lose wrist control and cannot immediately re-grip, when the opponent creates significant lateral space through hip escape that breaks your knee pinch, or when their bridge disrupts your base to the point where you risk being reversed. The key indicator is whether you still have redundant control: if only one control element remains such as just wrist control or just knee pinch but not both, the setup is compromised. Returning to mount preserves positional dominance rather than gambling on a deteriorating submission attempt."
       }
     ],
-    "safety_considerations": "The S Mount Armbar Setup transitions directly into armbar control where hyperextension of the elbow joint is the submission mechanism. Apply pressure gradually and progressively during drilling, never jerking or cranking the arm. Partners should establish clear tap signals before drilling. When the arm reaches full extension against resistance, the submission is complete - release immediately upon tap. During live training, be cautious during the fall-back phase where momentum can accelerate arm extension beyond the partner's ability to tap in time. Always prioritize training partner safety over submission completion."
+    "safety_considerations": "The S Mount Armbar Setup transitions directly into armbar control where hyperextension of the elbow joint is the submission mechanism. Apply pressure gradually and progressively during drilling, never jerking or cranking the arm. Partners should establish clear tap signals before drilling. When the arm reaches full extension against resistance, the submission is complete - release immediately upon tap. During live training, be cautious during the fall-back phase where momentum can accelerate arm extension beyond the partner's ability to tap in time. Always prioritize training partner safety over submission completion.",
+    "clips": [
+      {
+        "id": "2zSi7RlFJEU",
+        "title": "Armbar from S-mount",
+        "by": "Fenrir Jiu-Jitsu coach",
+        "vertical": false,
+        "channel": "Fenrir Jiu-Jitsu Academy",
+        "duration": 78,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "5UtNLw7usQk",
+        "title": "Switch-side armbar from S-mount",
+        "by": "Darrin Lillian",
+        "vertical": false,
+        "channel": "Darrin Lillian",
+        "duration": 50,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "nH4ly3vk7WI",
+        "title": "S-mount armbar, kimura and far-side armbar",
+        "by": "GB Costa Mesa coach",
+        "vertical": false,
+        "channel": "GBCostaMesa",
+        "duration": 24,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "S Mount Armbar Setup Defender",
@@ -429,6 +458,35 @@
         "phase": "Phase 4: Full Resistance Integration",
         "focus": "Competition-speed defense within broader positional sparring",
         "description": "Incorporate S Mount Armbar Setup defense into regular positional sparring from mount. Practice recognizing setup initiation during dynamic exchanges and executing defensive responses at full speed against fully committed attacks."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "Favorite armbar escape",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "AfDEN3uK3W0",
+        "title": "Low-effort armbar escape via foot capture",
+        "by": "Patrick Donabedian",
+        "vertical": false,
+        "channel": "Patrick Donabedian BJJ",
+        "duration": 55,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "zKieMBkGXxU",
+        "title": "Armbar defense and stack escape",
+        "by": "Daniel Frank",
+        "vertical": false,
+        "channel": "Daniel Frank",
+        "duration": 32,
+        "verified": "2026-07-15"
       }
     ]
   }

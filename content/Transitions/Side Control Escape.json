@@ -289,7 +289,36 @@
         "answer": "Breathing management is critical because the opponent's chest pressure compresses your ribcage, and panic breathing or breath-holding rapidly leads to exhaustion that makes escape impossible. Breathe through your diaphragm in short, controlled exhales and inhales, timing your inhales during the momentary pressure relief that occurs during your bridges. Exhale forcefully during the bridge and shrimp to engage your core musculature and generate maximum power. Never hold your breath during escape attempts as this triggers the sympathetic fight-or-flight response that causes energy-wasting tension throughout your body. Controlled breathing also maintains mental clarity for recognizing timing windows and selecting appropriate escape variations, which is impossible when oxygen-deprived and panicking."
       }
     ],
-    "safety_considerations": "When practicing side control escapes, controlled application of pressure is essential to prevent injury to both training partners. The top player should apply steady, progressive pressure rather than explosive dropping weight, as sudden compression can cause rib injuries, breathing difficulties, or sternum contusions for the bottom player. The bottom player must communicate immediately by tapping or verbally signaling if pressure becomes painful or breathing is compromised beyond their tolerance. When executing bridges, ensure adequate mat space exists and be aware of nearby training pairs to avoid collisions during explosive movements. Hip escape movements should be controlled, especially when training with newer practitioners, to prevent knee or hip strain from unexpected directional forces. Build tolerance to pressure gradually over weeks rather than immediately drilling under maximum pressure. Both partners should maintain constant awareness of the other's safety and be prepared to release pressure or pause the drill at any sign of distress."
+    "safety_considerations": "When practicing side control escapes, controlled application of pressure is essential to prevent injury to both training partners. The top player should apply steady, progressive pressure rather than explosive dropping weight, as sudden compression can cause rib injuries, breathing difficulties, or sternum contusions for the bottom player. The bottom player must communicate immediately by tapping or verbally signaling if pressure becomes painful or breathing is compromised beyond their tolerance. When executing bridges, ensure adequate mat space exists and be aware of nearby training pairs to avoid collisions during explosive movements. Hip escape movements should be controlled, especially when training with newer practitioners, to prevent knee or hip strain from unexpected directional forces. Build tolerance to pressure gradually over weeks rather than immediately drilling under maximum pressure. Both partners should maintain constant awareness of the other's safety and be prepared to release pressure or pause the drill at any sign of distress.",
+    "clips": [
+      {
+        "id": "4L25UQntnPg",
+        "title": "Side control escape with the reverse hip escape",
+        "by": "Fox Den Martial Arts",
+        "vertical": false,
+        "channel": "Fox Den Martial Arts",
+        "duration": 25,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "br0-osUjx7c",
+        "title": "Side control recovery to guard",
+        "by": "Science Of JiuJitsu",
+        "vertical": false,
+        "channel": "Science Of JiuJitsu",
+        "duration": 42,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QH9-1I5XqO4",
+        "title": "Guard recovery from bottom side control",
+        "by": "Academy Jiu Jitsu",
+        "vertical": false,
+        "channel": "Academy Jiu Jitsu",
+        "duration": 105,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Side Control Escape Defender",
@@ -410,6 +439,17 @@
         "phase": "Week 9+: Full Positional Sparring",
         "focus": "Side control retention against unrestricted escape attempts with submission integration",
         "description": "Full positional sparring where bottom player uses any escape method and top player must maintain control or advance position. Integrate submission threats into retention strategy so that escape attempts open submission opportunities. Develop the complete side control game where retention, advancement, and submission flow together as a unified system."
+      }
+    ],
+    "clips": [
+      {
+        "id": "XaYoAcTeKkk",
+        "title": "Maintaining side control with pressure",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 32,
+        "verified": "2026-07-15"
       }
     ]
   },

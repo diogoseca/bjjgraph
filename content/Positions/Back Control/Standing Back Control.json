@@ -394,6 +394,35 @@
           "nogi": 0
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "K2Q1qg-cjTc",
+        "title": "Standing Back Control",
+        "by": "JFLOJUDO",
+        "vertical": false,
+        "channel": "JFLOJUDO",
+        "duration": 58,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "f3PJ06A_bWQ",
+        "title": "Hip Switch to Back Take",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 19,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "HWrsepCcaUk",
+        "title": "Mat Return from Standing Back Control",
+        "by": "William Abreu",
+        "vertical": false,
+        "channel": "William Abreu",
+        "duration": 194,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -722,6 +751,26 @@
           "nogi": 11
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "_sBB-O8fqP4",
+        "title": "Standing Up from Back Control",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 114,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "sPM2i6b5Ufw",
+        "title": "Escape the Back into Attack",
+        "by": "JW Wright",
+        "vertical": false,
+        "channel": "JW Wright BJJ",
+        "duration": 196,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -756,6 +805,26 @@
     {
       "question": "Why is Standing Back Control described as a bridge between standing grappling and ground fighting?",
       "answer": "The position emerges from standing exchanges such as clinch scrambles, failed takedowns, or back takes from the feet, yet its most common resolution is a descent into grounded back control. It fuses wrestling-style upper-body control and back-taking mechanics with traditional BJJ back-attack structure, so it belongs fully to neither phase. Both players are simultaneously managing a standing balance problem and anticipating the imminent transition to the mat. This dual identity is what makes it a genuine crossover state rather than a stable position in its own right."
+    }
+  ],
+  "clips": [
+    {
+      "id": "K2Q1qg-cjTc",
+      "title": "Standing Back Control",
+      "by": "JFLOJUDO",
+      "vertical": false,
+      "channel": "JFLOJUDO",
+      "duration": 58,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "HWrsepCcaUk",
+      "title": "Mat Return from Standing Back Control",
+      "by": "William Abreu",
+      "vertical": false,
+      "channel": "William Abreu",
+      "duration": 194,
+      "verified": "2026-07-14"
     }
   ]
 }

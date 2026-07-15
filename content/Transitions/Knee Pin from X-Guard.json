@@ -289,7 +289,27 @@
         "answer": "Lowering your center of gravity maximizes the downward pressure transmitted through the pin and dramatically reduces your vulnerability to sweeps. A high stance with narrow base creates maximum leverage for the opponent's remaining outside leg and upper body connections to generate sweeping forces. A low, wide stance distributes your weight in a way that resists off-balancing in all directions."
       }
     ],
-    "safety_considerations": "The Knee Pin from X-Guard carries moderate risk to both practitioners. The top player must control the rate and force of downward pressure on the pinned knee to avoid hyperextension of the bottom player's knee joint, particularly when the hook is deep and the knee is loaded. The bottom player should avoid explosively re-pummeling hooks when significant pinning pressure is already applied, as this can create shearing forces on the knee ligaments. Both practitioners should communicate immediately if knee discomfort occurs. Training partners should begin with cooperative resistance and gradually increase intensity to build familiarity with safe pressure thresholds."
+    "safety_considerations": "The Knee Pin from X-Guard carries moderate risk to both practitioners. The top player must control the rate and force of downward pressure on the pinned knee to avoid hyperextension of the bottom player's knee joint, particularly when the hook is deep and the knee is loaded. The bottom player should avoid explosively re-pummeling hooks when significant pinning pressure is already applied, as this can create shearing forces on the knee ligaments. Both practitioners should communicate immediately if knee discomfort occurs. Training partners should begin with cooperative resistance and gradually increase intensity to build familiarity with safe pressure thresholds.",
+    "clips": [
+      {
+        "id": "v2thEjJ0ES0",
+        "title": "Five passes against single leg X-guard",
+        "by": "OneontaJiuJitsu Academy",
+        "vertical": false,
+        "channel": "OneontaJiuJitsu Academy",
+        "duration": 121,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ZPcTvWxNSWg",
+        "title": "Leg pin step through to knee on belly pass",
+        "by": "The Fang Den",
+        "vertical": false,
+        "channel": "The Fang Den",
+        "duration": 178,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Knee Pin from X-Guard Defender",
@@ -413,6 +433,17 @@
         "phase": "Phase 4: Transition Flow",
         "focus": "Flowing to alternative guards when hook recovery fails",
         "description": "Partner successfully collapses your inside hook through the knee pin. Practice flowing immediately to Single Leg X-Guard, Butterfly Guard, or Deep Half without pausing in the compromised X-Guard. Build automatic transition pathways that activate the moment you recognize the hook is not recoverable."
+      }
+    ],
+    "clips": [
+      {
+        "id": "CB0lXglAR2c",
+        "title": "Reverse triangle counter to the leg scoop pass",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 64,
+        "verified": "2026-07-15"
       }
     ]
   }

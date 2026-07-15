@@ -287,7 +287,36 @@
         "answer": "The rotational force should come primarily from your core and back, not your arms. The arms function as transmission cables connecting your core's rotational power to the heel, not as the force generators themselves. The finish is executed by arching your back and rotating your shoulders away from the opponent while your arms maintain a rigid, tight connection. Arms fatigue rapidly under load and generate significantly less force than the core musculature. Keeping elbows tight to the body ensures efficient force transfer from the larger muscle groups through to the submission point."
       }
     ],
-    "safety_considerations": "The inside heel hook is among the most dangerous techniques in grappling, targeting the MCL, ACL, and meniscus through rotational force that can cause catastrophic, career-ending injury in milliseconds. Always apply force progressively and slowly in training, never explosively. Release immediately upon any tap signal—verbal, physical, or ambiguous. Train heel hooks only with experienced partners who understand the submission's danger. Beginners should drill grip placement without any force application until mechanics are automatic. In competition, apply with control appropriate to the level of competition. Never hold the submission after the tap. If you feel the knee give before your partner taps, release immediately."
+    "safety_considerations": "The inside heel hook is among the most dangerous techniques in grappling, targeting the MCL, ACL, and meniscus through rotational force that can cause catastrophic, career-ending injury in milliseconds. Always apply force progressively and slowly in training, never explosively. Release immediately upon any tap signal—verbal, physical, or ambiguous. Train heel hooks only with experienced partners who understand the submission's danger. Beginners should drill grip placement without any force application until mechanics are automatic. In competition, apply with control appropriate to the level of competition. Never hold the submission after the tap. If you feel the knee give before your partner taps, release immediately.",
+    "clips": [
+      {
+        "id": "rjMVCd6n1TA",
+        "title": "Inside heel hook breakdown",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "6gu-n4P9JXo",
+        "title": "Heel hook breaking mechanics",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "Altay Pirge",
+        "duration": 77,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "RDZrtByKcNI",
+        "title": "Inside heel hook from butterfly guard",
+        "by": "Mike Palladino",
+        "vertical": false,
+        "channel": "Evo BJJ",
+        "duration": 60,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Inside Sankaku Heel Hook Defender",
@@ -417,6 +446,35 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Integrating all defensive skills under full resistance",
         "description": "Full positional sparring from Inside Sankaku. Defender uses all available tools—heel hiding, grip fighting, counter-entanglement, extraction attempts—against an attacker working to finish the heel hook. Maintain strict tap discipline throughout. Build the ability to survive extended time in the position and create escape opportunities against skilled attackers."
+      }
+    ],
+    "clips": [
+      {
+        "id": "gEEHqiSznS4",
+        "title": "Escaping the honey hole",
+        "by": "Vagner Rocha",
+        "vertical": false,
+        "channel": "Vagner Rocha Martial Arts - MMA Gym, BJJ School, Jiu Jitsu, Mixed Martial Arts, Kickboxing, Boxing Gym",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "v3w0qXLKxug",
+        "title": "Defending heel hooks",
+        "by": "Absolute MMA St Kilda",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 92,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "clVAHxgRadE",
+        "title": "Heel hook defense to inside heel hook",
+        "by": "Holy Grail BJJ",
+        "vertical": false,
+        "channel": "Holy Grail BJJ",
+        "duration": 105,
+        "verified": "2026-07-15"
       }
     ]
   }

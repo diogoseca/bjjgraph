@@ -324,7 +324,36 @@
         "answer": "Tap immediately if you feel rotational pressure on your knee during the extraction. Training safety takes absolute priority over escape completion. In competition, you would halt extraction and address the heel grip with maximum urgency using the two-on-one strip. But in training, the correct response is to recognize that a heel hook applied during an extraction attempt creates amplified rotational force because your leg is partially extended and moving. The combined forces of their rotation and your extraction movement can cause injury faster than a static heel hook. Tap, reset, and analyze what allowed them to secure the heel during your escape so you can address that gap in your connection point clearing sequence."
       }
     ],
-    "safety_considerations": "Leg extraction from entanglements carries significant injury risk to the knee joint if performed incorrectly. The most dangerous error is explosive ripping that exposes the heel to finishing angles during the extraction movement. Always maintain straight leg alignment throughout the escape and never continue extraction if the opponent has secured a grip on your heel. In training, tap immediately if you feel any rotational pressure on the knee during an escape attempt. Practice at slow speed until the mechanical clearing sequence is automatic before adding resistance. Partners should apply entanglements with control and communicate clearly about heel exposure during drilling. Never train this escape with a partner who does not understand heel hook mechanics and proper application safety."
+    "safety_considerations": "Leg extraction from entanglements carries significant injury risk to the knee joint if performed incorrectly. The most dangerous error is explosive ripping that exposes the heel to finishing angles during the extraction movement. Always maintain straight leg alignment throughout the escape and never continue extraction if the opponent has secured a grip on your heel. In training, tap immediately if you feel any rotational pressure on the knee during an escape attempt. Practice at slow speed until the mechanical clearing sequence is automatic before adding resistance. Partners should apply entanglements with control and communicate clearly about heel exposure during drilling. Never train this escape with a partner who does not understand heel hook mechanics and proper application safety.",
+    "clips": [
+      {
+        "id": "MqtG9kuVt-Q",
+        "title": "Roll through leg lock escape",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "AQbJMBiWYfU",
+        "title": "Escaping ashi garami leg entanglements",
+        "by": "Scott Elliott",
+        "vertical": false,
+        "channel": "Coach Scott Elliott",
+        "duration": 141,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "R7lPdQWLOus",
+        "title": "Protecting the leg to escape 50/50",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "The Grapplers Guide by Jason Scully",
+        "duration": 161,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Leg Extraction Escape from Entanglement Defender",
@@ -445,6 +474,26 @@
         "phase": "Phase 4: Live Integration",
         "focus": "Full-speed retention and counter-attack during rolling",
         "description": "During live rolling, focus specifically on retaining leg entanglements when partners attempt extraction. Develop the automatic response of following, re-pummeling, and advancing rather than passively holding. Review which extraction methods succeed against you most often and develop specific counters for those patterns."
+      }
+    ],
+    "clips": [
+      {
+        "id": "m4sGDhukUmk",
+        "title": "Finishing the heel hook before the leg escapes",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
+        "duration": 141,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "kzgvfbZtH-8",
+        "title": "Countering the hidden heel to keep the entanglement",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 233,
+        "verified": "2026-07-15"
       }
     ]
   }

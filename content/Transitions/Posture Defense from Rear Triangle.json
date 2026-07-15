@@ -296,7 +296,36 @@
         "answer": "Breathe through your nose in controlled patterns using diaphragmatic breathing rather than chest breathing, which is restricted by the triangle compression. Apply steady progressive pressure rather than explosive bursts, as the opponent's legs can absorb and counter sudden force more easily than sustained structural pressure. Accept that escape will take 15-30 seconds of methodical work rather than one explosive movement. Conserve muscular energy by letting your skeleton do the structural work wherever possible."
       }
     ],
-    "safety_considerations": "Rear triangle training carries inherent choking risks due to direct carotid compression. Always tap immediately when feeling blood flow restriction, lightheadedness, or visual changes during training. Begin posture defense drilling with partners applying minimal triangle pressure and gradually increase intensity across sessions. Never attempt to fight through a fully locked choke to practice the escape, as loss of consciousness can occur within seconds of full carotid occlusion. Establish clear tap signals before drilling and ensure training partners release immediately upon feeling any tap. Monitor training partners for signs of confusion or unresponsiveness that may indicate impaired blood flow even without a verbal or physical tap signal."
+    "safety_considerations": "Rear triangle training carries inherent choking risks due to direct carotid compression. Always tap immediately when feeling blood flow restriction, lightheadedness, or visual changes during training. Begin posture defense drilling with partners applying minimal triangle pressure and gradually increase intensity across sessions. Never attempt to fight through a fully locked choke to practice the escape, as loss of consciousness can occur within seconds of full carotid occlusion. Establish clear tap signals before drilling and ensure training partners release immediately upon feeling any tap. Monitor training partners for signs of confusion or unresponsiveness that may indicate impaired blood flow even without a verbal or physical tap signal.",
+    "clips": [
+      {
+        "id": "_bfIvH9wB8Y",
+        "title": "Triangle defense: posture",
+        "by": "P3 Martial Arts",
+        "vertical": false,
+        "channel": "P3 Martial Arts",
+        "duration": 112,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dJOw0ZEyXXc",
+        "title": "Triangle choke posture up escape",
+        "by": "Cosens MMA",
+        "vertical": false,
+        "channel": "Cosens MMA LLC",
+        "duration": 73,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "sR2rS2dwpNY",
+        "title": "How to escape a triangle choke",
+        "by": "Rener and Ryron Gracie",
+        "vertical": false,
+        "channel": "Hayabusa",
+        "duration": 117,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Posture Defense from Rear Triangle Defender",
@@ -421,6 +450,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full-resistance application of defensive counters",
         "description": "Start in rear triangle with partner attempting escape. Apply all counter-techniques against full resistance while tracking maintenance rate across rounds. Identify which posture defense variants give you the most difficulty and develop targeted counter-strategies for each."
+      }
+    ],
+    "clips": [
+      {
+        "id": "-lMabjvtaLk",
+        "title": "Entries into the rear triangle back position",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 252,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "BLouv3W29lg",
+        "title": "The Python back triangle system",
+        "by": "Mint Flow Jiu-Jitsu",
+        "vertical": false,
+        "channel": "BJJ BLACK BELT⚫️MINT FLOW JIU-JITSU ",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "-lMJHL8SXlA",
+        "title": "Back triangle choke",
+        "by": "Dr. Deng",
+        "vertical": false,
+        "channel": "Dr. Deng",
+        "duration": 23,
+        "verified": "2026-07-15"
       }
     ]
   }

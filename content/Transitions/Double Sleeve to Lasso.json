@@ -295,7 +295,36 @@
         "answer": "Flow immediately to an adjacent guard rather than chasing the lost lasso. If their freed arm retracts, switch your threading foot into a foot-on-bicep spider guard hook on that same arm. If they stand or step back, drop the foot to a De La Riva hook on their lead leg. If they drive forward to capitalize on the lost grip, recover double sleeve guard with both grips and feet on hips, then re-time the thread on whichever arm extends next. Cycling through the double-sleeve, spider, lasso, and De La Riva options keeps you attacking without committing to a position the opponent has already solved."
       }
     ],
-    "safety_considerations": "The Double Sleeve to Lasso transition is generally low-risk since it involves guard repositioning rather than joint manipulation or choking. However, maintain awareness of your partner's shoulder flexibility when extending the lasso leg, as the fulcrum created against the shoulder joint can cause discomfort or strain if applied explosively. Thread the leg smoothly rather than jamming it through. During drilling, communicate with your partner if the lasso extension creates excessive shoulder pressure. Avoid cranking the sleeve grip while extending the leg aggressively, as this combination can hyperextend the opponent's elbow when the arm is fully trapped."
+    "safety_considerations": "The Double Sleeve to Lasso transition is generally low-risk since it involves guard repositioning rather than joint manipulation or choking. However, maintain awareness of your partner's shoulder flexibility when extending the lasso leg, as the fulcrum created against the shoulder joint can cause discomfort or strain if applied explosively. Thread the leg smoothly rather than jamming it through. During drilling, communicate with your partner if the lasso extension creates excessive shoulder pressure. Avoid cranking the sleeve grip while extending the leg aggressively, as this combination can hyperextend the opponent's elbow when the arm is fully trapped.",
+    "clips": [
+      {
+        "id": "LwnoWDFJlN0",
+        "title": "Open guard to lasso sweep attempt to ankle lock",
+        "by": "Lucas Lepri",
+        "vertical": false,
+        "channel": "Lucas Lepri Brazilian Jiu Jitsu & Fitness",
+        "duration": 44,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "n4ddjzGemrw",
+        "title": "Lasso guard variations",
+        "by": "Felipe Costa",
+        "vertical": false,
+        "channel": "Felipe Costa",
+        "duration": 28,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_YD7fgAFOsI",
+        "title": "Deep lasso guard vs a standing opponent",
+        "by": "John Michael DeVall",
+        "vertical": false,
+        "channel": "John Michael DeVall",
+        "duration": 31,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Double Sleeve to Lasso Defender",
@@ -415,6 +444,35 @@
         "phase": "Phase 4: Live Situational Sparring",
         "focus": "Full resistance from double sleeve guard top position",
         "description": "Positional sparring starting from double sleeve guard top. Bottom player actively attempts lasso entries, sweeps, and transitions while you defend all threading attempts and work to pass. Reset after each successful pass or sweep. Track both lasso prevention rate and pass completion rate over multiple sessions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "9sQAn2ESkMU",
+        "title": "Passing lasso guard to the back",
+        "by": "Gabriel Sousa",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 113,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "EdLPqtAm5yQ",
+        "title": "Pressure passing the lasso guard",
+        "by": "Alberto Serrano",
+        "vertical": false,
+        "channel": "Alberto Serrano BJJ",
+        "duration": 123,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "GOzoDB10XkY",
+        "title": "Lasso and spider guard defense breakdown",
+        "by": "Binder BJJ",
+        "vertical": false,
+        "channel": "Binder Brazilian Jiu Jitsu",
+        "duration": 245,
+        "verified": "2026-07-15"
       }
     ]
   }

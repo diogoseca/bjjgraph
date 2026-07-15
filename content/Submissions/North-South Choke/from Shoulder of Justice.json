@@ -346,6 +346,35 @@
         "answer": "Upon any tap signal, immediately unlock your gable grip and remove your arms from around the opponent's neck without any jerking motion. Roll your body off their head and neck area completely to eliminate all compression. Allow your partner to recover in a side-lying position with their airway clear and do not manipulate their neck in any direction. If they appear disoriented or were briefly unconscious, place them in the recovery position and monitor their breathing until they are fully alert.",
         "safety_critical": true
       }
+    ],
+    "clips": [
+      {
+        "id": "gU-njOOuKh4",
+        "title": "Teaching shoulder pressure choke",
+        "by": "Phil Dunlap",
+        "vertical": false,
+        "channel": "Phil Dunlap",
+        "duration": 36,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Fdq-j0AUVtc",
+        "title": "North South pressure choke",
+        "by": "Nick Unander",
+        "vertical": false,
+        "channel": "Nick Unander",
+        "duration": 99,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "z3RNUfHfiSM",
+        "title": "Marcelo Garcia - North South Choke",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "Kon Ying",
+        "duration": 20,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -481,6 +510,26 @@
         "phase": "Phase 4: Live Defense Under Pressure",
         "focus": "Defensive composure and decision-making under realistic conditions",
         "description": "Full resistance positional sparring starting from Shoulder of Justice. Partner attempts the North-South Choke at realistic speed and pressure. Practice maintaining composure, recognizing the setup under duress, and choosing the appropriate defensive response. Tap early when the grip locks to build safe training habits."
+      }
+    ],
+    "clips": [
+      {
+        "id": "XaLBmGnHm78",
+        "title": "North South inverted spin escape",
+        "by": "SBG Australia",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 37,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "O-2iSvT8zDk",
+        "title": "Hook-Plata North-South choke escape",
+        "by": "Erik Koehne",
+        "vertical": false,
+        "channel": "Erik Koehne",
+        "duration": 59,
+        "verified": "2026-07-14"
       }
     ]
   }

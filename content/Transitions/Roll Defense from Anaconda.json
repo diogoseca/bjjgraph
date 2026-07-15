@@ -297,7 +297,27 @@
         "answer": "If you can maintain any grip on the attacker's choking arm, target the wrist or forearm of the arm encircling your neck using a C-grip or monkey grip from your trapped hand. This grip serves dual purpose: it prevents the choke from tightening while also reducing the attacker's ability to generate clean rotational force. Even a partial grip that creates friction on their choking arm makes the roll less effective. Prioritize this grip alongside the posting hand rather than choosing one over the other."
       }
     ],
-    "safety_considerations": "Always tap before attempting the roll defense if the choke is already deeply locked and restricting blood flow to the brain. Tunnel vision, lightheadedness, or inability to breathe clearly indicate the choke is past the point where defense is safe. The posting mechanics involve explosive movements that can strain the wrist or shoulder if performed with poor alignment. During training, communicate with your partner about choke tightness and tap early when practicing timing rather than risking unconsciousness. Never sacrifice neck safety for positional defense."
+    "safety_considerations": "Always tap before attempting the roll defense if the choke is already deeply locked and restricting blood flow to the brain. Tunnel vision, lightheadedness, or inability to breathe clearly indicate the choke is past the point where defense is safe. The posting mechanics involve explosive movements that can strain the wrist or shoulder if performed with poor alignment. During training, communicate with your partner about choke tightness and tap early when practicing timing rather than risking unconsciousness. Never sacrifice neck safety for positional defense.",
+    "clips": [
+      {
+        "id": "1e2GPOUYR-o",
+        "title": "Fixing Your Anaconda Choke Mechanics",
+        "by": "Lycan",
+        "vertical": false,
+        "channel": "Lycan",
+        "duration": 41,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "GtMO5BkjpgA",
+        "title": "Gator Roll to Anaconda Choke Turnover",
+        "by": "RoninFit Judo",
+        "vertical": false,
+        "channel": "RoninFit Judo",
+        "duration": 160,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Roll Defense from Anaconda Defender",
@@ -407,6 +427,35 @@
         "phase": "Phase 4: Adaptive Finishing Sparring",
         "focus": "Selecting the correct approach based on opponent's defensive setup",
         "description": "Positional sparring from anaconda control where partner uses full defense including roll defense. Practice reading the defense and selecting the appropriate counter: wrist control, explosive commitment, direction change, or transition to alternative finish. 3-minute rounds with full resistance."
+      }
+    ],
+    "clips": [
+      {
+        "id": "s94GexEkoQ0",
+        "title": "Anaconda Choke Defense and Counter",
+        "by": "Cyril Robert",
+        "vertical": false,
+        "channel": "Cyril Robert MMA",
+        "duration": 43,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Yqz0JQuZGes",
+        "title": "Anaconda Defense to Americana",
+        "by": "Gracie Barra Newcastle City",
+        "vertical": false,
+        "channel": "Gracie Barra Newcastle City",
+        "duration": 40,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "guHPx-OKi0M",
+        "title": "Three Ways to Prevent the Sucker Drag",
+        "by": "Drew Darce",
+        "vertical": false,
+        "channel": "Drew Darce",
+        "duration": 159,
+        "verified": "2026-07-15"
       }
     ]
   }

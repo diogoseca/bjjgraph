@@ -301,7 +301,27 @@
         "answer": "Sprawl your hips back and down heavily while driving the crossface deeper to prevent the rotation they need to complete the deep half entry. Their deep half attempt requires scooping under your hips, so removing hip space is the priority. If they are already partially under, switch to a whizzer and heavy hip pressure to prevent them from completing the position and address the deep half rather than continuing the crossface pass."
       }
     ],
-    "safety_considerations": "The crossface applies pressure across the face and jaw which can cause discomfort but generally poses low injury risk when applied gradually. Avoid driving crossface directly into the throat or trachea. In training, communicate with your partner about pressure intensity and ensure they can breathe adequately throughout the exchange. The lockdown extraction phase requires careful attention to knee and ankle alignment to prevent ligament strain on both players."
+    "safety_considerations": "The crossface applies pressure across the face and jaw which can cause discomfort but generally poses low injury risk when applied gradually. Avoid driving crossface directly into the throat or trachea. In training, communicate with your partner about pressure intensity and ensure they can breathe adequately throughout the exchange. The lockdown extraction phase requires careful attention to knee and ankle alignment to prevent ligament strain on both players.",
+    "clips": [
+      {
+        "id": "oHHWw-nySzA",
+        "title": "Cross face half guard pass",
+        "by": "GB Neto",
+        "vertical": false,
+        "channel": "gbneto BJJ",
+        "duration": 78,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "qqaMVmLxklI",
+        "title": "Half guard top cross body pass",
+        "by": "SBG New Braunfels",
+        "vertical": false,
+        "channel": "SBG New Braunfels BJJ",
+        "duration": 121,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Crossface from Old School Defender",
@@ -417,6 +437,26 @@
         "phase": "Phase 3: Full Resistance Defense",
         "focus": "Applying complete defensive and counter-offensive repertoire against determined crossface attempts",
         "description": "Partner applies full-pressure crossface passing sequence. Defend using all available options: lockdown pumping, sweep timing, deep half transitions, and frame recovery. 3-minute rounds from Old School Bottom with reset after pass or sweep. Track which defensive option succeeds most frequently under pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "1ZKvfHNiGOQ",
+        "title": "Half guard sweep against crossface and underhook",
+        "by": "Indrek Reiland",
+        "vertical": false,
+        "channel": "indrekreiland",
+        "duration": 98,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Jnc2siD9cak",
+        "title": "Old school half guard sweep",
+        "by": "Ritchie Yip",
+        "vertical": false,
+        "channel": "Ritchie Yip",
+        "duration": 12,
+        "verified": "2026-07-15"
       }
     ]
   }

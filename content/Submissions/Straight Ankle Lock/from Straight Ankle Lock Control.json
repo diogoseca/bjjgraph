@@ -395,6 +395,35 @@
         "answer": "Combining rotation with an Achilles Lock can cause spiral fractures of the tibia or fibula, as well as severe damage to the ankle mortise joint where the leg bones meet the foot. The Achilles Lock is designed to apply straight-line compression - adding rotation transforms it into a hybrid attack that simultaneously stresses multiple structures with unpredictable injury mechanics. This combination is prohibited because the injury mechanism becomes unclear, making it impossible for the defender to know when to tap before damage occurs.",
         "safety_critical": true
       }
+    ],
+    "clips": [
+      {
+        "id": "-VpByetjzqs",
+        "title": "Backside Foot Finish Mechanics",
+        "by": "Mikey Musumeci",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 84,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "PsyAVXfRhyY",
+        "title": "Straight Ankle Lock",
+        "by": "bjjtaro",
+        "vertical": false,
+        "channel": "bjjtaro",
+        "duration": 16,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "GVwnRuiKk-Y",
+        "title": "Fast Straight Ankle Lock (No-Gi)",
+        "by": "Everythingbjj",
+        "vertical": false,
+        "channel": "Everythingbjj",
+        "duration": 64,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -537,6 +566,26 @@
         "phase": "Integrated Defense Phase",
         "focus": "Combining defensive tools into complete escape sequences under full resistance",
         "description": "Positional sparring starting from established straight ankle lock control with full resistance. Practice chaining boot defense into grip fighting into hip rotation escape as a continuous sequence. Track escape success rate and average time to escape to measure improvement and identify which defensive stage needs the most development."
+      }
+    ],
+    "clips": [
+      {
+        "id": "CUnX7TOpb-A",
+        "title": "Ankle Lock Escape: Put On the Boot",
+        "by": "Ritchie Yip",
+        "vertical": false,
+        "channel": "Ritchie Yip",
+        "duration": 16,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "vg-Luhls7yE",
+        "title": "Straight Ankle Lock: Defence & Escapes",
+        "by": "Jiu Jitsu Brotherhood",
+        "vertical": false,
+        "channel": "Jiu Jitsu Brotherhood",
+        "duration": 164,
+        "verified": "2026-07-14"
       }
     ]
   }

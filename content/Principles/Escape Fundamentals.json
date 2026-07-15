@@ -449,5 +449,34 @@
       "question": "How does varying timing and rhythm improve escape success against a skilled opponent?",
       "answer": "Repeating identical timing lets the opponent anticipate and counter before the escape develops. Alternating between continuous pressure and explosive bursts creates uncertainty that opens gaps in their defensive reactions."
     }
+  ],
+  "clips": [
+    {
+      "id": "g0G7LYfW9Y8",
+      "title": "Key detail for escaping mount bottom",
+      "by": "SBG PDX",
+      "vertical": false,
+      "channel": "SBG PDX & Vancouver BJJ and MMA Videos",
+      "duration": 118,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "wDSd5Qy8Kac",
+      "title": "Babybridge defensive escape posture",
+      "by": "Priit Mihkelson",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 231,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "7cnEc8MnGWw",
+      "title": "Preemptive framing to stand up",
+      "by": "DPS Breakdowns",
+      "vertical": false,
+      "channel": "DPS Breakdowns",
+      "duration": 213,
+      "verified": "2026-07-15"
+    }
   ]
 }

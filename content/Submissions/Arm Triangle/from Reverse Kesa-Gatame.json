@@ -347,6 +347,35 @@
         "answer": "Compress the setup phases by simultaneously driving the arm across the neck and threading behind the head in one fluid motion rather than sequential steps. Skip the deliberate walk-around and instead jump directly to the perpendicular angle while locking the grip. Drop your hip and head immediately upon gripping rather than settling incrementally. Apply maximum chest compression from the start rather than building progressively. Accept higher risk of losing position in exchange for a faster finish window. The key is pre-committing to the finish rather than maintaining the option to return to the pin.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "5POG6rDBVLM",
+        "title": "Reverse Kesa Gatame Arm Attack Roll Over",
+        "by": "Carlos Machado",
+        "vertical": false,
+        "channel": "Carlos Machado",
+        "duration": 113,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "PSgn9TBgwfc",
+        "title": "Side Guard to Te Gatame (Arm Triangle)",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 77,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "tfykooWW-xk",
+        "title": "Triangle Attacks From Kuzure Kesa Gatame",
+        "by": "Chokes And More",
+        "vertical": false,
+        "channel": "Chokes And More",
+        "duration": 66,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -482,6 +511,35 @@
         "phase": "Phase 4: Live defensive sparring from Reverse Kesa-Gatame",
         "focus": "Full-speed defense against all attacks from Reverse Kesa-Gatame including the arm triangle",
         "description": "Partner starts in Reverse Kesa-Gatame top with full offensive options including arm triangle, Americana, Kimura, and positional transitions. Defend all threats with emphasis on far-arm awareness to prevent the arm triangle setup while still working standard escape sequences. Tap early when caught to build good safety habits. 5-minute rounds, reset on escape or submission."
+      }
+    ],
+    "clips": [
+      {
+        "id": "D2vkZGTD78I",
+        "title": "The Fastest Escape Out of the Arm Triangle",
+        "by": "Adam Bradley",
+        "vertical": false,
+        "channel": "Adam Bradley",
+        "duration": 31,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Nspz2EAIQ_k",
+        "title": "Arm Triangle Escape",
+        "by": "Crucifix Mike",
+        "vertical": false,
+        "channel": "Crucifix Mike",
+        "duration": 27,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "CmXniIPFMhU",
+        "title": "Two Arm Triangle (Kata Gatame) Escapes",
+        "by": "Adam Urbanski",
+        "vertical": false,
+        "channel": "Adam Urbanski MMA",
+        "duration": 89,
+        "verified": "2026-07-14"
       }
     ]
   }

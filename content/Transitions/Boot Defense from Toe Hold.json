@@ -294,7 +294,27 @@
         "answer": "The grip transition is the best escape window you will get because the closed chain is momentarily open and rotational pressure drops to near zero. Accelerate circular leg extraction immediately, driving the knee toward your chest before the new ankle lock grip establishes its own closed chain. Hesitating lets them settle into a fresh controlling grip; exploiting the loosening converts their adjustment into your escape."
       }
     ],
-    "safety_considerations": "The boot defense has a limited effective window of three to five seconds. If the opponent breaks through the rigidity or the ankle experiences significant rotational stress despite the defense, tap immediately without hesitation. Ankle ligament injuries from toe holds can be severe and slow to heal, potentially requiring surgical intervention and months of rehabilitation. Never extend defense past the point where escape options are exhausted. In training, communicate openly with partners about pressure levels and maintain a tap-early culture for all rotational ankle submissions. Practice the boot initially at low resistance to develop proper mechanics before applying against realistic intensity. If you feel any sharp pain, popping, or sudden instability in the ankle, stop immediately regardless of the competitive situation."
+    "safety_considerations": "The boot defense has a limited effective window of three to five seconds. If the opponent breaks through the rigidity or the ankle experiences significant rotational stress despite the defense, tap immediately without hesitation. Ankle ligament injuries from toe holds can be severe and slow to heal, potentially requiring surgical intervention and months of rehabilitation. Never extend defense past the point where escape options are exhausted. In training, communicate openly with partners about pressure levels and maintain a tap-early culture for all rotational ankle submissions. Practice the boot initially at low resistance to develop proper mechanics before applying against realistic intensity. If you feel any sharp pain, popping, or sudden instability in the ankle, stop immediately regardless of the competitive situation.",
+    "clips": [
+      {
+        "id": "CUnX7TOpb-A",
+        "title": "Ankle lock escape — putting on the boot",
+        "by": "Ritchie Yip",
+        "vertical": false,
+        "channel": "Ritchie Yip",
+        "duration": 16,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "3a9k8-ZcYrk",
+        "title": "Escaping the toe hold",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "The King Life",
+        "duration": 106,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Boot Defense from Toe Hold Defender",
@@ -415,6 +435,26 @@
         "phase": "Competition Pressure",
         "focus": "Defeating boot under time pressure",
         "description": "Timed rounds where you must complete submission or maintain dominant control against boot defense. Partner uses full defensive repertoire including boot, grip fighting, and guard recovery. Develop decisive counter-strategy selection under realistic competition time constraints."
+      }
+    ],
+    "clips": [
+      {
+        "id": "P6jLVGue1As",
+        "title": "Countering the boot defense from outside ashi",
+        "by": "Team GTW BJJ",
+        "vertical": false,
+        "channel": "Team GTW BJJ",
+        "duration": 77,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Kx8gZ3QdO8s",
+        "title": "Crossover toe hold finish",
+        "by": "Bence Romanek",
+        "vertical": false,
+        "channel": "Bence Romanek",
+        "duration": 51,
+        "verified": "2026-07-15"
       }
     ]
   }

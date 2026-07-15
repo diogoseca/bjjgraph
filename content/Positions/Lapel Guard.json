@@ -366,6 +366,17 @@
           "nogi": 2
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "rvbYLboVzZM",
+        "title": "Counter the Lapel Guard with a Pass",
+        "by": "Tarik",
+        "vertical": false,
+        "channel": "Tarik BJJ",
+        "duration": 289,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -693,6 +704,35 @@
           "nogi": 4
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "ARmiJRANTpg",
+        "title": "Worm Guard to Back Choke",
+        "by": "Keenan Cornelius",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 36,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "JgVZpD0yZPk",
+        "title": "Lapel Sweep from Bottom (North-South)",
+        "by": "Edward Anthony",
+        "vertical": false,
+        "channel": "Edward “Scissorhands” Anthony Jiu Jitsu ",
+        "duration": 82,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "_iV0LtOiXNY",
+        "title": "Lapel Guard Takedown Breakdown",
+        "by": "Legion AJJ",
+        "vertical": false,
+        "channel": "Legion AJJ",
+        "duration": 64,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -727,6 +767,35 @@
     {
       "question": "How does lapel guard relate to adjacent gi guards such as collar-sleeve, De La Riva, spider, and lasso during a live exchange?",
       "answer": "Lapel guard rarely stands alone and instead functions as one node in a web of interconnected gi guards that share grip and framing principles. Collar-sleeve and De La Riva commonly serve as entry positions from which a player extracts and feeds the lapel, while spider (bicep control) and lasso (a leg wrapped around the opponent's arm) share arm-control principles that let a player flow into or out of a lapel wrap when the fabric grip is threatened. Because these guards share control logic, transitions between them preserve tension and structure rather than resetting the exchange. The lapel configuration is best understood as a layer that can be added onto or shed from these traditional guards depending on the opponent's reactions."
+    }
+  ],
+  "clips": [
+    {
+      "id": "AL0k21Zdk5s",
+      "title": "Lapel Guard Encyclopedia Teaser",
+      "by": "Keenan Cornelius",
+      "vertical": false,
+      "channel": "Keenan Cornelius",
+      "duration": 44,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "ARmiJRANTpg",
+      "title": "Worm Guard to Back Choke",
+      "by": "Keenan Cornelius",
+      "vertical": false,
+      "channel": "Jiu Jitsu Moves",
+      "duration": 36,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "_iV0LtOiXNY",
+      "title": "Lapel Guard Takedown Breakdown",
+      "by": "Legion AJJ",
+      "vertical": false,
+      "channel": "Legion AJJ",
+      "duration": 64,
+      "verified": "2026-07-14"
     }
   ]
 }

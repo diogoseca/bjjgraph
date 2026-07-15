@@ -340,7 +340,36 @@
         "answer": "This scenario favors the hitchhiker escape because wrist-only control is the weakest grip configuration for preventing rotation. Begin the thumb rotation immediately while using your free hand to push their top leg (across your face) toward their body. The combination of arm rotation breaking the wrist grip angle and leg displacement creates a compound escape where both control points deteriorate simultaneously. Execute explosively once you feel their wrist grip start to slip."
       }
     ],
-    "safety_considerations": "The hitchhiker escape involves rotating against an active armbar attempt, creating significant risk to the elbow joint if executed incorrectly. Never attempt this escape when the arm is fully extended - tap immediately to prevent hyperextension or ligament damage. During training, communicate clearly with your partner about resistance levels and always tap early when the escape stalls with the arm in a vulnerable position. Practice at slow speeds initially to develop proper rotation mechanics before adding speed or resistance. Partners applying the armbar should release pressure immediately upon feeling a tap or sensing the escape has stalled with the arm under load. The rotational forces involved can cause injury patterns different from standard armbar hyperextension, including torsional stress on the elbow and shoulder, so err on the side of caution."
+    "safety_considerations": "The hitchhiker escape involves rotating against an active armbar attempt, creating significant risk to the elbow joint if executed incorrectly. Never attempt this escape when the arm is fully extended - tap immediately to prevent hyperextension or ligament damage. During training, communicate clearly with your partner about resistance levels and always tap early when the escape stalls with the arm in a vulnerable position. Practice at slow speeds initially to develop proper rotation mechanics before adding speed or resistance. Partners applying the armbar should release pressure immediately upon feeling a tap or sensing the escape has stalled with the arm under load. The rotational forces involved can cause injury patterns different from standard armbar hyperextension, including torsional stress on the elbow and shoulder, so err on the side of caution.",
+    "clips": [
+      {
+        "id": "w6M0NpTMkeU",
+        "title": "Hitchhiker armbar escape into a guard pass",
+        "by": "Peter Mettler",
+        "vertical": false,
+        "channel": "Peter Mettler Martial Arts",
+        "duration": 55,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "3EG4Gfs30V8",
+        "title": "Hitchhiker armbar escape, step by step",
+        "by": "Absolute MMA",
+        "vertical": false,
+        "channel": "Absolute MMA",
+        "duration": 57,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "O9nAcCVqIJU",
+        "title": "Armbar escapes: hitchhiker and leg trap",
+        "by": "Trifecta BJJ",
+        "vertical": false,
+        "channel": "Trifecta BJJ - Class Instructionals",
+        "duration": 117,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Hitchhiker Escape from Armbar Defender",
@@ -478,6 +507,35 @@
         "phase": "Phase 4: Positional Sparring",
         "focus": "Maintaining armbar against all escape methods including hitchhiker",
         "description": "Start in full armbar control against a partner who uses all available escape methods including hitchhiker, stacking, clasping hands, and bridging. Practice reading which escape is being attempted and selecting the appropriate counter. Track submission rate, position maintenance rate, and escape rate across rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "zVLS7fLlobg",
+        "title": "Preventing the hitchhiker armbar escape",
+        "by": "Pathfinder Jiu-Jitsu Team",
+        "vertical": false,
+        "channel": "Pathfinder Jiu-Jitsu Team",
+        "duration": 91,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "rh-bxlYYJvM",
+        "title": "Countering the hitchhiker armbar escape attempt",
+        "by": "Team Maxwell",
+        "vertical": false,
+        "channel": "TeamMaxwell JiuJitsu",
+        "duration": 192,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "PQ3Sj9bc1nU",
+        "title": "Stopping the hitchhiker armbar escape",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 213,
+        "verified": "2026-07-15"
       }
     ]
   }

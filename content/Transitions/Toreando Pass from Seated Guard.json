@@ -293,7 +293,27 @@
         "answer": "First, the legs must be redirected past the opponent's hip line before initiating lateral movement—insufficient redirection leaves the legs between you and side control. Second, the lateral step must be explosive and complete in one or two quick steps, not a gradual walk around—speed prevents the opponent from hip escaping to follow you. Third, the grip transition from legs to upper body must be seamless and sequential, maintaining at least one point of leg control until chest contact is established. Missing any one of these three details typically results in the opponent recovering guard."
       }
     ],
-    "safety_considerations": "The toreando pass is generally low-risk for both practitioners, but caution should be exercised when redirecting the opponent's legs forcefully to avoid hyperextending their knees or twisting their ankles. Control the legs smoothly rather than jerking them. When driving into side control, avoid landing with excessive force on the opponent's ribs or midsection. In training, allow your partner time to tap or verbally signal if leg redirection causes discomfort in the knee or ankle joints."
+    "safety_considerations": "The toreando pass is generally low-risk for both practitioners, but caution should be exercised when redirecting the opponent's legs forcefully to avoid hyperextending their knees or twisting their ankles. Control the legs smoothly rather than jerking them. When driving into side control, avoid landing with excessive force on the opponent's ribs or midsection. In training, allow your partner time to tap or verbally signal if leg redirection causes discomfort in the knee or ankle joints.",
+    "clips": [
+      {
+        "id": "mrnOBANY1JE",
+        "title": "Toreando passing against seated guard",
+        "by": "Unknown",
+        "vertical": false,
+        "channel": "Siam Denmark",
+        "duration": 97,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "zT3JjOR838w",
+        "title": "Passing seated guard with underhooks",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 143,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Toreando Pass from Seated Guard Defender",
@@ -418,6 +438,26 @@
         "phase": "Phase 4: Live Defense Integration",
         "focus": "Full-speed defense with counter-attacking",
         "description": "Positional sparring from seated guard bottom against full-speed toreando attempts. Integrate all defensive phases—grip fighting, hip escape recovery, and guard recovery. Add offensive counters including sweeps when passer overcommits to one direction. Track defensive success rate and identify which phase of defense needs the most work."
+      }
+    ],
+    "clips": [
+      {
+        "id": "guEr6TkpBOQ",
+        "title": "Guard retention principles vs toreando passing",
+        "by": "Mads H.",
+        "vertical": false,
+        "channel": "Mads H. BJJ",
+        "duration": 190,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "xPrj169c-rM",
+        "title": "Prevent stack and toreando grips, connect to DLR",
+        "by": "Mads H.",
+        "vertical": false,
+        "channel": "Mads H. BJJ",
+        "duration": 230,
+        "verified": "2026-07-15"
       }
     ]
   }

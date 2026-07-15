@@ -349,6 +349,35 @@
         "answer": "The heel hook is more dangerous because knee ligaments lack significant pain receptors that would provide warning before structural failure. Unlike an armbar where progressive elbow pain signals increasing danger, the heel hook can rupture the ACL, MCL, or LCL before the defender feels meaningful discomfort. This means the attacker bears primary responsibility for controlled application speed. Training must always use slow progressive pressure over 5-7 seconds minimum, and both partners must understand tap signals and release protocols.",
         "safety_critical": true
       }
+    ],
+    "clips": [
+      {
+        "id": "U1vlUbJN3sc",
+        "title": "True 50/50 heel hook",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 34,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "UuluKZKDt8w",
+        "title": "Heel hooks breakdown",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 64,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "eb6ujAO09SY",
+        "title": "Get the 50/50 heel hook",
+        "by": "Asaf Mich",
+        "vertical": false,
+        "channel": "Asaf Mich",
+        "duration": 123,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -484,6 +513,35 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Surviving and escaping heel hooks in live rolling",
         "description": "Start from 50-50 bottom against trusted training partners with heel hook experience. The attacker uses full technique at controlled speed while you apply the complete defensive framework. Debrief after each repetition to identify defensive gaps and refine timing."
+      }
+    ],
+    "clips": [
+      {
+        "id": "pGfZotHVstE",
+        "title": "Heel hook escape from 50/50",
+        "by": "Caio Terra Academy",
+        "vertical": false,
+        "channel": "Caio Terra Academy - Sterling | Piranha BJJ & MMA",
+        "duration": 59,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "_hyZqLRwsWE",
+        "title": "Counter the 50/50 heel hook with a wristlock",
+        "by": "Whangarei BJJ",
+        "vertical": false,
+        "channel": "Whangarei BJJ",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "v3w0qXLKxug",
+        "title": "Defending heel hooks",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 92,
+        "verified": "2026-07-14"
       }
     ]
   }

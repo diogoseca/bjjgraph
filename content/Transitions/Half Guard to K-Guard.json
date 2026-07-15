@@ -293,7 +293,27 @@
         "answer": "When the opponent drives heavy forward pressure into your established K-Guard, use their forward commitment against them. The primary chain is to load the butterfly hook with their weight and transition to a deep half entry by diving underneath, or redirect into an X-Guard or single leg X-Guard entry by extending your hooks and creating elevation. Their smash pressure actually provides the forward momentum needed for these transitions. The key principle is that heavy forward commitment in K-Guard opens underneath transitions, while sitting back opens elevation-based sweeps."
       }
     ],
-    "safety_considerations": "The Transition to K-Guard is generally low-risk when practiced with proper progression and control. The primary safety consideration is protecting the inside knee during the hook inversion, as forcing the rotation against resistance or with poor angle can strain the medial collateral ligament. Beginners should drill the hook rotation slowly with a cooperative partner before adding resistance, focusing on smooth mechanics rather than speed. Partners providing top pressure during drilling should apply gradual, steady force rather than explosive weight drops that could catch the bottom player mid-transition. Practitioners with existing knee injuries, particularly to the MCL or meniscus, should consult their instructor before practicing the inverted hook rotation, as the crossing motion places lateral stress on the inside knee. During live training, if you find yourself stuck mid-transition with hooks partially reconfigured, do not force the completion. Instead, recover to standard half guard and reset rather than fighting from a compromised position."
+    "safety_considerations": "The Transition to K-Guard is generally low-risk when practiced with proper progression and control. The primary safety consideration is protecting the inside knee during the hook inversion, as forcing the rotation against resistance or with poor angle can strain the medial collateral ligament. Beginners should drill the hook rotation slowly with a cooperative partner before adding resistance, focusing on smooth mechanics rather than speed. Partners providing top pressure during drilling should apply gradual, steady force rather than explosive weight drops that could catch the bottom player mid-transition. Practitioners with existing knee injuries, particularly to the MCL or meniscus, should consult their instructor before practicing the inverted hook rotation, as the crossing motion places lateral stress on the inside knee. During live training, if you find yourself stuck mid-transition with hooks partially reconfigured, do not force the completion. Instead, recover to standard half guard and reset rather than fighting from a compromised position.",
+    "clips": [
+      {
+        "id": "fQ1z2RLYz4Q",
+        "title": "Shallow K guard entry",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 42,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "1pGIOJnpBsw",
+        "title": "K guard entry basics",
+        "by": "SIMA BJJ coach",
+        "vertical": false,
+        "channel": "SIMA BJJ Training",
+        "duration": 100,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Half Guard to K-Guard Defender",
@@ -418,6 +438,17 @@
         "phase": "Week 9-12: Live Positional Sparring Defense",
         "focus": "Defending K-Guard entry under full resistance",
         "description": "Positional sparring from half guard top against a partner who specifically targets K-Guard entry. 3-minute rounds with full resistance. Track how often the entry succeeds versus prevention rate. Identify which defensive timing gives best results and which of your passing approaches minimizes K-Guard entry opportunities."
+      }
+    ],
+    "clips": [
+      {
+        "id": "JxDViUC4xhk",
+        "title": "Defending the K guard",
+        "by": "Rodrigo Lopes",
+        "vertical": false,
+        "channel": "Pathfinder Jiu-Jitsu Team",
+        "duration": 289,
+        "verified": "2026-07-15"
       }
     ]
   }

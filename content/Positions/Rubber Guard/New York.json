@@ -672,6 +672,26 @@
           "nogi": 3
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "jT4wPY2Dc_U",
+        "title": "Dead Orchard Armbar from Rubber Guard",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "James O'Brien",
+        "duration": 88,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Cllvkg2qg-w",
+        "title": "Rubber Guard Live Drills",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -706,6 +726,26 @@
     {
       "question": "Why does breaking the top player's posture before establishing New York matter to the resulting configuration?",
       "answer": "New York requires the top player already hunched forward so the shin can be seated high on the upper back and the overhook swum in deep; against an upright, based-out opponent neither control point can be established without fighting their full structure. Attempting entry on good posture wastes energy and typically fails, because the top player can simply drive in and flatten the bottom player before the loop closes. This is why the position is entered from an already-compromised posture, usually broken down first from closed guard, and it explains a shared truth of the configuration: New York is a consequence of a prior posture break, not the tool that creates one. The top player's counter-strategy mirrors this, since restoring even partial posture begins to strip the shin's angle and reopen their base."
+    }
+  ],
+  "clips": [
+    {
+      "id": "tWAZbCiWQ9E",
+      "title": "Rubber Guard Philosophy",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "Eddie Bravo",
+      "duration": 61,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "h1XzZDsUxHQ",
+      "title": "Eddie Bravo explains Rubber Guard",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "JAN FERNANDEZ ",
+      "duration": 111,
+      "verified": "2026-07-14"
     }
   ]
 }

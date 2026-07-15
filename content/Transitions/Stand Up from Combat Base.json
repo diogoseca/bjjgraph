@@ -285,7 +285,36 @@
         "answer": "Force should be applied diagonally downward and toward the mat through your pant grips throughout the entire transition. This downward diagonal force serves dual purposes: it pins the opponent's legs to prevent hook insertion and guard closure, and it provides a counterbalance for your rising center of gravity. Think of pressing the opponent's knees toward the mat as you stand, not simply holding them in place. This active downward drive is what prevents the opponent from following your upward movement to attack your base."
       }
     ],
-    "safety_considerations": "The stand up from combat base carries moderate knee stress during the transition, particularly on the posted knee as it lifts under load. Avoid twisting the knee during elevation—drive it straight upward. In training, be mindful of your partner's face and legs when establishing forward pressure through pant grips, as the standing motion can inadvertently pull their legs upward. If you feel instability in either knee during the movement, abort the stand up and resettle into combat base rather than forcing through poor mechanics. When drilling at speed, ensure your partner is prepared for the weight shift to avoid accidental impacts."
+    "safety_considerations": "The stand up from combat base carries moderate knee stress during the transition, particularly on the posted knee as it lifts under load. Avoid twisting the knee during elevation—drive it straight upward. In training, be mindful of your partner's face and legs when establishing forward pressure through pant grips, as the standing motion can inadvertently pull their legs upward. If you feel instability in either knee during the movement, abort the stand up and resettle into combat base rather than forcing through poor mechanics. When drilling at speed, ensure your partner is prepared for the weight shift to avoid accidental impacts.",
+    "clips": [
+      {
+        "id": "S0rB1ddNifk",
+        "title": "How to stand up in base from the ground",
+        "by": "Chris Savarese",
+        "vertical": false,
+        "channel": "Chris Savarese",
+        "duration": 74,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "gkbiBCuP9AM",
+        "title": "Sit-up to combat base fundamentals",
+        "by": "CORE MMA",
+        "vertical": false,
+        "channel": "CORE MMA",
+        "duration": 72,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "vp3roMWi0dc",
+        "title": "How to get to combat base",
+        "by": "Myopinionin5",
+        "vertical": false,
+        "channel": "Myopinionin5",
+        "duration": 120,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Stand Up from Combat Base Defender",
@@ -410,6 +439,26 @@
         "phase": "Phase 4: Live Application",
         "focus": "Full resistance positional sparring",
         "description": "Full resistance positional sparring starting from combat base. Top player attempts to stand and initiate a pass; bottom player uses complete defensive repertoire including prevention, countering, and guard establishment. Reset after the pass completes or is defended. Track prevention rate across rounds to measure overall defensive improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "z-3izL3cyTQ",
+        "title": "Sitting guard sweep against combat base",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 114,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Ge4PxqkgVN4",
+        "title": "Sweeping the combat base from bottom",
+        "by": "Sticks and Stones BJJ",
+        "vertical": false,
+        "channel": "Sticks and Stones BJJ",
+        "duration": 205,
+        "verified": "2026-07-15"
       }
     ]
   }

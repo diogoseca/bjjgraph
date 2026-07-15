@@ -271,7 +271,18 @@
         "answer": "Before attempting the sweep, you need four conditions satisfied: primary hook must be securely behind the opponent's near knee with heel curled, secondary hook must be actively pressing into their hip creating scissoring pressure, a strong near-side sleeve or wrist grip must be established pulling their posture down, and your hips must be elevated with shoulders on the mat creating the lever mechanics. Attempting the sweep without any one of these conditions significantly reduces success probability and may expose you to passing."
       }
     ],
-    "safety_considerations": "The Reverse X-Guard Sweep is generally a low-risk technique from an injury standpoint, but practitioners should be aware of several safety factors. The person being swept should practice proper falling technique, tucking the chin and distributing impact across the shoulder and back rather than posting with straight arms. Arm posting during falls can lead to wrist, elbow, or shoulder injuries. The sweeping practitioner should avoid hyperextending their knees when elevating, particularly if they have a history of knee issues. During training, sweep with control rather than maximum explosive force, allowing your partner to fall safely. When drilling at full speed, ensure adequate mat space and clear any obstacles. Practitioners with lower back issues should approach the hip elevation mechanics gradually, as the inverted position places load on the lumbar spine. Begin with drilling at low intensity and progress resistance incrementally as both partners become comfortable with the movement patterns."
+    "safety_considerations": "The Reverse X-Guard Sweep is generally a low-risk technique from an injury standpoint, but practitioners should be aware of several safety factors. The person being swept should practice proper falling technique, tucking the chin and distributing impact across the shoulder and back rather than posting with straight arms. Arm posting during falls can lead to wrist, elbow, or shoulder injuries. The sweeping practitioner should avoid hyperextending their knees when elevating, particularly if they have a history of knee issues. During training, sweep with control rather than maximum explosive force, allowing your partner to fall safely. When drilling at full speed, ensure adequate mat space and clear any obstacles. Practitioners with lower back issues should approach the hip elevation mechanics gradually, as the inverted position places load on the lumbar spine. Begin with drilling at low intensity and progress resistance incrementally as both partners become comfortable with the movement patterns.",
+    "clips": [
+      {
+        "id": "V81JTcD_fTU",
+        "title": "Half guard to reverse X guard saddle sweep",
+        "by": "Gracie Barra Jupiter",
+        "vertical": false,
+        "channel": "Gracie Barra Jupiter And Stuart",
+        "duration": 141,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Reverse X-Guard Sweep Defender",
@@ -401,6 +412,26 @@
         "phase": "Week 7+",
         "focus": "Defense-to-offense transitions in live sparring",
         "description": "Positional sparring starting from Reverse X-Guard. Practice defending the sweep and immediately transitioning to passing sequences. Integrate defensive awareness into your overall standing guard passing game, recognizing when opponents are attempting to enter Reverse X-Guard and shutting down entries before the position is fully established."
+      }
+    ],
+    "clips": [
+      {
+        "id": "hGAJrQP3QDs",
+        "title": "Berimbolo counter to reverse X guard",
+        "by": "Pantheon Promotions",
+        "vertical": false,
+        "channel": "Pantheon Promotions",
+        "duration": 95,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "C1lYVhDXwvw",
+        "title": "How to pass X guard",
+        "by": "Kaynan Duarte",
+        "vertical": false,
+        "channel": "The Grapple Club",
+        "duration": 116,
+        "verified": "2026-07-15"
       }
     ]
   },

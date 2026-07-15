@@ -314,7 +314,36 @@
         "answer": "Four conditions must be present: your trapped leg must be partially freed or your shin positioned above the opponent's thigh line, upper body control must be established through crossface or collar grip, the opponent's knee shield must be neutralized or absent, and your base must be stable enough to commit forward pressure without risk of being swept. Attempting the slice without these conditions leads to failed passes and potential sweeps."
       }
     ],
-    "safety_considerations": "The knee slice pass is generally safe when practiced with proper control and awareness. The primary safety concern is avoiding excessive pressure on the opponent's knees or hips during the slice, which could cause joint strain if applied too forcefully or at incorrect angles. When training, start with minimal resistance and gradually increase intensity as both partners develop familiarity with the technique. Ensure you are not driving your knee directly into your partner's knee joint, which could cause meniscus or ligament damage. When consolidating in side control, apply crossface pressure firmly but avoid striking motions with your forearm against the face or jaw. Communicate with your training partner throughout, especially when they are learning to defend the pass, to ensure both parties can train safely and develop skill without unnecessary injury risk."
+    "safety_considerations": "The knee slice pass is generally safe when practiced with proper control and awareness. The primary safety concern is avoiding excessive pressure on the opponent's knees or hips during the slice, which could cause joint strain if applied too forcefully or at incorrect angles. When training, start with minimal resistance and gradually increase intensity as both partners develop familiarity with the technique. Ensure you are not driving your knee directly into your partner's knee joint, which could cause meniscus or ligament damage. When consolidating in side control, apply crossface pressure firmly but avoid striking motions with your forearm against the face or jaw. Communicate with your training partner throughout, especially when they are learning to defend the pass, to ensure both parties can train safely and develop skill without unnecessary injury risk.",
+    "clips": [
+      {
+        "id": "yj_6xcl2emA",
+        "title": "Inside knee cut pass through the knee shield",
+        "by": "War Room Jiu Jitsu",
+        "vertical": false,
+        "channel": "War Room Jiu Jitsu",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "TIsH40L5AVQ",
+        "title": "Double collar grip to knee slice pass",
+        "by": "Clube De Lutas Australia",
+        "vertical": false,
+        "channel": "Clube De Lutas Australia",
+        "duration": 47,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "p40WssWwJoY",
+        "title": "Knee cut pass into saddle entry",
+        "by": "thejiujitsupedia",
+        "vertical": false,
+        "channel": "thejiujitsupedia",
+        "duration": 48,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Knee Slice Pass Defender",
@@ -474,6 +503,26 @@
         "phase": "Week 7+: Live Positional Sparring",
         "focus": "Full resistance defense and counter-attack in sparring context",
         "description": "Positional sparring starting from half guard bottom against passer's free choice of passing technique. Integrate knee slice defense into broader half guard defensive system alongside defense against smash pass, long step, and backstep. Full resistance from both partners with scoring based on successful defense, guard retention, and counter-attacks."
+      }
+    ],
+    "clips": [
+      {
+        "id": "RvIIpXaPyJM",
+        "title": "Basic knee slide pass recovery",
+        "by": "Vision Brazilian Jiu Jitsu",
+        "vertical": false,
+        "channel": "Vision Brazilian Jiu Jitsu",
+        "duration": 96,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lVLAROiSjNU",
+        "title": "Guard retention: when to sit up escape",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 136,
+        "verified": "2026-07-15"
       }
     ]
   },

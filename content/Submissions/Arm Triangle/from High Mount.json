@@ -341,6 +341,35 @@
         "answer": "The arm triangle operates as part of a cyclical attack chain from high mount. Armbar threats force the opponent to retract and tuck their arms defensively, which positions the arms near the neck for the arm triangle push. Choke threats force the opponent to extend arms and create frames, exposing armbars. Each defense to one attack creates the setup for the next. In competition, patient practitioners use this cycle to progressively exhaust defensive options until the arm triangle or another submission in the chain succeeds.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "tc-XXMg7v48",
+        "title": "The mounted arm triangle",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 145,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "YHCZ7SHep5k",
+        "title": "Finishing head-and-arm chokes the right way",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 88,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "wrZCRBlAB3Y",
+        "title": "Head and arm choke from mount finishing details",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "Roger Gracie TV",
+        "duration": 265,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -476,6 +505,35 @@
         "phase": "Phase 4: Live defensive sparring from high mount bottom",
         "focus": "Full-speed defense against all high mount attacks including arm triangle",
         "description": "Partner starts in high mount top with full offensive options including arm triangle, armbar, and choke attacks. Defend all submissions while maintaining safe arm positioning to prevent the arm triangle setup. Focus on recognizing which attack is being set up and responding with the appropriate defense. 5-minute rounds, reset on escape or submission."
+      }
+    ],
+    "clips": [
+      {
+        "id": "n_2zR6BaF8A",
+        "title": "The best arm-triangle escape",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 58,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Nspz2EAIQ_k",
+        "title": "Arm triangle escape using hawking",
+        "by": "Crucifix Mike",
+        "vertical": false,
+        "channel": "Crucifix Mike",
+        "duration": 27,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "N7SC93aEOIA",
+        "title": "Head and arm choke escape",
+        "by": "Gracie Barra Jupiter",
+        "vertical": false,
+        "channel": "Gracie Barra Jupiter And Stuart",
+        "duration": 174,
+        "verified": "2026-07-14"
       }
     ]
   }

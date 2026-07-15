@@ -185,5 +185,34 @@
       "name": "Rubber Guard",
       "relationship": "Guard system providing multiple inverted triangle entry opportunities"
     }
+  ],
+  "clips": [
+    {
+      "id": "xAW3spYg9vE",
+      "title": "Inverted Triangle",
+      "by": "Bristol Jiu Jitsu",
+      "vertical": false,
+      "channel": "Bristol Jiu Jitsu",
+      "duration": 51,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "i2l9Gx72DU0",
+      "title": "Inverted Triangle Finish",
+      "by": "BJJ Lotus Club",
+      "vertical": false,
+      "channel": "BJJ Lotus Club",
+      "duration": 25,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "RCzCmK7AeVU",
+      "title": "Inverted Triangle Choke Finish",
+      "by": "MMAYHEM",
+      "vertical": false,
+      "channel": "MMAYHEM",
+      "duration": 60,
+      "verified": "2026-07-14"
+    }
   ]
 }

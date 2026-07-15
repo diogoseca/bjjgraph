@@ -298,7 +298,36 @@
         "answer": "The optimal chain creates a dilemma: threaten the omoplata by beginning to rotate hips underneath, which forces the opponent to pull their arm back and posture up to defend. This postural recovery is exactly the trigger needed for the triangle entry. Alternatively, threaten a direct armbar by beginning to isolate the arm overhead, which forces the opponent to tuck the elbow tight, which pre-sets the arm isolation needed for the triangle. The triangle from Guard works best as the second or third attack in a chain rather than the first, because the opponent's defensive reactions to earlier threats create the openings for the triangle entry."
       }
     ],
-    "safety_considerations": "The Triangle from Guard involves significant pressure on the cervical spine and carotid arteries. During training, always apply the choke gradually and release immediately upon tap. Partners should tap early when they feel arterial compression beginning rather than waiting for full consciousness restriction. The neck crank component from poor angle alignment can cause cervical strain, so prioritize proper perpendicular angle to ensure a clean blood choke rather than a crank. Practitioners with neck injuries or cervical disc issues should approach this technique cautiously from both the attacking and defending sides. When drilling, avoid explosive leg transitions that could strike the partner's face or jaw with the shin. The stacking defense can compress the attacker's spine, so practitioners with lower back issues should avoid holding stacked triangle positions for extended periods and transition to omoplata instead."
+    "safety_considerations": "The Triangle from Guard involves significant pressure on the cervical spine and carotid arteries. During training, always apply the choke gradually and release immediately upon tap. Partners should tap early when they feel arterial compression beginning rather than waiting for full consciousness restriction. The neck crank component from poor angle alignment can cause cervical strain, so prioritize proper perpendicular angle to ensure a clean blood choke rather than a crank. Practitioners with neck injuries or cervical disc issues should approach this technique cautiously from both the attacking and defending sides. When drilling, avoid explosive leg transitions that could strike the partner's face or jaw with the shin. The stacking defense can compress the attacker's spine, so practitioners with lower back issues should avoid holding stacked triangle positions for extended periods and transition to omoplata instead.",
+    "clips": [
+      {
+        "id": "MUU_eXZkz38",
+        "title": "Triangle setup from guard",
+        "by": "Conceptual Grappling",
+        "vertical": false,
+        "channel": "Conceptual Grappling",
+        "duration": 74,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8zbp7hnlWcc",
+        "title": "Closed guard triangle entry",
+        "by": "Clark Gracie",
+        "vertical": false,
+        "channel": "Clark Gracie Allegiance Jiu Jitsu",
+        "duration": 95,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "VOSpG7nYd5A",
+        "title": "Triangle choke from the overhook entry",
+        "by": "CVL BJJ",
+        "vertical": false,
+        "channel": "CVL BJJ",
+        "duration": 112,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Triangle from Guard Defender",
@@ -426,6 +455,35 @@
         "phase": "Week 7+",
         "focus": "Live defense integration",
         "description": "Full resistance positional sparring starting from Mission Control. Partner uses complete offensive system including triangle, omoplata, and armbar chains. Practice reading the attack selection, choosing the correct defensive response from the multi-option system, and executing escapes under competitive pressure. Develop the ability to survive the full rubber guard attack chain and reach safe positions against trained opponents."
+      }
+    ],
+    "clips": [
+      {
+        "id": "YG1S8nMIdjY",
+        "title": "Triangle defense from closed guard",
+        "by": "Jiu Jitsu With Andy",
+        "vertical": false,
+        "channel": "Jiu Jitsu With Andy ",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dJOw0ZEyXXc",
+        "title": "Posture up escape from the guard triangle",
+        "by": "Cosens MMA",
+        "vertical": false,
+        "channel": "Cosens MMA LLC",
+        "duration": 73,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "sR2rS2dwpNY",
+        "title": "How to escape a triangle choke",
+        "by": "Rener and Ryron Gracie",
+        "vertical": false,
+        "channel": "Hayabusa",
+        "duration": 117,
+        "verified": "2026-07-15"
       }
     ]
   },

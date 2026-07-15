@@ -285,7 +285,36 @@
         "answer": "Before committing, you need: secure bilateral sleeve or wrist grips that can withstand pulling force, the opponent's weight shifted forward or reactive forward movement created through grip fighting, appropriate distance (close enough for back-to-chest contact but not already clinched), and clear mat space for safe execution. Additionally, your own posture should be upright with knees slightly bent for explosive movement, and you need mental commitment to execute the technique fully without hesitation once initiated."
       }
     ],
-    "safety_considerations": "When practicing Morote Seoi Nage, safety is paramount due to the potential for impact injuries. Both practitioners must understand proper breakfall techniques before live drilling. The person executing the throw must maintain control of both sleeves throughout the technique to prevent the opponent from landing directly on their head or neck. Practice on appropriate mats with sufficient padding. Begin with slow, controlled repetitions and gradually increase speed only after both partners are comfortable. The throwing partner should guide the landing by maintaining grip pressure and not releasing too early. Training partners should communicate clearly about their comfort level with resistance and speed. Avoid attempting this technique against significantly larger opponents until technical proficiency is established, as improper execution can result in back or shoulder injuries for the thrower."
+    "safety_considerations": "When practicing Morote Seoi Nage, safety is paramount due to the potential for impact injuries. Both practitioners must understand proper breakfall techniques before live drilling. The person executing the throw must maintain control of both sleeves throughout the technique to prevent the opponent from landing directly on their head or neck. Practice on appropriate mats with sufficient padding. Begin with slow, controlled repetitions and gradually increase speed only after both partners are comfortable. The throwing partner should guide the landing by maintaining grip pressure and not releasing too early. Training partners should communicate clearly about their comfort level with resistance and speed. Avoid attempting this technique against significantly larger opponents until technical proficiency is established, as improper execution can result in back or shoulder injuries for the thrower.",
+    "clips": [
+      {
+        "id": "Z8ZJ159pIIk",
+        "title": "Morote-seoi-nage from same stance position",
+        "by": "Shintaro Higashi",
+        "vertical": false,
+        "channel": "Shintaro Higashi",
+        "duration": 94,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "wvE1-TVqzzY",
+        "title": "Morote Seoi Nage instructional trailer",
+        "by": "Shintaro Higashi",
+        "vertical": false,
+        "channel": "Shintaro Higashi",
+        "duration": 45,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "klwnsvq4RJc",
+        "title": "Seoi Nage dropping to both knees",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 65,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Morote Seoi Nage Defender",
@@ -408,6 +437,35 @@
         "phase": "Week 9-12: Live Situational Defense",
         "focus": "Defending throws in fully resistant standing exchanges",
         "description": "Begin from standing with full grip fighting. Partner's objective is to hit Morote Seoi Nage or chain throws, while your objective is to defend and counter. Rounds are 90 seconds of standing only. Track success rate of defenses and identify which phase of the throw you are most vulnerable to. Work specific weaknesses identified during live rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "qEE09xFbu8I",
+        "title": "Counter seoi-nage with a quick foot sweep",
+        "by": "Judoroland",
+        "vertical": false,
+        "channel": "Judoroland",
+        "duration": 28,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "KfXpH1BHhnk",
+        "title": "Judo against a defensive opponent",
+        "by": "Shintaro Higashi",
+        "vertical": false,
+        "channel": "Shintaro Higashi",
+        "duration": 80,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "VGy3imISlaA",
+        "title": "Beating the stiff arm defense",
+        "by": "Travis Stevens",
+        "vertical": false,
+        "channel": "Travis Stevens",
+        "duration": 95,
+        "verified": "2026-07-15"
       }
     ]
   },

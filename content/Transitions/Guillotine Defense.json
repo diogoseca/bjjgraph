@@ -305,7 +305,36 @@
         "answer": "You must push the wrist downward and laterally (toward the side of your neck rather than center throat) rather than pulling it away from your neck. Pulling the wrist away is fighting against their grip strength and body leverage, which is a losing battle. Pushing downward uses gravity and your body weight advantage, and moving the fulcrum laterally shifts the pressure from your carotid arteries to the muscular side of your neck where the choke is structurally ineffective. This redirection of force is the key mechanical insight that separates successful defenses from failed ones."
       }
     ],
-    "safety_considerations": "Guillotine defense carries inherent risks due to the nature of blood chokes affecting consciousness rapidly, sometimes within 5-8 seconds of full compression. Practitioners must tap immediately when defense is not working and consciousness begins fading - typically indicated by vision narrowing, hearing changes, or lightheadedness. Never sacrifice safety for ego when defending guillotines. Training partners must release pressure immediately upon any tap signal (hand, foot, or verbal). During progressive training phases, use agreed-upon pressure levels and provide verbal feedback about choking intensity. Neck cranking injuries are possible with violent guillotine attempts, so communicate clearly when the submission transitions from blood choke to cervical compression. Beginners should only practice against experienced partners who understand proper pressure application and release timing. Never practice full-pressure guillotine defenses without qualified supervision. Recognize that some guillotine positions are too deep to defend safely - tapping is always the correct decision when defense is failing. Long-term cervical spine health requires respecting the submission and understanding when escape is no longer viable."
+    "safety_considerations": "Guillotine defense carries inherent risks due to the nature of blood chokes affecting consciousness rapidly, sometimes within 5-8 seconds of full compression. Practitioners must tap immediately when defense is not working and consciousness begins fading - typically indicated by vision narrowing, hearing changes, or lightheadedness. Never sacrifice safety for ego when defending guillotines. Training partners must release pressure immediately upon any tap signal (hand, foot, or verbal). During progressive training phases, use agreed-upon pressure levels and provide verbal feedback about choking intensity. Neck cranking injuries are possible with violent guillotine attempts, so communicate clearly when the submission transitions from blood choke to cervical compression. Beginners should only practice against experienced partners who understand proper pressure application and release timing. Never practice full-pressure guillotine defenses without qualified supervision. Recognize that some guillotine positions are too deep to defend safely - tapping is always the correct decision when defense is failing. Long-term cervical spine health requires respecting the submission and understanding when escape is no longer viable.",
+    "clips": [
+      {
+        "id": "8okq4cIHMO0",
+        "title": "Standing guillotine escape",
+        "by": "dogtownman",
+        "vertical": false,
+        "channel": "dogtownman",
+        "duration": 44,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lvjRNWzKMPc",
+        "title": "Guillotine escape from closed guard to side control",
+        "by": "Street Jitsu",
+        "vertical": false,
+        "channel": "Street Jitsu",
+        "duration": 27,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Qb8gtundzPg",
+        "title": "Guillotine escape from inside the guard",
+        "by": "Ground Zero MMA",
+        "vertical": false,
+        "channel": "Ground Zero MMA,BJJ,Wresting,No Gi,Bridgend.",
+        "duration": 57,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Guillotine Defense Defender",
@@ -427,6 +456,26 @@
         "phase": "Week 7+: Live Finishing",
         "focus": "Completing guillotine against full defense",
         "description": "Full resistance guillotine attacks during live rolling where partner uses complete defense system. Practice the entire offensive adaptation sequence: initial grip, recognize defense, switch variation, pull guard if needed, finish or transition. Develop ability to finish guillotines against technically sound defenders or recognize when to transition to alternative attacks. Goal is 40%+ finish rate against defenders of similar skill level."
+      }
+    ],
+    "clips": [
+      {
+        "id": "NUnTxPvjCa0",
+        "title": "Marcelotine choke demonstration",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "stuartcooperfilms",
+        "duration": 73,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Dg1dvtWkXhE",
+        "title": "Marcelo Garcia guillotine (Marcelotine) breakdown",
+        "by": "Half The Battle",
+        "vertical": false,
+        "channel": "Half The Battle",
+        "duration": 110,
+        "verified": "2026-07-15"
       }
     ]
   },

@@ -297,7 +297,27 @@
         "answer": "You must have at least partially stripped or weakened the opponent's ankle grip, the DLR hook must be shallow or in the process of being cleared, you need a controlling upper body grip on their collar or lapel, and their far knee shield must not be fully established. Attempting the knee slice without these conditions drops success rates dramatically and exposes you to sweeps."
       }
     ],
-    "safety_considerations": "The Knee Slice from DLR carries moderate risk for both practitioners. The passer should avoid forcing the knee through extreme resistance, as lateral torque on a trapped knee can strain the MCL or meniscus. The bottom player faces minimal injury risk but should tap or verbally indicate if their knee becomes caught at an awkward angle during pass completion. During training, both partners should prioritize controlled technique over explosive power, particularly when the bottom player's legs are entangled around the passer's knee during the cutting phase. Avoid cranking the knee slice through a fully locked half guard."
+    "safety_considerations": "The Knee Slice from DLR carries moderate risk for both practitioners. The passer should avoid forcing the knee through extreme resistance, as lateral torque on a trapped knee can strain the MCL or meniscus. The bottom player faces minimal injury risk but should tap or verbally indicate if their knee becomes caught at an awkward angle during pass completion. During training, both partners should prioritize controlled technique over explosive power, particularly when the bottom player's legs are entangled around the passer's knee during the cutting phase. Avoid cranking the knee slice through a fully locked half guard.",
+    "clips": [
+      {
+        "id": "8QnCpFYN0L8",
+        "title": "Passing De La Riva guard with the knee slide",
+        "by": "Icon Jiu-Jitsu Team",
+        "vertical": false,
+        "channel": "ICON JIU-JITSU TEAM",
+        "duration": 31,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "WumNvXa4ueI",
+        "title": "Knee slice pass against De La Riva guard",
+        "by": "Pound For Pound",
+        "vertical": false,
+        "channel": "POUND FOR POUND",
+        "duration": 196,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Knee Slice from DLR Defender",
@@ -427,6 +447,26 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Full resistance positional sparring from DLR bottom",
         "description": "Full resistance rounds starting from DLR guard bottom against a partner who is actively attempting the knee slice and chain passes. Score points for successful guard retention, sweeps, back takes, or submissions. Track defensive success rate across rounds to measure improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Da5PAZooedU",
+        "title": "Knee slice defense counter",
+        "by": "A Day In A Life",
+        "vertical": false,
+        "channel": "A DAY IN A LIFE",
+        "duration": 86,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "wLSe23vSbP0",
+        "title": "Details to make your De La Riva unpassable",
+        "by": "Juanjo BJJ",
+        "vertical": false,
+        "channel": "Juanjo BJJ Tecnicas y Drills",
+        "duration": 102,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -442,5 +442,34 @@
       "question": "How can misdirection be used in grip fighting?",
       "answer": "Threatening or feinting a grip in one area draws a predictable defensive reaction, opening a window to secure your true primary grip elsewhere with far less resistance than a direct attempt would meet."
     }
+  ],
+  "clips": [
+    {
+      "id": "oK3mLyR6a4s",
+      "title": "Grip fighting in BJJ and judo",
+      "by": "Liam H Wandi",
+      "vertical": false,
+      "channel": "Liam H Wandi",
+      "duration": 64,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "EGaguy8AbG4",
+      "title": "How to break someone's grip",
+      "by": "Budo Brothers",
+      "vertical": false,
+      "channel": "Budo Brothers",
+      "duration": 84,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "KBcwWBEdCUQ",
+      "title": "Grip break against a stiff arm",
+      "by": "Kathy Hubble",
+      "vertical": false,
+      "channel": "Kathy Hubble",
+      "duration": 107,
+      "verified": "2026-07-15"
+    }
   ]
 }

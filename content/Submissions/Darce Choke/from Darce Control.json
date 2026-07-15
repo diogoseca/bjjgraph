@@ -339,6 +339,26 @@
         "answer": "In competition, commit to a decisive 15-second finishing window. Start by verifying grip depth, then execute the hip walk and hip drop as one explosive sequence rather than incrementally. If the choke is not producing defensive panic within 8 seconds of the hip drop, immediately transition to mount (step over) or back control (follow their escape direction) to score points and create new submission opportunities. Stalling in a stalled Darce burns clock and energy with no return. The threat of positional advancement often breaks the defensive shell more effectively than prolonged squeezing.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "ukb_hx28qsM",
+        "title": "Side Control D'Arce Choke (No Gi)",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 74,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "22EYQ2uhxQw",
+        "title": "Side control to north-south D'Arce",
+        "by": "Gracie Westchase",
+        "vertical": false,
+        "channel": "Gracie Westchase ",
+        "duration": 75,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -468,6 +488,35 @@
         "phase": "Phase 4: Live Positional Rounds",
         "focus": "Full resistance defense starting from established Darce Control",
         "description": "Positional sparring where attacker starts in locked Darce Control and works to finish while defender works to escape. Full resistance with safety emphasis. 2-minute rounds, reset after each finish or escape. Goal is recognizing defensive windows in real time and selecting the appropriate escape path based on attacker's positioning."
+      }
+    ],
+    "clips": [
+      {
+        "id": "d1YBV8UTKds",
+        "title": "Darce Choke defense",
+        "by": "Animal",
+        "vertical": false,
+        "channel": "Animal",
+        "duration": 53,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "cmaIzjv3QG8",
+        "title": "D'arce defense, belly down",
+        "by": "JitzLive",
+        "vertical": false,
+        "channel": "JitzLive",
+        "duration": 38,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "iNZpCbutyrM",
+        "title": "Darce escape",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 54,
+        "verified": "2026-07-14"
       }
     ]
   }

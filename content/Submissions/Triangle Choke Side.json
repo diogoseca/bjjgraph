@@ -174,5 +174,25 @@
       "name": "Mounted Triangle",
       "relationship": "Related triangle control variation from mount position"
     }
+  ],
+  "clips": [
+    {
+      "id": "oyXaGXU3mFU",
+      "title": "Rear Triangle from Side Control",
+      "by": "Onyx Martial Arts",
+      "vertical": false,
+      "channel": "Onyx Martial Arts Edmundston ",
+      "duration": 77,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "NA50Ay8yL1k",
+      "title": "Triangle from Side Control",
+      "by": "Ricardo Marques",
+      "vertical": false,
+      "channel": "Bernardo Faria BJJ Fanatics",
+      "duration": 258,
+      "verified": "2026-07-14"
+    }
   ]
 }

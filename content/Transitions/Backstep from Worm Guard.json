@@ -295,7 +295,27 @@
         "answer": "This indicates the bottom player is abandoning worm guard retention and transitioning to a back take attempt, using your exposed back during the rotation as the entry point. Immediately tighten your elbows to your body to deny underhook access, maintain your collar grip as an anchor, and consider sitting back into them to flatten their back take attempt. If back exposure is severe, abort the pass entirely and face them to reset rather than completing the rotation into a worse position."
       }
     ],
-    "safety_considerations": "The backstep from worm guard carries minimal direct injury risk as a positional passing technique. However, the rotational movement can strain the knee of the trapped leg if the lapel wrap is extremely tight and the passer forces the backstep against maximum tension. Always ensure adequate lapel slack is developing before committing full rotational force to the backstep arc. Partners should release lapel grips immediately if the passer's knee shows signs of being torqued beyond natural range of motion during the rotation. In training, establish clear communication about resistance levels before drilling."
+    "safety_considerations": "The backstep from worm guard carries minimal direct injury risk as a positional passing technique. However, the rotational movement can strain the knee of the trapped leg if the lapel wrap is extremely tight and the passer forces the backstep against maximum tension. Always ensure adequate lapel slack is developing before committing full rotational force to the backstep arc. Partners should release lapel grips immediately if the passer's knee shows signs of being torqued beyond natural range of motion during the rotation. In training, establish clear communication about resistance levels before drilling.",
+    "clips": [
+      {
+        "id": "aR0dbddbfQA",
+        "title": "Passing the Polish Worm Rider lapel guard",
+        "by": "Daniel Maira and Nicholas Salles",
+        "vertical": false,
+        "channel": "Movement Art",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "u0D9HUwXuKE",
+        "title": "Passing Lapel Guard",
+        "by": "Vicente Cavalcanti",
+        "vertical": false,
+        "channel": "VICENTE CAVALCANTI",
+        "duration": 70,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Backstep from Worm Guard Defender",
@@ -416,6 +436,17 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Full resistance defense and counter-attacking",
         "description": "Positional sparring from worm guard with full resistance. Top player attempts backstep and other passes. Bottom player defends using all available options—hip chasing, back takes, guard transitions, and knee shield recovery. Three-minute rounds with resets after each pass or sweep. Track which defensive option is most effective against each partner."
+      }
+    ],
+    "clips": [
+      {
+        "id": "U-d9fLP9eAo",
+        "title": "Reverse De La Worm defense against the smash pass",
+        "by": "Satori BJJ",
+        "vertical": false,
+        "channel": "Satori BJJ",
+        "duration": 62,
+        "verified": "2026-07-15"
       }
     ]
   }

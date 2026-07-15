@@ -289,7 +289,36 @@
         "answer": "When opponent times mount transitions with your bridge, they're capitalizing on the moment your hips rise. Counter this by: making your bridges smaller and faster (2-3 inches rather than full bridges), immediately turning onto your hip as you bridge rather than bridging straight up, keeping your near elbow tight to your body to block their knee from crossing, and using your near knee to actively block their leg advancement. If you feel them beginning to step over, abandon the shrimp and focus entirely on blocking the mount with your elbow-to-knee connection, then reset for another escape attempt once mount is prevented."
       }
     ],
-    "safety_considerations": "When practicing shrimp escapes, controlled application is essential to develop proper mechanics safely. Begin with cooperative partners who allow the technique to complete, gradually building up resistance over weeks of training. Ensure adequate mat space as shrimping can move you across the mat quickly—be aware of mat boundaries and other training pairs to avoid collisions. When drilling, the top partner should allow the escape to complete and avoid sudden weight drops or aggressive pressure that could injure the bottom player's ribs or prevent proper breathing. Build up explosiveness gradually, starting with slow technical repetitions before adding speed and power. The bridging motion should be controlled to protect your neck and spine—avoid over-bridging or jerky movements. As bottom player, if you cannot breathe properly under pressure, tap immediately and reset. As top partner, check in regularly with your partner about pressure levels, especially during the learning phase. Practice on proper BJJ mats with adequate padding to protect hips and shoulders during the repetitive movements."
+    "safety_considerations": "When practicing shrimp escapes, controlled application is essential to develop proper mechanics safely. Begin with cooperative partners who allow the technique to complete, gradually building up resistance over weeks of training. Ensure adequate mat space as shrimping can move you across the mat quickly—be aware of mat boundaries and other training pairs to avoid collisions. When drilling, the top partner should allow the escape to complete and avoid sudden weight drops or aggressive pressure that could injure the bottom player's ribs or prevent proper breathing. Build up explosiveness gradually, starting with slow technical repetitions before adding speed and power. The bridging motion should be controlled to protect your neck and spine—avoid over-bridging or jerky movements. As bottom player, if you cannot breathe properly under pressure, tap immediately and reset. As top partner, check in regularly with your partner about pressure levels, especially during the learning phase. Practice on proper BJJ mats with adequate padding to protect hips and shoulders during the repetitive movements.",
+    "clips": [
+      {
+        "id": "nf8lVz7bKvw",
+        "title": "Shrimping from side mount",
+        "by": "Kinesiology College",
+        "vertical": false,
+        "channel": "Kinesiology College",
+        "duration": 35,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "CifmPSV7aXY",
+        "title": "Shrimp and recover guard from bottom side control",
+        "by": "Concept BJJ",
+        "vertical": false,
+        "channel": "Concept BJJ",
+        "duration": 141,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "RRfU3YxQ2Sw",
+        "title": "Shrimp escape from bottom mount",
+        "by": "Kovar's Satori Academy",
+        "vertical": false,
+        "channel": "Kovar's Satori Academy of Martial Arts - Waterman",
+        "duration": 172,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Shrimp Escape Defender",
@@ -419,6 +448,26 @@
         "phase": "Phase 4: Full Resistance Positional Sparring",
         "focus": "Apply all defensive concepts against unrestricted escape attempts",
         "description": "Full-speed positional sparring from side control. Top player's objective is to maintain position for 90 seconds or advance to mount/back control. Bottom player uses any escape method available. After each round, analyze which escape phases caused the most difficulty and drill specific counters. Include both gi and no-gi rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "mWimgVQrsMU",
+        "title": "Far side underhook pin to shut down the shrimp",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 137,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "h26nVtG0f_I",
+        "title": "Three ways to pin and hold side control",
+        "by": "Clinch Dirty Boxing BJJ",
+        "vertical": false,
+        "channel": "Clinch Dirty Boxing-Brazilian Jiu-Jitsu-Krav Maga",
+        "duration": 200,
+        "verified": "2026-07-15"
       }
     ]
   },

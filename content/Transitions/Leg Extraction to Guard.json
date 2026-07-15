@@ -266,7 +266,27 @@
         "answer": "Your hip escape must angle diagonally away from the opponent rather than directly backward. A direct backward shrimp simply pulls your leg along the axis of their entanglement, maintaining their control geometry. Angling diagonally changes the relationship between your trapped leg and their figure-four, creating slack on one side of their control that allows your knee to slip through the gap. The diagonal angle also positions your body for immediate guard establishment once the leg clears."
       }
     ],
-    "safety_considerations": "Leg Extraction to Guard carries moderate injury risk primarily related to heel hooks and knee stress. Never attempt extraction when your opponent has an established heel hook grip - the movement of extraction can accelerate the submission and cause ligament damage. Maintain dorsiflexion throughout to protect against heel exposure during movement. Avoid explosive or jerky movements that could stress your knee joint within the entanglement. If you feel any significant pressure on your heel or knee during extraction, immediately stop and address the threat before continuing. Training partners should release immediately if the extracting person taps or verbally indicates distress. Begin training with compliant partners before progressing to resistance to establish proper movement patterns that protect joint integrity."
+    "safety_considerations": "Leg Extraction to Guard carries moderate injury risk primarily related to heel hooks and knee stress. Never attempt extraction when your opponent has an established heel hook grip - the movement of extraction can accelerate the submission and cause ligament damage. Maintain dorsiflexion throughout to protect against heel exposure during movement. Avoid explosive or jerky movements that could stress your knee joint within the entanglement. If you feel any significant pressure on your heel or knee during extraction, immediately stop and address the threat before continuing. Training partners should release immediately if the extracting person taps or verbally indicates distress. Begin training with compliant partners before progressing to resistance to establish proper movement patterns that protect joint integrity.",
+    "clips": [
+      {
+        "id": "c-LUX8aDBUE",
+        "title": "Leg entanglement escapes fundamentals",
+        "by": "Jeremy Skinner",
+        "vertical": false,
+        "channel": "Techniqly Online",
+        "duration": 35,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "AQbJMBiWYfU",
+        "title": "Escaping ashi garami back to guard",
+        "by": "Scott Elliott",
+        "vertical": false,
+        "channel": "Coach Scott Elliott",
+        "duration": 141,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Leg Extraction to Guard Defender",
@@ -390,6 +410,26 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Full resistance rounds starting from ushiro ashi-garami with both players working at competition pace. Develop decision-making for when to maintain ushiro, advance to saddle, chase submissions, or transition to passing. Build pattern recognition for opponent's extraction timing and preferred sequences."
+      }
+    ],
+    "clips": [
+      {
+        "id": "WqJnBWij11E",
+        "title": "Re-entangling with cross ashi when they post the leg",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 133,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "cRXsNPAgVLU",
+        "title": "Countering the irimi ashi garami escape",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 29,
+        "verified": "2026-07-15"
       }
     ]
   },

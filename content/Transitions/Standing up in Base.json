@@ -329,7 +329,36 @@
         "answer": "Technical standup serves as a critical branch in the turtle escape decision tree alongside granby rolls, sit-throughs, and guard recovery pulls. The choice between standup and alternatives depends on three factors: opponent's weight height (high weight favors granby, low weight favors standup), grip configuration (harness control makes standup dangerous, loose grips make it optimal), and your energy state (standup requires more explosive output than rolling escapes). The standup is uniquely valuable because it resets the entire positional exchange to neutral standing, allowing you to dictate whether engagement continues on the ground or standing. This makes it the preferred escape when you are ahead on points, when opponent's ground game is superior, or when you want to pull guard to a specific position with favorable grips."
       }
     ],
-    "safety_considerations": "Technical standup is a relatively low-risk movement when executed properly, but practitioners should be aware of several safety factors. Ensure adequate hand and wrist strength before attempting under resistance, as posting on weak wrists can result in sprains. During the hip elevation phase, avoid explosive jumping movements that can strain hip flexors or cause loss of balance leading to falls. When training with resistance, partners should progressively increase pressure rather than immediately using full intensity, allowing proper technique development before speed and power are added. Be particularly cautious of neck position during the transition, as improper head placement can expose you to front headlock attacks or choke attempts. When drilling, use mats with adequate cushioning to prevent wrist and hand injuries from repeated posting. Partners should communicate clearly when adding resistance to prevent unexpected pressure that could compromise base and cause falls."
+    "safety_considerations": "Technical standup is a relatively low-risk movement when executed properly, but practitioners should be aware of several safety factors. Ensure adequate hand and wrist strength before attempting under resistance, as posting on weak wrists can result in sprains. During the hip elevation phase, avoid explosive jumping movements that can strain hip flexors or cause loss of balance leading to falls. When training with resistance, partners should progressively increase pressure rather than immediately using full intensity, allowing proper technique development before speed and power are added. Be particularly cautious of neck position during the transition, as improper head placement can expose you to front headlock attacks or choke attempts. When drilling, use mats with adequate cushioning to prevent wrist and hand injuries from repeated posting. Partners should communicate clearly when adding resistance to prevent unexpected pressure that could compromise base and cause falls.",
+    "clips": [
+      {
+        "id": "DO0nHTCk_jY",
+        "title": "Technical stand-up in base solo drills",
+        "by": "Gracie Charlottesville",
+        "vertical": false,
+        "channel": "Gracie Charlottesville",
+        "duration": 46,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_sBB-O8fqP4",
+        "title": "Standing up in base breakdown",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 114,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "YNcEX5v0bcs",
+        "title": "Seated escape to technical stand-up",
+        "by": "Andre Galvao",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 70,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Standing up in Base Defender",
@@ -455,6 +484,17 @@
         "phase": "Week 11+: Full Resistance Integration",
         "focus": "Applying standup counters during live positional sparring from turtle",
         "description": "Full resistance positional rounds starting from turtle top. Bottom player uses all available escapes including standup, granby rolls, sit-throughs, and guard recovery. Top player must read which escape is being attempted and apply appropriate counter. Success measured by position retention rate and back take conversion rate during standup attempts. Perform 4-6 rounds of 5 minutes per session."
+      }
+    ],
+    "clips": [
+      {
+        "id": "gvFU2sS3fLE",
+        "title": "Taking the back as they stand from tight turtle",
+        "by": "Devine Jiu Jitsu",
+        "vertical": false,
+        "channel": "Devine Jiu Jitsu",
+        "duration": 99,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -367,6 +367,26 @@
           "nogi": 9
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "Xf8_An46qiw",
+        "title": "Passing low half guard to near-side underhook",
+        "by": "Michael Hoffman",
+        "vertical": false,
+        "channel": "Michael Hoffman",
+        "duration": 70,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "YLPNsyHtREs",
+        "title": "Monitoring the feet while passing guard",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Michael Wong",
+        "duration": 50,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -681,6 +701,26 @@
           "nogi": 18
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "4EpYNsTwjWY",
+        "title": "Deep half guard Faria sweep",
+        "by": "Masahiro Iwasaki",
+        "vertical": false,
+        "channel": "Team Daruma Dojo",
+        "duration": 71,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "X3M6JUqr1Bo",
+        "title": "Roger windmill half guard sweep",
+        "by": "SBG Australia",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 16,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -711,6 +751,17 @@
     {
       "question": "Why is Pocket Half Guard described as a transitional hub rather than a static holding position?",
       "answer": "The position is inherently unstable because both players hold strong but incomplete control, so it resolves quickly, typically within 45 to 90 seconds, into a sweep, back-take, submission, or pass. The deep underhook and pocket space feed directly into offensive threats while the compromised base and contested crossface constantly threaten reversal or advancement. Neither side can sit still without ceding one of the three control points. This is why it functions as a launching point into neighbors like Deep Half, Old School, side control, or the back rather than a place to rest."
+    }
+  ],
+  "clips": [
+    {
+      "id": "F8zTqADm7fU",
+      "title": "Arm drag from knee shield half guard",
+      "by": "Bernardo Faria",
+      "vertical": false,
+      "channel": "Bernardo Faria BJJ Fanatics",
+      "duration": 162,
+      "verified": "2026-07-14"
     }
   ]
 }

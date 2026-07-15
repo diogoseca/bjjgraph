@@ -286,7 +286,27 @@
         "answer": "Sasae creates a credible takedown threat that forces the opponent to defend standing, which opens guard pull opportunities when they retract backward. If the sweep attempt fails and the opponent pulls away, the space and broken posture created by the kuzushi attempt sets up ideal conditions for sitting into De La Riva or Reverse De La Riva guard. Conversely, threatening the guard pull keeps opponents cautious about retreating, making them more susceptible to the forward sweep."
       }
     ],
-    "safety_considerations": "Controlled application is paramount when practicing Sasae Tsurikomi Ashi. The thrower must maintain grips throughout the technique to control the opponent's descent and prevent uncontrolled falls that could result in head, shoulder, or back injuries. During drilling, start with slow, cooperative repetitions to build proper mechanics before adding speed or resistance. Ensure adequate mat space is available in all directions, as the throw can create unexpected rotation. Partners should practice breakfall techniques (ukemi) before being thrown at full speed. When learning, the blocking foot should be placed gently at first to avoid ankle injuries to either person - the blocking leg can be vulnerable to knee torque if planted too rigidly. Never practice this technique near walls, equipment, or other practitioners. Both partners should communicate clearly about resistance levels and gradually progress from static drilling to dynamic application over several weeks."
+    "safety_considerations": "Controlled application is paramount when practicing Sasae Tsurikomi Ashi. The thrower must maintain grips throughout the technique to control the opponent's descent and prevent uncontrolled falls that could result in head, shoulder, or back injuries. During drilling, start with slow, cooperative repetitions to build proper mechanics before adding speed or resistance. Ensure adequate mat space is available in all directions, as the throw can create unexpected rotation. Partners should practice breakfall techniques (ukemi) before being thrown at full speed. When learning, the blocking foot should be placed gently at first to avoid ankle injuries to either person - the blocking leg can be vulnerable to knee torque if planted too rigidly. Never practice this technique near walls, equipment, or other practitioners. Both partners should communicate clearly about resistance levels and gradually progress from static drilling to dynamic application over several weeks.",
+    "clips": [
+      {
+        "id": "kj78xnbn4LA",
+        "title": "An unusual sasae variation",
+        "by": "Shintaro Higashi",
+        "vertical": false,
+        "channel": "Shintaro Higashi",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "O-MLLz9UHRM",
+        "title": "Sasae tsurikomi ashi short demo",
+        "by": "Judo Advantage coach",
+        "vertical": false,
+        "channel": "Judo Advantage",
+        "duration": 23,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Sasae Tsurikomi Ashi Defender",
@@ -412,6 +432,26 @@
         "phase": "Week 9+: Live standing defense",
         "focus": "Defense against combinations and live application",
         "description": "Positional sparring from standing where partner attempts Sasae and follow-up combination attacks. Practice defending the initial sweep and the follow-up technique. Develop ability to recognize when counter-attacking is available after a defended Sasae. Track which defensive responses work best against different training partners and body types."
+      }
+    ],
+    "clips": [
+      {
+        "id": "klXnE1xnfKI",
+        "title": "Foot sweep counter",
+        "by": "FL Jiu Jitsu Studies coach",
+        "vertical": false,
+        "channel": "FL Jiu Jitsu Studies",
+        "duration": 12,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "VGy3imISlaA",
+        "title": "Beating the stiff arm to shut down foot sweeps",
+        "by": "Travis Stevens",
+        "vertical": false,
+        "channel": "Travis Stevens",
+        "duration": 95,
+        "verified": "2026-07-15"
       }
     ]
   },

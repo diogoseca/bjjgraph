@@ -368,6 +368,35 @@
         "question": "When is it appropriate to fully commit your weight forward during a seated guard pass?",
         "answer": "Only commit full weight forward after you've cleared the opponent's legs and are moving into consolidation position. Premature weight commitment while their legs are still active allows them to insert hooks, close guard, or use your forward momentum for sweeps. The correct sequence is: establish grips, create angle, control legs, clear leg defense, then drop weight for consolidation. If you feel their legs are still threatening, maintain mobility instead of committing."
       }
+    ],
+    "clips": [
+      {
+        "id": "zT3JjOR838w",
+        "title": "Passing a Seated Guard With Underhooks",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 143,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "aQ2vFXXBn-o",
+        "title": "Countering a Full Inversion While Passing",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Es7T1KjTUpI",
+        "title": "Application Against a Seated Opponent",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 157,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -714,6 +743,35 @@
         "question": "What visual cues indicate it's time to execute a technical standup rather than stay in seated guard?",
         "answer": "Execute technical standup when: opponent commits to standing passes and is focused on leg control rather than pressure; when you've created enough distance that they can't immediately close; when opponent hesitates or resets their position; when grip fighting has stalemated and neither has dominant control; or when you need to reset after a near-pass. The key cue is space - if you have room to stand without opponent immediately driving into you, the standup is available."
       }
+    ],
+    "clips": [
+      {
+        "id": "qj4vQ7TcEjU",
+        "title": "Seated Guard Takedown/Sweep Tutorial",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "FreeChannelOpen",
+        "duration": 64,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "H3HHTStUtVs",
+        "title": "Seated Guard Hand-Fighting Sweep Drill",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 43,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "XJxo3E7brlk",
+        "title": "Sit Up Guard to Ankle Pick",
+        "by": "Carpio Jiu Jitsu",
+        "vertical": false,
+        "channel": "Carpio Jiu Jitsu",
+        "duration": 114,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -748,6 +806,26 @@
     {
       "question": "How does Seated Guard relate to butterfly guard, single leg X, and standing, and what triggers the shift to each?",
       "answer": "Seated Guard sits at a hub of open-guard transitions because its upright, unwrapped posture connects cleanly to neighboring positions. Inserting a hook under the opponent's thigh as they close distance converts it to butterfly guard, while an opponent stepping a leg forward invites a Single Leg X entry. Rising off the posted hands takes the seated player to standing, resetting to neutral. The common thread is that each adjacent position is one committed motion away, which is precisely why Seated Guard functions as a versatile launch point rather than a destination."
+    }
+  ],
+  "clips": [
+    {
+      "id": "qP9iLxlxgzw",
+      "title": "Sit Up Guard (live demonstration)",
+      "by": "Lachlan Giles",
+      "vertical": false,
+      "channel": "Absolute MMA St Kilda - Melbourne",
+      "duration": 120,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "lVLAROiSjNU",
+      "title": "When To Sit Up for Guard Retention",
+      "by": "Lachlan Giles",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 136,
+      "verified": "2026-07-14"
     }
   ]
 }

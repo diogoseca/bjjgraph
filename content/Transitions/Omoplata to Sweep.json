@@ -285,7 +285,36 @@
         "answer": "Against a forward-rolling opponent, the force is primarily rotational. You amplify their existing momentum by extending your top leg and elevating hips in the same direction they are already moving. The timing is about acceleration, not initiation. Against a posting opponent, the force is more lateral and leveraged. You must break their post first by controlling or attacking the posting arm, then apply rotational force perpendicular to their remaining base. The posting opponent requires more setup work but the sweep itself is more controlled because you dictate the tempo rather than riding their momentum."
       }
     ],
-    "safety_considerations": "When practicing the omoplata to sweep, ensure controlled execution to protect both partners from injury. The primary safety concern is the trapped shoulder, which is under significant rotational stress during the omoplata position. Never force the sweep explosively during drilling or technical training - build speed gradually as both partners develop comfort with the movement patterns. Partners should communicate clearly and tap immediately if they feel excessive pressure on the shoulder joint or if they are unable to roll safely through the sweep. When first learning the technique, the person being swept should practice the forward roll in isolation to ensure they can perform it safely without injuring their neck or shoulders. Avoid practicing this technique against partners with pre-existing shoulder injuries or limited mobility. As the person executing the sweep, maintain constant awareness of your partner's safety and release pressure immediately upon any tap or verbal signal. During live sparring, recognize that forcing this sweep against a much larger opponent may put excessive stress on your hips and lower back - use technical precision rather than raw force."
+    "safety_considerations": "When practicing the omoplata to sweep, ensure controlled execution to protect both partners from injury. The primary safety concern is the trapped shoulder, which is under significant rotational stress during the omoplata position. Never force the sweep explosively during drilling or technical training - build speed gradually as both partners develop comfort with the movement patterns. Partners should communicate clearly and tap immediately if they feel excessive pressure on the shoulder joint or if they are unable to roll safely through the sweep. When first learning the technique, the person being swept should practice the forward roll in isolation to ensure they can perform it safely without injuring their neck or shoulders. Avoid practicing this technique against partners with pre-existing shoulder injuries or limited mobility. As the person executing the sweep, maintain constant awareness of your partner's safety and release pressure immediately upon any tap or verbal signal. During live sparring, recognize that forcing this sweep against a much larger opponent may put excessive stress on your hips and lower back - use technical precision rather than raw force.",
+    "clips": [
+      {
+        "id": "Ar2oa-jV9-Y",
+        "title": "Omoplata sweep demonstration",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 50,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "VFW27i7jHmI",
+        "title": "Omoplata sweep variations",
+        "by": "Gracie Barra Newcastle City",
+        "vertical": false,
+        "channel": "Gracie Barra Newcastle City",
+        "duration": 44,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "IYbdBR0ilb4",
+        "title": "Omoplata sweep vs standing opponent",
+        "by": "Paramount Brazilian Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Paramount Brazilian Jiu-Jitsu",
+        "duration": 58,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Omoplata to Sweep Defender",
@@ -416,6 +445,17 @@
         "phase": "Week 9+: Live Application and Decision Training",
         "focus": "Applying defense in live sparring with full attack chains from attacker",
         "description": "Attacker works the full omoplata system including submission finish, sweep, and back take transitions. Defender practices reading the attacker's intentions and selecting the appropriate defensive response in real time. Track success rates of different defensive options against various attacker approaches. Develop automatic responses to each sweep trigger."
+      }
+    ],
+    "clips": [
+      {
+        "id": "1AuDq4XddmE",
+        "title": "Omoplata defense drills",
+        "by": "316BJJ",
+        "vertical": false,
+        "channel": "316BJJ Brazilian Jiujitsu",
+        "duration": 135,
+        "verified": "2026-07-15"
       }
     ]
   },

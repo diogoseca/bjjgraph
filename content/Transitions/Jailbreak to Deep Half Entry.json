@@ -270,7 +270,18 @@
         "answer": "During your dive underneath, instead of wrapping both arms around their trapped leg for traditional deep half, use your free hand to elevate their far leg into waiter sweep configuration. This provides immediate sweep leverage as you complete the entry, turning defense into offense in a single motion rather than settling into static deep half first."
       }
     ],
-    "safety_considerations": "This technique involves significant hip rotation and diving movements that can strain the lower back if performed with poor mechanics. Always warm up hip flexors and lower back thoroughly before drilling. Avoid attempting during live sparring until the movement pattern is automatic. The diving motion should be smooth and controlled - explosive jerking movements increase injury risk. Partners should communicate clearly and tap immediately if feeling any knee or hip discomfort during the threading sequence. Practitioners with existing lower back issues should modify the hip drop depth and consult their instructor for appropriate variations."
+    "safety_considerations": "This technique involves significant hip rotation and diving movements that can strain the lower back if performed with poor mechanics. Always warm up hip flexors and lower back thoroughly before drilling. Avoid attempting during live sparring until the movement pattern is automatic. The diving motion should be smooth and controlled - explosive jerking movements increase injury risk. Partners should communicate clearly and tap immediately if feeling any knee or hip discomfort during the threading sequence. Practitioners with existing lower back issues should modify the hip drop depth and consult their instructor for appropriate variations.",
+    "clips": [
+      {
+        "id": "Dalv3UtxCZ0",
+        "title": "Entering deep half guard from knee on belly",
+        "by": "Team Daruma Dojo coach",
+        "vertical": false,
+        "channel": "Team Daruma Dojo",
+        "duration": 68,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Jailbreak to Deep Half Entry Defender",
@@ -393,6 +404,26 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Full resistance positional sparring from top half guard against opponents who actively use the jailbreak system. Focus on shutting down entries before they complete while still advancing your passing game. Track which defensive responses work against which opponent tendencies."
+      }
+    ],
+    "clips": [
+      {
+        "id": "qqheiIgQrfY",
+        "title": "Passing against deep half guard",
+        "by": "Koji Shibamoto",
+        "vertical": false,
+        "channel": "トライフォース柔術アカデミー / Tri-force Jiu-jitsu Academy",
+        "duration": 33,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "K0XMj9BNJ8U",
+        "title": "Knee slide pass countering the deep half entry",
+        "by": "Scott Ryan Chiriboga",
+        "vertical": false,
+        "channel": "Scott Ryan Chiriboga",
+        "duration": 133,
+        "verified": "2026-07-15"
       }
     ]
   },

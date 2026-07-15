@@ -266,7 +266,36 @@
         "answer": "The transition forces a choice: defending the elevation by posting exposes them to the Old School sweep, while allowing the transition subjects them to Electric Chair submission threat. If they focus on extracting their leg, they expose the Truck entry. This multi-threat nature means any defensive choice opens a different offensive opportunity, making the transition difficult to stop completely."
       }
     ],
-    "safety_considerations": "The Electric Chair Transition involves significant pressure on the opponent's knee, hip, and groin area. Apply the splitting pressure progressively over several seconds rather than explosively to allow partners time to tap if necessary. Partners with limited hip flexibility or existing knee/groin injuries should communicate limitations before drilling. The transition itself is relatively safe, but the resulting Electric Chair position carries submission risk requiring careful pressure application. Tap early when caught in training - the compression nature of the Electric Chair can cause injury before pain fully registers."
+    "safety_considerations": "The Electric Chair Transition involves significant pressure on the opponent's knee, hip, and groin area. Apply the splitting pressure progressively over several seconds rather than explosively to allow partners time to tap if necessary. Partners with limited hip flexibility or existing knee/groin injuries should communicate limitations before drilling. The transition itself is relatively safe, but the resulting Electric Chair position carries submission risk requiring careful pressure application. Tap early when caught in training - the compression nature of the Electric Chair can cause injury before pain fully registers.",
+    "clips": [
+      {
+        "id": "sMbaY4vG2mM",
+        "title": "Electric Chair from Lockdown Half Guard",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 42,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "adarj-QUB4Y",
+        "title": "Electric Chair Sweep from Lockdown",
+        "by": "Moncaio Brothers",
+        "vertical": false,
+        "channel": "Moncaio Brothers Jiujitsu",
+        "duration": 47,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "9CxxyZEd7-E",
+        "title": "Electric Chair Sweep Breakdown",
+        "by": "Asaf Mich",
+        "vertical": false,
+        "channel": "Asaf Mich",
+        "duration": 76,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Electric Chair Transition Defender",
@@ -400,6 +429,17 @@
         "phase": "Week 7+",
         "focus": "Live Defense with Transition Awareness",
         "description": "Full resistance positional sparring starting in lockdown with partner attacking Electric Chair. Practice the complete defensive sequence from early recognition through escape. Develop awareness of Truck entry risk during windshield wiper and Old School sweep threat during posting defense."
+      }
+    ],
+    "clips": [
+      {
+        "id": "3A6oRsDf3oU",
+        "title": "Lockdown and Electric Chair Counters and Escapes",
+        "by": "Coach Dennis",
+        "vertical": false,
+        "channel": "Street Jitsu",
+        "duration": 286,
+        "verified": "2026-07-15"
       }
     ]
   },

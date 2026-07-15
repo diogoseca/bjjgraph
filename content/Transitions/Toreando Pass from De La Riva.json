@@ -298,7 +298,27 @@
         "answer": "The most common failure point is insufficient commitment to the lateral arc, manifesting as slow or tentative footwork during the passing sprint. Many practitioners execute the grip strip and hook removal cleanly but then transition to a careful walking pace instead of an explosive sprint during the actual pass. This speed reduction gives the guard player adequate time to recover hooks, re-establish grips, or transition to alternative guard positions, negating all the preparatory work."
       }
     ],
-    "safety_considerations": "The Toreando Pass from De La Riva is a relatively low-risk technique for both practitioners. The primary safety concern for the passer involves knee strain during explosive direction changes, particularly on soft or uneven training surfaces. For the guard player, rapid leg redirections should be performed with control during drilling to avoid applying excessive torque to the knee or hip joints. Both practitioners should communicate immediately if the DLR hook position creates uncomfortable pressure behind the knee. During live training, the passer should avoid violently yanking the opponent's legs in ways that could strain hip flexors or adductors, and should release pants grips if the opponent verbally taps or signals discomfort during the redirection phase."
+    "safety_considerations": "The Toreando Pass from De La Riva is a relatively low-risk technique for both practitioners. The primary safety concern for the passer involves knee strain during explosive direction changes, particularly on soft or uneven training surfaces. For the guard player, rapid leg redirections should be performed with control during drilling to avoid applying excessive torque to the knee or hip joints. Both practitioners should communicate immediately if the DLR hook position creates uncomfortable pressure behind the knee. During live training, the passer should avoid violently yanking the opponent's legs in ways that could strain hip flexors or adductors, and should release pants grips if the opponent verbally taps or signals discomfort during the redirection phase.",
+    "clips": [
+      {
+        "id": "XO_i9aiSuHU",
+        "title": "Toreando pass from De La Riva guard",
+        "by": "Unknown",
+        "vertical": false,
+        "channel": " Santa Maria-DF",
+        "duration": 82,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "F3Io4_p10Mg",
+        "title": "De La Riva toreando pass breakdown",
+        "by": "Unknown",
+        "vertical": false,
+        "channel": "Balance MMA Duarte ",
+        "duration": 158,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Toreando Pass from De La Riva Defender",
@@ -423,6 +443,17 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Integrating all defensive layers against full-resistance toreando attempts from DLR",
         "description": "Full positional sparring rounds from DLR guard where the passer focuses on toreando-based passing. Practice the full defensive hierarchy: grip retention first, guard transition second, half guard recovery third. Evaluate which defensive layer is failing most frequently and dedicate additional drilling time to that specific phase."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Ad4250mBWKc",
+        "title": "Toreando defense with roll counter",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 84,
+        "verified": "2026-07-15"
       }
     ]
   }

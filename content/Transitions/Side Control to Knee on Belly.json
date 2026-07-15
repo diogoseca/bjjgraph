@@ -286,7 +286,27 @@
         "answer": "Transition when you observe: labored breathing with visible chest heaving, frame collapse where their arms no longer maintain structural resistance, reduced hip activity indicating they have stopped attempting hip escapes, and a flat body position with shoulders fully pinned to the mat. Wait when you observe: active framing with structural integrity in their arms, rhythmic hip escape attempts indicating preserved energy, controlled breathing suggesting they are managing the pressure effectively, or their body angled on their side rather than flat. The opponent's energy state determines whether the transition window is open."
       }
     ],
-    "safety_considerations": "This transition involves placing concentrated pressure on the opponent's solar plexus and diaphragm through the knee. In training, insert the knee with controlled force rather than dropping full bodyweight explosively onto the contact point. Monitor your partner's breathing and facial expressions for signs of respiratory distress. Never bounce on the knee to increase pressure during drilling. When practicing with smaller or less experienced partners, reduce initial pressure and allow them to acclimate to the sensation before applying full training intensity. Tap immediately if you feel any sharp pain or cannot breathe during defensive drilling."
+    "safety_considerations": "This transition involves placing concentrated pressure on the opponent's solar plexus and diaphragm through the knee. In training, insert the knee with controlled force rather than dropping full bodyweight explosively onto the contact point. Monitor your partner's breathing and facial expressions for signs of respiratory distress. Never bounce on the knee to increase pressure during drilling. When practicing with smaller or less experienced partners, reduce initial pressure and allow them to acclimate to the sensation before applying full training intensity. Tap immediately if you feel any sharp pain or cannot breathe during defensive drilling.",
+    "clips": [
+      {
+        "id": "sM2SRp7XxOY",
+        "title": "Side control to knee on belly transition",
+        "by": "Cary BJJ coach",
+        "vertical": false,
+        "channel": "Cary Brazilian Jiu-Jitsu",
+        "duration": 198,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "jV_z0mC4SNw",
+        "title": "Knee on belly quick demo",
+        "by": "bjjtaro",
+        "vertical": false,
+        "channel": "bjjtaro",
+        "duration": 16,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Side Control to Knee on Belly Defender",
@@ -406,6 +426,35 @@
         "phase": "Phase 4: Full Resistance Defense",
         "focus": "Integrated defensive sparring from the consolidation phase",
         "description": "Start with partner in consolidated side control applying full pressure. Defender must survive and escape, with the partner using all tools including knee on belly transitions, mount attempts, and submission threats. Score escapes to half guard or better. This develops the decision-making and composure required to defend under realistic competitive conditions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Wn01Ynw7O28",
+        "title": "How to escape the knee on belly position",
+        "by": "Evolve MMA coach",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 40,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "I9_3u9AcwAg",
+        "title": "First principles knee-on-belly escape",
+        "by": "40 Plus BJJ coach",
+        "vertical": false,
+        "channel": "40 Plus BJJ",
+        "duration": 59,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "WIYwi1fKisU",
+        "title": "Sneaky knee on belly escape, gi and no-gi",
+        "by": "Zebulon Miller",
+        "vertical": false,
+        "channel": "Zebulon Miller",
+        "duration": 78,
+        "verified": "2026-07-15"
       }
     ]
   }

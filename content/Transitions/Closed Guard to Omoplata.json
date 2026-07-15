@@ -297,7 +297,36 @@
         "answer": "Against strong posture, switch to attacks that exploit their upright position. Hip bump sweep becomes highly effective because their weight is centered and slightly back. Kimura grip can be established on the same arm you were targeting for omoplata, using their posture against them. If they keep their arms tight, overhook sweep or elevator sweep attacks their base from a different angle. The key principle is recognizing when the omoplata setup conditions don't exist and flowing to attacks where their current posture is a vulnerability rather than strength."
       }
     ],
-    "safety_considerations": "The omoplata primarily attacks the shoulder joint through rotational pressure, which can cause serious injury if applied suddenly or without control. When training, apply pressure gradually and communicate clearly with your partner. Tap early when caught in omoplata as shoulder injuries can have long recovery times and may require surgery in severe cases. Practitioners should develop hip mobility gradually to avoid forcing the technique with inadequate flexibility, which leads to poor technique and potential injury to both partners. Never spike or drive the opponent's head into the mat during the transition, as this can cause neck injuries. Focus on controlled rotation and proper positioning rather than explosive force. Beginners should practice the movement patterns extensively before attempting submissions during live training."
+    "safety_considerations": "The omoplata primarily attacks the shoulder joint through rotational pressure, which can cause serious injury if applied suddenly or without control. When training, apply pressure gradually and communicate clearly with your partner. Tap early when caught in omoplata as shoulder injuries can have long recovery times and may require surgery in severe cases. Practitioners should develop hip mobility gradually to avoid forcing the technique with inadequate flexibility, which leads to poor technique and potential injury to both partners. Never spike or drive the opponent's head into the mat during the transition, as this can cause neck injuries. Focus on controlled rotation and proper positioning rather than explosive force. Beginners should practice the movement patterns extensively before attempting submissions during live training.",
+    "clips": [
+      {
+        "id": "k8b2GBVqcco",
+        "title": "Omoplata variation from open guard",
+        "by": "Clark Gracie",
+        "vertical": false,
+        "channel": "Clark Gracie Allegiance Jiu Jitsu",
+        "duration": 50,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "zM4_rXU-riA",
+        "title": "Short and sweet closed guard omoplata lesson",
+        "by": "2nd Gear Jiu Jitsu",
+        "vertical": false,
+        "channel": "2nd Gear Jiu Jitsu",
+        "duration": 71,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "69__JuUPslk",
+        "title": "Closed guard X choke and omoplata",
+        "by": "Clark Gracie",
+        "vertical": false,
+        "channel": "Clark Gracie Allegiance Jiu Jitsu",
+        "duration": 107,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Closed Guard to Omoplata Defender",
@@ -427,6 +456,35 @@
         "phase": "Phase 4: Integrated Defense Under Pressure (Weeks 7+)",
         "focus": "Selecting correct defense based on attack phase",
         "description": "Partner attacks omoplata at full speed from closed guard. Practice selecting the appropriate defense based on timing: early arm withdrawal when possible, stack when leg is threaded, forward roll when fully caught. Partner chains omoplata with triangle and armbar threats. Work 3-minute positional rounds with live resistance, focusing on reading the phase and applying the correct defensive response."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ocIHY3jBYIQ",
+        "title": "Best way to escape the omoplata shoulder lock",
+        "by": "John Connors",
+        "vertical": false,
+        "channel": "John Connors, Old Man BJJ Black Belt",
+        "duration": 62,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "jKdERMTQqPY",
+        "title": "Escaping a locked-in omoplata before the break",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 72,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_2dhd21ffbc",
+        "title": "Omoplata escape by jumping over",
+        "by": "Ritchie Yip",
+        "vertical": false,
+        "channel": "Ritchie Yip",
+        "duration": 8,
+        "verified": "2026-07-15"
       }
     ]
   },

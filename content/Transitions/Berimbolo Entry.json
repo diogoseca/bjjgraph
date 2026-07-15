@@ -283,7 +283,36 @@
         "answer": "When the opponent counter-rotates to follow your spin, three primary options exist. First, you can accelerate your rotation and attempt to complete the back-take before they fully square up, which works if you have strong hip grip control and they are slow to react. Second, you can abort the berimbolo and use the scramble positioning to establish Single Leg X-Guard or seated guard with dominant grips, accepting a positional reset. Third, and typically highest percentage, you can switch to a Kiss of the Dragon finish by releasing the De La Riva hook and using the opponent's own counter-rotation momentum against them, spinning through to the far side where their back becomes exposed from the opposite angle. The Kiss of the Dragon conversion is highest percentage because the opponent's counter-rotation actually assists the technique rather than defending against it."
       }
     ],
-    "safety_considerations": "When training the berimbolo entry, proper neck and spine positioning is critical to prevent injury during the inversion. Always keep your chin tucked and roll over your shoulders rather than the top of your head. Practitioners with limited neck mobility or previous neck injuries should consult with instructors before attempting this technique. Begin practice on soft mats with slow, controlled repetitions to develop proper body mechanics before increasing speed. Partners should avoid posting or driving weight onto the inverting practitioner's neck or upper back during drilling. If you feel any sharp pain in your neck, shoulders, or spine during execution, stop immediately and reassess your technique with an instructor. Build up hip and shoulder flexibility gradually through dedicated mobility work before attempting high-speed berimbolo entries."
+    "safety_considerations": "When training the berimbolo entry, proper neck and spine positioning is critical to prevent injury during the inversion. Always keep your chin tucked and roll over your shoulders rather than the top of your head. Practitioners with limited neck mobility or previous neck injuries should consult with instructors before attempting this technique. Begin practice on soft mats with slow, controlled repetitions to develop proper body mechanics before increasing speed. Partners should avoid posting or driving weight onto the inverting practitioner's neck or upper back during drilling. If you feel any sharp pain in your neck, shoulders, or spine during execution, stop immediately and reassess your technique with an instructor. Build up hip and shoulder flexibility gradually through dedicated mobility work before attempting high-speed berimbolo entries.",
+    "clips": [
+      {
+        "id": "Ecd48BZmReA",
+        "title": "Berimbolo entry from double guard pull",
+        "by": "Johnny Tama",
+        "vertical": false,
+        "channel": "Johnny Tama",
+        "duration": 77,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "XIdGS3OyXlE",
+        "title": "Quick guide to the no-gi berimbolo",
+        "by": "Margot Ciccarelli",
+        "vertical": false,
+        "channel": "Margot Ciccarelli | Nomadic Mars",
+        "duration": 125,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "kk5yC5phq5s",
+        "title": "Berimbolo from De La Riva guard",
+        "by": "Mikey Musumeci",
+        "vertical": false,
+        "channel": "Jiu Jitsu Legendado",
+        "duration": 223,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Berimbolo Entry Defender",
@@ -418,6 +447,26 @@
         "phase": "Week 9+: Live Integration and Counter-Attacking",
         "focus": "Full-speed defense with immediate counter-passing after berimbolo denial",
         "description": "Open positional sparring from De La Riva guard with full resistance. Partner uses complete DLR attack system including berimbolo, sweeps, and leg entanglements. Focus on recognizing berimbolo versus other attacks and selecting appropriate defense. After successful berimbolo defense, immediately transition to guard passing rather than resetting. Drill the defensive-to-offensive transition as one continuous sequence. Include rounds against multiple training partners with different berimbolo styles."
+      }
+    ],
+    "clips": [
+      {
+        "id": "L-cT37wN1-8",
+        "title": "Berimbolo escape to top position",
+        "by": "Lucas Lepri",
+        "vertical": false,
+        "channel": "Lucas Lepri Brazilian Jiu Jitsu & Fitness",
+        "duration": 35,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "XkJI1fJGGbo",
+        "title": "Toe hold counter to the berimbolo wedge",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 289,
+        "verified": "2026-07-15"
       }
     ]
   },

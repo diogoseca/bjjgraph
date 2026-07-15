@@ -260,7 +260,36 @@
         "answer": "The gator roll serves multiple critical functions: it prevents the defender from posturing up to relieve pressure, creates optimal finishing angle with bodies perpendicular, uses momentum to tighten the choke during rotation, and lands you in a position where your body weight reinforces the squeeze. The roll also disorients the defender and eliminates their ability to post or base during the crucial tightening phase."
       }
     ],
-    "safety_considerations": "The anaconda choke is a blood choke that can cause unconsciousness rapidly once fully locked. Always tap early in training when you feel the choke getting tight - there is no benefit to going unconscious. Partners should release immediately upon feeling a tap and remain attentive for verbal or physical tap signals throughout. When applying the choke, release pressure gradually and be prepared to catch your partner if they go unconscious. Never crank or twist the neck during the choke - all pressure should be applied to the sides of the neck through squeezing mechanics. Beginners should practice with experienced partners who understand proper tap timing. Avoid this technique if you have neck injuries, cervical spine issues, or are training with partners who don't respect tap signals."
+    "safety_considerations": "The anaconda choke is a blood choke that can cause unconsciousness rapidly once fully locked. Always tap early in training when you feel the choke getting tight - there is no benefit to going unconscious. Partners should release immediately upon feeling a tap and remain attentive for verbal or physical tap signals throughout. When applying the choke, release pressure gradually and be prepared to catch your partner if they go unconscious. Never crank or twist the neck during the choke - all pressure should be applied to the sides of the neck through squeezing mechanics. Beginners should practice with experienced partners who understand proper tap timing. Avoid this technique if you have neck injuries, cervical spine issues, or are training with partners who don't respect tap signals.",
+    "clips": [
+      {
+        "id": "RbkOnRb2lvA",
+        "title": "Anaconda choke fundamentals",
+        "by": "Ninja Pinto",
+        "vertical": false,
+        "channel": "Ninja Pinto BJJ",
+        "duration": 49,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "6d6Wkgh9imU",
+        "title": "Difference between the anaconda and d'arce choke",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 67,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "PGZUu6JbtDA",
+        "title": "Sneaky anaconda submission entry",
+        "by": "The Grapple Club coach",
+        "vertical": false,
+        "channel": "The Grapple Club",
+        "duration": 89,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Anaconda Choke Defender",
@@ -390,6 +419,35 @@
         "phase": "Week 7+",
         "focus": "Live positional defense",
         "description": "Positional sparring starting from front headlock with attacker working to establish and finish the anaconda. Defend at full resistance, implementing the complete defensive hierarchy: prevent the thread, fight the grip, deny the roll, scramble on landing. Develop real-time decision-making for which defensive response to deploy."
+      }
+    ],
+    "clips": [
+      {
+        "id": "SXm9wA1HcvM",
+        "title": "Anaconda choke defense",
+        "by": "SFS MMA coach",
+        "vertical": false,
+        "channel": "Fierce Pierce15",
+        "duration": 64,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "N9MbEtAv_Lw",
+        "title": "Anaconda choke defense",
+        "by": "Mamba BJJ coach",
+        "vertical": false,
+        "channel": "Mamba BJJ",
+        "duration": 62,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "J-MaOIfDHXk",
+        "title": "Standing front headlock choke defense",
+        "by": "Empower Gym Tampa coach",
+        "vertical": false,
+        "channel": "Empower Gym Tampa",
+        "duration": 60,
+        "verified": "2026-07-15"
       }
     ]
   },

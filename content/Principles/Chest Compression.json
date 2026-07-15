@@ -395,5 +395,25 @@
       "question": "What safety risk must you manage when applying a body-triangle squeeze in training?",
       "answer": "Excessive force can crack ribs, especially with smaller partners or those with lower bone density. Apply pressure progressively, watch for partner distress, and calibrate the squeeze to the size difference."
     }
+  ],
+  "clips": [
+    {
+      "id": "kqPP3Of4aUo",
+      "title": "Chest compression demonstrated",
+      "by": "Josh Barnett",
+      "vertical": false,
+      "channel": "Grappling Mastery: BJJ & Muay Thai Academy",
+      "duration": 58,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "puYruhLh2sQ",
+      "title": "Chest compression, the Bas Rutten",
+      "by": "Chosen Few BJJ",
+      "vertical": false,
+      "channel": "Chosen Few BJJ",
+      "duration": 206,
+      "verified": "2026-07-15"
+    }
   ]
 }

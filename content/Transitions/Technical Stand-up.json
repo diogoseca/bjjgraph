@@ -282,7 +282,18 @@
         "answer": "The technical stand-up can be executed while maintaining control of opponent's leg in Single Leg X-Guard by using the controlled leg as a reference point while performing the standard mechanics. The grounded leg creates your lead leg barrier position while you post with your hand and elevate hips. As you swing your trail leg through to stand, you maintain leg control which can transition into a Single Leg Takedown attempt or force the opponent to disengage their passing attempt. This integration requires coordinating leg control pressure while executing the stand-up mechanics and creates offensive opportunities rather than just defensive escape."
       }
     ],
-    "safety_considerations": "The technical stand-up is a relatively safe movement with low injury risk when executed properly. Primary safety concerns include posting hand placement to avoid wrist injury — ensure the wrist is not bent at extreme angles and the hand is placed on firm, flat surface rather than uneven mats. Avoid posting with fingers pointed toward your body as this can hyperextend the wrist under load. For practitioners with shoulder issues, the posting position may cause discomfort; modify by using the forearm to post instead of the flat hand. During hip elevation, be aware of your surroundings to avoid kicking training partners or equipment with the swinging leg. When training with resistance, do not persist with the technique if your base is compromised as this can result in awkward falls. In self-defense contexts, be aware that the posting hand is temporarily weight-bearing and cannot defend strikes, so timing and distance management are critical. Practitioners with knee injuries should be cautious with the lead leg position and ensure the knee is not placed at uncomfortable angles during the barrier phase."
+    "safety_considerations": "The technical stand-up is a relatively safe movement with low injury risk when executed properly. Primary safety concerns include posting hand placement to avoid wrist injury — ensure the wrist is not bent at extreme angles and the hand is placed on firm, flat surface rather than uneven mats. Avoid posting with fingers pointed toward your body as this can hyperextend the wrist under load. For practitioners with shoulder issues, the posting position may cause discomfort; modify by using the forearm to post instead of the flat hand. During hip elevation, be aware of your surroundings to avoid kicking training partners or equipment with the swinging leg. When training with resistance, do not persist with the technique if your base is compromised as this can result in awkward falls. In self-defense contexts, be aware that the posting hand is temporarily weight-bearing and cannot defend strikes, so timing and distance management are critical. Practitioners with knee injuries should be cautious with the lead leg position and ensure the knee is not placed at uncomfortable angles during the barrier phase.",
+    "clips": [
+      {
+        "id": "LXTH9mOWCww",
+        "title": "Technical stand up from half guard bottom",
+        "by": "Steve Haydock",
+        "vertical": false,
+        "channel": "Steve Haydock Jiu Jitsu Academy",
+        "duration": 162,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Technical Stand-up Defender",
@@ -412,6 +423,26 @@
         "phase": "Phase 4: Live Positional Integration (Week 11+)",
         "focus": "Prevent technical stand-up during live passing rounds from seated guard top",
         "description": "Positional sparring starting from seated guard top position. Partner's primary goal is completing the technical stand-up. Your goal is preventing the stand-up and advancing to a passing position. Full resistance with the constraint that partner must attempt at least one technical stand-up per round. Develop the awareness to integrate stand-up prevention into your overall passing strategy without it consuming all your attention."
+      }
+    ],
+    "clips": [
+      {
+        "id": "G1PKGe_q9P0",
+        "title": "Countering the sit-up guard as the standing player",
+        "by": "Avant-Garde BJJ coach",
+        "vertical": false,
+        "channel": "Avant-Garde BJJ",
+        "duration": 58,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "q4e8HHp7avk",
+        "title": "Stopping the stand-up and re-guard",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ Plus",
+        "duration": 147,
+        "verified": "2026-07-15"
       }
     ]
   },

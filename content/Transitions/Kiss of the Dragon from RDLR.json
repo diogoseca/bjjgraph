@@ -278,7 +278,36 @@
         "answer": "In no-gi, replace the pants grip on the far ankle with a cupping grip around the Achilles tendon or heel. The grip is less secure, so you must commit more explosively to the rotation once initiated. Your far-side hand should control behind the opponent's near knee rather than gripping pants, creating a pulling frame that prevents their forward drive. The inversion mechanics remain identical, but the timing window is narrower due to reduced grip security, requiring faster commitment once you identify the entry opening."
       }
     ],
-    "safety_considerations": "The inversion component of Kiss of the Dragon places significant stress on the cervical spine during the threading phase. Never force the rotation if your head or neck feels compressed between the opponent's legs. Ensure adequate neck flexibility and strength through progressive conditioning before drilling this technique at full speed. In training, communicate with your partner about the speed of defensive reactions—sudden sprawls during mid-inversion can create dangerous neck compression. Avoid this technique entirely if you have existing cervical spine issues or recent neck injuries."
+    "safety_considerations": "The inversion component of Kiss of the Dragon places significant stress on the cervical spine during the threading phase. Never force the rotation if your head or neck feels compressed between the opponent's legs. Ensure adequate neck flexibility and strength through progressive conditioning before drilling this technique at full speed. In training, communicate with your partner about the speed of defensive reactions—sudden sprawls during mid-inversion can create dangerous neck compression. Avoid this technique entirely if you have existing cervical spine issues or recent neck injuries.",
+    "clips": [
+      {
+        "id": "Nj002G_Btm4",
+        "title": "Kiss of the dragon back take from RDLR",
+        "by": "Louis Armezzani",
+        "vertical": false,
+        "channel": "Louis Armezzani",
+        "duration": 65,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "yMPxcUHeK38",
+        "title": "Kiss of the dragon sweep",
+        "by": "Q",
+        "vertical": false,
+        "channel": "Matthew Hill",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "mLz3HoS2XLw",
+        "title": "Kiss of the dragon drill",
+        "by": "OpenRollBJJ",
+        "vertical": false,
+        "channel": "OpenRollBJJ",
+        "duration": 27,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Kiss of the Dragon from RDLR Defender",
@@ -403,6 +432,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance application from RDLR top position",
         "description": "Positional rounds starting from opponent's RDLR guard with full resistance. Defend all RDLR attacks including Kiss of the Dragon while working to pass. Develop the ability to maintain defensive awareness against the inversion while simultaneously pursuing passing opportunities."
+      }
+    ],
+    "clips": [
+      {
+        "id": "IdfQWVHikws",
+        "title": "Passing reverse de la riva with a shin slice",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 86,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "hdSw-ZmcBRA",
+        "title": "Defense to reverse de la riva",
+        "by": "Ninja Pinto",
+        "vertical": false,
+        "channel": "Ninja Pinto BJJ",
+        "duration": 31,
+        "verified": "2026-07-15"
       }
     ]
   }

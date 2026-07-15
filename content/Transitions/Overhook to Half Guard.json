@@ -290,7 +290,18 @@
         "answer": "Immediately threaten the underhook sweep by driving into the top player and establishing a strong underhook on the trapped leg side. This forces them to dedicate resources to defending the sweep rather than initiating their pass. If they defend the sweep by driving you flat, transition to knee shield half guard to reestablish distance. If they posture back against your underhook threat, pursue the back take by following their hip with your inside hook. The key is never allowing a settling period where the top player can begin systematic passing work."
       }
     ],
-    "safety_considerations": "This transition involves significant hip rotation and leg threading movements that can strain the knee if performed against heavy resistance. Practitioners should avoid forcing the leg insertion when the top player has heavy pressure directly on the knee line, as this creates lateral knee stress. During training, both partners should communicate when excessive pressure is applied to the transitioning leg. The hip escape must create sufficient space before the leg moves - forcing the thread into an inadequate gap risks hyperextension or twisting at the knee joint. Train the mechanics at slow speed before adding resistance."
+    "safety_considerations": "This transition involves significant hip rotation and leg threading movements that can strain the knee if performed against heavy resistance. Practitioners should avoid forcing the leg insertion when the top player has heavy pressure directly on the knee line, as this creates lateral knee stress. During training, both partners should communicate when excessive pressure is applied to the transitioning leg. The hip escape must create sufficient space before the leg moves - forcing the thread into an inadequate gap risks hyperextension or twisting at the knee joint. Train the mechanics at slow speed before adding resistance.",
+    "clips": [
+      {
+        "id": "21-ZmD25pMs",
+        "title": "Overhook escape into half guard sweep",
+        "by": "JiuJitsu.com",
+        "vertical": false,
+        "channel": "JiuJitsu.com",
+        "duration": 197,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Overhook to Half Guard Defender",
@@ -414,6 +425,17 @@
         "phase": "Phase 4: Live Application",
         "focus": "Full resistance positional drilling",
         "description": "Positional sparring starting from overhook control bottom. The bottom player attempts to transition to half guard while you work to prevent the transition and advance position. Full resistance with realistic timing and pressure. Track success rates and identify which recognition cues and defensive responses work most consistently under competitive conditions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "8WbQvytyCX0",
+        "title": "Passing the flat half guard",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 63,
+        "verified": "2026-07-15"
       }
     ]
   }

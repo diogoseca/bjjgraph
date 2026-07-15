@@ -312,6 +312,35 @@
         "answer": "Attempt the Bow and Arrow when: there is sufficient time remaining on the clock for a slow progressive application (minimum 30 seconds), the opponent has already shown vulnerability to collar-based attacks, and you have confirmed your collar grip depth before committing. Avoid this choke when: time is running short and a faster submission like the RNC would be more efficient, the opponent has excellent grip fighting and you cannot secure collar depth, or the opponent's gi collar is sweat-soaked and slippery. In IBJJF scoring, back control points are already secured, so the choke attempt is a low-risk, high-reward play from this position.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "xqNhZVNhxnE",
+        "title": "Bow and arrow choke from back control",
+        "by": "Evolve MMA",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 45,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "U16fxDEJS6s",
+        "title": "Armlock to loop choke / bow and arrow combo",
+        "by": "South Jersey BJJ",
+        "vertical": false,
+        "channel": "South Jersey Brazilian Jiu Jitsu",
+        "duration": 63,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "eMbkVDRreIQ",
+        "title": "3 favorite chokes from the back",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 87,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -435,6 +464,35 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Full-speed defensive application",
         "description": "Positional sparring from Russian Cowboy bottom against full-speed Bow and Arrow attempts. Integrate all three defensive phases. Track which phase your defense succeeds in and work to push your defensive engagement earlier in the timeline with each round."
+      }
+    ],
+    "clips": [
+      {
+        "id": "fEWUEDI_ng4",
+        "title": "Bow and arrow choke escape",
+        "by": "Revolution BJJ Ashland",
+        "vertical": false,
+        "channel": "Revolution BJJ Ashland",
+        "duration": 73,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "485wvqwlBYA",
+        "title": "Defending back control — face down sprawled",
+        "by": "Academy Jiu Jitsu",
+        "vertical": false,
+        "channel": "Academy Jiu Jitsu",
+        "duration": 92,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "_sBB-O8fqP4",
+        "title": "Back escape — standing up",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 114,
+        "verified": "2026-07-14"
       }
     ]
   }

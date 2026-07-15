@@ -346,6 +346,17 @@
         "answer": "Immediately stop all rotational pressure the instant you detect any tap signal. Slowly and deliberately reverse the rotation, guiding their arm back toward neutral position with controlled movement. Release the figure-four grip completely once the arm is returned to a safe angle. Do not release suddenly or allow the arm to spring back, as the sudden position change can cause secondary injury to an already stressed joint. Allow your partner time to self-assess shoulder mobility before resuming training.",
         "safety_critical": true
       }
+    ],
+    "clips": [
+      {
+        "id": "ljmJ9xP6N7U",
+        "title": "Overhook Guard to Reverse Triangle + Kimura",
+        "by": "ZeGrapplez",
+        "vertical": false,
+        "channel": "ZeGrapplez",
+        "duration": 45,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -480,6 +491,35 @@
         "phase": "Phase 4: Live Defense Integration",
         "focus": "Defending the complete sequence in positional sparring",
         "description": "Start positional rounds in overhook control bottom. Defend the full attack sequence including chains to Darce, Anaconda, and back takes. Practice making defensive decisions in real time against fully resisting partners. Track which defensive responses work most consistently and refine your primary defense."
+      }
+    ],
+    "clips": [
+      {
+        "id": "GOLwVNTVcnY",
+        "title": "Kimura Defense Grip Breaks",
+        "by": "Dirtball BJJ",
+        "vertical": false,
+        "channel": "Dirtball BJJ",
+        "duration": 81,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "uRn3DRICpeY",
+        "title": "Late Kimura Defense from Bottom",
+        "by": "Fox Den Martial Arts",
+        "vertical": false,
+        "channel": "Fox Den Martial Arts",
+        "duration": 100,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "gvRGrvtKd1U",
+        "title": "Kimura Defense",
+        "by": "Jon Satava",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 142,
+        "verified": "2026-07-14"
       }
     ]
   }

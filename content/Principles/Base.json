@@ -423,5 +423,25 @@
       "question": "How should your base behave during a positional transition?",
       "answer": "Base must stay functional throughout the transition. Establish new support points before releasing old ones so you are never completely without a base, eliminating the vulnerable gap an opponent can exploit to sweep or reverse."
     }
+  ],
+  "clips": [
+    {
+      "id": "JzEaiLDwIwc",
+      "title": "Base, posture and structure on the technical stand up",
+      "by": "Jiu Jitsu X Factor",
+      "vertical": false,
+      "channel": "Jiu Jitsu X Factor",
+      "duration": 71,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "Fy9h-dF6dcA",
+      "title": "What kuzushi is and how it breaks base",
+      "by": "Stephan Kesting",
+      "vertical": false,
+      "channel": "Stephan Kesting",
+      "duration": 61,
+      "verified": "2026-07-15"
+    }
   ]
 }

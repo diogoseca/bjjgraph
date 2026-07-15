@@ -304,7 +304,36 @@
         "answer": "The entry requires sufficient hip flexion and external rotation to maintain an elevated leg across the opponent's upper back and shoulder while simultaneously adjusting hip angle for the arm pull. If flexibility is limited, compensate by breaking the opponent's posture more aggressively before attempting the entry, which reduces the range of motion needed for leg repositioning by bringing their body closer to yours. Long-term, develop hamstring and hip flexor flexibility through a dedicated stretching program targeting these specific ranges."
       }
     ],
-    "safety_considerations": "The Crackhead Control Entry places significant stress on the practitioner's own hip flexors, hamstrings, and groin muscles. Warm up thoroughly before drilling this technique, focusing on hip external rotation and hamstring flexibility. Avoid forcing the entry if hip flexibility is insufficient, as this risks groin strain or acute hip injury. When applying shoulder pressure in the final position, increase pressure gradually during training to allow your partner to tap if their shoulder is compromised. Communicate clearly with training partners about intensity levels, particularly regarding the cross-body arm isolation which can create acute shoulder pressure and potential injury if applied explosively."
+    "safety_considerations": "The Crackhead Control Entry places significant stress on the practitioner's own hip flexors, hamstrings, and groin muscles. Warm up thoroughly before drilling this technique, focusing on hip external rotation and hamstring flexibility. Avoid forcing the entry if hip flexibility is insufficient, as this risks groin strain or acute hip injury. When applying shoulder pressure in the final position, increase pressure gradually during training to allow your partner to tap if their shoulder is compromised. Communicate clearly with training partners about intensity levels, particularly regarding the cross-body arm isolation which can create acute shoulder pressure and potential injury if applied explosively.",
+    "clips": [
+      {
+        "id": "_3pJ2tPI0gY",
+        "title": "Crackhead Control to Invisible Collar Tie",
+        "by": "Fletcher Kirwan",
+        "vertical": false,
+        "channel": "Fletcher Kirwan",
+        "duration": 16,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "rpsvedaYKUY",
+        "title": "Armbar from Crackhead Control",
+        "by": "Clinton",
+        "vertical": false,
+        "channel": "10thPlanetDisciple",
+        "duration": 96,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "WliTCjEDA-8",
+        "title": "Basic entries into rubber guard",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 106,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Crackhead Control Entry Defender",
@@ -430,6 +459,17 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Full resistance defensive application",
         "description": "Positional sparring starting from established Rubber Guard with the bottom player attempting Crackhead Control Entry and other Rubber Guard progressions. Top player defends using the full defensive toolkit against unpredictable attacks. Track escape rates and identify which defensive sequences succeed most consistently."
+      }
+    ],
+    "clips": [
+      {
+        "id": "AvivOVuYcCk",
+        "title": "Rubber guard escape",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 131,
+        "verified": "2026-07-15"
       }
     ]
   }

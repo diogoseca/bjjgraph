@@ -277,7 +277,36 @@
         "answer": "Attempting to strip multiple frames simultaneously requires you to release your own controlling grips and upper body pressure, creating space the opponent will immediately exploit to re-establish their guard structure. By clearing one frame at a time while maintaining pressure with the rest of your body, you ensure continuous control throughout the passing sequence. Each frame you remove reduces the opponent's ability to create distance, making subsequent frame clears progressively easier."
       }
     ],
-    "safety_considerations": "The butterfly smash is generally a safe passing technique when performed with control. However, practitioners should be mindful of pressure application on the opponent's face and neck during crossface establishment - excessive or sudden pressure can cause discomfort or injury to the jaw, cervical spine, or temporomandibular joint. When drilling, start with light pressure and gradually increase as both partners become comfortable with the mechanics. Be particularly careful with head positioning to avoid accidental headbutts when driving forward. Partners should communicate clearly if pressure becomes uncomfortable, especially on the jaw or neck. When receiving the pass, avoid explosive bridging or shrimping movements that could result in collision injuries."
+    "safety_considerations": "The butterfly smash is generally a safe passing technique when performed with control. However, practitioners should be mindful of pressure application on the opponent's face and neck during crossface establishment - excessive or sudden pressure can cause discomfort or injury to the jaw, cervical spine, or temporomandibular joint. When drilling, start with light pressure and gradually increase as both partners become comfortable with the mechanics. Be particularly careful with head positioning to avoid accidental headbutts when driving forward. Partners should communicate clearly if pressure becomes uncomfortable, especially on the jaw or neck. When receiving the pass, avoid explosive bridging or shrimping movements that could result in collision injuries.",
+    "clips": [
+      {
+        "id": "s5MYmM58Ipg",
+        "title": "Smash pass baiting the butterfly hook",
+        "by": "JT Torres",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 198,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MpWpNkQwBGA",
+        "title": "Side smash to side control",
+        "by": "Owen Livesey",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 73,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "9miuP4-v0EE",
+        "title": "Passing half butterfly guard",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 192,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Butterfly Smash Defender",
@@ -401,6 +430,26 @@
         "phase": "Week 9+: Live Positional Sparring",
         "focus": "Full resistance defense against varied pressure passing approaches",
         "description": "Positional sparring starting in butterfly guard against a partner who uses butterfly smash and other pressure passes. Bottom player works to sweep, submit, or maintain guard. Develop the instinctive recognition and appropriate response selection under full competitive conditions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "wWEaSPfKvJ0",
+        "title": "Smash pass counter",
+        "by": "Hauck Jiu-Jitsu coach",
+        "vertical": false,
+        "channel": "Hauck Jiu-Jitsu",
+        "duration": 100,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "02sVMQyHuGc",
+        "title": "Guard retention using butterfly hooks vs the smash",
+        "by": "Diamondback Jiu-Jitsu coach",
+        "vertical": false,
+        "channel": "Diamondback Jiu-Jitsu",
+        "duration": 81,
+        "verified": "2026-07-15"
       }
     ]
   },

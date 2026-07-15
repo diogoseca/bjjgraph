@@ -354,6 +354,35 @@
         "answer": "Stop applying additional pressure immediately and hold the current position without releasing. Verbally ask your partner if they want to tap. If they do not respond or seem unaware of the danger, release the submission entirely and communicate that the armbar was fully locked. Never continue applying pressure past the point where you feel structural resistance decreasing—this indicates ligament failure is beginning. In training, your partner's safety always takes priority over finishing the submission. Report any unusual sounds or feelings to your instructor immediately.",
         "safety_critical": true
       }
+    ],
+    "clips": [
+      {
+        "id": "2zSi7RlFJEU",
+        "title": "Armbar from S-Mount",
+        "by": "Fenrir Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Fenrir Jiu-Jitsu Academy",
+        "duration": 78,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "5UtNLw7usQk",
+        "title": "Switch-side armbar from S-Mount",
+        "by": "Darrin Lillian",
+        "vertical": false,
+        "channel": "Darrin Lillian",
+        "duration": 50,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "nH4ly3vk7WI",
+        "title": "S-Mount armbar, kimura & far-side armbar",
+        "by": "GB Costa Mesa",
+        "vertical": false,
+        "channel": "GBCostaMesa",
+        "duration": 24,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -498,6 +527,35 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Full resistance survival and escape",
         "description": "Start in S Mount bottom against full-resistance armbar attacks. Goal is either escape or survival for specified time period. Partner attacks with competition intensity while you apply all defensive skills. Build mental toughness and automatic defensive responses under maximum pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "My favorite armbar escape",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "sDdqvh_1kbA",
+        "title": "Armbar escape",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 63,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "AfDEN3uK3W0",
+        "title": "Low-effort armbar escape via foot capture",
+        "by": "Patrick Donabedian",
+        "vertical": false,
+        "channel": "Patrick Donabedian BJJ",
+        "duration": 55,
+        "verified": "2026-07-14"
       }
     ]
   }

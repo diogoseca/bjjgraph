@@ -287,7 +287,18 @@
         "answer": "Your immediate priority is consolidating heavy half guard top control by driving your chest onto the opponent's chest, establishing dominant crossface or underhook control, and preventing the opponent from re-inserting a knee shield or coming back up to their knees. Control their bottom knee to prevent frame re-insertion, settle your hips low and wide, and only begin your passing sequence once the opponent is fully stabilized in the flattened position."
       }
     ],
-    "safety_considerations": "The re-flatten technique involves significant pressure application to the head and neck through the crossface and forward driving mechanics. During training, modulate crossface pressure to avoid cervical strain and communicate with your partner about neck discomfort. Avoid explosive slamming movements when driving the opponent flat, as the transition from kneeling to supine position can cause impact injuries if performed recklessly. Be mindful of your partner's knee health when maintaining the half guard leg trap during the flattening sequence, particularly if they resist by posting their trapped leg at extreme angles."
+    "safety_considerations": "The re-flatten technique involves significant pressure application to the head and neck through the crossface and forward driving mechanics. During training, modulate crossface pressure to avoid cervical strain and communicate with your partner about neck discomfort. Avoid explosive slamming movements when driving the opponent flat, as the transition from kneeling to supine position can cause impact injuries if performed recklessly. Be mindful of your partner's knee health when maintaining the half guard leg trap during the flattening sequence, particularly if they resist by posting their trapped leg at extreme angles.",
+    "clips": [
+      {
+        "id": "dOdO6xJ-TcU",
+        "title": "Killing the half guard underhook to flatten your opponent",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 98,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Re-flatten from Dogfight Defender",
@@ -408,6 +419,26 @@
         "phase": "Phase 4: Full Positional Sparring",
         "focus": "Live competitive application",
         "description": "Full resistance dogfight sparring where the top player actively attempts re-flatten among other top techniques, and the bottom player must recognize, defend, and counter while maintaining offensive dogfight pressure throughout exchanges"
+      }
+    ],
+    "clips": [
+      {
+        "id": "hotSXTK9oGI",
+        "title": "Keeping the dogfight and sweeping from the underhook",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 169,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ZXt2yzy0BL0",
+        "title": "Defeating the weave pass with the underhook",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 249,
+        "verified": "2026-07-15"
       }
     ]
   }

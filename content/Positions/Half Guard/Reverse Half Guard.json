@@ -337,6 +337,17 @@
           "nogi": 15
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "aQ2vFXXBn-o",
+        "title": "Countering a full inversion",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -652,6 +663,17 @@
           "nogi": 10
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "VsPTkiq_OM4",
+        "title": "Reverse half guard sweep to leg drag",
+        "by": "Fernando Reis",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 62,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -686,6 +708,26 @@
     {
       "question": "How does Reverse Half Guard relate mechanically to adjacent positions like deep half guard, the dogfight, and back control?",
       "answer": "Reverse Half Guard sits on a continuum of half guard variations defined by how the leg entanglement and facing are arranged. It typically originates from a scramble or a disrupted standard half guard, and can drain into deep half guard when the bottom player burrows underneath to retain, or into the dogfight when both players come up to their knees fighting for the underhook. Its reversed facing makes back control the most natural resolution, since the bottom player's turned-away spine is already oriented for either taking the back or surrendering it, depending on who capitalizes first. Understanding these neighbors clarifies that the reverse configuration is a hinge, not a destination."
+    }
+  ],
+  "clips": [
+    {
+      "id": "VsPTkiq_OM4",
+      "title": "Reverse half guard sweep to leg drag",
+      "by": "Fernando Reis",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 62,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "0Cu3rm5TSIw",
+      "title": "Reverse guard basics",
+      "by": "Krishna Mirjah",
+      "vertical": false,
+      "channel": "Krishna Mirjah",
+      "duration": 65,
+      "verified": "2026-07-14"
     }
   ]
 }

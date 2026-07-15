@@ -281,7 +281,36 @@
         "answer": "Landing in open guard rather than closed guard typically indicates insufficient follow-through during the roll, where you paused at the apex of the bridge or failed to drive your body completely through the rotation to settle your hips between their legs. The opponent had time to open their legs and establish defensive frames during the transition. To capitalize, immediately establish combat base posture with hands on their hips and begin a passing sequence before they can close guard or establish grips. Prioritize controlling their legs and preventing guard closure since you have momentary top position advantage from the reversal momentum."
       }
     ],
-    "safety_considerations": "Bridge reversals from scarf hold involve explosive rotational force through the neck and cervical spine. Always turn your head to the side during the bridge to avoid axial compression on cervical vertebrae. Practice with controlled intensity when learning the timing and commitment required for the full roll. Partners should avoid stacking excessive weight directly on the neck during drilling. The escaping player must ensure adequate warm-up of neck, hip flexors, and glutes before explosive bridge training. Both partners should communicate clearly throughout drills to prevent injury from unexpected explosive movements. Progress resistance gradually across training sessions rather than jumping to full resistance before mechanics are refined."
+    "safety_considerations": "Bridge reversals from scarf hold involve explosive rotational force through the neck and cervical spine. Always turn your head to the side during the bridge to avoid axial compression on cervical vertebrae. Practice with controlled intensity when learning the timing and commitment required for the full roll. Partners should avoid stacking excessive weight directly on the neck during drilling. The escaping player must ensure adequate warm-up of neck, hip flexors, and glutes before explosive bridge training. Both partners should communicate clearly throughout drills to prevent injury from unexpected explosive movements. Progress resistance gradually across training sessions rather than jumping to full resistance before mechanics are refined.",
+    "clips": [
+      {
+        "id": "NBBNLMCFvWM",
+        "title": "Bridge and roll escape from scarf hold",
+        "by": "Satori BJJ",
+        "vertical": false,
+        "channel": "Satori BJJ",
+        "duration": 43,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2M_6VytUaus",
+        "title": "Kesa gatame bridge escape demo",
+        "by": "SBG Australia",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 43,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "OYmQpzNmvF4",
+        "title": "Kesa gatame back door escape",
+        "by": "5am Birds of War",
+        "vertical": false,
+        "channel": "5am Birds of War",
+        "duration": 25,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Bridge from Scarf Hold Position Defender",
@@ -402,6 +431,17 @@
         "phase": "Phase 4: Live Positional Maintenance",
         "focus": "Full resistance scarf hold control against all escape types including bridge reversals",
         "description": "Positional sparring from scarf hold with full resistance. Top player maintains position while bottom player chains bridge reversals with hip escapes, ghost escapes, and guard recovery sequences. Top player practices recognizing each escape type and selecting the appropriate defensive or counter response. Three-minute rounds with reset on escape or submission, 5 rounds total."
+      }
+    ],
+    "clips": [
+      {
+        "id": "GBBqXE3VKFA",
+        "title": "Keeping the pin when they bridge",
+        "by": "Shintaro Higashi",
+        "vertical": false,
+        "channel": "Shintaro Higashi",
+        "duration": 257,
+        "verified": "2026-07-15"
       }
     ]
   }

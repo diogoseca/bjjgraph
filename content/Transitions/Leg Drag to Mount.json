@@ -258,7 +258,27 @@
         "answer": "From knee on belly you can threaten baseball bat choke, armbar, or use the pressure to force a reaction that reopens the mount path. If they push your knee, transition to mount. If they turn away from the pressure, follow to back take. If they stay flat and try to frame, attack the near arm with Americana or kimura. Knee on belly serves as a secondary pressure point that resets the dilemma."
       }
     ],
-    "safety_considerations": "The leg drag to mount transition is generally a low-risk technique with minimal injury potential when executed properly. The primary safety concern involves the step-over phase where sudden weight shifts can cause knee strain if the foot catches on the mat. Ensure training surfaces are clear of obstructions and practice smooth, controlled movements before adding speed. Partners should communicate if they feel any joint stress during the transition. When drilling, avoid dropping full weight aggressively during the mount settlement phase—gradually increase intensity as both partners become comfortable with the movement. There is minimal submission threat during the transition itself, making this a relatively safe technique for all skill levels to practice."
+    "safety_considerations": "The leg drag to mount transition is generally a low-risk technique with minimal injury potential when executed properly. The primary safety concern involves the step-over phase where sudden weight shifts can cause knee strain if the foot catches on the mat. Ensure training surfaces are clear of obstructions and practice smooth, controlled movements before adding speed. Partners should communicate if they feel any joint stress during the transition. When drilling, avoid dropping full weight aggressively during the mount settlement phase—gradually increase intensity as both partners become comfortable with the movement. There is minimal submission threat during the transition itself, making this a relatively safe technique for all skill levels to practice.",
+    "clips": [
+      {
+        "id": "8VT4dxSqCvI",
+        "title": "Leg drag pass mechanics",
+        "by": "Procel BJJ coach",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 94,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "j3VqFZ5LULQ",
+        "title": "Leg drag pass from De La Riva",
+        "by": "BJJ4Breakfast coach",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 134,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Leg Drag to Mount Defender",
@@ -382,6 +402,26 @@
         "phase": "Week 7+",
         "focus": "Live integration and decision-making",
         "description": "Incorporate defense into live positional sparring starting from leg drag control. Partner chooses between mount transition and back take, and you must read and respond to each appropriately. Develop automatic defensive reactions that fire on recognition cues without conscious decision-making."
+      }
+    ],
+    "clips": [
+      {
+        "id": "fFqoFDE2yyw",
+        "title": "Guard retention against the leg drag",
+        "by": "Brandon Quick",
+        "vertical": false,
+        "channel": "Brandon Quick",
+        "duration": 90,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uTuPvxQUOo4",
+        "title": "Quick mount escape",
+        "by": "bjjtaro",
+        "vertical": false,
+        "channel": "bjjtaro",
+        "duration": 23,
+        "verified": "2026-07-15"
       }
     ]
   },

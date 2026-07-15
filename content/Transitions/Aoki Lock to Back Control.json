@@ -270,7 +270,18 @@
         "answer": "From back control you gain access to rear naked choke as the primary submission, bow and arrow choke if in gi, armbar from back by trapping and extending the arm over your leg, and collar chokes in gi. You can also transition to body triangle for enhanced control, mounted crucifix if their arm becomes isolated, or truck position if they attempt to escape by turning. The back control position offers the highest submission rate in competition."
       }
     ],
-    "safety_considerations": "The Aoki Lock to Back Control transition involves releasing a shoulder lock submission mid-application, which requires careful attention to safety protocols. During the transition, maintain controlled release of shoulder pressure rather than abruptly jerking or twisting. The most dangerous moment is when your opponent rolls while the shoulder lock is still partially engaged, as this can amplify joint stress beyond safe limits. If you feel resistance in the shoulder joint during the roll, release pressure immediately before continuing the back take. In training, communicate clearly with your partner about the transition so they do not panic during the positional change. Avoid attempting this transition at full speed until the movement pattern is well-established through drilling. Partners should tap immediately if shoulder discomfort occurs during the rolling phase, even if the submission grip has been released, as residual leg entanglement can maintain unwanted joint pressure."
+    "safety_considerations": "The Aoki Lock to Back Control transition involves releasing a shoulder lock submission mid-application, which requires careful attention to safety protocols. During the transition, maintain controlled release of shoulder pressure rather than abruptly jerking or twisting. The most dangerous moment is when your opponent rolls while the shoulder lock is still partially engaged, as this can amplify joint stress beyond safe limits. If you feel resistance in the shoulder joint during the roll, release pressure immediately before continuing the back take. In training, communicate clearly with your partner about the transition so they do not panic during the positional change. Avoid attempting this transition at full speed until the movement pattern is well-established through drilling. Partners should tap immediately if shoulder discomfort occurs during the rolling phase, even if the submission grip has been released, as residual leg entanglement can maintain unwanted joint pressure.",
+    "clips": [
+      {
+        "id": "f3PJ06A_bWQ",
+        "title": "Hip switch to back take",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 19,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Aoki Lock to Back Control Defender",
@@ -399,6 +410,26 @@
         "phase": "Week 7-8",
         "focus": "Full resistance positional sparring",
         "description": "Start from Aoki Lock bottom with partner at full resistance. Defend the shoulder lock while being prepared for the back take transition. Execute the full defensive sequence: recognize transition, choose defensive response, fight grips, escape. Track success rate of preventing full back control establishment across multiple rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "djhMEfVZozo",
+        "title": "Back escape against the seatbelt grip",
+        "by": "Skyhook Martial Arts",
+        "vertical": false,
+        "channel": "Skyhook Martial Arts & Fitness",
+        "duration": 36,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "cfvNAYrogwQ",
+        "title": "Back escape detail: no seat belt grip",
+        "by": "Elements Martial Arts Brighton",
+        "vertical": false,
+        "channel": "Elements Martial Arts Brighton",
+        "duration": 118,
+        "verified": "2026-07-15"
       }
     ]
   },

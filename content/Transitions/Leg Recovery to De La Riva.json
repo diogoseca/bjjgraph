@@ -267,7 +267,27 @@
         "answer": "Failed extractions apply force in a straight line pulling the leg directly backward against the opponent's grip and body weight, which is their strongest control axis. Successful extractions apply force in a circular arc—the hip escape creates a lateral angle, then the knee drives toward the opposite shoulder in a curved path that bypasses the opponent's grip strength. The circular path exploits the weakness at the edges of their control rather than fighting the center."
       }
     ],
-    "safety_considerations": "Leg Recovery to De La Riva is generally a low-risk defensive transition with minimal injury potential when executed properly. The primary safety concern is avoiding the temptation to forcefully yank your trapped leg free, which can strain hip flexors or groin muscles if the opponent maintains strong control. Always create space through proper technique before extracting. During training, partners should provide progressive resistance and immediately release control if the bottom player signals discomfort. Be mindful of knee torque on the hooking leg once DLR is established—ensure the hook is placed correctly behind the knee or thigh rather than on the knee joint itself. If you feel sharp pain in your hip or knee during extraction, stop the attempt and reset rather than powering through."
+    "safety_considerations": "Leg Recovery to De La Riva is generally a low-risk defensive transition with minimal injury potential when executed properly. The primary safety concern is avoiding the temptation to forcefully yank your trapped leg free, which can strain hip flexors or groin muscles if the opponent maintains strong control. Always create space through proper technique before extracting. During training, partners should provide progressive resistance and immediately release control if the bottom player signals discomfort. Be mindful of knee torque on the hooking leg once DLR is established—ensure the hook is placed correctly behind the knee or thigh rather than on the knee joint itself. If you feel sharp pain in your hip or knee during extraction, stop the attempt and reset rather than powering through.",
+    "clips": [
+      {
+        "id": "_beJGS2-yIE",
+        "title": "How to use reverse de la Riva",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Learn Faster BJJ - Jiu Jitsu Breakdowns",
+        "duration": 122,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "wLSe23vSbP0",
+        "title": "Tips to make your de la Riva guard unpassable",
+        "by": "Juanjo",
+        "vertical": false,
+        "channel": "Juanjo BJJ Tecnicas y Drills",
+        "duration": 102,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Leg Recovery to De La Riva Defender",
@@ -390,6 +410,26 @@
         "phase": "Week 7+",
         "focus": "Live competition scenarios",
         "description": "Full resistance guard passing rounds where you establish leg drag and partner uses all available recovery tools. Practice maintaining passing pressure while shutting down extraction attempts in real time. Develop the instinct to advance rather than hold when recovery attempts begin."
+      }
+    ],
+    "clips": [
+      {
+        "id": "_4jDUxFg7uU",
+        "title": "De la Riva knee bump counter into ashi entry",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 165,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "aQ2vFXXBn-o",
+        "title": "Countering a full inversion",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-15"
       }
     ]
   },

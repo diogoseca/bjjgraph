@@ -353,6 +353,35 @@
         "answer": "The arm-in variation traps the opponent's near arm inside the choke alongside their neck, which adds a compression element—the trapped arm presses against the carotid artery on one side while your forearm compresses the other side. This creates a tighter choke with less space for the opponent to breathe or create defensive angles. The no-arm version relies purely on bilateral carotid compression from your forearm and bicep and finishes faster when the grip is deep. Choose the arm-in variation when the opponent has an arm extended inside your chest space during the clinch or when they reach forward for a takedown—the arm is already in position to be trapped. Choose the standard no-arm version when you achieve clean access to the bare neck with no obstructing limbs, as it offers a cleaner and faster blood choke finish.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "2Ioe4B7HF38",
+        "title": "Guillotine choke from the clinch",
+        "by": "Michael James",
+        "vertical": false,
+        "channel": "Michael James",
+        "duration": 43,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "-x0MJel3Ru0",
+        "title": "Attacking the standing guillotine",
+        "by": "Fargo BJJ",
+        "vertical": false,
+        "channel": "Fargo BJJ Academy",
+        "duration": 55,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "ilxJA4hIEFE",
+        "title": "Two standing guillotine variations",
+        "by": "Hellfish MMA",
+        "vertical": false,
+        "channel": "Hellfish Mixed Martial Arts",
+        "duration": 124,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -488,6 +517,35 @@
         "phase": "Phase 4: Live Defense Sparring",
         "focus": "Full-speed defense against committed guillotine attacks",
         "description": "Positional sparring starting from clinch. Attacker attempts standing guillotine at full speed and resistance. Defender uses all defensive tools—chin tuck, grip fighting, posture recovery, forward drive—in combination based on the attacker's execution. Reset after each escape or submission. Track success rate to measure improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "nGpAcI79frk",
+        "title": "Positional check against the guillotine",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 116,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "I0aWHdgbJzI",
+        "title": "Standing guillotine defense (the beat)",
+        "by": "Mark Hatmaker",
+        "vertical": false,
+        "channel": "Mark Hatmaker",
+        "duration": 19,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "3aSFiPLqXmo",
+        "title": "How to defend the guillotine choke",
+        "by": "Worldfightingnetwork",
+        "vertical": false,
+        "channel": "Worldfightingnetwork",
+        "duration": 25,
+        "verified": "2026-07-14"
       }
     ]
   }

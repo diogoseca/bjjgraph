@@ -460,5 +460,34 @@
       "question": "Why are hip elevation and bridging central to kuzushi?",
       "answer": "Bridging and hip elevation generate the vertical force needed to lift an opponent off their base and create the angles required for rotational sweeps. This hip engine, timed with grip pulling and leg extension, powers most sweeping mechanics."
     }
+  ],
+  "clips": [
+    {
+      "id": "b1zpi81TLPs",
+      "title": "Kuzushi: breaking balance (32 Principles of Jiu-Jitsu)",
+      "by": "Rener Gracie",
+      "vertical": false,
+      "channel": "GracieBreakdown",
+      "duration": 31,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "30HGYQvy-3g",
+      "title": "The art and science of kuzushi explained",
+      "by": "Shintaro Higashi",
+      "vertical": false,
+      "channel": "Shintaro Higashi",
+      "duration": 209,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "1OZx5aYMArM",
+      "title": "Kuzushi: breaking balance and posture for throws",
+      "by": "Peter Mettler",
+      "vertical": false,
+      "channel": "Peter Mettler Martial Arts",
+      "duration": 188,
+      "verified": "2026-07-15"
+    }
   ]
 }

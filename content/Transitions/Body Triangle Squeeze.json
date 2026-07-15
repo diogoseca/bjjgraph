@@ -301,7 +301,18 @@
         "answer": "Drive your hips directly forward into the opponent's lower back to create broad compression across the ribcage. Then angle your hips slightly toward the bottom-side floating ribs to concentrate force on fewer ribs with less structural support, increasing pain and breathing restriction per unit of effort. The hip drive should target the diaphragm area rather than the pelvis, as compression at diaphragm level maximizes breathing interference. Adjusting the hip drive angle during the squeeze changes the pressure vector, making it harder for the opponent to find a stable defensive breathing position."
       }
     ],
-    "safety_considerations": "The body triangle squeeze creates genuine rib compression that can cause rib fractures, costochondral separation, and diaphragm compromise. Always apply pressure progressively rather than explosively. Release immediately upon any tap signal including verbal tap, hand tap, or distressed body language. In training, communicate with your partner about pressure intensity and agree on maximum levels before drilling. Never apply finishing-level squeeze force on partners with known rib injuries, breathing conditions, or recent thoracic surgery. Tap early when drilling this technique, as rib injuries from compression can be slow-healing and significantly impact training capacity."
+    "safety_considerations": "The body triangle squeeze creates genuine rib compression that can cause rib fractures, costochondral separation, and diaphragm compromise. Always apply pressure progressively rather than explosively. Release immediately upon any tap signal including verbal tap, hand tap, or distressed body language. In training, communicate with your partner about pressure intensity and agree on maximum levels before drilling. Never apply finishing-level squeeze force on partners with known rib injuries, breathing conditions, or recent thoracic surgery. Tap early when drilling this technique, as rib injuries from compression can be slow-healing and significantly impact training capacity.",
+    "clips": [
+      {
+        "id": "8JwxpgWGsFU",
+        "title": "How to properly use the body triangle",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Less Impressed More Involved BJJ",
+        "duration": 294,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Body Triangle Squeeze Defender",
@@ -443,6 +454,26 @@
         "phase": "Phase 4: Full Escape Sequences",
         "focus": "Complete defensive flow from squeeze recognition to position improvement",
         "description": "Partner applies squeeze and choke threats at increasing intensity. Practice complete escape sequences from initial recognition through breathing management, defensive positioning, lock clearing, and final escape to improved position. Progressive resistance over multiple training sessions building toward full live defense."
+      }
+    ],
+    "clips": [
+      {
+        "id": "hgaULMND3ag",
+        "title": "Escaping the body triangle squeeze",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 129,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "VYef5MPcNZA",
+        "title": "Body triangle ankle trap escape",
+        "by": "Garry Tonon and Gordon Ryan",
+        "vertical": false,
+        "channel": "MastersmokeABUSE",
+        "duration": 144,
+        "verified": "2026-07-15"
       }
     ]
   }

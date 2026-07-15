@@ -347,6 +347,35 @@
         "answer": "Hip extension engages the glutes and hip flexors, which are among the strongest muscle groups in the body, generating force through a large-range skeletal movement against the back of the knee. Arm pulling uses the comparatively weak biceps and forearm muscles through a short range of motion. Hip extension creates a fulcrum-based lever system where small hip movements translate to significant hyperextension force at the knee. Arm pulling also pulls your upper body away from the leg, loosening your shin-to-chest grip and compromising positional control.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "vMqDIi10z4k",
+        "title": "Dog Bar (Kneebar Variation)",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "v4lhLkKgVvU",
+        "title": "Go Behind Kneebar",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 129,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "mv5hY9YFUdU",
+        "title": "Lateral Kneebar Z-Lock",
+        "by": "jamielovesmartialarts",
+        "vertical": false,
+        "channel": "jamielovesmartialarts",
+        "duration": 66,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -481,6 +510,26 @@
         "phase": "Phase 4: Live Defense Sparring",
         "focus": "Applying defense under full competitive pressure",
         "description": "Positional sparring starting from Carni with full resistance. Attacker works all submissions including kneebar. Defender applies complete defensive system. Two-minute rounds. Track escape success rate and identify defensive gaps that need additional drilling."
+      }
+    ],
+    "clips": [
+      {
+        "id": "3zJthP57wXw",
+        "title": "Kneebar Escape",
+        "by": "Darren Branch",
+        "vertical": false,
+        "channel": "High Rollerz Jiu Jitsu 💨🥋",
+        "duration": 74,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "m0NLphEuFoc",
+        "title": "Leg Lock Defense",
+        "by": "Kuwy Jitsu",
+        "vertical": false,
+        "channel": "Kuwy Jitsu",
+        "duration": 61,
+        "verified": "2026-07-14"
       }
     ]
   }

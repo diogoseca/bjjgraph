@@ -340,6 +340,26 @@
         "answer": "From armbar control, the kimura benefits from pre-existing arm isolation and leg control over the upper body that other positions must establish separately. The legs prevent sitting up without needing cross-face or underhook control. The hip-to-shoulder proximity is already established. However, the trade-off is that the attacker's base is less stable than in side control or mount, making the position more vulnerable to rolling counters and bridge escapes. The grip transition window is also narrow since the opponent may straighten their arm at any point.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "M-xjYAPgKVU",
+        "title": "Kimura and armbar from side control",
+        "by": "BJJ Recap",
+        "vertical": false,
+        "channel": "BJJ Recap",
+        "duration": 51,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "MIPeuSLIaKQ",
+        "title": "North-south kimura grip to armbar",
+        "by": "Raven Jiu Jitsu",
+        "vertical": false,
+        "channel": "Raven Jiu Jitsu",
+        "duration": 214,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -462,6 +482,26 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Full defense under competition conditions",
         "description": "Start in armbar control bottom. Attacker uses full armbar-to-kimura chain at competition intensity. Defender applies complete defensive repertoire including prevention, escape, and tap awareness. Track escape rate and time to escape for measurable improvement over training sessions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "TuaopPUakM8",
+        "title": "Defending the kimura",
+        "by": "Eddie Kone",
+        "vertical": false,
+        "channel": "Eddie Kone Academy Of Jiu-Jitsu",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "gvRGrvtKd1U",
+        "title": "Kimura defense",
+        "by": "Jon Satava",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 142,
+        "verified": "2026-07-14"
       }
     ]
   }

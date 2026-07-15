@@ -370,6 +370,26 @@
         "answer": "In competition, consider the time remaining on the clock, the current score, and the ruleset's leg lock permissions. If ahead on points or advantages, patient positional control forces the opponent to take risks. If behind, a more aggressive finishing attempt may be warranted. In submission-only formats, patience is always rewarded since there is no time pressure. Also assess the opponent's defensive skill level from earlier exchanges to determine whether a single committed attack or a sustained chain approach is more appropriate.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "6gu-n4P9JXo",
+        "title": "Heel Hook Breaking Mechanics",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "Altay Pirge",
+        "duration": 77,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "sIYeSMSkqeE",
+        "title": "Backside 50/50 Inside Heel Hook Finish",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "Professor Buck",
+        "duration": 18,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -506,6 +526,17 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Full-resistance defense with safety awareness",
         "description": "Positional sparring starting in established Inside Sankaku. Defender works through the complete defensive protocol while attacker attempts to finish with full resistance. Strict safety rules: slow submission application, immediate tap respect, and post-round review of defensive decision-making. Build comfort and confidence in the defensive position through repeated safe exposure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "DrjbaXt-nTo",
+        "title": "Rolling Out of Heel Hooks",
+        "by": "Craig Jones & Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 243,
+        "verified": "2026-07-14"
       }
     ]
   }

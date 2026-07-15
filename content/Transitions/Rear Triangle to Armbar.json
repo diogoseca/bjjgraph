@@ -286,7 +286,36 @@
         "answer": "First, pinch your knees together firmly to secure the opponent's head and chest, preventing them from sitting up. Second, scoot your hips tight to their shoulder joint to maximize leverage and eliminate any defensive space. Third, verify that the trapped arm is oriented with the thumb pointing upward for optimal elbow vulnerability. Only after these three structural elements are confirmed should you begin the finishing motion of elevating hips and pulling the wrist toward your chest."
       }
     ],
-    "safety_considerations": "This transition involves manipulating the elbow joint into a hyperextension position, which carries significant injury risk if applied too quickly or forcefully. During training, execute the hip pivot and arm extension gradually, giving your partner adequate time to tap before full extension pressure is applied. Never explosively straighten the arm upon completing the transition. Be especially cautious when the opponent is defending vigorously, as their sudden defensive movement combined with your finishing pressure can create joint stress faster than either person anticipates. Always maintain controlled pressure and listen for verbal or physical tap signals immediately."
+    "safety_considerations": "This transition involves manipulating the elbow joint into a hyperextension position, which carries significant injury risk if applied too quickly or forcefully. During training, execute the hip pivot and arm extension gradually, giving your partner adequate time to tap before full extension pressure is applied. Never explosively straighten the arm upon completing the transition. Be especially cautious when the opponent is defending vigorously, as their sudden defensive movement combined with your finishing pressure can create joint stress faster than either person anticipates. Always maintain controlled pressure and listen for verbal or physical tap signals immediately.",
+    "clips": [
+      {
+        "id": "fPV5aCm4uIE",
+        "title": "Armbar from the back off the RNC threat",
+        "by": "CholoMMA",
+        "vertical": false,
+        "channel": "CholoMMA",
+        "duration": 39,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "r8rBt5Mp3B4",
+        "title": "Triangle to armbar transition",
+        "by": "Armory Training",
+        "vertical": false,
+        "channel": "ArmoryTraining",
+        "duration": 48,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "5fuUTE9QN3U",
+        "title": "Triangle to armbar transition",
+        "by": "Keith Florian",
+        "vertical": false,
+        "channel": "Florian Martial Arts Center",
+        "duration": 52,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Rear Triangle to Armbar Defender",
@@ -411,6 +440,26 @@
         "phase": "Phase 4: Full Resistance Positional Sparring",
         "focus": "Applying defensive skills under competitive pressure",
         "description": "Start in rear triangle with attacker actively working the submission chain. Defender must survive both choke and armbar threats with full resistance. Defender earns points for successful escapes, attacker earns points for completing the armbar transition or finishing the submission. 90-second rounds with position reset between rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "sDdqvh_1kbA",
+        "title": "Escaping the armbar from the back",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 63,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "0bla3AHdQuM",
+        "title": "RNC armbar escape",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 74,
+        "verified": "2026-07-15"
       }
     ]
   },

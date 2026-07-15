@@ -291,7 +291,36 @@
         "answer": "The inversion escape sits within a hierarchy of leg entanglement defenses as a secondary or tertiary option. Primary defenses include grip fighting to prevent heel exposure and boot scooting to create distance. The inversion is deployed when these conventional methods are insufficient or when a specific timing opportunity presents itself during the opponent's transitions. It chains naturally with other defenses - a failed inversion creates scramble opportunities, and a feinted inversion can force the opponent to tighten grips, making those grips easier to identify and strip. The key is treating inversion as one tool in a system rather than a standalone solution."
       }
     ],
-    "safety_considerations": "Inversion escapes carry significant injury risk when performed against deep heel hook control. Never attempt the inversion if the opponent has already secured the heel with rotational pressure applied, as the rolling motion can catastrophically accelerate ligament damage to the knee. The ACL, MCL, and meniscus are all vulnerable during rotational movements under load. In training, communicate clearly with partners before drilling inversions from leg entanglements. Establish tap protocols and begin all drilling at slow speed with zero resistance. Partners should release all grips immediately if the inverting player taps or verbally signals discomfort. Practitioners with existing knee injuries or limited flexibility should consult with their instructor about whether this technique is appropriate for their body. Never drill this escape with partners who do not have controlled heel hook finishing mechanics."
+    "safety_considerations": "Inversion escapes carry significant injury risk when performed against deep heel hook control. Never attempt the inversion if the opponent has already secured the heel with rotational pressure applied, as the rolling motion can catastrophically accelerate ligament damage to the knee. The ACL, MCL, and meniscus are all vulnerable during rotational movements under load. In training, communicate clearly with partners before drilling inversions from leg entanglements. Establish tap protocols and begin all drilling at slow speed with zero resistance. Partners should release all grips immediately if the inverting player taps or verbally signals discomfort. Practitioners with existing knee injuries or limited flexibility should consult with their instructor about whether this technique is appropriate for their body. Never drill this escape with partners who do not have controlled heel hook finishing mechanics.",
+    "clips": [
+      {
+        "id": "F25hAnFk5uc",
+        "title": "Reverse Heel Hook Escape",
+        "by": "GrapplingMechanics",
+        "vertical": false,
+        "channel": "GrapplingMechanics",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "c-LUX8aDBUE",
+        "title": "Leg Entanglement Escapes and Heel Hooks",
+        "by": "Jeremy Skinner",
+        "vertical": false,
+        "channel": "Techniqly Online",
+        "duration": 35,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MqtG9kuVt-Q",
+        "title": "Leg Lock Escape - Roll Through",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 103,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Inversion Escape from Leg Entanglement Defender",
@@ -416,6 +445,35 @@
         "phase": "Phase 4: Live Positional Sparring with Inversion Focus",
         "focus": "Full resistance application of all defensive concepts",
         "description": "Start in established leg entanglement with the bottom player specifically working inversion escapes. Maintain position using the full toolkit: blocking setups, following committed rolls, backstopping to saddle, and attacking during exposure. Three-minute rounds with live resistance. Track which responses work against which inversion variants."
+      }
+    ],
+    "clips": [
+      {
+        "id": "MqtG9kuVt-Q",
+        "title": "Leg Lock Escape - Roll Through",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uZbUhFapIhg",
+        "title": "Craig Jones Leglock Defense",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 163,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "KjYaNldgf5c",
+        "title": "Outside Heel Hook Defense Concepts",
+        "by": "Kade and Tye Ruotolo",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 244,
+        "verified": "2026-07-15"
       }
     ]
   }

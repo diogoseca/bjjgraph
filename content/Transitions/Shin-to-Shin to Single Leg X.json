@@ -281,7 +281,36 @@
         "answer": "The free leg initially posts on the mat for hip mobility during the threading phase, providing the base needed to scoot underneath the opponent. Once the inside leg secures the ankle wrap, the free leg must immediately transition to the hip hook role by planting on the opponent's far hip or inner thigh. Any delay in establishing this second control point leaves you in a partial entry that is significantly easier to defend."
       }
     ],
-    "safety_considerations": "This transition involves dynamic hip and leg movements that can stress the knees and ankles of both practitioners. Avoid explosive jerking motions when threading legs around the ankle to prevent knee torque injuries. If you feel resistance in your partner's knee during the entry, stop and adjust angle rather than forcing through. Practice at controlled speed before adding full resistance to develop proper mechanics that protect both partners' joints during the threading and hooking phases."
+    "safety_considerations": "This transition involves dynamic hip and leg movements that can stress the knees and ankles of both practitioners. Avoid explosive jerking motions when threading legs around the ankle to prevent knee torque injuries. If you feel resistance in your partner's knee during the entry, stop and adjust angle rather than forcing through. Practice at controlled speed before adding full resistance to develop proper mechanics that protect both partners' joints during the threading and hooking phases.",
+    "clips": [
+      {
+        "id": "o23bQAC1jN4",
+        "title": "Shin on shin entry to single leg X guard",
+        "by": "Paul McVeigh",
+        "vertical": false,
+        "channel": "Paul Mcveigh",
+        "duration": 99,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "o0TTMzFEG0Q",
+        "title": "Shin to shin to single leg X to outside ashi",
+        "by": "Robyn Sheehan",
+        "vertical": false,
+        "channel": "Robyn Sheehan",
+        "duration": 128,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "vKjAcZbsTwI",
+        "title": "Shin to shin guard to single leg X sweep",
+        "by": "Bermuda Martial Arts coach",
+        "vertical": false,
+        "channel": "Bermuda Martial Arts",
+        "duration": 138,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Shin-to-Shin to Single Leg X Defender",
@@ -406,6 +435,35 @@
         "phase": "Phase 4: Counter-Attacking",
         "focus": "Transitioning from successful defense to immediate guard passing",
         "description": "After successfully defending the SLX entry, immediately chain into a guard passing sequence. Practice reading which passing option is most available based on how the opponent's guard structure is disrupted from the failed entry attempt."
+      }
+    ],
+    "clips": [
+      {
+        "id": "e2KVHXnSh_o",
+        "title": "Single leg X counter with heel hook",
+        "by": "Charles Allan Price",
+        "vertical": false,
+        "channel": "Charles Allan Price",
+        "duration": 75,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "B7OQh6tNAn4",
+        "title": "Corkscrew footlock counter to single leg X",
+        "by": "Robyn Sheehan",
+        "vertical": false,
+        "channel": "Robyn Sheehan",
+        "duration": 121,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "gwEmeb9RSk4",
+        "title": "Single leg X guard sweep defense",
+        "by": "Tiger Muay Thai coach",
+        "vertical": false,
+        "channel": "Tiger Muay Thai and MMA Training Camp, Phuket, Thailand",
+        "duration": 227,
+        "verified": "2026-07-15"
       }
     ]
   }

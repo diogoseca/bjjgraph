@@ -428,5 +428,16 @@
       "question": "What is a common chain-construction error and how do you correct it?",
       "answer": "Building overly complex five-plus-position chains with low cumulative odds; instead limit chains to two to four transitions, each with roughly 50%+ success at your skill level, so the overall plan stays realistic."
     }
+  ],
+  "clips": [
+    {
+      "id": "e3NL2SQZPV0",
+      "title": "Seven-submission flow chain",
+      "by": "Johnny Jitsu",
+      "vertical": false,
+      "channel": "Johnny Jitsu",
+      "duration": 76,
+      "verified": "2026-07-15"
+    }
   ]
 }

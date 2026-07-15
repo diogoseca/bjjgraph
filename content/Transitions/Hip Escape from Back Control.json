@@ -287,7 +287,27 @@
         "answer": "The key is controlling the pace of your rotation and maintaining frame contact throughout the turn. As you rotate, keep your forearm frame pressed firmly against the opponent's hip to prevent them from driving forward over your body. Simultaneously, actively insert your inside knee between your bodies as early as possible during the rotation. This knee acts as a physical barrier that prevents the opponent from swinging their leg over to complete the mount transition. If you feel their weight shifting forward over your hip, pause the rotation and re-establish your frame before continuing."
       }
     ],
-    "safety_considerations": "The hip escape from back control carries moderate injury risk primarily from neck strain during escape attempts while under choking pressure. Never attempt explosive neck movements while a choke is partially applied, as this can cause cervical spine injury. If a choke is fully locked with proper depth and angle, tap immediately rather than attempting to escape through the submission. During training, communicate with your partner about neck pressure intensity and practice at controlled speeds before increasing resistance. Rapid turning movements during the rotation phase can strain the lower back and shoulders when performed against strong resistance, so build up resistance gradually across training sessions. Always warm up the neck and spine thoroughly before drilling back escapes."
+    "safety_considerations": "The hip escape from back control carries moderate injury risk primarily from neck strain during escape attempts while under choking pressure. Never attempt explosive neck movements while a choke is partially applied, as this can cause cervical spine injury. If a choke is fully locked with proper depth and angle, tap immediately rather than attempting to escape through the submission. During training, communicate with your partner about neck pressure intensity and practice at controlled speeds before increasing resistance. Rapid turning movements during the rotation phase can strain the lower back and shoulders when performed against strong resistance, so build up resistance gradually across training sessions. Always warm up the neck and spine thoroughly before drilling back escapes.",
+    "clips": [
+      {
+        "id": "RR-T-7E7yjo",
+        "title": "Back escape to half guard",
+        "by": "Soma Academy",
+        "vertical": false,
+        "channel": "Soma Academy",
+        "duration": 89,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "3Jd2llamfl8",
+        "title": "Back control escape fundamentals",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 189,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Hip Escape from Back Control Defender",
@@ -411,6 +431,26 @@
         "phase": "Phase 4: Integrated Positional Sparring",
         "focus": "Full resistance back control retention and escape defense",
         "description": "Positional rounds starting from back control where your partner uses all available escapes at full resistance. Practice chaining defensive responses including control tightening, submission threats, mount transitions, and re-takes from turtle. Develop a complete defensive game plan that addresses the hip escape within the context of all back control escape methods."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Of8NGELqhfY",
+        "title": "Keeping back control as they escape",
+        "by": "John Connors",
+        "vertical": false,
+        "channel": "John Connors, Old Man BJJ Black Belt",
+        "duration": 93,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8JwxpgWGsFU",
+        "title": "Using the body triangle to hold the back",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Less Impressed More Involved BJJ",
+        "duration": 294,
+        "verified": "2026-07-15"
       }
     ]
   }

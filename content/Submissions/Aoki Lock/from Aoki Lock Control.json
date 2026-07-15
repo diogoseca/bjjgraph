@@ -340,6 +340,35 @@
         "answer": "In competition, you can apply compression more decisively since the opponent is motivated to defend rather than tap early, but you must still control the application speed to avoid disqualification for dangerous leg attacks. Secure the figure-four and seat the foot fully before committing, as competition opponents will exploit any slack to extract. Time management matters: if the finish is not progressing within 15-20 seconds, transition to a heel hook or kneebar rather than stalling in a contested compression.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "qRH7g21c6xQ",
+        "title": "Aoki lock breakdown",
+        "by": "Escuela de Grappling",
+        "vertical": false,
+        "channel": "Escuela de Grappling - Certified Killers",
+        "duration": 199,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "vMhOsw3wRQg",
+        "title": "Rolling no-gi calf slicer",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 110,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "6M0HvIFfc-w",
+        "title": "Bear trap into calf slicer",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 119,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -480,6 +509,26 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Full-resistance situational sparring from Aoki Lock bottom",
         "description": "Start in Aoki Lock bottom position with the partner at full resistance. Practice reading their finishing attempts in real time, selecting appropriate defensive responses, and executing escapes under pressure. Two-minute rounds with position reset and emphasis on surviving without injury."
+      }
+    ],
+    "clips": [
+      {
+        "id": "KOz3WqQJ3Tk",
+        "title": "Roll out counter to the calf slicer",
+        "by": "Charlie Cosens",
+        "vertical": false,
+        "channel": "Cosens MMA LLC",
+        "duration": 55,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "VFM9JGQrLYk",
+        "title": "Ankle lock counter to calf cutter",
+        "by": "Pathfinder Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Pathfinder Jiu-Jitsu Team",
+        "duration": 97,
+        "verified": "2026-07-14"
       }
     ]
   }

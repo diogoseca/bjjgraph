@@ -319,6 +319,26 @@
         "answer": "Use grip-fighting sequences to create windows of opportunity. Alternate between threatening the rear naked choke and the collar grip so the opponent cannot dedicate both hands to one defense. Increase body triangle pressure in pulses to force breathing-focused moments where collar defense relaxes. Use your free hand to strip their grip from their own collar before feeding your choking hand. Another effective strategy is to secure the collar grip from seatbelt position before transitioning to body triangle, establishing the grip when the opponent is focused on defending hooks.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "xqNhZVNhxnE",
+        "title": "Bow and Arrow Choke from Back Control",
+        "by": "Evolve MMA",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 45,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "R5LFNqtx1ps",
+        "title": "Bow & Arrow Choke",
+        "by": "Gracie Barra",
+        "vertical": false,
+        "channel": "Gracie Barra Jiu-jitsu",
+        "duration": 66,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -452,6 +472,26 @@
         "phase": "Escape Integration",
         "focus": "Full defensive sequences against increasing resistance",
         "description": "Partner works the complete bow and arrow setup from body triangle at progressively increasing resistance from 50% to 80%. Defender uses all available tools: recognition, grip defense, turning attempts, pants grip blocking. Practice tapping at the appropriate moment when the choke locks in fully. Develop judgment for when defense is still viable versus when tapping is the correct response."
+      }
+    ],
+    "clips": [
+      {
+        "id": "485wvqwlBYA",
+        "title": "Defending Back Control Face Down",
+        "by": "Academy Jiu Jitsu",
+        "vertical": false,
+        "channel": "Academy Jiu Jitsu",
+        "duration": 92,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "hgaULMND3ag",
+        "title": "Escaping the Body Triangle",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 129,
+        "verified": "2026-07-14"
       }
     ]
   }

@@ -251,7 +251,18 @@
         "answer": "If the grip proves unbreakable from collapsed position, transition to the Standing Smash Pass Hybrid by posting up and using standing leverage to break the initial tension before immediately re-collapsing. Alternatively, convert to a knee slice pass if your leg gains partial freedom, or disengage entirely and attempt Backstep Around Worm Guard to attack from a completely different angle that bypasses the lapel configuration."
       }
     ],
-    "safety_considerations": "This technique involves significant forward pressure and crossface contact, which can create neck strain for training partners if applied explosively. When drilling, collapse with controlled speed and apply crossface pressure gradually rather than slamming your weight forward. Partners should tap immediately if neck becomes compromised during the collapse phase. The grip-breaking portion carries risk of finger injuries - if partner's grip doesn't release with moderate pressure, reset rather than forcing the break. Both practitioners should communicate clearly about pressure levels, especially when training the stacking variant which can compress the spine."
+    "safety_considerations": "This technique involves significant forward pressure and crossface contact, which can create neck strain for training partners if applied explosively. When drilling, collapse with controlled speed and apply crossface pressure gradually rather than slamming your weight forward. Partners should tap immediately if neck becomes compromised during the collapse phase. The grip-breaking portion carries risk of finger injuries - if partner's grip doesn't release with moderate pressure, reset rather than forcing the break. Both practitioners should communicate clearly about pressure levels, especially when training the stacking variant which can compress the spine.",
+    "clips": [
+      {
+        "id": "U-d9fLP9eAo",
+        "title": "Reverse De La Worm smash pass defense",
+        "by": "Satori BJJ",
+        "vertical": false,
+        "channel": "Satori BJJ",
+        "duration": 62,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Smash Pass Counter Defender",
@@ -374,6 +385,35 @@
         "phase": "Week 7+",
         "focus": "Full resistance positional sparring",
         "description": "Start in established Ringworm Guard with partner free to attempt any passing method including smash pass. Work all defensive options under full competition intensity. Track which defensive responses succeed most frequently and identify patterns in your reaction timing for continued refinement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Q813h3cqIXk",
+        "title": "Smash pass counter: stuff the head",
+        "by": "Hauck Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Hauck Jiu-Jitsu",
+        "duration": 79,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "UoJul9UvRao",
+        "title": "Denying the straight arm guard retention pass",
+        "by": "Cameron Florczak",
+        "vertical": false,
+        "channel": "Cameron Florczak",
+        "duration": 66,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8YxAYfWINeQ",
+        "title": "Countering the double over smash pass",
+        "by": "Brazilian Jiu-Jitsu & Submission Grappling",
+        "vertical": false,
+        "channel": "Brazilian Jiu-Jitsu & Submission Grappling",
+        "duration": 164,
+        "verified": "2026-07-15"
       }
     ]
   },

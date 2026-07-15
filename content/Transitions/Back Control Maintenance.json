@@ -258,7 +258,27 @@
         "answer": "High-percentage maintenance treats position as the primary weapon rather than rushing submissions. Elite practitioners spend the first 10-15 seconds on pure positional consolidation, use threat cycling to create defensive reactions they can exploit, and understand that sustained control creates cumulative pressure that eventually breaks any defense. Beginners rush attacks and lose the position."
       }
     ],
-    "safety_considerations": "Back control maintenance presents moderate injury risk primarily related to neck strain and rib compression. When training, partners should communicate clearly about choking pressure levels and tap early when submissions are applied. Practitioners with prior neck injuries should be cautious of collar grip pressure, and those with rib issues should communicate limits on body triangle tightness. Avoid explosive spinal twisting movements when escaping as this can cause cervical strain. Training partners should release control immediately upon tap and avoid cranking submissions during drilling phases. The sustained nature of back control can cause fatigue-related injuries if practitioners attempt explosive escapes when exhausted—communicate when approaching fatigue limits."
+    "safety_considerations": "Back control maintenance presents moderate injury risk primarily related to neck strain and rib compression. When training, partners should communicate clearly about choking pressure levels and tap early when submissions are applied. Practitioners with prior neck injuries should be cautious of collar grip pressure, and those with rib issues should communicate limits on body triangle tightness. Avoid explosive spinal twisting movements when escaping as this can cause cervical strain. Training partners should release control immediately upon tap and avoid cranking submissions during drilling phases. The sustained nature of back control can cause fatigue-related injuries if practitioners attempt explosive escapes when exhausted—communicate when approaching fatigue limits.",
+    "clips": [
+      {
+        "id": "y_GjhMb6Qf8",
+        "title": "Holding the seatbelt in back control",
+        "by": "Kyuzo BJJ",
+        "vertical": false,
+        "channel": "Kyuzo Brazilian Jiu Jitsu",
+        "duration": 26,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lpgcKpIgClw",
+        "title": "Why you keep losing the back: back control retention",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 143,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Back Control Maintenance Defender",
@@ -382,6 +402,35 @@
         "phase": "Week 7+",
         "focus": "Competitive escape sparring",
         "description": "Full positional sparring from back control against fully resisting attacker. 3-minute rounds where successful escape to turtle or guard counts as defender win, submission or maintained back control for full round counts as attacker win. Track escape success rate and average time to escape to measure improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "k-78AJwPYig",
+        "title": "Defending back control vs double unders",
+        "by": "Academy Jiu Jitsu",
+        "vertical": false,
+        "channel": "Academy Jiu Jitsu",
+        "duration": 64,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "OltjLaTW3wQ",
+        "title": "3 ways to defend the back take",
+        "by": "Roberto Cyborg Abreu",
+        "vertical": false,
+        "channel": "Cyborg BJJ",
+        "duration": 89,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "485wvqwlBYA",
+        "title": "Defending back control face down and sprawled out",
+        "by": "Academy Jiu Jitsu",
+        "vertical": false,
+        "channel": "Academy Jiu Jitsu",
+        "duration": 92,
+        "verified": "2026-07-15"
       }
     ]
   },

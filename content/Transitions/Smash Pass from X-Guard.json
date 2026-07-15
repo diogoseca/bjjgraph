@@ -275,7 +275,27 @@
         "answer": "The smash pass is optimal when the bottom player has deep hooks and strong grips that would make lateral movement difficult, because downward pressure neutralizes hook depth advantage. The knee slice is better when hooks are shallow or partially compromised, allowing the top player to slice through with less resistance. If your initial knee slice attempt is stuffed by strong hooks, transitioning to the smash pass is a high-percentage chain because the bottom player has committed their defensive structure to lateral defense rather than downward pressure defense."
       }
     ],
-    "safety_considerations": "The Smash Pass from X-Guard involves significant forward weight commitment that can strain the bottom player's knee joints if excessive rotational force is applied while their legs are entangled. Apply pressure progressively rather than explosively to allow the bottom player time to release hooks safely. Be particularly careful when driving through the inside hook, as the bottom player's knee is vulnerable to lateral stress in this configuration. In training, communicate with your partner about pressure levels and immediately reduce force if they indicate any joint discomfort."
+    "safety_considerations": "The Smash Pass from X-Guard involves significant forward weight commitment that can strain the bottom player's knee joints if excessive rotational force is applied while their legs are entangled. Apply pressure progressively rather than explosively to allow the bottom player time to release hooks safely. Be particularly careful when driving through the inside hook, as the bottom player's knee is vulnerable to lateral stress in this configuration. In training, communicate with your partner about pressure levels and immediately reduce force if they indicate any joint discomfort.",
+    "clips": [
+      {
+        "id": "WsQy2bzQqL8",
+        "title": "Backstep pass against X-Guard, top",
+        "by": "Wakizashi Jiu Jitsu coach",
+        "vertical": false,
+        "channel": "Wakizashi Jiu Jitsu",
+        "duration": 76,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "6tqdAjzgdUc",
+        "title": "Smash passing a flexible open guard",
+        "by": "Johnny Tama",
+        "vertical": false,
+        "channel": "Clark Gracie Allegiance Jiu Jitsu",
+        "duration": 250,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Smash Pass from X-Guard Defender",
@@ -396,6 +416,26 @@
         "phase": "Phase 4: Transition Decision Making",
         "focus": "Recognizing when to hold X-Guard versus when to transition to alternative guards",
         "description": "Partner applies full-speed smash pass. Defender must decide in real-time whether to counter-sweep, maintain guard, or transition to Single Leg X, butterfly, or deep half based on how the pass is developing. Develop automatic decision-making for guard retention and transition selection under pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "BhNZGloJ56c",
+        "title": "Guard recovery when you are getting smashed",
+        "by": "Finesse Jiujitsu coach",
+        "vertical": false,
+        "channel": "FINESSE JIUJITSU HTX",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "q4e8HHp7avk",
+        "title": "Three ways to stop your guard being passed",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ Plus",
+        "duration": 147,
+        "verified": "2026-07-15"
       }
     ]
   }

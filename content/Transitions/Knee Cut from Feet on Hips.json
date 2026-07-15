@@ -303,7 +303,27 @@
         "answer": "First, maintain the crossface to prevent the bottom player from turning on their side and establishing an underhook. Second, ensure your cutting shin is pinning their bottom leg and your weight is driving forward through your chest. Third, begin working to free your trapped foot by windshield-wipering your knee toward the mat or establishing an underhook on the far side. The transition from failed knee cut to half guard top should be seamless—consolidate the half guard position before attempting to extract the trapped leg and complete the pass."
       }
     ],
-    "safety_considerations": "The knee cut pass carries moderate risk to the bottom player's knee if the cutting knee drives laterally into a trapped or entangled leg. Avoid explosive lateral pressure on the bottom player's knee joint during the cutting motion. If the bottom player reports discomfort in their knee or hip during the pass, ease pressure immediately and allow them to adjust their leg position. Both practitioners should communicate about knee pressure, and the top player should use controlled, progressive weight application rather than sudden dropping of body weight onto the cutting knee."
+    "safety_considerations": "The knee cut pass carries moderate risk to the bottom player's knee if the cutting knee drives laterally into a trapped or entangled leg. Avoid explosive lateral pressure on the bottom player's knee joint during the cutting motion. If the bottom player reports discomfort in their knee or hip during the pass, ease pressure immediately and allow them to adjust their leg position. Both practitioners should communicate about knee pressure, and the top player should use controlled, progressive weight application rather than sudden dropping of body weight onto the cutting knee.",
+    "clips": [
+      {
+        "id": "YLPNsyHtREs",
+        "title": "Monitoring the feet when passing guard",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Michael Wong",
+        "duration": 50,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "r6mfCS7MuOY",
+        "title": "Knee cut mechanics and live example",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "THE FLAWED CASUAL",
+        "duration": 141,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Knee Cut from Feet on Hips Defender",
@@ -427,6 +447,35 @@
         "phase": "Phase 4: Full Resistance Positional Sparring",
         "focus": "Defending knee cut and passing chains from feet on hips bottom",
         "description": "Full positional sparring starting from feet on hips bottom. Top player attempts to pass using knee cut and chain options with full resistance. Bottom player scores for guard retention, sweeps, or guard transitions to more controlling positions. Track success rates and refine defensive responses based on patterns."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Da5PAZooedU",
+        "title": "Knee slice defense counter",
+        "by": "A Day In A Life",
+        "vertical": false,
+        "channel": "A DAY IN A LIFE",
+        "duration": 86,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "BIFfZ3bK4ss",
+        "title": "Knee slide pass defense counter",
+        "by": "Alexander Miller",
+        "vertical": false,
+        "channel": "Alexander Miller",
+        "duration": 66,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "rP8SOouke1s",
+        "title": "Guard retention response to the knee cut",
+        "by": "Cal McDonald",
+        "vertical": false,
+        "channel": "Cal McDonald",
+        "duration": 57,
+        "verified": "2026-07-15"
       }
     ]
   }

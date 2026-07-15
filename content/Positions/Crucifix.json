@@ -361,6 +361,35 @@
         "question": "How do you recover if your opponent partially frees their trapped arm from the leg triangle?",
         "answer": "If the arm begins to slip, immediately adjust your leg position—typically the bottom leg has slipped too far from under the armpit. Pull the leg back into position using hip movement, not just leg strength. If the arm is significantly free, transition to back control rather than fighting to re-establish crucifix from a compromised position. Alternatively, if they've freed the arm but remain controlled, immediately switch your attack to the neck since they've committed their free hand to the escape rather than defense."
       }
+    ],
+    "clips": [
+      {
+        "id": "-Vmyjv8-WFw",
+        "title": "Side crucifix arm attacks from mount",
+        "by": "Evolve MMA",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 76,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "1hMh6YiR0Po",
+        "title": "Crucifix murder choke",
+        "by": "Innovative BJJ",
+        "vertical": false,
+        "channel": "Innovative BJJ",
+        "duration": 18,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "QPpQnCDw65k",
+        "title": "Crucifix to inverted triangle",
+        "by": "Zen Spot",
+        "vertical": false,
+        "channel": "Zen Spot",
+        "duration": 25,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -684,6 +713,26 @@
         "question": "If you partially free your trapped arm but the opponent recaptures it, what adjustment should you make?",
         "answer": "If the arm was partially freed but recaptured, the opponent likely closed the gap you created. On the next attempt, combine arm extraction with immediate position recovery—don't just free the arm and wait. As the arm begins to clear, immediately shrimp your hips and work to insert your knee or turn to turtle. The arm extraction and position change must happen together, or the opponent will simply re-establish the trap. Also consider that their leg position may have weakened—look for better extraction angles."
       }
+    ],
+    "clips": [
+      {
+        "id": "Wrg5Tx-88yM",
+        "title": "Simple crucifix escape",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 149,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "41koUZWmeHE",
+        "title": "Escaping the mounted crucifix",
+        "by": "Shem Rock",
+        "vertical": false,
+        "channel": "Shem Rock ",
+        "duration": 146,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -718,6 +767,26 @@
     {
       "question": "How does the mounted crucifix variation change the shared dynamics of the standard crucifix?",
       "answer": "The mounted crucifix layers mount pressure onto the same bilateral arm-isolation principle, so the top player's weight is delivered downward through a mounted base rather than from the back or side. This trades some of the back-attack choking access for heavier frontal pressure and a more direct line to arm attacks and neck cranks. The core defining feature—both arms trapped by two separate mechanisms—remains unchanged, which is why it is still a crucifix rather than a distinct position. The difference lies in the vector of control and available finishes, not in the underlying weapons-denial structure that both variations share."
+    }
+  ],
+  "clips": [
+    {
+      "id": "qq1LScm50Ow",
+      "title": "Short arm drag to crucifix armlock",
+      "by": "John Gutta",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 151,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "OnmLBMNZ44A",
+      "title": "Crucifix grip break",
+      "by": "Gabe Tuttle",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 86,
+      "verified": "2026-07-14"
     }
   ]
 }

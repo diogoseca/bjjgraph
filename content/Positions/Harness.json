@@ -427,6 +427,35 @@
           "nogi": 6
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "MwxnveKrlxU",
+        "title": "Seatbelt Grip Quick Fix",
+        "by": "Ben Kool",
+        "vertical": false,
+        "channel": "Ben Kool Tech",
+        "duration": 62,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "F6bTABR5b1U",
+        "title": "Seatbelt Takedown to Back",
+        "by": "Progressive FORCE Concepts",
+        "vertical": false,
+        "channel": "Progressive FORCE Concepts",
+        "duration": 114,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "-lMabjvtaLk",
+        "title": "Entries Into Rear Triangle Back Position",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 252,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -760,6 +789,35 @@
           "nogi": 8
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "_sBB-O8fqP4",
+        "title": "Standing Up From Turtle/Back Defense",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 114,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "BL0RhUlKPQs",
+        "title": "Simple Standing Rear Naked Choke Escape",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 205,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "3Jd2llamfl8",
+        "title": "Back Control Escape Explained Simply",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 189,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -790,6 +848,26 @@
     {
       "question": "How does the harness relate to adjacent positions like turtle, crucifix, and body triangle?",
       "answer": "Turtle is the most common entry and the most common escape destination, since a player working to the back and a player fleeing it both pass through it. The crucifix and gift wrap are offensive branches that open when the defender turns their shoulder in or commits both hands to defending the choke, letting the top player trap an arm. The body triangle is a lower-body upgrade that replaces hooks with a locked leg configuration while the same seat belt grip governs the upper body. All of these share the harness grip as their common thread, so the position sits at the center of a web of transitions rather than being a dead end for either player."
+    }
+  ],
+  "clips": [
+    {
+      "id": "lpgcKpIgClw",
+      "title": "Why You Keep Losing The Back",
+      "by": "Brandon Mccaghren",
+      "vertical": false,
+      "channel": "Brandon Mccaghren",
+      "duration": 143,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "-lMabjvtaLk",
+      "title": "Entries Into Rear Triangle Back Position",
+      "by": "John Danaher",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 252,
+      "verified": "2026-07-14"
     }
   ]
 }

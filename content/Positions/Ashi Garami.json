@@ -363,6 +363,26 @@
       "leg lock defense system from top position in ashi garami",
       "top position defense against leg entanglements and heel hooks",
       "counter-attack methodology from defensive leg lock positions"
+    ],
+    "clips": [
+      {
+        "id": "m4sGDhukUmk",
+        "title": "Nasty heel hook from outside ashi garami",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
+        "duration": 141,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "D9_e_d6WpyU",
+        "title": "Reverse achilles lock from ashi garami",
+        "by": "Corey K",
+        "vertical": false,
+        "channel": "Corey K",
+        "duration": 84,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -705,6 +725,17 @@
       "leg entanglement system from bottom position offensive guard",
       "bottom position leg control offensive modern methodology",
       "modern no-gi competitive system for leg lock attacks"
+    ],
+    "clips": [
+      {
+        "id": "cRXsNPAgVLU",
+        "title": "Irimi ashi garami counter",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 29,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_family": [
@@ -769,6 +800,17 @@
     {
       "question": "What are the natural entry pathways into Ashi Garami and why do they cluster around hook-based guards?",
       "answer": "Ashi Garami is most commonly reached from hook-based guards such as Single Leg X-Guard, De La Riva, Reverse De La Riva, K-Guard, and X-Guard, because those positions already establish a leg hook and partial control of the opponent's leg. Since the defining feature of the entanglement is isolating a leg between one's own, a guard that already hooks and elevates a leg only needs to complete the trap and secure the inside space to arrive at Outside Ashi. These pathways also share the leg-drag and inside-hook mechanics that let a player transition without surrendering connection to the target leg. This is why the leg-lock game is tightly coupled to modern hook guards rather than to classical closed or half guard."
+    }
+  ],
+  "clips": [
+    {
+      "id": "_4jDUxFg7uU",
+      "title": "De La Riva knee bump ashi entry",
+      "by": "Gordon Ryan",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 165,
+      "verified": "2026-07-14"
     }
   ]
 }

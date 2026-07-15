@@ -263,7 +263,36 @@
         "answer": "When the bottom player transitions to Electric Chair, they need to release the lockdown partially and control your far leg for the split. Your grip priority shifts from whizzer defense against the underhook to actively squeezing your knees together and blocking access to your far leg. Use your hands to control their wrist or forearm reaching for your far leg. Keep hips low and legs tight rather than maintaining the wide base for Old School defense, as the wide base actually facilitates the Electric Chair leg separation."
       }
     ],
-    "safety_considerations": "When defending Vaporizer sweeps, be mindful of medial collateral ligament stress on the trapped knee during lockdown clearing. Avoid explosive twisting motions that can strain knee ligaments. If you feel sharp pain in the trapped knee during extraction attempts, stop immediately and tap. During training, communicate with partners about lockdown tightness and agree on resistance levels before drilling. The lockdown can apply significant force to the knee joint, particularly when combined with rotation during sweep defense."
+    "safety_considerations": "When defending Vaporizer sweeps, be mindful of medial collateral ligament stress on the trapped knee during lockdown clearing. Avoid explosive twisting motions that can strain knee ligaments. If you feel sharp pain in the trapped knee during extraction attempts, stop immediately and tap. During training, communicate with partners about lockdown tightness and agree on resistance levels before drilling. The lockdown can apply significant force to the knee joint, particularly when combined with rotation during sweep defense.",
+    "clips": [
+      {
+        "id": "kTSMGYlVJKY",
+        "title": "Freeing your trapped foot while passing half guard",
+        "by": "Kameron Ross",
+        "vertical": false,
+        "channel": "Kameron Ross",
+        "duration": 55,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "-49CypLW9aM",
+        "title": "Breaking the lockdown in half guard",
+        "by": "Superhero Jiu Jitsu Academy",
+        "vertical": false,
+        "channel": "Superhero Jiu Jitsu Academy ",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Y4eC_7dtzOA",
+        "title": "Passing the lockdown half guard",
+        "by": "Peter Mettler",
+        "vertical": false,
+        "channel": "Peter Mettler Martial Arts",
+        "duration": 73,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Defend Vaporizer Sweep Defender",
@@ -380,6 +409,35 @@
         "phase": "Phase 4: Competition Simulation",
         "focus": "Full resistance positional sparring from Vaporizer",
         "description": "Full resistance positional sparring starting from Vaporizer. Bottom player works to complete sweeps while top player uses all available defenses. Track which attack chains produce the highest success rates against fully resisting opponents to identify your most reliable offensive sequences."
+      }
+    ],
+    "clips": [
+      {
+        "id": "8ZgEL2zU_jg",
+        "title": "Lockdown to the vaporizer sweep",
+        "by": "Axel Collazo",
+        "vertical": false,
+        "channel": "Axel Collazo",
+        "duration": 98,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ITZ4ZPcsY2c",
+        "title": "The vaporizer sweep breakdown",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 140,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "CqL4DH4xU3A",
+        "title": "Stoner control to the vaporizer",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 158,
+        "verified": "2026-07-15"
       }
     ]
   }

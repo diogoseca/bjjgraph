@@ -280,7 +280,18 @@
         "answer": "Immediately transition to a back door escape by sliding your hips down and away rather than turning. Your opponent will likely tighten their hooks and chest pressure anticipating another turn attempt, which paradoxically creates space below their control for the back door exit. Alternatively, transition to a shoulder walk escape on the opposite side from your initial turn attempt, using the direction change to exploit their defensive positioning and create unpredictability in your escape system."
       }
     ],
-    "safety_considerations": "This escape involves rotational movement of the neck and spine under load from your opponent's body weight and control pressure. Never jerk your head or neck explosively during the turn; maintain controlled movement throughout the rotation. If you feel your opponent has a deep choking grip during the rotation, pause and return to hand fighting rather than forcing the turn with a partially locked choke. During training, communicate with your partner about resistance levels and tap immediately if any neck compression occurs during the rotation phase. Avoid this technique if you have existing cervical spine injuries without medical clearance."
+    "safety_considerations": "This escape involves rotational movement of the neck and spine under load from your opponent's body weight and control pressure. Never jerk your head or neck explosively during the turn; maintain controlled movement throughout the rotation. If you feel your opponent has a deep choking grip during the rotation, pause and return to hand fighting rather than forcing the turn with a partially locked choke. During training, communicate with your partner about resistance levels and tap immediately if any neck compression occurs during the rotation phase. Avoid this technique if you have existing cervical spine injuries without medical clearance.",
+    "clips": [
+      {
+        "id": "8XBJboAGzRk",
+        "title": "Back escape: clearing the arm to turn in",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 260,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Turn into Opponent from Back Defender",
@@ -391,6 +402,17 @@
         "phase": "Phase 3: Mount Transition Decision-Making",
         "focus": "Recognizing the transition point and executing mount climb",
         "description": "Partner completes the escape sequence against your back control while you practice identifying when back control is lost and transitioning proactively to mount. Develop the judgment to recognize the point of no return and the technical ability to climb to mount during the opponent's rotation before they can close guard."
+      }
+    ],
+    "clips": [
+      {
+        "id": "lpgcKpIgClw",
+        "title": "Why you keep losing back control",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 143,
+        "verified": "2026-07-15"
       }
     ]
   }

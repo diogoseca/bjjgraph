@@ -274,7 +274,36 @@
         "answer": "When the opponent turns toward you during crab ride establishment, they create back exposure on the opposite side. This opens direct back take opportunities—follow their turning momentum and transition to establishing back hooks rather than fighting to consolidate crab ride against the turn. If they turn aggressively, a guillotine or darce choke may become available as their neck enters your control space. The key principle is to capitalize on their defensive momentum rather than resist it, converting their escape into your next attack."
       }
     ],
-    "safety_considerations": "RDLR to Crab Ride involves inversion mechanics that place significant stress on the cervical spine during the threading motion underneath the opponent. Never force the inversion if your neck becomes compressed or your rotation path is blocked by the opponent's weight. Tap immediately if you feel cervical loading during a failed inversion attempt. Training partners should avoid driving full bodyweight onto an inverting player's head or neck. Build cervical stability and inversion comfort progressively through solo drilling before attempting the technique under resistance. Practitioners with existing neck injuries should consult a medical professional before training inversion-based techniques."
+    "safety_considerations": "RDLR to Crab Ride involves inversion mechanics that place significant stress on the cervical spine during the threading motion underneath the opponent. Never force the inversion if your neck becomes compressed or your rotation path is blocked by the opponent's weight. Tap immediately if you feel cervical loading during a failed inversion attempt. Training partners should avoid driving full bodyweight onto an inverting player's head or neck. Build cervical stability and inversion comfort progressively through solo drilling before attempting the technique under resistance. Practitioners with existing neck injuries should consult a medical professional before training inversion-based techniques.",
+    "clips": [
+      {
+        "id": "Y6fBPjHzfv4",
+        "title": "DLR to crab ride back take",
+        "by": "Moncaio Brothers",
+        "vertical": false,
+        "channel": "Moncaio Brothers Jiujitsu",
+        "duration": 28,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "A1QAE6FNr1c",
+        "title": "De La Riva to crab ride back take, basics",
+        "by": "PTT Chilliwack",
+        "vertical": false,
+        "channel": "PTT Chilliwack",
+        "duration": 180,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "a8wrADdyZPA",
+        "title": "Reverse De La Riva to crab ride via inversion",
+        "by": "Kameron Ross",
+        "vertical": false,
+        "channel": "Kameron Ross",
+        "duration": 229,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "RDLR to Crab Ride Defender",
@@ -393,6 +422,35 @@
         "phase": "Phase 3: Live Positional Defense",
         "focus": "Applying defensive skills under full resistance with realistic pressure",
         "description": "Positional sparring starting from RDLR where the bottom player works to achieve crab ride and you work to prevent it and pass the guard. Full resistance from both players. Three-minute rounds with resets when either objective is achieved. Develop the ability to chain defensive options when the first choice is countered and maintain composure under rotational pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "hdSw-ZmcBRA",
+        "title": "Defense to reverse De La Riva and foot lock",
+        "by": "Ninja Pinto",
+        "vertical": false,
+        "channel": "Ninja Pinto BJJ",
+        "duration": 31,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "aQ2vFXXBn-o",
+        "title": "Countering a full inversion",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "O2krF_r_hQU",
+        "title": "Passing the reverse De La Riva guard",
+        "by": "Pathfinder Jiu-Jitsu Team",
+        "vertical": false,
+        "channel": "Pathfinder Jiu-Jitsu Team",
+        "duration": 155,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -281,7 +281,27 @@
         "answer": "If the triangle is fully locked with proper angle, posturing becomes extremely low percentage. Transition to alternative escapes: fight the ankle-behind-knee connection to disrupt the lock configuration, attempt bridge-based escapes that attack the opponent's base stability rather than the triangle structure directly, or work a frame-and-shrimp escape that prioritizes lateral movement. The key recognition is that different escape techniques work at different stages of triangle tightness, and posture up is most effective before the lock is fully cinched."
       }
     ],
-    "safety_considerations": "The mounted triangle involves cervical spine compression and shoulder pressure that can cause serious neck injury. Never explosively jerk your head free from the triangle as this risks straining cervical vertebrae. If you feel numbness, tingling, or sharp pain in the neck or trapped arm, tap immediately rather than continuing the escape. Practice this escape with controlled and progressive resistance initially, and communicate with training partners about pressure intensity. Be especially careful with the trapped arm during extraction, as forced removal against a locked triangle can hyperextend the elbow joint."
+    "safety_considerations": "The mounted triangle involves cervical spine compression and shoulder pressure that can cause serious neck injury. Never explosively jerk your head free from the triangle as this risks straining cervical vertebrae. If you feel numbness, tingling, or sharp pain in the neck or trapped arm, tap immediately rather than continuing the escape. Practice this escape with controlled and progressive resistance initially, and communicate with training partners about pressure intensity. Be especially careful with the trapped arm during extraction, as forced removal against a locked triangle can hyperextend the elbow joint.",
+    "clips": [
+      {
+        "id": "l-HhOV9UjJU",
+        "title": "Preventing the mounted triangle by posturing",
+        "by": "Justen Hamilton",
+        "vertical": false,
+        "channel": "Justen Hamilton",
+        "duration": 104,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "sR2rS2dwpNY",
+        "title": "Escaping the triangle choke",
+        "by": "Rener and Ryron Gracie",
+        "vertical": false,
+        "channel": "Hayabusa",
+        "duration": 117,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Posture Up from Mounted Triangle Defender",
@@ -406,6 +426,26 @@
         "phase": "Phase 4: Live Mounted Triangle Retention",
         "focus": "Full resistance mounted triangle defense against all escape types",
         "description": "Begin in mounted triangle and defend all escape attempts during live rolling. Track success rates across maintaining the triangle, finishing submissions, transitioning to stable mount, and losing position entirely. Refine counter-timing and transition decisions based on live feedback across multiple training partners."
+      }
+    ],
+    "clips": [
+      {
+        "id": "zwb5LTgOm1o",
+        "title": "Finish the mounted triangle without losing top",
+        "by": "Lux",
+        "vertical": false,
+        "channel": "Lux’s jiu jitsu channel",
+        "duration": 45,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "1hjapzU7lQg",
+        "title": "Finishing the mounted triangle",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 177,
+        "verified": "2026-07-15"
       }
     ]
   }

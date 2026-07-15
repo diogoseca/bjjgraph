@@ -278,7 +278,27 @@
         "answer": "Against larger opponents, speed and angle creation become paramount over power-based exchanges. Prioritize getting to your knees quickly using technical stand-up mechanics rather than extended clinch battles where size advantages compound over time. Look for immediate back exposure rather than face-to-face scrambles where the larger opponent can use their weight. Use direction changes and level changes more aggressively to negate strength advantages, and consider transitioning to leg entanglements from the scramble if upper body exchanges are being dominated by size."
       }
     ],
-    "safety_considerations": "Scrambles involve rapid direction changes and explosive movements that stress the neck, shoulders, and knees. Avoid posting on fully extended arms during direction changes as this risks wrist and elbow hyperextension injuries. During training, communicate with your partner when transitioning through scramble positions to prevent accidental head-to-head collisions. Progress gradually from slow drilling to full-speed scramble work to build the proprioceptive awareness needed for safe execution. Be particularly cautious of knee torque when legs become entangled during the transition, and tap immediately if any joint is caught at an unnatural angle."
+    "safety_considerations": "Scrambles involve rapid direction changes and explosive movements that stress the neck, shoulders, and knees. Avoid posting on fully extended arms during direction changes as this risks wrist and elbow hyperextension injuries. During training, communicate with your partner when transitioning through scramble positions to prevent accidental head-to-head collisions. Progress gradually from slow drilling to full-speed scramble work to build the proprioceptive awareness needed for safe execution. Be particularly cautious of knee torque when legs become entangled during the transition, and tap immediately if any joint is caught at an unnatural angle.",
+    "clips": [
+      {
+        "id": "GC0tdc01ASI",
+        "title": "Single leg reversal off a failed attack",
+        "by": "Foundation Chicago",
+        "vertical": false,
+        "channel": "Foundation Chicago",
+        "duration": 44,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "495HaYBg-mY",
+        "title": "Single leg reversal from turtle",
+        "by": "Brian",
+        "vertical": false,
+        "channel": "Pathfinder Jiu-Jitsu Team",
+        "duration": 36,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Recovery from Failed Sweep Defender",
@@ -399,6 +419,17 @@
         "phase": "Phase 4: Competition Simulation",
         "focus": "Full-speed scramble defense under match conditions",
         "description": "Live sparring rounds where the training partner is specifically tasked with attempting sweep-to-scramble chains from open guard. Practice reading the transitions under full competitive intensity with scoring and time pressure. Review rounds to identify patterns in successful and failed defensive responses."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ZAOF5qNApJ0",
+        "title": "Counters to a failed butterfly sweep",
+        "by": "Oneonta Jiu Jitsu",
+        "vertical": false,
+        "channel": "OneontaJiuJitsu Academy",
+        "duration": 98,
+        "verified": "2026-07-15"
       }
     ]
   }

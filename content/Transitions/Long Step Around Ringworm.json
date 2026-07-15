@@ -270,7 +270,27 @@
         "answer": "The optimal window is when the opponent is actively adjusting or reinforcing their lapel grips rather than monitoring your footwork. Watch for moments when both their hands are occupied with fabric manipulation—their hip defense is weakest when their attention and grip strength are committed to maintaining the ringworm configuration rather than tracking your passing angle."
       }
     ],
-    "safety_considerations": "The Long Step Around Ringworm is generally low-risk compared to other guard passes, as it involves controlled stepping rather than explosive movements or joint manipulation. However, practitioners should be aware of potential knee stress from the wide stepping arc, particularly if executed on sticky or uneven mats. Ensure adequate warmup of hip flexors and groin muscles before drilling, as the exaggerated step requires significant hip mobility. When applying forward pressure after the step, avoid driving directly into partner's face or throat—aim for chest and shoulder contact. Partners playing ringworm guard should tap immediately if lapel wraps create choking pressure during the passing attempt. During initial learning phases, execute at reduced speed to develop proper mechanics before adding explosive timing."
+    "safety_considerations": "The Long Step Around Ringworm is generally low-risk compared to other guard passes, as it involves controlled stepping rather than explosive movements or joint manipulation. However, practitioners should be aware of potential knee stress from the wide stepping arc, particularly if executed on sticky or uneven mats. Ensure adequate warmup of hip flexors and groin muscles before drilling, as the exaggerated step requires significant hip mobility. When applying forward pressure after the step, avoid driving directly into partner's face or throat—aim for chest and shoulder contact. Partners playing ringworm guard should tap immediately if lapel wraps create choking pressure during the passing attempt. During initial learning phases, execute at reduced speed to develop proper mechanics before adding explosive timing.",
+    "clips": [
+      {
+        "id": "lDTUXbOu4os",
+        "title": "Long step pass drill: roll hips and tripod back",
+        "by": "Greg Hamilton",
+        "vertical": false,
+        "channel": "Renzo Gracie Jiu Jitsu DFW",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "l9xDCQv0TgQ",
+        "title": "Long step guard pass body mechanics",
+        "by": "Greg Hamilton",
+        "vertical": false,
+        "channel": "Renzo Gracie Jiu Jitsu DFW",
+        "duration": 116,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Long Step Around Ringworm Defender",
@@ -394,6 +414,17 @@
         "phase": "Week 7+",
         "focus": "Full resistance situational sparring",
         "description": "Start in ringworm guard with partner free to choose any passing approach including long step. Defend all passing attempts with full resistance, using the long step defense as one component of your complete ringworm guard retention system. Score based on guard retention, back takes, and sweeps."
+      }
+    ],
+    "clips": [
+      {
+        "id": "aR0dbddbfQA",
+        "title": "Passing the Polish worm rider lapel guard",
+        "by": "Daniel Maira",
+        "vertical": false,
+        "channel": "Movement Art",
+        "duration": 54,
+        "verified": "2026-07-15"
       }
     ]
   },

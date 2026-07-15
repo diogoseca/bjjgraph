@@ -271,7 +271,36 @@
         "answer": "Commit when opponent's posture is fully broken, their defensive frames are neutralized, and you feel bone-on-bone wrist blade contact under their chin. Reset when opponent achieves any posture recovery, begins stacking with forward drive, or establishes a strong frame between your bodies. Chasing a deteriorating position wastes energy and exposes you to guard passes."
       }
     ],
-    "safety_considerations": "The High Elbow Guillotine Variation is a blood choke that can cause unconsciousness within seconds when applied correctly. Training partners should tap early and clearly when they feel the carotid compression. The attacker must release immediately upon tap - there is no safe period to hold after submission. When drilling, start with light pressure and gradually increase so partners can calibrate tap timing. Avoid cranking or twisting the neck, which can cause cervical spine injury separate from the choke itself. Partners with neck injuries, cervical disc issues, or cardiovascular conditions should avoid this technique. If a training partner loses consciousness, release immediately, place them in recovery position, and monitor breathing until they regain consciousness."
+    "safety_considerations": "The High Elbow Guillotine Variation is a blood choke that can cause unconsciousness within seconds when applied correctly. Training partners should tap early and clearly when they feel the carotid compression. The attacker must release immediately upon tap - there is no safe period to hold after submission. When drilling, start with light pressure and gradually increase so partners can calibrate tap timing. Avoid cranking or twisting the neck, which can cause cervical spine injury separate from the choke itself. Partners with neck injuries, cervical disc issues, or cardiovascular conditions should avoid this technique. If a training partner loses consciousness, release immediately, place them in recovery position, and monitor breathing until they regain consciousness.",
+    "clips": [
+      {
+        "id": "NUnTxPvjCa0",
+        "title": "The Marcelotine high elbow guillotine",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "stuartcooperfilms",
+        "duration": 73,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "9U5nyBImGj4",
+        "title": "High elbow guillotine aka Marcelotine",
+        "by": "Wrecking Crew BJJ",
+        "vertical": false,
+        "channel": "Wrecking Crew BJJ",
+        "duration": 45,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "IvSVZuezQGo",
+        "title": "Double elbow to high elbow guillotine",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 171,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "High Elbow Guillotine Variation Defender",
@@ -396,6 +425,17 @@
         "phase": "Week 7+",
         "focus": "Live defense integration",
         "description": "Positional sparring starting from Hindulotine with partner actively attacking high elbow variations. Develop instinctive recognition and defense selection under full resistance. Analyze which defensive options work against specific training partners and refine timing."
+      }
+    ],
+    "clips": [
+      {
+        "id": "8TsrMk-cwHs",
+        "title": "Standing guillotine defense with two takedowns",
+        "by": "Chewjitsu",
+        "vertical": false,
+        "channel": "Chewjitsu",
+        "duration": 215,
+        "verified": "2026-07-15"
       }
     ]
   },

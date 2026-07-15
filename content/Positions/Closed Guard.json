@@ -382,7 +382,18 @@
         "description": "Probability of finishing submission from top position"
       },
       "average_time": "1-3 minutes depending on skill level and guard opening strategy"
-    }
+    },
+    "clips": [
+      {
+        "id": "aQ2vFXXBn-o",
+        "title": "Countering a full inversion",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-14"
+      }
+    ]
   },
   "bottom": {
     "name": "Closed Guard Bottom",
@@ -855,7 +866,36 @@
         "description": "Probability of finishing submission directly from position"
       },
       "average_time": "1-3 minutes depending on skill differential and guard breaking proficiency"
-    }
+    },
+    "clips": [
+      {
+        "id": "dMcMblcXhF0",
+        "title": "Sweep from closed guard",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "Gentle Art Media",
+        "duration": 73,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "dfP-Ov8FBUo",
+        "title": "Cross collar chokes from closed guard",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 80,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "vSmRbpNmf-E",
+        "title": "Armbars from closed guard",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 102,
+        "verified": "2026-07-14"
+      }
+    ]
   },
   "flashcards_family": [
     {
@@ -919,6 +959,26 @@
     {
       "question": "Why does passivity from either player tend to favor the bottom player in the closed guard?",
       "answer": "The bottom player benefits from a static position because the locked legs continue to restrict the top player's movement and breathing without requiring active effort, while the top player burns energy simply supporting weight and resisting posture breaks. Time therefore works against the top player, who must actively progress through posture, grips, and opening to escape the disadvantage. If neither player initiates, the top player slowly fatigues while remaining trapped and exposed to attacks. This is why the position rewards constant engagement from the top player and patient control from the bottom, rather than stalling by either side."
+    }
+  ],
+  "clips": [
+    {
+      "id": "AYWgYtOqU6c",
+      "title": "Closed guard fundamentals",
+      "by": "Dickie Martin",
+      "vertical": false,
+      "channel": "Carlson Gracie London",
+      "duration": 88,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "dMcMblcXhF0",
+      "title": "Sweep from closed guard",
+      "by": "Roger Gracie",
+      "vertical": false,
+      "channel": "Gentle Art Media",
+      "duration": 73,
+      "verified": "2026-07-14"
     }
   ]
 }

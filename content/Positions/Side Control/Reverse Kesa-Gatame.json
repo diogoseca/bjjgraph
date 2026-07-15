@@ -372,6 +372,26 @@
         "question": "How do you recover position if your opponent partially escapes and inserts a knee shield?",
         "answer": "Don't fight the knee shield directly. Instead, transition to a different position that negates their defense. Options include: sliding to north-south by walking around their head, transitioning to knee-on-belly by posting your knee on their abdomen, or switching to standard side control and working to remove the knee shield. The key is recognizing when reverse kesa is compromised and flowing to the next position."
       }
+    ],
+    "clips": [
+      {
+        "id": "n-kEfODDUPM",
+        "title": "Reverse Kesa Leg Submission",
+        "by": "dogtownman",
+        "vertical": false,
+        "channel": "dogtownman",
+        "duration": 130,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "RYo2TWEnOiY",
+        "title": "Kimura Setup from Reverse Kesa Gatame",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 234,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -679,6 +699,35 @@
         "question": "What role does your far leg play in successful escapes from Reverse Kesa-Gatame?",
         "answer": "Your far leg provides the base and driving power for hip escapes. Keep it bent with the foot flat on the mat, ready to push. This leg drives your shrimping motion and prevents you from being flattened. Critically, do not bring this knee toward your opponent - this feeds them a path to mount. Instead, use it to push your hips away while keeping your near leg mobile for knee shield insertion."
       }
+    ],
+    "clips": [
+      {
+        "id": "O9H8V9BL_b0",
+        "title": "Escaping Kesa Gatame Position",
+        "by": "Full Metal Jiu Jitsu",
+        "vertical": false,
+        "channel": "Full Metal Jiu Jitsu",
+        "duration": 79,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "4L25UQntnPg",
+        "title": "Reverse Hip Escape from Side Control",
+        "by": "Fox Den Martial Arts",
+        "vertical": false,
+        "channel": "Fox Den Martial Arts",
+        "duration": 25,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "2M_6VytUaus",
+        "title": "Kesa Gatame Escape",
+        "by": "SBG Australia",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 43,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -713,6 +762,26 @@
     {
       "question": "What is the significance of maintaining a true perpendicular angle rather than facing too far toward the opponent's legs?",
       "answer": "The position's control depends on the top player's sternum pressing across the bottom player's upper chest at a right angle to their centerline. If the top player over-rotates toward the legs, chest-to-chest contact thins out and the bottom player gains room to turn in toward the now-open space. That lost pressure simultaneously weakens the far-arm trap and the breathing restriction that make the pin work. Both players read this angle closely: the top preserves the perpendicular to keep control, while the bottom hunts for any drift off it as the opening to recover."
+    }
+  ],
+  "clips": [
+    {
+      "id": "SBapox2M2dE",
+      "title": "Ushiro-Kesa-Gatame (Reverse Scarf Hold)",
+      "by": "Kodokan",
+      "vertical": false,
+      "channel": "KODOKAN",
+      "duration": 54,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "4EcIrvgi9q4",
+      "title": "One Minute Clinic: Ushiro Kesa Gatame",
+      "by": "Nick Delpopolo",
+      "vertical": false,
+      "channel": "Nick Delpopolo",
+      "duration": 60,
+      "verified": "2026-07-14"
     }
   ]
 }

@@ -256,7 +256,36 @@
         "answer": "As they Granby roll left, immediately follow their rotation by stepping your right leg over and pulling their far leg across your body for a leg drag. Their rolling momentum exposes their back angle, making the leg drag high-percentage. If the leg drag is unavailable, redirect into a toreando pass by controlling both ankles and redirecting their legs to the mat on the side they rolled toward. Never let them complete the Granby and re-establish guard without pursuing a follow-up pass."
       }
     ],
-    "safety_considerations": "The Stack Pass from Inversion puts significant pressure on the opponent's cervical spine and lower back when fully stacked. Apply pressure progressively rather than explosively to allow training partners to tap if their neck or back is compromised. Be especially cautious with older training partners or those with existing spine issues. Never hold a stack position statically for extended periods in training. If your partner signals discomfort or taps, release pressure immediately. Avoid this technique entirely if your partner has known cervical spine problems or recent back injuries."
+    "safety_considerations": "The Stack Pass from Inversion puts significant pressure on the opponent's cervical spine and lower back when fully stacked. Apply pressure progressively rather than explosively to allow training partners to tap if their neck or back is compromised. Be especially cautious with older training partners or those with existing spine issues. Never hold a stack position statically for extended periods in training. If your partner signals discomfort or taps, release pressure immediately. Avoid this technique entirely if your partner has known cervical spine problems or recent back injuries.",
+    "clips": [
+      {
+        "id": "aQ2vFXXBn-o",
+        "title": "Countering a full inversion",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "M6gK8yjDFGE",
+        "title": "How to pass the inverted guard",
+        "by": "Wim Deputter",
+        "vertical": false,
+        "channel": "Wim Deputter BJJ",
+        "duration": 91,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "P7JKadlMi_M",
+        "title": "Passing the inverted guard",
+        "by": "JiuJitsu.com",
+        "vertical": false,
+        "channel": "JiuJitsu.com",
+        "duration": 97,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Stack Pass from Inversion Defender",
@@ -374,6 +403,26 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Full resistance rounds starting in grasshopper guard against partner committed to stack passing. Apply complete defensive system including prevention, mid-stack escapes, and worst-case guard recovery sequences"
+      }
+    ],
+    "clips": [
+      {
+        "id": "hj1nHZUZvoA",
+        "title": "Stack pass counter with the funk roll",
+        "by": "Adam Bradley",
+        "vertical": false,
+        "channel": "Adam Bradley",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "mOvf60z4HS0",
+        "title": "Stack pass defense to triangle trap",
+        "by": "Mark Cerrone",
+        "vertical": false,
+        "channel": "Mark Cerrone",
+        "duration": 61,
+        "verified": "2026-07-15"
       }
     ]
   },

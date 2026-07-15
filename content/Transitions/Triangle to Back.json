@@ -303,7 +303,27 @@
         "answer": "The optimal moment is when the opponent commits their weight and momentum to a directional escape, specifically when they begin rotating their shoulders away from the choking leg or when they drive forward aggressively to stack. The commitment must be genuine, not exploratory. Wait for the moment their center of gravity shifts past the point of easy reversal. Initiating too early when they are only testing the direction allows them to change course, while initiating too late after they have already created significant distance means you have lost the connection needed for the transition."
       }
     ],
-    "safety_considerations": "The triangle to back transition involves dynamic rotational movement and rapid position changes that require careful progressive practice. Protect your own spine during the rotation by maintaining proper alignment and never allowing the opponent to stack your weight directly onto your neck or cervical spine. When practicing, begin with slow cooperative drilling to establish smooth movement patterns before adding any resistance. Partners must communicate clearly and stop immediately if either person feels compressed, twisted, or unstable in an unsafe way. Be particularly careful of your own ankles during the transition phase, as premature ankle crossing creates vulnerability to ankle lock attacks. The person being taken to back control should understand basic back escape principles to safely manage the position without panicking or making explosive defensive movements that could injure either partner. Control your descent throughout and never drop your full weight suddenly onto the training partner during the consolidation phase."
+    "safety_considerations": "The triangle to back transition involves dynamic rotational movement and rapid position changes that require careful progressive practice. Protect your own spine during the rotation by maintaining proper alignment and never allowing the opponent to stack your weight directly onto your neck or cervical spine. When practicing, begin with slow cooperative drilling to establish smooth movement patterns before adding any resistance. Partners must communicate clearly and stop immediately if either person feels compressed, twisted, or unstable in an unsafe way. Be particularly careful of your own ankles during the transition phase, as premature ankle crossing creates vulnerability to ankle lock attacks. The person being taken to back control should understand basic back escape principles to safely manage the position without panicking or making explosive defensive movements that could injure either partner. Control your descent throughout and never drop your full weight suddenly onto the training partner during the consolidation phase.",
+    "clips": [
+      {
+        "id": "e5-wNLYzJT0",
+        "title": "Back Triangle When Your Choke Didn't Work",
+        "by": "Josh Presley",
+        "vertical": false,
+        "channel": "Josh Presley",
+        "duration": 101,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ePrZ7vwn-ss",
+        "title": "Back Take from Failed Arm Triangle",
+        "by": "Chosen Few BJJ",
+        "vertical": false,
+        "channel": "Chosen Few BJJ",
+        "duration": 118,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Triangle to Back Defender",
@@ -433,6 +453,26 @@
         "phase": "Phase 4: Positional sparring with full resistance",
         "focus": "Defending the complete transition against full-speed, full-resistance attempts",
         "description": "Start in triangle control with partner attempting the back take at full speed and resistance. Defender uses complete defensive toolkit to prevent back establishment. Track success rate of preventing back control across multiple rounds. Reset whenever back control is fully established or defender escapes to neutral position."
+      }
+    ],
+    "clips": [
+      {
+        "id": "OltjLaTW3wQ",
+        "title": "3 Ways to Defend the Back Take",
+        "by": "Roberto \"Cyborg\" Abreu",
+        "vertical": false,
+        "channel": "Cyborg BJJ",
+        "duration": 89,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "485wvqwlBYA",
+        "title": "Defending Back Control Face Down and Sprawled",
+        "by": "Academy Jiu Jitsu",
+        "vertical": false,
+        "channel": "Academy Jiu Jitsu",
+        "duration": 92,
+        "verified": "2026-07-15"
       }
     ]
   },

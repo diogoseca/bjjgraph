@@ -410,5 +410,34 @@
       "question": "How does breathing affect bridge and shrimp performance?",
       "answer": "Holding your breath drains oxygen and saps power across repetitions; exhaling during explosive efforts and inhaling during transitions sustains energy and power output through long escape sequences."
     }
+  ],
+  "clips": [
+    {
+      "id": "w_0fqd8aQco",
+      "title": "How to shrimp",
+      "by": "Roy Dean",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 39,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "0TlVTXHE5W0",
+      "title": "Shrimp and reverse shrimp solo drill",
+      "by": "Revolution BJJ",
+      "vertical": false,
+      "channel": "Revolution BJJ",
+      "duration": 28,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "fNEaCaFmnAk",
+      "title": "Hip bridge solo drill",
+      "by": "Kristen DeBruycker",
+      "vertical": false,
+      "channel": "Kristen DeBruycker",
+      "duration": 17,
+      "verified": "2026-07-15"
+    }
   ]
 }

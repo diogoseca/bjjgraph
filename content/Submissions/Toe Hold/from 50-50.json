@@ -419,6 +419,35 @@
         "question": "Your opponent commits both hands to stripping your figure-four grip — what opportunity does this create?",
         "answer": "When the opponent dedicates both hands to breaking your toe hold grip, they abandon all defensive control of their own legs and heel. This creates an immediate opportunity to release the toe hold and transition to a heel hook, since the heel they were previously protecting is now undefended. Alternatively, transition to a kneebar by releasing the foot and controlling above the knee. The opponent cannot simultaneously strip your grip and defend their heel."
       }
+    ],
+    "clips": [
+      {
+        "id": "B_StkmaI3Nc",
+        "title": "Toe Hold from 50/50",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 17,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "xwaJm1Ft5lc",
+        "title": "Paper Cutter Toehold from 50/50",
+        "by": "Garden State BJJ",
+        "vertical": false,
+        "channel": "Garden State Brazilian Jiu-Jitsu Academy",
+        "duration": 60,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "BbPdLSszYt8",
+        "title": "Fifty-fifty toe hold",
+        "by": "Ninja Pinto",
+        "vertical": false,
+        "channel": "Ninja Pinto BJJ",
+        "duration": 70,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -577,6 +606,26 @@
         "phase": "Phase 4: Live Positional Defense Sparring",
         "focus": "Full-speed defense under realistic conditions",
         "description": "Positional sparring from 50-50 where partner uses full leg lock arsenal including toe hold, heel hook, and ankle lock threats. Practice the complete defensive decision tree under pressure with all tools available. Maintain strict tapping discipline—tap early and reset to maximize repetitions and reinforce safe training habits. Review defensive gaps after each round and target specific improvements."
+      }
+    ],
+    "clips": [
+      {
+        "id": "3a9k8-ZcYrk",
+        "title": "How to escape the toe hold",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "The King Life",
+        "duration": 106,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "ydWFAUrv8Ns",
+        "title": "Toe Hold escape from 50/50",
+        "by": "Catch Wrestling Alliance",
+        "vertical": false,
+        "channel": "Catch Wrestling Alliance",
+        "duration": 150,
+        "verified": "2026-07-14"
       }
     ]
   },

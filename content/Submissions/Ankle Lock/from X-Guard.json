@@ -356,6 +356,35 @@
         "answer": "Begin with X-Guard grips controlling the opponent's ankle with one hand and sleeve or belt with the other for sweep control. When transitioning, first release the upper body grip while maintaining ankle contact with your primary hand. Thread your attacking arm under the Achilles tendon with wrist blade positioned against the tendon. Then release the remaining guard grip to complete the figure-four by clasping over your own wrist. This sequential release ensures you never lose all contact with the ankle during transition, preventing the opponent from retracting their foot during the brief grip change window.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "L1vtyCwp9Y0",
+        "title": "X Guard to Musumeci leg lock",
+        "by": "Alberto Serrano",
+        "vertical": false,
+        "channel": "Alberto Serrano BJJ",
+        "duration": 62,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "aCh6WbFYkbk",
+        "title": "X Guard to straight ankle lock",
+        "by": "Satori BJJ",
+        "vertical": false,
+        "channel": "Satori BJJ",
+        "duration": 45,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "lUeZ2AAbm7c",
+        "title": "X Guard to Saddle to straight ankle lock",
+        "by": "The Bear's Den BJJ",
+        "vertical": false,
+        "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
+        "duration": 82,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -485,6 +514,35 @@
         "phase": "Phase 4: Live Integration",
         "focus": "Full-speed positional sparring with ankle lock defense as a specific training goal",
         "description": "Positional sparring starting from X-Guard with both players at full intensity. Defender focuses on recognizing and defending ankle lock attempts while also addressing sweep threats and guard passing. Track defensive success rates and identify patterns in defensive failures for targeted improvement in subsequent sessions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "JSOM86_1lRo",
+        "title": "Foot lock and single leg X guard escapes",
+        "by": "James O'Connor",
+        "vertical": false,
+        "channel": "James O’Connor",
+        "duration": 111,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "vg-Luhls7yE",
+        "title": "Straight ankle lock: defence and escapes",
+        "by": "Jiu Jitsu Brotherhood",
+        "vertical": false,
+        "channel": "Jiu Jitsu Brotherhood",
+        "duration": 164,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "DqoqyOCli0I",
+        "title": "Escaping the straight ankle lock (beginner)",
+        "by": "Kayfabe Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Kayfabe Jiu-Jitsu",
+        "duration": 169,
+        "verified": "2026-07-14"
       }
     ]
   }

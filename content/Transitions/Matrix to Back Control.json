@@ -282,7 +282,36 @@
         "answer": "Prioritize establishing the seatbelt grip before inserting the second hook. Upper body control through the seatbelt prevents the opponent from turning to face you and provides structural stability that makes the second hook insertion much easier. With seatbelt control and one hook, you have sufficient control to methodically work the second hook in. Attempting the second hook without upper body control often results in the opponent turning into you and escaping to guard."
       }
     ],
-    "safety_considerations": "This transition involves dynamic rotational movement where both practitioners are in motion simultaneously. Maintain awareness of surrounding mat space to avoid collisions with other training partners. When following the rotation, control your forward momentum to prevent driving your opponent's face or neck into the mat. During training, reduce speed until both partners are comfortable with the timing and movement pattern. Avoid cranking the neck or applying excessive downward pressure during the follow-through phase. Communicate with your training partner about intensity level before drilling."
+    "safety_considerations": "This transition involves dynamic rotational movement where both practitioners are in motion simultaneously. Maintain awareness of surrounding mat space to avoid collisions with other training partners. When following the rotation, control your forward momentum to prevent driving your opponent's face or neck into the mat. During training, reduce speed until both partners are comfortable with the timing and movement pattern. Avoid cranking the neck or applying excessive downward pressure during the follow-through phase. Communicate with your training partner about intensity level before drilling.",
+    "clips": [
+      {
+        "id": "DvD3VVl1kDk",
+        "title": "De La Riva wrist control to matrix back take",
+        "by": "Marcos Luciana",
+        "vertical": false,
+        "channel": "luciana MARCOS",
+        "duration": 59,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "BWDsJPV7iPA",
+        "title": "The no-gi matrix back take",
+        "by": "Eivind Langaker",
+        "vertical": false,
+        "channel": "LangakerBjj",
+        "duration": 96,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "H0SUb0Eo168",
+        "title": "Setting up and finishing the matrix back take",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ Plus",
+        "duration": 132,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Matrix to Back Control Defender",
@@ -403,6 +432,17 @@
         "phase": "Phase 4: Integrated Counter-Strategy",
         "focus": "Mixing Matrix attempts with feints and alternative attacks",
         "description": "Live positional sparring where practitioner uses Matrix feints combined with real attempts and alternative attacks. Partner responds with appropriate defense. Practitioner develops the ability to read the opponent's defensive commitment and choose between completing the Matrix, aborting, or switching to a different attack in real time."
+      }
+    ],
+    "clips": [
+      {
+        "id": "QCEdvqfWZMI",
+        "title": "Matrix defense from the leg drag",
+        "by": "BJJ Lab Zurich",
+        "vertical": false,
+        "channel": "BJJ Lab Zürich",
+        "duration": 96,
+        "verified": "2026-07-15"
       }
     ]
   }

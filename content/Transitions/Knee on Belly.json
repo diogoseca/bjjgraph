@@ -267,7 +267,36 @@
         "answer": "A static opponent is absorbing pressure but not creating escape opportunities you can exploit. Escalate by increasing knee pressure to force a reaction, adjusting grips to threaten a collar choke, or switching to cross collar grip to set up a baseball bat choke. You can also transition to mount since their passivity means no active defense against positional advancement. The goal is always to force a reaction that opens an attack."
       }
     ],
-    "safety_considerations": "Knee on Belly creates significant pressure on the rib cage and solar plexus that can cause injury if applied recklessly. When training, build pressure gradually rather than dropping full weight immediately, especially with newer training partners who may not know how to tap or signal discomfort appropriately. Be aware that direct pressure to the solar plexus can cause temporary breathing difficulty and nausea. Partners with rib injuries, recent abdominal surgery, or respiratory conditions should communicate these issues before drilling. During competition, the position is legal and expected, but training should emphasize controlled application to prevent rib fractures or cartilage damage that can occur from sudden, full-force knee placement."
+    "safety_considerations": "Knee on Belly creates significant pressure on the rib cage and solar plexus that can cause injury if applied recklessly. When training, build pressure gradually rather than dropping full weight immediately, especially with newer training partners who may not know how to tap or signal discomfort appropriately. Be aware that direct pressure to the solar plexus can cause temporary breathing difficulty and nausea. Partners with rib injuries, recent abdominal surgery, or respiratory conditions should communicate these issues before drilling. During competition, the position is legal and expected, but training should emphasize controlled application to prevent rib fractures or cartilage damage that can occur from sudden, full-force knee placement.",
+    "clips": [
+      {
+        "id": "jV_z0mC4SNw",
+        "title": "Knee On Belly Basics",
+        "by": "bjjtaro",
+        "vertical": false,
+        "channel": "bjjtaro",
+        "duration": 16,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "XNhDD7N4JNY",
+        "title": "3 Attacks from Knee-on-Belly",
+        "by": "Lucas Lepri",
+        "vertical": false,
+        "channel": "Lucas Lepri Philippines",
+        "duration": 68,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "4MDc03yp6zI",
+        "title": "Back Take from Knee on Belly",
+        "by": "AMAZIN BJJ",
+        "vertical": false,
+        "channel": "AMAZIN BJJ",
+        "duration": 69,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Knee on Belly Defender",
@@ -400,6 +429,35 @@
         "phase": "Week 7+",
         "focus": "Live defense integration",
         "description": "Positional sparring starting from Knee on Belly. Partner attacks freely with submissions and transitions while you work to escape. Track which escapes succeed under full resistance and identify patterns in your failures. Integrate submission defense with escape sequences under competitive intensity."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Wn01Ynw7O28",
+        "title": "How To Escape The Knee On Belly Position",
+        "by": "Evolve MMA",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 40,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "I9_3u9AcwAg",
+        "title": "First Principles Escapes: Mount and Knee-on-Belly",
+        "by": "40 Plus BJJ",
+        "vertical": false,
+        "channel": "40 Plus BJJ",
+        "duration": 59,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "52LxBaUJdcw",
+        "title": "Knee On Belly Escape to Technical Standup, Ankle Pick",
+        "by": "Lucas Lepri",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 131,
+        "verified": "2026-07-15"
       }
     ]
   },

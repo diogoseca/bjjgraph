@@ -333,6 +333,17 @@
         "answer": "In competition, the tactical approach prioritizes establishing the choke threat first to force the defender into the armbar dilemma rather than attacking the armbar directly. Competitors defending mounted crucifix will protect the neck aggressively, leaving the trapped arm as a secondary concern. The armbar becomes available precisely because they are defending the choke. Timing the transition from choke threat to armbar at the moment the defender commits maximum resources to neck defense creates the highest-percentage finishing window. The finish itself should still be controlled despite competitive intensity—referees watch arm locks closely and may stop the match based on visible hyperextension even without a tap.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "hISwyzfmQr0",
+        "title": "Straight Armbar From Inverted Crucifix",
+        "by": "Laura Sanko",
+        "vertical": false,
+        "channel": "One On One | MMA",
+        "duration": 281,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -468,6 +479,26 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Full-speed defense with progressive resistance and escape completion",
         "description": "Defend the mounted crucifix armbar in live sparring scenarios. Partner hunts the armbar with full technique while you integrate recognition, defensive positioning, and bridge timing into a complete defensive response. Emphasize tapping early when defense fails rather than fighting through locked submissions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "C7wr6klxbC8",
+        "title": "Crucifix Escape",
+        "by": "Chosen Few BJJ",
+        "vertical": false,
+        "channel": "Chosen Few BJJ",
+        "duration": 89,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "lXpel1GO2Do",
+        "title": "BJJ Armbar Stack Escape",
+        "by": "WNY MMA & Fitness",
+        "vertical": false,
+        "channel": "WNY MMA & Fitness",
+        "duration": 37,
+        "verified": "2026-07-14"
       }
     ]
   }

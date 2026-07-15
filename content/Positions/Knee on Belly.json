@@ -369,6 +369,35 @@
         "question": "What role does the base leg play in effective Knee on Belly control?",
         "answer": "The base leg provides the stable platform that enables both pressure application and rapid transitions. It should be extended wide with toes pointing away from the opponent, creating a tripod structure with your knee and posting hand. This wide base prevents sweeps, enables quick directional changes, and allows you to post and recover if the opponent disrupts your balance. A narrow base makes the position unstable and easily countered by even basic escape attempts."
       }
+    ],
+    "clips": [
+      {
+        "id": "pa6Z7mP9VKU",
+        "title": "Ryron Gracie's Favorite Knee-on-Belly Attack",
+        "by": "Ryron Gracie",
+        "vertical": false,
+        "channel": "Hayabusa",
+        "duration": 52,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "XNhDD7N4JNY",
+        "title": "3 Knee-on-Belly Attacks for Beginners",
+        "by": "Lucas Lepri",
+        "vertical": false,
+        "channel": "Lucas Lepri Philippines",
+        "duration": 68,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "johFGyE29pY",
+        "title": "Knee on Belly to Brabo Choke",
+        "by": "Edward Anthony",
+        "vertical": false,
+        "channel": "Edward “Scissorhands” Anthony Jiu Jitsu ",
+        "duration": 51,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -703,6 +732,35 @@
         "question": "When is Deep Half Guard entry a better option than standard guard recovery from Knee on Belly?",
         "answer": "Deep Half Guard entry becomes optimal when the opponent shifts their weight forward or moves their knee position toward your hips. This creates space under their base that you can penetrate with your underhook and head. If they're maintaining pressure high on your chest with good posture, standard hip escapes to half or closed guard are better. Deep half requires getting underneath them, which is only possible when space exists under their hips."
       }
+    ],
+    "clips": [
+      {
+        "id": "Wn01Ynw7O28",
+        "title": "How to Escape the Knee on Belly Position",
+        "by": "Evolve MMA",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 40,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "LvhfomaVNqw",
+        "title": "Knee on Belly Escape to Heelhook",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 30,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "DagXZb2hses",
+        "title": "Escape as They Transition to Knee on Belly",
+        "by": "John Kelly",
+        "vertical": false,
+        "channel": "John Kelly Brazilian Jiu Jitsu Ireland ",
+        "duration": 58,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -737,6 +795,35 @@
     {
       "question": "How does maintaining high, mobile hips affect the pressure and control shared across Knee on Belly?",
       "answer": "Keeping the hips high and stacked over the driving knee steepens the downward pressure angle so weight drives cleanly through the contact point into the diaphragm rather than leaking sideways. Elevated hips also preserve the freedom to shift weight and step the base, which is what allows the top player to answer escape attempts without collapsing the position. If the hips drop or the top player leans back, the pressure vector flattens and the bottom player gains the space needed to turn and frame. For both players, the height and mobility of the top player's hips are a direct readout of how much pressure and control the position is currently generating."
+    }
+  ],
+  "clips": [
+    {
+      "id": "pa6Z7mP9VKU",
+      "title": "Ryron Gracie's Favorite Knee-on-Belly Attack",
+      "by": "Ryron Gracie",
+      "vertical": false,
+      "channel": "Hayabusa",
+      "duration": 52,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "XNhDD7N4JNY",
+      "title": "3 Knee-on-Belly Attacks for Beginners",
+      "by": "Lucas Lepri",
+      "vertical": false,
+      "channel": "Lucas Lepri Philippines",
+      "duration": 68,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "I9_3u9AcwAg",
+      "title": "First Principles: Mount & Knee-on-Belly Escapes",
+      "by": "40 Plus BJJ",
+      "vertical": false,
+      "channel": "40 Plus BJJ",
+      "duration": 59,
+      "verified": "2026-07-14"
     }
   ]
 }

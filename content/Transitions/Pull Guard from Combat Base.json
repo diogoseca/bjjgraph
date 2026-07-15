@@ -294,7 +294,27 @@
         "answer": "Your feet serve three sequential functions: first, they create initial contact and distance control by posting on the opponent's hip bones, establishing the physical connection needed to influence their posture. Second, during posture breaking, your feet push against their hips while your grips pull, creating opposing forces that compromise their structural alignment. Third, during the actual closure, your feet walk progressively up the opponent's body from hips to lower ribs, wrapping your legs in a controlled spiral rather than attempting a sudden jump. Throughout the entire sequence, at least one foot maintains active contact with the opponent's body to prevent them from disengaging completely."
       }
     ],
-    "safety_considerations": "Guard pull from combat base carries low injury risk compared to most BJJ transitions, but practitioners should observe several safety considerations. Avoid explosive jerking movements when breaking posture, as sudden neck loading can cause cervical strain in your training partner. When closing guard, ensure ankle crossing is at the lower back rather than directly on the spine to prevent uncomfortable vertebral pressure. If the opponent resists guard closure by driving forward aggressively, do not fight the pass with straight locked-out arms as this risks elbow hyperextension. During drilling, communicate with your partner about pressure levels and release immediately if either person experiences sharp pain in the neck, lower back, or knees. Beginners should practice at slow speeds to develop proper mechanics before adding resistance."
+    "safety_considerations": "Guard pull from combat base carries low injury risk compared to most BJJ transitions, but practitioners should observe several safety considerations. Avoid explosive jerking movements when breaking posture, as sudden neck loading can cause cervical strain in your training partner. When closing guard, ensure ankle crossing is at the lower back rather than directly on the spine to prevent uncomfortable vertebral pressure. If the opponent resists guard closure by driving forward aggressively, do not fight the pass with straight locked-out arms as this risks elbow hyperextension. During drilling, communicate with your partner about pressure levels and release immediately if either person experiences sharp pain in the neck, lower back, or knees. Beginners should practice at slow speeds to develop proper mechanics before adding resistance.",
+    "clips": [
+      {
+        "id": "CI1w02grvCs",
+        "title": "Pulling closed guard",
+        "by": "Team Daruma Dojo",
+        "vertical": false,
+        "channel": "Team Daruma Dojo",
+        "duration": 44,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "9zdcAWV35IE",
+        "title": "Hip pinch closed guard break",
+        "by": "CU Jiu Jitsu",
+        "vertical": false,
+        "channel": "CU Jiu Jitsu",
+        "duration": 69,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Pull Guard from Combat Base Defender",
@@ -415,6 +435,17 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance guard pull defense in competitive conditions",
         "description": "Three-minute positional rounds starting with defender in combat base. Bottom player attempts guard closure by any means while top player defends closure and attempts to pass. Both at full competition intensity. Reset and restart if guard closes successfully or pass completes to side control."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kfjUOe0JtwA",
+        "title": "Posture, structure and base from bottom",
+        "by": "C Lyman",
+        "vertical": false,
+        "channel": "C4C PJJ C Lyman",
+        "duration": 67,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -304,7 +304,36 @@
         "answer": "When the opponent's weight is centered or forward, sweep directly backward by combining shin elevation with a rearward pull through your grips. When their weight shifts laterally (common when they begin circling to clear the shin), redirect the sweep diagonally toward their light side, using the direction they are already unbalanced. Reading weight distribution through the shin connection provides real-time feedback about which direction requires the least force to complete the sweep."
       }
     ],
-    "safety_considerations": "The Shin-to-Shin Sweep is generally low-risk for both practitioners. The primary safety concern involves controlling the landing as the swept partner falls — avoid driving them onto their head or neck by directing the sweep to land them flat on their back. The guard player should be mindful of knee stress on their connected leg during explosive extension, particularly if the shin connection is positioned too high on the opponent's leg near the knee joint. Partners should communicate about knee sensitivity and avoid explosive drilling before warming up the hip and knee joints thoroughly. During training, allow the swept partner to tap or signal if they feel unsafe during the falling phase."
+    "safety_considerations": "The Shin-to-Shin Sweep is generally low-risk for both practitioners. The primary safety concern involves controlling the landing as the swept partner falls — avoid driving them onto their head or neck by directing the sweep to land them flat on their back. The guard player should be mindful of knee stress on their connected leg during explosive extension, particularly if the shin connection is positioned too high on the opponent's leg near the knee joint. Partners should communicate about knee sensitivity and avoid explosive drilling before warming up the hip and knee joints thoroughly. During training, allow the swept partner to tap or signal if they feel unsafe during the falling phase.",
+    "clips": [
+      {
+        "id": "o-Dq-CFxwX8",
+        "title": "Shin on shin sweep to back take",
+        "by": "Thomas",
+        "vertical": false,
+        "channel": "Thomas",
+        "duration": 19,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "a1lWupzNhkg",
+        "title": "Shin-on-shin sweep to the back from De La Riva",
+        "by": "Carpio Jiu Jitsu coach",
+        "vertical": false,
+        "channel": "Carpio Jiu Jitsu",
+        "duration": 81,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lyXznrhM-po",
+        "title": "Easy shin to shin sweep breakdown",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 197,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Shin-to-Shin Sweep Defender",
@@ -425,6 +454,26 @@
         "phase": "Phase 4: Counter-Offense",
         "focus": "Converting sweep defense into passing opportunities",
         "description": "After successfully defending the sweep, immediately transition to guard passing. Practice recognizing the window after a failed sweep where the guard player's grips are loose and their hips are momentarily committed, creating an opening for pressure passes or shin clearing sequences."
+      }
+    ],
+    "clips": [
+      {
+        "id": "jlu1TzXffDA",
+        "title": "Defending and countering the shin to shin guard",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 171,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "rpRpBz4m114",
+        "title": "Denying the shin-to-shin guard while passing",
+        "by": "Mads H.",
+        "vertical": false,
+        "channel": "Mads H. BJJ",
+        "duration": 239,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -285,7 +285,36 @@
         "answer": "Convert the forward pressure into sweep energy by loading a butterfly hook under their thigh as they drive forward, using their own momentum to elevate and off-balance them. If butterfly hook insertion is not possible, use the foot-on-hip barrier to redirect their pressure laterally by angling your push to the side rather than absorbing it head-on. The larger opponent's forward drive actually accelerates your hip rotation if you redirect it properly—their pressure becomes the force that swings your hips around the foot-on-hip pivot point."
       }
     ],
-    "safety_considerations": "Guard recovery from Inside Ashi-Garami requires careful attention to knee safety during the leg disengagement phase. The inside leg is particularly vulnerable to twisting forces if the opponent applies lateral pressure during extraction while your foot is still hooked. Release entanglement controls smoothly rather than explosively jerking your legs free, which can cause knee ligament strain. Be mindful of heel hook danger to both players during the scramble—communicate clearly with training partners about the transition and avoid cranking leg locks during the disengagement window when positions are changing rapidly."
+    "safety_considerations": "Guard recovery from Inside Ashi-Garami requires careful attention to knee safety during the leg disengagement phase. The inside leg is particularly vulnerable to twisting forces if the opponent applies lateral pressure during extraction while your foot is still hooked. Release entanglement controls smoothly rather than explosively jerking your legs free, which can cause knee ligament strain. Be mindful of heel hook danger to both players during the scramble—communicate clearly with training partners about the transition and avoid cranking leg locks during the disengagement window when positions are changing rapidly.",
+    "clips": [
+      {
+        "id": "L417yCl_-dc",
+        "title": "Leg defense and escape from Ashi Garami",
+        "by": "The Coop BJJ",
+        "vertical": false,
+        "channel": "The Coop BJJ",
+        "duration": 48,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "m4UEhHwbGfQ",
+        "title": "Ashi Garami escape: sit over the foot to mount",
+        "by": "Troy Manning",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 76,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "AQbJMBiWYfU",
+        "title": "Escaping Ashi Garami — leg lock defense",
+        "by": "Scott Elliott",
+        "vertical": false,
+        "channel": "Coach Scott Elliott",
+        "duration": 141,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Guard Recovery from Inside Ashi-Garami Defender",
@@ -387,6 +416,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance advancement from Inside Ashi-Garami release",
         "description": "Start each round in Inside Ashi-Garami with the bottom player working recovery and you choosing between counter-entanglement, standing, or pressure advancement. Full resistance with rotating partners to develop decision-making under live conditions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "QbTnnAOcAl4",
+        "title": "Clearing defensive hands in Ashi Garami",
+        "by": "Brian Glick",
+        "vertical": false,
+        "channel": "Brian Glick",
+        "duration": 191,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "y-gsdLH2YBs",
+        "title": "Beating the step-over escape from Ashi Garami",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 242,
+        "verified": "2026-07-15"
       }
     ]
   }

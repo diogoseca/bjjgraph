@@ -379,6 +379,35 @@
         "answer": "When opponents defend by reaching their free hand across to grab or push your choking arm from the inside (trying to create space between your forearm and their neck), this actually helps the choke. Their defensive movement pulls their far shoulder forward, which tightens the far-side compression against your shoulder pressure. Additionally, their arm movement across their body rotates their torso slightly, improving your angle. The proper defense is actually to push against your hip or shoulder to create whole-body space, not to fight the choking arm directly. Recognizing when their defense helps you allows for confident finishing pressure.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "BMU1_wfjYTw",
+        "title": "Darce Choke from the Front Headlock",
+        "by": "Procel BJJ",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 101,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "dS5HQNSyuXs",
+        "title": "Half Nelson to D'Arce/Brabo Choke",
+        "by": "Joshua Clements",
+        "vertical": false,
+        "channel": "Joshua Clements",
+        "duration": 94,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "pad9c-Ldljg",
+        "title": "Brabo Choke from Turtle",
+        "by": "Thiago Stefanutti",
+        "vertical": false,
+        "channel": "thiago stefanutti",
+        "duration": 46,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -520,6 +549,26 @@
         "phase": "Phase 4: Live Positional Defense Sparring",
         "focus": "Full-speed defense integration from front headlock and turtle positions",
         "description": "Positional sparring starting from front headlock or turtle where partner actively hunts the Brabo. Defend with full technique while partner applies at 70-80% intensity. Develop automatic recognition and response patterns. Practice both prevention and escape equally. Reinforce early tapping as a trained response rather than a last resort."
+      }
+    ],
+    "clips": [
+      {
+        "id": "d1YBV8UTKds",
+        "title": "Darce Choke Defense",
+        "by": "Animal",
+        "vertical": false,
+        "channel": "Animal",
+        "duration": 53,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "i_BKN6v-iAI",
+        "title": "Escape the D'Arce Choke",
+        "by": "Energia Martial Arts",
+        "vertical": false,
+        "channel": "Energia Martial Arts",
+        "duration": 248,
+        "verified": "2026-07-14"
       }
     ]
   },

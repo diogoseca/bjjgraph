@@ -253,7 +253,36 @@
         "answer": "Immediately secure heel control on opponent's far leg while simultaneously protecting your own heel from counter-attack. Establish inside position with your leg and begin grip fighting for their heel before they can recompose from the positional change. Your initiative advantage from executing the transition lasts only a few seconds before opponent adjusts, so aggressive heel hunting in the first moments is critical for capitalizing on the entry."
       }
     ],
-    "safety_considerations": "This technique involves transitioning between leg entanglement positions where both ankles and knees face potential injury risk. Always maintain communication with training partners and tap immediately if caught in any compromising position during the transition. The counter-entry requires temporarily opening your defensive structure, creating windows where submission pressure can spike dangerously. Never attempt this technique if opponent has deep heel control or strong finishing position - address submission defense first. Practice slowly until mechanics are automatic before adding speed or resistance. Both practitioners should be experienced with leg lock safety protocols before drilling this transition."
+    "safety_considerations": "This technique involves transitioning between leg entanglement positions where both ankles and knees face potential injury risk. Always maintain communication with training partners and tap immediately if caught in any compromising position during the transition. The counter-entry requires temporarily opening your defensive structure, creating windows where submission pressure can spike dangerously. Never attempt this technique if opponent has deep heel control or strong finishing position - address submission defense first. Practice slowly until mechanics are automatic before adding speed or resistance. Both practitioners should be experienced with leg lock safety protocols before drilling this transition.",
+    "clips": [
+      {
+        "id": "gpg88DFH9D4",
+        "title": "Counter 50/50 heel hooks with your own leg attack",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 81,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "iaLflmlThgE",
+        "title": "50/50 split into straight foot lock",
+        "by": "Eoghan O'Flanagan",
+        "vertical": false,
+        "channel": "Charles Allan Price",
+        "duration": 82,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Kx8gZ3QdO8s",
+        "title": "Crossover toe hold counter",
+        "by": "Bence Romanek",
+        "vertical": false,
+        "channel": "Bence Romanek",
+        "duration": 51,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Counter Entry to Opponent's Leg Defender",
@@ -371,6 +400,35 @@
         "phase": "Week 7+",
         "focus": "Live specific training",
         "description": "Integrate into live leg lock rounds starting from straight ankle lock control. Partner can attempt counter-entry, standard escapes, or other responses. Develop real-time recognition and automatic defensive responses under full resistance while maintaining your own offensive pressure and finishing threat."
+      }
+    ],
+    "clips": [
+      {
+        "id": "gpg88DFH9D4",
+        "title": "Defending 50/50 heel hooks and backsteps",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 81,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "-rHUXnSOAzY",
+        "title": "Leglock counter with back take",
+        "by": "Bermuda Martial Arts",
+        "vertical": false,
+        "channel": "Bermuda Martial Arts",
+        "duration": 48,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uZbUhFapIhg",
+        "title": "Leglock defense from entanglement",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 163,
+        "verified": "2026-07-15"
       }
     ]
   },

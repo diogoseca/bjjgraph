@@ -284,7 +284,36 @@
         "answer": "When opponent posts on your hips, their hands are no longer threatening your heel or controlling your ankle, which actually improves your safety. Use one hand to arm drag their posting arm while maintaining ankle control with the other hand, creating off-balance that assists your extraction. Alternatively, reverse your hip escape direction to create angle from the opposite side, exploiting the fact that their posting creates a rigid frame you can move around."
       }
     ],
-    "safety_considerations": "This transition involves leg entanglement positions where knee injuries are possible if movements are rushed or forced. Practice with controlled speed initially and ensure training partners understand tap signals for any knee discomfort. The 50-50 starting position carries inherent heel hook risk - never attempt this transition if opponent has a strong grip on your heel, as the extraction movement can exacerbate rotational force on your knee. Both practitioners should have clear communication about training intensity. Beginners should only practice this technique under instructor supervision until proper mechanics and timing recognition are established. Always prioritize aborting the transition over completing it if heel safety becomes compromised mid-movement."
+    "safety_considerations": "This transition involves leg entanglement positions where knee injuries are possible if movements are rushed or forced. Practice with controlled speed initially and ensure training partners understand tap signals for any knee discomfort. The 50-50 starting position carries inherent heel hook risk - never attempt this transition if opponent has a strong grip on your heel, as the extraction movement can exacerbate rotational force on your knee. Both practitioners should have clear communication about training intensity. Beginners should only practice this technique under instructor supervision until proper mechanics and timing recognition are established. Always prioritize aborting the transition over completing it if heel safety becomes compromised mid-movement.",
+    "clips": [
+      {
+        "id": "PGQ7YYfu76Q",
+        "title": "Single leg X entry to honey hole sweep and heel hook",
+        "by": "Ilya Bodnya",
+        "vertical": false,
+        "channel": "Ilya Bodnya",
+        "duration": 65,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "TVQXVTX6Szw",
+        "title": "Single leg X sweep to 50/50 transition",
+        "by": "Won-hee Jo",
+        "vertical": false,
+        "channel": "조원희주짓수다",
+        "duration": 23,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "P-xqbj6EdTs",
+        "title": "Saddle entry from single leg X",
+        "by": "The Grapple Lab coach",
+        "vertical": true,
+        "channel": "The Grapple Lab",
+        "duration": 61,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "50-50 Guard to Single Leg X-Guard Defender",
@@ -409,6 +438,35 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Begin from 50-50 top position with partner actively attempting the transition during live rolling. Integrate defensive recognition and counters into your regular 50-50 top game. Track success rate and identify which counters work best against specific partner body types and skill levels."
+      }
+    ],
+    "clips": [
+      {
+        "id": "m1nyuMt3IP4",
+        "title": "Single leg X defense to rolling back take",
+        "by": "Gracie Barra Pymble coach",
+        "vertical": false,
+        "channel": "Gracie Barra Pymble",
+        "duration": 80,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "e2KVHXnSh_o",
+        "title": "Single leg X counter with heel hook",
+        "by": "Charles Allan Price",
+        "vertical": false,
+        "channel": "Charles Allan Price",
+        "duration": 75,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "EcxCadpBePk",
+        "title": "Single leg X guard options and counters",
+        "by": "Steven Kaloustian",
+        "vertical": false,
+        "channel": "Steven Kaloustian",
+        "duration": 97,
+        "verified": "2026-07-15"
       }
     ]
   },

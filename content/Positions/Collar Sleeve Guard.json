@@ -379,6 +379,26 @@
         "question": "How do you manage energy when facing an opponent with very active collar sleeve guard?",
         "answer": "Establish a rhythm where you apply intense passing pressure for 15-20 seconds, then briefly disengage to a safe standing or combat base distance for 5-10 seconds. During pressure phases, work to break grips and advance position. During recovery phases, maintain distance that prevents them from re-establishing ideal grips without expending energy defending. Avoid trying to pass through continuous grinding which leads to exhaustion and mistakes. Also focus on efficient grip breaks using leverage rather than strength to conserve grip endurance."
       }
+    ],
+    "clips": [
+      {
+        "id": "N4M0VWhDkMA",
+        "title": "Two ways to pass the collar & sleeve",
+        "by": "Carpio Jiu Jitsu",
+        "vertical": false,
+        "channel": "Carpio Jiu Jitsu",
+        "duration": 103,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "WJ25wu9Ioks",
+        "title": "Passing the collar sleeve guard",
+        "by": "Ultra Jiu Jitsu Academy",
+        "vertical": false,
+        "channel": "Ultra Jiu Jitsu Academy",
+        "duration": 105,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -734,6 +754,35 @@
         "question": "How do you manage energy during extended collar sleeve guard exchanges without becoming passive?",
         "answer": "Develop a rhythm that alternates between high-intensity attack sequences and lower-intensity control phases. During attack phases (10-15 seconds), commit fully to sweep or submission chains with active hip movement. During control phases (5-10 seconds), maintain grip tension and hip elevation but reduce large movements while you recover grip strength and assess their reactions. Never go completely passive - always maintain some degree of off-balancing pressure through your grips. Focus on efficiency by using hip movement to amplify grip power rather than relying solely on grip strength."
       }
+    ],
+    "clips": [
+      {
+        "id": "SehIaBibwYY",
+        "title": "3 attacks from collar & sleeve guard",
+        "by": "Giancarlo Bodoni",
+        "vertical": false,
+        "channel": "Giancarlo Bodoni",
+        "duration": 16,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "I2xn1bMaBdg",
+        "title": "Five sweeps from collar & sleeve guard",
+        "by": "OneontaJiuJitsu Academy",
+        "vertical": false,
+        "channel": "OneontaJiuJitsu Academy",
+        "duration": 103,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "wdvJF6S68TI",
+        "title": "Collar sleeve over-head sweep",
+        "by": "luciana MARCOS",
+        "vertical": false,
+        "channel": "luciana MARCOS",
+        "duration": 68,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -764,6 +813,26 @@
     {
       "question": "Why is constant hip movement and angle adjustment essential to sustaining collar sleeve guard for both players?",
       "answer": "A static collar sleeve guard lets the opposing player settle their weight, establish counter-grips, and begin a stable passing or defensive sequence, so stillness surrenders the position's core advantage. The rotational grip structure only produces its off-balancing torque when the bottom player's hips are actively shifting angles, typically fifteen to thirty degrees at a time, to keep reloading the collar pull from fresh directions. From the top, matching that movement is equally required, because failing to follow the changing angle allows the bottom player to create the perpendicular relationship that precedes most attacks. The position is therefore dynamic by nature: whichever player stops moving first generally cedes control of the engagement's timing."
+    }
+  ],
+  "clips": [
+    {
+      "id": "1piAnOs7xpA",
+      "title": "Intro to the collar & sleeve guard",
+      "by": "Mikey Musumeci",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 158,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "SehIaBibwYY",
+      "title": "3 attacks from collar & sleeve guard",
+      "by": "Giancarlo Bodoni",
+      "vertical": false,
+      "channel": "Giancarlo Bodoni",
+      "duration": 16,
+      "verified": "2026-07-14"
     }
   ]
 }

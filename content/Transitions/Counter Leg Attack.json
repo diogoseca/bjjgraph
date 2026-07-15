@@ -268,7 +268,36 @@
         "answer": "During hip angle creation, the force direction is lateral - you push your hips sideways toward the opponent's free leg using your free leg as a push-off point against their hip or the mat. During the threading phase, the force direction shifts to circular and inward - your free leg hooks around their leg in a scooping motion from inside to outside, curling behind their knee. Confusing these force vectors stalls the entry and wastes the angle you created."
       }
     ],
-    "safety_considerations": "The Counter Leg Attack carries significant injury risk because it is executed while already trapped in a dangerous submission position. The inside heel hook can cause severe and permanent damage to the ACL, MCL, and meniscus within fractions of a second once locked. You must maintain heel protection throughout the entire counter-attack sequence - never sacrifice defensive posture for offensive opportunity. If opponent secures submission grips at any point during your counter-entry, tap immediately rather than trying to complete the movement. Training should progress slowly from static drilling to full resistance over multiple weeks. Always communicate with training partners about tap responsiveness. Never attempt this technique against an opponent you do not trust to release immediately upon tap. The transition to 50-50 creates mutual submission danger - be prepared to tap to their attack even after successful entry if they establish superior angle first."
+    "safety_considerations": "The Counter Leg Attack carries significant injury risk because it is executed while already trapped in a dangerous submission position. The inside heel hook can cause severe and permanent damage to the ACL, MCL, and meniscus within fractions of a second once locked. You must maintain heel protection throughout the entire counter-attack sequence - never sacrifice defensive posture for offensive opportunity. If opponent secures submission grips at any point during your counter-entry, tap immediately rather than trying to complete the movement. Training should progress slowly from static drilling to full resistance over multiple weeks. Always communicate with training partners about tap responsiveness. Never attempt this technique against an opponent you do not trust to release immediately upon tap. The transition to 50-50 creates mutual submission danger - be prepared to tap to their attack even after successful entry if they establish superior angle first.",
+    "clips": [
+      {
+        "id": "7Uc1sEPs5hw",
+        "title": "Inside sankaku counter with inside ashi dive",
+        "by": "Combat by the Minute",
+        "vertical": false,
+        "channel": "Combat by the Minute",
+        "duration": 84,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "clVAHxgRadE",
+        "title": "Outside heel hook defense into inside heel hook",
+        "by": "Holy Grail BJJ",
+        "vertical": false,
+        "channel": "Holy Grail BJJ",
+        "duration": 105,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "N2weatRR_V4",
+        "title": "Wedge berimbolo counter to the back",
+        "by": "bjj doug",
+        "vertical": false,
+        "channel": "bjj doug",
+        "duration": 28,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Counter Leg Attack Defender",
@@ -393,6 +422,35 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Full resistance positional sparring from Inside Sankaku top. Partner uses all available escapes including Counter Leg Attack. Practice integrating prevention, recognition, and response into live exchanges. Develop real-time decision-making between finishing, defending counter, and advancing to Saddle."
+      }
+    ],
+    "clips": [
+      {
+        "id": "PhS9Xj-4KbA",
+        "title": "Escaping the honey hole inside sankaku",
+        "by": "Oneonta Jiu Jitsu",
+        "vertical": false,
+        "channel": "OneontaJiuJitsu Academy",
+        "duration": 56,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "v3w0qXLKxug",
+        "title": "Defending heel hooks",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 92,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uZbUhFapIhg",
+        "title": "Leglock defense from entanglement",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 163,
+        "verified": "2026-07-15"
       }
     ]
   },

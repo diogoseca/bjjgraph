@@ -299,7 +299,27 @@
         "answer": "If the grip is slipping but not yet lost, squeeze your fingers deeper into the fabric and pull the arm aggressively across your centerline to accelerate the triangle entry before the grip fails completely. If the grip breaks entirely during the leg shoot, immediately close your legs into closed guard rather than attempting a triangle without arm isolation. From closed guard, re-establish grips and either reattempt the triangle or redirect to a different attack. Never continue a triangle entry without confirming one arm is isolated inside the leg configuration."
       }
     ],
-    "safety_considerations": "The triangle choke compresses carotid arteries and can cause unconsciousness within seconds when properly locked. During drilling, apply pressure gradually and release immediately when your partner taps. Pay attention to partners who stop moving or go limp, as they may have lost consciousness before tapping. When practicing the DLR-to-triangle transition, be mindful of your partner's neck during the leg shoot and avoid slamming your shin into the back of their head or neck with excessive force. In competition, maintain controlled pressure rather than cranking explosively."
+    "safety_considerations": "The triangle choke compresses carotid arteries and can cause unconsciousness within seconds when properly locked. During drilling, apply pressure gradually and release immediately when your partner taps. Pay attention to partners who stop moving or go limp, as they may have lost consciousness before tapping. When practicing the DLR-to-triangle transition, be mindful of your partner's neck during the leg shoot and avoid slamming your shin into the back of their head or neck with excessive force. In competition, maintain controlled pressure rather than cranking explosively.",
+    "clips": [
+      {
+        "id": "UOFZwIbz9zM",
+        "title": "Triangle from De La Riva guard",
+        "by": "Nartay Kazhekov",
+        "vertical": false,
+        "channel": "Nartay Kazhekov",
+        "duration": 25,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "DnEJZf_t8PU",
+        "title": "Rafael Mendes triangle choke setup",
+        "by": "Rafael Mendes",
+        "vertical": false,
+        "channel": "GRACIEMAG - The original BJJ magazine. ",
+        "duration": 62,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Triangle Setup from De La Riva Defender",
@@ -424,6 +444,26 @@
         "phase": "Phase 4: Live Defensive Integration",
         "focus": "Full-speed defense integrated into passing strategy",
         "description": "Specific sparring starting in DLR with partner actively threatening triangles alongside their normal DLR attack game. Practice identifying and defending the triangle while continuing to advance your passing strategy, integrating triangle defense as a natural component of your DLR passing sequences."
+      }
+    ],
+    "clips": [
+      {
+        "id": "8QnCpFYN0L8",
+        "title": "Passing De La Riva with the knee slide",
+        "by": "ICON Jiu-Jitsu Team",
+        "vertical": false,
+        "channel": "ICON JIU-JITSU TEAM",
+        "duration": 31,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "PSgn9TBgwfc",
+        "title": "Shutting down side guard entries",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 77,
+        "verified": "2026-07-15"
       }
     ]
   }

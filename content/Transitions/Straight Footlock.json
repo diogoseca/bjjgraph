@@ -275,7 +275,36 @@
         "answer": "Key indicators include: visible strain in the Achilles tendon area, opponent's resistance suddenly decreasing as pain threshold approaches, audible distress sounds or rapid breathing changes, and the foot approaching maximum dorsiflexion angle with toes being pulled toward their shin. At these indicators, maintain steady progressive pressure without increasing speed or force. Be prepared for the tap at any moment, monitoring all five tap signals continuously. Never spike pressure at this stage as the transition from discomfort to injury is extremely rapid."
       }
     ],
-    "safety_considerations": "The Straight Footlock applies direct mechanical stress to the ankle joint, Achilles tendon, and surrounding ligamentous structures including the deltoid and lateral collateral ligaments. Achilles tendon rupture is the most serious potential injury and can occur rapidly with explosive application, requiring 4-6 months surgical recovery. Always apply finishing pressure progressively over 3-5 seconds minimum in training, never with explosive jerking or spiking. Partners should tap early and often, especially once the forearm is properly seated behind the Achilles, as the transition from discomfort to structural damage can be instantaneous. Practitioners with pre-existing ankle injuries, Achilles tendinitis, or limited dorsiflexion range of motion should communicate these limitations before training. Never apply the technique on cold or insufficiently warmed-up training partners. In competition, release immediately upon tap or referee stoppage. Limit repeated finishing applications on the same leg within a single training session to prevent cumulative stress on the tendon."
+    "safety_considerations": "The Straight Footlock applies direct mechanical stress to the ankle joint, Achilles tendon, and surrounding ligamentous structures including the deltoid and lateral collateral ligaments. Achilles tendon rupture is the most serious potential injury and can occur rapidly with explosive application, requiring 4-6 months surgical recovery. Always apply finishing pressure progressively over 3-5 seconds minimum in training, never with explosive jerking or spiking. Partners should tap early and often, especially once the forearm is properly seated behind the Achilles, as the transition from discomfort to structural damage can be instantaneous. Practitioners with pre-existing ankle injuries, Achilles tendinitis, or limited dorsiflexion range of motion should communicate these limitations before training. Never apply the technique on cold or insufficiently warmed-up training partners. In competition, release immediately upon tap or referee stoppage. Limit repeated finishing applications on the same leg within a single training session to prevent cumulative stress on the tendon.",
+    "clips": [
+      {
+        "id": "wIccehL7gkw",
+        "title": "New problem from footlock guard",
+        "by": "Mikey Musumeci",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 87,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "3h9twIIueXU",
+        "title": "Straight ankle lock finish",
+        "by": "Tex Johnson",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 49,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "jb-N_bthNeo",
+        "title": "Straight ankle lock finishing tips",
+        "by": "Jon Ridens",
+        "vertical": false,
+        "channel": "Jon Ridens",
+        "duration": 49,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Straight Footlock Defender",
@@ -399,6 +428,26 @@
         "phase": "Week 7+",
         "focus": "Live defensive sparring under full resistance",
         "description": "Full-speed positional sparring starting from established Straight Ankle Lock Control with the attacker permitted to finish or transition freely. Defender must read the attacker's intentions, select appropriate defensive responses in real-time, and either escape to neutral or achieve positional improvement. Track escape rate, tap rate, and positional outcome quality across rounds to measure defensive improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "CUnX7TOpb-A",
+        "title": "Ankle lock escape: put on the boot",
+        "by": "Ritchie Yip",
+        "vertical": false,
+        "channel": "Ritchie Yip",
+        "duration": 16,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "6-HYU8Pbngg",
+        "title": "K guard vs toe hold and straight footlock",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 152,
+        "verified": "2026-07-15"
       }
     ]
   },

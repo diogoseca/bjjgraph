@@ -145,5 +145,34 @@
       "name": "High Elbow Guillotine",
       "relationship": "Similar guillotine variation for grip comparison and cross-training"
     }
+  ],
+  "clips": [
+    {
+      "id": "YbOV4vESByc",
+      "title": "Hindulotine Breakdown",
+      "by": "Ben Eddy",
+      "vertical": false,
+      "channel": "Control Jiu JItsu",
+      "duration": 97,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "6UwoAQt6u6o",
+      "title": "Hindulotine Finish",
+      "by": "Ben Eddy",
+      "vertical": false,
+      "channel": "Rubber Guard Assassins",
+      "duration": 60,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "99Mq930QVfY",
+      "title": "Easy Hindulotine Variation",
+      "by": "Danny Mitchell",
+      "vertical": false,
+      "channel": "Danny Mitchell MMA",
+      "duration": 159,
+      "verified": "2026-07-14"
+    }
   ]
 }

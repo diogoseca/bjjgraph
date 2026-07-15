@@ -292,7 +292,36 @@
         "answer": "Baiting is appropriate when the top player maintains disciplined static pressure without reaching for submissions, providing no natural weight shift opportunities. Slightly extend an arm or adjust head position to suggest vulnerability, but maintain the ability to defend the attack. The bait must be subtle enough that the opponent commits to reaching while you retain the structural ability to execute the trap before the submission develops past the point of defense."
       }
     ],
-    "safety_considerations": "The Trap and Roll from High Mount involves explosive bridging that can strain the lower back and cervical spine if performed with poor mechanics. Always warm up the spine, hip flexors, and neck before drilling this technique. When training, partners maintaining mount should allow the roll to progress rather than resisting at dangerous angles that could cause knee or shoulder injuries to either player. Tap immediately if you feel your trapped arm being twisted during a failed attempt. During live training, communicate with your partner about bridging intensity to prevent neck compression injuries, particularly when the top player's weight is on the upper chest."
+    "safety_considerations": "The Trap and Roll from High Mount involves explosive bridging that can strain the lower back and cervical spine if performed with poor mechanics. Always warm up the spine, hip flexors, and neck before drilling this technique. When training, partners maintaining mount should allow the roll to progress rather than resisting at dangerous angles that could cause knee or shoulder injuries to either player. Tap immediately if you feel your trapped arm being twisted during a failed attempt. During live training, communicate with your partner about bridging intensity to prevent neck compression injuries, particularly when the top player's weight is on the upper chest.",
+    "clips": [
+      {
+        "id": "5EceltPECLg",
+        "title": "Trap and roll escape from mount, step by step",
+        "by": "Auburn Jiu Jitsu",
+        "vertical": false,
+        "channel": "Auburn Jiu Jitsu",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Ye08X4xjiUk",
+        "title": "Upa mount escape demonstration",
+        "by": "Team Daruma Dojo",
+        "vertical": false,
+        "channel": "Team Daruma Dojo",
+        "duration": 38,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "JoKL61nEZl0",
+        "title": "Trap and roll mount escape breakdown",
+        "by": "Topp Performance",
+        "vertical": false,
+        "channel": "Topp Performance",
+        "duration": 77,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Trap and Roll from High Mount Defender",
@@ -414,6 +443,17 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Full resistance maintenance with offensive integration",
         "description": "Positional sparring from high mount where the bottom player specifically targets trap and roll combined with other escapes. Top player maintains position and advances while defending. Track the ratio of escapes prevented versus escapes converted into advancement opportunities."
+      }
+    ],
+    "clips": [
+      {
+        "id": "R21vtm5BHF4",
+        "title": "Escaping the mount when it feels impossible",
+        "by": "Pantera Jiujitsu",
+        "vertical": false,
+        "channel": "Pantera Jiujitsu",
+        "duration": 80,
+        "verified": "2026-07-15"
       }
     ]
   }

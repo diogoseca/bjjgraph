@@ -306,7 +306,36 @@
         "answer": "Rather than retreating to restart the same pass, immediately transition to a complementary passing technique. If you still have forward position, switch to a knee cut or knee slide that uses the forward momentum you have already generated. If they are re-gripping while you have lateral angle, convert to a toreando or leg drag. The key principle is that a failed direct pass creates openings for lateral passes because the guard player's grip re-establishment focuses their attention on the collar and sleeve rather than leg defense."
       }
     ],
-    "safety_considerations": "When breaking grips, use controlled hip extension rather than sudden jerking motions that could hyperextend training partners' fingers or wrists. During the forward drive phase, lower your level gradually rather than crash-landing your chest weight, which can cause rib or sternum injuries. Establish crossface using the flat of your forearm rather than a pointed elbow to prevent facial injuries. Always maintain awareness of your partner's trapped limbs during transitions to avoid accidental joint stress, and release pressure immediately if your partner signals discomfort."
+    "safety_considerations": "When breaking grips, use controlled hip extension rather than sudden jerking motions that could hyperextend training partners' fingers or wrists. During the forward drive phase, lower your level gradually rather than crash-landing your chest weight, which can cause rib or sternum injuries. Establish crossface using the flat of your forearm rather than a pointed elbow to prevent facial injuries. Always maintain awareness of your partner's trapped limbs during transitions to avoid accidental joint stress, and release pressure immediately if your partner signals discomfort.",
+    "clips": [
+      {
+        "id": "N4M0VWhDkMA",
+        "title": "Two Ways to Pass the Collar and Sleeve Guard",
+        "by": "Carpio Jiu Jitsu",
+        "vertical": false,
+        "channel": "Carpio Jiu Jitsu",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "WJ25wu9Ioks",
+        "title": "Passing Collar Sleeve Guard in Open Guard",
+        "by": "Ultra Jiu Jitsu Academy",
+        "vertical": false,
+        "channel": "Ultra Jiu Jitsu Academy",
+        "duration": 105,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "DMvvqaUfOtw",
+        "title": "Collar Sleeve Pass to Bullfighter and Leg Drag",
+        "by": "Carpio Jiu Jitsu",
+        "vertical": false,
+        "channel": "Carpio Jiu Jitsu",
+        "duration": 128,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Pass Collar Sleeve Guard Defender",
@@ -435,6 +464,17 @@
         "phase": "Phase 4: Full Defensive Integration",
         "focus": "Complete defensive game against direct pass attempts",
         "description": "Partner attempts the full direct pass sequence at increasing resistance levels. Combine grip retention, counter-sweeps, and guard transitions into a cohesive defensive response. Develop the ability to layer multiple defensive responses and adapt in real time to the passer's adjustments."
+      }
+    ],
+    "clips": [
+      {
+        "id": "T_GhZe_MOWI",
+        "title": "Grip Chain for Guard Retention",
+        "by": "Xande Ribeiro",
+        "vertical": false,
+        "channel": "XANDE RIBEIRO",
+        "duration": 174,
+        "verified": "2026-07-15"
       }
     ]
   }

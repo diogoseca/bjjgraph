@@ -285,7 +285,27 @@
         "answer": "When the opponent successfully hand fights your far arm control attempts, you have several options. First, try the arm trap variation: use your free hand to grab their near wrist and pin it across their chest, which eliminates their framing ability from a different angle. Second, switch to the over-under variation by threading your free arm under their far leg instead of fighting for the arm, which creates different leverage for the extraction. Third, if neither works, use the no-gi head post variation where you post your free hand on the mat beside their far shoulder to generate maximum pressure, then rely purely on the crossface weight to control them while extracting."
       }
     ],
-    "safety_considerations": "When practicing the crossface pass, apply shoulder and forearm pressure progressively to allow your partner to adjust to the sensation and tap if uncomfortable. The crossface creates significant pressure on the neck and jaw, so avoid sudden jerking movements that could cause cervical spine injury. Partners should communicate clearly if the pressure becomes excessive or causes pain beyond normal discomfort. When drilling, the bottom person should tap if they experience sharp neck pain, difficulty breathing, or jaw discomfort. The top person must release pressure immediately upon feeling a tap. Ensure adequate mat space during practice as the technique involves significant movement and weight shifting. Build up to full pressure gradually over multiple training sessions rather than applying maximum force from the beginning. Partners with pre-existing neck injuries, TMJ issues, or jaw problems should inform their training partner and instructor before practicing this technique."
+    "safety_considerations": "When practicing the crossface pass, apply shoulder and forearm pressure progressively to allow your partner to adjust to the sensation and tap if uncomfortable. The crossface creates significant pressure on the neck and jaw, so avoid sudden jerking movements that could cause cervical spine injury. Partners should communicate clearly if the pressure becomes excessive or causes pain beyond normal discomfort. When drilling, the bottom person should tap if they experience sharp neck pain, difficulty breathing, or jaw discomfort. The top person must release pressure immediately upon feeling a tap. Ensure adequate mat space during practice as the technique involves significant movement and weight shifting. Build up to full pressure gradually over multiple training sessions rather than applying maximum force from the beginning. Partners with pre-existing neck injuries, TMJ issues, or jaw problems should inform their training partner and instructor before practicing this technique.",
+    "clips": [
+      {
+        "id": "qqaMVmLxklI",
+        "title": "Half guard top cross body pass",
+        "by": "SBG New Braunfels",
+        "vertical": false,
+        "channel": "SBG New Braunfels BJJ",
+        "duration": 121,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "gHD03vpWGSM",
+        "title": "How to create an insanely tight cross face",
+        "by": "Escapology BJJ",
+        "vertical": false,
+        "channel": "Escapology BJJ",
+        "duration": 119,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Crossface Pass Defender",
@@ -411,6 +431,26 @@
         "phase": "Phase 4: Full Resistance Positional Sparring (Week 10+)",
         "focus": "Applying defensive skills against full-speed crossface pass attempts",
         "description": "Full resistance positional sparring from half guard bottom against partners who actively pursue crossface pass. Practice reading which phase the passer has reached and selecting the appropriate defensive response in real time. Develop automatic reactions to crossface initiation and build confidence in your defensive decision tree."
+      }
+    ],
+    "clips": [
+      {
+        "id": "QH9-1I5XqO4",
+        "title": "Guard recovery against the cross face",
+        "by": "Academy Jiu Jitsu",
+        "vertical": false,
+        "channel": "Academy Jiu Jitsu",
+        "duration": 105,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "-fnzNp6TWQo",
+        "title": "Lovato half guard sweep breakdown",
+        "by": "Rafael Lovato Jr",
+        "vertical": false,
+        "channel": "Conceptual Grappling",
+        "duration": 88,
+        "verified": "2026-07-15"
       }
     ]
   },

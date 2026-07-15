@@ -357,6 +357,26 @@
           "nogi": 13
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "NZEf9jXzCYA",
+        "title": "Williams Guard cartwheel escape counter",
+        "by": "Sam Wilkinson",
+        "vertical": false,
+        "channel": "Sam Wilkinson MMA",
+        "duration": 80,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "M__MeC_XCIM",
+        "title": "Williams Guard armbar counter",
+        "by": "Sam Wilkinson",
+        "vertical": false,
+        "channel": "Sam Wilkinson MMA",
+        "duration": 66,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -662,6 +682,35 @@
           "nogi": 9
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "vcO2z_awL5k",
+        "title": "Williams Guard sweep variations",
+        "by": "UFAI Grappling",
+        "vertical": false,
+        "channel": "UFAI GRAPPLING",
+        "duration": 36,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Mfw8-mXM_JY",
+        "title": "Williams Guard shoulder pin options",
+        "by": "Cross Fight",
+        "vertical": false,
+        "channel": "Cross Fight ",
+        "duration": 38,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "1Ceb4MC3foM",
+        "title": "Williams Guard attacks breakdown",
+        "by": "Chad Lyman",
+        "vertical": false,
+        "channel": "Code 4 Concepts Chad Lyman",
+        "duration": 89,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -696,6 +745,35 @@
     {
       "question": "What transition triggers emerge naturally from the shoulder-lock dynamic in Williams Guard?",
       "answer": "Because the shoulder lock forces predictable defensive responses, each response is a trigger visible to both players. When the trapped arm is pulled back hard, the rotational energy feeds an omoplata or belly-down armbar; when the opponent drives forward to stack, that momentum feeds the omoplata-to-back path; when they post or circle away from the controlled arm, the back becomes exposed. Recognizing that these triggers are consequences of the joint threat, not random reactions, is what lets the position channel the exchange into a limited set of high-percentage branches."
+    }
+  ],
+  "clips": [
+    {
+      "id": "9H9AoNHN8mU",
+      "title": "Williams Guard details",
+      "by": "Puro Academy",
+      "vertical": false,
+      "channel": "Puro Academy",
+      "duration": 101,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "vcO2z_awL5k",
+      "title": "Williams Guard sweep variations",
+      "by": "UFAI Grappling",
+      "vertical": false,
+      "channel": "UFAI GRAPPLING",
+      "duration": 36,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "nDDWcu1JALo",
+      "title": "Williams Guard shoulder lock in 60 seconds",
+      "by": "Usher BJJ",
+      "vertical": false,
+      "channel": "USHER BJJ",
+      "duration": 50,
+      "verified": "2026-07-14"
     }
   ]
 }

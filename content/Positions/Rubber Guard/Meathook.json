@@ -667,6 +667,35 @@
           "nogi": 11
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "KN7ww-OyaxQ",
+        "title": "Meathook Options (MTS 202)",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 60,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "0w0642zFqWo",
+        "title": "Rubber Guard: Troubleshooting the Meathook",
+        "by": "Brandon Mccaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "pJ4G8hW6dIE",
+        "title": "Near-side Meathook Sweep",
+        "by": "10th Planet Colorado Springs",
+        "vertical": false,
+        "channel": "10th Planet Colorado Springs",
+        "duration": 93,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -701,6 +730,17 @@
     {
       "question": "What flexibility and range-of-motion demands make Meathook mechanically distinct from conventional guards?",
       "answer": "Meathook requires bringing the shin over the opponent's shoulder while simultaneously keeping the hips connected in a guard structure, a combined range that most conventional guards never ask for. This demands deep hip flexion and hamstring length well beyond what closed guard or half guard require, which is why the position is associated with the 10th Planet system's flexibility emphasis. Without adequate range, the hook cannot reach past the shoulder line and the isolation fails, so the configuration is physically inaccessible to some practitioners. This flexibility prerequisite is a structural feature of the position itself, not merely a matter of technique refinement."
+    }
+  ],
+  "clips": [
+    {
+      "id": "KN7ww-OyaxQ",
+      "title": "Meathook Options (MTS 202)",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "Eddie Bravo",
+      "duration": 60,
+      "verified": "2026-07-14"
     }
   ]
 }

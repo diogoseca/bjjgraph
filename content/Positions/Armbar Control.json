@@ -366,6 +366,35 @@
         "question": "Your opponent begins to roll toward the trapped arm side - what is your immediate response?",
         "answer": "When the opponent rolls toward the controlled arm side, follow their roll while maintaining your grip configuration. As they rotate, your body position naturally transitions toward a mounted armbar or belly-down armbar position. Keep your knees pinched and continue the arm isolation. If they roll away from the controlled arm, immediately tighten your leg control and consider switching to a triangle attack as this escape exposes their neck."
       }
+    ],
+    "clips": [
+      {
+        "id": "I8f9wkX7n4Y",
+        "title": "Straight armbar from guard",
+        "by": "Gracie Charlottesville",
+        "vertical": false,
+        "channel": "Gracie Charlottesville",
+        "duration": 30,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "BFmncj84lNE",
+        "title": "Top side armbar finish",
+        "by": "Way of BJJ",
+        "vertical": false,
+        "channel": "Way of BJJ",
+        "duration": 73,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "vSmRbpNmf-E",
+        "title": "Roger Gracie armbars",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 102,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -671,6 +700,35 @@
         "question": "What body position should you avoid when defending the armbar?",
         "answer": "Avoid staying flat on your back with your spine parallel to the mat. This position gives the opponent a stable platform and maximum leverage for the finish. Instead, bridge onto one shoulder and turn toward the trapped arm side. This angled position disrupts their base, creates defensive space, and facilitates escape movements like the hitchhiker or stack defense."
       }
+    ],
+    "clips": [
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "Favorite armbar escape",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "sDdqvh_1kbA",
+        "title": "Armbar escape to RNC",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 63,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "lXpel1GO2Do",
+        "title": "Armbar stack escape",
+        "by": "WNY MMA",
+        "vertical": false,
+        "channel": "WNY MMA & Fitness",
+        "duration": 37,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -701,6 +759,35 @@
     {
       "question": "How does Armbar Control differ mechanically from adjacent positions like Triangle Control or the Kimura Trap?",
       "answer": "All three isolate a limb, but Armbar Control attacks the elbow through straight-line hyperextension over a hip fulcrum, whereas Triangle Control uses the legs to strangle the neck while trapping one arm inside the noose. The Kimura Trap isolates the same arm but attacks the shoulder through internal rotation rather than extending the elbow. Because these positions share the arm-isolation entry, a defense that bends the trapped arm often converts an armbar threat into an omoplata or kimura, and a stack often flows into a triangle. The distinction that defines Armbar Control specifically is the extended arm plus hip-fulcrum extension vector, not merely the isolated limb."
+    }
+  ],
+  "clips": [
+    {
+      "id": "vSmRbpNmf-E",
+      "title": "Roger Gracie armbars",
+      "by": "Roger Gracie",
+      "vertical": false,
+      "channel": "Jiu Jitsu Moves",
+      "duration": 102,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "I8f9wkX7n4Y",
+      "title": "Straight armbar from guard",
+      "by": "Gracie Charlottesville",
+      "vertical": false,
+      "channel": "Gracie Charlottesville",
+      "duration": 30,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "R2-h9yOwRdU",
+      "title": "Relson Gracie teaches the armbar",
+      "by": "Relson Gracie",
+      "vertical": false,
+      "channel": "Balance Studios: Gracie Jiu-Jitsu & Muay Thai",
+      "duration": 72,
+      "verified": "2026-07-14"
     }
   ]
 }

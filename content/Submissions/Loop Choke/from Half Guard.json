@@ -339,6 +339,17 @@
         "answer": "Upon feeling or hearing a tap, you must immediately release the collar grip and all head control completely, then disengage your hip pressure by moving to a neutral position beside your partner. Check their alertness and awareness before continuing any training. Allow a minimum of 60 seconds recovery time before resuming. During the sprawl finish, be especially attentive because the partner's hands may be partially trapped or their verbal tap may be difficult to hear—any unusual sound, change in resistance, or body language indicating distress must be treated as a tap signal and honored instantly without exception.",
         "safety_critical": true
       }
+    ],
+    "clips": [
+      {
+        "id": "3sprDpHbCdM",
+        "title": "Loop Choke from Half Guard",
+        "by": "Sickness Ferro",
+        "vertical": false,
+        "channel": "Sickness Ferro",
+        "duration": 197,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -480,6 +491,26 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Defending the Loop Choke against full resistance integrated with complete half guard bottom game",
         "description": "Start in half guard bottom against a partner specifically hunting the loop choke along with standard half guard passes. Defend using all trained responses: collar prevention, grip stripping, guard closing, and modified offensive movement. Partner chains the loop choke with pressure passes and other submissions. Track how often you prevent the choke from being established versus needing to escape a partially locked choke."
+      }
+    ],
+    "clips": [
+      {
+        "id": "pZmJpXSwRTk",
+        "title": "Loop choke escape",
+        "by": "Ninja Pinto",
+        "vertical": false,
+        "channel": "Ninja Pinto BJJ",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "iv2YYbzYl-s",
+        "title": "Cross collar loop choke defense",
+        "by": "Stephen Whittier",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 184,
+        "verified": "2026-07-15"
       }
     ]
   },

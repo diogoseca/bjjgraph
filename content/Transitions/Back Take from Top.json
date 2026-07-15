@@ -260,7 +260,18 @@
         "answer": "The rolling back take variant is appropriate when opponent commits strongly to their turn and your base becomes compromised by their momentum. Rather than fighting their energy, you follow the momentum by rolling underneath them while maintaining control. This uses their escape energy to end up in back control from the opposite side configuration."
       }
     ],
-    "safety_considerations": "This transition is relatively low-risk compared to submission techniques, but proper training protocols remain important. Avoid explosive jerking movements during the grip transition that could strain training partner's neck. When inserting hooks, be aware of knee positioning to prevent accidental strikes. During the learning phase, communicate with your partner about the pace of the turn to ensure controlled practice. The neck has already been under pressure from the Hindulotine, so allow recovery time between repetitions."
+    "safety_considerations": "This transition is relatively low-risk compared to submission techniques, but proper training protocols remain important. Avoid explosive jerking movements during the grip transition that could strain training partner's neck. When inserting hooks, be aware of knee positioning to prevent accidental strikes. During the learning phase, communicate with your partner about the pace of the turn to ensure controlled practice. The neck has already been under pressure from the Hindulotine, so allow recovery time between repetitions.",
+    "clips": [
+      {
+        "id": "m1zVrv0CQ_E",
+        "title": "Front headlock to back take",
+        "by": "Modesto Judo Club",
+        "vertical": false,
+        "channel": "Modesto Judo Club",
+        "duration": 28,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Back Take from Top Defender",
@@ -377,6 +388,35 @@
         "phase": "Week 7+",
         "focus": "Live positional defense",
         "description": "Full resistance positional sparring starting from Hindulotine. Partner works complete attack system including guillotine finishes, back takes, and darce transitions. Practice reading which attack is coming and selecting appropriate defense. Integrate all defensive options into fluid responses under pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "dLlXgLRx--I",
+        "title": "Sucker drag escape from the front headlock",
+        "by": "Matt Rogers",
+        "vertical": false,
+        "channel": "Tom Dinklage",
+        "duration": 77,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ry5lH-N7O-0",
+        "title": "Basic front headlock defense",
+        "by": "Askren Wrestling Academy",
+        "vertical": false,
+        "channel": "Askren Wrestling Academy",
+        "duration": 108,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "wxiM5z0NUXw",
+        "title": "Front headlock escape drill",
+        "by": "Gracie Barra Charlestown",
+        "vertical": false,
+        "channel": "Gracie Barra Charlestown",
+        "duration": 29,
+        "verified": "2026-07-15"
       }
     ]
   },

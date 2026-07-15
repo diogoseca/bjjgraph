@@ -263,7 +263,36 @@
         "answer": "Maintain heel grip tension throughout to keep submission threat active even during leg reconfiguration. Execute the transition with deliberate speed that doesn't create defensive windows. The heel grip creates constant danger that forces opponent to prioritize heel protection over escape attempts, limiting their defensive options during the switch."
       }
     ],
-    "safety_considerations": "The Cross Ashi Transition involves movement through leg entanglement positions where heel hook submissions are available. Both training partners must understand heel hook danger and the importance of immediate tapping when rotation begins. During drilling, perform transitions at controlled speed to prevent accidentally catching training partners in finishing positions. Never maintain heel hook grips during transition practice at full speed. If partner indicates any knee discomfort during the switch, stop immediately and reset. Partners with prior knee injuries should drill this transition with extra caution and reduced intensity."
+    "safety_considerations": "The Cross Ashi Transition involves movement through leg entanglement positions where heel hook submissions are available. Both training partners must understand heel hook danger and the importance of immediate tapping when rotation begins. During drilling, perform transitions at controlled speed to prevent accidentally catching training partners in finishing positions. Never maintain heel hook grips during transition practice at full speed. If partner indicates any knee discomfort during the switch, stop immediately and reset. Partners with prior knee injuries should drill this transition with extra caution and reduced intensity.",
+    "clips": [
+      {
+        "id": "GqE4UobpkMs",
+        "title": "Butterfly to reverse X to cross ashi to inside heel hook",
+        "by": "BOWERHOUSE MMA",
+        "vertical": false,
+        "channel": "BOWERHOUSE MMA",
+        "duration": 88,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "h_SRARh0B6U",
+        "title": "Cross ashi belly-down heel hook",
+        "by": "BOWERHOUSE MMA",
+        "vertical": false,
+        "channel": "BOWERHOUSE MMA",
+        "duration": 68,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "m4sGDhukUmk",
+        "title": "Nasty heel hook from outside ashi garami",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
+        "duration": 141,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Cross Ashi Transition Defender",
@@ -393,6 +422,35 @@
         "phase": "Week 7+",
         "focus": "Live leg lock defense integration",
         "description": "Full-speed leg lock exchanges starting from Ushiro Ashi-Garami where attacker has option to transition to Cross Ashi, stay in Ushiro, or follow to Saddle. Defender practices reading attacker's intention and selecting appropriate response in real time. Include counter-entanglement attempts and full escape sequences to standing or guard recovery."
+      }
+    ],
+    "clips": [
+      {
+        "id": "v3w0qXLKxug",
+        "title": "Defending heel hooks",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 92,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "AQbJMBiWYfU",
+        "title": "Escaping ashi garami — leg lock defense",
+        "by": "Scott Elliott",
+        "vertical": false,
+        "channel": "Coach Scott Elliott",
+        "duration": 141,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Z0WDtUMkBP8",
+        "title": "The one key idea for defending heel hooks",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 170,
+        "verified": "2026-07-15"
       }
     ]
   },

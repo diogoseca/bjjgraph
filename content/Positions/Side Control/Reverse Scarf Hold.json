@@ -372,6 +372,35 @@
         "question": "What is the recovery sequence after an opponent creates a frame and begins escaping?",
         "answer": "When frames become effective and space opens, immediately transition rather than fighting to recapture reverse scarf hold. First option is stepping to mount if their bridge created forward space. Second option is transitioning to north-south if they created lateral space. Third option is following to back control if they turn away. The key is recognizing that reverse scarf hold is transitional - when control deteriorates, advance rather than recover the same position."
       }
+    ],
+    "clips": [
+      {
+        "id": "waWC7ARiESc",
+        "title": "Kimura from Reverse Kesa Gatame",
+        "by": "Raymond Tan",
+        "vertical": false,
+        "channel": "BJJ Cheat Codes by Raymond Tan",
+        "duration": 170,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "SBapox2M2dE",
+        "title": "Ushiro-Kesa-Gatame demonstration",
+        "by": "Kodokan",
+        "vertical": false,
+        "channel": "KODOKAN",
+        "duration": 54,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "5POG6rDBVLM",
+        "title": "Reverse Kesa arm attack roll-over",
+        "by": "Carlos Machado",
+        "vertical": false,
+        "channel": "Carlos Machado",
+        "duration": 113,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -685,6 +714,26 @@
         "question": "What is the recovery sequence after you create space but fail to complete the escape?",
         "answer": "After creating space without completing the escape, immediately re-establish your defensive frames before the opponent can recapture full control. Reset your near-side arm to protected position (elbow tight, hand near opposite shoulder). Re-establish your far-side frame against their neck or shoulder. Use the remaining space to adjust your hip angle for the next escape attempt. Don't abandon frames to immediately attempt another escape - reset your defensive structure first, then look for the next opportunity."
       }
+    ],
+    "clips": [
+      {
+        "id": "ORpUBUxK1QE",
+        "title": "Reverse Kesa escape to back take & choke",
+        "by": "Gymnanigains",
+        "vertical": false,
+        "channel": "Gymnanigains",
+        "duration": 26,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "hXp34AtDjac",
+        "title": "Reverse scarf hold escape (twister side control)",
+        "by": "Black Dragon BJJ",
+        "vertical": false,
+        "channel": "Black Dragon BJJ  / Cobra Kai Karate Dungannon",
+        "duration": 291,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -719,6 +768,35 @@
     {
       "question": "What breathing and pacing dynamic does the sternum compression create for both players in Reverse Scarf Hold?",
       "answer": "The hip-and-chest load on the sternum directly restricts the bottom player's lung expansion, making deep or panicked breathing both difficult and counterproductive because it feeds tension and burns oxygen. This forces the bottom player toward calm diaphragmatic breathing and patient, timed movement rather than explosive thrashing. For the top player the same compression means control is maintained through relaxed structural weight rather than a muscular squeeze, so the position rewards composure on both sides. The compression therefore sets a slow, endurance-and-timing tempo that is characteristic of the position regardless of which player you are."
+    }
+  ],
+  "clips": [
+    {
+      "id": "SBapox2M2dE",
+      "title": "Ushiro-Kesa-Gatame demonstration",
+      "by": "Kodokan",
+      "vertical": false,
+      "channel": "KODOKAN",
+      "duration": 54,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "xmjVYNiEz98",
+      "title": "Ushiro Kesa Gatame (Kyushin Ryu)",
+      "by": "Kyushin Ryu School",
+      "vertical": false,
+      "channel": "Kyushin Ryu School of Jujitsu",
+      "duration": 65,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "ipCRN0himVA",
+      "title": "Kenji Shibayama: Ushiro Kesa Gatame",
+      "by": "Kenji Shibayama",
+      "vertical": false,
+      "channel": "Judo Newaza - Old School",
+      "duration": 68,
+      "verified": "2026-07-14"
     }
   ]
 }

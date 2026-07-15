@@ -278,7 +278,27 @@
         "answer": "Grip tension during the descent is the bridge between your standing control and your seated guard. Without maintained tension, there is a gap where you have no connection to your opponent - they can step back, circle away, or drive forward unopposed. The grips also control the distance at which you land relative to your opponent, ensuring you are within range for foot placement. Additionally, maintained grip tension pulls your opponent slightly forward as you sit, keeping them off-balance and preventing them from immediately initiating their passing game. The descent is the most vulnerable moment, and grip tension is what protects you through it."
       }
     ],
-    "safety_considerations": "The sitting guard pull is one of the safest guard pull variations when executed with proper technique. The primary safety concern is protecting the tailbone and lower back during the sitting motion - always control your descent rather than dropping or falling heavily. Practice on appropriate matting with adequate padding, especially during initial learning phases. Ensure sufficient space behind you before sitting to avoid collisions with walls, other practitioners, or mat edges. Partners should maintain appropriate distance and avoid driving weight onto you during your sitting motion. In competition, be aware of mat boundaries and adjust your positioning accordingly. Progress gradually from static drilling to dynamic resistance to minimize risk of awkward falls."
+    "safety_considerations": "The sitting guard pull is one of the safest guard pull variations when executed with proper technique. The primary safety concern is protecting the tailbone and lower back during the sitting motion - always control your descent rather than dropping or falling heavily. Practice on appropriate matting with adequate padding, especially during initial learning phases. Ensure sufficient space behind you before sitting to avoid collisions with walls, other practitioners, or mat edges. Partners should maintain appropriate distance and avoid driving weight onto you during your sitting motion. In competition, be aware of mat boundaries and adjust your positioning accordingly. Progress gradually from static drilling to dynamic resistance to minimize risk of awkward falls.",
+    "clips": [
+      {
+        "id": "jAQul3bwCv4",
+        "title": "Guard pull to X guard sweep setup",
+        "by": "Jackson Souza",
+        "vertical": false,
+        "channel": "Damoun Nassehi",
+        "duration": 17,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "B4_5rH7Vae0",
+        "title": "Competition-tested ways to pull guard",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ Plus",
+        "duration": 207,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Sitting Guard Pull Defender",
@@ -408,6 +428,35 @@
         "phase": "Phase 4: Full Resistance Passing",
         "focus": "Passing seated guard under realistic competition conditions",
         "description": "Partner pulls sitting guard with full resistance and immediately works their guard game. You implement complete defensive and passing strategy: grip fighting, angle creation, leg control, and passing execution. 5-minute rounds of positional sparring starting from standing with partner pulling guard. Track success rate and identify which responses work best against your partner's guard style."
+      }
+    ],
+    "clips": [
+      {
+        "id": "G1PKGe_q9P0",
+        "title": "How to counter the sit-up guard",
+        "by": "Avant-Garde BJJ coach",
+        "vertical": false,
+        "channel": "Avant-Garde BJJ",
+        "duration": 58,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "oaOB2XovGYE",
+        "title": "Intercepting the guard pull",
+        "by": "Riccardo Ammendolia",
+        "vertical": false,
+        "channel": "Riccardo Ammendolia",
+        "duration": 49,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "YPg7dUaYsBI",
+        "title": "Four ways to counter the guard pull",
+        "by": "Força Martial Arts coach",
+        "vertical": false,
+        "channel": "Força Martial Arts & Fitness",
+        "duration": 225,
+        "verified": "2026-07-15"
       }
     ]
   },

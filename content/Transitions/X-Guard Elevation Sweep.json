@@ -265,7 +265,27 @@
         "answer": "Immediately establish heavy hip pressure at the opponent's solar plexus with knees squeezed against their torso before they can frame or bridge. The opponent is momentarily disoriented from the sweep landing, giving you a brief window to consolidate mount control. If you hesitate or land light, they will bridge, create frames, or insert a knee to recover half guard. Establishing heavy contact first, then transitioning to grips or submissions second."
       }
     ],
-    "safety_considerations": "When practicing the X-Guard Elevation Sweep, both partners must prioritize controlled execution throughout the movement. The sweep generates significant vertical and rotational force that can cause unexpected falls. The landing partner should be proficient in backward breakfalls before drilling at any meaningful speed. The sweeping partner must guide the opponent's descent rather than simply dumping them. Avoid full-power execution until both partners are comfortable with the landing mechanics. Be cautious of knee strain on both the sweeping player's hooks and the swept player's trapped leg - release immediately if either partner feels compression or torque on the knee joint. The inverted grasshopper position places load on the cervical spine, so practitioners with neck issues should approach cautiously and avoid forcing the inversion. During live training, tap immediately if the position feels compromised rather than fighting through structural failure."
+    "safety_considerations": "When practicing the X-Guard Elevation Sweep, both partners must prioritize controlled execution throughout the movement. The sweep generates significant vertical and rotational force that can cause unexpected falls. The landing partner should be proficient in backward breakfalls before drilling at any meaningful speed. The sweeping partner must guide the opponent's descent rather than simply dumping them. Avoid full-power execution until both partners are comfortable with the landing mechanics. Be cautious of knee strain on both the sweeping player's hooks and the swept player's trapped leg - release immediately if either partner feels compression or torque on the knee joint. The inverted grasshopper position places load on the cervical spine, so practitioners with neck issues should approach cautiously and avoid forcing the inversion. During live training, tap immediately if the position feels compromised rather than fighting through structural failure.",
+    "clips": [
+      {
+        "id": "zbYb6sOYC8w",
+        "title": "X guard elevation sweep",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "CHOKE LABORATORY",
+        "duration": 53,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "m-ueyJXiShY",
+        "title": "No-gi X-guard sweep",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "GRACIEMAG - The original BJJ magazine. ",
+        "duration": 126,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "X-Guard Elevation Sweep Defender",
@@ -389,6 +409,17 @@
         "phase": "Week 7+",
         "focus": "Full resistance positional sparring",
         "description": "Live positional rounds starting with the attacker in grasshopper guard. Defender practices the complete defensive toolkit against unrestricted sweep attempts, including recognizing when the attacker chains from failed elevation to leg entanglements. Integrate all defensive layers - early denial, mid-sequence extraction, and late-stage emergency recovery - into fluid defensive responses."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kNfVYhZbgrg",
+        "title": "Four levels of sweep defense",
+        "by": "Wim Deputter",
+        "vertical": false,
+        "channel": "Wim Deputter BJJ",
+        "duration": 87,
+        "verified": "2026-07-15"
       }
     ]
   },

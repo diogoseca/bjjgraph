@@ -341,6 +341,35 @@
         "question": "Your opponent partially extracts their foot but remains within grip range—how do you recover control?",
         "answer": "When partial extraction occurs but they remain in range, immediately re-address the foot control by clearing any defensive frames with your legs, re-establishing the figure-four grip before they can complete extraction, and adjusting hip pressure to prevent further foot retraction. The key is recognizing the partial escape early and addressing it before full extraction occurs."
       }
+    ],
+    "clips": [
+      {
+        "id": "7hajltIw4kI",
+        "title": "Estima Lock Breaking Mechanics",
+        "by": "Josh Star-Lord Leduc",
+        "vertical": false,
+        "channel": "Josh Star-Lord Leduc",
+        "duration": 82,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "1I7Nlm1IhgQ",
+        "title": "Estima Lock from 50/50",
+        "by": "The Jiu-Jitsu Foundry",
+        "vertical": false,
+        "channel": "The Jiu-Jitsu Foundry",
+        "duration": 33,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Ao0IatSHEi0",
+        "title": "Estima Lock Finish",
+        "by": "Leandro Dos Santos Flores",
+        "vertical": false,
+        "channel": "Sensei Leandro Dos Santos Flores",
+        "duration": 27,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -631,6 +660,17 @@
         "question": "Your shoulders flatten to the mat during the defense and you lose your angle toward the trapped side—how do you recover your mobility?",
         "answer": "Post immediately with your far hand (the hand on the side away from the trapped leg) and drive your elbow into the mat to create a posting base. Turn your shoulders back toward the trapped leg side by bridging slightly and using the posted hand as a pivot point. Simultaneously activate your free leg to push the opponent's hips and create space that allows your upper body to recover its angle. Being flattened eliminates the hip mobility required for extraction, so recovering this angle is an urgent priority before continuing any escape attempt."
       }
+    ],
+    "clips": [
+      {
+        "id": "CUnX7TOpb-A",
+        "title": "Ankle Lock Escape: Put On the Boot",
+        "by": "Ritchie Yip",
+        "vertical": false,
+        "channel": "Ritchie Yip",
+        "duration": 16,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -665,6 +705,26 @@
     {
       "question": "Why is the trapped ankle's remaining rotational range the shared danger signal that governs urgency for both players?",
       "answer": "Because the submission works by twisting the ankle past its natural rotational range, the amount of safe rotation left is the single measure of how close the position is to finishing. As the heel is fixed and the foot torqued, the joint approaches its mechanical limit, and once that range is exhausted the ligaments and Achilles are directly threatened. The controlling player reads this range to know when the lock is consolidated enough that pressure will produce a tap, while the trapped player reads the same range to know when counter-rotation can still buy time versus when tapping is the only safe option. This shared awareness of joint range, rather than raw pain, is what dictates the pace of the exchange for both sides."
+    }
+  ],
+  "clips": [
+    {
+      "id": "enJwT6Ttreo",
+      "title": "Huge Detail on the Estima Lock",
+      "by": "Brandon Mccaghren",
+      "vertical": false,
+      "channel": "Brandon Mccaghren",
+      "duration": 137,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "7hajltIw4kI",
+      "title": "Estima Lock Breaking Mechanics",
+      "by": "Josh Star-Lord Leduc",
+      "vertical": false,
+      "channel": "Josh Star-Lord Leduc",
+      "duration": 82,
+      "verified": "2026-07-14"
     }
   ]
 }

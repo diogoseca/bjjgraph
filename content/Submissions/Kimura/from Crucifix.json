@@ -344,6 +344,26 @@
         "answer": "The most common finishing error is allowing the elbow to float away from the body during rotation. When the elbow lifts from the ribcage, it creates space for the hitchhiker escape where the opponent rotates their entire shoulder complex to relieve pressure and potentially extract the arm. It also changes the angle of force application from efficient shoulder rotation to a less mechanical pulling motion. Pin the elbow to your ribs as if clamping it in a vise, then rotate only the wrist and forearm while the elbow remains fixed as the fulcrum.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "e_PO61Eu1G8",
+        "title": "Crucifix kimura",
+        "by": "Rob",
+        "vertical": false,
+        "channel": "Rob",
+        "duration": 44,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "ZRW3iwnU8yc",
+        "title": "Chokes from T-kimura crucifix control",
+        "by": "Mig Mag",
+        "vertical": false,
+        "channel": "Mig Mag",
+        "duration": 161,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -478,6 +498,26 @@
         "phase": "Phase 4: Tap Recognition and Safety",
         "focus": "Safe training habits and injury prevention",
         "description": "Partner applies controlled Kimura from crucifix at various depths. Practice recognizing the point of no return and tapping appropriately. Develop body awareness for when the shoulder reaches its rotational limit. Emphasize early tapping habits and clear verbal communication with training partners."
+      }
+    ],
+    "clips": [
+      {
+        "id": "C7wr6klxbC8",
+        "title": "Crucifix escape",
+        "by": "Chosen Few BJJ",
+        "vertical": false,
+        "channel": "Chosen Few BJJ",
+        "duration": 89,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Wrg5Tx-88yM",
+        "title": "Simple crucifix escape",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 149,
+        "verified": "2026-07-14"
       }
     ]
   }

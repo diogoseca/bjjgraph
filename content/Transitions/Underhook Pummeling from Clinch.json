@@ -294,7 +294,27 @@
         "answer": "Against taller opponents, the level change pummel variant is most effective. Drop your level by bending your knees while executing the swim, changing the entry angle so you're pummeling underneath their longer arm at a point closer to their body where their leverage advantage is minimized. The height differential actually creates a wider swimming lane when you lower your level, making the underhook easier to establish from below rather than attempting the swim at their height."
       }
     ],
-    "safety_considerations": "Pummeling involves rapid arm movements near the face and neck area. Avoid striking or jerking motions that could cause accidental eye pokes, ear damage, or neck strain. During training, establish clear communication about intensity levels before engaging. Avoid aggressive forward driving after establishing underhooks, which can cause cervical spine compression if your partner's head is caught. Stop immediately if either partner reports shoulder impingement, neck discomfort, or finger injuries from caught grips. Warm up shoulders thoroughly before intensive pummeling sessions."
+    "safety_considerations": "Pummeling involves rapid arm movements near the face and neck area. Avoid striking or jerking motions that could cause accidental eye pokes, ear damage, or neck strain. During training, establish clear communication about intensity levels before engaging. Avoid aggressive forward driving after establishing underhooks, which can cause cervical spine compression if your partner's head is caught. Stop immediately if either partner reports shoulder impingement, neck discomfort, or finger injuries from caught grips. Warm up shoulders thoroughly before intensive pummeling sessions.",
+    "clips": [
+      {
+        "id": "S4Ghvm7FZeI",
+        "title": "Pummel to underhook in the clinch",
+        "by": "Matt Brown",
+        "vertical": false,
+        "channel": "Dynamic Striking",
+        "duration": 223,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "SKj1Lc16y6I",
+        "title": "Pummel to side clinch drill",
+        "by": "Fargo BJJ coach",
+        "vertical": false,
+        "channel": "Fargo BJJ Academy",
+        "duration": 50,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Underhook Pummeling from Clinch Defender",
@@ -419,6 +439,26 @@
         "phase": "Phase 4: Live Clinch Defense",
         "focus": "Full-speed integration against determined pummelers",
         "description": "Defend against full-resistance pummeling in timed competitive rounds, maintaining dominant position while capitalizing on opponent's openings. Build the conditioning and pattern recognition needed for competition-pace clinch defense."
+      }
+    ],
+    "clips": [
+      {
+        "id": "i5pNuC1_uyA",
+        "title": "How to escape underhooks in the clinch",
+        "by": "Muaythai Muppets coach",
+        "vertical": false,
+        "channel": "Muaythai Muppets.",
+        "duration": 75,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "mlEClPMNcPk",
+        "title": "Defending the double underhooks",
+        "by": "Mark Weir",
+        "vertical": false,
+        "channel": "Mark Weir",
+        "duration": 96,
+        "verified": "2026-07-15"
       }
     ]
   }

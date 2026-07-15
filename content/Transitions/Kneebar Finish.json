@@ -276,7 +276,36 @@
         "answer": "Keep your chest facing their leg with shoulders square to their ankle. Your core should be engaged to transmit hip power into the finish. Avoid twisting or rotating which dissipates pressure. The extension comes from driving your hips forward while your upper body remains stable and your hands anchor the ankle to your chest."
       }
     ],
-    "safety_considerations": "WARNING: The kneebar is an extremely dangerous submission that can cause severe knee ligament damage with very little warning. Unlike joint locks where pain precedes injury, the kneebar can damage the posterior cruciate ligament, joint capsule, and surrounding structures before the opponent recognizes the danger. Always apply pressure gradually and progressively, pausing to allow your training partner time to tap. Never explosively extend into a kneebar. When drilling, communicate clearly with your partner about pressure levels. Stop immediately at any tap signal. Avoid this technique entirely on training partners with previous knee injuries. In competition, be aware of ruleset restrictions on kneebars and leg locks. Tap early when caught in a kneebar - ego injuries heal faster than reconstructed knees."
+    "safety_considerations": "WARNING: The kneebar is an extremely dangerous submission that can cause severe knee ligament damage with very little warning. Unlike joint locks where pain precedes injury, the kneebar can damage the posterior cruciate ligament, joint capsule, and surrounding structures before the opponent recognizes the danger. Always apply pressure gradually and progressively, pausing to allow your training partner time to tap. Never explosively extend into a kneebar. When drilling, communicate clearly with your partner about pressure levels. Stop immediately at any tap signal. Avoid this technique entirely on training partners with previous knee injuries. In competition, be aware of ruleset restrictions on kneebars and leg locks. Tap early when caught in a kneebar - ego injuries heal faster than reconstructed knees.",
+    "clips": [
+      {
+        "id": "12rNXPlqVXo",
+        "title": "No-Gi Kneebar Finish Mechanics",
+        "by": "Unknown",
+        "vertical": false,
+        "channel": "FreeChannelOpen",
+        "duration": 20,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "4dnPuMo_-W8",
+        "title": "Knee Bar Finish",
+        "by": "Ken Shamrock",
+        "vertical": false,
+        "channel": "Gracie Jiu Jitsu Goldsboro",
+        "duration": 21,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "v4lhLkKgVvU",
+        "title": "Go Behind Kneebar",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 129,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Kneebar Finish Defender",
@@ -404,6 +433,26 @@
         "phase": "Week 7+",
         "focus": "Live defense with full attack chains",
         "description": "Full positional sparring from Carni where attacker has all submission options. Practice defending kneebar within the context of the complete Carni attack system including heel hooks, calf slicers, and saddle transitions. Develop real-time decision-making under pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kUuJ03CcIUQ",
+        "title": "Kneebar Defense vs Garry Tonon",
+        "by": "AJ Agazarm",
+        "vertical": false,
+        "channel": "FloGrappling",
+        "duration": 23,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "NuWBh3LN-SY",
+        "title": "Knee Bar Defense to Back Take",
+        "by": "Bicudo BJJ",
+        "vertical": false,
+        "channel": "Bicudo BJJ",
+        "duration": 22,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -308,7 +308,27 @@
         "answer": "Consolidation must be immediate and aggressive. The instant the underhook reaches adequate depth, rotate from flat to your side by driving your underhook elbow toward the mat and hip escaping simultaneously. Then immediately insert your top knee as a shield across the opponent's body. This knee shield creates a structural barrier preventing the opponent from driving their chest back onto yours. Any delay between securing the underhook and establishing the knee shield gives the opponent a window to re-flatten you."
       }
     ],
-    "safety_considerations": "The underhook recovery from flattened half guard is a relatively low-risk technique from an injury perspective, but awareness of several factors is important. Shoulder strain can occur if the underhook arm is forced into an awkward angle while threading under heavy pressure. If you feel sharp pain in the shoulder during insertion, reset rather than forcing the movement. The top player should be aware that their crossface pressure affects the bottom player's breathing, and both partners should respect tap signals during training even from chest pressure alone. Neck strain can develop from prolonged crossface pressure turning the head, so training partners should moderate pressure during drilling phases. In competition, the bottom player should monitor their breathing rate and avoid panic-driven movements that increase injury risk."
+    "safety_considerations": "The underhook recovery from flattened half guard is a relatively low-risk technique from an injury perspective, but awareness of several factors is important. Shoulder strain can occur if the underhook arm is forced into an awkward angle while threading under heavy pressure. If you feel sharp pain in the shoulder during insertion, reset rather than forcing the movement. The top player should be aware that their crossface pressure affects the bottom player's breathing, and both partners should respect tap signals during training even from chest pressure alone. Neck strain can develop from prolonged crossface pressure turning the head, so training partners should moderate pressure during drilling phases. In competition, the bottom player should monitor their breathing rate and avoid panic-driven movements that increase injury risk.",
+    "clips": [
+      {
+        "id": "R0P8BvcJLAs",
+        "title": "Getting the underhook from knee shield half guard",
+        "by": "Bowerhouse MMA coach",
+        "vertical": false,
+        "channel": "BOWERHOUSE MMA",
+        "duration": 131,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "NWie1oi3JSg",
+        "title": "Recovering when you get flattened in half guard",
+        "by": "Inverted Gear coach",
+        "vertical": false,
+        "channel": "Inverted Gear",
+        "duration": 274,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Underhook Recovery from Flattened Defender",
@@ -433,6 +453,26 @@
         "phase": "Phase 4: Decision Making Under Pressure",
         "focus": "Choosing between maintaining position and advancing the pass in real-time",
         "description": "Competition-intensity positional sparring starting from flattened half guard. Top player must make real-time decisions about whether to re-flatten the bottom player, apply whizzer defense, or exploit their movement for a pass. Develops the tactical judgment needed to select the appropriate response based on the specific recovery attempt being used."
+      }
+    ],
+    "clips": [
+      {
+        "id": "8WbQvytyCX0",
+        "title": "Keeping them flat and passing flat half guard",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 63,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dOdO6xJ-TcU",
+        "title": "Denying the half guard underhook",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 98,
+        "verified": "2026-07-15"
       }
     ]
   }

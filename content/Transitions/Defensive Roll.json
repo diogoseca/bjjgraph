@@ -285,7 +285,27 @@
         "answer": "The determining factor is whether your trapped leg was fully extracted during the roll. If the leg is free, immediately insert your knee between your bodies to establish knee shield Half Guard, which offers better offensive options. If the leg remains partially trapped, prioritize Turtle defense with strong frames and active hip positioning while continuing to work the leg free incrementally."
       }
     ],
-    "safety_considerations": "The Defensive Roll involves movement of the spine while under rotational stress, making proper execution critical for injury prevention. Never attempt this escape without first understanding the direction of spinal rotation - rolling the wrong direction can cause serious cervical and thoracic spine injuries. During training, partners should apply Twister Control progressively and communicate clearly about pressure levels. If you feel sharp pain or cannot breathe, tap immediately rather than attempting the escape. The neck is particularly vulnerable during this technique, so maintaining a strong chin tuck throughout is essential. Practice with a qualified instructor before attempting in live rolling, and never drill this technique at high speed until the mechanics are fully understood. When in doubt about timing or ability to escape, tapping is always the safest option."
+    "safety_considerations": "The Defensive Roll involves movement of the spine while under rotational stress, making proper execution critical for injury prevention. Never attempt this escape without first understanding the direction of spinal rotation - rolling the wrong direction can cause serious cervical and thoracic spine injuries. During training, partners should apply Twister Control progressively and communicate clearly about pressure levels. If you feel sharp pain or cannot breathe, tap immediately rather than attempting the escape. The neck is particularly vulnerable during this technique, so maintaining a strong chin tuck throughout is essential. Practice with a qualified instructor before attempting in live rolling, and never drill this technique at high speed until the mechanics are fully understood. When in doubt about timing or ability to escape, tapping is always the safest option.",
+    "clips": [
+      {
+        "id": "RVr67Kb-6ec",
+        "title": "Twister entry from turtle",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 24,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "923eYpD1E58",
+        "title": "Inside roll escape from turtle",
+        "by": "Kenny Lester",
+        "vertical": false,
+        "channel": "KING OF CATCH WRESTLING CHAMPIONSHIP",
+        "duration": 158,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Defensive Roll Defender",
@@ -410,6 +430,17 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Full resistance positional rounds starting from Twister Control. Top player works to either finish the submission or maintain control while bottom player attempts all escape options including the Defensive Roll. Develop real-time decision making between preventing the roll and following it to back control."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Va1YNgx2E6M",
+        "title": "Escape and counter the twister roll",
+        "by": "Matrix Jiu Jitsu",
+        "vertical": false,
+        "channel": "Matrix Jiu Jitsu",
+        "duration": 165,
+        "verified": "2026-07-15"
       }
     ]
   },

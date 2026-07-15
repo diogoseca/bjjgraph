@@ -255,7 +255,18 @@
         "answer": "Choose Single Leg X Recovery when the opponent's inside leg control is shallow (below knee level), your heel is protected, and your hands are free to control their knee. Choose turtle recovery when inside leg control is deep, the opponent has grip proximity to your heel, or you have been defending for more than five seconds without creating extraction progress."
       }
     ],
-    "safety_considerations": "Single Leg X Recovery involves vulnerable knee and ankle positions throughout the extraction sequence. Never force the threading motion against deep resistance as this can strain the knee or expose the ankle to submission. Train with partners who understand the dangers of heel hooks and will release immediately upon tap. Beginners should drill the movement pattern at slow speed before adding any resistance. If you feel sharp pain in knee or ankle during the threading, immediately tap and reset rather than fighting through. Avoid this technique when fatigued as dorsiflexion maintenance requires concentration."
+    "safety_considerations": "Single Leg X Recovery involves vulnerable knee and ankle positions throughout the extraction sequence. Never force the threading motion against deep resistance as this can strain the knee or expose the ankle to submission. Train with partners who understand the dangers of heel hooks and will release immediately upon tap. Beginners should drill the movement pattern at slow speed before adding any resistance. If you feel sharp pain in knee or ankle during the threading, immediately tap and reset rather than fighting through. Avoid this technique when fatigued as dorsiflexion maintenance requires concentration.",
+    "clips": [
+      {
+        "id": "v68TUDCHSe8",
+        "title": "Recovering single leg X when you get smashed",
+        "by": "Dubious Dom",
+        "vertical": false,
+        "channel": "Dubious Dom",
+        "duration": 295,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Single Leg X Recovery Defender",
@@ -379,6 +390,35 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Start in Ushiro Ashi-Garami top with partner working genuine recovery attempts. Apply defensive concepts against realistic speed and resistance, developing the ability to maintain offensive control throughout scramble sequences."
+      }
+    ],
+    "clips": [
+      {
+        "id": "QMgsMSTRSBI",
+        "title": "Five counters to ashi garami leg entanglement",
+        "by": "BJJBlackBeltDad",
+        "vertical": false,
+        "channel": "BJJBlackBeltDad",
+        "duration": 93,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "L417yCl_-dc",
+        "title": "Leg defense from ashi garami",
+        "by": "The Coop BJJ",
+        "vertical": false,
+        "channel": "The Coop BJJ",
+        "duration": 48,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "cRXsNPAgVLU",
+        "title": "Danaher's irimi ashi garami counter",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 29,
+        "verified": "2026-07-15"
       }
     ]
   },

@@ -335,6 +335,35 @@
         "question": "After partially escaping the entanglement, what's your recovery procedure?",
         "answer": "After partially escaping, immediately transition to a stable base position like combat base or standing position. Do not remain in transitional positions where the opponent can re-establish control. Create distance as quickly as possible, establish your base, and only then re-engage on your terms. Keep your formerly trapped leg protected until you've fully established a safe position."
       }
+    ],
+    "clips": [
+      {
+        "id": "v3w0qXLKxug",
+        "title": "Defending heel hooks",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 92,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "AsGMkATAqqw",
+        "title": "Heel hook defense when ambushed",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 53,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "DF2AYLPbeHc",
+        "title": "Defending & countering the inside heel hook",
+        "by": "Jahred Dell",
+        "vertical": false,
+        "channel": "Jahred Dell",
+        "duration": 70,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -649,6 +678,26 @@
         "question": "After your opponent partially extracts their leg, what's your recovery procedure to re-establish control?",
         "answer": "If they partially extract, immediately re-engage your inside leg hook over their hip to prevent complete escape. Follow their movement and re-establish your leg triangle around whatever portion of their leg remains trapped. If needed, transition to a different ashi garami variation like outside ashi that may be available from the new angle. Never let them fully extract - maintain constant connection even if the specific position changes."
       }
+    ],
+    "clips": [
+      {
+        "id": "EMyodFAwXZk",
+        "title": "Top lock clinch for the leglock control",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "ucAwPgTLSpQ",
+        "title": "Getting to backside 50/50",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 121,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -683,6 +732,17 @@
     {
       "question": "What structural connection prevents the trapped player from simply pulling their leg free and standing out of the Carni?",
       "answer": "The top leg crossing over the opponent's hip acts as a barrier that blocks the leg from being retracted or stepped over, while the inside foot below the knee anchors the limb inside the entanglement. Hand control on the exposed ankle adds a secondary tether that denies the distance needed to extract. Together these mean the trapped leg cannot leave along a straight line; it must first clear the hip-line hook, which requires movement that the controlling player can follow. This layered anchoring is why extraction is a process of clearing controls rather than a single pull."
+    }
+  ],
+  "clips": [
+    {
+      "id": "iRTWyAmw5vQ",
+      "title": "The Carni attack chain",
+      "by": "Johnny Jitsu",
+      "vertical": false,
+      "channel": "Johnny Jitsu",
+      "duration": 139,
+      "verified": "2026-07-14"
     }
   ]
 }

@@ -296,7 +296,36 @@
         "answer": "In a standard guillotine, force is applied by pulling the head downward while driving hips into opponent's throat, creating compression between forearm and chest. In the Peruvian Necktie, force comes from pulling the head toward your chest while the opponent's own shoulder creates the compression point against their neck. The choking pressure is lateral (from the side) rather than anterior (from the front), and your hip extension drives their body forward into their own shoulder rather than into your body."
       }
     ],
-    "safety_considerations": "The Peruvian Necktie is a blood choke that can cause unconsciousness rapidly if applied with full force. Practice this technique with controlled pressure and clear communication with training partners. Always tap immediately when caught in this position as the choking mechanism tightens quickly due to the shoulder fulcrum. When applying the technique, release pressure immediately upon feeling a tap or verbal submission. During drilling phases, focus on position achievement rather than finishing the choke. Be especially cautious during the inversion phase as rapid movements can strain neck muscles or cause dizziness. Partners with neck injuries should avoid this technique entirely. The leg threading motion can also create torque on the knee if executed incorrectly, so maintain proper leg alignment throughout. Always practice under qualified supervision, particularly during initial learning phases."
+    "safety_considerations": "The Peruvian Necktie is a blood choke that can cause unconsciousness rapidly if applied with full force. Practice this technique with controlled pressure and clear communication with training partners. Always tap immediately when caught in this position as the choking mechanism tightens quickly due to the shoulder fulcrum. When applying the technique, release pressure immediately upon feeling a tap or verbal submission. During drilling phases, focus on position achievement rather than finishing the choke. Be especially cautious during the inversion phase as rapid movements can strain neck muscles or cause dizziness. Partners with neck injuries should avoid this technique entirely. The leg threading motion can also create torque on the knee if executed incorrectly, so maintain proper leg alignment throughout. Always practice under qualified supervision, particularly during initial learning phases.",
+    "clips": [
+      {
+        "id": "5-Hoy4WV7bI",
+        "title": "Peruvian Necktie submission demo",
+        "by": "BJJ Fanatics",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 68,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "BRS_zC49Kas",
+        "title": "No-gi Peruvian Necktie into Anaconda",
+        "by": "Amir Allah",
+        "vertical": false,
+        "channel": "10th Planet Colorado Springs",
+        "duration": 49,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "WpQIntujyFU",
+        "title": "Peruvian Necktie breakdown",
+        "by": "Luke Harris",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 106,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Peruvian Necktie Setup Defender",
@@ -429,6 +458,26 @@
         "phase": "Week 9-12: Live positional sparring",
         "focus": "Defending against committed attempts in realistic conditions",
         "description": "Positional sparring starting from front headlock. Attacker works to complete the Peruvian Necktie at full intensity while defender works to escape to any safe position. Reset after submission, escape, or 60 seconds. Track success rate and identify which defensive phase needs the most work. Begin integrating defense into regular rolling by asking partners to hunt for the Peruvian Necktie from appropriate positions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "FuNT7N9X8y8",
+        "title": "Peruvian necktie escape",
+        "by": "Chosen Few BJJ",
+        "vertical": false,
+        "channel": "Chosen Few BJJ",
+        "duration": 183,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "zxSKKUroV6Q",
+        "title": "Turtle escapes before the necktie locks",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 214,
+        "verified": "2026-07-15"
       }
     ]
   },

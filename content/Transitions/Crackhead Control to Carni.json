@@ -277,7 +277,36 @@
         "answer": "Your hips should angle across the opponent's trapped leg rather than parallel to it. This creates optimal heel hook leverage by maximizing rotational force on their knee joint. The hip angle adjustment is the final positional refinement after securing inside leg position and heel control. Without this angle, your heel hook threat lacks the mechanical advantage needed to finish."
       }
     ],
-    "safety_considerations": "This transition involves rapid inversion and leg entanglement mechanics that require progressive skill development to execute safely. Beginners should focus on the mechanical movement with cooperative partners before adding resistance. The receiving partner should be familiar with carni defense and heel hook tap protocols before practicing at intensity. Never force the transition against rigid resistance as this can strain your own back during the inversion movement. The heel control established at the end of this transition creates immediate injury risk if applied explosively - establish control gradually and give your partner opportunity to tap. In training, prioritize positional completion over submission speed. Avoid drilling this transition when fatigued as the complex movement pattern degrades under exhaustion, increasing injury risk to both partners."
+    "safety_considerations": "This transition involves rapid inversion and leg entanglement mechanics that require progressive skill development to execute safely. Beginners should focus on the mechanical movement with cooperative partners before adding resistance. The receiving partner should be familiar with carni defense and heel hook tap protocols before practicing at intensity. Never force the transition against rigid resistance as this can strain your own back during the inversion movement. The heel control established at the end of this transition creates immediate injury risk if applied explosively - establish control gradually and give your partner opportunity to tap. In training, prioritize positional completion over submission speed. Avoid drilling this transition when fatigued as the complex movement pattern degrades under exhaustion, increasing injury risk to both partners.",
+    "clips": [
+      {
+        "id": "qeOb0Rl1hy4",
+        "title": "The Carne-Val technique from rubber guard",
+        "by": "Richie Martinez",
+        "vertical": false,
+        "channel": "CholoMMA",
+        "duration": 43,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "iRTWyAmw5vQ",
+        "title": "Attack chain: The Carni",
+        "by": "Johnny Jitsu",
+        "vertical": false,
+        "channel": "Johnny Jitsu",
+        "duration": 139,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Ws8HqIka0x0",
+        "title": "Carni sweep from rubber guard",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 263,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Crackhead Control to Carni Defender",
@@ -408,6 +437,35 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Full positional sparring from crackhead control. Both players pursue their objectives freely. Top player practices maintaining control while defending transition attempts. Track how often the bottom player successfully enters carni to calibrate your defensive sensitivity and weight management."
+      }
+    ],
+    "clips": [
+      {
+        "id": "m0NLphEuFoc",
+        "title": "Leg lock defense, 10th Planet no-gi",
+        "by": "Kuwy Jitsu",
+        "vertical": false,
+        "channel": "Kuwy Jitsu",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MqtG9kuVt-Q",
+        "title": "Leg lock escape: the roll through",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uZbUhFapIhg",
+        "title": "Leglock defense breakdown",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 163,
+        "verified": "2026-07-15"
       }
     ]
   },

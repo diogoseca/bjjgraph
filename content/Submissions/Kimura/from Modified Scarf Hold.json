@@ -351,6 +351,35 @@
         "answer": "Maintain steady progressive pressure without explosive cranking. If the finish is not coming, use the kimura grip as positional control and threaten transitions: step over to mounted kimura for better leverage, transition to an armbar by extending their arm, or use the grip to roll them and take the back. The kimura grip itself is one of the strongest control positions in grappling, so there is no urgency to finish immediately. Patient pressure combined with submission chain threats will eventually force the tap or create a superior position.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "d7ucks8aHN0",
+        "title": "Kesa Gatame to Kimura Transition",
+        "by": "Strong Hold Jiu Jitsu",
+        "vertical": false,
+        "channel": "Strong Hold Jiu Jitsu",
+        "duration": 71,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "hYDvPPyvGUM",
+        "title": "Modified Scarf Hold Kimura",
+        "by": "417 Infinity Martial Arts",
+        "vertical": false,
+        "channel": "417 Infinity Martial Arts",
+        "duration": 102,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "-RyLUQSZZ1s",
+        "title": "Kimura from Kesa",
+        "by": "Vernon Kirk",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 92,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -475,6 +504,35 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Full resistance defense against the complete kimura system from Modified Scarf Hold",
         "description": "Full resistance positional sparring rounds starting in Modified Scarf Hold. Defender works to prevent and escape the kimura and its chain attacks while the attacker pursues the submission system. Develop composure under real pressure and the ability to chain defensive responses against a live attacker cycling between kimura, americana, and armbar threats."
+      }
+    ],
+    "clips": [
+      {
+        "id": "fvp5_BVEtLg",
+        "title": "Kesa Gatame Pressure Defense with Framing",
+        "by": "Kohbukan Sisu",
+        "vertical": false,
+        "channel": "Kohbukan Sisu",
+        "duration": 84,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "QzegNgUUfZs",
+        "title": "Reverse Kesa Gatame Escape",
+        "by": "Coach Paul",
+        "vertical": false,
+        "channel": "Coach Paul - War Fork Jiu-Jitsu Academy",
+        "duration": 81,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "5eAmcE9UXNc",
+        "title": "Modified Kesa-Gatame Escape",
+        "by": "Shane Moore",
+        "vertical": false,
+        "channel": "Shane Moore Jiu Jitsu",
+        "duration": 126,
+        "verified": "2026-07-14"
       }
     ]
   }

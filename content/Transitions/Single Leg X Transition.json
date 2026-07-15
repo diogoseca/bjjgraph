@@ -255,7 +255,36 @@
         "answer": "Flow immediately to alternatives based on how they blocked: Reverse De La Riva recovery if they sprawl back, X-Guard entry if they post hands on your hips, Outside Ashi-Garami if they circle their leg away, Kneebar from Grasshopper if they drop their knee to the mat, or technical standup to wrestling if they fully disengage and create distance. The key is maintaining offensive initiative by reading their defensive reaction and selecting the appropriate chain attack rather than resetting to neutral."
       }
     ],
-    "safety_considerations": "The Single Leg X Transition involves inverted positioning which requires adequate neck and spine flexibility. Never force the transition if you feel strain in your cervical spine or lower back. Ensure proper warm-up of hip flexors, hamstrings, and core before drilling. When training with partners, communicate clearly during the transition as the leg threading motion can create unexpected pressure on the trapped leg. Beginners should develop core strength and inversion comfort separately before combining them in this technique. Avoid attempting this transition on fatigued muscles, as loss of hip elevation during entry can result in being stacked uncomfortably."
+    "safety_considerations": "The Single Leg X Transition involves inverted positioning which requires adequate neck and spine flexibility. Never force the transition if you feel strain in your cervical spine or lower back. Ensure proper warm-up of hip flexors, hamstrings, and core before drilling. When training with partners, communicate clearly during the transition as the leg threading motion can create unexpected pressure on the trapped leg. Beginners should develop core strength and inversion comfort separately before combining them in this technique. Avoid attempting this transition on fatigued muscles, as loss of hip elevation during entry can result in being stacked uncomfortably.",
+    "clips": [
+      {
+        "id": "ufdgy_flsdg",
+        "title": "Single leg X to X guard transition",
+        "by": "Cate BJJ",
+        "vertical": false,
+        "channel": "Cate Brazilian Jiu-jitsu and Kickboxing",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ucAwPgTLSpQ",
+        "title": "Getting to backside 50/50 from single leg X",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 121,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "aoyScppYR1E",
+        "title": "Single leg X transition to X guard sweep",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 160,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Single Leg X Transition Defender",
@@ -386,6 +415,26 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Full resistance positional rounds starting with partner in Grasshopper Guard. Apply all defensive tools under competition conditions. Analyze which defensive responses work best against your training partners' variations. Develop the ability to read whether smash pass timing is available or whether disengagement and reset is the safer option."
+      }
+    ],
+    "clips": [
+      {
+        "id": "e2KVHXnSh_o",
+        "title": "Countering single leg X with a heel hook",
+        "by": "Charles Allan Price",
+        "vertical": false,
+        "channel": "Charles Allan Price",
+        "duration": 75,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ikqRbVwQ6eM",
+        "title": "Defending the single leg entry with false X",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 127,
+        "verified": "2026-07-15"
       }
     ]
   },

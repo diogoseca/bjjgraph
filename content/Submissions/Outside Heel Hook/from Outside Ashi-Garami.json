@@ -365,6 +365,35 @@
         "answer": "Evaluate whether the roll is truly relieving pressure or just repositioning. If your grip is secure and elbows remain clamped, follow the roll while maintaining your grip because the rotational force on the knee ligaments persists even as the body rotates. If the roll creates enough slack for them to begin extracting their leg, transition to inside ashi by threading your leg through as their rotation exposes the far side, giving you a higher-percentage inside heel hook opportunity.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "UuluKZKDt8w",
+        "title": "Heel Hooks breakdown",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 64,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "tLcHN042w48",
+        "title": "Finishing the outside heel hook from outside ashi",
+        "by": "Fox Den Martial Arts",
+        "vertical": false,
+        "channel": "Fox Den Martial Arts",
+        "duration": 86,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "5RyU5LDc3C4",
+        "title": "ADCC-style outside heel hook",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Alberto Serrano BJJ",
+        "duration": 86,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -501,6 +530,35 @@
         "phase": "Phase 4: Live defensive sparring",
         "focus": "Full defensive sequence against live attacks",
         "description": "Start in outside ashi-garami with attacker working live toward the heel hook. Defender practices full defensive sequences including boot defense, grip fighting, extraction attempts, and rolling escapes. Emphasis on early tapping when rotation engages. 3-minute rounds with full resistance."
+      }
+    ],
+    "clips": [
+      {
+        "id": "KmGhb2j68Ng",
+        "title": "Escaping outside ashi heel hook to back take",
+        "by": "Grapple Box",
+        "vertical": false,
+        "channel": "Grapple Box llc",
+        "duration": 34,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "v3w0qXLKxug",
+        "title": "Defending heel hooks fundamentals",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 92,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "AsGMkATAqqw",
+        "title": "What to do when ambushed (heel hook defense)",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 53,
+        "verified": "2026-07-14"
       }
     ]
   }

@@ -299,7 +299,36 @@
         "answer": "Immediately halt all escape movement and re-establish fundamental defensive posture: pin trapped arm elbow to ribs, re-post free hand on opponent's hip, drive posture upward, and re-establish wide base. Take a controlled breath to verify consciousness and blood flow. Do not attempt to continue a failed escape sequence. Reset completely and reinitiate the full escape from the beginning, treating each attempt as independent. Build systematic pressure through repeated correct technique rather than escalating desperation."
       }
     ],
-    "safety_considerations": "While the Complete Triangle Escape does not directly apply submission force, it occurs within an active triangle choke scenario where consciousness loss is a genuine risk. Practitioners must tap immediately if vision narrows, hearing distorts, or lightheadedness develops rather than continuing escape attempts. Training partners applying the triangle should maintain awareness of the defender's responsiveness and release immediately if the defender goes limp or stops actively defending. During drilling, partners should apply triangle pressure progressively and communicate openly about pressure levels. The stacking mechanics used in the escape can strain the opponent's cervical spine, so the escaping practitioner must stack gradually rather than explosively, particularly in training scenarios."
+    "safety_considerations": "While the Complete Triangle Escape does not directly apply submission force, it occurs within an active triangle choke scenario where consciousness loss is a genuine risk. Practitioners must tap immediately if vision narrows, hearing distorts, or lightheadedness develops rather than continuing escape attempts. Training partners applying the triangle should maintain awareness of the defender's responsiveness and release immediately if the defender goes limp or stops actively defending. During drilling, partners should apply triangle pressure progressively and communicate openly about pressure levels. The stacking mechanics used in the escape can strain the opponent's cervical spine, so the escaping practitioner must stack gradually rather than explosively, particularly in training scenarios.",
+    "clips": [
+      {
+        "id": "dJOw0ZEyXXc",
+        "title": "Posture up escape from the triangle choke",
+        "by": "Cosens MMA",
+        "vertical": false,
+        "channel": "Cosens MMA LLC",
+        "duration": 73,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "sR2rS2dwpNY",
+        "title": "How to escape a triangle choke",
+        "by": "Rener and Ryron Gracie",
+        "vertical": false,
+        "channel": "Hayabusa",
+        "duration": 117,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_bfIvH9wB8Y",
+        "title": "Triangle defense through posture",
+        "by": "P3 Martial Arts",
+        "vertical": false,
+        "channel": "P3 Martial Arts",
+        "duration": 112,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Complete Triangle Escape Defender",
@@ -427,6 +456,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Maintaining offensive pressure under full resistance escape attempts",
         "description": "Full resistance positional sparring from locked triangle position. Opponent attempts complete escape while you apply all available counters and transitions. Track finish rate via triangle or secondary attack versus escape rate across multiple rounds to identify weaknesses in retention and transition game."
+      }
+    ],
+    "clips": [
+      {
+        "id": "M3_VDLm6PoE",
+        "title": "Finishing the triangle against good posture",
+        "by": "Inverted Gear",
+        "vertical": false,
+        "channel": "Inverted Gear",
+        "duration": 142,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "gY6xxakffp4",
+        "title": "Avoiding the stack while attacking the triangle",
+        "by": "Rituals Jiu Jitsu",
+        "vertical": false,
+        "channel": "Rituals Jiu Jitsu",
+        "duration": 162,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "B4Vhf6atOBY",
+        "title": "Countering the triangle stack defense",
+        "by": "Anton Minenko",
+        "vertical": false,
+        "channel": "Anton Minenko BJJ",
+        "duration": 145,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -264,7 +264,27 @@
         "answer": "The Standing Escape works best when combined with hip escape, rolling escape, and Granby roll attempts. Each escape threatens a different direction—hip escape moves laterally, rolling escape goes forward, Granby inverts, and standing goes vertical. When you alternate between these options, the attacker cannot predict your escape direction and must defend all axes simultaneously. A failed hip escape attempt that shifts your weight can set up the combat base position needed for standing. The key is flowing between escapes based on the attacker's reactions rather than committing to a single option."
       }
     ],
-    "safety_considerations": "The Standing Escape from Invisible Collar carries significant risk of choke-related injury if attempted with a deep collar grip still in place. Never force this escape when you feel strong compression on your carotid arteries—tap and reset rather than risking loss of consciousness during the standing transition. When drilling, partners should apply collar pressure gradually and release immediately upon feeling the defender begin to stand, allowing progressive resistance development without sudden choke application. The standing phase also creates fall risk for both partners, as the attacker's weight shifts unpredictably during hook removal. Practice on adequate mat space and ensure the attacker knows to release hooks safely if the standing player loses balance. Practitioners with neck injuries or cervical spine issues should approach this technique cautiously, as the chin tuck under collar pressure places significant load on the cervical vertebrae."
+    "safety_considerations": "The Standing Escape from Invisible Collar carries significant risk of choke-related injury if attempted with a deep collar grip still in place. Never force this escape when you feel strong compression on your carotid arteries—tap and reset rather than risking loss of consciousness during the standing transition. When drilling, partners should apply collar pressure gradually and release immediately upon feeling the defender begin to stand, allowing progressive resistance development without sudden choke application. The standing phase also creates fall risk for both partners, as the attacker's weight shifts unpredictably during hook removal. Practice on adequate mat space and ensure the attacker knows to release hooks safely if the standing player loses balance. Practitioners with neck injuries or cervical spine issues should approach this technique cautiously, as the chin tuck under collar pressure places significant load on the cervical vertebrae.",
+    "clips": [
+      {
+        "id": "_sBB-O8fqP4",
+        "title": "Standing up from bottom, technical stand-up detail",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 114,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "mBFVriM0ojQ",
+        "title": "Turkish get-up escape to standing from bottom side control",
+        "by": "Dirtball BJJ",
+        "vertical": false,
+        "channel": "Dirtball BJJ",
+        "duration": 64,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Standing Escape Defender",

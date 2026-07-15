@@ -289,7 +289,36 @@
         "answer": "Abandon when the opponent successfully bends their knee past 90 degrees and maintains hip rotation despite your control efforts, or when they establish strong grip fighting that prevents proper ankle control. Chain attack options include: inside heel hook when the bent knee exposes the heel, toe hold when the foot becomes accessible during their defense, returning to Backside 50-50 chest pressure to reset and wait for a better opportunity, or transitioning to back control if they over-rotate during their escape."
       }
     ],
-    "safety_considerations": "The kneebar attacks the knee joint's structural integrity and can cause serious ligament damage (ACL, PCL, MCL, LCL) if applied without control. Always apply pressure gradually, never explosively. Training partners must tap early when they feel the hyperextension beginning - there is no fighting through a properly applied kneebar. Practitioners with existing knee injuries should communicate limitations before drilling. When finishing, maintain control even after your partner taps - releasing suddenly while they are resisting can cause injury. In training, prioritize your partner's safety over finishing the submission. Stop immediately if your partner says stop rather than tapping, as verbal submission is equally valid. Avoid training kneebars with brand new partners until you understand their pain tolerance and tapping habits."
+    "safety_considerations": "The kneebar attacks the knee joint's structural integrity and can cause serious ligament damage (ACL, PCL, MCL, LCL) if applied without control. Always apply pressure gradually, never explosively. Training partners must tap early when they feel the hyperextension beginning - there is no fighting through a properly applied kneebar. Practitioners with existing knee injuries should communicate limitations before drilling. When finishing, maintain control even after your partner taps - releasing suddenly while they are resisting can cause injury. In training, prioritize your partner's safety over finishing the submission. Stop immediately if your partner says stop rather than tapping, as verbal submission is equally valid. Avoid training kneebars with brand new partners until you understand their pain tolerance and tapping habits.",
+    "clips": [
+      {
+        "id": "vMqDIi10z4k",
+        "title": "Dog bar kneebar variation",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "nlqXyzajRUg",
+        "title": "Omoplata to kneebar",
+        "by": "Todd Hendrickson",
+        "vertical": false,
+        "channel": "Old School Jiu Jitsu",
+        "duration": 88,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "v4lhLkKgVvU",
+        "title": "Go behind kneebar",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 129,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Kneebar Defender",
@@ -418,6 +447,35 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring from leg entanglements",
         "description": "Full resistance positional sparring starting from Backside 50-50. Attacker attempts kneebar and chain attacks while defender works defensive sequences. Track success rate and identify which recognition cues you miss most frequently. Integrate kneebar defense into broader leg lock defense system including heel hook and toe hold awareness."
+      }
+    ],
+    "clips": [
+      {
+        "id": "wBRG0fY94fs",
+        "title": "How to defend a kneebar",
+        "by": "Andrew Smith",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 59,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "NuWBh3LN-SY",
+        "title": "Kneebar defense to taking the back",
+        "by": "Bicudo",
+        "vertical": false,
+        "channel": "Bicudo BJJ",
+        "duration": 22,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "kUuJ03CcIUQ",
+        "title": "Kneebar defense vs Garry Tonon",
+        "by": "AJ Agazarm",
+        "vertical": false,
+        "channel": "FloGrappling",
+        "duration": 23,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -277,7 +277,27 @@
         "answer": "The step over functions as a finishing technique within a passing chain that typically begins with pressure-based approaches like knee pin or smash pass. These initial attempts weaken the bottom player's hook depth and grip strength. When hooks become shallow from sustained pressure, the step over provides an explosive conclusion that capitalizes on the accumulated structural damage."
       }
     ],
-    "safety_considerations": "The Step Over from X-Guard is a relatively low-risk technique with no direct joint lock or choking mechanism. The primary safety concern involves the top player losing balance during the single-leg phase and falling onto the bottom player with uncontrolled weight. Both practitioners should be aware of knee and ankle stress on the bottom player's hooked legs during compression phases. In training, start with controlled speed and cooperative partners before progressing to resistance. Avoid slamming or dropping weight aggressively during the landing phase."
+    "safety_considerations": "The Step Over from X-Guard is a relatively low-risk technique with no direct joint lock or choking mechanism. The primary safety concern involves the top player losing balance during the single-leg phase and falling onto the bottom player with uncontrolled weight. Both practitioners should be aware of knee and ankle stress on the bottom player's hooked legs during compression phases. In training, start with controlled speed and cooperative partners before progressing to resistance. Avoid slamming or dropping weight aggressively during the landing phase.",
+    "clips": [
+      {
+        "id": "WsQy2bzQqL8",
+        "title": "Backstep pass against X-guard",
+        "by": "Wakizashi Jiu Jitsu",
+        "vertical": false,
+        "channel": "Wakizashi Jiu Jitsu",
+        "duration": 76,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "v2thEjJ0ES0",
+        "title": "Five passes against single leg X-guard",
+        "by": "Oneonta Jiu Jitsu",
+        "vertical": false,
+        "channel": "OneontaJiuJitsu Academy",
+        "duration": 121,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Step Over from X-Guard Defender",
@@ -398,6 +418,17 @@
         "phase": "Phase 4: Live Defense Sparring",
         "focus": "Full-speed defense with all options available against varied passing",
         "description": "Start in X-Guard bottom against a partner using all passing techniques including step over. Defend and counter using the full range of defensive options. Build the ability to select the appropriate response based on the specific passing attempt in real time."
+      }
+    ],
+    "clips": [
+      {
+        "id": "zbYb6sOYC8w",
+        "title": "X-guard sweep before the pass arrives",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "CHOKE LABORATORY",
+        "duration": 53,
+        "verified": "2026-07-15"
       }
     ]
   }

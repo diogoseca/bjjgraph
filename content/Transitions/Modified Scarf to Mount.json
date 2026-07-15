@@ -289,7 +289,18 @@
         "answer": "Against larger opponents, the reaction-based slide entry variant is preferred over the direct step-over. Rather than forcing a step-over against superior resistance, increase chest pressure until the larger opponent turns away from the discomfort, then follow their turning movement directly into mount. The opponent's own escape attempt provides the momentum. Also prioritize the knee-across slide variant which maintains constant pressure and avoids the airborne moment where size advantage could enable a powerful bridge escape."
       }
     ],
-    "safety_considerations": "This transition involves significant pressure changes on the bottom player's chest, ribs, and diaphragm during the positional shift. In training, control the speed of the leg swing to avoid accidentally driving a knee into the training partner's face, ribs, or groin during the arc. The bottom player should communicate immediately if breathing becomes severely compromised under sustained chest pressure before the transition. Be aware that the swinging leg's trajectory must clear the partner's head safely. When drilling at higher intensity, ensure the landing into mount is controlled rather than dropping full weight abruptly onto the partner's midsection."
+    "safety_considerations": "This transition involves significant pressure changes on the bottom player's chest, ribs, and diaphragm during the positional shift. In training, control the speed of the leg swing to avoid accidentally driving a knee into the training partner's face, ribs, or groin during the arc. The bottom player should communicate immediately if breathing becomes severely compromised under sustained chest pressure before the transition. Be aware that the swinging leg's trajectory must clear the partner's head safely. When drilling at higher intensity, ensure the landing into mount is controlled rather than dropping full weight abruptly onto the partner's midsection.",
+    "clips": [
+      {
+        "id": "XDBq3B6_P2Y",
+        "title": "Kesa gatame position, transition and submission",
+        "by": "Merge Grappling",
+        "vertical": false,
+        "channel": "Merge Grappling",
+        "duration": 138,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Modified Scarf to Mount Defender",
@@ -415,6 +426,35 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Full resistance defensive application",
         "description": "Start from Modified Scarf Hold bottom with full resistance. Partner attempts mount transition among other attacks and transitions. Defend the mount entry when it appears while maintaining overall defensive integrity against other threats. Goal is preventing at least 40% of transition attempts under full resistance while preserving energy for sustained defense."
+      }
+    ],
+    "clips": [
+      {
+        "id": "NBBNLMCFvWM",
+        "title": "Bridge and roll defense to scarf hold",
+        "by": "Satori BJJ",
+        "vertical": false,
+        "channel": "Satori BJJ",
+        "duration": 43,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "chpoSczCLTI",
+        "title": "Scarf hold escape: low underhook ghost escape",
+        "by": "Mat Life Training Center",
+        "vertical": false,
+        "channel": "Mat Life Training Center",
+        "duration": 20,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2M_6VytUaus",
+        "title": "Kesa Gatame escape",
+        "by": "SBG Australia",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 43,
+        "verified": "2026-07-15"
       }
     ]
   }

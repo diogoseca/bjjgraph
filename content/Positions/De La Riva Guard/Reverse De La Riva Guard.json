@@ -400,6 +400,35 @@
         "question": "What visual and tactile cues indicate the bottom player is about to attempt kiss of the dragon?",
         "answer": "Visual cues include their head beginning to lower toward the mat, shoulders rotating toward you, and hips elevating higher than their normal guard position. Tactile cues include increased pulling pressure on your hooked leg toward their centerline, their far leg releasing its posting position to prepare for the roll, and a shift in their grip from ankle control to deeper hip or belt control. When you feel them loading your weight forward while their hips elevate, this indicates imminent kiss of the dragon entry. Immediate backstep and hip distance are required to prevent the technique."
       }
+    ],
+    "clips": [
+      {
+        "id": "aQ2vFXXBn-o",
+        "title": "Countering a Full Inversion",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "cOUEcFxDtL8",
+        "title": "Reverse De La Riva Guard Pass",
+        "by": "Frankie Roberts",
+        "vertical": false,
+        "channel": "Frankie Roberts",
+        "duration": 58,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "ynFpOlFWdLw",
+        "title": "Passing Reverse De La Riva",
+        "by": "Ronin Training Center",
+        "vertical": false,
+        "channel": "Ronin Training Center",
+        "duration": 68,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -728,6 +757,26 @@
         "question": "Your berimbolo entry gets stuffed and you end up with shoulders on the mat but haven't secured back control—how do you recover?",
         "answer": "When berimbolo stalls with shoulders down, immediately assess if you can complete the inversion or need to abort. If they're defending well, abandon the back take and recover to open guard by pulling your hips away and re-establishing basic RDLR or transitioning to seated guard. If you're partially inverted, continuing to force the rotation typically results in getting passed or having your back taken. The recovery requires hip escape movement away from them while re-establishing your hooks and grips from a reset position. Accept the failed attempt and reset rather than fighting from compromised angles."
       }
+    ],
+    "clips": [
+      {
+        "id": "9cyNdPpL4-I",
+        "title": "Reverse De La Riva into a Knee Bar",
+        "by": "Pardee BJJ",
+        "vertical": false,
+        "channel": "Pardee BJJ",
+        "duration": 65,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "_beJGS2-yIE",
+        "title": "How to Use Reverse De La Riva",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Learn Faster BJJ - Jiu Jitsu Breakdowns",
+        "duration": 122,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -762,6 +811,35 @@
     {
       "question": "How does the far-leg control in Reverse De La Riva prevent the standing player from simply stepping away to neutralize the guard?",
       "answer": "The inverted hook plus the far-leg grip trap the opponent's far leg in the entanglement, so any attempt to step clear must first drag that captured leg through the hook's resistance rather than freely lifting it away. This tethering is what keeps the two players connected and denies the standing player the clean disengagement that would reset them to a passing distance. If the far-leg control is lost, the tether breaks and the opponent can establish a stable base or step out entirely, which is why maintaining that connection is the shared pivot of the position. The captured far leg is the anchor that holds the rotational system in place for both offense and defense."
+    }
+  ],
+  "clips": [
+    {
+      "id": "DzNwu5_EBiA",
+      "title": "Reverse De La Riva to the Back (No-Gi)",
+      "by": "Revolution BJJ",
+      "vertical": false,
+      "channel": "Revolution BJJ",
+      "duration": 44,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "G0PyHbMyyR4",
+      "title": "Reverse De La Riva No-Gi Showcase",
+      "by": "Best Jiu Jitsu",
+      "vertical": false,
+      "channel": "Best Jiu Jitsu #shorts",
+      "duration": 37,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "gR54h1IXyGg",
+      "title": "Knee Shield Reverse DLR to Triangle",
+      "by": "Lucas Lepri",
+      "vertical": false,
+      "channel": "Lucas Lepri Brazilian Jiu Jitsu & Fitness",
+      "duration": 22,
+      "verified": "2026-07-14"
     }
   ]
 }

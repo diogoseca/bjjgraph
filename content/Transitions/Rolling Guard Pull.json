@@ -320,7 +320,36 @@
         "answer": "The hip rotation at the completion of the roll is the decisive movement. As you finish rotating and face the opponent, your hips must immediately angle toward their lower body and close the distance to their hips. If your hips end up flat on the mat pointing at the ceiling, you have no guard structure and are vulnerable to immediate passing. The hips should finish the roll already angled at 30-45 degrees, oriented toward the opponent's lead leg, with your legs already threading into position for your target guard. This hip orientation is what transforms a roll into a guard pull rather than simply falling to your back."
       }
     ],
-    "safety_considerations": "The rolling guard pull requires strict cervical spine protection throughout the movement. Always tuck your chin tightly to your chest and roll over your shoulder blade rather than directly over the spine or the crown of the head. Practitioners with existing neck, shoulder, or back injuries should consult a medical professional before attempting this technique. When learning, practice on adequate matting with proper cushioning, and progress from kneeling to crouching to standing positions over several sessions. Never execute this technique near the edge of the mat or in areas with obstacles, posts, or walls. Training partners should not apply heavy downward pressure during the rolling phase, as this can compress the neck. If you feel any sharp pain in the neck, shoulders, or spine, stop immediately and reassess your mechanics. The rolling motion must be smooth and controlled through the entire rotation. Regular neck strengthening exercises reduce injury risk for practitioners who frequently use rolling entries. In competition warm-ups, always perform several solo rolls before attempting the technique live."
+    "safety_considerations": "The rolling guard pull requires strict cervical spine protection throughout the movement. Always tuck your chin tightly to your chest and roll over your shoulder blade rather than directly over the spine or the crown of the head. Practitioners with existing neck, shoulder, or back injuries should consult a medical professional before attempting this technique. When learning, practice on adequate matting with proper cushioning, and progress from kneeling to crouching to standing positions over several sessions. Never execute this technique near the edge of the mat or in areas with obstacles, posts, or walls. Training partners should not apply heavy downward pressure during the rolling phase, as this can compress the neck. If you feel any sharp pain in the neck, shoulders, or spine, stop immediately and reassess your mechanics. The rolling motion must be smooth and controlled through the entire rotation. Regular neck strengthening exercises reduce injury risk for practitioners who frequently use rolling entries. In competition warm-ups, always perform several solo rolls before attempting the technique live.",
+    "clips": [
+      {
+        "id": "xwmSUE1nbRs",
+        "title": "Imanari-style rolling guard pull breakdown",
+        "by": "Sonny Brown",
+        "vertical": false,
+        "channel": "The Sonny Brown Breakdown",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "jAQul3bwCv4",
+        "title": "Guard pull straight into X-guard sweep",
+        "by": "Jackson Souza",
+        "vertical": false,
+        "channel": "Damoun Nassehi",
+        "duration": 17,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "B4_5rH7Vae0",
+        "title": "Competition-tested ways to pull guard",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ Plus",
+        "duration": 207,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Rolling Guard Pull Defender",
@@ -445,6 +474,26 @@
         "phase": "Week 7+: Full Resistance Integration",
         "focus": "Apply complete defensive system in live standing exchanges",
         "description": "Practice defending rolling guard pulls during live sparring from standing. Partner uses the technique opportunistically while you apply the full recognition-to-defense chain. Track how often you deny guard establishment versus end up in their guard. Adjust defensive strategy based on which layer most frequently fails."
+      }
+    ],
+    "clips": [
+      {
+        "id": "F5oVtO4w2eA",
+        "title": "Counter to the guard pull",
+        "by": "Koji Shibamoto",
+        "vertical": false,
+        "channel": "トライフォース柔術アカデミー / Tri-force Jiu-jitsu Academy",
+        "duration": 14,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "u-jWz-kuERU",
+        "title": "Sweep counter to the guard pull",
+        "by": "Cobra",
+        "vertical": false,
+        "channel": "Cobra",
+        "duration": 88,
+        "verified": "2026-07-15"
       }
     ]
   }

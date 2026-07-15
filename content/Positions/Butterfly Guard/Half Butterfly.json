@@ -365,6 +365,35 @@
         "question": "Your opponent partially recovers butterfly guard by inserting their second hook - how do you recover control?",
         "answer": "Immediately address the new hook by driving your hips toward the mat on that side and using your knee or shin to block the hook's elevation. Reestablish crossface pressure and work to clear one hook at a time by swimming your leg over or backstopping around it. Do not try to pass through double hooks - retreat slightly if needed to reset with only one hook engaged."
       }
+    ],
+    "clips": [
+      {
+        "id": "LIITsrlsAaI",
+        "title": "Passing half butterfly guard",
+        "by": "Morto BJJ",
+        "vertical": false,
+        "channel": "Morto BJJ",
+        "duration": 70,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "8WbQvytyCX0",
+        "title": "How to pass the flat half guard",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 63,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Pk_6CrydIRQ",
+        "title": "Effective half butterfly guard pass (no-gi)",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 110,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -685,6 +714,35 @@
         "question": "Your opponent successfully extracts their trapped leg - how do you recover guard retention?",
         "answer": "Immediately recover full butterfly guard by inserting your free leg as a second hook before they can establish passing grips. If they're too fast, transition to seated guard and use your frames to manage distance while working to re-establish hooks. Never allow them to consolidate a passing position - even a scrappy guard recovery is better than accepting side control. Stay active and use hip movement to create space for hook insertion."
       }
+    ],
+    "clips": [
+      {
+        "id": "oyBedW2q0Qo",
+        "title": "Half butterfly sweep",
+        "by": "StadiumMMA",
+        "vertical": false,
+        "channel": "StadiumMMA",
+        "duration": 30,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "_PJ9H2B8us8",
+        "title": "Half butterfly sweep from head wrap",
+        "by": "Six Blades JJ",
+        "vertical": false,
+        "channel": "Six Blades JJ Yorktown ",
+        "duration": 43,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "X3M6JUqr1Bo",
+        "title": "Windmill half guard sweep",
+        "by": "SBG Australia",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 16,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -719,6 +777,26 @@
     {
       "question": "Why is constant motion and threat rather than static holding intrinsic to the nature of Half Butterfly?",
       "answer": "Because the position's leverage depends on the opponent's weight staying above and unsettled over the hook, allowing the exchange to go static favors the top player, who can then consolidate pressure and methodically extract the trapped leg. Continuous hip movement, angle changes, and hook-elevation threats keep the opponent reacting and prevent them from settling their base or establishing a crossface. This is why Half Butterfly is characterized as a dynamic, scramble-oriented position rather than a resting one. The configuration is only as strong as the movement animating it, which is equally true for the top player's need to keep advancing the pass."
+    }
+  ],
+  "clips": [
+    {
+      "id": "ttMQzRPkHRA",
+      "title": "What to do when flattened in butterfly guard",
+      "by": "Ante Dzolic",
+      "vertical": false,
+      "channel": "Ante Dzolic",
+      "duration": 125,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "9XULQjZeOEU",
+      "title": "Basic butterfly sweep",
+      "by": "Lachlan Giles",
+      "vertical": false,
+      "channel": "Absolute MMA St Kilda - Melbourne",
+      "duration": 243,
+      "verified": "2026-07-14"
     }
   ]
 }

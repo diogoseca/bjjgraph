@@ -305,7 +305,27 @@
         "answer": "The most effective configuration uses your near-side hand gripping the opponent's wrist with a C-grip while your far-side hand reinforces by gripping their forearm near the elbow. This dual-point control provides maximum leverage for pulling the arm across your body. In gi, gripping the sleeve at the wrist and elbow provides even stronger control. Avoid interlocking your fingers around their arm, as this limits your pulling direction and makes it harder to transition to other grips if the initial break fails."
       }
     ],
-    "safety_considerations": "Practice the grip-breaking sequence with progressive resistance to avoid cervical spine strain from aggressive head positioning. Communicate clearly with training partners about choking pressure levels during escape drilling, as the transition between neck defense and grip fighting creates moments of vulnerability. Avoid explosive neck movements during the turning phase. Tap immediately if a choke locks in during escape practice rather than continuing to fight through a secured submission."
+    "safety_considerations": "Practice the grip-breaking sequence with progressive resistance to avoid cervical spine strain from aggressive head positioning. Communicate clearly with training partners about choking pressure levels during escape drilling, as the transition between neck defense and grip fighting creates moments of vulnerability. Avoid explosive neck movements during the turning phase. Tap immediately if a choke locks in during escape practice rather than continuing to fight through a secured submission.",
+    "clips": [
+      {
+        "id": "djhMEfVZozo",
+        "title": "Back escape against the seatbelt grip",
+        "by": "Skyhook coach",
+        "vertical": false,
+        "channel": "Skyhook Martial Arts & Fitness",
+        "duration": 36,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_X1ZpmEswzI",
+        "title": "Escaping back mount seatbelt",
+        "by": "Julie Bond",
+        "vertical": false,
+        "channel": "Julie Bond",
+        "duration": 18,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Escape Seat Belt Control Defender",
@@ -427,6 +447,35 @@
         "phase": "Phase 4: Full Resistance Maintenance",
         "focus": "Complete back control retention against all escape types",
         "description": "Live positional rounds where partner uses all available escapes. Practice the full defensive toolkit: grip reinforcement, submission threats, hook driving, following rotation to mount, and body triangle transitions. Develop real-time decision-making for which defensive option to apply based on the specific escape being attempted."
+      }
+    ],
+    "clips": [
+      {
+        "id": "MwxnveKrlxU",
+        "title": "Seatbelt grip quick fix",
+        "by": "Ben Kool",
+        "vertical": false,
+        "channel": "Ben Kool Tech",
+        "duration": 62,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Wga4PfuShEg",
+        "title": "Maintaining the seatbelt grip in back control",
+        "by": "Academy Jiu Jitsu coach",
+        "vertical": false,
+        "channel": "Academy Jiu Jitsu",
+        "duration": 114,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "70jECxFfCSA",
+        "title": "Rear naked choke from seatbelt control",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Control Jiu JItsu",
+        "duration": 73,
+        "verified": "2026-07-15"
       }
     ]
   }

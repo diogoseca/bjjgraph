@@ -319,7 +319,27 @@
         "answer": "Transition to the standing extraction variant. Standing fundamentally changes the force angles on the shoulder lock by introducing gravity and posture as extraction tools. The figure-four grip loses significant mechanical advantage when you are standing because the bottom player cannot maintain the same rotational force from their back against a standing opponent. Standing also gives you access to toreando and leg drag passes that are unavailable from kneeling position. The tradeoff is that standing may open the bottom player's transition to open guard retention systems, so the pass must be executed immediately after standing extraction before they can re-establish guard hooks."
       }
     ],
-    "safety_considerations": "Shoulder joint safety is paramount during this technique. The trapped arm is already in a compromised position within the shoulder lock configuration—aggressive extraction attempts or poor mechanics can cause rotator cuff strain, labral tears, or shoulder dislocation. Always maintain the trapped elbow in a bent position close to the body to prevent full extension into the submission. Never yank or jerk the trapped arm. If the shoulder lock reaches a pain threshold during extraction, tap and reset rather than fighting through joint stress. During training, partners should communicate clearly about shoulder lock pressure levels and release immediately on tap signals. Avoid this technique entirely if you have pre-existing shoulder injuries until cleared by a medical professional."
+    "safety_considerations": "Shoulder joint safety is paramount during this technique. The trapped arm is already in a compromised position within the shoulder lock configuration—aggressive extraction attempts or poor mechanics can cause rotator cuff strain, labral tears, or shoulder dislocation. Always maintain the trapped elbow in a bent position close to the body to prevent full extension into the submission. Never yank or jerk the trapped arm. If the shoulder lock reaches a pain threshold during extraction, tap and reset rather than fighting through joint stress. During training, partners should communicate clearly about shoulder lock pressure levels and release immediately on tap signals. Avoid this technique entirely if you have pre-existing shoulder injuries until cleared by a medical professional.",
+    "clips": [
+      {
+        "id": "MpWpNkQwBGA",
+        "title": "Side smash pass to side control",
+        "by": "Owen Livesey",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 73,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "TVCEKt1ObOI",
+        "title": "Single underhook stack pass",
+        "by": "Robot Dolphin Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Robot Dolphin Jiu-Jitsu ",
+        "duration": 197,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Guard Pass from Williams Guard Defender",
@@ -444,6 +464,17 @@
         "phase": "Phase 3: Live Retention and Counter Sparring",
         "focus": "Full resistance guard retention with offensive counters",
         "description": "Positional sparring starting in Williams Guard. Partner works extraction and pass at full resistance while you work retention, counters, and guard recovery. Score system: maintain Williams Guard for 30 seconds (win), complete pass to side control (loss), transition to omoplata or sweep (win), recover closed guard (draw). 3-minute rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "xNc_Cdh9VVg",
+        "title": "Late-stage guard retention with the rubber guard",
+        "by": "Robert Diggle",
+        "vertical": false,
+        "channel": "RobertDiggleJJ",
+        "duration": 189,
+        "verified": "2026-07-15"
       }
     ]
   }

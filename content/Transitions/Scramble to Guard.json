@@ -271,7 +271,27 @@
         "answer": "When flattened and unable to complete the hip turn, accept turtle as an intermediate position. Frame against their chest and work to get your knees underneath you by turning into them rather than continuing to fight for the full hip rotation. From turtle you have established escape sequences including sit-outs, Granby rolls, and standard guard recoveries. Turtle removes the dangerous spinal rotation and provides a stable defensive platform, making it a significant positional improvement over remaining in Twister Control."
       }
     ],
-    "safety_considerations": "This escape involves explosive movements from a compromised spinal position, which creates inherent injury risk. Never attempt explosive movements when deep rotation is already established - this can increase spinal torque and risk cervical spine injury. During training, start with cooperative partners and gradually increase resistance. Tap early if you feel sharp pain in your neck or spine during escape attempts. Communicate clearly with training partners about resistance levels. If the Twister submission is locked in, tap immediately rather than attempting a late escape - spinal and neck safety always outweighs positional pride. Practitioners with pre-existing neck or spine injuries should consult with medical professionals before drilling this technique."
+    "safety_considerations": "This escape involves explosive movements from a compromised spinal position, which creates inherent injury risk. Never attempt explosive movements when deep rotation is already established - this can increase spinal torque and risk cervical spine injury. During training, start with cooperative partners and gradually increase resistance. Tap early if you feel sharp pain in your neck or spine during escape attempts. Communicate clearly with training partners about resistance levels. If the Twister submission is locked in, tap immediately rather than attempting a late escape - spinal and neck safety always outweighs positional pride. Practitioners with pre-existing neck or spine injuries should consult with medical professionals before drilling this technique.",
+    "clips": [
+      {
+        "id": "gawKiLxmZbc",
+        "title": "Spinning back door escape from side control",
+        "by": "Science Of JiuJitsu",
+        "vertical": false,
+        "channel": "Science Of JiuJitsu",
+        "duration": 48,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "rjvvLBRxa8s",
+        "title": "No-gi side control escape to guard",
+        "by": "Pantera Jiujitsu",
+        "vertical": false,
+        "channel": "Pantera Jiujitsu",
+        "duration": 62,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Scramble to Guard Defender",
@@ -388,6 +408,17 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring integration",
         "description": "Full resistance positional rounds starting from Twister Control. Top player works to maintain position or convert to submission while bottom player works the full Scramble to Guard sequence. Track which defensive responses are most effective and which scramble variants give you the most difficulty. Integrate counter-scramble awareness into full rolling."
+      }
+    ],
+    "clips": [
+      {
+        "id": "A7d7qR0oH8k",
+        "title": "Countering the turtle escape: circle the reguard",
+        "by": "JitzLive",
+        "vertical": false,
+        "channel": "JitzLive",
+        "duration": 147,
+        "verified": "2026-07-15"
       }
     ]
   },

@@ -295,7 +295,36 @@
         "answer": "Four conditions must be met: your X-hook must be deep behind the opponent's knee with your foot across their hip, your outside leg must be controlling their shin, both hands must be able to secure grips on the heel bone specifically, and the opponent must have weight distributed onto the trapped leg rather than sitting back. Additionally, your hips should be positioned underneath their center of gravity for maximum leverage, and you should have created a slight angle rather than being directly underneath them."
       }
     ],
-    "safety_considerations": "When practicing the Heel Grab Sweep, execute with controlled speed to avoid injuring your training partner's knee or ankle joints. The sudden rotational and pulling forces on the heel can stress the ankle, knee, and hip joints if applied too explosively during drilling. Always communicate with your partner and gradually increase intensity as both practitioners become comfortable with the mechanics. Be particularly cautious when transitioning to leg entanglements if the sweep is countered, as this can create dangerous rotational forces on the knee if done carelessly. Partners should tap early if they feel excessive joint pressure during the learning phase. Ensure training on proper mats with adequate space for the opponent to fall safely backward."
+    "safety_considerations": "When practicing the Heel Grab Sweep, execute with controlled speed to avoid injuring your training partner's knee or ankle joints. The sudden rotational and pulling forces on the heel can stress the ankle, knee, and hip joints if applied too explosively during drilling. Always communicate with your partner and gradually increase intensity as both practitioners become comfortable with the mechanics. Be particularly cautious when transitioning to leg entanglements if the sweep is countered, as this can create dangerous rotational forces on the knee if done carelessly. Partners should tap early if they feel excessive joint pressure during the learning phase. Ensure training on proper mats with adequate space for the opponent to fall safely backward.",
+    "clips": [
+      {
+        "id": "PGQ7YYfu76Q",
+        "title": "Single Leg X Entry, Sweep and Heel Hook",
+        "by": "Ilya Bodnya",
+        "vertical": false,
+        "channel": "Ilya Bodnya",
+        "duration": 65,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lCjIvaC4dsA",
+        "title": "Single Leg X Sweep to Outside Heel Hook",
+        "by": "BOWERHOUSE MMA",
+        "vertical": false,
+        "channel": "BOWERHOUSE MMA",
+        "duration": 91,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "IFuZ5o48t8I",
+        "title": "Single Leg X to Honey Hole Drill",
+        "by": "Gracie Westchase",
+        "vertical": false,
+        "channel": "Gracie Westchase ",
+        "duration": 70,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Heel Grab Sweep Defender",
@@ -425,6 +454,35 @@
         "phase": "Month 3+: Live Positional Sparring",
         "focus": "Defending the sweep within the full Single Leg X attack system",
         "description": "Positional sparring starting in Single Leg X Guard where partner uses all available attacks including Heel Grab Sweep, Tripod Sweep, Sickle Sweep, and leg entries. Practice reading which attack is coming and selecting the appropriate defensive response. Develop the ability to defend multiple chained attacks and convert defense into passing opportunities."
+      }
+    ],
+    "clips": [
+      {
+        "id": "e2KVHXnSh_o",
+        "title": "Single Leg X Counter With Heel Hook",
+        "by": "Charles Allan Price",
+        "vertical": false,
+        "channel": "Charles Allan Price",
+        "duration": 75,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "v2thEjJ0ES0",
+        "title": "Five Passes vs Single Leg X-Guard",
+        "by": "OneontaJiuJitsu Academy",
+        "vertical": false,
+        "channel": "OneontaJiuJitsu Academy",
+        "duration": 121,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "EcxCadpBePk",
+        "title": "Single Leg X Guard Options and Counters",
+        "by": "Steven Kaloustian",
+        "vertical": false,
+        "channel": "Steven Kaloustian",
+        "duration": 97,
+        "verified": "2026-07-15"
       }
     ]
   },

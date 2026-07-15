@@ -335,6 +335,35 @@
         "answer": "In competition, prioritize completing all control points rapidly but still apply the rotational finish progressively. Use the dilemma system: threaten the heel hook to force the opponent into a specific defensive reaction, then immediately capitalize on that reaction. If they boot, transition to saddle. If they roll, take the back. The competition strategy is to cycle through the attack chain faster than the opponent can reset their defense, creating cumulative positional deterioration that eventually exposes the heel for a clean finish.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "6gu-n4P9JXo",
+        "title": "Heel hook breaking mechanics",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "Altay Pirge",
+        "duration": 77,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "_J_isfR1y9E",
+        "title": "Inside heel hook tip",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 60,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "lr7rlj7WV-E",
+        "title": "X guard to heel hook",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
+        "duration": 94,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -466,6 +495,35 @@
         "phase": "Phase 4: Live Leg Lock Defense",
         "focus": "Defending heel hooks during full rolling with realistic intensity",
         "description": "During live rolling, partner specifically targets Carni entries and heel hooks. Practice full defensive sequences from initial recognition through escape or tap. Focus on carrying defensive habits from drilling into live sparring while maintaining strict safety protocols and early tap discipline."
+      }
+    ],
+    "clips": [
+      {
+        "id": "AsGMkATAqqw",
+        "title": "What to do if you're being ambushed (heel hook defense)",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 53,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "v3w0qXLKxug",
+        "title": "Defending heel hooks",
+        "by": "Absolute MMA St Kilda",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 92,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "clVAHxgRadE",
+        "title": "Outside heel hook defense",
+        "by": "Holy Grail BJJ",
+        "vertical": false,
+        "channel": "Holy Grail BJJ",
+        "duration": 105,
+        "verified": "2026-07-14"
       }
     ]
   }

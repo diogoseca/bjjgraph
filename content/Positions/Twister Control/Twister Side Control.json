@@ -391,6 +391,35 @@
         "question": "What are the key grip priorities when controlling from twister side control top?",
         "answer": "The primary grip is the leg hook entanglement - this cannot be compromised. Secondary grips include controlling the near shoulder (either directly or through chest pressure), controlling the near wrist to prevent frames, and potentially securing the chin strap for twister finish attempts. In no-gi, hip positioning often replaces traditional grips, using body placement rather than handles to maintain control."
       }
+    ],
+    "clips": [
+      {
+        "id": "R55lmkc6Mus",
+        "title": "Twister side control",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 87,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "odT3-cVWXdc",
+        "title": "Twister side attacks",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "im8KbQUyxLY",
+        "title": "Truck options from twister side control",
+        "by": "Jeremiah Vance",
+        "vertical": false,
+        "channel": "Jeremiah Vance",
+        "duration": 42,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -689,6 +718,35 @@
         "question": "How do you sequence the leg extraction process without creating worse positions?",
         "answer": "Leg extraction must be coordinated with upper body frames - never attempt to extract legs while the opponent has full shoulder control, as this often deepens the entanglement. First establish frames to limit their ability to follow your hip movement, then systematically work to unhook one leg at a time using hip extension and small circular movements. Maintain defensive posture throughout extraction rather than rushing to complete escape."
       }
+    ],
+    "clips": [
+      {
+        "id": "jg0Rdc0rJzg",
+        "title": "Twister side control counter",
+        "by": "10th Planet Murrieta",
+        "vertical": false,
+        "channel": "10th Planet Jiu Jitsu Murrieta",
+        "duration": 16,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Va1YNgx2E6M",
+        "title": "Escape and counter the twister",
+        "by": "Matrix Jiu Jitsu",
+        "vertical": false,
+        "channel": "Matrix Jiu Jitsu",
+        "duration": 165,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "AUyR1rmVzo4",
+        "title": "Twister side control and escaping it",
+        "by": "Robot Dolphin Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Robot Dolphin Jiu-Jitsu ",
+        "duration": 205,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -723,6 +781,35 @@
     {
       "question": "Why is twister side control regarded as most effective in a no-gi context compared with the gi?",
       "answer": "The position relies on body-positioning and leg entanglement rather than fabric grips, so its control does not weaken when there is no cloth to hold, which suits the no-gi setting where it originated. In the gi the defender gains extra escape leverage from collar, sleeve, and pant grips that let them frame, stall, and create space the leg entanglement alone cannot fully deny. The absence of those grips in no-gi correspondingly limits the defender's framing options, making the shoulder and spinal control harder to break. The position stays viable in the gi with adaptation, but its mechanical advantages are cleanest when grips are unavailable to either side."
+    }
+  ],
+  "clips": [
+    {
+      "id": "R55lmkc6Mus",
+      "title": "Twister side control",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "Eddie Bravo",
+      "duration": 87,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "odT3-cVWXdc",
+      "title": "Twister side attacks",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "Eddie Bravo",
+      "duration": 61,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "oBya4BEW_XU",
+      "title": "Smash side control",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "Eddie Bravo",
+      "duration": 61,
+      "verified": "2026-07-14"
     }
   ]
 }

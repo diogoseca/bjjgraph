@@ -308,7 +308,27 @@
         "answer": "Truck submissions like the calf slicer and twister require the opponent to commit specific defensive actions: defending the calf slicer involves straightening their trapped leg and fighting the lockdown, while defending the twister involves hiding their far arm and protecting their neck. Both defensive postures redirect the opponent's hands and attention away from preventing hook insertion and framing against the back take. The submission threat creates a dilemma where defending one threat opens vulnerability to the other."
       }
     ],
-    "safety_considerations": "The Truck to Back Control transition involves releasing leg entanglement under tension, which can create unexpected torque on the opponent's knee or ankle if their leg is caught at an awkward angle during the switch. Always execute the leg transition with controlled, deliberate movements rather than explosive jerking motions. If the opponent's leg is tightly entangled, work to gradually release the entanglement before threading hooks rather than forcing through. Be aware that the transition can create momentary compression on the opponent's spine during the alignment shift. In training, communicate with your partner during the leg exchange phase and release immediately if they indicate discomfort in the knee or lower back."
+    "safety_considerations": "The Truck to Back Control transition involves releasing leg entanglement under tension, which can create unexpected torque on the opponent's knee or ankle if their leg is caught at an awkward angle during the switch. Always execute the leg transition with controlled, deliberate movements rather than explosive jerking motions. If the opponent's leg is tightly entangled, work to gradually release the entanglement before threading hooks rather than forcing through. Be aware that the transition can create momentary compression on the opponent's spine during the alignment shift. In training, communicate with your partner during the leg exchange phase and release immediately if they indicate discomfort in the knee or lower back.",
+    "clips": [
+      {
+        "id": "sCBGkcJCQYY",
+        "title": "The Truck in transition",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "4Rvj7kmPGzA",
+        "title": "Back control to Truck",
+        "by": "Cory Lawson",
+        "vertical": false,
+        "channel": "Cory Lawson",
+        "duration": 165,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Truck to Back Control Defender",
@@ -433,6 +453,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance defense against back take from truck",
         "description": "Start in truck bottom with partner at full resistance. Partner may attempt back take, truck submissions, or maintain position. Defender works to prevent back control specifically while managing all truck threats. Develops the ability to defend the transition while simultaneously addressing other truck dangers under competitive pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "I43ALzc733w",
+        "title": "Escaping back control",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 71,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "WEpVDP7MRpo",
+        "title": "Defending the rolling back take (Truck roll)",
+        "by": "Brian Glick",
+        "vertical": false,
+        "channel": "Brian Glick",
+        "duration": 209,
+        "verified": "2026-07-15"
       }
     ]
   }

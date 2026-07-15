@@ -288,7 +288,36 @@
         "answer": "Circle your head to the opposite hip rather than fighting the downward pressure directly. If they push your head down on the right side, swim your head to the left side of their body while maintaining your grip on their legs. This head switch removes their leverage point and often creates an opening for an inside trip finish. Keep constant forward pressure throughout the head switch to prevent them from creating distance or resettling their defensive base."
       }
     ],
-    "safety_considerations": "Protect your knees during the penetration step by landing on the ball of your lead foot rather than slamming your kneecap directly into the mat. Wear knee pads during heavy takedown drilling sessions. Be aware of neck strain from sprawl defense contact - if your neck is compressed during a failed shot, tap and reset rather than fighting through a dangerous cervical position. When finishing takedowns in training, control your opponent's descent to prevent them from landing on their head or neck. Never slam or lift and drop opponents, which risks serious spinal injuries. During live drilling, ensure adequate mat space to prevent collisions with walls or other training pairs."
+    "safety_considerations": "Protect your knees during the penetration step by landing on the ball of your lead foot rather than slamming your kneecap directly into the mat. Wear knee pads during heavy takedown drilling sessions. Be aware of neck strain from sprawl defense contact - if your neck is compressed during a failed shot, tap and reset rather than fighting through a dangerous cervical position. When finishing takedowns in training, control your opponent's descent to prevent them from landing on their head or neck. Never slam or lift and drop opponents, which risks serious spinal injuries. During live drilling, ensure adequate mat space to prevent collisions with walls or other training pairs.",
+    "clips": [
+      {
+        "id": "Wy-a8VfNsVo",
+        "title": "Signature double leg with level change",
+        "by": "Jordan Burroughs",
+        "vertical": false,
+        "channel": "United World Wrestling",
+        "duration": 73,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "7LHzjdOADBs",
+        "title": "Blast double leg breakdown",
+        "by": "Josh Dziewa",
+        "vertical": false,
+        "channel": "Josh Dziewa",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "roTSpQlBPyg",
+        "title": "Penetration step drill for takedowns",
+        "by": "Dominik Haska",
+        "vertical": false,
+        "channel": "Dominik Haška",
+        "duration": 33,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Level Change Takedown Defender",
@@ -409,6 +438,35 @@
         "phase": "Phase 4: Live Application",
         "focus": "Integrated defense under full competition pressure",
         "description": "Full-speed standing exchanges where partner actively seeks takedowns while you implement the complete defensive system: recognition, sprawl, counter-offense, and strategic returns to standing. Both partners work at competition intensity with realistic grip fighting and varied setup attacks to simulate tournament conditions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Io79xaXZx_c",
+        "title": "How to sprawl against the double leg",
+        "by": "A-Team BJJ coach",
+        "vertical": false,
+        "channel": "ateambjj",
+        "duration": 56,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QhpRyI_HjcU",
+        "title": "Fixing common double leg defense errors",
+        "by": "Travis Rutt",
+        "vertical": false,
+        "channel": "FANATIC WRESTLING",
+        "duration": 79,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "OcI8litaRQ0",
+        "title": "Beginner takedown defense fundamentals",
+        "by": "Brandon Reed",
+        "vertical": false,
+        "channel": "Brandon Reed BJJ",
+        "duration": 82,
+        "verified": "2026-07-15"
       }
     ]
   }

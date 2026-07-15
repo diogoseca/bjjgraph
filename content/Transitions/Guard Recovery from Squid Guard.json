@@ -283,7 +283,27 @@
         "answer": "If the opponent retreats and creates distance after the Squid Guard collapses, re-establishing Squid Guard is viable because you have the space and time to re-thread the lapel without active passing pressure. Closed guard recovery is the better option only when the opponent is advancing or maintaining close pressure, making the complex re-threading impossible under duress. The decision point is whether the opponent is moving toward you or away from you. An advancing opponent means recover closed guard immediately for safety. A retreating opponent means you have the option to re-feed the lapel and rebuild the Squid Guard configuration with your threading leg still in a favorable starting position."
       }
     ],
-    "safety_considerations": "Guard recovery from Squid Guard is generally low risk, but practitioners should be aware of finger strain from releasing lapel grips under pressure. Release the lapel by opening your hand fully rather than allowing the opponent to rip the grip free, which can hyperextend finger joints. The threading leg may also be susceptible to knee strain if it becomes trapped during withdrawal—if the leg catches on the opponent's body or gi during the retreat, stop and reposition rather than forcing the withdrawal with explosive movement. During training, partners should avoid explosive grip strips that can injure the gripping hand's fingers and instead use controlled, progressive grip-breaking techniques."
+    "safety_considerations": "Guard recovery from Squid Guard is generally low risk, but practitioners should be aware of finger strain from releasing lapel grips under pressure. Release the lapel by opening your hand fully rather than allowing the opponent to rip the grip free, which can hyperextend finger joints. The threading leg may also be susceptible to knee strain if it becomes trapped during withdrawal—if the leg catches on the opponent's body or gi during the retreat, stop and reposition rather than forcing the withdrawal with explosive movement. During training, partners should avoid explosive grip strips that can injure the gripping hand's fingers and instead use controlled, progressive grip-breaking techniques.",
+    "clips": [
+      {
+        "id": "8Ue1bEeU3B4",
+        "title": "Getting back to closed guard from open guard",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ Plus",
+        "duration": 50,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "1ZeXvHBibi8",
+        "title": "Late stage guard recovery to lasso",
+        "by": "Chelsea Leah",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 147,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Guard Recovery from Squid Guard Defender",
@@ -390,6 +410,17 @@
         "phase": "Phase 4: Live Anti-Recovery Sparring",
         "focus": "Full resistance passing against active Squid Guard recovery attempts",
         "description": "Positional sparring starting in Squid Guard with full resistance. Top player works to strip the lapel and advance while bottom player practices recovery. Track passing success rate across rounds to identify which recovery tactics create the most difficulty for targeted counter-development."
+      }
+    ],
+    "clips": [
+      {
+        "id": "YU4eCp4FXrA",
+        "title": "Shutting down the opponent's guard recovery",
+        "by": "Jason Rau",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 234,
+        "verified": "2026-07-15"
       }
     ]
   }

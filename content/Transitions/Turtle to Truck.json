@@ -299,7 +299,36 @@
         "answer": "Enter from the side (perpendicular) when you have established side-riding position with cross face control and can easily access the far leg underneath their body. This is the higher-percentage standard entry. Enter from behind when you already have some form of back control (one hook or seatbelt) but the opponent is defending their neck well and traditional back completion is stalled. The behind entry threads your leg between theirs rather than from outside, which works best when you already have hip-to-hip connection. Side entry offers better initial control; behind entry offers better surprise factor."
       }
     ],
-    "safety_considerations": "When practicing the Truck transition, ensure controlled execution to avoid knee injuries to both yourself and your training partner. The leg triangle configuration can create significant torque on the knee joint, so apply pressure gradually and release immediately when partner taps. During drilling, communicate clearly about resistance levels to prevent sudden explosive movements that could cause injury during the leg insertion phase. Be particularly careful when rolling or adjusting position while your legs are triangled, as awkward weight distribution can strain your own knee ligaments. Never force the leg triangle if the angle is wrong - reset and try again rather than cranking it into place. Partners in turtle should tap early if they feel knee pressure during the entry to prevent injury before the position is fully established. The transition itself is relatively safe when executed properly, but the subsequent submissions (Twister and calf slicers) require additional safety awareness and should only be practiced with experienced partners who understand the dangers."
+    "safety_considerations": "When practicing the Truck transition, ensure controlled execution to avoid knee injuries to both yourself and your training partner. The leg triangle configuration can create significant torque on the knee joint, so apply pressure gradually and release immediately when partner taps. During drilling, communicate clearly about resistance levels to prevent sudden explosive movements that could cause injury during the leg insertion phase. Be particularly careful when rolling or adjusting position while your legs are triangled, as awkward weight distribution can strain your own knee ligaments. Never force the leg triangle if the angle is wrong - reset and try again rather than cranking it into place. Partners in turtle should tap early if they feel knee pressure during the entry to prevent injury before the position is fully established. The transition itself is relatively safe when executed properly, but the subsequent submissions (Twister and calf slicers) require additional safety awareness and should only be practiced with experienced partners who understand the dangers.",
+    "clips": [
+      {
+        "id": "sCBGkcJCQYY",
+        "title": "The truck in transition from turtle",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "XLvbK52hzqM",
+        "title": "Truck back take against a stubborn turtle",
+        "by": "Patrick Donabedian",
+        "vertical": false,
+        "channel": "Patrick Donabedian BJJ",
+        "duration": 63,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "aeD1fb1X6Oc",
+        "title": "Basic truck entry demo",
+        "by": "Firas Zahabi & Georges St-Pierre",
+        "vertical": false,
+        "channel": "Tristar Gym",
+        "duration": 93,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Turtle to Truck Defender",
@@ -430,6 +459,26 @@
         "phase": "Phase 4: Live integration and scramble training",
         "focus": "Defending Truck attempts during live sparring and scrambles",
         "description": "Start from turtle with partner attacking freely, including Truck entries mixed with traditional back takes and front headlock attacks. Develop the ability to read attack type and select the correct defensive framework in real time. 5-minute positional rounds at full resistance. Track how often you deny the Truck entry versus how often you must escape from an established position."
+      }
+    ],
+    "clips": [
+      {
+        "id": "_0TeNLuarPU",
+        "title": "Hip lock to counter the truck",
+        "by": "Christopher Hendrick",
+        "vertical": false,
+        "channel": "Christopher Hendrick",
+        "duration": 35,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Y-asW9hrB3o",
+        "title": "Truck vs the knee-elbow escape",
+        "by": "Matrix Jiu Jitsu",
+        "vertical": false,
+        "channel": "Matrix Jiu Jitsu",
+        "duration": 129,
+        "verified": "2026-07-15"
       }
     ]
   },

@@ -275,7 +275,36 @@
         "answer": "Time the grip strip with moments of maximum forward pressure when the opponent is most compressed and their grip strength is mechanically reduced. As your chest drives into their torso and folds them onto their shoulders, their arm positioning weakens and grip angles become suboptimal. Attack the weakest point of their grip, typically the gap between thumb and fingers, during these compression peaks rather than attempting to strip when they have full extension and grip leverage."
       }
     ],
-    "safety_considerations": "Posture recovery from Carni carries significant knee and ankle injury risk if executed improperly. Never initiate forward pressure before confirming your ankle is protected with toes pointed away from the attacker. Avoid explosive movements that can torque the knee against remaining hooks in the entanglement. If you feel any sharp pain or clicking in the knee during recovery, stop immediately and tap rather than continuing through potential ligament damage. Train this technique progressively with cooperative partners before attempting under full resistance, and always communicate with training partners about heel hook threat levels during positional drilling."
+    "safety_considerations": "Posture recovery from Carni carries significant knee and ankle injury risk if executed improperly. Never initiate forward pressure before confirming your ankle is protected with toes pointed away from the attacker. Avoid explosive movements that can torque the knee against remaining hooks in the entanglement. If you feel any sharp pain or clicking in the knee during recovery, stop immediately and tap rather than continuing through potential ligament damage. Train this technique progressively with cooperative partners before attempting under full resistance, and always communicate with training partners about heel hook threat levels during positional drilling.",
+    "clips": [
+      {
+        "id": "AQbJMBiWYfU",
+        "title": "Escaping ashi garami: leg lock defense",
+        "by": "Scott Elliott",
+        "vertical": false,
+        "channel": "Coach Scott Elliott",
+        "duration": 141,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MqtG9kuVt-Q",
+        "title": "Leg lock escape by roll through",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "R7lPdQWLOus",
+        "title": "50/50 defense: protecting your leg",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "The Grapplers Guide by Jason Scully",
+        "duration": 161,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Posture Recovery from Carni Defender",
@@ -396,6 +425,35 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Full resistance prevention of posture recovery",
         "description": "Positional sparring from Carni bottom with partner actively working all escape options including posture recovery. Defend and counter while maintaining offensive threat. Round ends on successful escape, submission, or positional advancement. 2-minute rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "m0NLphEuFoc",
+        "title": "Leg lock defense, 10th Planet no-gi",
+        "by": "Kuwy Jitsu",
+        "vertical": false,
+        "channel": "Kuwy Jitsu",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "R4K-UU_bUZQ",
+        "title": "Jackie Chan and 411 leg entanglement breakdown",
+        "by": "10th Planet Orange Park",
+        "vertical": false,
+        "channel": "10th Planet Orange Park",
+        "duration": 75,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uZbUhFapIhg",
+        "title": "Craig Jones leg lock defense",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 163,
+        "verified": "2026-07-15"
       }
     ]
   }

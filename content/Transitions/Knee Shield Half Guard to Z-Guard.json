@@ -291,7 +291,36 @@
         "answer": "The transition itself should be viewed as the first link in an offensive chain, not an isolated positional adjustment. Upon achieving Z-Guard, immediately threaten an Old School sweep or underhook bump to force the opponent to defend rather than counter-attack your new frame. If they defend the sweep by posting, transition to a back take. If they drive forward to resist the bump, use their momentum for deep half entry. The Z-Guard transition only succeeds strategically if it is immediately followed by offensive pressure."
       }
     ],
-    "safety_considerations": "The Transition to Z-Guard is a low-risk positional adjustment with minimal injury potential. The primary safety concern is maintaining awareness of your knee shield leg position during elevation to avoid hyperextension of the knee if the opponent suddenly drives forward while your leg is in transition. Practitioners with knee injuries should be cautious about the dynamic knee positioning required and may need to modify the technique with slower, more controlled movements. Always ensure your bottom leg hook is secure to prevent the opponent from passing into positions where your knee could be trapped at a vulnerable angle."
+    "safety_considerations": "The Transition to Z-Guard is a low-risk positional adjustment with minimal injury potential. The primary safety concern is maintaining awareness of your knee shield leg position during elevation to avoid hyperextension of the knee if the opponent suddenly drives forward while your leg is in transition. Practitioners with knee injuries should be cautious about the dynamic knee positioning required and may need to modify the technique with slower, more controlled movements. Always ensure your bottom leg hook is secure to prevent the opponent from passing into positions where your knee could be trapped at a vulnerable angle.",
+    "clips": [
+      {
+        "id": "T3Gwg-ABsZA",
+        "title": "Three attacking options from the Z-guard",
+        "by": "Way of BJJ",
+        "vertical": false,
+        "channel": "Way of BJJ",
+        "duration": 67,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "IUiFusjf86Q",
+        "title": "Triangle setup from the Z-guard",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 36,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QZou9Q97APg",
+        "title": "Knee shield and half guard sweep variations, no-gi",
+        "by": "Kaynan Duarte",
+        "vertical": false,
+        "channel": "Kaynan Duarte",
+        "duration": 177,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Knee Shield Half Guard to Z-Guard Defender",
@@ -411,6 +440,35 @@
         "phase": "Live Application",
         "focus": "Unconscious reaction in rolling",
         "description": "During regular rolling sessions, top player focuses on maintaining pressure that inherently denies Z-Guard transitions while executing their standard passing game. The goal is for transition prevention to become an automatic response embedded within the passing flow rather than a conscious separate action."
+      }
+    ],
+    "clips": [
+      {
+        "id": "GQeS3xTXlb0",
+        "title": "Passing the Z-guard straight to the back",
+        "by": "Animal",
+        "vertical": false,
+        "channel": "Animal",
+        "duration": 48,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "y-VU4mS-7tU",
+        "title": "Z-guard darce pass",
+        "by": "Team GTW BJJ",
+        "vertical": false,
+        "channel": "Team GTW BJJ",
+        "duration": 90,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "xXb65zA1yzs",
+        "title": "Passing half guard and Z-guard with tripod base",
+        "by": "Street Jitsu",
+        "vertical": false,
+        "channel": "Street Jitsu",
+        "duration": 91,
+        "verified": "2026-07-15"
       }
     ]
   }

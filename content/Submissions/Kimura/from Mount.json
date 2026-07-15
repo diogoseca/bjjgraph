@@ -379,6 +379,26 @@
         "answer": "The most common finishing errors are: (1) lifting straight up instead of rotating down toward the hip and lower back - recognized when you feel significant resistance despite adequate grip strength; (2) allowing the wrist to drift away from their body - visible when their arm begins to extend rather than rotate; (3) losing hip connection to their shoulder - recognized when they begin to create space or rotate their torso; and (4) gripping too close on the figure-four - felt as inadequate leverage despite correct motion. Each error has a distinct sensation: straight lifting feels like a strength contest, drifting wrist feels like losing control, hip disconnection feels like the position becoming unstable, and close gripping feels mechanically weak.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "Lkh8kQG8ArA",
+        "title": "Kimura from Mount",
+        "by": "Tom Dinklage",
+        "vertical": false,
+        "channel": "Tom Dinklage",
+        "duration": 66,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "nH4ly3vk7WI",
+        "title": "S-Mount Armbar, Kimura + Far Side Armbar",
+        "by": "GB Costa Mesa",
+        "vertical": false,
+        "channel": "GBCostaMesa",
+        "duration": 24,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -520,6 +540,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full-resistance defense and escape against committed Kimura attacks from mount",
         "description": "Full-resistance positional sparring starting from mount with the top player specifically hunting the Kimura. Bottom player works all defensive options including prevention, grip defense, bridge-and-roll, hip escape, and rolling defense. Track escape rate and identify which defensive stage fails most frequently. 3-minute rounds with role switching. Debrief after each round to analyze defensive decision-making."
+      }
+    ],
+    "clips": [
+      {
+        "id": "qVINUjefot8",
+        "title": "Bent Armlock (Kimura) Escape from Mount",
+        "by": "Soma Academy",
+        "vertical": false,
+        "channel": "Soma Academy",
+        "duration": 72,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "qQZI-_SRLM4",
+        "title": "How To Escape The Kimura",
+        "by": "Inverted Gear",
+        "vertical": false,
+        "channel": "Inverted Gear",
+        "duration": 219,
+        "verified": "2026-07-14"
       }
     ]
   },

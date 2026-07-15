@@ -348,6 +348,17 @@
         "answer": "Watch for sudden relaxation of their defensive grip fighting, body going limp or heavy, slowing or cessation of breathing, gurgling or snoring sounds, and involuntary twitching. Some opponents will not tap due to stubbornness or oxygen-deprived confusion. If you feel their resistance suddenly vanish or their body go limp, release immediately regardless of whether a tap was given. Monitor their recovery closely afterward and be prepared to place them in recovery position if needed.",
         "safety_critical": true
       }
+    ],
+    "clips": [
+      {
+        "id": "NqAXUtNqYLk",
+        "title": "Two Hindulotines from the ADCC Trials",
+        "by": "Nathan Orchard",
+        "vertical": false,
+        "channel": "Ben Eddy Bravo",
+        "duration": 85,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -472,6 +483,26 @@
         "phase": "Phase 3: Live Defense",
         "focus": "Defending at full resistance from realistic entry positions",
         "description": "Begin from front headlock, sprawl, or scramble positions where the Hindulotine is a realistic threat. Partner attacks at full speed and pressure. Practice recognizing and defending in real time, including the decision to tap when the choke is fully locked. Debrief each round on timing and defensive choices."
+      }
+    ],
+    "clips": [
+      {
+        "id": "bkTJD6RIyKY",
+        "title": "Guillotine escape secrets from bottom",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 118,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "8okq4cIHMO0",
+        "title": "Standing guillotine escape",
+        "by": "dogtownman",
+        "vertical": false,
+        "channel": "dogtownman",
+        "duration": 44,
+        "verified": "2026-07-14"
       }
     ]
   }

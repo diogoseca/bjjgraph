@@ -389,6 +389,35 @@
         "answer": "The correct fulcrum placement positions the opponent's kneecap directly above your hip crease, where the iliac crest meets the femoral head area. This creates the shortest possible lever arm between the fulcrum and the ankle grip, maximizing mechanical advantage. If the fulcrum is too low on your thighs, the lever arm lengthens and your hip extension generates insufficient pressure, allowing the opponent to resist through quadriceps flexion alone. If the fulcrum is too high on your abdomen, the soft tissue absorbs pressure rather than transmitting it rigidly, and the angle of force shifts away from pure hyperextension. The hip crease provides the ideal combination of structural rigidity and geometric alignment for the hyperextension lever.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "fig6JjjU-bE",
+        "title": "Kneebar from Saddle",
+        "by": "Bristol Jiu Jitsu",
+        "vertical": false,
+        "channel": "Bristol Jiu Jitsu",
+        "duration": 88,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "vMqDIi10z4k",
+        "title": "Dog Bar (Saddle Kneebar)",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "wDwhA_MeFbU",
+        "title": "Kneebar from Saddle",
+        "by": "Sickness Ferro",
+        "vertical": false,
+        "channel": "Sickness Ferro",
+        "duration": 143,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -520,6 +549,26 @@
         "phase": "Phase 4: Live Defensive Sparring from Saddle",
         "focus": "Integrating kneebar defense into complete Saddle survival strategy",
         "description": "Positional sparring rounds starting from Saddle bottom. Partner attacks with the full submission dilemma system including heel hooks, kneebars, and secondary leg locks. Defender practices recognition, grip defense, escape timing, and managing the dual-threat system at progressive intensity from 70% to full competition speed. Track which defensive responses work at each stage and develop a personal defensive hierarchy."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Ah7Eb5ewXAM",
+        "title": "Saddle Escape vs Mir Lock",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 60,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "wuOCvhp-uZg",
+        "title": "Knee Shield Counter to Saddle",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 18,
+        "verified": "2026-07-14"
       }
     ]
   }

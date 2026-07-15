@@ -304,7 +304,27 @@
         "answer": "The underhook sweep, back take, and forward drive sweep form a triangle of attacks from dogfight. Defending the underhook sweep by posting far creates a back take opening. Defending the back take by keeping hips low and whizzer tight opens the forward drive. Defending the forward drive by posting backward opens the underhook sweep. Each defense to one attack creates vulnerability to another, making it impossible for the opponent to defend all three simultaneously and ensuring the bottom player always has an available offensive option."
       }
     ],
-    "safety_considerations": "The Underhook Sweep involves explosive forward driving pressure channeled through the underhook grip. Avoid excessive rotational force on the opponent's trapped knee during the sweep. Control the descent when the opponent falls to prevent impact injuries to their head, shoulder, or elbow. During training, communicate with your partner about the intensity of the drive. Be mindful of knee stress on the inside leg that remains trapped in the half guard configuration during rotation. When drilling, start at low intensity and increase gradually."
+    "safety_considerations": "The Underhook Sweep involves explosive forward driving pressure channeled through the underhook grip. Avoid excessive rotational force on the opponent's trapped knee during the sweep. Control the descent when the opponent falls to prevent impact injuries to their head, shoulder, or elbow. During training, communicate with your partner about the intensity of the drive. Be mindful of knee stress on the inside leg that remains trapped in the half guard configuration during rotation. When drilling, start at low intensity and increase gradually.",
+    "clips": [
+      {
+        "id": "K7U2uBUfq-c",
+        "title": "Knee shield to underhook to dogfight knee tap",
+        "by": "Kaboom BJJ coach",
+        "vertical": false,
+        "channel": "Kaboom Brazilian Jiu-Jitsu",
+        "duration": 129,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fjDBmFzfhgI",
+        "title": "Dogfight basics and the old school sweep",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 145,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Underhook Sweep from Dogfight Defender",
@@ -427,6 +447,26 @@
         "phase": "Phase 4: Live Dogfight Defense",
         "focus": "Defending all dogfight attacks including sweep, back take, and forward drive",
         "description": "Full-resistance positional sparring from dogfight with you defending from top. The opponent attempts underhook sweep, back take, and forward drive sweep in random order while you practice reading which attack is coming and deploying the correct defensive response for each."
+      }
+    ],
+    "clips": [
+      {
+        "id": "GE3rFdjxA-M",
+        "title": "Countering the dogfight sweep",
+        "by": "Cauliflower Ear Family coach",
+        "vertical": false,
+        "channel": "Cauliflower Ear Family",
+        "duration": 194,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lEx-a7y8zo8",
+        "title": "Whizzer options against the dogfight",
+        "by": "John Laboranti",
+        "vertical": false,
+        "channel": "John Laboranti Wrestling",
+        "duration": 149,
+        "verified": "2026-07-15"
       }
     ]
   }

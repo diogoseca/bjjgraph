@@ -297,7 +297,27 @@
         "answer": "The anaconda compresses by wrapping over the head and pulling the opponent's arm across their own neck, creating circular pressure with your body positioned behind or to the side. The darce compresses by threading under the armpit and across the neck, creating a wedge effect with your chest driving perpendicular into the side of the opponent's head. During the switch, you must rotate your body from the anaconda angle behind the opponent to the darce angle at their side, walking your hips toward their far side while your chest transitions from pressing on their upper back to pressing into the side of their head. Failing to complete this angular adjustment results in a structurally weak darce that lacks finishing power."
       }
     ],
-    "safety_considerations": "The Dead Orchard to Darce Switch involves neck compression mechanics that can cause cervical injury or unconsciousness if applied explosively. Always transition grips with controlled pressure and communicate with training partners about intensity levels. The darce choke can produce unconsciousness rapidly once the figure-four is locked. Release instantly upon tap or signs of distress including facial color changes, loss of muscle tone, or cessation of defensive movement. During drilling, practice the grip transition at reduced speed and intensity before adding resistance. Partners should tap early when caught in the darce rather than fighting through excessive pressure that risks neck injury."
+    "safety_considerations": "The Dead Orchard to Darce Switch involves neck compression mechanics that can cause cervical injury or unconsciousness if applied explosively. Always transition grips with controlled pressure and communicate with training partners about intensity levels. The darce choke can produce unconsciousness rapidly once the figure-four is locked. Release instantly upon tap or signs of distress including facial color changes, loss of muscle tone, or cessation of defensive movement. During drilling, practice the grip transition at reduced speed and intensity before adding resistance. Partners should tap early when caught in the darce rather than fighting through excessive pressure that risks neck injury.",
+    "clips": [
+      {
+        "id": "22EYQ2uhxQw",
+        "title": "Side control to north-south darce choke",
+        "by": "Gracie Westchase coach",
+        "vertical": false,
+        "channel": "Gracie Westchase ",
+        "duration": 75,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "4KtdjdrJLjM",
+        "title": "Darce choke demonstration",
+        "by": "bjjtaro",
+        "vertical": false,
+        "channel": "bjjtaro",
+        "duration": 24,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Dead Orchard to Darce Switch Defender",
@@ -416,6 +436,26 @@
         "phase": "Phase 3: Live Defense",
         "focus": "Full resistance defensive sparring from the dead orchard position",
         "description": "Positional sparring starting from dead orchard control. Top player works to finish anaconda, switch to darce, or advance position. Bottom player works to survive and escape using all available defensive options at full resistance. Track escape rates over multiple sessions to measure defensive improvement and identify which defensive options work best against different opponents."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ZCTAYYZMVUo",
+        "title": "Escaping the front headlock",
+        "by": "Satori BJJ coach",
+        "vertical": false,
+        "channel": "Satori BJJ",
+        "duration": 36,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "VZe2GY0_UIk",
+        "title": "Short drag front headlock escape",
+        "by": "Mason Parris",
+        "vertical": false,
+        "channel": "Merge Grappling",
+        "duration": 176,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -261,7 +261,27 @@
         "answer": "First, immediately re-establish your defensive frames with your legs to prevent positional advancement. Do not attempt the same grip break again right away. Instead, create distance with a hip escape to give yourself space and time. Reassess the grip - if it deepened because your angle was wrong, adjust your body position before the next attempt. If it deepened because they reinforced with their second hand, address the reinforcing hand first to isolate the primary grip again. Sometimes the best response is to transition to an offensive technique that the deep grip actually enables, such as using a deep collar grip against them for a sweep entry."
       }
     ],
-    "safety_considerations": "Grip breaking is generally a low-risk technique with minimal injury potential when practiced correctly. The primary safety consideration is controlling the force applied during training to avoid injuring your partner's fingers or thumb. When breaking grips, apply controlled progressive force rather than explosive jerking motions during cooperative drilling. Communicate with your partner about grip strength and breaking intensity, especially when drilling with partners who have previous finger or hand injuries. During live training, explosive grip breaks are appropriate, but be mindful not to intentionally target fingers with bending or twisting motions that could cause sprains or dislocations. Maintain awareness of your surroundings during grip fighting exchanges, as the dynamic hand fighting can sometimes cause practitioners to lose balance or move unexpectedly. Partners should tap or release grips if they feel any sharp pain in their fingers or wrists during drilling."
+    "safety_considerations": "Grip breaking is generally a low-risk technique with minimal injury potential when practiced correctly. The primary safety consideration is controlling the force applied during training to avoid injuring your partner's fingers or thumb. When breaking grips, apply controlled progressive force rather than explosive jerking motions during cooperative drilling. Communicate with your partner about grip strength and breaking intensity, especially when drilling with partners who have previous finger or hand injuries. During live training, explosive grip breaks are appropriate, but be mindful not to intentionally target fingers with bending or twisting motions that could cause sprains or dislocations. Maintain awareness of your surroundings during grip fighting exchanges, as the dynamic hand fighting can sometimes cause practitioners to lose balance or move unexpectedly. Partners should tap or release grips if they feel any sharp pain in their fingers or wrists during drilling.",
+    "clips": [
+      {
+        "id": "EV9gWyVYF2g",
+        "title": "Twisty wristy grip break from the back",
+        "by": "10th Planet Colorado Springs",
+        "vertical": false,
+        "channel": "10th Planet Colorado Springs",
+        "duration": 100,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "OnmLBMNZ44A",
+        "title": "Crucifix grip break",
+        "by": "Gabe Tuttle",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 86,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Grip Break Defender",
@@ -387,6 +407,17 @@
         "phase": "Week 9-12: Full Integration Grip Defense",
         "focus": "Complete grip fighting defense in live sparring scenarios",
         "description": "Full-resistance positional sparring where you must maintain grip control against opponents specifically targeting your grips. Include scenarios starting from established guard passing grips, competition scenarios with time pressure, and extended exchanges where grip fatigue becomes a factor. Focus on energy management, grip hierarchy decisions, and combining grip retention with positional advancement seamlessly."
+      }
+    ],
+    "clips": [
+      {
+        "id": "IlsPTI0z29w",
+        "title": "Staying on top of the grips",
+        "by": "Fernando Yamasaki",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 101,
+        "verified": "2026-07-15"
       }
     ]
   },

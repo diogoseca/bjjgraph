@@ -288,7 +288,36 @@
         "answer": "Use the partial space to transition to an alternative escape pathway rather than resetting completely. If you created angle but could not insert the knee shield, use the momentum to drive into deep half guard underneath the passer. If you created space but lost your frames, immediately re-establish the primary forearm frame before the passer can reclaim the space. The key is maintaining whatever positional gains you achieved and building on them rather than starting the entire sequence from scratch."
       }
     ],
-    "safety_considerations": "The leg weave escape is a low-risk defensive technique with minimal injury potential when practiced correctly. Primary safety concern is neck strain from excessive crossface pressure during drilling. Partners should communicate about pressure intensity and build resistance gradually across training phases. Avoid explosive bridging into a partner who is not braced, as this can cause knee or ankle injuries to the top player. During live training, tap if caught in a fully consolidated pass rather than fighting desperately from a compromised position, as forced scrambles from bad positions can lead to shoulder or neck injuries."
+    "safety_considerations": "The leg weave escape is a low-risk defensive technique with minimal injury potential when practiced correctly. Primary safety concern is neck strain from excessive crossface pressure during drilling. Partners should communicate about pressure intensity and build resistance gradually across training phases. Avoid explosive bridging into a partner who is not braced, as this can cause knee or ankle injuries to the top player. During live training, tap if caught in a fully consolidated pass rather than fighting desperately from a compromised position, as forced scrambles from bad positions can lead to shoulder or neck injuries.",
+    "clips": [
+      {
+        "id": "L8_9QIvzZtA",
+        "title": "Knee shield half guard recovery vs pressure pass",
+        "by": "Dirtball BJJ coach",
+        "vertical": false,
+        "channel": "Dirtball BJJ",
+        "duration": 39,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "hXAs2HsP9Cg",
+        "title": "Knee shield half guard recovery",
+        "by": "United Martial Arts KY coach",
+        "vertical": false,
+        "channel": "UnitedMartialArtsKY",
+        "duration": 121,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "7gcVk4flYHo",
+        "title": "Leg weave guard pass counter",
+        "by": "Stephan Kesting",
+        "vertical": false,
+        "channel": "Stephan Kesting",
+        "duration": 182,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Leg Weave Escape to Half Guard Defender",
@@ -413,6 +442,26 @@
         "phase": "Phase 4: Competitive Application",
         "focus": "Maintaining leg weave and passing under full resistance",
         "description": "Extended positional rounds at competition intensity. Top player must maintain leg weave control or complete a pass within 2 minutes against a fully resisting bottom player using all available escape options. Develops the complete defensive and offensive toolkit from leg weave top."
+      }
+    ],
+    "clips": [
+      {
+        "id": "aN2S7_WAhq4",
+        "title": "Holding leg weave and finishing to knee slide",
+        "by": "Modern BJJ coach",
+        "vertical": false,
+        "channel": "Modern BJJ",
+        "duration": 118,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "4LIBFmas-oE",
+        "title": "Passing the knee shield with the leg weave",
+        "by": "BJJ4Breakfast coach",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 153,
+        "verified": "2026-07-15"
       }
     ]
   }

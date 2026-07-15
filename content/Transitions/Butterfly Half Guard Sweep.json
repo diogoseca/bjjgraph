@@ -284,7 +284,36 @@
         "answer": "The optimal moment is when the opponent's weight shifts forward or they lean toward the butterfly hook side, either naturally or because they are attempting a pass or establishing crossface. Their forward commitment loads their weight onto your butterfly hook, creating perfect conditions for elevation. Additionally, when they reach with their far arm to attack or establish grips, their base is momentarily compromised. Recognizing these micro-adjustments in weight distribution is the key timing skill for high-percentage execution."
       }
     ],
-    "safety_considerations": "The Butterfly Half Guard Sweep is a relatively low-risk technique with minimal injury potential when executed correctly. Primary safety concerns include knee stress on the half guard trap leg during the sweep rotation and potential shoulder strain if the underhook is maintained aggressively during heavy opponent resistance. Partners should communicate immediately if they feel unusual pressure on their knee or ankle during the sweep motion. During drilling, allow complete sweep execution rather than resisting at dangerous angles that could torque joints. Tap immediately if caught in any joint lock during scrambles following a defended sweep attempt."
+    "safety_considerations": "The Butterfly Half Guard Sweep is a relatively low-risk technique with minimal injury potential when executed correctly. Primary safety concerns include knee stress on the half guard trap leg during the sweep rotation and potential shoulder strain if the underhook is maintained aggressively during heavy opponent resistance. Partners should communicate immediately if they feel unusual pressure on their knee or ankle during the sweep motion. During drilling, allow complete sweep execution rather than resisting at dangerous angles that could torque joints. Tap immediately if caught in any joint lock during scrambles following a defended sweep attempt.",
+    "clips": [
+      {
+        "id": "oyBedW2q0Qo",
+        "title": "Half butterfly sweep from half guard",
+        "by": "StadiumMMA coach",
+        "vertical": false,
+        "channel": "StadiumMMA",
+        "duration": 30,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "mwXARWfRC0I",
+        "title": "Butterfly sweep from half guard",
+        "by": "Alberto Serrano",
+        "vertical": false,
+        "channel": "Alberto Serrano BJJ",
+        "duration": 73,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "hTQ29eG4cqY",
+        "title": "Half guard sit-up to butterfly sweep",
+        "by": "Bjj Picanha coach",
+        "vertical": false,
+        "channel": "Bjj Picanha",
+        "duration": 38,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Butterfly Half Guard Sweep Defender",
@@ -405,6 +434,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Competition-speed defensive application",
         "description": "Positional sparring starting in top butterfly half guard against full resistance. Track sweep defense success rate and develop automatic defensive responses to various sweep setups and attack chains."
+      }
+    ],
+    "clips": [
+      {
+        "id": "dOdO6xJ-TcU",
+        "title": "Stopping the half guard underhook from top",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 98,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "9miuP4-v0EE",
+        "title": "Why half butterfly guard is a different passing problem",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 192,
+        "verified": "2026-07-15"
       }
     ]
   }

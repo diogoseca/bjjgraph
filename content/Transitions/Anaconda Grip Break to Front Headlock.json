@@ -288,7 +288,18 @@
         "answer": "Attacking the grip junction directly separates the hands and eliminates the constricting loop entirely, providing the cleanest escape pathway. Pushing the elbow changes the angle of compression without breaking the grip, creating space for head extraction while the opponent's hands remain connected. The elbow push is useful when the junction is inaccessible but carries higher risk of the opponent readjusting and re-tightening. Use junction attack as the primary method and elbow push as the fallback when hand positioning prevents direct junction access."
       }
     ],
-    "safety_considerations": "The anaconda grip break involves defending against an active blood choke that can cause unconsciousness within seconds when fully locked. Always tap early in training if the choke reaches critical tightness before the grip break succeeds. Communicate clearly with training partners about resistance levels and establish verbal tap signals in case hand taps are not possible due to arm positioning. When drilling, the top player should release immediately upon any tap signal and should not resist grip breaks at full intensity until the bottom player has demonstrated consistent mechanical proficiency at lower resistance levels. Monitor for signs of blood choke symptoms including tunnel vision, lightheadedness, and facial color changes."
+    "safety_considerations": "The anaconda grip break involves defending against an active blood choke that can cause unconsciousness within seconds when fully locked. Always tap early in training if the choke reaches critical tightness before the grip break succeeds. Communicate clearly with training partners about resistance levels and establish verbal tap signals in case hand taps are not possible due to arm positioning. When drilling, the top player should release immediately upon any tap signal and should not resist grip breaks at full intensity until the bottom player has demonstrated consistent mechanical proficiency at lower resistance levels. Monitor for signs of blood choke symptoms including tunnel vision, lightheadedness, and facial color changes.",
+    "clips": [
+      {
+        "id": "ebDSf6ao2Yk",
+        "title": "High wrist guillotine switching to anaconda choke",
+        "by": "Mark Cerrone",
+        "vertical": false,
+        "channel": "Mark Cerrone",
+        "duration": 87,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Anaconda Grip Break to Front Headlock Defender",
@@ -409,6 +420,35 @@
         "phase": "Phase 4: System Integration",
         "focus": "Complete anaconda control offensive system under defensive pressure",
         "description": "Integrate grip defense into the full anaconda control offensive system including roll-through finishes, darce transitions, and back takes. Partner provides full resistance with various escape methods while you maintain offensive pressure and adapt attacks."
+      }
+    ],
+    "clips": [
+      {
+        "id": "SXm9wA1HcvM",
+        "title": "Anaconda choke defense",
+        "by": "SFS MMA",
+        "vertical": false,
+        "channel": "Fierce Pierce15",
+        "duration": 64,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "czQckiDogRc",
+        "title": "How to escape the anaconda choke (no-gi)",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 92,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "VZe2GY0_UIk",
+        "title": "Short drag front headlock escape",
+        "by": "Mason Parris",
+        "vertical": false,
+        "channel": "Merge Grappling",
+        "duration": 176,
+        "verified": "2026-07-15"
       }
     ]
   }

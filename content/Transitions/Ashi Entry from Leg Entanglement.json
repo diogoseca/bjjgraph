@@ -289,7 +289,36 @@
         "answer": "During the transition, the knee line determines whether you have achieved true Inside Ashi-Garami or are still in a general entanglement. When your body is above the opponent's knee line (closer to their hip), you lack submission access and they can easily clear your position. The threading sequence must end with your hips positioned below the knee line, between their knee and foot. The inside leg across the hip and outside hook behind the knee create a structural barrier that prevents your body from sliding above the knee line during the opponent's defensive movements, which is what distinguishes inside ashi from a loose leg drape."
       }
     ],
-    "safety_considerations": "Leg entanglement transitions involve positions where knee and ankle joints are vulnerable to rapid loading during position changes. Always execute the threading sequence with controlled movement rather than explosive jerking that could torque training partners' knees. When establishing the outside hook behind the opponent's knee, avoid cranking or twisting their leg into unnatural angles. If the opponent taps during any phase of the entry, release immediately even if no submission was intentionally applied, as the entanglement itself can create joint pressure during transitions. Train heel hook finishing mechanics only under qualified instruction with experienced partners who understand tap timing."
+    "safety_considerations": "Leg entanglement transitions involve positions where knee and ankle joints are vulnerable to rapid loading during position changes. Always execute the threading sequence with controlled movement rather than explosive jerking that could torque training partners' knees. When establishing the outside hook behind the opponent's knee, avoid cranking or twisting their leg into unnatural angles. If the opponent taps during any phase of the entry, release immediately even if no submission was intentionally applied, as the entanglement itself can create joint pressure during transitions. Train heel hook finishing mechanics only under qualified instruction with experienced partners who understand tap timing.",
+    "clips": [
+      {
+        "id": "HniaoFWTsmI",
+        "title": "Easy entry to the saddle from cross ashi",
+        "by": "Ilya",
+        "vertical": false,
+        "channel": "Ilya's Jiu-Jitsu",
+        "duration": 53,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "N2weatRR_V4",
+        "title": "Cross ashi and saddle entry",
+        "by": "bjj doug",
+        "vertical": false,
+        "channel": "bjj doug",
+        "duration": 28,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "yyIdx96a9eA",
+        "title": "Saddle entry from standard ashi garami",
+        "by": "Hellfish MMA",
+        "vertical": false,
+        "channel": "Hellfish Mixed Martial Arts",
+        "duration": 201,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Ashi Entry from Leg Entanglement Defender",
@@ -414,6 +443,35 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Full resistance application in positional sparring",
         "description": "Start in general leg entanglement with partner working to achieve Inside Ashi-Garami at 100% effort. Defend the entry using all available options, transitioning between prevention, extraction, and counter-attack based on the situation. Track success rates and identify which defensive options work best against different entry variants."
+      }
+    ],
+    "clips": [
+      {
+        "id": "cRXsNPAgVLU",
+        "title": "Irimi ashi garami counter",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 29,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "L417yCl_-dc",
+        "title": "Leg defense from ashi garami",
+        "by": "The Coop BJJ",
+        "vertical": false,
+        "channel": "The Coop BJJ",
+        "duration": 48,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QMgsMSTRSBI",
+        "title": "Five leglock counters to ashi garami",
+        "by": "BJJBlackBeltDad",
+        "vertical": false,
+        "channel": "BJJBlackBeltDad",
+        "duration": 93,
+        "verified": "2026-07-15"
       }
     ]
   }

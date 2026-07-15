@@ -294,7 +294,27 @@
         "answer": "A tight chin tuck while defending Japanese Necktie setup leaves them vulnerable to several alternatives: the Darce choke works because it attacks from a different angle and uses their defending arm against them; transitioning to back control becomes available since they're focused on neck defense rather than hip movement; flattening them to side control allows positional advancement while maintaining pressure. The chin tuck is a temporary defense that commits them to static positioning you can exploit."
       }
     ],
-    "safety_considerations": "The Japanese Necktie is a blood choke targeting carotid arteries and should be practiced with appropriate caution. During training progressions, start with zero resistance and gradually increase intensity over several weeks. Partners must tap immediately when pressure is felt, as blood chokes can cause unconsciousness within seconds. When practicing the rolling component, ensure adequate mat space to avoid collisions. Beginners should not attempt full-speed rolling until they master static positioning phases. Be especially careful with neck cranking—if the choking arm is not threaded deep enough, you may inadvertently create cervical spine pressure instead of vascular compression. Always release immediately upon tap or verbal submission. Supervise white belts closely during initial training phases, as the rolling motion can be disorienting."
+    "safety_considerations": "The Japanese Necktie is a blood choke targeting carotid arteries and should be practiced with appropriate caution. During training progressions, start with zero resistance and gradually increase intensity over several weeks. Partners must tap immediately when pressure is felt, as blood chokes can cause unconsciousness within seconds. When practicing the rolling component, ensure adequate mat space to avoid collisions. Beginners should not attempt full-speed rolling until they master static positioning phases. Be especially careful with neck cranking—if the choking arm is not threaded deep enough, you may inadvertently create cervical spine pressure instead of vascular compression. Always release immediately upon tap or verbal submission. Supervise white belts closely during initial training phases, as the rolling motion can be disorienting.",
+    "clips": [
+      {
+        "id": "GhsOYl-GXUk",
+        "title": "How to do a Japanese necktie",
+        "by": "Budo Brothers",
+        "vertical": false,
+        "channel": "Budo Brothers",
+        "duration": 82,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8vCEZKqCALw",
+        "title": "Darce to Japanese necktie chain",
+        "by": "Drew Darce",
+        "vertical": false,
+        "channel": "Drew Darce",
+        "duration": 53,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Japanese Necktie Setup Defender",
@@ -433,6 +453,35 @@
         "phase": "Phase 5: Situational Sparring (Week 7+)",
         "focus": "Integrating defense into live front headlock exchanges",
         "description": "Start from front headlock position. Attacker attempts any front headlock attack including Japanese Necktie at 80-90% intensity. Defender must recognize which attack is coming and apply appropriate defense. 3-minute rounds with reset after escape or submission. Track which setups are hardest to defend and drill those specifically."
+      }
+    ],
+    "clips": [
+      {
+        "id": "t4xBYQ1VauU",
+        "title": "Front headlock sit-out reversal",
+        "by": "Keith Takada",
+        "vertical": false,
+        "channel": "takadadojokeith",
+        "duration": 28,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ynXB4QKxzOs",
+        "title": "Front head and arm escape via duck under",
+        "by": "United Fighter",
+        "vertical": false,
+        "channel": "UNITED FIGHTER",
+        "duration": 58,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "d1YBV8UTKds",
+        "title": "Darce choke defense",
+        "by": "Unknown",
+        "vertical": false,
+        "channel": "Animal",
+        "duration": 53,
+        "verified": "2026-07-15"
       }
     ]
   },

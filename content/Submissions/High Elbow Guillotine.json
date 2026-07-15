@@ -209,5 +209,43 @@
       "name": "Turtle",
       "relationship": "Entry position - attacking turtle with high elbow variation when darce/anaconda unavailable"
     }
+  ],
+  "clips": [
+    {
+      "id": "NUnTxPvjCa0",
+      "title": "The Marcelotine Choke",
+      "by": "Marcelo Garcia",
+      "vertical": false,
+      "channel": "stuartcooperfilms",
+      "duration": 73,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "IvSVZuezQGo",
+      "title": "Double Elbow to High Elbow Guillotine",
+      "by": "Marcelo Garcia",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 171,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "9U5nyBImGj4",
+      "title": "High Elbow Guillotine (Marcelotine)",
+      "by": "Wrecking Crew BJJ",
+      "vertical": false,
+      "channel": "Wrecking Crew BJJ",
+      "duration": 45,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "HPAWgC8qxFY",
+      "title": "Marcelotine High Elbow Guillotine",
+      "by": "Miguel Garcia",
+      "vertical": false,
+      "channel": "Miguel Garcia",
+      "duration": 47,
+      "verified": "2026-07-14"
+    }
   ]
 }

@@ -287,7 +287,36 @@
         "answer": "The force should be directed diagonally downward at approximately 45 degrees toward the mat, not straight backward or straight down. Your hips and legs generate the primary driving force while your chest maintains connection and your arms guide direction. Driving purely backward allows posting, while driving purely down lets them widen base. The diagonal vector compromises both defensive options simultaneously."
       }
     ],
-    "safety_considerations": "The Mat Return to Back Mount carries moderate injury risk primarily from the impact of taking opponents to the mat. Always practice on appropriate mats with sufficient padding, and drill the technique at reduced speed until both partners are comfortable with the landing mechanics. The person being taken down should learn to breakfall properly and not post their arms rigidly, which can cause shoulder and wrist injuries. The attacking partner must control the descent speed and never drop their full weight suddenly on the defender. Avoid suplex-style variations until both partners have significant experience, and never perform high-amplitude throws in training environments without explicit agreement and proper supervision. In competition, be aware of ruleset restrictions on slams and throws to the head or neck area."
+    "safety_considerations": "The Mat Return to Back Mount carries moderate injury risk primarily from the impact of taking opponents to the mat. Always practice on appropriate mats with sufficient padding, and drill the technique at reduced speed until both partners are comfortable with the landing mechanics. The person being taken down should learn to breakfall properly and not post their arms rigidly, which can cause shoulder and wrist injuries. The attacking partner must control the descent speed and never drop their full weight suddenly on the defender. Avoid suplex-style variations until both partners have significant experience, and never perform high-amplitude throws in training environments without explicit agreement and proper supervision. In competition, be aware of ruleset restrictions on slams and throws to the head or neck area.",
+    "clips": [
+      {
+        "id": "EGc0gpGOML8",
+        "title": "Mat returns from standing back control",
+        "by": "Satori BJJ",
+        "vertical": false,
+        "channel": "Satori BJJ",
+        "duration": 71,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "GKrJsIYmycM",
+        "title": "Mat return drill",
+        "by": "Nicky Rodriguez",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 84,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8Hryr2cs7Tg",
+        "title": "Mat return with the backside double",
+        "by": "Jeremy Baker",
+        "vertical": false,
+        "channel": "Jeremy Baker",
+        "duration": 62,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Mat Return to Back Mount Defender",
@@ -417,6 +446,17 @@
         "phase": "Week 7+",
         "focus": "Full resistance integration",
         "description": "Live positional sparring starting from standing back control bottom. Partner attempts mat return at full speed and resistance. Practice combining all defensive elements: base maintenance to prevent takedown, controlled turtle if taken down, hook denial upon landing, and immediate escape sequences. Develop the ability to read and respond to all three mat return variants."
+      }
+    ],
+    "clips": [
+      {
+        "id": "k-78AJwPYig",
+        "title": "Defending standing back control with double unders",
+        "by": "Academy Jiu Jitsu",
+        "vertical": false,
+        "channel": "Academy Jiu Jitsu",
+        "duration": 64,
+        "verified": "2026-07-15"
       }
     ]
   },

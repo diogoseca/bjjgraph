@@ -406,6 +406,35 @@
         "focus": "Defending transitions under full competitive pressure",
         "description": "Begin every round in reverse scarf hold bottom. Partner can transition to side control, attack submissions, or advance to mount. Defend all threats while specifically targeting the transition window for escape attempts. Five-minute rounds with full resistance, tracking escape success rate per round."
       }
+    ],
+    "clips": [
+      {
+        "id": "QzegNgUUfZs",
+        "title": "Reverse kesa gatame side control escape",
+        "by": "Coach Paul",
+        "vertical": false,
+        "channel": "Coach Paul - War Fork Jiu-Jitsu Academy",
+        "duration": 81,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ORpUBUxK1QE",
+        "title": "Reverse kesa gatame escape from bottom",
+        "by": "Gymnanigains",
+        "vertical": false,
+        "channel": "Gymnanigains",
+        "duration": 26,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "OYmQpzNmvF4",
+        "title": "Kesa gatame back-door escape",
+        "by": "5am Birds of War",
+        "vertical": false,
+        "channel": "5am Birds of War",
+        "duration": 25,
+        "verified": "2026-07-15"
+      }
     ]
   }
 }

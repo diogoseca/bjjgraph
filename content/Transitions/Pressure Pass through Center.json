@@ -265,7 +265,36 @@
         "answer": "Your lead shoulder drives into their lower abdomen or hip crease, creating the primary pressure point that collapses their inversion. Your chest flattens against the back of their thighs, distributing weight broadly to prevent them from squirming free. Your hips stay connected low to the mat, preventing any space underneath. Your head stays tight against their side to prevent them from framing against your neck. These four contact points create a unified pressure system that overwhelms the core strength required to maintain inversion."
       }
     ],
-    "safety_considerations": "When executing the Pressure Pass through Center, maintain awareness of your opponent's neck and spine position during the stacking motion. Avoid driving their chin toward their chest excessively, which can compress the cervical spine. If opponent taps or verbally indicates discomfort during the stack, release pressure immediately. When training this technique, start with controlled, gradual pressure increases rather than explosive drives, allowing both partners to adjust to the positions. Partners with neck injuries or limited spinal flexibility should avoid receiving this pass until cleared by a medical professional. The stacking position can also compress the chest and restrict breathing, so maintain communication with your training partner throughout."
+    "safety_considerations": "When executing the Pressure Pass through Center, maintain awareness of your opponent's neck and spine position during the stacking motion. Avoid driving their chin toward their chest excessively, which can compress the cervical spine. If opponent taps or verbally indicates discomfort during the stack, release pressure immediately. When training this technique, start with controlled, gradual pressure increases rather than explosive drives, allowing both partners to adjust to the positions. Partners with neck injuries or limited spinal flexibility should avoid receiving this pass until cleared by a medical professional. The stacking position can also compress the chest and restrict breathing, so maintain communication with your training partner throughout.",
+    "clips": [
+      {
+        "id": "aQ2vFXXBn-o",
+        "title": "Countering a full inversion from the top",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "3e82Y_MRj_o",
+        "title": "Countering an inversion from north-south",
+        "by": "Frankie Roberts",
+        "vertical": false,
+        "channel": "Frankie Roberts",
+        "duration": 42,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "4X_JC-YQ9yY",
+        "title": "Stack pass variation from shin trap",
+        "by": "Modern BJJ",
+        "vertical": false,
+        "channel": "Modern BJJ",
+        "duration": 85,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Pressure Pass through Center Defender",
@@ -380,6 +409,35 @@
         "phase": "Week 7+",
         "focus": "Live integration and prevention",
         "description": "Apply defensive skills in live rolling against partners who use pressure passing against your grasshopper guard. Focus on preventive leg management that denies timing windows entirely, reducing the need for reactive defense. Analyze which situations lead to successful pressure pass attempts and adjust your grasshopper guard approach to minimize those vulnerabilities."
+      }
+    ],
+    "clips": [
+      {
+        "id": "hj1nHZUZvoA",
+        "title": "Stack pass counter with the funk roll",
+        "by": "Adam Bradley",
+        "vertical": false,
+        "channel": "Adam Bradley",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "mOvf60z4HS0",
+        "title": "Stack pass defense into triangle trap",
+        "by": "Mark Cerrone",
+        "vertical": false,
+        "channel": "Mark Cerrone",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ynoR-AtSYUc",
+        "title": "Guard retention when they get around the legs",
+        "by": "Absolute MMA",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 210,
+        "verified": "2026-07-15"
       }
     ]
   },

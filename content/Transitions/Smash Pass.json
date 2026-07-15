@@ -308,7 +308,36 @@
         "answer": "In gi, the smash pass benefits from collar grips that augment crossface control, pants grips at the knee for inside leg control, and belt grips for the underhook smash variation. These grips provide persistent friction-based control that complements shoulder pressure. In no-gi, you rely more heavily on body-on-body pressure since grips are transient. The crossface must be deeper with more shoulder commitment, inside leg control uses overhook or wrist control rather than pants grips, and the overall emphasis shifts toward maintaining constant chest-to-chest connection because you cannot rely on fabric anchors. No-gi smash passing demands tighter body positioning throughout."
       }
     ],
-    "safety_considerations": "When practicing the smash pass, apply shoulder pressure with control rather than explosive force to avoid injury to your partner's neck, jaw, or face. The crossface should be uncomfortable but never painful enough to cause injury. During training, communicate with your partner about pressure levels, especially when first learning the technique. Ensure adequate mat space for the driving movements required in this pass. Be particularly careful when extracting your trapped leg - sudden explosive movements can cause knee or ankle injuries to either practitioner. If your partner taps or signals distress during crossface application, immediately release pressure. When drilling with newer partners, use lighter pressure until they understand the mechanics and can defend appropriately. Never use full competition-level pressure during cooperative drilling."
+    "safety_considerations": "When practicing the smash pass, apply shoulder pressure with control rather than explosive force to avoid injury to your partner's neck, jaw, or face. The crossface should be uncomfortable but never painful enough to cause injury. During training, communicate with your partner about pressure levels, especially when first learning the technique. Ensure adequate mat space for the driving movements required in this pass. Be particularly careful when extracting your trapped leg - sudden explosive movements can cause knee or ankle injuries to either practitioner. If your partner taps or signals distress during crossface application, immediately release pressure. When drilling with newer partners, use lighter pressure until they understand the mechanics and can defend appropriately. Never use full competition-level pressure during cooperative drilling.",
+    "clips": [
+      {
+        "id": "8WbQvytyCX0",
+        "title": "Passing the flat half guard",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 63,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_XjuF0no1Uw",
+        "title": "Basic no-gi half guard smash pass",
+        "by": "Danny Mitchell",
+        "vertical": false,
+        "channel": "Danny Mitchell MMA",
+        "duration": 89,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "YcNppdGtt6c",
+        "title": "Half guard pass to full mount",
+        "by": "Carlos Machado",
+        "vertical": false,
+        "channel": "Carlos Machado",
+        "duration": 92,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Smash Pass Defender",
@@ -438,6 +467,35 @@
         "phase": "Week 9-12: Counter-Offensive Integration",
         "focus": "Using sweep threats and back take entries during smash pass defense",
         "description": "Partner applies full smash pass at 80% intensity. Practice incorporating offensive counters - sweeps during knee shield clearing, back take entries when winning underhook battle, and deep half sweeps when transitioning. Goal is to transform defense into offense. Positional sparring rounds of 2 minutes starting from bottom half guard against committed smash passer."
+      }
+    ],
+    "clips": [
+      {
+        "id": "06-ZO93fJak",
+        "title": "Head frame to prevent the hug smash pass",
+        "by": "Revolution BJJ coach",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 90,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dOdO6xJ-TcU",
+        "title": "Stopping the half guard underhook smash",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 98,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "CsNjyydowlM",
+        "title": "Half guard squeeze pass escape",
+        "by": "David Avellan",
+        "vertical": false,
+        "channel": "David Avellan",
+        "duration": 282,
+        "verified": "2026-07-15"
       }
     ]
   }

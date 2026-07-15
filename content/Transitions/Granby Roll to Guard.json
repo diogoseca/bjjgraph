@@ -269,7 +269,36 @@
         "answer": "No offensive grip is required to initiate the granby—this is a grip-free escape that relies on timing and momentum rather than control. However, you must address the opponent's choking grip by either stripping it with your near hand or accepting it will follow you. The critical pre-roll action is reducing their hip control, not establishing your own grips. This grip-independence is what makes the granby viable even when your arms are compromised by the choke setup."
       }
     ],
-    "safety_considerations": "Practice the granby roll movement pattern extensively before applying it against resistance. The inverted rolling motion places stress on the cervical spine if performed incorrectly—always maintain a tucked chin and roll diagonally across the shoulder blade rather than over the top of the head. Start with soft mats and gradually increase drilling intensity. Avoid this technique if you have neck injuries or cervical spine issues. When drilling with partners, communicate clearly about intensity levels and establish tap signals for any neck discomfort during training. The roll should feel smooth and controlled; any grinding or pressure on the neck indicates incorrect mechanics."
+    "safety_considerations": "Practice the granby roll movement pattern extensively before applying it against resistance. The inverted rolling motion places stress on the cervical spine if performed incorrectly—always maintain a tucked chin and roll diagonally across the shoulder blade rather than over the top of the head. Start with soft mats and gradually increase drilling intensity. Avoid this technique if you have neck injuries or cervical spine issues. When drilling with partners, communicate clearly about intensity levels and establish tap signals for any neck discomfort during training. The roll should feel smooth and controlled; any grinding or pressure on the neck indicates incorrect mechanics.",
+    "clips": [
+      {
+        "id": "vyphbya8ZVQ",
+        "title": "Basic granby roll technique",
+        "by": "Danny Mitchell",
+        "vertical": false,
+        "channel": "Danny Mitchell MMA",
+        "duration": 44,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Ww3UlhG2GzI",
+        "title": "Progression of the granby roll",
+        "by": "Ryan Loder",
+        "vertical": false,
+        "channel": "UFC Fighter Ryan Loder",
+        "duration": 59,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "rSn2PkpXaPw",
+        "title": "Why the granby roll matters in BJJ",
+        "by": "Unknown coach",
+        "vertical": false,
+        "channel": "Black belt daily",
+        "duration": 58,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Granby Roll to Guard Defender",
@@ -394,6 +423,26 @@
         "phase": "Week 7+",
         "focus": "Full decision-tree live sparring",
         "description": "Positional sparring from Buggy Choke where bottom player uses full escape arsenal and top player must read and react in real time, choosing between prevention and following based on timing. Integrate all defensive tools into a seamless decision tree that maximizes position retention."
+      }
+    ],
+    "clips": [
+      {
+        "id": "3e82Y_MRj_o",
+        "title": "Countering an inversion from top north-south",
+        "by": "Frankie Roberts",
+        "vertical": false,
+        "channel": "Frankie Roberts",
+        "duration": 42,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "REf4-Z7jsRo",
+        "title": "Following the roll to take the back",
+        "by": "Fox Den coach",
+        "vertical": false,
+        "channel": "Fox Den Martial Arts",
+        "duration": 106,
+        "verified": "2026-07-15"
       }
     ]
   },

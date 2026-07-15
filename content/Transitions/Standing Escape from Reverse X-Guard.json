@@ -287,7 +287,27 @@
         "answer": "The primary hook behind your knee must be addressed first because it provides the main elevation point for sweeps. The secondary hook on your hip controls rotational movement and sweeping direction. Addressing the knee hook first removes the bottom player's primary leverage point, making the secondary hook much less effective on its own. Reversing this order leaves the stronger hook intact, and the bottom player can re-establish the secondary hook while retaining full sweep power through the primary hook."
       }
     ],
-    "safety_considerations": "When extracting from Reverse X-Guard, avoid jerking movements that could strain knee ligaments in either practitioner. The entangled leg is vulnerable to hyperextension if hooks are cleared explosively while the opponent maintains grip control on the ankle or foot. Always address grips before forcefully extracting legs. If the opponent transitions to a leg lock entry during your escape, prioritize defending the submission over completing the escape. Communicate with training partners about knee sensitivity, especially when drilling hook removal sequences repeatedly."
+    "safety_considerations": "When extracting from Reverse X-Guard, avoid jerking movements that could strain knee ligaments in either practitioner. The entangled leg is vulnerable to hyperextension if hooks are cleared explosively while the opponent maintains grip control on the ankle or foot. Always address grips before forcefully extracting legs. If the opponent transitions to a leg lock entry during your escape, prioritize defending the submission over completing the escape. Communicate with training partners about knee sensitivity, especially when drilling hook removal sequences repeatedly.",
+    "clips": [
+      {
+        "id": "TwE_vhlV13g",
+        "title": "Single leg X escape to back take",
+        "by": "Ronin Training Center",
+        "vertical": false,
+        "channel": "Ronin Training Center",
+        "duration": 63,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "C1lYVhDXwvw",
+        "title": "Passing X guard from standing",
+        "by": "Kaynan Duarte",
+        "vertical": false,
+        "channel": "The Grapple Club",
+        "duration": 116,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Standing Escape from Reverse X-Guard Defender",
@@ -409,6 +429,26 @@
         "phase": "Live Positional Sparring",
         "focus": "Full resistance guard retention and counter-attacking",
         "description": "Positional sparring rounds starting from Reverse X-Guard. Bottom player attempts to sweep or maintain guard while top player works standing escape with full resistance. Reset after sweep, pass, or complete escape. Progressively increase round duration and intensity to simulate competition conditions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "EcxCadpBePk",
+        "title": "Reverse X and single leg X guard options",
+        "by": "Steven Kaloustian",
+        "vertical": false,
+        "channel": "Steven Kaloustian",
+        "duration": 97,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QR_mF1mABiw",
+        "title": "Honey hole entries from reverse X guard",
+        "by": "BisBros BJJ",
+        "vertical": false,
+        "channel": "BisBros Bjj",
+        "duration": 231,
+        "verified": "2026-07-15"
       }
     ]
   }

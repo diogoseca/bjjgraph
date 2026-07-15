@@ -346,6 +346,26 @@
         "answer": "The hip extensors (glutes, hamstrings) generate dramatically more force than the arm muscles used in pulling. An arm pull against a resisting opponent produces roughly 30-50 pounds of force, while hip extension against the elbow creates hundreds of pounds of pressure through mechanical advantage. Additionally, arm-pulling fatigues the grip rapidly, giving the opponent time to work an escape. Hip extension is sustainable, powerful, and keeps both hands free to maintain wrist control without splitting their effort between holding and pulling.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "Mu1TlMqe6KY",
+        "title": "Ude-Gatame Straight Armlock",
+        "by": "Travis Stevens",
+        "vertical": false,
+        "channel": "Travis Stevens",
+        "duration": 37,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "fB7gGDIm1i8",
+        "title": "12 Kesa Gatame Attacks",
+        "by": "Johnny Jitsu",
+        "vertical": false,
+        "channel": "Johnny Jitsu",
+        "duration": 88,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -482,6 +502,35 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Full resistance defense from scarf hold",
         "description": "Start from scarf hold with partner attempting the belly down armbar at full speed and resistance. Defender uses all defensive tools: early recognition, arm extraction, bridging, guard recovery, and hand clasping. Track escape success rate across 3-minute rounds. Target is defending or escaping at least 50% of attempts."
+      }
+    ],
+    "clips": [
+      {
+        "id": "fvp5_BVEtLg",
+        "title": "Kesa Gatame Pressure Defense with Framing",
+        "by": "Kohbukan Sisu",
+        "vertical": false,
+        "channel": "Kohbukan Sisu",
+        "duration": 84,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "tXkck94vrzc",
+        "title": "Near Side Armlock Defense from Kesa Gatame",
+        "by": "Peter Mettler",
+        "vertical": false,
+        "channel": "Peter Mettler Martial Arts",
+        "duration": 155,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "HMTN5IrV2Mw",
+        "title": "Kesa Gatame Escape and Armlock",
+        "by": "Kombatan Kali",
+        "vertical": false,
+        "channel": "Kombatan kali - Brianza",
+        "duration": 15,
+        "verified": "2026-07-14"
       }
     ]
   }

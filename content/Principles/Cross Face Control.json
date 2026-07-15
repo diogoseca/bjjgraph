@@ -423,5 +423,34 @@
       "question": "Why does the same crossface depth and angle fail across different opponents?",
       "answer": "Larger, stronger, or differently structured opponents demand adjusted depth, angle, and pressure; a one-size-fits-all crossface leaves gaps that flexible or powerful opponents exploit to turn back in."
     }
+  ],
+  "clips": [
+    {
+      "id": "PTe4-NhLXf8",
+      "title": "Shallow cross face detail",
+      "by": "Craig Jones",
+      "vertical": false,
+      "channel": "Dohn Janaher ",
+      "duration": 24,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "gHD03vpWGSM",
+      "title": "How to create an insanely tight cross face",
+      "by": "Escapology BJJ",
+      "vertical": false,
+      "channel": "Escapology BJJ",
+      "duration": 119,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "Y1Sxim-5NRc",
+      "title": "Pinning from side control with underhook and cross face",
+      "by": "Mads H.",
+      "vertical": false,
+      "channel": "Mads H. BJJ",
+      "duration": 261,
+      "verified": "2026-07-15"
+    }
   ]
 }

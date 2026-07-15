@@ -350,6 +350,26 @@
         "answer": "Upon feeling or hearing the tap, immediately stop all rotational pressure first. Then release the toe grip completely before releasing leg control. Allow the opponent's foot to return to its neutral position naturally rather than dropping it abruptly, which can cause additional strain on already-stressed ligaments. Maintain light contact until your partner signals they are okay. Check in verbally before continuing. The release sequence matters because abrupt releases after pressure can cause injury to joints that are already at their structural limit.",
         "safety_critical": true
       }
+    ],
+    "clips": [
+      {
+        "id": "Kx8gZ3QdO8s",
+        "title": "Craig Jones Toe Hold Crossover",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "Bence Romanek",
+        "duration": 51,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "nVfqMfVpTVk",
+        "title": "Trick to Fix Your Cross Ashi Leg Lock",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 55,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -475,6 +495,26 @@
         "phase": "Phase 4: Live Defense with Submission Chains",
         "focus": "Defending against realistic attack sequences with chained submissions",
         "description": "Partner attacks with full toe hold to heel hook to ankle lock chains from cross ashi at progressive resistance levels. Practice defending the entire chain by recognizing transitions, applying the correct defense for each submission, and finding escape windows between attacks. Develop the composure to defend multiple threats sequentially without panicking."
+      }
+    ],
+    "clips": [
+      {
+        "id": "3a9k8-ZcYrk",
+        "title": "How to Escape the Toe Hold",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "The King Life",
+        "duration": 106,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "QMgsMSTRSBI",
+        "title": "5 Leglock Counters to Ashi Garami",
+        "by": "BJJBlackBeltDad",
+        "vertical": false,
+        "channel": "BJJBlackBeltDad",
+        "duration": 93,
+        "verified": "2026-07-14"
       }
     ]
   }

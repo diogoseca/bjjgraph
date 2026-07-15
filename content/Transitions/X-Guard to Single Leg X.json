@@ -289,7 +289,36 @@
         "answer": "If the SLX transition is blocked, you have several immediate alternatives: revert to full X-Guard by re-inserting the knee hook and hip cross for elevation sweeps; transition to butterfly guard by extracting both legs and establishing butterfly hooks; enter deep half guard by threading underneath the opponent if they drive forward; or attempt a technical stand-up to a single leg takedown if you can maintain ankle control while standing. The key is having predetermined fallback positions rather than forcing a failed transition repeatedly."
       }
     ],
-    "safety_considerations": "This transition involves dynamic leg repositioning and carries minimal direct injury risk compared to submission techniques. However, practitioners should ensure controlled movement when reconfiguring legs to avoid knee strain from awkward angles during the wrap. If transitioning into leg entanglement attacks from SLX, follow proper leg lock safety protocols: tap early when caught in submissions, communicate clearly with training partners, and apply submissions with gradual controlled pressure. Avoid explosive jerking movements during the reconfiguration that could cause ligament stress to either practitioner's knees. When drilling, begin at slow speeds to establish proper mechanics before increasing pace."
+    "safety_considerations": "This transition involves dynamic leg repositioning and carries minimal direct injury risk compared to submission techniques. However, practitioners should ensure controlled movement when reconfiguring legs to avoid knee strain from awkward angles during the wrap. If transitioning into leg entanglement attacks from SLX, follow proper leg lock safety protocols: tap early when caught in submissions, communicate clearly with training partners, and apply submissions with gradual controlled pressure. Avoid explosive jerking movements during the reconfiguration that could cause ligament stress to either practitioner's knees. When drilling, begin at slow speeds to establish proper mechanics before increasing pace.",
+    "clips": [
+      {
+        "id": "EcxCadpBePk",
+        "title": "Single Leg X, X-Guard and Reverse X options",
+        "by": "Steven Kaloustian",
+        "vertical": false,
+        "channel": "Steven Kaloustian",
+        "duration": 97,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "AhsXraebbdg",
+        "title": "Marcelo Garcia single leg X guard sweep",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "jen jitsu",
+        "duration": 47,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "aoyScppYR1E",
+        "title": "Single Leg X transition to X-Guard sweep",
+        "by": "BJJ4Breakfast coach",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 160,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "X-Guard to Single Leg X Defender",
@@ -410,6 +439,35 @@
         "phase": "Phase 4: Live Integration",
         "focus": "Full sparring with transition defense awareness",
         "description": "Incorporate X-Guard to SLX defense into regular sparring. When caught in X-Guard, actively monitor for transition cues and execute appropriate counters. After each round, identify which transition attempts succeeded and analyze whether you missed recognition cues or mistimed your counter-actions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "e2KVHXnSh_o",
+        "title": "Single Leg X counter with heel hook",
+        "by": "Charles Allan Price",
+        "vertical": false,
+        "channel": "Charles Allan Price",
+        "duration": 75,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "JSOM86_1lRo",
+        "title": "Foot lock and Single Leg X guard escapes",
+        "by": "James O'Connor",
+        "vertical": false,
+        "channel": "James O’Connor",
+        "duration": 111,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "gwEmeb9RSk4",
+        "title": "Single Leg X guard sweep defense (no-gi)",
+        "by": "Tiger Muay Thai coach",
+        "vertical": false,
+        "channel": "Tiger Muay Thai and MMA Training Camp, Phuket, Thailand",
+        "duration": 227,
+        "verified": "2026-07-15"
       }
     ]
   }

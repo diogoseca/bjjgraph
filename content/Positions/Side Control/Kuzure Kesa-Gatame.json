@@ -361,6 +361,26 @@
           "nogi": 7
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "tfykooWW-xk",
+        "title": "Triangle Attacks from Kuzure Kesa Gatame",
+        "by": "Chokes And More",
+        "vertical": false,
+        "channel": "Chokes And More",
+        "duration": 66,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "oXzrusNRq70",
+        "title": "Kuzure Kesa Gatame (Broken Scarf Hold)",
+        "by": "Sampson Judo",
+        "vertical": false,
+        "channel": "Sampson Judo",
+        "duration": 19,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -626,6 +646,35 @@
           "nogi": 13
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "qdycaYFRfa4",
+        "title": "Kuzure Kesa Gatame Escape",
+        "by": "Dojo Tarraco",
+        "vertical": false,
+        "channel": "Dojo Tarraco",
+        "duration": 25,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "2M_6VytUaus",
+        "title": "Kesa Gatame Escape",
+        "by": "SBG Australia",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 43,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "fvp5_BVEtLg",
+        "title": "Kesa Gatame Pressure Defense w/ Framing",
+        "by": "Kohbukan Sisu",
+        "vertical": false,
+        "channel": "Kohbukan Sisu",
+        "duration": 84,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -660,6 +709,26 @@
     {
       "question": "How does the near leg's configuration change what the position offers to each side?",
       "answer": "The near leg (closest to the opponent) can either hook over the opponent's hip to add rotational control or extend out to widen the base, depending on what is needed. Hooking the hip increases pinning power and helps kill hip escapes but slightly narrows the base, while extending it maximizes stability against rolls at the cost of some hip control. This adjustable leg is a shared pivot point in the exchange: the bottom player's hip movement is either checked by the hook or given room by the extended posture. Reading which configuration is in play tells both athletes whether the immediate battle is over hip mobility or over base stability."
+    }
+  ],
+  "clips": [
+    {
+      "id": "aTsvuZ1vM48",
+      "title": "Kuzure Kesa Gatame: Study It",
+      "by": "Judo Life",
+      "vertical": false,
+      "channel": "Judo Life",
+      "duration": 33,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "TfNpVcekHGg",
+      "title": "Kesa Gatame - Basic Scarf Hold",
+      "by": "Grappler Station",
+      "vertical": false,
+      "channel": "Grappler Station",
+      "duration": 121,
+      "verified": "2026-07-14"
     }
   ]
 }

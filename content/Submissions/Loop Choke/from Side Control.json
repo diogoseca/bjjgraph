@@ -347,6 +347,35 @@
         "answer": "The crossface position naturally places your forearm across the opponent's neck in exactly the path needed for the collar grip entry. Converting the crossface to a collar grip maintains continuous pressure across their neck—the collar fabric replaces your forearm as the pressure source, making the transition nearly invisible to the opponent. They feel constant neck pressure throughout rather than a distinct shift from control to submission. Additionally, the crossface has already turned their head away, creating space on the far side of their neck for deep collar penetration. No other side control grip provides this seamless entry pathway to the collar.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "PAbRHZXGr8Q",
+        "title": "Loop Choke from Side Control",
+        "by": "Goulburn Martial Arts Academy",
+        "vertical": false,
+        "channel": "Goulburn Martial Arts Academy",
+        "duration": 79,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Er-26kb4wss",
+        "title": "Alexandre Vieira Loop Choke",
+        "by": "Alexandre Vieira",
+        "vertical": false,
+        "channel": "Control Jiu JItsu",
+        "duration": 50,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "YZuU9259pcs",
+        "title": "Loop Choke from Side Control",
+        "by": "Fenrir Jiu-Jitsu Academy",
+        "vertical": false,
+        "channel": "Fenrir Jiu-Jitsu Academy",
+        "duration": 118,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -487,6 +516,35 @@
         "phase": "Phase 4: Live Defensive Sparring Against Side Control Attacks",
         "focus": "Defending the loop choke within the full context of side control escape",
         "description": "Start in side control bottom against a partner who hunts the loop choke alongside Americanas, kimuras, and arm triangles. Defend using all trained responses while also working standard side control escapes. Partner uses full resistance and chains the loop choke with other submissions. Track prevention rate versus late-escape rate to measure improvement in early recognition."
+      }
+    ],
+    "clips": [
+      {
+        "id": "pZmJpXSwRTk",
+        "title": "Loop choke escape",
+        "by": "Ninja Pinto",
+        "vertical": false,
+        "channel": "Ninja Pinto BJJ",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "11PEV0xVadQ",
+        "title": "Loop choke escape, second variation",
+        "by": "Ninja Pinto",
+        "vertical": false,
+        "channel": "Ninja Pinto BJJ",
+        "duration": 99,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "vckXustqtpQ",
+        "title": "Clock choke defense",
+        "by": "Revolution BJJ Ashland",
+        "vertical": false,
+        "channel": "Revolution BJJ Ashland",
+        "duration": 63,
+        "verified": "2026-07-15"
       }
     ]
   },

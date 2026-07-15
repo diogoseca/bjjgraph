@@ -310,7 +310,36 @@
         "answer": "Choose the knee shield recovery when the top player is heavy and likely to attempt an immediate re-pass after your escape, or when there is insufficient space for a full leg entanglement. The knee shield provides a stronger transitional barrier because your shin across their torso creates a structural frame they must address before re-establishing mount. Choose the standard half guard entry when you have created enough space for full leg entanglement and the top player is slower to react. The standard entry is more stable long-term but requires more space to establish than the knee shield."
       }
     ],
-    "safety_considerations": "This escape carries moderate injury risk primarily from arm exposure during hip escape movements. If your arm becomes trapped during the escape attempt, immediately prioritize defending the armbar rather than continuing the escape—tap early if caught in a submission during the transition. Avoid explosive movements when your arm is not properly protected, as forced escapes under armbar threat can result in elbow hyperextension injuries. Bridge movements should come from hip extension, not neck strain, to prevent cervical injury. During training, communicate with partners about intensity level and practice at controlled speeds before adding resistance. Partners maintaining technical mount should apply submissions at training-appropriate speed to allow proper defensive recognition."
+    "safety_considerations": "This escape carries moderate injury risk primarily from arm exposure during hip escape movements. If your arm becomes trapped during the escape attempt, immediately prioritize defending the armbar rather than continuing the escape—tap early if caught in a submission during the transition. Avoid explosive movements when your arm is not properly protected, as forced escapes under armbar threat can result in elbow hyperextension injuries. Bridge movements should come from hip extension, not neck strain, to prevent cervical injury. During training, communicate with partners about intensity level and practice at controlled speeds before adding resistance. Partners maintaining technical mount should apply submissions at training-appropriate speed to allow proper defensive recognition.",
+    "clips": [
+      {
+        "id": "cyegyon5hVg",
+        "title": "Two mount escape options into half guard",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "9252EvCT0q4",
+        "title": "Mount escape recovering half guard",
+        "by": "Gabriel Gonzaga",
+        "vertical": false,
+        "channel": "Gabriel Gonzaga",
+        "duration": 93,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "jUnTxeXFsYI",
+        "title": "Mount escape to half guard breakdown",
+        "by": "LBJJ TV",
+        "vertical": false,
+        "channel": "LBJJ TV",
+        "duration": 189,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Escape Technical Mount to Half Guard Defender",
@@ -434,6 +463,35 @@
         "phase": "Phase 3: Transition Flow",
         "focus": "Flowing between maintenance and counter-attacks",
         "description": "Full resistance positional sparring from technical mount. Practice reading the escape attempt and seamlessly transitioning between maintaining position, attacking the armbar, and taking the back based on the bottom player's defensive choices. Score for successful submissions, position maintenance over 30 seconds, and clean transitions to back control."
+      }
+    ],
+    "clips": [
+      {
+        "id": "wQI7JTaVM58",
+        "title": "Keeping mount when opponent grabs the hips",
+        "by": "Prodigy MMA Australia",
+        "vertical": false,
+        "channel": "Prodigy MMA Australia",
+        "duration": 30,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "PcSYX5if2rE",
+        "title": "Mount maintenance drill",
+        "by": "SBG Australia",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 109,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "d-4IYhVS7sc",
+        "title": "Three ways to maintain mount",
+        "by": "Exodus Jiu Jitsu",
+        "vertical": false,
+        "channel": "Exodus Jiu Jitsu",
+        "duration": 106,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -285,7 +285,27 @@
         "answer": "When they reinforce with a wrist-on-wrist grip, you must expand your control to include both their hands by climbing your grip up to encompass the reinforcing hand as well. Alternatively, the moment they commit their second hand to reinforcing, they sacrifice their seatbelt control—use this window to explosively hip escape since their upper body control is momentarily reduced to just the collar grip."
       }
     ],
-    "safety_considerations": "Hand fighting from back control requires awareness of neck vulnerability throughout the defensive sequence. Never extend or lift the chin during grip fighting as this creates space for the choke to deepen. If you feel blood flow restriction or vision changes, tap immediately rather than continuing grip fighting—the invisible collar can finish faster than escape attempts. Practice at controlled resistance levels before live training. Partners should release pressure immediately when the defender taps and avoid cranking the collar choke. Communicate with training partners about neck sensitivity and previous injuries. Do not attempt explosive escapes when the choke is already locked deep—this can cause neck injury. When drilling, establish tap signals clearly and reset if either partner feels unsafe."
+    "safety_considerations": "Hand fighting from back control requires awareness of neck vulnerability throughout the defensive sequence. Never extend or lift the chin during grip fighting as this creates space for the choke to deepen. If you feel blood flow restriction or vision changes, tap immediately rather than continuing grip fighting—the invisible collar can finish faster than escape attempts. Practice at controlled resistance levels before live training. Partners should release pressure immediately when the defender taps and avoid cranking the collar choke. Communicate with training partners about neck sensitivity and previous injuries. Do not attempt explosive escapes when the choke is already locked deep—this can cause neck injury. When drilling, establish tap signals clearly and reset if either partner feels unsafe.",
+    "clips": [
+      {
+        "id": "jeCozm_smUo",
+        "title": "Collar grip breaks for BJJ",
+        "by": "Martial Arts and Wellness",
+        "vertical": false,
+        "channel": "Martial Arts and Wellness ",
+        "duration": 62,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "J6RdX606DrY",
+        "title": "Three grip breaks for your jiu jitsu",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 64,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Hand Fighting to Remove Collar Grip Defender",
@@ -409,6 +429,35 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Full resistance back control sparring starting with invisible collar established. Attacker must finish or maintain collar against full defensive hand fighting. Track finish rate, grip retention duration, and successful counter-attack transitions. Target: maintaining collar or finishing in 65% of rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "TDBe1SHzHKo",
+        "title": "Finishing the cross collar choke without pulling in",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 51,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ZHjfYIXgNpg",
+        "title": "Collar choke from back control",
+        "by": "Team Daruma Dojo coach",
+        "vertical": false,
+        "channel": "Team Daruma Dojo",
+        "duration": 45,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "X93MdMlmrUg",
+        "title": "The detail that makes the cross collar choke work",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 77,
+        "verified": "2026-07-15"
       }
     ]
   },

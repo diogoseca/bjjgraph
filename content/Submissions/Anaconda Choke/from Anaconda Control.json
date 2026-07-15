@@ -438,6 +438,35 @@
         "answer": "Against skilled opponents, the key is controlling the setup phase meticulously before committing to the finish. Ensure maximum arm threading depth before locking the figure-four - a deep arm position is much harder to defend. Trap their arm tightly against their neck before rolling. When you roll, commit fully and explosively so they cannot base out. Once in the finishing position, apply pressure immediately without pause - skilled opponents will escape any hesitation. Chain to Darce if they defend by straightening arm, or transition to back take if they roll away from pressure.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "DHYmDsncdS8",
+        "title": "Anaconda choke finish",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "forlogosVideos",
+        "duration": 126,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "RbkOnRb2lvA",
+        "title": "Anaconda choke",
+        "by": "Ninja Pinto",
+        "vertical": false,
+        "channel": "Ninja Pinto BJJ",
+        "duration": 49,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "1e2GPOUYR-o",
+        "title": "Fix your anaconda chokes",
+        "by": "Lycan",
+        "vertical": false,
+        "channel": "Lycan",
+        "duration": 41,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -579,6 +608,26 @@
         "phase": "Phase 4: Live Defense with Counter-Attacks",
         "focus": "Defending Anaconda attempts during live rolling with counter-offensive awareness",
         "description": "Live positional sparring where partner works from front headlock and attempts Anaconda. You defend and work to recover guard or standing position. Practice recognizing when opponent transitions from Anaconda to Darce (arm straightening triggers this) and adjusting defense accordingly. Develop awareness of when to tap versus when escape is still viable. Full-speed 5-minute rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "SXm9wA1HcvM",
+        "title": "Anaconda choke defense",
+        "by": "SFS MMA",
+        "vertical": false,
+        "channel": "Fierce Pierce15",
+        "duration": 64,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "guHPx-OKi0M",
+        "title": "Prevent the sucker drag during anaconda",
+        "by": "Drew Darce",
+        "vertical": false,
+        "channel": "Drew Darce",
+        "duration": 159,
+        "verified": "2026-07-14"
       }
     ]
   }

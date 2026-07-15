@@ -291,7 +291,36 @@
         "answer": "If knee extraction stalls, immediately transition to hip rotation defense to reduce ankle pressure while maintaining the partially extracted position. From there, assess whether counter-entanglement to fifty-fifty guard offers a higher percentage path forward. The worst response is to repeatedly force the same standing escape that has already been blocked. Switching to complementary defenses creates new escape angles and divides the attacker's attention, potentially reopening the standing pathway."
       }
     ],
-    "safety_considerations": "The ankle joint and Achilles tendon are vulnerable structures that can sustain serious injury from straight ankle lock pressure. During escape practice, both partners must communicate clearly about pressure levels and respect immediate tap signals. The escaping partner should never explosively yank their foot free when meaningful submission pressure exists, as this can cause ligament damage or Achilles tendon injury. Begin all escape drilling at low intensity with compliant partners and gradually increase resistance only after both practitioners demonstrate technical proficiency and reliable communication. If the ankle lock is fully secured with high submission pressure, tapping and resetting is always the safest choice over forcing an escape."
+    "safety_considerations": "The ankle joint and Achilles tendon are vulnerable structures that can sustain serious injury from straight ankle lock pressure. During escape practice, both partners must communicate clearly about pressure levels and respect immediate tap signals. The escaping partner should never explosively yank their foot free when meaningful submission pressure exists, as this can cause ligament damage or Achilles tendon injury. Begin all escape drilling at low intensity with compliant partners and gradually increase resistance only after both practitioners demonstrate technical proficiency and reliable communication. If the ankle lock is fully secured with high submission pressure, tapping and resetting is always the safest choice over forcing an escape.",
+    "clips": [
+      {
+        "id": "CUnX7TOpb-A",
+        "title": "Ankle lock escape: put on the boot",
+        "by": "Ritchie Yip",
+        "vertical": false,
+        "channel": "Ritchie Yip",
+        "duration": 16,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "akB_o9gaNuc",
+        "title": "Finishing the ankle lock when opponent rolls out",
+        "by": "James O'Connor",
+        "vertical": false,
+        "channel": "James O’Connor",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MqtG9kuVt-Q",
+        "title": "Leg lock escape: the roll through",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 103,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Ankle Lock Escape to Standing Defender",
@@ -407,6 +436,35 @@
         "phase": "Phase 3: Counter-Transition Exploitation",
         "focus": "Using escape attempts to advance to more dominant positions",
         "description": "Partner commits to full standing escape attempts. Defender practices reading the specific escape pattern and choosing between control retention and counter-advancement to inside ashi garami or top position. Full resistance with emphasis on timing the counter-transition at the moment the escape creates positional opportunities."
+      }
+    ],
+    "clips": [
+      {
+        "id": "zErch4qHfB0",
+        "title": "Counter footlock against the straight ankle lock",
+        "by": "James Clingerman",
+        "vertical": false,
+        "channel": "James Clingerman",
+        "duration": 12,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MqtG9kuVt-Q",
+        "title": "Leg lock escape: the roll through",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uZbUhFapIhg",
+        "title": "Leglock defense fundamentals",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 163,
+        "verified": "2026-07-15"
       }
     ]
   }

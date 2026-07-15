@@ -290,7 +290,36 @@
         "answer": "Remain physically relaxed between bridge attempts, breathing steadily and controlling your heart rate through nasal breathing. Avoid constant struggling or tentative testing bridges when the opponent's base is solid, as this depletes energy without positional improvement. Stay mentally alert for timing windows while keeping your body in a low-energy defensive posture. Each bridge attempt should be a fully committed explosive effort followed by immediate relaxation if unsuccessful, preserving capacity for subsequent attempts."
       }
     ],
-    "safety_considerations": "Bridge technique from high mount carries risk of neck strain if executed with poor head positioning. Always bridge through the shoulders and feet, never through the neck or head. Keep your chin tucked throughout the movement to protect cervical spine alignment. If the opponent has established deep collar grips, be aware that explosive bridges can inadvertently tighten chokes—tap immediately if any choke becomes compromised during bridge attempts. Practice bridge mechanics without a partner before adding resistance to develop proper spinal alignment and force generation patterns. Communicate intensity expectations with training partners before drilling."
+    "safety_considerations": "Bridge technique from high mount carries risk of neck strain if executed with poor head positioning. Always bridge through the shoulders and feet, never through the neck or head. Keep your chin tucked throughout the movement to protect cervical spine alignment. If the opponent has established deep collar grips, be aware that explosive bridges can inadvertently tighten chokes—tap immediately if any choke becomes compromised during bridge attempts. Practice bridge mechanics without a partner before adding resistance to develop proper spinal alignment and force generation patterns. Communicate intensity expectations with training partners before drilling.",
+    "clips": [
+      {
+        "id": "_05Lwonu0mw",
+        "title": "Escaping high mount with a bridge",
+        "by": "Tenzan",
+        "vertical": false,
+        "channel": "TENZAN AIKIDO",
+        "duration": 78,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Z4aWuVsRTBs",
+        "title": "Mount bridge escape in one minute",
+        "by": "Just a Minute Jiu-jitsu",
+        "vertical": false,
+        "channel": "Just a Minute Jiu-jitsu",
+        "duration": 66,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2uuP147GoBk",
+        "title": "Bridge and roll escape from bottom mount",
+        "by": "Academy Jiu Jitsu",
+        "vertical": false,
+        "channel": "Academy Jiu Jitsu",
+        "duration": 62,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Bridge to Mount from High Mount Defender",
@@ -411,6 +440,17 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full-speed defense against all escape combinations",
         "description": "Start in high mount with partner attempting all available escapes including bridges, elbow escapes, and frame-based escapes. Maintain position or advance while defending against realistic escape combinations at competition speed and intensity."
+      }
+    ],
+    "clips": [
+      {
+        "id": "J2xs_-sAJMc",
+        "title": "Gordon Ryan's mount retention system",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJTube",
+        "duration": 239,
+        "verified": "2026-07-15"
       }
     ]
   }

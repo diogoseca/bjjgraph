@@ -279,7 +279,36 @@
         "answer": "The primary force direction is inward and forward at approximately 45 degrees, driving the choking shoulder toward the opponent's far hip. Most practitioners make the error of squeezing straight down with their arms, which generates chest pressure but not carotid compression. The correct squeeze comes from your body angle and hip position—sprawl on the finishing side and rotate your choking shoulder inward while pulling your elbow tight to your ribs. Think of driving your shoulder through the opponent's neck rather than crushing down on top of them. The hip sprawl generates the force; the arms simply maintain the configuration."
       }
     ],
-    "safety_considerations": "The arm triangle is a blood choke that compresses both carotid arteries, producing unconsciousness within 4-8 seconds of full compression. Training partners must understand that this choke can render someone unconscious before they feel significant discomfort, unlike airway chokes where pain precedes unconsciousness. Always honor verbal taps, physical taps (two or more deliberate taps on any surface), and foot taps immediately. Release all pressure instantly upon any tap signal—do not 'finish the rep' or 'hold for one more second.' During drilling, apply the squeeze progressively and pause when your partner signals tightness rather than sinking the choke fully. Monitor your partner's face for color changes (reddening or pallor) and eye responsiveness, as some practitioners lose consciousness without tapping due to the rapid onset of blood chokes. If a training partner goes unconscious, immediately release all pressure, elevate their legs slightly, and ensure their airway is clear—they will typically regain consciousness within 10-15 seconds. Never apply the arm triangle with explosive jerking motions, as this risks cervical spine injury. During the walk-around transition, be mindful of your partner's shoulder joint—the configuration places their arm in a vulnerable position that could cause shoulder strain if you drive weight suddenly."
+    "safety_considerations": "The arm triangle is a blood choke that compresses both carotid arteries, producing unconsciousness within 4-8 seconds of full compression. Training partners must understand that this choke can render someone unconscious before they feel significant discomfort, unlike airway chokes where pain precedes unconsciousness. Always honor verbal taps, physical taps (two or more deliberate taps on any surface), and foot taps immediately. Release all pressure instantly upon any tap signal—do not 'finish the rep' or 'hold for one more second.' During drilling, apply the squeeze progressively and pause when your partner signals tightness rather than sinking the choke fully. Monitor your partner's face for color changes (reddening or pallor) and eye responsiveness, as some practitioners lose consciousness without tapping due to the rapid onset of blood chokes. If a training partner goes unconscious, immediately release all pressure, elevate their legs slightly, and ensure their airway is clear—they will typically regain consciousness within 10-15 seconds. Never apply the arm triangle with explosive jerking motions, as this risks cervical spine injury. During the walk-around transition, be mindful of your partner's shoulder joint—the configuration places their arm in a vulnerable position that could cause shoulder strain if you drive weight suddenly.",
+    "clips": [
+      {
+        "id": "8An-33URyYk",
+        "title": "How to arm triangle from side control",
+        "by": "Evolve MMA",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 57,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "eid4RdAQ4gI",
+        "title": "No-gi arm triangle from side control",
+        "by": "Ludus Dome",
+        "vertical": false,
+        "channel": "Ludus Dome",
+        "duration": 36,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "tc-XXMg7v48",
+        "title": "The mounted arm triangle",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 145,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Arm Triangle from Top Defender",
@@ -409,6 +438,26 @@
         "phase": "Live defense integration",
         "focus": "Full-resistance positional sparring defending the arm triangle",
         "description": "Positional sparring starting from side control bottom against a partner who specifically hunts the arm triangle. Defend with full technical application across all phases: arm discipline prevention, grip fighting, knee insertion during walk-around, and late-stage escape if needed. Track which defensive phase you most commonly need and which phase fails most often. Identify patterns in your defensive breakdowns and develop targeted corrections."
+      }
+    ],
+    "clips": [
+      {
+        "id": "D2vkZGTD78I",
+        "title": "Fastest escape out of the arm triangle",
+        "by": "Adam Bradley",
+        "vertical": false,
+        "channel": "Adam Bradley",
+        "duration": 31,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "n_2zR6BaF8A",
+        "title": "Best arm triangle escape",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 58,
+        "verified": "2026-07-15"
       }
     ]
   },

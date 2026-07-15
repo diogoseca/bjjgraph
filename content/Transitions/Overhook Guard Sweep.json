@@ -283,7 +283,36 @@
         "answer": "Against heavier opponents, the standard sweep may lack sufficient force from the hip drive alone. Add a pendulum leg swing by swinging the non-driving leg in a wide arc away from the sweep direction first, then whipping it back forcefully as you initiate the sweep. This generates rotational momentum that supplements the hip bridge. Additionally, focus on maximizing the hip angle to 45 degrees or beyond, which increases the mechanical advantage by loading more of the heavier opponent's weight over the trapped arm. Timing becomes even more critical against larger opponents: initiate only when their weight commits fully forward, so you redirect existing momentum rather than trying to generate enough force from scratch."
       }
     ],
-    "safety_considerations": "The Overhook Guard Sweep is a low-risk positional technique with no joint locks or chokes involved. Ensure controlled landings when completing the sweep to avoid dropping weight onto training partners. During drilling, the person being swept should allow the motion to complete smoothly rather than resisting at the tipping point, which can cause shoulder or elbow strain on the overhooked arm. The overhook itself creates shoulder pressure that should be monitored during extended drilling sessions. Release immediately if your partner signals discomfort in their shoulder."
+    "safety_considerations": "The Overhook Guard Sweep is a low-risk positional technique with no joint locks or chokes involved. Ensure controlled landings when completing the sweep to avoid dropping weight onto training partners. During drilling, the person being swept should allow the motion to complete smoothly rather than resisting at the tipping point, which can cause shoulder or elbow strain on the overhooked arm. The overhook itself creates shoulder pressure that should be monitored during extended drilling sessions. Release immediately if your partner signals discomfort in their shoulder.",
+    "clips": [
+      {
+        "id": "SONTST7yTT8",
+        "title": "Closed Guard Overhook Scissor Sweep",
+        "by": "Fight Sports Charlotte",
+        "vertical": false,
+        "channel": "Fight Sports Charlotte",
+        "duration": 89,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "vIa1iE-WJpo",
+        "title": "Leg Assisted Overhook Sweep from Butterfly Guard",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 79,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2hc9sl1hEkE",
+        "title": "Overhook Sweep from Butterfly Guard",
+        "by": "Satori BJJ",
+        "vertical": false,
+        "channel": "Satori BJJ",
+        "duration": 36,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Overhook Guard Sweep Defender",
@@ -407,6 +436,26 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Full resistance positional sparring from the sweep position",
         "description": "Positional sparring starting with the bottom player in established overhook guard. Full resistance from both players. Top player wins by passing guard or stripping all controls. Bottom player wins by sweep or submission. Analyze which defensive interventions are most effective under pressure and refine timing based on live training results."
+      }
+    ],
+    "clips": [
+      {
+        "id": "IQ2mviobbI0",
+        "title": "How To Defend Against the Whizzer or an Overhook",
+        "by": "Pendergrass Academy",
+        "vertical": false,
+        "channel": "Pendergrass Academy of Martial Arts",
+        "duration": 138,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "7-yF3fzcA0k",
+        "title": "Basing against closed guard sweeps when head is hugged",
+        "by": "Darkness Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Darkness Jiu-Jitsu",
+        "duration": 126,
+        "verified": "2026-07-15"
       }
     ]
   }

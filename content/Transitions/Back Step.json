@@ -280,7 +280,27 @@
         "answer": "The optimal grip is a wrist-and-tricep two-on-one control that pins their near arm to their own body or the mat. In gi, you can substitute the wrist grip with a deep sleeve grip and the tricep grip with a collar grip on the same side, which provides excellent rotational control. In no-gi, a wrist grip combined with an overhook on their upper arm creates the strongest pin. The critical detail is that the arm must be controlled against a surface (their body or the mat) rather than held in space, because holding an arm in space requires constant muscular effort and is easily broken by an explosive pull."
       }
     ],
-    "safety_considerations": "The back step is generally a safe technique when executed with proper control and awareness. However, practitioners must be extremely cautious about heel hook danger when working from leg entanglement positions. Never force a back step if the opponent has secured a tight heel hook configuration, as this can result in serious knee or ankle injuries. Always prioritize defending the submission before attempting any passing movements. When drilling, communicate clearly with your partner about resistance levels and stop immediately if either person feels vulnerable positioning. Start with slow, controlled repetitions and gradually increase speed and resistance as both partners become comfortable with the movements and safety protocols."
+    "safety_considerations": "The back step is generally a safe technique when executed with proper control and awareness. However, practitioners must be extremely cautious about heel hook danger when working from leg entanglement positions. Never force a back step if the opponent has secured a tight heel hook configuration, as this can result in serious knee or ankle injuries. Always prioritize defending the submission before attempting any passing movements. When drilling, communicate clearly with your partner about resistance levels and stop immediately if either person feels vulnerable positioning. Start with slow, controlled repetitions and gradually increase speed and resistance as both partners become comfortable with the movements and safety protocols.",
+    "clips": [
+      {
+        "id": "KcA6VYd8J2c",
+        "title": "Back step from primary leg extraction",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 115,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "288kWE480Zo",
+        "title": "Back step into a heel hook",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 23,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Back Step Defender",
@@ -404,6 +424,26 @@
         "phase": "Phase 4: Live Positional Sparring (Week 9+)",
         "focus": "Full resistance defense with decision-making under pressure",
         "description": "Positional sparring starting from outside ashi-garami. Both players at full resistance - bottom player works leg attacks while also defending back step attempts, top player works escapes including back step. Develop the ability to fluidly transition between offense (leg attacks) and defense (back step prevention) based on what the top player is doing. 3-minute rounds with full reset after each position change."
+      }
+    ],
+    "clips": [
+      {
+        "id": "up34T04wt_U",
+        "title": "Countering outside ashi by rolling to 50/50",
+        "by": "Robyn Sheehan",
+        "vertical": false,
+        "channel": "Robyn Sheehan",
+        "duration": 107,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "AQbJMBiWYfU",
+        "title": "Escaping ashi garami: leg lock defense",
+        "by": "Scott Elliott",
+        "vertical": false,
+        "channel": "Coach Scott Elliott",
+        "duration": 141,
+        "verified": "2026-07-15"
       }
     ]
   },

@@ -295,7 +295,27 @@
         "answer": "Do not stall trying to force the half guard against their pressure. Convert the momentum you already created into a Granby roll in the same direction as your hip escape, rolling toward open or closed guard. If the Granby is also blocked, flow immediately into a technical stand-up on the side where their pressure is lightest. The key is never stopping your movement - chaining hip escape to Granby roll to technical stand-up forces the opponent to defend three escapes in sequence rather than committing all their weight to shutting down one."
       }
     ],
-    "safety_considerations": "This escape involves explosive hip movement from a compact turtle position, which can strain the lower back and hip flexors if performed without proper warm-up. Practice the hip escape motion at slow speed before adding explosive timing. During partner drilling, the top player should avoid driving excessive downward pressure on the bottom player's spine during the escape attempt, as this can compress vertebrae during the lateral hip movement. If experiencing lower back discomfort during the escape, reduce the explosive intensity and focus on mechanical efficiency rather than speed. Always tap immediately if the opponent establishes a tight neck control during the escape transition."
+    "safety_considerations": "This escape involves explosive hip movement from a compact turtle position, which can strain the lower back and hip flexors if performed without proper warm-up. Practice the hip escape motion at slow speed before adding explosive timing. During partner drilling, the top player should avoid driving excessive downward pressure on the bottom player's spine during the escape attempt, as this can compress vertebrae during the lateral hip movement. If experiencing lower back discomfort during the escape, reduce the explosive intensity and focus on mechanical efficiency rather than speed. Always tap immediately if the opponent establishes a tight neck control during the escape transition.",
+    "clips": [
+      {
+        "id": "OIr4wDxl-Ys",
+        "title": "Lockdown Clinches from 10th Planet Half Guard",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "7_RG40nP5HU",
+        "title": "Side Control Escape to Modified Dogfight",
+        "by": "Ketchikan Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Ketchikan Jiu-Jitsu",
+        "duration": 122,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Escape Chill Dog Defender",
@@ -420,6 +440,17 @@
         "phase": "Phase 4: Competitive Positional Sparring",
         "focus": "Full resistance maintenance against escape attempts",
         "description": "Start in Chill Dog top with partner at full resistance attempting any escape. You score for maintaining position, taking back, or establishing front headlock. Partner scores for successful escape to guard or standing. Develops real-time decision-making and counter execution at competition intensity."
+      }
+    ],
+    "clips": [
+      {
+        "id": "2zillrf6gGs",
+        "title": "Retaining Chill Dog into the Omoplata attack",
+        "by": "Marshall Stamper",
+        "vertical": false,
+        "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
+        "duration": 195,
+        "verified": "2026-07-15"
       }
     ]
   }

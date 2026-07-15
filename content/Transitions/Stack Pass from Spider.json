@@ -288,7 +288,27 @@
         "answer": "Return to systematic grip breaking and proactive passing rather than forcing another stack pass attempt. The bottom player is now alert to the stacking threat and will be more conservative with their attacks. Use toreando or leg drag passes to create pressure and force them to react. If they commit to another attack after you re-establish systematic passing pressure, the stack pass window will reopen. Repeatedly attempting the stack pass without the proper trigger telegraphs your intention and allows the bottom player to bait and counter your forward drives."
       }
     ],
-    "safety_considerations": "Stack passes generate significant compressive force on the bottom player's cervical spine and neck. Apply stacking pressure gradually and progressively rather than slamming or dropping weight suddenly. Be alert to signs of neck discomfort from your training partner—grimacing, tapping the mat, or verbal signals. If the bottom player taps or signals any pain during the stack, release pressure immediately. Practitioners with pre-existing neck or cervical spine conditions should communicate their limitations before training this technique. The top player should also protect their own lower back during the initial forward drive by maintaining proper spinal alignment and generating force through hip extension rather than spinal flexion."
+    "safety_considerations": "Stack passes generate significant compressive force on the bottom player's cervical spine and neck. Apply stacking pressure gradually and progressively rather than slamming or dropping weight suddenly. Be alert to signs of neck discomfort from your training partner—grimacing, tapping the mat, or verbal signals. If the bottom player taps or signals any pain during the stack, release pressure immediately. Practitioners with pre-existing neck or cervical spine conditions should communicate their limitations before training this technique. The top player should also protect their own lower back during the initial forward drive by maintaining proper spinal alignment and generating force through hip extension rather than spinal flexion.",
+    "clips": [
+      {
+        "id": "jbrgrWIqiHM",
+        "title": "Spider squash pass",
+        "by": "Alberto Serrano",
+        "vertical": false,
+        "channel": "Alberto Serrano BJJ",
+        "duration": 74,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "qIpBx8bwgac",
+        "title": "Passing spider and De La Riva guard",
+        "by": "Denilson Pimenta",
+        "vertical": false,
+        "channel": "Jitseasy",
+        "duration": 63,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Stack Pass from Spider Defender",
@@ -413,6 +433,35 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Full resistance stack pass defense from spider guard",
         "description": "Full positional sparring from spider guard. Bottom player attacks freely while managing stack pass risk. When the passer attempts the stack, bottom player applies trained defensive responses under full resistance. Top player scores for completed pass, bottom player scores for guard recovery or sweep. 5-minute rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "X2JY-yMeGo8",
+        "title": "Guard retention to the back take",
+        "by": "Cobrinha",
+        "vertical": false,
+        "channel": "Cobrinha Brazilian Jiu-Jitsu & Fitness",
+        "duration": 46,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "55VWamw1edo",
+        "title": "Key guard retention concept",
+        "by": "Alec Baulding",
+        "vertical": false,
+        "channel": "Alec Baulding",
+        "duration": 128,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "T_GhZe_MOWI",
+        "title": "Grip chain for guard retention",
+        "by": "Xande Ribeiro",
+        "vertical": false,
+        "channel": "XANDE RIBEIRO",
+        "duration": 174,
+        "verified": "2026-07-15"
       }
     ]
   }

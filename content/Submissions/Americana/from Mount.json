@@ -376,6 +376,35 @@
         "answer": "In competition, you can apply pressure more quickly than training (1-2 seconds rather than 3-5) because your opponent is a skilled competitor who understands when to tap. However, you should never jerk or spike the shoulder regardless of context. The key competition adjustments are: (1) secure the position completely before applying any pressure - rushing the setup is the primary cause of failed competition americanas, (2) once locked in, apply smooth, progressive pressure without pause, (3) maintain maximum pressure until the referee stops the match or you feel the tap. The ethical difference is that in competition, both parties accept increased risk. However, even in competition, jerking or spiking submissions is dangerous and unsportsmanlike. A properly executed americana finishes quickly through technique, not through violent application.",
         "safety_critical": true
       }
+    ],
+    "clips": [
+      {
+        "id": "uPazS4MJiDc",
+        "title": "How To Perform Americana From Top Mount",
+        "by": "Evolve MMA",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 71,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "6f9m9YmrzSQ",
+        "title": "Americana from Full Mount",
+        "by": "Jo Chavez",
+        "vertical": false,
+        "channel": "Jo Chavez",
+        "duration": 89,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "N-bZMbI2jSo",
+        "title": "Americana from Mount Explained",
+        "by": "Gabriel Gonzaga",
+        "vertical": false,
+        "channel": "Gabriel Gonzaga",
+        "duration": 110,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -517,6 +546,26 @@
         "phase": "Phase 4: Live Defense and Counter-Attack Integration",
         "focus": "Defending americana in live rolling and capitalizing on defensive transitions",
         "description": "Positional sparring starting from mount with full resistance. Attacker attempts americana and chains to follow-up submissions. Defender works the full defensive hierarchy from prevention through late-stage escape. Focus on recognizing when straightening the arm invites the armbar and being ready to defend that transition. Track how often the defender escapes versus gets submitted across multiple rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "NZjUCo8os8Q",
+        "title": "Simple Americana Armlock Escape",
+        "by": "Eddie Kone",
+        "vertical": false,
+        "channel": "Eddie Kone Academy Of Jiu-Jitsu",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "9252EvCT0q4",
+        "title": "Mount Escape to Beat the Americana",
+        "by": "Gabriel Gonzaga",
+        "vertical": false,
+        "channel": "Gabriel Gonzaga",
+        "duration": 93,
+        "verified": "2026-07-14"
       }
     ]
   },

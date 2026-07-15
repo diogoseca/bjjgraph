@@ -291,7 +291,27 @@
         "answer": "When the opponent strips your foot grip, their arm movement creates space for a triangle setup. As they reach to strip the grip, their near arm is already trapped by your overhook while their far arm extends forward, creating the one-arm-in one-arm-out configuration needed for triangle entry. Transition immediately by controlling the extending arm and swinging your leg across their neck."
       }
     ],
-    "safety_considerations": "This transition places significant stress on the bottom player's hips, hamstrings, and lower back. Practitioners must develop adequate flexibility through a dedicated stretching program before attempting the full range of motion in live training. Forcing the high guard position without sufficient flexibility risks hip flexor strains, hamstring tears, and lower back injuries. The top player should be aware that aggressive posture recovery attempts while the leg is being threaded can hyperextend the bottom player's knee. Both partners should communicate during drilling to establish safe movement boundaries and tap immediately if any joint feels compromised."
+    "safety_considerations": "This transition places significant stress on the bottom player's hips, hamstrings, and lower back. Practitioners must develop adequate flexibility through a dedicated stretching program before attempting the full range of motion in live training. Forcing the high guard position without sufficient flexibility risks hip flexor strains, hamstring tears, and lower back injuries. The top player should be aware that aggressive posture recovery attempts while the leg is being threaded can hyperextend the bottom player's knee. Both partners should communicate during drilling to establish safe movement boundaries and tap immediately if any joint feels compromised.",
+    "clips": [
+      {
+        "id": "WliTCjEDA-8",
+        "title": "Basic entries into rubber guard",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 106,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "h1XzZDsUxHQ",
+        "title": "Eddie Bravo explains the rubber guard",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "JAN FERNANDEZ ",
+        "duration": 111,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "High Guard to Rubber Guard Defender",
@@ -416,6 +436,17 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Applying defense under full resistance",
         "description": "Positional sparring starting in closed guard where partner actively attempts the High Guard to Rubber Guard transition while you work on preventing it using trained defensive protocols. Five-minute rounds with position reset after each successful defense or submission."
+      }
+    ],
+    "clips": [
+      {
+        "id": "AvivOVuYcCk",
+        "title": "Simple rubber guard escape for the passer",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 131,
+        "verified": "2026-07-15"
       }
     ]
   }

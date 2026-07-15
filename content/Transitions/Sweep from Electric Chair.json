@@ -294,7 +294,36 @@
         "answer": "Against larger opponents, the underhook must be even deeper to generate sufficient leverage against greater mass. Prioritize hip extension power over arm strength for the sweep, since your legs are stronger than your arms. Consider using a belt grip or far lat grip for maximum purchase. The lockdown becomes more critical as weight differential increases, so ensure maximum tension through the figure-four before attempting the sweep."
       }
     ],
-    "safety_considerations": "The Electric Chair sweep involves significant pressure on the opponent's knee, hip joint, and groin area through the splitting mechanism. Always apply splitting pressure gradually during training to allow partners time to tap before injury occurs. Be especially cautious with the lockdown leg configuration, as forced extraction by either player can damage the trapped knee. When drilling, communicate clearly with your partner about pressure levels and stop immediately if they signal discomfort. The sweep motion itself carries lower injury risk, but the setup pressure demands constant awareness."
+    "safety_considerations": "The Electric Chair sweep involves significant pressure on the opponent's knee, hip joint, and groin area through the splitting mechanism. Always apply splitting pressure gradually during training to allow partners time to tap before injury occurs. Be especially cautious with the lockdown leg configuration, as forced extraction by either player can damage the trapped knee. When drilling, communicate clearly with your partner about pressure levels and stop immediately if they signal discomfort. The sweep motion itself carries lower injury risk, but the setup pressure demands constant awareness.",
+    "clips": [
+      {
+        "id": "sMbaY4vG2mM",
+        "title": "Electric chair from lockdown half guard",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 42,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "9CxxyZEd7-E",
+        "title": "Electric chair sweep technique breakdown",
+        "by": "Asaf Mich",
+        "vertical": false,
+        "channel": "Asaf Mich",
+        "duration": 76,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "O18n2Z5HISI",
+        "title": "Electric chair from deep half guard",
+        "by": "Heart & Dagger BJJ",
+        "vertical": false,
+        "channel": "Heart & Dagger  BJJ - Mineral Wells Jiu Jitsu",
+        "duration": 43,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Sweep from Electric Chair Defender",
@@ -419,6 +448,17 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Full resistance defensive application",
         "description": "Positional sparring starting in Electric Chair top against full resistance. Practice the complete defensive sequence from recognition through prevention to counter-offense. Partner attacks with all lockdown options including sweep, submission, Old School, and Truck transitions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "3A6oRsDf3oU",
+        "title": "Lockdown and electric chair counters and escapes",
+        "by": "Street Jitsu",
+        "vertical": false,
+        "channel": "Street Jitsu",
+        "duration": 286,
+        "verified": "2026-07-15"
       }
     ]
   }

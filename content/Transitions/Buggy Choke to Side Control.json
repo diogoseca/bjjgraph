@@ -259,7 +259,36 @@
         "answer": "Transition immediately once you recognize the choke has stalled. Continuing to fight for a stalling choke burns grip strength and energy while giving the opponent time to develop their escape plan. The transition is most effective when executed decisively during the window where your body pressure is still heavy and their defensive attention remains focused on the choke threat rather than guard recovery. Delayed transitions allow opponents to shift defensive focus and prepare counter-movements."
       }
     ],
-    "safety_considerations": "This transition involves significant pressure on the opponent's neck and spine during the crossface establishment phase. Ensure that pressure is applied through the shoulder blade against the jaw rather than directly on the throat. During training, release immediately if partner indicates breathing difficulty or discomfort. The transition should be practiced slowly initially to allow partner to tap if any position causes pain. Avoid explosive movements during grip conversion as this can cause partner's face to contact the mat unexpectedly. When drilling with less experienced partners, ensure they understand that the crossface is uncomfortable but safe when applied correctly to the jaw, not the throat."
+    "safety_considerations": "This transition involves significant pressure on the opponent's neck and spine during the crossface establishment phase. Ensure that pressure is applied through the shoulder blade against the jaw rather than directly on the throat. During training, release immediately if partner indicates breathing difficulty or discomfort. The transition should be practiced slowly initially to allow partner to tap if any position causes pain. Avoid explosive movements during grip conversion as this can cause partner's face to contact the mat unexpectedly. When drilling with less experienced partners, ensure they understand that the crossface is uncomfortable but safe when applied correctly to the jaw, not the throat.",
+    "clips": [
+      {
+        "id": "jURfe8vyo8k",
+        "title": "Buggy choke adjustment (gi)",
+        "by": "bjj doug",
+        "vertical": false,
+        "channel": "bjj doug",
+        "duration": 28,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Jw8PSPrR8-E",
+        "title": "BJJ Buggy Choke demonstration",
+        "by": "Judoka",
+        "vertical": false,
+        "channel": "Judoka",
+        "duration": 41,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "cMid9XHfnKg",
+        "title": "North South Buggy Choke breakdown",
+        "by": "Blaise Malabre",
+        "vertical": false,
+        "channel": "Jiu-Jitsu Motivation",
+        "duration": 54,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Buggy Choke to Side Control Defender",
@@ -383,6 +412,35 @@
         "phase": "Week 7+",
         "focus": "Live integration",
         "description": "Incorporate defense into full positional sparring from buggy choke bottom. Partner has full option to finish choke or transition to side control based on your defense. Track success rate of guard recovery versus side control consolidation. Develop ability to seamlessly shift defensive priorities between choke defense and transition defense based on attacker's actions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "mBFVriM0ojQ",
+        "title": "Turkish Get-Up escape from bottom side control",
+        "by": "Dirtball BJJ",
+        "vertical": false,
+        "channel": "Dirtball BJJ",
+        "duration": 64,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Zw_QEoWDvcw",
+        "title": "Bump and roll sweep to escape side control",
+        "by": "PIOT",
+        "vertical": false,
+        "channel": "PIOT",
+        "duration": 82,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "zQgPda7qx1k",
+        "title": "Side Control Escape to Coyote",
+        "by": "Carpio Jiu Jitsu",
+        "vertical": false,
+        "channel": "Carpio Jiu Jitsu",
+        "duration": 98,
+        "verified": "2026-07-15"
       }
     ]
   },

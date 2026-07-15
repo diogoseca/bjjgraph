@@ -356,6 +356,35 @@
         "answer": "If leg control slips, immediately pinch your knees together tightly while using your near-side hand to grab their ankle or heel and pull it toward your hip. This emergency grip replaces the leg isolation temporarily. Simultaneously, use your free hand to re-establish hip control to prevent them from rotating out. If you cannot recover the leg isolation quickly, consider abandoning the kneebar attempt and transitioning to either: (1) A toe hold by catching their foot as it rotates; (2) Return to half guard by re-establishing your bottom hook; or (3) Transition to 50-50 position if they're extracting backward. Never chase a submission with compromised control—either recover your position or transition intelligently.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "uB23Ogno7DM",
+        "title": "Half Guard to Kneebar",
+        "by": "CholoMMA",
+        "vertical": false,
+        "channel": "CholoMMA",
+        "duration": 24,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "ih_7aXNM6UU",
+        "title": "Kneebar from Deep Half Guard",
+        "by": "Miles Moudy",
+        "vertical": false,
+        "channel": "LegLock Assassins",
+        "duration": 25,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "IzKxUPKzr8A",
+        "title": "Helicopter Kneebar from Half Guard",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 58,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -462,6 +491,35 @@
         "phase": "Phase 3: Integrated Defense with Counter-Offense",
         "focus": "Combining kneebar defense with guard passing and position advancement",
         "description": "Positional sparring from top half guard at 70-80% resistance. Bottom player freely attempts kneebars, sweeps, and other attacks. Top player integrates kneebar defense into their passing game—recognizing threats, defending appropriately, and immediately resuming passing or advancing to side control after successful defense. Track how often the kneebar entry is denied at the early stage versus requiring late-stage escape."
+      }
+    ],
+    "clips": [
+      {
+        "id": "wBRG0fY94fs",
+        "title": "How to Defend a Kneebar",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 59,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "NuWBh3LN-SY",
+        "title": "Kneebar Defense + Take the Back",
+        "by": "Bicudo BJJ",
+        "vertical": false,
+        "channel": "Bicudo BJJ",
+        "duration": 22,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "kUuJ03CcIUQ",
+        "title": "Kneebar Defense in Competition",
+        "by": "AJ Agazarm",
+        "vertical": false,
+        "channel": "FloGrappling",
+        "duration": 23,
+        "verified": "2026-07-14"
       }
     ]
   },

@@ -280,7 +280,18 @@
         "answer": "If the whizzer alone is insufficient, immediately add aggressive crossface pressure from your free arm to create a two-point flattening system. If they still maintain elevation, consider transitioning the whizzer grip to a kimura by reaching for their wrist, which creates a submission threat that forces them to release the underhook. Alternatively, abandon the whizzer approach entirely and switch to a backstep pass or standing pass that uses different mechanics to address the deep half position."
       }
     ],
-    "safety_considerations": "The whizzer from deep half guard is a relatively low-risk technique for both practitioners. However, excessive downward pressure through the whizzer combined with aggressive sprawling can place significant force on the bottom player's shoulder and neck. Apply pressure progressively rather than explosively. During training, communicate with your partner about comfort levels, especially when combining the whizzer with crossface pressure. The bottom player's shoulder is particularly vulnerable if they stubbornly maintain their underhook while the top player drives heavy pressure through the overhook, potentially causing shoulder strain or impingement."
+    "safety_considerations": "The whizzer from deep half guard is a relatively low-risk technique for both practitioners. However, excessive downward pressure through the whizzer combined with aggressive sprawling can place significant force on the bottom player's shoulder and neck. Apply pressure progressively rather than explosively. During training, communicate with your partner about comfort levels, especially when combining the whizzer with crossface pressure. The bottom player's shoulder is particularly vulnerable if they stubbornly maintain their underhook while the top player drives heavy pressure through the overhook, potentially causing shoulder strain or impingement.",
+    "clips": [
+      {
+        "id": "_jCFybzyNuE",
+        "title": "Deep half guard reversal to the back",
+        "by": "Felipe Cavalcante",
+        "vertical": false,
+        "channel": "Felipe Cavalcante BJJ",
+        "duration": 72,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Whizzer from Deep Half Defender",
@@ -404,6 +415,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full-speed application against resisting opponents",
         "description": "Positional sparring starting in deep half guard. Top player uses whizzer as primary tool, bottom player practices full defensive repertoire. 3-minute rounds with resets after pass or sweep. Track which counters succeed and which fail to refine personal strategy and identify timing gaps that need additional drilling."
+      }
+    ],
+    "clips": [
+      {
+        "id": "R8RY9Ky648o",
+        "title": "Whizzer defense from dogfight to armbar",
+        "by": "Pathfinder Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Pathfinder Jiu-Jitsu Team",
+        "duration": 124,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dOdO6xJ-TcU",
+        "title": "Stopping the half guard underhook",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 98,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "iwa9DlIGrsY",
+        "title": "Rollover sweep from dogfight position",
+        "by": "Cory Lawson",
+        "vertical": false,
+        "channel": "Cory Lawson",
+        "duration": 112,
+        "verified": "2026-07-15"
       }
     ]
   }

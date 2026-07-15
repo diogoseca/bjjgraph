@@ -334,6 +334,35 @@
         "answer": "The mechanics stay identical in both settings: secure the figure-four, control the foot, and extend the hips through the calf. The strategic difference in competition is using the calf slicer and heel hook as a linked dilemma to force a fast tap or a positional mistake before the referee stands you up for stalling, committing to whichever attack the opponent's knee angle exposes and threatening the back take if they sacrifice position to escape the legs. Even under competitive pressure you must keep application controlled, because reckless leg-lock spiking endangers your opponent and can draw a disqualification under many rulesets.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "UsEvrDzgbqE",
+        "title": "50/50 to Calf Slicer",
+        "by": "CaMiCho327",
+        "vertical": false,
+        "channel": "CaMiCho327",
+        "duration": 13,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "d4KgnwWTkuk",
+        "title": "5050 Calf Slicer",
+        "by": "The Jiu-Jitsu Foundry",
+        "vertical": false,
+        "channel": "The Jiu-Jitsu Foundry",
+        "duration": 35,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "buBg-yzLTrY",
+        "title": "Calf Slicer Positions: RDLR, 50/50, Z Guard",
+        "by": "Grappling with Insanity",
+        "vertical": false,
+        "channel": "Grappling with Insanity",
+        "duration": 54,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -455,6 +484,17 @@
         "phase": "Phase 3: Live Defensive Sparring",
         "focus": "Full resistance defense against calf slicer and heel hook chains",
         "description": "Start in 50-50 bottom with partner attacking freely using heel hook to calf slicer chains. Defend with all available techniques under full resistance. Emphasize tapping early when escapes fail rather than absorbing damage. Reset after tap, successful escape, or 60-second time limit."
+      }
+    ],
+    "clips": [
+      {
+        "id": "KOz3WqQJ3Tk",
+        "title": "Heel Hook Roll Out Counter to Calf Slicer",
+        "by": "Charlie Cosens",
+        "vertical": false,
+        "channel": "Cosens MMA LLC",
+        "duration": 55,
+        "verified": "2026-07-14"
       }
     ]
   }

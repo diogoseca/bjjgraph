@@ -305,7 +305,18 @@
         "answer": "Do not force the original direction. Switch your angle and feed their framing arm across their body to enter a leg drag, or step over into a backstep pass toward their hip. Because the lapel is cleared you now have full mobility, so flow between knee slice, leg drag, and backstep based on which frame they commit to. Keep your free hand pinning their near hip throughout the switch so they cannot re-insert a hook or re-feed the lapel during the transition."
       }
     ],
-    "safety_considerations": "Squid Guard passing involves significant tension on both practitioners' joints, particularly the passer's knee when entangled by the lapel wrap. Avoid explosive yanking motions to free the lapel, as sudden force can stress the knee joint in unexpected directions. If the lapel wrap creates uncomfortable torque on your knee, stop and communicate with your training partner to adjust rather than forcing through the position. During stacking variations, be mindful of the bottom player's neck and spine compression. In training, use controlled progressive resistance rather than explosive movements."
+    "safety_considerations": "Squid Guard passing involves significant tension on both practitioners' joints, particularly the passer's knee when entangled by the lapel wrap. Avoid explosive yanking motions to free the lapel, as sudden force can stress the knee joint in unexpected directions. If the lapel wrap creates uncomfortable torque on your knee, stop and communicate with your training partner to adjust rather than forcing through the position. During stacking variations, be mindful of the bottom player's neck and spine compression. In training, use controlled progressive resistance rather than explosive movements.",
+    "clips": [
+      {
+        "id": "U6h4HKtwqU4",
+        "title": "Passing the lapel/fio dental guard",
+        "by": "Ninja Pinto",
+        "vertical": false,
+        "channel": "Ninja Pinto BJJ",
+        "duration": 109,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Pass Squid Guard Defender",
@@ -427,6 +438,17 @@
         "phase": "Phase 4: Full Resistance Defense",
         "focus": "Complete defensive system against live passing attempts",
         "description": "Timed rounds where the partner attempts to pass your Squid Guard at full competitive intensity. Apply the complete defensive system including grip retention, counter-attacks, and guard transitions. Track which phase of the passing sequence you most frequently lose position and target that phase for improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "mIUc5788gsw",
+        "title": "Squid guard entry vs standing opponent into sweep",
+        "by": "Adam Bradley",
+        "vertical": false,
+        "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
+        "duration": 56,
+        "verified": "2026-07-15"
       }
     ]
   }

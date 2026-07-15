@@ -282,7 +282,36 @@
         "answer": "Cupping behind the far knee with your palm on the back of the kneecap area provides the best combination of control and mechanical advantage. This grip allows you to both block the leg from posting backward and redirect it laterally toward you. Gripping the pant leg at the ankle provides distance but less control. Gripping the thigh muscle is strong but can slip in no-gi. The behind-the-knee cup is effective in both gi and no-gi and allows precise control of the leg's trajectory during the sweep."
       }
     ],
-    "safety_considerations": "The Dogfight Sweep is a relatively low-risk technique with no direct joint manipulation or choking pressure. Primary injury concerns involve knee strain on the trapped inside leg during explosive sweep attempts, particularly if the leg is twisted as both players topple. Shoulder strain can occur from deep underhook positioning under heavy whizzer pressure. Both partners should communicate immediately if knee or shoulder discomfort occurs during drilling. The sweeper should avoid jerking motions when controlling the far leg to prevent knee hyperextension on the opponent. During training, follow through smoothly rather than explosively to allow the partner to fall safely and breakfall properly."
+    "safety_considerations": "The Dogfight Sweep is a relatively low-risk technique with no direct joint manipulation or choking pressure. Primary injury concerns involve knee strain on the trapped inside leg during explosive sweep attempts, particularly if the leg is twisted as both players topple. Shoulder strain can occur from deep underhook positioning under heavy whizzer pressure. Both partners should communicate immediately if knee or shoulder discomfort occurs during drilling. The sweeper should avoid jerking motions when controlling the far leg to prevent knee hyperextension on the opponent. During training, follow through smoothly rather than explosively to allow the partner to fall safely and breakfall properly.",
+    "clips": [
+      {
+        "id": "X3M6JUqr1Bo",
+        "title": "Roger's windmill half guard sweep",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 16,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "jJzA1wrxJNs",
+        "title": "Armlock off the dogfight sweep",
+        "by": "Brandon Mccaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 97,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fjDBmFzfhgI",
+        "title": "Dogfight basics: plan B and old school sweep",
+        "by": "Brandon Mccaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 145,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Dogfight Sweep Defender",
@@ -402,6 +431,35 @@
         "phase": "Phase 4: Live Application",
         "focus": "Full resistance Dogfight defense and counter-attack",
         "description": "Full resistance positional sparring starting in Dogfight. Defend all sweep and back take attempts while actively working to flatten the opponent and initiate passing sequences. Two-minute rounds with goal of both preventing the sweep and advancing to a passing position. Track defense success rate and identify gaps in recognition or execution."
+      }
+    ],
+    "clips": [
+      {
+        "id": "8mXBDHXrAu4",
+        "title": "Whizzer defense to win the dogfight",
+        "by": "Wrecking Crew BJJ",
+        "vertical": false,
+        "channel": "Wrecking Crew BJJ",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dOdO6xJ-TcU",
+        "title": "Stopping the half guard underhook",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 98,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "KX4aiS5DVPU",
+        "title": "Countering the old school sweep defense",
+        "by": "Wimbledon Brazilian Jiu Jitsu",
+        "vertical": false,
+        "channel": "Wimbledon Brazilian Jiu Jitsu & Self Defence",
+        "duration": 120,
+        "verified": "2026-07-15"
       }
     ]
   }

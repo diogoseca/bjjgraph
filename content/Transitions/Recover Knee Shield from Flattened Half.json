@@ -296,7 +296,27 @@
         "answer": "Transition to deep half guard by diving under the opponent's hips instead of fighting for the shield insertion. When the opponent's crossface and forward pressure make direct recovery impossible, the directional change to deep half catches them off-guard. From deep half, the sweeping threat forces them to post and redistribute weight, which often creates the space needed to come back up to knee shield from a stronger position. The key is recognizing early when direct recovery is not viable and switching rather than burning energy on failed attempts."
       }
     ],
-    "safety_considerations": "This recovery technique involves operating under heavy chest pressure that restricts breathing. Never train to the point of genuine respiratory distress, and tap immediately if you experience lightheadedness, vision changes, or panic from breathing restriction. The knee shield insertion movement can stress the medial knee joint if forced through insufficient space - always create adequate room through hip escapes before driving the knee across. Partners should gradually increase pressure during drilling rather than applying maximum weight from the start. Communicate clearly about pressure levels during training and establish hand signals for reducing pressure when verbal communication is difficult."
+    "safety_considerations": "This recovery technique involves operating under heavy chest pressure that restricts breathing. Never train to the point of genuine respiratory distress, and tap immediately if you experience lightheadedness, vision changes, or panic from breathing restriction. The knee shield insertion movement can stress the medial knee joint if forced through insufficient space - always create adequate room through hip escapes before driving the knee across. Partners should gradually increase pressure during drilling rather than applying maximum weight from the start. Communicate clearly about pressure levels during training and establish hand signals for reducing pressure when verbal communication is difficult.",
+    "clips": [
+      {
+        "id": "hXAs2HsP9Cg",
+        "title": "Knee shield half guard recovery",
+        "by": "United Martial Arts",
+        "vertical": false,
+        "channel": "UnitedMartialArtsKY",
+        "duration": 121,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dOdO6xJ-TcU",
+        "title": "Stopping the half guard underhook",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 98,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Recover Knee Shield from Flattened Half Defender",
@@ -421,6 +441,26 @@
         "phase": "Phase 4: Full Competitive Positional Rounds",
         "focus": "Applying all skills under full resistance with time constraints",
         "description": "Two-minute rounds starting in flattened half guard. Top player works to maintain control or complete the pass while bottom player attempts recovery. Full resistance from both players. Track pass completion rate versus recovery rate over multiple sessions to measure improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "L8_9QIvzZtA",
+        "title": "Stopping the knee shield half guard recovery",
+        "by": "Dirtball BJJ",
+        "vertical": false,
+        "channel": "Dirtball BJJ",
+        "duration": 39,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8WbQvytyCX0",
+        "title": "Passing the flattened half guard",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 63,
+        "verified": "2026-07-15"
       }
     ]
   }

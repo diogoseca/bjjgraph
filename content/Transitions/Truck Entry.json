@@ -287,7 +287,36 @@
         "answer": "If the entry fails and you maintain turtle top position, immediately chain into alternative attacks: transition to front headlock by circling toward the head for guillotine or darce entries, attempt a Crucifix by trapping the near-side arm that they used to defend, or drive for a traditional back take by establishing seatbelt and inserting hooks. The key is not returning to a neutral position after a failed attempt but flowing directly into the next highest-percentage attack based on their defensive posture."
       }
     ],
-    "safety_considerations": "Truck Entry is generally a safe transition technique with minimal injury risk during the entry phase itself, though practitioners should be aware of potential knee stress when threading the leg hook under resistance. Ensure your knee is properly warmed up before practicing as the threading motion places rotational stress on the joint. When drilling with partners, communicate clearly about pace and resistance level, especially during the rolling phase where uncontrolled momentum can cause both practitioners to fall awkwardly. The primary safety concerns arise not from the entry itself but from the submissions available from Truck position (Twister, Calf Slicer), so practitioners should be educated about these submission mechanics before training Truck entries at full resistance. Always progress gradually through the training phases outlined above rather than attempting full-speed entries immediately."
+    "safety_considerations": "Truck Entry is generally a safe transition technique with minimal injury risk during the entry phase itself, though practitioners should be aware of potential knee stress when threading the leg hook under resistance. Ensure your knee is properly warmed up before practicing as the threading motion places rotational stress on the joint. When drilling with partners, communicate clearly about pace and resistance level, especially during the rolling phase where uncontrolled momentum can cause both practitioners to fall awkwardly. The primary safety concerns arise not from the entry itself but from the submissions available from Truck position (Twister, Calf Slicer), so practitioners should be educated about these submission mechanics before training Truck entries at full resistance. Always progress gradually through the training phases outlined above rather than attempting full-speed entries immediately.",
+    "clips": [
+      {
+        "id": "sCBGkcJCQYY",
+        "title": "The Truck in transition from turtle",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Y693ZHlCd2Q",
+        "title": "Two entries into the Truck",
+        "by": "Geo Martinez",
+        "vertical": false,
+        "channel": "FloGrappling",
+        "duration": 100,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "yGkKdnPksik",
+        "title": "Turtle series: Truck entry",
+        "by": "Courage Training Centre",
+        "vertical": false,
+        "channel": "Courage Training Centre",
+        "duration": 109,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Truck Entry Defender",
@@ -418,6 +447,35 @@
         "phase": "Competition Preparation",
         "focus": "Full resistance defense integrated into live rolling",
         "description": "During regular sparring, deliberately allow opponents to reach turtle top and practice Truck Entry defense under full resistance. Develop automatic recognition responses and defense timing. Combine with your overall turtle defense system including traditional back take defense and front headlock escapes."
+      }
+    ],
+    "clips": [
+      {
+        "id": "1AQY9-6HUhI",
+        "title": "Defending rolling back takes",
+        "by": "Stephan Kesting",
+        "vertical": false,
+        "channel": "Stephan Kesting",
+        "duration": 107,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "LA-AdwNMGvc",
+        "title": "Truck back take vs babybridge and hawkins defenses",
+        "by": "Wim Deputter",
+        "vertical": false,
+        "channel": "Wim Deputter BJJ",
+        "duration": 162,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "WEpVDP7MRpo",
+        "title": "Defending the rolling back take (Truck roll)",
+        "by": "Brian Glick",
+        "vertical": false,
+        "channel": "Brian Glick",
+        "duration": 209,
+        "verified": "2026-07-15"
       }
     ]
   },

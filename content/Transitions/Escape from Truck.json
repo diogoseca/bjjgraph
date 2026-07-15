@@ -289,7 +289,27 @@
         "answer": "With loose upper body control but strong lower body entanglement, prioritize the hip escape to half guard variant. The loose upper body means you can use both hands to address the boot and leg entanglement without risking immediate twister or choke. Shrimping movements will create incremental space for leg extraction since the opponent cannot follow your hip movement effectively without upper body connection. Rolling escapes are riskier here because the tight leg entanglement may prevent the roll from breaking through cleanly."
       }
     ],
-    "safety_considerations": "The truck position threatens the twister (spinal lock) and calf slicer (knee compression), both of which can cause serious injury with minimal warning. Tap immediately when you feel rotational pressure on your cervical spine or compression on your knee joint. During training, communicate clearly with your partner about pressure levels and never attempt explosive escapes that could injure either practitioner. The twister in particular can damage cervical vertebrae and spinal ligaments before pain signals fully register. Prioritize training longevity over ego-driven resistance to tapping."
+    "safety_considerations": "The truck position threatens the twister (spinal lock) and calf slicer (knee compression), both of which can cause serious injury with minimal warning. Tap immediately when you feel rotational pressure on your cervical spine or compression on your knee joint. During training, communicate clearly with your partner about pressure levels and never attempt explosive escapes that could injure either practitioner. The twister in particular can damage cervical vertebrae and spinal ligaments before pain signals fully register. Prioritize training longevity over ego-driven resistance to tapping.",
+    "clips": [
+      {
+        "id": "G8L5cY5gr-A",
+        "title": "Defending the truck safely",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 106,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "jLhXI8-7vzw",
+        "title": "Granby roll from the bottom",
+        "by": "WrestlingTournaments.com",
+        "vertical": false,
+        "channel": "WrestlingTournaments․com",
+        "duration": 75,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Escape from Truck Defender",
@@ -408,6 +428,35 @@
         "phase": "Phase 3: Transition Flow",
         "focus": "Flowing between truck maintenance and back control transitions",
         "description": "Full positional sparring from truck with focus on maintaining dominant position or transitioning to back control. Practice reading when truck control is salvageable versus when immediate transition to back control is the better tactical choice. Develop adaptive decision-making under live resistance."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ZVAmQ2Sf-Fc",
+        "title": "Focusing on the truck",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "sCBGkcJCQYY",
+        "title": "The truck in transition",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "im8KbQUyxLY",
+        "title": "Truck options from twister side control",
+        "by": "Jeremiah Vance",
+        "vertical": false,
+        "channel": "Jeremiah Vance",
+        "duration": 42,
+        "verified": "2026-07-15"
       }
     ]
   }

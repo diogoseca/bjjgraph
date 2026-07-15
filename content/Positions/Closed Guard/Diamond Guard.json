@@ -658,6 +658,26 @@
         "question": "Your opponent partially strips your overhook so it slides from their tricep to their wrist — how do you recover full diamond control?",
         "answer": "Do not release the shallow overhook to attempt a full re-establishment, as this gives the opponent a momentarily free arm. Instead, increase head control pressure to maintain broken posture while working the overhook back to depth. Walk your overhook hand back up their arm by gripping their sleeve or wrist, then re-pummel your arm over their bicep using a circular motion. If the overhook continues slipping, immediately transition to a submission entry that uses the current grip — a wrist-level overhook can still initiate an omoplata rotation or convert into a wrist-control triangle setup."
       }
+    ],
+    "clips": [
+      {
+        "id": "-fudB_l1Sbc",
+        "title": "Diamond guard to dead orchid sweep",
+        "by": "Moncaio Brothers",
+        "vertical": false,
+        "channel": "Moncaio Brothers Jiujitsu",
+        "duration": 37,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "VtSbv2sWvEw",
+        "title": "High/diamond guard attacks",
+        "by": "Avant-Garde BJJ",
+        "vertical": false,
+        "channel": "Avant-Garde BJJ",
+        "duration": 83,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -692,6 +712,26 @@
     {
       "question": "Why does binding the near shoulder and head into a single unit make the diamond a rigid structure rather than two independent grips?",
       "answer": "Because the overhook and head control lock the opponent's near shoulder and head together, the two grips stop behaving as separate controls and instead move as one coupled block. Rotating the head cannot happen without also moving the trapped shoulder, and the shoulder cannot travel without dragging the head, so neither element has an independent degree of freedom. This coupling is what lets a low-effort frame resist force from multiple directions: pressure applied to one anchor is transmitted through the shared structure to the other. The bound shoulder-head unit is therefore the mechanical reason the diamond holds posture broken as a single rigid loop."
+    }
+  ],
+  "clips": [
+    {
+      "id": "oqR6MLjUrd4",
+      "title": "Diamond Guard: setup + 2 attacks",
+      "by": "Caron Jiu Jitsu",
+      "vertical": false,
+      "channel": "Caron Jiu Jitsu",
+      "duration": 252,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "fjRWdwc1KjA",
+      "title": "Choke from the diamond/knee-shield guard",
+      "by": "DS Team Jiu Jitsu",
+      "vertical": false,
+      "channel": "DS Team Jiu Jitsu School",
+      "duration": 85,
+      "verified": "2026-07-14"
     }
   ]
 }

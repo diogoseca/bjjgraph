@@ -296,7 +296,36 @@
         "answer": "The direction of your drive and your hip positioning during the follow-through determine the final position. A drive angled toward the opponent's centerline with your hips crossing over their torso during the topple results in mount. A drive angled too far laterally, or delayed hip crossing during the transition, typically results in side control or a scramble. To ensure mount, keep your hips directly over the opponent's torso as they fall and clear your inside leg early to settle into mount before they can establish defensive frames."
       }
     ],
-    "safety_considerations": "The Forward Drive Sweep is generally low-risk with minimal injury potential compared to submissions or inversions. Primary safety concerns involve controlled landing when sweeping to prevent knee or shoulder impact injuries on the mat. Partners should practice breakfalls and communicate during live drilling to avoid unexpected impacts. Avoid explosive forward drives on partners who are bracing with locked arms, as sudden collapse could strain their wrists or shoulders. Train the sweep at controlled speed before adding competition-level intensity."
+    "safety_considerations": "The Forward Drive Sweep is generally low-risk with minimal injury potential compared to submissions or inversions. Primary safety concerns involve controlled landing when sweeping to prevent knee or shoulder impact injuries on the mat. Partners should practice breakfalls and communicate during live drilling to avoid unexpected impacts. Avoid explosive forward drives on partners who are bracing with locked arms, as sudden collapse could strain their wrists or shoulders. Train the sweep at controlled speed before adding competition-level intensity.",
+    "clips": [
+      {
+        "id": "fjDBmFzfhgI",
+        "title": "Dogfight basics: driving forward to the sweep",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 145,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ea1HexPjAh0",
+        "title": "Dogfight sweep mechanics",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "hotSXTK9oGI",
+        "title": "Timing the forward drive sweep from dogfight",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 169,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Forward Drive Sweep from Dogfight Defender",
@@ -418,6 +447,35 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Full-speed defense against committed sweep attempts",
         "description": "Positional sparring starting from Dogfight where partner attempts all available sweeps including the forward drive. Practice defending at full speed with emphasis on recognizing the forward drive among other threats. Track success rate and identify which defensive responses work best against specific sweep variations."
+      }
+    ],
+    "clips": [
+      {
+        "id": "8mXBDHXrAu4",
+        "title": "Whizzer defense: winning the dogfight on top",
+        "by": "Wrecking Crew BJJ",
+        "vertical": false,
+        "channel": "Wrecking Crew BJJ",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dOdO6xJ-TcU",
+        "title": "Stopping the half guard underhook before the sweep",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 98,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "GE3rFdjxA-M",
+        "title": "Dogfight counter",
+        "by": "Cauliflower Ear Family",
+        "vertical": false,
+        "channel": "Cauliflower Ear Family",
+        "duration": 194,
+        "verified": "2026-07-15"
       }
     ]
   }

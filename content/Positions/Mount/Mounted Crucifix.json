@@ -420,6 +420,35 @@
         "question": "How do you recover mounted crucifix control if your base is disrupted during a submission attempt?",
         "answer": "Post immediately with your free hand on the mat to prevent being rolled while keeping the arm-trapping leg tight. Re-establish mount fundamentals first by squaring your hips and dropping weight, then re-isolate arms systematically. If the crucifix is lost entirely, settle for standard mount and work back to crucifix when stability returns. Never chase the crucifix position at the expense of mount - mount is still dominant and crucifix can be re-established from a stable foundation."
       }
+    ],
+    "clips": [
+      {
+        "id": "rh7TUm0ysww",
+        "title": "Isolating the near arm in crucifix",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 151,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "WFCq8CASHeA",
+        "title": "Crucifix attack chain",
+        "by": "Johnny Jitsu",
+        "vertical": false,
+        "channel": "Johnny Jitsu",
+        "duration": 106,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "JT4v_EQyq5k",
+        "title": "Top crucifix breakdown",
+        "by": "Thomas Kincaid",
+        "vertical": false,
+        "channel": "Thomas Kincaid MMA",
+        "duration": 60,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -745,6 +774,17 @@
         "question": "What mental approach helps maintain composure in the mounted crucifix bottom position?",
         "answer": "Accept that this is a bad position requiring patience rather than panic. Focus on small, achievable goals - first survive the immediate submission threat, then create small spaces, then extract one arm, then escape mount. Each step builds toward escape rather than trying to accomplish everything at once. Recognize that opponent must also expend energy to attack, and patient defense can create opportunities when they overcommit. Panic leads to energy depletion and technical breakdown; composure maintains efficient defense until escape windows appear."
       }
+    ],
+    "clips": [
+      {
+        "id": "Wt2NW_hfTd0",
+        "title": "Escaping the crucifix",
+        "by": "Mick Hall",
+        "vertical": false,
+        "channel": "Mick Hall",
+        "duration": 228,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -775,6 +815,35 @@
     {
       "question": "Where does the mounted crucifix sit in the positional hierarchy relative to its adjacent positions?",
       "answer": "It emerges from high mount or S-mount when the bottom player's arms become exposed to leg entanglement, sitting one tier above standard mount in dominance. From here the natural advancement is to back control or a seat belt, since the arms are already controlled and the bottom player often surrenders the back while defending. If the trap is lost, the position degrades back toward standard mount rather than collapsing entirely, so mount remains the fallback floor. Understanding it as a bridge between mount and back control clarifies why it functions as a transition hub as well as a finishing platform."
+    }
+  ],
+  "clips": [
+    {
+      "id": "pwyBJLfBbpY",
+      "title": "Crucifix position overview",
+      "by": "Animal",
+      "vertical": false,
+      "channel": "Animal",
+      "duration": 56,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "4QlWJFhI7i8",
+      "title": "No-gi mounted crucifix",
+      "by": "Esteem Jiujitsu",
+      "vertical": false,
+      "channel": "Esteem Jiujitsu HQ",
+      "duration": 124,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "rh7TUm0ysww",
+      "title": "Isolating the near arm in crucifix",
+      "by": "Gordon Ryan",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 151,
+      "verified": "2026-07-14"
     }
   ]
 }

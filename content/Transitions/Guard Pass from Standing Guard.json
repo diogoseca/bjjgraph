@@ -289,7 +289,36 @@
         "answer": "Your force should travel laterally around the opponent's guard, led by your hips clearing past their hip line, while your hands redirect their legs away from your passing line. You are moving your body around their guard rather than trying to push their guard out of the way. Driving force straight into the opponent only stacks them and gives a strong frame to push against; circling around their hip line is what actually completes the pass to side control."
       }
     ],
-    "safety_considerations": "Maintain controlled movements during passing sequences to avoid accidentally dropping weight onto the guard player's face or neck with your knee or shin during the leg clearing phase. When using pressure-based passing variations, apply weight gradually rather than slamming down to prevent rib injuries. Be particularly careful with directional changes near the guard player's knees, as sudden lateral forces while their foot is planted can stress the knee joint. In training, avoid explosive smash passes against significantly smaller partners and always establish clear communication about intensity levels before positional sparring from standing."
+    "safety_considerations": "Maintain controlled movements during passing sequences to avoid accidentally dropping weight onto the guard player's face or neck with your knee or shin during the leg clearing phase. When using pressure-based passing variations, apply weight gradually rather than slamming down to prevent rib injuries. Be particularly careful with directional changes near the guard player's knees, as sudden lateral forces while their foot is planted can stress the knee joint. In training, avoid explosive smash passes against significantly smaller partners and always establish clear communication about intensity levels before positional sparring from standing.",
+    "clips": [
+      {
+        "id": "yXNfYoZszss",
+        "title": "Standing guard pass",
+        "by": "10th Planet Costa Mesa",
+        "vertical": false,
+        "channel": "10th Planet Costa Mesa",
+        "duration": 11,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "SHZxXkY9p1s",
+        "title": "Standing guard pass with hip twist",
+        "by": "RKBJJ",
+        "vertical": false,
+        "channel": "RKBJJ Class Archive",
+        "duration": 112,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "CgpkrPRotcg",
+        "title": "Standing pass series: leg hug detail",
+        "by": "Dedeco",
+        "vertical": false,
+        "channel": "Dedeco BJJ",
+        "duration": 153,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Guard Pass from Standing Guard Defender",
@@ -411,6 +440,35 @@
         "phase": "Phase 4: Live Application",
         "focus": "Full resistance guard retention and counter-attacking",
         "description": "Positional sparring from standing guard with full resistance. Guard player scores for sweeps, submissions, and successful guard retention. Passer scores for completed passes. Five-minute rounds tracking defensive success rate and counter-attack conversion to identify areas for improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "lVLAROiSjNU",
+        "title": "Guard retention: when to sit up and escape",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 136,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Bp0v7c_MrbY",
+        "title": "Getting feet on biceps against a standing passer",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 125,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Xj_MVwk2jq0",
+        "title": "Guard retention when they hold on",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 46,
+        "verified": "2026-07-15"
       }
     ]
   }

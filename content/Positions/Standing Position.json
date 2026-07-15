@@ -610,6 +610,35 @@
         "question": "What are the three most common base and posture errors that compromise standing position stability, and how does each create vulnerability?",
         "answer": "The three most common errors are: (1) Standing too tall with locked knees and weight on heels, which raises center of gravity and delays defensive reactions because you must first bend your knees before sprawling or changing levels, making you vulnerable to both takedowns and throws. (2) Flat-footed static positioning without active movement, which allows opponents to time attacks against a predictable target and eliminates your ability to create angles or generate offensive momentum. (3) Overextended or overly wide stance that compromises mobility, which makes you susceptible to foot sweeps and trips because your feet are planted in predictable positions and weight transfer between them takes longer."
       }
+    ],
+    "clips": [
+      {
+        "id": "Wy-a8VfNsVo",
+        "title": "Signature Double Leg",
+        "by": "Jordan Burroughs",
+        "vertical": false,
+        "channel": "United World Wrestling",
+        "duration": 73,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "dhZgpDHCARw",
+        "title": "Double Leg Takedown Technique",
+        "by": "Predators MMA and BJJ",
+        "vertical": false,
+        "channel": "Predators MMA and BJJ Academy Manchester",
+        "duration": 15,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "RLU7Yt1jN7s",
+        "title": "Favorite Takedowns for BJJ",
+        "by": "Chewjitsu",
+        "vertical": false,
+        "channel": "Chewjitsu",
+        "duration": 61,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -966,6 +995,35 @@
         "question": "What are the three most common base and posture errors that compromise standing position stability, and how does each create vulnerability?",
         "answer": "The three most common errors are: (1) Standing too tall with locked knees and weight on heels, which raises center of gravity and delays defensive reactions because you must first bend your knees before sprawling or changing levels, making you vulnerable to both takedowns and throws. (2) Flat-footed static positioning without active movement, which allows opponents to time attacks against a predictable target and eliminates your ability to create angles or generate offensive momentum. (3) Overextended or overly wide stance that compromises mobility, which makes you susceptible to foot sweeps and trips because your feet are planted in predictable positions and weight transfer between them takes longer."
       }
+    ],
+    "clips": [
+      {
+        "id": "VGy3imISlaA",
+        "title": "Beat the Stiff Arm Grip",
+        "by": "Travis Stevens",
+        "vertical": false,
+        "channel": "Travis Stevens",
+        "duration": 95,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "jTk5AaZd1Rc",
+        "title": "Break Any Collar Grip with Technique",
+        "by": "Travis Stevens",
+        "vertical": false,
+        "channel": "Travis Stevens",
+        "duration": 113,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "yjQHCaCmhyo",
+        "title": "Deal With an Opponent Who Stiff Arms",
+        "by": "Travis Stevens",
+        "vertical": false,
+        "channel": "Travis Stevens",
+        "duration": 114,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -1000,6 +1058,26 @@
     {
       "question": "Why is direct submission rare from the Standing Position, and what conditions allow the exceptions that do occur?",
       "answer": "Direct submissions are rare because the neutral upright configuration gives neither player the sustained control over a limb or the neck required to isolate and finish, and both retain full mobility to circle away or posture out. The high, mobile base also means any attacker committing to a submission risks being off-balanced or countered before the finish locks. Exceptions arise when one player exposes their neck by posturing down or shooting poorly, opening standing guillotines and front-headlock chokes, or when a flying or jumping attack such as a flying kneebar or jumping guard converts the standing engagement directly into a leg entanglement or submission. These are higher-risk, higher-skill actions that depend on a specific opening rather than being reliable defaults from the neutral position."
+    }
+  ],
+  "clips": [
+    {
+      "id": "qMupz9qrbxc",
+      "title": "Breaking Down the Double Leg",
+      "by": "Jordan Burroughs",
+      "vertical": false,
+      "channel": "United World Wrestling",
+      "duration": 47,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "dhZgpDHCARw",
+      "title": "Double Leg Takedown Technique",
+      "by": "Predators MMA and BJJ",
+      "vertical": false,
+      "channel": "Predators MMA and BJJ Academy Manchester",
+      "duration": 15,
+      "verified": "2026-07-14"
     }
   ]
 }

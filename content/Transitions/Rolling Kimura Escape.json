@@ -309,7 +309,36 @@
         "answer": "You roll forward over your trapped shoulder, which means you are rotating in the same direction that the Kimura lock is driving your arm. This is counterintuitive because it feels like rolling into the submission. However, the Kimura's finishing mechanics require your body to remain stationary while your arm rotates behind your back. By rotating your entire body in the same direction, you eliminate the differential between arm rotation and body position, temporarily neutralizing the lock's leverage. Rolling in any other direction would increase the angle disparity and worsen the submission."
       }
     ],
-    "safety_considerations": "The Rolling Kimura Escape is one of the highest-risk defensive techniques in Brazilian Jiu-Jitsu due to the combination of shoulder joint stress and dynamic rolling mechanics. This escape should ONLY be practiced with experienced training partners who understand the technique and can release pressure appropriately. Always ensure adequate mat space before attempting the roll. The technique requires complete commitment; hesitation mid-execution dramatically increases injury risk to both shoulder and neck. Practitioners with any shoulder injuries, instability, or previous dislocations should avoid this technique entirely and focus on alternative Kimura defenses. Never practice at full speed or pressure until rolling mechanics are mastered through hundreds of safe repetitions. Both partners must have clear communication and established tap protocols. If pressure increases rather than decreases during the escape, tap immediately. This technique is recommended only for advanced practitioners (purple belt and above) with excellent body awareness and significant mat experience."
+    "safety_considerations": "The Rolling Kimura Escape is one of the highest-risk defensive techniques in Brazilian Jiu-Jitsu due to the combination of shoulder joint stress and dynamic rolling mechanics. This escape should ONLY be practiced with experienced training partners who understand the technique and can release pressure appropriately. Always ensure adequate mat space before attempting the roll. The technique requires complete commitment; hesitation mid-execution dramatically increases injury risk to both shoulder and neck. Practitioners with any shoulder injuries, instability, or previous dislocations should avoid this technique entirely and focus on alternative Kimura defenses. Never practice at full speed or pressure until rolling mechanics are mastered through hundreds of safe repetitions. Both partners must have clear communication and established tap protocols. If pressure increases rather than decreases during the escape, tap immediately. This technique is recommended only for advanced practitioners (purple belt and above) with excellent body awareness and significant mat experience.",
+    "clips": [
+      {
+        "id": "YvTmqi750wQ",
+        "title": "Kimura trap rolling sweep from bottom side control",
+        "by": "Mat Life Training Center",
+        "vertical": false,
+        "channel": "Mat Life Training Center",
+        "duration": 31,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "WEhMKdFPV9U",
+        "title": "No-gi kimura trap roll",
+        "by": "Robyn Sheehan",
+        "vertical": false,
+        "channel": "Robyn Sheehan",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "3scKusIPsC8",
+        "title": "Kimura trap roll from half guard",
+        "by": "Combat Arts Strength and Conditioning",
+        "vertical": false,
+        "channel": "Combat Arts Strength and Conditioning",
+        "duration": 51,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Rolling Kimura Escape Defender",
@@ -434,6 +463,17 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Apply all counter-strategies during realistic Kimura attack sequences",
         "description": "Begin from Kimura Trap top position with partner allowed to use any escape including the rolling escape. Practice full defensive methodology: read cues, adjust base, follow roll, transition to back control or re-attack. Include rounds where partner is not allowed to roll to maintain your normal finishing pressure alongside the roll-specific counters."
+      }
+    ],
+    "clips": [
+      {
+        "id": "BV9z8qQgsRQ",
+        "title": "Countering the kimura defense to keep the lock",
+        "by": "Pendergrass Academy of Martial Arts",
+        "vertical": false,
+        "channel": "Pendergrass Academy of Martial Arts",
+        "duration": 119,
+        "verified": "2026-07-15"
       }
     ]
   }

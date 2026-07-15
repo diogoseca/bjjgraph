@@ -342,6 +342,35 @@
         "answer": "The critical control is chest pressure on the trapped arm before and during the grip switch. Your body weight pins their near arm against their own neck so they cannot pull it free. The arm must be loaded against the neck by your chest weight before you release the Kesa Gatame head wrap. During the transition, your forearm threading over their arm and behind their neck mechanically prevents extraction. If you feel the arm starting to slide out during the switch, immediately abandon the arm triangle and re-establish your Kesa Gatame scarf hold grip.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "xz9-FEBFFIo",
+        "title": "Arm Triangle from Scarf Hold Position",
+        "by": "Mat Life Training Center",
+        "vertical": false,
+        "channel": "Mat Life Training Center",
+        "duration": 32,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "tfykooWW-xk",
+        "title": "Triangle Attacks From Kuzure Kesa Gatame",
+        "by": "Chokes And More",
+        "vertical": false,
+        "channel": "Chokes And More",
+        "duration": 66,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "fB7gGDIm1i8",
+        "title": "12 Kesa Gatame Attacks",
+        "by": "Johnny Jitsu",
+        "vertical": false,
+        "channel": "Johnny Jitsu",
+        "duration": 88,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -477,6 +506,35 @@
         "phase": "Phase 4: Live defensive sparring from Kesa Gatame",
         "focus": "Full-speed defense against all attacks from bottom Kesa Gatame including the arm triangle",
         "description": "Partner starts in Kesa Gatame top with full offensive options including arm triangle, americana, and kimura attacks. Defend all attacks with emphasis on near-arm positioning awareness to prevent the arm triangle setup. 5-minute rounds, reset on escape or submission."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Nspz2EAIQ_k",
+        "title": "Arm Triangle Escape",
+        "by": "Crucifix Mike",
+        "vertical": false,
+        "channel": "Crucifix Mike",
+        "duration": 27,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "fvp5_BVEtLg",
+        "title": "Kesa Gatame Pressure Defense with Framing",
+        "by": "Kohbukan Sisu",
+        "vertical": false,
+        "channel": "Kohbukan Sisu",
+        "duration": 84,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "BuTIktWWudo",
+        "title": "How to Escape Arm Triangles",
+        "by": "War Room Jiu Jitsu",
+        "vertical": false,
+        "channel": "War Room Jiu Jitsu",
+        "duration": 129,
+        "verified": "2026-07-14"
       }
     ]
   }

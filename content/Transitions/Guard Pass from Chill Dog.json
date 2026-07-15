@@ -288,7 +288,27 @@
         "answer": "Immediately increase downward pressure through your chest and transition your grip to their near-side hip, preventing the stand-up before it develops momentum. If they begin to rise, snap them back down using a combination of hip pressure and crossface, driving their shoulder back to the mat. If they achieve a partial stand-up, transition to a body lock around their waist or a front headlock to maintain control. The worst response is releasing pressure and trying to re-establish turtle top, as this gives them space to complete the stand-up."
       }
     ],
-    "safety_considerations": "This technique involves significant pressure on the opponent's spine and neck during the flattening and crossface phases. Apply crossface pressure gradually during drilling and avoid cranking the neck laterally. The flattening drive should be controlled to prevent knee-on-spine compression injuries. During training, communicate with your partner about pressure levels and ensure they can breathe throughout. In competition, control the transition speed to avoid injury. Partners with cervical spine issues should work this technique at reduced intensity."
+    "safety_considerations": "This technique involves significant pressure on the opponent's spine and neck during the flattening and crossface phases. Apply crossface pressure gradually during drilling and avoid cranking the neck laterally. The flattening drive should be controlled to prevent knee-on-spine compression injuries. During training, communicate with your partner about pressure levels and ensure they can breathe throughout. In competition, control the transition speed to avoid injury. Partners with cervical spine issues should work this technique at reduced intensity.",
+    "clips": [
+      {
+        "id": "CkX_FzPFw8M",
+        "title": "Passing off the defensive roll",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 111,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "6_4uK_c0-cI",
+        "title": "Cross knee pass, preventing the turtle",
+        "by": "Inverted Gear",
+        "vertical": false,
+        "channel": "Inverted Gear",
+        "duration": 79,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Guard Pass from Chill Dog Defender",
@@ -414,6 +434,26 @@
         "phase": "Phase 4: Competition Scenarios",
         "focus": "Full resistance defense and counter-attack",
         "description": "Start every round in Chill Dog bottom against full resistance pass attempts. Defender scores for maintaining Chill Dog for 30 seconds, recovering guard, or standing up. Attacker scores for completing the pass to side control. Develop realistic timing, decision-making, and composure under competitive pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "hP7EmS47l0E",
+        "title": "Turtle guard retention basics (no-gi)",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 116,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "wzmVwFDmx8I",
+        "title": "Defending a pressure guard pass",
+        "by": "Karel Pravec",
+        "vertical": false,
+        "channel": "SilverFoxBJJ",
+        "duration": 174,
+        "verified": "2026-07-15"
       }
     ]
   }

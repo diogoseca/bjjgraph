@@ -419,6 +419,26 @@
         "question": "How do you manage energy expenditure while maintaining truck position?",
         "answer": "Use skeletal structure rather than muscular effort by positioning your body weight to create pressure without constant tension. Maintain boot pressure through leg positioning rather than pushing. Work submissions methodically rather than frantically. Let the opponent's defensive reactions guide your attacks rather than forcing entries. Rest in control moments between attack sequences."
       }
+    ],
+    "clips": [
+      {
+        "id": "sCBGkcJCQYY",
+        "title": "The truck in transition",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Y693ZHlCd2Q",
+        "title": "Two entries into the truck",
+        "by": "Geo Martinez",
+        "vertical": false,
+        "channel": "FloGrappling",
+        "duration": 100,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -749,6 +769,26 @@
         "question": "What body positioning minimizes your vulnerability while in truck bottom?",
         "answer": "Optimal positioning includes: hips elevated off the mat rather than flattened, chin tucked with hands near neck for defense, free leg posted for base and potential bridging, torso not fully twisted (resist rotation), and weight distributed between your base hand and free leg. Avoid complete flattening as this gives opponent the stable platform needed for finishing."
       }
+    ],
+    "clips": [
+      {
+        "id": "LA-AdwNMGvc",
+        "title": "Truck back take vs babybridge defense",
+        "by": "Wim Deputter",
+        "vertical": false,
+        "channel": "Wim Deputter BJJ",
+        "duration": 162,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "WEpVDP7MRpo",
+        "title": "Defending the rolling back take (truck roll)",
+        "by": "Brian Glick",
+        "vertical": false,
+        "channel": "Brian Glick",
+        "duration": 209,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -783,6 +823,35 @@
     {
       "question": "Which positions does the truck flow between, and what mechanical link drives each connection?",
       "answer": "On the entry side the turtle and crab ride feed the truck because each presents an exposed back and an accessible leg to entangle in the figure-four. On the exit side back control is the standard fallback: when the boot is cleared or the leg entanglement is lost, the perpendicular angle squares back up and the hooks go in. The twister control is the primary submission destination once torso rotation is loaded. Understanding these neighbors matters because the truck is inherently unstable and constantly threatens to convert into or out of them as the boot-hip and rotation battles shift."
+    }
+  ],
+  "clips": [
+    {
+      "id": "ZVAmQ2Sf-Fc",
+      "title": "Focusing on the truck",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "Eddie Bravo",
+      "duration": 60,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "sCBGkcJCQYY",
+      "title": "The truck in transition",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "Eddie Bravo",
+      "duration": 61,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "Y693ZHlCd2Q",
+      "title": "Two entries into the truck",
+      "by": "Geo Martinez",
+      "vertical": false,
+      "channel": "FloGrappling",
+      "duration": 100,
+      "verified": "2026-07-14"
     }
   ]
 }

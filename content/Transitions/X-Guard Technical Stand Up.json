@@ -280,7 +280,27 @@
         "answer": "Upon reaching standing with the opponent's leg controlled, immediately attack with a single leg finish by driving forward and angling to the outside, or transition to an ankle pick on the free leg if they post their far foot to defend. If the opponent sits to guard, maintain your grip advantage and begin a standing guard pass sequence. The key principle is never pausing at standing. Having a predetermined follow-up eliminates the dead time window where opponents recover their positioning and grips."
       }
     ],
-    "safety_considerations": "The X-Guard Technical Stand Up is a low-risk transition with no joint locks or chokes involved. The primary safety concern is maintaining balance during the stand-up phase to prevent awkward falls onto the training partner. Practitioners should avoid slamming or dropping weight onto the opponent's legs when standing, and the bottom player should release hooks cleanly if the top player begins to lose balance to prevent knee or ankle injuries. When drilling, ensure adequate mat space behind the bottom player for safe posting. During live sparring, be mindful of surrounding pairs when transitioning to standing."
+    "safety_considerations": "The X-Guard Technical Stand Up is a low-risk transition with no joint locks or chokes involved. The primary safety concern is maintaining balance during the stand-up phase to prevent awkward falls onto the training partner. Practitioners should avoid slamming or dropping weight onto the opponent's legs when standing, and the bottom player should release hooks cleanly if the top player begins to lose balance to prevent knee or ankle injuries. When drilling, ensure adequate mat space behind the bottom player for safe posting. During live sparring, be mindful of surrounding pairs when transitioning to standing.",
+    "clips": [
+      {
+        "id": "zfKTZUtT7ec",
+        "title": "X guard to technical stand up sweep",
+        "by": "Sdotbell",
+        "vertical": false,
+        "channel": "Sdotbell MMA (SdotbellMMA)",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uN_h80PhmkY",
+        "title": "X-guard to technical stand up to back take",
+        "by": "Aibar Orazaly",
+        "vertical": false,
+        "channel": "Aibar Orazaly",
+        "duration": 10,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "X-Guard Technical Stand Up Defender",
@@ -401,6 +421,26 @@
         "phase": "Phase 4: Counter-Offense Integration",
         "focus": "Punishing failed stand-up attempts with guard passing",
         "description": "When partner's stand-up attempt fails, immediately transition to guard passing attacks rather than resetting to neutral. Build the habit of capitalizing on the momentary hook disruption caused by the failed stand-up, creating a deterrent effect that makes the opponent less willing to attempt the technique in live rolling."
+      }
+    ],
+    "clips": [
+      {
+        "id": "e2KVHXnSh_o",
+        "title": "Countering single leg X with a heel hook",
+        "by": "Charles Allan Price",
+        "vertical": false,
+        "channel": "Charles Allan Price",
+        "duration": 75,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "gwEmeb9RSk4",
+        "title": "Single leg X guard sweep defense",
+        "by": "Tiger Muay Thai coach",
+        "vertical": false,
+        "channel": "Tiger Muay Thai and MMA Training Camp, Phuket, Thailand",
+        "duration": 227,
+        "verified": "2026-07-15"
       }
     ]
   }

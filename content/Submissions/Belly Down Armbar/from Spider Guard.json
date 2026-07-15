@@ -305,6 +305,26 @@
         "question": "In competition, your opponent is defending by gripping their own hands together to prevent arm extension - how do you break this grip and finish?",
         "answer": "From the belly-down position, use progressive hip pressure against the joined arms to fatigue the grip. You can also walk your hands down to their wrist and peel fingers individually, or create a lever by pulling their wrist laterally while maintaining hip pressure to separate the hands. Another competition-proven method is to squeeze your knees tighter and slowly extend your hips in micro-increments, which gradually overcomes static grip strength through sustained mechanical advantage."
       }
+    ],
+    "clips": [
+      {
+        "id": "M6B2-c6cyog",
+        "title": "From Spider Guard to Arm Bar",
+        "by": "Thamires Acquino",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 221,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Rle6wKSOeEA",
+        "title": "Quick Armbar from the Shin Trap",
+        "by": "Langaker BJJ",
+        "vertical": false,
+        "channel": "LangakerBjj",
+        "duration": 98,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -422,6 +442,17 @@
         "phase": "Phase 3: Late-Stage Escape and Safety",
         "focus": "Stacking defense, scramble creation, and knowing when to tap",
         "description": "Start from progressively later defensive positions: leg already crossing over, arm already trapped, and rotation in progress. Practice stacking forward, bridging into the attacker, and grip defense. Critically, practice recognizing when the belly-down position is fully locked and tapping immediately rather than fighting a losing position."
+      }
+    ],
+    "clips": [
+      {
+        "id": "GOzoDB10XkY",
+        "title": "Lasso & Spider Guard Defense",
+        "by": "Binder BJJ",
+        "vertical": false,
+        "channel": "Binder Brazilian Jiu Jitsu",
+        "duration": 245,
+        "verified": "2026-07-14"
       }
     ]
   }

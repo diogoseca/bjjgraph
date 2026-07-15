@@ -397,6 +397,26 @@
         "answer": "Throughout the finish, maintain: (1) tight lockdown with constant squeeze - never relax leg pressure even during final extension, (2) underhook control pulling opponent's weight forward to prevent posture recovery, (3) control or monitoring of opponent's posting arm to prevent base establishment, (4) hip-to-hip connection through your inversion angle to maintain leverage, and (5) continuous pressure application without gaps that allow defensive reset. Loss of any single control point can enable escape even at maximum extension, so all controls must work in concert through the finish.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "O18n2Z5HISI",
+        "title": "Electric Chair from Deep Half",
+        "by": "Heart & Dagger BJJ",
+        "vertical": false,
+        "channel": "Heart & Dagger  BJJ - Mineral Wells Jiu Jitsu",
+        "duration": 43,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "sMbaY4vG2mM",
+        "title": "Electric Chair from Lockdown Half Guard",
+        "by": "Brandon Mccaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 42,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -539,6 +559,17 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Applying complete defensive toolkit against live Electric Chair attempts",
         "description": "Positional sparring starting from lockdown with partner working full Electric Chair game. Defender applies complete defensive progression: early prevention, mid-stage resistance, scramble transitions, and safe tapping. Track success rate across defensive windows to identify which stages need additional drilling. Integrate into rolling sessions with partner using lockdown as primary offensive platform."
+      }
+    ],
+    "clips": [
+      {
+        "id": "3A6oRsDf3oU",
+        "title": "Lockdown and Electric Chair counters and escapes",
+        "by": "Street Jitsu",
+        "vertical": false,
+        "channel": "Street Jitsu",
+        "duration": 286,
+        "verified": "2026-07-14"
       }
     ]
   },

@@ -296,7 +296,27 @@
         "answer": "As the sweep reaches its apex and the opponent begins falling, drive your chest forward over their centerline while keeping your hips tight to theirs. Your lead shoulder should cross their midline before their back reaches the mat, establishing inside position. Immediately release the lapel thread and transition to cross-face control or collar grip while settling your hips heavy on their solar plexus to prevent any immediate escape attempts."
       }
     ],
-    "safety_considerations": "The Piranha Guard Sweep carries moderate injury risk primarily through uncontrolled lapel tension that can cause neck strain or cervical compression on the top player. Partners should communicate clearly about lapel tension levels and the bottom player must release grips immediately if the top player signals discomfort. The sweep itself can cause the top player to fall awkwardly if executed with excessive force, so controlled drilling with graduated resistance is essential before live application. Be particularly cautious of finger injuries from deep lapel grips during extended training sessions and consider taping fingers preventively when drilling high volumes."
+    "safety_considerations": "The Piranha Guard Sweep carries moderate injury risk primarily through uncontrolled lapel tension that can cause neck strain or cervical compression on the top player. Partners should communicate clearly about lapel tension levels and the bottom player must release grips immediately if the top player signals discomfort. The sweep itself can cause the top player to fall awkwardly if executed with excessive force, so controlled drilling with graduated resistance is essential before live application. Be particularly cautious of finger injuries from deep lapel grips during extended training sessions and consider taping fingers preventively when drilling high volumes.",
+    "clips": [
+      {
+        "id": "DYLeL6H4g6g",
+        "title": "Half guard lapel sweep",
+        "by": "Brazilian Top Team Happy Valley",
+        "vertical": false,
+        "channel": "Brazilian Top Team Happy Valley ",
+        "duration": 77,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "-epOGEtHwSI",
+        "title": "Half guard lapel sweep, walk around finish",
+        "by": "Brazilian Top Team Happy Valley",
+        "vertical": false,
+        "channel": "Brazilian Top Team Happy Valley ",
+        "duration": 137,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Piranha Guard Sweep Defender",
@@ -421,6 +441,17 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Competition-intensity defensive sparring from Piranha Guard top",
         "description": "Full-speed positional sparring starting in Piranha Guard with defender working to neutralize sweeps and pass the guard. Track success rate across rounds and analyze which defensive responses consistently lead to the best passing outcomes and position recovery."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Mw9e-xftPcY",
+        "title": "Dealing with the lapel feed in half guard",
+        "by": "Inverted Gear",
+        "vertical": false,
+        "channel": "Inverted Gear",
+        "duration": 92,
+        "verified": "2026-07-15"
       }
     ]
   }

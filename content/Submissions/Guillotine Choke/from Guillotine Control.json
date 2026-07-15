@@ -378,6 +378,35 @@
         "answer": "The Von Flue choke occurs when the top player drives their shoulder into the side of your neck while you maintain the guillotine grip, using your own arm as a compression point against yourself. Warning signs include: opponent passing to side control while you hold the guillotine, heavy shoulder pressure building on the side of your neck opposite the choking arm, and increasing pressure on your own carotid from the trapped arm. If you feel shoulder-to-neck pressure building, release the guillotine immediately, re-frame to create space, and recover guard before re-attacking.",
         "safety_critical": true
       }
+    ],
+    "clips": [
+      {
+        "id": "NUnTxPvjCa0",
+        "title": "The Marcelotine high-elbow guillotine",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "stuartcooperfilms",
+        "duration": 73,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "-wLHOB-KlGE",
+        "title": "Arm-in guillotine to high wrist",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "pico",
+        "duration": 17,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "SKjFomPMar0",
+        "title": "Arm-in guillotine vs double leg",
+        "by": "Everythingbjj",
+        "vertical": false,
+        "channel": "Everythingbjj",
+        "duration": 70,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -520,6 +549,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Applying defensive skills under full competition intensity",
         "description": "Start from established guillotine control. Defender succeeds by escaping to neutral or dominant position. Attacker succeeds by submission. Full intensity with emphasis on recognizing when to commit to escape versus when to tap. 2-minute rounds, 6-8 rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "8okq4cIHMO0",
+        "title": "Standing guillotine escape",
+        "by": "dogtownman",
+        "vertical": false,
+        "channel": "dogtownman",
+        "duration": 44,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "OQYU2BXdEEw",
+        "title": "Guillotine choke defense",
+        "by": "Todd Hendrickson",
+        "vertical": false,
+        "channel": "Todd Hendrickson Jiu Jitsu",
+        "duration": 51,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "lvjRNWzKMPc",
+        "title": "Guillotine escape to side control",
+        "by": "Street Jitsu",
+        "vertical": false,
+        "channel": "Street Jitsu",
+        "duration": 27,
+        "verified": "2026-07-14"
       }
     ]
   }

@@ -301,7 +301,36 @@
         "answer": "The primary chain attack when the near arm is tucked is the Darce choke setup, which threads from the opposite direction to trap their far arm instead. Secondary options include transitioning to a guillotine if they lift their head to create space, or circling to their back if they over-commit to defending the front headlock. The key is recognizing which arm becomes available based on their defensive reaction and flowing to the appropriate attack rather than forcing the anaconda."
       }
     ],
-    "safety_considerations": "The anaconda setup itself is relatively safe compared to the finishing mechanics of the choke. However, practitioners should be aware of several safety considerations. When drilling, ensure your partner can tap easily with their free hand - never trap both arms during training. Be mindful of neck cranking pressure when securing the position; the goal is a blood choke, not a neck crank. Partners with neck injuries should communicate this before drilling front headlock positions. When your opponent rolls through during the setup, control the speed of the roll to prevent neck strain or whiplash-type movements. In live training, if you feel excessive pressure on your neck rather than the carotid arteries, tap immediately and communicate this to your partner. The setup phase allows more time for communication than the finish, so use this time to ensure proper technique that targets the blood flow rather than the cervical spine. Beginners should focus on control and positioning rather than speed and power when learning this setup to develop safe habits that carry over to advanced training."
+    "safety_considerations": "The anaconda setup itself is relatively safe compared to the finishing mechanics of the choke. However, practitioners should be aware of several safety considerations. When drilling, ensure your partner can tap easily with their free hand - never trap both arms during training. Be mindful of neck cranking pressure when securing the position; the goal is a blood choke, not a neck crank. Partners with neck injuries should communicate this before drilling front headlock positions. When your opponent rolls through during the setup, control the speed of the roll to prevent neck strain or whiplash-type movements. In live training, if you feel excessive pressure on your neck rather than the carotid arteries, tap immediately and communicate this to your partner. The setup phase allows more time for communication than the finish, so use this time to ensure proper technique that targets the blood flow rather than the cervical spine. Beginners should focus on control and positioning rather than speed and power when learning this setup to develop safe habits that carry over to advanced training.",
+    "clips": [
+      {
+        "id": "RbkOnRb2lvA",
+        "title": "Anaconda choke setup and finish",
+        "by": "Ninja Pinto",
+        "vertical": false,
+        "channel": "Ninja Pinto BJJ",
+        "duration": 49,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "6d6Wkgh9imU",
+        "title": "Anaconda choke vs d'arce choke setup difference",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 67,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "oUib2H2bOMQ",
+        "title": "Basic anaconda choke setup",
+        "by": "Caleb McAllister",
+        "vertical": false,
+        "channel": "Caleb McAllister",
+        "duration": 102,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Anaconda Setup Defender",
@@ -434,6 +463,35 @@
         "phase": "Week 9-12: Live Application and Chain Defense",
         "focus": "Defending against full front headlock systems including anaconda/Darce/guillotine chains",
         "description": "Full resistance positional sparring from turtle where the attacker can use any front headlock attack. Practice recognizing which specific attack is being set up and applying the appropriate defense. Work on transitioning between defensive responses as the attacker switches between anaconda, Darce, and guillotine. Track escape success rate and identify which transitions give you the most difficulty."
+      }
+    ],
+    "clips": [
+      {
+        "id": "s94GexEkoQ0",
+        "title": "Anaconda choke defense and counter",
+        "by": "Cyril Robert",
+        "vertical": false,
+        "channel": "Cyril Robert MMA",
+        "duration": 43,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "J-MaOIfDHXk",
+        "title": "Standing front headlock choke defense",
+        "by": "Empower Gym Tampa",
+        "vertical": false,
+        "channel": "Empower Gym Tampa",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "F_cW7ETcTPg",
+        "title": "Sucker drag and peek out counters to front headlock",
+        "by": "Black and Gold MMA",
+        "vertical": false,
+        "channel": "Black and Gold MMA",
+        "duration": 103,
+        "verified": "2026-07-15"
       }
     ]
   },

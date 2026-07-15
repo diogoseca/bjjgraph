@@ -283,7 +283,36 @@
         "answer": "Attack the weakest point of their grip by peeling the top hand's fingers, starting with the pinky side. Alternatively, use a two-on-one configuration on their wrist to create a lever advantage. If direct grip breaking fails, insert your hand between their clasped hands to wedge them apart, or threaten a wristlock on the gripped configuration to force them to release voluntarily."
       }
     ],
-    "safety_considerations": "Practice this transition with controlled movement rather than explosive rotation to protect training partners. The standing-to-ground transition can generate significant momentum that stresses the elbow joint unexpectedly. Partners should communicate clearly and tap early when the armbar is secured. When finishing, extend hips gradually rather than explosively to allow time for the tap. Avoid this technique on partners with existing elbow injuries. In drilling, stop at the position before applying full extension pressure. The rotation component requires adequate mat space - ensure training area is clear before practicing standing variations."
+    "safety_considerations": "Practice this transition with controlled movement rather than explosive rotation to protect training partners. The standing-to-ground transition can generate significant momentum that stresses the elbow joint unexpectedly. Partners should communicate clearly and tap early when the armbar is secured. When finishing, extend hips gradually rather than explosively to allow time for the tap. Avoid this technique on partners with existing elbow injuries. In drilling, stop at the position before applying full extension pressure. The rotation component requires adequate mat space - ensure training area is clear before practicing standing variations.",
+    "clips": [
+      {
+        "id": "nsLJ8AiGZ5A",
+        "title": "Rolling armbar from back mount",
+        "by": "Hammer Jiu-Jitsu",
+        "vertical": false,
+        "channel": "American Top Team - Palm Beach Gardens",
+        "duration": 40,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "jf1kPefTmm0",
+        "title": "Armbar from the back variation",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 80,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fPV5aCm4uIE",
+        "title": "Armbar from the back off the RNC threat",
+        "by": "CholoMMA",
+        "vertical": false,
+        "channel": "CholoMMA",
+        "duration": 39,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Armbar from Back Transition Defender",
@@ -419,6 +448,17 @@
         "phase": "Week 7+",
         "focus": "Live positional defense",
         "description": "Full resistance positional sparring starting from standing back control. Defend both choke and armbar threats simultaneously. Focus on reading the attacker's intent through tactile cues and selecting the appropriate defensive response under pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "Armbar escape when they are close to finishing",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "verified": "2026-07-15"
       }
     ]
   },

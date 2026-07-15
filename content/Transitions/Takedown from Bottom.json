@@ -301,7 +301,36 @@
         "answer": "Target the lead leg with a low single leg attack rather than attempting a double leg, which requires reaching the far leg across a wide stance. Snap down on their head to shift weight to the front foot, then change levels and attack the exposed lead leg by dropping to your near knee and cupping behind their ankle. Alternatively, use an inside trip on the lead leg by hooking your foot behind their ankle while driving chest pressure forward through their shoulder to topple them over the hooked point."
       }
     ],
-    "safety_considerations": "Takedown drilling requires controlled environments with properly padded mats and attentive training partners. The level change and penetration step place significant stress on the knees, particularly the lead knee that contacts the mat during the shot. Always warm up thoroughly with dynamic hip, knee, and ankle mobility exercises before takedown practice. Never drive an opponent directly onto their head or neck during the finish - lateral pressure finishes are both more effective and safer. In training, release immediately if your partner signals discomfort or lands awkwardly, and communicate speed and intensity expectations before live rounds begin."
+    "safety_considerations": "Takedown drilling requires controlled environments with properly padded mats and attentive training partners. The level change and penetration step place significant stress on the knees, particularly the lead knee that contacts the mat during the shot. Always warm up thoroughly with dynamic hip, knee, and ankle mobility exercises before takedown practice. Never drive an opponent directly onto their head or neck during the finish - lateral pressure finishes are both more effective and safer. In training, release immediately if your partner signals discomfort or lands awkwardly, and communicate speed and intensity expectations before live rounds begin.",
+    "clips": [
+      {
+        "id": "1Rb48sPwpqY",
+        "title": "Takedown from bottom position",
+        "by": "Nicky Rodriguez",
+        "vertical": false,
+        "channel": "Michael Wong",
+        "duration": 88,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "sq8osxjmpr8",
+        "title": "Wrestle Up from guard",
+        "by": "Nicky Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 22,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "s6ml_dZDWow",
+        "title": "Steer the Bus to set up takedowns",
+        "by": "Ryan Deakin",
+        "vertical": false,
+        "channel": "FANATIC WRESTLING",
+        "duration": 87,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Takedown from Bottom Defender",
@@ -426,6 +455,17 @@
         "phase": "Phase 4: Live Standing Defense Rounds",
         "focus": "Full application under competition intensity conditions",
         "description": "Stand-up sparring rounds where one partner focuses exclusively on takedowns while the other practices defense only. Score successful takedowns versus successful defenses to track improvement rate over time. Integrate all defensive tools including sprawl, guard pull, whizzer, and counter-offensive responses into flowing exchanges."
+      }
+    ],
+    "clips": [
+      {
+        "id": "LiRrlPGboK8",
+        "title": "Sprawl technique to stop the takedown",
+        "by": "Jordan Burroughs",
+        "vertical": false,
+        "channel": "CreightonWrestling",
+        "duration": 122,
+        "verified": "2026-07-15"
       }
     ]
   }

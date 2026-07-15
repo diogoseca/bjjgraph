@@ -333,6 +333,35 @@
         "answer": "When the opponent extends their arm to prevent the figure-four grip from connecting, immediately control the straightened arm at the wrist with your near hand. Swing your far leg over their head while maintaining wrist control, then sit back into the armbar position. The key is recognizing the arm extension as an opportunity rather than a setback—their defensive reaction to the Kimura creates the mechanical setup the armbar requires.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "d7ucks8aHN0",
+        "title": "Transition from Kesa Gatame to Kimura",
+        "by": "Strong Hold Jiu Jitsu",
+        "vertical": false,
+        "channel": "Strong Hold Jiu Jitsu",
+        "duration": 71,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "u80GDGC1Yno",
+        "title": "Kimura from Scarf Hold",
+        "by": "Julie Bond",
+        "vertical": false,
+        "channel": "Julie Bond",
+        "duration": 35,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "-RyLUQSZZ1s",
+        "title": "Kimura from Kesa",
+        "by": "Vernon Kirk",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 92,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -451,6 +480,35 @@
         "phase": "Live Defensive Sparring",
         "focus": "Full resistance defense and safe tapping",
         "description": "Start in Kuzure Kesa-Gatame bottom with partner pursuing the Kimura at full resistance. Practice all defensive options including prevention, grip fighting, guard recovery, and recognizing when to tap safely. Track escape success rate and identify technical gaps."
+      }
+    ],
+    "clips": [
+      {
+        "id": "2M_6VytUaus",
+        "title": "Kesa Gatame Escape",
+        "by": "SBG Australia",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 43,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "-zFQ6h4yKT4",
+        "title": "Kuzure-kesa-gatame Escapes",
+        "by": "Kodokan",
+        "vertical": false,
+        "channel": "KODOKAN",
+        "duration": 70,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "_HjmunOXVtY",
+        "title": "Kuzure Kesa Gatame Escapes",
+        "by": "Utah Shudokan",
+        "vertical": false,
+        "channel": "Utah Shudokan USA",
+        "duration": 70,
+        "verified": "2026-07-14"
       }
     ]
   }

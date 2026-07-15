@@ -261,7 +261,36 @@
         "answer": "The primary force direction is rotational through your hips, not vertical with your leg. Your hip drives the leg laterally across the opponent's arm using a scooping arc that keeps contact with their body throughout. Vertical lifting separates you from the opponent and creates space. Think of the motion as rotating your pelvis to slide your shin across their bicep, maintaining constant downward chest pressure throughout the rotation."
       }
     ],
-    "safety_considerations": "The Mounted Crucifix Entry is generally safe when practiced with proper control and communication. Primary injury risks involve the trapped arms - avoid cranking or twisting arms during leg threading as this can strain shoulders or elbows. The bottom practitioner should tap immediately if shoulder pressure becomes excessive before crucifix is established. Partners should establish clear tap signals before drilling, as verbal taps may be muffled during position transitions. When drilling at higher intensities, ensure the receiving partner can absorb the weight transfer without cervical spine compression. Avoid explosive entries on partners with existing shoulder injuries. Always release control immediately upon tap."
+    "safety_considerations": "The Mounted Crucifix Entry is generally safe when practiced with proper control and communication. Primary injury risks involve the trapped arms - avoid cranking or twisting arms during leg threading as this can strain shoulders or elbows. The bottom practitioner should tap immediately if shoulder pressure becomes excessive before crucifix is established. Partners should establish clear tap signals before drilling, as verbal taps may be muffled during position transitions. When drilling at higher intensities, ensure the receiving partner can absorb the weight transfer without cervical spine compression. Avoid explosive entries on partners with existing shoulder injuries. Always release control immediately upon tap.",
+    "clips": [
+      {
+        "id": "-Vmyjv8-WFw",
+        "title": "Mount to side crucifix with arm attacks",
+        "by": "Evolve MMA",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 76,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uQn6tbgVeGA",
+        "title": "Arm drag entry to the crucifix",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 57,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Q48AWgG50hw",
+        "title": "Mounted crucifix basic instruction",
+        "by": "Matthew Elliott",
+        "vertical": false,
+        "channel": "Matthew Elliott",
+        "duration": 283,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Mounted Crucifix Entry Defender",
@@ -392,6 +421,26 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring from S Mount bottom",
         "description": "Full resistance positional sparring starting from S Mount bottom. Partner attacks freely with armbars, triangles, and crucifix entries. Measure success by time survived and positions recovered to. Develop personal timing for defensive explosions and build confidence in the recognition-response cycle under realistic pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "41koUZWmeHE",
+        "title": "Escaping the mounted crucifix",
+        "by": "Shem Rock",
+        "vertical": false,
+        "channel": "Shem Rock ",
+        "duration": 146,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "m-iTKRTVeeo",
+        "title": "Crucifix escape",
+        "by": "Chosen Few BJJ",
+        "vertical": false,
+        "channel": "Chosen Few BJJ",
+        "duration": 160,
+        "verified": "2026-07-15"
       }
     ]
   },

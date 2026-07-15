@@ -368,6 +368,17 @@
           "nogi": 5
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "XSkn8eAmtJU",
+        "title": "Passing the Lasso with Longstep + Footwork",
+        "by": "Bryce Nie",
+        "vertical": false,
+        "channel": "Bryce Nie",
+        "duration": 150,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -685,6 +696,35 @@
           "nogi": 0
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "ErsvmCAGxnA",
+        "title": "Handling Top Pressure from Lasso Guard",
+        "by": "Mikey Musumeci",
+        "vertical": false,
+        "channel": "Chase Namba",
+        "duration": 78,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "jlhHLWjrvAU",
+        "title": "Lasso to Reverse DLR Sweep & Back Take",
+        "by": "Omran",
+        "vertical": false,
+        "channel": "brazillian jiujitsu with omran",
+        "duration": 16,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "n4ddjzGemrw",
+        "title": "Lasso Guard Variations",
+        "by": "Felipe Costa",
+        "vertical": false,
+        "channel": "Felipe Costa",
+        "duration": 28,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -719,6 +759,35 @@
     {
       "question": "How does inverted lasso guard connect to adjacent guard systems within a broader positional flow?",
       "answer": "It sits inside a family of open guards that share hip orientation and grip logic, so it flows naturally to and from spider guard, standard lasso guard, de la riva, and reverse de la riva rather than existing in isolation. Sweeps generated from it frequently terminate in x-guard or single-leg-x, and the rotational lines feed toward back control. Modern players reach it mid-sequence when an opponent starts passing an upright open guard and cycle back out of it just as readily, using the inversion as one node in a continuous chain. This connectivity is why the position is understood as part of an integrated system, alternately an entry, an exit, and a transient attacking angle."
+    }
+  ],
+  "clips": [
+    {
+      "id": "n4ddjzGemrw",
+      "title": "Lasso Guard Variations Overview",
+      "by": "Felipe Costa",
+      "vertical": false,
+      "channel": "Felipe Costa",
+      "duration": 28,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "ErsvmCAGxnA",
+      "title": "Lasso Guard vs Top Pressure",
+      "by": "Mikey Musumeci",
+      "vertical": false,
+      "channel": "Chase Namba",
+      "duration": 78,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "LwnoWDFJlN0",
+      "title": "Entering Lasso Guard from Open Guard",
+      "by": "Lucas Lepri",
+      "vertical": false,
+      "channel": "Lucas Lepri Brazilian Jiu Jitsu & Fitness",
+      "duration": 44,
+      "verified": "2026-07-14"
     }
   ]
 }

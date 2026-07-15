@@ -276,7 +276,36 @@
         "answer": "If you sense the opponent gaining top position during the rotation, immediately release the anaconda grip and use both hands to establish defensive frames against their chest and shoulders. Pull your elbows tight to your body and work to insert a knee between your bodies for half guard recovery. The priority shifts from offense to defense the moment you lose positional advantage during the roll. Do not continue holding the anaconda grip while being swept, as it compromises your ability to frame and recover. Accept the position loss and reset to half guard rather than fighting a losing battle mid-roll."
       }
     ],
-    "safety_considerations": "The gator roll involves significant rotational force on the neck, spine, and shoulder of the bottom player. Always practice at controlled speed before adding explosive intensity. Partners should establish clear verbal and tactile tap signals before drilling, as the rolling motion can temporarily disorient the bottom player. Avoid explosive rolls with training partners who are significantly lighter, as the momentum differential can cause uncontrolled landings and neck compression. Release the anaconda grip immediately if your partner signals distress at any point during the transition. Be particularly careful when maintaining the anaconda grip through the roll, as the tightening effect of the rotation can produce choking pressure that escalates faster than expected."
+    "safety_considerations": "The gator roll involves significant rotational force on the neck, spine, and shoulder of the bottom player. Always practice at controlled speed before adding explosive intensity. Partners should establish clear verbal and tactile tap signals before drilling, as the rolling motion can temporarily disorient the bottom player. Avoid explosive rolls with training partners who are significantly lighter, as the momentum differential can cause uncontrolled landings and neck compression. Release the anaconda grip immediately if your partner signals distress at any point during the transition. Be particularly careful when maintaining the anaconda grip through the roll, as the tightening effect of the rotation can produce choking pressure that escalates faster than expected.",
+    "clips": [
+      {
+        "id": "DHYmDsncdS8",
+        "title": "Anaconda choke roll and finish",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "forlogosVideos",
+        "duration": 126,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "YLYBOuXKzVQ",
+        "title": "Anaconda choke with the gator roll",
+        "by": "Howcast",
+        "vertical": false,
+        "channel": "Howcast",
+        "duration": 129,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "7dgJ9qVHZkM",
+        "title": "Gator roll into anaconda choke",
+        "by": "Raw Warrior",
+        "vertical": false,
+        "channel": "Raw Warrior",
+        "duration": 116,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Anaconda to Side Control Defender",
@@ -400,6 +429,35 @@
         "phase": "Phase 4: Full Integration with Grip Escape",
         "focus": "Combining roll prevention with anaconda grip escape sequences",
         "description": "Full positional sparring from anaconda control bottom. Defender works to prevent the gator roll, counter-scramble if the roll occurs, and escape the anaconda grip when opportunities arise. Attacker has full option set including gator roll, walk-around, choke finish, and dead orchard transition. 3-minute rounds with full resistance."
+      }
+    ],
+    "clips": [
+      {
+        "id": "N9MbEtAv_Lw",
+        "title": "Anaconda choke defense",
+        "by": "Mamba BJJ",
+        "vertical": false,
+        "channel": "Mamba BJJ",
+        "duration": 62,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Yqz0JQuZGes",
+        "title": "Anaconda defense into americana counter",
+        "by": "Gracie Barra Newcastle City",
+        "vertical": false,
+        "channel": "Gracie Barra Newcastle City",
+        "duration": 40,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "s94GexEkoQ0",
+        "title": "Anaconda choke defense and counter",
+        "by": "Cyril Robert",
+        "vertical": false,
+        "channel": "Cyril Robert MMA",
+        "duration": 43,
+        "verified": "2026-07-15"
       }
     ]
   }

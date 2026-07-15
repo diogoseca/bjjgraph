@@ -319,6 +319,35 @@
         "answer": "From established control, the opponent's defensive window has narrowed considerably. The forward roll, posturing, and arm extraction are their only remaining options, whereas during entry they could have defended the leg threading, blocked the hip switch, or maintained posture before control was established. The control position means you already have the belt grip, perpendicular hip angle, and shin across the back established. The finish is purely about progressive pressure application and counter defense rather than simultaneously securing control and attacking. This is why the finish rate from established control is significantly higher than from entry positions.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "w3_FCkkNQxU",
+        "title": "Omoplata Finish with Far Leg Control",
+        "by": "Clark Gracie",
+        "vertical": false,
+        "channel": "Clark Gracie Allegiance Jiu Jitsu",
+        "duration": 102,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "HCuRfqaM0tM",
+        "title": "Rotating Omoplata Finish (Em Giro)",
+        "by": "Clark Gracie",
+        "vertical": false,
+        "channel": "CIENTISTAS DO JIU JITSU",
+        "duration": 96,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "oQAP8nARiHU",
+        "title": "Omoplata Technique Breakdown",
+        "by": "Clark Gracie",
+        "vertical": false,
+        "channel": "Deep Dive JJ",
+        "duration": 100,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -442,6 +471,35 @@
         "phase": "Phase 4: Full Resistance Positional Sparring",
         "focus": "Defending under competition conditions",
         "description": "Full-resistance positional sparring starting from omoplata control. Defender must escape or survive for 60 seconds. Track escape rate and common failure points. Debrief after each round to analyze what defensive option was appropriate at each moment."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ocIHY3jBYIQ",
+        "title": "Best Way to Escape the Omoplata Shoulder Lock",
+        "by": "John Connors",
+        "vertical": false,
+        "channel": "John Connors, Old Man BJJ Black Belt",
+        "duration": 62,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "jDbywpDs3Tw",
+        "title": "Preventing the Hand Moving to the Other Side",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 129,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "HszTUEYJ-xE",
+        "title": "Quick Omoplata Escape",
+        "by": "Adam Bradley",
+        "vertical": false,
+        "channel": "Adam Bradley",
+        "duration": 36,
+        "verified": "2026-07-14"
       }
     ]
   }

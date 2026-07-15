@@ -288,7 +288,18 @@
         "answer": "The counter sweep changes the game theory of leg lock exchanges by punishing opponents who sacrifice positional control for submission attempts. When an opponent knows you have a reliable counter sweep, they must maintain better upper body control and base during their leg attacks, which directly reduces their finishing effectiveness. This creates a meta-game advantage where your sweep threat forces the opponent into a dilemma between optimizing their leg attack mechanics (which opens the sweep) and maintaining defensive base (which reduces their submission percentage). The deterrent effect is often more valuable than the sweep itself."
       }
     ],
-    "safety_considerations": "The counter sweep from leg entanglement involves significant forces applied through the lower body while legs are intertwined. Always ensure controlled execution during training to avoid hyperextension of the knee or ankle during the sweeping motion. When your legs are entangled and force is applied through the sweep, rotational stress on the knee is possible if the entanglement does not release cleanly. Communicate with training partners before drilling and use progressive resistance. Tap immediately if you feel unexpected pressure on any joint during the sweep attempt. Be especially cautious when combining the sweep with existing heel hook or toe hold pressure on your leg."
+    "safety_considerations": "The counter sweep from leg entanglement involves significant forces applied through the lower body while legs are intertwined. Always ensure controlled execution during training to avoid hyperextension of the knee or ankle during the sweeping motion. When your legs are entangled and force is applied through the sweep, rotational stress on the knee is possible if the entanglement does not release cleanly. Communicate with training partners before drilling and use progressive resistance. Tap immediately if you feel unexpected pressure on any joint during the sweep attempt. Be especially cautious when combining the sweep with existing heel hook or toe hold pressure on your leg.",
+    "clips": [
+      {
+        "id": "MqtG9kuVt-Q",
+        "title": "Roll-through escape out of the leg entanglement",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 103,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Counter Sweep from Leg Entanglement Defender",
@@ -405,6 +416,35 @@
         "phase": "Phase 4: Full Integration",
         "focus": "Complete leg attack with sweep defense integration",
         "description": "Full-resistance positional sparring where you attack legs while partner has the option to counter sweep at any time. Develop the ability to maintain offensive pressure while keeping defensive awareness of sweep threats throughout extended leg lock exchanges."
+      }
+    ],
+    "clips": [
+      {
+        "id": "L417yCl_-dc",
+        "title": "Leg defense from ashi garami",
+        "by": "The Coop BJJ",
+        "vertical": false,
+        "channel": "The Coop BJJ",
+        "duration": 48,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QMgsMSTRSBI",
+        "title": "Five leglock counters to ashi garami",
+        "by": "BJJBlackBeltDad",
+        "vertical": false,
+        "channel": "BJJBlackBeltDad",
+        "duration": 93,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "R7lPdQWLOus",
+        "title": "50/50 defense: protecting your leg",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "The Grapplers Guide by Jason Scully",
+        "duration": 161,
+        "verified": "2026-07-15"
       }
     ]
   }

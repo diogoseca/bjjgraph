@@ -279,7 +279,36 @@
         "answer": "The knee torque sweep creates a dilemma system with other half guard attacks. If the opponent defends by posting an arm, transition to kimura on the posted limb. If they defend by driving forward with crossface, use their momentum to enter deep half guard underneath them. If they sprawl their hips back, come up to dogfight position using the underhook. Each defensive response opens a different offensive pathway, making the sweep valuable even when it does not directly succeed."
       }
     ],
-    "safety_considerations": "The Knee Torque Sweep involves applying rotational force to the opponent's knee joint, which can stress the medial collateral ligament and meniscus if applied with excessive force or speed. Always apply the torque gradually and with control during training, increasing pressure progressively rather than explosively. If your partner indicates any discomfort in their knee, release pressure immediately. In competition, be aware that explosive application of rotational knee force may cause injury before the opponent can signal distress. Partners with prior knee injuries should communicate limitations before drilling this technique."
+    "safety_considerations": "The Knee Torque Sweep involves applying rotational force to the opponent's knee joint, which can stress the medial collateral ligament and meniscus if applied with excessive force or speed. Always apply the torque gradually and with control during training, increasing pressure progressively rather than explosively. If your partner indicates any discomfort in their knee, release pressure immediately. In competition, be aware that explosive application of rotational knee force may cause injury before the opponent can signal distress. Partners with prior knee injuries should communicate limitations before drilling this technique.",
+    "clips": [
+      {
+        "id": "LEwtCvRTxl0",
+        "title": "Half Guard Knee Torque Sweep",
+        "by": "The Jiu-Jitsu Foundry",
+        "vertical": false,
+        "channel": "The Jiu-Jitsu Foundry",
+        "duration": 21,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "OWZlH8G8-0g",
+        "title": "Knee Twist Half Guard Sweep (No-Gi)",
+        "by": "Rituals Jiu Jitsu",
+        "vertical": false,
+        "channel": "Rituals Jiu Jitsu",
+        "duration": 153,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "llsV9Gn_usg",
+        "title": "Octopus Half Guard Sweep",
+        "by": "The Fight Site",
+        "vertical": false,
+        "channel": "The Fight Site",
+        "duration": 61,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Knee Torque Sweep Defender",

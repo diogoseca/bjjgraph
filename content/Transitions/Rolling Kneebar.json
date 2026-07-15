@@ -276,7 +276,36 @@
         "answer": "You must roll toward and underneath the trapped leg, not away from it. Rolling toward the leg keeps your body path tight to their base, maintains the hook connection throughout rotation, and ensures your hips end up positioned directly over their knee joint at completion. Rolling the wrong direction creates separation and allows easy extraction."
       }
     ],
-    "safety_considerations": "The Rolling Kneebar attacks the knee joint, which has limited range of motion and no pain warning before injury occurs. Always apply pressure gradually and progressively, never explosively. Partners must tap early when hyperextension begins - the knee can be damaged before significant pain is felt. During training, communicate clearly before drilling and establish tap protocols. Avoid this technique if either partner has existing knee injuries. The rolling motion can also cause shoulder and neck strain if executed incorrectly - ensure proper technique before adding resistance. In competition, be prepared to release immediately upon tap as the position makes verbal taps difficult to hear."
+    "safety_considerations": "The Rolling Kneebar attacks the knee joint, which has limited range of motion and no pain warning before injury occurs. Always apply pressure gradually and progressively, never explosively. Partners must tap early when hyperextension begins - the knee can be damaged before significant pain is felt. During training, communicate clearly before drilling and establish tap protocols. Avoid this technique if either partner has existing knee injuries. The rolling motion can also cause shoulder and neck strain if executed incorrectly - ensure proper technique before adding resistance. In competition, be prepared to release immediately upon tap as the position makes verbal taps difficult to hear.",
+    "clips": [
+      {
+        "id": "v4lhLkKgVvU",
+        "title": "Go-behind kneebar entry",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 129,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uB23Ogno7DM",
+        "title": "Half guard to kneebar",
+        "by": "CholoMMA",
+        "vertical": false,
+        "channel": "CholoMMA",
+        "duration": 24,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "12rNXPlqVXo",
+        "title": "No-gi kneebar technique",
+        "by": "Jiu Jitsu Matrix",
+        "vertical": false,
+        "channel": "FreeChannelOpen",
+        "duration": 20,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Rolling Kneebar Defender",
@@ -407,6 +436,35 @@
         "phase": "Week 7+",
         "focus": "Live integration with grasshopper passing",
         "description": "Full resistance sparring starting with partner in grasshopper guard. Integrate rolling kneebar defense into your complete guard passing strategy. Develop the ability to recognize and defend rolling kneebar attempts while maintaining offensive passing pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "wBRG0fY94fs",
+        "title": "How to defend the kneebar and stop the backstep",
+        "by": "Andrew Smith",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 59,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "NuWBh3LN-SY",
+        "title": "Kneebar defense into taking the back",
+        "by": "Bicudo BJJ",
+        "vertical": false,
+        "channel": "Bicudo BJJ",
+        "duration": 22,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "kUuJ03CcIUQ",
+        "title": "Kneebar defense against Garry Tonon",
+        "by": "AJ Agazarm",
+        "vertical": false,
+        "channel": "FloGrappling",
+        "duration": 23,
+        "verified": "2026-07-15"
       }
     ]
   },

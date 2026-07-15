@@ -300,7 +300,27 @@
         "answer": "The backstep must follow the natural rotation of the entanglement, stepping in the direction that allows the smoothest leg extraction. Backstepping against the entanglement geometry makes extraction impossible and can tighten the opponent's control. Before committing, assess which direction your hip switch naturally opens and which path your trapped leg can follow with the least resistance from the opponent's hooks."
       }
     ],
-    "safety_considerations": "The backstep from leg knot involves significant rotational forces on both practitioners' knees and ankles during the extraction phase. Always practice with controlled speed initially, as explosive backsteps can catch training partners' legs at awkward angles. Pay attention to any knee discomfort during the hip switch, as twisting motions under load can strain the MCL and meniscus. If your leg feels stuck in the entanglement, reset position rather than forcing through with strength. Communicate with your training partner throughout the drilling process to ensure neither practitioner's joints are being stressed beyond safe ranges."
+    "safety_considerations": "The backstep from leg knot involves significant rotational forces on both practitioners' knees and ankles during the extraction phase. Always practice with controlled speed initially, as explosive backsteps can catch training partners' legs at awkward angles. Pay attention to any knee discomfort during the hip switch, as twisting motions under load can strain the MCL and meniscus. If your leg feels stuck in the entanglement, reset position rather than forcing through with strength. Communicate with your training partner throughout the drilling process to ensure neither practitioner's joints are being stressed beyond safe ranges.",
+    "clips": [
+      {
+        "id": "w7HtrtgFGU4",
+        "title": "Back step entry to honey hole with backup plan",
+        "by": "Primate Jiu Jitsu",
+        "vertical": false,
+        "channel": "Primate Jiu Jitsu",
+        "duration": 193,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MaQQU4ydJoc",
+        "title": "Intro to the leg knot",
+        "by": "Mike Robinson",
+        "vertical": false,
+        "channel": "Joshua Ortegon",
+        "duration": 170,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Backstep from Leg Knot Defender",
@@ -426,6 +446,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance defense with integrated counter-attacks",
         "description": "Start in leg knot with full resistance from both players. Bottom player works to prevent the pass by any means necessary while also developing the ability to launch counter-submissions when backstep attempts create openings. Top player attempts backstep, submissions, or other passes. Measure success rate of defense over multiple rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "c-LUX8aDBUE",
+        "title": "Leg entanglement escapes and heel hook basics",
+        "by": "Jeremy Skinner",
+        "vertical": false,
+        "channel": "Techniqly Online",
+        "duration": 35,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "R7lPdQWLOus",
+        "title": "50/50 defense: protecting your leg",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "The Grapplers Guide by Jason Scully",
+        "duration": 161,
+        "verified": "2026-07-15"
       }
     ]
   }

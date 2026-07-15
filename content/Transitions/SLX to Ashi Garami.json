@@ -309,7 +309,27 @@
         "answer": "Switch to the heel-first variant where you establish C-grip control with both hands before removing the hip hook. Their successful extraction indicates your grip transfer window is too slow or your initial heel grip is too loose. Additionally, examine whether you are telegraphing the entry with predictable timing or body language. Consider chaining the ashi entry after a sweep attempt rather than going directly—the defensive reaction to a sweep creates better opportunities than approaching from a static position. If extraction continues, the opponent may have identified your specific timing pattern and you need to vary the entry rhythm."
       }
     ],
-    "safety_considerations": "While the SLX to Ashi Garami transition itself carries minimal direct injury risk, it leads to a position where dangerous leg attacks become immediately available. Practitioners must understand that Inside Ashi-Garami provides access to heel hooks and kneebars that can cause severe ligament damage if applied incorrectly. Always practice the transition at controlled speed with clear communication between training partners. Master straight ankle lock attacks from ashi garami for a minimum of 6-12 months before progressing to heel hooks. When drilling the transition, ensure both partners understand the tap protocol and that all submissions are applied with gradual, progressive pressure. Never crank leg submissions explosively, and release immediately upon tap."
+    "safety_considerations": "While the SLX to Ashi Garami transition itself carries minimal direct injury risk, it leads to a position where dangerous leg attacks become immediately available. Practitioners must understand that Inside Ashi-Garami provides access to heel hooks and kneebars that can cause severe ligament damage if applied incorrectly. Always practice the transition at controlled speed with clear communication between training partners. Master straight ankle lock attacks from ashi garami for a minimum of 6-12 months before progressing to heel hooks. When drilling the transition, ensure both partners understand the tap protocol and that all submissions are applied with gradual, progressive pressure. Never crank leg submissions explosively, and release immediately upon tap.",
+    "clips": [
+      {
+        "id": "o0TTMzFEG0Q",
+        "title": "Shin-to-shin to single leg X to outside ashi",
+        "by": "Robyn Sheehan",
+        "vertical": false,
+        "channel": "Robyn Sheehan",
+        "duration": 128,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "El_icnQ7GKg",
+        "title": "Leg entry when your single leg X is crushed",
+        "by": "Factory Fresh Jiu Jitsu coach",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 140,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "SLX to Ashi Garami Defender",
@@ -434,6 +454,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full-speed defense in realistic conditions",
         "description": "Start in SLX with full resistance from both players. Attacker works all variants and timing combinations while you defend with complete defensive toolkit. Track successful defenses versus completed transitions across rounds. Goal is preventing ashi establishment in at least 50% of attempts."
+      }
+    ],
+    "clips": [
+      {
+        "id": "L417yCl_-dc",
+        "title": "Leg defense from ashi garami",
+        "by": "The Coop BJJ coach",
+        "vertical": false,
+        "channel": "The Coop BJJ",
+        "duration": 48,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "cRXsNPAgVLU",
+        "title": "Irimi ashi garami counter",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 29,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "AQbJMBiWYfU",
+        "title": "Escaping ashi garami and leg lock defense",
+        "by": "Scott Elliott",
+        "vertical": false,
+        "channel": "Coach Scott Elliott",
+        "duration": 141,
+        "verified": "2026-07-15"
       }
     ]
   }

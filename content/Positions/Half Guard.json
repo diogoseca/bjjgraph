@@ -464,6 +464,35 @@
       "top control half guard position",
       "passing strategy half guard top",
       "positional dominance half guard"
+    ],
+    "clips": [
+      {
+        "id": "8WbQvytyCX0",
+        "title": "How to Pass the Flat Half Guard",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 63,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "kTSMGYlVJKY",
+        "title": "Free Your Foot While Passing Half Guard",
+        "by": "Kameron Ross",
+        "vertical": false,
+        "channel": "Kameron Ross",
+        "duration": 55,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "yj_6xcl2emA",
+        "title": "Pass Half Guard Knee Shield with Knee Cut",
+        "by": "War Room Jiu Jitsu",
+        "vertical": false,
+        "channel": "War Room Jiu Jitsu",
+        "duration": 70,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -832,6 +861,35 @@
       "defensive position half guard bottom",
       "underhook control half guard system",
       "modern guard system half guard"
+    ],
+    "clips": [
+      {
+        "id": "N_NGkZs9I-M",
+        "title": "Black X Sweep from Half Guard",
+        "by": "Bruno Bastos",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "llsV9Gn_usg",
+        "title": "Octopus Half Guard Sweep",
+        "by": "Khabib Nurmagomedov",
+        "vertical": false,
+        "channel": "The Fight Site",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "F8zTqADm7fU",
+        "title": "Arm Drag from Half Guard Knee Shield",
+        "by": "Bernardo Faria",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 162,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_family": [
@@ -900,6 +958,35 @@
     {
       "question": "How does Half Guard differ mechanically from adjacent positions like Closed Guard, Butterfly Guard, and Quarter Guard?",
       "answer": "The distinction lies in how many legs are engaged and how deeply. In Closed Guard both of the bottom player's legs wrap the opponent's torso with the ankles locked, giving symmetric control of posture, whereas Half Guard engages only a single trapped leg. Butterfly Guard uses hooks on the insides of both thighs from a seated, more upright posture rather than trapping a leg between the knees. Quarter Guard is a further-degraded version of Half Guard where only the ankle remains trapped, marking the last sliver of entanglement before a full pass. Half Guard therefore sits mid-spectrum: more committed than an ankle trap, but less enclosing and symmetric than closed or butterfly guard."
+    }
+  ],
+  "clips": [
+    {
+      "id": "X4jR2wWOy2M",
+      "title": "Half Guard to the Dogfight",
+      "by": "The Base Jiu Jitsu",
+      "vertical": false,
+      "channel": "The Base Jiu Jitsu",
+      "duration": 79,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "N_NGkZs9I-M",
+      "title": "Black X Sweep from Half Guard",
+      "by": "Bruno Bastos",
+      "vertical": false,
+      "channel": "Bernardo Faria BJJ Fanatics",
+      "duration": 61,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "llsV9Gn_usg",
+      "title": "Octopus Half Guard Sweep",
+      "by": "Khabib Nurmagomedov",
+      "vertical": false,
+      "channel": "The Fight Site",
+      "duration": 61,
+      "verified": "2026-07-14"
     }
   ]
 }

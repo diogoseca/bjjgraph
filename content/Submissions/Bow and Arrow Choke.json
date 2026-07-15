@@ -287,5 +287,43 @@
       "description": "From gift wrap position where opponent's arm is trapped across their own neck, release the gift wrap control and immediately establish collar grip while their arm is still compromised. Transition to bow-and-arrow with reduced defensive capability from the opponent due to trapped arm position.",
       "when_to_use": "Use when you've established gift wrap from back control and opponent is defending the standard gift wrap attacks. The trapped arm prevents effective hand fighting during your collar grip entry."
     }
+  ],
+  "clips": [
+    {
+      "id": "xqNhZVNhxnE",
+      "title": "Bow and Arrow Choke from Back Control",
+      "by": "Evolve MMA",
+      "vertical": false,
+      "channel": "Evolve Mixed Martial Arts",
+      "duration": 45,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "rc77idEskwo",
+      "title": "Bow and Arrow Choke",
+      "by": "Helena Crevar",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 55,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "vlydEGpl50k",
+      "title": "Bow and Arrow Choke from the Back",
+      "by": "Procel BJJ",
+      "vertical": false,
+      "channel": "Procel Brazilian Jiu-Jitsu",
+      "duration": 52,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "R5LFNqtx1ps",
+      "title": "Bow & Arrow Choke",
+      "by": "Gracie Barra",
+      "vertical": false,
+      "channel": "Gracie Barra Jiu-jitsu",
+      "duration": 66,
+      "verified": "2026-07-14"
+    }
   ]
 }

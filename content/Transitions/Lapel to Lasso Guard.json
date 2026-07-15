@@ -249,7 +249,27 @@
         "answer": "Threaten the sickle sweep by chopping their far leg when they posture up to address the lasso. If they drop their weight to defend the sweep, their broken posture opens triangle entries by swinging your non-lasso leg across their neck. If they back away creating distance, pursue with omoplata by rotating your hips under the trapped arm. Each defensive reaction to the lasso opens a specific follow-up attack."
       }
     ],
-    "safety_considerations": "This transition involves threading your shin across an opponent's arm, which carries minimal injury risk when performed correctly. The primary safety concern is ensuring you don't hyperextend your own knee while creating the lasso extension—maintain slight bend at maximum extension rather than locking out completely. When drilling, communicate with partners about pressure levels as aggressive sleeve pulling combined with leg extension can strain shoulder joints. Practitioners with knee injuries should be cautious with the threading motion and may need to modify by using a shallower lasso angle. When transitioning under pressure, avoid explosive movements that could result in collision injuries. This technique is safe at all training intensities when both partners understand the mechanics."
+    "safety_considerations": "This transition involves threading your shin across an opponent's arm, which carries minimal injury risk when performed correctly. The primary safety concern is ensuring you don't hyperextend your own knee while creating the lasso extension—maintain slight bend at maximum extension rather than locking out completely. When drilling, communicate with partners about pressure levels as aggressive sleeve pulling combined with leg extension can strain shoulder joints. Practitioners with knee injuries should be cautious with the threading motion and may need to modify by using a shallower lasso angle. When transitioning under pressure, avoid explosive movements that could result in collision injuries. This technique is safe at all training intensities when both partners understand the mechanics.",
+    "clips": [
+      {
+        "id": "ExK0QCCpvd8",
+        "title": "Basic entry into lasso from closed guard",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 130,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uyNWqN84L9o",
+        "title": "Lasso entry and sweep from open guard",
+        "by": "Felipe Simplicio",
+        "vertical": false,
+        "channel": "Felipe Simplicio ",
+        "duration": 138,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Lapel to Lasso Guard Defender",
@@ -373,6 +393,26 @@
         "phase": "Week 7+",
         "focus": "Live situational sparring",
         "description": "Full intensity sparring starting from lapel guard. Partner uses the full range of guard retention options including lasso transition, spider transition, and re-establishing lapel. Develop the ability to read which transition the opponent is attempting and apply the correct defensive response in real time under competitive pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "EdLPqtAm5yQ",
+        "title": "Pressure pass the Lasso Guard",
+        "by": "Alberto Serrano",
+        "vertical": false,
+        "channel": "Alberto Serrano BJJ",
+        "duration": 123,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "GOzoDB10XkY",
+        "title": "Lasso and Spider Guard Defense breakdown",
+        "by": "Binder BJJ",
+        "vertical": false,
+        "channel": "Binder Brazilian Jiu Jitsu",
+        "duration": 245,
+        "verified": "2026-07-15"
       }
     ]
   },

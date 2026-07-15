@@ -282,7 +282,27 @@
         "answer": "The moment your foot clears the opponent's legs, you must immediately drive your knee to the mat on the far side of their hip to create a barrier preventing hook re-insertion. Any hesitation or space allows the bottom player to catch your leg with a last-resort hook and recover half guard. The knee-to-mat seal must be accompanied by simultaneous hip drop onto their body to eliminate space. The leg clear and the seal are one continuous motion, not two separate actions."
       }
     ],
-    "safety_considerations": "The Pocket Half Pass is a low-risk technique from a safety perspective, as it involves controlled pressure passing without joint manipulation or choking mechanics. However, practitioners should be mindful of knee pressure on the trapped leg during forceful extraction, avoid excessive crossface pressure on the jaw that could cause cervical strain, and ensure that body weight distribution does not concentrate on small areas of the partner's ribcage during training. When drilling, communicate with your partner about pressure intensity and avoid rapid explosive extractions that could strain the bottom player's knee ligaments."
+    "safety_considerations": "The Pocket Half Pass is a low-risk technique from a safety perspective, as it involves controlled pressure passing without joint manipulation or choking mechanics. However, practitioners should be mindful of knee pressure on the trapped leg during forceful extraction, avoid excessive crossface pressure on the jaw that could cause cervical strain, and ensure that body weight distribution does not concentrate on small areas of the partner's ribcage during training. When drilling, communicate with your partner about pressure intensity and avoid rapid explosive extractions that could strain the bottom player's knee ligaments.",
+    "clips": [
+      {
+        "id": "HSXC1cbGxxY",
+        "title": "Smash passing half guard by controlling the hip pocket",
+        "by": "Mike Jaramillo",
+        "vertical": false,
+        "channel": "Athletes Ocean",
+        "duration": 278,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "OsAvmhwQqCo",
+        "title": "Passing the knee shield in half guard",
+        "by": "Sticks and Stones BJJ",
+        "vertical": false,
+        "channel": "Sticks and Stones BJJ",
+        "duration": 211,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Pocket Half Pass Defender",
@@ -413,6 +433,26 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Applying defensive skills under full competitive pressure",
         "description": "Positional sparring rounds starting in pocket half guard with the passer given full freedom to complete the pass. Defender scores by preventing the pass for 60 seconds, recovering guard, or sweeping. Track success rate and identify which pass variations cause the most difficulty."
+      }
+    ],
+    "clips": [
+      {
+        "id": "dOdO6xJ-TcU",
+        "title": "Stopping the half guard underhook from getting passed",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 98,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "JOX7HE_axKM",
+        "title": "Half guard bottom retention in no-gi",
+        "by": "Jiujithsu",
+        "vertical": false,
+        "channel": "Jiujithsu",
+        "duration": 225,
+        "verified": "2026-07-15"
       }
     ]
   }

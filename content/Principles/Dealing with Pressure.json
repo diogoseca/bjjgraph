@@ -434,5 +434,25 @@
       "question": "What is the most common breathing mistake under compression and its consequence?",
       "answer": "Holding the breath or shallow chest breathing accelerates oxygen depletion, amplifies the panic response, and impairs endurance and decision-making, often exceeding the actual physical pressure."
     }
+  ],
+  "clips": [
+    {
+      "id": "EOJsjsYYmX0",
+      "title": "Defending top pressure and transitioning to attack",
+      "by": "Firas Zahabi",
+      "vertical": false,
+      "channel": "Tristar Gym",
+      "duration": 62,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "DhcA_kcvfFI",
+      "title": "Dealing with pressure in closed guard",
+      "by": "RVV BJJ",
+      "vertical": false,
+      "channel": "RVV BJJ",
+      "duration": 230,
+      "verified": "2026-07-15"
+    }
   ]
 }

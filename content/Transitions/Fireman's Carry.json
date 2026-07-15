@@ -320,7 +320,27 @@
         "answer": "When the opponent posts their free hand during the descent phase, you must address the post while maintaining your existing controls. Circle your body away from the posted hand so their arm has to support increasing bodyweight at a worsening angle. Simultaneously drive your shoulder hard into their midsection to collapse the post. If the post is too strong to overcome, transition your grip from their leg to the posted arm and attack a kimura grip, which converts the defensive post into a submission vulnerability. Never release your original arm control during this adjustment - it remains your primary anchor throughout the recovery."
       }
     ],
-    "safety_considerations": "When practicing the Fireman's Carry, controlled execution is paramount to prevent injury to both yourself and your training partner. The most critical safety concern is the descent phase - you must guide your partner to the mat in a controlled manner rather than slamming or dropping them, particularly being mindful of their head and neck positioning. Never release control during the throw; maintain grips throughout the descent to control the landing. For your own safety, always maintain a straight back during the lifting phase and generate power from your legs, not your back, to prevent spinal injury. Start practice with cooperative drilling where your partner is lifted and gently placed down, gradually progressing to more dynamic execution only after mastering the mechanics. Ensure you're practicing on appropriate matting that provides cushioning for takedowns. Communication with your partner is essential - agree on the level of resistance and speed beforehand, and use verbal or tap signals if anything feels unsafe during execution. Be particularly cautious about your partner's shoulder and arm positioning during the carry phase to avoid joint stress. When learning, practice the level change and penetration components separately before adding the lift, and only add rotation and dynamic landing after mastering controlled static versions."
+    "safety_considerations": "When practicing the Fireman's Carry, controlled execution is paramount to prevent injury to both yourself and your training partner. The most critical safety concern is the descent phase - you must guide your partner to the mat in a controlled manner rather than slamming or dropping them, particularly being mindful of their head and neck positioning. Never release control during the throw; maintain grips throughout the descent to control the landing. For your own safety, always maintain a straight back during the lifting phase and generate power from your legs, not your back, to prevent spinal injury. Start practice with cooperative drilling where your partner is lifted and gently placed down, gradually progressing to more dynamic execution only after mastering the mechanics. Ensure you're practicing on appropriate matting that provides cushioning for takedowns. Communication with your partner is essential - agree on the level of resistance and speed beforehand, and use verbal or tap signals if anything feels unsafe during execution. Be particularly cautious about your partner's shoulder and arm positioning during the carry phase to avoid joint stress. When learning, practice the level change and penetration components separately before adding the lift, and only add rotation and dynamic landing after mastering controlled static versions.",
+    "clips": [
+      {
+        "id": "DcJIXsSNc-0",
+        "title": "Fireman's carry takedown demonstration",
+        "by": "Benjamin Hahn",
+        "vertical": false,
+        "channel": "Benjamin Hahn",
+        "duration": 64,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_WGwKJy7VV0",
+        "title": "Fireman's carry entry and finish",
+        "by": "BOWERHOUSE MMA",
+        "vertical": false,
+        "channel": "BOWERHOUSE MMA",
+        "duration": 44,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Fireman's Carry Defender",
@@ -450,6 +470,17 @@
         "phase": "Week 9-12: Live Application and Counter-Offense",
         "focus": "Defending Fireman's Carry in live takedown sparring with counter-attacks",
         "description": "Integrate Fireman's Carry defense into live standing sparring rounds. Partner attacks with full commitment and varied setups. Practice not just stopping the technique but transitioning to offensive opportunities after successful defense, such as snap downs after sprawling, front headlock attacks, or back takes when the attacker overcommits. Develop the ability to defend the Fireman's Carry while simultaneously threatening your own offensive techniques from the clinch."
+      }
+    ],
+    "clips": [
+      {
+        "id": "xbol7GnN63I",
+        "title": "How to defend a fireman's carry",
+        "by": "WrestlingTournaments.com",
+        "vertical": false,
+        "channel": "WrestlingTournaments․com",
+        "duration": 195,
+        "verified": "2026-07-15"
       }
     ]
   },

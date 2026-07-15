@@ -214,5 +214,43 @@
       "name": "Crucifix",
       "relationship": "Related back control position with arm isolation options"
     }
+  ],
+  "clips": [
+    {
+      "id": "odT3-cVWXdc",
+      "title": "Twister Side Attacks",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "Eddie Bravo",
+      "duration": 61,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "FjWN_aBp2eE",
+      "title": "Eddie Bravo's Twister",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "CholoMMA",
+      "duration": 49,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "R55lmkc6Mus",
+      "title": "Twister from Side Control",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "Eddie Bravo",
+      "duration": 87,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "RVr67Kb-6ec",
+      "title": "Twister from Turtle",
+      "by": "Thunderdome BJJ",
+      "vertical": false,
+      "channel": "Thunderdome BJJ",
+      "duration": 24,
+      "verified": "2026-07-14"
+    }
   ]
 }

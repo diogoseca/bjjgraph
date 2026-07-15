@@ -343,6 +343,35 @@
         "answer": "Transition to the kneebar by extending their trapped leg and driving downward pressure on the knee joint. The boot-hiding defense actually straightens the leg and exposes the knee for kneebar finish. If they bend the knee to defend the kneebar, the heel re-emerges for the heel hook. This creates a binary dilemma: straighten the leg to hide the heel and expose the knee, or bend the knee to protect it and expose the heel. Alternate between threats based on their defensive choice.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "n6EoUkDwUVc",
+        "title": "4 heel hook finishes from the saddle",
+        "by": "The Grappling Bloke",
+        "vertical": false,
+        "channel": "The Grappling Bloke",
+        "duration": 102,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "PGQ7YYfu76Q",
+        "title": "Single leg X to honey hole heel hook",
+        "by": "Ilya Bodnya",
+        "vertical": false,
+        "channel": "Ilya Bodnya",
+        "duration": 65,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "lr7rlj7WV-E",
+        "title": "X guard to heel hook",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
+        "duration": 94,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -480,6 +509,35 @@
         "phase": "Prevention — Stopping the Entry",
         "focus": "Shutting down Honey Hole entries before the position is established",
         "description": "Live rounds starting from open guard or leg entanglement exchanges. Focus on preventing the inside leg triangle from forming by maintaining boot position, controlling the knee line, and immediately disengaging when you recognize Honey Hole entry patterns. Success is measured by how rarely the full Honey Hole is established, not by escaping after the fact."
+      }
+    ],
+    "clips": [
+      {
+        "id": "gEEHqiSznS4",
+        "title": "How to escape the honey hole",
+        "by": "Vagner Rocha",
+        "vertical": false,
+        "channel": "Vagner Rocha Martial Arts - MMA Gym, BJJ School, Jiu Jitsu, Mixed Martial Arts, Kickboxing, Boxing Gym",
+        "duration": 60,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "PhS9Xj-4KbA",
+        "title": "Escaping honey hole (inside sankaku)",
+        "by": "Oneonta Jiu Jitsu",
+        "vertical": false,
+        "channel": "OneontaJiuJitsu Academy",
+        "duration": 56,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "i54XMDe--qI",
+        "title": "Honey hole escape",
+        "by": "10th Planet Colorado Springs",
+        "vertical": false,
+        "channel": "10th Planet Colorado Springs",
+        "duration": 105,
+        "verified": "2026-07-14"
       }
     ]
   }

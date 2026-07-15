@@ -279,7 +279,36 @@
         "answer": "The backstep variant uses rotation rather than linear force. By backstepping your free leg behind you while maintaining crossface, you create an angular change that makes the lockdown configuration geometrically impossible to maintain. The opponent's figure-four relies on your leg being in a specific plane—rotating out of that plane breaks the lock without needing hand intervention on the foot triangle."
       }
     ],
-    "safety_considerations": "The Lockdown Break and Pass involves significant torque on the trapped knee joint, making proper technique essential for injury prevention. Never attempt to forcefully yank your leg free without first breaking the foot triangle—this can cause MCL, LCL, or meniscus damage. If you feel sharp pain in your knee during the sequence, tap and reset rather than continuing. When drilling, partners should apply lockdown pressure progressively, allowing the escaping player to work technique before adding resistance. Practitioners with existing knee injuries should approach this technique cautiously and may need to modify the extraction angle. The Electric Chair position itself can apply dangerous pressure to the groin and hip flexors, so communication with training partners is essential to avoid injury during practice."
+    "safety_considerations": "The Lockdown Break and Pass involves significant torque on the trapped knee joint, making proper technique essential for injury prevention. Never attempt to forcefully yank your leg free without first breaking the foot triangle—this can cause MCL, LCL, or meniscus damage. If you feel sharp pain in your knee during the sequence, tap and reset rather than continuing. When drilling, partners should apply lockdown pressure progressively, allowing the escaping player to work technique before adding resistance. Practitioners with existing knee injuries should approach this technique cautiously and may need to modify the extraction angle. The Electric Chair position itself can apply dangerous pressure to the groin and hip flexors, so communication with training partners is essential to avoid injury during practice.",
+    "clips": [
+      {
+        "id": "-49CypLW9aM",
+        "title": "Breaking the lockdown from top half guard",
+        "by": "Superhero Jiu Jitsu Academy",
+        "vertical": false,
+        "channel": "Superhero Jiu Jitsu Academy ",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "kTSMGYlVJKY",
+        "title": "Freeing your foot while passing half guard",
+        "by": "Kameron Ross",
+        "vertical": false,
+        "channel": "Kameron Ross",
+        "duration": 55,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ABSueJ6cwis",
+        "title": "Passing the lockdown with a backstep",
+        "by": "Peter Mettler",
+        "vertical": false,
+        "channel": "Peter Mettler Martial Arts",
+        "duration": 98,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Lockdown Break and Pass Defender",
@@ -413,6 +442,35 @@
         "phase": "Week 7+",
         "focus": "Full defensive system against live lockdown breakers",
         "description": "Positional sparring starting in Electric Chair bottom against partners actively hunting the lockdown break. Integrate all defensive layers: lockdown retention, counter-attacks, and Deep Half transitions as a complete defensive system. Develop the ability to read which layer is needed in real time."
+      }
+    ],
+    "clips": [
+      {
+        "id": "OIr4wDxl-Ys",
+        "title": "Lockdown clinches to stop the break",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "oSQ7BHerIow",
+        "title": "Lockdown strategies against a passer",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "6r4DoDXcHcs",
+        "title": "Deepening the lockdown to prevent the break",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
       }
     ]
   },

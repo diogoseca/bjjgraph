@@ -269,7 +269,18 @@
         "answer": "After a failed hook insertion, avoid immediately reattempting the same approach. Instead, chain into a truck entry by threading your existing hook leg deeper and pursuing the opponent's far leg for the lockdown-style entanglement. Alternatively, attack the rear naked choke legitimately since the opponent just demonstrated they prioritize hook defense over neck defense. A third option is transitioning to crucifix by trapping their blocking arm, which both removes their primary defensive tool and opens a different attacking pathway."
       }
     ],
-    "safety_considerations": "While this transition does not involve joint locks or chokes directly, maintain awareness of your partner's neck position during weight transfers and avoid cranking or twisting the opponent's spine as you thread the second hook. During drilling, communicate with your partner about pressure levels and ensure controlled positional adjustments rather than explosive movements that could cause knee or hip injuries from the hooking leg. The seatbelt grip can compress the ribcage significantly, so monitor your partner for breathing difficulty. Always release control immediately if your partner signals discomfort or taps."
+    "safety_considerations": "While this transition does not involve joint locks or chokes directly, maintain awareness of your partner's neck position during weight transfers and avoid cranking or twisting the opponent's spine as you thread the second hook. During drilling, communicate with your partner about pressure levels and ensure controlled positional adjustments rather than explosive movements that could cause knee or hip injuries from the hooking leg. The seatbelt grip can compress the ribcage significantly, so monitor your partner for breathing difficulty. Always release control immediately if your partner signals discomfort or taps.",
+    "clips": [
+      {
+        "id": "kGoEjQMRp3I",
+        "title": "Russian Cowboy double deep hook attacks",
+        "by": "10th Planet Rochester",
+        "vertical": false,
+        "channel": "10thPlanetRochester",
+        "duration": 193,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Russian Cowboy to Back Control Defender",
@@ -388,6 +399,26 @@
         "phase": "Phase 3: Counter-Escape Integration",
         "focus": "Converting defensive blocks into active escape sequences",
         "description": "Partner attempts full-speed hook insertion with legitimate choke threats. Defender blocks the hook and immediately chains into an escape attempt using the attacker's compromised base. Practice the hip escape to half guard and the turn-in timing. 3-minute positional rounds with reset on escape or successful hook insertion."
+      }
+    ],
+    "clips": [
+      {
+        "id": "JgrpnE0HyAY",
+        "title": "Defending a single hook from turtle",
+        "by": "South Boston BJJ",
+        "vertical": false,
+        "channel": "South Boston BJJ",
+        "duration": 149,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "3Jd2llamfl8",
+        "title": "Back control escape explained simply",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 189,
+        "verified": "2026-07-15"
       }
     ]
   }

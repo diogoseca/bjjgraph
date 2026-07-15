@@ -277,7 +277,27 @@
         "answer": "Abandon the toe hold when the opponent successfully executes boot defense you cannot break within several seconds, when they retract their knee past the point where rotational leverage is effective, when their free leg establishes strong frames pushing your hips away, or when they achieve significant upper body posture with active frames. Rather than forcing a stalled submission, transition immediately to kneebar, back to Estima Lock, or advance to ashi garami to maintain offensive pressure and keep the dilemma alive."
       }
     ],
-    "safety_considerations": "The toe hold attacks the ankle joint, surrounding ligaments, and small foot structures simultaneously, with force also transmitting through the kinetic chain to the knee. Apply rotational pressure gradually and with full control. Always respect the training partner's tap immediately and release without delay. The rotational nature of this attack can cause injury faster than expected—never crank explosively. Be especially careful during the grip transition when unexpected pressure spikes can occur as the attack vector changes. In training, communicate clearly and apply pressure incrementally to allow safe tapping windows."
+    "safety_considerations": "The toe hold attacks the ankle joint, surrounding ligaments, and small foot structures simultaneously, with force also transmitting through the kinetic chain to the knee. Apply rotational pressure gradually and with full control. Always respect the training partner's tap immediately and release without delay. The rotational nature of this attack can cause injury faster than expected—never crank explosively. Be especially careful during the grip transition when unexpected pressure spikes can occur as the attack vector changes. In training, communicate clearly and apply pressure incrementally to allow safe tapping windows.",
+    "clips": [
+      {
+        "id": "enJwT6Ttreo",
+        "title": "Estima lock key details and toe hold finish",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 137,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "xwaJm1Ft5lc",
+        "title": "Paper cutter toe hold from 50/50",
+        "by": "Garden State BJJ coach",
+        "vertical": false,
+        "channel": "Garden State Brazilian Jiu-Jitsu Academy",
+        "duration": 60,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Toe Hold from Estima Lock Defender",
@@ -397,6 +417,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full defensive application under realistic pressure",
         "description": "Start from established Estima Lock position. Attacker works the full submission chain including toe hold transitions with full intent. Defender uses all available defensive tools with complete resistance. Reset after submission, escape, or sixty seconds. Track escape success rate and identify recurring defensive failures."
+      }
+    ],
+    "clips": [
+      {
+        "id": "3a9k8-ZcYrk",
+        "title": "How to escape the toe hold",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "The King Life",
+        "duration": 106,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "cf-hK1t7qzU",
+        "title": "Countering ankle locks with a corkscrew toe hold",
+        "by": "Patrick Donabedian",
+        "vertical": false,
+        "channel": "Patrick Donabedian BJJ",
+        "duration": 65,
+        "verified": "2026-07-15"
       }
     ]
   }

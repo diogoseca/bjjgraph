@@ -260,7 +260,27 @@
         "answer": "Continue to back take. Once the opponent has partially cleared the leg entanglement, attempting to re-establish the figure-four is lower percentage than following through to back control. Their partial clearing has already committed their rotation, and their back exposure is at maximum. Abandoning the back take to chase legs wastes the positional opportunity their escape created."
       }
     ],
-    "safety_considerations": "Follow to Back Control is a relatively safe transition with low injury risk when practiced correctly. The primary safety concern is avoiding neck cranking during seat belt establishment—apply chest pressure to opponent's upper back rather than pulling backward on their neck. During training, allow partners to tap early if the transition traps their arm in an uncomfortable position. Beginners should avoid explosive hip driving that could cause training partner's face to contact the mat. When drilling at high speeds, communicate clearly about commitment levels to prevent collisions during the rotation phase."
+    "safety_considerations": "Follow to Back Control is a relatively safe transition with low injury risk when practiced correctly. The primary safety concern is avoiding neck cranking during seat belt establishment—apply chest pressure to opponent's upper back rather than pulling backward on their neck. During training, allow partners to tap early if the transition traps their arm in an uncomfortable position. Beginners should avoid explosive hip driving that could cause training partner's face to contact the mat. When drilling at high speeds, communicate clearly about commitment levels to prevent collisions during the rotation phase.",
+    "clips": [
+      {
+        "id": "cNpVTxV0WGs",
+        "title": "Following to the back when they slip the heel",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 20,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "i0Pm_LapXNA",
+        "title": "Back take from the leg entanglement",
+        "by": "Brandon Quick",
+        "vertical": false,
+        "channel": "American Grappling Federation",
+        "duration": 223,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Follow to Back Control Defender",
@@ -394,6 +414,26 @@
         "phase": "Week 7+",
         "focus": "Live defensive integration",
         "description": "Positional sparring starting from Ushiro Ashi-Garami bottom where partner chooses between leg attacks and back take. Develop real-time recognition of which attack is coming and appropriate defensive response for each scenario."
+      }
+    ],
+    "clips": [
+      {
+        "id": "MqtG9kuVt-Q",
+        "title": "Leg lock escape: roll through",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "kZd9bvSgaHc",
+        "title": "Escaping the leg lock from standing back control",
+        "by": "Carrero BJJ",
+        "vertical": false,
+        "channel": "Freedom Jiu Jitsu",
+        "duration": 56,
+        "verified": "2026-07-15"
       }
     ]
   },

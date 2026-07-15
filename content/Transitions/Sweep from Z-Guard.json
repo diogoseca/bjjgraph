@@ -287,7 +287,36 @@
         "answer": "The half guard hook on the opponent's trapped leg creates the fulcrum point around which the entire sweep rotates. Without this anchor, the push-pull forces from the knee shield and underhook would simply move the opponent laterally rather than rotating them. The trapped leg prevents the opponent from stepping out of the sweep direction and forces their body to pivot around this fixed point. Maintaining the hook throughout the sweep is non-negotiable for completion."
       }
     ],
-    "safety_considerations": "The Sweep from Z-Guard is generally a low-risk technique with minimal injury potential when executed with proper control. The primary safety concern involves the opponent's trapped leg during the sweep rotation, as excessive rotational force on a controlled leg can stress the knee joint. Always release the half guard hook cleanly once mount is established rather than maintaining torque on the trapped leg. During training, allow your partner space to tap if they feel knee discomfort during the sweep motion, and avoid explosive jerking movements that could strain their knee ligaments."
+    "safety_considerations": "The Sweep from Z-Guard is generally a low-risk technique with minimal injury potential when executed with proper control. The primary safety concern involves the opponent's trapped leg during the sweep rotation, as excessive rotational force on a controlled leg can stress the knee joint. Always release the half guard hook cleanly once mount is established rather than maintaining torque on the trapped leg. During training, allow your partner space to tap if they feel knee discomfort during the sweep motion, and avoid explosive jerking movements that could strain their knee ligaments.",
+    "clips": [
+      {
+        "id": "T3Gwg-ABsZA",
+        "title": "Z-Guard sweep and attack options from bottom",
+        "by": "Way of BJJ",
+        "vertical": false,
+        "channel": "Way of BJJ",
+        "duration": 67,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "oRHnXDK-xYE",
+        "title": "Z Guard sweep demonstration",
+        "by": "Lake Effect Martial Arts",
+        "vertical": false,
+        "channel": "Lake Effect Martial Arts",
+        "duration": 79,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "TrVf9YzEe0E",
+        "title": "Reverse Z-Guard sweep options, Craig Jones style",
+        "by": "Phantom Punch Breakdowns",
+        "vertical": false,
+        "channel": "Phantom Punch Breakdowns",
+        "duration": 139,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Sweep from Z-Guard Defender",
@@ -412,6 +441,26 @@
         "phase": "Phase 4: Counter-Passing",
         "focus": "Converting defense into passing offense",
         "description": "After successfully defending sweep attempts, immediately transition to passing sequences. Practice recognizing when a stuffed sweep creates passing opportunities and flowing directly from defense into knee slice, smash pass, or backstep pass completion."
+      }
+    ],
+    "clips": [
+      {
+        "id": "BNb_ZIq6JhE",
+        "title": "Countering the Z-Guard and knee shield",
+        "by": "Chris Standing",
+        "vertical": false,
+        "channel": "BTT Portland",
+        "duration": 140,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "wuOCvhp-uZg",
+        "title": "Knee shield counter into the saddle",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 18,
+        "verified": "2026-07-15"
       }
     ]
   }

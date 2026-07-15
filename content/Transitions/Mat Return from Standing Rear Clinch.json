@@ -341,7 +341,36 @@
         "answer": "The mat return directs force diagonally downward and to the side through a sitting motion, using the attacker's bodyweight as the primary mechanism. The opponent is brought down along with the attacker in a controlled tandem descent. A rear trip or reap directs force backward through the opponent's base by attacking their supporting leg while driving their upper body in the opposite direction, creating rotational force that topples them. The mat return keeps both players moving together, while trips and reaps create separation between the force applied to the upper body and the leg attack. This distinction is why the mat return preserves back control more reliably than trips."
       }
     ],
-    "safety_considerations": "The mat return involves taking an opponent from standing to the ground, creating inherent risk of impact injury to both participants. Always control the descent speed to prevent slamming or uncontrolled falls. In training, communicate with your partner about intensity level and ensure adequate mat surface for landing. Avoid executing on hard surfaces or near mat edges where rolling off is possible. Be especially careful with training partners who have existing knee, shoulder, neck, or spinal injuries, as the takedown generates significant compressive and rotational forces. Never spike an opponent headfirst or execute the lateral drop variant at full power without prior agreement from your partner. If your partner goes limp, signals distress, or taps during the descent, immediately release all grips and check their condition before continuing."
+    "safety_considerations": "The mat return involves taking an opponent from standing to the ground, creating inherent risk of impact injury to both participants. Always control the descent speed to prevent slamming or uncontrolled falls. In training, communicate with your partner about intensity level and ensure adequate mat surface for landing. Avoid executing on hard surfaces or near mat edges where rolling off is possible. Be especially careful with training partners who have existing knee, shoulder, neck, or spinal injuries, as the takedown generates significant compressive and rotational forces. Never spike an opponent headfirst or execute the lateral drop variant at full power without prior agreement from your partner. If your partner goes limp, signals distress, or taps during the descent, immediately release all grips and check their condition before continuing.",
+    "clips": [
+      {
+        "id": "HMLEV7fMA-M",
+        "title": "Five mat return options from the rear clinch",
+        "by": "Elevate MMA Academy",
+        "vertical": false,
+        "channel": "Elevate MMA Academy",
+        "duration": 35,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ovl7eZIzBaU",
+        "title": "Easy takedowns from the rear clinch",
+        "by": "Oneonta Jiu Jitsu",
+        "vertical": false,
+        "channel": "OneontaJiuJitsu Academy",
+        "duration": 57,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "suN-j2avPtQ",
+        "title": "Foot sweep mat return",
+        "by": "Kennelly Wrestling",
+        "vertical": false,
+        "channel": "Kennelly Wrestling Experience",
+        "duration": 65,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Mat Return from Standing Rear Clinch Defender",
@@ -483,6 +512,26 @@
         "phase": "Full Resistance Integration",
         "focus": "Combining all defensive elements against committed mat return attempts",
         "description": "Positional sparring starting from standing rear clinch where partner attempts mat returns at full speed and commitment. Practice the complete defensive sequence from recognition through ground recovery. Emphasis on composure under pressure, energy management through structural defense rather than muscular effort, and systematic approach to each defensive phase."
+      }
+    ],
+    "clips": [
+      {
+        "id": "xqFoPDd7S9A",
+        "title": "Stand up and sit out to escape the mat return",
+        "by": "Cary Kolat",
+        "vertical": false,
+        "channel": "Cary Kolat",
+        "duration": 83,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "k-78AJwPYig",
+        "title": "Defending standing back control with double unders",
+        "by": "Academy Jiu Jitsu",
+        "vertical": false,
+        "channel": "Academy Jiu Jitsu",
+        "duration": 64,
+        "verified": "2026-07-15"
       }
     ]
   }

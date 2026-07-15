@@ -402,6 +402,35 @@
         "question": "Your opponent partially extracts their trapped arm during your finishing attempt - how do you recover position?",
         "answer": "Immediately transition to armbar by controlling their partially freed arm at the wrist and elbow while pivoting your hips to create the armbar angle. Their arm extraction attempt often leaves their arm extended and vulnerable. If they pull the arm completely free before you can catch it, their defensive movement typically opens the back or creates space for you to remount to high mount and restart the sequence."
       }
+    ],
+    "clips": [
+      {
+        "id": "zwb5LTgOm1o",
+        "title": "Finish the mounted triangle without losing top",
+        "by": "Lux's Jiu Jitsu",
+        "vertical": false,
+        "channel": "Lux’s jiu jitsu channel",
+        "duration": 45,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "vLUua_voKzc",
+        "title": "Mounted Triangle demonstration",
+        "by": "Satori BJJ",
+        "vertical": false,
+        "channel": "Satori BJJ",
+        "duration": 53,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "8ys-uZnBgYM",
+        "title": "Mounted Triangle Armbar variation",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 26,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -714,6 +743,17 @@
         "question": "You've partially escaped and created some space but haven't fully recovered guard - how do you consolidate your defensive gains?",
         "answer": "Immediately insert your knee as a shield between your bodies before they can recollapse the distance. Use your free arm to control their hip and prevent them from re-establishing mount pressure. Continue shrimping to create more space rather than pausing. If you can get to half guard, lock it immediately and establish proper half guard defense before they can remount. Never stop moving until you've achieved a stable defensive position with proper connection points."
       }
+    ],
+    "clips": [
+      {
+        "id": "sR2rS2dwpNY",
+        "title": "How to escape a triangle choke",
+        "by": "Rener & Ryron Gracie",
+        "vertical": false,
+        "channel": "Hayabusa",
+        "duration": 117,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -748,6 +788,26 @@
     {
       "question": "Why is the mounted triangle metabolically expensive for both the top and bottom player?",
       "answer": "The top player must continuously manage a narrow base, adjust the triangle angle, and choose between competing finishes, which demands active leg tension and hip mobility rather than the restful settling of a locked mount. The bottom player simultaneously fights the strangle with a chin tuck, protects the trapped arm from extension, and frames against the base, burning energy against constant dual threats. Neither player can fully relax because the position rewards whoever stays technical and punishes whoever thrashes or overcommits. This shared fatigue cost is why the exchange tends to resolve quickly into a finish, an escape, or a transition rather than a prolonged stalemate."
+    }
+  ],
+  "clips": [
+    {
+      "id": "vLUua_voKzc",
+      "title": "Mounted Triangle overview",
+      "by": "Satori BJJ",
+      "vertical": false,
+      "channel": "Satori BJJ",
+      "duration": 53,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "1qxxbBWo9kw",
+      "title": "Triangle to mounted triangle entry",
+      "by": "Ground X Jiu Jitsu",
+      "vertical": false,
+      "channel": "Ground X Jiu Jitsu ",
+      "duration": 155,
+      "verified": "2026-07-14"
     }
   ]
 }

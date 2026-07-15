@@ -265,7 +265,27 @@
         "answer": "Accept the stack momentarily rather than fighting it. Their forward weight commitment means their hips are high and their base is narrow - use this by angling your hips to the side and redirecting their stacking momentum into a sweep or omoplata setup. The stack itself brings their shoulder deeper into your control zone. If the stack is too strong, transition to Carni by rotating toward the omoplata angle since their forward pressure assists the rotation needed for that pathway."
       }
     ],
-    "safety_considerations": "Progression to Zombie requires significant hip flexibility, and forcing the position beyond your comfortable range can strain hip flexors, adductors, or cause knee discomfort. During training, communicate with partners about pressure levels and never hold position past the point of discomfort. The transition involves complex leg positioning that can torque the knee if performed incorrectly - always move the hip joint rather than rotating the knee in isolation. When practicing with resistance, start slowly and build speed gradually to allow your body to adapt to the movement patterns. If you experience any sharp pain in hips, knees, or lower back during the transition, stop immediately and consult with a qualified instructor about your technique."
+    "safety_considerations": "Progression to Zombie requires significant hip flexibility, and forcing the position beyond your comfortable range can strain hip flexors, adductors, or cause knee discomfort. During training, communicate with partners about pressure levels and never hold position past the point of discomfort. The transition involves complex leg positioning that can torque the knee if performed incorrectly - always move the hip joint rather than rotating the knee in isolation. When practicing with resistance, start slowly and build speed gradually to allow your body to adapt to the movement patterns. If you experience any sharp pain in hips, knees, or lower back during the transition, stop immediately and consult with a qualified instructor about your technique.",
+    "clips": [
+      {
+        "id": "5fJM5bIk8Fw",
+        "title": "Mission Control to Zombie to Double Bag",
+        "by": "10th Planet Orange Park",
+        "vertical": false,
+        "channel": "10th Planet Orange Park",
+        "duration": 108,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "cY1xCIx-9-I",
+        "title": "Two simple rubber guard tips",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 57,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Progression to Zombie Defender",
@@ -395,6 +415,17 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring integration",
         "description": "Full positional sparring starting from New York with partner attempting all rubber guard progressions including Zombie. Integrate Zombie defense into your complete New York escape strategy. Work on maintaining defensive activity throughout the engagement rather than waiting passively. Identify whether your defense patterns are predictable and develop variation."
+      }
+    ],
+    "clips": [
+      {
+        "id": "AvivOVuYcCk",
+        "title": "Simple rubber guard escape",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 131,
+        "verified": "2026-07-15"
       }
     ]
   },

@@ -277,7 +277,36 @@
         "answer": "When the opponent hip escapes, they create space between their neck and their far shoulder, which is the exact space needed for arm-in chokes. If their near arm is between your bodies, immediately switch to a darce choke by threading your choking arm under their armpit and connecting to your other arm behind their neck. If their arm is on the outside, transition to anaconda grip by shooting your choking arm across to their far armpit. In both cases, their hip escape actually assists the submission by opening the necessary space around their neck. Follow their movement to maintain head control while converting the grip, then sprawl your hips to prevent them from rolling through the choke."
       }
     ],
-    "safety_considerations": "The front headlock to back take is generally a safe positional transition when practiced with proper control and awareness. Practitioners should maintain constant communication with training partners, especially during the early learning phases. The primary safety concern involves neck and spine safety during the front headlock control phase: excessive cranking or sudden jerking motions should be avoided, and pressure should be applied gradually and controlled. When the opponent attempts defensive rolls or explosive escapes, both practitioners must be aware of potential collision with the ground or mat boundaries. Partners should agree on intensity levels before drilling, particularly regarding how much resistance will be applied during the transition phases. As the technique often leads directly to back control and submission attempts (particularly the rear naked choke), practitioners should be well-versed in proper tapping protocols and immediately release all control when a tap is given. Beginners should work this transition under supervision to ensure proper mechanics and avoid developing bad habits that could lead to injury in live training."
+    "safety_considerations": "The front headlock to back take is generally a safe positional transition when practiced with proper control and awareness. Practitioners should maintain constant communication with training partners, especially during the early learning phases. The primary safety concern involves neck and spine safety during the front headlock control phase: excessive cranking or sudden jerking motions should be avoided, and pressure should be applied gradually and controlled. When the opponent attempts defensive rolls or explosive escapes, both practitioners must be aware of potential collision with the ground or mat boundaries. Partners should agree on intensity levels before drilling, particularly regarding how much resistance will be applied during the transition phases. As the technique often leads directly to back control and submission attempts (particularly the rear naked choke), practitioners should be well-versed in proper tapping protocols and immediately release all control when a tap is given. Beginners should work this transition under supervision to ensure proper mechanics and avoid developing bad habits that could lead to injury in live training.",
+    "clips": [
+      {
+        "id": "87l6l0dmPWM",
+        "title": "Front Headlock to the Back Take",
+        "by": "Coach Casey",
+        "vertical": false,
+        "channel": "Coach “Coach Casey” Casey",
+        "duration": 52,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "9QCJFDsDQmk",
+        "title": "Front Headlock Snap Down to Spin Behind",
+        "by": "Procel BJJ",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 66,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "m1zVrv0CQ_E",
+        "title": "Front Headlock to Back Take",
+        "by": "Modesto Judo Club",
+        "vertical": false,
+        "channel": "Modesto Judo Club",
+        "duration": 28,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Front Headlock to Back Defender",
@@ -406,6 +435,35 @@
         "phase": "Week 9-12: Live Positional Sparring",
         "focus": "Full resistance defense against back take from front headlock",
         "description": "Partner establishes front headlock and attempts back take at full resistance. You use all available defensive options to prevent back control establishment. 3-minute rounds starting from front headlock position. Track success rate of preventing back take. Partner uses all variants including spiral ride and inside trip. If back is taken, continue round from back control to practice escape hierarchy."
+      }
+    ],
+    "clips": [
+      {
+        "id": "lV4cgzaVhb8",
+        "title": "Front Headlock Defense: Farside Peek Out",
+        "by": "Procel BJJ",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 64,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "c8N4F3EgOZk",
+        "title": "Sucker Drag Defense Against the Front Headlock",
+        "by": "Procel BJJ",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 71,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "t4xBYQ1VauU",
+        "title": "Front Headlock Sit Out Reversal",
+        "by": "Keith Takada",
+        "vertical": false,
+        "channel": "takadadojokeith",
+        "duration": 28,
+        "verified": "2026-07-15"
       }
     ]
   },

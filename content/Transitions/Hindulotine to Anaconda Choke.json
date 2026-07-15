@@ -269,7 +269,36 @@
         "answer": "Their forward drive loads weight onto your butterfly hooks or closed guard. Use the momentum to execute a butterfly sweep by elevating with your hooks while maintaining head control, ending in mount with the partial neck grip still active. Their forward pressure becomes the energy source for the sweep, and you can re-establish the anaconda or guillotine from top position."
       }
     ],
-    "safety_considerations": "The anaconda choke applies pressure to the carotid arteries and can cause rapid loss of consciousness. Always practice with controlled pressure and tap early when caught. During drilling, apply submissions progressively and release immediately upon tap. Partners should establish clear tap signals before training. Avoid jerking or explosive movements when applying the choke, as this can cause neck strain. If training partner becomes unresponsive, release immediately and place them in recovery position. This technique should not be practiced at full intensity without proper supervision. Those with neck injuries or cervical spine issues should consult medical professionals before training this position."
+    "safety_considerations": "The anaconda choke applies pressure to the carotid arteries and can cause rapid loss of consciousness. Always practice with controlled pressure and tap early when caught. During drilling, apply submissions progressively and release immediately upon tap. Partners should establish clear tap signals before training. Avoid jerking or explosive movements when applying the choke, as this can cause neck strain. If training partner becomes unresponsive, release immediately and place them in recovery position. This technique should not be practiced at full intensity without proper supervision. Those with neck injuries or cervical spine issues should consult medical professionals before training this position.",
+    "clips": [
+      {
+        "id": "RbkOnRb2lvA",
+        "title": "Anaconda choke setup and finish",
+        "by": "Ninja Pinto",
+        "vertical": false,
+        "channel": "Ninja Pinto BJJ",
+        "duration": 49,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "LXn5Q-b5Hrw",
+        "title": "Anaconda choke from front headlock",
+        "by": "Toro Bravo Submission Grappling",
+        "vertical": false,
+        "channel": "Toro Bravo Submission Grappling",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "96VSd__Nf-8",
+        "title": "How to hit the anaconda from front headlock",
+        "by": "LI MMA",
+        "vertical": false,
+        "channel": "LI MMA",
+        "duration": 137,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Hindulotine to Anaconda Choke Defender",
@@ -393,6 +422,35 @@
         "phase": "Week 7+",
         "focus": "Live integration and counter-offense",
         "description": "Defend the transition in live rolling from established Hindulotine positions. Track recognition speed and success rate. Develop counter-offense by using successful defense to improve position rather than simply surviving. Practice transitioning from defense to passing or scrambling to neutral position."
+      }
+    ],
+    "clips": [
+      {
+        "id": "At1_GDu4hSc",
+        "title": "Quick anaconda choke escape",
+        "by": "ArtOfSayingGoodbye",
+        "vertical": false,
+        "channel": "ArtOfSayingGoodbye",
+        "duration": 23,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "SXm9wA1HcvM",
+        "title": "Anaconda choke defense",
+        "by": "SFS MMA",
+        "vertical": false,
+        "channel": "Fierce Pierce15",
+        "duration": 64,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "czQckiDogRc",
+        "title": "How to escape the anaconda choke (no-gi)",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 92,
+        "verified": "2026-07-15"
       }
     ]
   },

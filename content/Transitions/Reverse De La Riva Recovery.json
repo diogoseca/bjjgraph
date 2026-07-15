@@ -283,7 +283,36 @@
         "answer": "After recovering the hook, your first grip priority is controlling the opponent's near-side pants at the knee or ankle with your outside hand. This grip prevents them from stepping over your recovered guard and controls their base geometry. It also creates the push-pull dynamic essential for RDLR effectiveness—your hook pulls while your grip controls distance. Secondary grips (sleeve, collar) enhance the position but the near-leg grip is the structural foundation that makes the recovered hook functional rather than temporary."
       }
     ],
-    "safety_considerations": "RDLR recovery techniques are generally low-risk but practitioners should be aware of potential knee and ankle stress. During hip escape movements, avoid explosive rotations that could strain the RDLR hook knee, especially if the opponent has significant weight on your leg. When reinserting the hook, ensure your ankle has sufficient flexibility to curve around opponent's leg without forcing the position—tight ankles attempting deep hooks can result in sprains. During training, communicate with partners about pressure levels, particularly when they are driving forward during recovery attempts. Partners should recognize taps or verbal cues if pressure becomes uncomfortable on the bottom player's joints. As the bottom player, do not sacrifice joint health to retain position—accepting a pass and resetting is always preferable to forcing movements that risk injury. Beginners should focus on slow, controlled technique rather than speed and power during initial learning phases."
+    "safety_considerations": "RDLR recovery techniques are generally low-risk but practitioners should be aware of potential knee and ankle stress. During hip escape movements, avoid explosive rotations that could strain the RDLR hook knee, especially if the opponent has significant weight on your leg. When reinserting the hook, ensure your ankle has sufficient flexibility to curve around opponent's leg without forcing the position—tight ankles attempting deep hooks can result in sprains. During training, communicate with partners about pressure levels, particularly when they are driving forward during recovery attempts. Partners should recognize taps or verbal cues if pressure becomes uncomfortable on the bottom player's joints. As the bottom player, do not sacrifice joint health to retain position—accepting a pass and resetting is always preferable to forcing movements that risk injury. Beginners should focus on slow, controlled technique rather than speed and power during initial learning phases.",
+    "clips": [
+      {
+        "id": "DzNwu5_EBiA",
+        "title": "Reverse De La Riva to the back (no-gi)",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 44,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_beJGS2-yIE",
+        "title": "How to use Reverse De La Riva guard",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Learn Faster BJJ - Jiu Jitsu Breakdowns",
+        "duration": 122,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "xLrbkcvIdy0",
+        "title": "Reverse De La Riva to 50/50 with heel hook",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 77,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Reverse De La Riva Recovery Defender",
@@ -405,6 +434,35 @@
         "phase": "Week 7+: Competition Integration",
         "focus": "Seamless guard clearance to pass completion under scoring pressure",
         "description": "Extended rolling rounds where passing RDLR is the primary focus. Develop the ability to transition from initial hook clearance through recovery denial to completed pass as one continuous sequence rather than separate phases. Add scoring consequences to simulate competition urgency."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ynFpOlFWdLw",
+        "title": "Passing Reverse De La Riva guard",
+        "by": "Ronin Training Center",
+        "vertical": false,
+        "channel": "Ronin Training Center",
+        "duration": 68,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "IdfQWVHikws",
+        "title": "Passing Reverse De La Riva with a shin slice",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 86,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "b87q6MAFQXs",
+        "title": "Shutting down the De La Riva guard",
+        "by": "Stretch To Strength",
+        "vertical": false,
+        "channel": "Stretch To Strength",
+        "duration": 144,
+        "verified": "2026-07-15"
       }
     ]
   },

@@ -275,7 +275,36 @@
         "answer": "Maintain heel grip tension throughout the transition to keep submission threat active even during leg reconfiguration. Execute with deliberate efficiency that doesn't create extended defensive windows. The constant heel pressure forces opponent to prioritize heel protection over escape attempts, limiting their ability to mount coordinated defense during the switch. Attack immediately upon completing the transition."
       }
     ],
-    "safety_considerations": "The Inside Ashi-Garami to Cross Ashi transition involves movement through leg entanglement positions where heel hook submissions are constantly available. Both training partners must understand heel hook danger and the critical importance of immediate tapping when rotation on the knee begins. During drilling, perform transitions at controlled speed to prevent accidentally catching training partners in finishing positions. Never maintain tight heel hook grips during transition practice at full speed. If partner indicates any knee discomfort during the switch, stop immediately and reset the position. Partners with prior knee injuries should drill this transition with extra caution and significantly reduced intensity. Always communicate clearly about grip pressure and rotational force throughout training."
+    "safety_considerations": "The Inside Ashi-Garami to Cross Ashi transition involves movement through leg entanglement positions where heel hook submissions are constantly available. Both training partners must understand heel hook danger and the critical importance of immediate tapping when rotation on the knee begins. During drilling, perform transitions at controlled speed to prevent accidentally catching training partners in finishing positions. Never maintain tight heel hook grips during transition practice at full speed. If partner indicates any knee discomfort during the switch, stop immediately and reset the position. Partners with prior knee injuries should drill this transition with extra caution and significantly reduced intensity. Always communicate clearly about grip pressure and rotational force throughout training.",
+    "clips": [
+      {
+        "id": "nVfqMfVpTVk",
+        "title": "Simple fix for your cross ashi leg lock",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 55,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "HniaoFWTsmI",
+        "title": "Easy entry to the saddle (411, cross ashi)",
+        "by": "Ilya's Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Ilya's Jiu-Jitsu",
+        "duration": 53,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "SLYKgVORsxk",
+        "title": "Cross ashi to double cross ashi drill",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 28,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Inside Ashi-Garami to Cross Ashi Defender",
@@ -405,6 +434,35 @@
         "phase": "Week 7+",
         "focus": "Full resistance integration",
         "description": "Incorporate defense into live leg lock training with full resistance. Start from Inside Ashi-Garami and defend the transition attempt in real time. Partner attempts to complete the transition while you select and execute the best defensive response. Alternate between extraction, counter-entanglement, and transition prevention based on what the attacker presents."
+      }
+    ],
+    "clips": [
+      {
+        "id": "0T4T2so40C4",
+        "title": "Basic escape from the saddle (cross ashi)",
+        "by": "Travis Anderson",
+        "vertical": false,
+        "channel": "Travis Anderson",
+        "duration": 171,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "N2weatRR_V4",
+        "title": "Cross ashi entry and wedge berimbolo counter to back",
+        "by": "BJJ Doug",
+        "vertical": false,
+        "channel": "bjj doug",
+        "duration": 28,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "cNpVTxV0WGs",
+        "title": "Cross ashi back take drill: when they slip the heel",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 20,
+        "verified": "2026-07-15"
       }
     ]
   },

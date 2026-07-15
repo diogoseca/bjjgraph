@@ -320,6 +320,35 @@
         "answer": "The four fingers must pass at least the first knuckle inside the collar, with the palm positioned so the wrist bone applies pressure to the carotid artery when the elbow retracts. A reliable test is whether you can pull the collar tight enough to make visible contact with the opposite side of the neck. If the grip is too shallow, the collar material bunches without creating the necessary compression angle, and the choke degrades into uncomfortable pressure without achieving circulatory restriction.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "dfP-Ov8FBUo",
+        "title": "Cross Collar Chokes",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 80,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "DrAxA8KUxbo",
+        "title": "Palm-Up Palm-Up Cross Choke",
+        "by": "Avant-Garde BJJ",
+        "vertical": false,
+        "channel": "Avant-Garde BJJ",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "zSSw_fUcNxU",
+        "title": "Roger Gracie Cross Choke",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "Jiu-Jitsu Channel",
+        "duration": 134,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -444,6 +473,35 @@
         "phase": "Competition Simulation Sparring",
         "focus": "Defending under realistic pressure with mixed attacks",
         "description": "Full resistance positional sparring from 3-4 mount bottom. Bottom player scores for successful escapes, top player scores for submission or position advancement. Two-minute rounds with the choke as a genuine threat combined with other attacks to simulate competition pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "quuT1NHbY6Y",
+        "title": "Cross Choke Defense: Arm Wrap Throw",
+        "by": "Valente Brothers",
+        "vertical": false,
+        "channel": "Valente BrothersTV",
+        "duration": 70,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "QIRF2B9riAA",
+        "title": "Cross Choke Defense from Guard",
+        "by": "Wayne Sniffen",
+        "vertical": false,
+        "channel": "Wayne Sniffen",
+        "duration": 105,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "F1qoGHKy_uE",
+        "title": "Defend Cross Choke to Armbar",
+        "by": "Edgar Kruyning",
+        "vertical": false,
+        "channel": "Edgar Kruyning Official",
+        "duration": 22,
+        "verified": "2026-07-14"
       }
     ]
   }

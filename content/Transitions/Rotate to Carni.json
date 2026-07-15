@@ -274,7 +274,27 @@
         "answer": "From Carni, if the opponent defends the omoplata by rolling forward, follow the roll for an omoplata sweep to mount. If they posture and attempt to stack, use the stacking pressure to transition to a back take by threading under them. If they attempt to extract the arm, tighten the leg hook and switch to wrist lock threats on the trapped arm. The Carni position itself is a hub with multiple submission and positional advancement chains."
       }
     ],
-    "safety_considerations": "Rotate to Carni involves shoulder joint manipulation that can cause injury if executed explosively on an unprepared training partner. Always communicate with your partner before drilling omoplata-based positions. During rotation, avoid jerking or explosive movements that could hyperextend your partner's shoulder. Partners should tap early when shoulder pressure begins - do not wait for pain. Practitioners with shoulder injuries should avoid being the recipient during drilling. When completing the transition to Carni, control the shoulder angle gradually rather than cranking immediately. In competition, be prepared to release if opponent taps during any phase of the transition."
+    "safety_considerations": "Rotate to Carni involves shoulder joint manipulation that can cause injury if executed explosively on an unprepared training partner. Always communicate with your partner before drilling omoplata-based positions. During rotation, avoid jerking or explosive movements that could hyperextend your partner's shoulder. Partners should tap early when shoulder pressure begins - do not wait for pain. Practitioners with shoulder injuries should avoid being the recipient during drilling. When completing the transition to Carni, control the shoulder angle gradually rather than cranking immediately. In competition, be prepared to release if opponent taps during any phase of the transition.",
+    "clips": [
+      {
+        "id": "WliTCjEDA-8",
+        "title": "Basic entries and rotations into rubber guard",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 106,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "nuT1Jk0KVoI",
+        "title": "Rubber guard trap and rotation",
+        "by": "Richie Martinez",
+        "vertical": false,
+        "channel": "BJJ Trickster",
+        "duration": 246,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Rotate to Carni Defender",
@@ -403,6 +423,26 @@
         "phase": "Week 7+",
         "focus": "Live positional defense",
         "description": "Full resistance positional sparring from New York where partner can attempt Carni rotation or any other Rubber Guard attack. Defend all threats while working toward escape. Track how often Carni is successfully established versus defended to measure improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "0-SG9igq40E",
+        "title": "Omoplata escape to front headlock",
+        "by": "Asaf Mich",
+        "vertical": false,
+        "channel": "Asaf Mich",
+        "duration": 14,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Lo4xGcHQcbI",
+        "title": "Omoplata defense and counter",
+        "by": "Off the Wall Jiu Jitsu",
+        "vertical": false,
+        "channel": "Off the Wall Jiu Jitsu",
+        "duration": 125,
+        "verified": "2026-07-15"
       }
     ]
   },

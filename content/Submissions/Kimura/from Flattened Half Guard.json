@@ -328,6 +328,26 @@
         "answer": "The far arm is mechanically isolated from the opponent's defensive structure when it extends past their torso centerline — to reach for frames, underhooks, or crossface defense, they must expose it beyond the protection of their own body. The near arm, by contrast, is shielded beneath your chest and can be easily retracted to safety. Additionally, attacking the near arm requires you to sacrifice crossface control, which eliminates the head position advantage that makes the flattened half guard so dominant. The far arm attack preserves crossface pressure while the arm is already extended into a vulnerable position.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "P0AuQRSfHfs",
+        "title": "Kimura trap from half guard",
+        "by": "Clark Gracie",
+        "vertical": false,
+        "channel": "Clark Gracie Allegiance Jiu Jitsu",
+        "duration": 74,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "WS4OuwGvi9Y",
+        "title": "Kimura from reverse half guard",
+        "by": "Kameron Ross",
+        "vertical": false,
+        "channel": "Kameron Ross",
+        "duration": 41,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -458,6 +478,35 @@
         "phase": "Phase 4: Live Defensive Rounds",
         "focus": "Full-speed Kimura defense from flattened half guard",
         "description": "Three-minute rounds starting from flattened half guard with partner actively attacking the Kimura. Full resistance both directions. Track survival rate, escape rate, and time spent in danger. Develop the instinctive responses needed when the attack comes at full speed under real pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "GOLwVNTVcnY",
+        "title": "Kimura defense grip breaks",
+        "by": "Dirtball BJJ",
+        "vertical": false,
+        "channel": "Dirtball BJJ",
+        "duration": 81,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "gvRGrvtKd1U",
+        "title": "Kimura defense",
+        "by": "Jon Satava",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 142,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "uRn3DRICpeY",
+        "title": "Late kimura defense from bottom",
+        "by": "Fox Den Martial Arts",
+        "vertical": false,
+        "channel": "Fox Den Martial Arts",
+        "duration": 100,
+        "verified": "2026-07-14"
       }
     ]
   }

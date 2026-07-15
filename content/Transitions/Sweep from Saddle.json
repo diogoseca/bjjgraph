@@ -290,7 +290,36 @@
         "answer": "Abandon the sweep attempt immediately and prioritize heel protection. Return to the defensive hierarchy: hide the heel by rotating your knee inward, address the opponent's grips with systematic grip fighting, and re-establish frames. Never continue a sweep when submission mechanics are actively engaged, as the sweeping motion will accelerate joint damage significantly."
       }
     ],
-    "safety_considerations": "This technique carries significant knee and ankle injury risk for both participants. The bottom player must never attempt explosive sweeps when the opponent has an active heel hook grip, as rotational forces generated during the sweep can catastrophically amplify joint damage. Both training partners should establish clear tap protocols before drilling. Practice at controlled speeds initially, and never attempt this sweep in competition without extensive drilling. If you feel any knee rotation pressure during the sweep attempt, abandon the sweep immediately and tap if necessary."
+    "safety_considerations": "This technique carries significant knee and ankle injury risk for both participants. The bottom player must never attempt explosive sweeps when the opponent has an active heel hook grip, as rotational forces generated during the sweep can catastrophically amplify joint damage. Both training partners should establish clear tap protocols before drilling. Practice at controlled speeds initially, and never attempt this sweep in competition without extensive drilling. If you feel any knee rotation pressure during the sweep attempt, abandon the sweep immediately and tap if necessary.",
+    "clips": [
+      {
+        "id": "K5XhO7o5QN0",
+        "title": "Saddle entries from guard",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 66,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "xCrW5MBmqig",
+        "title": "Entering the saddle from elevating butterfly guard",
+        "by": "Foundation Chicago",
+        "vertical": false,
+        "channel": "Foundation Chicago",
+        "duration": 44,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "HVc2CKdAfN0",
+        "title": "X-guard to saddle (cross ashi)",
+        "by": "Johnny Jitsu",
+        "vertical": false,
+        "channel": "Johnny Jitsu",
+        "duration": 120,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Sweep from Saddle Defender",
@@ -407,6 +436,17 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full integration under realistic competitive conditions",
         "description": "Both players start in saddle at 80-100% intensity. Top player works to maintain position and finish submissions while bottom player uses full range of defensive options including sweep attempts. Focus on developing instinctive sweep recognition during active attacking sequences."
+      }
+    ],
+    "clips": [
+      {
+        "id": "myVCvQJ08RM",
+        "title": "Berimbolo counter to the saddle",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 25,
+        "verified": "2026-07-15"
       }
     ]
   }

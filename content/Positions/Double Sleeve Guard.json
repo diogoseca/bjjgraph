@@ -370,6 +370,17 @@
           "nogi": 10
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "EPAOODLwCj4",
+        "title": "Double Sleeve Guard: Grip Break to Bicep Ride",
+        "by": "Nomad Fitness & Jiu Jitsu",
+        "vertical": false,
+        "channel": "Nomad Fitness & Jiu Jitsu",
+        "duration": 168,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -728,6 +739,26 @@
           "nogi": 1
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "Cl5tutvZ2NA",
+        "title": "Break Posture to Triangle, Omoplata & Sweep",
+        "by": "Pathfinder Jiu-Jitsu Team",
+        "vertical": false,
+        "channel": "Pathfinder Jiu-Jitsu Team",
+        "duration": 50,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "HwB1hGa09OM",
+        "title": "Sleeve Guard Arm Drag",
+        "by": "Angel Halo Lopez",
+        "vertical": false,
+        "channel": "Angel Halo Lopez",
+        "duration": 82,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -762,6 +793,17 @@
     {
       "question": "How does the symmetrical bilateral control of this guard shape the tempo of the exchange for both players?",
       "answer": "Because both of the opponent's arms are tied up equally, neither player can quietly build a one-sided advantage without first winning a grip, so the position tends to freeze into a deliberate grip-fighting battle rather than fast scrambles. The bottom player uses this to control tempo and stall the top player's passing organization, while the top player must spend energy breaking at least one grip before any real progress. This symmetry makes the position energetically taxing for both sides and rewards whoever manages grip endurance and timing best. The tempo only breaks when one grip is won or lost, which is the trigger that tips the exchange toward either a sweep or a pass."
+    }
+  ],
+  "clips": [
+    {
+      "id": "KvJtOUDN-wY",
+      "title": "How Black Belts Grip Intelligently",
+      "by": "Jiu-Jitsu Channel",
+      "vertical": false,
+      "channel": "Jiu-Jitsu Channel",
+      "duration": 102,
+      "verified": "2026-07-14"
     }
   ]
 }

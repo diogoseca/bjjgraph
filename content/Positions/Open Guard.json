@@ -403,6 +403,35 @@
         "question": "How do you manage energy expenditure during extended guard passing sequences?",
         "answer": "Use strategic pressure and body positioning rather than explosive movements. Let gravity do work by positioning your weight on top of their frames rather than fighting against them. Commit to passes fully rather than half-attempts that waste energy. Recognize when to reset to a stable headquarters position rather than continuously forcing through strong defensive structures."
       }
+    ],
+    "clips": [
+      {
+        "id": "aQ2vFXXBn-o",
+        "title": "Countering a full inversion",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "9VdMAXqLXHA",
+        "title": "ADCC 2022 guard pass",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 154,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "f3PJ06A_bWQ",
+        "title": "Hip switch to back take",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 19,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -837,6 +866,35 @@
         "question": "How do you manage energy when defending sustained passing pressure for extended periods?",
         "answer": "Use efficient movements - small hip adjustments rather than large escapes when possible. Let your guard structure absorb pressure rather than fighting it directly. Threaten sweeps and submissions to force opponent to reset rather than continuously defending. Transition to half guard or closed guard periodically to recover if needed - these require less active maintenance."
       }
+    ],
+    "clips": [
+      {
+        "id": "lVLAROiSjNU",
+        "title": "Guard retention: when to sit up and escape",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 136,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "SehIaBibwYY",
+        "title": "3 attacks from collar & sleeve guard",
+        "by": "Giancarlo Bodoni",
+        "vertical": false,
+        "channel": "Giancarlo Bodoni",
+        "duration": 16,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "fM9jaU9qlUE",
+        "title": "Tomoe nage overhead sweep from open guard",
+        "by": "Sapateiro Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Sapateiro Jiujitsu Honolulu",
+        "duration": 35,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -871,6 +929,35 @@
     {
       "question": "What makes grip fighting the pacing mechanism of an open guard exchange?",
       "answer": "Grips determine who can dictate direction, break posture, and set the tempo before any pass or sweep is attempted. Whoever establishes dominant grips first controls the distance and the angle, forcing the opponent to react rather than initiate. Grips are broken and re-established one at a time using two-on-one mechanics, because breaking both simultaneously compromises base and invites off-balancing. This constant hand-fighting layer runs underneath the leg battle, and the player who wins it usually wins the positional exchange, since leg frames without grip support are far easier to bypass."
+    }
+  ],
+  "clips": [
+    {
+      "id": "lVLAROiSjNU",
+      "title": "Guard retention: when to sit up and escape",
+      "by": "Lachlan Giles",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 136,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "aYknDsVN5aM",
+      "title": "Open guard warm-up fundamentals",
+      "by": "Jiu Jitsu Vintage",
+      "vertical": false,
+      "channel": "Jiu Jitsu Vintage",
+      "duration": 107,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "ZzAtxR7p_YE",
+      "title": "The Y-guard: an open guard secret weapon",
+      "by": "Felipe Costa",
+      "vertical": false,
+      "channel": "Felipe Costa",
+      "duration": 61,
+      "verified": "2026-07-14"
     }
   ]
 }

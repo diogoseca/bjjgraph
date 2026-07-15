@@ -293,7 +293,36 @@
         "answer": "During the initial control phase, weight favors the upper body at roughly 60-40 to establish crossface dominance and break posture. During the hook-killing phase, weight shifts to roughly 40-60 favoring the hips as you drive your hip bone onto the butterfly hook to pin it. During the extraction phase, weight returns to upper body emphasis at 60-40 to prevent guard recovery while your legs work the extraction. Throughout all phases, avoid concentrating weight entirely on either end, as this creates instability and opens sweep or recovery opportunities."
       }
     ],
-    "safety_considerations": "The smash from butterfly half guard applies significant compressive pressure to the bottom player's torso and ribcage. When drilling, progressively increase pressure rather than applying full competition-level weight immediately. Be attentive to your partner's breathing and tapping signals, as sustained chest-to-chest pressure can restrict breathing. During the hip switch pin variant, be mindful of the bottom player's knee and ankle alignment, as trapping the butterfly hook foot with rotational force can stress the ankle joint if the foot is caught at an awkward angle. In training, allow your partner time to adjust their position if they indicate discomfort in any joint."
+    "safety_considerations": "The smash from butterfly half guard applies significant compressive pressure to the bottom player's torso and ribcage. When drilling, progressively increase pressure rather than applying full competition-level weight immediately. Be attentive to your partner's breathing and tapping signals, as sustained chest-to-chest pressure can restrict breathing. During the hip switch pin variant, be mindful of the bottom player's knee and ankle alignment, as trapping the butterfly hook foot with rotational force can stress the ankle joint if the foot is caught at an awkward angle. In training, allow your partner time to adjust their position if they indicate discomfort in any joint.",
+    "clips": [
+      {
+        "id": "Pk_6CrydIRQ",
+        "title": "Half butterfly guard pass for no-gi",
+        "by": "Factory Fresh coach",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 110,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "s5MYmM58Ipg",
+        "title": "Smash pass baiting the butterfly hook",
+        "by": "JT Torres",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 198,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Ll3fkZ2oQD0",
+        "title": "Half butterfly guard pass, no-gi",
+        "by": "Kieran Davern",
+        "vertical": false,
+        "channel": "KD Grappling | Kieran Davern",
+        "duration": 170,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Smash from Butterfly Half Defender",
@@ -423,6 +452,26 @@
         "phase": "Phase 4: Full Resistance Positional Sparring",
         "focus": "Competition-level defense and counter-attacking",
         "description": "Full resistance positional sparring starting in butterfly half guard bottom. Top player attempts smash or any pass, bottom player defends and counters using all tools developed in previous phases. Track success rates for guard retention, sweeps, and transitions. Identify which defensive responses work best against different partners and pressure styles. 5-minute rounds with full resistance."
+      }
+    ],
+    "clips": [
+      {
+        "id": "02sVMQyHuGc",
+        "title": "Guard retention using butterfly hooks",
+        "by": "Diamondback BJJ coach",
+        "vertical": false,
+        "channel": "Diamondback Jiu-Jitsu",
+        "duration": 81,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ynoR-AtSYUc",
+        "title": "Guard retention around the legs",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 210,
+        "verified": "2026-07-15"
       }
     ]
   }

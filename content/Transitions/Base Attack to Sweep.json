@@ -251,7 +251,27 @@
         "answer": "Use the threat of one to create openings for the other. When opponent widens base to defend sweep, space opens for arm extraction. When they tighten to prevent arm escape, their base becomes vulnerable. Flowing between both keeps opponent in reactive mode rather than allowing them to settle into stable control."
       }
     ],
-    "safety_considerations": "This technique is executed from a position that places your shoulder at significant injury risk. Before attempting any sweep, ensure your shoulder remains in safe rotation range with internal rotation maintained. Never sacrifice shoulder safety for sweep success - tap immediately if pressure reaches uncomfortable levels during any phase of the technique. Practice with partners who understand the dangers of Aoki Lock and will respect tap signals instantly. Beginners should drill this technique at very low resistance until the coordination between shoulder protection and sweep mechanics becomes automatic. The sweep should feel like a bonus when available, not a desperate attempt to avoid tapping. Shoulder injuries from this position include rotator cuff tears, labrum damage, and dislocation - none are worth a sweep in training."
+    "safety_considerations": "This technique is executed from a position that places your shoulder at significant injury risk. Before attempting any sweep, ensure your shoulder remains in safe rotation range with internal rotation maintained. Never sacrifice shoulder safety for sweep success - tap immediately if pressure reaches uncomfortable levels during any phase of the technique. Practice with partners who understand the dangers of Aoki Lock and will respect tap signals instantly. Beginners should drill this technique at very low resistance until the coordination between shoulder protection and sweep mechanics becomes automatic. The sweep should feel like a bonus when available, not a desperate attempt to avoid tapping. Shoulder injuries from this position include rotator cuff tears, labrum damage, and dislocation - none are worth a sweep in training.",
+    "clips": [
+      {
+        "id": "LQ6KvabLLik",
+        "title": "Shoulder Crunch Sweep Drill to Armbar",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 17,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "BE_5LYzydJ8",
+        "title": "Shoulder Clamp Guard Sweep and Submissions",
+        "by": "theincafox",
+        "vertical": false,
+        "channel": "theincafox",
+        "duration": 53,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Base Attack to Sweep Defender",
@@ -376,6 +396,17 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring integration",
         "description": "Full Aoki Lock positional sparring where partner can attempt any escape including Base Attack to Sweep. Practice reading sweep setups while maintaining submission pressure, choosing between base defense and back control transition in real time under competition conditions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kNfVYhZbgrg",
+        "title": "Four Levels of Sweep Defense",
+        "by": "Wim Deputter",
+        "vertical": false,
+        "channel": "Wim Deputter BJJ",
+        "duration": 87,
+        "verified": "2026-07-15"
       }
     ]
   },

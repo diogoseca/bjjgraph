@@ -367,6 +367,35 @@
         "answer": "Your legs must maintain constant control of the opponent's head and torso. One leg should be across their face or neck preventing rotation, while both knees pinch together. If this leg control is lost, the opponent can turn into you, stack you, or extract their arm. The legs are not passive—they actively prevent escape by controlling the opponent's ability to rotate their body or posture up into you.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "PSgn9TBgwfc",
+        "title": "Side control to Te Gatame armbar",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 77,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "hvmfvbXgH90",
+        "title": "Arm bar from Side Control",
+        "by": "Prism Jiu Jitsu",
+        "vertical": false,
+        "channel": "Prism Jiu Jitsu",
+        "duration": 101,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "5lEXzhE03BQ",
+        "title": "Armbar from Side Control",
+        "by": "Nicholas Meregali",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 164,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -509,6 +538,35 @@
         "phase": "Phase 4: Live Positional Rounds",
         "focus": "Integrating armbar defense into full side control escape game",
         "description": "Full resistance positional rounds starting from side control bottom. Attacker can attempt armbar along with all other submissions and transitions. Defender must survive all threats while working standard escapes, integrating armbar defense into their overall defensive framework rather than treating it as an isolated scenario."
+      }
+    ],
+    "clips": [
+      {
+        "id": "fRhm4gy-kxo",
+        "title": "Armbar escape to side control",
+        "by": "Valdir Rodrigues",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 60,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "My favorite armbar escape",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "sDdqvh_1kbA",
+        "title": "Armbar escape",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 63,
+        "verified": "2026-07-14"
       }
     ]
   },

@@ -320,7 +320,36 @@
         "answer": "The most common failure is rushing to insert hooks before establishing complete upper body control and hip blocking. Practitioners feel the positional advantage of being on top of turtle and immediately try to get hooks in, skipping the seatbelt and hip block steps. This allows the opponent to easily defend with sit-backs, granby rolls, or standup attempts. The solution is disciplined adherence to the top-down control progression: chest pressure first, seatbelt second, hip block third, and only then begin hook insertion. Patience in each phase dramatically increases completion rate."
       }
     ],
-    "safety_considerations": "The turtle to back transition is generally safe for training at all levels as it involves positional control rather than direct joint manipulation or choking. However, practitioners should be mindful of knee pressure when blocking opponent's hip, as excessive outward pressure can stress knee ligaments. When falling to your side with hooks secured, control your descent to avoid dropping full body weight suddenly on opponent's ribcage or hip. Communication is important if opponent feels compressed or cannot breathe due to chest pressure on their back. For training partners with shoulder or back injuries, modify chest pressure intensity and ensure they can tap if experiencing discomfort. During the learning phase, avoid explosive movements that could cause both practitioners to roll uncontrollably. If opponent attempts a desperate escape by rolling, maintain controlled connection throughout the roll to prevent awkward landings or neck compression."
+    "safety_considerations": "The turtle to back transition is generally safe for training at all levels as it involves positional control rather than direct joint manipulation or choking. However, practitioners should be mindful of knee pressure when blocking opponent's hip, as excessive outward pressure can stress knee ligaments. When falling to your side with hooks secured, control your descent to avoid dropping full body weight suddenly on opponent's ribcage or hip. Communication is important if opponent feels compressed or cannot breathe due to chest pressure on their back. For training partners with shoulder or back injuries, modify chest pressure intensity and ensure they can tap if experiencing discomfort. During the learning phase, avoid explosive movements that could cause both practitioners to roll uncontrollably. If opponent attempts a desperate escape by rolling, maintain controlled connection throughout the roll to prevent awkward landings or neck compression.",
+    "clips": [
+      {
+        "id": "gvFU2sS3fLE",
+        "title": "Taking the back from a tight turtle",
+        "by": "Devine Jiu Jitsu",
+        "vertical": false,
+        "channel": "Devine Jiu Jitsu",
+        "duration": 99,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "XXnawMQEfKw",
+        "title": "Breaking the turtle with the spiral ride",
+        "by": "Big Guy BJJ",
+        "vertical": false,
+        "channel": "Big Guy BJJ",
+        "duration": 73,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_ApGfiRgL5k",
+        "title": "Back take basics",
+        "by": "Leo Vieira",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 54,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Turtle to Back Control Defender",
@@ -458,6 +487,17 @@
         "phase": "Week 7-8: Live Defensive Sparring",
         "focus": "Defending back take attempts under full resistance with complete toolkit",
         "description": "Three-minute rounds starting from turtle bottom against fully resisting partner. You score points for successful escapes to guard or standing. Partner scores for completed back take. Mix all defensive tools based on attacker's approach. Develop the ability to read the attacker's intentions and select appropriate defense in real-time. Build mental toughness under pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "_sBB-O8fqP4",
+        "title": "Standing up out of turtle before the back take",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 114,
+        "verified": "2026-07-15"
       }
     ]
   }

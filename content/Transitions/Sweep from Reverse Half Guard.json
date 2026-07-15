@@ -298,7 +298,36 @@
         "answer": "A failed sweep that stays in reverse half guard occurs when the opponent simply stops the rotation but does not advance—you retain your leg entanglement and return to the starting position. Side control bottom results when the opponent both stops the sweep and capitalizes by extracting their trapped leg and passing during your compromised positioning. The difference is whether you maintain leg control during the failure. If leg control holds, you stay in reverse half; if it breaks during the failed attempt, the opponent passes."
       }
     ],
-    "safety_considerations": "The Sweep from Reverse Half Guard involves rotational forces through the spine and neck during the inverted transition phase. Always keep the chin tucked tightly during rotation to protect cervical vertebrae. Avoid forcing the sweep against a fully posted opponent, as this can create awkward twisting loads on the lower back and knees. During training, tap immediately if you feel any neck compression or spinal torque during the rotation. Partners should allow the sweep to complete rather than resisting in ways that create dangerous spinal angles. Progress resistance gradually and ensure both partners understand the rotational mechanics before drilling at full speed."
+    "safety_considerations": "The Sweep from Reverse Half Guard involves rotational forces through the spine and neck during the inverted transition phase. Always keep the chin tucked tightly during rotation to protect cervical vertebrae. Avoid forcing the sweep against a fully posted opponent, as this can create awkward twisting loads on the lower back and knees. During training, tap immediately if you feel any neck compression or spinal torque during the rotation. Partners should allow the sweep to complete rather than resisting in ways that create dangerous spinal angles. Progress resistance gradually and ensure both partners understand the rotational mechanics before drilling at full speed.",
+    "clips": [
+      {
+        "id": "VsPTkiq_OM4",
+        "title": "Reverse half guard sweep to leg drag",
+        "by": "Fernando Reis",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 62,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "iVUskeb2-Ss",
+        "title": "Back take from reverse half guard",
+        "by": "Trapp Martial Arts",
+        "vertical": false,
+        "channel": "Trapp Martial Arts",
+        "duration": 104,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "iwcRISvtG3g",
+        "title": "Inverted half guard sweep to ezequiel from the back",
+        "by": "Carpio Jiu Jitsu",
+        "vertical": false,
+        "channel": "Carpio Jiu Jitsu",
+        "duration": 116,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Sweep from Reverse Half Guard Defender",
@@ -419,6 +448,17 @@
         "phase": "Phase 4: Live Pressure Testing",
         "focus": "Full resistance positional sparring from reverse half guard top",
         "description": "Start in reverse half guard top against full-resistance partners who are actively hunting sweeps and back takes. Practice balancing passing pressure with sweep awareness in live conditions. Track how often you get swept versus successfully passing to refine your weight management instincts."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kTSMGYlVJKY",
+        "title": "Free your trapped foot while passing half guard",
+        "by": "Kameron Ross",
+        "vertical": false,
+        "channel": "Kameron Ross",
+        "duration": 55,
+        "verified": "2026-07-15"
       }
     ]
   }

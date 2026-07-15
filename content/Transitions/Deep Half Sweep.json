@@ -285,7 +285,36 @@
         "answer": "When the opponent whizzers your underhook arm, do not try to fight the whizzer directly. Instead, redirect by driving your underhook elbow toward their far hip, making the whizzer less effective at stripping your control. Alternatively, use the whizzer pressure to set up an Electric Chair entry by feeding your hips deeper and establishing lockdown on their trapped leg. The whizzer commits their arm, which can be exploited for the position change."
       }
     ],
-    "safety_considerations": "The Deep Half Sweep is generally a low-risk technique with no joint manipulation or choking mechanics involved. The primary safety concern is neck positioning during the sweep. Ensure your head remains tucked against the opponent's thigh rather than extended or twisted, as the weight loading during elevation can create cervical compression if the head is mispositioned. Avoid attempting the sweep if you feel any neck discomfort in the starting position. Partners should communicate immediately if they feel trapped in an awkward position during the sweep rotation. During drilling, control the speed of the sweep completion to prevent the top player from being dumped unexpectedly onto their head or shoulder."
+    "safety_considerations": "The Deep Half Sweep is generally a low-risk technique with no joint manipulation or choking mechanics involved. The primary safety concern is neck positioning during the sweep. Ensure your head remains tucked against the opponent's thigh rather than extended or twisted, as the weight loading during elevation can create cervical compression if the head is mispositioned. Avoid attempting the sweep if you feel any neck discomfort in the starting position. Partners should communicate immediately if they feel trapped in an awkward position during the sweep rotation. During drilling, control the speed of the sweep completion to prevent the top player from being dumped unexpectedly onto their head or shoulder.",
+    "clips": [
+      {
+        "id": "4EpYNsTwjWY",
+        "title": "Deep half sweep — the Faria sweep",
+        "by": "Team Daruma Dojo",
+        "vertical": false,
+        "channel": "Team Daruma Dojo",
+        "duration": 71,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ZQzg3TnzMJI",
+        "title": "Deep half guard sweep demonstration",
+        "by": "Kyle Dimmitt",
+        "vertical": false,
+        "channel": "Kyle Dimmitt",
+        "duration": 42,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "v7MopqNBzwY",
+        "title": "No-gi deep half guard sweep in one minute",
+        "by": "Prism Jiu Jitsu",
+        "vertical": false,
+        "channel": "Prism Jiu Jitsu",
+        "duration": 53,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Deep Half Sweep Defender",
@@ -402,6 +431,35 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Full resistance defense application",
         "description": "Positional sparring starting in deep half guard top. Defend all sweep attempts with full resistance while working to extract and pass. Track which defensive options work best against specific training partners and refine approach based on results."
+      }
+    ],
+    "clips": [
+      {
+        "id": "hHbb7ywVTwU",
+        "title": "Top counter to the deep half sweep into a back take",
+        "by": "JiuJitsu.com",
+        "vertical": false,
+        "channel": "JiuJitsu.com",
+        "duration": 63,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "K0XMj9BNJ8U",
+        "title": "Knee slide pass counter against deep half",
+        "by": "Scott Ryan Chiriboga",
+        "vertical": false,
+        "channel": "Scott Ryan Chiriboga",
+        "duration": 133,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "JEDoJOZWQHY",
+        "title": "Three options to defend the deep half guard",
+        "by": "Six Blades Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Six Blades Jiu-Jitsu Fort Worth",
+        "duration": 207,
+        "verified": "2026-07-15"
       }
     ]
   }

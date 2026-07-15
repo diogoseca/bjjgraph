@@ -373,6 +373,35 @@
         "question": "What indicates you should abandon the choke and transition to a different position?",
         "answer": "Transition when opponent successfully extracts their trapped arm past your grip depth, when they establish solid frames that you cannot collapse after 15-20 seconds of effort, when they achieve strong underhook on your far leg threatening sweep, or when they begin to successfully stand or build base despite your pressure. In these scenarios, flowing to mount, back control, or north-south maintains your advantage better than fighting for a position that has been significantly compromised."
       }
+    ],
+    "clips": [
+      {
+        "id": "XoiB1D2WJwE",
+        "title": "Dead Orchard Instructional (Part 1)",
+        "by": "Nathan Orchard",
+        "vertical": false,
+        "channel": "10th Planet Portland",
+        "duration": 111,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "i9rAyo8tRZw",
+        "title": "Hindulotine Breakdown",
+        "by": "CordesgainsBJJ",
+        "vertical": false,
+        "channel": "CordesgainsBJJ",
+        "duration": 87,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "6UwoAQt6u6o",
+        "title": "Hindulotine Finish",
+        "by": "Ben Eddy",
+        "vertical": false,
+        "channel": "Rubber Guard Assassins",
+        "duration": 60,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -709,6 +738,35 @@
         "question": "What indicates you should stop fighting and tap rather than continue escape attempts?",
         "answer": "Tap when you feel sharp pressure on the blood vessels in your neck combined with vision changes, ringing in ears, or a sensation of pressure building in your head. Also tap if you've been fighting the position for extended time and feel your movements becoming sluggish or uncoordinated. Never wait until you're about to lose consciousness. In training, tap early and learn - an early tap is far better than brain hypoxia or cervical injury. The position will be there tomorrow to practice again."
       }
+    ],
+    "clips": [
+      {
+        "id": "SXm9wA1HcvM",
+        "title": "Anaconda Choke Defense",
+        "by": "SFS MMA",
+        "vertical": false,
+        "channel": "Fierce Pierce15",
+        "duration": 64,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "czQckiDogRc",
+        "title": "How to Escape the Anaconda Choke",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 92,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "J-MaOIfDHXk",
+        "title": "Standing Front Headlock Choke Defense",
+        "by": "Empower Gym Tampa",
+        "vertical": false,
+        "channel": "Empower Gym Tampa",
+        "duration": 60,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -743,6 +801,35 @@
     {
       "question": "What shared dynamic makes explosive movement generally counterproductive for both players in Dead Orchard Control?",
       "answer": "The position is governed by tight connection and constant compression, so sudden explosive movement tends to create the very momentum and space the other side can exploit. For the trapped player, thrashing burns oxygen against a restricted airway and often feeds the top player's transitions to mount or back. For the controlling player, lunging for a rushed finish sacrifices the connection that keeps the loop tight and lets the trapped arm or head slip free. Both sides are therefore better served by small, deliberate adjustments that preserve or attack structure incrementally, which is why the position rewards methodical pressure and composure over speed."
+    }
+  ],
+  "clips": [
+    {
+      "id": "EbhWFWp-B6s",
+      "title": "How to Do an Anaconda Choke",
+      "by": "Brandon Mccaghren",
+      "vertical": false,
+      "channel": "Brandon Mccaghren",
+      "duration": 81,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "dr66s8QK9_g",
+      "title": "Anaconda Choke Finish Details",
+      "by": "Ben Eddy",
+      "vertical": false,
+      "channel": "Ben Eddy Bravo",
+      "duration": 96,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "GsqBxkrlrKE",
+      "title": "Rolling Anaconda from Leg Drag",
+      "by": "Brent Smith",
+      "vertical": false,
+      "channel": "Brandon Mccaghren",
+      "duration": 115,
+      "verified": "2026-07-14"
     }
   ]
 }

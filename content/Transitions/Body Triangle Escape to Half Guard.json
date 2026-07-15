@@ -292,7 +292,36 @@
         "answer": "The moment the foot clears from behind the knee, immediately insert your elbow or forearm into the space between your body and their locking leg as a structural wedge. This frame physically blocks the foot from returning to the lock position. Maintain this wedge while executing the hip escape – do not release it until your legs are threaded and half guard is established."
       }
     ],
-    "safety_considerations": "This escape involves significant spinal rotation and breathing management under chest compression. Never practice triangle clearing techniques explosively, as sudden movements while the opponent's legs are locked around your torso can cause rib injuries or intercostal muscle strain. Partners should communicate clearly about squeeze pressure levels and release immediately if the bottom player signals distress or difficulty breathing. During initial learning phases, the back controller should apply light triangle pressure to allow safe repetition of clearing mechanics. Tap immediately if breathing becomes severely restricted during training – there is no benefit to training through dangerous levels of breathing restriction."
+    "safety_considerations": "This escape involves significant spinal rotation and breathing management under chest compression. Never practice triangle clearing techniques explosively, as sudden movements while the opponent's legs are locked around your torso can cause rib injuries or intercostal muscle strain. Partners should communicate clearly about squeeze pressure levels and release immediately if the bottom player signals distress or difficulty breathing. During initial learning phases, the back controller should apply light triangle pressure to allow safe repetition of clearing mechanics. Tap immediately if breathing becomes severely restricted during training – there is no benefit to training through dangerous levels of breathing restriction.",
+    "clips": [
+      {
+        "id": "DDPqmYJi96M",
+        "title": "Back body triangle defense",
+        "by": "Marcelo Alonso",
+        "vertical": false,
+        "channel": "Marcelo Alonso",
+        "duration": 26,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Dc3sgOZddOg",
+        "title": "Escaping the body triangle from back control",
+        "by": "Coach Ben",
+        "vertical": false,
+        "channel": "Coach Ben BJJ",
+        "duration": 138,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Uh65lTkDipQ",
+        "title": "Creative body triangle escape details",
+        "by": "BJJ Regeneration coach",
+        "vertical": false,
+        "channel": "BJJ Regeneration",
+        "duration": 179,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Body Triangle Escape to Half Guard Defender",
@@ -416,6 +445,35 @@
         "phase": "Phase 4: Submission Integration",
         "focus": "Converting escape attempts into finishing opportunities",
         "description": "Partner attempts escapes while you practice using their clearing attempts as submission openings – attacking the neck when hands redirect to the triangle, isolating reaching arms for armbar transitions, and using strategic pressure increases to force defensive errors that create choke entries."
+      }
+    ],
+    "clips": [
+      {
+        "id": "3OkCuU0B0UE",
+        "title": "Locking the body triangle to hold the back",
+        "by": "Grapple Box coach",
+        "vertical": false,
+        "channel": "Grapple Box llc",
+        "duration": 28,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "CUZLhGfADcA",
+        "title": "Countering the body triangle footlock defense",
+        "by": "MMA Academy coach",
+        "vertical": false,
+        "channel": "MMA ACADEMY ONLINE",
+        "duration": 51,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "v0OBjBZ1Jug",
+        "title": "Body triangle mechanics from the back",
+        "by": "MMA Academy coach",
+        "vertical": false,
+        "channel": "MMA ACADEMY ONLINE",
+        "duration": 54,
+        "verified": "2026-07-15"
       }
     ]
   }

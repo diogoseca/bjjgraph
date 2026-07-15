@@ -308,5 +308,43 @@
       "name": "from Technical Mount",
       "slug": "from-technical-mount"
     }
+  ],
+  "clips": [
+    {
+      "id": "CeNHFF1gcNE",
+      "title": "Americana Armlock",
+      "by": "Dr. Deng",
+      "vertical": false,
+      "channel": "Dr. Deng",
+      "duration": 17,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "uPazS4MJiDc",
+      "title": "How To Perform An Americana From Top Mount",
+      "by": "Evolve MMA",
+      "vertical": false,
+      "channel": "Evolve Mixed Martial Arts",
+      "duration": 71,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "Z44VF9pmJBg",
+      "title": "Americana from Mount",
+      "by": "Chelsea Ozer",
+      "vertical": false,
+      "channel": "Alain Pozo",
+      "duration": 52,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "mk4jR6Anm8g",
+      "title": "Finishing the Americana",
+      "by": "The Muscular Octopus",
+      "vertical": false,
+      "channel": "The Muscular Octopus",
+      "duration": 71,
+      "verified": "2026-07-14"
+    }
   ]
 }

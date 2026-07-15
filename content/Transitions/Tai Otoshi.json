@@ -303,7 +303,36 @@
         "answer": "Four conditions must be present before committing: (1) You have at least two secure grip points with dominant configuration, (2) the opponent's weight is forward or moving forward - you can feel this through your grips as tension pulling toward you, (3) their base is narrowed or one foot is lifted during a step, detectable by the momentary lightness in your grips, and (4) you have sufficient space to rotate without obstruction. The recognition is primarily tactile rather than visual. Through your grip connection you should feel their weight shift forward, a slight pulling sensation, and reduced resistance to your kuzushi attempt. Committing without these conditions present leads to failed entries and wasted energy."
       }
     ],
-    "safety_considerations": "When practicing Tai Otoshi, both the person executing the throw and the person being thrown must observe critical safety protocols. The individual being thrown should know proper breakfall technique (slapping the mat with their arm to dissipate impact force) before practicing this throw at full speed. Begin all training with crash pads or soft mats until proper falling mechanics are mastered. The thrower must maintain control throughout the technique and never release their partner suddenly or throw them with excessive force beyond their breakfalling ability. When first learning, execute the throw in slow motion with the partner stepping over your leg voluntarily to understand the mechanics. Progress gradually from static drilling to dynamic application over several weeks. Be particularly cautious about the blocking leg placement - if placed too far across opponent's body or with excessive force, it can cause knee injuries to either practitioner. Practice on appropriate training surfaces with adequate space, avoiding hard floors, walls, or obstacles. Partners should communicate throughout training, especially when fatigue sets in as this increases injury risk. Never practice throws on untrained individuals who do not know how to fall properly."
+    "safety_considerations": "When practicing Tai Otoshi, both the person executing the throw and the person being thrown must observe critical safety protocols. The individual being thrown should know proper breakfall technique (slapping the mat with their arm to dissipate impact force) before practicing this throw at full speed. Begin all training with crash pads or soft mats until proper falling mechanics are mastered. The thrower must maintain control throughout the technique and never release their partner suddenly or throw them with excessive force beyond their breakfalling ability. When first learning, execute the throw in slow motion with the partner stepping over your leg voluntarily to understand the mechanics. Progress gradually from static drilling to dynamic application over several weeks. Be particularly cautious about the blocking leg placement - if placed too far across opponent's body or with excessive force, it can cause knee injuries to either practitioner. Practice on appropriate training surfaces with adequate space, avoiding hard floors, walls, or obstacles. Partners should communicate throughout training, especially when fatigue sets in as this increases injury risk. Never practice throws on untrained individuals who do not know how to fall properly.",
+    "clips": [
+      {
+        "id": "u-_hDq8GgpM",
+        "title": "Textbook Tai Otoshi",
+        "by": "Grappler Kingdom",
+        "vertical": false,
+        "channel": "Grappler Kingdom",
+        "duration": 34,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "0cZMdRefW5E",
+        "title": "Tai Otoshi throw demonstration",
+        "by": "Steve Scott",
+        "vertical": false,
+        "channel": "welcomematstevescott",
+        "duration": 16,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Lmr7pahOSr0",
+        "title": "Tai Otoshi into Tomoe Nage combination",
+        "by": "Tatsfield Judo",
+        "vertical": false,
+        "channel": "TATSFIELD MARTIAL ARTS - JUDO & JUJITSU DOJO",
+        "duration": 67,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Tai Otoshi Defender",
@@ -426,6 +455,26 @@
         "phase": "Week 9-12: Competitive Standing Rounds",
         "focus": "Full-speed throw defense integrated into live grappling",
         "description": "Standing sparring rounds where partner is specifically working Tai Otoshi as their primary throw. Defend at full speed while also maintaining your own offensive capabilities. Practice recognizing Tai Otoshi versus other forward throws and selecting appropriate defense. Focus on transitioning from successful defense immediately into your own attacks."
+      }
+    ],
+    "clips": [
+      {
+        "id": "GHnOhjt4nn0",
+        "title": "Tai Otoshi Counter",
+        "by": "Katelyn Jarrell",
+        "vertical": false,
+        "channel": "JudoFanatics",
+        "duration": 95,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lyGzPirYRxM",
+        "title": "Ouchi-gari to Tai Otoshi counter",
+        "by": "Judo PSG Club Australia",
+        "vertical": false,
+        "channel": " Judo PSG Club Australia ",
+        "duration": 13,
+        "verified": "2026-07-15"
       }
     ]
   },

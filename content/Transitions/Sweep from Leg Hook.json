@@ -292,7 +292,36 @@
         "answer": "The primary chains are: arm drag to back take if the opponent posts a hand, deep half entry if they sprawl forward, single leg X-guard transition if they stand to disengage, and dogfight position if the sweep stalls halfway. Each chain capitalizes on the specific defensive response the opponent used to stop the initial sweep, meaning their defense to one threat opens them to the next threat in the chain."
       }
     ],
-    "safety_considerations": "The Sweep from Leg Hook is generally low-risk but practitioners should be mindful of knee stress on the hooking leg during aggressive sweeping motions, particularly when the hook gets caught at an awkward angle during the roll. Ensure the leg hook maintains natural knee alignment throughout the sweep by keeping your heel engaged rather than locking your ankle rigidly. Communicate with training partners about knee sensitivity before drilling. During initial practice, use cooperative repetitions at slow speed to develop proper movement patterns before adding resistance or speed. The follow-through phase carries risk of landing heavily on the opponent, so control your descent into mount rather than dropping full weight suddenly."
+    "safety_considerations": "The Sweep from Leg Hook is generally low-risk but practitioners should be mindful of knee stress on the hooking leg during aggressive sweeping motions, particularly when the hook gets caught at an awkward angle during the roll. Ensure the leg hook maintains natural knee alignment throughout the sweep by keeping your heel engaged rather than locking your ankle rigidly. Communicate with training partners about knee sensitivity before drilling. During initial practice, use cooperative repetitions at slow speed to develop proper movement patterns before adding resistance or speed. The follow-through phase carries risk of landing heavily on the opponent, so control your descent into mount rather than dropping full weight suddenly.",
+    "clips": [
+      {
+        "id": "ToLW25DrD_k",
+        "title": "Half guard sweep with the leg hook",
+        "by": "R. Keller",
+        "vertical": false,
+        "channel": "Rkeller920",
+        "duration": 41,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "N_NGkZs9I-M",
+        "title": "Black X sweep from half guard",
+        "by": "Bruno Bastos",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "VsPTkiq_OM4",
+        "title": "Reverse half guard sweep to leg drag",
+        "by": "Fernando Reis",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 62,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Sweep from Leg Hook Defender",
@@ -417,6 +446,26 @@
         "phase": "Phase 4: Defense to Counter-Attack",
         "focus": "Converting sweep defense into passing opportunities",
         "description": "After successfully defending the sweep, immediately transition to a guard pass using the space and angle the bottom player created during their sweep setup. Practice chaining the defense into knee slice, leg drag, and pressure pass completions to develop the reflex of converting defense into offense."
+      }
+    ],
+    "clips": [
+      {
+        "id": "O3YoK7uDtHI",
+        "title": "Hip flick defense against the hook sweep",
+        "by": "Satori BJJ coach",
+        "vertical": false,
+        "channel": "Satori BJJ",
+        "duration": 80,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_XjuF0no1Uw",
+        "title": "Basic no-gi half guard pass to beat the hook",
+        "by": "Danny Mitchell",
+        "vertical": false,
+        "channel": "Danny Mitchell MMA",
+        "duration": 89,
+        "verified": "2026-07-15"
       }
     ]
   }

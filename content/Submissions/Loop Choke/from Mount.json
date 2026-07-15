@@ -358,6 +358,26 @@
         "answer": "Competition finishing strategies include: establish grips incrementally while your opponent focuses on preventing mount escapes rather than collar defense, use other attacks (Americana, armbar) to create reactions that expose the collar, time your finish attempt when opponent is exhausted from defensive bridging, apply finishing pressure during their attempted escapes when their focus is divided, and commit fully once both grips are established rather than gradually tightening. Additionally, maintain your base throughout to prevent losing position if the choke fails, allowing you to maintain mount and attack again.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "Ku6XZn4SMEY",
+        "title": "Loop choke setup and finish",
+        "by": "Johnny Jitsu",
+        "vertical": false,
+        "channel": "Johnny Jitsu",
+        "duration": 98,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2_MBxK9pZ0M",
+        "title": "Loop choke from standing",
+        "by": "Gorilla BJJ Academy",
+        "vertical": false,
+        "channel": "Gorilla BJJ Academy Mahwah, NJ",
+        "duration": 138,
+        "verified": "2026-07-15"
+      }
     ]
   },
   "defender": {
@@ -499,6 +519,26 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Defending the loop choke against full resistance within mount escape scenarios",
         "description": "Start in mount bottom against a partner who is specifically hunting the loop choke along with other mount attacks. Defend using all trained responses: collar prevention, grip stripping, bridge timing, and turning escapes. Partner uses full resistance and chains the loop choke with cross collar chokes and arm attacks. Track how often you prevent the choke from being established versus how often you must escape a partially locked choke."
+      }
+    ],
+    "clips": [
+      {
+        "id": "pZmJpXSwRTk",
+        "title": "Loop choke escape",
+        "by": "Ninja Pinto",
+        "vertical": false,
+        "channel": "Ninja Pinto BJJ",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "be-iHHhJGng",
+        "title": "Cross collar choke defense from bottom",
+        "by": "Peter Mettler",
+        "vertical": false,
+        "channel": "Peter Mettler Martial Arts",
+        "duration": 130,
+        "verified": "2026-07-15"
       }
     ]
   },

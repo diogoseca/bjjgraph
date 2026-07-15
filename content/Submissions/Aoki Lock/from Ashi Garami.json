@@ -376,6 +376,35 @@
         "answer": "The most common finishing error is prioritizing plantar flexion over compression by trying to hyperextend the foot without sufficient leg squeeze. This allows opponents with flexible ankles to resist the lock. The correction is to focus on simultaneous leg squeeze compression across the entire lower leg structure while using hip extension for plantar flexion. Think of it as crushing the shin and calf between your legs while pointing their toes - both components must work together. Practitioners who solely attack the ankle joint miss the compression element that makes this submission unique and effective against flexible opponents.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "tQWfhZiDREc",
+        "title": "Aoki lock from butterfly ashi",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 77,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "QDNLTs55V8c",
+        "title": "Sneaky Aoki lock from saddle",
+        "by": "Grappling Education",
+        "vertical": false,
+        "channel": "Grappling Education",
+        "duration": 121,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "qRH7g21c6xQ",
+        "title": "Aoki lock breakdown",
+        "by": "Escuela de Grappling",
+        "vertical": false,
+        "channel": "Escuela de Grappling - Certified Killers",
+        "duration": 199,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -511,6 +540,35 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Full-speed defense against Aoki Lock attempts in sparring",
         "description": "Positional sparring from ashi garami where attacker works Aoki Lock at full speed and the defender applies complete defensive toolkit. Include scenarios where defender must choose between extraction, posturing, and tapping based on the lock progression stage. 3-minute rounds alternating roles. Emphasize safety awareness and appropriate tap timing throughout."
+      }
+    ],
+    "clips": [
+      {
+        "id": "L417yCl_-dc",
+        "title": "Leg defense from ashi garami",
+        "by": "The Coop BJJ",
+        "vertical": false,
+        "channel": "The Coop BJJ",
+        "duration": 48,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "AQbJMBiWYfU",
+        "title": "Escaping ashi garami - leg lock defense",
+        "by": "Scott Elliott",
+        "vertical": false,
+        "channel": "Coach Scott Elliott",
+        "duration": 141,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "cRXsNPAgVLU",
+        "title": "Irimi ashi garami counter",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 29,
+        "verified": "2026-07-14"
       }
     ]
   },

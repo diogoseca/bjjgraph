@@ -295,7 +295,36 @@
         "answer": "The primary chain attacks include: transitioning to the Old School Sweep by reaching behind their far leg when they base back to prevent your come-up; entering deep half guard by scooting your hips underneath when they sprawl; taking the back by circling behind them when they whizzer; and transitioning to dogfight sweep options when the come-up stalls midway. The pocket half guard system ensures that each defensive reaction to the underhook sweep exposes a different vulnerability."
       }
     ],
-    "safety_considerations": "This sweep involves explosive hip and shoulder rotation under load, creating potential strain on the lower back and shoulders. Ensure controlled execution during drilling phases, gradually increasing speed and resistance. The come-up phase places significant stress on the posting wrist and elbow, so practitioners with wrist or elbow injuries should modify to use a forearm post. The half guard leg lock can create knee torque on the trapped leg during the drive-through, so communicate with training partners about pressure levels. Always warm up the hips, lower back, and shoulders before drilling this technique at intensity."
+    "safety_considerations": "This sweep involves explosive hip and shoulder rotation under load, creating potential strain on the lower back and shoulders. Ensure controlled execution during drilling phases, gradually increasing speed and resistance. The come-up phase places significant stress on the posting wrist and elbow, so practitioners with wrist or elbow injuries should modify to use a forearm post. The half guard leg lock can create knee torque on the trapped leg during the drive-through, so communicate with training partners about pressure levels. Always warm up the hips, lower back, and shoulders before drilling this technique at intensity.",
+    "clips": [
+      {
+        "id": "BCnjULrSSPw",
+        "title": "3 underhook sweeps from knee shield half guard",
+        "by": "Kameron Ross",
+        "vertical": false,
+        "channel": "Kameron Ross",
+        "duration": 38,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fCqC2CvOKt0",
+        "title": "Back pocket sweep from half guard",
+        "by": "Animal",
+        "vertical": false,
+        "channel": "Animal",
+        "duration": 51,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "W80zSgyOIuQ",
+        "title": "No-gi half guard underhook sweep",
+        "by": "Precision Martial Arts",
+        "vertical": false,
+        "channel": "Precision Martial Arts ",
+        "duration": 46,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Underhook Sweep from Pocket Half Defender",
@@ -420,6 +449,26 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Full resistance sweep defense with counter-passing",
         "description": "Full positional sparring from pocket half guard top. Partner attacks with underhook sweep and all chain attacks. You defend and attempt to pass. Track success rates of both sweep defense and passing completion. 5-minute rounds at competition pace."
+      }
+    ],
+    "clips": [
+      {
+        "id": "TwBbrjRxRRU",
+        "title": "Pick pocket method to pass the half guard",
+        "by": "Patrick Donabedian",
+        "vertical": false,
+        "channel": "Patrick Donabedian BJJ",
+        "duration": 93,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "iI2fc2lsbt0",
+        "title": "How David Taylor defends elite underhooks",
+        "by": "David Taylor",
+        "vertical": false,
+        "channel": "FloWrestling",
+        "duration": 195,
+        "verified": "2026-07-15"
       }
     ]
   }

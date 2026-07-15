@@ -372,6 +372,26 @@
         "question": "After your opponent successfully defends the triangle choke attempt, how do you reset without losing position?",
         "answer": "Maintain the triangle lock structure even when the choke is defended. Immediately transition to attacking the trapped arm for armbar or the free arm for kimura control. If opponent creates too much space defending the choke, tighten the triangle and re-establish chest pressure before cycling to the next attack. Never abandon the position just because one submission fails."
       }
+    ],
+    "clips": [
+      {
+        "id": "l5ayCZh3W78",
+        "title": "Rear triangle from the back",
+        "by": "Gracie Charlottesville",
+        "vertical": false,
+        "channel": "Gracie Charlottesville",
+        "duration": 32,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "oyXaGXU3mFU",
+        "title": "Rear triangle from side control",
+        "by": "Onyx Martial Arts",
+        "vertical": false,
+        "channel": "Onyx Martial Arts Edmundston ",
+        "duration": 77,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -697,6 +717,35 @@
         "question": "After successfully extracting your trapped arm, what is the immediate follow-up to complete the escape?",
         "answer": "Once the arm is extracted, immediately use it to frame against opponent's hip or leg while shrimping your hips away. Work to insert your bottom knee between your bodies to create a barrier. Continue turning toward the non-choking leg side while maintaining the frame. Target turtle position first as an interim goal, then work to recover guard or stand. Never stop moving once the arm is free."
       }
+    ],
+    "clips": [
+      {
+        "id": "ys398a2Trrw",
+        "title": "Escaping the topside body triangle",
+        "by": "Fox Den Martial Arts",
+        "vertical": false,
+        "channel": "Fox Den Martial Arts",
+        "duration": 48,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "fZCyt0MfUtA",
+        "title": "Back escape vs crossed feet body triangle",
+        "by": "Jeffjitsu",
+        "vertical": false,
+        "channel": "Jeffjitsu",
+        "duration": 54,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "_sBB-O8fqP4",
+        "title": "Standing-up back escape system",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 114,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -731,6 +780,26 @@
     {
       "question": "What determines whether the Rear Triangle progresses toward a finish or dissolves back into an adjacent position?",
       "answer": "The pivotal variable is the status of the trapped arm inside the loop: while it remains wedged, the position holds its choke and armbar threats intact. If the defender extracts that arm, the loop loses its wedge and the position degrades toward standard back control, seatbelt control, or a scramble to turtle. Conversely, if the defender over-rotates trying to face the attacker, the position can convert into a crucifix rather than release. The shared boundary conditions are therefore arm extraction on one side and over-rotation on the other, with a sustained closed loop being the only state that keeps it a true Rear Triangle."
+    }
+  ],
+  "clips": [
+    {
+      "id": "iFFM0xAnXMQ",
+      "title": "Rear triangle overview",
+      "by": "Kaynan Duarte",
+      "vertical": false,
+      "channel": "Jiu Jitsu Moves",
+      "duration": 62,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "BLouv3W29lg",
+      "title": "Back triangle system overview",
+      "by": "Mint Flow Jiu-Jitsu",
+      "vertical": false,
+      "channel": "BJJ BLACK BELT⚫️MINT FLOW JIU-JITSU ",
+      "duration": 60,
+      "verified": "2026-07-14"
     }
   ]
 }

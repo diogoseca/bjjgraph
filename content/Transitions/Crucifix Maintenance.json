@@ -292,7 +292,27 @@
         "answer": "After recapture, analyze why the extraction nearly succeeded. Usually the cause is either degraded crossing angle in the leg triangle, insufficient perpendicular alignment allowing favorable extraction geometry, or the opponent finding a timing window during your submission attempts. Adjust by re-establishing a deeper crossing point with the legs, ensuring perfect perpendicular hip alignment, and reducing the duration of any one-handed control moments. Consider switching to kimura grip on the far arm so both hands are occupied in a configuration that doesn't require releasing control for attacks."
       }
     ],
-    "safety_considerations": "Crucifix maintenance involves sustained pressure on the opponent's trapped shoulder through the leg triangle configuration. Monitor training partners for signs of shoulder discomfort, particularly when the figure-four creates torque on the glenohumeral joint during maintenance adjustments. Release immediately if the partner taps, verbalizes discomfort, or shows signs of distress. Avoid cranking the trapped arm beyond its natural range of motion when tightening the leg triangle. Be especially cautious with partners who have pre-existing shoulder injuries, as the trapped arm position under load can aggravate rotator cuff issues. During drilling, establish clear communication protocols for the bottom partner to signal discomfort before it becomes injury."
+    "safety_considerations": "Crucifix maintenance involves sustained pressure on the opponent's trapped shoulder through the leg triangle configuration. Monitor training partners for signs of shoulder discomfort, particularly when the figure-four creates torque on the glenohumeral joint during maintenance adjustments. Release immediately if the partner taps, verbalizes discomfort, or shows signs of distress. Avoid cranking the trapped arm beyond its natural range of motion when tightening the leg triangle. Be especially cautious with partners who have pre-existing shoulder injuries, as the trapped arm position under load can aggravate rotator cuff issues. During drilling, establish clear communication protocols for the bottom partner to signal discomfort before it becomes injury.",
+    "clips": [
+      {
+        "id": "JT4v_EQyq5k",
+        "title": "Top crucifix control breakdown",
+        "by": "Thomas Kincaid",
+        "vertical": false,
+        "channel": "Thomas Kincaid MMA",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "J2pwckT1zaw",
+        "title": "Holding the top side crucifix",
+        "by": "Aces Jiu Jitsu Club",
+        "vertical": false,
+        "channel": "Aces Jiu Jitsu Club",
+        "duration": 206,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Crucifix Maintenance Defender",
@@ -412,6 +432,17 @@
         "phase": "Phase 3: Window Recognition Under Pressure",
         "focus": "Identifying and exploiting maintenance adjustment windows against active opponents",
         "description": "Partner performs full maintenance with realistic grip transitions, weight shifts, and submission threats at 75-100% intensity. Defender must identify the brief windows during adjustments and execute the appropriate escape. Progress from pre-announced adjustments to unannounced realistic maintenance. Develop the tactical patience to wait for genuine opportunities rather than forcing escapes."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Wt2NW_hfTd0",
+        "title": "Escaping the crucifix under bulldog choke",
+        "by": "Mick Hall",
+        "vertical": false,
+        "channel": "Mick Hall",
+        "duration": 228,
+        "verified": "2026-07-15"
       }
     ]
   }

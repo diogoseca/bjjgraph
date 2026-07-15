@@ -286,7 +286,36 @@
         "answer": "Active toe flexion (pulling toes toward your shin) creates rigid structural tension in your hook, preventing it from slipping off the opponent's leg during the dynamic sweeping motion. A passive hook with relaxed foot muscles will collapse under the resistance of the opponent's weight and base, causing the sweep to fail at the critical moment when maximum force is being applied. The flexed toes lock the hook in place around the opponent's thigh like a carabiner, maintaining contact throughout the full arc of the sickle motion."
       }
     ],
-    "safety_considerations": "The Sickle Sweep is generally a low-risk technique when practiced correctly, but certain safety considerations should be observed. When drilling with a partner, communicate clearly about resistance levels and ensure they know how to fall safely backward when swept. The person being swept should practice falling with proper breakfall technique, keeping their chin tucked and slapping the mat with their arms to dissipate impact force. Avoid executing this sweep explosively during initial learning phases as uncontrolled falls can cause head or spine injuries. When your partner posts their hand to defend, do not force the sweep as this can result in wrist, elbow, or shoulder injuries to the posted arm. Instead, transition to alternative attacks. Ensure adequate mat space behind your partner before attempting the sweep to prevent them from hitting walls or other practitioners. In training environments, tap if you feel your balance completely compromised rather than risking an uncontrolled fall. When practicing at higher resistance levels, both partners should be warmed up properly with particular attention to hip flexibility and leg strength preparation."
+    "safety_considerations": "The Sickle Sweep is generally a low-risk technique when practiced correctly, but certain safety considerations should be observed. When drilling with a partner, communicate clearly about resistance levels and ensure they know how to fall safely backward when swept. The person being swept should practice falling with proper breakfall technique, keeping their chin tucked and slapping the mat with their arms to dissipate impact force. Avoid executing this sweep explosively during initial learning phases as uncontrolled falls can cause head or spine injuries. When your partner posts their hand to defend, do not force the sweep as this can result in wrist, elbow, or shoulder injuries to the posted arm. Instead, transition to alternative attacks. Ensure adequate mat space behind your partner before attempting the sweep to prevent them from hitting walls or other practitioners. In training environments, tap if you feel your balance completely compromised rather than risking an uncontrolled fall. When practicing at higher resistance levels, both partners should be warmed up properly with particular attention to hip flexibility and leg strength preparation.",
+    "clips": [
+      {
+        "id": "q5bXcsqGs3U",
+        "title": "Split sweep from De La Riva",
+        "by": "Josef Manuel",
+        "vertical": false,
+        "channel": "Professor Josef Manuel ",
+        "duration": 65,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "DS0dGhisTW8",
+        "title": "De La Riva sweep pushing the knee",
+        "by": "Kimura BJJ USA",
+        "vertical": false,
+        "channel": "Kimura BJJ USA official",
+        "duration": 106,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "zveJosx6Np0",
+        "title": "Simple De La Riva sweep",
+        "by": "Ninja Pinto",
+        "vertical": false,
+        "channel": "Ninja Pinto BJJ",
+        "duration": 37,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Sickle Sweep Defender",
@@ -416,6 +445,26 @@
         "phase": "Week 9+: Counter-Offensive Integration",
         "focus": "Using sweep defense as passing opportunity",
         "description": "Full resistance drilling where partner attempts Sickle Sweep and defender works to not only prevent the sweep but convert the defense into a guard pass. Practice backstep passes over the committed hook, leg drags from the extended leg, and pressure passes through the guard player's extended structure. Develop the mindset of treating every sweep attempt as a passing opportunity."
+      }
+    ],
+    "clips": [
+      {
+        "id": "b87q6MAFQXs",
+        "title": "Shutting down De La Riva guard",
+        "by": "Stretch To Strength",
+        "vertical": false,
+        "channel": "Stretch To Strength",
+        "duration": 144,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "-XU_JoO9Hhg",
+        "title": "How to deal with a strong De La Riva",
+        "by": "Mikey Musumeci",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 138,
+        "verified": "2026-07-15"
       }
     ]
   },

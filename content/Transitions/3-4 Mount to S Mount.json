@@ -300,7 +300,36 @@
         "answer": "Return to consolidating 3-4 Mount pressure and re-establish your offensive threats. Do not immediately reattempt the same transition—the opponent is now anticipating it. Instead, attack a different submission (Americana, Ezekiel, collar choke) to occupy their defensive attention, then look for the next arm exposure opportunity. Patience and threat variation are essential—the best S Mount entries come from chain attacks, not repeated single attempts."
       }
     ],
-    "safety_considerations": "The 3-4 Mount to S Mount transition itself carries minimal direct injury risk as it is a positional movement rather than a submission. However, practitioners must be aware that the transition naturally flows into armbar position, where significant elbow injury risk exists. During drilling, the attacker should execute the leg swing with control to avoid striking the training partner's face or head with the shin. Both partners should communicate clearly when the S Mount is established and armbar attacks begin, ensuring the defender has adequate time to tap before hyperextension occurs. The attacker must never force the transition by using excessive speed or dropping weight suddenly, as this can cause the opponent's trapped arm to be wrenched unexpectedly into an extended position without time to defend or tap."
+    "safety_considerations": "The 3-4 Mount to S Mount transition itself carries minimal direct injury risk as it is a positional movement rather than a submission. However, practitioners must be aware that the transition naturally flows into armbar position, where significant elbow injury risk exists. During drilling, the attacker should execute the leg swing with control to avoid striking the training partner's face or head with the shin. Both partners should communicate clearly when the S Mount is established and armbar attacks begin, ensuring the defender has adequate time to tap before hyperextension occurs. The attacker must never force the transition by using excessive speed or dropping weight suddenly, as this can cause the opponent's trapped arm to be wrenched unexpectedly into an extended position without time to defend or tap.",
+    "clips": [
+      {
+        "id": "2Xm_mLp8xwk",
+        "title": "S-mount troubleshooting (no-gi)",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 67,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2zSi7RlFJEU",
+        "title": "Armbar from S-mount",
+        "by": "Fenrir Jiu-Jitsu Academy",
+        "vertical": false,
+        "channel": "Fenrir Jiu-Jitsu Academy",
+        "duration": 78,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "RsNdjwonGkw",
+        "title": "Transition to S-mount",
+        "by": "Procel BJJ",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 132,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "3-4 Mount to S Mount Defender",
@@ -430,6 +459,26 @@
         "phase": "Phase 4: Complete Defensive Sequences",
         "focus": "Chaining recognition, prevention, and escape under resistance",
         "description": "Partner attempts the transition at 60-80% resistance. Practice the complete defensive sequence: recognize the setup, fight the grip, frame the hip, time the bridge, recover half guard. If S Mount is established despite your defense, practice the emergency posture and escape from there. Live positional sparring starting from 3-4 Mount bottom."
+      }
+    ],
+    "clips": [
+      {
+        "id": "TOQ9I4gYOaU",
+        "title": "Escaping S-mount to half guard",
+        "by": "Paul Schreiner",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 295,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "4trL8JTMeJM",
+        "title": "3 ways to escape S-mount",
+        "by": "Kuleana Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Kuleana Jiu-Jitsu",
+        "duration": 277,
+        "verified": "2026-07-15"
       }
     ]
   }

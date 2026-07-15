@@ -291,7 +291,36 @@
         "answer": "First, verify your hip bone is making direct contact with the opponent's sternum with heavy downward pressure that restricts their breathing. Second, confirm the opponent's near arm is trapped across their body with your near arm hugging it tightly, eliminating their primary framing tool. Third, check that your base is wide with your far leg extended and near leg posted, creating a stable triangular structure that resists bridging from multiple angles. Only after these three control points are confirmed should you begin offensive attacks."
       }
     ],
-    "safety_considerations": "This transition involves significant chest compression and rotational pressure on the opponent's shoulder during the grip transfer. Maintain awareness of your partner's breathing, especially when settling hip weight into the final Reverse Scarf Hold position, as the crushing chest pressure can restrict breathing quickly. During training, perform the rotation at controlled speed rather than explosively to prevent accidentally cranking the trapped shoulder during the hip switch. If your partner taps during the transition itself, release immediately as the shoulder may be in a vulnerable rotational position. Always communicate with training partners about pressure tolerance and ensure they know to tap if breathing becomes seriously restricted under the pin."
+    "safety_considerations": "This transition involves significant chest compression and rotational pressure on the opponent's shoulder during the grip transfer. Maintain awareness of your partner's breathing, especially when settling hip weight into the final Reverse Scarf Hold position, as the crushing chest pressure can restrict breathing quickly. During training, perform the rotation at controlled speed rather than explosively to prevent accidentally cranking the trapped shoulder during the hip switch. If your partner taps during the transition itself, release immediately as the shoulder may be in a vulnerable rotational position. Always communicate with training partners about pressure tolerance and ensure they know to tap if breathing becomes seriously restricted under the pin.",
+    "clips": [
+      {
+        "id": "9swfUrCXEDQ",
+        "title": "Kimura catch from the sidemount",
+        "by": "Animal",
+        "vertical": false,
+        "channel": "Animal",
+        "duration": 56,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "xLCWZaGPW0g",
+        "title": "Kimura trap from reverse kesa-gatame",
+        "by": "Smith BJJ",
+        "vertical": false,
+        "channel": "Smith ♞ | Brazilian Jiu-jitsu",
+        "duration": 140,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "5POG6rDBVLM",
+        "title": "Kesa gatame reverse arm attack roll over",
+        "by": "Carlos Machado",
+        "vertical": false,
+        "channel": "Carlos Machado",
+        "duration": 113,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Kimura Trap to Reverse Scarf Hold Defender",
@@ -412,6 +441,26 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Defending the transition under full resistance from Kimura Trap Bottom",
         "description": "Start in Kimura Trap Bottom with full resistance. The attacker may attempt the Reverse Scarf Hold transition or any other Kimura Trap option. Defender must read the attack and apply the appropriate defense. Develops real-time decision-making and validates that recognition cues transfer to live rolling conditions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "QzegNgUUfZs",
+        "title": "Reverse kesa gatame escape",
+        "by": "Coach Paul",
+        "vertical": false,
+        "channel": "Coach Paul - War Fork Jiu-Jitsu Academy",
+        "duration": 81,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ORpUBUxK1QE",
+        "title": "Reverse kesa escape to back take",
+        "by": "Gymnanigains",
+        "vertical": false,
+        "channel": "Gymnanigains",
+        "duration": 26,
+        "verified": "2026-07-15"
       }
     ]
   }

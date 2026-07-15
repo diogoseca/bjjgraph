@@ -299,7 +299,36 @@
         "answer": "Switch to the Backstep Clear, which bypasses the hook entirely rather than fighting through it. Step your clearing-side leg backward and around the opponent's hook, transitioning through a brief backstep before settling into half butterfly top. Because you circle around the engagement point instead of compressing it, the opponent has nothing to re-pump against. Alternatively, use the Hip Switch Clear to angle away from the hook's leverage line so re-insertion no longer connects to your thigh."
       }
     ],
-    "safety_considerations": "This transition involves significant pressure application through the chest and shoulders onto the bottom player's upper body. The top player should apply weight gradually rather than dropping suddenly, especially during drilling. During the knee drive phase, be mindful of the bottom player's knee and ankle on the clearing side, as aggressive driving can compress joints uncomfortably. Both partners should communicate if pressure becomes excessive on the ribcage or neck area. When drilling repetitions, alternate sides to prevent overuse strain on one shoulder from repeated crossface applications."
+    "safety_considerations": "This transition involves significant pressure application through the chest and shoulders onto the bottom player's upper body. The top player should apply weight gradually rather than dropping suddenly, especially during drilling. During the knee drive phase, be mindful of the bottom player's knee and ankle on the clearing side, as aggressive driving can compress joints uncomfortably. Both partners should communicate if pressure becomes excessive on the ribcage or neck area. When drilling repetitions, alternate sides to prevent overuse strain on one shoulder from repeated crossface applications.",
+    "clips": [
+      {
+        "id": "ljSL1k0A0mY",
+        "title": "Butterfly hook flip when opponent sprawls",
+        "by": "Carlos Machado",
+        "vertical": false,
+        "channel": "Carlos Machado",
+        "duration": 71,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "6I2CrxWMkLk",
+        "title": "Underhook hook flip from butterfly guard",
+        "by": "Carlos Machado",
+        "vertical": false,
+        "channel": "Carlos Machado",
+        "duration": 107,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "n1mDmuuVgGg",
+        "title": "Knee shield to half butterfly to triangle",
+        "by": "Grapple Box",
+        "vertical": false,
+        "channel": "Grapple Box llc",
+        "duration": 13,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Butterfly Guard to Half Butterfly Defender",
@@ -420,6 +449,35 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Full resistance positional sparring",
         "description": "Full resistance sparring starting in butterfly guard. Bottom player's goal is to maintain both hooks or sweep. Top player attempts to clear hooks and consolidate half butterfly. 3-minute rounds with reset on successful clear, sweep, or pass. Integrate all defensive tools under live pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "06-ZO93fJak",
+        "title": "Head frame to prevent the hug pass",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 90,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "86KseinKoSY",
+        "title": "Knee slide pass recovery to butterfly guard",
+        "by": "Italiano BJJ",
+        "vertical": false,
+        "channel": "Italiano BJJ",
+        "duration": 37,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uTNVB5uSQh0",
+        "title": "Little ball guard retention drill",
+        "by": "Ninja Pinto",
+        "vertical": false,
+        "channel": "Ninja Pinto BJJ",
+        "duration": 27,
+        "verified": "2026-07-15"
       }
     ]
   }

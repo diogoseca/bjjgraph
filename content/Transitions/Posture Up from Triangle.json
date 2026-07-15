@@ -285,7 +285,27 @@
         "answer": "The most critical safety consideration is recognizing when the choke is tight enough to cause unconsciousness and tapping before losing consciousness. A properly locked triangle with optimal angle and hip extension compresses the carotid arteries, and unconsciousness can occur in 4-8 seconds without warning signs. If you feel significant bilateral neck pressure, tunnel vision, lightheadedness, or visual changes, tap immediately. Never fight a fully locked triangle past the point of safety—the posture-up is an early-to-mid-stage escape, not a survival technique against a fully sunk choke."
       }
     ],
-    "safety_considerations": "The triangle choke compresses the carotid arteries and can cause unconsciousness within 4-8 seconds without warning. Always tap early if you feel significant bilateral neck pressure, tunnel vision, or lightheadedness. When drilling, communicate with your partner about pressure levels and establish clear tap signals. Never attempt to fight through a fully locked triangle with maximum pressure—recognize when the choke has progressed past the escape window and accept the tap. Training safety requires honest assessment of position severity and willingness to reset rather than risk injury or loss of consciousness."
+    "safety_considerations": "The triangle choke compresses the carotid arteries and can cause unconsciousness within 4-8 seconds without warning. Always tap early if you feel significant bilateral neck pressure, tunnel vision, or lightheadedness. When drilling, communicate with your partner about pressure levels and establish clear tap signals. Never attempt to fight through a fully locked triangle with maximum pressure—recognize when the choke has progressed past the escape window and accept the tap. Training safety requires honest assessment of position severity and willingness to reset rather than risk injury or loss of consciousness.",
+    "clips": [
+      {
+        "id": "HLWwfq8FNMI",
+        "title": "Triangle escape: hips down, posture up",
+        "by": "Mat Life Training Center",
+        "vertical": false,
+        "channel": "Mat Life Training Center",
+        "duration": 19,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dJOw0ZEyXXc",
+        "title": "Posture up escape from the triangle choke",
+        "by": "Cosens MMA",
+        "vertical": false,
+        "channel": "Cosens MMA LLC",
+        "duration": 73,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Posture Up from Triangle Defender",
@@ -406,6 +426,26 @@
         "phase": "Phase 4: Competition Simulation",
         "focus": "Full speed positional sparring defending all triangle escapes",
         "description": "Start with triangle locked at competition intensity. Opponent uses all available escapes including posture-up, stacking, and lateral clearing. Practice maintaining control and finishing or transitioning based on opponent's escape selection. Build competitive-speed decision making and submission finishing."
+      }
+    ],
+    "clips": [
+      {
+        "id": "wuu5WWcNfY0",
+        "title": "What to do when they posture up in your triangle",
+        "by": "Simple JiuJitsu",
+        "vertical": false,
+        "channel": "Simple JiuJitsu",
+        "duration": 88,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "M3_VDLm6PoE",
+        "title": "Finishing a triangle against good posture",
+        "by": "Inverted Gear",
+        "vertical": false,
+        "channel": "Inverted Gear",
+        "duration": 142,
+        "verified": "2026-07-15"
       }
     ]
   }

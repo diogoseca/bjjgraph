@@ -283,7 +283,36 @@
         "answer": "An appropriately timed fallback occurs when the opponent has created structural changes to your saddle—cleared hip pressure, broken perpendicular alignment, or established frames that cannot be quickly removed. A premature retreat abandons saddle when the opponent is merely resisting but has not fundamentally compromised your position. The test is whether your next saddle attack would have a reasonable success probability. If the answer is no because the structural foundation has been disrupted, fall back. If you still have structural control and the opponent is simply grip fighting, stay and work."
       }
     ],
-    "safety_considerations": "This transition involves reconfiguration of leg entanglements where knee and ankle injuries are possible during the positional change. Always execute the transition with smooth, controlled movements—never jerk or explosively reposition legs during the fallback. The moment of releasing the saddle configuration creates unpredictable angles on the opponent's trapped knee and ankle. Communicate clearly with training partners about pressure levels during drilling. Tap immediately if you feel any rotational stress on the knee during the reconfiguration. When first learning this transition, practice at minimal speed with a cooperative partner before adding resistance."
+    "safety_considerations": "This transition involves reconfiguration of leg entanglements where knee and ankle injuries are possible during the positional change. Always execute the transition with smooth, controlled movements—never jerk or explosively reposition legs during the fallback. The moment of releasing the saddle configuration creates unpredictable angles on the opponent's trapped knee and ankle. Communicate clearly with training partners about pressure levels during drilling. Tap immediately if you feel any rotational stress on the knee during the reconfiguration. When first learning this transition, practice at minimal speed with a cooperative partner before adding resistance.",
+    "clips": [
+      {
+        "id": "i8nOBcGeXv8",
+        "title": "Back step from the pass into the saddle",
+        "by": "Rich",
+        "vertical": false,
+        "channel": "Rich Close Quarters Brazilian Jiu Jitsu (CQ Brazilian Jiu Jitsu)",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "NXvLhnqXUAI",
+        "title": "Knee cut back step into the saddle",
+        "by": "Thunderdome BJJ coach",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 36,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "eRQVlYxFx1Y",
+        "title": "Shoulder roll into cross ashi / saddle",
+        "by": "Doug",
+        "vertical": false,
+        "channel": "bjj doug",
+        "duration": 42,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Fallback to Inside Ashi-Garami Defender",
@@ -396,6 +425,35 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Full resistance escape attempts during transitions",
         "description": "Positional sparring starting from saddle bottom. Partner attacks from saddle and falls back to ashi when defended. Your objective is to escape during the transition window. If you end up in inside ashi, continue fighting for escape. Measure success rate across multiple rounds and identify which defensive actions produce the highest escape percentage."
+      }
+    ],
+    "clips": [
+      {
+        "id": "FUjlpGRjU44",
+        "title": "Escaping and countering cross ashi garami",
+        "by": "Lux",
+        "vertical": false,
+        "channel": "Lux’s jiu jitsu channel",
+        "duration": 45,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "cRXsNPAgVLU",
+        "title": "Irimi ashi garami counter",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 29,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "AQbJMBiWYfU",
+        "title": "Escaping ashi garami: leg lock defense",
+        "by": "Scott Elliott",
+        "vertical": false,
+        "channel": "Coach Scott Elliott",
+        "duration": 141,
+        "verified": "2026-07-15"
       }
     ]
   }

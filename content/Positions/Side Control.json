@@ -489,7 +489,36 @@
         "description": "Probability of finishing submission directly from side control"
       },
       "average_time": "1-3 minutes for controlled work, 10-30 seconds for dynamic transitions"
-    }
+    },
+    "clips": [
+      {
+        "id": "WuSBXB22-1Q",
+        "title": "Side Control Top Danger Control",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 156,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "mt7SMNzP4Ak",
+        "title": "Buggy Choke From Top Side Control",
+        "by": "azigarami",
+        "vertical": false,
+        "channel": "azigarami",
+        "duration": 91,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "onIP1GC3Daw",
+        "title": "Top 3 Submissions From Side Control",
+        "by": "Marcus Buchecha Almeida",
+        "vertical": false,
+        "channel": "Marcus ‘Buchecha’ Almeida",
+        "duration": 296,
+        "verified": "2026-07-14"
+      }
+    ]
   },
   "bottom": {
     "name": "Side Control Bottom",
@@ -790,7 +819,36 @@
         "description": "Probability of submitting opponent from defensive position (very low)"
       },
       "average_time": "30-90 seconds for competent players attempting systematic escape"
-    }
+    },
+    "clips": [
+      {
+        "id": "Zw_QEoWDvcw",
+        "title": "Bump 'n Roll Side Control Escape",
+        "by": "PIOT",
+        "vertical": false,
+        "channel": "PIOT",
+        "duration": 82,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "mBFVriM0ojQ",
+        "title": "Turkish Get-Up Side Control Escape",
+        "by": "Dirtball BJJ",
+        "vertical": false,
+        "channel": "Dirtball BJJ",
+        "duration": 64,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "TPkmg7qRcSc",
+        "title": "Side Control Underhook Escape",
+        "by": "Clayton Phillips",
+        "vertical": false,
+        "channel": "Clayton Phillips",
+        "duration": 128,
+        "verified": "2026-07-14"
+      }
+    ]
   },
   "flashcards_family": [
     {
@@ -854,6 +912,26 @@
     {
       "question": "Why is control of the head and far-side arm a defining structural layer of Side Control rather than just an attacking option?",
       "answer": "Head and far-arm control is what elevates a bare perpendicular pin into stable Side Control, because those two limbs are the bottom player's primary tools for regaining orientation and space. Head control through the crossface locks the spine's alignment and prevents the turn-in that would otherwise let the bottom player face up and rebuild guard or stand. Controlling the far arm, via an underhook or by trapping it across the body, removes a key framing limb, so the bottom player loses the structure needed to bridge the space open. These control layers are structural because they hold the configuration together, which is also why the same grips are what make the position feel safe from the top and precarious from the bottom."
+    }
+  ],
+  "clips": [
+    {
+      "id": "IoHZR1It8hs",
+      "title": "Double Underhooks Side Control Method",
+      "by": "John Danaher",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 177,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "mWimgVQrsMU",
+      "title": "Far Side Underhook Pin",
+      "by": "Craig Jones",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 137,
+      "verified": "2026-07-14"
     }
   ]
 }

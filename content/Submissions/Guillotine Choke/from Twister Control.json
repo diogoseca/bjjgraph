@@ -341,6 +341,26 @@
         "answer": "Transitioning from Twister Control top to pulling guard for the guillotine finish results in losing any advantage or control points associated with the top position. Under most rulesets, pulling guard scores no points and may result in a penalty in some organizations. The trade-off is worthwhile only if the guillotine grip is secure enough to finish, because failing the submission from guard bottom is a significant positional downgrade.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "odT3-cVWXdc",
+        "title": "Twister side attacks (MTS 207)",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "k3GU_7rKFYk",
+        "title": "Alternate guillotine / twister entry",
+        "by": "Catch Wrestling Alliance",
+        "vertical": false,
+        "channel": "Catch Wrestling Alliance",
+        "duration": 193,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -468,6 +488,17 @@
         "phase": "Phase 4: Full Defense Integration",
         "focus": "Complete defensive decision-making from Twister Control through guillotine defense",
         "description": "Full positional sparring starting from Twister Control bottom. Partner attacks freely with Twister, guillotine, and other options. Practice the full defensive sequence: prevent the Twister, protect chin on turn-in, fight the guillotine grip, escape or tap. Builds complete defensive pattern recognition."
+      }
+    ],
+    "clips": [
+      {
+        "id": "8okq4cIHMO0",
+        "title": "Standing guillotine escape",
+        "by": "dogtownman",
+        "vertical": false,
+        "channel": "dogtownman",
+        "duration": 44,
+        "verified": "2026-07-14"
       }
     ]
   }

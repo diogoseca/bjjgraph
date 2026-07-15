@@ -282,7 +282,27 @@
         "answer": "You should invert toward the side of your free leg, rolling over the shoulder on that same side. Inverting toward the trapped leg side is mechanically blocked because the passer's weight and leg control prevent the rolling path. The free leg initiates the movement by swinging across your body during the roll, creating rotational momentum that carries you through the inversion. After completing the roll, this free leg becomes the DLR hooking leg that wraps behind the passer's lead knee."
       }
     ],
-    "safety_considerations": "Cervical spine loading during inversion requires proper shoulder roll technique at all times. Never invert by rolling directly over the neck or head. Practitioners with neck injuries or limited cervical mobility should drill inversions slowly and build flexibility gradually before attempting at speed. The shoulder blade should bear all weight during the roll, with the chin firmly tucked toward the chest throughout the rotation. Stop immediately if you feel any compression, pinching, or pain in the cervical spine. Warm up the neck and shoulders thoroughly before drilling inversions, and avoid high-repetition inversion training when fatigued, as form degradation under fatigue increases neck injury risk."
+    "safety_considerations": "Cervical spine loading during inversion requires proper shoulder roll technique at all times. Never invert by rolling directly over the neck or head. Practitioners with neck injuries or limited cervical mobility should drill inversions slowly and build flexibility gradually before attempting at speed. The shoulder blade should bear all weight during the roll, with the chin firmly tucked toward the chest throughout the rotation. Stop immediately if you feel any compression, pinching, or pain in the cervical spine. Warm up the neck and shoulders thoroughly before drilling inversions, and avoid high-repetition inversion training when fatigued, as form degradation under fatigue increases neck injury risk.",
+    "clips": [
+      {
+        "id": "ynoR-AtSYUc",
+        "title": "Around The Legs Guard Retention",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 210,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "UHL2gtIMnrg",
+        "title": "High Leg Guard Retention",
+        "by": "Paul McVeigh",
+        "vertical": false,
+        "channel": "Paul Mcveigh",
+        "duration": 152,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Inversion from Headquarters Defender",
@@ -408,6 +428,26 @@
         "phase": "Phase 4: Integrated Headquarters Defense",
         "focus": "Full scenario sparring from headquarters with inversion threats",
         "description": "Positional sparring from headquarters where the bottom player uses inversions, hip escapes, and guard recovery in combination. Practice recognizing which defensive technique to apply based on the bottom player's chosen escape route. Develop seamless transitions between stuffing inversions and continuing your passing sequences."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ynoR-AtSYUc",
+        "title": "Around The Legs Guard Retention",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 210,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "FVpbZPgoplw",
+        "title": "Guard Passing Leg Pummeling Techniques",
+        "by": "Elite Team Monterey",
+        "vertical": false,
+        "channel": "ELITE TEAM MONTEREY",
+        "duration": 30,
+        "verified": "2026-07-15"
       }
     ]
   }

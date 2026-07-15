@@ -283,7 +283,36 @@
         "answer": "Consistent half guard recovery indicates either insufficient upper body pressure during extraction or predictable extraction timing. First, spend more time consolidating upper body control before attempting extraction—the opponent should feel maximum discomfort and have minimal frame effectiveness. Second, vary your extraction timing and method between windshield wiper, knee slice, and backstep finishes so the defender cannot anticipate your movement pattern. Third, consider whether you need to break their frames more thoroughly before beginning extraction rather than trying to extract through active frames."
       }
     ],
-    "safety_considerations": "The Complete Leg Weave Pass involves significant pressure on the bottom player's hips and lower back through the threading mechanics. Avoid explosive cranking of the weaved leg through the guard, as this can strain the bottom player's knee or hip joints. When drilling, communicate pressure levels and allow your partner to tap to excessive pressure on their legs. Release immediately if your partner signals discomfort in their knee, hip, or lower back. During live sparring, be mindful that the combination of heavy crossface pressure and leg extraction force can compress the cervical spine if the opponent's head is trapped at an angle."
+    "safety_considerations": "The Complete Leg Weave Pass involves significant pressure on the bottom player's hips and lower back through the threading mechanics. Avoid explosive cranking of the weaved leg through the guard, as this can strain the bottom player's knee or hip joints. When drilling, communicate pressure levels and allow your partner to tap to excessive pressure on their legs. Release immediately if your partner signals discomfort in their knee, hip, or lower back. During live sparring, be mindful that the combination of heavy crossface pressure and leg extraction force can compress the cervical spine if the opponent's head is trapped at an angle.",
+    "clips": [
+      {
+        "id": "CkE-XEU26nc",
+        "title": "Leg weave guard pass in the gi",
+        "by": "F.I.T.E. Fit",
+        "vertical": false,
+        "channel": "F.I.T.E. Fit",
+        "duration": 90,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "4LIBFmas-oE",
+        "title": "Passing the knee shield with the leg weave",
+        "by": "BJJ for Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 153,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Cs9xSx57Rpg",
+        "title": "Simple knee shield pass using the leg weave",
+        "by": "BJJ for Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 176,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Complete Leg Weave Pass Defender",
@@ -408,6 +437,26 @@
         "phase": "Phase 4: Full Resistance Positional Sparring",
         "focus": "Applying defensive skills under competitive pressure",
         "description": "Start in established leg weave with full competitive resistance. Defender attempts to prevent pass completion or recover guard within sixty seconds. Track which defensive options succeed most frequently against different passing approaches. Identify and address remaining weaknesses through targeted repetition."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ZXt2yzy0BL0",
+        "title": "Defeating the leg weave pass with the underhook",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 249,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "PKvaosk3gGc",
+        "title": "Defending the leg weave pass",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ",
+        "duration": 197,
+        "verified": "2026-07-15"
       }
     ]
   }

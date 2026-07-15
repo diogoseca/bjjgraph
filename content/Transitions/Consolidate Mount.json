@@ -250,7 +250,18 @@
         "answer": "Prioritize the cross-face grip, driving your forearm under their chin and controlling the far-side shoulder. This grip flattens your opponent, prevents them from turning into you, and exposes the near-side arm for isolation. The cross-face also creates psychological pressure that forces defensive reactions you can exploit for advancement."
       }
     ],
-    "safety_considerations": "Mount consolidation is generally low-risk when performed correctly. Avoid crushing pressure on the sternum for extended periods during training, as this can cause discomfort or breathing difficulty for your partner. When using grapevines, be careful not to hyperextend your partner's knees by driving your hooks too aggressively. During drilling, establish clear tapping protocols so partners can indicate when pressure becomes excessive. Ensure your training partner can breathe adequately throughout the consolidation process."
+    "safety_considerations": "Mount consolidation is generally low-risk when performed correctly. Avoid crushing pressure on the sternum for extended periods during training, as this can cause discomfort or breathing difficulty for your partner. When using grapevines, be careful not to hyperextend your partner's knees by driving your hooks too aggressively. During drilling, establish clear tapping protocols so partners can indicate when pressure becomes excessive. Ensure your training partner can breathe adequately throughout the consolidation process.",
+    "clips": [
+      {
+        "id": "J2xs_-sAJMc",
+        "title": "Gordon Ryan's mount system and control",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJTube",
+        "duration": 239,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Consolidate Mount Defender",
@@ -378,6 +389,35 @@
         "phase": "Week 7+",
         "focus": "Live escape integration",
         "description": "Full resistance positional sparring starting from mount; chain all defensive tools together against a partner using complete consolidation technique with submission threats"
+      }
+    ],
+    "clips": [
+      {
+        "id": "9252EvCT0q4",
+        "title": "A mount escape that actually works",
+        "by": "Gabriel Gonzaga",
+        "vertical": false,
+        "channel": "Gabriel Gonzaga",
+        "duration": 93,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "boWprABmeaU",
+        "title": "The Dagestani mount escape",
+        "by": "Danny Mitchell",
+        "vertical": false,
+        "channel": "Danny Mitchell MMA",
+        "duration": 145,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QHuh7h0VDOM",
+        "title": "Mount escape against the crossface",
+        "by": "Fenix Jiu Jitsu",
+        "vertical": false,
+        "channel": "Fenix Jiu Jitsu",
+        "duration": 135,
+        "verified": "2026-07-15"
       }
     ]
   },

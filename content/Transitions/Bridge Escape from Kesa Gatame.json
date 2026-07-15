@@ -292,7 +292,27 @@
         "answer": "In gi, grip the sleeve at the wrist for maximum control over the posting arm with minimal effort—the sleeve grip provides a secure mechanical advantage that is difficult to strip. In no-gi, a two-on-one grip on the wrist gives the best control, though a single wrist grab works if the bridge is timed well. Avoid gripping above the elbow as this still allows the forearm and hand to post effectively. The further down toward the hand you control, the more completely you eliminate their posting ability."
       }
     ],
-    "safety_considerations": "Bridge escapes involve significant spinal loading and neck pressure during the explosive hip extension phase. Always warm up the neck, spine, and hips thoroughly before drilling. When training, the top player should allow escape completion at lower resistance levels rather than applying maximum counterforce to bridge attempts, as forced bridges against immovable resistance can strain the lower back and cervical spine. Both partners should communicate about pressure levels throughout drilling. The bottom player should never force a bridge that produces sharp pain in the neck or lower back—abandon the attempt and reset rather than risking injury."
+    "safety_considerations": "Bridge escapes involve significant spinal loading and neck pressure during the explosive hip extension phase. Always warm up the neck, spine, and hips thoroughly before drilling. When training, the top player should allow escape completion at lower resistance levels rather than applying maximum counterforce to bridge attempts, as forced bridges against immovable resistance can strain the lower back and cervical spine. Both partners should communicate about pressure levels throughout drilling. The bottom player should never force a bridge that produces sharp pain in the neck or lower back—abandon the attempt and reset rather than risking injury.",
+    "clips": [
+      {
+        "id": "2M_6VytUaus",
+        "title": "Kesa gatame escape",
+        "by": "SBG Australia",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 43,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "PfkG6R7bbeo",
+        "title": "Kesa gatame bridge escape to armbar",
+        "by": "Ivan Chumakov",
+        "vertical": false,
+        "channel": "Ivan Chumakov",
+        "duration": 171,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Bridge Escape from Kesa Gatame Defender",
@@ -413,6 +433,26 @@
         "phase": "Live Kesa Gatame Maintenance",
         "focus": "Full resistance positional sparring",
         "description": "Start in Kesa Gatame with full resistance from both players. Top player maintains position and defends all escape attempts including bridge escapes, ghost escapes, and back takes. Track position maintenance time and transition success rate. 2-minute rounds alternating roles."
+      }
+    ],
+    "clips": [
+      {
+        "id": "-zFQ6h4yKT4",
+        "title": "Kuzure kesa gatame escapes",
+        "by": "Kodokan",
+        "vertical": false,
+        "channel": "KODOKAN",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "aSF633klG8k",
+        "title": "Favorite kesa gatame escape",
+        "by": "Chad Hardy",
+        "vertical": false,
+        "channel": "Chad The Beast Hardy",
+        "duration": 127,
+        "verified": "2026-07-15"
       }
     ]
   }

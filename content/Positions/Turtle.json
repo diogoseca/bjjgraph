@@ -453,6 +453,35 @@
         "question": "How do you maintain pressure while transitioning between attacks from turtle top?",
         "answer": "The key principle is never releasing all control points simultaneously. Maintain at least one dominant grip or pressure point while establishing the next one. When moving from back attack to front headlock, keep chest pressure and transition hand controls systematically. Think of it as 'hand over hand' climbing - one connection always secure before releasing another. This continuous pressure prevents the opponent from creating movement or space during your transitions."
       }
+    ],
+    "clips": [
+      {
+        "id": "6ns9XP2BsjQ",
+        "title": "Back take from the turtle position",
+        "by": "Evolve MMA",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 66,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "o_7f8c64YrY",
+        "title": "Gator roll back take from turtle",
+        "by": "Gracie Barra Pymble",
+        "vertical": false,
+        "channel": "Gracie Barra Pymble",
+        "duration": 37,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "f0zi7eZEXnk",
+        "title": "Tight waist tilt to rear head-and-arm",
+        "by": "Fox Den Martial Arts",
+        "vertical": false,
+        "channel": "Fox Den Martial Arts",
+        "duration": 68,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -783,6 +812,35 @@
         "question": "Your granby roll attempt fails and opponent follows you - how should you recover?",
         "answer": "If opponent follows your granby roll, immediately chain into a second escape rather than returning to static turtle. Options include: executing a second granby roll in the opposite direction using their forward momentum against them, transitioning to a sit-out and scramble if they're heavy on top, or inverting into deep half guard if they end up with chest pressure on your torso. The key principle is continuous motion - a failed escape that flows into another escape attempt is far better than resetting to a static turtle where opponent can re-establish control points."
       }
+    ],
+    "clips": [
+      {
+        "id": "waVFl1Ip6VU",
+        "title": "Turtle back escape by shrugging",
+        "by": "Andy Tong",
+        "vertical": false,
+        "channel": "Andy Tong",
+        "duration": 33,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "_sBB-O8fqP4",
+        "title": "Standing up from turtle (defensive BJJ)",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 114,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "LTGHO-aRBxw",
+        "title": "Head and arm escape from turtle",
+        "by": "Chosen Few BJJ",
+        "vertical": false,
+        "channel": "Chosen Few BJJ",
+        "duration": 78,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -817,6 +875,35 @@
     {
       "question": "What separates turtle from its neighboring positions like back control and front headlock, and how does it flow into them?",
       "answer": "Turtle is the unresolved midpoint: from it the top can advance to back control by inserting hooks with harness, or to front headlock by circling to the head and threatening the neck, while the bottom can recover to closed or half guard, stand up, or roll to guard. Back control resolves the rear-exposure gamble in the top's favor with hooks secured; front headlock resolves it by capturing the head and neck. Guard recovery resolves it in the bottom's favor by re-facing the opponent. Turtle itself has no hooks and no guard yet - it is the branching node before those outcomes are decided."
+    }
+  ],
+  "clips": [
+    {
+      "id": "_sBB-O8fqP4",
+      "title": "Standing up from turtle (defensive BJJ)",
+      "by": "Priit Mihkelson",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 114,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "Dyxkw13p49I",
+      "title": "Belly-down ankle lock setup from turtle",
+      "by": "Revolution BJJ",
+      "vertical": false,
+      "channel": "Revolution BJJ",
+      "duration": 67,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "qitDr1GnnAk",
+      "title": "Sneaky triangle from turtle position",
+      "by": "Submission Concepts San Antonio",
+      "vertical": false,
+      "channel": "Submission Concepts San Antonio",
+      "duration": 73,
+      "verified": "2026-07-14"
     }
   ]
 }

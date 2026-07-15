@@ -281,7 +281,27 @@
         "answer": "When the opponent sprawls and flattens, your butterfly hooks lose their mechanical advantage because the angle of elevation becomes ineffective against a flat opponent. The correct response is to immediately abandon the sweep rather than burning energy against a nullified position. Transition to closed guard by locking your legs around their waist before they can advance, or reset to seated butterfly guard by framing on their shoulders and scooting your hips back. Forcing the sweep against a sprawled opponent wastes energy and exposes you to guard passing."
       }
     ],
-    "safety_considerations": "The John Wayne Sweep is generally a low-risk technique for both practitioners when executed properly. The primary safety concern is ensuring sufficient mat space for the rotation, as the sweep involves rotating the opponent over your body with momentum. Practice initially on soft surfaces and ensure no obstacles are nearby. Partners should be aware of the incoming sweep to avoid reflexively posting with their arm at dangerous angles, which can cause wrist or shoulder injuries. When drilling, the bottom practitioner should control the speed of rotation initially to prevent unexpected impacts. Advanced practitioners should be mindful of their partner's flexibility limitations when pulling the controlled arm across the centerline, as excessive force can strain the shoulder. In competition settings, be aware of mat boundaries to avoid rotating your opponent off the mat."
+    "safety_considerations": "The John Wayne Sweep is generally a low-risk technique for both practitioners when executed properly. The primary safety concern is ensuring sufficient mat space for the rotation, as the sweep involves rotating the opponent over your body with momentum. Practice initially on soft surfaces and ensure no obstacles are nearby. Partners should be aware of the incoming sweep to avoid reflexively posting with their arm at dangerous angles, which can cause wrist or shoulder injuries. When drilling, the bottom practitioner should control the speed of rotation initially to prevent unexpected impacts. Advanced practitioners should be mindful of their partner's flexibility limitations when pulling the controlled arm across the centerline, as excessive force can strain the shoulder. In competition settings, be aware of mat boundaries to avoid rotating your opponent off the mat.",
+    "clips": [
+      {
+        "id": "kB5XebzuihY",
+        "title": "John Wayne sweep from half guard",
+        "by": "JitzLive",
+        "vertical": false,
+        "channel": "JitzLive",
+        "duration": 83,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "EE2VQnxXNgg",
+        "title": "John Wayne sweep to underhook half guard",
+        "by": "Combat by the Minute",
+        "vertical": false,
+        "channel": "Combat by the Minute",
+        "duration": 88,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "John Wayne Sweep Defender",
@@ -412,6 +432,17 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Defending against the John Wayne Sweep under full resistance",
         "description": "Positional sparring starting against butterfly hooks with the partner specifically hunting for the John Wayne Sweep. Defend with your full technical repertoire including grip fighting, weight management, posting, and counter-passing. Partner chains the sweep with other butterfly attacks to simulate realistic offensive pressure and test defensive adaptability."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Wgnw31_o3kk",
+        "title": "Defending butterfly hooks",
+        "by": "Kohbukan Sisu",
+        "vertical": false,
+        "channel": "Kohbukan Sisu",
+        "duration": 58,
+        "verified": "2026-07-15"
       }
     ]
   },

@@ -276,7 +276,36 @@
         "answer": "The head acts as a structural wedge and directional guide throughout the sweep. During the initial rise, the head drives into the opponent's chest on the underhook side, creating a pressure vector that prevents them from re-centering their weight. As you reach your knees, the head position determines whether you end up in dogfight facing the opponent or circling behind for a back take. Keeping the head tight against their body also prevents them from establishing a crossface that could stall the sweep at any point during the elevation sequence."
       }
     ],
-    "safety_considerations": "The whip-up sweep involves significant force through the lockdown leg entanglement, which places stress on the knee and ankle joints of both practitioners. The bottom player should ensure the lockdown is applied with controlled tension rather than explosive cranking that could hyper-extend the training partner's knee. During the upward driving phase, both practitioners transition through positions where head and neck contact with the mat is possible, so controlled execution speed is essential during drilling. Partners should communicate if the lockdown pressure becomes painful on the trapped leg, particularly around the ankle and knee. Avoid attempting the whip-up with explosive force when the opponent has their weight completely off-balance, as this can cause both practitioners to tumble uncontrolled. During live training, be aware that the dogfight scramble following a successful whip-up carries collision risk as both players rapidly change levels."
+    "safety_considerations": "The whip-up sweep involves significant force through the lockdown leg entanglement, which places stress on the knee and ankle joints of both practitioners. The bottom player should ensure the lockdown is applied with controlled tension rather than explosive cranking that could hyper-extend the training partner's knee. During the upward driving phase, both practitioners transition through positions where head and neck contact with the mat is possible, so controlled execution speed is essential during drilling. Partners should communicate if the lockdown pressure becomes painful on the trapped leg, particularly around the ankle and knee. Avoid attempting the whip-up with explosive force when the opponent has their weight completely off-balance, as this can cause both practitioners to tumble uncontrolled. During live training, be aware that the dogfight scramble following a successful whip-up carries collision risk as both players rapidly change levels.",
+    "clips": [
+      {
+        "id": "EMvNZfNLCY0",
+        "title": "Half guard whip up",
+        "by": "Flashback Submission",
+        "vertical": false,
+        "channel": "Flashback Submission Subscription",
+        "duration": 57,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "qLdzklkFCNM",
+        "title": "Lockdown sweep",
+        "by": "Midtown Grappling Academy",
+        "vertical": false,
+        "channel": "Midtown Grappling Academy",
+        "duration": 42,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uY4ZC6b6e3s",
+        "title": "Lockdown to dogfight to roll under sweep",
+        "by": "Coach Paul",
+        "vertical": false,
+        "channel": "Coach Paul - War Fork Jiu-Jitsu Academy",
+        "duration": 78,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Whip-up Sweep Defender",
@@ -406,6 +435,35 @@
         "phase": "Week 7+",
         "focus": "Live defense and systematic leg extraction",
         "description": "Positional sparring from lockdown top against full-resistance lockdown offense. Bottom player works the complete lockdown attack system while top player defends and works to pass. Track how often the whip-up succeeds, at what stage defenses are most effective, and develop personalized defensive timing. Integrate leg extraction sequences into the defensive flow so that defending the whip-up transitions directly into passing."
+      }
+    ],
+    "clips": [
+      {
+        "id": "PptkZQh_MFA",
+        "title": "Lockdown escape",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 31,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "kTSMGYlVJKY",
+        "title": "Freeing your foot while passing half guard",
+        "by": "Kameron Ross",
+        "vertical": false,
+        "channel": "Kameron Ross",
+        "duration": 55,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Y4eC_7dtzOA",
+        "title": "Advanced half guard lockdown passing",
+        "by": "Peter Mettler",
+        "vertical": false,
+        "channel": "Peter Mettler Martial Arts",
+        "duration": 73,
+        "verified": "2026-07-15"
       }
     ]
   },

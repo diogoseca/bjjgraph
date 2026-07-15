@@ -378,6 +378,35 @@
           "nogi": 5
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "HniaoFWTsmI",
+        "title": "Easy entry to the saddle",
+        "by": "Ilya",
+        "vertical": false,
+        "channel": "Ilya's Jiu-Jitsu",
+        "duration": 53,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "lr7rlj7WV-E",
+        "title": "X guard to heel hook",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
+        "duration": 94,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "P-rkPE4bjdE",
+        "title": "Saddle transition from top half guard",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 31,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -691,6 +720,26 @@
           "nogi": 7
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "C3bPRoMwGPo",
+        "title": "Saddle escape / leg drag flow",
+        "by": "Travis Anderson",
+        "vertical": false,
+        "channel": "Travis Anderson",
+        "duration": 70,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "3a9k8-ZcYrk",
+        "title": "How to escape from the toehold",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "The King Life",
+        "duration": 106,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -725,6 +774,35 @@
     {
       "question": "Why is the Saddle considered a submission platform rather than a positional-control endpoint?",
       "answer": "Unlike positions such as mount or back control, where positional dominance is the primary objective and submission is secondary, the Saddle inverts that hierarchy because its control geometry exists to finish leg attacks. The perpendicular alignment, hip pressure, and heel exposure all serve the goal of applying rotational or extension force to the isolated joints. This is why the position carries a shorter time-sustainability profile and higher stakes than a dominant pin: it is inherently less stable than a control-first position and pushes toward resolution. Both players experience it as a race, one toward the finish and one toward extraction, rather than a state that can be comfortably held."
+    }
+  ],
+  "clips": [
+    {
+      "id": "VmxgqU-ScTM",
+      "title": "Honey hole from Single Leg X",
+      "by": "Danny Mitchell",
+      "vertical": false,
+      "channel": "Danny Mitchell MMA",
+      "duration": 34,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "IFuZ5o48t8I",
+      "title": "Single Leg X to honey hole drill",
+      "by": "Gracie Westchase",
+      "vertical": false,
+      "channel": "Gracie Westchase ",
+      "duration": 70,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "eRQVlYxFx1Y",
+      "title": "Shoulder roll to cross ashi (saddle)",
+      "by": "bjj doug",
+      "vertical": false,
+      "channel": "bjj doug",
+      "duration": 42,
+      "verified": "2026-07-14"
     }
   ]
 }

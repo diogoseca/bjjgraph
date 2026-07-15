@@ -248,7 +248,36 @@
         "answer": "The Cartwheel Pass functions as an athletic surprise element that complements more methodical passes like the back step or leg drag. Its threat forces opponents to respect aerial passes, which creates openings for ground-based passing when they adjust defensively."
       }
     ],
-    "safety_considerations": "The Cartwheel Pass carries inherent athletic risk due to its acrobatic nature. Practitioners should develop comfortable cartwheel mechanics through solo drilling before attempting with partners. Ensure adequate mat space and ceiling clearance before practicing. The landing phase requires controlled deceleration to avoid crashing weight onto the opponent's face or ribs - aim to land beside them with pressure spreading gradually. Avoid attempting this pass when fatigued, as compromised coordination increases injury risk for both parties. Partners should communicate clearly, and the receiving player should tap or verbalize if landing pressure is excessive. Practitioners with shoulder, wrist, or neck injuries should avoid this technique until fully recovered."
+    "safety_considerations": "The Cartwheel Pass carries inherent athletic risk due to its acrobatic nature. Practitioners should develop comfortable cartwheel mechanics through solo drilling before attempting with partners. Ensure adequate mat space and ceiling clearance before practicing. The landing phase requires controlled deceleration to avoid crashing weight onto the opponent's face or ribs - aim to land beside them with pressure spreading gradually. Avoid attempting this pass when fatigued, as compromised coordination increases injury risk for both parties. Partners should communicate clearly, and the receiving player should tap or verbalize if landing pressure is excessive. Practitioners with shoulder, wrist, or neck injuries should avoid this technique until fully recovered.",
+    "clips": [
+      {
+        "id": "ZoKpJSqnNXQ",
+        "title": "Cartwheel guard pass",
+        "by": "Ground Fighter",
+        "vertical": false,
+        "channel": "Ground Fighter",
+        "duration": 16,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_QgRae3Hxvs",
+        "title": "Knee cut to cartwheel passing",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "VMpIKmeRsTg",
+        "title": "Cartwheel pass mechanics",
+        "by": "Kenny Florian",
+        "vertical": false,
+        "channel": "Florian Martial Arts Center",
+        "duration": 27,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Cartwheel Pass Defender",
@@ -376,6 +405,26 @@
         "phase": "Week 7+",
         "focus": "Live defensive sparring",
         "description": "Positional rounds starting in grasshopper guard where partner can attempt cartwheel passes along with other passing methods. Defend with full defensive toolkit including tracking, interception, Granby rolls, and guard recovery. Develop the ability to read which pass is coming and select appropriate defense in real time."
+      }
+    ],
+    "clips": [
+      {
+        "id": "lVLAROiSjNU",
+        "title": "Guard retention: when to sit up to escape",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 136,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "86KseinKoSY",
+        "title": "Recovering from a knee slide pass to butterfly sweep",
+        "by": "Italiano BJJ",
+        "vertical": false,
+        "channel": "Italiano BJJ",
+        "duration": 37,
+        "verified": "2026-07-15"
       }
     ]
   },

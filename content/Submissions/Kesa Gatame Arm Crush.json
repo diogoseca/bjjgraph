@@ -150,5 +150,25 @@
       "name": "Arm Triangle",
       "relationship": "Alternative submission from same position when opponent defends the arm crush by tucking elbow"
     }
+  ],
+  "clips": [
+    {
+      "id": "fB7gGDIm1i8",
+      "title": "12 Kesa Gatame attacks",
+      "by": "Johnny Jitsu",
+      "vertical": false,
+      "channel": "Johnny Jitsu",
+      "duration": 88,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "nKITSItbeyM",
+      "title": "High-percentage Kesa Gatame submissions",
+      "by": "Stephan Kesting",
+      "vertical": false,
+      "channel": "Stephan Kesting",
+      "duration": 220,
+      "verified": "2026-07-14"
+    }
   ]
 }

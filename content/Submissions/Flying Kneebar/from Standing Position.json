@@ -399,6 +399,26 @@
         "answer": "Rather than fighting their grip strength directly, attack the structural weakness of their defense. First, increase hip pressure into the back of their knee while maintaining ankle control - this forces them to focus on preventing hyperextension rather than maintaining their grip. Second, use small hip circles or pulses to create micro-extensions that fatigue their grip. Third, if they're grabbing around their own knee, transition threat to toe hold by adjusting your far hand to their toes and rotating - this creates a dilemma where they must release the grip to defend the new attack. The key is making their defensive grip unsustainable rather than trying to overpower it.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "IuBrliVbU24",
+        "title": "3 Steps to a Flying Kneebar",
+        "by": "Bermuda Martial Arts",
+        "vertical": false,
+        "channel": "Bermuda Martial Arts",
+        "duration": 25,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "l9qAHPNbCfM",
+        "title": "Flying Kneebar Attack",
+        "by": "High Rollerz",
+        "vertical": false,
+        "channel": "High Rollerz Jiu Jitsu 💨🥋",
+        "duration": 16,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -528,6 +548,26 @@
         "phase": "Phase 3: Integrated Defense with Tap Awareness",
         "focus": "Full sequence defense from setup recognition through escape or tap decision, building safe training instincts",
         "description": "Full positional sparring where attacker attempts flying kneebar from standing against active defender. Start at 60% intensity and build to 80%. Defender practices the complete defensive sequence: recognition, stance change, and if caught, immediate escape attempts with correct rotation and knee bend. Critically, practice recognizing when escape has failed and tapping early - drill the tap decision as a positive defensive skill rather than a failure. Track recognition rate, escape rate, and appropriate tap timing across sessions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "wBRG0fY94fs",
+        "title": "How to Defend a Kneebar",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 59,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "NuWBh3LN-SY",
+        "title": "Kneebar Defense to Back Take",
+        "by": "Bicudo BJJ",
+        "vertical": false,
+        "channel": "Bicudo BJJ",
+        "duration": 22,
+        "verified": "2026-07-14"
       }
     ]
   },

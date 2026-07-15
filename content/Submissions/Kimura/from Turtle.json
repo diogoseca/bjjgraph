@@ -396,6 +396,35 @@
         "answer": "During the finishing sequence, several grip adjustments optimize torque: (1) Ensure your wrist-gripping hand is positioned with palm facing your body, creating a stronger structural connection; (2) Pull your elbows together and toward your own chest rather than pushing outward - this creates a compact, powerful frame; (3) The rotation should come from your entire torso rotating, not just your arms pulling; (4) Keep your controlling wrist positioned so their forearm is perpendicular to their spine for maximum mechanical advantage; (5) As you rotate, simultaneously pull their elbow tighter to your body - the combination of rotation plus compression creates exponentially more pressure on the shoulder. The grip should feel like one solid unit with your torso, not like your arms doing isolated work.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "rj3LRhRCtCA",
+        "title": "Kimura Trap to Attack the Turtle",
+        "by": "Paul Stolyar",
+        "vertical": false,
+        "channel": "boomdunker",
+        "duration": 52,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "R_2_oKfgvfw",
+        "title": "Stepover Kimura Top Finish",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 45,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "IA4laaUMfD8",
+        "title": "Kimura Sweep to Kimura Finish",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 70,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -538,6 +567,26 @@
         "phase": "Phase 4: Live Defensive Positional Sparring",
         "focus": "Full-resistance defense integration with chained escape attempts",
         "description": "Positional sparring starting from top turtle where partner attacks the Kimura at full resistance. Practice chaining defensive responses - if the initial prevention fails, transition to grip defense, then chain into the most appropriate escape based on the attacker's adjustments. Develop the ability to read the attacker's positioning in real-time and select the highest-percentage escape path under pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "_sBB-O8fqP4",
+        "title": "Standing Up from Turtle",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 114,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "g6yf2oyTix4",
+        "title": "Turtle Counters and Escapes",
+        "by": "BJJ After Forty",
+        "vertical": false,
+        "channel": "BJJ After Forty",
+        "duration": 62,
+        "verified": "2026-07-14"
       }
     ]
   },

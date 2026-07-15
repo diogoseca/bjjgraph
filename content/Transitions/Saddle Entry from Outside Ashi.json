@@ -292,7 +292,36 @@
         "answer": "The saddle creates a submission dilemma. If the opponent hides their heel by rotating their knee inward, their ankle becomes exposed to straight ankle lock or toe hold attacks. If they defend the ankle by pulling toes back, the heel re-exposes for heel hook. This cycling between threats is the primary offensive chain from saddle. Additionally, if the opponent commits heavily to turning into you during defense, a back take opportunity may present itself as their rotation creates exposure."
       }
     ],
-    "safety_considerations": "Leg entanglement transitions carry inherent risk of knee and ankle injury due to the rotational forces involved. During the backstep rotation, the heel is momentarily vulnerable, and uncontrolled rotation can apply dangerous force to the knee ligaments. Always maintain protective grips on your own leg throughout the transition. Practice at slow speed with progressive resistance before attempting at competition pace. Both training partners must understand tap protocols for heel hooks and agree on intensity levels before drilling. If any rotation is felt on the knee joint during the entry, stop immediately and reassess positioning. Never force the entry against a fully locked triangle, as the resistance combined with rotational force can damage both practitioners' joints."
+    "safety_considerations": "Leg entanglement transitions carry inherent risk of knee and ankle injury due to the rotational forces involved. During the backstep rotation, the heel is momentarily vulnerable, and uncontrolled rotation can apply dangerous force to the knee ligaments. Always maintain protective grips on your own leg throughout the transition. Practice at slow speed with progressive resistance before attempting at competition pace. Both training partners must understand tap protocols for heel hooks and agree on intensity levels before drilling. If any rotation is felt on the knee joint during the entry, stop immediately and reassess positioning. Never force the entry against a fully locked triangle, as the resistance combined with rotational force can damage both practitioners' joints.",
+    "clips": [
+      {
+        "id": "K5XhO7o5QN0",
+        "title": "Saddle entries from guard",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 66,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "KBkoWJtMeNA",
+        "title": "K-guard entry to the saddle at Worlds",
+        "by": "bjj doug",
+        "vertical": false,
+        "channel": "bjj doug",
+        "duration": 28,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "pucHycpOJ3w",
+        "title": "Kani basami into cross ashi / saddle entry",
+        "by": "Jack Brown",
+        "vertical": false,
+        "channel": "Jack Brown",
+        "duration": 31,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Saddle Entry from Outside Ashi Defender",
@@ -417,6 +446,17 @@
         "phase": "Phase 4: Recovery Protocols",
         "focus": "Escaping saddle when prevention fails",
         "description": "Start from position where partner has partially or fully established saddle after successful entry. Practice the saddle escape hierarchy: heel protection, grip fighting, hip clearing, leg extraction. Develop comfort with worst-case recovery scenarios so that failed prevention does not lead to panic or submission."
+      }
+    ],
+    "clips": [
+      {
+        "id": "C3bPRoMwGPo",
+        "title": "Saddle escape to leg drag flow drill",
+        "by": "Travis Anderson",
+        "vertical": false,
+        "channel": "Travis Anderson",
+        "duration": 70,
+        "verified": "2026-07-15"
       }
     ]
   }

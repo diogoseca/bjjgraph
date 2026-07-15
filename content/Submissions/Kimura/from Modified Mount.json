@@ -344,6 +344,26 @@
         "answer": "Against a purely defensive opponent, use the Kimura as the centerpiece of a three-way attack chain. Threaten the Kimura to force a grip defense, break the grip to threaten the americana, then when they straighten to defend the americana, take the armbar. The competition strategy is not to force the Kimura against maximum resistance but to use it as the primary threat that makes the secondary attacks available. Each failed Kimura attempt that transitions to another submission accumulates fatigue and erodes defensive confidence. The finish often comes on the second or third cycle through the chain, not the first.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "Lkh8kQG8ArA",
+        "title": "Kimura from Mount",
+        "by": "Tom Dinklage",
+        "vertical": false,
+        "channel": "Tom Dinklage",
+        "duration": 66,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "GDc3HlhB5rM",
+        "title": "Kimura from Mount Position",
+        "by": "Victory MMA",
+        "vertical": false,
+        "channel": "victorymmasandiego",
+        "duration": 91,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -480,6 +500,26 @@
         "phase": "Phase 4: Live positional sparring",
         "focus": "Defending the Kimura and its chains in realistic conditions",
         "description": "Full resistance positional sparring starting from Modified Mount. Partner attacks Kimura and chains to armbar and americana. Practice reading which submission is being threatened and applying the correct defense for each. Develop comfort with tapping early and resetting rather than risking injury."
+      }
+    ],
+    "clips": [
+      {
+        "id": "qVINUjefot8",
+        "title": "Bent Armlock (Kimura) Escape from Mount",
+        "by": "Soma Academy",
+        "vertical": false,
+        "channel": "Soma Academy",
+        "duration": 72,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "qQZI-_SRLM4",
+        "title": "How To Escape The Kimura",
+        "by": "Inverted Gear",
+        "vertical": false,
+        "channel": "Inverted Gear",
+        "duration": 219,
+        "verified": "2026-07-14"
       }
     ]
   }

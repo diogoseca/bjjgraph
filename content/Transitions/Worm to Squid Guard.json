@@ -294,7 +294,36 @@
         "answer": "Return to worm guard attacks if the hook fails to set, targeting the sweeps and back takes available from worm guard's established structure. If the lapel is partially reconfigured but the full squid guard cannot be established, consider transitioning to lasso guard or De La Riva guard using whatever lapel connection remains. The key principle is never staying in the failed transition state. Either complete the reconfiguration, return to worm guard, or flow to another guard system entirely."
       }
     ],
-    "safety_considerations": "This transition carries minimal injury risk as it involves guard reconfiguration rather than joint manipulation or submission attempts. The primary safety concern is protecting your own knees during the leg threading motion, particularly if the opponent drives forward pressure while your leg is in a compromised position between guard configurations. Avoid forcing the leg thread against strong resistance, as lateral pressure on the knee during threading can strain the medial collateral ligament. If you feel joint stress during the threading motion, abort the transition and return to worm guard. Communicate with training partners about appropriate resistance levels when drilling this transition."
+    "safety_considerations": "This transition carries minimal injury risk as it involves guard reconfiguration rather than joint manipulation or submission attempts. The primary safety concern is protecting your own knees during the leg threading motion, particularly if the opponent drives forward pressure while your leg is in a compromised position between guard configurations. Avoid forcing the leg thread against strong resistance, as lateral pressure on the knee during threading can strain the medial collateral ligament. If you feel joint stress during the threading motion, abort the transition and return to worm guard. Communicate with training partners about appropriate resistance levels when drilling this transition.",
+    "clips": [
+      {
+        "id": "QzwnLW735U8",
+        "title": "Worm guard breakdown",
+        "by": "Erich Munis",
+        "vertical": false,
+        "channel": "Deep Dive JJ",
+        "duration": 53,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "BHwU-bbyvkc",
+        "title": "Worm guard attacks: sweep and berimbolo",
+        "by": "jamielovesmartialarts",
+        "vertical": false,
+        "channel": "jamielovesmartialarts",
+        "duration": 89,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Dcdm1k8FsXg",
+        "title": "Reverse worm guard to the back",
+        "by": "Carpio Jiu Jitsu",
+        "vertical": false,
+        "channel": "Carpio Jiu Jitsu",
+        "duration": 111,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Worm to Squid Guard Defender",
@@ -419,6 +448,17 @@
         "phase": "Phase 4: Full Rolling Defensive Application",
         "focus": "Recognizing and countering in unstructured live sparring",
         "description": "During regular rolling, when opponent establishes worm guard, actively look for transition attempts and apply counter strategies. Track success rates against different partners and skill levels. Develop the ability to identify and exploit the transition window while managing the broader challenge of passing the lapel guard system."
+      }
+    ],
+    "clips": [
+      {
+        "id": "aR0dbddbfQA",
+        "title": "Passing the Polish worm rider",
+        "by": "Daniel Maira and Nicholas Salles",
+        "vertical": false,
+        "channel": "Movement Art",
+        "duration": 54,
+        "verified": "2026-07-15"
       }
     ]
   }

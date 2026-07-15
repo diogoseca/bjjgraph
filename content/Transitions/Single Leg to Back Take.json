@@ -314,7 +314,36 @@
         "answer": "Chest-to-back connection is the single most important control element throughout the transition. It begins as chest-to-hip connection during the single leg, transitions to chest-to-lower-back during the climb, and becomes chest-to-upper-back once hooks are established. Any moment where your chest separates from their body gives the opponent a window to escape, turn, or sit back. Maintaining this connection is more important than any individual grip or hook."
       }
     ],
-    "safety_considerations": "When practicing the Single Leg to Back Take, controlled application is essential to prevent injury during the dynamic positional change. Be aware of your partner's knees and ankles during the transition, as sudden weight shifts can stress these joints. Execute the technique smoothly rather than explosively during training to allow your partner time to post safely and absorb positional changes. Maintain awareness of the training space to ensure adequate room for the position change without colliding with walls or other practitioners. Both partners should communicate clearly, especially when first learning the technique, with the defensive partner tapping if they feel unstable or at risk of falling awkwardly. The climbing motion should be gradual during drilling phases to build coordination before adding speed. Partners should agree on resistance levels appropriate for their skill level. Be especially careful when the defender is on one leg and off-balance, as unexpected weight can cause knee injuries."
+    "safety_considerations": "When practicing the Single Leg to Back Take, controlled application is essential to prevent injury during the dynamic positional change. Be aware of your partner's knees and ankles during the transition, as sudden weight shifts can stress these joints. Execute the technique smoothly rather than explosively during training to allow your partner time to post safely and absorb positional changes. Maintain awareness of the training space to ensure adequate room for the position change without colliding with walls or other practitioners. Both partners should communicate clearly, especially when first learning the technique, with the defensive partner tapping if they feel unstable or at risk of falling awkwardly. The climbing motion should be gradual during drilling phases to build coordination before adding speed. Partners should agree on resistance levels appropriate for their skill level. Be especially careful when the defender is on one leg and off-balance, as unexpected weight can cause knee injuries.",
+    "clips": [
+      {
+        "id": "FsJlz-J_h9w",
+        "title": "Single leg takedown to back take",
+        "by": "Sdotbell",
+        "vertical": false,
+        "channel": "Sdotbell MMA (SdotbellMMA)",
+        "duration": 46,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "f3PJ06A_bWQ",
+        "title": "Hip switch to back take",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 19,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "s3Mm2PcqwpE",
+        "title": "Finishing the single leg: options and counters",
+        "by": "Talgat Ilyasov",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 196,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Single Leg to Back Take Defender",
@@ -439,6 +468,26 @@
         "phase": "Phase 4: Full Defense Against Live Back Take Attempts",
         "focus": "Defending the complete sequence from single leg through back control at competition pace",
         "description": "Start from live single leg attacks where the partner actively seeks the back take. Practice the full defensive hierarchy: square hips, clear hook, fight grips, turn to face. Partner works at high intensity. Measure success by whether they achieve full back control or whether you shut down the attempt at an earlier stage. Review which defensive layer needs the most work."
+      }
+    ],
+    "clips": [
+      {
+        "id": "OltjLaTW3wQ",
+        "title": "Three ways to defend the back take",
+        "by": "Roberto Cyborg Abreu",
+        "vertical": false,
+        "channel": "Cyborg BJJ",
+        "duration": 89,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ikqRbVwQ6eM",
+        "title": "Defending the single leg with a false X",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 127,
+        "verified": "2026-07-15"
       }
     ]
   }

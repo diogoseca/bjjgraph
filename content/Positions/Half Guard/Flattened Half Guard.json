@@ -324,6 +324,26 @@
         "question": "Your opponent manages to insert their bottom elbow as a wedge and creates two inches of space - how do you recover full control?",
         "answer": "Immediately drive your hips forward and chest down to close the space before they can build on the gain. Redirect your crossface angle to drive their head further away, which flattens their shoulder and weakens the elbow wedge. Use your free hand to control their elbow and strip it past your hip line, collapsing their frame. Then re-establish chest-to-chest pressure by sliding forward over the space they created. The critical principle is addressing the frame immediately rather than allowing them to stack micro-gains that compound into full recovery."
       }
+    ],
+    "clips": [
+      {
+        "id": "0FxFdqZ8mus",
+        "title": "Late correction to flatten opponent",
+        "by": "Paul Schreiner",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 153,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "lwwIfCAA7Zc",
+        "title": "Top lockdown turk",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 207,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -616,6 +636,35 @@
         "question": "What mental approach prevents panic when breathing is restricted under pressure?",
         "answer": "Develop the ability to remain calm and methodical by accepting temporary discomfort as part of the position. Panic triggers frantic movements that waste energy and tighten opponent's control. Focus on technical execution - systematic micro-adjustments rather than desperate escapes. Mental discipline to maintain the process even when uncomfortable separates successful defenders from those who get passed."
       }
+    ],
+    "clips": [
+      {
+        "id": "dOdO6xJ-TcU",
+        "title": "Stop the half guard underhook",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 98,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "BhNZGloJ56c",
+        "title": "Guard recovery when getting smashed",
+        "by": "Finesse Jiujitsu HTX",
+        "vertical": false,
+        "channel": "FINESSE JIUJITSU HTX",
+        "duration": 103,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "5sdZak2bil4",
+        "title": "Reclaim closed guard from half guard",
+        "by": "Daniel Lima",
+        "vertical": false,
+        "channel": "Daniel Lima",
+        "duration": 26,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -650,6 +699,35 @@
     {
       "question": "Why are small incremental movements more productive than explosive ones for creating change in this position?",
       "answer": "Because the bottom player is flattened with no frames and heavy compression on the chest, explosive bridges and rolls have no leverage base to generate power and simply telegraph intent, letting the top player ride the motion and resettle. Small hip escapes and micro-frames, by contrast, create tiny increments of space that can be immediately filled and stacked without giving the top player a clear movement to counter. The same logic constrains the top player, whose passing angles are best created through incremental hip and knee adjustments rather than lunges that spill pressure. The position rewards accumulation of small gains over single decisive bursts on both sides."
+    }
+  ],
+  "clips": [
+    {
+      "id": "0FxFdqZ8mus",
+      "title": "Late correction to flatten the half guard player",
+      "by": "Paul Schreiner",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 153,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "mWimgVQrsMU",
+      "title": "Far side underhook pin on a flattened half guard",
+      "by": "Craig Jones",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 137,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "NWie1oi3JSg",
+      "title": "Recovering after getting flattened in half guard",
+      "by": "Inverted Gear",
+      "vertical": false,
+      "channel": "Inverted Gear",
+      "duration": 274,
+      "verified": "2026-07-15"
     }
   ]
 }

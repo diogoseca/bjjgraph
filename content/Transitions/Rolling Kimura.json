@@ -329,7 +329,36 @@
         "answer": "Either collapse the frame before you commit by driving your chest and free hand into it to flatten the arm, or use the frame against them by trapping that framing arm with your leg and rolling into the crucifix. Taking the free arm with you on the roll converts their defensive frame into a both-arms-trapped finish, so a stubborn frame becomes the entry to your most controlling outcome."
       }
     ],
-    "safety_considerations": "The Rolling Kimura loads the shoulder joint under rotational momentum, so it must be drilled with strict progression: start with zero resistance and add speed only over weeks. The attacker must keep the rotation controlled and never jerk or spike the roll, since the combination of body momentum and a locked figure-four can injure the shoulder even without a deliberate finish. Communicate clearly with your partner, drill on soft mats while learning the roll, and have both players confirm tap protocols beforehand. Defenders should tap early to shoulder pressure rather than riding it out, because torn shoulder ligaments and labrum injuries carry long recoveries. In hard rolling and competition, respect that the dynamic nature of the roll can create unexpected joint loading mid-rotation, so maintain awareness and protect your partner at all times."
+    "safety_considerations": "The Rolling Kimura loads the shoulder joint under rotational momentum, so it must be drilled with strict progression: start with zero resistance and add speed only over weeks. The attacker must keep the rotation controlled and never jerk or spike the roll, since the combination of body momentum and a locked figure-four can injure the shoulder even without a deliberate finish. Communicate clearly with your partner, drill on soft mats while learning the roll, and have both players confirm tap protocols beforehand. Defenders should tap early to shoulder pressure rather than riding it out, because torn shoulder ligaments and labrum injuries carry long recoveries. In hard rolling and competition, respect that the dynamic nature of the roll can create unexpected joint loading mid-rotation, so maintain awareness and protect your partner at all times.",
+    "clips": [
+      {
+        "id": "YvTmqi750wQ",
+        "title": "Rolling kimura from bottom side control",
+        "by": "Mat Life Training Center",
+        "vertical": false,
+        "channel": "Mat Life Training Center",
+        "duration": 31,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2lqHT7gaQKQ",
+        "title": "Rolling kimura lock from bottom turtle",
+        "by": "Big Boy Friendly Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Big Boy Friendly jiu-jitsu",
+        "duration": 98,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "UymiirWc8EY",
+        "title": "Rolling kimura trap for gi and no-gi",
+        "by": "Gold BJJ",
+        "vertical": false,
+        "channel": "Gold BJJ",
+        "duration": 169,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Rolling Kimura Defender",
@@ -456,6 +485,26 @@
         "phase": "Week 7-9: Live Positional Defense",
         "focus": "Defending the Rolling Kimura under full resistance",
         "description": "Start in Kimura Trap top with the bottom player working the full system, including the Rolling Kimura, Old School sweep, and back take. Drill distinguishing the roll from the other branches and responding with the right defense in real time, integrating shoulder safety and base management under live pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "wyaWWm8sUQE",
+        "title": "Counter to the rolling kimura",
+        "by": "Brandon Olsen",
+        "vertical": false,
+        "channel": "Sylvio Behring - United States",
+        "duration": 137,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MO0PFxgjuJ4",
+        "title": "Deep half guard counter to rolling kimura",
+        "by": "Scott Ryan Chiriboga",
+        "vertical": false,
+        "channel": "Scott Ryan Chiriboga",
+        "duration": 155,
+        "verified": "2026-07-15"
       }
     ]
   }

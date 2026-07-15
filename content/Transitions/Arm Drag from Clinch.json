@@ -286,7 +286,36 @@
         "answer": "In no-gi, use a cupping wrist grip and C-grip on the tricep for the two-on-one. The key challenge is sweat reducing grip security, requiring faster execution and more decisive commitment. In gi, you can grip the sleeve at the wrist and elbow area, which provides more friction and control, allowing slightly slower but more controlled drags. The sleeve grip also enables maintaining the grip longer after clearing the shoulder line."
       }
     ],
-    "safety_considerations": "Practice arm drags with controlled intensity, especially when transitioning behind the opponent at speed. Be mindful of footing during lateral movements to prevent ankle rolls or knee strain on uneven surfaces. Partners should communicate when they feel their shoulder being overextended during the drag. Avoid explosive arm pulls on partners with existing shoulder injuries. In standing work, ensure adequate mat space and awareness of surrounding training pairs to prevent collisions during angular movement patterns."
+    "safety_considerations": "Practice arm drags with controlled intensity, especially when transitioning behind the opponent at speed. Be mindful of footing during lateral movements to prevent ankle rolls or knee strain on uneven surfaces. Partners should communicate when they feel their shoulder being overextended during the drag. Avoid explosive arm pulls on partners with existing shoulder injuries. In standing work, ensure adequate mat space and awareness of surrounding training pairs to prevent collisions during angular movement patterns.",
+    "clips": [
+      {
+        "id": "Kp3ABmsn1I0",
+        "title": "Arm Drag Takedown",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "Baltimore Martial Arts",
+        "duration": 55,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "wB0ifzwxrBQ",
+        "title": "Arm Drag to Body Lock",
+        "by": "Renegade BJJ",
+        "vertical": false,
+        "channel": "Renegade BJJ",
+        "duration": 56,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MXUtIJBEIqU",
+        "title": "Wall Control to Arm Drag",
+        "by": "Troy Manning",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 45,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Arm Drag from Clinch Defender",
@@ -406,6 +435,35 @@
         "phase": "Phase 4: Live Defense Situational Sparring",
         "focus": "Pressure testing under competitive conditions",
         "description": "Begin all rounds from clinch with attacker specifically hunting arm drags while defender works to prevent and counter. Track success rates and identify defensive gaps. Develop real-time decision-making about which defensive response to deploy based on the attacker's specific setup and timing."
+      }
+    ],
+    "clips": [
+      {
+        "id": "bmCjXADzgo4",
+        "title": "How to Defend the Arm Drag",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "T3ChZk__H9c",
+        "title": "Standing Arm Drag Counter",
+        "by": "Gracie Barra HQ",
+        "vertical": false,
+        "channel": "Gracie Barra HQ - California",
+        "duration": 141,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "qk3MUabz0AA",
+        "title": "Over Under Arm Drag to Side Clinch",
+        "by": "Fargo BJJ",
+        "vertical": false,
+        "channel": "Fargo BJJ Academy",
+        "duration": 78,
+        "verified": "2026-07-15"
       }
     ]
   }

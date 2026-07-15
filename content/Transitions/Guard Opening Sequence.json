@@ -297,7 +297,27 @@
         "answer": "Opening the guard should be driven by hip and leg movement, not arm pulling. In the standing break, your hips drive forward while your legs provide the platform and stability - your arms merely hold position on the pants. The opening force comes from hip extension, the strongest movement your body produces. In the combat base opening, your posted leg drives forward like a wedge while your hips sit back for leverage, creating opposing forces through your skeleton. Your arms control position and prevent re-closing, but the actual opening force comes from the much stronger hip and leg muscles moving in opposition to create mechanical advantage."
       }
     ],
-    "safety_considerations": "Guard opening requires careful attention to safety for both practitioners. The person opening must avoid explosive or jerking movements that could injure the opponent's knees, hips, or ankles - apply opening pressure gradually and release immediately if partner taps or signals discomfort. Never twist the opponent's legs laterally during opening as this stresses the knee joint. The person in guard must unlock ankles when proper opening pressure is applied to prevent knee or ankle injuries from resisting mechanically sound opening techniques. Both practitioners should communicate clearly during learning phases. Avoid cranking or forcing the opening with pure strength, which increases injury risk for both parties. When standing, be aware of your partner's hips leaving the mat to prevent dropping them dangerously. Practice on appropriate mat surfaces to prevent injury if balance is lost during standing breaks. Start with cooperative drilling at slow speed before progressing to resistance."
+    "safety_considerations": "Guard opening requires careful attention to safety for both practitioners. The person opening must avoid explosive or jerking movements that could injure the opponent's knees, hips, or ankles - apply opening pressure gradually and release immediately if partner taps or signals discomfort. Never twist the opponent's legs laterally during opening as this stresses the knee joint. The person in guard must unlock ankles when proper opening pressure is applied to prevent knee or ankle injuries from resisting mechanically sound opening techniques. Both practitioners should communicate clearly during learning phases. Avoid cranking or forcing the opening with pure strength, which increases injury risk for both parties. When standing, be aware of your partner's hips leaving the mat to prevent dropping them dangerously. Practice on appropriate mat surfaces to prevent injury if balance is lost during standing breaks. Start with cooperative drilling at slow speed before progressing to resistance.",
+    "clips": [
+      {
+        "id": "6mxOyJDMgdM",
+        "title": "Breaking and opening the closed guard",
+        "by": "Gracie Barra Online",
+        "vertical": false,
+        "channel": "Gracie Barra Online",
+        "duration": 108,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "j5cx0q6BYiM",
+        "title": "Knee in the middle guard opener",
+        "by": "Fabiano Scherner",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 186,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Guard Opening Sequence Defender",
@@ -436,6 +456,26 @@
         "phase": "Week 11+: Transition Training",
         "focus": "Seamless transition from closed guard retention to open guard systems",
         "description": "Accept that the guard will sometimes open and practice immediate transitions to spider guard, de la riva, collar-sleeve, or butterfly guard with pre-established grips. Train the decision point: when to fight for re-closure versus when to transition cleanly. Develop two or three reliable open guard recovery systems."
+      }
+    ],
+    "clips": [
+      {
+        "id": "9PIbVkxs7I8",
+        "title": "Keeping a standing opponent in your closed guard",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 127,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "jx120fTdOfA",
+        "title": "Common mistake made by guard players",
+        "by": "Rickson Gracie",
+        "vertical": false,
+        "channel": "Rickson Gracie Jiu-Jitsu Academy",
+        "duration": 58,
+        "verified": "2026-07-15"
       }
     ]
   },

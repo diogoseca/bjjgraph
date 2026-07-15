@@ -392,6 +392,35 @@
         "question": "What determines whether you should hunt submissions from North-South versus transitioning to mount?",
         "answer": "Transition to mount when: your opponent has established strong defensive frames, they're defending their neck well making the North-South choke unavailable, or you feel their escape is progressing despite your control. Hunt submissions when: their arms are exposed or isolated, their neck is available for the choke, they're flat on their back without active frames, or they're exhausted and not actively defending. The decision also depends on the rule set - mount scores additional points, so in competition you may prioritize advancement over submission attempts."
       }
+    ],
+    "clips": [
+      {
+        "id": "z3RNUfHfiSM",
+        "title": "North-South choke",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "Kon Ying",
+        "duration": 20,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Fdq-j0AUVtc",
+        "title": "North-South pressure choke",
+        "by": "Nick Unander",
+        "vertical": false,
+        "channel": "Nick Unander",
+        "duration": 99,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "SPXanCnoBYA",
+        "title": "North-South choke as a pinning tool",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 135,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -701,6 +730,26 @@
         "question": "Your escape attempt is partially successful and you've created some space - how do you prevent them from re-consolidating control?",
         "answer": "Immediately insert your knee or both knees between your bodies before they can close the distance. Maintain your frames throughout - the space you created is worthless without frames to keep it. Continue your hip escape to increase the distance. If they drive forward to re-consolidate, use the momentum to complete your turn toward guard recovery. Never pause or rest in a partial escape position - maintain constant motion toward a stable guard."
       }
+    ],
+    "clips": [
+      {
+        "id": "XaLBmGnHm78",
+        "title": "North-South inverted spin escape",
+        "by": "SBG Australia",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 37,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Ly89G4iCTSQ",
+        "title": "No-grips escape rolling back to guard",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 108,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -735,6 +784,26 @@
     {
       "question": "How does North-South relate to the surrounding pinning positions like side control, mount, and turtle?",
       "answer": "North-South sits within a web of dominant pins as a rotational hub: it is commonly entered from side control by circling to the head, and it can advance to mount or knee-on-belly by rotating back down toward the hips. When the bottom player turns inward to escape the pressure, they frequently expose their back and end up in turtle, opening back-take opportunities. This positions North-South as a connective checkpoint rather than a dead-end, sharing escape and control principles with side control while offering distinct perpendicular pressure that the parallel pins do not."
+    }
+  ],
+  "clips": [
+    {
+      "id": "z3RNUfHfiSM",
+      "title": "North-South choke",
+      "by": "Marcelo Garcia",
+      "vertical": false,
+      "channel": "Kon Ying",
+      "duration": 20,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "aAitcEHUcRE",
+      "title": "Taking the back from North-South",
+      "by": "Stephan Kesting",
+      "vertical": false,
+      "channel": "Stephan Kesting",
+      "duration": 53,
+      "verified": "2026-07-14"
     }
   ]
 }

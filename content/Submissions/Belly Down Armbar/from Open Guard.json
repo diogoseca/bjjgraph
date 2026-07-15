@@ -315,6 +315,35 @@
         "answer": "Three checkpoints must be confirmed: first, the wrist is pinned firmly against your chest with both hands maintaining the 2-on-1 grip. Second, both knees are squeezing tightly around the opponent's upper arm with no gap between your thighs and their bicep. Third, the opponent's posture is broken enough that they cannot stack forward during the rotation. Missing any one of these checkpoints during the rotation creates an escape window that experienced defenders will exploit.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "EdYFELAO6B0",
+        "title": "Belly Down Armbar from Guard",
+        "by": "Robert Hugus",
+        "vertical": false,
+        "channel": "Robert Hugus BJJ Videos",
+        "duration": 41,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "ZNhU5mY852E",
+        "title": "Open Guard Armbar",
+        "by": "Rafael Mendes",
+        "vertical": false,
+        "channel": "Flow Grappling Discovery Bay",
+        "duration": 45,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "vSmRbpNmf-E",
+        "title": "Roger Gracie Armbars",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 102,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -433,6 +462,35 @@
         "phase": "Live Positional Defense",
         "focus": "Integrating defense into live open guard passing situations",
         "description": "Positional sparring from open guard top where the bottom player specifically hunts the belly down armbar. Practice maintaining safe arm positioning during passing while recognizing and defending the attack chain in live conditions with full resistance."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "Favorite Armbar Escape",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "JywwE7-05fU",
+        "title": "Armbar from Guard Escape",
+        "by": "Thiago Stefanutti",
+        "vertical": false,
+        "channel": "thiago stefanutti",
+        "duration": 65,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "AfDEN3uK3W0",
+        "title": "Low Effort Armbar Escape via Foot Capture",
+        "by": "Patrick Donabedian",
+        "vertical": false,
+        "channel": "Patrick Donabedian BJJ",
+        "duration": 55,
+        "verified": "2026-07-14"
       }
     ]
   }

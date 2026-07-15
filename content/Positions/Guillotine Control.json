@@ -409,6 +409,35 @@
           "nogi": 6
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "NUnTxPvjCa0",
+        "title": "Marcelo Garcia's Marcelotine Choke",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "stuartcooperfilms",
+        "duration": 73,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Dg1dvtWkXhE",
+        "title": "Marcelotine high-elbow guillotine demo",
+        "by": "Half The Battle",
+        "vertical": false,
+        "channel": "Half The Battle",
+        "duration": 110,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "9U5nyBImGj4",
+        "title": "High Elbow Guillotine (Marcelotine)",
+        "by": "Wrecking Crew BJJ",
+        "vertical": false,
+        "channel": "Wrecking Crew BJJ",
+        "duration": 45,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -747,6 +776,26 @@
           "nogi": 1
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "nGpAcI79frk",
+        "title": "Positional Check Against the Guillotine",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 116,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "PYiD6UjqMTw",
+        "title": "Worst Case Guillotine Escape",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 108,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -781,6 +830,35 @@
     {
       "question": "How does the choke's pressure actually get generated in Guillotine Control?",
       "answer": "Pressure is a product of compression, not raw squeezing: the closed hand-loop shortens the circumference around the neck while the head is pulled into the torso, sandwiching the throat and carotids between the choking forearm and the attacker's body. The head-below-hips posture pre-loads the neck by flexing it forward, and elbow position aims the forearm blade at either the trachea or the carotids. Micro-adjustments of angle finish more reliably than added grip strength. This mechanism is why a tight seam and broken posture matter far more than arm size for either player."
+    }
+  ],
+  "clips": [
+    {
+      "id": "NUnTxPvjCa0",
+      "title": "Marcelo Garcia's Marcelotine Choke",
+      "by": "Marcelo Garcia",
+      "vertical": false,
+      "channel": "stuartcooperfilms",
+      "duration": 73,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "SP960PaJkoc",
+      "title": "J-Hook Guillotine Grip Explained",
+      "by": "Elevate MMA Academy",
+      "vertical": false,
+      "channel": "Elevate MMA Academy",
+      "duration": 65,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "z4tNXffuHXM",
+      "title": "Guillotine Choke Fundamentals",
+      "by": "Todd Hendrickson",
+      "vertical": false,
+      "channel": "Todd Hendrickson Jiu Jitsu",
+      "duration": 60,
+      "verified": "2026-07-14"
     }
   ]
 }

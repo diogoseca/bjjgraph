@@ -333,7 +333,36 @@
         "answer": "In IBJJF rules, both players pulling guard simultaneously results in a referee stand-up, so you must commit decisively before your opponent sits. Some rulesets penalize guard pulling directly or award advantages to the opponent who remains standing. In ADCC, pulling guard results in a negative point after the initial period, making it a calculated risk rather than a free strategic choice. In sub-only formats, guard pulling carries no point penalty and can be used freely. Understanding the ruleset determines whether you pull immediately to establish your game, or use the guard pull as a defensive bail-out when takedown exchanges become unfavorable. Your grip timing and descent speed should adjust based on whether penalties exist for failed or simultaneous pulls."
       }
     ],
-    "safety_considerations": "Guard pulls from ground carry risk of knee and ankle injuries if legs become trapped or twisted during the wrapping motion. Never force a guard pull when your legs are entangled in an awkward position that could stress the knee laterally. Practice hip bridges at controlled speed before adding resistance to avoid lower back strain. Ensure clear communication with training partners during guard pull drills to prevent collisions, particularly when bridging explosively toward a standing opponent. In competition, be aware that jumping closed guard is illegal at most belt levels due to knee injury risk - ground-based pulls avoid this concern but still require controlled leg placement."
+    "safety_considerations": "Guard pulls from ground carry risk of knee and ankle injuries if legs become trapped or twisted during the wrapping motion. Never force a guard pull when your legs are entangled in an awkward position that could stress the knee laterally. Practice hip bridges at controlled speed before adding resistance to avoid lower back strain. Ensure clear communication with training partners during guard pull drills to prevent collisions, particularly when bridging explosively toward a standing opponent. In competition, be aware that jumping closed guard is illegal at most belt levels due to knee injury risk - ground-based pulls avoid this concern but still require controlled leg placement.",
+    "clips": [
+      {
+        "id": "c9zYACjPEWo",
+        "title": "Pulling closed guard",
+        "by": "The Paradigm Academy",
+        "vertical": false,
+        "channel": "The Paradigm Academy",
+        "duration": 53,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2RxcGbEFS_s",
+        "title": "Pulling guard no-gi",
+        "by": "Backstreet Dojo",
+        "vertical": false,
+        "channel": "Backstreet Dojo ",
+        "duration": 26,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "E9R-iRPMNeI",
+        "title": "Closed guard pull fundamentals",
+        "by": "Absolute MMA",
+        "vertical": false,
+        "channel": "Absolute MMA",
+        "duration": 110,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Pull Guard from Ground Defender",
@@ -478,6 +507,35 @@
         "phase": "Phase 4: Competitive Application",
         "focus": "Full-speed guard pull defense with immediate passing follow-up",
         "description": "Full-resistance positional sparring starting from standing guard engagement. Partner attempts guard pulls using any variation while defender employs complete defensive toolkit. When defense succeeds and opponent ends in open guard, defender immediately initiates passing sequence. Develops the defensive-to-offensive chain that converts successful guard pull defense into positional advancement. Work 5-minute rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "G1PKGe_q9P0",
+        "title": "How to counter sit-up guard",
+        "by": "Avant-Garde BJJ",
+        "vertical": false,
+        "channel": "Avant-Garde BJJ",
+        "duration": 58,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "F5oVtO4w2eA",
+        "title": "Guard pull counter",
+        "by": "Koji Shibamoto",
+        "vertical": false,
+        "channel": "トライフォース柔術アカデミー / Tri-force Jiu-jitsu Academy",
+        "duration": 14,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "pIh1n8YS3J8",
+        "title": "Sit-up guard counter to windshield wiper pass",
+        "by": "Carpio Jiu Jitsu",
+        "vertical": false,
+        "channel": "Carpio Jiu Jitsu",
+        "duration": 98,
+        "verified": "2026-07-15"
       }
     ]
   }

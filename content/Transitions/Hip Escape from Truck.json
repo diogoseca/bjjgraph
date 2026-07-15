@@ -302,7 +302,18 @@
         "answer": "The critical defensive action is establishing the underhook immediately after clamping half guard, combined with a strong knee shield to create distance. The underhook prevents the opponent from achieving the perpendicular angle needed for truck re-entry, while the knee shield blocks their hips from closing distance. Turn fully to face the opponent so your back is no longer exposed. If they persist in attempting truck re-entry, use the knee shield to push their hips away and transition to a more aggressive half guard variant like butterfly half or deep half that keeps them off-balance."
       }
     ],
-    "safety_considerations": "The hip escape from truck must be practiced with awareness of the twister and calf slicer threats inherent to the position. During training, always tap immediately if the opponent locks a twister grip and begins spinal rotation—cervical spine injuries from the twister can be severe and occur with minimal warning. Similarly, tap early to calf slicer pressure during leg extraction attempts, as the changing angles during escape can accelerate compression on the knee joint. Partners should apply submissions slowly during escape drilling to allow time for tapping. Begin all training with static drilling at zero resistance before progressing to live positional sparring."
+    "safety_considerations": "The hip escape from truck must be practiced with awareness of the twister and calf slicer threats inherent to the position. During training, always tap immediately if the opponent locks a twister grip and begins spinal rotation—cervical spine injuries from the twister can be severe and occur with minimal warning. Similarly, tap early to calf slicer pressure during leg extraction attempts, as the changing angles during escape can accelerate compression on the knee joint. Partners should apply submissions slowly during escape drilling to allow time for tapping. Begin all training with static drilling at zero resistance before progressing to live positional sparring.",
+    "clips": [
+      {
+        "id": "dWAZQ2VQcjw",
+        "title": "Reversing out of the truck",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 229,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Hip Escape from Truck Defender",
@@ -423,6 +434,26 @@
         "phase": "Phase 4: Full Resistance Positional Sparring",
         "focus": "Live application of all truck top retention skills against full escape attempts",
         "description": "Start in truck with both players at full resistance. Top player works to maintain position and finish submissions while bottom player works all available escapes. Track retention rate and submission rate over multiple rounds. Identify specific escape patterns that cause position loss for targeted counter development."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ZVAmQ2Sf-Fc",
+        "title": "Keeping the truck when they try to escape",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "sCBGkcJCQYY",
+        "title": "The truck in transition",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -288,7 +288,36 @@
         "answer": "When the opponent sprawls backward, they remove their center of gravity from the sweep arc but also create space between hips. Use this space immediately to either recover full half guard by inserting your knee for a knee shield, transition to deep half guard by threading underneath their elevated hips, or attempt a back take by following their backward movement and coming up on their far side with the underhook still connected."
       }
     ],
-    "safety_considerations": "The Sweep from Quarter Guard is a relatively low-risk reversal technique with no direct joint manipulation or choking pressure. Primary safety concern is neck strain during aggressive crossface pressure from the top player—communicate with training partners about pressure levels. During the sweep itself, ensure controlled landing when achieving top position to avoid knee-on-knee collisions. Partners should practice cooperative drilling before adding resistance to prevent injury from unexpected weight shifts during the reversal."
+    "safety_considerations": "The Sweep from Quarter Guard is a relatively low-risk reversal technique with no direct joint manipulation or choking pressure. Primary safety concern is neck strain during aggressive crossface pressure from the top player—communicate with training partners about pressure levels. During the sweep itself, ensure controlled landing when achieving top position to avoid knee-on-knee collisions. Partners should practice cooperative drilling before adding resistance to prevent injury from unexpected weight shifts during the reversal.",
+    "clips": [
+      {
+        "id": "sMsgoChdaHE",
+        "title": "Quarter guard concepts",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "9OVINPV6FkY",
+        "title": "Quarter guard back step to heel hook",
+        "by": "Subforce Women",
+        "vertical": false,
+        "channel": "Subforce Women",
+        "duration": 30,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "PFFTzx1Ih_Q",
+        "title": "Prison guard breakdown",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 59,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Sweep from Quarter Guard Defender",
@@ -409,6 +438,26 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Competition-pace sweep defense",
         "description": "Defend sweep attempts during live sparring from quarter guard top, integrating recognition, timing, and pass continuation under full resistance and unpredictable offensive timing"
+      }
+    ],
+    "clips": [
+      {
+        "id": "kTSMGYlVJKY",
+        "title": "Free your trapped foot while passing half guard",
+        "by": "Kameron Ross",
+        "vertical": false,
+        "channel": "Kameron Ross",
+        "duration": 55,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8lAqEhHz8ao",
+        "title": "Quarter guard escape and pass, with slow motion",
+        "by": "Marcus Almeida",
+        "vertical": false,
+        "channel": "grpplng",
+        "duration": 37,
+        "verified": "2026-07-15"
       }
     ]
   }

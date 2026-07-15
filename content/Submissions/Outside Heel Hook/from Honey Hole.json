@@ -365,6 +365,35 @@
         "answer": "Follow their movement by hip-walking with them while maintaining the grip and leg triangle tension. Use your triangle to prevent them from creating sufficient distance to extract their leg. Drive your hips into their trapped leg to close any gap they create. If they continue creating space, maintain your finishing rotation at progressive pressure. Never chase by extending your arms away from your body as this weakens the grip and reduces torque.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "PGQ7YYfu76Q",
+        "title": "Honey hole to heel hook finish",
+        "by": "Ilya Bodnya",
+        "vertical": false,
+        "channel": "Ilya Bodnya",
+        "duration": 65,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "6gu-n4P9JXo",
+        "title": "Heel hook breaking mechanics",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "Altay Pirge",
+        "duration": 77,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "n6EoUkDwUVc",
+        "title": "4 heel hook finishes from the saddle",
+        "by": "The Grappling Bloke",
+        "vertical": false,
+        "channel": "The Grappling Bloke",
+        "duration": 102,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -496,6 +525,26 @@
         "phase": "Phase 4: Live Defense Integration",
         "focus": "Full-speed positional defense",
         "description": "Positional sparring starting from Honey Hole bottom against partner with full submission chain including inside heel hook, outside heel hook, kneebar, and toe hold. Practice recognizing and defending all threats while seeking escape opportunities. Emphasize tapping early and analyzing defensive decisions after each round."
+      }
+    ],
+    "clips": [
+      {
+        "id": "pCX38nCUGD0",
+        "title": "Saddle heel hook escape to 50/50",
+        "by": "ZombieProof BJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 65,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "v3w0qXLKxug",
+        "title": "Defending heel hooks fundamentals",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 92,
+        "verified": "2026-07-14"
       }
     ]
   }

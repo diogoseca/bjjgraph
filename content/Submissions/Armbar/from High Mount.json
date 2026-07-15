@@ -360,6 +360,26 @@
         "answer": "Release all pressure immediately regardless of whether they have tapped. Notify your training partner and your instructor. Do not continue the roll. Apply ice to the affected elbow and assess range of motion carefully. Any audible pop in the elbow joint during armbar application should be treated as a potential ligament injury until assessed by a medical professional. The training partner should avoid using the arm for the remainder of the session even if pain seems minimal, as adrenaline can mask injury severity.",
         "safety_critical": true
       }
+    ],
+    "clips": [
+      {
+        "id": "cajDQH-ZiH8",
+        "title": "Arm bar from the Mount",
+        "by": "Cosens MMA",
+        "vertical": false,
+        "channel": "Cosens MMA LLC",
+        "duration": 44,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "vSmRbpNmf-E",
+        "title": "Armbar breakdown",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 102,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -498,6 +518,26 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Defending against full-resistance armbar attempts",
         "description": "Positional sparring from high mount bottom against full resistance. Defender works to prevent the armbar and escape to guard; attacker works to finish. Track success rate over multiple rounds and identify which phase of defense needs the most improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "KuhIFZMNIKs",
+        "title": "Fix your armbar defense",
+        "by": "Michael Currier",
+        "vertical": false,
+        "channel": "Michael Currier BJJ",
+        "duration": 105,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "sDdqvh_1kbA",
+        "title": "Armbar escape",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 63,
+        "verified": "2026-07-14"
       }
     ]
   }

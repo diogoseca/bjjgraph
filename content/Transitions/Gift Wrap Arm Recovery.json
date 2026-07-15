@@ -285,7 +285,18 @@
         "answer": "This signals a crucifix transition attempt, which would trap both arms and create an even worse position. Immediately retract your free arm tight to your body with elbow against your ribs. Prioritize protecting the free arm over continuing the recovery attempt. If necessary, abandon the arm recovery entirely and focus on preventing the crucifix by keeping the free elbow glued to your torso while maintaining neck defense."
       }
     ],
-    "safety_considerations": "Gift Wrap Arm Recovery is generally a low-risk technique from an injury perspective, as you are working to free your own limb rather than applying joint pressure. However, several safety considerations apply. Avoid explosive pulling motions on the trapped arm that could strain shoulder structures - use body mechanics instead. If the opponent has extreme control and your shoulder is experiencing pain from the trapped position, tap and reset rather than risking rotator cuff injury. During training, communicate with your partner about the intensity of the Gift Wrap control. When drilling at higher resistance levels, ensure both partners understand the escape mechanics to prevent unintended joint stress during resistance."
+    "safety_considerations": "Gift Wrap Arm Recovery is generally a low-risk technique from an injury perspective, as you are working to free your own limb rather than applying joint pressure. However, several safety considerations apply. Avoid explosive pulling motions on the trapped arm that could strain shoulder structures - use body mechanics instead. If the opponent has extreme control and your shoulder is experiencing pain from the trapped position, tap and reset rather than risking rotator cuff injury. During training, communicate with your partner about the intensity of the Gift Wrap control. When drilling at higher resistance levels, ensure both partners understand the escape mechanics to prevent unintended joint stress during resistance.",
+    "clips": [
+      {
+        "id": "B_kiu8SIRRc",
+        "title": "Back Escape with Arms Trapped",
+        "by": "Skyhook Martial Arts",
+        "vertical": false,
+        "channel": "Skyhook Martial Arts & Fitness",
+        "duration": 40,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Gift Wrap Arm Recovery Defender",
@@ -415,6 +426,26 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Start rounds from established Gift Wrap Top position. Partner uses full resistance and all available recovery techniques. Goal is maintaining Gift Wrap control or advancing to crucifix while preventing arm recovery. Track retention rate and identify which recovery variants succeed most often against you."
+      }
+    ],
+    "clips": [
+      {
+        "id": "4Qe84oTwUVQ",
+        "title": "Maintaining the Gift Wrap in Guard",
+        "by": "Cape May BJJ",
+        "vertical": false,
+        "channel": "Cape May BJJ",
+        "duration": 74,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "5bw7poxVJ1E",
+        "title": "The Gift Wrap in Two Minutes",
+        "by": "Brian Glick",
+        "vertical": false,
+        "channel": "Brian Glick",
+        "duration": 112,
+        "verified": "2026-07-15"
       }
     ]
   },

@@ -338,6 +338,35 @@
           "nogi": 14
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "hHbb7ywVTwU",
+        "title": "Top Deep Half Guard Counter to Back Take",
+        "by": "JiuJitsu.com",
+        "vertical": false,
+        "channel": "JiuJitsu.com",
+        "duration": 63,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "dOdO6xJ-TcU",
+        "title": "Stop the Half Guard Underhook",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 98,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "2mom9Urqxa4",
+        "title": "How to Pass the Deep Half Guard",
+        "by": "Dimitrius Souza",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 237,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -648,6 +677,35 @@
           "nogi": 11
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "4EpYNsTwjWY",
+        "title": "Deep Half Faria Sweep",
+        "by": "Team Daruma Dojo",
+        "vertical": false,
+        "channel": "Team Daruma Dojo",
+        "duration": 71,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "ZQzg3TnzMJI",
+        "title": "Deep Half Guard Sweep",
+        "by": "Kyle Dimmitt",
+        "vertical": false,
+        "channel": "Kyle Dimmitt",
+        "duration": 42,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "v7MopqNBzwY",
+        "title": "Deep Half Guard Sweep (No Gi)",
+        "by": "Prism Jiu Jitsu",
+        "vertical": false,
+        "channel": "Prism Jiu Jitsu",
+        "duration": 53,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -682,6 +740,35 @@
     {
       "question": "What makes deep half guard a deceptive position where the top player appears to be winning?",
       "answer": "Positionally the top player is on top with no points conceded, which reads as an advantage, but deep half is fundamentally an offensive platform for the player underneath. The bottom player has quietly assembled a lever system, deep underhook plus head-and-shoulder wedge under a loaded base, that turns the top player's apparent dominance into vulnerability to powerful sweeps and back takes. The danger is that the top player relaxes into the false sense of control and stays static, which is exactly the condition the bottom player needs. Recognizing that the on-top athlete is actually the one under mechanical threat is the key insight both players must hold about the position."
+    }
+  ],
+  "clips": [
+    {
+      "id": "_IGB9jEvXfo",
+      "title": "Deep Half Guard Low Grip vs High Grip",
+      "by": "Jeff Glover",
+      "vertical": false,
+      "channel": "The Jiu Jitsu Encyclopedia",
+      "duration": 42,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "ZQzg3TnzMJI",
+      "title": "Deep Half Guard Sweep",
+      "by": "Kyle Dimmitt",
+      "vertical": false,
+      "channel": "Kyle Dimmitt",
+      "duration": 42,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "rYMsh27-f7g",
+      "title": "Deep Half Guard Basics Summary",
+      "by": "Kaizen Academy",
+      "vertical": false,
+      "channel": "Kaizen Academy Lancaster",
+      "duration": 263,
+      "verified": "2026-07-14"
     }
   ]
 }

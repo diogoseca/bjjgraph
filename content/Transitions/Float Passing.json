@@ -286,7 +286,27 @@
         "answer": "Maintain balance during direction changes by keeping weight centered over your base with knees slightly bent and hips mobile. During the direction change itself, briefly widen your stance and lower your center of gravity before accelerating in the new direction. Never change direction while your feet are close together or while one foot is in the air. Keep at least one hand maintaining grip connection with the opponent's legs, which provides both control and a tactile reference point for your balance. If you feel your weight shifting too far in any direction during a change, immediately post your free hand on the mat rather than trying to muscle back to balance, as the post gives you a stable moment to reset."
       }
     ],
-    "safety_considerations": "Float passing is generally safe when practiced with proper control and progressive resistance. Maintain awareness of your balance to avoid falling onto your opponent with uncontrolled weight, which can cause rib or facial injuries. Control your speed when transitioning from floating to passing to prevent knee or ankle injuries to both partners. Communicate with training partners about resistance levels during drilling phases. Avoid explosive direction changes before proper warm-up to prevent groin strains and ankle sprains. Be cautious when floating around leg lock positions and maintain distance from entanglements until you understand the threats. When consolidating to side control, apply pressure gradually rather than dropping full weight suddenly. Progress resistance slowly over weeks to build the physical conditioning needed for sustained floating movements."
+    "safety_considerations": "Float passing is generally safe when practiced with proper control and progressive resistance. Maintain awareness of your balance to avoid falling onto your opponent with uncontrolled weight, which can cause rib or facial injuries. Control your speed when transitioning from floating to passing to prevent knee or ankle injuries to both partners. Communicate with training partners about resistance levels during drilling phases. Avoid explosive direction changes before proper warm-up to prevent groin strains and ankle sprains. Be cautious when floating around leg lock positions and maintain distance from entanglements until you understand the threats. When consolidating to side control, apply pressure gradually rather than dropping full weight suddenly. Progress resistance slowly over weeks to build the physical conditioning needed for sustained floating movements.",
+    "clips": [
+      {
+        "id": "YLPNsyHtREs",
+        "title": "Monitoring the feet while float passing",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Michael Wong",
+        "duration": 50,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "9VdMAXqLXHA",
+        "title": "ADCC 2022 guard pass breakdown",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 154,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Float Passing Defender",
@@ -415,6 +435,26 @@
         "phase": "Week 9+: Full Resistance Guard Retention",
         "focus": "Applying defensive strategy against live float passing",
         "description": "Full-speed positional sparring where partner uses their best float passing game. Apply all defensive tools: hip tracking, grip management, offensive threats, and sweep timing. Develop the ability to read whether the passer is floating or committing in real time and respond with the appropriate defensive layer."
+      }
+    ],
+    "clips": [
+      {
+        "id": "lVLAROiSjNU",
+        "title": "Guard retention: when to sit up and escape",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 136,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "r5jtHTa88aY",
+        "title": "High pummel guard retention tactic",
+        "by": "John Connors",
+        "vertical": false,
+        "channel": "John Connors, Old Man BJJ Black Belt",
+        "duration": 103,
+        "verified": "2026-07-15"
       }
     ]
   },

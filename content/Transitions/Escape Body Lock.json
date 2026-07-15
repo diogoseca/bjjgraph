@@ -295,7 +295,36 @@
         "answer": "Keep your elbows tight to your body throughout the entire escape sequence, particularly during the hip switch and turning phase. Flared elbows create space for hook insertion. If you feel any leg threading between yours during the escape, immediately sit your hips to the mat and address the hook before continuing the standing escape. Maintaining chin-to-chest protects against chokes during the transition. The combination of tight elbows, seated hook defense, and chin tuck creates a defensive framework that limits back take opportunities."
       }
     ],
-    "safety_considerations": "Explosive hip switching during the escape carries risk of lower back and oblique muscle strains, particularly when executed under load against a resisting opponent. When your opponent attempts throws during the escape, protect your neck by tucking your chin and controlling your fall trajectory. Tap immediately if a choking grip is secured during the scramble rather than fighting through a compromised position. During training, build intensity progressively and communicate with partners about resistance levels to prevent injury from unexpected explosive movements."
+    "safety_considerations": "Explosive hip switching during the escape carries risk of lower back and oblique muscle strains, particularly when executed under load against a resisting opponent. When your opponent attempts throws during the escape, protect your neck by tucking your chin and controlling your fall trajectory. Tap immediately if a choking grip is secured during the scramble rather than fighting through a compromised position. During training, build intensity progressively and communicate with partners about resistance levels to prevent injury from unexpected explosive movements.",
+    "clips": [
+      {
+        "id": "_QDpqIbTa1k",
+        "title": "Escape Rear Body Lock with a Granby Roll",
+        "by": "Nakapan MMA",
+        "vertical": false,
+        "channel": "Nakapan MMA",
+        "duration": 65,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2VCyaassiRI",
+        "title": "Leg Switch Cutback from Rear Body Lock",
+        "by": "Procel BJJ",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 52,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Fxpu62evbwk",
+        "title": "Body Lock Break to Kimura",
+        "by": "SBG Australia",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 44,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Escape Body Lock Defender",
@@ -416,6 +445,17 @@
         "phase": "Phase 4: Recognition Speed Development",
         "focus": "Early escape detection and preemptive counter-timing",
         "description": "Partner mixes genuine escape attempts with feints and positional adjustments. Practice distinguishing real escape attempts from positional adjustments and initiating counters at the earliest possible moment. Develop pattern recognition that allows you to counter before escapes develop full momentum."
+      }
+    ],
+    "clips": [
+      {
+        "id": "8e8aOjenAKs",
+        "title": "Turtle and Rear Body Lock Escape Counter",
+        "by": "Jamie Clubb",
+        "vertical": false,
+        "channel": "jamielovesmartialarts",
+        "duration": 158,
+        "verified": "2026-07-15"
       }
     ]
   }

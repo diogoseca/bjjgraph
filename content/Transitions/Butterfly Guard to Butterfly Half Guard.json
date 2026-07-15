@@ -284,7 +284,36 @@
         "answer": "Collar-and-sleeve grips give the opponent distance-based control rather than close-range power. Strip the sleeve grip first because it controls your posting hand and limits your ability to base during the transition. Once the sleeve grip is broken, close the distance aggressively with chest pressure to nullify the collar grip's effectiveness at range. The hook clearing mechanics remain the same, but the preparation phase requires additional grip fighting to remove the distance management tools before you can establish the chest contact needed for the transition."
       }
     ],
-    "safety_considerations": "This transition involves moderate forward pressure and hip-level contact. Avoid driving excessive pressure into the opponent's knee joint when pinning their hook down, as this can strain the medial collateral ligament. Partners should communicate clearly during drilling, especially when the bottom player feels uncomfortable knee pressure. The step-through motion should be controlled rather than explosive to prevent accidentally driving the knee into the opponent's hip or groin area. Always warm up hips and knees before drilling this transition extensively."
+    "safety_considerations": "This transition involves moderate forward pressure and hip-level contact. Avoid driving excessive pressure into the opponent's knee joint when pinning their hook down, as this can strain the medial collateral ligament. Partners should communicate clearly during drilling, especially when the bottom player feels uncomfortable knee pressure. The step-through motion should be controlled rather than explosive to prevent accidentally driving the knee into the opponent's hip or groin area. Always warm up hips and knees before drilling this transition extensively.",
+    "clips": [
+      {
+        "id": "KLwqvzhW3A8",
+        "title": "Shoulder crunch sweep from butterfly guard",
+        "by": "Coach Ben",
+        "vertical": false,
+        "channel": "Coach Ben BJJ",
+        "duration": 19,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "hTQ29eG4cqY",
+        "title": "Half guard sit-up to butterfly sweep",
+        "by": "Bjj Picanha",
+        "vertical": false,
+        "channel": "Bjj Picanha",
+        "duration": 38,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "F403VM7eBSM",
+        "title": "Butterfly sweep from half guard",
+        "by": "William Metts",
+        "vertical": false,
+        "channel": "William Metts",
+        "duration": 49,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Butterfly Guard to Butterfly Half Guard Defender",
@@ -405,6 +434,17 @@
         "phase": "Phase 4: Full Resistance Integration",
         "focus": "Combining retention, counters, and transitions against live resistance",
         "description": "Positional sparring starting in full butterfly guard against partner actively working to clear hooks and pass. Integrate retention, counter-sweeps, and proactive transitions based on real-time reads. Track how often you maintain full butterfly versus transition versus get passed to identify areas for improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "BkT2cQdqqgU",
+        "title": "How to pass the butterfly guard",
+        "by": "Brandon Mccaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 117,
+        "verified": "2026-07-15"
       }
     ]
   }

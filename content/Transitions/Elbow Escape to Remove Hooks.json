@@ -278,7 +278,27 @@
         "answer": "You must frame on their hips with both hands while inserting your knees between your bodies before completing the turn. Many practitioners turn to face the opponent but fail to establish guard structure, allowing immediate re-take of back control. The frame and knee insertion create the barrier that prevents them from following your rotation and re-establishing chest-to-back connection."
       }
     ],
-    "safety_considerations": "This technique involves significant spinal rotation and movement while bearing opponent's weight on your back. Avoid explosive twisting movements that could strain your lower back or neck. When drilling, ensure your partner releases hook pressure gradually as you practice the removal mechanics rather than fighting to maintain position against proper technique. If you feel sharp pain in your back or neck during the escape, stop immediately rather than forcing through. Practitioners with existing spinal issues should modify the technique with smaller, more controlled hip movements. The neck defense portion requires sustained isometric contraction of neck flexors—build this strength gradually to avoid muscle strain. During live training, be aware that desperate escape attempts can lead to opponent cranking neck submissions harder. Tap early when caught in submissions rather than fighting through with compromised positioning."
+    "safety_considerations": "This technique involves significant spinal rotation and movement while bearing opponent's weight on your back. Avoid explosive twisting movements that could strain your lower back or neck. When drilling, ensure your partner releases hook pressure gradually as you practice the removal mechanics rather than fighting to maintain position against proper technique. If you feel sharp pain in your back or neck during the escape, stop immediately rather than forcing through. Practitioners with existing spinal issues should modify the technique with smaller, more controlled hip movements. The neck defense portion requires sustained isometric contraction of neck flexors—build this strength gradually to avoid muscle strain. During live training, be aware that desperate escape attempts can lead to opponent cranking neck submissions harder. Tap early when caught in submissions rather than fighting through with compromised positioning.",
+    "clips": [
+      {
+        "id": "43iZ-GLc_r8",
+        "title": "Back escape against the top hook",
+        "by": "Mattix Academy",
+        "vertical": false,
+        "channel": "MATTIX ACADEMY",
+        "duration": 144,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "wwa4llL0E1s",
+        "title": "Escaping back control with both hooks in",
+        "by": "Dinu Bucalet",
+        "vertical": false,
+        "channel": "Dinu Bucalet BJJ",
+        "duration": 159,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Elbow Escape to Remove Hooks Defender",
@@ -403,6 +423,17 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Full resistance rounds starting from invisible collar position. Attacker has back control with collar grip and works to maintain position and finish while partner works elbow escape. Track retention rates and identify which phase of the escape most frequently succeeds to target specific defensive improvements."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Rlk4mGg7vW4",
+        "title": "Maintaining back control with the hooks",
+        "by": "Gracie Charlottesville",
+        "vertical": false,
+        "channel": "Gracie Charlottesville",
+        "duration": 84,
+        "verified": "2026-07-15"
       }
     ]
   },

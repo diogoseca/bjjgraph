@@ -273,7 +273,36 @@
         "answer": "Recognize this as a significant victory and immediately shift to standard back escape sequences. Hooks are dramatically easier to clear than the body triangle lock. Target the bottom hook first with hip escape mechanics, then address the top hook. The transition period between triangle and hooks offers the best escape window since the opponent's leg control is momentarily disrupted during the configuration change."
       }
     ],
-    "safety_considerations": "Practice escape techniques under controlled conditions with progressive resistance before applying in live sparring. The breathing restriction from body triangle creates genuine physiological stress that can impair judgment and trigger panic responses. Always tap immediately if a choke is locked in during escape attempts rather than continuing to fight the triangle position. Neck strain can occur during aggressive turning movements, so develop the rotation gradually. Communicate with training partners about squeeze pressure intensity during drilling phases."
+    "safety_considerations": "Practice escape techniques under controlled conditions with progressive resistance before applying in live sparring. The breathing restriction from body triangle creates genuine physiological stress that can impair judgment and trigger panic responses. Always tap immediately if a choke is locked in during escape attempts rather than continuing to fight the triangle position. Neck strain can occur during aggressive turning movements, so develop the rotation gradually. Communicate with training partners about squeeze pressure intensity during drilling phases.",
+    "clips": [
+      {
+        "id": "gMuZi4hwUwo",
+        "title": "Concepts on escaping the body triangle",
+        "by": "Alavanca coach",
+        "vertical": false,
+        "channel": "Alavanca",
+        "duration": 118,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "DP1PWrqYw5s",
+        "title": "Body triangle escape and finish",
+        "by": "Ronin Jiu-Jitsu coach",
+        "vertical": false,
+        "channel": "Ronin Jiu-Jitsu",
+        "duration": 135,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "DF54CbJaHl4",
+        "title": "How to escape the body triangle",
+        "by": "Core JKD coach",
+        "vertical": false,
+        "channel": "corejkd",
+        "duration": 145,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Body Triangle Escape to Side Control Defender",
@@ -398,6 +427,26 @@
         "phase": "Phase 4: Transition Management",
         "focus": "Smooth transitions when triangle is compromised",
         "description": "Partner works full-effort escapes that succeed in loosening the triangle. Practice recognizing when to transition to hooks rather than fighting a compromised lock. Develop rapid hook insertion and re-establishment of back control to maintain position even when the triangle is cleared."
+      }
+    ],
+    "clips": [
+      {
+        "id": "3OkCuU0B0UE",
+        "title": "Locking the body triangle to hold the back",
+        "by": "Grapple Box coach",
+        "vertical": false,
+        "channel": "Grapple Box llc",
+        "duration": 28,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "CUZLhGfADcA",
+        "title": "Countering the body triangle footlock defense",
+        "by": "MMA Academy coach",
+        "vertical": false,
+        "channel": "MMA ACADEMY ONLINE",
+        "duration": 51,
+        "verified": "2026-07-15"
       }
     ]
   }

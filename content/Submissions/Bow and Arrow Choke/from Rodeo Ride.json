@@ -321,6 +321,35 @@
         "answer": "Threaten the Clock Choke by walking toward the opponent's head with your near-side hand gripping their collar. Most experienced opponents will defend by tucking their chin aggressively and protecting the near-side collar with both hands. This defensive commitment turns their head away from you and exposes the far-side collar—exactly the grip you need for the Bow and Arrow. Thread the cross-collar grip on the exposed far side while they are occupied defending the Clock Choke threat, then transition to the bow and arrow configuration before they can readjust their defense.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "iNKRhe39iT0",
+        "title": "Beginner bow and arrow choke",
+        "by": "Scott Clawson",
+        "vertical": false,
+        "channel": "Scott Clawson Jiu-Jitsu",
+        "duration": 50,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "obschO_7Byw",
+        "title": "Bow and arrow choke",
+        "by": "Halfguardmaster",
+        "vertical": false,
+        "channel": "Halfguardmaster",
+        "duration": 62,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "mwIXKmhnVEI",
+        "title": "Rodeo choke from the back",
+        "by": "Paul Hunter",
+        "vertical": false,
+        "channel": "Paul Hunter Jiu Jitsu",
+        "duration": 95,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -452,6 +481,35 @@
         "phase": "Phase 4: Full Scenario Sparring",
         "focus": "Defending the complete attack chain from Rodeo Ride",
         "description": "Start from Rodeo Ride bottom with partner attacking freely—Clock Choke, Bow and Arrow, back takes. Defend all attacks with full resistance, prioritizing position recovery to guard. Evaluate which defensive responses work against the full attack chain, not just the isolated Bow and Arrow. Develop the ability to read which attack is coming and choose the appropriate defense."
+      }
+    ],
+    "clips": [
+      {
+        "id": "bDZntPrcLpg",
+        "title": "Escaping back control — turtle escape",
+        "by": "BJJ101",
+        "vertical": false,
+        "channel": "BJJ101",
+        "duration": 37,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "I43ALzc733w",
+        "title": "Escape the back control",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 71,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "_sBB-O8fqP4",
+        "title": "Back escape — standing up",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 114,
+        "verified": "2026-07-14"
       }
     ]
   }

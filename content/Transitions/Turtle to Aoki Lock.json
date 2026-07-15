@@ -238,7 +238,27 @@
         "answer": "Settle and consolidate the control first, then apply the rotational, omoplata-style shoulder pressure gradually over several seconds using a controlled hip rotation rather than an explosive crank. Watch your partner constantly for verbal or physical tap signals and release immediately on any tap. The shoulder joint is fragile and a sudden application can cause rotator cuff tears, labrum damage, or dislocation before the partner can react, so progressive pressure is mandatory."
       }
     ],
-    "safety_considerations": "The Aoki Lock is a shoulder lock and carries genuine injury risk - rotator cuff tears, labrum damage, and shoulder dislocation are all possible if pressure is applied too fast or held past the tap. Apply the rotational shoulder pressure gradually over several seconds and release instantly on any verbal or physical tap. Because this entry happens in a scramble-heavy turtle exchange, also protect both players' necks during the front headlock phase by never cranking the neck for control, and ensure adequate mat space since the leg-over and roll-through reactions cover ground."
+    "safety_considerations": "The Aoki Lock is a shoulder lock and carries genuine injury risk - rotator cuff tears, labrum damage, and shoulder dislocation are all possible if pressure is applied too fast or held past the tap. Apply the rotational shoulder pressure gradually over several seconds and release instantly on any verbal or physical tap. Because this entry happens in a scramble-heavy turtle exchange, also protect both players' necks during the front headlock phase by never cranking the neck for control, and ensure adequate mat space since the leg-over and roll-through reactions cover ground.",
+    "clips": [
+      {
+        "id": "Dyxkw13p49I",
+        "title": "Belly down ankle lock setup from turtle",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 67,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "tQWfhZiDREc",
+        "title": "Aoki lock from butterfly ashi",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 77,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Turtle to Aoki Lock Defender",
@@ -336,6 +356,17 @@
         "phase": "Week 5+: Live Defense and Safe Tapping",
         "focus": "Defending the full entry under resistance and recognizing the tap point",
         "description": "Partner attempts the complete Turtle to Aoki Lock entry with progressive resistance. Practice winning the exchange early through arm protection and dynamic escapes, and practice recognizing when the lock is set and tapping safely. Build the reflex to protect the shoulder and tap early when escape is unavailable."
+      }
+    ],
+    "clips": [
+      {
+        "id": "p7fy3B6AAbA",
+        "title": "Aoki lock counter from ashi and SLX",
+        "by": "Mads H.",
+        "vertical": false,
+        "channel": "Mads H. BJJ",
+        "duration": 231,
+        "verified": "2026-07-15"
       }
     ]
   },

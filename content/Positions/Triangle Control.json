@@ -326,6 +326,26 @@
       "submission defense training",
       "guard defense fundamentals",
       "triangle escape sequence"
+    ],
+    "clips": [
+      {
+        "id": "dJOw0ZEyXXc",
+        "title": "Triangle choke posture-up escape",
+        "by": "Cosens MMA",
+        "vertical": false,
+        "channel": "Cosens MMA LLC",
+        "duration": 73,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "sR2rS2dwpNY",
+        "title": "How to escape the triangle choke",
+        "by": "Rener & Ryron Gracie",
+        "vertical": false,
+        "channel": "Hayabusa",
+        "duration": 117,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -597,6 +617,26 @@
       "guard attack submission chain",
       "offensive guard position BJJ",
       "triangle submission system"
+    ],
+    "clips": [
+      {
+        "id": "rQz3tjQZzjY",
+        "title": "Closed guard triangle inside entry",
+        "by": "Ritchie Yip",
+        "vertical": false,
+        "channel": "Ritchie Yip",
+        "duration": 44,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Gz1lhRuIQHk",
+        "title": "Wristlock triangle finish",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 47,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_family": [
@@ -661,6 +701,26 @@
     {
       "question": "Why is Triangle Control considered mechanically favorable to the guard player despite being a bottom position?",
       "answer": "The configuration pits the practitioner's legs and hips, among the body's strongest muscle groups, against the opponent's neck and single trapped arm, which are structurally weak by comparison. This leverage inversion is why a smaller player can control and finish a larger one from the bottom, and why the position is treated as offensive despite the guard player being underneath. The trapped player must generate escape force through a compromised base with broken posture, making pure strength an unreliable defense. Understanding this strength-versus-leverage asymmetry explains why the position's average outcomes favor the attacker and why disciplined mechanics beat muscling out."
+    }
+  ],
+  "clips": [
+    {
+      "id": "OC8IOTnsETk",
+      "title": "Triangle attack overview",
+      "by": "Craig Jones",
+      "vertical": false,
+      "channel": "Denver Seminars",
+      "duration": 61,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "8-hYlvwOqgU",
+      "title": "Triangle choke for short legs (S-mount)",
+      "by": "Submission Radio",
+      "vertical": false,
+      "channel": "Submission Radio",
+      "duration": 105,
+      "verified": "2026-07-14"
     }
   ]
 }

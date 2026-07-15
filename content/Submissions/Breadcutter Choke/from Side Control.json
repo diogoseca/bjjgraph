@@ -331,6 +331,35 @@
         "answer": "When the opponent focuses on stripping collar grips, their arms move away from their body and their attention shifts to hand fighting. This opens opportunities for americana and kimura attacks on the exposed arms, arm triangle setups when they bring an arm across their neck defensively, and transitions to mount or knee on belly while they are occupied with grip defense rather than positional escape.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "vhFpxC1vCag",
+        "title": "Paper Cutter Choke with Lapel from Side Control",
+        "by": "Robert Hugus",
+        "vertical": false,
+        "channel": "Robert Hugus BJJ Videos",
+        "duration": 42,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "3SNZDysizY0",
+        "title": "Side Control Breadcutter Choke",
+        "by": "Nino Schembri",
+        "vertical": false,
+        "channel": "Nino Schembri BJJ Academy",
+        "duration": 46,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "xab75xOnHqk",
+        "title": "Bread Cutter Choke, Roger Gracie Style",
+        "by": "Andy Hagans",
+        "vertical": false,
+        "channel": "Guardian Jiu-Jitsu - Holland, Michigan",
+        "duration": 70,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -459,6 +488,17 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Full resistance defensive application",
         "description": "Start under side control with partner attacking the breadcutter at full speed and intent. Practice the complete defensive sequence from recognition through grip stripping to guard recovery against full resistance. Develop comfort with the choke pressure and confidence in your defensive timing."
+      }
+    ],
+    "clips": [
+      {
+        "id": "gwqRwPsnNnQ",
+        "title": "Paper Cutter Choke Counter",
+        "by": "Gracie Barra HQ",
+        "vertical": false,
+        "channel": "Gracie Barra HQ - California",
+        "duration": 195,
+        "verified": "2026-07-14"
       }
     ]
   }

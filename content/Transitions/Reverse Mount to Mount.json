@@ -291,7 +291,18 @@
         "answer": "From the resulting half guard top position, immediately establish crossface and underhook control to prevent the opponent from developing offensive half guard structures. Initiate a knee slice pass to re-advance to side control or mount. The positional regression from mount attempt to half guard is recoverable if you immediately apply top pressure rather than trying to re-establish reverse mount. The key is to accept the new position and work forward from there rather than attempting to return to the failed position."
       }
     ],
-    "safety_considerations": "This transition carries moderate injury risk primarily from the opponent's defensive reactions during the rotation. The bottom player may bridge explosively as weight shifts, risking collision between the rotating practitioner's head and the mat or the opponent's body. During training, both partners should communicate clearly about resistance levels and the top player should avoid dropping full weight abruptly after rotation completion. Knee injury risk exists for the pivot knee if it catches on the mat during the spin—ensure the training surface provides adequate slide. The bottom player should avoid bridging their neck to prevent cervical spine strain."
+    "safety_considerations": "This transition carries moderate injury risk primarily from the opponent's defensive reactions during the rotation. The bottom player may bridge explosively as weight shifts, risking collision between the rotating practitioner's head and the mat or the opponent's body. During training, both partners should communicate clearly about resistance levels and the top player should avoid dropping full weight abruptly after rotation completion. Knee injury risk exists for the pivot knee if it catches on the mat during the spin—ensure the training surface provides adequate slide. The bottom player should avoid bridging their neck to prevent cervical spine strain.",
+    "clips": [
+      {
+        "id": "XQ4fwGrXV2Q",
+        "title": "Reverse mount in scrambles",
+        "by": "jamielovesmartialarts",
+        "vertical": false,
+        "channel": "jamielovesmartialarts",
+        "duration": 23,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Reverse Mount to Mount Defender",
@@ -412,6 +423,35 @@
         "phase": "Phase 4: Full Resistance Positional Sparring",
         "focus": "Integrating defense into live scramble situations",
         "description": "Begin from live scramble positions that naturally create reverse mount. Defender must survive the position and counter the rotation attempt at full resistance. Track conversion prevention rate—the percentage of rotation attempts that the defender successfully disrupts. Target 50%+ disruption rate against training partners of similar skill level."
+      }
+    ],
+    "clips": [
+      {
+        "id": "bNdt6jVatj4",
+        "title": "Inverted mount escape to ashi garami",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 43,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uTuPvxQUOo4",
+        "title": "Mount escape",
+        "by": "bjjtaro",
+        "vertical": false,
+        "channel": "bjjtaro",
+        "duration": 23,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "R21vtm5BHF4",
+        "title": "How to escape the mount",
+        "by": "Pantera Jiujitsu",
+        "vertical": false,
+        "channel": "Pantera Jiujitsu",
+        "duration": 80,
+        "verified": "2026-07-15"
       }
     ]
   }

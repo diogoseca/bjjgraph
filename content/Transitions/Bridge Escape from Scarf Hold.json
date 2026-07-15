@@ -288,7 +288,36 @@
         "answer": "No, the conditions are not ideal for the bridge escape when the opponent's weight is distributed across wide-posted limbs rather than committed through their hips. The bridge escape works by converting the opponent's committed hip pressure into rotational momentum. When they are posted wide, their structural base is too strong for the roll, and the lack of committed weight on your torso means there is insufficient momentum to transfer. Instead, exploit their wide posting by using frame-based hip escapes or guard recovery, since their distributed weight creates gaps and space that favor shrimping over bridging."
       }
     ],
-    "safety_considerations": "Bridge escapes from scarf hold involve explosive rotational force through the neck and spine. Practice with controlled intensity, particularly when learning the timing and commitment required for the full roll. Partners should avoid stacking excessive weight directly on the neck during drilling. The escaping player should turn their head to the side during the bridge to protect cervical vertebrae from compression. Both partners should communicate throughout the drill to prevent injury from unexpected explosive movements. Gradually increase resistance across training sessions rather than jumping to full resistance before the mechanics are refined."
+    "safety_considerations": "Bridge escapes from scarf hold involve explosive rotational force through the neck and spine. Practice with controlled intensity, particularly when learning the timing and commitment required for the full roll. Partners should avoid stacking excessive weight directly on the neck during drilling. The escaping player should turn their head to the side during the bridge to protect cervical vertebrae from compression. Both partners should communicate throughout the drill to prevent injury from unexpected explosive movements. Gradually increase resistance across training sessions rather than jumping to full resistance before the mechanics are refined.",
+    "clips": [
+      {
+        "id": "2M_6VytUaus",
+        "title": "Kesa gatame escape",
+        "by": "SBG Australia",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 43,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fvp5_BVEtLg",
+        "title": "Kesa gatame pressure defense with proper framing",
+        "by": "Kohbukan Sisu",
+        "vertical": false,
+        "channel": "Kohbukan Sisu",
+        "duration": 84,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "iDi59hI5-YQ",
+        "title": "Kesa gatame escape: bridge and reverse shrimp",
+        "by": "JitzLive",
+        "vertical": false,
+        "channel": "JitzLive",
+        "duration": 132,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Bridge Escape from Scarf Hold Defender",
@@ -413,6 +442,17 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Full resistance scarf hold maintenance against all escapes",
         "description": "Positional sparring from scarf hold with full resistance. Top player maintains position while bottom player chains bridge escapes with hip escapes, ghost escapes, and guard recovery attempts. Top player practices recognizing and responding to each escape type with appropriate counter. 3-minute rounds with reset on escape or submission, 5 rounds total."
+      }
+    ],
+    "clips": [
+      {
+        "id": "TfNpVcekHGg",
+        "title": "Kesa gatame scarf hold control",
+        "by": "Grappler Station",
+        "vertical": false,
+        "channel": "Grappler Station",
+        "duration": 121,
+        "verified": "2026-07-15"
       }
     ]
   }

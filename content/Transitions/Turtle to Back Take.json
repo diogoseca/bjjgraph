@@ -286,7 +286,36 @@
         "answer": "During the initial control phase, the seatbelt grip pulls the opponent's upper body toward you and slightly upward, preventing them from driving forward or flattening away from you. The force direction is primarily rearward and upward. During hook insertion, the force direction shifts to lifting their torso away from the mat, creating vertical space between their elbows and hips where your hooks need to thread through. This upward lifting force is what separates their defensive frames from their body and makes hook insertion mechanically possible against a tight turtle."
       }
     ],
-    "safety_considerations": "The turtle to back take is a relatively safe transition with minimal injury risk when practiced correctly. Primary safety concerns involve protecting both practitioners' knees during drilling, as repeated hook insertion pressure can cause discomfort on the inner thigh and knee ligaments. The bottom practitioner should avoid posting hands too far from their body, which can result in hyperextended elbows if the top person drives forward aggressively. When practicing at full resistance, both partners should be aware of potential neck strain from aggressive seatbelt grip fighting and sudden rotational movements. The top person should never drive full body weight onto opponent's neck or head region. Clear communication about tap signals is critical when transitioning to submissions from back control, especially during choke defense training."
+    "safety_considerations": "The turtle to back take is a relatively safe transition with minimal injury risk when practiced correctly. Primary safety concerns involve protecting both practitioners' knees during drilling, as repeated hook insertion pressure can cause discomfort on the inner thigh and knee ligaments. The bottom practitioner should avoid posting hands too far from their body, which can result in hyperextended elbows if the top person drives forward aggressively. When practicing at full resistance, both partners should be aware of potential neck strain from aggressive seatbelt grip fighting and sudden rotational movements. The top person should never drive full body weight onto opponent's neck or head region. Clear communication about tap signals is critical when transitioning to submissions from back control, especially during choke defense training.",
+    "clips": [
+      {
+        "id": "f3PJ06A_bWQ",
+        "title": "Hip switch to back take from turtle",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 19,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "oijKoS9siS4",
+        "title": "Rolling back take from turtle",
+        "by": "JiuJitsu.com",
+        "vertical": false,
+        "channel": "JiuJitsu.com",
+        "duration": 41,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "6ns9XP2BsjQ",
+        "title": "Back take from the turtle position",
+        "by": "Evolve MMA",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 66,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Turtle to Back Take Defender",
@@ -417,6 +446,26 @@
         "phase": "Phase 4: Full Resistance Escape Rounds (Weeks 7+)",
         "focus": "Escaping the back take against fully resisting opponents in live conditions",
         "description": "Positional sparring starting from turtle bottom with partner attacking at full intensity. Successful escape means recovering guard or reaching standing. Failed escape means partner establishes back control with both hooks and seatbelt. Track success rate across rounds and identify which attacks consistently break through your defense for targeted improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "4XBkuhgMhUI",
+        "title": "Turtle hand fighting, sit out and back prevention",
+        "by": "SBG Rossendale",
+        "vertical": false,
+        "channel": "SBG Rossendale 3rd Degree Black Belt BJJ",
+        "duration": 155,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_sBB-O8fqP4",
+        "title": "Standing up from turtle to deny the back",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 114,
+        "verified": "2026-07-15"
       }
     ]
   },

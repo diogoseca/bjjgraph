@@ -268,7 +268,27 @@
         "answer": "Knee pinching traps the opponent's thigh between your legs, preventing the most common escape method: pulling the leg straight out from between spread knees. Without active knee squeeze, even a secured heel grip is insufficient because the opponent can angle their thigh sideways and slide free. The knee pinch also maintains proper alignment of their knee joint with your hip crease, ensuring extension pressure goes through the correct vector."
       }
     ],
-    "safety_considerations": "The kneebar attacks the knee joint through hyperextension, which can cause serious ligament damage (ACL, PCL, MCL, LCL) if applied with excessive force or speed. Always apply extension pressure gradually, allowing training partners time to tap before significant pressure builds. Never crank or jerk the submission. In training, establish clear tap protocols and release immediately upon tap signal. Avoid this technique entirely if training partner has existing knee injuries. During drilling, practice positional elements without live extension pressure until both partners are comfortable with the mechanics. Competition application requires even greater control awareness due to adrenaline and resistance levels. Practitioners with hypermobile joints may not feel the submission until damage occurs - communicate clearly with flexible training partners about pressure levels."
+    "safety_considerations": "The kneebar attacks the knee joint through hyperextension, which can cause serious ligament damage (ACL, PCL, MCL, LCL) if applied with excessive force or speed. Always apply extension pressure gradually, allowing training partners time to tap before significant pressure builds. Never crank or jerk the submission. In training, establish clear tap protocols and release immediately upon tap signal. Avoid this technique entirely if training partner has existing knee injuries. During drilling, practice positional elements without live extension pressure until both partners are comfortable with the mechanics. Competition application requires even greater control awareness due to adrenaline and resistance levels. Practitioners with hypermobile joints may not feel the submission until damage occurs - communicate clearly with flexible training partners about pressure levels.",
+    "clips": [
+      {
+        "id": "4W6-SDBRPo4",
+        "title": "Inverted guard to kneebar",
+        "by": "RKBJJ coach",
+        "vertical": false,
+        "channel": "RKBJJ Class Archive",
+        "duration": 67,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "OIMRbmpIjLc",
+        "title": "Reverse closed guard leg attack entry",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 72,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Kneebar from Grasshopper Defender",
@@ -397,6 +417,35 @@
         "phase": "Week 7+",
         "focus": "Live defensive sparring",
         "description": "Partner plays grasshopper guard freely and attacks with kneebar entries at full speed and resistance. Practice the full defensive spectrum from early recognition through late-phase escape. Develop the ability to read which defensive option is appropriate based on how far the entry has progressed."
+      }
+    ],
+    "clips": [
+      {
+        "id": "wBRG0fY94fs",
+        "title": "Defending the kneebar and the backstep pass",
+        "by": "Andrew Smith",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 59,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "NuWBh3LN-SY",
+        "title": "Kneebar defense to taking the back",
+        "by": "Bicudo",
+        "vertical": false,
+        "channel": "Bicudo BJJ",
+        "duration": 22,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "kUuJ03CcIUQ",
+        "title": "Kneebar defense vs Garry Tonon",
+        "by": "AJ Agazarm",
+        "vertical": false,
+        "channel": "FloGrappling",
+        "duration": 23,
+        "verified": "2026-07-15"
       }
     ]
   },

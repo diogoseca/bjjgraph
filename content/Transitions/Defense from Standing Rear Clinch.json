@@ -319,7 +319,36 @@
         "answer": "Switch to a sit-out escape by dropping your hips suddenly and threading one leg between the opponent's legs while rotating your torso to face them. This changes the escape plane from lateral to vertical, which the opponent cannot counter using the same lateral matching footwork. If the sit-out is also blocked because the opponent maintains tight hip connection, transition to a drop-and-sprawl defense where you drive your hips backward and down explosively to break their forward pressure alignment. The key principle in chaining escapes is changing the plane of movement with each attempt, rotating between lateral, vertical, and directional changes to prevent the opponent from developing a pattern-based counter strategy."
       }
     ],
-    "safety_considerations": "Standing rear clinch escapes involve explosive rotational movements, throwing mechanics, and potential impacts with the ground that can cause injury if performed incorrectly. Always practice grip breaks and throws at controlled speed before increasing intensity. Suplex defense drills should be conducted with crash pads until both partners understand the mechanics. Communicate clearly with training partners about intensity levels, particularly during lifting and throwing components. Be aware of surrounding training space to prevent collisions with other practitioners or walls during the dynamic standing exchanges."
+    "safety_considerations": "Standing rear clinch escapes involve explosive rotational movements, throwing mechanics, and potential impacts with the ground that can cause injury if performed incorrectly. Always practice grip breaks and throws at controlled speed before increasing intensity. Suplex defense drills should be conducted with crash pads until both partners understand the mechanics. Communicate clearly with training partners about intensity levels, particularly during lifting and throwing components. Be aware of surrounding training space to prevent collisions with other practitioners or walls during the dynamic standing exchanges.",
+    "clips": [
+      {
+        "id": "ovl7eZIzBaU",
+        "title": "Easy takedowns from the rear clinch",
+        "by": "OneontaJiuJitsu Academy",
+        "vertical": false,
+        "channel": "OneontaJiuJitsu Academy",
+        "duration": 57,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fnkewg_4NJ4",
+        "title": "Bear hug defense into rear clinch takedown",
+        "by": "Jiu Jitsu Five-O",
+        "vertical": false,
+        "channel": "Jiu Jitsu Five-O // Street-Ready BJJ Training",
+        "duration": 48,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2VCyaassiRI",
+        "title": "Leg switch cutback from the rear bodylock",
+        "by": "Procel Brazilian Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 52,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Defense from Standing Rear Clinch Defender",
@@ -441,6 +470,17 @@
         "phase": "Phase 4: Live Escape Defense Sparring",
         "focus": "Defending against full-resistance escape attempts using all tools",
         "description": "Partner attempts full escape sequences at competition intensity while you work to maintain the clinch or advance to ground back control. 2-minute rounds with role switching. Track retention rate and identify which escape types cause the most difficulty for targeted technical work."
+      }
+    ],
+    "clips": [
+      {
+        "id": "nAFyFmMMeEw",
+        "title": "Reversing the clinch against the wall",
+        "by": "The Academy MN",
+        "vertical": false,
+        "channel": "The Academy MN",
+        "duration": 58,
+        "verified": "2026-07-15"
       }
     ]
   }

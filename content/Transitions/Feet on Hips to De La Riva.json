@@ -295,7 +295,27 @@
         "answer": "The hooking foot travels in a circular outside-to-inside arc, sweeping around the outside of the opponent's lead leg and curling behind their knee from the outside. This circular path matters because a direct linear stab is easily read and the opponent simply retracts the leg, whereas the arc disguises the entry and lets your instep settle deep behind the knee joint where it generates real off-balancing tension rather than a shallow surface hook."
       }
     ],
-    "safety_considerations": "The primary injury risk during this transition involves the hooking knee, which can experience valgus stress if the opponent drives forward aggressively while the hook is partially threaded. Practitioners should ensure the hooking leg maintains a slight bend and never locks out straight against resistance. If the opponent applies sudden lateral pressure to the hooked knee, release the hook immediately rather than fighting to maintain it. During training, communicate with partners about knee sensitivity and avoid explosive passing movements during cooperative drilling phases. The ankle of the hooking foot can also be vulnerable to being trapped or twisted during failed entries, so maintain awareness of foot position throughout."
+    "safety_considerations": "The primary injury risk during this transition involves the hooking knee, which can experience valgus stress if the opponent drives forward aggressively while the hook is partially threaded. Practitioners should ensure the hooking leg maintains a slight bend and never locks out straight against resistance. If the opponent applies sudden lateral pressure to the hooked knee, release the hook immediately rather than fighting to maintain it. During training, communicate with partners about knee sensitivity and avoid explosive passing movements during cooperative drilling phases. The ankle of the hooking foot can also be vulnerable to being trapped or twisted during failed entries, so maintain awareness of foot position throughout.",
+    "clips": [
+      {
+        "id": "vG_QHqUZPbc",
+        "title": "No-gi De La Riva hook entry and sweep",
+        "by": "James Fisher",
+        "vertical": false,
+        "channel": "James Fisher",
+        "duration": 62,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "mRP5ixL9TbE",
+        "title": "Leg sweep from De La Riva guard",
+        "by": "Elite MMA",
+        "vertical": false,
+        "channel": "Elite MMA",
+        "duration": 58,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Feet on Hips to De La Riva Defender",
@@ -416,6 +436,26 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Full resistance prevention in positional sparring",
         "description": "Positional sparring from feet on hips guard at full intensity. Top player focuses specifically on preventing DLR establishment while maintaining passing pressure. Track how often the bottom player successfully transitions to DLR over multiple rounds and identify the specific defensive gaps that allow successful entries."
+      }
+    ],
+    "clips": [
+      {
+        "id": "b87q6MAFQXs",
+        "title": "Shutting down the De La Riva hook",
+        "by": "Stretch To Strength",
+        "vertical": false,
+        "channel": "Stretch To Strength",
+        "duration": 144,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "a3ModDEKY6s",
+        "title": "Defending the backstep pass into De La Riva",
+        "by": "Inverted Gear",
+        "vertical": false,
+        "channel": "Inverted Gear",
+        "duration": 145,
+        "verified": "2026-07-15"
       }
     ]
   }

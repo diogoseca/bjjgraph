@@ -363,6 +363,35 @@
         "answer": "The three most common finishing errors are: First, using arm strength instead of body extension — the finish should come from arching the back and driving opposing forces through skeletal alignment, not from squeezing the forearms. Second, falling straight back instead of to the choking-arm side, which creates a poor extension angle and allows the opponent to roll on top. Third, hooking the ankle instead of the knee crease, which reduces the moment arm of the extension lever and makes it easier for the opponent to pull their leg free. Each of these errors turns a high-percentage finish into a grinding endurance contest.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "xqNhZVNhxnE",
+        "title": "Bow and arrow choke from back control",
+        "by": "Evolve MMA",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 45,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "rc77idEskwo",
+        "title": "Bow and arrow choke",
+        "by": "Helena Crevar",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 55,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "6yx5No7AKU0",
+        "title": "Finishing the bow & arrow choke — key detail",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 42,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -493,6 +522,35 @@
         "phase": "Phase 4: Live Defensive Integration",
         "focus": "Full back control defense including Bow and Arrow threats",
         "description": "Live positional sparring from back control where the attacker can use any back attack. Defender practices reading which attack is being set up and applying the appropriate defense — RNC defense versus collar grip stripping versus turn escapes. Builds pattern recognition under live conditions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Iz0aesx6cKk",
+        "title": "Bow and arrow choke escape",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 36,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "fEWUEDI_ng4",
+        "title": "Bow and arrow choke escape",
+        "by": "Revolution BJJ Ashland",
+        "vertical": false,
+        "channel": "Revolution BJJ Ashland",
+        "duration": 73,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "_sBB-O8fqP4",
+        "title": "Back escape — standing up",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 114,
+        "verified": "2026-07-14"
       }
     ]
   }

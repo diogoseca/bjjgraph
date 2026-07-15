@@ -292,7 +292,27 @@
         "answer": "During leg extraction, the hips must remain heavy and pressed toward the mat at all times. The common mistake is lifting the hips to step the trailing leg free from the half guard entanglement—this creates space for the opponent to recover guard or re-establish hooks. Instead, circle the trailing leg backward using a backstep motion while keeping hip pressure constant. The extraction happens through leg movement, not hip elevation. Only after the leg fully clears should you begin settling into side control."
       }
     ],
-    "safety_considerations": "The knee slice pass involves lateral pressure on the bottom player's knee shield leg during the collapse phase. Apply progressive, sustained pressure rather than sudden explosive force to avoid knee or hip injuries to your training partner. Be attentive to flexibility limitations, particularly when driving the slicing knee across the thigh line. If your partner signals discomfort in their knee or hip joints, release pressure immediately and reset. In drilling, use controlled speed and allow your partner to tap or verbally indicate when pressure approaches their tolerance threshold."
+    "safety_considerations": "The knee slice pass involves lateral pressure on the bottom player's knee shield leg during the collapse phase. Apply progressive, sustained pressure rather than sudden explosive force to avoid knee or hip injuries to your training partner. Be attentive to flexibility limitations, particularly when driving the slicing knee across the thigh line. If your partner signals discomfort in their knee or hip joints, release pressure immediately and reset. In drilling, use controlled speed and allow your partner to tap or verbally indicate when pressure approaches their tolerance threshold.",
+    "clips": [
+      {
+        "id": "qjnhpw1lijU",
+        "title": "No-gi knee cut pass",
+        "by": "Daniel Frank",
+        "vertical": false,
+        "channel": "Daniel Frank",
+        "duration": 44,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "bvyNozyr7Ow",
+        "title": "Passing the Z-guard",
+        "by": "Zachary Maslany",
+        "vertical": false,
+        "channel": "Zachary Maslany",
+        "duration": 177,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Knee Slice from Z-Guard Defender",
@@ -422,6 +442,35 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Full-speed defensive application against unrestricted knee slice passing",
         "description": "Positional sparring starting from Z-Guard. Top player passes freely with full resistance. Bottom player practices the complete defensive system including offensive counters like underhook sweeps and back takes. Track defensive success rate over multiple rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "wZ-QdL6wPPI",
+        "title": "Z-guard counter to the knee slide attempt",
+        "by": "Danny Brown",
+        "vertical": false,
+        "channel": "UNC_CynX",
+        "duration": 142,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "COMTE898ja8",
+        "title": "Z-guard: avoid getting squashed by the pass",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 156,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "aWnmRlWZ8zY",
+        "title": "Back take off the knee shield z-guard",
+        "by": "OffYourBackBJJ",
+        "vertical": false,
+        "channel": "OffYourBackBJJ",
+        "duration": 126,
+        "verified": "2026-07-15"
       }
     ]
   }

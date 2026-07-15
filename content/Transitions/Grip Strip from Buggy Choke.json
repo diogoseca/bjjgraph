@@ -281,7 +281,18 @@
         "answer": "Defensive grips form a structural hierarchy where certain grips provide foundational support for the entire defensive frame. Removing the most structurally important grip first collapses the entire defensive structure more efficiently than attacking peripheral grips. Typically the grip nearest to your crossface path is the priority because removing it opens the control point that makes side control consolidation possible."
       }
     ],
-    "safety_considerations": "The grip strip from buggy choke is a positional transition with minimal injury risk compared to submission techniques. However, practitioners should be aware that rapid grip stripping can cause finger and wrist strain on both partners. When drilling, allow partners to release grips naturally rather than violently tearing grips free. During the transition, avoid dropping body weight suddenly onto a partner's spine or ribs. Communicate during practice to ensure both partners understand the transition sequence and can signal if pressure becomes excessive during positional consolidation."
+    "safety_considerations": "The grip strip from buggy choke is a positional transition with minimal injury risk compared to submission techniques. However, practitioners should be aware that rapid grip stripping can cause finger and wrist strain on both partners. When drilling, allow partners to release grips naturally rather than violently tearing grips free. During the transition, avoid dropping body weight suddenly onto a partner's spine or ribs. Communicate during practice to ensure both partners understand the transition sequence and can signal if pressure becomes excessive during positional consolidation.",
+    "clips": [
+      {
+        "id": "bVS-dLgu_v4",
+        "title": "Don't tap to the buggy choke — strip the grip",
+        "by": "Caique",
+        "vertical": false,
+        "channel": "Caique - Gracie Brazilian Jiu Jitsu",
+        "duration": 61,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Grip Strip from Buggy Choke Defender",
@@ -401,6 +412,26 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Full resistance application",
         "description": "Positional sparring from buggy choke bottom against full resistance. Partner chooses between finishing the choke and transitioning to side control. Defend both threats in real-time using recognition cues and appropriate defensive responses. Score for escaping to guard or forcing the top player back to the stalled buggy choke position."
+      }
+    ],
+    "clips": [
+      {
+        "id": "UOlAQctUf58",
+        "title": "Fake buggy to follow-up attacks",
+        "by": "Rene Sousa",
+        "vertical": false,
+        "channel": "The Grapplers Guide by Jason Scully",
+        "duration": 174,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "0_3YYrWEGoU",
+        "title": "3 buggy choke concepts",
+        "by": "Kade and Tye Ruotolo",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 201,
+        "verified": "2026-07-15"
       }
     ]
   }

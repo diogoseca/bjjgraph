@@ -284,7 +284,36 @@
         "answer": "Do not force Modified Scarf Hold through an established knee shield. Instead, accept the half guard position and transition to a half guard passing sequence such as knee cut pass, or float up to knee on belly. Fighting to smash through a knee shield from a mid-transition position wastes significant energy and often results in the opponent recovering full guard. Recognize the counter early and flow to the next positional opportunity rather than stubbornly pursuing the original plan."
       }
     ],
-    "safety_considerations": "This transition is low-risk for injury as it involves positional control rather than joint locks or chokes. However, the chest pressure in Modified Scarf Hold can restrict breathing significantly. Be attentive to training partners who tap from pressure and release immediately. During drilling, use controlled pressure and communicate with your partner about comfort levels. Avoid driving your chin or forehead aggressively into your partner's face during the head pressure phase, as this can cause cuts and bruises that are unnecessary in training."
+    "safety_considerations": "This transition is low-risk for injury as it involves positional control rather than joint locks or chokes. However, the chest pressure in Modified Scarf Hold can restrict breathing significantly. Be attentive to training partners who tap from pressure and release immediately. During drilling, use controlled pressure and communicate with your partner about comfort levels. Avoid driving your chin or forehead aggressively into your partner's face during the head pressure phase, as this can cause cuts and bruises that are unnecessary in training.",
+    "clips": [
+      {
+        "id": "ZMSfqiFWgiI",
+        "title": "Kuzure kesa gatame (modified scarf hold)",
+        "by": "Poraka Nova coach",
+        "vertical": false,
+        "channel": "Poraka Nova",
+        "duration": 37,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fB7gGDIm1i8",
+        "title": "12 attacks from kesa gatame",
+        "by": "Johnny Jitsu",
+        "vertical": false,
+        "channel": "Johnny Jitsu",
+        "duration": 88,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "TfNpVcekHGg",
+        "title": "Kesa gatame basic scarf hold control",
+        "by": "Grappler Station coach",
+        "vertical": false,
+        "channel": "Grappler Station",
+        "duration": 121,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Kesa Gatame to Modified Scarf Hold Defender",
@@ -408,6 +437,35 @@
         "phase": "Phase 4: Live Positional Rounds",
         "focus": "Full resistance defense with position resets",
         "description": "Three-minute rounds starting from Kesa Gatame. Top player attempts the transition, bottom player defends. If Modified Scarf Hold is achieved, continue with escape attempts. Reset to Kesa Gatame after each escape or submission. Track transition prevention rate and post-transition escape rate separately."
+      }
+    ],
+    "clips": [
+      {
+        "id": "-zFQ6h4yKT4",
+        "title": "Kuzure kesa gatame escapes",
+        "by": "Kodokan instructor",
+        "vertical": false,
+        "channel": "KODOKAN",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2M_6VytUaus",
+        "title": "Kesa gatame escape",
+        "by": "SBG Australia coach",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 43,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "OYmQpzNmvF4",
+        "title": "Kesa gatame back door escape",
+        "by": "5am Birds of War coach",
+        "vertical": false,
+        "channel": "5am Birds of War",
+        "duration": 25,
+        "verified": "2026-07-15"
       }
     ]
   }

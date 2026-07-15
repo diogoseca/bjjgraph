@@ -318,7 +318,18 @@
         "answer": "Four conditions must be present: (1) both grips secure with no slipping on wrist or tricep, (2) the cross-body pull has rotated the opponent's shoulders at least 30-45 degrees from square, creating visible structural compromise, (3) your feet have already stepped off their centerline to a lateral angle so you are not directly in front of them, and (4) your head has cleared past their controlled arm to prevent them from re-centering by pushing your head back. If any condition is missing, continue working the two-on-one control to create them rather than forcing a premature entry."
       }
     ],
-    "safety_considerations": "The two-on-one to back take is generally a low-risk technique when practiced properly, but several safety considerations apply. When drilling with partners, maintain controlled intensity during the grip-fighting phase to prevent wrist or elbow hyperextension from forceful arm pulling. Beginners should avoid explosive duck-under attempts that might result in neck strain or head collision with partner's hip. When the technique is completed and back control is established, the receiving partner should not attempt violent spinning escapes that could result in knee or ankle injuries from hook entanglement. During live training, both practitioners should be aware of mat boundaries when executing standing back takes to prevent out-of-bounds falls. Communication about intensity level is essential during initial learning phases."
+    "safety_considerations": "The two-on-one to back take is generally a low-risk technique when practiced properly, but several safety considerations apply. When drilling with partners, maintain controlled intensity during the grip-fighting phase to prevent wrist or elbow hyperextension from forceful arm pulling. Beginners should avoid explosive duck-under attempts that might result in neck strain or head collision with partner's hip. When the technique is completed and back control is established, the receiving partner should not attempt violent spinning escapes that could result in knee or ankle injuries from hook entanglement. During live training, both practitioners should be aware of mat boundaries when executing standing back takes to prevent out-of-bounds falls. Communication about intensity level is essential during initial learning phases.",
+    "clips": [
+      {
+        "id": "RjAfCtXl7B4",
+        "title": "Two-on-one Russian tie to arm drag back take",
+        "by": "EDH Jiu Jitsu",
+        "vertical": false,
+        "channel": "El Dorado Hills Jiu Jitsu & Self Defense - EDHBJJ",
+        "duration": 118,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Two-on-One to Back Take Defender",
@@ -449,6 +460,35 @@
         "phase": "Week 7+: Live Application and Chain Defense",
         "focus": "Defending multiple back take attempts in sequence during live sparring",
         "description": "Incorporate defense into positional sparring from standing clinch. Partner actively hunts the two-on-one and chains step-behind, duck-under, and snap-down attempts. Practice defending the complete sequence rather than individual techniques, building the ability to survive and counter multiple consecutive back take attempts during dynamic exchanges."
+      }
+    ],
+    "clips": [
+      {
+        "id": "w6_9x5bBmBw",
+        "title": "2-on-1 counter offense",
+        "by": "JO Wrestling",
+        "vertical": false,
+        "channel": "JO Wrestling",
+        "duration": 31,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "r5oJK-OE8rU",
+        "title": "Russian tie counters",
+        "by": "Barry Mraz",
+        "vertical": false,
+        "channel": "Barry Mraz",
+        "duration": 116,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uVsLdcUuxJg",
+        "title": "2-on-1 defense",
+        "by": "Youssif Hemida",
+        "vertical": false,
+        "channel": "FANATIC WRESTLING",
+        "duration": 158,
+        "verified": "2026-07-15"
       }
     ]
   }

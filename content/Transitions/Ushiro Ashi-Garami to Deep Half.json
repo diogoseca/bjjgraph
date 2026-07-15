@@ -261,7 +261,27 @@
         "answer": "Immediately begin loading weight onto your shoulder and establishing sweep mechanics. The opponent is often poorly based following the transition from ushiro because they were configured for leg entanglement rather than top half guard defense. Attack with waiter sweep, Homer Simpson sweep, or electric chair before they can establish proper crossface and hip positioning. The first 3-5 seconds after consolidation offer the highest sweep success probability."
       }
     ],
-    "safety_considerations": "This transition involves movement through active leg entanglement positions where heel hook and ankle lock submissions are live threats throughout. Never relax dorsiflexion during any phase of the entry - heel hook injuries occur most frequently during transitions when defensive attention is divided between positional movement and submission defense. If any heel hook grip is established during the threading phase, immediately stop all positional movement and address the submission. Practice at low intensity initially, with partners understanding the tap-early protocol for any rotational pressure on the knee. Avoid training this transition when fatigued, as the precise foot positioning and timing requirements degrade significantly with exhaustion, increasing injury risk. Partners should apply submission attempts slowly and release immediately upon tap during drilling phases."
+    "safety_considerations": "This transition involves movement through active leg entanglement positions where heel hook and ankle lock submissions are live threats throughout. Never relax dorsiflexion during any phase of the entry - heel hook injuries occur most frequently during transitions when defensive attention is divided between positional movement and submission defense. If any heel hook grip is established during the threading phase, immediately stop all positional movement and address the submission. Practice at low intensity initially, with partners understanding the tap-early protocol for any rotational pressure on the knee. Avoid training this transition when fatigued, as the precise foot positioning and timing requirements degrade significantly with exhaustion, increasing injury risk. Partners should apply submission attempts slowly and release immediately upon tap during drilling phases.",
+    "clips": [
+      {
+        "id": "17zlty5ttjo",
+        "title": "Deep half guard to ashi or single X",
+        "by": "Brandon Quick",
+        "vertical": false,
+        "channel": "Brandon Quick",
+        "duration": 176,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "E2eeNrFW-F4",
+        "title": "Z guard to backside 50/50 entry",
+        "by": "Revolution BJJ Ashland",
+        "vertical": false,
+        "channel": "Revolution BJJ Ashland",
+        "duration": 122,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Ushiro Ashi-Garami to Deep Half Defender",
@@ -385,6 +405,35 @@
         "phase": "Week 7+",
         "focus": "Live defensive integration",
         "description": "Incorporate deep half defense into live rolling from ushiro ashi-garami top. Practice reading real-time opponent escape attempts and selecting between maintaining ushiro, deepening to honey hole, attacking heel hook during transition, or disengaging to top position. Develop comfort with the full defensive decision tree under competition-speed conditions with unpredictable opponent choices."
+      }
+    ],
+    "clips": [
+      {
+        "id": "L-tgJFSzbDE",
+        "title": "Countering the underhook from deep half guard",
+        "by": "Jason Juatco",
+        "vertical": false,
+        "channel": "Jason Juatco",
+        "duration": 111,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "JEDoJOZWQHY",
+        "title": "Three options to defend the deep half guard",
+        "by": "Six Blades Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Six Blades Jiu-Jitsu Fort Worth",
+        "duration": 207,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lH9x5sC736I",
+        "title": "Outside ashi leg lock defenses",
+        "by": "Holy Grail BJJ",
+        "vertical": false,
+        "channel": "Holy Grail BJJ",
+        "duration": 173,
+        "verified": "2026-07-15"
       }
     ]
   },

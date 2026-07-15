@@ -348,6 +348,26 @@
         "answer": "Accelerate the setup phases rather than the finish. Move quickly through the arm repositioning and grip transition, then walk to the finishing angle with urgency. However, the actual squeeze must remain progressive and controlled regardless of time pressure. You can increase finishing efficiency by ensuring the walk-around reaches full perpendicular angle before squeezing, and by dropping your head seal immediately rather than adjusting. A properly angled arm triangle finishes in 3-5 seconds once sealed, so invest time in angle rather than force.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "tfykooWW-xk",
+        "title": "Triangle Attacks From Kuzure Kesa Gatame",
+        "by": "Chokes And More",
+        "vertical": false,
+        "channel": "Chokes And More",
+        "duration": 66,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "fB7gGDIm1i8",
+        "title": "12 Kesa Gatame Attacks",
+        "by": "Johnny Jitsu",
+        "vertical": false,
+        "channel": "Johnny Jitsu",
+        "duration": 88,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -483,6 +503,35 @@
         "phase": "Phase 4: Live defensive sparring",
         "focus": "Full-speed defense from Kuzure Kesa-Gatame bottom against all attacks including arm triangle",
         "description": "Partner starts in Kuzure Kesa-Gatame top with full offensive options including arm triangle, americana, kimura, and position advances. Defend all attacks while maintaining awareness of arm positioning to prevent the arm triangle setup. 5-minute rounds with reset on escape or submission."
+      }
+    ],
+    "clips": [
+      {
+        "id": "CmXniIPFMhU",
+        "title": "Two Arm Triangle (Kata Gatame) Escapes",
+        "by": "Adam Urbanski",
+        "vertical": false,
+        "channel": "Adam Urbanski MMA",
+        "duration": 89,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "fvp5_BVEtLg",
+        "title": "Kesa Gatame Pressure Defense with Framing",
+        "by": "Kohbukan Sisu",
+        "vertical": false,
+        "channel": "Kohbukan Sisu",
+        "duration": 84,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "5atT-Q9-CVw",
+        "title": "Kesa Gatame Escape",
+        "by": "Taylorjiujitsu",
+        "vertical": false,
+        "channel": "Taylorjiujitsu",
+        "duration": 14,
+        "verified": "2026-07-14"
       }
     ]
   }

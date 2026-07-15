@@ -294,7 +294,36 @@
         "answer": "Lock in the progress by establishing a grip on their knee or pants that prevents full re-extension, then maintain your upper body control and settle your weight. Do not retreat to neutral, as this surrenders all gains. From this halfway position, you have two productive options: continue sustained pressure to complete the collapse if you have sufficient energy and control, or use the partial collapse as an entry point for a variant pass such as a backstep or hip switch that takes advantage of the compromised shield position without requiring full collapse."
       }
     ],
-    "safety_considerations": "The Z-Guard Pass involves significant pressure on the bottom player's knee, shin, and hip structures. Apply pressure gradually when collapsing the knee shield to avoid injury to the bottom player's knee ligaments, particularly the MCL and meniscus. Never jerk or twist the knee shield leg during collapse. When practicing the knee slide, ensure your knee travels across the thigh rather than directly into the bottom player's knee joint. Communicate with your training partner about pressure levels throughout the drill."
+    "safety_considerations": "The Z-Guard Pass involves significant pressure on the bottom player's knee, shin, and hip structures. Apply pressure gradually when collapsing the knee shield to avoid injury to the bottom player's knee ligaments, particularly the MCL and meniscus. Never jerk or twist the knee shield leg during collapse. When practicing the knee slide, ensure your knee travels across the thigh rather than directly into the bottom player's knee joint. Communicate with your training partner about pressure levels throughout the drill.",
+    "clips": [
+      {
+        "id": "GQeS3xTXlb0",
+        "title": "Z-Guard pass to the back",
+        "by": "Animal BJJ coach",
+        "vertical": false,
+        "channel": "Animal",
+        "duration": 48,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Nuh4wnROi-c",
+        "title": "Z-Guard pass into side control",
+        "by": "JitzLive coach",
+        "vertical": false,
+        "channel": "JitzLive",
+        "duration": 28,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "o-7m6AtG44U",
+        "title": "Knee shield half guard pass",
+        "by": "Bowerhouse MMA coach",
+        "vertical": false,
+        "channel": "BOWERHOUSE MMA",
+        "duration": 50,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Z-Guard Pass Defender",
@@ -424,6 +453,35 @@
         "phase": "Phase 4: Live Application",
         "focus": "Full-speed defensive application with complete offensive repertoire",
         "description": "Positional sparring starting from Z-Guard with full resistance. Defender must either retain guard or sweep within 90 seconds to win the round. Track success rates and identify which pass variations consistently break through your defense. Develop the ability to chain multiple defensive responses together and transition between retention, sweeps, and guard changes fluidly."
+      }
+    ],
+    "clips": [
+      {
+        "id": "hXAs2HsP9Cg",
+        "title": "Knee shield half guard recovery vs the pass",
+        "by": "United Martial Arts KY coach",
+        "vertical": false,
+        "channel": "UnitedMartialArtsKY",
+        "duration": 121,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "COMTE898ja8",
+        "title": "Avoid getting squashed in half guard",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 156,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "OtyqyWjMUwk",
+        "title": "Countering the knee shield smash pass",
+        "by": "RCBJJ coach",
+        "vertical": false,
+        "channel": "RCBJJ International Association",
+        "duration": 173,
+        "verified": "2026-07-15"
       }
     ]
   }

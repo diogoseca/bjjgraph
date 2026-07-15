@@ -293,7 +293,36 @@
         "answer": "Your lateral walking speed should be dictated by your ability to maintain constant compression on the stack. Each step should preserve or increase the downward pressure on the bottom player's hips rather than creating any momentary reduction in compression. If taking a step causes your weight to lift even slightly off the stack, you are moving too fast. Small, deliberate steps that keep your center of gravity directly over the compressed guard player ensure the bottom player cannot recover hip position during the transition from stack to side control."
       }
     ],
-    "safety_considerations": "The stack pass places significant pressure on the bottom player's cervical spine and neck as their hips are driven over their shoulders. Apply stacking pressure gradually and progressively rather than explosively dropping weight. Be especially cautious with less flexible training partners who may experience dangerous spinal compression before showing obvious discomfort. If your partner signals any pain in their neck or upper back during drilling, immediately reduce pressure and adjust your angle. Never force a deep stack against a partner who cannot tolerate the spinal flexion. During competition, be aware that aggressive stacking combined with the lasso control can create cervical compression that may lead to injury if the bottom player does not tap or verbally communicate distress."
+    "safety_considerations": "The stack pass places significant pressure on the bottom player's cervical spine and neck as their hips are driven over their shoulders. Apply stacking pressure gradually and progressively rather than explosively dropping weight. Be especially cautious with less flexible training partners who may experience dangerous spinal compression before showing obvious discomfort. If your partner signals any pain in their neck or upper back during drilling, immediately reduce pressure and adjust your angle. Never force a deep stack against a partner who cannot tolerate the spinal flexion. During competition, be aware that aggressive stacking combined with the lasso control can create cervical compression that may lead to injury if the bottom player does not tap or verbally communicate distress.",
+    "clips": [
+      {
+        "id": "Q4LZBn5iIug",
+        "title": "Over under stack pass",
+        "by": "Bernardo Faria",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "EdLPqtAm5yQ",
+        "title": "Pressure pass the Lasso Guard",
+        "by": "Alberto Serrano",
+        "vertical": false,
+        "channel": "Alberto Serrano BJJ",
+        "duration": 123,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Cx53Xl0SGC4",
+        "title": "Lasso guard knee press pass exploration",
+        "by": "Roll 247",
+        "vertical": false,
+        "channel": "Roll 247",
+        "duration": 27,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Lasso Guard Stack Pass Defender",
@@ -417,6 +446,17 @@
         "phase": "Phase 4: Guard Transitions",
         "focus": "Flowing to alternative guards when lasso is compromised",
         "description": "Partner executes stack passes that successfully degrade the lasso. Practice recognizing the transition point and smoothly flowing to collar sleeve guard, closed guard, or other defensive configurations before the pass completes. Full resistance positional sparring with scoring for successful guard transitions versus completed passes."
+      }
+    ],
+    "clips": [
+      {
+        "id": "T_GhZe_MOWI",
+        "title": "Grip chain for guard retention",
+        "by": "Xande Ribeiro",
+        "vertical": false,
+        "channel": "XANDE RIBEIRO",
+        "duration": 174,
+        "verified": "2026-07-15"
       }
     ]
   }

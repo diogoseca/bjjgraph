@@ -279,7 +279,36 @@
         "answer": "Re-establish your trapped arm position with elbow pinned to ribs as the first priority, then replant your posting hand. Take one controlled breath to reset mentally, then reinitiate the posture sequence with emphasis on leg drive rather than back pull. Each recovery attempt should restart from the fundamentals rather than trying to continue a failed sequence. Build cumulative progress through repeated correct technique rather than single explosive attempts."
       }
     ],
-    "safety_considerations": "Triangle chokes restrict blood flow to the brain and can cause unconsciousness in seconds when fully locked. During training drills for this transition, partners must apply triangle pressure progressively and tap immediately when the escape is not working. Never hold a fully locked triangle at maximum pressure during transition drilling. Communicate clearly with your training partner about pressure levels and always err on the side of releasing early rather than late. Training partners applying the triangle should watch for signs of distress including facial color changes, loss of coordination, or failure to respond to verbal cues."
+    "safety_considerations": "Triangle chokes restrict blood flow to the brain and can cause unconsciousness in seconds when fully locked. During training drills for this transition, partners must apply triangle pressure progressively and tap immediately when the escape is not working. Never hold a fully locked triangle at maximum pressure during transition drilling. Communicate clearly with your training partner about pressure levels and always err on the side of releasing early rather than late. Training partners applying the triangle should watch for signs of distress including facial color changes, loss of coordination, or failure to respond to verbal cues.",
+    "clips": [
+      {
+        "id": "HLWwfq8FNMI",
+        "title": "Triangle escape: hips down, posture up",
+        "by": "Mat Life Training Center",
+        "vertical": false,
+        "channel": "Mat Life Training Center",
+        "duration": 19,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dJOw0ZEyXXc",
+        "title": "Posture-up escape from the triangle choke",
+        "by": "Cosens MMA",
+        "vertical": false,
+        "channel": "Cosens MMA LLC",
+        "duration": 73,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "sR2rS2dwpNY",
+        "title": "How to escape a triangle choke",
+        "by": "Rener & Ryron Gracie",
+        "vertical": false,
+        "channel": "Hayabusa",
+        "duration": 117,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Half Guard to Triangle Escape Position Defender",
@@ -391,6 +420,17 @@
         "phase": "Phase 3: Live positional sparring from triangle catch",
         "focus": "Maintaining triangle control against fully resisting escape attempts",
         "description": "Start with triangle caught during half guard pass. Top player attempts full escape sequence. Bottom player works to finish or maintain control. Progressive resistance building to full competition intensity."
+      }
+    ],
+    "clips": [
+      {
+        "id": "l-HhOV9UjJU",
+        "title": "Preventing the mounted triangle",
+        "by": "Justen Hamilton",
+        "vertical": false,
+        "channel": "Justen Hamilton",
+        "duration": 104,
+        "verified": "2026-07-15"
       }
     ]
   }

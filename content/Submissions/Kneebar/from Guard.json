@@ -394,6 +394,35 @@
         "answer": "Position quality is insufficient when any of these indicators are present: your hips are not fully perpendicular to their leg creating an acute rather than right angle, space exists between their heel and your chest allowing potential extraction, your leg triangle is loose or opponent's thigh is not fully trapped, opponent has defensive grips on their own leg that you cannot break, or opponent has successfully stepped their free leg over your head establishing a defensive hook. When these conditions exist, forcing the finish risks both escape and potential counter-attack. Transition to sweeps or alternative submissions rather than committing to a low-percentage finish.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "HQSxxYL1Aew",
+        "title": "Matrix Kneebar / Heel Hook",
+        "by": "Mikey Musumeci",
+        "vertical": false,
+        "channel": "DARKSIDE | Team Strela",
+        "duration": 26,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "12rNXPlqVXo",
+        "title": "No-Gi Kneebar Technique",
+        "by": "FreeChannelOpen",
+        "vertical": false,
+        "channel": "FreeChannelOpen",
+        "duration": 20,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "rueVPIyTezo",
+        "title": "Kneebar to Wreck the Knee",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 76,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -525,6 +554,35 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Integrating kneebar defense into live guard passing scenarios",
         "description": "Positional sparring rounds where you work guard passing while your partner has the kneebar as their primary attack. Integrate recognition, early defense, grip fighting, and escape sequences into live rolling at progressive intensity. Track which defensive responses work at each stage of the kneebar entry and develop your personal defensive hierarchy based on your body type and flexibility."
+      }
+    ],
+    "clips": [
+      {
+        "id": "wBRG0fY94fs",
+        "title": "How to Defend a Kneebar",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 59,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "NuWBh3LN-SY",
+        "title": "Kneebar Defense + Take the Back",
+        "by": "Bicudo BJJ",
+        "vertical": false,
+        "channel": "Bicudo BJJ",
+        "duration": 22,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "kUuJ03CcIUQ",
+        "title": "Kneebar Defense in Competition",
+        "by": "AJ Agazarm",
+        "vertical": false,
+        "channel": "FloGrappling",
+        "duration": 23,
+        "verified": "2026-07-14"
       }
     ]
   }

@@ -289,7 +289,18 @@
         "answer": "Prepare a three-deep passing chain: if the toreando is blocked by the opponent recovering hip position, immediately switch to a leg drag by pulling one leg across their body. If the leg drag is defended by the opponent turning into you, transition to an x-pass by stepping around the far side. If all standing passes are defended and the opponent establishes a strong distance guard, you can return to combat base with the knowledge gained about their defensive patterns. The ability to chain standing passes prevents the opponent from committing fully to any single defensive response."
       }
     ],
-    "safety_considerations": "Standing up from combat base carries relatively low injury risk compared to submission techniques but requires attention to knee mechanics during the kneeling-to-standing transition. Ensure the posted knee rises smoothly without lateral torque, particularly if the opponent has any hooks or entanglements that resist the movement. Avoid explosively extending the knees if the opponent has established a deep hook that could cause knee hyperextension. In training, communicate with your partner if they maintain grips that create awkward joint angles during the elevation. On slippery mats, plant the foot firmly before committing weight to avoid slipping during the transition."
+    "safety_considerations": "Standing up from combat base carries relatively low injury risk compared to submission techniques but requires attention to knee mechanics during the kneeling-to-standing transition. Ensure the posted knee rises smoothly without lateral torque, particularly if the opponent has any hooks or entanglements that resist the movement. Avoid explosively extending the knees if the opponent has established a deep hook that could cause knee hyperextension. In training, communicate with your partner if they maintain grips that create awkward joint angles during the elevation. On slippery mats, plant the foot firmly before committing weight to avoid slipping during the transition.",
+    "clips": [
+      {
+        "id": "S0rB1ddNifk",
+        "title": "How to stand up in base",
+        "by": "Chris Savarese",
+        "vertical": false,
+        "channel": "Chris Savarese",
+        "duration": 74,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Standing Up from Combat Base Defender",
@@ -414,6 +425,17 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance defense against stand-up sequences",
         "description": "Start with top player in combat base and bottom player in open guard at full resistance. Top player decides when to stand and bottom player must prevent the stand or establish effective guard. Score based on whether the top player achieves a clean standing position versus being pulled back down or caught in entanglement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Grlx4UvAHDE",
+        "title": "Three counters to a standing guard passer",
+        "by": "Força Martial Arts",
+        "vertical": false,
+        "channel": "Força Martial Arts & Fitness",
+        "duration": 221,
+        "verified": "2026-07-15"
       }
     ]
   }

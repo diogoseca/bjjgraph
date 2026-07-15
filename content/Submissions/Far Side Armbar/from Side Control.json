@@ -383,6 +383,26 @@
         "answer": "In competition, success rate increases with several strategies: attack the armbar as part of a chain rather than isolated, so defensive reactions to other threats expose the arm; secure grips before fully committing to the rotation to prevent last-second defenses; use constant hip pressure even during the setup to exhaust the opponent's defensive energy; finish by driving hips up rather than pulling down on the arm for stronger leverage; and if the first attempt fails, immediately transition to another attack rather than forcing the same submission, then return to the armbar when the opponent's defenses reset.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "XxdFHCKd568",
+        "title": "Far Side Armbar from Side Control",
+        "by": "Fox Den Martial Arts",
+        "vertical": false,
+        "channel": "Fox Den Martial Arts",
+        "duration": 49,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "iPnQx-6RYpU",
+        "title": "Straight Armlock from Side Control",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "Roger Gracie TV",
+        "duration": 198,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -525,6 +545,35 @@
         "phase": "Phase 4: Live Situational Defense",
         "focus": "Defending far side armbar in live rolling from disadvantaged starting positions",
         "description": "Start in side control bottom with partner actively hunting the far side armbar at full competition intensity. Practice the complete defensive chain from prevention through grip fighting through escape. Track success rates and identify which stage your defense most commonly fails at. Include rounds starting with the armbar already partially locked to build comfort in late-stage defense."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "Favorite Armbar Escape",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "sDdqvh_1kbA",
+        "title": "Armbar Escape to RNC",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 63,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "AfDEN3uK3W0",
+        "title": "Low-Effort Armbar Escape via Foot Capture",
+        "by": "Patrick Donabedian",
+        "vertical": false,
+        "channel": "Patrick Donabedian BJJ",
+        "duration": 55,
+        "verified": "2026-07-14"
       }
     ]
   },

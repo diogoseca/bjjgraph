@@ -274,7 +274,36 @@
         "answer": "Maximum 2-3 seconds. The inverted position is transitional, not a holding position. Staying inverted longer than necessary drains energy rapidly because you are supporting your weight on the shoulders while maintaining elevated hips and constant lasso tension. Extended inversion also gives the opponent time to establish counter-grips, apply shoulder pressure, and adapt to your limited positional options. The goal is to use the inverted angle to immediately initiate a technique - berimbolo, overhead sweep, or kiss of the dragon - and then either complete it or return to upright lasso guard where energy expenditure is lower."
       }
     ],
-    "safety_considerations": "The primary safety concern is cervical spine protection during the backwards roll. Always tuck the chin firmly to the chest before initiating the inversion and ensure weight lands across the shoulder blades, never on the neck. If you feel neck compression at any point, immediately abandon the technique and return to upright guard. Practitioners with existing neck injuries or limited cervical mobility should consult with their instructor before training this transition. Additionally, the lasso hook creates significant torque on the opponent's shoulder joint during the inversion - apply the movement smoothly rather than explosively to avoid injuring your training partner's shoulder. During drilling, communicate with your partner about the intensity of the lasso pressure."
+    "safety_considerations": "The primary safety concern is cervical spine protection during the backwards roll. Always tuck the chin firmly to the chest before initiating the inversion and ensure weight lands across the shoulder blades, never on the neck. If you feel neck compression at any point, immediately abandon the technique and return to upright guard. Practitioners with existing neck injuries or limited cervical mobility should consult with their instructor before training this transition. Additionally, the lasso hook creates significant torque on the opponent's shoulder joint during the inversion - apply the movement smoothly rather than explosively to avoid injuring your training partner's shoulder. During drilling, communicate with your partner about the intensity of the lasso pressure.",
+    "clips": [
+      {
+        "id": "9WuupXzZt3E",
+        "title": "Lasso to inverted omoplata",
+        "by": "Emil Takeuchi",
+        "vertical": false,
+        "channel": "Six Blades NOVA Emil Takeuchi",
+        "duration": 139,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "vo3_QO3eFMc",
+        "title": "Lasso roll under sweep",
+        "by": "Chen Moraes",
+        "vertical": false,
+        "channel": "Chen Moraes",
+        "duration": 17,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "n4ddjzGemrw",
+        "title": "Lasso guard variations",
+        "by": "Felipe Costa",
+        "vertical": false,
+        "channel": "Felipe Costa",
+        "duration": 28,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Lasso Guard to Inverted Lasso Guard Defender",
@@ -398,6 +427,35 @@
         "phase": "Live Positional Sparring from Lasso",
         "focus": "Full application against unrestricted inversion attempts",
         "description": "Start every round in established lasso guard. Bottom player attempts inversions, sweeps, and submissions at full intensity. Top player applies all defensive tools while also pursuing passing opportunities. Full resistance with round reset after pass or sweep. Track inversion prevention rate to measure defensive improvement over sessions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Z78HFDQNtFw",
+        "title": "Countering the inversion (cross grip series)",
+        "by": "BJJ Lab Zürich",
+        "vertical": false,
+        "channel": "BJJ Lab Zürich",
+        "duration": 56,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "jDHBjOTZr2Q",
+        "title": "How to react when your opponent sprawls on your lasso",
+        "by": "Modern BJJ",
+        "vertical": false,
+        "channel": "Modern BJJ",
+        "duration": 178,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "3e82Y_MRj_o",
+        "title": "Counter an inversion from top north-south",
+        "by": "Frankie Roberts",
+        "vertical": false,
+        "channel": "Frankie Roberts",
+        "duration": 42,
+        "verified": "2026-07-15"
       }
     ]
   }

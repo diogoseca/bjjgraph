@@ -377,6 +377,26 @@
         "answer": "Abandon the Mir Lock when: the opponent successfully establishes a grip defense you cannot break within 5-10 seconds, they create sufficient angle through rolling or bridging that your chest loses connection to their shoulder, they straighten their arm and begin escaping before you can elevate the elbow, or your base becomes compromised by their movement. Rather than fighting a losing battle, transition to Kimura by adjusting your grip angle, take the back if they roll toward you, or reset to side control and look for other attacks. The Mir Lock requires specific positional control - forcing it from compromised positions leads to failed submissions and wasted energy.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "6IVQPq5BJZ0",
+        "title": "Top Side Mir Lock (Shoulder Submission) No-Gi",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 83,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "8dFph1erRNE",
+        "title": "Knee Shield Series - Mir Lock",
+        "by": "TAPS BJJ",
+        "vertical": false,
+        "channel": "TAPS BJJ",
+        "duration": 168,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -518,6 +538,17 @@
         "phase": "Phase 4: Live Defensive Sparring Integration",
         "focus": "Full resistance defense within complete side control bottom game",
         "description": "Begin from bottom side control against a partner who actively hunts for the Mir Lock alongside other submissions. Practice integrating Mir Lock defense into your broader side control escape system, recognizing when the Mir Lock threat is developing versus Americana or Kimura setups, and selecting the correct defensive response for each. Evaluate how often you escape versus tap and identify which defensive stage needs the most improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "FNyL93v5fGs",
+        "title": "Defending The Americana Shoulder Lock",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 91,
+        "verified": "2026-07-14"
       }
     ]
   },

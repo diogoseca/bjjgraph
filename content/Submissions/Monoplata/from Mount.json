@@ -369,6 +369,26 @@
         "answer": "When opponent straightens their arm to defend, they expose themselves to a straight armbar. Immediately transition by maintaining wrist control, swinging your leg from behind their head to across their face, and sitting back into armbar position. Their defensive arm extension becomes your attacking leverage. Keep the submission chain flowing—if they bend the arm to defend the armbar, you can re-enter the monoplata. This creates a submission dilemma where defending one attack exposes another.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "DeVb2R8SQL4",
+        "title": "Omoplata From Mount",
+        "by": "Jiu Jitsu With Andy",
+        "vertical": false,
+        "channel": "Jiu Jitsu With Andy ",
+        "duration": 18,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "kXwTSv13ATw",
+        "title": "Omoplata to Monoplata",
+        "by": "Ninjuh Moves",
+        "vertical": false,
+        "channel": "Ninjuh Moves",
+        "duration": 50,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -484,6 +504,17 @@
         "phase": "Phase 3: Late-Stage Survival and Tap Recognition",
         "focus": "Defending when the figure-four is partially or fully closed",
         "description": "Start with the figure-four partially established and practice late-stage defenses: hand clasping to prevent extension, turning toward the trapped arm, and hip escaping to create space. Partner applies gradual pressure so you learn to recognize when defense is still viable versus when tapping is the correct decision. Develop the judgment to distinguish between defensible and indefensible positions. Emphasize that tapping to a locked monoplata is always the correct choice."
+      }
+    ],
+    "clips": [
+      {
+        "id": "hLkVj_sBens",
+        "title": "Omoplata vs Posture: Escape Fundamentals",
+        "by": "Lucas C Santana",
+        "vertical": false,
+        "channel": "Lucas C Santana",
+        "duration": 81,
+        "verified": "2026-07-14"
       }
     ]
   },

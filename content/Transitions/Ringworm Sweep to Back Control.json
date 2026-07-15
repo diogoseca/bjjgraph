@@ -259,7 +259,36 @@
         "answer": "Threaten triangle setups and omoplata entries from Ringworm Guard to force the opponent to posture up and create distance, which elevates their center of gravity into the ideal sweeping position. A collar drag attempt forces them to post hands forward, loading their weight over the trapped leg. These preliminary threats create a predictable defensive pattern where the opponent repeatedly enters the optimal height and weight distribution for the sweep, allowing you to time the execution precisely."
       }
     ],
-    "safety_considerations": "Practice the sweep with controlled intensity, particularly during the back take follow-through where rapid positional changes can cause knee or ankle strain if hooks are inserted awkwardly. Partners should tap early if caught in compromised positions during drilling to avoid neck strain from resisting completed sweeps. Avoid explosive execution until the movement pattern is established, as the rotational mechanics can cause lower back stress if performed incorrectly. The lapel wrap should never be applied with excessive force that could restrict blood flow or breathing."
+    "safety_considerations": "Practice the sweep with controlled intensity, particularly during the back take follow-through where rapid positional changes can cause knee or ankle strain if hooks are inserted awkwardly. Partners should tap early if caught in compromised positions during drilling to avoid neck strain from resisting completed sweeps. Avoid explosive execution until the movement pattern is established, as the rotational mechanics can cause lower back stress if performed incorrectly. The lapel wrap should never be applied with excessive force that could restrict blood flow or breathing.",
+    "clips": [
+      {
+        "id": "ARmiJRANTpg",
+        "title": "Worm Guard to Back Take and Choke",
+        "by": "Keenan Cornelius",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 36,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "BYBxcpVatU8",
+        "title": "Reverse Worm Guard to Back Take",
+        "by": "Madryn Jiu Jitsu",
+        "vertical": false,
+        "channel": "Madryn Jiu Jitsu",
+        "duration": 12,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_lzJebmY_v8",
+        "title": "Reverse De La Worm and Shin to Shin to the Back",
+        "by": "BJJ Online",
+        "vertical": false,
+        "channel": "BJJ ONLINE",
+        "duration": 60,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Ringworm Sweep to Back Control Defender",
@@ -389,6 +418,17 @@
         "phase": "Week 7+",
         "focus": "Full defensive integration against live attacks",
         "description": "Partner attacks with full Ringworm Guard offense including sweeps, triangles, and omoplata entries. Practice reading which attack is coming based on grips and angles, selecting the appropriate defensive response, and recovering to neutral or passing position after successful defense."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Mw9e-xftPcY",
+        "title": "Dealing with lapel feeding in half guard",
+        "by": "Inverted Gear",
+        "vertical": false,
+        "channel": "Inverted Gear",
+        "duration": 92,
+        "verified": "2026-07-15"
       }
     ]
   },

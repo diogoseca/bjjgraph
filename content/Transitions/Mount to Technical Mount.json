@@ -293,7 +293,36 @@
         "answer": "If the posted leg is caught in half guard, you have several offensive options that capitalize on the position rather than abandoning it. First, use knee slice mechanics to cut through their guard and complete a pass to side control, converting a failed technical mount into a successful guard pass. Second, if you have upper body control through crossface, apply heavy shoulder pressure and work a Darce choke as they turn into you. Third, threaten a Kimura on their underhook arm if they reach for your hip, which forces them to release the leg. The key principle is treating half guard top as an offensive position with its own attack chains rather than viewing it solely as a failed transition."
       }
     ],
-    "safety_considerations": "The Mount to Technical Mount transition is relatively low-risk in terms of acute injury potential, as it involves positional movement rather than joint manipulation or choking. However, practitioners should be aware of knee stress on the posted leg, particularly on hard or slippery surfaces where the foot may slide. Partners should communicate if they feel trapped in positions that compress the ribcage or restrict breathing. During drilling, the bottom player should tap if they feel excessive pressure on the neck from cross-face control. Always ensure adequate mat space and warm up hip flexors and knees before heavy positional drilling from mount."
+    "safety_considerations": "The Mount to Technical Mount transition is relatively low-risk in terms of acute injury potential, as it involves positional movement rather than joint manipulation or choking. However, practitioners should be aware of knee stress on the posted leg, particularly on hard or slippery surfaces where the foot may slide. Partners should communicate if they feel trapped in positions that compress the ribcage or restrict breathing. During drilling, the bottom player should tap if they feel excessive pressure on the neck from cross-face control. Always ensure adequate mat space and warm up hip flexors and knees before heavy positional drilling from mount.",
+    "clips": [
+      {
+        "id": "plD6TW7pFv4",
+        "title": "Mount to technical mount transition",
+        "by": "Dark Horse BJJ",
+        "vertical": false,
+        "channel": "Dark Horse Brazilian Jiu Jitsu",
+        "duration": 20,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "1K1fZa3oqtE",
+        "title": "Scoot to technical mount transition drill",
+        "by": "Tri Training Harder",
+        "vertical": false,
+        "channel": "Tri Training Harder LLP",
+        "duration": 47,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "gze6HZzBOfY",
+        "title": "Mount to modified mount and rear mount",
+        "by": "Coach Paul",
+        "vertical": false,
+        "channel": "Coach Paul - War Fork Jiu-Jitsu Academy",
+        "duration": 76,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Mount to Technical Mount Defender",
@@ -420,6 +449,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance defense and escape in realistic conditions",
         "description": "Positional sparring starting from mount with partner attempting to advance to technical mount. Defend at full resistance using recognition, prevention, and escape skills developed in previous phases. Track success rate of prevention versus escape to identify areas for improvement and refine timing under competition-level pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "NHrpJdU8wCQ",
+        "title": "Technical mount escape out the back",
+        "by": "smallmanbjj",
+        "vertical": false,
+        "channel": "smallmanbjj",
+        "duration": 58,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "9252EvCT0q4",
+        "title": "Mount escape when you are stuck",
+        "by": "Gabriel Gonzaga",
+        "vertical": false,
+        "channel": "Gabriel Gonzaga",
+        "duration": 93,
+        "verified": "2026-07-15"
       }
     ]
   }

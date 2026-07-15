@@ -265,7 +265,36 @@
         "answer": "The transition leads to Armbar Control (the submission control position), not directly to a finish. From Armbar Control, you can execute the Armbar Finish which leads to game-over. The key factors are: maintaining arm control throughout rotation, achieving proper leg positioning across the shoulder line, and having the correct thumb-up arm orientation before applying extension."
       }
     ],
-    "safety_considerations": "The armbar applies hyperextension force to the elbow joint which can cause serious ligament damage or dislocation if applied too quickly or without allowing time for the tap. Always apply finishing pressure progressively, not explosively. In training, release immediately upon feeling the tap or verbal submission. Partners should tap early rather than testing joint flexibility limits. Practitioners with previous elbow injuries should communicate limitations before drilling. Avoid this technique entirely if partner has acute elbow inflammation or injury. The leg position should never compress the throat—adjust leg placement if partner indicates breathing difficulty."
+    "safety_considerations": "The armbar applies hyperextension force to the elbow joint which can cause serious ligament damage or dislocation if applied too quickly or without allowing time for the tap. Always apply finishing pressure progressively, not explosively. In training, release immediately upon feeling the tap or verbal submission. Partners should tap early rather than testing joint flexibility limits. Practitioners with previous elbow injuries should communicate limitations before drilling. Avoid this technique entirely if partner has acute elbow inflammation or injury. The leg position should never compress the throat—adjust leg placement if partner indicates breathing difficulty.",
+    "clips": [
+      {
+        "id": "Of3maBI47t4",
+        "title": "Step-by-step armbar from north-south",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 148,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "eaK1RnJI-Is",
+        "title": "North-south armbar breakdown",
+        "by": "Firas Zahabi",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 183,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "0oOITtbennM",
+        "title": "Key lock to armbar from north-south",
+        "by": "CSW Fullerton",
+        "vertical": false,
+        "channel": "CSW Fullerton",
+        "duration": 174,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Armbar from North-South Defender",
@@ -398,6 +427,17 @@
         "phase": "Week 7+",
         "focus": "Positional sparring integration",
         "description": "Full positional sparring starting from North-South bottom. Partner may attack armbar, kimura, or North-South choke. Defender must read the attack and apply the correct defensive strategy. Progress to full rolling where you actively create and escape North-South scenarios."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "Armbar escape fundamentals",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "verified": "2026-07-15"
       }
     ]
   },

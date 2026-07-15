@@ -280,7 +280,27 @@
         "answer": "The far-hip grip prevents the opponent's most effective counter: turning away during the step-over to recover guard or escape to turtle. Collar control alone anchors the upper body but leaves the opponent's hips free to rotate and create angles. Without far-hip control, the opponent can turn away as your leg swings over and thread their legs into half guard or turtle before you can consolidate mount. The hip grip eliminates this defensive rotation."
       }
     ],
-    "safety_considerations": "This transition involves significant pressure on the bottom player's torso and diaphragm during the movement. In training, the top player should control the speed of the step-over to avoid accidentally driving a knee into the partner's face, ribs, or groin during the swing. The bottom player should communicate immediately if breathing becomes severely compromised during sustained KOB pressure before the transition. Be aware of the swinging leg's trajectory and ensure it clears the training partner's head safely."
+    "safety_considerations": "This transition involves significant pressure on the bottom player's torso and diaphragm during the movement. In training, the top player should control the speed of the step-over to avoid accidentally driving a knee into the partner's face, ribs, or groin during the swing. The bottom player should communicate immediately if breathing becomes severely compromised during sustained KOB pressure before the transition. Be aware of the swinging leg's trajectory and ensure it clears the training partner's head safely.",
+    "clips": [
+      {
+        "id": "HNo-y8SJlgY",
+        "title": "Knee on belly to mount transition",
+        "by": "Tom Dinklage",
+        "vertical": false,
+        "channel": "Tom Dinklage",
+        "duration": 133,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "yhqs-dPzjN0",
+        "title": "Knee on belly transition drill",
+        "by": "301 MMA",
+        "vertical": false,
+        "channel": "301 MMA",
+        "duration": 55,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "KOB to Mount Defender",
@@ -406,6 +426,35 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Full resistance positional sparring",
         "description": "Start from KOB with full resistance. Top player attempts mount transition using all variants and timing. Bottom player scores by recovering any guard position, top player scores by establishing mount for 3 seconds. Alternate roles every 2 minutes. Debrief between rounds on which recognition cues were detected or missed."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Wn01Ynw7O28",
+        "title": "How to escape the knee on belly position",
+        "by": "Evolve MMA",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 40,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "I9_3u9AcwAg",
+        "title": "First principles escapes for mount and knee on belly",
+        "by": "40 Plus BJJ",
+        "vertical": false,
+        "channel": "40 Plus BJJ",
+        "duration": 59,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "DagXZb2hses",
+        "title": "Escaping as they transition to knee on belly and mount",
+        "by": "John Kelly",
+        "vertical": false,
+        "channel": "John Kelly Brazilian Jiu Jitsu Ireland ",
+        "duration": 58,
+        "verified": "2026-07-15"
       }
     ]
   }

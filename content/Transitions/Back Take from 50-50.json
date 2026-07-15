@@ -257,7 +257,27 @@
         "answer": "Force should be applied diagonally forward and downward through your chest into opponent's shoulder blade, driving them flat to the mat while you rotate around their body. This is not a straight push but a spiraling pressure that keeps them pinned while you advance your angle. If you push purely forward, they can frame and resist; the downward component removes their ability to post and sit up, while the rotational component accelerates your movement toward their back."
       }
     ],
-    "safety_considerations": "The Back Take from 50-50 is generally a low-injury-risk technique when practiced with proper awareness. The primary safety concern occurs during the transition phase: if you attempt the back take while an active heel hook is being applied to your leg, you risk significant knee damage by pulling against the submission. Always ensure your own legs are safe before initiating the transition. During drilling, partners should communicate clearly about resistance levels and avoid explosive movements during the learning phase. The transition involves rapid position change, so be aware of training area boundaries to prevent rolling into other practitioners or obstacles. When training the technique at higher intensities, maintain awareness of your partner's ability to safely receive the back control position."
+    "safety_considerations": "The Back Take from 50-50 is generally a low-injury-risk technique when practiced with proper awareness. The primary safety concern occurs during the transition phase: if you attempt the back take while an active heel hook is being applied to your leg, you risk significant knee damage by pulling against the submission. Always ensure your own legs are safe before initiating the transition. During drilling, partners should communicate clearly about resistance levels and avoid explosive movements during the learning phase. The transition involves rapid position change, so be aware of training area boundaries to prevent rolling into other practitioners or obstacles. When training the technique at higher intensities, maintain awareness of your partner's ability to safely receive the back control position.",
+    "clips": [
+      {
+        "id": "i5KlsZLgKGs",
+        "title": "50/50 to the back using a berimbolo",
+        "by": "Silva Jiujutieros",
+        "vertical": false,
+        "channel": "Silva_jiujutieros_",
+        "duration": 23,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "gRTPtnZgdKA",
+        "title": "Passing 50-50 into a back take",
+        "by": "BJJ Recap",
+        "vertical": false,
+        "channel": "BJJ Recap",
+        "duration": 38,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Back Take from 50-50 Defender",
@@ -380,6 +400,17 @@
         "phase": "Week 7+",
         "focus": "Live application and decision-making",
         "description": "Full-speed 50-50 exchanges where partner freely chooses between leg attacks and back take attempts. Develop real-time recognition and appropriate defensive response selection. Track how often you successfully prevent back control and how often counter-attacks succeed."
+      }
+    ],
+    "clips": [
+      {
+        "id": "3rTUggUmhBk",
+        "title": "Countering the back take from 50/50",
+        "by": "Revolution BJJ Ashland",
+        "vertical": false,
+        "channel": "Revolution BJJ Ashland",
+        "duration": 71,
+        "verified": "2026-07-15"
       }
     ]
   },

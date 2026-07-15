@@ -277,7 +277,18 @@
         "answer": "An early switch attempt with minimal momentum can be stopped simply by driving your hips forward and squeezing your grip tighter, as the opponent has not yet created enough force to overcome structural resistance. When the opponent has generated significant rotational momentum, fighting the rotation directly wastes energy and is ineffective. Instead, follow their rotation by stepping your feet in the same direction, maintaining your position behind them by circling with their movement. Use their momentum to re-drag them into your control once they decelerate, or transition to a mat return that utilizes their forward energy."
       }
     ],
-    "safety_considerations": "The standing switch defense involves dynamic movement with both practitioners on their feet, creating fall risk if either player loses balance during the exchange. Practice on mats with adequate space and clear surroundings. Ensure both partners understand the drill intensity level before beginning. Avoid explosive movements during initial learning phases. When the switch partially completes, do not attempt to hold your partner in compromised positions that could strain their neck or spine during the rotation. Communicate clearly about resistance levels to prevent injuries during transitions between standing and ground positions."
+    "safety_considerations": "The standing switch defense involves dynamic movement with both practitioners on their feet, creating fall risk if either player loses balance during the exchange. Practice on mats with adequate space and clear surroundings. Ensure both partners understand the drill intensity level before beginning. Avoid explosive movements during initial learning phases. When the switch partially completes, do not attempt to hold your partner in compromised positions that could strain their neck or spine during the rotation. Communicate clearly about resistance levels to prevent injuries during transitions between standing and ground positions.",
+    "clips": [
+      {
+        "id": "GKrJsIYmycM",
+        "title": "Mat return drill against the stand-up",
+        "by": "Nicky Rodriguez",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 84,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Standing Switch Defense Defender",
@@ -397,6 +408,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full-speed application under competition pressure",
         "description": "Positional sparring from standing rear clinch with full resistance from both partners. Bottom person works all escape options including switches from both sides while top person defends. Track success rates across rounds to measure improvement and identify technical weaknesses."
+      }
+    ],
+    "clips": [
+      {
+        "id": "X4IskvtkBY4",
+        "title": "Stand up to switch from bottom",
+        "by": "Adam Wheeler",
+        "vertical": false,
+        "channel": "Adam Wheeler",
+        "duration": 11,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "x2MR4OIb0vI",
+        "title": "Change over from the bottom position",
+        "by": "The School of Wrestling",
+        "vertical": false,
+        "channel": "The School of Wrestling",
+        "duration": 116,
+        "verified": "2026-07-15"
       }
     ]
   }

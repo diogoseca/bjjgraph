@@ -385,6 +385,26 @@
           "nogi": 5
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "g3j7TZYoW14",
+        "title": "Top Ushiro to knee bar",
+        "by": "Modesto Judo Club",
+        "vertical": false,
+        "channel": "Modesto Judo Club",
+        "duration": 115,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "lTsK9C_a6po",
+        "title": "V grip from top Ushiro transition",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 140,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -681,6 +701,17 @@
           "nogi": 7
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "AQbJMBiWYfU",
+        "title": "Escaping Ashi Garami: leg lock defense",
+        "by": "Scott Elliott",
+        "vertical": false,
+        "channel": "Coach Scott Elliott",
+        "duration": 141,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -715,6 +746,26 @@
     {
       "question": "Why is body position relative to the opponent's hips the master variable that decides whether Ushiro Ashi-Garami favors escape or attack?",
       "answer": "Because ushiro is an inversion caught mid-rotation, the relationship between the two players' hip lines sets every other option. When the entangling player stays behind or beside the turning hips, the entanglement holds and submission angles remain live; when the entangled player drives their hips through and turns away, the leverage collapses toward escape. This hip-to-hip geometry is the shared reference both players track, above grips or foot position. It is the single measurement that tells each participant whether the reversed configuration is currently a trap or a doorway."
+    }
+  ],
+  "clips": [
+    {
+      "id": "eiI_4VBA-qA",
+      "title": "4 foot positions for leg locks",
+      "by": "Evo BJJ",
+      "vertical": false,
+      "channel": "Evo BJJ",
+      "duration": 162,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "HVc2CKdAfN0",
+      "title": "X-guard to saddle (cross ashi)",
+      "by": "Johnny Jitsu",
+      "vertical": false,
+      "channel": "Johnny Jitsu",
+      "duration": 120,
+      "verified": "2026-07-14"
     }
   ]
 }

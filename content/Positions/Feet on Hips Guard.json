@@ -408,6 +408,35 @@
         "question": "How do you manage energy while systematically breaking down feet on hips frames?",
         "answer": "Avoid using upper body muscular effort to force through frames, which causes rapid fatigue. Instead, use your body weight and positioning to apply pressure. Grip the pants firmly but let your skeleton and bodyweight create pressure rather than constant grip squeezing. Move in small, controlled increments rather than explosive burst movements. Accept that breaking well-maintained frames takes time, and maintain consistent pressure rather than alternating between aggressive attacks and recovery periods."
       }
+    ],
+    "clips": [
+      {
+        "id": "YLPNsyHtREs",
+        "title": "Monitoring Feet in Guard Passing",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Michael Wong",
+        "duration": 50,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "JL4Bimt-Y0I",
+        "title": "Foot on Your Hip? No Problem!",
+        "by": "Rickson Gracie",
+        "vertical": false,
+        "channel": "Rickson Gracie Jiu-Jitsu Academy",
+        "duration": 139,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "kTSMGYlVJKY",
+        "title": "Free Your Foot While Passing",
+        "by": "Kameron Ross",
+        "vertical": false,
+        "channel": "Kameron Ross",
+        "duration": 55,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -783,6 +812,35 @@
         "question": "You have been in feet on hips guard for over a minute and your legs are beginning to fatigue from constant pushing - how do you manage energy while maintaining guard effectiveness?",
         "answer": "Alternate between full leg extension pushing and brief recovery periods where you bend your knees slightly while maintaining ball-of-foot contact on the hips. Use your grips to share the workload with your upper body rather than relying solely on leg frames for distance management. Create momentary rest windows by threatening sweep attempts that force the opponent to reset their grips and posture. If fatigue becomes critical, proactively transition to a lower-energy guard like closed guard or butterfly guard before your frames weaken to the point where the opponent can break through. The key is recognizing the threshold where diminishing frame strength makes the position untenable and transitioning early rather than holding on until your frames collapse entirely."
       }
+    ],
+    "clips": [
+      {
+        "id": "Bp0v7c_MrbY",
+        "title": "Getting the Feet on Biceps Position",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 125,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "WzT_DVarJGE",
+        "title": "Foot in Hip Sweep",
+        "by": "Mark VanSchuyver",
+        "vertical": false,
+        "channel": "Mark VanSchuyver",
+        "duration": 59,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Ung3A0olxus",
+        "title": "X-Choke from Feet on Hips Guard",
+        "by": "RKBJJ",
+        "vertical": false,
+        "channel": "RKBJJ Class Archive",
+        "duration": 145,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -817,6 +875,17 @@
     {
       "question": "What makes fighting for grips the pivotal contest that decides which player controls this position?",
       "answer": "Whoever secures grips first dictates the coordinated force exchange, since grips supply the pulling half of the push-pull mechanic and let that player steer the opponent's upper body. If the bottom player wins sleeve or collar control, the leg frames become an off-balancing system that sets up sweeps; if the passer wins pants or ankle control, they can pin the legs and begin dismantling the frames. Both players are simultaneously trying to establish their own grips while denying the other's, making hand fighting inseparable from the foot frames. The grip battle therefore determines whether the extended legs function offensively or are neutralized into a barrier that can be passed."
+    }
+  ],
+  "clips": [
+    {
+      "id": "Bp0v7c_MrbY",
+      "title": "Getting the Feet on Biceps Position",
+      "by": "Lachlan Giles",
+      "vertical": false,
+      "channel": "Absolute MMA St Kilda - Melbourne",
+      "duration": 125,
+      "verified": "2026-07-14"
     }
   ]
 }

@@ -292,7 +292,36 @@
         "answer": "In no-gi, reduced friction from sweat makes the extraction mechanically easier—the arm slides through the clamp with less resistance. However, the opponent can also regrip faster and the guard recovery grips are less secure without collar and sleeve. The adjustment is to use palm-up rotation to maximize the slick surface advantage during extraction, but transition to guard more aggressively since the opponent's re-passing attempts will also be faster without gi friction slowing their movement."
       }
     ],
-    "safety_considerations": "Arm Recovery to Guard involves extracting a trapped arm from a clamped position, which creates risk for the shoulder joint and elbow. Never attempt to yank the arm free with explosive force against a fully locked clamp—this can strain the shoulder rotator cuff or create an armbar angle that the opponent finishes. If you feel sharp pain in the shoulder during extraction, stop immediately and tap if necessary. During training, communicate with partners about the tightness of the armpit clamp, particularly when drilling at higher resistance levels. Partners should release pressure immediately if the bottom practitioner signals discomfort. Practitioners with existing shoulder injuries or hypermobility should approach this technique with extra caution and may need to rely more on alternative escapes like the Granby Roll that do not stress the trapped shoulder joint."
+    "safety_considerations": "Arm Recovery to Guard involves extracting a trapped arm from a clamped position, which creates risk for the shoulder joint and elbow. Never attempt to yank the arm free with explosive force against a fully locked clamp—this can strain the shoulder rotator cuff or create an armbar angle that the opponent finishes. If you feel sharp pain in the shoulder during extraction, stop immediately and tap if necessary. During training, communicate with partners about the tightness of the armpit clamp, particularly when drilling at higher resistance levels. Partners should release pressure immediately if the bottom practitioner signals discomfort. Practitioners with existing shoulder injuries or hypermobility should approach this technique with extra caution and may need to rely more on alternative escapes like the Granby Roll that do not stress the trapped shoulder joint.",
+    "clips": [
+      {
+        "id": "2M_6VytUaus",
+        "title": "Kesa Gatame escape to guard recovery",
+        "by": "SBG Australia",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 43,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "O9H8V9BL_b0",
+        "title": "Escaping the kesa gatame pin",
+        "by": "Full Metal Jiu Jitsu",
+        "vertical": false,
+        "channel": "Full Metal Jiu Jitsu",
+        "duration": 79,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fvp5_BVEtLg",
+        "title": "Kesa gatame pressure defense with proper framing",
+        "by": "Kohbukan Sisu",
+        "vertical": false,
+        "channel": "Kohbukan Sisu",
+        "duration": 84,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Arm Recovery to Guard Defender",
@@ -422,6 +451,26 @@
         "phase": "Week 7+",
         "focus": "Live positional defense integration",
         "description": "Full positional sparring from Kuzure Kesa-Gatame where the bottom player uses arm recovery as part of their complete escape system. Top player integrates clamp defense, armbar counters, hip-following, and North-South transitions into a reactive defensive system. Track which defensive responses are most effective against each escape variation."
+      }
+    ],
+    "clips": [
+      {
+        "id": "PpGQsPMAFLA",
+        "title": "Holding kesa gatame control into the armbar",
+        "by": "DARUMA Brazilian Jiu Jitsu",
+        "vertical": false,
+        "channel": "DARUMA Brazilian Jiu Jitsu",
+        "duration": 75,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2AiDW2rNJxg",
+        "title": "Transitioning from a failed kesa gatame",
+        "by": "ceedublyew",
+        "vertical": false,
+        "channel": "ceedublyew",
+        "duration": 47,
+        "verified": "2026-07-15"
       }
     ]
   },

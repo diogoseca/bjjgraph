@@ -384,6 +384,35 @@
           "nogi": 6
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "yT3euuWRWXw",
+        "title": "3 paths to backside 50/50 from Single Leg X",
+        "by": "Gustavo Gomes Firmino",
+        "vertical": false,
+        "channel": "Gustavo Gomes Firmino",
+        "duration": 56,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "DBbSqQf6iCo",
+        "title": "Roll under to backside 50/50",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 110,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "D9_e_d6WpyU",
+        "title": "Reverse Achilles Lock from Ashi Garami",
+        "by": "Corey K",
+        "vertical": false,
+        "channel": "Corey K",
+        "duration": 84,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -693,6 +722,35 @@
           "nogi": 15
         }
       }
+    ],
+    "clips": [
+      {
+        "id": "m4UEhHwbGfQ",
+        "title": "Ashi Garami escape: sit over foot to mount",
+        "by": "Troy Manning",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 76,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "e2KVHXnSh_o",
+        "title": "Single Leg X counter with heel hook",
+        "by": "Charles Allan Price",
+        "vertical": false,
+        "channel": "Charles Allan Price",
+        "duration": 75,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "JSOM86_1lRo",
+        "title": "Foot lock and Single Leg X guard escapes",
+        "by": "James O'Connor",
+        "vertical": false,
+        "channel": "James O’Connor",
+        "duration": 111,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -727,6 +785,35 @@
     {
       "question": "How does distance and hip elevation govern the stability of Inside Ashi-Garami for both players?",
       "answer": "The controlling player keeps their hips elevated off the mat and manages the distance between the two bodies, using structural pressure rather than constant muscular squeezing to hold the trapped limb. Elevated hips load weight down through the captured leg and preserve the leverage needed for threats, while flat hips surrender both pressure and finishing angle. Distance is a two-way lever: too much space lets the trapped leg extract, while proper connection keeps the clamp intact. Because the position can be held with structure rather than strength, it is sustainable enough that the exchange is often decided by patience and angle rather than a scramble."
+    }
+  ],
+  "clips": [
+    {
+      "id": "rNDEm73luBM",
+      "title": "Mikey lock entries from closed guard",
+      "by": "Mikey Musumeci",
+      "vertical": false,
+      "channel": "Lux’s jiu jitsu channel",
+      "duration": 68,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "VmxgqU-ScTM",
+      "title": "Honey hole entry from Single Leg X",
+      "by": "Danny Mitchell",
+      "vertical": false,
+      "channel": "Danny Mitchell MMA",
+      "duration": 34,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "-VpByetjzqs",
+      "title": "Backside foot finish mechanics",
+      "by": "Mikey Musumeci",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 84,
+      "verified": "2026-07-14"
     }
   ]
 }

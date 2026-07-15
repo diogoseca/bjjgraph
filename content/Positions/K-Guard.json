@@ -382,6 +382,26 @@
         "question": "Your opponent partially recovers full guard as you attempt to pass - how do you prevent complete guard recovery?",
         "answer": "Immediately stop the passing attempt and re-establish pressure on the K-Guard structure before they can fully close their guard. Drive your trapped knee down between their legs to maintain the half guard configuration. Control their inside arm to prevent framing and re-apply hip pressure to compress their hooks. If they've already begun closing, backstep and disengage momentarily rather than getting caught in a compromised closed guard position, then re-engage with better angles."
       }
+    ],
+    "clips": [
+      {
+        "id": "91eO9lV-sVE",
+        "title": "K Guard Defense and Pass",
+        "by": "Pure Grappling",
+        "vertical": false,
+        "channel": "Pure Grappling",
+        "duration": 281,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "JxDViUC4xhk",
+        "title": "K Guard Defense",
+        "by": "Rodrigo Lopes",
+        "vertical": false,
+        "channel": "Pathfinder Jiu-Jitsu Team",
+        "duration": 289,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -711,6 +731,35 @@
         "question": "Your opponent controls your inside arm and begins flattening your hooks systematically - how do you recover?",
         "answer": "First priority is recovering inside arm position through swimming motions or framing against their shoulder. Simultaneously increase hip movement to create angles that prevent complete flattening. If they continue progressing, transition to Deep Half Guard by diving your upper body under their weight while maintaining bottom leg hook connection. Alternatively, release the inverted hook and recover to Butterfly Guard if they've created enough distance - maintaining a guard position is preferable to getting completely flattened."
       }
+    ],
+    "clips": [
+      {
+        "id": "L7OCTtMGt4M",
+        "title": "K Guard entry to knee bar",
+        "by": "Marshall Stamper",
+        "vertical": false,
+        "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
+        "duration": 55,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "wkPHi2q1Cbo",
+        "title": "K guard to 411 saddle",
+        "by": "10th Planet St Louis",
+        "vertical": false,
+        "channel": "10th Planet St Louis",
+        "duration": 41,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "LAKiTjpAQ9g",
+        "title": "K-Guard entry to backside heel hook",
+        "by": "Leg Lock Systems",
+        "vertical": false,
+        "channel": "Leg Lock Systems",
+        "duration": 47,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "flashcards_position": [
@@ -745,6 +794,35 @@
     {
       "question": "Why does K-Guard tend to funnel the exchange toward leg-entanglement positions like X-Guard and Single Leg X?",
       "answer": "Because the butterfly hook already sits under the opponent's free leg and the inverted hook controls the trapped leg, the position is one leg-line adjustment away from full entanglements. When the top player steps back or extracts the trapped leg, that motion feeds the bottom player's hips directly underneath, which is the exact entry geometry for X-Guard and Single Leg X. Conversely, if forward pressure collapses the space, the same hook connection routes into deep half guard. K-Guard therefore behaves as a transitional hub whose hook structure naturally continues into the neighboring leg-lock and elevation positions rather than standing alone."
+    }
+  ],
+  "clips": [
+    {
+      "id": "KBkoWJtMeNA",
+      "title": "K guard entry to saddle",
+      "by": "bjj doug",
+      "vertical": false,
+      "channel": "bjj doug",
+      "duration": 28,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "ieR8CJ1EUM8",
+      "title": "K Guard 50/50 entry to inside heel hook",
+      "by": "BJJ GeekOut",
+      "vertical": false,
+      "channel": "BJJ GeekOut",
+      "duration": 14,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "ottOBmhsyP8",
+      "title": "K guard alternative entry",
+      "by": "Morto BJJ",
+      "vertical": false,
+      "channel": "Morto BJJ",
+      "duration": 92,
+      "verified": "2026-07-14"
     }
   ]
 }

@@ -272,7 +272,36 @@
         "answer": "Four conditions must be present: closed guard with ankles locked, opponent's posture broken with head below shoulder line, controlling grips established on collar and sleeve, and your hips shifted to approximately 45 degrees creating the sweeping angle. Additionally, the opponent's weight must be distributed forward rather than sitting back on their heels. Attempting the sweep without all conditions met dramatically reduces success rate and may expose you to guard passes or submission counters from the opponent."
       }
     ],
-    "safety_considerations": "When practicing the Muscle Sweep, ensure controlled execution to protect both partners. The person being swept should be prepared for backward rolling motion and know how to breakfall safely. Avoid slamming the opponent by following through smoothly to mount rather than releasing them during the sweep. For the bottom person, be cautious with grip strength on the collar to avoid neck strain - pull the collar down and across rather than purely downward. During training, start with slow controlled repetitions before adding explosive power. Partners should communicate clearly about resistance levels, especially during the learning phases. Be particularly careful when training this technique with significant size mismatches, as the smaller person may struggle with the explosive elements while the larger person may inadvertently use too much force. Always practice on proper matted surfaces to cushion any impacts."
+    "safety_considerations": "When practicing the Muscle Sweep, ensure controlled execution to protect both partners. The person being swept should be prepared for backward rolling motion and know how to breakfall safely. Avoid slamming the opponent by following through smoothly to mount rather than releasing them during the sweep. For the bottom person, be cautious with grip strength on the collar to avoid neck strain - pull the collar down and across rather than purely downward. During training, start with slow controlled repetitions before adding explosive power. Partners should communicate clearly about resistance levels, especially during the learning phases. Be particularly careful when training this technique with significant size mismatches, as the smaller person may struggle with the explosive elements while the larger person may inadvertently use too much force. Always practice on proper matted surfaces to cushion any impacts.",
+    "clips": [
+      {
+        "id": "rten_ydcZiQ",
+        "title": "Muscle Swipes sweep from closed guard",
+        "by": "Xande Ribeiro",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 43,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "xDOjrYFJf5Y",
+        "title": "Closed guard sweep when opponent hugs your head",
+        "by": "Jiu Jitsu Five-O",
+        "vertical": false,
+        "channel": "Jiu Jitsu Five-O // Street-Ready BJJ Training",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "qFek-0mauW8",
+        "title": "Basic arm-trap sweep from closed guard",
+        "by": "Leandro Lo",
+        "vertical": false,
+        "channel": "Avant-Garde BJJ",
+        "duration": 63,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Muscle Sweep Defender",
@@ -383,6 +412,35 @@
         "phase": "Week 9+: Live Defense Integration",
         "focus": "Apply complete defensive system during positional sparring from inside closed guard",
         "description": "Defend against Muscle Sweep attempts mixed with other closed guard attacks during live positional sparring. Partner uses full combinations including Hip Bump, Scissor Sweep, and submission threats. Focus on reading which attack is coming and selecting the appropriate defensive response from your complete toolkit."
+      }
+    ],
+    "clips": [
+      {
+        "id": "hu9HmVWc7jU",
+        "title": "Muscle sweep shown in competition",
+        "by": "Alliance Jiu Jitsu of Madison",
+        "vertical": false,
+        "channel": "Alliance Jiu Jitsu of Madison",
+        "duration": 22,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "kNfVYhZbgrg",
+        "title": "Four levels of closed guard sweep defense",
+        "by": "Wim Deputter",
+        "vertical": false,
+        "channel": "Wim Deputter BJJ",
+        "duration": 87,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Qqeuy8LgIyc",
+        "title": "Shutting down the muscle sweep",
+        "by": "Heath Pedigo",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 144,
+        "verified": "2026-07-15"
       }
     ]
   },

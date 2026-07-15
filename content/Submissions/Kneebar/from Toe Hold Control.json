@@ -327,6 +327,26 @@
         "answer": "Without a genuine toe hold threat, the opponent has no reason to execute the defensive reactions that expose the knee. The kneebar opportunity arises specifically from the opponent straightening their leg or rotating their knee — movements they only perform when the ankle is under real attack. A telegraphed or half-committed toe hold allows the opponent to defend both attacks simultaneously because they are not forced to prioritize one over the other. The dilemma only works when both threats are credible.",
         "safety_critical": false
       }
+    ],
+    "clips": [
+      {
+        "id": "-HT8Vfiq5Pk",
+        "title": "Toe Hold to Kneebar Attack",
+        "by": "Eliot Marshall",
+        "vertical": false,
+        "channel": "Eliot Marshall",
+        "duration": 67,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "frFaHeQJHTA",
+        "title": "Kneebar and Toe Hold from Guard Pass",
+        "by": "Precision MA",
+        "vertical": false,
+        "channel": "Precision Martial Arts Academy",
+        "duration": 57,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "defender": {
@@ -457,6 +477,26 @@
         "phase": "Phase 4: Live Defensive Rolling",
         "focus": "Applying defensive skills under realistic rolling conditions with full resistance",
         "description": "During live rolling, actively put yourself in toe hold control situations and work your defensive protocols. Track which escape pathways succeed most often and which recognition cues you respond to fastest. Maintain strict tap-early discipline throughout and communicate with training partners about intensity levels for leg lock exchanges."
+      }
+    ],
+    "clips": [
+      {
+        "id": "wBRG0fY94fs",
+        "title": "How to Defend a Kneebar",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 59,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "hze1WyTvkzA",
+        "title": "Defending Kneebar to Toe Hold",
+        "by": "Garden State BJJ",
+        "vertical": false,
+        "channel": "Garden State Brazilian Jiu-Jitsu Academy",
+        "duration": 24,
+        "verified": "2026-07-14"
       }
     ]
   }

@@ -295,7 +295,27 @@
         "answer": "From the established half guard with underhook, your primary chain starts with the old school sweep. If they post wide to defend, transition to the underhook sweep by driving your shoulder into them and coming up to the dogfight position. If they flatten you despite the underhook, dive to deep half guard using their pressure. If they backstep to avoid your underhook, follow their hips and look for the back take. The key is having at least three follow-up options planned before initiating the transition so you can react immediately."
       }
     ],
-    "safety_considerations": "This transition carries low injury risk as it involves positional movement rather than joint manipulation or choke mechanics. The primary safety concern is protecting your neck and spine from the opponent's crossface pressure during the vulnerable transition window. Avoid attempting the transition when already significantly flattened, as the additional movement without proper frames can expose your neck to awkward angles under heavy top pressure. Tap immediately if caught in any submission during the transition rather than forcing the positional change while compromised."
+    "safety_considerations": "This transition carries low injury risk as it involves positional movement rather than joint manipulation or choke mechanics. The primary safety concern is protecting your neck and spine from the opponent's crossface pressure during the vulnerable transition window. Avoid attempting the transition when already significantly flattened, as the additional movement without proper frames can expose your neck to awkward angles under heavy top pressure. Tap immediately if caught in any submission during the transition rather than forcing the positional change while compromised.",
+    "clips": [
+      {
+        "id": "K7U2uBUfq-c",
+        "title": "Knee shield to underhook half guard to dogfight",
+        "by": "Kaboom BJJ coach",
+        "vertical": false,
+        "channel": "Kaboom Brazilian Jiu-Jitsu",
+        "duration": 129,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "T3Gwg-ABsZA",
+        "title": "Z-Guard with 3 attack options",
+        "by": "Way of BJJ coach",
+        "vertical": false,
+        "channel": "Way of BJJ",
+        "duration": 67,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Z-Guard to Half Guard Defender",
@@ -409,6 +429,26 @@
         "phase": "Phase 4: Live integration",
         "focus": "Full positional sparring from Z-Guard top",
         "description": "Complete positional sparring starting from Z-Guard top position. Bottom player may attempt any technique including the Z-Guard to Half Guard transition. Top player must recognize transition attempts and apply appropriate defensive responses while maintaining their overall passing strategy under competition conditions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "h26GaRXjSHo",
+        "title": "Countering the underhook in half guard",
+        "by": "Revolution Fitness coach",
+        "vertical": false,
+        "channel": "Revolution Fitness Center",
+        "duration": 55,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dOdO6xJ-TcU",
+        "title": "Stopping the half guard underhook",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 98,
+        "verified": "2026-07-15"
       }
     ]
   }

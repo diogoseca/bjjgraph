@@ -290,7 +290,36 @@
         "answer": "The optimal timing window is the exact moment the opponent plants their posted foot in response to your butterfly elevation. At this instant, their weight is committed forward onto that leg and they cannot retract it without losing balance. This window lasts approximately one to two seconds before they stabilize their base and regain the ability to retreat. Initiating the hip slide too early means the leg is not yet loaded and can be easily withdrawn. Too late means the opponent has stabilized and can defend the entry or begin their own passing sequence."
       }
     ],
-    "safety_considerations": "The butterfly guard to X-Guard transition is generally a safe technique when practiced with proper progression and partner communication. Primary safety concerns include preventing accidental knee torque when establishing hooks - always control the motion of your hooks and avoid sudden jerking movements that could stress your partner's knee joint. When drilling, the bottom person should communicate if hooks are placed uncomfortably on the knee. The top person should avoid suddenly driving weight down onto the guard player's legs during the transition phase, as this can cause lower back strain. Both practitioners should maintain awareness of available mat space, as the dynamic nature of the transition can cause rolling or movement. When practicing with resistance, the defending partner should not explosively rip their leg out of X-Guard hooks, as this can cause knee or ankle strain for both parties. Instead, use controlled escape techniques. Beginners should master the basic mechanics with cooperative drilling before adding significant resistance to prevent injury from mistimed or poorly executed transitions."
+    "safety_considerations": "The butterfly guard to X-Guard transition is generally a safe technique when practiced with proper progression and partner communication. Primary safety concerns include preventing accidental knee torque when establishing hooks - always control the motion of your hooks and avoid sudden jerking movements that could stress your partner's knee joint. When drilling, the bottom person should communicate if hooks are placed uncomfortably on the knee. The top person should avoid suddenly driving weight down onto the guard player's legs during the transition phase, as this can cause lower back strain. Both practitioners should maintain awareness of available mat space, as the dynamic nature of the transition can cause rolling or movement. When practicing with resistance, the defending partner should not explosively rip their leg out of X-Guard hooks, as this can cause knee or ankle strain for both parties. Instead, use controlled escape techniques. Beginners should master the basic mechanics with cooperative drilling before adding significant resistance to prevent injury from mistimed or poorly executed transitions.",
+    "clips": [
+      {
+        "id": "zbYb6sOYC8w",
+        "title": "Marcelo Garcia X-guard sweep",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "CHOKE LABORATORY",
+        "duration": 53,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "AhsXraebbdg",
+        "title": "Marcelo Garcia single leg X-guard sweep",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "jen jitsu",
+        "duration": 47,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "gxyHU7nPA0A",
+        "title": "X-guard entry from butterfly in 60 seconds",
+        "by": "Aces Jiu Jitsu Club",
+        "vertical": false,
+        "channel": "Aces Jiu Jitsu Club",
+        "duration": 61,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Butterfly Guard to X-Guard Defender",
@@ -421,6 +450,26 @@
         "phase": "Phase 4: Full Integration with Passing (Weeks 9+)",
         "focus": "Combining X-Guard defense with proactive butterfly guard passing strategy",
         "description": "Full positional sparring where you work butterfly guard passing while being prepared to defend X-Guard transitions. Develop the ability to maintain offensive passing pressure while staying alert to transition cues. Build a complete tactical approach where your passing movements inherently limit the opponent's ability to initiate the hip slide for X-Guard entry."
+      }
+    ],
+    "clips": [
+      {
+        "id": "qStfwTHPxLw",
+        "title": "X-guard defence",
+        "by": "Bermuda Martial Arts",
+        "vertical": false,
+        "channel": "Bermuda Martial Arts",
+        "duration": 136,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "OaHVPQVHrMs",
+        "title": "Shutting down the single leg X-guard",
+        "by": "Stephan Kesting",
+        "vertical": false,
+        "channel": "Stephan Kesting",
+        "duration": 193,
+        "verified": "2026-07-15"
       }
     ]
   },
