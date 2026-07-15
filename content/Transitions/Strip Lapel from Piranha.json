@@ -387,6 +387,35 @@
         "focus": "Full resistance strip defense with transition decision-making",
         "description": "Start in Piranha Guard with partner at full resistance attempting strip and pass. Practice the full defensive decision tree including re-gripping, sweep attempts, knee squeezing, and transitions to alternative guards when Piranha Guard is compromised. Track retention rate across rounds to measure defensive improvement."
       }
+    ],
+    "clips": [
+      {
+        "id": "5dwCJOzItDE",
+        "title": "Breaking double lapel grips",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 56,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "gUI1GeUga-w",
+        "title": "Valid grip breaking from lapel",
+        "by": "Neil Adams",
+        "vertical": false,
+        "channel": "Neil Adams Judo",
+        "duration": 21,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "OnmLBMNZ44A",
+        "title": "Crucifix grip break",
+        "by": "Gabe Tuttle",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 86,
+        "verified": "2026-07-15"
+      }
     ]
   }
 }

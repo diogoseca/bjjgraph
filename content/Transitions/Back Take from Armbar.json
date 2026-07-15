@@ -444,6 +444,26 @@
         "focus": "Full-speed defense in sparring context",
         "description": "Positional sparring from armbar control. Defender must simultaneously manage armbar defense and back take prevention based on attacker's choices. Full resistance with resets. Track how often the back is successfully taken versus defended to measure improvement."
       }
+    ],
+    "clips": [
+      {
+        "id": "s7Nrm5czeOU",
+        "title": "Failed armbar to back take",
+        "by": "Alliance Coral Springs coach",
+        "vertical": false,
+        "channel": "Alliance Coral Springs",
+        "duration": 67,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "Armbar escape before the back take",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "verified": "2026-07-15"
+      }
     ]
   }
 }

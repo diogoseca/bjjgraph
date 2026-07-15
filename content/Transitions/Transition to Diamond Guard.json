@@ -280,7 +280,27 @@
         "answer": "Individual grips create single-vector forces that the opponent can resist by aligning their structure against one directional pull. The diamond frame creates a closed geometric loop where the overhook pulls one shoulder down and across while head control pulls the head down and forward, generating two converging force vectors that the opponent cannot resist simultaneously. Addressing one control point requires movement that deepens the other — posturing against head control drives weight into the overhook, while stripping the overhook frees energy that the head control redirects downward. The closed-loop structure means each grip reinforces the other rather than operating independently."
       }
     ],
-    "safety_considerations": "The Transition to Diamond Guard is a relatively low-risk grip transition that does not involve direct joint manipulation or choking mechanics. The primary safety concern is shoulder strain from aggressive overhook application, particularly if the overhook is cranked deeply while the opponent resists by pulling their arm backward forcefully. Training partners should communicate immediately if overhook pressure creates uncomfortable shoulder rotation or impingement. Practitioners should avoid explosive or jerky overhook entries that could surprise a training partner and cause strain. The transition itself poses minimal injury risk compared to the submissions that follow from diamond guard, which carry their own significant safety requirements."
+    "safety_considerations": "The Transition to Diamond Guard is a relatively low-risk grip transition that does not involve direct joint manipulation or choking mechanics. The primary safety concern is shoulder strain from aggressive overhook application, particularly if the overhook is cranked deeply while the opponent resists by pulling their arm backward forcefully. Training partners should communicate immediately if overhook pressure creates uncomfortable shoulder rotation or impingement. Practitioners should avoid explosive or jerky overhook entries that could surprise a training partner and cause strain. The transition itself poses minimal injury risk compared to the submissions that follow from diamond guard, which carry their own significant safety requirements.",
+    "clips": [
+      {
+        "id": "sMsgoChdaHE",
+        "title": "Quarter Guard concepts",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "DptKK7yOBvU",
+        "title": "The minimum essence of guard",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 74,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Transition to Diamond Guard Defender",
@@ -404,6 +424,26 @@
         "phase": "Phase 4: Live Integration",
         "focus": "Preventing diamond guard in live sparring",
         "description": "During live closed guard sparring, maintain specific awareness of diamond guard entries. Track how often you detect the entry attempt and whether your defensive response prevents completion. Review failures to identify which recognition cue you missed or which defensive response was too slow."
+      }
+    ],
+    "clips": [
+      {
+        "id": "jx120fTdOfA",
+        "title": "Common mistake made by guard players",
+        "by": "Rickson Gracie",
+        "vertical": false,
+        "channel": "Rickson Gracie Jiu-Jitsu Academy",
+        "duration": 58,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "wgxNQuUfDBM",
+        "title": "Overhook defense from inside closed guard",
+        "by": "Unknown",
+        "vertical": false,
+        "channel": "The Academy",
+        "duration": 61,
+        "verified": "2026-07-15"
       }
     ]
   }

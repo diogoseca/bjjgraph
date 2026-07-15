@@ -287,7 +287,27 @@
         "answer": "The quick shrimp variant requires reserving energy for a single explosive burst during a brief window, making it high-energy per attempt but efficient if successful on the first try. The gradual frame-and-escape variant distributes energy across multiple micro-movements over a longer timeframe, each creating incremental distance. Choose the quick variant when you identify a clear window and have energy reserves. Choose the gradual variant when the opponent has tight control and you need to conserve energy while working systematically, as forcing explosive attempts against tight control wastes energy rapidly."
       }
     ],
-    "safety_considerations": "Hip escape movements from Russian Cowboy involve significant spinal rotation and hip mobility demands. Avoid explosive twisting when the opponent has deep hook engagement, as this can strain knee ligaments or lower back musculature. During training, communicate clearly with your partner if the hook creates uncomfortable pressure on your inner thigh or groin area. Tap immediately to any neck attack that materializes during the escape attempt rather than fighting through potential cervical spine compression. When drilling at high intensity, ensure adequate warm-up of hip flexors and lower back before practicing escape sequences."
+    "safety_considerations": "Hip escape movements from Russian Cowboy involve significant spinal rotation and hip mobility demands. Avoid explosive twisting when the opponent has deep hook engagement, as this can strain knee ligaments or lower back musculature. During training, communicate clearly with your partner if the hook creates uncomfortable pressure on your inner thigh or groin area. Tap immediately to any neck attack that materializes during the escape attempt rather than fighting through potential cervical spine compression. When drilling at high intensity, ensure adequate warm-up of hip flexors and lower back before practicing escape sequences.",
+    "clips": [
+      {
+        "id": "_sBB-O8fqP4",
+        "title": "Standing up from turtle bottom",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 114,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "zxSKKUroV6Q",
+        "title": "Multiple escapes from the turtle position",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 214,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Hip Escape from Russian Cowboy Defender",

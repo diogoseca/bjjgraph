@@ -439,6 +439,26 @@
         "focus": "Choosing between resettling and advancing position",
         "description": "Partner works frame escapes at 70% resistance. Practice the decision point: resettle the scarf hold when space is minimal, or advance to mount or north-south when space is significant. Develop automatic recognition of which option is appropriate based on how much space has been created."
       }
+    ],
+    "clips": [
+      {
+        "id": "0IzWNf8ardQ",
+        "title": "Elbow pullout escape from kesa gatame",
+        "by": "Training with Lions",
+        "vertical": false,
+        "channel": "Training with Lions",
+        "duration": 46,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "a0SoDyETz98",
+        "title": "Head and arm (scarf hold) escape counter",
+        "by": "Josh Barnett",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 127,
+        "verified": "2026-07-15"
+      }
     ]
   }
 }

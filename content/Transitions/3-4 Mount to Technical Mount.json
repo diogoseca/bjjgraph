@@ -292,7 +292,36 @@
         "answer": "Read the opponent's shoulder orientation. If they remain flat or turn toward you with their shoulder on the mat, the armbar is available—their arm is extended and their body is aligned for the swing-over finish. If they turn away from you, exposing their back and pulling their arm toward their body, abandon the armbar immediately and transition to back control by following their rotation with seat belt grip and hook insertion. The opponent's defensive choice determines your attack—never force one option when the other is clearly presented."
       }
     ],
-    "safety_considerations": "This transition involves significant pressure on the opponent's ribcage and shoulder during leg repositioning. Apply weight shifts gradually during drilling to avoid rib compression injuries. When training the arm isolation component, release immediately if your partner signals discomfort in the shoulder or elbow. Avoid explosive knee slides toward the head during initial learning phases, as accidental contact with the face or jaw can occur. Partners should communicate clearly about pressure tolerance, and the top player should check in during early repetitions before applying full transition speed."
+    "safety_considerations": "This transition involves significant pressure on the opponent's ribcage and shoulder during leg repositioning. Apply weight shifts gradually during drilling to avoid rib compression injuries. When training the arm isolation component, release immediately if your partner signals discomfort in the shoulder or elbow. Avoid explosive knee slides toward the head during initial learning phases, as accidental contact with the face or jaw can occur. Partners should communicate clearly about pressure tolerance, and the top player should check in during early repetitions before applying full transition speed.",
+    "clips": [
+      {
+        "id": "plD6TW7pFv4",
+        "title": "Mount to technical mount transition",
+        "by": "Dark Horse BJJ coach",
+        "vertical": false,
+        "channel": "Dark Horse Brazilian Jiu Jitsu",
+        "duration": 20,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "0wVHM6nJeew",
+        "title": "Technical mount transition from mount",
+        "by": "Steve Haydock",
+        "vertical": false,
+        "channel": "Steve Haydock Jiu Jitsu Academy",
+        "duration": 81,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2Xm_mLp8xwk",
+        "title": "S-mount troubleshooting from mount (no-gi)",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 67,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "3-4 Mount to Technical Mount Defender",

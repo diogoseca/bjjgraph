@@ -293,7 +293,27 @@
         "answer": "Push against the trapping pressure with the trapped leg using small pulsing movements rather than one sustained push. This prevents complete flattening and maintains the hip mobility necessary for sweep mechanics. Even partial trapped leg mobility creates the hip angle needed for the sweep. If the leg is completely immobilized, focus on creating maximum angle with hip escape on the free side to compensate for the restricted trapped side and generate sweep leverage from the available movement."
       }
     ],
-    "safety_considerations": "Sweeps from headquarters involve dynamic hip movement and rotational forces that stress the knee and ankle joints. Be particularly mindful of knee strain on the trapped leg during explosive sweep attempts, as the leg may be wedged between the opponent's knees at an awkward angle. Tap immediately if you feel sharp pain in the knee or ankle of the trapped leg during training. Communicate with your partner about the intensity of leg trapping pressure and avoid forcing sweep attempts when the trapped leg position creates dangerous joint angles. During drilling, begin with slow controlled repetitions before adding speed and resistance."
+    "safety_considerations": "Sweeps from headquarters involve dynamic hip movement and rotational forces that stress the knee and ankle joints. Be particularly mindful of knee strain on the trapped leg during explosive sweep attempts, as the leg may be wedged between the opponent's knees at an awkward angle. Tap immediately if you feel sharp pain in the knee or ankle of the trapped leg during training. Communicate with your partner about the intensity of leg trapping pressure and avoid forcing sweep attempts when the trapped leg position creates dangerous joint angles. During drilling, begin with slow controlled repetitions before adding speed and resistance.",
+    "clips": [
+      {
+        "id": "kSc35SuV7W0",
+        "title": "Star sweep",
+        "by": "bjjtaro",
+        "vertical": false,
+        "channel": "bjjtaro",
+        "duration": 13,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "eO0iX_6Whaw",
+        "title": "De La Riva tip from headquarters passing",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 71,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Sweep from Headquarters Defender",
@@ -414,6 +434,17 @@
         "phase": "Phase 4: Live Integration",
         "focus": "Maintaining headquarters against sweep-focused opponents",
         "description": "Full resistance rounds starting from headquarters against a partner whose primary goal is to sweep. Develop the ability to pass while managing constant sweep threats, integrating sweep defense into your natural passing flow without disrupting offensive rhythm."
+      }
+    ],
+    "clips": [
+      {
+        "id": "YNcEX5v0bcs",
+        "title": "Seated escape basics",
+        "by": "Andre Galvao",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 70,
+        "verified": "2026-07-15"
       }
     ]
   }

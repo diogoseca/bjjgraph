@@ -302,7 +302,18 @@
         "answer": "The lockdown serves three critical functions during the Turn to Face: it anchors your lower body to prevent the opponent from simply pulling away during your rotation; it provides a rotational axis that your hips pivot around; and it disrupts the opponent's base through stretching, creating the turning window. The lockdown should only be released after you have successfully inserted a knee shield or butterfly hook and established upper body grips in your recovered guard position. Premature lockdown release before guard consolidation is the most common cause of immediate passes following otherwise successful turns."
       }
     ],
-    "safety_considerations": "The Turn to Face from Zombie is a relatively low-risk guard recovery technique with no direct joint lock or choke threats. Primary safety concerns involve cervical spine strain if the turn is forced against heavy crossface pressure, as the rotation can create compression on the neck when the opponent's weight drives through the crossface. Practitioners should never force the turn against deep crossface control. Knee strain is possible if the lockdown is maintained at extreme angles during rapid rotation. During drilling, partners should allow controlled rotation and gradually increase resistance to prevent sudden twisting forces on the spine or trapped leg."
+    "safety_considerations": "The Turn to Face from Zombie is a relatively low-risk guard recovery technique with no direct joint lock or choke threats. Primary safety concerns involve cervical spine strain if the turn is forced against heavy crossface pressure, as the rotation can create compression on the neck when the opponent's weight drives through the crossface. Practitioners should never force the turn against deep crossface control. Knee strain is possible if the lockdown is maintained at extreme angles during rapid rotation. During drilling, partners should allow controlled rotation and gradually increase resistance to prevent sudden twisting forces on the spine or trapped leg.",
+    "clips": [
+      {
+        "id": "cY1xCIx-9-I",
+        "title": "Two simple rubber guard tips",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 57,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Turn to Face from Zombie Defender",
@@ -427,6 +438,17 @@
         "phase": "Phase 4: Full Positional Sparring",
         "focus": "Integration with complete Zombie Top game",
         "description": "Live sparring from Zombie Top where partner uses Turn to Face alongside other Zombie escapes. Defender must identify which escape is being attempted and apply the appropriate counter while maintaining passing pressure. Measures the ratio of successful defenses to completed escapes and tracks improvement over sessions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "E3sCfrFKJDE",
+        "title": "Rubber guard: preventing the pass",
+        "by": "Força Martial Arts",
+        "vertical": false,
+        "channel": "Força Martial Arts & Fitness",
+        "duration": 158,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -498,6 +498,26 @@
         "focus": "Full resistance defense from butterfly guard top",
         "description": "Positional sparring where partner starts in butterfly guard with guillotine as a primary weapon. Defend the guillotine under full resistance while also working to pass the guard. Develops realistic timing for when to strip grips, when to drive, and when to tap."
       }
+    ],
+    "clips": [
+      {
+        "id": "fYE1jgWfIgY",
+        "title": "Late arm-in guillotine defense",
+        "by": "Noel Danforth",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 188,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "VUaJgz4FzY0",
+        "title": "Guillotine defense: the vaulting method",
+        "by": "Brian Glick",
+        "vertical": false,
+        "channel": "Brian Glick",
+        "duration": 282,
+        "verified": "2026-07-15"
+      }
     ]
   }
 }

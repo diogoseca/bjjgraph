@@ -439,6 +439,26 @@
         "focus": "Full-speed defense against all anaconda escape attempts",
         "description": "Positional sparring from anaconda control where bottom player uses all available escapes including rolling, grip breaking, and framing. Top player must read the escape type and select appropriate counter in real time. 3-minute rounds with role reversal to develop complete understanding."
       }
+    ],
+    "clips": [
+      {
+        "id": "1e2GPOUYR-o",
+        "title": "Fixing the anaconda choke so it cannot be rolled",
+        "by": "Lycan",
+        "vertical": false,
+        "channel": "Lycan",
+        "duration": 41,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "guHPx-OKi0M",
+        "title": "Preventing the sucker drag during the anaconda",
+        "by": "Drew Darce",
+        "vertical": false,
+        "channel": "Drew Darce",
+        "duration": 159,
+        "verified": "2026-07-15"
+      }
     ]
   }
 }

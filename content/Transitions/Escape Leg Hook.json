@@ -423,6 +423,17 @@
         "focus": "Full integration with live passing",
         "description": "Start from Leg Hook top with full resistance from both players. Top player combines hook maintenance, escape prevention, and pass advancement into a live strategy. Bottom player uses both Escape Leg Hook and Counter Leg Hook. Track success rates to identify patterns in timing and technique selection."
       }
+    ],
+    "clips": [
+      {
+        "id": "MqtG9kuVt-Q",
+        "title": "Leg lock escape: roll through",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 103,
+        "verified": "2026-07-15"
+      }
     ]
   }
 }

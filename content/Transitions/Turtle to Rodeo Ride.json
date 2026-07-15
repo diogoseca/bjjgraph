@@ -433,6 +433,17 @@
         "focus": "Defending Rodeo Ride entry against fully resisting opponent",
         "description": "Begin from turtle bottom against an opponent who will attempt Rodeo Ride among other turtle attacks. Defend the entry, escape if caught, and recover to guard or standing. Full resistance, full speed. 5-minute rounds tracking how often you successfully prevent the entry versus how often you must escape from established Rodeo Ride."
       }
+    ],
+    "clips": [
+      {
+        "id": "_sBB-O8fqP4",
+        "title": "Standing up out of turtle, defensive detail",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 114,
+        "verified": "2026-07-15"
+      }
     ]
   }
 }

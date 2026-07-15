@@ -409,6 +409,26 @@
         "focus": "Live defense with full resistance",
         "description": "Full resistance positional sparring starting from worm guard where partner actively attempts backstep passes. Integrate both defensive strategies with real-time decision-making. Include recovery to turtle when defense fails."
       }
+    ],
+    "clips": [
+      {
+        "id": "j7_IF-rCCtM",
+        "title": "Lo sweep counter when opponent steps over the leg",
+        "by": "BJJ Shorts",
+        "vertical": false,
+        "channel": "BJJ Shorts",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "U-d9fLP9eAo",
+        "title": "Reverse de la worm pass defense",
+        "by": "Satori BJJ",
+        "vertical": false,
+        "channel": "Satori BJJ",
+        "duration": 62,
+        "verified": "2026-07-15"
+      }
     ]
   },
   "variants_and_adaptations": [

@@ -428,6 +428,26 @@
         "focus": "Defending against unpredictable transition timing at full speed",
         "description": "Full resistance positional sparring starting in Piranha Guard. Partner attacks with sweeps, transitions to worm guard, and other Piranha Guard threats at 100% intensity. You must identify whether they are attacking from Piranha or transitioning to Worm Guard and select the appropriate defensive response in real time. Track how often the worm guard is successfully established versus denied."
       }
+    ],
+    "clips": [
+      {
+        "id": "aR0dbddbfQA",
+        "title": "Passing the Polish worm rider lapel guard",
+        "by": "Daniel Maira",
+        "vertical": false,
+        "channel": "Movement Art",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "rvbYLboVzZM",
+        "title": "Countering lapel guard with a pass",
+        "by": "Tarik BJJ",
+        "vertical": false,
+        "channel": "Tarik BJJ",
+        "duration": 289,
+        "verified": "2026-07-15"
+      }
     ]
   }
 }
