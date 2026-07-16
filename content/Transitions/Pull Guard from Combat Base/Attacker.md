@@ -197,13 +197,24 @@ description: "Master the guard pull from combat base bottom in BJJ. Step-by-step
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Hip pinch closed guard break",
-      "description": "Pull Guard from Combat Base (Attacker) film study: Hip pinch closed guard break, taught by CU Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/9zdcAWV35IE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/9zdcAWV35IE",
-      "url": "https://www.youtube.com/watch?v=9zdcAWV35IE",
-      "creator": { "@type": "Person", "name": "CU Jiu Jitsu" },
-      "duration": "PT69S"
+      "name": "Explanation of Combat Base",
+      "description": "Pull Guard from Combat Base (Attacker) film study: Explanation of Combat Base, taught by BJJSchool101.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FWGgMhm0z3Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FWGgMhm0z3Q",
+      "url": "https://www.youtube.com/watch?v=FWGgMhm0z3Q",
+      "creator": { "@type": "Person", "name": "BJJSchool101" },
+      "duration": "PT147S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Easy Sweep When Opponent Goes to Combat Base",
+      "description": "Pull Guard from Combat Base (Attacker) film study: Easy Sweep When Opponent Goes to Combat Base, taught by Double Gold BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kQDj3mFVIc0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kQDj3mFVIc0",
+      "url": "https://www.youtube.com/watch?v=kQDj3mFVIc0",
+      "creator": { "@type": "Person", "name": "Double Gold BJJ" },
+      "duration": "PT55S"
     }
   ]
 }
@@ -239,9 +250,17 @@ As the attacker executing the guard pull from combat base, your objective is to 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=9zdcAWV35IE)
+![](https://www.youtube.com/watch?v=FWGgMhm0z3Q)
 
-<p class="clip-credit"><strong>Hip pinch closed guard break</strong> — taught by CU Jiu Jitsu · 1:09 · <a href="https://www.youtube.com/watch?v=9zdcAWV35IE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Explanation of Combat Base</strong> — taught by BJJSchool101 · 2:27 · <a href="https://www.youtube.com/watch?v=FWGgMhm0z3Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kQDj3mFVIc0)
+
+<p class="clip-credit"><strong>Easy Sweep When Opponent Goes to Combat Base</strong> — taught by Double Gold BJJ · 0:55 · <a href="https://www.youtube.com/watch?v=kQDj3mFVIc0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

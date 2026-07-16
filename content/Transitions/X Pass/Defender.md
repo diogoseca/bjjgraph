@@ -171,13 +171,13 @@ description: "How to defend against X Pass in BJJ. Recognition cues, defensive o
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Defeating the weave pass with the underhook",
-      "description": "X Pass (Defender) film study: Defeating the weave pass with the underhook, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ZXt2yzy0BL0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ZXt2yzy0BL0",
-      "url": "https://www.youtube.com/watch?v=ZXt2yzy0BL0",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT249S"
+      "name": "Pass defense: recover guard to technical stand up",
+      "description": "X Pass (Defender) film study: Pass defense: recover guard to technical stand up, taught by Lucas Lepri.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aIfwGOr12rk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aIfwGOr12rk",
+      "url": "https://www.youtube.com/watch?v=aIfwGOr12rk",
+      "creator": { "@type": "Person", "name": "Lucas Lepri" },
+      "duration": "PT50S"
     }
   ]
 }
@@ -213,9 +213,9 @@ Defending the X Pass requires early recognition of the passer's intent and immed
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=ZXt2yzy0BL0)
+![](https://www.youtube.com/watch?v=aIfwGOr12rk)
 
-<p class="clip-credit"><strong>Defeating the weave pass with the underhook</strong> — taught by Lachlan Giles · 4:09 · <a href="https://www.youtube.com/watch?v=ZXt2yzy0BL0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Pass defense: recover guard to technical stand up</strong> — taught by Lucas Lepri · 0:50 · <a href="https://www.youtube.com/watch?v=aIfwGOr12rk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

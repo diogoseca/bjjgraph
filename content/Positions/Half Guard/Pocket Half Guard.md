@@ -46,17 +46,6 @@ description: "Master Pocket Half Guard in BJJ. Deep underhook half guard positio
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Arm drag from knee shield half guard",
-      "description": "Pocket Half Guard film study: Arm drag from knee shield half guard, taught by Bernardo Faria.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/F8zTqADm7fU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/F8zTqADm7fU",
-      "url": "https://www.youtube.com/watch?v=F8zTqADm7fU",
-      "creator": { "@type": "Person", "name": "Bernardo Faria" },
-      "duration": "PT162S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Knee shield half guard basics",
       "description": "Pocket Half Guard film study: Knee shield half guard basics, taught by MMA Leech.",
       "thumbnailUrl": "https://i.ytimg.com/vi/q_ND-09HiWg/hqdefault.jpg",
@@ -67,7 +56,7 @@ description: "Master Pocket Half Guard in BJJ. Deep underhook half guard positio
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 2,
       "name": "Knee shield pocket sweep",
       "description": "Pocket Half Guard film study: Knee shield pocket sweep, taught by Great Grappling.",
       "thumbnailUrl": "https://i.ytimg.com/vi/UPMEXkyqHGc/hqdefault.jpg",
@@ -122,14 +111,6 @@ From the top perspective, Pocket Half Guard Top represents a dominant pressure-p
 
 <p class="section-subtitle">Watch Pocket Half Guard in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=F8zTqADm7fU)
-
-<p class="clip-credit"><strong>Arm drag from knee shield half guard</strong> — taught by Bernardo Faria · 2:42 · <a href="https://www.youtube.com/watch?v=F8zTqADm7fU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

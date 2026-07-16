@@ -46,24 +46,24 @@ description: "Master the Transition to Pocket Half Guard from Half Guard Top. Es
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Hip switch to back take from half guard",
-      "description": "Half Guard to Pocket Half Guard film study: Hip switch to back take from half guard, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/f3PJ06A_bWQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/f3PJ06A_bWQ",
-      "url": "https://www.youtube.com/watch?v=f3PJ06A_bWQ",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT19S"
+      "name": "Countering the underhook in half guard",
+      "description": "Half Guard to Pocket Half Guard film study: Countering the underhook in half guard, taught by Revolution Fitness Center.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h26GaRXjSHo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/h26GaRXjSHo",
+      "url": "https://www.youtube.com/watch?v=h26GaRXjSHo",
+      "creator": { "@type": "Person", "name": "Revolution Fitness Center" },
+      "duration": "PT55S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Countering the half guard underhook while passing",
-      "description": "Half Guard to Pocket Half Guard film study: Countering the half guard underhook while passing, taught by Holy Grail BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Zy88ds_RDG4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Zy88ds_RDG4",
-      "url": "https://www.youtube.com/watch?v=Zy88ds_RDG4",
-      "creator": { "@type": "Person", "name": "Holy Grail BJJ" },
-      "duration": "PT126S"
+      "name": "Stopping the half guard underhook",
+      "description": "Half Guard to Pocket Half Guard film study: Stopping the half guard underhook, taught by Malachy Friedman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dOdO6xJ-TcU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dOdO6xJ-TcU",
+      "url": "https://www.youtube.com/watch?v=dOdO6xJ-TcU",
+      "creator": { "@type": "Person", "name": "Malachy Friedman" },
+      "duration": "PT98S"
     }
   ]
 }
@@ -117,17 +117,17 @@ Strategically, this transition serves as the critical gateway to high-percentage
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=f3PJ06A_bWQ)
+![](https://www.youtube.com/watch?v=h26GaRXjSHo)
 
-<p class="clip-credit"><strong>Hip switch to back take from half guard</strong> — taught by Gordon Ryan · 0:19 · <a href="https://www.youtube.com/watch?v=f3PJ06A_bWQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Countering the underhook in half guard</strong> — taught by Revolution Fitness Center · 0:55 · <a href="https://www.youtube.com/watch?v=h26GaRXjSHo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Zy88ds_RDG4)
+![](https://www.youtube.com/watch?v=dOdO6xJ-TcU)
 
-<p class="clip-credit"><strong>Countering the half guard underhook while passing</strong> — taught by Holy Grail BJJ · 2:06 · <a href="https://www.youtube.com/watch?v=Zy88ds_RDG4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Stopping the half guard underhook</strong> — taught by Malachy Friedman · 1:38 · <a href="https://www.youtube.com/watch?v=dOdO6xJ-TcU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

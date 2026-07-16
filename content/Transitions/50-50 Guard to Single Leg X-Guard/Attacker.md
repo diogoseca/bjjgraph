@@ -204,17 +204,6 @@ description: "How to execute 50-50 Guard to Single Leg X-Guard in BJJ. Complete 
       "url": "https://www.youtube.com/watch?v=TVQXVTX6Szw",
       "creator": { "@type": "Person", "name": "Won-hee Jo" },
       "duration": "PT23S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Saddle entry from single leg X",
-      "description": "50-50 Guard to Single Leg X-Guard (Attacker) film study: Saddle entry from single leg X, taught by The Grapple Lab coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/P-xqbj6EdTs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/P-xqbj6EdTs",
-      "url": "https://www.youtube.com/watch?v=P-xqbj6EdTs",
-      "creator": { "@type": "Person", "name": "The Grapple Lab coach" },
-      "duration": "PT61S"
     }
   ]
 }
@@ -255,14 +244,6 @@ The transition exploits a fundamental timing principle: opponent cannot simultan
 ![](https://www.youtube.com/watch?v=TVQXVTX6Szw)
 
 <p class="clip-credit"><strong>Single leg X sweep to 50/50 transition</strong> — taught by Won-hee Jo · 0:23 · <a href="https://www.youtube.com/watch?v=TVQXVTX6Szw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip film-clip--vertical">
-
-![](https://www.youtube.com/watch?v=P-xqbj6EdTs)
-
-<p class="clip-credit"><strong>Saddle entry from single leg X</strong> — taught by The Grapple Lab coach · 1:01 · <a href="https://www.youtube.com/watch?v=P-xqbj6EdTs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

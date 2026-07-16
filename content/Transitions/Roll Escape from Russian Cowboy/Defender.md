@@ -157,24 +157,13 @@ description: "Defend against the Roll Escape from Russian Cowboy in BJJ. Learn r
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Escaping the turtle ride by shrugging the hooks",
-      "description": "Roll Escape from Russian Cowboy (Defender) film study: Escaping the turtle ride by shrugging the hooks, taught by Andy Tong.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/waVFl1Ip6VU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/waVFl1Ip6VU",
-      "url": "https://www.youtube.com/watch?v=waVFl1Ip6VU",
-      "creator": { "@type": "Person", "name": "Andy Tong" },
-      "duration": "PT33S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Turtle escape against back control",
-      "description": "Roll Escape from Russian Cowboy (Defender) film study: Turtle escape against back control, taught by BJJ101.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/bDZntPrcLpg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/bDZntPrcLpg",
-      "url": "https://www.youtube.com/watch?v=bDZntPrcLpg",
-      "creator": { "@type": "Person", "name": "BJJ101" },
-      "duration": "PT37S"
+      "name": "Turtle Escape \u0026 Back-Exposure System",
+      "description": "Roll Escape from Russian Cowboy (Defender) film study: Turtle Escape \u0026 Back-Exposure System, taught by Jozef Chen.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ft6OyIZ6vPs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ft6OyIZ6vPs",
+      "url": "https://www.youtube.com/watch?v=Ft6OyIZ6vPs",
+      "creator": { "@type": "Person", "name": "Jozef Chen" },
+      "duration": "PT149S"
     }
   ]
 }
@@ -210,17 +199,9 @@ Defending against the Roll Escape from Russian Cowboy requires the top player to
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=waVFl1Ip6VU)
+![](https://www.youtube.com/watch?v=Ft6OyIZ6vPs)
 
-<p class="clip-credit"><strong>Escaping the turtle ride by shrugging the hooks</strong> — taught by Andy Tong · 0:33 · <a href="https://www.youtube.com/watch?v=waVFl1Ip6VU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=bDZntPrcLpg)
-
-<p class="clip-credit"><strong>Turtle escape against back control</strong> — taught by BJJ101 · 0:37 · <a href="https://www.youtube.com/watch?v=bDZntPrcLpg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Turtle Escape &amp; Back-Exposure System</strong> — taught by Jozef Chen · 2:29 · <a href="https://www.youtube.com/watch?v=Ft6OyIZ6vPs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -167,17 +167,6 @@ description: "How to defend against Posture Recovery to Closed Guard in BJJ. Mai
       "url": "https://www.youtube.com/watch?v=o55M0DMesfE",
       "creator": { "@type": "Person", "name": "Stephan Kesting" },
       "duration": "PT173S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Recovering guard from the turtle position",
-      "description": "Posture Recovery to Closed Guard (Defender) film study: Recovering guard from the turtle position, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/61unSJ7vu4I/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/61unSJ7vu4I",
-      "url": "https://www.youtube.com/watch?v=61unSJ7vu4I",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT413S"
     }
   ]
 }
@@ -212,14 +201,6 @@ The strategic framework centers on a simple principle: deny space and maintain c
 ![](https://www.youtube.com/watch?v=o55M0DMesfE)
 
 <p class="clip-credit"><strong>Escape the turtle and get safely back to guard</strong> — taught by Stephan Kesting · 2:53 · <a href="https://www.youtube.com/watch?v=o55M0DMesfE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=61unSJ7vu4I)
-
-<p class="clip-credit"><strong>Recovering guard from the turtle position</strong> — taught by Lachlan Giles · 6:53 · <a href="https://www.youtube.com/watch?v=61unSJ7vu4I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

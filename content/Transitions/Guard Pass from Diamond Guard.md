@@ -64,17 +64,6 @@ description: "Master the Guard Pass from Diamond Guard in BJJ. Systematic techni
       "url": "https://www.youtube.com/watch?v=iiExTTeuB2s",
       "creator": { "@type": "Person", "name": "Jon Thomas" },
       "duration": "PT566S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Breaking Posture in Closed Guard: Complete Guide",
-      "description": "Guard Pass from Diamond Guard film study: Breaking Posture in Closed Guard: Complete Guide, taught by Jon Thomas.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ZKsfnBbBdjk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ZKsfnBbBdjk",
-      "url": "https://www.youtube.com/watch?v=ZKsfnBbBdjk",
-      "creator": { "@type": "Person", "name": "Jon Thomas" },
-      "duration": "PT439S"
     }
   ]
 }
@@ -139,14 +128,6 @@ Timing is critical throughout this transition. The guard player's counter-attack
 ![](https://www.youtube.com/watch?v=iiExTTeuB2s)
 
 <p class="clip-credit"><strong>My 5 Favourite Guard Passes</strong> — taught by Jon Thomas · 9:26 · <a href="https://www.youtube.com/watch?v=iiExTTeuB2s" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ZKsfnBbBdjk)
-
-<p class="clip-credit"><strong>Breaking Posture in Closed Guard: Complete Guide</strong> — taught by Jon Thomas · 7:19 · <a href="https://www.youtube.com/watch?v=ZKsfnBbBdjk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

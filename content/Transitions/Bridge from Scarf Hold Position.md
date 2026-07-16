@@ -64,17 +64,6 @@ description: "Master the bridge-and-roll reversal from scarf hold in BJJ. Step-b
       "url": "https://www.youtube.com/watch?v=2M_6VytUaus",
       "creator": { "@type": "Person", "name": "SBG Australia" },
       "duration": "PT43S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Kesa gatame back door escape",
-      "description": "Bridge from Scarf Hold Position film study: Kesa gatame back door escape, taught by 5am Birds of War.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/OYmQpzNmvF4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/OYmQpzNmvF4",
-      "url": "https://www.youtube.com/watch?v=OYmQpzNmvF4",
-      "creator": { "@type": "Person", "name": "5am Birds of War" },
-      "duration": "PT25S"
     }
   ]
 }
@@ -139,14 +128,6 @@ Within the scarf hold escape hierarchy, the bridge-and-roll reversal occupies th
 ![](https://www.youtube.com/watch?v=2M_6VytUaus)
 
 <p class="clip-credit"><strong>Kesa gatame bridge escape demo</strong> — taught by SBG Australia · 0:43 · <a href="https://www.youtube.com/watch?v=2M_6VytUaus" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=OYmQpzNmvF4)
-
-<p class="clip-credit"><strong>Kesa gatame back door escape</strong> — taught by 5am Birds of War · 0:25 · <a href="https://www.youtube.com/watch?v=OYmQpzNmvF4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

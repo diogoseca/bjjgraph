@@ -204,17 +204,6 @@ description: "How to execute 50-50 Entry from Standing in BJJ. Attacking perspec
       "url": "https://www.youtube.com/watch?v=DBbSqQf6iCo",
       "creator": { "@type": "Person", "name": "Lachlan Giles" },
       "duration": "PT110S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Berimbolo entry from double guard pull",
-      "description": "50-50 Entry from Standing (Attacker) film study: Berimbolo entry from double guard pull, taught by Johnny Tama.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Ecd48BZmReA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Ecd48BZmReA",
-      "url": "https://www.youtube.com/watch?v=Ecd48BZmReA",
-      "creator": { "@type": "Person", "name": "Johnny Tama" },
-      "duration": "PT77S"
     }
   ]
 }
@@ -255,14 +244,6 @@ This entry has become increasingly popular in modern competitive BJJ, particular
 ![](https://www.youtube.com/watch?v=DBbSqQf6iCo)
 
 <p class="clip-credit"><strong>Roll under to backside 50/50</strong> — taught by Lachlan Giles · 1:50 · <a href="https://www.youtube.com/watch?v=DBbSqQf6iCo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Ecd48BZmReA)
-
-<p class="clip-credit"><strong>Berimbolo entry from double guard pull</strong> — taught by Johnny Tama · 1:17 · <a href="https://www.youtube.com/watch?v=Ecd48BZmReA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -160,17 +160,6 @@ description: "Complete guide to preventing the Cartwheel Escape from Omoplata in
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Posture escape from the omoplata",
-      "description": "Cartwheel Escape from Omoplata (Defender) film study: Posture escape from the omoplata, taught by Satori BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/tHynApXlsEA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/tHynApXlsEA",
-      "url": "https://www.youtube.com/watch?v=tHynApXlsEA",
-      "creator": { "@type": "Person", "name": "Satori BJJ" },
-      "duration": "PT73S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Countering the cartwheel escape",
       "description": "Cartwheel Escape from Omoplata (Defender) film study: Countering the cartwheel escape, taught by Sam Wilkinson.",
       "thumbnailUrl": "https://i.ytimg.com/vi/NZEf9jXzCYA/hqdefault.jpg",
@@ -181,7 +170,7 @@ description: "Complete guide to preventing the Cartwheel Escape from Omoplata in
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 2,
       "name": "Finishing the omoplata against the common defense",
       "description": "Cartwheel Escape from Omoplata (Defender) film study: Finishing the omoplata against the common defense, taught by Jon Thomas.",
       "thumbnailUrl": "https://i.ytimg.com/vi/AHCYSGbEGHM/hqdefault.jpg",
@@ -213,14 +202,6 @@ As the defender holding the omoplata, your primary objective is to prevent the c
 
 <p class="section-subtitle">Watch Cartwheel Escape from Omoplata (Defender) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=tHynApXlsEA)
-
-<p class="clip-credit"><strong>Posture escape from the omoplata</strong> — taught by Satori BJJ · 1:13 · <a href="https://www.youtube.com/watch?v=tHynApXlsEA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

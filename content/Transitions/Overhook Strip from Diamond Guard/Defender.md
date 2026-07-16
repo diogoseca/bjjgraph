@@ -167,28 +167,6 @@ description: "Defend your diamond guard overhook against stripping attempts in B
       "url": "https://www.youtube.com/watch?v=ovecwiNyE3k",
       "creator": { "@type": "Person", "name": "Lachlan Giles" },
       "duration": "PT386S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Rubber guard retention and overhook control",
-      "description": "Overhook Strip from Diamond Guard (Defender) film study: Rubber guard retention and overhook control, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/RJ7Iutti8cY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/RJ7Iutti8cY",
-      "url": "https://www.youtube.com/watch?v=RJ7Iutti8cY",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT521S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Rubber guard fundamentals: holding the overhook",
-      "description": "Overhook Strip from Diamond Guard (Defender) film study: Rubber guard fundamentals: holding the overhook, taught by Knight Jiu-Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/7ukIp8aQu4M/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/7ukIp8aQu4M",
-      "url": "https://www.youtube.com/watch?v=7ukIp8aQu4M",
-      "creator": { "@type": "Person", "name": "Knight Jiu-Jitsu" },
-      "duration": "PT535S"
     }
   ]
 }
@@ -219,22 +197,6 @@ As the bottom player defending against the Overhook Strip from Diamond Guard, yo
 ![](https://www.youtube.com/watch?v=ovecwiNyE3k)
 
 <p class="clip-credit"><strong>Clearing the overhook and removing the angle</strong> — taught by Lachlan Giles · 6:26 · <a href="https://www.youtube.com/watch?v=ovecwiNyE3k" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=RJ7Iutti8cY)
-
-<p class="clip-credit"><strong>Rubber guard retention and overhook control</strong> — taught by Eddie Bravo · 8:41 · <a href="https://www.youtube.com/watch?v=RJ7Iutti8cY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=7ukIp8aQu4M)
-
-<p class="clip-credit"><strong>Rubber guard fundamentals: holding the overhook</strong> — taught by Knight Jiu-Jitsu · 8:55 · <a href="https://www.youtube.com/watch?v=7ukIp8aQu4M" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

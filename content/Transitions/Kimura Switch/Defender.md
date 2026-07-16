@@ -171,17 +171,6 @@ description: "How to defend against Kimura Switch in BJJ. Recognition cues, defe
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Defending the americana",
-      "description": "Kimura Switch (Defender) film study: Defending the americana, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/FNyL93v5fGs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/FNyL93v5fGs",
-      "url": "https://www.youtube.com/watch?v=FNyL93v5fGs",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT91S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
       "name": "Late kimura defense from bottom side control",
       "description": "Kimura Switch (Defender) film study: Late kimura defense from bottom side control, taught by Fox Den Martial Arts.",
       "thumbnailUrl": "https://i.ytimg.com/vi/uRn3DRICpeY/hqdefault.jpg",
@@ -223,14 +212,6 @@ From a positional perspective, your best defensive outcomes are either forcing t
 ![](https://www.youtube.com/watch?v=GOLwVNTVcnY)
 
 <p class="clip-credit"><strong>Kimura defense grip breaks</strong> — taught by Dirtball BJJ · 1:21 · <a href="https://www.youtube.com/watch?v=GOLwVNTVcnY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=FNyL93v5fGs)
-
-<p class="clip-credit"><strong>Defending the americana</strong> — taught by Lachlan Giles · 1:31 · <a href="https://www.youtube.com/watch?v=FNyL93v5fGs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

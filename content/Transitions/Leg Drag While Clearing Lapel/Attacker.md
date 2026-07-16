@@ -197,13 +197,13 @@ description: "How to execute Leg Drag While Clearing Lapel in BJJ. Attacking per
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Over-under pass from lapel guard",
-      "description": "Leg Drag While Clearing Lapel (Attacker) film study: Over-under pass from lapel guard, taught by Carpio Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/CWIYY6u-P9Y/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/CWIYY6u-P9Y",
-      "url": "https://www.youtube.com/watch?v=CWIYY6u-P9Y",
-      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu" },
-      "duration": "PT80S"
+      "name": "Kick leg drag pass vs Paulo Miyao",
+      "description": "Leg Drag While Clearing Lapel (Attacker) film study: Kick leg drag pass vs Paulo Miyao, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DwA_p23SzNY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DwA_p23SzNY",
+      "url": "https://www.youtube.com/watch?v=DwA_p23SzNY",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT30S"
     }
   ]
 }
@@ -243,9 +243,9 @@ Strategically, this technique excels against opponents who rely heavily on lapel
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=CWIYY6u-P9Y)
+![](https://www.youtube.com/watch?v=DwA_p23SzNY)
 
-<p class="clip-credit"><strong>Over-under pass from lapel guard</strong> — taught by Carpio Jiu Jitsu · 1:20 · <a href="https://www.youtube.com/watch?v=CWIYY6u-P9Y" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kick leg drag pass vs Paulo Miyao</strong> — taught by Keenan Cornelius · 0:30 · <a href="https://www.youtube.com/watch?v=DwA_p23SzNY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

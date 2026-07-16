@@ -57,17 +57,6 @@ description: "Master the Sweep from Inside Sankaku in BJJ. Learn to reverse leg 
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "50/50 to outside sankaku",
-      "description": "Sweep from Inside Sankaku film study: 50/50 to outside sankaku, taught by jamielovesmartialarts.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/zl-OLGxkKo0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/zl-OLGxkKo0",
-      "url": "https://www.youtube.com/watch?v=zl-OLGxkKo0",
-      "creator": { "@type": "Person", "name": "jamielovesmartialarts" },
-      "duration": "PT57S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
       "name": "Mount escape to single leg X to saddle",
       "description": "Sweep from Inside Sankaku film study: Mount escape to single leg X to saddle, taught by Combat Arts S\u0026C.",
       "thumbnailUrl": "https://i.ytimg.com/vi/6gkNbZWSBzU/hqdefault.jpg",
@@ -131,14 +120,6 @@ Success with this technique requires disciplined patience and accurate reading o
 ![](https://www.youtube.com/watch?v=K5XhO7o5QN0)
 
 <p class="clip-credit"><strong>Saddle entries from guard</strong> — taught by Lachlan Giles · 1:06 · <a href="https://www.youtube.com/watch?v=K5XhO7o5QN0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=zl-OLGxkKo0)
-
-<p class="clip-credit"><strong>50/50 to outside sankaku</strong> — taught by jamielovesmartialarts · 0:57 · <a href="https://www.youtube.com/watch?v=zl-OLGxkKo0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

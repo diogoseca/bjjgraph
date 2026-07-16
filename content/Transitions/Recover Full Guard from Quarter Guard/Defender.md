@@ -155,17 +155,6 @@ description: "Learn to prevent guard recovery when passing quarter guard. Unders
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Defending the Knee Slice from Quarter Guard",
-      "description": "Recover Full Guard from Quarter Guard (Defender) film study: Defending the Knee Slice from Quarter Guard, taught by Jean Jacques Machado.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/xDZucxFVK48/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/xDZucxFVK48",
-      "url": "https://www.youtube.com/watch?v=xDZucxFVK48",
-      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
-      "duration": "PT275S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
       "name": "Freeing Your Foot While Passing Half Guard",
       "description": "Recover Full Guard from Quarter Guard (Defender) film study: Freeing Your Foot While Passing Half Guard, taught by Kameron Ross.",
       "thumbnailUrl": "https://i.ytimg.com/vi/kTSMGYlVJKY/hqdefault.jpg",
@@ -203,14 +192,6 @@ As the defender against Recover Full Guard from Quarter Guard, you are the top p
 ![](https://www.youtube.com/watch?v=8lAqEhHz8ao)
 
 <p class="clip-credit"><strong>Quarter guard escape and pass</strong> — taught by Marcus Almeida · 0:37 · <a href="https://www.youtube.com/watch?v=8lAqEhHz8ao" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=xDZucxFVK48)
-
-<p class="clip-credit"><strong>Defending the Knee Slice from Quarter Guard</strong> — taught by Jean Jacques Machado · 4:35 · <a href="https://www.youtube.com/watch?v=xDZucxFVK48" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

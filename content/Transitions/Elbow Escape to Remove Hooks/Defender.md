@@ -171,24 +171,13 @@ description: "How to counter the Elbow Escape to Remove Hooks in BJJ. Recognitio
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Back Control Escape Details",
-      "description": "Elbow Escape to Remove Hooks (Defender) film study: Back Control Escape Details, taught by Nicolas Renier.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/3lidRO1XZPk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/3lidRO1XZPk",
-      "url": "https://www.youtube.com/watch?v=3lidRO1XZPk",
-      "creator": { "@type": "Person", "name": "Nicolas Renier" },
-      "duration": "PT317S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Jiu Jitsu Back Escape System",
-      "description": "Elbow Escape to Remove Hooks (Defender) film study: Jiu Jitsu Back Escape System, taught by Matt Arroyo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/N6lKNqUOZoY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/N6lKNqUOZoY",
-      "url": "https://www.youtube.com/watch?v=N6lKNqUOZoY",
-      "creator": { "@type": "Person", "name": "Matt Arroyo" },
-      "duration": "PT675S"
+      "name": "Retaking the back when hooks get stripped",
+      "description": "Elbow Escape to Remove Hooks (Defender) film study: Retaking the back when hooks get stripped, taught by Brandon Quick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QekOjlzNWTI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QekOjlzNWTI",
+      "url": "https://www.youtube.com/watch?v=QekOjlzNWTI",
+      "creator": { "@type": "Person", "name": "Brandon Quick" },
+      "duration": "PT81S"
     }
   ]
 }
@@ -228,17 +217,9 @@ Advanced defenders develop sensitivity to the early phases of hook removal attem
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=3lidRO1XZPk)
+![](https://www.youtube.com/watch?v=QekOjlzNWTI)
 
-<p class="clip-credit"><strong>Back Control Escape Details</strong> — taught by Nicolas Renier · 5:17 · <a href="https://www.youtube.com/watch?v=3lidRO1XZPk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=N6lKNqUOZoY)
-
-<p class="clip-credit"><strong>Jiu Jitsu Back Escape System</strong> — taught by Matt Arroyo · 11:15 · <a href="https://www.youtube.com/watch?v=N6lKNqUOZoY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Retaking the back when hooks get stripped</strong> — taught by Brandon Quick · 1:21 · <a href="https://www.youtube.com/watch?v=QekOjlzNWTI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

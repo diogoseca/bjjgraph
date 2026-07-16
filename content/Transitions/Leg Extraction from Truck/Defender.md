@@ -152,17 +152,6 @@ description: "Counter the leg extraction from truck as the top player. Maintain 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Reversing and escaping the Truck",
-      "description": "Leg Extraction from Truck (Defender) film study: Reversing and escaping the Truck, taught by Coach Brian.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dWAZQ2VQcjw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/dWAZQ2VQcjw",
-      "url": "https://www.youtube.com/watch?v=dWAZQ2VQcjw",
-      "creator": { "@type": "Person", "name": "Coach Brian" },
-      "duration": "PT229S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Truck Entries and Submissions",
       "description": "Leg Extraction from Truck (Defender) film study: Truck Entries and Submissions, taught by Energia Martial Arts.",
       "thumbnailUrl": "https://i.ytimg.com/vi/IY0CbahJG2A/hqdefault.jpg",
@@ -170,17 +159,6 @@ description: "Counter the leg extraction from truck as the top player. Maintain 
       "url": "https://www.youtube.com/watch?v=IY0CbahJG2A",
       "creator": { "@type": "Person", "name": "Energia Martial Arts" },
       "duration": "PT667S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Twister Side Control - How To",
-      "description": "Leg Extraction from Truck (Defender) film study: Twister Side Control - How To, taught by Brandon McCaghren.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/McaB7pfeCGo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/McaB7pfeCGo",
-      "url": "https://www.youtube.com/watch?v=McaB7pfeCGo",
-      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
-      "duration": "PT516S"
     }
   ]
 }
@@ -210,25 +188,9 @@ Your defensive strategy combines reactive hook tightening with proactive submiss
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=dWAZQ2VQcjw)
-
-<p class="clip-credit"><strong>Reversing and escaping the Truck</strong> — taught by Coach Brian · 3:49 · <a href="https://www.youtube.com/watch?v=dWAZQ2VQcjw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=IY0CbahJG2A)
 
 <p class="clip-credit"><strong>Truck Entries and Submissions</strong> — taught by Energia Martial Arts · 11:07 · <a href="https://www.youtube.com/watch?v=IY0CbahJG2A" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=McaB7pfeCGo)
-
-<p class="clip-credit"><strong>Twister Side Control - How To</strong> — taught by Brandon McCaghren · 8:36 · <a href="https://www.youtube.com/watch?v=McaB7pfeCGo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

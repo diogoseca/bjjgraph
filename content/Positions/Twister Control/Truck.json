@@ -772,15 +772,6 @@
     ],
     "clips": [
       {
-        "id": "LA-AdwNMGvc",
-        "title": "Truck back take vs babybridge defense",
-        "by": "Wim Deputter",
-        "vertical": false,
-        "channel": "Wim Deputter BJJ",
-        "duration": 162,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "WEpVDP7MRpo",
         "title": "Defending the rolling back take (truck roll)",
         "by": "Brian Glick",
@@ -788,6 +779,15 @@
         "channel": "Brian Glick",
         "duration": 209,
         "verified": "2026-07-14"
+      },
+      {
+        "id": "hxMggfwKx-I",
+        "title": "Advanced Back and Truck Escapes",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-16"
       }
     ]
   },

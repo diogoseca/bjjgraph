@@ -171,17 +171,6 @@ description: "How to defend against Ushiro Ashi-Garami Escape in BJJ. Recognitio
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Defending and countering the inside heel hook",
-      "description": "Ushiro Ashi-Garami Escape (Defender) film study: Defending and countering the inside heel hook, taught by Jahred Dell.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/DF2AYLPbeHc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/DF2AYLPbeHc",
-      "url": "https://www.youtube.com/watch?v=DF2AYLPbeHc",
-      "creator": { "@type": "Person", "name": "Jahred Dell" },
-      "duration": "PT70S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
       "name": "Craig Jones on hiding the heel",
       "description": "Ushiro Ashi-Garami Escape (Defender) film study: Craig Jones on hiding the heel, taught by Craig Jones.",
       "thumbnailUrl": "https://i.ytimg.com/vi/kzgvfbZtH-8/hqdefault.jpg",
@@ -223,14 +212,6 @@ Defensive success against the escape requires understanding the sequential natur
 ![](https://www.youtube.com/watch?v=nVfqMfVpTVk)
 
 <p class="clip-credit"><strong>Simple fix to keep your cross ashi control</strong> — taught by Factory Fresh Jiu Jitsu · 0:55 · <a href="https://www.youtube.com/watch?v=nVfqMfVpTVk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=DF2AYLPbeHc)
-
-<p class="clip-credit"><strong>Defending and countering the inside heel hook</strong> — taught by Jahred Dell · 1:10 · <a href="https://www.youtube.com/watch?v=DF2AYLPbeHc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

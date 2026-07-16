@@ -203,17 +203,6 @@ description: "Execute arm recovery from crucifix in BJJ. Step-by-step guide cove
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Clock Choke Defense from Turtle",
-      "description": "Arm Recovery from Crucifix (Attacker) film study: Clock Choke Defense from Turtle, taught by Priit Mihkelson.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/DPgPvAYw5_A/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/DPgPvAYw5_A",
-      "url": "https://www.youtube.com/watch?v=DPgPvAYw5_A",
-      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
-      "duration": "PT301S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
       "name": "Escaping the Trapped Arm",
       "description": "Arm Recovery from Crucifix (Attacker) film study: Escaping the Trapped Arm, taught by The Fight Centre.",
       "thumbnailUrl": "https://i.ytimg.com/vi/8rUCBtcNjtA/hqdefault.jpg",
@@ -251,14 +240,6 @@ As the bottom player trapped in crucifix, your objective is to systematically fr
 ![](https://www.youtube.com/watch?v=siDGUI_LSlM)
 
 <p class="clip-credit"><strong>Crucifix Recovery — freeing the trapped arm</strong> — taught by Lin H · 2:20 · <a href="https://www.youtube.com/watch?v=siDGUI_LSlM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=DPgPvAYw5_A)
-
-<p class="clip-credit"><strong>Clock Choke Defense from Turtle</strong> — taught by Priit Mihkelson · 5:01 · <a href="https://www.youtube.com/watch?v=DPgPvAYw5_A" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

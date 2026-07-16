@@ -186,17 +186,6 @@ description: "Complete guide to executing posture recovery from Carni in BJJ. St
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Escaping ashi garami: leg lock defense",
-      "description": "Posture Recovery from Carni (Attacker) film study: Escaping ashi garami: leg lock defense, taught by Scott Elliott.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/AQbJMBiWYfU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/AQbJMBiWYfU",
-      "url": "https://www.youtube.com/watch?v=AQbJMBiWYfU",
-      "creator": { "@type": "Person", "name": "Scott Elliott" },
-      "duration": "PT141S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Leg lock escape by roll through",
       "description": "Posture Recovery from Carni (Attacker) film study: Leg lock escape by roll through, taught by Gordon Ryan.",
       "thumbnailUrl": "https://i.ytimg.com/vi/MqtG9kuVt-Q/hqdefault.jpg",
@@ -207,7 +196,7 @@ description: "Complete guide to executing posture recovery from Carni in BJJ. St
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 2,
       "name": "50/50 defense: protecting your leg",
       "description": "Posture Recovery from Carni (Attacker) film study: 50/50 defense: protecting your leg, taught by Lachlan Giles.",
       "thumbnailUrl": "https://i.ytimg.com/vi/R7lPdQWLOus/hqdefault.jpg",
@@ -239,14 +228,6 @@ As the top player caught in Carni, executing posture recovery requires a discipl
 
 <p class="section-subtitle">Watch Posture Recovery from Carni (Attacker) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=AQbJMBiWYfU)
-
-<p class="clip-credit"><strong>Escaping ashi garami: leg lock defense</strong> — taught by Scott Elliott · 2:21 · <a href="https://www.youtube.com/watch?v=AQbJMBiWYfU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

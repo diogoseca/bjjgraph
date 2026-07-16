@@ -422,15 +422,6 @@
     ],
     "clips": [
       {
-        "id": "lOMiYZzvH-s",
-        "title": "Escaping yoko shiho gatame pins",
-        "by": "Travis Stevens",
-        "vertical": false,
-        "channel": "Travis Stevens",
-        "duration": 161,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "5atT-Q9-CVw",
         "title": "Quick kesa gatame escape",
         "by": "Taylorjiujitsu",
@@ -438,6 +429,24 @@
         "channel": "Taylorjiujitsu",
         "duration": 14,
         "verified": "2026-07-15"
+      },
+      {
+        "id": "xROpHA3sNlY",
+        "title": "Reverse kesa gatame escape",
+        "by": "Inverted Gear",
+        "vertical": false,
+        "channel": "Inverted Gear",
+        "duration": 109,
+        "verified": "2026-07-16"
+      },
+      {
+        "id": "ORpUBUxK1QE",
+        "title": "Reverse kesa escape to back take and choke",
+        "by": "Gymnanigains",
+        "vertical": false,
+        "channel": "Gymnanigains",
+        "duration": 26,
+        "verified": "2026-07-16"
       }
     ]
   }

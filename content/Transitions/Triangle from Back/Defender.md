@@ -178,17 +178,6 @@ description: "How to defend against Triangle from Back in BJJ. Recognition cues,
       "url": "https://www.youtube.com/watch?v=jOL9pqG7lwo",
       "creator": { "@type": "Person", "name": "Eli Knight" },
       "duration": "PT244S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Escaping the body triangle from the back",
-      "description": "Triangle from Back (Defender) film study: Escaping the body triangle from the back, taught by Jiu-Jitsu Times coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ALOnfwB5yGQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ALOnfwB5yGQ",
-      "url": "https://www.youtube.com/watch?v=ALOnfwB5yGQ",
-      "creator": { "@type": "Person", "name": "Jiu-Jitsu Times coach" },
-      "duration": "PT216S"
     }
   ]
 }
@@ -231,14 +220,6 @@ Successful defense against this technique demands a balance between defending th
 ![](https://www.youtube.com/watch?v=jOL9pqG7lwo)
 
 <p class="clip-credit"><strong>Back mount triangle escape</strong> — taught by Eli Knight · 4:04 · <a href="https://www.youtube.com/watch?v=jOL9pqG7lwo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ALOnfwB5yGQ)
-
-<p class="clip-credit"><strong>Escaping the body triangle from the back</strong> — taught by Jiu-Jitsu Times coach · 3:36 · <a href="https://www.youtube.com/watch?v=ALOnfwB5yGQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

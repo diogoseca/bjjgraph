@@ -64,17 +64,6 @@ description: "Learn the Arm Triangle Transition from bottom Hindulotine in BJJ. 
       "url": "https://www.youtube.com/watch?v=9k39jlEzqB4",
       "creator": { "@type": "Person", "name": "Rich Castro" },
       "duration": "PT29S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Anaconda from Arm-In Guillotine",
-      "description": "Arm Triangle Transition film study: Anaconda from Arm-In Guillotine, taught by Hayabusa.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/4Y0uLdQaDs8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/4Y0uLdQaDs8",
-      "url": "https://www.youtube.com/watch?v=4Y0uLdQaDs8",
-      "creator": { "@type": "Person", "name": "Hayabusa" },
-      "duration": "PT545S"
     }
   ]
 }
@@ -139,14 +128,6 @@ The technique demands precise timing during the grip transition. Releasing the g
 ![](https://www.youtube.com/watch?v=9k39jlEzqB4)
 
 <p class="clip-credit"><strong>Arm Triangle Transition to Darce</strong> — taught by Rich Castro · 0:29 · <a href="https://www.youtube.com/watch?v=9k39jlEzqB4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=4Y0uLdQaDs8)
-
-<p class="clip-credit"><strong>Anaconda from Arm-In Guillotine</strong> — taught by Hayabusa · 9:05 · <a href="https://www.youtube.com/watch?v=4Y0uLdQaDs8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

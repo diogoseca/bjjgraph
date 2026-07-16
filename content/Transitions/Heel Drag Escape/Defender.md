@@ -152,24 +152,13 @@ description: "Learn to prevent and counter the Heel Drag Escape from mount. Foot
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Defending Heel Hooks",
-      "description": "Heel Drag Escape (Defender) film study: Defending Heel Hooks, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/v3w0qXLKxug/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/v3w0qXLKxug",
-      "url": "https://www.youtube.com/watch?v=v3w0qXLKxug",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT92S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Leg Lock Escape: Roll Through",
-      "description": "Heel Drag Escape (Defender) film study: Leg Lock Escape: Roll Through, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/MqtG9kuVt-Q/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/MqtG9kuVt-Q",
-      "url": "https://www.youtube.com/watch?v=MqtG9kuVt-Q",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT103S"
+      "name": "No-gi mount escape: heel drag elbow knee",
+      "description": "Heel Drag Escape (Defender) film study: No-gi mount escape: heel drag elbow knee, taught by Liam H Wandi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KirbkTs_Bk4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KirbkTs_Bk4",
+      "url": "https://www.youtube.com/watch?v=KirbkTs_Bk4",
+      "creator": { "@type": "Person", "name": "Liam H Wandi" },
+      "duration": "PT30S"
     }
   ]
 }
@@ -197,17 +186,9 @@ Defending against the Heel Drag Escape requires the top mount player to understa
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=v3w0qXLKxug)
+![](https://www.youtube.com/watch?v=KirbkTs_Bk4)
 
-<p class="clip-credit"><strong>Defending Heel Hooks</strong> — taught by Lachlan Giles · 1:32 · <a href="https://www.youtube.com/watch?v=v3w0qXLKxug" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=MqtG9kuVt-Q)
-
-<p class="clip-credit"><strong>Leg Lock Escape: Roll Through</strong> — taught by Gordon Ryan · 1:43 · <a href="https://www.youtube.com/watch?v=MqtG9kuVt-Q" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>No-gi mount escape: heel drag elbow knee</strong> — taught by Liam H Wandi · 0:30 · <a href="https://www.youtube.com/watch?v=KirbkTs_Bk4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

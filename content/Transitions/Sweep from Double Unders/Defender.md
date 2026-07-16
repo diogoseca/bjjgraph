@@ -160,24 +160,24 @@ description: "Complete guide to defending the Sweep from Double Unders as the to
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Shoulder lock defending the double under stack pass",
-      "description": "Sweep from Double Unders (Defender) film study: Shoulder lock defending the double under stack pass, taught by Tony Casarez.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dH6Cj-nv3vU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/dH6Cj-nv3vU",
-      "url": "https://www.youtube.com/watch?v=dH6Cj-nv3vU",
-      "creator": { "@type": "Person", "name": "Tony Casarez" },
-      "duration": "PT62S"
+      "name": "Three ways to counter the double under pass",
+      "description": "Sweep from Double Unders (Defender) film study: Three ways to counter the double under pass, taught by Dom.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vXSyHH514Gs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vXSyHH514Gs",
+      "url": "https://www.youtube.com/watch?v=vXSyHH514Gs",
+      "creator": { "@type": "Person", "name": "Dom" },
+      "duration": "PT115S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Defending the over under pass with guard retention",
-      "description": "Sweep from Double Unders (Defender) film study: Defending the over under pass with guard retention, taught by Mikey Musumeci.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/vpxKcZFFM8g/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/vpxKcZFFM8g",
-      "url": "https://www.youtube.com/watch?v=vpxKcZFFM8g",
-      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
-      "duration": "PT190S"
+      "name": "Double unders pass defense with elbow push",
+      "description": "Sweep from Double Unders (Defender) film study: Double unders pass defense with elbow push, taught by Satori BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HoFMu4LXLt4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HoFMu4LXLt4",
+      "url": "https://www.youtube.com/watch?v=HoFMu4LXLt4",
+      "creator": { "@type": "Person", "name": "Satori BJJ coach" },
+      "duration": "PT53S"
     }
   ]
 }
@@ -205,17 +205,17 @@ As the defender against the Sweep from Double Unders, you are the top player who
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=dH6Cj-nv3vU)
+![](https://www.youtube.com/watch?v=vXSyHH514Gs)
 
-<p class="clip-credit"><strong>Shoulder lock defending the double under stack pass</strong> — taught by Tony Casarez · 1:02 · <a href="https://www.youtube.com/watch?v=dH6Cj-nv3vU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Three ways to counter the double under pass</strong> — taught by Dom · 1:55 · <a href="https://www.youtube.com/watch?v=vXSyHH514Gs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=vpxKcZFFM8g)
+![](https://www.youtube.com/watch?v=HoFMu4LXLt4)
 
-<p class="clip-credit"><strong>Defending the over under pass with guard retention</strong> — taught by Mikey Musumeci · 3:10 · <a href="https://www.youtube.com/watch?v=vpxKcZFFM8g" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Double unders pass defense with elbow push</strong> — taught by Satori BJJ coach · 0:53 · <a href="https://www.youtube.com/watch?v=HoFMu4LXLt4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -301,24 +301,6 @@
     "safety_considerations": "The Butterfly Guard Pull is generally a low-risk technique since it involves transitioning to a seated ground position rather than applying joint locks or chokes. However, practitioners should be aware of knee stress from improper hook insertion angles, particularly when hooks catch awkwardly on the opponent's legs during the descent. Ensure adequate mat space behind you before pulling to avoid sitting into walls, other practitioners, or the mat edge. Communicate with training partners when drilling guard pulls to prevent unexpected collapses that can injure both people. Avoid pulling guard when the standing partner is not expecting it, as the sudden downward force through grips can strain shoulders and neck.",
     "clips": [
       {
-        "id": "Kp3ABmsn1I0",
-        "title": "Marcelo Garcia arm drag takedown entry",
-        "by": "Marcelo Garcia",
-        "vertical": false,
-        "channel": "Baltimore Martial Arts",
-        "duration": 55,
-        "verified": "2026-07-15"
-      },
-      {
-        "id": "c8JBXJMc0Oc",
-        "title": "Marcelo Garcia butterfly guard sweep demo",
-        "by": "Marcelo Garcia",
-        "vertical": false,
-        "channel": "Butterfly The World",
-        "duration": 81,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "L8JpDuYczgk",
         "title": "Belt grab guard pull",
         "by": "Mick Hall",
@@ -326,6 +308,15 @@
         "channel": "Mick Hall",
         "duration": 98,
         "verified": "2026-07-15"
+      },
+      {
+        "id": "c8JBXJMc0Oc",
+        "title": "Marcelo Garcia butterfly guard sweep",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "Butterfly The World",
+        "duration": 81,
+        "verified": "2026-07-16"
       }
     ]
   },
@@ -461,13 +452,13 @@
         "verified": "2026-07-15"
       },
       {
-        "id": "RKRfwAAw1Gs",
-        "title": "Sprawl defense against a level change",
-        "by": "WrestlingTournaments.com",
+        "id": "LNyXkfENU5c",
+        "title": "Countering the seated guard from standing",
+        "by": "Samy Aljamal",
         "vertical": false,
-        "channel": "WrestlingTournaments․com",
-        "duration": 75,
-        "verified": "2026-07-15"
+        "channel": "FIT Jiu Jitsu Jordan/ Samy Aljamal",
+        "duration": 79,
+        "verified": "2026-07-16"
       }
     ]
   }

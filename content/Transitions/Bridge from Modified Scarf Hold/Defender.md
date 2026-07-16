@@ -157,24 +157,13 @@ description: "Defend against bridge escapes from Modified Scarf Hold top. Learn 
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Escaping kuzure kesa gatame (modified scarf hold)",
-      "description": "Bridge from Modified Scarf Hold (Defender) film study: Escaping kuzure kesa gatame (modified scarf hold), taught by TRITAC Martial Arts.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Dn9FQ5hq200/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Dn9FQ5hq200",
-      "url": "https://www.youtube.com/watch?v=Dn9FQ5hq200",
-      "creator": { "@type": "Person", "name": "TRITAC Martial Arts" },
-      "duration": "PT185S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Scarf hold escape principles and concepts",
-      "description": "Bridge from Modified Scarf Hold (Defender) film study: Scarf hold escape principles and concepts, taught by Invisible Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/6VvRYgSeGB4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/6VvRYgSeGB4",
-      "url": "https://www.youtube.com/watch?v=6VvRYgSeGB4",
-      "creator": { "@type": "Person", "name": "Invisible Jiu Jitsu" },
-      "duration": "PT629S"
+      "name": "Mune gatame chest hold pin control",
+      "description": "Bridge from Modified Scarf Hold (Defender) film study: Mune gatame chest hold pin control, taught by Grappler Station.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RLpcMvQ8GTI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RLpcMvQ8GTI",
+      "url": "https://www.youtube.com/watch?v=RLpcMvQ8GTI",
+      "creator": { "@type": "Person", "name": "Grappler Station" },
+      "duration": "PT66S"
     }
   ]
 }
@@ -210,17 +199,9 @@ As the defender against the Bridge from Modified Scarf Hold, you are the top pla
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Dn9FQ5hq200)
+![](https://www.youtube.com/watch?v=RLpcMvQ8GTI)
 
-<p class="clip-credit"><strong>Escaping kuzure kesa gatame (modified scarf hold)</strong> — taught by TRITAC Martial Arts · 3:05 · <a href="https://www.youtube.com/watch?v=Dn9FQ5hq200" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=6VvRYgSeGB4)
-
-<p class="clip-credit"><strong>Scarf hold escape principles and concepts</strong> — taught by Invisible Jiu Jitsu · 10:29 · <a href="https://www.youtube.com/watch?v=6VvRYgSeGB4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Mune gatame chest hold pin control</strong> — taught by Grappler Station · 1:06 · <a href="https://www.youtube.com/watch?v=RLpcMvQ8GTI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

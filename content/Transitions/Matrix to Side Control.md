@@ -46,17 +46,6 @@ description: "Master the Matrix to Side Control pass in BJJ. Learn to convert a 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Single Leg X pass and back take",
-      "description": "Matrix to Side Control film study: Single Leg X pass and back take, taught by Kameron Ross.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/gwAf2mcPZ0g/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/gwAf2mcPZ0g",
-      "url": "https://www.youtube.com/watch?v=gwAf2mcPZ0g",
-      "creator": { "@type": "Person", "name": "Kameron Ross" },
-      "duration": "PT42S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Standing Pass to North-South Matrix",
       "description": "Matrix to Side Control film study: Standing Pass to North-South Matrix, taught by Greg Hamilton.",
       "thumbnailUrl": "https://i.ytimg.com/vi/kXdw4YnLJnE/hqdefault.jpg",
@@ -67,7 +56,7 @@ description: "Master the Matrix to Side Control pass in BJJ. Learn to convert a 
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 2,
       "name": "Craig Jones Matrix to Top Position Compilation",
       "description": "Matrix to Side Control film study: Craig Jones Matrix to Top Position Compilation, taught by Craig Jones.",
       "thumbnailUrl": "https://i.ytimg.com/vi/uo8-ZJyba08/hqdefault.jpg",
@@ -125,14 +114,6 @@ Strategically, this transition rewards patient, methodical Matrix defense. Rathe
 
 <p class="section-subtitle">Watch Matrix to Side Control in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=gwAf2mcPZ0g)
-
-<p class="clip-credit"><strong>Single Leg X pass and back take</strong> — taught by Kameron Ross · 0:42 · <a href="https://www.youtube.com/watch?v=gwAf2mcPZ0g" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

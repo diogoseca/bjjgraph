@@ -188,17 +188,6 @@ description: "Master the offensive Standing RNC from Rear Clinch. Learn seatbelt
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Rear clinch takedown to the back",
-      "description": "Rear Naked Choke from Standing Rear Clinch (Attacker) film study: Rear clinch takedown to the back, taught by Bushido BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/PxeYMAji5Vg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/PxeYMAji5Vg",
-      "url": "https://www.youtube.com/watch?v=PxeYMAji5Vg",
-      "creator": { "@type": "Person", "name": "Bushido BJJ" },
-      "duration": "PT81S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Takedown to rear naked choke setup",
       "description": "Rear Naked Choke from Standing Rear Clinch (Attacker) film study: Takedown to rear naked choke setup, taught by Fit To Fight Republic.",
       "thumbnailUrl": "https://i.ytimg.com/vi/FvT_Ffy68OI/hqdefault.jpg",
@@ -231,14 +220,6 @@ Executing the Standing RNC from Rear Clinch requires seamless transition from se
 
 <p class="section-subtitle">Watch Rear Naked Choke from Standing Rear Clinch (Attacker) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=PxeYMAji5Vg)
-
-<p class="clip-credit"><strong>Rear clinch takedown to the back</strong> — taught by Bushido BJJ · 1:21 · <a href="https://www.youtube.com/watch?v=PxeYMAji5Vg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

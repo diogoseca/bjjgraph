@@ -210,17 +210,6 @@ description: "Complete guide to executing leg pummeling escapes from saddle posi
       "url": "https://www.youtube.com/watch?v=zl-OLGxkKo0",
       "creator": { "@type": "Person", "name": "Jamie" },
       "duration": "PT57S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Saddle entries from guard",
-      "description": "Leg Pummeling from Saddle (Attacker) film study: Saddle entries from guard, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/K5XhO7o5QN0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/K5XhO7o5QN0",
-      "url": "https://www.youtube.com/watch?v=K5XhO7o5QN0",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT66S"
     }
   ]
 }
@@ -259,14 +248,6 @@ As the attacker executing leg pummeling from saddle, you are the practitioner wh
 ![](https://www.youtube.com/watch?v=zl-OLGxkKo0)
 
 <p class="clip-credit"><strong>Pummeling from 50/50 to outside sankaku</strong> — taught by Jamie · 0:57 · <a href="https://www.youtube.com/watch?v=zl-OLGxkKo0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=K5XhO7o5QN0)
-
-<p class="clip-credit"><strong>Saddle entries from guard</strong> — taught by Lachlan Giles · 1:06 · <a href="https://www.youtube.com/watch?v=K5XhO7o5QN0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

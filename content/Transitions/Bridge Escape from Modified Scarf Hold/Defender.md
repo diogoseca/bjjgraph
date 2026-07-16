@@ -157,24 +157,13 @@ description: "Learn to maintain Modified Scarf Hold against bridge escape attemp
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "How to Escape Kesa Gatame",
-      "description": "Bridge Escape from Modified Scarf Hold (Defender) film study: How to Escape Kesa Gatame, taught by Travis Stevens.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sEmKk3m8nwE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/sEmKk3m8nwE",
-      "url": "https://www.youtube.com/watch?v=sEmKk3m8nwE",
-      "creator": { "@type": "Person", "name": "Travis Stevens" },
-      "duration": "PT368S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Scarf Hold Escape Series",
-      "description": "Bridge Escape from Modified Scarf Hold (Defender) film study: Scarf Hold Escape Series, taught by Aaron Benzrihem.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/SuqOOX8hO4c/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/SuqOOX8hO4c",
-      "url": "https://www.youtube.com/watch?v=SuqOOX8hO4c",
-      "creator": { "@type": "Person", "name": "Aaron Benzrihem" },
-      "duration": "PT507S"
+      "name": "Kesa gatame bridge drill for pin retention",
+      "description": "Bridge Escape from Modified Scarf Hold (Defender) film study: Kesa gatame bridge drill for pin retention, taught by Judo Geoff.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0y7Z2Vk7e0o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0y7Z2Vk7e0o",
+      "url": "https://www.youtube.com/watch?v=0y7Z2Vk7e0o",
+      "creator": { "@type": "Person", "name": "Judo Geoff" },
+      "duration": "PT49S"
     }
   ]
 }
@@ -210,17 +199,9 @@ Defending against the bridge escape from Modified Scarf Hold requires the top pl
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=sEmKk3m8nwE)
+![](https://www.youtube.com/watch?v=0y7Z2Vk7e0o)
 
-<p class="clip-credit"><strong>How to Escape Kesa Gatame</strong> — taught by Travis Stevens · 6:08 · <a href="https://www.youtube.com/watch?v=sEmKk3m8nwE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=SuqOOX8hO4c)
-
-<p class="clip-credit"><strong>Scarf Hold Escape Series</strong> — taught by Aaron Benzrihem · 8:27 · <a href="https://www.youtube.com/watch?v=SuqOOX8hO4c" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kesa gatame bridge drill for pin retention</strong> — taught by Judo Geoff · 0:49 · <a href="https://www.youtube.com/watch?v=0y7Z2Vk7e0o" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

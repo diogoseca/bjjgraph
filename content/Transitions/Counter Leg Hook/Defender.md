@@ -157,13 +157,13 @@ description: "Learn to defend against the Counter Leg Hook from top position. Ma
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Defending leg hooks from bottom",
-      "description": "Counter Leg Hook (Defender) film study: Defending leg hooks from bottom, taught by Rory van Vliet.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/auMVOjGIpNU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/auMVOjGIpNU",
-      "url": "https://www.youtube.com/watch?v=auMVOjGIpNU",
-      "creator": { "@type": "Person", "name": "Rory van Vliet" },
-      "duration": "PT331S"
+      "name": "Escaping the trapped leg from half guard",
+      "description": "Counter Leg Hook (Defender) film study: Escaping the trapped leg from half guard, taught by The Academy of Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lbGAiIpel5A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lbGAiIpel5A",
+      "url": "https://www.youtube.com/watch?v=lbGAiIpel5A",
+      "creator": { "@type": "Person", "name": "The Academy of Jiu-Jitsu" },
+      "duration": "PT81S"
     }
   ]
 }
@@ -199,9 +199,9 @@ As the defender against the Counter Leg Hook, you are the top player working to 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=auMVOjGIpNU)
+![](https://www.youtube.com/watch?v=lbGAiIpel5A)
 
-<p class="clip-credit"><strong>Defending leg hooks from bottom</strong> — taught by Rory van Vliet · 5:31 · <a href="https://www.youtube.com/watch?v=auMVOjGIpNU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escaping the trapped leg from half guard</strong> — taught by The Academy of Jiu-Jitsu · 1:21 · <a href="https://www.youtube.com/watch?v=lbGAiIpel5A" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

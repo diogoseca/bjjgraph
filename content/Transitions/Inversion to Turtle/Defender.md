@@ -160,17 +160,6 @@ description: "How to defend against Inversion to Turtle in BJJ. Recognition cues
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Escaping Ashi Garami - Leg Lock Defense",
-      "description": "Inversion to Turtle (Defender) film study: Escaping Ashi Garami - Leg Lock Defense, taught by Scott Elliott.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/AQbJMBiWYfU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/AQbJMBiWYfU",
-      "url": "https://www.youtube.com/watch?v=AQbJMBiWYfU",
-      "creator": { "@type": "Person", "name": "Scott Elliott" },
-      "duration": "PT141S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Leg Lock Escape - Roll Through",
       "description": "Inversion to Turtle (Defender) film study: Leg Lock Escape - Roll Through, taught by Gordon Ryan.",
       "thumbnailUrl": "https://i.ytimg.com/vi/MqtG9kuVt-Q/hqdefault.jpg",
@@ -206,14 +195,6 @@ Successful defense requires reading the telegraphed signs of the escape—change
 
 <p class="section-subtitle">Watch Inversion to Turtle (Defender) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=AQbJMBiWYfU)
-
-<p class="clip-credit"><strong>Escaping Ashi Garami - Leg Lock Defense</strong> — taught by Scott Elliott · 2:21 · <a href="https://www.youtube.com/watch?v=AQbJMBiWYfU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

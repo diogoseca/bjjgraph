@@ -138,17 +138,6 @@ description: "Learn to prevent and counter the Turn In escape from Reverse Kesa-
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Escaping yoko shiho gatame pins",
-      "description": "Turn In from Reverse Kesa (Defender) film study: Escaping yoko shiho gatame pins, taught by Travis Stevens.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lOMiYZzvH-s/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/lOMiYZzvH-s",
-      "url": "https://www.youtube.com/watch?v=lOMiYZzvH-s",
-      "creator": { "@type": "Person", "name": "Travis Stevens" },
-      "duration": "PT161S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Quick kesa gatame escape",
       "description": "Turn In from Reverse Kesa (Defender) film study: Quick kesa gatame escape, taught by Taylorjiujitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/5atT-Q9-CVw/hqdefault.jpg",
@@ -156,6 +145,28 @@ description: "Learn to prevent and counter the Turn In escape from Reverse Kesa-
       "url": "https://www.youtube.com/watch?v=5atT-Q9-CVw",
       "creator": { "@type": "Person", "name": "Taylorjiujitsu" },
       "duration": "PT14S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse kesa gatame escape",
+      "description": "Turn In from Reverse Kesa (Defender) film study: Reverse kesa gatame escape, taught by Inverted Gear.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xROpHA3sNlY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xROpHA3sNlY",
+      "url": "https://www.youtube.com/watch?v=xROpHA3sNlY",
+      "creator": { "@type": "Person", "name": "Inverted Gear" },
+      "duration": "PT109S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Reverse kesa escape to back take and choke",
+      "description": "Turn In from Reverse Kesa (Defender) film study: Reverse kesa escape to back take and choke, taught by Gymnanigains.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ORpUBUxK1QE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ORpUBUxK1QE",
+      "url": "https://www.youtube.com/watch?v=ORpUBUxK1QE",
+      "creator": { "@type": "Person", "name": "Gymnanigains" },
+      "duration": "PT26S"
     }
   ]
 }
@@ -183,17 +194,25 @@ As the defender (top player maintaining Reverse Kesa-Gatame), your goal is to pr
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=lOMiYZzvH-s)
+![](https://www.youtube.com/watch?v=5atT-Q9-CVw)
 
-<p class="clip-credit"><strong>Escaping yoko shiho gatame pins</strong> — taught by Travis Stevens · 2:41 · <a href="https://www.youtube.com/watch?v=lOMiYZzvH-s" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Quick kesa gatame escape</strong> — taught by Taylorjiujitsu · 0:14 · <a href="https://www.youtube.com/watch?v=5atT-Q9-CVw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=5atT-Q9-CVw)
+![](https://www.youtube.com/watch?v=xROpHA3sNlY)
 
-<p class="clip-credit"><strong>Quick kesa gatame escape</strong> — taught by Taylorjiujitsu · 0:14 · <a href="https://www.youtube.com/watch?v=5atT-Q9-CVw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Reverse kesa gatame escape</strong> — taught by Inverted Gear · 1:49 · <a href="https://www.youtube.com/watch?v=xROpHA3sNlY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ORpUBUxK1QE)
+
+<p class="clip-credit"><strong>Reverse kesa escape to back take and choke</strong> — taught by Gymnanigains · 0:26 · <a href="https://www.youtube.com/watch?v=ORpUBUxK1QE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

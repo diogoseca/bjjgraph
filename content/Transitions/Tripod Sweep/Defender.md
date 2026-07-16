@@ -167,17 +167,6 @@ description: "How to defend against Tripod Sweep in BJJ. Recognition cues, defen
       "url": "https://www.youtube.com/watch?v=kNfVYhZbgrg",
       "creator": { "@type": "Person", "name": "Wim Deputter" },
       "duration": "PT87S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Shutting down the hook sweep",
-      "description": "Tripod Sweep (Defender) film study: Shutting down the hook sweep, taught by Gracie Ohio.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/xW2S0__ukcQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/xW2S0__ukcQ",
-      "url": "https://www.youtube.com/watch?v=xW2S0__ukcQ",
-      "creator": { "@type": "Person", "name": "Gracie Ohio" },
-      "duration": "PT138S"
     }
   ]
 }
@@ -208,14 +197,6 @@ Defending the Tripod Sweep requires the standing player to maintain constant awa
 ![](https://www.youtube.com/watch?v=kNfVYhZbgrg)
 
 <p class="clip-credit"><strong>Four levels of sweep defense</strong> — taught by Wim Deputter · 1:27 · <a href="https://www.youtube.com/watch?v=kNfVYhZbgrg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=xW2S0__ukcQ)
-
-<p class="clip-credit"><strong>Shutting down the hook sweep</strong> — taught by Gracie Ohio · 2:18 · <a href="https://www.youtube.com/watch?v=xW2S0__ukcQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -199,13 +199,13 @@ description: "Attack the Bow and Arrow Choke from Truck. Collar grip setup from 
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Rear Naked Choke Series (MTS 194)",
-      "description": "Bow and Arrow Choke from Truck (Attacker) film study: Rear Naked Choke Series (MTS 194), taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/vsrzIeye0uw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/vsrzIeye0uw",
-      "url": "https://www.youtube.com/watch?v=vsrzIeye0uw",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT57S"
+      "name": "Kimura grip to bow and arrow finish",
+      "description": "Bow and Arrow Choke from Truck (Attacker) film study: Kimura grip to bow and arrow finish, taught by Brandon Quick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PsmALCcIBic/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PsmALCcIBic",
+      "url": "https://www.youtube.com/watch?v=PsmALCcIBic",
+      "creator": { "@type": "Person", "name": "Brandon Quick" },
+      "duration": "PT131S"
     }
   ]
 }
@@ -242,9 +242,9 @@ Attacking with the Bow and Arrow Choke from the Truck requires understanding tha
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=vsrzIeye0uw)
+![](https://www.youtube.com/watch?v=PsmALCcIBic)
 
-<p class="clip-credit"><strong>Rear Naked Choke Series (MTS 194)</strong> — taught by Eddie Bravo · 0:57 · <a href="https://www.youtube.com/watch?v=vsrzIeye0uw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kimura grip to bow and arrow finish</strong> — taught by Brandon Quick · 2:11 · <a href="https://www.youtube.com/watch?v=PsmALCcIBic" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

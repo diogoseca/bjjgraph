@@ -179,13 +179,13 @@ description: "Defend against the Escape from Rodeo Ride in BJJ. Learn to recogni
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Turtle Bottom: Connecting Head and Shoulder",
-      "description": "Escape from Rodeo Ride (Defender) film study: Turtle Bottom: Connecting Head and Shoulder, taught by Black Dragon BJJ coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/F7LWaSTKDPI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/F7LWaSTKDPI",
-      "url": "https://www.youtube.com/watch?v=F7LWaSTKDPI",
-      "creator": { "@type": "Person", "name": "Black Dragon BJJ coach" },
-      "duration": "PT305S"
+      "name": "Recovering hooks when back control slips",
+      "description": "Escape from Rodeo Ride (Defender) film study: Recovering hooks when back control slips, taught by Carnage BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZVYoNcBr-00/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZVYoNcBr-00",
+      "url": "https://www.youtube.com/watch?v=ZVYoNcBr-00",
+      "creator": { "@type": "Person", "name": "Carnage BJJ" },
+      "duration": "PT133S"
     }
   ]
 }
@@ -221,9 +221,9 @@ As the rider in Rodeo Ride, your objective when the bottom practitioner attempts
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=F7LWaSTKDPI)
+![](https://www.youtube.com/watch?v=ZVYoNcBr-00)
 
-<p class="clip-credit"><strong>Turtle Bottom: Connecting Head and Shoulder</strong> — taught by Black Dragon BJJ coach · 5:05 · <a href="https://www.youtube.com/watch?v=F7LWaSTKDPI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Recovering hooks when back control slips</strong> — taught by Carnage BJJ · 2:13 · <a href="https://www.youtube.com/watch?v=ZVYoNcBr-00" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

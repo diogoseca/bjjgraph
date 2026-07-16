@@ -429,15 +429,6 @@
     ],
     "clips": [
       {
-        "id": "7jm4N-AODEc",
-        "title": "Guard retention against the wall",
-        "by": "Barrick BJJ",
-        "vertical": false,
-        "channel": "Barrick BJJ Techniques",
-        "duration": 57,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "0xhfjKDfwBY",
         "title": "Arm drag back take vs guard recovery",
         "by": "Alliance Jiu Jitsu SJC",
@@ -445,6 +436,24 @@
         "channel": "Alliance Jiu Jitsu SJC - Irmãos Lisboa",
         "duration": 104,
         "verified": "2026-07-15"
+      },
+      {
+        "id": "lVLAROiSjNU",
+        "title": "Guard retention: when to sit up and escape",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 136,
+        "verified": "2026-07-16"
+      },
+      {
+        "id": "RRgLRw-fRM0",
+        "title": "Weave pass: don't free the trapped leg too early",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 65,
+        "verified": "2026-07-16"
       }
     ]
   },

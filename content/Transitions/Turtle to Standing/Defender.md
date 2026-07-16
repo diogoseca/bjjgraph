@@ -152,17 +152,6 @@ description: "How to prevent the Turtle to Standing escape in BJJ. Recognition c
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Stop getting your back taken from turtle",
-      "description": "Turtle to Standing (Defender) film study: Stop getting your back taken from turtle, taught by Grappling Education.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/nP6nIypaq0A/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/nP6nIypaq0A",
-      "url": "https://www.youtube.com/watch?v=nP6nIypaq0A",
-      "creator": { "@type": "Person", "name": "Grappling Education" },
-      "duration": "PT130S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Front headlock to stop the turtle standup",
       "description": "Turtle to Standing (Defender) film study: Front headlock to stop the turtle standup, taught by Gordon Ryan.",
       "thumbnailUrl": "https://i.ytimg.com/vi/JX0HL0WpYPs/hqdefault.jpg",
@@ -170,6 +159,17 @@ description: "How to prevent the Turtle to Standing escape in BJJ. Recognition c
       "url": "https://www.youtube.com/watch?v=JX0HL0WpYPs",
       "creator": { "@type": "Person", "name": "Gordon Ryan" },
       "duration": "PT478S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Riding the turtle roll to the far side with a near hook",
+      "description": "Turtle to Standing (Defender) film study: Riding the turtle roll to the far side with a near hook, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0xYFYI9LkUQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0xYFYI9LkUQ",
+      "url": "https://www.youtube.com/watch?v=0xYFYI9LkUQ",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT144S"
     }
   ]
 }
@@ -197,17 +197,17 @@ As the top player in turtle, your objective when the bottom player attempts to s
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=nP6nIypaq0A)
+![](https://www.youtube.com/watch?v=JX0HL0WpYPs)
 
-<p class="clip-credit"><strong>Stop getting your back taken from turtle</strong> — taught by Grappling Education · 2:10 · <a href="https://www.youtube.com/watch?v=nP6nIypaq0A" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Front headlock to stop the turtle standup</strong> — taught by Gordon Ryan · 7:58 · <a href="https://www.youtube.com/watch?v=JX0HL0WpYPs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=JX0HL0WpYPs)
+![](https://www.youtube.com/watch?v=0xYFYI9LkUQ)
 
-<p class="clip-credit"><strong>Front headlock to stop the turtle standup</strong> — taught by Gordon Ryan · 7:58 · <a href="https://www.youtube.com/watch?v=JX0HL0WpYPs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Riding the turtle roll to the far side with a near hook</strong> — taught by Priit Mihkelson · 2:24 · <a href="https://www.youtube.com/watch?v=0xYFYI9LkUQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -178,17 +178,6 @@ description: "How to defend against Technical Standup from Inversion in BJJ. Rec
       "url": "https://www.youtube.com/watch?v=JzEaiLDwIwc",
       "creator": { "@type": "Person", "name": "Jiu Jitsu X Factor" },
       "duration": "PT71S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Technical stand up to sprawl drill",
-      "description": "Technical Standup from Inversion (Defender) film study: Technical stand up to sprawl drill, taught by Street Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/uWwsl10w6p4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/uWwsl10w6p4",
-      "url": "https://www.youtube.com/watch?v=uWwsl10w6p4",
-      "creator": { "@type": "Person", "name": "Street Jitsu" },
-      "duration": "PT80S"
     }
   ]
 }
@@ -231,14 +220,6 @@ The key defensive principle is maintaining forward pressure readiness without ov
 ![](https://www.youtube.com/watch?v=JzEaiLDwIwc)
 
 <p class="clip-credit"><strong>Technical standup base, posture and structure</strong> — taught by Jiu Jitsu X Factor · 1:11 · <a href="https://www.youtube.com/watch?v=JzEaiLDwIwc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=uWwsl10w6p4)
-
-<p class="clip-credit"><strong>Technical stand up to sprawl drill</strong> — taught by Street Jitsu · 1:20 · <a href="https://www.youtube.com/watch?v=uWwsl10w6p4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

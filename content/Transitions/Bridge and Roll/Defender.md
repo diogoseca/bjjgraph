@@ -177,13 +177,13 @@ description: "How to defend and counter the Bridge and Roll escape from mount in
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Roger Gracie\u0027s best advice on escaping mount",
-      "description": "Bridge and Roll (Defender) film study: Roger Gracie\u0027s best advice on escaping mount, taught by Roger Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/r3ryggpYhb0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/r3ryggpYhb0",
-      "url": "https://www.youtube.com/watch?v=r3ryggpYhb0",
-      "creator": { "@type": "Person", "name": "Roger Gracie" },
-      "duration": "PT233S"
+      "name": "Why the bridge and roll escape fails",
+      "description": "Bridge and Roll (Defender) film study: Why the bridge and roll escape fails, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ly8voPPzYaU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ly8voPPzYaU",
+      "url": "https://www.youtube.com/watch?v=Ly8voPPzYaU",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT85S"
     }
   ]
 }
@@ -219,9 +219,9 @@ Defending the Bridge and Roll from the top mount position requires understanding
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=r3ryggpYhb0)
+![](https://www.youtube.com/watch?v=Ly8voPPzYaU)
 
-<p class="clip-credit"><strong>Roger Gracie&#39;s best advice on escaping mount</strong> — taught by Roger Gracie · 3:53 · <a href="https://www.youtube.com/watch?v=r3ryggpYhb0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Why the bridge and roll escape fails</strong> — taught by Henry Akins · 1:25 · <a href="https://www.youtube.com/watch?v=Ly8voPPzYaU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

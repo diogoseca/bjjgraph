@@ -152,17 +152,6 @@ description: "Defend against the Bridge from Reverse Mount in BJJ. Learn to reco
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Mount escapes for blue belts and ADCC champions",
-      "description": "Bridge from Reverse Mount (Defender) film study: Mount escapes for blue belts and ADCC champions, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/uSrYAzVADsw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/uSrYAzVADsw",
-      "url": "https://www.youtube.com/watch?v=uSrYAzVADsw",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT291S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Best way to control and retain the mount",
       "description": "Bridge from Reverse Mount (Defender) film study: Best way to control and retain the mount, taught by Gordon Ryan.",
       "thumbnailUrl": "https://i.ytimg.com/vi/kft2AkvKhWU/hqdefault.jpg",
@@ -173,7 +162,7 @@ description: "Defend against the Bridge from Reverse Mount in BJJ. Learn to reco
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 2,
       "name": "Basic ways to flatten an opponent out on top",
       "description": "Bridge from Reverse Mount (Defender) film study: Basic ways to flatten an opponent out on top, taught by Gordon Ryan.",
       "thumbnailUrl": "https://i.ytimg.com/vi/DSJJyA-2HKU/hqdefault.jpg",
@@ -205,14 +194,6 @@ As the defender against the Bridge from Reverse Mount, you are the top player in
 
 <p class="section-subtitle">Watch Bridge from Reverse Mount (Defender) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=uSrYAzVADsw)
-
-<p class="clip-credit"><strong>Mount escapes for blue belts and ADCC champions</strong> — taught by Gordon Ryan · 4:51 · <a href="https://www.youtube.com/watch?v=uSrYAzVADsw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

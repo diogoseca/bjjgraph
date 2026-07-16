@@ -197,13 +197,13 @@ description: "Execute the Shake Off Rodeo Ride escape in BJJ. Step-by-step explo
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Back control tips and riding position details",
-      "description": "Shake Off Rodeo Ride (Attacker) film study: Back control tips and riding position details, taught by Jordan Teaches Jiujitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/CFDVh9EVgPA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/CFDVh9EVgPA",
-      "url": "https://www.youtube.com/watch?v=CFDVh9EVgPA",
-      "creator": { "@type": "Person", "name": "Jordan Teaches Jiujitsu" },
-      "duration": "PT443S"
+      "name": "Attacking from turtle",
+      "description": "Shake Off Rodeo Ride (Attacker) film study: Attacking from turtle, taught by Grappling Instructionals.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sSGaeoVvcwk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sSGaeoVvcwk",
+      "url": "https://www.youtube.com/watch?v=sSGaeoVvcwk",
+      "creator": { "@type": "Person", "name": "Grappling Instructionals" },
+      "duration": "PT39S"
     }
   ]
 }
@@ -239,9 +239,9 @@ From the attacker perspective, executing the Shake Off requires generating explo
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=CFDVh9EVgPA)
+![](https://www.youtube.com/watch?v=sSGaeoVvcwk)
 
-<p class="clip-credit"><strong>Back control tips and riding position details</strong> — taught by Jordan Teaches Jiujitsu · 7:23 · <a href="https://www.youtube.com/watch?v=CFDVh9EVgPA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Attacking from turtle</strong> — taught by Grappling Instructionals · 0:39 · <a href="https://www.youtube.com/watch?v=sSGaeoVvcwk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

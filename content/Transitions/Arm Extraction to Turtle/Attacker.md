@@ -187,17 +187,6 @@ description: "How to execute Arm Extraction to Turtle escape from Aoki Lock. Ste
       "url": "https://www.youtube.com/watch?v=JbRfIo1NTLk",
       "creator": { "@type": "Person", "name": "Craig Jones" },
       "duration": "PT274S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Leglock Defense and Extraction",
-      "description": "Arm Extraction to Turtle (Attacker) film study: Leglock Defense and Extraction, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/uZbUhFapIhg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/uZbUhFapIhg",
-      "url": "https://www.youtube.com/watch?v=uZbUhFapIhg",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT163S"
     }
   ]
 }
@@ -230,14 +219,6 @@ The execution requires a specific sequence: assess safety, destabilize opponent'
 ![](https://www.youtube.com/watch?v=JbRfIo1NTLk)
 
 <p class="clip-credit"><strong>Clearing the Kneeline: Leglock Defense</strong> — taught by Craig Jones · 4:34 · <a href="https://www.youtube.com/watch?v=JbRfIo1NTLk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=uZbUhFapIhg)
-
-<p class="clip-credit"><strong>Leglock Defense and Extraction</strong> — taught by Craig Jones · 2:43 · <a href="https://www.youtube.com/watch?v=uZbUhFapIhg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

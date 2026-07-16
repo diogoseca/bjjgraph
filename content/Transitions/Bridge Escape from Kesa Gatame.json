@@ -437,15 +437,6 @@
     ],
     "clips": [
       {
-        "id": "sEmKk3m8nwE",
-        "title": "How to Escape Kesa Gatame",
-        "by": "Travis Stevens",
-        "vertical": false,
-        "channel": "Travis Stevens",
-        "duration": 368,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "5_TS0YHdxcQ",
         "title": "Kesa Gatame Escapes",
         "by": "Kodokan instructors",
@@ -453,6 +444,15 @@
         "channel": "KODOKAN",
         "duration": 139,
         "verified": "2026-07-15"
+      },
+      {
+        "id": "ZMSfqiFWgiI",
+        "title": "Kuzure kesa gatame pin mechanics",
+        "by": "Poraka Nova",
+        "vertical": false,
+        "channel": "Poraka Nova",
+        "duration": 37,
+        "verified": "2026-07-16"
       }
     ]
   }

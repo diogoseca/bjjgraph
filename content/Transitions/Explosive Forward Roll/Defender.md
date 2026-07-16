@@ -171,24 +171,13 @@ description: "How to defend against Explosive Forward Roll in BJJ. Recognition c
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Frame Options With the Outside Arm",
-      "description": "Explosive Forward Roll (Defender) film study: Frame Options With the Outside Arm, taught by John Danaher.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/SsllJSWsyJc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/SsllJSWsyJc",
-      "url": "https://www.youtube.com/watch?v=SsllJSWsyJc",
-      "creator": { "@type": "Person", "name": "John Danaher" },
-      "duration": "PT217S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Back Escape System",
-      "description": "Explosive Forward Roll (Defender) film study: Back Escape System, taught by Matt Arroyo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/N6lKNqUOZoY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/N6lKNqUOZoY",
-      "url": "https://www.youtube.com/watch?v=N6lKNqUOZoY",
-      "creator": { "@type": "Person", "name": "Matt Arroyo" },
-      "duration": "PT675S"
+      "name": "Turtle escape and back-exposure defense system",
+      "description": "Explosive Forward Roll (Defender) film study: Turtle escape and back-exposure defense system, taught by Jozef Chen.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ft6OyIZ6vPs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ft6OyIZ6vPs",
+      "url": "https://www.youtube.com/watch?v=Ft6OyIZ6vPs",
+      "creator": { "@type": "Person", "name": "Jozef Chen" },
+      "duration": "PT149S"
     }
   ]
 }
@@ -228,17 +217,9 @@ The defender's optimal strategy varies based on what stage of the roll you recog
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=SsllJSWsyJc)
+![](https://www.youtube.com/watch?v=Ft6OyIZ6vPs)
 
-<p class="clip-credit"><strong>Frame Options With the Outside Arm</strong> — taught by John Danaher · 3:37 · <a href="https://www.youtube.com/watch?v=SsllJSWsyJc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=N6lKNqUOZoY)
-
-<p class="clip-credit"><strong>Back Escape System</strong> — taught by Matt Arroyo · 11:15 · <a href="https://www.youtube.com/watch?v=N6lKNqUOZoY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Turtle escape and back-exposure defense system</strong> — taught by Jozef Chen · 2:29 · <a href="https://www.youtube.com/watch?v=Ft6OyIZ6vPs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

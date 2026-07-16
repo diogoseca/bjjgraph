@@ -57,13 +57,24 @@ description: "Master Standing Rear Clinch in BJJ. Dominant back control from sta
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Nicky Rod\u0027s Body Lock Pass",
-      "description": "Standing Rear Clinch film study: Nicky Rod\u0027s Body Lock Pass, taught by Professor Buck.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sztjmLZYxIQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/sztjmLZYxIQ",
-      "url": "https://www.youtube.com/watch?v=sztjmLZYxIQ",
-      "creator": { "@type": "Person", "name": "Professor Buck" },
-      "duration": "PT38S"
+      "name": "Single Leg Takedown From the Back",
+      "description": "Standing Rear Clinch film study: Single Leg Takedown From the Back, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/35C990SbApc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/35C990SbApc",
+      "url": "https://www.youtube.com/watch?v=35C990SbApc",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT150S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Body Lock Escape Using the Switch",
+      "description": "Standing Rear Clinch film study: Body Lock Escape Using the Switch, taught by FreeChannelOpen coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GclkEsj1iE8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GclkEsj1iE8",
+      "url": "https://www.youtube.com/watch?v=GclkEsj1iE8",
+      "creator": { "@type": "Person", "name": "FreeChannelOpen coach" },
+      "duration": "PT146S"
     }
   ]
 }
@@ -122,9 +133,17 @@ The Standing Rear Clinch holds particular importance in no-gi grappling and MMA 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=sztjmLZYxIQ)
+![](https://www.youtube.com/watch?v=35C990SbApc)
 
-<p class="clip-credit"><strong>Nicky Rod&#39;s Body Lock Pass</strong> — taught by Professor Buck · 0:38 · <a href="https://www.youtube.com/watch?v=sztjmLZYxIQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Single Leg Takedown From the Back</strong> — taught by John Danaher · 2:30 · <a href="https://www.youtube.com/watch?v=35C990SbApc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GclkEsj1iE8)
+
+<p class="clip-credit"><strong>Body Lock Escape Using the Switch</strong> — taught by FreeChannelOpen coach · 2:26 · <a href="https://www.youtube.com/watch?v=GclkEsj1iE8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

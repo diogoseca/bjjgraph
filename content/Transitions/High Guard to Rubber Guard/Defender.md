@@ -171,17 +171,6 @@ description: "Learn to defend the High Guard to Rubber Guard transition from top
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Rubber Guard tips every beginner should know",
-      "description": "High Guard to Rubber Guard (Defender) film study: Rubber Guard tips every beginner should know, taught by Brandon McCaghren.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/WwcWSfurE2A/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/WwcWSfurE2A",
-      "url": "https://www.youtube.com/watch?v=WwcWSfurE2A",
-      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
-      "duration": "PT273S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
       "name": "Recovering Posture vs the Overhook Closed Guard",
       "description": "High Guard to Rubber Guard (Defender) film study: Recovering Posture vs the Overhook Closed Guard, taught by Lachlan Giles.",
       "thumbnailUrl": "https://i.ytimg.com/vi/RCnDWdAWXQs/hqdefault.jpg",
@@ -219,14 +208,6 @@ As the top player caught in your opponent's closed guard, recognizing the High G
 ![](https://www.youtube.com/watch?v=AvivOVuYcCk)
 
 <p class="clip-credit"><strong>Simple rubber guard escape for the passer</strong> — taught by BJJ4Breakfast · 2:11 · <a href="https://www.youtube.com/watch?v=AvivOVuYcCk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=WwcWSfurE2A)
-
-<p class="clip-credit"><strong>Rubber Guard tips every beginner should know</strong> — taught by Brandon McCaghren · 4:33 · <a href="https://www.youtube.com/watch?v=WwcWSfurE2A" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

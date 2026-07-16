@@ -152,24 +152,24 @@ description: "Counter the hip scoot escape from back control. Learn to maintain 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Back escape against top hook",
-      "description": "Scoot Hips to Guard from Back (Defender) film study: Back escape against top hook, taught by Mattix Academy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/43iZ-GLc_r8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/43iZ-GLc_r8",
-      "url": "https://www.youtube.com/watch?v=43iZ-GLc_r8",
-      "creator": { "@type": "Person", "name": "Mattix Academy" },
-      "duration": "PT144S"
+      "name": "Back control escape explained simply",
+      "description": "Scoot Hips to Guard from Back (Defender) film study: Back control escape explained simply, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3Jd2llamfl8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3Jd2llamfl8",
+      "url": "https://www.youtube.com/watch?v=3Jd2llamfl8",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT189S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Back control escape when sprawled face down",
-      "description": "Scoot Hips to Guard from Back (Defender) film study: Back control escape when sprawled face down, taught by Academy Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/485wvqwlBYA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/485wvqwlBYA",
-      "url": "https://www.youtube.com/watch?v=485wvqwlBYA",
-      "creator": { "@type": "Person", "name": "Academy Jiu Jitsu" },
-      "duration": "PT92S"
+      "name": "Escaping back control, part 2",
+      "description": "Scoot Hips to Guard from Back (Defender) film study: Escaping back control, part 2, taught by Bruninho.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GmFKotginx4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GmFKotginx4",
+      "url": "https://www.youtube.com/watch?v=GmFKotginx4",
+      "creator": { "@type": "Person", "name": "Bruninho" },
+      "duration": "PT169S"
     }
   ]
 }
@@ -197,17 +197,17 @@ As the back controller, your opponent's hip scoot escape represents one of the m
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=43iZ-GLc_r8)
+![](https://www.youtube.com/watch?v=3Jd2llamfl8)
 
-<p class="clip-credit"><strong>Back escape against top hook</strong> — taught by Mattix Academy · 2:24 · <a href="https://www.youtube.com/watch?v=43iZ-GLc_r8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Back control escape explained simply</strong> — taught by Jean Jacques Machado · 3:09 · <a href="https://www.youtube.com/watch?v=3Jd2llamfl8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=485wvqwlBYA)
+![](https://www.youtube.com/watch?v=GmFKotginx4)
 
-<p class="clip-credit"><strong>Back control escape when sprawled face down</strong> — taught by Academy Jiu Jitsu · 1:32 · <a href="https://www.youtube.com/watch?v=485wvqwlBYA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escaping back control, part 2</strong> — taught by Bruninho · 2:49 · <a href="https://www.youtube.com/watch?v=GmFKotginx4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

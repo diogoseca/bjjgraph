@@ -206,17 +206,6 @@ description: "Learn to finish the Calf Slicer from Rodeo Ride. Step-by-step exec
       "url": "https://www.youtube.com/watch?v=v12bCWO19tk",
       "creator": { "@type": "Person", "name": "John Cole" },
       "duration": "PT20S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Back Mount to Banana Split",
-      "description": "Calf Slicer from Rodeo Ride (Attacker) film study: Back Mount to Banana Split, taught by Tiger Martial Arts.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/YWSvyfcnTLE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/YWSvyfcnTLE",
-      "url": "https://www.youtube.com/watch?v=YWSvyfcnTLE",
-      "creator": { "@type": "Person", "name": "Tiger Martial Arts" },
-      "duration": "PT23S"
     }
   ]
 }
@@ -256,14 +245,6 @@ Executing the Calf Slicer from Rodeo Ride requires precise leg threading from th
 ![](https://www.youtube.com/watch?v=v12bCWO19tk)
 
 <p class="clip-credit"><strong>Calf Slicer Setup: Open Guard / Banana Split</strong> — taught by John Cole · 0:20 · <a href="https://www.youtube.com/watch?v=v12bCWO19tk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=YWSvyfcnTLE)
-
-<p class="clip-credit"><strong>Back Mount to Banana Split</strong> — taught by Tiger Martial Arts · 0:23 · <a href="https://www.youtube.com/watch?v=YWSvyfcnTLE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -46,17 +46,6 @@ description: "Master the leg extraction escape from Truck position in BJJ. Compl
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Mastering the Truck \u2014 control and attack breakdown",
-      "description": "Leg Extraction from Truck film study: Mastering the Truck \u2014 control and attack breakdown, taught by 10th Planet Newport.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/YqlKl-La88s/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/YqlKl-La88s",
-      "url": "https://www.youtube.com/watch?v=YqlKl-La88s",
-      "creator": { "@type": "Person", "name": "10th Planet Newport" },
-      "duration": "PT216S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Countering the Truck by Flipping It",
       "description": "Leg Extraction from Truck film study: Countering the Truck by Flipping It, taught by Brandon McCaghren.",
       "thumbnailUrl": "https://i.ytimg.com/vi/NhxDerwXxSU/hqdefault.jpg",
@@ -64,6 +53,17 @@ description: "Master the leg extraction escape from Truck position in BJJ. Compl
       "url": "https://www.youtube.com/watch?v=NhxDerwXxSU",
       "creator": { "@type": "Person", "name": "Brandon McCaghren" },
       "duration": "PT640S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Twister side control from the truck",
+      "description": "Leg Extraction from Truck film study: Twister side control from the truck, taught by JitsHappens.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/c1nV0kji8Uc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/c1nV0kji8Uc",
+      "url": "https://www.youtube.com/watch?v=c1nV0kji8Uc",
+      "creator": { "@type": "Person", "name": "JitsHappens" },
+      "duration": "PT35S"
     }
   ]
 }
@@ -117,17 +117,17 @@ At advanced levels, the leg extraction functions as both a standalone escape and
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=YqlKl-La88s)
+![](https://www.youtube.com/watch?v=NhxDerwXxSU)
 
-<p class="clip-credit"><strong>Mastering the Truck — control and attack breakdown</strong> — taught by 10th Planet Newport · 3:36 · <a href="https://www.youtube.com/watch?v=YqlKl-La88s" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Countering the Truck by Flipping It</strong> — taught by Brandon McCaghren · 10:40 · <a href="https://www.youtube.com/watch?v=NhxDerwXxSU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=NhxDerwXxSU)
+![](https://www.youtube.com/watch?v=c1nV0kji8Uc)
 
-<p class="clip-credit"><strong>Countering the Truck by Flipping It</strong> — taught by Brandon McCaghren · 10:40 · <a href="https://www.youtube.com/watch?v=NhxDerwXxSU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Twister side control from the truck</strong> — taught by JitsHappens · 0:35 · <a href="https://www.youtube.com/watch?v=c1nV0kji8Uc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

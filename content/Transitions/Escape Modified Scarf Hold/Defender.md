@@ -151,28 +151,6 @@ description: "Learn to maintain Modified Scarf Hold against frame-and-hip escape
       "url": "https://www.youtube.com/watch?v=a0SoDyETz98",
       "creator": { "@type": "Person", "name": "Josh Barnett" },
       "duration": "PT127S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "How to escape kesa gatame",
-      "description": "Escape Modified Scarf Hold (Defender) film study: How to escape kesa gatame, taught by Travis Stevens.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sEmKk3m8nwE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/sEmKk3m8nwE",
-      "url": "https://www.youtube.com/watch?v=sEmKk3m8nwE",
-      "creator": { "@type": "Person", "name": "Travis Stevens" },
-      "duration": "PT368S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Four different scarf hold escapes",
-      "description": "Escape Modified Scarf Hold (Defender) film study: Four different scarf hold escapes, taught by Grappling Nerds.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/bHneNFyONwo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/bHneNFyONwo",
-      "url": "https://www.youtube.com/watch?v=bHneNFyONwo",
-      "creator": { "@type": "Person", "name": "Grappling Nerds" },
-      "duration": "PT602S"
     }
   ]
 }
@@ -203,22 +181,6 @@ Defending against the frame-and-hip escape from Modified Scarf Hold requires the
 ![](https://www.youtube.com/watch?v=a0SoDyETz98)
 
 <p class="clip-credit"><strong>Head and arm (scarf hold) escape counter</strong> — taught by Josh Barnett · 2:07 · <a href="https://www.youtube.com/watch?v=a0SoDyETz98" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=sEmKk3m8nwE)
-
-<p class="clip-credit"><strong>How to escape kesa gatame</strong> — taught by Travis Stevens · 6:08 · <a href="https://www.youtube.com/watch?v=sEmKk3m8nwE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=bHneNFyONwo)
-
-<p class="clip-credit"><strong>Four different scarf hold escapes</strong> — taught by Grappling Nerds · 10:02 · <a href="https://www.youtube.com/watch?v=bHneNFyONwo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -486,15 +486,6 @@
     ],
     "clips": [
       {
-        "id": "nP6nIypaq0A",
-        "title": "Stop getting your back taken from turtle",
-        "by": "Grappling Education",
-        "vertical": false,
-        "channel": "Grappling Education",
-        "duration": 130,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "JX0HL0WpYPs",
         "title": "Front headlock to stop the turtle standup",
         "by": "Gordon Ryan",
@@ -502,6 +493,15 @@
         "channel": "Bernardo Faria BJJ Fanatics",
         "duration": 478,
         "verified": "2026-07-15"
+      },
+      {
+        "id": "0xYFYI9LkUQ",
+        "title": "Riding the turtle roll to the far side with a near hook",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 144,
+        "verified": "2026-07-16"
       }
     ]
   }

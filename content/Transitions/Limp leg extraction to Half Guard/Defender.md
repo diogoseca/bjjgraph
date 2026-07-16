@@ -150,39 +150,6 @@ description: "How to defend against Limp Leg Extraction to Half Guard in BJJ. Ma
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Limp leg extraction to Half Guard (Defender) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Clearing the Kneeline - Leglock Defense",
-      "description": "Limp leg extraction to Half Guard (Defender) film study: Clearing the Kneeline - Leglock Defense, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/JbRfIo1NTLk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/JbRfIo1NTLk",
-      "url": "https://www.youtube.com/watch?v=JbRfIo1NTLk",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT274S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Leg Lock Defense Part 2: Outside Ashi",
-      "description": "Limp leg extraction to Half Guard (Defender) film study: Leg Lock Defense Part 2: Outside Ashi, taught by Corey McWilliams.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/HkdXCXtrtlM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/HkdXCXtrtlM",
-      "url": "https://www.youtube.com/watch?v=HkdXCXtrtlM",
-      "creator": { "@type": "Person", "name": "Corey McWilliams" },
-      "duration": "PT346S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -199,32 +166,6 @@ Advanced defenders treat extraction attempts as offensive opportunities rather t
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Limp leg extraction to Half Guard (Defender) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=JbRfIo1NTLk)
-
-<p class="clip-credit"><strong>Clearing the Kneeline - Leglock Defense</strong> — taught by Craig Jones · 4:34 · <a href="https://www.youtube.com/watch?v=JbRfIo1NTLk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=HkdXCXtrtlM)
-
-<p class="clip-credit"><strong>Leg Lock Defense Part 2: Outside Ashi</strong> — taught by Corey McWilliams · 5:46 · <a href="https://www.youtube.com/watch?v=HkdXCXtrtlM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="recognition-cues" class="content-section">

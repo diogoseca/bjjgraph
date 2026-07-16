@@ -765,15 +765,6 @@
   ],
   "clips": [
     {
-      "id": "nqFlswgRLnE",
-      "title": "Body lock pass with leg split",
-      "by": "SpringHillBjj",
-      "vertical": false,
-      "channel": "SpringHillBjj",
-      "duration": 77,
-      "verified": "2026-07-14"
-    },
-    {
       "id": "G5SOKMLRvMU",
       "title": "Passing guard using the legs",
       "by": "SBG Rossendale",
@@ -781,6 +772,24 @@
       "channel": "SBG Rossendale 3rd Degree Black Belt BJJ",
       "duration": 144,
       "verified": "2026-07-14"
+    },
+    {
+      "id": "DxZL6K050Ng",
+      "title": "Leg Weave Tripod Pass",
+      "by": "Reding Martial Arts coach",
+      "vertical": false,
+      "channel": "Reding Martial Arts",
+      "duration": 183,
+      "verified": "2026-07-16"
+    },
+    {
+      "id": "GzYXnXJ0Uok",
+      "title": "Over Under Pass Variation",
+      "by": "Craig Lyman",
+      "vertical": false,
+      "channel": "Bernardo Faria BJJ Fanatics",
+      "duration": 173,
+      "verified": "2026-07-16"
     }
   ]
 }

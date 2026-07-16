@@ -155,24 +155,24 @@ description: "Complete guide to preventing guard recovery from leg entanglement.
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Clearing the Knee Line: Leglock Defense",
-      "description": "Guard Recovery from Leg Entanglement (Defender) film study: Clearing the Knee Line: Leglock Defense, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/JbRfIo1NTLk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/JbRfIo1NTLk",
-      "url": "https://www.youtube.com/watch?v=JbRfIo1NTLk",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT274S"
+      "name": "Escaping Ashi Garami: leg lock defense details",
+      "description": "Guard Recovery from Leg Entanglement (Defender) film study: Escaping Ashi Garami: leg lock defense details, taught by Scott Elliott.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AQbJMBiWYfU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AQbJMBiWYfU",
+      "url": "https://www.youtube.com/watch?v=AQbJMBiWYfU",
+      "creator": { "@type": "Person", "name": "Scott Elliott" },
+      "duration": "PT141S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Insane Leglock Defense Details",
-      "description": "Guard Recovery from Leg Entanglement (Defender) film study: Insane Leglock Defense Details, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/uZbUhFapIhg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/uZbUhFapIhg",
-      "url": "https://www.youtube.com/watch?v=uZbUhFapIhg",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT163S"
+      "name": "Ashi Garami escape mechanics",
+      "description": "Guard Recovery from Leg Entanglement (Defender) film study: Ashi Garami escape mechanics, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0g_ALDkfU2Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0g_ALDkfU2Q",
+      "url": "https://www.youtube.com/watch?v=0g_ALDkfU2Q",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT107S"
     }
   ]
 }
@@ -208,17 +208,17 @@ Defending against guard recovery attempts from leg entanglement means maintainin
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=JbRfIo1NTLk)
+![](https://www.youtube.com/watch?v=AQbJMBiWYfU)
 
-<p class="clip-credit"><strong>Clearing the Knee Line: Leglock Defense</strong> — taught by Craig Jones · 4:34 · <a href="https://www.youtube.com/watch?v=JbRfIo1NTLk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escaping Ashi Garami: leg lock defense details</strong> — taught by Scott Elliott · 2:21 · <a href="https://www.youtube.com/watch?v=AQbJMBiWYfU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=uZbUhFapIhg)
+![](https://www.youtube.com/watch?v=0g_ALDkfU2Q)
 
-<p class="clip-credit"><strong>Insane Leglock Defense Details</strong> — taught by Craig Jones · 2:43 · <a href="https://www.youtube.com/watch?v=uZbUhFapIhg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Ashi Garami escape mechanics</strong> — taught by Brandon McCaghren · 1:47 · <a href="https://www.youtube.com/watch?v=0g_ALDkfU2Q" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

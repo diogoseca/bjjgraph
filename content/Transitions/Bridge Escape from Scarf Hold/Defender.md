@@ -167,6 +167,17 @@ description: "Defend against the bridge escape from scarf hold in BJJ. Learn to 
       "url": "https://www.youtube.com/watch?v=TfNpVcekHGg",
       "creator": { "@type": "Person", "name": "Grappler Station" },
       "duration": "PT121S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Ura gatame crucifix pin and lapel strangle",
+      "description": "Bridge Escape from Scarf Hold (Defender) film study: Ura gatame crucifix pin and lapel strangle, taught by Steve Scott.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jLimc9NW8Jc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jLimc9NW8Jc",
+      "url": "https://www.youtube.com/watch?v=jLimc9NW8Jc",
+      "creator": { "@type": "Person", "name": "Steve Scott" },
+      "duration": "PT119S"
     }
   ]
 }
@@ -197,6 +208,14 @@ Defending against the bridge escape from scarf hold requires the top player to r
 ![](https://www.youtube.com/watch?v=TfNpVcekHGg)
 
 <p class="clip-credit"><strong>Kesa gatame scarf hold control</strong> — taught by Grappler Station · 2:01 · <a href="https://www.youtube.com/watch?v=TfNpVcekHGg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jLimc9NW8Jc)
+
+<p class="clip-credit"><strong>Ura gatame crucifix pin and lapel strangle</strong> — taught by Steve Scott · 1:59 · <a href="https://www.youtube.com/watch?v=jLimc9NW8Jc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -166,17 +166,6 @@ description: "Master closed guard top with defensive posture strategies, systema
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Countering a full inversion",
-      "description": "Closed Guard (Top) film study: Countering a full inversion, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/aQ2vFXXBn-o/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/aQ2vFXXBn-o",
-      "url": "https://www.youtube.com/watch?v=aQ2vFXXBn-o",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Great Detail to Open the Closed Guard",
       "description": "Closed Guard (Top) film study: Great Detail to Open the Closed Guard, taught by Dan McCarthy.",
       "thumbnailUrl": "https://i.ytimg.com/vi/r2Zj80AQJuQ/hqdefault.jpg",
@@ -187,7 +176,7 @@ description: "Master closed guard top with defensive posture strategies, systema
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 2,
       "name": "Passing Closed Guard with the Sao Paulo Pass",
       "description": "Closed Guard (Top) film study: Passing Closed Guard with the Sao Paulo Pass, taught by Leonardo Nogueira.",
       "thumbnailUrl": "https://i.ytimg.com/vi/r3oI5TvaWg0/hqdefault.jpg",
@@ -224,14 +213,6 @@ The closed guard top position exemplifies the strategic complexity of Brazilian 
 
 <p class="section-subtitle">Watch Closed Guard (Top) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=aQ2vFXXBn-o)
-
-<p class="clip-credit"><strong>Countering a full inversion</strong> — taught by Gordon Ryan · 1:01 · <a href="https://www.youtube.com/watch?v=aQ2vFXXBn-o" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

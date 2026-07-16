@@ -179,17 +179,6 @@ description: "How to defend against Kouchi Gari in BJJ. Recognition cues, defens
       "url": "https://www.youtube.com/watch?v=C7HnA1zd5Rs",
       "creator": { "@type": "Person", "name": "Shintaro Higashi" },
       "duration": "PT161S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Cut back ouchi counter from losing position",
-      "description": "Kouchi Gari (Defender) film study: Cut back ouchi counter from losing position, taught by Shintaro Higashi.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/HWg7hUhRbW8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/HWg7hUhRbW8",
-      "url": "https://www.youtube.com/watch?v=HWg7hUhRbW8",
-      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
-      "duration": "PT175S"
     }
   ]
 }
@@ -231,14 +220,6 @@ Defending Kouchi Gari requires understanding that the throw's power comes primar
 ![](https://www.youtube.com/watch?v=C7HnA1zd5Rs)
 
 <p class="clip-credit"><strong>Countering judo throw attempts</strong> — taught by Shintaro Higashi · 2:41 · <a href="https://www.youtube.com/watch?v=C7HnA1zd5Rs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=HWg7hUhRbW8)
-
-<p class="clip-credit"><strong>Cut back ouchi counter from losing position</strong> — taught by Shintaro Higashi · 2:55 · <a href="https://www.youtube.com/watch?v=HWg7hUhRbW8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

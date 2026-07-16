@@ -167,17 +167,6 @@ description: "Complete defense guide for the Kimura from Modified Scarf Hold. Re
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Reverse Kesa Gatame Escape",
-      "description": "Kimura from Modified Scarf Hold (Defender) film study: Reverse Kesa Gatame Escape, taught by Coach Paul.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/QzegNgUUfZs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/QzegNgUUfZs",
-      "url": "https://www.youtube.com/watch?v=QzegNgUUfZs",
-      "creator": { "@type": "Person", "name": "Coach Paul" },
-      "duration": "PT81S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
       "name": "Modified Kesa-Gatame Escape",
       "description": "Kimura from Modified Scarf Hold (Defender) film study: Modified Kesa-Gatame Escape, taught by Shane Moore.",
       "thumbnailUrl": "https://i.ytimg.com/vi/5eAmcE9UXNc/hqdefault.jpg",
@@ -216,14 +205,6 @@ Defending the Kimura from Modified Scarf Hold demands early recognition and imme
 ![](https://www.youtube.com/watch?v=fvp5_BVEtLg)
 
 <p class="clip-credit"><strong>Kesa Gatame Pressure Defense with Framing</strong> — taught by Kohbukan Sisu · 1:24 · <a href="https://www.youtube.com/watch?v=fvp5_BVEtLg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=QzegNgUUfZs)
-
-<p class="clip-credit"><strong>Reverse Kesa Gatame Escape</strong> — taught by Coach Paul · 1:21 · <a href="https://www.youtube.com/watch?v=QzegNgUUfZs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

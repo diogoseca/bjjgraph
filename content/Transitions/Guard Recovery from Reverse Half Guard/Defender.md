@@ -178,17 +178,6 @@ description: "Prevent guard recovery from Reverse Half Guard as the top player i
       "url": "https://www.youtube.com/watch?v=NlrI7ZiECXM",
       "creator": { "@type": "Person", "name": "Lachlan Giles" },
       "duration": "PT80S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "3 Ways to Recover from Smashed Half Guard",
-      "description": "Guard Recovery from Reverse Half Guard (Defender) film study: 3 Ways to Recover from Smashed Half Guard, taught by Stephan Kesting.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/-S230cttiTk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/-S230cttiTk",
-      "url": "https://www.youtube.com/watch?v=-S230cttiTk",
-      "creator": { "@type": "Person", "name": "Stephan Kesting" },
-      "duration": "PT691S"
     }
   ]
 }
@@ -227,14 +216,6 @@ As the top player in reverse half guard, you hold a significant positional advan
 ![](https://www.youtube.com/watch?v=NlrI7ZiECXM)
 
 <p class="clip-credit"><strong>Guard Retention: Linking Reverse Half Guard</strong> — taught by Lachlan Giles · 1:20 · <a href="https://www.youtube.com/watch?v=NlrI7ZiECXM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=-S230cttiTk)
-
-<p class="clip-credit"><strong>3 Ways to Recover from Smashed Half Guard</strong> — taught by Stephan Kesting · 11:31 · <a href="https://www.youtube.com/watch?v=-S230cttiTk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

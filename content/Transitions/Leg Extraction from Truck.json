@@ -301,15 +301,6 @@
     "safety_considerations": "The truck position threatens the twister (cervical spine lock) and calf slicer (knee joint compression), both of which can cause serious injury with minimal warning before damage occurs. During extraction practice, always tap immediately if you feel rotational pressure on your cervical spine or significant compression on the knee joint. The calf slicer risk actually increases during extraction attempts as the changing leg angles can accelerate compression. Partners should apply submissions slowly during extraction drilling and communicate clearly about pressure levels. Begin all training with static drilling before progressing to resistance. Never sacrifice neck protection for leg work.",
     "clips": [
       {
-        "id": "YqlKl-La88s",
-        "title": "Mastering the Truck — control and attack breakdown",
-        "by": "10th Planet Newport",
-        "vertical": false,
-        "channel": "10th Planet Newport",
-        "duration": 216,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "NhxDerwXxSU",
         "title": "Countering the Truck by Flipping It",
         "by": "Brandon McCaghren",
@@ -317,6 +308,15 @@
         "channel": "Brandon Mccaghren",
         "duration": 640,
         "verified": "2026-07-15"
+      },
+      {
+        "id": "c1nV0kji8Uc",
+        "title": "Twister side control from the truck",
+        "by": "JitsHappens",
+        "vertical": false,
+        "channel": "JitsHappens",
+        "duration": 35,
+        "verified": "2026-07-16"
       }
     ]
   },
@@ -442,30 +442,12 @@
     ],
     "clips": [
       {
-        "id": "dWAZQ2VQcjw",
-        "title": "Reversing and escaping the Truck",
-        "by": "Coach Brian",
-        "vertical": false,
-        "channel": "TeachMeGrappling Coach Brian",
-        "duration": 229,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "IY0CbahJG2A",
         "title": "Truck Entries and Submissions",
         "by": "Energia Martial Arts",
         "vertical": false,
         "channel": "Energia Martial Arts",
         "duration": 667,
-        "verified": "2026-07-16"
-      },
-      {
-        "id": "McaB7pfeCGo",
-        "title": "Twister Side Control - How To",
-        "by": "Brandon McCaghren",
-        "vertical": false,
-        "channel": "Brandon Mccaghren",
-        "duration": 516,
         "verified": "2026-07-16"
       }
     ]

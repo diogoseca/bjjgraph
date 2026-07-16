@@ -152,19 +152,19 @@ description: "Learn to prevent and counter the Harness Escape to Half Guard from
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "2 Mount Escape Options to Half Guard",
-      "description": "Harness Escape to Half Guard (Defender) film study: 2 Mount Escape Options to Half Guard, taught by Revolution BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/cyegyon5hVg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/cyegyon5hVg",
-      "url": "https://www.youtube.com/watch?v=cyegyon5hVg",
-      "creator": { "@type": "Person", "name": "Revolution BJJ" },
-      "duration": "PT54S"
+      "name": "Back escape against the seat belt grip",
+      "description": "Harness Escape to Half Guard (Defender) film study: Back escape against the seat belt grip, taught by Brandon Quick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CVb5lpBQsVY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CVb5lpBQsVY",
+      "url": "https://www.youtube.com/watch?v=CVb5lpBQsVY",
+      "creator": { "@type": "Person", "name": "Brandon Quick" },
+      "duration": "PT138S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Avoiding Mount When Escaping the Back",
-      "description": "Harness Escape to Half Guard (Defender) film study: Avoiding Mount When Escaping the Back, taught by Henry Akins.",
+      "name": "Avoiding mount when escaping the back",
+      "description": "Harness Escape to Half Guard (Defender) film study: Avoiding mount when escaping the back, taught by Henry Akins.",
       "thumbnailUrl": "https://i.ytimg.com/vi/bhkb4ItZQno/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/bhkb4ItZQno",
       "url": "https://www.youtube.com/watch?v=bhkb4ItZQno",
@@ -197,9 +197,9 @@ Defending against the Harness Escape to Half Guard means you are the practitione
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=cyegyon5hVg)
+![](https://www.youtube.com/watch?v=CVb5lpBQsVY)
 
-<p class="clip-credit"><strong>2 Mount Escape Options to Half Guard</strong> — taught by Revolution BJJ · 0:54 · <a href="https://www.youtube.com/watch?v=cyegyon5hVg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Back escape against the seat belt grip</strong> — taught by Brandon Quick · 2:18 · <a href="https://www.youtube.com/watch?v=CVb5lpBQsVY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -207,7 +207,7 @@ Defending against the Harness Escape to Half Guard means you are the practitione
 
 ![](https://www.youtube.com/watch?v=bhkb4ItZQno)
 
-<p class="clip-credit"><strong>Avoiding Mount When Escaping the Back</strong> — taught by Henry Akins · 2:11 · <a href="https://www.youtube.com/watch?v=bhkb4ItZQno" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Avoiding mount when escaping the back</strong> — taught by Henry Akins · 2:11 · <a href="https://www.youtube.com/watch?v=bhkb4ItZQno" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -159,28 +159,6 @@ description: "Learn to defend against sweeps from headquarters as the top player
       "url": "https://www.youtube.com/watch?v=YNcEX5v0bcs",
       "creator": { "@type": "Person", "name": "Andre Galvao" },
       "duration": "PT70S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Recovering De La Riva from Headquarters Position",
-      "description": "Sweep from Headquarters (Defender) film study: Recovering De La Riva from Headquarters Position, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/gcS3M2EdkGE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/gcS3M2EdkGE",
-      "url": "https://www.youtube.com/watch?v=gcS3M2EdkGE",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT570S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Headquarters Retention for the Open Guard Player",
-      "description": "Sweep from Headquarters (Defender) film study: Headquarters Retention for the Open Guard Player, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/7zCdpY8nKug/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/7zCdpY8nKug",
-      "url": "https://www.youtube.com/watch?v=7zCdpY8nKug",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT586S"
     }
   ]
 }
@@ -211,22 +189,6 @@ As the top player in headquarters, defending against sweep attempts is essential
 ![](https://www.youtube.com/watch?v=YNcEX5v0bcs)
 
 <p class="clip-credit"><strong>Seated escape basics</strong> — taught by Andre Galvao · 1:10 · <a href="https://www.youtube.com/watch?v=YNcEX5v0bcs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=gcS3M2EdkGE)
-
-<p class="clip-credit"><strong>Recovering De La Riva from Headquarters Position</strong> — taught by Lachlan Giles · 9:30 · <a href="https://www.youtube.com/watch?v=gcS3M2EdkGE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=7zCdpY8nKug)
-
-<p class="clip-credit"><strong>Headquarters Retention for the Open Guard Player</strong> — taught by Lachlan Giles · 9:46 · <a href="https://www.youtube.com/watch?v=7zCdpY8nKug" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

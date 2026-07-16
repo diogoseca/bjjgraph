@@ -144,13 +144,13 @@ description: "Counter the heel strip defense when attacking from Ashi Garami. Gr
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Clearing the kneeline - leglock defense",
-      "description": "Heel Strip from Ashi Garami (Defender) film study: Clearing the kneeline - leglock defense, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/JbRfIo1NTLk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/JbRfIo1NTLk",
-      "url": "https://www.youtube.com/watch?v=JbRfIo1NTLk",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT274S"
+      "name": "Escaping Ashi Garami: leg lock defense details",
+      "description": "Heel Strip from Ashi Garami (Defender) film study: Escaping Ashi Garami: leg lock defense details, taught by Scott Elliott.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AQbJMBiWYfU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AQbJMBiWYfU",
+      "url": "https://www.youtube.com/watch?v=AQbJMBiWYfU",
+      "creator": { "@type": "Person", "name": "Scott Elliott" },
+      "duration": "PT141S"
     },
     {
       "@type": "VideoObject",
@@ -189,9 +189,9 @@ As the person attacking from Ashi Garami, your opponent's heel strip attempt rep
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=JbRfIo1NTLk)
+![](https://www.youtube.com/watch?v=AQbJMBiWYfU)
 
-<p class="clip-credit"><strong>Clearing the kneeline - leglock defense</strong> — taught by Craig Jones · 4:34 · <a href="https://www.youtube.com/watch?v=JbRfIo1NTLk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escaping Ashi Garami: leg lock defense details</strong> — taught by Scott Elliott · 2:21 · <a href="https://www.youtube.com/watch?v=AQbJMBiWYfU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

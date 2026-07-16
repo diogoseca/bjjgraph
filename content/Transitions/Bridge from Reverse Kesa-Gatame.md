@@ -57,17 +57,6 @@ description: "Master the bridge escape from Reverse Kesa-Gatame in BJJ. Complete
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Escaping yoko shiho gatame by bridging",
-      "description": "Bridge from Reverse Kesa-Gatame film study: Escaping yoko shiho gatame by bridging, taught by Travis Stevens.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lOMiYZzvH-s/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/lOMiYZzvH-s",
-      "url": "https://www.youtube.com/watch?v=lOMiYZzvH-s",
-      "creator": { "@type": "Person", "name": "Travis Stevens" },
-      "duration": "PT161S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
       "name": "Kesa gatame bridge and reverse shrimp escape",
       "description": "Bridge from Reverse Kesa-Gatame film study: Kesa gatame bridge and reverse shrimp escape, taught by JitzLive.",
       "thumbnailUrl": "https://i.ytimg.com/vi/iDi59hI5-YQ/hqdefault.jpg",
@@ -131,14 +120,6 @@ Strategically, the bridge from Reverse Kesa-Gatame creates a binary risk-reward 
 ![](https://www.youtube.com/watch?v=-zFQ6h4yKT4)
 
 <p class="clip-credit"><strong>Kuzure kesa gatame escapes</strong> — taught by Kodokan · 1:10 · <a href="https://www.youtube.com/watch?v=-zFQ6h4yKT4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=lOMiYZzvH-s)
-
-<p class="clip-credit"><strong>Escaping yoko shiho gatame by bridging</strong> — taught by Travis Stevens · 2:41 · <a href="https://www.youtube.com/watch?v=lOMiYZzvH-s" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

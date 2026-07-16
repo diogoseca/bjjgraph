@@ -173,13 +173,24 @@ description: "Defend and escape the Hindulotine choke from Hindulotine control. 
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Front Headlock Escape - Short Drag",
-      "description": "Hindulotine from Hindulotine (Defender) film study: Front Headlock Escape - Short Drag, taught by Mason Parris.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/VZe2GY0_UIk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/VZe2GY0_UIk",
-      "url": "https://www.youtube.com/watch?v=VZe2GY0_UIk",
-      "creator": { "@type": "Person", "name": "Mason Parris" },
-      "duration": "PT176S"
+      "name": "Front headlock defense fundamentals",
+      "description": "Hindulotine from Hindulotine (Defender) film study: Front headlock defense fundamentals, taught by Ben Askren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ry5lH-N7O-0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ry5lH-N7O-0",
+      "url": "https://www.youtube.com/watch?v=ry5lH-N7O-0",
+      "creator": { "@type": "Person", "name": "Ben Askren" },
+      "duration": "PT108S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Standing guillotine escape",
+      "description": "Hindulotine from Hindulotine (Defender) film study: Standing guillotine escape, taught by Dogtownman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8okq4cIHMO0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8okq4cIHMO0",
+      "url": "https://www.youtube.com/watch?v=8okq4cIHMO0",
+      "creator": { "@type": "Person", "name": "Dogtownman" },
+      "duration": "PT44S"
     }
   ]
 }
@@ -216,9 +227,17 @@ Defending the Hindulotine finish requires early recognition and immediate postur
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=VZe2GY0_UIk)
+![](https://www.youtube.com/watch?v=ry5lH-N7O-0)
 
-<p class="clip-credit"><strong>Front Headlock Escape - Short Drag</strong> — taught by Mason Parris · 2:56 · <a href="https://www.youtube.com/watch?v=VZe2GY0_UIk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Front headlock defense fundamentals</strong> — taught by Ben Askren · 1:48 · <a href="https://www.youtube.com/watch?v=ry5lH-N7O-0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8okq4cIHMO0)
+
+<p class="clip-credit"><strong>Standing guillotine escape</strong> — taught by Dogtownman · 0:44 · <a href="https://www.youtube.com/watch?v=8okq4cIHMO0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -152,17 +152,6 @@ description: "Defend against the Backstep from Worm Guard. Recognition cues, tim
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Reverse De La Worm defense against the smash pass",
-      "description": "Backstep from Worm Guard (Defender) film study: Reverse De La Worm defense against the smash pass, taught by Satori BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/U-d9fLP9eAo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/U-d9fLP9eAo",
-      "url": "https://www.youtube.com/watch?v=U-d9fLP9eAo",
-      "creator": { "@type": "Person", "name": "Satori BJJ" },
-      "duration": "PT62S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Backwards roll counter to the worm guard backstep",
       "description": "Backstep from Worm Guard (Defender) film study: Backwards roll counter to the worm guard backstep, taught by Lucas Lepri.",
       "thumbnailUrl": "https://i.ytimg.com/vi/d8xnLb5JyLc/hqdefault.jpg",
@@ -173,7 +162,7 @@ description: "Defend against the Backstep from Worm Guard. Recognition cues, tim
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 2,
       "name": "Maintaining lapel guard control to prevent the pass",
       "description": "Backstep from Worm Guard (Defender) film study: Maintaining lapel guard control to prevent the pass, taught by Lucas Wilhan.",
       "thumbnailUrl": "https://i.ytimg.com/vi/6DGnxOUdwdg/hqdefault.jpg",
@@ -205,14 +194,6 @@ As the bottom player in worm guard defending against the backstep, your primary 
 
 <p class="section-subtitle">Watch Backstep from Worm Guard (Defender) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=U-d9fLP9eAo)
-
-<p class="clip-credit"><strong>Reverse De La Worm defense against the smash pass</strong> — taught by Satori BJJ · 1:02 · <a href="https://www.youtube.com/watch?v=U-d9fLP9eAo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

@@ -46,17 +46,6 @@ description: "Master bridge defense from mounted triangle in BJJ. Explosive esca
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Bridge escape from mounted headlock",
-      "description": "Bridge Defense from Mounted Triangle film study: Bridge escape from mounted headlock, taught by astinus4.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/B7IqvaOiwgo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/B7IqvaOiwgo",
-      "url": "https://www.youtube.com/watch?v=B7IqvaOiwgo",
-      "creator": { "@type": "Person", "name": "astinus4" },
-      "duration": "PT52S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Escaping the mount by bridging",
       "description": "Bridge Defense from Mounted Triangle film study: Escaping the mount by bridging, taught by Pantera Jiujitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/R21vtm5BHF4/hqdefault.jpg",
@@ -64,6 +53,28 @@ description: "Master bridge defense from mounted triangle in BJJ. Explosive esca
       "url": "https://www.youtube.com/watch?v=R21vtm5BHF4",
       "creator": { "@type": "Person", "name": "Pantera Jiujitsu" },
       "duration": "PT80S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Bridge and roll escape from under mount",
+      "description": "Bridge Defense from Mounted Triangle film study: Bridge and roll escape from under mount, taught by Absolute MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nkvBImWia78/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nkvBImWia78",
+      "url": "https://www.youtube.com/watch?v=nkvBImWia78",
+      "creator": { "@type": "Person", "name": "Absolute MMA" },
+      "duration": "PT174S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Mount escape with choke defense",
+      "description": "Bridge Defense from Mounted Triangle film study: Mount escape with choke defense, taught by Combat Sports Center Salem.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qVD1UD39hNc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qVD1UD39hNc",
+      "url": "https://www.youtube.com/watch?v=qVD1UD39hNc",
+      "creator": { "@type": "Person", "name": "Combat Sports Center Salem" },
+      "duration": "PT190S"
     }
   ]
 }
@@ -117,17 +128,25 @@ Strategically, this technique serves as both a direct escape method and a positi
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=B7IqvaOiwgo)
+![](https://www.youtube.com/watch?v=R21vtm5BHF4)
 
-<p class="clip-credit"><strong>Bridge escape from mounted headlock</strong> — taught by astinus4 · 0:52 · <a href="https://www.youtube.com/watch?v=B7IqvaOiwgo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escaping the mount by bridging</strong> — taught by Pantera Jiujitsu · 1:20 · <a href="https://www.youtube.com/watch?v=R21vtm5BHF4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=R21vtm5BHF4)
+![](https://www.youtube.com/watch?v=nkvBImWia78)
 
-<p class="clip-credit"><strong>Escaping the mount by bridging</strong> — taught by Pantera Jiujitsu · 1:20 · <a href="https://www.youtube.com/watch?v=R21vtm5BHF4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Bridge and roll escape from under mount</strong> — taught by Absolute MMA · 2:54 · <a href="https://www.youtube.com/watch?v=nkvBImWia78" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qVD1UD39hNc)
+
+<p class="clip-credit"><strong>Mount escape with choke defense</strong> — taught by Combat Sports Center Salem · 3:10 · <a href="https://www.youtube.com/watch?v=qVD1UD39hNc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -164,35 +164,24 @@ description: "How to defend against Von Flue Choke in BJJ. Recognition, escape p
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Von Flue Choke - Guillotine Counter",
-      "description": "Von Flue Choke from Side Control (Defender) film study: Von Flue Choke - Guillotine Counter, taught by Ramsey Dewey.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/WSH-gBwPmLs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/WSH-gBwPmLs",
-      "url": "https://www.youtube.com/watch?v=WSH-gBwPmLs",
-      "creator": { "@type": "Person", "name": "Ramsey Dewey" },
-      "duration": "PT199S"
+      "name": "Escaping the Von Flue choke",
+      "description": "Von Flue Choke from Side Control (Defender) film study: Escaping the Von Flue choke, taught by Grappling Mastery coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4eVRpNHz4cc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4eVRpNHz4cc",
+      "url": "https://www.youtube.com/watch?v=4eVRpNHz4cc",
+      "creator": { "@type": "Person", "name": "Grappling Mastery coach" },
+      "duration": "PT37S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "How NOT to Escape a Guillotine Choke",
-      "description": "Von Flue Choke from Side Control (Defender) film study: How NOT to Escape a Guillotine Choke, taught by Self Defense Mythbuster.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/pThmcwxzNBQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/pThmcwxzNBQ",
-      "url": "https://www.youtube.com/watch?v=pThmcwxzNBQ",
-      "creator": { "@type": "Person", "name": "Self Defense Mythbuster" },
-      "duration": "PT79S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Guillotine Counter + Von Flue Choke",
-      "description": "Von Flue Choke from Side Control (Defender) film study: Guillotine Counter + Von Flue Choke, taught by Updawg Jiu-Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/RXoU4lbjelI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/RXoU4lbjelI",
-      "url": "https://www.youtube.com/watch?v=RXoU4lbjelI",
-      "creator": { "@type": "Person", "name": "Updawg Jiu-Jitsu" },
-      "duration": "PT133S"
+      "name": "Guillotine grip release vs Von Flue",
+      "description": "Von Flue Choke from Side Control (Defender) film study: Guillotine grip release vs Von Flue, taught by Haven BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GmGrD1Zltw0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GmGrD1Zltw0",
+      "url": "https://www.youtube.com/watch?v=GmGrD1Zltw0",
+      "creator": { "@type": "Person", "name": "Haven BJJ coach" },
+      "duration": "PT143S"
     }
   ]
 }
@@ -221,25 +210,17 @@ Defending the Von Flue Choke requires understanding a fundamental paradox: the t
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=WSH-gBwPmLs)
+![](https://www.youtube.com/watch?v=4eVRpNHz4cc)
 
-<p class="clip-credit"><strong>Von Flue Choke - Guillotine Counter</strong> — taught by Ramsey Dewey · 3:19 · <a href="https://www.youtube.com/watch?v=WSH-gBwPmLs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=pThmcwxzNBQ)
-
-<p class="clip-credit"><strong>How NOT to Escape a Guillotine Choke</strong> — taught by Self Defense Mythbuster · 1:19 · <a href="https://www.youtube.com/watch?v=pThmcwxzNBQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escaping the Von Flue choke</strong> — taught by Grappling Mastery coach · 0:37 · <a href="https://www.youtube.com/watch?v=4eVRpNHz4cc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=RXoU4lbjelI)
+![](https://www.youtube.com/watch?v=GmGrD1Zltw0)
 
-<p class="clip-credit"><strong>Guillotine Counter + Von Flue Choke</strong> — taught by Updawg Jiu-Jitsu · 2:13 · <a href="https://www.youtube.com/watch?v=RXoU4lbjelI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guillotine grip release vs Von Flue</strong> — taught by Haven BJJ coach · 2:23 · <a href="https://www.youtube.com/watch?v=GmGrD1Zltw0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

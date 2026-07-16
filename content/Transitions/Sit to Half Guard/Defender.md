@@ -171,8 +171,8 @@ description: "How to defend against the Sit to Half Guard escape in BJJ. Recogni
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Stop Giving Up Your Back - Turtle Escape System",
-      "description": "Sit to Half Guard (Defender) film study: Stop Giving Up Your Back - Turtle Escape System, taught by Jozef Chen.",
+      "name": "Turtle escape and back-exposure defense system",
+      "description": "Sit to Half Guard (Defender) film study: Turtle escape and back-exposure defense system, taught by Jozef Chen.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Ft6OyIZ6vPs/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/Ft6OyIZ6vPs",
       "url": "https://www.youtube.com/watch?v=Ft6OyIZ6vPs",
@@ -219,7 +219,7 @@ Successful defense requires reading the bottom player's body language and immedi
 
 ![](https://www.youtube.com/watch?v=Ft6OyIZ6vPs)
 
-<p class="clip-credit"><strong>Stop Giving Up Your Back - Turtle Escape System</strong> — taught by Jozef Chen · 2:29 · <a href="https://www.youtube.com/watch?v=Ft6OyIZ6vPs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Turtle escape and back-exposure defense system</strong> — taught by Jozef Chen · 2:29 · <a href="https://www.youtube.com/watch?v=Ft6OyIZ6vPs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

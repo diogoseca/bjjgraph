@@ -46,24 +46,24 @@ description: "Master the Escape Vaporizer in BJJ. Strategic lockdown disengageme
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Vaporizer From Top Stoner Control",
-      "description": "Escape Vaporizer film study: Vaporizer From Top Stoner Control, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/VopfKnaVSjE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/VopfKnaVSjE",
-      "url": "https://www.youtube.com/watch?v=VopfKnaVSjE",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT254S"
+      "name": "Lockdown to vaporizer",
+      "description": "Escape Vaporizer film study: Lockdown to vaporizer, taught by Axel Collazo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8ZgEL2zU_jg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8ZgEL2zU_jg",
+      "url": "https://www.youtube.com/watch?v=8ZgEL2zU_jg",
+      "creator": { "@type": "Person", "name": "Axel Collazo" },
+      "duration": "PT98S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Vaporizer Leg Lock Attacks Breakdown",
-      "description": "Escape Vaporizer film study: Vaporizer Leg Lock Attacks Breakdown, taught by Coach Brian.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/CoUM2pU8zZs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/CoUM2pU8zZs",
-      "url": "https://www.youtube.com/watch?v=CoUM2pU8zZs",
-      "creator": { "@type": "Person", "name": "Coach Brian" },
-      "duration": "PT510S"
+      "name": "Quarter guard to vaporizer",
+      "description": "Escape Vaporizer film study: Quarter guard to vaporizer, taught by Superhero Jiu Jitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dLIqO90Ix7o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dLIqO90Ix7o",
+      "url": "https://www.youtube.com/watch?v=dLIqO90Ix7o",
+      "creator": { "@type": "Person", "name": "Superhero Jiu Jitsu Academy" },
+      "duration": "PT113S"
     }
   ]
 }
@@ -117,17 +117,17 @@ Recognizing when to abandon the Vaporizer is a hallmark of positional intelligen
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=VopfKnaVSjE)
+![](https://www.youtube.com/watch?v=8ZgEL2zU_jg)
 
-<p class="clip-credit"><strong>Vaporizer From Top Stoner Control</strong> — taught by Eddie Bravo · 4:14 · <a href="https://www.youtube.com/watch?v=VopfKnaVSjE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Lockdown to vaporizer</strong> — taught by Axel Collazo · 1:38 · <a href="https://www.youtube.com/watch?v=8ZgEL2zU_jg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=CoUM2pU8zZs)
+![](https://www.youtube.com/watch?v=dLIqO90Ix7o)
 
-<p class="clip-credit"><strong>Vaporizer Leg Lock Attacks Breakdown</strong> — taught by Coach Brian · 8:30 · <a href="https://www.youtube.com/watch?v=CoUM2pU8zZs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Quarter guard to vaporizer</strong> — taught by Superhero Jiu Jitsu Academy · 1:53 · <a href="https://www.youtube.com/watch?v=dLIqO90Ix7o" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

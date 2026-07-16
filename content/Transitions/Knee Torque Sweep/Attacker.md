@@ -204,17 +204,6 @@ description: "Complete guide to executing the Knee Torque Sweep from half guard 
       "url": "https://www.youtube.com/watch?v=OWZlH8G8-0g",
       "creator": { "@type": "Person", "name": "Rituals Jiu Jitsu" },
       "duration": "PT153S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Octopus Half Guard Sweep",
-      "description": "Knee Torque Sweep (Attacker) film study: Octopus Half Guard Sweep, taught by The Fight Site.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/llsV9Gn_usg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/llsV9Gn_usg",
-      "url": "https://www.youtube.com/watch?v=llsV9Gn_usg",
-      "creator": { "@type": "Person", "name": "The Fight Site" },
-      "duration": "PT61S"
     }
   ]
 }
@@ -253,14 +242,6 @@ The Knee Torque Sweep from half guard bottom uses rotational force applied to th
 ![](https://www.youtube.com/watch?v=OWZlH8G8-0g)
 
 <p class="clip-credit"><strong>Knee Twist Half Guard Sweep (No-Gi)</strong> — taught by Rituals Jiu Jitsu · 2:33 · <a href="https://www.youtube.com/watch?v=OWZlH8G8-0g" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=llsV9Gn_usg)
-
-<p class="clip-credit"><strong>Octopus Half Guard Sweep</strong> — taught by The Fight Site · 1:01 · <a href="https://www.youtube.com/watch?v=llsV9Gn_usg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

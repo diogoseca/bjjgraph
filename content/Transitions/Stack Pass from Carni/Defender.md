@@ -163,17 +163,6 @@ description: "Complete guide to defending against the Stack Pass from Carni bott
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Reaping the leg vs standing: killing common counters",
-      "description": "Stack Pass from Carni (Defender) film study: Reaping the leg vs standing: killing common counters, taught by Mads H..",
-      "thumbnailUrl": "https://i.ytimg.com/vi/nT8XXf7kgNQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/nT8XXf7kgNQ",
-      "url": "https://www.youtube.com/watch?v=nT8XXf7kgNQ",
-      "creator": { "@type": "Person", "name": "Mads H." },
-      "duration": "PT549S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
       "name": "Five tips to improve your guard retention",
       "description": "Stack Pass from Carni (Defender) film study: Five tips to improve your guard retention, taught by Lachlan Giles.",
       "thumbnailUrl": "https://i.ytimg.com/vi/zIsvigk3CZQ/hqdefault.jpg",
@@ -211,14 +200,6 @@ As the bottom player in Carni defending against your opponent's stack pass attem
 ![](https://www.youtube.com/watch?v=hj1nHZUZvoA)
 
 <p class="clip-credit"><strong>Funk roll counter to the stack pass</strong> — taught by Adam Bradley · 1:00 · <a href="https://www.youtube.com/watch?v=hj1nHZUZvoA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=nT8XXf7kgNQ)
-
-<p class="clip-credit"><strong>Reaping the leg vs standing: killing common counters</strong> — taught by Mads H. · 9:09 · <a href="https://www.youtube.com/watch?v=nT8XXf7kgNQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -160,17 +160,6 @@ description: "How to defend against Mission Control Recovery in BJJ. Recognition
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Late stage guard retention using rubber guard",
-      "description": "Mission Control Recovery (Defender) film study: Late stage guard retention using rubber guard, taught by Robert Diggle.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/xNc_Cdh9VVg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/xNc_Cdh9VVg",
-      "url": "https://www.youtube.com/watch?v=xNc_Cdh9VVg",
-      "creator": { "@type": "Person", "name": "Robert Diggle" },
-      "duration": "PT189S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "The 4 Core Principles of Guard Passing",
       "description": "Mission Control Recovery (Defender) film study: The 4 Core Principles of Guard Passing, taught by Jon Thomas.",
       "thumbnailUrl": "https://i.ytimg.com/vi/4RNjb6jeRcQ/hqdefault.jpg",
@@ -181,7 +170,7 @@ description: "How to defend against Mission Control Recovery in BJJ. Recognition
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 2,
       "name": "Complete Guard Passing System in 6 Min",
       "description": "Mission Control Recovery (Defender) film study: Complete Guard Passing System in 6 Min, taught by Jon Thomas.",
       "thumbnailUrl": "https://i.ytimg.com/vi/tk48nvbT7go/hqdefault.jpg",
@@ -217,14 +206,6 @@ Strategically, preventing Mission Control Recovery breaks the rubber guard cycle
 
 <p class="section-subtitle">Watch Mission Control Recovery (Defender) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=xNc_Cdh9VVg)
-
-<p class="clip-credit"><strong>Late stage guard retention using rubber guard</strong> — taught by Robert Diggle · 3:09 · <a href="https://www.youtube.com/watch?v=xNc_Cdh9VVg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

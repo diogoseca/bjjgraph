@@ -172,17 +172,6 @@ description: "How to defend against Frame and Distance Creation in BJJ. Recognit
       "url": "https://www.youtube.com/watch?v=fuLnIKC7Qns",
       "creator": { "@type": "Person", "name": "Mikey Musumeci" },
       "duration": "PT362S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Defending the Butterfly Ashi Footlock",
-      "description": "Frame and Distance Creation (Defender) film study: Defending the Butterfly Ashi Footlock, taught by Patrick Louys.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/l7u1ce88jqM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/l7u1ce88jqM",
-      "url": "https://www.youtube.com/watch?v=l7u1ce88jqM",
-      "creator": { "@type": "Person", "name": "Patrick Louys" },
-      "duration": "PT211S"
     }
   ]
 }
@@ -223,14 +212,6 @@ The critical window for countering Frame and Distance Creation occurs during the
 ![](https://www.youtube.com/watch?v=fuLnIKC7Qns)
 
 <p class="clip-credit"><strong>Cross Ankle Defense to Straight Ankle Lock</strong> — taught by Mikey Musumeci · 6:02 · <a href="https://www.youtube.com/watch?v=fuLnIKC7Qns" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=l7u1ce88jqM)
-
-<p class="clip-credit"><strong>Defending the Butterfly Ashi Footlock</strong> — taught by Patrick Louys · 3:31 · <a href="https://www.youtube.com/watch?v=l7u1ce88jqM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

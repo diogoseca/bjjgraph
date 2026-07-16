@@ -152,17 +152,6 @@ description: "Defend against posture recovery from diamond guard in BJJ. Learn t
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Why Rubber Guard doesn\u0027t work - breaking the grip",
-      "description": "Posture Recovery from Diamond Guard (Defender) film study: Why Rubber Guard doesn\u0027t work - breaking the grip, taught by Brandon Mccaghren.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/iwcfKUPNZNs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/iwcfKUPNZNs",
-      "url": "https://www.youtube.com/watch?v=iwcfKUPNZNs",
-      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
-      "duration": "PT792S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Keeping head control and clinch in rubber guard",
       "description": "Posture Recovery from Diamond Guard (Defender) film study: Keeping head control and clinch in rubber guard, taught by Eddie Bravo.",
       "thumbnailUrl": "https://i.ytimg.com/vi/hEB4I3n9HQo/hqdefault.jpg",
@@ -173,7 +162,7 @@ description: "Defend against posture recovery from diamond guard in BJJ. Learn t
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 2,
       "name": "Rubber guard theory: retaining the clinch",
       "description": "Posture Recovery from Diamond Guard (Defender) film study: Rubber guard theory: retaining the clinch, taught by Eddie Bravo.",
       "thumbnailUrl": "https://i.ytimg.com/vi/NfR86wov0f8/hqdefault.jpg",
@@ -205,14 +194,6 @@ As the diamond guard player (bottom), your objective is to maintain the overhook
 
 <p class="section-subtitle">Watch Posture Recovery from Diamond Guard (Defender) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=iwcfKUPNZNs)
-
-<p class="clip-credit"><strong>Why Rubber Guard doesn&#39;t work - breaking the grip</strong> — taught by Brandon Mccaghren · 13:12 · <a href="https://www.youtube.com/watch?v=iwcfKUPNZNs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

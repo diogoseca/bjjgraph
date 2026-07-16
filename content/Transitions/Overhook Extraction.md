@@ -57,13 +57,13 @@ description: "Master Overhook Extraction from New York Top. Step-by-step arm ext
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Late stage guard retention using the rubber guard",
-      "description": "Overhook Extraction film study: Late stage guard retention using the rubber guard, taught by Robert Diggle.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/xNc_Cdh9VVg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/xNc_Cdh9VVg",
-      "url": "https://www.youtube.com/watch?v=xNc_Cdh9VVg",
-      "creator": { "@type": "Person", "name": "Robert Diggle" },
-      "duration": "PT189S"
+      "name": "Getting the hand to the mat from closed guard",
+      "description": "Overhook Extraction film study: Getting the hand to the mat from closed guard, taught by Ben Eddy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nANOrhajuh0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nANOrhajuh0",
+      "url": "https://www.youtube.com/watch?v=nANOrhajuh0",
+      "creator": { "@type": "Person", "name": "Ben Eddy" },
+      "duration": "PT149S"
     }
   ]
 }
@@ -125,9 +125,9 @@ Strategically, overhook extraction should not be attempted in isolation. The seq
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=xNc_Cdh9VVg)
+![](https://www.youtube.com/watch?v=nANOrhajuh0)
 
-<p class="clip-credit"><strong>Late stage guard retention using the rubber guard</strong> — taught by Robert Diggle · 3:09 · <a href="https://www.youtube.com/watch?v=xNc_Cdh9VVg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Getting the hand to the mat from closed guard</strong> — taught by Ben Eddy · 2:29 · <a href="https://www.youtube.com/watch?v=nANOrhajuh0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -171,24 +171,24 @@ description: "How to defend against Explosive Bridge to Guard Recovery in BJJ. M
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Linking Four Side Control Escapes",
-      "description": "Explosive Bridge to Guard Recovery (Defender) film study: Linking Four Side Control Escapes, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/swEcP2QWHs8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/swEcP2QWHs8",
-      "url": "https://www.youtube.com/watch?v=swEcP2QWHs8",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT565S"
+      "name": "Escaping side control against a bigger opponent",
+      "description": "Explosive Bridge to Guard Recovery (Defender) film study: Escaping side control against a bigger opponent, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_JPZaIcr90c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_JPZaIcr90c",
+      "url": "https://www.youtube.com/watch?v=_JPZaIcr90c",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT69S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Three Must-Know Side Control Escapes",
-      "description": "Explosive Bridge to Guard Recovery (Defender) film study: Three Must-Know Side Control Escapes, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/by85KB6wf8A/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/by85KB6wf8A",
-      "url": "https://www.youtube.com/watch?v=by85KB6wf8A",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT588S"
+      "name": "Protecting elbows under side control and north-south",
+      "description": "Explosive Bridge to Guard Recovery (Defender) film study: Protecting elbows under side control and north-south, taught by RedBeltJiuJitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IHAsHEanLPw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IHAsHEanLPw",
+      "url": "https://www.youtube.com/watch?v=IHAsHEanLPw",
+      "creator": { "@type": "Person", "name": "RedBeltJiuJitsu" },
+      "duration": "PT81S"
     }
   ]
 }
@@ -226,17 +226,17 @@ The critical defensive window occurs during the opponent's bridge itself. Your a
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=swEcP2QWHs8)
+![](https://www.youtube.com/watch?v=_JPZaIcr90c)
 
-<p class="clip-credit"><strong>Linking Four Side Control Escapes</strong> — taught by Lachlan Giles · 9:25 · <a href="https://www.youtube.com/watch?v=swEcP2QWHs8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escaping side control against a bigger opponent</strong> — taught by Matt Arroyo · 1:09 · <a href="https://www.youtube.com/watch?v=_JPZaIcr90c" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=by85KB6wf8A)
+![](https://www.youtube.com/watch?v=IHAsHEanLPw)
 
-<p class="clip-credit"><strong>Three Must-Know Side Control Escapes</strong> — taught by Lachlan Giles · 9:48 · <a href="https://www.youtube.com/watch?v=by85KB6wf8A" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Protecting elbows under side control and north-south</strong> — taught by RedBeltJiuJitsu · 1:21 · <a href="https://www.youtube.com/watch?v=IHAsHEanLPw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

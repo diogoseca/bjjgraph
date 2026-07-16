@@ -150,39 +150,6 @@ description: "How to defend against Explosive Bridge to Turtle in BJJ. Recogniti
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Explosive Bridge to Turtle (Defender) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Recovering From the Turtle",
-      "description": "Explosive Bridge to Turtle (Defender) film study: Recovering From the Turtle, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/61unSJ7vu4I/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/61unSJ7vu4I",
-      "url": "https://www.youtube.com/watch?v=61unSJ7vu4I",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT413S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Intro to Escaping Turtle Position",
-      "description": "Explosive Bridge to Turtle (Defender) film study: Intro to Escaping Turtle Position, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/iMI43_ct0_o/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/iMI43_ct0_o",
-      "url": "https://www.youtube.com/watch?v=iMI43_ct0_o",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT145S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -199,32 +166,6 @@ Advanced mounted crucifix controllers bait escape attempts by offering apparent 
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Explosive Bridge to Turtle (Defender) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=61unSJ7vu4I)
-
-<p class="clip-credit"><strong>Recovering From the Turtle</strong> — taught by Lachlan Giles · 6:53 · <a href="https://www.youtube.com/watch?v=61unSJ7vu4I" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=iMI43_ct0_o)
-
-<p class="clip-credit"><strong>Intro to Escaping Turtle Position</strong> — taught by Gordon Ryan · 2:25 · <a href="https://www.youtube.com/watch?v=iMI43_ct0_o" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="recognition-cues" class="content-section">

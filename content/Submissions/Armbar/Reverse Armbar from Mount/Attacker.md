@@ -182,24 +182,13 @@ description: "How to execute Reverse Armbar in BJJ. Attacking perspective with s
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Armbar from S-Mount",
-      "description": "Reverse Armbar from Mount (Attacker) film study: Armbar from S-Mount, taught by Fenrir Jiu-Jitsu Academy.",
+      "name": "Armbar from S-Mount breakdown",
+      "description": "Reverse Armbar from Mount (Attacker) film study: Armbar from S-Mount breakdown, taught by Fenrir Jiu-Jitsu Academy.",
       "thumbnailUrl": "https://i.ytimg.com/vi/2zSi7RlFJEU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/2zSi7RlFJEU",
       "url": "https://www.youtube.com/watch?v=2zSi7RlFJEU",
       "creator": { "@type": "Person", "name": "Fenrir Jiu-Jitsu Academy" },
       "duration": "PT78S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Brutal armbar from S-mount",
-      "description": "Reverse Armbar from Mount (Attacker) film study: Brutal armbar from S-mount, taught by Lux\u0027s Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/N-fwXASdMCQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/N-fwXASdMCQ",
-      "url": "https://www.youtube.com/watch?v=N-fwXASdMCQ",
-      "creator": { "@type": "Person", "name": "Lux\u0027s Jiu Jitsu" },
-      "duration": "PT80S"
     }
   ]
 }
@@ -230,15 +219,7 @@ The Reverse Armbar is an advanced elbow hyperextension technique distinguished b
 
 ![](https://www.youtube.com/watch?v=2zSi7RlFJEU)
 
-<p class="clip-credit"><strong>Armbar from S-Mount</strong> — taught by Fenrir Jiu-Jitsu Academy · 1:18 · <a href="https://www.youtube.com/watch?v=2zSi7RlFJEU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=N-fwXASdMCQ)
-
-<p class="clip-credit"><strong>Brutal armbar from S-mount</strong> — taught by Lux&#39;s Jiu Jitsu · 1:20 · <a href="https://www.youtube.com/watch?v=N-fwXASdMCQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Armbar from S-Mount breakdown</strong> — taught by Fenrir Jiu-Jitsu Academy · 1:18 · <a href="https://www.youtube.com/watch?v=2zSi7RlFJEU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

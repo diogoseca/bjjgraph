@@ -75,17 +75,6 @@ description: "Master North-South Choke in BJJ. Complete guide with setup from to
       "url": "https://www.youtube.com/watch?v=LurZB_PfUmA",
       "creator": { "@type": "Person", "name": "Todd Blatchley" },
       "duration": "PT121S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 4,
-      "name": "Arm attack options from Scarf Hold",
-      "description": "North-South Choke film study: Arm attack options from Scarf Hold, taught by Alexey Olynick.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/17m6bnarNdE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/17m6bnarNdE",
-      "url": "https://www.youtube.com/watch?v=17m6bnarNdE",
-      "creator": { "@type": "Person", "name": "Alexey Olynick" },
-      "duration": "PT89S"
     }
   ]
 }
@@ -172,14 +161,6 @@ Unlike traditional arm chokes that rely on conspicuous limb positioning, the Nor
 ![](https://www.youtube.com/watch?v=LurZB_PfUmA)
 
 <p class="clip-credit"><strong>Modified Scarf Hold North/South choke</strong> — taught by Todd Blatchley · 2:01 · <a href="https://www.youtube.com/watch?v=LurZB_PfUmA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=17m6bnarNdE)
-
-<p class="clip-credit"><strong>Arm attack options from Scarf Hold</strong> — taught by Alexey Olynick · 1:29 · <a href="https://www.youtube.com/watch?v=17m6bnarNdE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

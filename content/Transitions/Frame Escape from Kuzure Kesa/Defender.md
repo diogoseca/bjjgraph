@@ -159,6 +159,28 @@ description: "Learn to prevent and counter the frame escape from Kuzure Kesa-Gat
       "url": "https://www.youtube.com/watch?v=TfNpVcekHGg",
       "creator": { "@type": "Person", "name": "Grappler Station" },
       "duration": "PT121S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kuzure kesa gatame: holding the broken scarf pin",
+      "description": "Frame Escape from Kuzure Kesa (Defender) film study: Kuzure kesa gatame: holding the broken scarf pin, taught by JBBA Judo Education.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v_0JUOxAnpU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v_0JUOxAnpU",
+      "url": "https://www.youtube.com/watch?v=v_0JUOxAnpU",
+      "creator": { "@type": "Person", "name": "JBBA Judo Education" },
+      "duration": "PT79S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kuzure-kesa-gatame pin fundamentals",
+      "description": "Frame Escape from Kuzure Kesa (Defender) film study: Kuzure-kesa-gatame pin fundamentals, taught by International Judo Federation.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JIiuJC7s7n0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JIiuJC7s7n0",
+      "url": "https://www.youtube.com/watch?v=JIiuJC7s7n0",
+      "creator": { "@type": "Person", "name": "International Judo Federation" },
+      "duration": "PT63S"
     }
   ]
 }
@@ -189,6 +211,22 @@ Defending against the frame escape from Kuzure Kesa-Gatame means maintaining you
 ![](https://www.youtube.com/watch?v=TfNpVcekHGg)
 
 <p class="clip-credit"><strong>Kesa gatame: holding the scarf hold</strong> — taught by Grappler Station · 2:01 · <a href="https://www.youtube.com/watch?v=TfNpVcekHGg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v_0JUOxAnpU)
+
+<p class="clip-credit"><strong>Kuzure kesa gatame: holding the broken scarf pin</strong> — taught by JBBA Judo Education · 1:19 · <a href="https://www.youtube.com/watch?v=v_0JUOxAnpU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JIiuJC7s7n0)
+
+<p class="clip-credit"><strong>Kuzure-kesa-gatame pin fundamentals</strong> — taught by International Judo Federation · 1:03 · <a href="https://www.youtube.com/watch?v=JIiuJC7s7n0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

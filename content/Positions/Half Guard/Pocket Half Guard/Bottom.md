@@ -165,17 +165,6 @@ description: "Master Pocket Half Guard Bottom in BJJ. Deep underhook half guard 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Deep half guard Faria sweep",
-      "description": "Pocket Half Guard (Bottom) film study: Deep half guard Faria sweep, taught by Masahiro Iwasaki.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/4EpYNsTwjWY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/4EpYNsTwjWY",
-      "url": "https://www.youtube.com/watch?v=4EpYNsTwjWY",
-      "creator": { "@type": "Person", "name": "Masahiro Iwasaki" },
-      "duration": "PT71S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Roger windmill half guard sweep",
       "description": "Pocket Half Guard (Bottom) film study: Roger windmill half guard sweep, taught by SBG Australia.",
       "thumbnailUrl": "https://i.ytimg.com/vi/X3M6JUqr1Bo/hqdefault.jpg",
@@ -183,6 +172,28 @@ description: "Master Pocket Half Guard Bottom in BJJ. Deep underhook half guard 
       "url": "https://www.youtube.com/watch?v=X3M6JUqr1Bo",
       "creator": { "@type": "Person", "name": "SBG Australia" },
       "duration": "PT16S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Forcing Half Guard: Clearing the Line of Feet",
+      "description": "Pocket Half Guard (Bottom) film study: Forcing Half Guard: Clearing the Line of Feet, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kw8cs6soC8M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kw8cs6soC8M",
+      "url": "https://www.youtube.com/watch?v=kw8cs6soC8M",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Half Guard Entries to Switch Base",
+      "description": "Pocket Half Guard (Bottom) film study: Half Guard Entries to Switch Base, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9Z9TSmFppbM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9Z9TSmFppbM",
+      "url": "https://www.youtube.com/watch?v=9Z9TSmFppbM",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT70S"
     }
   ]
 }
@@ -212,17 +223,25 @@ Pocket Half Guard Bottom is particularly effective against opponents who favor h
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=4EpYNsTwjWY)
+![](https://www.youtube.com/watch?v=X3M6JUqr1Bo)
 
-<p class="clip-credit"><strong>Deep half guard Faria sweep</strong> — taught by Masahiro Iwasaki · 1:11 · <a href="https://www.youtube.com/watch?v=4EpYNsTwjWY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Roger windmill half guard sweep</strong> — taught by SBG Australia · 0:16 · <a href="https://www.youtube.com/watch?v=X3M6JUqr1Bo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=X3M6JUqr1Bo)
+![](https://www.youtube.com/watch?v=kw8cs6soC8M)
 
-<p class="clip-credit"><strong>Roger windmill half guard sweep</strong> — taught by SBG Australia · 0:16 · <a href="https://www.youtube.com/watch?v=X3M6JUqr1Bo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Forcing Half Guard: Clearing the Line of Feet</strong> — taught by Lachlan Giles · 1:28 · <a href="https://www.youtube.com/watch?v=kw8cs6soC8M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9Z9TSmFppbM)
+
+<p class="clip-credit"><strong>Half Guard Entries to Switch Base</strong> — taught by Lachlan Giles · 1:10 · <a href="https://www.youtube.com/watch?v=9Z9TSmFppbM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

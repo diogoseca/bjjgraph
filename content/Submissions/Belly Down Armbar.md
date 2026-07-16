@@ -75,17 +75,6 @@ description: "Master the Belly Down Armbar in BJJ. Complete guide with safety pr
       "url": "https://www.youtube.com/watch?v=EdYFELAO6B0",
       "creator": { "@type": "Person", "name": "Robert Hugus" },
       "duration": "PT41S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 4,
-      "name": "Ude-Gatame",
-      "description": "Belly Down Armbar film study: Ude-Gatame, taught by Travis Stevens.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Mu1TlMqe6KY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Mu1TlMqe6KY",
-      "url": "https://www.youtube.com/watch?v=Mu1TlMqe6KY",
-      "creator": { "@type": "Person", "name": "Travis Stevens" },
-      "duration": "PT37S"
     }
   ]
 }
@@ -171,14 +160,6 @@ The key to success lies in rapid arm isolation, maintaining connection to the op
 ![](https://www.youtube.com/watch?v=EdYFELAO6B0)
 
 <p class="clip-credit"><strong>Belly Down Armbar from Guard</strong> — taught by Robert Hugus · 0:41 · <a href="https://www.youtube.com/watch?v=EdYFELAO6B0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Mu1TlMqe6KY)
-
-<p class="clip-credit"><strong>Ude-Gatame</strong> — taught by Travis Stevens · 0:37 · <a href="https://www.youtube.com/watch?v=Mu1TlMqe6KY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

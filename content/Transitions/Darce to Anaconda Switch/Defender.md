@@ -167,17 +167,6 @@ description: "Learn to defend and escape the Darce to Anaconda Switch in BJJ. Re
       "url": "https://www.youtube.com/watch?v=5rVU51Brvs4",
       "creator": { "@type": "Person", "name": "Jiu Jitsu Five-O coach" },
       "duration": "PT49S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Preventing the sucker drag during the anaconda",
-      "description": "Darce to Anaconda Switch (Defender) film study: Preventing the sucker drag during the anaconda, taught by Drew Darce.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/guHPx-OKi0M/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/guHPx-OKi0M",
-      "url": "https://www.youtube.com/watch?v=guHPx-OKi0M",
-      "creator": { "@type": "Person", "name": "Drew Darce" },
-      "duration": "PT159S"
     }
   ]
 }
@@ -208,14 +197,6 @@ Defending the Darce to Anaconda Switch requires recognizing the critical window 
 ![](https://www.youtube.com/watch?v=5rVU51Brvs4)
 
 <p class="clip-credit"><strong>Turtle escape from the front headlock</strong> — taught by Jiu Jitsu Five-O coach · 0:49 · <a href="https://www.youtube.com/watch?v=5rVU51Brvs4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=guHPx-OKi0M)
-
-<p class="clip-credit"><strong>Preventing the sucker drag during the anaconda</strong> — taught by Drew Darce · 2:39 · <a href="https://www.youtube.com/watch?v=guHPx-OKi0M" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

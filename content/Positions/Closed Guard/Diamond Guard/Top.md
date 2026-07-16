@@ -153,17 +153,6 @@ description: "Master Diamond Guard in BJJ. Closed guard variation using overhook
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Six Submissions from the Diamond Guard (No-Gi)",
-      "description": "Diamond Guard (Top) film study: Six Submissions from the Diamond Guard (No-Gi), taught by Jordan Hix.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/rYqsDLsoqYo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/rYqsDLsoqYo",
-      "url": "https://www.youtube.com/watch?v=rYqsDLsoqYo",
-      "creator": { "@type": "Person", "name": "Jordan Hix" },
-      "duration": "PT361S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Leg Weave Pass vs Shin Shield",
       "description": "Diamond Guard (Top) film study: Leg Weave Pass vs Shin Shield, taught by Brandon Quick.",
       "thumbnailUrl": "https://i.ytimg.com/vi/aKeWGv9pkKI/hqdefault.jpg",
@@ -171,6 +160,17 @@ description: "Master Diamond Guard in BJJ. Closed guard variation using overhook
       "url": "https://www.youtube.com/watch?v=aKeWGv9pkKI",
       "creator": { "@type": "Person", "name": "Brandon Quick" },
       "duration": "PT320S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Connecting Underhooks and Overhooks in Guard",
+      "description": "Diamond Guard (Top) film study: Connecting Underhooks and Overhooks in Guard, taught by Magid Hage.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HOTmrlkfUb8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HOTmrlkfUb8",
+      "url": "https://www.youtube.com/watch?v=HOTmrlkfUb8",
+      "creator": { "@type": "Person", "name": "Magid Hage" },
+      "duration": "PT136S"
     }
   ]
 }
@@ -200,17 +200,17 @@ Diamond Guard transforms standard closed guard into an aggressive submission-hun
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=rYqsDLsoqYo)
+![](https://www.youtube.com/watch?v=aKeWGv9pkKI)
 
-<p class="clip-credit"><strong>Six Submissions from the Diamond Guard (No-Gi)</strong> — taught by Jordan Hix · 6:01 · <a href="https://www.youtube.com/watch?v=rYqsDLsoqYo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Leg Weave Pass vs Shin Shield</strong> — taught by Brandon Quick · 5:20 · <a href="https://www.youtube.com/watch?v=aKeWGv9pkKI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=aKeWGv9pkKI)
+![](https://www.youtube.com/watch?v=HOTmrlkfUb8)
 
-<p class="clip-credit"><strong>Leg Weave Pass vs Shin Shield</strong> — taught by Brandon Quick · 5:20 · <a href="https://www.youtube.com/watch?v=aKeWGv9pkKI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Connecting Underhooks and Overhooks in Guard</strong> — taught by Magid Hage · 2:16 · <a href="https://www.youtube.com/watch?v=HOTmrlkfUb8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

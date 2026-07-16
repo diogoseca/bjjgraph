@@ -153,24 +153,13 @@ description: "Master defending and escaping Carni position in BJJ. Essential def
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Defending and escaping the saddle entanglement",
-      "description": "Carni (Top) film study: Defending and escaping the saddle entanglement, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/CFTLb8iywJg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/CFTLb8iywJg",
-      "url": "https://www.youtube.com/watch?v=CFTLb8iywJg",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT383S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Clearing the knee line for leglock defense",
-      "description": "Carni (Top) film study: Clearing the knee line for leglock defense, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/JbRfIo1NTLk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/JbRfIo1NTLk",
-      "url": "https://www.youtube.com/watch?v=JbRfIo1NTLk",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT274S"
+      "name": "Butterfly Guard to Carni Shoulder Lock",
+      "description": "Carni (Top) film study: Butterfly Guard to Carni Shoulder Lock, taught by DanTheWolfman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_QBVfCG5tBg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_QBVfCG5tBg",
+      "url": "https://www.youtube.com/watch?v=_QBVfCG5tBg",
+      "creator": { "@type": "Person", "name": "DanTheWolfman" },
+      "duration": "PT59S"
     }
   ]
 }
@@ -202,17 +191,9 @@ The most successful escapes from Carni involve recognizing the position early, b
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=CFTLb8iywJg)
+![](https://www.youtube.com/watch?v=_QBVfCG5tBg)
 
-<p class="clip-credit"><strong>Defending and escaping the saddle entanglement</strong> — taught by Lachlan Giles · 6:23 · <a href="https://www.youtube.com/watch?v=CFTLb8iywJg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=JbRfIo1NTLk)
-
-<p class="clip-credit"><strong>Clearing the knee line for leglock defense</strong> — taught by Craig Jones · 4:34 · <a href="https://www.youtube.com/watch?v=JbRfIo1NTLk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Butterfly Guard to Carni Shoulder Lock</strong> — taught by DanTheWolfman · 0:59 · <a href="https://www.youtube.com/watch?v=_QBVfCG5tBg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

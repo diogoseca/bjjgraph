@@ -155,24 +155,24 @@ description: "Defend and prevent the counter sweep from leg entanglement. Recogn
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Five leglock counters to ashi garami",
-      "description": "Counter Sweep from Leg Entanglement (Defender) film study: Five leglock counters to ashi garami, taught by BJJBlackBeltDad.",
+      "name": "Heel hook vs ankle lock defense compared",
+      "description": "Counter Sweep from Leg Entanglement (Defender) film study: Heel hook vs ankle lock defense compared, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yUdB-EJaXgQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yUdB-EJaXgQ",
+      "url": "https://www.youtube.com/watch?v=yUdB-EJaXgQ",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT133S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "5 leglock counters from ashi garami",
+      "description": "Counter Sweep from Leg Entanglement (Defender) film study: 5 leglock counters from ashi garami, taught by BJJBlackBeltDad.",
       "thumbnailUrl": "https://i.ytimg.com/vi/QMgsMSTRSBI/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/QMgsMSTRSBI",
       "url": "https://www.youtube.com/watch?v=QMgsMSTRSBI",
       "creator": { "@type": "Person", "name": "BJJBlackBeltDad" },
       "duration": "PT93S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "50/50 defense: protecting your leg",
-      "description": "Counter Sweep from Leg Entanglement (Defender) film study: 50/50 defense: protecting your leg, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/R7lPdQWLOus/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/R7lPdQWLOus",
-      "url": "https://www.youtube.com/watch?v=R7lPdQWLOus",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT161S"
     }
   ]
 }
@@ -208,17 +208,17 @@ As the defender against the counter sweep, you are the leg lock attacker whose o
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=QMgsMSTRSBI)
+![](https://www.youtube.com/watch?v=yUdB-EJaXgQ)
 
-<p class="clip-credit"><strong>Five leglock counters to ashi garami</strong> — taught by BJJBlackBeltDad · 1:33 · <a href="https://www.youtube.com/watch?v=QMgsMSTRSBI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Heel hook vs ankle lock defense compared</strong> — taught by Craig Jones · 2:13 · <a href="https://www.youtube.com/watch?v=yUdB-EJaXgQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=R7lPdQWLOus)
+![](https://www.youtube.com/watch?v=QMgsMSTRSBI)
 
-<p class="clip-credit"><strong>50/50 defense: protecting your leg</strong> — taught by Lachlan Giles · 2:41 · <a href="https://www.youtube.com/watch?v=R7lPdQWLOus" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>5 leglock counters from ashi garami</strong> — taught by BJJBlackBeltDad · 1:33 · <a href="https://www.youtube.com/watch?v=QMgsMSTRSBI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

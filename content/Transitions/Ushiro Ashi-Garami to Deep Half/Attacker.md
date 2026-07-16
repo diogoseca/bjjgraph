@@ -191,13 +191,24 @@ description: "How to execute Ushiro Ashi-Garami to Deep Half in BJJ. Attacking p
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Z guard to backside 50/50 entry",
-      "description": "Ushiro Ashi-Garami to Deep Half (Attacker) film study: Z guard to backside 50/50 entry, taught by Revolution BJJ Ashland.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/E2eeNrFW-F4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/E2eeNrFW-F4",
-      "url": "https://www.youtube.com/watch?v=E2eeNrFW-F4",
-      "creator": { "@type": "Person", "name": "Revolution BJJ Ashland" },
-      "duration": "PT122S"
+      "name": "Roll under from ashi to backside 50/50",
+      "description": "Ushiro Ashi-Garami to Deep Half (Attacker) film study: Roll under from ashi to backside 50/50, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DBbSqQf6iCo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DBbSqQf6iCo",
+      "url": "https://www.youtube.com/watch?v=DBbSqQf6iCo",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT110S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Getting to backside 50/50 entanglement",
+      "description": "Ushiro Ashi-Garami to Deep Half (Attacker) film study: Getting to backside 50/50 entanglement, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ucAwPgTLSpQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ucAwPgTLSpQ",
+      "url": "https://www.youtube.com/watch?v=ucAwPgTLSpQ",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT121S"
     }
   ]
 }
@@ -233,9 +244,17 @@ From ushiro ashi-garami bottom, the player executing this escape treats the reve
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=E2eeNrFW-F4)
+![](https://www.youtube.com/watch?v=DBbSqQf6iCo)
 
-<p class="clip-credit"><strong>Z guard to backside 50/50 entry</strong> — taught by Revolution BJJ Ashland · 2:02 · <a href="https://www.youtube.com/watch?v=E2eeNrFW-F4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Roll under from ashi to backside 50/50</strong> — taught by Lachlan Giles · 1:50 · <a href="https://www.youtube.com/watch?v=DBbSqQf6iCo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ucAwPgTLSpQ)
+
+<p class="clip-credit"><strong>Getting to backside 50/50 entanglement</strong> — taught by Lachlan Giles · 2:01 · <a href="https://www.youtube.com/watch?v=ucAwPgTLSpQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

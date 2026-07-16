@@ -163,17 +163,6 @@ description: "Learn to defend the Lasso Guard Backstep Pass. Recognition cues, t
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "The right way to get feet on biceps position",
-      "description": "Lasso Guard Backstep Pass (Defender) film study: The right way to get feet on biceps position, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Bp0v7c_MrbY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Bp0v7c_MrbY",
-      "url": "https://www.youtube.com/watch?v=Bp0v7c_MrbY",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT125S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
       "name": "Guard retention: when to sit up escape",
       "description": "Lasso Guard Backstep Pass (Defender) film study: Guard retention: when to sit up escape, taught by Lachlan Giles.",
       "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
@@ -211,14 +200,6 @@ Defending the Lasso Guard Backstep Pass from the bottom lasso guard position req
 ![](https://www.youtube.com/watch?v=wBRG0fY94fs)
 
 <p class="clip-credit"><strong>Defend a kneebar and prevent the backstep pass</strong> — taught by Revolution BJJ · 0:59 · <a href="https://www.youtube.com/watch?v=wBRG0fY94fs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Bp0v7c_MrbY)
-
-<p class="clip-credit"><strong>The right way to get feet on biceps position</strong> — taught by Lachlan Giles · 2:05 · <a href="https://www.youtube.com/watch?v=Bp0v7c_MrbY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -286,21 +286,21 @@
     "safety_considerations": "Guard recovery from guillotine control carries moderate risk primarily from neck strain. The guillotine position itself places stress on the cervical spine, and transitioning out of it while the opponent may still have partial head control requires careful neck management. Avoid explosive head movements to extract from residual guillotine pressure—instead, use posture and framing to gradually relieve neck compression. Communicate with training partners about choke intensity during guillotine-to-guard-recovery drilling to prevent carotid compression injuries during the transition window.",
     "clips": [
       {
-        "id": "IvSVZuezQGo",
-        "title": "Double Elbow to High Elbow Guillotine",
-        "by": "Marcelo Garcia",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 171,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "aMzd1nLGvMs",
         "title": "Sweep From Failed Guillotine In The Guard",
         "by": "GrapplingMechanics Coach",
         "vertical": false,
         "channel": "GrapplingMechanics",
         "duration": 56,
+        "verified": "2026-07-16"
+      },
+      {
+        "id": "IQ-niRwUvqg",
+        "title": "Running escape to guard recovery, no-gi",
+        "by": "Robyn Sheehan",
+        "vertical": false,
+        "channel": "Robyn Sheehan",
+        "duration": 131,
         "verified": "2026-07-16"
       }
     ]

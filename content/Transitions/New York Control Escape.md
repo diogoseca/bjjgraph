@@ -57,24 +57,13 @@ description: "Master New York Control Escape in BJJ. Systematic overhook extract
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Rubber guard: Mission Control setup",
-      "description": "New York Control Escape film study: Rubber guard: Mission Control setup, taught by JitsHappens.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/hc5zImDLQ7k/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/hc5zImDLQ7k",
-      "url": "https://www.youtube.com/watch?v=hc5zImDLQ7k",
-      "creator": { "@type": "Person", "name": "JitsHappens" },
-      "duration": "PT47S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Eddie Bravo breaks down rubber guard in The Cycle",
-      "description": "New York Control Escape film study: Eddie Bravo breaks down rubber guard in The Cycle, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/QR0J42UKoSI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/QR0J42UKoSI",
-      "url": "https://www.youtube.com/watch?v=QR0J42UKoSI",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT325S"
+      "name": "Side control escape to the Hazlet",
+      "description": "New York Control Escape film study: Side control escape to the Hazlet, taught by 10th Planet Orange Park.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ldL974KL5sg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ldL974KL5sg",
+      "url": "https://www.youtube.com/watch?v=ldL974KL5sg",
+      "creator": { "@type": "Person", "name": "10th Planet Orange Park" },
+      "duration": "PT22S"
     }
   ]
 }
@@ -136,17 +125,9 @@ Strategic mastery of this escape extends beyond simple positional recovery. Prac
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=hc5zImDLQ7k)
+![](https://www.youtube.com/watch?v=ldL974KL5sg)
 
-<p class="clip-credit"><strong>Rubber guard: Mission Control setup</strong> — taught by JitsHappens · 0:47 · <a href="https://www.youtube.com/watch?v=hc5zImDLQ7k" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=QR0J42UKoSI)
-
-<p class="clip-credit"><strong>Eddie Bravo breaks down rubber guard in The Cycle</strong> — taught by Eddie Bravo · 5:25 · <a href="https://www.youtube.com/watch?v=QR0J42UKoSI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Side control escape to the Hazlet</strong> — taught by 10th Planet Orange Park · 0:22 · <a href="https://www.youtube.com/watch?v=ldL974KL5sg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

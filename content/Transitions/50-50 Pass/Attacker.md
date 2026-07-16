@@ -186,17 +186,6 @@ description: "How to execute 50-50 Pass in BJJ. Attacking perspective with setup
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Lachlan Giles heel hooks from 50/50",
-      "description": "50-50 Pass (Attacker) film study: Lachlan Giles heel hooks from 50/50, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/UuluKZKDt8w/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/UuluKZKDt8w",
-      "url": "https://www.youtube.com/watch?v=UuluKZKDt8w",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT64S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "50/50 pass to back take",
       "description": "50-50 Pass (Attacker) film study: 50/50 pass to back take, taught by BJJ Recap coach.",
       "thumbnailUrl": "https://i.ytimg.com/vi/gRTPtnZgdKA/hqdefault.jpg",
@@ -207,7 +196,7 @@ description: "How to execute 50-50 Pass in BJJ. Attacking perspective with setup
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 2,
       "name": "50/50 to leg drag pass",
       "description": "50-50 Pass (Attacker) film study: 50/50 to leg drag pass, taught by Muny Munoz.",
       "thumbnailUrl": "https://i.ytimg.com/vi/dFTRdgvZoPU/hqdefault.jpg",
@@ -239,14 +228,6 @@ The 50-50 Pass is a critical escape and passing sequence from one of Brazilian J
 
 <p class="section-subtitle">Watch 50-50 Pass (Attacker) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=UuluKZKDt8w)
-
-<p class="clip-credit"><strong>Lachlan Giles heel hooks from 50/50</strong> — taught by Lachlan Giles · 1:04 · <a href="https://www.youtube.com/watch?v=UuluKZKDt8w" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

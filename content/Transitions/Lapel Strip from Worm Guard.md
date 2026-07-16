@@ -46,17 +46,6 @@ description: "Master the Lapel Strip from Worm Guard in BJJ. Systematic guide to
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Worm Guard Sweep from Deep Half Guard",
-      "description": "Lapel Strip from Worm Guard film study: Worm Guard Sweep from Deep Half Guard, taught by Keenan Cornelius.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/adbXsY1gPL8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/adbXsY1gPL8",
-      "url": "https://www.youtube.com/watch?v=adbXsY1gPL8",
-      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
-      "duration": "PT254S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Worm Guard 101",
       "description": "Lapel Strip from Worm Guard film study: Worm Guard 101, taught by Keenan Cornelius.",
       "thumbnailUrl": "https://i.ytimg.com/vi/lLvkMU0xdHw/hqdefault.jpg",
@@ -64,6 +53,17 @@ description: "Master the Lapel Strip from Worm Guard in BJJ. Systematic guide to
       "url": "https://www.youtube.com/watch?v=lLvkMU0xdHw",
       "creator": { "@type": "Person", "name": "Keenan Cornelius" },
       "duration": "PT427S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Stripping the lapel to pass worm rider guard",
+      "description": "Lapel Strip from Worm Guard film study: Stripping the lapel to pass worm rider guard, taught by Daniel Maira.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aR0dbddbfQA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aR0dbddbfQA",
+      "url": "https://www.youtube.com/watch?v=aR0dbddbfQA",
+      "creator": { "@type": "Person", "name": "Daniel Maira" },
+      "duration": "PT54S"
     }
   ]
 }
@@ -117,17 +117,17 @@ Understanding the lapel strip within the broader worm guard passing context is c
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=adbXsY1gPL8)
+![](https://www.youtube.com/watch?v=lLvkMU0xdHw)
 
-<p class="clip-credit"><strong>Worm Guard Sweep from Deep Half Guard</strong> — taught by Keenan Cornelius · 4:14 · <a href="https://www.youtube.com/watch?v=adbXsY1gPL8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Worm Guard 101</strong> — taught by Keenan Cornelius · 7:07 · <a href="https://www.youtube.com/watch?v=lLvkMU0xdHw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=lLvkMU0xdHw)
+![](https://www.youtube.com/watch?v=aR0dbddbfQA)
 
-<p class="clip-credit"><strong>Worm Guard 101</strong> — taught by Keenan Cornelius · 7:07 · <a href="https://www.youtube.com/watch?v=lLvkMU0xdHw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Stripping the lapel to pass worm rider guard</strong> — taught by Daniel Maira · 0:54 · <a href="https://www.youtube.com/watch?v=aR0dbddbfQA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

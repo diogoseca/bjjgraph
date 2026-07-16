@@ -165,17 +165,6 @@ description: "Master feet on hips guard bottom in BJJ. Distance management, swee
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Getting the Feet on Biceps Position",
-      "description": "Feet on Hips Guard (Bottom) film study: Getting the Feet on Biceps Position, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Bp0v7c_MrbY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Bp0v7c_MrbY",
-      "url": "https://www.youtube.com/watch?v=Bp0v7c_MrbY",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT125S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Foot in Hip Sweep",
       "description": "Feet on Hips Guard (Bottom) film study: Foot in Hip Sweep, taught by Mark VanSchuyver.",
       "thumbnailUrl": "https://i.ytimg.com/vi/WzT_DVarJGE/hqdefault.jpg",
@@ -186,7 +175,7 @@ description: "Master feet on hips guard bottom in BJJ. Distance management, swee
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 2,
       "name": "X-Choke from Feet on Hips Guard",
       "description": "Feet on Hips Guard (Bottom) film study: X-Choke from Feet on Hips Guard, taught by RKBJJ.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Ung3A0olxus/hqdefault.jpg",
@@ -216,14 +205,6 @@ Feet on Hips Guard Bottom is the guard player's perspective in this fundamental 
 
 <p class="section-subtitle">Watch Feet on Hips Guard (Bottom) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Bp0v7c_MrbY)
-
-<p class="clip-credit"><strong>Getting the Feet on Biceps Position</strong> — taught by Lachlan Giles · 2:05 · <a href="https://www.youtube.com/watch?v=Bp0v7c_MrbY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

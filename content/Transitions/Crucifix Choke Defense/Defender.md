@@ -163,13 +163,13 @@ description: "Counter your opponent's choke defense from crucifix top. Maintain 
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Simple crucifix escape",
-      "description": "Crucifix Choke Defense (Defender) film study: Simple crucifix escape, taught by Coach Brian.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Wrg5Tx-88yM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Wrg5Tx-88yM",
-      "url": "https://www.youtube.com/watch?v=Wrg5Tx-88yM",
-      "creator": { "@type": "Person", "name": "Coach Brian" },
-      "duration": "PT149S"
+      "name": "Countering the sit out back into crucifix",
+      "description": "Crucifix Choke Defense (Defender) film study: Countering the sit out back into crucifix, taught by The Art of Fighting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Xft_S7G_yeo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Xft_S7G_yeo",
+      "url": "https://www.youtube.com/watch?v=Xft_S7G_yeo",
+      "creator": { "@type": "Person", "name": "The Art of Fighting" },
+      "duration": "PT61S"
     }
   ]
 }
@@ -205,9 +205,9 @@ As the top player in crucifix attempting to finish a choke, you become the defen
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Wrg5Tx-88yM)
+![](https://www.youtube.com/watch?v=Xft_S7G_yeo)
 
-<p class="clip-credit"><strong>Simple crucifix escape</strong> — taught by Coach Brian · 2:29 · <a href="https://www.youtube.com/watch?v=Wrg5Tx-88yM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Countering the sit out back into crucifix</strong> — taught by The Art of Fighting · 1:01 · <a href="https://www.youtube.com/watch?v=Xft_S7G_yeo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

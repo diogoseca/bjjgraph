@@ -163,24 +163,24 @@ description: "Counter the shoulder walk escape from back control in BJJ. Learn t
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Turtle Escape and Back-Exposure System",
-      "description": "Shoulder Walk Escape from Back (Defender) film study: Turtle Escape and Back-Exposure System, taught by Jozef Chen.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Ft6OyIZ6vPs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Ft6OyIZ6vPs",
-      "url": "https://www.youtube.com/watch?v=Ft6OyIZ6vPs",
-      "creator": { "@type": "Person", "name": "Jozef Chen" },
-      "duration": "PT149S"
+      "name": "The safe escape from back control",
+      "description": "Shoulder Walk Escape from Back (Defender) film study: The safe escape from back control, taught by BJJ Arvada.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/grnBjk4KArk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/grnBjk4KArk",
+      "url": "https://www.youtube.com/watch?v=grnBjk4KArk",
+      "creator": { "@type": "Person", "name": "BJJ Arvada" },
+      "duration": "PT111S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Back Control Escape Explained Simply",
-      "description": "Shoulder Walk Escape from Back (Defender) film study: Back Control Escape Explained Simply, taught by Jean Jacques Machado.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/3Jd2llamfl8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/3Jd2llamfl8",
-      "url": "https://www.youtube.com/watch?v=3Jd2llamfl8",
-      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
-      "duration": "PT189S"
+      "name": "Defending back control with only one hook in",
+      "description": "Shoulder Walk Escape from Back (Defender) film study: Defending back control with only one hook in, taught by Inverted Gear.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pUECcQ8JJeA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pUECcQ8JJeA",
+      "url": "https://www.youtube.com/watch?v=pUECcQ8JJeA",
+      "creator": { "@type": "Person", "name": "Inverted Gear" },
+      "duration": "PT67S"
     }
   ]
 }
@@ -216,17 +216,17 @@ As the defender maintaining back control against a shoulder walk escape attempt,
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Ft6OyIZ6vPs)
+![](https://www.youtube.com/watch?v=grnBjk4KArk)
 
-<p class="clip-credit"><strong>Turtle Escape and Back-Exposure System</strong> — taught by Jozef Chen · 2:29 · <a href="https://www.youtube.com/watch?v=Ft6OyIZ6vPs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The safe escape from back control</strong> — taught by BJJ Arvada · 1:51 · <a href="https://www.youtube.com/watch?v=grnBjk4KArk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=3Jd2llamfl8)
+![](https://www.youtube.com/watch?v=pUECcQ8JJeA)
 
-<p class="clip-credit"><strong>Back Control Escape Explained Simply</strong> — taught by Jean Jacques Machado · 3:09 · <a href="https://www.youtube.com/watch?v=3Jd2llamfl8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Defending back control with only one hook in</strong> — taught by Inverted Gear · 1:07 · <a href="https://www.youtube.com/watch?v=pUECcQ8JJeA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

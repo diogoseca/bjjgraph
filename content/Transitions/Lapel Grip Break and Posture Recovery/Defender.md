@@ -160,17 +160,6 @@ description: "How to defend against Lapel Grip Break and Posture Recovery in BJJ
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Grip Break and Guard Recovery",
-      "description": "Lapel Grip Break and Posture Recovery (Defender) film study: Grip Break and Guard Recovery, taught by Robson Moura.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/NkkNU_V1YaU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/NkkNU_V1YaU",
-      "url": "https://www.youtube.com/watch?v=NkkNU_V1YaU",
-      "creator": { "@type": "Person", "name": "Robson Moura" },
-      "duration": "PT232S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Countering the Worm and Lapel Guard",
       "description": "Lapel Grip Break and Posture Recovery (Defender) film study: Countering the Worm and Lapel Guard, taught by Kevin Nguyen.",
       "thumbnailUrl": "https://i.ytimg.com/vi/wB2JljlB1Rg/hqdefault.jpg",
@@ -206,14 +195,6 @@ Defensive success depends on reading the top player's weight distribution and ti
 
 <p class="section-subtitle">Watch Lapel Grip Break and Posture Recovery (Defender) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=NkkNU_V1YaU)
-
-<p class="clip-credit"><strong>Grip Break and Guard Recovery</strong> — taught by Robson Moura · 3:52 · <a href="https://www.youtube.com/watch?v=NkkNU_V1YaU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

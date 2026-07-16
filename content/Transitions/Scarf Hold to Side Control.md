@@ -64,17 +64,6 @@ description: "Master the Scarf Hold to Side Control transition in BJJ. Learn gri
       "url": "https://www.youtube.com/watch?v=aAKcSjzX4to",
       "creator": { "@type": "Person", "name": "Raven Jiu Jitsu" },
       "duration": "PT115S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Kesa Gatame to Kimura transition",
-      "description": "Scarf Hold to Side Control film study: Kesa Gatame to Kimura transition, taught by Strong Hold Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/d7ucks8aHN0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/d7ucks8aHN0",
-      "url": "https://www.youtube.com/watch?v=d7ucks8aHN0",
-      "creator": { "@type": "Person", "name": "Strong Hold Jiu Jitsu" },
-      "duration": "PT71S"
     }
   ]
 }
@@ -139,14 +128,6 @@ Strategically, this transition is most valuable when the bottom player has neutr
 ![](https://www.youtube.com/watch?v=aAKcSjzX4to)
 
 <p class="clip-credit"><strong>Side Control to Scarf Hold</strong> — taught by Raven Jiu Jitsu · 1:55 · <a href="https://www.youtube.com/watch?v=aAKcSjzX4to" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=d7ucks8aHN0)
-
-<p class="clip-credit"><strong>Kesa Gatame to Kimura transition</strong> — taught by Strong Hold Jiu Jitsu · 1:11 · <a href="https://www.youtube.com/watch?v=d7ucks8aHN0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

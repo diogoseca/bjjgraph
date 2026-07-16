@@ -58,24 +58,24 @@ description: "Master the Half Guard Whizzer Counter in BJJ. Kill the bottom play
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Defending the whizzer or overhook",
-      "description": "Half Guard Whizzer Counter film study: Defending the whizzer or overhook, taught by Pendergrass Academy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/IQ2mviobbI0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/IQ2mviobbI0",
-      "url": "https://www.youtube.com/watch?v=IQ2mviobbI0",
-      "creator": { "@type": "Person", "name": "Pendergrass Academy" },
-      "duration": "PT138S"
+      "name": "Half guard bridge to underhook countering the whizzer",
+      "description": "Half Guard Whizzer Counter film study: Half guard bridge to underhook countering the whizzer, taught by Andrew Smith.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/D1Hhvv4pXQA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/D1Hhvv4pXQA",
+      "url": "https://www.youtube.com/watch?v=D1Hhvv4pXQA",
+      "creator": { "@type": "Person", "name": "Andrew Smith" },
+      "duration": "PT78S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Dip under sweep: whizzer counter",
-      "description": "Half Guard Whizzer Counter film study: Dip under sweep: whizzer counter, taught by JiuJitsu.com.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/pYljJ1yRXO4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/pYljJ1yRXO4",
-      "url": "https://www.youtube.com/watch?v=pYljJ1yRXO4",
-      "creator": { "@type": "Person", "name": "JiuJitsu.com" },
-      "duration": "PT169S"
+      "name": "Countering the whizzer with a belly down armbar",
+      "description": "Half Guard Whizzer Counter film study: Countering the whizzer with a belly down armbar, taught by Andrew Smith.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0K3j7bbw6tI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0K3j7bbw6tI",
+      "url": "https://www.youtube.com/watch?v=0K3j7bbw6tI",
+      "creator": { "@type": "Person", "name": "Andrew Smith" },
+      "duration": "PT126S"
     }
   ]
 }
@@ -140,17 +140,17 @@ The Half Guard Whizzer Counter rewards timing and structure over strength. Begin
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=IQ2mviobbI0)
+![](https://www.youtube.com/watch?v=D1Hhvv4pXQA)
 
-<p class="clip-credit"><strong>Defending the whizzer or overhook</strong> — taught by Pendergrass Academy · 2:18 · <a href="https://www.youtube.com/watch?v=IQ2mviobbI0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Half guard bridge to underhook countering the whizzer</strong> — taught by Andrew Smith · 1:18 · <a href="https://www.youtube.com/watch?v=D1Hhvv4pXQA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=pYljJ1yRXO4)
+![](https://www.youtube.com/watch?v=0K3j7bbw6tI)
 
-<p class="clip-credit"><strong>Dip under sweep: whizzer counter</strong> — taught by JiuJitsu.com · 2:49 · <a href="https://www.youtube.com/watch?v=pYljJ1yRXO4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Countering the whizzer with a belly down armbar</strong> — taught by Andrew Smith · 2:06 · <a href="https://www.youtube.com/watch?v=0K3j7bbw6tI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

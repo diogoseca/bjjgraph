@@ -152,17 +152,6 @@ description: "Learn to defend against an opponent standing up from Ashi Garami. 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Escaping ashi garami \u2014 leg lock defense",
-      "description": "Standing Up from Ashi Garami (Defender) film study: Escaping ashi garami \u2014 leg lock defense, taught by Scott Elliott.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/AQbJMBiWYfU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/AQbJMBiWYfU",
-      "url": "https://www.youtube.com/watch?v=AQbJMBiWYfU",
-      "creator": { "@type": "Person", "name": "Scott Elliott" },
-      "duration": "PT141S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Pulling ashi off a two-on-one from standing",
       "description": "Standing Up from Ashi Garami (Defender) film study: Pulling ashi off a two-on-one from standing, taught by Grapple Box.",
       "thumbnailUrl": "https://i.ytimg.com/vi/XRpZHD3KEog/hqdefault.jpg",
@@ -170,6 +159,17 @@ description: "Learn to defend against an opponent standing up from Ashi Garami. 
       "url": "https://www.youtube.com/watch?v=XRpZHD3KEog",
       "creator": { "@type": "Person", "name": "Grapple Box" },
       "duration": "PT17S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping Ashi Garami: leg lock defense",
+      "description": "Standing Up from Ashi Garami (Defender) film study: Escaping Ashi Garami: leg lock defense, taught by Scott Elliott.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AQbJMBiWYfU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AQbJMBiWYfU",
+      "url": "https://www.youtube.com/watch?v=AQbJMBiWYfU",
+      "creator": { "@type": "Person", "name": "Scott Elliott" },
+      "duration": "PT141S"
     }
   ]
 }
@@ -197,17 +197,17 @@ As the defender against Standing Up from Ashi Garami, you are the top player in 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=AQbJMBiWYfU)
+![](https://www.youtube.com/watch?v=XRpZHD3KEog)
 
-<p class="clip-credit"><strong>Escaping ashi garami — leg lock defense</strong> — taught by Scott Elliott · 2:21 · <a href="https://www.youtube.com/watch?v=AQbJMBiWYfU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Pulling ashi off a two-on-one from standing</strong> — taught by Grapple Box · 0:17 · <a href="https://www.youtube.com/watch?v=XRpZHD3KEog" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=XRpZHD3KEog)
+![](https://www.youtube.com/watch?v=AQbJMBiWYfU)
 
-<p class="clip-credit"><strong>Pulling ashi off a two-on-one from standing</strong> — taught by Grapple Box · 0:17 · <a href="https://www.youtube.com/watch?v=XRpZHD3KEog" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escaping Ashi Garami: leg lock defense</strong> — taught by Scott Elliott · 2:21 · <a href="https://www.youtube.com/watch?v=AQbJMBiWYfU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

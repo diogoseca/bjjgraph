@@ -423,15 +423,6 @@
     ],
     "clips": [
       {
-        "id": "rjvvLBRxa8s",
-        "title": "No-gi side control escape",
-        "by": "Pantera Jiujitsu",
-        "vertical": false,
-        "channel": "Pantera Jiujitsu",
-        "duration": 62,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "cO2KXVOZJLo",
         "title": "Side control escape: the ramp",
         "by": "Andy Balmore",
@@ -439,6 +430,15 @@
         "channel": "10th Planet Orange County",
         "duration": 99,
         "verified": "2026-07-15"
+      },
+      {
+        "id": "F1170I6qL7c",
+        "title": "Twister side control escape",
+        "by": "10th Planet Colorado Springs",
+        "vertical": false,
+        "channel": "10th Planet Colorado Springs",
+        "duration": 139,
+        "verified": "2026-07-16"
       }
     ]
   }

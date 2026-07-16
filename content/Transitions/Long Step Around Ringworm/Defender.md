@@ -160,17 +160,6 @@ description: "How to defend against Long Step Around Ringworm in BJJ. Recognitio
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Passing the Polish worm rider lapel guard",
-      "description": "Long Step Around Ringworm (Defender) film study: Passing the Polish worm rider lapel guard, taught by Daniel Maira.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/aR0dbddbfQA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/aR0dbddbfQA",
-      "url": "https://www.youtube.com/watch?v=aR0dbddbfQA",
-      "creator": { "@type": "Person", "name": "Daniel Maira" },
-      "duration": "PT54S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Late guard recovery trick against the pass",
       "description": "Long Step Around Ringworm (Defender) film study: Late guard recovery trick against the pass, taught by Keenan Cornelius.",
       "thumbnailUrl": "https://i.ytimg.com/vi/1cKr7xJ-0i8/hqdefault.jpg",
@@ -181,7 +170,7 @@ description: "How to defend against Long Step Around Ringworm in BJJ. Recognitio
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 2,
       "name": "Three tricks to improve guard retention",
       "description": "Long Step Around Ringworm (Defender) film study: Three tricks to improve guard retention, taught by Jon Thomas.",
       "thumbnailUrl": "https://i.ytimg.com/vi/T9ckJr1MV7Q/hqdefault.jpg",
@@ -217,14 +206,6 @@ Successful defense integrates proactive hip movement with grip management. Rathe
 
 <p class="section-subtitle">Watch Long Step Around Ringworm (Defender) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=aR0dbddbfQA)
-
-<p class="clip-credit"><strong>Passing the Polish worm rider lapel guard</strong> — taught by Daniel Maira · 0:54 · <a href="https://www.youtube.com/watch?v=aR0dbddbfQA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

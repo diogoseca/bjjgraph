@@ -168,17 +168,6 @@ description: "Defend against the Von Flue choke counter to your guillotine. Reco
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Standing guillotine defense into Von Flue choke",
-      "description": "Guillotine Escape to Von Flue (Defender) film study: Standing guillotine defense into Von Flue choke, taught by Chris Savarese.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/QUdNNiK-yTk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/QUdNNiK-yTk",
-      "url": "https://www.youtube.com/watch?v=QUdNNiK-yTk",
-      "creator": { "@type": "Person", "name": "Chris Savarese" },
-      "duration": "PT88S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Von Flue shoulder choke off the guillotine",
       "description": "Guillotine Escape to Von Flue (Defender) film study: Von Flue shoulder choke off the guillotine, taught by Alexandre Marciano.",
       "thumbnailUrl": "https://i.ytimg.com/vi/fFIS8fkVXUw/hqdefault.jpg",
@@ -189,14 +178,25 @@ description: "Defend against the Von Flue choke counter to your guillotine. Reco
     },
     {
       "@type": "VideoObject",
+      "position": 2,
+      "name": "Guillotine defense into the Von Flue choke",
+      "description": "Guillotine Escape to Von Flue (Defender) film study: Guillotine defense into the Von Flue choke, taught by Haven BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GmGrD1Zltw0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GmGrD1Zltw0",
+      "url": "https://www.youtube.com/watch?v=GmGrD1Zltw0",
+      "creator": { "@type": "Person", "name": "Haven BJJ coach" },
+      "duration": "PT143S"
+    },
+    {
+      "@type": "VideoObject",
       "position": 3,
-      "name": "Reverse guillotine choke counter",
-      "description": "Guillotine Escape to Von Flue (Defender) film study: Reverse guillotine choke counter, taught by James Lewis.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/JGjz2E8ZzL4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/JGjz2E8ZzL4",
-      "url": "https://www.youtube.com/watch?v=JGjz2E8ZzL4",
-      "creator": { "@type": "Person", "name": "James Lewis" },
-      "duration": "PT61S"
+      "name": "Evading guillotines from underhooks",
+      "description": "Guillotine Escape to Von Flue (Defender) film study: Evading guillotines from underhooks, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2wAJVUZALzs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2wAJVUZALzs",
+      "url": "https://www.youtube.com/watch?v=2wAJVUZALzs",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT115S"
     }
   ]
 }
@@ -224,14 +224,6 @@ As the defender in the Guillotine Escape to Von Flue scenario, you are the pract
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=QUdNNiK-yTk)
-
-<p class="clip-credit"><strong>Standing guillotine defense into Von Flue choke</strong> — taught by Chris Savarese · 1:28 · <a href="https://www.youtube.com/watch?v=QUdNNiK-yTk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=fFIS8fkVXUw)
 
 <p class="clip-credit"><strong>Von Flue shoulder choke off the guillotine</strong> — taught by Alexandre Marciano · 1:02 · <a href="https://www.youtube.com/watch?v=fFIS8fkVXUw" rel="noopener">Watch on YouTube</a></p>
@@ -240,9 +232,17 @@ As the defender in the Guillotine Escape to Von Flue scenario, you are the pract
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=JGjz2E8ZzL4)
+![](https://www.youtube.com/watch?v=GmGrD1Zltw0)
 
-<p class="clip-credit"><strong>Reverse guillotine choke counter</strong> — taught by James Lewis · 1:01 · <a href="https://www.youtube.com/watch?v=JGjz2E8ZzL4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guillotine defense into the Von Flue choke</strong> — taught by Haven BJJ coach · 2:23 · <a href="https://www.youtube.com/watch?v=GmGrD1Zltw0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2wAJVUZALzs)
+
+<p class="clip-credit"><strong>Evading guillotines from underhooks</strong> — taught by Gordon Ryan · 1:55 · <a href="https://www.youtube.com/watch?v=2wAJVUZALzs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -165,24 +165,24 @@ description: "How to defend against Scramble to Guard in BJJ. Recognition cues, 
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Three Tricks to Improve Guard Retention",
-      "description": "Scramble to Guard (Defender) film study: Three Tricks to Improve Guard Retention, taught by Jon Thomas.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/T9ckJr1MV7Q/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/T9ckJr1MV7Q",
-      "url": "https://www.youtube.com/watch?v=T9ckJr1MV7Q",
-      "creator": { "@type": "Person", "name": "Jon Thomas" },
-      "duration": "PT253S"
+      "name": "Side control escape vs a bigger stronger opponent",
+      "description": "Scramble to Guard (Defender) film study: Side control escape vs a bigger stronger opponent, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_JPZaIcr90c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_JPZaIcr90c",
+      "url": "https://www.youtube.com/watch?v=_JPZaIcr90c",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT69S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "How To NOT Get Your Guard Passed",
-      "description": "Scramble to Guard (Defender) film study: How To NOT Get Your Guard Passed, taught by Jordan Preisinger.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/6zJpGBhEvwM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/6zJpGBhEvwM",
-      "url": "https://www.youtube.com/watch?v=6zJpGBhEvwM",
-      "creator": { "@type": "Person", "name": "Jordan Preisinger" },
-      "duration": "PT520S"
+      "name": "Recovering hooks from back control",
+      "description": "Scramble to Guard (Defender) film study: Recovering hooks from back control, taught by Carnage BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sxU42xfnX9s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sxU42xfnX9s",
+      "url": "https://www.youtube.com/watch?v=sxU42xfnX9s",
+      "creator": { "@type": "Person", "name": "Carnage BJJ" },
+      "duration": "PT99S"
     }
   ]
 }
@@ -220,17 +220,17 @@ The key to shutting down the Scramble to Guard lies in maintaining the two pilla
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=T9ckJr1MV7Q)
+![](https://www.youtube.com/watch?v=_JPZaIcr90c)
 
-<p class="clip-credit"><strong>Three Tricks to Improve Guard Retention</strong> — taught by Jon Thomas · 4:13 · <a href="https://www.youtube.com/watch?v=T9ckJr1MV7Q" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Side control escape vs a bigger stronger opponent</strong> — taught by Matt Arroyo · 1:09 · <a href="https://www.youtube.com/watch?v=_JPZaIcr90c" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=6zJpGBhEvwM)
+![](https://www.youtube.com/watch?v=sxU42xfnX9s)
 
-<p class="clip-credit"><strong>How To NOT Get Your Guard Passed</strong> — taught by Jordan Preisinger · 8:40 · <a href="https://www.youtube.com/watch?v=6zJpGBhEvwM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Recovering hooks from back control</strong> — taught by Carnage BJJ · 1:39 · <a href="https://www.youtube.com/watch?v=sxU42xfnX9s" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

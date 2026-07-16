@@ -203,8 +203,8 @@ description: "Execute the Sweep from Honey Hole to reverse dangerous leg entangl
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Saddle Entries From Guard",
-      "description": "Sweep from Honey Hole (Attacker) film study: Saddle Entries From Guard, taught by Lachlan Giles.",
+      "name": "Saddle entries from guard",
+      "description": "Sweep from Honey Hole (Attacker) film study: Saddle entries from guard, taught by Lachlan Giles.",
       "thumbnailUrl": "https://i.ytimg.com/vi/K5XhO7o5QN0/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/K5XhO7o5QN0",
       "url": "https://www.youtube.com/watch?v=K5XhO7o5QN0",
@@ -214,13 +214,13 @@ description: "Execute the Sweep from Honey Hole to reverse dangerous leg entangl
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Entering the Saddle vs Rupturing Your LCL",
-      "description": "Sweep from Honey Hole (Attacker) film study: Entering the Saddle vs Rupturing Your LCL, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/wNrKaI3WwVA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/wNrKaI3WwVA",
-      "url": "https://www.youtube.com/watch?v=wNrKaI3WwVA",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT308S"
+      "name": "The Stomp: inside sankaku entry breakdown",
+      "description": "Sweep from Honey Hole (Attacker) film study: The Stomp: inside sankaku entry breakdown, taught by Garry Tonon.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MDOln-KHJwk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MDOln-KHJwk",
+      "url": "https://www.youtube.com/watch?v=MDOln-KHJwk",
+      "creator": { "@type": "Person", "name": "Garry Tonon" },
+      "duration": "PT88S"
     }
   ]
 }
@@ -258,15 +258,15 @@ Executing the Sweep from Honey Hole requires transforming the worst-case leg loc
 
 ![](https://www.youtube.com/watch?v=K5XhO7o5QN0)
 
-<p class="clip-credit"><strong>Saddle Entries From Guard</strong> — taught by Lachlan Giles · 1:06 · <a href="https://www.youtube.com/watch?v=K5XhO7o5QN0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Saddle entries from guard</strong> — taught by Lachlan Giles · 1:06 · <a href="https://www.youtube.com/watch?v=K5XhO7o5QN0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=wNrKaI3WwVA)
+![](https://www.youtube.com/watch?v=MDOln-KHJwk)
 
-<p class="clip-credit"><strong>Entering the Saddle vs Rupturing Your LCL</strong> — taught by Lachlan Giles · 5:08 · <a href="https://www.youtube.com/watch?v=wNrKaI3WwVA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The Stomp: inside sankaku entry breakdown</strong> — taught by Garry Tonon · 1:28 · <a href="https://www.youtube.com/watch?v=MDOln-KHJwk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -203,24 +203,13 @@ description: "Learn to execute the Overhook to Half Guard transition from bottom
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Reclaiming underhook half guard by off balancing",
-      "description": "Overhook to Half Guard (Attacker) film study: Reclaiming underhook half guard by off balancing, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/BDuHRztRmXg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/BDuHRztRmXg",
-      "url": "https://www.youtube.com/watch?v=BDuHRztRmXg",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT351S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Recovering the underhook from bottom half guard",
-      "description": "Overhook to Half Guard (Attacker) film study: Recovering the underhook from bottom half guard, taught by MMA Leech.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ZP6eavAmATU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ZP6eavAmATU",
-      "url": "https://www.youtube.com/watch?v=ZP6eavAmATU",
-      "creator": { "@type": "Person", "name": "MMA Leech" },
-      "duration": "PT230S"
+      "name": "Half guard bridge to underhook vs the whizzer",
+      "description": "Overhook to Half Guard (Attacker) film study: Half guard bridge to underhook vs the whizzer, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/D1Hhvv4pXQA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/D1Hhvv4pXQA",
+      "url": "https://www.youtube.com/watch?v=D1Hhvv4pXQA",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT78S"
     }
   ]
 }
@@ -256,17 +245,9 @@ As the bottom player executing the Overhook to Half Guard transition, your objec
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=BDuHRztRmXg)
+![](https://www.youtube.com/watch?v=D1Hhvv4pXQA)
 
-<p class="clip-credit"><strong>Reclaiming underhook half guard by off balancing</strong> — taught by Lachlan Giles · 5:51 · <a href="https://www.youtube.com/watch?v=BDuHRztRmXg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ZP6eavAmATU)
-
-<p class="clip-credit"><strong>Recovering the underhook from bottom half guard</strong> — taught by MMA Leech · 3:50 · <a href="https://www.youtube.com/watch?v=ZP6eavAmATU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Half guard bridge to underhook vs the whizzer</strong> — taught by Revolution BJJ · 1:18 · <a href="https://www.youtube.com/watch?v=D1Hhvv4pXQA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

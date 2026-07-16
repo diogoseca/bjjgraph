@@ -197,13 +197,24 @@ description: "Complete guide to executing the Stack Pass from Carni in BJJ. Aggr
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Two options to counter the leg entry",
-      "description": "Stack Pass from Carni (Attacker) film study: Two options to counter the leg entry, taught by Ethan Crelinsten.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sbn5IxXXH3w/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/sbn5IxXXH3w",
-      "url": "https://www.youtube.com/watch?v=sbn5IxXXH3w",
-      "creator": { "@type": "Person", "name": "Ethan Crelinsten" },
-      "duration": "PT297S"
+      "name": "Pillory counter to rubber guard pass",
+      "description": "Stack Pass from Carni (Attacker) film study: Pillory counter to rubber guard pass, taught by Gabriel Rainer.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Yct0FnRjGP8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Yct0FnRjGP8",
+      "url": "https://www.youtube.com/watch?v=Yct0FnRjGP8",
+      "creator": { "@type": "Person", "name": "Gabriel Rainer" },
+      "duration": "PT133S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Rubber Guard stack escape and pass for MMA",
+      "description": "Stack Pass from Carni (Attacker) film study: Rubber Guard stack escape and pass for MMA, taught by Grappling Made Easy coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mvk5Rgr3x-I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mvk5Rgr3x-I",
+      "url": "https://www.youtube.com/watch?v=mvk5Rgr3x-I",
+      "creator": { "@type": "Person", "name": "Grappling Made Easy coach" },
+      "duration": "PT150S"
     }
   ]
 }
@@ -239,9 +250,17 @@ As the top player caught in Carni, the stack pass represents your most aggressiv
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=sbn5IxXXH3w)
+![](https://www.youtube.com/watch?v=Yct0FnRjGP8)
 
-<p class="clip-credit"><strong>Two options to counter the leg entry</strong> — taught by Ethan Crelinsten · 4:57 · <a href="https://www.youtube.com/watch?v=sbn5IxXXH3w" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Pillory counter to rubber guard pass</strong> — taught by Gabriel Rainer · 2:13 · <a href="https://www.youtube.com/watch?v=Yct0FnRjGP8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mvk5Rgr3x-I)
+
+<p class="clip-credit"><strong>Rubber Guard stack escape and pass for MMA</strong> — taught by Grappling Made Easy coach · 2:30 · <a href="https://www.youtube.com/watch?v=mvk5Rgr3x-I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

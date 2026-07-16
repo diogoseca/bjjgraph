@@ -64,17 +64,6 @@ description: "Master Lapel Omoplata Entry from Lapel Guard bottom. Complete guid
       "url": "https://www.youtube.com/watch?v=zCuJSvlosbA",
       "creator": { "@type": "Person", "name": "Moncaio Brothers" },
       "duration": "PT25S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Reverse omoplata, Keenan style",
-      "description": "Lapel Omoplata Entry film study: Reverse omoplata, Keenan style, taught by Keenan Cornelius.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/TNvcL55uvrE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/TNvcL55uvrE",
-      "url": "https://www.youtube.com/watch?v=TNvcL55uvrE",
-      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
-      "duration": "PT22S"
     }
   ]
 }
@@ -139,14 +128,6 @@ Strategically, this entry creates a true dilemma for the top player. When threat
 ![](https://www.youtube.com/watch?v=zCuJSvlosbA)
 
 <p class="clip-credit"><strong>Lapeloplata sweep demonstration</strong> — taught by Moncaio Brothers · 0:25 · <a href="https://www.youtube.com/watch?v=zCuJSvlosbA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=TNvcL55uvrE)
-
-<p class="clip-credit"><strong>Reverse omoplata, Keenan style</strong> — taught by Keenan Cornelius · 0:22 · <a href="https://www.youtube.com/watch?v=TNvcL55uvrE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

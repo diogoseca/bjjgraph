@@ -176,13 +176,13 @@ description: "Master defensive Chill Dog position from bottom. Learn compact tur
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Defensive BJJ system: bottom posture basics",
-      "description": "Chill Dog (Bottom) film study: Defensive BJJ system: bottom posture basics, taught by Priit Mihkelson.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/vHDqBGNTnfY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/vHDqBGNTnfY",
-      "url": "https://www.youtube.com/watch?v=vHDqBGNTnfY",
-      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
-      "duration": "PT325S"
+      "name": "The London and Why It Left the 10th Planet System",
+      "description": "Chill Dog (Bottom) film study: The London and Why It Left the 10th Planet System, taught by Submissions101 coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kaVklKMW3aw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kaVklKMW3aw",
+      "url": "https://www.youtube.com/watch?v=kaVklKMW3aw",
+      "creator": { "@type": "Person", "name": "Submissions101 coach" },
+      "duration": "PT94S"
     }
   ]
 }
@@ -224,9 +224,9 @@ In the 10th Planet system, Chill Dog Bottom serves as a gateway back to offensiv
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=vHDqBGNTnfY)
+![](https://www.youtube.com/watch?v=kaVklKMW3aw)
 
-<p class="clip-credit"><strong>Defensive BJJ system: bottom posture basics</strong> — taught by Priit Mihkelson · 5:25 · <a href="https://www.youtube.com/watch?v=vHDqBGNTnfY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>The London and Why It Left the 10th Planet System</strong> — taught by Submissions101 coach · 1:34 · <a href="https://www.youtube.com/watch?v=kaVklKMW3aw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

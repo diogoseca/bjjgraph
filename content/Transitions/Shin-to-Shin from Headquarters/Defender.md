@@ -163,17 +163,6 @@ description: "Defend against Shin-to-Shin entry from Headquarters top. Learn to 
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Defend and Counter the Knee Slide Pass",
-      "description": "Shin-to-Shin from Headquarters (Defender) film study: Defend and Counter the Knee Slide Pass, taught by Jordan Preisinger.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/iq5Ng9kFD2A/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/iq5Ng9kFD2A",
-      "url": "https://www.youtube.com/watch?v=iq5Ng9kFD2A",
-      "creator": { "@type": "Person", "name": "Jordan Preisinger" },
-      "duration": "PT678S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
       "name": "Knee Cut Pass - Late Stage Prevention",
       "description": "Shin-to-Shin from Headquarters (Defender) film study: Knee Cut Pass - Late Stage Prevention, taught by Revolution BJJ.",
       "thumbnailUrl": "https://i.ytimg.com/vi/yf4XO7dzJk0/hqdefault.jpg",
@@ -211,14 +200,6 @@ As the defender (top player in headquarters), you must prevent the bottom player
 ![](https://www.youtube.com/watch?v=hPri1wuwCP8)
 
 <p class="clip-credit"><strong>Shin slice pass against shin-to-shin guard</strong> — taught by Factory Fresh Jiu Jitsu · 1:46 · <a href="https://www.youtube.com/watch?v=hPri1wuwCP8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=iq5Ng9kFD2A)
-
-<p class="clip-credit"><strong>Defend and Counter the Knee Slide Pass</strong> — taught by Jordan Preisinger · 11:18 · <a href="https://www.youtube.com/watch?v=iq5Ng9kFD2A" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

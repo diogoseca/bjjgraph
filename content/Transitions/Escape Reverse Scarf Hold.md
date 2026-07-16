@@ -64,17 +64,6 @@ description: "Master the Escape from Reverse Scarf Hold in BJJ. Learn systematic
       "url": "https://www.youtube.com/watch?v=fvp5_BVEtLg",
       "creator": { "@type": "Person", "name": "Kohbukan Sisu coach" },
       "duration": "PT84S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Turtle escape roll through to reverse scarf hold",
-      "description": "Escape Reverse Scarf Hold film study: Turtle escape roll through to reverse scarf hold, taught by KoF Jiu Jutsu coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8JaZOxy_0ws/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/8JaZOxy_0ws",
-      "url": "https://www.youtube.com/watch?v=8JaZOxy_0ws",
-      "creator": { "@type": "Person", "name": "KoF Jiu Jutsu coach" },
-      "duration": "PT88S"
     }
   ]
 }
@@ -139,14 +128,6 @@ Strategically, this escape complements the bridge escape from reverse scarf hold
 ![](https://www.youtube.com/watch?v=fvp5_BVEtLg)
 
 <p class="clip-credit"><strong>Kesa gatame pressure defense using framing</strong> — taught by Kohbukan Sisu coach · 1:24 · <a href="https://www.youtube.com/watch?v=fvp5_BVEtLg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=8JaZOxy_0ws)
-
-<p class="clip-credit"><strong>Turtle escape roll through to reverse scarf hold</strong> — taught by KoF Jiu Jutsu coach · 1:28 · <a href="https://www.youtube.com/watch?v=8JaZOxy_0ws" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

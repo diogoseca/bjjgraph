@@ -171,13 +171,13 @@ description: "How to defend against Back Step in BJJ. Recognition cues, defensiv
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Escaping ashi garami: leg lock defense",
-      "description": "Back Step (Defender) film study: Escaping ashi garami: leg lock defense, taught by Scott Elliott.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/AQbJMBiWYfU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/AQbJMBiWYfU",
-      "url": "https://www.youtube.com/watch?v=AQbJMBiWYfU",
-      "creator": { "@type": "Person", "name": "Scott Elliott" },
-      "duration": "PT141S"
+      "name": "Roll Under the Back Step to Backside 50/50",
+      "description": "Back Step (Defender) film study: Roll Under the Back Step to Backside 50/50, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DBbSqQf6iCo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DBbSqQf6iCo",
+      "url": "https://www.youtube.com/watch?v=DBbSqQf6iCo",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT110S"
     }
   ]
 }
@@ -213,9 +213,9 @@ Defending the back step requires the bottom player to recognize early that their
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=AQbJMBiWYfU)
+![](https://www.youtube.com/watch?v=DBbSqQf6iCo)
 
-<p class="clip-credit"><strong>Escaping ashi garami: leg lock defense</strong> — taught by Scott Elliott · 2:21 · <a href="https://www.youtube.com/watch?v=AQbJMBiWYfU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Roll Under the Back Step to Backside 50/50</strong> — taught by Lachlan Giles · 1:50 · <a href="https://www.youtube.com/watch?v=DBbSqQf6iCo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -181,17 +181,6 @@ description: "Defend the heel hook from Inside Ashi-Garami with early recognitio
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Outside ashi heel hook / running man escape",
-      "description": "Heel Hook from Inside Ashi-Garami (Defender) film study: Outside ashi heel hook / running man escape, taught by Grappling Game Changer.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2RLgyzWN71Y/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/2RLgyzWN71Y",
-      "url": "https://www.youtube.com/watch?v=2RLgyzWN71Y",
-      "creator": { "@type": "Person", "name": "Grappling Game Changer" },
-      "duration": "PT54S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
       "name": "Defending and countering the 50/50 heel hook",
       "description": "Heel Hook from Inside Ashi-Garami (Defender) film study: Defending and countering the 50/50 heel hook, taught by Revolution BJJ.",
       "thumbnailUrl": "https://i.ytimg.com/vi/gpg88DFH9D4/hqdefault.jpg",
@@ -232,14 +221,6 @@ The critical defensive window exists between the attacker's initial heel capture
 ![](https://www.youtube.com/watch?v=cRXsNPAgVLU)
 
 <p class="clip-credit"><strong>Irimi ashi garami counter</strong> — taught by John Danaher · 0:29 · <a href="https://www.youtube.com/watch?v=cRXsNPAgVLU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=2RLgyzWN71Y)
-
-<p class="clip-credit"><strong>Outside ashi heel hook / running man escape</strong> — taught by Grappling Game Changer · 0:54 · <a href="https://www.youtube.com/watch?v=2RLgyzWN71Y" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

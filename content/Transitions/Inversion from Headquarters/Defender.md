@@ -160,17 +160,6 @@ description: "Complete guide to defending the Inversion from Headquarters as the
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Around The Legs Guard Retention",
-      "description": "Inversion from Headquarters (Defender) film study: Around The Legs Guard Retention, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ynoR-AtSYUc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ynoR-AtSYUc",
-      "url": "https://www.youtube.com/watch?v=ynoR-AtSYUc",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT210S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Guard Passing Leg Pummeling Techniques",
       "description": "Inversion from Headquarters (Defender) film study: Guard Passing Leg Pummeling Techniques, taught by Elite Team Monterey.",
       "thumbnailUrl": "https://i.ytimg.com/vi/FVpbZPgoplw/hqdefault.jpg",
@@ -202,14 +191,6 @@ As the top player in headquarters, defending the inversion requires recognizing 
 
 <p class="section-subtitle">Watch Inversion from Headquarters (Defender) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ynoR-AtSYUc)
-
-<p class="clip-credit"><strong>Around The Legs Guard Retention</strong> — taught by Lachlan Giles · 3:30 · <a href="https://www.youtube.com/watch?v=ynoR-AtSYUc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

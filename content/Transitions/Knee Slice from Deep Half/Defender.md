@@ -171,13 +171,13 @@ description: "Complete defender guide for preventing the knee slice pass from de
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Three options to defend the deep half guard",
-      "description": "Knee Slice from Deep Half (Defender) film study: Three options to defend the deep half guard, taught by Six Blades Jiu-Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/JEDoJOZWQHY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/JEDoJOZWQHY",
-      "url": "https://www.youtube.com/watch?v=JEDoJOZWQHY",
-      "creator": { "@type": "Person", "name": "Six Blades Jiu-Jitsu" },
-      "duration": "PT207S"
+      "name": "Push him away to stop the knee cut from half guard",
+      "description": "Knee Slice from Deep Half (Defender) film study: Push him away to stop the knee cut from half guard, taught by Bernardo Faria.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/q8buwG6oS0s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/q8buwG6oS0s",
+      "url": "https://www.youtube.com/watch?v=q8buwG6oS0s",
+      "creator": { "@type": "Person", "name": "Bernardo Faria" },
+      "duration": "PT148S"
     }
   ]
 }
@@ -213,9 +213,9 @@ As the deep half guard bottom player facing a knee slice pass attempt, your prim
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=JEDoJOZWQHY)
+![](https://www.youtube.com/watch?v=q8buwG6oS0s)
 
-<p class="clip-credit"><strong>Three options to defend the deep half guard</strong> — taught by Six Blades Jiu-Jitsu · 3:27 · <a href="https://www.youtube.com/watch?v=JEDoJOZWQHY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Push him away to stop the knee cut from half guard</strong> — taught by Bernardo Faria · 2:28 · <a href="https://www.youtube.com/watch?v=q8buwG6oS0s" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

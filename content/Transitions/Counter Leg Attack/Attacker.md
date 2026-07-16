@@ -198,17 +198,6 @@ description: "How to execute Counter Leg Attack in BJJ. Attacking perspective wi
       "url": "https://www.youtube.com/watch?v=clVAHxgRadE",
       "creator": { "@type": "Person", "name": "Holy Grail BJJ" },
       "duration": "PT105S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Wedge berimbolo counter to the back",
-      "description": "Counter Leg Attack (Attacker) film study: Wedge berimbolo counter to the back, taught by bjj doug.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/N2weatRR_V4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/N2weatRR_V4",
-      "url": "https://www.youtube.com/watch?v=N2weatRR_V4",
-      "creator": { "@type": "Person", "name": "bjj doug" },
-      "duration": "PT28S"
     }
   ]
 }
@@ -251,14 +240,6 @@ Strategically, the Counter Leg Attack should be viewed as a last-resort option w
 ![](https://www.youtube.com/watch?v=clVAHxgRadE)
 
 <p class="clip-credit"><strong>Outside heel hook defense into inside heel hook</strong> — taught by Holy Grail BJJ · 1:45 · <a href="https://www.youtube.com/watch?v=clVAHxgRadE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=N2weatRR_V4)
-
-<p class="clip-credit"><strong>Wedge berimbolo counter to the back</strong> — taught by bjj doug · 0:28 · <a href="https://www.youtube.com/watch?v=N2weatRR_V4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

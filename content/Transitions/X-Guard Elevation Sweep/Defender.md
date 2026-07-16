@@ -171,24 +171,24 @@ description: "How to defend against X-Guard Elevation Sweep in BJJ. Recognition 
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Single leg X sweep defense: prevent the get-up sweep",
-      "description": "X-Guard Elevation Sweep (Defender) film study: Single leg X sweep defense: prevent the get-up sweep, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/pnc9alCVShI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/pnc9alCVShI",
-      "url": "https://www.youtube.com/watch?v=pnc9alCVShI",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT192S"
+      "name": "How to pass and shut down X-Guard",
+      "description": "X-Guard Elevation Sweep (Defender) film study: How to pass and shut down X-Guard, taught by Kaynan Duarte.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/C1lYVhDXwvw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/C1lYVhDXwvw",
+      "url": "https://www.youtube.com/watch?v=C1lYVhDXwvw",
+      "creator": { "@type": "Person", "name": "Kaynan Duarte" },
+      "duration": "PT116S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Passing single leg X",
-      "description": "X-Guard Elevation Sweep (Defender) film study: Passing single leg X, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/XzILYmERAV8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/XzILYmERAV8",
-      "url": "https://www.youtube.com/watch?v=XzILYmERAV8",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT453S"
+      "name": "X-Guard counter while standing",
+      "description": "X-Guard Elevation Sweep (Defender) film study: X-Guard counter while standing, taught by Samy Aljamal.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LNyXkfENU5c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LNyXkfENU5c",
+      "url": "https://www.youtube.com/watch?v=LNyXkfENU5c",
+      "creator": { "@type": "Person", "name": "Samy Aljamal" },
+      "duration": "PT79S"
     }
   ]
 }
@@ -228,17 +228,17 @@ The most effective defensive approach treats grasshopper guard as a time-limited
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=pnc9alCVShI)
+![](https://www.youtube.com/watch?v=C1lYVhDXwvw)
 
-<p class="clip-credit"><strong>Single leg X sweep defense: prevent the get-up sweep</strong> — taught by Lachlan Giles · 3:12 · <a href="https://www.youtube.com/watch?v=pnc9alCVShI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to pass and shut down X-Guard</strong> — taught by Kaynan Duarte · 1:56 · <a href="https://www.youtube.com/watch?v=C1lYVhDXwvw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=XzILYmERAV8)
+![](https://www.youtube.com/watch?v=LNyXkfENU5c)
 
-<p class="clip-credit"><strong>Passing single leg X</strong> — taught by Lachlan Giles · 7:33 · <a href="https://www.youtube.com/watch?v=XzILYmERAV8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>X-Guard counter while standing</strong> — taught by Samy Aljamal · 1:19 · <a href="https://www.youtube.com/watch?v=LNyXkfENU5c" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

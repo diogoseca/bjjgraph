@@ -437,15 +437,6 @@
     ],
     "clips": [
       {
-        "id": "IQ2mviobbI0",
-        "title": "Defending the whizzer or overhook",
-        "by": "Pendergrass Academy",
-        "vertical": false,
-        "channel": "Pendergrass Academy of Martial Arts",
-        "duration": 138,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "8mXBDHXrAu4",
         "title": "Whizzer from half guard: winning the dogfight",
         "by": "Wrecking Crew BJJ",
@@ -453,6 +444,15 @@
         "channel": "Wrecking Crew BJJ",
         "duration": 60,
         "verified": "2026-07-15"
+      },
+      {
+        "id": "gE-B0IMK1CI",
+        "title": "Scissor sweep from overhook closed guard",
+        "by": "Cobrinha",
+        "vertical": false,
+        "channel": "Cobrinha Brazilian Jiu-Jitsu & Fitness",
+        "duration": 130,
+        "verified": "2026-07-16"
       }
     ]
   }

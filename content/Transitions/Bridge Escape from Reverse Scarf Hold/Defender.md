@@ -171,24 +171,13 @@ description: "Learn to defend against the Bridge Escape from Reverse Scarf Hold.
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Reverse Kesa Gatame Escape",
-      "description": "Bridge Escape from Reverse Scarf Hold (Defender) film study: Reverse Kesa Gatame Escape, taught by MMA Leech.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/JM9nDge0arQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/JM9nDge0arQ",
-      "url": "https://www.youtube.com/watch?v=JM9nDge0arQ",
-      "creator": { "@type": "Person", "name": "MMA Leech" },
-      "duration": "PT238S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Escaping Kuzure Kesa Gatame for Jiu-Jitsu",
-      "description": "Bridge Escape from Reverse Scarf Hold (Defender) film study: Escaping Kuzure Kesa Gatame for Jiu-Jitsu, taught by Takedowns For Jiu-jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/xqT3Ux04sHQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/xqT3Ux04sHQ",
-      "url": "https://www.youtube.com/watch?v=xqT3Ux04sHQ",
-      "creator": { "@type": "Person", "name": "Takedowns For Jiu-jitsu" },
-      "duration": "PT337S"
+      "name": "Mune gatame chest hold pin control",
+      "description": "Bridge Escape from Reverse Scarf Hold (Defender) film study: Mune gatame chest hold pin control, taught by Grappler Station.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RLpcMvQ8GTI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RLpcMvQ8GTI",
+      "url": "https://www.youtube.com/watch?v=RLpcMvQ8GTI",
+      "creator": { "@type": "Person", "name": "Grappler Station" },
+      "duration": "PT66S"
     }
   ]
 }
@@ -224,17 +213,9 @@ Defending against the Bridge Escape from Reverse Scarf Hold requires the top pla
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=JM9nDge0arQ)
+![](https://www.youtube.com/watch?v=RLpcMvQ8GTI)
 
-<p class="clip-credit"><strong>Reverse Kesa Gatame Escape</strong> — taught by MMA Leech · 3:58 · <a href="https://www.youtube.com/watch?v=JM9nDge0arQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=xqT3Ux04sHQ)
-
-<p class="clip-credit"><strong>Escaping Kuzure Kesa Gatame for Jiu-Jitsu</strong> — taught by Takedowns For Jiu-jitsu · 5:37 · <a href="https://www.youtube.com/watch?v=xqT3Ux04sHQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Mune gatame chest hold pin control</strong> — taught by Grappler Station · 1:06 · <a href="https://www.youtube.com/watch?v=RLpcMvQ8GTI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

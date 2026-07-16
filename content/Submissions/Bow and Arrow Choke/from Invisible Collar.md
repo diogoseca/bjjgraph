@@ -46,35 +46,24 @@ description: "Master the Bow and Arrow Choke from Invisible Collar. Learn concea
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Finishing the cross collar choke",
-      "description": "Bow and Arrow Choke from Invisible Collar film study: Finishing the cross collar choke, taught by Henry Akins.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/TDBe1SHzHKo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/TDBe1SHzHKo",
-      "url": "https://www.youtube.com/watch?v=TDBe1SHzHKo",
-      "creator": { "@type": "Person", "name": "Henry Akins" },
-      "duration": "PT51S"
+      "name": "Choke details from back control",
+      "description": "Bow and Arrow Choke from Invisible Collar film study: Choke details from back control, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3GprqnqZKA4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3GprqnqZKA4",
+      "url": "https://www.youtube.com/watch?v=3GprqnqZKA4",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT150S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Bread cutter choke, Roger Gracie style",
-      "description": "Bow and Arrow Choke from Invisible Collar film study: Bread cutter choke, Roger Gracie style, taught by Andy Hagans.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/xab75xOnHqk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/xab75xOnHqk",
-      "url": "https://www.youtube.com/watch?v=xab75xOnHqk",
-      "creator": { "@type": "Person", "name": "Andy Hagans" },
-      "duration": "PT70S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Cross collar choke \u2014 first hand inside",
-      "description": "Bow and Arrow Choke from Invisible Collar film study: Cross collar choke \u2014 first hand inside, taught by Henry Akins.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/KE4ulYBSmjY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/KE4ulYBSmjY",
-      "url": "https://www.youtube.com/watch?v=KE4ulYBSmjY",
+      "name": "Bow and arrow finishing detail",
+      "description": "Bow and Arrow Choke from Invisible Collar film study: Bow and arrow finishing detail, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/T7exag4wRXE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/T7exag4wRXE",
+      "url": "https://www.youtube.com/watch?v=T7exag4wRXE",
       "creator": { "@type": "Person", "name": "Henry Akins" },
-      "duration": "PT55S"
+      "duration": "PT104S"
     }
   ]
 }
@@ -137,25 +126,17 @@ Strategically, this variant serves as a high-percentage finishing option within 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=TDBe1SHzHKo)
+![](https://www.youtube.com/watch?v=3GprqnqZKA4)
 
-<p class="clip-credit"><strong>Finishing the cross collar choke</strong> — taught by Henry Akins · 0:51 · <a href="https://www.youtube.com/watch?v=TDBe1SHzHKo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=xab75xOnHqk)
-
-<p class="clip-credit"><strong>Bread cutter choke, Roger Gracie style</strong> — taught by Andy Hagans · 1:10 · <a href="https://www.youtube.com/watch?v=xab75xOnHqk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Choke details from back control</strong> — taught by Roger Gracie · 2:30 · <a href="https://www.youtube.com/watch?v=3GprqnqZKA4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=KE4ulYBSmjY)
+![](https://www.youtube.com/watch?v=T7exag4wRXE)
 
-<p class="clip-credit"><strong>Cross collar choke — first hand inside</strong> — taught by Henry Akins · 0:55 · <a href="https://www.youtube.com/watch?v=KE4ulYBSmjY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Bow and arrow finishing detail</strong> — taught by Henry Akins · 1:44 · <a href="https://www.youtube.com/watch?v=T7exag4wRXE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

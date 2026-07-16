@@ -180,17 +180,6 @@ description: "How to execute Roll to Turtle in BJJ. Attacking perspective with s
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Turtle escape via shoulder roll",
-      "description": "Roll to Turtle (Attacker) film study: Turtle escape via shoulder roll, taught by BJJake.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/W0TCGKRcniA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/W0TCGKRcniA",
-      "url": "https://www.youtube.com/watch?v=W0TCGKRcniA",
-      "creator": { "@type": "Person", "name": "BJJake" },
-      "duration": "PT21S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Makikomi roll from turtle",
       "description": "Roll to Turtle (Attacker) film study: Makikomi roll from turtle, taught by Modesto Judo Club.",
       "thumbnailUrl": "https://i.ytimg.com/vi/iV-agsE5AD8/hqdefault.jpg",
@@ -201,7 +190,7 @@ description: "How to execute Roll to Turtle in BJJ. Attacking perspective with s
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 2,
       "name": "Turtle position to side control",
       "description": "Roll to Turtle (Attacker) film study: Turtle position to side control, taught by Rickson Gracie Jiu-Jitsu Academy.",
       "thumbnailUrl": "https://i.ytimg.com/vi/8YvYkGr5FIU/hqdefault.jpg",
@@ -237,14 +226,6 @@ Timing is critical for this technique - the roll must be explosive enough to cre
 
 <p class="section-subtitle">Watch Roll to Turtle (Attacker) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=W0TCGKRcniA)
-
-<p class="clip-credit"><strong>Turtle escape via shoulder roll</strong> — taught by BJJake · 0:21 · <a href="https://www.youtube.com/watch?v=W0TCGKRcniA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

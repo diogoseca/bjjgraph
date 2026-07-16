@@ -448,15 +448,6 @@
     ],
     "clips": [
       {
-        "id": "QUdNNiK-yTk",
-        "title": "Standing guillotine defense into Von Flue choke",
-        "by": "Chris Savarese",
-        "vertical": false,
-        "channel": "Chris Savarese",
-        "duration": 88,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "fFIS8fkVXUw",
         "title": "Von Flue shoulder choke off the guillotine",
         "by": "Alexandre Marciano",
@@ -466,13 +457,22 @@
         "verified": "2026-07-15"
       },
       {
-        "id": "JGjz2E8ZzL4",
-        "title": "Reverse guillotine choke counter",
-        "by": "James Lewis",
+        "id": "GmGrD1Zltw0",
+        "title": "Guillotine defense into the Von Flue choke",
+        "by": "Haven BJJ coach",
         "vertical": false,
-        "channel": "James Lewis",
-        "duration": 61,
-        "verified": "2026-07-15"
+        "channel": "Haven BJJ",
+        "duration": 143,
+        "verified": "2026-07-16"
+      },
+      {
+        "id": "2wAJVUZALzs",
+        "title": "Evading guillotines from underhooks",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 115,
+        "verified": "2026-07-16"
       }
     ]
   }

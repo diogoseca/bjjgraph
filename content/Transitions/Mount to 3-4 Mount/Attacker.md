@@ -197,17 +197,6 @@ description: "Complete guide to executing the Transition to 3-4 Mount from stand
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Sneaking Past Headquarters into Quarter Mount",
-      "description": "Mount to 3-4 Mount (Attacker) film study: Sneaking Past Headquarters into Quarter Mount, taught by Gold BJJ coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/M7KR5P-zD14/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/M7KR5P-zD14",
-      "url": "https://www.youtube.com/watch?v=M7KR5P-zD14",
-      "creator": { "@type": "Person", "name": "Gold BJJ coach" },
-      "duration": "PT309S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
       "name": "Consolidating and Passing 3/4 Mount with the Pry",
       "description": "Mount to 3-4 Mount (Attacker) film study: Consolidating and Passing 3/4 Mount with the Pry, taught by Double Phoenix coach.",
       "thumbnailUrl": "https://i.ytimg.com/vi/r3YtZkGq29Q/hqdefault.jpg",
@@ -245,14 +234,6 @@ Executing the Transition to 3-4 Mount requires coordinating weight transfer, gri
 ![](https://www.youtube.com/watch?v=OI73kR-gvbQ)
 
 <p class="clip-credit"><strong>Clearing the foot between mount and 3/4 mount</strong> — taught by Mack Training Academy · 1:34 · <a href="https://www.youtube.com/watch?v=OI73kR-gvbQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=M7KR5P-zD14)
-
-<p class="clip-credit"><strong>Sneaking Past Headquarters into Quarter Mount</strong> — taught by Gold BJJ coach · 5:09 · <a href="https://www.youtube.com/watch?v=M7KR5P-zD14" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

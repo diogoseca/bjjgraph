@@ -164,13 +164,24 @@ description: "Defend against S Mount attacks in BJJ. Critical escape techniques,
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Cross-underhook side mount escape",
-      "description": "S Mount (Bottom) film study: Cross-underhook side mount escape, taught by Carlos Machado.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/tx_pVnkCA-o/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/tx_pVnkCA-o",
-      "url": "https://www.youtube.com/watch?v=tx_pVnkCA-o",
-      "creator": { "@type": "Person", "name": "Carlos Machado" },
-      "duration": "PT130S"
+      "name": "S Mount Defense",
+      "description": "S Mount (Bottom) film study: S Mount Defense, taught by Dinu Bucalet.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PI7rr0TzmWw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PI7rr0TzmWw",
+      "url": "https://www.youtube.com/watch?v=PI7rr0TzmWw",
+      "creator": { "@type": "Person", "name": "Dinu Bucalet" },
+      "duration": "PT141S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Mount Escape: Dealing with the Switch to S-Mount",
+      "description": "S Mount (Bottom) film study: Mount Escape: Dealing with the Switch to S-Mount, taught by Revolution BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WKqvJLpq7nc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WKqvJLpq7nc",
+      "url": "https://www.youtube.com/watch?v=WKqvJLpq7nc",
+      "creator": { "@type": "Person", "name": "Revolution BJJ coach" },
+      "duration": "PT72S"
     }
   ]
 }
@@ -212,9 +223,17 @@ Mental composure under pressure is perhaps the most critical factor in S Mount b
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=tx_pVnkCA-o)
+![](https://www.youtube.com/watch?v=PI7rr0TzmWw)
 
-<p class="clip-credit"><strong>Cross-underhook side mount escape</strong> — taught by Carlos Machado · 2:10 · <a href="https://www.youtube.com/watch?v=tx_pVnkCA-o" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>S Mount Defense</strong> — taught by Dinu Bucalet · 2:21 · <a href="https://www.youtube.com/watch?v=PI7rr0TzmWw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WKqvJLpq7nc)
+
+<p class="clip-credit"><strong>Mount Escape: Dealing with the Switch to S-Mount</strong> — taught by Revolution BJJ coach · 1:12 · <a href="https://www.youtube.com/watch?v=WKqvJLpq7nc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

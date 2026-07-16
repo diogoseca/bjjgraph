@@ -152,17 +152,6 @@ description: "Complete guide to preventing posture recovery from Carni bottom. M
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Leg lock defense, 10th Planet no-gi",
-      "description": "Posture Recovery from Carni (Defender) film study: Leg lock defense, 10th Planet no-gi, taught by Kuwy Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/m0NLphEuFoc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/m0NLphEuFoc",
-      "url": "https://www.youtube.com/watch?v=m0NLphEuFoc",
-      "creator": { "@type": "Person", "name": "Kuwy Jitsu" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Jackie Chan and 411 leg entanglement breakdown",
       "description": "Posture Recovery from Carni (Defender) film study: Jackie Chan and 411 leg entanglement breakdown, taught by 10th Planet Orange Park.",
       "thumbnailUrl": "https://i.ytimg.com/vi/R4K-UU_bUZQ/hqdefault.jpg",
@@ -173,14 +162,14 @@ description: "Complete guide to preventing posture recovery from Carni bottom. M
     },
     {
       "@type": "VideoObject",
-      "position": 3,
-      "name": "Craig Jones leg lock defense",
-      "description": "Posture Recovery from Carni (Defender) film study: Craig Jones leg lock defense, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/uZbUhFapIhg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/uZbUhFapIhg",
-      "url": "https://www.youtube.com/watch?v=uZbUhFapIhg",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT163S"
+      "position": 2,
+      "name": "Polishing the meat hook rubber guard control",
+      "description": "Posture Recovery from Carni (Defender) film study: Polishing the meat hook rubber guard control, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h6o7-9u4NHo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/h6o7-9u4NHo",
+      "url": "https://www.youtube.com/watch?v=h6o7-9u4NHo",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
     }
   ]
 }
@@ -208,14 +197,6 @@ As the bottom player in Carni, preventing your opponent's posture recovery is es
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=m0NLphEuFoc)
-
-<p class="clip-credit"><strong>Leg lock defense, 10th Planet no-gi</strong> — taught by Kuwy Jitsu · 1:01 · <a href="https://www.youtube.com/watch?v=m0NLphEuFoc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=R4K-UU_bUZQ)
 
 <p class="clip-credit"><strong>Jackie Chan and 411 leg entanglement breakdown</strong> — taught by 10th Planet Orange Park · 1:15 · <a href="https://www.youtube.com/watch?v=R4K-UU_bUZQ" rel="noopener">Watch on YouTube</a></p>
@@ -224,9 +205,9 @@ As the bottom player in Carni, preventing your opponent's posture recovery is es
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=uZbUhFapIhg)
+![](https://www.youtube.com/watch?v=h6o7-9u4NHo)
 
-<p class="clip-credit"><strong>Craig Jones leg lock defense</strong> — taught by Craig Jones · 2:43 · <a href="https://www.youtube.com/watch?v=uZbUhFapIhg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Polishing the meat hook rubber guard control</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=h6o7-9u4NHo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

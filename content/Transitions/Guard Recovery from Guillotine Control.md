@@ -46,17 +46,6 @@ description: "Master guard recovery from guillotine control in BJJ. Step-by-step
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Double Elbow to High Elbow Guillotine",
-      "description": "Guard Recovery from Guillotine Control film study: Double Elbow to High Elbow Guillotine, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/IvSVZuezQGo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/IvSVZuezQGo",
-      "url": "https://www.youtube.com/watch?v=IvSVZuezQGo",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT171S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Sweep From Failed Guillotine In The Guard",
       "description": "Guard Recovery from Guillotine Control film study: Sweep From Failed Guillotine In The Guard, taught by GrapplingMechanics Coach.",
       "thumbnailUrl": "https://i.ytimg.com/vi/aMzd1nLGvMs/hqdefault.jpg",
@@ -64,6 +53,17 @@ description: "Master guard recovery from guillotine control in BJJ. Step-by-step
       "url": "https://www.youtube.com/watch?v=aMzd1nLGvMs",
       "creator": { "@type": "Person", "name": "GrapplingMechanics Coach" },
       "duration": "PT56S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Running escape to guard recovery, no-gi",
+      "description": "Guard Recovery from Guillotine Control film study: Running escape to guard recovery, no-gi, taught by Robyn Sheehan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IQ-niRwUvqg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IQ-niRwUvqg",
+      "url": "https://www.youtube.com/watch?v=IQ-niRwUvqg",
+      "creator": { "@type": "Person", "name": "Robyn Sheehan" },
+      "duration": "PT131S"
     }
   ]
 }
@@ -117,17 +117,17 @@ Strategically, this recovery represents a critical decision point in bottom-game
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=IvSVZuezQGo)
+![](https://www.youtube.com/watch?v=aMzd1nLGvMs)
 
-<p class="clip-credit"><strong>Double Elbow to High Elbow Guillotine</strong> — taught by Marcelo Garcia · 2:51 · <a href="https://www.youtube.com/watch?v=IvSVZuezQGo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Sweep From Failed Guillotine In The Guard</strong> — taught by GrapplingMechanics Coach · 0:56 · <a href="https://www.youtube.com/watch?v=aMzd1nLGvMs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=aMzd1nLGvMs)
+![](https://www.youtube.com/watch?v=IQ-niRwUvqg)
 
-<p class="clip-credit"><strong>Sweep From Failed Guillotine In The Guard</strong> — taught by GrapplingMechanics Coach · 0:56 · <a href="https://www.youtube.com/watch?v=aMzd1nLGvMs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Running escape to guard recovery, no-gi</strong> — taught by Robyn Sheehan · 2:11 · <a href="https://www.youtube.com/watch?v=IQ-niRwUvqg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -163,13 +163,13 @@ description: "Learn to defend against scramble attempts after stuffing sweeps in
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Chaining Escapes from Bottom Pin After a Failed Sweep",
-      "description": "Recovery from Failed Sweep (Defender) film study: Chaining Escapes from Bottom Pin After a Failed Sweep, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/PARsvWFmssI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/PARsvWFmssI",
-      "url": "https://www.youtube.com/watch?v=PARsvWFmssI",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT273S"
+      "name": "Half guard sweep vs freeing the trapped leg",
+      "description": "Recovery from Failed Sweep (Defender) film study: Half guard sweep vs freeing the trapped leg, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0WGfhsAIZeg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0WGfhsAIZeg",
+      "url": "https://www.youtube.com/watch?v=0WGfhsAIZeg",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT112S"
     }
   ]
 }
@@ -205,9 +205,9 @@ As the defender against the scramble from failed sweep, you are the top player w
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=PARsvWFmssI)
+![](https://www.youtube.com/watch?v=0WGfhsAIZeg)
 
-<p class="clip-credit"><strong>Chaining Escapes from Bottom Pin After a Failed Sweep</strong> — taught by Gordon Ryan · 4:33 · <a href="https://www.youtube.com/watch?v=PARsvWFmssI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Half guard sweep vs freeing the trapped leg</strong> — taught by Lachlan Giles · 1:52 · <a href="https://www.youtube.com/watch?v=0WGfhsAIZeg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

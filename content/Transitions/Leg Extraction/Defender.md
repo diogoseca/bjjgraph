@@ -167,17 +167,6 @@ description: "How to prevent Leg Extraction from Estima Lock in BJJ. Maintain su
       "url": "https://www.youtube.com/watch?v=wIccehL7gkw",
       "creator": { "@type": "Person", "name": "Mikey Musumeci" },
       "duration": "PT87S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "How to escape the straight footlock",
-      "description": "Leg Extraction (Defender) film study: How to escape the straight footlock, taught by The Grappling Academy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Dp9X8-P3ei8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Dp9X8-P3ei8",
-      "url": "https://www.youtube.com/watch?v=Dp9X8-P3ei8",
-      "creator": { "@type": "Person", "name": "The Grappling Academy" },
-      "duration": "PT410S"
     }
   ]
 }
@@ -212,14 +201,6 @@ Advanced defense against Leg Extraction involves recognizing which phase the opp
 ![](https://www.youtube.com/watch?v=wIccehL7gkw)
 
 <p class="clip-credit"><strong>Answering the leg extraction from footlock guard</strong> — taught by Mikey Musumeci · 1:27 · <a href="https://www.youtube.com/watch?v=wIccehL7gkw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Dp9X8-P3ei8)
-
-<p class="clip-credit"><strong>How to escape the straight footlock</strong> — taught by The Grappling Academy · 6:50 · <a href="https://www.youtube.com/watch?v=Dp9X8-P3ei8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -171,24 +171,13 @@ description: "Defensive guide to maintaining Russian Cowboy against escape attem
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Clearing the Kneeline: Leglock Defense",
-      "description": "Escape from Russian Cowboy (Defender) film study: Clearing the Kneeline: Leglock Defense, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/JbRfIo1NTLk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/JbRfIo1NTLk",
-      "url": "https://www.youtube.com/watch?v=JbRfIo1NTLk",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT274S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Defending and Escaping the Saddle",
-      "description": "Escape from Russian Cowboy (Defender) film study: Defending and Escaping the Saddle, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/CFTLb8iywJg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/CFTLb8iywJg",
-      "url": "https://www.youtube.com/watch?v=CFTLb8iywJg",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT383S"
+      "name": "Holding twister side control",
+      "description": "Escape from Russian Cowboy (Defender) film study: Holding twister side control, taught by JitsHappens.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/c1nV0kji8Uc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/c1nV0kji8Uc",
+      "url": "https://www.youtube.com/watch?v=c1nV0kji8Uc",
+      "creator": { "@type": "Person", "name": "JitsHappens" },
+      "duration": "PT35S"
     }
   ]
 }
@@ -224,17 +213,9 @@ As the Russian Cowboy top player defending against the escape, your objective is
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=JbRfIo1NTLk)
+![](https://www.youtube.com/watch?v=c1nV0kji8Uc)
 
-<p class="clip-credit"><strong>Clearing the Kneeline: Leglock Defense</strong> — taught by Craig Jones · 4:34 · <a href="https://www.youtube.com/watch?v=JbRfIo1NTLk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=CFTLb8iywJg)
-
-<p class="clip-credit"><strong>Defending and Escaping the Saddle</strong> — taught by Lachlan Giles · 6:23 · <a href="https://www.youtube.com/watch?v=CFTLb8iywJg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Holding twister side control</strong> — taught by JitsHappens · 0:35 · <a href="https://www.youtube.com/watch?v=c1nV0kji8Uc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

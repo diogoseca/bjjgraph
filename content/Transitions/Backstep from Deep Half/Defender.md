@@ -160,17 +160,6 @@ description: "Defend against the backstep from deep half guard bottom. Recogniti
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Three options to defend deep half guard",
-      "description": "Backstep from Deep Half (Defender) film study: Three options to defend deep half guard, taught by Six Blades Jiu-Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/JEDoJOZWQHY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/JEDoJOZWQHY",
-      "url": "https://www.youtube.com/watch?v=JEDoJOZWQHY",
-      "creator": { "@type": "Person", "name": "Six Blades Jiu-Jitsu" },
-      "duration": "PT207S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Dealing with the backstep from deep half guard",
       "description": "Backstep from Deep Half (Defender) film study: Dealing with the backstep from deep half guard, taught by Andrew Smith.",
       "thumbnailUrl": "https://i.ytimg.com/vi/aR7AKMKyd9w/hqdefault.jpg",
@@ -181,7 +170,7 @@ description: "Defend against the backstep from deep half guard bottom. Recogniti
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 2,
       "name": "Defending the back step in half guard",
       "description": "Backstep from Deep Half (Defender) film study: Defending the back step in half guard, taught by Five Rings Grappling Academy.",
       "thumbnailUrl": "https://i.ytimg.com/vi/_jYG3ug92nM/hqdefault.jpg",
@@ -213,14 +202,6 @@ As the deep half guard bottom player, the backstep represents one of the most da
 
 <p class="section-subtitle">Watch Backstep from Deep Half (Defender) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=JEDoJOZWQHY)
-
-<p class="clip-credit"><strong>Three options to defend deep half guard</strong> — taught by Six Blades Jiu-Jitsu · 3:27 · <a href="https://www.youtube.com/watch?v=JEDoJOZWQHY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

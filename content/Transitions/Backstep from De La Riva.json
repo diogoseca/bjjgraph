@@ -296,15 +296,6 @@
     "safety_considerations": "The backstep from De La Riva involves rotational forces on both players' knees that must be managed carefully during training. Execute the backstep with controlled hip rotation rather than violent twisting to avoid knee ligament strain on your partner's hooked leg, particularly when their foot is wrapped behind your knee. During drilling, use moderate speed until mechanics are smooth, and communicate with your partner if the hook is deeply set and resisting rotation. Be mindful of collision risk during the rotation in crowded training spaces, and always check your surroundings before performing the backstep arc.",
     "clips": [
       {
-        "id": "H9hckrLXcRQ",
-        "title": "De La Riva to Leg Drag pass",
-        "by": "Alavanca",
-        "vertical": false,
-        "channel": "Alavanca",
-        "duration": 29,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "ZaIgVPdXIFE",
         "title": "Long step pass against De La Riva guard",
         "by": "Greg Hernandez",
@@ -312,6 +303,24 @@
         "channel": "GREG HERNANDEZ",
         "duration": 130,
         "verified": "2026-07-15"
+      },
+      {
+        "id": "7mSfDFetnoU",
+        "title": "Back Step De La Riva Pass",
+        "by": "Vicente Junior",
+        "vertical": false,
+        "channel": "Digitsu",
+        "duration": 114,
+        "verified": "2026-07-16"
+      },
+      {
+        "id": "yUF7QVyC0ag",
+        "title": "De La Riva Guard Pass Breakdown",
+        "by": "Taku Ishii",
+        "vertical": false,
+        "channel": "Jiu Jitsu NERD",
+        "duration": 141,
+        "verified": "2026-07-16"
       }
     ]
   },
@@ -447,13 +456,22 @@
         "verified": "2026-07-15"
       },
       {
-        "id": "Tcd_wHmmNOk",
-        "title": "Stop getting your leg trapped in De La Riva",
-        "by": "Jon Thomas",
+        "id": "CT0Q1hDPeWQ",
+        "title": "Countering the Back Step with the Waiter Position",
+        "by": "Factory Fresh Jiu Jitsu",
         "vertical": false,
-        "channel": "JonThomasBJJ",
-        "duration": 156,
-        "verified": "2026-07-15"
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 23,
+        "verified": "2026-07-16"
+      },
+      {
+        "id": "6td9ZiochpY",
+        "title": "Deep De La Riva Counter to the Long Step",
+        "by": "Carpio Jiu Jitsu",
+        "vertical": false,
+        "channel": "Carpio Jiu Jitsu",
+        "duration": 80,
+        "verified": "2026-07-16"
       }
     ]
   }

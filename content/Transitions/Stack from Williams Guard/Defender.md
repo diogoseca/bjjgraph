@@ -178,17 +178,6 @@ description: "Defend against the Stack from Williams Guard in BJJ. Learn recogni
       "url": "https://www.youtube.com/watch?v=iTrQzYeCvHM",
       "creator": { "@type": "Person", "name": "Lachlan Giles" },
       "duration": "PT436S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Williams Guard Fundamentals",
-      "description": "Stack from Williams Guard (Defender) film study: Williams Guard Fundamentals, taught by Shawn Williams.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/IhWlCTSz3As/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/IhWlCTSz3As",
-      "url": "https://www.youtube.com/watch?v=IhWlCTSz3As",
-      "creator": { "@type": "Person", "name": "Shawn Williams" },
-      "duration": "PT512S"
     }
   ]
 }
@@ -227,14 +216,6 @@ As the Williams Guard bottom player facing a stack pass attempt, your primary ob
 ![](https://www.youtube.com/watch?v=iTrQzYeCvHM)
 
 <p class="clip-credit"><strong>Top 5 Guard Retention Mistakes</strong> — taught by Lachlan Giles · 7:16 · <a href="https://www.youtube.com/watch?v=iTrQzYeCvHM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=IhWlCTSz3As)
-
-<p class="clip-credit"><strong>Williams Guard Fundamentals</strong> — taught by Shawn Williams · 8:32 · <a href="https://www.youtube.com/watch?v=IhWlCTSz3As" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

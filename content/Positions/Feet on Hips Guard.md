@@ -46,17 +46,6 @@ description: "Master feet on hips guard in BJJ. Strategic guide covering distanc
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Getting the Feet on Biceps Position",
-      "description": "Feet on Hips Guard film study: Getting the Feet on Biceps Position, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Bp0v7c_MrbY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Bp0v7c_MrbY",
-      "url": "https://www.youtube.com/watch?v=Bp0v7c_MrbY",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT125S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Basic Guard: Feet to Hips",
       "description": "Feet on Hips Guard film study: Basic Guard: Feet to Hips, taught by Martial Arts Concepts.",
       "thumbnailUrl": "https://i.ytimg.com/vi/OEzteWy4psQ/hqdefault.jpg",
@@ -67,7 +56,7 @@ description: "Master feet on hips guard in BJJ. Strategic guide covering distanc
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 2,
       "name": "Open Guard Feet On The Hips Series: 2 Key Steps",
       "description": "Feet on Hips Guard film study: Open Guard Feet On The Hips Series: 2 Key Steps, taught by Nemesis Jiu Jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/yrU-DdcJBgY/hqdefault.jpg",
@@ -124,14 +113,6 @@ The position excels against standing and combat base opponents, using leg extens
 
 <p class="section-subtitle">Watch Feet on Hips Guard in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Bp0v7c_MrbY)
-
-<p class="clip-credit"><strong>Getting the Feet on Biceps Position</strong> — taught by Lachlan Giles · 2:05 · <a href="https://www.youtube.com/watch?v=Bp0v7c_MrbY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

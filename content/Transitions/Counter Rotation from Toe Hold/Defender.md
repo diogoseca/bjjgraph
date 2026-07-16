@@ -153,28 +153,6 @@ description: "Defend against the Counter Rotation from Toe Hold escape. Recognit
       "url": "https://www.youtube.com/watch?v=3a9k8-ZcYrk",
       "creator": { "@type": "Person", "name": "Gordon Ryan" },
       "duration": "PT106S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Toe Hold Counters",
-      "description": "Counter Rotation from Toe Hold (Defender) film study: Toe Hold Counters, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8pCKbDQt3_8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/8pCKbDQt3_8",
-      "url": "https://www.youtube.com/watch?v=8pCKbDQt3_8",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT326S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Toe Hold Defense: Denying Lever Control",
-      "description": "Counter Rotation from Toe Hold (Defender) film study: Toe Hold Defense: Denying Lever Control, taught by RVV BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/SJtaC-hOaHY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/SJtaC-hOaHY",
-      "url": "https://www.youtube.com/watch?v=SJtaC-hOaHY",
-      "creator": { "@type": "Person", "name": "RVV BJJ" },
-      "duration": "PT381S"
     }
   ]
 }
@@ -205,22 +183,6 @@ As the defender in this scenario, you are the practitioner who has established T
 ![](https://www.youtube.com/watch?v=3a9k8-ZcYrk)
 
 <p class="clip-credit"><strong>Escaping the toe hold</strong> — taught by Gordon Ryan · 1:46 · <a href="https://www.youtube.com/watch?v=3a9k8-ZcYrk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=8pCKbDQt3_8)
-
-<p class="clip-credit"><strong>Toe Hold Counters</strong> — taught by Lachlan Giles · 5:26 · <a href="https://www.youtube.com/watch?v=8pCKbDQt3_8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=SJtaC-hOaHY)
-
-<p class="clip-credit"><strong>Toe Hold Defense: Denying Lever Control</strong> — taught by RVV BJJ · 6:21 · <a href="https://www.youtube.com/watch?v=SJtaC-hOaHY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

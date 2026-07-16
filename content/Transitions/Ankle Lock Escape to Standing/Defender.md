@@ -163,13 +163,13 @@ description: "Master preventing the ankle lock escape to standing. Complete guid
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Leglock defense fundamentals",
-      "description": "Ankle Lock Escape to Standing (Defender) film study: Leglock defense fundamentals, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/uZbUhFapIhg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/uZbUhFapIhg",
-      "url": "https://www.youtube.com/watch?v=uZbUhFapIhg",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT163S"
+      "name": "Straight Ankle Lock Finish Against the Escape",
+      "description": "Ankle Lock Escape to Standing (Defender) film study: Straight Ankle Lock Finish Against the Escape, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OODhY1jlH3Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OODhY1jlH3Q",
+      "url": "https://www.youtube.com/watch?v=OODhY1jlH3Q",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT116S"
     }
   ]
 }
@@ -205,9 +205,9 @@ From the perspective of the ankle lock attacker, preventing the escape to standi
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=uZbUhFapIhg)
+![](https://www.youtube.com/watch?v=OODhY1jlH3Q)
 
-<p class="clip-credit"><strong>Leglock defense fundamentals</strong> — taught by Craig Jones · 2:43 · <a href="https://www.youtube.com/watch?v=uZbUhFapIhg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Straight Ankle Lock Finish Against the Escape</strong> — taught by Brian Glick · 1:56 · <a href="https://www.youtube.com/watch?v=OODhY1jlH3Q" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

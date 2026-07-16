@@ -704,15 +704,6 @@
     ],
     "clips": [
       {
-        "id": "4EpYNsTwjWY",
-        "title": "Deep half guard Faria sweep",
-        "by": "Masahiro Iwasaki",
-        "vertical": false,
-        "channel": "Team Daruma Dojo",
-        "duration": 71,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "X3M6JUqr1Bo",
         "title": "Roger windmill half guard sweep",
         "by": "SBG Australia",
@@ -720,6 +711,24 @@
         "channel": "SBG Australia",
         "duration": 16,
         "verified": "2026-07-14"
+      },
+      {
+        "id": "kw8cs6soC8M",
+        "title": "Forcing Half Guard: Clearing the Line of Feet",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 88,
+        "verified": "2026-07-16"
+      },
+      {
+        "id": "9Z9TSmFppbM",
+        "title": "Half Guard Entries to Switch Base",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 70,
+        "verified": "2026-07-16"
       }
     ]
   },
@@ -754,15 +763,6 @@
     }
   ],
   "clips": [
-    {
-      "id": "F8zTqADm7fU",
-      "title": "Arm drag from knee shield half guard",
-      "by": "Bernardo Faria",
-      "vertical": false,
-      "channel": "Bernardo Faria BJJ Fanatics",
-      "duration": 162,
-      "verified": "2026-07-14"
-    },
     {
       "id": "q_ND-09HiWg",
       "title": "Knee shield half guard basics",

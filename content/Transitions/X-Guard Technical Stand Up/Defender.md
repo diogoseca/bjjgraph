@@ -152,17 +152,6 @@ description: "Learn to defend the X-Guard Technical Stand Up. Recognition cues, 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Countering single leg X with a heel hook",
-      "description": "X-Guard Technical Stand Up (Defender) film study: Countering single leg X with a heel hook, taught by Charles Allan Price.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/e2KVHXnSh_o/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/e2KVHXnSh_o",
-      "url": "https://www.youtube.com/watch?v=e2KVHXnSh_o",
-      "creator": { "@type": "Person", "name": "Charles Allan Price" },
-      "duration": "PT75S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Single leg X guard sweep defense",
       "description": "X-Guard Technical Stand Up (Defender) film study: Single leg X guard sweep defense, taught by Tiger Muay Thai coach.",
       "thumbnailUrl": "https://i.ytimg.com/vi/gwEmeb9RSk4/hqdefault.jpg",
@@ -170,6 +159,28 @@ description: "Learn to defend the X-Guard Technical Stand Up. Recognition cues, 
       "url": "https://www.youtube.com/watch?v=gwEmeb9RSk4",
       "creator": { "@type": "Person", "name": "Tiger Muay Thai coach" },
       "duration": "PT227S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending the single leg X position",
+      "description": "X-Guard Technical Stand Up (Defender) film study: Defending the single leg X position, taught by Fit 2 Defend Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/st2eQddW4J4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/st2eQddW4J4",
+      "url": "https://www.youtube.com/watch?v=st2eQddW4J4",
+      "creator": { "@type": "Person", "name": "Fit 2 Defend Academy" },
+      "duration": "PT144S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "X-Guard counter while standing",
+      "description": "X-Guard Technical Stand Up (Defender) film study: X-Guard counter while standing, taught by Samy Aljamal.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LNyXkfENU5c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LNyXkfENU5c",
+      "url": "https://www.youtube.com/watch?v=LNyXkfENU5c",
+      "creator": { "@type": "Person", "name": "Samy Aljamal" },
+      "duration": "PT79S"
     }
   ]
 }
@@ -197,17 +208,25 @@ Defending the X-Guard Technical Stand Up requires recognizing early warning sign
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=e2KVHXnSh_o)
+![](https://www.youtube.com/watch?v=gwEmeb9RSk4)
 
-<p class="clip-credit"><strong>Countering single leg X with a heel hook</strong> — taught by Charles Allan Price · 1:15 · <a href="https://www.youtube.com/watch?v=e2KVHXnSh_o" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Single leg X guard sweep defense</strong> — taught by Tiger Muay Thai coach · 3:47 · <a href="https://www.youtube.com/watch?v=gwEmeb9RSk4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=gwEmeb9RSk4)
+![](https://www.youtube.com/watch?v=st2eQddW4J4)
 
-<p class="clip-credit"><strong>Single leg X guard sweep defense</strong> — taught by Tiger Muay Thai coach · 3:47 · <a href="https://www.youtube.com/watch?v=gwEmeb9RSk4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Defending the single leg X position</strong> — taught by Fit 2 Defend Academy · 2:24 · <a href="https://www.youtube.com/watch?v=st2eQddW4J4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LNyXkfENU5c)
+
+<p class="clip-credit"><strong>X-Guard counter while standing</strong> — taught by Samy Aljamal · 1:19 · <a href="https://www.youtube.com/watch?v=LNyXkfENU5c" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

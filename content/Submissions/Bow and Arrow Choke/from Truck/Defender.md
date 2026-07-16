@@ -162,17 +162,6 @@ description: "Defend the Bow and Arrow Choke from Truck. Recognition cues, colla
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Roll Under Escape to Backside 50/50",
-      "description": "Bow and Arrow Choke from Truck (Defender) film study: Roll Under Escape to Backside 50/50, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/DBbSqQf6iCo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/DBbSqQf6iCo",
-      "url": "https://www.youtube.com/watch?v=DBbSqQf6iCo",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT110S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Defending the truck roll back take",
       "description": "Bow and Arrow Choke from Truck (Defender) film study: Defending the truck roll back take, taught by Brian Glick.",
       "thumbnailUrl": "https://i.ytimg.com/vi/WEpVDP7MRpo/hqdefault.jpg",
@@ -183,7 +172,7 @@ description: "Defend the Bow and Arrow Choke from Truck. Recognition cues, colla
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 2,
       "name": "Countering the truck by flipping it",
       "description": "Bow and Arrow Choke from Truck (Defender) film study: Countering the truck by flipping it, taught by Brandon McCaghren.",
       "thumbnailUrl": "https://i.ytimg.com/vi/NhxDerwXxSU/hqdefault.jpg",
@@ -216,14 +205,6 @@ Defending the Bow and Arrow Choke from the Truck position requires addressing tw
 
 <p class="section-subtitle">Watch Bow and Arrow Choke from Truck (Defender) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=DBbSqQf6iCo)
-
-<p class="clip-credit"><strong>Roll Under Escape to Backside 50/50</strong> — taught by Lachlan Giles · 1:50 · <a href="https://www.youtube.com/watch?v=DBbSqQf6iCo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

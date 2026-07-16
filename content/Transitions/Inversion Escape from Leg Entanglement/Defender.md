@@ -171,24 +171,13 @@ description: "Prevent the inversion escape from your leg entanglement by recogni
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Craig Jones Leglock Defense",
-      "description": "Inversion Escape from Leg Entanglement (Defender) film study: Craig Jones Leglock Defense, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/uZbUhFapIhg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/uZbUhFapIhg",
-      "url": "https://www.youtube.com/watch?v=uZbUhFapIhg",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT163S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Outside Heel Hook Defense Concepts",
-      "description": "Inversion Escape from Leg Entanglement (Defender) film study: Outside Heel Hook Defense Concepts, taught by Kade and Tye Ruotolo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/KjYaNldgf5c/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/KjYaNldgf5c",
-      "url": "https://www.youtube.com/watch?v=KjYaNldgf5c",
-      "creator": { "@type": "Person", "name": "Kade and Tye Ruotolo" },
-      "duration": "PT244S"
+      "name": "Leg entanglement escapes fundamentals",
+      "description": "Inversion Escape from Leg Entanglement (Defender) film study: Leg entanglement escapes fundamentals, taught by Jeremy Skinner.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/c-LUX8aDBUE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/c-LUX8aDBUE",
+      "url": "https://www.youtube.com/watch?v=c-LUX8aDBUE",
+      "creator": { "@type": "Person", "name": "Jeremy Skinner" },
+      "duration": "PT35S"
     }
   ]
 }
@@ -224,17 +213,9 @@ As the person maintaining the leg entanglement, your objective is to prevent the
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=uZbUhFapIhg)
+![](https://www.youtube.com/watch?v=c-LUX8aDBUE)
 
-<p class="clip-credit"><strong>Craig Jones Leglock Defense</strong> — taught by Craig Jones · 2:43 · <a href="https://www.youtube.com/watch?v=uZbUhFapIhg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=KjYaNldgf5c)
-
-<p class="clip-credit"><strong>Outside Heel Hook Defense Concepts</strong> — taught by Kade and Tye Ruotolo · 4:04 · <a href="https://www.youtube.com/watch?v=KjYaNldgf5c" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Leg entanglement escapes fundamentals</strong> — taught by Jeremy Skinner · 0:35 · <a href="https://www.youtube.com/watch?v=c-LUX8aDBUE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

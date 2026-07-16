@@ -163,13 +163,13 @@ description: "Complete guide to defending against Z-Lock Half Guard passing atte
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Z-lock from 50/50",
-      "description": "Pass Z-Lock (Defender) film study: Z-lock from 50/50, taught by Jason Rau.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/J9iNUWoAbIk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/J9iNUWoAbIk",
-      "url": "https://www.youtube.com/watch?v=J9iNUWoAbIk",
-      "creator": { "@type": "Person", "name": "Jason Rau" },
-      "duration": "PT188S"
+      "name": "Craig Jones on dealing with the Rau from Z guard",
+      "description": "Pass Z-Lock (Defender) film study: Craig Jones on dealing with the Rau from Z guard, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XljjtfoCTR8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XljjtfoCTR8",
+      "url": "https://www.youtube.com/watch?v=XljjtfoCTR8",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT135S"
     }
   ]
 }
@@ -205,9 +205,9 @@ As the defender in Z-Lock Half Guard, your primary objectives are retaining the 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=J9iNUWoAbIk)
+![](https://www.youtube.com/watch?v=XljjtfoCTR8)
 
-<p class="clip-credit"><strong>Z-lock from 50/50</strong> — taught by Jason Rau · 3:08 · <a href="https://www.youtube.com/watch?v=J9iNUWoAbIk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Craig Jones on dealing with the Rau from Z guard</strong> — taught by Craig Jones · 2:15 · <a href="https://www.youtube.com/watch?v=XljjtfoCTR8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

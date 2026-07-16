@@ -183,17 +183,6 @@ description: "Navigate Crackhead Control from top position - defending deep over
       "url": "https://www.youtube.com/watch?v=dQ2mBMf9Gys",
       "creator": { "@type": "Person", "name": "Eddie Bravo" },
       "duration": "PT212S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Gag reflex attack from crackhead control",
-      "description": "Crackhead Control (Top) film study: Gag reflex attack from crackhead control, taught by Submissions101.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/6grBGUO0fpM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/6grBGUO0fpM",
-      "url": "https://www.youtube.com/watch?v=6grBGUO0fpM",
-      "creator": { "@type": "Person", "name": "Submissions101" },
-      "duration": "PT159S"
     }
   ]
 }
@@ -230,14 +219,6 @@ From the top perspective, Crackhead Control presents a complex defensive puzzle 
 ![](https://www.youtube.com/watch?v=dQ2mBMf9Gys)
 
 <p class="clip-credit"><strong>Electric stone sweep to top stoner control</strong> — taught by Eddie Bravo · 3:32 · <a href="https://www.youtube.com/watch?v=dQ2mBMf9Gys" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=6grBGUO0fpM)
-
-<p class="clip-credit"><strong>Gag reflex attack from crackhead control</strong> — taught by Submissions101 · 2:39 · <a href="https://www.youtube.com/watch?v=6grBGUO0fpM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

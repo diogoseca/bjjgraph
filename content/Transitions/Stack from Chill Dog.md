@@ -46,24 +46,24 @@ description: "Master the Stack from Chill Dog in BJJ. Learn to break compact tur
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Attacking Turtle and Maintaining the Back",
-      "description": "Stack from Chill Dog film study: Attacking Turtle and Maintaining the Back, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/rUgsogdU5I0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/rUgsogdU5I0",
-      "url": "https://www.youtube.com/watch?v=rUgsogdU5I0",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT493S"
+      "name": "Pillory counter to rubber guard pass",
+      "description": "Stack from Chill Dog film study: Pillory counter to rubber guard pass, taught by Gabriel Rainer.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Yct0FnRjGP8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Yct0FnRjGP8",
+      "url": "https://www.youtube.com/watch?v=Yct0FnRjGP8",
+      "creator": { "@type": "Person", "name": "Gabriel Rainer" },
+      "duration": "PT133S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Attacking Turtle: Side Breakdown (No-Gi)",
-      "description": "Stack from Chill Dog film study: Attacking Turtle: Side Breakdown (No-Gi), taught by Brian Glick.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/jtUBFTbHMOk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/jtUBFTbHMOk",
-      "url": "https://www.youtube.com/watch?v=jtUBFTbHMOk",
-      "creator": { "@type": "Person", "name": "Brian Glick" },
-      "duration": "PT388S"
+      "name": "Why London left the 10th Planet system",
+      "description": "Stack from Chill Dog film study: Why London left the 10th Planet system, taught by Submissions101 coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kaVklKMW3aw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kaVklKMW3aw",
+      "url": "https://www.youtube.com/watch?v=kaVklKMW3aw",
+      "creator": { "@type": "Person", "name": "Submissions101 coach" },
+      "duration": "PT94S"
     }
   ]
 }
@@ -117,17 +117,17 @@ Strategically, the stack is most effective as part of a broader dilemma-based tu
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=rUgsogdU5I0)
+![](https://www.youtube.com/watch?v=Yct0FnRjGP8)
 
-<p class="clip-credit"><strong>Attacking Turtle and Maintaining the Back</strong> — taught by Gordon Ryan · 8:13 · <a href="https://www.youtube.com/watch?v=rUgsogdU5I0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Pillory counter to rubber guard pass</strong> — taught by Gabriel Rainer · 2:13 · <a href="https://www.youtube.com/watch?v=Yct0FnRjGP8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=jtUBFTbHMOk)
+![](https://www.youtube.com/watch?v=kaVklKMW3aw)
 
-<p class="clip-credit"><strong>Attacking Turtle: Side Breakdown (No-Gi)</strong> — taught by Brian Glick · 6:28 · <a href="https://www.youtube.com/watch?v=jtUBFTbHMOk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Why London left the 10th Planet system</strong> — taught by Submissions101 coach · 1:34 · <a href="https://www.youtube.com/watch?v=kaVklKMW3aw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

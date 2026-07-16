@@ -64,17 +64,6 @@ description: "Master the Rubber Guard Sweep in BJJ. Complete guide to sweeping f
       "url": "https://www.youtube.com/watch?v=CmuBRahwA7c",
       "creator": { "@type": "Person", "name": "Richie Martinez" },
       "duration": "PT125S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Corona lockdown sweep",
-      "description": "Rubber Guard Sweep film study: Corona lockdown sweep, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/08cbHHs_NsM/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/08cbHHs_NsM",
-      "url": "https://www.youtube.com/watch?v=08cbHHs_NsM",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT53S"
     }
   ]
 }
@@ -139,14 +128,6 @@ Within the broader rubber guard system, this sweep serves as a critical branch i
 ![](https://www.youtube.com/watch?v=CmuBRahwA7c)
 
 <p class="clip-credit"><strong>Jersey sweep from rubber guard</strong> — taught by Richie Martinez · 2:05 · <a href="https://www.youtube.com/watch?v=CmuBRahwA7c" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=08cbHHs_NsM)
-
-<p class="clip-credit"><strong>Corona lockdown sweep</strong> — taught by Eddie Bravo · 0:53 · <a href="https://www.youtube.com/watch?v=08cbHHs_NsM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

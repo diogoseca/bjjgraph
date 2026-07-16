@@ -178,17 +178,6 @@ description: "Defend against the Kimura from Diamond Guard in BJJ. Recognition c
       "url": "https://www.youtube.com/watch?v=GOLwVNTVcnY",
       "creator": { "@type": "Person", "name": "Dirtball BJJ" },
       "duration": "PT81S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Defending the americana",
-      "description": "Kimura from Diamond Guard (Defender) film study: Defending the americana, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/FNyL93v5fGs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/FNyL93v5fGs",
-      "url": "https://www.youtube.com/watch?v=FNyL93v5fGs",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT91S"
     }
   ]
 }
@@ -227,14 +216,6 @@ Defending the Kimura from Diamond Guard requires recognizing the transition wind
 ![](https://www.youtube.com/watch?v=GOLwVNTVcnY)
 
 <p class="clip-credit"><strong>Kimura defense grip breaks</strong> — taught by Dirtball BJJ · 1:21 · <a href="https://www.youtube.com/watch?v=GOLwVNTVcnY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=FNyL93v5fGs)
-
-<p class="clip-credit"><strong>Defending the americana</strong> — taught by Lachlan Giles · 1:31 · <a href="https://www.youtube.com/watch?v=FNyL93v5fGs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

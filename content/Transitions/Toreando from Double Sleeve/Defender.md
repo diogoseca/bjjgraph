@@ -163,13 +163,24 @@ description: "Defend the Toreando pass from Double Sleeve Guard. Recognition cue
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Cross-knee defense near shoulder pressure",
-      "description": "Toreando from Double Sleeve (Defender) film study: Cross-knee defense near shoulder pressure, taught by Xande Ribeiro.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/w32XrGgws3w/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/w32XrGgws3w",
-      "url": "https://www.youtube.com/watch?v=w32XrGgws3w",
-      "creator": { "@type": "Person", "name": "Xande Ribeiro" },
-      "duration": "PT217S"
+      "name": "Countering the toreando pass",
+      "description": "Toreando from Double Sleeve (Defender) film study: Countering the toreando pass, taught by Alexandre Vieira.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iuB73f72jgs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iuB73f72jgs",
+      "url": "https://www.youtube.com/watch?v=iuB73f72jgs",
+      "creator": { "@type": "Person", "name": "Alexandre Vieira" },
+      "duration": "PT138S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Toreando defense with a roll counter",
+      "description": "Toreando from Double Sleeve (Defender) film study: Toreando defense with a roll counter, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ad4250mBWKc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ad4250mBWKc",
+      "url": "https://www.youtube.com/watch?v=Ad4250mBWKc",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT84S"
     }
   ]
 }
@@ -205,9 +216,17 @@ As the defender against the Toreando from Double Sleeve, your primary objective 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=w32XrGgws3w)
+![](https://www.youtube.com/watch?v=iuB73f72jgs)
 
-<p class="clip-credit"><strong>Cross-knee defense near shoulder pressure</strong> — taught by Xande Ribeiro · 3:37 · <a href="https://www.youtube.com/watch?v=w32XrGgws3w" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Countering the toreando pass</strong> — taught by Alexandre Vieira · 2:18 · <a href="https://www.youtube.com/watch?v=iuB73f72jgs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ad4250mBWKc)
+
+<p class="clip-credit"><strong>Toreando defense with a roll counter</strong> — taught by Revolution BJJ · 1:24 · <a href="https://www.youtube.com/watch?v=Ad4250mBWKc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -146,30 +146,19 @@ description: "Learn to defend against the Escape Leg Hook from top position. Mai
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Leg lock escape: roll through",
-      "description": "Escape Leg Hook (Defender) film study: Leg lock escape: roll through, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/MqtG9kuVt-Q/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/MqtG9kuVt-Q",
-      "url": "https://www.youtube.com/watch?v=MqtG9kuVt-Q",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT103S"
+      "name": "Guard retention against the knee through",
+      "description": "Escape Leg Hook (Defender) film study: Guard retention against the knee through, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3oD74kEITs8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3oD74kEITs8",
+      "url": "https://www.youtube.com/watch?v=3oD74kEITs8",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT48S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Recovering from 3/4 mount: freeing the hook",
-      "description": "Escape Leg Hook (Defender) film study: Recovering from 3/4 mount: freeing the hook, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/e8LWit7OEv4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/e8LWit7OEv4",
-      "url": "https://www.youtube.com/watch?v=e8LWit7OEv4",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT241S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Guard retention: when to sit up and escape",
-      "description": "Escape Leg Hook (Defender) film study: Guard retention: when to sit up and escape, taught by Lachlan Giles.",
+      "name": "Guard retention: when to sit up and recover",
+      "description": "Escape Leg Hook (Defender) film study: Guard retention: when to sit up and recover, taught by Lachlan Giles.",
       "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
       "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
@@ -202,17 +191,9 @@ As the defender against the Escape Leg Hook, you are the top player working to m
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=MqtG9kuVt-Q)
+![](https://www.youtube.com/watch?v=3oD74kEITs8)
 
-<p class="clip-credit"><strong>Leg lock escape: roll through</strong> — taught by Gordon Ryan · 1:43 · <a href="https://www.youtube.com/watch?v=MqtG9kuVt-Q" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=e8LWit7OEv4)
-
-<p class="clip-credit"><strong>Recovering from 3/4 mount: freeing the hook</strong> — taught by Lachlan Giles · 4:01 · <a href="https://www.youtube.com/watch?v=e8LWit7OEv4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guard retention against the knee through</strong> — taught by Lachlan Giles · 0:48 · <a href="https://www.youtube.com/watch?v=3oD74kEITs8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
@@ -220,7 +201,7 @@ As the defender against the Escape Leg Hook, you are the top player working to m
 
 ![](https://www.youtube.com/watch?v=lVLAROiSjNU)
 
-<p class="clip-credit"><strong>Guard retention: when to sit up and escape</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guard retention: when to sit up and recover</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

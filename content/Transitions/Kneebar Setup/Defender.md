@@ -178,17 +178,6 @@ description: "How to defend against Kneebar Setup in BJJ. Recognition cues, defe
       "url": "https://www.youtube.com/watch?v=cRXsNPAgVLU",
       "creator": { "@type": "Person", "name": "John Danaher" },
       "duration": "PT29S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Terminology of Ashi Garami and Leg Locks",
-      "description": "Kneebar Setup (Defender) film study: Terminology of Ashi Garami and Leg Locks, taught by Patrick Donabedian.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/fkl93-NakrI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/fkl93-NakrI",
-      "url": "https://www.youtube.com/watch?v=fkl93-NakrI",
-      "creator": { "@type": "Person", "name": "Patrick Donabedian" },
-      "duration": "PT79S"
     }
   ]
 }
@@ -231,14 +220,6 @@ Defensive success also depends on recognizing the transition early through tacti
 ![](https://www.youtube.com/watch?v=cRXsNPAgVLU)
 
 <p class="clip-credit"><strong>Irimi Ashi Garami Counter</strong> — taught by John Danaher · 0:29 · <a href="https://www.youtube.com/watch?v=cRXsNPAgVLU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=fkl93-NakrI)
-
-<p class="clip-credit"><strong>Terminology of Ashi Garami and Leg Locks</strong> — taught by Patrick Donabedian · 1:19 · <a href="https://www.youtube.com/watch?v=fkl93-NakrI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -186,17 +186,6 @@ description: "Master the top player's technique for clearing butterfly hooks to 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Shoulder crunch sweep from butterfly guard",
-      "description": "Butterfly Guard to Butterfly Half Guard (Attacker) film study: Shoulder crunch sweep from butterfly guard, taught by Coach Ben.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/KLwqvzhW3A8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/KLwqvzhW3A8",
-      "url": "https://www.youtube.com/watch?v=KLwqvzhW3A8",
-      "creator": { "@type": "Person", "name": "Coach Ben" },
-      "duration": "PT19S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Half guard sit-up to butterfly sweep",
       "description": "Butterfly Guard to Butterfly Half Guard (Attacker) film study: Half guard sit-up to butterfly sweep, taught by Bjj Picanha.",
       "thumbnailUrl": "https://i.ytimg.com/vi/hTQ29eG4cqY/hqdefault.jpg",
@@ -207,7 +196,7 @@ description: "Master the top player's technique for clearing butterfly hooks to 
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 2,
       "name": "Butterfly sweep from half guard",
       "description": "Butterfly Guard to Butterfly Half Guard (Attacker) film study: Butterfly sweep from half guard, taught by William Metts.",
       "thumbnailUrl": "https://i.ytimg.com/vi/F403VM7eBSM/hqdefault.jpg",
@@ -241,14 +230,6 @@ The key insight is that you are not simply removing a hook but replacing it with
 
 <p class="section-subtitle">Watch Butterfly Guard to Butterfly Half Guard (Attacker) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=KLwqvzhW3A8)
-
-<p class="clip-credit"><strong>Shoulder crunch sweep from butterfly guard</strong> — taught by Coach Ben · 0:19 · <a href="https://www.youtube.com/watch?v=KLwqvzhW3A8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

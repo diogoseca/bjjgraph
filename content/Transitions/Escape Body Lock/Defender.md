@@ -163,17 +163,6 @@ description: "Defend against the Escape Body Lock. Recognition cues, counter-str
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Body lock pass defense: inside position and elevator sweep",
-      "description": "Escape Body Lock (Defender) film study: Body lock pass defense: inside position and elevator sweep, taught by Brian Glick.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/YVeeiNy43j4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/YVeeiNy43j4",
-      "url": "https://www.youtube.com/watch?v=YVeeiNy43j4",
-      "creator": { "@type": "Person", "name": "Brian Glick" },
-      "duration": "PT123S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
       "name": "Escape rear body lock with a Granby roll",
       "description": "Escape Body Lock (Defender) film study: Escape rear body lock with a Granby roll, taught by Nakapan MMA.",
       "thumbnailUrl": "https://i.ytimg.com/vi/_QDpqIbTa1k/hqdefault.jpg",
@@ -211,14 +200,6 @@ As the defender against the Escape Body Lock, your objective is to maintain your
 ![](https://www.youtube.com/watch?v=8e8aOjenAKs)
 
 <p class="clip-credit"><strong>Turtle and Rear Body Lock Escape Counter</strong> — taught by Jamie Clubb · 2:38 · <a href="https://www.youtube.com/watch?v=8e8aOjenAKs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=YVeeiNy43j4)
-
-<p class="clip-credit"><strong>Body lock pass defense: inside position and elevator sweep</strong> — taught by Brian Glick · 2:03 · <a href="https://www.youtube.com/watch?v=YVeeiNy43j4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -65,17 +65,6 @@ description: "Invert from De La Riva Guard into the inverted Grasshopper Guard t
       "url": "https://www.youtube.com/watch?v=eO0iX_6Whaw",
       "creator": { "@type": "Person", "name": "Absolute MMA St Kilda" },
       "duration": "PT71S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Back take from De La Riva guard",
-      "description": "De La Riva to Grasshopper Guard film study: Back take from De La Riva guard, taught by Elite MMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_V15lSbYA8k/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_V15lSbYA8k",
-      "url": "https://www.youtube.com/watch?v=_V15lSbYA8k",
-      "creator": { "@type": "Person", "name": "Elite MMA" },
-      "duration": "PT77S"
     }
   ]
 }
@@ -143,14 +132,6 @@ The trade-off is real. Inverting concedes upper-body connection and is energy-ex
 ![](https://www.youtube.com/watch?v=eO0iX_6Whaw)
 
 <p class="clip-credit"><strong>Tip to improve your De La Riva hook</strong> — taught by Absolute MMA St Kilda · 1:11 · <a href="https://www.youtube.com/watch?v=eO0iX_6Whaw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=_V15lSbYA8k)
-
-<p class="clip-credit"><strong>Back take from De La Riva guard</strong> — taught by Elite MMA · 1:17 · <a href="https://www.youtube.com/watch?v=_V15lSbYA8k" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

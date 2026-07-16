@@ -191,24 +191,13 @@ description: "How to execute Smash Pass Counter in BJJ. Attacking perspective wi
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Principles of Pressure Passing",
-      "description": "Smash Pass Counter (Attacker) film study: Principles of Pressure Passing, taught by Bernardo Faria.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/eU2MKcq5we0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/eU2MKcq5we0",
-      "url": "https://www.youtube.com/watch?v=eU2MKcq5we0",
-      "creator": { "@type": "Person", "name": "Bernardo Faria" },
-      "duration": "PT353S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "How to Pass One of the Most Annoying Guards",
-      "description": "Smash Pass Counter (Attacker) film study: How to Pass One of the Most Annoying Guards, taught by Jon Thomas.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/uvuV9GnMvFQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/uvuV9GnMvFQ",
-      "url": "https://www.youtube.com/watch?v=uvuV9GnMvFQ",
+      "name": "How to pass the worm guard without getting stuck",
+      "description": "Smash Pass Counter (Attacker) film study: How to pass the worm guard without getting stuck, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Apdhlgpalgc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Apdhlgpalgc",
+      "url": "https://www.youtube.com/watch?v=Apdhlgpalgc",
       "creator": { "@type": "Person", "name": "Jon Thomas" },
-      "duration": "PT458S"
+      "duration": "PT202S"
     }
   ]
 }
@@ -248,17 +237,9 @@ Strategically, this pass represents the aggressive response to Ringworm Guard an
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=eU2MKcq5we0)
+![](https://www.youtube.com/watch?v=Apdhlgpalgc)
 
-<p class="clip-credit"><strong>Principles of Pressure Passing</strong> — taught by Bernardo Faria · 5:53 · <a href="https://www.youtube.com/watch?v=eU2MKcq5we0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=uvuV9GnMvFQ)
-
-<p class="clip-credit"><strong>How to Pass One of the Most Annoying Guards</strong> — taught by Jon Thomas · 7:38 · <a href="https://www.youtube.com/watch?v=uvuV9GnMvFQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to pass the worm guard without getting stuck</strong> — taught by Jon Thomas · 3:22 · <a href="https://www.youtube.com/watch?v=Apdhlgpalgc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

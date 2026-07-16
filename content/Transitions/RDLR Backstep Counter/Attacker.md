@@ -204,17 +204,6 @@ description: "Master the RDLR Backstep Counter from the attacker perspective. St
       "url": "https://www.youtube.com/watch?v=IdfQWVHikws",
       "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
       "duration": "PT86S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "How to use reverse de la riva",
-      "description": "RDLR Backstep Counter (Attacker) film study: How to use reverse de la riva, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_beJGS2-yIE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_beJGS2-yIE",
-      "url": "https://www.youtube.com/watch?v=_beJGS2-yIE",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT122S"
     }
   ]
 }
@@ -253,14 +242,6 @@ The attacker in the RDLR Backstep Counter is the top player who uses a controlle
 ![](https://www.youtube.com/watch?v=IdfQWVHikws)
 
 <p class="clip-credit"><strong>Passing reverse de la riva with a shin slice</strong> — taught by BJJ4Breakfast · 1:26 · <a href="https://www.youtube.com/watch?v=IdfQWVHikws" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=_beJGS2-yIE)
-
-<p class="clip-credit"><strong>How to use reverse de la riva</strong> — taught by Lachlan Giles · 2:02 · <a href="https://www.youtube.com/watch?v=_beJGS2-yIE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

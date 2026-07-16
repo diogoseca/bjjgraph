@@ -138,17 +138,6 @@ description: "Defend against the Shake Off escape from Rodeo Ride in BJJ. Learn 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Holding the seated rodeo ride into juji gatame",
-      "description": "Shake Off Rodeo Ride (Defender) film study: Holding the seated rodeo ride into juji gatame, taught by Steve Scott.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/BF0dNxRR444/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/BF0dNxRR444",
-      "url": "https://www.youtube.com/watch?v=BF0dNxRR444",
-      "creator": { "@type": "Person", "name": "Steve Scott" },
-      "duration": "PT266S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Breaking the Turtle with the Spiral Ride",
       "description": "Shake Off Rodeo Ride (Defender) film study: Breaking the Turtle with the Spiral Ride, taught by Big Guy BJJ.",
       "thumbnailUrl": "https://i.ytimg.com/vi/XXnawMQEfKw/hqdefault.jpg",
@@ -159,7 +148,7 @@ description: "Defend against the Shake Off escape from Rodeo Ride in BJJ. Learn 
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 2,
       "name": "Spiral Ride to Break the Turtle",
       "description": "Shake Off Rodeo Ride (Defender) film study: Spiral Ride to Break the Turtle, taught by Craig Jones.",
       "thumbnailUrl": "https://i.ytimg.com/vi/PT50ievI18k/hqdefault.jpg",
@@ -191,14 +180,6 @@ Defending against the Shake Off from Rodeo Ride requires the top player to maint
 
 <p class="section-subtitle">Watch Shake Off Rodeo Ride (Defender) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=BF0dNxRR444)
-
-<p class="clip-credit"><strong>Holding the seated rodeo ride into juji gatame</strong> — taught by Steve Scott · 4:26 · <a href="https://www.youtube.com/watch?v=BF0dNxRR444" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

@@ -197,17 +197,6 @@ description: "How to execute Gift Wrap Arm Recovery in BJJ. Attacking perspectiv
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "The Gift Wrap / Twisting Arm Control Explained",
-      "description": "Gift Wrap Arm Recovery (Attacker) film study: The Gift Wrap / Twisting Arm Control Explained, taught by Gracie Ohio Jiu-Jitsu Academy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/AFptIKE8d7k/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/AFptIKE8d7k",
-      "url": "https://www.youtube.com/watch?v=AFptIKE8d7k",
-      "creator": { "@type": "Person", "name": "Gracie Ohio Jiu-Jitsu Academy" },
-      "duration": "PT305S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
       "name": "The Gift Wrap in 2 Minutes - No Gi",
       "description": "Gift Wrap Arm Recovery (Attacker) film study: The Gift Wrap in 2 Minutes - No Gi, taught by Brian Glick.",
       "thumbnailUrl": "https://i.ytimg.com/vi/5bw7poxVJ1E/hqdefault.jpg",
@@ -249,14 +238,6 @@ Execution demands patience and precise timing. The optimal window opens when the
 ![](https://www.youtube.com/watch?v=B_kiu8SIRRc)
 
 <p class="clip-credit"><strong>Back Escape with Arms Trapped</strong> — taught by Skyhook Martial Arts · 0:40 · <a href="https://www.youtube.com/watch?v=B_kiu8SIRRc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=AFptIKE8d7k)
-
-<p class="clip-credit"><strong>The Gift Wrap / Twisting Arm Control Explained</strong> — taught by Gracie Ohio Jiu-Jitsu Academy · 5:05 · <a href="https://www.youtube.com/watch?v=AFptIKE8d7k" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

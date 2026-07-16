@@ -167,17 +167,6 @@ description: "How to defend against the Matrix Back Take in BJJ. Recognition cue
       "url": "https://www.youtube.com/watch?v=waVFl1Ip6VU",
       "creator": { "@type": "Person", "name": "Andy Tong" },
       "duration": "PT33S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Defending a single hook from turtle",
-      "description": "Matrix Back Take (Defender) film study: Defending a single hook from turtle, taught by South Boston BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/JgrpnE0HyAY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/JgrpnE0HyAY",
-      "url": "https://www.youtube.com/watch?v=JgrpnE0HyAY",
-      "creator": { "@type": "Person", "name": "South Boston BJJ" },
-      "duration": "PT149S"
     }
   ]
 }
@@ -212,14 +201,6 @@ The matrix defense also integrates with your broader turtle escape system. If th
 ![](https://www.youtube.com/watch?v=waVFl1Ip6VU)
 
 <p class="clip-credit"><strong>Turtle back escape by shrugging the hook off</strong> — taught by Andy Tong · 0:33 · <a href="https://www.youtube.com/watch?v=waVFl1Ip6VU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=JgrpnE0HyAY)
-
-<p class="clip-credit"><strong>Defending a single hook from turtle</strong> — taught by South Boston BJJ · 2:29 · <a href="https://www.youtube.com/watch?v=JgrpnE0HyAY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -57,17 +57,6 @@ description: "Master the Underhook Sweep from Butterfly Guard in BJJ. Complete b
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "2-on-1 lift to back from butterfly guard",
-      "description": "Underhook Sweep film study: 2-on-1 lift to back from butterfly guard, taught by Lorenz Sadychow.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sJfkAL95S9k/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/sJfkAL95S9k",
-      "url": "https://www.youtube.com/watch?v=sJfkAL95S9k",
-      "creator": { "@type": "Person", "name": "Lorenz Sadychow" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
       "name": "2-on-1 hook sweep from butterfly guard",
       "description": "Underhook Sweep film study: 2-on-1 hook sweep from butterfly guard, taught by grpplng.",
       "thumbnailUrl": "https://i.ytimg.com/vi/is7gMf-wYuA/hqdefault.jpg",
@@ -131,14 +120,6 @@ Mastering this single reversal therefore unlocks a chain-reaction system that ke
 ![](https://www.youtube.com/watch?v=mJyjWNGm_XE)
 
 <p class="clip-credit"><strong>The hook sweep in 5 steps vs kneeling opponent</strong> — taught by Stephan Kesting · 0:31 · <a href="https://www.youtube.com/watch?v=mJyjWNGm_XE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip film-clip--vertical">
-
-![](https://www.youtube.com/watch?v=sJfkAL95S9k)
-
-<p class="clip-credit"><strong>2-on-1 lift to back from butterfly guard</strong> — taught by Lorenz Sadychow · 1:01 · <a href="https://www.youtube.com/watch?v=sJfkAL95S9k" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

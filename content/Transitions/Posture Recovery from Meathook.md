@@ -64,17 +64,6 @@ description: "Master Posture Recovery from Meathook in BJJ. Learn systematic gri
       "url": "https://www.youtube.com/watch?v=huzjQNiJu7Y",
       "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
       "duration": "PT65S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Meathook to the stock",
-      "description": "Posture Recovery from Meathook film study: Meathook to the stock, taught by Richie Martinez.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/6mZOuPs8nA8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/6mZOuPs8nA8",
-      "url": "https://www.youtube.com/watch?v=6mZOuPs8nA8",
-      "creator": { "@type": "Person", "name": "Richie Martinez" },
-      "duration": "PT217S"
     }
   ]
 }
@@ -139,14 +128,6 @@ Success leads to recovered posture in Closed Guard top, the neutral platform fro
 ![](https://www.youtube.com/watch?v=huzjQNiJu7Y)
 
 <p class="clip-credit"><strong>Rubber guard quick fix</strong> — taught by Brandon Mccaghren · 1:05 · <a href="https://www.youtube.com/watch?v=huzjQNiJu7Y" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=6mZOuPs8nA8)
-
-<p class="clip-credit"><strong>Meathook to the stock</strong> — taught by Richie Martinez · 3:37 · <a href="https://www.youtube.com/watch?v=6mZOuPs8nA8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

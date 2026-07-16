@@ -163,24 +163,24 @@ description: "How to maintain side control against escape attempts in BJJ. Recog
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Simple and Effective Side Control Escape",
-      "description": "Side Control Escape (Defender) film study: Simple and Effective Side Control Escape, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/R4-4wiHam98/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/R4-4wiHam98",
-      "url": "https://www.youtube.com/watch?v=R4-4wiHam98",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT322S"
+      "name": "Side control escape vs a bigger stronger opponent",
+      "description": "Side Control Escape (Defender) film study: Side control escape vs a bigger stronger opponent, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_JPZaIcr90c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_JPZaIcr90c",
+      "url": "https://www.youtube.com/watch?v=_JPZaIcr90c",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT69S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Side Control Escape - Most Common Mistakes",
-      "description": "Side Control Escape (Defender) film study: Side Control Escape - Most Common Mistakes, taught by Jon Thomas.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/XtQ4SSIwGSc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/XtQ4SSIwGSc",
-      "url": "https://www.youtube.com/watch?v=XtQ4SSIwGSc",
-      "creator": { "@type": "Person", "name": "Jon Thomas" },
-      "duration": "PT349S"
+      "name": "Gordon Ryan pin escape principles reviewed",
+      "description": "Side Control Escape (Defender) film study: Gordon Ryan pin escape principles reviewed, taught by Review Fanatics.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ia_-udzOJ18/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ia_-udzOJ18",
+      "url": "https://www.youtube.com/watch?v=Ia_-udzOJ18",
+      "creator": { "@type": "Person", "name": "Review Fanatics" },
+      "duration": "PT124S"
     }
   ]
 }
@@ -216,17 +216,17 @@ The Side Control Escape Defender is the top player working to maintain dominant 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=R4-4wiHam98)
+![](https://www.youtube.com/watch?v=_JPZaIcr90c)
 
-<p class="clip-credit"><strong>Simple and Effective Side Control Escape</strong> — taught by Gordon Ryan · 5:22 · <a href="https://www.youtube.com/watch?v=R4-4wiHam98" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Side control escape vs a bigger stronger opponent</strong> — taught by Matt Arroyo · 1:09 · <a href="https://www.youtube.com/watch?v=_JPZaIcr90c" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=XtQ4SSIwGSc)
+![](https://www.youtube.com/watch?v=Ia_-udzOJ18)
 
-<p class="clip-credit"><strong>Side Control Escape - Most Common Mistakes</strong> — taught by Jon Thomas · 5:49 · <a href="https://www.youtube.com/watch?v=XtQ4SSIwGSc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Gordon Ryan pin escape principles reviewed</strong> — taught by Review Fanatics · 2:04 · <a href="https://www.youtube.com/watch?v=Ia_-udzOJ18" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

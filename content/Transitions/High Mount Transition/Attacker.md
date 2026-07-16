@@ -180,35 +180,13 @@ description: "How to execute the High Mount Transition from Gogoplata Control in
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Rubber Guard Highlight - transitions to mount",
-      "description": "High Mount Transition (Attacker) film study: Rubber Guard Highlight - transitions to mount, taught by Brandon McCaghren.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sbEYWj8spgg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/sbEYWj8spgg",
-      "url": "https://www.youtube.com/watch?v=sbEYWj8spgg",
-      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
-      "duration": "PT199S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Basic attacks from the Rubber Guard",
-      "description": "High Mount Transition (Attacker) film study: Basic attacks from the Rubber Guard, taught by Submissions101.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_8d4U011yLU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_8d4U011yLU",
-      "url": "https://www.youtube.com/watch?v=_8d4U011yLU",
-      "creator": { "@type": "Person", "name": "Submissions101" },
-      "duration": "PT62S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Gogoplata from Rubber Guard",
-      "description": "High Mount Transition (Attacker) film study: Gogoplata from Rubber Guard, taught by Brandon McCaghren.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/wn39-wrfsbs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/wn39-wrfsbs",
-      "url": "https://www.youtube.com/watch?v=wn39-wrfsbs",
-      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
-      "duration": "PT420S"
+      "name": "Detailed mount transition from side control",
+      "description": "High Mount Transition (Attacker) film study: Detailed mount transition from side control, taught by Unknown coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Uq6Vs1HfkY8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Uq6Vs1HfkY8",
+      "url": "https://www.youtube.com/watch?v=Uq6Vs1HfkY8",
+      "creator": { "@type": "Person", "name": "Unknown coach" },
+      "duration": "PT41S"
     }
   ]
 }
@@ -240,25 +218,9 @@ Strategically, this transition serves multiple purposes in a systematic game pla
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=sbEYWj8spgg)
+![](https://www.youtube.com/watch?v=Uq6Vs1HfkY8)
 
-<p class="clip-credit"><strong>Rubber Guard Highlight - transitions to mount</strong> — taught by Brandon McCaghren · 3:19 · <a href="https://www.youtube.com/watch?v=sbEYWj8spgg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=_8d4U011yLU)
-
-<p class="clip-credit"><strong>Basic attacks from the Rubber Guard</strong> — taught by Submissions101 · 1:02 · <a href="https://www.youtube.com/watch?v=_8d4U011yLU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=wn39-wrfsbs)
-
-<p class="clip-credit"><strong>Gogoplata from Rubber Guard</strong> — taught by Brandon McCaghren · 7:00 · <a href="https://www.youtube.com/watch?v=wn39-wrfsbs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Detailed mount transition from side control</strong> — taught by Unknown coach · 0:41 · <a href="https://www.youtube.com/watch?v=Uq6Vs1HfkY8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

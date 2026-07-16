@@ -749,15 +749,6 @@
   ],
   "clips": [
     {
-      "id": "mv5hY9YFUdU",
-      "title": "Making the Z-lock work: lateral kneebar",
-      "by": "jamielovesmartialarts",
-      "vertical": false,
-      "channel": "jamielovesmartialarts",
-      "duration": 66,
-      "verified": "2026-07-14"
-    },
-    {
       "id": "pFlYpsbltZw",
       "title": "Z lock sideways knee bar",
       "by": "Junny Ocasio",
@@ -765,6 +756,33 @@
       "channel": "BJJ Fanatics",
       "duration": 396,
       "verified": "2026-07-15"
+    },
+    {
+      "id": "q_3D98PnTWA",
+      "title": "Getting and Maintaining the Lockdown",
+      "by": "Submissions101 coach",
+      "vertical": false,
+      "channel": "Submissions101",
+      "duration": 83,
+      "verified": "2026-07-16"
+    },
+    {
+      "id": "gFYyMkaMz34",
+      "title": "Prison Guard Breakdown",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "Eddie Bravo",
+      "duration": 59,
+      "verified": "2026-07-16"
+    },
+    {
+      "id": "LYeQDaZhVL0",
+      "title": "Lockdown to Butterfly Guard with the Stomp",
+      "by": "Brandon McCaghren",
+      "vertical": false,
+      "channel": "Brandon Mccaghren",
+      "duration": 123,
+      "verified": "2026-07-16"
     }
   ]
 }

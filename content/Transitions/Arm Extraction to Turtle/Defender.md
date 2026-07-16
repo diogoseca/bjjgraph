@@ -167,17 +167,6 @@ description: "How to prevent Arm Extraction to Turtle in BJJ. Maintain Aoki Lock
       "url": "https://www.youtube.com/watch?v=WK5MfZ_1ENA",
       "creator": { "@type": "Person", "name": "Still Rolling" },
       "duration": "PT219S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Leg Lock Control Concepts",
-      "description": "Arm Extraction to Turtle (Defender) film study: Leg Lock Control Concepts, taught by John Danaher.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/iByvUzTk4Ko/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/iByvUzTk4Ko",
-      "url": "https://www.youtube.com/watch?v=iByvUzTk4Ko",
-      "creator": { "@type": "Person", "name": "John Danaher" },
-      "duration": "PT225S"
     }
   ]
 }
@@ -210,14 +199,6 @@ Successful defense requires anticipating the three-phase escape sequence: base a
 ![](https://www.youtube.com/watch?v=WK5MfZ_1ENA)
 
 <p class="clip-credit"><strong>The Aoki Lock Explained</strong> — taught by Still Rolling · 3:39 · <a href="https://www.youtube.com/watch?v=WK5MfZ_1ENA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=iByvUzTk4Ko)
-
-<p class="clip-credit"><strong>Leg Lock Control Concepts</strong> — taught by John Danaher · 3:45 · <a href="https://www.youtube.com/watch?v=iByvUzTk4Ko" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

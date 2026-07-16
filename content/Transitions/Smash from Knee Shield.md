@@ -46,17 +46,6 @@ description: "Master the Smash from Knee Shield pass in BJJ. Complete guide to c
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Passing the knee shield with an inside knee cut",
-      "description": "Smash from Knee Shield film study: Passing the knee shield with an inside knee cut, taught by War Room BJJ coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/yj_6xcl2emA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/yj_6xcl2emA",
-      "url": "https://www.youtube.com/watch?v=yj_6xcl2emA",
-      "creator": { "@type": "Person", "name": "War Room BJJ coach" },
-      "duration": "PT70S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Knee shield smash pass",
       "description": "Smash from Knee Shield film study: Knee shield smash pass, taught by Adam Metcalf.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Y815hmtzGZA/hqdefault.jpg",
@@ -67,7 +56,7 @@ description: "Master the Smash from Knee Shield pass in BJJ. Complete guide to c
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 2,
       "name": "Smashing knee shield pass",
       "description": "Smash from Knee Shield film study: Smashing knee shield pass, taught by Gabriel Gonzaga.",
       "thumbnailUrl": "https://i.ytimg.com/vi/DmFX5HGf7Xw/hqdefault.jpg",
@@ -125,14 +114,6 @@ Strategically, the smash from knee shield occupies a critical role in the guard 
 
 <p class="section-subtitle">Watch Smash from Knee Shield in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=yj_6xcl2emA)
-
-<p class="clip-credit"><strong>Passing the knee shield with an inside knee cut</strong> — taught by War Room BJJ coach · 1:10 · <a href="https://www.youtube.com/watch?v=yj_6xcl2emA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

@@ -46,17 +46,6 @@ description: "Master leg weave position in BJJ. Advanced guard passing control w
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Body lock pass with leg split",
-      "description": "Leg Weave film study: Body lock pass with leg split, taught by SpringHillBjj.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/nqFlswgRLnE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/nqFlswgRLnE",
-      "url": "https://www.youtube.com/watch?v=nqFlswgRLnE",
-      "creator": { "@type": "Person", "name": "SpringHillBjj" },
-      "duration": "PT77S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Passing guard using the legs",
       "description": "Leg Weave film study: Passing guard using the legs, taught by SBG Rossendale.",
       "thumbnailUrl": "https://i.ytimg.com/vi/G5SOKMLRvMU/hqdefault.jpg",
@@ -64,6 +53,28 @@ description: "Master leg weave position in BJJ. Advanced guard passing control w
       "url": "https://www.youtube.com/watch?v=G5SOKMLRvMU",
       "creator": { "@type": "Person", "name": "SBG Rossendale" },
       "duration": "PT144S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg Weave Tripod Pass",
+      "description": "Leg Weave film study: Leg Weave Tripod Pass, taught by Reding Martial Arts coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DxZL6K050Ng/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DxZL6K050Ng",
+      "url": "https://www.youtube.com/watch?v=DxZL6K050Ng",
+      "creator": { "@type": "Person", "name": "Reding Martial Arts coach" },
+      "duration": "PT183S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Over Under Pass Variation",
+      "description": "Leg Weave film study: Over Under Pass Variation, taught by Craig Lyman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GzYXnXJ0Uok/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GzYXnXJ0Uok",
+      "url": "https://www.youtube.com/watch?v=GzYXnXJ0Uok",
+      "creator": { "@type": "Person", "name": "Craig Lyman" },
+      "duration": "PT173S"
     }
   ]
 }
@@ -116,17 +127,25 @@ Mastery of both perspectives is essential for modern grapplers, as the leg weave
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=nqFlswgRLnE)
+![](https://www.youtube.com/watch?v=G5SOKMLRvMU)
 
-<p class="clip-credit"><strong>Body lock pass with leg split</strong> — taught by SpringHillBjj · 1:17 · <a href="https://www.youtube.com/watch?v=nqFlswgRLnE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing guard using the legs</strong> — taught by SBG Rossendale · 2:24 · <a href="https://www.youtube.com/watch?v=G5SOKMLRvMU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=G5SOKMLRvMU)
+![](https://www.youtube.com/watch?v=DxZL6K050Ng)
 
-<p class="clip-credit"><strong>Passing guard using the legs</strong> — taught by SBG Rossendale · 2:24 · <a href="https://www.youtube.com/watch?v=G5SOKMLRvMU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Leg Weave Tripod Pass</strong> — taught by Reding Martial Arts coach · 3:03 · <a href="https://www.youtube.com/watch?v=DxZL6K050Ng" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GzYXnXJ0Uok)
+
+<p class="clip-credit"><strong>Over Under Pass Variation</strong> — taught by Craig Lyman · 2:53 · <a href="https://www.youtube.com/watch?v=GzYXnXJ0Uok" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

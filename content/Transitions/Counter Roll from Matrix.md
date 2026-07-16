@@ -64,17 +64,6 @@ description: "Master the Counter Roll from Matrix in BJJ. Complete guide to redi
       "url": "https://www.youtube.com/watch?v=3rTUggUmhBk",
       "creator": { "@type": "Person", "name": "Revolution BJJ Ashland" },
       "duration": "PT71S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Matrix position compilation",
-      "description": "Counter Roll from Matrix film study: Matrix position compilation, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/uo8-ZJyba08/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/uo8-ZJyba08",
-      "url": "https://www.youtube.com/watch?v=uo8-ZJyba08",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT63S"
     }
   ]
 }
@@ -139,14 +128,6 @@ Strategically, developing a reliable counter roll dramatically increases the ove
 ![](https://www.youtube.com/watch?v=3rTUggUmhBk)
 
 <p class="clip-credit"><strong>Counter back take from 50/50</strong> — taught by Revolution BJJ Ashland · 1:11 · <a href="https://www.youtube.com/watch?v=3rTUggUmhBk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=uo8-ZJyba08)
-
-<p class="clip-credit"><strong>Matrix position compilation</strong> — taught by Craig Jones · 1:03 · <a href="https://www.youtube.com/watch?v=uo8-ZJyba08" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

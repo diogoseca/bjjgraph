@@ -178,17 +178,6 @@ description: "How to defend against Inside Ashi-Garami to Cross Ashi in BJJ. Rec
       "url": "https://www.youtube.com/watch?v=N2weatRR_V4",
       "creator": { "@type": "Person", "name": "BJJ Doug" },
       "duration": "PT28S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Cross ashi back take drill: when they slip the heel",
-      "description": "Inside Ashi-Garami to Cross Ashi (Defender) film study: Cross ashi back take drill: when they slip the heel, taught by Factory Fresh Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/cNpVTxV0WGs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/cNpVTxV0WGs",
-      "url": "https://www.youtube.com/watch?v=cNpVTxV0WGs",
-      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
-      "duration": "PT20S"
     }
   ]
 }
@@ -231,14 +220,6 @@ Successful defense relies on three pillars: early recognition of the transition 
 ![](https://www.youtube.com/watch?v=N2weatRR_V4)
 
 <p class="clip-credit"><strong>Cross ashi entry and wedge berimbolo counter to back</strong> — taught by BJJ Doug · 0:28 · <a href="https://www.youtube.com/watch?v=N2weatRR_V4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=cNpVTxV0WGs)
-
-<p class="clip-credit"><strong>Cross ashi back take drill: when they slip the heel</strong> — taught by Factory Fresh Jiu Jitsu · 0:20 · <a href="https://www.youtube.com/watch?v=cNpVTxV0WGs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -57,13 +57,13 @@ description: "Master the Reverse Mount to Side Control transition in BJJ. Step-b
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Reverse scarf mount to quick mount",
-      "description": "Reverse Mount to Side Control film study: Reverse scarf mount to quick mount, taught by JitzLive.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/TEXQ07nNkss/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/TEXQ07nNkss",
-      "url": "https://www.youtube.com/watch?v=TEXQ07nNkss",
-      "creator": { "@type": "Person", "name": "JitzLive" },
-      "duration": "PT163S"
+      "name": "Side Reversal: Bottom Side Control to Top Control",
+      "description": "Reverse Mount to Side Control film study: Side Reversal: Bottom Side Control to Top Control, taught by Avant-Garde BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uinRYdbcpCw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uinRYdbcpCw",
+      "url": "https://www.youtube.com/watch?v=uinRYdbcpCw",
+      "creator": { "@type": "Person", "name": "Avant-Garde BJJ" },
+      "duration": "PT39S"
     }
   ]
 }
@@ -125,9 +125,9 @@ This transition is strategically chosen when the top player recognizes that side
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=TEXQ07nNkss)
+![](https://www.youtube.com/watch?v=uinRYdbcpCw)
 
-<p class="clip-credit"><strong>Reverse scarf mount to quick mount</strong> — taught by JitzLive · 2:43 · <a href="https://www.youtube.com/watch?v=TEXQ07nNkss" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Side Reversal: Bottom Side Control to Top Control</strong> — taught by Avant-Garde BJJ · 0:39 · <a href="https://www.youtube.com/watch?v=uinRYdbcpCw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

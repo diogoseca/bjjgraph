@@ -183,17 +183,6 @@ description: "Master Double Sleeve Guard Top in BJJ. Complete guide covering pas
       "url": "https://www.youtube.com/watch?v=oThN2Qq64rk",
       "creator": { "@type": "Person", "name": "Jon Thomas" },
       "duration": "PT549S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Little Trick to Control the Sleeves from the Guard",
-      "description": "Double Sleeve Guard (Top) film study: Little Trick to Control the Sleeves from the Guard, taught by Marcos Tinoco.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/75tV6HZHaMo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/75tV6HZHaMo",
-      "url": "https://www.youtube.com/watch?v=75tV6HZHaMo",
-      "creator": { "@type": "Person", "name": "Marcos Tinoco" },
-      "duration": "PT193S"
     }
   ]
 }
@@ -230,14 +219,6 @@ Double Sleeve Guard Top represents the passing position when facing an opponent 
 ![](https://www.youtube.com/watch?v=oThN2Qq64rk)
 
 <p class="clip-credit"><strong>How to Pass the Double Sleeve Guard</strong> — taught by Jon Thomas · 9:09 · <a href="https://www.youtube.com/watch?v=oThN2Qq64rk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=75tV6HZHaMo)
-
-<p class="clip-credit"><strong>Little Trick to Control the Sleeves from the Guard</strong> — taught by Marcos Tinoco · 3:13 · <a href="https://www.youtube.com/watch?v=75tV6HZHaMo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

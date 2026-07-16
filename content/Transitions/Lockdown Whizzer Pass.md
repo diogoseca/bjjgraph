@@ -46,24 +46,35 @@ description: "Master the Lockdown Whizzer Pass in BJJ. Use overhook control to c
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Whizzer choke setup from half guard top",
-      "description": "Lockdown Whizzer Pass film study: Whizzer choke setup from half guard top, taught by Coach Brian.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/YGwFWamjXKg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/YGwFWamjXKg",
-      "url": "https://www.youtube.com/watch?v=YGwFWamjXKg",
-      "creator": { "@type": "Person", "name": "Coach Brian" },
-      "duration": "PT141S"
+      "name": "Beating the whizzer from half guard dogfight",
+      "description": "Lockdown Whizzer Pass film study: Beating the whizzer from half guard dogfight, taught by Wrecking Crew BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8mXBDHXrAu4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8mXBDHXrAu4",
+      "url": "https://www.youtube.com/watch?v=8mXBDHXrAu4",
+      "creator": { "@type": "Person", "name": "Wrecking Crew BJJ" },
+      "duration": "PT60S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Whizzer and dogfight sweep mechanics",
-      "description": "Lockdown Whizzer Pass film study: Whizzer and dogfight sweep mechanics, taught by Brandon McCaghren.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/hotSXTK9oGI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/hotSXTK9oGI",
-      "url": "https://www.youtube.com/watch?v=hotSXTK9oGI",
-      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
-      "duration": "PT169S"
+      "name": "Whizzer counter from half butterfly guard",
+      "description": "Lockdown Whizzer Pass film study: Whizzer counter from half butterfly guard, taught by RKBJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/McIs6aNz4Tk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/McIs6aNz4Tk",
+      "url": "https://www.youtube.com/watch?v=McIs6aNz4Tk",
+      "creator": { "@type": "Person", "name": "RKBJJ coach" },
+      "duration": "PT51S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Stopping the half guard underhook",
+      "description": "Lockdown Whizzer Pass film study: Stopping the half guard underhook, taught by Malachy Friedman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dOdO6xJ-TcU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dOdO6xJ-TcU",
+      "url": "https://www.youtube.com/watch?v=dOdO6xJ-TcU",
+      "creator": { "@type": "Person", "name": "Malachy Friedman" },
+      "duration": "PT98S"
     }
   ]
 }
@@ -117,17 +128,25 @@ Execution requires patience and precise sequencing. The top player must fully co
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=YGwFWamjXKg)
+![](https://www.youtube.com/watch?v=8mXBDHXrAu4)
 
-<p class="clip-credit"><strong>Whizzer choke setup from half guard top</strong> — taught by Coach Brian · 2:21 · <a href="https://www.youtube.com/watch?v=YGwFWamjXKg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Beating the whizzer from half guard dogfight</strong> — taught by Wrecking Crew BJJ · 1:00 · <a href="https://www.youtube.com/watch?v=8mXBDHXrAu4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=hotSXTK9oGI)
+![](https://www.youtube.com/watch?v=McIs6aNz4Tk)
 
-<p class="clip-credit"><strong>Whizzer and dogfight sweep mechanics</strong> — taught by Brandon McCaghren · 2:49 · <a href="https://www.youtube.com/watch?v=hotSXTK9oGI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Whizzer counter from half butterfly guard</strong> — taught by RKBJJ coach · 0:51 · <a href="https://www.youtube.com/watch?v=McIs6aNz4Tk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dOdO6xJ-TcU)
+
+<p class="clip-credit"><strong>Stopping the half guard underhook</strong> — taught by Malachy Friedman · 1:38 · <a href="https://www.youtube.com/watch?v=dOdO6xJ-TcU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

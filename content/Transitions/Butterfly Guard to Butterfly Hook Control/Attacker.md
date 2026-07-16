@@ -204,17 +204,6 @@ description: "Learn to execute the transition to Butterfly Hook Control. Step-by
       "url": "https://www.youtube.com/watch?v=sJfkAL95S9k",
       "creator": { "@type": "Person", "name": "Lorenz Sadychow" },
       "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Reverse arm drag from butterfly to back take",
-      "description": "Butterfly Guard to Butterfly Hook Control (Attacker) film study: Reverse arm drag from butterfly to back take, taught by Jerry Musquiz.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/MFed9IE8afA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/MFed9IE8afA",
-      "url": "https://www.youtube.com/watch?v=MFed9IE8afA",
-      "creator": { "@type": "Person", "name": "Jerry Musquiz" },
-      "duration": "PT42S"
     }
   ]
 }
@@ -255,14 +244,6 @@ Success depends on recognizing when the opponent's weight distribution creates o
 ![](https://www.youtube.com/watch?v=sJfkAL95S9k)
 
 <p class="clip-credit"><strong>2-on-1 lift to back from butterfly guard</strong> — taught by Lorenz Sadychow · 1:01 · <a href="https://www.youtube.com/watch?v=sJfkAL95S9k" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=MFed9IE8afA)
-
-<p class="clip-credit"><strong>Reverse arm drag from butterfly to back take</strong> — taught by Jerry Musquiz · 0:42 · <a href="https://www.youtube.com/watch?v=MFed9IE8afA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

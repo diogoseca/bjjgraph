@@ -167,17 +167,6 @@ description: "Master defending against the New York Control Escape. Maintain rub
       "url": "https://www.youtube.com/watch?v=NfR86wov0f8",
       "creator": { "@type": "Person", "name": "Eddie Bravo" },
       "duration": "PT264S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Why Rubber Guard Doesn\u0027t Work - Countering It",
-      "description": "New York Control Escape (Defender) film study: Why Rubber Guard Doesn\u0027t Work - Countering It, taught by Brandon McCaghren.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/iwcfKUPNZNs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/iwcfKUPNZNs",
-      "url": "https://www.youtube.com/watch?v=iwcfKUPNZNs",
-      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
-      "duration": "PT792S"
     }
   ]
 }
@@ -208,14 +197,6 @@ Defending against the New York Control Escape requires the bottom player to reco
 ![](https://www.youtube.com/watch?v=NfR86wov0f8)
 
 <p class="clip-credit"><strong>Rubber Guard Theory - Control Concepts</strong> — taught by Eddie Bravo · 4:24 · <a href="https://www.youtube.com/watch?v=NfR86wov0f8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=iwcfKUPNZNs)
-
-<p class="clip-credit"><strong>Why Rubber Guard Doesn&#39;t Work - Countering It</strong> — taught by Brandon McCaghren · 13:12 · <a href="https://www.youtube.com/watch?v=iwcfKUPNZNs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

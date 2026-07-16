@@ -152,35 +152,24 @@ description: "Defend against the Roll Escape from Cross Body Ride in BJJ. Learn 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Inside roll escape from the turtle ride",
-      "description": "Roll Escape from Cross Body Ride (Defender) film study: Inside roll escape from the turtle ride, taught by Kenny Lester.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/923eYpD1E58/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/923eYpD1E58",
-      "url": "https://www.youtube.com/watch?v=923eYpD1E58",
-      "creator": { "@type": "Person", "name": "Kenny Lester" },
-      "duration": "PT158S"
+      "name": "Leg Ride Counter",
+      "description": "Roll Escape from Cross Body Ride (Defender) film study: Leg Ride Counter, taught by Cary Kolat.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/T0yfj60K02s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/T0yfj60K02s",
+      "url": "https://www.youtube.com/watch?v=T0yfj60K02s",
+      "creator": { "@type": "Person", "name": "Cary Kolat" },
+      "duration": "PT100S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Corkscrew roll to escape the cross body ride",
-      "description": "Roll Escape from Cross Body Ride (Defender) film study: Corkscrew roll to escape the cross body ride, taught by Joe Scioli.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/RiDGyt4U848/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/RiDGyt4U848",
-      "url": "https://www.youtube.com/watch?v=RiDGyt4U848",
-      "creator": { "@type": "Person", "name": "Joe Scioli" },
-      "duration": "PT152S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Escaping the cross body ride step by step",
-      "description": "Roll Escape from Cross Body Ride (Defender) film study: Escaping the cross body ride step by step, taught by Jake Sueflohn.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/l7FuJKfhhug/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/l7FuJKfhhug",
-      "url": "https://www.youtube.com/watch?v=l7FuJKfhhug",
-      "creator": { "@type": "Person", "name": "Jake Sueflohn" },
-      "duration": "PT191S"
+      "name": "Leg Riding Defensive Playbook",
+      "description": "Roll Escape from Cross Body Ride (Defender) film study: Leg Riding Defensive Playbook, taught by Ironclad Wrestling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/n84LYqwqt4Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/n84LYqwqt4Q",
+      "url": "https://www.youtube.com/watch?v=n84LYqwqt4Q",
+      "creator": { "@type": "Person", "name": "Ironclad Wrestling" },
+      "duration": "PT52S"
     }
   ]
 }
@@ -208,25 +197,17 @@ Defending against the Roll Escape from Cross Body Ride requires the top player t
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=923eYpD1E58)
+![](https://www.youtube.com/watch?v=T0yfj60K02s)
 
-<p class="clip-credit"><strong>Inside roll escape from the turtle ride</strong> — taught by Kenny Lester · 2:38 · <a href="https://www.youtube.com/watch?v=923eYpD1E58" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=RiDGyt4U848)
-
-<p class="clip-credit"><strong>Corkscrew roll to escape the cross body ride</strong> — taught by Joe Scioli · 2:32 · <a href="https://www.youtube.com/watch?v=RiDGyt4U848" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Leg Ride Counter</strong> — taught by Cary Kolat · 1:40 · <a href="https://www.youtube.com/watch?v=T0yfj60K02s" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=l7FuJKfhhug)
+![](https://www.youtube.com/watch?v=n84LYqwqt4Q)
 
-<p class="clip-credit"><strong>Escaping the cross body ride step by step</strong> — taught by Jake Sueflohn · 3:11 · <a href="https://www.youtube.com/watch?v=l7FuJKfhhug" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Leg Riding Defensive Playbook</strong> — taught by Ironclad Wrestling · 0:52 · <a href="https://www.youtube.com/watch?v=n84LYqwqt4Q" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -159,17 +159,6 @@ description: "Defend against the Knee Torque Sweep from half guard top. Recognit
       "url": "https://www.youtube.com/watch?v=dOdO6xJ-TcU",
       "creator": { "@type": "Person", "name": "Malachy Friedman" },
       "duration": "PT98S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Three ways to defend deep half guard",
-      "description": "Knee Torque Sweep (Defender) film study: Three ways to defend deep half guard, taught by Six Blades coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/JEDoJOZWQHY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/JEDoJOZWQHY",
-      "url": "https://www.youtube.com/watch?v=JEDoJOZWQHY",
-      "creator": { "@type": "Person", "name": "Six Blades coach" },
-      "duration": "PT207S"
     }
   ]
 }
@@ -200,14 +189,6 @@ Defending the Knee Torque Sweep requires early recognition of the bottom player'
 ![](https://www.youtube.com/watch?v=dOdO6xJ-TcU)
 
 <p class="clip-credit"><strong>Stopping the half guard underhook</strong> — taught by Malachy Friedman · 1:38 · <a href="https://www.youtube.com/watch?v=dOdO6xJ-TcU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=JEDoJOZWQHY)
-
-<p class="clip-credit"><strong>Three ways to defend deep half guard</strong> — taught by Six Blades coach · 3:27 · <a href="https://www.youtube.com/watch?v=JEDoJOZWQHY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

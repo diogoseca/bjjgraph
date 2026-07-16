@@ -170,17 +170,6 @@ description: "Defend against the Feet on Hips Tripod Sweep with recognition cues
       "url": "https://www.youtube.com/watch?v=8xOq1cUJyDw",
       "creator": { "@type": "Person", "name": "Andre Galvao" },
       "duration": "PT254S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Countering a Full Inversion",
-      "description": "Feet on Hips Tripod Sweep (Defender) film study: Countering a Full Inversion, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/aQ2vFXXBn-o/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/aQ2vFXXBn-o",
-      "url": "https://www.youtube.com/watch?v=aQ2vFXXBn-o",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT61S"
     }
   ]
 }
@@ -219,14 +208,6 @@ When facing the tripod sweep from feet-on-hips guard, the defender must recogniz
 ![](https://www.youtube.com/watch?v=8xOq1cUJyDw)
 
 <p class="clip-credit"><strong>Countering Sweeps from X Guard</strong> — taught by Andre Galvao · 4:14 · <a href="https://www.youtube.com/watch?v=8xOq1cUJyDw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=aQ2vFXXBn-o)
-
-<p class="clip-credit"><strong>Countering a Full Inversion</strong> — taught by Gordon Ryan · 1:01 · <a href="https://www.youtube.com/watch?v=aQ2vFXXBn-o" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

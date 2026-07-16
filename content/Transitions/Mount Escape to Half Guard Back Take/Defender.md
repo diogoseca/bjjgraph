@@ -172,17 +172,6 @@ description: "How to defend against the Mount Escape to Half Guard Back Take cha
       "url": "https://www.youtube.com/watch?v=D_k_8C3UJ5Y",
       "creator": { "@type": "Person", "name": "Teach Me NoGi coach" },
       "duration": "PT199S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Breaking the Lockdown Half Guard from Top",
-      "description": "Mount Escape to Half Guard Back Take (Defender) film study: Breaking the Lockdown Half Guard from Top, taught by Matt Arroyo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Xb4-phb4BhE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Xb4-phb4BhE",
-      "url": "https://www.youtube.com/watch?v=Xb4-phb4BhE",
-      "creator": { "@type": "Person", "name": "Matt Arroyo" },
-      "duration": "PT251S"
     }
   ]
 }
@@ -223,14 +212,6 @@ The critical defensive decision point is the leg extraction. If you feel the opp
 ![](https://www.youtube.com/watch?v=D_k_8C3UJ5Y)
 
 <p class="clip-credit"><strong>Maintaining Top Mount Control Against Escapes</strong> — taught by Teach Me NoGi coach · 3:19 · <a href="https://www.youtube.com/watch?v=D_k_8C3UJ5Y" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Xb4-phb4BhE)
-
-<p class="clip-credit"><strong>Breaking the Lockdown Half Guard from Top</strong> — taught by Matt Arroyo · 4:11 · <a href="https://www.youtube.com/watch?v=Xb4-phb4BhE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

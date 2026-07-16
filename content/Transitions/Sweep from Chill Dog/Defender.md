@@ -171,13 +171,24 @@ description: "Learn to defend the Chill Dog sweep reversal. Recognize setup cues
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "No-gi sit out from over under",
-      "description": "Sweep from Chill Dog (Defender) film study: No-gi sit out from over under, taught by The Fight Coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/p17Q7bxJznQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/p17Q7bxJznQ",
-      "url": "https://www.youtube.com/watch?v=p17Q7bxJznQ",
-      "creator": { "@type": "Person", "name": "The Fight Coach" },
-      "duration": "PT84S"
+      "name": "Turtle escape and back-exposure defense system",
+      "description": "Sweep from Chill Dog (Defender) film study: Turtle escape and back-exposure defense system, taught by Jozef Chen.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ft6OyIZ6vPs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ft6OyIZ6vPs",
+      "url": "https://www.youtube.com/watch?v=Ft6OyIZ6vPs",
+      "creator": { "@type": "Person", "name": "Jozef Chen" },
+      "duration": "PT149S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Turtle defense: sit-out with head on back",
+      "description": "Sweep from Chill Dog (Defender) film study: Turtle defense: sit-out with head on back, taught by Mjolnir Fight Club coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/d312j3n9fIw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/d312j3n9fIw",
+      "url": "https://www.youtube.com/watch?v=d312j3n9fIw",
+      "creator": { "@type": "Person", "name": "Mjolnir Fight Club coach" },
+      "duration": "PT30S"
     }
   ]
 }
@@ -213,9 +224,17 @@ As the defender against the Sweep from Chill Dog, you are the top player working
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=p17Q7bxJznQ)
+![](https://www.youtube.com/watch?v=Ft6OyIZ6vPs)
 
-<p class="clip-credit"><strong>No-gi sit out from over under</strong> — taught by The Fight Coach · 1:24 · <a href="https://www.youtube.com/watch?v=p17Q7bxJznQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Turtle escape and back-exposure defense system</strong> — taught by Jozef Chen · 2:29 · <a href="https://www.youtube.com/watch?v=Ft6OyIZ6vPs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=d312j3n9fIw)
+
+<p class="clip-credit"><strong>Turtle defense: sit-out with head on back</strong> — taught by Mjolnir Fight Club coach · 0:30 · <a href="https://www.youtube.com/watch?v=d312j3n9fIw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

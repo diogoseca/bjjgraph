@@ -165,24 +165,13 @@ description: "Complete guide to defending against the elbow escape from your bac
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Back Control Escape Explained Simply",
-      "description": "Elbow Escape from Back (Defender) film study: Back Control Escape Explained Simply, taught by Jean Jacques Machado.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/3Jd2llamfl8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/3Jd2llamfl8",
-      "url": "https://www.youtube.com/watch?v=3Jd2llamfl8",
-      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
-      "duration": "PT189S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Removing Hooks from Back Control",
-      "description": "Elbow Escape from Back (Defender) film study: Removing Hooks from Back Control, taught by Matt Thornton.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/xqkFPzJTspk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/xqkFPzJTspk",
-      "url": "https://www.youtube.com/watch?v=xqkFPzJTspk",
-      "creator": { "@type": "Person", "name": "Matt Thornton" },
-      "duration": "PT122S"
+      "name": "Countering the elbow escape to retake the back",
+      "description": "Elbow Escape from Back (Defender) film study: Countering the elbow escape to retake the back, taught by Brandon Quick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QekOjlzNWTI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QekOjlzNWTI",
+      "url": "https://www.youtube.com/watch?v=QekOjlzNWTI",
+      "creator": { "@type": "Person", "name": "Brandon Quick" },
+      "duration": "PT81S"
     }
   ]
 }
@@ -218,17 +207,9 @@ Defending against your opponent's elbow escape requires early recognition and im
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=3Jd2llamfl8)
+![](https://www.youtube.com/watch?v=QekOjlzNWTI)
 
-<p class="clip-credit"><strong>Back Control Escape Explained Simply</strong> — taught by Jean Jacques Machado · 3:09 · <a href="https://www.youtube.com/watch?v=3Jd2llamfl8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=xqkFPzJTspk)
-
-<p class="clip-credit"><strong>Removing Hooks from Back Control</strong> — taught by Matt Thornton · 2:02 · <a href="https://www.youtube.com/watch?v=xqkFPzJTspk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Countering the elbow escape to retake the back</strong> — taught by Brandon Quick · 1:21 · <a href="https://www.youtube.com/watch?v=QekOjlzNWTI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

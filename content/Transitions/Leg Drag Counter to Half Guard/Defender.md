@@ -165,24 +165,13 @@ description: "How to defend against Leg Drag Counter to Half Guard in BJJ. Recog
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Leg Drag Defense and Guard Retention",
-      "description": "Leg Drag Counter to Half Guard (Defender) film study: Leg Drag Defense and Guard Retention, taught by De Groot BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/IhRQp9IUhKU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/IhRQp9IUhKU",
-      "url": "https://www.youtube.com/watch?v=IhRQp9IUhKU",
-      "creator": { "@type": "Person", "name": "De Groot BJJ" },
-      "duration": "PT331S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Counters to the Hip Smash / Leg Weave Pass",
-      "description": "Leg Drag Counter to Half Guard (Defender) film study: Counters to the Hip Smash / Leg Weave Pass, taught by Stephan Kesting.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/WB1CmYzDTLg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/WB1CmYzDTLg",
-      "url": "https://www.youtube.com/watch?v=WB1CmYzDTLg",
-      "creator": { "@type": "Person", "name": "Stephan Kesting" },
-      "duration": "PT484S"
+      "name": "Weave pass: keep the trapped leg to stop half guard recovery",
+      "description": "Leg Drag Counter to Half Guard (Defender) film study: Weave pass: keep the trapped leg to stop half guard recovery, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RRgLRw-fRM0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RRgLRw-fRM0",
+      "url": "https://www.youtube.com/watch?v=RRgLRw-fRM0",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT65S"
     }
   ]
 }
@@ -220,17 +209,9 @@ The critical defensive principle is that leg drag control is inherently transiti
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=IhRQp9IUhKU)
+![](https://www.youtube.com/watch?v=RRgLRw-fRM0)
 
-<p class="clip-credit"><strong>Leg Drag Defense and Guard Retention</strong> — taught by De Groot BJJ · 5:31 · <a href="https://www.youtube.com/watch?v=IhRQp9IUhKU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=WB1CmYzDTLg)
-
-<p class="clip-credit"><strong>Counters to the Hip Smash / Leg Weave Pass</strong> — taught by Stephan Kesting · 8:04 · <a href="https://www.youtube.com/watch?v=WB1CmYzDTLg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Weave pass: keep the trapped leg to stop half guard recovery</strong> — taught by Lachlan Giles · 1:05 · <a href="https://www.youtube.com/watch?v=RRgLRw-fRM0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

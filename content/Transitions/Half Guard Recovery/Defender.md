@@ -160,17 +160,6 @@ description: "How to prevent Half Guard Recovery in BJJ. Top player strategies f
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Guard retention against the wall",
-      "description": "Half Guard Recovery (Defender) film study: Guard retention against the wall, taught by Barrick BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/7jm4N-AODEc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/7jm4N-AODEc",
-      "url": "https://www.youtube.com/watch?v=7jm4N-AODEc",
-      "creator": { "@type": "Person", "name": "Barrick BJJ" },
-      "duration": "PT57S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Arm drag back take vs guard recovery",
       "description": "Half Guard Recovery (Defender) film study: Arm drag back take vs guard recovery, taught by Alliance Jiu Jitsu SJC.",
       "thumbnailUrl": "https://i.ytimg.com/vi/0xhfjKDfwBY/hqdefault.jpg",
@@ -178,6 +167,28 @@ description: "How to prevent Half Guard Recovery in BJJ. Top player strategies f
       "url": "https://www.youtube.com/watch?v=0xhfjKDfwBY",
       "creator": { "@type": "Person", "name": "Alliance Jiu Jitsu SJC" },
       "duration": "PT104S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guard retention: when to sit up and escape",
+      "description": "Half Guard Recovery (Defender) film study: Guard retention: when to sit up and escape, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
+      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT136S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Weave pass: don\u0027t free the trapped leg too early",
+      "description": "Half Guard Recovery (Defender) film study: Weave pass: don\u0027t free the trapped leg too early, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RRgLRw-fRM0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RRgLRw-fRM0",
+      "url": "https://www.youtube.com/watch?v=RRgLRw-fRM0",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT65S"
     }
   ]
 }
@@ -207,17 +218,25 @@ The key to shutting down half guard recovery lies in understanding its timing de
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=7jm4N-AODEc)
+![](https://www.youtube.com/watch?v=0xhfjKDfwBY)
 
-<p class="clip-credit"><strong>Guard retention against the wall</strong> — taught by Barrick BJJ · 0:57 · <a href="https://www.youtube.com/watch?v=7jm4N-AODEc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Arm drag back take vs guard recovery</strong> — taught by Alliance Jiu Jitsu SJC · 1:44 · <a href="https://www.youtube.com/watch?v=0xhfjKDfwBY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=0xhfjKDfwBY)
+![](https://www.youtube.com/watch?v=lVLAROiSjNU)
 
-<p class="clip-credit"><strong>Arm drag back take vs guard recovery</strong> — taught by Alliance Jiu Jitsu SJC · 1:44 · <a href="https://www.youtube.com/watch?v=0xhfjKDfwBY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guard retention: when to sit up and escape</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RRgLRw-fRM0)
+
+<p class="clip-credit"><strong>Weave pass: don&#39;t free the trapped leg too early</strong> — taught by Lachlan Giles · 1:05 · <a href="https://www.youtube.com/watch?v=RRgLRw-fRM0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

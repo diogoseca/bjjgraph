@@ -288,15 +288,6 @@
     "safety_considerations": "The escape from Rodeo Ride involves explosive hip movement and rotation that can strain the neck and lower back if performed with poor mechanics. Always warm up thoroughly before drilling this technique. The granby roll variant carries cervical spine risk if performed with speed before mechanics are solid—progress gradually from slow repetitions. Communicate with training partners about pressure levels and intensity. Tap immediately if you feel sharp pain in the neck or spine during the rotation phase. Avoid forcing the escape against a fully locked body triangle, as this can cause rib or spinal injury.",
     "clips": [
       {
-        "id": "gGtVTIx1jms",
-        "title": "Rodeo Grip to the Back From Turtle",
-        "by": "Sticks and Stones BJJ coach",
-        "vertical": false,
-        "channel": "Sticks and Stones BJJ",
-        "duration": 811,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "VnkfgTfdMio",
         "title": "Reversing Opponents From Turtle",
         "by": "Craig Jones",
@@ -304,6 +295,15 @@
         "channel": "BJJDrillers",
         "duration": 693,
         "verified": "2026-07-15"
+      },
+      {
+        "id": "sSGaeoVvcwk",
+        "title": "Attacking and escaping from bottom turtle",
+        "by": "Grappling Instructionals",
+        "vertical": false,
+        "channel": "Grapplinginstructionals",
+        "duration": 39,
+        "verified": "2026-07-16"
       }
     ]
   },
@@ -451,13 +451,13 @@
         "verified": "2026-07-15"
       },
       {
-        "id": "F7LWaSTKDPI",
-        "title": "Turtle Bottom: Connecting Head and Shoulder",
-        "by": "Black Dragon BJJ coach",
+        "id": "ZVYoNcBr-00",
+        "title": "Recovering hooks when back control slips",
+        "by": "Carnage BJJ",
         "vertical": false,
-        "channel": "Black Dragon BJJ  / Cobra Kai Karate Dungannon",
-        "duration": 305,
-        "verified": "2026-07-15"
+        "channel": "Carnage BJJ",
+        "duration": 133,
+        "verified": "2026-07-16"
       }
     ]
   }

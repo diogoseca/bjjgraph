@@ -46,17 +46,6 @@ description: "Master the Escape from Rodeo Ride in BJJ. Complete guide covering 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Rodeo Grip to the Back From Turtle",
-      "description": "Escape from Rodeo Ride film study: Rodeo Grip to the Back From Turtle, taught by Sticks and Stones BJJ coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/gGtVTIx1jms/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/gGtVTIx1jms",
-      "url": "https://www.youtube.com/watch?v=gGtVTIx1jms",
-      "creator": { "@type": "Person", "name": "Sticks and Stones BJJ coach" },
-      "duration": "PT811S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Reversing Opponents From Turtle",
       "description": "Escape from Rodeo Ride film study: Reversing Opponents From Turtle, taught by Craig Jones.",
       "thumbnailUrl": "https://i.ytimg.com/vi/VnkfgTfdMio/hqdefault.jpg",
@@ -64,6 +53,17 @@ description: "Master the Escape from Rodeo Ride in BJJ. Complete guide covering 
       "url": "https://www.youtube.com/watch?v=VnkfgTfdMio",
       "creator": { "@type": "Person", "name": "Craig Jones" },
       "duration": "PT693S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Attacking and escaping from bottom turtle",
+      "description": "Escape from Rodeo Ride film study: Attacking and escaping from bottom turtle, taught by Grappling Instructionals.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sSGaeoVvcwk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sSGaeoVvcwk",
+      "url": "https://www.youtube.com/watch?v=sSGaeoVvcwk",
+      "creator": { "@type": "Person", "name": "Grappling Instructionals" },
+      "duration": "PT39S"
     }
   ]
 }
@@ -117,17 +117,17 @@ Successful execution requires combining grip fighting to address the near-arm co
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=gGtVTIx1jms)
+![](https://www.youtube.com/watch?v=VnkfgTfdMio)
 
-<p class="clip-credit"><strong>Rodeo Grip to the Back From Turtle</strong> — taught by Sticks and Stones BJJ coach · 13:31 · <a href="https://www.youtube.com/watch?v=gGtVTIx1jms" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Reversing Opponents From Turtle</strong> — taught by Craig Jones · 11:33 · <a href="https://www.youtube.com/watch?v=VnkfgTfdMio" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=VnkfgTfdMio)
+![](https://www.youtube.com/watch?v=sSGaeoVvcwk)
 
-<p class="clip-credit"><strong>Reversing Opponents From Turtle</strong> — taught by Craig Jones · 11:33 · <a href="https://www.youtube.com/watch?v=VnkfgTfdMio" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Attacking and escaping from bottom turtle</strong> — taught by Grappling Instructionals · 0:39 · <a href="https://www.youtube.com/watch?v=sSGaeoVvcwk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

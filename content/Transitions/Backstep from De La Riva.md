@@ -46,17 +46,6 @@ description: "Master the backstep from De La Riva Guard. Learn to clear the DLR 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "De La Riva to Leg Drag pass",
-      "description": "Backstep from De La Riva film study: De La Riva to Leg Drag pass, taught by Alavanca.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/H9hckrLXcRQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/H9hckrLXcRQ",
-      "url": "https://www.youtube.com/watch?v=H9hckrLXcRQ",
-      "creator": { "@type": "Person", "name": "Alavanca" },
-      "duration": "PT29S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Long step pass against De La Riva guard",
       "description": "Backstep from De La Riva film study: Long step pass against De La Riva guard, taught by Greg Hernandez.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ZaIgVPdXIFE/hqdefault.jpg",
@@ -64,6 +53,28 @@ description: "Master the backstep from De La Riva Guard. Learn to clear the DLR 
       "url": "https://www.youtube.com/watch?v=ZaIgVPdXIFE",
       "creator": { "@type": "Person", "name": "Greg Hernandez" },
       "duration": "PT130S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back Step De La Riva Pass",
+      "description": "Backstep from De La Riva film study: Back Step De La Riva Pass, taught by Vicente Junior.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7mSfDFetnoU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7mSfDFetnoU",
+      "url": "https://www.youtube.com/watch?v=7mSfDFetnoU",
+      "creator": { "@type": "Person", "name": "Vicente Junior" },
+      "duration": "PT114S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "De La Riva Guard Pass Breakdown",
+      "description": "Backstep from De La Riva film study: De La Riva Guard Pass Breakdown, taught by Taku Ishii.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yUF7QVyC0ag/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yUF7QVyC0ag",
+      "url": "https://www.youtube.com/watch?v=yUF7QVyC0ag",
+      "creator": { "@type": "Person", "name": "Taku Ishii" },
+      "duration": "PT141S"
     }
   ]
 }
@@ -117,17 +128,25 @@ However, the backstep carries inherent risk that distinguishes it from safer pas
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=H9hckrLXcRQ)
+![](https://www.youtube.com/watch?v=ZaIgVPdXIFE)
 
-<p class="clip-credit"><strong>De La Riva to Leg Drag pass</strong> — taught by Alavanca · 0:29 · <a href="https://www.youtube.com/watch?v=H9hckrLXcRQ" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Long step pass against De La Riva guard</strong> — taught by Greg Hernandez · 2:10 · <a href="https://www.youtube.com/watch?v=ZaIgVPdXIFE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=ZaIgVPdXIFE)
+![](https://www.youtube.com/watch?v=7mSfDFetnoU)
 
-<p class="clip-credit"><strong>Long step pass against De La Riva guard</strong> — taught by Greg Hernandez · 2:10 · <a href="https://www.youtube.com/watch?v=ZaIgVPdXIFE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Back Step De La Riva Pass</strong> — taught by Vicente Junior · 1:54 · <a href="https://www.youtube.com/watch?v=7mSfDFetnoU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yUF7QVyC0ag)
+
+<p class="clip-credit"><strong>De La Riva Guard Pass Breakdown</strong> — taught by Taku Ishii · 2:21 · <a href="https://www.youtube.com/watch?v=yUF7QVyC0ag" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

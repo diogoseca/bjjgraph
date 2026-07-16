@@ -64,17 +64,6 @@ description: "Master the Chair Sit to Back Take in BJJ. Control opponent from tu
       "url": "https://www.youtube.com/watch?v=_ApGfiRgL5k",
       "creator": { "@type": "Person", "name": "Leo Vieira" },
       "duration": "PT54S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Saving the chair sit triangle",
-      "description": "Chair Sit to Back film study: Saving the chair sit triangle, taught by Brandon McCaghren.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Vs50FHimMKA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Vs50FHimMKA",
-      "url": "https://www.youtube.com/watch?v=Vs50FHimMKA",
-      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
-      "duration": "PT128S"
     }
   ]
 }
@@ -139,14 +128,6 @@ Success requires precise hip positioning, weight distribution, and grip sequenci
 ![](https://www.youtube.com/watch?v=_ApGfiRgL5k)
 
 <p class="clip-credit"><strong>Back take basics</strong> — taught by Leo Vieira · 0:54 · <a href="https://www.youtube.com/watch?v=_ApGfiRgL5k" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Vs50FHimMKA)
-
-<p class="clip-credit"><strong>Saving the chair sit triangle</strong> — taught by Brandon McCaghren · 2:08 · <a href="https://www.youtube.com/watch?v=Vs50FHimMKA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

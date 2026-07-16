@@ -178,17 +178,6 @@ description: "How to defend against Ushiro Ashi-Garami to Deep Half in BJJ. Reco
       "url": "https://www.youtube.com/watch?v=JEDoJOZWQHY",
       "creator": { "@type": "Person", "name": "Six Blades Jiu-Jitsu" },
       "duration": "PT207S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Outside ashi leg lock defenses",
-      "description": "Ushiro Ashi-Garami to Deep Half (Defender) film study: Outside ashi leg lock defenses, taught by Holy Grail BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lH9x5sC736I/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/lH9x5sC736I",
-      "url": "https://www.youtube.com/watch?v=lH9x5sC736I",
-      "creator": { "@type": "Person", "name": "Holy Grail BJJ" },
-      "duration": "PT173S"
     }
   ]
 }
@@ -231,14 +220,6 @@ The key defensive principle is recognizing that the deep half entry happens duri
 ![](https://www.youtube.com/watch?v=JEDoJOZWQHY)
 
 <p class="clip-credit"><strong>Three options to defend the deep half guard</strong> — taught by Six Blades Jiu-Jitsu · 3:27 · <a href="https://www.youtube.com/watch?v=JEDoJOZWQHY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=lH9x5sC736I)
-
-<p class="clip-credit"><strong>Outside ashi leg lock defenses</strong> — taught by Holy Grail BJJ · 2:53 · <a href="https://www.youtube.com/watch?v=lH9x5sC736I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -174,17 +174,6 @@ description: "Defend and escape the belly down armbar finish from mounted triang
       "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
       "creator": { "@type": "Person", "name": "Matt Arroyo" },
       "duration": "PT92S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "The Best Arm-Triangle Escape",
-      "description": "Belly Down Armbar from Mounted Triangle (Defender) film study: The Best Arm-Triangle Escape, taught by ZombieProofBJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/n_2zR6BaF8A/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/n_2zR6BaF8A",
-      "url": "https://www.youtube.com/watch?v=n_2zR6BaF8A",
-      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
-      "duration": "PT58S"
     }
   ]
 }
@@ -224,14 +213,6 @@ Defending the belly down armbar from mounted triangle requires recognizing the t
 ![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
 
 <p class="clip-credit"><strong>Favorite Armbar Escape</strong> — taught by Matt Arroyo · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=n_2zR6BaF8A)
-
-<p class="clip-credit"><strong>The Best Arm-Triangle Escape</strong> — taught by ZombieProofBJJ · 0:58 · <a href="https://www.youtube.com/watch?v=n_2zR6BaF8A" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

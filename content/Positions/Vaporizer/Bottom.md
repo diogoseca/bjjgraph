@@ -183,17 +183,6 @@ description: "Master Vaporizer bottom position in BJJ. 10th Planet innovation fo
       "url": "https://www.youtube.com/watch?v=BUGZwZooq4Q",
       "creator": { "@type": "Person", "name": "10th Planet Salt Lake City" },
       "duration": "PT98S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Vaporizer from Top Stoner Control",
-      "description": "Vaporizer (Bottom) film study: Vaporizer from Top Stoner Control, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/VopfKnaVSjE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/VopfKnaVSjE",
-      "url": "https://www.youtube.com/watch?v=VopfKnaVSjE",
-      "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT254S"
     }
   ]
 }
@@ -234,14 +223,6 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 ![](https://www.youtube.com/watch?v=BUGZwZooq4Q)
 
 <p class="clip-credit"><strong>The Vaporizer &amp; Toe Hook</strong> — taught by 10th Planet Salt Lake City · 1:38 · <a href="https://www.youtube.com/watch?v=BUGZwZooq4Q" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=VopfKnaVSjE)
-
-<p class="clip-credit"><strong>Vaporizer from Top Stoner Control</strong> — taught by Eddie Bravo · 4:14 · <a href="https://www.youtube.com/watch?v=VopfKnaVSjE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

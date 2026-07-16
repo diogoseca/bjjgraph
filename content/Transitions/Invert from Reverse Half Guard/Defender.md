@@ -163,13 +163,13 @@ description: "Defend against the inversion from reverse half guard top. Recognit
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Stop Getting Smashed In Half Guard",
-      "description": "Invert from Reverse Half Guard (Defender) film study: Stop Getting Smashed In Half Guard, taught by Grapplers Planet.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/XqxdMRY2qqk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/XqxdMRY2qqk",
-      "url": "https://www.youtube.com/watch?v=XqxdMRY2qqk",
-      "creator": { "@type": "Person", "name": "Grapplers Planet" },
-      "duration": "PT241S"
+      "name": "Shotgun pass to beat reverse half guard",
+      "description": "Invert from Reverse Half Guard (Defender) film study: Shotgun pass to beat reverse half guard, taught by The Base Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4mHVpST5lLw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4mHVpST5lLw",
+      "url": "https://www.youtube.com/watch?v=4mHVpST5lLw",
+      "creator": { "@type": "Person", "name": "The Base Jiu Jitsu" },
+      "duration": "PT86S"
     }
   ]
 }
@@ -205,9 +205,9 @@ As the top player in reverse half guard, your opponent's inversion attempt repre
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=XqxdMRY2qqk)
+![](https://www.youtube.com/watch?v=4mHVpST5lLw)
 
-<p class="clip-credit"><strong>Stop Getting Smashed In Half Guard</strong> — taught by Grapplers Planet · 4:01 · <a href="https://www.youtube.com/watch?v=XqxdMRY2qqk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Shotgun pass to beat reverse half guard</strong> — taught by The Base Jiu Jitsu · 1:26 · <a href="https://www.youtube.com/watch?v=4mHVpST5lLw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -172,17 +172,6 @@ description: "Master Reverse X-Guard Top in BJJ. Control leg attacks with 60% pa
       "url": "https://www.youtube.com/watch?v=M82CDkEzxlQ",
       "creator": { "@type": "Person", "name": "Effortless Jiu Jitsu" },
       "duration": "PT121S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Passing Single Leg X",
-      "description": "Reverse X-Guard (Top) film study: Passing Single Leg X, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/XzILYmERAV8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/XzILYmERAV8",
-      "url": "https://www.youtube.com/watch?v=XzILYmERAV8",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT453S"
     }
   ]
 }
@@ -215,14 +204,6 @@ Strategically, Reverse X-Guard Top represents a transitional state where the top
 ![](https://www.youtube.com/watch?v=M82CDkEzxlQ)
 
 <p class="clip-credit"><strong>Reverse X-Guard defense into rolling back take</strong> — taught by Effortless Jiu Jitsu · 2:01 · <a href="https://www.youtube.com/watch?v=M82CDkEzxlQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=XzILYmERAV8)
-
-<p class="clip-credit"><strong>Passing Single Leg X</strong> — taught by Lachlan Giles · 7:33 · <a href="https://www.youtube.com/watch?v=XzILYmERAV8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

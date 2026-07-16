@@ -64,17 +64,6 @@ description: "Master the Grip Strip from Buggy Choke in BJJ. Complete guide to a
       "url": "https://www.youtube.com/watch?v=4svhwZLlHvY",
       "creator": { "@type": "Person", "name": "CrashAndFlowBJJ" },
       "duration": "PT120S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Avoid These 3 Common Buggy Choke Mistakes",
-      "description": "Grip Strip from Buggy Choke film study: Avoid These 3 Common Buggy Choke Mistakes, taught by Jay Rod.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/MjKERx4N4mY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/MjKERx4N4mY",
-      "url": "https://www.youtube.com/watch?v=MjKERx4N4mY",
-      "creator": { "@type": "Person", "name": "Jay Rod" },
-      "duration": "PT413S"
     }
   ]
 }
@@ -139,14 +128,6 @@ Understanding when to transition from submission attempt to positional control d
 ![](https://www.youtube.com/watch?v=4svhwZLlHvY)
 
 <p class="clip-credit"><strong>How I Escape Everyone&#39;s Buggy Choke</strong> — taught by CrashAndFlowBJJ · 2:00 · <a href="https://www.youtube.com/watch?v=4svhwZLlHvY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=MjKERx4N4mY)
-
-<p class="clip-credit"><strong>Avoid These 3 Common Buggy Choke Mistakes</strong> — taught by Jay Rod · 6:53 · <a href="https://www.youtube.com/watch?v=MjKERx4N4mY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

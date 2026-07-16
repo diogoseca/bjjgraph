@@ -171,17 +171,6 @@ description: "How to defend the transition to inverted lasso guard. Recognition 
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "How to react when your opponent sprawls on your lasso",
-      "description": "Lasso Guard to Inverted Lasso Guard (Defender) film study: How to react when your opponent sprawls on your lasso, taught by Modern BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/jDHBjOTZr2Q/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/jDHBjOTZr2Q",
-      "url": "https://www.youtube.com/watch?v=jDHBjOTZr2Q",
-      "creator": { "@type": "Person", "name": "Modern BJJ" },
-      "duration": "PT178S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
       "name": "Counter an inversion from top north-south",
       "description": "Lasso Guard to Inverted Lasso Guard (Defender) film study: Counter an inversion from top north-south, taught by Frankie Roberts.",
       "thumbnailUrl": "https://i.ytimg.com/vi/3e82Y_MRj_o/hqdefault.jpg",
@@ -219,14 +208,6 @@ Defending the transition to inverted lasso guard requires early recognition and 
 ![](https://www.youtube.com/watch?v=Z78HFDQNtFw)
 
 <p class="clip-credit"><strong>Countering the inversion (cross grip series)</strong> — taught by BJJ Lab Zürich · 0:56 · <a href="https://www.youtube.com/watch?v=Z78HFDQNtFw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=jDHBjOTZr2Q)
-
-<p class="clip-credit"><strong>How to react when your opponent sprawls on your lasso</strong> — taught by Modern BJJ · 2:58 · <a href="https://www.youtube.com/watch?v=jDHBjOTZr2Q" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

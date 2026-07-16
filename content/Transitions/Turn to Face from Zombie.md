@@ -53,28 +53,6 @@ description: "Master the Turn to Face escape from Zombie position in BJJ. Learn 
       "url": "https://www.youtube.com/watch?v=cY1xCIx-9-I",
       "creator": { "@type": "Person", "name": "Brandon McCaghren" },
       "duration": "PT57S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Turning to guard and butterfly out of lockdown",
-      "description": "Turn to Face from Zombie film study: Turning to guard and butterfly out of lockdown, taught by BJJ Level UP.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/o9sXXKqd4sc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/o9sXXKqd4sc",
-      "url": "https://www.youtube.com/watch?v=o9sXXKqd4sc",
-      "creator": { "@type": "Person", "name": "BJJ Level UP" },
-      "duration": "PT157S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Using lockdown to turn into a half guard smasher",
-      "description": "Turn to Face from Zombie film study: Using lockdown to turn into a half guard smasher, taught by Chewjitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/tcS7oBdpRW0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/tcS7oBdpRW0",
-      "url": "https://www.youtube.com/watch?v=tcS7oBdpRW0",
-      "creator": { "@type": "Person", "name": "Chewjitsu" },
-      "duration": "PT305S"
     }
   ]
 }
@@ -131,22 +109,6 @@ Successfully executing this transition shifts the positional dynamic dramaticall
 ![](https://www.youtube.com/watch?v=cY1xCIx-9-I)
 
 <p class="clip-credit"><strong>Two simple rubber guard tips</strong> — taught by Brandon McCaghren · 0:57 · <a href="https://www.youtube.com/watch?v=cY1xCIx-9-I" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=o9sXXKqd4sc)
-
-<p class="clip-credit"><strong>Turning to guard and butterfly out of lockdown</strong> — taught by BJJ Level UP · 2:37 · <a href="https://www.youtube.com/watch?v=o9sXXKqd4sc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=tcS7oBdpRW0)
-
-<p class="clip-credit"><strong>Using lockdown to turn into a half guard smasher</strong> — taught by Chewjitsu · 5:05 · <a href="https://www.youtube.com/watch?v=tcS7oBdpRW0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

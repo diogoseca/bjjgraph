@@ -204,17 +204,6 @@ description: "How to execute the transition from side control to Kuzure Kesa-Gat
       "url": "https://www.youtube.com/watch?v=aTsvuZ1vM48",
       "creator": { "@type": "Person", "name": "Judo Life" },
       "duration": "PT33S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Triangle attacks from broken scarf hold",
-      "description": "Side Control to Kuzure Kesa-Gatame (Attacker) film study: Triangle attacks from broken scarf hold, taught by Chokes And More.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/tfykooWW-xk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/tfykooWW-xk",
-      "url": "https://www.youtube.com/watch?v=tfykooWW-xk",
-      "creator": { "@type": "Person", "name": "Chokes And More" },
-      "duration": "PT66S"
     }
   ]
 }
@@ -253,14 +242,6 @@ Executing the transition to Kuzure Kesa-Gatame from side control centers on one 
 ![](https://www.youtube.com/watch?v=aTsvuZ1vM48)
 
 <p class="clip-credit"><strong>Kuzure Kesa Gatame study and application</strong> — taught by Judo Life · 0:33 · <a href="https://www.youtube.com/watch?v=aTsvuZ1vM48" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=tfykooWW-xk)
-
-<p class="clip-credit"><strong>Triangle attacks from broken scarf hold</strong> — taught by Chokes And More · 1:06 · <a href="https://www.youtube.com/watch?v=tfykooWW-xk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

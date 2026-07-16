@@ -46,17 +46,6 @@ description: "Master the calf slicer from inside sankaku. Complete guide coverin
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "The Mikey Lock",
-      "description": "Calf Slicer from Inside Sankaku film study: The Mikey Lock, taught by Ronin Training Center.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/B2zFn_r_zv8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/B2zFn_r_zv8",
-      "url": "https://www.youtube.com/watch?v=B2zFn_r_zv8",
-      "creator": { "@type": "Person", "name": "Ronin Training Center" },
-      "duration": "PT93S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Bear Trap into Calf Slicer",
       "description": "Calf Slicer from Inside Sankaku film study: Bear Trap into Calf Slicer, taught by Revolution BJJ.",
       "thumbnailUrl": "https://i.ytimg.com/vi/6M0HvIFfc-w/hqdefault.jpg",
@@ -67,7 +56,7 @@ description: "Master the calf slicer from inside sankaku. Complete guide coverin
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 2,
       "name": "Inside Ashi Garami Calf Slicer",
       "description": "Calf Slicer from Inside Sankaku film study: Inside Ashi Garami Calf Slicer, taught by Hicham.",
       "thumbnailUrl": "https://i.ytimg.com/vi/VXmaDAUt-BU/hqdefault.jpg",
@@ -134,14 +123,6 @@ The technique carries particular strategic value in competition because opponent
 
 <p class="section-subtitle">Watch Calf Slicer from Inside Sankaku in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=B2zFn_r_zv8)
-
-<p class="clip-credit"><strong>The Mikey Lock</strong> — taught by Ronin Training Center · 1:33 · <a href="https://www.youtube.com/watch?v=B2zFn_r_zv8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

@@ -349,15 +349,6 @@
     ],
     "clips": [
       {
-        "id": "Mu1TlMqe6KY",
-        "title": "Ude-Gatame Straight Armlock",
-        "by": "Travis Stevens",
-        "vertical": false,
-        "channel": "Travis Stevens",
-        "duration": 37,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "fB7gGDIm1i8",
         "title": "12 Kesa Gatame Attacks",
         "by": "Johnny Jitsu",
@@ -365,6 +356,24 @@
         "channel": "Johnny Jitsu",
         "duration": 88,
         "verified": "2026-07-14"
+      },
+      {
+        "id": "8IFYNPkWS5w",
+        "title": "Finishing juji gatame on your side",
+        "by": "Steve Scott",
+        "vertical": false,
+        "channel": "welcomematstevescott",
+        "duration": 138,
+        "verified": "2026-07-16"
+      },
+      {
+        "id": "BAo1jf-eVAw",
+        "title": "Armbars from cross body control",
+        "by": "Igor Yakimov",
+        "vertical": false,
+        "channel": "WorldMartialArts",
+        "duration": 114,
+        "verified": "2026-07-16"
       }
     ]
   },

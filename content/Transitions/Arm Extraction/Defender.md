@@ -171,13 +171,13 @@ description: "How to defend against Arm Extraction in BJJ. Recognition cues, def
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Frame details to stop getting crushed on bottom",
-      "description": "Arm Extraction (Defender) film study: Frame details to stop getting crushed on bottom, taught by John Connors.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/7fFw__hZXMg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/7fFw__hZXMg",
-      "url": "https://www.youtube.com/watch?v=7fFw__hZXMg",
-      "creator": { "@type": "Person", "name": "John Connors" },
-      "duration": "PT146S"
+      "name": "Frame Options With the Outside Arm",
+      "description": "Arm Extraction (Defender) film study: Frame Options With the Outside Arm, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SsllJSWsyJc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SsllJSWsyJc",
+      "url": "https://www.youtube.com/watch?v=SsllJSWsyJc",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT217S"
     }
   ]
 }
@@ -217,9 +217,9 @@ The most successful defenders combine heavy pressure with positional awareness, 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=7fFw__hZXMg)
+![](https://www.youtube.com/watch?v=SsllJSWsyJc)
 
-<p class="clip-credit"><strong>Frame details to stop getting crushed on bottom</strong> — taught by John Connors · 2:26 · <a href="https://www.youtube.com/watch?v=7fFw__hZXMg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Frame Options With the Outside Arm</strong> — taught by John Danaher · 3:37 · <a href="https://www.youtube.com/watch?v=SsllJSWsyJc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

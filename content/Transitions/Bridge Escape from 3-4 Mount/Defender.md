@@ -163,24 +163,13 @@ description: "Defend against bridge escapes from 3-4 mount top. Recognition cues
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Escaping 3/4 Mount",
-      "description": "Bridge Escape from 3-4 Mount (Defender) film study: Escaping 3/4 Mount, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/CApqOyD9Lvo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/CApqOyD9Lvo",
-      "url": "https://www.youtube.com/watch?v=CApqOyD9Lvo",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT556S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Recovering from 3/4 Mount and Hook Recovery",
-      "description": "Bridge Escape from 3-4 Mount (Defender) film study: Recovering from 3/4 Mount and Hook Recovery, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/e8LWit7OEv4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/e8LWit7OEv4",
-      "url": "https://www.youtube.com/watch?v=e8LWit7OEv4",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT241S"
+      "name": "Why most bridge mount escapes fail",
+      "description": "Bridge Escape from 3-4 Mount (Defender) film study: Why most bridge mount escapes fail, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ly8voPPzYaU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ly8voPPzYaU",
+      "url": "https://www.youtube.com/watch?v=Ly8voPPzYaU",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT85S"
     }
   ]
 }
@@ -216,17 +205,9 @@ Defending the bridge escape from 3-4 mount top requires understanding the specif
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=CApqOyD9Lvo)
+![](https://www.youtube.com/watch?v=Ly8voPPzYaU)
 
-<p class="clip-credit"><strong>Escaping 3/4 Mount</strong> — taught by Lachlan Giles · 9:16 · <a href="https://www.youtube.com/watch?v=CApqOyD9Lvo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=e8LWit7OEv4)
-
-<p class="clip-credit"><strong>Recovering from 3/4 Mount and Hook Recovery</strong> — taught by Lachlan Giles · 4:01 · <a href="https://www.youtube.com/watch?v=e8LWit7OEv4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Why most bridge mount escapes fail</strong> — taught by Henry Akins · 1:25 · <a href="https://www.youtube.com/watch?v=Ly8voPPzYaU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

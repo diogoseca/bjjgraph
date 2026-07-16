@@ -165,17 +165,6 @@ description: "Master Technical Mount Top in BJJ. Complete offensive guide coveri
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Rear naked choke from the back",
-      "description": "Technical Mount (Top) film study: Rear naked choke from the back, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/70jECxFfCSA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/70jECxFfCSA",
-      "url": "https://www.youtube.com/watch?v=70jECxFfCSA",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT73S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Technical mount attack sequence \u0026 back take",
       "description": "Technical Mount (Top) film study: Technical mount attack sequence \u0026 back take, taught by DS Team Jiu Jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/9bH-UvKJBf4/hqdefault.jpg",
@@ -186,7 +175,7 @@ description: "Master Technical Mount Top in BJJ. Complete offensive guide coveri
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 2,
       "name": "Mount to technical mount transition",
       "description": "Technical Mount (Top) film study: Mount to technical mount transition, taught by Dark Horse BJJ.",
       "thumbnailUrl": "https://i.ytimg.com/vi/plD6TW7pFv4/hqdefault.jpg",
@@ -220,14 +209,6 @@ This position represents a critical junction in mount offense where the practiti
 
 <p class="section-subtitle">Watch Technical Mount (Top) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=70jECxFfCSA)
-
-<p class="clip-credit"><strong>Rear naked choke from the back</strong> — taught by Gordon Ryan · 1:13 · <a href="https://www.youtube.com/watch?v=70jECxFfCSA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

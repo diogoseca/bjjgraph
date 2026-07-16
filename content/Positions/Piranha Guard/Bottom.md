@@ -172,28 +172,6 @@ description: "Master Piranha Guard Bottom in BJJ. Aggressive lapel-based guard w
       "url": "https://www.youtube.com/watch?v=xwERZYBqP9Q",
       "creator": { "@type": "Person", "name": "Daniel Maira" },
       "duration": "PT250S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Lapel Guard Introduction and Core Concepts",
-      "description": "Piranha Guard (Bottom) film study: Lapel Guard Introduction and Core Concepts, taught by Keenan Cornelius.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/541H63KeHD4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/541H63KeHD4",
-      "url": "https://www.youtube.com/watch?v=541H63KeHD4",
-      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
-      "duration": "PT293S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Octopus Half Guard Attacks",
-      "description": "Piranha Guard (Bottom) film study: Octopus Half Guard Attacks, taught by Firas Zahabi.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/muZ5rOFGYIs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/muZ5rOFGYIs",
-      "url": "https://www.youtube.com/watch?v=muZ5rOFGYIs",
-      "creator": { "@type": "Person", "name": "Firas Zahabi" },
-      "duration": "PT774S"
     }
   ]
 }
@@ -226,22 +204,6 @@ From a tactical perspective, Piranha Guard represents the evolution of modern la
 ![](https://www.youtube.com/watch?v=xwERZYBqP9Q)
 
 <p class="clip-credit"><strong>Lapel guard basics for beginners</strong> — taught by Daniel Maira · 4:10 · <a href="https://www.youtube.com/watch?v=xwERZYBqP9Q" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=541H63KeHD4)
-
-<p class="clip-credit"><strong>Lapel Guard Introduction and Core Concepts</strong> — taught by Keenan Cornelius · 4:53 · <a href="https://www.youtube.com/watch?v=541H63KeHD4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=muZ5rOFGYIs)
-
-<p class="clip-credit"><strong>Octopus Half Guard Attacks</strong> — taught by Firas Zahabi · 12:54 · <a href="https://www.youtube.com/watch?v=muZ5rOFGYIs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

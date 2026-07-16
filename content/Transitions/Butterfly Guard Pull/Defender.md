@@ -163,13 +163,13 @@ description: "Defend the Butterfly Guard Pull in BJJ. Recognize pull initiation 
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Sprawl defense against a level change",
-      "description": "Butterfly Guard Pull (Defender) film study: Sprawl defense against a level change, taught by WrestlingTournaments.com.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/RKRfwAAw1Gs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/RKRfwAAw1Gs",
-      "url": "https://www.youtube.com/watch?v=RKRfwAAw1Gs",
-      "creator": { "@type": "Person", "name": "WrestlingTournaments.com" },
-      "duration": "PT75S"
+      "name": "Countering the seated guard from standing",
+      "description": "Butterfly Guard Pull (Defender) film study: Countering the seated guard from standing, taught by Samy Aljamal.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LNyXkfENU5c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LNyXkfENU5c",
+      "url": "https://www.youtube.com/watch?v=LNyXkfENU5c",
+      "creator": { "@type": "Person", "name": "Samy Aljamal" },
+      "duration": "PT79S"
     }
   ]
 }
@@ -205,9 +205,9 @@ As the defender facing a Butterfly Guard Pull, your primary objective is to prev
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=RKRfwAAw1Gs)
+![](https://www.youtube.com/watch?v=LNyXkfENU5c)
 
-<p class="clip-credit"><strong>Sprawl defense against a level change</strong> — taught by WrestlingTournaments.com · 1:15 · <a href="https://www.youtube.com/watch?v=RKRfwAAw1Gs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Countering the seated guard from standing</strong> — taught by Samy Aljamal · 1:19 · <a href="https://www.youtube.com/watch?v=LNyXkfENU5c" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

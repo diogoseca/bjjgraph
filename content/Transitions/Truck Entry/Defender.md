@@ -171,17 +171,6 @@ description: "How to defend against Truck Entry in BJJ. Recognition cues, defens
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Truck back take vs babybridge and hawkins defenses",
-      "description": "Truck Entry (Defender) film study: Truck back take vs babybridge and hawkins defenses, taught by Wim Deputter.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/LA-AdwNMGvc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/LA-AdwNMGvc",
-      "url": "https://www.youtube.com/watch?v=LA-AdwNMGvc",
-      "creator": { "@type": "Person", "name": "Wim Deputter" },
-      "duration": "PT162S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
       "name": "Defending the rolling back take (Truck roll)",
       "description": "Truck Entry (Defender) film study: Defending the rolling back take (Truck roll), taught by Brian Glick.",
       "thumbnailUrl": "https://i.ytimg.com/vi/WEpVDP7MRpo/hqdefault.jpg",
@@ -219,14 +208,6 @@ Defending the Truck Entry requires early recognition and immediate hip managemen
 ![](https://www.youtube.com/watch?v=1AQY9-6HUhI)
 
 <p class="clip-credit"><strong>Defending rolling back takes</strong> — taught by Stephan Kesting · 1:47 · <a href="https://www.youtube.com/watch?v=1AQY9-6HUhI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=LA-AdwNMGvc)
-
-<p class="clip-credit"><strong>Truck back take vs babybridge and hawkins defenses</strong> — taught by Wim Deputter · 2:42 · <a href="https://www.youtube.com/watch?v=LA-AdwNMGvc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

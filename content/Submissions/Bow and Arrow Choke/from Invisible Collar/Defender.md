@@ -162,17 +162,6 @@ description: "Defend against the Bow and Arrow Choke from Invisible Collar. Reco
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Cross collar choke defense \u2014 down and over",
-      "description": "Bow and Arrow Choke from Invisible Collar (Defender) film study: Cross collar choke defense \u2014 down and over, taught by Emil Takeuchi.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/6rMCDkWRlgg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/6rMCDkWRlgg",
-      "url": "https://www.youtube.com/watch?v=6rMCDkWRlgg",
-      "creator": { "@type": "Person", "name": "Emil Takeuchi" },
-      "duration": "PT94S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Back collar choke escape",
       "description": "Bow and Arrow Choke from Invisible Collar (Defender) film study: Back collar choke escape, taught by Beto Vilanova.",
       "thumbnailUrl": "https://i.ytimg.com/vi/kkAVJ3u7THM/hqdefault.jpg",
@@ -180,6 +169,17 @@ description: "Defend against the Bow and Arrow Choke from Invisible Collar. Reco
       "url": "https://www.youtube.com/watch?v=kkAVJ3u7THM",
       "creator": { "@type": "Person", "name": "Beto Vilanova" },
       "duration": "PT166S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Bow and arrow choke defense",
+      "description": "Bow and Arrow Choke from Invisible Collar (Defender) film study: Bow and arrow choke defense, taught by Gracie Ohio Jiu-Jitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2No7WP3otgI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2No7WP3otgI",
+      "url": "https://www.youtube.com/watch?v=2No7WP3otgI",
+      "creator": { "@type": "Person", "name": "Gracie Ohio Jiu-Jitsu Academy" },
+      "duration": "PT92S"
     }
   ]
 }
@@ -208,17 +208,17 @@ Defending the Bow and Arrow Choke from Invisible Collar presents a unique challe
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=6rMCDkWRlgg)
+![](https://www.youtube.com/watch?v=kkAVJ3u7THM)
 
-<p class="clip-credit"><strong>Cross collar choke defense — down and over</strong> — taught by Emil Takeuchi · 1:34 · <a href="https://www.youtube.com/watch?v=6rMCDkWRlgg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Back collar choke escape</strong> — taught by Beto Vilanova · 2:46 · <a href="https://www.youtube.com/watch?v=kkAVJ3u7THM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=kkAVJ3u7THM)
+![](https://www.youtube.com/watch?v=2No7WP3otgI)
 
-<p class="clip-credit"><strong>Back collar choke escape</strong> — taught by Beto Vilanova · 2:46 · <a href="https://www.youtube.com/watch?v=kkAVJ3u7THM" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Bow and arrow choke defense</strong> — taught by Gracie Ohio Jiu-Jitsu Academy · 1:32 · <a href="https://www.youtube.com/watch?v=2No7WP3otgI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -183,17 +183,6 @@ description: "Master top inverted lasso guard defense. Complete guide to prevent
       "url": "https://www.youtube.com/watch?v=3Q3S5alr1j4",
       "creator": { "@type": "Person", "name": "Roger Gracie" },
       "duration": "PT162S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Xande\u0027s Guard Retention Drill Explained",
-      "description": "Inverted Lasso Guard (Top) film study: Xande\u0027s Guard Retention Drill Explained, taught by Xande Ribeiro.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/It-74eVqIC0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/It-74eVqIC0",
-      "url": "https://www.youtube.com/watch?v=It-74eVqIC0",
-      "creator": { "@type": "Person", "name": "Xande Ribeiro" },
-      "duration": "PT408S"
     }
   ]
 }
@@ -238,14 +227,6 @@ Advanced top players learn to create dilemmas in reverse - making the inverted p
 ![](https://www.youtube.com/watch?v=3Q3S5alr1j4)
 
 <p class="clip-credit"><strong>Passing the Lasso-Half Guard</strong> — taught by Roger Gracie · 2:42 · <a href="https://www.youtube.com/watch?v=3Q3S5alr1j4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=It-74eVqIC0)
-
-<p class="clip-credit"><strong>Xande&#39;s Guard Retention Drill Explained</strong> — taught by Xande Ribeiro · 6:48 · <a href="https://www.youtube.com/watch?v=It-74eVqIC0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -57,13 +57,24 @@ description: "Master Ushiro Ashi-Garami (reverse leg entanglement). Complete tec
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "X-guard to saddle (cross ashi)",
-      "description": "Ushiro Ashi-Garami film study: X-guard to saddle (cross ashi), taught by Johnny Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/HVc2CKdAfN0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/HVc2CKdAfN0",
-      "url": "https://www.youtube.com/watch?v=HVc2CKdAfN0",
-      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
-      "duration": "PT120S"
+      "name": "Reverse Ashi Garami to Toe Hold and Knee Bar",
+      "description": "Ushiro Ashi-Garami film study: Reverse Ashi Garami to Toe Hold and Knee Bar, taught by Crosstrain Fight Club coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/E5Q5kQTNJuk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/E5Q5kQTNJuk",
+      "url": "https://www.youtube.com/watch?v=E5Q5kQTNJuk",
+      "creator": { "@type": "Person", "name": "Crosstrain Fight Club coach" },
+      "duration": "PT77S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Reverse X to Ashi Garami Concept",
+      "description": "Ushiro Ashi-Garami film study: Reverse X to Ashi Garami Concept, taught by The Sanctuary BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Bf5cJNYCMcA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Bf5cJNYCMcA",
+      "url": "https://www.youtube.com/watch?v=Bf5cJNYCMcA",
+      "creator": { "@type": "Person", "name": "The Sanctuary BJJ coach" },
+      "duration": "PT105S"
     }
   ]
 }
@@ -130,9 +141,17 @@ Understanding the biomechanical differences between ushiro ashi-garami and stand
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=HVc2CKdAfN0)
+![](https://www.youtube.com/watch?v=E5Q5kQTNJuk)
 
-<p class="clip-credit"><strong>X-guard to saddle (cross ashi)</strong> — taught by Johnny Jitsu · 2:00 · <a href="https://www.youtube.com/watch?v=HVc2CKdAfN0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Reverse Ashi Garami to Toe Hold and Knee Bar</strong> — taught by Crosstrain Fight Club coach · 1:17 · <a href="https://www.youtube.com/watch?v=E5Q5kQTNJuk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Bf5cJNYCMcA)
+
+<p class="clip-credit"><strong>Reverse X to Ashi Garami Concept</strong> — taught by The Sanctuary BJJ coach · 1:45 · <a href="https://www.youtube.com/watch?v=Bf5cJNYCMcA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

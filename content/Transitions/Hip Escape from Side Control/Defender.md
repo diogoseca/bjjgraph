@@ -163,13 +163,24 @@ description: "Defend against hip escape attempts from consolidated side control.
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Side Control Escape - Most common mistakes",
-      "description": "Hip Escape from Side Control (Defender) film study: Side Control Escape - Most common mistakes, taught by Jon Thomas.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/XtQ4SSIwGSc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/XtQ4SSIwGSc",
-      "url": "https://www.youtube.com/watch?v=XtQ4SSIwGSc",
-      "creator": { "@type": "Person", "name": "Jon Thomas" },
-      "duration": "PT349S"
+      "name": "Side control elbow push to shrimp to guard escape",
+      "description": "Hip Escape from Side Control (Defender) film study: Side control elbow push to shrimp to guard escape, taught by Carlos Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0BJFebGfwh4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0BJFebGfwh4",
+      "url": "https://www.youtube.com/watch?v=0BJFebGfwh4",
+      "creator": { "@type": "Person", "name": "Carlos Machado" },
+      "duration": "PT149S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Elbow escape: shrimping to replace guard",
+      "description": "Hip Escape from Side Control (Defender) film study: Elbow escape: shrimping to replace guard, taught by Unknown coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/myIsFYohrNA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/myIsFYohrNA",
+      "url": "https://www.youtube.com/watch?v=myIsFYohrNA",
+      "creator": { "@type": "Person", "name": "Unknown coach" },
+      "duration": "PT32S"
     }
   ]
 }
@@ -205,9 +216,17 @@ As the top player defending against hip escape attempts from consolidated side c
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=XtQ4SSIwGSc)
+![](https://www.youtube.com/watch?v=0BJFebGfwh4)
 
-<p class="clip-credit"><strong>Side Control Escape - Most common mistakes</strong> — taught by Jon Thomas · 5:49 · <a href="https://www.youtube.com/watch?v=XtQ4SSIwGSc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Side control elbow push to shrimp to guard escape</strong> — taught by Carlos Machado · 2:29 · <a href="https://www.youtube.com/watch?v=0BJFebGfwh4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=myIsFYohrNA)
+
+<p class="clip-credit"><strong>Elbow escape: shrimping to replace guard</strong> — taught by Unknown coach · 0:32 · <a href="https://www.youtube.com/watch?v=myIsFYohrNA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

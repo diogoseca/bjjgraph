@@ -46,17 +46,6 @@ description: "Master Leg Recovery to De La Riva from leg drag bottom. Extract tr
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How to use reverse de la Riva",
-      "description": "Leg Recovery to De La Riva film study: How to use reverse de la Riva, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_beJGS2-yIE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_beJGS2-yIE",
-      "url": "https://www.youtube.com/watch?v=_beJGS2-yIE",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT122S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Tips to make your de la Riva guard unpassable",
       "description": "Leg Recovery to De La Riva film study: Tips to make your de la Riva guard unpassable, taught by Juanjo.",
       "thumbnailUrl": "https://i.ytimg.com/vi/wLSe23vSbP0/hqdefault.jpg",
@@ -64,6 +53,28 @@ description: "Master Leg Recovery to De La Riva from leg drag bottom. Extract tr
       "url": "https://www.youtube.com/watch?v=wLSe23vSbP0",
       "creator": { "@type": "Person", "name": "Juanjo" },
       "duration": "PT102S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guard retention vs knee through pass",
+      "description": "Leg Recovery to De La Riva film study: Guard retention vs knee through pass, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KoJEv3ipDdk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KoJEv3ipDdk",
+      "url": "https://www.youtube.com/watch?v=KoJEv3ipDdk",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT134S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Guard retention: when to sit up and escape",
+      "description": "Leg Recovery to De La Riva film study: Guard retention: when to sit up and escape, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
+      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT136S"
     }
   ]
 }
@@ -117,17 +128,25 @@ Strategically, this transition exploits a fundamental vulnerability in the leg d
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=_beJGS2-yIE)
+![](https://www.youtube.com/watch?v=wLSe23vSbP0)
 
-<p class="clip-credit"><strong>How to use reverse de la Riva</strong> — taught by Lachlan Giles · 2:02 · <a href="https://www.youtube.com/watch?v=_beJGS2-yIE" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Tips to make your de la Riva guard unpassable</strong> — taught by Juanjo · 1:42 · <a href="https://www.youtube.com/watch?v=wLSe23vSbP0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=wLSe23vSbP0)
+![](https://www.youtube.com/watch?v=KoJEv3ipDdk)
 
-<p class="clip-credit"><strong>Tips to make your de la Riva guard unpassable</strong> — taught by Juanjo · 1:42 · <a href="https://www.youtube.com/watch?v=wLSe23vSbP0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Guard retention vs knee through pass</strong> — taught by Lachlan Giles · 2:14 · <a href="https://www.youtube.com/watch?v=KoJEv3ipDdk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lVLAROiSjNU)
+
+<p class="clip-credit"><strong>Guard retention: when to sit up and escape</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

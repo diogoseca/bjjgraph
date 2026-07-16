@@ -75,17 +75,6 @@ description: "Master the Short Choke in BJJ. Devastating lapel strangle from top
       "url": "https://www.youtube.com/watch?v=EJaBa7Q3qVI",
       "creator": { "@type": "Person", "name": "Mako BJJ" },
       "duration": "PT188S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 4,
-      "name": "Gift Wrap Arm Triangle / Ezekiel Choke",
-      "description": "Short Choke film study: Gift Wrap Arm Triangle / Ezekiel Choke, taught by Prosaic Living.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/DAUs6oX4jjo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/DAUs6oX4jjo",
-      "url": "https://www.youtube.com/watch?v=DAUs6oX4jjo",
-      "creator": { "@type": "Person", "name": "Prosaic Living" },
-      "duration": "PT46S"
     }
   ]
 }
@@ -173,14 +162,6 @@ Advanced practitioners use the Short Choke as both a primary finish and a setup 
 ![](https://www.youtube.com/watch?v=EJaBa7Q3qVI)
 
 <p class="clip-credit"><strong>Short Choke to Rear Naked Choke</strong> — taught by Mako BJJ · 3:08 · <a href="https://www.youtube.com/watch?v=EJaBa7Q3qVI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=DAUs6oX4jjo)
-
-<p class="clip-credit"><strong>Gift Wrap Arm Triangle / Ezekiel Choke</strong> — taught by Prosaic Living · 0:46 · <a href="https://www.youtube.com/watch?v=DAUs6oX4jjo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -197,13 +197,24 @@ description: "How to execute Crackhead Control to New York in BJJ. Attacking per
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Dead Orchard armbar from rubber guard",
-      "description": "Crackhead Control to New York (Attacker) film study: Dead Orchard armbar from rubber guard, taught by Eddie Bravo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/jT4wPY2Dc_U/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/jT4wPY2Dc_U",
-      "url": "https://www.youtube.com/watch?v=jT4wPY2Dc_U",
+      "name": "Sorcerer from invisible collar",
+      "description": "Crackhead Control to New York (Attacker) film study: Sorcerer from invisible collar, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GPWBygTM1b0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GPWBygTM1b0",
+      "url": "https://www.youtube.com/watch?v=GPWBygTM1b0",
       "creator": { "@type": "Person", "name": "Eddie Bravo" },
-      "duration": "PT88S"
+      "duration": "PT97S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Clearing the elbow to lock up the rubber guard finish",
+      "description": "Crackhead Control to New York (Attacker) film study: Clearing the elbow to lock up the rubber guard finish, taught by Ben Eddy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/p6M-9BVuWqs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/p6M-9BVuWqs",
+      "url": "https://www.youtube.com/watch?v=p6M-9BVuWqs",
+      "creator": { "@type": "Person", "name": "Ben Eddy" },
+      "duration": "PT79S"
     }
   ]
 }
@@ -245,9 +256,17 @@ Energy management considerations make this transition particularly valuable duri
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=jT4wPY2Dc_U)
+![](https://www.youtube.com/watch?v=GPWBygTM1b0)
 
-<p class="clip-credit"><strong>Dead Orchard armbar from rubber guard</strong> — taught by Eddie Bravo · 1:28 · <a href="https://www.youtube.com/watch?v=jT4wPY2Dc_U" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Sorcerer from invisible collar</strong> — taught by Eddie Bravo · 1:37 · <a href="https://www.youtube.com/watch?v=GPWBygTM1b0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=p6M-9BVuWqs)
+
+<p class="clip-credit"><strong>Clearing the elbow to lock up the rubber guard finish</strong> — taught by Ben Eddy · 1:19 · <a href="https://www.youtube.com/watch?v=p6M-9BVuWqs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

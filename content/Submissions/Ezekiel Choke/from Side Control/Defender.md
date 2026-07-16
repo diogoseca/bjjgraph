@@ -167,13 +167,13 @@ description: "Defend the Ezekiel Choke from side control bottom. Recognize cross
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Babybridge Side Control Escape",
-      "description": "Ezekiel Choke from Side Control (Defender) film study: Babybridge Side Control Escape, taught by Priit Mihkelson.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/wDSd5Qy8Kac/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/wDSd5Qy8Kac",
-      "url": "https://www.youtube.com/watch?v=wDSd5Qy8Kac",
-      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
-      "duration": "PT231S"
+      "name": "Escaping side control as opponent switches base",
+      "description": "Ezekiel Choke from Side Control (Defender) film study: Escaping side control as opponent switches base, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uzDPYRi92D0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uzDPYRi92D0",
+      "url": "https://www.youtube.com/watch?v=uzDPYRi92D0",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT136S"
     }
   ]
 }
@@ -210,9 +210,9 @@ Defending the Ezekiel Choke from side control bottom requires recognizing that t
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=wDSd5Qy8Kac)
+![](https://www.youtube.com/watch?v=uzDPYRi92D0)
 
-<p class="clip-credit"><strong>Babybridge Side Control Escape</strong> — taught by Priit Mihkelson · 3:51 · <a href="https://www.youtube.com/watch?v=wDSd5Qy8Kac" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escaping side control as opponent switches base</strong> — taught by Jean Jacques Machado · 2:16 · <a href="https://www.youtube.com/watch?v=uzDPYRi92D0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

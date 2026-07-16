@@ -178,17 +178,6 @@ description: "How to defend against Ankle Pick Sweep in BJJ. Recognition cues, d
       "url": "https://www.youtube.com/watch?v=qP9iLxlxgzw",
       "creator": { "@type": "Person", "name": "Lachlan Giles" },
       "duration": "PT120S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Guard retention: when to sit up and escape",
-      "description": "Ankle Pick Sweep (Defender) film study: Guard retention: when to sit up and escape, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
-      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT136S"
     }
   ]
 }
@@ -229,14 +218,6 @@ The most critical defensive window is the moment between your opponent establish
 ![](https://www.youtube.com/watch?v=qP9iLxlxgzw)
 
 <p class="clip-credit"><strong>Sit up guard live breakdown</strong> — taught by Lachlan Giles · 2:00 · <a href="https://www.youtube.com/watch?v=qP9iLxlxgzw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=lVLAROiSjNU)
-
-<p class="clip-credit"><strong>Guard retention: when to sit up and escape</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

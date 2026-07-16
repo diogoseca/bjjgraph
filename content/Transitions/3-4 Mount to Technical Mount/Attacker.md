@@ -204,17 +204,6 @@ description: "Master attacking mechanics for the 3-4 Mount to Technical Mount tr
       "url": "https://www.youtube.com/watch?v=0wVHM6nJeew",
       "creator": { "@type": "Person", "name": "Steve Haydock" },
       "duration": "PT81S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "S-mount troubleshooting from mount (no-gi)",
-      "description": "3-4 Mount to Technical Mount (Attacker) film study: S-mount troubleshooting from mount (no-gi), taught by ZombieProofBJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2Xm_mLp8xwk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/2Xm_mLp8xwk",
-      "url": "https://www.youtube.com/watch?v=2Xm_mLp8xwk",
-      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
-      "duration": "PT67S"
     }
   ]
 }
@@ -253,14 +242,6 @@ From the attacker's perspective, the 3-4 Mount to Technical Mount transition is 
 ![](https://www.youtube.com/watch?v=0wVHM6nJeew)
 
 <p class="clip-credit"><strong>Technical mount transition from mount</strong> — taught by Steve Haydock · 1:21 · <a href="https://www.youtube.com/watch?v=0wVHM6nJeew" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=2Xm_mLp8xwk)
-
-<p class="clip-credit"><strong>S-mount troubleshooting from mount (no-gi)</strong> — taught by ZombieProofBJJ · 1:07 · <a href="https://www.youtube.com/watch?v=2Xm_mLp8xwk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

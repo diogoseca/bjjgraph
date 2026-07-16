@@ -163,24 +163,13 @@ description: "Defend against the Strip Lapel from Piranha as the bottom player. 
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Valid grip breaking from lapel",
-      "description": "Strip Lapel from Piranha (Defender) film study: Valid grip breaking from lapel, taught by Neil Adams.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/gUI1GeUga-w/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/gUI1GeUga-w",
-      "url": "https://www.youtube.com/watch?v=gUI1GeUga-w",
-      "creator": { "@type": "Person", "name": "Neil Adams" },
-      "duration": "PT21S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Crucifix grip break",
-      "description": "Strip Lapel from Piranha (Defender) film study: Crucifix grip break, taught by Gabe Tuttle.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/OnmLBMNZ44A/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/OnmLBMNZ44A",
-      "url": "https://www.youtube.com/watch?v=OnmLBMNZ44A",
-      "creator": { "@type": "Person", "name": "Gabe Tuttle" },
-      "duration": "PT86S"
+      "name": "Passing the lasso and spider guard masterclass",
+      "description": "Strip Lapel from Piranha (Defender) film study: Passing the lasso and spider guard masterclass, taught by Tainan Dalpra \u0026 Gui Mendes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7GonpUVWF3g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7GonpUVWF3g",
+      "url": "https://www.youtube.com/watch?v=7GonpUVWF3g",
+      "creator": { "@type": "Person", "name": "Tainan Dalpra \u0026 Gui Mendes" },
+      "duration": "PT60S"
     }
   ]
 }
@@ -216,17 +205,9 @@ As the bottom player defending against the Strip Lapel from Piranha, your goal i
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=gUI1GeUga-w)
+![](https://www.youtube.com/watch?v=7GonpUVWF3g)
 
-<p class="clip-credit"><strong>Valid grip breaking from lapel</strong> — taught by Neil Adams · 0:21 · <a href="https://www.youtube.com/watch?v=gUI1GeUga-w" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=OnmLBMNZ44A)
-
-<p class="clip-credit"><strong>Crucifix grip break</strong> — taught by Gabe Tuttle · 1:26 · <a href="https://www.youtube.com/watch?v=OnmLBMNZ44A" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Passing the lasso and spider guard masterclass</strong> — taught by Tainan Dalpra &amp; Gui Mendes · 1:00 · <a href="https://www.youtube.com/watch?v=7GonpUVWF3g" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

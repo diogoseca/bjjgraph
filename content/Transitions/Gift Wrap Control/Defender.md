@@ -167,17 +167,6 @@ description: "How to defend against Gift Wrap Control in BJJ. Recognition cues, 
       "url": "https://www.youtube.com/watch?v=BJv1DseDv8o",
       "creator": { "@type": "Person", "name": "Gracie Ohio Jiu-Jitsu Academy" },
       "duration": "PT172S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Escape Side Control Using the Stiff Arm",
-      "description": "Gift Wrap Control (Defender) film study: Escape Side Control Using the Stiff Arm, taught by Jiu Jitsu Five-O.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8fld4XEvXMA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/8fld4XEvXMA",
-      "url": "https://www.youtube.com/watch?v=8fld4XEvXMA",
-      "creator": { "@type": "Person", "name": "Jiu Jitsu Five-O" },
-      "duration": "PT46S"
     }
   ]
 }
@@ -212,14 +201,6 @@ From a systematic perspective, Gift Wrap defense integrates into the broader Kuz
 ![](https://www.youtube.com/watch?v=BJv1DseDv8o)
 
 <p class="clip-credit"><strong>Escaping the Arm Wrap</strong> — taught by Gracie Ohio Jiu-Jitsu Academy · 2:52 · <a href="https://www.youtube.com/watch?v=BJv1DseDv8o" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=8fld4XEvXMA)
-
-<p class="clip-credit"><strong>Escape Side Control Using the Stiff Arm</strong> — taught by Jiu Jitsu Five-O · 0:46 · <a href="https://www.youtube.com/watch?v=8fld4XEvXMA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

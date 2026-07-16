@@ -160,17 +160,6 @@ description: "Defend the Reversal from Leg Knot as the top player. Maintain base
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Leg lock defense basics",
-      "description": "Reversal from Leg Knot (Defender) film study: Leg lock defense basics, taught by Kuwy Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/m0NLphEuFoc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/m0NLphEuFoc",
-      "url": "https://www.youtube.com/watch?v=m0NLphEuFoc",
-      "creator": { "@type": "Person", "name": "Kuwy Jitsu" },
-      "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Leg lock escape: roll through",
       "description": "Reversal from Leg Knot (Defender) film study: Leg lock escape: roll through, taught by Gordon Ryan.",
       "thumbnailUrl": "https://i.ytimg.com/vi/MqtG9kuVt-Q/hqdefault.jpg",
@@ -181,14 +170,14 @@ description: "Defend the Reversal from Leg Knot as the top player. Maintain base
     },
     {
       "@type": "VideoObject",
-      "position": 3,
-      "name": "Leg entanglement defense",
-      "description": "Reversal from Leg Knot (Defender) film study: Leg entanglement defense, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/uZbUhFapIhg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/uZbUhFapIhg",
-      "url": "https://www.youtube.com/watch?v=uZbUhFapIhg",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT163S"
+      "position": 2,
+      "name": "Weave Pass: Don\u0027t Free Your Leg Too Early",
+      "description": "Reversal from Leg Knot (Defender) film study: Weave Pass: Don\u0027t Free Your Leg Too Early, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RRgLRw-fRM0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RRgLRw-fRM0",
+      "url": "https://www.youtube.com/watch?v=RRgLRw-fRM0",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT65S"
     }
   ]
 }
@@ -216,14 +205,6 @@ Defending the Reversal from Leg Knot requires the top player to maintain base aw
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=m0NLphEuFoc)
-
-<p class="clip-credit"><strong>Leg lock defense basics</strong> — taught by Kuwy Jitsu · 1:01 · <a href="https://www.youtube.com/watch?v=m0NLphEuFoc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
 ![](https://www.youtube.com/watch?v=MqtG9kuVt-Q)
 
 <p class="clip-credit"><strong>Leg lock escape: roll through</strong> — taught by Gordon Ryan · 1:43 · <a href="https://www.youtube.com/watch?v=MqtG9kuVt-Q" rel="noopener">Watch on YouTube</a></p>
@@ -232,9 +213,9 @@ Defending the Reversal from Leg Knot requires the top player to maintain base aw
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=uZbUhFapIhg)
+![](https://www.youtube.com/watch?v=RRgLRw-fRM0)
 
-<p class="clip-credit"><strong>Leg entanglement defense</strong> — taught by Craig Jones · 2:43 · <a href="https://www.youtube.com/watch?v=uZbUhFapIhg" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Weave Pass: Don&#39;t Free Your Leg Too Early</strong> — taught by Lachlan Giles · 1:05 · <a href="https://www.youtube.com/watch?v=RRgLRw-fRM0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

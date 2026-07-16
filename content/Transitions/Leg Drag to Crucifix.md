@@ -46,24 +46,35 @@ description: "Master the Leg Drag to Crucifix transition in BJJ. Capitalize on o
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Leg drag to back take pass",
-      "description": "Leg Drag to Crucifix film study: Leg drag to back take pass, taught by Ben.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/4xplJQ-FFvI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/4xplJQ-FFvI",
-      "url": "https://www.youtube.com/watch?v=4xplJQ-FFvI",
-      "creator": { "@type": "Person", "name": "Ben" },
-      "duration": "PT75S"
+      "name": "Crucifix escape against the bulldog choke",
+      "description": "Leg Drag to Crucifix film study: Crucifix escape against the bulldog choke, taught by Mick Hall.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wt2NW_hfTd0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wt2NW_hfTd0",
+      "url": "https://www.youtube.com/watch?v=Wt2NW_hfTd0",
+      "creator": { "@type": "Person", "name": "Mick Hall" },
+      "duration": "PT228S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Arm drag entry to the crucifix",
-      "description": "Leg Drag to Crucifix film study: Arm drag entry to the crucifix, taught by Revolution BJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/uQn6tbgVeGA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/uQn6tbgVeGA",
-      "url": "https://www.youtube.com/watch?v=uQn6tbgVeGA",
-      "creator": { "@type": "Person", "name": "Revolution BJJ" },
-      "duration": "PT57S"
+      "name": "Defending the Leg Drag",
+      "description": "Leg Drag to Crucifix film study: Defending the Leg Drag, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fdq3I6AQvoU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fdq3I6AQvoU",
+      "url": "https://www.youtube.com/watch?v=fdq3I6AQvoU",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT275S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Side Kipping to Defeat the Leg Drag",
+      "description": "Leg Drag to Crucifix film study: Side Kipping to Defeat the Leg Drag, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PeRFLNak-1U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PeRFLNak-1U",
+      "url": "https://www.youtube.com/watch?v=PeRFLNak-1U",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT233S"
     }
   ]
 }
@@ -119,17 +130,25 @@ The technique requires sensitivity to feel when the opponent commits to turning 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=4xplJQ-FFvI)
+![](https://www.youtube.com/watch?v=Wt2NW_hfTd0)
 
-<p class="clip-credit"><strong>Leg drag to back take pass</strong> — taught by Ben · 1:15 · <a href="https://www.youtube.com/watch?v=4xplJQ-FFvI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Crucifix escape against the bulldog choke</strong> — taught by Mick Hall · 3:48 · <a href="https://www.youtube.com/watch?v=Wt2NW_hfTd0" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=uQn6tbgVeGA)
+![](https://www.youtube.com/watch?v=fdq3I6AQvoU)
 
-<p class="clip-credit"><strong>Arm drag entry to the crucifix</strong> — taught by Revolution BJJ · 0:57 · <a href="https://www.youtube.com/watch?v=uQn6tbgVeGA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Defending the Leg Drag</strong> — taught by Priit Mihkelson · 4:35 · <a href="https://www.youtube.com/watch?v=fdq3I6AQvoU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PeRFLNak-1U)
+
+<p class="clip-credit"><strong>Side Kipping to Defeat the Leg Drag</strong> — taught by Brian Glick · 3:53 · <a href="https://www.youtube.com/watch?v=PeRFLNak-1U" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

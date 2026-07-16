@@ -46,24 +46,24 @@ description: "Master the Knee Through pass in BJJ. Systematic half guard passing
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "No-gi shin-to-shin pass with details",
-      "description": "Knee Through film study: No-gi shin-to-shin pass with details, taught by The Base Jiu Jitsu coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/v1-B4vyiASU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/v1-B4vyiASU",
-      "url": "https://www.youtube.com/watch?v=v1-B4vyiASU",
-      "creator": { "@type": "Person", "name": "The Base Jiu Jitsu coach" },
-      "duration": "PT59S"
+      "name": "Shin to shin knee slice pass",
+      "description": "Knee Through film study: Shin to shin knee slice pass, taught by Jake Shields.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zQXG0nOceks/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zQXG0nOceks",
+      "url": "https://www.youtube.com/watch?v=zQXG0nOceks",
+      "creator": { "@type": "Person", "name": "Jake Shields" },
+      "duration": "PT100S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "No-gi shin-to-shin pass variation",
-      "description": "Knee Through film study: No-gi shin-to-shin pass variation, taught by The Base Jiu Jitsu coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/rRCor6OwhCo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/rRCor6OwhCo",
-      "url": "https://www.youtube.com/watch?v=rRCor6OwhCo",
-      "creator": { "@type": "Person", "name": "The Base Jiu Jitsu coach" },
-      "duration": "PT136S"
+      "name": "Knee slice pass to shin staple",
+      "description": "Knee Through film study: Knee slice pass to shin staple, taught by Clark Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wDnDzslTMk8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wDnDzslTMk8",
+      "url": "https://www.youtube.com/watch?v=wDnDzslTMk8",
+      "creator": { "@type": "Person", "name": "Clark Gracie" },
+      "duration": "PT75S"
     }
   ]
 }
@@ -117,17 +117,17 @@ This pass forms the cornerstone of pressure-based passing systems and serves as 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=v1-B4vyiASU)
+![](https://www.youtube.com/watch?v=zQXG0nOceks)
 
-<p class="clip-credit"><strong>No-gi shin-to-shin pass with details</strong> — taught by The Base Jiu Jitsu coach · 0:59 · <a href="https://www.youtube.com/watch?v=v1-B4vyiASU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Shin to shin knee slice pass</strong> — taught by Jake Shields · 1:40 · <a href="https://www.youtube.com/watch?v=zQXG0nOceks" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=rRCor6OwhCo)
+![](https://www.youtube.com/watch?v=wDnDzslTMk8)
 
-<p class="clip-credit"><strong>No-gi shin-to-shin pass variation</strong> — taught by The Base Jiu Jitsu coach · 2:16 · <a href="https://www.youtube.com/watch?v=rRCor6OwhCo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Knee slice pass to shin staple</strong> — taught by Clark Gracie · 1:15 · <a href="https://www.youtube.com/watch?v=wDnDzslTMk8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

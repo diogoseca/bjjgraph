@@ -333,31 +333,22 @@
     ],
     "clips": [
       {
-        "id": "TDBe1SHzHKo",
-        "title": "Finishing the cross collar choke",
+        "id": "3GprqnqZKA4",
+        "title": "Choke details from back control",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "Roger Gracie TV",
+        "duration": 150,
+        "verified": "2026-07-16"
+      },
+      {
+        "id": "T7exag4wRXE",
+        "title": "Bow and arrow finishing detail",
         "by": "Henry Akins",
         "vertical": false,
         "channel": "Henry Akins' Hidden Jiu-Jitsu",
-        "duration": 51,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "xab75xOnHqk",
-        "title": "Bread cutter choke, Roger Gracie style",
-        "by": "Andy Hagans",
-        "vertical": false,
-        "channel": "Guardian Jiu-Jitsu - Holland, Michigan",
-        "duration": 70,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "KE4ulYBSmjY",
-        "title": "Cross collar choke — first hand inside",
-        "by": "Henry Akins",
-        "vertical": false,
-        "channel": "Henry Akins' Hidden Jiu-Jitsu",
-        "duration": 55,
-        "verified": "2026-07-14"
+        "duration": 104,
+        "verified": "2026-07-16"
       }
     ]
   },
@@ -493,15 +484,6 @@
     ],
     "clips": [
       {
-        "id": "6rMCDkWRlgg",
-        "title": "Cross collar choke defense — down and over",
-        "by": "Emil Takeuchi",
-        "vertical": false,
-        "channel": "Six Blades NOVA Emil Takeuchi",
-        "duration": 94,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "kkAVJ3u7THM",
         "title": "Back collar choke escape",
         "by": "Beto Vilanova",
@@ -509,6 +491,15 @@
         "channel": "Beto Vilanova",
         "duration": 166,
         "verified": "2026-07-14"
+      },
+      {
+        "id": "2No7WP3otgI",
+        "title": "Bow and arrow choke defense",
+        "by": "Gracie Ohio Jiu-Jitsu Academy",
+        "vertical": false,
+        "channel": "Gracie Ohio Jiu-Jitsu Academy",
+        "duration": 92,
+        "verified": "2026-07-16"
       }
     ]
   }

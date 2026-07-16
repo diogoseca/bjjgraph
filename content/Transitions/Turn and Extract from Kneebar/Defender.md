@@ -152,8 +152,8 @@ description: "Counter the turn and extract escape from kneebar control. Learn to
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Knee bar escape mechanics",
-      "description": "Turn and Extract from Kneebar (Defender) film study: Knee bar escape mechanics, taught by Tom DeBlass.",
+      "name": "Kneebar escape",
+      "description": "Turn and Extract from Kneebar (Defender) film study: Kneebar escape, taught by Tom DeBlass.",
       "thumbnailUrl": "https://i.ytimg.com/vi/SmyTA2P_RZk/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/SmyTA2P_RZk",
       "url": "https://www.youtube.com/watch?v=SmyTA2P_RZk",
@@ -163,24 +163,13 @@ description: "Counter the turn and extract escape from kneebar control. Learn to
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Kneebar escapes breakdown",
-      "description": "Turn and Extract from Kneebar (Defender) film study: Kneebar escapes breakdown, taught by Dean Lister.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/eoFrZfJBlvw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/eoFrZfJBlvw",
-      "url": "https://www.youtube.com/watch?v=eoFrZfJBlvw",
-      "creator": { "@type": "Person", "name": "Dean Lister" },
-      "duration": "PT158S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Knee bar defense details",
-      "description": "Turn and Extract from Kneebar (Defender) film study: Knee bar defense details, taught by Clark Gracie.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/NHyBpBC4apY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/NHyBpBC4apY",
-      "url": "https://www.youtube.com/watch?v=NHyBpBC4apY",
-      "creator": { "@type": "Person", "name": "Clark Gracie" },
-      "duration": "PT138S"
+      "name": "Kneebar escape to the back",
+      "description": "Turn and Extract from Kneebar (Defender) film study: Kneebar escape to the back, taught by Johnny Tama.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tFEIAqITXtg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tFEIAqITXtg",
+      "url": "https://www.youtube.com/watch?v=tFEIAqITXtg",
+      "creator": { "@type": "Person", "name": "Johnny Tama" },
+      "duration": "PT42S"
     }
   ]
 }
@@ -210,23 +199,15 @@ When your opponent attempts to turn and extract from your kneebar control, your 
 
 ![](https://www.youtube.com/watch?v=SmyTA2P_RZk)
 
-<p class="clip-credit"><strong>Knee bar escape mechanics</strong> — taught by Tom DeBlass · 2:22 · <a href="https://www.youtube.com/watch?v=SmyTA2P_RZk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kneebar escape</strong> — taught by Tom DeBlass · 2:22 · <a href="https://www.youtube.com/watch?v=SmyTA2P_RZk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=eoFrZfJBlvw)
+![](https://www.youtube.com/watch?v=tFEIAqITXtg)
 
-<p class="clip-credit"><strong>Kneebar escapes breakdown</strong> — taught by Dean Lister · 2:38 · <a href="https://www.youtube.com/watch?v=eoFrZfJBlvw" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=NHyBpBC4apY)
-
-<p class="clip-credit"><strong>Knee bar defense details</strong> — taught by Clark Gracie · 2:18 · <a href="https://www.youtube.com/watch?v=NHyBpBC4apY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Kneebar escape to the back</strong> — taught by Johnny Tama · 0:42 · <a href="https://www.youtube.com/watch?v=tFEIAqITXtg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -160,39 +160,6 @@ description: "How to defend against Suloev Stretch in BJJ. Recognition, escape p
 
 
 
-<!-- Schema Markup - VideoObject (curated film-study clips) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Suloev Stretch from Half Guard (Defender) \u2014 Film Study",
-  "itemListElement": [
-    {
-      "@type": "VideoObject",
-      "position": 1,
-      "name": "Defending and escaping the saddle",
-      "description": "Suloev Stretch from Half Guard (Defender) film study: Defending and escaping the saddle, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/CFTLb8iywJg/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/CFTLb8iywJg",
-      "url": "https://www.youtube.com/watch?v=CFTLb8iywJg",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT383S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Inside sankaku (camping) leg entanglement defense",
-      "description": "Suloev Stretch from Half Guard (Defender) film study: Inside sankaku (camping) leg entanglement defense, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/jOhe-ZomxEE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/jOhe-ZomxEE",
-      "url": "https://www.youtube.com/watch?v=jOhe-ZomxEE",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT482S"
-    }
-  ]
-}
-</script>
-
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
@@ -206,32 +173,6 @@ Defending the Suloev Stretch requires early recognition and decisive action, as 
 
 </section>
 
-
-<section id="film-study" class="content-section">
-
-## Film Study
-
-<p class="section-subtitle">Watch Suloev Stretch from Half Guard (Defender) in action — curated instructionals</p>
-
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=CFTLb8iywJg)
-
-<p class="clip-credit"><strong>Defending and escaping the saddle</strong> — taught by Lachlan Giles · 6:23 · <a href="https://www.youtube.com/watch?v=CFTLb8iywJg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=jOhe-ZomxEE)
-
-<p class="clip-credit"><strong>Inside sankaku (camping) leg entanglement defense</strong> — taught by Lachlan Giles · 8:02 · <a href="https://www.youtube.com/watch?v=jOhe-ZomxEE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-
-</section>
 
 
 <section id="recognition-cues" class="content-section">

@@ -171,17 +171,6 @@ description: "How to defend against Lapel to Spider Transition in BJJ. Recogniti
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Spider to X to sweep",
-      "description": "Lapel to Spider Guard (Defender) film study: Spider to X to sweep, taught by BJJ Fanatics.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/m3sByX5CFgI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/m3sByX5CFgI",
-      "url": "https://www.youtube.com/watch?v=m3sByX5CFgI",
-      "creator": { "@type": "Person", "name": "BJJ Fanatics" },
-      "duration": "PT68S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
       "name": "Spider Guard passing",
       "description": "Lapel to Spider Guard (Defender) film study: Spider Guard passing, taught by Christopher Frazier.",
       "thumbnailUrl": "https://i.ytimg.com/vi/w5zek2cOaYA/hqdefault.jpg",
@@ -223,14 +212,6 @@ Successful defense demands recognizing that aggressive forward pressure during t
 ![](https://www.youtube.com/watch?v=J7xuLdBaVeY)
 
 <p class="clip-credit"><strong>Spider Guard Pass (Gi)</strong> — taught by ZombieProofBJJ · 0:41 · <a href="https://www.youtube.com/watch?v=J7xuLdBaVeY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=m3sByX5CFgI)
-
-<p class="clip-credit"><strong>Spider to X to sweep</strong> — taught by BJJ Fanatics · 1:08 · <a href="https://www.youtube.com/watch?v=m3sByX5CFgI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

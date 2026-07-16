@@ -64,17 +64,6 @@ description: "Master the Strip Grip from Zombie in BJJ. Learn systematic grip br
       "url": "https://www.youtube.com/watch?v=g0gKqgv_Bbc",
       "creator": { "@type": "Person", "name": "Eddie Bravo" },
       "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Top Lockdown Turk",
-      "description": "Strip Grip from Zombie film study: Top Lockdown Turk, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lwwIfCAA7Zc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/lwwIfCAA7Zc",
-      "url": "https://www.youtube.com/watch?v=lwwIfCAA7Zc",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT207S"
     }
   ]
 }
@@ -139,14 +128,6 @@ Strip Grip from Zombie represents a critical utility technique in the passing to
 ![](https://www.youtube.com/watch?v=g0gKqgv_Bbc)
 
 <p class="clip-credit"><strong>Eddie Bravo: Lockdown Strategies</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=g0gKqgv_Bbc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=lwwIfCAA7Zc)
-
-<p class="clip-credit"><strong>Top Lockdown Turk</strong> — taught by Craig Jones · 3:27 · <a href="https://www.youtube.com/watch?v=lwwIfCAA7Zc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

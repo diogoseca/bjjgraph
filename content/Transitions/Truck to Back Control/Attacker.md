@@ -203,13 +203,24 @@ description: "Execute the Truck to Back Control transition with precise hook ins
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Back control to Truck",
-      "description": "Truck to Back Control (Attacker) film study: Back control to Truck, taught by Cory Lawson.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/4Rvj7kmPGzA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/4Rvj7kmPGzA",
-      "url": "https://www.youtube.com/watch?v=4Rvj7kmPGzA",
-      "creator": { "@type": "Person", "name": "Cory Lawson" },
-      "duration": "PT165S"
+      "name": "Hug to truck hook back take",
+      "description": "Truck to Back Control (Attacker) film study: Hug to truck hook back take, taught by Garry Tonon.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9r_xDak8dVo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9r_xDak8dVo",
+      "url": "https://www.youtube.com/watch?v=9r_xDak8dVo",
+      "creator": { "@type": "Person", "name": "Garry Tonon" },
+      "duration": "PT80S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Valley of the truck",
+      "description": "Truck to Back Control (Attacker) film study: Valley of the truck, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NXbVjvhC5bQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NXbVjvhC5bQ",
+      "url": "https://www.youtube.com/watch?v=NXbVjvhC5bQ",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT60S"
     }
   ]
 }
@@ -245,9 +256,17 @@ As the attacker executing the Truck to Back Control transition, your objective i
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=4Rvj7kmPGzA)
+![](https://www.youtube.com/watch?v=9r_xDak8dVo)
 
-<p class="clip-credit"><strong>Back control to Truck</strong> — taught by Cory Lawson · 2:45 · <a href="https://www.youtube.com/watch?v=4Rvj7kmPGzA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Hug to truck hook back take</strong> — taught by Garry Tonon · 1:20 · <a href="https://www.youtube.com/watch?v=9r_xDak8dVo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NXbVjvhC5bQ)
+
+<p class="clip-credit"><strong>Valley of the truck</strong> — taught by Eddie Bravo · 1:00 · <a href="https://www.youtube.com/watch?v=NXbVjvhC5bQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

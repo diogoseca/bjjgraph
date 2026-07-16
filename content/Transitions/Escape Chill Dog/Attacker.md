@@ -197,13 +197,13 @@ description: "Master the Chill Dog hip escape to half guard. Learn timing, hip m
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Side Control Escape to Modified Dogfight",
-      "description": "Escape Chill Dog (Attacker) film study: Side Control Escape to Modified Dogfight, taught by Ketchikan Jiu-Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/7_RG40nP5HU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/7_RG40nP5HU",
-      "url": "https://www.youtube.com/watch?v=7_RG40nP5HU",
-      "creator": { "@type": "Person", "name": "Ketchikan Jiu-Jitsu" },
-      "duration": "PT122S"
+      "name": "Breaking down the 10th Planet half guard control",
+      "description": "Escape Chill Dog (Attacker) film study: Breaking down the 10th Planet half guard control, taught by 10th Planet Jiu Jitsu West LA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JZ-h0ohQTvA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JZ-h0ohQTvA",
+      "url": "https://www.youtube.com/watch?v=JZ-h0ohQTvA",
+      "creator": { "@type": "Person", "name": "10th Planet Jiu Jitsu West LA" },
+      "duration": "PT42S"
     }
   ]
 }
@@ -239,9 +239,9 @@ As the attacker executing this escape, you are the bottom player in Chill Dog tu
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=7_RG40nP5HU)
+![](https://www.youtube.com/watch?v=JZ-h0ohQTvA)
 
-<p class="clip-credit"><strong>Side Control Escape to Modified Dogfight</strong> — taught by Ketchikan Jiu-Jitsu · 2:02 · <a href="https://www.youtube.com/watch?v=7_RG40nP5HU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Breaking down the 10th Planet half guard control</strong> — taught by 10th Planet Jiu Jitsu West LA · 0:42 · <a href="https://www.youtube.com/watch?v=JZ-h0ohQTvA" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

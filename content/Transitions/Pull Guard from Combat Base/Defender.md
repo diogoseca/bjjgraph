@@ -152,17 +152,6 @@ description: "Defend against guard pull attempts from combat base in BJJ. Postur
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Posture, structure and base from bottom",
-      "description": "Pull Guard from Combat Base (Defender) film study: Posture, structure and base from bottom, taught by C Lyman.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/kfjUOe0JtwA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/kfjUOe0JtwA",
-      "url": "https://www.youtube.com/watch?v=kfjUOe0JtwA",
-      "creator": { "@type": "Person", "name": "C Lyman" },
-      "duration": "PT67S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "How to Avoid Getting Pulled into Closed Guard",
       "description": "Pull Guard from Combat Base (Defender) film study: How to Avoid Getting Pulled into Closed Guard, taught by Ffion Davies.",
       "thumbnailUrl": "https://i.ytimg.com/vi/njy6DpglJTU/hqdefault.jpg",
@@ -173,7 +162,7 @@ description: "Defend against guard pull attempts from combat base in BJJ. Postur
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 2,
       "name": "Guard Retention and Avoiding the Guard Pull Trap",
       "description": "Pull Guard from Combat Base (Defender) film study: Guard Retention and Avoiding the Guard Pull Trap, taught by Gordon Ryan.",
       "thumbnailUrl": "https://i.ytimg.com/vi/URGwWYwdoAs/hqdefault.jpg",
@@ -205,14 +194,6 @@ As the defender in combat base against a guard pull attempt, your primary object
 
 <p class="section-subtitle">Watch Pull Guard from Combat Base (Defender) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=kfjUOe0JtwA)
-
-<p class="clip-credit"><strong>Posture, structure and base from bottom</strong> — taught by C Lyman · 1:07 · <a href="https://www.youtube.com/watch?v=kfjUOe0JtwA" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

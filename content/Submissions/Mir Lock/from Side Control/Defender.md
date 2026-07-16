@@ -173,17 +173,6 @@ description: "How to defend against Mir Lock in BJJ. Recognition, escape paths, 
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Escape the Americana from Bottom Side Control",
-      "description": "Mir Lock from Side Control (Defender) film study: Escape the Americana from Bottom Side Control, taught by Ante Dzolic.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/geRzv3iwL_w/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/geRzv3iwL_w",
-      "url": "https://www.youtube.com/watch?v=geRzv3iwL_w",
-      "creator": { "@type": "Person", "name": "Ante Dzolic" },
-      "duration": "PT161S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
       "name": "Kimura Defense from Bottom Side Control",
       "description": "Mir Lock from Side Control (Defender) film study: Kimura Defense from Bottom Side Control, taught by Gracie Westchase Coach.",
       "thumbnailUrl": "https://i.ytimg.com/vi/MM9rddEgJ58/hqdefault.jpg",
@@ -222,14 +211,6 @@ Defending the Mir Lock requires early recognition and immediate preventive actio
 ![](https://www.youtube.com/watch?v=FNyL93v5fGs)
 
 <p class="clip-credit"><strong>Defending The Americana Shoulder Lock</strong> — taught by Lachlan Giles · 1:31 · <a href="https://www.youtube.com/watch?v=FNyL93v5fGs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=geRzv3iwL_w)
-
-<p class="clip-credit"><strong>Escape the Americana from Bottom Side Control</strong> — taught by Ante Dzolic · 2:41 · <a href="https://www.youtube.com/watch?v=geRzv3iwL_w" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

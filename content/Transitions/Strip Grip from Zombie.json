@@ -296,15 +296,6 @@
         "channel": "Eddie Bravo",
         "duration": 61,
         "verified": "2026-07-15"
-      },
-      {
-        "id": "lwwIfCAA7Zc",
-        "title": "Top Lockdown Turk",
-        "by": "Craig Jones",
-        "vertical": false,
-        "channel": "BJJ Fanatics",
-        "duration": 207,
-        "verified": "2026-07-15"
       }
     ]
   },
@@ -439,13 +430,22 @@
         "verified": "2026-07-15"
       },
       {
-        "id": "_QTNEn4xasI",
-        "title": "6 Jiu-Jitsu Grip Breaks You Need To Know",
-        "by": "Erika Dawn",
+        "id": "p6M-9BVuWqs",
+        "title": "Dead Orchard finish: clearing the elbow to lock up",
+        "by": "Ben Eddy",
         "vertical": false,
-        "channel": "Erika Dawn",
-        "duration": 267,
-        "verified": "2026-07-15"
+        "channel": "Ben Eddy Bravo",
+        "duration": 79,
+        "verified": "2026-07-16"
+      },
+      {
+        "id": "sMsgoChdaHE",
+        "title": "Quarter Guard concepts and grip retention",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-16"
       }
     ]
   }

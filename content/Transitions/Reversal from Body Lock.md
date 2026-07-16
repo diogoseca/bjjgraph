@@ -64,17 +64,6 @@ description: "Master the Reversal from Body Lock in BJJ. Systematic guide coveri
       "url": "https://www.youtube.com/watch?v=DFXdqByRxNg",
       "creator": { "@type": "Person", "name": "Brian Glick" },
       "duration": "PT318S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Chaining escapes from bottom pin",
-      "description": "Reversal from Body Lock film study: Chaining escapes from bottom pin, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/PARsvWFmssI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/PARsvWFmssI",
-      "url": "https://www.youtube.com/watch?v=PARsvWFmssI",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT273S"
     }
   ]
 }
@@ -139,14 +128,6 @@ Modern no-gi competition has made this reversal essential as body lock control h
 ![](https://www.youtube.com/watch?v=DFXdqByRxNg)
 
 <p class="clip-credit"><strong>Standing rear body lock: counters and reversals</strong> — taught by Brian Glick · 5:18 · <a href="https://www.youtube.com/watch?v=DFXdqByRxNg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=PARsvWFmssI)
-
-<p class="clip-credit"><strong>Chaining escapes from bottom pin</strong> — taught by Gordon Ryan · 4:33 · <a href="https://www.youtube.com/watch?v=PARsvWFmssI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

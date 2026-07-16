@@ -160,17 +160,6 @@ description: "Defend against the Open Guard to De La Riva transition as the top 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Defending the backstep pass to De La Riva",
-      "description": "Open Guard to De La Riva (Defender) film study: Defending the backstep pass to De La Riva, taught by Inverted Gear.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/a3ModDEKY6s/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/a3ModDEKY6s",
-      "url": "https://www.youtube.com/watch?v=a3ModDEKY6s",
-      "creator": { "@type": "Person", "name": "Inverted Gear" },
-      "duration": "PT145S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Defense against a deep De La Riva hook",
       "description": "Open Guard to De La Riva (Defender) film study: Defense against a deep De La Riva hook, taught by Sickness Ferro.",
       "thumbnailUrl": "https://i.ytimg.com/vi/CsBA40bkexk/hqdefault.jpg",
@@ -181,7 +170,7 @@ description: "Defend against the Open Guard to De La Riva transition as the top 
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 2,
       "name": "Over-under pass from De La Riva",
       "description": "Open Guard to De La Riva (Defender) film study: Over-under pass from De La Riva, taught by Carpio Jiu Jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/KvdgeJjclTA/hqdefault.jpg",
@@ -213,14 +202,6 @@ As the top player facing an opponent attempting to establish De La Riva guard fr
 
 <p class="section-subtitle">Watch Open Guard to De La Riva (Defender) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=a3ModDEKY6s)
-
-<p class="clip-credit"><strong>Defending the backstep pass to De La Riva</strong> — taught by Inverted Gear · 2:25 · <a href="https://www.youtube.com/watch?v=a3ModDEKY6s" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

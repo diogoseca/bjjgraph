@@ -157,17 +157,6 @@ description: "How to defend against the Jailbreak entry from top half guard. Rec
       "url": "https://www.youtube.com/watch?v=h26GaRXjSHo",
       "creator": { "@type": "Person", "name": "Revolution Fitness Center" },
       "duration": "PT55S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Dealing with lapel feeds in half guard",
-      "description": "Half Guard to Jailbreak (Defender) film study: Dealing with lapel feeds in half guard, taught by Inverted Gear.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Mw9e-xftPcY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Mw9e-xftPcY",
-      "url": "https://www.youtube.com/watch?v=Mw9e-xftPcY",
-      "creator": { "@type": "Person", "name": "Inverted Gear" },
-      "duration": "PT92S"
     }
   ]
 }
@@ -213,14 +202,6 @@ The highest-percentage defense prevents the entry entirely by stripping or limpi
 ![](https://www.youtube.com/watch?v=h26GaRXjSHo)
 
 <p class="clip-credit"><strong>Counter to the half guard underhook</strong> — taught by Revolution Fitness Center · 0:55 · <a href="https://www.youtube.com/watch?v=h26GaRXjSHo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Mw9e-xftPcY)
-
-<p class="clip-credit"><strong>Dealing with lapel feeds in half guard</strong> — taught by Inverted Gear · 1:32 · <a href="https://www.youtube.com/watch?v=Mw9e-xftPcY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

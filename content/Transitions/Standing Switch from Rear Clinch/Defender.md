@@ -170,17 +170,6 @@ description: "Defend against the Standing Switch from Rear Clinch. Recognition c
       "url": "https://www.youtube.com/watch?v=DFXdqByRxNg",
       "creator": { "@type": "Person", "name": "Brian Glick" },
       "duration": "PT318S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "3 Takedowns from the Rear Body Lock",
-      "description": "Standing Switch from Rear Clinch (Defender) film study: 3 Takedowns from the Rear Body Lock, taught by Nicky Rodriguez.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/coa9MpcPFew/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/coa9MpcPFew",
-      "url": "https://www.youtube.com/watch?v=coa9MpcPFew",
-      "creator": { "@type": "Person", "name": "Nicky Rodriguez" },
-      "duration": "PT312S"
     }
   ]
 }
@@ -219,14 +208,6 @@ As the defender against the Standing Switch, your objective is to maintain your 
 ![](https://www.youtube.com/watch?v=DFXdqByRxNg)
 
 <p class="clip-credit"><strong>Standing Rear Body Lock: Counters, Attacks and Defense</strong> — taught by Brian Glick · 5:18 · <a href="https://www.youtube.com/watch?v=DFXdqByRxNg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=coa9MpcPFew)
-
-<p class="clip-credit"><strong>3 Takedowns from the Rear Body Lock</strong> — taught by Nicky Rodriguez · 5:12 · <a href="https://www.youtube.com/watch?v=coa9MpcPFew" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

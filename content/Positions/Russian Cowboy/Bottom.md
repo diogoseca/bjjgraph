@@ -165,17 +165,6 @@ description: "Defensive guide to escaping Russian Cowboy position. Learn surviva
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Double Deep Hook Submissions from Russian Cowboy",
-      "description": "Russian Cowboy (Bottom) film study: Double Deep Hook Submissions from Russian Cowboy, taught by 10th Planet Rochester.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/kGoEjQMRp3I/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/kGoEjQMRp3I",
-      "url": "https://www.youtube.com/watch?v=kGoEjQMRp3I",
-      "creator": { "@type": "Person", "name": "10th Planet Rochester" },
-      "duration": "PT193S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Counter the truck by flipping it",
       "description": "Russian Cowboy (Bottom) film study: Counter the truck by flipping it, taught by Brandon Mccaghren.",
       "thumbnailUrl": "https://i.ytimg.com/vi/NhxDerwXxSU/hqdefault.jpg",
@@ -186,7 +175,7 @@ description: "Defensive guide to escaping Russian Cowboy position. Learn surviva
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 2,
       "name": "Defending the rolling back take and truck roll",
       "description": "Russian Cowboy (Bottom) film study: Defending the rolling back take and truck roll, taught by Brian Glick.",
       "thumbnailUrl": "https://i.ytimg.com/vi/WEpVDP7MRpo/hqdefault.jpg",
@@ -220,14 +209,6 @@ The defensive hierarchy in Russian Cowboy emphasizes protecting the neck first, 
 
 <p class="section-subtitle">Watch Russian Cowboy (Bottom) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=kGoEjQMRp3I)
-
-<p class="clip-credit"><strong>Double Deep Hook Submissions from Russian Cowboy</strong> — taught by 10th Planet Rochester · 3:13 · <a href="https://www.youtube.com/watch?v=kGoEjQMRp3I" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

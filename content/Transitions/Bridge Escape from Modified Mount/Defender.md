@@ -171,17 +171,6 @@ description: "Defend against the bridge escape from Modified Mount. Learn recogn
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "The 3 Most Important Bottom Mount Escapes",
-      "description": "Bridge Escape from Modified Mount (Defender) film study: The 3 Most Important Bottom Mount Escapes, taught by Ritchie Yip.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/-vj-uNi7CJ4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/-vj-uNi7CJ4",
-      "url": "https://www.youtube.com/watch?v=-vj-uNi7CJ4",
-      "creator": { "@type": "Person", "name": "Ritchie Yip" },
-      "duration": "PT213S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
       "name": "Why the Bridge and Roll Escape Rarely Works",
       "description": "Bridge Escape from Modified Mount (Defender) film study: Why the Bridge and Roll Escape Rarely Works, taught by RVV BJJ.",
       "thumbnailUrl": "https://i.ytimg.com/vi/-3PyGu6d-KA/hqdefault.jpg",
@@ -219,14 +208,6 @@ Defending against the bridge escape from Modified Mount requires anticipating th
 ![](https://www.youtube.com/watch?v=RTMJDbZnFO0)
 
 <p class="clip-credit"><strong>Holding the middle mount against escapes</strong> — taught by SBG PDX · 2:34 · <a href="https://www.youtube.com/watch?v=RTMJDbZnFO0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=-vj-uNi7CJ4)
-
-<p class="clip-credit"><strong>The 3 Most Important Bottom Mount Escapes</strong> — taught by Ritchie Yip · 3:33 · <a href="https://www.youtube.com/watch?v=-vj-uNi7CJ4" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

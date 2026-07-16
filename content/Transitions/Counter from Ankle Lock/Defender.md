@@ -171,13 +171,13 @@ description: "Defend against ankle lock counter attempts. Recognition cues, grip
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Ankle lock defense concepts",
-      "description": "Counter from Ankle Lock (Defender) film study: Ankle lock defense concepts, taught by Daniel de Groot.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/skz-bD0U788/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/skz-bD0U788",
-      "url": "https://www.youtube.com/watch?v=skz-bD0U788",
-      "creator": { "@type": "Person", "name": "Daniel de Groot" },
-      "duration": "PT174S"
+      "name": "Proper ankle lock defense quick tip",
+      "description": "Counter from Ankle Lock (Defender) film study: Proper ankle lock defense quick tip, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yUdB-EJaXgQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yUdB-EJaXgQ",
+      "url": "https://www.youtube.com/watch?v=yUdB-EJaXgQ",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT133S"
     }
   ]
 }
@@ -213,9 +213,9 @@ As the person applying the straight ankle lock, defending against your opponent'
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=skz-bD0U788)
+![](https://www.youtube.com/watch?v=yUdB-EJaXgQ)
 
-<p class="clip-credit"><strong>Ankle lock defense concepts</strong> — taught by Daniel de Groot · 2:54 · <a href="https://www.youtube.com/watch?v=skz-bD0U788" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Proper ankle lock defense quick tip</strong> — taught by Craig Jones · 2:13 · <a href="https://www.youtube.com/watch?v=yUdB-EJaXgQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -57,13 +57,13 @@ description: "Learn North-South Escape in BJJ. Step-by-step execution from North
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Escaping the kesa-gatame pin",
-      "description": "North-South Escape film study: Escaping the kesa-gatame pin, taught by Full Metal Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/O9H8V9BL_b0/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/O9H8V9BL_b0",
-      "url": "https://www.youtube.com/watch?v=O9H8V9BL_b0",
-      "creator": { "@type": "Person", "name": "Full Metal Jiu Jitsu" },
-      "duration": "PT79S"
+      "name": "Escaping switch-base side control pin",
+      "description": "North-South Escape film study: Escaping switch-base side control pin, taught by Renegade BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4WBfhnf2mJI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4WBfhnf2mJI",
+      "url": "https://www.youtube.com/watch?v=4WBfhnf2mJI",
+      "creator": { "@type": "Person", "name": "Renegade BJJ" },
+      "duration": "PT68S"
     }
   ]
 }
@@ -121,9 +121,9 @@ Among the pin escapes every serious bottom player must develop, escaping north-s
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=O9H8V9BL_b0)
+![](https://www.youtube.com/watch?v=4WBfhnf2mJI)
 
-<p class="clip-credit"><strong>Escaping the kesa-gatame pin</strong> — taught by Full Metal Jiu Jitsu · 1:19 · <a href="https://www.youtube.com/watch?v=O9H8V9BL_b0" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escaping switch-base side control pin</strong> — taught by Renegade BJJ · 1:08 · <a href="https://www.youtube.com/watch?v=4WBfhnf2mJI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

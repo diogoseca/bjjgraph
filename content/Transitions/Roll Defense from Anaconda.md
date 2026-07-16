@@ -57,13 +57,13 @@ description: "Master the Roll Defense from Anaconda in BJJ. Counter the anaconda
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Gator Roll to Anaconda Choke Turnover",
-      "description": "Roll Defense from Anaconda film study: Gator Roll to Anaconda Choke Turnover, taught by RoninFit Judo.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/GtMO5BkjpgA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/GtMO5BkjpgA",
-      "url": "https://www.youtube.com/watch?v=GtMO5BkjpgA",
-      "creator": { "@type": "Person", "name": "RoninFit Judo" },
-      "duration": "PT160S"
+      "name": "Anaconda choke defense",
+      "description": "Roll Defense from Anaconda film study: Anaconda choke defense, taught by SFS MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SXm9wA1HcvM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SXm9wA1HcvM",
+      "url": "https://www.youtube.com/watch?v=SXm9wA1HcvM",
+      "creator": { "@type": "Person", "name": "SFS MMA" },
+      "duration": "PT64S"
     }
   ]
 }
@@ -125,9 +125,9 @@ Strategic awareness is essential because this defense exists within a narrow tim
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=GtMO5BkjpgA)
+![](https://www.youtube.com/watch?v=SXm9wA1HcvM)
 
-<p class="clip-credit"><strong>Gator Roll to Anaconda Choke Turnover</strong> — taught by RoninFit Judo · 2:40 · <a href="https://www.youtube.com/watch?v=GtMO5BkjpgA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Anaconda choke defense</strong> — taught by SFS MMA · 1:04 · <a href="https://www.youtube.com/watch?v=SXm9wA1HcvM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -186,17 +186,6 @@ description: "Learn to recover closed guard from Spider Guard as the bottom play
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Guard recovery vs cross face from side control bottom",
-      "description": "Guard Recovery from Spider Guard (Attacker) film study: Guard recovery vs cross face from side control bottom, taught by Academy Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/QH9-1I5XqO4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/QH9-1I5XqO4",
-      "url": "https://www.youtube.com/watch?v=QH9-1I5XqO4",
-      "creator": { "@type": "Person", "name": "Academy Jiu Jitsu" },
-      "duration": "PT105S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Grip chain concept for guard retention and recovery",
       "description": "Guard Recovery from Spider Guard (Attacker) film study: Grip chain concept for guard retention and recovery, taught by Xande Ribeiro.",
       "thumbnailUrl": "https://i.ytimg.com/vi/T_GhZe_MOWI/hqdefault.jpg",
@@ -207,7 +196,7 @@ description: "Learn to recover closed guard from Spider Guard as the bottom play
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 2,
       "name": "Late guard recovery trick when the pass is nearly done",
       "description": "Guard Recovery from Spider Guard (Attacker) film study: Late guard recovery trick when the pass is nearly done, taught by Keenan Cornelius.",
       "thumbnailUrl": "https://i.ytimg.com/vi/1cKr7xJ-0i8/hqdefault.jpg",
@@ -239,14 +228,6 @@ As the bottom player with a compromised spider guard, your primary objective is 
 
 <p class="section-subtitle">Watch Guard Recovery from Spider Guard (Attacker) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=QH9-1I5XqO4)
-
-<p class="clip-credit"><strong>Guard recovery vs cross face from side control bottom</strong> — taught by Academy Jiu Jitsu · 1:45 · <a href="https://www.youtube.com/watch?v=QH9-1I5XqO4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

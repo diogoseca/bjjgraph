@@ -180,24 +180,24 @@ description: "How to execute Lapel to Spider Transition in BJJ. Attacking perspe
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Lapel guard takedown \u2014 1 minute breakdown",
-      "description": "Lapel to Spider Guard (Attacker) film study: Lapel guard takedown \u2014 1 minute breakdown, taught by Legion AJJ.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_iV0LtOiXNY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_iV0LtOiXNY",
-      "url": "https://www.youtube.com/watch?v=_iV0LtOiXNY",
-      "creator": { "@type": "Person", "name": "Legion AJJ" },
-      "duration": "PT64S"
+      "name": "Establishing an aggressive spider guard",
+      "description": "Lapel to Spider Guard (Attacker) film study: Establishing an aggressive spider guard, taught by Johnny Tama.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6gxvSjju4LE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6gxvSjju4LE",
+      "url": "https://www.youtube.com/watch?v=6gxvSjju4LE",
+      "creator": { "@type": "Person", "name": "Johnny Tama" },
+      "duration": "PT59S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Using the lapel to take the back",
-      "description": "Lapel to Spider Guard (Attacker) film study: Using the lapel to take the back, taught by Trapp Martial Arts.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/XstupXvIaOk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/XstupXvIaOk",
-      "url": "https://www.youtube.com/watch?v=XstupXvIaOk",
-      "creator": { "@type": "Person", "name": "Trapp Martial Arts" },
-      "duration": "PT92S"
+      "name": "Lapel sweep to back take from worm guard",
+      "description": "Lapel to Spider Guard (Attacker) film study: Lapel sweep to back take from worm guard, taught by Rafael Mendes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LmKuASuN_Hs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LmKuASuN_Hs",
+      "url": "https://www.youtube.com/watch?v=LmKuASuN_Hs",
+      "creator": { "@type": "Person", "name": "Rafael Mendes" },
+      "duration": "PT55S"
     }
   ]
 }
@@ -231,17 +231,17 @@ This transition is particularly valuable in competition where opponents train sp
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=_iV0LtOiXNY)
+![](https://www.youtube.com/watch?v=6gxvSjju4LE)
 
-<p class="clip-credit"><strong>Lapel guard takedown — 1 minute breakdown</strong> — taught by Legion AJJ · 1:04 · <a href="https://www.youtube.com/watch?v=_iV0LtOiXNY" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Establishing an aggressive spider guard</strong> — taught by Johnny Tama · 0:59 · <a href="https://www.youtube.com/watch?v=6gxvSjju4LE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=XstupXvIaOk)
+![](https://www.youtube.com/watch?v=LmKuASuN_Hs)
 
-<p class="clip-credit"><strong>Using the lapel to take the back</strong> — taught by Trapp Martial Arts · 1:32 · <a href="https://www.youtube.com/watch?v=XstupXvIaOk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Lapel sweep to back take from worm guard</strong> — taught by Rafael Mendes · 0:55 · <a href="https://www.youtube.com/watch?v=LmKuASuN_Hs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

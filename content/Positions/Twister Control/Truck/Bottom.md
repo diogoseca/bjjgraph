@@ -165,17 +165,6 @@ description: "Defensive survival position requiring systematic escape mechanics 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Truck back take vs babybridge defense",
-      "description": "Truck (Bottom) film study: Truck back take vs babybridge defense, taught by Wim Deputter.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/LA-AdwNMGvc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/LA-AdwNMGvc",
-      "url": "https://www.youtube.com/watch?v=LA-AdwNMGvc",
-      "creator": { "@type": "Person", "name": "Wim Deputter" },
-      "duration": "PT162S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Defending the rolling back take (truck roll)",
       "description": "Truck (Bottom) film study: Defending the rolling back take (truck roll), taught by Brian Glick.",
       "thumbnailUrl": "https://i.ytimg.com/vi/WEpVDP7MRpo/hqdefault.jpg",
@@ -183,6 +172,17 @@ description: "Defensive survival position requiring systematic escape mechanics 
       "url": "https://www.youtube.com/watch?v=WEpVDP7MRpo",
       "creator": { "@type": "Person", "name": "Brian Glick" },
       "duration": "PT209S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Advanced Back and Truck Escapes",
+      "description": "Truck (Bottom) film study: Advanced Back and Truck Escapes, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hxMggfwKx-I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hxMggfwKx-I",
+      "url": "https://www.youtube.com/watch?v=hxMggfwKx-I",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
     }
   ]
 }
@@ -212,17 +212,17 @@ The position emerged from wrestling's turk ride and was popularized in BJJ throu
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=LA-AdwNMGvc)
+![](https://www.youtube.com/watch?v=WEpVDP7MRpo)
 
-<p class="clip-credit"><strong>Truck back take vs babybridge defense</strong> — taught by Wim Deputter · 2:42 · <a href="https://www.youtube.com/watch?v=LA-AdwNMGvc" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Defending the rolling back take (truck roll)</strong> — taught by Brian Glick · 3:29 · <a href="https://www.youtube.com/watch?v=WEpVDP7MRpo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=WEpVDP7MRpo)
+![](https://www.youtube.com/watch?v=hxMggfwKx-I)
 
-<p class="clip-credit"><strong>Defending the rolling back take (truck roll)</strong> — taught by Brian Glick · 3:29 · <a href="https://www.youtube.com/watch?v=WEpVDP7MRpo" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Advanced Back and Truck Escapes</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=hxMggfwKx-I" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

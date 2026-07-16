@@ -425,15 +425,6 @@
     ],
     "clips": [
       {
-        "id": "e2KVHXnSh_o",
-        "title": "Countering single leg X with a heel hook",
-        "by": "Charles Allan Price",
-        "vertical": false,
-        "channel": "Charles Allan Price",
-        "duration": 75,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "gwEmeb9RSk4",
         "title": "Single leg X guard sweep defense",
         "by": "Tiger Muay Thai coach",
@@ -441,6 +432,24 @@
         "channel": "Tiger Muay Thai and MMA Training Camp, Phuket, Thailand",
         "duration": 227,
         "verified": "2026-07-15"
+      },
+      {
+        "id": "st2eQddW4J4",
+        "title": "Defending the single leg X position",
+        "by": "Fit 2 Defend Academy",
+        "vertical": false,
+        "channel": "Fit 2 Defend Academy",
+        "duration": 144,
+        "verified": "2026-07-16"
+      },
+      {
+        "id": "LNyXkfENU5c",
+        "title": "X-Guard counter while standing",
+        "by": "Samy Aljamal",
+        "vertical": false,
+        "channel": "FIT Jiu Jitsu Jordan/ Samy Aljamal",
+        "duration": 79,
+        "verified": "2026-07-16"
       }
     ]
   }

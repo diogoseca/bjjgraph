@@ -160,24 +160,24 @@ description: "How to prevent the Hip Escape to Guard in BJJ. Recognition cues, r
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Gift Wrap Escape made simple",
-      "description": "Hip Escape to Guard (Defender) film study: Gift Wrap Escape made simple, taught by Chewjitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/j5y349B6Go8/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/j5y349B6Go8",
-      "url": "https://www.youtube.com/watch?v=j5y349B6Go8",
-      "creator": { "@type": "Person", "name": "Chewjitsu" },
-      "duration": "PT160S"
+      "name": "Escaping side control against a bigger opponent",
+      "description": "Hip Escape to Guard (Defender) film study: Escaping side control against a bigger opponent, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_JPZaIcr90c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_JPZaIcr90c",
+      "url": "https://www.youtube.com/watch?v=_JPZaIcr90c",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT69S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "The First 3 Mount Escapes You Need To Know",
-      "description": "Hip Escape to Guard (Defender) film study: The First 3 Mount Escapes You Need To Know, taught by Brandon McCaghren.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/SYel-mVSMAI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/SYel-mVSMAI",
-      "url": "https://www.youtube.com/watch?v=SYel-mVSMAI",
-      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
-      "duration": "PT285S"
+      "name": "Mount escape: the knee elbow hip escape",
+      "description": "Hip Escape to Guard (Defender) film study: Mount escape: the knee elbow hip escape, taught by Unknown coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/B3L865Q8P1U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/B3L865Q8P1U",
+      "url": "https://www.youtube.com/watch?v=B3L865Q8P1U",
+      "creator": { "@type": "Person", "name": "Unknown coach" },
+      "duration": "PT82S"
     }
   ]
 }
@@ -209,17 +209,17 @@ Your positional advantage is substantial but requires active maintenance. Static
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=j5y349B6Go8)
+![](https://www.youtube.com/watch?v=_JPZaIcr90c)
 
-<p class="clip-credit"><strong>Gift Wrap Escape made simple</strong> — taught by Chewjitsu · 2:40 · <a href="https://www.youtube.com/watch?v=j5y349B6Go8" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escaping side control against a bigger opponent</strong> — taught by Matt Arroyo · 1:09 · <a href="https://www.youtube.com/watch?v=_JPZaIcr90c" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=SYel-mVSMAI)
+![](https://www.youtube.com/watch?v=B3L865Q8P1U)
 
-<p class="clip-credit"><strong>The First 3 Mount Escapes You Need To Know</strong> — taught by Brandon McCaghren · 4:45 · <a href="https://www.youtube.com/watch?v=SYel-mVSMAI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Mount escape: the knee elbow hip escape</strong> — taught by Unknown coach · 1:22 · <a href="https://www.youtube.com/watch?v=B3L865Q8P1U" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -171,13 +171,24 @@ description: "How to defend against Rotate to Carni in BJJ. Recognition cues, de
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Omoplata defense and counter",
-      "description": "Rotate to Carni (Defender) film study: Omoplata defense and counter, taught by Off the Wall Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Lo4xGcHQcbI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Lo4xGcHQcbI",
-      "url": "https://www.youtube.com/watch?v=Lo4xGcHQcbI",
-      "creator": { "@type": "Person", "name": "Off the Wall Jiu Jitsu" },
-      "duration": "PT125S"
+      "name": "Simple but risky rubber guard escape",
+      "description": "Rotate to Carni (Defender) film study: Simple but risky rubber guard escape, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AvivOVuYcCk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AvivOVuYcCk",
+      "url": "https://www.youtube.com/watch?v=AvivOVuYcCk",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT131S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Troubleshooting the Lockdown from rubber guard",
+      "description": "Rotate to Carni (Defender) film study: Troubleshooting the Lockdown from rubber guard, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FkthdKIbacI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FkthdKIbacI",
+      "url": "https://www.youtube.com/watch?v=FkthdKIbacI",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
     }
   ]
 }
@@ -215,9 +226,17 @@ The most effective defensive strategy is prevention rather than reaction. By mai
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Lo4xGcHQcbI)
+![](https://www.youtube.com/watch?v=AvivOVuYcCk)
 
-<p class="clip-credit"><strong>Omoplata defense and counter</strong> — taught by Off the Wall Jiu Jitsu · 2:05 · <a href="https://www.youtube.com/watch?v=Lo4xGcHQcbI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Simple but risky rubber guard escape</strong> — taught by BJJ4Breakfast · 2:11 · <a href="https://www.youtube.com/watch?v=AvivOVuYcCk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FkthdKIbacI)
+
+<p class="clip-credit"><strong>Troubleshooting the Lockdown from rubber guard</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=FkthdKIbacI" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

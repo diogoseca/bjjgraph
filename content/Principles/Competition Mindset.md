@@ -195,17 +195,6 @@ description: "Master psychological preparation and mental skills for peak compet
       "url": "https://www.youtube.com/watch?v=1MmBdy70dN0",
       "creator": { "@type": "Person", "name": "Gordon Ryan" },
       "duration": "PT700S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "The psychology of competing in jiu-jitsu",
-      "description": "Competition Mindset film study: The psychology of competing in jiu-jitsu, taught by Craig Jones.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/93rttFeRh9s/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/93rttFeRh9s",
-      "url": "https://www.youtube.com/watch?v=93rttFeRh9s",
-      "creator": { "@type": "Person", "name": "Craig Jones" },
-      "duration": "PT766S"
     }
   ]
 }
@@ -243,14 +232,6 @@ Of the three pillars of competitive readiness—technical, physical, and mental�
 ![](https://www.youtube.com/watch?v=1MmBdy70dN0)
 
 <p class="clip-credit"><strong>Mental preparation for matches and tournaments</strong> — taught by Gordon Ryan · 11:40 · <a href="https://www.youtube.com/watch?v=1MmBdy70dN0" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=93rttFeRh9s)
-
-<p class="clip-credit"><strong>The psychology of competing in jiu-jitsu</strong> — taught by Craig Jones · 12:46 · <a href="https://www.youtube.com/watch?v=93rttFeRh9s" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

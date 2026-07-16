@@ -47,17 +47,6 @@ description: "Master the Half Guard to Leg Weave entry in BJJ. Thread your knee 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "High step out of half guard",
-      "description": "Half Guard to Leg Weave film study: High step out of half guard, taught by Hellfish MMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/agDvokcjm5o/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/agDvokcjm5o",
-      "url": "https://www.youtube.com/watch?v=agDvokcjm5o",
-      "creator": { "@type": "Person", "name": "Hellfish MMA" },
-      "duration": "PT88S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "The most basic half guard pass, no-gi",
       "description": "Half Guard to Leg Weave film study: The most basic half guard pass, no-gi, taught by Danny Mitchell.",
       "thumbnailUrl": "https://i.ytimg.com/vi/_XjuF0no1Uw/hqdefault.jpg",
@@ -68,7 +57,7 @@ description: "Master the Half Guard to Leg Weave entry in BJJ. Thread your knee 
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 2,
       "name": "Passing knee shield with the leg weave pass",
       "description": "Half Guard to Leg Weave film study: Passing knee shield with the leg weave pass, taught by BJJ4Breakfast.",
       "thumbnailUrl": "https://i.ytimg.com/vi/4LIBFmas-oE/hqdefault.jpg",
@@ -129,14 +118,6 @@ This entry is a centerpiece of modern half guard passing systems taught by passe
 
 <p class="section-subtitle">Watch Half Guard to Leg Weave in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=agDvokcjm5o)
-
-<p class="clip-credit"><strong>High step out of half guard</strong> — taught by Hellfish MMA · 1:28 · <a href="https://www.youtube.com/watch?v=agDvokcjm5o" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

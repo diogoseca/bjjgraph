@@ -178,17 +178,6 @@ description: "How to defend against Kimura from Back in BJJ. Recognition cues, d
       "url": "https://www.youtube.com/watch?v=TuaopPUakM8",
       "creator": { "@type": "Person", "name": "Eddie Kone Academy" },
       "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Three ways to defend the back take",
-      "description": "Kimura from Back (Defender) film study: Three ways to defend the back take, taught by Roberto Cyborg Abreu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/OltjLaTW3wQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/OltjLaTW3wQ",
-      "url": "https://www.youtube.com/watch?v=OltjLaTW3wQ",
-      "creator": { "@type": "Person", "name": "Roberto Cyborg Abreu" },
-      "duration": "PT89S"
     }
   ]
 }
@@ -231,14 +220,6 @@ Advanced defenders recognize that the best defense begins before the kimura is f
 ![](https://www.youtube.com/watch?v=TuaopPUakM8)
 
 <p class="clip-credit"><strong>Defending the kimura</strong> — taught by Eddie Kone Academy · 1:01 · <a href="https://www.youtube.com/watch?v=TuaopPUakM8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=OltjLaTW3wQ)
-
-<p class="clip-credit"><strong>Three ways to defend the back take</strong> — taught by Roberto Cyborg Abreu · 1:29 · <a href="https://www.youtube.com/watch?v=OltjLaTW3wQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

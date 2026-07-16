@@ -163,17 +163,6 @@ description: "Learn to defend and counter the Crossface from Dogfight in BJJ. Re
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Side control escape to modified dogfight",
-      "description": "Crossface from Dogfight (Defender) film study: Side control escape to modified dogfight, taught by Ketchikan Jiu-Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/7_RG40nP5HU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/7_RG40nP5HU",
-      "url": "https://www.youtube.com/watch?v=7_RG40nP5HU",
-      "creator": { "@type": "Person", "name": "Ketchikan Jiu-Jitsu" },
-      "duration": "PT122S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
       "name": "Standing up to reach over the whizzer",
       "description": "Crossface from Dogfight (Defender) film study: Standing up to reach over the whizzer, taught by John Beresford.",
       "thumbnailUrl": "https://i.ytimg.com/vi/mjOUm-T1Rr0/hqdefault.jpg",
@@ -211,14 +200,6 @@ As the defender against the Crossface from Dogfight, your primary objective is t
 ![](https://www.youtube.com/watch?v=GE3rFdjxA-M)
 
 <p class="clip-credit"><strong>Dog fight counter</strong> — taught by Cauliflower Ear Family · 3:14 · <a href="https://www.youtube.com/watch?v=GE3rFdjxA-M" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=7_RG40nP5HU)
-
-<p class="clip-credit"><strong>Side control escape to modified dogfight</strong> — taught by Ketchikan Jiu-Jitsu · 2:02 · <a href="https://www.youtube.com/watch?v=7_RG40nP5HU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -144,35 +144,13 @@ description: "Defend against the sit-out escape from side control in BJJ. Recogn
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Escaping side control vs a bigger opponent",
-      "description": "Sit Out from Side Control (Defender) film study: Escaping side control vs a bigger opponent, taught by Matt Arroyo.",
+      "name": "Side control escape vs a bigger stronger opponent",
+      "description": "Sit Out from Side Control (Defender) film study: Side control escape vs a bigger stronger opponent, taught by Matt Arroyo.",
       "thumbnailUrl": "https://i.ytimg.com/vi/_JPZaIcr90c/hqdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/_JPZaIcr90c",
       "url": "https://www.youtube.com/watch?v=_JPZaIcr90c",
       "creator": { "@type": "Person", "name": "Matt Arroyo" },
       "duration": "PT69S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Simple and Effective Side Control Escape",
-      "description": "Sit Out from Side Control (Defender) film study: Simple and Effective Side Control Escape, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/R4-4wiHam98/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/R4-4wiHam98",
-      "url": "https://www.youtube.com/watch?v=R4-4wiHam98",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT322S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Elbow Push and Sit Up Escape vs Side Control",
-      "description": "Sit Out from Side Control (Defender) film study: Elbow Push and Sit Up Escape vs Side Control, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/pAaQ-PSIfuw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/pAaQ-PSIfuw",
-      "url": "https://www.youtube.com/watch?v=pAaQ-PSIfuw",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT301S"
     }
   ]
 }
@@ -202,23 +180,7 @@ As the top player in side control, defending against the sit-out requires recogn
 
 ![](https://www.youtube.com/watch?v=_JPZaIcr90c)
 
-<p class="clip-credit"><strong>Escaping side control vs a bigger opponent</strong> — taught by Matt Arroyo · 1:09 · <a href="https://www.youtube.com/watch?v=_JPZaIcr90c" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=R4-4wiHam98)
-
-<p class="clip-credit"><strong>Simple and Effective Side Control Escape</strong> — taught by Gordon Ryan · 5:22 · <a href="https://www.youtube.com/watch?v=R4-4wiHam98" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=pAaQ-PSIfuw)
-
-<p class="clip-credit"><strong>Elbow Push and Sit Up Escape vs Side Control</strong> — taught by Marcelo Garcia · 5:01 · <a href="https://www.youtube.com/watch?v=pAaQ-PSIfuw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Side control escape vs a bigger stronger opponent</strong> — taught by Matt Arroyo · 1:09 · <a href="https://www.youtube.com/watch?v=_JPZaIcr90c" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

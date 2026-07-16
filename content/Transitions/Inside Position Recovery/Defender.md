@@ -160,17 +160,6 @@ description: "How to defend against Inside Position Recovery in BJJ. Maintain le
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "50/50 defense: protecting your leg",
-      "description": "Inside Position Recovery (Defender) film study: 50/50 defense: protecting your leg, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/R7lPdQWLOus/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/R7lPdQWLOus",
-      "url": "https://www.youtube.com/watch?v=R7lPdQWLOus",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT161S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Passing the Knee Shield",
       "description": "Inside Position Recovery (Defender) film study: Passing the Knee Shield, taught by Xande Ribeiro.",
       "thumbnailUrl": "https://i.ytimg.com/vi/YOtbjz8qBDI/hqdefault.jpg",
@@ -181,7 +170,7 @@ description: "How to defend against Inside Position Recovery in BJJ. Maintain le
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 2,
       "name": "Toreando Pass with Leg Drag",
       "description": "Inside Position Recovery (Defender) film study: Toreando Pass with Leg Drag, taught by Lachlan Giles.",
       "thumbnailUrl": "https://i.ytimg.com/vi/1l5WTjjtrF4/hqdefault.jpg",
@@ -215,14 +204,6 @@ Your defensive strategy centers on constant forward pressure through your should
 
 <p class="section-subtitle">Watch Inside Position Recovery (Defender) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=R7lPdQWLOus)
-
-<p class="clip-credit"><strong>50/50 defense: protecting your leg</strong> — taught by Lachlan Giles · 2:41 · <a href="https://www.youtube.com/watch?v=R7lPdQWLOus" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

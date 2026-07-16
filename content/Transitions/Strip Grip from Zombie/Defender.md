@@ -163,13 +163,24 @@ description: "Learn to defend against grip stripping from Zombie bottom. Maintai
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "6 Jiu-Jitsu Grip Breaks You Need To Know",
-      "description": "Strip Grip from Zombie (Defender) film study: 6 Jiu-Jitsu Grip Breaks You Need To Know, taught by Erika Dawn.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_QTNEn4xasI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_QTNEn4xasI",
-      "url": "https://www.youtube.com/watch?v=_QTNEn4xasI",
-      "creator": { "@type": "Person", "name": "Erika Dawn" },
-      "duration": "PT267S"
+      "name": "Dead Orchard finish: clearing the elbow to lock up",
+      "description": "Strip Grip from Zombie (Defender) film study: Dead Orchard finish: clearing the elbow to lock up, taught by Ben Eddy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/p6M-9BVuWqs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/p6M-9BVuWqs",
+      "url": "https://www.youtube.com/watch?v=p6M-9BVuWqs",
+      "creator": { "@type": "Person", "name": "Ben Eddy" },
+      "duration": "PT79S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Quarter Guard concepts and grip retention",
+      "description": "Strip Grip from Zombie (Defender) film study: Quarter Guard concepts and grip retention, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sMsgoChdaHE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sMsgoChdaHE",
+      "url": "https://www.youtube.com/watch?v=sMsgoChdaHE",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
     }
   ]
 }
@@ -205,9 +216,17 @@ As the defender in the Strip Grip from Zombie scenario, you are the bottom playe
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=_QTNEn4xasI)
+![](https://www.youtube.com/watch?v=p6M-9BVuWqs)
 
-<p class="clip-credit"><strong>6 Jiu-Jitsu Grip Breaks You Need To Know</strong> — taught by Erika Dawn · 4:27 · <a href="https://www.youtube.com/watch?v=_QTNEn4xasI" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Dead Orchard finish: clearing the elbow to lock up</strong> — taught by Ben Eddy · 1:19 · <a href="https://www.youtube.com/watch?v=p6M-9BVuWqs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sMsgoChdaHE)
+
+<p class="clip-credit"><strong>Quarter Guard concepts and grip retention</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=sMsgoChdaHE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

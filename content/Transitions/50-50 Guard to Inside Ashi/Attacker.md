@@ -198,17 +198,6 @@ description: "How to execute 50-50 Guard to Inside Ashi in BJJ. Attacking perspe
       "url": "https://www.youtube.com/watch?v=dOEX17DEGgg",
       "creator": { "@type": "Person", "name": "Grapple Factory coach" },
       "duration": "PT84S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "3 paths to backside 50/50 from single leg X",
-      "description": "50-50 Guard to Inside Ashi (Attacker) film study: 3 paths to backside 50/50 from single leg X, taught by Gustavo Gomes Firmino.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/yT3euuWRWXw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/yT3euuWRWXw",
-      "url": "https://www.youtube.com/watch?v=yT3euuWRWXw",
-      "creator": { "@type": "Person", "name": "Gustavo Gomes Firmino" },
-      "duration": "PT56S"
     }
   ]
 }
@@ -251,14 +240,6 @@ This transition is particularly valuable against opponents who play defensive 50
 ![](https://www.youtube.com/watch?v=dOEX17DEGgg)
 
 <p class="clip-credit"><strong>50/50 to cross ashi: controlling the leg</strong> — taught by Grapple Factory coach · 1:24 · <a href="https://www.youtube.com/watch?v=dOEX17DEGgg" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=yT3euuWRWXw)
-
-<p class="clip-credit"><strong>3 paths to backside 50/50 from single leg X</strong> — taught by Gustavo Gomes Firmino · 0:56 · <a href="https://www.youtube.com/watch?v=yT3euuWRWXw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

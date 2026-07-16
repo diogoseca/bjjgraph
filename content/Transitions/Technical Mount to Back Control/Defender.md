@@ -171,17 +171,6 @@ description: "Defend the Technical Mount to Back Control transition in BJJ. Reco
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "How to not get mounted when escaping the back",
-      "description": "Technical Mount to Back Control (Defender) film study: How to not get mounted when escaping the back, taught by Henry Akins.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/bhkb4ItZQno/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/bhkb4ItZQno",
-      "url": "https://www.youtube.com/watch?v=bhkb4ItZQno",
-      "creator": { "@type": "Person", "name": "Henry Akins" },
-      "duration": "PT131S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
       "name": "Back mount defense",
       "description": "Technical Mount to Back Control (Defender) film study: Back mount defense, taught by Marcelo Alonso.",
       "thumbnailUrl": "https://i.ytimg.com/vi/1dymN5AbYhM/hqdefault.jpg",
@@ -219,14 +208,6 @@ From the defender's perspective, preventing the Technical Mount to Back Control 
 ![](https://www.youtube.com/watch?v=NHrpJdU8wCQ)
 
 <p class="clip-credit"><strong>Technical mount escape out the back</strong> — taught by smallmanbjj · 0:58 · <a href="https://www.youtube.com/watch?v=NHrpJdU8wCQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=bhkb4ItZQno)
-
-<p class="clip-credit"><strong>How to not get mounted when escaping the back</strong> — taught by Henry Akins · 2:11 · <a href="https://www.youtube.com/watch?v=bhkb4ItZQno" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

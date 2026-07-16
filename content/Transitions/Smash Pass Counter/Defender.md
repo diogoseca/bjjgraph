@@ -178,17 +178,6 @@ description: "How to defend against Smash Pass Counter in BJJ. Recognition cues,
       "url": "https://www.youtube.com/watch?v=UoJul9UvRao",
       "creator": { "@type": "Person", "name": "Cameron Florczak" },
       "duration": "PT66S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Countering the double over smash pass",
-      "description": "Smash Pass Counter (Defender) film study: Countering the double over smash pass, taught by Brazilian Jiu-Jitsu \u0026 Submission Grappling.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8YxAYfWINeQ/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/8YxAYfWINeQ",
-      "url": "https://www.youtube.com/watch?v=8YxAYfWINeQ",
-      "creator": { "@type": "Person", "name": "Brazilian Jiu-Jitsu \u0026 Submission Grappling" },
-      "duration": "PT164S"
     }
   ]
 }
@@ -231,14 +220,6 @@ The defender must balance between maintaining the lapel wrap tension that provid
 ![](https://www.youtube.com/watch?v=UoJul9UvRao)
 
 <p class="clip-credit"><strong>Denying the straight arm guard retention pass</strong> — taught by Cameron Florczak · 1:06 · <a href="https://www.youtube.com/watch?v=UoJul9UvRao" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=8YxAYfWINeQ)
-
-<p class="clip-credit"><strong>Countering the double over smash pass</strong> — taught by Brazilian Jiu-Jitsu &amp; Submission Grappling · 2:44 · <a href="https://www.youtube.com/watch?v=8YxAYfWINeQ" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

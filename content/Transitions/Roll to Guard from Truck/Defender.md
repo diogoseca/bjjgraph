@@ -152,24 +152,13 @@ description: "Defend against the Roll to Guard escape from Truck top position. R
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Countering the Truck by Flipping It",
-      "description": "Roll to Guard from Truck (Defender) film study: Countering the Truck by Flipping It, taught by Brandon McCaghren.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/NhxDerwXxSU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/NhxDerwXxSU",
-      "url": "https://www.youtube.com/watch?v=NhxDerwXxSU",
-      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
-      "duration": "PT640S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Truck Escape",
-      "description": "Roll to Guard from Truck (Defender) film study: Truck Escape, taught by Elevate MMA Academy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/TSUbl6HmLiw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/TSUbl6HmLiw",
-      "url": "https://www.youtube.com/watch?v=TSUbl6HmLiw",
-      "creator": { "@type": "Person", "name": "Elevate MMA Academy" },
-      "duration": "PT182S"
+      "name": "MTS 178: The Truck In Transition",
+      "description": "Roll to Guard from Truck (Defender) film study: MTS 178: The Truck In Transition, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sCBGkcJCQYY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sCBGkcJCQYY",
+      "url": "https://www.youtube.com/watch?v=sCBGkcJCQYY",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
     }
   ]
 }
@@ -197,17 +186,9 @@ As the defender in the Roll to Guard from Truck, you are the top player maintain
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=NhxDerwXxSU)
+![](https://www.youtube.com/watch?v=sCBGkcJCQYY)
 
-<p class="clip-credit"><strong>Countering the Truck by Flipping It</strong> — taught by Brandon McCaghren · 10:40 · <a href="https://www.youtube.com/watch?v=NhxDerwXxSU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=TSUbl6HmLiw)
-
-<p class="clip-credit"><strong>Truck Escape</strong> — taught by Elevate MMA Academy · 3:02 · <a href="https://www.youtube.com/watch?v=TSUbl6HmLiw" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>MTS 178: The Truck In Transition</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=sCBGkcJCQYY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

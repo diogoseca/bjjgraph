@@ -171,24 +171,24 @@ description: "How to defend against Roll to Turtle in BJJ. Recognition cues, cou
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Front Headlock and Turtle Escapes",
-      "description": "Roll to Turtle (Defender) film study: Front Headlock and Turtle Escapes, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/JX0HL0WpYPs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/JX0HL0WpYPs",
-      "url": "https://www.youtube.com/watch?v=JX0HL0WpYPs",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT478S"
+      "name": "Turtle Escape (Easy Mode)",
+      "description": "Roll to Turtle (Defender) film study: Turtle Escape (Easy Mode), taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NlYTjPd6Uzo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NlYTjPd6Uzo",
+      "url": "https://www.youtube.com/watch?v=NlYTjPd6Uzo",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT104S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Turtle Cheat Code: Shutting Down Back Takes",
-      "description": "Roll to Turtle (Defender) film study: Turtle Cheat Code: Shutting Down Back Takes, taught by Stephan Kesting.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/pmz1ID3VgGU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/pmz1ID3VgGU",
-      "url": "https://www.youtube.com/watch?v=pmz1ID3VgGU",
-      "creator": { "@type": "Person", "name": "Stephan Kesting" },
-      "duration": "PT327S"
+      "name": "Turtle Escape \u0026 Back-Exposure System",
+      "description": "Roll to Turtle (Defender) film study: Turtle Escape \u0026 Back-Exposure System, taught by Jozef Chen.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ft6OyIZ6vPs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ft6OyIZ6vPs",
+      "url": "https://www.youtube.com/watch?v=Ft6OyIZ6vPs",
+      "creator": { "@type": "Person", "name": "Jozef Chen" },
+      "duration": "PT149S"
     }
   ]
 }
@@ -226,17 +226,17 @@ The critical defensive window occurs between the moment your opponent initiates 
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=JX0HL0WpYPs)
+![](https://www.youtube.com/watch?v=NlYTjPd6Uzo)
 
-<p class="clip-credit"><strong>Front Headlock and Turtle Escapes</strong> — taught by Gordon Ryan · 7:58 · <a href="https://www.youtube.com/watch?v=JX0HL0WpYPs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Turtle Escape (Easy Mode)</strong> — taught by Henry Akins · 1:44 · <a href="https://www.youtube.com/watch?v=NlYTjPd6Uzo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=pmz1ID3VgGU)
+![](https://www.youtube.com/watch?v=Ft6OyIZ6vPs)
 
-<p class="clip-credit"><strong>Turtle Cheat Code: Shutting Down Back Takes</strong> — taught by Stephan Kesting · 5:27 · <a href="https://www.youtube.com/watch?v=pmz1ID3VgGU" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Turtle Escape &amp; Back-Exposure System</strong> — taught by Jozef Chen · 2:29 · <a href="https://www.youtube.com/watch?v=Ft6OyIZ6vPs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

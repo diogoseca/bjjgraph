@@ -197,17 +197,6 @@ description: "Master reestablishing Side Control from Jailbreak as the top playe
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Side Control Escape to Jailbreak",
-      "description": "Reestablish Side Control from Jailbreak (Attacker) film study: Side Control Escape to Jailbreak, taught by Fenrir Thorvaldsen.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/bzGzC73h4-A/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/bzGzC73h4-A",
-      "url": "https://www.youtube.com/watch?v=bzGzC73h4-A",
-      "creator": { "@type": "Person", "name": "Fenrir Thorvaldsen" },
-      "duration": "PT229S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
       "name": "Drilling the Half Guard Jailbreak Sweep",
       "description": "Reestablish Side Control from Jailbreak (Attacker) film study: Drilling the Half Guard Jailbreak Sweep, taught by JitzLive coach.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ES1pJ1tE4WY/hqdefault.jpg",
@@ -245,14 +234,6 @@ As the top player in Jailbreak, your objective is to recognize and shut down the
 ![](https://www.youtube.com/watch?v=N4MK2oNSJCs)
 
 <p class="clip-credit"><strong>Sit out to reestablish side control vs elbow escape</strong> — taught by Paul McVeigh · 1:08 · <a href="https://www.youtube.com/watch?v=N4MK2oNSJCs" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=bzGzC73h4-A)
-
-<p class="clip-credit"><strong>Side Control Escape to Jailbreak</strong> — taught by Fenrir Thorvaldsen · 3:49 · <a href="https://www.youtube.com/watch?v=bzGzC73h4-A" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

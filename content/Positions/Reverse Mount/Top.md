@@ -159,17 +159,6 @@ description: "Master Reverse Mount position in BJJ. Learn transitional control m
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Back Crucifix Control - Fall Back vs Fall Forward",
-      "description": "Reverse Mount (Top) film study: Back Crucifix Control - Fall Back vs Fall Forward, taught by John Danaher.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/npUrHml3hHk/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/npUrHml3hHk",
-      "url": "https://www.youtube.com/watch?v=npUrHml3hHk",
-      "creator": { "@type": "Person", "name": "John Danaher" },
-      "duration": "PT193S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
       "name": "The Knee Drop Technique",
       "description": "Reverse Mount (Top) film study: The Knee Drop Technique, taught by John Danaher.",
       "thumbnailUrl": "https://i.ytimg.com/vi/GJJEZjzzGBw/hqdefault.jpg",
@@ -212,14 +201,6 @@ The position's main strategic value is as a stepping stone rather than a destina
 ![](https://www.youtube.com/watch?v=aQ2vFXXBn-o)
 
 <p class="clip-credit"><strong>Countering a full inversion</strong> — taught by Gordon Ryan · 1:01 · <a href="https://www.youtube.com/watch?v=aQ2vFXXBn-o" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=npUrHml3hHk)
-
-<p class="clip-credit"><strong>Back Crucifix Control - Fall Back vs Fall Forward</strong> — taught by John Danaher · 3:13 · <a href="https://www.youtube.com/watch?v=npUrHml3hHk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

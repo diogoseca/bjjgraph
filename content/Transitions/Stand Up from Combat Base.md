@@ -64,17 +64,6 @@ description: "Master the stand up from combat base in BJJ. Complete guide to saf
       "url": "https://www.youtube.com/watch?v=gkbiBCuP9AM",
       "creator": { "@type": "Person", "name": "CORE MMA" },
       "duration": "PT72S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "How to get to combat base",
-      "description": "Stand Up from Combat Base film study: How to get to combat base, taught by Myopinionin5.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/vp3roMWi0dc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/vp3roMWi0dc",
-      "url": "https://www.youtube.com/watch?v=vp3roMWi0dc",
-      "creator": { "@type": "Person", "name": "Myopinionin5" },
-      "duration": "PT120S"
     }
   ]
 }
@@ -139,14 +128,6 @@ This transition is most effective when the opponent creates distance with their 
 ![](https://www.youtube.com/watch?v=gkbiBCuP9AM)
 
 <p class="clip-credit"><strong>Sit-up to combat base fundamentals</strong> — taught by CORE MMA · 1:12 · <a href="https://www.youtube.com/watch?v=gkbiBCuP9AM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=vp3roMWi0dc)
-
-<p class="clip-credit"><strong>How to get to combat base</strong> — taught by Myopinionin5 · 2:00 · <a href="https://www.youtube.com/watch?v=vp3roMWi0dc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

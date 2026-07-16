@@ -46,35 +46,24 @@ description: "Learn posture recovery from diamond guard in BJJ. Systematic appro
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "High guard to dead orchid variation",
-      "description": "Posture Recovery from Diamond Guard film study: High guard to dead orchid variation, taught by Moncaio Brothers Jiujitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/-fudB_l1Sbc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/-fudB_l1Sbc",
-      "url": "https://www.youtube.com/watch?v=-fudB_l1Sbc",
-      "creator": { "@type": "Person", "name": "Moncaio Brothers Jiujitsu" },
-      "duration": "PT37S"
+      "name": "Keeping head control and clinch in rubber guard",
+      "description": "Posture Recovery from Diamond Guard film study: Keeping head control and clinch in rubber guard, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hEB4I3n9HQo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hEB4I3n9HQo",
+      "url": "https://www.youtube.com/watch?v=hEB4I3n9HQo",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT312S"
     },
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Mount escape: diamond guard to closed guard",
-      "description": "Posture Recovery from Diamond Guard film study: Mount escape: diamond guard to closed guard, taught by Rockstar Martial Arts.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/11RfpxSG_uA/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/11RfpxSG_uA",
-      "url": "https://www.youtube.com/watch?v=11RfpxSG_uA",
-      "creator": { "@type": "Person", "name": "Rockstar Martial Arts" },
-      "duration": "PT104S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Diamond guard setup and two attacks",
-      "description": "Posture Recovery from Diamond Guard film study: Diamond guard setup and two attacks, taught by Caron Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/oqR6MLjUrd4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/oqR6MLjUrd4",
-      "url": "https://www.youtube.com/watch?v=oqR6MLjUrd4",
-      "creator": { "@type": "Person", "name": "Caron Jiu Jitsu" },
-      "duration": "PT252S"
+      "name": "Rubber guard theory: retaining the clinch",
+      "description": "Posture Recovery from Diamond Guard film study: Rubber guard theory: retaining the clinch, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NfR86wov0f8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NfR86wov0f8",
+      "url": "https://www.youtube.com/watch?v=NfR86wov0f8",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT264S"
     }
   ]
 }
@@ -128,25 +117,17 @@ This transition is particularly important because diamond guard represents a pos
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=-fudB_l1Sbc)
+![](https://www.youtube.com/watch?v=hEB4I3n9HQo)
 
-<p class="clip-credit"><strong>High guard to dead orchid variation</strong> — taught by Moncaio Brothers Jiujitsu · 0:37 · <a href="https://www.youtube.com/watch?v=-fudB_l1Sbc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=11RfpxSG_uA)
-
-<p class="clip-credit"><strong>Mount escape: diamond guard to closed guard</strong> — taught by Rockstar Martial Arts · 1:44 · <a href="https://www.youtube.com/watch?v=11RfpxSG_uA" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Keeping head control and clinch in rubber guard</strong> — taught by Eddie Bravo · 5:12 · <a href="https://www.youtube.com/watch?v=hEB4I3n9HQo" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=oqR6MLjUrd4)
+![](https://www.youtube.com/watch?v=NfR86wov0f8)
 
-<p class="clip-credit"><strong>Diamond guard setup and two attacks</strong> — taught by Caron Jiu Jitsu · 4:12 · <a href="https://www.youtube.com/watch?v=oqR6MLjUrd4" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Rubber guard theory: retaining the clinch</strong> — taught by Eddie Bravo · 4:24 · <a href="https://www.youtube.com/watch?v=NfR86wov0f8" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

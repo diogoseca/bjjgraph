@@ -180,17 +180,6 @@ description: "How to execute Overhook Escape in BJJ. Attacking perspective with 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Overhook from Closed Guard to Rolling Armbar",
-      "description": "Overhook Escape (Attacker) film study: Overhook from Closed Guard to Rolling Armbar, taught by BOWERHOUSE MMA.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/XVxTzuJ1F60/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/XVxTzuJ1F60",
-      "url": "https://www.youtube.com/watch?v=XVxTzuJ1F60",
-      "creator": { "@type": "Person", "name": "BOWERHOUSE MMA" },
-      "duration": "PT60S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Simple rubber guard escape",
       "description": "Overhook Escape (Attacker) film study: Simple rubber guard escape, taught by BJJ4Breakfast.",
       "thumbnailUrl": "https://i.ytimg.com/vi/AvivOVuYcCk/hqdefault.jpg",
@@ -198,6 +187,28 @@ description: "How to execute Overhook Escape in BJJ. Attacking perspective with 
       "url": "https://www.youtube.com/watch?v=AvivOVuYcCk",
       "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
       "duration": "PT131S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Eddie Bravo breaks down the overhook",
+      "description": "Overhook Escape (Attacker) film study: Eddie Bravo breaks down the overhook, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WCtTNo4o0Cs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WCtTNo4o0Cs",
+      "url": "https://www.youtube.com/watch?v=WCtTNo4o0Cs",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT139S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Rubber guard to cobra clinch overhook control",
+      "description": "Overhook Escape (Attacker) film study: Rubber guard to cobra clinch overhook control, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/E7LsXddfXRM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/E7LsXddfXRM",
+      "url": "https://www.youtube.com/watch?v=E7LsXddfXRM",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
     }
   ]
 }
@@ -229,17 +240,25 @@ Timing proves critical to successful execution. The optimal window for escape oc
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=XVxTzuJ1F60)
+![](https://www.youtube.com/watch?v=AvivOVuYcCk)
 
-<p class="clip-credit"><strong>Overhook from Closed Guard to Rolling Armbar</strong> — taught by BOWERHOUSE MMA · 1:00 · <a href="https://www.youtube.com/watch?v=XVxTzuJ1F60" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Simple rubber guard escape</strong> — taught by BJJ4Breakfast · 2:11 · <a href="https://www.youtube.com/watch?v=AvivOVuYcCk" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=AvivOVuYcCk)
+![](https://www.youtube.com/watch?v=WCtTNo4o0Cs)
 
-<p class="clip-credit"><strong>Simple rubber guard escape</strong> — taught by BJJ4Breakfast · 2:11 · <a href="https://www.youtube.com/watch?v=AvivOVuYcCk" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Eddie Bravo breaks down the overhook</strong> — taught by Eddie Bravo · 2:19 · <a href="https://www.youtube.com/watch?v=WCtTNo4o0Cs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=E7LsXddfXRM)
+
+<p class="clip-credit"><strong>Rubber guard to cobra clinch overhook control</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=E7LsXddfXRM" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

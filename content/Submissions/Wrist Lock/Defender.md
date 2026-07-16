@@ -157,17 +157,6 @@ description: "Defend the Wrist Lock (mão de vaca): recognize the flexion attack
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "How to Escape a Painful Armlock",
-      "description": "Wrist Lock (Defender) film study: How to Escape a Painful Armlock, taught by Full Circle Fighting System.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/w9YMlr_ru7I/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/w9YMlr_ru7I",
-      "url": "https://www.youtube.com/watch?v=w9YMlr_ru7I",
-      "creator": { "@type": "Person", "name": "Full Circle Fighting System" },
-      "duration": "PT67S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Defend Any Wrist Lock Attack",
       "description": "Wrist Lock (Defender) film study: Defend Any Wrist Lock Attack, taught by Kevin Goat.",
       "thumbnailUrl": "https://i.ytimg.com/vi/H4O_WHpAxvQ/hqdefault.jpg",
@@ -203,14 +192,6 @@ As the defender, you are usually the top player posturing inside closed guard wi
 
 <p class="section-subtitle">Watch Wrist Lock (Defender) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=w9YMlr_ru7I)
-
-<p class="clip-credit"><strong>How to Escape a Painful Armlock</strong> — taught by Full Circle Fighting System · 1:07 · <a href="https://www.youtube.com/watch?v=w9YMlr_ru7I" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

@@ -171,17 +171,6 @@ description: "How to defend against Buggy Choke to Side Control in BJJ. Recognit
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Bump and roll sweep to escape side control",
-      "description": "Buggy Choke to Side Control (Defender) film study: Bump and roll sweep to escape side control, taught by PIOT.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Zw_QEoWDvcw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Zw_QEoWDvcw",
-      "url": "https://www.youtube.com/watch?v=Zw_QEoWDvcw",
-      "creator": { "@type": "Person", "name": "PIOT" },
-      "duration": "PT82S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
       "name": "Side Control Escape to Coyote",
       "description": "Buggy Choke to Side Control (Defender) film study: Side Control Escape to Coyote, taught by Carpio Jiu Jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/zQgPda7qx1k/hqdefault.jpg",
@@ -223,14 +212,6 @@ Defenders must also understand the positional hierarchy at play. Accepting turtl
 ![](https://www.youtube.com/watch?v=mBFVriM0ojQ)
 
 <p class="clip-credit"><strong>Turkish Get-Up escape from bottom side control</strong> — taught by Dirtball BJJ · 1:04 · <a href="https://www.youtube.com/watch?v=mBFVriM0ojQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Zw_QEoWDvcw)
-
-<p class="clip-credit"><strong>Bump and roll sweep to escape side control</strong> — taught by PIOT · 1:22 · <a href="https://www.youtube.com/watch?v=Zw_QEoWDvcw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

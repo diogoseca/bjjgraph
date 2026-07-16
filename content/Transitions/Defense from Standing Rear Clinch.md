@@ -46,17 +46,6 @@ description: "Master Defense from Standing Rear Clinch in BJJ. Essential escape 
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Easy takedowns from the rear clinch",
-      "description": "Defense from Standing Rear Clinch film study: Easy takedowns from the rear clinch, taught by OneontaJiuJitsu Academy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ovl7eZIzBaU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ovl7eZIzBaU",
-      "url": "https://www.youtube.com/watch?v=ovl7eZIzBaU",
-      "creator": { "@type": "Person", "name": "OneontaJiuJitsu Academy" },
-      "duration": "PT57S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Bear hug defense into rear clinch takedown",
       "description": "Defense from Standing Rear Clinch film study: Bear hug defense into rear clinch takedown, taught by Jiu Jitsu Five-O.",
       "thumbnailUrl": "https://i.ytimg.com/vi/fnkewg_4NJ4/hqdefault.jpg",
@@ -67,7 +56,7 @@ description: "Master Defense from Standing Rear Clinch in BJJ. Essential escape 
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 2,
       "name": "Leg switch cutback from the rear bodylock",
       "description": "Defense from Standing Rear Clinch film study: Leg switch cutback from the rear bodylock, taught by Procel Brazilian Jiu-Jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/2VCyaassiRI/hqdefault.jpg",
@@ -125,14 +114,6 @@ From a competitive perspective, standing rear clinch defense bridges wrestling a
 
 <p class="section-subtitle">Watch Defense from Standing Rear Clinch in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ovl7eZIzBaU)
-
-<p class="clip-credit"><strong>Easy takedowns from the rear clinch</strong> — taught by OneontaJiuJitsu Academy · 0:57 · <a href="https://www.youtube.com/watch?v=ovl7eZIzBaU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

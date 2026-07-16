@@ -438,15 +438,6 @@
     ],
     "clips": [
       {
-        "id": "AQbJMBiWYfU",
-        "title": "Escaping ashi garami — leg lock defense",
-        "by": "Scott Elliott",
-        "vertical": false,
-        "channel": "Coach Scott Elliott",
-        "duration": 141,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "XRpZHD3KEog",
         "title": "Pulling ashi off a two-on-one from standing",
         "by": "Grapple Box",
@@ -454,6 +445,15 @@
         "channel": "Grapple Box llc",
         "duration": 17,
         "verified": "2026-07-15"
+      },
+      {
+        "id": "AQbJMBiWYfU",
+        "title": "Escaping Ashi Garami: leg lock defense",
+        "by": "Scott Elliott",
+        "vertical": false,
+        "channel": "Coach Scott Elliott",
+        "duration": 141,
+        "verified": "2026-07-16"
       }
     ]
   }

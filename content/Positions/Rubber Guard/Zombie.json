@@ -745,15 +745,6 @@
     ],
     "clips": [
       {
-        "id": "EGpdTHP_vxY",
-        "title": "Prison Guard to Spiderweb",
-        "by": "Eddie Bravo",
-        "vertical": false,
-        "channel": "Eddie Bravo",
-        "duration": 61,
-        "verified": "2026-07-14"
-      },
-      {
         "id": "G9g3ZOJaQHA",
         "title": "Prison Guard Homie X",
         "by": "Eddie Bravo",
@@ -761,6 +752,24 @@
         "channel": "Eddie Bravo",
         "duration": 61,
         "verified": "2026-07-14"
+      },
+      {
+        "id": "2ajPv8XKfvY",
+        "title": "Lockdown Entries",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 115,
+        "verified": "2026-07-16"
+      },
+      {
+        "id": "oSQ7BHerIow",
+        "title": "Lockdown Strategies",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-16"
       }
     ]
   },

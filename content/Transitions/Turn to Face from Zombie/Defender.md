@@ -167,17 +167,6 @@ description: "Defend against the Turn to Face from Zombie position in BJJ. Learn
       "url": "https://www.youtube.com/watch?v=E3sCfrFKJDE",
       "creator": { "@type": "Person", "name": "For\u00e7a Martial Arts" },
       "duration": "PT158S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "No-gi back control principles: denying the turn",
-      "description": "Turn to Face from Zombie (Defender) film study: No-gi back control principles: denying the turn, taught by Corey Guitard.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/GCq_k6_R63w/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/GCq_k6_R63w",
-      "url": "https://www.youtube.com/watch?v=GCq_k6_R63w",
-      "creator": { "@type": "Person", "name": "Corey Guitard" },
-      "duration": "PT398S"
     }
   ]
 }
@@ -208,14 +197,6 @@ As the defender against the Turn to Face from Zombie, you are the top player wor
 ![](https://www.youtube.com/watch?v=E3sCfrFKJDE)
 
 <p class="clip-credit"><strong>Rubber guard: preventing the pass</strong> — taught by Força Martial Arts · 2:38 · <a href="https://www.youtube.com/watch?v=E3sCfrFKJDE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=GCq_k6_R63w)
-
-<p class="clip-credit"><strong>No-gi back control principles: denying the turn</strong> — taught by Corey Guitard · 6:38 · <a href="https://www.youtube.com/watch?v=GCq_k6_R63w" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -200,17 +200,6 @@ description: "Step-by-step guide to finishing the North-South Choke from Modifie
       "url": "https://www.youtube.com/watch?v=z3RNUfHfiSM",
       "creator": { "@type": "Person", "name": "Marcelo Garcia" },
       "duration": "PT20S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Arm attack options from Scarf Hold",
-      "description": "North-South Choke from Modified Scarf Hold (Attacker) film study: Arm attack options from Scarf Hold, taught by Alexey Olynick.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/17m6bnarNdE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/17m6bnarNdE",
-      "url": "https://www.youtube.com/watch?v=17m6bnarNdE",
-      "creator": { "@type": "Person", "name": "Alexey Olynick" },
-      "duration": "PT89S"
     }
   ]
 }
@@ -250,14 +239,6 @@ Attacking with the North-South Choke from Modified Scarf Hold requires understan
 ![](https://www.youtube.com/watch?v=z3RNUfHfiSM)
 
 <p class="clip-credit"><strong>Marcelo Garcia - North South Choke</strong> — taught by Marcelo Garcia · 0:20 · <a href="https://www.youtube.com/watch?v=z3RNUfHfiSM" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=17m6bnarNdE)
-
-<p class="clip-credit"><strong>Arm attack options from Scarf Hold</strong> — taught by Alexey Olynick · 1:29 · <a href="https://www.youtube.com/watch?v=17m6bnarNdE" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

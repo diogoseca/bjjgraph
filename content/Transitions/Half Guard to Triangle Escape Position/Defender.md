@@ -163,24 +163,24 @@ description: "How to prevent the triangle escape position transition in BJJ. Rec
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Six triangle choke escapes, early to very late",
-      "description": "Half Guard to Triangle Escape Position (Defender) film study: Six triangle choke escapes, early to very late, taught by Knight Jiu-Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/XvsneDpJ18Y/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/XvsneDpJ18Y",
-      "url": "https://www.youtube.com/watch?v=XvsneDpJ18Y",
-      "creator": { "@type": "Person", "name": "Knight Jiu-Jitsu" },
-      "duration": "PT418S"
+      "name": "Escaping triangles against bigger opponents",
+      "description": "Half Guard to Triangle Escape Position (Defender) film study: Escaping triangles against bigger opponents, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Z-CsRn4K0vg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Z-CsRn4K0vg",
+      "url": "https://www.youtube.com/watch?v=Z-CsRn4K0vg",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT48S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Avoiding and defending the triangle choke",
-      "description": "Half Guard to Triangle Escape Position (Defender) film study: Avoiding and defending the triangle choke, taught by Lachlan Giles.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Ss49jnCob0w/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Ss49jnCob0w",
-      "url": "https://www.youtube.com/watch?v=Ss49jnCob0w",
-      "creator": { "@type": "Person", "name": "Lachlan Giles" },
-      "duration": "PT775S"
+      "name": "How to escape a triangle choke",
+      "description": "Half Guard to Triangle Escape Position (Defender) film study: How to escape a triangle choke, taught by Rener and Ryron Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sR2rS2dwpNY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sR2rS2dwpNY",
+      "url": "https://www.youtube.com/watch?v=sR2rS2dwpNY",
+      "creator": { "@type": "Person", "name": "Rener and Ryron Gracie" },
+      "duration": "PT117S"
     }
   ]
 }
@@ -216,17 +216,17 @@ As the defender (the bottom guard player maintaining the triangle), your objecti
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=XvsneDpJ18Y)
+![](https://www.youtube.com/watch?v=Z-CsRn4K0vg)
 
-<p class="clip-credit"><strong>Six triangle choke escapes, early to very late</strong> — taught by Knight Jiu-Jitsu · 6:58 · <a href="https://www.youtube.com/watch?v=XvsneDpJ18Y" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Escaping triangles against bigger opponents</strong> — taught by John Danaher · 0:48 · <a href="https://www.youtube.com/watch?v=Z-CsRn4K0vg" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Ss49jnCob0w)
+![](https://www.youtube.com/watch?v=sR2rS2dwpNY)
 
-<p class="clip-credit"><strong>Avoiding and defending the triangle choke</strong> — taught by Lachlan Giles · 12:55 · <a href="https://www.youtube.com/watch?v=Ss49jnCob0w" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>How to escape a triangle choke</strong> — taught by Rener and Ryron Gracie · 1:57 · <a href="https://www.youtube.com/watch?v=sR2rS2dwpNY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

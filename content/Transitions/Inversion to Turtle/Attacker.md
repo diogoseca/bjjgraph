@@ -180,17 +180,6 @@ description: "How to execute Inversion to Turtle in BJJ. Attacking perspective w
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Backside 50/50 to Outside Sankaku from Turtle",
-      "description": "Inversion to Turtle (Attacker) film study: Backside 50/50 to Outside Sankaku from Turtle, taught by Factory Fresh Jiu Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/T9ZbR8GNE04/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/T9ZbR8GNE04",
-      "url": "https://www.youtube.com/watch?v=T9ZbR8GNE04",
-      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
-      "duration": "PT156S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "How to Escape the Inside Ashi Garami Heel Hook",
       "description": "Inversion to Turtle (Attacker) film study: How to Escape the Inside Ashi Garami Heel Hook, taught by Eddie Cummings.",
       "thumbnailUrl": "https://i.ytimg.com/vi/3xEmPci_szw/hqdefault.jpg",
@@ -201,7 +190,7 @@ description: "How to execute Inversion to Turtle in BJJ. Attacking perspective w
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 2,
       "name": "Defend Ashi Garami and Take Your Opponent\u0027s Back",
       "description": "Inversion to Turtle (Attacker) film study: Defend Ashi Garami and Take Your Opponent\u0027s Back, taught by Hellfish MMA Coach.",
       "thumbnailUrl": "https://i.ytimg.com/vi/L1cPlysOgvc/hqdefault.jpg",
@@ -237,14 +226,6 @@ The technique requires precise timing and commitment. Half-hearted attempts crea
 
 <p class="section-subtitle">Watch Inversion to Turtle (Attacker) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=T9ZbR8GNE04)
-
-<p class="clip-credit"><strong>Backside 50/50 to Outside Sankaku from Turtle</strong> — taught by Factory Fresh Jiu Jitsu · 2:36 · <a href="https://www.youtube.com/watch?v=T9ZbR8GNE04" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

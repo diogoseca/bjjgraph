@@ -165,24 +165,13 @@ description: "Prevent guard recovery from Jailbreak as the top player in BJJ. Gu
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Most Common Guard Retention Problem",
-      "description": "Guard Recovery from Jailbreak (Defender) film study: Most Common Guard Retention Problem, taught by Jon Thomas.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_K4ydd1ofgI/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/_K4ydd1ofgI",
-      "url": "https://www.youtube.com/watch?v=_K4ydd1ofgI",
-      "creator": { "@type": "Person", "name": "Jon Thomas" },
-      "duration": "PT220S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Guard Retention Technique That Changes Your Guard",
-      "description": "Guard Recovery from Jailbreak (Defender) film study: Guard Retention Technique That Changes Your Guard, taught by Jon Thomas.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Nv3qyfhEUcs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Nv3qyfhEUcs",
-      "url": "https://www.youtube.com/watch?v=Nv3qyfhEUcs",
-      "creator": { "@type": "Person", "name": "Jon Thomas" },
-      "duration": "PT339S"
+      "name": "Countering a full inversion",
+      "description": "Guard Recovery from Jailbreak (Defender) film study: Countering a full inversion, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aQ2vFXXBn-o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aQ2vFXXBn-o",
+      "url": "https://www.youtube.com/watch?v=aQ2vFXXBn-o",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT61S"
     }
   ]
 }
@@ -218,17 +207,9 @@ As the top player after defending a Jailbreak attempt, you are in a strong posit
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=_K4ydd1ofgI)
+![](https://www.youtube.com/watch?v=aQ2vFXXBn-o)
 
-<p class="clip-credit"><strong>Most Common Guard Retention Problem</strong> — taught by Jon Thomas · 3:40 · <a href="https://www.youtube.com/watch?v=_K4ydd1ofgI" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=Nv3qyfhEUcs)
-
-<p class="clip-credit"><strong>Guard Retention Technique That Changes Your Guard</strong> — taught by Jon Thomas · 5:39 · <a href="https://www.youtube.com/watch?v=Nv3qyfhEUcs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Countering a full inversion</strong> — taught by Gordon Ryan · 1:01 · <a href="https://www.youtube.com/watch?v=aQ2vFXXBn-o" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

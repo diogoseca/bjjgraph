@@ -171,24 +171,24 @@ description: "Learn to defend the Stack from Chill Dog as the bottom player. Rec
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Turtle Escape and Back-Exposure System",
-      "description": "Stack from Chill Dog (Defender) film study: Turtle Escape and Back-Exposure System, taught by Jozef Chen.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Ft6OyIZ6vPs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/Ft6OyIZ6vPs",
-      "url": "https://www.youtube.com/watch?v=Ft6OyIZ6vPs",
-      "creator": { "@type": "Person", "name": "Jozef Chen" },
-      "duration": "PT149S"
+      "name": "Stack Attack: dealing with the stack in rubber guard",
+      "description": "Stack from Chill Dog (Defender) film study: Stack Attack: dealing with the stack in rubber guard, taught by Submissions101 coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/12F5eAkrS4s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/12F5eAkrS4s",
+      "url": "https://www.youtube.com/watch?v=12F5eAkrS4s",
+      "creator": { "@type": "Person", "name": "Submissions101 coach" },
+      "duration": "PT105S"
     },
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Front Headlock and Turtle Escapes",
-      "description": "Stack from Chill Dog (Defender) film study: Front Headlock and Turtle Escapes, taught by Gordon Ryan.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/JX0HL0WpYPs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/JX0HL0WpYPs",
-      "url": "https://www.youtube.com/watch?v=JX0HL0WpYPs",
-      "creator": { "@type": "Person", "name": "Gordon Ryan" },
-      "duration": "PT478S"
+      "name": "Prison Guard breakdown from rubber guard",
+      "description": "Stack from Chill Dog (Defender) film study: Prison Guard breakdown from rubber guard, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gFYyMkaMz34/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gFYyMkaMz34",
+      "url": "https://www.youtube.com/watch?v=gFYyMkaMz34",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT59S"
     }
   ]
 }
@@ -226,17 +226,17 @@ The stack attacks the fundamental structure of your Chill Dog defense by loading
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=Ft6OyIZ6vPs)
+![](https://www.youtube.com/watch?v=12F5eAkrS4s)
 
-<p class="clip-credit"><strong>Turtle Escape and Back-Exposure System</strong> — taught by Jozef Chen · 2:29 · <a href="https://www.youtube.com/watch?v=Ft6OyIZ6vPs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Stack Attack: dealing with the stack in rubber guard</strong> — taught by Submissions101 coach · 1:45 · <a href="https://www.youtube.com/watch?v=12F5eAkrS4s" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 
 <div class="film-clip">
 
-![](https://www.youtube.com/watch?v=JX0HL0WpYPs)
+![](https://www.youtube.com/watch?v=gFYyMkaMz34)
 
-<p class="clip-credit"><strong>Front Headlock and Turtle Escapes</strong> — taught by Gordon Ryan · 7:58 · <a href="https://www.youtube.com/watch?v=JX0HL0WpYPs" rel="noopener">Watch on YouTube</a></p>
+<p class="clip-credit"><strong>Prison Guard breakdown from rubber guard</strong> — taught by Eddie Bravo · 0:59 · <a href="https://www.youtube.com/watch?v=gFYyMkaMz34" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

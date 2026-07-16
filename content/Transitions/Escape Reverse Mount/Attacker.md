@@ -192,17 +192,6 @@ description: "Master the Escape Reverse Mount technique from bottom position. Le
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Reverse kesa escape from bottom to back take",
-      "description": "Escape Reverse Mount (Attacker) film study: Reverse kesa escape from bottom to back take, taught by Unknown coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ORpUBUxK1QE/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/ORpUBUxK1QE",
-      "url": "https://www.youtube.com/watch?v=ORpUBUxK1QE",
-      "creator": { "@type": "Person", "name": "Unknown coach" },
-      "duration": "PT26S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Inverted mount escape to ashi garami",
       "description": "Escape Reverse Mount (Attacker) film study: Inverted mount escape to ashi garami, taught by Thunderdome BJJ coach.",
       "thumbnailUrl": "https://i.ytimg.com/vi/bNdt6jVatj4/hqdefault.jpg",
@@ -213,7 +202,7 @@ description: "Master the Escape Reverse Mount technique from bottom position. Le
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 2,
       "name": "Reverse mount scrambles and escapes",
       "description": "Escape Reverse Mount (Attacker) film study: Reverse mount scrambles and escapes, taught by Unknown coach.",
       "thumbnailUrl": "https://i.ytimg.com/vi/XQ4fwGrXV2Q/hqdefault.jpg",
@@ -245,14 +234,6 @@ As the bottom player trapped in reverse mount, your primary objective is to esca
 
 <p class="section-subtitle">Watch Escape Reverse Mount (Attacker) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=ORpUBUxK1QE)
-
-<p class="clip-credit"><strong>Reverse kesa escape from bottom to back take</strong> — taught by Unknown coach · 0:26 · <a href="https://www.youtube.com/watch?v=ORpUBUxK1QE" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 
