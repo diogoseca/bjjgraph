@@ -1,43 +1,8 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
-import { stripTitleSuffix } from "./quartz/util/lang"
 
 const showBreadcrumbs = process.env.SHOW_BREADCRUMBS === "true"
 const breadcrumbs = showBreadcrumbs ? [Component.Breadcrumbs()] : []
-
-const CATEGORY_ORDER = [
-  "Learning",
-  "Principles",
-  "Positions",
-  "Transitions",
-  "Submissions",
-  "Systems",
-]
-
-const explorerSortFn = (a: any, b: any) => {
-  const bothFolders = !a.file && !b.file
-  const bothFiles = a.file && b.file
-  if (bothFolders || bothFiles) {
-    if (bothFolders) {
-      const aIdx = CATEGORY_ORDER.indexOf(a.name)
-      const bIdx = CATEGORY_ORDER.indexOf(b.name)
-      if (aIdx !== -1 && bIdx !== -1) return aIdx - bIdx
-      if (aIdx !== -1) return -1
-      if (bIdx !== -1) return 1
-    }
-    return a.displayName.localeCompare(b.displayName, undefined, {
-      numeric: true,
-      sensitivity: "base",
-    })
-  }
-  return a.file && !b.file ? 1 : -1
-}
-
-const explorerMapFn = (node: any) => {
-  if (node.displayName) {
-    node.displayName = stripTitleSuffix(node.displayName)
-  }
-}
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -82,14 +47,7 @@ export const defaultContentPageLayout: PageLayout = {
       globalGraph: { showTags: false },
     }),
   ],
-  left: [
-    Component.DesktopOnly(
-      Component.Explorer({
-        mapFn: explorerMapFn,
-        sortFn: explorerSortFn,
-      }),
-    ),
-  ],
+  left: [Component.DesktopOnly(Component.CategoryNav())],
   right: [Component.DesktopOnly(Component.TableOfContents())],
 }
 
@@ -103,13 +61,6 @@ export const defaultListPageLayout: PageLayout = {
       globalGraph: { showTags: false },
     }),
   ],
-  left: [
-    Component.DesktopOnly(
-      Component.Explorer({
-        mapFn: explorerMapFn,
-        sortFn: explorerSortFn,
-      }),
-    ),
-  ],
+  left: [Component.DesktopOnly(Component.CategoryNav())],
   right: [Component.DesktopOnly(Component.TableOfContents())],
 }

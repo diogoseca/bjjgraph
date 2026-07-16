@@ -27,6 +27,7 @@ import Snackbar from "./Snackbar"
 import Flashcard from "./Flashcard"
 import VictoryDisplay from "./VictoryDisplay"
 import TreeExplorer from "./TreeExplorer"
+import CategoryNav from "./CategoryNav"
 import TopBar from "./TopBar"
 import AuthUI from "./AuthUI"
 import ContentPanel from "./ContentPanel"
@@ -71,6 +72,7 @@ export {
   Flashcard,
   VictoryDisplay,
   TreeExplorer,
+  CategoryNav,
   TopBar,
   AuthUI,
   ContentPanel,

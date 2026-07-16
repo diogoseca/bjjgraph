@@ -29,7 +29,10 @@ test("restart mid-defense: no ghost tap, no ladder drop, defense state fully dis
 
   // the user bails: transport Reset while the defense window is still draining
   await page.evaluate(() => (window as any).__neural.resetRoll())
-  await j.advance(20000) // longer than any stale defense window + intro
+  // pump exactly until the NEW roll lands and deals, then stop: the stale window (the bug)
+  // would have expired inside this span and cancelled the landing outright — and stopping at
+  // the deal means no auto-play can legitimately move the ladder before we assert.
+  await j.nextHand(30000)
 
   const state = await page.evaluate(() => {
     const a = (window as any).__neural
