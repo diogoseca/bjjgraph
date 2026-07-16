@@ -112,6 +112,16 @@ jobs:
           npx playwright install --with-deps chromium
           npm run e2e
 
+      - name: Upload journey artifacts (on failure)
+        if: failure()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: journey-test-results
+          path: |
+            e2e/test-results/
+            test-results/
+          if-no-files-found: ignore
+
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@9acf94ace14e7dc412b076f2c5c20b8ce93c79cd # v3
         with:

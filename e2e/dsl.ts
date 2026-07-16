@@ -62,6 +62,15 @@ export class Journey {
     // Register ONCE per page: duplicate handlers + a prior boot's in-flight aborts can cancel
     // the next navigation (net::ERR_ABORTED on the second boot of a determinism replay).
     if (!(this.page as any).__ngRouted) {
+      // HERMETIC: journeys never leave the local fixture server. The CI build (unlike the
+      // local one) bakes PostHog/Supabase config + a Google-Fonts @import into pages; one
+      // hanging external request on a loaded runner stalls boot past any budget. Registered
+      // FIRST so the specific handlers below take precedence (Playwright matches last-first).
+      await this.page.route("**/*", (r) => {
+        const u = r.request().url()
+        if (/^(http:\/\/localhost|http:\/\/127\.|data:|blob:|about:)/.test(u)) return r.continue()
+        return r.abort()
+      })
       await this.page.route("**/technique-content.js", (r) => r.abort())
       await this.page.route("**/flashcards.json", (r) =>
         r.fulfill({ body: payload("flashcards.json"), contentType: "application/json" }),
@@ -76,14 +85,33 @@ export class Journey {
     } catch {
       await this.page.goto(path, { waitUntil: "commit" }) // one retry: teardown races are transient
     }
-    await this.page.waitForFunction(
-      () => {
-        const a = (window as W).__neural
-        return !!(a && a.nodes && a.nodes.length && typeof a.advance === "function" && a.flashcards && a.flashcards.decks)
-      },
-      undefined,
-      { timeout: 90_000 }, // 13.5MB flashcards on a busy box (CI included) can be slow — logic never needs this long
-    )
+    try {
+      await this.page.waitForFunction(
+        () => {
+          const a = (window as W).__neural
+          return !!(a && a.nodes && a.nodes.length && typeof a.advance === "function" && a.flashcards && a.flashcards.decks)
+        },
+        undefined,
+        { timeout: 90_000 }, // payloads are memory-fulfilled; logic never needs this long
+      )
+    } catch {
+      // enrich the timeout with a snapshot so a CI-only stall names its blocker in the log
+      const diag = await Promise.race([
+        this.page.evaluate(() => ({
+          readyState: document.readyState,
+          hasNeural: !!(window as any).__neural,
+          nodes: (window as any).__neural?.nodes?.length ?? null,
+          hasFlashcards: !!(window as any).__neural?.flashcards,
+          pending: performance
+            .getEntriesByType("resource")
+            .filter((r: any) => !r.responseEnd)
+            .map((r: any) => r.name)
+            .slice(0, 10),
+        })),
+        new Promise((res) => setTimeout(() => res("diag-evaluate-hung"), 5000)),
+      ]).catch((x) => String(x))
+      throw new Error(`boot readiness timeout; diagnostics: ${JSON.stringify(diag)}`)
+    }
     if (opts.seedRolls) {
       for (const [tag, values] of Object.entries(opts.seedRolls)) await this.rig(tag, values)
     }
