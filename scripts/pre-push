@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Local push gate: gameplay journeys must be green before anything leaves this machine.
+# Install (opt-in):  ln -sf ../../scripts/pre-push .git/hooks/pre-push
+set -euo pipefail
+cd "$(git rev-parse --show-toplevel)"
+echo "[pre-push] RNG seam check + journey suite (Ctrl-C to abort push)"
+bash scripts/check_no_raw_random.sh
+npm run e2e

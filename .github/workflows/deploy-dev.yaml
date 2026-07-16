@@ -60,6 +60,15 @@ jobs:
           cp -r raw_html/* public/ || true
         working-directory: ./source
 
+      # GAMEPLAY REGRESSION GATE: the E2E journey suite plays the Neural app as a user
+      # (deterministic rails: rigged RNG + frame pump) against the freshly built site.
+      # Any red journey blocks the deploy — gameplay must never regress on dev.
+      - name: Journey gate (Playwright E2E)
+        run: |
+          npm install
+          npx playwright install --with-deps chromium
+          npm run e2e
+
       - name: Deploy to Cloudflare Pages (preview)
         uses: cloudflare/wrangler-action@9acf94ace14e7dc412b076f2c5c20b8ce93c79cd # v3
         with:

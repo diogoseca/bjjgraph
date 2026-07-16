@@ -1,6 +1,6 @@
 {
   "name": "bjjgraph",
-  "version": "1.55.2",
+  "version": "1.56.0",
   "description": "BJJ knowledge graph and state machine",
   "scripts": {
     "postinstall": "cd source && npm install",
@@ -36,6 +36,12 @@
     "regenerate:redirects": "python3 scripts/regenerate_redirects.py",
     "regenerate:headers": "python3 scripts/regenerate_headers.py",
     "regenerate:llms": "python3 scripts/regenerate_llms_txt.py",
-    "regenerate:build": "npm run regenerate && npm run build"
+    "regenerate:build": "npm run regenerate && npm run build",
+    "e2e": "playwright test -c e2e/playwright.config.ts",
+    "e2e:headed": "playwright test -c e2e/playwright.config.ts --headed",
+    "pree2e": "bash scripts/check_no_raw_random.sh"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.61.1"
   }
 }

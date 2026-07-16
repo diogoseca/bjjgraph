@@ -88,11 +88,48 @@ class Component extends DCLogic {
 
   // ---------- timers (pause-aware) ----------
   clearTimers() { (this._timers || []).forEach((t) => { if (t.id) clearTimeout(t.id); }); this._timers = []; }
+  // ---------- deterministic test rails (P0) ----------
+  // Every random draw in the app goes through rng(tag); journeys queue values per tag via rig()
+  // so a full roll replays frame-exact. In production (no rig) this is Math.random passthrough.
+  rng(tag) {
+    const q = this._rig && this._rig[tag];
+    if (q && q.length) return q.shift();
+    return Math.random();
+  }
+  rig(tag, values) { this._rig = this._rig || {}; (this._rig[tag] = this._rig[tag] || []).push(...(values || [])); }
+  rigStart(idx) { this._rigStart = idx; }
+  isTest() { return !!(typeof window !== "undefined" && window.__NEURAL_TEST__); }
+  // fx facade: every gameplay beat is a first-class event — journeys assert on this stream and
+  // (from P1 on) animations key off the same beats, so feel and tests share one vocabulary.
+  fx(beat, props) {
+    (this.beats = this.beats || []).push(Object.assign({ t: this.now || 0, beat: beat }, props || {}));
+    if (this.beats.length > 4000) this.beats.splice(0, 1000);
+  }
+  // frame pump: advance simulated time in fixed ticks — timers, travel, camera, draw all step
+  // deterministically. Only available in test mode (the rAF loop is not armed there).
+  advance(ms) {
+    if (!this.isTest()) return;
+    const step = 1000 / 60;
+    let left = ms;
+    while (left > 0) {
+      const d = Math.min(step, left); left -= d;
+      this._simNow = (this._simNow || 0) + d;
+      // fire due sim-timers (paused timers hold, matching pauseTimers semantics)
+      for (const it of (this._timers || []).slice()) {
+        if (it.id) continue; // wall-clock timer (shouldn't exist in test mode)
+        if (!this.paused || it.ignorePause) {
+          it.remaining -= d;
+          if (it.remaining <= 0) it._fire();
+        }
+      }
+      this._tick(this._simNow / 1000);
+    }
+  }
   after(sec, fn) {
     const item = { fn: fn, remaining: sec * 1000, start: performance.now(), id: null };
     const fire = () => { this._timers = (this._timers || []).filter((x) => x !== item); fn(); };
     item._fire = fire;
-    if (!this.paused) item.id = setTimeout(fire, item.remaining);
+    if (!this.isTest() && !this.paused) item.id = setTimeout(fire, item.remaining); // test mode: advance() drives
     (this._timers = this._timers || []).push(item);
     return item;
   }
@@ -102,6 +139,7 @@ class Component extends DCLogic {
     }
   }
   resumeTimers() {
+    if (this.isTest()) return; // sim timers resume via advance()
     for (const it of (this._timers || [])) {
       if (!it.id) { it.start = performance.now(); it.id = setTimeout(it._fire, Math.max(0, it.remaining)); }
     }
@@ -736,6 +774,7 @@ class Component extends DCLogic {
       const dk = this._dayKey(); this._days = this._days || {};
       this._days[dk] = (this._days[dk] || 0) + 1; this.cardsToday = this._days[dk];
       this.track("neural_card_answered", { deck_key: key, cards_today: this.cardsToday });
+      this.fx("bonus_pumped", { deck_key: key });
     }
     if (!this._qkDecks) {                      // lazy one-time index: question -> deck keys carrying it
       this._qkDecks = new Map();
@@ -1419,6 +1458,7 @@ class Component extends DCLogic {
     back.innerHTML = 'Back <kbd style="font-family:inherit;font-size:10px;font-weight:700;opacity:.6;margin-left:4px;border:1px solid currentColor;border-radius:4px;padding:0 4px;">Esc</kbd>';
     back.style.cssText = "cursor:pointer;font-family:inherit;font-size:13.5px;font-weight:600;padding:12px 18px;border-radius:11px;border:1px solid rgba(150,170,210,.25);background:rgba(255,255,255,.04);color:#c3cde0;display:flex;align-items:center;";
     const go = document.createElement("button");
+    go.setAttribute("data-go", "1"); // journey tests confirm the commit via this button
     go.innerHTML = (cat === "Submission" ? "Go for the " + sp.main : "Execute this move") + ' <kbd style="font-family:inherit;font-size:10px;font-weight:700;opacity:.7;margin-left:7px;border:1px solid rgba(255,255,255,.5);border-radius:4px;padding:0 5px;">\u23ce</kbd>';
     go.style.cssText = "flex:1;cursor:pointer;font-family:inherit;font-size:13.5px;font-weight:700;padding:12px;border-radius:11px;border:none;background:linear-gradient(135deg,#4a6cff,#6a5cff);color:#fff;box-shadow:0 4px 16px rgba(74,108,255,.35);display:flex;align-items:center;justify-content:center;";
     back.addEventListener("click", () => this.closeOptionDetail());
@@ -1877,12 +1917,9 @@ class Component extends DCLogic {
     card.appendChild(body);
   }
   ensureMods() {
+    // no demo seeds — modifiers exist only when the user creates them (odds must not lie)
     if (this.userMods) return;
-    this.userMods = [
-      { name: "Triangle Choke", cat: "Submission", pct: 64, on: true },
-      { name: "Knee Cut Pass", cat: "Transition", pct: 58, on: true },
-      { name: "Closed Guard", cat: "Position", pct: 72, on: true },
-    ];
+    this.userMods = [];
   }
   buildModifiers(host) {
     this.ensureMods();
@@ -2671,8 +2708,8 @@ class Component extends DCLogic {
   playFrom(idx, role) {
     this.clearTimers(); this.clearOptions(); this.closeModal(); this.setPaused(false);
     this.playerRole = role;
-    this.aiSkill = this.get("difficulty", "normal") === "off" ? 0 : 0.06 + Math.random() * 0.14;
-    this.moveCount = 0; this.maxMoves = 9 + ((Math.random() * 4) | 0);
+    this.aiSkill = this.get("difficulty", "normal") === "off" ? 0 : 0.06 + this.rng("ai-skill") * 0.14;
+    this.moveCount = 0; this.maxMoves = 9 + ((this.rng("max-moves") * 4) | 0);
     this.currentPos = idx; this.focusIdx = idx; this.pulse = null; this.activeMove = null;
     this.camTarget = { cx: this.nodes[idx].x, cy: this.nodes[idx].y, vw: this.graphW * 0.42 };
     this.camFocus = { x: this.nodes[idx].x, y: this.nodes[idx].y };
@@ -3063,6 +3100,8 @@ class Component extends DCLogic {
 
   endRound(kind, name) {
     this.clearTimers(); this.clearOptions();
+    if (kind === "win") this.fx("finish", { technique: name || null });
+    this.fx("roll_end", { outcome: kind, moves: this.moveCount || 0 });
     this.track("neural_roll_ended", { outcome: kind, moves: this.moveCount || 0 });
     if (kind !== "reset" && this.anim("slowMoFinish", true)) this._slowmo = this.now;
     this._lastOutcome = kind;
@@ -3137,6 +3176,7 @@ class Component extends DCLogic {
     const n = opt.node;
     const isEsc = mode === "escape";
     const card = document.createElement("div");
+    card.setAttribute("data-tech", n.t); // journey tests click option cards by technique title
     card.style.cssText = "pointer-events:auto;cursor:pointer;position:relative;overflow:hidden;flex:0 0 150px;width:150px;background:rgba(28,32,52,.78);backdrop-filter:blur(6px);border:1px solid rgba(150,170,210,.18);border-radius:11px;padding:11px 12px 13px;opacity:1;transform:translateY(10px);transition:transform .34s cubic-bezier(.2,.7,.2,1),border-color .15s,background .15s;";
     const col = this.hex(n.col);
     const resName = opt.res >= 0 ? this.nodes[opt.res].t : "\u2014";
@@ -3194,10 +3234,10 @@ class Component extends DCLogic {
     this._lastOutcome = null;
     this.rollLog = []; this._lastActor = null; this._currentDeckKey = null;
     this._sessionNodes = null; this._session = null; this._inSession = false;
-    this.moveCount = 0; this.maxMoves = 9 + ((Math.random() * 4) | 0);
-    this.aiSkill = this.get("difficulty", "normal") === "off" ? 0 : 0.06 + Math.random() * 0.14;
+    this.moveCount = 0; this.maxMoves = 9 + ((this.rng("max-moves") * 4) | 0);
+    this.aiSkill = this.get("difficulty", "normal") === "off" ? 0 : 0.06 + this.rng("ai-skill") * 0.14;
     const t = (this.nodes[posIdx].t || "");
-    this.playerRole = /\bbottom\b/i.test(t) ? "bottom" : (/\btop\b/i.test(t) ? "top" : (Math.random() < 0.5 ? "top" : "bottom"));
+    this.playerRole = /\bbottom\b/i.test(t) ? "bottom" : (/\btop\b/i.test(t) ? "top" : (this.rng("role") < 0.5 ? "top" : "bottom"));
     this.currentPos = posIdx; this.focusIdx = posIdx; this.pulse = null; this.activeMove = null;
     this.camFocus = { x: this.nodes[posIdx].x, y: this.nodes[posIdx].y };
     this.camTarget = { cx: this.nodes[posIdx].x, cy: this.nodes[posIdx].y, vw: this.graphW * 0.42 };
@@ -3218,19 +3258,22 @@ class Component extends DCLogic {
     this._lastOutcome = null;
     this.rollLog = []; this._lastActor = null;
     this._sessionNodes = null; this._session = null; this._inSession = false;
-    this.moveCount = 0; this.maxMoves = 9 + ((Math.random() * 4) | 0);
-    this.playerRole = Math.random() < 0.5 ? "top" : "bottom"; // you start either side
-    this.aiSkill = this.get("difficulty", "normal") === "off" ? 0 : 0.06 + Math.random() * 0.14; // opponent resistance, gated by difficulty
+    this.moveCount = 0; this.maxMoves = 9 + ((this.rng("max-moves") * 4) | 0);
+    this.playerRole = this.rng("role") < 0.5 ? "top" : "bottom"; // you start either side
+    this.aiSkill = this.get("difficulty", "normal") === "off" ? 0 : 0.06 + this.rng("ai-skill") * 0.14; // opponent resistance, gated by difficulty
     // random starting position
     const positions = this._posIdx || (this._posIdx = this.nodes.filter((n) => n.ty === "positions" && this.adj[n.idx].some((k) => this.nodes[k].ty !== "positions")).map((n) => n.idx));
     if (!positions.length) { console.error("[neural] no playable position nodes"); this._fallbackToLegacy(); return; } // degenerate graph → don't crash in a timer
+    if (this._rigStart != null && this.nodes[this._rigStart]) { // test rail: deterministic start
+      this.currentPos = this._rigStart; this._rigStart = null; this._firstRollDone = true;
+    } else
     // first roll: start on a position that has a seeded deck so the example shows immediately
     if (!this._firstRollDone) {
       this._firstRollDone = true;
       const withDeck = positions.filter((i) => this.flashcards && this.flashcards.decks && this.flashcards.decks[this.deckKeyFor(this.nodes[i]).key]);
-      this.currentPos = withDeck.length ? withDeck[(Math.random() * withDeck.length) | 0] : positions[(Math.random() * positions.length) | 0];
+      this.currentPos = withDeck.length ? withDeck[(this.rng("start-pos") * withDeck.length) | 0] : positions[(this.rng("start-pos") * positions.length) | 0];
     } else {
-      this.currentPos = positions[(Math.random() * positions.length) | 0];
+      this.currentPos = positions[(this.rng("start-pos") * positions.length) | 0];
     }
     this.showCenter("Restarting the roll", this.posFamily(this.nodes[this.currentPos].t), this.roleLabel() + " \u00b7 new roll", "muted", true);
     this.focusIdx = this.currentPos; this.pulse = null;
@@ -3261,6 +3304,7 @@ class Component extends DCLogic {
   }
   enterLand(first) {
     const pos = this.nodes[this.currentPos];
+    this.fx("land", { position: pos ? pos.t : null, first: !!first });
     this.focusIdx = this.currentPos; this.pulse = null;
     this._settleT = this.now;
     this.activeMove = null;
@@ -3307,6 +3351,7 @@ class Component extends DCLogic {
     const opts = this.optionsFor(this.currentPos);
     if (!opts.length) { this.after(1.0, () => this.startRoll()); return; }
     this.optionIdxs = opts.map((o) => o.idx);
+    this.fx("options_dealt", { count: opts.length });
     this.startLandRipple(this.currentPos, this.optionIdxs);
     // base reading time (seconds, user-set) plus a little for more options to weigh
     const base = this.get("decisionSec", 9);
@@ -3323,12 +3368,13 @@ class Component extends DCLogic {
     this.after(dsec, () => {
       if (picked) return;
       let pool = []; for (const o of opts) { const w = Math.max(0.12, 0.5 + o.node.dom); for (let i = 0; i < Math.round(w * 10); i++) pool.push(o); }
-      pick(pool[(Math.random() * pool.length) | 0] || opts[0]);
+      pick(pool[(this.rng("auto-pick") * pool.length) | 0] || opts[0]);
     });
   }
 
   enterAttempt(opt) {
     const act = this.nodes[opt.idx];
+    this.fx("commit", { technique: act.t });
     this.track("neural_move_picked", { technique: act.t, node_type: act.ty });
     this._pendingIntent = { actor: "you", idx: opt.res >= 0 ? opt.res : opt.idx };
     const verb = act.ty === "submissions" ? "Going for the submission" : "Attempting the transition";
@@ -3446,13 +3492,13 @@ class Component extends DCLogic {
     if (!outs || !outs.length) return null;
     let total = 0; for (const o of outs) total += Math.max(0, +o.probability || 0);
     if (total <= 0) return outs[0];
-    let r = Math.random() * total;
+    let r = this.rng("outcome") * total;
     for (const o of outs) { r -= Math.max(0, +o.probability || 0); if (r <= 0) return o; }
     return outs[outs.length - 1];
   }
   resolve(opt) {
     const act = this.nodes[opt.idx];
-    const success = Math.random() < this.moveChance(act);   // player-facing, drill-improvable gate
+    const success = this.rng("resolve") < this.moveChance(act);   // player-facing, drill-improvable gate
     const out = this.drawOutcome(act);
     if (!out) { return success ? this.enterSuccess(opt) : this.enterFail(opt); }  // no cal -> legacy path
     if (success) {
@@ -3465,6 +3511,7 @@ class Component extends DCLogic {
 
   enterSuccess(opt) {
     const act = this.nodes[opt.idx];
+    this.fx("impact_success", { technique: act.t });
     const dest = opt.res >= 0 ? opt.res : this.currentPos;
     if (act.ty === "submissions") {
       this.flare(opt.idx);
@@ -3484,6 +3531,7 @@ class Component extends DCLogic {
 
   enterFail(opt) {
     const act = this.nodes[opt.idx];
+    this.fx("impact_fail", { technique: act.t });
     this.setEvent("Failed", act.t + " stuffed", "bad");
     this.after(1.25 / this.cfg().signalSpeed, () => this.opponentDefend());
   }
@@ -3491,6 +3539,7 @@ class Component extends DCLogic {
   // calibrated success: travel to the outcome's real target position (fallback to legacy resultPos)
   enterSuccessCal(opt, out) {
     const act = this.nodes[opt.idx];
+    this.fx("impact_success", { technique: act.t, to: out && out.to });
     const r = this.resolveOutcomeTo(out.to);
     if (act.ty === "submissions" || r.terminal) { this.flare(opt.idx); this.endRound("win", act.t); return; }
     const dest = r.idx >= 0 ? r.idx : (opt.res >= 0 ? opt.res : this.currentPos);
@@ -3508,6 +3557,7 @@ class Component extends DCLogic {
   // in a worse spot), then hand initiative to the opponent; stay-put failures go straight to defense.
   enterFailCal(opt, out) {
     const act = this.nodes[opt.idx];
+    this.fx("impact_fail", { technique: act.t, counter: !!(out && out.result === "counter") });
     const r = this.resolveOutcomeTo(out.to);
     const dest = r.idx >= 0 ? r.idx : this.currentPos;
     const counter = out.result === "counter";
@@ -3525,6 +3575,7 @@ class Component extends DCLogic {
   defendKeyFor(subNode) { return subNode.t + "|Defender"; } // full name, matches the emitted Defender deck key
   enterDefense(subIdx) {
     const sub = this.nodes[subIdx];
+    this.fx("defend_start", { submission: sub ? sub.t : null });
     // escape routes: positions reachable from the submission node (back to safety)
     const escapes = []; const seen = new Set();
     for (const k of this.adj[subIdx]) {
@@ -3554,7 +3605,8 @@ class Component extends DCLogic {
       this.activeMove = { idx: opt.idx, verb: "Escaping", col: { r: 126, g: 224, b: 168 } };
       this.startTravel([subIdx, opt.idx], () => {
         this._defendSub = null;
-        if (Math.random() < chance) {
+        if (this.rng("escape") < chance) {
+          this.fx("escape", { via: opt.node.t });
           const before = this.myVal(this.nodes[this.currentPos]);
           this.playerRole = "bottom"; // escaping usually lands you bottom/neutral
           this.flashFx(this.myVal(opt.node) - before);
@@ -3586,8 +3638,8 @@ class Component extends DCLogic {
     const oppAdv = this.oppVal(this.nodes[this.currentPos]); // + = opponent is winning
     let pFinish = subs.length ? Math.max(0.18, Math.min(0.85, 0.34 + oppAdv * 0.55)) : 0;
     if (!trans.length && subs.length) pFinish = 0.9;
-    if (subs.length && Math.random() < pFinish) {
-      const def = subs[(Math.random() * subs.length) | 0];
+    if (subs.length && this.rng("opp-finish") < pFinish) {
+      const def = subs[(this.rng("opp-sub-pick") * subs.length) | 0];
       this.flare(def);
       this.setEvent("Opponent attacks", this.nodes[def].t, "bad");
       this.activeMove = { idx: def, verb: "Attacking", col: { r: 255, g: 110, b: 110 } };
@@ -3597,7 +3649,7 @@ class Component extends DCLogic {
 
     // positional counter — prefer moves that improve the opponent most
     trans.sort((a, b) => this.oppVal(this.nodes[this.resultPos(b, this.currentPos)] || this.nodes[b]) - this.oppVal(this.nodes[this.resultPos(a, this.currentPos)] || this.nodes[a]));
-    const def = (trans.length ? trans : subs)[(Math.random() * Math.min(3, (trans.length ? trans : subs).length)) | 0];
+    const def = (trans.length ? trans : subs)[(this.rng("opp-pick") * Math.min(3, (trans.length ? trans : subs).length)) | 0];
     const defNode = this.nodes[def];
     // calibrated destination: draw from the move's own cal.outcomes (encodes the miss distribution),
     // fall back to the legacy resultPos heuristic when the node is uncalibrated.
@@ -3670,10 +3722,23 @@ class Component extends DCLogic {
   startLoop() {
     this.startTime = null;
     this.lastT = performance.now() / 1000;
+    if (this.isTest()) { this._simNow = 0; this.lastT = 0; return; } // frames advance only via advance()
     const loop = (ms) => {
       this._raf = requestAnimationFrame(loop);
       try {
-        this.now = ms / 1000;
+        this._tick(ms / 1000);
+      } catch (err) {
+        console.error("frame error", err);
+      }
+    };
+    this._raf = requestAnimationFrame(loop);
+  }
+
+  // one simulation+render frame — shared by the rAF loop and the test-mode frame pump
+  _tick(nowSec) {
+    {
+      {
+        this.now = nowSec;
         let dt = this.now - this.lastT; this.lastT = this.now;
         if (dt > 0.05) dt = 0.05;
         this._mdt = dt;
@@ -3698,11 +3763,8 @@ class Component extends DCLogic {
         this.updateCamera(dt);
         this.trail = this.trail.filter((e) => this.now - e.time < 2.8);
         this.draw();
-      } catch (err) {
-        console.error("frame error", err);
       }
-    };
-    this._raf = requestAnimationFrame(loop);
+    }
   }
 
   resize() {

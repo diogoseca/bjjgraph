@@ -79,3 +79,10 @@ neural/src/*
 !neural/src/helmet.html
 !neural/src/props.json
 !neural/src/technique-content.js
+
+# Playwright journey-suite artifacts (e2e/gallery keyframes are regenerated per run)
+e2e/report/
+e2e/test-results/
+test-results/
+e2e/gallery/
+node_modules/
