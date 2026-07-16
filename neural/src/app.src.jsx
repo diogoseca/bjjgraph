@@ -70,6 +70,8 @@ class Component extends DCLogic {
 
   componentDidMount() { this.boot(); }
   componentWillUnmount() {
+    try { this.clearClipLoops(); } catch (e) {}
+    this._detailCtx = null;
     if (this._raf) cancelAnimationFrame(this._raf);
     if (this._ro) this._ro.disconnect();
     if (this._onWinResize) window.removeEventListener("resize", this._onWinResize);
@@ -162,6 +164,16 @@ class Component extends DCLogic {
   resetRoll() {
     this.setPaused(false);
     this.startRoll();
+  }
+  // hard-disarm every in-flight engagement (decision window, defense, tension sweep) — the
+  // seam every roll restart goes through, so a stale clock can never tap you out of a roll
+  // you already left (ghost defeat + persisted ladder demotion), a dead defense can never
+  // reroute odds refreshes to escape math, and a cancelled sweep never haunts the canvas.
+  clearEngagement() {
+    this._decision = null; this._optPick = null; this._optList = null;
+    this._defendSub = null; this._panicKey = null;
+    this._sweep = null; this._hitStop = null; this._shake = null;
+    this.killVignette(false);
   }
 
   // ---------- color ----------
@@ -1542,7 +1554,7 @@ class Component extends DCLogic {
     // explicitly instead (a surprise auto-playing player would poison determinism).
     if (this._curClips && this._curClips.length && !this.isTest()) {
       const fi = this._curClips.findIndex((c) => c.vertical);
-      setTimeout(() => { if (this._detailCtx && this._detailCtx.opt === opt) this.watchShort(fi < 0 ? 0 : fi); }, 420);
+      setTimeout(() => { if (!this.__ngDestroyed && this._detailCtx && this._detailCtx.opt === opt) this.watchShort(fi < 0 ? 0 : fi); }, 420);
     }
     panel.appendChild(scroller);
     const foot = document.createElement("div");
@@ -2802,7 +2814,7 @@ class Component extends DCLogic {
   }
   openSearch() { this._searchQ = ""; this._searchSel = null; this.openModal(); this.renderSearch(); }
   playFrom(idx, role) {
-    this.clearTimers(); this.clearOptions(); this.closeModal(); this.setPaused(false);
+    this.clearTimers(); this.clearOptions(); this.clearEngagement(); this.closeModal(); this.setPaused(false);
     this.playerRole = role;
     this.aiSkill = this.get("difficulty", "normal") === "off" ? 0 : 0.06 + this.rng("ai-skill") * 0.14;
     this.moveCount = 0; this.maxMoves = 9 + ((this.rng("max-moves") * 4) | 0);
@@ -3430,6 +3442,7 @@ class Component extends DCLogic {
     let seen = null; try { seen = localStorage.getItem("bjj-neural-coached"); } catch (e) {}
     if (seen) { this._coachDone = true; return; }
     this._coach = 1;
+    this._setBarsPaused(true); // the CSS countdown bars run on wall clock — freeze them with the clock
     this.renderCoach();
     this.fx("coach_1", {});
   }
@@ -3441,8 +3454,13 @@ class Component extends DCLogic {
     this.renderCoach();
   }
   dismissCoach() { if (this._coach) this.finishCoach(); }
+  _setBarsPaused(p) {
+    const el = this.optionsRef.current; if (!el) return;
+    el.querySelectorAll(".ngbar").forEach((b) => { b.style.animationPlayState = p ? "paused" : "running"; });
+  }
   finishCoach() {
     this._coach = null; this._coachDone = true;
+    this._setBarsPaused(this.paused); // resume unless the game itself is paused
     try { localStorage.setItem("bjj-neural-coached", "1"); } catch (e) {}
     if (this._coachEl) { try { this._coachEl.remove(); } catch (e) {} this._coachEl = null; }
     this.fx("coach_done", {});
@@ -3534,7 +3552,7 @@ class Component extends DCLogic {
   // ---------- roll state machine ----------
   rollFromPosition(nodeIdx) {
     // start a NEW roll seeded at a chosen position; the current roll is archived into Previous rolls
-    this.clearTimers(); this.clearOptions();
+    this.clearTimers(); this.clearOptions(); this.clearEngagement();
     let posIdx = nodeIdx;
     if (this.nodes[nodeIdx] && this.nodes[nodeIdx].ty !== "positions") {
       let p = -1; for (const k of this.adj[nodeIdx]) { if (this.nodes[k].ty === "positions") { p = k; break; } }
@@ -3561,7 +3579,7 @@ class Component extends DCLogic {
     this.after(0.6, () => this.enterLand(true));
   }
   startRoll() {
-    this.clearTimers(); this.clearOptions();
+    this.clearTimers(); this.clearOptions(); this.clearEngagement();
     this.track("neural_roll_started", {});
     // archive the roll that just ended so the sidebar can show "Previous roll / Today / Yesterday"
     if (this.rollLog && this.rollLog.length > 1) {
@@ -3771,8 +3789,9 @@ class Component extends DCLogic {
     let m = this.userMods.find((x) => x.name === node.t);
     if (!m) {
       const cat = node.ty === "submissions" ? "Submission" : node.ty === "transitions" ? "Transition" : "Position";
-      const cs = this.calSuccess(node); // seed the stepper from the calibrated rate, not the pre-modifier heuristic
-      m = { name: node.t, cat: cat, pct: Math.round((cs != null ? cs : this.moveChance(node)) * 100), on: true };
+      const cs = this.calSuccess(node); // seed from the calibrated (or raw base) rate — moveChance would fossilize transient sharpness/film/opponent modifiers into a permanent override
+      const seed = cs != null ? cs : Math.max(0.05, Math.min(0.95, (node.ty === "submissions" ? 0.36 : 0.56) + (node.dom || 0) * 0.1));
+      m = { name: node.t, cat: cat, pct: Math.round(seed * 100), on: true };
       this.userMods.push(m);
     }
     m.on = true;
@@ -4158,6 +4177,7 @@ class Component extends DCLogic {
 
   jumpToState(idx) {
     const n = this.nodes[idx]; if (!n) return;
+    this.clearEngagement();
     // resolve to a position: positions go directly; actions resolve to a connected position
     let posIdx = idx;
     if (n.ty !== "positions") {
