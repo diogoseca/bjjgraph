@@ -1,4 +1,15 @@
 import { expect, type Page } from "@playwright/test"
+import { readFileSync } from "node:fs"
+import { resolve } from "node:path"
+
+// Big data payloads served from a per-worker buffer: on a saturated CI box, `npx serve`
+// streaming 13.5MB per fresh browser context can stall a boot past any reasonable budget.
+// Fulfilling from memory makes every boot deterministic (locally it's a no-op speedup).
+const PAYLOADS: Record<string, Buffer> = {}
+const payload = (rel: string) => {
+  if (!PAYLOADS[rel]) PAYLOADS[rel] = readFileSync(resolve(__dirname, "../source/public/static/neural", rel))
+  return PAYLOADS[rel]
+}
 
 /**
  * Journey DSL — Playwright plays AS the user through the Neural Graph app.
@@ -52,6 +63,12 @@ export class Journey {
     // the next navigation (net::ERR_ABORTED on the second boot of a determinism replay).
     if (!(this.page as any).__ngRouted) {
       await this.page.route("**/technique-content.js", (r) => r.abort())
+      await this.page.route("**/flashcards.json", (r) =>
+        r.fulfill({ body: payload("flashcards.json"), contentType: "application/json" }),
+      )
+      await this.page.route("**/graph-data.json", (r) =>
+        r.fulfill({ body: payload("graph-data.json"), contentType: "application/json" }),
+      )
       ;(this.page as any).__ngRouted = true
     }
     try {
