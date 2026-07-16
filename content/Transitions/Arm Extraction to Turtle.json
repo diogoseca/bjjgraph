@@ -268,7 +268,27 @@
         "answer": "Tap immediately when shoulder pressure reaches your discomfort threshold, when you cannot maintain shoulder internal rotation, when your arm is being extended against your resistance, or when opponent's pressure is increasing with no extraction window available. Shoulder injuries from Aoki Lock include rotator cuff tears, labrum damage, and dislocation. No escape attempt is worth permanent injury - this applies in both training and competition."
       }
     ],
-    "safety_considerations": "Arm Extraction to Turtle involves escaping from a position with significant shoulder injury potential. The Aoki Lock applies rotational stress to the shoulder capsule that can cause rotator cuff tears, labrum damage, and shoulder dislocation if defended improperly. Always maintain shoulder internal rotation throughout the escape to protect joint integrity. Never attempt to muscle through tight leg entanglement, as this dramatically increases injury risk. Tap immediately if pressure reaches dangerous levels - no training escape is worth permanent shoulder damage. When drilling, partners should apply progressive pressure slowly and release immediately upon any tap signal. Avoid this escape attempt if you have pre-existing shoulder injuries or reduced shoulder mobility. In competition, prioritize safety over position - accepting a submission loss is preferable to career-ending shoulder injury."
+    "safety_considerations": "Arm Extraction to Turtle involves escaping from a position with significant shoulder injury potential. The Aoki Lock applies rotational stress to the shoulder capsule that can cause rotator cuff tears, labrum damage, and shoulder dislocation if defended improperly. Always maintain shoulder internal rotation throughout the escape to protect joint integrity. Never attempt to muscle through tight leg entanglement, as this dramatically increases injury risk. Tap immediately if pressure reaches dangerous levels - no training escape is worth permanent shoulder damage. When drilling, partners should apply progressive pressure slowly and release immediately upon any tap signal. Avoid this escape attempt if you have pre-existing shoulder injuries or reduced shoulder mobility. In competition, prioritize safety over position - accepting a submission loss is preferable to career-ending shoulder injury.",
+    "clips": [
+      {
+        "id": "JbRfIo1NTLk",
+        "title": "Clearing the Kneeline: Leglock Defense",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 274,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uZbUhFapIhg",
+        "title": "Leglock Defense and Extraction",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 163,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Arm Extraction to Turtle Defender",
@@ -399,6 +419,26 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Full resistance positional rounds starting from Aoki Lock top. Work to either finish the submission or transition to back control while partner attempts extraction. Integrate recognition cues, control maintenance, and transition timing under live conditions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "WK5MfZ_1ENA",
+        "title": "The Aoki Lock Explained",
+        "by": "Still Rolling",
+        "vertical": false,
+        "channel": "Still Rolling",
+        "duration": 219,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "iByvUzTk4Ko",
+        "title": "Leg Lock Control Concepts",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dynamix MMA",
+        "duration": 225,
+        "verified": "2026-07-15"
       }
     ]
   },

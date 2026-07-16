@@ -761,6 +761,24 @@
       "channel": "Eddie Bravo",
       "duration": 60,
       "verified": "2026-07-14"
+    },
+    {
+      "id": "h6o7-9u4NHo",
+      "title": "Polishing the meathook",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "Eddie Bravo",
+      "duration": 61,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "0w0642zFqWo",
+      "title": "Troubleshooting the meathook",
+      "by": "Brandon McCaghren",
+      "vertical": false,
+      "channel": "Brandon Mccaghren",
+      "duration": 61,
+      "verified": "2026-07-15"
     }
   ]
 }

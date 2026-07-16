@@ -380,6 +380,24 @@
         "channel": "Dr. Deng",
         "duration": 17,
         "verified": "2026-07-14"
+      },
+      {
+        "id": "KbOkHMVhnT8",
+        "title": "Americana from the mount",
+        "by": "Renzo Gracie",
+        "vertical": false,
+        "channel": "Gallerr",
+        "duration": 91,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "mhpeVqdfZgQ",
+        "title": "Hidden detail to finish the americana",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 696,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -526,6 +544,24 @@
         "channel": "Eddie Kone Academy Of Jiu-Jitsu",
         "duration": 61,
         "verified": "2026-07-14"
+      },
+      {
+        "id": "FNyL93v5fGs",
+        "title": "Defending the americana",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 91,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Ht5OdSQG3BY",
+        "title": "Kipping escape: defend the americana into a heel hook",
+        "by": "Brian Glick",
+        "vertical": false,
+        "channel": "Brian Glick",
+        "duration": 330,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -287,6 +287,24 @@
         "channel": "BJJ Fanatics",
         "duration": 111,
         "verified": "2026-07-15"
+      },
+      {
+        "id": "yPK7EmnEeug",
+        "title": "Open Guard Step Over Pass",
+        "by": "Luigi Mondelli",
+        "vertical": false,
+        "channel": "PitBlackBelt",
+        "duration": 164,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "NnJicKKBXds",
+        "title": "Step Around Pass",
+        "by": "Braulio Estima",
+        "vertical": false,
+        "channel": "JiuJitsuMag",
+        "duration": 90,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -438,6 +456,24 @@
         "vertical": false,
         "channel": "Revolution BJJ",
         "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "r3ryggpYhb0",
+        "title": "Roger Gracie's Best Advice on Escaping Mount",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 233,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "UUfzOO0JouI",
+        "title": "Folding Technical Mount Escape",
+        "by": "Inverted Gear",
+        "vertical": false,
+        "channel": "Inverted Gear",
+        "duration": 50,
         "verified": "2026-07-15"
       }
     ]

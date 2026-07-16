@@ -425,6 +425,24 @@
         "channel": "Nina Drama Clips",
         "duration": 188,
         "verified": "2026-07-14"
+      },
+      {
+        "id": "EcUgqt4Lvvw",
+        "title": "Knee Cut to Quarter Mount Pass",
+        "by": "Greg Hamilton",
+        "vertical": false,
+        "channel": "Renzo Gracie Jiu Jitsu DFW",
+        "duration": 207,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "rwk1iPbjnKc",
+        "title": "Knee Slice to Quarter Traditional Pass",
+        "by": "Brian Marvin",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 214,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -819,6 +837,24 @@
       "channel": "Stephan Kesting",
       "duration": 109,
       "verified": "2026-07-14"
+    },
+    {
+      "id": "sMsgoChdaHE",
+      "title": "Quarter Guard Concepts",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "Eddie Bravo",
+      "duration": 61,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "gEwRYxN_pIM",
+      "title": "Getting to Quarter Guard",
+      "by": "Estevan Martinez",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 122,
+      "verified": "2026-07-15"
     }
   ]
 }

@@ -283,7 +283,27 @@
         "answer": "The guillotine grip fatigues the forearm flexors intensely, and this fatigue directly compromises your ability to establish the collar and sleeve grips needed for open guard. You must account for degraded grip endurance when planning the recovery—this is why proactive release before total grip failure is essential. If your forearms are severely fatigued, prioritize feet-on-hips distance management and shin frames that rely on leg strength rather than grip-dependent guards like spider or lasso that would collapse under compromised grip endurance."
       }
     ],
-    "safety_considerations": "Guard recovery from guillotine control carries moderate risk primarily from neck strain. The guillotine position itself places stress on the cervical spine, and transitioning out of it while the opponent may still have partial head control requires careful neck management. Avoid explosive head movements to extract from residual guillotine pressure—instead, use posture and framing to gradually relieve neck compression. Communicate with training partners about choke intensity during guillotine-to-guard-recovery drilling to prevent carotid compression injuries during the transition window."
+    "safety_considerations": "Guard recovery from guillotine control carries moderate risk primarily from neck strain. The guillotine position itself places stress on the cervical spine, and transitioning out of it while the opponent may still have partial head control requires careful neck management. Avoid explosive head movements to extract from residual guillotine pressure—instead, use posture and framing to gradually relieve neck compression. Communicate with training partners about choke intensity during guillotine-to-guard-recovery drilling to prevent carotid compression injuries during the transition window.",
+    "clips": [
+      {
+        "id": "IvSVZuezQGo",
+        "title": "Double Elbow to High Elbow Guillotine",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 171,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "aMzd1nLGvMs",
+        "title": "Sweep From Failed Guillotine In The Guard",
+        "by": "GrapplingMechanics Coach",
+        "vertical": false,
+        "channel": "GrapplingMechanics",
+        "duration": 56,
+        "verified": "2026-07-16"
+      }
+    ]
   },
   "defender": {
     "name": "Guard Recovery from Guillotine Control Defender",
@@ -417,6 +437,24 @@
         "vertical": false,
         "channel": "BJJ4Breakfast",
         "duration": 115,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "v-CRBRea_KY",
+        "title": "Guillotine Escape and Defense from Full Guard",
+        "by": "Nick Albin",
+        "vertical": false,
+        "channel": "Chewjitsu",
+        "duration": 319,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "of0cW2fN9vA",
+        "title": "How to Escape the Tightest Guillotines",
+        "by": "Brian Glick",
+        "vertical": false,
+        "channel": "Brian Glick",
+        "duration": 354,
         "verified": "2026-07-15"
       }
     ]

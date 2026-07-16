@@ -426,21 +426,30 @@
   ],
   "clips": [
     {
-      "id": "JzEaiLDwIwc",
-      "title": "Base, posture and structure on the technical stand up",
-      "by": "Jiu Jitsu X Factor",
-      "vertical": false,
-      "channel": "Jiu Jitsu X Factor",
-      "duration": 71,
-      "verified": "2026-07-15"
-    },
-    {
       "id": "Fy9h-dF6dcA",
       "title": "What kuzushi is and how it breaks base",
       "by": "Stephan Kesting",
       "vertical": false,
       "channel": "Stephan Kesting",
       "duration": 61,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "azzYS65sqks",
+      "title": "Three core principles: base, posture, structure",
+      "by": "Joel Snape",
+      "vertical": false,
+      "channel": "Joel Snape",
+      "duration": 379,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "Wy6Si0FuQaU",
+      "title": "Base and weight concepts for maintaining mount",
+      "by": "Roger Gracie",
+      "vertical": false,
+      "channel": "Roger Gracie TV",
+      "duration": 890,
       "verified": "2026-07-15"
     }
   ]

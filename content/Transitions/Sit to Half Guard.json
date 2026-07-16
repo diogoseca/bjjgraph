@@ -278,21 +278,21 @@
     "safety_considerations": "This escape involves rapid positional transition with brief back exposure that can result in neck strain if executed against a fully-locked choke. Never attempt the sitting motion when opponent has deep collar grip with perpendicular pressure already applied—the rotation will tighten the choke around your neck. Train the timing recognition extensively with cooperative partners before adding resistance. Ensure your neck has warmed up adequately before drilling turtle escapes. When drilling at higher intensities, tap immediately if you feel choking pressure increase during the sitting motion rather than fighting through. Partners should release collar grips quickly when they feel the escape initiating to allow safe technical development.",
     "clips": [
       {
-        "id": "ZBOagHWTCFw",
-        "title": "Buggy choke from half guard",
-        "by": "Moncaio Brothers",
+        "id": "pTLNsCv1aCw",
+        "title": "Turtle to Half Guard",
+        "by": "Bernardo Faria",
         "vertical": false,
-        "channel": "Moncaio Brothers Jiujitsu",
-        "duration": 33,
+        "channel": "BJJ Fanatics",
+        "duration": 216,
         "verified": "2026-07-15"
       },
       {
-        "id": "_CH4ZiXdxpQ",
-        "title": "Buggy choke sweep",
-        "by": "BJJ Doug",
+        "id": "jNC34nzjpOg",
+        "title": "Turtle Guard Sweeps and Reversals",
+        "by": "Stephan Kesting",
         "vertical": false,
-        "channel": "bjj doug",
-        "duration": 13,
+        "channel": "Stephan Kesting",
+        "duration": 249,
         "verified": "2026-07-15"
       }
     ]
@@ -429,12 +429,21 @@
     ],
     "clips": [
       {
-        "id": "U-eR63GzcIo",
-        "title": "Buggy choke mechanics and counters",
-        "by": "Jacob Rodriguez",
+        "id": "qymk3xe3boE",
+        "title": "Two Ways to Break Through Half Guard",
+        "by": "BIG OSS Jiu-Jitsu",
         "vertical": false,
-        "channel": "Jiu Jitsu Moves",
-        "duration": 67,
+        "channel": "BIG OSS Jiu-Jitsu Channel",
+        "duration": 526,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Ft6OyIZ6vPs",
+        "title": "Stop Giving Up Your Back - Turtle Escape System",
+        "by": "Jozef Chen",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 149,
         "verified": "2026-07-15"
       }
     ]

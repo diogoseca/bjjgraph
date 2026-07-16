@@ -300,6 +300,24 @@
         "channel": "FreeChannelOpen",
         "duration": 114,
         "verified": "2026-07-15"
+      },
+      {
+        "id": "DFXdqByRxNg",
+        "title": "Standing rear body lock: counters and reversals",
+        "by": "Brian Glick",
+        "vertical": false,
+        "channel": "Brian Glick",
+        "duration": 318,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "PARsvWFmssI",
+        "title": "Chaining escapes from bottom pin",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Gordon Ryan",
+        "duration": 273,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -425,6 +443,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full-speed body lock retention and conversion against all reversal variants",
         "description": "Start from standing body lock with full resistance. Top player works to complete mat return or throw while bottom player attempts all reversal variants. Two-minute rounds with role switching. Track conversion rate to back control or side control versus opponent achieving half guard recovery. Target seventy percent or higher conversion rate against equal-level partners."
+      }
+    ],
+    "clips": [
+      {
+        "id": "we3wrU-Ctbw",
+        "title": "Body lock pass details: holding it through resistance",
+        "by": "Nicky Ryan",
+        "vertical": false,
+        "channel": "The B-Team",
+        "duration": 466,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "y-gsdLH2YBs",
+        "title": "Beating the step over from body lock",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 242,
+        "verified": "2026-07-15"
       }
     ]
   }

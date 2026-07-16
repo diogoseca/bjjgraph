@@ -296,6 +296,24 @@
         "channel": "Edward “Scissorhands” Anthony Jiu Jitsu ",
         "duration": 81,
         "verified": "2026-07-15"
+      },
+      {
+        "id": "Q8odQwIPzkk",
+        "title": "Shoulder cut from hip clamp",
+        "by": "Warren Brooks",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 214,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "WliTCjEDA-8",
+        "title": "Basic entries into rubber guard",
+        "by": "BJJ4Breakfast coach",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 106,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -407,6 +425,26 @@
         "phase": "Phase 4: Preventive Passing",
         "focus": "Elbow discipline during guard engagement",
         "description": "Full-speed positional sparring from open guard with the specific constraint of keeping elbows tight. Develop passing approaches that minimize arm extension inside the guard. Build the habit of controlling from the outside rather than reaching inside where the clamp can intercept."
+      }
+    ],
+    "clips": [
+      {
+        "id": "PgKNQqTFsLc",
+        "title": "3 ways to stop the clamp sweep",
+        "by": "UltimateMMA Plus",
+        "vertical": false,
+        "channel": "UltimateMMA Plus",
+        "duration": 440,
+        "verified": "2026-07-16"
+      },
+      {
+        "id": "mycu_0dRZg8",
+        "title": "How to stop getting leg locked from clamp entries",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 331,
+        "verified": "2026-07-16"
       }
     ]
   }

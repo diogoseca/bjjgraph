@@ -267,7 +267,27 @@
         "answer": "Execute a second hip escape in the same diagonal direction before the opponent can fully close the distance. Chain multiple smaller shrimps rather than relying on a single large one. Each successive hip escape compounds the space created. If the knee is partially inserted, use it as a frame to prevent the opponent from collapsing back in while you complete the second shrimp and finish establishing guard."
       }
     ],
-    "safety_considerations": "This escape technique is relatively low-risk when executed properly, but practitioners should be aware of several safety considerations. First, never continue attempting the escape if the choke is fully locked and you feel significant pressure on your carotid arteries—tap and reset rather than risk loss of consciousness. The elbow wedge should relieve pressure; if it doesn't, the choke may be too deep for this escape. Second, be cautious not to hyperextend your own neck while tucking your chin, especially if opponent is applying strong downward pressure. Third, when training this technique, partners applying the buggy choke should apply pressure gradually and release immediately on tap signals. The choke can come on fast once grips are secured. Finally, practitioners with neck injuries should approach this escape cautiously and may need to prioritize other defensive options that put less stress on cervical structures."
+    "safety_considerations": "This escape technique is relatively low-risk when executed properly, but practitioners should be aware of several safety considerations. First, never continue attempting the escape if the choke is fully locked and you feel significant pressure on your carotid arteries—tap and reset rather than risk loss of consciousness. The elbow wedge should relieve pressure; if it doesn't, the choke may be too deep for this escape. Second, be cautious not to hyperextend your own neck while tucking your chin, especially if opponent is applying strong downward pressure. Third, when training this technique, partners applying the buggy choke should apply pressure gradually and release immediately on tap signals. The choke can come on fast once grips are secured. Finally, practitioners with neck injuries should approach this escape cautiously and may need to prioritize other defensive options that put less stress on cervical structures.",
+    "clips": [
+      {
+        "id": "CD1PBfMol-k",
+        "title": "How to Defend the Ruotolo Brothers' Buggy Choke",
+        "by": "Less Impressed More Involved BJJ",
+        "vertical": false,
+        "channel": "Less Impressed More Involved BJJ",
+        "duration": 253,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "6VmI-HMAQso",
+        "title": "How to Defend Against the Buggy Choke",
+        "by": "MMA Leech",
+        "vertical": false,
+        "channel": "MMA Leech",
+        "duration": 239,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Elbow Escape to Guard Defender",
@@ -391,6 +411,26 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Full resistance positional rounds starting from established buggy choke. Top player works to finish or maintain position while bottom player uses full escape repertoire. Develop real-time decision making and pattern recognition against varied escape timing and combinations."
+      }
+    ],
+    "clips": [
+      {
+        "id": "0_3YYrWEGoU",
+        "title": "3 Buggy Choke Finishing Concepts",
+        "by": "Kade and Tye Ruotolo",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 201,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "7xyLRBtUmoU",
+        "title": "Buggy Choke Position Tips and Finish Details",
+        "by": "Rene Sousa",
+        "vertical": false,
+        "channel": "The Grapplers Guide by Jason Scully",
+        "duration": 356,
+        "verified": "2026-07-15"
       }
     ]
   },

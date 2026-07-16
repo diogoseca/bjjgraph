@@ -304,6 +304,24 @@
         "channel": "Mark VanSchuyver",
         "duration": 59,
         "verified": "2026-07-15"
+      },
+      {
+        "id": "QiWXoez9cPI",
+        "title": "Foot to Bicep Guard Sweep",
+        "by": "Prodigy MMA coach",
+        "vertical": false,
+        "channel": "Prodigy MMA Australia",
+        "duration": 47,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Bp0v7c_MrbY",
+        "title": "The Right Way to Get Feet on Biceps Position",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 125,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -425,6 +443,26 @@
         "phase": "Phase 4: Full Resistance Positional Sparring",
         "focus": "Live defense against complete sweep system",
         "description": "Positional sparring from feet-on-hips guard where bottom player uses push sweep, tripod sweep, and sickle sweep in combination. Defender must manage base against all three threats simultaneously while working to pass. Develops integrated defensive awareness against the complete system."
+      }
+    ],
+    "clips": [
+      {
+        "id": "GbWF9YVFTNw",
+        "title": "Best Way to Pass Any Guard: Beating Feet on Hips",
+        "by": "Andre Galvao",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 464,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "k812PHP8VlI",
+        "title": "Pressure Passing Concepts vs Open Guard Frames",
+        "by": "Andre Galvao",
+        "vertical": false,
+        "channel": "Atos Jiu-Jitsu HQ | World's Best BJJ Academy - Home Page",
+        "duration": 481,
+        "verified": "2026-07-15"
       }
     ]
   }

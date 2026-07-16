@@ -345,6 +345,24 @@
         "channel": "Factory Fresh Jiu Jitsu",
         "duration": 77,
         "verified": "2026-07-14"
+      },
+      {
+        "id": "QDNLTs55V8c",
+        "title": "Sneaky Aoki Lock from the Saddle",
+        "by": "Grappling Education",
+        "vertical": false,
+        "channel": "Grappling Education",
+        "duration": 121,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "9F3m0gNYlXU",
+        "title": "How to Do the Aoki Lock in No-Gi Grappling",
+        "by": "Stephan Kesting",
+        "vertical": false,
+        "channel": "Stephan Kesting",
+        "duration": 386,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -678,6 +696,24 @@
       "channel": "Grappling Education",
       "duration": 121,
       "verified": "2026-07-14"
+    },
+    {
+      "id": "N9dnzaleHdk",
+      "title": "The Aoki Lock Explained",
+      "by": "Jeremy Skinner",
+      "vertical": false,
+      "channel": "Absolute MMA St Kilda - Melbourne",
+      "duration": 268,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "S2DMBU42Yl0",
+      "title": "Get the Aoki Lock Finish Every Time",
+      "by": "Brian Glick",
+      "vertical": false,
+      "channel": "Brian Glick",
+      "duration": 273,
+      "verified": "2026-07-15"
     }
   ]
 }

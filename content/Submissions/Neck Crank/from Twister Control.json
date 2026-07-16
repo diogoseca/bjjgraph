@@ -374,6 +374,24 @@
         "channel": "All American Karate",
         "duration": 50,
         "verified": "2026-07-14"
+      },
+      {
+        "id": "vHEYftsqG9Y",
+        "title": "Neck Crank from Twister",
+        "by": "Brazil Toronto Coach",
+        "vertical": false,
+        "channel": "Brazil Toronto",
+        "duration": 59,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MxE2Jmkm-g4",
+        "title": "The Twister from Twister Side Control",
+        "by": "Submissions101 Coach",
+        "vertical": false,
+        "channel": "Submissions101",
+        "duration": 263,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -528,6 +546,24 @@
         "channel": "Matrix Jiu Jitsu",
         "duration": 165,
         "verified": "2026-07-14"
+      },
+      {
+        "id": "ydd68X6-1Cg",
+        "title": "Neck Cranks: Defense and Escapes",
+        "by": "Energia Martial Arts Coach",
+        "vertical": false,
+        "channel": "Energia Martial Arts",
+        "duration": 346,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "hxMggfwKx-I",
+        "title": "Advanced Back Escapes",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
       }
     ]
   }

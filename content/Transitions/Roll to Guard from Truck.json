@@ -313,6 +313,24 @@
         "channel": "Brian Glick",
         "duration": 209,
         "verified": "2026-07-15"
+      },
+      {
+        "id": "PARsvWFmssI",
+        "title": "Chaining escapes from bottom pins back to guard",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Gordon Ryan",
+        "duration": 273,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "i08uQgulYmc",
+        "title": "Five ways to recover guard from turtle",
+        "by": "Big Oss Jiu-Jitsu",
+        "vertical": false,
+        "channel": "BIG OSS Jiu-Jitsu Channel",
+        "duration": 504,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -430,6 +448,26 @@
         "phase": "Phase 3: Live Positional Sparring",
         "focus": "Full-speed escape prevention and counter",
         "description": "Full-speed positional sparring from truck position. Top player works to maintain truck and finish submissions while defending against all escape attempts including the Roll to Guard. Bottom player uses full resistance. Develop real-time decision making for prevention versus following the roll to back control."
+      }
+    ],
+    "clips": [
+      {
+        "id": "NhxDerwXxSU",
+        "title": "Countering the Truck by Flipping It",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 640,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "TSUbl6HmLiw",
+        "title": "Truck Escape",
+        "by": "Elevate MMA Academy",
+        "vertical": false,
+        "channel": "Elevate MMA Academy",
+        "duration": 182,
+        "verified": "2026-07-15"
       }
     ]
   }

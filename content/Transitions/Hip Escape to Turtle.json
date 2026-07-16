@@ -275,7 +275,27 @@
         "answer": "Push the foot perpendicular to the line of their shin, directing force outward away from behind their knee. The foot is wedged in a pocket created by the knee bend, so pushing along the shin accomplishes nothing. The perpendicular push leverages the weakest axis of the lock. Combine this push with your hip escape movement for maximum effect, as the space created by the shrimp reduces the clamping force holding the foot in position."
       }
     ],
-    "safety_considerations": "Practice body triangle escapes with clear communication about pressure levels, especially regarding breathing restriction. Partners should use moderate squeeze pressure during drilling rather than competition-level compression to allow technical learning. If the bottom person taps or signals distress, immediately release all pressure. Build up intensity gradually over training sessions as the defender develops comfort with restricted breathing. Avoid drilling this escape when fatigued as judgment and timing suffer under oxygen restriction. The neck attack component requires careful training - partners should not apply full choke pressure during escape drilling. Those with rib injuries or breathing conditions should modify training intensity and communicate limitations before starting."
+    "safety_considerations": "Practice body triangle escapes with clear communication about pressure levels, especially regarding breathing restriction. Partners should use moderate squeeze pressure during drilling rather than competition-level compression to allow technical learning. If the bottom person taps or signals distress, immediately release all pressure. Build up intensity gradually over training sessions as the defender develops comfort with restricted breathing. Avoid drilling this escape when fatigued as judgment and timing suffer under oxygen restriction. The neck attack component requires careful training - partners should not apply full choke pressure during escape drilling. Those with rib injuries or breathing conditions should modify training intensity and communicate limitations before starting.",
+    "clips": [
+      {
+        "id": "Ft6OyIZ6vPs",
+        "title": "Turtle Escape & Back-Exposure System",
+        "by": "Jozef Chen",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 149,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "3Jd2llamfl8",
+        "title": "Back Control Escape Explained Simply",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 189,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Hip Escape to Turtle Defender",
@@ -400,6 +420,26 @@
         "phase": "Week 7+",
         "focus": "Full resistance retention sparring",
         "description": "Positional sparring starting in body triangle with full resistance from both sides. Partner uses all escape variations including granby roll, frame and slide, and chest-to-mat. Practice complete retention game including prevention, counter-attacks, and hooks transition fallback under realistic conditions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "zcJe8NnWtfk",
+        "title": "Back Attack Secrets: Keeping the Back",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Gordon Ryan",
+        "duration": 341,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "zzovZGhewQY",
+        "title": "Back Attack System: Holding the Back",
+        "by": "Jordan Preisinger",
+        "vertical": false,
+        "channel": "Jordan Teaches Jiujitsu",
+        "duration": 694,
+        "verified": "2026-07-15"
       }
     ]
   },

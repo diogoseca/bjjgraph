@@ -432,21 +432,30 @@
   ],
   "clips": [
     {
+      "id": "hF0QNMgV6NQ",
+      "title": "Active posting to set up and defend submissions",
+      "by": "BJJ Cache",
+      "vertical": false,
+      "channel": "BJJ Cache",
+      "duration": 322,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "WRnKMbQqnD4",
+      "title": "Building structures, frames and posts",
+      "by": "MMA Leech",
+      "vertical": false,
+      "channel": "MMA Leech",
+      "duration": 381,
+      "verified": "2026-07-15"
+    },
+    {
       "id": "0WZjs49l8Qk",
       "title": "Active toes: posting with the feet",
       "by": "M1FC",
       "vertical": false,
       "channel": "M1FC",
       "duration": 70,
-      "verified": "2026-07-15"
-    },
-    {
-      "id": "MsQlTea-hbo",
-      "title": "Building a strong base and posts",
-      "by": "Billy Edelen",
-      "vertical": false,
-      "channel": "moBILLity - Billy Edelen",
-      "duration": 131,
       "verified": "2026-07-15"
     }
   ]

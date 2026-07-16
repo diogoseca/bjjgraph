@@ -474,6 +474,24 @@
         "channel": "Pendergrass Academy of Martial Arts",
         "duration": 119,
         "verified": "2026-07-15"
+      },
+      {
+        "id": "sfHpgnrwVkc",
+        "title": "Rolling Kimura Counter",
+        "by": "Shawn Williams",
+        "vertical": false,
+        "channel": "Grappling Central",
+        "duration": 189,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "9CJx9mZimwQ",
+        "title": "Kimura Trap Counter",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "Marcelo Garcia Jiu-Jitsu",
+        "duration": 300,
+        "verified": "2026-07-15"
       }
     ]
   }

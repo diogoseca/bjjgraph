@@ -370,6 +370,15 @@
         "channel": "BJJ Fanatics",
         "duration": 61,
         "verified": "2026-07-15"
+      },
+      {
+        "id": "bWZFXzzs05U",
+        "title": "Grasshopper guard pass",
+        "by": "Binhtri Vu",
+        "vertical": false,
+        "channel": "Binhtri Vu",
+        "duration": 347,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -778,6 +787,24 @@
       "channel": "Learn Faster BJJ - Jiu Jitsu Breakdowns",
       "duration": 122,
       "verified": "2026-07-14"
+    },
+    {
+      "id": "ts6plGhJ4gI",
+      "title": "Grasshopper Guard techniques and entries overview",
+      "by": "Danny Fung",
+      "vertical": false,
+      "channel": "Danny Fung",
+      "duration": 689,
+      "verified": "2026-07-16"
+    },
+    {
+      "id": "lY8JZMAm1N4",
+      "title": "Inverted guard retention fundamentals",
+      "by": "Lachlan Giles",
+      "vertical": false,
+      "channel": "Absolute MMA St Kilda - Melbourne",
+      "duration": 369,
+      "verified": "2026-07-16"
     }
   ]
 }

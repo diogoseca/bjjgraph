@@ -436,21 +436,30 @@
   ],
   "clips": [
     {
-      "id": "z8pN9PafXTc",
-      "title": "Elbow-knee connection for guard retention",
-      "by": "Stephan Kesting",
-      "vertical": false,
-      "channel": "Stephan Kesting",
-      "duration": 167,
-      "verified": "2026-07-15"
-    },
-    {
       "id": "zJhskfuh8Ts",
       "title": "Using the frame to manage distance",
       "by": "MMA Academy Online",
       "vertical": false,
       "channel": "MMA ACADEMY ONLINE",
       "duration": 56,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "TjGVpKRUUWc",
+      "title": "Managing distance without hip escapes",
+      "by": "Ryan Hall",
+      "vertical": false,
+      "channel": "Bernardo Faria BJJ Fanatics",
+      "duration": 819,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "cdV5cRGYsyA",
+      "title": "Key guard retention and distance concepts",
+      "by": "Jordan Preisinger",
+      "vertical": false,
+      "channel": "Jordan Teaches Jiujitsu",
+      "duration": 513,
       "verified": "2026-07-15"
     }
   ]

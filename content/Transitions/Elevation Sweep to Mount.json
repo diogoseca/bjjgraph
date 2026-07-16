@@ -261,7 +261,27 @@
         "answer": "This typically occurs from releasing hooks too early or failing to follow the sweep momentum closely enough. The correction is to maintain hook contact deeper into the sweep transition, keeping your body tight to the opponent throughout the rotation. As you land, immediately drive hips forward to the solar plexus and control at least one arm before the opponent can establish frames. The mount should be consolidated within the first half-second of landing."
       }
     ],
-    "safety_considerations": "When practicing the Elevation Sweep, ensure controlled execution throughout the movement to protect both training partners. The sweep generates significant rotational force that can cause the opponent to fall unexpectedly. The landing partner should practice controlled breakfalls and the sweeping partner should guide the fall rather than dumping. Avoid executing at full power until both partners are comfortable with the mechanics. During drilling, the landing partner should tap immediately if they feel loss of control. Be cautious of knee strain when hooks are loaded heavily - release if the position feels compromised rather than forcing technique. Partners with lower back issues should communicate limitations as the elevation requires significant hip mobility."
+    "safety_considerations": "When practicing the Elevation Sweep, ensure controlled execution throughout the movement to protect both training partners. The sweep generates significant rotational force that can cause the opponent to fall unexpectedly. The landing partner should practice controlled breakfalls and the sweeping partner should guide the fall rather than dumping. Avoid executing at full power until both partners are comfortable with the mechanics. During drilling, the landing partner should tap immediately if they feel loss of control. Be cautious of knee strain when hooks are loaded heavily - release if the position feels compromised rather than forcing technique. Partners with lower back issues should communicate limitations as the elevation requires significant hip mobility.",
+    "clips": [
+      {
+        "id": "zNmrvurVcVE",
+        "title": "X Guard no-gi system: enter, elevate, sweep",
+        "by": "Energia Martial Arts",
+        "vertical": false,
+        "channel": "Energia Martial Arts",
+        "duration": 857,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "btdC6P-aStI",
+        "title": "Inverted X guard: three elevation sweep options",
+        "by": "Six Blades Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Six Blades Jiu-Jitsu Fort Worth",
+        "duration": 201,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Elevation Sweep to Mount Defender",
@@ -401,6 +421,24 @@
         "vertical": false,
         "channel": "EffortlessJiuJitsu",
         "duration": 121,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ipBdnq-j--g",
+        "title": "Backstep retention against single leg X elevation",
+        "by": "Absolute MMA St Kilda",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 302,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "7c_QyTpJy-k",
+        "title": "Guard recovery and inverting after being elevated",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 822,
         "verified": "2026-07-15"
       }
     ]

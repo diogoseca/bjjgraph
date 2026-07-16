@@ -460,6 +460,24 @@
         "channel": "FL Jiu Jitsu Studies",
         "duration": 12,
         "verified": "2026-07-15"
+      },
+      {
+        "id": "KkJv2CefDDU",
+        "title": "How Not to Get Thrown in Judo",
+        "by": "Shintaro Higashi",
+        "vertical": false,
+        "channel": "Shintaro Higashi",
+        "duration": 233,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "C7HnA1zd5Rs",
+        "title": "Judo Throw Counter-Attacks",
+        "by": "Shintaro Higashi",
+        "vertical": false,
+        "channel": "Shintaro Higashi",
+        "duration": 161,
+        "verified": "2026-07-15"
       }
     ]
   },

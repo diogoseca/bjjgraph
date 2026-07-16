@@ -266,6 +266,24 @@
         "channel": "Ramsey Dewey",
         "duration": 27,
         "verified": "2026-07-15"
+      },
+      {
+        "id": "0-Ht2pQtWRs",
+        "title": "Rolling escape out of twister side control",
+        "by": "Pearson BJJ",
+        "vertical": false,
+        "channel": "Pearson Brazilian Jiu-Jitsu",
+        "duration": 228,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Va1YNgx2E6M",
+        "title": "Escape and counter the twister",
+        "by": "Matrix Jiu Jitsu",
+        "vertical": false,
+        "channel": "Matrix Jiu Jitsu",
+        "duration": 165,
+        "verified": "2026-07-15"
       }
     ]
   },

@@ -276,6 +276,24 @@
         "channel": "UFAI GRAPPLING",
         "duration": 43,
         "verified": "2026-07-15"
+      },
+      {
+        "id": "Y0D5lpXsf1U",
+        "title": "Understanding the lockdown",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 503,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "OIr4wDxl-Ys",
+        "title": "Lockdown clinches",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 60,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -402,6 +420,26 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Full resistance positional sparring from Electric Chair. Bottom player works Electric Chair attacks while defending backstep attempts. Top player mixes backstep back take with standard lockdown escapes. Score system: back take scores for top, sweep or submission scores for bottom, guard recovery is draw. Track defensive success rate."
+      }
+    ],
+    "clips": [
+      {
+        "id": "xIkXPK5h-4A",
+        "title": "Safely escaping the lockdown",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 438,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "3A6oRsDf3oU",
+        "title": "Lockdown and electric chair counters and escapes",
+        "by": "Street Jitsu",
+        "vertical": false,
+        "channel": "Street Jitsu",
+        "duration": 286,
+        "verified": "2026-07-15"
       }
     ]
   },

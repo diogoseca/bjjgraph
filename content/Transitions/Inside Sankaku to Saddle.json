@@ -443,6 +443,24 @@
         "channel": "Jahred Dell",
         "duration": 70,
         "verified": "2026-07-15"
+      },
+      {
+        "id": "CFTLb8iywJg",
+        "title": "Defending and Escaping the Saddle",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 383,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "VSTMOIkVMAk",
+        "title": "Basic Defense and Escape from Inside Sankaku",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 217,
+        "verified": "2026-07-15"
       }
     ]
   }

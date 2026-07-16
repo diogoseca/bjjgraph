@@ -284,6 +284,24 @@
         "channel": "BJJ Fanatics",
         "duration": 153,
         "verified": "2026-07-15"
+      },
+      {
+        "id": "IkuBvrwtwtg",
+        "title": "From turtle to side control: flattening options",
+        "by": "Aaron Benzrihem",
+        "vertical": false,
+        "channel": "Aaron Benzrihem bjj",
+        "duration": 249,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8YvYkGr5FIU",
+        "title": "Turtle position to side control",
+        "by": "Rickson Gracie Academy",
+        "vertical": false,
+        "channel": "Rickson Gracie Jiu-Jitsu Academy",
+        "duration": 47,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -414,6 +432,26 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Full resistance positional sparring starting in turtle bottom against partners who mix flatten attempts with back takes and front headlock attacks. You score for successful escape to guard or standing. Track which defensive responses succeed most frequently and identify patterns in your defensive timing. Integrate turtle defense into regular rolling by working from turtle rather than immediately conceding position after guard passes."
+      }
+    ],
+    "clips": [
+      {
+        "id": "i08uQgulYmc",
+        "title": "5 ways to recover guard from turtle",
+        "by": "Big Oss Jiu-Jitsu",
+        "vertical": false,
+        "channel": "BIG OSS Jiu-Jitsu Channel",
+        "duration": 504,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "T-nJLlYiIxE",
+        "title": "Posture and framing once flattened under side control",
+        "by": "Carlos Machado",
+        "vertical": false,
+        "channel": "Carlos Machado",
+        "duration": 324,
+        "verified": "2026-07-15"
       }
     ]
   },

@@ -419,6 +419,26 @@
         "focus": "Live positional sparring",
         "description": "Full positional sparring starting from Crackhead Control top. Defend all guard recovery attempts while working toward back control advancement. Track your success rate at maintaining turtle control versus getting pulled into guard. Integrate with complete Crackhead Control top attack system."
       }
+    ],
+    "clips": [
+      {
+        "id": "o55M0DMesfE",
+        "title": "Escape the turtle and get safely back to guard",
+        "by": "Stephan Kesting",
+        "vertical": false,
+        "channel": "Stephan Kesting",
+        "duration": 173,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "61unSJ7vu4I",
+        "title": "Recovering guard from the turtle position",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 413,
+        "verified": "2026-07-15"
+      }
     ]
   },
   "variants_and_adaptations": [

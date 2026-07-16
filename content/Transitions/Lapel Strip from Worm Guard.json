@@ -268,7 +268,27 @@
         "answer": "Drive your trapped leg backward and slightly outward, away from the bottom player's hips, along the same line the lapel was fed. Pulling straight up fights the full tension of the wrap, while a rearward-and-out path follows the slack you created by breaking the grip. Combine the leg withdrawal with a simultaneous hand pull on the loose tail so the material threads free rather than re-cinching."
       }
     ],
-    "safety_considerations": "The Lapel Strip from Worm Guard is a grip fighting technique with minimal injury risk when performed correctly. Avoid explosive yanking motions that can hyperextend fingers or strain wrist joints during grip breaks. Use controlled finger peeling technique rather than sudden violent force. Be mindful of your training partner's finger safety when stripping grips and communicate clearly during drilling to prevent unnecessary strain on small joints."
+    "safety_considerations": "The Lapel Strip from Worm Guard is a grip fighting technique with minimal injury risk when performed correctly. Avoid explosive yanking motions that can hyperextend fingers or strain wrist joints during grip breaks. Use controlled finger peeling technique rather than sudden violent force. Be mindful of your training partner's finger safety when stripping grips and communicate clearly during drilling to prevent unnecessary strain on small joints.",
+    "clips": [
+      {
+        "id": "adbXsY1gPL8",
+        "title": "Worm Guard Sweep from Deep Half Guard",
+        "by": "Keenan Cornelius",
+        "vertical": false,
+        "channel": "Keenan Cornelius",
+        "duration": 254,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lLvkMU0xdHw",
+        "title": "Worm Guard 101",
+        "by": "Keenan Cornelius",
+        "vertical": false,
+        "channel": "Keenan Cornelius",
+        "duration": 427,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Lapel Strip from Worm Guard Defender",
@@ -389,6 +409,26 @@
         "phase": "Phase 4: Full Resistance Positional Sparring",
         "focus": "Defending lapel strips under full competition pressure with all tools available",
         "description": "Full positional sparring starting from established worm guard. Partner attempts to strip and pass while you use all defensive tools: grip reinforcement, sweep threats, re-feeds, and guard transitions. Track how long you maintain worm guard and what position you end up in when it eventually fails."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Apdhlgpalgc",
+        "title": "How to Pass the Worm Guard",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ Plus",
+        "duration": 202,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "kMybfbRxsPg",
+        "title": "Single Grip to Slice Through Lapel Guards",
+        "by": "Keenan Cornelius",
+        "vertical": false,
+        "channel": "Keenan Cornelius",
+        "duration": 512,
+        "verified": "2026-07-15"
       }
     ]
   }

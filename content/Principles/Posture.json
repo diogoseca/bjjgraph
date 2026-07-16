@@ -421,12 +421,21 @@
   ],
   "clips": [
     {
-      "id": "z1EkUuTh43M",
-      "title": "Regaining posture in closed guard",
-      "by": "Unknown",
+      "id": "WtnCe6LPJJ8",
+      "title": "Posture and posture breaking from the guard",
+      "by": "TakingItToTheMMAT",
       "vertical": false,
-      "channel": "Gracie Sports Jiu Jitsu ",
-      "duration": 70,
+      "channel": "TakingItToTheMMAT",
+      "duration": 479,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "onODo5EQkrk",
+      "title": "The posture concept that stops you getting crushed",
+      "by": "Brandon McCaghren",
+      "vertical": false,
+      "channel": "Brandon Mccaghren",
+      "duration": 359,
       "verified": "2026-07-15"
     },
     {
@@ -436,15 +445,6 @@
       "vertical": false,
       "channel": "Rickson Gracie Jiu-Jitsu Academy",
       "duration": 58,
-      "verified": "2026-07-15"
-    },
-    {
-      "id": "UhYqXfpluYs",
-      "title": "Simplest detail to strengthen your closed guard",
-      "by": "Jean Jacques Machado",
-      "vertical": false,
-      "channel": "JeanJacquesMachado",
-      "duration": 75,
       "verified": "2026-07-15"
     }
   ]

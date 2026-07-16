@@ -287,7 +287,36 @@
         "answer": "Address the collar grip first because it enables them to break your posture and create the angular off-balancing that powers their sweeps. The lapel wrap alone restricts mobility but requires the collar grip to generate real sweeping force. Once the collar grip is neutralized, the extraction becomes significantly safer because their offensive threat from the position is reduced."
       }
     ],
-    "safety_considerations": "This technique carries moderate physical demands focused on grip fighting and base maintenance rather than joint manipulation. The primary safety concern is protecting your back from exposure during the extraction sequence - never turn away from the opponent or allow them to climb onto your back. Training should progress gradually from no resistance to full resistance over several weeks. Avoid training with partners who use excessive pulling force on the lapel as this can strain your knee joint. If you feel your knee being torqued during the extraction, reset and adjust your angle rather than forcing through the position. Communicate with your training partner about the intensity of the wrap tension to prevent knee hyperextension."
+    "safety_considerations": "This technique carries moderate physical demands focused on grip fighting and base maintenance rather than joint manipulation. The primary safety concern is protecting your back from exposure during the extraction sequence - never turn away from the opponent or allow them to climb onto your back. Training should progress gradually from no resistance to full resistance over several weeks. Avoid training with partners who use excessive pulling force on the lapel as this can strain your knee joint. If you feel your knee being torqued during the extraction, reset and adjust your angle rather than forcing through the position. Communicate with your training partner about the intensity of the wrap tension to prevent knee hyperextension.",
+    "clips": [
+      {
+        "id": "vjgfip220zk",
+        "title": "Stripping a Strong Lapel Grip",
+        "by": "Stephan Kesting",
+        "vertical": false,
+        "channel": "Stephan Kesting",
+        "duration": 255,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "DFckzHWWJ4c",
+        "title": "Beat Lapel Guards - Stomp the Leg (Lapel Slayer)",
+        "by": "Keenan Cornelius",
+        "vertical": false,
+        "channel": "Keenan Cornelius",
+        "duration": 379,
+        "verified": "2026-07-16"
+      },
+      {
+        "id": "uvuV9GnMvFQ",
+        "title": "How to Pass One of the Most Annoying Guards",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ",
+        "duration": 458,
+        "verified": "2026-07-16"
+      }
+    ]
   },
   "defender": {
     "name": "Leg Extraction from Lapel Wrap Defender",
@@ -411,6 +440,26 @@
         "phase": "Week 7+",
         "focus": "Full resistance retention",
         "description": "Live rolling starting from Ringworm Guard with partner actively attempting extraction and passing. Integrate all defensive tools - retightening, sweeps, back takes, and guard transitions - in real-time decision making. Track retention rate and successful counter-attack percentage."
+      }
+    ],
+    "clips": [
+      {
+        "id": "vNi5fRjWopE",
+        "title": "Worm Guard Setup and Leg Control",
+        "by": "Fit 2 Defend Academy",
+        "vertical": false,
+        "channel": "Fit 2 Defend Academy",
+        "duration": 306,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ba5KOGBUpNo",
+        "title": "Proto-Guard Grips to Keep Control",
+        "by": "Keenan Cornelius",
+        "vertical": false,
+        "channel": "Keenan Cornelius",
+        "duration": 230,
+        "verified": "2026-07-15"
       }
     ]
   },

@@ -529,6 +529,26 @@
         "focus": "Full resistance defense from rodeo ride against all attacks including calf slicer",
         "description": "Positional sparring from rodeo ride bottom with full resistance. Attacker can attempt calf slicer, back take, chokes, or any other attack. Defender must integrate calf slicer defense into their overall rodeo ride escape system, recognizing the specific attack and applying the appropriate defense while managing all other threats simultaneously."
       }
+    ],
+    "clips": [
+      {
+        "id": "4zYNEvdgI2s",
+        "title": "Calf slicer defense into the lockdown",
+        "by": "James Clingerman",
+        "vertical": false,
+        "channel": "James Clingerman",
+        "duration": 270,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "zVi7DtAS76c",
+        "title": "Calf slicer early defense",
+        "by": "Ryan Hall student instructor",
+        "vertical": false,
+        "channel": "RVV BJJ",
+        "duration": 462,
+        "verified": "2026-07-15"
+      }
     ]
   }
 }

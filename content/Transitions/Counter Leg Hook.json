@@ -303,6 +303,24 @@
         "channel": "Paul Mcveigh",
         "duration": 113,
         "verified": "2026-07-15"
+      },
+      {
+        "id": "e8LWit7OEv4",
+        "title": "Hooks recovery and clearing the leg from 3/4 mount",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 241,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "k-lCzVAzJpg",
+        "title": "Escaping the back with focus on the leg work",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 421,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -428,6 +446,15 @@
         "vertical": false,
         "channel": "BJJ Fanatics",
         "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "auMVOjGIpNU",
+        "title": "Defending leg hooks from bottom",
+        "by": "Rory van Vliet",
+        "vertical": false,
+        "channel": "Gold BJJ",
+        "duration": 331,
         "verified": "2026-07-15"
       }
     ]

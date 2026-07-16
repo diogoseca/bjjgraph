@@ -273,7 +273,27 @@
         "answer": "A failed thread that retains your secondary anchor (DLR hook and sleeve grip) leaves you in a strong position for several attacks: a collar drag using the remaining lapel material, an immediate transition to Worm Guard by wrapping the collar around the opponent's leg instead of threading through yours, or a Berimbolo entry using the DLR hook as your primary control. The failed thread often creates momentary confusion in the opponent's grip fighting that opens windows for these alternative attacks."
       }
     ],
-    "safety_considerations": "This transition involves grip reconfiguration rather than joint manipulation or choking, so injury risk is relatively low compared to submission techniques. The primary safety concern is finger strain from repetitive lapel threading during drilling — take breaks if your fingers feel fatigued and avoid death-gripping the collar fabric. Partners should communicate if the collar threading creates uncomfortable pressure around the neck area. During training progressions, start with cooperative drilling before adding resistance to avoid finger injuries from sudden grip strips."
+    "safety_considerations": "This transition involves grip reconfiguration rather than joint manipulation or choking, so injury risk is relatively low compared to submission techniques. The primary safety concern is finger strain from repetitive lapel threading during drilling — take breaks if your fingers feel fatigued and avoid death-gripping the collar fabric. Partners should communicate if the collar threading creates uncomfortable pressure around the neck area. During training progressions, start with cooperative drilling before adding resistance to avoid finger injuries from sudden grip strips.",
+    "clips": [
+      {
+        "id": "kyIOqdPhYd8",
+        "title": "New Lapel Guard Concept: Preview",
+        "by": "Keenan Cornelius",
+        "vertical": false,
+        "channel": "Keenan Cornelius",
+        "duration": 534,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "5M1TLgoOBNU",
+        "title": "How to Play Squid Guard: Top 5 Sweep Tricks",
+        "by": "Keenan Cornelius",
+        "vertical": false,
+        "channel": "Keenan Cornelius",
+        "duration": 564,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Lapel Guard to Piranha Guard Defender",
@@ -391,6 +411,26 @@
         "phase": "Live Defense Integration",
         "focus": "Applying counters in dynamic rolling situations",
         "description": "Start in standard Lapel Guard with partner playing bottom. Partner mixes threading attempts with standard Lapel Guard attacks at 80-100% intensity. Defend the threading while simultaneously working your passing game. The goal is integrating threading defense into your overall guard passing strategy rather than treating it as a separate skill."
+      }
+    ],
+    "clips": [
+      {
+        "id": "JvQ3m64ScsA",
+        "title": "Modern Lapel Guard Passing",
+        "by": "Nick Salles and Danny Maira",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 672,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "kMybfbRxsPg",
+        "title": "Single Grip to Slice Through Lapel Guards",
+        "by": "Keenan Cornelius",
+        "vertical": false,
+        "channel": "Keenan Cornelius",
+        "duration": 512,
+        "verified": "2026-07-15"
       }
     ]
   }

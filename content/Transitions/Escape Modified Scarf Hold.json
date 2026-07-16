@@ -442,21 +442,30 @@
     ],
     "clips": [
       {
-        "id": "0IzWNf8ardQ",
-        "title": "Elbow pullout escape from kesa gatame",
-        "by": "Training with Lions",
-        "vertical": false,
-        "channel": "Training with Lions",
-        "duration": 46,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "a0SoDyETz98",
         "title": "Head and arm (scarf hold) escape counter",
         "by": "Josh Barnett",
         "vertical": false,
         "channel": "BJJ Fanatics",
         "duration": 127,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "sEmKk3m8nwE",
+        "title": "How to escape kesa gatame",
+        "by": "Travis Stevens",
+        "vertical": false,
+        "channel": "Travis Stevens",
+        "duration": 368,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "bHneNFyONwo",
+        "title": "Four different scarf hold escapes",
+        "by": "Grappling Nerds",
+        "vertical": false,
+        "channel": "Grappling Nerds",
+        "duration": 602,
         "verified": "2026-07-15"
       }
     ]

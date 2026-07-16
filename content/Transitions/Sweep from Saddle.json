@@ -447,6 +447,24 @@
         "channel": "Thunderdome BJJ",
         "duration": 25,
         "verified": "2026-07-15"
+      },
+      {
+        "id": "CFTLb8iywJg",
+        "title": "Defending and escaping the saddle",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 383,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Cu3cDBeOxsg",
+        "title": "Three ways to escape the saddle",
+        "by": "Drew Weatherhead",
+        "vertical": false,
+        "channel": "Because Jitsu",
+        "duration": 354,
+        "verified": "2026-07-15"
       }
     ]
   }

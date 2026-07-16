@@ -427,21 +427,30 @@
     ],
     "clips": [
       {
-        "id": "OYmQpzNmvF4",
-        "title": "Kesa gatame back door escape",
-        "by": "5am Birds of War",
-        "vertical": false,
-        "channel": "5am Birds of War",
-        "duration": 25,
-        "verified": "2026-07-15"
-      },
-      {
         "id": "E1iLCgRjGaY",
         "title": "Using your body to pin and keep them flat",
         "by": "Henry Akins",
         "vertical": false,
         "channel": "Henry Akins' Hidden Jiu-Jitsu",
         "duration": 115,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "sEmKk3m8nwE",
+        "title": "How to Escape Kesa Gatame",
+        "by": "Travis Stevens",
+        "vertical": false,
+        "channel": "Travis Stevens",
+        "duration": 368,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "SuqOOX8hO4c",
+        "title": "Scarf Hold Escape Series",
+        "by": "Aaron Benzrihem",
+        "vertical": false,
+        "channel": "Aaron Benzrihem bjj",
+        "duration": 507,
         "verified": "2026-07-15"
       }
     ]

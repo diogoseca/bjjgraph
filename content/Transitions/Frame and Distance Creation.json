@@ -250,6 +250,24 @@
         "channel": "Ritchie Yip",
         "duration": 16,
         "verified": "2026-07-15"
+      },
+      {
+        "id": "G_pDwabnbAU",
+        "title": "Straight Ankle Lock Defense",
+        "by": "MMA Leech",
+        "vertical": false,
+        "channel": "MMA Leech",
+        "duration": 224,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_d9buGzaHoA",
+        "title": "Escaping the Straight Ankle Lock",
+        "by": "Daniel De Groot",
+        "vertical": false,
+        "channel": "More Than Grappling",
+        "duration": 276,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -378,6 +396,24 @@
         "vertical": false,
         "channel": "Gordon Ryan",
         "duration": 216,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fuLnIKC7Qns",
+        "title": "Cross Ankle Defense to Straight Ankle Lock",
+        "by": "Mikey Musumeci",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 362,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "l7u1ce88jqM",
+        "title": "Defending the Butterfly Ashi Footlock",
+        "by": "Patrick Louys",
+        "vertical": false,
+        "channel": "Josh Beam BJJ",
+        "duration": 211,
         "verified": "2026-07-15"
       }
     ]

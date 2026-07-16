@@ -278,6 +278,15 @@
         "channel": "Science Of JiuJitsu",
         "duration": 48,
         "verified": "2026-07-15"
+      },
+      {
+        "id": "Va1YNgx2E6M",
+        "title": "Escape and Counter the Twister",
+        "by": "Matrix Jiu Jitsu",
+        "vertical": false,
+        "channel": "Matrix Jiu Jitsu",
+        "duration": 165,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -413,6 +422,24 @@
         "vertical": false,
         "channel": "Eddie Bravo",
         "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "6kWSdS6uKtA",
+        "title": "Twister Side Control vs Regular Side Control",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Submissions101",
+        "duration": 321,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "McaB7pfeCGo",
+        "title": "Twister Side Control: How To",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 516,
         "verified": "2026-07-15"
       }
     ]

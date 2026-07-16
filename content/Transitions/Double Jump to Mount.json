@@ -283,7 +283,27 @@
         "answer": "When the mount is blocked, immediately chain to alternative Double Jump attacks based on the opponent's defensive response. If they recover turtle, re-establish hooks for back control pursuit. If they turn to their side, enter crab ride. If they roll away from pressure, follow into truck position. The mount transition is one option within a broader three-pronged attack system from Double Jump that eliminates safe defensive choices."
       }
     ],
-    "safety_considerations": "Double Jump to Mount is a positional transition without direct submission threat, making it relatively safe during training. Primary safety concerns involve maintaining controlled weight transfer during the step-over to avoid dropping weight suddenly on the opponent's spine or ribs. The transition from belly-down to face-up position can stress the defender's lower back if executed with excessive speed or force. Partners should communicate during drilling to ensure comfortable pressure levels, and the top player should settle weight gradually rather than slamming into mount position. During live sparring, practitioners should be aware that the rapid position change can disorient the defender, so monitor for any signs of discomfort in the cervical spine area from crossface pressure maintained throughout the transition."
+    "safety_considerations": "Double Jump to Mount is a positional transition without direct submission threat, making it relatively safe during training. Primary safety concerns involve maintaining controlled weight transfer during the step-over to avoid dropping weight suddenly on the opponent's spine or ribs. The transition from belly-down to face-up position can stress the defender's lower back if executed with excessive speed or force. Partners should communicate during drilling to ensure comfortable pressure levels, and the top player should settle weight gradually rather than slamming into mount position. During live sparring, practitioners should be aware that the rapid position change can disorient the defender, so monitor for any signs of discomfort in the cervical spine area from crossface pressure maintained throughout the transition.",
+    "clips": [
+      {
+        "id": "4zfbOxHi-Ps",
+        "title": "Flattening the Turtle to Rear Mount",
+        "by": "Força Martial Arts & Fitness",
+        "vertical": false,
+        "channel": "Força Martial Arts & Fitness",
+        "duration": 308,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "KYzylIe6OEw",
+        "title": "Dead Man's Pass: Flat Opponent to Mount",
+        "by": "GrapplingMechanics",
+        "vertical": false,
+        "channel": "GrapplingMechanics",
+        "duration": 76,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Double Jump to Mount Defender",
@@ -414,6 +434,24 @@
         "vertical": false,
         "channel": "Andy Tong",
         "duration": 13,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "zgvlMKLWxAI",
+        "title": "Sitting Turtle to Running Man Defense",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 224,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Ft6OyIZ6vPs",
+        "title": "Turtle Escape & Back-Exposure System",
+        "by": "Jozef Chen",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 149,
         "verified": "2026-07-15"
       }
     ]

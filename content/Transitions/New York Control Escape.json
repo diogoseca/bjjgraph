@@ -299,6 +299,24 @@
         "channel": "The Grappling Bloke",
         "duration": 109,
         "verified": "2026-07-15"
+      },
+      {
+        "id": "hc5zImDLQ7k",
+        "title": "Rubber guard: Mission Control setup",
+        "by": "JitsHappens",
+        "vertical": false,
+        "channel": "JitsHappens",
+        "duration": 47,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QR0J42UKoSI",
+        "title": "Eddie Bravo breaks down rubber guard in The Cycle",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "The Hooks MMA",
+        "duration": 325,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -425,6 +443,26 @@
         "phase": "Phase 4: Live retention",
         "focus": "Full resistance positional sparring",
         "description": "Full resistance from New York Control with bottom player working to maintain position or finish while top player works to escape. Track retention rate and submission rate across rounds. Target maintaining New York Control or transitioning to favorable position in 60% of rounds against equal-level training partners."
+      }
+    ],
+    "clips": [
+      {
+        "id": "NfR86wov0f8",
+        "title": "Rubber Guard Theory - Control Concepts",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Submissions101",
+        "duration": 264,
+        "verified": "2026-07-16"
+      },
+      {
+        "id": "iwcfKUPNZNs",
+        "title": "Why Rubber Guard Doesn't Work - Countering It",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 792,
+        "verified": "2026-07-16"
       }
     ]
   }

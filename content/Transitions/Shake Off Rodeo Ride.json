@@ -305,7 +305,27 @@
         "answer": "The Shake Off requires five conditions: your turtle base must be structurally intact with knees under hips, at least one arm must be free for posting, the rider must not have hooks inserted, your chin must be protected, and the rider's weight must be in transition rather than fully settled. If hooks are already in, you are defending back control rather than Rodeo Ride and the shake-off is no longer applicable. If both arms are controlled, grip fight first. If the rider's weight is fully settled with no transitions, wait for them to initiate an attack that creates the lightness you need, or switch to a rotation-based escape that uses their committed weight against them."
       }
     ],
-    "safety_considerations": "The explosive hip extension involved in the Shake Off can strain the lower back if performed without adequate warm-up or with poor mechanics. Progress from controlled-speed repetitions to full-speed execution gradually. Avoid hyperextending the spine during the hip pop—drive through the hips rather than arching the lower back. Training partners acting as the rider should be prepared for the sudden directional change and avoid bracing rigidly, which can cause shoulder or wrist injury on displacement. Tap immediately if neck position becomes compromised during the sequence. Communicate with training partners about intensity levels, particularly when practicing the double-hip pop variant which generates higher forces."
+    "safety_considerations": "The explosive hip extension involved in the Shake Off can strain the lower back if performed without adequate warm-up or with poor mechanics. Progress from controlled-speed repetitions to full-speed execution gradually. Avoid hyperextending the spine during the hip pop—drive through the hips rather than arching the lower back. Training partners acting as the rider should be prepared for the sudden directional change and avoid bracing rigidly, which can cause shoulder or wrist injury on displacement. Tap immediately if neck position becomes compromised during the sequence. Communicate with training partners about intensity levels, particularly when practicing the double-hip pop variant which generates higher forces.",
+    "clips": [
+      {
+        "id": "F7LWaSTKDPI",
+        "title": "Turtle bottom: connecting head and shoulder",
+        "by": "Black Dragon BJJ",
+        "vertical": false,
+        "channel": "Black Dragon BJJ  / Cobra Kai Karate Dungannon",
+        "duration": 305,
+        "verified": "2026-07-16"
+      },
+      {
+        "id": "CFDVh9EVgPA",
+        "title": "Back control tips and riding position details",
+        "by": "Jordan Teaches Jiujitsu",
+        "vertical": false,
+        "channel": "Jordan Teaches Jiujitsu",
+        "duration": 443,
+        "verified": "2026-07-16"
+      }
+    ]
   },
   "defender": {
     "name": "Shake Off Rodeo Ride Defender",
@@ -425,6 +445,24 @@
         "vertical": false,
         "channel": "welcomematstevescott",
         "duration": 266,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "XXnawMQEfKw",
+        "title": "Breaking the Turtle with the Spiral Ride",
+        "by": "Big Guy BJJ",
+        "vertical": false,
+        "channel": "Big Guy BJJ",
+        "duration": 73,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "PT50ievI18k",
+        "title": "Spiral Ride to Break the Turtle",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 200,
         "verified": "2026-07-15"
       }
     ]

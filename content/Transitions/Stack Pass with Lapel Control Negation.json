@@ -316,6 +316,24 @@
         "channel": "BJJ Fanatics",
         "duration": 88,
         "verified": "2026-07-15"
+      },
+      {
+        "id": "uop0LIPW870",
+        "title": "Lapel Assisted Stack Pass",
+        "by": "Keenan Cornelius",
+        "vertical": false,
+        "channel": "FloGrappling",
+        "duration": 347,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "eU2MKcq5we0",
+        "title": "Principles of Pressure Passing",
+        "by": "Bernardo Faria",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 353,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -457,6 +475,24 @@
         "vertical": false,
         "channel": "Chosen Few BJJ",
         "duration": 231,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "T9ckJr1MV7Q",
+        "title": "Three Tricks to Improve Guard Retention",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ",
+        "duration": 253,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "iTrQzYeCvHM",
+        "title": "Top 5 Guard Retention Mistakes",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 436,
         "verified": "2026-07-15"
       }
     ]

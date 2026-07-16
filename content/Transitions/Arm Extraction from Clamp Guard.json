@@ -291,7 +291,27 @@
         "answer": "First, immediately establish bilateral leg control with both hands gripping the opponent's knees, ankles, or pants to prevent them from re-engaging any guard configuration. Second, step back or laterally into a passing stance — either standing with hips back or dropping into headquarters position with one knee between their legs. The extraction is not complete until you have passing grips established. Any pause between extraction and grip establishment allows the opponent to shoot their legs back into clamp position, spider guard, or lasso guard, negating all the work invested in the extraction."
       }
     ],
-    "safety_considerations": "Arm extraction carries inherent risk of elbow hyperextension if the extraction direction straightens the arm while the opponent maintains clamp pressure. Never force a linear backward pull against a deep clamp. If you feel extension pressure on your elbow during any extraction attempt, immediately abandon the technique and reset your position. The opponent's armbar threat is real throughout this transition — tap without hesitation if your arm straightens beyond your control to prevent ligament damage. During training, communicate with your partner about pressure level and extraction speed to ensure safe practice at all intensity levels."
+    "safety_considerations": "Arm extraction carries inherent risk of elbow hyperextension if the extraction direction straightens the arm while the opponent maintains clamp pressure. Never force a linear backward pull against a deep clamp. If you feel extension pressure on your elbow during any extraction attempt, immediately abandon the technique and reset your position. The opponent's armbar threat is real throughout this transition — tap without hesitation if your arm straightens beyond your control to prevent ligament damage. During training, communicate with your partner about pressure level and extraction speed to ensure safe practice at all intensity levels.",
+    "clips": [
+      {
+        "id": "Xb4-phb4BhE",
+        "title": "Breaking the Lockdown Half Guard",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 251,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "tcS7oBdpRW0",
+        "title": "Escaping a Tight Half Guard Lockdown",
+        "by": "Nick Albin (Chewjitsu)",
+        "vertical": false,
+        "channel": "Chewjitsu",
+        "duration": 305,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Arm Extraction from Clamp Guard Defender",
@@ -416,6 +436,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full-resistance clamp retention and counter-attacks",
         "description": "Positional sparring starting in established clamp guard at full resistance. Bottom player scores for maintaining clamp past 15 seconds, achieving submissions, or completing sweeps. Top player scores for clean extraction and establishing passing position. Develop the complete defensive and offensive system under competitive pressure with realistic timing and intensity."
+      }
+    ],
+    "clips": [
+      {
+        "id": "OIr4wDxl-Ys",
+        "title": "Lockdown Clinches to Keep the Arm Trapped",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "tXv2a_KC8Sw",
+        "title": "Rubber Guard Basics and Arm Control",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Brevo",
+        "duration": 529,
+        "verified": "2026-07-15"
       }
     ]
   }

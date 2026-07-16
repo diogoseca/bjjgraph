@@ -301,7 +301,27 @@
         "answer": "Immediately switch priority from completing guard recovery to fighting the seatbelt grip, specifically targeting the choking hand—the arm over your shoulder. Use both hands to strip this grip before the opponent can consolidate back control with hooks. If you cannot strip the grip quickly, continue your hip escape motion aggressively to prevent hook insertion while hand fighting. The seatbelt without hooks is recoverable; seatbelt with hooks means your escape window has closed and you must transition to dedicated back escape techniques."
       }
     ],
-    "safety_considerations": "This escape technique carries low injury risk when performed with proper mechanics. The primary safety concern is neck strain from explosive movement while the opponent maintains heavy upper back pressure. Always maintain chin-tucked posture throughout the escape to protect the cervical spine. During drilling, communicate with training partners about pressure levels and begin with light resistance before gradually increasing intensity. If caught in a choke during the escape attempt, tap immediately rather than continuing the escape. Avoid excessive bridging or twisting movements that could strain the lower back under load, and ensure proper warm-up of hips and shoulders before dedicated drilling sessions."
+    "safety_considerations": "This escape technique carries low injury risk when performed with proper mechanics. The primary safety concern is neck strain from explosive movement while the opponent maintains heavy upper back pressure. Always maintain chin-tucked posture throughout the escape to protect the cervical spine. During drilling, communicate with training partners about pressure levels and begin with light resistance before gradually increasing intensity. If caught in a choke during the escape attempt, tap immediately rather than continuing the escape. Avoid excessive bridging or twisting movements that could strain the lower back under load, and ensure proper warm-up of hips and shoulders before dedicated drilling sessions.",
+    "clips": [
+      {
+        "id": "l7FuJKfhhug",
+        "title": "Escaping the cross body ride",
+        "by": "Jake Sueflohn",
+        "vertical": false,
+        "channel": "Moore Wrestling",
+        "duration": 191,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "tUuT7lVaIRA",
+        "title": "Leg riding defense vs cross body ride",
+        "by": "Jeff Jordan",
+        "vertical": false,
+        "channel": "Eddie Jayne",
+        "duration": 324,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Hip Escape from Cross Body Ride Defender",

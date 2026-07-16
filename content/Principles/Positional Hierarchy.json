@@ -439,30 +439,30 @@
   ],
   "clips": [
     {
+      "id": "JMrGBjDctd4",
+      "title": "Understanding jiu-jitsu: the positional hierarchy",
+      "by": "John Danaher",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 1548,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "x_IrC_-zzYU",
+      "title": "White belt positional guide: the hierarchy",
+      "by": "Will Brooks",
+      "vertical": false,
+      "channel": "Will Brooks Official",
+      "duration": 598,
+      "verified": "2026-07-15"
+    },
+    {
       "id": "duFyN9AoWyE",
       "title": "Positional hierarchy explained, part 2",
       "by": "Dark Horse BJJ",
       "vertical": false,
       "channel": "Dark Horse Brazilian Jiu Jitsu",
       "duration": 119,
-      "verified": "2026-07-15"
-    },
-    {
-      "id": "ggGxHZS1Bo8",
-      "title": "Grappling positions ranked worst to best",
-      "by": "THEBEAST",
-      "vertical": false,
-      "channel": "THEBEAST",
-      "duration": 117,
-      "verified": "2026-07-15"
-    },
-    {
-      "id": "QwiQYYCN9yU",
-      "title": "The positional ladder in jiu-jitsu",
-      "by": "Bellingham BJJ",
-      "vertical": false,
-      "channel": "Bellingham BJJ",
-      "duration": 233,
       "verified": "2026-07-15"
     }
   ]

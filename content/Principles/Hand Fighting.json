@@ -446,21 +446,30 @@
   ],
   "clips": [
     {
-      "id": "Tlb6f1XMFn4",
-      "title": "Hand fighting: wrist snap and thumb block",
-      "by": "Open Room",
+      "id": "yquAL8CBldY",
+      "title": "Gripping and hand fighting fundamentals",
+      "by": "John Danaher",
       "vertical": false,
-      "channel": "Open Room",
-      "duration": 129,
+      "channel": "BJJ Fanatics",
+      "duration": 243,
       "verified": "2026-07-15"
     },
     {
-      "id": "tLZF67SR-Uc",
-      "title": "Basic pummeling drill",
-      "by": "Gaelforce BJJ",
+      "id": "peYJDb7LZMM",
+      "title": "Inside position: winning the hand fight",
+      "by": "Jordan Preisinger",
       "vertical": false,
-      "channel": "Gaelforce BJJ",
-      "duration": 69,
+      "channel": "Jordan Teaches Jiujitsu",
+      "duration": 499,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "pzJ24HqY-Bg",
+      "title": "Hand fighting concepts for short offense",
+      "by": "JFLO Judo",
+      "vertical": false,
+      "channel": "JFLOJUDO",
+      "duration": 90,
       "verified": "2026-07-15"
     }
   ]

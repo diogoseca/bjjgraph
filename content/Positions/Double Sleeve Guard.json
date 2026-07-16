@@ -380,6 +380,24 @@
         "channel": "Nomad Fitness & Jiu Jitsu",
         "duration": 168,
         "verified": "2026-07-14"
+      },
+      {
+        "id": "oThN2Qq64rk",
+        "title": "How to Pass the Double Sleeve Guard",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ",
+        "duration": 549,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "75tV6HZHaMo",
+        "title": "Little Trick to Control the Sleeves from the Guard",
+        "by": "Marcos Tinoco",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 193,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -804,6 +822,24 @@
       "channel": "Jiu-Jitsu Channel",
       "duration": 102,
       "verified": "2026-07-14"
+    },
+    {
+      "id": "sCvako3SaRs",
+      "title": "Intro to the Double Sleeve Guard concepts and entries",
+      "by": "Ariel Tabak",
+      "vertical": false,
+      "channel": "Ariel Tabak",
+      "duration": 673,
+      "verified": "2026-07-16"
+    },
+    {
+      "id": "npuOznVZoXA",
+      "title": "Most important guard principles for grip-based guards",
+      "by": "Jon Thomas",
+      "vertical": false,
+      "channel": "JonThomasBJJ",
+      "duration": 419,
+      "verified": "2026-07-16"
     }
   ]
 }

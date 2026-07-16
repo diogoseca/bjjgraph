@@ -300,7 +300,27 @@
         "answer": "With only one hook and no seatbelt, you have a narrow window to escape before full back control is established. Prioritize preventing the seatbelt by keeping both hands at your collar and neck. Simultaneously, use hip movement to strip the single hook by pushing their foot off with your leg and hip-escaping toward the hook side. Without the seatbelt, the opponent cannot maintain effective upper body control, so addressing the single hook before the second arrives or the seatbelt is established gives you the best chance of recovering to turtle or half guard."
       }
     ],
-    "safety_considerations": "Practice at controlled speed initially as the rotation under an armbar threat carries real injury risk to the elbow and shoulder joints. Partners should release armbar pressure immediately if the arm begins to extend during the turn. Never force the rotation against a fully locked armbar—tap and restart rather than risking joint damage. Communication with training partners about resistance levels is essential during progressive drilling phases. Build speed incrementally only after the arm protection mechanics are fully ingrained."
+    "safety_considerations": "Practice at controlled speed initially as the rotation under an armbar threat carries real injury risk to the elbow and shoulder joints. Partners should release armbar pressure immediately if the arm begins to extend during the turn. Never force the rotation against a fully locked armbar—tap and restart rather than risking joint damage. Communication with training partners about resistance levels is essential during progressive drilling phases. Build speed incrementally only after the arm protection mechanics are fully ingrained.",
+    "clips": [
+      {
+        "id": "Za5f-J8FcBg",
+        "title": "Technical mount escape turning in to darce",
+        "by": "Ari",
+        "vertical": false,
+        "channel": "Submissions101",
+        "duration": 72,
+        "verified": "2026-07-16"
+      },
+      {
+        "id": "SYel-mVSMAI",
+        "title": "First three mount escapes you need to know",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 285,
+        "verified": "2026-07-16"
+      }
+    ]
   },
   "defender": {
     "name": "Back Turn from Technical Mount Defender",
@@ -417,6 +437,35 @@
         "phase": "Live Situational Sparring",
         "focus": "Full speed reaction under resistance",
         "description": "Positional sparring starting from technical mount. Bottom player attempts full repertoire of escapes including back turns. Practice recognizing and responding to turns among other escape attempts in live conditions with full resistance and unpredictable timing."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Za5f-J8FcBg",
+        "title": "Technical mount escape to darce",
+        "by": "Ari",
+        "vertical": false,
+        "channel": "Submissions101",
+        "duration": 72,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "4zVQ4maQdB0",
+        "title": "Punishing the turn: armbar from technical mount",
+        "by": "Mauricio Gomes",
+        "vertical": false,
+        "channel": "Mauricio Gomes BJJ",
+        "duration": 43,
+        "verified": "2026-07-16"
+      },
+      {
+        "id": "0vy0zPYLMaM",
+        "title": "Taking the back when they turn in",
+        "by": "Knight Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Knight Jiu-Jitsu",
+        "duration": 851,
+        "verified": "2026-07-16"
       }
     ]
   }

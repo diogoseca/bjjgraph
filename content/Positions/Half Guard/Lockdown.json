@@ -805,6 +805,24 @@
       "channel": "Eddie Bravo",
       "duration": 60,
       "verified": "2026-07-14"
+    },
+    {
+      "id": "Y0D5lpXsf1U",
+      "title": "Understanding the Lockdown",
+      "by": "Brandon McCaghren",
+      "vertical": false,
+      "channel": "Brandon Mccaghren",
+      "duration": 503,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "2ajPv8XKfvY",
+      "title": "Lockdown entries",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "Eddie Bravo",
+      "duration": 115,
+      "verified": "2026-07-15"
     }
   ]
 }

@@ -406,6 +406,15 @@
         "channel": "Jiu Jitsu Moves",
         "duration": 13,
         "verified": "2026-07-14"
+      },
+      {
+        "id": "kwS4-kslujQ",
+        "title": "The Suloev Stretch submission for BJJ and MMA",
+        "by": "Sonny Brown",
+        "vertical": false,
+        "channel": "Sonny Brown",
+        "duration": 134,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -572,6 +581,26 @@
         "phase": "Phase 4: Live Positional Defense Integration",
         "focus": "Defending Suloev Stretch attempts within live half guard sparring",
         "description": "Positional sparring from half guard bottom against a partner who has been briefed to hunt for Suloev Stretch opportunities. Practice recognizing and defending the submission in real-time while maintaining your overall guard game. Develop the habit of immediately addressing leg isolation attempts before they develop into full submission entries. Always tap immediately once the full figure-four is locked - the goal is preventing the lock, not escaping it."
+      }
+    ],
+    "clips": [
+      {
+        "id": "CFTLb8iywJg",
+        "title": "Defending and escaping the saddle",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 383,
+        "verified": "2026-07-16"
+      },
+      {
+        "id": "jOhe-ZomxEE",
+        "title": "Inside sankaku (camping) leg entanglement defense",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 482,
+        "verified": "2026-07-16"
       }
     ]
   },

@@ -421,12 +421,21 @@
   ],
   "clips": [
     {
-      "id": "FcHORGNx5AQ",
-      "title": "Quick guide to the principles of judo (maximum efficiency)",
-      "by": "Amakella Publishing",
+      "id": "ks_uL6k4NBQ",
+      "title": "Seiryoku zenyo: maximum efficiency explained",
+      "by": "Shizen Style",
       "vertical": false,
-      "channel": "Amakella Publishing",
-      "duration": 146,
+      "channel": "Shizen Style",
+      "duration": 612,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "YIyv8x8tmuI",
+      "title": "Finishing with maximum efficiency (seiryoku zenyo)",
+      "by": "Jukido Academy",
+      "vertical": false,
+      "channel": "Jukido Academy",
+      "duration": 344,
       "verified": "2026-07-15"
     }
   ]

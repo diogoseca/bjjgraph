@@ -427,6 +427,35 @@
         "focus": "Full resistance guard maintenance against recovery specialists",
         "description": "Begin each round in combat base with partner working active guard recovery at full resistance. Apply all learned pressure concepts, frame elimination, and counter-advancement while reading and exploiting recovery timing. Rotate training partners to experience different body types, flexibility levels, and recovery styles."
       }
+    ],
+    "clips": [
+      {
+        "id": "q4e8HHp7avk",
+        "title": "Stop Getting Your Guard Passed: 3 Simple Tricks",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ Plus",
+        "duration": 147,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "KX1G2RcZ6ro",
+        "title": "7 Basic Guard Recovery Drills",
+        "by": "Evolve MMA Coach",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 107,
+        "verified": "2026-07-16"
+      },
+      {
+        "id": "KIkGz4M2E6E",
+        "title": "Guard Retention 101 for Older Players",
+        "by": "Tokyo Jiujitsu Club Coach",
+        "vertical": false,
+        "channel": "Tokyo Jiujitsu Club",
+        "duration": 255,
+        "verified": "2026-07-16"
+      }
     ]
   }
 }

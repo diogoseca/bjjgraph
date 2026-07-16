@@ -338,31 +338,22 @@
     ],
     "clips": [
       {
-        "id": "v3w0qXLKxug",
-        "title": "Defending heel hooks",
+        "id": "CFTLb8iywJg",
+        "title": "Defending and escaping the saddle entanglement",
         "by": "Lachlan Giles",
         "vertical": false,
         "channel": "Absolute MMA St Kilda - Melbourne",
-        "duration": 92,
-        "verified": "2026-07-14"
+        "duration": 383,
+        "verified": "2026-07-16"
       },
       {
-        "id": "AsGMkATAqqw",
-        "title": "Heel hook defense when ambushed",
-        "by": "John Danaher",
+        "id": "JbRfIo1NTLk",
+        "title": "Clearing the knee line for leglock defense",
+        "by": "Craig Jones",
         "vertical": false,
-        "channel": "Dohn Janaher ",
-        "duration": 53,
-        "verified": "2026-07-14"
-      },
-      {
-        "id": "DF2AYLPbeHc",
-        "title": "Defending & countering the inside heel hook",
-        "by": "Jahred Dell",
-        "vertical": false,
-        "channel": "Jahred Dell",
-        "duration": 70,
-        "verified": "2026-07-14"
+        "channel": "BJJ focus camps",
+        "duration": 274,
+        "verified": "2026-07-16"
       }
     ]
   },
@@ -743,6 +734,24 @@
       "channel": "Johnny Jitsu",
       "duration": 139,
       "verified": "2026-07-14"
+    },
+    {
+      "id": "79CUU4afTj4",
+      "title": "The Carni from the mount explained",
+      "by": "Alder Hampel",
+      "vertical": false,
+      "channel": "Alder Hampel",
+      "duration": 200,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "RJ7Iutti8cY",
+      "title": "Rubber guard overview and core positions",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "Bernardo Faria BJJ Fanatics",
+      "duration": 521,
+      "verified": "2026-07-15"
     }
   ]
 }

@@ -771,6 +771,15 @@
         "channel": "BJJ Fanatics",
         "duration": 114,
         "verified": "2026-07-14"
+      },
+      {
+        "id": "vHDqBGNTnfY",
+        "title": "Defensive BJJ system: bottom posture basics",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "Defensive BJJ",
+        "duration": 325,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -806,6 +815,35 @@
     {
       "question": "How does Chill Dog relate to the positions that border it in the exchange?",
       "answer": "Chill Dog sits between full turtle exposure and complete guard recovery, acting as a hinge among several neighbors. It is a specific variant of the parent turtle position, tightened into a compact shell. If the defensive frame breaks, it borders back control, crucifix, and front headlock, which are the outcomes the shell exists to deny. If the shell holds long enough to move, it opens onto guard-family positions such as closed guard, half guard, butterfly guard, and the 10th Planet lockdown. Understanding Chill Dog means understanding it as a junction: the same configuration is one broken seam from a dominant control or one clean rotation from guard recovery."
+    }
+  ],
+  "clips": [
+    {
+      "id": "RJ7Iutti8cY",
+      "title": "Rubber guard overview and core positions",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "Bernardo Faria BJJ Fanatics",
+      "duration": 521,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "wUDqbU2jwxg",
+      "title": "Rubber Guard 101: Zombie, New York, Chill Dog, Jiu Claw",
+      "by": "Submissions101",
+      "vertical": false,
+      "channel": "Submissions101",
+      "duration": 278,
+      "verified": "2026-07-16"
+    },
+    {
+      "id": "1_BA6b13AsA",
+      "title": "10th Planet 101: Rubber Guard inside position",
+      "by": "Brandon McCaghren",
+      "vertical": false,
+      "channel": "Brandon Mccaghren",
+      "duration": 763,
+      "verified": "2026-07-16"
     }
   ]
 }

@@ -300,6 +300,15 @@
         "channel": "jamielovesmartialarts",
         "duration": 23,
         "verified": "2026-07-15"
+      },
+      {
+        "id": "TEXQ07nNkss",
+        "title": "Reverse scarf mount to quick mount",
+        "by": "JitzLive",
+        "vertical": false,
+        "channel": "JitzLive",
+        "duration": 163,
+        "verified": "2026-07-16"
       }
     ]
   },
@@ -431,6 +440,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance defense against conversion attempts",
         "description": "Start from reverse mount bottom with top player attempting any positional conversion. Defender practices full resistance defense, targeting either reversal or prevention. Track success rates across multiple rounds to measure improvement and identify which conversion approaches cause the most difficulty."
+      }
+    ],
+    "clips": [
+      {
+        "id": "uSrYAzVADsw",
+        "title": "Mount escapes for blue belts and ADCC champions",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Gordon Ryan",
+        "duration": 291,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "0xYFYI9LkUQ",
+        "title": "Rolling opponent to far side with near hook",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 144,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -429,6 +429,24 @@
         "channel": "CHOKE LABORATORY",
         "duration": 53,
         "verified": "2026-07-15"
+      },
+      {
+        "id": "rH8oYjlBsZg",
+        "title": "Guard Retention 101: Defending the X-Pass",
+        "by": "Ostap Manastyrski",
+        "vertical": false,
+        "channel": "OpenMat MMA",
+        "duration": 275,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "RXkJVPoO4MA",
+        "title": "Guard vs Passing",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "InAction",
+        "duration": 540,
+        "verified": "2026-07-15"
       }
     ]
   }

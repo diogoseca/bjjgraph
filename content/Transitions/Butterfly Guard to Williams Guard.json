@@ -280,6 +280,24 @@
         "channel": "Ralph Gracie BJJ - San Jose & Santa Clara",
         "duration": 98,
         "verified": "2026-07-15"
+      },
+      {
+        "id": "1XwXQYzWpcw",
+        "title": "Butterfly guard into Williams guard with choke option",
+        "by": "1066 Grappling Guild",
+        "vertical": false,
+        "channel": "1066 Grappling Guild",
+        "duration": 176,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fajU7LdM1V4",
+        "title": "Z guard to Williams guard to triangle sequence",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 749,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -390,6 +408,15 @@
         "vertical": false,
         "channel": "Sam Wilkinson MMA",
         "duration": 66,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ovecwiNyE3k",
+        "title": "Clearing the overhook and removing the angle",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 386,
         "verified": "2026-07-15"
       }
     ]

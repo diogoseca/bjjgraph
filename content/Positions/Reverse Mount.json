@@ -327,6 +327,24 @@
         "channel": "BJJ Fanatics",
         "duration": 61,
         "verified": "2026-07-14"
+      },
+      {
+        "id": "npUrHml3hHk",
+        "title": "Back Crucifix Control - Fall Back vs Fall Forward",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 193,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "GJJEZjzzGBw",
+        "title": "The Knee Drop Technique",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 271,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -627,6 +645,24 @@
         "channel": "Thunderdome BJJ",
         "duration": 43,
         "verified": "2026-07-14"
+      },
+      {
+        "id": "0xYFYI9LkUQ",
+        "title": "Defending Roll to Far Side With Near Hook",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 144,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "bYx7xldM7Ls",
+        "title": "Two Ideas for Escaping the Mount",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 775,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -673,6 +709,24 @@
       "channel": "BJJ Fanatics",
       "duration": 61,
       "verified": "2026-07-14"
+    },
+    {
+      "id": "kft2AkvKhWU",
+      "title": "Mount control fundamentals and pin retention",
+      "by": "Gordon Ryan",
+      "vertical": false,
+      "channel": "Bernardo Faria BJJ Fanatics",
+      "duration": 538,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "RTMJDbZnFO0",
+      "title": "Holding the middle mount pin",
+      "by": "SBG coach",
+      "vertical": false,
+      "channel": "SBG PDX & Vancouver BJJ and MMA Videos",
+      "duration": 154,
+      "verified": "2026-07-15"
     }
   ]
 }

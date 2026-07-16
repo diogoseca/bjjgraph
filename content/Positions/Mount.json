@@ -839,6 +839,24 @@
       "channel": "Jiu Jitsu Moves",
       "duration": 80,
       "verified": "2026-07-14"
+    },
+    {
+      "id": "5Gxj5VQj8bc",
+      "title": "Mount Control Fundamentals - Roger Gracie Style",
+      "by": "MMA Leech",
+      "vertical": false,
+      "channel": "MMA Leech",
+      "duration": 184,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "FO5aipaY0cc",
+      "title": "Maintaining the Mount Position",
+      "by": "Demian Maia",
+      "vertical": false,
+      "channel": "WorldMartialArts",
+      "duration": 262,
+      "verified": "2026-07-15"
     }
   ]
 }

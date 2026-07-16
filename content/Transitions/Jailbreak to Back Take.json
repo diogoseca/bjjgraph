@@ -274,6 +274,24 @@
         "channel": "Two Minute Technique",
         "duration": 191,
         "verified": "2026-07-15"
+      },
+      {
+        "id": "Ij2aFpcJiFU",
+        "title": "Jailbreak escape from side control step by step",
+        "by": "CORE MMA",
+        "vertical": false,
+        "channel": "CORE MMA",
+        "duration": 175,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "gFYyMkaMz34",
+        "title": "Prison guard breakdown from the lockdown",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 59,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -399,6 +417,26 @@
         "phase": "Week 7+",
         "focus": "Live integration",
         "description": "Full resistance half guard rounds where bottom player actively threatens jailbreak to back take. Top player integrates prevention, recognition, and defensive responses into live passing game. Track which defensive option produces the best outcomes and identify remaining reaction timing gaps."
+      }
+    ],
+    "clips": [
+      {
+        "id": "RQf5WZNLmEA",
+        "title": "Gordon Ryan on effective half guard passing",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 507,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "DSJJyA-2HKU",
+        "title": "Flattening the bottom player out from half guard",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 813,
+        "verified": "2026-07-15"
       }
     ]
   },

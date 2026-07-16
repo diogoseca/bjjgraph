@@ -297,6 +297,24 @@
         "channel": "jamielovesmartialarts",
         "duration": 23,
         "verified": "2026-07-15"
+      },
+      {
+        "id": "0xYFYI9LkUQ",
+        "title": "Rolling the opponent to the far side with a near hook",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 144,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "3RbOD9fhi20",
+        "title": "Running man escape from the back and reverse mount",
+        "by": "Jiu Jitsu Modern",
+        "vertical": false,
+        "channel": "JIU JITSU MODERN",
+        "duration": 210,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -420,6 +438,35 @@
         "phase": "Live Positional Sparring",
         "focus": "Full resistance defense and counter from reverse mount top",
         "description": "Start in reverse mount with full resistance. Top player must either maintain position for 30 seconds, advance to back control, or convert to standard mount. Bottom player uses all available escapes including bridges, hip escapes, and frames. Track success rates for maintaining position versus advancing to superior positions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "uSrYAzVADsw",
+        "title": "Mount escapes for blue belts and ADCC champions",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Gordon Ryan",
+        "duration": 291,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "kft2AkvKhWU",
+        "title": "Best way to control and retain the mount",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 538,
+        "verified": "2026-07-16"
+      },
+      {
+        "id": "DSJJyA-2HKU",
+        "title": "Basic ways to flatten an opponent out on top",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 813,
+        "verified": "2026-07-16"
       }
     ]
   }

@@ -430,21 +430,21 @@
   ],
   "clips": [
     {
-      "id": "6GkLA8rYLd8",
-      "title": "Anatomy of the knee bar",
-      "by": "Tim Trevail",
-      "vertical": false,
-      "channel": "Tim Trevail",
-      "duration": 87,
-      "verified": "2026-07-15"
-    },
-    {
       "id": "gXSSXLGFOQU",
       "title": "Armbar elbow hyperextension explained",
       "by": "Grapplers Performx",
       "vertical": false,
       "channel": "Grapplers Performx",
       "duration": 89,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "aXP_4Jncfj0",
+      "title": "20 BJJ concepts including joint breaking mechanics",
+      "by": "Jordan Preisinger",
+      "vertical": false,
+      "channel": "Jordan Teaches Jiujitsu",
+      "duration": 1024,
       "verified": "2026-07-15"
     }
   ]

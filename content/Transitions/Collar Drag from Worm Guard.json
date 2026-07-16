@@ -432,6 +432,26 @@
         "focus": "Full-speed defense in positional sparring",
         "description": "Positional sparring starting from opponent's worm guard with collar drag available. Defender must defend all worm guard attacks including the collar drag while working to pass. Builds realistic defensive reactions under live conditions."
       }
+    ],
+    "clips": [
+      {
+        "id": "kMybfbRxsPg",
+        "title": "Single grip to shut down lapel guards",
+        "by": "Keenan Cornelius",
+        "vertical": false,
+        "channel": "Keenan Cornelius",
+        "duration": 512,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "KDDab88J--g",
+        "title": "Cross collar grip counters",
+        "by": "BJJ Scout",
+        "vertical": false,
+        "channel": "BJJSCOUT",
+        "duration": 145,
+        "verified": "2026-07-15"
+      }
     ]
   }
 }

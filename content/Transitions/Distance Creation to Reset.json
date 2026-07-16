@@ -253,7 +253,27 @@
         "answer": "The lateral reset circles around the lapel configuration rather than stepping directly backward. This clears the wrap through angle change rather than direct extraction. Use it when opponent has active foot hooks preventing direct backward movement—the lateral angle defeats their hook placement while still achieving disengagement."
       }
     ],
-    "safety_considerations": "Distance Creation to Reset is a low-injury-risk technique as it involves disengagement rather than submission application. The primary safety concern is maintaining balance throughout the backstep—losing balance while disengaging can result in falling into opponent's guard or landing awkwardly. Avoid explosive backsteps when your base is compromised. When clearing lapel wraps, use technical unwinding rather than forceful jerking that could strain your fingers or opponent's fabric grip. In training, communicate with partners about intensity level, especially when practicing the explosive backstep phase. If opponent is aggressively pursuing back takes during your reset, avoid turning your back completely—maintain shoulder position facing them throughout the disengage."
+    "safety_considerations": "Distance Creation to Reset is a low-injury-risk technique as it involves disengagement rather than submission application. The primary safety concern is maintaining balance throughout the backstep—losing balance while disengaging can result in falling into opponent's guard or landing awkwardly. Avoid explosive backsteps when your base is compromised. When clearing lapel wraps, use technical unwinding rather than forceful jerking that could strain your fingers or opponent's fabric grip. In training, communicate with partners about intensity level, especially when practicing the explosive backstep phase. If opponent is aggressively pursuing back takes during your reset, avoid turning your back completely—maintain shoulder position facing them throughout the disengage.",
+    "clips": [
+      {
+        "id": "oCiaKS1psd8",
+        "title": "Grip Stripping: How to Break Grips for BJJ",
+        "by": "rflxtraining",
+        "vertical": false,
+        "channel": "rflxtraining",
+        "duration": 190,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "86SrcnnJ6BY",
+        "title": "Grip Fighting Rule Every White Belt Should Know",
+        "by": "Chewjitsu",
+        "vertical": false,
+        "channel": "Chewjitsu",
+        "duration": 294,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Distance Creation to Reset Defender",
@@ -375,6 +395,26 @@
         "phase": "Week 7+",
         "focus": "Live Situational Sparring",
         "description": "Full resistance rounds starting in established lapel guard. Top player chooses freely between passing and resetting. Develop real-time decision making for when to fight the reset versus accepting guard transition. Track success rates across rounds to identify which defensive layers need additional drilling."
+      }
+    ],
+    "clips": [
+      {
+        "id": "2x2ySnQlRRQ",
+        "title": "Guard Retention 101: The Heisenberg Heist",
+        "by": "Keenan Cornelius",
+        "vertical": false,
+        "channel": "Keenan Cornelius",
+        "duration": 459,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "UTaZzbHMr-s",
+        "title": "The 8 Layers of Guard Retention (Part 1)",
+        "by": "Keenan Cornelius",
+        "vertical": false,
+        "channel": "Keenan Cornelius",
+        "duration": 598,
+        "verified": "2026-07-15"
       }
     ]
   },

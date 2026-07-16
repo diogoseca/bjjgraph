@@ -349,6 +349,24 @@
         "channel": "Sickness Ferro",
         "duration": 197,
         "verified": "2026-07-14"
+      },
+      {
+        "id": "MeewDSMPwA0",
+        "title": "Loop choke from half guard",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 310,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "TcX0ZzZib-I",
+        "title": "Loop choke from half guard top",
+        "by": "terasankka",
+        "vertical": false,
+        "channel": "terasankka",
+        "duration": 59,
+        "verified": "2026-07-15"
       }
     ]
   },

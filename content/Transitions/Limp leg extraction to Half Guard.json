@@ -418,6 +418,26 @@
         "focus": "Live positional sparring with extraction scenarios",
         "description": "Full resistance positional sparring where the bottom player's goal is extraction to Half Guard and the top player's goal is either maintaining Leg Knot or advancing to Saddle. Track success rates for both players and refine defensive responses. Integrate against all three extraction variants: standard, Granby-assisted, and sit-up."
       }
+    ],
+    "clips": [
+      {
+        "id": "JbRfIo1NTLk",
+        "title": "Clearing the Kneeline - Leglock Defense",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 274,
+        "verified": "2026-07-16"
+      },
+      {
+        "id": "HkdXCXtrtlM",
+        "title": "Leg Lock Defense Part 2: Outside Ashi",
+        "by": "Corey McWilliams",
+        "vertical": false,
+        "channel": "Corey McWilliams",
+        "duration": 346,
+        "verified": "2026-07-16"
+      }
     ]
   },
   "variants_and_adaptations": [

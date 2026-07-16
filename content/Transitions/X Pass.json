@@ -284,7 +284,27 @@
         "answer": "The optimal timing window opens when the bottom player commits to a defensive action that momentarily weakens another aspect of their guard. For example, when they reach for an underhook, their knee shield weakens. When they adjust their knee shield, their upper body frames soften. The pass should be initiated as a response to their movement rather than from a static position. Attempting the X Pass against a fully settled, well-structured half guard without first creating a reaction has a significantly lower success rate."
       }
     ],
-    "safety_considerations": "The X Pass is generally a safe passing technique when executed with proper control. The primary safety concern is maintaining control of weight distribution to avoid dropping knee or elbow pressure onto opponent's ribs or floating ribs, which can cause injury. When driving crossface pressure, be mindful of neck positioning and avoid cranking the neck at extreme angles. Apply pressure gradually rather than explosively, especially when training with less experienced partners. If opponent signals discomfort or taps due to pressure (particularly rib or neck pressure), immediately release and adjust positioning. During drilling phases, communicate with your partner about pressure levels and adjust accordingly. When clearing your trapped leg, avoid forcefully kicking or pushing off opponent's legs, which can hyperextend their knee or ankle joints."
+    "safety_considerations": "The X Pass is generally a safe passing technique when executed with proper control. The primary safety concern is maintaining control of weight distribution to avoid dropping knee or elbow pressure onto opponent's ribs or floating ribs, which can cause injury. When driving crossface pressure, be mindful of neck positioning and avoid cranking the neck at extreme angles. Apply pressure gradually rather than explosively, especially when training with less experienced partners. If opponent signals discomfort or taps due to pressure (particularly rib or neck pressure), immediately release and adjust positioning. During drilling phases, communicate with your partner about pressure levels and adjust accordingly. When clearing your trapped leg, avoid forcefully kicking or pushing off opponent's legs, which can hyperextend their knee or ankle joints.",
+    "clips": [
+      {
+        "id": "u6d8_QqbqGM",
+        "title": "Passing open guard",
+        "by": "Andre Galvao",
+        "vertical": false,
+        "channel": "Atos Jiu-Jitsu HQ | World's Best BJJ Academy - Home Page",
+        "duration": 755,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "S65D0wxPZ7c",
+        "title": "Modified toreando guard pass",
+        "by": "Andre Galvao",
+        "vertical": false,
+        "channel": "Atos Jiu-Jitsu HQ | World's Best BJJ Academy - Home Page",
+        "duration": 752,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "X Pass Defender",
@@ -414,6 +434,26 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Full resistance X Pass defense with scoring",
         "description": "Positional sparring from half guard bottom against partner using X Pass as primary attack at full intensity. Score points for successful guard retention (1 point), sweep (2 points), or back take (3 points). Partner scores for completed pass. Track success rate over multiple rounds and identify which defensive layer fails most often for targeted improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "7zCdpY8nKug",
+        "title": "Headquarters retention for the open guard player",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 586,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ZXt2yzy0BL0",
+        "title": "Defeating the weave pass with the underhook",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 249,
+        "verified": "2026-07-15"
       }
     ]
   },

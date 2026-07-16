@@ -398,6 +398,26 @@
         "question": "How do you manage energy when the opponent refuses to release lockdown for several minutes?",
         "answer": "Accept that the lockdown game can be a war of attrition. Rather than constantly working to extract your leg, settle into a dominant crossface position and make them carry your weight. Cycle between passing attempts - try crossface pressure for 30 seconds, then switch to leg weave positioning, then threaten smash pass. This keeps them reactive while you maintain consistent pressure. The key is maintaining heavy top position without burning energy on explosive escape attempts. Eventually their grip will fatigue from maintaining lockdown tension against your constant forward pressure."
       }
+    ],
+    "clips": [
+      {
+        "id": "gtsKv_sDRnw",
+        "title": "Passing the Lockdown from half guard top",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 359,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "xIkXPK5h-4A",
+        "title": "Safely escaping the Lockdown as the top player",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 438,
+        "verified": "2026-07-15"
+      }
     ]
   },
   "bottom": {
@@ -776,6 +796,26 @@
     {
       "question": "How does lockdown tension function as a shared fulcrum that both players must understand biomechanically?",
       "answer": "The lockdown creates a lever whose pivot is the top player's triangled leg, with the bottom player's hip extension and thigh squeeze supplying the stretching force. Extending the hips and lengthening the entanglement pulls the top player's base long and drops their weight forward, which is precisely the leverage a sweep needs. The top player counters not by fighting the leg directly but by lowering their hips beneath the bottom player's and driving weight forward to collapse the space the lever requires. Both players are effectively competing to control the same fulcrum, so understanding how tension translates into off-balancing is essential to either establishing or defeating the position."
+    }
+  ],
+  "clips": [
+    {
+      "id": "2ajPv8XKfvY",
+      "title": "Lockdown entries and the Zombie concept",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "Eddie Bravo",
+      "duration": 115,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "oSQ7BHerIow",
+      "title": "Lockdown strategies overview",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "Eddie Bravo",
+      "duration": 61,
+      "verified": "2026-07-15"
     }
   ]
 }

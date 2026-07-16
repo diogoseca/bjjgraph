@@ -267,6 +267,24 @@
         "channel": "BJJ4Breakfast",
         "duration": 106,
         "verified": "2026-07-15"
+      },
+      {
+        "id": "JzSxFvNA5Uo",
+        "title": "The proper way to Zombie in rubber guard",
+        "by": "Ben Eddy",
+        "vertical": false,
+        "channel": "Ben Eddy Bravo",
+        "duration": 174,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "wUDqbU2jwxg",
+        "title": "Rubber guard 101: Zombie, New York, Chill Dog",
+        "by": "Submissions101",
+        "vertical": false,
+        "channel": "Submissions101",
+        "duration": 278,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -397,6 +415,26 @@
         "phase": "Week 7+",
         "focus": "Complete Defensive Flow",
         "description": "Full positional sparring from New York Control where you work to extract, prevent Zombie, and pass. If Zombie establishes, work systematic top defense and passing. Track which defensive options succeed most frequently and refine timing. Integrate with overall anti-rubber-guard strategy including defense against Mission Control and other 10th Planet positions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "KH2uSZ8Re0U",
+        "title": "How to pass rubber guard and the lockdown",
+        "by": "Stephan Kesting",
+        "vertical": false,
+        "channel": "Stephan Kesting",
+        "duration": 236,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "BQGJ0pEueHc",
+        "title": "Escaping the lockdown",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 126,
+        "verified": "2026-07-15"
       }
     ]
   },

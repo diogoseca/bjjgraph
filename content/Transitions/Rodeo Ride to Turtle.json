@@ -285,6 +285,24 @@
         "channel": "Big Guy BJJ",
         "duration": 73,
         "verified": "2026-07-15"
+      },
+      {
+        "id": "S6o_HLxqd3c",
+        "title": "Spiral ride into the seated rodeo ride on turtle",
+        "by": "Steve Scott",
+        "vertical": false,
+        "channel": "welcomematstevescott",
+        "duration": 231,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Wo9va8yGZp8",
+        "title": "Rodeo ride basics for controlling a turtled opponent",
+        "by": "Steve Scott",
+        "vertical": false,
+        "channel": "welcomematstevescott",
+        "duration": 303,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -417,6 +435,15 @@
         "vertical": false,
         "channel": "BJJ Fanatics",
         "duration": 114,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Ft6OyIZ6vPs",
+        "title": "Turtle escape system: stop giving up your back",
+        "by": "Jozef Chen",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 149,
         "verified": "2026-07-15"
       }
     ]

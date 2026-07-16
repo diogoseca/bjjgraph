@@ -287,6 +287,24 @@
         "channel": "Brandon Mccaghren",
         "duration": 57,
         "verified": "2026-07-15"
+      },
+      {
+        "id": "g0gKqgv_Bbc",
+        "title": "Eddie Bravo: Lockdown Strategies",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lwwIfCAA7Zc",
+        "title": "Top Lockdown Turk",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 207,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -408,6 +426,26 @@
         "phase": "Integrated Defense and Counter",
         "focus": "Combining grip defense with offensive threats",
         "description": "Advanced positional sparring where you must simultaneously defend grip strips while threatening sweeps and guard transitions. The goal is making your defense itself threatening, so the opponent cannot freely strip grips without risking being swept or losing positional advantage."
+      }
+    ],
+    "clips": [
+      {
+        "id": "OIr4wDxl-Ys",
+        "title": "Lockdown Clinches",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_QTNEn4xasI",
+        "title": "6 Jiu-Jitsu Grip Breaks You Need To Know",
+        "by": "Erika Dawn",
+        "vertical": false,
+        "channel": "Erika Dawn",
+        "duration": 267,
+        "verified": "2026-07-15"
       }
     ]
   }

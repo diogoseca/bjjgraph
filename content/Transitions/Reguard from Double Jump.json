@@ -295,6 +295,24 @@
         "channel": "Erik Koehne",
         "duration": 67,
         "verified": "2026-07-15"
+      },
+      {
+        "id": "xTtpyWLs6PM",
+        "title": "Getting to closed guard from half guard",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 306,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "WmHQNFtuxRk",
+        "title": "Two ways to recover full guard from half guard",
+        "by": "BIG OSS Jiu-Jitsu",
+        "vertical": false,
+        "channel": "BIG OSS Jiu-Jitsu Channel",
+        "duration": 570,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -417,6 +435,26 @@
         "phase": "Live integration",
         "focus": "Complete Double Jump top management including reguard defense",
         "description": "Full positional sparring from Double Jump top where you must maintain position, prevent reguard and escape attempts, and pursue your own back-taking or passing objectives. Develop the ability to manage defensive prevention simultaneously with offensive advancement under realistic conditions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "d_zfY7Kjezo",
+        "title": "How to avoid getting stuck in closed guard",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 389,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "r6mDDpc5474",
+        "title": "A simple trick to escape closed guard",
+        "by": "Stay Safe Martial Arts",
+        "vertical": false,
+        "channel": "Stay Safe Martial Arts",
+        "duration": 279,
+        "verified": "2026-07-15"
       }
     ]
   }

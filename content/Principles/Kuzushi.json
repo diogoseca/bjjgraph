@@ -463,30 +463,30 @@
   ],
   "clips": [
     {
+      "id": "0ryNzeo3eoc",
+      "title": "All about kuzushi: breaking balance in depth",
+      "by": "Shintaro Higashi",
+      "vertical": false,
+      "channel": "Shintaro Higashi",
+      "duration": 458,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "hOlLwI3dMMA",
+      "title": "The essential physics behind kuzushi",
+      "by": "Shintaro Nakano",
+      "vertical": false,
+      "channel": "Shintaro Nakano",
+      "duration": 342,
+      "verified": "2026-07-15"
+    },
+    {
       "id": "b1zpi81TLPs",
-      "title": "Kuzushi: breaking balance (32 Principles of Jiu-Jitsu)",
+      "title": "Kuzushi: breaking balance in 30 seconds",
       "by": "Rener Gracie",
       "vertical": false,
       "channel": "GracieBreakdown",
       "duration": 31,
-      "verified": "2026-07-15"
-    },
-    {
-      "id": "30HGYQvy-3g",
-      "title": "The art and science of kuzushi explained",
-      "by": "Shintaro Higashi",
-      "vertical": false,
-      "channel": "Shintaro Higashi",
-      "duration": 209,
-      "verified": "2026-07-15"
-    },
-    {
-      "id": "1OZx5aYMArM",
-      "title": "Kuzushi: breaking balance and posture for throws",
-      "by": "Peter Mettler",
-      "vertical": false,
-      "channel": "Peter Mettler Martial Arts",
-      "duration": 188,
       "verified": "2026-07-15"
     }
   ]

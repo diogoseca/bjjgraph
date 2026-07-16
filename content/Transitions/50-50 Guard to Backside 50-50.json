@@ -440,6 +440,24 @@
         "channel": "Matrix Jiu Jitsu",
         "duration": 240,
         "verified": "2026-07-15"
+      },
+      {
+        "id": "R7lPdQWLOus",
+        "title": "50/50 defense: protecting your leg",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "The Grapplers Guide by Jason Scully",
+        "duration": 161,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "zhApZgQzWVk",
+        "title": "Backside 50/50 defense",
+        "by": "Giancarlo Bodoni",
+        "vertical": false,
+        "channel": "ADCC Official",
+        "duration": 174,
+        "verified": "2026-07-15"
       }
     ]
   }

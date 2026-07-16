@@ -457,6 +457,24 @@
         "channel": "CMPTV",
         "duration": 61,
         "verified": "2026-07-15"
+      },
+      {
+        "id": "9eP5msv3Qsk",
+        "title": "Using the Crab Ride to Counter Granby Roll Escapes",
+        "by": "Duck-Jitsu",
+        "vertical": false,
+        "channel": "Duck_Jitsu",
+        "duration": 234,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "q1Y4x_EUZtY",
+        "title": "Understand Crab Ride Control in 7 Minutes",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ",
+        "duration": 431,
+        "verified": "2026-07-15"
       }
     ]
   }
