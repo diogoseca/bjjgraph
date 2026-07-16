@@ -59,5 +59,16 @@
     .ng-winbar{width:104px!important;}
     .ng-legend{left:14px!important;bottom:27px!important;gap:0!important;}
   }
+
+  /* \u2500\u2500 P2: beat beacon / defense vignette / coach / film shimmer \u2500\u2500 */
+  .ng-beacon{animation:ngBeacon 1.5s ease-in-out infinite;border-radius:12px;}
+  @keyframes ngBeacon{0%,100%{box-shadow:0 0 0 0 rgba(126,224,168,0),0 0 10px 1px rgba(126,224,168,.28)}50%{box-shadow:0 0 0 3px rgba(126,224,168,.22),0 0 22px 5px rgba(126,224,168,.5)}}
+  .ng-vignette{position:fixed;inset:0;pointer-events:none;z-index:44;background:radial-gradient(ellipse at center,transparent 52%,rgba(226,58,48,.3) 100%);animation:ngHeartbeat 1s ease-in-out infinite;}
+  @keyframes ngHeartbeat{0%,100%{opacity:.5}12%{opacity:1}24%{opacity:.55}34%{opacity:.9}48%{opacity:.5}}
+  .ng-coach{position:fixed;left:50%;bottom:218px;transform:translateX(-50%);z-index:70;width:min(340px,calc(100vw - 40px));background:rgba(15,19,30,.97);border:1px solid rgba(126,224,168,.35);border-radius:14px;padding:14px 16px;box-shadow:0 14px 44px rgba(0,0,0,.55);}
+  .ng-clip{isolation:isolate;}
+  .ng-clip::after{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(105deg,transparent 42%,rgba(255,255,255,.13) 50%,transparent 58%);background-size:230% 100%;background-position:120% 0;animation:ngShimmer 2.2s ease-out .4s 2;pointer-events:none;}
+  @keyframes ngShimmer{to{background-position:-130% 0}}
+  @media (prefers-reduced-motion: reduce){.ng-beacon,.ng-vignette,.ng-clip::after{animation:none}}
 </style>
 <script src="technique-content.js"></script>

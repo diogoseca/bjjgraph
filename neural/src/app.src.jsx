@@ -665,6 +665,7 @@ class Component extends DCLogic {
     if (card._expanded) return;
     if (this._expandedClip && this._expandedClip !== card) this.collapseClip(this._expandedClip);
     card._expanded = true; this._expandedClip = card;
+    this.fx("short_watched", { id: clip.id });
     const vertical = !!clip.vertical, start = clip.start || 0, end = clip.end || 0;
     const row = card.parentElement;
     const rw = (row && row.clientWidth) || 460;
@@ -1482,6 +1483,7 @@ class Component extends DCLogic {
       const jitKey = decks[tk] && decks[tk].cards.length ? tk : (this._posKey && decks[this._posKey] && decks[this._posKey].cards.length ? this._posKey : null);
       if (jitKey) {
         const jd = decks[jitKey];
+        let jitGrades = 0;
         this._jitIdx = this._jitIdx || {};
         const jit = document.createElement("div");
         jit.setAttribute("data-jit", "1");
@@ -1509,6 +1511,7 @@ class Component extends DCLogic {
             this._pumpOdds(panel, n);                  // the Odds Pump — odometer + spring
             this._jitIdx[jitKey] = idx + 1;
             renderJit();
+            jitGrades++; if (jitGrades >= 2) this.setBeacon("execute", go); // bonus banked — commit is the next thing
           });
         };
         renderJit();
@@ -1521,6 +1524,13 @@ class Component extends DCLogic {
     const renderBody = () => { this.clearClipLoops(); body.innerHTML = this.detailHTML(n, cat, neighbors, this._perspective); this.wireClips(body, this._curClips); };
     renderBody();
     scroller.appendChild(body);
+    // film-first: auto-open the first Short (muted) once the sheet settles — the film row is
+    // the sheet's hero now that the clip corpus is triaged. Journeys drive watchShort()
+    // explicitly instead (a surprise auto-playing player would poison determinism).
+    if (this._curClips && this._curClips.length && !this.isTest()) {
+      const fi = this._curClips.findIndex((c) => c.vertical);
+      setTimeout(() => { if (this._detailCtx && this._detailCtx.opt === opt) this.watchShort(fi < 0 ? 0 : fi); }, 420);
+    }
     panel.appendChild(scroller);
     const foot = document.createElement("div");
     foot.style.cssText = "flex:none;display:flex;gap:11px;padding:16px 26px 20px;border-top:1px solid rgba(150,170,210,.1);";
@@ -1550,6 +1560,8 @@ class Component extends DCLogic {
     go.addEventListener("click", () => { this._detailCtx = null; this.hideOptDetail(); this.setPaused(false); onPick(opt); });
     foot.appendChild(back); foot.appendChild(go);
     panel.appendChild(foot);
+    // beat beacon hands into the sheet: the drill first (odds are pumpable) — else straight to Execute
+    { const jitEl = panel.querySelector("[data-jit]"); this.setBeacon(jitEl ? "jit" : "execute", jitEl || go); }
     this._detailCtx = { opt: opt, onPick: onPick };
 
     // expand / collapse the sheet (compact peek -> full)
@@ -1702,6 +1714,7 @@ class Component extends DCLogic {
   }
   closeOptionDetail() {
     this._detailCtx = null;
+    if (this._optPick && this._defendSub == null && this.optionsRef.current) this.setBeacon("options", this.optionsRef.current); // back to the hand
     this.clearClipLoops();
     clearTimeout(this._optSettle);
     const panel = this.optDetailRef.current;
@@ -3141,7 +3154,7 @@ class Component extends DCLogic {
     const ac = this.accountRef.current;
     if (ac) { ac.style.opacity = "1"; ac.style.pointerEvents = "auto"; ac.style.transform = "none"; }
   }
-  clearOptions() { const el = this.optionsRef.current; if (el) { el.innerHTML = ""; el.style.pointerEvents = "none"; el.style.opacity = "1"; el.style.transform = "none"; el.style.overflowX = "auto"; el.style.overflowY = "hidden"; el.style.webkitMaskImage = ""; el.style.maskImage = ""; el.style.justifyContent = "safe center"; el.style.paddingLeft = ""; el.style.paddingRight = ""; el.scrollLeft = 0; } this._detailCtx = null; this.hideOptDetail(); this.optionIdxs = []; this._optionCards = []; this._optHintAt = 0; }
+  clearOptions() { const el = this.optionsRef.current; if (el) { el.innerHTML = ""; el.style.pointerEvents = "none"; el.style.opacity = "1"; el.style.transform = "none"; el.style.overflowX = "auto"; el.style.overflowY = "hidden"; el.style.webkitMaskImage = ""; el.style.maskImage = ""; el.style.justifyContent = "safe center"; el.style.paddingLeft = ""; el.style.paddingRight = ""; el.scrollLeft = 0; } this._detailCtx = null; this.hideOptDetail(); this.optionIdxs = []; this._optionCards = []; this._optHintAt = 0; this.setBeacon(null); }
   tweenScroll(el, delta) {
     if (this._scrollRaf) cancelAnimationFrame(this._scrollRaf);
     const from = el.scrollLeft;
@@ -3250,7 +3263,7 @@ class Component extends DCLogic {
     card.style.cssText = "pointer-events:auto;cursor:pointer;position:relative;overflow:hidden;flex:0 0 150px;width:150px;background:rgba(28,32,52,.78);backdrop-filter:blur(6px);border:1px solid rgba(150,170,210,.18);border-radius:11px;padding:11px 12px 13px;opacity:1;transform:translateY(10px);transition:transform .34s cubic-bezier(.2,.7,.2,1),border-color .15s,background .15s;";
     const col = this.hex(n.col);
     const resName = opt.res >= 0 ? this.nodes[opt.res].t : "\u2014";
-    const pct = Math.round((isEsc ? Math.max(0.08, Math.min(0.92, 0.4 + (this.myVal(n) - this.myVal(this.nodes[this._defendSub])) * 0.15 + this.stateBonus(this.defendKeyFor(this.nodes[this._defendSub])) - (this.aiSkill || 0))) : this.moveChance(n)) * 100);
+    const pct = Math.round((isEsc ? this.escapeChance(opt) : this.moveChance(n)) * 100);
     const oddsCol = pct >= 60 ? "#7ee0a8" : pct >= 38 ? "#cbd24e" : "#e8956b";
     const pot = Math.round(this.movePotential(opt) * 100);
     const bottomRow = '<div style="margin-top:8px;padding-top:8px;border-top:1px solid rgba(150,170,210,.1);display:flex;align-items:baseline;justify-content:space-between;gap:8px;">' +
@@ -3279,12 +3292,182 @@ class Component extends DCLogic {
     return card;
   }
   refreshOptionOdds() {
+    if (this._defendSub != null) { this.refreshEscapeOdds(); return; } // defense window: the tray holds ESCAPE cards
     for (const oc of (this._optionCards || [])) {
       const el = oc.card.querySelector(".ngodds"); if (!el) continue;
       const pct = Math.round(this.moveChance(oc.node) * 100);
       el.textContent = pct + "%";
       el.style.color = pct >= 60 ? "#7ee0a8" : pct >= 38 ? "#cbd24e" : "#e8956b";
     }
+  }
+
+  // ═══ P2: one-beacon guidance + panic-drill defense + guided first roll ═══
+
+  // Beat Beacon — the ONE glowing next-thing. Setting a new target strips the old one, so
+  // the one-beacon law holds by construction (journeys assert [data-beacon] count == 1).
+  setBeacon(target, el) {
+    const prev = this._beacon;
+    if (prev && prev.el && prev.el.removeAttribute) { prev.el.removeAttribute("data-beacon"); if (prev.el.classList) prev.el.classList.remove("ng-beacon"); }
+    if (!target || !el) { this._beacon = null; return; }
+    el.setAttribute("data-beacon", target);
+    if (el.classList) el.classList.add("ng-beacon");
+    this._beacon = { target: target, el: el };
+    this.fx("beacon_moved", { target: target });
+  }
+  beaconState() { return this._beacon ? { target: this._beacon.target } : null; }
+
+  // shared defense math: one seam for the escape cards, the live re-render, and the resolve.
+  // dmod credits whichever deck the panic drill drills (authored Defender deck when it exists,
+  // else your position deck) — so grading under fire visibly moves EVERY escape's number.
+  escapeChance(opt) {
+    const sub = this._defendSub != null ? this.nodes[this._defendSub] : null;
+    if (!sub || !opt || !opt.node) return 0;
+    const dmod = this.stateBonus(this._panicKey || this.defendKeyFor(sub));
+    return Math.max(0.08, Math.min(0.92, 0.4 + (this.myVal(opt.node) - this.myVal(sub)) * 0.15 + dmod - (this.aiSkill || 0)));
+  }
+  escapeOddsSnapshot() {
+    const list = this._optList;
+    if (this._defendSub == null || !list || !list.length) return 0;
+    return Math.round(this.escapeChance(list[0]) * 100);
+  }
+  refreshEscapeOdds() {
+    if (this._defendSub == null) return;
+    for (const oc of (this._optionCards || [])) {
+      const el = oc.card.querySelector(".ngodds"); if (!el) continue;
+      const pct = Math.round(this.escapeChance({ node: oc.node }) * 100);
+      el.textContent = pct + "%";
+      el.style.color = pct >= 60 ? "#7ee0a8" : pct >= 38 ? "#cbd24e" : "#e8956b";
+    }
+  }
+  pickFirstEscape() { const p = this._optPick, l = this._optList; if (p && l && l.length) p(l[0]); }
+
+  // heartbeat vignette — visible trouble. Escape snaps it off in 180ms (the relief IS the
+  // reward); a tap lets it drain slowly with the defeat.
+  showVignette() {
+    if (this._vignetteEl) return;
+    const v = document.createElement("div");
+    v.className = "ng-vignette";
+    (this.__ngRoot || document.body).appendChild(v);
+    this._vignetteEl = v;
+  }
+  killVignette(relief) {
+    const v = this._vignetteEl; if (!v) return; this._vignetteEl = null;
+    v.style.transition = relief ? "opacity .18s ease" : "opacity .5s ease";
+    v.style.opacity = "0";
+    setTimeout(() => { try { v.remove(); } catch (e) {} }, relief ? 200 : 520);
+  }
+
+  // ── PANIC DRILL: one defender micro-card inline with the escape options. Grading it pumps
+  // every escape's odds live (+6% stateBonus) and refunds clock (+2s) — composure under fire. ──
+  buildPanicCard(row, sub) {
+    const decks = (this.flashcards && this.flashcards.decks) || {};
+    const pk = this._panicKey;
+    const jd = pk ? decks[pk] : null;
+    if (!row || !jd || !jd.cards.length) return;
+    this._jitIdx = this._jitIdx || {};
+    const card = document.createElement("div");
+    card.setAttribute("data-panic", "1");
+    card.style.cssText = "pointer-events:auto;position:relative;flex:0 0 236px;width:236px;background:rgba(52,22,24,.85);backdrop-filter:blur(6px);border:1px solid rgba(255,110,110,.4);border-radius:11px;padding:11px 12px 12px;";
+    const render = () => {
+      const idx = (this._jitIdx[pk] || 0) % jd.cards.length;
+      const fc = jd.cards[idx];
+      card.innerHTML =
+        '<div style="font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:800;color:#ff9c9c;margin-bottom:6px;">Panic drill — defend it</div>' +
+        '<div style="font-size:12px;line-height:1.45;color:#f2dede;">' + fc.q + '</div>' +
+        '<div class="pAns" style="display:none;margin-top:7px;font-size:11.5px;line-height:1.5;color:#e8b8b8;border-top:1px solid rgba(255,110,110,.22);padding-top:7px;">' + fc.a + '</div>' +
+        '<div style="display:flex;gap:7px;margin-top:9px;">' +
+          '<button data-panic-reveal style="flex:1;cursor:pointer;font-family:inherit;font-size:11px;font-weight:700;padding:8px;border-radius:8px;border:1px solid rgba(255,110,110,.45);background:rgba(255,110,110,.14);color:#ffc9c9;">Reveal</button>' +
+          '<button data-panic-got style="display:none;flex:1;cursor:pointer;font-family:inherit;font-size:11px;font-weight:700;padding:8px;border-radius:8px;border:none;background:linear-gradient(135deg,#b8434a,#8f2f38);color:#ffecec;">Got it &rarr; +escape%</button>' +
+        '</div>';
+      const rv = card.querySelector("[data-panic-reveal]"), gt = card.querySelector("[data-panic-got]");
+      rv.addEventListener("click", (ev) => { ev.stopPropagation(); card.querySelector(".pAns").style.display = "block"; rv.style.display = "none"; gt.style.display = "block"; });
+      gt.addEventListener("click", (ev) => {
+        ev.stopPropagation();
+        this.prep[pk] = (this.prep[pk] || 0) + 1;
+        this.noteCardDone(fc, pk);
+        this.refundDecision(2000);      // composure buys time
+        this.refreshEscapeOdds();       // the payoff: every escape's % climbs before your eyes
+        this.fx("escape_odds_pumped", { deck_key: pk });
+        this._jitIdx[pk] = idx + 1;
+        render();
+        this.setBeacon("escape", row);  // drilled — now TAKE the escape
+      });
+    };
+    render();
+    row.insertBefore(card, row.firstChild);
+    this.fx("panic_drill_opened", { deck_key: pk });
+    this.setBeacon("panic", card);
+  }
+
+  // ── GUIDED FIRST ROLL: a 3-beat coach on the first-ever landing. The decision clock is
+  // FROZEN (see _tickDecision) until coach_done — nobody reads new UI under a timer. ──
+  maybeStartCoach() {
+    if (this._coach || this._coachDone) return;
+    let seen = null; try { seen = localStorage.getItem("bjj-neural-coached"); } catch (e) {}
+    if (seen) { this._coachDone = true; return; }
+    this._coach = 1;
+    this.renderCoach();
+    this.fx("coach_1", {});
+  }
+  advanceCoach() {
+    if (!this._coach) return;
+    if (this._coach >= 3) { this.finishCoach(); return; }
+    this._coach++;
+    this.fx("coach_" + this._coach, {});
+    this.renderCoach();
+  }
+  dismissCoach() { if (this._coach) this.finishCoach(); }
+  finishCoach() {
+    this._coach = null; this._coachDone = true;
+    try { localStorage.setItem("bjj-neural-coached", "1"); } catch (e) {}
+    if (this._coachEl) { try { this._coachEl.remove(); } catch (e) {} this._coachEl = null; }
+    this.fx("coach_done", {});
+  }
+  renderCoach() {
+    const COPY = [
+      ["Your move", "These cards are your options from this position &mdash; each shows your live success odds. The clock is frozen while we talk."],
+      ["Peek before you leap", "Tap a card to open its sheet: film-study Shorts, the details, and what it wins you. Peeking pauses the clock too."],
+      ["Drill = odds + time", "Inside the sheet, grade a flashcard: every card you get right pumps that move's odds and refunds decision time. Then Execute."],
+    ];
+    let el = this._coachEl;
+    if (!el) {
+      el = document.createElement("div");
+      el.className = "ng-coach";
+      el.setAttribute("data-coach", "1");
+      (this.__ngRoot || document.body).appendChild(el);
+      this._coachEl = el;
+    }
+    const step = this._coach || 1;
+    const c = COPY[step - 1];
+    el.innerHTML =
+      '<div style="display:flex;align-items:center;gap:7px;margin-bottom:6px;">' +
+        [1, 2, 3].map((i) => '<span style="width:6px;height:6px;border-radius:50%;background:' + (i <= step ? "#7ee0a8" : "rgba(150,170,210,.3)") + ';"></span>').join("") +
+        '<span style="font-size:10px;letter-spacing:.12em;text-transform:uppercase;font-weight:800;color:#7ee0a8;margin-left:4px;">Coach &middot; ' + step + '/3</span></div>' +
+      '<div style="font-size:14px;font-weight:700;color:#eef1f6;margin-bottom:4px;font-family:\'Space Grotesk\',sans-serif;">' + c[0] + '</div>' +
+      '<div style="font-size:12px;line-height:1.5;color:#aeb9d4;">' + c[1] + '</div>' +
+      '<div style="display:flex;gap:9px;margin-top:10px;align-items:center;">' +
+        '<button data-coach-next style="flex:1;cursor:pointer;font-family:inherit;font-size:12.5px;font-weight:700;padding:9px;border-radius:9px;border:none;background:linear-gradient(135deg,#2f9e6a,#207a55);color:#eafff3;">' + (step >= 3 ? "Got it &mdash; roll" : "Next") + '</button>' +
+        '<button data-coach-skip style="cursor:pointer;font-family:inherit;font-size:11px;font-weight:600;padding:9px 6px;border:none;background:none;color:#7e8aa3;">Skip</button>' +
+      '</div>';
+    el.querySelector("[data-coach-next]").addEventListener("click", () => this.advanceCoach());
+    el.querySelector("[data-coach-skip]").addEventListener("click", () => this.dismissCoach());
+  }
+
+  // ── programmatic film-study open (journey rail + the sheet's auto-expand seam): expand clip
+  // i of the open sheet. In test mode with no clips loaded (journeys abort the dossier payload),
+  // a stub clip + synthetic card exercise the full player pipeline against the page's YT stub. ──
+  watchShort(i) {
+    i = i || 0;
+    const panel = this.optDetailRef.current;
+    let card = panel ? panel.querySelectorAll(".ng-clip")[i] : null;
+    let clip = this._curClips && this._curClips[i];
+    if ((!card || !clip) && this.isTest()) {
+      clip = clip || { id: "stub-clip-" + i, title: "stub", start: 0, end: 20, vertical: true };
+      if (!card && panel) { card = document.createElement("button"); card.className = "ng-clip"; card.style.cssText = "position:relative;width:126px;height:170px;"; panel.appendChild(card); }
+    }
+    if (!card || !clip) return false;
+    this.expandClip(card, clip);
+    return true;
   }
 
   // ---------- roll state machine ----------
@@ -3436,7 +3619,9 @@ class Component extends DCLogic {
     this._optPick = pick; this._optList = opts;
     // the decision CLOCK (gdt-driven in _tick, so sheets/pauses freeze it): narrated 3-2-1
     // expiry + a visible auto-pick pop — never a silent teleport. Drilling refunds time (cap 2).
-    this._decision = { remaining: dsec * 1000, refunds: 0, warned: 0, pick: pick, opts: opts };
+    this._decision = { remaining: dsec * 1000, total: dsec * 1000, refunds: 0, warned: 0, pick: pick, opts: opts };
+    this.setBeacon("options", el); // beat beacon: your move — read the hand
+    if (first) this.maybeStartCoach(); // guided first roll (frozen clock) for first-ever visitors
   }
 
   decisionRemaining() { return this._decision ? Math.max(0, this._decision.remaining / 1000) : 0; }
@@ -3450,8 +3635,12 @@ class Component extends DCLogic {
   }
   _tickDecision(gdt) {
     const d = this._decision;
-    if (!d || !this._optPick) return;
+    if (!d || !this._optPick || this._coach) return; // the coach freezes the clock — nobody reads UI under a timer they don't understand yet
     d.remaining -= gdt * 1000;
+    if (this._vignetteEl && d.total) { // defense heartbeat: 60 → 100bpm as the window drains
+      const f = Math.max(0, Math.min(1, d.remaining / d.total));
+      this._vignetteEl.style.animationDuration = (0.6 + 0.4 * f).toFixed(2) + "s";
+    }
     const secLeft = Math.ceil(d.remaining / 1000);
     if (d.remaining > 0 && secLeft <= 3 && d.warned !== secLeft) {
       d.warned = secLeft;
@@ -3459,6 +3648,7 @@ class Component extends DCLogic {
       this.setEvent("Decide", secLeft + "\u2026", "bad");
     }
     if (d.remaining <= 0) {
+      if (d.onExpire) { this._decision = null; d.onExpire(); return; } // defense window: expiry = tapped
       const opts = d.opts, pick = d.pick;
       this._decision = null;
       this.fx("auto_pick", {});
@@ -3674,6 +3864,7 @@ class Component extends DCLogic {
   enterDefense(subIdx) {
     const sub = this.nodes[subIdx];
     this.fx("defend_start", { submission: sub ? sub.t : null });
+    this.fx("caught", { submission: sub ? sub.t : null });
     // escape routes: positions reachable from the submission node (back to safety)
     const escapes = []; const seen = new Set();
     for (const k of this.adj[subIdx]) {
@@ -3686,29 +3877,35 @@ class Component extends DCLogic {
     this.optionIdxs = escapes.map((e) => e.idx);
     const dsec = Math.max(4, Math.min(9, 4 + escapes.length));
     this.setEvent("Defend! \u00b7 escape the " + this.splitName(sub.t).main, "Pick an escape \u2014 or drill defense", "bad");
-    // surface the Defender deck for the submission so drilling improves the escape
     this._defendSub = subIdx;
-    this.buildDrillPanel(this.currentPos, this.defendKeyFor(sub)); // surfaces the Defender deck via the tab; respects the user's open/closed choice (no auto-open)
+    // the panic drill credits the authored Defender deck when it exists, else your position deck
+    const decks = (this.flashcards && this.flashcards.decks) || {};
+    const dk = this.defendKeyFor(sub);
+    this._panicKey = decks[dk] && decks[dk].cards.length ? dk : (this._posKey && decks[this._posKey] && decks[this._posKey].cards.length ? this._posKey : null);
+    this.buildDrillPanel(this.currentPos, dk); // surfaces the Defender deck via the tab; respects the user's open/closed choice (no auto-open)
+    this.showVignette(); // heartbeat — you are IN TROUBLE, and the screen says so
 
     const el = this.optionsRef.current; if (el) el.innerHTML = "";
     let picked = false;
-    const finish = () => { picked = true; this._optPick = null; this._optList = null; this.clearTimers(); this.clearOptions(); this._defendSub = null;
+    const finish = () => { picked = true; this._optPick = null; this._optList = null; this._decision = null; this.clearTimers(); this.clearOptions(); this._defendSub = null; this._panicKey = null; this.killVignette(false);
       this.activeMove = null; this.flare(subIdx); this.setEvent("Tapped", this.splitName(sub.t).main, "bad");
       this.after(0.5, () => this.endRound("lose", sub.t)); };
     const pick = (opt) => {
-      if (picked) return; picked = true; this._optPick = null; this._optList = null; this.clearTimers(); this.clearOptions();
-      const dmod = this.stateBonus(this.defendKeyFor(sub));
-      const chance = Math.max(0.08, Math.min(0.92, 0.4 + (this.myVal(opt.node) - this.myVal(sub)) * 0.15 + dmod - (this.aiSkill || 0)));
+      if (picked) return; picked = true;
+      const chance = this.escapeChance(opt); // computed BEFORE teardown (needs _defendSub/_panicKey)
+      this._optPick = null; this._optList = null; this._decision = null; this.clearTimers(); this.clearOptions();
       this.setEvent("Escaping", opt.node.t, "info");
       this.activeMove = { idx: opt.idx, verb: "Escaping", col: { r: 126, g: 224, b: 168 } };
       this.startTravel([subIdx, opt.idx], () => {
-        this._defendSub = null;
+        this._defendSub = null; this._panicKey = null;
         if (this.rng("escape") < chance) {
           this.fx("escape", { via: opt.node.t });
           const before = this.myVal(this.nodes[this.currentPos]);
           this.playerRole = "bottom"; // escaping usually lands you bottom/neutral
           this.flashFx(this.myVal(opt.node) - before);
           this.currentPos = opt.idx; this.moveCount++; this.bumpBounce(); this._lastActor = "you";
+          this.killVignette(true); // 180ms snap-off — the relief IS the reward
+          this.fx("relief", {});
           this.setEvent("Escaped!", opt.node.t, "good");
           this.after(0.7, () => this.enterLand(false));
         } else { finish(); }
@@ -3717,7 +3914,9 @@ class Component extends DCLogic {
     for (let i = 0; i < escapes.length; i++) el.appendChild(this.buildOptionCard(escapes[i], pick, dsec, i + 1, "escape"));
     if (el) el.style.pointerEvents = "auto";
     this._optPick = pick; this._optList = escapes;
-    this.after(dsec, () => { if (!picked) finish(); }); // freeze too long → opponent finishes
+    this.buildPanicCard(el, sub);
+    // the defense window runs on the decision clock (gdt-driven, drill-refundable); expiry = tapped
+    this._decision = { remaining: dsec * 1000, total: dsec * 1000, refunds: 0, warned: 0, pick: pick, opts: escapes, onExpire: finish };
   }
   oppVal(node) {
     const s = node.s;

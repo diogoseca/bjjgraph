@@ -72,8 +72,11 @@ export class Journey {
     return this
   }
 
-  /** Land the roll at a named position (rigged start), completing the intro. */
-  async land(position: string) {
+  /** Land the roll at a named position (rigged start), completing the intro.
+   *  The guided first-roll coach fires on every fresh boot (storage is cleared), freezing the
+   *  decision clock — most journeys test post-onboarding play, so the DSL dismisses it unless
+   *  a test opts in with keepCoach. */
+  async land(position: string, opts: { keepCoach?: boolean } = {}) {
     // rig the intro roll's ambient draws too — ai-skill/role/max-moves must not flake across runs
     await this.rig("ai-skill", [0.5])
     await this.rig("role", [0])
@@ -90,7 +93,21 @@ export class Journey {
       const n = await this.page.evaluate(() => ((window as W).__neural.optionIdxs || []).length)
       if (n > 0) break
     }
+    if (!opts.keepCoach) await this.page.evaluate(() => (window as W).__neural?.dismissCoach?.())
     return this
+  }
+
+  /** Pump sim time in small steps until a beat appears — for sequences whose exact duration
+   *  varies (travel legs, opponent turns) but whose expiry would fire under one long advance. */
+  async advanceUntil(beat: string, capMs = 16000, stepMs = 400) {
+    let spent = 0
+    while (spent < capMs) {
+      await this.advance(stepMs)
+      spent += stepMs
+      const bs = await this.beats()
+      if (bs.some((b) => b.beat === beat)) return this
+    }
+    throw new Error(`beat "${beat}" not seen within ${capMs}ms of sim time`)
   }
 
   /** The visible option cards (bottom tray), by title. */

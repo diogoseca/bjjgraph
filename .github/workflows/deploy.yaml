@@ -74,6 +74,15 @@ jobs:
           python3 scripts/validate_json.py --all
           python3 scripts/validate_graph_integrity.py
 
+      # The Neural app bundle + its data payloads live under source/quartz/static/neural/,
+      # which is GITIGNORED (build artifacts, 13.5MB+ payloads). Without this step the built
+      # site — and therefore production AND the journey gate — contains no Neural front-end
+      # at all. Regenerate from the committed sources so what we test is what we ship.
+      - name: Regenerate Neural app + data
+        run: |
+          (cd source && npm install)
+          npm run regenerate:neural
+
       - name: Build Quartz
         env:
           POSTHOG_API_KEY: ${{ secrets.POSTHOG_API_KEY }}
