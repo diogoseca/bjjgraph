@@ -93,8 +93,9 @@ class Component extends DCLogic {
   // so a full roll replays frame-exact. In production (no rig) this is Math.random passthrough.
   rng(tag) {
     const q = this._rig && this._rig[tag];
-    if (q && q.length) return q.shift();
-    return Math.random();
+    const v = q && q.length ? q.shift() : Math.random();
+    if (this._rec) this._rec.draws.push({ tag: tag, v: v });
+    return v;
   }
   rig(tag, values) { this._rig = this._rig || {}; (this._rig[tag] = this._rig[tag] || []).push(...(values || [])); }
   rigStart(idx) { this._rigStart = idx; }
@@ -760,7 +761,14 @@ class Component extends DCLogic {
     const fam = node.ty === "positions" ? this.posFamily(node.t) : node.t;
     return { fam: fam, role: role, cat: cat, key: fam + "|" + role };
   }
-  stateBonus(key) { return key ? Math.min(0.3, 0.06 * ((this.prep && this.prep[key]) || 0)) : 0; }
+  // ── P3 economy: permanent mastery + decaying sharpness. Drilling stays valuable forever
+  // (mastery), but recency matters (sharpness fades as the roll moves on). ──
+  mastery(key) { return key ? Math.min(0.15, 0.03 * ((this.prep && this.prep[key]) || 0)) : 0; }
+  sharpness(key) { return (key && this._sharp && this._sharp[key]) || 0; }
+  stateBonus(key) { return this.mastery(key) + this.sharpness(key); }
+  bumpSharp(key) { if (key) (this._sharp = this._sharp || {})[key] = 0.10; }
+  decaySharp() { const s = this._sharp; if (!s) return; for (const k in s) { s[k] = Math.round((s[k] - 0.025) * 1000) / 1000; if (s[k] <= 0) delete s[k]; } }
+  bonusSplit(key) { return { mastery: this.mastery(key), sharp: this.sharpness(key) }; }
   // the Odds Pump: odometer count-up + spring on every odds element in a container. In test
   // mode the final value lands instantly (headless rAF is throttled); prod gets the 450ms ride.
   _pumpOdds(container, n) {
@@ -790,6 +798,7 @@ class Component extends DCLogic {
   noteCardDone(card, key) {
     const q = card && card.q;
     if (!q) return;
+    this.bumpSharp(key); // sharpness refreshes on EVERY grade, even repeats of a mastered card
     this._saveProgress(); // persist prep bumps (debounced) even for repeat answers
     this.cardDone = this.cardDone || new Set();
     if (this.cardDone.has(q)) return;          // already credited everywhere
@@ -1446,7 +1455,11 @@ class Component extends DCLogic {
     // right-aligned stat stack — Edge on top, Success below (mirrors the small option card)
     const edgeBlock = '<div style="text-align:right;"><div style="font-size:23px;font-weight:700;color:' + potCol + ';font-family:\'Space Grotesk\',sans-serif;line-height:1;">' + (pot > 0 ? "+" : "") + pot + '</div><div style="font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:#7e8aa3;font-weight:700;margin-top:4px;">Edge</div></div>';
     const succRight = '<div style="text-align:right;margin-top:15px;"><div style="display:flex;align-items:center;justify-content:flex-end;gap:8px;">' + stepsSpan + editBtn + '<div class="ngsucbig" data-odds style="font-size:25px;font-weight:700;color:' + oddsCol + ';font-family:\'Space Grotesk\',sans-serif;line-height:1;">' + pct + '%</div></div><div style="font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:#7e8aa3;font-weight:600;margin-top:6px;">Success</div></div>';
-    const drillNote = myMod > 0 ? '<div style="margin-top:11px;display:inline-flex;align-items:center;gap:6px;font-size:11.5px;color:#7ee0a8;"><b style="font-weight:700;">+' + myMod + '%</b><span style="color:#6f8a78;">from your drilling</span></div>' : '';
+    const mPct = Math.round((this.mastery(this._posKey) + this.mastery(this.deckKeyFor(n).key)) * 100);
+    const sPct = Math.round((this.sharpness(this._posKey) + this.sharpness(this.deckKeyFor(n).key)) * 100);
+    const fPct = (this._filmLook && this._filmLook[n.t]) ? 4 : 0;
+    const noteBits = [mPct ? mPct + "% mastered" : "", sPct ? sPct + "% sharp" : "", fPct ? "4% film study" : ""].filter(Boolean).join(" \u00b7 ");
+    const drillNote = myMod + fPct > 0 ? '<div style="margin-top:11px;display:inline-flex;align-items:center;gap:6px;font-size:11.5px;color:#7ee0a8;"><b style="font-weight:700;">+' + (myMod + fPct) + '%</b><span style="color:#6f8a78;">' + noteBits + '</span></div>' : '';
     head.innerHTML =
       '<span class="x" style="position:absolute;top:2px;right:20px;cursor:pointer;color:#9aa6bd;font-size:21px;line-height:1;">&times;</span>' +
       '<div style="display:flex;align-items:center;gap:9px;margin-bottom:12px;flex-wrap:wrap;">' +
@@ -1494,12 +1507,12 @@ class Component extends DCLogic {
           jit.innerHTML =
             '<div style="display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin-bottom:7px;">' +
               '<span style="font-size:10px;letter-spacing:.12em;text-transform:uppercase;font-weight:800;color:#7ee0a8;">Drill it \u2014 earn odds & time</span>' +
-              '<span style="font-size:10px;color:#6f8a78;">+6% \u00b7 +2.5s per card</span></div>' +
+              '<span style="font-size:10px;color:#6f8a78;">+10% now \u00b7 +3% forever \u00b7 +2.5s</span></div>' +
             '<div style="font-size:12.5px;line-height:1.5;color:#dbe8df;">' + card.q + '</div>' +
             '<div class="jitAns" style="display:none;margin-top:8px;font-size:12px;line-height:1.55;color:#a9cdb6;border-top:1px solid rgba(126,224,168,.15);padding-top:8px;">' + card.a + '</div>' +
             '<div style="display:flex;gap:8px;margin-top:10px;">' +
               '<button data-jit-reveal style="flex:1;cursor:pointer;font-family:inherit;font-size:12px;font-weight:700;padding:9px;border-radius:9px;border:1px solid rgba(126,224,168,.35);background:rgba(126,224,168,.12);color:#bfe6cf;">Reveal answer</button>' +
-              '<button data-jit-got style="display:none;flex:1;cursor:pointer;font-family:inherit;font-size:12px;font-weight:700;padding:9px;border-radius:9px;border:none;background:linear-gradient(135deg,#2f9e6a,#207a55);color:#eafff3;">Got it \u2192 +6% odds</button>' +
+              '<button data-jit-got style="display:none;flex:1;cursor:pointer;font-family:inherit;font-size:12px;font-weight:700;padding:9px;border-radius:9px;border:none;background:linear-gradient(135deg,#2f9e6a,#207a55);color:#eafff3;">Got it \u2192 pump the odds</button>' +
             '</div>';
           const rv = jit.querySelector("[data-jit-reveal]"), gt = jit.querySelector("[data-jit-got]");
           rv.addEventListener("click", (ev) => { ev.stopPropagation(); jit.querySelector(".jitAns").style.display = "block"; rv.style.display = "none"; gt.style.display = "block"; });
@@ -3183,6 +3196,17 @@ class Component extends DCLogic {
 
   endRound(kind, name) {
     this.clearTimers(); this.clearOptions();
+    if (kind === "win") {
+      // victory cascade: flares hop the roll trail 110ms apart, hard-capped at 1.5s total
+      const rows = (this.rollLog || []).slice(-13);
+      const hops = Math.max(1, rows.length);
+      for (let ci = 0; ci < rows.length; ci++) { const cidx = rows[ci].idx; this.after(ci * 0.11, () => this.flare(cidx)); }
+      this.fx("victory_cascade", { hops: hops, durMs: hops * 110 });
+      this.ladderMove(1);
+    } else if (kind === "lose") {
+      this.fx("defeat_drain", {});
+      this.ladderMove(-1);
+    }
     if (kind === "win") this.fx("finish", { technique: name || null });
     this.fx("roll_end", { outcome: kind, moves: this.moveCount || 0 });
     this.track("neural_roll_ended", { outcome: kind, moves: this.moveCount || 0 });
@@ -3467,7 +3491,44 @@ class Component extends DCLogic {
     }
     if (!card || !clip) return false;
     this.expandClip(card, clip);
+    // film-study first look: +4% on THIS technique the first time you watch one of its Shorts
+    const ctxNode = this._detailCtx && this._detailCtx.opt && this._detailCtx.opt.node;
+    if (ctxNode) {
+      this._filmLook = this._filmLook || {};
+      if (!this._filmLook[ctxNode.t]) {
+        this._filmLook[ctxNode.t] = 1;
+        this.fx("film_first_look", { technique: ctxNode.t });
+        if (panel) this._pumpOdds(panel, ctxNode);
+      }
+    }
     return true;
+  }
+
+  // ── P3 opponent ladder: a persistent rank staked at every roll intro. Wins climb, taps drop. ──
+  ladderNames() { return ["Fresh White Belt", "Tough White Belt", "Blue Belt", "Purple Belt", "Brown Belt", "Black Belt", "World-Class Black Belt"]; }
+  ladderState() {
+    if (!this._ladder) {
+      let r = 1;
+      try { const raw = localStorage.getItem("bjj-neural-ladder"); if (raw) r = Math.max(1, Math.min(this.ladderNames().length, (JSON.parse(raw) || {}).rank || 1)); } catch (e) {}
+      this._ladder = { rank: r };
+    }
+    const names = this.ladderNames();
+    return { rank: this._ladder.rank, opponent: names[Math.min(names.length, this._ladder.rank) - 1] };
+  }
+  ladderMove(dir) {
+    const st = this.ladderState();
+    const next = Math.max(1, Math.min(this.ladderNames().length, st.rank + dir));
+    this._ladder.rank = next;
+    this.fx(dir > 0 ? "ladder_up" : "ladder_down", { rank: next, capped: next === st.rank });
+    try { localStorage.setItem("bjj-neural-ladder", JSON.stringify({ rank: next })); } catch (e) {}
+  }
+
+  // ── P3 journey recorder: capture beats + rng draws so a hand-played session can be pinned
+  // into a .journey.ts replay (rig() the recorded draws back per tag). Rail-first. ──
+  startRecording() { this._rec = { startedAt: this.now || 0, beat0: (this.beats || []).length, draws: [] }; }
+  stopRecording() {
+    const r = this._rec; if (!r) return null; this._rec = null;
+    return { startedAt: r.startedAt, beats: (this.beats || []).slice(r.beat0), draws: r.draws };
   }
 
   // ---------- roll state machine ----------
@@ -3528,7 +3589,9 @@ class Component extends DCLogic {
     } else {
       this.currentPos = positions[(this.rng("start-pos") * positions.length) | 0];
     }
-    this.showCenter("Restarting the roll", this.posFamily(this.nodes[this.currentPos].t), this.roleLabel() + " \u00b7 new roll", "muted", true);
+    const lad = this.ladderState();
+    this.fx("stakes", { rank: lad.rank, opponent: lad.opponent });
+    this.showCenter("Restarting the roll", this.posFamily(this.nodes[this.currentPos].t), this.roleLabel() + " \u00b7 vs " + lad.opponent, "muted", true);
     this.focusIdx = this.currentPos; this.pulse = null;
     this.camFocus = { x: this.nodes[this.currentPos].x, y: this.nodes[this.currentPos].y };
     this.prevPosVal = this.myVal(this.nodes[this.currentPos]);
@@ -3558,6 +3621,7 @@ class Component extends DCLogic {
   enterLand(first) {
     const pos = this.nodes[this.currentPos];
     this.fx("land", { position: pos ? pos.t : null, first: !!first });
+    if (!first) this.decaySharp(); // sharpness fades as the roll moves on
     this.focusIdx = this.currentPos; this.pulse = null;
     this._settleT = this.now;
     this.activeMove = null;
@@ -3669,7 +3733,7 @@ class Component extends DCLogic {
     this.setEvent(verb, act.t, "info");
     this.activeMove = { idx: opt.idx, verb: "Attacking", col: { r: 94, g: 149, b: 255 } };
     this.startTravel([this.currentPos, opt.idx], () => {
-      this.after(0.35, () => this.resolve(opt));
+      this.after(0.35, () => this.tensionSweep(opt));
     });
   }
 
@@ -3690,7 +3754,7 @@ class Component extends DCLogic {
     if (ov != null) return ov;
     const cal = this.calSuccess(act);
     const base = (cal != null) ? cal : ((act.ty === "submissions" ? 0.36 : 0.56) + act.dom * 0.1);
-    const playerMod = this.stateBonus(this._posKey) + this.stateBonus(this.deckKeyFor(act).key);
+    const playerMod = this.stateBonus(this._posKey) + this.stateBonus(this.deckKeyFor(act).key) + ((this._filmLook && this._filmLook[act.t]) ? 0.04 : 0);
     const aiMod = Math.max(0, this.oppVal(this.nodes[this.currentPos])) * 0.4 + (this.aiSkill || 0);
     return Math.max(0.05, Math.min(0.95, base + playerMod - aiMod));
   }
@@ -3784,9 +3848,27 @@ class Component extends DCLogic {
     for (const o of outs) { r -= Math.max(0, +o.probability || 0); if (r <= 0) return o; }
     return outs[outs.length - 1];
   }
-  resolve(opt) {
+  // ── P3 impact contrast: commit → 0.38s hold → 0.7s needle sweep vs a band sized to
+  // moveChance → detonation (in band) or 90ms hit-stop + recoil (out). The resolve draw
+  // happens at sweep start, so the needle's landing IS the verdict — no second dice roll. ──
+  tensionSweep(opt) {
     const act = this.nodes[opt.idx];
-    const success = this.rng("resolve") < this.moveChance(act);   // player-facing, drill-improvable gate
+    const chance = this.moveChance(act);
+    const roll = this.rng("resolve");
+    const success = roll < chance;
+    this.fx("sweep_start", { technique: act.t, band: Math.round(chance * 100) });
+    this._sweep = { idx: opt.idx, t0: this.now, hold: 0.38, dur: 0.7, band: chance, roll: roll };
+    this.after(1.08, () => {
+      this._sweep = null;
+      this.fx("sweep_land", { inBand: success, roll: Math.round(roll * 100) });
+      if (success) { this.fx("detonation", { technique: act.t }); this.flare(opt.idx); }
+      else { this.fx("hit_stop", { technique: act.t }); this._hitStop = this.now; this._shake = { idx: opt.idx, t0: this.now }; }
+      this.resolve(opt, success);
+    });
+  }
+  resolve(opt, forced) {
+    const act = this.nodes[opt.idx];
+    const success = forced != null ? forced : this.rng("resolve") < this.moveChance(act);   // player-facing, drill-improvable gate
     const out = this.drawOutcome(act);
     if (!out) { return success ? this.enterSuccess(opt) : this.enterFail(opt); }  // no cal -> legacy path
     if (success) {
@@ -4050,7 +4132,8 @@ class Component extends DCLogic {
         }
         if (this.startTime == null) this.startTime = this.now; // start intro clock once sized
         if (this.alpha < 1) this.alpha = Math.min(1, this.alpha + dt / 1.3);
-        const gdt = this.paused ? 0 : dt;
+        let gdt = this.paused ? 0 : dt;
+        if (this._hitStop) { if (this.now - this._hitStop < 0.09) gdt = 0; else this._hitStop = null; } // 90ms hit-stop
         this.updateTravel(gdt);
         this._tickDecision(gdt);
         this.updateFlash();
@@ -4208,7 +4291,10 @@ class Component extends DCLogic {
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     ctx.fillStyle = "#1a1a2e"; ctx.fillRect(0, 0, W, H);
 
-    const ox = W / 2 - this.cam.cx * scale, oy = H / 2 - this.cam.cy * scale;
+    // hit-stop recoil: a decaying camera shake after an out-of-band landing
+    let shk = 0;
+    if (this._shake) { const sa = this.now - this._shake.t0; if (sa < 0.22) shk = Math.sin(sa * 80) * 5 * (1 - sa / 0.22); else this._shake = null; }
+    const ox = W / 2 - this.cam.cx * scale + shk, oy = H / 2 - this.cam.cy * scale + shk;
     ctx.setTransform(scale * dpr, 0, 0, scale * dpr, ox * dpr, oy * dpr);
 
     // grid
@@ -4228,6 +4314,25 @@ class Component extends DCLogic {
     ctx.stroke();
 
     ctx.globalCompositeOperation = "lighter";
+    // tension sweep: a needle arcs the committed node toward its landing angle vs a band
+    // sized to the move's success chance — where it stops IS the verdict (same rng draw).
+    if (this._sweep) {
+      const sw = this._sweep, sn = this.nodes[sw.idx], sa2 = this.now - sw.t0;
+      if (sn) {
+        const R0 = 22, a0 = -Math.PI / 2;
+        ctx.lineWidth = 5 / scale; ctx.strokeStyle = "rgba(126,224,168,.55)";
+        ctx.beginPath(); ctx.arc(sn.x, sn.y, R0, a0, a0 + sw.band * Math.PI * 2); ctx.stroke();
+        const prog = Math.max(0, Math.min(1, (sa2 - sw.hold) / sw.dur));
+        const ease = 1 - Math.pow(1 - prog, 3);
+        const ang = a0 + sw.roll * Math.PI * 2 * ease;
+        const pulse = prog <= 0 ? 1 + 0.25 * Math.sin(sa2 * 18) : 1;
+        ctx.lineWidth = 2.5 / scale; ctx.strokeStyle = "rgba(255,255,255,.92)";
+        ctx.beginPath();
+        ctx.moveTo(sn.x + Math.cos(ang) * (R0 - 8) * pulse, sn.y + Math.sin(ang) * (R0 - 8) * pulse);
+        ctx.lineTo(sn.x + Math.cos(ang) * (R0 + 8) * pulse, sn.y + Math.sin(ang) * (R0 + 8) * pulse);
+        ctx.stroke();
+      }
+    }
     // active edges: the selected node's connections take the destination's color, with width and
     // brightness scaled by the PRECOMPUTED likelihood of actually taking that edge (occurrence% ×
     // success% for a position's moves; outcome% for a technique's landings) relative to the

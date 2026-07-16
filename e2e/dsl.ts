@@ -24,16 +24,29 @@ type W = Window & { __neural?: any; NG_CONTENT?: any }
 export class Journey {
   constructor(private page: Page) {}
 
-  /** Boot the app fresh on a route with the deterministic rails engaged. */
-  async boot(path = "/", opts: { seedRolls?: Record<string, number[]> } = {}) {
-    await this.page.addInitScript(() => {
-      try {
-        localStorage.clear()
-        sessionStorage.clear()
-      } catch {}
-      // engage test mode BEFORE the bundle boots: the app checks this flag at construction
-      ;(window as any).__NEURAL_TEST__ = true
-    })
+  /** Boot the app fresh on a route with the deterministic rails engaged.
+   *  preserveStorage skips the localStorage wipe for THIS boot — for persistence journeys
+   *  (ladder, coach) that assert state SURVIVES a reload. Implemented via a one-shot
+   *  sessionStorage flag because addInitScript registrations accumulate across boots. */
+  async boot(path = "/", opts: { seedRolls?: Record<string, number[]>; preserveStorage?: boolean } = {}) {
+    if (!(this.page as any).__ngInit) {
+      ;(this.page as any).__ngInit = true
+      await this.page.addInitScript(() => {
+        try {
+          const keep = sessionStorage.getItem("__ng_keep")
+          sessionStorage.removeItem("__ng_keep")
+          if (!keep) {
+            localStorage.clear()
+            sessionStorage.clear()
+          }
+        } catch {}
+        // engage test mode BEFORE the bundle boots: the app checks this flag at construction
+        ;(window as any).__NEURAL_TEST__ = true
+      })
+    }
+    if (opts.preserveStorage) {
+      await this.page.evaluate(() => sessionStorage.setItem("__ng_keep", "1")).catch(() => {})
+    }
     // journeys don't need the 20MB dossier payload — abort it (the app is absence-guarded).
     // Register ONCE per page: duplicate handlers + a prior boot's in-flight aborts can cancel
     // the next navigation (net::ERR_ABORTED on the second boot of a determinism replay).
@@ -95,6 +108,21 @@ export class Journey {
     }
     if (!opts.keepCoach) await this.page.evaluate(() => (window as W).__neural?.dismissCoach?.())
     return this
+  }
+
+  /** After a resolve, pump until the NEXT hand of options is dealt (a fresh options_dealt
+   *  beat + a live tray) — travel legs and opponent turns make fixed advances flaky. */
+  async nextHand(capMs = 20000) {
+    const dealt0 = (await this.beats()).filter((b) => b.beat === "options_dealt").length
+    let spent = 0
+    while (spent < capMs) {
+      await this.advance(500)
+      spent += 500
+      const dealt = (await this.beats()).filter((b) => b.beat === "options_dealt").length
+      const n = await this.page.evaluate(() => (((window as W).__neural || {}).optionIdxs || []).length)
+      if (dealt > dealt0 && n > 0) return this
+    }
+    throw new Error(`next hand not dealt within ${capMs}ms of sim time`)
   }
 
   /** Pump sim time in small steps until a beat appears — for sequences whose exact duration
