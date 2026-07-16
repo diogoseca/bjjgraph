@@ -122,8 +122,10 @@ class Component extends DCLogic {
           if (it.remaining <= 0) it._fire();
         }
       }
+      this._noDraw = left > 0; // sim every tick, RENDER once at the end (headless perf)
       this._tick(this._simNow / 1000);
     }
+    this._noDraw = false;
   }
   after(sec, fn) {
     const item = { fn: fn, remaining: sec * 1000, start: performance.now(), id: null };
@@ -758,6 +760,27 @@ class Component extends DCLogic {
     return { fam: fam, role: role, cat: cat, key: fam + "|" + role };
   }
   stateBonus(key) { return key ? Math.min(0.3, 0.06 * ((this.prep && this.prep[key]) || 0)) : 0; }
+  // the Odds Pump: odometer count-up + spring on every odds element in a container. In test
+  // mode the final value lands instantly (headless rAF is throttled); prod gets the 450ms ride.
+  _pumpOdds(container, n) {
+    const to = Math.round(this.moveChance(n) * 100);
+    const col = to >= 60 ? "#7ee0a8" : to >= 38 ? "#cbd24e" : "#e8956b";
+    container.querySelectorAll(".ngsucbig").forEach((el) => {
+      const from = parseInt((el.textContent || "0").replace(/[^0-9]/g, ""), 10) || 0;
+      el.style.color = col;
+      if (this.isTest()) { el.textContent = to + "%"; return; }
+      el.style.transition = "transform .45s cubic-bezier(.2,1.6,.3,1)";
+      el.style.transform = "scale(1.18)";
+      const t0 = performance.now(), dur = 450;
+      const step = (ts) => {
+        const k = Math.min(1, (ts - t0) / dur);
+        el.textContent = Math.round(from + (to - from) * k) + "%";
+        if (k < 1) requestAnimationFrame(step); else el.style.transform = "scale(1)";
+      };
+      requestAnimationFrame(step);
+    });
+    this.refreshOptionOdds();
+  }
   // Cross-variant credit for the blended hierarchy cards: a family/position-tier card is the SAME
   // card duplicated into every variant's deck (identical question). The first time it's answered
   // anywhere, credit every other deck that contains it — so a "Mount principle" mastered while
@@ -1049,7 +1072,12 @@ class Component extends DCLogic {
     try { const ph = window.posthog; if (ph && ph.capture) ph.capture(event, Object.assign({ variant: "neural" }, props || {})); } catch (e) { /* analytics must never break the app */ }
   }
   get(k, d) { const v = (this.settings || {})[k]; return v == null ? d : v; }
-  masteredCount() { const p = this.prep || {}; return Object.keys(p).filter((k) => p[k] > 0).length; }
+  masteredCount() { const p = this.prep || {}; return Object.keys(p).filter((k) => p[k] >= 3).length; } // mastery is EARNED: 3 graded cards
+  // reveal-only rail: seeing an answer is 'seen', never mastery credit (the honest economy)
+  noteCardSeen(key, idx) {
+    this._seen = this._seen || {};
+    (this._seen[key] = this._seen[key] || new Set()).add(idx);
+  }
   coveragePct(mastered, goal) {
     const raw = (mastered / Math.max(1, goal)) * 100;
     if (raw <= 0) return 0;
@@ -1251,7 +1279,7 @@ class Component extends DCLogic {
     const doNext = () => { st.idx = (st.idx + 1) % total; st.revealed = false; render(); };
     const doReveal = () => {
       st.revealed = !st.revealed;
-      if (st.revealed) { ansSet.add(st.idx); this.prep[key] = Math.max((this.prep[key] || 0), ansSet.size); this.noteCardDone(cards[st.idx], key); } // answering raises this state's score (+ shared-card credit)
+      if (st.revealed) { ansSet.add(st.idx); this.noteCardSeen(key, st.idx); } // reveal = SEEN only; mastery credit requires grading (honest economy)
       render();
     };
     const render = () => {
@@ -1416,7 +1444,7 @@ class Component extends DCLogic {
     const stepsSpan = '<span class="ng-bsuc-steps" style="display:none;align-items:center;gap:7px;opacity:0;transition:opacity .18s ease;"><button class="ng-bsuc-dn" title="Lower" style="flex:none;width:24px;height:24px;border-radius:50%;border:1px solid rgba(150,170,210,.3);background:rgba(255,255,255,.04);color:#aeb9d4;font-size:15px;font-weight:700;line-height:1;cursor:pointer;">\u2212</button><button class="ng-bsuc-up" title="Raise" style="flex:none;width:24px;height:24px;border-radius:50%;border:1px solid rgba(150,170,210,.3);background:rgba(255,255,255,.04);color:#aeb9d4;font-size:15px;font-weight:700;line-height:1;cursor:pointer;">+</button></span>';
     // right-aligned stat stack — Edge on top, Success below (mirrors the small option card)
     const edgeBlock = '<div style="text-align:right;"><div style="font-size:23px;font-weight:700;color:' + potCol + ';font-family:\'Space Grotesk\',sans-serif;line-height:1;">' + (pot > 0 ? "+" : "") + pot + '</div><div style="font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:#7e8aa3;font-weight:700;margin-top:4px;">Edge</div></div>';
-    const succRight = '<div style="text-align:right;margin-top:15px;"><div style="display:flex;align-items:center;justify-content:flex-end;gap:8px;">' + stepsSpan + editBtn + '<div class="ngsucbig" style="font-size:25px;font-weight:700;color:' + oddsCol + ';font-family:\'Space Grotesk\',sans-serif;line-height:1;">' + pct + '%</div></div><div style="font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:#7e8aa3;font-weight:600;margin-top:6px;">Success</div></div>';
+    const succRight = '<div style="text-align:right;margin-top:15px;"><div style="display:flex;align-items:center;justify-content:flex-end;gap:8px;">' + stepsSpan + editBtn + '<div class="ngsucbig" data-odds style="font-size:25px;font-weight:700;color:' + oddsCol + ';font-family:\'Space Grotesk\',sans-serif;line-height:1;">' + pct + '%</div></div><div style="font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:#7e8aa3;font-weight:600;margin-top:6px;">Success</div></div>';
     const drillNote = myMod > 0 ? '<div style="margin-top:11px;display:inline-flex;align-items:center;gap:6px;font-size:11.5px;color:#7ee0a8;"><b style="font-weight:700;">+' + myMod + '%</b><span style="color:#6f8a78;">from your drilling</span></div>' : '';
     head.innerHTML =
       '<span class="x" style="position:absolute;top:2px;right:20px;cursor:pointer;color:#9aa6bd;font-size:21px;line-height:1;">&times;</span>' +
@@ -1446,6 +1474,48 @@ class Component extends DCLogic {
     const scroller = document.createElement("div");
     scroller.style.cssText = "flex:1;min-height:0;overflow-y:auto;";
     scroller.appendChild(head);
+    // ── JIT micro-drill: drill the exact cards for THIS decision, right here. Every graded
+    // card pumps the odds (+6%) and refunds decision time (+2.5s, cap 2) — knowledge is tempo. ──
+    {
+      const decks = (this.flashcards && this.flashcards.decks) || {};
+      const tk = this.deckKeyFor(n).key;
+      const jitKey = decks[tk] && decks[tk].cards.length ? tk : (this._posKey && decks[this._posKey] && decks[this._posKey].cards.length ? this._posKey : null);
+      if (jitKey) {
+        const jd = decks[jitKey];
+        this._jitIdx = this._jitIdx || {};
+        const jit = document.createElement("div");
+        jit.setAttribute("data-jit", "1");
+        jit.style.cssText = "margin:10px 26px 4px;padding:12px 14px;border:1px solid rgba(126,224,168,.22);border-radius:12px;background:rgba(22,38,30,.35);";
+        const renderJit = () => {
+          const idx = (this._jitIdx[jitKey] || 0) % jd.cards.length;
+          const card = jd.cards[idx];
+          jit.innerHTML =
+            '<div style="display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin-bottom:7px;">' +
+              '<span style="font-size:10px;letter-spacing:.12em;text-transform:uppercase;font-weight:800;color:#7ee0a8;">Drill it \u2014 earn odds & time</span>' +
+              '<span style="font-size:10px;color:#6f8a78;">+6% \u00b7 +2.5s per card</span></div>' +
+            '<div style="font-size:12.5px;line-height:1.5;color:#dbe8df;">' + card.q + '</div>' +
+            '<div class="jitAns" style="display:none;margin-top:8px;font-size:12px;line-height:1.55;color:#a9cdb6;border-top:1px solid rgba(126,224,168,.15);padding-top:8px;">' + card.a + '</div>' +
+            '<div style="display:flex;gap:8px;margin-top:10px;">' +
+              '<button data-jit-reveal style="flex:1;cursor:pointer;font-family:inherit;font-size:12px;font-weight:700;padding:9px;border-radius:9px;border:1px solid rgba(126,224,168,.35);background:rgba(126,224,168,.12);color:#bfe6cf;">Reveal answer</button>' +
+              '<button data-jit-got style="display:none;flex:1;cursor:pointer;font-family:inherit;font-size:12px;font-weight:700;padding:9px;border-radius:9px;border:none;background:linear-gradient(135deg,#2f9e6a,#207a55);color:#eafff3;">Got it \u2192 +6% odds</button>' +
+            '</div>';
+          const rv = jit.querySelector("[data-jit-reveal]"), gt = jit.querySelector("[data-jit-got]");
+          rv.addEventListener("click", (ev) => { ev.stopPropagation(); jit.querySelector(".jitAns").style.display = "block"; rv.style.display = "none"; gt.style.display = "block"; });
+          gt.addEventListener("click", (ev) => {
+            ev.stopPropagation();
+            this.prep[jitKey] = (this.prep[jitKey] || 0) + 1;
+            this.noteCardDone(card, jitKey);          // credit + bonus_pumped beat + persistence
+            this.refundDecision(2500);                 // knowledge is tempo
+            this._pumpOdds(panel, n);                  // the Odds Pump — odometer + spring
+            this._jitIdx[jitKey] = idx + 1;
+            renderJit();
+          });
+        };
+        renderJit();
+        scroller.appendChild(jit);
+        this.fx("jit_opened", { deck_key: jitKey });
+      }
+    }
     const body = document.createElement("div");
     body.style.cssText = "padding:18px 26px 48px;";
     const renderBody = () => { this.clearClipLoops(); body.innerHTML = this.detailHTML(n, cat, neighbors, this._perspective); this.wireClips(body, this._curClips); };
@@ -3360,16 +3430,44 @@ class Component extends DCLogic {
     this._armDeckExpire();
     const el = this.optionsRef.current; if (el) el.innerHTML = "";
     let picked = false;
-    const pick = (opt) => { if (picked) return; picked = true; this._optPick = null; this._optList = null; this.clearTimers(); this.clearOptions(); this.enterAttempt(opt); };
+    const pick = (opt) => { if (picked) return; picked = true; this._optPick = null; this._optList = null; this._decision = null; this.clearTimers(); this.clearOptions(); this.enterAttempt(opt); };
     for (let i = 0; i < opts.length; i++) el.appendChild(this.buildOptionCard(opts[i], pick, dsec, i + 1));
     if (el) el.style.pointerEvents = "auto";
     this._optPick = pick; this._optList = opts;
-    // default auto-pick weighted toward aggressive moves
-    this.after(dsec, () => {
-      if (picked) return;
+    // the decision CLOCK (gdt-driven in _tick, so sheets/pauses freeze it): narrated 3-2-1
+    // expiry + a visible auto-pick pop — never a silent teleport. Drilling refunds time (cap 2).
+    this._decision = { remaining: dsec * 1000, refunds: 0, warned: 0, pick: pick, opts: opts };
+  }
+
+  decisionRemaining() { return this._decision ? Math.max(0, this._decision.remaining / 1000) : 0; }
+  // drilling buys time — a real tempo decision. +2.5s per graded card, hard cap 2 per window.
+  refundDecision(ms) {
+    const d = this._decision; if (!d) return false;
+    const granted = d.refunds < 2;
+    if (granted) { d.refunds++; d.remaining += ms; }
+    this.fx("timer_refund", { granted: granted });
+    return granted;
+  }
+  _tickDecision(gdt) {
+    const d = this._decision;
+    if (!d || !this._optPick) return;
+    d.remaining -= gdt * 1000;
+    const secLeft = Math.ceil(d.remaining / 1000);
+    if (d.remaining > 0 && secLeft <= 3 && d.warned !== secLeft) {
+      d.warned = secLeft;
+      this.fx("expiry_warning", { seconds: secLeft });
+      this.setEvent("Decide", secLeft + "\u2026", "bad");
+    }
+    if (d.remaining <= 0) {
+      const opts = d.opts, pick = d.pick;
+      this._decision = null;
+      this.fx("auto_pick", {});
       let pool = []; for (const o of opts) { const w = Math.max(0.12, 0.5 + o.node.dom); for (let i = 0; i < Math.round(w * 10); i++) pool.push(o); }
-      pick(pool[(this.rng("auto-pick") * pool.length) | 0] || opts[0]);
-    });
+      const chosen = pool[(this.rng("auto-pick") * pool.length) | 0] || opts[0];
+      this.flare(chosen.idx); // the pop: the position moves on, visibly
+      this.setEvent("Time's up", "The position moves on \u2014 " + this.splitName(chosen.node.t).main, "bad");
+      pick(chosen);
+    }
   }
 
   enterAttempt(opt) {
@@ -3755,6 +3853,7 @@ class Component extends DCLogic {
         if (this.alpha < 1) this.alpha = Math.min(1, this.alpha + dt / 1.3);
         const gdt = this.paused ? 0 : dt;
         this.updateTravel(gdt);
+        this._tickDecision(gdt);
         this.updateFlash();
         this.updateRipples();
         this.updateUiShift(dt);
@@ -3762,7 +3861,7 @@ class Component extends DCLogic {
         // (the prezi flight into a dossier happens while the roll is auto-paused)
         this.updateCamera(dt);
         this.trail = this.trail.filter((e) => this.now - e.time < 2.8);
-        this.draw();
+        if (!this._noDraw) this.draw();
       }
     }
   }

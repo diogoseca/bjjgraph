@@ -34,14 +34,25 @@ export class Journey {
       // engage test mode BEFORE the bundle boots: the app checks this flag at construction
       ;(window as any).__NEURAL_TEST__ = true
     })
-    await this.page.goto(path)
+    // journeys don't need the 20MB dossier payload — abort it (the app is absence-guarded).
+    // Register ONCE per page: duplicate handlers + a prior boot's in-flight aborts can cancel
+    // the next navigation (net::ERR_ABORTED on the second boot of a determinism replay).
+    if (!(this.page as any).__ngRouted) {
+      await this.page.route("**/technique-content.js", (r) => r.abort())
+      ;(this.page as any).__ngRouted = true
+    }
+    try {
+      await this.page.goto(path, { waitUntil: "commit" })
+    } catch {
+      await this.page.goto(path, { waitUntil: "commit" }) // one retry: teardown races are transient
+    }
     await this.page.waitForFunction(
       () => {
         const a = (window as W).__neural
         return !!(a && a.nodes && a.nodes.length && typeof a.advance === "function" && a.flashcards && a.flashcards.decks)
       },
       undefined,
-      { timeout: 30_000 },
+      { timeout: 90_000 }, // 13.5MB flashcards on a busy box (CI included) can be slow — logic never needs this long
     )
     if (opts.seedRolls) {
       for (const [tag, values] of Object.entries(opts.seedRolls)) await this.rig(tag, values)
@@ -63,6 +74,10 @@ export class Journey {
 
   /** Land the roll at a named position (rigged start), completing the intro. */
   async land(position: string) {
+    // rig the intro roll's ambient draws too — ai-skill/role/max-moves must not flake across runs
+    await this.rig("ai-skill", [0.5])
+    await this.rig("role", [0])
+    await this.rig("max-moves", [0.5])
     await this.page.evaluate((pos) => {
       const a = (window as W).__neural
       const idx = a.nodes.findIndex((n: any) => n.ty === "positions" && n.t === pos)

@@ -5,9 +5,9 @@ import { defineConfig } from "@playwright/test"
 // real bundle with the deterministic test rails (rigged RNG + manual frame pump).
 export default defineConfig({
   testDir: "./journeys",
-  timeout: 60_000,
+  timeout: 120_000, // per-test ceiling; sim time is pumped, so real time only covers boots + evaluates
   retries: 0, // journeys are deterministic by design — a retry hides a rails bug
-  workers: 2,
+  workers: 1, // deterministic suite; parallel workers only contend for the 13MB payloads
   reporter: [["list"], ["html", { outputFolder: "report", open: "never" }]],
   use: {
     baseURL: "http://localhost:8123",

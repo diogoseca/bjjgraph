@@ -26,12 +26,12 @@ const script = async (j: ReturnType<typeof journey>) => {
   let before = await j.displayedOdds(target)
   for (const o of options) {
     const odds = await j.displayedOdds(o)
-    if (odds <= 75) { target = o; before = odds; break }
+    if (odds >= 20 && odds <= 75) { target = o; before = odds; break } // clear of BOTH clamp zones
   }
   await j.drill(2)
   const after = await j.displayedOdds(target)
-  if (before <= 75) expect(after - before).toBeGreaterThanOrEqual(11) // 2 cards ≈ +12
-  else expect(after).toBeGreaterThanOrEqual(before) // all options near ceiling: monotone only
+  if (before >= 20 && before <= 75) expect(after - before).toBeGreaterThanOrEqual(11) // 2 cards ≈ +12
+  else expect(after).toBeGreaterThanOrEqual(before) // clamp zone: monotone only
   await j.expectBeat("bonus_pumped")
 
   // commit with a rigged-successful resolve + rigged outcome draw
